@@ -132,7 +132,7 @@ Brave включает несколько инструментов защиты 
 
     ![Логотип Safari](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** — браузер по умолчанию на iOS. Он включает в себя [функции конфиденциальности](https://support.apple.com/ru-ru/guide/iphone/iphb01fc3c85/15.0/ios/15.0), такие как: [интеллектуальное предотвращение отслеживания](https://webkit.org/blog/7675/intelligent-tracking-prevention/), отчеты о конфиденциальности, изолированные и эфемерные вкладки частного доступа, частный узел iCloud, а также уменьшение цифровых отпечатков путем представления упрощенной версии конфигурации системы на веб-сайтах, чтобы больше устройств выглядели одинаково.
+    **Safari** — браузер по умолчанию на iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
     
     [:octicons-home-16: Домашняя страница](https://www.apple.com/ru/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/ru/legal/privacy/data/ru/safari/){ .card-link title="Политика конфиденциальности" }
@@ -140,13 +140,27 @@ Brave включает несколько инструментов защиты 
 
 #### Рекомендованные настройки
 
-Эти параметры можно найти в разделе :gear: **Настройки** → **Safari** → **Конфиденциальность и безопасность**.
+These options can be found in :gear: **Settings** → **Safari**
 
-##### Предотвращение перекрёстного отслеживания
+##### Profiles
+
+All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+
+##### Приватность и защита
 
 - [x] Включи **Без перекрестного отслеживания**
 
-Это активирует функцию WebKit: [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Эта функция помогает защититься от нежелательного отслеживания, используя машинное обучение на устройстве для остановки отслеживающих устройств. ITP защищает от многих распространенных угроз, но не блокирует все пути слежения, поскольку разработан таким образом, чтобы не мешать удобству использования сайта.
+    Это активирует функцию WebKit: [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Эта функция помогает защититься от нежелательного отслеживания, используя машинное обучение на устройстве для остановки отслеживающих устройств. ITP защищает от многих распространенных угроз, но не блокирует все пути слежения, поскольку разработан таким образом, чтобы не мешать удобству использования сайта.
+
+- [x] Enable **Require Face ID to Unlock Private Browsing**
+
+    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+
+##### Advanced → Privacy
+
+The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+
+- [x] Select **All Browsing** or **Private Browsing**
 
 ##### Отчет о конфиденциальности
 

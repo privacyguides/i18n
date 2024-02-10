@@ -131,7 +131,7 @@ I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app
 
     ![Safari-logotyp](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** är standardwebbläsaren i iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, and fingerprinting reduction by presenting a simplified version of the system configuration to websites so more devices look identical.
+    **Safari** är standardwebbläsaren i iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
     
     [:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }
@@ -139,13 +139,27 @@ I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app
 
 #### Rekommenderad konfiguration
 
-Dessa alternativ finns i :gear: **Inställningar** → **Safari** → **Sekretess och säkerhet**.
+These options can be found in :gear: **Settings** → **Safari**
 
-##### Förebyggande av spårning på olika webbplatser
+##### Profiles
+
+All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+
+##### Privacy & Security
 
 - [x] Aktivera **Förhindra spårning på andra webbplatser**
 
-Detta aktiverar WebKits [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Funktionen hjälper till att skydda mot oönskad spårning genom att använda maskininlärning på enheten för att stoppa spårare. ITP skyddar mot många vanliga hot, men blockerar inte alla spårningsvägar eftersom den är utformad för att inte störa användbarheten av webbplatser.
+    Detta aktiverar WebKits [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Funktionen hjälper till att skydda mot oönskad spårning genom att använda maskininlärning på enheten för att stoppa spårare. ITP skyddar mot många vanliga hot, men blockerar inte alla spårningsvägar eftersom den är utformad för att inte störa användbarheten av webbplatser.
+
+- [x] Enable **Require Face ID to Unlock Private Browsing**
+
+    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+
+##### Advanced → Privacy
+
+The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+
+- [x] Select **All Browsing** or **Private Browsing**
 
 ##### Integritetsrapport
 

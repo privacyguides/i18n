@@ -132,7 +132,7 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
     ![Safari לוגו](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** הוא דפדפן ברירת המחדל ב - iOS. הוא כולל [תכונות פרטיות](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) כגון [מניעת מעקב חכמה](https://webkit.org/blog/7675/intelligent-tracking-prevention/), דוח פרטיות, כרטיסיות גלישה פרטית מבודדות וארעיות, ממסר פרטי של iCloud והפחתת טביעות אצבע על ידי הצגת גרסה פשוטה של תצורת המערכת לאתרים כך שיותר מכשירים ייראו זהים.
+    **Safari** הוא דפדפן ברירת המחדל ב - iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
     
     [:octicons-home-16: דף הבית](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="מדיניות פרטיות" }
@@ -140,13 +140,27 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 #### תצורה מומלצת
 
-ניתן למצוא אפשרויות אלה ב - :gear: **הגדרות** ← **Safari** ← **פרטיות ואבטחה**.
+These options can be found in :gear: **Settings** → **Safari**
 
-##### מניעת מעקב חוצה אתרים
+##### Profiles
+
+All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+
+##### פרטיות& אבטחה
 
 - [x] אפשר **מנע מעקב בין אתרים**
 
-זה מאפשר [הגנת מעקב אינטליגנטי](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp) של WebKit. התכונה מסייעת בהגנה מפני מעקב לא רצוי על ידי שימוש בלמידת מכונה במכשיר כדי לעצור עוקבים. ITP מגן מפני איומים נפוצים רבים, אך הוא אינו חוסם את כל אפיקי המעקב מכיוון שהוא נועד לא להפריע לשימושיות האתר.
+    זה מאפשר [הגנת מעקב אינטליגנטי](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp) של WebKit. התכונה מסייעת בהגנה מפני מעקב לא רצוי על ידי שימוש בלמידת מכונה במכשיר כדי לעצור עוקבים. ITP מגן מפני איומים נפוצים רבים, אך הוא אינו חוסם את כל אפיקי המעקב מכיוון שהוא נועד לא להפריע לשימושיות האתר.
+
+- [x] Enable **Require Face ID to Unlock Private Browsing**
+
+    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+
+##### Advanced → Privacy
+
+The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+
+- [x] Select **All Browsing** or **Private Browsing**
 
 ##### דוח פרטיות
 

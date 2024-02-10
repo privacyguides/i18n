@@ -13,45 +13,57 @@ cover: desktop.webp
 
 ### Fedora Workstation
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Fedora 로고](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
-    
-    **Fedora Workstation**는 리눅스를 처음 사용하시는 분들에게 추천드리는 배포판입니다. Fedora는 보통 다른 배포판보다 먼저 최신 기술([Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org) 등)을 채택합니다. 최신 기술은 대개 보안, 프라이버시, 사용성을 개선하는 효과를 가져옵니다.
-    
-    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+![Fedora 로고](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+
+**Fedora Workstation**는 리눅스를 처음 사용하시는 분들에게 추천드리는 배포판입니다. Fedora는 보통 다른 배포판보다 먼저 최신 기술([Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org) 등)을 채택합니다. 최신 기술은 대개 보안, 프라이버시, 사용성을 개선하는 효과를 가져옵니다.
+
+[:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Fedora는 반-롤링 릴리스 방식입니다. [GNOME](https://www.gnome.org) 등 일부 패키지는 다음 Fedora 릴리스 전까지 고정되지만, 커널을 포함한 대부분의 패키지는 릴리스 수명 기간 동안 자주 업데이트됩니다. 각각의 Fedora 릴리스는 1년간 지원되며, 6개월마다 새 버전이 출시됩니다.
 
 ### openSUSE Tumbleweed
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![openSUSE Tumbleweed 로고](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
-    
-    **openSUSE Tumbleweed**는 안정적인 롤링 릴리스 배포판입니다.
-    
-    openSUSE Tumbleweed에는 [Btrfs](https://en.wikipedia.org/wiki/Btrfs), [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial)를 사용한 [트랜잭션 업데이트](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) 시스템이 존재하기 때문에 문제가 발생할 경우 스냅샷 롤백이 가능합니다.
-    
-    [:octicons-home-16: 홈페이지](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=문서}
-    [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=기여 }
+![openSUSE Tumbleweed 로고](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+
+**openSUSE Tumbleweed**는 안정적인 롤링 릴리스 배포판입니다.
+
+openSUSE Tumbleweed에는 [Btrfs](https://en.wikipedia.org/wiki/Btrfs), [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial)를 사용한 [트랜잭션 업데이트](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) 시스템이 존재하기 때문에 문제가 발생할 경우 스냅샷 롤백이 가능합니다.
+
+[:octicons-home-16: 홈페이지](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=문서}
+[:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=기여 }
+
+</details>
+
+</div>
 
 Tumbleweed는 각 업데이트가 배포판 스냅샷으로 릴리스되는 롤링 릴리스 방식입니다. 시스템을 업그레이드 할 경우, 새 스냅샷이 다운로드됩니다. 각각의 스냅샷은 [openQA](https://openqa.opensuse.org)에서 일련의 자동화된 테스트를 거쳐 품질이 보장됩니다.
 
 ### Arch Linux
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Arch 로고](assets/img/linux-desktop/archlinux.svg){ align=right }
-    
-    **Arch Linux**는 여러분이 원하는 것만 설치해서 사용할 수 있는, 간결함과 DIY(Do It Yourself) 특성을 지닌 배포판입니다. 자세한 내용은 Arch Linux [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)를 참고해 주세요.
-    
-    [:octicons-home-16: 홈페이지](https://archlinux.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=문서}
-    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=기부 }
+![Arch 로고](assets/img/linux-desktop/archlinux.svg){ align=right }
+
+**Arch Linux**는 여러분이 원하는 것만 설치해서 사용할 수 있는, 간결함과 DIY(Do It Yourself) 특성을 지닌 배포판입니다. 자세한 내용은 Arch Linux [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)를 참고해 주세요.
+
+[:octicons-home-16: 홈페이지](https://archlinux.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=문서}
+[:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=기부 }
+
+</details>
+
+</div>
 
 Arch Linux는 롤링 릴리스 방식입니다. 정해진 릴리스가 존재하지 않으며, 패키지는 매우 자주 업데이트됩니다.
 
@@ -63,15 +75,19 @@ DIY 배포판이므로 여러분은 자신의 시스템을 여러분 자신이 [
 
 ### Fedora Silverblue
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
-    
-    **Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
-    
-    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+
+**Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+
+[:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Silverblue and its variants differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 패키지 관리자는 시스템의 베이스 이미지를 다운로드한 이후 [git](https://en.wikipedia.org/wiki/Git)과 유사한 커밋 트리에서 패키지를 오버레이하는 방식으로 작동합니다. 시스템을 업데이트하는 경우, 새로운 베이스 이미지를 다운로드하고 해당 이미지에 오버레이합니다.
 
@@ -83,15 +99,19 @@ As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fed
 
 ### NixOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![NixOS 로고](assets/img/linux-desktop/nixos.svg){ align=right }
-    
-    NixOS는 재현성과 안전성에 중점을 둔 Nix 패키지 관리자를 기반으로 하는 독립 배포판입니다.
-    
-    [:octicons-home-16: 홈페이지](https://nixos.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=문서}
-    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=기부 }
+![NixOS 로고](assets/img/linux-desktop/nixos.svg){ align=right }
+
+NixOS는 재현성과 안전성에 중점을 둔 Nix 패키지 관리자를 기반으로 하는 독립 배포판입니다.
+
+[:octicons-home-16: 홈페이지](https://nixos.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=문서}
+[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=기부 }
+
+</details>
+
+</div>
 
 NixOS 패키지 매니저는 모든 패키지의 모든 버전을 **Nix Store**의 폴더에 따로 보관합니다. 따라서, 동일한 하나의 패키지를 시스템에 여러 버전으로 설치할 수 있습니다. 패키지 내용이 폴더에 작성되면 해당 폴더는 읽기 전용으로 설정됩니다.
 
@@ -107,16 +127,20 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 ### Whonix
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
-    
-    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
-    
-    [:octicons-home-16: 홈페이지](https://www.whonix.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion 서비스" }
-    [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=문서}
-    [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=기부 }
+![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
+
+**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and anonymity on the internet. Whonix is best used in conjunction with [Qubes OS](#qubes-os).
+
+[:octicons-home-16: 홈페이지](https://www.whonix.org/){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion 서비스" }
+[:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=문서}
+[:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=기부 }
+
+</details>
+
+</div>
 
 Whonix는 'Workstation'과 Tor 'Gateway'라는 두 개의 가상 머신으로 구성되어 실행됩니다. Workstation 에서 발생하는 모든 통신은 반드시 Tor Gateway를 통과합니다. 즉, Workstation이 만약 멀웨어에 의해 손상된다 할지라도, 실제 IP 주소는 노출되지 않습니다.
 
@@ -126,15 +150,19 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 ### Tails
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
-    
-    **Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](tor.md) to preserve privacy and anonymity while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
-    
-    [:octicons-home-16: 홈페이지](https://tails.boum.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=문서}
-    [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=기부 }
+![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
+
+**Tails** is a live operating system based on Debian that routes all communications through Tor, which can boot on on almost any computer from a DVD, USB stick, or SD card installation. It uses [Tor](tor.md) to preserve privacy and anonymity while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
+
+[:octicons-home-16: 홈페이지](https://tails.boum.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=문서}
+[:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=기부 }
+
+</details>
+
+</div>
 
 Tails는 휘발성(디스크에 아무것도 기록되지 않음) 특성으로 인해 포렌식 방어에 적합하지만, Whonix 처럼 특별히 보안이 강화된 배포판은 아닙니다. Whonix에 비해 많은 익명성, 보안 기능이 부족하며, 업데이트 빈도 또한 훨씬 낮습니다(Tails는 6주에 한 번 업데이트가 제공됩니다). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
 
@@ -146,18 +174,22 @@ Tails는 재부팅 시마다 완전히 초기화되도록 설계되었습니다.
 
 ### Qubes OS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
-    
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
-    
-    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+
+**Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
+
+[:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
@@ -167,17 +199,21 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
-    
-    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for [Whonix](#whonix).
-    
-    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+
+**Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. It covers a lot of privacy and hardening recommendations by default. It also serves as the base OS for [Whonix](#whonix).
+
+[:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 ## 평가 기준
 

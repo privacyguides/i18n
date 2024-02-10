@@ -1,8 +1,8 @@
 ---
-meta_title: "מנועי חיפוש מומלצים: חלופות גוגל אנונימיות - Privacy Guides"
+meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
 title: "מנועי חיפוש"
 icon: material/search-web
-description: מנועי החיפוש המכבדים את הפרטיות אינם בונים פרופיל פרסום על סמך החיפושים שלך.
+description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 cover: search-engines.webp
 ---
 
@@ -14,37 +14,45 @@ cover: search-engines.webp
 
 ## חיפוש Brave
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave Search לוגו](assets/img/search-engines/brave-search.svg){ align=right }
-    
-    **Brave Search** פותח על ידי Brave ומגיש תוצאות בעיקר מאינדקס עצמאי משלו. האינדקס מותאם לחיפוש Google ולכן עשוי לספק תוצאות מדויקות יותר מבחינה הקשרית בהשוואה לחלופות אחרות.
-    
-    Brave Search כולל תכונות ייחודיות כגון דיונים, המדגישים תוצאות הממוקדות בשיחה - כגון הודעות בפורום.
-    
-    אנו ממליצים להשבית את [מדדי שימוש אנונימיים](https://search.brave.com/help/usage-metrics) מכיוון שהוא מופעל כברירת מחדל וניתן להשבית אותו בהגדרות.
-    
-    [:octicons-home-16: דף הבית](https://search.brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=תיעוד}
+![Brave Search לוגו](assets/img/search-engines/brave-search.svg){ align=right }
+
+**Brave Search** פותח על ידי Brave ומגיש תוצאות בעיקר מאינדקס עצמאי משלו. האינדקס מותאם לחיפוש Google ולכן עשוי לספק תוצאות מדויקות יותר מבחינה הקשרית בהשוואה לחלופות אחרות.
+
+Brave Search כולל תכונות ייחודיות כגון דיונים, המדגישים תוצאות הממוקדות בשיחה - כגון הודעות בפורום.
+
+אנו ממליצים להשבית את [מדדי שימוש אנונימיים](https://search.brave.com/help/usage-metrics) מכיוון שהוא מופעל כברירת מחדל וניתן להשבית אותו בהגדרות.
+
+[:octicons-home-16: דף הבית](https://search.brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="מדיניות פרטיות" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 Brave Search מבוסס בארצות הברית. [מדיניות הפרטיות](https://search.brave.com/help/privacy-policy) שלהם קובעת שהם אוספים מדדי שימוש מצטברים, הכוללים את מערכת ההפעלה והדפדפן שבשימוש, אולם לא נאסף מידע המאפשר זיהוי אישי. כתובות IP מעובדות באופן זמני, אך אינן נשמרות.
 
 ## DuckDuckGo
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![DuckDuckGo לוגו](assets/img/search-engines/duckduckgo.svg){ align=right }
-    
-    **DuckDuckGo** היא אחת האפשרויות היותר מיינסטרים במנועי חיפוש פרטיים. תכונות החיפוש הבולטות של DuckDuckGo כוללות [bangs](https://duckduckgo.com/bang) והרבה [תשובות מיידיות](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). מנוע החיפוש מסתמך על Bing API מסחרי כדי להגיש את רוב התוצאות, אך הוא משתמש במספר [מקורות אחרים](https://help.duckduckgo.com/results/sources/) לתשובות מיידיות ולתוצאות אחרות שאינן ראשוניות.
-    
-    DuckDuckGo הוא מנוע החיפוש המוגדר כברירת מחדל עבור דפדפן Tor והוא אחת האפשרויות הבודדות הזמינות בדפדפן הספארי של אפל.
-    
-    [:octicons-home-16: דף הבית](https://duckduckgo.com){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=תיעוד}
+![DuckDuckGo לוגו](assets/img/search-engines/duckduckgo.svg){ align=right }
+
+**DuckDuckGo** היא אחת האפשרויות היותר מיינסטרים במנועי חיפוש פרטיים. תכונות החיפוש הבולטות של DuckDuckGo כוללות [bangs](https://duckduckgo.com/bang) והרבה [תשובות מיידיות](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). מנוע החיפוש מסתמך על Bing API מסחרי כדי להגיש את רוב התוצאות, אך הוא משתמש במספר [מקורות אחרים](https://help.duckduckgo.com/results/sources/) לתשובות מיידיות ולתוצאות אחרות שאינן ראשוניות.
+
+DuckDuckGo הוא מנוע החיפוש המוגדר כברירת מחדל עבור דפדפן Tor והוא אחת האפשרויות הבודדות הזמינות בדפדפן הספארי של אפל.
+
+[:octicons-home-16: דף הבית](https://duckduckgo.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="מדיניות פרטיות" }
+[:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 DuckDuckGo מבוססת בארצות הברית. [מדיניות הפרטיות](https://duckduckgo.com/privacy) שלהם קובעת **שהם** שומרים את החיפושים שלך למטרות שיפור מוצרים, אך לא את כתובת ה-IP שלך או כל מידע מזהה אישי אחר.
 
@@ -52,15 +60,19 @@ DuckDuckGo מציעה שתי [גרסאות אחרות](https://help.duckduckgo.c
 
 ## SearXNG
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![SearXNG לוגו](assets/img/search-engines/searxng.svg){ align=right }
-    
-    **SearXNG** הוא מנוע חיפוש מטה-חיפוש, מתארח בעצמו, קוד-פתוח, אוסף את התוצאות של מנועי חיפוש אחרים מבלי לאחסן מידע בעצמו. זהו מזלג מתוחזק פעיל של [SearX](https://github.com/searx/searx).
-    
-    [:octicons-home-16: דף הבית](https://searxng.org){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://searx.space/){ .card-link title="מופעים ציבוריים"}
-    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="קוד מקור" }
+![SearXNG לוגו](assets/img/search-engines/searxng.svg){ align=right }
+
+**SearXNG** הוא מנוע חיפוש מטה-חיפוש, מתארח בעצמו, קוד-פתוח, אוסף את התוצאות של מנועי חיפוש אחרים מבלי לאחסן מידע בעצמו. זהו מזלג מתוחזק פעיל של [SearX](https://github.com/searx/searx).
+
+[:octicons-home-16: דף הבית](https://searxng.org){ .md-button .md-button--primary }
+[:octicons-server-16:](https://searx.space/){ .card-link title="מופעים ציבוריים"}
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="קוד מקור" }
+
+</details>
+
+</div>
 
 SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שמהם הוא צובר. שאילתות החיפוש שלך עדיין יישלחו למנועי החיפוש שמהם SearXNG מקבל את תוצאותיו.
 
@@ -70,20 +82,27 @@ SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שמהם �
 
 ## Startpage
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Startpage לוגו](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage לוגו](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
-    
-    **Startpage** הוא מנוע חיפוש פרטי הידוע בשירות [Google ו-Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage -and-your-search-partners-like-Google-and-Microsoft-Bing-) תוצאות החיפוש.  אחת התכונות הייחודיות של Startpage היא [תצוגה אנונימית](https://www.startpage.com/en/anonymous-view/), שמשקיעה מאמצים בסטנדרטיזציה של פעילות המשתמשים כדי להקשות על זיהוי ייחודי. התכונה יכולה להיות שימושית להסתרת [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) מאפייני הרשת והדפדפן. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
-    
-    [:octicons-home-16: דף הבית](https://www.startpage.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=תיעוד}
+![Startpage לוגו](assets/img/search-engines/startpage.svg#only-light){ align=right }
+![Startpage לוגו](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-!!! warning "אזהרה"
+**Startpage** הוא מנוע חיפוש פרטי הידוע בשירות [Google ו-Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage -and-your-search-partners-like-Google-and-Microsoft-Bing-) תוצאות החיפוש.  אחת התכונות הייחודיות של Startpage היא [תצוגה אנונימית](https://www.startpage.com/en/anonymous-view/), שמשקיעה מאמצים בסטנדרטיזציה של פעילות המשתמשים כדי להקשות על זיהוי ייחודי. התכונה יכולה להיות שימושית להסתרת [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) מאפייני הרשת והדפדפן. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
 
-    Startpage מגביל באופן קבוע את גישת השירות לכתובות IP מסוימות, כגון כתובות IP שמורות ל-VPN או Tor. [DuckDuckGo](#duckduckgo) ו-[Brave Search](#brave-search) הן אפשרויות ידידותיות יותר אם מודל האיום שלך דורש הסתרת כתובת ה-IP שלך מספק החיפוש.
+[:octicons-home-16: דף הבית](https://www.startpage.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="מדיניות פרטיות" }
+[:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=תיעוד}
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Startpage מגביל באופן קבוע את גישת השירות לכתובות IP מסוימות, כגון כתובות IP שמורות ל-VPN או Tor. [DuckDuckGo](#duckduckgo) ו-[Brave Search](#brave-search) הן אפשרויות ידידותיות יותר אם מודל האיום שלך דורש הסתרת כתובת ה-IP שלך מספק החיפוש.
+
+</div>
 
 Startpage מבוסס בהולנד. לפי [מדיניות הפרטיות](https://www.startpage.com/en/privacy-policy/) שלהם, הם רושמים פרטים כגון: מערכת הפעלה, סוג הדפדפן והשפה. הם לא רושמים את כתובת ה-IP שלך, שאילתות חיפוש או מידע אישי מזהה אחר.
 
@@ -93,9 +112,12 @@ Startpage מבוסס בהולנד. לפי [מדיניות הפרטיות](https:
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 ### דרישות מינימליות
 

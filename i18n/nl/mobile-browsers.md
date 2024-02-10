@@ -132,7 +132,7 @@ Op iOS is elke app die op het web kan surfen beperkt tot [](https://developer.ap
 
     ![Safari-logo](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** is de standaardbrowser in iOS. Het bevat [privacy functies](https://support.apple.com/guide/iphone/browse-web-privately-iphb01fc3c85/15.0/ios/15.0) zoals [Intelligent Tracking Prevention](https://webkit. rg/blog/7675/intelligent-tracking-preventie/), Privacy report, geïsoleerd privébrowsing tabbladen, iCloud Private Relay, en vermindering van vingerafdrukken door een vereenvoudigde versie van de systeemconfiguratie aan websites voor te leggen, zodat meer apparaten er identiek uitzien.
+    **Safari** is de standaardbrowser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
     
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacybeleid" }
@@ -140,13 +140,27 @@ Op iOS is elke app die op het web kan surfen beperkt tot [](https://developer.ap
 
 #### Aanbevolen configuratie
 
-Deze opties zijn te vinden onder :gear: **Instellingen** → **Safari** → **Privacy en beveiliging**.
+These options can be found in :gear: **Settings** → **Safari**
 
-##### Preventie van Cross-Site Tracking
+##### Profiles
+
+All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+
+##### Privacy & beveiliging
 
 - [x] Activeer **Voorkom Cross-Site Tracking**
 
-Dit maakt WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)mogelijk. De functie helpt beschermen tegen ongewenste tracking door gebruik te maken van on-device machine learning om trackers te stoppen. ITP beschermt tegen veel voorkomende bedreigingen, maar blokkeert niet alle tracking-wegen omdat het is ontworpen om de bruikbaarheid van websites niet te hinderen.
+    Dit maakt WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)mogelijk. De functie helpt beschermen tegen ongewenste tracking door gebruik te maken van on-device machine learning om trackers te stoppen. ITP beschermt tegen veel voorkomende bedreigingen, maar blokkeert niet alle tracking-wegen omdat het is ontworpen om de bruikbaarheid van websites niet te hinderen.
+
+- [x] Enable **Require Face ID to Unlock Private Browsing**
+
+    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+
+##### Advanced → Privacy
+
+The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+
+- [x] Select **All Browsing** or **Private Browsing**
 
 ##### Privacyrapport
 

@@ -14,37 +14,45 @@ Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your thr
 
 ## Brave Search
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
-    
-    **Brave Search** is developed by Brave and serves results primarily from its own, independent index. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
-    
-    Brave Search includes unique features such as Discussions, which highlights conversation-focused results—such as forum posts.
-    
-    We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
-    
-    [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
+![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
+
+**Brave Search** is developed by Brave and serves results primarily from its own, independent index. The index is optimized against Google Search and therefore may provide more contextually accurate results compared to other alternatives.
+
+Brave Search includes unique features such as Discussions, which highlights conversation-focused results—such as forum posts.
+
+We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
+
+[:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 Brave Search is based in the United States. Their [privacy policy](https://search.brave.com/help/privacy-policy) states they collect aggregated usage metrics, which includes the operating system and browser in use, however no personally identifiable information is collected. IP addresses are temporarily processed, but are not retained.
 
 ## DuckDuckGo
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
-    
-    **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
-    
-    DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
-    
-    [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
+![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
+
+**DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
+
+DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
+
+[:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 DuckDuckGo is based in the United States. Their [privacy policy](https://duckduckgo.com/privacy) states they **do** log your searches for product improvement purposes, but not your IP address or any other personally identifying information.
 
@@ -52,15 +60,19 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 
 ## SearXNG
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
-    
-    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing any information itself. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
-    
-    [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
-    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+
+**SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing any information itself. It is an actively maintained fork of [SearX](https://github.com/searx/searx).
+
+[:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
+[:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+
+</details>
+
+</div>
 
 SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
 
@@ -70,20 +82,27 @@ When you are using a SearXNG instance, be sure to go read their privacy policy. 
 
 ## Startpage
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
-    
-    **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) search results.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
-    
-    [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-!!! warning
+**Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) search results.  One of Startpage's unique features is the [Anonymous View](https://www.startpage.com/en/anonymous-view/), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Unlike the name suggests, the feature should not be relied upon for anonymity. If you are looking for anonymity, use the [Tor Browser](tor.md#tor-browser) instead.
 
-    Startpage regularly limits service access to certain IP addresses, such as IPs reserved for VPNs or Tor. [DuckDuckGo](#duckduckgo) and [Brave Search](#brave-search) are friendlier options if your threat model requires hiding your IP address from the search provider.
+[:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Startpage regularly limits service access to certain IP addresses, such as IPs reserved for VPNs or Tor. [DuckDuckGo](#duckduckgo) and [Brave Search](#brave-search) are friendlier options if your threat model requires hiding your IP address from the search provider.
+
+</div>
 
 Startpage is based in the Netherlands. According to their [privacy policy](https://www.startpage.com/en/privacy-policy/), they log details such as: operating system, type of browser, and language. They do not log your IP address, search queries, or other personally identifying information.
 
@@ -93,9 +112,12 @@ Startpage's majority shareholder is System1 who is an adtech company. We don't b
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
-!!! example "Ez a szakasz új"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
+Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
+
+</div>
 
 ### Alap elvárások
 

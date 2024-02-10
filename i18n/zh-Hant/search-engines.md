@@ -1,8 +1,8 @@
 ---
-meta_title: "推薦搜尋引擎: 匿名的 Google 替代方案 - Privacy Guides"
+meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
 title: "搜尋引擎"
 icon: material/search-web
-description: 這些尊重隱私的搜尋引擎不會根據您的搜尋建立廣告剖繪。
+description: These privacy-respecting search engines don't build an advertising profile based on your searches.
 cover: search-engines.webp
 ---
 
@@ -14,37 +14,45 @@ cover: search-engines.webp
 
 ## Brave Search
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
-    
-    **Brave Search** 由 Brave 開發，主要提供自己獨立索引的結果。 該索引是針對 Google 搜索進行優化，因此與其他替代方案相比，可以提供更具上下文準確性的結果。
-    
-    Brave Search 包括獨特的功能，如討論，突出了對話為中心的結果，如論壇文章。
-    
-    我們建議您停用 [匿名使用指標](https://search.brave.com/help/usage-metrics) ，因為它預設為啟用，可在設定中停用。
-    
-    [:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
+![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
+
+**Brave Search** 由 Brave 開發，主要提供自己獨立索引的結果。 該索引是針對 Google 搜索進行優化，因此與其他替代方案相比，可以提供更具上下文準確性的結果。
+
+Brave Search 包括獨特的功能，如討論，突出了對話為中心的結果，如論壇文章。
+
+我們建議您停用 [匿名使用指標](https://search.brave.com/help/usage-metrics) ，因為它預設為啟用，可在設定中停用。
+
+[:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 Brave Search 總部在美國。 他們的 [隱私政策](https://search.brave.com/help/privacy-policy) 規定他們收集聚合使用指標，其中包括正在使用的作業系統和瀏覽器，但沒有收集個人識別資訊。 IP位址會暫時處理，但不會保留。
 
 ## DuckDuckGo
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
-    
-    **DuckDuckGo** 最主流的隱私搜尋引擎選項之一。 著名的 DuckDuckGo 搜索功能包括 [bangs](https://duckduckgo.com/bang)和許多[即時答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/)。 搜尋引擎依賴商業 Bing API 來提供大多數結果，但它確實使用許多[其他來源](https://help.duckduckgo.com/results/sources/ )來獲取即時答案和其他非主要結果。
-    
-    DuckDuckGo 是 Tor瀏覽器的預設搜尋引擎，也是 Apple Safari 瀏覽器上為數不多的可用選項之一。
-    
-    [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
+![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
+
+**DuckDuckGo** 最主流的隱私搜尋引擎選項之一。 著名的 DuckDuckGo 搜索功能包括 [bangs](https://duckduckgo.com/bang)和許多[即時答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/)。 搜尋引擎依賴商業 Bing API 來提供大多數結果，但它確實使用許多[其他來源](https://help.duckduckgo.com/results/sources/ )來獲取即時答案和其他非主要結果。
+
+DuckDuckGo 是 Tor瀏覽器的預設搜尋引擎，也是 Apple Safari 瀏覽器上為數不多的可用選項之一。
+
+[:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 Brave Search 總部在美國。 他們的[隱私政策](https://duckduckgo.com/privacy)聲明他們**確實** 記錄使用者搜尋以改善其產品，但不會記錄 IP 地址或其它可識別的個人資訊。
 
@@ -52,15 +60,19 @@ DuckDuckGo 提供兩種 [其它版本](https://help.duckduckgo.com/features/non-
 
 ## SearXNG
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
-    
-    **SearXNG** 是一個開源、自我託管的中繼搜索引擎，聚合其他搜索引擎的結果，而自身不儲存任何資訊。 它是一個積極維護的 [SearX](https://github.com/searx/searx) 分支。
-    
-    [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
-    [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+
+**SearXNG** 是一個開源、自我託管的中繼搜索引擎，聚合其他搜索引擎的結果，而自身不儲存任何資訊。 它是一個積極維護的 [SearX](https://github.com/searx/searx) 分支。
+
+[:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
+[:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+
+</details>
+
+</div>
 
 SearXNG 是您和它所聚合的搜尋引擎之間的代理。 您的搜尋查詢仍會傳送至 SearXNG 取得搜尋結果的搜尋引擎。
 
@@ -70,20 +82,27 @@ SearXNG 是您和它所聚合的搜尋引擎之間的代理。 您的搜尋查�
 
 ## Startpage
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
-    
-    **Startpage**為私密搜尋引擎，提供[Google 與 Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) 的搜尋結果。  Startpage 的獨特功能之一是 [匿名視圖](https://www.startpage.com/en/anonymous-view/) ，它努力標準化用戶活動，使其更難被突出識別。 這個功能可用來隱藏 [某些](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) 網路與瀏覽器特徵。 不像名字所暗示的，該功能不應該依賴於匿名。 如果您正在尋找匿名性，請改用 [Tor瀏覽器](tor.md#tor-browser)。
-    
-    [:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-!!! warning "警告"
+**Startpage**為私密搜尋引擎，提供[Google 與 Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) 的搜尋結果。  Startpage 的獨特功能之一是 [匿名視圖](https://www.startpage.com/en/anonymous-view/) ，它努力標準化用戶活動，使其更難被突出識別。 這個功能可用來隱藏 [某些](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) 網路與瀏覽器特徵。 不像名字所暗示的，該功能不應該依賴於匿名。 如果您正在尋找匿名性，請改用 [Tor瀏覽器](tor.md#tor-browser)。
 
-    Startpage 定期限制服務對某些 IP位址的存取，例如為 VPN 或Tor 保留的IP。 [DuckDuckGo](#duckduckgo) 和 [Brave Search](#brave-search) 是更友好的選項，如果您的威脅模型需要向搜索提供商隱藏您的IP位址。
+[:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning "警告"</p>
+
+Startpage 定期限制服務對某些 IP位址的存取，例如為 VPN 或Tor 保留的IP。 [DuckDuckGo](#duckduckgo) 和 [Brave Search](#brave-search) 是更友好的選項，如果您的威脅模型需要向搜索提供商隱藏您的IP位址。
+
+</div>
 
 Startpage位於荷蘭。 根據他們的 [隱私政策](https://www.startpage.com/en/privacy-policy/)，他們記錄細節如：作業系統、瀏覽器類型和語言。 他們不會記錄您的IP位址、搜尋查詢或其他個人識別資訊。
 
@@ -96,12 +115,12 @@ Startpage 大股東是System1，它是一家廣告技術公司。 我們不認�
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "此部分是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">此部份新增</p>
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
-    
+我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-
+</div>
 
 ### 最低合格要求
 

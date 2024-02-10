@@ -13,45 +13,57 @@ Linux-distributies worden algemeen aanbevolen voor privacybescherming en softwar
 
 ### Fedora Werkstation
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
-    
-    **Fedora Workstation** is onze aanbevolen distributie voor mensen die nieuw zijn met Linux. Fedora adopteert over het algemeen nieuwere technologieën dan andere distributies, b.v. [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), en binnenkort. Deze nieuwe technologieën gaan vaak gepaard met verbeteringen op het gebied van veiligheid, privacy en bruikbaarheid in het algemeen.
-    
-    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+
+**Fedora Workstation** is onze aanbevolen distributie voor mensen die nieuw zijn met Linux. Fedora adopteert over het algemeen nieuwere technologieën dan andere distributies, b.v. [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), en binnenkort. Deze nieuwe technologieën gaan vaak gepaard met verbeteringen op het gebied van veiligheid, privacy en bruikbaarheid in het algemeen.
+
+[:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Fedora heeft een semi-rollende release cyclus. Terwijl sommige pakketten zoals [GNOME](https://www.gnome.org) bevroren worden tot de volgende Fedora uitgave, worden de meeste pakketten (inclusief de kernel) regelmatig bijgewerkt gedurende de levensduur van de uitgave. Elke Fedora release wordt een jaar lang ondersteund, met elke 6 maanden een nieuwe versie.
 
 ### openSUSE Tumbleweed
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
-    
-    **openSUSE Tumbleweed** is een stabiele distributie met rollende release.
-    
-    openSUSE Tumbleweed heeft een [transactionele update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) systeem dat gebruik maakt van [Btrfs](https://en.wikipedia.org/wiki/Btrfs) en [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) om ervoor te zorgen dat snapshots kunnen worden teruggerold mocht er een probleem zijn.
-    
-    [:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentatie}
-    [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Bijdragen}
+![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+
+**openSUSE Tumbleweed** is een stabiele distributie met rollende release.
+
+openSUSE Tumbleweed heeft een [transactionele update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) systeem dat gebruik maakt van [Btrfs](https://en.wikipedia.org/wiki/Btrfs) en [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) om ervoor te zorgen dat snapshots kunnen worden teruggerold mocht er een probleem zijn.
+
+[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentatie}
+[:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Bijdragen}
+
+</details>
+
+</div>
 
 Tumbleweed volgt een rollend release-model waarbij elke update wordt vrijgegeven als een momentopname van de distributie. Wanneer je jouw systeem upgrade, wordt een nieuwe momentopname gedownload. Elke momentopname wordt door [openQA](https://openqa.opensuse.org) aan een reeks geautomatiseerde tests onderworpen om de kwaliteit ervan te verzekeren.
 
 ### Arch Linux
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
-    
-    **Arch Linux** is een lichtgewicht, doe-het-zelf (DIY) distributie, wat betekent dat u alleen krijgt wat u installeert. Zie voor meer informatie hun [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
-    
-    [:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentatie}
-    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Bijdragen}
+![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
+
+**Arch Linux** is een lichtgewicht, doe-het-zelf (DIY) distributie, wat betekent dat u alleen krijgt wat u installeert. Zie voor meer informatie hun [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+
+[:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentatie}
+[:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Bijdragen}
+
+</details>
+
+</div>
 
 Arch Linux heeft een doorlopende uitgavecyclus. Er is geen vast releaseschema en pakketten worden zeer frequent bijgewerkt.
 
@@ -63,15 +75,19 @@ Een groot deel van [Arch Linux's pakketten](https://reproducible.archlinux.org) 
 
 ### Fedora Silverblue
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
-    
-    **Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
-    
-    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+
+**Fedora Silverblue** is an immutable variant of Fedora with a strong focus on container workflows and the [GNOME](https://www.gnome.org/) desktop environment. If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+
+[:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Silverblue and its variants differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). De `rpm-ostree` pakketbeheerder werkt door een basis image voor het systeem te downloaden, en er dan pakketten overheen te leggen in een [git](https://en.wikipedia.org/wiki/Git)-achtige commit tree. Wanneer het systeem wordt bijgewerkt, wordt een nieuw basisbeeld gedownload en worden de overlays op dat nieuwe beeld toegepast.
 
@@ -83,15 +99,19 @@ Als alternatief voor Flatpaks is er de optie [Toolbox](https://docs.fedoraprojec
 
 ### NixOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
-    
-    NixOS is een onafhankelijke distributie gebaseerd op de Nix pakketbeheerder met een focus op reproduceerbaarheid en betrouwbaarheid.
-    
-    [:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentatie}
-    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Bijdragen}
+![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
+
+NixOS is een onafhankelijke distributie gebaseerd op de Nix pakketbeheerder met een focus op reproduceerbaarheid en betrouwbaarheid.
+
+[:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentatie}
+[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Bijdragen}
+
+</details>
+
+</div>
 
 De pakketbeheerder van NixOS bewaart elke versie van elk pakket in een andere map in de **Nix store**. Hierdoor kun je verschillende versies van hetzelfde pakket op jouw systeem geïnstalleerd hebben. Nadat de inhoud van het pakket naar de map is geschreven, wordt de map alleen-lezen gemaakt.
 
@@ -107,16 +127,20 @@ Nix is een source-based package manager; als er geen pre-built beschikbaar is in
 
 ### Whonix
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
-    
-    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. Het is gefocust op privacy, veiligheid en anonimiteit op het internet te bieden. Whonix wordt het best gebruikt in combinatie met [Qubes OS](#qubes-os).
-    
-    [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentatie}
-    [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Dragen bij }
+![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
+
+**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. Het is gefocust op privacy, veiligheid en anonimiteit op het internet te bieden. Whonix wordt het best gebruikt in combinatie met [Qubes OS](#qubes-os).
+
+[:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentatie}
+[:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Dragen bij }
+
+</details>
+
+</div>
 
 Whonix is bedoeld om te draaien als twee virtuele machines: een "Workstation" en een Tor "Gateway" Alle communicatie van het werkstation moet via de Tor-gateway gaan. Dit betekent dat zelfs als het werkstation wordt gecompromitteerd door malware, het ware IP-adres verborgen blijft.
 
@@ -126,13 +150,17 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 ### Tails
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
-    
-    **Tails** is een live besturingssysteem gebaseerd op Debian dat alle communicatie via Tor laat lopen. Hij kan op bijna elke computer opstarten vanaf een DVD, USB-stick of SD-kaart.
-    
-    Het is bedoeld om de privacy en anonimiteit te bewaren, censuur te omzeilen en geen sporen achter te laten op de computer waarop het wordt gebruikt.
+![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
+
+**Tails** is een live besturingssysteem gebaseerd op Debian dat alle communicatie via Tor laat lopen. Hij kan op bijna elke computer opstarten vanaf een DVD, USB-stick of SD-kaart.
+
+Het is bedoeld om de privacy en anonimiteit te bewaren, censuur te omzeilen en geen sporen achter te laten op de computer waarop het wordt gebruikt.
+
+</details>
+
+</div>
 
 Het is de bedoeling dat Tails zichzelf reset na elke reboot. Versleutelde [persistente opslag](https://tails. boum. org/doc/first_steps/persistence/index. en. html) kan worden geconfigureerd om bepaalde gegevens op te slaan. Een Tails-systeem dat door malware is aangetast, kan de transparante proxy omzeilen, waardoor de gebruiker kan worden gedeanonimiseerd.
 
@@ -144,18 +172,22 @@ Het is de bedoeling dat Tails zichzelf volledig reset na elke herstart. Een vers
 
 ### Qubes OS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
-    
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
-    
-    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+
+**Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
+
+[:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
@@ -165,17 +197,21 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
-    
-    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. Het dekt standaard een heleboel aanbevelingen voor privacy en hardening. It also serves as the base OS for [Whonix](#whonix).
-    
-    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+
+**Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. Het dekt standaard een heleboel aanbevelingen voor privacy en hardening. It also serves as the base OS for [Whonix](#whonix).
+
+[:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 ## Criteria
 

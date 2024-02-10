@@ -132,7 +132,7 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
     ![Safari logo](assets/img/browsers/safari.svg){ align=right }
     
-    **Safari** 是iOS 預設瀏覽器。 它包含 [隱私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) 例如 [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/)、隱私報告、暫持隔離私密瀏覽標籤分頁、iCloud Private Relay 以及透過簡單設置來減除瀏覽器識別特徵好讓網頁無法查察設備突出特徵。
+    **Safari** 是iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
     
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
@@ -140,13 +140,27 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 #### 建議配置
 
-這些選項可在 :gear: **設定** → **Safari** → **隱私權和安全性**中找到。
+These options can be found in :gear: **Settings** → **Safari**
 
-##### 跨網站追蹤預防
+##### Profiles
+
+All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+
+##### 隱私 & 安全
 
 - [x] 啓用 **防止跨網站跟蹤**
 
-這將啟用 WebKit [智慧型跟蹤保護](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能透過設備的機器學習來阻止跟蹤器不必要的跟蹤。 ITP 可以防止許多常見的威脅，但它不會阻止所有跟蹤途徑，因為它的設計不會干擾網站的可用性。
+    這將啟用 WebKit [智慧型跟蹤保護](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能透過設備的機器學習來阻止跟蹤器不必要的跟蹤。 ITP 可以防止許多常見的威脅，但它不會阻止所有跟蹤途徑，因為它的設計不會干擾網站的可用性。
+
+- [x] Enable **Require Face ID to Unlock Private Browsing**
+
+    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+
+##### Advanced → Privacy
+
+The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+
+- [x] Select **All Browsing** or **Private Browsing**
 
 ##### 隱私報告
 

@@ -13,45 +13,57 @@ cover: desktop.webp
 
 ### Fedora Workstation
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Fedora](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
-    
-    **Fedora Workstation** - наш рекомендуемый дистрибутив для начинающих пользователей Linux. Fedora обычно внедряет новые технологии раньше других дистрибутивов, например [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). Эти новые технологии часто улучшают безопасность, конфиденциальность и удобство использования в целом.
-    
-    [:octicons-home-16: Домашняя страница](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Документация}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Поддержать }
+![Логотип Fedora](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+
+**Fedora Workstation** - наш рекомендуемый дистрибутив для начинающих пользователей Linux. Fedora обычно внедряет новые технологии раньше других дистрибутивов, например [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). Эти новые технологии часто улучшают безопасность, конфиденциальность и удобство использования в целом.
+
+[:octicons-home-16: Домашняя страница](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Документация}
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Поддержать }
+
+</details>
+
+</div>
 
 Fedora имеет \[полу-плавающий\](https://ru.wikipedia.org/wiki/Rolling_release) цикл релиза. В то время как некоторые пакеты, такие как [GNOME](https://www.gnome.org), замораживаются до следующего выпуска Fedora, большинство пакетов (включая ядро) часто обновляются в течение всего срока жизни релиза. Каждый выпуск Fedora поддерживается в течение одного года, а новая версия выходит каждые 6 месяцев.
 
 ### openSUSE Tumbleweed
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип openSUSE Tumbleweed](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
-    
-    **openSUSE Tumbleweed** - стабильный дистрибутив с [плавающей системой релизов](https://ru.wikipedia.org/wiki/Rolling_release).
-    
-    openSUSE Tumbleweed имеет систему [транзакционного обновления](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/), которая использует [Btrfs](https://en.wikipedia.org/wiki/Btrfs) и [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) для обеспечения возможности отката моментальных снимков системы в случае возникновения проблем.
-    
-    [:octicons-home-16: Домашняя страница](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Документация}
-    [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Поддержать }
+![Логотип openSUSE Tumbleweed](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+
+**openSUSE Tumbleweed** - стабильный дистрибутив с [плавающей системой релизов](https://ru.wikipedia.org/wiki/Rolling_release).
+
+openSUSE Tumbleweed имеет систему [транзакционного обновления](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/), которая использует [Btrfs](https://en.wikipedia.org/wiki/Btrfs) и [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) для обеспечения возможности отката моментальных снимков системы в случае возникновения проблем.
+
+[:octicons-home-16: Домашняя страница](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Документация}
+[:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Поддержать }
+
+</details>
+
+</div>
 
 Tumbleweed следует модели плавающего релиза, когда каждое обновление выпускается как снимок дистрибутива. При обновлении системы скачивается новый снимок. Каждый снимок проходит через серию автоматизированных тестов [openQA](https://openqa.opensuse.org) для обеспечения его качества.
 
 ### Arch Linux
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Arch](assets/img/linux-desktop/archlinux.svg){ align=right }
-    
-    **Arch Linux** - это легкий, "сделай сам" (DIY) дистрибутив, означающий, что вы получаете только то, что устанавливаете. Более подробную информацию можно найти на их сайте [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
-    
-    [:octicons-home-16: Домашняя страница](https://archlinux.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Документация}
-    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Поддержать }
+![Логотип Arch](assets/img/linux-desktop/archlinux.svg){ align=right }
+
+**Arch Linux** - это легкий, "сделай сам" (DIY) дистрибутив, означающий, что вы получаете только то, что устанавливаете. Более подробную информацию можно найти на их сайте [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+
+[:octicons-home-16: Домашняя страница](https://archlinux.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Документация}
+[:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Поддержать }
+
+</details>
+
+</div>
 
 Arch Linux имеет плавающий цикл релиза. Не существует фиксированного графика релиза, пакеты обновляются очень часто.
 
@@ -63,15 +75,19 @@ Arch Linux имеет плавающий цикл релиза. Не сущес�
 
 ### Fedora Silverblue
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Fedora Silverblue](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
-    
-    **Fedora Silverblue** это immutable вариант Fedora с фокусом на контейнеры и с рабочим столом [GNOME](https://www.gnome.org/). If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
-    
-    [:octicons-home-16: Домашняя страница](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Документация}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Поддержать }
+![Логотип Fedora Silverblue](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+
+**Fedora Silverblue** это immutable вариант Fedora с фокусом на контейнеры и с рабочим столом [GNOME](https://www.gnome.org/). If you prefer an environment other than GNOME, there are also other variants including [Kinoite](https://fedoraproject.org/kinoite/) (which comes with [KDE](https://kde.org/)) and [Sericea](https://fedoraproject.org/sericea/) (which comes with [Sway](https://swaywm.org/), a [Wayland](https://wayland.freedesktop.org)-only tiling window manager). We don't recommend [Onyx](https://fedoraproject.org/onyx/) at this time as it still [requires X11](https://buddiesofbudgie.org/blog/wayland). All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+
+[:octicons-home-16: Домашняя страница](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Документация}
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Поддержать }
+
+</details>
+
+</div>
 
 Silverblue and its variants differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). Менеджер пакетов `rpm-ostree` работает путем скачивания базового образа для системы, а затем наложения пакетов на него в [git](https://en.wikipedia.org/wiki/Git)-подобном дереве коммитов. Когда система обновляется, загружается новое базовое изображение, и наложения будут применены к этому новому изображению.
 
@@ -83,15 +99,19 @@ Silverblue and its variants differ from Fedora Workstation as they replace the [
 
 ### NixOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип NixOS](assets/img/linux-desktop/nixos.svg){ align=right }
-    
-    NixOS - это независимый дистрибутив, основанный на пакетном менеджере Nix с акцентом на воспроизводимость и надежность.
-    
-    [:octicons-home-16: Домашняя страница](https://nixos.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Документация}
-    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Поддержать }
+![Логотип NixOS](assets/img/linux-desktop/nixos.svg){ align=right }
+
+NixOS - это независимый дистрибутив, основанный на пакетном менеджере Nix с акцентом на воспроизводимость и надежность.
+
+[:octicons-home-16: Домашняя страница](https://nixos.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Документация}
+[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Поддержать }
+
+</details>
+
+</div>
 
 Менеджер пакетов NixOS хранит каждую версию каждого пакета в отдельной папке в **хранилище Nix**. Из-за этого в вашей системе могут быть установлены разные версии одного и того же пакета. После записи содержимого пакета в папку, папка становится доступной только для чтения.
 
@@ -107,16 +127,20 @@ Nix - это менеджер пакетов на основе исходных 
 
 ### Whonix
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
-    
-    **Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. Его цель - обеспечить конфиденциальность, безопасность и анонимность в интернете. Whonix лучше всего использовать в сочетании с [Qubes OS](#qubes-os).
-    
-    [:octicons-home-16: Домашняя страница](https://www.whonix.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Сервис Onion" }
-    [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Документация}
-    [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Поддержать }
+![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
+
+**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. Его цель - обеспечить конфиденциальность, безопасность и анонимность в интернете. Whonix лучше всего использовать в сочетании с [Qubes OS](#qubes-os).
+
+[:octicons-home-16: Домашняя страница](https://www.whonix.org/){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Сервис Onion" }
+[:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Документация}
+[:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Поддержать }
+
+</details>
+
+</div>
 
 Whonix предназначен для запуска в виде двух виртуальных машин: "Рабочая" и "Шлюз Tor." Все соединения рабочей станции должны проходить через шлюз Tor. Это означает, даже если рабочая станция будет скомпрометирована каким-либо вредоносным ПО, настоящий IP-адрес останется скрытым.
 
@@ -126,15 +150,19 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 
 ### Tails
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Tails](assets/img/linux-desktop/tails.svg){ align=right }
-    
-    **Tails** - это операционная система, основанная на Debian и направляющая все коммуникации через Tor, которая может загружаться практически на любом компьютере с DVD или USB-накопителя или SD-карты. Она использует [Tor](tor.md) для сохранения конфиденциальности и анонимности, обходя цензуру и не оставляет следов на используемом компьютере после выключения.
-    
-    [:octicons-home-16: Домашняя страница](https://tails.boum.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Документация}
-    [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Поддержать }
+![Логотип Tails](assets/img/linux-desktop/tails.svg){ align=right }
+
+**Tails** - это операционная система, основанная на Debian и направляющая все коммуникации через Tor, которая может загружаться практически на любом компьютере с DVD или USB-накопителя или SD-карты. Она использует [Tor](tor.md) для сохранения конфиденциальности и анонимности, обходя цензуру и не оставляет следов на используемом компьютере после выключения.
+
+[:octicons-home-16: Домашняя страница](https://tails.boum.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Документация}
+[:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Поддержать }
+
+</details>
+
+</div>
 
 Tails отлично подходит для криминалистической экспертизы благодаря амнезии (то есть ничего не записывается на диск); однако это не такой защищенный дистрибутив, как Whonix. В нем нет многих функций анонимности и безопасности, которые есть в Whonix, и он обновляется гораздо реже (только раз в шесть недель). Система Tails, взломанная вредоносным ПО, может потенциально обойти прозрачный прокси-сервер, что позволит деанонимизировать пользователя.
 
@@ -146,18 +174,22 @@ Tails содержит [uBlock Origin](desktop-browsers.md#ublock-origin) в Tor
 
 ### Qubes OS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
-    
-    **Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
-    
-    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+
+**Qubes OS** is an open-source operating system designed to provide strong security for desktop computing through secure virtual machines (or "qubes"). Qubes is based on Xen, the X Window System, and Linux. It can run most Linux applications and use most of the Linux drivers.
+
+[:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
@@ -167,17 +199,21 @@ For further information about how Qubes works, read our full [Qubes OS overview]
 
 While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
-    
-    **Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. Он охватывает множество рекомендаций по обеспечению конфиденциальности и усилению защиты, без необходимости дополнительной настройки. It also serves as the base OS for [Whonix](#whonix).
-    
-    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+
+**Kicksecure**—in oversimplified terms—is a set of scripts, configurations, and packages that substantially reduce the attack surface of Debian. Он охватывает множество рекомендаций по обеспечению конфиденциальности и усилению защиты, без необходимости дополнительной настройки. It also serves as the base OS for [Whonix](#whonix).
+
+[:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 ## Критерии
 

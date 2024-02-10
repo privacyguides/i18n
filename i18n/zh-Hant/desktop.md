@@ -1,7 +1,7 @@
 ---
 title: "桌上型電腦"
 icon: simple/linux
-description: 因為隱私保護和軟體自由，通常建議用 Linux發行版。
+description: 基於隱私保護和軟體自由，通常建議用 Linux 發行版。
 cover: desktop.webp
 ---
 
@@ -13,45 +13,57 @@ cover: desktop.webp
 
 ### Fedora Workstation（Fedora 工作站）
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
-    
-    **Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora 通常較其他發行版更早採用較新技術，例如 [Wayland](https://wayland.freedesktop.org/) ， [PipeWire](https://pipewire.org)。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
-    
-    [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+![Fedora logo](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+
+**Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora 通常較其他發行版更早採用較新技術，例如 [Wayland](https://wayland.freedesktop.org/) ， [PipeWire](https://pipewire.org)。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
+
+[:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Fedora 有一個半滾動的發布週期。 雖然像 [GNOME](https://www.gnome.org) 這樣的套件在下一個Fedora發布之前會被凍結，但大多數套件（包括內核）在該版的整個生命週期中都會頻繁更新。 每個 Fedora 版本支持一年，每6個月發布新版本。
 
 ### openSUSE Tumbleweed
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
-    
-    **openSUSE Tumbleweed** 是一個穩定滾動發行版。
-    
-    openSUSE Tumbleweed 有一個 [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/)系統，使用 [Btrfs](https://en.wikipedia.org/wiki/Btrfs)和 [Snapper](https://en.opensuse.org/openSUSE: Snapper_Tutorial)來確保快照可以在出現問題時回滾。
-    
-    [:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Contribute }
+![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ align=right }
+
+**openSUSE Tumbleweed** 是一個穩定滾動發行版。
+
+openSUSE Tumbleweed 有一個 [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/)系統，使用 [Btrfs](https://en.wikipedia.org/wiki/Btrfs)和 [Snapper](https://en.opensuse.org/openSUSE: Snapper_Tutorial)來確保快照可以在出現問題時回滾。
+
+[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentation}
+[:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Tumbleweed 遵循滾動發佈模式，每個更新都是快照發布。 當您升級系統時，會下載新的快照。 每個快照都通過一系列自動化測試，由 [openQA](https://openqa.opensuse.org) 運行，以確保其質量。
 
 ### Arch Linux
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
-    
-    **Arch Linux** 是一個輕量級的、自己動手(DIY)的發行版，意味著只能得到你安裝的東西。 如需更多資訊，請參閱他們的 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)。
-    
-    [:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribute }
+![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
+
+**Arch Linux** 是一個輕量級的、自己動手(DIY)的發行版，意味著只能得到你安裝的東西。 如需更多資訊，請參閱他們的 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)。
+
+[:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentation}
+[:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件經常更新。
 
@@ -63,15 +75,19 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 ### Fedora Silverblue
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
-    
-    **Fedora Silverblue** 是 Fedora 的一個不可變變體，關注容器工作流程和 [GNOME](https://www.gnome.org/) 桌面環境。 如果喜歡 GNOME 以外的環境，還有其他變體，包括 [Kinoite](https://fedoraproject.org/kinoite/)（隨 [KDE](https://kde.org/) 提供）和 [ Sericea](https://fedoraproject.org/sericea/)（隨[Sway](https://swaywm.org/) 一起提供，[Wayland](https://wayland.freedesktop.org)唯有的平鋪視窗管理器） 不推薦 [Onyx](https://fedoraproject.org/onyx/)，因為它[需要 X11](https://buddiesofbudgie.org/blog/wayland)。 這些變體版都遵循 Fedora Workstation 同樣的發佈時間表，受益於相同的快速更新並保持非常接近上遊。
-    
-    [:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+![Fedora Silverblue logo](assets/img/linux-desktop/fedora-silverblue.svg){ align=right }
+
+**Fedora Silverblue** 是 Fedora 的一個不可變變體，關注容器工作流程和 [GNOME](https://www.gnome.org/) 桌面環境。 如果喜歡 GNOME 以外的環境，還有其他變體，包括 [Kinoite](https://fedoraproject.org/kinoite/)（隨 [KDE](https://kde.org/) 提供）和 [ Sericea](https://fedoraproject.org/sericea/)（隨[Sway](https://swaywm.org/) 一起提供，[Wayland](https://wayland.freedesktop.org)唯有的平鋪視窗管理器） 不推薦 [Onyx](https://fedoraproject.org/onyx/)，因為它[需要 X11](https://buddiesofbudgie.org/blog/wayland)。 這些變體版都遵循 Fedora Workstation 同樣的發佈時間表，受益於相同的快速更新並保持非常接近上遊。
+
+[:octicons-home-16: Homepage](https://fedoraproject.org/silverblue/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/fedora-silverblue/){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Silverblue 及其變體 不同於 Fedora Workstation ，它們用更多功能替換了[DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/)套件管理器進階替代方案，名稱為[` rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/)。 `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
 
@@ -83,15 +99,19 @@ Silverblue 及其變體 不同於 Fedora Workstation ，它們用更多功能替
 
 ### NixOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
-    
-    NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和可靠性。
-    
-    [:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribute }
+![NixOS logo](assets/img/linux-desktop/nixos.svg){ align=right }
+
+NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和可靠性。
+
+[:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
+[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 NixOS’ 套件管理器 將各個套件版本儲存在**Nix store** 底下不同的資料夾。 因此，您可以在系統上安裝相同套件的不同版本。 套件內容寫入資料夾後，該資料夾會變成唯讀。
 
@@ -107,16 +127,20 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 ### Whonix
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
-    
-    **Whonix** 為基於 [Kicksecure](#kicksecure) 專注在安全的 Debian 分支系統。 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](# qubes-os) 配合使用。
-    
-    [:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribute }
+![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
+
+**Whonix** 為基於 [Kicksecure](#kicksecure) 專注在安全的 Debian 分支系統。 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](# qubes-os) 配合使用。
+
+[:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
+[:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Whonix 運行兩個虛擬機器：一個“工作站”和一個 Tor “閘道”。 來自工作站的所有通訊都必須通過 Tor 閘道。 這意味著，即使工作站受到某種惡意軟體的破壞，真實的IP地址仍然隱藏。
 
@@ -126,15 +150,19 @@ Whonix 最好能與 [Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over
 
 ### Tails
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
-    
-    **Tails** 是一個基於Debian 的自生作業系統，通過 Tor 路由所有通訊，透過 DVD ， USB記憶棒或 SD卡安裝幾乎可在任何電腦上啟動。 它使用 [Tor](tor.md) 來保護隱私和匿名性，同時規避審查制度，並且使用的電腦在關閉電源後不會留下任何痕跡。
-    
-    [:octicons-home-16: Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentation}
-    [:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribute }
+![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
+
+**Tails** 是一個基於Debian 的自生作業系統，通過 Tor 路由所有通訊，透過 DVD ， USB記憶棒或 SD卡安裝幾乎可在任何電腦上啟動。 它使用 [Tor](tor.md) 來保護隱私和匿名性，同時規避審查制度，並且使用的電腦在關閉電源後不會留下任何痕跡。
+
+[:octicons-home-16: Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentation}
+[:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 由於失憶功能(意指沒有寫入磁碟)，Tails 非常適合對抗資料探集；然而，它不像 Whonix 那樣是硬化發行版。 它缺乏 Whonix 的許多匿名和安全功能，並且更新頻率較低（每六周一次）。 被惡意軟體入侵的 Tails 系統可能會繞過透明代理，使用戶去匿名化。
 
@@ -146,18 +174,22 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origi
 
 ### Qubes OS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
-    
-    **Qubes OS** 是開源作業系統，利用安全的虛擬器為桌面運算提供更強的安全性 (或稱"qubes"). Qubes 基於 Xen, X Window 系統與 Linux。 大多數 Linux 應用它都可以執行且適用 Linux 驅動。
-    
-    [:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+![Qubes OS logo](assets/img/qubes/qubes_os.svg){ align=right }
+
+**Qubes OS** 是開源作業系統，利用安全的虛擬器為桌面運算提供更強的安全性 (或稱"qubes"). Qubes 基於 Xen, X Window 系統與 Linux。 大多數 Linux 應用它都可以執行且適用 Linux 驅動。
+
+[:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的 *qubes*以保護電腦。 如果系統的一部分被破壞，其餘的 *qubes*與核心系統仍受到保護。
 
@@ -167,17 +199,21 @@ Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔�
 
 雖然我們在大多數情況下[建議不要](os/linux-overview.md#release-cycle)使用“永遠過時”的發行版，例如用於桌面的 Debian，但 Kicksecure 是一個基於 Debian 的操作系統，其功能已強化，遠遠超出了典型的 Linux 安裝。
 
-!!! 推薦
+<div class="admonition recommendation" markdown>
 
-    ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
-    
-    **Kicksecure**—其簡化的介紹—可以說是一組腳本、置配與套件的組合，可大幅減少 Debian 的攻擊面。 它預設覆蓋了大量的隱私和加固建議。 它也是 [Whonix](#whonix) 的基礎作業系統。
-    
-    [:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
-    [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
+
+**Kicksecure**—其簡化的介紹—可以說是一組腳本、置配與套件的組合，可大幅減少 Debian 的攻擊面。 它預設覆蓋了大量的隱私和加固建議。 它也是 [Whonix](#whonix) 的基礎作業系統。
+
+[:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 ## 標準
 

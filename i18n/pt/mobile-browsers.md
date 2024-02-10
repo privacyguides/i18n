@@ -134,7 +134,7 @@ No iOS, qualquer aplicação que possa navegar na Web está [limitada](https://d
 
     ![Logótipo Safari](assets/img/browsers/safari.svg){ align=right }
     
-    O **Safari** é o navegador predefinido no iOS. Inclui [funcionalidades de privacidade] (https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como [Previsão inteligente de rastreio] (https://webkit.org/blog/7675/intelligent-tracking-prevention/), Relatório de Privacidade, separadores de navegação privada isolados e efémeros, iCloud Private Relay e redução de impressões digitais, através da apresentação de uma versão simplificada da configuração do sistema aos sites, para que o miro número possível de dispositivos pareçam idênticos.
+    O **Safari** é o navegador predefinido no iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
     
     [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
     [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidade" }
@@ -142,13 +142,27 @@ No iOS, qualquer aplicação que possa navegar na Web está [limitada](https://d
 
 #### Configuração recomendada
 
-Estas opções podem ser encontradas em :gear: **Definições** → **Safari** → **Privacidade e segurança**.
+These options can be found in :gear: **Settings** → **Safari**
 
-##### Prevenção de rastreio entre sites
+##### Profiles
+
+All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+
+##### Privacidade & Segurança
 
 - [x] Ativar **Prevenir o rastreio entre sites**
 
-Isto liga a [Proteção Inteligente de Rastreio da WebKit](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). A funcionalidade ajuda a proteger contra o rastreio indesejado, utilizando a aprendizagem automática no dispositivo para impedir os rastreadores. A ITP contra a monitorização protege-o contra muitas ameaças comuns, mas não bloqueia todos os modos de rastreio, uma vez que foi concebida para ter um impacto mínimo ou nulo na usabilidade do site.
+    Isto liga a [Proteção Inteligente de Rastreio da WebKit](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). A funcionalidade ajuda a proteger contra o rastreio indesejado, utilizando a aprendizagem automática no dispositivo para impedir os rastreadores. A ITP contra a monitorização protege-o contra muitas ameaças comuns, mas não bloqueia todos os modos de rastreio, uma vez que foi concebida para ter um impacto mínimo ou nulo na usabilidade do site.
+
+- [x] Enable **Require Face ID to Unlock Private Browsing**
+
+    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+
+##### Advanced → Privacy
+
+The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+
+- [x] Select **All Browsing** or **Private Browsing**
 
 ##### Relatório de Privacidade
 
