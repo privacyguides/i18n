@@ -134,7 +134,7 @@ I telefoni Google Pixel sono i soli dispositivi che, al momento, soddisfano i [r
 ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
 
 **DivestOS** è un soft-fork di [LineageOS](https://lineageos.org/).
-DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. Dispone di build firmate, rendendo possibile l'[avvio verificato](https://source.android.com/security/verifiedboot) su alcuni dispositivi non Pixel.
+DivestOS eredita molti [dispositivi supportati](https://divestos.org/index.php?page=devices&base=LineageOS) da LineageOS. Dispone di build firmate, rendendo possibile l'[avvio verificato](https://source.android.com/security/verifiedboot) su alcuni dispositivi non Pixel.
 
 [:octicons-home-16: Home](https://divestos.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Servizio Onion" }
@@ -166,7 +166,7 @@ Acquistando un dispositivo, consigliamo di prenderne uno il più recente possibi
 
 Evita di acquistare telefoni dagli operatori di rete mobile. Questi, spesso, dispongono di un **bootloader bloccato** e non supportano lo [sblocco dell'OEM](https://source.android.com/devices/bootloader/locking_unlocking). Queste varianti ti impediranno di installare alcun tipo di distribuzione alternativa di Android.
 
-Presta molta **attenzione** all'acquisto di telefoni di seconda mano dai mercati online. Controlla sempre la reputazione del venditore. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Esiste anche il rischio di essere associati all'attività del proprietario precedente.
+Presta molta **attenzione** all'acquisto di telefoni di seconda mano dai mercati online. Controlla sempre la reputazione del venditore. Se il dispositivo viene rubato, c'è la possibilità che venga inserito nel [database IMEI](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Esiste anche il rischio di essere associati all'attività del proprietario precedente.
 
 Altri consigli sui dispositivi Android e sulla compatibilità del sistema operativo:
 
@@ -243,12 +243,12 @@ Utilizzando Shelter, ti affidi interamente al suo sviluppatore, poiché Shelter 
  **Secure Camera** è un'app per fotocamera incentrata sulla privacy e la sicurezza che può catturare immagini, video e codici QR. Le estensioni del fornitore di CameraX (Ritratto, HDR, Notte, Ritocco del Viso e Automatica) sono supportate anche sui dispositivi disponibili.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -285,11 +285,11 @@ I metadati sull'orientamento dell'immagine non vengono eliminati. Se abiliti la 
 La [Politica sulla Sicurezza dei Contenuti](https://en.wikipedia.org/wiki/Content_Security_Policy) è utilizzata per imporre che le proprietà JavaScript e di stile nella WebView siano contenuti interamente statici.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -310,8 +310,8 @@ La [Politica sulla Sicurezza dei Contenuti](https://en.wikipedia.org/wiki/Conten
 **Obtainium** è un gestore di app che ti consente di installare e aggiornare le app direttamente dalla pagina di rilascio dello sviluppatore (es. GitHub, GitLab, il sito web dello sviluppatore, ecc.), piuttosto che un app store/repository di app centralizzato. Supporta gli aggiornamenti automatici in background su Android 12 e versioni successive.
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
