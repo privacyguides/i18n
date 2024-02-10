@@ -119,10 +119,9 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail לוגו](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org לוגו](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
-- ![Skiff Mail לוגו](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
-- ![Tuta לוגו](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
 
 </div>
 

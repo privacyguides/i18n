@@ -24,7 +24,6 @@ cover: email.webp
 <div class="grid cards" markdown>
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
@@ -93,7 +92,7 @@ Proton Mail תומך באימות TOTP ב[שני גורמים](https://proton.me
 
 #### :material-check:{ .pg-green } הצפנת אימייל
 
-Proton Mail [שילבה הצפנת OpenPGP](https://proton.me/support/how-to-use-pgp) בדואר האינטרנט שלהם. אימיילים לחשבונות Proton Mail אחרים מוצפנים באופן אוטומטי, וניתן להפעיל הצפנה לכתובות שאינן פרוטון מייל עם מפתח OpenPGP בקלות בהגדרות החשבון שלך. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD, such as Skiff Mail, will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail [שילבה הצפנת OpenPGP](https://proton.me/support/how-to-use-pgp) בדואר האינטרנט שלהם. אימיילים לחשבונות Proton Mail אחרים מוצפנים באופן אוטומטי, וניתן להפעיל הצפנה לכתובות שאינן פרוטון מייל עם מפתח OpenPGP בקלות בהגדרות החשבון שלך. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
 Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. זה מאפשר לאנשים שאינם משתמשים ב-Proton Mail למצוא בקלות את מפתחות OpenPGP של חשבונות Proton Mail, עבור E2EE חוצה ספקים. זה חל רק על כתובות אימיילים המסתיימות באחד מהדומיינים של פרוטון עצמו, כמו proton.me@. אם אתה משתמש בדומיין מותאם אישית, עליך [להגדיר את WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) בנפרד.
 
@@ -106,66 +105,6 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 Proton Mail מציע חשבון "ללא הגבלה" במחיר של €9.99/חודש, המאפשר גם גישה ל-Proton VPN בנוסף לאספקת מספר חשבונות, דומיינים, כינויים ושטח אחסון של 500GB.
 
 Proton Mail אינו מציע תכונה מורשת דיגיטלית.
-
-### Skiff Mail
-
-<div class="admonition recommendation" markdown>
-
-![Skiff Mail לוגו](assets/img/email/skiff-mail.svg){ align=right }
-
-**Skiff Mail** הוא שירות אימייל מבוסס אינטרנט עם E2EE שהחל ב-2020 שבסיסו בסן פרנסיסקו עם מפתחים ברחבי העולם. חשבונות מתחילים עם 10GB של אחסון בחינם.
-
-[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-- [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-- [:octicons-browser-16: Web](https://app.skiff.com/mail)
-
-</details>
-
-</div>
-
-Skiff עברה כמה [ביקורות](https://skiff.com/transparency) במהלך הפיתוח שלה.
-
-#### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
-
-אתה יכול ליצור עד 3 כינויי אימייל נוספים של @skiff.com בנוסף לכתובת החשבון הראשית שלך בתוכנית החינמית שלהם. חשבונות בחינם יכולים להוסיף [דומיין מותאם אישית](https://skiff.com/blog/custom-domain-setup) אחד, ועד 15 דומיינים מותאמים אישית בתוכנית בתשלום. אתה יכול ליצור כינויים בלתי מוגבלים או כינוי [catch-all](https://skiff.com/blog/catch-all-email-alias) בדומיין המותאם אישית שלך.
-
-#### :material-alert-outline:{ .pg-orange } שיטות תשלום פרטיות
-
-Skiff Mail מקבל תשלומים במטבעות קריפטוגרפיים באמצעות Coinbase Commerce, כולל ביטקוין ו-Ethereum, אך הם אינם מקבלים את ה[מטבעות קריפטוגרפיים](cryptocurrency.md) המומלצים שלנו, Monero. הם גם מקבלים תשלומים בכרטיס אשראי דרך Stripe.
-
-#### :material-check:{ .pg-green } אבטחת חשבון
-
-Skiff Mail תומך באימות דו-שלבי TOTP ובמפתחות אבטחת חומרה באמצעות תקני FIDO2 או U2F. השימוש במפתח אבטחת חומרה מחייב תחילה הגדרת אימות דו-שלבי TOTP.
-
-#### :material-check:{ .pg-green } אבטחת מידע
-
-ל-Skiff Mail יש הצפנת גישה אפסית במצב מנוחה לכל הנתונים שלך. משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
-
-#### :material-check:{ .pg-green } הצפנת אימייל
-
-Skiff Mail encrypts messages to other Skiff mailboxes automatically with E2EE. On December 18th, 2023, Skiff added support for PGP and automatic public key discovery via Web Key Directory (WKD). This means that emails sent to other providers which use WKD, such as Proton Mail, will be automatically encrypted with OpenPGP as well without the need to exchange public PGP keys with your contacts. New Skiff Mail accounts should have a PGP key automatically generated, while accounts from before this feature was introduced need to generate a new PGP key for their address (or upload an existing private key) in the account's address settings. Skiff Mail only has support for reading messages encrypted with PGP/MIME, not the older PGP/Inline standard. Sending messages with PGP/MIME is the [recommended approach](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime), but may pose compatibility issues in some edge cases.
-
-Skiff Mail also publishes the public keys of Skiff Mail accounts via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Skiff Mail to find the OpenPGP keys of Skiff Mail accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Skiff's own domains, like @skiff.com. אם אתה משתמש בדומיין מותאם אישית, עליך [להגדיר את WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) בנפרד.
-
-Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users without OpenPGP cannot receive or reply to messages with E2EE.
-
-#### :material-information-outline:{ .pg-blue } סגירת חשבון
-
-חשבונות Skiff Mail לא יפוג, אך חשבונות ללא תשלום יתבקשו להסיר כל תכונות בתשלום מופעלות (כגון כינויים נוספים) או לחדש את התוכנית שלהם לפני שניתן יהיה להשתמש בחשבון.
-
-#### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
-
-Skiff מציעה בנוסף [תכונות פרודוקטיביות של סביבת עבודה](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), אבל אנחנו עדיין מעדיפים [אפשרויות חלופיות](productivity.md) לשיתוף פעולה ושיתוף קבצים בשלב זה.
-
-Skiff Mail אינו מציע תכונה דיגיטלית מדור קודם.
 
 ### Mailbox.org
 

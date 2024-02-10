@@ -24,7 +24,6 @@ cover: email.webp
 <div class="grid cards" markdown>
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
@@ -93,7 +92,7 @@ Proton Mail использует [шифрование с нулевым дос�
 
 #### :material-check:{ .pg-green } Шифрование электронной почты
 
-Proton Mail [интегрировал шифрование OpenPGP](https://proton.me/support/how-to-use-pgp) в свою веб-почту. Письма, отправленные на другие аккаунты Proton Mail шифруются автоматически. Шифрование писем с помощью ключа OpenPGP на адреса, не принадлежащие Proton Mail, можно легко включить в настройках аккаунта. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD, such as Skiff Mail, will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail [интегрировал шифрование OpenPGP](https://proton.me/support/how-to-use-pgp) в свою веб-почту. Письма, отправленные на другие аккаунты Proton Mail шифруются автоматически. Шифрование писем с помощью ключа OpenPGP на адреса, не принадлежащие Proton Mail, можно легко включить в настройках аккаунта. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
 Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. Это позволяет людям, не использующим Proton Mail, легко находить OpenPGP-ключи учетных записей Proton Mail для кросс-провайдерского E2EE. Это относится только к адресам электронной почты, заканчивающимся на один из собственных доменов "Протона", например @proton.me. При использовании кастомного домена необходимо [настроить WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) отдельно.
 
@@ -106,66 +105,6 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 Proton Mail предлагает "Proton Unlimited" аккаунт за €9,99/месяц, который также позволяет получить доступ к Proton VPN в дополнение к предоставлению нескольких аккаунтов, доменов, псевдонимов и 500 ГБ хранилища.
 
 Proton Mail не предлагает функцию цифрового наследия.
-
-### Skiff Mail
-
-<div class="admonition recommendation" markdown>
-
-![Логотип Skiff Mail](assets/img/email/skiff-mail.svg){ align=right }
-
-**Skiff Mail** - это веб-сервис электронной почты с поддержкой E2EE, который основан в 2020 году, базируется в Сан-Франциско и разрабатывается людьми со всего мира. Аккаунты начинаются с 10 ГБ бесплатного хранилища.
-
-[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-- [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-- [:octicons-browser-16: Web](https://app.skiff.com/mail)
-
-</details>
-
-</div>
-
-Skiff прошел несколько [аудитов](https://skiff.com/transparency) во время разработки.
-
-#### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
-
-С бесплатным тарифным планом вам доступно до 3 дополнительных псевдонимов электронной почты (с доменом @skiff.com) в дополнении к вашему главному почтовому адресу. В бесплатных учетных записях можно добавить 1 [пользовательский домен](https://skiff.com/blog/custom-domain-setup), а в платных - до 15 пользовательских доменов. С пользовательским доменом вы можете создать неограниченное количество псевдонимов или [универсальный псевдоним](https://skiff.com/blog/catch-all-email-alias).
-
-#### :material-alert-outline:{ .pg-orange } Конфиденциальные способы оплаты
-
-Skiff Mail принимает криптовалютные платежи с помощью Coinbase Commerce, включая Bitcoin и Ethereum, но они не принимают рекомендуемую нами [криптовалюту](cryptocurrency.md) Monero. Они также принимают платежи по кредитным картам с помощью Stripe.
-
-#### :material-check:{ .pg-green } Безопасность аккаунта
-
-Skiff Mail поддерживает двухфакторную аутентификацию TOTP и аппаратные ключи безопасности с использованием стандартов FIDO2 или U2F. Использование аппаратного ключа безопасности сначала требует настройки двухфакторной аутентификации TOTP.
-
-#### :material-check:{ .pg-green } Безопасность данных
-
-Skiff Mail предоставляет шифрование с нулевым доступом в состоянии покоя для всех ваших данных. Это означает, что сообщения и другие данные, хранящиеся на твоём аккаунте, доступны для чтения только тебе.
-
-#### :material-check:{ .pg-green } Шифрование электронной почты
-
-Skiff Mail encrypts messages to other Skiff mailboxes automatically with E2EE. On December 18th, 2023, Skiff added support for PGP and automatic public key discovery via Web Key Directory (WKD). This means that emails sent to other providers which use WKD, such as Proton Mail, will be automatically encrypted with OpenPGP as well without the need to exchange public PGP keys with your contacts. New Skiff Mail accounts should have a PGP key automatically generated, while accounts from before this feature was introduced need to generate a new PGP key for their address (or upload an existing private key) in the account's address settings. Skiff Mail only has support for reading messages encrypted with PGP/MIME, not the older PGP/Inline standard. Sending messages with PGP/MIME is the [recommended approach](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime), but may pose compatibility issues in some edge cases.
-
-Skiff Mail also publishes the public keys of Skiff Mail accounts via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Skiff Mail to find the OpenPGP keys of Skiff Mail accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Skiff's own domains, like @skiff.com. При использовании кастомного домена необходимо [настроить WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) отдельно.
-
-Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users without OpenPGP cannot receive or reply to messages with E2EE.
-
-#### :material-information-outline:{ .pg-blue } Блокировка аккаунта
-
-Срок действия аккаунтов Skiff Mail не истекает, однако неоплаченным учетным записям будет предложено удалить все включенные платные функции (например, дополнительные псевдонимы) или продлить тарифный план, прежде чем учетной записью снова можно будет пользоваться.
-
-#### :material-information-outline:{ .pg-blue } Дополнительная функциональность
-
-Skiff дополнительно предлагает [функции повышения производительности рабочего пространства](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), но на данный момент мы предпочитаем [альтернативные](productivity.md) варианты совместной работы и обмена файлами.
-
-Skiff Mail не предлагает функцию цифрового наследия.
 
 ### Mailbox.org
 

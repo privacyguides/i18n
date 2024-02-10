@@ -24,7 +24,6 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 <div class="grid cards" markdown>
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
@@ -93,7 +92,7 @@ Proton Mail دارای [رمزگذاری بدون دسترسی](https://proton.m
 
 #### :material-check:{ .pg-green } رمزگذاری ایمیل
 
-Proton Mail دارای [رمزگذاری OpenPGP یکپارچه](https://proton.me/support/how-to-use-pgp) در ایمیل خود است. ایمیل‌های سایر حساب‌های Proton Mail به‌طور خودکار رمزگذاری می‌شوند و رمزگذاری آدرس‌های ایمیل غیر پروتون با کلید OpenPGP به راحتی در تنظیمات حساب شما فعال می‌شود. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD, such as Skiff Mail, will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail دارای [رمزگذاری OpenPGP یکپارچه](https://proton.me/support/how-to-use-pgp) در ایمیل خود است. ایمیل‌های سایر حساب‌های Proton Mail به‌طور خودکار رمزگذاری می‌شوند و رمزگذاری آدرس‌های ایمیل غیر پروتون با کلید OpenPGP به راحتی در تنظیمات حساب شما فعال می‌شود. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
 Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. این قابلیت به افرادی که از سرویس Proton Mail استفاده نمی‌کنند اجازه می‌دهد تا کلیدهای OpenPGP حساب‌های Proton Mail را برای رمزگذاری E2EE سرویس‌های دیگر به راحتی پیدا کنند. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
@@ -106,66 +105,6 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 Proton Mail یک حساب "نامحدود" یا Unlimited به مبلغ 9.99 یورو در ماه ارائه می‌دهد که علاوه بر ارائه چندین حساب، دامنه، نام مستعار و 500 گیگابایت فضای ذخیره سازی، دسترسی به Proton VPN را نیز امکان پذیر می‌کند.
 
 Proton Mail امکان به ارث بردن اطلاعات برای وراث را ندارد.
-
-### Skiff Mail
-
-<div class="admonition recommendation" markdown>
-
-![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
-
-**Skiff Mail** یک سرویس ایمیل مبتنی بر وب با E2EE است که در سال 2020 آغاز شد و در سانفرانسیسکو مستقر است و توسعه دهندگان آن در سرتاسر جهان هستند. حساب‌ها با 10 گیگابایت فضای ذخیره‌سازی رایگان شروع می‌شوند.
-
-[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-- [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-- [:octicons-browser-16: Web](https://app.skiff.com/mail)
-
-</details>
-
-</div>
-
-Skiff در طول توسعه خود تحت چند [ممیزی (Audit)](https://skiff.com/transparency) قرار گرفته است.
-
-#### :material-check:{ .pg-green } دامنه ها و نام های مستعار (Aliases) سفارشی
-
-در طرح رایگان، می توانید تا 3 نام مستعار ایمیل @skiff.com علاوه بر آدرس حساب اصلی خود ایجاد کنید. حساب‌های رایگان می‌توانند 1 [دامنه سفارشی (custom domain)](https://skiff.com/blog/custom-domain-setup) و حساب‌های پولی می‌توانند حداکثر 15 دامنه سفارشی را اضافه کنند. می توانید نام های مستعار (Alias) نامحدود یا قابلیت [catch-all](https://skiff.com/blog/catch-all-email-alias) را در دامنه سفارشی خود ایجاد کنید.
-
-#### :material-alert-outline:{ .pg-orange } روش های پرداخت خصوصی
-
-Skiff Mail پرداخت‌های رمزارز از جمله بیت‌کوین و اتریوم را از طریق Coinbase Commerce می‌پذیرد، اما آنها [رمزارز](cryptocurrency.md) پیشنهادی ما، Monero را نمی‌پذیرند. آنها همچنین پرداخت های کارت اعتباری را از طریق Stripe می پذیرند.
-
-#### :material-check:{ .pg-green } امنیت حساب
-
-Skiff Mail از احراز هویت دو مرحله ای TOTP و کلیدهای امنیتی سخت افزاری با استفاده از استانداردهای FIDO2 یا U2F پشتیبانی می کند. استفاده از کلید امنیتی سخت افزاری نیازمند راه‌اندازی احراز هویت دو مرحله ای TOTP است.
-
-#### :material-check:{ .pg-green } امنیت داده
-
-Skiff Mail رمزگذاری دسترسی صفر (zero access) در حالت استراحت (at rest) را برای همه داده‌های شما دارد. این بدان معناست که پیام ها و سایر داده های ذخیره شده در حساب شما فقط توسط شما قابل خواندن است.
-
-#### :material-check:{ .pg-green } رمزگذاری ایمیل
-
-Skiff Mail encrypts messages to other Skiff mailboxes automatically with E2EE. On December 18th, 2023, Skiff added support for PGP and automatic public key discovery via Web Key Directory (WKD). This means that emails sent to other providers which use WKD, such as Proton Mail, will be automatically encrypted with OpenPGP as well without the need to exchange public PGP keys with your contacts. New Skiff Mail accounts should have a PGP key automatically generated, while accounts from before this feature was introduced need to generate a new PGP key for their address (or upload an existing private key) in the account's address settings. Skiff Mail only has support for reading messages encrypted with PGP/MIME, not the older PGP/Inline standard. Sending messages with PGP/MIME is the [recommended approach](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime), but may pose compatibility issues in some edge cases.
-
-Skiff Mail also publishes the public keys of Skiff Mail accounts via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Skiff Mail to find the OpenPGP keys of Skiff Mail accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Skiff's own domains, like @skiff.com. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
-
-Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users without OpenPGP cannot receive or reply to messages with E2EE.
-
-#### :material-information-outline:{ .pg-blue } بستن حساب
-
-حساب‌های Skiff Mail منقضی نمی‌شوند، اما از حساب‌های پولی پرداخت‌نشده خواسته می‌شود تا همه ویژگی‌های پولی (مانند نام‌های مستعار اضافی) را حذف کنند یا طرح پولی خود را قبل از استفاده تمدید کنند.
-
-#### :material-information-outline:{ .pg-blue } عملکردهای دیگر
-
-Skiff همچنین [ویژگی‌های بهره‌وری فضای کاری](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13) را ارائه می دهد، اما ما همچنان <a href را ترجیح می دهیم گزینه های ="productivity.md">جایگزین</a> برای همکاری و اشتراک‌گذاری فایل را ترجیح می‌دهیم.
-
-Skiff Mail امکان به ارث بردن اطلاعات برای وراث را ندارد.
 
 ### Mailbox.org
 
@@ -277,7 +216,7 @@ Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use 
 
 
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } دامنه ها و نام های مستعار (Aliases) سفارشی
 
 Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
@@ -313,7 +252,7 @@ Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts
 
 
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } عملکردهای دیگر
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
@@ -541,7 +480,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
-**Best Case:**
+**بهترین شرایط:**
 
 - Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
@@ -584,7 +523,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
       - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**بهترین شرایط:**
+**Best Case:**
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 

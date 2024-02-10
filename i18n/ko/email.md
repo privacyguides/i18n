@@ -24,7 +24,6 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 <div class="grid cards" markdown>
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Skiff Mail logo](assets/img/email/skiff-mail.svg){ .twemoji } [Skiff Mail](email.md#skiff-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
@@ -93,7 +92,7 @@ Proton Mail은 이메일 및 [캘린더](https://proton.me/news/protoncalendar-s
 
 #### :material-check:{ .pg-green } 이메일 암호화
 
-Proton Mail은 웹메일에 [OpenPGP 암호화 기능을 내장](https://proton.me/support/how-to-use-pgp)하고 있습니다. 다른 Proton Mail 계정으로 보내는 이메일은 자동으로 암호화되며, Proton Mail 외 주소로 보내는 이메일에 대한 OpenPGP 암호화는 계정 설정에서 간편하게 활성화할 수 있습니다. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD, such as Skiff Mail, will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail은 웹메일에 [OpenPGP 암호화 기능을 내장](https://proton.me/support/how-to-use-pgp)하고 있습니다. 다른 Proton Mail 계정으로 보내는 이메일은 자동으로 암호화되며, Proton Mail 외 주소로 보내는 이메일에 대한 OpenPGP 암호화는 계정 설정에서 간편하게 활성화할 수 있습니다. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
 Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. 이로써 Proton Mail을 사용하지 않는 사람도 Proton Mail OpenPGP 키를 쉽게 찾아 서로 다른 제공 업체 간 E2EE 적용이 가능합니다. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
@@ -106,66 +105,6 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 Proton Mail은 'Unlimited' 계정 요금제를 월 9.99유로에 제공합니다. Unlimited 계정은 Proton VPN 접근이 제공되며, 다중 계정, 도메인, 별칭을 비롯해 500GB 저장 공간이 제공됩니다.
 
 Proton Mail은 디지털 유산 상속 기능을 제공하지 않습니다.
-
-### Skiff Mail
-
-<div class="admonition recommendation" markdown>
-
-![Skiff Mail logo](assets/img/email/skiff-mail.svg){ align=right }
-
-**Skiff Mail** is a web based email service with E2EE that began in 2020 that is based in San Francisco with developers worldwide. Accounts start with 10GB of free storage.
-
-[:octicons-home-16: Homepage](https://skiff.com/mail){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://app.skiff.com/docs/db93c237-84c2-4b2b-9588-19a7cd2cd45a#tyGksN9rkqbo2uGYASxsA6HVLjUoly/wTYK8tncTto8=){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://skiff.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/skiff-org/skiff-apps){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://play.google.com/store/apps/details?id=com.skemailmobileapp&pli=1)
-- [:simple-appstore: iOS](https://apps.apple.com/us/app/skiff-mail/id1619168801)
-- [:octicons-browser-16: Web](https://app.skiff.com/mail)
-
-</details>
-
-</div>
-
-Skiff has undergone a few [audits](https://skiff.com/transparency) during its development.
-
-#### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
-
-You can create up to 3 additional @skiff.com email aliases in addition to your primary account address on their free plan. Free accounts can add 1 [custom domain](https://skiff.com/blog/custom-domain-setup), and up to 15 custom domains on a paid plan. You can create unlimited aliases or a [catch-all](https://skiff.com/blog/catch-all-email-alias) alias on your custom domain.
-
-#### :material-alert-outline:{ .pg-orange } Private Payment Methods
-
-Skiff Mail accepts cryptocurrency payments via Coinbase Commerce, including Bitcoin and Ethereum, but they do not accept our recommended [cryptocurrency](cryptocurrency.md), Monero. They also accept credit card payments via Stripe.
-
-#### :material-check:{ .pg-green } 계정 보안
-
-Skiff Mail supports TOTP two-factor authentication and hardware security keys using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
-
-#### :material-check:{ .pg-green } 데이터 보안
-
-Skiff Mail has zero access encryption at rest for all of your data. 즉, 계정에 저장된 메시지 및 기타 데이터는 사용자 본인만 읽을 수 있습니다.
-
-#### :material-check:{ .pg-green } 이메일 암호화
-
-Skiff Mail encrypts messages to other Skiff mailboxes automatically with E2EE. On December 18th, 2023, Skiff added support for PGP and automatic public key discovery via Web Key Directory (WKD). This means that emails sent to other providers which use WKD, such as Proton Mail, will be automatically encrypted with OpenPGP as well without the need to exchange public PGP keys with your contacts. New Skiff Mail accounts should have a PGP key automatically generated, while accounts from before this feature was introduced need to generate a new PGP key for their address (or upload an existing private key) in the account's address settings. Skiff Mail only has support for reading messages encrypted with PGP/MIME, not the older PGP/Inline standard. Sending messages with PGP/MIME is the [recommended approach](https://www.gnupg.org/faq/gnupg-faq.html#use_pgpmime), but may pose compatibility issues in some edge cases.
-
-Skiff Mail also publishes the public keys of Skiff Mail accounts via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people who don't use Skiff Mail to find the OpenPGP keys of Skiff Mail accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Skiff's own domains, like @skiff.com. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
-
-Skiff does not have a "temporary inbox" or "passworded email" feature like some other providers have, so that external users without OpenPGP cannot receive or reply to messages with E2EE.
-
-#### :material-information-outline:{ .pg-blue } 계정 해지
-
-Skiff Mail accounts do not expire, but unpaid accounts will be prompted to remove any enabled paid features (such as additional aliases) or renew their plan before the account can be used.
-
-#### :material-information-outline:{ .pg-blue } 추가 기능
-
-Skiff additionally offers [workspace productivity features](https://discuss.privacyguides.net/t/skiff-pages-drive-productivity-tools/11758/13), but we still prefer [alternative](productivity.md) options for collaborating and file sharing at this time.
-
-Skiff Mail does not offer a digital legacy feature.
 
 ### Mailbox.org
 
@@ -212,7 +151,7 @@ Mailbox.org의 웹메일에는 [암호화 기능이 내장](https://kb.mailbox.o
 
 또한, Mailbox.org는 [웹 키 디렉터리(WKD)](https://wiki.gnupg.org/WKD)에서 HTTP를 통한 공개 키 검색을 지원합니다. Mailbox.org를 사용하지 않는 사람들은 Mailbox.org 계정의 OpenPGP 공개키를 쉽게 찾을 수 있고, 플랫폼과 무관하게 종단간 암호화를 할 수 있습니다. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
-#### :material-information-outline:{ .pg-blue } 계정 삭제
+#### :material-information-outline:{ .pg-blue } 계정 해지
 
 계약이 끝나면 해당 계정은 제한된 상태로 변경되며, [30일이 지나면 영구적으로 삭제됩니다](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
@@ -285,7 +224,7 @@ Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) f
 
 Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } 계정 해지
+#### :material-information-outline:{ .pg-blue } 계정 삭제
 
 Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. 돈을 지불하면 비활성화된 계정을 재사용할 수 있습니다.
 
