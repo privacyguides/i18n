@@ -1,14 +1,14 @@
 ---
-meta_title: "Android-aanbevelingen: GrapheneOS en DivestOS - Privacy Guides"
+meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: Je kunt het besturingssysteem op jouw Android-telefoon vervangen door deze veilige en privacy respecterende alternatieven.
+description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 cover: android.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Privé Android besturingssystemen
+    name: Private Android Operating Systems
     url: "./"
   - 
     "@context": http://schema.org
@@ -95,26 +95,31 @@ Dit zijn de Android-besturingssystemen, apparaten en apps die wij aanbevelen om 
 
 Wij raden je aan een van deze aangepaste Android-besturingssystemen op jouw toestel te installeren, in volgorde van voorkeur, afhankelijk van de compatibiliteit van jouw toestel met deze besturingssystemen.
 
-!!! note
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    End-of-life apparaten (zoals GrapheneOS of CalyxOS's apparaten met "uitgebreide ondersteuning") beschikken niet over volledige beveiligingspatches (firmware-updates) omdat de OEM de ondersteuning heeft stopgezet. Deze apparaten kunnen niet als volledig veilig worden beschouwd, ongeacht de geïnstalleerde software.
+End-of-life apparaten (zoals GrapheneOS of CalyxOS's apparaten met "uitgebreide ondersteuning") beschikken niet over volledige beveiligingspatches (firmware-updates) omdat de OEM de ondersteuning heeft stopgezet. Deze apparaten kunnen niet als volledig veilig worden beschouwd, ongeacht de geïnstalleerde software.
+
+</div>
 
 ### GrapheneOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
-    ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
-    
-    **GrapheneOS** is de beste keuze als het gaat om privacy en veiligheid.
-    
-    GrapheneOS biedt extra [beveiligingsversteviging](https://en.wikipedia.org/wiki/Hardening_(computing)) en privacyverbeteringen. Het heeft een [geharde geheugentoewijzer](https://github.com/GrapheneOS/hardened_malloc), netwerk- en sensormachtigingen, en diverse andere [beveiligingskenmerken](https://grapheneos.org/features). GrapheneOS wordt ook geleverd met volledige firmware-updates en ondertekende builds, dus geverifieerd opstarten wordt volledig ondersteund.
-    
-    [:octicons-home-16: Homepage](https://grapheneos.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Bijdragen }
+![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
+![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+
+**GrapheneOS** is de beste keuze als het gaat om privacy en veiligheid.
+
+GrapheneOS biedt extra [beveiligingsversteviging](https://en.wikipedia.org/wiki/Hardening_(computing)) en privacyverbeteringen. Het heeft een [geharde geheugentoewijzer](https://github.com/GrapheneOS/hardened_malloc), netwerk- en sensormachtigingen, en diverse andere [beveiligingskenmerken](https://grapheneos.org/features). GrapheneOS wordt ook geleverd met volledige firmware-updates en ondertekende builds, dus geverifieerd opstarten wordt volledig ondersteund.
+
+[:octicons-home-16: Homepage](https://grapheneos.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentatie}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Broncode" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Bijdragen }
+
+</div>
 
 GrapheneOS ondersteunt [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), die draait [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) volledig sandboxed als elke andere gewone app. Dit betekent dat je kunt profiteren van de meeste Google Play-services, zoals [pushmeldingen](https://firebase.google.com/docs/cloud-messaging/), terwijl je volledige controle hebt over hun machtigingen en toegang, en terwijl je ze bevat in een specifiek [werkprofiel](os/android-overview.md#work-profile) of [gebruikersprofiel](os/android-overview.md#user-profiles) van jouw keuze.
 
@@ -124,19 +129,21 @@ Google Pixel-telefoons zijn de enige apparaten die momenteel voldoen aan Graphen
 
 ### DivestOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
-    
-    **DivestOS** is een soft-fork van [LineageOS](https://lineageos.org/).
-    DivestOS erft veel [ondersteunde apparaten](https://divestos.org/index.php?page=devices&base=LineageOS) van LineageOS. Het heeft ondertekende builds, waardoor het mogelijk is om [geverifieerde boot](https://source.android.com/security/verifiedboot) te hebben op sommige niet-Pixel apparaten.
-    
-    [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+![DivestOS logo](assets/img/android/divestos.svg){ align=right }
+
+**DivestOS** is een soft-fork van [LineageOS](https://lineageos.org/).
+DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. Het heeft ondertekende builds, waardoor het mogelijk is om [geverifieerde boot](https://source.android.com/security/verifiedboot) te hebben op sommige niet-Pixel apparaten.
+
+[:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+
+</div>
 
 DivestOS heeft geautomatiseerde kernel kwetsbaarheden ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), minder propriëtaire blobs, en een aangepaste [hosts](https://divested.dev/index.php?page=dnsbl) bestand. Zijn geharde WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), maakt [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) mogelijk voor alle architecturen en [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), en ontvangt out-of-band updates. DivestOS bevat ook kernelpatches van GrapheneOS en schakelt alle beschikbare kernelbeveiligingsfuncties in via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). Alle kernels nieuwer dan versie 3.4 bevatten volledige pagina [sanitization](https://lwn.net/Articles/334747/) en alle ~22 Clang-gecompileerde kernels hebben [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) ingeschakeld.
 
@@ -144,11 +151,14 @@ DivestOS implementeert enkele systeemhardingspatches die oorspronkelijk voor Gra
 
 DivestOS gebruikt F-Droid als standaard app store. We normally [recommend avoiding F-Droid](#f-droid), but doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) **with the DivestOS repositories enabled** to keep those components up to date. Voor andere apps gelden nog steeds onze aanbevolen methoden om ze te verkrijgen.
 
-!!! warning
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) en kwaliteitscontrole varieert tussen de apparaten die het ondersteunt. We raden nog steeds GrapheneOS aan, afhankelijk van de compatibiliteit van uw toestel. Voor andere apparaten is DivestOS een goed alternatief.
-    
-    Niet alle ondersteunde apparaten hebben geverifieerde boot, en sommige doen het beter dan andere.
+DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) en kwaliteitscontrole varieert tussen de apparaten die het ondersteunt. We raden nog steeds GrapheneOS aan, afhankelijk van de compatibiliteit van uw toestel. Voor andere apparaten is DivestOS een goed alternatief.
+
+Niet alle ondersteunde apparaten hebben geverifieerde boot, en sommige doen het beter dan andere.
+
+</div>
 
 ## Android-apparaten
 
@@ -156,7 +166,7 @@ Wanneer je een apparaat koopt, raden wij je aan er een zo nieuw als mogelijk te 
 
 Vermijd het kopen van telefoons van jouw mobiele provider. Deze hebben vaak een **vergrendelde bootloader** en bieden geen ondersteuning voor [OEM-ontgrendeling](https://source.android.com/devices/bootloader/locking_unlocking). Deze telefoonvarianten voorkomen dat je enige vorm van alternatieve Android-distributie installeert.
 
-Wees zeer **voorzichtig** met het kopen van tweedehands telefoons van online marktplaatsen. Controleer altijd de reputatie van de verkoper. Als het apparaat is gestolen, is het mogelijk [IMEI geblacklist](https://www.gsma.com/security/resources/imei-blacklisting/) is. Er is ook een risico dat je in verband wordt gebracht met de activiteiten van de vorige eigenaar.
+Wees zeer **voorzichtig** met het kopen van tweedehands telefoons van online marktplaatsen. Controleer altijd de reputatie van de verkoper. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Er is ook een risico dat je in verband wordt gebracht met de activiteiten van de vorige eigenaar.
 
 Nog een paar tips met betrekking tot Android toestellen en compatibiliteit van het besturingssysteem:
 
@@ -168,15 +178,17 @@ Nog een paar tips met betrekking tot Android toestellen en compatibiliteit van h
 
 Google Pixel-telefoons zijn de **enige** toestellen die we aanraden om te kopen. Pixel-telefoons hebben een sterkere hardwarebeveiliging dan alle andere Android-toestellen die momenteel op de markt zijn, dankzij de juiste AVB-ondersteuning voor besturingssystemen van derden en Google's aangepaste [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) -beveiligingschips die functioneren als het Secure Element.
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
-    
-    **Google Pixel**-apparaten staan bekend om hun goede beveiliging en goede ondersteuning van [Verified Boot](https://source.android.com/security/verifiedboot), zelfs bij het installeren van aangepaste besturingssystemen.
-    
-    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
-    
-    [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+
+**Google Pixel**-apparaten staan bekend om hun goede beveiliging en goede ondersteuning van [Verified Boot](https://source.android.com/security/verifiedboot), zelfs bij het installeren van aangepaste besturingssystemen.
+
+Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+
+[:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+
+</div>
 
 Secure Elements zoals de Titan M2 zijn beperkter dan de Trusted Execution Environment van de processor die door de meeste andere telefoons gebruikt wordt, omdat ze alleen gebruikt worden voor geheimen opslag, hardware attestatie, en snelheidsbeperking van het invoeren van wachtwoorden, niet voor het draaien van "vertrouwde" programma's. Telefoons zonder een Secure Element moeten de TEE gebruiken voor *alle* van deze functies. Dat leidt tot een groter aanvalsoppervlak.
 
@@ -198,43 +210,53 @@ Wij bevelen op deze site een groot aantal Android-apps aan. De hier vermelde app
 
 ### Shelter
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Shelter logo](assets/img/android/shelter.svg){ align=right }
-    
-    **Shelter** is een app waarmee je gebruik kunt maken van de functie Werkprofiel van Android om apps op uw apparaat te isoleren of te dupliceren.
-    
-    Shelter ondersteunt het blokkeren van het zoeken naar contacten tussen profielen en het delen van bestanden tussen profielen via de standaard bestandsbeheerder ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
-    
-    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
+![Shelter logo](assets/img/android/shelter.svg){ align=right }
 
-!!! warning
+**Shelter** is een app waarmee je gebruik kunt maken van de functie Werkprofiel van Android om apps op uw apparaat te isoleren of te dupliceren.
 
-    Shelter wordt aanbevolen boven [Insular](https://secure-system.gitlab.io/Insular/) en [Island](https://github.com/oasisfeng/island) omdat het [blokkeren van contact zoeken](https://secure-system.gitlab.io/Insular/faq.html) ondersteunt.
-    
-    Wanneer je Shelter gebruikt, stelt je jouw volledige vertrouwen in de ontwikkelaar, aangezien Shelter optreedt als [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) voor het werkprofiel en uitgebreide toegang heeft tot de gegevens die erin zijn opgeslagen.
+Shelter ondersteunt het blokkeren van het zoeken naar contacten tussen profielen en het delen van bestanden tussen profielen via de standaard bestandsbeheerder ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+
+[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Shelter wordt aanbevolen boven [Insular](https://secure-system.gitlab.io/Insular/) en [Island](https://github.com/oasisfeng/island) omdat het [blokkeren van contact zoeken](https://secure-system.gitlab.io/Insular/faq.html) ondersteunt.
+
+Wanneer je Shelter gebruikt, stelt je jouw volledige vertrouwen in de ontwikkelaar, aangezien Shelter optreedt als [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) voor het werkprofiel en uitgebreide toegang heeft tot de gegevens die erin zijn opgeslagen.
+
+</div>
 
 ### Secure Camera
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
-    ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
-    
-    **Secure Camera** is een camera-app gericht op privacy en veiligheid die afbeeldingen, video's en QR-codes kan vastleggen. De uitbreidingen van CameraX (Portret, HDR, Nachtzicht, Gezichtsretouche en Auto) worden ook ondersteund op beschikbare toestellen.
-    
-    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Bijdrage leveren }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+
+**Secure Camera** is een camera-app gericht op privacy en veiligheid die afbeeldingen, video's en QR-codes kan vastleggen. De uitbreidingen van CameraX (Portret, HDR, Nachtzicht, Gezichtsretouche en Auto) worden ook ondersteund op beschikbare toestellen.
+
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
+- [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
+- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+
+</details>
+
+</div>
 
 De belangrijkste privacyfuncties zijn:
 
@@ -242,50 +264,63 @@ De belangrijkste privacyfuncties zijn:
 - Gebruik van de nieuwe [Media](https://developer.android.com/training/data-storage/shared/media) API, daarom zijn [opslagmachtigingen](https://developer.android.com/training/data-storage) niet vereist
 - Microfoontoestemming niet vereist, tenzij je geluid wilt opnemen
 
-!!! note
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    Metadata worden momenteel niet verwijderd uit videobestanden, maar dat is wel de bedoeling.
-    
-    De metadata over de beeldoriëntatie worden niet gewist. Als je gps locatie inschakelt (in Secure camera), wordt deze **niet** verwijderd. Als je dat later wilt verwijderen moet je een externe app gebruiken zoals [ExifEraser](data-redaction.md#exiferaser).
+Metadata worden momenteel niet verwijderd uit videobestanden, maar dat is wel de bedoeling.
+
+De metadata over de beeldoriëntatie worden niet gewist. Als je gps locatie inschakelt (in Secure camera), wordt deze **niet** verwijderd. Als je dat later wilt verwijderen moet je een externe app gebruiken zoals [ExifEraser](data-redaction.md#exiferaser).
+
+</div>
 
 ### Secure PDF Viewer
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
-    
-    **Secure PDF Viewer** is een PDF-viewer gebaseerd op [pdf.js](https://en.wikipedia.org/wiki/PDF.js) die geen rechten vereist. De PDF wordt ingevoerd in een [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_ontwikkeling)) [webview](https://developer.android.com/guide/webapps/webview). Dit betekent dat er niet direct toestemming nodig is om toegang te krijgen tot inhoud of bestanden.
-    
-    [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) wordt gebruikt om af te dwingen dat de JavaScript en styling eigenschappen binnen het WebView volledig statische inhoud zijn.
-    
-    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+
+**Secure PDF Viewer** is een PDF-viewer gebaseerd op [pdf.js](https://en.wikipedia.org/wiki/PDF.js) die geen rechten vereist. De PDF wordt ingevoerd in een [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_ontwikkeling)) [webview](https://developer.android.com/guide/webapps/webview). Dit betekent dat er niet direct toestemming nodig is om toegang te krijgen tot inhoud of bestanden.
+
+[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) wordt gebruikt om af te dwingen dat de JavaScript en styling eigenschappen binnen het WebView volledig statische inhoud zijn.
+
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
+- [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
+- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+
+</details>
+
+</div>
 
 ## Het verkrijgen van Applicaties
 
 ### Obtainium
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
-    
-    **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
-    
-    [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
+
+**Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+
+[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+
+</details>
+
+</div>
 
 Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious *update* is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
 
@@ -297,19 +332,24 @@ De app store van GrapheneOS is beschikbaar op [GitHub](https://github. com/Graph
 
 De Google Play Store vereist een Google-account om in te loggen, wat de privacy niet ten goede komt. Je kunt dit omzeilen door een alternatieve client te gebruiken, zoals Aurora Store.
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
-    
-    **Aurora Store** is een Google Play Store-client waarvoor geen Google-account, Google Play Services of microG nodig is om apps te downloaden.
-    
-    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
+
+**Aurora Store** is een Google Play Store-client waarvoor geen Google-account, Google Play Services of microG nodig is om apps te downloaden.
+
+[:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+
+</details>
+
+</div>
 
 Met de Aurora Store kun je geen betaalde apps downloaden met hun anonieme accountfunctie. Je kunt optioneel inloggen met jouw Google-account bij de Aurora Store om apps te downloaden die je hebt gekocht, waardoor Google toegang krijgt tot de lijst van apps die je hebt geïnstalleerd, maar je profiteert nog steeds van het feit dat je niet de volledige Google Play-client en Google Play Services of microG op jouw toestel nodig hebt.
 
@@ -374,17 +414,23 @@ Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https:/
 
 That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgement when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
 
-!!! note "F-Droid Basic"
+<div class="admonition note" markdown>
+<p class="admonition-title">F-Droid Basic</p>
 
-    In sommige zeldzame gevallen verspreidt de ontwikkelaar van een app deze alleen via F-Droid ([Gadgetbridge](https://gadgetbridge.org/) is hier een voorbeeld van). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) client instead of the original F-Droid app to obtain it. F-Droid Basic can do unattended updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+In sommige zeldzame gevallen verspreidt de ontwikkelaar van een app deze alleen via F-Droid ([Gadgetbridge](https://gadgetbridge.org/) is hier een voorbeeld van). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) client instead of the original F-Droid app to obtain it. F-Droid Basic can do unattended updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+
+</div>
 
 ## Criteria
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
-!!! example "Deze sectie is nieuw"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+
+</div>
 
 ### Besturingssystemen
 

@@ -10,30 +10,37 @@ Many cloud storage providers require your full trust that they will not look at 
 
 If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. question "Looking for Nextcloud?"
+<details class="TYPE" markdown>
+<summary>Looking for Nextcloud?</summary>
 
-    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+
+</details>
 
 ## Proton Drive
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
-    
-    **Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
-    
-    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-        - [:simple-windows11: Windows](https://proton.me/drive/download)
-        - [:simple-apple: macOS](https://proton.me/drive/download)
+![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+
+**Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+
+[:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+- [:simple-windows11: Windows](https://proton.me/drive/download)
+- [:simple-apple: macOS](https://proton.me/drive/download)
+
+</details>
+
+</div>
 
 The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/blog/security-audit-all-proton-apps), full details were not made available, but Securitum's letter of attestation states:
 
@@ -43,24 +50,28 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
 
 ## Tresorit
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
-    
-    **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
-    
-    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
-        - [:simple-windows11: Windows](https://tresorit.com/download)
-        - [:simple-apple: macOS](https://tresorit.com/download)
-        - [:simple-linux: Linux](https://tresorit.com/download)
+![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+
+**Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
+
+[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-windows11: Windows](https://tresorit.com/download)
+- [:simple-apple: macOS](https://tresorit.com/download)
+- [:simple-linux: Linux](https://tresorit.com/download)
+
+</details>
+
+</div>
 
 Tresorit has received a number of independent security audits:
 
@@ -78,11 +89,14 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
+
+**PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+
+</div>
 
 ### Requisitos mínimos
 

@@ -12,37 +12,48 @@ cover: financial-services.webp
 
 ישנם מספר שירותים המספקים "כרטיסי חיוב וירטואליים" שבהם אתה יכול להשתמש עם סוחרים מקוונים מבלי לחשוף את פרטי הבנק או החיוב בפועל שלך ברוב המקרים. חשוב לציין ששירותים פיננסיים אלו הם **אינם** אנונימיים וכפופים לחוקי "הכר את הלקוח שלך" (KYC) ועשויים לדרוש את תעודת הזהות שלך או מידע מזהה אחר. שירותים אלה שימושיים בעיקר להגנה עליך מפני הפרות נתונים של סוחרים, מעקב פחות מתוחכם או מתאם רכישה על ידי סוכנויות שיווק וגניבת נתונים מקוונים; ו**לא** לביצוע רכישה באופן אנונימי לחלוטין.
 
-!!! tip "בדוק את הבנק הנוכחי שלך"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Check your current bank</p>
 
-    בנקים וספקי כרטיסי אשראי רבים מציעים פונקציונליות מקורית של כרטיסים וירטואליים. אם אתה משתמש באחד שכבר מספק את האפשרות הזו, עליך להשתמש בו על פני ההמלצות הבאות ברוב המקרים. כך אינך סומך על מספר צדדים עם המידע האישי שלך.
+בנקים וספקי כרטיסי אשראי רבים מציעים פונקציונליות מקורית של כרטיסים וירטואליים. אם אתה משתמש באחד שכבר מספק את האפשרות הזו, עליך להשתמש בו על פני ההמלצות הבאות ברוב המקרים. כך אינך סומך על מספר צדדים עם המידע האישי שלך.
+
+</div>
 
 ### Privacy.com (ארה"ב)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Privacy.com לוגו](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-    ![Privacy.com לוגו](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
-    
-    התוכנית החינמית של **Privacy.com** מאפשרת לך ליצור עד 12 כרטיסים וירטואליים בחודש, להגדיר מגבלות הוצאות על כרטיסים אלה ולכבות כרטיסים באופן מיידי. התוכנית בתשלום שלהם מאפשרת לך ליצור עד 36 כרטיסים בחודש, לקבל החזר של 1% מזומן על רכישות ולהסתיר מידע של העסקה מהבנק שלך.
-    
-    [:octicons-home-16: דף הבית](https://privacy.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=תיעוד}
+![Privacy.com לוגו](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
+![Privacy.com לוגו](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+
+התוכנית החינמית של **Privacy.com** מאפשרת לך ליצור עד 12 כרטיסים וירטואליים בחודש, להגדיר מגבלות הוצאות על כרטיסים אלה ולכבות כרטיסים באופן מיידי. התוכנית בתשלום שלהם מאפשרת לך ליצור עד 36 כרטיסים בחודש, לקבל החזר של 1% מזומן על רכישות ולהסתיר מידע של העסקה מהבנק שלך.
+
+[:octicons-home-16: דף הבית](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="מדיניות פרטיות" }
+[:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנק שלך כברירת מחדל. תכונת "סוחרים דיסקרטיים" בתשלום שלהם מסתירה מידע סוחר מהבנק שלך, כך שהבנק שלך רואה רק שבוצעה רכישה עם Privacy.com אבל לא איפה הכסף הזה הוצא, אבל זה לא חסין תקלות, וכמובן ש-Privacy.com עדיין יש ידע על הסוחרים שאיתם אתה מוציא כסף.
 
 ### MySudo (ארה"ב, בתשלום)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![MySudo לוגו](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-    ![MySudo לוגו](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
-    
-    **MySudo** מספקת עד 9 כרטיסים וירטואליים בהתאם לתוכנית שתרכשו. התוכניות בתשלום שלהם כוללות בנוסף פונקציונליות שעשויה להיות שימושית לביצוע רכישות באופן פרטי, כגון מספרי טלפון וירטואליים וכתובות אימייל, אם כי בדרך כלל אנו ממליצים על [ספקי כינוי אימייל](email.md) אחרים לשימוש נרחב בכינויי אימייל.
-    
-    [:octicons-home-16: דף הבית](https://mysudo.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=תיעוד}
+![MySudo לוגו](assets/img/financial-services/mysudo.svg#only-light){ align=right }
+![MySudo לוגו](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+
+**MySudo** מספקת עד 9 כרטיסים וירטואליים בהתאם לתוכנית שתרכשו. התוכניות בתשלום שלהם כוללות בנוסף פונקציונליות שעשויה להיות שימושית לביצוע רכישות באופן פרטי, כגון מספרי טלפון וירטואליים וכתובות אימייל, אם כי בדרך כלל אנו ממליצים על [ספקי כינוי אימייל](email.md) אחרים לשימוש נרחב בכינויי אימייל.
+
+[:octicons-home-16: דף הבית](https://mysudo.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="מדיניות פרטיות" }
+[:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 הכרטיסים הווירטואליים של MySudo זמינים כרגע רק דרך אפליקציית iOS שלהם.
 
@@ -50,9 +61,12 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 - מאפשר יצירת כרטיסים מרובים שמתפקדים כמגן בין הסוחר לבין הכספים האישיים שלך.
 - אסור שהכרטיסים ידרשו ממך לספק פרטי כתובת מדויקת לחיוב למוכר.
@@ -63,23 +77,30 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 ### CoinCards
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![CoinCards לוגו](assets/img/financial-services/coincards.svg){ align=right }
-    
-    ** CoinCards ** (זמין בארה"ב ובקנדה) מאפשר לך לרכוש כרטיסי מתנה למגוון גדול של סוחרים.
-    
-    [:octicons-home-16: דף הבית](https://coincards.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=תיעוד}
+![CoinCards לוגו](assets/img/financial-services/coincards.svg){ align=right }
+
+** CoinCards ** (זמין בארה"ב ובקנדה) מאפשר לך לרכוש כרטיסי מתנה למגוון גדול של סוחרים.
+
+[:octicons-home-16: דף הבית](https://coincards.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="מדיניות פרטיות" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 ### קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 - מקבל תשלום ב[מטבע קריפטוגרפי מומלץ](cryptocurrency.md).
 - אין צורך בתעודת זהות.

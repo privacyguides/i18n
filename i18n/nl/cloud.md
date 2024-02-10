@@ -10,29 +10,37 @@ Veel aanbieders van cloud-opslag eisen jouw volledige vertrouwen dat zij niet in
 
 Als deze alternatieven niet aan jouw behoeften voldoen, raden wij je aan te kijken naar het gebruik van encryptiesoftware zoals [Cryptomator](encryption.md#cryptomator-cloud) met een andere cloud provider. Het gebruik van Cryptomator in combinatie met **elke** cloud provider (inclusief deze) kan een goed idee zijn om het risico van versleutelingsfouten in de native clients van een provider te verminderen.
 
-??? question "Op zoek naar Nextcloud?"
+<details class="TYPE" markdown>
+<summary>Looking for Nextcloud?</summary>
 
-    Nextcloud is [nog steeds een aanbevolen tool](productivity.md) voor het zelf hosten van een bestandsbeheersuite, maar we bevelen momenteel geen opslagproviders van derden aan, omdat we de ingebouwde E2EE-functionaliteit van Nextcloud niet aanbevelen voor thuisgebruikers.
+Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+
+</details>
 
 ## Proton Drive
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
-    
-    **Proton Drive** is een E2EE algemene bestandsopslagdienst van de populaire versleutelde e-mailprovider [Proton Mail](email.md#proton-mail).
-    
-    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-        - [:simple-windows11: Windows](https://proton.me/drive/download)
-        - [:simple-apple: macOS](https://proton.me/drive/download)
+![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+
+**Proton Drive** is een E2EE algemene bestandsopslagdienst van de populaire versleutelde e-mailprovider [Proton Mail](email.md#proton-mail).
+
+[:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+- [:simple-windows11: Windows](https://proton.me/drive/download)
+- [:simple-apple: macOS](https://proton.me/drive/download)
+
+</details>
+
+</div>
 
 De Proton Drive webapplicatie is onafhankelijk gecontroleerd door Securitum in [2021](https://proton.me/blog/security-audit-all-proton-apps), volledige details werden niet beschikbaar gesteld, maar in de verklaring van Securitum staat:
 
@@ -42,23 +50,28 @@ De gloednieuwe mobiele klanten van Proton Drive zijn nog niet publiekelijk gecon
 
 ## Tresorit
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
-    
-    **Tresorit** is een Zwitsers-Hongaarse aanbieder van versleutelde cloud-opslag, opgericht in 2011. Tresorit is eigendom van de Zwitserse Post, de nationale postdienst van Zwitserland.
-    
-    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
-        - [:simple-windows11: Windows](https://tresorit.com/download)
-        - [:simple-apple: macOS](https://tresorit.com/download)
-        - [:simple-linux: Linux](https://tresorit.com/download)
+Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+
+**Tresorit** is een Zwitsers-Hongaarse aanbieder van versleutelde cloud-opslag, opgericht in 2011. Tresorit is eigendom van de Zwitserse Post, de nationale postdienst van Zwitserland.
+
+[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-windows11: Windows](https://tresorit.com/download)
+- [:simple-apple: macOS](https://tresorit.com/download)
+- [:simple-linux: Linux](https://tresorit.com/download)
+
+</details>
+
+</div>
 
 Tresorit heeft een aantal onafhankelijke beveiligingsaudits ontvangen:
 
@@ -76,9 +89,12 @@ Ze hebben ook het Digital Trust Label ontvangen, een certificering van het [Swis
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
-!!! example "Deze sectie is nieuw"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+
+</div>
 
 ### Minimale vereisten
 

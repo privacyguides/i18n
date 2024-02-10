@@ -45,7 +45,7 @@ schema:
     name: Pixel
     brand:
       "@type": Brand
-      name: 谷歌
+      name: Google
     image: /assets/img/android/google-pixel.png
     sameAs: https://en.wikipedia.org/wiki/Google_Pixel
     review:
@@ -74,7 +74,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: 安全的PDF查看器（Secure PDF Viewer）
+    name: Secure PDF Viewer
     applicationCategory: Utilities
     operatingSystem: 安卓
 ---
@@ -95,26 +95,31 @@ schema:
 
 We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
-!!! note
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    由于OEM停止支持，寿命终止的设备（如GrapheneOS或CalyxOS的 "扩展支持 "设备）没有完整的安全补丁（固件更新）。 无论安装何种软件，都不能认为这些设备是完全安全的。
+由于OEM停止支持，寿命终止的设备（如GrapheneOS或CalyxOS的 "扩展支持 "设备）没有完整的安全补丁（固件更新）。 无论安装何种软件，都不能认为这些设备是完全安全的。
+
+</div>
 
 ### GrapheneOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![GrapheneOS标志](assets/img/android/grapheneos.svg#only-light){ align=right }
-    ![GrapheneOS标志](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
-    
-    **GrapheneOS**是涉及隐私和安全的最佳选择。
-    
-    GrapheneOS提供了额外的[安全加固](https://en.wikipedia.org/wiki/Hardening_(计算))和隐私改进。 它有一个[加固的内存分配器](https://github.com/GrapheneOS/hardened_malloc)、网络和传感器权限，以及其他各种[安全功能](https://grapheneos.org/features)。 GrapheneOS还带有完整的固件更新和签名构建，因此完全支持验证性启动。
-    
-    [:octicons-home-16: 主页](https://grapheneos.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="隐私政策" }
-    [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=文档}
-    [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="源代码" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="贡献" }
+![GrapheneOS标志](assets/img/android/grapheneos.svg#only-light){ align=right }
+![GrapheneOS标志](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+
+**GrapheneOS**是涉及隐私和安全的最佳选择。
+
+GrapheneOS提供了额外的[安全加固](https://en.wikipedia.org/wiki/Hardening_(计算))和隐私改进。 它有一个[加固的内存分配器](https://github.com/GrapheneOS/hardened_malloc)、网络和传感器权限，以及其他各种[安全功能](https://grapheneos.org/features)。 GrapheneOS还带有完整的固件更新和签名构建，因此完全支持验证性启动。
+
+[:octicons-home-16: 主页](https://grapheneos.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=文档}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="源代码" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="贡献" }
+
+</div>
 
 GrapheneOS supports [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging/), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
@@ -124,19 +129,21 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 
 ### DivestOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![DivestOS标志](assets/img/android/divestos.svg){ align=right }
-    
-    **DivestOS**是 [LineageOS](https://lineageos.org/)的一个软分叉。
-    DivestOS从LineageOS继承了许多[支持的设备](https://divestos.org/index.php?page=devices&base=LineageOS)。 它有签名的构建，使得在一些非Pixel设备上可以有[验证的启动](https://source.android.com/security/verifiedboot)。
-    
-    [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+![DivestOS标志](assets/img/android/divestos.svg){ align=right }
+
+**DivestOS**是 [LineageOS](https://lineageos.org/)的一个软分叉。
+DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. 它有签名的构建，使得在一些非Pixel设备上可以有[验证的启动](https://source.android.com/security/verifiedboot)。
+
+[:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+
+</div>
 
 DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747/) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
@@ -144,11 +151,14 @@ DivestOS implements some system hardening patches originally developed for Graph
 
 DivestOS uses F-Droid as its default app store. We normally [recommend avoiding F-Droid](#f-droid), but doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) **with the DivestOS repositories enabled** to keep those components up to date. For other apps, our recommended methods of obtaining them still apply.
 
-!!! 推荐
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    DivestOS的固件更新 [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS)和质量控制在其支持的设备中各不相同。 我们仍然推荐GrapheneOS，这取决于你设备的兼容性。 对于其他设备，DivestOS是一个不错的选择。
-    
-    并非所有支持的设备都有验证启动，有些设备的验证启动性能比其他设备好。
+DivestOS的固件更新 [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS)和质量控制在其支持的设备中各不相同。 我们仍然推荐GrapheneOS，这取决于你设备的兼容性。 对于其他设备，DivestOS是一个不错的选择。
+
+并非所有支持的设备都有验证启动，有些设备的验证启动性能比其他设备好。
+
+</div>
 
 ## 安卓设备
 
@@ -156,7 +166,7 @@ When purchasing a device, we recommend getting one as new as possible. The softw
 
 Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of [IMEI blacklisting](https://www.gsma.com/security/resources/imei-blacklisting/). There is also a risk involved with you being associated with the activity of the previous owner.
+Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). There is also a risk involved with you being associated with the activity of the previous owner.
 
 A few more tips regarding Android devices and operating system compatibility:
 
@@ -168,15 +178,17 @@ A few more tips regarding Android devices and operating system compatibility:
 
 Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ！[谷歌Pixel 6](assets/img/android/google-pixel.png){ align=right }
-    
-    众所周知，**谷歌Pixel**设备具有良好的安全性，并适当支持[验证启动](https://source.android.com/security/verifiedboot)，即使在安装自定义操作系统时也是如此。
-    
-    Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
-    
-    [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+！[谷歌Pixel 6](assets/img/android/google-pixel.png){ align=right }
+
+众所周知，**谷歌Pixel**设备具有良好的安全性，并适当支持[验证启动](https://source.android.com/security/verifiedboot)，即使在安装自定义操作系统时也是如此。
+
+Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+
+[:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+
+</div>
 
 Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for *all* of those functions, resulting in a larger attack surface.
 
@@ -198,43 +210,53 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
 ### Shelter
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Shelter logo](assets/img/android/shelter.svg){ align=right }
-    
-    * *Shelter* *是一款应用程序，可帮助您利用Android的工作配置文件功能隔离或复制设备上的应用程序。
-    
-    Shelter支持阻止联系人跨档案搜索，并通过默认文件管理器([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))跨档案共享文件。
-    
-    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
+![Shelter logo](assets/img/android/shelter.svg){ align=right }
 
-!!! 推荐
+* *Shelter* *是一款应用程序，可帮助您利用Android的工作配置文件功能隔离或复制设备上的应用程序。
 
-    推荐使用Shelter而不是 [Insular](https://secure-system.gitlab.io/Insular/)和 [Island](https://github.com/oasisfeng/island)，因为它支持[联系人搜索屏蔽](https://secure-system.gitlab.io/Insular/faq.html)。
-    
-    当使用Shelter时，你完全信任它的开发者，因为Shelter作为一个[设备管理员](https://developer.android.com/guide/topics/admin/device-admin)来创建工作档案，它可以广泛地访问存储在工作档案中的数据。
+Shelter支持阻止联系人跨档案搜索，并通过默认文件管理器([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))跨档案共享文件。
+
+[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+推荐使用Shelter而不是 [Insular](https://secure-system.gitlab.io/Insular/)和 [Island](https://github.com/oasisfeng/island)，因为它支持[联系人搜索屏蔽](https://secure-system.gitlab.io/Insular/faq.html)。
+
+当使用Shelter时，你完全信任它的开发者，因为Shelter作为一个[设备管理员](https://developer.android.com/guide/topics/admin/device-admin)来创建工作档案，它可以广泛地访问存储在工作档案中的数据。
+
+</div>
 
 ### Secure Camera
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Secure 摄像头标志](assets/img/android/secure_camera.svg#only-light){ align=right }
-    ![Secure 摄像头标志](assets/img/android/secure_camara-dark#only-dark){ aligh=right }
-    
-    **Secure Camera** 是一个专注于隐私和安全的相机应用，它可以捕捉图像、视频和二维码。 CameraX供应商扩展（肖像、HDR、夜视、面部修饰和自动）也在可用设备上得到支持。
-    
-    [:octicons-repo-16: 主页](https://grapheneos.org/){ .md-button .md-button--primary }
-    
-    [:octicons-info-16:](https://github.com/GrapheneOS/Camera#privacy-policy){ .card-link title="隐私政策" }
-    [:octicons-code-16:](https://grapheneos.org/faq){ .card-link title=文档}
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="源代码" }
-    [](){ .card-link title="贡献" } downloads "下载"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+![Secure 摄像头标志](assets/img/android/secure_camera.svg#only-light){ align=right }
+![Secure 摄像头标志](assets/img/android/secure_camara-dark#only-dark){ aligh=right }
+
+**Secure Camera** 是一个专注于隐私和安全的相机应用，它可以捕捉图像、视频和二维码。 CameraX供应商扩展（肖像、HDR、夜视、面部修饰和自动）也在可用设备上得到支持。
+
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
+- [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
+- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+
+</details>
+
+</div>
 
 Main privacy features include:
 
@@ -242,50 +264,63 @@ Main privacy features include:
 - Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
 - Microphone permission not required unless you want to record sound
 
-!!! note
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    目前，元数据没有从视频文件中删除，但这是计划中的。
-    
-    图像方向元数据未被删除。 如果你启用位置（在安全相机中），**也不会被删除。 如果你以后想删除，你将需要使用一个外部应用程序，如 [ExifEraser]（data-redaction.md#exiferaser）。
+目前，元数据没有从视频文件中删除，但这是计划中的。
 
-### 安全的PDF查看器（Secure PDF Viewer）
+图像方向元数据未被删除。 如果你启用位置（在安全相机中），**也不会被删除。 如果你以后想删除，你将需要使用一个外部应用程序，如 [ExifEraser]（data-redaction.md#exiferaser）。
 
-!!! recommendation
+</div>
 
-    ![安全PDF浏览器标志](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-    ![安全PDF浏览器标志](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
-    
-    **安全PDF浏览器**是一个基于 [pdf.js]（https://en.wikipedia.org/wiki/PDF.js）的PDF浏览器，不需要任何权限。 该PDF被送入一个 [sandboxed]（https://en.wikipedia.org/wiki/Sandbox_(software_development)） [webview]（https://developer.android.com/guide/webapps/webview）。 这意味着它不需要权限就能直接访问内容或文件。
-    
-    [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy)是用来强制要求WebView内的JavaScript和造型属性完全是静态内容。
-    
-    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="源代码" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=贡献 }
-    
-    ??? downloads "下载"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+### Secure PDF Viewer
+
+<div class="admonition recommendation" markdown>
+
+![安全PDF浏览器标志](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
+![安全PDF浏览器标志](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+
+**安全PDF浏览器**是一个基于 [pdf.js]（https://en.wikipedia.org/wiki/PDF.js）的PDF浏览器，不需要任何权限。 该PDF被送入一个 [sandboxed]（https://en.wikipedia.org/wiki/Sandbox_(software_development)） [webview]（https://developer.android.com/guide/webapps/webview）。 这意味着它不需要权限就能直接访问内容或文件。
+
+[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy)是用来强制要求WebView内的JavaScript和造型属性完全是静态内容。
+
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
+- [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
+- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+
+</details>
+
+</div>
 
 ## 获取应用程序
 
 ### Obtainium
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
-    
-    **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
-    
-    [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
+
+**Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+
+[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+
+</details>
+
+</div>
 
 Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious *update* is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
 
@@ -297,19 +332,24 @@ GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Ap
 
 The Google Play Store requires a Google account to login which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Aurora Store徽标](assets/img/android/aurora-store.webp){ align=right }
-    
-    * *Aurora Store* *是Google Play Store客户端，无需Google帐户、Google Play服务或microG即可下载应用程序。
-    
-    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
-    
-    ??? 下载
-    
-        - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+![Aurora Store徽标](assets/img/android/aurora-store.webp){ align=right }
+
+* *Aurora Store* *是Google Play Store客户端，无需Google帐户、Google Play服务或microG即可下载应用程序。
+
+[:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+
+</details>
+
+</div>
 
 Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
@@ -374,17 +414,23 @@ Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https:/
 
 That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgement when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
 
-!!! note "F-Droid Basic"
+<div class="admonition note" markdown>
+<p class="admonition-title">F-Droid Basic</p>
 
-    In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org/) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) client instead of the original F-Droid app to obtain it. F-Droid Basic can do unattended updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org/) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) client instead of the original F-Droid app to obtain it. F-Droid Basic can do unattended updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+
+</div>
 
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! example "This section is new"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+</div>
 
 ### 服务供应商
 

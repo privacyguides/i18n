@@ -10,29 +10,37 @@ cover: cloud.webp
 
 If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
-??? question "Nextcloudをお探しですか？"
+<details class="TYPE" markdown>
+<summary>Looking for Nextcloud?</summary>
 
-    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+
+</details>
 
 ## Proton Drive
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Proton Drive ロゴ](assets/img/cloud/protondrive.svg){ align=right }
-    
-    **Proton Drive**は、人気の暗号化電子メールプロバイダーである[Proton Mail](email.md#proton-mail)が提供する、スイスの暗号化クラウドストレージ プロバイダーです。
-    
-    [:octicons-home-16: ホームページ](https://proton.me/drive){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="プライバシーポリシー" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=ドキュメント}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="ソースコード" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-        - [:simple-windows11: Windows](https://proton.me/drive/download)
-        - [:simple-apple: macOS](https://proton.me/drive/download)
+![Proton Drive ロゴ](assets/img/cloud/protondrive.svg){ align=right }
+
+**Proton Drive**は、人気の暗号化電子メールプロバイダーである[Proton Mail](email.md#proton-mail)が提供する、スイスの暗号化クラウドストレージ プロバイダーです。
+
+[:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+- [:simple-windows11: Windows](https://proton.me/drive/download)
+- [:simple-apple: macOS](https://proton.me/drive/download)
+
+</details>
+
+</div>
 
 Proton Driveのウェブアプリケーションは、[2021](https://proton.me/blog/security-audit-all-proton-apps)年にSecuritumにより独立の監査を受けています。完全な詳細は公開されませんでしたが、Securitumの認証状態は以下の通りです。
 
@@ -42,23 +50,28 @@ Proton Driveの新しいモバイルクライアントは、まだ第三者に�
 
 ## Tresorit
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tresorit ロゴ](assets/img/cloud/tresorit.svg){ align=right }
-    
-    **Tresorit**は、2011年に設立された、スイスとハンガリーの暗号化クラウドストレージ プロバイダーです。 Tresoritはスイスの国営郵便局であるスイスポストが所有しています。
-    
-    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
-        - [:simple-windows11: Windows](https://tresorit.com/download)
-        - [:simple-apple: macOS](https://tresorit.com/download)
-        - [:simple-linux: Linux](https://tresorit.com/download)
+![Tresorit ロゴ](assets/img/cloud/tresorit.svg){ align=right }
+
+**Tresorit**は、2011年に設立された、スイスとハンガリーの暗号化クラウドストレージ プロバイダーです。 Tresoritはスイスの国営郵便局であるスイスポストが所有しています。
+
+[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-windows11: Windows](https://tresorit.com/download)
+- [:simple-apple: macOS](https://tresorit.com/download)
+- [:simple-linux: Linux](https://tresorit.com/download)
+
+</details>
+
+</div>
 
 Tresorit has received a number of independent security audits:
 
@@ -76,9 +89,12 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 **私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
-!!! example "この項目は最近作成されました"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
+私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
+
+</div>
 
 ### 最低要件
 

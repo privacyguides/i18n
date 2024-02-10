@@ -10,29 +10,37 @@ Många molnlagringsleverantörer kräver ditt fulla förtroende för att de inte
 
 If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
-??? fråga "Letar du efter Nextcloud?"
+<details class="TYPE" markdown>
+<summary>Looking for Nextcloud?</summary>
 
-    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+
+</details>
 
 ## Proton Drive
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
-    
-    **Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
-    
-    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-        - [:simple-windows11: Windows](https://proton.me/drive/download)
-        - [:simple-apple: macOS](https://proton.me/drive/download)
+![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+
+**Proton Drive** is a Swiss encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+
+[:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+- [:simple-windows11: Windows](https://proton.me/drive/download)
+- [:simple-apple: macOS](https://proton.me/drive/download)
+
+</details>
+
+</div>
 
 The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/blog/security-audit-all-proton-apps), full details were not made available, but Securitum's letter of attestation states:
 
@@ -42,23 +50,28 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
 
 ## Tresorit
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
-    
-    **Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
-    
-    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
-        - [:simple-windows11: Windows](https://tresorit.com/download)
-        - [:simple-apple: macOS](https://tresorit.com/download)
-        - [:simple-linux: Linux](https://tresorit.com/download)
+![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+
+**Tresorit** is a Swiss-Hungarian encrypted cloud storage provider founded in 2011. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
+
+[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-windows11: Windows](https://tresorit.com/download)
+- [:simple-apple: macOS](https://tresorit.com/download)
+- [:simple-linux: Linux](https://tresorit.com/download)
+
+</details>
+
+</div>
 
 Tresorit has received a number of independent security audits:
 
@@ -76,9 +89,12 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! exempel "Det här avsnittet är nytt"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
+Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
+
+</div>
 
 ### Minimikrav
 

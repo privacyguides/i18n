@@ -1,14 +1,14 @@
 ---
-meta_title: "Android 推薦: GrapheneOS 與 DivestOS - Privacy Guides"
+meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: Android 手機可考慮使用這些更為安全與尊重隱私的作業系統。
+description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 cover: android.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: 私密 Android 作業系統
+    name: Private Android Operating Systems
     url: "./"
   - 
     "@context": http://schema.org
@@ -16,14 +16,14 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://zh.wikipedia.org/wiki/Android_ (operating_system)
+    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
   - 
     "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
-    sameAs: https://zh.wikipedia.org/wiki/GrapheneOS
+    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -34,7 +34,7 @@ schema:
     name: Divest
     image: /assets/img/android/divestos.svg
     url: https://divestos.org/
-    sameAs: https://zh.wikipedia.org/wiki/DivestOS
+    sameAs: https://en.wikipedia.org/wiki/DivestOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -47,7 +47,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://zh.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:
@@ -68,13 +68,13 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: 安全相機
+    name: Secure Camera
     applicationCategory: Utilities
     operatingSystem: Android
   - 
     "@context": http://schema.org
     "@type": MobileApplication
-    name: 安全的 PDF 檢視器
+    name: Secure PDF Viewer
     applicationCategory: Utilities
     operatingSystem: Android
 ---
@@ -95,26 +95,31 @@ schema:
 
 根據設備與這些作業系統的兼容性，列出偏好順序以安裝我們推薦的某款定制 Android 作業系統。
 
-!!! note "備註"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    由於 OEM 停止支持，壽命終止的設備（如GrapheneOS或CalyxOS的 "延長支授 "設備）沒有完整的安全補丁（軔體更新）。 這些設備無論安裝何種軟體，都不能視為完全安全。
+由於 OEM 停止支持，壽命終止的設備（如GrapheneOS或CalyxOS的 "延長支授 "設備）沒有完整的安全補丁（軔體更新）。 這些設備無論安裝何種軟體，都不能視為完全安全。
+
+</div>
 
 ### GrapheneOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
-    ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
-    
-    **GrapheneOS** 是隱私與安全的最佳選擇。
-    
-    GrapheneOS 提供額外的 [安全加固](https://en.wikipedia.org/wiki/Hardening_(computing)) 與隱私改善。 它有 [加固的記憶體分配器](https://github.com/GrapheneOS/hardened_malloc)、網路、感應許可與各類[安全功能](https://grapheneos.org/features). GrapheneOS 還帶有完整的軔體更新與已簽名的建置版本，因此完全支援 verified boot。
-    
-    [:octicons-home-16: Homepage](https://grapheneos.org/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
+![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+
+**GrapheneOS** 是隱私與安全的最佳選擇。
+
+GrapheneOS 提供額外的 [安全加固](https://en.wikipedia.org/wiki/Hardening_(computing)) 與隱私改善。 它有 [加固的記憶體分配器](https://github.com/GrapheneOS/hardened_malloc)、網路、感應許可與各類[安全功能](https://grapheneos.org/features). GrapheneOS 還帶有完整的軔體更新與已簽名的建置版本，因此完全支援 verified boot。
+
+[:octicons-home-16: Homepage](https://grapheneos.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+
+</div>
 
 GrapheneOS 支援 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), 它可以像其它普通應用一樣在沙盒中執行[Google Play 服務](https://en.wikipedia.org/wiki/Google_Play_Services) 。 這意味著您將可以利用大多數 Google Play 服務，如 [推送通知](https://firebase.google.com/docs/cloud-messaging/)，完全控制其權限和訪問，同時將其包含所選的特定 [工作設定檔](os/android-overview.md#work-profile) 或 [用戶設定檔](os/android-overview.md#user-profiles)。
 
@@ -124,19 +129,21 @@ Google Pixel 手機是目前唯一符合 GrapheneOS [硬體安全要求](https:/
 
 ### DivestOS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
-    
-    **DivestOS** 是 [LineageOS](https://lineageos.org/)的分支。
-    DivestOS 從 LineageOS 繼承了許多[支援的設備](https://divestos.org/index.php?page=devices&base=LineageOS)。 它具有簽名的建置，因此可在某些非 Pixel 設備上執行 [verified boot](https://source.android.com/security/verifiedboot)。
-    
-    [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+![DivestOS logo](assets/img/android/divestos.svg){ align=right }
+
+**DivestOS** 是 [LineageOS](https://lineageos.org/)的分支。
+DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. 它具有簽名的建置，因此可在某些非 Pixel 設備上執行 [verified boot](https://source.android.com/security/verifiedboot)。
+
+[:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+
+</div>
 
 DivestOS 有自動內核弱點 ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [補丁](https://gitlab.com/divested-mobile/cve_checker)、更少的商業專用 blobs 與自定的 [hosts](https://divested.dev/index.php?page=dnsbl) 檔案。 其加固的 WebView, [Mulch](https://gitlab.com/divested-mobile/mulch)，能使 [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) 用在所有架構和 [網路狀態分區](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning)，且接收額外更新。 DivestOS 還包括來自GrapheneOS 內核補丁，並通過 [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758)，開啟所有可用的內核安全功能。 3.4 版之後更新的內核都包括全頁[淨化](https://lwn.net/Articles/334747/) ，所有 ~22 Clang 編譯的內核都啟用了 [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471)。
 
@@ -144,11 +151,14 @@ DivestOS 實現了一些最初為 GrapheneOS 開發的系統加固補丁。 Dive
 
 DivestOS 以 F-Droid 為預設的應用下載服務。 通常建議 [少用 F-Droid](#f-droid)，然而這對 DivestOS 卻不可行，開發者透過 ([DivestOS 官方](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) 與 [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2))的 F-Droid 存取庫來更新他們的應用程式。 我們建議禁用官方 F-Droid 應用，並使用 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) **，啟用DivestOS 存取庫，以保持這些組件為最新。 至於其它應用，我們建議的獲取方式仍適用。</p>
 
-!!! warning "警告"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning "警告"</p>
 
-    DivestOS 軔體更新 [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS)和品管依所支援的設備不同而異。 雖取決於設備的兼容性，我们仍推薦 GrapheneOS。 對其它設備，DivestOS 是不錯的選項。
-    
-    並非所有支援設備都可 verified boot，某些設備的表現較好。
+DivestOS 軔體更新 [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS)和品管依所支援的設備不同而異。 雖取決於設備的兼容性，我们仍推薦 GrapheneOS。 對其它設備，DivestOS 是不錯的選項。
+
+並非所有支援設備都可 verified boot，某些設備的表現較好。
+
+</div>
 
 ## Android 設備
 
@@ -156,7 +166,7 @@ DivestOS 以 F-Droid 為預設的應用下載服務。 通常建議 [少用 F-Dr
 
 避免從電信行動營運商購置手機。 它們往往 **鎖定 bootloader** 也不支援 [OEM 解鎖](https://source.android.com/devices/bootloader/locking_unlocking)。 這類手機變體阻止安裝任何替代的 Android 發行版。
 
-從網路市集購買二手手機必須要非常**小心**。 請檢查賣家的信譽 如果是失竊的設備，有可能被列為 [IMEI 黑名單](https://www.gsma.com/security/resources/imei-blacklisting/)。 前一位持有者的活動發生關係也將有風險。
+從網路市集購買二手手機必須要非常**小心**。 請檢查賣家的信譽 If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). 前一位持有者的活動發生關係也將有風險。
 
 對於 Android 設備與作業系統相容有一些提示:
 
@@ -168,15 +178,17 @@ DivestOS 以 F-Droid 為預設的應用下載服務。 通常建議 [少用 F-Dr
 
 Google Pixel 是**唯一** 推薦的手機。 由於對第三方作業系統的適當AVB 支持和 Google 定制的 [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) 安全晶片為安全元件，Pixel 硬體安全性比目前市場上其他 Android 設備強。
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
-    
-    眾所周知，**Google Pixel** 設備具有良好安全性，支持 [Verified Boot](https://source.android.com/security/verifiedboot)，即使安裝自定義作業系統時也是如此。
-    
-    從 **Pixel 8**和 **8 Pro** 開始，Pixel 設備至少有 7年的安全更新保證，確保其使用壽命比其他競爭OEM 廠商 2-5年長得多。
-    
-    [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
+
+眾所周知，**Google Pixel** 設備具有良好安全性，支持 [Verified Boot](https://source.android.com/security/verifiedboot)，即使安裝自定義作業系統時也是如此。
+
+從 **Pixel 8**和 **8 Pro** 開始，Pixel 設備至少有 7年的安全更新保證，確保其使用壽命比其他競爭OEM 廠商 2-5年長得多。
+
+[:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+
+</div>
 
 Titan M2 這類安全元件比大多數其他手機處理器的可信執行環境更為有限，因為Titan M2 只用於秘密存儲、硬體證明和速率限制，而不是用於運行 "可信 "程式。 沒有安全元件的手機必須使用 TEE *執行所有這些功能* ，從而導致更大的攻擊面。
 
@@ -198,43 +210,53 @@ Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https:/
 
 ### Shelter
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Shelter logo](assets/img/android/shelter.svg){ align=right }
-    
-    **Shelter** 有助於利用 Android 工作設定檔功能隔離或複制設備上的應用程式。.
-    
-    Shelter 阻止聯繫人利用默認檔案管理器([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))作跨設定檔搜尋與共享檔案 。
-    
-    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
+![Shelter logo](assets/img/android/shelter.svg){ align=right }
 
-!!! warning "警告"
+**Shelter** 有助於利用 Android 工作設定檔功能隔離或複制設備上的應用程式。.
 
-    推薦使用 Shelter 取代 [Insular](https://secure-system.gitlab.io/Insular/)和 [Island](https://github.com/oasisfeng/island)，因為 Shelter 支持[聯繫人搜索屏蔽](https://secure-system.gitlab.io/Insular/faq.html)。
-    
-    當使用 Shelter 時，將信任置於其開發者，Shelter 作為[設備管理員](https://developer.android.com/guide/topics/admin/device-admin)來創建工作設定檔，它有大量權限訪問存儲在工作設定檔的資料。
+Shelter 阻止聯繫人利用默認檔案管理器([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))作跨設定檔搜尋與共享檔案 。
 
-### 安全相機
+[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribute }
 
-!!! recommendation
+</div>
 
-    ![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
-    ![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
-    
-    **Secure Camera** 專注於隱私和安全的相機應用，可以捕捉圖像、影片和二維碼。 CameraX 供應商擴展（肖像、HDR、夜視、面部修飾和自動）也支持可用設備。
-    
-    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning "警告"</p>
+
+推薦使用 Shelter 取代 [Insular](https://secure-system.gitlab.io/Insular/)和 [Island](https://github.com/oasisfeng/island)，因為 Shelter 支持[聯繫人搜索屏蔽](https://secure-system.gitlab.io/Insular/faq.html)。
+
+當使用 Shelter 時，將信任置於其開發者，Shelter 作為[設備管理員](https://developer.android.com/guide/topics/admin/device-admin)來創建工作設定檔，它有大量權限訪問存儲在工作設定檔的資料。
+
+</div>
+
+### Secure Camera
+
+<div class="admonition recommendation" markdown>
+
+![Secure camera logo](assets/img/android/secure_camera.svg#only-light){ align=right }
+![Secure camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+
+**Secure Camera** 專注於隱私和安全的相機應用，可以捕捉圖像、影片和二維碼。 CameraX 供應商擴展（肖像、HDR、夜視、面部修飾和自動）也支持可用設備。
+
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
+- [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
+- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+
+</details>
+
+</div>
 
 主要隱私功能包括：
 
@@ -242,50 +264,63 @@ Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https:/
 - 使用新的 [媒介](https://developer.android.com/training/data-storage/shared/media) API，因此不需要 [儲存權限](https://developer.android.com/training/data-storage)。
 - 除非需錄制聲音，否則無需麥克風權限。
 
-!!! note "備註"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    目前影片沒有刪除中繼資料，未來計畫要刪除。
-    
-    圖片方向的中繼資料未刪除。 如果 (Secure Camera) 開啟定位， 也 **不會** 被不會偵測到。 如果之後想刪除，必須使用外部應用如[ExifEraser](data-redaction.md#exiferaser)。
+目前影片沒有刪除中繼資料，未來計畫要刪除。
 
-### 安全的 PDF 檢視器
+圖片方向的中繼資料未刪除。 如果 (Secure Camera) 開啟定位， 也 **不會** 被不會偵測到。 如果之後想刪除，必須使用外部應用如[ExifEraser](data-redaction.md#exiferaser)。
 
-!!! 推薦
+</div>
 
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-    ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
-    
-    **Secure PDF Viewer** 是基於 [pdf.js](https://en.wikipedia.org/wiki/PDF.js)的PDF 瀏覽器，無需任何權限。 此 PDF 被送入 [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview)。 這意味著它不需要權限就能直接存取內容或檔案。
-    
-    [內容安全政策](https://en.wikipedia.org/wiki/Content_Security_Policy)用來強制要求 WebView 內的JavaScript 和造型屬性需全為靜態內容。
-    
-    [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
-        - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
-        - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+### Secure PDF Viewer
+
+<div class="admonition recommendation" markdown>
+
+![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+
+**Secure PDF Viewer** 是基於 [pdf.js](https://en.wikipedia.org/wiki/PDF.js)的PDF 瀏覽器，無需任何權限。 此 PDF 被送入 [sandboxed](https://en.wikipedia.org/wiki/Sandbox_(software_development)) [webview](https://developer.android.com/guide/webapps/webview)。 這意味著它不需要權限就能直接存取內容或檔案。
+
+[內容安全政策](https://en.wikipedia.org/wiki/Content_Security_Policy)用來強制要求 WebView 內的JavaScript 和造型屬性需全為靜態內容。
+
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
+- [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
+- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+
+</details>
+
+</div>
 
 ## 獲取應用程式
 
 ### Obtainium
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
-    
-    **Obtainium** 應用管理器可以直接透過開發者自己的發佈頁來安裝與更新應用。(例如 GitHub, GitLab 等等.), 取代集中式的應用商店或代碼儲存庫。  在 Android 12 以上版本，可支援自動背景更新。
-    
-    [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+![Obtainium logo](assets/img/android/obtainium.svg){ align=right }
+
+**Obtainium** 應用管理器可以直接透過開發者自己的發佈頁來安裝與更新應用。(例如 GitHub, GitLab 等等.), 取代集中式的應用商店或代碼儲存庫。  在 Android 12 以上版本，可支援自動背景更新。
+
+[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+
+</details>
+
+</div>
 
 Obtainium 可以從不同來源下載 APK  安裝檔，由使用者自行判斷其來源與應用是否可靠合法。 例如使用 Obtainium 從 [Signal APK 登錄頁 ](https://signal.org/android/apk/) 來下載安裝 Signal 應該沒問題，但如果透過第三方 APK 儲放庫如 Aptoide o 或 APKPure 則可能有其它風險。 安裝惡意*更新*的風險較低，因為 Android 自身會在安裝之前驗證所有應用程式更新是否由與手機上現有應用程式為相同開發人員所簽署。
 
@@ -297,19 +332,24 @@ GrapheneOS 應用商店可在 [GitHub](https://github.com/GrapheneOS/Apps/releas
 
 Google Play商店需要登錄 Google 帳戶，這對隱私來說不是很好。 可以使用替代客戶端，如 Aurora Store 來解決這個問題。
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
-    
-    **Aurora Store** 為 Google Play Store 客戶端，其無須 Google 帳戶 或 microG 即可下戴應用。
-    
-    [:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+![Aurora Store logo](assets/img/android/aurora-store.webp){ align=right }
+
+**Aurora Store** 為 Google Play Store 客戶端，其無須 Google 帳戶 或 microG 即可下戴應用。
+
+[:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+
+</details>
+
+</div>
 
 Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇使用 Google 帳戶登錄 Aurora Store 來下載所購買的應用程式，這確實可以訪問您的 Google 安裝應用程式列表，但是設備仍可無需完整的Google Play 客戶端、Google Play 服務或microG。
 
@@ -374,17 +414,23 @@ Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇�
 
 也就是說， [F-droid](https://f-droid.org/en/packages/) 和 [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) 存取庫有無數應用程式，所以它們成為搜索和發現開源應用程式的有用工具，然後通過 Play Store、Aurora Store 或直接從開發者獲得 APK 下載。 透過此方法尋找新應用程式時，應該做出最佳判斷，並密切注意應用程式的更新頻率。 過時的應用程式可能依賴不支援的程式庫，從而帶來潛在的安全風險。
 
-!!! "F-Droid Basic" 提醒
+<div class="admonition note" markdown>
+<p class="admonition-title">F-Droid Basic</p>
 
-    在某些罕見情況下，應用程式開發者將只通過 F-droid 發布（[Gadgetbridge](https://gadgetbridge.org/)就是一例。) 如果真需要這樣的應用程式，建議使用 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) ，而不是從官方的 F-droid 應用程式來獲得。 F-Droid Basic 可以進行無需特權或 root 的更新，且具降低的功能集（限制攻擊面）。
+在某些罕見情況下，應用程式開發者將只通過 F-droid 發布（[Gadgetbridge](https://gadgetbridge.org/)就是一例。) 如果真需要這樣的應用程式，建議使用 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) ，而不是從官方的 F-droid 應用程式來獲得。 F-Droid Basic 可以進行無需特權或 root 的更新，且具降低的功能集（限制攻擊面）。
+
+</div>
 
 ## 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "此部分是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">此部份新增</p>
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+
+</div>
 
 ### 作業系統
 

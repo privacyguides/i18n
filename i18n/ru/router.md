@@ -1,7 +1,7 @@
 ---
 title: "Прошивки для роутера"
 icon: material/router-wireless
-description: Эти альтернативные операционные системы могут использоваться для защиты маршрутизатора или точки доступа Wi-Fi.
+description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 cover: router.webp
 ---
 
@@ -9,32 +9,40 @@ cover: router.webp
 
 ## OpenWrt
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип OpenWrt](/assets/img/router/openwrt.svg#only-light){ align=right }
-    ![Логотип OpenWrt](/assets/img/router/openwrt-dark.svg#only-dark){ align=right }
-    
-    **OpenWrt** - это операционная система, основанная на ядре Linux, используемая в основном на встраиваемых устройствах для маршрутизации сетевого трафика. Основными компонентами являются ядро Linux, util-linux, uClibc и BusyBox. Все компоненты были оптимизированы по размеру, чтобы быть достаточно маленькими для установки в ограниченной памяти, доступной в домашних роутерах.
-    
-    [:octicons-home-16: Домашняя страница](https://openwrt.org/ru){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://openwrt.org/ru/docs/start){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/openwrt/openwrt){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://openwrt.org/donate){ .card-link title=Поддержать }
+![Логотип OpenWrt](/assets/img/router/openwrt.svg#only-light){ align=right }
+![Логотип OpenWrt](/assets/img/router/openwrt-dark.svg#only-dark){ align=right }
+
+**OpenWrt** - это операционная система, основанная на ядре Linux, используемая в основном на встраиваемых устройствах для маршрутизации сетевого трафика. Основными компонентами являются ядро Linux, util-linux, uClibc и BusyBox. Все компоненты были оптимизированы по размеру, чтобы быть достаточно маленькими для установки в ограниченной памяти, доступной в домашних роутерах.
+
+[:octicons-home-16: Домашняя страница](https://openwrt.org/ru){ .md-button .md-button--primary }
+[:octicons-info-16:](https://openwrt.org/ru/docs/start){ .card-link title=Документация}
+[:octicons-code-16:](https://github.com/openwrt/openwrt){ .card-link title="Исходный код" }
+[:octicons-heart-16:](https://openwrt.org/donate){ .card-link title=Поддержать }
+
+</details>
+
+</div>
 
 Вы можете обратиться к [таблице устройств](https://openwrt.org/toh/start) OpenWrt, чтобы проверить, поддерживается ли ваше устройство.
 
 ## OPNsense
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
-    
-    **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense часто используется для файерволов, роутеров, беспроводных точек доступа, серверов DHCP, DNS серверов и конечных точек VPN.
-    
-    [:octicons-home-16: Домашняя страница](https://opnsense.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/opnsense){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Поддержать }
+![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+
+**OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense часто используется для файерволов, роутеров, беспроводных точек доступа, серверов DHCP, DNS серверов и конечных точек VPN.
+
+[:octicons-home-16: Домашняя страница](https://opnsense.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Документация}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Исходный код" }
+[:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Поддержать }
+
+</details>
+
+</div>
 
 OPNsense был изначально разработан как форк [pfSense](https://en.wikipedia.org/wiki/PfSense), и оба проекта известны как бесплатные и надежные дистрибутивы файерволов, которые предлагают функции, часто встречающиеся только в дорогих коммерческих файерволах. Разработчики OPNsense [назвали](https://docs.opnsense.org/history/thefork.html) ряд проблем с безопасностью и качеством кода pfSense, из-за которых в 2015 году и был разработан форк, а также опасения по поводу приобретения pfSense компанией Netgate и направления, в котором движется разработка pfSense.
 
@@ -42,9 +50,12 @@ OPNsense был изначально разработан как форк [pfSen
 
 **Обратите внимание, что у нас нет связей ни с одним из проектов, которые мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md)мы разработали четкий набор требований, позволяющий нам давать объективные рекомендации. Мы рекомендуем вам ознакомиться с этим списком, прежде чем выбрать программу, и провести самостоятельное исследование, чтобы убедиться, что это правильный выбор для вас.
 
-!!! example "Это новый раздел"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Мы пока работаем над установлением определенных критериев для каждого раздела нашего сайта, и они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest) и не думайте, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+Мы пока работаем над установлением определенных критериев для каждого раздела нашего сайта, и они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest) и не думайте, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+
+</div>
 
 - Исходный код проекта должен быть открыт.
 - Проект должен регулярно обновляться.

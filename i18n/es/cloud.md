@@ -10,29 +10,37 @@ Muchos proveedores de almacenamiento en la nube exigen que confíes plenamente e
 
 Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques utilizar un software de encriptación como [Cryptomator](encryption.md#cryptomator-cloud) con otro proveedor en la nube. Utilizar Cryptomator junto con **cualquier** proveedor de la nube(incluidos estos) puede ser una buena idea para reducir el riesgo de fallos de cifrado en los clientes nativos de un proveedor.
 
-??? question "¿Buscas Nextcloud?"
+<details class="TYPE" markdown>
+<summary>Looking for Nextcloud?</summary>
 
-    Nextcloud es [todavía una herramienta recomendada](productivity.md) para el autoalojamiento de una suite de gestión de archivos, sin embargo no recomendamos proveedores de almacenamiento Nextcloud de terceros por el momento, porque no [recomendamos](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la funcionalidad E2EE integrada de Nextcloud para usuarios domésticos.
+Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+
+</details>
 
 ## Proton Drive
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo de Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
-    
-    **Proton Drive** es un proveedor suizo de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail).
-    
-    [:octicons-home-16: Página Principal](https://proton.me/drive){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Política de Privacidad" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentación}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código Fuente" }
-    
-    ??? downloads "Descargas"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-        - [:simple-windows11: Windows](https://proton.me/drive/download)
-        - [:simple-apple: macOS](https://proton.me/drive/download)
+![Logo de Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
+
+**Proton Drive** es un proveedor suizo de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail).
+
+[:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+- [:simple-windows11: Windows](https://proton.me/drive/download)
+- [:simple-apple: macOS](https://proton.me/drive/download)
+
+</details>
+
+</div>
 
 La aplicación web Proton Drive ha sido auditada de forma independiente por Securitum en [2021](https://proton.me/blog/security-audit-all-proton-apps), no se han facilitado todos los detalles, pero la carta de certificación de Securitum afirma lo siguiente:
 
@@ -42,23 +50,28 @@ Los nuevos clientes móviles de Proton Drive aún no han sido auditados pública
 
 ## Tresorit
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo de Tresorit](assets/img/cloud/tresorit.svg){ align=right }
-    
-    **Tresorit** es un proveedor suizo-húngaro de almacenamiento cifrado en la nube fundado en 2011. Tresorit es propiedad de Swiss Post, el servicio postal nacional de Suiza.
-    
-    [:octicons-home-16: Página Principal](https://tresorit.com/){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Política de Privacidad" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentación}
-    
-    ??? downloads "Descargas"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
-        - [:simple-windows11: Windows](https://tresorit.com/download)
-        - [:simple-apple: macOS](https://tresorit.com/download)
-        - [:simple-linux: Linux](https://tresorit.com/download)
+![Logo de Tresorit](assets/img/cloud/tresorit.svg){ align=right }
+
+**Tresorit** es un proveedor suizo-húngaro de almacenamiento cifrado en la nube fundado en 2011. Tresorit es propiedad de Swiss Post, el servicio postal nacional de Suiza.
+
+[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-windows11: Windows](https://tresorit.com/download)
+- [:simple-apple: macOS](https://tresorit.com/download)
+- [:simple-linux: Linux](https://tresorit.com/download)
+
+</details>
+
+</div>
 
 Tresorit ha recibido varias auditorías de seguridad independientes:
 
@@ -76,9 +89,12 @@ También han recibido el Sello de Confianza Digital, una certificación de la [I
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-!!! example "Esta sección es nueva"
+<div class="admonition example" markdown>
+<p class="admonition-title">Esta sección es nueva</p>
 
-    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Hay muchos factores que se consideran y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
+Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Hay muchos factores que se consideran y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
+
+</div>
 
 ### Requisitos Mínimos
 

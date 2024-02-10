@@ -9,48 +9,58 @@ A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to
 
 ## Tuta
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
-    
-    **Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison/).
-    
-    A több naptár és kiterjesztett megosztási funkciók csak a fizetett előfizetőknek elérhető.
-    
-    [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
-        - [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
-        - [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
-        - [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-        - [:octicons-browser-16: Web](https://app.tuta.com/)
+![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
+
+**Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison/).
+
+A több naptár és kiterjesztett megosztási funkciók csak a fizetett előfizetőknek elérhető.
+
+[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
+- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
+- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
+- [:octicons-browser-16: Web](https://app.tuta.com/)
+
+</details>
+
+</div>
 
 ## Proton Calendar
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
-    
-    A **Proton Calendar** egy titkosított naptárszolgáltatás, amely a Proton-tagok számára webes vagy mobilklienseken keresztül érhető el. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók és még [sok más](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Kiterjesztett megosztási funkciók szintén csak a fizetett előfizetőknek elérhető.
-    
-    [:octicons-home-16: Honlap](https://proton.me/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Adatvédelmi Tájékoztató" }
-    [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Forráskód" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
-        - [:octicons-browser-16: Web](https://calendar.proton.me)
+![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
+
+A **Proton Calendar** egy titkosított naptárszolgáltatás, amely a Proton-tagok számára webes vagy mobilklienseken keresztül érhető el. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók és még [sok más](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Kiterjesztett megosztási funkciók szintén csak a fizetett előfizetőknek elérhető.
+
+[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
+- [:octicons-browser-16: Web](https://calendar.proton.me)
+
+</details>
+
+</div>
 
 Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS. Proton Calendar's web client is open source.
 
@@ -58,9 +68,12 @@ Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguid
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
-!!! example "Ez a szakasz új"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
+Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
+
+</div>
 
 ### Alap minősítések
 

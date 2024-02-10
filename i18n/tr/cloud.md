@@ -10,29 +10,37 @@ Birçok bulut depolama sağlayıcısı, dosyalarınıza bakmayacaklarına dair s
 
 Bu alternatifler ihtiyaçlarınızı karşılamıyorsa, başka bir bulut sağlayıcısıyla birlikte [Cryptomator](encryption.md#cryptomator-cloud) gibi bir şifreleme yazılımı kullanmanızı öneririz. Cryptomator'ı **herhangi bir ** bulut sağlayıcısıyla kullanmak (listenenenler dahil) sağlayıcının yerel istemcilerindeki şifreleme kusurlarını azaltmak için iyi bir fikir olabilir.
 
-??? question "Nextcloud'u mu arıyorsunuz?"
+<details class="TYPE" markdown>
+<summary>Looking for Nextcloud?</summary>
 
-    Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+
+</details>
 
 ## Proton Drive
 
-!!! öneri
+<div class="admonition recommendation" markdown>
 
-    ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
-    
-    **Proton Drive** popüler şifrelenmiş e-posta sağlayıcısı [Proton Mail]'in isviçre tabanlı şifrelenmiş bulut depolama aracıdır.(email.md#proton-mail).
-    
-    [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-        - [:simple-windows11: Windows](https://proton.me/drive/download)
-        - [:simple-apple: macOS](https://proton.me/drive/download)
+![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+
+**Proton Drive** popüler şifrelenmiş e-posta sağlayıcısı [Proton Mail]'in isviçre tabanlı şifrelenmiş bulut depolama aracıdır.(email.md#proton-mail).
+
+[:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
+- [:simple-windows11: Windows](https://proton.me/drive/download)
+- [:simple-apple: macOS](https://proton.me/drive/download)
+
+</details>
+
+</div>
 
 Proton Drive web uygulaması [2021](https://proton.me/blog/security-audit-all-proton-apps)yılında Securitum tarafından bağımsız olarak denetlenmiştir, tüm ayrıntılar mevcut değildir, ancak Securitum'un tasdik mektubunda şunlar belirtilmiştir:
 
@@ -42,23 +50,28 @@ Proton Drive'ın yeni mobil uygulamaları henüz herhangi bir üçüncü tarafç
 
 ## Tresorit
 
-!!! öneri
+<div class="admonition recommendation" markdown>
 
-    ![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
-    
-    **Tresorit** İsviçre-Macaristan tabanlı, 2011 yılında kurulmuş bir bulut depolama sağlayıcısıdır. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
-    
-    [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
-    [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
-    
-    ??? indirmeler
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
-        - [:simple-windows11: Windows](https://tresorit.com/download)
-        - [:simple-apple: macOS](https://tresorit.com/download)
-        - [:simple-linux: Linux](https://tresorit.com/download)
+![Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
+
+**Tresorit** İsviçre-Macaristan tabanlı, 2011 yılında kurulmuş bir bulut depolama sağlayıcısıdır. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
+
+[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-windows11: Windows](https://tresorit.com/download)
+- [:simple-apple: macOS](https://tresorit.com/download)
+- [:simple-linux: Linux](https://tresorit.com/download)
+
+</details>
+
+</div>
 
 Tresorit has received a number of independent security audits:
 
@@ -76,9 +89,12 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! example "This section is new"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+</div>
 
 ### Minimum Requirements
 

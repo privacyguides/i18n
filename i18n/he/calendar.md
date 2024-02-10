@@ -1,7 +1,7 @@
 ---
 title: "סנכרון לוח שנה"
 icon: material/calendar
-description: לוחות שנה מכילים חלק מהנתונים הרגישים ביותר שלך; השתמש במוצרים המטמיעים הצפנה במנוחה.
+description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 cover: calendar.webp
 ---
 
@@ -9,48 +9,58 @@ cover: calendar.webp
 
 ## Tuta
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tuta לוגו](assets/img/calendar/tuta.svg){ align=right }
-    
-    **Tuta** מציעה לוח שנה בחינם ומוצפן על פני הפלטפורמות הנתמכות שלהם. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא, אימות רב-גורמי ו-[עוד](https://tuta.com/calendar-app-comparison/).
-    
-    מספר לוחות שנה ופונקציונליות שיתוף מורחבת מוגבלים למנויים בתשלום.
-    
-    [:octicons-home-16: דף הבית](https://tuta.com/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="מדיניות הפרטיות" }
-    [:octicons-info-16:](https://tuta.com/faq){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-    - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
-        - [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
-        - [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
-        - [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-        - [:octicons-browser-16: Web](https://app.tuta.com/)
+![Tuta לוגו](assets/img/calendar/tuta.svg){ align=right }
+
+**Tuta** מציעה לוח שנה בחינם ומוצפן על פני הפלטפורמות הנתמכות שלהם. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא, אימות רב-גורמי ו-[עוד](https://tuta.com/calendar-app-comparison/).
+
+מספר לוחות שנה ופונקציונליות שיתוף מורחבת מוגבלים למנויים בתשלום.
+
+[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
+- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
+- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
+- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
+- [:octicons-browser-16: Web](https://app.tuta.com/)
+
+</details>
+
+</div>
 
 ## Proton Calendar
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
-    
-    **Proton Calendar** הוא שירות לוח שנה מוצפן הזמין לחברי Proton דרך לקוחות אינטרנט או ניידים. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא [ועוד](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. פונקציונליות השיתוף המורחבת מוגבלת גם למנויים בתשלום.
-    
-    [:octicons-home-16: דף הבית](https://proton.me/calendar){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
-        - [:octicons-browser-16: Web](https://calendar.proton.me)
+![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
+
+**Proton Calendar** הוא שירות לוח שנה מוצפן הזמין לחברי Proton דרך לקוחות אינטרנט או ניידים. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא [ועוד](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. פונקציונליות השיתוף המורחבת מוגבלת גם למנויים בתשלום.
+
+[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
+- [:octicons-browser-16: Web](https://calendar.proton.me)
+
+</details>
+
+</div>
 
 Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS. Proton Calendar's web client is open source.
 
@@ -58,9 +68,12 @@ Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguid
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 ### כישורים מינימליים
 
