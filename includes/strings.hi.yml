@@ -1,14 +1,14 @@
 #The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
 #This file exists just so these strings can be originally translated on Crowdin.
 config:
-  description: Privacy Guides is your central privacy and security resource to protect yourself online.
+  description: प्राइवसी गाइड्स स्वयं को ऑनलाइन सुरक्षित रखने के लिए आपकी केंद्रीय गोपनीयता और सुरक्षा संसाधन हैं।
   copyright:
     - 
       1: |
-         Privacy Guides is a non-profit, socially motivated website that provides information for protecting your data security and privacy.
+         प्राइवसी गाइड्स एक गैर-लाभकारी, सामाजिक रूप से प्रेरित वेबसाइट है जो आपके डेटा सुरक्षा और गोपनीयता की सुरक्षा के लिए जानकारी प्रदान करती है।
     - 
       2: |
-         We do not make money from recommending certain products, and we do not use affiliate links.
+         हम कुछ उत्पादों की अनुशंसा करके पैसा नहीं कमाते हैं, और हम संबद्ध लिंक का उपयोग नहीं करते हैं।
     - 
       3: |
          Privacy Guides and contributors.
