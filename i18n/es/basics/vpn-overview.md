@@ -11,7 +11,7 @@ Normalmente, un ISP puede ver el flujo de tráfico de Internet que entra y sale 
 
 El uso de una VPN oculta incluso esta información a tu ISP, al trasladar la confianza que depositas en tu red a un servidor situado en otro lugar del mundo. Como resultado, el ISP solo ve que estás conectado a una VPN y nada sobre la actividad que estás pasando a través de ella.
 
-!!! nota
+!!! note "Nota"
 
     Cuando hablamos de "Redes Privadas Virtuales" en este sitio web, normalmente nos referimos a [proveedores de VPN](../vpn.md) **comerciales**, a los que usted paga una cuota mensual a cambio de enrutar tu tráfico de Internet de forma segura a través de sus servidores públicos. Existen muchas otras formas de VPN, como las que alojas tú mismo o las que gestionan los centros de trabajo, que te permiten conectarte de forma segura a los recursos de red internos o de los empleados; sin embargo, estas VPN suelen estar diseñadas para acceder de forma segura a redes remotas, en lugar de para proteger la privacidad de tu conexión a Internet.
 

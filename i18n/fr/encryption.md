@@ -2,7 +2,7 @@
 meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
 title: "Logiciels de chiffrement"
 icon: material/file-lock
-description: Le chiffrement des données est le seul moyen de contrôler qui peut y accéder. These tools allow you to encrypt your emails and any other files.
+description: Le chiffrement des données est le seul moyen de contrôler qui peut y accéder. Ces outils vous permettent de chiffrer vos emails et tout autre de fichier.
 cover: encryption.webp
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Sincronización del Calendario"
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: Los calendarios contienen algunos de tus datos más sensibles; utiliza productos que apliquen el cifrado en reposo.
 cover: calendar.webp
 ---
 
@@ -17,14 +17,14 @@ Los calendarios contienen algunos de sus datos más sensibles; utilice productos
 
 Las funciones de calendarios múltiples y uso compartido ampliado están limitadas a los suscriptores de pago.
 
-[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://tuta.com/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
@@ -46,13 +46,13 @@ Las funciones de calendarios múltiples y uso compartido ampliado están limitad
 
 **Proton Calendar** es un servicio de calendario encriptado disponible para los miembros de Proton a través de clientes web o móviles. Entre sus características se incluyen: E2EE automático de todos los datos, funciones para compartir, funcionalidad de importación/exportación y [more](https://proton.me/support/proton-calendar-guide). Los usuarios del plan gratuito obtienen acceso a 3 calendarios, mientras los usuarios con un plan de pago pueden crear hasta 25 calendarios. La funcionalidad de uso compartido extendido también se limita a los suscriptores de pago.
 
-[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
