@@ -15,9 +15,9 @@ cover: desktop.webp
 
 <div class="admonition recommendation" markdown>
 
-![Fedora标志](assets/img/linux-desktop/fedora-workstation.svg) { align=right }
+![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation**是我们为刚接触Linux的人推荐的发行版。 Fedora通常在其他发行版之前采用较新的技术，例如： [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org)。 这些新技术往往伴随着安全、隐私和总体可用性的改进。
+**Fedora Workstation** is our recommended distribution for people new to Linux. Fedora通常在其他发行版之前采用较新的技术，例如： [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org)。 这些新技术往往伴随着安全、隐私和总体可用性的改进。
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}

@@ -15,9 +15,9 @@ Linux distributions are commonly recommended for privacy protection and software
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logosu](assets/img/linux-desktop/fedora-workstation.svg){ align=right }
+![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** Linux'a yeni başlayanlar için önerdiğimiz bir dağıtımdır. Fedora genellikle yeni teknolojileri diğer dağıtımlardan önce benimser, örneğin [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). Bu yeni teknolojiler genellik güvenlik, gizlilik ve kullanılabilirlik iyileştirmeleriyle gelir.
+**Fedora Workstation** is our recommended distribution for people new to Linux. Fedora genellikle yeni teknolojileri diğer dağıtımlardan önce benimser, örneğin [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). Bu yeni teknolojiler genellik güvenlik, gizlilik ve kullanılabilirlik iyileştirmeleriyle gelir.
 
 [:octicons-home-16: Anasayfa](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
