@@ -1,8 +1,8 @@
 ---
-meta_title: "Рекомендуемые программы для шифрования: VeraCrypt, Cryptomator, PicoCrypt и OpenPGP - Privacy Guides"
-title: "Программы для шифрования"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+title: "Инструменты для шифрования"
 icon: material/file-lock
-description: Шифрование данных - единственный способ контролировать доступ к ним. Эти программы позволяют шифровать электронную почту и любые другие файлы.
+description: Шифрование данных - единственный способ контролировать доступ к ним. These tools allow you to encrypt your emails and any other files.
 cover: encryption.webp
 ---
 
@@ -14,27 +14,32 @@ cover: encryption.webp
 
 ### Cryptomator (Облако)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Cryptomator](assets/img/encryption-software/cryptomator.svg){ align=right }
-    
-    **Cryptomator** - это программа для шифрования, разработанная для приватного хранения файлов в любом облачном хранилище. Программа может создавать хранилища в виртуальном диске, содержимое которых зашифровано и синхронизировано с твоим облачным хранилищем.
-    
-    [:octicons-home-16: Домашняя страница](https://cryptomator.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
-        - [:simple-android: Android](https://cryptomator.org/android)
-        - [:simple-windows11: Windows](https://cryptomator.org/downloads)
-        - [:simple-apple: macOS](https://cryptomator.org/downloads)
-        - [:simple-linux: Linux](https://cryptomator.org/downloads)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+![Логотип Cryptomator](assets/img/encryption-software/cryptomator.svg){ align=right }
+
+**Cryptomator** - это программа для шифрования, разработанная для приватного хранения файлов в любом облачном хранилище. Программа может создавать хранилища в виртуальном диске, содержимое которых зашифровано и синхронизировано с твоим облачным хранилищем.
+
+[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+- [:simple-android: Android](https://cryptomator.org/android)
+- [:simple-windows11: Windows](https://cryptomator.org/downloads)
+- [:simple-apple: macOS](https://cryptomator.org/downloads)
+- [:simple-linux: Linux](https://cryptomator.org/downloads)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+
+</details>
+
+</div>
 
 Cryptomator использует шифрование AES-256 для шифрования как файлов, так и их имён. Cryptomator не может зашифровать метаданные, такие как: время создания, изменения и доступа к файлу, количество и размер файлов и папок.
 
@@ -44,41 +49,51 @@ Cure53 провёл [аудит](https://community.cryptomator.org/t/has-there-b
 
 ### Picocrypt (Файлы)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Picocrypt](assets/img/encryption-software/picocrypt.svg){ align=right }
-    
-    **Picocrypt** - это маленькая и простая программа, предоставляющая современное шифрование. Picocrypt использует безопасный шифр XChaCha20 и функцию формирования ключа Argon2id для обеспечения высокого уровня безопасности. Для функций шифрования он использует стандартные модули Go x/crypto.
-    
-    [:octicons-repo-16: Репозиторий](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+![Логотип Picocrypt](assets/img/encryption-software/picocrypt.svg){ align=right }
+
+**Picocrypt** - это маленькая и простая программа, предоставляющая современное шифрование. Picocrypt использует безопасный шифр XChaCha20 и функцию формирования ключа Argon2id для обеспечения высокого уровня безопасности. Для функций шифрования он использует стандартные модули Go x/crypto.
+
+[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+
+</details>
+
+</div>
 
 ### VeraCrypt (Диск)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![Логотип VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
-    
-    **VeraCrypt** - это свободно распространяемая утилита с исходным кодом, используемая для шифрования "на лету". Программа может создавать виртуальный зашифрованный диск в файле, зашифровать логический раздел или даже зашифровать все устройство с предзагрузочной аутентификацией.
-    
-    [:octicons-home-16: Домашняя страница](https://veracrypt.fr){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Документация}
-    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
-        - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
-        - [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+![Логотип VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+![Логотип VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+
+**VeraCrypt** - это свободно распространяемая утилита с исходным кодом, используемая для шифрования "на лету". Программа может создавать виртуальный зашифрованный диск в файле, зашифровать логический раздел или даже зашифровать все устройство с предзагрузочной аутентификацией.
+
+[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
+[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+
+</details>
+
+</div>
 
 VeraCrypt - это форк, прекратившего свое существование, проекта TrueCrypt. По словам разработчиков, были реализованы улучшения безопасности и решены проблемы, найденные в ходе первоначального аудита кода TrueCrypt.
 
@@ -92,100 +107,119 @@ For encrypting the drive your operating system boots from, we generally recommen
 
 ### BitLocker
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип BitLocker](assets/img/encryption-software/bitlocker.png){ align=right }
-    
-    **BitLocker** - решение для полного шифрования диска в Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
-    
-    [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Документация}
+![Логотип BitLocker](assets/img/encryption-software/bitlocker.png){ align=right }
+
+**BitLocker** - решение для полного шифрования диска в Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+
+[:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Документация}
+
+</details>
+
+</div>
 
 BitLocker [поддерживается только](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) в Pro, Enterprise и Education версиях Windows. Эту функцию можно включить и в Home версии при соответствии условиям.
 
-??? example "Включение BitLocker на Windows Home"
+<details class="example" markdown>
+<summary>Enabling BitLocker on Windows Home</summary>
 
-    Чтобы включить BitLocker в "Домашних" редакциях Windows, необходимо, чтобы разделы были отформатированы с помощью [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) и имели выделенный модуль TPM (v1.2, 2.0+). You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
-    1. Откройте командную строку и проверьте формат таблицы разделов диска с помощью следующей команды. Вы должны увидеть "**GPT**" в разделе "Стиль раздела":
+1. Откройте командную строку и проверьте формат таблицы разделов диска с помощью следующей команды. Вы должны увидеть "**GPT**" в разделе "Стиль раздела":
+   ```powershell
+   powershell Get-Disk
+   ```
 
-        ```
-        powershell Get-Disk
-        ```
+2. Выполните эту команду (в командной строке от имени администратора), чтобы проверить версию вашего TPM. Вы должны увидеть `2.0` или `1.2`, перечисленные рядом с `SpecVersion`:
+   ```powershell
+   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+   ```
 
-    2. Выполните эту команду (в командной строке от имени администратора), чтобы проверить версию вашего TPM. Вы должны увидеть `2.0` или `1.2`, перечисленные рядом с `SpecVersion`:
+3. Откройте [дополнительные параметры запуска](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Необходимо перезагрузиться, нажав клавишу F8 до запуска Windows, и перейти в *командную строку* в разделе **Устранение неполадок** → **Дополнительные параметры** → **Командная строка**.
+4. Войдите под учетной записью администратора и введите следующее для запуска шифрования:
+   ```powershell
+   manage-bde -on c: -used
+   ```
 
-        ```
-        powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-        ```
+5. Закройте командную строку и продолжите обычную загрузку в Windows.
+6. Откройте командную строку от имени администратора и выполните следующие команды:
+   ```powershell
+   manage-bde c: -protectors -add -rp -tpm
+   manage-bde -protectors -enable c:
+   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+   ```
 
-    3. Откройте [дополнительные параметры запуска](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Необходимо перезагрузиться, нажав клавишу F8 до запуска Windows, и перейти в *командную строку* в разделе **Устранение неполадок** → **Дополнительные параметры** → **Командная строка**.
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    4. Войдите под учетной записью администратора и введите следующее для запуска шифрования:
+    Создайте резервную копию файла `BitLocker-Recovery-Key.txt` с рабочего стола на отдельном устройстве хранения данных. Потеря этого кода восстановления может привести к потере данных.
 
-        ```
-        manage-bde -on c: -used
-        ```
+</div>
 
-    5. Закройте командную строку и продолжите обычную загрузку в Windows.
-
-    6. Откройте командную строку от имени администратора и выполните следующие команды:
-
-        ```
-        manage-bde c: -protectors -add -rp -tpm
-        manage-bde -protectors -enable c:
-        manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-        ```
-
-        !!! tip "Совет"
-   
-            Создайте резервную копию файла `BitLocker-Recovery-Key.txt` с рабочего стола на отдельном устройстве хранения данных. Потеря этого кода восстановления может привести к потере данных.
+</details>
 
 ### FileVault
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип FileVault](assets/img/encryption-software/filevault.png){ align=right }
-    
-    **FileVault** - это решение для шифрования томов "на лету", встроенное в macOS. FileVault рекомендуется, поскольку он [использует](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) аппаратные возможности безопасности, представленные в SoC процессорах Apple или чипе безопасности T2.
-    
-    [:octicons-info-16:](https://support.apple.com/ru-ru/guide/mac-help/mh11785/mac){ .card-link title=Документация}
+![Логотип FileVault](assets/img/encryption-software/filevault.png){ align=right }
+
+**FileVault** - это решение для шифрования томов "на лету", встроенное в macOS. FileVault рекомендуется, поскольку он [использует](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) аппаратные возможности безопасности, представленные в SoC процессорах Apple или чипе безопасности T2.
+
+[:octicons-info-16:](https://support.apple.com/ru-ru/guide/mac-help/mh11785/mac){ .card-link title=Документация}
+
+</details>
+
+</div>
 
 Мы рекомендуем хранить локальный ключ восстановления в надежном месте, а не использовать для восстановления учетную запись iCloud.
 
 ### Linux Unified Key Setup (LUKS)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип LUKS](assets/img/encryption-software/luks.png){ align=right }
-    
-    **LUKS** - это стандартный метод FDE для Linux. Его можно использовать для шифрования полных томов, разделов или создания зашифрованных контейнеров.
-    
-    [:octicons-home-16: Домашняя страница](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Документация}
-    [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Исходный код" }
+![Логотип LUKS](assets/img/encryption-software/luks.png){ align=right }
 
-??? example "Создание и открытие зашифрованного контейнера"
+**LUKS** - это стандартный метод FDE для Linux. Его можно использовать для шифрования полных томов, разделов или создания зашифрованных контейнеров.
 
-    ```
-    dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
-    sudo cryptsetup luksFormat /path-to-file
-    ```
+[:octicons-home-16: Домашняя страница](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Документация}
+[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Исходный код" }
 
+</details>
 
-    #### Открытие зашифрованных контейнеров
-    Мы рекомендуем открывать контейнеры и тома с помощью `udisksctl`, так как при этом используется [Polkit](https://en.wikipedia.org/wiki/Polkit). Большинство файловых менеджеров, например, входящих в состав популярных настольных сред, могут разблокировать зашифрованные файлы. Такие инструменты, как [udiskie](https://github.com/coldfix/udiskie), могут запускаться в системном трее и предоставлять полезный пользовательский интерфейс.
-    ```
-    udisksctl loop-setup -f /path-to-file
-    udisksctl unlock -b /dev/loop0
-    ```
+</div>
 
-!!! note "Не забывайте создавать резервные копии заголовков томов"
+<details class="example" markdown>
+<summary>Creating and opening encrypted containers</summary>
 
-    Мы рекомендуем всегда [создавать резервные копии заголовков LUKS](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) на случай частичного отказа диска. Это можно сделать с помощью:
+```bash
+dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
+sudo cryptsetup luksFormat /path-to-file
+```
 
-    ```
-    cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
-    ```
+#### Opening encrypted containers
+
+We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). Большинство файловых менеджеров, например, входящих в состав популярных настольных сред, могут разблокировать зашифрованные файлы. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+
+```bash
+udisksctl loop-setup -f /path-to-file
+udisksctl unlock -b /dev/loop0
+```
+
+</details>
+
+<div class="admonition note" markdown>
+<p class="admonition-title">Remember to back up volume headers</p>
+
+Мы рекомендуем всегда [создавать резервные копии заголовков LUKS](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) на случай частичного отказа диска. This can be done with:
+
+```bash
+cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
+```
+
+</div>
 
 ## Для командной строки
 
@@ -193,36 +227,45 @@ BitLocker [поддерживается только](https://support.microsoft.
 
 ### Kryptor
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Kryptor](assets/img/encryption-software/kryptor.png){ align=right }
-    
-    **Kryptor** - это бесплатный инструмент для шифрования и подписи файлов с открытым исходным кодом, использующий современные и безопасные криптографические алгоритмы. Его цель - стать улучшенной версией [age](https://github.com/FiloSottile/age) и [Minisign](https://jedisct1.github.io/minisign/), чтобы обеспечить простую, удобную для пользователя альтернативу GPG.
-    
-    [:octicons-home-16: Домашняя страница](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-windows11: Windows](https://www.kryptor.co.uk)
-        - [:simple-apple: macOS](https://www.kryptor.co.uk)
-        - [:simple-linux: Linux](https://www.kryptor.co.uk)
+![Логотип Kryptor](assets/img/encryption-software/kryptor.png){ align=right }
+
+**Kryptor** - это бесплатный инструмент для шифрования и подписи файлов с открытым исходным кодом, использующий современные и безопасные криптографические алгоритмы. Его цель - стать улучшенной версией [age](https://github.com/FiloSottile/age) и [Minisign](https://jedisct1.github.io/minisign/), чтобы обеспечить простую, удобную для пользователя альтернативу GPG.
+
+[:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.kryptor.co.uk)
+- [:simple-apple: macOS](https://www.kryptor.co.uk)
+- [:simple-linux: Linux](https://www.kryptor.co.uk)
+
+</details>
+
+</div>
 
 ### Tomb
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Tomb](assets/img/encryption-software/tomb.png){ align=right }
-    
-    **Tomb** - это оболочка командной строки для LUKS. Он поддерживает стеганографию с помощью [сторонних инструментов](https://github.com/dyne/Tomb#how-does-it-work).
-    
-    [:octicons-home-16: Домашняя страница](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Поддержать}
+![Логотип Tomb](assets/img/encryption-software/tomb.png){ align=right }
+
+**Tomb** - это оболочка командной строки для LUKS. Он поддерживает стеганографию с помощью [сторонних инструментов](https://github.com/dyne/Tomb#how-does-it-work).
+
+[:octicons-home-16: Домашняя страница](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Документация}
+[:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Исходный код" }
+[:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Поддержать}
+
+</details>
+
+</div>
 
 ## OpenPGP
 
@@ -230,99 +273,128 @@ OpenPGP иногда необходим для решения специфиче
 
 При шифровании с помощью PGP у вас есть возможность настроить различные параметры в файле `gpg.conf`. Мы рекомендуем придерживаться стандартных опций, указанных в [FAQ пользователя GnuPG](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
-!!! tip "Используйте future defaults при генерации ключа"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use future defaults when generating a key</p>
 
-    При [генерации ключей](https://www.gnupg.org/gph/en/manual/c14.html) мы рекомендуем использовать команду `future-default`, так как это позволит GnuPG использовать современную криптографию, такую как [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) и [Ed25519](https://ed25519.cr.yp.to/):
+When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
 
-    ```bash
-    gpg --quick-gen-key alice@example.com future-default
-    ```
+```bash
+gpg --quick-gen-key alice@example.com future-default
+```
+
+</div>
 
 ### GNU Privacy Guard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип GNU Privacy Guard](assets/img/encryption-software/gnupg.svg){ align=right }
-    
-    **GnuPG** - это GPL-альтернатива криптографическому пакету PGP. GnuPG совместим с [RFC 4880](https://tools.ietf.org/html/rfc4880), который является текущей спецификацией IETF для OpenPGP. Проект GnuPG работает над [обновленным проектом](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) в попытке улучшить OpenPGP. GnuPG является частью фонда свободного программного обеспечения GNU и получил крупное [финансирование](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) от правительства Германии.
-    
-    [:octicons-home-16: Домашняя страница](https://gnupg.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Документация}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
-        - [:simple-apple: macOS](https://gpgtools.org)
-        - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+![Логотип GNU Privacy Guard](assets/img/encryption-software/gnupg.svg){ align=right }
+
+**GnuPG** - это GPL-альтернатива криптографическому пакету PGP. GnuPG совместим с [RFC 4880](https://tools.ietf.org/html/rfc4880), который является текущей спецификацией IETF для OpenPGP. Проект GnuPG работает над [обновленным проектом](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) в попытке улучшить OpenPGP. GnuPG является частью фонда свободного программного обеспечения GNU и получил крупное [финансирование](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) от правительства Германии.
+
+[:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:simple-apple: macOS](https://gpgtools.org)
+- [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+
+</details>
+
+</div>
 
 ### GPG4win
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип GPG4win](assets/img/encryption-software/gpg4win.svg){ align=right }
-    
-    **GPG4win** - это пакет для Windows от [Intevation и g10 Code](https://gpg4win.org/impressum.html). Он включает в себя [различные инструменты](https://gpg4win.org/about.html), которые могут помочь вам в использовании GPG в Microsoft Windows. Проект был инициирован и первоначально [финансировался](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) федеральным управлением по информационной безопасности Германии (BSI) в 2005 году.
-    
-    [:octicons-home-16: Домашняя страница](https://gpg4win.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Документация}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
+![Логотип GPG4win](assets/img/encryption-software/gpg4win.svg){ align=right }
+
+**GPG4win** - это пакет для Windows от [Intevation и g10 Code](https://gpg4win.org/impressum.html). Он включает в себя [различные инструменты](https://gpg4win.org/about.html), которые могут помочь вам в использовании GPG в Microsoft Windows. Проект был инициирован и первоначально [финансировался](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) федеральным управлением по информационной безопасности Германии (BSI) в 2005 году.
+
+[:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+
+</details>
+
+</div>
 
 ### GPG Suite
 
-!!! note "Примечание"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    Мы рекомендуем [Canary Mail](email-clients/#canary-mail) для использования PGP с электронной почтой на устройствах с iOS.
+Мы рекомендуем [Canary Mail](email-clients/#canary-mail) для использования PGP с электронной почтой на устройствах с iOS.
 
-!!! recommendation
+</div>
 
-    ![Логотип GPG Suite](assets/img/encryption-software/gpgsuite.png){ align=right }
-    
-    **GPG Suite** обеспечивает поддержку OpenPGP для [Apple Mail](email-clients.md#apple-mail) и macOS.
-    
-    Мы рекомендуем ознакомиться с их [первыми шагами](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) и [базой знаний](https://gpgtools.tenderapp.com/kb) для получения поддержки.
-    
-    [:octicons-home-16: Домашняя страница](https://gpgtools.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-apple: macOS](https://gpgtools.org)
+<div class="admonition recommendation" markdown>
+
+![Логотип GPG Suite](assets/img/encryption-software/gpgsuite.png){ align=right }
+
+**GPG Suite** обеспечивает поддержку OpenPGP для [Apple Mail](email-clients.md#apple-mail) и macOS.
+
+Мы рекомендуем ознакомиться с их [первыми шагами](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) и [базой знаний](https://gpgtools.tenderapp.com/kb) для получения поддержки.
+
+[:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-apple: macOS](https://gpgtools.org)
+
+</details>
+
+</div>
 
 ### OpenKeychain
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип OpenKeychain](assets/img/encryption-software/openkeychain.svg){ align=right }
-    
-    **OpenKeychain** - это Android-реализация GnuPG. Он обычно требуется почтовым клиентам, таким как [K-9 Mail](email-clients.md#k-9-mail) и [FairEmail](email-clients.md#fairemail), а также другим приложениям для Android для обеспечения поддержки шифрования. Компания Cure53 завершила [аудит безопасности](https://www.openkeychain.org/openkeychain-3-6) OpenKeychain 3.6 в октябре 2015 года. Технические подробности об аудите и решениях OpenKeychain можно найти на сайте [здесь](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
-    
-    [:octicons-home-16: Домашняя страница](https://www.openkeychain.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+![Логотип OpenKeychain](assets/img/encryption-software/openkeychain.svg){ align=right }
+
+**OpenKeychain** - это Android-реализация GnuPG. Он обычно требуется почтовым клиентам, таким как [K-9 Mail](email-clients.md#k-9-mail) и [FairEmail](email-clients.md#fairemail), а также другим приложениям для Android для обеспечения поддержки шифрования. Компания Cure53 завершила [аудит безопасности](https://www.openkeychain.org/openkeychain-3-6) OpenKeychain 3.6 в октябре 2015 года. Технические подробности об аудите и решениях OpenKeychain можно найти на сайте [здесь](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+
+[:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+
+</details>
+
+</div>
 
 ## Критерии
 
 **Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-!!! example "Это новый раздел"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
+Мы всё еще работаем над установлением критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest). Если какой-то критерий здесь не указан, это не значит, что мы его не учли. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
+
+</div>
 
 ### Минимальные требования
 

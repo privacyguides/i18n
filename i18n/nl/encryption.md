@@ -1,8 +1,8 @@
 ---
-meta_title: "Aanbevolen encryptiesoftware: VeraCrypt, Cryptomator, PicoCrypt en OpenPGP - Privacy Guides"
-title: "Versleutelingssoftware"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+title: "Encryptie Software"
 icon: material/file-lock
-description: Encryptie van gegevens is de enige manier om te controleren wie er toegang toe heeft. Met deze tools kun je jouw e-mails en andere bestanden versleutelen.
+description: Encryptie van gegevens is de enige manier om te controleren wie er toegang toe heeft. These tools allow you to encrypt your emails and any other files.
 cover: encryption.webp
 ---
 
@@ -14,27 +14,32 @@ De hier genoemde opties zijn multiplatform en zeer geschikt voor het maken van v
 
 ### Cryptomator (Cloud)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
-    
-    **Cryptomator** is een encryptie-oplossing die is ontworpen voor het privé opslaan van bestanden bij elke cloudprovider. Hiermee kunt u kluizen maken die worden opgeslagen op een virtuele schijf, waarvan de inhoud wordt gecodeerd en gesynchroniseerd met uw cloudopslagprovider.
-    
-    [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
-        - [:simple-android: Android](https://cryptomator.org/android)
-        - [:simple-windows11: Windows](https://cryptomator.org/downloads)
-        - [:simple-apple: macOS](https://cryptomator.org/downloads)
-        - [:simple-linux: Linux](https://cryptomator.org/downloads)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+
+**Cryptomator** is een encryptie-oplossing die is ontworpen voor het privé opslaan van bestanden bij elke cloudprovider. Hiermee kunt u kluizen maken die worden opgeslagen op een virtuele schijf, waarvan de inhoud wordt gecodeerd en gesynchroniseerd met uw cloudopslagprovider.
+
+[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+- [:simple-android: Android](https://cryptomator.org/android)
+- [:simple-windows11: Windows](https://cryptomator.org/downloads)
+- [:simple-apple: macOS](https://cryptomator.org/downloads)
+- [:simple-linux: Linux](https://cryptomator.org/downloads)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+
+</details>
+
+</div>
 
 Cryptomator maakt gebruik van AES-256 encryptie om zowel bestanden als bestandsnamen te versleutelen. Cryptomator kan geen metadata versleutelen, zoals tijdstempels voor toegang, wijziging en creatie, noch het aantal en de grootte van bestanden en mappen.
 
@@ -44,41 +49,51 @@ In de documentatie van Cryptomator worden de beoogde [beveiligingsdoelstelling](
 
 ### Picocrypt (Bestand)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
-    
-    **Picocrypt** is een klein en eenvoudig encryptieprogramma dat moderne encryptie biedt. Picocrypt gebruikt het veilige XChaCha20-cijfer en de Argon2id-sleutelafleidingsfunctie om een hoog niveau van veiligheid te bieden. Het gebruikt Go's standaard x/crypto modules voor zijn versleutelingsfuncties.
-    
-    [:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
+
+**Picocrypt** is een klein en eenvoudig encryptieprogramma dat moderne encryptie biedt. Picocrypt gebruikt het veilige XChaCha20-cijfer en de Argon2id-sleutelafleidingsfunctie om een hoog niveau van veiligheid te bieden. Het gebruikt Go's standaard x/crypto modules voor zijn versleutelingsfuncties.
+
+[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+
+</details>
+
+</div>
 
 ### VeraCrypt (Schijf)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![VeraCrypt-logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![VeraCrypt-logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
-    
-    **VeraCrypt** is een met broncode beschikbaar freeware hulpprogramma dat wordt gebruikt voor on-the-fly encryptie. Het kan een virtuele versleutelde schijf binnen een bestand maken, een partitie versleutelen of het gehele opslagapparaat versleutelen met pre-boot verificatie.
-    
-    [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
-        - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
-        - [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+![VeraCrypt-logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt-logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+
+**VeraCrypt** is een met broncode beschikbaar freeware hulpprogramma dat wordt gebruikt voor on-the-fly encryptie. Het kan een virtuele versleutelde schijf binnen een bestand maken, een partitie versleutelen of het gehele opslagapparaat versleutelen met pre-boot verificatie.
+
+[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
+[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+
+</details>
+
+</div>
 
 VeraCrypt is een vork van het beëindigde TrueCrypt-project. Volgens de ontwikkelaars zijn er beveiligingsverbeteringen doorgevoerd en zijn de problemen die bij de eerste controle van de TrueCrypt-code aan het licht zijn gekomen, aangepakt.
 
@@ -92,100 +107,119 @@ For encrypting the drive your operating system boots from, we generally recommen
 
 ### BitLocker
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![BitLocker-logo](assets/img/encryption-software/bitlocker.png){ align=right }
-    
-    **BitLocker** is de oplossing voor volledige volume-encryptie die met Microsoft Windows wordt meegeleverd. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
-    
-    [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentatie}
+![BitLocker-logo](assets/img/encryption-software/bitlocker.png){ align=right }
+
+**BitLocker** is de oplossing voor volledige volume-encryptie die met Microsoft Windows wordt meegeleverd. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+
+[:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentatie}
+
+</details>
+
+</div>
 
 BitLocker is [alleen ondersteund](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) op Pro, Enterprise en Education edities van Windows. Het kan worden ingeschakeld op Home-edities, mits deze aan de voorwaarden voldoen.
 
-??? example "BitLocker inschakelen op Windows Home"
+<details class="example" markdown>
+<summary>Enabling BitLocker on Windows Home</summary>
 
-    Om BitLocker in te schakelen op "Home"-edities van Windows, moet je partities hebben die zijn geformatteerd met een [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) en beschikken over een speciale TPM-module (v1.2, 2.0+). You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
-    1. Open een opdrachtprompt en controleer de indeling van de partitietabel van jouw schijf met het volgende commando. Je zou "**GPT**" moeten zien staan onder "Partition Style":
+1. Open een opdrachtprompt en controleer de indeling van de partitietabel van jouw schijf met het volgende commando. Je zou "**GPT**" moeten zien staan onder "Partition Style":
+   ```powershell
+   powershell Get-Disk
+   ```
 
-        ```
-        powershell Get-Disk
-        ```
+2. Voer dit commando uit (in een admin commando prompt) om jouw TPM versie te controleren. Je zou `2.0` of `1.2` moeten zien staan naast `SpecVersion`:
+   ```powershell
+   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+   ```
 
-    2. Voer dit commando uit (in een admin commando prompt) om jouw TPM versie te controleren. Je zou `2.0` of `1.2` moeten zien staan naast `SpecVersion`:
+3. Ga naar de [Geavanceerde opstartopties](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Je moet opnieuw opstarten terwijl je op de F8-toets drukt voordat Windows start en naar de *opdrachtprompt* gaat in **Problemen oplossen** → **Geavanceerde opties** → **Opdrachtprompt**.
+4. Log in met jouw admin-account en typ dit in de opdrachtprompt om de versleuteling te starten:
+   ```powershell
+   manage-bde -on c: -used
+   ```
 
-        ```
-        powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-        ```
+5. Sluit de opdrachtprompt en en start verder op naar de gewone Windows installatie.
+6. Open een admin commando prompt en voer de volgende commando's uit:
+   ```powershell
+   manage-bde c: -protectors -add -rp -tpm
+   manage-bde -protectors -enable c:
+   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+   ```
 
-    3. Ga naar de [Geavanceerde opstartopties](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Je moet opnieuw opstarten terwijl je op de F8-toets drukt voordat Windows start en naar de *opdrachtprompt* gaat in **Problemen oplossen** → **Geavanceerde opties** → **Opdrachtprompt**.
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    4. Log in met jouw admin-account en typ dit in de opdrachtprompt om de versleuteling te starten:
+     Back-up de `BitLocker-Recovery-Key.txt` op uw bureaublad naar een apart opslagapparaat. Het verlies van deze herstelcode kan leiden tot verlies van gegevens.
 
-        ```
-        manage-bde -on c: -used
-        ```
+</div>
 
-    5. Sluit de opdrachtprompt en en start verder op naar de gewone Windows installatie.
-
-    6. Open een admin commando prompt en voer de volgende commando's uit:
-
-        ```
-        manage-bde c: -protectors -add -rp -tpm
-        manage-bde -protectors -enable c:
-        manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-        ```
-
-        !!! tip
-   
-             Back-up de `BitLocker-Recovery-Key.txt` op uw bureaublad naar een apart opslagapparaat. Het verlies van deze herstelcode kan leiden tot verlies van gegevens.
+</details>
 
 ### FileVault
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![FileVault-logo](assets/img/encryption-software/filevault.png){ align=right }
-    
-    **FileVault** is de in macOS ingebouwde oplossing voor volumeversleuteling tijdens het filteren. FileVault wordt aanbevolen omdat het [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware beveiligingsmogelijkheden biedt die aanwezig zijn op een Apple silicium SoC of T2 Security Chip.
-    
-    [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=Documentatie}
+![FileVault-logo](assets/img/encryption-software/filevault.png){ align=right }
+
+**FileVault** is de in macOS ingebouwde oplossing voor volumeversleuteling tijdens het filteren. FileVault wordt aanbevolen omdat het [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware beveiligingsmogelijkheden biedt die aanwezig zijn op een Apple silicium SoC of T2 Security Chip.
+
+[:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=Documentatie}
+
+</details>
+
+</div>
 
 Wij raden je aan een lokale herstelsleutel op een veilige plaats op te slaan in plaats van uw iCloud-account te gebruiken voor herstel.
 
 ### Linux Unified Key Setup
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![LUKS-logo](assets/img/encryption-software/luks.png){ align=right }
-    
-    **LUKS** is de standaard FDE-methode voor Linux. Het kan worden gebruikt om volledige volumes of partities te versleutelen, of om versleutelde containers te maken.
-    
-    [:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Broncode" }
+![LUKS-logo](assets/img/encryption-software/luks.png){ align=right }
 
-??? example "Creëren en openen van versleutelde containers"
+**LUKS** is de standaard FDE-methode voor Linux. Het kan worden gebruikt om volledige volumes of partities te versleutelen, of om versleutelde containers te maken.
 
-    ```
-    dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
-    sudo cryptsetup luksFormat /path-to-file
-    ```
+[:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentatie}
+[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Broncode" }
 
+</details>
 
-    #### Versleutelde containers openen
-    We raden aan om containers en volumes te openen met `udisksctl`, omdat dit gebruik maakt van [Polkit](https://en.wikipedia.org/wiki/Polkit). De meeste bestandsbeheerders, zoals die van populaire desktopomgevingen, kunnen versleutelde bestanden ontgrendelen. Hulpprogramma's zoals [udiskie](https://github.com/coldfix/udiskie) kunnen in het systeemvak draaien en een nuttige gebruikersinterface bieden.
-    ```
-    udisksctl loop-setup -f /path-to-file
-    udisksctl unlock -b /dev/loop0
-    ```
+</div>
 
-!!! note "Vergeet niet een back-up te maken van de volumekoppen"
+<details class="example" markdown>
+<summary>Creating and opening encrypted containers</summary>
 
-    Wij raden je aan altijd [een back-up te maken van uw LUKS-headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in geval van een gedeeltelijke schijfstoring. Dit kan gedaan worden met:
+```bash
+dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
+sudo cryptsetup luksFormat /path-to-file
+```
 
-    ```
-    cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
-    ```
+#### Opening encrypted containers
+
+We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). De meeste bestandsbeheerders, zoals die van populaire desktopomgevingen, kunnen versleutelde bestanden ontgrendelen. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+
+```bash
+udisksctl loop-setup -f /path-to-file
+udisksctl unlock -b /dev/loop0
+```
+
+</details>
+
+<div class="admonition note" markdown>
+<p class="admonition-title">Remember to back up volume headers</p>
+
+Wij raden je aan altijd [een back-up te maken van uw LUKS-headers](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in geval van een gedeeltelijke schijfstoring. This can be done with:
+
+```bash
+cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
+```
+
+</div>
 
 ## Command-line
 
@@ -193,36 +227,45 @@ Tools met command-line interfaces zijn handig voor het integreren van [shell scr
 
 ### Kryptor
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
-    
-    **Kryptor** is een gratis en open-source programma voor het versleutelen en ondertekenen van bestanden dat gebruik maakt van moderne en veilige cryptografische algoritmen. Het beoogt een betere versie te zijn van [age](https://github.com/FiloSottile/age) en [Minisign](https://jedisct1.github.io/minisign/) om een eenvoudig, gemakkelijker alternatief voor GPG te bieden.
-    
-    [:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-windows11: Windows](https://www.kryptor.co.uk)
-        - [:simple-apple: macOS](https://www.kryptor.co.uk)
-        - [:simple-linux: Linux](https://www.kryptor.co.uk)
+![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
+
+**Kryptor** is een gratis en open-source programma voor het versleutelen en ondertekenen van bestanden dat gebruik maakt van moderne en veilige cryptografische algoritmen. Het beoogt een betere versie te zijn van [age](https://github.com/FiloSottile/age) en [Minisign](https://jedisct1.github.io/minisign/) om een eenvoudig, gemakkelijker alternatief voor GPG te bieden.
+
+[:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.kryptor.co.uk)
+- [:simple-apple: macOS](https://www.kryptor.co.uk)
+- [:simple-linux: Linux](https://www.kryptor.co.uk)
+
+</details>
+
+</div>
 
 ### Tomb
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
-    
-    **Tomb** is een is een command-line shell wrapper voor LUKS. Het ondersteunt steganografie via [hulpprogramma's van derden](https://github.com/dyne/Tomb#how-does-it-work).
-    
-    [:octicons-home-16: Homepage](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Bijdragen}
+![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
+
+**Tomb** is een is een command-line shell wrapper voor LUKS. Het ondersteunt steganografie via [hulpprogramma's van derden](https://github.com/dyne/Tomb#how-does-it-work).
+
+[:octicons-home-16: Homepage](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentatie}
+[:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Broncode" }
+[:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Bijdragen}
+
+</details>
+
+</div>
 
 ## OpenPGP
 
@@ -230,99 +273,128 @@ OpenPGP is soms nodig voor specifieke taken zoals het digitaal ondertekenen en v
 
 Bij het versleutelen met PGP, heb je de optie om verschillende opties te configureren in het `gpg.conf` bestand. We raden aan om de standaard opties te gebruiken zoals gespecificeerd in de [GnuPG user FAQ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
-!!! tip "Gebruik toekomstige standaardwaarden bij het genereren van een sleutel"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use future defaults when generating a key</p>
 
-    Bij het [genereren van sleutels](https://www.gnupg.org/gph/en/manual/c14.html) raden we aan het `future-default` commando te gebruiken omdat dit GnuPG zal instrueren moderne cryptografie te gebruiken zoals [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) en [Ed25519](https://ed25519.cr.yp.to/):
+When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
 
-    ```bash
-    gpg --quick-gen-key alice@example.com future-default
-    ```
+```bash
+gpg --quick-gen-key alice@example.com future-default
+```
+
+</div>
 
 ### GNU Privacy Guard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
-    
-    **GnuPG** is een GPL-gelicenseerd alternatief voor de PGP-suite van cryptografische software. GnuPG is in overeenstemming met [RFC 4880](https://tools.ietf.org/html/rfc4880), de huidige IETF-specificatie van OpenPGP. Het GnuPG-project heeft gewerkt aan een [bijgewerkt ontwerp](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) in een poging OpenPGP te moderniseren. GnuPG is een onderdeel van het GNU-softwareproject van de Free Software Foundation en heeft van de Duitse regering het belangrijke [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) ontvangen.
-    
-    [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Broncode" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
-        - [:simple-apple: macOS](https://gpgtools.org)
-        - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
+
+**GnuPG** is een GPL-gelicenseerd alternatief voor de PGP-suite van cryptografische software. GnuPG is in overeenstemming met [RFC 4880](https://tools.ietf.org/html/rfc4880), de huidige IETF-specificatie van OpenPGP. Het GnuPG-project heeft gewerkt aan een [bijgewerkt ontwerp](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) in een poging OpenPGP te moderniseren. GnuPG is een onderdeel van het GNU-softwareproject van de Free Software Foundation en heeft van de Duitse regering het belangrijke [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) ontvangen.
+
+[:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:simple-apple: macOS](https://gpgtools.org)
+- [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+
+</details>
+
+</div>
 
 ### GPG4win
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![GPG4win-logo](assets/img/encryption-software/gpg4win.svg){ align=right }
-    
-    **GPG4win** is een pakket voor Windows van [Intevation en g10 Code](https://gpg4win.org/impressum.html). Het bevat [diverse hulpmiddelen](https://gpg4win.org/about.html) die je kunnen helpen bij het gebruik van GPG op Microsoft Windows. Het project is in 2005 opgezet en oorspronkelijk [gefinancierd door](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) het Bundesamt für Informationssicherheit (BSI) van Duitsland.
-    
-    [:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
+![GPG4win-logo](assets/img/encryption-software/gpg4win.svg){ align=right }
+
+**GPG4win** is een pakket voor Windows van [Intevation en g10 Code](https://gpg4win.org/impressum.html). Het bevat [diverse hulpmiddelen](https://gpg4win.org/about.html) die je kunnen helpen bij het gebruik van GPG op Microsoft Windows. Het project is in 2005 opgezet en oorspronkelijk [gefinancierd door](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) het Bundesamt für Informationssicherheit (BSI) van Duitsland.
+
+[:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+
+</details>
+
+</div>
 
 ### GPG Suite
 
-!!! note
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    We raden [Canary Mail](email-clients.md#canary-mail) aan voor het gebruik van PGP met e-mail op iOS-apparaten.
+We raden [Canary Mail](email-clients.md#canary-mail) aan voor het gebruik van PGP met e-mail op iOS-apparaten.
 
-!!! recommendation
+</div>
 
-    ![GPG Suite-logo](assets/img/encryption-software/gpgsuite.png){ align=right }
-    
-    **GPG Suite** biedt OpenPGP-ondersteuning voor [Apple Mail](email-clients.md#apple-mail) en macOS.
-    
-    Wij raden aan een kijkje te nemen in hun [Eerste stappen pagina](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) en [Kennisbank](https://gpgtools.tenderapp.com/kb) voor ondersteuning.
-    
-    [:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Broncode" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-apple: macOS](https://gpgtools.org)
+<div class="admonition recommendation" markdown>
+
+![GPG Suite-logo](assets/img/encryption-software/gpgsuite.png){ align=right }
+
+**GPG Suite** biedt OpenPGP-ondersteuning voor [Apple Mail](email-clients.md#apple-mail) en macOS.
+
+Wij raden aan een kijkje te nemen in hun [Eerste stappen pagina](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) en [Kennisbank](https://gpgtools.tenderapp.com/kb) voor ondersteuning.
+
+[:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-apple: macOS](https://gpgtools.org)
+
+</details>
+
+</div>
 
 ### OpenKeychain
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![OpenKeychain-logo](assets/img/encryption-software/openkeychain.svg){ align=right }
-    
-    **OpenKeychain** is een Android implementatie van GnuPG. Het wordt algemeen vereist door mail clients zoals [K-9 Mail](email-clients.md#k-9-mail) en [FairEmail](email-clients.md#fairemail) en andere Android apps om encryptie ondersteuning te bieden. Cure53 voltooide een [beveiligingsaudit](https://www.openkeychain.org/openkeychain-3-6) van OpenKeychain 3.6 in oktober 2015. Technische details over de audit en OpenKeychain's oplossingen zijn te vinden op [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
-    
-    [:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Broncode" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+![OpenKeychain-logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+
+**OpenKeychain** is een Android implementatie van GnuPG. Het wordt algemeen vereist door mail clients zoals [K-9 Mail](email-clients.md#k-9-mail) en [FairEmail](email-clients.md#fairemail) en andere Android apps om encryptie ondersteuning te bieden. Cure53 voltooide een [beveiligingsaudit](https://www.openkeychain.org/openkeychain-3-6) van OpenKeychain 3.6 in oktober 2015. Technische details over de audit en OpenKeychain's oplossingen zijn te vinden op [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+
+[:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+
+</details>
+
+</div>
 
 ## Criteria
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
-!!! example "Deze sectie is nieuw"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+
+</div>
 
 ### Minimum kwalificaties
 

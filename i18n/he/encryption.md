@@ -1,8 +1,8 @@
 ---
-meta_title: "תוכנות הצפנה מומלצות: VeraCrypt, Cryptomator, PicoCrypt ו-OpenPGP - מדריכי פרטיות"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
 title: "תוכנת הצפנה"
 icon: material/file-lock
-description: הצפנה של נתונים היא הדרך היחידה לשלוט מי יכול לגשת אליו. כלים אלה מאפשרים לך להצפין את המיילים שלך וכל קובץ אחר.
+description: הצפנה של נתונים היא הדרך היחידה לשלוט מי יכול לגשת אליו. These tools allow you to encrypt your emails and any other files.
 cover: encryption.webp
 ---
 
@@ -14,27 +14,32 @@ cover: encryption.webp
 
 ### Cryptomator (ענן)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Cryptomator לוגו](assets/img/encryption-software/cryptomator.svg){ align=right }
-    
-    **Cryptomator** הוא פתרון הצפנה המיועד לשמירה פרטית של קבצים לכל ספק ענן. הוא מאפשר לך ליצור כספות המאוחסנות בכונן וירטואלי, שתוכנן מוצפן ומסונכרן עם ספק אחסון הענן שלך.
-    
-    [:octicons-home-16: דף הבית](https://cryptomator.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
-        - [:simple-android: Android](https://cryptomator.org/android)
-        - [:simple-windows11: Windows](https://cryptomator.org/downloads)
-        - [:simple-apple: macOS](https://cryptomator.org/downloads)
-        - [:simple-linux: Linux](https://cryptomator.org/downloads)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+![Cryptomator לוגו](assets/img/encryption-software/cryptomator.svg){ align=right }
+
+**Cryptomator** הוא פתרון הצפנה המיועד לשמירה פרטית של קבצים לכל ספק ענן. הוא מאפשר לך ליצור כספות המאוחסנות בכונן וירטואלי, שתוכנן מוצפן ומסונכרן עם ספק אחסון הענן שלך.
+
+[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+- [:simple-android: Android](https://cryptomator.org/android)
+- [:simple-windows11: Windows](https://cryptomator.org/downloads)
+- [:simple-apple: macOS](https://cryptomator.org/downloads)
+- [:simple-linux: Linux](https://cryptomator.org/downloads)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+
+</details>
+
+</div>
 
 Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים ושמות קבצים. Cryptomator אינו יכול להצפין מטא-נתונים כגון חותמות זמן של גישה, שינוי ויצירה, וגם לא את המספר והגודל של קבצים ותיקיות.
 
@@ -44,41 +49,51 @@ Cryptomator משתמש בהצפנת AES-256 כדי להצפין קבצים וש�
 
 ### Picocrypt (קובץ)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Picocrypt לוגו](assets/img/encryption-software/picocrypt.svg){ align=right }
-    
-    **Picocrypt** הוא כלי הצפנה קטן ופשוט המספק הצפנה מודרנית. Picocrypt משתמש בצופן המאובטח XChaCha20 ובפונקציית גזירת מפתח Argon2id כדי לספק רמת אבטחה גבוהה. הוא משתמש במודולי x/crypto הסטנדרטיים של Go עבור תכונות ההצפנה שלו.
-    
-    [:octicons-repo-16: מאגר](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+![Picocrypt לוגו](assets/img/encryption-software/picocrypt.svg){ align=right }
+
+**Picocrypt** הוא כלי הצפנה קטן ופשוט המספק הצפנה מודרנית. Picocrypt משתמש בצופן המאובטח XChaCha20 ובפונקציית גזירת מפתח Argon2id כדי לספק רמת אבטחה גבוהה. הוא משתמש במודולי x/crypto הסטנדרטיים של Go עבור תכונות ההצפנה שלו.
+
+[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+
+</details>
+
+</div>
 
 ### VeraCrypt (דיסק)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![VeraCrypt לוגו](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![VeraCrypt לוגו](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
-    
-    **VeraCrypt** הוא כלי תוכנה חופשית קוד פתוח המשמש להצפנה תוך כדי תנועה. זה יכול ליצור דיסק מוצפן וירטואלי בתוך קובץ, להצפין מחיצה או להצפין את כל התקן האחסון עם אימות לפני אתחול.
-    
-    [:octicons-home-16: דף הבית](https://veracrypt.fr){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
-        - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
-        - [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+![VeraCrypt לוגו](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt לוגו](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+
+**VeraCrypt** הוא כלי תוכנה חופשית קוד פתוח המשמש להצפנה תוך כדי תנועה. זה יכול ליצור דיסק מוצפן וירטואלי בתוך קובץ, להצפין מחיצה או להצפין את כל התקן האחסון עם אימות לפני אתחול.
+
+[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
+[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+
+</details>
+
+</div>
 
 VeraCrypt הוא מזלג של פרויקט TrueCrypt שהופסק. על פי המפתחים שלה, שיפורים באבטחה יושמו וטופלו בעיות שעלו בביקורת הקוד הראשונית של TrueCrypt.
 
@@ -92,100 +107,119 @@ Truecrypt [נבדק מספר פעמים](https://en.wikipedia.org/wiki/TrueCrypt
 
 ### BitLocker
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![BitLocker לוגו](assets/img/encryption-software/bitlocker.png){ align=right }
-    
-    **BitLocker** הוא פתרון ההצפנה המלא המצורף ל-Microsoft Windows. הסיבה העיקרית שאנו ממליצים עליה להצפנת כונן האתחול שלך היא בגלל [השימוש ב-TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, חברה לזיהוי פלילי, כתבה על תכונה זו ב-[הבנת BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
-    
-    [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=תיעוד}
+![BitLocker לוגו](assets/img/encryption-software/bitlocker.png){ align=right }
+
+**BitLocker** הוא פתרון ההצפנה המלא המצורף ל-Microsoft Windows. הסיבה העיקרית שאנו ממליצים עליה להצפנת כונן האתחול שלך היא בגלל [השימוש ב-TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, חברה לזיהוי פלילי, כתבה על תכונה זו ב-[הבנת BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+
+[:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) במהדורות Pro, Enterprise ו- Education של Windows. ניתן להפעיל אותו במהדורות ביתיות בתנאי שהן עומדות בדרישות המוקדמות.
 
-??? example "הפעלת BitLocker ב-Windows Home""
+<details class="example" markdown>
+<summary>Enabling BitLocker on Windows Home</summary>
 
-    כדי להפעיל את BitLocker במהדורות "בית" של Windows, חייבות להיות לך מחיצות מעוצבות עם [טבלת מחיצות GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) ובעלות TPM ייעודי (v1.2, 2.0+) מודול. ייתכן שיהיה עליך [להשבית את הפונקציונליות של "הצפנת מכשיר" שאינה של Bitlocker](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) ( שהוא נחות מכיוון שהוא שולח את מפתח השחזור שלך לשרתים של מיקרוסופט) אם הוא מופעל במכשיר שלך כבר לפני ביצוע המדריך הזה.
+To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
-    1. פתח שורת פקודה ובדוק את תבנית טבלת המחיצות של הכונן באמצעות הפקודה הבאה. אתה אמור לראות את "**GPT**" ברשימה תחת "סגנון מחיצה":
+1. פתח שורת פקודה ובדוק את תבנית טבלת המחיצות של הכונן באמצעות הפקודה הבאה. אתה אמור לראות את "**GPT**" ברשימה תחת "סגנון מחיצה":
+   ```powershell
+   powershell Get-Disk
+   ```
 
-        ```
-        powershell Get-Disk
-        ```
+2. הפעל פקודה זו (בשורת פקודה של אדמין) כדי לבדוק את גרסת ה-TPM שלך. אתה אמור לראות את `2.0` או `1.2` לצד `SpecVersion`:
+   ```powershell
+   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+   ```
 
-    2. הפעל פקודה זו (בשורת פקודה של אדמין) כדי לבדוק את גרסת ה-TPM שלך. אתה אמור לראות את `2.0` או `1.2` לצד `SpecVersion`:
+3. גישה ל[אפשרויות הפעלה מתקדמות](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). עליך לאתחל מחדש תוך כדי לחיצה על מקש F8 לפני הפעלת Windows ולהיכנס ל *שורת הפקודה* ב **פתרון בעיות** → **אפשרויות מתקדמות** → **שורת הפקודהPrompt**.
+4. התחבר עם חשבון הניהול שלך והקלד זאת בשורת הפקודה כדי להתחיל בהצפנה:
+   ```powershell
+   manage-bde -on c: -used
+   ```
 
-        ```
-        powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-        ```
+5. סגור את שורת הפקודה והמשך אתחול ל-Windows רגיל.
+6. פתח שורת פקודה של מנהל מערכת והפעל את הפקודות הבאות:
+   ```powershell
+   manage-bde c: -protectors -add -rp -tpm
+   manage-bde -protectors -enable c:
+   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+   ```
 
-    3. גישה ל[אפשרויות הפעלה מתקדמות](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). עליך לאתחל מחדש תוך כדי לחיצה על מקש F8 לפני הפעלת Windows ולהיכנס ל *שורת הפקודה* ב **פתרון בעיות** → **אפשרויות מתקדמות** → **שורת הפקודהPrompt**.
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    4. התחבר עם חשבון הניהול שלך והקלד זאת בשורת הפקודה כדי להתחיל בהצפנה:
+    גיבוי 'BitLocker-Recovery-Key.txt' בשולחן העבודה שלך להתקן אחסון נפרד. אובדן קוד שחזור זה עלול לגרום לאובדן נתונים.
 
-        ```
-        manage-bde -on c: -used
-        ```
+</div>
 
-    5. סגור את שורת הפקודה והמשך אתחול ל-Windows רגיל.
-
-    6. פתח שורת פקודה של מנהל מערכת והפעל את הפקודות הבאות:
-
-        ```
-        manage-bde c: -protectors -add -rp -tpm
-        manage-bde -protectors -enable c:
-        manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-        ```
-
-        !!! tip "טיפ"
-   
-            גיבוי 'BitLocker-Recovery-Key.txt' בשולחן העבודה שלך להתקן אחסון נפרד. אובדן קוד שחזור זה עלול לגרום לאובדן נתונים.
+</details>
 
 ### FileVault
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![FileVault לוגו](assets/img/encryption-software/filevault.png){ align=right }
-    
-    **FileVault** הוא פתרון הצפנת נפח תוך כדי תנועה המובנה ב-macOS. FileVault מומלץ כי זה [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) יכולות אבטחת חומרה הקיימות בשבב אפל סיליקון SoC או T2 Security Chip.
-    
-    [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=תיעוד}
+![FileVault לוגו](assets/img/encryption-software/filevault.png){ align=right }
+
+**FileVault** הוא פתרון הצפנת נפח תוך כדי תנועה המובנה ב-macOS. FileVault מומלץ כי זה [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) יכולות אבטחת חומרה הקיימות בשבב אפל סיליקון SoC או T2 Security Chip.
+
+[:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 אנו ממליצים לאחסן מפתח שחזור מקומי במקום מאובטח, בניגוד לשימוש בחשבון iCloud שלך לשחזור.
 
 ### הגדרת מפתח מאוחדת של לינוקס
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![LUKS לוגו](assets/img/encryption-software/luks.png){ align=right }
-    
-    **LUKS** היא שיטת ברירת המחדל של FDE עבור לינוקס. ניתן להשתמש בו כדי להצפין אמצעי אחסון מלאים, מחיצות או ליצור מיכלים מוצפנים.
-    
-    [:octicons-home-16: דף הבית](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="קוד מקור" }
+![LUKS לוגו](assets/img/encryption-software/luks.png){ align=right }
 
-??? example "יצירה ופתיחה של גורמים מכילים מוצפנים"
+**LUKS** היא שיטת ברירת המחדל של FDE עבור לינוקס. ניתן להשתמש בו כדי להצפין אמצעי אחסון מלאים, מחיצות או ליצור מיכלים מוצפנים.
 
-    ```
-    dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
-    sudo cryptsetup luksFormat /path-to-file
-    ```
+[:octicons-home-16: דף הבית](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=תיעוד}
+[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="קוד מקור" }
 
+</details>
 
-    #### פתיחת קונטיינרים מוצפנים
-    אנו ממליצים לפתוח מיכלים ואמצעי אחסון עם `udisksctl` כפי שהוא משתמש ב [Polkit](https://en.wikipedia.org/wiki/Polkit). רוב מנהלי הקבצים, כמו אלה הכלולים בסביבות שולחן עבודה פופולריות, יכולים לפתוח קבצים מוצפנים. כלים כמו [udiskie](https://github.com/coldfix/udiskie) יכול לפעול במגש המערכת ולספק ממשק משתמש מועיל.
-    ```
-    udisksctl loop-setup -f /path-to-file
-    udisksctl unlock -b /dev/loop0
-    ```
+</div>
 
-!!! note "זכור לגבות את כותרות עוצמת הקול"
+<details class="example" markdown>
+<summary>Creating and opening encrypted containers</summary>
 
-    אנו ממליצים לך תמיד [לגבות את כותרות ה-LUKS שלך](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) במקרה של כשל חלקי בכונן. ניתן לעשות זאת עם:
+```bash
+dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
+sudo cryptsetup luksFormat /path-to-file
+```
 
-    ```
-    cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/קובץ.img
-    ```
+#### Opening encrypted containers
+
+We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). רוב מנהלי הקבצים, כמו אלה הכלולים בסביבות שולחן עבודה פופולריות, יכולים לפתוח קבצים מוצפנים. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+
+```bash
+udisksctl loop-setup -f /path-to-file
+udisksctl unlock -b /dev/loop0
+```
+
+</details>
+
+<div class="admonition note" markdown>
+<p class="admonition-title">Remember to back up volume headers</p>
+
+אנו ממליצים לך תמיד [לגבות את כותרות ה-LUKS שלך](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) במקרה של כשל חלקי בכונן. This can be done with:
+
+```bash
+cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
+```
+
+</div>
 
 ## שורת הפקודה
 
@@ -193,36 +227,45 @@ BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-d
 
 ### Kryptor
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Kryptor לוגו](assets/img/encryption-software/kryptor.png){ align=right }
-    
-    **Kryptor** הוא כלי הצפנת וחתימה של קבצים חינמי ופתוח העושה שימוש באלגוריתמים קריפטוגרפיים מודרניים ומאובטחים. המטרה היא להיות גרסה טובה יותר של [age](https://github.com/FiloSottile/age) ו [Minisign](https://jedisct1.github.io/minisign/) כדי לספק חלופה פשוטה וקלה יותר ל GPG.
-    
-    [:octicons-home-16: דף הבית](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-windows11: Windows](https://www.kryptor.co.uk)
-        - [:simple-apple: macOS](https://www.kryptor.co.uk)
-        - [:simple-linux: Linux](https://www.kryptor.co.uk)
+![Kryptor לוגו](assets/img/encryption-software/kryptor.png){ align=right }
+
+**Kryptor** הוא כלי הצפנת וחתימה של קבצים חינמי ופתוח העושה שימוש באלגוריתמים קריפטוגרפיים מודרניים ומאובטחים. המטרה היא להיות גרסה טובה יותר של [age](https://github.com/FiloSottile/age) ו [Minisign](https://jedisct1.github.io/minisign/) כדי לספק חלופה פשוטה וקלה יותר ל GPG.
+
+[:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.kryptor.co.uk)
+- [:simple-apple: macOS](https://www.kryptor.co.uk)
+- [:simple-linux: Linux](https://www.kryptor.co.uk)
+
+</details>
+
+</div>
 
 ### Tomb
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tomb לוגו](assets/img/encryption-software/tomb.png){ align=right }
-    
-    **Tomb** הוא מעטפת מעטפת שורת פקודה עבור LUKS. הוא תומך בסטגנוגרפיה באמצעות [כלים של צד שלישי](https://github.com/dyne/Tomb#how-does-it-work).
-    
-    [:octicons-home-16: דף הבית](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=לתרומה }
+![Tomb לוגו](assets/img/encryption-software/tomb.png){ align=right }
+
+**Tomb** הוא מעטפת מעטפת שורת פקודה עבור LUKS. הוא תומך בסטגנוגרפיה באמצעות [כלים של צד שלישי](https://github.com/dyne/Tomb#how-does-it-work).
+
+[:octicons-home-16: דף הבית](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=תיעוד}
+[:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="קוד מקור" }
+[:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=לתרומה }
+
+</details>
+
+</div>
 
 ## OpenPGP
 
@@ -230,100 +273,128 @@ BitLocker [ נתמך רק](https://support.microsoft.com/en-us/windows/turn-on-d
 
 בעת הצפנה באמצעות PGP, יש לך אפשרות להגדיר אפשרויות שונות בקובץ `gpg.conf` שלך. אנו ממליצים להישאר עם האפשרויות הסטנדרטיות המפורטות ב[שאלות הנפוצות של משתמשי GnuPG ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
-!!! tip "השתמש בברירות מחדל עתידיות בעת יצירת מפתח"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use future defaults when generating a key</p>
 
-    כאשר [יוצרים מפתחות](https://www.gnupg.org/gph/en/manual/c14.html) אנו מציעים להשתמש בפקודה `future-default` מכיוון שזו תנחה את GnuPG להשתמש בקריפטוגרפיה מודרנית כגון [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) ו [Ed25519](https://ed25519.cr.yp.to/):
+When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
 
-    ```bash
-    gpg --quick-gen-key alice@example.com future-default
-    ```
+```bash
+gpg --quick-gen-key alice@example.com future-default
+```
+
+</div>
 
 ### GNU Privacy Guard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![GNU Privacy Guard לוגו](assets/img/encryption-software/gnupg.svg){ align=right }
-    
-    **GnuPG** היא חלופה ברישיון GPL לחבילת PGP של תוכנות הצפנה. GnuPG תואם ל-[RFC 4880](https://tools.ietf.org/html/rfc4880), שהוא מפרט ה-IETF הנוכחי של OpenPGP. פרויקט GnuPG עבד על [טיוטה מעודכנת](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) בניסיון לחדש את OpenPGP. GnuPG הוא חלק מפרויקט התוכנה GNU של קרן התוכנה החופשית וקיבל [מימון] גדול (https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) מממשלת גרמניה.
-    
-    [:octicons-home-16: דף הבית](https://gnupg.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
-        - [:simple-apple: macOS](https://gpgtools.org)
-        - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+![GNU Privacy Guard לוגו](assets/img/encryption-software/gnupg.svg){ align=right }
+
+**GnuPG** היא חלופה ברישיון GPL לחבילת PGP של תוכנות הצפנה. GnuPG תואם ל-[RFC 4880](https://tools.ietf.org/html/rfc4880), שהוא מפרט ה-IETF הנוכחי של OpenPGP. פרויקט GnuPG עבד על [טיוטה מעודכנת](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) בניסיון לחדש את OpenPGP. GnuPG הוא חלק מפרויקט התוכנה GNU של קרן התוכנה החופשית וקיבל [מימון] גדול (https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) מממשלת גרמניה.
+
+[:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:simple-apple: macOS](https://gpgtools.org)
+- [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+
+</details>
+
+</div>
 
 ### GPG4win
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![GPG4win לוגו](assets/img/encryption-software/gpg4win.svg){ align=right }
-    
-    **GPG4win** היא חבילה עבור Windows מ-[Intevation ו-g10 Code](https://gpg4win.org/impressum.html). הוא כולל [כלים שונים](https://gpg4win.org/about.html) שיכולים לסייע לך בשימוש ב-GPG ב-Microsoft Windows. הפרויקט יזם ובמקור [מומן על ידי](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) המשרד הפדרלי של גרמניה למידע אבטחה (BSI) בשנת 2005.
-    
-    [:octicons-home-16: דף הבית](https://gpg4win.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
+![GPG4win לוגו](assets/img/encryption-software/gpg4win.svg){ align=right }
+
+**GPG4win** היא חבילה עבור Windows מ-[Intevation ו-g10 Code](https://gpg4win.org/impressum.html). הוא כולל [כלים שונים](https://gpg4win.org/about.html) שיכולים לסייע לך בשימוש ב-GPG ב-Microsoft Windows. הפרויקט יזם ובמקור [מומן על ידי](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) המשרד הפדרלי של גרמניה למידע אבטחה (BSI) בשנת 2005.
+
+[:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+
+</details>
+
+</div>
 
 ### GPG Suite
 
-!!! note "הערה"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    אנו מציעים [Canary Mail](email-clients.md#canary-mail) לשימוש ב-PGP עם אימייל במכשירי iOS.
+אנו מציעים [Canary Mail](email-clients.md#canary-mail) לשימוש ב-PGP עם אימייל במכשירי iOS.
 
-!!! recommendation
+</div>
 
-    ![GPG Suite לוגו](assets/img/encryption-software/gpgsuite.png){ align=right }
-    
-    **GPG Suite** מספקת תמיכה ב-OpenPGP עבור [Apple Mail](email-clients.md#apple-mail) ו-macOS.
-    
-    אנו ממליצים להסתכל על [השלבים הראשונים](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup- gpgtools-create-a-new-key-your-first-encrypted-email) ו-[בסיס ידע](https://gpgtools.tenderapp.com/kb) לתמיכה.
-    
-    [:octicons-home-16: דף הבית](https://gpgtools.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-apple: macOS](https://gpgtools.org)
+<div class="admonition recommendation" markdown>
+
+![GPG Suite לוגו](assets/img/encryption-software/gpgsuite.png){ align=right }
+
+**GPG Suite** מספקת תמיכה ב-OpenPGP עבור [Apple Mail](email-clients.md#apple-mail) ו-macOS.
+
+אנו ממליצים להסתכל על [השלבים הראשונים](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup- gpgtools-create-a-new-key-your-first-encrypted-email) ו-[בסיס ידע](https://gpgtools.tenderapp.com/kb) לתמיכה.
+
+[:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-apple: macOS](https://gpgtools.org)
+
+</details>
+
+</div>
 
 ### OpenKeychain
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![OpenKeychain לוגו](assets/img/encryption-software/openkeychain.svg){ align=right }
-    
-    **OpenKeychain** הוא יישום אנדרואיד של GnuPG. זה נדרש בדרך כלל על ידי לקוחות דואר כגון [K-9 Mail](email-clients.md#k-9-mail) ו- [FairEmail](email-clients.md#fairemail) ואפליקציות Android אחרות כדי לספק תמיכה בהצפנה. Cure53 השלימה [ביקורת אבטחה](https://www.openkeychain.org/openkeychain-3-6) של OpenKeychain 3.6 באוקטובר 2015. פרטים טכניים על הביקורת והפתרונות של OpenKeychain ניתן למצוא [כאן](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
-    
-    [:octicons-home-16: דף הבית](https://www.openkeychain.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="קוד מקור" }
-    :octicons-heart-16:{ .card-link title="ניתן לתרום באפליקציה" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+![OpenKeychain לוגו](assets/img/encryption-software/openkeychain.svg){ align=right }
+
+**OpenKeychain** הוא יישום אנדרואיד של GnuPG. זה נדרש בדרך כלל על ידי לקוחות דואר כגון [K-9 Mail](email-clients.md#k-9-mail) ו- [FairEmail](email-clients.md#fairemail) ואפליקציות Android אחרות כדי לספק תמיכה בהצפנה. Cure53 השלימה [ביקורת אבטחה](https://www.openkeychain.org/openkeychain-3-6) של OpenKeychain 3.6 באוקטובר 2015. פרטים טכניים על הביקורת והפתרונות של OpenKeychain ניתן למצוא [כאן](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+
+[:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+
+</details>
+
+</div>
 
 ## קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 ### כישורים מינימליים
 

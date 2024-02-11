@@ -14,29 +14,33 @@ As opções listadas aqui são multi-plataforma e excelentes para criar backups 
 
 ### VeraCrypt
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![logo VeraCrypt](/assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![VeraCrypt logo](/assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
-    
-    **VeraCrypt** é um utilitário freeware disponível na fonte, utilizado para encriptação on-the-fly. Ele pode criar um disco virtual encriptado dentro de um ficheiro, encriptar uma partição ou encriptar todo o dispositivo de armazenamento com autenticação pré-boot.
-    
-    [Visite veracrypt.fr](https://veracrypt.fr){ .md-button .md-button--primary }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://www.veracrypt.fr/en/Downloads.html)
-    - [:fontawesome-brands-apple: macOS](https://www.veracrypt.fr/pt/Downloads.html)
-    - [:fontawesome-brands-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
-    - [:fontawesome-brands-git: Source](https://www.veracrypt.fr/code) downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
-        - [:simple-android: Android](https://cryptomator.org/android)
-        - [:simple-windows11: Windows](https://cryptomator.org/downloads)
-        - [:simple-apple: macOS](https://cryptomator.org/downloads)
-        - [:simple-linux: Linux](https://cryptomator.org/downloads)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+![logo VeraCrypt](/assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt logo](/assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+
+**VeraCrypt** é um utilitário freeware disponível na fonte, utilizado para encriptação on-the-fly. Ele pode criar um disco virtual encriptado dentro de um ficheiro, encriptar uma partição ou encriptar todo o dispositivo de armazenamento com autenticação pré-boot.
+
+[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+- [:simple-android: Android](https://cryptomator.org/android)
+- [:simple-windows11: Windows](https://cryptomator.org/downloads)
+- [:simple-apple: macOS](https://cryptomator.org/downloads)
+- [:simple-linux: Linux](https://cryptomator.org/downloads)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+
+</details>
+
+</div>
 
 O VeraCrypt é um garfo do projeto TrueCrypt descontinuado. De acordo com seus desenvolvedores, melhorias de segurança foram implementadas e questões levantadas pela auditoria inicial do código TrueCrypt foram abordadas.
 
@@ -46,49 +50,60 @@ Truecrypt foi [auditada várias vezes](https://en.wikipedia.org/wiki/TrueCrypt#S
 
 ### Criptomador
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![logo do criptomator](/assets/img/encryption-software/cryptomator.svg){ align=right }
-    
-    **Cryptomator** facilita o carregamento de ficheiros para a nuvem num sistema de ficheiros virtual encriptado. [Visite cryptomator.org](https://cryptomator.org){ .md-button .md-button--primary } [Política de Privacidade](https://cryptomator.org/privacy){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
-    - [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
-    - [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
-    - [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.cryptomator)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-    - [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
-    - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
-    - [:fontawesome-brands-github: Source](https://github.com/cryptomator) It uses Go's standard x/crypto modules for its encryption features.
-    
-    [:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+![logo do criptomator](/assets/img/encryption-software/cryptomator.svg){ align=right }
+
+**Cryptomator** facilita o carregamento de ficheiros para a nuvem num sistema de ficheiros virtual encriptado. [Visite cryptomator.org](https://cryptomator.org){ .md-button .md-button--primary } [Política de Privacidade](https://cryptomator.org/privacy){ .md-button }
+
+**Downloads***
+- [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
+- [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
+- [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
+- [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.cryptomator)
+- [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+- [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
+- [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+- [:fontawesome-brands-github: Source](https://github.com/cryptomator) It uses Go's standard x/crypto modules for its encryption features.
+
+[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+
+</details>
+
+</div>
 
 ### Picocrypt
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![logotipo Picocrypt](/assets/img/encryption-software/picocrypt.svg){ align=right }
-    
-    **Picocrypt** é uma pequena e simples ferramenta de encriptação que fornece uma encriptação moderna. Picocrypt usa a cifra segura XChaCha20 e a função de derivação da chave Argon2id para proporcionar um alto nível de segurança.
-    
-    Ele usa os módulos x/crypto padrão da Go para suas funcionalidades de criptografia. [Visite github.com](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-    - [:fontawesome-brands-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-    - [:fontawesome-brands-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
-    - [:fontawesome-brands-github: Source](https://github.com/HACKERALERT/Picocrypt)
+![logotipo Picocrypt](/assets/img/encryption-software/picocrypt.svg){ align=right }
+
+**Picocrypt** é uma pequena e simples ferramenta de encriptação que fornece uma encriptação moderna. Picocrypt usa a cifra segura XChaCha20 e a função de derivação da chave Argon2id para proporcionar um alto nível de segurança.
+
+[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
+[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+
+</details>
+
+</div>
 
 VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
 
@@ -102,102 +117,117 @@ For encrypting the drive your operating system boots from, we generally recommen
 
 ### BitLocker
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![BitLocker logo](/assets/img/encryption-software/bitlocker.png){ align=right }
-    
-    **BitLocker** é a solução de encriptação de volume completo, em conjunto com o Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
-    
-    [Visite microsoft.com](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .md-button .md-button--primary }
+![BitLocker logo](/assets/img/encryption-software/bitlocker.png){ align=right }
+
+**BitLocker** é a solução de encriptação de volume completo, em conjunto com o Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+
+[Visite microsoft.com](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .md-button .md-button--primary }
+
+</details>
+
+</div>
 
 BitLocker is [only supported](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. Também, FileVault deve ser habilitado **após** uma instalação macOS completa como mais gerador de números pseudorandomais ([PRNG](https://support.apple.com/guide/security/random-number-generation-seca0c73a75b/web)) [entropia](https://en.wikipedia.org/wiki/Entropy_(computing)) estará disponível.
+<details class="example" markdown>
+<summary>Enabling BitLocker on Windows Home</summary>
 
-    Para habilitar o BitLocker nas edições "Home" do Windows, você deve ter partições formatadas com um módulo [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) e ter um [TPM](https://en.wikipedia.org/wiki/Trusted_Platform_Module) (v1.2, 2.0 ) dedicado. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
-    1. Open a command prompt and check your drive's partition table format with the following command. You should see "**GPT**" listed under "Partition Style":
+1. Open a command prompt and check your drive's partition table format with the following command. You should see "**GPT**" listed under "Partition Style":
+   ```powershell
+   powershell Get-Disk
+   ```
 
-        ```
-        powershell Get-Disk
-        ```
+2. Run this command (in an admin command prompt) to check your TPM version. You should see `2.0` or `1.2` listed next to `SpecVersion`:
+   ```powershell
+   powerhell Get-Disk 0 | findstr GPT && echo Este é um disco do sistema GPT!
+   ```
 
-    2. Run this command (in an admin command prompt) to check your TPM version. You should see `2.0` or `1.2` listed next to `SpecVersion`:
+3. Access [Advanced Startup Options](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). You need to reboot while pressing the F8 key before Windows starts and go into the *command prompt* in **Troubleshoot** → **Advanced Options** → **Command Prompt**.
+4. Login with your admin account and type this in the command prompt to start encryption:
+   ```powershell
+   manage-bde -on c: -used
+   ```
 
-        ```
-        powerhell Get-Disk 0 | findstr GPT && echo Este é um disco do sistema GPT!
-        ```
+5. Close the command prompt and continue booting to regular Windows.
+6. Feche o prompt de comando, e entre no PowerShell:
+   ```powershell
+   manage-bde c: -protectors -add -rp -tpm
+   manage-bde -protectors -enable c:
+   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+   ```
 
-    3. Access [Advanced Startup Options](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). You need to reboot while pressing the F8 key before Windows starts and go into the *command prompt* in **Troubleshoot** → **Advanced Options** → **Command Prompt**.
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    4. Login with your admin account and type this in the command prompt to start encryption:
+Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
 
-        ```
-        manage-bde -on c: -used
-        ```
+</div>
 
-    5. Close the command prompt and continue booting to regular Windows.
-
-    6. Feche o prompt de comando, e entre no PowerShell:
-
-        ```
-        manage-bde c: -protectores -add -rp -tpm
-    manage-bde -protectores -enable c:
-    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-        ```
-
-        !!! aviso
-     Backup `BitLocker-Recovery-Key.txt` em um dispositivo de armazenamento separado.
-   
-        Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
+</details>
 
 ### FileVault
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![FileVault logo](/assets/img/encryption-software/filevault.png){ align=right }
-    
-    **FileVault** é a solução de encriptação de volume on-the-fly integrada em macOS. FileVault é recomendado porque [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) recursos de segurança de hardware presentes em um SoC de silício Apple ou Chip de Segurança T2.
-    
-    [Visite support.apple.com](https://support.apple.com/en-us/HT204837){ .md-button .md-button--primary }
+![FileVault logo](/assets/img/encryption-software/filevault.png){ align=right }
+
+**FileVault** é a solução de encriptação de volume on-the-fly integrada em macOS. FileVault é recomendado porque [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) recursos de segurança de hardware presentes em um SoC de silício Apple ou Chip de Segurança T2.
+
+[Visite support.apple.com](https://support.apple.com/en-us/HT204837){ .md-button .md-button--primary }
+
+</details>
+
+</div>
 
 We recommend storing a local recovery key in a secure place as opposed to using your iCloud account for recovery.
 
 ### Configuração da Chave Unificada Linux (LUKS)
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![LUKS logo](/assets/img/encryption-software/luks.png){ align=right }
-    
-    **LUKS*** é o método padrão de criptografia de disco completo para Linux. Ele pode ser usado para criptografar volumes completos, partições ou criar containers criptografados.
-    
-    [Visite gitlab.com](https://gitlab.com/cryptsetup/cryptsetup){ .md-button .md-button--primary }
+![LUKS logo](/assets/img/encryption-software/luks.png){ align=right }
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. example "Creating and opening encrypted containers"
+**LUKS*** é o método padrão de criptografia de disco completo para Linux. Ele pode ser usado para criptografar volumes completos, partições ou criar containers criptografados.
 
-    ```
-    dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
-    sudo cryptsetup luksFormat /path-to-file
-    ```
+[Visite gitlab.com](https://gitlab.com/cryptsetup/cryptsetup){ .md-button .md-button--primary }
 
+</details>
 
-    #### Abrindo recipientes encriptados
-    Recomendamos abrir recipientes e volumes com `udisksctl`, pois este utiliza [Polkit](https://en.wikipedia.org/wiki/Polkit). A maioria dos gestores de ficheiros, tais como os incluídos em ambientes de desktop populares, consegue desbloquear ficheiros encriptados. Ferramentas como [udiskie](https://github.com/coldfix/udiskie) podem ser executadas na bandeja do sistema e fornecer uma interface de usuário útil.
-    ```
-    udisksctl loop-setup -f /path-tofile
-    udisksctl unlock -b /dev/loop0
-    ```
+</div>
 
-!!! note "Remember to back up volume headers"
+<details class="example" markdown>
+<summary>Creating and opening encrypted containers</summary>
 
-    Recomendamos que você sempre [faça backup dos seus cabeçalhos LUKS](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) em caso de falha parcial da unidade. Isto pode ser feito com:
+```bash
+dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
+sudo cryptsetup luksFormat /path-to-file
+```
 
-    ```
-    cryptsetup luksHeaderBackup /device/device --header-backup-file /mnt/backup/file.img
-    ```
+#### Opening encrypted containers
+
+We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). A maioria dos gestores de ficheiros, tais como os incluídos em ambientes de desktop populares, consegue desbloquear ficheiros encriptados. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+
+```bash
+udisksctl loop-setup -f /path-to-file
+udisksctl unlock -b /dev/loop0
+```
+
+</details>
+
+<div class="admonition note" markdown>
+<p class="admonition-title">Remember to back up volume headers</p>
+
+Recomendamos que você sempre [faça backup dos seus cabeçalhos LUKS](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) em caso de falha parcial da unidade. This can be done with:
+
+```bash
+cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
+```
+
+</div>
 
 ## Linha de comando
 
@@ -205,38 +235,45 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 ### Kryptor
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![logo Kryptor](/assets/img/encryption-software/kryptor.png){ align=right }
-    
-    **Kryptor** é uma ferramenta de criptografia e assinatura de arquivos livre e de código aberto que faz uso de algoritmos criptográficos modernos e seguros. Pretende ser uma versão melhor de [age](https://github.com/FiloSottile/age) e [Minisign](https://jedisct1.github.io/minisign/) para fornecer uma alternativa simples e amigável ao GPG.
-    
-    [Visite kryptor.co.uk](https://www.kryptor.co.uk){ .md-button .md-button--primary } [Política de Privacidade](https://www.kryptor.co.uk/features#privacy){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://www.kryptor.co.uk)
-    - [:fontawesome-brands-apple: macOS](https://www.kryptor.co.uk)
-    - [:fontawesome-brands-linux: Linux](https://www.kryptor.co.uk)
-    - [:fontawesome-brands-github: Fonte](https://github.com/samuel-lucas6/Kryptor) downloads
-    
-        - [:simple-windows11: Windows](https://www.kryptor.co.uk)
-        - [:simple-apple: macOS](https://www.kryptor.co.uk)
-        - [:simple-linux: Linux](https://www.kryptor.co.uk)
+![logo Kryptor](/assets/img/encryption-software/kryptor.png){ align=right }
+
+**Kryptor** é uma ferramenta de criptografia e assinatura de arquivos livre e de código aberto que faz uso de algoritmos criptográficos modernos e seguros. Pretende ser uma versão melhor de [age](https://github.com/FiloSottile/age) e [Minisign](https://jedisct1.github.io/minisign/) para fornecer uma alternativa simples e amigável ao GPG.
+
+[:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.kryptor.co.uk)
+- [:simple-apple: macOS](https://www.kryptor.co.uk)
+- [:simple-linux: Linux](https://www.kryptor.co.uk)
+
+</details>
+
+</div>
 
 ### Túmulo
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Logotipo da Tumba](/assets/img/encryption-software/tomb.png){ align=right }
-    
-    **Tomb** é uma shell wrapper de linha de comando para LUKS. Ele suporta esteganografia através de [ferramentas de terceiros](https://github.com/dyne/Tomb#how-does-it-work).
-    
-    [Visite dyne.org](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
-    
-    **Downloads***
-    - [:fontawesome-brands-github: Fonte](https://github.com/dyne/Tomb)
+![Logotipo da Tumba](/assets/img/encryption-software/tomb.png){ align=right }
+
+**Tomb** é uma shell wrapper de linha de comando para LUKS. Ele suporta esteganografia através de [ferramentas de terceiros](https://github.com/dyne/Tomb#how-does-it-work).
+
+[Visite dyne.org](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
+
+**Downloads***
+- [:fontawesome-brands-github: Fonte](https://github.com/dyne/Tomb)
+
+</details>
+
+</div>
 
 ## OpenPGP
 
@@ -244,105 +281,130 @@ OpenPGP is sometimes needed for specific tasks such as digitally signing and enc
 
 When encrypting with PGP, you have the option to configure different options in your `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
-!!! tip "Use future defaults when generating a key"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use future defaults when generating a key</p>
 
-    Quando [gerando chaves](https://www.gnupg.org/gph/en/manual/c14.html) sugerimos utilizar o comando `future-default`, pois isto instruirá o GnuPG a utilizar criptografia moderna como [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) e [Ed25519](https://ed25519.cr.yp.to/):
+When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
 
-    ```bash
-    gpg --quick-gen-key alice@example.com future-default
-    ```
+```bash
+gpg --quick-gen-key alice@example.com future-default
+```
+
+</div>
 
 ### Guarda de Privacidade GNU
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![GNU Privacy Guard logo](/assets/img/encryption-software/gnupg.svg){ align=right }
-    
-    **GnuPG** é uma alternativa GPL-licenciada ao conjunto de software criptográfico PGP. GnuPG está em conformidade com [RFC 4880](https://tools.ietf.org/html/rfc4880), que é a especificação atual da IETF do OpenPGP. O projeto GnuPG tem trabalhado em um [rascunho atualizado](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) numa tentativa de modernizar o OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
-    
-    [Visite gnupg.org](https://gnupg.org){ .md-button .md-button--primary } [Política de Privacidade](https://gnupg.org/privacy-policy.html){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-    - [:fontawesome-brands-apple: macOS](https://gpgtools.org)
-    - [:fontawesome-brands-linux: Linux](https://gnupg.org/download/index.html#binary)
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-    - [:fontawesome-brands-git: Fonte](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git) downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
-        - [:simple-apple: macOS](https://gpgtools.org)
-        - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+![GNU Privacy Guard logo](/assets/img/encryption-software/gnupg.svg){ align=right }
+
+**GnuPG** é uma alternativa GPL-licenciada ao conjunto de software criptográfico PGP. GnuPG está em conformidade com [RFC 4880](https://tools.ietf.org/html/rfc4880), que é a especificação atual da IETF do OpenPGP. O projeto GnuPG tem trabalhado em um [rascunho atualizado](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) numa tentativa de modernizar o OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
+
+[:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:simple-apple: macOS](https://gpgtools.org)
+- [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+
+</details>
+
+</div>
 
 ### GPG4win
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![GPG4win logo](/assets/img/encryption-software/gpg4win.svg){ align=right }
-    
-    **GPG4win** é um pacote para Windows da [Intevation and g10 Code](https://gpg4win.org/impressum.html). Inclui [várias ferramentas](https://gpg4win.org/about.html) que auxiliam os usuários do PGP no Microsoft Windows. O projeto foi iniciado e originalmente [financiado por](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) pelo Escritório Federal de Segurança da Informação (BSI) da Alemanha em 2005.
-    
-    [Visite gpg4win.org](https://gpg4win.org){ .md-button .md-button--primary } [Política de Privacidade](https://gpg4win.org/privacy-policy.html){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-    - [:fontawesome-brands-git: Fonte](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary) downloads
-    
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
+![GPG4win logo](/assets/img/encryption-software/gpg4win.svg){ align=right }
+
+**GPG4win** é um pacote para Windows da [Intevation and g10 Code](https://gpg4win.org/impressum.html). Inclui [várias ferramentas](https://gpg4win.org/about.html) que auxiliam os usuários do PGP no Microsoft Windows. O projeto foi iniciado e originalmente [financiado por](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) pelo Escritório Federal de Segurança da Informação (BSI) da Alemanha em 2005.
+
+[:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+
+</details>
+
+</div>
 
 ### Suíte GPG
 
-!!! note
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email on iOS devices.
+We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email on iOS devices.
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+</div>
 
-    ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
-    
-    **GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail) and macOS.
-    
-    We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge base](https://gpgtools.tenderapp.com/kb) for support.
-    
-    [:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-apple: macOS](https://gpgtools.org)
+<div class="admonition recommendation" markdown>
+
+![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
+
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail) and macOS.
+
+We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge base](https://gpgtools.tenderapp.com/kb) for support.
+
+[:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-apple: macOS](https://gpgtools.org)
+
+</details>
+
+</div>
 
 ### OpenKeychain
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![logótipo OpenKeychain](/assets/img/encryption-software/openkeychain.svg){ align=right }
-    
-    **OpenKeychain** é uma implementação Android do GnuPG. É normalmente exigido por clientes de e-mail como [K-9 Mail](/email-clients/#k-9-mail) e [FairEmail](/email-clients/#fairemail) e outros aplicativos Android para fornecer suporte à criptografia. Cure53 concluiu uma [auditoria de segurança](https://www.openkeychain.org/openkeychain-3-6) da OpenKeychain 3.6 em outubro de 2015. Detalhes técnicos sobre a auditoria e as soluções OpenKeychain podem ser encontrados [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
-    
-    [Visite openkeychain.org](https://www.openkeychain.org){ .md-button .md-button--primary } [Política de Privacidade](https://www.openkeychain.org/help/privacy-policy){ .md-button }
-    
-    **Downloads***
-    - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-    - [:pg-f-droid: F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/)
-    - [:fontawesome-brands-git: Source](https://github.com/open-keychain/open-keychain) downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+![logótipo OpenKeychain](/assets/img/encryption-software/openkeychain.svg){ align=right }
+
+**OpenKeychain** é uma implementação Android do GnuPG. É normalmente exigido por clientes de e-mail como [K-9 Mail](/email-clients/#k-9-mail) e [FairEmail](/email-clients/#fairemail) e outros aplicativos Android para fornecer suporte à criptografia. Cure53 concluiu uma [auditoria de segurança](https://www.openkeychain.org/openkeychain-3-6) da OpenKeychain 3.6 em outubro de 2015. Detalhes técnicos sobre a auditoria e as soluções OpenKeychain podem ser encontrados [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+
+[:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+
+</details>
+
+</div>
 
 ## Framadate
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
+
+**PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+
+</div>
 
 ### Minimum Qualifications
 

@@ -1,8 +1,8 @@
 ---
-meta_title: "推薦的加密軟件： VeraCrypt, Cryptomat, PicoCrypt 和 OpenPGP - Privacy Guides"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
 title: "加密軟體"
 icon: material/file-lock
-description: 數據加密是控制誰可以訪問它的唯一方法。 這些工具允許您加密電子郵件和任何其他檔案。
+description: 數據加密是控制誰可以訪問它的唯一方法。 These tools allow you to encrypt your emails and any other files.
 cover: encryption.webp
 ---
 
@@ -14,27 +14,32 @@ cover: encryption.webp
 
 ### Cryptomator (雲端)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
-    
-    **Cryptomator** 是一種加密解決方案，專為將檔案私密保存到任何雲端提供商而設計。 它允許您創建存儲在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
-    
-    [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
-        - [:simple-android: Android](https://cryptomator.org/android)
-        - [:simple-windows11: Windows](https://cryptomator.org/downloads)
-        - [:simple-apple: macOS](https://cryptomator.org/downloads)
-        - [:simple-linux: Linux](https://cryptomator.org/downloads)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+
+**Cryptomator** 是一種加密解決方案，專為將檔案私密保存到任何雲端提供商而設計。 它允許您創建存儲在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
+
+[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+- [:simple-android: Android](https://cryptomator.org/android)
+- [:simple-windows11: Windows](https://cryptomator.org/downloads)
+- [:simple-apple: macOS](https://cryptomator.org/downloads)
+- [:simple-linux: Linux](https://cryptomator.org/downloads)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+
+</details>
+
+</div>
 
 Cryptomator 使用 AES-256 加密來加密檔案和檔案名稱。 Cryptomator 無法加密中繼資料，例如存取、修改和創建時間戳記，也無法加密檔案和資料夾的數量和大小。
 
@@ -44,41 +49,51 @@ Cryptomator  詳細介紹了其預期的 [安全目標](https://docs.cryptomator
 
 ### Picocrypt (檔案)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
-    
-    **Picocrypt** 是一個小而簡單的加密工具，提供現代加密。 Picocrypt 使用安全的 XChaCha20 密碼和 Argon2id 密鑰派生功能來提供高級別的安全性。 它使用 Go 標準x/crypto 模塊作為其加密功能。
-    
-    [:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-        - [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
+
+**Picocrypt** 是一個小而簡單的加密工具，提供現代加密。 Picocrypt 使用安全的 XChaCha20 密碼和 Argon2id 密鑰派生功能來提供高級別的安全性。 它使用 Go 標準x/crypto 模塊作為其加密功能。
+
+[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+
+</details>
+
+</div>
 
 ### VeraCrypt (磁碟)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-    ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
-    
-    **VeraCrypt** 是一個開源的免費軟件實用程式，用於即時加密。 它可以在檔案中建立虛擬加密磁碟、加密分割區，或透過預先啟動驗證來加密整個儲存裝置。
-    
-    [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
-        - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
-        - [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+
+**VeraCrypt** 是一個開源的免費軟件實用程式，用於即時加密。 它可以在檔案中建立虛擬加密磁碟、加密分割區，或透過預先啟動驗證來加密整個儲存裝置。
+
+[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
+[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+
+</details>
+
+</div>
 
 VeraCrypt是已停產的 TrueCrypt 項目的分支。 根據其開發人員的說法，已經實施了安全性改進，並解決了最初的TrueCrypt 代碼審計提出的問題。
 
@@ -95,81 +110,85 @@ VeraCrypt< /a> ，因為它們提供了額外的靈活性避免供應商鎖定�
 
 ### BitLocker
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
-    
-    **BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 我們推薦利用它加密開機設備，因為其[使用 TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). 鑑證公司 ElcomSoft 曾撰寫過此功能的相關介紹 [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
-    
-    [:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
-    
+![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
+
+**BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 我們推薦利用它加密開機設備，因為其[使用 TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). 鑑證公司 ElcomSoft 曾撰寫過此功能的相關介紹 [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+
+[:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838)  Windows 專業版、企業版和教育版。 它可以在家庭版上啓用，只要符合先決條件。
 
-??? example "在Windows Home上啓用BitLocker"
+<details class="example" markdown>
+<summary>Enabling BitLocker on Windows Home</summary>
 
-    若要在 Windows 家用版啟用 BitLocker ，必須使用 [GUID 分割表](https://zh.wikipedia.org/wiki/GUID_Partition_Table) 格式化的分割區，並且具有專用的TPM (v1.2, 2.0+)模組。 如果在遵循本指南之前已在裝置上啟用，則要[停用非Bitlocker「裝置加密」功能](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5)(因為它會將您的復原金鑰傳送到Microsoft 的伺服器)。
-    
+To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
-    1. 開啟命令提示符，並使用以下命令檢查磁碟機的分區表格格式。 您應該會在“分區樣式”下方看到“**GPT**” ： 
-       
-       
-
-        ```
-        powershell Get-Disk
-        ```
-
-
-    2. 在管理員命令提示符中執行此命令以檢查您的TPM版本。 您應該會在 `個SpecVersion`旁邊看到 `2.0` 或 `1.2` ： 
-       
-       
-
-        ```
-        powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-        ```
-
-
-    3. 訪問[進階啟動選項](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). 重新啟動時需要在 Windows 啟動前按下F8 鍵，然後進入 *命令提示符* in **疑難排解** → **進階選項** → **命令提示符**。
-
-    4. 使用管理員帳戶登入並在命令提示符中輸入指令以開始加密： 
-       
-       
-
-        ```
-        manage-bde -on c: -used
-        ```
-
-
-    5. 關閉命令提示符並繼續啟動正常Windows。
-
-    6. 打開 admin 命令提示符並運行以下命令： 
-       
-       
-
-        ```
-        manage-bde c: -protectors -add -rp -tpm
-        manage-bde -protectors -enable c:
-        manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-        ```
-
+1. 開啟命令提示符，並使用以下命令檢查磁碟機的分區表格格式。 您應該會在“分區樣式”下方看到“**GPT**” ： 
    
-   !!! tip "訣竅"
    
-        將桌面上的「BitLocker-Recovery-Key.txt」備份到單獨的儲存裝置。 若遺失恢復代碼可能會導致資料無法回復。
-       
+   ```powershell
+   powershell Get-Disk
+   ```
+
+
+2. 在管理員命令提示符中執行此命令以檢查您的TPM版本。 您應該會在 `個SpecVersion`旁邊看到 `2.0` 或 `1.2` ： 
+   
+   
+   ```powershell
+   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+   ```
+
+
+3. 訪問[進階啟動選項](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). 重新啟動時需要在 Windows 啟動前按下F8 鍵，然後進入 *命令提示符* in **疑難排解** → **進階選項** → **命令提示符**。
+
+4. 使用管理員帳戶登入並在命令提示符中輸入指令以開始加密： 
+   
+   
+   ```powershell
+   manage-bde -on c: -used
+   ```
+
+
+5. 關閉命令提示符並繼續啟動正常Windows。
+
+6. 打開 admin 命令提示符並運行以下命令： 
+   
+   ```powershell
+   manage-bde c: -protectors -add -rp -tpm
+   manage-bde -protectors -enable c:
+   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+   ```
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+將桌面上的「BitLocker-Recovery-Key.txt」備份到單獨的儲存裝置。 若遺失恢復代碼可能會導致資料無法回復。
+
+</div>
+
+</details>
 
 
 
 ### FileVault
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
-    
-    **FileVault** 是 macOS 內建的即時磁區加密方案。 建議使用FileVault ，因為它打抵擋 Apple silicon SoC 或 T2 安全晶片 [硬體安全問題](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web)。
-    
-    [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=Documentation}
-    
+![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
+
+**FileVault** 是 macOS 內建的即時磁區加密方案。 建議使用FileVault ，因為它打抵擋 Apple silicon SoC 或 T2 安全晶片 [硬體安全問題](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web)。
+
+[:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 我們建議您將本地恢復金鑰存放在安全的地方，而不是使用您的iCloud 帳戶進行恢復。
 
@@ -177,51 +196,55 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
 
 ### Linux Unified Key設定
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
-    
-    **LUKS** 是 Linux 預設 FDE 方法。 它可用於加密整個磁區、分割區或建立加密容器。
-    
-    [:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Source Code" }
-    
+![LUKS logo](assets/img/encryption-software/luks.png){ align=right }
 
-??? example "建立和開啟加密容器" 
+**LUKS** 是 Linux 預設 FDE 方法。 它可用於加密整個磁區、分割區或建立加密容器。
 
+[:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Source Code" }
 
+</details>
 
-    ```
-    dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
-    sudo cryptsetup luksFormat /path-to-file
-    ```
+</div>
 
+<details class="example" markdown>
+<summary>Creating and opening encrypted containers</summary>
 
-    #### 開啟加密容器
-    建議使用'udisksctl`開啟容器和磁區，因為這使用 [Polkit](https://en.wikipedia.org/wiki/Polkit)。 大多數檔案管理器，例如流行的桌面環境中包含的檔案管理器，都可以解鎖加密的檔案。 [udiskie](https://github.com/coldfix/udiskie) 這類工具執行在系統常駐區並提供有用的使用介面。
-    
-
-
-    ```
-    udisksctl loop-setup -f /path-to-file
-    udisksctl unlock -b /dev/loop0
-    ```
-
-
-!!! note "記得備份磁區標頭"
-
-    我們建議您務必 [備份您的LUKS標頭](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) 以防部分驅動器故障。 可以通過以下方式完成：
-    
+```bash
+dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
+sudo cryptsetup luksFormat /path-to-file
+```
 
 
 
-    ```
-    cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
-    ```
+
+#### Opening encrypted containers
+
+We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). 大多數檔案管理器，例如流行的桌面環境中包含的檔案管理器，都可以解鎖加密的檔案。 Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
 
 
 
+```bash
+udisksctl loop-setup -f /path-to-file
+udisksctl unlock -b /dev/loop0
+```
+
+
+</details>
+
+<div class="admonition note" markdown>
+<p class="admonition-title">Remember to back up volume headers</p>
+
+我們建議您務必 [備份您的LUKS標頭](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) 以防部分驅動器故障。 This can be done with:
+
+```bash
+cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
+```
+
+</div>
 
 ## 命令列
 
@@ -231,42 +254,45 @@ BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device
 
 ### Kryptor
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
-    
-    **Kryptor** 是一個免費的開源文件加密和簽名工具，利用現代安全的加密算法。 它旨在成為更好版本的 [age](https://github.com/FiloSottile/age)和 [Minisign](https://jedisct1.github.io/minisign/)，提供一個簡單，更容易的 GPG 替代品。
-    
-    [:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-windows11: Windows](https://www.kryptor.co.uk)
-        - [:simple-apple: macOS](https://www.kryptor.co.uk)
-        - [:simple-linux: Linux](https://www.kryptor.co.uk)
-    
+![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
 
+**Kryptor** 是一個免費的開源文件加密和簽名工具，利用現代安全的加密算法。 它旨在成為更好版本的 [age](https://github.com/FiloSottile/age)和 [Minisign](https://jedisct1.github.io/minisign/)，提供一個簡單，更容易的 GPG 替代品。
 
+[:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.kryptor.co.uk)
+- [:simple-apple: macOS](https://www.kryptor.co.uk)
+- [:simple-linux: Linux](https://www.kryptor.co.uk)
+
+</details>
+
+</div>
 
 ### Tomb
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
-    
-    **Tomb** 是 LUKS 的命令行 shell 包裝器。 它通過 [第三方工具](https://github.com/dyne/Tomb#how-does-it-work) 支持隱寫。
-    
-    [:octicons-home-16: Homepage](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Contribute }
-    
+![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
 
+**Tomb** 是 LUKS 的命令行 shell 包裝器。 它通過 [第三方工具](https://github.com/dyne/Tomb#how-does-it-work) 支持隱寫。
 
+[:octicons-home-16: Homepage](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 ## OpenPGP
 
@@ -274,121 +300,128 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 
 使用 PGP 加密時，您可以選擇在 `gpg.conf` 檔案中設定不同的選項。 我們建議您繼續使用 [ GnuPG 用戶常見問題集](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf)中指定的標準選項。
 
-!!! tip "在生成金鑰時使用未來的預設值"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Use future defaults when generating a key</p>
 
-    [生成密鑰](https://www.gnupg.org/gph/en/manual/c14.html) 時，建議使用`future-default`命令，因為這將指示 GnuPG 使用現代密碼學，例如 [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) 和 [Ed25519](https://ed25519.cr.yp.to/) ：
-    
+When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
 
+```bash
+gpg --quick-gen-key alice@example.com future-default
+```
 
-
-    ```bash
-    gpg --quick-gen-key alice@example.com future-default
-    ```
-
-
-
+</div>
 
 ### GNU Privacy Guard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
-    
-    **GnuPG** 是 GPL授權的加密軟體 PGP 替代品。 GnuPG 符合 [RFC 4880](https://tools.ietf.org/html/rfc4880) ，這是目前 OpenPGP 的 IETF 規範。 GnuPG 專案一直致力於 [更新](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) ，試圖現代化OpenPGP。 GnuPG 是自由軟體基金會GNU 軟體項目的一部分，並已收到德國政府的重大 [資助](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)。
-    
-    [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
-        - [:simple-apple: macOS](https://gpgtools.org)
-        - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
-    
+![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
 
+**GnuPG** 是 GPL授權的加密軟體 PGP 替代品。 GnuPG 符合 [RFC 4880](https://tools.ietf.org/html/rfc4880) ，這是目前 OpenPGP 的 IETF 規範。 GnuPG 專案一直致力於 [更新](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) ，試圖現代化OpenPGP。 GnuPG 是自由軟體基金會GNU 軟體項目的一部分，並已收到德國政府的重大 [資助](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)。
 
+[:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:simple-apple: macOS](https://gpgtools.org)
+- [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+
+</details>
+
+</div>
 
 ### GPG4win
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
-    
-    **GPG4win** 是 [Intevation and g10 Code](https://gpg4win.org/impressum.html) 的Windows 套件。 它包括 [各種工具](https://gpg4win.org/about.html) ，可協助您在 Microsoft Windows 上使用GPG。 該項目最初由德國聯邦信息安全辦公室 (BSI)於2005年發起並 [資助](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography)。
-    
-    [:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-windows11: Windows](https://gpg4win.org/download.html)
-    
+![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
 
+**GPG4win** 是 [Intevation and g10 Code](https://gpg4win.org/impressum.html) 的Windows 套件。 它包括 [各種工具](https://gpg4win.org/about.html) ，可協助您在 Microsoft Windows 上使用GPG。 該項目最初由德國聯邦信息安全辦公室 (BSI)於2005年發起並 [資助](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography)。
 
+[:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+
+</details>
+
+</div>
 
 ### GPG Suite
 
-!!! note "備註"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    我們建議 [Canary Mail](email-clients.md#canary-mail) 在iOS裝置上使用PGP和電子郵件。
-    
+我們建議 [Canary Mail](email-clients.md#canary-mail) 在iOS裝置上使用PGP和電子郵件。
 
-!!! recommendation
+</div>
 
-    ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
-    
-    **GPG Suite** 爲 [Apple Mail](email-clients.md#apple-mail) 和macOS 提供OpenPGP 支持。
-    
-    我們建議您查看他們的 [第一步指南](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email)和 [使用知識庫](https://gpgtools.tenderapp.com/kb) 以取得支援。
-    
-    [:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-apple: macOS](https://gpgtools.org)
-    
+<div class="admonition recommendation" markdown>
 
+![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
+**GPG Suite** 爲 [Apple Mail](email-clients.md#apple-mail) 和macOS 提供OpenPGP 支持。
+
+我們建議您查看他們的 [第一步指南](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email)和 [使用知識庫](https://gpgtools.tenderapp.com/kb) 以取得支援。
+
+[:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-apple: macOS](https://gpgtools.org)
+
+</details>
+
+</div>
 
 ### OpenKeychain
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
-    
-    **OpenKeychain** 是 GnuPG 的Android 實作。 郵件客戶端通常需要它，例如 [K-9 Mail](email-clients.md#k-9-mail) 和 [FairEmail](email-clients.md#fairemail) 以及其他 Android 應用程序提供加密支持。 Cure53 於2015年10月完成了 OpenKeychain 3.6 的 [安全審核](https://www.openkeychain.org/openkeychain-3-6)。 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
-    
-    [:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-    
+![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
+**OpenKeychain** 是 GnuPG 的Android 實作。 郵件客戶端通常需要它，例如 [K-9 Mail](email-clients.md#k-9-mail) 和 [FairEmail](email-clients.md#fairemail) 以及其他 Android 應用程序提供加密支持。 Cure53 於2015年10月完成了 OpenKeychain 3.6 的 [安全審核](https://www.openkeychain.org/openkeychain-3-6)。 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
 
+[:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+
+</details>
+
+</div>
 
 ## 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "此部分是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">此部份新增</p>
 
-    我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
-    
+我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
 
-
+</div>
 
 ### 最低合格要求
 
