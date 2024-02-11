@@ -1,7 +1,7 @@
 ---
 title: "Clientes de Correo Electrónico"
 icon: material/email-open
-description: These email clients are privacy-respecting and support OpenPGP email encryption.
+description: Estos clientes de correo electrónico respetan la privacidad y admiten el cifrado de correo electrónico OpenPGP.
 cover: email-clients.webp
 ---
 
