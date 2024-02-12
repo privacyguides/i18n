@@ -1,7 +1,7 @@
 ---
 title: "Agregadores de Noticias"
 icon: material/rss
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: Estos clientes para la lectura de noticias le permiten estar al día con sus páginas de noticias favoritas, utilizando estándares de Internet como RSS.
 cover: news-aggregators.webp
 ---
 
@@ -17,14 +17,14 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 **Akregator** es un lector de fuentes de noticias que es parte del proyecto [KDE](https://kde.org). Este incluye una búsqueda rápida, funcionalidades avanzadas de archivado y un navegador interno para facilitar la lectura de las noticias.
 
-[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentación}
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
@@ -40,11 +40,11 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 **NewsFlash** es un lector de noticias GTK4 de código abierto, moderno, sencillo y fácil de usar para Linux. Puede utilizarse sin conexión o con servicios como [NextCloud News](https://apps.nextcloud.com/apps/news) o [Inoreader](https://inoreader.com). Tiene una función de búsqueda e incluso una lista predefinida de fuentes como [TechCrunch](https://techcrunch.com) que puedes añadir directamente. Solo está disponible como un Flatpak (en el repositorio Flathub).
 
-[:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+[:octicons-repo-16: Repositorio](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 
@@ -60,12 +60,12 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 **Feeder** es un cliente RSS moderno para Android que tiene muchas [features](https://gitlab.com/spacecowboy/Feeder#features) y funciona bien con carpetas de fuentes RSS. Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
+[:octicons-repo-16: Repositorio](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
@@ -81,14 +81,14 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 **Fluent Reader** es un lector de noticias seguro y multiplataforma que cuenta con útiles funciones de privacidad, como la eliminación de cookies al salir, estrictas [políticas de seguridad de contenidos (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) y soporte para proxy, lo que significa que puede utilizarlo a través de [Tor](tor.md).
 
-[:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
@@ -107,7 +107,7 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 **Miniflux** es un lector de noticias basado en web que puede alojar usted mismo. Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
@@ -126,13 +126,13 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 **NetNewsWire** es un lector de fuentes gratuito y de código abierto para macOS e iOS centrado en un diseño y unas funciones nativos. Es compatible con los formatos de fuente típicos, además incluye soporte integrado para fuentes de Reddit.
 
-[:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://netnewswire.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
@@ -180,7 +180,7 @@ Reddit le permite suscribirse a subreddits a través de RSS.
 <div class="admonition example" markdown>
 <p class="admonition-title">Ejemplo</p>
 
-Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
+Sustituya `[SUBREDDIT]` por el subreddit al que desea suscribirse.
 
 ```text
 https://www.reddit.com/r/[SUBREDDIT]/new/.rss
@@ -190,13 +190,13 @@ https://www.reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### Twitter
 
-Using any of the Nitter [instances](https://status.d420.de/) you can easily subscribe using RSS.
+Utilizando cualquiera de las [instancias](https://status.d420.de/) de Nitter puede suscribirse fácilmente mediante RSS.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Ejemplo</p>
 
-1. Pick an instance and set `nitter_instance`.
-2. Replace `twitter_account` with the account name.
+1. Elija una instancia y ponga `nitter_instance`.
+2. Sustituya `twitter_account` por el nombre de la cuenta.
 
 ```text
 https://[nitter_instance]/[twitter_account]/rss
@@ -211,10 +211,10 @@ Puede suscribirse a los canales de YouTube sin iniciar sesión ni asociar la inf
 <div class="admonition example" markdown>
 <p class="admonition-title">Ejemplo</p>
 
-Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
+Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214). El código del canal se encuentra en la página "Acerca de" del canal de YouTube al que desea suscribirse, en: **Acerca de** > **Compartir** > **Copiar ID de canal**. Sustituya `[[CHANNEL ID]` a continuación:
 
 ```text
-https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+https://www.youtube.com/feeds/videos.xml?channel_id=[[CHANNEL ID]
 ```
 
 </div>

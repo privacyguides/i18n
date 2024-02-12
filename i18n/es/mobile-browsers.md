@@ -142,7 +142,7 @@ En iOS, cualquier aplicación que puede navegar en internet está [limitada](htt
 
 Estas opciones se encuentran en :gear: **Ajustes** → **Safari**
 
-##### Profiles
+##### Perfiles
 
 Todas tus cookies, historial y datos del sitio web estarán separados para cada perfil. Deberías utilizar diferentes perfiles para diferentes propósitos, por ejemplo, ir de compras, trabajar o uso escolar.
 
