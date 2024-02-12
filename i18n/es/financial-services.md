@@ -13,7 +13,7 @@ Realizar pagos en línea es uno de los principales desafíos para la privacidad.
 Hay una serie de servicios que ofrecen "tarjetas de débito virtuales" que puede utilizar con comercios en línea sin revelar sus datos bancarios o de facturación reales en la mayoría de los casos. Es importante tener en cuenta que estos servicios financieros **no** son anónimos y están sujetos a las leyes de "Conozca a su cliente" (KYC) y pueden requerir su DNI u otra información identificativa. Estos servicios son útiles principalmente para protegerle de las filtraciones de datos de los comercios, del seguimiento menos sofisticado o de la correlación de compras por parte de las agencias de marketing y del robo de datos en línea; y **no** para realizar una compra de forma totalmente anónima.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Check your current bank</p>
+<p class="admonition-title">Compruebe su banco actual</p>
 
 Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de tarjeta virtual. Si ya utiliza uno que ofrezca esta opción, debería utilizarlo en lugar de las siguientes recomendaciones en la mayoría de los casos. De este modo, no estará confiando su información personal a varias personas.
 

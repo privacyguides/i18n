@@ -276,9 +276,9 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 - [x] Selecciona **Agresivo** en Bloqueo de rastreadores y anuncios
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>Usa listas de filtros predeterminadas</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. Te aconsejamos que no utilices esta función; en su lugar, mantén las listas de filtros predeterminadas. El uso de listas adicionales te hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utilizas.
+Brave te permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Te aconsejamos que no utilices esta función; en su lugar, mantén las listas de filtros predeterminadas. El uso de listas adicionales te hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utilizas.
 
 </details>
 
@@ -409,7 +409,7 @@ uBlock Origin también tiene una versión "Lite" de su extensión, que ofrece un
 [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
