@@ -1,5 +1,5 @@
 ---
-title: "Bloc-notes"
+title: "Prise de notes"
 icon: material/notebook-edit-outline
 description: Ces applications de prise de notes chiffrées vous permettent de garder une trace de vos notes sans les transmettre à un tiers.
 cover: notebooks.webp

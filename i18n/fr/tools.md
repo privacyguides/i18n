@@ -221,7 +221,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ## Logiciels
 
-### Synchronisation de calendrier
+### Calendriers synchronisés
 
 <div class="grid cards" markdown>
 
@@ -242,7 +242,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Rédaction de données et de métadonnées
+### Caviardage de données et de métadonnées
 
 <div class="grid cards" markdown>
 
@@ -321,7 +321,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Clients applicatifs
+### Frontends
 
 <div class="grid cards" markdown>
 
@@ -366,7 +366,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](news-aggregators.md)
 
-### Bloc-notes
+### Prise de notes
 
 <div class="grid cards" markdown>
 
@@ -469,7 +469,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](desktop.md)
 
-### Micrologiciel de routeur
+### Firmware du routeur
 
 <div class="grid cards" markdown>
 

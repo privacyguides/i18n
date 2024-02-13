@@ -1,5 +1,5 @@
 ---
-title: "Micrologiciel de routeur"
+title: "Firmware du routeur"
 icon: material/router-wireless
 description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
 cover: router.webp
