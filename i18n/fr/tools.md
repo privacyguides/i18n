@@ -4,10 +4,10 @@ title: "Outils de protection de la vie privée"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides est le site web le plus transparent et le plus fiable pour trouver des logiciels, des applications et des services qui protègent vos données personnelles des programmes de surveillance de masse et d'autres menaces internet.
+description: Privacy Guides est le site web le plus transparent et le plus fiable pour trouver des logiciels, des applications et des services qui protègent vos données personnelles des programmes de surveillance de masse et d'autres menaces sur internet.
 ---
 
-Si vous cherchez une solution spécifique à un problème, voici les outils matériels et logiciels que nous recommandons dans diverses catégories. Les outils de protection de la vie privée que nous recommandons sont principalement choisis en fonction de leurs fonctionnalités de sécurité, tout en mettant l'accent sur les outils décentralisés et à code source ouvert. Ils sont applicables à divers modèles de menaces, allant de la protection contre les programmes mondiaux de surveillance de masse à l'atténuation des attaques en passant par l'évitement des grandes entreprises technologiques, mais vous seul pouvez déterminer ce qui répondra le mieux à vos besoins.
+Si vous cherchez une solution spécifique à un problème, voici les outils matériels et logiciels que nous recommandons dans diverses catégories. Les outils de protection de la vie privée que nous recommandons sont principalement choisis en fonction de leurs fonctionnalités de sécurité, tout en mettant l'accent sur les outils décentralisés et à code source ouvert. Ils sont adaptés à divers modèles menaces, que vous cherchiez à vous protéger contre les programmes de surveillance de masse mondiaux ou à éviter les grandes entreprises du numérique, voire à mitiger les attaques. Toutefois, vous seul êtes en mesure de déterminer ce qui répondra le mieux à vos besoins.
 
 Si vous souhaitez obtenir de l'aide pour déterminer les meilleurs outils de protection de la vie privée et les programmes alternatifs adaptés à vos besoins, lancez une discussion sur notre [forum](https://discuss.privacyguides.net/) ou sur notre communauté [Matrix](https://matrix.to/#/#privacyguides:matrix.org) !
 
