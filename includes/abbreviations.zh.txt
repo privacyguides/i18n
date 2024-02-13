@@ -38,7 +38,7 @@
 *[hypervisor]: 负责在多个操作系统之间分配CPU资源的软件，固件或者硬件
 *[ICCID]: 集成电路卡标识符
 *[IMAP]: 互联网消息访问协议
-*[IMEI]: International Mobile Equipment Identity
+*[IMEI]: 国际移动设备识别码
 *[IMSI]: International Mobile Subscriber Identity
 *[IP]: Internet Protocol
 *[IPv4]: Internet Protocol version 4

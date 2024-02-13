@@ -103,7 +103,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `warning`
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">警告</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 

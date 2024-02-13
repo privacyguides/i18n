@@ -152,7 +152,7 @@ DivestOS implements some system hardening patches originally developed for Graph
 DivestOS uses F-Droid as its default app store. We normally [recommend avoiding F-Droid](#f-droid), but doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) **with the DivestOS repositories enabled** to keep those components up to date. For other apps, our recommended methods of obtaining them still apply.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">警告</p>
 
 DivestOS的固件更新 [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS)和质量控制在其支持的设备中各不相同。 我们仍然推荐GrapheneOS，这取决于你设备的兼容性。 对于其他设备，DivestOS是一个不错的选择。
 
@@ -225,7 +225,7 @@ Shelter支持阻止联系人跨档案搜索，并通过默认文件管理器([Do
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">警告</p>
 
 推荐使用Shelter而不是 [Insular](https://secure-system.gitlab.io/Insular/)和 [Island](https://github.com/oasisfeng/island)，因为它支持[联系人搜索屏蔽](https://secure-system.gitlab.io/Insular/faq.html)。
 

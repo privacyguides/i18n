@@ -16,13 +16,13 @@ Si vous recherchez à protéger votre **vie privée** vis-à-vis de votre FAI, s
 
 </div>
 
-!!! danger "Les VPN ne fournissent pas l'anonymat"
+!!! danger "Les VPN ne permettent pas d'être anonyme"
 
     L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
     
     Si vous recherchez l'**anonymat**, vous devriez utiliser le Navigateur Tor.
     
-    Si vous recherchez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant HTTPS. Un VPN ne remplace pas les bonnes pratiques de sécurité.
+    Si vous souhaitez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant le protocole HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
     
     [Télécharger Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Mythes sur Tor & FAQ](advanced/tor-overview.md){ .md-button }
 

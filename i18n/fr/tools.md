@@ -1,5 +1,5 @@
 ---
-meta_title: "Les meilleurs outils, services, et recommandations sans publicité de protection de la vie privée - Privacy Guides"
+meta_title: "Les meilleurs outils, services et recommandations indépendantes pour la protection de la vie privée - Privacy Guides"
 title: "Outils de protection de la vie privée"
 icon: material/tools
 hide:
@@ -9,7 +9,7 @@ description: Privacy Guides est le site web le plus transparent et le plus fiabl
 
 Si vous cherchez une solution spécifique à un problème, voici les outils matériels et logiciels que nous recommandons dans diverses catégories. Les outils de protection de la vie privée que nous recommandons sont principalement choisis en fonction de leurs fonctionnalités de sécurité, tout en mettant l'accent sur les outils décentralisés et à code source ouvert. Ils sont adaptés à divers modèles menaces, que vous cherchiez à vous protéger contre les programmes de surveillance de masse mondiaux ou à éviter les grandes entreprises du numérique, voire à mitiger les attaques. Toutefois, vous seul êtes en mesure de déterminer ce qui répondra le mieux à vos besoins.
 
-Si vous souhaitez obtenir de l'aide pour déterminer les meilleurs outils de protection de la vie privée et les programmes alternatifs adaptés à vos besoins, lancez une discussion sur notre [forum](https://discuss.privacyguides.net/) ou sur notre communauté [Matrix](https://matrix.to/#/#privacyguides:matrix.org) !
+Si vous souhaitez obtenir de l'aide pour trouver quels sont les outils de protection de la vie privée et les alternatives les plus adaptés à vos besoins, lancez une discussion sur notre [forum](https://discuss.privacyguides.net/) ou sur notre communauté [Matrix](https://matrix.to/#/#privacyguides:matrix.org) !
 
 Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont été choisis, et d'autres conseils ou astuces que nous recommandons, cliquez sur le lien "En savoir plus" dans chaque section, ou cliquez sur la recommandation en question pour accéder à cette section spécifique de la page.
 
@@ -89,7 +89,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 #### Fournisseurs de DNS
 
-Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs DNS chiffrés en fonction de divers critères, tels que [Mullvad](https://mullvad.net/fr/help/dns-over-https-and-dns-over-tls) et [Quad9](https://quad9.net/) entre autres. Nous vous recommandons de lire nos pages sur les DNS avant de choisir un fournisseur. Dans de nombreux cas, l'utilisation d'un autre fournisseur de DNS n'est pas recommandée.
+Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs DNS chiffrés en fonction de divers critères, parmi lesquels [Mullvad](https://mullvad.net/fr/help/dns-over-https-and-dns-over-tls) et [Quad9](https://quad9.net/). Nous vous recommandons de lire nos pages sur les DNS avant de choisir un fournisseur. Dans de nombreux cas, l'utilisation d'un autre fournisseur de DNS n'est pas recommandée.
 
 [En savoir plus :material-arrow-right-drop-circle:](dns.md)
 
@@ -199,13 +199,13 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ### Fournisseurs de VPN
 
-??? danger "Les VPN ne fournissent pas l'anonymat"
+??? danger "Les VPN ne permettent pas d'être anonyme"
 
     L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
     
-    Si vous recherchez l' **anonymat**, vous devriez utiliser le navigateur Tor **au lieu** d'un VPN.
+    Si vous désirez l' **anonymat**, vous devriez utiliser le navigateur Tor **au lieu** d'un VPN.
     
-    Si vous recherchez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant HTTPS. Un VPN ne remplace pas les bonnes pratiques de sécurité.
+    Si vous souhaitez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant le protocole HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
     
     [En savoir plus :material-arrow-right:](vpn.md)
 
@@ -278,7 +278,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ??? info "Chiffrement du disque du système d'exploitation"
 
-    Pour chiffrer le disque de votre système d'exploitation, nous recommandons généralement d'utiliser l'outil de chiffrement fourni par votre système d'exploitation, qu'il s'agisse de **BitLocker** sur Windows, **FileVault** sur macOS ou **LUKS** sur Linux. Ces outils sont inclus dans le système d'exploitation et utilisent généralement des éléments de chiffrement matériel tels qu'un TPM, ce que ne font pas d'autres logiciels de chiffrement intégral de disque comme VeraCrypt. VeraCrypt convient toujours aux disques qui ne contiennent pas de systèmes d'exploitation, comme les disques externes, en particulier les disques auxquels on peut accéder à partir de plusieurs systèmes d'exploitation.
+    Pour chiffrer le disque de votre système d'exploitation, nous vous recommandons généralement d'utiliser l'outil de chiffrement fourni par votre système d'exploitation, qu'il s'agisse de **BitLocker** sur Windows, **FileVault** sur macOS ou **LUKS** sur Linux. Ces outils sont fournis avec le système d'exploitation et utilisent généralement des équipements de chiffrement matériels tels que le TPM, ce que ne font pas d'autres logiciels de chiffrement de disque comme VeraCrypt. VeraCrypt convient toujours aux disques sans système d'exploitation, comme les disques externes, en particulier les disques auxquels on peut accéder à partir de plusieurs systèmes d'exploitation.
     
     [En savoir plus :material-arrow-right:](encryption.md##operating-system-included-full-disk-encryption-fde)
 

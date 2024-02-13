@@ -2,7 +2,7 @@
 meta_title: "加密私人电子邮箱推荐- Privacy Guides"
 title: "电子邮件服务"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: 这些电子邮件提供商提供了一个很好的场所来安全地存储您的电子邮件，许多提供了与其他提供商兼容的 OpenPGP 加密服务。
 cover: email.webp
 ---
 
@@ -29,11 +29,11 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">警告</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+当使用像OpenPGP这样的E2EE技术时，电子邮件仍然会有一些元数据没有在电子邮件的标题中进行加密。 Read more about [email metadata](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+即使你使用OpenPGP，它也不支持 前向加密，这意味着如果你或收件人的私钥被盗，所有在之前使用它加密的信息都将被暴露。 [如何保护我的私钥？](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
