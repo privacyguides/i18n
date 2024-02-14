@@ -1,5 +1,5 @@
 ---
-title: "Calendriers synchronisés"
+title: "Synchronisation de calendrier"
 icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 cover: calendar.webp

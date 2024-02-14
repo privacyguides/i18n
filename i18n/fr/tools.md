@@ -203,9 +203,9 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
     L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
     
-    Si vous désirez l' **anonymat**, vous devriez utiliser le navigateur Tor **au lieu** d'un VPN.
+    Si vous recherchez l'**anonymat**, vous devriez utiliser le Navigateur Tor **au lieu** d'un VPN.
     
-    Si vous souhaitez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant le protocole HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
+    Si vous souhaitez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
     
     [En savoir plus :material-arrow-right:](vpn.md)
 
@@ -221,7 +221,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ## Logiciels
 
-### Calendriers synchronisés
+### Synchronisation de calendrier
 
 <div class="grid cards" markdown>
 
