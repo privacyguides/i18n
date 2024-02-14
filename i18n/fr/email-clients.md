@@ -1,5 +1,5 @@
 ---
-title: "Logiciels de messagerie électronique"
+title: "Clients e-mails"
 icon: material/email-open
 description: These email clients are privacy-respecting and support OpenPGP email encryption.
 cover: email-clients.webp
