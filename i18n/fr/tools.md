@@ -7,7 +7,7 @@ hide:
 description: Privacy Guides est le site web le plus transparent et le plus fiable pour trouver des logiciels, des applications et des services qui protègent vos données personnelles des programmes de surveillance de masse et d'autres menaces sur internet.
 ---
 
-Si vous cherchez une solution spécifique à un problème, voici pour diverses catégories les outils matériels et logiciels que nous vous recommandons. Les outils de protection de la vie privée que nous recommandons sont principalement choisis pour leurs fonctionnalités de sécurité, avec une attention particulière pour les outils décentralisés et open source. Ils sont adaptés à divers modèles menaces, que vous cherchiez à vous protéger contre les programmes de surveillance de masse mondiaux ou à éviter les grandes entreprises du numérique, voire à mitiger les attaques. Toutefois, vous seul êtes en mesure de déterminer ce qui répondra le mieux à vos besoins.
+Si vous cherchez une solution spécifique à un problème, voici pour diverses catégories les outils matériels et logiciels que nous vous recommandons. Les outils de protection de la vie privée que nous recommandons sont principalement choisis pour leurs fonctionnalités de sécurité, avec une attention particulière pour les outils décentralisés et open source. Ils sont adaptés à divers modèles menaces, que vous cherchiez à vous protéger contre les programmes de surveillance de masse mondiaux et à éviter les grandes entreprises du numérique, voire à mitiger les attaques. Toutefois, vous seul êtes en mesure de déterminer ce qui répondra le mieux à vos besoins.
 
 Si vous souhaitez obtenir de l'aide pour trouver quels sont les outils de protection de la vie privée et les alternatives les plus adaptés à vos besoins, lancez une discussion sur notre [forum](https://discuss.privacyguides.net/) ou sur notre communauté [Matrix](https://matrix.to/#/#privacyguides:matrix.org) !
 
@@ -24,7 +24,7 @@ Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont ét
 
 </div>
 
-1. Snowflake n'augmente pas la confidentialité, mais il vous permet de contribuer facilement au réseau Tor et d'aider les personnes dans les réseaux censurés à obtenir une meilleure confidentialité.
+1. Snowflake n'améliore pas la protection de votre vie privée, mais il vous permet de contribuer facilement au réseau Tor et de prêter main-forte à la vie privée des personnes dont le réseau est censuré.
 
 [En savoir plus :material-arrow-right-drop-circle:](tor.md)
 
@@ -321,7 +321,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Frontends
+### Front-ends
 
 <div class="grid cards" markdown>
 

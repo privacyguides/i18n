@@ -1,5 +1,5 @@
 ---
-title: "Frontends"
+title: "Front-ends"
 icon: material/flip-to-front
 description: Ces clients applicatifs open source pour divers services internet vous permettent d'accéder au contenu sans JavaScript ou d'autres inconvénients.
 cover: frontends.webp
