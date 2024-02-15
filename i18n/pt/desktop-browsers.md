@@ -134,7 +134,7 @@ O **Firefox** possui definições de privacidade fortes, como a [Proteção Melh
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Aviso</p>
 
 Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
@@ -209,7 +209,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 ### Arkenfox (avançado)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">Usa o Mullvad Browser para Bloqueio de Impressão Digital Avançado</p>
 
 O [Mullvad Browser](#mullvad-browser) fornece as mesmas proteções de bloqueio de impressão digital que o Arkenfox, e não requer a utilização da VPN do Mullvad para o efeito. Juntamente com uma VPN, o Mullvad Browser pode impedir scripts de rastreio mais avançados, algo que o Arkenfox não consegue. O Arkenfox tem a vantagem de ser muito mais flexível e de permitir exceções por site, nos casos em que é necessário manter a sessão iniciada.
 

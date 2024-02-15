@@ -39,8 +39,7 @@ O Tor encaminha o seu tráfego de Internet através destes servidores operados p
 
 ## Ligar ao Tor
 
-!!! aviso
-     Backup `BitLocker-Recovery-Key.txt` em um dispositivo de armazenamento separado.
+!!! dica
 
     Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
 
