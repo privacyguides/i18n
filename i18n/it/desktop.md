@@ -71,7 +71,9 @@ Essendo una distribuzione fai da te, [dovresti configurare e mantenere](#arch-ba
 
 Gran parte dei [pacchetti di Arch Linux](https://reproducible.archlinux.org) sono [riproducibili](https://reproducible-builds.org).
 
-## Distribuzioni immutabili
+## Atomic Distributions
+
+**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. This has advantages including increased stability and the ability to easily rollback updates. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
 
 ### Fedora Atomic Desktops
 
@@ -79,7 +81,7 @@ Gran parte dei [pacchetti di Arch Linux](https://reproducible.archlinux.org) son
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Atomic Desktops** are the immutable variants of Fedora with a strong focus on containerized workflows and Flatpak for desktop applications. Tutte queste varianti seguono lo stesso programma di rilascio di Fedora Workstation, beneficiando degli stessi aggiornamenti veloci e restando molto vicine alla versione a monte.
+**Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. Tutte queste varianti seguono lo stesso programma di rilascio di Fedora Workstation, beneficiando degli stessi aggiornamenti veloci e restando molto vicine alla versione a monte.
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
 [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }

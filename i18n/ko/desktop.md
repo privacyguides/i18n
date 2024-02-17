@@ -71,7 +71,9 @@ DIY 배포판이므로 여러분은 자신의 시스템을 여러분 자신이 [
 
 [Arch Linux의 패키지](https://reproducible.archlinux.org)는 대부분 [재현성](https://reproducible-builds.org)을 제공합니다.
 
-## 변경 불가능한 배포판
+## Atomic Distributions
+
+**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. This has advantages including increased stability and the ability to easily rollback updates. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
 
 ### Fedora Atomic Desktops
 
@@ -79,7 +81,7 @@ DIY 배포판이므로 여러분은 자신의 시스템을 여러분 자신이 [
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Atomic Desktops** are the immutable variants of Fedora with a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
+**Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
 [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }

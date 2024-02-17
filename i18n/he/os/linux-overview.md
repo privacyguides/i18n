@@ -58,7 +58,7 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 מערכת עדכון עסקה יוצרת תמונת מצב שנעשתה לפני ואחרי החלת עדכון. אם עדכון נכשל בכל עת (אולי בגלל הפסקת חשמל), ניתן להחזיר את העדכון בקלות ל"מצב התקין האחרון הידוע."
 
-שיטת העדכון Atomic משמשת להפצות בלתי ניתנות לשינוי כמו Silverblue, Tumbleweed ו-NixOS ויכולה להשיג אמינות עם מודל זה. [Adam Šamalík](https://twitter.com/adsamalik) סיפק מצגת על האופן שבו `rpm-ostree` עובד עם Silverblue:
+The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) סיפק מצגת על האופן שבו `rpm-ostree` עובד עם Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="בואו ננסה את Fedora Silverblue - מערכת הפעלה שולחנית בלתי ניתנת לשינוי! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

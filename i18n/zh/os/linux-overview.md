@@ -58,7 +58,7 @@ Additionally, Linux falls behind in implementing [exploit mitigations](https://m
 
 事务性更新系统创建了一个快照，在应用更新之前和之后进行。 如果更新在任何时候失败（也许是由于电源故障），更新可以很容易地回滚到 "最后已知良好状态"。
 
-原子更新法用于Silverblue、Tumbleweed和NixOS等不可变的发行版，可以通过这种模式实现可靠性。 [Adam Šamalík](https://twitter.com/adsamalik) 提供了一个关于 `rpm-ostree` 如何与Silverblue一起工作的演讲。
+The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) 提供了一个关于 `rpm-ostree` 如何与Silverblue一起工作的演讲。
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="让我们试试Fedora Silverblue--一个不可改变的桌面操作系统! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

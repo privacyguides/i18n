@@ -58,7 +58,7 @@ Atomic updating distributies passen updates volledig of helemaal niet toe. Typis
 
 Een transactioneel updatesysteem creëert een momentopname die wordt gemaakt voor en na het toepassen van een update. Als een update op een bepaald moment mislukt (bijvoorbeeld door een stroomstoring), kan de update gemakkelijk worden teruggezet naar een "laatst bekende goede staat"
 
-De Atomic update methode wordt gebruikt voor immutable distributies zoals Silverblue, Tumbleweed, en NixOS en kan betrouwbaarheid bereiken met dit model. [Adam Šamalík](https://twitter.com/adsamalik) gaf een presentatie over hoe `rpm-ostree` werkt met Silverblue:
+The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) gaf een presentatie over hoe `rpm-ostree` werkt met Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Laten we Fedora Silverblue proberen - een onveranderbaar desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

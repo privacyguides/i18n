@@ -58,7 +58,7 @@ Les distributions à mises à jour atomiques appliquent les mises à jour dans l
 
 Un système de mise à jour transactionnelle crée un instantané qui est réalisé avant et après l'application d'une mise à jour. Si une mise à jour échoue à un moment donné (par exemple en raison d'une panne de courant), elle peut facilement être ramenée au "dernier état correct connu."
 
-La méthode de mise à jour atomique est utilisée pour les distributions immuables comme Silverblue, Tumbleweed et NixOS et permet d'atteindre la fiabilité avec ce modèle. [Adam Šamalík](https://twitter.com/adsamalik) a fait une présentation sur le fonctionnement de `rpm-ostree` avec Silverblue :
+The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) a fait une présentation sur le fonctionnement de `rpm-ostree` avec Silverblue :
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Essayons Fedora Silverblue — un OS de bureau immuable ! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

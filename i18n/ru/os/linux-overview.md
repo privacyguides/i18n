@@ -58,7 +58,7 @@ Additionally, Linux falls behind in implementing [exploit mitigations](https://m
 
 Система транзакционного обновления создает снимок, который делается до и после применения обновления. Если обновление ломается в любой момент времени (например из-за сбоя питания), обновление можно легко откатить до "последнего известного хорошего состояния."
 
-Метод атомарного обновления используется для таких неизменяемых дистрибутивов, как Silverblue, Tumbleweed и NixOS и может повысить надежность с помощью этой модели. [Adam Šamalík](https://twitter.com/adsamalik) предоставил презентацию о том, как `rpm-ostree` работает с Silverblue:
+The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) предоставил презентацию о том, как `rpm-ostree` работает с Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

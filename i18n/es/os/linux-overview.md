@@ -58,7 +58,7 @@ Las distribuciones de actualización atómica aplican las actualizaciones en su 
 
 Un sistema de actualización transaccional crea una instantánea que se realiza antes y después de haber aplicado una actualización. Si una actualización falla en cualquier momento (debido a situaciones como fallas de electricidad), la actualización puede revertirse fácilmente al "último estado bueno conocido".
 
-El método de actualizaciones Atómicas es utilizado para distribuciones inmutables como Silverblue, Tumbleweed y NixOS, y puede obtener confiabilidad con este modelo. [Adam Šamalik](https://twitter.com/adsamalik) brinda una presentación sobre cómo `rpm-ostree` funciona con Silverblue:
+The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalik](https://twitter.com/adsamalik) brinda una presentación sobre cómo `rpm-ostree` funciona con Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Probemos Fedora Silverblue — ¡un sistema operativo de escritorio inmutable! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
