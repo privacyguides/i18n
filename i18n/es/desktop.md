@@ -167,6 +167,13 @@ Whonix se utiliza mejor [junto con Qubes](https://www.whonix.org/wiki/Qubes/Why_
 
 </div>
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Advertencia</p>
+
+Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) the [video memory](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) when shutting down. When you restart your computer after using Tails, it might briefly display the last screen that was displayed in Tails. If you shut down your computer instead of restarting it, the video memory will erase itself automatically after being unpowered for some time.
+
+</div>
+
 Tails es genial contra el análisis forense debido a la amnesia (lo que significa que no se escribe nada en el disco); sin embargo, no es una distribución endurecida como Whonix. Carece de muchas de las funciones de anonimato y seguridad que tiene Whonix y se actualiza con mucha menos frecuencia (solo una vez cada seis semanas). Un sistema Tails comprometido por malware puede potencialmente eludir el proxy transparente permitiendo que el usuario sea desanonimizado.
 
 Tails incluye [uBlock Origin](desktop-browsers.md#ublock-origin) en el Navegador Tor por defecto, lo que potencialmente puede facilitar a los adversarios la toma de huellas digitales de los usuarios de Tails. Las máquinas virtuales de [Whonix](desktop.md#whonix) pueden ser más a prueba de fugas, sin embargo no son amnésicas, lo que significa que los datos pueden ser recuperados de su dispositivo de almacenamiento.
