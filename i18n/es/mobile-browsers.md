@@ -45,24 +45,29 @@ En Android, Firefox es incluso menos seguro que las alternativas basadas en Chro
 
 ### Brave
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** incluye un bloqueador de contenidos integrado y [funciones de privacidad](https://brave.com/privacy-features/), muchas de las cuales están activadas por defecto.
-    
-    Brave se basa en el proyecto de navegador web Chromium, por lo que debería resultar familiar y tener mínimos problemas de compatibilidad con sitios web.
-    
-    [:octicons-home-16: Página Principal](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servicio Onion" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Política de Privacidad" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentación}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
-    
-    ??? downloads annotate "Descarga"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
+
+**Brave Browser** incluye un bloqueador de contenidos integrado y [funciones de privacidad](https://brave.com/privacy-features/), muchas de las cuales están activadas por defecto.
+
+Brave se basa en el proyecto de navegador web Chromium, por lo que debería resultar familiar y tener mínimos problemas de compatibilidad con sitios web.
+
+[:octicons-home-16: Página Principal]](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servicio Onion"" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### Configuración Recomendada
 
@@ -80,10 +85,14 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 <div class="annotate" markdown>
 
-- [x] Seleccione **Agresivo** en **Bloquear rastreadores y anuncios**
+- [x] Select **Aggressive** under **Block trackers & ads**
 
-??? warning "Usar listas de filtros predeterminadas"
-        Brave le permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
+<details class="warning" markdown>
+<summary>Usa listas de filtros predeterminadas</summary>
+
+Brave te permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
+
+</details>
 
 - [x] Seleccione **Mejorar conexiones a HTTPS**
 - [x] Seleccione **Usar siempre conexiones seguras**
@@ -128,15 +137,19 @@ En iOS, cualquier aplicación que puede navegar en internet está [limitada](htt
 
 ### Safari
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
-    
-    **Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) como [Antirrastreo Inteligente](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Informe de Privacidad, pestañas de Navegación Privada aisladas y efímeras, Relay Privado de iCloud, protección de huellas digitales mediante la aleatorización y presentación de una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos, y la posibilidad de bloquear las pestañas privadas con tus datos biométricos/PIN. También te permite separar tu navegación con diferentes perfiles.
-    
-    [:octicons-home-16: Página Principal](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidad" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentación}
+![Safari logo](assets/img/browsers/safari.svg){ align=right }
+
+**Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) como [Antirrastreo Inteligente](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Informe de Privacidad, pestañas de Navegación Privada aisladas y efímeras, Relay Privado de iCloud, protección de huellas digitales mediante la aleatorización y presentación de una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos, y la posibilidad de bloquear las pestañas privadas con tus datos biométricos/PIN. También te permite separar tu navegación con diferentes perfiles.
+
+[:octicons-home-16: Página Principal](https://www.apple.com/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentación}
+
+</details>
+
+</div>
 
 #### Configuración Recomendada
 
@@ -198,22 +211,27 @@ Si utilizas iCloud con la Protección de Datos Avanzada desactivada, también te
 
 ### AdGuard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-    
-    **AdGuard para iOS** es una extensión de bloqueo de contenidos gratuita y de código abierto para Safari que utiliza la [Content Blocker API] nativa (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-    
-    AdGuard para iOS tiene algunas funciones premium; sin embargo, el bloqueo de contenidos estándar de Safari es gratuito.
-    
-    [:octicons-home-16: Página Principal](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Política de Privacidad" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentació}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Código Fuente" }
-    
-    ??? downloads "Descargas"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+
+**AdGuard para iOS** es una extensión de bloqueo de contenidos gratuita y de código abierto para Safari que utiliza la [Content Blocker API] nativa (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+
+AdGuard para iOS tiene algunas funciones premium; sin embargo, el bloqueo de contenidos estándar de Safari es gratuito.
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 Las listas de filtros adicionales ralentizan las cosas y pueden aumentar su superficie de ataque, así que aplique sólo lo que necesite.
 
@@ -221,9 +239,12 @@ Las listas de filtros adicionales ralentizan las cosas y pueden aumentar su supe
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
-!!! example "Esta sección es nueva"
+<div class="admonition example" markdown>
+<p class="admonition-title">Esta sección es nueva</p>
 
-    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
+Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna duda sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
+
+</div>
 
 ### Requisitos Mínimos
 

@@ -45,24 +45,29 @@ schema:
 
 ### Brave
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** включает встроенный блокировщик контента и [инструменты конфиденциальности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
-    
-    Brave основан на Chromium, поэтому он покажется тебе знакомым, а также у него не должно быть проблем совместимости с сайтами.
-    
-    [:octicons-home-16: Домашняя страница](https://brave.com/ru/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion-сайт" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Исходный код" }
-    
-    ??? downloads annotate "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
+
+**Brave Browser** включает встроенный блокировщик контента и [инструменты конфиденциальности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
+
+Brave основан на Chromium, поэтому он покажется тебе знакомым, а также у него не должно быть проблем совместимости с сайтами.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### Рекомендованные настройки
 
@@ -80,10 +85,14 @@ Brave включает несколько инструментов защиты 
 
 <div class="annotate" markdown>
 
-- [x] Выберите **Агрессивный** в **Блокировка трекеров и рекламы**
+- [x] Select **Aggressive** under **Block trackers & ads**
 
-    ??? warning "Используй стандартные фильтры"
-        Brave позволяет тебе выбрать дополнительные фильтры на внутренней странице `brave://adblock`. Мы не рекомендуем использовать эту функцию; вместо этого оставь списки фильтров по умолчанию. Использование дополнительных фильтров выделит тебя среди других пользователей Brave, а также может увеличить площадь атаки, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых тобой списков.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. Мы не рекомендуем использовать эту функцию; вместо этого оставь списки фильтров по умолчанию. Использование дополнительных фильтров выделит тебя среди других пользователей Brave, а также может увеличить площадь атаки, если в Brave есть эксплойт и вредоносное правило будет добавлено в один из используемых тобой списков.
+
+</details>
 
 - [x] Выбери **Переключаться на HTTPS**
 - [x] Выбери **Всегда использовать безопасные соединения**
@@ -128,15 +137,19 @@ Brave включает несколько инструментов защиты 
 
 ### Safari
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Safari](assets/img/browsers/safari.svg){ align=right }
-    
-    **Safari** — браузер по умолчанию на iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
-    
-    [:octicons-home-16: Домашняя страница](https://www.apple.com/ru/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/ru/legal/privacy/data/ru/safari/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://support.apple.com/ru-ru/guide/safari/welcome/mac){ .card-link title=Документация}
+![Логотип Safari](assets/img/browsers/safari.svg){ align=right }
+
+**Safari** — браузер по умолчанию на iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+
+[:octicons-home-16: Домашняя страница](https://www.apple.com/ru/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/ru/legal/privacy/data/ru/safari/){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://support.apple.com/ru-ru/guide/safari/welcome/mac){ .card-link title=Документация}
+
+</details>
+
+</div>
 
 #### Рекомендованные настройки
 
@@ -198,22 +211,27 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 ### AdGuard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип AdGuard](assets/img/browsers/adguard.svg){ align=right }
-    
-    **AdGuard для iOS** — это бесплатный и открытый блокировщик контента для Safari, который использует нативный [API блокировки контента](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-    
-    AdGuard для iOS имеет несколько премиум-функций, хотя стандартные средства блокировки контента Safari бесплатны.
-    
-    [:octicons-home-16: Домашняя страница](https://adguard.com/ru/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/ru/privacy/ios.html){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![Логотип AdGuard](assets/img/browsers/adguard.svg){ align=right }
+
+**AdGuard для iOS** — это бесплатный и открытый блокировщик контента для Safari, который использует нативный [API блокировки контента](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+
+AdGuard для iOS имеет несколько премиум-функций, хотя стандартные средства блокировки контента Safari бесплатны.
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 Дополнительные списки блокировки замедляют работу браузера и могут упростить атаку, поэтому пользуйся только тем, что тебе необходимо.
 
@@ -221,9 +239,12 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 **Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем тебе ознакомиться с этим списком, прежде чем выбрать продукт, и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-!!! example "Это новый раздел"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Мы сейчас работаем над установлением точных критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у тебя есть вопросы по поводу наших критериев, пожалуйста, [задавай их на нашем форуме](https://discuss.privacyguides.net/latest) и не думай, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
+Мы сейчас работаем над установлением точных критериев для каждого раздела нашего сайта, поэтому они могут поменяться в будущем. Если у тебя есть вопросы по поводу наших критериев, пожалуйста, [задавай их на нашем форуме](https://discuss.privacyguides.net/latest) и не думай, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
+
+</div>
 
 ### Минимальные требования к сервисам
 

@@ -45,24 +45,29 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
 
 ### Brave
 
-!!! öneri
+<div class="admonition recommendation" markdown>
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** yerleşik bir içerik engelleyici ve [gizlilik özellikleri] (https://brave.com/privacy-features/) içerir ve bunların çoğu varsayılan olarak etkindir.
-    
-    Brave, Chromium web tarayıcısı projesi üzerine inşa edilmiştir, bu nedenle kullanımı daha tanıdıktır ve olabildiğince az web sitesi uyumluluğu yaşarsınız.
-    
-    [:octicons-home-16: Ana Sayfa](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
-    
-    ??? downloads annotate
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
+
+**Brave Browser** yerleşik bir içerik engelleyici ve [gizlilik özellikleri] (https://brave.com/privacy-features/) içerir ve bunların çoğu varsayılan olarak etkindir.
+
+Brave, Chromium web tarayıcısı projesi üzerine inşa edilmiştir, bu nedenle kullanımı daha tanıdıktır ve olabildiğince az web sitesi uyumluluğu yaşarsınız.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### Önerilen Yapılandırma
 
@@ -82,8 +87,12 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 - [x] Select **Aggressive** under **Block trackers & ads**
 
-    ??? warning "Use default filter lists"
-        Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+
+</details>
 
 - [x] Select **Upgrade connections to HTTPS**
 - [x] Select **Always use secure connections**
@@ -128,15 +137,19 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### Safari
 
-!!! öneri
+<div class="admonition recommendation" markdown>
 
-    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
-    
-    **Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
-    
-    [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+![Safari logo](assets/img/browsers/safari.svg){ align=right }
+
+**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+
+[:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 #### Önerilen Yapılandırma
 
@@ -198,22 +211,27 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend chec
 
 ### AdGuard
 
-!!! öneri
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-    
-    **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-    
-    AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
-    
-    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+
+**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+
+AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need.
 
@@ -221,9 +239,12 @@ Additional filter lists do slow things down and may increase your attack surface
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! example "This section is new"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+</div>
 
 ### Minimum Requirements
 

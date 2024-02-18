@@ -45,23 +45,29 @@ På Android är Firefox fortfarande mindre säkert än Chromium-baserade alterna
 
 ### Brave
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** innehåller en inbyggd innehållsblockerare och [integritetsfunktioner] (https://brave.com/privacy-features/), varav många är aktiverade som standard.
-    
-    Brave bygger på webbläsarprojektet Chromium, så den bör kännas bekant och ha minimala problem med webbkompatibilitet.
-    
-    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
-    
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://lbry.com/faq/){ .card-link title=Dokumentation}
-    [:octicons-code-16:](https://github.com/lbryio/lbry-desktop){ .card-link title="Källkod" }
-    [](/){ .card-link title=Contribute??? nedladdningar
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: App Store](https://github.com/brave/brave-browser/releases)
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
+
+**Brave Browser** innehåller en inbyggd innehållsblockerare och [integritetsfunktioner] (https://brave.com/privacy-features/), varav många är aktiverade som standard.
+
+Brave bygger på webbläsarprojektet Chromium, så den bör kännas bekant och ha minimala problem med webbkompatibilitet.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### Rekommenderad konfiguration
 
@@ -81,8 +87,12 @@ Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som s
 
 - [x] Select **Aggressive** under **Block trackers & ads**
 
-    ??? varning "Use default filter lists"
-        Brave låter dig välja ytterligare innehållsfilter på den interna sidan `brave://adblock`. Vi avråder från att använda den här funktionen; behåll istället standardfilterlistorna. Om du använder extra listor sticker du ut från andra Brave-användare och kan också öka angreppsytan om det finns en exploit i Brave och en skadlig regel läggs till i en av de listor du använder.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. Vi avråder från att använda den här funktionen; behåll istället standardfilterlistorna. Om du använder extra listor sticker du ut från andra Brave-användare och kan också öka angreppsytan om det finns en exploit i Brave och en skadlig regel läggs till i en av de listor du använder.
+
+</details>
 
 - [x] Select **Upgrade connections to HTTPS**
 - [x] Select **Always use secure connections**
@@ -127,15 +137,19 @@ I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app
 
 ### Safari
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Safari-logotyp](assets/img/browsers/safari.svg){ align=right }
-    
-    **Safari** är standardwebbläsaren i iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
-    
-    [:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Contribute}
+![Safari-logotyp](assets/img/browsers/safari.svg){ align=right }
+
+**Safari** är standardwebbläsaren i iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+
+[:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Contribute}
+
+</details>
+
+</div>
 
 #### Rekommenderad konfiguration
 
@@ -197,22 +211,27 @@ Om du använder iCloud med avancerat dataskydd inaktiverat rekommenderar vi ocks
 
 ### AdGuard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-    
-    **AdGuard för iOS** är ett gratis tillägg för innehållsspärrning för Safari med öppen källkod som använder det inhemska [Content Blocker API] (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-    
-    AdGuard för iOS har vissa premiumfunktioner, men standardblockeringen av innehåll i Safari är gratis.
-    
-    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
-    
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.adguard.com/ios/){ .card-link title=Dokumentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Källkod" }
-    [](/){ .card-link title=Contribute??? nedladdningar
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+
+**AdGuard för iOS** är ett gratis tillägg för innehållsspärrning för Safari med öppen källkod som använder det inhemska [Content Blocker API] (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+
+AdGuard för iOS har vissa premiumfunktioner, men standardblockeringen av innehåll i Safari är gratis.
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 Ytterligare filterlistor saktar ner saker och kan öka din attackyta, så använd bara det du behöver.
 
@@ -220,9 +239,12 @@ Ytterligare filterlistor saktar ner saker och kan öka din attackyta, så använ
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! exempel "Det här avsnittet är nytt"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
+Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
+
+</div>
 
 ### Minimikrav
 

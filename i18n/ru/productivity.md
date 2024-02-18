@@ -32,7 +32,7 @@ cover: productivity.webp
         - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
         - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
-!!! recommendation
+!!! danger "Опасность"
 
     Мы не рекомендуем использовать [плагин E2EE](https://apps.nextcloud.com/apps/end_to_end_encryption) для Nextcloud, так как это может привести к потере данных; это очень экспериментальный продукт, который недостаточно качественен для полноценного использования. По этой причине мы не рекомендуем сторонних провайдеров Nextcloud.
 

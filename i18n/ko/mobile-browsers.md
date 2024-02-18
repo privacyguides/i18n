@@ -45,24 +45,29 @@ Android에서, Firefox는 Chrome 기반 대체제보다 보안성이 떨어집�
 
 ### Brave
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave 로고](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave 브라우저**에는 콘텐츠 차단기와 [프라이버시 기능](https://brave.com/privacy-features/)이 내장되어 있으며, 이 중 상당수가 기본적으로 활성화되어 있습니다.
-    
-    Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
-    
-    [:octicons-home-16: 홈페이지](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="소스 코드" }
-    
-    ??? downloads annotate "다운로드"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+![Brave 로고](assets/img/browsers/brave.svg){ align=right }
+
+**Brave 브라우저**에는 콘텐츠 차단기와 [프라이버시 기능](https://brave.com/privacy-features/)이 내장되어 있으며, 이 중 상당수가 기본적으로 활성화되어 있습니다.
+
+Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### 권장 설정
 
@@ -80,10 +85,14 @@ Brave 브라우저는 [Shields](https://support.brave.com/hc/en-us/articles/3600
 
 <div class="annotate" markdown>
 
-- [x] **트래커 & 광고 차단**을 **공격적** 으로 설정
+- [x] Select **Aggressive** under **Block trackers & ads**
 
-    ??? warning "기본 필터 목록을 사용하세요"
-        Brave 브라우저는 `brave://adblock` 내부 페이지에서 추가적인 콘텐츠 필터를 선택할 수 있습니다. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
+
+</details>
 
 - [x] **연결을 HTTPS로 업그레이드** 활성화
 - [x] **항상 보안 연결 사용** 활성화
@@ -128,15 +137,19 @@ iOS에서는 웹 브라우징이 가능한 모든 앱이 Apple에서 제공하�
 
 ### Safari
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Safari 로고](assets/img/browsers/safari.svg){ align=right }
-    
-    **Safari**는 iOS 기본 브라우저입니다. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
-    
-    [:octicons-home-16: 홈페이지](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/kr/legal/privacy/data/ko/safari/){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=문서}
+![Safari 로고](assets/img/browsers/safari.svg){ align=right }
+
+**Safari**는 iOS 기본 브라우저입니다. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+
+[:octicons-home-16: 홈페이지](https://www.apple.com/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/kr/legal/privacy/data/ko/safari/){ .card-link title="프라이버시 정책" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=문서}
+
+</details>
+
+</div>
 
 #### 권장 설정
 
@@ -198,22 +211,27 @@ Safari 방문 기록, 탭 그룹, iCloud 탭, 저장된 암호는 E2EE 동기화
 
 ### AdGuard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard 로고](assets/img/browsers/adguard.svg){ align=right }
-    
-    **iOS용 AdGuard**는 Safari용 무료 오픈 소스 콘텐츠 차단 확장 프로그램입니다. Safari [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker)를 사용합니다.
-    
-    iOS용 AdGuard에는 몇 가지 프리미엄 기능이 있지만, 표준 Safari 콘텐츠 차단 기능은 무료입니다.
-    
-    [:octicons-home-16: 홈페이지](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="프라이버시 정책" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="소스 코드" }
-    
-    ??? downloads "다운로드"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![AdGuard 로고](assets/img/browsers/adguard.svg){ align=right }
+
+**iOS용 AdGuard**는 Safari용 무료 오픈 소스 콘텐츠 차단 확장 프로그램입니다. Safari [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker)를 사용합니다.
+
+iOS용 AdGuard에는 몇 가지 프리미엄 기능이 있지만, 표준 Safari 콘텐츠 차단 기능은 무료입니다.
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 필터 목록을 추가하면 속도가 느려지고 공격 표면을 증가시킬 수 있으므로, 필요한 것만 적용하시기 바랍니다.
 
@@ -221,9 +239,12 @@ Safari 방문 기록, 탭 그룹, iCloud 탭, 저장된 암호는 E2EE 동기화
 
 **Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-!!! example "이 단락은 최근에 만들어졌습니다"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
+Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
+
+</div>
 
 ### 최소 요구 사항
 

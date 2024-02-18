@@ -45,24 +45,29 @@ Unter Android ist Firefox immer noch weniger sicher als Chromium-basierte Altern
 
 ### Brave
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave-Logo](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** enthält einen eingebauten Inhaltsblocker und [Datenschutzfunktionen](https://brave.com/privacy-features/), von denen viele standardmäßig aktiviert sind.
-    
-    Brave basiert auf dem Chromium-Webbrowser-Projekt, sollte sich also vertraut anfühlen und nur minimale Probleme mit der Website-Kompatibilität haben.
-    
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title=Datenschutzrichtlinie }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Dokumentation }
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title=Quellcode }
-    
-    ??? downloads annotate
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+![Brave-Logo](assets/img/browsers/brave.svg){ align=right }
+
+**Brave Browser** enthält einen eingebauten Inhaltsblocker und [Datenschutzfunktionen](https://brave.com/privacy-features/), von denen viele standardmäßig aktiviert sind.
+
+Brave basiert auf dem Chromium-Webbrowser-Projekt, sollte sich also vertraut anfühlen und nur minimale Probleme mit der Website-Kompatibilität haben.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### Empfohlene Konfiguration
 
@@ -80,10 +85,14 @@ Die Optionen von Shields können je nach Bedarf für jede Website heruntergestuf
 
 <div class="annotate" markdown>
 
-- [x] Wähle **Tracker und Werbung blockieren (aggressiv)** unter **Tracker & Werbung blockieren**
+- [x] Select **Aggressive** under **Block trackers & ads**
 
-    ??? warning "Standard-Filterlisten verwenden"
-        Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite `brave://adblock`. Wir raten davon ab diese Funktion zu verwenden. Verwende stattdessen die voreingestellten Filterlisten. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab, kann die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer von dir verwendeten Listen hinzugefügt wird.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. Wir raten davon ab diese Funktion zu verwenden. Verwende stattdessen die voreingestellten Filterlisten. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab, kann die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer von dir verwendeten Listen hinzugefügt wird.
+
+</details>
 
 - [x] Wähle **Alle Verbindungen müssen HTTPS verwenden (streng)**
 - [x] (Optional) Wähle **Skripte blockieren** (1)
@@ -127,15 +136,19 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 
 ### Safari
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
-    
-    **Safari** ist der Standard-Browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
-    
-    [:octicons-home-16: Webseite](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Safari & Datenschutz" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+![Safari logo](assets/img/browsers/safari.svg){ align=right }
+
+**Safari** ist der Standard-Browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+
+[:octicons-home-16: Webseite](https://www.apple.com/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Safari & Datenschutz" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 #### Empfohlene Konfiguration
 
@@ -197,22 +210,27 @@ Wenn du iCloud mit deaktiviertem erweitertem Datenschutz verwendest, empfehlen w
 
 ### AdGuard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-    
-    **AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-    
-    AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
-    
-    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+
+**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+
+AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 Zusätzliche Filterlisten verlangsamen die Arbeit und können die Angriffsfläche vergrößern, daher solltest du nur das anwenden, was du brauchst.
 
@@ -220,9 +238,12 @@ Zusätzliche Filterlisten verlangsamen die Arbeit und können die Angriffsfläch
 
 **Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, verbunden sind.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen, sich mit dieser Liste vertraut zu machen, bevor sich für ein Projekt entschieden wird und eigene Nachforschungen anzustellen, um sicherzustellen, dass es die richtige Wahl ist.
 
-!!! example "Dieser Abschnitt ist neu"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Wir arbeiten aktuell daran, Kriterien für jeden Bereich unserer Webseite festzulegen. Dieser Abschnitt kann sich deshalb noch ändern. Bei Fragen zu unseren Kriterien, können diese [in unserem Forum] (https://discuss.privacyguides.net/latest) gestellt werden. Und gehen nicht davon aus, dass wir etwas bei unseren Empfehlungen nicht berücksichtigt haben, wenn es hier nicht aufgeführt ist. Es gibt viele Faktoren, die berücksichtigt und besprochen werden, wenn wir ein Projekt empfehlen, und die Dokumentation jedes einzelnen Faktors ist ein laufender Prozess.
+Wir arbeiten aktuell daran, Kriterien für jeden Bereich unserer Webseite festzulegen. Dieser Abschnitt kann sich deshalb noch ändern. Bei Fragen zu unseren Kriterien, können diese [in unserem Forum] (https://discuss.privacyguides.net/latest) gestellt werden. Und gehen nicht davon aus, dass wir etwas bei unseren Empfehlungen nicht berücksichtigt haben, wenn es hier nicht aufgeführt ist. Es gibt viele Faktoren, die berücksichtigt und besprochen werden, wenn wir ein Projekt empfehlen, und die Dokumentation jedes einzelnen Faktors ist ein laufender Prozess.
+
+</div>
 
 ### Mindestanforderungen
 

@@ -45,24 +45,29 @@ schema:
 
 ### Brave
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave logo](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
-    
-    Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
-    
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
-    
-    ??? downloads anotate "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
+
+**Brave Browser** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
+
+Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### 建議配置
 
@@ -80,10 +85,14 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] **阻止追蹤器和廣告**底下請選擇**積極**
+- [x] Select **Aggressive** under **Block trackers & ads**
 
-    ??? warning "使用預設過濾器列表"
-        Brave 允許您在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+
+</details>
 
 - [x] 選擇 **昇級使用 HTTPS 連接**
 - [x] 選擇 **一直使用安全連接**
@@ -128,15 +137,19 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 ### Safari
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Safari logo](assets/img/browsers/safari.svg){ align=right }
-    
-    **Safari** 是iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
-    
-    [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+![Safari logo](assets/img/browsers/safari.svg){ align=right }
+
+**Safari** 是iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+
+[:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 #### 建議配置
 
@@ -198,22 +211,27 @@ Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都
 
 ### AdGuard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-    
-    **適用於 iOS的 AdGuard** 是使用原生[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) 的Safari 免費開源內容封鎖擴展。
-    
-    iOS 版 AdGuard 有一些高級功能；然而，標準Safari 內容封鎖是免費的。
-    
-    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
+
+**適用於 iOS的 AdGuard** 是使用原生[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) 的Safari 免費開源內容封鎖擴展。
+
+iOS 版 AdGuard 有一些高級功能；然而，標準Safari 內容封鎖是免費的。
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 額外的過濾器清單會減慢速度，並可能會增加您的攻擊面，因此只應用您需要的東西。
 
@@ -221,9 +239,12 @@ Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "此部分是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">此部份新增</p>
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+
+</div>
 
 ### 最低合格要求
 

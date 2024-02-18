@@ -45,25 +45,29 @@ No Android, o Firefox continua a ser menos seguro do que as alternativas baseada
 
 ### Brave
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Logótipo Brave](assets/img/browsers/brave.svg){ align=right }
-    
-    O **Brave** inclui um bloqueador de conteúdos incorporado e [funcionalidades de privacidade] (https://brave.com/privacy-features/), muitas das quais estão ativadas por predefinição.
-    
-    Inclui [características de privacidade](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como Proteção de Rastreamento Inteligente, Relatório de Privacidade, abas isoladas de Navegação Privada, iCloud Private Relay, e atualizações automáticas de HTTPS.
-    
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Serviço Onion" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código-fonte" }
-    
-    ??? downloads anotar
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+![Logótipo Brave](assets/img/browsers/brave.svg){ align=right }
+
+O **Brave** inclui um bloqueador de conteúdos incorporado e [funcionalidades de privacidade] (https://brave.com/privacy-features/), muitas das quais estão ativadas por predefinição.
+
+Inclui [características de privacidade](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como Proteção de Rastreamento Inteligente, Relatório de Privacidade, abas isoladas de Navegação Privada, iCloud Private Relay, e atualizações automáticas de HTTPS.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### Configuração recomendada
 
@@ -83,8 +87,12 @@ As opções de proteção podem ser revogadas por cada site, de acordo com as ne
 
 - [x] Select **Aggressive** under **Block trackers & ads**
 
-    ??? aviso "Use listas de filtro por padrão"
-        O Brave permite-lhe selecionar filtros de conteúdo adicional na página interna `brave://adblock`. Aconselhamos a não utilizar esta funcionalidade; em vez disso, mantenha as listas de filtros predefinidas. A utilização de listas extra fará com que se destaque dos outros utilizadores do Brave e pode também aumentar a superfície de ataque se houver uma vulnerabilidade no Brave e uma regra maliciosa for adicionada a uma das listas que utiliza.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. Aconselhamos a não utilizar esta funcionalidade; em vez disso, mantenha as listas de filtros predefinidas. A utilização de listas extra fará com que se destaque dos outros utilizadores do Brave e pode também aumentar a superfície de ataque se houver uma vulnerabilidade no Brave e uma regra maliciosa for adicionada a uma das listas que utiliza.
+
+</details>
 
 - [x] Selecione **Atualizar as ligações para HTTPS**
 - [x] Selecione **Utilizar sempre ligações seguras**
@@ -129,16 +137,19 @@ No iOS, qualquer aplicação que possa navegar na Web está [limitada](https://d
 
 ### Safari
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Logótipo Safari](assets/img/browsers/safari.svg){ align=right }
-    
-    O **Safari** é o navegador predefinido no iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
-    
-    [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentação}
+![Logótipo Safari](assets/img/browsers/safari.svg){ align=right }
+
+O **Safari** é o navegador predefinido no iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+
+[:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidade" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentação}
+
+</details>
+
+</div>
 
 #### Configuração recomendada
 
@@ -200,22 +211,27 @@ Se utilizar o iCloud com a Proteção Avançada de Dados desativada, também rec
 
 ### AdGuard
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Logótipo do AdGuard](assets/img/browsers/adguard.svg){ align=right }
-    
-    O **AdGuard para iOS** é uma extensão de bloqueio de conteúdos gratuita e de código aberto para o Safari que utiliza a [Content Blocker API] nativa (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-    
-    O AdGuard para iOS tem algumas funcionalidades premium; no entanto, o bloqueio de conteúdos normal do Safari é gratuito.
-    
-    [:octicons-home-16: Página Inicial](https://adguard.com/pt_pt/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/pt_pt/privacy/ios.html){ .card-link title="Política de Privacidade" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentação}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Código fonte" }
-    ??? transferências
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![Logótipo do AdGuard](assets/img/browsers/adguard.svg){ align=right }
+
+O **AdGuard para iOS** é uma extensão de bloqueio de conteúdos gratuita e de código aberto para o Safari que utiliza a [Content Blocker API] nativa (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+
+O AdGuard para iOS tem algumas funcionalidades premium; no entanto, o bloqueio de conteúdos normal do Safari é gratuito.
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 As listas de filtros adicionais tornam as coisas mais lentas e podem aumentar a sua superfície de ataque, por isso aplique apenas o necessário.
 
@@ -223,11 +239,14 @@ As listas de filtros adicionais tornam as coisas mais lentas e podem aumentar a 
 
 **Por favor, note que não somos afiliados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrões](about/criteria.md), desenvolvemos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por utilizar um projeto e que faça a sua própria investigação para garantir que é a escolha certa para si.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
+
+**PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+
+</div>
 
 ### Requisitos Mínimos
 

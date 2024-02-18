@@ -45,24 +45,29 @@ schema:
 
 ### Brave
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave לוגו](assets/img/browsers/brave.svg){ align=right }
-    
-    **דפדפן Brave** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
-    
-    Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור להרגיש מוכר ושיהיו לו בעיות תאימות מינימליות לאתר.
-    
-    [:octicons-home-16: דף הבית](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="שירות בצל" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="קוד פתוח" }
-    
-    ??? downloads annotate "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+![Brave לוגו](assets/img/browsers/brave.svg){ align=right }
+
+**דפדפן Brave** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
+
+Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור להרגיש מוכר ושיהיו לו בעיות תאימות מינימליות לאתר.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### תצורה מומלצת
 
@@ -80,10 +85,14 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 <div class="annotate" markdown>
 
-- [x] בחר ** אגרסיבי ** תחת ** עוקבי חסימות ומודעות **
+- [x] Select **Aggressive** under **Block trackers & ads**
 
-     ??? warning "השתמש ברשימות סינון ברירת מחדל"
-         Brave מאפשר לך לבחור מסנני תוכן נוספים בדף הפנימי `brave://adblock`. אנו ממליצים לא להשתמש בתכונה זו; במקום זאת, שמור על רשימות הסינון המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשי Brave אחרים ועלול גם להגדיל את שטח ההתקפה אם יש ניצול ב-Brave וכלל זדוני יתווסף לאחת הרשימות שבהן אתה משתמש.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. אנו ממליצים לא להשתמש בתכונה זו; במקום זאת, שמור על רשימות הסינון המוגדרות כברירת מחדל. שימוש ברשימות נוספות יגרום לך להתבלט ממשתמשי Brave אחרים ועלול גם להגדיל את שטח ההתקפה אם יש ניצול ב-Brave וכלל זדוני יתווסף לאחת הרשימות שבהן אתה משתמש.
+
+</details>
 
 - [x] בחר **שדרג חיבורים ל- HTTPS**
 - [x] בחר**השתמש תמיד בחיבורים מאובטחים**
@@ -128,15 +137,19 @@ Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shie
 
 ### Safari
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Safari לוגו](assets/img/browsers/safari.svg){ align=right }
-    
-    **Safari** הוא דפדפן ברירת המחדל ב - iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
-    
-    [:octicons-home-16: דף הבית](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=תיעוד}
+![Safari לוגו](assets/img/browsers/safari.svg){ align=right }
+
+**Safari** הוא דפדפן ברירת המחדל ב - iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+
+[:octicons-home-16: דף הבית](https://www.apple.com/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="מדיניות פרטיות" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 #### תצורה מומלצת
 
@@ -198,22 +211,27 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 ### AdGuard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard לוגו](assets/img/browsers/adguard.svg){ align=right }
-    
-    **AdGuard for iOS** הוא תוסף חסימת תוכן בקוד פתוח בחינם עבור Safari המשתמש ב-[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-    
-    ל-AdGuard for iOS יש כמה תכונות פרימיום; עם זאת, חסימת תוכן ספארי רגילה אינה כרוכה בתשלום.
-    
-    [:octicons-home-16: דף הבית](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![AdGuard לוגו](assets/img/browsers/adguard.svg){ align=right }
+
+**AdGuard for iOS** הוא תוסף חסימת תוכן בקוד פתוח בחינם עבור Safari המשתמש ב-[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+
+ל-AdGuard for iOS יש כמה תכונות פרימיום; עם זאת, חסימת תוכן ספארי רגילה אינה כרוכה בתשלום.
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 רשימות פילטרים נוספות מאטות את הקצב ועשויות להגדיל את משטח ההתקפה שלך, אז יש ליישם רק את מה שאתה צריך.
 
@@ -221,9 +239,12 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 ### דרישות מינימליות
 

@@ -45,24 +45,29 @@ Op Android is Firefox nog steeds minder veilig dan op Chromium gebaseerde altern
 
 ### Brave
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Brave-logo](assets/img/browsers/brave.svg){ align=right }
-    
-    **Brave Browser** bevat een ingebouwde inhoudsblokker en [privacyfuncties](https://brave.com/privacy-features/), waarvan vele standaard zijn ingeschakeld.
-    
-    Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moeten aanvoelen en minimale website compatibiliteitsproblemen moeten hebben.
-    
-    [:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
-    [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }.
-    [:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Broncode" }
-    
-    ??? downloads annoteren "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-        - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+![Brave-logo](assets/img/browsers/brave.svg){ align=right }
+
+**Brave Browser** bevat een ingebouwde inhoudsblokker en [privacyfuncties](https://brave.com/privacy-features/), waarvan vele standaard zijn ingeschakeld.
+
+Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moeten aanvoelen en minimale website compatibiliteitsproblemen moeten hebben.
+
+[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+
+</details>
+
+</div>
 
 #### Aanbevolen configuratie
 
@@ -82,8 +87,12 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 - [x] Select **Aggressive** under **Block trackers & ads**
 
-    ??? warning "Gebruik standaard filter lijsten"
-        Brave staat je toe om extra inhoud filters te selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
+<details class="warning" markdown>
+<summary>Use default filter lists</summary>
+
+Brave allows you to select additional content filters within the internal `brave://adblock` page. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
+
+</details>
 
 - [x] Selecteer **Verbeter verbindingen naar HTTPS**
 - [x] Selecteer **Gebruik altijd beveiligde verbindingen**
@@ -128,15 +137,19 @@ Op iOS is elke app die op het web kan surfen beperkt tot [](https://developer.ap
 
 ### Safari
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Safari-logo](assets/img/browsers/safari.svg){ align=right }
-    
-    **Safari** is de standaardbrowser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
-    
-    [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentatie}
+![Safari-logo](assets/img/browsers/safari.svg){ align=right }
+
+**Safari** is de standaardbrowser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+
+[:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentatie}
+
+</details>
+
+</div>
 
 #### Aanbevolen configuratie
 
@@ -198,22 +211,27 @@ Als je iCloud gebruikt terwijl Geavanceerde gegevensbescherming is uitgeschakeld
 
 ### AdGuard
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard-logo](assets/img/browsers/adguard.svg){ align=right }
-    
-    **AdGuard voor iOS** is een gratis en open-source uitbreiding voor het blokkeren van inhoud voor Safari die gebruikmaakt van de eigen [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-    
-    AdGuard voor iOS heeft enkele premium functies, maar standaard Safari-inhoud blokkeren is gratis.
-    
-    [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Broncode" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+![AdGuard-logo](assets/img/browsers/adguard.svg){ align=right }
+
+**AdGuard voor iOS** is een gratis en open-source uitbreiding voor het blokkeren van inhoud voor Safari die gebruikmaakt van de eigen [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+
+AdGuard voor iOS heeft enkele premium functies, maar standaard Safari-inhoud blokkeren is gratis.
+
+[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+
+</details>
+
+</div>
 
 Extra filterlijsten kunnen de prestaties beïnvloeden en het aanvalsoppervlak vergroten, dus gebruik alleen wat je nodig hebt.
 
@@ -221,9 +239,12 @@ Extra filterlijsten kunnen de prestaties beïnvloeden en het aanvalsoppervlak ve
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
-!!! example "Deze sectie is nieuw"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+
+</div>
 
 ### Minimale vereisten
 
