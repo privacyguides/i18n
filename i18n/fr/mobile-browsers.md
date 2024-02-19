@@ -60,7 +60,7 @@ Brave est basé sur le projet de navigateur Web Chromium. Il devrait donc vous �
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -85,7 +85,7 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under **Block trackers & ads**
+- [x] Sélectionnez **Agressif** dans **Bloquer les traqueurs et les publicités**
 
 <details class="warning" markdown>
 <summary>Utiliser les listes de filtres par défaut</summary>
