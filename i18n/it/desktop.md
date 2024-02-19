@@ -15,9 +15,9 @@ Le distribuzioni di Linux sono comunemente consigliate per la protezione della p
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Logo Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** is our recommended distribution for people new to Linux. Generalmente, Fedora, adotta le tecnologie più recenti prima delle altre distribuzioni, ad esempio, [Wayland](https://wayland.freedesktop.org/) e [PipeWire](https://pipewire.org). Queste, spesso, comportano miglioramenti alla sicurezza, privacy e utilizzabilità, in generale.
+**Fedora Workstation** è la nostra distribuzione consigliata per chi si avvicina per la prima volta a Linux. Generalmente, Fedora, adotta le tecnologie più recenti prima delle altre distribuzioni, ad esempio, [Wayland](https://wayland.freedesktop.org/) e [PipeWire](https://pipewire.org). Queste, spesso, comportano miglioramenti alla sicurezza, privacy e utilizzabilità, in generale.
 
 [:octicons-home-16: Home](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentazione}
@@ -71,26 +71,26 @@ Essendo una distribuzione fai da te, [dovresti configurare e mantenere](#arch-ba
 
 Gran parte dei [pacchetti di Arch Linux](https://reproducible.archlinux.org) sono [riproducibili](https://reproducible-builds.org).
 
-## Atomic Distributions
+## Distribuzioni atomiche
 
-**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. This has advantages including increased stability and the ability to easily rollback updates. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
+**Le distribuzioni atomiche** (talvolta indicate anche come **distribuzioni immutabili**) sono sistemi operativi che gestiscono l'installazione e gli aggiornamenti dei pacchetti stratificando le modifiche sull'immagine del sistema centrale, piuttosto che modificando direttamente il sistema. Questo comporta dei vantaggi, tra cui una maggiore stabilità e la possibilità di eseguire facilmente il rollback degli aggiornamenti. Per ulteriori informazioni, dai uno sguardo a [*Aggiornamenti tradizionali vs. Atomici*](os/linux-overview.md#traditional-vs-atomic-updates).
 
 ### Fedora Atomic Desktops
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Logo Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. Tutte queste varianti seguono lo stesso programma di rilascio di Fedora Workstation, beneficiando degli stessi aggiornamenti veloci e restando molto vicine alla versione a monte.
+I **Fedora Atomic Desktops** sono varianti di Fedora che utilizzano il gestore di pacchetti `rpm-ostree` e sono fortemente incentrati sui flussi di lavoro containerizzati e su Flatpak per le applicazioni desktop. Tutte queste varianti seguono lo stesso programma di rilascio di Fedora Workstation, beneficiando degli stessi aggiornamenti veloci e restando molto vicine alla versione a monte.
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
-[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuisci }
 
 </details>
 
 </div>
 
-The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org/)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. However, we don't recommend the last of these as the Budgie desktop environment [still requires X11](https://buddiesofbudgie.org/blog/wayland).
+I [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) sono disponibili in diverse versioni a seconda dell'ambiente desktop preferito, come **Fedora Silverblue** (che viene fornito con [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (che viene fornito con [KDE](https://kde.org/)), **Fedora Sway Atomic**, o **Fedora Budgie Atomic**. Tuttavia, non consigliamo quest'ultimo come ambiente desktop Budgie [richiede ancora X11](https://buddiesofbudgie.org/blog/wayland).
 
 These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
 

@@ -42,12 +42,12 @@ ffsend upload --host https://send.vis.ee/ FILE
 **OnionShare** è uno strumento open source che consente di condividere in modo sicuro e anonimo file di qualsiasi dimensione. Funziona avviando un server web accessibile come servizio Tor onion, con un URL inesplicabile che si può condividere con i destinatari per scaricare o inviare file.
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Servizio Onion" }
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -100,13 +100,13 @@ Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro si
 **Nextcloud** è una suite di software gratuiti e open source dal client al server per la creazione di servizi hosting dei file su un server privato controllato dall'utente.
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -135,12 +135,12 @@ Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_e
 **Syncthing** è un'utility open source tra peer di sincronizzazione continua dei file. Viene utilizzata per sincronizzare i file tra due o più dispositivi sulla rete locale o su Internet. Syncthing non utilizza un server centralizzato; utilizza il [Protocollo di Scambio dei Blocchi](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) per trasferire i dati tra dispositivi. Tutti i dati sono crittografati utilizzando TLS.
 
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
 - [:simple-windows11: Windows](https://syncthing.net/downloads/)

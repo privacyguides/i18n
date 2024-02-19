@@ -455,7 +455,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Distribuzione Xen VM)](desktop.md#qubes-os)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
 - ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
 - ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)

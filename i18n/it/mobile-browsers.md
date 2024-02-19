@@ -60,7 +60,7 @@ Brave si basa sul progetto del browser web di Chromium, quindi, dovrebbe sembrar
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -85,7 +85,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under **Block trackers & ads**
+- [x] Seleziona **Aggressivo** sotto **Blocca tracker e annunci**
 
 <details class="warning" markdown>
 <summary>Utilizza gli elenchi di filtri predefiniti</summary>
@@ -220,12 +220,12 @@ Se utilizzi iCloud con la Protezione Avanzata dei Dati disabilitata, consigliamo
 AdGuard per iOS presenta delle funzionalità premium; tuttavia, il blocco di contenuti standard di Safari è gratuito.
 
 [:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 
