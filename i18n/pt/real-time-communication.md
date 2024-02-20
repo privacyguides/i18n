@@ -20,9 +20,7 @@ Estas aplicações de mensagens são ótimas para proteger as suas comunicaçõe
 
 ![Logótipo Signal](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** é uma aplicação para dispositivos móveis desenvolvida pela Signal Messenger LLC. A aplicação permite o envio de mensagens instantâneas, bem como chamadas de voz e vídeo.
-
-Todas as comunicações são E2EE. As listas de contactos são encriptadas utilizando o PIN do Signal e o servidor não tem acesso a elas. Os perfis pessoais também são encriptados e apenas são partilhados com os contactos com quem conversa.
+**Signal** é uma aplicação para dispositivos móveis desenvolvida pela Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
 [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -44,7 +42,18 @@ Todas as comunicações são E2EE. As listas de contactos são encriptadas utili
 
 </div>
 
-O Signal suporta [grupos privados](https://signal.org/blog/signal-private-group-system/). O servidor não tem qualquer registo dos grupos a que pertence, títulos de grupo, avatares de grupo ou atributos de grupo. O Signal tem metadados mínimos quando se ativa o[Sealed Sender](https://signal.org/blog/sealed-sender/). O endereço do remetente é encriptado juntamente com o corpo da mensagem e apenas o endereço do destinatário é visível para o servidor. O Sealed Sender só está ativado para as pessoas da sua lista de contactos, mas pode ser ativado para todos os destinatários, com o risco acrescido de poder receber spam. O Signal requer o seu número de telefone como identificador pessoal.
+Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+
+1. In Signal, open the app's settings and tap your account profile at the top.
+2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
+3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
+4. Go back to the main app settings page and select **Privacy**.
+5. Select **Phone Number**
+6. Change the **Who Can See My Number** setting to: **Nobody**
+
+You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
+
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Os perfis pessoais também são encriptados e apenas são partilhados com os contactos com quem conversa. Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. O Signal tem metadados mínimos quando se ativa o[Sealed Sender](https://signal.org/blog/sealed-sender/). O endereço do remetente é encriptado juntamente com o corpo da mensagem e apenas o endereço do destinatário é visível para o servidor. O Sealed Sender só está ativado para as pessoas da sua lista de contactos, mas pode ser ativado para todos os destinatários, com o risco acrescido de poder receber spam.
 
 O protocolo foi objeto de uma [auditoria](https://eprint.iacr.org/2016/1013.pdf) independente em 2016. A especificação do protocolo Signal pode ser encontrada na sua [documentação](https://signal.org/docs/).
 
@@ -115,14 +124,14 @@ O software cliente foi [auditado de forma independente](https://briarproject.org
 
 O Briar publicou na íntegra a sua [especificação](https://code.briarproject.org/briar/briar-spec).
 
-O Briar suporta Forward Secrecy, através do Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) e do [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
+Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## Opções adicionais
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Estas aplicações de mensagens instantâneas não têm [Forward Secrecy] (https://en.wikipedia.org/wiki/Forward_secrecy) e, embora satisfaçam certas necessidades que as nossas recomendações anteriores não podem satisfazer, não os recomendamos para comunicações de longo prazo ou sensíveis. Qualquer comprometimento da chave entre os destinatários da mensagem afetará a confidencialidade de **todas** as comunicações anteriores.
+These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Qualquer comprometimento da chave entre os destinatários da mensagem afetará a confidencialidade de **todas** as comunicações anteriores.
 
 </div>
 
@@ -160,7 +169,7 @@ As imagens de perfil, as reações e os nicknames não são encriptados.
 
 As chamadas de voz e vídeo em grupo [não são](https://github.com/vector-im/element-web/issues/12878) E2EE e utilizam Jitsi, mas espera-se que esta situação se altere com o [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Atualmente, as chamadas de grupo [não têm autenticação](https://github.com/vector-im/element-web/issues/13074), o que significa que os participantes que não estão na sala também podem juntar-se às chamadas. Recomendamos que não utilize esta funcionalidade para reuniões privadas.
 
-O próprio protocolo Matrix [suporta teoricamente o PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), no entanto, este [não é atualmente suportado no Element](https://github.com/vector-im/element-web/issues/7101) devido aos problemas que provoca em alguns aspetos da experiência do utilizador, como as cópias de segurança de chaves e o histórico de mensagens partilhadas.
+The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
 O protocolo foi objeto de uma [auditoria independente](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) em 2016. A especificação do protocolo Matrix pode ser encontrada na sua [documentação](https://spec.matrix.org/latest/). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
@@ -195,11 +204,11 @@ O Session utiliza a rede descentralizada [Oxen Service Node Network] (https://ox
 
 O Session permite E2EE em conversas individuais ou em grupos fechados com um máximo de 100 membros. Os grupos abertos não têm restrições quanto ao número de membros, mas são abertos por definição.
 
-O Session [não](https://getsession.org/blog/session-protocol-technical-information) suporta PFS, que é quando um sistema de encriptação altera automática e frequentemente as chaves que utiliza para encriptar e desencriptar informações, de modo a que, se a chave mais recente for comprometida, exponha uma parte reduzida de informações sensíveis.
+Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-A Oxen solicitou uma auditoria independente para o Session, em março de 2020. Em abril de 2021, a auditoria [concluiu](https://getsession.org/session-code-audit): "O nível geral de segurança desta aplicação é bom e torna-a utilizável por pessoas preocupadas com a privacidade."
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
 
-O Session tem um [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) que descreve os aspetos técnicos da aplicação e do protocolo.
+Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## Critérios
 
@@ -212,17 +221,22 @@ Estamos a trabalhar no sentido de estabelecer critérios para cada secção do n
 
 </div>
 
-- Deve ter clientes de código aberto.
-- Deve utilizar o E2EE para mensagens privadas por defeito.
-- Deve suportar E2EE para todas as mensagens.
-- Deve ter sido objeto de uma auditoria independente.
+- Has open-source clients.
+- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
+- Uses E2EE for private messages by default.
+- Supports E2EE for all messages.
+- Has been independently audited.
 
 ### Melhor caso
 
 Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
-- Deve ter o Forward Secrecy.
-- Deve ter servidores de código aberto.
-- Deve ser descentralizado, ou seja, federado ou P2P.
-- Deve utilizar o E2EE para todas as mensagens por defeito.
-- Deve ser compatível com Linux, macOS, Windows, Android e iOS.
+- Supports Forward Secrecy[^1]
+- Supports Future Secrecy (Post-Compromise Security)[^2]
+- Has open-source servers.
+- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Uses E2EE for all messages by default.
+- Supports Linux, macOS, Windows, Android, and iOS.
+
+[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
+[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.

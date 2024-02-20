@@ -20,9 +20,7 @@ cover: real-time-communication.webp
 
 ![Signal לוגו](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** היא אפליקציה לנייד שפותחה על ידי סיגנל מסנג'ר LLC. האפליקציה מספקת הודעות מיידיות, כמו גם שיחות קוליות ושיחות וידאו.
-
-כל התקשורת היא E2EE. רשימות אנשי קשר מוצפנות באמצעות קוד ה - PIN שלך ולשרת אין גישה אליהן. גם פרופילים אישיים מוצפנים ומשותפים רק עם אנשי קשר שאיתם אתה משוחח בצ'אט.
+**Signal** היא אפליקציה לנייד שפותחה על ידי סיגנל מסנג'ר LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
 [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -44,7 +42,18 @@ cover: real-time-communication.webp
 
 </div>
 
-Signal תומך ב[קבוצות פרטיות](https://signal.org/blog/signal-private-group-system/). לשרת אין תיעוד של חברות בקבוצה, כותרות קבוצות, אווטרים של קבוצות או תכונות קבוצה. לSignal יש מטא נתונים מינימליים כאשר [שולח חתום](https://signal.org/blog/sealed-sender/) מופעל. כתובת השולח מוצפנת יחד עם גוף ההודעה, ורק כתובת הנמען גלויה לשרת. 'שולח אטום' זמין רק עבור אנשים ברשימת אנשי הקשר שלך, אך ניתן להפוך אותו לזמין עבור כל הנמענים עם סיכון מוגבר לקבלת דואר זבל. סיגנל דורש את מספר הטלפון שלך כמזהה אישי.
+Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+
+1. In Signal, open the app's settings and tap your account profile at the top.
+2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
+3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
+4. Go back to the main app settings page and select **Privacy**.
+5. Select **Phone Number**
+6. Change the **Who Can See My Number** setting to: **Nobody**
+
+You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
+
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. גם פרופילים אישיים מוצפנים ומשותפים רק עם אנשי קשר שאיתם אתה משוחח בצ'אט. Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. לSignal יש מטא נתונים מינימליים כאשר [שולח חתום](https://signal.org/blog/sealed-sender/) מופעל. כתובת השולח מוצפנת יחד עם גוף ההודעה, ורק כתובת הנמען גלויה לשרת. 'שולח אטום' זמין רק עבור אנשים ברשימת אנשי הקשר שלך, אך ניתן להפוך אותו לזמין עבור כל הנמענים עם סיכון מוגבר לקבלת דואר זבל.
 
 הפרוטוקול היה מבוקר [באופן עצמאי](https://eprint.iacr.org/2016/1013.pdf) בשנת 2016. ניתן למצוא את המפרט של פרוטוקול סיגנל בתיעוד [](https://signal.org/docs/)שלהם.
 
@@ -115,14 +124,14 @@ SimpleX Chat תומך בפונקציונליות בסיסית של צ'אט קב�
 
 ל Briar יש מפרט ש[פורסם במלואו](https://code.briarproject.org/briar/briar-spec).
 
-Briar תומך ב-Forward Secrecy באמצעות תומך ב-Forward Secrecy באמצעות [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) ו- [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## אפשרויות נוספות
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-למסנג'רים האלה אין [סודיות קדימה](https://en.wikipedia.org/wiki/Forward_secrecy), ולמרות שהם ממלאים צרכים מסוימים שהמלצות קודמות שלנו אולי לא, איננו ממליצים עליהם לתקשורת ארוכת טווח או רגישה. כל פשרה מרכזית בין מקבלי ההודעות תשפיע על הסודיות של **כל** התקשורת העבר.
+These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. כל פשרה מרכזית בין מקבלי ההודעות תשפיע על הסודיות של **כל** התקשורת העבר.
 
 </div>
 
@@ -160,7 +169,7 @@ Briar תומך ב-Forward Secrecy באמצעות תומך ב-Forward Secrecy ב�
 
 שיחות קוליות ושיחות וידאו קבוצתיות [אינן](https://github.com/vector-im/element-web/issues/12878) E2EE, ומשתמשות ב- Jitsi, אך זה צפוי להשתנות עם[ איתות VoIP קבוצתי מקורי](https://github.com/matrix-org/matrix-doc/pull/3401). שיחות קבוצתיות כוללות [שיחות ללא אימות](https://github.com/vector-im/element-web/issues/13074) כרגע, כלומר, כל משתתפים יכולים גם להצטרף לשיחות. אנו ממליצים שלא להשתמש בתכונה זו לפגישות פרטיות.
 
-פרוטוקול Matrix עצמו [תומך תיאורטית ב-PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), עם זאת, זה [לא נתמך כרגע ב-Element](https://github.com/vector-im/element-web/issues/7101) בגלל שהוא שובר היבטים מסוימים של חוויית המשתמש, כגון גיבויי מפתח והיסטוריית הודעות משותפת.
+The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
 הפרוטוקול היה מבוקר [באופן עצמאי](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) בשנת 2016. את המפרט לפרוטוקול מטריקס ניתן למצוא [בתיעוד שלהם](https://spec.matrix.org/latest/). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
@@ -195,11 +204,11 @@ Session משתמש ב-[Oxen Service Node Network](https://oxen.io/) המבוזר
 
 Session מאפשרת E2EE בצ'אטים אחד על אחד או קבוצות סגורות המאפשרות עד 100 חברים. לקבוצות פתוחות אין הגבלה על מספר החברים, אך הן פתוחות על פי עיצוב.
 
-Session [לא](https://getsession.org/blog/session-protocol-technical-information) תומך ב-PFS, כלומר כאשר מערכת הצפנה משנה באופן אוטומטי ותדיר את המפתחות שבה היא משתמשת להצפנה ולפענח מידע, כך שאם המפתח האחרון נפגע הוא חושף חלק קטן יותר של מידע רגיש.
+Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-Oxen ביקשה ביקורת בלתי תלויה למפגש במרץ 2020. הביקורת [הסתיימה](https://getsession.org/session-code-audit) באפריל 2021, "רמת האבטחה הכללית של האפליקציה הזו טובה והופכת אותה לשמישה לפרטיות אנשים."
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
 
-להפעלה יש [נייר לבן](https://arxiv.org/pdf/2002.04609.pdf) המתאר את התכונות הטכניות של האפליקציה והפרוטוקול.
+Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## קריטריונים
 
@@ -212,17 +221,22 @@ Oxen ביקשה ביקורת בלתי תלויה למפגש במרץ 2020. הב�
 
 </div>
 
-- חייבים להיות לקוחות קוד פתוח.
-- חייב להשתמש ב- E2EE עבור הודעות פרטיות כברירת מחדל.
-- חייב לתמוך ב- E2EE עבור כל ההודעות.
-- חייב להיות נבדק באופן עצמאי.
+- Has open-source clients.
+- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
+- Uses E2EE for private messages by default.
+- Supports E2EE for all messages.
+- Has been independently audited.
 
 ### המקרה הטוב ביותר
 
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
-- צריך להיות Forward Secrecy.
-- צריכים להיות שרתי קוד פתוח.
-- צריך להיות מבוזר, כלומר מאוחד או P2P.
-- אמור להשתמש ב- E2EE עבור כל ההודעות כברירת מחדל.
-- צריך לתמוך בלינוקס, macOS, ווינדוס, אנדרואיד ו-iOS.
+- Supports Forward Secrecy[^1]
+- Supports Future Secrecy (Post-Compromise Security)[^2]
+- Has open-source servers.
+- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Uses E2EE for all messages by default.
+- Supports Linux, macOS, Windows, Android, and iOS.
+
+[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
+[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.

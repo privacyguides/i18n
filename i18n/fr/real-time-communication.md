@@ -20,15 +20,13 @@ Ces messageries sont idéales pour sécuriser vos communications sensibles.
 
 ![Logo de Signal](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** est une application mobile développée par Signal Messenger LLC. L'application offre une messagerie instantanée, ainsi que des appels vocaux et vidéo.
+**Signal** est une application mobile développée par Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
-Toutes les communications sont E2EE. Les listes de contacts sont chiffrées à l'aide de votre code PIN de connexion et le serveur n'y a pas accès. Les profils personnels sont également chiffrés et ne sont partagés qu'avec les contacts qui vous ajoutent.
-
-[:octicons-home-16: Page d'accueil](https://signal.org/fr/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://support.signal.org/hc/fr){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Code source" }
-[:octicons-heart-16:](https://signal.org/fr/donate/){ .card-link title=Contribuer }
+[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -44,7 +42,18 @@ Toutes les communications sont E2EE. Les listes de contacts sont chiffrées à l
 
 </div>
 
-Signal prend en charge les [groupes privés](https://signal.org/blog/signal-private-group-system/). Le serveur n'a aucune trace de votre appartenance à un groupe, de vos titres de groupe, de vos avatars de groupe ou de vos attributs de groupe. Signal expose un minimum de métadonnées lorsque l'option [Expéditeur Scellé](https://signal.org/blog/sealed-sender/) est activée. L'adresse de l'expéditeur est chiffrée avec le corps du message, et seule l'adresse du destinataire est visible par le serveur. Expéditeur Scellé est uniquement activé pour les personnes de votre liste de contacts, mais peut être activé pour tous les destinataires avec le risque accru de recevoir du spam. Signal requiert votre numéro de téléphone comme identifiant personnel.
+Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+
+1. In Signal, open the app's settings and tap your account profile at the top.
+2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
+3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
+4. Go back to the main app settings page and select **Privacy**.
+5. Select **Phone Number**
+6. Change the **Who Can See My Number** setting to: **Nobody**
+
+You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
+
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Les profils personnels sont également chiffrés et ne sont partagés qu'avec les contacts qui vous ajoutent. Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal expose un minimum de métadonnées lorsque l'option [Expéditeur Scellé](https://signal.org/blog/sealed-sender/) est activée. L'adresse de l'expéditeur est chiffrée avec le corps du message, et seule l'adresse du destinataire est visible par le serveur. Expéditeur Scellé est uniquement activé pour les personnes de votre liste de contacts, mais peut être activé pour tous les destinataires avec le risque accru de recevoir du spam.
 
 Le protocole a fait l'objet d'un [audit](https://eprint.iacr.org/2016/1013.pdf) indépendant en 2016. La spécification du protocole Signal se trouve dans leur [documentation](https://signal.org/docs/).
 
@@ -115,14 +124,14 @@ Le logiciel client a été indépendamment [audité](https://briarproject.org/ne
 
 Briar a un [cahier des charges](https://code.briarproject.org/briar/briar-spec) entièrement publié.
 
-Briar prend en charge la confidentialité persistante en utilisant le protocole de [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) et de [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) Bramble.
+Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## Autres options
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-Ces messageries instantanées ne disposent pas de la [confidentialité persistante](https://fr.wikipedia.org/wiki/Confidentialit%C3%A9_persistante) et, bien qu'ils répondent à certains cas d'utilisation que nos recommandations précédentes ne permettent pas, nous ne les recommandons pas pour les communications sensibles ou long terme. Toute compromission de la clé parmi les destinataires du message affecterait la confidentialité de **toutes** les communications passées.
+These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Toute compromission de la clé parmi les destinataires du message affecterait la confidentialité de **toutes** les communications passées.
 
 </div>
 
@@ -160,7 +169,7 @@ Les photos de profil, les réactions et les surnoms ne sont pas chiffrés.
 
 Les appels vocaux et vidéo de groupe ne sont [pas](https://github.com/vector-im/element-web/issues/12878) E2EE, et utilisent Jitsi, mais cela devrait changer avec [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Les appels de groupe n'ont [pas d'authentification](https://github.com/vector-im/element-web/issues/13074) actuellement, ce qui signifie que les participants ne faisant pas partie de la salle peuvent également se joindre aux appels. Nous vous recommandons de ne pas utiliser cette fonctionnalité pour les réunions privées.
 
-Le protocole Matrix lui-même [prend théoriquement en charge la PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), mais ce [n'est pas actuellement pris en charge par Element](https://github.com/vector-im/element-web/issues/7101) car elle rompt certains aspects de l'expérience utilisateur tels que la sauvegarde des clés et l'historique des messages partagés.
+The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
 Le protocole a fait l'objet d'un [audit](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) indépendant en 2016. La spécification du protocole Matrix se trouve dans leur [documentation](https://spec.matrix.org/latest/). Le [cliquet cryptographique Olm](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) utilisé par Matrix est une implémentation de l'[algorithme à double cliquet](https://signal.org/docs/specifications/doubleratchet/) de Signal.
 
@@ -195,11 +204,11 @@ Session utilise le réseau décentralisé [Oxen Service Node Network](https://ox
 
 Session permet l'E2EE dans les chats individuels ou des groupes fermés pouvant compter jusqu'à 100 membres. Les groupes ouverts n'ont aucune restriction sur le nombre de membres, mais sont ouverts par conception.
 
-Session ne prend [pas](https://getsession.org/blog/session-protocol-technical-information) en charge PFS, c'est-à-dire lorsqu'un système de chiffrement change automatiquement et fréquemment les clés qu'il utilise pour chiffrer et déchiffrer des informations, de sorte que si la dernière clé est compromise, elle expose une plus petite partie des informations sensibles.
+Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-Oxen a demandé un audit indépendant pour Session en mars 2020. L'audit [s'est conclu](https://getsession.org/session-code-audit) en Avril 2021 : "Le niveau de sécurité global de cette application est bon et la rend utilisable pour les personnes soucieuses de la protection de leur vie privée."
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
 
-Session a un [livre blanc](https://arxiv.org/pdf/2002.04609.pdf) décrivant les spécifications techniques de l'application et du protocole.
+Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## Critères
 
@@ -212,17 +221,22 @@ Nous travaillons à l'établissement de critères définis pour chaque section d
 
 </div>
 
-- Doit avoir des clients open-source.
-- Doit utiliser E2EE pour les messages privés par défaut.
-- Doit supporter E2EE pour tous les messages.
-- Doit avoir fait l'objet d'un audit indépendant.
+- Has open-source clients.
+- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
+- Uses E2EE for private messages by default.
+- Supports E2EE for all messages.
+- Has been independently audited.
 
 ### Dans le meilleur des cas
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Devrait prendre en charge la confidentialité persistante.
-- Devrait avoir des serveurs open-source.
-- Devrait être décentralisé, c'est-à-dire fédéré ou P2P.
-- Devrait utiliser E2EE pour tous les messages par défaut.
-- Devrait prendre en charge Linux, macOS, Windows, Android et iOS.
+- Supports Forward Secrecy[^1]
+- Supports Future Secrecy (Post-Compromise Security)[^2]
+- Has open-source servers.
+- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Uses E2EE for all messages by default.
+- Supports Linux, macOS, Windows, Android, and iOS.
+
+[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
+[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.

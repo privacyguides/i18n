@@ -20,9 +20,7 @@ cover: real-time-communication.webp
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** 是由Signal Messenger LLC開發的行動應用程式。 該應用程式提供即時消息，以及語音和視頻通話。
-
-所有通信都是E2EE。 連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。
+**Signal** 是由Signal Messenger LLC開發的行動應用程式。 The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
 [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -44,7 +42,18 @@ cover: real-time-communication.webp
 
 </div>
 
-Signal支持 [私人羣組](https://signal.org/blog/signal-private-group-system/)。 伺服器不會記錄羣組成員資格、羣組標題、羣組頭像或羣組屬性。 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender/) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。 Signal 需要您的電話號碼作為個人識別碼。
+Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+
+1. In Signal, open the app's settings and tap your account profile at the top.
+2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
+3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
+4. Go back to the main app settings page and select **Privacy**.
+5. Select **Phone Number**
+6. Change the **Who Can See My Number** setting to: **Nobody**
+
+You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
+
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender/) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
 
 其協議在2016年獨立進行了 [審計](https://eprint.iacr.org/2016/1013.pdf) 。 Signal 協議的規範可以在他們的 [文檔](https://signal.org/docs/)中找到。
 
@@ -115,14 +124,14 @@ Briar 要新增聯絡人，必須先彼此互加。 您可以交換 `briar://` �
 
 Briar有一個完整 [發布的規範](https://code.briarproject.org/briar/briar-spec)。
 
-Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 與 [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) 協議來支援向前保密機制。
+Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## 額外選項
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-這些通訊軟體無 [向前保密](https://en.wikipedia.org/wiki/Forward_secrecy) 雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
+These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
 
 </div>
 
@@ -160,12 +169,9 @@ Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/
 
 羣組語音和視視通話 [則不是](https://github.com/vector-im/element-web/issues/12878) E2EE ，而是使用Jitsi ，但預計將隨著 [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401)而發生變化。 群組通目前 [沒有驗證](https://github.com/vector-im/element-web/issues/13074) ，因此其它人員也可以加入。 我們建議您不要將此功能用於私人會議。
 
-Matrix 協議本身 [理論上支援 PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)，但目前Element </a> 不支援 PFS
-，因為它破壞一些使用者體驗，例如密鑰備份和共享訊息歷史記錄。</p> 
+The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
 其協議在 2016年獨立進行了 [審計](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) 。 Matrix 協議的規範可以在他們的 [文檔](https://spec.matrix.org/latest/)中找到。 Matrix 使用的 [Olm 加密棘輪](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/)是執行Signal [Double Ratchet 演算法](https://signal.org/docs/specifications/doubleratchet/)。
-
-
 
 ### Session
 
@@ -198,13 +204,11 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 
 會話允許E2EE在一對一聊天或封閉羣組中，最多可容納100名成員。 開放羣組對成員數量沒有限制，從設計上來說是開放的。
 
-Session [不](https://getsession.org/blog/session-protocol-technical-information)支援 PFS, PFS 加密系統會自動經常變更密鑰，假如最新密鑰被破壞也只洩漏一小部份敏感資訊。 
+Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-2020年3月Oxen 對 Session 進行獨立審計。 審計 [在2021年4月完成](https://getsession.org/session-code-audit) ， “此應用程式整體安全級別良好，可供關注隱私的人使用。
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
 
-Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程式和協議的技術。
-
-
+Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## 標準
 
@@ -217,19 +221,22 @@ Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程�
 
 </div>
 
-- 一定要有開源客戶端。
-- 預設情況下，私人訊息必須使用E2EE。
-- 必須支援所有訊息都可 E2EE。
-- 必須通過獨立審計。
-
-
+- Has open-source clients.
+- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
+- Uses E2EE for private messages by default.
+- Supports E2EE for all messages.
+- Has been independently audited.
 
 ### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- 應有向前保密功能。
-- 應該有開源伺服器。
-- 應該是分散的，即聯邦式或 P2P。
-- 預設情況下，所有訊息皆應使用 E2EE。
-- 應支持Linux、macOS、Windows、Android和iOS。
+- Supports Forward Secrecy[^1]
+- Supports Future Secrecy (Post-Compromise Security)[^2]
+- Has open-source servers.
+- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Uses E2EE for all messages by default.
+- Supports Linux, macOS, Windows, Android, and iOS.
+
+[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
+[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.

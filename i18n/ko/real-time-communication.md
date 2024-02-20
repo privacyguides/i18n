@@ -20,9 +20,7 @@ cover: real-time-communication.webp
 
 ![Signal 로고](assets/img/messengers/signal.svg){ align=right }
 
-**Signal**은 Signal Messenger LLC에서 개발한 모바일 앱입니다. 인스턴트 메시지, 음성 및 영상 통화 기능을 제공합니다.
-
-모든 통신은 E2EE가 적용됩니다. 연락처 목록은 Signal PIN으로 암호화되며, 서버에서는 연락처 목록에 접근할 수 없습니다. 개인 프로필 또한 암호화되어 여러분이 대화하는 상대에게만 공유됩니다.
+**Signal**은 Signal Messenger LLC에서 개발한 모바일 앱입니다. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
 [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -44,7 +42,18 @@ cover: real-time-communication.webp
 
 </div>
 
-Singal은 [비공개 그룹](https://signal.org/blog/signal-private-group-system/)을 지원합니다. 그룹 구성원, 그룹 이름, 아바타, 속성 등은 서버에 기록되지 않습니다. 메타데이터를 최소화하는 [Sealed Sender](https://signal.org/blog/sealed-sender/) 기능도 존재합니다. 해당 기능을 사용할 경우, 발신자 주소는 메시지 본문과 함께 암호화되어 서버에서는 수신자 주소만 볼 수 있습니다. Sealed Sender는 연락처 목록에 있는 사람들에게만 활성화되지만, 스팸 수신 위험성이 높아짐에 따라 모든 수신자에게 활성화하는 것도 가능합니다. Signal을 사용하려면 반드시 자신의 전화번호를 개인 식별 정보로 입력해야만 합니다.
+Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+
+1. In Signal, open the app's settings and tap your account profile at the top.
+2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
+3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
+4. Go back to the main app settings page and select **Privacy**.
+5. Select **Phone Number**
+6. Change the **Who Can See My Number** setting to: **Nobody**
+
+You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
+
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. 개인 프로필 또한 암호화되어 여러분이 대화하는 상대에게만 공유됩니다. Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. 메타데이터를 최소화하는 [Sealed Sender](https://signal.org/blog/sealed-sender/) 기능도 존재합니다. 해당 기능을 사용할 경우, 발신자 주소는 메시지 본문과 함께 암호화되어 서버에서는 수신자 주소만 볼 수 있습니다. Sealed Sender는 연락처 목록에 있는 사람들에게만 활성화되지만, 스팸 수신 위험성이 높아짐에 따라 모든 수신자에게 활성화하는 것도 가능합니다.
 
 Signal 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://eprint.iacr.org/2016/1013.pdf). Signal 프로토콜 사양은 [문서](https://signal.org/docs/)에서 확인할 수 있습니다.
 
@@ -115,14 +124,14 @@ Briar 연락처에 누군가를 등록하려면 서로가 모두 서로를 연�
 
 Briar [사양 문서](https://code.briarproject.org/briar/briar-spec)는 전체 공개되어 있습니다.
 
-Briar supports Forward Secrecy by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## 추가 선택지
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. 대화 참여자 중 한 명만 키가 유출되더라도 이전에 주고받은 **모든** 메시지의 기밀성이 손상됩니다.
+These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. 대화 참여자 중 한 명만 키가 유출되더라도 이전에 주고받은 **모든** 메시지의 기밀성이 손상됩니다.
 
 </div>
 
@@ -160,7 +169,7 @@ These messengers do not have [Forward Secrecy](https://en.wikipedia.org/wiki/For
 
 그룹 음성 및 영상 통화에는 E2EE가 [아닌](https://github.com/vector-im/element-web/issues/12878), Jitsi를 사용합니다. 단, 이는 추후 [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401)으로 변경될 예정입니다. 현재 그룹 통화는 인증 과정을 거치지 [않습니다](https://github.com/vector-im/element-web/issues/13074). 즉, 룸 참가자가 아닌 사람도 통화에 난입하는 것이 가능합니다. 사적인 모임에서는 해당 기능을 사용하지 않는 것이 좋습니다.
 
-Matrix 프로토콜 자체는 [이론적으로 PFS를 지원하지만](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), 키 백업 및 사용자 간 메시지 기록 공유 등의 사용자 경험을 해치기 때문에 [현시점에서 Element는 PFS를 지원하지 않습니다](https://github.com/vector-im/element-web/issues/7101).
+The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
 Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). Matirx 프로토콜 사양은 [문서](https://spec.matrix.org/latest/)에서 확인할 수 있습니다. The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
@@ -195,11 +204,11 @@ Session은 탈중앙화된 [Oxen Service Node Network](https://oxen.io/)를 이�
 
 Session은 일대일 채팅 및 최대 100명까지 참여 가능한 비공개 그룹에서 E2EE를 지원합니다. 공개 그룹은 구성원 수에 제한이 없지만, 설계상 개방되어 있습니다.
 
-Session은 완전 순방향 비밀성을 지원하지 [않습니다](https://getsession.org/blog/session-protocol-technical-information). 즉, '암호화 시스템이 자동으로 빈번하게 암호화 및 복호화에 사용되는 키를 변경하여, 최신 키가 손상되더라도 민감한 정보는 일부만 노출되게 하는 시스템'이 존재하지 않습니다.
+Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-Oxen은 2020년 3월에 Session의 제3자 감사를 요청했습니다. 감사는 2021년 4월에 [완료되었으며](https://getsession.org/session-code-audit), "이 애플리케이션의 전반적인 보안 수준은 양호하며, 프라이버시를 중시하는 사람들이 사용하기에 적합합니다"라는 결론이 내려졌습니다.
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
 
-Session은 애플리케이션 및 프로토콜의 기술적인 설명을 담은 [백서](https://arxiv.org/pdf/2002.04609.pdf)를 제공하고 있습니다.
+Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## 평가 기준
 
@@ -212,17 +221,22 @@ Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준�
 
 </div>
 
-- 오픈 소스 클라이언트가 있어야 합니다.
-- 비공개 메시지에는 E2EE가 기본 적용이어야 합니다.
-- 모든 메시지에 E2EE가 지원되어야 합니다.
-- 독립적인 감사를 받았어야 합니다.
+- Has open-source clients.
+- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
+- Uses E2EE for private messages by default.
+- Supports E2EE for all messages.
+- Has been independently audited.
 
 ### 우대 사항
 
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- Should have Forward Secrecy.
-- 오픈 소스 서버가 있어야 합니다.
-- 탈중앙 방식(연합 방식/P2P 방식)이어야 합니다.
-- 모든 메시지에 E2EE가 기본 적용이어야 합니다.
-- Linux, macOS, Windows, Android, iOS를 지원해야 합니다.
+- Supports Forward Secrecy[^1]
+- Supports Future Secrecy (Post-Compromise Security)[^2]
+- Has open-source servers.
+- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Uses E2EE for all messages by default.
+- Supports Linux, macOS, Windows, Android, and iOS.
+
+[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
+[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.

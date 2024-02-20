@@ -20,9 +20,7 @@ cover: real-time-communication.webp
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** - мобильное приложение, разработанное Signal Messenger LLC. Приложение обеспечивает мгновенный обмен сообщениями, а также голосовые и видеозвонки.
-
-Все коммуникации осуществляются в режиме E2EE. Списки контактов шифруются с помощью вашего PIN-кода входа в систему, и сервер не имеет к ним доступа. Личные профили также шифруются и предоставляются только тем контактам, с которыми вы переписываетесь.
+**Signal** - мобильное приложение, разработанное Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
 [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -44,7 +42,18 @@ cover: real-time-communication.webp
 
 </div>
 
-Сигнал поддерживает [приватные группы](https://signal.org/blog/signal-private-group-system/). На сервере нет записей о вашем членстве в группах, названиях групп, аватарах групп или атрибутах групп. Сигнал имеет минимальные метаданные, если включена функция [запечатанного отправителя](https://signal.org/blog/sealed-sender/). Адрес отправителя шифруется вместе с текстом сообщения, серверу виден только адрес получателя. Функция запечатанного отправителя включена только для людей из вашего списка контактов, но может быть включена для всех получателей с повышенным риском получения спама. Signal требует ваш номер телефона в качестве персонального идентификатора.
+Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+
+1. In Signal, open the app's settings and tap your account profile at the top.
+2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
+3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
+4. Go back to the main app settings page and select **Privacy**.
+5. Select **Phone Number**
+6. Change the **Who Can See My Number** setting to: **Nobody**
+
+You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
+
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Личные профили также шифруются и предоставляются только тем контактам, с которыми вы переписываетесь. Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Сигнал имеет минимальные метаданные, если включена функция [запечатанного отправителя](https://signal.org/blog/sealed-sender/). Адрес отправителя шифруется вместе с текстом сообщения, серверу виден только адрес получателя. Функция запечатанного отправителя включена только для людей из вашего списка контактов, но может быть включена для всех получателей с повышенным риском получения спама.
 
 Протокол прошел независимый [аудит](https://eprint.iacr.org/2016/1013.pdf) в 2016 году. Спецификацию протокола Signal можно найти в их [документации](https://signal.org/docs/).
 
@@ -115,14 +124,14 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 
 Briar имеет полностью [опубликованную документацию](https://code.briarproject.org/briar/briar-spec).
 
-Briar поддерживает прямую секретность пересылки, используя протоколы Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) и [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
+Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## Дополнительные варианты
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-Хотя эти мессенджеры и проходят по определённым критериям, они не поддерживают [прямую секретность](https://ru.wikipedia.org/wiki/Perfect_forward_secrecy), поэтому мы не рекомендуем их для длительных или конфиденциальных коммуникаций. Любая компрометация ключа среди получателей сообщений повлияет на конфиденциальность **всех** прошлых сообщений.
+These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Любая компрометация ключа среди получателей сообщений повлияет на конфиденциальность **всех** прошлых сообщений.
 
 </div>
 
@@ -160,7 +169,7 @@ Briar поддерживает прямую секретность пересы�
 
 Групповые голосовые и видео звонки [не](https://github.com/vector-im/element-web/issues/12878) зашифрованы E2EE, а используют Jitsi. Ожидается, что это изменится с [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Групповые звонки в настоящее время [не имеют аутентификации](https://github.com/vector-im/element-web/issues/13074), что означает, что к звонкам могут присоединяться и не входящие в комнату участники. Мы рекомендуем вам не использовать эту функцию для приватных созвонов.
 
-Сам протокол Matrix [теоретически поддерживает PFS](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy), однако он [в настоящее время не поддерживается в Element](https://github.com/vector-im/element-web/issues/7101) из-за того, что это нарушает некоторые аспекты работы пользователей, такие как резервное копирование ключей и общая история сообщений.
+The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
 Протокол прошел независимый [аудит](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) в 2016 году. Спецификацию протокола Matrix можно найти в их [документации](https://spec.matrix.org/latest/). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
 
@@ -195,11 +204,11 @@ Session использует децентрализованную [Oxen Service 
 
 Сессия использует E2EE в чатах один на один или в закрытых группах, в которых могут участвовать до 100 человек. Открытые группы не имеют ограничений по количеству участников, но являются открытыми по своей сути.
 
-Session [не](https://getsession.org/blog/session-protocol-technical-information) поддерживает прямую секретность. При прямой секретности система шифрования автоматически и часто меняет ключи шифрования, так что в случае взлома последнего ключа обнажается меньшая часть конфиденциальной информации.
+Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-Оксен запросил независимый аудит для Session в марте 2020 года. Аудит [заключил](https://getsession.org/session-code-audit) в апреле 2021 года: "Общий уровень безопасности этого приложения хороший и делает его пригодным для использования людьми, заботящимися о конфиденциальности."
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
 
-У Session есть [whitepaper](https://arxiv.org/pdf/2002.04609.pdf), описывающий технические особенности приложения и протокола.
+Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## Критерии
 
@@ -212,17 +221,22 @@ Session [не](https://getsession.org/blog/session-protocol-technical-informatio
 
 </div>
 
-- Должны иметь приложения с открытым исходным кодом.
-- Должны по умолчанию использовать E2EE для личных сообщений.
-- Должны поддерживать E2EE для всех сообщений.
-- Должен быть проведен независимый аудит.
+- Has open-source clients.
+- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
+- Uses E2EE for private messages by default.
+- Supports E2EE for all messages.
+- Has been independently audited.
 
 ### В лучшем случае
 
 Эти критерии представляют собой то, что мы хотели бы видеть от идеального проекта в этой категории. Наши рекомендации могут не соответствовать всем или нескольким из этих критериев, но проекты, которые им соответствуют, расположены выше остальных.
 
-- Должны поддерживать прямую секретность.
-- Должны иметь серверы с открытым исходным кодом.
-- Должны быть децентрализованными, т.е. федеративными или P2P.
-- Должны по умолчанию использовать E2EE для всех сообщений.
-- Должны поддерживать Linux, macOS, Windows, Android и iOS.
+- Supports Forward Secrecy[^1]
+- Supports Future Secrecy (Post-Compromise Security)[^2]
+- Has open-source servers.
+- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Uses E2EE for all messages by default.
+- Supports Linux, macOS, Windows, Android, and iOS.
+
+[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
+[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.
