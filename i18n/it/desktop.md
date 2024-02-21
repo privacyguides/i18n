@@ -227,7 +227,7 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 ## Criteri
 
-Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
+La scelta di una distro Linux adatta a te dipende da una grande varietà di preferenze personali e questa pagina **non** vuole essere un elenco esaustivo di tutte le distribuzioni possibili. La nostra pagina di panoramica su Linux contiene alcuni consigli sulla [scelta di una distro](os/linux-overview.md#choosing-your-distribution) in modo più dettagliato. Le distro presenti su *questa* pagina seguono tutte, in generale, le linee guida che abbiamo illustrato in quella pagina e soddisfano tutte questi standard:
 
 - Gratuito e open source.
 - Ricevono aggiornamenti regolari del software e del kernel.
@@ -240,4 +240,4 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
 - Preferiscono i progetti più grandi.
     - Mantenere un sistema operativo è un sfida importante e, i progetti più piccoli, tendono a compiere errori evitabili o a ritardare gli aggiornamenti critici (o peggio, scomparire interamente). Ci orientiamo verso progetti che, tra 10 anni, potrebbero essere ancora presenti (che sia grazie a supporto aziendale o supporto della community molto significativo), e ci allontaniamo da progetti costruiti a mano o aventi un numero ridotto di manutentori.
 
-In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+Inoltre, [i nostri criteri standard](about/criteria.md) per i progetti raccomandati sono ancora validi. **Si prega di notare che non siamo affiliati a nessuno dei progetti che raccomandiamo.**

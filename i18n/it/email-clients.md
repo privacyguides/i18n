@@ -24,9 +24,9 @@ OpenPGP non supporta inoltre la [forward secrecy](https://en.wikipedia.org/wiki/
 
 <div class="admonition recommendation" markdown>
 
-![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
+![Logo Thunderbird](assets/img/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
+**Thunderbird** è un client di posta elettronica, newsgroup, news feed e chat (XMPP, IRC, Matrix) gratuito, open-source e multipiattaforma, sviluppato dalla communityThunderbird e precedentemente dalla Mozilla Foundation.
 
 [:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Informativa sulla Privacy" }

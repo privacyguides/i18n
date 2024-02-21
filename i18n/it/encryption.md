@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "Software di crittografia consigliati: VeraCrypt, Cryptomator, PicoCrypt e OpenPGP - Privacy Guides"
 title: "Software di crittografia"
 icon: material/file-lock
-description: La crittografia dei dati è l'unico modo per controllare chi può accedervi. These tools allow you to encrypt your emails and any other files.
+description: La crittografia dei dati è l'unico modo per controllare chi può accedervi. Questi strumenti ti consentono di crittografare le tue email e qualsiasi altro file.
 cover: encryption.webp
 ---
 
@@ -21,13 +21,13 @@ Le opzioni qui elencate sono multipiattaforma e ottime per creare backup crittog
 **Cryptomator** è una soluzione per la crittografia progettata per salvare privatamente i file di qualsiasi provider cloud. Ti consente di creare cassaforti memorizzate su un'unità virtuale, i cui contenuti sono crittografati e sincronizzati con il tuo fornitore d'archiviazione su cloud.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
@@ -56,11 +56,11 @@ La documentazione di Cryptomator ne descrive l'[obiettivo di sicurezza](https://
 **Picocrypt** è un strumento semplice e di piccole dimensioni che fornisce tecniche di crittografia moderna. Picocrypt utilizza il cifrario sicuro XChaCha20 e la funzione di derivazione della chiave Argon2id per fornire un alto livello di sicurezza. Utilizza i moduli standard x/crypto di Go per le sue funzionalità di sicurezza.
 
 [:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
 - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -80,12 +80,12 @@ La documentazione di Cryptomator ne descrive l'[obiettivo di sicurezza](https://
 **VeraCrypt** è un'utility libera con sorgente disponibile, utilizzata per la crittografia al volo. Può creare un disco virtuale crittografato in un file, crittografare una partizione o crittografare l'intero dispositivo di archiviazione con l'autenticazione antecedente l'avvio.
 
 [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
-[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentazione}
+[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
@@ -122,9 +122,9 @@ Per crittografare l'unità da cui si avvia il sistema operativo, in genere si co
 BitLocker è [supportato soltanto](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) dalle edizioni Pro, Enterprise ed Education di Windows. Può essere abilitato sulle edizioni Home, ammesso che soddisfino i prerequisiti.
 
 <details class="example" markdown>
-<summary>Enabling BitLocker on Windows Home</summary>
+<summary>Abilitare BitLocker su Windows Home</summary>
 
-To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+Per abilitare BitLocker sulle edizioni "Home" di Windows, è necessario che le partizioni siano formattate con una [tabella delle partizioni GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) e che sia presente un modulo TPM dedicato (v1.2, 2.0+). You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
 
 1. Apri il prompt dei comandi e verifica il formato della tabella di partizione dell'unità, con il seguente comando. Dovresti vedere "**GPT**" elencato sotto "Stile di Partizione":
    ```powershell
