@@ -11,28 +11,6 @@ Se scegli di ospitare autonomamente tali frontend, è importante che tu disponga
 
 Utilizzando un'istanza gestita da altri, assicurati di leggere la politica sulla privacy di quell'istanza nello specifico. Possono anche essere modificate dai proprietari e, dunque, potrebbero non riflettere la politica predefinita. Alcune istanze hanno indirizzi Tor .onion, che potrebbero garantire una certa privacy, finché le tue richieste di ricerca non contengono PII.
 
-## Twitter
-
-### Nitter
-
-!!! recommendation
-
-    ![Logo di Nitter](assets/img/frontends/nitter.svg){ align=right }
-    
-    **Nitter** è un frontend gratuito e open source per [Twitter](https://twitter.com) che può anche essere ospitato autonomamente.
-    
-    Esistono numerose istanze pubbliche, alcune delle quali supportano i servizi onion di [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Istanze Pubbliche"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Codice Sorgente" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribuisci}
-
-!!! tip "Suggerimento"
-
-    Nitter è utile se desideri navigare tra i contenuti di Twitter senza dover accedere e se desideri disabilitare JavaScript nel tuo browser, come nel caso di [Tor Browser](https://www.torproject.org/), al livello di sicurezza Safest. Inoltre, ti consente di [creare feed RSS per Twitter] (news-aggregators.md#twitter).
-
 ## TikTok
 
 ### ProxiTok

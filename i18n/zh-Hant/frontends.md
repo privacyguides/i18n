@@ -11,28 +11,6 @@ cover: frontends.webp
 
 當您使用其它人的實例，請確認有細讀此實例的隱私政策。 它們可以任擁有者修改因此不必然反映原本預設的政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
 
-## Twitter
-
-### Nitter
-
-!!! recommendation
-
-    ![Nitter logo](assets/img/frontends/nitter.svg){align=right }
-    
-    **Nitter** 是 [Twitter](https://twitter.com)的免費開源前端，也是可自我託管。
-    
-    有許多公共實例，其中一些實例支援 [Tor](https://www.torproject.org) onion 服務。
-    
-    [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribute }
-
-!!! tip "訣竅"
-
-    如果想在不登錄的情況下瀏覽 Twitter 內容，或是在瀏覽器中禁用 JavaScript ， Nitter非常有用，就像 [Tor 瀏覽器](https://www.torproject.org) 在最安全級別會關閉 JavaScript 。 它還可以 [為 Twitter 建立 RSS 新聞源](news-aggregators.md#twitter)。
-
 ## TikTok
 
 ### ProxiTok

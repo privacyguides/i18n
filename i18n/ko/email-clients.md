@@ -24,9 +24,9 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 <div class="admonition recommendation" markdown>
 
-![Thunderbird 로고](assets/img/email-clients/thunderbird.svg){ align=right }
+![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird**는 무료 오픈 소스 크로스 플랫폼 이메일 클라이언트입니다. 이메일, 뉴스그룹, 뉴스 피드, 채팅(XMPP, IRC, Twitter) 기능을 지원합니다. 이전에는 Mozilla 재단에서 개발했으며, 현재는 Thunderbird 커뮤니티에서 개발하고 있습니다.
+**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
 [:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }

@@ -325,13 +325,12 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Nitter 로고](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter / 웹)](frontends.md#nitter)
-- ![FreeTube 로고](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube / 데스크톱)](frontends.md#freetube)
-- ![Yattee 로고](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube / iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube 로고](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube 로고](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube / Android)](frontends.md#libretube-android)  
-- ![NewPipe 로고](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube / Android)](frontends.md#newpipe-android)
-- ![Invidious 로고](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious 로고](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube / 웹)](frontends.md#invidious)
-- ![Piped 로고](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube / 웹)](frontends.md#piped)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 

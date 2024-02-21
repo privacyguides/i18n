@@ -11,28 +11,6 @@ cover: frontends.webp
 
 כאשר אתה משתמש במופע המופעל על ידי מישהו אחר, הקפד לקרוא את מדיניות הפרטיות של אותו מופע ספציפי. הם יכולים להשתנות על ידי בעליהם ולכן עשויים שלא לשקף את מדיניות ברירת המחדל. במקרים מסוימים יש כתובות .onion Tor אשר עשוי להעניק קצת פרטיות כל עוד שאילתות החיפוש שלך אינן מכילות PII.
 
-## Twitter
-
-### Nitter
-
-!!! recommendation
-
-    ![לוגו של Nitter]( assets/img/frontends/nitter.svg){ align=right }
-    
-    **Nitter** הוא ממשק קוד פתוח בחינם עבור [Twitter](https://twitter.com) שגם הוא ניתן לאירוח עצמי.
-    
-    ישנם מספר מופעים ציבוריים, כאשר בחלק מהמקרים יש תמיכה בשירותי בצל [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: מאגר](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="מופעים ציבוריים"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=לתרומה }
-
-!!! tip "טיפ"
-
-    Nitter שימושי אם ברצונך לדפדף בתוכן של טוויטר ללא צורך בהתחברות ואם ברצונך להשבית את JavaScript בדפדפן שלך, כפי שקורה עם [Tor Browser](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר. זה גם מאפשר לך [ליצור הזנות RSS עבור טוויטר](news-aggregators.md#twitter).
-
 ## TikTok
 
 ### ProxiTok

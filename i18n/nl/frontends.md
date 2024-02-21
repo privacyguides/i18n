@@ -11,28 +11,6 @@ Bij zelf-hosting is het belangrijk dat er ook andere mensen gebruik maken van jo
 
 Als je een instantie gebruikt die door iemand anders wordt beheerd, moet je het privacybeleid van die specifieke instantie lezen. Ze kunnen door hun eigenaren worden gewijzigd en kunnen daarom niet in overeenstemming zijn met het standaardbeleid. Sommige instanties hebben Tor .onion adressen die enige privacy kunnen bieden zolang jouw zoekopdrachten geen PII (Personally Identifiable Information) bevat.
 
-## Twitter
-
-### Nitter
-
-!!! recommendation
-
-    ![Nitter logo](assets/img/frontends/nitter.svg){ align=right }
-    
-    **Nitter** is een gratis en open-source frontend voor [Twitter](https://twitter.com) dat ook zelf te hosten is.
-    
-    Er zijn een aantal openbare instanties, waarvan sommige instanties [Tor](https://www.torproject.org) .onion diensten ondersteunen.
-    
-    [:octicons-repo-16: Repository](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Bijdragen }
-
-!!! tip
-
-    Nitter is handig als u de inhoud van Twitter wilt bekijken zonder in te loggen en als je JavaScript in jouw browser wilt uitschakelen, zoals het geval is met [Tor Browser](https://www.torproject.org/) op beveiligingsniveau safest. Je kunt er ook [RSS feeds voor Twitter mee maken](news-aggregators.md#twitter).
-
 ## TikTok
 
 ### ProxiTok

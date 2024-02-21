@@ -11,28 +11,6 @@ cover: frontends.webp
 
 Если вы используете чей-то экземпляр, обязательно ознакомьтесь с политикой конфиденциальности этого конкретного экземпляра. Они могут быть изменены их владельцами и поэтому могут не отражать политику по умолчанию. Некоторые экземпляры имеют адреса .onion, которые могут обеспечить некоторую конфиденциальность, если ваши поисковые запросы не содержат ПД.
 
-## Twitter
-
-### Nitter
-
-!!! recommendation
-
-    ![Логотип Nitter](assets/img/frontends/nitter.svg){ align=right }
-    
-    **Nitter** - это бесплатный фронтенд с открытым исходным кодом для [Twitter](https://twitter.com), который можно самостоятельно хостить.
-    
-    Существует ряд публичных экземпляров, причем некоторые экземпляры имеют поддержку [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: Репозиторий](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Публичный экземпляр"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Поддержать }
-
-!!! tip "Совет"
-
-    Nitter полезен, если вы хотите просматривать содержимое Twitter без входа в аккаунт и если вы хотите отключить JavaScript в своем браузере, как в случае с [Tor Browser](https://www.torproject.org/) с выбранным "высшим" уровне безопасности. Он также позволяет [создавать RSS-ленты для Twitter](news-aggregators.md#twitter).
-
 ## TikTok
 
 ### ProxiTok

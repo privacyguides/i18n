@@ -325,8 +325,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![Nitter logo](assets/img/frontends/nitter.svg){ .twemoji } [Nitter (Twitter, Web)](frontends.md#nitter)
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Escritorio)](frontends.md#freetube)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
 - ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)

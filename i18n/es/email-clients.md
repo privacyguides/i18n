@@ -26,7 +26,7 @@ OpenPGP tampoco admite [secreto hacia adelante](https://en.wikipedia.org/wiki/Fo
 
 ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird** es un cliente gratuito, de código abierto y multiplataforma, de correo electrónico, grupos de noticias y chat (XMPP, IRC, Twitter), desarrollado por la comunidad Thunderbird, y previamente por la Fundación Mozilla.
+**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
 [:octicons-home-16: Página Principal](https://www.thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Política de Privacidad" }

@@ -11,28 +11,6 @@ If you choose to self-host these frontends, it is important that you have other 
 
 When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
-## Twitter
-
-### Nitter
-
-!!! recommendation
-
-    ![Nitterのロゴ](assets/img/frontends/nitter.svg){ align=right }
-    
-    **Nitter**は、自由でオープンソースの[Twitter](https://twitter.com)用のフロントエンドです。セルフホスティングも可能です。
-    
-    多くの公開インスタンスがあり、いくつかのインスタンスは [Tor](https://www.torproject.org)のオニオン・サービスをサポートしています。
-    
-    [:octicons-repo-16: レポジトリー](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="公開インスタンス"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=ドキュメンテーション}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="ソースコード" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=貢献 }
-
-!!! ヒント
-
-    Nitterは、ログインせずにTwitterのコンテンツを閲覧したい場合や、[Tor Browser](https://www.torproject.org/)の最も安全なセキュリティーレベルでJavaScriptを無効にしている場合に便利です。 また、[Twitter用のRSSフィードを作成する](news-aggregators.md#twitter)こともできます。
-
 ## TikTok
 
 ### ProxiTok

@@ -188,22 +188,6 @@ https://www.reddit.com/r/[SUBREDDIT]/new/.rss
 
 </div>
 
-### Twitter
-
-Using any of the Nitter [instances](https://status.d420.de/) you can easily subscribe using RSS.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
-
-1. Pick an instance and set `nitter_instance`.
-2. Replace `twitter_account` with the account name.
-
-```text
-https://[nitter_instance]/[twitter_account]/rss
-```
-
-</div>
-
 ### YouTube
 
 Du kan prenumerera på YouTube-kanaler utan att logga in och koppla användningsinformation till ditt Google-konto.

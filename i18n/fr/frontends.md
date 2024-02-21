@@ -11,28 +11,6 @@ Si vous choisissez d'héberger vous-même ces clients, il est important que d'au
 
 Lorsque vous utilisez une instance gérée par quelqu'un d'autre, veillez à lire la politique de confidentialité de cette instance spécifique. Elles peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter la politique par défaut. Certaines instances ont des adresses Tor .onion qui peuvent garantir une certaine confidentialité tant que vos requêtes de recherche ne contiennent pas de DCP.
 
-## Twitter
-
-### Nitter
-
-!!! recommendation
-
-    ![Logo Nitter](assets/img/frontends/nitter.svg){ align=right }
-    
-    **Nitter** est un client applicatif libre et open-source pour [Twitter](https://twitter.com) qui est également auto-hébergeable.
-    
-    Il existe un certain nombre d'instances publiques, dont certaines bénéficient de la prise en charge des services oignon [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: Dépôt](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Instances Publiques"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Code Source" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribuer }
-
-!!! tip "Conseil"
-
-    Nitter est utile si vous souhaitez naviguer sur le contenu de Twitter sans avoir à vous connecter et si vous souhaitez désactiver JavaScript dans votre navigateur, comme c'est le cas avec [Tor Browser](https://www.torproject.org/) au niveau de sécurité le plus sûr. Il vous permet également de [créer des flux RSS pour Twitter](news-aggregators.md#twitter).
-
 ## TikTok
 
 ### ProxiTok

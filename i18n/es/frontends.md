@@ -11,28 +11,6 @@ Si decides autoalojar, es importante que otras personas utilicen también tu ins
 
 Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la política de privacidad de esa instancia en específico. Pueden ser modificados por sus propietarios y, por lo tanto, pueden no reflejar la política por defecto. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
 
-## Twitter
-
-### Nitter
-
-!!! recommendation
-
-    ![Nitter logo](assets/img/frontends/nitter.svg){ align=right }
-    
-    **Nitter** es una interfaz gratuita y de código abierto para [Twitter](https://twitter.com) que también es autoalojable.
-    
-    Existen varias instancias públicas, algunas de las cuales disponen de soporte para servicios onion [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: Repositorio](https://github.com/zedeus/nitter){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/zedeus/nitter/wiki/Instances){ .card-link title="Instancias Públicas"}
-    [:octicons-info-16:](https://github.com/zedeus/nitter/wiki){ .card-link title=Documentación}
-    [:octicons-code-16:](https://github.com/zedeus/nitter){ .card-link title="Código Fuente" }
-    [:octicons-heart-16:](https://github.com/zedeus/nitter#nitter){ .card-link title=Contribuir }
-
-!!! tip "Consejo"
-
-    Nitter es útil si quiere navegar por el contenido de Twitter sin tener que iniciar sesión y si quieres desactiva JavaScript en su navegador, como es el caso de [Tor Browser](https://www.torproject.org/) en el nivel de seguridad Más Seguro. También le permite [crear canales RSS para Twitter](news-aggregators.md#twitter).
-
 ## TikTok
 
 ### ProxiTok
