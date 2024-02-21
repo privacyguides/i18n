@@ -124,7 +124,7 @@ BitLocker è [supportato soltanto](https://support.microsoft.com/en-us/windows/t
 <details class="example" markdown>
 <summary>Abilitare BitLocker su Windows Home</summary>
 
-Per abilitare BitLocker sulle edizioni "Home" di Windows, è necessario che le partizioni siano formattate con una [tabella delle partizioni GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) e che sia presente un modulo TPM dedicato (v1.2, 2.0+). You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+Per abilitare BitLocker sulle edizioni "Home" di Windows, è necessario che le partizioni siano formattate con una [tabella delle partizioni GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) e che sia presente un modulo TPM dedicato (v1.2, 2.0+). Potrebbe essere necessario [disabilitare la funzionalità non-Bitlocker "Crittografia dispositivo"](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (che è inferiore perché invia la chiave di recupero ai server di Microsoft) se è abilitata sul dispositivo già prima di seguire questa guida.
 
 1. Apri il prompt dei comandi e verifica il formato della tabella di partizione dell'unità, con il seguente comando. Dovresti vedere "**GPT**" elencato sotto "Stile di Partizione":
    ```powershell
@@ -192,16 +192,16 @@ Consigliamo di memorizzare una chiave di recupero locale in un luogo sicuro, inv
 </div>
 
 <details class="example" markdown>
-<summary>Creating and opening encrypted containers</summary>
+<summary>Creazione e apertura di container cifrati</summary>
 
 ```bash
 dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
 sudo cryptsetup luksFormat /path-to-file
 ```
 
-#### Opening encrypted containers
+#### Apertura di container cifrati
 
-We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). Gran parte dei gestori di file, come quelli inclusi con i popolari ambienti desktop, possono sbloccare i file crittografati. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+Consigliamo l'apertura di container e volumi con `udisksctl` poiché utilizza [Polkit](https://en.wikipedia.org/wiki/Polkit). Gran parte dei gestori di file, come quelli inclusi con i popolari ambienti desktop, possono sbloccare i file crittografati. Strumenti come [udiskie](https://github.com/coldfix/udiskie) possono essere eseguiti nella barra delle applicazioni e fornire un'utile interfaccia utente.
 
 ```bash
 udisksctl loop-setup -f /path-to-file
@@ -211,9 +211,9 @@ udisksctl unlock -b /dev/loop0
 </details>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Remember to back up volume headers</p>
+<p class="admonition-title">Ricorda di eseguire il backup delle intestazioni del volume</p>
 
-Consigliamo di eseguire sempre il [back up delle intestazioni LUKS](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in caso di guasto parziale dell'unità. This can be done with:
+Consigliamo di eseguire sempre il [back up delle intestazioni LUKS](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) in caso di guasto parziale dell'unità. Questo può essere fatto con:
 
 ```bash
 cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
@@ -234,13 +234,13 @@ Gli strumenti con interfacce di riga di comando sono utili per integrare gli [sc
 **Kryptor** è uno strumento gratuito e open source di crittografia e firma dei file, che utilizza algoritmi crittografici moderni e sicuri. Punta a essere una versione migliorata di[age](https://github.com/FiloSottile/age) e [Minisign](https://jedisct1.github.io/minisign/) per fornire un'alternativa semplice a GPG.
 
 [:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://www.kryptor.co.uk)
 - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -274,11 +274,11 @@ OpenPGP è talvolta necessario per incarichi specifici, come firmare digitalment
 Crittografando con PGP, puoi configurare diverse opzioni nel tuo file `gpg.config`. Ti consigliamo di attenerti con le opzioni standard specificate nelle [Domande Frequenti degli utenti di GnuPG](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use future defaults when generating a key</p>
+<p class="admonition-title">Utilizzare le impostazioni predefinite future quando si genera una chiave</p>
 
-When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
+Quando si [generano le chiavi] (https://www.gnupg.org/gph/en/manual/c14.html) suggeriamo di usare il comando `future-default', che indicherà a GnuPG di usare crittografia moderna come [Curve25519] (https://en.wikipedia.org/wiki/Curve25519#History) e [Ed25519] (https://ed25519.cr.yp.to/):
 
-```bash
+``bash
 gpg --quick-gen-key alice@example.com future-default
 ```
 
@@ -293,12 +293,12 @@ gpg --quick-gen-key alice@example.com future-default
 **GnuPG** è un'alternativa con licenza GPL alla suite PGP per software crittografici. GnuPG è conforme con [RFC 4880](https://tools.ietf.org/html/rfc4880), la specifica IETF corrente di OpenPGP. Il progetto GnuPG ha lavorato a una [bozza aggiornata](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) nel tentativo di modernizzare OpenPGP. GnuPG fa parte del progetto Free Software Foundation di GNU ed ha ricevuto un'importante [finanziamento](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) dal governo tedesco.
 
 [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentazione}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -318,13 +318,13 @@ gpg --quick-gen-key alice@example.com future-default
 **GPG4win** è un pacchetto per Windows di [Intevation e g10 Code](https://gpg4win.org/impressum.html). Include [vari strumenti](https://gpg4win.org/about.html), che possono assisterti nell'utilizzo di GPG su Microsoft Windows. Il progetto è stato avviato e originariamente [finanziato dall'](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography)Ufficio Federale Tedesco per la Sicurezza delle Informazioni (BSI) nel 2005.
 
 [:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
+[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentazione}
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
@@ -350,12 +350,12 @@ Suggeriamo [Canary Mail](email-clients.md#canary-mail) per utilizzare PGP con le
 Consigliamo di dare un'occhiata ai loro [Primi passi](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) e alla loro [Base di Conoscenza](https://gpgtools.tenderapp.com/kb) per supporto.
 
 [:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -372,12 +372,12 @@ Consigliamo di dare un'occhiata ai loro [Primi passi](https://gpgtools.tenderapp
 **OpenKeychain** è un'implementazione Android di GnuPG. È comunementa richiesta da client mail come [K-9 Mail](email-clients.md#k-9-mail) e [FairEmail](email-clients.md#fairemail) e da altre app Android per fornire supporto alla crittografia. Cure53 ha completato un [controllo di sicurezza](https://www.openkeychain.org/openkeychain-3-6) di OpenKeychain 3.6 a ottobre 2015. I dettagli tecnici sul controllo e le soluzioni di OpenKeychain possono essere trovate [qui](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 [:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
