@@ -41,13 +41,13 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **OnionShare** es una herramienta de código abierto que permite compartir de manera segura y anónima un archivo de cualquier tamaño. Funciona iniciando un servidor web accesible como un servicio onion de Tor, con un enlace indescifrable que se puede compartir con los receptores para descargar o enviar archivos.
 
-[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://onionshare.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Servicio Onion" }
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -99,14 +99,14 @@ Estamos trabajando en establecer criterios definidos para cada sección de nuest
 
 **Nextcloud** es un conjunto de programas gratuitos y de código abierto, para la creación de su propio servicio de almacenamiento de archivos en un servidor privado que usted controle.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -134,13 +134,13 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 
 **Syncthing** es una herramienta de sincronización continua de archivos peer-to-peer de código abierto. Es utilizada para sincronizar archivos entre dos o más dispositivos sobre la red local o el Internet. Syncthing no utiliza un servidor centralizado, este utiliza el [Protocolo de Intercambio de Bloques](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) para transferir los datos entre dispositivos. Todos los datos son encriptados utilizando TLS.
 
-[:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://syncthing.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
 - [:simple-windows11: Windows](https://syncthing.net/downloads/)

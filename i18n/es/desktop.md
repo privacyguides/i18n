@@ -71,9 +71,9 @@ Al ser una distribución DIY, se espera que usted [configure y mantenga](os/linu
 
 Gran parte de los [paquetes de Arch Linux](https://reproducible.archlinux.org) son [reproducibles](https://reproducible-builds.org).
 
-## Atomic Distributions
+## Distribuciones Atómicas
 
-**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. This has advantages including increased stability and the ability to easily rollback updates. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
+**Las distribuciones atómicas** (a veces también denominadas **distribuciones inmutables**) son sistemas operativos que gestionan la instalación y actualización de paquetes superponiendo cambios sobre la imagen central del sistema, en lugar de modificarlo directamente. Esto tiene ventajas como una mayor estabilidad y la posibilidad de revertir fácilmente las actualizaciones. Consulte [*Actualizaciones tradicionales vs. Atómicas*](os/linux-overview.md#traditional-vs-atomic-updates) para obtener más información.
 
 ### Fedora Atomic Desktops
 
@@ -81,7 +81,7 @@ Gran parte de los [paquetes de Arch Linux](https://reproducible.archlinux.org) s
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. Todas estas variantes siguen el mismo calendario de lanzamientos que Fedora Workstation, beneficiándose de las mismas actualizaciones rápidas y manteniéndose muy cerca del upstream.
+**Fedora Atomic Desktops** son variantes de Fedora que utilizan el gestor de paquetes `rpm-ostree` y se centran principalmente en flujos de trabajo en contenedores y Flatpak para aplicaciones de escritorio. Todas estas variantes siguen el mismo calendario de lanzamientos que Fedora Workstation, beneficiándose de las mismas actualizaciones rápidas y manteniéndose muy cerca del upstream.
 
 [:octicons-home-16: Página Principal](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
 [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuir }
@@ -170,7 +170,7 @@ Whonix se utiliza mejor [junto con Qubes](https://www.whonix.org/wiki/Qubes/Why_
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) the [video memory](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) when shutting down. When you restart your computer after using Tails, it might briefly display the last screen that was displayed in Tails. If you shut down your computer instead of restarting it, the video memory will erase itself automatically after being unpowered for some time.
+Tails [no borra](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) la [memoria de vídeo](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) al apagar. Cuando reinicie el ordenador después de usar Tails, puede que aparezca brevemente la última pantalla que se mostró en Tails. Si apaga el ordenador en lugar de reiniciarlo, la memoria de vídeo se borrará automáticamente después de estar un tiempo sin alimentación.
 
 </div>
 
