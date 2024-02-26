@@ -171,9 +171,9 @@ Tous vos cookies, votre historique et les données des sites web seront séparé
 
 ##### Avancé → Confidentialité
 
-The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+Le paramètre **Protection avancée contre le suivi et le vol des empreintes** randomise certaines valeurs afin qu'il soit plus difficile de prendre vos empreintes numérique :
 
-- [x] Select **All Browsing** or **Private Browsing**
+- [x] Sélectionnez **Toutes les activités de navigation** ou **Navigation privée**
 
 ##### Rapport de Confidentialité
 
@@ -219,13 +219,13 @@ Si vous utilisez iCloud avec la Protection Avancée des Données désactivée, n
 
 AdGuard pour iOS dispose de quelques fonctions payantes, mais le blocage standard du contenu de Safari est gratuit.
 
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 

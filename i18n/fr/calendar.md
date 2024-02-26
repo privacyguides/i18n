@@ -1,7 +1,7 @@
 ---
 title: "Calendriers synchronisés"
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: Les calendriers contiennent certaines de vos données les plus sensibles ; utilisez des produits qui implémentent le chiffrement au repos.
 cover: calendar.webp
 ---
 
@@ -17,14 +17,14 @@ Les calendriers contiennent certaines de vos données les plus sensibles ; utili
 
 Les calendriers multiples et la fonctionnalité de partage étendue sont réservés aux abonnés payants.
 
-[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://tuta.com/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Code source" }
+[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
@@ -46,13 +46,13 @@ Les calendriers multiples et la fonctionnalité de partage étendue sont réserv
 
 **Proton Calendar** est un service de calendrier chiffré disponible pour les membres de Proton via des clients web ou mobiles. Les fonctionnalités incluent: E2EE automatique de toutes les données, des fonctions de partage, la fonctionnalité d'import/export, et [plus](https://proton.me/fr/support/proton-calendar-guide). Les abonnés au service gratuit n'ont accès qu'à 3 calendriers, tandis que les abonnés payants peuvent créer jusqu'à 25 calendriers. Les fonctionnalités de partage avancées sont également limitées aux abonnés payants.
 
-[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)

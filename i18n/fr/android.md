@@ -1,14 +1,14 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "Recommandations Android : GrapheneOS et DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: Vous pouvez remplacer le système d'exploitation de votre téléphone Android par ces alternatives sécurisées et respectueuses de la vie privée.
 cover: android.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: Systèmes d'exploitation Android privés
     url: "./"
   - 
     "@context": http://schema.org
@@ -16,7 +16,7 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://fr.wikipedia.org/wiki/Android
   - 
     "@context": http://schema.org
     "@type": CreativeWork
@@ -47,7 +47,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://fr.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:
@@ -134,7 +134,7 @@ Les téléphones Google Pixel sont les seuls appareils qui répondent actuelleme
 ![Logo DivestOS](assets/img/android/divestos.svg){ align=right }
 
 **DivestOS** est un léger dérivé de [LineageOS](https://lineageos.org/).
-DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. Il a des versions signées, ce qui permet d'avoir un [démarrage vérifié](https://source.android.com/security/verifiedboot) sur certains appareils autres que des Pixel.
+DivestOS hérite de nombreux [appareils pris en charge](https://divestos.org/index.php?page=devices&base=LineageOS) de LineageOS. Il a des versions signées, ce qui permet d'avoir un [démarrage vérifié](https://source.android.com/security/verifiedboot) sur certains appareils autres que des Pixel.
 
 [:octicons-home-16: Page d'accueil](https://divestos.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Service onion" }
@@ -166,7 +166,7 @@ Lorsque vous achetez un appareil, nous vous recommandons d'en prendre un aussi n
 
 Évitez d'acheter des téléphones auprès des opérateurs de réseaux mobiles. Ces derniers ont souvent un **chargeur d'amorçage verrouillé** et ne supportent pas le [déverrouillage constructeur](https://source.android.com/devices/bootloader/locking_unlocking). Ces variantes de téléphone vous empêcheront d'installer tout type de distribution Android alternative.
 
-Soyez très **prudent** lorsque vous achetez des téléphones d'occasion sur des marchés en ligne. Vérifiez toujours la réputation du vendeur. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Il y a également un risque d'être associé à l'activité de l'ancien propriétaire.
+Soyez très **prudent** lorsque vous achetez des téléphones d'occasion sur des marchés en ligne. Vérifiez toujours la réputation du vendeur. Si l'appareil est volé, il est possible qu'il soit enregistré dans la [base de données IMEI](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Il y a également un risque d'être associé à l'activité de l'ancien propriétaire.
 
 Quelques conseils supplémentaires concernant les appareils Android et la compatibilité des systèmes d'exploitation :
 
@@ -242,17 +242,17 @@ En utilisant Shelter, vous accordez une confiance totale à son développeur, ca
 
 **Secure Camera** est une application de caméra axée sur la confidentialité et la sécurité qui peut capturer des images, des vidéos et des QR codes. Les extensions du vendeur CameraX (Portrait, HDR, Night Sight, Face Retouch et Auto) sont également prises en charge sur les appareils disponibles.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+[:octicons-repo-16: Dépôt](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
 [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Code source" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
-- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+- [:material-cube-outline: Magasin d'applications de GrapheneOS](https://github.com/GrapheneOS/Apps/releases)
 
 </details>
 
@@ -284,12 +284,12 @@ Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous acti
 
 [Content-Security-Policy](https://fr.wikipedia.org/wiki/Content_Security_Policy) est utilisé pour faire en sorte que les propriétés JavaScript et de style dans la WebView soient entièrement statiques.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: Dépôt](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Code source" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -309,12 +309,12 @@ Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous acti
 
 **Obtainium** est un gestionnaire d'applications qui vous permet d'installer et de mettre à jour des applications directement à partir de la page de publication du développeur (i.e. GitHub, GitLab, le site web du développeur, etc.), plutôt qu'un magasin d'applications/dépôt centralisé. Il prend en charge les mises à jour automatiques en arrière-plan sur Android 12 et les versions ultérieures.
 
-[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-repo-16: Dépôt](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Code source" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -338,12 +338,12 @@ Le Google Play Store nécessite un compte Google pour se connecter, ce qui n'est
 
 **Aurora Store** est un client Google Play Store qui ne nécessite pas de compte Google, de services Google Play ou microG pour télécharger des applications.
 
-[:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+[:octicons-home-16: Page d'accueil](https://auroraoss.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Politique de confidentialité" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
