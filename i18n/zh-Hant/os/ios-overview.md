@@ -1,7 +1,7 @@
 ---
 title: iOS 介紹
 icon: simple/apple
-description: iOS 為 蘋果電腦公司為 iPhone 所開發的移動作業系統。
+description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 Mac 電腦。
 ---
 
 **iOS** 和 **iPadOS** 是 Apple 分別為其 iPhone 和 iPad 產品開發的專有移動作業系統。 如果您擁有 Apple 移動設備，可通過禁用某些內置遙測功能以及強化系統內置的隱私和安全設置來增強隱私。
@@ -125,11 +125,11 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 在某些較舊的設備上，可能需要按電源按鈕五次才能禁用生物識別功能，或者具有 Touch ID 的設備，可能只需按住電源按鈕即可。 請事先嘗試此操作，以便知道哪種方法適用您的設備。
 
-**Stolen Data Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
+**被盜資料保護**是iOS 17.3 的新功能，增加了額外的安全性，當設備在解鎖時被盜時保護您的個人資料。 如在 Apple ID 設定中使用生物辨識技術和「尋找我的裝置」功能，我們建議啟用此新保護：
 
-- [x] Select **Turn On Protection**
+- [x] 選擇**開啟保護**
 
-After enabling stolen data protection, [certain actions](https://support.apple.com/en-us/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. It also adds a security delay to certain actions performed away from your home or other "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+啟用被盜資料保護後，[某些操作](https://support.apple.com/en-us/HT212510)將需要生物識別身份驗證，無需密碼回退（如果駭客准竊盜已獲得您的 PIN），例如使用密碼自動填寫功能就可訪問支付資訊並關閉遺失模式。 它還可以在住處或其他「熟悉位置」以外的地點執行的某些操作增加安全延遲，例如需要 1 小時計時器來重設 Apple ID 密碼或退出 Apple ID。 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
 
 **鎖定時允許存取** 提供您在手機鎖定時可以允許的選項。 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。 選擇不希望其他人接觸您的手機後訪問其中哪些內容。
 

@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
+meta_title: "推薦搜尋引擎: 匿名的 Google 替代方案 - Privacy Guides"
 title: "搜尋引擎"
 icon: material/search-web
-description: These privacy-respecting search engines don't build an advertising profile based on your searches.
+description: 這些尊重隱私的搜尋引擎不會根據用戶的搜尋建立廣告剖繪。
 cover: search-engines.webp
 ---
 

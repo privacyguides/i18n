@@ -84,11 +84,11 @@ Proton VPN [建議](https://protonvpn.com/blog/wireguard/) 搭配 WireGuard 使�
 
 Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://protonvpn.com/support/port-forwarding/)期間為 60 秒。 Windows 應用提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup/)。 Torrent 應用往往支援 NAT-PMP 原生。
 
-#### :material-information-outline:{ .pg-orange } Censorship Circumvention
+#### :material-information-outline:{ .pg-orange } 審查規避
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+Proton VPN 有自己的[Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) 協定，在其它 VPN 協定如 OpenVPN, Wireguard 遭封鎖時*或可*派上用場。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
 
-Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
+不幸在部署複雜過濾器分析所有對外流量以試圖發現加密隧道的國家/地區，它的效果不太好。 Stealth 也無法在 [Windows](https://github.com/ProtonVPN/win-app/issues/64) 或 Linux 上使用。
 
 #### :material-check:{ .pg-green } 手機客戶端
 
@@ -320,7 +320,7 @@ Mullvad 對 [自有或租用](https://mullvad.net/en/servers/)的節點非常透
 - 易於使用的 VPN 客戶端
 - 支援 [IPv6](https://en.wikipedia.org/wiki/IPv6)協議 我們預期伺服器將允許透過 IPv6 傳入連線，並允許您存取託管在IPv6 位址上的服務。
 - [遠端端口轉發](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 的功能可協助在使用P2P （[對等](https://en.wikipedia.org/wiki/Peer-to-peer)）檔案共享軟體或自建伺服器（例如Mumble ）時建立連接。
-- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
+- 混淆技術，利用隨機資料填充資料封包以規避網路審查。
 
 
 

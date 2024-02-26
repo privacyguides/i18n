@@ -92,7 +92,7 @@ Proton Mail 支援使用 FIDO2 或 U2F標準 的 TOTP [雙因素驗證](https://
 
 #### :material-check:{ .pg-green }電子郵件加密
 
-Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mai l帳戶的電子郵件會自動加密，並且可以在您的帳戶設置中輕鬆啟用使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密。 Proton 也支援透過 [Web 金鑰目錄 (WKD)](https://wiki.gnupg.org/WKD) 自動發現外部金鑰。 This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. 它可以 [加密非 Proton Mail 郵件地址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用帶OpenPGP 的 Proton Mail 帳戶。
+Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mai l帳戶的電子郵件會自動加密，並且可以在您的帳戶設置中輕鬆啟用使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密。 Proton 也支援透過 [Web 金鑰目錄 (WKD)](https://wiki.gnupg.org/WKD) 自動發現外部金鑰。 因此發送到使用 WKD 的其他供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換公共 PGP 金鑰。 它可以 [加密非 Proton Mail 郵件地址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用帶OpenPGP 的 Proton Mail 帳戶。
 
 Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Proton's 自身網域別名(例如 @proton.me) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
 
