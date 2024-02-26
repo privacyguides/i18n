@@ -1,7 +1,7 @@
 ---
 title: "新聞聚合器"
 icon: material/rss
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: 這些新聞聚合器客戶端可利使用 RSS 等網際網路標準來訂閱追蹤您最喜愛的部落格和新聞網站。
 cover: news-aggregators.webp
 ---
 
@@ -24,7 +24,7 @@ cover: news-aggregators.webp
 [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
@@ -44,7 +44,7 @@ cover: news-aggregators.webp
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 
@@ -65,7 +65,7 @@ cover: news-aggregators.webp
 [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 
@@ -88,7 +88,7 @@ cover: news-aggregators.webp
 [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
@@ -107,7 +107,7 @@ cover: news-aggregators.webp
 **Miniflux** 是一個網頁版的新聞聚合器，允許自行託管。 它支持 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 和 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
@@ -132,7 +132,7 @@ cover: news-aggregators.webp
 [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
@@ -178,9 +178,9 @@ cover: news-aggregators.webp
 Reddit 允許您通過 RSS 訂閱 subreddits。
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Example "例子"</p>
 
-Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
+`[SUBREDDIT]` 替換成所欲訂閱的 subreddit.
 
 ```text
 https://www.reddit.com/r/[SUBREDDIT]/new/.rss
@@ -193,9 +193,9 @@ https://www.reddit.com/r/[SUBREDDIT]/new/.rss
 您可以訂閱  YouTube頻道而無需登入，不會把使用情況資訊與Google 帳戶關聯。
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Example "例子"</p>
 
-欲透過 RSS 軟體訂閱 YouTube 頻，首先檢查該頻道的 [頻道代號](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
+欲透過 RSS 軟體訂閱 YouTube 頻，首先檢查該頻道的 [頻道代號](https://support.google.com/youtube/answer/6180214). 頻道代號可在其"關於"頁面找到，請到: **關於** > **分享** > **複製頻道 ID**. 替換下方的 `[CHANNEL ID]`:
 
 ```text
 https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
