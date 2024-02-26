@@ -14,7 +14,7 @@ cover: photo-management.webp
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit/) in March 2023.
+**ente**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 它於 2023 年 3 月接受 [Cure53 的審查](https://ente.io/blog/cryptography-audit/)。
 
 [:octicons-home-16: Homepage](https://ente.io/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -44,7 +44,7 @@ cover: photo-management.webp
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
+**Stingle** 是一款圖庫和相機應用程序，內建端對端加密備份和同步功能，適用於照片和影片。 免費帳戶的雲端儲存空間為 1GB，或者自行託管 Stingle API 伺服器來實現完全獨立。
 
 [:octicons-home-16: Homepage](https://stingle.org/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Privacy Policy" }
@@ -69,7 +69,7 @@ cover: photo-management.webp
 
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://www.photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** 是一個管理照片的自架平台。 它支援相簿同步和共享以及各種其他[功能](https://www.photoprism.app/features)。 它不包括 E2EE，因此最好將其託管在信任且能控制的伺服器上。
 
 [:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Privacy Policy" }

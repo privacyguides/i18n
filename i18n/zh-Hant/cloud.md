@@ -11,9 +11,9 @@ cover: cloud.webp
 如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟件，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。 把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客立端加密漏洞之風險。
 
 <details class="TYPE" markdown>
-<summary>Looking for Nextcloud?</summary>
+<summary>尋找 Nextcloud?</summary>
 
-Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Nextcloud 是[仍是一款受推薦的工具](productivity.md)，可用於自我託管檔案管理套件，但目前不推薦第三方 Nextcloud儲存服務提供商，我們 [[不建議使用 ](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29)Nextcloud 家庭用戶版內置的 E2EE 功能。
 
 </details>
 
@@ -31,7 +31,7 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
@@ -61,7 +61,7 @@ Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
 [:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)

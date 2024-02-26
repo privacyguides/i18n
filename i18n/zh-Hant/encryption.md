@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "推薦的加密軟件： VeraCrypt, Cryptomat, PicoCrypt 和 OpenPGP - Privacy Guides"
 title: "加密軟體"
 icon: material/file-lock
-description: 數據加密是控制誰可以訪問它的唯一方法。 These tools allow you to encrypt your emails and any other files.
+description: 數據加密是控制誰可以訪問它的唯一方法。 這些工具允許您加密電子郵件和任何其他檔案。
 cover: encryption.webp
 ---
 
@@ -27,7 +27,7 @@ cover: encryption.webp
 [:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
@@ -60,7 +60,7 @@ Cryptomator  詳細介紹了其預期的 [安全目標](https://docs.cryptomator
 [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
 - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -85,7 +85,7 @@ Cryptomator  詳細介紹了其預期的 [安全目標](https://docs.cryptomator
 [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
@@ -125,9 +125,9 @@ VeraCrypt< /a> ，因為它們提供了額外的靈活性避免供應商鎖定�
 BitLocker [僅支援](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838)  Windows 專業版、企業版和教育版。 它可以在家庭版上啓用，只要符合先決條件。
 
 <details class="example" markdown>
-<summary>Enabling BitLocker on Windows Home</summary>
+<summary>Windows Home上啓用BitLocker</summary>
 
-To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+若要在 Windows 家用版啟用 BitLocker ，必須使用 [GUID 分割表](https://en.wikipedia.org/wiki/GUID_Partition_Table) 格式化的分割區，並且具有專用的TPM (v1.2, 2.0+)模組。 如果在遵循本指南之前已在裝置上啟用，則要[停用非Bitlocker「裝置加密」功能](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5)](因為它會將您的復原金鑰傳送到Microsoft 的伺服器)。
 
 1. 開啟命令提示符，並使用以下命令檢查磁碟機的分區表格格式。 您應該會在“分區樣式”下方看到“**GPT**” ： 
    
@@ -166,7 +166,7 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
    ```
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">溫馨提示</p>
 
 將桌面上的「BitLocker-Recovery-Key.txt」備份到單獨的儲存裝置。 若遺失恢復代碼可能會導致資料無法回復。
 
@@ -211,7 +211,7 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
 </div>
 
 <details class="example" markdown>
-<summary>Creating and opening encrypted containers</summary>
+<summary>建立和開啟加密容器</summary>
 
 ```bash
 dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
@@ -221,9 +221,9 @@ sudo cryptsetup luksFormat /path-to-file
 
 
 
-#### Opening encrypted containers
+#### 開啟加密容器
 
-We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). 大多數檔案管理器，例如流行的桌面環境中包含的檔案管理器，都可以解鎖加密的檔案。 Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+建議使用 `udisksctl` 打開容器和磁碟區，因為它使用 [Polkit](https://en.wikipedia.org/wiki/Polkit)。 大多數檔案管理器，例如流行的桌面環境中包含的檔案管理器，都可以解鎖加密的檔案。 像 [udiskie](https://github.com/coldfix/udiskie) 這類工具可以在系統工作列運行並提供有用的使用者介面。
 
 
 
@@ -236,9 +236,9 @@ udisksctl unlock -b /dev/loop0
 </details>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Remember to back up volume headers</p>
+<p class="admonition-title">記得備份磁區標頭</p>
 
-我們建議您務必 [備份您的LUKS標頭](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) 以防部分驅動器故障。 This can be done with:
+我們建議您務必 [備份您的LUKS標頭](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) 以防部分驅動器故障。 可透過以下指令達成
 
 ```bash
 cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
@@ -267,7 +267,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 [:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-windows11: Windows](https://www.kryptor.co.uk)
 - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -301,13 +301,9 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 使用 PGP 加密時，您可以選擇在 `gpg.conf` 檔案中設定不同的選項。 我們建議您繼續使用 [ GnuPG 用戶常見問題集](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf)中指定的標準選項。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use future defaults when generating a key</p>
+<p class="admonition-title">在生成金鑰時使用未來的預設值</p>
 
-When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
-
-```bash
-gpg --quick-gen-key alice@example.com future-default
-```
+[製作金鑰](https://www.gnupg.org/gph/en/manual/c14.html)時，建議使用`future-default` 指令，它將指示 GnuPG 使用現代密碼學，例如[Curve25519]( https://en.wikipedia.org/wiki/Curve25519#History）及[Ed25519]（https://ed25519.cr.yp.to/）：
 
 </div>
 
@@ -325,7 +321,7 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -351,7 +347,7 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
@@ -362,7 +358,7 @@ gpg --quick-gen-key alice@example.com future-default
 ### GPG Suite
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Note "備註"</p>
 
 我們建議 [Canary Mail](email-clients.md#canary-mail) 在iOS裝置上使用PGP和電子郵件。
 
@@ -382,7 +378,7 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -404,7 +400,7 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 

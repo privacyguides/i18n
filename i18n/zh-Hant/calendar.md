@@ -1,7 +1,7 @@
 ---
 title: "行事曆同步"
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: 行事曆包含一些您最敏感的資料，使用實現靜態加密的產品。
 cover: calendar.webp
 ---
 
@@ -24,7 +24,7 @@ cover: calendar.webp
 [:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
@@ -52,7 +52,7 @@ cover: calendar.webp
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
