@@ -29,7 +29,7 @@ cover: real-time-communication.webp
 [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -75,7 +75,7 @@ Contact lists on Signal are encrypted using your Signal PIN and the server does 
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
@@ -107,7 +107,7 @@ SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式
 [:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
 - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
@@ -151,7 +151,7 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 [:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -189,7 +189,7 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)

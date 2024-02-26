@@ -17,7 +17,7 @@ cover: desktop.webp
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** is our recommended distribution for people new to Linux. Fedora 通常較其他發行版更早採用較新技術，例如 [Wayland](https://wayland.freedesktop.org/) ， [PipeWire](https://pipewire.org)。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
+**Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora 通常較其他發行版更早採用較新技術，例如 [Wayland](https://wayland.freedesktop.org/) ， [PipeWire](https://pipewire.org)。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
@@ -92,13 +92,13 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org/)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. However, we don't recommend the last of these as the Budgie desktop environment [still requires X11](https://buddiesofbudgie.org/blog/wayland).
 
-These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
+These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
 
-After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
+更新完成後，您將重新啟動系統進入新的部署。 `rpm-ostree` 保留系統的兩個部署，以便在新部署中出現故障時可以輕鬆回滾。 還可以根據需要固定更多部署。
 
-[Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
+[Flatpak](https://www.flatpak.org) 是這些發行版本的主要套件安裝方式，而 `rpm-ostree` 只用在基礎映像上疊加那些無法留在容器的套件。
 
-As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
+作為 Flatpaks 替代品， [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/)可以建立 [Podman](https://podman.io) 容器，與主機系統共用主目與仿傳統 Fedora 環境。挑剔的開發者 [喜歡這個功能](https://containertoolbx.org)。
 
 ### NixOS
 
@@ -116,15 +116,15 @@ NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和�
 
 </div>
 
-NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
+NixOS’ 套件管理器 將各個套件版本儲存在**Nix store** 底下不同的資料夾。 因此，您可以在系統上安裝相同套件的不同版本。 套件內容寫入資料夾後，該資料夾會變成唯讀。
 
-NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
+NixOS 還提供原子更新：它會下載或(建立)新系統生成需要的套件和檔案，然後切換到新系統。 有不同的方法來切換到新代系統：讓 NixOS 重新啟動時激活它，或者在運行時切換。 也可以在運行時間切換到新代系統來 *測試*，但不將它設成當前系統。 如果更新過程中出現打斷，可以重新啟動並自動返回到系統的工作版本。
 
-Nix the package manager uses a purely functional language - which is also called Nix - to define packages.
+Nix 套件管理器使用純函數式語言（也稱為Nix ）來定義套件。
 
-[Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single GitHub repository. You can also define your own packages in the same language and then easily include them in your config.
+[Nixpkgs](https://github.com/nixos/nixpkgs) （套件的主要來源）包含在單一的 GitHub 儲存庫中。 您也可以用相同的語言定義自己的套件，然後輕鬆地將它們包含在您的配置中。
 
-Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
+Nix是一個基於源的套件管理器；如果二進位快取中沒有預先構建的可用性， Nix 只會使用其定義從源構建套件。 它在沙盒 *純* 環境中構建每個套件，盡可能獨立於主機系統，從而使二進制文件可重現。
 
 ## 以匿名爲重點的發行版
 
@@ -145,11 +145,11 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 </div>
 
-Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
+Whonix 運行兩個虛擬機器：一個“工作站”和一個 Tor “閘道”。 來自工作站的所有通訊都必須通過 Tor 閘道。 這意味著，即使工作站受到某種惡意軟體的破壞，真實的IP地址仍然隱藏。
 
-Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Whonix 未來版本可能包括 [完整系統 AppArmor](https://github.com/Whonix/apparmor-profile-everything) 和 [個沙盒應用程式啟動器](https://www.whonix.org/wiki/Sandbox-app-launcher) ，以完全限制系統上的所有進程。
 
-Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
+Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). 我們 [曾建議](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring in conjunction with a VPN 在 Qubes 底下與 ProxyVM 一起設定 Whonix 以便能對 ISP 隱瞞 Tor 的活動狀況。
 
 ### Tails
 
@@ -174,11 +174,11 @@ Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) t
 
 </div>
 
-Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
+由於失憶功能(意指沒有寫入磁碟)，Tails 非常適合對抗資料探集；然而，它不像 Whonix 那樣是硬化發行版。 它缺乏 Whonix 的許多匿名和安全功能，並且更新頻率較低（每六周一次）。 被惡意軟體入侵的 Tails 系統可能會繞過透明代理，使用戶去匿名化。
 
-Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
+Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origin) ，這可能會使對手更容易指紋識別 Tails 用戶。 [Whonix](desktop.md#whonix) 虛擬機器可能更為防洩漏may be more leak-proof, however they are not amnesic, ，但它沒有失憶功能，因此資料可以從儲存設備上進行恢復。
 
-By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
+設計上， Tails 每次重新啟動後意謂將完全重置。 加密 [永久存儲](https://tails.boum.org/doc/persistent_storage/index.en.html) 可以配置來存儲一些資料。
 
 ## 以安全爲重點的發行版
 
@@ -201,13 +201,13 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 </div>
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的 *qubes*以保護電腦。 如果系統的一部分被破壞，其餘的 *qubes*與核心系統仍受到保護。
 
-For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+有關 Oubes 運作的進一步資訊，請參考我們完整的 [Qubes OS 介紹](os/qubes-overview.md) 頁面。
 
 ### Kicksecure
 
-While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+雖然我們在大多數情況下[建議不要](os/linux-overview.md#release-cycle)使用“永遠過時”的發行版，例如用於桌面的 Debian，但 Kicksecure 是一個基於 Debian 的操作系統，其功能已強化，遠遠超出了典型的 Linux 安裝。
 
 <div class="admonition recommendation" markdown>
 
@@ -227,7 +227,7 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 ## 標準
 
-Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
+選擇適合您的 Linux 發行版取決於個人喜好差異，本頁**並非**是每一款發行版的詳盡列表。 我們在 Linux 介紹頁有更詳細的 [如何選擇發行版本](os/linux-overview.md#choosing-your-distribution) 的說明。 *這個*頁面上的發行版通常都遵循我們介紹的指南，且都滿足以下標準：
 
 - 免費且開放原始碼。
 - 必須定期接收軟體和內核更新。
@@ -240,4 +240,4 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
 - 偏好較大型的專案。
     - 維護作業系統是一項大挑戰，小型專案往往會犯更多可避免的錯誤，或延遲重大更新（或更糟糕的是，很快就完全消失）。 我們傾向於至少可維持10 年的專案（無論是由於公司支持還是非常重要的社區支持），而不是手工構建或只有少數維護人員的專案。
 
-In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+此外，[我們推薦專案的一般準則](about/criteria.md) 仍然適用。 **請注意我們和所推薦的服務商沒有任何利害關係。**

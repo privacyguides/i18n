@@ -1,20 +1,20 @@
 ---
 title: "電子郵件客戶端程式"
 icon: material/email-open
-description: These email clients are privacy-respecting and support OpenPGP email encryption.
+description: 這些電子郵件客戶端尊重隱私並支持OpenPGP電子郵件加密。
 cover: email-clients.webp
 ---
 
 我們的推薦清單包含支援 [OpenPGP](encryption.md#openpgp) 和如[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth)強認證的電子郵件用戶端 。 OAuth允許您使用 [多因素驗證](basics/multi-factor-authentication.md) 並防止帳戶被盜。
 
 <details class="warning" markdown>
-<summary>Email does not provide forward secrecy</summary>
+<summary>電子郵件不提供前向保密</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
+當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些未加密的[元數據](email.md#email-metadata-overview)。
 
-OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
+OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy)，這意味著如果你或收件人的私鑰被盜，所有以前用它加密的訊息都會被曝光：[[如何保護我的私鑰？](basics/email-security.md)考慮使用提供前向保密的媒介：
 
-[Real-time Communication](real-time-communication.md ""){.md-button}
+[即時通訊軟體](real-time-communication.md ""){.md-button}
 
 </details>
 
@@ -26,7 +26,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
+**Thunderbird** 是一個免費、開源、跨平臺的電子郵件、新聞組、新聞提要和聊天(XMPP、IRC、Matrix)客戶端，由Thunderbird 社區開發，之前由 Mozilla 基金會開發。
 
 [:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
@@ -34,7 +34,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-windows11: Windows](https://www.thunderbird.net)
 - [:simple-apple: macOS](https://www.thunderbird.net)
@@ -97,7 +97,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 [:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
@@ -131,7 +131,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 [:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
 - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
@@ -155,7 +155,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 [:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
@@ -180,7 +180,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
 - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
@@ -211,7 +211,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 [:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-linux: Linux](https://kontact.kde.org/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -234,7 +234,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -260,7 +260,7 @@ NeoMutt 是一個文字指令的客戶端，具有陡峭的學習曲線。 然�
 [:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-apple: macOS](https://neomutt.org/distro)
 - [:simple-linux: Linux](https://neomutt.org/distro)
