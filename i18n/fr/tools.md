@@ -11,7 +11,7 @@ Si vous cherchez une solution spécifique à un problème, voici pour diverses c
 
 Si vous souhaitez obtenir de l'aide pour trouver quels sont les outils de protection de la vie privée et les alternatives les plus adaptés à vos besoins, lancez une discussion sur notre [forum](https://discuss.privacyguides.net/) ou sur notre communauté [Matrix](https://matrix.to/#/#privacyguides:matrix.org) !
 
-Pour plus de détails sur chaque projet, les raisons pour lesquelles ils ont été choisis, et d'autres conseils ou astuces que nous recommandons, cliquez sur le lien "En savoir plus" dans chaque section, ou cliquez sur la recommandation en question pour accéder à cette section spécifique de la page.
+Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont été choisis, ou pour connaître d'autres conseils ou astuces que nous préconisons, cliquez sur le lien « En savoir plus » dans chaque section, ou cliquez sur la recommandation pour accéder à la section correspondante de cette page.
 
 ## Réseau Tor
 
@@ -221,7 +221,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ## Logiciels
 
-### Synchronisation de calendrier
+### Calendriers synchronisés
 
 <div class="grid cards" markdown>
 
