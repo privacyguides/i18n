@@ -7,7 +7,7 @@ cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org
-    "@type": WebPage
+    "@type": 網頁
     name: Password Manager建議
     url: "./"
   - 
@@ -26,7 +26,7 @@ schema:
       - iOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -44,7 +44,7 @@ schema:
       - iOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -58,7 +58,7 @@ schema:
       - iOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -74,7 +74,7 @@ schema:
       - Linux
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -86,7 +86,7 @@ schema:
     operatingSystem: Android
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -98,7 +98,7 @@ schema:
     operatingSystem: iOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -114,7 +114,7 @@ schema:
       - FreeBSD
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
 ---
 

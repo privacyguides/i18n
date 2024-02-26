@@ -7,7 +7,7 @@ cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org
-    "@type": WebPage
+    "@type": 網頁
     name: 私人桌面瀏覽器建議
     url: "./"
     relatedLink: "../mobile-browsers/"
@@ -23,7 +23,7 @@ schema:
       - macOS
       - Linux
     subjectOf:
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -38,7 +38,7 @@ schema:
       - macOS
       - Linux
     subjectOf:
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -53,7 +53,7 @@ schema:
       - macOS
       - Linux
     subjectOf:
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
 ---
 
@@ -75,7 +75,7 @@ schema:
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -122,7 +122,7 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
 [:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
@@ -136,7 +136,7 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，並使用 Firefox 中的遙測技術傳送令牌。 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/)的更新**不**包含該令牌。
 
 </div>
 
@@ -209,7 +209,7 @@ Max Protection 強制使用 HTTPS 上的 DNS，如果 Firefox 無法連線到安
 ### Arkenfox （進階）
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">使用Mullvad 瀏覽器進階防指紋辨識</p>
 
 [Mullvad瀏覽器](#mullvad-browser) 提供與 Arkenfox 相同的防指紋保護，不需要使用 Mullvad VPN 就能獲得這些保護。 再加上VPN ， Mullvad 瀏覽器可以阻擋 Arkenfox 無法處理的更先進追蹤腳本。 Arkenfox 仍具有更靈活的優勢，可以對需要繼續登錄的網站設置例外。
 
@@ -236,7 +236,7 @@ Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有�
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download/)
@@ -272,13 +272,12 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] 選擇 **防止網站根據語言偏好進行指紋辨識**
+- [x] 在追蹤器和廣告封鎖下選擇 **侵略性**
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
-
-Brave allows you to select additional content filters within the internal `brave://adblock` page. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+<summary>使用預設過濾器列表</summary>
+Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
 </details>
 
@@ -300,23 +299,27 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] 選取 **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] 取消選取 **使用 Google 服務來推送訊息**
+- [ ] 取消選取 **同意隱私防護的產品分析 (P3A)**
+- [ ] 取消選取 **自動發送每日使用呼叫至 Brave**
+- [ ] 取消選取 **自動傳送診斷報告**
+- [ ] 取消選取 **使用 Tor 的私密視窗** (1)
+
+ !!!
 
 </div>
 
 1. Brave在瀏覽器指紋識別的抵抗力是 **不如** Tor 瀏覽器，且BraveTor 使用者少，容易被突出。 如果需要 [強大的匿名性](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) ，請使用 [Tor瀏覽器](tor.md#tor-browser)。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Sanitizing on close</p>
+<p class="admonition-title">關閉時消毒</p>
 
-- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+tip "關閉時進行消毒"
 
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+ - [x] 選擇 在 **Cookies 和其他網站資料**選單中**關閉所有視窗時清除 cookies 和網站資料選單**
+
+ 如果希望繼續登入經常訪問的特定網站，可以在*自訂行為*處根據每個網站設定例外情況。
 
 </div>
 
@@ -372,7 +375,7 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
@@ -409,7 +412,7 @@ uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集�
 [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
@@ -453,7 +456,7 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 
 - 包括內置的內容攔截功能。
 - 支持cookie分割（à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)）。
-- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. 這可能比安裝 Electron 應用程式更有優勢，因為您可以受益於瀏覽器定期安全更新。
+- 支援漸進式網絡應用程式 PWA 可讓您安裝某些網站，就像是電腦上的原生應用程式一樣。 這可能比安裝 Electron 應用程式更有優勢，因為您可以受益於瀏覽器定期安全更新。
 - 不包括不影響用戶隱私的附加功能(bloatware)。
 - 預設情況下不收集遙測。
 - 提供開源同步伺服器實作。

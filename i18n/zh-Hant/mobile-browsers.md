@@ -7,7 +7,7 @@ cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
-    "@type": WebPage
+    "@type": 網頁
     name: 私人行動瀏覽器建議
     url: "./"
     relatedLink: "../desktop-browsers/"
@@ -21,7 +21,7 @@ schema:
     operatingSystem:
       - Android
     subjectOf:
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -33,7 +33,7 @@ schema:
     operatingSystem:
       - iOS
     subjectOf:
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
 ---
 
@@ -60,7 +60,7 @@ Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有�
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -85,12 +85,11 @@ Shields 可以選擇根據需要依各網站情況降級，但我們建議預設
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under **Block trackers & ads**
+- [x] **阻止追蹤器和廣告**底下請選擇**積極**
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
-
-Brave allows you to select additional content filters within the internal `brave://adblock` page. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+<summary>使用預設過濾器列表</summary>
+Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
 </details>
 
@@ -141,7 +140,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+**Safari** 是iOS 預設瀏覽器。 它包括[隱私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0)，例如[預防智慧追蹤](https://webkit .org/blog/7675/intelligent-tracking-prevention/)、隱私權報告、獨立且短暫的私密瀏覽標籤、iCloud 私密中繼、透過隨機化向網站呈現系統配置的簡化版以實現指紋保護，讓更多設備看起來差不多一樣，使用生物識別資訊/PIN 鎖定私人標籤的能力。 它可以使用不同的配置檔來分開瀏覽。
 
 [:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
@@ -153,11 +152,11 @@ Brave allows you to select additional content filters within the internal `brave
 
 #### 建議配置
 
-These options can be found in :gear: **Settings** → **Safari**
+這些選項可以在 :gear: **Safari** →**設定**中找到。
 
-##### Profiles
+##### 設定檔
 
-All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+所有 cookie、歷史記錄和網站資料對於每個設定檔都是獨立的。 您應該將不同設定檔用於不同目的，例如 購物、工作或上學。
 
 ##### 隱私 & 安全
 
@@ -165,15 +164,15 @@ All of your cookies, history, and website data will be separate for each profile
 
     這將啟用 WebKit [智慧型跟蹤保護](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能透過設備的機器學習來阻止跟蹤器不必要的跟蹤。 ITP 可以防止許多常見的威脅，但它不會阻止所有跟蹤途徑，因為它的設計不會干擾網站的可用性。
 
-- [x] Enable **Require Face ID to Unlock Private Browsing**
+- [x] 啟用**需要Face ID 才能解鎖私密瀏覽**
 
-    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+    此設定可將私人分頁在不使用時鎖定在生物辨識/PIN 裏。
 
-##### Advanced → Privacy
+##### 進階 → 隱私
 
-The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+**進階追蹤與指紋辨識保護**設定將隨機化某些值，以便更難進行指紋辨識：
 
-- [x] Select **All Browsing** or **Private Browsing**
+- [x] 選擇 **所有瀏覽** 或 **私密瀏覽**
 
 ##### 隱私報告
 
@@ -225,7 +224,7 @@ iOS 版 AdGuard 有一些高級功能；然而，標準Safari 內容封鎖是免
 [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
 

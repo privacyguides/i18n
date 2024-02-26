@@ -50,11 +50,11 @@ cover: device-integrity.webp
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
-公開的損壞指標不足以確定設備是“乾淨的”、非特定間諜軟體工具的目標。 Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
+公開的損壞指標不足以確定設備是“乾淨的”、非特定間諜軟體工具的目標。 僅依賴公開指標可能會錯過最新的鑑證痕跡並給予錯誤的安全感。
 
 可靠且全面的數位鑑識支援和分類需要存取非公開指標、研究和威脅情報。
 
-Such support is available to civil society through [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) or [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/).
+可透過 [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) 或 [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/) 取得公民社會的此類支援。
 
 </div>
 
@@ -66,7 +66,7 @@ Such support is available to civil society through [Amnesty International's Secu
 
 ![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) is a collection of utilities which simplifies and automates the process of scanning mobile devices for potential traces of targeting or infection by known spyware campaigns. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project/).
+**Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描移動設備的過程，查找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [Pegasus 專案](https://forbiddenstories.org/about-the-pegasus-project/) 背景下發布。
 
 [:octicons-home-16: Homepage](https://mvt.re/){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
@@ -108,7 +108,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存可用於分類潛在�
 
 ![iMazing logo](assets/img/device-integrity/imazing.png){ align=right }
 
-**iMazing** provides a free spyware analyzer tool for iOS devices which acts as a GUI-wrapper for [MVT](#mobile-verification-toolkit). This can be much easier to run compared to MVT itself, which is a command-line tool designed for technologists and forensic investigators.
+**iMazing** 為 iOS 裝置提供免費的間諜軟體分析工具，充當 [MVT](#mobile-verification-toolkit) 的圖形介面包裝器。 相比 MVT ，它更容易運行，前者是專為技術人員和法醫調查人員設計的命令列工具。
 
 [:octicons-home-16: Homepage](https://imazing.com/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -197,7 +197,7 @@ Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的�
 ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
+**Hypatia** 適用於 Android 的開源即時惡意軟體掃描程式，由 [DivestOS](android.md#divestos) 的人員開發。 它訪問網際網路下載簽名資料庫更新，但不會將您的檔案或任何元資料上傳到雲端（掃描完全在本地執行）。
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
@@ -221,7 +221,7 @@ Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟
 
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** is an iOS app which automatically scans your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or spyware such as Pegasus.
+**iVerify** 是一款 iOS 應用程式，會自動掃描裝置檢查配置設定、修補程式等級和其他安全性領域。 它還會檢查裝置是否有被越獄工具或間諜軟體（例如 Pegasus）入侵的跡象。
 
 [:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Privacy Policy" }

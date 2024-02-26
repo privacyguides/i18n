@@ -1,14 +1,14 @@
 ---
-meta_title: "Android Recommendations: GrapheneOS and DivestOS - Privacy Guides"
+meta_title: "Android 推薦: GrapheneOS 與 DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: Android 手機可考慮使用這些更為安全與尊重隱私的作業系統。
 cover: android.webp
 schema:
   - 
     "@context": http://schema.org
-    "@type": WebPage
-    name: Private Android Operating Systems
+    "@type": 網頁
+    name: 私密 Android 作業系統
     url: "./"
   - 
     "@context": http://schema.org
@@ -26,7 +26,7 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 網頁
       url: "./"
   - 
     "@context": http://schema.org
@@ -96,7 +96,7 @@ schema:
 根據設備與這些作業系統的兼容性，列出偏好順序以安裝我們推薦的某款定制 Android 作業系統。
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Note "備註"</p>
 
 由於 OEM 停止支持，壽命終止的設備（如GrapheneOS或CalyxOS的 "延長支授 "設備）沒有完整的安全補丁（軔體更新）。 這些設備無論安裝何種軟體，都不能視為完全安全。
 
@@ -134,7 +134,7 @@ Google Pixel 手機是目前唯一符合 GrapheneOS [硬體安全要求](https:/
 ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
 
 **DivestOS** 是 [LineageOS](https://lineageos.org/)的分支。
-DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. 它具有簽名的建置，因此可在某些非 Pixel 設備上執行 [verified boot](https://source.android.com/security/verifiedboot)。
+DivestOS 從 LineageOS 繼承了許多[支援的設備](https://divestos.org/index.php?page=devices&base=LineageOS)。 它具有簽名的建置，因此可在某些非 Pixel 設備上執行 [verified boot](https://source.android.com/security/verifiedboot)。
 
 [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
@@ -166,7 +166,7 @@ DivestOS 軔體更新 [status](https://gitlab.com/divested-mobile/firmware-empty
 
 避免從電信行動營運商購置手機。 它們往往 **鎖定 bootloader** 也不支援 [OEM 解鎖](https://source.android.com/devices/bootloader/locking_unlocking)。 這類手機變體阻止安裝任何替代的 Android 發行版。
 
-從網路市集購買二手手機必須要非常**小心**。 請檢查賣家的信譽 If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). 前一位持有者的活動發生關係也將有風險。
+從網路市集購買二手手機必須要非常**小心**。 請檢查賣家的信譽 如果設備被盜，它有可能被輸入到 [IMEI 資料庫](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database)。 前一位持有者的活動發生關係也將有風險。
 
 對於 Android 設備與作業系統相容有一些提示:
 
@@ -248,7 +248,7 @@ Shelter 阻止聯繫人利用默認檔案管理器([DocumentsUI](https://source.
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載 Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -265,7 +265,7 @@ Shelter 阻止聯繫人利用默認檔案管理器([DocumentsUI](https://source.
 - 除非需錄制聲音，否則無需麥克風權限。
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Note "備註"</p>
 
 目前影片沒有刪除中繼資料，未來計畫要刪除。
 
@@ -289,7 +289,7 @@ Shelter 阻止聯繫人利用默認檔案管理器([DocumentsUI](https://source.
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary> 下載: Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -314,7 +314,7 @@ Shelter 阻止聯繫人利用默認檔案管理器([DocumentsUI](https://source.
 [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -343,7 +343,7 @@ Google Play商店需要登錄 Google 帳戶，這對隱私來說不是很好。 
 [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
