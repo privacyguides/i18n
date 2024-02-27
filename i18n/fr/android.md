@@ -16,7 +16,7 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://fr.wikipedia.org/wiki/Android
+    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
   - 
     "@context": http://schema.org
     "@type": CreativeWork
@@ -47,7 +47,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://fr.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:

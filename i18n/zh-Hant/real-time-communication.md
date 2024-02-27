@@ -51,7 +51,7 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 5. 選擇**手機號碼r**
 6. 將**誰可看見我的號碼**設置為: **Nobody**
 
-You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
+若想防止已知您手機號碼的人可以找到您的 Signal 帳號或用戶名稱，也可以選擇把 **誰可看見我的號碼** 設置為**無人可見** 。
 
 連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal 支援[私密 群組](https://signal.org/blog/signal-private-group-system/)，伺服器不會記錄該群組成員資格、群組標題、群組頭像，或群組屬性。 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender/) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
 
@@ -124,14 +124,14 @@ Briar 要新增聯絡人，必須先彼此互加。 您可以交換 `briar://` �
 
 Briar有一個完整 [發布的規範](https://code.briarproject.org/briar/briar-spec)。
 
-Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 和[Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md)協定來支持前向保密。
 
 ## 額外選項
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
+這些通訊軟體無向前保密[^1]，雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
 
 </div>
 
@@ -141,7 +141,7 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
+**Element** 是 [Matrix](https://matrix.org/docs/guides/introduction) 協議的參考[用戶端](https://matrix.org/ecosystem/clients/) ，這是一個 [開放標準](https://matrix.org/docs/spec) 、安全去中心化實時通訊。
 
 在私人聊天室（需透過邀請加入）共享的訊息和文件預設為 E2EE ，一對一的語音和視訊通話也是如此。
 
@@ -169,7 +169,7 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 羣組語音和視視通話 [則不是](https://github.com/vector-im/element-web/issues/12878) E2EE ，而是使用Jitsi ，但預計將隨著 [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401)而發生變化。 群組通目前 [沒有驗證](https://github.com/vector-im/element-web/issues/13074) ，因此其它人員也可以加入。 我們建議您不要將此功能用於私人會議。
 
-The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
+Matrix 協議本身[理論上支持前向保密](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy) [^1]，但[ Element 目前不支援](https:/ / github.com/vector-im/element-web/issues/7101)，因為會破壞某方面的使用者體驗，例如金鑰備份和共享訊息歷史記錄。
 
 其協議在 2016年獨立進行了 [審計](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) 。 Matrix 協議的規範可以在他們的 [文檔](https://spec.matrix.org/latest/)中找到。 Matrix 使用的 [Olm 加密棘輪](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/)是執行Signal [Double Ratchet 演算法](https://signal.org/docs/specifications/doubleratchet/)。
 
@@ -204,11 +204,11 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 
 會話允許E2EE在一對一聊天或封閉羣組中，最多可容納100名成員。 開放羣組對成員數量沒有限制，從設計上來說是開放的。
 
-Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
+Session 先前基於 Signal 協議，並於 2020 年 12 月替換為自己的協議。 Session 協議[不](https://getsession.org/blog/session-protocol-technical-information)支持前向保密。<sup id="fnref3:1"><a href= "#fn:1" class="footnote-ref">1</a></sup>
 
-Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+2020年3月Oxen 對 Session 進行獨立審計。 審計 [在2021年4月完成](https://getsession.org/session-code-audit) ， “此應用程式整體安全級別良好，可供關注隱私的人使用。
 
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
+Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程式和協議的技術。
 
 ## 標準
 
@@ -221,22 +221,22 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 </div>
 
-- Has open-source clients.
-- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
-- Uses E2EE for private messages by default.
-- Supports E2EE for all messages.
-- Has been independently audited.
+- 有開源客戶端。
+- 無需與聯絡人共用個人識別碼（特別是電話號碼或電子郵件）。
+- 私人訊息預設必須使用E2EE。
+- 支援所有訊息都可 E2EE。
+- 進行獨立審計。
 
 ### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Supports Forward Secrecy[^1]
-- Supports Future Secrecy (Post-Compromise Security)[^2]
-- Has open-source servers.
-- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
-- Uses E2EE for all messages by default.
-- Supports Linux, macOS, Windows, Android, and iOS.
+- 支持前向保密[^1]
+- 支持未來保密（入侵後安全）[^2]
+- 開源伺候器。
+- 去中心化，即[聯邦式或 P2P](advanced/communication-network-types.md)。
+- 所有訊息預設為使用 E2EE。
+- 支援多平台 Linux、macOS、Windows、Android 和 iOS。
 
-[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
-[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.
+[^1]: [前向保密](https://en.wikipedia.org/wiki/Forward_secrecy)金鑰輪換非常頻繁，因此，如果當前加密金鑰被洩露，也不會暴露**過去**訊息
+[^2]: 未來保密（或洩漏後安全）是防止攻擊者利用洩露的私鑰解密**未來**訊息，除非攻擊者將來也能取得更多會話金鑰。 This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.
