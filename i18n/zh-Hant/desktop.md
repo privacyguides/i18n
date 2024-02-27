@@ -73,7 +73,7 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 ## Atomic Distributions
 
-**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. This has advantages including increased stability and the ability to easily rollback updates. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
+**原子發行版**（有時也稱為**不可變發行版**）是透過分層處理軟體包安裝和更新的作業系統更改核心系統映像，而不是直接修改系統。 其優點包括提高穩定性和輕鬆回滾更新的能力。 請見 [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) 更深入了解。
 
 ### Fedora Atomic Desktops
 
@@ -81,7 +81,7 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. 這些變體版都遵循 Fedora Workstation 同樣的發佈時間表，受益於相同的快速更新並保持非常接近上遊。
+**Fedora Atomic Desktops** 是 Fedora 的變體，它使用「rpm-ostree」套件管理器，專注於容器化工作流程和桌面應用程式的 Flatpak。 這些變體版都遵循 Fedora Workstation 同樣的發佈時間表，受益於相同的快速更新並保持非常接近上遊。
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
 [:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
@@ -90,9 +90,9 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 </div>
 
-The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org/)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. However, we don't recommend the last of these as the Budgie desktop environment [still requires X11](https://buddiesofbudgie.org/blog/wayland).
+[Fedora Atomic Desktop](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) 有多種桌面環境風格可挑選，例如 **Fedora Silverblue**（[GNOME](https://www.gnome.org/) 一起提供）、**Fedora Kinoite**（隨[KDE](https://kde.org/) 提供）、**Fedora Sway Atomic** > 或**Fedora Budgie Atomic**。 但不推薦最後一個，因為 Budgie 桌面環境[仍需要 X11](https://buddiesofbudgie.org/blog/wayland)。
 
-These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
+這些作業系統與 Fedora Workstation 不同，它們用更高級方式替換了[DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) 套件 管理器，其叫作[`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/)。 `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
 
 更新完成後，您將重新啟動系統進入新的部署。 `rpm-ostree` 保留系統的兩個部署，以便在新部署中出現故障時可以輕鬆回滾。 還可以根據需要固定更多部署。
 
@@ -147,9 +147,9 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 Whonix 運行兩個虛擬機器：一個“工作站”和一個 Tor “閘道”。 來自工作站的所有通訊都必須通過 Tor 閘道。 這意味著，即使工作站受到某種惡意軟體的破壞，真實的IP地址仍然隱藏。
 
-Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Whonix 未來版本可能包括 [完整系統 AppArmor](https://github.com/Whonix/apparmor-profile-everything) 和 [個沙盒應用程式啟動器](https://www.whonix.org/wiki/Sandbox-app-launcher) ，以完全限制系統上的所有進程。
+它的功能包括Tor 串流隔離、[擊鍵匿名](https://www.whonix.org/wiki/Keyrinkle_Deanonymization#Kloak)、[加密交換](https://github. com /Whonix/swap-file-creator)，以及強化的記憶體分配器。 Whonix 未來版本可能包括 [完整系統 AppArmor](https://github.com/Whonix/apparmor-profile-everything) 和 [個沙盒應用程式啟動器](https://www.whonix.org/wiki/Sandbox-app-launcher) ，以完全限制系統上的所有進程。
 
-Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). 我們 [曾建議](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring in conjunction with a VPN 在 Qubes 底下與 ProxyVM 一起設定 Whonix 以便能對 ISP 隱瞞 Tor 的活動狀況。
+Whonix 最好[與 Qubes 結合使用](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers)。 我們 [曾建議](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring in conjunction with a VPN 在 Qubes 底下與 ProxyVM 一起設定 Whonix 以便能對 ISP 隱瞞 Tor 的活動狀況。
 
 ### Tails
 
@@ -170,7 +170,7 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) the [video memory](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) when shutting down. When you restart your computer after using Tails, it might briefly display the last screen that was displayed in Tails. If you shut down your computer instead of restarting it, the video memory will erase itself automatically after being unpowered for some time.
+Tails 關閉後[不會抹除](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) [視訊記憶體](https://en.wikipedia.org/wiki/Dual- ported_video_RAM) 。 使用 Tails 後重新啟動電腦時，電腦可能會短暫顯示之前 Tails 最後一個畫面。 如果是關閉電腦而不是重新啟動，則影像記憶會在斷電一段時間後自動擦除。
 
 </div>
 

@@ -1,8 +1,8 @@
 ---
-meta_title: "The Best Private Instant Messengers - Privacy Guides"
+meta_title: "最好的私人即時通訊軟體 - Privacy Guides"
 title: "即時通訊軟體"
 icon: material/chat-processing
-description: Other instant messengers make all of your private conversations available to the company that runs them.
+description: 其他即時通訊則會讓用戶所有的私人對話被該軟體公司取得。
 cover: real-time-communication.webp
 ---
 
@@ -20,7 +20,7 @@ cover: real-time-communication.webp
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** 是由Signal Messenger LLC開發的行動應用程式。 The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** 是由Signal Messenger LLC開發的行動應用程式。 這款應用程式透過 Signal 協議來保護即時訊息和通話，它是極其安全的加密協議，支援前向保密[^1] 和洩露後安全性。[^2]
 
 [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -42,18 +42,18 @@ cover: real-time-communication.webp
 
 </div>
 
-Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱藏手機號碼：
 
-1. In Signal, open the app's settings and tap your account profile at the top.
-2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
-3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
-4. Go back to the main app settings page and select **Privacy**.
-5. Select **Phone Number**
-6. Change the **Who Can See My Number** setting to: **Nobody**
+1. 在 Signal 中，打開應用程式的設定並點擊上方的帳戶個人資料。
+2. 點選**使用者名稱**，然後在「設定您的 Signal 使用者名稱」畫面上選擇**繼續**。
+3. 輸入一個使用者名稱 此用戶名將一直與一組獨特數字配對，以保持用戶名的唯一性防止人們猜測它，例如，如果輸入“John”，您的用戶名最終可能會是`@john.35`。
+4. 返回系統應用程式設定頁面並選擇**隱私權**。
+5. 選擇**手機號碼r**
+6. 將**誰可看見我的號碼**設置為: **Nobody**
 
 You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender/) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
+連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal 支援[私密 群組](https://signal.org/blog/signal-private-group-system/)，伺服器不會記錄該群組成員資格、群組標題、群組頭像，或群組屬性。 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender/) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
 
 其協議在2016年獨立進行了 [審計](https://eprint.iacr.org/2016/1013.pdf) 。 Signal 協議的規範可以在他們的 [文檔](https://signal.org/docs/)中找到。
 
