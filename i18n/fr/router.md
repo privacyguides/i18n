@@ -1,7 +1,7 @@
 ---
 title: "Micrologiciel de routeur"
 icon: material/router-wireless
-description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+description: Ces systèmes d'exploitation alternatifs peuvent être utilisés pour sécuriser votre routeur ou votre point d'accès Wi-Fi.
 cover: router.webp
 ---
 

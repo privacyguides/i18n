@@ -41,13 +41,13 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 
 **OnionShare** est un outil open-source qui vous permet de partager de manière sécurisée et anonyme un fichier de n'importe quelle taille. Il fonctionne en démarrant un serveur web accessible en tant que service oignon Tor, avec une URL non devinable que vous pouvez partager avec les destinataires pour télécharger ou envoyer des fichiers.
 
-[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
+[:octicons-home-16: Page d'accueil](https://onionshare.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Service onion" }
 [:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-windows11: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -99,14 +99,14 @@ Nous travaillons à l'établissement de critères définis pour chaque section d
 
 **Nextcloud** est une suite de logiciels client-serveur gratuits et open-source permettant de créer vos propres services d'hébergement de fichiers sur un serveur privé que vous contrôlez.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Code source" }
+[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -134,13 +134,13 @@ Nous ne recommandons pas l'utilisation de [l'application E2EE](https://apps.next
 
 **Syncthing** est un utilitaire open-source de synchronisation continue de fichiers de pair à pair. Il est utilisé pour synchroniser des fichiers entre deux ou plusieurs appareils via le réseau local ou internet. Syncthing n'utilise pas de serveur centralisé ; il utilise le [Protocole d'Échange de Blocs](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) pour transférer les données entre appareils. Toutes les données sont chiffrées à l'aide de TLS.
 
-[:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Code source" }
+[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
 - [:simple-windows11: Windows](https://syncthing.net/downloads/)

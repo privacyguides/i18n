@@ -13,7 +13,7 @@ Effectuer des paiements en ligne est l'un des plus grands défis en matière de 
 Il existe un certain nombre de services qui fournissent des "cartes de débit virtuelles" que vous pouvez utiliser avec les commerçants en ligne sans révéler vos informations bancaires ou de facturation réelles dans la plupart des cas. Il est important de noter que ces services financiers ne sont **pas** anonymes et qu'ils sont soumis aux lois relatives à la connaissance du client (KYC) et peuvent nécessiter une pièce d'identité ou d'autres informations d'identification. Ces services sont principalement utiles pour vous protéger contre les fuites de données des commerçants, le pistage peu sophistiqué ou la corrélation des achats par les agences de marketing, et le vol de données en ligne ; et **non pas** pour effectuer un achat de manière totalement anonyme.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Check your current bank</p>
+<p class="admonition-title">Vérifiez votre banque actuelle</p>
 
 De nombreuses banques et fournisseurs de cartes de crédit proposent une fonctionnalité native de carte virtuelle. Si vous en utilisez une qui offre déjà cette option, vous devriez, dans la plupart des cas, l'utiliser plutôt que de suivre les recommandations suivantes. De cette manière, vous ne confiez pas vos informations personnelles à plusieurs personnes.
 
