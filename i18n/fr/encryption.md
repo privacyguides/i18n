@@ -211,13 +211,13 @@ udisksctl unlock -b /dev/loop0
 </details>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Remember to back up volume headers</p>
+<p class="admonition-title">N'oubliez pas de sauvegarder les en-têtes de volume</p>
 
-Nous vous recommandons de toujours [sauvegarder vos en-têtes LUKS](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) en cas de panne partielle du lecteur. This can be done with:
+Nous vous recommandons de toujours [sauvegarder vos en-têtes LUKS](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Backup_and_restore) en cas de panne partielle du lecteur. Cela peut être fait avec :
 
 ```bash
 cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.img
-```
+````
 
 </div>
 
@@ -233,14 +233,14 @@ Les outils dotés d'une interface de ligne de commande sont utiles pour intégre
 
 **Kryptor** est un outil gratuit et open source de chiffrement et de signature de fichiers qui utilise des algorithmes cryptographiques modernes et sécurisés. Il vise à être une meilleure version d'[age](https://github.com/FiloSottile/age) et [Minisign](https://jedisct1.github.io/minisign/) pour fournir une alternative simple et facile à GPG.
 
-[:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://www.kryptor.co.uk){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Code source" }
+[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-windows11: Windows](https://www.kryptor.co.uk)
 - [:simple-apple: macOS](https://www.kryptor.co.uk)
@@ -274,12 +274,12 @@ OpenPGP est parfois nécessaire pour des tâches spécifiques telles que la sign
 Lorsque vous chiffrez avec PGP, vous avez la possibilité de configurer différentes options dans votre fichier `gpg.conf` . Nous recommandons de suivre les options standard spécifiées dans la [FAQ de l'utilisateur de GnuPG](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use future defaults when generating a key</p>
+<p class="admonition-title">Utiliser future-defaults lors de la génération d'une clé</p>
 
-When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
+Lorsque vous [générez des clés](https://www.gnupg.org/gph/en/manual/c14.html), nous vous suggérons d'utiliser la commande `future-default` car elle demandera à GnuPG d'utiliser de la cryptographie moderne telle que [Curve25519](https://fr.wikipedia.org/wiki/Curve25519) et [Ed25519](https://ed25519.cr.yp.to/) :
 
 ```bash
-gpg --quick-gen-key alice@example.com future-default
+gpg --quick-gen-key alice@exemple.fr future-default
 ```
 
 </div>
@@ -292,13 +292,13 @@ gpg --quick-gen-key alice@example.com future-default
 
 **GnuPG** est une alternative sous licence GPL de la suite de logiciels cryptographiques PGP. GnuPG est conforme [RFC 4880](https://tools.ietf.org/html/rfc4880), qui est la spécification actuelle de l'IETF pour OpenPGP. Le projet GnuPG a travaillé sur une [nouvelle ébauche](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) dans le but de moderniser OpenPGP. GnuPG fait partie du projet logiciel GNU de la Free Software Foundation et a reçu un [financement](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) majeur du gouvernement allemand.
 
-[:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://gnupg.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -317,14 +317,14 @@ gpg --quick-gen-key alice@example.com future-default
 
 **GPG4win** est un paquet pour Windows de [Intevation et g10 Code](https://gpg4win.org/impressum.html). Il comprend [divers outils](https://gpg4win.org/about.html) qui peuvent vous aider à utiliser GPG sous Microsoft Windows. Le projet a été lancé et initialement [financé par](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) l'Office Fédéral allemand pour la Sécurité de l'Information (BSI) en 2005.
 
-[:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://gpg4win.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Code source" }
+[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
@@ -349,13 +349,13 @@ Nous suggérons [Canary Mail](email-clients.md#canary-mail) pour utiliser PGP av
 
 Nous vous recommandons de consulter leurs [Premiers pas](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) et leur [Base de connaissances](https://gpgtools.tenderapp.com/kb) pour obtenir de l'aide.
 
-[:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://gpgtools.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -371,13 +371,13 @@ Nous vous recommandons de consulter leurs [Premiers pas](https://gpgtools.tender
 
 **OpenKeychain** est une implémentation Android de GnuPG. Elle est généralement requise par les clients de messagerie comme [K-9 Mail](email-clients.md#k-9-mail) et [FairEmail](email-clients.md#fairemail) et d'autres applications Android pour fournir la prise en charge du chiffrement. Cure53 a réalisé un [audit de sécurité](https://www.openkeychain.org/openkeychain-3-6) d'OpenKeychain 3.6 en octobre 2015. Les détails techniques concernant l'audit et les solutions d'OpenKeychain peuvent être trouvés [ici](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
-[:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://www.openkeychain.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 

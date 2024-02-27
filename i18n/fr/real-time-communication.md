@@ -20,13 +20,13 @@ Ces messageries sont idéales pour sécuriser vos communications sensibles.
 
 ![Logo de Signal](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** est une application mobile développée par Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** est une application mobile développée par Signal Messenger LLC. L'application fournit une messagerie instantanée et des appels sécurisés avec le protocole Signal, un protocole de chiffrement extrêmement sécurisé qui prend en charge la confidentialité persistante[^1] et la sécurité post-compromission.[^2]
 
-[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://signal.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Code source" }
+[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -42,11 +42,11 @@ Ces messageries sont idéales pour sécuriser vos communications sensibles.
 
 </div>
 
-Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+Signal demande votre numéro de téléphone pour l'enregistrement, mais vous devriez créer un nom d'utilisateur pour cacher votre numéro de téléphone à vos contacts :
 
-1. In Signal, open the app's settings and tap your account profile at the top.
-2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
-3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
+1. Dans Signal, ouvrez les paramètres de l'application et appuyez sur votre profil en haut.
+2. Appuyez sur **Nom d'utilisateur** et choisissez **Continuer** sur l'écran "Configurez votre nom d'utilisateur Signal".
+3. Entrez un nom d'utilisateur. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
 4. Go back to the main app settings page and select **Privacy**.
 5. Select **Phone Number**
 6. Change the **Who Can See My Number** setting to: **Nobody**
