@@ -9,23 +9,29 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 
 [Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! Isto permite-nos fornecer recomendações completamente objectivas.</strong> Desenvolvemos um conjunto claro de requisitos para qualquer provedor de VPN que deseje ser recomendado, incluindo criptografia forte, auditorias de segurança independentes, tecnologia moderna, e muito mais.
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Many if not most cryptocurrency projects are scams. Faça transações com cuidado, escolhendo apenas projetos em que confia.
+Many if not most cryptocurrency projects are scams. Faça transações com cuidado, escolhendo apenas projetos em que confia.
+
+</div>
 
 ## Monero
 
-!!! nota
-    Consulte o [Tabela de Hardware](https://openwrt.org/toh/start) para verificar se o seu dispositivo é suportado.
+<div class="admonition recommendation" markdown>
 
-    ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
-    
-    [:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+
+[:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 With Monero, outside observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
 
@@ -49,10 +55,13 @@ Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurre
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! Considere o auto-hospedagem para mitigar esta ameaça.
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    ![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
+
+**PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
+
+</div>
 
 - Cryptocurrency must provide private/untraceable transactions by default.

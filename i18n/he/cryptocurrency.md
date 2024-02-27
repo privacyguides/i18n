@@ -1,5 +1,5 @@
 ---
-meta_title: "בלוקצ'יין פרטי של מטבעות קריפטו - Privacy Guides"
+meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: מטבעות קריפטוגרפיים
 icon: material/bank-circle
 cover: cryptocurrency.webp
@@ -9,22 +9,29 @@ cover: cryptocurrency.webp
 
 [ביצוע תשלומים פרטיים :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger "סַכָּנָה"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    רבים אם לא רוב הפרויקטים של מטבעות קריפטוגרפיים הם הונאות. בצע עסקאות בזהירות עם רק פרויקטים שאתה סומך עליהם.
+רבים אם לא רוב הפרויקטים של מטבעות קריפטוגרפיים הם הונאות. בצע עסקאות בזהירות עם רק פרויקטים שאתה סומך עליהם.
+
+</div>
 
 ## Monero
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Monero לוגו](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero** משתמש בבלוקצ'יין עם טכנולוגיות משפרות פרטיות המטשטשות עסקאות כדי להשיג אנונימיות. כל עסקת Monero מסתירה את סכום העסקה, כתובות שליחה וקבלה, ומקור הכספים ללא שום חישוקים לדלג דרכם, מה שהופך אותה לבחירה אידיאלית עבור טירוני מטבעות קריפטוגרפיים.
-    
-    [:octicons-home-16: דף הבית](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=לתרומה }
+![Monero לוגו](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero** משתמש בבלוקצ'יין עם טכנולוגיות משפרות פרטיות המטשטשות עסקאות כדי להשיג אנונימיות. כל עסקת Monero מסתירה את סכום העסקה, כתובות שליחה וקבלה, ומקור הכספים ללא שום חישוקים לדלג דרכם, מה שהופך אותה לבחירה אידיאלית עבור טירוני מטבעות קריפטוגרפיים.
+
+[:octicons-home-16: דף הבית](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=תיעוד}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="קוד מקור" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=לתרומה }
+
+</details>
+
+</div>
 
 עם Monero, משקיפים מבחוץ אינם יכולים לפענח כתובות מסחר Monero, סכומי עסקאות, יתרות כתובות או היסטוריית עסקאות.
 
@@ -48,8 +55,11 @@ cover: cryptocurrency.webp
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 - מטבעות קריפטו חייבים לספק עסקאות פרטיות/בלתי ניתנות לאיתור כברירת מחדל.

@@ -1,5 +1,5 @@
 ---
-meta_title: "프라이버시 암호화폐 블록체인 - Privacy Guides"
+meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: 암호화폐
 icon: material/bank-circle
 cover: cryptocurrency.webp
@@ -9,22 +9,29 @@ cover: cryptocurrency.webp
 
 [Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger "위험"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    전부는 아니지만, 대부분의 암호화폐 프로젝트는 사기입니다. 신뢰할 수 있는 프로젝트로만 신중하게 거래하세요.
+전부는 아니지만, 대부분의 암호화폐 프로젝트는 사기입니다. 신뢰할 수 있는 프로젝트로만 신중하게 거래하세요.
+
+</div>
 
 ## Monero
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Monero 로고](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero**는 거래를 난독화하여 익명성을 확보하는 프라이버시 강화 기술이 적용된 블록체인을 사용합니다. 모든 Monero 거래는 거래 금액, 송수신 주소, 자금 출처가 숨겨지므로 암호화폐 초심자에게 이상적인 선택입니다.
-    
-    [:octicons-home-16: 홈페이지](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=문서}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="소스 코드" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=기여 }
+![Monero 로고](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero**는 거래를 난독화하여 익명성을 확보하는 프라이버시 강화 기술이 적용된 블록체인을 사용합니다. 모든 Monero 거래는 거래 금액, 송수신 주소, 자금 출처가 숨겨지므로 암호화폐 초심자에게 이상적인 선택입니다.
+
+[:octicons-home-16: 홈페이지](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=문서}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="소스 코드" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=기여 }
+
+</details>
+
+</div>
 
 Monero를 사용할 경우, Monero를 거래하는 주소, 거래 금액, 주소 잔액, 거래 내역을 외부 관찰자가 해독할 수 없습니다.
 
@@ -48,8 +55,11 @@ Monero 트랜잭션 그래프는 프라이버시 면에서 제한적입니다. �
 
 **Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-!!! example "이 단락은 최근에 만들어졌습니다"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
+Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준을 정립하는 중이며, 따라서 세부 내용은 변경될 수 있습니다. 평가 기준에 대해서 질문이 있다면 [포럼에서 문의](https://discuss.privacyguides.net/latest)하시기 바랍니다. (무언가가 목록에 존재하지 않다고 해서 권장 목록을 작성할 때 고려한 적이 없을 것으로 단정 짓지 마세요.) 권장 목록에 어떤 프로젝트를 추가할 때 고려하고 논의해야 할 요소는 매우 많으며, 모든 요소를 문서화하는 것은 현재 진행 중인 작업입니다.
+
+</div>
 
 - 암호화페는 기본적으로 비공개/추적 불가능한 트랜잭션을 제공해야 합니다.

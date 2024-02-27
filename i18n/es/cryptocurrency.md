@@ -1,5 +1,5 @@
 ---
-meta_title: "Blockchains Privadas de Criptomonedas - Privacy Guides"
+meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: Criptomonedas
 icon: material/bank-circle
 cover: cryptocurrency.webp
@@ -9,22 +9,29 @@ Realizar pagos en línea es uno de los principales desafíos para la privacidad.
 
 [Hacer pagos privados: :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger "Peligro"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Peligro</p>
 
-    Muchas, si no la mayoría de los proyectos de criptomonedas son estafas. Únicamente realice transacciones con los proyectos en los que confíe.
+Muchas, si no la mayoría de los proyectos de criptomonedas son estafas. Únicamente realice transacciones con los proyectos en los que confíe.
+
+</div>
 
 ## Monero
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero** utiliza una cadena de bloques (blockchain) con tecnologías que mejoran la privacidad. Cada transacción realizada con Monero, oculta el monto de la transacción, las direcciones de envío y recepción, además del origen de los fondos sin ningún intermediario, convirtiéndola en una opción ideal para los novatos en las criptomonedas.
-    
-    [:octicons-home-16: Página principal](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero** utiliza una cadena de bloques (blockchain) con tecnologías que mejoran la privacidad. Cada transacción realizada con Monero, oculta el monto de la transacción, las direcciones de envío y recepción, además del origen de los fondos sin ningún intermediario, convirtiéndola en una opción ideal para los novatos en las criptomonedas.
+
+[:octicons-home-16: Página principal](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Con Monero, los observadores externos no pueden descifrar las direcciones transaccionales de Monero, los montos de las transacciones, el balance de las direcciones, o el historial de transacciones.
 
@@ -48,8 +55,11 @@ En última instancia, Monero es el principal candidato para una criptomoneda ami
 
 **Por favor, tome en cuenta que no estamos asociados con ninguno de los proyectos que recomendamos. ** En adición a [nuestros criterios base](about/criteria.md), hemos desarrollado un claro conjunto de requisitos que nos permiten brindar recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.
 
-!!! example "Esta sección es nueva"
+<div class="admonition example" markdown>
+<p class="admonition-title">Esta sección es nueva</p>
 
-    Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna pregunta sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no consideramos algo, cuando una recomendación no está listada aquí. Hay muchos factores considerados y discutidos cuando recomendamos un proyecto, y documentamos cada uno como un trabajo en proceso.
+Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tiene alguna pregunta sobre nuestros criterios, por favor [pregunte en nuestro foro](https://discuss.privacyguides.net/latest) y no asuma que no consideramos algo, cuando una recomendación no está listada aquí. Hay muchos factores considerados y discutidos cuando recomendamos un proyecto, y documentamos cada uno como un trabajo en proceso.
+
+</div>
 
 - Las criptomonedas deben brindar transacciones privadas o imposibles de rastrear por defecto.

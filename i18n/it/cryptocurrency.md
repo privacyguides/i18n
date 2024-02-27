@@ -1,5 +1,5 @@
 ---
-meta_title: "Blockchain di criptovalute private - Privacy Guides"
+meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: Criptovalute
 icon: material/bank-circle
 cover: cryptocurrency.webp
@@ -9,22 +9,29 @@ Effettuare pagamenti online è una delle maggiori sfide per la privacy. Queste c
 
 [Effettuare pagamenti privati :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger "Attenzione"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Attenzione</p>
 
-    Molte, se non la gran parte delle criptovalute sono delle truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
+Molte, se non la gran parte delle criptovalute sono delle truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
+
+</div>
 
 ## Monero
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di Monero](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero** utilizza una blockchain con tecnologie che migliorano la privacy e offuscano le transazioni per ottenere l'anonimato. Ogni transazione di Monero nasconde l'importo della transazione, gli indirizzi di invio e ricezione e la fonte dei fondi senza dover fare i salti mortali, il che la rende una scelta ideale per i neofiti delle criptovalute.
-    
-    [:octicons-home-16: Home](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Codice Sorgente" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribuisci }
+![Logo di Monero](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero** utilizza una blockchain con tecnologie che migliorano la privacy e offuscano le transazioni per ottenere l'anonimato. Ogni transazione di Monero nasconde l'importo della transazione, gli indirizzi di invio e ricezione e la fonte dei fondi senza dover fare i salti mortali, il che la rende una scelta ideale per i neofiti delle criptovalute.
+
+[:octicons-home-16: Home](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribuisci }
+
+</details>
+
+</div>
 
 Con Monero, gli osservatori esterni non possono decifrare gli indirizzi che scambiano Monero, gli importi delle transazioni, i saldi degli indirizzi o gli storici delle transazioni.
 
@@ -48,8 +55,11 @@ Infine, Monero è il contenendente più forte per una criptovaluta rispettosa de
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! example "Questa sezione è nuova"
+<div class="admonition example" markdown>
+<p class="admonition-title">Questa sezione è nuova</p>
 
-    Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
+Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
+
+</div>
 
 - Le criptovalute devono fornire transazioni private e non tracciabili di default.

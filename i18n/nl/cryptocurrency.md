@@ -9,22 +9,29 @@ Online betalen is een van de grootste uitdagingen voor privacy. Deze cryptocurre
 
 [Privébetalingen maken :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger "Gevaar"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Veel zo niet de meeste cryptocurrency projecten zijn zwendel. Voer transacties zorgvuldig uit met alleen projecten die je vertrouwt.
+Veel zo niet de meeste cryptocurrency projecten zijn zwendel. Voer transacties zorgvuldig uit met alleen projecten die je vertrouwt.
+
+</div>
 
 ## Monero
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero** gebruikt een blockchain met privacyverbeterende technologieën die transacties versluieren om anonimiteit te bereiken. Elke Monero-transactie verbergt het transactiebedrag, het verzenden en ontvangen van adressen en de bron van fondsen zonder hoepels om doorheen te springen, waardoor het een ideale keuze is voor beginners met cryptocurrency.
-    
-    [:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero** gebruikt een blockchain met privacyverbeterende technologieën die transacties versluieren om anonimiteit te bereiken. Elke Monero-transactie verbergt het transactiebedrag, het verzenden en ontvangen van adressen en de bron van fondsen zonder hoepels om doorheen te springen, waardoor het een ideale keuze is voor beginners met cryptocurrency.
+
+[:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Met Monero kunnen externe waarnemers geen adressen ontcijferen die handelen in Monero, transactiebedragen, adresbalansen of transactiegeschiedenissen.
 
@@ -52,9 +59,11 @@ Uiteindelijk is Monero de sterkste mededinger voor een privacyvriendelijke crypt
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
-!!! example "Deze sectie is nieuw"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
-    
+We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+
+</div>
 
 - Cryptocurrency moet standaard private/ontraceerbare transacties bieden.

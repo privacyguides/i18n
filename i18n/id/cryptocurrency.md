@@ -9,22 +9,29 @@ Melakukan pembayaran secara daring adalah salah satu tantangan terbesar bagi pri
 
 [Melakukan Pembayaran Pribadi :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Banyak atau bahkan sebagian besar proyek mata uang kripto adalah penipuan. Lakukan transaksi dengan hati-hati hanya dengan proyek yang Anda percayai.
+Banyak atau bahkan sebagian besar proyek mata uang kripto adalah penipuan. Lakukan transaksi dengan hati-hati hanya dengan proyek yang Anda percayai.
+
+</div>
 
 ## Monero
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo Monero](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero** menggunakan blockchain dengan teknologi yang meningkatkan privasi yang mengaburkan transaksi untuk mencapai anonimitas. Setiap transaksi Monero menyembunyikan jumlah transaksi, alamat pengirim dan penerima, dan sumber dana tanpa ada rintangan yang harus dilewati, menjadikannya pilihan ideal untuk pemula mata uang kripto.
-    
-    [:octicons-home-16: Laman Beranda](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Berkontribusi }
+![Logo Monero](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero** menggunakan blockchain dengan teknologi yang meningkatkan privasi yang mengaburkan transaksi untuk mencapai anonimitas. Setiap transaksi Monero menyembunyikan jumlah transaksi, alamat pengirim dan penerima, dan sumber dana tanpa ada rintangan yang harus dilewati, menjadikannya pilihan ideal untuk pemula mata uang kripto.
+
+[:octicons-home-16: Laman Beranda](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Dokumentasi}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Kode Sumber" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Berkontribusi }
+
+</details>
+
+</div>
 
 Dengan Monero, pengamat luar tidak dapat menguraikan alamat yang memperdagangkan Monero, jumlah transaksi, saldo alamat, atau riwayat transaksi.
 
@@ -48,8 +55,11 @@ Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurre
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! contoh "Bagian ini baru"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+
+</div>
 
 - Cryptocurrency must provide private/untraceable transactions by default.

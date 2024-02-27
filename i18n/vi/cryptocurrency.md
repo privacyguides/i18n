@@ -9,22 +9,29 @@ Making payments online is one of the biggest challenges to privacy. These crypto
 
 [Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
+Many if not most cryptocurrency projects are scams. Make transactions carefully with only projects you trust.
+
+</div>
 
 ## Monero
 
-!!! khuyến nghị
+<div class="admonition recommendation" markdown>
 
-    ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
-    
-    [:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+
+[:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 With Monero, outside observers cannot decipher addresses trading Monero, transaction amounts, address balances, or transaction histories.
 
@@ -48,14 +55,16 @@ Ultimately, Monero is the strongest contender for a privacy-friendly cryptocurre
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! cảnh báo
-    PrivateBin sử dụng JavaScript để xử lý mã hóa, vì vậy bạn phải tin tưởng nhà cung cấp ở mức độ họ không đưa bất kỳ JavaScript độc hại nào vào để lấy khóa cá nhân của bạn.
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** là một pastebin trực tuyến mã nguồn mở, tối giản, nơi máy chủ không có kiến ​​thức về dữ liệu đã dán. Dữ liệu được mã hóa/giải mã trong trình duyệt bằng 256-bit AES. tải xuống
-    
-        - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
-        - [:fontawesome-brands-github: Mã nguồn](https://github.com/dani-garcia/vaultwarden)
+![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
+
+**PrivateBin** là một pastebin trực tuyến mã nguồn mở, tối giản, nơi máy chủ không có kiến ​​thức về dữ liệu đã dán. Dữ liệu được mã hóa/giải mã trong trình duyệt bằng 256-bit AES. tải xuống
+
+    - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
+    - [:fontawesome-brands-github: Mã nguồn](https://github.com/dani-garcia/vaultwarden)
+
+</div>
 
 - Cryptocurrency must provide private/untraceable transactions by default.

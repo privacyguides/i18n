@@ -1,5 +1,5 @@
 ---
-meta_title: "私密加密貨幣區塊錬 - Privacy Guides"
+meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: 加密貨幣
 icon: material/bank-circle
 cover: cryptocurrency.webp
@@ -9,22 +9,29 @@ cover: cryptocurrency.webp
 
 [私密付款 :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger "危險"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger "危險"</p>
 
-    許多（如果不是大多數）加密貨幣項目都是騙局。 只用你信任的項目小心進行交易。
+許多（如果不是大多數）加密貨幣項目都是騙局。 只用你信任的項目小心進行交易。
+
+</div>
 
 ## Monero
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Monero 標誌](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero** 使用增強隱私技術的區塊鏈，混淆交易以實現匿名性。 每筆 Monero 交易都隱藏了交易金額、發送和接收地址以及資金來源，使其成為加密貨幣新手的理想選擇。
-    
-    [:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+![Monero 標誌](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero** 使用增強隱私技術的區塊鏈，混淆交易以實現匿名性。 每筆 Monero 交易都隱藏了交易金額、發送和接收地址以及資金來源，使其成為加密貨幣新手的理想選擇。
+
+[:octicons-home-16: Homepage](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 使用 Monero ，外部觀察者無法破譯 Monero  交易地址、交易金額、地址餘額或交易歷史。
 
@@ -48,8 +55,11 @@ Monero 是隱私友好的加密貨幣中最強大的競爭者，但它的隱私�
 
 **請注意，我們與所推薦專案沒有任何牽扯。 ** 除了 [我們的標準準則](about/criteria.md)外，還有一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "此部分是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">此部份新增</p>
 
-    我們正在努力為網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 推薦項目時，我們會考慮與討論許多因素，且記錄下每一個項目種種工作流程。
+我們正在努力為網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 推薦項目時，我們會考慮與討論許多因素，且記錄下每一個項目種種工作流程。
+
+</div>
 
 - 預設情況下，加密貨幣必須提供私密/無法追蹤的交易。

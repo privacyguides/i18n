@@ -1,5 +1,5 @@
 ---
-meta_title: "Chaînes de blocs de crypto-monnaies privées - Privacy Guides"
+meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
 title: Crypto-monnaie
 icon: material/bank-circle
 cover: cryptocurrency.webp
@@ -9,22 +9,29 @@ Effectuer des paiements en ligne est l'un des plus grands défis en matière de 
 
 [Effectuer des paiements privés :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
-!!! danger "Danger"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    De nombreux projets de crypto-monnaies, voire la plupart, sont des escroqueries. Effectuez des transactions avec prudence, uniquement avec des projets auxquels vous faites confiance.
+De nombreux projets de crypto-monnaies, voire la plupart, sont des escroqueries. Effectuez des transactions avec prudence, uniquement avec des projets auxquels vous faites confiance.
+
+</div>
 
 ## Monero
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo Monero](assets/img/cryptocurrency/monero.svg){ align=right }
-    
-    **Monero** utilise une chaîne de blocs avec des technologies de protection de la vie privée qui obscurcissent les transactions afin d'obtenir un anonymat. Chaque transaction Monero cache le montant de la transaction, les adresses d'envoi et de réception, ainsi que la source des fonds, sans aucune difficulté, ce qui en fait un choix idéal pour les novices en matière de crypto-monnaies.
-    
-    [:octicons-home-16: Page d'accueil](https://www.getmonero.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Code source" }
-    [:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribuer }
+![Logo Monero](assets/img/cryptocurrency/monero.svg){ align=right }
+
+**Monero** utilise une chaîne de blocs avec des technologies de protection de la vie privée qui obscurcissent les transactions afin d'obtenir un anonymat. Chaque transaction Monero cache le montant de la transaction, les adresses d'envoi et de réception, ainsi que la source des fonds, sans aucune difficulté, ce qui en fait un choix idéal pour les novices en matière de crypto-monnaies.
+
+[:octicons-home-16: Page d'accueil](https://www.getmonero.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Code source" }
+[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribuer }
+
+</details>
+
+</div>
 
 Avec Monero, les observateurs extérieurs ne peuvent pas déchiffrer les adresses qui échangent des Monero, les montants des transactions, les soldes des adresses ou l'historique des transactions.
 
@@ -48,8 +55,11 @@ En fin de compte, Monero est la crypto-monnaie la plus respectueuse de la vie pr
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
-!!! example "Cette section est récente"
+<div class="admonition example" markdown>
+<p class="admonition-title">Cette section est nouvelle</p>
 
-    Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
+
+</div>
 
 - La crypto-monnaie doit offrir des transactions privées/intraçables par défaut.
