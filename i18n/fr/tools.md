@@ -454,15 +454,15 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
-- ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
-- ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji } [Kicksecure](desktop.md#kicksecure)
+- ![logo Qubes OS](assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![logo Fedora](assets/img/linux-desktop/fedora.svg){ .twemoji } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![logo openSUSE Tumbleweed](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji } [OpenSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![logo Arch](assets/img/linux-desktop/archlinux.svg){ .twemoji } [Arch Linux](desktop.md#arch-linux)
+- ![logo Fedora](assets/img/linux-desktop/fedora.svg){ .twemoji } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
+- ![logo nixOS](assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](desktop.md#nixos)
+- ![logo Whonix](assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](desktop.md#whonix)
+- ![logo Tails](assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](desktop.md#tails)
+- ![logo Kicksecure](assets/img/linux-desktop/kicksecure.svg){ .twemoji } [Kicksecure](desktop.md#kicksecure)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "Logiciels de chiffrement recommandés : VeraCrypt, Cryptomator, PicoCrypt et OpenPGP - Privacy Guides"
 title: "Logiciels de chiffrement"
 icon: material/file-lock
 description: Le chiffrement des données est le seul moyen de contrôler qui peut y accéder. Ces outils vous permettent de chiffrer vos emails et tout autre de fichier.
@@ -20,14 +20,14 @@ Les options répertoriées ici sont multiplateformes et parfaites pour créer de
 
 **Cryptomator** est une solution de chiffrement conçue pour enregistrer vos fichiers de manière privée vers n'importe quel fournisseur de cloud. Il vous permet de créer des coffres-forts qui sont stockés sur un disque virtuel, dont le contenu est chiffré et synchronisé avec votre fournisseur de stockage cloud.
 
-[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Code source" }
+[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
@@ -55,12 +55,12 @@ La documentation de Cryptomator détaille sa [cible de sécurité](https://docs.
 
 **Picocrypt** est un outil de chiffrement léger et simple qui fournit un chiffrement moderne. Picocrypt utilise le chiffrement sécurisé XChaCha20 et la fonction de dérivation de clé Argon2id pour assurer un haut niveau de sécurité. Il utilise les modules x/crypto standards de Go pour ses fonctions de chiffrement.
 
-[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
+[:octicons-repo-16: Dépôt](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Code source" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
 - [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
@@ -79,13 +79,13 @@ La documentation de Cryptomator détaille sa [cible de sécurité](https://docs.
 
 **VeraCrypt** est un utilitaire gratuit et open source pour le chiffrement de fichiers/dossiers à la volée. Il peut créer un disque virtuel chiffré dans un fichier, chiffrer une partition ou l'ensemble du périphérique de stockage avec une authentification avant le démarrage.
 
-[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Code source" }
+[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
@@ -122,9 +122,9 @@ Pour chiffrer le disque à partir duquel votre système d'exploitation démarre,
 BitLocker est [uniquement pris en charge](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) sur les éditions Pro, Entreprise et Éducation de Windows. Il peut être activé sur les éditions Famille à condition qu'elles remplissent les pré-requis.
 
 <details class="example" markdown>
-<summary>Enabling BitLocker on Windows Home</summary>
+<summary>Activer BitLocker dans Windows Famille</summary>
 
-To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+Pour activer BitLocker sur les éditions "Famille" de Windows, vous devez formater vos partitions avec une [Table de Partitionnement GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) et disposer d'un module TPM dédié (v1.2, 2.0+). Il se peut que vous deviez [désactiver la fonctionnalité "Chiffrement de l'appareil" non-Bitlocker](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (qui est inférieure car elle envoie votre clé de récupération aux serveurs de Microsoft) si elle est déjà activée sur votre appareil avant de suivre ce guide.
 
 1. Ouvrez une invite de commande et vérifiez le format de la table de partition de votre disque à l'aide de la commande suivante. Vous devriez voir "**GPT**" listé sous "Style de partition" :
    ```powershell
@@ -192,19 +192,19 @@ Nous recommandons de stocker une clé de récupération locale dans un endroit s
 </div>
 
 <details class="example" markdown>
-<summary>Creating and opening encrypted containers</summary>
+<summary>Créer et ouvrir des conteneurs chiffrés</summary>
 
 ```bash
-dd if=/dev/urandom of=/path-to-file bs=1M count=1024 status=progress
-sudo cryptsetup luksFormat /path-to-file
+dd if=/dev/urandom of=/chemin-vers-fichier bs=1M count=1024 status=progress
+sudo cryptsetup luksFormat /chemin-vers-fichier
 ```
 
-#### Opening encrypted containers
+#### Ouvrir des conteneurs chiffrés
 
-We recommend opening containers and volumes with `udisksctl` as this uses [Polkit](https://en.wikipedia.org/wiki/Polkit). La plupart des gestionnaires de fichiers, tels que ceux inclus dans les environnements de bureau les plus courants, peuvent déverrouiller les fichiers chiffrés. Tools like [udiskie](https://github.com/coldfix/udiskie) can run in the system tray and provide a helpful user interface.
+Nous recommandons d'ouvrir les conteneurs et les volumes avec `udisksctl` car cela utilise [Polkit](https://en.wikipedia.org/wiki/Polkit). La plupart des gestionnaires de fichiers, tels que ceux inclus dans les environnements de bureau les plus courants, peuvent déverrouiller les fichiers chiffrés. Des outils tels que [udiskie](https://github.com/coldfix/udiskie) peuvent s'exécuter dans la barre d'état système et fournir une interface utilisateur pratique.
 
 ```bash
-udisksctl loop-setup -f /path-to-file
+udisksctl loop-setup -f /chemin-vers-fichier
 udisksctl unlock -b /dev/loop0
 ```
 
