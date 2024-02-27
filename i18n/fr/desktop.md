@@ -15,9 +15,9 @@ Les distributions Linux sont généralement recommandées pour la protection de 
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Logo Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** is our recommended distribution for people new to Linux. Fedora adopte généralement les nouvelles technologies avant les autres distributions, par exemple, [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), et bientôt. Ces nouvelles technologies s'accompagnent souvent d'améliorations générales en matière de sécurité, de vie privée et d'ergonomie.
+**Fedora Workstation** est la distribution que nous recommandons aux personnes qui découvrent Linux. Fedora adopte généralement les nouvelles technologies avant les autres distributions, par exemple, [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org), et bientôt. Ces nouvelles technologies s'accompagnent souvent d'améliorations générales en matière de sécurité, de vie privée et d'ergonomie.
 
 [:octicons-home-16: Page d'accueil](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
@@ -71,9 +71,9 @@ S'agissant d'une distribution DIY, vous êtes [censé mettre en place et mainten
 
 Une grande partie des [paquets d'Arch Linux](https://reproducible.archlinux.org) sont [reproductibles](https://reproducible-builds.org).
 
-## Atomic Distributions
+## Distributions atomiques
 
-**Atomic distributions** (sometimes also referred to as **immutable distributions**) are operating systems which handle package installation and updates by layering changes atop your core system image, rather than by directly modifying the system. This has advantages including increased stability and the ability to easily rollback updates. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
+**Les distributions atomiques** (parfois également appelées **distributions immuables**) sont des systèmes d'exploitation qui gèrent l'installation et la mise à jour des paquets en superposant les changements à l'image de base du système, plutôt qu'en modifiant directement le système. Cela présente des avantages, notamment une plus grande stabilité et la possibilité de revenir facilement en arrière sur les mises à jour. See [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) for more info.
 
 ### Fedora Atomic Desktops
 

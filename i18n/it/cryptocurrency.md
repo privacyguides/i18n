@@ -1,5 +1,5 @@
 ---
-meta_title: "Private Cryptocurrency Blockchains - Privacy Guides"
+meta_title: "Blockchain private di criptovalute"
 title: Criptovalute
 icon: material/bank-circle
 cover: cryptocurrency.webp

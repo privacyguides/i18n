@@ -20,13 +20,13 @@ Queste app di messaggistica sono ottime per proteggere le tue comunicazioni sens
 
 ![Logo di Signal](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. L'app fornisce messaggistica istantanea e chiamate protette con il Signal Protocol, un protocollo di crittografia estremamente sicuro che supporta la segretezza in avanti[^1] e la sicurezza post-compromesso. ^2]
 
 [:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ . ard-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -42,18 +42,18 @@ Queste app di messaggistica sono ottime per proteggere le tue comunicazioni sens
 
 </div>
 
-Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+Signal richiede il tuo numero di telefono per la registrazione, ma dovresti creare un nome utente per nascondere il tuo numero di telefono ai tuoi contatti:
 
-1. In Signal, open the app's settings and tap your account profile at the top.
-2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
-3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`.
-4. Go back to the main app settings page and select **Privacy**.
-5. Select **Phone Number**
-6. Change the **Who Can See My Number** setting to: **Nobody**
+1. In Signal, apri le impostazioni dell'app e tocca il profilo del tuo account in alto.
+2. Tocca **Username** e scegli **Continua** nella schermata "Imposta il tuo username Signal".
+3. Inserisci un username. Il tuo username sarà sempre abbinato a un set di cifre univoche per mantenere il tuo username unico e impedire alle persone di indovinarlo, per esempio se inserisci "John" il tuo nome utente potrebbe finire per essere `@john.35`.
+4. Torna alla pagina delle impostazioni principali dell'app e seleziona **Privacy**.
+5. Seleziona **Numero Di Telefono**
+6. Modifica l'impostazione **Chi può vedere il mio numero** in: **Nessuno**
 
-You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
+È possibile modificare l'impostazione **Chi può trovarmi con il numero** in **Nessuno** se si vuole evitare che persone che hanno già il tuo numero di telefono scoprano il tuo account/nome utente Signal.
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Inoltre, i profili personali sono crittografati e condivisi esclusivamente con i contatti con cui parli. Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal ha metadati minimi quando [Mittente sigillato](https://signal.org/blog/sealed-sender/) è abilitato. L'indirizzo del mittente è crittografato insieme al corpo del messaggio e soltanto l'indirizzo del destinatario è visibile al server. Mittente Sigillato è abilitato esclusivamente per i tuoi contatti, ma è attivabile per tutti i destinatari con il rischio incrementato di ricevere spam.
+Gli elenchi di contatti su Signal sono crittografati utilizzando il PIN di Signal e il server non ha accesso ad essi. Inoltre, i profili personali sono crittografati e condivisi esclusivamente con i contatti con cui parli. Signal supporta i gruppi privati [](https://signal.org/blog/signal-private-group-system/), in cui il server non registra i membri del gruppo, i titoli del gruppo, gli avatar o gli attributi del gruppo. Signal ha metadati minimi quando [Mittente sigillato](https://signal.org/blog/sealed-sender/) è abilitato. L'indirizzo del mittente è crittografato insieme al corpo del messaggio e soltanto l'indirizzo del destinatario è visibile al server. Mittente Sigillato è abilitato esclusivamente per i tuoi contatti, ma è attivabile per tutti i destinatari con il rischio incrementato di ricevere spam.
 
 Il protocollo è stato [controllato](https://eprint.iacr.org/2016/1013.pdf) indipendentemente nel 2016. Le specifiche per il protocollo di Signal si possono trovare nella sua [documentazione](https://signal.org/docs/).
 
@@ -124,14 +124,14 @@ Il software per il client è stato [controllato](https://briarproject.org/news/2
 
 Briar ha [pubblicato le specifiche](https://code.briarproject.org/briar/briar-spec) complete.
 
-Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar supporta la segretezza in avanti[^1] utilizzando il Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) e il protocollo [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
 
 ## Opzioni Aggiuntive
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Qualsiasi compromissione di chiavi tra i destinatari del messaggio, influenzerebbe la confidenzialità di **tutte** le comunicazioni precedenti.
+Questi messanger non hanno la segretezza in avanti[^1], e mentre soddisfano determinati criterie che le nostre raccomandazioni precedenti non soddisfano, non li consigliamo per comunicazioni a lungo termine o sensibili. Qualsiasi compromissione di chiavi tra i destinatari del messaggio, influenzerebbe la confidenzialità di **tutte** le comunicazioni precedenti.
 
 </div>
 
@@ -169,7 +169,7 @@ Le immagini del profilo, le reazioni e i nomi utente non sono crittografati.
 
 Le chiamate e le videochiamate [non](https://github.com/vector-im/element-web/issues/12878) sono in E2EE e utilizzano Jitsi, ma ciò cambierà con la [Segnalazione Nativa VoIP del Gruppo](https://github.com/matrix-org/matrix-doc/pull/3401). Le chiamate di gruppo, correntemente, non dispongono di [autenticazione](https://github.com/vector-im/element-web/issues/13074), a significare che i non partecipanti alla stanza, possono anche unirsi alle chiamate. Consigliamo di non utilizzare questa funzionalità per le riunioni private.
 
-The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
+Il protocollo Matrix stesso [teoricamente supporta la segretezza in avanti](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], tuttavia questo è [attualmente non supportato in Element](https://github.com/vector-im/element-web/issues/7101) a causa dell'interruzione di alcuni aspetti dell'esperienza utente, come i backup delle chiavi e la cronologia dei messaggi condivisi.
 
 Il protocollo è stato [controllato](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) indipendentemente nel 2016. Le specifiche per il protocollo di Matrix possono essere trovate nella sua [documentazione](https://spec.matrix.org/latest/). Il [ratchet di crittografia Olm](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) utilizzato da Matrix è un'implementazione dell'[algoritmo Double Ratchet](https://signal.org/docs/specifications/doubleratchet/) di Signal.
 
@@ -204,11 +204,11 @@ Session utilizza la [Rete Oxen Service Node](https://oxen.io/) decentralizzata p
 
 Session consente l'E2EE per le chat individuali o i gruppi chiusi, che consentono fino a 100 membri. I gruppi aperti non hanno limitazioni sul numero di membri, ma sono aperti per scelta.
 
-Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
+Session si basava in precedenza sul Signal Protocol, prima di sostituirlo con il proprio nel dicembre 2020. Session Protocol [non](https://getsession.org/blog/session-protocol-technical-information) supporta la segretezza in avanti.[^1]
 
-Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+Oxen ha richiesto un controllo indipendente per Session a marzo 2020. Il controllo [è stato concluso](https://getsession.org/session-code-audit) ad aprile 2021, "Il livello di sicurezza complessivo di questa applicazione è buono e la rende utilizzabile per gli individui interessati alla propria privacy."
 
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
+Session ha un [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) che descrive i dettagli tecnici dell'applicazione e del protocollo.
 
 ## Criteri
 
@@ -221,22 +221,22 @@ Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro si
 
 </div>
 
-- Has open-source clients.
-- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
-- Uses E2EE for private messages by default.
-- Supports E2EE for all messages.
-- Has been independently audited.
+- Ha client open-source.
+- Non richiede la condivisione di identificativi personali (numeri di telefono o e-mail in particolare) con i contatti.
+- Usa E2EE per i messaggi privati di default.
+- Supporta E2EE per tutti i messaggi.
+- È stato sottoposto ad audit indipendente.
 
 ### Miglior Caso
 
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
-- Supports Forward Secrecy[^1]
-- Supports Future Secrecy (Post-Compromise Security)[^2]
-- Has open-source servers.
-- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
-- Uses E2EE for all messages by default.
-- Supports Linux, macOS, Windows, Android, and iOS.
+- Supporta la segretezza in avanti[^1]
+- Supporta la segretezza futura (sicurezza post-compromissione)[^2]
+- Ha server open-source.
+- Decentralizzato, cioè [federato o P2P](advanced/communication-network-types.md).
+- Usa E2EE per tutti i messaggi di default.
+- Supporta Linux, macOS, Windows, Android e iOS.
 
-[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
-[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.
+[^1]: [La segretezza in avanti](https://en.wikipedia.org/wiki/Forward_secrecy) è il caso in cui le chiavi vengono ruotate molto frequentemente, in modo che se la chiave di crittografia corrente viene compromessa, non si espongano anche i messaggi **passati**.
+[^2]: La segretezza futura (o sicurezza post-compromissione) è una caratteristica che impedisce a un utente malintenzionato di decifrare i messaggi **futuri** dopo aver compromesso una chiave privata, a meno che non comprometta anche altre chiavi di sessione in futuro. Questo costringe di fatto l'aggressore a intercettare tutte le comunicazioni tra le parti, poiché perde l'accesso non appena avviene uno scambio di chiavi che non viene intercettato.
