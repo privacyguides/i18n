@@ -1,22 +1,22 @@
 ---
-title: Supporting Us
+title: Nous soutenir
 ---
 
 <!-- markdownlint-disable MD036 -->
 De nombreuses [personnes](https://github.com/privacyguides/privacyguides.org/graphs/contributors) ainsi qu'un [travail](https://github.com/privacyguides/privacyguides.org/pulse/monthly) conséquent sont nécessaires afin de maintenir Privacy Guides à jour et de transmettre nos connaissances concernant la vie privée et la surveillance de masse. Si vous aimez ce que nous faisons, envisagez de vous impliquer en [éditant le site](https://github.com/privacyguides/privacyguides.org) ou en [contribuant aux traductions](https://crowdin.com/project/privacyguides).
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">Donation Information</p>
+<p class="admonition-title">Informations sur les dons</p>
 
-Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
+Malheureusement, Open Collective Foundation (notre hébergeur fiscal de longue date) a annoncé qu'il mettait fin à ses activités et ne pouvait plus nous soutenir, ni aucun des projets qu'il héberge. Nous n'avons donc aucun moyen d'accepter des dons pour le moment. Nous cherchons des moyens d'aller de l'avant d'un point de vue juridique, mais en attendant, toute contribution non monétaire que vous pourriez apporter serait grandement appréciée.
 
 </div>
 
-Vous pouvez également nous soutenir en achetant nos produits sur HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
+Vous pouvez également nous soutenir en achetant nos produits sur HelloTux. Nous recevons une petite commission pour chaque article vendu, et vous obtenez un produit de qualité en contrepartie.
 
 [Acheter sur HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-Thank you to all those who support our mission! :heart:
+Merci à tous ceux qui soutiennent notre mission ! :heart:
 
 ## A Quoi Servent Vos Dons ?
 

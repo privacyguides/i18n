@@ -232,11 +232,11 @@ Nous travaillons à l'établissement de critères définis pour chaque section d
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Prend en charge la confidentialité persistante[^1]
-- Supports Future Secrecy (Post-Compromise Security)[^2]
-- Has open-source servers.
-- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
-- Uses E2EE for all messages by default.
-- Supports Linux, macOS, Windows, Android, and iOS.
+- Prend en charge la confidentialité future (sécurité post-compromission)[^2]
+- Dispose de serveurs open-source.
+- Décentralisé, c'est-à-dire [fédéré ou P2P](advanced/communication-network-types.md).
+- Utilise E2EE par défaut pour tous les messages.
+- Prend en charge Linux, macOS, Windows, Android et iOS.
 
-[^1]: [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
-[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.
+[^1]: La [confidentialité persistante](https://en.wikipedia.org/wiki/Forward_secrecy) est un système de rotation très fréquente des clés, de sorte que si la clé de chiffrement actuelle est compromise, elle n'expose pas également les messages **antérieurs**.
+[^2]: La confidentialité future (ou sécurité post-compromission) est une fonction qui empêche un attaquant de déchiffrer les **futurs** messages après avoir compromis une clé privée, à moins qu'il ne compromette également d'autres clés de session futures. Cela oblige en réalité l'attaquant à intercepter toutes les communications entre les parties, puisqu'il perd l'accès dès qu'un échange de clés non intercepté se produit.
