@@ -1,31 +1,22 @@
 ---
-title: Támogass Minket
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 Nagyon sok [emberre](https://github.com/privacyguides/privacyguides.org/graphs/contributors) és [munkára](https://github.com/privacyguides/privacyguides.org/pulse/monthly) van szükség ahhoz, hogy a Privacy Guides-t frissen tartsuk és hogy terjesszük a szót az adatvédelemről és tömeges megfigyelésről. Ha tetszik, amit csinálunk, fontold meg, hogy részt veszel az [oldal szerkesztésében](https://github.com/privacyguides/privacyguides.org), vagy [hozzájárulsz fordításokkal](https://crowdin.com/project/privacyguides).
 
-Ha anyagilag szeretnél támogatni minket, a számunkra legkényelmesebb módszer az Open Collective-en keresztül történő hozzájárulás, amelyet a pénzügyi házigazdánk működtet. Az Open Collective elfogadja a hitelkártyával/betéti kártyával, PayPal és banki átutalással történő fizetéseket.
+<div class="admonition failure" markdown>
+<p class="admonition-title">Donation Information</p>
 
-[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
 
-A közvetlenül nekünk adott adományok Open Collective-en általában adólevonásra jogosultak az Egyesült Államokban, mivel a pénzügyi házigazdánk (az Open Collective Foundation) egy bejegyzett 501(c)3 szervezet. Az adományozás után egy számlát fogsz kapni az Open Collective Fundation-től. A Privacy Guides nem nyújt pénzügyi tanácsadást, ezzel kapcsolatban fordulj adótanácsadódhoz, hogy megtudd, ez vonatkozik-e rád.
+</div>
 
-Ha már használod a GitHub szponzorálási lehetőséget, akkor ott is támogathatod szervezetünket.
-
-[Szponzorálj minket GitHub-on](https://github.com/sponsors/privacyguides ""){.md-button}
-
-Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+Another option to support us is by buying our merchandise from HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
 
 [Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-## Támogatók
-
-Egy különleges köszönet mindazoknak akik támogatják a küldetésünket! :heart:
-
-*Megjegyzés: Ez a rész közvetlenül az Open Collective-ról tölt be egy widgetet. Ez a rész nem tükrözi a Open Collective-en kívüli adományokat, és nincs befolyásunk az ebben a részben szereplő konkrét adományozókra.*
-
-<script src="https://opencollective.com/privacyguides/banner.js"></script>
+Thank you to all those who support our mission! :heart:
 
 ## Hogyan Használjuk Fel az Adományokat
 

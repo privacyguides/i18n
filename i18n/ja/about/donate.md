@@ -1,31 +1,22 @@
 ---
-title: 私たちを支援するには
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 Privacy Guidesを最新の状態に保ち、プライバシーと大量監視についての情報を広めるには、多くの[人々](https://github.com/privacyguides/privacyguides.org/graphs/contributors)と[労力](https://github.com/privacyguides/privacyguides.org/pulse/monthly)が必要です。 私たちの活動が気に入ったら、[サイトの編集](https://github.com/privacyguides/privacyguides.org)や[翻訳](https://crowdin.com/project/privacyguides)への参加をご検討ください。
 
-財政的に私たちをサポートしたい場合、最も便利な方法は、私たちの財政ホストが運営するウェブサイトであるOpen Collective経由の寄付です。 Open Collectiveは、クレジット・デビットカード、PayPal、銀行振込での支払いを受け付けています。
+<div class="admonition failure" markdown>
+<p class="admonition-title">Donation Information</p>
 
-[OpenCollective.comで寄付する](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
 
-Open Collectiveで私たちに直接行われた寄付は、通常は米国での税額控除の対象となります。これは、私たちの財政ホスト（Open Collective Foundation）が 501(c)3 団体として登録されているためです。 寄付後に、Open Collective Foundationから領収書が発行されます。 Privacy Guidesは財務に関するアドバイスは提供しません。税額控除が適用されるかどうかについては、あなたの税務アドバイザーにご確認ください。
+</div>
 
-すでにGitHubのスポンサーシップの制度を利用している場合は、そこで私たちの組織を支援していただくことも可能です。
-
-[GitHubでスポンサーになる](https://github.com/sponsors/privacyguides ""){.md-button}
-
-私たちをサポートするもう1つのオプションは、HelloTuxから商品を購入することです。 シャツが1枚売れるごとにだいたい4ドルの収入になり、あなたはその対価として、高品質の商品を手に入れることができます。
+私たちをサポートするもう1つのオプションは、HelloTuxから商品を購入することです。 We get a small commission for each item sold, and you get a quality product to show for it.
 
 [HelloTux.comで購入する](https://hellotux.com/privacyguides){ class="md-button" }
 
-## 支援者の皆様
-
-私たちの使命をサポートしてくださる皆様に心より感謝いたします！ :heart:
-
-*注意：このセクションでは、Open Collectiveからウィジェットを直接ロードします。 このセクションでは、Open Collective以外の寄付を反映していません。また、このセクションで紹介されている特定の寄付者を管理することはできません。*
-
-<script src="https://opencollective.com/privacyguides/banner.js"></script>
+Thank you to all those who support our mission! :heart:
 
 ## 寄付金の使い道
 

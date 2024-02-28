@@ -83,7 +83,7 @@ Finora, nel 2023, abbiamo lanciato le traduzioni internazionali del nostro sito 
 
 Inoltre, [molte persone](https://github.com/privacyguides/privacyguides.org/graphs/contributors) hanno contribuito al progetto. Puoi farlo anche tu, siamo open source su GitHub e accettiamo suggerimenti per la traduzione su [Crowdin](https://crowdin.com/project/privacyguides).
 
-I membri del nostro team revisionano tutte le modifiche effettuate al sito web e gestiscono i doveri amministrativi, come l'hosting web e le finanze; tuttavia, non traggono alcun profitto personale da alcun contributo effettuato a questo sito. I nostri dati finanziari sono ospitati trasparentemente dalla Open Collective Foundation 501(c)(3), su [opencollective.com/privacyguides](https://opencollective.com/privacyguides). Le donazioni a Privacy Guides sono generalmente deducibili dalle tasse negli Stati Uniti.
+I membri del nostro team revisionano tutte le modifiche effettuate al sito web e gestiscono i doveri amministrativi, come l'hosting web e le finanze; tuttavia, non traggono alcun profitto personale da alcun contributo effettuato a questo sito. Le donazioni a Privacy Guides sono generalmente deducibili dalle tasse negli Stati Uniti.
 
 ## Licenza del sito
 

@@ -1,31 +1,22 @@
 ---
-title: Dukung Kami
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 Dibutuhkan banyak [orang](https://github.com/privacyguides/privacyguides.org/graphs/contributors) dan [pekerjaan](https://github.com/privacyguides/privacyguides.org/pulse/monthly) untuk terus memperbarui Privacy Guides dan menyebarkan berita tentang privasi dan pengawasan massal. Jika Anda menyukai apa yang kami lakukan, pertimbangkan untuk terlibat dengan [menyunting situs](https://github.com/privacyguides/privacyguides.org) atau [berkontribusi terjemahan](https://crowdin.com/project/privacyguides).
 
-Jika Anda ingin mendukung kami secara finansial, metode yang paling mudah bagi kami adalah berkontribusi melalui Open Collective, sebuah situs web yang dioperasikan oleh host fiskal kami. Open Collective menerima pembayaran melalui kartu kredit/debit, PayPal, dan transfer bank.
+<div class="admonition failure" markdown>
+<p class="admonition-title">Donation Information</p>
 
-[Donate on OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
 
-Donasi yang diberikan secara langsung kepada kami di Open Collective umumnya dapat dikurangkan dari pajak di Amerika Serikat, karena tuan rumah fiskal kami (Open Collective Foundation) adalah organisasi 501(c)3 yang terdaftar. Anda akan menerima tanda terima dari Open Collective Foundation setelah berdonasi. Privacy Guides tidak memberikan saran keuangan, dan Anda harus menghubungi penasihat pajak Anda untuk mengetahui apakah ini berlaku untuk Anda.
+</div>
 
-Jika Anda sudah menggunakan sponsor GitHub, Anda juga dapat mensponsori organisasi kami di sana.
-
-[Sponsori kami di GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
-
-Another option to support us is by buying our merchandise from HelloTux. We get roughly $4 for every shirt sold, and you get a quality product to show for it.
+Another option to support us is by buying our merchandise from HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
 
 [Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-## Pendukung
-
-Terima kasih secara khusus kepada semua pihak yang mendukung misi kami! :heart:
-
-*Harap diperhatikan: Bagian ini memuat widget langsung dari Open Collective. Bagian ini tidak mencerminkan donasi yang dibuat di luar Open Collective, dan kami tidak memiliki kendali atas donatur tertentu yang ditampilkan di bagian ini.*
-
-<script src="https://opencollective.com/privacyguides/banner.js"></script>
+Thank you to all those who support our mission! :heart:
 
 ## Bagaimana Kami Menggunakan Donasi
 

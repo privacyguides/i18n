@@ -1,31 +1,22 @@
 ---
-title: Supportaci
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 Sono necessari molte [persone](https://github.com/privacyguides/privacyguides.org/graphs/contributors) e molto [lavoro](https://github.com/privacyguides/privacyguides.org/pulse/monthly), per mantenere Privacy Guides aggiornato e diffondere la parola sulla privacy e la sorveglianza di massa. Se ti piace ciò che facciamo, considera di contribuire [modificando il sito](https://github.com/privacyguides/privacyguides.org) o [aiutandoci a tradurre](https://crowdin.com/project/privacyguides).
 
-Se desideri supportarci finanziariamente, il metodo per noi più comodo è contribuire tramite Open Collective, un sito web gestito dal nostro host fiscale. Open Collective accetta pagamenti via carta di credito/debito, PayPal e bonifici.
+<div class="admonition failure" markdown>
+<p class="admonition-title">Donation Information</p>
 
-[Dona su OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
 
-Le donazioni effettuate direttamente a noi su Open Collective sono generalmente detraibili fiscalmente negli USA, poiché il nostro host fiscale (la Open Collective Foundation), è un'organizzazione 501(c)3 registrata. In seguito alla tua donazione, riceverai una ricevuta dalla Open Collective Foundation. Privacy Guides non fornisce consulenza finanziaria e dovresti contattare il tuo consulente finanziario, per scoprire se ciò è applicabile al tuo caso.
+</div>
 
-Se utilizzi già le sponsorizzazioni di GitHub, puoi sponsorizzare lì anche la nostra organizzazione.
-
-[Sponsorizzaci su Github](https://github.com/sponsors/privacyguides ""){.md-button}
-
-Un'altra opzione per supportarci è acquistare il nostro merchandise, da HelloTux. Otteniamo circa $4 per ogni maglietta venduta, mentre tu, ottieni un prodotto di qualità.
+Un'altra opzione per supportarci è acquistare il nostro merchandise, da HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
 
 [Acquista su HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-## Sostenitori
-
-Un ringraziamento speciale a tutti coloro che supportano la nostra missione! :heart:
-
-*Ti preghiamo di notare che questa sezione carica un widget, direttamente da Open Collective. Questa sezione non riflette le donazioni effettuate al di fuori di Open Collective, e non abbiamo controllo sui donatori specifici, presenti in questa sezione.*
-
-<script src="https://opencollective.com/privacyguides/banner.js"></script>
+Thank you to all those who support our mission! :heart:
 
 ## Come utilizziamo le donazioni
 

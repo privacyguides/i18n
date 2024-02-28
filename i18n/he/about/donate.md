@@ -1,31 +1,22 @@
 ---
-title: תמיכה בנו
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 נדרשים הרבה [אנשים](https://github.com/privacyguides/privacyguides.org/graphs/contributors) ו[עבודה](https://github.com/privacyguides/privacyguides.org/pulse/monthly) כדי לעדכן את Privacy Guides ולהפיץ את הבשורה על פרטיות ומעקב המוני. אם אתה אוהב את מה שאנחנו עושים, שקול להיות מעורב על ידי [עריכת האתר](https://github.com/privacyguides/privacyguides.org) או [תרומה בתרגום](https://crowdin.com/project/privacyguides).
 
-אם אתה רוצה לתמוך בנו כלכלית, השיטה הנוחה ביותר עבורנו היא תרומה באמצעות Open Collective, אתר אינטרנט המופעל על ידי המארח הפיסקאלי שלנו. Open Collective מקבל תשלומים באמצעות כרטיס אשראי/חיוב, PayPal והעברות בנקאיות.
+<div class="admonition failure" markdown>
+<p class="admonition-title">Donation Information</p>
 
-[תרום ב- OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
 
-תרומות שנעשו ישירות אלינו ב-Open Collective ניתנות לניכוי מס בדרך כלל בארה"ב, מכיוון שהמארח הפיסקאלי שלנו (The Open Collective Foundation) הוא ארגון רשום 501(c)3. לאחר התרומה תקבלו קבלה מקרן הקולקטיב הפתוח. Privacy Guides אינם מספקים ייעוץ פיננסי, ועליכם ליצור קשר עם יועץ המס שלכם כדי לברר אם זה חל עליכם.
+</div>
 
-אם אתה כבר עושה שימוש בחסויות GitHub, אתה יכול גם לתת חסות לארגון שלנו שם.
-
-[תנו לנו חסות ב-GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
-
-אפשרות נוספת לתמוך בנו היא על ידי רכישת הסחורה שלנו מ-HelloTux. אנחנו מקבלים בערך $4 עבור כל חולצה שנמכרת, ואתה מקבל מוצר איכותי להראות עבורו.
+אפשרות נוספת לתמוך בנו היא על ידי רכישת הסחורה שלנו מ-HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
 
 [קנה ב- HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-## תומכים
-
-תודה מיוחדת לכל אלה שתומכים במשימה שלנו! :heart:
-
-*שימו לב: סעיף זה טוען ווידג'ט ישירות מ-Open Collective. סעיף זה אינו משקף תרומות שניתנו מחוץ לקולקטיב הפתוח, ואין לנו שליטה על התורמים הספציפיים המופיעים בסעיף זה.*
-
-<script src="https://opencollective.com/privacyguides/banner.js"></script>
+Thank you to all those who support our mission! :heart:
 
 ## כיצד אנו משתמשים בתרומות
 

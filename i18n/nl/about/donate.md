@@ -1,31 +1,22 @@
 ---
-title: Ons steunen
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 Het vergt veel [mensen](https://github.com/privacyguides/privacyguides.org/graphs/contributors) en [werk](https://github.com/privacyguides/privacyguides.org/pulse/monthly) om Privacy Guides up-to-date te houden en het woord te verspreiden over privacy en massabewaking. Als je het leuk vindt wat we doen, overweeg dan om mee te doen door [de site](https://github.com/privacyguides/privacyguides.org) te bewerken of aan de [vertalingen bij te dragen](https://crowdin.com/project/privacyguides).
 
-Als je ons financieel wilt steunen, is de handigste methode voor ons om bij te dragen via Open Collective, een website die wordt beheerd door onze fiscale gastheer. Open Collective accepteert betalingen via creditcards, PayPal en bankoverschrijvingen.
+<div class="admonition failure" markdown>
+<p class="admonition-title">Donation Information</p>
 
-[Doneer op OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" } }
+Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
 
-Donaties rechtstreeks aan ons Open Collective zijn in het algemeen aftrekbaar van de belasting in de VS, omdat onze fiscale gastheer (de Open Collective Foundation) een geregistreerde 501(c)3 organisatie is. Na jouw donatie ontvangt je een ontvangstbewijs van de Open Collective Foundation. Privacy Guides geeft geen financieel advies, en je dient contact op te nemen met uw belastingadviseur om na te gaan of dit op je van toepassing is.
+</div>
 
-Als je al gebruik maakt van GitHub sponsoring, kun je onze organisatie daar ook sponsoren.
-
-[Sponsor ons op GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
-
-Een andere optie om ons te steunen is door onze merchandise te kopen bij HelloTux. We krijgen ruwweg $4 voor elk verkocht shirt en je krijgt er een kwaliteitsproduct voor terug.
+Een andere optie om ons te steunen is door onze merchandise te kopen bij HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
 
 [Kopen op HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" } }
 
-## Backers
-
-Een speciaal woord van dank aan allen die onze missie steunen! :heart:
-
-*Let op: Dit onderdeel laadt een widget rechtstreeks vanuit Open Collective. Dit gedeelte geeft geen donaties weer die buiten Open Collective om zijn gedaan, en wij hebben geen controle over de specifieke donoren die in dit gedeelte worden vermeld.*
-
-<script src="https://opencollective.com/privacyguides/banner.js"></script>
+Thank you to all those who support our mission! :heart:
 
 ## Hoe we donaties gebruiken
 

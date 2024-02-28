@@ -1,31 +1,22 @@
 ---
-title: Поддержать нас
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 Нам нужно много [людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) и [работы](https://github.com/privacyguides/privacyguides.org/pulse/monthly) чтобы поддерживать Priacy Guides в актуальном состоянии и распространять информацию о безопасности и массовой слежке. Если вам нравится то, что мы делаем, лучший способ помочь - это принять участие [редактируя сайт](https://github.com/privacyguides/privacyguides.org) или [помогая с его переводом](https://crowdin.com/project/privacyguides).
 
-Если вы хотите помочь нам материально, лучшим способом будет пожертвование через Open Collective, ресурс, управляемый нашим фискальным агентом. Open Collective поддерживает оплату через кредитную или дебетовую карту, PayPal, банковские переводы.
+<div class="admonition failure" markdown>
+<p class="admonition-title">Donation Information</p>
 
-[Пожертвовать на OpenCollective.com](https://opencollective.com/privacyguides/donate){ class="md-button md-button--primary" }
+Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
 
-Пожертвования сделанные нам непосредственно через Open Collective не облагаются налогами США, потому что наш фискальный агент (Фонд Open Collective) - зарегистрированная организация 501 (с)3. После пожертвования вы получите чек от Фонда Open Collective. Privacy Guides не предоставляет финансовых консультаций, и вам следует обратиться к своему налоговому консультанту, чтобы узнать, применимо ли это к вам.
+</div>
 
-Если вы уже пользуетесь спонсорством на GitHub, вы также можете спонсировать нашу организацию там.
-
-[Спонсировать нас на GitHub](https://github.com/sponsors/privacyguides ""){.md-button}
-
-Еще один способ поддержать нас - это купить наш мерч на HelloTux. Мы получаем примерно 4 доллара за каждую проданную футболку, а вы получаете качественный продукт.
+Еще один способ поддержать нас - это купить наш мерч на HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
 
 [Купить на HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-## Спонсоры
-
-Особая благодарность тем, кто поддерживает нашу миссию! :heart:
-
-*Внимание: этот раздел загружает виджет непосредственно из Open Collective. В этом разделе нет пожертвований, которые сделаны за пределами Open Collective, и мы не контролируем конкретных спонсоров, указанных в этом разделе.*
-
-<script src="https://opencollective.com/privacyguides/banner.js"></script>
+Thank you to all those who support our mission! :heart:
 
 ## Как мы используем пожертвования
 

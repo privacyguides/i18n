@@ -1,31 +1,22 @@
 ---
-title: 支持與贊助
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 Privacy Guides 需要大量的 [人](https://github.com/privacyguides/privacyguides.org/graphs/contributors) 和 [工作](https://github.com/privacyguides/privacyguides.org/pulse/monthly) ，以保持最新並傳播關於隱私和大規模監控的消息。 如果您喜歡我們的工作，請考慮參與 [編輯網站](https://github.com/privacyguides/privacyguides.org) 或 [貢獻翻譯](https://crowdin.com/project/privacyguides)。
 
-如果你想在經濟上支援我們，對我們來說，最方便的方法是通過 Open Collective 捐款，這是一個由我們的財政主機營運的網站。Open Collective 接受信用卡/借記卡、PayPal 和銀行轉帳的付款。 Open Collective 接受信用卡/借記卡、PayPal 和銀行轉帳的付款。
+<div class="admonition failure" markdown>
+<p class="admonition-title">Donation Information</p>
 
-[在OpenCollective.com上捐款](https://opencollective.com/privacyguides/donate){class = "md-button md-button--primary"}
+Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
 
-在美國，直接向我們捐贈的Open Collective通常可以免稅，因為我們的財政東道主（ Open Collective Foundation ）是一個註冊的501 （ c ） 3組織。 捐贈後，您將收到 Open Collective Foundation 的收據。 隱私指南不提供財務建議，您應該聯繫您的稅務顧問，以確定這是否適用於您。
+</div>
 
-如果您已經使用 GitHub 贊助，您也可以在那裡贊助我們的組織。
-
-[在 GitHub 上贊助我們](https://github.com/sponsors/privacyguides ""){.md-button}
-
-另一個支持我們的方是從 HelloTux 購買我們的商品。 每賣出一件 T-恤我們可獲得 $4元，而您也可以得到一件優質商品。
+另一個支持我們的方是從 HelloTux 購買我們的商品。 We get a small commission for each item sold, and you get a quality product to show for it.
 
 [在HelloTux.com 購買](https://hellotux.com/privacyguides){ class="md-button" }
 
-## 贊助者清單
-
-特別感謝所有支持我們使命的人！ :heart:
-
-*請注意：此部分直接從Open Collective 加載小部件。 本節並不反映Open Collective 以外的捐贈，我們也無法控制本節所列的特定捐贈者。*
-
-<script src="https://opencollective.com/privacyguides/banner.js"></script>
+Thank you to all those who support our mission! :heart:
 
 ## 我們如何使用贊助費用
 
