@@ -118,13 +118,13 @@ NixOS è una distribuzione indipendente basata sul gestore di pacchetti Nix, inc
 
 Il gestore di pacchetti di NixOS conserva ogni versione di ogni pacchetto in una cartella diversa del **Nix Store**. A causa di ciò puoi avere versioni differenti dello stesso pacchetto installate sul tuo sistema. Dopo che il contenuto del pacchetto è stato scritto nella cartella, questa viene resa di sola lettura.
 
-NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. Esistono svariati modi per passare a una nuova generazione; puoi chiedere a NixOS di attivarla dopo il riavvio, o passarci mentre è in esecuzione. Puoi anche *testare* la nuova generazione passandovi durante l'esecuzione, ma non impostarla come quella corrente di sistema. Se qualcosa nel processo d'aggiornamento si corrompe, basta riavviare e tornare automaticamente a una versione funzionante del sistema.
+NixOS fornisce anche gli "atomic updates"; prima scarica (o crea) i pacchetti e i file per la nuova generazione di sistema, poi passa ad essi. Esistono svariati modi per passare a una nuova generazione; puoi chiedere a NixOS di attivarla dopo il riavvio, o passarci mentre è in esecuzione. Puoi anche *testare* la nuova generazione passandovi durante l'esecuzione, ma non impostarla come quella corrente di sistema. Se qualcosa nel processo d'aggiornamento si corrompe, basta riavviare e tornare automaticamente a una versione funzionante del sistema.
 
 Nix, il gestore di pacchetti, utilizza un linguaggio puramente funzionale, anch'esso detto Nix, per definire i pacchetti.
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (la fonte principale dei pacchetti) è contenuto in un unico repository di GitHub. Inoltre, puoi definire i tuoi pacchetti nello stesso linguaggio, quindi, includerli facilmente nella tua configurazione.
 
-Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. Builda ogni pacchetto in un ambiente sandbox *puro*, il più indipendente possibile dal sistema di host, rendendo riproducibili i binari.
+Nix è un gestore di pacchetti basato sul codice sorgente; se non ne esiste alcuna binary-cache pre-buildata, Nix creerà semplicemente il pacchetto dal sorgente, utilizzando le istruzioni di build. Builda ogni pacchetto in un ambiente sandbox *puro*, il più indipendente possibile dal sistema di host, rendendo riproducibili i binari.
 
 ## Distribuzioni incentrate sull'anonimato
 
@@ -174,11 +174,11 @@ Tails [non cancella](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) la
 
 </div>
 
-Tails is great for counter forensics due to amnesia (meaning nothing is written to the disk); however, it is not a hardened distribution like Whonix. It lacks many anonymity and security features that Whonix has and gets updated much less often (only once every six weeks). A Tails system that is compromised by malware may potentially bypass the transparent proxy allowing for the user to be deanonymized.
+Tails è ottimo per contrastare le "ricerche forensi" grazie "all'amnesia" (nel senso che nulla viene scritto sul disco); tuttavia, non è una distribuzione rafforzata come Whonix. Manca di molte funzionalità per l'anonimato e la sicurezza possedute da Whonix e viene aggiornato molto meno spesso (soltanto una volta ogni sei settimane). Un sistema Tails compromesso da un malware potrebbe aggirare il proxy trasparente, consentendo all'utente di essere deanonimizzato.
 
-Tails includes [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) virtual machines may be more leak-proof, however they are not amnesic, meaning data may be recovered from your storage device.
+Tails include di default [uBlock Origin](desktop-browsers.md#ublock-origin) in Tor Browser, il che potrebbe semplificare, per gli avversari, il fingerprinting dei suoi utenti. Le macchine virtuali di [Whonix](desktop.md#whonix) potrebbero essere maggiormente a prova di fuga, tuttavia, non sono amnesiche, il che significa che i dati potrebbero essere recuperati dal tuo dispositivo d'archiviazione.
 
-By design, Tails is meant to completely reset itself after each reboot. Encrypted [persistent storage](https://tails.boum.org/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
+Di design, Tails dovrebbe resettarsi completamente dopo ogni riavvio. L'[archiviazione persistente](https://tails.boum.org/doc/persistent_storage/index.en.html) è configurabile per memorizzare alcuni dati tra i riavvii.
 
 ## Distribuzioni incentrate sulla sicurezza
 
@@ -201,13 +201,13 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 </div>
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS protegge il computer isolando i sottosistemi (ad esempio, rete, USB, ecc.) e applicazioni in *qubes* separati. Se una parte del sistema dovesse essere compromessa, l'isolamento aggiuntivo potrebbe proteggere il resto dei *qubes* e il sistema centrale.
 
-For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
+Per ulteriori informazioni sul funzionamento di Qubes, leggi la nostra pagina [Panoramica su Qubes OS](os/qubes-overview.md).
 
 ### Kicksecure
 
-While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for Desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+Sebbene [sconsigliamo](os/linux-overview.md#release-cycle) le distribuzioni "perennemente obsolete" come Debian per l'utilizzo da desktop in gran parte dei casi, Kicksecure è un sistema operativo basato su Debian, rafforzato al punto da essere di molto migliore, di una tipica installazione di Linux.
 
 <div class="admonition recommendation" markdown>
 
