@@ -1,22 +1,22 @@
 ---
-title: Supporting Us
+title: 支持我们
 ---
 
 <!-- markdownlint-disable MD036 -->
 Privacy Guides 需要大量的 [人](https://github.com/privacyguides/privacyguides.org/graphs/contributors) 和 [工作](https://github.com/privacyguides/privacyguides.org/pulse/monthly) ，以保持最新並傳播關於隱私和大規模監控的消息。 如果您喜歡我們的工作，請考慮參與 [編輯網站](https://github.com/privacyguides/privacyguides.org) 或 [貢獻翻譯](https://crowdin.com/project/privacyguides)。
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">Donation Information</p>
+<p class="admonition-title">捐贈資訊</p>
 
-Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
+不幸的是，Open Collective Foundation（我們的長期財政主辦人）宣布他們要解散業務，無法再支持我們或他們主辦的任何項目。 因此，我們目前無法接受捐款。 我們正在研究從法律角度向前推進的方法，與此同時，您提供的任何非金錢捐助將不勝感激。
 
 </div>
 
-另一個支持我們的方是從 HelloTux 購買我們的商品。 We get a small commission for each item sold, and you get a quality product to show for it.
+另一個支持我們的方是從 HelloTux 購買我們的商品。 每賣出一件 T-恤我們可獲得 $4元小額佣金，而您也可以得到一件優質商品。
 
 [在HelloTux.com 購買](https://hellotux.com/privacyguides){ class="md-button" }
 
-Thank you to all those who support our mission! :heart:
+感謝所有支持本站宗旨的朋友！ :heart:
 
 ## 我們如何使用贊助費用
 
