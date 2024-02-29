@@ -1,22 +1,22 @@
 ---
-title: Supporting Us
+title: Apóyanos
 ---
 
 <!-- markdownlint-disable MD036 -->
 Se necesita a un montón de [personas](https://github.com/privacyguides/privacyguides.org/graphs/contributors) y [trabajo](https://github.com/privacyguides/privacyguides.org/pulse/monthly) para mantener Privacy Guides actualizado y difundiendo la palabra sobre la privacidad y la vigilancia masiva. Si te gusta lo que hacemos, considera formar parte [editando el sitio web](https://github.com/privacyguides/privacyguides.org) o [contribuyendo a las traducciones](https://crowdin.com/project/privacyguides).
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">Donation Information</p>
+<p class="admonition-title">Información Sobre Donaciones</p>
 
-Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
+Lamentablemente, Open Collective Foundation (nuestro anfitrión fiscal desde hace mucho tiempo) anunció que disuelve sus operaciones y ya no puede apoyarnos ni a nosotros ni a ningún proyecto que alberguen. Por lo tanto, no tenemos forma de aceptar donaciones en este momento. Estamos buscando una forma de avanzar desde el punto de vista jurídico, pero mientras tanto cualquier contribución no monetaria que puedas aportar será muy apreciada.
 
 </div>
 
-Otra opción para apoyarnos es comprar nuestra mercadería en HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
+Otra opción para apoyarnos es comprar nuestra mercadería en HelloTux. Nosotros recibimos una pequeña comisión por cada artículo vendido, y tú obtienes un producto de calidad como recompensa.
 
 [Compra en HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-Thank you to all those who support our mission! :heart:
+¡Gracias a todos los que apoyan nuestra misión! :heart:
 
 ## Como usamos las donaciones
 
