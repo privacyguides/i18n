@@ -51,7 +51,7 @@ Signal demande votre numéro de téléphone pour l'enregistrement, mais vous dev
 5. Sélectionnez **Numéro de téléphone**
 6. Modifiez le paramètre **Qui peut voir mon numéro** et mettre : **Personne**
 
-Vous pouvez également modifier le paramètre **Qui peut me trouver à l'aide de mon numéro** et mettre **Personne** si vous souhaitez empêcher les personnes qui possèdent déjà votre numéro de téléphone de trouver votre compte/nom d'utilisateur Signal.
+Vous pouvez également modifier le paramètre **Qui peut me retrouver grâce à mon numéro de téléphone** et mettre **Personne** si vous souhaitez empêcher les personnes qui possèdent déjà votre numéro de téléphone de trouver votre compte/nom d'utilisateur Signal.
 
 La liste des contacts sur Signal est chiffrée à l'aide de votre code PIN Signal et le serveur n'y a pas accès. Votre profil est également chiffré et n'est partagé qu'avec les contacts avec lesquels vous discutez. Signal prend en charge les [groupes privés](https://signal.org/blog/signal-private-group-system/), qui permettent au serveur de n'avoir aucune trace des membres du groupe, des titres du groupe, des avatars du groupe ou des attributs du groupe. Signal expose un minimum de métadonnées lorsque l'option [Expéditeur Scellé](https://signal.org/blog/sealed-sender/) est activée. L'adresse de l'expéditeur est chiffrée avec le corps du message, et seule l'adresse du destinataire est visible par le serveur. Expéditeur Scellé est uniquement activé pour les personnes de votre liste de contacts, mais peut être activé pour tous les destinataires avec le risque accru de recevoir du spam.
 
