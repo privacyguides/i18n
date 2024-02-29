@@ -92,13 +92,13 @@ I **Fedora Atomic Desktops** sono varianti di Fedora che utilizzano il gestore d
 
 I [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) sono disponibili in diverse versioni a seconda dell'ambiente desktop preferito, come **Fedora Silverblue** (che viene fornito con [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (che viene fornito con [KDE](https://kde.org/)), **Fedora Sway Atomic**, o **Fedora Budgie Atomic**. Tuttavia, non consigliamo quest'ultimo come ambiente desktop Budgie [richiede ancora X11](https://buddiesofbudgie.org/blog/wayland).
 
-These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). The `rpm-ostree` package manager works by downloading a base image for the system, then overlaying packages over it in a [git](https://en.wikipedia.org/wiki/Git)-like commit tree. When the system is updated, a new base image is downloaded and the overlays will be applied to that new image.
+Questi sistemi operativi differiscono da Fedora Workstation perché sostituiscono il gestore di pacchetti [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) con un'alternativa molto più avanzata chiamata [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). Il gestore dei pacchetti `rpm-ostree` funziona scaricando un'immagine di base per il sistema, poi sovrapponendo i pacchetti su di esso in un [git](https://en.wikipedia.org/wiki/Git)-come albero di commit. Quando il sistema viene aggiornato, viene scaricata una nuova immagine di base e le sovrapposizioni sono applicate a questa nuova immagine.
 
-After the update is complete you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily rollback if something breaks in the new deployment. There is also the option to pin more deployments as needed.
+Al termine dell'aggiornamento, il sistema sarà riavviato nella nuova versione. `rpm-ostree` mantiene due versioni del sistema, così da poter facilmente essere ripristinato, se qualcosa si rompe nella nuova distribuzione. È inoltre possibile aggiungere più versioni in base alle necessità.
 
-[Flatpak](https://www.flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
+[Flatpak](https://www.flatpak.org) è il metodo principale di installazione dei pacchetti su queste distribuzioni, in quanto `rpm-ostree` è pensato solo per sovrapporre all'immagine di base i pacchetti che non possono stare all'interno di un contenitore.
 
-As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
+Come alternativa ai Flatpaks, esiste l'opzione di [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) per creare contenitori [Podman](https://podman.io) con una cartella home condivisa con il sistema operativo dell'host che imita un ambiente tradizionale di Fedora, un [caratteristica utile](https://containertoolbx.org) per gli sviluppatori esigenti.
 
 ### NixOS
 
@@ -116,15 +116,15 @@ NixOS è una distribuzione indipendente basata sul gestore di pacchetti Nix, inc
 
 </div>
 
-NixOS’s package manager keeps every version of every package in a different folder in the **Nix store**. Due to this you can have different versions of the same package installed on your system. After the package contents have been written to the folder, the folder is made read-only.
+Il gestore di pacchetti di NixOS conserva ogni versione di ogni pacchetto in una cartella diversa del **Nix Store**. A causa di ciò puoi avere versioni differenti dello stesso pacchetto installate sul tuo sistema. Dopo che il contenuto del pacchetto è stato scritto nella cartella, questa viene resa di sola lettura.
 
-NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation; you can tell NixOS to activate it after reboot or you can switch to it at runtime. You can also *test* the new generation by switching to it at runtime, but not setting it as the current system generation. If something in the update process breaks, you can just reboot and automatically and return to a working version of your system.
+NixOS also provides atomic updates; first it downloads (or builds) the packages and files for the new system generation and then switches to it. Esistono svariati modi per passare a una nuova generazione; puoi chiedere a NixOS di attivarla dopo il riavvio, o passarci mentre è in esecuzione. Puoi anche *testare* la nuova generazione passandovi durante l'esecuzione, ma non impostarla come quella corrente di sistema. Se qualcosa nel processo d'aggiornamento si corrompe, basta riavviare e tornare automaticamente a una versione funzionante del sistema.
 
-Nix the package manager uses a purely functional language - which is also called Nix - to define packages.
+Nix, il gestore di pacchetti, utilizza un linguaggio puramente funzionale, anch'esso detto Nix, per definire i pacchetti.
 
-[Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single GitHub repository. You can also define your own packages in the same language and then easily include them in your config.
+[Nixpkgs](https://github.com/nixos/nixpkgs) (la fonte principale dei pacchetti) è contenuto in un unico repository di GitHub. Inoltre, puoi definire i tuoi pacchetti nello stesso linguaggio, quindi, includerli facilmente nella tua configurazione.
 
-Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible, thus making binaries reproducible.
+Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. Builda ogni pacchetto in un ambiente sandbox *puro*, il più indipendente possibile dal sistema di host, rendendo riproducibili i binari.
 
 ## Distribuzioni incentrate sull'anonimato
 
@@ -145,11 +145,11 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 </div>
 
-Whonix is meant to run as two virtual machines: a “Workstation” and a Tor “Gateway.” All communications from the Workstation must go through the Tor gateway. This means that even if the Workstation is compromised by malware of some kind, the true IP address remains hidden.
+Whonix è pensato per operare come due macchine virtuali: una "Workstation" e un "Gateway" di Tor Tutte le comunicazioni dalla Workstation devono passare per il gateway di Tor. Ciò significa che, anche se la Workstation fosse compromessa da un malware di qualche tipo, il vero indirizzo IP rimarrebbe nascosto.
 
-Some of its features include Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://www.whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
+Alcune delle sue caratteristiche includono Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [swap crittografato](https://github.com/Whonix/swap-file-creator)e un allocatore di memoria protetto. Le versioni future di Whonix includeranno probabilmente le [politiche di sistema complete di AppArmor](https://github.com/Whonix/apparmor-profile-everything) e un [launcher di app sandbox](https://www.whonix.org/wiki/Sandbox-app-launcher), per confinare interamente tutti i processi sul sistema.
 
-Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). We have a [recommended guide](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring Whonix in conjunction with a VPN ProxyVM in Qubes to hide your Tor activities from your ISP.
+Whonix è utilizzato al meglio [in combinazione con Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). Abbiamo una [guida di consigli](os/qubes-overview.md#connecting-to-tor-via-a-vpn) sulla configurazione di Whonix in combinazione con un ProxyVM della VPN su Qubes, per nascondere le tue attività di Tor dal tuo ISP.
 
 ### Tails
 
@@ -170,7 +170,7 @@ Whonix is best used [in conjunction with Qubes](https://www.whonix.org/wiki/Qube
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-Tails [doesn't erase](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) the [video memory](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) when shutting down. When you restart your computer after using Tails, it might briefly display the last screen that was displayed in Tails. If you shut down your computer instead of restarting it, the video memory will erase itself automatically after being unpowered for some time.
+Tails [non cancella](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) la [memoria video](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) allo spegnimento. Quando si riavvia il computer dopo aver utilizzato Tails, è possibile che venga visualizzata brevemente l'ultima schermata visualizzata in Tails. Se si spegne il computer invece di riavviarlo, la memoria video si cancella automaticamente dopo essere rimasta per qualche tempo senza alimentazione.
 
 </div>
 
