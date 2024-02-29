@@ -201,4 +201,4 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 
 We only consider frontends for websites which are...
 
-- Normally accessible without JavaScript.
+- Normally only accessible with JavaScript enabled.

@@ -201,4 +201,4 @@ cover: frontends.webp
 
 אנו מתייחסים רק לחזיתות עבור אתרים שהם...
 
-- Normally accessible without JavaScript.
+- Normally only accessible with JavaScript enabled.
