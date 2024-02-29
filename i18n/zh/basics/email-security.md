@@ -1,8 +1,8 @@
 ---
-meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
+meta_title: "为什么电子邮件不是隐私和安全的最佳选择 - 隐私指南"
 title: 电子邮件安全
 icon: material/email
-description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: 电子邮件在许多方面本身就不安全，以下是它不是我们安全通信首选的部分原因。
 ---
 
 电子邮件在默认情况下是一种不安全的通信形式。 你可以用OpenPGP等工具来提高你的电子邮件的安全性，这些工具为你的邮件增加了端对端加密功能，但OpenPGP与其他消息应用程序的加密相比，仍有一些缺点，而且由于电子邮件的设计方式，一些电子邮件数据永远无法得到固有的加密。
@@ -17,15 +17,15 @@ description: Email is inherently insecure in many ways, and these are some of th
 
 即使你使用OpenPGP，它也不支持 [前向加密](https://en.wikipedia.org/wiki/Forward_secrecy)，这意味着如果你或收件人的私钥被盗，所有在之前使用它加密的信息都将被暴露。 这就是为什么我们推荐 [即时通讯工具](../real-time-communication.md) ，比起电子邮件，它尽可能更好地在人与人之间的通信中实现前向保密性。
 
-## What is the Web Key Directory standard?
+## 什么是网络密钥目录标准？
 
-The Web Key Directory (WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
+网络密钥目录 (WKD) 标准允许电子邮件客户端发现其他邮箱的 OpenPGP 密钥，即使是托管在不同提供商的邮箱。 支持 WKD 的电子邮件客户端会要求收件人的服务器根据电子邮件地址的域名提供密钥。 例如，如果您向 `jonah@privacyguides.org`发送电子邮件，您的电子邮件客户端会向 `privacyguides.org` 询问 Jonah 的 OpenPGP 密钥，如果 `privacyguides.org` 拥有该账户的密钥，您的邮件就会自动加密。
 
-In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
+除了我们推荐的 [电子邮件客户端（](../email-clients.md) ）支持 WKD 外，一些网络邮件提供商也支持 WKD。 *您自己的* 密钥是否发布到 WKD 供他人使用，取决于您的域配置。 如果您使用支持 WKD 的 [电子邮件提供商](../email.md#openpgp-compatible-services) （如 Proton Mail 或 Mailbox.org），他们可以为您在其域上发布 OpenPGP 密钥。
 
-If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+如果使用自己的自定义域，则需要单独配置 WKD。 如果您能控制自己的域名，那么无论您的电子邮件提供商是谁，您都可以设置 WKD。 一个简单的方法是使用 keys.openpgp.org 的 "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" 功能，在 `openpgpkey` 子域上设置一个 CNAME 记录，指向 `wkd.keys.openpgp.org`，然后将密钥上传到 [keys.openpgp.org](https://keys.openpgp.org/)。 或者，您也可以 [自行将 WKD 托管在自己的网络服务器上](https://wiki.gnupg.org/WKDHosting)。
 
-If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
+如果您使用不支持 WKD 的提供商提供的共享域名（如 @gmail.com），则无法通过此方法与他人共享 OpenPGP 密钥。
 
 ### 哪些电子邮件客户端支持端到端加密？
 
@@ -35,7 +35,7 @@ If you use a shared domain from a provider which doesn't support WKD, like @gmai
 
 A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 然后，该信息被智能卡解密，解密后的内容被送回设备。
 
-It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
+在智能卡上进行解密是很有利的，这样可以避免将你的私钥暴露给某个被攻破的设备。
 
 ## 电子邮件元数据概述
 
