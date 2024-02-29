@@ -1,22 +1,22 @@
 ---
-title: Supporting Us
+title: Supportaci
 ---
 
 <!-- markdownlint-disable MD036 -->
 Sono necessari molte [persone](https://github.com/privacyguides/privacyguides.org/graphs/contributors) e molto [lavoro](https://github.com/privacyguides/privacyguides.org/pulse/monthly), per mantenere Privacy Guides aggiornato e diffondere la parola sulla privacy e la sorveglianza di massa. Se ti piace ciò che facciamo, considera di contribuire [modificando il sito](https://github.com/privacyguides/privacyguides.org) o [aiutandoci a tradurre](https://crowdin.com/project/privacyguides).
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">Donation Information</p>
+<p class="admonition-title">Informazioni sulle donazioni</p>
 
-Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
+Sfortunatamente, Open Collective Foundation (il nostro host fiscale di lunga data) ha annunciato lo scioglimento delle sue attività e non può più sostenere né noi né i progetti che ospita. Pertanto, al momento non abbiamo modo di accettare donazioni. Stiamo studiando il modo di procedere da una prospettiva giuridica, ma nel frattempo qualsiasi contributo non monetario che si può fornire sarebbe molto apprezzato.
 
 </div>
 
-Un'altra opzione per supportarci è acquistare il nostro merchandise, da HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
+Un'altra opzione per supportarci è acquistare il nostro merchandise, da HelloTux. Noi riceviamo una piccola commissione per ogni articolo venduto e voi ottenete un prodotto di qualità.
 
 [Acquista su HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-Thank you to all those who support our mission! :heart:
+Grazie a tutti coloro che sostengono la nostra missione! :heart:
 
 ## Come utilizziamo le donazioni
 
