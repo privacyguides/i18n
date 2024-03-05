@@ -16,15 +16,18 @@ Si vous recherchez à protéger votre **vie privée** vis-à-vis de votre FAI, s
 
 </div>
 
-!!! danger "Les VPN ne permettent pas d'être anonyme"
+<div class="admonition danger" markdown>
+<p class="admonition-title">VPNs do not provide anonymity</p>
 
-    L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
-    
-    Si vous recherchez l'**anonymat**, vous devriez utiliser le Navigateur Tor.
-    
-    Si vous souhaitez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
-    
-    [Télécharger Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Mythes sur Tor & FAQ](advanced/tor-overview.md){ .md-button }
+L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
+
+Si vous recherchez l'**anonymat**, vous devriez utiliser le Navigateur Tor.
+
+Si vous souhaitez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
+
+[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+
+</div>
 
 [Présentation détaillée des VPNs :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -34,24 +37,29 @@ Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent le Mo
 
 ### Proton VPN
 
-!!! recommendation annotate
+<div class="admonition recommendation" markdown>
 
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** est un concurrent de poids dans l'espace VPN, et il est en service depuis 2016. Proton AG est basé en Suisse et propose une offre gratuite limitée, ainsi qu'une option premium plus complète.
-    
-    [:octicons-home-16: Page d'accueil](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Politique de confidentialité" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Code source" }
-    
-    ??? downloads "Téléchargements"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+
+**Proton VPN** est un concurrent de poids dans l'espace VPN, et il est en service depuis 2016. Proton AG est basé en Suisse et propose une offre gratuite limitée, ainsi qu'une option premium plus complète.
+
+[:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+- [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 71 pays
 
@@ -104,25 +112,30 @@ Des pannes du système [peuvent se produire](https://protonvpn.com/support/macos
 
 ### IVPN
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo IVPN](assets/img/vpn/ivpn.svg){ align=right }
-    
-    **IVPN** est un autre fournisseur de VPN haut de gamme, et il est en activité depuis 2009. IVPN est basé à Gibraltar.
-    
-    [:octicons-home-16: Page d'accueil](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Politique de confidentialité" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Code source" }
-    
-    ??? downloads "Téléchargements"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+![Logo IVPN](assets/img/vpn/ivpn.svg){ align=right }
+
+**IVPN** est un autre fournisseur de VPN haut de gamme, et il est en activité depuis 2009. IVPN est basé à Gibraltar.
+
+[:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 37 pays
 
@@ -169,26 +182,31 @@ Les clients IVPN prennent en charge l'authentification à deux facteurs (les cli
 
 ### Mullvad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo Mullvad](assets/img/vpn/mullvad.svg){ align=right }
-    
-    **Mullvad** est un VPN rapide et peu coûteux qui met l'accent sur la transparence et la sécurité. Il est en activité depuis **2009**. Mullvad est basé en Suède et n'a pas de période d'essai gratuit.
-    
-    [:octicons-home-16: Page d'accueil](https://mullvad.net){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Service onion" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Politique de confidentialité" }
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Code source" }
-    
-    ??? downloads "Téléchargements"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+![Logo Mullvad](assets/img/vpn/mullvad.svg){ align=right }
+
+**Mullvad** est un VPN rapide et peu coûteux qui met l'accent sur la transparence et la sécurité. Il est en activité depuis **2009**. Mullvad est basé en Suède et n'a pas de période d'essai gratuit.
+
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 40 pays
 
@@ -247,9 +265,12 @@ Mullvad est très transparent quant aux nœuds qu'il possède [ou qu'il loue](ht
 
 ## Critères
 
-!!! danger "Danger"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Il est important de noter que l'utilisation d'un fournisseur VPN ne vous rendra pas anonyme, mais qu'elle vous permettra de mieux protéger votre vie privée dans certaines situations. Un VPN n'est pas un outil pour des activités illégales. Ne vous fiez pas à une politique de "non-journalisation".
+Il est important de noter que l'utilisation d'un fournisseur VPN ne vous rendra pas anonyme, mais qu'elle vous permettra de mieux protéger votre vie privée dans certaines situations. Un VPN n'est pas un outil pour des activités illégales. Ne vous fiez pas à une politique de "non-journalisation".
+
+</div>
 
 **Veuillez noter que nous ne sommes affiliés à aucun des fournisseurs que nous recommandons. Cela nous permet de fournir des recommandations totalement objectives.** En plus de [nos critères standards](about/criteria.md), nous avons développé un ensemble d'exigences claires pour tout fournisseur de VPN souhaitant être recommandé, y compris un chiffrement fort, des audits de sécurité indépendants, une technologie moderne, et plus encore. Nous vous suggérons de vous familiariser avec cette liste avant de choisir un fournisseur VPN, et de mener vos propres recherches pour vous assurer que le fournisseur VPN que vous choisissez est le plus digne de confiance possible.
 

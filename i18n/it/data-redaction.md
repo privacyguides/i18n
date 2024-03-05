@@ -1,8 +1,8 @@
 ---
-meta_title: "Rimuovere le PII cancellando i metadati e con gli strumenti di redazione dei dati - Privacy Guides"
-title: "Rimozione di dati e metadati"
+meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
+title: "Data and Metadata Redaction"
 icon: material/tag-remove
-description: Utilizza questi strumenti per rimuovere metadati come la posizione GPS e altre informazioni identificative dalle foto e dai file che condividi.
+description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 cover: data-redaction.webp
 ---
 
@@ -12,46 +12,56 @@ Condividendo dei file, assicurati di rimuovere i metadati associati. I file imma
 
 ### MAT2
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di MAT2](assets/img/data-redaction/mat2.svg){ align=right }
-    
-    **MAT2** è un software gratuito che consente la rimozione dei metadati da file immagine, audio, torrent e documenti. Fornisce sia uno strumento a riga di comando che un'interfaccia utente grafica tramite un'estensione per [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), il gestore file predefinito di [KDE](https://kde.org/it/).
-    
-    Su Linux, esiste uno strumento grafico di terze parti [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) basato su MAT2 ed è [disponibile su Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
-    
-    [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Codice sorgente" }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-windows11: Windows](https://pypi.org/project/mat2)
-        - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
-        - [:simple-linux: Linux](https://pypi.org/project/mat2)
-        - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+![Logo di MAT2](assets/img/data-redaction/mat2.svg){ align=right }
+
+**MAT2** è un software gratuito che consente la rimozione dei metadati da file immagine, audio, torrent e documenti. Fornisce sia uno strumento a riga di comando che un'interfaccia utente grafica tramite un'estensione per [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), il gestore file predefinito di [KDE](https://kde.org/it/).
+
+Su Linux, esiste uno strumento grafico di terze parti [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) basato su MAT2 ed è [disponibile su Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
+
+[:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
+[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://pypi.org/project/mat2)
+- [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+- [:simple-linux: Linux](https://pypi.org/project/mat2)
+- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+
+</details>
+
+</div>
 
 ## Mobile
 
 ### ExifEraser (Android)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo ExifEraser](assets/img/data-redaction/exiferaser.svg){ align=right }
-    
-    **ExifEraser** è un'applicazione moderna e senza permessi per la cancellazione dei metadati delle immagini per Android.
-    
-    Attualmente supporta file JPEG, PNG e WebP.
-    
-    [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Codice sorgente" }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
-        - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
+![Logo ExifEraser](assets/img/data-redaction/exiferaser.svg){ align=right }
+
+**ExifEraser** è un'applicazione moderna e senza permessi per la cancellazione dei metadati delle immagini per Android.
+
+Attualmente supporta file JPEG, PNG e WebP.
+
+[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
+- [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
+
+</details>
+
+</div>
 
 I metadati cancellati dipendono dal tipo di file dell'immagine:
 
@@ -71,77 +81,101 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 
 ### Metapho (iOS)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di Metapho](assets/img/data-redaction/metapho.jpg){ align=right }
-    
-    **Metapho** è un visualizzatore semplice e pulito per i metadati delle foto, quali data, nome del file, dimensioni, modello della fotocamera, velocità dell'otturatore e posizione.
-    
-    [:octicons-home-16: Pagina principale](https://zininworks.com/metapho){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Politica sulla privacy" }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/it/app/metapho/id914457352)
+![Logo di Metapho](assets/img/data-redaction/metapho.jpg){ align=right }
+
+**Metapho** è un visualizzatore semplice e pulito per i metadati delle foto, quali data, nome del file, dimensioni, modello della fotocamera, velocità dell'otturatore e posizione.
+
+[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+
+</details>
+
+</div>
 
 ### PrivacyBlur
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
-    
-    **PrivacyBlur** è un'app gratuita che consente di sfocare le parti sensibili delle immagini, prima di condividerle online.
-    
-    [:octicons-home-16: Home](https://privacyblur.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Politica sulla Privacy" }
-    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Codice Sorgente" }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur&gl=it)
-        - [:simple-appstore: App Store](https://apps.apple.com/it/app/privacyblur/id1536274106)
+![Logo di PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
 
-!!! warning "Attenzione"
+**PrivacyBlur** è un'app gratuita che consente di sfocare le parti sensibili delle immagini, prima di condividerle online.
 
-    Non dovresti **mai** utilizzare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri censurare il testo di un'immagine, disegna un riquadro sopra di esso. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
+[:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
+
+Non dovresti **mai** utilizzare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri censurare il testo di un'immagine, disegna un riquadro sopra di esso. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
+
+</div>
 
 ## Linea di comando
 
 ### ExifTool
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo di ExifTool](assets/img/data-redaction/exiftool.png){ align=right }
-    
-    **ExifTool** è la libreria perl originale e appliczione di riga di comando per leggere, scrivere e modificare le meta-informazioni (Exif, IPTC, XMP e altre) in un'ampia gamma di formati di file (JPEG, TIFF, PNG, PDF, RAW e altri).
-    
-    Spesso è usato come un componente di altre applicazioni di rimozione Exif ed è presente nei repository della maggior parte delle distribuzioni Linux.
-    
-    [:octicons-home-16: Home](https://exiftool.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentazione}
-    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Codice Sorgente" }
-    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuisci }
-    
-    ??? downloads "Scarica"
-    
-        - [:simple-windows11: Windows](https://exiftool.org)
-        - [:simple-apple: macOS](https://exiftool.org)
-        - [:simple-linux: Linux](https://exiftool.org)
+![Logo di ExifTool](assets/img/data-redaction/exiftool.png){ align=right }
 
-!!! example "Rimozione dei metadati da una cartella di file"
+**ExifTool** è la libreria perl originale e appliczione di riga di comando per leggere, scrivere e modificare le meta-informazioni (Exif, IPTC, XMP e altre) in un'ampia gamma di formati di file (JPEG, TIFF, PNG, PDF, RAW e altri).
 
-    ```bash
-    exiftool -all= *.file_extension
-    ```
+Spesso è usato come un componente di altre applicazioni di rimozione Exif ed è presente nei repository della maggior parte delle distribuzioni Linux.
+
+[:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://exiftool.org)
+- [:simple-apple: macOS](https://exiftool.org)
+- [:simple-linux: Linux](https://exiftool.org)
+
+</details>
+
+</div>
+
+<div class="admonition example" markdown>
+<p class="admonition-title">Deleting data from a directory of files</p>
+
+```bash
+exiftool -all= *.file_extension
+```
+
+</div>
 
 ## Criteri
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-!!! example "Questa sezione è nuova"
+<div class="admonition example" markdown>
+<p class="admonition-title">Questa sezione è nuova</p>
 
-    Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
+Stiamo lavorando per stabilire i criteri definiti per ogni sezione del nostro sito e, questa, potrebbe essere soggetta a modifiche. Se hai qualsiasi domanda sui nostri criteri, ti preghiamo di [chiedere sul nostro forum](https://discuss.privacyguides.net/latest) e di non supporre che non abbiamo considerato qualcosa, formulando i nostri consigli, se non elencato qui. Molti fattori sono presi in considerazione e discussi quando consigliamo un progetto e la documentazione di ognuno è in lavorazione.
+
+</div>
 
 - Le applicazioni sviluppate per sistemi operativi open source devono essere open source.
 - Le applicazioni devono essere gratuite e non devono includere pubblicità o altre limitazioni.

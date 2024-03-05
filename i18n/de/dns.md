@@ -24,9 +24,12 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 **Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, verbunden sind.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen, sich mit dieser Liste vertraut zu machen, bevor sich für ein Projekt entschieden wird und eigenen Nachforschungen anzustellen, um sicherzustellen, dass es die richtige Wahl ist.
 
-!!! example "This section is new"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Wir arbeiten daran, definierte Kriterien für jeden Bereich unserer Website festzulegen, daher kann dies sich noch ändern. Bei Fragen zu unseren Kriterien, können diese [in unserem Forum] (https://discuss.privacyguides.net/latest) gestellt werden. Und gehen Sie nicht davon aus, dass wir etwas bei unseren Empfehlungen nicht berücksichtigt haben, wenn es hier nicht aufgeführt ist. Es gibt viele Faktoren, die berücksichtigt und besprochen werden, wenn wir ein Projekt empfehlen, und die Dokumentation jedes einzelnen Faktors ist ein laufender Prozess.
+Wir arbeiten daran, definierte Kriterien für jeden Bereich unserer Website festzulegen, daher kann dies sich noch ändern. Bei Fragen zu unseren Kriterien, können diese [in unserem Forum] (https://discuss.privacyguides.net/latest) gestellt werden. Und gehen Sie nicht davon aus, dass wir etwas bei unseren Empfehlungen nicht berücksichtigt haben, wenn es hier nicht aufgeführt ist. Es gibt viele Faktoren, die berücksichtigt und besprochen werden, wenn wir ein Projekt empfehlen, und die Dokumentation jedes einzelnen Faktors ist ein laufender Prozess.
+
+</div>
 
 - Muss [DNSSEC](advanced/dns-overview.md#what-is-dnssec) unterstützen.
 - [QNAME Minimierung](advanced/dns-overview.md#what-is-qname-minimization).
@@ -49,9 +52,12 @@ Nach der Installation eines Konfigurationsprofils oder einer Anwendung, die die 
 
 Apple bietet keine native Schnittstelle zur Erstellung von Profilen mit verschlüsseltem DNS. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) ist ein inoffizielles Tool zur Erstellung eigener Profile mit verschlüsseltem DNS, diese sind jedoch nicht signiert. Signierte Profile sind zu bevorzugen; das Signieren bestätigt die Herkunft eines Profils und trägt dazu bei, die Integrität der Profile zu gewährleisten. Signierte Konfigurationsprofile erhalten ein grünes "Verifiziert"-Label. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
-!!! info
+<div class="admonition info" markdown>
+<p class="admonition-title">Info</p>
 
-    `systemd-resolved`, das viele Linux-Distributionen für ihre DNS Abfragen verwenden, unterstützt noch nicht [DoH](https://github.com/systemd/systemd/issues/8639). Wenn trotzdem DoH verwendent werden soll, muss ein Proxy wie [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) installiert und [konfiguriert](https://wiki.archlinux.org/title/Dnscrypt-proxy) werden, um alle DNS-Anfragen vom System-Resolver entgegenzunehmen und sie über HTTPS weiterzuleiten.
+`systemd-resolved`, das viele Linux-Distributionen für ihre DNS Abfragen verwenden, unterstützt noch nicht [DoH](https://github.com/systemd/systemd/issues/8639). Wenn trotzdem DoH verwendent werden soll, muss ein Proxy wie [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) installiert und [konfiguriert](https://wiki.archlinux.org/title/Dnscrypt-proxy) werden, um alle DNS-Anfragen vom System-Resolver entgegenzunehmen und sie über HTTPS weiterzuleiten.
+
+</div>
 
 ## Encrypted DNS Proxies
 
@@ -59,43 +65,55 @@ Verschlüsseltes DNS-Proxy-Software bietet einen lokalen Proxy, an den der [unve
 
 ### RethinkDNS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
-    
-    **RethinkDNS** ist ein Open-Source Android-Client, der [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) und DNS-Proxy unterstützt, DNS-Antworten zwischenspeichert, DNS-Anfragen lokal protokolliert und auch als Firewall verwendet werden kann.
-    
-    [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-        - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+
+**RethinkDNS** ist ein Open-Source Android-Client, der [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) und DNS-Proxy unterstützt, DNS-Antworten zwischenspeichert, DNS-Anfragen lokal protokolliert und auch als Firewall verwendet werden kann.
+
+[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+- [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+
+</details>
+
+</div>
 
 ### dnscrypt-proxy
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
-    
-    **dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
-    
-    !!! warning "The anonymized DNS feature does [**not**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic."
-    
-    [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
-        - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-        - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+
+**dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
+</div>
+
+[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
+- [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+
+</details>
+
+</div>
 
 ## Self-hosted Solutions
 
@@ -103,34 +121,42 @@ Eine selbst gehostete DNS-Lösung ist nützlich für die Filterung auf kontrolli
 
 ### AdGuard Home
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
-    
-    **AdGuard Home** ist ein Open-Source [DNS-Sinkhole](https://de.wikipedia.org/wiki/DNS-Sinkhole), das [DNS-Filterung](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) verwendet, um unerwünschte Webinhalte wie Werbung zu blockieren.
-    
-    AdGuard Home bietet eine ausgefeilte Weboberfläche, über die Einblicke erhalten und blockierte Inhalte verwalten werden können.
-    
-    [:octicons-home-16: Homepage](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Source Code" }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
+
+**AdGuard Home** ist ein Open-Source [DNS-Sinkhole](https://de.wikipedia.org/wiki/DNS-Sinkhole), das [DNS-Filterung](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) verwendet, um unerwünschte Webinhalte wie Werbung zu blockieren.
+
+AdGuard Home bietet eine ausgefeilte Weboberfläche, über die Einblicke erhalten und blockierte Inhalte verwalten werden können.
+
+[:octicons-home-16: Homepage](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Source Code" }
+
+</details>
+
+</div>
 
 ### Pi-hole
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
-    
-    **Pi-hole** ist ein Open-Source [DNS-Sinkhole](https://de.wikipedia.org/wiki/DNS-Sinkhole), das [DNS-Filterung](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) verwendet, um unerwünschte Webinhalte wie Werbung zu blockieren.
-    
-    Pi-hole ist für den Betrieb auf einem Raspberry Pi konzipiert, ist aber nicht auf diese Hardware beschränkt. The software features a friendly web interface to view insights and manage blocked content.
-    
-    [:octicons-home-16: Homepage](https://pi-hole.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
+![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
+
+**Pi-hole** ist ein Open-Source [DNS-Sinkhole](https://de.wikipedia.org/wiki/DNS-Sinkhole), das [DNS-Filterung](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) verwendet, um unerwünschte Webinhalte wie Werbung zu blockieren.
+
+Pi-hole ist für den Betrieb auf einem Raspberry Pi konzipiert, ist aber nicht auf diese Hardware beschränkt. The software features a friendly web interface to view insights and manage blocked content.
+
+[:octicons-home-16: Homepage](https://pi-hole.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 [^1]: AdGuard stores aggregated performance metrics of their DNS servers, namely the number of complete requests to a particular server, the number of blocked requests, and the speed of processing requests. They also keep and store the database of domains requested in within last 24 hours. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

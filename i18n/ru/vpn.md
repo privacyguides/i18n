@@ -16,15 +16,18 @@ cover: vpn.webp
 
 </div>
 
-!!! danger "VPN не обеспечивает анонимность"
+<div class="admonition danger" markdown>
+<p class="admonition-title">VPNs do not provide anonymity</p>
 
-    Использование VPN **не обеспечивает** анонимность ваших привычек при просмотре веб-страниц, а также **не прибавляет** безопасности при использовании незащищенного (HTTP) трафика.
-    
-    If you are looking for **anonymity**, you should use the Tor Browser.
-    
-    Если вам нужна дополнительная **безопасность**, убедитесь, что вы подключаетесь к веб-сайтам, используя HTTPS. VPN не является заменой полезных привычек для обеспечения безопасности.
-    
-    [Установить Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Мифы Tor & FAQ](advanced/tor-overview.md){ .md-button }
+Использование VPN **не обеспечивает** анонимность ваших привычек при просмотре веб-страниц, а также **не прибавляет** безопасности при использовании незащищенного (HTTP) трафика.
+
+If you are looking for **anonymity**, you should use the Tor Browser.
+
+Если вам нужна дополнительная **безопасность**, убедитесь, что вы подключаетесь к веб-сайтам, используя HTTPS. VPN не является заменой полезных привычек для обеспечения безопасности.
+
+[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+
+</div>
 
 [Подробный обзор VPN :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -34,24 +37,29 @@ cover: vpn.webp
 
 ### Proton VPN
 
-!!! recommendation annotate
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** - сильный соперник в сфере VPN, работающий с 2016 года. Proton AG базируется в Швейцарии и предлагает ограниченный бесплатный доступ, а также более функциональный премиум вариант.
-    
-    [:octicons-home-16: Домашняя страница](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+![Логотип Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
+
+**Proton VPN** - сильный соперник в сфере VPN, работающий с 2016 года. Proton AG базируется в Швейцарии и предлагает ограниченный бесплатный доступ, а также более функциональный премиум вариант.
+
+[:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+- [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 71 Страна
 
@@ -104,25 +112,30 @@ Unfortunately it does not work very well in countries where sophisticated filter
 
 ### IVPN
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип IVPN](assets/img/vpn/ivpn.svg){ align=right }
-    
-    **IVPN** — еще один платный VPN-провайдер, работающий с 2009 года. Компания IVPN базируется в Гибралтаре.
-    
-    [:octicons-home-16: Домашняя страница](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+![Логотип IVPN](assets/img/vpn/ivpn.svg){ align=right }
+
+**IVPN** — еще один платный VPN-провайдер, работающий с 2009 года. Компания IVPN базируется в Гибралтаре.
+
+[:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 37 Стран
 
@@ -169,26 +182,31 @@ IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html
 
 ### Mullvad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Mullvad](assets/img/vpn/mullvad.svg){ align=right }
-    
-    **Mullvad** - это быстрый и недорогой VPN с серьезным акцентом на прозрачность и безопасность. Выбор VPN-провайдера с ближайшим к вам сервером позволит снизить задержку передаваемого вами сетевого трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
-    
-    [:octicons-home-16: Домашняя страница](https://mullvad.net){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Сервис Onion" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+![Логотип Mullvad](assets/img/vpn/mullvad.svg){ align=right }
+
+**Mullvad** - это быстрый и недорогой VPN с серьезным акцентом на прозрачность и безопасность. Выбор VPN-провайдера с ближайшим к вам сервером позволит снизить задержку передаваемого вами сетевого трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 40 Стран
 
@@ -247,9 +265,12 @@ Mullvad очень прозрачен в отношении того, каким
 
 ## Критерии
 
-!!! danger "Опасность"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Важно отметить, что использование VPN не сделает вас анонимным, но в определенных ситуациях это обеспечит вам лучшую конфиденциальность. VPN не является инструментом для незаконной деятельности. Не полагайтесь на политику "отсутствия логов".
+Важно отметить, что использование VPN не сделает вас анонимным, но в определенных ситуациях это обеспечит вам лучшую конфиденциальность. VPN не является инструментом для незаконной деятельности. Не полагайтесь на политику "отсутствия логов".
+
+</div>
 
 **Обратите внимание, что мы не связаны ни с одним из рекомендуемых нами провайдеров. Это позволяет нам давать абсолютно объективные рекомендации.** Помимо [наших стандартных критериев](about/criteria.md), мы разработали четкий набор требований к любому VPN-провайдеру, желающему быть рекомендованным, включая надежное шифрование, независимый аудит безопасности, современные технологии и многое другое. Мы рекомендуем вам ознакомиться с этим списком перед выбором VPN-провайдера, а также провести собственное исследование, чтобы убедиться, что выбранный вами VPN-провайдер заслуживает максимального доверия.
 

@@ -1,6 +1,6 @@
 ---
 title: "Autenticação multi-fator"
-icon: 'O uso de AMF forte pode parar mais de 99% dos acessos não autorizados à conta, e é fácil de configurar nos serviços que você já usa.'
+icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 

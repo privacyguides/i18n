@@ -199,15 +199,18 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 ### Fornitori di VPN
 
-??? danger "Le VPN non garantiscono l'anonimato"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione, né aggiungerà ulteriore sicurezza al traffico non sicuro (HTTP).
-    
-    Se stai cercando l'**anonimato**, dovresti utilizzare Tor Browser, **invece** che una VPN.
-    
-    Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti Web usando HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
-    
-    [Maggiori informazioni :material-arrow-right-drop-circle:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
+
+[Scopri di più :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -242,7 +245,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Rimozione di dati e metadati
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 ### Software di crittografia
 
-??? info "Crittografia del disco del sistema operativo"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    Per crittografare l'unità del tuo sistema operativo, tipicamente, consigliamo di utilizzare qualsiasi strumento crittografico sia fornito dal tuo sistema operativo, che sia **BitLocker** su Windows, **FileVault** su macOS, o **LUKS** su Linux. Questi strumenti sono inclusi con il sistema operativo e, tipicamente, utilizzano elementi crittografici hardware come TPM, a differenza di altri software crittografici a disco intero, come VeraCrypt. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
-    
-    [Scopri di più :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Questi strumenti sono inclusi con il sistema operativo e, tipicamente, utilizzano elementi crittografici hardware come TPM, a differenza di altri software crittografici a disco intero, come VeraCrypt. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
+
+[Scopri di più :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
@@ -481,7 +487,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 ## Strumenti Avanzati
 
-Questi strumenti potrebbero fornire utilità per certi individui. Forniscono funzionalità di cui gran parte delle persone non devono preoccuparsi e, spesso, richiedono una conoscenza tecnologica più approfondita per l'utilizzo efficace.
+These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 
 ### Verifica dell'Integrità del Dispositivo
 

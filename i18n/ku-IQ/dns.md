@@ -24,9 +24,12 @@ DNSـی شفرکراو تەنها دەبێت بەکار بهێنرێت لەگە�
 
 **تکایە تێبینی ئەوە بکە کە ئێمە سەر بە هیچ کام لەو پرۆژانە نین کە پێشنیاری دەکەین.** وە جگە لە [ پێوەرە بنچینەییەکانمان](about/criteria.md), ئێمە کۆمەڵێک مەرجی ڕوونمان دامەزراندووە بۆ ئەوەی ڕێگەمان پێبدات پێشنیاری ڕاست بکەین. ئێمە پێشنیاری ئەوە دەکەین کە تۆ خۆت ئاشنا بکەیت لەگەڵ ئەم لیستە پێش هەڵبژاردن و بەکارهێنانی دابینکەرەکە وە لێکۆڵینەوەی خۆت بکەیت بۆ دڵنیابوون لەوەی، کە ئەمە هەڵبژاردنێکی گونجاوە بۆ تۆ.
 
-!!! نموونە "ئەم بەشە نوێیە"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    ئێمە کار لەسەر دانانی پێوەرە پێناسەکراوەکان دەکەین بۆ هەموو بەشێکی ماڵپەڕەکەمان, وە ئەمە لەوانەیە بگۆڕدرێت. ئەگەر هیچ پرسیارێکت هەیە سەبارەت بە پێوەرەکانی ئێمە. ئەوا تکایە [لە سەکۆکەمان پرسیار بکە](https://discuss.privacyguides.net/latest). وە وادامەنێ کە ئێمە هیچ شتێکمان لەبەرچاو نەگرتوە لە کاتی دروستکردنی پێشنیارەکانمان ئەگەر لە لیستەکە نەبێت. چەندین هۆکار هەن کە لەبەرچاو دەگرین و گفتوگۆیان لەسەر دەکرێت کاتێک پێشنیاری پرۆژەیەک دەکەین. وە تۆمارکردنی هەریەکەیان کارێکی بەردەوامە.
+ئێمە کار لەسەر دانانی پێوەرە پێناسەکراوەکان دەکەین بۆ هەموو بەشێکی ماڵپەڕەکەمان, وە ئەمە لەوانەیە بگۆڕدرێت. ئەگەر هیچ پرسیارێکت هەیە سەبارەت بە پێوەرەکانی ئێمە. ئەوا تکایە [لە سەکۆکەمان پرسیار بکە](https://discuss.privacyguides.net/latest). وە وادامەنێ کە ئێمە هیچ شتێکمان لەبەرچاو نەگرتوە لە کاتی دروستکردنی پێشنیارەکانمان ئەگەر لە لیستەکە نەبێت. چەندین هۆکار هەن کە لەبەرچاو دەگرین و گفتوگۆیان لەسەر دەکرێت کاتێک پێشنیاری پرۆژەیەک دەکەین. وە تۆمارکردنی هەریەکەیان کارێکی بەردەوامە.
+
+</div>
 
 - پێویستە بشتگیری [DNSSEC](advanced/dns-overview.md#what-is-dnssec) بکات.
 - [بچووکردنەوەی QNAME](advanced/dns-overview.md#what-is-qname-minimization).
@@ -49,9 +52,12 @@ DNSـی شفرکراو تەنها دەبێت بەکار بهێنرێت لەگە�
 
 Apple ڕووکارێکی بنەچەیی دابین ناکات بۆ دروستکردنی پرۆفایلی DNSـی شفرەکراو. [ دروستکەری پرۆفایلی DNSـی پارێزراو](https://dns.notjakob.com/tool.html) ئامرازێکی نافەرمییە بۆ دروستکردنی پرۆفایلی DNSـی شفرەکراوی تایبەت بەخۆت، بەڵام هەرچۆنێک بێت ئەوان واژۆ ناکرێن. پرۆڤایلی واژۆکراو پەسندن؛ واژۆکە سەرچاوەی پرۆفایلەکە ڕوون دەکاتەوە و یارمەتیدەرە بۆ دڵنیابوون لە ڕاستی پرۆفایلەکان. نیشانەیەکی "پشتڕاستکراو" بە ڕەنگی سەوز دراوە بە پرۆفایلی شێوەپێدانی واژۆکراو. بۆ زانیاری زیاتر لەسەر هێمای واژۆکان، [ دەربارەی هێمای واژۆکان](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html) ببینە. ** پرۆفایلە واژۆکراوەکان ** پێشکەشکراون لەلایەن [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html)،[NextDNS](https://apple.nextdns.io)، لەگەڵ [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
-!!! زانیاری
+<div class="admonition info" markdown>
+<p class="admonition-title">Info</p>
 
-    `systemd-resolved`، کە زۆربەی دابەشکراوانی لینوکس بەکاری دێنن بۆ ئەنجامدانی گەرانی DNSـەکەیان. تاوەکو ئێستا [پشتگیری لە DoH ناکات](https://github.com/systemd/systemd/issues/8639). ئەگەر دەتەوێت DoH بەکاربێنی، ئەوا پێویستت بە دابەزاندی چارەسەرکەرێک هەیە وەک [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) هەیە وە [دەستکاری کردنی](https://wiki.archlinux.org/title/Dnscrypt-proxy) بۆ ئەوەی هەموو داواکاریەکانی DNSـەکەت کە لەلایەن سیستەمی چارەسەرکەرەکەت دێت بنێرێدرێت لەڕێگای HTTPSـەوە.
+`systemd-resolved`، کە زۆربەی دابەشکراوانی لینوکس بەکاری دێنن بۆ ئەنجامدانی گەرانی DNSـەکەیان. تاوەکو ئێستا [پشتگیری لە DoH ناکات](https://github.com/systemd/systemd/issues/8639). ئەگەر دەتەوێت DoH بەکاربێنی، ئەوا پێویستت بە دابەزاندی چارەسەرکەرێک هەیە وەک [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) هەیە وە [دەستکاری کردنی](https://wiki.archlinux.org/title/Dnscrypt-proxy) بۆ ئەوەی هەموو داواکاریەکانی DNSـەکەت کە لەلایەن سیستەمی چارەسەرکەرەکەت دێت بنێرێدرێت لەڕێگای HTTPSـەوە.
+
+</div>
 
 ## Encrypted DNS Proxies
 
@@ -59,43 +65,55 @@ Apple ڕووکارێکی بنەچەیی دابین ناکات بۆ دروستک�
 
 ### RethinkDNS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
-    
-    **RethinkDNS** ڕاژەیەکی سەرچاوە - کراوەی ئەندرۆیدە، کە پشتگیری لە [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)، [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot)، [DNSCrypt](advanced/dns-overview.md#dnscrypt) و بریکاری DNS دەکات، لەگەڵ کۆکردنەەی وەڵامدانەوەکانی DNS بە شێوەیەکی کاتی، وە تۆمارکردنی داواکاریەکانی DNS. هەروەها دەتوانرێت وەک ئاگرەدیوار بەرکار بهێندرێت.
-    
-    [:octicons-home-16: پەڕەی سەرەکی](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="سیاسەتی تاێبەتێتی" }
-    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=دۆکیمێنتەکان}
-    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="سەرچاوەی کۆد" }
-    
-    ??? داگرتنەکان
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-        - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+
+**RethinkDNS** ڕاژەیەکی سەرچاوە - کراوەی ئەندرۆیدە، کە پشتگیری لە [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)، [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot)، [DNSCrypt](advanced/dns-overview.md#dnscrypt) و بریکاری DNS دەکات، لەگەڵ کۆکردنەەی وەڵامدانەوەکانی DNS بە شێوەیەکی کاتی، وە تۆمارکردنی داواکاریەکانی DNS. هەروەها دەتوانرێت وەک ئاگرەدیوار بەرکار بهێندرێت.
+
+[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+- [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+
+</details>
+
+</div>
 
 ### dnscrypt-proxy
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
-    
-    **dnscrypt-proxy** بریکارێکی DNSـە پشتگیری دەکات لە [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), وە [DNSـی نەناسراو](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
-    
-    !!! ئاگاداری "تایبەتمەندی DNSـی نەناسراو، جۆرەکانی تری [چالاکی سەر ئینتەرنێت **نا** شارێتەوە](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns)".
-    
-    [:octicons-repo-16: کۆگا](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=دۆکیمێنتەکان}
-    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="سەرچاوەی کۆد" }
-    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=هاوبەشی کردن }
-    
-    ??? داگرتنەکان
-    
-        - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
-        - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-        - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+
+**dnscrypt-proxy** بریکارێکی DNSـە پشتگیری دەکات لە [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), وە [DNSـی نەناسراو](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
+</div>
+
+[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
+- [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+
+</details>
+
+</div>
 
 ## Self-hosted Solutions
 
@@ -103,34 +121,42 @@ Apple ڕووکارێکی بنەچەیی دابین ناکات بۆ دروستک�
 
 ### AdGuard Home
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
-    
-    **AdGuard Home**سەرچاوە-کراوەیەکی [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole)ـە، کە [پاڵاوکەری DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) بەکار دێنی بۆ قەدەغەکردنی ناوەڕۆکەکانی ماڵپەڕی نەخوازراو، وەک ڕیکلامەکان.
-    
-    AdGuard Home ڕووکارێکی ڕێک و پێک دەبەخشێتە ماڵپەرەکەی بۆ بینینی تێگەیشتنەکان و بەڕێوەنردنی ناوەڕۆکە قەدەغەکراوەکان.
-    
-    [:octicons-home-16: پەڕەی سەرەکی](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="سیاسەتی تایبەتێتی" }
-    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=دۆکیمێنتەکان}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="سەرچاوەی کۆد" }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
+
+**AdGuard Home**سەرچاوە-کراوەیەکی [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole)ـە، کە [پاڵاوکەری DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) بەکار دێنی بۆ قەدەغەکردنی ناوەڕۆکەکانی ماڵپەڕی نەخوازراو، وەک ڕیکلامەکان.
+
+AdGuard Home ڕووکارێکی ڕێک و پێک دەبەخشێتە ماڵپەرەکەی بۆ بینینی تێگەیشتنەکان و بەڕێوەنردنی ناوەڕۆکە قەدەغەکراوەکان.
+
+[:octicons-home-16: پەڕەی سەرەکی](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="سیاسەتی تایبەتێتی" }
+[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=دۆکیمێنتەکان}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="سەرچاوەی کۆد" }
+
+</details>
+
+</div>
 
 ### Pi-hole
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
-    
-    **Pi-hole** سەرچاوە-کراوەیەکی [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole)ـە، کە [DNS پاڵاوکەری](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) بەکاردێنێ بۆ قەدەغەکردنی ناوەڕۆکەکانی ماڵپەڕی نەخوازراو، وەک ڕیکلامەکان.
-    
-    Pi-hole وا دروست کراوە کە لەسەر Rasberry Pi سەرپەرشتی بکرێت ، بەڵام سنووردار نییە بۆ ئەم ڕەقەواڵەیە بە تەنها. نەرمەواڵەکە ڕووکارێکی ڕێک و پێک و ئاسان لە بەکارهێان دەبەخشێت بۆ بینینی تێگەیشتنەکان و بەڕێوەبردنی ناوەڕۆکە قەدەغەکراوەکان.
-    
-    [:octicons-home-16: پەڕەی سەرەکی](https://pi-hole.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="سیاسەتی تایبەتێتی" }
-    [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=دۆکیمێنتەکان}
-    [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="سەرچاوەی کۆد" }
-    [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=هاوبەشیکردن }
+![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
+
+**Pi-hole** سەرچاوە-کراوەیەکی [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole)ـە، کە [DNS پاڵاوکەری](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) بەکاردێنێ بۆ قەدەغەکردنی ناوەڕۆکەکانی ماڵپەڕی نەخوازراو، وەک ڕیکلامەکان.
+
+Pi-hole وا دروست کراوە کە لەسەر Rasberry Pi سەرپەرشتی بکرێت ، بەڵام سنووردار نییە بۆ ئەم ڕەقەواڵەیە بە تەنها. نەرمەواڵەکە ڕووکارێکی ڕێک و پێک و ئاسان لە بەکارهێان دەبەخشێت بۆ بینینی تێگەیشتنەکان و بەڕێوەبردنی ناوەڕۆکە قەدەغەکراوەکان.
+
+[:octicons-home-16: پەڕەی سەرەکی](https://pi-hole.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="سیاسەتی تایبەتێتی" }
+[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=دۆکیمێنتەکان}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="سەرچاوەی کۆد" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=هاوبەشیکردن }
+
+</details>
+
+</div>
 
 [^1]: AdGuard توانای ئەرک بەجێهێنانی ڕاژەی DNSـەکانیان کۆ دەکەنەوە، بەتایبەتی ژمارەی داواکاریە تەواوەکان بۆ ڕاژەیەکی دیاریکراو، ژمارەی داواکاریە قەدەغەکراوەکان، و خێرایی وەڵامدانەوەی داواکاریەکان. هەروەها ئەوان ئەو بنکە داتایانە هەڵدەگرن و کۆیدەکەنەوە، کە دۆمەینەکانی لێوە داواکراوە لە ماوەی 24 کاتژمێری ڕابردوو. "پێویستمان بەم زانیاریە هەیە بۆ ناسینەوە و ڕاگرتنی شوێنگران و هەڕەشە نوێیەکان" "هەروەها ئێمە تۆماری دەکەین کە چەند جار ئەم یان ئەو شوێنگرە ڕێگری لێکراوە. ئێمە پێویستمان بەم زانیاریە هەیە بۆ سڕینەوەی یاسای بەرسەرچوو لە پاڵاوتنەکانمان." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare تەنها ئەو داتایە سنووردارە کۆدەکاتەوە و هەڵیدەگرێت، کە نێردراون لایەن DNS بۆ چارەسەرکەری 1.1.1.1. خزمەتگوزاری چارەسەرکەری 1.1.1.1 داتای کەسی تۆمار ناکات، وە ئەو بەشە داتایە سنووردارە نا-کەسیە ناسراوانە تەنها بۆ ماوەی 25 کاتژمێر هەڵدەگیرێن دەکرێت. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

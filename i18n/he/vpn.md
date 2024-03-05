@@ -16,15 +16,18 @@ cover: vpn.webp
 
 </div>
 
-!!! danger סכנה "רשתות VPN לא מספקות אנונימיות"
+<div class="admonition danger" markdown>
+<p class="admonition-title">VPNs do not provide anonymity</p>
 
-    שימוש ב-VPN **לא** ישמור על הרגלי הגלישה שלך אנונימיים, וגם לא יוסיף אבטחה לתעבורה לא מאובטחת (HTTP).
-    
-    If you are looking for **anonymity**, you should use the Tor Browser.
-    
-    אם אתה מחפש **אבטחה** נוספת, עליך תמיד לוודא שאתה מתחבר לאתרים באמצעות HTTPS. VPN אינו תחליף לשיטות אבטחה טובות.
-    
-    [הורד את Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & שאלות נפוצות](advanced/tor-overview.md){ .md-button }
+שימוש ב-VPN **לא** ישמור על הרגלי הגלישה שלך אנונימיים, וגם לא יוסיף אבטחה לתעבורה לא מאובטחת (HTTP).
+
+If you are looking for **anonymity**, you should use the Tor Browser.
+
+אם אתה מחפש **אבטחה** נוספת, עליך תמיד לוודא שאתה מתחבר לאתרים באמצעות HTTPS. VPN אינו תחליף לשיטות אבטחה טובות.
+
+[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+
+</div>
 
 [סקירת VPN מפורטת :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -34,24 +37,29 @@ cover: vpn.webp
 
 ### Proton VPN
 
-!!! recommendation annotate
+<div class="admonition recommendation" markdown>
 
-    ![Proton VPN לוגו](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** הוא מתחרה חזק בתחום ה-VPN, והם פועלים מאז 2016. Proton AG מבוססת בשוויץ ומציעה רמה מוגבלת בחינם, כמו גם אפשרות פרימיום מומלצת יותר.
-    
-    [:octicons-home-16: דף הבית](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+![Proton VPN לוגו](assets/img/vpn/protonvpn.svg){ align=right }
+
+**Proton VPN** הוא מתחרה חזק בתחום ה-VPN, והם פועלים מאז 2016. Proton AG מבוססת בשוויץ ומציעה רמה מוגבלת בחינם, כמו גם אפשרות פרימיום מומלצת יותר.
+
+[:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+- [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 71 Countries
 
@@ -104,25 +112,30 @@ Unfortunately it does not work very well in countries where sophisticated filter
 
 ### IVPN
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![לוגו IVPN](assets/img/vpn/ivpn.svg){ align=right }
-    
-    **IVPN** הוא עוד ספק VPN פרימיום, והם פועלים מאז 2009. IVPN מבוסס בגיברלטר.
-    
-    [:octicons-home-16: דף הבית](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+![לוגו IVPN](assets/img/vpn/ivpn.svg){ align=right }
+
+**IVPN** הוא עוד ספק VPN פרימיום, והם פועלים מאז 2009. IVPN מבוסס בגיברלטר.
+
+[:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 37 Countries
 
@@ -169,26 +182,31 @@ IVPN has obfuscation modes using the [v2ray](https://www.v2ray.com/en/index.html
 
 ### Mullvad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![לוגו Mullvad](assets/img/vpn/mullvad.svg){ align=right }
-    
-    **Mullvad** הוא VPN מהיר וזול עם התמקדות רצינית בשקיפות ואבטחה. הם פועלים מאז **2009**. Mullvad מבוסס בשוודיה ואין לו ניסיון חינם.
-    
-    [:octicons-home-16: דף הבית](https://mullvad.net){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="שירותי בצל" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+![לוגו Mullvad](assets/img/vpn/mullvad.svg){ align=right }
+
+**Mullvad** הוא VPN מהיר וזול עם התמקדות רצינית בשקיפות ואבטחה. הם פועלים מאז **2009**. Mullvad מבוסס בשוודיה ואין לו ניסיון חינם.
+
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 40 Countries
 
@@ -247,9 +265,12 @@ Mullvad מאוד שקוף לגבי אילו צמתים הם [בעלים או ש�
 
 ## קריטריונים
 
-!!! danger "סַכָּנָה"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    חשוב לציין ששימוש בספק VPN לא יהפוך אתכם לאנונימיים, אבל הוא ייתן לכם פרטיות טובה יותר במצבים מסוימים. VPN הוא לא כלי לפעילויות בלתי חוקיות. אל תסמכו על מדיניות "ללא תיעוד ".
+חשוב לציין ששימוש בספק VPN לא יהפוך אתכם לאנונימיים, אבל הוא ייתן לכם פרטיות טובה יותר במצבים מסוימים. VPN הוא לא כלי לפעילויות בלתי חוקיות. אל תסמכו על מדיניות "ללא תיעוד ".
+
+</div>
 
 **לידיעתך, איננו קשורים לאף אחד מהספקים שאנו ממליצים עליהם. זה מאפשר לנו לספק המלצות אובייקטיביות לחלוטין.** בנוסף ל[הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות עבור כל ספק VPN שרוצה מומלץ, כולל הצפנה חזקה, ביקורות אבטחה עצמאיות, טכנולוגיה מודרנית ועוד. מומלץ להכיר את הרשימה לפני שבוחרים ספק אימייל, ולבצע מחקר משלך כדי לוודא שספק האימייל שבחרתם הוא הבחירה הנכונה עבורכם.
 

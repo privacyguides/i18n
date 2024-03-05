@@ -16,15 +16,18 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 </div>
 
-!!! "VPN'ler anonimlik sağlamaz"
+<div class="admonition danger" markdown>
+<p class="admonition-title">VPNs do not provide anonymity</p>
 
-    Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
-    
-    If you are looking for **anonymity**, you should use the Tor Browser.
-    
-    If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
-    
-    [Tor'u İndir](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](basics/tor-overview.md){ .md-button }
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+
+[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+
+</div>
 
 [Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -34,23 +37,28 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 ### Proton VPN
 
-!!! öneri açıklaması
+<div class="admonition recommendation" markdown>
 
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-    **Proton VPN**, VPN alanında güçlü bir rakiptir ve 2016'dan beri faaliyet göstermektedir. İsviçre merkezli Proton AG, sınırlı bir ücretsiz versiyonun yanı sıra daha özellikli bir premium seçenek de sunuyor.
-    
-    **Ücretsiz** - **Plus Plan USD $71,88/yıl** (1)
-    
-    [:octicons-home-16: Ana sayfa](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Gizlilik Politikası" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Dokümantasyon}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Kaynak Kodu" } downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+**Proton VPN**, VPN alanında güçlü bir rakiptir ve 2016'dan beri faaliyet göstermektedir. İsviçre merkezli Proton AG, sınırlı bir ücretsiz versiyonun yanı sıra daha özellikli bir premium seçenek de sunuyor.
+
+[:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+- [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 71 Countries
 
@@ -103,20 +111,30 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ### IVPN
 
-!!! öneri
+<div class="admonition recommendation" markdown>
 
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
-    
-    **IVPN** is another premium VPN provider, and they have been in operation since 2009. Size en yakın sunucuya sahip bir VPN sağlayıcısı seçmek, gönderdiğiniz ağ trafiğinin gecikme süresini azaltacaktır.
-    
-    Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama). downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+
+**IVPN** is another premium VPN provider, and they have been in operation since 2009. Size en yakın sunucuya sahip bir VPN sağlayıcısı seçmek, gönderdiğiniz ağ trafiğinin gecikme süresini azaltacaktır.
+
+[:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 37 Countries
 
@@ -163,20 +181,31 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
 ### Mullvad
 
-!!! öneri
+<div class="admonition recommendation" markdown>
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
-    
-    **Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. Size en yakın sunucuya sahip bir VPN sağlayıcısı seçmek, gönderdiğiniz ağ trafiğinin gecikme süresini azaltacaktır. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
-    
-    Ayrıca VPN sağlayıcısının özel anahtarlarının güvenliği için [sanal özel sunucular](https://en.wikipedia.org/wiki/Virtual_private_server) gibi daha ucuz paylaşımlı çözümler (diğer müşterilerle) yerine [özel sunucular](https://en.wikipedia.org/wiki/Dedicated_hosting_service) kullanmasının daha iyi olduğunu düşünüyoruz. downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. Size en yakın sunucuya sahip bir VPN sağlayıcısı seçmek, gönderdiğiniz ağ trafiğinin gecikme süresini azaltacaktır. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
+
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 40 Countries
 
@@ -235,9 +264,12 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 ## Criteria
 
-!!! danger
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+
+</div>
 
 **Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
 

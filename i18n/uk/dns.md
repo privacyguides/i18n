@@ -24,9 +24,12 @@ cover: dns.webp
 
 **Зверніть увагу, що ми не пов'язані з жодним з проектів, які ми рекомендуємо.** На додаток до [наших стандартних критеріїв](about/criteria.md), ми розробили чіткий набір вимог, які дозволяють нам надавати об'єктивні рекомендації. Ми пропонуємо вам ознайомитися з цим списком перед тим, як вибрати проект, і провести власне дослідження, щоб переконатися, що це правильний вибір для вас.
 
-!!! example "Цей розділ новий"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Ми працюємо над встановленням чітких критеріїв для кожного розділу нашого сайту, і вони можуть бути змінені. Якщо у вас виникли запитання щодо наших критеріїв, будь ласка, [запитайте на нашому форумі] (https://discuss.privacyguides.net/latest) і не думайте, що ми не врахували щось, коли складали наші рекомендації, якщо це не вказано тут. Коли ми рекомендуємо проєкт, ми враховуємо та обговорюємо багато факторів, і документування кожного з них є постійним процесом.
+Ми працюємо над встановленням чітких критеріїв для кожного розділу нашого сайту, і вони можуть бути змінені. Якщо у вас виникли запитання щодо наших критеріїв, будь ласка, [запитайте на нашому форумі] (https://discuss.privacyguides.net/latest) і не думайте, що ми не врахували щось, коли складали наші рекомендації, якщо це не вказано тут. Коли ми рекомендуємо проєкт, ми враховуємо та обговорюємо багато факторів, і документування кожного з них є постійним процесом.
+
+</div>
 
 - Повинен підтримувати [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [Мінімізація QNAME](advanced/dns-overview.md#what-is-qname-minimization).
@@ -49,9 +52,12 @@ Android 9 і вище підтримує DNS через TLS. Налаштува�
 
 Apple не надає власного інтерфейсу для створення зашифрованих профілів DNS. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) — неофіційний інструмент для створення власних зашифрованих DNS профілів, які, однак, не будуть підписані. Підписаним профілям надається перевага; підпис підтверджує походження профілю і допомагає забезпечити цілісність профілів. Підписаним профілям конфігурації присвоюється зелена мітка "Перевірено". Для отримання додаткової інформації про підписання коду див. [Про підписання коду](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Підписані профілі** пропонують [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io)та [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
 
-!!! info
+<div class="admonition info" markdown>
+<p class="admonition-title">Info</p>
 
-    `systemd-resolved`, за якою багато дистрибутивів Linux здійснюють вирішення своїх DNS-пошуків, поки що не [підтримують DoH](https://github.com/systemd/systemd/issues/8639). Якщо ви хочете використовувати DoH, вам потрібно встановити проксі на кшталт [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) і [налаштувати його] (https://wiki.archlinux.org/title/Dnscrypt-proxy), щоб він приймав усі DNS-запити від вашого системного розв'язувача і перенаправляв їх через HTTPS.
+`systemd-resolved`, за якою багато дистрибутивів Linux здійснюють вирішення своїх DNS-пошуків, поки що не [підтримують DoH](https://github.com/systemd/systemd/issues/8639). Якщо ви хочете використовувати DoH, вам потрібно встановити проксі на кшталт [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) і [налаштувати його] (https://wiki.archlinux.org/title/Dnscrypt-proxy), щоб він приймав усі DNS-запити від вашого системного розв'язувача і перенаправляв їх через HTTPS.
+
+</div>
 
 ## Encrypted DNS Proxies
 
@@ -59,43 +65,55 @@ Apple не надає власного інтерфейсу для створе�
 
 ### RethinkDNS
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
-    
-    **RethinkDNS** - клієнт для Android з відкритим вихідним кодом, що підтримує [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) і DNS Proxy, а також кешування DNS-відповідей, локальне ведення логів DNS-запитів і може використовуватися в якості фаєрвола.
-    
-    [:octicons-home-16: Домашня сторінка](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Політика конфіденційності" }
-    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Документація}
-    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Вихідний код" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-        - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+
+**RethinkDNS** - клієнт для Android з відкритим вихідним кодом, що підтримує [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) і DNS Proxy, а також кешування DNS-відповідей, локальне ведення логів DNS-запитів і може використовуватися в якості фаєрвола.
+
+[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+- [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+
+</details>
+
+</div>
 
 ### dnscrypt-proxy
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
-    
-    **dnscrypt-proxy** - це DNS-проксі з підтримкою [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) та [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
-    
-    !!! warning "Функція анонімного DNS не [**не**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) анонімізує інший мережевий трафік."
-    
-    [:octicons-repo-16: Репозиторій](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Документація}
-    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Вихідний код" }
-    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Сприяти}
-    
-    ??? downloads
-    
-        - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
-        - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-        - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+
+**dnscrypt-proxy** - це DNS-проксі з підтримкою [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) та [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
+</div>
+
+[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
+- [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+
+</details>
+
+</div>
 
 ## Self-hosted Solutions
 
@@ -103,34 +121,42 @@ Apple не надає власного інтерфейсу для створе�
 
 ### AdGuard Home
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![Логотип AdGuard Home](assets/img/dns/adguard-home.svg){ align=right }
-    
-    **AdGuard Home** - це програма з відкритим вихідним кодом [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole), яка використовує [DNS-фільтрацію](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) для блокування небажаного веб-вмісту, наприклад, реклами.
-    
-    AdGuard Home має відшліфований веб-інтерфейс для перегляду аналітики та керування заблокованим контентом.
-    
-    [:octicons-home-16: Домашня сторінка](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Політика конфіденційності" }
-    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Документація}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Вихідний код" }
+![Логотип AdGuard Home](assets/img/dns/adguard-home.svg){ align=right }
+
+**AdGuard Home** - це програма з відкритим вихідним кодом [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole), яка використовує [DNS-фільтрацію](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) для блокування небажаного веб-вмісту, наприклад, реклами.
+
+AdGuard Home має відшліфований веб-інтерфейс для перегляду аналітики та керування заблокованим контентом.
+
+[:octicons-home-16: Домашня сторінка](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Документація}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Вихідний код" }
+
+</details>
+
+</div>
 
 ### Pi-hole
 
-!!! рекомендації
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Pi-hole](assets/img/dns/pi-hole.svg){ align=right }
-    
-    **Pi-hole** - це [DNS-sinkhole]з відкритим вихідним кодом (https://wikipedia.org/wiki/DNS_sinkhole), який використовує [DNS-фільтрацію](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) для блокування небажаного веб-контенту, наприклад, реклами.
-    
-    Pi-hole розроблений для розміщення на Raspberry Pi, але він не обмежується цим обладнанням. Програмне забезпечення має зручний веб-інтерфейс для перегляду аналітики та управління заблокованим контентом.
-    
-    [:octicons-home-16: Домашня сторінка](https://pi-hole.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Політика конфіденційності" }
-    [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Документація}
-    [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Вихідний код" }
-    [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Зробити внесок}
+![Логотип Pi-hole](assets/img/dns/pi-hole.svg){ align=right }
+
+**Pi-hole** - це [DNS-sinkhole]з відкритим вихідним кодом (https://wikipedia.org/wiki/DNS_sinkhole), який використовує [DNS-фільтрацію](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) для блокування небажаного веб-контенту, наприклад, реклами.
+
+Pi-hole розроблений для розміщення на Raspberry Pi, але він не обмежується цим обладнанням. Програмне забезпечення має зручний веб-інтерфейс для перегляду аналітики та управління заблокованим контентом.
+
+[:octicons-home-16: Домашня сторінка](https://pi-hole.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Документація}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Вихідний код" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Зробити внесок}
+
+</details>
+
+</div>
 
 [^1]: AdGuard зберігає агреговані показники продуктивності своїх DNS-серверів, а саме: кількість завершених запитів до певного сервера, кількість заблокованих запитів і швидкість обробки запитів. Вони також ведуть і зберігають базу даних доменів, до яких надходили запити протягом останніх 24 годин. "Нам потрібна ця інформація, щоб виявляти та блокувати нові трекери та загрози". "Ми також фіксуємо, скільки разів той чи інший трекер був заблокований. Нам потрібна ця інформація, щоб видалити застарілі правила з наших фільтрів". [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare збирає та зберігає лише обмежену кількість даних DNS-запитів, які надсилаються до вирішувача 1.1.1.1. Сервіс 1.1.1.1 не реєструє особисті дані, а основна частина обмежених неперсоніфікованих даних запитів зберігається лише протягом 25 годин. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

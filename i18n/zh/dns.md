@@ -24,9 +24,12 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 **请注意，我们与我们推荐的任何项目都没有关系。** 除了 [我们的标准标准](about/criteria.md)，我们还制定了一套明确的要求，使我们能够提供客观的建议。 我们建议你在选择使用一个项目之前熟悉这个清单，并进行自己的研究以确保它是你的正确选择。
 
-!!! 例如 "本节是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    我们正在努力为我们网站的每个部分建立确定的标准，这可能会有变化。 如果你对我们的标准有任何疑问，请[在我们的论坛上提问](https://discuss.privacyguides.net/latest)，如果这里没有列出，不要以为我们在做推荐时没有考虑到什么。 当我们推荐一个项目时，有许多因素被考虑和讨论，而记录每一个因素是一项正在进行的工作。
+我们正在努力为我们网站的每个部分建立确定的标准，这可能会有变化。 如果你对我们的标准有任何疑问，请[在我们的论坛上提问](https://discuss.privacyguides.net/latest)，如果这里没有列出，不要以为我们在做推荐时没有考虑到什么。 当我们推荐一个项目时，有许多因素被考虑和讨论，而记录每一个因素是一项正在进行的工作。
+
+</div>
 
 - 必须支持 [DNSSEC](advanced/dns-overview.md#what-is-dnssec)。
 - [QNAME最小化](advanced/dns-overview.md#what-is-qname-minimization).
@@ -49,9 +52,12 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 苹果公司没有为创建加密的DNS配置文件提供本地接口。 [安全DNS配置文件创建者](https://dns.notjakob.com/tool.html) 是一个非官方的工具，用于创建你自己的加密DNS配置文件，然而它们将不会被签署。 签名的档案是首选；签名验证了档案的来源，有助于确保档案的完整性。 绿色的 "已验证 "标签被赋予已签署的配置文件。 关于代码签名的更多信息，见 [关于代码签名](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)。 ** [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html)、 [NextDNS](https://apple.nextdns.io)和 [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/)提供了签名的配置文件**。
 
-!!! 信息
+<div class="admonition info" markdown>
+<p class="admonition-title">信息</p>
 
-    `systemd-resolved`，许多Linux发行版使用它来进行DNS查询，但还不[支持DoH](https://github.com/systemd/systemd/issues/8639)。 如果你想使用DoH，你需要安装一个代理，如 [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)和[配置它](https://wiki.archlinux.org/title/Dnscrypt-proxy)，从你的系统解析器接收所有的DNS查询并通过HTTPS转发。
+`systemd-resolved`，许多Linux发行版使用它来进行DNS查询，但还不[支持DoH](https://github.com/systemd/systemd/issues/8639)。 如果你想使用DoH，你需要安装一个代理，如 [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)和[配置它](https://wiki.archlinux.org/title/Dnscrypt-proxy)，从你的系统解析器接收所有的DNS查询并通过HTTPS转发。
+
+</div>
 
 ## Encrypted DNS Proxies
 
@@ -59,43 +65,55 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 ### RethinkDNS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    ![RethinkDNS标志](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
-    
-    **RethinkDNS**是一个开源的Android客户端，支持 [DNS-over-HTTPS]（advanced/dns-overview.md#dns-over-https-doh）、 [DNS-over-TLS]（advanced/dns-overview.md#dns-over-tls-dot）、 [DNSCrypt]（advanced/dns-overview.md#dnscrypt）和DNS Proxy，同时还可以缓存DNS响应，本地记录DNS查询，也可以作为防火墙使用。
-    
-    [:octicons-home-16: 主页](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="隐私政策" }
-    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=文档}
-    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="源代码" }
-    
-    ??? 下载
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-        - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS标志](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+
+**RethinkDNS**是一个开源的Android客户端，支持 [DNS-over-HTTPS]（advanced/dns-overview.md#dns-over-https-doh）、 [DNS-over-TLS]（advanced/dns-overview.md#dns-over-tls-dot）、 [DNSCrypt]（advanced/dns-overview.md#dnscrypt）和DNS Proxy，同时还可以缓存DNS响应，本地记录DNS查询，也可以作为防火墙使用。
+
+[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+- [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+
+</details>
+
+</div>
 
 ### dnscrypt-proxy
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![dnscrypt-proxy标志](assets/img/dns/dnscrypt-proxy.svg) { align=right }
-    
-    **dnscrypt-proxy**是一个DNS代理，支持 [DNSCrypt]（advanced/dns-overview.md#dnscrypt）， [DNS-over-HTTPS]（advanced/dns-overview.md#dns-over-https-doh），以及[Anonymized DNS]（https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS）。
-    
-    !!! 警告 "匿名DNS功能不会[***](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns)匿名化其他网络流量。"
-    
-    [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="贡献" }
-    
-    ??? 下载
-    
-        - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
-        - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-        - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+![dnscrypt-proxy标志](assets/img/dns/dnscrypt-proxy.svg) { align=right }
+
+**dnscrypt-proxy**是一个DNS代理，支持 [DNSCrypt]（advanced/dns-overview.md#dnscrypt）， [DNS-over-HTTPS]（advanced/dns-overview.md#dns-over-https-doh），以及[Anonymized DNS]（https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS）。
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
+</div>
+
+[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
+- [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+
+</details>
+
+</div>
 
 ## Self-hosted Solutions
 
@@ -103,34 +121,42 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 ### AdGuard Home
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard Home标识](assets/img/dns/adguard-home.svg){ align=right }
-    
-    **AdGuard Home**是一个开源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole)，它使用[DNS过滤](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)来阻止不需要的网络内容，如广告。
-    
-    AdGuard Home有一个精致的网络界面，可以查看洞察力和管理被阻止的内容。
-    
-    [:octicons-home-16: 主页](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="隐私政策" }
-    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=文档}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="源代码" }
+![AdGuard Home标识](assets/img/dns/adguard-home.svg){ align=right }
+
+**AdGuard Home**是一个开源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole)，它使用[DNS过滤](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)来阻止不需要的网络内容，如广告。
+
+AdGuard Home有一个精致的网络界面，可以查看洞察力和管理被阻止的内容。
+
+[:octicons-home-16: 主页](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=文档}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="源代码" }
+
+</details>
+
+</div>
 
 ### Pi-hole
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ! [Pi-hole标志](assets/img/dns/pi-hole.svg){ align=right }
-    
-    **Pi-hole**是一个开源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole)，它使用[DNS过滤](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)来阻止不需要的网络内容，如广告。
-    
-    Pi-hole被设计为在Raspberry Pi上托管，但它并不局限于这种硬件。 该软件具有一个友好的网络界面，可以查看洞察力和管理封锁的内容。
-    
-    [:octicons-home-16: 主页](https://pi-hole.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="隐私政策" }
-    [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=文档}
-    [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="源代码" }
-    [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title="贡献" }
+! [Pi-hole标志](assets/img/dns/pi-hole.svg){ align=right }
+
+**Pi-hole**是一个开源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole)，它使用[DNS过滤](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)来阻止不需要的网络内容，如广告。
+
+Pi-hole被设计为在Raspberry Pi上托管，但它并不局限于这种硬件。 该软件具有一个友好的网络界面，可以查看洞察力和管理封锁的内容。
+
+[:octicons-home-16: 主页](https://pi-hole.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="隐私政策" }
+[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=文档}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="源代码" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title="贡献" }
+
+</details>
+
+</div>
 
 [^1]: AdGuard存储其DNS服务器的汇总性能指标，即对特定服务器的完整请求数、被阻止的请求数和处理请求的速度。 他们还保留并存储了过去24小时内请求的域名数据库。 "我们需要这些信息来识别和阻止新的追踪者和威胁。" "我们还记录了这个或那个追踪器被封锁的次数。 我们需要这些信息来从我们的过滤器中删除过时的规则"。 [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare只收集和存储发送到1.1.1.1解析器的有限DNS查询数据。 1.1.1.1解析器服务不记录个人数据，而且大部分有限的非个人识别的查询数据只存储25小时。 [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

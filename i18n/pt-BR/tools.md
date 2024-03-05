@@ -199,15 +199,18 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### Serviços VPN
 
-??? danger "VPNs não dão anonimato"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    O uso de uma VPN **não** manterá seus hábitos de navegação anônimos, nem adicionará segurança ao tráfego não seguro (HTTP).
-    
-    Se você está procurando por **anonimato**, você deve usar o Navegador Tor **ao invés de ** de uma VPN.
-    
-    Se você está procurando por * * segurança * * adicional, você sempre deve verificar se está se conectando a sites que usam HTTPS. Uma VPN não substitui boas práticas de segurança.
-    
-    [Saiba mais :material-arrow-right-drop-circle:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Uma VPN não substitui boas práticas de segurança.
+
+[Saiba mais :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### Softwares de Criptografia
 
-??? info "Criptografia de Disco do Sistema Operacional"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    Para criptografar sua unidade de disco do sistema operacional, normalmente recomendamos usar qualquer aplicativo de criptografia que seu sistema operacional forneça, seja **BitLocker** no Windows, **FileVault** no macOS ou **LUKS** no Linux. Esses programas vem com o sistema operacional e normalmente usam componentes de criptografia do equipamento físico (hardware), como o TPM, que outros programas de criptografia de disco completo, como o VeraCrypt, não usam. O VeraCrypt ainda é adequado para discos de sistemas não operacionais, como unidades externas, especialmente unidades que podem ser acessadas a partir de vários sistemas operacionais.
-    
-    [Saiba mais :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Esses programas vem com o sistema operacional e normalmente usam componentes de criptografia do equipamento físico (hardware), como o TPM, que outros programas de criptografia de disco completo, como o VeraCrypt, não usam. O VeraCrypt ainda é adequado para discos de sistemas não operacionais, como unidades externas, especialmente unidades que podem ser acessadas a partir de vários sistemas operacionais.
+
+[Saiba mais :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)

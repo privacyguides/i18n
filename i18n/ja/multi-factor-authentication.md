@@ -1,7 +1,7 @@
 ---
-title: "多要素認証"
+title: "Multi-Factor Authenticators"
 icon: 'material/two-factor-authentication'
-description: これらのツールは、あなたの秘密をサードパーティに送信することなく、多要素認証であなたのインターネットアカウントを保護することを支援します。
+description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 
@@ -9,17 +9,21 @@ cover: multi-factor-authentication.webp
 
 ### YubiKey
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
-    
-    **YubiKeys**は最も人気のあるセキュリティ・キーのひとつです。 いくつかのYubiKeyモデルには以下のような幅広い機能があります: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
-    
-    YubiKeyの利点の1つは、1つのキーでハードウェア・セキュリティ・キーに期待されるほとんどのこと(YubiKey 5)ができることです。 正しい選択をするために、購入前に [quiz](https://www.yubico.com/quiz/)をご覧になることをお勧めします。
-    
-    [:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentation}
+![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
+
+**YubiKeys**は最も人気のあるセキュリティ・キーのひとつです。 いくつかのYubiKeyモデルには以下のような幅広い機能があります: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+
+YubiKeyの利点の1つは、1つのキーでハードウェア・セキュリティ・キーに期待されるほとんどのこと(YubiKey 5)ができることです。 正しい選択をするために、購入前に [quiz](https://www.yubico.com/quiz/)をご覧になることをお勧めします。
+
+[:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 The [comparison table](https://www.yubico.com/store/compare/) shows the features and how the YubiKeys compare. We highly recommend that you select keys from the YubiKey 5 Series.
 
@@ -27,20 +31,28 @@ YubiKeys can be programmed using the [YubiKey Manager](https://www.yubico.com/su
 
 For models which support HOTP and TOTP, there are 2 slots in the OTP interface which could be used for HOTP and 32 slots to store TOTP secrets. These secrets are stored encrypted on the key and never expose them to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
 
-!!! warning
-    The firmware of YubiKey is not open source and is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+The firmware of YubiKey is not open source and is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+
+</div>
 
 ### Nitrokey
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
-    
-    **Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
-    
-    [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
+![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
+
+**Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
+
+[:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 The [comparison table](https://www.nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
 
@@ -48,13 +60,19 @@ Nitrokey models can be configured using the [Nitrokey app](https://www.nitrokey.
 
 For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Nitrokeyの中には、パスワードマネージャーとして機能するものもあります。 They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
 
-!!! 警告
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
+While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
 
-!!! 警告
+</div>
 
-    Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+
+</div>
 
 The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
 
@@ -64,9 +82,12 @@ Nitrokey's firmware is open source, unlike the YubiKey. The firmware on modern N
 
 **私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
-!!! example "この項目は最近作成されました"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
+私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
+
+</div>
 
 #### 最低要件
 
@@ -92,49 +113,62 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 ### ente Auth
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
-    
-    **ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
-    
-    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
-        - [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
-        - [:octicons-globe-16: Web](https://auth.ente.io)
+![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+
+**ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+
+[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+- [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
+- [:octicons-globe-16: Web](https://auth.ente.io)
+
+</details>
+
+</div>
 
 ### Aegis Authenticator (Android)
 
-!!! 推奨事項
+<div class="admonition recommendation" markdown>
 
-    ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
-    
-    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
-    
-    [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-        - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
+![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+
+**Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
+
+[:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
+- [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
+
+</details>
+
+</div>
 
 ### 規準
 
 **私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
-!!! example "この項目は最近作成されました"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
+私たちは、サイトの各項目に関して、定義された規準の確立に取り組んでいます。この規準は変更される可能性があります。 規準について疑問がある場合は、[フォーラムで質問](https://discuss.privacyguides.net/latest)してください。また、ここに記載されていない場合でも、私たちがプロジェクトを推奨する際に、そうした事柄を考慮しなかったと仮定するのはお止めください。 プロジェクトを推奨する際に考慮され、議論される要素は多くあり、そのすべてを文書化する作業は現在進行中です。
+
+</div>
 
 - Source code must be publicly available.
 - Must not require internet connectivity.

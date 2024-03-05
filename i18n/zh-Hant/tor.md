@@ -39,9 +39,12 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 
 ## 正在連接到Tor
 
-!!! tip "提示"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    在連接 Tor 之前，請先已閱讀[本站相關介紹概述](advanced/tor-overview.md)，了解 Tor 是什麼以及如何安全地連接使用。 通常建議透過值得信賴的 [VPN 供應商](vpn.md) 來連接 Tor，但其操作必須**正確**，以避免降低匿名性。
+在連接 Tor 之前，請先已閱讀[本站相關介紹概述](advanced/tor-overview.md)，了解 Tor 是什麼以及如何安全地連接使用。 通常建議透過值得信賴的 [VPN 供應商](vpn.md) 來連接 Tor，但其操作必須**正確**，以避免降低匿名性。
+
+</div>
 
 有多種方式可以從您的設備連上  Tor 網絡，最常用的是 ** Tor 瀏覽器**，這是 Firefox 的一個分支，專為桌面電腦和 Android 的匿名瀏覽而設計。
 
@@ -51,29 +54,37 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 
 ### Tor 瀏覽器
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tor 瀏覽器標誌](assets/img/browsers/tor.svg){ align=right }
-    
-    **Tor 瀏覽器** 需要匿名的好選擇，為您提供 Tor 網絡和橋接的存取權限，它包含預設設置和擴展其自動配置安全級別有： *標準* 、 *更安全*和*最安全*三種。
-    
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-android: Android](https://www.torproject.org/download/#android)
-        - [:simple-windows11: Windows](https://www.torproject.org/download/)
-        - [:simple-apple: macOS](https://www.torproject.org/download/)
-        - [:simple-linux: Linux](https://www.torproject.org/download/)
+![Tor 瀏覽器標誌](assets/img/browsers/tor.svg){ align=right }
 
-!!! danger "危險"
+**Tor 瀏覽器** 需要匿名的好選擇，為您提供 Tor 網絡和橋接的存取權限，它包含預設設置和擴展其自動配置安全級別有： *標準* 、 *更安全*和*最安全*三種。
 
-    您應該 **永遠不要** 在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。 瀏覽器擴充套件和非標準設置會使您在 Tor 網絡上突顯出來，從而使您的瀏覽器更容易變成 [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting)。
+[:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+- [:simple-android: Android](https://www.torproject.org/download/#android)
+- [:simple-windows11: Windows](https://www.torproject.org/download/)
+- [:simple-apple: macOS](https://www.torproject.org/download/)
+- [:simple-linux: Linux](https://www.torproject.org/download/)
+
+</details>
+
+</div>
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger "危險"</p>
+
+您應該 **永遠不要** 在Tor瀏覽器上安裝任何其他擴充功能，或編輯「關於：配置」設定，包括我們為Firefox建議的設定。 瀏覽器擴充套件和非標準設置會使您在 Tor 網絡上突顯出來，從而使您的瀏覽器更容易變成 [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting)。
+
+</div>
 
 Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此，您 **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings/)。
 
@@ -81,69 +92,86 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 ### Orbot
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Orbot標誌](assets/img/self-contained-networks/orbot.svg){ align=right }
-    
-    **Orbot** 是一款免費的Tor VPN ，適用於智慧型手機，可讓裝置上的任何應用程式流量通過 Tor 網絡。
-    
-    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
-        - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+![Orbot標誌](assets/img/self-contained-networks/orbot.svg){ align=right }
+
+**Orbot** 是一款免費的Tor VPN ，適用於智慧型手機，可讓裝置上的任何應用程式流量通過 Tor 網絡。
+
+[:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+
+</details>
+
+</div>
 
 我們之前建議在 Orbot 設定中啟用 *隔離目標地址* 偏好設定。 雖然從理論上講，此設置可以強制您連接不同 IP地址使用不同的迴路來改善隱私，但它並未為大多數應用程式（特別是 Web瀏覽）提供實際優勢，可能會帶來顯著的效能拖累，增加 Tor 網絡的負載。 我們不再建議您從預設值調整此設定，除非您知道需要調整。[^1]
 
-!!! tip "Android 使用訣竅"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tips for Android</p>
 
-    Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService](https://developer.android.com/reference/android/net/VpnService) 代理您的所有網路連接，其 VPN killswitch 設置在 :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.。
-    
-    Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和 [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) 上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository](https://github.com/guardianproject/orbot/releases) 下載。
-    
-    所有版本都使用同一個簽名，因此它們應該相互兼容。
+Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+
+Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和 [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) 上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository](https://github.com/guardianproject/orbot/releases) 下載。
+
+所有版本都使用同一個簽名，因此它們應該相互兼容。
+
+</div>
 
 ### Onion 瀏覽器
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
-    
-    **Onion 瀏覽器r** 為開源瀏覽器可在  iOS  設備上匿名瀏覽 Tor 網絡，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。
-    
-    [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+
+**Onion 瀏覽器r** 為開源瀏覽器可在  iOS  設備上匿名瀏覽 Tor 網絡，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。
+
+[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+
+</details>
+
+</div>
 
 ## 中繼和橋接
 
 ### Snowflake
 
-!!! 推薦
+<div class="admonition recommendation" markdown>
 
-    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
-    
-    **Snowflake** 允許您在瀏覽器中操作「Snowflake proxy」，將網路頻寛捐給 Tor 專案。
-    
-    被審查的人可以使用 Snowflake 代理來連接 Tor 網絡。 Snowflake 是貢獻 Tor 網絡的好方法，即便您沒有運行 Tor 中繼或橋接的技術知識。
-    
-    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+
+**Snowflake** 允許您在瀏覽器中操作「Snowflake proxy」，將網路頻寛捐給 Tor 專案。
+
+被審查的人可以使用 Snowflake 代理來連接 Tor 網絡。 Snowflake 是貢獻 Tor 網絡的好方法，即便您沒有運行 Tor 中繼或橋接的技術知識。
+
+[:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 要啟用瀏覽器的 Snowflake 請在另一個標籤分頁下開啟其切換開關。 您可讓它在背景下執行而您的瀏覽器會協助其連接。 不建議將 Snowflake 作為瀏覽器附加元件安裝，因為第三方的擴展往往會增加攻擊面。
 

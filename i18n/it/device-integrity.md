@@ -10,7 +10,7 @@ Questi strumenti possono essere utilizzati per convalidare l'integrità dei tuoi
 <div class="admonition note" markdown>
 <p class="admonition-title">Questo è un argomento avanzato</p>
 
-Questi strumenti potrebbero fornire utilità per certi individui. Forniscono funzionalità di cui la maggior parte delle persone non deve preoccuparsi e spesso richiedono conoscenze tecniche più approfondite per essere utilizzate in modo efficace.
+These tools may provide utility for certain individuals. Forniscono funzionalità di cui la maggior parte delle persone non deve preoccuparsi e spesso richiedono conoscenze tecniche più approfondite per essere utilizzate in modo efficace.
 
 </div>
 

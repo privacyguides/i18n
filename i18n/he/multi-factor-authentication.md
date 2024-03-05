@@ -1,7 +1,7 @@
 ---
-title: "מאמתים מרובי גורמים"
+title: "Multi-Factor Authenticators"
 icon: 'material/two-factor-authentication'
-description: כלים אלה מסייעים לך באבטחת חשבונות האינטרנט שלך באמצעות אימות רב-גורמי מבלי לשלוח את הסודות שלך לצד שלישי.
+description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 
@@ -9,17 +9,21 @@ cover: multi-factor-authentication.webp
 
 ### YubiKey
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
-    
-    **YubiKeys** הם בין מפתחות האבטחה הפופולריים ביותר. לחלק מדגמי YubiKey יש מגוון רחב של תכונות כגון: [גורם שני אוניברסלי (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 ו-WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [אימות זהות אישית (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/),[TOTP ו HOTP](https://developers.yubico.com/OATH).
-    
-    אחד היתרונות של YubiKey הוא שמפתח אחד יכול לעשות כמעט הכל (YubiKey 5), שאפשר לצפות ממפתח אבטחת חומרה. אנו ממליצים לך לקחת את [חידון](https://www.yubico.com/quiz/) לפני הרכישה כדי לוודא שאתה עושה את הבחירה הנכונה.
-    
-    [:octicons-home-16: דף הבית](https://www.yubico.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=תיעוד}
+![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
+
+**YubiKeys** הם בין מפתחות האבטחה הפופולריים ביותר. לחלק מדגמי YubiKey יש מגוון רחב של תכונות כגון: [גורם שני אוניברסלי (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 ו-WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [אימות זהות אישית (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/),[TOTP ו HOTP](https://developers.yubico.com/OATH).
+
+אחד היתרונות של YubiKey הוא שמפתח אחד יכול לעשות כמעט הכל (YubiKey 5), שאפשר לצפות ממפתח אבטחת חומרה. אנו ממליצים לך לקחת את [חידון](https://www.yubico.com/quiz/) לפני הרכישה כדי לוודא שאתה עושה את הבחירה הנכונה.
+
+[:octicons-home-16: דף הבית](https://www.yubico.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="מדיניות פרטיות" }
+[:octicons-info-16:](https://docs.yubico.com/){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 [טבלת ההשוואה](https://www.yubico.com/store/compare/) מציגה את התכונות ואת אופן ההשוואה של YubiKeys. אנו ממליצים בחום לבחור במפתחות מסדרת YubiKey 5.
 
@@ -27,20 +31,28 @@ cover: multi-factor-authentication.webp
 
 עבור דגמים התומכים ב - HOTP וב - TOTP, ישנם 2 חריצים בממשק ה - OTP שניתן להשתמש בהם עבור HOTP ו -32 חריצים לאחסון סודות TOTP. סודות אלה מאוחסנים מוצפנים על המפתח ואף פעם לא לחשוף אותם למכשירים הם מחוברים. ברגע שזרע (סוד משותף) ניתן למאמת Yubico, הוא ייתן רק את הקודים בני שש הספרות, אך לעולם לא את הזרע. מודל אבטחה זה עוזר להגביל את מה שתוקף יכול לעשות אם הוא מסכן את אחד המכשירים המריצים את המאמת של Yubico והופך את ה - YubiKey לעמיד בפני תוקף פיזי.
 
-!!! warning "אזהרה"
-     הקושחה של YubiKey אינה קוד פתוח ואינה ניתנת לעדכון. אם אתה רוצה תכונות בגרסאות קושחה חדשות יותר, או אם ישנה פגיעות בגרסת הקושחה שבה אתה משתמש, תצטרך לרכוש מפתח חדש.
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+The firmware of YubiKey is not open source and is not updatable. אם אתה רוצה תכונות בגרסאות קושחה חדשות יותר, או אם ישנה פגיעות בגרסת הקושחה שבה אתה משתמש, תצטרך לרכוש מפתח חדש.
+
+</div>
 
 ### Nitrokey
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
-    
-    **ל - Nitrokey** יש מפתח אבטחה המסוגל ל- [FIDO2 ו- WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) בשם **Nitrokey FIDO2**. לתמיכה ב-PGP, עליך לרכוש אחד מהמפתחות האחרים שלהם כגון **Nitrokey Start**, **Nitrokey Pro 2** או **Nitrokey Storage 2**.
-    
-    [:octicons-home-16: דף הבית](https://www.nitrokey.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=תיעוד}
+![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
+
+**ל - Nitrokey** יש מפתח אבטחה המסוגל ל- [FIDO2 ו- WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) בשם **Nitrokey FIDO2**. לתמיכה ב-PGP, עליך לרכוש אחד מהמפתחות האחרים שלהם כגון **Nitrokey Start**, **Nitrokey Pro 2** או **Nitrokey Storage 2**.
+
+[:octicons-home-16: דף הבית](https://www.nitrokey.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="מדיניות פרטיות" }
+[:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=תיעוד}
+
+</details>
+
+</div>
 
 [טבלת ההשוואה](https://www.nitrokey.com/#comparison) מציגה את התכונות ואת ההשוואה בין דגמי Nitrokey. ל**Nitrokey 3** המופיע ברשימה תהיה ערכת תכונות משולבת.
 
@@ -48,13 +60,19 @@ cover: multi-factor-authentication.webp
 
 עבור הדגמים התומכים ב - HOTP וב - TOTP, ישנם 3 חריצים עבור HOTP ו -15 עבור TOTP. Nitrokeys מסוימים יכולים לשמש כמנהל סיסמאות. הם יכולים לאחסן 16 אישורים שונים ולהצפין אותם באמצעות אותה סיסמה כמו ממשק OpenPGP.
 
-!!! warning "אזהרה"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    בעוד ש-Nitrokeys אינם משחררים את סודות ה-HOTP/TOTP למכשיר שאליו הם מחוברים, אחסון ה-HOTP וה-TOTP **לא** מוצפן ופגיע להתקפות פיזיות. אם אתם מחפשים לאחסן סודות HOTP או TOTP, אנו ממליצים בחום להשתמש במפתח YubiKey.
+בעוד ש-Nitrokeys אינם משחררים את סודות ה-HOTP/TOTP למכשיר שאליו הם מחוברים, אחסון ה-HOTP וה-TOTP **לא** מוצפן ופגיע להתקפות פיזיות. אם אתם מחפשים לאחסן סודות HOTP או TOTP, אנו ממליצים בחום להשתמש במפתח YubiKey.
 
-!!! warning "אזהרה"
+</div>
 
-    איפוס ממשק OpenPGP על Nitrokey גם יגרום למסד הנתונים סיסמה [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+איפוס ממשק OpenPGP על Nitrokey גם יגרום למסד הנתונים סיסמה [inaccessible](https://docs.nitrokey.com/pro/factory-reset.html).
+
+</div>
 
 ה-Nitrokey Pro 2, Nitrokey Storage 2 וה-Nitrokey 3 הקרובים תומכים באימות שלמות המערכת עבור מחשבים ניידים עם קושחת [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/).
 
@@ -64,9 +82,12 @@ cover: multi-factor-authentication.webp
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 #### דרישות מינימליות
 
@@ -92,49 +113,62 @@ cover: multi-factor-authentication.webp
 
 ### ente Auth
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![ente Auth לוגו](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
-    
-    **ente Auth** היא אפליקציה חינמית וקוד פתוח המאחסנת ויוצרת אסימוני TOTP במכשיר הנייד שלך. ניתן להשתמש בו עם חשבון מקוון כדי לגבות ולסנכרן את האסימונים שלך בין המכשירים שלך (ולגשת אליהם דרך ממשק אינטרנט) בצורה מאובטחת ומוצפנת מקצה לקצה. ניתן להשתמש בו גם במצב לא מקוון במכשיר בודד ללא צורך בחשבון.
-    
-    [:octicons-home-16: דף הבית](https://ente.io/auth){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="מדיניות הפרטיות" }
-    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
-        - [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
-        - [:octicons-globe-16: Web](https://auth.ente.io)
+![ente Auth לוגו](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+
+**ente Auth** היא אפליקציה חינמית וקוד פתוח המאחסנת ויוצרת אסימוני TOTP במכשיר הנייד שלך. ניתן להשתמש בו עם חשבון מקוון כדי לגבות ולסנכרן את האסימונים שלך בין המכשירים שלך (ולגשת אליהם דרך ממשק אינטרנט) בצורה מאובטחת ומוצפנת מקצה לקצה. ניתן להשתמש בו גם במצב לא מקוון במכשיר בודד ללא צורך בחשבון.
+
+[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+- [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
+- [:octicons-globe-16: Web](https://auth.ente.io)
+
+</details>
+
+</div>
 
 ### Aegis Authenticator (אנדרואיד)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Aegis לוגו](assets/img/multi-factor-authentication/aegis.png){ align=right }
-    
-    **Aegis Authenticator** היא אפליקציה חינמית וקוד פתוח עבור אנדרואיד לניהול אסימוני האימות הדו-שלביים שלך עבור השירותים המקוונים שלך. Aegis Authenticator פועל באופן לא מקוון/מקומי לחלוטין, אך כולל אפשרות לייצא את האסימונים שלך לגיבוי בניגוד לחלופות רבות.
-    
-    [:octicons-home-16: דף הבית](https://getaegis.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-        - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
+![Aegis לוגו](assets/img/multi-factor-authentication/aegis.png){ align=right }
+
+**Aegis Authenticator** היא אפליקציה חינמית וקוד פתוח עבור אנדרואיד לניהול אסימוני האימות הדו-שלביים שלך עבור השירותים המקוונים שלך. Aegis Authenticator פועל באופן לא מקוון/מקומי לחלוטין, אך כולל אפשרות לייצא את האסימונים שלך לגיבוי בניגוד לחלופות רבות.
+
+[:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
+- [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
+
+</details>
+
+</div>
 
 ### קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 - קוד המקור חייב להיות זמין לציבור.
 - אסור לדרוש חיבור לאינטרנט.

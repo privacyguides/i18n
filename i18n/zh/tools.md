@@ -202,15 +202,18 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### 搜索引擎
 
-??? 危险 "VPNs 不提供匿名性"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    使用VPN **不** 会隐藏你的浏览习惯, 它也不会为不安全(HTTP) 流量额外增加安全性。
-    
-    如果你在寻求**匿名**, 你应该使用Tor 浏览器 **而不是** VPN。
-    
-    如果你在寻求增进**安全**, 你应该始终确保在使用 HTTPS连接到网站。 VPN不是良好安全实践的替代品。
-    
-    [了解更多:hero-arrow-circle-right-fill:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN不是良好安全实践的替代品。
+
+[了解更多 :hero-arrow-circle-right-fill:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -245,7 +248,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [了解更多 :hero-arrow-circle-right-fill:](cryptocurrency.md)
 
-### 日历/联系人同步
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
@@ -280,11 +283,14 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ### 加密软件
 
-??? info "Operating System Disk Encryption"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    对于加密你的系统盘，我们通常建议使用你的操作系统提供的任何加密工具，无论是Windows上的**BitLocker**，MacOS上的**FileVault**，还是Linux上的**LUKS**。 这些工具包含在操作系统中，通常使用硬件加密组件，如TPM，而其它的全盘加密软件如VeraCrypt则没有。 VeraCrypt仍然适用于加密非系统盘，如外部驱动器，特别是那些可能会从多个操作系统来访问的驱动器。
-    
-    [了解更多:hero-arrow-circle-right-fill:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. 这些工具包含在操作系统中，通常使用硬件加密组件，如TPM，而其它的全盘加密软件如VeraCrypt则没有。 VeraCrypt仍然适用于加密非系统盘，如外部驱动器，特别是那些可能会从多个操作系统来访问的驱动器。
+
+[了解更多 :hero-arrow-circle-right-fill:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -330,7 +336,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)

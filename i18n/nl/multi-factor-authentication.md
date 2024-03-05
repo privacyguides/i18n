@@ -1,7 +1,7 @@
 ---
 title: "Multi-Factor Authenticators"
 icon: 'material/two-factor-authentication'
-description: Deze tools helpen je jouw internetaccounts te beveiligen met Multi-Factor Authentication zonder jouw geheimen naar een derde partij te sturen.
+description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 
@@ -9,17 +9,21 @@ cover: multi-factor-authentication.webp
 
 ### YubiKey
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
-    
-    De **YubiKeys** behoren tot de meest populaire beveiligingssleutels. Sommige YubiKey modellen hebben een breed scala aan functies, zoals: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 en WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP en HOTP](https://developers.yubico.com/OATH) verificatie.
-    
-    Een van de voordelen van de YubiKey is dat één sleutel bijna alles kan (YubiKey 5), wat je van een hardware beveiligingssleutel mag verwachten. Wij raden je aan om vóór de aankoop de [quiz](https://www.yubico.com/quiz/) te nemen om er zeker van te zijn dat je de juiste keuze maakt.
-    
-    [:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentatie}
+![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
+
+De **YubiKeys** behoren tot de meest populaire beveiligingssleutels. Sommige YubiKey modellen hebben een breed scala aan functies, zoals: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 en WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP en HOTP](https://developers.yubico.com/OATH) verificatie.
+
+Een van de voordelen van de YubiKey is dat één sleutel bijna alles kan (YubiKey 5), wat je van een hardware beveiligingssleutel mag verwachten. Wij raden je aan om vóór de aankoop de [quiz](https://www.yubico.com/quiz/) te nemen om er zeker van te zijn dat je de juiste keuze maakt.
+
+[:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentatie}
+
+</details>
+
+</div>
 
 Deze [vergelijkingstabel](https://www.yubico.com/store/compare/) toont de kenmerken en hoe de YubiKeys zich tot elkaar verhouden. Wij raden je ten zeerste aan om sleutels uit de YubiKey 5-serie te kiezen.
 
@@ -27,20 +31,28 @@ YubiKeys kunnen worden geprogrammeerd met behulp van de [YubiKey Manager](https:
 
 Voor modellen die HOTP en TOTP ondersteunen, zijn er 2 slots in de OTP-interface die kunnen worden gebruikt voor HOTP en 32 slots om TOTP geheimen op te slaan. Deze geheimen worden versleuteld opgeslagen op de sleutel en worden nooit blootgesteld aan de apparaten waarop ze zijn aangesloten. Zodra een "seed" ( het gedeeld geheim) aan de Yubico Authenticator is gegeven, zal deze alleen de zescijferige codes geven, maar nooit de seed. Dit beveiligingsmodel beperkt wat een aanvaller kan doen als hij een van de apparaten waarop de Yubico Authenticator draait, in gevaar brengt en maakt de YubiKey bestand tegen een fysieke aanvaller.
 
-!!! warning
-    The firmware of YubiKey is not open source and is not updatable. Als je functies in nieuwere firmwareversies wilt, of als er een kwetsbaarheid is in de firmwareversie die je gebruikt, moet je een nieuwe sleutel kopen.
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+The firmware of YubiKey is not open source and is not updatable. Als je functies in nieuwere firmwareversies wilt, of als er een kwetsbaarheid is in de firmwareversie die je gebruikt, moet je een nieuwe sleutel kopen.
+
+</div>
 
 ### Nitrokey
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
-    
-    **Nitrokey** heeft een beveiligingssleutel die geschikt is voor [FIDO2 en WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) genaamd de **Nitrokey FIDO2**. Voor PGP-ondersteuning moet je een van hun andere sleutels kopen, zoals de **Nitrokey Start**, **Nitrokey Pro 2** of de **Nitrokey Storage 2**.
-    
-    [:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentatie}
+![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
+
+**Nitrokey** heeft een beveiligingssleutel die geschikt is voor [FIDO2 en WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) genaamd de **Nitrokey FIDO2**. Voor PGP-ondersteuning moet je een van hun andere sleutels kopen, zoals de **Nitrokey Start**, **Nitrokey Pro 2** of de **Nitrokey Storage 2**.
+
+[:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentatie}
+
+</details>
+
+</div>
 
 De [vergelijkingstabel](https://www.nitrokey.com/#comparison) toont de kenmerken en hoe de Nitrokey-modellen zich verhouden. De genoemde **Nitrokey 3** zal een gecombineerde functieset hebben.
 
@@ -48,13 +60,19 @@ Nitrokey-modellen kunnen worden geconfigureerd met behulp van de [Nitrokey-app](
 
 Voor de modellen die HOTP en TOTP ondersteunen, zijn er 3 slots voor HOTP en 15 voor TOTP. Sommige Nitrokeys kunnen functioneren als een wachtwoord manager. Ze kunnen 16 verschillende inloggegevens opslaan en deze versleutelen met hetzelfde wachtwoord als de OpenPGP-interface.
 
-!!! warning
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Hoewel Nitrokeys de HOTP/TOTP geheimen niet vrijgeven aan het apparaat waar ze op aangesloten zijn, is de HOTP en TOTP opslag **niet** versleuteld en is kwetsbaar voor fysieke aanvallen. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
+Hoewel Nitrokeys de HOTP/TOTP geheimen niet vrijgeven aan het apparaat waar ze op aangesloten zijn, is de HOTP en TOTP opslag **niet** versleuteld en is kwetsbaar voor fysieke aanvallen. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
 
-!!! warning
+</div>
 
-    Het resetten van de OpenPGP interface op een Nitrokey zal ook de wachtwoord database [inaccessible]maken (https://docs.nitrokey.com/pro/linux/factory-reset).
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Het resetten van de OpenPGP interface op een Nitrokey zal ook de wachtwoord database [inaccessible]maken (https://docs.nitrokey.com/pro/linux/factory-reset).
+
+</div>
 
 De Nitrokey Pro 2, Nitrokey Storage 2 en de komende Nitrokey 3 ondersteunen systeemintegriteitscontrole voor laptops met de [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
 
@@ -64,9 +82,12 @@ Nitrokey's firmware is open source, unlike the YubiKey. De firmware op moderne N
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
-!!! example "Deze sectie is nieuw"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+
+</div>
 
 #### Minimale vereisten
 
@@ -92,49 +113,62 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 
 ### ente Auth
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
-    
-    **ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
-    
-    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
-        - [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
-        - [:octicons-globe-16: Web](https://auth.ente.io)
+![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+
+**ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+
+[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+- [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
+- [:octicons-globe-16: Web](https://auth.ente.io)
+
+</details>
+
+</div>
 
 ### Aegis Authenticator (Android)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
-    
-    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
-    
-    [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-        - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
+![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+
+**Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
+
+[:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
+- [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
+
+</details>
+
+</div>
 
 ### Criteria
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
-!!! example "Deze sectie is nieuw"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en neem niet aan dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
+
+</div>
 
 - Broncode moet openbaar beschikbaar zijn.
 - Moet geen internetverbinding vereisen.

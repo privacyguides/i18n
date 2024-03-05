@@ -39,9 +39,12 @@ Tor werkt door je internetverkeer om te leiden via deze door vrijwilligers behee
 
 ## Verbinding maken met Tor
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+</div>
 
 Er zijn verschillende manieren om verbinding te maken met het Tor-netwerk vanaf je apparaat. De meest gebruikte is de **Tor Browser**, een fork van Firefox ontworpen voor anoniem browsen voor desktop computers en Android.
 
@@ -51,29 +54,37 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 ### Tor Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
-    
-    **Tor Browser** is de keuze als je anonimiteit nodig hebt, omdat het je toegang geeft tot het Tor netwerk en bruggen, en het bevat standaard instellingen en extensies die automatisch geconfigureerd worden door de standaard beveiligingsniveaus: *Standard*, *Safer* en *Safest*.
-    
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-android: Android](https://www.torproject.org/download/#android)
-        - [:simple-windows11: Windows](https://www.torproject.org/download/)
-        - [:simple-apple: macOS](https://www.torproject.org/download/)
-        - [:simple-linux: Linux](https://www.torproject.org/download/)
+![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
-!!! danger "Gevaar"
+**Tor Browser** is de keuze als je anonimiteit nodig hebt, omdat het je toegang geeft tot het Tor netwerk en bruggen, en het bevat standaard instellingen en extensies die automatisch geconfigureerd worden door de standaard beveiligingsniveaus: *Standard*, *Safer* en *Safest*.
 
-    Je moet **nooit** extra extensies installeren op Tor Browser of `about:config` instellingen bewerken, inclusief de extensies die we voorstellen voor Firefox. Browserextensies en niet-standaardinstellingen zorgen ervoor dat je je onderscheidt van anderen op het Tor-netwerk, waardoor je browser gemakkelijker te vinden is op [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+[:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+- [:simple-android: Android](https://www.torproject.org/download/#android)
+- [:simple-windows11: Windows](https://www.torproject.org/download/)
+- [:simple-apple: macOS](https://www.torproject.org/download/)
+- [:simple-linux: Linux](https://www.torproject.org/download/)
+
+</details>
+
+</div>
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
+
+Je moet **nooit** extra extensies installeren op Tor Browser of `about:config` instellingen bewerken, inclusief de extensies die we voorstellen voor Firefox. Browserextensies en niet-standaardinstellingen zorgen ervoor dat je je onderscheidt van anderen op het Tor-netwerk, waardoor je browser gemakkelijker te vinden is op [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+
+</div>
 
 De Tor Browser is ontworpen om fingerprinting, of het identificeren van jou op basis van je browserconfiguratie, te voorkomen. **Daarom is het absoluut noodzakelijk dat je** de browser niet wijzigt buiten de standaard [beveiligingsniveaus](https://tb-manual.torproject.org/security-settings/).
 
@@ -81,69 +92,86 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 ### Orbot
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
-    
-    **Orbot** is een gratis Tor VPN voor smartphones die het verkeer van elke app op je toestel door het Tor-netwerk leidt.
-    
-    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Broncode" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Bijdragen }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
-        - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+
+**Orbot** is een gratis Tor VPN voor smartphones die het verkeer van elke app op je toestel door het Tor-netwerk leidt.
+
+[:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+
+</details>
+
+</div>
 
 Wij hebben eerder aanbevolen *Isolate Destination Address* in de Orbot instellingen in te schakelen. Hoewel deze instelling theoretisch de privacy kan verbeteren door het gebruik van een ander circuit af te dwingen voor elk IP adres waarmee je verbinding maakt, biedt het geen praktisch voordeel voor de meeste toepassingen (vooral web browsen), kan het gepaard gaan met een aanzienlijke prestatievermindering en verhoogt het de belasting van het Tor netwerk. Wij raden je niet langer aan deze instelling te wijzigen ten opzichte van de standaardwaarde, tenzij je weet dat het nodig is.[^1]
 
-!!! tip "Tips voor Android"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tips for Android</p>
 
-    Orbot kan individuele apps proxyen als ze SOCKS of HTTP proxying ondersteunen. Het kan ook al uw netwerkverbindingen proxyen met behulp van [VpnService](https://developer.android.com/reference/android/net/VpnService) en kan worden gebruikt met de VPN killswitch in :gear: **Instellingen** → **Netwerk & internet** → **VPN** → :gear: → **Blokkeer verbindingen zonder VPN**.
-    
-    Orbot is vaak verouderd op de [F-Droid repository](https://guardianproject.info/fdroid) en [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) van het Guardian Project, dus overweeg in plaats daarvan direct te downloaden van de [GitHub repository](https://github.com/guardianproject/orbot/releases).
-    
-    Alle versies zijn ondertekend met dezelfde handtekening, zodat ze onderling compatibel zouden moeten zijn.
+Orbot kan individuele apps proxyen als ze SOCKS of HTTP proxying ondersteunen. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+
+Orbot is vaak verouderd op de [F-Droid repository](https://guardianproject.info/fdroid) en [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) van het Guardian Project, dus overweeg in plaats daarvan direct te downloaden van de [GitHub repository](https://github.com/guardianproject/orbot/releases).
+
+Alle versies zijn ondertekend met dezelfde handtekening, zodat ze onderling compatibel zouden moeten zijn.
+
+</div>
 
 ### Onion Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
-    
-    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
-    
-    [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+
+[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+
+</details>
+
+</div>
 
 ## Relays and Bridges
 
 ### Snowflake
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
-    
-    **Met Snowflake** kun je bandbreedte doneren aan het Tor Project door een "Snowflake proxy" in je browser te gebruiken.
-    
-    Mensen die gecensureerd worden kunnen Snowflake proxies gebruiken om verbinding te maken met het Tor-netwerk. Snowflake is een geweldige manier om bij te dragen aan het netwerk, zelfs als je niet de technische know-how hebt om een Tor relay of bridge te runnen.
-    
-    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+
+**Met Snowflake** kun je bandbreedte doneren aan het Tor Project door een "Snowflake proxy" in je browser te gebruiken.
+
+Mensen die gecensureerd worden kunnen Snowflake proxies gebruiken om verbinding te maken met het Tor-netwerk. Snowflake is een geweldige manier om bij te dragen aan het netwerk, zelfs als je niet de technische know-how hebt om een Tor relay of bridge te runnen.
+
+[:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Je kunt Snowflake inschakelen in je browser door deze in een ander tabblad te openen en de schakelaar aan te zetten. Je kunt het op de achtergrond laten werken tijdens het browsen om een bijdrage te leveren met jouw verbinding. We raden het installeren van Snowflake niet aan als een browserextensie; het toevoegen van extensies van derden kan je aanvalsoppervlak vergroten.
 

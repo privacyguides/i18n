@@ -199,15 +199,18 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 ### VPN Szolgáltatók
 
-??? danger "A VPN-ek nem nyújtanak anonimitást"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    Egy VPN használata **nem** fogja anonimizálni a böngészési szokásaidat, és nem biztosít további védelmet nem biztonságos (HTTP) forgalomnak.
-    
-    Ha **anonimitást** keresel, akkor a Tor böngészőt érdemes használnod egy VPN **helyett**.
-    
-    Ha több **biztonságot** keresel, mindig győződj meg arról, hogy a weboldalakhoz HTTPS használatával csatlakozol. Egy VPN nem helyettesít helyes biztonsági gyakorlatokat.
-    
-    [További információ :material-arrow-right-drop-circle:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Egy VPN nem helyettesít helyes biztonsági gyakorlatokat.
+
+[További információ :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -242,7 +245,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 [További információ :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Adat és Metaadat Visszatartás
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 ### Titkosító Szoftverek
 
-??? info "Operációs Rendszer Lemez Titkosítás"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    Az operációs rendszer meghajtódnak a titkosításához általában az operációs rendszer által biztosított titkosítási eszközt javasoljuk, legyen az **BitLocker** Windowson, **FileVault** macOS-en, vagy **LUKS** Linuxon. Ezek az eszközök az operációs rendszer részét képezik, és általában olyan hardveres titkosítási elemeket használnak, mint például a TPM, amit más teljes lemez titkosító szoftverek, például a VeraCrypt nem. A VeraCrypt továbbra is alkalmas nem operációs rendszer lemezek, például külső meghajtók számára, különösen olyan meghajtók esetében, amelyekhez több operációs rendszerből is hozzáférhetnek.
-    
-    [További információ :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Ezek az eszközök az operációs rendszer részét képezik, és általában olyan hardveres titkosítási elemeket használnak, mint például a TPM, amit más teljes lemez titkosító szoftverek, például a VeraCrypt nem. A VeraCrypt továbbra is alkalmas nem operációs rendszer lemezek, például külső meghajtók számára, különösen olyan meghajtók esetében, amelyekhez több operációs rendszerből is hozzáférhetnek.
+
+[További információ :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több t
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)

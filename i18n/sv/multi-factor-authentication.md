@@ -9,17 +9,21 @@ cover: multi-factor-authentication.webp
 
 ### YubiKey
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
-    
-    The **YubiKeys** are among the most popular security keys. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
-    
-    One of the benefits of the YubiKey is that one key can do almost everything (YubiKey 5), you could expect from a hardware security key. We do encourage you to take the [quiz](https://www.yubico.com/quiz/) before purchasing in order to make sure you make the right choice.
-    
-    [:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentation}
+![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
+
+The **YubiKeys** are among the most popular security keys. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+
+One of the benefits of the YubiKey is that one key can do almost everything (YubiKey 5), you could expect from a hardware security key. We do encourage you to take the [quiz](https://www.yubico.com/quiz/) before purchasing in order to make sure you make the right choice.
+
+[:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentation}
+
+</details>
+
+</div>
 
 The [comparison table](https://www.yubico.com/store/compare/) shows the features and how the YubiKeys compare. We highly recommend that you select keys from the YubiKey 5 Series.
 
@@ -27,20 +31,28 @@ YubiKeys can be programmed using the [YubiKey Manager](https://www.yubico.com/su
 
 For models which support HOTP and TOTP, there are 2 slots in the OTP interface which could be used for HOTP and 32 slots to store TOTP secrets. These secrets are stored encrypted on the key and never expose them to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
 
-!!! warning
-    The firmware of YubiKey is not open source and is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+The firmware of YubiKey is not open source and is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+
+</div>
 
 ### Nitrokey
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
-    
-    **Nitrokey** har en säkerhetsnyckel som kan [FIDO2 och WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) som heter **Nitrokey FIDO2**. För PGP-stöd måste du köpa en av deras andra nycklar som * * Nitrokey Start * *, * *NitrokeyPro 2** eller **NitrokeyStorage 2**.
-    
-    [:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }
-    [:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Contribute}
+![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
+
+**Nitrokey** har en säkerhetsnyckel som kan [FIDO2 och WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) som heter **Nitrokey FIDO2**. För PGP-stöd måste du köpa en av deras andra nycklar som * * Nitrokey Start * *, * *NitrokeyPro 2** eller **NitrokeyStorage 2**.
+
+[:octicons-home-16: Repository](https://github.com/Hackeralert/Picocrypt){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/Hackeralert/Picocrypt){ .card-link title="Source Code" }
+[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Contribute}
+
+</details>
+
+</div>
 
 Jämförelsetabellen [](https://www.nitrokey.com/#comparison) visar funktionerna och hur Nitrokey-modellerna jämför. De **Nitrokey 3** listade kommer att ha en kombinerad funktionsuppsättning.
 
@@ -48,13 +60,19 @@ Nitrokey-modeller kan konfigureras med [Nitrokey-appen](https://www.nitrokey.com
 
 För de modeller som stöder HOTP och TOTP finns det 3 platser för HOTP och 15 för TOTP. Vissa Nitrokeys kan fungera som en lösenordshanterare. De kan lagra 16 olika autentiseringsuppgifter och kryptera dem med samma lösenord som OpenPGP-gränssnittet.
 
-!!! varning
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Även om Nitrokeys inte lämnar ut HOTP/TOTP-hemligheterna till den enhet de är anslutna till, är HOTP- och TOTP-lagringen **inte** krypterad och sårbar för fysiska attacker. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
+Även om Nitrokeys inte lämnar ut HOTP/TOTP-hemligheterna till den enhet de är anslutna till, är HOTP- och TOTP-lagringen **inte** krypterad och sårbar för fysiska attacker. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
 
-!!! varning
+</div>
 
-    Återställning av OpenPGP-gränssnittet på en Nitrokey kommer också att göra lösenordsdatabasen [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Återställning av OpenPGP-gränssnittet på en Nitrokey kommer också att göra lösenordsdatabasen [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+
+</div>
 
 The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) firmware.
 
@@ -64,9 +82,12 @@ Nitrokey's firmware is open source, unlike the YubiKey. Den inbyggda programvara
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! exempel "Det här avsnittet är nytt"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
+Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
+
+</div>
 
 #### Minimikrav
 
@@ -92,49 +113,62 @@ Vi rekommenderar starkt att du använder mobila TOTP-appar i stället för alter
 
 ### ente Auth
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
-    
-    **ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
-    
-    [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
-        - [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
-        - [:octicons-globe-16: Web](https://auth.ente.io)
+![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+
+**ente Auth** is a free and open-source app which stores and generates TOTP tokens on your mobile device. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+
+[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+- [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
+- [:octicons-globe-16: Web](https://auth.ente.io)
+
+</details>
+
+</div>
 
 ### Aegis Authenticator (Android)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
-    
-    **Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
-    
-    [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki/){ .card-link title=Dokumentation}
-    [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Källkod" }
-    [:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment/){ .card-link title=Contribute }
-    
-    ??? nedladdningar
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
-        - [:simple-github: App Store](https://github.com/beemdevelopment/Aegis/releases)
+![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+
+**Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
+
+[:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
+- [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
+
+</details>
+
+</div>
 
 ### Kriterier
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-!!! exempel "Det här avsnittet är nytt"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
+Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och detta kan komma att ändras. Om du har några frågor om våra kriterier, vänligen [fråga på vårt forum] (https://discuss.privacyguides.net/latest) och tro inte att vi inte har beaktat något när vi gjorde våra rekommendationer om det inte finns med här. Det finns många faktorer som beaktas och diskuteras när vi rekommenderar ett projekt, och att dokumentera varje enskild faktor är ett pågående arbete.
+
+</div>
 
 - Source code must be publicly available.
 - Får inte kräva internetuppkoppling.

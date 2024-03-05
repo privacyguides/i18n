@@ -16,15 +16,18 @@ If you're looking for additional **privacy** from your ISP, on a public Wi-Fi ne
 
 </div>
 
-!!! danger "A VPN-ek nem nyújtanak anonimitást"
+<div class="admonition danger" markdown>
+<p class="admonition-title">VPNs do not provide anonymity</p>
 
-    Egy VPN használata **nem** fogja anonimizálni a böngészési szokásaidat, és nem biztosít további védelmet nem biztonságos (HTTP) forgalomnak.
-    
-    If you are looking for **anonymity**, you should use the Tor Browser.
-    
-    Ha több **biztonságot** keresel, mindig győződj meg arról, hogy a weboldalakhoz HTTPS használatával csatlakozol. Egy VPN nem helyettesít helyes biztonsági gyakorlatokat.
-    
-    [A Tor Letöltése(https://www.torproject.org/){ .md-button .md-button--primary } [Tor Tévhitek és GYIK](advanced/tor-overview.md){ .md-button }
+Egy VPN használata **nem** fogja anonimizálni a böngészési szokásaidat, és nem biztosít további védelmet nem biztonságos (HTTP) forgalomnak.
+
+If you are looking for **anonymity**, you should use the Tor Browser.
+
+Ha több **biztonságot** keresel, mindig győződj meg arról, hogy a weboldalakhoz HTTPS használatával csatlakozol. Egy VPN nem helyettesít helyes biztonsági gyakorlatokat.
+
+[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+
+</div>
 
 [Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -34,24 +37,29 @@ Az általunk ajánlott szolgáltatók titkosítást használnak, elfogadják a M
 
 ### Proton VPN
 
-!!! recommendation annotate
+<div class="admonition recommendation" markdown>
 
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    A **Proton VPN** egy erős pályázó a VPN-térben, és 2016 óta vannak működésben. A svájci székhelyű Proton AG egy korlátozott ingyenes előfizetést, valamint egy jobban felszerelt prémium opciót is kínál.
-    
-    [:octicons-home-16: Honlap](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Adatvédelmi Tájékoztató" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Forráskód" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+
+A **Proton VPN** egy erős pályázó a VPN-térben, és 2016 óta vannak működésben. A svájci székhelyű Proton AG egy korlátozott ingyenes előfizetést, valamint egy jobban felszerelt prémium opciót is kínál.
+
+[:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+- [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 71 Countries
 
@@ -104,25 +112,30 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ### IVPN
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
-    
-    Az **IVPN** egy másik prémium VPN szolgáltató, és 2009 óta vannak működésben. Az IVPN székhelye Gibraltáron található.
-    
-    [:octicons-home-16: Honlap](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Adatvédelmi Tájékoztató" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Forráskód" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+
+Az **IVPN** egy másik prémium VPN szolgáltató, és 2009 óta vannak működésben. Az IVPN székhelye Gibraltáron található.
+
+[:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 37 Countries
 
@@ -169,26 +182,31 @@ Az IVPN kliensei támogatják a kétfaktoros hitelesítést (a Mullvad kliensei 
 
 ### Mullvad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
-    
-    A **Mullvad** egy gyors és olcsó VPN, amely komoly hangsúlyt fektet az átláthatóságra és a biztonságra. **2009** óta vannak működésben. A Mullvad székhelye Svédországban van, és nem rendelkezik ingyenes próbaverzióval.
-    
-    [:octicons-home-16: Honlap](https://mullvad.net){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Szolgáltatás" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Adatvédelmi Tájékoztató" }
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Forráskód" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+
+A **Mullvad** egy gyors és olcsó VPN, amely komoly hangsúlyt fektet az átláthatóságra és a biztonságra. **2009** óta vannak működésben. A Mullvad székhelye Svédországban van, és nem rendelkezik ingyenes próbaverzióval.
+
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 40 Countries
 
@@ -247,9 +265,12 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 ## Követelmények
 
-!!! danger
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Fontos megjegyezni, hogy egy VPN szolgáltató használata nem teszi téged anonimmá, de bizonyos helyzetekben jobb magánéletet biztosít. Egy VPN nem illegális tevékenységek eszköze. Ne hagyatkozz "no log" irányelvekre.
+Fontos megjegyezni, hogy egy VPN szolgáltató használata nem teszi téged anonimmá, de bizonyos helyzetekben jobb magánéletet biztosít. Egy VPN nem illegális tevékenységek eszköze. Ne hagyatkozz "no log" irányelvekre.
+
+</div>
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem. Ez lehetővé teszi számunkra, hogy teljesen objektív ajánlásokat tegyünk.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki minden olyan VPN-szolgáltató számára, amelyet ajánlani kívánunk, beleértve az erős titkosítást, független biztonsági felülvizsgálatokat, modern technológiát és még sok mást. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy VPN-szolgáltatót, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy az általad választott VPN-szolgáltató a lehető legmegbízhatóbb.
 

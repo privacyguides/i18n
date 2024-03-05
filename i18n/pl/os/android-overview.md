@@ -1,6 +1,6 @@
 ---
 title: Android Overview
-icon: fontawesome/brands/android
+icon: simple/android
 description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 

@@ -16,15 +16,18 @@ ISPや公共Wi-Fiネットワークから**プライバシー**をより一層�
 
 </div>
 
-!!! danger "VPNは匿名性を提供しません"
+<div class="admonition danger" markdown>
+<p class="admonition-title">VPNs do not provide anonymity</p>
 
-    VPNを使用しても、ブラウジング習慣を匿名化したり、安全でない通信（HTTP）へのセキュリティーが強化されたりすることは**ありません**。
-    
-    If you are looking for **anonymity**, you should use the Tor Browser.
-    
-    **セキュリティー**を強化するには、ウェブサイトへの接続に常にHTTPSを使用してください。 VPNは、優れたセキュリティーの代わりにはなりません。
-    
-    [Torをダウンロード](https://www.torproject.org/){ .md-button .md-button--primary } [Torの神話とよくある質問](advanced/tor-overview.md){ .md-button }
+VPNを使用しても、ブラウジング習慣を匿名化したり、安全でない通信（HTTP）へのセキュリティーが強化されたりすることは**ありません**。
+
+If you are looking for **anonymity**, you should use the Tor Browser.
+
+**セキュリティー**を強化するには、ウェブサイトへの接続に常にHTTPSを使用してください。 VPNは、優れたセキュリティーの代わりにはなりません。
+
+[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+
+</div>
 
 [VPNの詳細な概要 :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -34,24 +37,29 @@ ISPや公共Wi-Fiネットワークから**プライバシー**をより一層�
 
 ### Proton VPN
 
-!!! recommendation annotate
+<div class="admonition recommendation" markdown>
 
-    ![Proton VPN ロゴ](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN**はVPNの分野において強力なサービスプロバイダーであり、2016年から運営されています。 Proton AGはスイスに本社を置き、機能が限定された無料枠と、より多くの機能を備えたプレミアムオプションを提供しています。
-    
-    [:octicons-home-16: ホームページ](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="プライバシーポリシー" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=ドキュメント}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="ソースコード" }
-    
-    ??? ダウンロード
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/jp/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+![Proton VPN ロゴ](assets/img/vpn/protonvpn.svg){ align=right }
+
+**Proton VPN**はVPNの分野において強力なサービスプロバイダーであり、2016年から運営されています。 Proton AGはスイスに本社を置き、機能が限定された無料枠と、より多くの機能を備えたプレミアムオプションを提供しています。
+
+[:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+- [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 71 Countries
 
@@ -104,25 +112,30 @@ VPNキルスイッチを使用しているとき、IntelベースのMacではシ
 
 ### IVPN
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
-    
-    **IVPN**はプレミアムVPNプロバイダの一つで、2009年から運営されています。 IVPNの拠点はジブラルタルです。
-    
-    [:octicons-home-16: ホームページ](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="プライバシーポリシー" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=ドキュメント}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="ソースコード" }
-    
-    ??? ダウンロード
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+
+**IVPN**はプレミアムVPNプロバイダの一つで、2009年から運営されています。 IVPNの拠点はジブラルタルです。
+
+[:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 37 Countries
 
@@ -169,26 +182,31 @@ IVPNのクライアントは2要素認証をサポートしています（Mullva
 
 ### Mullvad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mullvad ロゴ](assets/img/vpn/mullvad.svg){ align=right }
-    
-    **Mullvad**は、透明性とセキュリティに重点を置いた、高速で安価なVPNです。 **2009年**から運営されています。 Mullvadの拠点はスウェーデンで、フリートライアルはありません。
-    
-    [:octicons-home-16: ホームページ](https://mullvad.net/ja){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://mullvad.net/ja/help/privacy-policy/){ .card-link title="プライバシーポリシー" }
-    [:octicons-info-16:](https://mullvad.net/ja/help/){ .card-link title=ドキュメント}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="ソースコード" }
-    
-    ??? ダウンロード
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/jp/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/ja/download/vpn/windows)
-        - [:simple-apple: macOS](https://mullvad.net/ja/download/vpn/macos)
-        - [:simple-linux: Linux](https://mullvad.net/ja/download/vpn/linux)
+![Mullvad ロゴ](assets/img/vpn/mullvad.svg){ align=right }
+
+**Mullvad**は、透明性とセキュリティに重点を置いた、高速で安価なVPNです。 **2009年**から運営されています。 Mullvadの拠点はスウェーデンで、フリートライアルはありません。
+
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 40 Countries
 
@@ -247,9 +265,12 @@ Mullvadには、どのノードを[所有またはレンタル](https://mullvad.
 
 ## 規準
 
-!!! 警告
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    VPNプロバイダーを利用すると、特定の状況下ではより良いプライバシーが得られますが、VPNプロバイダーは匿名性を与えるものではないことに注意が必要です。 VPNは違法行為のためのツールではありません。 「ログなし」ポリシーに依存しないでください。
+VPNプロバイダーを利用すると、特定の状況下ではより良いプライバシーが得られますが、VPNプロバイダーは匿名性を与えるものではないことに注意が必要です。 VPNは違法行為のためのツールではありません。 「ログなし」ポリシーに依存しないでください。
+
+</div>
 
 **私たちは、推奨するいずれのプロバイダーとも提携していません。 This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 

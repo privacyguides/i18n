@@ -16,15 +16,18 @@ Als je op zoek bent naar extra **privacy** van uw ISP, op een openbaar Wi-Fi-net
 
 </div>
 
-!!! danger "VPN's zorgen niet voor anonimiteit"
+<div class="admonition danger" markdown>
+<p class="admonition-title">VPNs do not provide anonymity</p>
 
-    Het gebruik van een VPN houdt jouw surfgedrag niet anoniem, ook voegt het geen extra beveiliging toe aan niet-beveiligd (HTTP) verkeer.
-    
-    If you are looking for **anonymity**, you should use the Tor Browser.
-    
-    Als je op zoek bent naar extra **veiligheid**, moet je er altijd voor zorgen dat je verbinding maakt met websites via HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
-    
-    [Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Mythen & FAQ](advanced/tor-overview.md){ .md-button }
+Het gebruik van een VPN houdt jouw surfgedrag niet anoniem, ook voegt het geen extra beveiliging toe aan niet-beveiligd (HTTP) verkeer.
+
+If you are looking for **anonymity**, you should use the Tor Browser.
+
+Als je op zoek bent naar extra **veiligheid**, moet je er altijd voor zorgen dat je verbinding maakt met websites via HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
+
+[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+
+</div>
 
 [Gedetailleerd VPN-overzicht :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -34,24 +37,29 @@ Onze aanbevolen providers gebruiken encryptie, accepteren Monero, ondersteunen W
 
 ### Proton VPN
 
-!!! recommendation annotate
+<div class="admonition recommendation" markdown>
 
-    ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** is een sterke speler in de VPN-ruimte en is in bedrijf sinds 2016. Proton AG is gevestigd in Zwitserland en biedt een beperkte gratis versie aan en ook een meer uitgebreide premium optie.
-    
-    [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Broncode" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+
+**Proton VPN** is een sterke speler in de VPN-ruimte en is in bedrijf sinds 2016. Proton AG is gevestigd in Zwitserland en biedt een beperkte gratis versie aan en ook een meer uitgebreide premium optie.
+
+[:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+- [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 71 Countries
 
@@ -104,25 +112,30 @@ Systeemcrashes [kunnen optreden](https://protonvpn.com/support/macos-t2-chip-kil
 
 ### IVPN
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
-    
-    **IVPN** is een premium VPN-provider en zijn actief sinds 2009. IVPN is gevestigd in Gibraltar.
-    
-    [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacybeleid" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Broncode" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+
+**IVPN** is een premium VPN-provider en zijn actief sinds 2009. IVPN is gevestigd in Gibraltar.
+
+[:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 37 Countries
 
@@ -169,26 +182,31 @@ IVPN-clients ondersteunen tweefactorauthenticatie (de clients van Mullvad niet).
 
 ### Mullvad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
-    
-    **Mullvad** is een snelle en goedkope VPN met een serieuze focus op transparantie en veiligheid. Zij zijn in bedrijf sinds **2009**. Mullvad is gevestigd in Zweden en heeft geen gratis proefversie.
-    
-    [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacybeleid" }.
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentatie}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Broncode" }
-    
-    ??? downloads "Downloaden"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+
+**Mullvad** is een snelle en goedkope VPN met een serieuze focus op transparantie en veiligheid. Zij zijn in bedrijf sinds **2009**. Mullvad is gevestigd in Zweden en heeft geen gratis proefversie.
+
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 40 Countries
 
@@ -247,9 +265,12 @@ Mullvad is zeer transparant over welke knooppunten zij [bezitten of huren](https
 
 ## Criteria
 
-!!! danger "Gevaar"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Het is belangrijk op te merken dat het gebruik van een VPN provider je niet anoniem maakt, maar het geeft je wel een betere privacy in bepaalde situaties. Een VPN is geen instrument voor illegale activiteiten. Vertrouw niet op een "no log" beleid.
+Het is belangrijk op te merken dat het gebruik van een VPN provider je niet anoniem maakt, maar het geeft je wel een betere privacy in bepaalde situaties. Een VPN is geen instrument voor illegale activiteiten. Vertrouw niet op een "no log" beleid.
+
+</div>
 
 **Wij zijn niet verbonden aan de providers die wij aanbevelen. Hierdoor kunnen wij volledig objectieve aanbevelingen doen.** Naast [onze standaardcriteria](about/criteria.md), hebben we een duidelijke reeks vereisten ontwikkeld voor elke VPN-provider die aanbevolen wil worden, waaronder sterke encryptie, onafhankelijke beveiligingsaudits, moderne technologie en meer. Wij raden je aan deze lijst goed door te nemen voordat je een VPN-provider kiest, en jouw eigen onderzoek te doen om er zeker van te zijn dat de VPN-provider die je kiest zo betrouwbaar mogelijk is.
 

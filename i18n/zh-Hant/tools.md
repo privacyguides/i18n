@@ -199,15 +199,18 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 ### VPN提供商
 
-??? danger "VPN 不會讓您匿名"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    使用 VPN **不會** 讓您的瀏覽習慣匿名，也不會為不安全（ HTTP ）流量增加額外的安全性。
-    
-    如果追求的是 **匿名性** ，應該使用 Tor 瀏覽器**取代** VPN。
-    
-    如果需要額外的 **安全性** ，應該確保一直使用 HTTPS 連接到網站。 VPN不能取代良好的安全措施。
-    
-    [了解更多 :material-arrow-right-drop-circle:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN不能取代良好的安全措施。
+
+[了解更多 :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -242,7 +245,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### 資料和中繼資料處理
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 ### 加密軟體
 
-??? info "作業系統磁碟加密"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    若要加密作業系統磁碟，通常建議使用作業系統提供的加密工具，無論是 Windows 的 **BitLocker**、macOS **FileVault** 或 Linux **LUKS**。 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
-    
-    [了解更多 :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
+
+[了解更多 :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
@@ -481,7 +487,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 ## 進階工具
 
-這些工具可能對某些人很實用。 它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
+These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 
 ### 設備完整性驗證
 

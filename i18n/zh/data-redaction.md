@@ -1,6 +1,6 @@
 ---
 meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
-title: "日历/联系人同步"
+title: "Data and Metadata Redaction"
 icon: material/tag-remove
 description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
 cover: data-redaction.webp
@@ -12,46 +12,56 @@ cover: data-redaction.webp
 
 ### MAT2
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![MAT2标志](assets/img/data-redaction/mat2.svg){ align=right }
-    
-    **MAT2**是免费软件，它允许从图像、音频、洪流和文件类型中删除元数据。 It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
-    
-    在Linux上，存在一个由MAT2驱动的第三方图形工具[Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner)，并[在Flathub上提供](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)。
-    
-    [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title="文档"}
-    [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="源代码" } 。
-    
-    ??? 下载
-    
-        - [:simple-windows11: Windows](https://pypi.org/project/mat2)
-        - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
-        - [:simple-linux: Linux](https://pypi.org/project/mat2)
-        - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+![MAT2标志](assets/img/data-redaction/mat2.svg){ align=right }
+
+**MAT2**是免费软件，它允许从图像、音频、洪流和文件类型中删除元数据。 It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+
+在Linux上，存在一个由MAT2驱动的第三方图形工具[Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner)，并[在Flathub上提供](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)。
+
+[:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
+[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://pypi.org/project/mat2)
+- [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+- [:simple-linux: Linux](https://pypi.org/project/mat2)
+- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+
+</details>
+
+</div>
 
 ## Android
 
 ### ExifEraser (安卓系统)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![ExifEraser标志](assets/img/data-redaction/exiferaser.svg) { align=right }
-    
-    **ExifEraser**是一个现代的、无权限的图像元数据删除应用程序，适用于Android。
-    
-    它目前支持JPEG、PNG和WebP文件。
-    
-    [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="源代码" }
-    [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title=贡献 }
-    
-    ??? 下载
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
-        - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
+![ExifEraser标志](assets/img/data-redaction/exiferaser.svg) { align=right }
+
+**ExifEraser**是一个现代的、无权限的图像元数据删除应用程序，适用于Android。
+
+它目前支持JPEG、PNG和WebP文件。
+
+[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
+- [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
+
+</details>
+
+</div>
 
 被删除的元数据取决于图像的文件类型。
 
@@ -71,77 +81,101 @@ cover: data-redaction.webp
 
 ### Metapho (iOS)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Metapho标志](assets/img/data-redaction/metapho.jpg){ align=right }
-    
-    **Metapho**是一个简单而干净的照片元数据查看器，如日期、文件名、大小、相机型号、快门速度和位置。
-    
-    [:octicons-home-16: 首页](https://zininworks.com/metapho){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="隐私政策" } 。
-    
-    ??? 下载
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+![Metapho标志](assets/img/data-redaction/metapho.jpg){ align=right }
+
+**Metapho**是一个简单而干净的照片元数据查看器，如日期、文件名、大小、相机型号、快门速度和位置。
+
+[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+
+</details>
+
+</div>
 
 ### PrivacyBlur
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![PrivacyBlur标志](assets/img/data-redaction/privacyblur.svg) { align=right }
-    
-    **PrivacyBlur**是一个免费的应用程序，它可以在网上分享之前模糊图片的敏感部分。
-    
-    [:octicons-home-16: 主页](https://privacyblur.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="隐私政策" }
-    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=文档}
-    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="源代码" }
-    
-    ??? 下载
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-        - [:simple-appstore: Web](https://apps.apple.com/us/app/privacyblur/id1536274106)
+![PrivacyBlur标志](assets/img/data-redaction/privacyblur.svg) { align=right }
 
-!!! 推荐
+**PrivacyBlur**是一个免费的应用程序，它可以在网上分享之前模糊图片的敏感部分。
 
-    您应该* *从不* *使用模糊来编辑[图片中的文本](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果你想编辑图像中的文本，在文本上画一个方框。 为此，我们建议使用[Pocket Paint]（https://github.com/Catrobat/Paintroid）等应用程序。
+[:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">警告</p>
+
+您应该* *从不* *使用模糊来编辑[图片中的文本](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果你想编辑图像中的文本，在文本上画一个方框。 为此，我们建议使用[Pocket Paint]（https://github.com/Catrobat/Paintroid）等应用程序。
+
+</div>
 
 ## Command-line
 
 ### ExifTool
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![ExifTool标志](assets/img/data-redaction/exiftool.png){ align=right }
-    
-    **ExifTool**是原始的perl库和命令行应用程序，用于读取、写入和编辑各种文件格式（JPEG、TIFF、PNG、PDF、RAW等）的元信息（Exif、IPTC、XMP等）。
-    
-    它通常是其他Exif删除应用程序的一个组成部分，并且在大多数Linux发行库中。
-    
-    [:octicons-home-16: 主页](https://exiftool.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=文档}
-    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="源代码" }
-    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title="贡献" }
-    
-    ??? 下载
-    
-        - [:simple-windows11: Windows](https://exiftool.org)
-        - [:simple-apple: macOS](https://exiftool.org)
-        - [:simple-linux: Linux](https://exiftool.org)
+![ExifTool标志](assets/img/data-redaction/exiftool.png){ align=right }
 
-!!! 例子 "从一个文件目录中删除数据"
+**ExifTool**是原始的perl库和命令行应用程序，用于读取、写入和编辑各种文件格式（JPEG、TIFF、PNG、PDF、RAW等）的元信息（Exif、IPTC、XMP等）。
 
-    ```bash
-    exiftool -all= *.file_extension
-    ```
+它通常是其他Exif删除应用程序的一个组成部分，并且在大多数Linux发行库中。
+
+[:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://exiftool.org)
+- [:simple-apple: macOS](https://exiftool.org)
+- [:simple-linux: Linux](https://exiftool.org)
+
+</details>
+
+</div>
+
+<div class="admonition example" markdown>
+<p class="admonition-title">Deleting data from a directory of files</p>
+
+```bash
+exiftool -all= *.file_extension
+```
+
+</div>
 
 ## Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! example "This section is new"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
+
+</div>
 
 - Apps developed for open-source operating systems must be open source.
 - 应用程序必须是免费的，不应包括广告或其他限制。

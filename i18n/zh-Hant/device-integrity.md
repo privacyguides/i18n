@@ -10,7 +10,7 @@ cover: device-integrity.webp
 <div class="admonition note" markdown>
 <p class="admonition-title">進階主題</p>
 
-這些工具可能對某些人很實用。 它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
+These tools may provide utility for certain individuals. 它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
 
 </div>
 

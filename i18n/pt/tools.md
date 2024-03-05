@@ -199,15 +199,18 @@ Com base em vários critérios, [recomendamos](dns.md#recommended-providers) uma
 
 ### Fornecedores de VPN
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. perigo "As VPNs não proporcionam anonimato"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    A utilização de uma VPN **não** manterá os seus hábitos de navegação anónimos, nem acrescentará segurança adicional ao tráfego não seguro (HTTP).
-    
-    Se procura **anonimato**, deve utilizar o browser Tor, **em vez** de uma VPN.
-    
-    Se procura mais **segurança**, deve sempre garantir que se liga a sites utilizando HTTPS. Uma VPN não substitui as boas práticas de segurança.
-    
-    [Saiba mais :material-arrow-right-drop-circle:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Uma VPN não substitui as boas práticas de segurança.
+
+[Saiba mais :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
 
 ### Software de encriptação
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. informação "Encriptação de discos do sistema operativo"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    Para encriptar a unidade de disco, recomendamos normalmente a utilização das ferramentas de encriptação fornecidas pelo seu sistema operativo, quer seja **BitLocker** no Windows, **FileVault** no macOS ou **LUKS** no Linux. Estas ferramentas estão incluídas no sistema operativo e, normalmente, utilizam elementos de encriptação de hardware, como o TPM, que outros softwares de encriptação de disco completo, como o VeraCrypt, não utilizam. O VeraCrypt é ainda adequado para discos de sistemas não operativos, tais como unidades externas, especialmente unidades que podem ser acedidas a partir de vários sistemas operativos.
-    
-    [Saiba mais :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Estas ferramentas estão incluídas no sistema operativo e, normalmente, utilizam elementos de encriptação de hardware, como o TPM, que outros softwares de encriptação de disco completo, como o VeraCrypt, não utilizam. O VeraCrypt é ainda adequado para discos de sistemas não operativos, tais como unidades externas, especialmente unidades que podem ser acedidas a partir de vários sistemas operativos.
+
+[Saiba mais :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ Recomendamos armazenar uma chave de recuperação local em um local seguro, em v
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)

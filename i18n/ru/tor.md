@@ -39,9 +39,12 @@ Tor работает, направляя твой трафик через эти
 
 ## Подключение к Tor
 
-!!! tip "Совет"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+</div>
 
 Существует множество способов подключения к сети Tor с твоего устройства, наиболее распространенным из которых является **Tor Browser**, форк Firefox, предназначенный для анонимного просмотра веб-страниц на настольных компьютерах и Android.
 
@@ -51,29 +54,37 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 ### Tor Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Tor Browser](assets/img/browsers/tor.svg){ align=right }
-    
-    **Tor Browser** - это выбор, если тебе нужна анонимность, поскольку он предоставляет доступ к сети Tor и мостам, а также включает в себя настройки и расширения, которые автоматически конфигурируются по выбранным уровням безопасности: *Обычный*, *Высокий* и *Высший*.
-    
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-android: Android](https://www.torproject.org/download/#android)
-        - [:simple-windows11: Windows](https://www.torproject.org/download/)
-        - [:simple-apple: macOS](https://www.torproject.org/download/)
-        - [:simple-linux: Linux](https://www.torproject.org/download/)
+![Логотип Tor Browser](assets/img/browsers/tor.svg){ align=right }
 
-!!! danger "Опасность"
+**Tor Browser** - это выбор, если тебе нужна анонимность, поскольку он предоставляет доступ к сети Tor и мостам, а также включает в себя настройки и расширения, которые автоматически конфигурируются по выбранным уровням безопасности: *Обычный*, *Высокий* и *Высший*.
 
-    Тебе **никогда** не следует устанавливать дополнительные расширения для Tor Browser или редактировать настройки `about:config`, включая те, которые мы предлагаем для Firefox. Расширения браузера и нестандартные настройки выделяют тебя среди других пользователей сети Tor, тем самым делая уникальным твой [отпечаток браузера](https://support.torproject.org/ru/glossary/browser-fingerprinting/).
+[:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+- [:simple-android: Android](https://www.torproject.org/download/#android)
+- [:simple-windows11: Windows](https://www.torproject.org/download/)
+- [:simple-apple: macOS](https://www.torproject.org/download/)
+- [:simple-linux: Linux](https://www.torproject.org/download/)
+
+</details>
+
+</div>
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
+
+Тебе **никогда** не следует устанавливать дополнительные расширения для Tor Browser или редактировать настройки `about:config`, включая те, которые мы предлагаем для Firefox. Расширения браузера и нестандартные настройки выделяют тебя среди других пользователей сети Tor, тем самым делая уникальным твой [отпечаток браузера](https://support.torproject.org/ru/glossary/browser-fingerprinting/).
+
+</div>
 
 Браузер Tor предназначен для предотвращения "отпечатков браузера", или идентификации тебя на основе конфигурации твоего браузера. Поэтому крайне важно, чтобы ты **не** изменял браузер, помимо установленных по умолчанию [уровней безопасности](https://tb-manual.torproject.org/ru/security-settings/).
 
@@ -81,69 +92,86 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 ### Orbot
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Orbot](assets/img/self-contained-networks/orbot.svg){ align=right }
-    
-    **Orbot** - это бесплатный Tor VPN для смартфонов, который направляет трафик от любого приложения на твоём устройстве через сеть Tor.
-    
-    [:octicons-home-16: Домашняя страница](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Политика конфеденциальности" }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Документация}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Пожертвовать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
-        - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+![Логотип Orbot](assets/img/self-contained-networks/orbot.svg){ align=right }
+
+**Orbot** - это бесплатный Tor VPN для смартфонов, который направляет трафик от любого приложения на твоём устройстве через сеть Tor.
+
+[:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+
+</details>
+
+</div>
 
 Ранее мы рекомендовали включать *Изолировать адреса назначения* в настройках Orbot. Хотя эта настройка теоретически может улучшить конфиденциальность за счет принудительного использования отдельной схемы для каждого IP-адреса, к которому ты подключаешься, она не дает практического преимущества для большинства приложений (особенно для просмотра веб-страниц), может сопровождаться значительным снижением производительности и увеличивает нагрузку на сеть Tor. Мы больше не рекомендуем изменять этот параметр по сравнению с его значением по умолчанию, если ты не уверен в том, что это необходимо.[^1]
 
-!!! tip "Советы для Android"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tips for Android</p>
 
-    Orbot может проксировать отдельные приложения, если они поддерживают SOCKS или HTTP проксирование. Он также может проксировать все ваши сетевые подключения с помощью [VpnService](https://developer.android.com/reference/android/net/VpnService) и может использоваться с VPN killswitch в :gear: **Настройки** → **Сеть и интернет** → **VPN** → :gear: → **Блокировать подключения без VPN**.
-    
-    В [репозитории F-Droid](https://guardianproject.info/fdroid) проекта Guardian и [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) часто загружена устаревшая версия Orbot, поэтому его лучше загружать непосредственно с [оепозитория GitHub](https://github.com/guardianproject/orbot/releases).
-    
-    Все версии подписаны одной и той же подписью, поэтому они должны быть совместимы друг с другом.
+Orbot может проксировать отдельные приложения, если они поддерживают SOCKS или HTTP проксирование. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+
+В [репозитории F-Droid](https://guardianproject.info/fdroid) проекта Guardian и [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) часто загружена устаревшая версия Orbot, поэтому его лучше загружать непосредственно с [оепозитория GitHub](https://github.com/guardianproject/orbot/releases).
+
+Все версии подписаны одной и той же подписью, поэтому они должны быть совместимы друг с другом.
+
+</div>
 
 ### Onion Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
-    
-    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
-    
-    [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+
+[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+
+</details>
+
+</div>
 
 ## Ретрансляторы и Мосты
 
 ### Snowflake
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Логотип Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
-    
-    **Snowflake** позволяет вам пожертвовать пропускную способность проекту Tor, используя "прокси Snowflake" в вашем браузере.
-    
-    Люди, подвергающиеся цензуре, могут использовать прокси Snowflake для подключения к сети Tor. Snowflake - это отличный способ внести свой вклад в работу сети Tor, даже если у вас нет технических знаний для запуска ретранслятора или моста Tor.
-    
-    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+![Логотип Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
+![Логотип Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+
+**Snowflake** позволяет вам пожертвовать пропускную способность проекту Tor, используя "прокси Snowflake" в вашем браузере.
+
+Люди, подвергающиеся цензуре, могут использовать прокси Snowflake для подключения к сети Tor. Snowflake - это отличный способ внести свой вклад в работу сети Tor, даже если у вас нет технических знаний для запуска ретранслятора или моста Tor.
+
+[:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Вы можете включить Snowflake в своем браузере, открыв его в другой вкладке и включив переключатель. Вы можете оставить его работать в фоновом режиме во время просмотра веб-страниц, чтобы способствовать подключению. Мы не рекомендуем устанавливать Snowflake в качестве расширения браузера; добавление сторонних расширений может увеличить площадь атаки.
 

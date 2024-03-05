@@ -199,15 +199,18 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 ### ספקי VPN
 
-??? danger סכנה "רשתות VPN לא מספקות אנונימיות"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    שימוש ב-VPN **לא** ישמור על הרגלי הגלישה שלך אנונימיים, וגם לא יוסיף אבטחה לתעבורה לא מאובטחת (HTTP).
-    
-    אם אתם מחפשים **אנונימיות**, כדאי להשתמש בדפדפן Tor **במקום** ב-VPN.
-    
-    אם אתה מחפש **אבטחה** נוספת, עליך תמיד לוודא שאתה מתחבר לאתרים באמצעות HTTPS. VPN אינו תחליף לשיטות אבטחה טובות.
-    
-    [למד עוד :material-arrow-right-drop-circle:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN אינו תחליף לשיטות אבטחה טובות.
+
+[למד עוד :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -242,7 +245,7 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 [למד עוד :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### הפחתת נתונים ומטא נתונים
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 ### תוכנת הצפנה
 
-??? info מידע "הצפנת דיסק של מערכת הפעלה"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    להצפנת כונן מערכת ההפעלה שלך, אנו ממליצים בדרך כלל להשתמש בכל כלי הצפנה שמערכת ההפעלה שלך מספקת, אם זה **BitLocker** בווינדוס, **FileVault** ב macOS, או **LUKS** בלינוקס. כלים אלה כלולים במערכת ההפעלה ומשתמשים בדרך כלל ברכיבי הצפנת חומרה כגון TPM שתוכנות הצפנה אחרות בדיסק מלא כמו VeraCrypt אינן עושות. VeraCrypt עדיין מתאים לדיסקים שאינם פועלים במערכת כגון כוננים חיצוניים, במיוחד כוננים שניתן לגשת אליהם ממספר מערכות הפעלה.
-    
-    [למד עוד :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. כלים אלה כלולים במערכת ההפעלה ומשתמשים בדרך כלל ברכיבי הצפנת חומרה כגון TPM שתוכנות הצפנה אחרות בדיסק מלא כמו VeraCrypt אינן עושות. VeraCrypt עדיין מתאים לדיסקים שאינם פועלים במערכת כגון כוננים חיצוניים, במיוחד כוננים שניתן לגשת אליהם ממספר מערכות הפעלה.
+
+[למד עוד :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
@@ -481,7 +487,7 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 ## כלים מתקדמים
 
-כלים אלה עשויים לספק שימוש עבור אנשים מסוימים. הם מספקים פונקציונליות שרוב האנשים לא צריכים לדאוג לגביה, ולעתים קרובות דורשים ידע טכני מעמיק יותר כדי לנצל ביעילות.
+These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 
 ### אימות תקינות המכשיר
 

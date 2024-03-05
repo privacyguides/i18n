@@ -24,9 +24,12 @@ cover: dns.webp
 
 **عليك التنبُّه لأننا لسنا ذوي صلة بأيٍّ من المشاريع التي نوصي بها**، وزيادةً على [معاييرنا القياسية](about/criteria.md) فقد طوَّرنا مجموعة متطلَّبات تتيح لنا توصية توصيات موضوعية. ينبغي لك الاطِّلاع على هذه القائمة قبل الاختيار منها، وابحث بنفسك لتتيقَّن من أن ما اخترت يناسبك.
 
-!!! مثال «هذا القسم جديد»
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    لا نزال نجتهد في تعريف معايير واضحة لكلِّ قسم من صفحتنا، فلعلَّ هذا يتغيَّر. إن كانت لديك أيُّ أسئلة عن معاييرنا [فاسأل في منتدانا](https://discuss.privacyguides.net/latest)، ولا تظنَّنا غفلنا عن شيء ما لم يُذكر هنا. توجد العديد من الأوجه المناقَشة قبلما نوصي بمشروع، وتوثيقها كلها لا يزال جاريًا.
+لا نزال نجتهد في تعريف معايير واضحة لكلِّ قسم من صفحتنا، فلعلَّ هذا يتغيَّر. إن كانت لديك أيُّ أسئلة عن معاييرنا [فاسأل في منتدانا](https://discuss.privacyguides.net/latest)، ولا تظنَّنا غفلنا عن شيء ما لم يُذكر هنا. توجد العديد من الأوجه المناقَشة قبلما نوصي بمشروع، وتوثيقها كلها لا يزال جاريًا.
+
+</div>
 
 - يجب أن يدعم [إضافات الأمان لأنظمة أسماء النطاقات](advanced/dns-overview.md#what-is-dnssec).
 - [تدنية الأسماء المؤهَّلة](advanced/dns-overview.md#what-is-qname-minimization).
@@ -49,9 +52,12 @@ cover: dns.webp
 
 لا تتيح أبل واجهةً أصيلةً لإنشاء ملفَّات تعريف معمَّاة. [مُنشئ ملفَّات تعريف نظام تسمية النطاقات الآمن](https://dns.notjakob.com/tool.html) هو أداة غير رسمية تتيح لك إنشاء ملفَّات تعريف نظام تسمية النطاقات معمَّاة، ولكن ضع في حسبانك أنها لن توقَّع. تفضَّل ملفَّات التعريف الموقَّعة على غيرها، وذلك ﻷن التوقيع يؤكِّد أصلها وصحَّتها. تعلَّم ملفَّات التعريف الموقَّعة بعلامة «مؤكَّد» خضراء. لتستزيد علمًا عن توقيع الرموز عليك مطالعة [عن توقيع الرموز](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). توفِّر [آدجارد](https://adguard.com/en/blog/encrypted-dns-ios-14.html) و [نكست‌دي‌إن‌إس](https://apple.nextdns.io) و [كواد٩](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/) **ملفَّات تعريف موقَّعةً**.
 
-!!! معلومات
+<div class="admonition info" markdown>
+<p class="admonition-title">Info</p>
 
-    [لا يدعم](https://github.com/systemd/systemd/issues/8639) ‹systemd-resolved› ميفاق DoH بعد، وهو ما تستخدمه الكثير من توزيعات لينكس لتبحث في أنظمة تسمية النطاقات. إن أردت استخدام DoH فعليك تثبيت وسيط مثل [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) [وضبطه](https://wiki.archlinux.org/title/Dnscrypt-proxy) ليستلم كلَّ استعلامات أنظمة تسمية النطاقات من محلِّل نظامك ويوجِّههم عبر HTTPS.
+[لا يدعم](https://github.com/systemd/systemd/issues/8639) ‹systemd-resolved› ميفاق DoH بعد، وهو ما تستخدمه الكثير من توزيعات لينكس لتبحث في أنظمة تسمية النطاقات. إن أردت استخدام DoH فعليك تثبيت وسيط مثل [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) [وضبطه](https://wiki.archlinux.org/title/Dnscrypt-proxy) ليستلم كلَّ استعلامات أنظمة تسمية النطاقات من محلِّل نظامك ويوجِّههم عبر HTTPS.
+
+</div>
 
 ## Encrypted DNS Proxies
 
@@ -59,43 +65,55 @@ cover: dns.webp
 
 ### RethinkDNS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=left }
-    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=left }
-    
-    **ريثنك‌دي‌إن‌إس** هو عميل أندرويد مفتوح المصدر يدعم [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) و [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot) و [DNSCrypt](advanced/dns-overview.md#dnscrypt) والتوسُّط لأنظمة تسمية النطاقات وتخزين استجاباتها مؤقَّتًا وتسجيل استعلاماتها محليًّا، ويُستخدم جدارًا ناريًّا أيضًا.
-    
-    [:octicons-home-16: صفحتهم](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="سياسة الخصوصية" }
-    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=التوثيق}
-    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="رمز المصدر" }
-    
-    ??? التنزيلات
-    
-        - [:simple-googleplay: متجر بلاي](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-        - [:simple-github: جت‌هب](https://github.com/celzero/rethink-app/releases)
+![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=left }
+![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=left }
+
+**ريثنك‌دي‌إن‌إس** هو عميل أندرويد مفتوح المصدر يدعم [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) و [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot) و [DNSCrypt](advanced/dns-overview.md#dnscrypt) والتوسُّط لأنظمة تسمية النطاقات وتخزين استجاباتها مؤقَّتًا وتسجيل استعلاماتها محليًّا، ويُستخدم جدارًا ناريًّا أيضًا.
+
+[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+- [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+
+</details>
+
+</div>
 
 ### dnscrypt-proxy
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=left }
-    
-    **دي‌إن‌إس‌كربت-بروكسي** هو وسيط أنظمة تسمية نطاقات يدعم [DNSCrypt](advanced/dns-overview.md#dnscrypt) و [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) [وأنظمة تسمية النطاقات المُجَهَّلة](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
-    
-    !!! تحذير «[**لا تخفي**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) ميزة تجهيل أنظمة تسمية النطاقات بقية نشاطات الشبكة.»
-    
-    [:octicons-repo-16: المستودع](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=التوثيق}
-    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="رمز المصدر" }
-    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=ساهم }
-    
-    ??? التنزيلات
-    
-        - [:simple-windows11: ويندوز](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
-        - [:simple-apple: ماك‌أوإس](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-        - [:simple-linux: لينكس](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=left }
+
+**دي‌إن‌إس‌كربت-بروكسي** هو وسيط أنظمة تسمية نطاقات يدعم [DNSCrypt](advanced/dns-overview.md#dnscrypt) و [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) [وأنظمة تسمية النطاقات المُجَهَّلة](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
+</div>
+
+[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
+- [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+
+</details>
+
+</div>
 
 ## Self-hosted Solutions
 
@@ -103,34 +121,42 @@ cover: dns.webp
 
 ### AdGuard Home
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=left }
-    
-    **آدجارد هوم** هو نظام [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) مفتوح المصدر يستخدم [تصفية أنظمة تسمية النطاقات](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) ليحظر محتويات الوِب غير المرغوب بها، كالإعلانات.
-    
-    لدى آدجارد هوم واجهة وِب متقنة الصنع ترى فيها المعلومات وتدير ما حُظر.
-    
-    [:octicons-home-16: الصفحة الرئيسة](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="سياسة الخصوصية" }
-    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=التوثيق}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="رمز المصدر" }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=left }
+
+**آدجارد هوم** هو نظام [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) مفتوح المصدر يستخدم [تصفية أنظمة تسمية النطاقات](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) ليحظر محتويات الوِب غير المرغوب بها، كالإعلانات.
+
+لدى آدجارد هوم واجهة وِب متقنة الصنع ترى فيها المعلومات وتدير ما حُظر.
+
+[:octicons-home-16: الصفحة الرئيسة](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=التوثيق}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="رمز المصدر" }
+
+</details>
+
+</div>
 
 ### Pi-hole
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=left }
-    
-    **باي-هول** هو نظام[DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) مفتوح المصدر يستخدم [تصفية أنظمة تسمية النطاقات](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) ليحظر محتويات الوِب غير المرغوب بها، كالإعلانات.
-    
-    صُمِّم باي-هول ليستضاف في جهاز راسبيري باي، ولكنَّه ليس محدودًا به. لهذه البرمجية واجهة وِب سهلة الاستخدام ترى فيها المعلومات وتدير ما حُظر.
-    
-    [:octicons-home-16: الصفحة الرئيسة](https://pi-hole.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="سياسة الخصوصية" }
-    [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=التوثيق}
-    [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="رمز المصدر" }
-    [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=ساهم }
+![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=left }
+
+**باي-هول** هو نظام[DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) مفتوح المصدر يستخدم [تصفية أنظمة تسمية النطاقات](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) ليحظر محتويات الوِب غير المرغوب بها، كالإعلانات.
+
+صُمِّم باي-هول ليستضاف في جهاز راسبيري باي، ولكنَّه ليس محدودًا به. لهذه البرمجية واجهة وِب سهلة الاستخدام ترى فيها المعلومات وتدير ما حُظر.
+
+[:octicons-home-16: الصفحة الرئيسة](https://pi-hole.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=التوثيق}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="رمز المصدر" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=ساهم }
+
+</details>
+
+</div>
 
 [^1]: تخزِّن آدجارد قياسات الأداء المجمَّعة من خوادم أنظمة تسمية نطاقاتهم، وتتضمَّن عدد الطلبات المكتملة لكلِّ خادم، وعدد الطلبات المحظورة، وسرعة معالجة الطلبات. وتخزِّن أيضًا قاعدة بيانات بها النطاقات المطلوبة خلال آخر ٢٤ ساعة. «نحتاج هذه المعلومات لنتحرَّى ونحظر المتتبِّعات والمخاطر الجديدة.» «وكذلك نسجِّل عدد المرات التي تُحظر فيها المتتبِّعات. نحتاج هذه المعلومات لنزيل القواعد القديمة من تصفياتنا.» [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: تجمِّع وتخزِّن كلاودفلير عددًا قليلًا من استعلامات أنظمة تسمية النطاقات المرسلة للمحلِّل ١٫١٫١٫١. لا تسجِّل خدمة المحلِّل ١٫١٫١٫١ بيانات شخصيةً، وغالب ما تسِّجل من بيانات لا تعرِّف الأشخاص تخزَّن مدَّة ٢٥ ساعةً لا أكثر. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

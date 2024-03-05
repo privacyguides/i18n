@@ -10,7 +10,7 @@ Ces outils peuvent être utilisés pour valider l'intégrité de vos appareils m
 <div class="admonition note" markdown>
 <p class="admonition-title">Il s'agit d'un sujet avancé</p>
 
-Ces outils peuvent être utiles à certaines personnes. Ils offrent des fonctionnalités dont la plupart des gens n'ont pas besoin de se préoccuper, et nécessitent souvent des connaissances techniques plus approfondies pour être utilisés efficacement.
+These tools may provide utility for certain individuals. Ils offrent des fonctionnalités dont la plupart des gens n'ont pas besoin de se préoccuper, et nécessitent souvent des connaissances techniques plus approfondies pour être utilisés efficacement.
 
 </div>
 

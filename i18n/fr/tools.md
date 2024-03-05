@@ -199,15 +199,18 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ### Fournisseurs de VPN
 
-??? danger "Les VPN ne permettent pas d'être anonyme"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
-    
-    Si vous recherchez l'**anonymat**, vous devriez utiliser le Navigateur Tor **au lieu** d'un VPN.
-    
-    Si vous souhaitez plus de **sécurité**, vous devez toujours vous assurer que vous vous connectez aux sites web en utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
-    
-    [En savoir plus :material-arrow-right:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
+
+[En savoir plus :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ### Logiciels de chiffrement
 
-??? info "Chiffrement du disque du système d'exploitation"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    Pour chiffrer le disque de votre système d'exploitation, nous vous recommandons généralement d'utiliser l'outil de chiffrement fourni par votre système d'exploitation, qu'il s'agisse de **BitLocker** sur Windows, **FileVault** sur macOS ou **LUKS** sur Linux. Ces outils sont fournis avec le système d'exploitation et utilisent généralement des équipements de chiffrement matériels tels que le TPM, ce que ne font pas d'autres logiciels de chiffrement de disque comme VeraCrypt. VeraCrypt convient toujours aux disques sans système d'exploitation, comme les disques externes, en particulier les disques auxquels on peut accéder à partir de plusieurs systèmes d'exploitation.
-    
-    [En savoir plus :material-arrow-right:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Ces outils sont fournis avec le système d'exploitation et utilisent généralement des équipements de chiffrement matériels tels que le TPM, ce que ne font pas d'autres logiciels de chiffrement de disque comme VeraCrypt. VeraCrypt convient toujours aux disques sans système d'exploitation, comme les disques externes, en particulier les disques auxquels on peut accéder à partir de plusieurs systèmes d'exploitation.
+
+[En savoir plus :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -325,12 +331,12 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![logo FreeTube](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![logo Yattee](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube ; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![logo LibreTube](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
-- ![logo NewPipe](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![logo Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![logo Piped](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
+- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 
@@ -481,7 +487,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ## Outils avancés
 
-Ces outils peuvent être utiles à certaines personnes. Ils offrent des fonctionnalités dont la plupart des gens n'ont pas besoin de se préoccuper, et nécessitent souvent des connaissances techniques plus approfondies pour être utilisés efficacement.
+These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 
 ### Vérification de l'intégrité d'un appareil
 

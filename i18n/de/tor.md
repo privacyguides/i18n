@@ -39,9 +39,12 @@ Tor funktioniert, indem es deinen Internetverkehr über diese von Freiwilligen b
 
 ## Verbinden mit Tor
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+
+</div>
 
 Es gibt eine Vielzahl von Möglichkeiten, sich von deinem Gerät aus mit dem Tor-Netzwerk zu verbinden. Die am häufigsten genutzte ist der **Tor Browser**, ein Fork (Abwandlung) von Firefox, der für anonymes Surfen für Desktop-Computer und Android entwickelt wurde.
 
@@ -51,29 +54,37 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 ### Tor Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Tor-Browser-Logo](assets/img/browsers/tor.svg){ align=right }
-    
-    **Tor Browser** ist die richtige Wahl, wenn du Anonymität brauchst, denn er bietet dir Zugang zum Tor-Netzwerk und zu den Brücken. Er enthält Standardeinstellungen und Erweiterungen, die automatisch durch die Standard-Sicherheitsstufen konfiguriert werden: *Standard*, *Sicherer* und *Am Sichersten*.
-    
-    [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-    [:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-        - [:simple-android: Android](https://www.torproject.org/download/#android)
-        - [:simple-windows11: Windows](https://www.torproject.org/download/)
-        - [:simple-apple: macOS](https://www.torproject.org/download/)
-        - [:simple-linux: Linux](https://www.torproject.org/download/)
+![Tor-Browser-Logo](assets/img/browsers/tor.svg){ align=right }
 
-!!! !!! danger "Achtung"
+**Tor Browser** ist die richtige Wahl, wenn du Anonymität brauchst, denn er bietet dir Zugang zum Tor-Netzwerk und zu den Brücken. Er enthält Standardeinstellungen und Erweiterungen, die automatisch durch die Standard-Sicherheitsstufen konfiguriert werden: *Standard*, *Sicherer* und *Am Sichersten*.
 
-    Du solltest **niemals** zusätzliche Erweiterungen für den Tor-Browser installieren oder die "about:config"-Einstellungen bearbeiten, auch nicht die, die wir für Firefox vorschlagen. Browsererweiterungen und nicht standardisierte Einstellungen heben dich von anderen im Tor-Netzwerk ab und machen deinen Browser einfacher zu [fingerprinten](https://support.torproject.org/glossary/browser-fingerprinting).
+[:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+- [:simple-android: Android](https://www.torproject.org/download/#android)
+- [:simple-windows11: Windows](https://www.torproject.org/download/)
+- [:simple-apple: macOS](https://www.torproject.org/download/)
+- [:simple-linux: Linux](https://www.torproject.org/download/)
+
+</details>
+
+</div>
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
+
+Du solltest **niemals** zusätzliche Erweiterungen für den Tor-Browser installieren oder die "about:config"-Einstellungen bearbeiten, auch nicht die, die wir für Firefox vorschlagen. Browsererweiterungen und nicht standardisierte Einstellungen heben dich von anderen im Tor-Netzwerk ab und machen deinen Browser einfacher zu [fingerprinten](https://support.torproject.org/glossary/browser-fingerprinting).
+
+</div>
 
 Der Tor-Browser wurde entwickelt, um Fingerprinting zu verhindern, oder um dich anhand deiner Browserkonfiguration zu identifizieren. Daher ist es zwingend erforderlich, dass du den Browser in **keiner Weise**veränderst, abgesehen von der Anpassung der [Standard-Sicherheitsstufen](https://tb-manual.torproject.org/security-settings/).
 
@@ -81,69 +92,86 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 ### Orbot
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Orbot-Logo](assets/img/self-contained-networks/orbot.svg){ align=right }
-    
-    **Orbot** ist ein kostenloser Tor-VPN für Smartphones, das den Datenverkehr von jeder App auf deinem Gerät durch das Tor-Netzwerk leitet.
-    
-    [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title=Datenschutzrichtlinie }
-    [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Dokumentation}
-    [:octicons-code-16:](https://orbot.app/code){ .card-link title=Quelltext}
-    [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Mitwirken }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
-        - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+![Orbot-Logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+
+**Orbot** ist ein kostenloser Tor-VPN für Smartphones, das den Datenverkehr von jeder App auf deinem Gerät durch das Tor-Netzwerk leitet.
+
+[:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+
+</details>
+
+</div>
 
 Wir haben bereits empfohlen, die Einstellung *Isolate Destination Address* in den Orbot-Einstellungen zu aktivieren. Während diese Einstellung theoretisch die Privatsphäre verbessern kann, indem sie für jede IP-Adresse, mit der du dich verbindest, eine andere Schaltung erzwingt, bietet sie für die meisten Anwendungen (vor allem für das Surfen im Internet) keinen praktischen Vorteil, kann mit einem erheblichen Leistungsverlust einhergehen und erhöht die Belastung des Tor-Netzwerks. Es wird nicht mehr empfohlen, diese Einstellung vom Standardwert abzuweichen, es sei denn, du weißt, dass dass du das tun musst.[^1]
 
-!!! tip "Tipps für Android"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tips for Android</p>
 
-    Orbot kann einzelne Anwendungen proxyen, wenn diese SOCKS oder HTTP-Proxys unterstützen. Es kann auch alle Ihre Netzwerkverbindungen mit [VpnService](https://developer.android.com/reference/android/net/VpnService) proxyen und kann mit dem VPN-Killswitch in :gear: **Einstellungen** → **Netzwerk & internet** → **VPN** → :gear: → **Verbindungen ohne VPN** blockieren.
-    
-    Orbot ist auf dem [F-Droid Repository](https://guardianproject.info/fdroid) des Guardian Projects und [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) oft veraltet, daher solltest du den Download direkt vom [GitHub Repository](https://github.com/guardianproject/orbot/releases) in Betracht ziehen.
-    
-    Alle Versionen sind mit der gleichen Signatur versehen, sodass sie miteinander kompatibel sein sollten.
+Orbot kann einzelne Anwendungen proxyen, wenn diese SOCKS oder HTTP-Proxys unterstützen. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+
+Orbot ist auf dem [F-Droid Repository](https://guardianproject.info/fdroid) des Guardian Projects und [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) oft veraltet, daher solltest du den Download direkt vom [GitHub Repository](https://github.com/guardianproject/orbot/releases) in Betracht ziehen.
+
+Alle Versionen sind mit der gleichen Signatur versehen, sodass sie miteinander kompatibel sein sollten.
+
+</div>
 
 ### Onion Browser
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
-    
-    **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
-    
-    [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+
+[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+
+</details>
+
+</div>
 
 ## Relays und Bridges
 
 ### Snowflake
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Snowflake-Logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-    ![Snowflake-Logo](assets/img/browsers/schneeflocken-dunkel.svg#nur-dunkel){ align=right }
-    
-    **Snowflake** ermöglicht es dir, Bandbreite an das Tor-Projekt zu spenden, indem du einen "Snowflake-Proxy" in deinem Browser betreibst.
-    
-    Menschen, die zensiert werden, können Snowflake-Proxys benutzen, um sich mit dem Tor-Netzwerk zu verbinden. Snowflake ist eine großartige Möglichkeit, zum Netzwerk beizutragen, auch wenn du nicht das technische Know-how hast, um einen Tor-Relay oder eine Bridge zu betreiben.
-    
-    [:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-    [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+![Snowflake-Logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
+![Snowflake-Logo](assets/img/browsers/schneeflocken-dunkel.svg#nur-dunkel){ align=right }
+
+**Snowflake** ermöglicht es dir, Bandbreite an das Tor-Projekt zu spenden, indem du einen "Snowflake-Proxy" in deinem Browser betreibst.
+
+Menschen, die zensiert werden, können Snowflake-Proxys benutzen, um sich mit dem Tor-Netzwerk zu verbinden. Snowflake ist eine großartige Möglichkeit, zum Netzwerk beizutragen, auch wenn du nicht das technische Know-how hast, um einen Tor-Relay oder eine Bridge zu betreiben.
+
+[:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 Du kannst Snowflake in deinem Browser aktivieren, indem du es in einem anderen Tab öffnest und den Schalter aktivierst. Du kannst es es im Hintergrund laufen lassen, während du surfst, um Ihre Verbindung zu spenden. Wir raten davon ab, Snowflake als Browser-Erweiterung zu installieren; das Hinzufügen von Erweiterungen von Drittanbietern kann deine Angriffsfläche vergrößern.
 

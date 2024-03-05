@@ -16,15 +16,18 @@ Jika Anda mencari **privasi tambahan** dari ISP Anda, pada jaringan Wi-Fi publik
 
 </div>
 
-!!! danger "VPN tidak menyediakan anonimitas"
+<div class="admonition danger" markdown>
+<p class="admonition-title">VPNs do not provide anonymity</p>
 
-    Menggunakan VPN **tidak** akan menjaga kebiasaan jelajah Anda tetap anonim, dan juga tidak akan menambah keamanan tambahan pada lalu lintas yang tidak aman (HTTP).
-    
-    If you are looking for **anonymity**, you should use the Tor Browser.
-    
-    Jika Anda membutuhkan **keamanan** tambahan, Anda harus selalu memastikan bahwa Anda terhubung ke situs web menggunakan HTTPS. VPN bukanlah pengganti praktik keamanan yang baik.
-    
-    [Unduh Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Mitos Tor & Soal Sering Ditanya](advanced/tor-overview.md){ .md-button }
+Menggunakan VPN **tidak** akan menjaga kebiasaan jelajah Anda tetap anonim, dan juga tidak akan menambah keamanan tambahan pada lalu lintas yang tidak aman (HTTP).
+
+If you are looking for **anonymity**, you should use the Tor Browser.
+
+Jika Anda membutuhkan **keamanan** tambahan, Anda harus selalu memastikan bahwa Anda terhubung ke situs web menggunakan HTTPS. VPN bukanlah pengganti praktik keamanan yang baik.
+
+[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+
+</div>
 
 [Ikhtisar VPN Terperinci :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
@@ -34,24 +37,29 @@ Penyedia yang kami rekomendasikan menggunakan enkripsi, menerima Monero, menduku
 
 ### Proton VPN
 
-!!! recommendation annotate
+<div class="admonition recommendation" markdown>
 
-    ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
-    
-    **Proton VPN** adalah pesaing kuat dalam bidang VPN, dan mereka telah beroperasi sejak 2016. Proton AG berbasis di Swiss dan menawarkan tingkat gratis terbatas, serta opsi premium yang lebih berfitur.
-    
-    [:octicons-home-16: Laman Beranda](https://protonvpn.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Kode Sumber" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
-        - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-        - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-        - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
+
+**Proton VPN** adalah pesaing kuat dalam bidang VPN, dan mereka telah beroperasi sejak 2016. Proton AG berbasis di Swiss dan menawarkan tingkat gratis terbatas, serta opsi premium yang lebih berfitur.
+
+[:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
+- [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 71 Countries
 
@@ -104,25 +112,30 @@ Kerusakan sistem [dapat terjadi](https://protonvpn.com/support/macos-t2-chip-kil
 
 ### IVPN
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo IVPN](assets/img/vpn/ivpn.svg){ align=right }
-    
-    **IVPN** adalah penyedia VPN premium, dan mereka telah beroperasi sejak 2009. IVPN berbasis di Gibraltar.
-    
-    [:octicons-home-16: Laman Beranda](https://www.ivpn.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Kode Sumber" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-        - [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-        - [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-        - [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+![Logo IVPN](assets/img/vpn/ivpn.svg){ align=right }
+
+**IVPN** adalah penyedia VPN premium, dan mereka telah beroperasi sejak 2009. IVPN berbasis di Gibraltar.
+
+[:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
+- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
+- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
+- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 37 Countries
 
@@ -169,26 +182,31 @@ Klien IVPN mendukung autentikasi dua faktor (klien Mullvad tidak). IVPN juga men
 
 ### Mullvad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo Mullvad](assets/img/vpn/mullvad.svg){ align=right }
-    
-    **Mullvad** adalah VPN yang cepat dan murah dengan fokus serius pada transparansi dan keamanan. Mereka telah beroperasi sejak **2009**. Mullvad berbasis di Swedia dan tidak memiliki uji coba gratis.
-    
-    [:octicons-home-16: Laman Beranda](https://mullvad.net){ .md-button .md-button--primary }
-    [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Layanan Onion" }
-    [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Kode Sumber" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
-        - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-        - [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-        - [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-        - [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+![Logo Mullvad](assets/img/vpn/mullvad.svg){ align=right }
+
+**Mullvad** adalah VPN yang cepat dan murah dengan fokus serius pada transparansi dan keamanan. Mereka telah beroperasi sejak **2009**. Mullvad berbasis di Swedia dan tidak memiliki uji coba gratis.
+
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
+- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+
+</details>
+
+</div>
 
 #### :material-check:{ .pg-green } 40 Countries
 
@@ -247,9 +265,12 @@ Mullvad sangat transparan tentang node mana yang mereka [miliki atau sewa](https
 
 ## Kriteria
 
-!!! danger
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Penting untuk dicatat bahwa menggunakan penyedia VPN tidak akan membuat Anda menjadi anonim, tetapi akan memberi Anda privasi yang lebih baik dalam situasi tertentu. VPN bukanlah alat untuk aktivitas ilegal. Jangan bergantung pada kebijakan "tanpa pencatatan".
+Penting untuk dicatat bahwa menggunakan penyedia VPN tidak akan membuat Anda menjadi anonim, tetapi akan memberi Anda privasi yang lebih baik dalam situasi tertentu. VPN bukanlah alat untuk aktivitas ilegal. Jangan bergantung pada kebijakan "tanpa pencatatan".
+
+</div>
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan penyedia yang kami rekomendasikan. Hal ini memungkinkan kami untuk memberikan rekomendasi yang sepenuhnya objektif.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk setiap penyedia VPN yang ingin direkomendasikan, termasuk enkripsi yang kuat, audit keamanan independen, teknologi modern, dan banyak lagi. Kami menyarankan Anda membiasakan diri dengan daftar ini sebelum memilih penyedia VPN, dan melakukan penelitian sendiri untuk memastikan penyedia VPN yang Anda pilih dapat dipercaya.
 

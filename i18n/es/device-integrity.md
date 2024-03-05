@@ -10,7 +10,7 @@ Estas herramientas pueden utilizarse para validar la integridad de tus dispositi
 <div class="admonition note" markdown>
 <p class="admonition-title">Este es un tema avanzado</p>
 
-Estas herramientas pueden ser útiles para determinadas personas. Estas proporcionan funciones de las que la mayoría de las personas no se deben preocupar y, frecuentemente, requieren un conocimiento técnico más profundo para ser usadas de la manera correcta.
+These tools may provide utility for certain individuals. Estas proporcionan funciones de las que la mayoría de las personas no se deben preocupar y, frecuentemente, requieren un conocimiento técnico más profundo para ser usadas de la manera correcta.
 
 </div>
 

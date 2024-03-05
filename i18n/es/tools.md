@@ -199,15 +199,18 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 ### Proveedores de VPN
 
-??? danger "Las VPNs no proporcionan anonimato"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    El uso de una VPN **no** mantendrá sus hábitos de navegación en el anonimato, ni añadirá seguridad adicional al tráfico no seguro (HTTP).
-    
-    Si está buscando **anonimato**, debería usar el navegador Tor **en lugar** de una VPN.
-    
-    Si busca mayor **seguridad**, debería asegurarse siempre de que se conecta a sitios web que utilicen HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
-    
-    [Aprende más :material-arrow-right-drop-circle:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
+
+[Más información :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 ### Software de Cifrado
 
-??? info "Cifrado de Disco del Sistema Operativo"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar cualquier herramienta de cifrado que proporcione su sistema operativo, ya sea **BitLocker** en Windows, **FileVault** en macOS, o **LUKS** en Linux. Estas herramientas están incluidas en el sistema operativo y suelen utilizar elementos de cifrado por hardware, como un TPM, que otros programas de cifrado de disco completo, como VeraCrypt, no utilizan. VeraCrypt sigue siendo adecuado para los discos que no son del sistema operativo, como las unidades externas, especialmente las unidades a las que se puede acceder desde varios sistemas operativos.
-    
-    [Más información :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Estas herramientas están incluidas en el sistema operativo y suelen utilizar elementos de cifrado por hardware, como un TPM, que otros programas de cifrado de disco completo, como VeraCrypt, no utilizan. VeraCrypt sigue siendo adecuado para los discos que no son del sistema operativo, como las unidades externas, especialmente las unidades a las que se puede acceder desde varios sistemas operativos.
+
+[Más información :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -325,9 +331,9 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Escritorio)](frontends.md#freetube)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
@@ -481,7 +487,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 ## Herramientas Avanzadas
 
-Estas herramientas pueden ser útiles para determinadas personas. Proporcionan funcionalidades de las que la mayoría de la gente no necesita preocuparse, y a menudo requieren conocimientos técnicos más profundos para utilizarlas con eficacia.
+These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 
 ### Verificación de Integridad del Dispositivo
 

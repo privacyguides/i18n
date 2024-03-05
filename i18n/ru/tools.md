@@ -199,15 +199,18 @@ description: Privacy Guides - это самый прозрачный и наде
 
 ### VPN сервисы
 
-??? danger "VPN не обеспечивает анонимность"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    Использование VPN **не обеспечивает** анонимность ваших привычек при просмотре веб-страниц, а также **не прибавляет** безопасности при использовании незащищенного (HTTP) трафика.
-    
-    Если вам нужна **анонимность**, вам следует использовать браузер Tor **вместо** VPN.
-    
-    Если вам нужна дополнительная **безопасность**, убедитесь, что вы подключаетесь к веб-сайтам, используя HTTPS. VPN не является заменой полезных привычек для обеспечения безопасности.
-    
-    [Узнать больше :material-arrow-right-drop-circle:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN не является заменой полезных привычек для обеспечения безопасности.
+
+[Узнать больше :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -242,7 +245,7 @@ description: Privacy Guides - это самый прозрачный и наде
 
 [Узнать больше :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Редактирование данных и метаданных
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ description: Privacy Guides - это самый прозрачный и наде
 
 ### Инструменты для шифрования
 
-??? info "Шифрование диска операционной системы"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    Для шифрования диска операционной системы мы обычно рекомендуем использовать тот инструмент шифрования, который предоставляет ваша операционная система, будь то **BitLocker** в Windows, **FileVault** в macOS или **LUKS** в Linux. Эти инструменты доступны "из коробки" и обычно используют аппаратные элементы шифрования, такие как TPM, чего не делают другие программы для шифрования диска, такие как VeraCrypt. Однако VeraCrypt по-прежнему подходит для дисков, не относящихся к операционной системе (внешние диски), и к таким дискам, доступ к которым может осуществляться из нескольких операционных систем.
-    
-    [Узнать больше :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Эти инструменты доступны "из коробки" и обычно используют аппаратные элементы шифрования, такие как TPM, чего не делают другие программы для шифрования диска, такие как VeraCrypt. Однако VeraCrypt по-прежнему подходит для дисков, не относящихся к операционной системе (внешние диски), и к таким дискам, доступ к которым может осуществляться из нескольких операционных систем.
+
+[Узнать больше :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ description: Privacy Guides - это самый прозрачный и наде
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)

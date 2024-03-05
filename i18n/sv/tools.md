@@ -199,15 +199,18 @@ Vi [rekommenderar](dns.md#recommended-providers) ett antal krypterade DNS-servra
 
 ### DNS Leverantörer
 
-??? vPN-tjänster kan inte ge anonymitet"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    En VPN kommer **inte** att hålla dina surfvanor anonyma, och inte heller kommer den att lägga till ytterligare säkerhet för icke-säker (HTTP) trafik.
-    
-    Om du är ute efter **anonymitet** bör du använda Tor Browser **i stället** för en VPN.
-    
-    Om du vill öka **säkerheten** bör du alltid se till att du ansluter till webbplatser med HTTPS. En VPN är inte en ersättning för goda säkerhetsrutiner.
-    
-    [Läs mer :material-arrow-right-drop-circle:](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. En VPN är inte en ersättning för goda säkerhetsrutiner.
+
+[Läs mer :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -242,7 +245,7 @@ Vi [rekommenderar](dns.md#recommended-providers) ett antal krypterade DNS-servra
 
 [Läs mer :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Redigering av data och metadata
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ Vi [rekommenderar](dns.md#recommended-providers) ett antal krypterade DNS-servra
 
 ### Programvara för kryptering
 
-??? info "Diskryptering av operativsystemet"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    För att kryptera din operativsystemenhet rekommenderar vi vanligtvis att du använder det krypteringsverktyg som operativsystemet tillhandahåller, oavsett om det är **BitLocker** i Windows, **FileVault** i macOS eller **LUKS** i Linux. Dessa verktyg ingår i operativsystemet och använder vanligtvis hårdvarukrypteringselement, t. ex. en TPM, som andra krypteringsprogram för hela hårddiskar, t. ex. VeraCrypt, inte gör. VeraCrypt lämpar sig fortfarande för diskar som inte är i driftssystemet, t. ex. externa enheter, särskilt enheter som kan nås från flera olika operativsystem.
-    
-    [Läs mer :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Dessa verktyg ingår i operativsystemet och använder vanligtvis hårdvarukrypteringselement, t. ex. en TPM, som andra krypteringsprogram för hela hårddiskar, t. ex. VeraCrypt, inte gör. VeraCrypt lämpar sig fortfarande för diskar som inte är i driftssystemet, t. ex. externa enheter, särskilt enheter som kan nås från flera olika operativsystem.
+
+[Läs mer :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ Vi [rekommenderar](dns.md#recommended-providers) ett antal krypterade DNS-servra
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)

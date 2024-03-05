@@ -10,7 +10,7 @@ cover: device-integrity.webp
 <div class="admonition note" markdown>
 <p class="admonition-title">This is an advanced topic</p>
 
-כלים אלה עשויים לספק שימוש עבור אנשים מסוימים. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
+These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
 
 </div>
 

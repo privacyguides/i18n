@@ -199,15 +199,18 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 
 ### VPN Providers
 
-??? danger "VPN's zorgen niet voor anonimiteit"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    Het gebruik van een VPN houdt jouw surfgedrag niet anoniem, noch voegt het extra beveiliging toe aan niet-beveiligd (HTTP) verkeer.
-    
-    Als je op zoek bent naar **anonimiteit**, kunt je beter de Tor Browser **in plaats** van een VPN gebruiken.
-    
-    Als je op zoek bent naar extra **veiligheid**, moet je er altijd voor zorgen dat je verbinding maakt met websites via HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
-    
-    [Meer informatie :material-arrow-right-drop-circle::](vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
+
+[Meer informatie :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -242,7 +245,7 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 
 [Meer informatie :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Redactie van gegevens en metagegevens
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 
 ### Encryptie Software
 
-??? info "Schijfversleuteling besturingssysteem"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    Om de schijf van jouw besturingssysteem te versleutelen, raden wij je aan de versleutelingstool te gebruiken die jouw besturingssysteem biedt, of dat nu **BitLocker** in Windows, **FileVault** in macOS of **LUKS** in Linux is. Deze tools worden meegeleverd met het besturingssysteem en maken doorgaans gebruik van hardware-encryptie-elementen zoals een TPM, die andere software voor volledige schijfversleuteling, zoals VeraCrypt, niet gebruiken. VeraCrypt is nog steeds geschikt voor schijven die niet op een besturingssysteem werken, zoals externe schijven, vooral schijven die vanuit meerdere besturingssystemen kunnen worden benaderd.
-    
-    [Meer informatie :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Deze tools worden meegeleverd met het besturingssysteem en maken doorgaans gebruik van hardware-encryptie-elementen zoals een TPM, die andere software voor volledige schijfversleuteling, zoals VeraCrypt, niet gebruiken. VeraCrypt is nog steeds geschikt voor schijven die niet op een besturingssysteem werken, zoals externe schijven, vooral schijven die vanuit meerdere besturingssystemen kunnen worden benaderd.
+
+[Meer informatie :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers 
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)

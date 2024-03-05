@@ -12,49 +12,58 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ### MAT2
 
-!!! khuyến nghị
+<div class="admonition recommendation" markdown>
 
-    ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
-    
-    **MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
-    
-    [Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
-    
-    ???
-    
-    tải xuống
-    
-        - [:fontawesome-brands-windows: Windows](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-apple: macOS](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-linux: Linux](https://github.com/szTheory/exifcleaner/releases)
-        - [:fontawesome-brands-github: Mã nguồn](https://github.com/szTheory/exifcleaner) downloads
-    
-        - [:simple-windows11: Windows](https://pypi.org/project/mat2)
-        - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
-        - [:simple-linux: Linux](https://pypi.org/project/mat2)
-        - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
+
+**MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+
+[Homepage](https://exifcleaner.com){ .md-button .md-button--primary }
+
+???
+
+[:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
+[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://pypi.org/project/mat2)
+- [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+- [:simple-linux: Linux](https://pypi.org/project/mat2)
+- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+
+</details>
+
+</div>
 
 ## Mobile
 
 ### ExifEraser (Android)
 
-!!! khuyến nghị
+<div class="admonition recommendation" markdown>
 
-    ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
-    
-    **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
-    
-    It currently supports JPEG, PNG and WebP files.
-    
-    [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
-        - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
-        - [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
+![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
+
+**ExifEraser** is a modern, permissionless image metadata erasing application for Android.
+
+It currently supports JPEG, PNG and WebP files.
+
+[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
+- [:simple-github: GitHub](https://github.com/Tommy-Geenexus/exif-eraser/releases)
+
+</details>
+
+</div>
 
 The metadata that is erased depends on the image's file type:
 
@@ -74,82 +83,106 @@ The app offers multiple ways to erase metadata from images. chú ý
 
 ### Metapho (iOS)
 
-!!! khuyến nghị
+<div class="admonition recommendation" markdown>
 
-    ![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
-    
-    **Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
-    
-    [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
-    
-    ??? downloads
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+![Metapho logo](assets/img/data-redaction/metapho.jpg){ align=right }
+
+**Metapho** is a simple and clean viewer for photo metadata such as date, file name, size, camera model, shutter speed, and location.
+
+[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+
+</details>
+
+</div>
 
 ### PrivacyBlur
 
-!!! khuyến nghị
+<div class="admonition recommendation" markdown>
 
-    ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
-    
-    **PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
-    
-    [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-    
-    ??? [Mã nguồn](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-    
-    ???
+![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
 
-!!! warning
+**PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
 
-    Siêu dữ liệu hiện không bị xóa khỏi tệp video nhưng đó là kế hoạch. If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
+[:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Siêu dữ liệu hiện không bị xóa khỏi tệp video nhưng đó là kế hoạch. If you want to redact text in an image, draw a box over the text. For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
+
+</div>
 
 ## Command-line
 
 ### ExifTool
 
-!!! khuyến nghị
+<div class="admonition recommendation" markdown>
 
-    ![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
-    
-    **ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
-    
-    It's often a component of other Exif removal applications and is in most Linux distribution repositories.
-    
-    [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-windows11: Windows](https://exiftool.org)
-        - [:simple-apple: macOS](https://exiftool.org)
-        - [:simple-linux: Linux](https://exiftool.org)
+![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
 
-!!! example "Deleting data from a directory of files"
+**ExifTool** is the original perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
-    ```bash
-    exiftool -all= *.file_extension
-    ```
+It's often a component of other Exif removal applications and is in most Linux distribution repositories.
+
+[:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://exiftool.org)
+- [:simple-apple: macOS](https://exiftool.org)
+- [:simple-linux: Linux](https://exiftool.org)
+
+</details>
+
+</div>
+
+<div class="admonition example" markdown>
+<p class="admonition-title">Deleting data from a directory of files</p>
+
+```bash
+exiftool -all= *.file_extension
+```
+
+</div>
 
 ## Framadate
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-!!! cảnh báo
-    PrivateBin sử dụng JavaScript để xử lý mã hóa, vì vậy bạn phải tin tưởng nhà cung cấp ở mức độ họ không đưa bất kỳ JavaScript độc hại nào vào để lấy khóa cá nhân của bạn.
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** là một pastebin trực tuyến mã nguồn mở, tối giản, nơi máy chủ không có kiến ​​thức về dữ liệu đã dán. Dữ liệu được mã hóa/giải mã trong trình duyệt bằng 256-bit AES. tải xuống
-    
-        - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
-        - [:fontawesome-brands-github: Mã nguồn](https://github.com/dani-garcia/vaultwarden)
+![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
+
+**PrivateBin** là một pastebin trực tuyến mã nguồn mở, tối giản, nơi máy chủ không có kiến ​​thức về dữ liệu đã dán. Dữ liệu được mã hóa/giải mã trong trình duyệt bằng 256-bit AES. tải xuống
+
+    - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
+    - [:fontawesome-brands-github: Mã nguồn](https://github.com/dani-garcia/vaultwarden)
+
+</div>
 
 - Apps developed for open-source operating systems must be open source.
 - Apps must be free and should not include ads or other limitations.

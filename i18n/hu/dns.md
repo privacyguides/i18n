@@ -24,9 +24,12 @@ Titkosított DNS-t harmadik féltől származó szerverekkel csak alapvető [DNS
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
-!!! example "Ez a szakasz új"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
+Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldalunk minden egyes szakaszára vonatkozóan, és ez még változhat. Ha bármilyen kérdésed van a követelményinkkel kapcsolatban, kérjük, [kérdezz a fórumon](https://discuss.privacyguides.net/latest), és ne feltételezd, hogy valamit nem vettünk figyelembe az ajánlásaink elkészítésekor, ha az nem szerepel itt. Számos tényezőt veszünk figyelembe és vitatunk meg, amikor egy projektet ajánlunk, és minden egyes tényező dokumentálása folyamatban lévő munka.
+
+</div>
 
 - Támogatnia kell a [DNSSEC](advanced/dns-overview.md#what-is-dnssec)-et.
 - [QNAME Minimalizáció](advanced/dns-overview.md#what-is-qname-minimization).
@@ -49,9 +52,12 @@ Egy konfigurációs profilt vagy egy DNS-beállítások API-t használó alkalma
 
 Az Apple nem biztosít natív felületet titkosított DNS-profilok létrehozásához. A [Secure DNS profile creator](https://dns.notjakob.com/tool.html) egy nem hivatalos eszköz saját titkosított DNS-profilok létrehozására, azonban ezek a profilok nem lesznek aláírva. Az aláírt profilok előnyben részesítendők; az aláírás igazolja a profil eredetét, és segít biztosítani a profilok integritását. Az aláírt konfigurációs profilok zöld "Ellenőrzött" címkét kapnak. A kódaláírással kapcsolatos további információkért lásd: [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **** Aláírt profilokat az [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), a [NextDNS](https://apple.nextdns.io) és a [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/) nyújt.
 
-!!! info
+<div class="admonition info" markdown>
+<p class="admonition-title">Info</p>
 
-    A `systemd-resolved`, amelyet sok Linux disztribúció használ a DNS-lekérdezéseikhez, még nem [támogatja a DoH-t](https://github.com/systemd/systemd/issues/8639). Ha a DoH-t szeretnéd használni, telepítened kell egy proxyt, mint például a [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) és [konfigurálnod kell azt](https://wiki.archlinux.org/title/Dnscrypt-proxy), hogy az átvegye az összes DNS-lekérdezést a rendszer resolverjétől, és azokat HTTPS-en keresztül továbbítsa.
+A `systemd-resolved`, amelyet sok Linux disztribúció használ a DNS-lekérdezéseikhez, még nem [támogatja a DoH-t](https://github.com/systemd/systemd/issues/8639). Ha a DoH-t szeretnéd használni, telepítened kell egy proxyt, mint például a [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) és [konfigurálnod kell azt](https://wiki.archlinux.org/title/Dnscrypt-proxy), hogy az átvegye az összes DNS-lekérdezést a rendszer resolverjétől, és azokat HTTPS-en keresztül továbbítsa.
+
+</div>
 
 ## Titkosított DNS proxyk
 
@@ -59,43 +65,55 @@ Egy titkosított DNS proxy szoftver helyi proxy-t biztosít a [titkosítatlan DN
 
 ### RethinkDNS
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-    ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
-    
-    A **RethinkDNS** egy nyílt forráskódú Android kliens, amely támogatja a [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) és DNS Proxy funkciókat, valamint a DNS-válaszok gyorsítótárazását, a DNS-lekérdezések helyi naplózását, de használható tűzfalként is.
-    
-    [:octicons-home-16: Honlap](https://rethinkdns.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Adatvédelmi Tájékoztató" }
-    [:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Forráskód" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
-        - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+
+A **RethinkDNS** egy nyílt forráskódú Android kliens, amely támogatja a [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) és DNS Proxy funkciókat, valamint a DNS-válaszok gyorsítótárazását, a DNS-lekérdezések helyi naplózását, de használható tűzfalként is.
+
+[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+- [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
+
+</details>
+
+</div>
 
 ### dnscrypt-proxy
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![dnscrypt-proxy logo](assets/img/dns/dns/dnscrypt-proxy.svg){ align=right }
-    
-    A **dnscrypt-proxy** egy DNS-proxy, amely támogatja a [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) és [Anonymizált DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS) funkciókat.
-    
-    !!! warning "Az anonimizált DNS funkció [**nem**](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonimizál más hálózati forgalmat."
-    
-    [:octicons-repo-16: Adattár](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Forráskód" }
-    [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Közreműködés }
-    
-    ??? downloads
-    
-        - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
-        - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
-        - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+![dnscrypt-proxy logo](assets/img/dns/dns/dnscrypt-proxy.svg){ align=right }
+
+A **dnscrypt-proxy** egy DNS-proxy, amely támogatja a [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) és [Anonymizált DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS) funkciókat.
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
+</div>
+
+[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
+- [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+
+</details>
+
+</div>
 
 ## Saját Üzemeltetésű Megoldások
 
@@ -103,34 +121,42 @@ Egy saját üzemeltetésű DNS-megoldás hasznos ellenőrzött platformokon, pé
 
 ### AdGuard Home
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
-    
-    Az **AdGuard Home** egy nyílt forráskódú [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole), amely [DNS-szűrést](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) alkalmaz nem kívánatos webes tartalmak, például hirdetések blokkolására.
-    
-    Az AdGuard Home egy kifinomult webes felületet kínál az betekintések megtekintéséhez és blokkolt tartalmak kezeléséhez.
-    
-    [:octicons-home-16: Honlap](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Adatvédelmi Tájékoztató" }
-    [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Forráskód" }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
+
+Az **AdGuard Home** egy nyílt forráskódú [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole), amely [DNS-szűrést](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) alkalmaz nem kívánatos webes tartalmak, például hirdetések blokkolására.
+
+Az AdGuard Home egy kifinomult webes felületet kínál az betekintések megtekintéséhez és blokkolt tartalmak kezeléséhez.
+
+[:octicons-home-16: Honlap](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Adatvédelmi Tájékoztató" }
+[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Dokumentáció}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Forráskód" }
+
+</details>
+
+</div>
 
 ### Pi-hole
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
-    
-    A **Pi-hole** egy nyílt forráskódú [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole), amely [DNS-szűrést](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) alkalmaz nem kívánatos webes tartalmak, például reklámok blokkolására.
-    
-    A Pi-hole-t úgy tervezték, hogy egy Raspberry Pi-n lehessen üzemeltetni, de az nem korlátozott erre a hardverre. Az szoftver egy kifinomult webes felületet kínál az betekintések megtekintéséhez és blokkolt tartalmak kezeléséhez.
-    
-    [:octicons-home-16: Honlap](https://pi-hole.net/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Adatvédelmi Tájékoztató" }
-    [:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Dokumentáció}
-    [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Forráskód" }
-    [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Közreműködés }
+![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
+
+A **Pi-hole** egy nyílt forráskódú [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole), amely [DNS-szűrést](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) alkalmaz nem kívánatos webes tartalmak, például reklámok blokkolására.
+
+A Pi-hole-t úgy tervezték, hogy egy Raspberry Pi-n lehessen üzemeltetni, de az nem korlátozott erre a hardverre. Az szoftver egy kifinomult webes felületet kínál az betekintések megtekintéséhez és blokkolt tartalmak kezeléséhez.
+
+[:octicons-home-16: Honlap](https://pi-hole.net/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Adatvédelmi Tájékoztató" }
+[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Dokumentáció}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Forráskód" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Közreműködés }
+
+</details>
+
+</div>
 
 [^1]: Az AdGuard tárolja a DNS szervereik összesített teljesítményméréseit, nevezetesen az adott szerverhez érkező teljes kérések számát, a blokkolt kérések számát és a kérések feldolgozásának sebességét. Az elmúlt 24 órában igényelt domainek adatbázisát is eltárolják. "We need this information to identify and block new trackers and threats." "We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters." [https://adguard.com/hu/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: A Cloudflare csak azokat a korlátozott DNS-lekérdezési adatokat gyűjti és tárolja ami az 1.1.1.1 resolverhez érkezik. Az 1.1.1.1 resolver szolgáltatás nem naplóz személyes adatokat, és a korlátozott, személyazonosításra nem alkalmas lekérdezési adatok nagy részét csak 25 órán keresztül tárolja. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)

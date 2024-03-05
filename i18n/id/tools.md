@@ -199,15 +199,18 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 ### Penyedia VPN
 
-??? danger "VPN tidak menyediakan anonimitas"
+<details class="danger" markdown>
+<summary>VPNs do not provide anonymity</summary>
 
-    Menggunakan VPN **tidak** akan menjaga perilaku jelajah Anda tetap anonim, dan juga tidak akan menambah keamanan tambahan pada lalu lintas yang tidak aman (HTTP).
-    
-    Jika Anda membutuhkan **anonimitas**, Anda sebaiknya menggunakan Tor Browser **daripada** menggunakan VPN.
-    
-    Jika Anda membutuhkan **keamanan** tambahan, Anda harus memastikan bahwa Anda terhubung ke situs web menggunakan HTTPS. VPN bukanlah pengganti praktik keamanan yang baik.
-    
-    [Pelajari lebih lanjut :material-arrow-right-drop-circle:] (vpn.md)
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN bukanlah pengganti praktik keamanan yang baik.
+
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -242,7 +245,7 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Penyuntingan Data dan Metadata
+### Data and Metadata Redaction
 
 <div class="grid cards" markdown>
 
@@ -276,11 +279,14 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 ### Perangkat Lunak Enkripsi
 
-??? info "Enkripsi Disk Sistem Operasi"
+<details class="info" markdown>
+<summary>Operating System Disk Encryption</summary>
 
-    Untuk mengenkripsi drive sistem operasi Anda, kami biasanya menyarankan untuk menggunakan alat enkripsi apa pun yang disediakan oleh sistem operasi Anda, baik itu **BitLocker** pada Windows, **FileVault** pada macOS, atau **LUKS** pada Linux. Alat-alat ini disertakan dengan sistem operasi dan biasanya menggunakan elemen enkripsi perangkat keras seperti TPM yang tidak dimiliki oleh perangkat lunak enkripsi disk penuh lainnya seperti VeraCrypt. VeraCrypt masih cocok untuk disk sistem non-operasi seperti drive eksternal, terutama drive yang dapat diakses dari beberapa sistem operasi.
-    
-    [Pelajari lebih lanjut :material-arrow-right-drop-circle:](encryption.md##operating-system-include-full-disk-encryption-fde)
+For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Alat-alat ini disertakan dengan sistem operasi dan biasanya menggunakan elemen enkripsi perangkat keras seperti TPM yang tidak dimiliki oleh perangkat lunak enkripsi disk penuh lainnya seperti VeraCrypt. VeraCrypt masih cocok untuk disk sistem non-operasi seperti drive eksternal, terutama drive yang dapat diakses dari beberapa sistem operasi.
+
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+
+</details>
 
 <div class="grid cards" markdown>
 
@@ -327,7 +333,7 @@ Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenk
 
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)  
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](frontends.md#invidious)
 - ![Piped logo](assets/img/frontends/piped.svg){ .twemoji } [Piped (YouTube, Web)](frontends.md#piped)
