@@ -206,7 +206,7 @@ L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione,
 
 Se stai cercando l'**anonimato**, dovresti utilizzare Tor Browser, **invece** che una VPN.
 
-If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
+Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti web che utilizzano HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
 
 [Scopri di più :material-arrow-right-drop-circle:](vpn.md)
 
@@ -280,9 +280,9 @@ If you're looking for added **security**, you should always ensure you're connec
 ### Software di crittografia
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Crittografia del disco del sistema operativo</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Questi strumenti sono inclusi con il sistema operativo e, tipicamente, utilizzano elementi crittografici hardware come TPM, a differenza di altri software crittografici a disco intero, come VeraCrypt. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
+Per crittografare l'unità del sistema operativo, in genere si consiglia di utilizzare qualsiasi strumento di crittografia fornito dal sistema operativo, che si tratti di **BitLocker** su Windows, **FileVault** su macOS o **LUKS** su Linux. Questi strumenti sono inclusi con il sistema operativo e, tipicamente, utilizzano elementi crittografici hardware come TPM, a differenza di altri software crittografici a disco intero, come VeraCrypt. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
 
 [Scopri di più :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
@@ -487,7 +487,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 ## Strumenti Avanzati
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+Questi strumenti possono essere utili per alcuni individui. Forniscono funzionalità di cui gran parte delle persone non devono preoccuparsi e spesso richiedono una conoscenza tecnologica più approfondita per un utilizzo efficace.
 
 ### Verifica dell'Integrità del Dispositivo
 
