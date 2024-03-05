@@ -61,13 +61,13 @@ Se l'anonimato più completo è fondamentale per la tua situazione, dovresti uti
 Il **Tor Browser** è la scelta ideale per l'anonimato, fornendoti accesso alla rete e ai ponti di Tor e include impostazioni ed estensioni predefinite, configurate automaticamente dai livelli di sicurezza predefiniti: *Standard*, *Safer* e *Safest*.
 
 [:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servizio Onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentazione }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -99,13 +99,13 @@ Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre d
 **Orbot** è una VPN di Tor gratuita per smartphone, che instrada il traffico da qualsiasi app sul tuo dispositivo, tramite la rete di Tor.
 
 [:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentazione}
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
@@ -118,9 +118,9 @@ Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre d
 Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo di Destinazione* nelle impostazioni di Orbot. Sebbene quest'impostazione possa teoricamente migliorare la privacy, imponendo l'utilizzo di un circuito differente per ogni indirizzo IP cui ti connetti, non fornisce un vantaggio pratico per gran parte delle applicazioni (specialmente per la navigazione web), può comportare una significativa riduzione delle prestazioni e incrementa il carico sulla rete di Tor. Non consigliamo più la regolazione di quest'impostazione dal suo valore predefinito, a meno che non sia necessario.[^1]
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tips for Android</p>
+<p class="admonition-title">Suggerimenti per Android</p>
 
-Orbot può delegare le singole app, se supportano il proxy SOCKS o HTTP. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Orbot può delegare le singole app, se supportano il proxy SOCKS o HTTP. Può anche effettuare il proxy di tutte le connessioni di rete utilizzando [VpnService](https://developer.android.com/reference/android/net/VpnService) e può essere utilizzato con il killswitch VPN in :gear: **Impostazioni** → **Rete & Internet** → **VPN** → :gear: → **Blocca connessioni senza VPN**.
 
 Orbot è spesso obsoleto sul [repository di F-Droid](https://guardianproject.info/fdroid) di Guardian Project e su [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), quindi, piuttosto, cerca di scaricarlo direttamente dal [repository di GitHub](https://github.com/guardianproject/orbot/releases).
 
@@ -137,13 +137,13 @@ Tutte le versioni sono firmate utilizzando la medesima firma, quindi, dovrebbero
 **Onion Browser** è un browser open-source che consente di navigare sul web in modo anonimo attraverso la rete Tor su dispositivi iOS ed è approvato dal [Tor Project](https://support.torproject.org/glossary/onion-browser/).
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 

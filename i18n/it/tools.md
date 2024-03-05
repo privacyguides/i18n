@@ -200,7 +200,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 ### Fornitori di VPN
 
 <details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
+<summary>Le VPN non forniscono l'anonimato</summary>
 
 Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
@@ -245,7 +245,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 [Scopri di più :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Data and Metadata Redaction
+### Rimozione di dati e metadati
 
 <div class="grid cards" markdown>
 

@@ -1,8 +1,8 @@
 ---
 meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
-title: "Data and Metadata Redaction"
+title: "Rimozione di dati e metadati"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Utilizza questi strumenti per rimuovere metadati come la posizione GPS e altre informazioni identificative dalle foto e dai file che condividi.
 cover: data-redaction.webp
 ---
 
@@ -21,11 +21,11 @@ Condividendo dei file, assicurati di rimuovere i metadati associati. I file imma
 Su Linux, esiste uno strumento grafico di terze parti [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) basato su MAT2 ed è [disponibile su Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
 
 [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
-[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentazione}
+[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -49,11 +49,11 @@ Su Linux, esiste uno strumento grafico di terze parti [Metadata Cleaner](https:/
 Attualmente supporta file JPEG, PNG e WebP.
 
 [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -88,10 +88,10 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 **Metapho** è un visualizzatore semplice e pulito per i metadati delle foto, quali data, nome del file, dimensioni, modello della fotocamera, velocità dell'otturatore e posizione.
 
 [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Informativa sulla Privacy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
 
@@ -108,12 +108,12 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 **PrivacyBlur** è un'app gratuita che consente di sfocare le parti sensibili delle immagini, prima di condividerle online.
 
 [:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
@@ -142,12 +142,12 @@ Non dovresti **mai** utilizzare la sfocatura per nascondere [il testo nelle imma
 Spesso è usato come un componente di altre applicazioni di rimozione Exif ed è presente nei repository della maggior parte delle distribuzioni Linux.
 
 [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)
@@ -158,7 +158,7 @@ Spesso è usato come un componente di altre applicazioni di rimozione Exif ed è
 </div>
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Deleting data from a directory of files</p>
+<p class="admonition-title">Eliminazione di dati da una directory di file</p>
 
 ```bash
 exiftool -all= *.file_extension

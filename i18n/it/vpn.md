@@ -17,7 +17,7 @@ Se desideri ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica, o dur
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
+<p class="admonition-title">Le VPN non forniscono l'anonimato</p>
 
 L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione, né aggiungerà ulteriore sicurezza al traffico non sicuro (HTTP).
 
@@ -25,7 +25,7 @@ Se cerchi l'**anonimato**, dovresti usare Tor Browser.
 
 Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti web che utilizzano HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
 
-[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Scarica Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Miti di Tor & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -44,12 +44,12 @@ I nostri fornitori consigliati utilizzano la crittografia, accettano Monero, sup
 **Proton VPN** è un forte concorrente nel settore delle VPN, ed è operativo dal 2016. Proton AG ha sede in Svizzera e offre un livello gratuito limitato, così come un'opzione premium più ricca di funzioni.
 
 [:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
@@ -119,12 +119,12 @@ Arresti anomali del sistema [potrebbero verificarsi](https://protonvpn.com/suppo
 **IVPN** è un altro fornitore di VPN premium, in operazione dal 2009. IVPN ha sede in Gibilterra.
 
 [:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -189,13 +189,13 @@ I client IVPN supportano l'autenticazione a due fattori (i client Mullvad no). I
 **Mullvad** è una VPN veloce ed economica con una grande attenzione alla trasparenza e alla sicurezza. Sono operativi dal **2009**. Mullvad ha sede in Svezia e non dispone di una prova gratuita.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servizio Onion" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
