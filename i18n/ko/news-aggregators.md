@@ -101,13 +101,10 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Miniflux 로고](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Miniflux 로고](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux**는 웹 기반 뉴스 애그리게이터로, 자체 호스팅을 지원합니다. [RSS](https://ko.wikipedia.org/wiki/RSS), [Atom](https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%ED%91%9C%EC%A4%80)), [RDF](https://en.wikipedia.org/wiki/RDF/XML), [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)를 지원합니다.
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+**Miniflux** is a web-based news aggregator that you can self-host. [RSS](https://ko.wikipedia.org/wiki/RSS), [Atom](https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%ED%91%9C%EC%A4%80)), [RDF](https://en.wikipedia.org/wiki/RDF/XML), [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)를 지원합니다.
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}

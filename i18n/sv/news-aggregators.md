@@ -101,13 +101,10 @@ A [news aggregator](https://en.wikipedia.org/wiki/News_aggregator) is a way to k
 
 <div class="admonition recommendation" markdown>
 
-![Miniflux logotyp](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
 ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** är en webbaserad nyhetsaggregator som du kan lägga upp själv. Den stöder [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) och [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+**Miniflux** is a web-based news aggregator that you can self-host. Den stöder [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) och [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}

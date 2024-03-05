@@ -101,13 +101,10 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Логотип Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** - это веб-агрегатор новостей, который поддерживает самостоятельный хостинг. Он поддерживает [RSS](https://ru.wikipedia.org/wiki/RSS), [Atom](https://ru.wikipedia.org/wiki/Atom), [RDF](https://ru.wikipedia.org/wiki/RDF/XML) и [JSON Feed](https://ru.wikipedia.org/wiki/JSON_feed).
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+**Miniflux** is a web-based news aggregator that you can self-host. Он поддерживает [RSS](https://ru.wikipedia.org/wiki/RSS), [Atom](https://ru.wikipedia.org/wiki/Atom), [RDF](https://ru.wikipedia.org/wiki/RDF/XML) и [JSON Feed](https://ru.wikipedia.org/wiki/JSON_feed).
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}

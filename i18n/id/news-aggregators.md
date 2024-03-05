@@ -101,13 +101,10 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
 ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** adalah agregator berita berbasis web yang dapat Anda hosting sendiri. Ini mendukung [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_ (Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) dan [JSON Feed] (https://en.wikipedia.org/wiki/JSON_Feed).
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+**Miniflux** is a web-based news aggregator that you can self-host. Ini mendukung [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_ (Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) dan [JSON Feed] (https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}

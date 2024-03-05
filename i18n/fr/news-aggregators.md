@@ -101,18 +101,15 @@ Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) es
 
 <div class="admonition recommendation" markdown>
 
-![Logo Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Logo Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** est un agrégateur d'actualités basé sur le web que vous pouvez héberger vous-même. Il prend en charge [RSS](https://fr.wikipedia.org/wiki/RSS), [Atom](https://fr.wikipedia.org/wiki/Atom_Syndication_Format), [RDF](https://fr.wikipedia.org/wiki/RDF/XML) et [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Miniflux** is a web-based news aggregator that you can self-host. Il prend en charge [RSS](https://fr.wikipedia.org/wiki/RSS), [Atom](https://fr.wikipedia.org/wiki/Atom_Syndication_Format), [RDF](https://fr.wikipedia.org/wiki/RDF/XML) et [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-<details class="downloads" markdown>
-<summary>Téléchargements</summary>
-
-[:octicons-home-16: Page d'accueil](https://miniflux.app){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Code source" }
-[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribuer }
+[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribute }
 
 </details>
 

@@ -102,12 +102,9 @@ cover: news-aggregators.webp
 <div class="admonition recommendation" markdown>
 
 ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Miniflux 標誌](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** 是一個網頁版的新聞聚合器，允許自行託管。 它支持 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 和 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
-
-<details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+**Miniflux** is a web-based news aggregator that you can self-host. 它支持 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 和 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
