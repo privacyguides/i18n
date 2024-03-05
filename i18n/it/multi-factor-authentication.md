@@ -1,7 +1,7 @@
 ---
-title: "Multi-Factor Authenticators"
+title: "Autenticazione a più fattori"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: Questi strumenti ti assistono nella protezione dei tuoi account Internet con l'autenticazione a più fattori, senza inviare i tuoi codici segreti a terze parti.
 cover: multi-factor-authentication.webp
 ---
 
@@ -34,7 +34,7 @@ Per i modelli che supportano HOTP e TOTP, esistono 2 slot nell'interfaccia OTP c
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-The firmware of YubiKey is not open source and is not updatable. Se desideri avere le funzionalità nelle versioni del firmware più recenti, o se è presente una vulnerabilità nella versione del firmware in uso, dovrai acquistare una nuova chiave.
+Il firmware di YubiKey non è open source e non è aggiornabile. Se desideri avere le funzionalità nelle versioni del firmware più recenti, o se è presente una vulnerabilità nella versione del firmware in uso, dovrai acquistare una nuova chiave.
 
 </div>
 
@@ -120,11 +120,11 @@ Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative
 **ente Auth** è un'app gratuita e open source che memorizza e genera token TOTP sul tuo dispositivo mobile. Può essere utilizzato con un account online per eseguire il backup e la sincronizzazione dei token tra i tuoi dispositivi (e per accedervi tramite un'interfaccia web) in modo sicuro, con crittografia end-to-end. Può essere utilizzato anche offline su un singolo dispositivo senza la necessità di un account.
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
@@ -144,13 +144,13 @@ Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative
 **Aegis Authenticator** è un'app gratuita, sicura e open source per gestire i token di verifica a due passaggi per i tuoi servizi online. Aegis Authenticator opera completamente offline/localmente, ma include l'opzione di esportare i token per il backup, a differenza di molte alternative.
 
 [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
 - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)
