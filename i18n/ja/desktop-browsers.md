@@ -282,19 +282,16 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] **接続をHTTPSにアップグレードする**の**厳格**を選択
-- [x] (任意) **スクリプトをブロックする**を選択 (1)
-- [x] フィンガープリンティングをブロックの**厳格、サイトの表示が崩れる可能性**を選択
-- [x] **Forget me when I close this site**を選択 (2)
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
+- [ ] Uncheck all social media components
 
 </div>
 
 1. このオプションでは、uBlock Originの高度な[ブロックモード](https://github.com/gorhill/uBlock/wiki/Blocking-mode)や[NoScript](https://noscript.net/)拡張機能と同様の機能が有効になります。
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
-
-##### ソーシャルメディアのブロック
-
-- [ ] すべてのソーシャルメディアコンポーネントのチェックを外すこと
 
 ##### プライバシーとセキュリティー
 
@@ -314,7 +311,7 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 

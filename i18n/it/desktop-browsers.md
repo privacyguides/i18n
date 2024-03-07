@@ -282,19 +282,16 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 </details>
 
-- [x] Seleziona **Restrittivo** in **Aggiorna le connessioni a HTTPS**
-- [x] (facoltativo) Seleziona **Blocco degli Script** (1)
-- [x] Seleziona **Rigido, potrebbe non far funzionare alcuni siti** sotto Blocca il fingerprinting
-- [x] Controlla **Dimenticami quando chiudo questo sito** (2)
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
+- [ ] Uncheck all social media components
 
 </div>
 
 1. Quest'opzione fornisce una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzate di uBlock Origin o all'estensione [NoScript](https://noscript.net/).
 2. Se desideri mantenere l'accesso in un particolare sito che visiti spesso, puoi selezionare le eccezioni per ogni sito cliccando sull'icona dello scudo sulla barra degli indirizzi.
-
-##### Blocco social
-
-- [ ] Rimuovi la spunta da tutti i componenti social
 
 ##### Privacy e sicurezza
 
@@ -314,9 +311,9 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizzazione alla chiusura</p>
 
-- [x] Seleziona **Cancella i cookie e i dati del sito quando chiudi tutte le finestre** nel menu *Cookie e altri dati del sito*
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
 
-Se desideri rimanere connesso a un particolare sito che visiti spesso, è possibile impostare eccezioni in base al sito nella sezione *Comportamenti personalizzati*.
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 

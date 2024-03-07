@@ -282,19 +282,16 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Выберите **Обязательно** в пункте **Переключаться на HTTPS**
-- [x] (Опционально) Выберите **Блокировать скрипты** (1)
-- [x] Выберите **Строгий, может нарушить работу сайтов** в пункте "Блокировка цифровых отпечатков"
-- [x] Включите **Удалять данные о посещении этого сайта** (2)
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
+- [ ] Uncheck all social media components
 
 </div>
 
 1. Эта опция обеспечивает функциональность, аналогичную расширенным [режимам блокировки](https://github.com/gorhill/uBlock/wiki/Blocking-mode) uBlock Origin или расширения [NoScript](https://noscript.net/).
 2. Если вы хотите оставаться залогиненными на определенном сайте, который вы часто посещаете, вы можете установить исключения для каждого сайта, нажав на значок щита в адресной строке.
-
-##### Блокировка социальных сетей
-
-- [ ] Отключи все переключатели в этой секции
 
 ##### Конфиденциальность и безопасность
 
@@ -314,7 +311,7 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] Select **Clear cookies and site data when you close all windows** in the *Cookies and other site data* menu
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 

@@ -282,19 +282,16 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 
 </details>
 
-- [x] Sélectionnez **Strict** sous **Mettre à niveau des connexions vers HTTPS**
-- [x] (facultatif) Sélectionnez **Bloquer les scripts** (1)
-- [x] Sélectionnez **Strict, peut casser les sites** sous Bloquer la capture d'empreinte numérique
-- [x] Cochez **M'oublier quand je ferme ce site** (2)
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
+- [ ] Uncheck all social media components
 
 </div>
 
 1. Cette option fournit une fonctionnalité similaire aux [modes de blocage](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avancés de uBlock Origin ou l'extension [NoScript](https://noscript.net/).
 2. Si vous souhaitez rester connecté à un site particulier que vous visitez souvent, vous pouvez définir des exceptions pour chaque site en cliquant sur l'icône Bouclier dans la barre d'adresse.
-
-##### Blocage des médias sociaux
-
-- [ ] Décochez toutes les fonctionnalités de médias sociaux
 
 ##### Confidentialité et sécurité
 
@@ -314,9 +311,9 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Suppression à la fermeture</p>
 
-- [x] Sélectionnez **Effacer les cookies et les données du site lorsque vous fermez toutes les fenêtres** dans le menu *Cookies et autres données du site*
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
 
-Si vous souhaitez rester connecté à un site particulier que vous visitez souvent, vous pouvez définir des exceptions par site dans la section *Comportements personnalisés*.
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 

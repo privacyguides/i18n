@@ -281,19 +281,16 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </details>
 
-- [x] 選擇 **嚴格** 位於**升級至 HTTPS 連線**選項底下
-- [x] (可選的) 選取 **屏蔽 Scripts** (1)
-- [x] 選取 **嚴格, 可能會破壞網站** 屏蔽瀏覽器識別指紋底下
-- [x] 勾選**關閉此站後即遺忘** (2)
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
+- [ ] Uncheck all social media components
 
 </div>
 
 1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net/) 擴展。
 2. 若想在經常造訪的特定站點保持登入，則可以透過網址列中的盾牌圖示來為每個站點設定例外。
-
-##### 阻擋社群媒體
-
-- [ ] 取消勾選所有社群媒體組件
 
 ##### 隐私和安全
 
@@ -315,11 +312,9 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 <div class="admonition tip" markdown>
 <p class="admonition-title">關閉時消毒</p>
 
-tip "關閉時進行消毒"
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
 
- - [x] 選擇 在 **Cookies 和其他網站資料**選單中**關閉所有視窗時清除 cookies 和網站資料選單**
-
- 如果希望繼續登入經常訪問的特定網站，可以在*自訂行為*處根據每個網站設定例外情況。
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 

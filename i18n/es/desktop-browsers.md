@@ -282,19 +282,16 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 </details>
 
-- [x] Selecciona **Estricto** en **Mejorar conexiones a HTTPS**
-- [x] (Opcional) Selecciona **Bloquear Scripts** (1)
-- [x] Selecciona **Estricto, puede dañar los sitios** en Bloquear huellas digitales
-- [x] Marca **Olvídame cuando cierre este sitio** (2)
+- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Check **Forget me when I close this site** (2)
+- [ ] Uncheck all social media components
 
 </div>
 
 1. Esta opción proporciona una funcionalidad similar a los [modos de bloqueo ](https://github.com/gorhill/uBlock/wiki/Blocking-mode)avanzados de uBlock Origin o la extensión [NoScript](https://noscript.net/).
 2. Si deseas permanecer conectado a un sitio concreto que visitas a menudo, puedes establecer excepciones por sitio haciendo clic en el icono del Escudo de la barra de direcciones.
-
-##### Bloqueo de RRSS
-
-- [ ] Desmarca todos los componentes de redes sociales
 
 ##### Privacidad y seguridad
 
@@ -314,9 +311,9 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 <div class="admonition tip" markdown>
 <p class="admonition-title">Desinfectar al cerrar</p>
 
-- [x] Selecciona **Borrar cookies y datos de sitios al cerrar todas las ventanas** en el menú *Cookies y otros datos de sitios*
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
 
-Si deseas permanecer conectado a un sitio concreto que visitas con frecuencia, puedes establecer excepciones por sitio en la sección *Comportamientos personalizados*.
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 
