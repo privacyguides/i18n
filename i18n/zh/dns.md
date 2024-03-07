@@ -162,5 +162,5 @@ Pi-hole被设计为在Raspberry Pi上托管，但它并不局限于这种硬件�
 [^2]: Cloudflare只收集和存储发送到1.1.1.1解析器的有限DNS查询数据。 1.1.1.1解析器服务不记录个人数据，而且大部分有限的非个人识别的查询数据只存储25小时。 [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
 [^3]: Control D只记录具有自定义DNS配置文件的高级解析器。 自由解析器不记录数据。 [https://controld.com/privacy](https://controld.com/privacy)
 [^4]: Mullvad的DNS服务对Mullvad VPN的订阅者和非订阅者都适用。 他们的隐私政策明确声称他们不会以任何方式记录DNS请求。 [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
-[^5]: NextDNS可以在选择加入的基础上提供见解和日志记录功能。 你可以为你选择保留的任何日志选择保留时间和日志存储位置。 如果没有特别要求，就不记录数据。 [https://nextdns.io/privacy](https://nextdns.io/privacy)
+[^5]: NextDNS can provide insights and logging features on an opt-out basis. 你可以为你选择保留的任何日志选择保留时间和日志存储位置。 如果没有特别要求，就不记录数据。 [https://nextdns.io/privacy](https://nextdns.io/privacy)
 [^6]: Quad9收集了一些数据，用于威胁监测和应对。 然后，这些数据可能被重新混合和共享，例如为了安全研究的目的。 Quad9不会收集或记录IP地址或其他他们认为可以识别个人身份的数据。 [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)

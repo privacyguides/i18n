@@ -162,5 +162,5 @@ Pi-hole은 라즈베리 파이에서 호스팅되도록 설계되었지만, 그 
 [^2]: Cloudflare는 1.1.1.1 리졸버로 전송되는 DNS 쿼리의 제한된 데이터만 수집 및 저장합니다. 1.1.1.1 리졸버는 개인 데이터를 기록하지 않으며, 개인 식별이 불가능하도록 제한된 쿼리 데이터는 대부분 25시간 동안만 저장됩니다. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
 [^3]: Control D는 사용자 정의 프로필이 있는 프리미엄 리졸버에 대해서만 로그를 기록합니다. 무료 리졸버는 데이터를 기록하지 않습니다. [https://controld.com/privacy](https://controld.com/privacy)
 [^4]: Mullvad DNS 서비스는 Mullvad VPN 가입자/비가입자 모두 이용 가능합니다. 프라이버시 정책 상, 어떤 방식으로든 DNS 요청을 기록하지 않는다고 명시되어 있습니다. [https://mullvad.net/ko/help/no-logging-data-policy/](https://mullvad.net/ko/help/no-logging-data-policy/)
-[^5]: NextDNS는 사용자 동의 여부에 따라 통계 및 로그 기능을 제공합니다. 보관하기로 선택한 모든 로그는 각각 보존 기간과 로그 저장 위치를 선택 가능합니다. 따로 요청하지 않을 경우, 어떤 데이터도 기록되지 않습니다. [https://nextdns.io/privacy](https://nextdns.io/privacy)
+[^5]: NextDNS can provide insights and logging features on an opt-out basis. 보관하기로 선택한 모든 로그는 각각 보존 기간과 로그 저장 위치를 선택 가능합니다. 따로 요청하지 않을 경우, 어떤 데이터도 기록되지 않습니다. [https://nextdns.io/privacy](https://nextdns.io/privacy)
 [^6]: Quad9은 위협 모니터링 및 대응 목적으로 일부 데이터를 수집합니다. 해당 데이터는 보안 연구 등의 목적으로 변형 후 공유될 수 있습니다. Quad9은 개인 식별 용도로 쓰일 수 있다고 판단되는 IP 주소 및 기타 데이터를 수집하거나 기록하지 않습니다. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
