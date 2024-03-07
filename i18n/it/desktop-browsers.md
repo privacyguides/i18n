@@ -282,11 +282,11 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Seleziona **Restrittivo** sotto **Aggiorna le connessioni a HTTPS**
+- [x] (facoltativo) Seleziona **Blocca gli Script** (1)
+- [x] Seleziona **Restrittivo, potrebbe non far funzionare i siti** sotto Blocca fingerprinting
+- [x] Seleziona **Dimentica quando chiudo questo sito** (2)
+- [ ] Deseleziona tutti i componenti dei social media
 
 </div>
 

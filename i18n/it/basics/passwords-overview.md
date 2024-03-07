@@ -1,7 +1,7 @@
 ---
-title: "Introduction to Passwords"
+title: "Introduzione alle password"
 icon: 'material/form-textbox-password'
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: Ecco alcuni consigli e trucchi su come creare le password più forti e mantenere sicuri i tuoi profili.
 ---
 
 Le password sono una parte essenziale delle nostre vite digitali quotidiane. Le utilizziamo per proteggere i nostri profili, dispositivi e segreti. Nonostante spesso siano la sola cosa tra di noi e un malintenzionato a caccia di informazioni private, non ci si pensa molto, portando spesso le persone a utilizzare password facili da indovinare o forzare.
@@ -27,7 +27,7 @@ Dovresti evitare di modificare troppo spesso le password che devi ricordare (com
 Per quanto riguard le password che non devi ricordare (come quelle memorizzate nel tuo gestore di password), se il tuo [modello di minaccia](threat-modeling.md) lo richiede, consigliamo di modificare le password dei profili importaanti (specialmente profili privi di autenticazione a più fattori), ogni paio di mesi, nel caso in cui siano state compromesse in una violazione di dati non ancora resa pubblica. Gran parte dei gestori di password ti consentono di impostare una data di scadenza per la tua password, rendendola più facile da gestire.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
+<p class="admonition-title">Controllo delle violazioni dei dati</p>
 
 Se il tuo gestore di password ti consente di verificare quelle compromesse, assicurati di farlo e di modificare prontamente qualsiasi password possa esser stata esposta in una violazione di dati. Altrimenti, potresti seguire il [feed di Violazioni di Dati Recenti di Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches), con l'aiuto di un [aggregatore di notizie](../news-aggregators.md).
 
@@ -41,20 +41,20 @@ Molti servizi impongono certi criteri per quanto riguarda le password, inclusa u
 
 Se necessiti di una password memorizzabile, consigliamo una [frase segreta Diceware](#diceware-passphrases).
 
-### Frasi Segrete Diceware
+### Passphrase Diceware
 
 Il metodo Diceware serve a creare frasi segrete facili da ricordare, ma difficili da indovinare.
 
 Le frasi segrete Diceware sono un'ottima opzione quando devi memorizzare o inserire manualmente le tue credenziali, come per la password principale del tuo gestore di password o per la password crittografica del tuo dispositivo.
 
-Un esempio di frase segreta Dicewaare è `visualizzabile velocità riluttante morbido diciassette mostrato matita`.
+Un esempio di passphrase diceware è `viewable fastness reluctant squishy seventeen shown pencil`.
 
-Per generare una frase segreta Dicewaare utilizzando dadi reali, segui questi passaggi:
+Per generare una passphrase diceware utilizzando un vero dado, segui questi passaggi:
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Nota</p>
 
-Queste istruzioni suppongono che tu stia utilizzando il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare la frase segreta, che richiede cinque lanci di dadi per parola. Altri elenchi di parole potrebbero richiedere maggiori o minori lanci per parola e potrebbero richiedere una quantità di parole differenti, per ottenere la stessa entropia.
+Queste istruzioni presuppongono l'utilizzo del [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare la passphrase, che richiede cinque lanci di dadi per parola. Altri elenchi di parole potrebbero richiedere maggiori o minori lanci per parola e potrebbero richiedere una quantità di parole differenti, per ottenere la stessa entropia.
 
 </div>
 
@@ -78,17 +78,17 @@ Se non hai accesso a dadi reali o preferiresti non utilizzarli, puoi utilizzare 
 Consigliamo di utilizzare il [grande elenco di parole di EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) per generare le tue frasi segrete Diceware, poiché offre la stessa sicurezza dell'elenco originale, contenendo parole più facili da memorizzare. Esistono anche [altri elenchi di parole in lingue differenti](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), se non desideri che la tua frase segreta sia in inglese.
 
 <details class="note" markdown>
-<summary>Explanation of entropy and strength of diceware passphrases</summary>
+<summary>Spiegazione dell'entropia e della forza delle passphrase diceware</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+Per dimostrare quanto siano forti le passphrase diceware, useremo la già citata passphrase di sette parole (`viewable fastness reluctant squishy seventeen shown pencil`) ed il [grande elenco di parole EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) come esempio.
 
-Un parametro per determinare la forza di una frase segreta Diceware è la sua entropia. L'entropia per parola in una frase segreta Diceware è calcolata come $\text{log}_2(\text{WordsInList})$ e l'entropia complessiva della frase segreta è calcolata come $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+Un parametro per determinare la forza di una passphrase diceware è la sua entropia. L'entropia per parola in una frase segreta Diceware è calcolata come $\text{log}_2(\text{WordsInList})$ e l'entropia complessiva della frase segreta è calcolata come $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
 
 Dunque, ogni parola nell'elenco suddetto risulta in circa 12,9 bit di entropia ($\text{log}_2(7776)$), e una frase segreta di sette parole da esso derivaata contiene circa 90,47 bit di entropia ($\text{log}_2(7776^7)$).
 
-The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Per calcolare la quantità di frasi segrete possibili, tutto ciò che dobbiamo fare è $\text{WordsInList}^\text{WordsInPhrase}$ o, nel nostro caso, $ 7776^7 $.
+L'[EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 parole uniche. Per calcolare la quantità di frasi segrete possibili, tutto ciò che dobbiamo fare è $\text{WordsInList}^\text{WordsInPhrase}$ o, nel nostro caso, $ 7776^7 $.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Mettiamo tutto questo in prospettiva: una passphrase di sette parole che utilizza il [grande elenco di parole EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) è una delle possibili ~1.719.070.799.748.422.500.000.000.000.000 passphrase.
 
 In media, è necessario tentare il 50% di tutte le combinazioni possibili per indovinare la tua frase segreta. Tenendo ciò a mente, anche se il malintenzionato è capace di circa 1.000.000.000.000 tentativi al secondo, gli ci vorrebbero comunque circa 27.255.689 aanni per indovinare la tua frase segreta. Questo vale solo se le seguenti cose sono vere:
 
@@ -111,7 +111,7 @@ Esistono molte buone opzioni da cui scegliere, sia basate su cloud che locali. S
 [Elenco dei gestori di password consigliati](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
+<p class="admonition-title">Non inserire le tue password e i token TOTP nello stesso gestore di password</p>
 
 Utilizzando i codici TOTP come [autenticazione a più fattori](../multi-factor-authentication.md), la migliore pratica di sicurezza è mantenerli in un'[app separata](../multi-factor-authentication.md#authenticator-apps).
 
