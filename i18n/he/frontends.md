@@ -1,7 +1,7 @@
 ---
 title: "חזיתות"
 icon: material/flip-to-front
-description: ממשקי קוד פתוח אלה לשירותי אינטרנט שונים מאפשרים לך לגשת לתוכן ללא JavaScript או מטרדים אחרים.
+description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
 cover: frontends.webp
 ---
 
@@ -15,183 +15,242 @@ cover: frontends.webp
 
 ### ProxiTok
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![ProxiTok לוגו](assets/img/frontends/proxitok.svg){ align=right }
-    
-    **ProxiTok** הוא חזית קוד פתוח לאתר [TikTok](https://www.tiktok.com) שהוא גם מארח עצמי.
-    
-    ישנם מספר מופעים ציבוריים, כאשר בחלק מהמקרים יש תמיכה בשירותי בצל [Tor](https://www.torproject.org).
-    
-    [:octicons-repo-16: מאגר](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="מופעים ציבוריים"}
-    [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="קוד מקור" }
+![ProxiTok לוגו](assets/img/frontends/proxitok.svg){ align=right }
 
-!!! tip "טיפ"
+**ProxiTok** הוא חזית קוד פתוח לאתר [TikTok](https://www.tiktok.com) שהוא גם מארח עצמי.
 
-    ProxiTok שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר.
+ישנם מספר מופעים ציבוריים, כאשר בחלק מהמקרים יש תמיכה בשירותי בצל [Tor](https://www.torproject.org).
+
+[:octicons-repo-16: מאגר](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="מופעים ציבוריים"}
+[:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title=תיעוד}
+[:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="קוד מקור" }
+
+</details>
+
+</div>
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+ProxiTok שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר.
+
+</div>
 
 ## יוטיוב
 
 ### FreeTube
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![FreeTube לוגו](assets/img/frontends/freetube.svg){ align=right }
-    
-    **FreeTube** הוא יישום שולחן עבודה חינם וקוד פתוח עבור [יוטיוב](https://youtube.com). בעת שימוש ב- FreeTube, רשימת המנויים ורשימות ההשמעה שלך נשמרות באופן מקומי במכשיר שלך.
-    
-    כברירת מחדל, FreeTube חוסמת את כל הפרסומות של יוטיוב. בנוסף, FreeTube משתלבת באופן אופציונלי עם [SponsorBlock](https://sponsor.ajay.app) כדי לעזור לך לדלג על קטעי וידאו ממומנים.
-    
-    [:octicons-home-16: דף הבית](https://freetubeapp.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-windows11: Windows](https://freetubeapp.io/#download)
-        - [:simple-apple: macOS](https://freetubeapp.io/#download)
-        - [:simple-linux: Linux](https://freetubeapp.io/#download)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
+![FreeTube לוגו](assets/img/frontends/freetube.svg){ align=right }
 
-!!! warning "אזהרה"
+**FreeTube** הוא יישום שולחן עבודה חינם וקוד פתוח עבור [יוטיוב](https://youtube.com). בעת שימוש ב- FreeTube, רשימת המנויים ורשימות ההשמעה שלך נשמרות באופן מקומי במכשיר שלך.
 
-    בעת השימוש ב-FreeTube, ייתכן שכתובת ה-IP שלך עדיין ידועה ליוטיוב, [Invidious](https://instances.invidious.io) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+כברירת מחדל, FreeTube חוסמת את כל הפרסומות של יוטיוב. בנוסף, FreeTube משתלבת באופן אופציונלי עם [SponsorBlock](https://sponsor.ajay.app) כדי לעזור לך לדלג על קטעי וידאו ממומנים.
+
+[:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
+    
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://freetubeapp.io/#download)
+- [:simple-apple: macOS](https://freetubeapp.io/#download)
+- [:simple-linux: Linux](https://freetubeapp.io/#download)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+בעת השימוש ב-FreeTube, ייתכן שכתובת ה-IP שלך עדיין ידועה ליוטיוב, [Invidious](https://instances.invidious.io) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+
+</div>
 
 ### Yattee
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Yattee לוגו](assets/img/frontends/yattee.svg){ align=right }
-    
-    **Yattee** הוא נגן וידאו חינמי וקוד פתוח מוכוון פרטיות עבור iOS, tvOS ו-macOS עבור [יוטיוב](https://youtube.com). בעת השימוש ב - Yattee, רשימת המנויים שלך נשמרת באופן מקומי במכשיר שלך.
-    
-    תצטרך לבצע כמה [צעדים נוספים](https://gonzoknows.com/posts/Yattee/) לפני שתוכל להשתמש ב-Yattee כדי לצפות ב-YouTube, עקב הגבלות של App Store.
-    
-    [:octicons-home-16: דף הבית](https://github.com/yattee/yattee){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
-        - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
+![Yattee לוגו](assets/img/frontends/yattee.svg){ align=right }
 
-!!! warning "אזהרה"
+**Yattee** הוא נגן וידאו חינמי וקוד פתוח מוכוון פרטיות עבור iOS, tvOS ו-macOS עבור [יוטיוב](https://youtube.com). בעת השימוש ב - Yattee, רשימת המנויים שלך נשמרת באופן מקומי במכשיר שלך.
 
-    בעת השימוש ב- Yattee, כתובת ה- IP שלך עשויה עדיין להיות ידועה ליוטיוב, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+תצטרך לבצע כמה [צעדים נוספים](https://gonzoknows.com/posts/Yattee/) לפני שתוכל להשתמש ב-Yattee כדי לצפות ב-YouTube, עקב הגבלות של App Store.
+
+[:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
+- [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+בעת השימוש ב- Yattee, כתובת ה- IP שלך עשויה עדיין להיות ידועה ליוטיוב, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+
+</div>
 
 כברירת מחדל, Yattee חוסם את כל הפרסומות ב - YouTube. בנוסף, Yattee משתלב באופן אופציונלי עם [SponsorBlock](https://sponsor.ajay.app) כדי לעזור לך לדלג על קטעי וידאו ממומנים.
 
 ### LibreTube (אנדרואיד)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![LibreTube לוגו](assets/img/frontends/libretube.svg#only-light){ align=right }
-    ![LibreTube לוגו](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
-    
-    **LibreTube** היא אפליקציית אנדרואיד בחינם וקוד פתוח עבור [YouTube](https://youtube.com) המשתמשת בממשק ה-API של [Piped](#piped).
-    
-    LibreTube מאפשר לך לאחסן את רשימת המנויים והפלייליסטים שלך באופן מקומי במכשיר האנדרואיד שלך, או בחשבון במופע Piped שבחרת, מה שמאפשר לך לגשת אליהם בצורה חלקה גם במכשירים אחרים.
-    
-    [:octicons-home-16: דף הבית](https://libre-tube.github.io){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="קוד מקור" }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
+![LibreTube לוגו](assets/img/frontends/libretube.svg#only-light){ align=right }
+![LibreTube לוגו](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
 
-!!! warning "אזהרה"
+**LibreTube** היא אפליקציית אנדרואיד בחינם וקוד פתוח עבור [YouTube](https://youtube.com) המשתמשת בממשק ה-API של [Piped](#piped).
 
-    בעת שימוש ב-LibreTube, כתובת ה-IP שלך תהיה גלויה למופע [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) שתבחר ו/או ל-[SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+LibreTube מאפשר לך לאחסן את רשימת המנויים והפלייליסטים שלך באופן מקומי במכשיר האנדרואיד שלך, או בחשבון במופע Piped שבחרת, מה שמאפשר לך לגשת אליהם בצורה חלקה גם במכשירים אחרים.
+
+[:octicons-home-16: Homepage](https://libre-tube.github.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
+
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+בעת שימוש ב-LibreTube, כתובת ה-IP שלך תהיה גלויה למופע [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) שתבחר ו/או ל-[SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+
+</div>
 
 כברירת מחדל, LibreTube חוסמת את כל פרסומות יוטיוב. בנוסף, Libretube משתמשת ב[SponsorBlock](https://sponsor.ajay.app) כדי לעזור לך לדלג על קטעי וידאו ממומנים. אתה יכול להגדיר באופן מלא את סוגי הפלחים שSponsorBlock ידלג עליהם, או להשבית אותו לחלוטין. יש גם כפתור בנגן הווידאו עצמו כדי להשבית אותו עבור סרטון מסוים אם תרצה בכך.
 
 ### NewPipe (אנדרואיד)
 
-!!! recommendation annotate
+<div class="admonition recommendation annotate" markdown>
 
-    ![Newpipe לוגו](assets/img/frontends/newpipe.svg){ align=right }
-    
-    **NewPipe** היא אפליקציית אנדרואיד חינמית וקוד פתוח עבור [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), ו-[PeerTube](https://joinpeertube.org/) (1).
-    
-    רשימת המנויים והפלייליסטים שלך נשמרים באופן מקומי במכשיר האנדרואיד שלך.
-    
-    [:octicons-home-16: דף הבית](https://newpipe.net){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="מדיניות פרטיות" }
-    [:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=לתרומה }
-    
-    ??? downloads "הורדות"
-    
-        - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
+![Newpipe לוגו](assets/img/frontends/newpipe.svg){ align=right }
+
+**NewPipe** היא אפליקציית אנדרואיד חינמית וקוד פתוח עבור [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), ו-[PeerTube](https://joinpeertube.org/) (1).
+
+רשימת המנויים והפלייליסטים שלך נשמרים באופן מקומי במכשיר האנדרואיד שלך.
+
+[:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
+
+</details>
+
+</div>
 
 1. מופע ברירת המחדל הוא [FramaTube](https://framatube.org/), עם זאת ניתן להוסיף יותר דרך **הגדרות** ← **תוכן** ← **מופעים PeerTube**
 
-!!! warning "אזהרה"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    בעת שימוש ב-NewPipe, כתובת ה-IP שלך תהיה גלויה לספקי הווידאו שבהם נעשה שימוש. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+בעת שימוש ב-NewPipe, כתובת ה-IP שלך תהיה גלויה לספקי הווידאו שבהם נעשה שימוש. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+
+</div>
 
 ### Invidious
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Invidious לוגו](assets/img/frontends/invidious.svg#only-light){ align=right }
-    ![Invidious לוגו](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
-    
-    **Invidious** הוא ממשק קצה חינמי וקוד פתוח עבור [YouTube](https://youtube.com) שמתארח גם בעצמו.
-    
-    ישנם מספר מופעים ציבוריים, כאשר בחלק מהמקרים יש תמיכה בשירותי בצל [Tor](https://www.torproject.org).
-    
-    [:octicons-home-16: דף הבית](https://invidious.io){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://instances.invidious.io){ .card-link title="מופעים ציבוריים"}
-    [:octicons-info-16:](https://docs.invidious.io/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=לתרומה }
+![Invidious לוגו](assets/img/frontends/invidious.svg#only-light){ align=right }
+![Invidious לוגו](assets/img/frontends/invidious-dark.svg#only-dark){ align=right }
 
-!!! warning "אזהרה"
+**Invidious** הוא ממשק קצה חינמי וקוד פתוח עבור [YouTube](https://youtube.com) שמתארח גם בעצמו.
 
-    כברירת מחדל, Invidious לא מזרימה פרוקסי וידאו. סרטונים שנצפו באמצעות Invidious עדיין יבצעו חיבורים ישירים לשרתים של Google (למשל `googlevideo.com`); עם זאת, מופעים מסוימים תומכים ב-proxy של וידאו - פשוט הפעל *סרטוני פרוקסי* בהגדרות של המופעים או הוסף '&local=true' לכתובת האתר.
+ישנם מספר מופעים ציבוריים, כאשר בחלק מהמקרים יש תמיכה בשירותי בצל [Tor](https://www.torproject.org).
 
-!!! tip "טיפ"
+[:octicons-home-16: דף הבית](https://invidious.io){ .md-button .md-button--primary }
+[:octicons-server-16:](https://instances.invidious.io){ .card-link title="מופעים ציבוריים"}
+[:octicons-info-16:](https://docs.invidious.io/){ .card-link title=תיעוד}
+[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="קוד מקור" }
+[:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=לתרומה }
 
-    Invidious שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser]( https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
+</details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+כברירת מחדל, Invidious לא מזרימה פרוקסי וידאו. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
+
+</div>
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+Invidious שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser]( https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
+
+</div>
 
 ### Piped
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Piped לוגו](assets/img/frontends/piped.svg){ align=right }
-    
-    **Piped** הוא חזית קוד פתוח בחינם ל-[YouTube](https://youtube.com) שמתארח גם בעצמו.
-    
-    Piped דורש JavaScript כדי לתפקד ויש מספר מופעים ציבוריים.
-    
-    [:octicons-repo-16: מאגר](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="מופעים ציבוריים"}
-    [:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=תיעוד}
-    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="קוד מקור" }
-    [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=לתרומה }
+![Piped לוגו](assets/img/frontends/piped.svg){ align=right }
 
-!!! tip "טיפ"
+**Piped** הוא חזית קוד פתוח בחינם ל-[YouTube](https://youtube.com) שמתארח גם בעצמו.
 
-    Piped שימושי אם ברצונך להשתמש ב - [SponsorBlock](https://sponsor.ajay.app) מבלי להתקין תוסף או לגשת לתוכן מוגבל לגיל ללא חשבון. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
+Piped דורש JavaScript כדי לתפקד ויש מספר מופעים ציבוריים.
+
+[:octicons-repo-16: מאגר](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+[:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="מופעים ציבוריים"}
+[:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=תיעוד}
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="קוד מקור" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=לתרומה }
+
+</details>
+
+</div>
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+Piped שימושי אם ברצונך להשתמש ב - [SponsorBlock](https://sponsor.ajay.app) מבלי להתקין תוסף או לגשת לתוכן מוגבל לגיל ללא חשבון. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
+
+</div>
 
 ## קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-!!! example "חלק זה הוא חדש"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+אנו עובדים על קביעת קריטריונים מוגדרים לכל קטע באתר שלנו, והדבר עשוי להשתנות. אם יש לך שאלות כלשהן לגבי הקריטריונים שלנו, אנא [שאל בפורום שלנו](https://discuss.privacyguides.net/latest) ואל תניח שלא שקלנו משהו כשהצענו את ההמלצות שלנו אם הוא לא רשום כאן. ישנם גורמים רבים שנחשבים ונדונים כאשר אנו ממליצים על פרויקט, ותיעוד כל אחד מהם הוא עבודה בתהליך.
+
+</div>
 
 חזיתות מומלצות...
 

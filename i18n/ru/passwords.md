@@ -1,14 +1,14 @@
 ---
-meta_title: "Лучшие менеджеры паролей для защиты вашей конфиденциальности и безопасности - Privacy Guides"
+meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
 title: "Менеджеры паролей"
 icon: material/form-textbox-password
-description: Менеджеры паролей позволяют безопасно хранить и управлять не только паролями, но и другими данными аккаунтов.
+description: Password managers allow you to securely store and manage passwords and other credentials.
 cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Рекомендации менеджера паролей
+    name: Password Manager Recommendations
     url: "./"
   - 
     "@context": http://schema.org
@@ -122,11 +122,14 @@ schema:
 
 [Введение в безопасные пароли :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
-!!! info "Информация"
+<div class="admonition info" markdown>
+<p class="admonition-title">Инфо.</p>
 
-    Встроенные менеджеры паролей, например в браузерах и операционных системах, иногда не так хороши, как специализированные программы для управления паролями. Преимуществом встроенных менеджеров паролей является хорошая интеграция с программным обеспечением, но зачастую они могут быть очень простыми и не иметь функций конфиденциальности и безопасности, которыми обладают отдельные программы.
-    
-    Например, менеджер паролей в Microsoft Edge вообще не поддерживает E2EE. Менеджер паролей Google имеет [опциональную](https://support.google.com/accounts/answer/11350823?hl=ru) поддержку E2EE, а менеджер паролей от Apple [предлагает](https://support.apple.com/ru-ru/HT202303) E2EE по умолчанию.
+Встроенные менеджеры паролей, например в браузерах и операционных системах, иногда не так хороши, как специализированные программы для управления паролями. Преимуществом встроенных менеджеров паролей является хорошая интеграция с программным обеспечением, но зачастую они могут быть очень простыми и не иметь функций конфиденциальности и безопасности, которыми обладают отдельные программы.
+
+Например, менеджер паролей в Microsoft Edge вообще не поддерживает E2EE. Менеджер паролей Google имеет [опциональную](https://support.google.com/accounts/answer/11350823?hl=ru) поддержку E2EE, а менеджер паролей от Apple [предлагает](https://support.apple.com/ru-ru/HT202303) E2EE по умолчанию.
+
+</div>
 
 ## Облачные сервисы
 
@@ -134,28 +137,33 @@ schema:
 
 ### Bitwarden
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
-    
-    **Bitwarden** - это бесплатный менеджер паролей с открытым исходным кодом. Он направлен на решение проблем управления паролями для отдельных лиц, команд и организаций. Bitwarden - одно из лучших и самых безопасных решений для хранения всех ваших логинов и паролей с удобной синхронизацией данных между всеми вашими устройствами.
-    
-    [:octicons-home-16: Домашняя страница](https://bitwarden.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
-        - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
-        - [:simple-windows11: Windows](https://bitwarden.com/download)
-        - [:simple-linux: Linux](https://bitwarden.com/download)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+![Логотип Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
+
+**Bitwarden** - это бесплатный менеджер паролей с открытым исходным кодом. Он направлен на решение проблем управления паролями для отдельных лиц, команд и организаций. Bitwarden - одно из лучших и самых безопасных решений для хранения всех ваших логинов и паролей с удобной синхронизацией данных между всеми вашими устройствами.
+
+[:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
+- [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+- [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
+- [:simple-windows11: Windows](https://bitwarden.com/download)
+- [:simple-linux: Linux](https://bitwarden.com/download)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+
+</details>
+
+</div>
 
 Bitwarden также имеет функцию [Bitwarden Send](https://bitwarden.com/products/send/), которая позволяет безопасно обмениваться текстом и файлами с использованием [сквозного шифрования](https://bitwarden.com/help/send-encryption). Отправленные через Bitwarden Send данные можно защитить [паролем](https://bitwarden.com/help/send-privacy/#send-passwords). Bitwarden Send также имеет функцию [автоматического удаления данных](https://bitwarden.com/help/send-lifespan).
 
@@ -171,23 +179,28 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 ### 1Password
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип 1Password](assets/img/password-management/1password.svg){ align=right }
-    
-    **1Password** — это менеджер паролей с акцентом на безопасность и простоту использования, который позволяет хранить пароли, кредитные карты, лицензии на программное обеспечение и любую другую конфиденциальную информацию в надежном цифровом хранилище. Ваши данные хранятся на серверах 1Password за [ежемесячную плату](https://1password.com/ru/sign-up/). 1Password регулярно проходит [независимые проверки на безопасность](https://support.1password.com/security-assessments/) и обеспечивает прекрасную поддержку клиентов. 1Password имеет закрытый исходный код, но безопасность продукта подробно описана в их [технической документации по безопасности](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
-    
-    [:octicons-home-16: Домашняя страница](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://1password.com/ru/legal/privacy/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://support.1password.com/ru/){ .card-link title=Документация}
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
-        - [:simple-windows11: Windows](https://1password.com/downloads/windows/)
-        - [:simple-apple: macOS](https://1password.com/downloads/mac/)
-        - [:simple-linux: Linux](https://1password.com/downloads/linux/)
+![Логотип 1Password](assets/img/password-management/1password.svg){ align=right }
+
+**1Password** — это менеджер паролей с акцентом на безопасность и простоту использования, который позволяет хранить пароли, кредитные карты, лицензии на программное обеспечение и любую другую конфиденциальную информацию в надежном цифровом хранилище. Ваши данные хранятся на серверах 1Password за [ежемесячную плату](https://1password.com/ru/sign-up/). 1Password регулярно проходит [независимые проверки на безопасность](https://support.1password.com/security-assessments/) и обеспечивает прекрасную поддержку клиентов. 1Password имеет закрытый исходный код, но безопасность продукта подробно описана в их [технической документации по безопасности](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+
+[:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
+- [:simple-windows11: Windows](https://1password.com/downloads/windows/)
+- [:simple-apple: macOS](https://1password.com/downloads/mac/)
+- [:simple-linux: Linux](https://1password.com/downloads/linux/)
+
+</details>
+
+</div>
 
 Изначально **1Password** предоставлял лучший функционал именно для пользователей macOS и iOS, однако теперь функционал одинаковый на всех платформах. В нем есть множество функций, как ориентированных на семьи и менее технически подкованных людей, так и более продвинутых возможностей.
 
@@ -197,24 +210,29 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 ### Psono
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Psono](assets/img/password-management/psono.svg){ align=right }
-    
-    **Psono** - это свободный менеджер паролей с открытым исходным кодом из Германии, ориентированный на управление паролями для команд. Psono поддерживает безопасный обмен паролями, файлами, ссылками и электронной почтой. Вся секретная информация защищена мастер-паролем.
-    
-    [:octicons-home-16: Домашняя страница](https://psono.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://doc.psono.com){ .card-link title=Документация}
-    [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Исходный код" }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
-        - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
+![Логотип Psono](assets/img/password-management/psono.svg){ align=right }
+
+**Psono** - это свободный менеджер паролей с открытым исходным кодом из Германии, ориентированный на управление паролями для команд. Psono поддерживает безопасный обмен паролями, файлами, ссылками и электронной почтой. Вся секретная информация защищена мастер-паролем.
+
+[:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
+- [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
+
+</details>
+
+</div>
 
 Psono предоставляет подробную документацию по своему продукту. Веб-клиент для Psono может быть развернут самостоятельно; в качестве альтернативы вы можете приобрести полную версию Community Edition или Enterprise Edition с дополнительными возможностями.
 
@@ -222,9 +240,12 @@ Psono предоставляет подробную документацию п�
 
 **Обратите внимание, что у нас нет связей ни с одним из проектов, которые мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md)мы разработали четкий набор требований, позволяющий нам давать объективные рекомендации. Мы рекомендуем вам ознакомиться с этим списком, прежде чем выбрать программу, и провести самостоятельное исследование, чтобы убедиться, что это правильный выбор для вас.
 
-!!! example "Это новый раздел"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Мы пока работаем над установлением определенных критериев для каждого раздела нашего сайта, и они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest) и не думайте, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
+Мы пока работаем над установлением определенных критериев для каждого раздела нашего сайта, и они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest) и не думайте, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Перед тем, как рекомендовать какой-либо проект мы учитываем и обсуждаем множество факторов. Документирование этих факторов ещё не завершено.
+
+</div>
 
 #### Минимальные требования к сервисам
 
@@ -247,64 +268,79 @@ Psono предоставляет подробную документацию п�
 
 ### KeePassXC
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
-    
-    **KeePassXC** - это форк KeePassX, нативного кроссплатформенного порта KeePass Password Safe, созданный с целью расширить и улучшить его новыми возможностями и исправлениями ошибок, чтобы предоставить многофункциональный, кроссплатформенный и современный менеджер паролей с открытым исходным кодом.
-    
-    [:octicons-home-16: Домашняя страница](https://keepassxc.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
-        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
-        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+![Логотип KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
+
+**KeePassXC** - это форк KeePassX, нативного кроссплатформенного порта KeePass Password Safe, созданный с целью расширить и улучшить его новыми возможностями и исправлениями ошибок, чтобы предоставить многофункциональный, кроссплатформенный и современный менеджер паролей с открытым исходным кодом.
+
+[:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
+- [:simple-apple: macOS](https://keepassxc.org/download/#mac)
+- [:simple-linux: Linux](https://keepassxc.org/download/#linux)
+- [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+
+</details>
+
+</div>
 
 KeePassXC хранит экспортированные данные в виде [CSV](https://ru.wikipedia.org/wiki/CSV) файлов. При импортировании этого файла в другой менеджер паролей, вы можете потерять часть данных. Мы советуем вам проверять каждую запись вручную.
 
 ### KeePassDX (Android)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
-    
-    **KeePassDX** - это легкий менеджер паролей для Android, который позволяет редактировать зашифрованные данные в одном файле в формате KeePass и безопасно заполнять формы. Покупка [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) позволяет разблокировать косметический контент и нестандартные функции протокола, но, что еще важнее, поддерживает развитие проекта.
-    
-    [:octicons-home-16: Домашняя страница](https://www.keepassdx.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
-        - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
+![Логотип KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
+
+**KeePassDX** - это легкий менеджер паролей для Android, который позволяет редактировать зашифрованные данные в одном файле в формате KeePass и безопасно заполнять формы. Покупка [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) позволяет разблокировать косметический контент и нестандартные функции протокола, но, что еще важнее, поддерживает развитие проекта.
+
+[:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
+- [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
+
+</details>
+
+</div>
 
 ### Strongbox (iOS и macOS)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип Strongbox](assets/img/password-management/strongbox.svg){ align=right }
-    
-    **Strongbox** - это нативный менеджер паролей с открытым исходным кодом для iOS и macOS. Он поддерживает форматы KeePass и Password Safe, поэтому может быть использован совместно с другими менеджерами паролей, например KeePassXC, на устройствах не от Apple. Strongbox использует модель [freemium](https://strongboxsafe.com/pricing/), поэтому предлагает большинство функций бесплатно, но дополнительные [функции](https://strongboxsafe.com/comparison/) для удобства, например биометрическая аутентификация, доступны по подписке или единоразовой покупке.
-    
-    [:octicons-home-16: Домашняя страница](https://strongboxsafe.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Политика конфиденциальности" }
-    [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+![Логотип Strongbox](assets/img/password-management/strongbox.svg){ align=right }
+
+**Strongbox** - это нативный менеджер паролей с открытым исходным кодом для iOS и macOS. Он поддерживает форматы KeePass и Password Safe, поэтому может быть использован совместно с другими менеджерами паролей, например KeePassXC, на устройствах не от Apple. Strongbox использует модель [freemium](https://strongboxsafe.com/pricing/), поэтому предлагает большинство функций бесплатно, но дополнительные [функции](https://strongboxsafe.com/comparison/) для удобства, например биометрическая аутентификация, доступны по подписке или единоразовой покупке.
+
+[:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+
+</details>
+
+</div>
 
 Кроме того, предлагается и полностью оффлайн версия: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Эта версия урезана, чтобы уменьшить площадь атаки.
 
@@ -314,30 +350,38 @@ KeePassXC хранит экспортированные данные в виде
 
 #### gopass
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Логотип gopass](assets/img/password-management/gopass.svg){ align=right }
-    
-    **gopass** - это менеджер паролей для командной строки, написанный на языке Go. Он работает на всех основных операционных системах для ПК и серверов (Linux, macOS, BSD, Windows).
-    
-    [:octicons-home-16: Домашняя страница](https://www.gopass.pw){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Документация}
-    [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Исходный код" }
-    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Поддержать }
-    
-    ??? downloads "Скачать"
-    
-        - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
-        - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
-        - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
-        - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+![Логотип gopass](assets/img/password-management/gopass.svg){ align=right }
+
+**gopass** - это менеджер паролей для командной строки, написанный на языке Go. Он работает на всех основных операционных системах для ПК и серверов (Linux, macOS, BSD, Windows).
+
+[:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
+- [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
+- [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
+- [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+
+</details>
+
+</div>
 
 ### Критерии
 
 **Обратите внимание, что у нас нет связей ни с одним из проектов, которые мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md)мы разработали четкий набор требований, позволяющий нам давать объективные рекомендации. Мы рекомендуем вам ознакомиться с этим списком, прежде чем выбрать программу, и провести самостоятельное исследование, чтобы убедиться, что это правильный выбор для вас.
 
-!!! example "Это новый раздел"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Мы пока работаем над установлением определенных критериев для каждого раздела нашего сайта, и они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest) и не думайте, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+Мы пока работаем над установлением определенных критериев для каждого раздела нашего сайта, и они могут поменяться в будущем. Если у вас есть вопросы по поводу наших критериев, пожалуйста, [задавайте их на нашем форуме](https://discuss.privacyguides.net/latest) и не думайте, что мы не учли что-то при составлении наших рекомендаций, если это не указано здесь. Мы учитываем и обсуждаем много факторов, перед тем как рекомендовать какой-то проект, и документирование каждого из них ещё не завершено.
+
+</div>
 
 - Программа должна быть кроссплатформенной.

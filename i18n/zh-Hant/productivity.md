@@ -11,52 +11,67 @@ cover: productivity.webp
 
 ### Nextcloud
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
-    
-    **Nextcloud** 是一套免費開源用戶端伺服器軟體，可在您控制的私人伺服器上建立自己的檔案託管服務。
-    
-    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-        - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
-        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
 
-!!! danger "危險"
+**Nextcloud** 是一套免費開源用戶端伺服器軟體，可在您控制的私人伺服器上建立自己的檔案託管服務。
 
-    我們不建議使用 Nextcloud [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) ，因為它可能會導致資料丟失；目前它仍是高度實驗性，未達穩定品質。 因此，我們不推薦第三方Nextcloud提供商。
+[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads "下載"</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
+- [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+
+</details>
+
+</div>
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger "危險"</p>
+
+我們不建議使用 Nextcloud [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) ，因為它可能會導致資料丟失；目前它仍是高度實驗性，未達穩定品質。 因此，我們不推薦第三方Nextcloud提供商。
+
+</div>
 
 ### CryptPad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
-    
-    **CryptPad** 隱私設計可替代流行的辦公工具。 網頁服務上的所有內容都是端到端加密，也可輕鬆與其他用戶共享。
-    
-    [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
+![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
+
+**CryptPad** 隱私設計可替代流行的辦公工具。 網頁服務上的所有內容都是端到端加密，也可輕鬆與其他用戶共享。
+
+[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 ### 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "此部分是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">此部份新增</p>
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+
+</div>
 
 一般來說，我們將協作平臺定義為成熟的套件，可以合理地替代Google Drive 等協作平臺。
 
@@ -78,56 +93,69 @@ cover: productivity.webp
 
 ### LibreOffice
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
-    
-    **LibreOffice** 是一個免費且開源的辦公套件，具有廣泛的功能。
-    
-    [:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribute }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-        - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
-        - [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
-        - [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
-        - [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
+![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
+
+**LibreOffice** 是一個免費且開源的辦公套件，具有廣泛的功能。
+
+[:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentation}
+[:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
+- [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
+- [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
+- [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
+- [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
+
+</details>
+
+</div>
 
 ### OnlyOffice
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
-    
-    **OnlyOffice** 是一個基於雲的免費開源辦公套件，具有廣泛的功能，包括與Nextcloud的整合。
-    
-    [:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
-    
-    ??? downloads "下載"
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
-        - [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
+![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
+
+**OnlyOffice** 是一個基於雲的免費開源辦公套件，具有廣泛的功能，包括與Nextcloud的整合。
+
+[:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
+- [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
+- [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
+- [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
+
+</details>
+
+</div>
 
 ### 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "此部分是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">此部份新增</p>
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+
+</div>
 
 一般來說，我們將辦公套件定義為可以合理地替代 Microsoft Word 以滿足大多數需求的應用程式。
 
@@ -141,24 +169,31 @@ cover: productivity.webp
 
 ### PrivateBin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** 是一個極簡主義的開源網路剪貼板 ，伺服器對黏貼的資料一無所知。 資料在瀏覽器中使用 256位元AES 來加密/解密。 它是 ZeroBin 的改進版本。 有一個 [實例列表](https://privatebin.info/directory/)。
-    
-    [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
+
+**PrivateBin** 是一個極簡主義的開源網路剪貼板 ，伺服器對黏貼的資料一無所知。 資料在瀏覽器中使用 256位元AES 來加密/解密。 它是 ZeroBin 的改進版本。 有一個 [實例列表](https://privatebin.info/directory/)。
+
+[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
+[:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+
+</details>
+
+</div>
 
 ### 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-!!! example "此部分是新的"
+<div class="admonition example" markdown>
+<p class="admonition-title">此部份新增</p>
 
-    我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
+
+</div>
 
 #### 最低合格要求
 

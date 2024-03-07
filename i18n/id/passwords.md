@@ -1,14 +1,14 @@
 ---
-meta_title: "Pengelola Kata Sandi Terbaik untuk Melindungi Privasi dan Keamanan Anda - Privacy Guides"
+meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
 title: "Pengelola Kata Sandi"
 icon: material/form-textbox-password
-description: Pengelola kata sandi memungkinkan Anda menyimpan dan mengelola kata sandi dan kredensial lainnya dengan aman.
+description: Password managers allow you to securely store and manage passwords and other credentials.
 cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Rekomendasi Pengelola Kata Sandi
+    name: Password Manager Recommendations
     url: "./"
   - 
     "@context": http://schema.org
@@ -122,11 +122,14 @@ Pengelola kata sandi memungkinkan Anda menyimpan dan mengelola kata sandi dan kr
 
 [Pengantar Kata Sandi :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
-!!! info
+<div class="admonition info" markdown>
+<p class="admonition-title">Info</p>
 
-    Pengelola kata sandi bawaan pada perangkat lunak seperti peramban dan sistem operasi terkadang tidak sebaik perangkat lunak pengelola kata sandi khusus. Keuntungan dari pengelola kata sandi bawaan adalah integrasi yang baik dengan perangkat lunak, tetapi sering kali sangat sederhana dan tidak memiliki fitur privasi dan keamanan seperti yang dimiliki oleh penawaran mandiri.
-    
-    Sebagai contoh, pengelola kata sandi di Microsoft Edge sama sekali tidak menawarkan E2EE. Pengelola kata sandi Google memiliki [optional](https://support.google.com/accounts/answer/11350823) E2EE, dan [Apple] (https://support.apple.com/en-us/HT202303) menawarkan E2EE secara default.
+Pengelola kata sandi bawaan pada perangkat lunak seperti peramban dan sistem operasi terkadang tidak sebaik perangkat lunak pengelola kata sandi khusus. Keuntungan dari pengelola kata sandi bawaan adalah integrasi yang baik dengan perangkat lunak, tetapi sering kali sangat sederhana dan tidak memiliki fitur privasi dan keamanan seperti yang dimiliki oleh penawaran mandiri.
+
+Sebagai contoh, pengelola kata sandi di Microsoft Edge sama sekali tidak menawarkan E2EE. Pengelola kata sandi Google memiliki [optional](https://support.google.com/accounts/answer/11350823) E2EE, dan [Apple] (https://support.apple.com/en-us/HT202303) menawarkan E2EE secara default.
+
+</div>
 
 ## Aplikasi berbasis cloud
 
@@ -134,28 +137,33 @@ Pengelola kata sandi ini menyinkronkan kata sandi Anda ke server cloud untuk kem
 
 ### Bitwarden
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
-    
-    **Bitwarden** adalah sebuah pengelola kata sandi yang gratis dan bersumber terbuka. Ini bertujuan untuk memecahkan masalah manajemen kata sandi untuk individu, tim, dan organisasi bisnis. Bitwarden merupakan salah satu solusi terbaik dan teraman untuk menyimpan semua login dan kata sandi Anda sekaligus menjaganya agar tetap tersinkronisasi dengan mudah di antara semua perangkat Anda.
-    
-    [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Kode Sumber" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
-        - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
-        - [:simple-windows11: Windows](https://bitwarden.com/download)
-        - [:simple-linux: Linux](https://bitwarden.com/download)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
-        - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+![Logo Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
+
+**Bitwarden** adalah sebuah pengelola kata sandi yang gratis dan bersumber terbuka. Ini bertujuan untuk memecahkan masalah manajemen kata sandi untuk individu, tim, dan organisasi bisnis. Bitwarden merupakan salah satu solusi terbaik dan teraman untuk menyimpan semua login dan kata sandi Anda sekaligus menjaganya agar tetap tersinkronisasi dengan mudah di antara semua perangkat Anda.
+
+[:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
+- [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+- [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
+- [:simple-windows11: Windows](https://bitwarden.com/download)
+- [:simple-linux: Linux](https://bitwarden.com/download)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+
+</details>
+
+</div>
 
 Bitwarden juga memiliki fitur [Bitwarden Send](https://bitwarden.com/products/send/), yang memungkinkan Anda untuk berbagi teks dan file dengan aman dengan [ enkripsi end-to-end](https://bitwarden.com/help/send-encryption). [Kata sandi](https://bitwarden.com/help/send-privacy/#send-passwords) dapat diminta bersama dengan tautan kirim. Bitwarden Send juga memiliki fitur [penghapusan otomatis](https://bitwarden.com/help/send-lifespan).
 
@@ -171,23 +179,28 @@ Kode sisi server Bitwarden [bersumber terbuka](https://github.com/bitwarden/serv
 
 ### 1Password
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo 1Password](assets/img/password-management/1password.svg){ align=right }
-    
-    **1Password** adalah pengelola kata sandi dengan fokus yang kuat pada keamanan dan kemudahan penggunaan, yang memungkinkan Anda menyimpan kata sandi, kartu kredit, lisensi perangkat lunak, dan informasi sensitif lainnya dalam brankas digital yang aman. Brankas Anda di-host di server 1Password dengan biaya [biaya bulanan] (https://1password.com/sign-up/). 1Password sudah [teraudit](https://support.1password.com/security-assessments/) secara teratur dan menyediakan dukungan pelanggan yang bagus. 1Password memiliki sumber yang tertutup; namun, keamanan produk didokumentasikan secara menyeluruh dalam [laporan resmi keamanan] (https://1passwordstatic.com/files/security/1password-white-paper.pdf) mereka.
-    
-    [:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://support.1password.com/){ .card-link title=Dokumentasi}
-    
-    ??? unduhan
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
-        - [:simple-windows11: Windows](https://1password.com/downloads/windows/)
-        - [:simple-apple: macOS](https://1password.com/downloads/mac/)
-        - [:simple-linux: Linux](https://1password.com/downloads/linux/)
+![Logo 1Password](assets/img/password-management/1password.svg){ align=right }
+
+**1Password** adalah pengelola kata sandi dengan fokus yang kuat pada keamanan dan kemudahan penggunaan, yang memungkinkan Anda menyimpan kata sandi, kartu kredit, lisensi perangkat lunak, dan informasi sensitif lainnya dalam brankas digital yang aman. Brankas Anda di-host di server 1Password dengan biaya [biaya bulanan] (https://1password.com/sign-up/). 1Password sudah [teraudit](https://support.1password.com/security-assessments/) secara teratur dan menyediakan dukungan pelanggan yang bagus. 1Password memiliki sumber yang tertutup; namun, keamanan produk didokumentasikan secara menyeluruh dalam [laporan resmi keamanan] (https://1passwordstatic.com/files/security/1password-white-paper.pdf) mereka.
+
+[:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
+- [:simple-windows11: Windows](https://1password.com/downloads/windows/)
+- [:simple-apple: macOS](https://1password.com/downloads/mac/)
+- [:simple-linux: Linux](https://1password.com/downloads/linux/)
+
+</details>
+
+</div>
 
 Secara tradisional, **1Password** telah menawarkan pengalaman pengguna pengelola kata sandi terbaik untuk orang-orang yang menggunakan macOS dan iOS; namun, kini telah mencapai kesamaan fitur di semua platform. Aplikasi ini memiliki banyak fitur yang ditujukan untuk keluarga dan orang yang kurang teknis, serta fungsionalitas yang canggih.
 
@@ -197,24 +210,29 @@ Satu keunggulan yang dimiliki 1Password dibandingkan Bitwarden adalah dukungan k
 
 ### Psono
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo Psono](assets/img/password-management/psono.svg){ align=right }
-    
-    **Psono** adalah pengelola kata sandi gratis dan bersumber terbuka dari Jerman, dengan fokus pada pengelolaan kata sandi untuk tim. Psono mendukung berbagi kata sandi, file, penanda, dan email dengan aman. Semua rahasia dilindungi oleh kata sandi utama.
-    
-    [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://doc.psono.com){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Kode Sumber" }
-    
-    ??? unduhan
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-        - [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
-        - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
+![Logo Psono](assets/img/password-management/psono.svg){ align=right }
+
+**Psono** adalah pengelola kata sandi gratis dan bersumber terbuka dari Jerman, dengan fokus pada pengelolaan kata sandi untuk tim. Psono mendukung berbagi kata sandi, file, penanda, dan email dengan aman. Semua rahasia dilindungi oleh kata sandi utama.
+
+[:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
+- [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
+
+</details>
+
+</div>
 
 Psono menyediakan dokumentasi ekstensif untuk produk mereka. Klien web untuk Psono bisa di-host sendiri; sebagai alternatif, Anda bisa memilih Edisi Komunitas lengkap atau Edisi Enterprise dengan fitur tambahan.
 
@@ -222,9 +240,12 @@ Psono menyediakan dokumentasi ekstensif untuk produk mereka. Klien web untuk Pso
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! contoh "Bagian ini baru"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+
+</div>
 
 #### Persyaratan Minimum
 
@@ -247,64 +268,79 @@ Opsi ini memungkinkan Anda untuk mengelola basis data kata sandi terenkripsi sec
 
 ### KeePassXC
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo KeePassXC](assets/img/pengelolaan kata sandi/keepassxc.svg){ align=right }
-    
-    **KeePassXC** adalah sebuah fork komunitas dari KeePassX, sebuah port lintas platform asli dari KeePass Password Safe, dengan tujuan untuk memperluas dan memperbaikinya dengan fitur-fitur baru dan perbaikan bug untuk menyediakan sebuah pengelola kata sandi yang kaya akan fitur, lintas platform, dan modern bersumber terbuka.
-    
-    [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Kontribusi }
-    
-    ??? unduhan
-    
-        - [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
-        - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
-        - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-        - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-        - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-        - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+![Logo KeePassXC](assets/img/pengelolaan kata sandi/keepassxc.svg){ align=right }
+
+**KeePassXC** adalah sebuah fork komunitas dari KeePassX, sebuah port lintas platform asli dari KeePass Password Safe, dengan tujuan untuk memperluas dan memperbaikinya dengan fitur-fitur baru dan perbaikan bug untuk menyediakan sebuah pengelola kata sandi yang kaya akan fitur, lintas platform, dan modern bersumber terbuka.
+
+[:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://keepassxc.org/download/#windows)
+- [:simple-apple: macOS](https://keepassxc.org/download/#mac)
+- [:simple-linux: Linux](https://keepassxc.org/download/#linux)
+- [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+
+</details>
+
+</div>
 
 KeePassXC menyimpan data ekspornya sebagai file [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Hal ini dapat menyebabkan hilangnya data jika Anda mengimpor file ini ke pengelola kata sandi lain. Kami menyarankan Anda memeriksa setiap catatan secara manual.
 
 ### KeePassDX (Android)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo KeePassDX](assets/img/pengelolaan kata sandi/keepassdx.svg){ align=right }
-    
-    **KeePassDX** adalah pengelola kata sandi yang ringan untuk Android, memungkinkan pengeditan data terenkripsi dalam satu file dalam format KeePass dan dapat mengisi formulir dengan cara yang aman. [Contributor Pro] (https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) memungkinkan untuk membuka konten kosmetik dan fitur protokol non-standar, tetapi yang lebih penting lagi, ini membantu dan mendorong pengembangan.
-    
-    [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Kontribusi }
-    
-    ??? unduhan
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
-        - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
+![Logo KeePassDX](assets/img/pengelolaan kata sandi/keepassdx.svg){ align=right }
+
+**KeePassDX** adalah pengelola kata sandi yang ringan untuk Android, memungkinkan pengeditan data terenkripsi dalam satu file dalam format KeePass dan dapat mengisi formulir dengan cara yang aman. [Contributor Pro] (https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) memungkinkan untuk membuka konten kosmetik dan fitur protokol non-standar, tetapi yang lebih penting lagi, ini membantu dan mendorong pengembangan.
+
+[:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
+- [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
+
+</details>
+
+</div>
 
 ### Strongbox (iOS & macOS)
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Logo Strongbox](assets/img/password-management/strongbox.svg){ align=right }
-    
-    **Strongbox** adalah pengelola kata sandi sumber terbuka untuk iOS dan macOS. Mendukung format KeePass dan Password Safe, Strongbox bisa digunakan bersamaan dengan pengelola kata sandi lainnya, seperti KeePassXC, pada platform non-Apple. Dengan menggunakan [model freemium] (https://strongboxsafe.com/pricing/), Strongbox menawarkan sebagian besar fitur di bawah tingkat gratisnya dengan lebih berorientasi pada kenyamanan [features](https://strongboxsafe.com/comparison/) - seperti otentikasi biometrik - yang terkunci di balik langganan atau lisensi abadi.
-    
-    [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Kebijakan Privasi" }
-    [:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Kontribusi }
-    
-    ??? unduhan
-    
-        - [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+![Logo Strongbox](assets/img/password-management/strongbox.svg){ align=right }
+
+**Strongbox** adalah pengelola kata sandi sumber terbuka untuk iOS dan macOS. Mendukung format KeePass dan Password Safe, Strongbox bisa digunakan bersamaan dengan pengelola kata sandi lainnya, seperti KeePassXC, pada platform non-Apple. Dengan menggunakan [model freemium] (https://strongboxsafe.com/pricing/), Strongbox menawarkan sebagian besar fitur di bawah tingkat gratisnya dengan lebih berorientasi pada kenyamanan [features](https://strongboxsafe.com/comparison/) - seperti otentikasi biometrik - yang terkunci di balik langganan atau lisensi abadi.
+
+[:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+
+</details>
+
+</div>
 
 Selain itu, ada versi khusus offline yang ditawarkan: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Versi ini sudah diminimalkan dalam upaya untuk mengurangi permukaan serangan.
 
@@ -314,30 +350,38 @@ Produk-produk ini adalah pengelola kata sandi minimal yang dapat digunakan dalam
 
 #### gopass
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![logo gopass](assets/img/password-management/gopass.svg){ align=right }
-    
-    **gopass** adalah pengelola kata sandi untuk baris perintah yang ditulis dalam Go. Aplikasi ini bekerja pada semua sistem operasi desktop dan server utama (Linux, macOS, BSD, Windows).
-    
-    [:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
-    [:octicons-info-16:](https://github.com/gopasspw/gopass/wiki){ .card-link title=Dokumentasi}
-    [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Kode Sumber" }
-    [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Kontribusi }
-    
-    ??? downloads
-    
-        - [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
-        - [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
-        - [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
-        - [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+![logo gopass](assets/img/password-management/gopass.svg){ align=right }
+
+**gopass** adalah pengelola kata sandi untuk baris perintah yang ditulis dalam Go. Aplikasi ini bekerja pada semua sistem operasi desktop dan server utama (Linux, macOS, BSD, Windows).
+
+[:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
+- [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
+- [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
+- [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+
+</details>
+
+</div>
 
 ### Kriteria
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! contoh "Bagian ini baru"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+
+</div>
 
 - Harus lintas platform.

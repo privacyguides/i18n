@@ -11,52 +11,67 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 ### Nextcloud
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
-    
-    **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
-    
-    [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-        - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-        - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
-        - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-        - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+![Nextcloud logo](assets/img/productivity/nextcloud.svg){ align=right }
 
-!!! danger
+**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
-    We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
+[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
+- [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
+- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
+
+</details>
+
+</div>
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
+
+We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
+
+</div>
 
 ### CryptPad
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
-    
-    **CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
-    
-    [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
+![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
+
+**CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
+
+[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
+
+</details>
+
+</div>
 
 ### Kriteria
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! contoh "Bagian ini baru"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+
+</div>
 
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
 
@@ -78,56 +93,69 @@ Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang 
 
 ### LibreOffice
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
-    
-    **LibreOffice** is a free and open-source office suite with extensive functionality.
-    
-    [:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentation}
-    [:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
-    [:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribute }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-        - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
-        - [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
-        - [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
-        - [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
+![LibreOffice logo](assets/img/productivity/libreoffice.svg){ align=right }
+
+**LibreOffice** is a free and open-source office suite with extensive functionality.
+
+[:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentation}
+[:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribute }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
+- [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
+- [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
+- [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
+- [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
+
+</details>
+
+</div>
 
 ### OnlyOffice
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
-    
-    **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
-    
-    [:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
-    [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
-    [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
-    
-    ??? downloads
-    
-        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-        - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
-        - [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
-        - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
+![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ align=right }
+
+**OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
+
+[:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
+- [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
+- [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
+- [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
+
+</details>
+
+</div>
 
 ### Kriteria
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! contoh "Bagian ini baru"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+
+</div>
 
 In general, we define office suites as applications which could reasonably act as a replacement for Microsoft Word for most needs.
 
@@ -141,24 +169,31 @@ In general, we define office suites as applications which could reasonably act a
 
 ### PrivateBin
 
-!!! recommendation
+<div class="admonition recommendation" markdown>
 
-    ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-    
-    **PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. There is a [list of instances](https://privatebin.info/directory/).
-    
-    [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-    [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
-    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
+
+**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin. There is a [list of instances](https://privatebin.info/directory/).
+
+[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
+[:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+
+</details>
+
+</div>
 
 ### Kriteria
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
 
-!!! contoh "Bagian ini baru"
+<div class="admonition example" markdown>
+<p class="admonition-title">This section is new</p>
 
-    Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan mengenai kriteria kami, silakan [tanyakan di forum](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan sebuah pekerjaan yang sedang berjalan.
+
+</div>
 
 #### Persyaratan Minimum
 
