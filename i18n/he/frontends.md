@@ -9,7 +9,7 @@ cover: frontends.webp
 
 אם תבחר לארח בעצמך את החזיתות האלה, חשוב שאנשים אחרים ישתמשו גם במופע שלך כדי שתוכל להשתלב. אתה צריך להיות זהיר עם היכן וכיצד אתה מארח, מכיוון שהשימוש של אנשים אחרים יהיה מקושר לאירוח שלך.
 
-כאשר אתה משתמש במופע המופעל על ידי מישהו אחר, הקפד לקרוא את מדיניות הפרטיות של אותו מופע ספציפי. הם יכולים להשתנות על ידי בעליהם ולכן עשויים שלא לשקף את מדיניות ברירת המחדל. במקרים מסוימים יש כתובות .onion Tor אשר עשוי להעניק קצת פרטיות כל עוד שאילתות החיפוש שלך אינן מכילות PII.
+כאשר אתה משתמש במופע המופעל על ידי מישהו אחר, הקפד לקרוא את מדיניות הפרטיות של אותו מופע ספציפי. הם יכולים להשתנות על ידי בעליהם ולכן עשויים שלא לשקף את מדיניות ברירת המחדל. Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ## TikTok
 
@@ -21,7 +21,7 @@ cover: frontends.webp
 
 **ProxiTok** הוא חזית קוד פתוח לאתר [TikTok](https://www.tiktok.com) שהוא גם מארח עצמי.
 
-ישנם מספר מופעים ציבוריים, כאשר בחלק מהמקרים יש תמיכה בשירותי בצל [Tor](https://www.torproject.org).
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-repo-16: מאגר](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="מופעים ציבוריים"}
@@ -35,7 +35,7 @@ cover: frontends.webp
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-ProxiTok שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser](https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר.
+ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
 
 </div>
 
@@ -56,7 +56,7 @@ ProxiTok שימושי אם ברצונך להשבית את JavaScript בדפדפ�
 [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
-    
+
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
@@ -72,7 +72,7 @@ ProxiTok שימושי אם ברצונך להשבית את JavaScript בדפדפ�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-בעת השימוש ב-FreeTube, ייתכן שכתובת ה-IP שלך עדיין ידועה ליוטיוב, [Invidious](https://instances.invidious.io) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+בעת השימוש ב-FreeTube, ייתכן שכתובת ה-IP שלך עדיין ידועה ליוטיוב, [Invidious](https://instances.invidious.io) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -105,7 +105,7 @@ ProxiTok שימושי אם ברצונך להשבית את JavaScript בדפדפ�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-בעת השימוש ב- Yattee, כתובת ה- IP שלך עשויה עדיין להיות ידועה ליוטיוב, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+בעת השימוש ב- Yattee, כתובת ה- IP שלך עשויה עדיין להיות ידועה ליוטיוב, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) או [SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -139,7 +139,7 @@ LibreTube מאפשר לך לאחסן את רשימת המנויים והפליי
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-בעת שימוש ב-LibreTube, כתובת ה-IP שלך תהיה גלויה למופע [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) שתבחר ו/או ל-[SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+בעת שימוש ב-LibreTube, כתובת ה-IP שלך תהיה גלויה למופע [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) שתבחר ו/או ל-[SponsorBlock](https://sponsor.ajay.app/) בהתאם לתצורה שלך. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -175,7 +175,7 @@ LibreTube מאפשר לך לאחסן את רשימת המנויים והפליי
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-בעת שימוש ב-NewPipe, כתובת ה-IP שלך תהיה גלויה לספקי הווידאו שבהם נעשה שימוש. שקול להשתמש ב-[VPN](vpn.md) או [Tor](https://www.torproject.org) אם [מודל האיום](basics/threat-modeling.md) שלך דורש הסתרת כתובת ה-IP שלך.
+בעת שימוש ב-NewPipe, כתובת ה-IP שלך תהיה גלויה לספקי הווידאו שבהם נעשה שימוש. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -188,7 +188,7 @@ LibreTube מאפשר לך לאחסן את רשימת המנויים והפליי
 
 **Invidious** הוא ממשק קצה חינמי וקוד פתוח עבור [YouTube](https://youtube.com) שמתארח גם בעצמו.
 
-ישנם מספר מופעים ציבוריים, כאשר בחלק מהמקרים יש תמיכה בשירותי בצל [Tor](https://www.torproject.org).
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-home-16: דף הבית](https://invidious.io){ .md-button .md-button--primary }
 [:octicons-server-16:](https://instances.invidious.io){ .card-link title="מופעים ציבוריים"}
@@ -210,7 +210,7 @@ LibreTube מאפשר לך לאחסן את רשימת המנויים והפליי
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Invidious שימושי אם ברצונך להשבית את JavaScript בדפדפן שלך, כגון [Tor Browser]( https://www.torproject.org/) ברמת האבטחה הבטוחה ביותר. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
+Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
 
 </div>
 

@@ -173,7 +173,7 @@ Azon dolgozunk, hogy meghatározott követelményeket állapítsunk meg az oldal
 
 ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
 
-**A **PrivateBin** egy minimalista, nyílt forráskódú online pastebin, ahol a szerver nem ismeri a pastelt adatokat. Az adatok titkosítása/dekódolása a böngészőben történik 256 bites AES használatával. Ez a ZeroBin továbbfejlesztett változata. Van egy [lista a példányokról](https://privatebin.info/directory/).
+**A **PrivateBin** egy minimalista, nyílt forráskódú online pastebin, ahol a szerver nem ismeri a pastelt adatokat. Az adatok titkosítása/dekódolása a böngészőben történik 256 bites AES használatával. Ez a ZeroBin továbbfejlesztett változata.
 
 [:octicons-home-16: Honlap](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Publikus Példányok"}

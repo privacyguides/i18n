@@ -9,7 +9,7 @@ A veces, los servicios intentarán obligarle a registrarse mediante el bloqueo a
 
 Si decides autoalojar, es importante que otras personas utilicen también tu instancia para que puedas pasar desapercibido. Debes tener cuidado con dónde y cómo alojas, ya que el uso de otras personas estará vinculado a tu alojamiento.
 
-Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la política de privacidad de esa instancia en específico. Pueden ser modificados por sus propietarios y, por lo tanto, pueden no reflejar la política por defecto. Algunas instancias tienen direcciones Tor .onion que pueden otorgar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII (Información Personal Identificable).
+Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la política de privacidad de esa instancia en específico. Pueden ser modificados por sus propietarios y, por lo tanto, pueden no reflejar la política por defecto. Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ## TikTok
 
@@ -21,7 +21,7 @@ Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la
 
 *ProxiTok** es una interfaz gratuita y de código abierto para el sitio web [TikTok](https://www.tiktok.com) que también es autoalojable.
 
-Existen varias instancias públicas, algunas de las cuales disponen de soporte para servicios onion [Tor](https://www.torproject.org).
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-repo-16: Repositorio](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Instancias Públicas"}
@@ -35,7 +35,7 @@ Existen varias instancias públicas, algunas de las cuales disponen de soporte p
 <div class="admonition tip" markdown>
 <p class="admonition-title">Consejo</p>
 
-PorxiTok es útil si quiere desactivar JavaScript en su navegador como en el navegador [Tor](https://www.torproject.org/) en la configuración de seguridad Más Segura.
+ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
 
 </div>
 
@@ -56,7 +56,7 @@ Por defecto, FreeTube bloquea todos los anuncios de YouTube. Además, FreeTube s
 [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
-    
+
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
@@ -72,7 +72,7 @@ Por defecto, FreeTube bloquea todos los anuncios de YouTube. Además, FreeTube s
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Al utilizar FreeTube, su dirección IP puede seguir siendo conocida por YouTube, [Invidious](https://instances.invidious.io), o [SponsorBlock](https://sponsor.ajay.app/) dependiendo de su configuración. Considere la posibilidad de utilizar una [VPN](vpn.md) o [Tor](https://www.torproject.org) si su [modelo de amenaza](basics/threat-modeling.md) requiere ocultar su dirección IP.
+Al utilizar FreeTube, su dirección IP puede seguir siendo conocida por YouTube, [Invidious](https://instances.invidious.io), o [SponsorBlock](https://sponsor.ajay.app/) dependiendo de su configuración. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -105,7 +105,7 @@ Necesitará realizar algunos [pasos adicionales](https://gonzoknows.com/posts/Ya
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Al utilizar Yattee, su dirección IP puede seguir siendo conocida por YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances/) o [SponsorBlock](https://sponsor.ajay.app/) dependiendo de su configuración. Considere la posibilidad de utilizar una [VPN](vpn.md) o [Tor](https://www.torproject.org) si su [modelo de amenaza](basics/threat-modeling.md) requiere ocultar su dirección IP.
+Al utilizar Yattee, su dirección IP puede seguir siendo conocida por YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances/) o [SponsorBlock](https://sponsor.ajay.app/) dependiendo de su configuración. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -139,7 +139,7 @@ LibreTube le permite almacenar su lista de suscripciones y listas de reproducci�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Al usar LibreTube, su dirección IP será visible para la instancia [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) que elija y/o [SponsorBlock](https://sponsor.ajay.app/) dependiendo de su configuración. Considere la posibilidad de utilizar una [VPN](vpn.md) o [Tor](https://www.torproject.org) si su [modelo de amenaza](basics/threat-modeling.md) requiere ocultar su dirección IP.
+Al usar LibreTube, su dirección IP será visible para la instancia [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) que elija y/o [SponsorBlock](https://sponsor.ajay.app/) dependiendo de su configuración. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -175,7 +175,7 @@ Su lista de suscripciones y sus listas de reproducción se guardan localmente en
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Al utilizar NewPipe, su dirección IP será visible para los proveedores de vídeo utilizados. Considere la posibilidad de utilizar una [VPN](vpn.md) o [Tor](https://www.torproject.org) si su [modelo de amenaza](basics/threat-modeling.md) requiere ocultar su dirección IP.
+Al utilizar NewPipe, su dirección IP será visible para los proveedores de vídeo utilizados. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -188,7 +188,7 @@ Al utilizar NewPipe, su dirección IP será visible para los proveedores de víd
 
 **Invidious** es una interfaz gratuita y de código abierto para [YouTube](https://youtube.com) que además es autoalojable.
 
-Existen varias instancias públicas, algunas de las cuales disponen de soporte para servicios onion [Tor](https://www.torproject.org).
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-home-16: Página Principal](https://invidious.io){ .md-button .md-button--primary }
 [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Instancias Públicas"}
@@ -210,7 +210,7 @@ Invidious no proporciona un proxy para los vídeos por defecto. Videos watched t
 <div class="admonition tip" markdown>
 <p class="admonition-title">Consejo</p>
 
-Invidious es útil si quiere desactivar JavaScript en su navegador como en el navegador [Tor](https://www.torproject.org/) en la configuración de seguridad Msás Segura. No proporciona privacidad por sí mismo y no se recomienda entrar con ninguna cuenta.
+Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level. No proporciona privacidad por sí mismo y no se recomienda entrar con ninguna cuenta.
 
 </div>
 

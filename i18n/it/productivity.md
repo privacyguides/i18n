@@ -173,7 +173,7 @@ In generale, definiamo suite da ufficio le applicazioni che potrebbero ragionevo
 
 ![Logo di PrivateBin](assets/img/productivity/privatebin.svg){ align=right }
 
-**PrivateBin** è un pastebin online minimalista e open source, il cui server ha zero conoscenze sui dati incollati. I dati sono crittografati/decrittografati nel browser utilizzando AES a 256 bit. È la versione migliorata di ZeroBin. Esiste un [elenco di istanze](https://privatebin.info/directory/).
+**PrivateBin** è un pastebin online minimalista e open source, il cui server ha zero conoscenze sui dati incollati. I dati sono crittografati/decrittografati nel browser utilizzando AES a 256 bit. È la versione migliorata di ZeroBin.
 
 [:octicons-home-16: Home](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Istanze Pubbliche"}

@@ -173,7 +173,7 @@ cover: productivity.webp
 
 ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
 
-**PrivateBin** 是一個極簡主義的開源網路剪貼板 ，伺服器對黏貼的資料一無所知。 資料在瀏覽器中使用 256位元AES 來加密/解密。 它是 ZeroBin 的改進版本。 有一個 [實例列表](https://privatebin.info/directory/)。
+**PrivateBin** 是一個極簡主義的開源網路剪貼板 ，伺服器對黏貼的資料一無所知。 資料在瀏覽器中使用 256位元AES 來加密/解密。 它是 ZeroBin 的改進版本。
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}

@@ -9,7 +9,7 @@ cover: frontends.webp
 
 Если вы решите самостоятельно хостить эти фронтенды, важно, чтобы вашим экземпляром пользовались и другие люди, чтобы вашу активность нельзя было отследить. Вы должны быть осторожны с тем, где и как вы размещаете хостинг, поскольку активность других людей будет связана с вашим хостингом.
 
-Если вы используете чей-то экземпляр, обязательно ознакомьтесь с политикой конфиденциальности этого конкретного экземпляра. Они могут быть изменены их владельцами и поэтому могут не отражать политику по умолчанию. Некоторые экземпляры имеют адреса .onion, которые могут обеспечить некоторую конфиденциальность, если ваши поисковые запросы не содержат ПД.
+Если вы используете чей-то экземпляр, обязательно ознакомьтесь с политикой конфиденциальности этого конкретного экземпляра. Они могут быть изменены их владельцами и поэтому могут не отражать политику по умолчанию. Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ## TikTok
 
@@ -21,7 +21,7 @@ cover: frontends.webp
 
 **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
 
-Существует ряд публичных экземпляров, причем некоторые экземпляры имеют поддержку [Tor](https://www.torproject.org).
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-repo-16: Репозиторий](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Публичный экземпляр"}
@@ -35,7 +35,7 @@ cover: frontends.webp
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-ProxiTok полезен, если вы хотите отключить JavaScript в своем браузере, как в случае с [Tor Browser](https://www.torproject.org/) с выбранным "высшим" уровне безопасности.
+ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
 
 </div>
 
@@ -56,7 +56,7 @@ ProxiTok полезен, если вы хотите отключить JavaScrip
 [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
-    
+
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
@@ -72,7 +72,7 @@ ProxiTok полезен, если вы хотите отключить JavaScrip
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-При использовании FreeTube ваш IP-адрес все равно может быть известен YouTube, [Invidious](https://instances.invidious.io) или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Используйте [VPN](/vpn) или [Tor](https://www.torproject.org), если ваша [модель угроз](/threat-modeling) требует скрытия вашего IP-адреса.
+При использовании FreeTube ваш IP-адрес все равно может быть известен YouTube, [Invidious](https://instances.invidious.io) или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -105,7 +105,7 @@ ProxiTok полезен, если вы хотите отключить JavaScrip
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-При использовании Yattee ваш IP-адрес все еще может быть известен YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Используйте [VPN](/vpn) или [Tor](https://www.torproject.org), если ваша [модель угроз](/threat-modeling) требует скрытия вашего IP-адреса.
+При использовании Yattee ваш IP-адрес все еще может быть известен YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -139,7 +139,7 @@ LibreTube позволяет хранить список подписок и п�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-При использовании LibreTube ваш IP-адрес будет виден выбранному вами экземпляру [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) и/или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Используйте [VPN](/vpn) или [Tor](https://www.torproject.org), если ваша [модель угроз](/threat-modeling) требует скрытия вашего IP-адреса.
+При использовании LibreTube ваш IP-адрес будет виден выбранному вами экземпляру [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) и/или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -175,7 +175,7 @@ LibreTube позволяет хранить список подписок и п�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-При использовании NewPipe ваш IP-адрес будет виден используемым видеопровайдерам. Используйте [VPN](/vpn) или [Tor](https://www.torproject.org), если ваша [модель угроз](/threat-modeling) требует скрытия вашего IP-адреса.
+При использовании NewPipe ваш IP-адрес будет виден используемым видеопровайдерам. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -188,7 +188,7 @@ LibreTube позволяет хранить список подписок и п�
 
 **Invidious** - это бесплатный фронтенд с открытым исходным кодом для [YouTube](https://youtube.com), который можно самостоятельно хостить.
 
-Существует ряд публичных экземпляров, причем некоторые экземпляры имеют поддержку [Tor](https://www.torproject.org).
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-home-16: Домашняя страница](https://invidious.io){ .md-button .md-button--primary }
 [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Публичный экземпляр"}
@@ -210,7 +210,7 @@ LibreTube позволяет хранить список подписок и п�
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Invidious полезен, если вы хотите отключить JavaScript в вашем браузере, например [Tor Browser](https://www.torproject.org/) с выбранным "высшим" уровне безопасности. Сам по себе он не обеспечивает конфиденциальности, и мы не рекомендуем входить в какие-либо учетные записи.
+Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level. Сам по себе он не обеспечивает конфиденциальности, и мы не рекомендуем входить в какие-либо учетные записи.
 
 </div>
 

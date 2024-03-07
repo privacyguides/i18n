@@ -9,7 +9,7 @@ cover: frontends.webp
 
 如您選擇自行託管這些前端，要緊的是讓別人可以使用您的實例，才能讓您融入其中。 對於在何處與如何託管實例，您該謹慎處之，尤其當有其它人的使用會連結到您的託管。
 
-當您使用其它人的實例，請確認有細讀此實例的隱私政策。 它們可以任擁有者修改因此不必然反映原本預設的政策。 有些實例有Tor .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
+當您使用其它人的實例，請確認有細讀此實例的隱私政策。 它們可以任擁有者修改因此不必然反映原本預設的政策。 Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ## TikTok
 
@@ -21,7 +21,7 @@ cover: frontends.webp
 
 **ProxiTok** 是 [TikTok](https://www.tiktok.com)網站的開源前端，也可自主託管。
 
-有許多公共實例，其中一些實例支援 [Tor](https://www.torproject.org) onion 服務。
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances"}
@@ -35,7 +35,7 @@ cover: frontends.webp
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-如果想在瀏覽器中禁用 JavaScript ，例如 [Tor瀏覽器](https://www.torproject.org/) 最安全級別， ProxiTok 非常有用。
+ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
 
 </div>
 
@@ -56,7 +56,7 @@ cover: frontends.webp
 [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
-    
+
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
@@ -72,7 +72,7 @@ cover: frontends.webp
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-使用 FreeTube 時，IP 位址可能會被 YouTube、[Invidious](https://instances.invidious.io)或 [SponsorBlock](https://sponsor.ajay.app/) 所知，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md) 或 [Tor](https://www.torproject.org)。
+使用 FreeTube 時，IP 位址可能會被 YouTube、[Invidious](https://instances.invidious.io)或 [SponsorBlock](https://sponsor.ajay.app/) 所知，具體取決於您的設定。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -105,7 +105,7 @@ cover: frontends.webp
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-使用 Yattee 時，IP位址可能仍會被 YouTube、 [Invidious](https://instances.invidious.io)、 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)或 [SponsorBlock](https://sponsor.ajay.app/)所知曉，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md)需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](https://www.torproject.org)。
+使用 Yattee 時，IP位址可能仍會被 YouTube、 [Invidious](https://instances.invidious.io)、 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)或 [SponsorBlock](https://sponsor.ajay.app/)所知曉，具體取決於您的設定。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -139,7 +139,7 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-使用 LibreTube 時，IP 位址會為所用的 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)實例和 [SponsorBlock](https://sponsor.ajay.app/)看見，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](https://www.torproject.org)。
+使用 LibreTube 時，IP 位址會為所用的 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)實例和 [SponsorBlock](https://sponsor.ajay.app/)看見，具體取決於您的設定。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -175,7 +175,7 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-使用NewPipe時，IP 位址會被所使用的影片供應商看見。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](https://www.torproject.org)。
+使用NewPipe時，IP 位址會被所使用的影片供應商看見。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -188,7 +188,7 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 
 **Invidious** 是 [YouTube](https://youtube.com)的免費開源前端，也可自行託管。
 
-有許多公共實例，其中一些實例支援 [Tor](https://www.torproject.org) onion 服務。
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
 [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
@@ -210,7 +210,7 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-如果您想在瀏覽器中停用JavaScript ，例如 [Tor瀏覽器](https://www.torproject.org/)最安全級別，Invidious 非常有用。 它本身不提供隱私，故不建議登入任何帳戶。
+Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level. 它本身不提供隱私，故不建議登入任何帳戶。
 
 </div>
 

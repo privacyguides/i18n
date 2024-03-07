@@ -173,7 +173,7 @@ En general, definimos las paquetes ofimáticos como aplicaciones que podrían su
 
 ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
 
-**PrivateBin** es un pastebin en línea minimalista y de código abierto en el que el servidor no tiene ningún conocimiento de los datos pegados. Los datos se cifran/descifran en el navegador utilizando AES de 256 bits. Es la versión mejorada de ZeroBin. Hay una [lista de instancias](https://privatebin.info/directory/).
+**PrivateBin** es un pastebin en línea minimalista y de código abierto en el que el servidor no tiene ningún conocimiento de los datos pegados. Los datos se cifran/descifran en el navegador utilizando AES de 256 bits. Es la versión mejorada de ZeroBin.
 
 [:octicons-home-16: Página Principal](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Instancias Públicas"}

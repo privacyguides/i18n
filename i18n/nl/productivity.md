@@ -173,7 +173,7 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
 
 ![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
 
-**PrivateBin** is een minimalistische, open-source online pastebin waar de server geen kennis heeft van geplakte data. Gegevens worden in de browser versleuteld/ontsleuteld met 256-bit AES. Het is de verbeterde versie van ZeroBin. Er is een [lijst van instanties](https://privatebin.info/directory/).
+**PrivateBin** is een minimalistische, open-source online pastebin waar de server geen kennis heeft van geplakte data. Gegevens worden in de browser versleuteld/ontsleuteld met 256-bit AES. Het is de verbeterde versie van ZeroBin.
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}

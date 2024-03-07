@@ -173,7 +173,7 @@ cover: productivity.webp
 
 ![Логотип PrivateBin](assets/img/productivity/privatebin.svg){ align=right }
 
-**PrivateBin** - это минималистичный онлайновый сервис размещения текста с открытым исходным кодом, где сервер не знает о вставляемых данных. Данные шифруются/дешифруются в браузере с помощью 256-битного AES. Это улучшенная версия ZeroBin. Существует [список экземпляров](https://privatebin.info/directory/).
+**PrivateBin** - это минималистичный онлайновый сервис размещения текста с открытым исходным кодом, где сервер не знает о вставляемых данных. Данные шифруются/дешифруются в браузере с помощью 256-битного AES. Это улучшенная версия ZeroBin.
 
 [:octicons-home-16: Домашняя страница](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Публичный экземпляр"}

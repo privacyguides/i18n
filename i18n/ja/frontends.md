@@ -9,7 +9,7 @@ Sometimes services will try to force you to sign up for an account by blocking a
 
 If you choose to self-host these frontends, it is important that you have other people using your instance as well in order for you to blend in. You should be careful with where and how you are hosting, as other peoples' usage will be linked to your hosting.
 
-When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Some instances have Tor .onion addresses which may grant some privacy as long as your search queries don't contain PII.
+When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance. They can be modified by their owners and therefore may not reflect the default policy. Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
 ## TikTok
 
@@ -21,7 +21,7 @@ When you are using an instance run by someone else, make sure to read the privac
 
 **ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
 
-多くの公開インスタンスがあり、いくつかのインスタンスは [Tor](https://www.torproject.org)のオニオン・サービスをサポートしています。
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances"}
@@ -35,7 +35,7 @@ When you are using an instance run by someone else, make sure to read the privac
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level.
+ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
 
 </div>
 
@@ -56,7 +56,7 @@ By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube op
 [:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
-    
+
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
@@ -72,7 +72,7 @@ By default, FreeTube blocks all YouTube advertisements. In addition, FreeTube op
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -105,7 +105,7 @@ You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee/) 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Yatteeを使用している場合、あなたのIPアドレスは、設定に応じて、YouTube、[Invidious](https://instances.invidio)、[Piped](https://github.com/TeamPiped/Piped/wiki/Instances)または[SponsorBlock](https://spon.ajay.app/)に通知されます。 Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+Yatteeを使用している場合、あなたのIPアドレスは、設定に応じて、YouTube、[Invidious](https://instances.invidio)、[Piped](https://github.com/TeamPiped/Piped/wiki/Instances)または[SponsorBlock](https://spon.ajay.app/)に通知されます。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -139,7 +139,7 @@ LibreTube allows you to store your subscription list and playlists locally on yo
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app/) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -175,7 +175,7 @@ By default, LibreTube blocks all YouTube advertisements. Additionally, Libretube
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-NewPipeを使用すると、使用している動画プロバイダーにあなたのIPアドレスが表示されます。 Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+NewPipeを使用すると、使用している動画プロバイダーにあなたのIPアドレスが表示されます。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -188,7 +188,7 @@ NewPipeを使用すると、使用している動画プロバイダーにあな�
 
 **Invidious** is a free and open-source frontend for [YouTube](https://youtube.com) that is also self-hostable.
 
-多くの公開インスタンスがあり、いくつかのインスタンスは [Tor](https://www.torproject.org)のオニオン・サービスをサポートしています。
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
 [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
@@ -210,7 +210,7 @@ Invidious does not proxy video streams by default. Videos watched through Invidi
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](https://www.torproject.org/) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
+Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level. It does not provide privacy by itself, and we don’t recommend logging into any accounts.
 
 </div>
 

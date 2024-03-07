@@ -173,7 +173,7 @@ Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준�
 
 ![PrivateBin 로고](assets/img/productivity/privatebin.svg){ align=right }
 
-**PrivateBin**은 서버에 어떠한 정보도 공유되지 않는 미니멀한 오픈 소스 온라인 텍스트 공유 서비스입니다. 데이터는 브라우저에서 AES-256으로 암호화/복호화됩니다. ZeroBin을 개선한 버전의 서비스이기도 합니다. 인스턴스 목록은 [여기에서](https://privatebin.info/directory/) 확인할 수 있습니다.
+**PrivateBin**은 서버에 어떠한 정보도 공유되지 않는 미니멀한 오픈 소스 온라인 텍스트 공유 서비스입니다. 데이터는 브라우저에서 AES-256으로 암호화/복호화됩니다. ZeroBin을 개선한 버전의 서비스이기도 합니다.
 
 [:octicons-home-16: 홈페이지](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="공개 인스턴스"}

@@ -173,7 +173,7 @@ cover: productivity.webp
 
 ![לוגו PrivateBin](assets/img/productivity/privatebin.svg){ align=right }
 
-**PrivateBin** הוא מינימליסטי, קוד פתוח מקוון Pastebin שבו לשרת יש אפס ידע על נתונים מודבקים. הנתונים מוצפנים/מפוענים בדפדפן באמצעות 256 סיביות AES. זוהי הגרסה המשופרת של ZeroBin. יש [רשימת מופעים](https://privatebin.info/directory/).
+**PrivateBin** הוא מינימליסטי, קוד פתוח מקוון Pastebin שבו לשרת יש אפס ידע על נתונים מודבקים. הנתונים מוצפנים/מפוענים בדפדפן באמצעות 256 סיביות AES. זוהי הגרסה המשופרת של ZeroBin.
 
 [:octicons-home-16: דף הבית](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="מופעים ציבוריים"}

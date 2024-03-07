@@ -173,7 +173,7 @@ En général, nous définissons les suites bureautiques comme des applications q
 
 ![Logo PrivateBin](assets/img/productivity/privatebin.svg){ align=right }
 
-**PrivateBin** est un service de collage en ligne minimaliste et open-source où le serveur n'a aucune connaissance des données collées. Les données sont chiffrées/déchiffrées dans le navigateur en utilisant AES 256 bits. Il s'agit de la version améliorée de ZeroBin. Il existe une [liste d'instances](https://privatebin.info/directory/).
+**PrivateBin** est un service de collage en ligne minimaliste et open-source où le serveur n'a aucune connaissance des données collées. Les données sont chiffrées/déchiffrées dans le navigateur en utilisant AES 256 bits. Il s'agit de la version améliorée de ZeroBin.
 
 [:octicons-home-16: Page d'accueil](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Instances publiques"}
