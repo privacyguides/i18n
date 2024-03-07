@@ -100,13 +100,13 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 **LibreOffice** è una suite per ufficio gratuita e open source con funzionalità estese.
 
 [:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentation}
-[:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribute }
+[:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
 - [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
@@ -128,12 +128,12 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 **OnlyOffice** è una suite per ufficio gratuita e open source basata su cloud con funzionalità estese, tra cui l'integrazione con Nextcloud.
 
 [:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
