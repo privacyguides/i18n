@@ -1,8 +1,8 @@
 ---
 meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Pembuatan Akun"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: Membuat akun online bisa dibilang merupakan kebutuhan internet, lakukan langkah-langkah ini untuk memastikan Anda tetap privat.
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 Seringkali orang mendaftar untuk layanan tanpa berpikir. Mungkin itu adalah layanan streaming sehingga Anda dapat menonton acara baru yang dibicarakan semua orang, atau akun yang memberi Anda diskon untuk tempat makanan cepat saji favorit Anda. Apa pun masalahnya, Anda harus mempertimbangkan implikasi untuk data Anda sekarang dan di kemudian hari.
@@ -29,9 +29,12 @@ Biasanya ada beberapa cara untuk mendaftar akun, masing-masing dengan kelebihan 
 
 Cara paling umum untuk membuat akun baru adalah dengan alamat email dan kata sandi. Saat menggunakan metode ini, Anda harus menggunakan pengelola kata sandi dan mengikuti [praktik terbaik](passwords-overview.md) mengenai kata sandi.
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+
+</div>
 
 Anda akan bertanggung jawab untuk mengelola kredensial login Anda. Untuk keamanan tambahan, Anda dapat mengatur [MFA](multi-factor-authentication.md) pada akun Anda.
 

@@ -75,20 +75,23 @@ Jadi, bagaimana ini terlihat?
 
 Salah satu model ancaman yang paling jelas adalah model di mana orang *tahu siapa Anda* dan model di mana mereka tidak tahu. Di situ akan selalu ada situasi di mana Anda harus menyatakan nama resmi Anda dan ada situasi lain di mana Anda tidak perlu melakukannya.
 
-1. **Identitas yang diketahui** - Identitas yang diketahui digunakan untuk hal-hal yang mengharuskan Anda untuk menyatakan nama Anda. Ada banyak dokumen hukum dan kontrak yang memerlukan identitas hukum. Hal ini dapat berkisar dari membuka rekening bank, menandatangani sewa properti, mendapatkan paspor, deklarasi bea cukai saat mengimpor barang, atau berurusan dengan pemerintah Anda. Hal-hal ini biasanya akan mengarah pada kredensial seperti kartu kredit, pemeriksaan peringkat kredit, nomor rekening, dan mungkin alamat fisik.
+1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-    Kami tidak menyarankan menggunakan VPN atau Tor untuk hal-hal ini, karena identitas Anda sudah diketahui melalui cara lain.
+We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-    !!! tip
-   
-        Saat berbelanja secara daring, penggunaan [loker paket] (https://en.wikipedia.org/wiki/Parcel_locker) dapat membantu menjaga kerahasiaan alamat fisik Anda.
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+Saat berbelanja secara daring, penggunaan [loker paket] (https://en.wikipedia.org/wiki/Parcel_locker) dapat membantu menjaga kerahasiaan alamat fisik Anda.
+
+</div>
 
 2. **Identitas tidak dikenal** - Identitas yang tidak dikenal dapat berupa nama samaran yang stabil yang sering Anda gunakan. Ini tidak anonim karena tidak berubah. Jika Anda adalah bagian dari komunitas daring, Anda mungkin ingin mempertahankan persona yang dikenal orang lain. Nama samaran ini tidak anonim karena—jika dipantau cukup lama—rincian tentang pemiliknya dapat mengungkapkan informasi lebih lanjut, seperti cara mereka menulis, pengetahuan umum mereka tentang topik yang diminati, dll.
 
-    Anda mungkin ingin menggunakan VPN untuk hal ini, untuk menyembunyikan alamat IP Anda. Transaksi keuangan lebih sulit untuk disamarkan: Anda dapat mempertimbangkan untuk menggunakan mata uang kripto anonim, seperti [Monero](https://www.getmonero.org/). Menggunakan pengalihan altcoin juga dapat membantu menyamarkan dari mana mata uang Anda berasal. Biasanya, bursa memerlukan KYC (kenali pelanggan Anda) untuk diselesaikan sebelum mereka mengizinkan Anda menukar mata uang fiat ke mata uang kripto apa pun. Opsi pertemuan lokal juga dapat menjadi solusi; namun, biasanya lebih mahal dan terkadang juga memerlukan KYC.
+Anda mungkin ingin menggunakan VPN untuk hal ini, untuk menyembunyikan alamat IP Anda. Transaksi keuangan lebih sulit untuk disamarkan: Anda dapat mempertimbangkan untuk menggunakan mata uang kripto anonim, seperti [Monero](https://www.getmonero.org/). Menggunakan pengalihan altcoin juga dapat membantu menyamarkan dari mana mata uang Anda berasal. Biasanya, bursa memerlukan KYC (kenali pelanggan Anda) untuk diselesaikan sebelum mereka mengizinkan Anda menukar mata uang fiat ke mata uang kripto apa pun. Opsi pertemuan lokal juga dapat menjadi solusi; namun, biasanya lebih mahal dan terkadang juga memerlukan KYC.
 
 3. **Identitas anonim** - Bahkan dengan pengalaman, identitas anonim sulit untuk dipertahankan dalam jangka waktu yang lama. Identitas tersebut haruslah identitas jangka pendek dan berumur pendek yang dirotasi secara teratur.
 
-    Menggunakan Tor dapat membantu dalam hal ini. Perlu juga dicatat bahwa anonimitas yang lebih baik dimungkinkan melalui komunikasi asinkron: Komunikasi waktu nyata rentan terhadap analisis pola pengetikan (misalnya lebih dari satu paragraf teks, didistribusikan di forum, melalui surel, dll.)
+Menggunakan Tor dapat membantu dalam hal ini. Perlu juga dicatat bahwa anonimitas yang lebih baik dimungkinkan melalui komunikasi asinkron: Komunikasi waktu nyata rentan terhadap analisis pola pengetikan (misalnya lebih dari satu paragraf teks, didistribusikan di forum, melalui surel, dll.)
 
 [^1]: Salah satu contoh penting dari hal ini adalah [insiden pada 2021 di mana para peneliti Universitas Minnesota memperkenalkan tiga kerentanan ke dalam proyek pengembangan kernel Linux](https://cse.umn.edu/cs/linux-incident).

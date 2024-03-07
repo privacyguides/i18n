@@ -1,8 +1,8 @@
 ---
-meta_title: "Comment créer des comptes internet de façon privée - Privacy Guides"
-title: "Création de compte"
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: La création de comptes en ligne est pratiquement une nécessité sur internet, prenez ces mesures pour vous assurer de rester privé.
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 Souvent, les gens s'inscrivent à des services sans réfléchir. Il s'agit peut-être d'un service de streaming qui vous permet de regarder la nouvelle émission dont tout le monde parle, ou d'un compte qui vous permet de bénéficier d'une réduction dans votre fast-food préféré. Quoi qu'il en soit, vous devez tenir compte des implications pour vos données, maintenant et plus tard.
@@ -29,9 +29,12 @@ Il existe généralement plusieurs façons de créer un compte, chacune ayant se
 
 Le moyen le plus courant de créer un nouveau compte est d'utiliser une adresse e-mail et un mot de passe. Lorsque vous utilisez cette méthode, vous devriez utiliser un gestionnaire de mots de passe et suivre les [bonnes pratiques](passwords-overview.md) concernant les mots de passe.
 
-!!! tip "Conseil"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Vous pouvez également utiliser votre gestionnaire de mots de passe pour gérer d'autres méthodes d'authentification ! Il suffit d'ajouter la nouvelle entrée et de remplir les champs appropriés. Vous pouvez ajouter des notes pour des choses comme des questions de sécurité ou une clé de secours.
+Vous pouvez également utiliser votre gestionnaire de mots de passe pour gérer d'autres méthodes d'authentification ! Il suffit d'ajouter la nouvelle entrée et de remplir les champs appropriés. Vous pouvez ajouter des notes pour des choses comme des questions de sécurité ou une clé de secours.
+
+</div>
 
 Vous serez responsable de la gestion de vos identifiants de connexion. Pour plus de sécurité, vous pouvez configurer [MFA](multi-factor-authentication.md) sur vos comptes.
 

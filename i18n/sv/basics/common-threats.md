@@ -35,19 +35,25 @@ När det gäller applikationssäkerhet vet vi i allmänhet inte (och kan ibland 
 
 För att minimera den skada som en skadlig programvara ** kan orsaka bör du använda säkerhet genom uppdelning. Det kan till exempel handla om att använda olika datorer för olika jobb, att använda virtuella maskiner för att separera olika grupper av relaterade program eller att använda ett säkert operativsystem med starkt fokus på sandlåda för program och obligatorisk åtkomstkontroll.
 
-!!! tips
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Mobila operativsystem har i allmänhet bättre applikationssandlåda än stationära operativsystem: Appar kan inte få root-åtkomst och kräver tillstånd för åtkomst till systemresurser.
-    
-    Skrivbordsoperativsystem släpar i allmänhet efter vid korrekt sandlåda. ChromeOS har liknande sandlådor som Android och macOS har fullständig kontroll över systembehörigheter (och utvecklare kan välja att sandlådor ska användas för program). Dessa operativsystem överför dock identifieringsinformation till sina respektive OEM-tillverkare. Linux tenderar att inte lämna information till systemleverantörer, men har dåligt skydd mot exploateringar och skadliga program. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Mobila operativsystem har i allmänhet bättre applikationssandlåda än stationära operativsystem: Appar kan inte få root-åtkomst och kräver tillstånd för åtkomst till systemresurser.
+
+Skrivbordsoperativsystem släpar i allmänhet efter vid korrekt sandlåda. ChromeOS har liknande sandlådor som Android och macOS har fullständig kontroll över systembehörigheter (och utvecklare kan välja att sandlådor ska användas för program). Dessa operativsystem överför dock identifieringsinformation till sina respektive OEM-tillverkare. Linux tenderar att inte lämna information till systemleverantörer, men har dåligt skydd mot exploateringar och skadliga program. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+
+</div>
 
 <span class="pg-red">:material-target-account: Riktade attacker</span>
 
 Riktade attacker mot en specifik person är mer problematiska att hantera. Vanliga attacker är att skicka skadliga dokument via e-post, utnyttja sårbarheter (t.ex. i webbläsare och operativsystem) och fysiska attacker. Om detta är ett problem för dig bör du använda mer avancerade strategier för att minska hoten.
 
-!!! tips
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    I **webbläsare**, **emailklienter** och **kontorsprogram** körs vanligtvis kod som inte är tillförlitlig och som skickas till dig från tredje part. Att köra flera virtuella maskiner för att separera sådana här program från värdsystemet och från varandra är en teknik som du kan använda för att minska risken för att en exploatering i dessa program ska kunna äventyra resten av systemet. Tekniker som Qubes OS eller Microsoft Defender Application Guard på Windows ger till exempel praktiska metoder för att göra detta.
+I **webbläsare**, **emailklienter** och **kontorsprogram** körs vanligtvis kod som inte är tillförlitlig och som skickas till dig från tredje part. Att köra flera virtuella maskiner för att separera sådana här program från värdsystemet och från varandra är en teknik som du kan använda för att minska risken för att en exploatering i dessa program ska kunna äventyra resten av systemet. Tekniker som Qubes OS eller Microsoft Defender Application Guard på Windows ger till exempel praktiska metoder för att göra detta.
+
+</div>
 
 Om du är orolig för **fysiska attacker** bör du använda ett operativsystem med en säker verifierad uppstart, t.ex. Android, iOS, macOS eller [Windows (med TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Du bör också se till att enheten är krypterad och att operativsystemet använder en TPM eller Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) eller [Element](https://developers.google.com/android/security/android-ready-se) för att begränsa försöken att ange krypteringsfrasen. Du bör undvika att dela din dator med personer du inte litar på, eftersom de flesta stationära operativsystem inte krypterar data separat per användare.
 
@@ -61,13 +67,16 @@ Det uppenbara problemet med detta är att tjänsteleverantören (eller en hackar
 
 Tack och lov kan E2EE lindra detta problem genom att kryptera kommunikationen mellan dig och dina önskade mottagare innan den ens skickas till servern. Sekretessen för dina meddelanden garanteras, förutsatt att tjänsteleverantören inte har tillgång till någon av parternas privata nycklar.
 
-!!! anmärkning "Anmärkning om webbaserad kryptering"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note on Web-based Encryption</p>
 
-    I praktiken varierar effektiviteten i olika E2EE-genomföranden. Applikationer, till exempel [Signal](../real-time-communication.md#signal), körs naturligt på din enhet, och varje kopia av applikationen är densamma över olika installationer. Om tjänsteleverantören skulle införa en [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) i sitt program - i ett försök att stjäla dina privata nycklar - skulle det senare kunna upptäckas med [reverse engineering] (https://en.wikipedia.org/wiki/Reverse_engineering).
-    
-    Å andra sidan är webbaserade E2EE-implementationer, som Proton Mail-webmail eller Bitwardens *Web Vault*, beroende av att servern dynamiskt serverar JavaScript-kod till webbläsaren för att hantera kryptografi. En skadlig server kan rikta dig och skicka skadlig JavaScript-kod för att stjäla din krypteringsnyckel (och det skulle vara extremt svårt att märka). Eftersom servern kan välja att betjäna olika webbklienter till olika människor - även om du märkte attacken - skulle det vara otroligt svårt att bevisa leverantörens skuld.
-    
-    Därför bör du använda inbyggda applikationer över webbklienter när det är möjligt.
+I praktiken varierar effektiviteten i olika E2EE-genomföranden. Applikationer, till exempel [Signal](../real-time-communication.md#signal), körs naturligt på din enhet, och varje kopia av applikationen är densamma över olika installationer. Om tjänsteleverantören skulle införa en [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) i sitt program - i ett försök att stjäla dina privata nycklar - skulle det senare kunna upptäckas med [reverse engineering] (https://en.wikipedia.org/wiki/Reverse_engineering).
+
+Å andra sidan är webbaserade E2EE-implementationer, som Proton Mail-webmail eller Bitwardens *Web Vault*, beroende av att servern dynamiskt serverar JavaScript-kod till webbläsaren för att hantera kryptografi. En skadlig server kan rikta dig och skicka skadlig JavaScript-kod för att stjäla din krypteringsnyckel (och det skulle vara extremt svårt att märka). Eftersom servern kan välja att betjäna olika webbklienter till olika människor - även om du märkte attacken - skulle det vara otroligt svårt att bevisa leverantörens skuld.
+
+Därför bör du använda inbyggda applikationer över webbklienter när det är möjligt.
+
+</div>
 
 Även med E2EE kan tjänsteleverantörer fortfarande profilera dig utifrån **metadata**, som vanligtvis inte är skyddade. Medan tjänsteleverantören inte kan läsa dina meddelanden kan de fortfarande observera viktiga saker, till exempel vem du pratar med, hur ofta du skickar meddelanden till dem och när du vanligtvis är aktiv. Skydd av metadata är ganska ovanligt, och om det ingår i din hotmodell [](threat-modeling.md)- bör du vara uppmärksam på den tekniska dokumentationen för den programvara du använder för att se om det finns någon minimering eller något skydd av metadata överhuvudtaget.
 
@@ -77,17 +86,23 @@ Tack och lov kan E2EE lindra detta problem genom att kryptera kommunikationen me
 
 Massövervakning är ett komplicerat försök att övervaka "beteende, många aktiviteter eller information" hos en hel (eller en stor del av en) befolkning.[^1] Det hänvisar ofta till statliga program, t.ex. de [som Edward Snowden avslöjade 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Det kan dock också utföras av företag, antingen på uppdrag av myndigheter eller på eget initiativ.
 
-!!! sammanfattning av "Atlas of Surveillance"
+<div class="admonition abstract" markdown>
+<p class="admonition-title">Atlas of Surveillance</p>
 
-    Om du vill veta mer om övervakningsmetoder och hur de tillämpas i din stad kan du också ta en titt på [Atlas of Surveillance] (https://atlasofsurveillance.org/) från [Electronic Frontier Foundation] (https://www.eff.org/).
-    
-    I Frankrike kan du ta en titt på [Technolopolices webbplats](https://technopolice.fr/villes/) som upprätthålls av den ideella föreningen La Quadrature du Net.
+Om du vill veta mer om övervakningsmetoder och hur de tillämpas i din stad kan du också ta en titt på [Atlas of Surveillance] (https://atlasofsurveillance.org/) från [Electronic Frontier Foundation] (https://www.eff.org/).
+
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+
+</div>
 
 Regeringar rättfärdigar ofta massövervakningsprogram som nödvändiga medel för att bekämpa terrorism och förebygga brottslighet. Men kränker de mänskliga rättigheterna, är det oftast används för att oproportionerligt rikta minoritetsgrupper och politiska dissidenter, bland annat.
 
-!!! citat "ACLU: [*Det är en viktig fråga för den personliga integriteten: Massövervakning är inte vägen framåt*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+<div class="admonition quote" markdown>
+<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-    Med anledning av [Edward Snowdens avslöjanden om regeringsprogram som [PRISM](https://en.wikipedia.org/wiki/PRISM) och [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)] erkände underrättelsetjänstemännen också att NSA i åratal i hemlighet hade samlat in uppgifter om praktiskt taget alla amerikaners telefonsamtal - vem som ringer till vem, när samtalen görs och hur länge de varar. Den här typen av information kan, när den samlas in av NSA dag efter dag, avslöja otroligt känsliga detaljer om människors liv och umgänge, t. ex. om de har ringt till en pastor, en abortvårdare, en missbruksrådgivare eller en självmordshotline.
+Med anledning av [Edward Snowdens avslöjanden om regeringsprogram som [PRISM](https://en.wikipedia.org/wiki/PRISM) och [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)] erkände underrättelsetjänstemännen också att NSA i åratal i hemlighet hade samlat in uppgifter om praktiskt taget alla amerikaners telefonsamtal - vem som ringer till vem, när samtalen görs och hur länge de varar. Den här typen av information kan, när den samlas in av NSA dag efter dag, avslöja otroligt känsliga detaljer om människors liv och umgänge, t. ex. om de har ringt till en pastor, en abortvårdare, en missbruksrådgivare eller en självmordshotline.
+
+</div>
 
 Trots den ökande massövervakningen i USA har regeringen konstaterat att massövervakningsprogram som avsnitt 215 har haft "litet unikt värde" när det gäller att stoppa faktiska brott eller terroristplaner, och att insatserna i stort sett har varit en kopia av FBI:s egna riktade övervakningsprogram.[^2]
 
@@ -133,11 +148,14 @@ Censur på företagsplattformar blir allt vanligare, eftersom plattformar som Tw
 
 Människor som oroar sig för hotet om censur kan använda teknik som [Tor](../advanced/tor-overview.md) för att kringgå den och stödja censurresistenta kommunikationsplattformar som [Matrix](../real-time-communication.md#element), som inte har någon centraliserad kontoinspektion som kan stänga konton godtyckligt.
 
-!!! tips
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Även om det kan vara lätt att undvika censur, kan det vara mycket problematiskt att dölja det faktum att du gör det.
-    
-    Du bör överväga vilka aspekter av nätverket din motståndare kan observera, och om du har trovärdigt förnekande för dina handlingar. Om du till exempel använder [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) kan det hjälpa dig att kringgå rudimentära DNS-baserade censursystem, men det kan inte dölja vad du besöker för din internetleverantör. En VPN eller Tor kan hjälpa till att dölja vad du besöker för nätverksadministratörer, men kan inte dölja att du använder nätverken överhuvudtaget. Pluggable transports (t.ex. Obfs4proxy, Meek eller Shadowsocks) kan hjälpa dig att undvika brandväggar som blockerar vanliga VPN-protokoll eller Tor, men dina försök att kringgå dem kan fortfarande upptäckas med metoder som probing eller [deep packet inspection] (https://en.wikipedia.org/wiki/Deep_packet_inspection).
+Även om det kan vara lätt att undvika censur, kan det vara mycket problematiskt att dölja det faktum att du gör det.
+
+Du bör överväga vilka aspekter av nätverket din motståndare kan observera, och om du har trovärdigt förnekande för dina handlingar. Om du till exempel använder [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) kan det hjälpa dig att kringgå rudimentära DNS-baserade censursystem, men det kan inte dölja vad du besöker för din internetleverantör. En VPN eller Tor kan hjälpa till att dölja vad du besöker för nätverksadministratörer, men kan inte dölja att du använder nätverken överhuvudtaget. Pluggable transports (t.ex. Obfs4proxy, Meek eller Shadowsocks) kan hjälpa dig att undvika brandväggar som blockerar vanliga VPN-protokoll eller Tor, men dina försök att kringgå dem kan fortfarande upptäckas med metoder som probing eller [deep packet inspection] (https://en.wikipedia.org/wiki/Deep_packet_inspection).
+
+</div>
 
 Du måste alltid överväga riskerna med att försöka kringgå censur, de potentiella konsekvenserna och hur sofistikerad din motståndare kan vara. Du bör vara försiktig när du väljer programvara och ha en backup-plan om du skulle bli upptäckt.
 

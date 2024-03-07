@@ -1,7 +1,7 @@
 ---
-title: סקירה כללית של macOS
+title: macOS Overview
 icon: material/apple-finder
-description: macOS היא מערכת ההפעלה שולחנית של אפל שעובדת עם החומרה שלהם כדי לספק אבטחה חזקה.
+description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
 
 **macOS** היא מערכת הפעלה Unix שפותחה על ידי אפל עבור מחשבי ה-Mac שלהם. כדי לשפר את הפרטיות ב-macOS, אתה יכול להשבית את תכונות הטלמטריה ולהקשיח את הגדרות הפרטיות והאבטחה הקיימות.
@@ -156,9 +156,12 @@ macOS משתמשת בהגנה לעומק על ידי הסתמכות על שכב�
 
 ### אבטחת תוכנה
 
-!!! warning "אזהרה"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    macOS מאפשר לך להתקין עדכוני בטא. אלה אינם יציבים ועשויים להגיע עם טלמטריה נוספת מכיוון שהם מיועדים למטרות בדיקה. בשל כך, אנו ממליצים להימנע מתוכנות בטא באופן כללי.
+macOS מאפשר לך להתקין עדכוני בטא. אלה אינם יציבים ועשויים להגיע עם טלמטריה נוספת מכיוון שהם מיועדים למטרות בדיקה. בשל כך, אנו ממליצים להימנע מתוכנות בטא באופן כללי.
+
+</div>
 
 #### נפח מערכת חתומה
 
@@ -178,9 +181,12 @@ macOS מגדיר מגבלות אבטחה מסוימות שלא ניתן לעקו
 
 אפליקציות macOS שהורדו מ-App Store נדרשות להיות בארגז חול באמצעות [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
-!!! warning "אזהרה"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    תוכנה שהורדה מחוץ לחנות האפליקציות הרשמית אינה חייבת להיות בארגז חול. עליך להימנע ככל האפשר מתוכנות שאינן ב-App Store.
+תוכנה שהורדה מחוץ לחנות האפליקציות הרשמית אינה חייבת להיות בארגז חול. עליך להימנע ככל האפשר מתוכנות שאינן ב-App Store.
+
+</div>
 
 ##### אנטי וירוס
 

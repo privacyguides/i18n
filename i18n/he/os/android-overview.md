@@ -1,7 +1,7 @@
 ---
-title: סקירה כללית של אנדרואיד
+title: Android Overview
 icon: simple/android
-description: אנדרואיד היא מערכת הפעלה בקוד פתוח עם הגנות אבטחה חזקות, מה שהופך אותה לבחירה המובילה שלנו עבור טלפונים.
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 ![לוגו אנדרואיד](../assets/img/android/android.svg){ align=right }
@@ -99,13 +99,19 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 [Exodus](https://exodus-privacy.eu.org/) יכול להיות שימושי כאשר משווים אפליקציות שיש להן מטרות דומות. אם אפליקציה דורשת הרבה הרשאות ויש לה הרבה פרסום וניתוח זה כנראה סימן רע. אנו ממליצים להסתכל על העוקבים הבודדים ולקרוא את התיאורים שלהם במקום פשוט **לספור את הסכום הכולל** ולהנחה שכל הפריטים הרשומים שווים.
 
-!!! warning "אזהרה"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    אם אפליקציה היא ברובה שירות מבוסס אינטרנט, המעקב עשוי להתרחש בצד השרת. [פייסבוק](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) מציג "ללא עוקבים" אבל בהחלט עוקב אחר תחומי העניין וההתנהגות של המשתמשים ברחבי האתר. אפליקציות עשויות להתחמק מזיהוי על ידי אי שימוש בספריות קוד סטנדרטיות המיוצרות על ידי תעשיית הפרסום, אם כי זה לא סביר.
+אם אפליקציה היא ברובה שירות מבוסס אינטרנט, המעקב עשוי להתרחש בצד השרת. [פייסבוק](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) מציג "ללא עוקבים" אבל בהחלט עוקב אחר תחומי העניין וההתנהגות של המשתמשים ברחבי האתר. אפליקציות עשויות להתחמק מזיהוי על ידי אי שימוש בספריות קוד סטנדרטיות המיוצרות על ידי תעשיית הפרסום, אם כי זה לא סביר.
 
-!!! note "הערה"
+</div>
 
-    אפליקציות ידידותיות לפרטיות כגון [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) עשויות להציג עוקבים מסוימים כגון [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). ספרייה זו כוללת את [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) שיכולה לספק [הודעות דחיפה](https://en.wikipedia.org/wiki/Push_technology) באפליקציות. זה [המקרה](https://fosstodon.org/@bitwarden/109636825700482007) עם Bitwarden. זה לא אומר ש-Bitwarden משתמש בכל תכונות הניתוח שמסופקות על ידי Google Firebase Analytics.
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
+
+אפליקציות ידידותיות לפרטיות כגון [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) עשויות להציג עוקבים מסוימים כגון [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). ספרייה זו כוללת את [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) שיכולה לספק [הודעות דחיפה](https://en.wikipedia.org/wiki/Push_technology) באפליקציות. זה [המקרה](https://fosstodon.org/@bitwarden/109636825700482007) עם Bitwarden. זה לא אומר ש-Bitwarden משתמש בכל תכונות הניתוח שמסופקות על ידי Google Firebase Analytics.
+
+</div>
 
 ## תכונות פרטיות
 

@@ -1,8 +1,8 @@
 ---
-meta_title: "Como Criar Contas Na Internet Privadamente - Privacy Guides"
-title: "Criação de Contas"
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: A criação de contas online é praticamente uma necessidade da Internet, siga estes passos para garantir a sua privacidade.
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 Muitas vezes, as pessoas inscrevem-se em serviços sem pensar. Talvez seja um serviço de streaming para poder ver aquela nova série de que todos falam, ou uma conta que lhe dá um desconto no seu restaurante de fast food favorito. Seja qual for o caso, deve considerar as implicações para os seus dados agora e mais tarde.
@@ -29,10 +29,12 @@ Normalmente, existem várias formas de registar uma conta, cada uma com as suas 
 
 A forma mais comum de criar uma nova conta é por um endereço de correio eletrónico e de uma palavra-passe. Ao utilizar este método, deve utilizar um gestor de palavras-passe e seguir as [melhores práticas](passwords-overview.md) relativamente a palavras-passe.
 
-!!! aviso
- Backup `BitLocker-Recovery-Key. txt` em um dispositivo de armazenamento separado
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Também pode utilizar o seu gestor de palavra-passes para organizar outros métodos de autenticação! Basta adicionar a nova entrada e preencher os campos adequados, pode adicionar notas para coisas como perguntas de segurança ou uma chave de segurança.
+Também pode utilizar o seu gestor de palavra-passes para organizar outros métodos de autenticação! Basta adicionar a nova entrada e preencher os campos adequados, pode adicionar notas para coisas como perguntas de segurança ou uma chave de segurança.
+
+</div>
 
 Será responsável pela gestão das suas credenciais de início de sessão. Para maior segurança, pode configurar [MFA](multi-factor-authentication.md) nas suas contas.
 

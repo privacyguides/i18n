@@ -1,8 +1,8 @@
 ---
-meta_title: "프라이버시를 지키며 인터넷 계정을 생성하는 방법 - Privacy Guides"
-title: "계정 생성"
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: 인터넷을 하려면 계정 생성은 필수적입니다. 이 절차를 따라 계정 프라이버시를 보호할 수 있습니다.
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 사람들은 별다른 생각 없이 서비스에 가입할 때가 많습니다. 남들이 이야기하는 새로 나온 드라마를 상영하는 스트리밍 서비스에 가입하기도 하고, 자주 가는 음식 프랜차이즈에서 할인 혜택을 받으려고 가입하기도 합니다. 어떤 경우든, 현재 및 향후 여러분의 데이터에 미치는 영향을 고려해야 합니다.
@@ -29,9 +29,12 @@ description: 인터넷을 하려면 계정 생성은 필수적입니다. 이 절
 
 새로운 계정을 생성할 때는 이메일 주소와 비밀번호를 사용하는 것이 가장 일반적입니다. 이 경우, 비밀번호 관리자를 사용해야 하며 비밀번호 관련 [모범 사례](passwords-overview.md)를 따라야 합니다.
 
-!!! tip "도움말"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    다른 인증 방법도 비밀번호 관리자에서 관리할 수 있습니다! 새 항목을 추가하고 적절한 필드를 채우면 보안 질문, 백업 키 등 관련 메모를 추가할 수 있습니다.
+다른 인증 방법도 비밀번호 관리자에서 관리할 수 있습니다! 새 항목을 추가하고 적절한 필드를 채우면 보안 질문, 백업 키 등 관련 메모를 추가할 수 있습니다.
+
+</div>
 
 로그인 자격 증명의 관리 책임은 자기 자신에게 있습니다. 보안을 강화하려면 계정에 [MFA](multi-factor-authentication.md)를 설정하세요.
 

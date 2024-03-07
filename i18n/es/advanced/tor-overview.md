@@ -45,13 +45,16 @@ Es difícil establecer malas configuraciones como estas accidentalmente, porque 
 
 ---
 
-!!! info "Huella digital VPN/SSH"
+<div class="admonition info" markdown>
+<p class="admonition-title">VPN/SSH Fingerprinting</p>
 
-    El Proyecto Tor [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *teóricamente* usar una VPN para ocultar las actividades Tor de tu ISP puede no ser infalible. Se ha descubierto que las VPN son vulnerables a las huellas digitales de tráfico de sitios web, en las que un adversario puede adivinar qué sitio web se está visitando, ya que todos los sitios web tienen patrones de tráfico específicos.
-    
-    Por lo tanto, no es descabellado creer que el tráfico Tor encriptado oculto por una VPN también podría ser detectado mediante métodos similares. No existen trabajos de investigación sobre este tema, y seguimos considerando que las ventajas de utilizar una VPN superan con creces estos riesgos, pero es algo a tener en cuenta.
-    
-    Si todavía crees que los "pluggable transports" (puentes) proporcionan una protección adicional contra la huella digital del tráfico del sitio web que una VPN no proporciona, siempre tienes la opción de utilizar un puente **y** una VPN conjuntamente.
+El Proyecto Tor [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *teóricamente* usar una VPN para ocultar las actividades Tor de tu ISP puede no ser infalible. Se ha descubierto que las VPN son vulnerables a las huellas digitales de tráfico de sitios web, en las que un adversario puede adivinar qué sitio web se está visitando, ya que todos los sitios web tienen patrones de tráfico específicos.
+
+Por lo tanto, no es descabellado creer que el tráfico Tor encriptado oculto por una VPN también podría ser detectado mediante métodos similares. No existen trabajos de investigación sobre este tema, y seguimos considerando que las ventajas de utilizar una VPN superan con creces estos riesgos, pero es algo a tener en cuenta.
+
+Si todavía crees que los "pluggable transports" (puentes) proporcionan una protección adicional contra la huella digital del tráfico del sitio web que una VPN no proporciona, siempre tienes la opción de utilizar un puente **y** una VPN conjuntamente.
+
+</div>
 
 Determinar si deberías usar primero una VPN para conectarte a la red Tor requerirá algo de sentido común y conocimiento de las políticas de tu propio gobierno e ISP en relación a lo que te estás conectando. Sin embargo, de nuevo, en la mayoría de los casos será mejor que te vean conectándose a una red VPN comercial que directamente a la red Tor. Si los proveedores VPN están censurados en tu área, entonces también puedes considerar usar "pluggable transports" Tor (p.e. Snowflake o meek bridges) como alternativa, pero usar estos puentes puede levantar más sospechas que los túneles estándar WireGuard/OpenVPN.
 

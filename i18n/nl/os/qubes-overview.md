@@ -10,9 +10,12 @@ description: Qubes is an operating system built around isolating apps within *qu
 
 Qubes gebruikt [compartimentering](https://www.qubes-os.org/intro/) om het systeem veilig te houden. Qubes worden aangemaakt op basis van sjablonen, waarbij de standaard opties Fedora, Debian en [Whonix](../desktop.md#whonix)zijn. Qubes OS also allows you to create once-use [disposable](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes*.
 
-??? "The term *qubes* is gradually being updated to avoid referring to them as "virtual machines"."
+<details class="note" markdown>
+<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
 
-    Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+
+</details>
 
 ![Qubes architectuur](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architectuur, Krediet: Wat is Qubes OS Intro</figcaption>
@@ -41,9 +44,12 @@ Je kunt [tekst kopiëren en plakken](https://www.qubes-os.org/doc/how-to-copy-an
 
 To copy and paste files and directories (folders) from one *qube* to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. Het verschil is dat de optie **Verplaatsen** het oorspronkelijke bestand verwijdert. Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. Dat is niet nodig met het inter-qube kopieersysteem.
 
-??? "Qubes do not have their own filesystems."
+<details class="note" markdown>
+<summary>Qubes do not have their own filesystems.</summary>
 
-    You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. Daarbij worden de wijzigingen niet onmiddellijk aangebracht en kunnen ze bij een ongeval gemakkelijk ongedaan worden gemaakt. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. Daarbij worden de wijzigingen niet onmiddellijk aangebracht en kunnen ze bij een ongeval gemakkelijk ongedaan worden gemaakt. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+
+</details>
 
 ### Inter-VM Interacties
 

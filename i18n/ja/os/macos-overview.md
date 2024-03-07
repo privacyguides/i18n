@@ -1,7 +1,7 @@
 ---
-title: macOSの概要
+title: macOS Overview
 icon: material/apple-finder
-description: macOSはAppleのデスクトップオペレーティングシステムで、ハードウェアと連携して強力なセキュリティを提供します。
+description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
 
 **macOS**は、AppleがMacコンピュータ用に開発したUnixオペレーティングシステムです。 To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
@@ -156,9 +156,12 @@ macOS employs defense in depth by relying on multiple layers of software and har
 
 ### ソフトウェアのセキュリティー
 
-!!! 警告
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    macOSではベータ版アップデートをインストールできます。 These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
+macOSではベータ版アップデートをインストールできます。 These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
+
+</div>
 
 #### Signed System Volume
 
@@ -178,9 +181,12 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 macOS apps downloaded from the App Store are required to be sandboxed usng the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
-!!! 警告
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
+Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
+
+</div>
 
 ##### アンチウィルス
 

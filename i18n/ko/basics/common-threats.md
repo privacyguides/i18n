@@ -35,19 +35,25 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
 악성 소프트웨어가 일으킬 *수도 있는* 피해를 최소화하려면 구획화를 이용한 보안을 적용해야합니다. 작업 종류마다 다른 컴퓨터를 사용하거나, 애플리케이션을 연관 그룹별로 분류해 가상 머신에서 사용하거나, 애플리케이션 샌드박스 격리 및 필수 접근 제어 기능에 특화된 보안 운영체제를 사용하는 등의 방법이 있습니다.
 
-!!! tip "도움말"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    일반적으로 모바일 운영 체제는 데스크톱 운영 체제보다 애플리케이션 샌드박스 기능이 뛰어납니다. 모바일 운영체제에서는 앱이 루트 권한을 얻을 수 없고, 시스템 리소스에 접근하려면 권한이 필요합니다.
-    
-    데스크톱 운영 체제는 보통 적절한 샌드박스 기능 면에서 뒤처집니다. ChromeOS는 Android와 유사한 샌드박스 기능을 제공하며, macOS는 전체 시스템 권한 제어 기능을 제공합니다(개발자는 애플리케이션의 샌드박스를 적용 여부를 선택할 수 있습니다). 하지만 이러한 운영 체제는 식별 정보를 각 OEM에 전송합니다. Linux는 대체로 시스템 공급 업체에 정보를 보내지 않지만, 취약점 및 악성 앱으로부터의 보호 기능은 미흡합니다. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+일반적으로 모바일 운영 체제는 데스크톱 운영 체제보다 애플리케이션 샌드박스 기능이 뛰어납니다. 모바일 운영체제에서는 앱이 루트 권한을 얻을 수 없고, 시스템 리소스에 접근하려면 권한이 필요합니다.
+
+데스크톱 운영 체제는 보통 적절한 샌드박스 기능 면에서 뒤처집니다. ChromeOS는 Android와 유사한 샌드박스 기능을 제공하며, macOS는 전체 시스템 권한 제어 기능을 제공합니다(개발자는 애플리케이션의 샌드박스를 적용 여부를 선택할 수 있습니다). 하지만 이러한 운영 체제는 식별 정보를 각 OEM에 전송합니다. Linux는 대체로 시스템 공급 업체에 정보를 보내지 않지만, 취약점 및 악성 앱으로부터의 보호 기능은 미흡합니다. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+
+</div>
 
 <span class="pg-red">:material-target-account: 표적 공격(Targeted Attacks)</span>
 
 특정 인물을 대상으로 하는 표적 공격은 더욱 대응하기 어렵습니다. 흔한 예시로는 이메일을 통한 악성 문서 전송, 브라우저 및 운영 체제 등의 취약점 악용, 물리적 공격 등이 있습니다. 표적 공격이 우려된다면, 보다 고급 위협 완화 전략이 필요합니다.
 
-!!! tip "도움말"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    **웹 브라우저**, **이메일 클라이언트**, **오피스 애플리케이션**은 설계상 외부에서 전송된 신뢰할 수 없는 코드를 실행하도록 되어있습니다. 여러 가상 머신을 사용해 이러한 애플리케이션을 호스트 시스템과 분리하는 것은 애플리케이션 취약점으로부터 시스템의 다른 영역이 손상될 가능성을 줄이는 방법 중 하나입니다. 이런 격리 작업을 편리하게 만들어주는 기술로는 Qubes OS/Microsoft Defender Application Guard 등이 있습니다.
+**웹 브라우저**, **이메일 클라이언트**, **오피스 애플리케이션**은 설계상 외부에서 전송된 신뢰할 수 없는 코드를 실행하도록 되어있습니다. 여러 가상 머신을 사용해 이러한 애플리케이션을 호스트 시스템과 분리하는 것은 애플리케이션 취약점으로부터 시스템의 다른 영역이 손상될 가능성을 줄이는 방법 중 하나입니다. 이런 격리 작업을 편리하게 만들어주는 기술로는 Qubes OS/Microsoft Defender Application Guard 등이 있습니다.
+
+</div>
 
 **물리적 공격**이 우려된다면 Android, iOS, macOS, [Windows(TPM 사용)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) 등 보안 부팅이 구현된 운영 체제를 사용해야 합니다. 또한 드라이브를 암호화하고, 운영 체제에서 TPM/Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)/[Element](https://developers.google.com/android/security/android-ready-se)를 이용해 암호 입력 시도를 제한해야 합니다. 대부분의 데스크톱 운영체제는 사용자별 데이터를 암호화하지 않으므로, 신뢰하지 않는 사람과 컴퓨터를 공유하지 말아야 합니다.
 
@@ -61,13 +67,16 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
 다행히, 송신자와 수신자 간의 통신을 서버로 전송하기 전에 암호화하는 E2EE를 적용하면 이러한 문제를 완화할 수 있습니다. 서비스 제공 업체가 양측 당사자의 개인 키에 접근하지 못한다는 가정 하에, 메시지의 기밀성이 보장됩니다.
 
-!!! note "웹 기반 암호화에 대한 참고 사항"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note on Web-based Encryption</p>
 
-    실질적으로 모든 E2EE 구현체가 동일한 유효성을 갖는 것은 아닙니다. [Signal](../real-time-communication.md#signal) 같은 애플리케이션은 기기에서 네이티브로 실행되며, 여러번 설치하더라도 언제나 완벽히 동일한 애플리케이션이 설치됩니다. 서비스 제공 업체가 여러분의 개인 키를 탈취하기 위해 [백도어](https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%8F%84%EC%96%B4)를 도입하더라도, 차후에 [리버스 엔지니어링](https://ko.wikipedia.org/wiki/%EC%97%AD%EA%B3%B5%ED%95%99)을 통해 탐지될 수 있습니다.
-    
-    반면, Proton Mail 웹메일이나 Bitwarden **웹 보관함** 같은 웹 기반 E2EE 구현체의 경우, 서버에서 동적으로 제공하는 자바스크립트 코드에 암호화 처리를 의존합니다. 악성 서버는 사용자를 표적으로 삼아 악성 자바스크립트 코드를 전송해 암호화 키를 탈취 가능하며, 이 경우 사용자는 이를 알아차리기 매우 어렵습니다. 만약 사용자가 공격을 알아차리더라도 제공 업체의 책임을 입증하기란 매우 어렵습니다. 서버에서 사람마다 웹 클라이언트를 다르게 제공하는 것이 가능하기 때문입니다.
-    
-    따라서, 가능하면 웹 클라이언트 대신 네이티브 애플리케이션을 사용해야 합니다.
+실질적으로 모든 E2EE 구현체가 동일한 유효성을 갖는 것은 아닙니다. [Signal](../real-time-communication.md#signal) 같은 애플리케이션은 기기에서 네이티브로 실행되며, 여러번 설치하더라도 언제나 완벽히 동일한 애플리케이션이 설치됩니다. 서비스 제공 업체가 여러분의 개인 키를 탈취하기 위해 [백도어](https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%8F%84%EC%96%B4)를 도입하더라도, 차후에 [리버스 엔지니어링](https://ko.wikipedia.org/wiki/%EC%97%AD%EA%B3%B5%ED%95%99)을 통해 탐지될 수 있습니다.
+
+반면, Proton Mail 웹메일이나 Bitwarden **웹 보관함** 같은 웹 기반 E2EE 구현체의 경우, 서버에서 동적으로 제공하는 자바스크립트 코드에 암호화 처리를 의존합니다. 악성 서버는 사용자를 표적으로 삼아 악성 자바스크립트 코드를 전송해 암호화 키를 탈취 가능하며, 이 경우 사용자는 이를 알아차리기 매우 어렵습니다. 만약 사용자가 공격을 알아차리더라도 제공 업체의 책임을 입증하기란 매우 어렵습니다. 서버에서 사람마다 웹 클라이언트를 다르게 제공하는 것이 가능하기 때문입니다.
+
+따라서, 가능하면 웹 클라이언트 대신 네이티브 애플리케이션을 사용해야 합니다.
+
+</div>
 
 E2EE를 적용하더라도 여전히 서비스 제공 업체는 (일반적으로 보호되지 않는) **메타데이터**에 기반하여 여러분의 정보를 수집하고 프로파일링할 수 있습니다. 서비스 제공 업체는 여러분의 메시지를 읽을 수는 없지만, 여러분이 누구와 대화하는지, 얼마나 자주 메시지를 주고받는지, 주로 언제 활동하는지 등 중요한 정보를 관찰 가능합니다. 메타데이터에도 보호가 적용되는 경우는 매우 드뭅니다. 만약 여러분의 [위협 모델](threat-modeling.md)이 메타데이터 보호 또한 필요로 한다면, 사용하는 소프트웨어의 기술 문서를 주의 깊게 확인하여 메타데이터 최소화 혹은 보호가 존재하는지 살펴봐야 합니다.
 
@@ -77,17 +86,23 @@ E2EE를 적용하더라도 여전히 서비스 제공 업체는 (일반적으로
 
 '대중 감시'는 전체(혹은 상당한 부분의) 인구의 '행동, 다양한 활동 혹은 정보'를 모니터링하는 전방위적 노력을 뜻합니다.[^1] [2013년 에드워드 스노든이 폭로한 정부 프로그램](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)) 등을 가리키는 경우가 많습니다. 하지만, 기업이 정부 기관 대신 수행하거나, 기업 자체가 주도적으로 수행하기도 합니다.
 
-!!! abstract "감시 지도"
+<div class="admonition abstract" markdown>
+<p class="admonition-title">Atlas of Surveillance</p>
 
-    감시 방법과, 미국의 특정 도시에서 어떻게 감시 체계를 운용하는지 자세히 알고 싶다면 [Electronic Frontier Foundation](https://www.eff.org/)의 [Atlas of Surveillance](https://atlasofsurveillance.org/)를 살펴보세요.
-    
-    프랑스의 경우, 비영리 단체인 La Quadrature du Net에서 운영하는 [Technolopolice website](https://technopolice.fr/villes/)를 살펴볼 수 있습니다.
+감시 방법과, 미국의 특정 도시에서 어떻게 감시 체계를 운용하는지 자세히 알고 싶다면 [Electronic Frontier Foundation](https://www.eff.org/)의 [Atlas of Surveillance](https://atlasofsurveillance.org/)를 살펴보세요.
+
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+
+</div>
 
 정부는 테러 대응 및 범죄 예방에 필요한 수단으로 대중 감시 프로그램을 정당화하는 경우가 많습니다. 하지만 이는 분명한 인권 침해일 뿐만 아니라, 대중 감시는 소수 집단과 정치적 반체제 인사 등의 대상을 집중적으로 표적삼는 데에 가장 자주 사용됩니다.
 
-!!! quote "ACLU: [*9.11 사건의 프라이버시 교훈: 대중 감시는 앞으로 나아갈 길이 아닙니다*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+<div class="admonition quote" markdown>
+<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-    정보 당국은 에드워드 스노든의 정부 프로그램([PRISM](https://en.wikipedia.org/wiki/PRISM), [Upstream](https://en.wikipedia.org/wiki/Upstream_collection) 등) 폭로에 직면하여, NSA가 수년간 사실상 모든 미국인의 전화 통화 기록(누가 누구랑 통화하는지, 언제 통화하는지, 얼마나 오래 통화하는지)을 비밀리에 수집해 왔음을 인정했습니다. NSA가 이러한 정보를 매일 수집할 경우, 어떤 사람이 목사, 낙태 시술자, 중독 상담사, 자살 예방 상담사와 전화했는지 등 사람들의 삶과 관계성에 대해 극도로 민감한 정보를 파악할 수 있습니다.
+정보 당국은 에드워드 스노든의 정부 프로그램([PRISM](https://en.wikipedia.org/wiki/PRISM), [Upstream](https://en.wikipedia.org/wiki/Upstream_collection) 등) 폭로에 직면하여, NSA가 수년간 사실상 모든 미국인의 전화 통화 기록(누가 누구랑 통화하는지, 언제 통화하는지, 얼마나 오래 통화하는지)을 비밀리에 수집해 왔음을 인정했습니다. NSA가 이러한 정보를 매일 수집할 경우, 어떤 사람이 목사, 낙태 시술자, 중독 상담사, 자살 예방 상담사와 전화했는지 등 사람들의 삶과 관계성에 대해 극도로 민감한 정보를 파악할 수 있습니다.
+
+</div>
 
 미국에서 대중 감시가 증가하고 있음에도 불구하고, 정부는 215조항과 같은 대중 감시 프로그램이 실제 범죄나 테러 음모를 저지하는 데 있어 '고유한 가치가 거의 없다'라는 사실을 발견했으며, 대부분의 노력은 FBI의 표적 감시 프로그램과 중복되는 것으로 나타났습니다.[^2]
 
@@ -133,11 +148,14 @@ Twitter, Facebook 같은 플랫폼이 대중의 요구, 시장의 압력, 정부
 
 검열 위협이 우려될 경우, [Tor](../advanced/tor-overview.md) 등의 기술을 사용해 검열을 우회할 수 있으며, [Matrix](../real-time-communication.md#element) 처럼 중앙 집중식 계정 시스템이 없는(플랫폼이 독단적으로 누군가의 계정을 차단할 수 없는) 검열 방지 통신 플랫폼을 지원할 수 있습니다.
 
-!!! tip "도움말"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    '검열 회피' 자체는 어렵지 않습니다. 하지만 여러분이 검열을 회피하고 있다는 사실을 감추는 것은 매우 문제가 될 수 있습니다.
-    
-    여러분의 적대자가 가진 네트워크 감시 능력은 어느정도인지, 여러분 스스로 자신의 검열 회피 행동에 대해 타당한 구실을 가지고 있는지를 고려해야 합니다. 예를 들어, [암호화 DNS](../advanced/dns-overview.md#what-is-encrypted-dns)를 사용하면 기초적인 DNS 기반 검열 시스템을 우회할 수 있지만, 방문 중인 사이트가 ISP에 노출되는 것을 숨길 수는 없습니다. VPN/Tor를 사용하면 네트워크 관리자로부터 여러분이 어떤 사이트를 방문하는지 숨길 수 있지만, VPN/Tor 네트워크를 사용 중이라는 것 자체는 숨길 수 없습니다. (Obfs4proxy, Meek, Shadowsocks 등) Pluggable transports로는 일반적인 VPN/Tor 프로토콜 차단 방화벽을 우회할 수는 있지만, 프로빙(Probing)이나 [심층 패킷 검사(Deep Packet Inspection)](https://en.wikipedia.org/wiki/Deep_packet_inspection) 같은 방법을 사용하면 우회 시도를 탐지할 수 있습니다.
+'검열 회피' 자체는 어렵지 않습니다. 하지만 여러분이 검열을 회피하고 있다는 사실을 감추는 것은 매우 문제가 될 수 있습니다.
+
+여러분의 적대자가 가진 네트워크 감시 능력은 어느정도인지, 여러분 스스로 자신의 검열 회피 행동에 대해 타당한 구실을 가지고 있는지를 고려해야 합니다. 예를 들어, [암호화 DNS](../advanced/dns-overview.md#what-is-encrypted-dns)를 사용하면 기초적인 DNS 기반 검열 시스템을 우회할 수 있지만, 방문 중인 사이트가 ISP에 노출되는 것을 숨길 수는 없습니다. VPN/Tor를 사용하면 네트워크 관리자로부터 여러분이 어떤 사이트를 방문하는지 숨길 수 있지만, VPN/Tor 네트워크를 사용 중이라는 것 자체는 숨길 수 없습니다. (Obfs4proxy, Meek, Shadowsocks 등) Pluggable transports로는 일반적인 VPN/Tor 프로토콜 차단 방화벽을 우회할 수는 있지만, 프로빙(Probing)이나 [심층 패킷 검사(Deep Packet Inspection)](https://en.wikipedia.org/wiki/Deep_packet_inspection) 같은 방법을 사용하면 우회 시도를 탐지할 수 있습니다.
+
+</div>
 
 검열을 우회할 경우 발생할 수 있는 위험 및 결과, 적대자의 능력을 항상 고려해야 합니다. 사용할 소프트웨어를 신중하게 선택하고, 적발될 경우를 대비한 백업 계획을 세워야 합니다.
 

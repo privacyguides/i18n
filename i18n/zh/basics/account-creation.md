@@ -1,8 +1,8 @@
 ---
-meta_title: "如何私密地创建互联网账户 - 隐私指南"
-title: "账户创建"
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: 在网上创建账户几乎是网络生活的必需，采取这些步骤确保你的隐私安全。
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 人们经常不假思索地注册服务。 也许它是一个流媒体服务，这样你就可以看到每个人都在谈论的新节目，或者一个为你最喜欢的快餐店提供折扣的账户。 无论情况如何，你应该考虑现在和以后对你的数据的影响。
@@ -29,9 +29,12 @@ description: 在网上创建账户几乎是网络生活的必需，采取这些�
 
 创建新账户最常见的方式是通过电子邮件地址和密码。 当使用这种方法时，你应该使用一个密码管理器，并遵循 [有关密码的最佳实践](passwords-overview.md)。
 
-!!! 提示
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    你还可以使用密码管理器来组织其他验证方法！ 只需添加新条目并填写相应字段，你可以为诸如安全问题或备用密钥之类的事物添加注释。
+你还可以使用密码管理器来组织其他验证方法！ 只需添加新条目并填写相应字段，你可以为诸如安全问题或备用密钥之类的事物添加注释。
+
+</div>
 
 你将负责管理你的登录凭证。 为了增加安全性，你可以在你的账户上设置 [MFA](multi-factor-authentication.md)。
 

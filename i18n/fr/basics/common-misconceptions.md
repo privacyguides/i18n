@@ -75,20 +75,23 @@ Alors, à quoi ça pourrait ressembler ?
 
 Les modèles de menace les plus clairs sont ceux où les gens *savent qui vous êtes* et ceux où ils ne le savent pas. Il y aura toujours des situations où vous devrez déclarer votre nom légal et d'autres où vous n'aurez pas à le faire.
 
-1. **Identité connue** - Une identité connue est utilisée pour les endroits où vous devez déclarer votre nom. Il existe de nombreux documents juridiques et contrats de ce type pour lesquels une identité légale est requise. Il peut s'agir de l'ouverture d'un compte bancaire, de la signature d'un bail immobilier, de l'obtention d'un passeport, de déclarations douanières lors de l'importation d'articles ou de toute autre démarche auprès de votre gouvernement. Ces éléments conduisent généralement à des informations d'identification telles que des cartes de crédit, des vérifications de la solvabilité, des numéros de compte et éventuellement des adresses physiques.
+1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-    Nous ne suggérons pas l'utilisation d'un VPN ou de Tor pour toutes ces choses, car votre identité est déjà connue par d'autres moyens.
+We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-    !!! tip "Conseil"
-   
-        Lorsque vous effectuez des achats en ligne, l'utilisation d'une [consigne à colis](https://en.wikipedia.org/wiki/Parcel_locker) peut contribuer à préserver la confidentialité de votre adresse physique.
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+Lorsque vous effectuez des achats en ligne, l'utilisation d'une [consigne à colis](https://en.wikipedia.org/wiki/Parcel_locker) peut contribuer à préserver la confidentialité de votre adresse physique.
+
+</div>
 
 2. **Identité inconnue** - Une identité inconnue pourrait être un pseudonyme stable que vous utilisez régulièrement. Il n'est pas anonyme car il ne change pas. Si vous faites partie d'une communauté en ligne, vous souhaiterez peut-être conserver un personnage que les autres connaissent. Ce pseudonyme n'est pas anonyme car, s'il est surveillé suffisamment longtemps, les détails concernant le propriétaire peuvent révéler d'autres informations, telles que sa façon d'écrire, ses connaissances générales sur des sujets d'intérêt, etc.
 
-    Vous pouvez utiliser un VPN pour masquer votre adresse IP. Les transactions financières sont plus difficiles à masquer : Vous pouvez envisager d'utiliser des crypto-monnaies anonymes, comme [Monero](https://www.getmonero.org/). L'utilisation de monnaies alternatives peut également contribuer à masquer l'origine de votre monnaie. En règle générale, les centres d'échange exigent que le processus [KYC](https://fr.wikipedia.org/wiki/Know_your_customer) (connaissance du client) soit complété avant de vous autoriser à échanger de la monnaie fiduciaire contre tout type de cryptomonnaie. Les options de rencontres locales peuvent également être une solution, mais elles sont souvent plus coûteuses et nécessitent parfois un processus KYC.
+Vous pouvez utiliser un VPN pour masquer votre adresse IP. Les transactions financières sont plus difficiles à masquer : Vous pouvez envisager d'utiliser des crypto-monnaies anonymes, comme [Monero](https://www.getmonero.org/). L'utilisation de monnaies alternatives peut également contribuer à masquer l'origine de votre monnaie. En règle générale, les centres d'échange exigent que le processus [KYC](https://fr.wikipedia.org/wiki/Know_your_customer) (connaissance du client) soit complété avant de vous autoriser à échanger de la monnaie fiduciaire contre tout type de cryptomonnaie. Les options de rencontres locales peuvent également être une solution, mais elles sont souvent plus coûteuses et nécessitent parfois un processus KYC.
 
 3. **Identité anonyme** - Même avec de l'expérience, les identités anonymes sont difficiles à maintenir sur de longues périodes. Il doit s'agir d'identités à court terme et de courte durée qui font l'objet d'une rotation régulière.
 
-    L'utilisation de Tor peut y contribuer. Il convient également de noter qu'un plus grand anonymat est possible grâce à la communication asynchrone : La communication en temps réel est vulnérable à l'analyse des habitudes de frappe (c'est-à-dire plus d'un paragraphe de texte, diffusé sur un forum, par e-mail, etc.)
+L'utilisation de Tor peut y contribuer. Il convient également de noter qu'un plus grand anonymat est possible grâce à la communication asynchrone : La communication en temps réel est vulnérable à l'analyse des habitudes de frappe (c'est-à-dire plus d'un paragraphe de texte, diffusé sur un forum, par e-mail, etc.)
 
 [^1]: Un exemple notable est l'[incident de 2021 dans lequel des chercheurs de l'Université du Minnesota ont introduit trois vulnérabilités dans le projet de développement du noyau Linux](https://cse.umn.edu/cs/linux-incident).

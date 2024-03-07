@@ -1,8 +1,8 @@
 ---
-meta_title: "Nasıl Gizli bir Şekilde İnternet Hesapları Oluşturulur - Privacy Guides"
-title: "Hesap Oluşturma"
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: Çevrimiçi hesaplar oluşturmak neredeyse bir internet gerekliliğidir, gizli kaldığınızdan emin olmak için bu adımları takip edin.
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 Çoğu zaman insanlar düşünmeden hizmetlere kaydolurlar. Bu, herkesin konuştuğu yeni diziyi izleyebileceğiniz bir yayın hizmeti ya da en sevdiğiniz fast food restoranında indirim sağlayan bir hesap olabilir. Her ne için olursa olsun, şimdi ve daha sonrası için verileriniz üzerindeki etkilerini göz önünde bulundurmalısınız.
@@ -29,9 +29,12 @@ Bir hesap oluşturmak için genellikle birden fazla yol olur, ve her birinin ken
 
 Yeni bir hesap oluşturmanın en yaygın yolu e-posta adresi ve paroladır. Bu yöntemi kullanırken bir parola yöneticisi kullanmalı ve parolalarla ilgili [en iyi uygulamaları](passwords-overview.md)takip etmelisiniz.
 
-!!! ipucu
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Parola yöneticinizi diğer kimlik doğrulama yöntemlerini düzenlemek için de kullanabilirsiniz! Yeni bir giriş ekleyin ve uygun alanları doldurun, güvenlik soruları veya yedek anahtar gibi şeyler için notlar ekleyebilirsiniz.
+Parola yöneticinizi diğer kimlik doğrulama yöntemlerini düzenlemek için de kullanabilirsiniz! Yeni bir giriş ekleyin ve uygun alanları doldurun, güvenlik soruları veya yedek anahtar gibi şeyler için notlar ekleyebilirsiniz.
+
+</div>
 
 Oturum açma kimlik bilgilerinizi yönetmekten siz sorumlu olacaksınız. Daha fazla güvenlik için hesaplarınızda [MFA](multi-factor-authentication.md) ayarlayabilirsiniz.
 

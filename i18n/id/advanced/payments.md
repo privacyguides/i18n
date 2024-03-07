@@ -1,5 +1,5 @@
 ---
-title: Pembayaran Pribadi
+title: Private Payments
 icon: material/hand-coin
 ---
 
@@ -45,11 +45,14 @@ Ini cenderung menjadi pilihan yang baik untuk pembayaran berulang/langganan seca
 
 Mata uang kripto adalah bentuk mata uang digital yang dirancang untuk bekerja tanpa otoritas pusat seperti pemerintah atau bank. Meskipun *beberapa* proyek mata uang kripto memungkinkan Anda untuk melakukan transaksi pribadi secara daring, banyak yang menggunakan blockchain publik yang tidak memberikan privasi transaksi. Mata uang kripto juga cenderung merupakan aset yang sangat fluktuatif, artinya nilainya dapat berubah dengan cepat dan signifikan kapan saja. Oleh karena itu, kami umumnya tidak menyarankan penggunaan mata uang kripto sebagai penyimpan nilai jangka panjang. Jika Anda memutuskan untuk menggunakan mata uang kripto secara daring, pastikan Anda memiliki pemahaman penuh mengenai aspek privasinya terlebih dahulu, dan hanya menginvestasikan jumlah yang tidak akan menyebabkan kerugian besar.
 
-!!! danger
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    Sebagian besar mata uang kripto beroperasi pada blockchain **publik**, yang berarti bahwa setiap transaksi diketahui oleh publik. Ini termasuk mata uang kripto yang paling terkenal seperti Bitcoin dan Ethereum. Transaksi dengan mata uang kripto ini tidak dapat dianggap sebagai transaksi pribadi dan tidak akan melindungi anonimitas Anda.
-    
-    Selain itu, banyak atau bahkan sebagian besar mata uang kripto adalah penipuan. Lakukan transaksi dengan hati-hati hanya dengan proyek yang Anda percayai.
+Sebagian besar mata uang kripto beroperasi pada blockchain **publik**, yang berarti bahwa setiap transaksi diketahui oleh publik. Ini termasuk mata uang kripto yang paling terkenal seperti Bitcoin dan Ethereum. Transaksi dengan mata uang kripto ini tidak dapat dianggap sebagai transaksi pribadi dan tidak akan melindungi anonimitas Anda.
+
+Selain itu, banyak atau bahkan sebagian besar mata uang kripto adalah penipuan. Lakukan transaksi dengan hati-hati hanya dengan proyek yang Anda percayai.
+
+</div>
 
 ### Koin Privasi
 

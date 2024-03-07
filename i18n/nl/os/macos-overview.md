@@ -1,7 +1,7 @@
 ---
 title: macOS Overview
 icon: material/apple-finder
-description: macOS is Apple's desktop besturingssysteem dat met zijn hardware werkt om een sterke beveiliging te bieden.
+description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
 
 **macOS** is een Unix besturingssysteem ontwikkeld door Apple voor hun Mac computers. Om de privacy op macOS te verbeteren, kun je telemetry functies uitschakelen en bestaande privacy-en beveiligingsinstellingen aanscherpen.
@@ -156,9 +156,12 @@ macOS employs defense in depth by relying on multiple layers of software and har
 
 ### Software Security
 
-!!! warning
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
+macOS allows you to install beta updates. These are unstable and may come with extra telemetry since they're for testing purposes. Because of this, we recommend you avoid beta software in general.
+
+</div>
 
 #### Signed System Volume
 
@@ -178,9 +181,12 @@ System Integrity Protection makes critical file locations read-only to protect a
 
 macOS apps downloaded from the App Store are required to be sandboxed usng the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
-!!! warning
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
+Software downloaded from outside the official App Store is not required to be sandboxed. You should avoid non-App Store software as much as possible.
+
+</div>
 
 ##### Antivirus
 

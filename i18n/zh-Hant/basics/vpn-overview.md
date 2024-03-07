@@ -1,8 +1,8 @@
 ---
-meta_title: "VPN如何保護您的隱私？ VPN概述 - Privacy Guides"
-title: VPN 簡介
+meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+title: VPN Overview
 icon: material/vpn
-description: 虛擬私用網路將風險從您的ISP 轉移到您信任的第三方。 你應該記住這些事情。
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
 虛擬專用網路是將您的網路末端延伸到世界其它地方的一種方式。
@@ -11,9 +11,12 @@ ISP 可以看到網路終端設備（例如數據機）的網際網路進出流�
 
 使用 VPN 將您對網路的信任轉移到世界上某處的伺服器，甚至可以向 ISP 隱藏這些資訊。 因此， ISP只會看到您已連接到VPN ，而不會看到您正在傳遞的活動。
 
-!!! note "備註"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    我們在本站提到「虛擬私人網路」時，通常指的是**商業** [VPN 服務商](../vpn.md)，每月向其支付費用以換取路由網路流量安全地通過他們的公共伺服器。 還有許多其他形式的VPN，例如自行託管的 VPN 或由工作場所運營的VPN，它們允許安全地連接到內部/員工網絡資源，但是，這類VPN 通常旨在安全地訪問遠端網絡，而不是保護隱私的網路連線。
+我們在本站提到「虛擬私人網路」時，通常指的是**商業** [VPN 服務商](../vpn.md)，每月向其支付費用以換取路由網路流量安全地通過他們的公共伺服器。 還有許多其他形式的VPN，例如自行託管的 VPN 或由工作場所運營的VPN，它們允許安全地連接到內部/員工網絡資源，但是，這類VPN 通常旨在安全地訪問遠端網絡，而不是保護隱私的網路連線。
+
+</div>
 
 ## VPN工作原理
 

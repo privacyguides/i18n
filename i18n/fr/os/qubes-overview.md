@@ -10,9 +10,12 @@ description: Qubes est un système d'exploitation conçu pour isoler les applica
 
 Les qubes utilisent la [compartimentation](https://www.qubes-os.org/intro/) pour assurer la sécurité du système. Les Qubes sont créés à partir de modèles, ceux par défaut étant pour Fedora, Debian et [Whonix](../desktop.md#whonix). Qubes OS vous permet également de créer des *qubes* à usage unique [jetables](https://www.qubes-os.org/doc/how-to-use-disposables/).
 
-??? "Le terme *qubes* est progressivement mis à jour pour éviter d'y faire référence en tant que "machines virtuelles"."
+<details class="note" markdown>
+<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
 
-    Certaines des informations présentées ici et dans la documentation du système d'exploitation Qubes OS peuvent être contradictoires, car le terme "appVM" est progressivement remplacé par "qube". Les qubes ne sont pas des machines virtuelles à part entière, mais ils conservent des fonctionnalités similaires à celles des VMs.
+Certaines des informations présentées ici et dans la documentation du système d'exploitation Qubes OS peuvent être contradictoires, car le terme "appVM" est progressivement remplacé par "qube". Les qubes ne sont pas des machines virtuelles à part entière, mais ils conservent des fonctionnalités similaires à celles des VMs.
+
+</details>
 
 ![Architecture de Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Architecture de Qubes, Crédit : Intro de Qu'est-ce que Qubes OS</figcaption>
@@ -41,9 +44,12 @@ Vous pouvez [copier et coller du texte](https://www.qubes-os.org/doc/how-to-copy
 
 Pour copier et coller des fichiers et des répertoires (dossiers) d'un *qube* à un autre, vous pouvez utiliser l'option **Copier vers une autre AppVM...** ou **Déplacer vers une autre AppVM...**. La différence est que l'option **Déplacer** supprime le fichier d'origine. L'une ou l'autre option protégera votre presse-papiers contre les fuites vers d'autres *qubes*. Cette méthode est plus sûre que le transfert de fichiers air-gapped. Un ordinateur air-gapped sera toujours obligé d'analyser les partitions ou les systèmes de fichiers. Cela n'est pas nécessaire avec le système de copie inter-qube.
 
-??? "Les Qubes n'ont pas leur propre système de fichiers."
+<details class="note" markdown>
+<summary>Qubes do not have their own filesystems.</summary>
 
-    Vous pouvez [copier et déplacer des fichiers](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) entre *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. Lorsque vous exécutez un *qube*, il ne dispose pas d'un système de fichiers persistant. Vous pouvez créer et supprimer des fichiers, mais ces modifications sont éphémères.
+You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. When you run a *qube*, it does not have a persistent filesystem. Vous pouvez créer et supprimer des fichiers, mais ces modifications sont éphémères.
+
+</details>
 
 ### Interactions inter-VM
 

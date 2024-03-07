@@ -1,7 +1,7 @@
 ---
-title: Panoramica di macOS
+title: macOS Overview
 icon: material/apple-finder
-description: macOS è il sistema operativo desktop di Apple che opera con il loro hardware, fornendo grande sicurezza.
+description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
 
 **macOS** è un sistema operativo Unix sviluppato da Apple per i propri computer Mac. Per migliorare la privacy su macOS, puoi disabilitare le funzionalità di telemetria e rafforzare le impostazioni di privacy e sicurezza esistenti.
@@ -156,9 +156,12 @@ macOS utilizza la difesa approfondita, affidandosi a svariati livelli di protezi
 
 ### Sicurezza del Software
 
-!!! warning "Attenzione"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
 
-    macOS ti consente di installare gli aggiornamenti beta. Questi sono instabili e potrebbero comportare un'ulteriore telemetria, essendo per scopi di test. Per questo, ti consigliamo di evitare i software in beta, in generale.
+macOS ti consente di installare gli aggiornamenti beta. Questi sono instabili e potrebbero comportare un'ulteriore telemetria, essendo per scopi di test. Per questo, ti consigliamo di evitare i software in beta, in generale.
+
+</div>
 
 #### Volume di Sistema Firmato
 
@@ -178,9 +181,12 @@ La Protezione dell'Integrità di Sistema rende le posizioni dei file di sola let
 
 Le app di macOS scaricate dall'App Store devono essere testate utilizzando [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
-!!! warning "Attenzione"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
 
-    I software scaricati al di fuori dell'App Store ufficiale non devono essere testate. Dovresti evitare i software non provenienti dall'App Store, il più possibile.
+I software scaricati al di fuori dell'App Store ufficiale non devono essere testate. Dovresti evitare i software non provenienti dall'App Store, il più possibile.
+
+</div>
 
 ##### Antivirus
 

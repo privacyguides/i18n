@@ -1,7 +1,7 @@
 ---
-title: Panoramica Android
+title: Android Overview
 icon: simple/android
-description: Android è un sistema operativo open source con forti protezioni per la sicurezza, il che lo rende la nostra scelta migliore, per la telefonia.
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 ![Logo di Android](../assets/img/android/android.svg){ align=right }
@@ -99,13 +99,19 @@ Un'app potrebbe richiedere un'autorizzazione per una sua funzionalità specifica
 
 [Exodus](https://exodus-privacy.eu.org/) può essere utile se devi confrontare app con scopi simili. Se un'app richiede molte autorizzazioni e contiene molti annunci e analisi, è probabilmente un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contarne il totale** e supporre che tutte le voci elencate siano uguali.
 
-!!! warning "Attenzione"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
 
-    Se un'app è prevalentemente un servizio basato su web, il tracciamento potrebbe verificarsi dal lato del server. [Facebook](https://reports.exodus-privacy.eu.org/it/reports/com.facebook.katana/latest/) mostra "nessun tracciatore", ma traccia sicuramente gli interessi e comportamenti degli utenti sul sito. Le app potrebbero eludere il rilevamento non utilizzando le librerie di codice standard prodotte dall'industria pubblicitaria, sebbene sia improbabile.
+Se un'app è prevalentemente un servizio basato su web, il tracciamento potrebbe verificarsi dal lato del server. [Facebook](https://reports.exodus-privacy.eu.org/it/reports/com.facebook.katana/latest/) mostra "nessun tracciatore", ma traccia sicuramente gli interessi e comportamenti degli utenti sul sito. Le app potrebbero eludere il rilevamento non utilizzando le librerie di codice standard prodotte dall'industria pubblicitaria, sebbene sia improbabile.
 
-!!! note "Nota"
+</div>
 
-    Le app che rispettano la privacy come [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) potrebbero mostrare dei tracciatori come [Google Firebase Analytics](https://reports.exodus.privacy.eu.org/en/trackers/49/). Questa libreria include [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) che può fornire [notifiche push](https://en.wikipedia.org/wiki/Push_technology) nelle app. Questo [è il caso] (https://fosstodon.org/@bitwarden/109636825700482007) di Bitwarden. Ciò non significa che Bitwarden sta utilizzando tutte le funzionalità analitiche fornite da Google Firebase Analytics.
+<div class="admonition note" markdown>
+<p class="admonition-title">Nota</p>
+
+Le app che rispettano la privacy come [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) potrebbero mostrare dei tracciatori come [Google Firebase Analytics](https://reports.exodus.privacy.eu.org/en/trackers/49/). Questa libreria include [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) che può fornire [notifiche push](https://en.wikipedia.org/wiki/Push_technology) nelle app. Questo [è il caso] (https://fosstodon.org/@bitwarden/109636825700482007) di Bitwarden. Ciò non significa che Bitwarden sta utilizzando tutte le funzionalità analitiche fornite da Google Firebase Analytics.
+
+</div>
 
 ## Funzionalità per la Privacy
 

@@ -10,9 +10,12 @@ description: Qubes è un sistema operativo basato sull'isolamento delle applicaz
 
 Qubes utilizza la [compartimentazione](https://www.qubes-os.org/intro/) per mantenere il sistema sicuro. I Qube sono creati da modelli, predefiniti per Fedora, Debian e [Whonix](../desktop.md#whonix). Qubes OS ti consente anche di creare *qubes* [monouso](https://www.qubes-os.org/doc/how-to-use-disposables/).
 
-??? "Il termine *qubes* sta venendo pian piano aggiornato per evitare di confonderle con le "macchine virtuali"."
+<details class="note" markdown>
+<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
 
-    Alcune informazioni riportate qui e nella documentazione di Quebes OS possono contenere un linguaggio contraddittorio, poiché il termine "appVM" sta venendo pian piano modificato in "qube". Le Qube non sono delle vere e proprie macchine virtuali, ma mantengono funzionalità simili alle VM.
+Alcune informazioni riportate qui e nella documentazione di Quebes OS possono contenere un linguaggio contraddittorio, poiché il termine "appVM" sta venendo pian piano modificato in "qube". Le Qube non sono delle vere e proprie macchine virtuali, ma mantengono funzionalità simili alle VM.
+
+</details>
 
 ![Architettura Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Architettura di Qubes, Crediti: Introduzione a Qubes OS</figcaption>
@@ -41,9 +44,12 @@ Puoi [copiare e incollare il testo](https://www.qubes-os.org/doc/how-to-copy-and
 
 Per copiare e incollare file e cartelle da una *qube* a un'altra, puoi usare l'opzione **Copia in un'altra AppVM...** o **Sposta in un'altra AppVM...**. La differenza è che l'opzione **Move** eliminerà il file originale. Entrambe le opzioni proteggeranno i tuoi appunti dalla trasmissione verso altre *qube*. Questo è più sicuro del trasferimento di file via etere. Un computer isolato sarà comunque costretto ad analizzare partizioni o file di sistema. Ciò non è necessario con il sistema di copia tra Qube.
 
-??? "Le Qube non hanno i propri file di sistema."
+<details class="note" markdown>
+<summary>Qubes do not have their own filesystems.</summary>
 
-    Puoi [copiare e spostare file](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) tra le *qube*. Così facendo, le modifiche non vengono applicate immediatamente e sono facilmente annullabili, in caso di incidente. Quando esegui una *qube*, questa non dispone di un file di sistema persistente. Puoi creare e cancellare file, ma queste modifiche sono effimere.
+You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. Così facendo, le modifiche non vengono applicate immediatamente e sono facilmente annullabili, in caso di incidente. When you run a *qube*, it does not have a persistent filesystem. Puoi creare e cancellare file, ma queste modifiche sono effimere.
+
+</details>
 
 ### Interazioni tra VM
 

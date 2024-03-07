@@ -1,7 +1,7 @@
 ---
-title: iOS 介紹
+title: iOS Overview
 icon: simple/apple
-description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 Mac 電腦。
+description: iOS is a mobile operating system developed by Apple for the iPhone.
 ---
 
 **iOS** 和 **iPadOS** 是 Apple 分別為其 iPhone 和 iPad 產品開發的專有移動作業系統。 如果您擁有 Apple 移動設備，可通過禁用某些內置遙測功能以及強化系統內置的隱私和安全設置來增強隱私。
@@ -146,9 +146,12 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長時間； 然而，過去已經有一些漏洞可以繞開這個問題。 為了更加安全，可將手機設置為在 10 次密碼嘗試錯誤後自行擦除。
 
-!!! warning "警告"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning "警告"</p>
 
-    啟用此設置後，別人可以通過多次輸入錯誤密碼來故意擦除您的手機。 確保有適當備份，並且僅在有把握的情況下才啟用此設置。
+啟用此設置後，別人可以通過多次輸入錯誤密碼來故意擦除您的手機。 確保有適當備份，並且僅在有把握的情況下才啟用此設置。
+
+</div>
 
 - [x] 打開 **清除資料**
 

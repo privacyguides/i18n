@@ -1,5 +1,5 @@
 ---
-title: Pagamentos com privacidade
+title: Private Payments
 icon: material/hand-coin
 ---
 
@@ -45,11 +45,14 @@ Estes serviços tendem a ser boas opções para pagamentos recorrentes/assinatur
 
 As criptomoedas são uma forma digital de moeda concebida para funcionar sem autoridades centrais, como um governo ou um banco. Enquanto *alguns* projetos de criptomoeda podem permitir transações online com privacidade, muitos deles utilizam uma blockchain pública que não proporciona qualquer privacidade nas transações. As criptomoedas também tendem a ser ativos muito voláteis, o que significa que o seu valor pode mudar rápida e significativamente a qualquer momento. Como tal, não recomendamos a utilização de criptomoeda como uma reserva de valor a longo prazo. Se decidir utilizar criptomoedas online, certifique-se de que conhece previamente todos os aspetos da sua política de privacidade e invista apenas em montantes que não signifiquem uma perda avultada.
 
-!!! perigo
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    A grande maioria das criptomoedas opera numa blockchain **pública**, o que significa que todas as transações são do conhecimento público. Isto inclui até as criptomoedas mais conhecidas, como a Bitcoin e a Ethereum. As transações com estas criptomoedas não garantem privacidade, não protegendo o anonimato.
-    
-    Além disso, muitas das criptomoedas, se não a maioria, são burlas. Faça transações com cuidado, escolhendo apenas projetos em que confia.
+A grande maioria das criptomoedas opera numa blockchain **pública**, o que significa que todas as transações são do conhecimento público. Isto inclui até as criptomoedas mais conhecidas, como a Bitcoin e a Ethereum. As transações com estas criptomoedas não garantem privacidade, não protegendo o anonimato.
+
+Além disso, muitas das criptomoedas, se não a maioria, são burlas. Faça transações com cuidado, escolhendo apenas projetos em que confia.
+
+</div>
 
 ### Moedas orientadas para a privacidade
 

@@ -35,19 +35,25 @@ No que diz respeito à segurança das aplicações, geralmente não sabemos (e p
 
 Para minimizar os danos que um software malicioso *pode* causar, deve utilizar a segurança por compartimentação. Essa compartimentação pode ser conseguida na forma de utilização de computadores diferentes para trabalhos diferentes, utilização de máquinas virtuais para separar diferentes grupos de aplicações relacionadas ou utilização de um sistema operativo seguro com uma forte ênfase na solução de sandbox das aplicações e no controlo de acesso obrigatório.
 
-!!! dica
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Os sistemas operativos móveis têm geralmente uma melhor proteção das aplicações do que os sistemas operativos de secretária: as aplicações não podem obter acesso à raiz e necessitam de permissão para aceder aos recursos do sistema.
-    
-    Os sistemas operativos para desktop deixam a desejar no que diz respeito a uma adequada proteção. O ChromeOS tem capacidades de sandbox semelhantes às do Android e o macOS tem controlo total das permissões do sistema (e os programadores podem optar pela sandbox para as aplicações). No entanto, estes sistemas operativos transmitem informações de identificação aos respectivos OEMs. O Linux tende a não enviar informações aos fornecedores de sistemas, mas tem uma fraca proteção contra exploits e aplicações maliciosas. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Os sistemas operativos móveis têm geralmente uma melhor proteção das aplicações do que os sistemas operativos de secretária: as aplicações não podem obter acesso à raiz e necessitam de permissão para aceder aos recursos do sistema.
+
+Os sistemas operativos para desktop deixam a desejar no que diz respeito a uma adequada proteção. O ChromeOS tem capacidades de sandbox semelhantes às do Android e o macOS tem controlo total das permissões do sistema (e os programadores podem optar pela sandbox para as aplicações). No entanto, estes sistemas operativos transmitem informações de identificação aos respectivos OEMs. O Linux tende a não enviar informações aos fornecedores de sistemas, mas tem uma fraca proteção contra exploits e aplicações maliciosas. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+
+</div>
 
 <span class="pg-red">:material-target-account: Ataques direcionados</span>
 
 Os ataques direcionados contra uma pessoa específica são mais problemáticos de tratar. Os ataques mais comuns incluem o envio de documentos maliciosos por e-mail, a exploração de vulnerabilidades (por exemplo, em navegadores e sistemas operativos) e ataques físicos. Se isto for uma preocupação para si, deve utilizar estratégias de mitigação de ameaças mais avançadas.
 
-!!! dica
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Por definição, os **browsers**, os **clientes de e-mail** e as **suites de escritório** executam normalmente código não fiável, enviado por terceiros. Executar várias máquinas virtuais - para separar aplicações como estas do seu sistema anfitrião, bem como umas das outras - é uma técnica que pode utilizar para reduzir a possibilidade de uma exploração nestas aplicações poder comprometer o resto do seu sistema. Por exemplo, tecnologias como o Qubes OS ou o Microsoft Defender Application Guard no Windows fornecem métodos convenientes para o fazer.
+Por definição, os **browsers**, os **clientes de e-mail** e as **suites de escritório** executam normalmente código não fiável, enviado por terceiros. Executar várias máquinas virtuais - para separar aplicações como estas do seu sistema anfitrião, bem como umas das outras - é uma técnica que pode utilizar para reduzir a possibilidade de uma exploração nestas aplicações poder comprometer o resto do seu sistema. Por exemplo, tecnologias como o Qubes OS ou o Microsoft Defender Application Guard no Windows fornecem métodos convenientes para o fazer.
+
+</div>
 
 Se estiver preocupado com **ataques físicos** deve utilizar um sistema operativo com uma implementação de arranque seguro verificado, como o Android, iOS, macOS ou [Windows (com TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Deve também certificar-se de que a sua unidade está encriptada e que o sistema operativo utiliza um TPM, Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) ou [Element](https://developers.google.com/android/security/android-ready-se) para limitar as tentativas de introdução da frase-chave de encriptação. Deve evitar partilhar o seu computador com pessoas em quem não confia, uma vez que a maioria dos sistemas operativos de computador de secretária não encripta os dados separadamente por utilizador.
 
@@ -61,13 +67,16 @@ Há um problema óbvio devido ao facto do fornecedor de serviços (ou um hacker 
 
 Felizmente, a E2EE pode aliviar este problema, através da encriptação das comunicações entre si e os seus destinatários, antes mesmo de serem enviadas para o servidor. A confidencialidade das suas mensagens é garantida, assumindo que o fornecedor de serviços não tem acesso às chaves privadas de nenhuma das partes.
 
-!!! nota "Nota sobre a encriptação baseada na Web"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note on Web-based Encryption</p>
 
-    Na prática, a eficácia das diferentes implementações E2EE varia. As aplicações, como o [Signal](../real-time-communication.md#signal), são executadas nativamente no seu dispositivo e todas as cópias da aplicação são as mesmas em diferentes instalações. Se o fornecedor de serviços introduzisse um [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) na sua aplicação - numa tentativa de roubar as suas chaves privadas - esse facto poderia mais tarde ser detetado através de [engenharia inversa] (https://en.wikipedia.org/wiki/Reverse_engineering).
-    
-    Por outro lado, as implementações E2EE baseadas na Web, como o webmail do Proton Mail ou o *Web Vault* da Bitwarden, dependem do servidor que fornece dinamicamente código JavaScript ao browser para tratar da criptografia. Um servidor malicioso pode visá-lo e enviar-lhe código JavaScript malicioso para roubar a sua chave de encriptação (e seria extremamente difícil de notar). Uma vez que o servidor pode optar por servir clientes Web diferentes a pessoas diferentes - mesmo que se tenha apercebido do ataque - seria incrivelmente difícil provar a culpa do fornecedor.
-    
-    Por conseguinte, sempre que possível, deve utilizar aplicações nativas em vez de clientes Web.
+Na prática, a eficácia das diferentes implementações E2EE varia. As aplicações, como o [Signal](../real-time-communication.md#signal), são executadas nativamente no seu dispositivo e todas as cópias da aplicação são as mesmas em diferentes instalações. Se o fornecedor de serviços introduzisse um [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) na sua aplicação - numa tentativa de roubar as suas chaves privadas - esse facto poderia mais tarde ser detetado através de [engenharia inversa] (https://en.wikipedia.org/wiki/Reverse_engineering).
+
+Por outro lado, as implementações E2EE baseadas na Web, como o webmail do Proton Mail ou o *Web Vault* da Bitwarden, dependem do servidor que fornece dinamicamente código JavaScript ao browser para tratar da criptografia. Um servidor malicioso pode visá-lo e enviar-lhe código JavaScript malicioso para roubar a sua chave de encriptação (e seria extremamente difícil de notar). Uma vez que o servidor pode optar por servir clientes Web diferentes a pessoas diferentes - mesmo que se tenha apercebido do ataque - seria incrivelmente difícil provar a culpa do fornecedor.
+
+Por conseguinte, sempre que possível, deve utilizar aplicações nativas em vez de clientes Web.
+
+</div>
 
 Mesmo com a E2EE, os fornecedores de serviços podem ainda traçar o seu perfil com base nos **metadados**, que normalmente não estão protegidos. Embora o fornecedor de serviços não possa ler as suas mensagens, pode observar coisas importantes, como com quem está a falar, com que frequência lhes envia mensagens e quando está normalmente ativo. A proteção de metadados é bastante invulgar e, se estiver incluída no seu [modelo de ameaças](threat-modeling.md), deve prestar muita atenção à documentação técnica do software que está a utilizar, de forma a verificar se existe alguma minimização ou proteção de metadados.
 
@@ -77,17 +86,23 @@ Mesmo com a E2EE, os fornecedores de serviços podem ainda traçar o seu perfil 
 
 A vigilância em massa é o esforço intrincado para monitorizar o "comportamento, atividades ou informações" de toda uma população (ou de uma sua fração substancial).[^1] Refere-se frequentemente a programas governamentais, como os [ revelados por Edward Snowden em 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). No entanto, também pode ser efetuada por empresas, quer em nome de agências governamentais, quer por sua própria iniciativa.
 
-!!! resumo "Atlas da Vigilância"
+<div class="admonition abstract" markdown>
+<p class="admonition-title">Atlas of Surveillance</p>
 
-    Se quiser saber mais sobre os métodos de vigilância e a forma como são aplicados na sua cidade, pode consultar o [Atlas da Vigilância] (https://atlasofsurveillance.org/) da [Electronic Frontier Foundation] (https://www.eff.org/).
-    
-    Em França, pode consultar o [site Technolopolice] (https://technopolice.fr/villes/), mantido pela associação sem fins lucrativos La Quadrature du Net.
+Se quiser saber mais sobre os métodos de vigilância e a forma como são aplicados na sua cidade, pode consultar o [Atlas da Vigilância] (https://atlasofsurveillance.org/) da [Electronic Frontier Foundation] (https://www.eff.org/).
+
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+
+</div>
 
 Os governos justificam frequentemente os programas de vigilância em massa como meios necessários para combater o terrorismo e prevenir a criminalidade. No entanto, e violando os direitos humanos, é mais frequentemente utilizado para atingir de forma desproporcionada grupos minoritários e dissidentes políticos, entre outros.
 
-!!! quote "ACLU: [*A lição de privacidade do 11 de setembro: A vigilância em massa não é o caminho a seguir*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+<div class="admonition quote" markdown>
+<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-    Perante [as revelações de Edward Snowden sobre programas governamentais como [PRISM](https://en.wikipedia.org/wiki/PRISM) e [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], os funcionários dos serviços secretos também admitiram que a NSA recolhia secretamente, há anos, registos sobre praticamente todas as chamadas telefónicas dos americanos - quem liga a quem, quando são feitas e quanto tempo duram. Este tipo de informação, quando recolhida pela NSA dia após dia, pode revelar pormenores incrivelmente sensíveis sobre a vida e as associações das pessoas, como por exemplo, se telefonaram a um pastor, a um fornecedor de abortos, a um conselheiro de toxicodependência ou a uma linha de apoio ao suicídio.
+Perante [as revelações de Edward Snowden sobre programas governamentais como [PRISM](https://en.wikipedia.org/wiki/PRISM) e [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], os funcionários dos serviços secretos também admitiram que a NSA recolhia secretamente, há anos, registos sobre praticamente todas as chamadas telefónicas dos americanos - quem liga a quem, quando são feitas e quanto tempo duram. Este tipo de informação, quando recolhida pela NSA dia após dia, pode revelar pormenores incrivelmente sensíveis sobre a vida e as associações das pessoas, como por exemplo, se telefonaram a um pastor, a um fornecedor de abortos, a um conselheiro de toxicodependência ou a uma linha de apoio ao suicídio.
+
+</div>
 
 Apesar da crescente vigilância em massa nos Estados Unidos, o governo concluiu que os programas de vigilância em massa, como a Secção 215, têm tido "pouco valor único" no que diz respeito a impedir crimes reais ou conspirações terroristas, com esforços que duplicam em grande parte os programas de vigilância direcionada do próprio FBI.[^2]
 
@@ -133,11 +148,14 @@ A censura nas plataformas corporativas é cada vez mais comum, uma vez que plata
 
 As pessoas que se preocupam com a ameaça da censura podem usar tecnologias como o [Tor](../advanced/tor-overview.md) para contorná-la, e utilizar plataformas de comunicação resistentes à censura, como o [Matrix](../real-time-communication.md#element), que não tem uma autoridade de conta centralizada que pode fechar as contas arbitrariamente.
 
-!!! dica
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Enquanto evitar a censura em si pode ser fácil, esconder esse facto pode ser muito problemático.
-    
-    Deve considerar quais os aspetos da rede que o seu adversário pode observar e se tem negação plausível das suas ações. Por exemplo, usar [DNS criptografado](../advanced/dns-overview.md#what-is-encrypted-dns) pode ajudá-lo a contornar sistemas rudimentares de censura baseados em DNS, mas não pode realmente esconder as suas atividades online do seu ISP. Uma VPN ou o Tor podem ajudar a esconder o que está a visitar dos administradores de rede, mas não pode esconder o facto de estar a usar essas redes. Transportes conectáveis (como Obfs4proxy, Meek ou Shadowsocks) podem ajudá-lo a evitar firewalls que bloqueiam protocolos VPN comuns ou Tor, mas as suas tentativas de contornar o problema podem ser detetadas através de métodos como sondagem ou [inspeção profunda de pacotes](https://en. wikipedia.org/wiki/Deep_packet_inspection).
+Enquanto evitar a censura em si pode ser fácil, esconder esse facto pode ser muito problemático.
+
+Deve considerar quais os aspetos da rede que o seu adversário pode observar e se tem negação plausível das suas ações. Por exemplo, usar [DNS criptografado](../advanced/dns-overview.md#what-is-encrypted-dns) pode ajudá-lo a contornar sistemas rudimentares de censura baseados em DNS, mas não pode realmente esconder as suas atividades online do seu ISP. Uma VPN ou o Tor podem ajudar a esconder o que está a visitar dos administradores de rede, mas não pode esconder o facto de estar a usar essas redes. Transportes conectáveis (como Obfs4proxy, Meek ou Shadowsocks) podem ajudá-lo a evitar firewalls que bloqueiam protocolos VPN comuns ou Tor, mas as suas tentativas de contornar o problema podem ser detetadas através de métodos como sondagem ou [inspeção profunda de pacotes](https://en. wikipedia.org/wiki/Deep_packet_inspection).
+
+</div>
 
 Deve sempre considerar os riscos de tentar contornar a censura, as possíveis consequências e o quão sofisticado o seu adversário pode ser. Deve ser cauteloso com a sua seleção de software e ter um plano de backup, caso seja apanhado.
 

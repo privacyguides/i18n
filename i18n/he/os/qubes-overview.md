@@ -10,9 +10,12 @@ description: Qubes היא מערכת הפעלה הבנויה סביב בידוד
 
 Qubes משתמשת ב[מידור](https://www.qubes-os.org/intro/) כדי לשמור על אבטחת המערכת. Qubes נוצרים מתבניות, ברירת המחדל היא עבור Fedora, Debian ו-[Whonix](../desktop.md#whonix). מערכת ההפעלה Qubes מאפשרת לך גם ליצור [חד פעמי](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes* לשימוש חד פעמי.
 
-??? "המונח *qubes* מתעדכן בהדרגה כדי להימנע מהתייחסות אליהם כ"מכונות וירטואליות"."
+<details class="note" markdown>
+<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
 
-    חלק מהמידע כאן ובתיעוד של מערכת ההפעלה של Qubes עשוי להכיל שפה סותרת מכיוון שהמונח "appVM" משתנה בהדרגה ל-"qube". Qubes הם לא מכונות וירטואליות שלמות, אבל שומרים על פונקציונליות דומות ל-VMs.
+חלק מהמידע כאן ובתיעוד של מערכת ההפעלה של Qubes עשוי להכיל שפה סותרת מכיוון שהמונח "appVM" משתנה בהדרגה ל-"qube". Qubes הם לא מכונות וירטואליות שלמות, אבל שומרים על פונקציונליות דומות ל-VMs.
+
+</details>
 
 ![ארכיטקטורת Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>ארכיטקטורת Qubes, קרדיט: מהי הקדמה למערכת ההפעלה של Qubes</figcaption>
@@ -41,9 +44,12 @@ Qubes OS משתמשת ב-[דום0](https://wiki.xenproject.org/wiki/Dom0)Xen VM 
 
 כדי להעתיק ולהדביק קבצים וספריות (תיקיות) מ*qube* אחד לאחר, אתה יכול להשתמש באפשרות **העתק ל-AppVM אחר...** או **העבר ל-AppVM אחר...**. ההבדל הוא שהאפשרות ה**העבר** תמחק את הקובץ המקורי. כל אחת מהאפשרויות תגן על הלוח שלך מפני דליפה לכל *qubes* אחרים. זה מאובטח יותר מהעברת קבצים ברווח-אוויר. מחשב עם מרווח אוויר עדיין ייאלץ לנתח מחיצות או מערכות קבצים. זה לא נדרש עם מערכת ההעתקה inter-qube.
 
-??? "ל-Qubes אין מערכות קבצים משלהם."
+<details class="note" markdown>
+<summary>Qubes do not have their own filesystems.</summary>
 
-    אתה יכול [להעתיק ולהעביר קבצים](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) בין *qubes*. כאשר עושים זאת השינויים לא מתבצעים באופן מיידי וניתן לבטל אותם בקלות במקרה של תאונה. כאשר אתה מפעיל *qube*, אין לו מערכת קבצים מתמשכת. אתה יכול ליצור ולמחוק קבצים, אבל השינויים האלה הם ארעיים.
+You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. כאשר עושים זאת השינויים לא מתבצעים באופן מיידי וניתן לבטל אותם בקלות במקרה של תאונה. When you run a *qube*, it does not have a persistent filesystem. אתה יכול ליצור ולמחוק קבצים, אבל השינויים האלה הם ארעיים.
+
+</details>
 
 ### אינטראקציות בין-VM
 

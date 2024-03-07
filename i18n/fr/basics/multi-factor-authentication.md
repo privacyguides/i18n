@@ -140,9 +140,12 @@ Cette commande empêchera un adversaire de contourner le MFA au démarrage de l'
 
 ### Linux
 
-!!! warning "Avertissement"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avertissement</p>
 
-    Si le nom d'hôte de votre système change (par exemple à cause du DHCP), vous ne pourrez pas vous connecter. Il est essentiel que vous configuriez un nom d'hôte approprié pour votre ordinateur avant de suivre ce guide.
+Si le nom d'hôte de votre système change (par exemple à cause du DHCP), vous ne pourrez pas vous connecter. Il est essentiel que vous configuriez un nom d'hôte approprié pour votre ordinateur avant de suivre ce guide.
+
+</div>
 
 Le module `pam_u2f` sous Linux peut fournir une authentification à deux facteurs pour se connecter sur la plupart des distributions Linux populaires. Si vous avez une clé de sécurité matérielle qui prend en charge U2F, vous pouvez configurer l'authentification MFA pour votre connexion. Yubico a un guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) qui devrait fonctionner sur n'importe quelle distribution. Les commandes du gestionnaire de paquets - telles que `apt-get`- et les noms de paquets peuvent toutefois différer. Ce guide ne s'applique **pas** à Qubes OS.
 

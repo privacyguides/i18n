@@ -1,7 +1,7 @@
 ---
-title: Android Overzicht
+title: Android Overview
 icon: simple/android
-description: Android is een open-source besturingssysteem met sterke beveiliging, waardoor het onze topkeuze is voor telefoons.
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
@@ -99,13 +99,19 @@ Een app kan een toestemming vragen voor een specifieke functie die hij heeft. Bi
 
 [Exodus](https://exodus-privacy.eu.org/) kan nuttig zijn bij het vergelijken van apps die vergelijkbare doelen hebben. Als een app veel machtigingen nodig heeft en veel advertenties en analytics heeft, is dit waarschijnlijk een slecht teken. Wij raden aan de individuele trackers te bekijken en hun beschrijvingen te lezen in plaats van eenvoudigweg **het totaal** te tellen en aan te nemen dat alle vermelde items gelijk zijn.
 
-!!! warning
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Als een app vooral een webdienst is, kan de tracking aan de serverzijde plaatsvinden. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) toont "geen trackers", maar volgt zeker de interesses en het gedrag van gebruikers op de site. Apps kunnen detectie omzeilen door geen gebruik te maken van door de reclame-industrie geproduceerde standaardcodebibliotheken, hoewel dit onwaarschijnlijk is.
+Als een app vooral een webdienst is, kan de tracking aan de serverzijde plaatsvinden. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) toont "geen trackers", maar volgt zeker de interesses en het gedrag van gebruikers op de site. Apps kunnen detectie omzeilen door geen gebruik te maken van door de reclame-industrie geproduceerde standaardcodebibliotheken, hoewel dit onwaarschijnlijk is.
 
-!!! note
+</div>
 
-    Privacy-vriendelijke apps zoals [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) kunnen sommige trackers tonen zoals [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Deze bibliotheek bevat [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) die [pushmeldingen](https://en.wikipedia.org/wiki/Push_technology) in apps kan bieden. Dit [is het geval](https://fosstodon.org/@bitwarden/109636825700482007) met Bitwarden. Dat betekent niet dat Bitwarden alle analysefuncties gebruikt die Google Firebase Analytics biedt.
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
+
+Privacy-vriendelijke apps zoals [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) kunnen sommige trackers tonen zoals [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Deze bibliotheek bevat [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) die [pushmeldingen](https://en.wikipedia.org/wiki/Push_technology) in apps kan bieden. Dit [is het geval](https://fosstodon.org/@bitwarden/109636825700482007) met Bitwarden. Dat betekent niet dat Bitwarden alle analysefuncties gebruikt die Google Firebase Analytics biedt.
+
+</div>
 
 ## Privacy Features
 

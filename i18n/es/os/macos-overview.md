@@ -1,7 +1,7 @@
 ---
-title: Vista general de macOS
+title: macOS Overview
 icon: material/apple-finder
-description: macOS es el sistema operativo de escritorio de Apple que trabaja con su hardware para ofrecer una seguridad sólida.
+description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
 
 **macOS** es un sistema operativo Unix desarrollado por Apple para sus ordenadores Mac. Para mejorar la privacidad en macOS, puedes desactivar las funciones de telemetría y reforzar los ajustes de privacidad y seguridad existentes.
@@ -156,9 +156,12 @@ macOS utiliza la defensa en profundidad, confiando en múltiples capas de protec
 
 ### Seguridad del software
 
-!!! warning "Advertencia"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Advertencia</p>
 
-    macOS permite instalar actualizaciones de prueba. Estas son inestables y pueden incluir telemetría adicional, porque son para fines de prueba. Debido a esto, recomendamos evitar las actualizaciones de prueba del software en general.
+macOS permite instalar actualizaciones de prueba. Estas son inestables y pueden incluir telemetría adicional, porque son para fines de prueba. Debido a esto, recomendamos evitar las actualizaciones de prueba del software en general.
+
+</div>
 
 #### Volumen firmado del sistema
 
@@ -178,9 +181,12 @@ La Protección de la integridad del sistema hace que las ubicaciones de los arch
 
 Para las aplicaciones de macOS descargadas desde App Store, es necesario que estas se encuentren virtualizadas utilizando el [Sandbox de aplicaciones](https://developer.apple.com/documentation/security/app_sandbox).
 
-!!! warning "Advertencia"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Advertencia</p>
 
-    El software descargado desde fuera de la App Store oficial no necesita ser virtualizado. Debes evitar en la medida de lo posible el software que no se encuentre en la App Store.
+El software descargado desde fuera de la App Store oficial no necesita ser virtualizado. Debes evitar en la medida de lo posible el software que no se encuentre en la App Store.
+
+</div>
 
 ##### Antivirus
 

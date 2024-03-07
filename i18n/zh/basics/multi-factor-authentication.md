@@ -140,9 +140,12 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 ### Linux系统
 
-!!! 推荐
+<div class="admonition warning" markdown>
+<p class="admonition-title">警告</p>
 
-    如果你的系统的主机名改变了（如由于DHCP的原因），你将无法登录。 在遵循本指南之前，为您的计算机设置正确的主机名至关重要。
+如果你的系统的主机名改变了（如由于DHCP的原因），你将无法登录。 在遵循本指南之前，为您的计算机设置正确的主机名至关重要。
+
+</div>
 
 Linux上的 `pam_u2f` 模块可以在大多数流行的Linux发行版上为登录提供双因素认证。 如果你有一个支持U2F的硬件安全密钥，你可以为你的登录设置MFA认证。 Yubico有一个指南 [Ubuntu Linux登录指南 - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) ，它应该适用于任何发行版。 然而，软件包管理器的命令--如 `apt-get`--和软件包名称可能不同。 本指南 **不** 适用于Qubes OS。
 

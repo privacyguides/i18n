@@ -45,13 +45,16 @@ Alcuni provider di VPN e altre pubblicazioni raccomandano occasionalmente queste
 
 ---
 
-!!! info "VPN/SSH Fingerprinting"
+<div class="admonition info" markdown>
+<p class="admonition-title">VPN/SSH Fingerprinting</p>
 
-    Il Tor Project [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) afferma che *teoricamente* l'utilizzo di una VPN per nascondere le attività Tor al proprio ISP potrebbe non essere infallibile. Le VPN sono risultate vulnerabili al fingerprinting del traffico dei siti web, in cui un avversario può comunque indovinare quale sito web viene visitato, perché tutti i siti web hanno modelli di traffico specifici.
-    
-    Pertanto, non è irragionevole credere che anche il traffico Tor crittografato nascosto da una VPN possa essere rilevato con metodi simili. Non esistono ricerche in merito e riteniamo che i vantaggi dell'utilizzo di una VPN siano di gran lunga superiori a questi rischi, ma è un aspetto da tenere presente.
-    
-    Se sei ancora convinto che i trasporti collegabili (bridge) forniscano una protezione aggiuntiva contro il fingerprinting del traffico dei siti web che una VPN non offre, hai sempre la possibilità di utilizzare un bridge **e** una VPN insieme.
+Il Tor Project [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) afferma che *teoricamente* l'utilizzo di una VPN per nascondere le attività Tor al proprio ISP potrebbe non essere infallibile. Le VPN sono risultate vulnerabili al fingerprinting del traffico dei siti web, in cui un avversario può comunque indovinare quale sito web viene visitato, perché tutti i siti web hanno modelli di traffico specifici.
+
+Pertanto, non è irragionevole credere che anche il traffico Tor crittografato nascosto da una VPN possa essere rilevato con metodi simili. Non esistono ricerche in merito e riteniamo che i vantaggi dell'utilizzo di una VPN siano di gran lunga superiori a questi rischi, ma è un aspetto da tenere presente.
+
+Se sei ancora convinto che i trasporti collegabili (bridge) forniscano una protezione aggiuntiva contro il fingerprinting del traffico dei siti web che una VPN non offre, hai sempre la possibilità di utilizzare un bridge **e** una VPN insieme.
+
+</div>
 
 Per stabilire se sia il caso di utilizzare una VPN per connettersi alla rete Tor è necessario un po' di buon senso e la conoscenza delle politiche del proprio governo e del proprio ISP in merito a ciò a cui ci si connette. Tuttavia, anche in questo caso, nella maggior parte dei casi sarà meglio essere visti come connessi a una rete VPN commerciale piuttosto che direttamente alla rete Tor. Se i provider di VPN sono censurati nella tua zona, puoi anche considerare l'utilizzo di trasporti Tor pluggable (ad esempio Snowflake o meek bridge) come alternativa, ma l'uso di questi bridge può destare più sospetti rispetto ai tunnel WireGuard/OpenVPN standard.
 

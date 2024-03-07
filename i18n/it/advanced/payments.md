@@ -1,5 +1,5 @@
 ---
-title: Pagamenti privati
+title: Private Payments
 icon: material/hand-coin
 ---
 
@@ -45,11 +45,14 @@ Queste, tendono a essere buone opzioni per i pagamenti ricorrenti/abbonamenti on
 
 Le criptovalute sono una forma di valuta digitale, progettata per funzionare senza autorità centrale, come un governo o una banca. Mentre *alcuni* progetti di criptovalute possono consentirti di effettuare transazioni private online, molti utilizzano una blockchain pubblica che non fornisce alcuna privacy delle transazioni. Inoltre, le criptovalute tendono a essere risorse molto volatili, a significare che il loro valore può cambiare rapidamente e significativamente, in qualsiasi momento. Per questo, generalmente, sconsigliamo l'utilizzo di criptovalute come riserva di valore a lungo termine. Se decidi di utilizzare le criptovalute online, assicurati prima di avere la piena comprensione degli aspetti relativi alla privacy, e di investire soltanto somme che non sarebbero disastrose da perdere.
 
-!!! danger "Attenzione"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Attenzione</p>
 
-    La maggior parte delle criptovalute operano su una blockchain **pubblica**, il che significa che ogni transazione è di dominio pubblico. Ciò include anche gran parte delle criptovalute più note, come Bitcoin ed Ethereum. Le transazioni con tali criptovalute non dovrebbero essere considerate private e non proteggeranno il tuo anonimato.
-    
-    Inoltre, molte, se non la maggior parte, delle criptovalute sono truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
+La maggior parte delle criptovalute operano su una blockchain **pubblica**, il che significa che ogni transazione è di dominio pubblico. Ciò include anche gran parte delle criptovalute più note, come Bitcoin ed Ethereum. Le transazioni con tali criptovalute non dovrebbero essere considerate private e non proteggeranno il tuo anonimato.
+
+Inoltre, molte, se non la maggior parte, delle criptovalute sono truffe. Effettua attentamente le transazioni, soltanto con i progetti di cui ti fidi.
+
+</div>
 
 ### Privacy Coin
 

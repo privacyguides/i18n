@@ -1,7 +1,7 @@
 ---
-title: Introduction à macOS
+title: macOS Overview
 icon: material/apple-finder
-description: macOS est le système d'exploitation d'Apple pour ordinateurs de bureau fonctionnant avec leur propre matériel pour assurer une sécurité renforcée.
+description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
 
 **macOS** est un système d'exploitation Unix développé par Apple pour leurs ordinateurs Mac. Pour améliorer la confidentialité de macOS, il est possible de désactiver la télémétrie et renforcer les paramètres existants de confidentialité et de sécurité.
@@ -156,9 +156,12 @@ macOS utilise la défense en profondeur en s'appuyant sur plusieurs couches de p
 
 ### Sécurité du logiciel
 
-!!! warning "Avertissement"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avertissement</p>
 
-    macOS vous permet d'installer des mises à jour bêta. Elles sont instables et peuvent être accompagnées de données télémétriques supplémentaires puisqu'elles sont utilisées à des fins de test. Pour cette raison, nous vous recommandons d'éviter les logiciels bêta en général.
+macOS vous permet d'installer des mises à jour bêta. Elles sont instables et peuvent être accompagnées de données télémétriques supplémentaires puisqu'elles sont utilisées à des fins de test. Pour cette raison, nous vous recommandons d'éviter les logiciels bêta en général.
+
+</div>
 
 #### Volume du système signé
 
@@ -178,9 +181,12 @@ La protection de l'intégrité du système met en lecture seule les emplacements
 
 Les applications macOS téléchargées à partir de l'App Store doivent être mises en sandbox à l'aide de [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
-!!! warning "Avertissement"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avertissement</p>
 
-    Les logiciels téléchargés en dehors de l'App Store officiel n'ont pas besoin d'être placés en sandbox. Vous devriez éviter autant que possible les logiciels qui ne font pas partie de l'App Store.
+Les logiciels téléchargés en dehors de l'App Store officiel n'ont pas besoin d'être placés en sandbox. Vous devriez éviter autant que possible les logiciels qui ne font pas partie de l'App Store.
+
+</div>
 
 ##### Antivirus
 

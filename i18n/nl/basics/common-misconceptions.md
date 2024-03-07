@@ -75,20 +75,23 @@ Dus, hoe zou dit eruit zien?
 
 Een van de duidelijkste dreigingsmodellen is een model waarbij mensen *weten wie je bent* en een model waarbij ze dat niet weten. Er zullen altijd situaties zijn waarin je je wettelijke naam moet opgeven en er zijn situaties waarin je dat niet hoeft te doen.
 
-1. **Bekende identiteit** - Een bekende identiteit wordt gebruikt voor zaken waarbij je jouw naam moet opgeven. Er zijn veel juridische documenten en contracten waar een wettelijke identiteit vereist is. Dit kan variëren van het openen van een bankrekening, het ondertekenen van een huurovereenkomst, het verkrijgen van een paspoort, douaneaangiften bij het importeren van spullen, of op andere manieren omgaan met de overheid. Deze dingen zullen meestal leiden tot referenties zoals creditcards, kredietwaardigheidscontroles, rekeningnummers en mogelijk fysieke adressen.
+1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-    We raden niet aan om een VPN of Tor voor een van deze dingen te gebruiken, omdat je identiteit al op andere manieren bekend is.
+We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-    !!! tip
-   
-        Wanneer je online winkelt, kan het gebruik van een [pakketkluis](https://en.wikipedia.org/wiki/Parcel_locker) helpen om jouw fysieke adres privé te houden.
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+Wanneer je online winkelt, kan het gebruik van een [pakketkluis](https://en.wikipedia.org/wiki/Parcel_locker) helpen om jouw fysieke adres privé te houden.
+
+</div>
 
 2. **Onbekende identiteit** - Een onbekende identiteit kan een stabiel pseudoniem zijn dat je regelmatig gebruikt. Het is niet anoniem omdat het niet verandert. Als je deel uitmaakt van een online gemeenschap, wilt je misschien een identiteit behouden dat anderen kennen. Dit pseudoniem is niet anoniem omdat - indien lang genoeg gevolgd - details over de eigenaar verdere informatie kunnen onthullen, zoals de manier waarop hij of zij schrijft, algemene kennis over interessante onderwerpen, enz.
 
-    Je kunt hiervoor eventueel een VPN gebruiken om jouw IP-adres te maskeren. Financiële transacties zijn moeilijker te maskeren: je kunt hier overwegen anonieme crypto valuta te gebruiken, zoals [Monero](https://www.getmonero.org/). Het gebruik van altcoin-shifting kan ook helpen om te verbergen waar jouw valuta vandaan komt. Doorgaans vereisen exchanges dat KYC (know your customer/ ken jouw klant) wordt ingevuld voordat zij u toestaan fiat valuta zoals euro's en dollars om te wisselen in een of andere crypto valuta. Lokale meet-ups kunnen ook een oplossing zijn; deze zijn echter vaak duurder en vereisen soms ook KYC.
+Je kunt hiervoor eventueel een VPN gebruiken om jouw IP-adres te maskeren. Financiële transacties zijn moeilijker te maskeren: je kunt hier overwegen anonieme crypto valuta te gebruiken, zoals [Monero](https://www.getmonero.org/). Het gebruik van altcoin-shifting kan ook helpen om te verbergen waar jouw valuta vandaan komt. Doorgaans vereisen exchanges dat KYC (know your customer/ ken jouw klant) wordt ingevuld voordat zij u toestaan fiat valuta zoals euro's en dollars om te wisselen in een of andere crypto valuta. Lokale meet-ups kunnen ook een oplossing zijn; deze zijn echter vaak duurder en vereisen soms ook KYC.
 
 3. **Anonieme identiteit** - zelfs met ervaring, anonieme identiteiten zijn moeilijk te behouden voor lange perioden. Deze identiteiten horen een korte levensduur te hebben, en dienen regelmatig gerouleerd te worden.
 
-    Het gebruik van Tor kan hierbij helpen. Ook moet worden opgemerkt dat een grotere anonimiteit mogelijk is door asynchrone communicatie: Real-time communicatie is kwetsbaar voor analyse van typpatronen (d.w.z. meer dan een alinea tekst, verspreid op een forum, via e-mail, enz.)
+Het gebruik van Tor kan hierbij helpen. Ook moet worden opgemerkt dat een grotere anonimiteit mogelijk is door asynchrone communicatie: Real-time communicatie is kwetsbaar voor analyse van typpatronen (d.w.z. meer dan een alinea tekst, verspreid op een forum, via e-mail, enz.)
 
 [^1]: Een opmerkelijk voorbeeld hiervan is het incident van [2021, waarbij onderzoekers van de Universiteit van Minnesota drie kwetsbaarheden in het Linux-kernelontwikkelingsproject](https://cse.umn.edu/cs/linux-incident)introduceerden.

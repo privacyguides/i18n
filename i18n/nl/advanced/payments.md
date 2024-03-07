@@ -1,5 +1,5 @@
 ---
-title: Privé betalingen
+title: Private Payments
 icon: material/hand-coin
 ---
 
@@ -45,11 +45,14 @@ Dit zijn meestal goede opties voor online terugkerende betalingen/abonnementen, 
 
 Cryptocurrencies zijn een digitale vorm van valuta die is ontworpen om te werken zonder centrale autoriteiten zoals een overheid of bank. Hoewel *sommige* cryptocurrency-projecten je in staat stellen online privétransacties te verrichten, gebruiken vele een openbare blockchain die geen enkele transactieprivacy biedt. Cryptovaluta's zijn ook zeer volatiele assets, wat betekent dat hun waarde op elk moment snel en aanzienlijk kan veranderen. Als zodanig raden we over het algemeen niet aan om cryptocurrency te gebruiken als een lange termijn opslag van waarde. Als je besluit cryptocurrency online te gebruiken, zorg er dan voor dat je vooraf volledig op de hoogte bent van de privacy-aspecten ervan, en investeer alleen bedragen die niet rampzalig zijn om te verliezen.
 
-!!! danger "Gevaar"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    De overgrote meerderheid van de cryptocurrencies werkt op een **publieke** blockchain, wat betekent dat elke transactie publiekelijk bekend is. Dit omvat zelfs de meeste bekende cryptocurrencies zoals Bitcoin en Ethereum. Transacties met deze cryptocurrencies mogen niet als privé worden beschouwd en zullen jouw anonimiteit niet beschermen.
-    
-    Daarnaast zijn veel of misschien niet de meeste cryptovaluta's oplichters. Voer transacties zorgvuldig uit met alleen projecten die je vertrouwt.
+De overgrote meerderheid van de cryptocurrencies werkt op een **publieke** blockchain, wat betekent dat elke transactie publiekelijk bekend is. Dit omvat zelfs de meeste bekende cryptocurrencies zoals Bitcoin en Ethereum. Transacties met deze cryptocurrencies mogen niet als privé worden beschouwd en zullen jouw anonimiteit niet beschermen.
+
+Daarnaast zijn veel of misschien niet de meeste cryptovaluta's oplichters. Voer transacties zorgvuldig uit met alleen projecten die je vertrouwt.
+
+</div>
 
 ### Privacy Coins
 

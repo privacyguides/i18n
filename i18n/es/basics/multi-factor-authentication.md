@@ -140,9 +140,12 @@ El comando evitará que un adversario se salte la MFA al arrancar el ordenador.
 
 ### Linux
 
-!!! warning "Advertencia"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Advertencia</p>
 
-    Si el nombre de host de tu sistema cambia (por ejemplo, debido al DHCP), no podrás iniciar sesión. Es vital que configures un nombre de host adecuado para tu ordenador antes de seguir esta guía.
+Si el nombre de host de tu sistema cambia (por ejemplo, debido al DHCP), no podrás iniciar sesión. Es vital que configures un nombre de host adecuado para tu ordenador antes de seguir esta guía.
+
+</div>
 
 El módulo `pam_u2f` en Linux puede proporcionar autenticación de dos factores para iniciar sesión en las distribuciones Linux más populares. Si tienes una llave de seguridad de hardware compatible con U2F, puedes configurar la autenticación MFA para tu inicio de sesión. Yubico tiene una guía [Guía de inicio de sesión en Ubuntu Linux - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) que debería funcionar en cualquier distribución. Sin embargo, los comandos del gestor de paquetes—como `"apt-get"`—y los nombres de los paquetes pueden ser diferentes. Esta guía **no** le aplica a Qubes OS.
 

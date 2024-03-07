@@ -1,7 +1,7 @@
 ---
-title: Android áttekintés
+title: Android Overview
 icon: simple/android
-description: Az Android egy nyílt forráskódú operációs rendszer, amely erős biztonsági védelemmel rendelkezik, ezért ez az elsődleges választásunk telefonok esetében.
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
@@ -99,13 +99,19 @@ Egy alkalmazás engedélyt kérhet egy adott funkciójához. Például minden ol
 
 Az [Exodus](https://exodus-privacy.eu.org/) hasznos lehet hasonló célú alkalmazások összehasonlításakor. Ha egy alkalmazás sok engedélyt igényel, valamint sok reklámot és elemzést tartalmaz, az valószínűleg egy rossz jel. Javasoljuk, hogy tekintsd meg az egyes nyomkövetőket és olvasd el a leírásukat, ahelyett, hogy egyszerűen **megszámolod az összeset** azt feltételezve, hogy a felsorolt tételek egyenlőek.
 
-!!! warning
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Ha egy alkalmazás többnyire egy webalapú szolgáltatás, a nyomon követés történhet a szerveroldalon. A [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) azt mutatja, hogy "nincsenek nyomkövetők", de minden bizonnyal nyomon követi a felhasználók érdeklődését és viselkedését az oldalon. Alkalmazások elkerülhetik az észlelést azzal, hogy nem használják a reklámipar által készített szabványos kódkönyvtárakat, bár ez nem valószínű.
+Ha egy alkalmazás többnyire egy webalapú szolgáltatás, a nyomon követés történhet a szerveroldalon. A [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) azt mutatja, hogy "nincsenek nyomkövetők", de minden bizonnyal nyomon követi a felhasználók érdeklődését és viselkedését az oldalon. Alkalmazások elkerülhetik az észlelést azzal, hogy nem használják a reklámipar által készített szabványos kódkönyvtárakat, bár ez nem valószínű.
 
-!!! note
+</div>
 
-    Az olyan magánélet-barát alkalmazások, mint a [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), megjeleníthetnek néhány nyomkövetőt, mint például a [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Ez a könyvtár tartalmazza a [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)-et, amely [push értesítéseket](https://en.wikipedia.org/wiki/Push_technology) tud nyújtani az alkalmazásoknak. Ez [a helyzet](https://fosstodon.org/@bitwarden/109636825700482007) a Bitwardennel is. Ez nem jelenti azt, hogy a Bitwarden a Google Firebase Analytics által biztosított összes elemzési funkciót használja.
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
+
+Az olyan magánélet-barát alkalmazások, mint a [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), megjeleníthetnek néhány nyomkövetőt, mint például a [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Ez a könyvtár tartalmazza a [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)-et, amely [push értesítéseket](https://en.wikipedia.org/wiki/Push_technology) tud nyújtani az alkalmazásoknak. Ez [a helyzet](https://fosstodon.org/@bitwarden/109636825700482007) a Bitwardennel is. Ez nem jelenti azt, hogy a Bitwarden a Google Firebase Analytics által biztosított összes elemzési funkciót használja.
+
+</div>
 
 ## Adatvédelmi funkciók
 

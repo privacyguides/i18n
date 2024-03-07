@@ -10,9 +10,12 @@ description: Qubes adalah sistem operasi yang dibangun dengan mengisolasi aplika
 
 Qubes menggunakan kompartementalisasi [](https://www.qubes-os.org/intro/) untuk menjaga sistem tetap aman. Qubes dibuat dari beberapa template, umumnya untuk Fedora, Debian dan [Whonix](../desktop.md#whonix). Qubes OS juga memungkinkan Anda untuk membuat [sekali pakai](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes sekali pakai*.
 
-??? "Istilah *qubes* secara bertahap diperbarui untuk menghindari penyebutan sebagai "mesin virtual"."
+<details class="note" markdown>
+<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
 
-    Beberapa informasi di sini dan di dokumentasi Qubes OS mungkin mengandung bahasa yang bertentangan karena istilah "appVM" secara bertahap diubah menjadi "qube". Qubes bukanlah mesin virtual secara keseluruhan, tetapi memiliki fungsi yang serupa dengan VM.
+Beberapa informasi di sini dan di dokumentasi Qubes OS mungkin mengandung bahasa yang bertentangan karena istilah "appVM" secara bertahap diubah menjadi "qube". Qubes bukanlah mesin virtual secara keseluruhan, tetapi memiliki fungsi yang serupa dengan VM.
+
+</details>
 
 ![Arsitektur Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Arsitektur Qubes, Kredit: Apa itu Qubes OS Intro</figcaption>
@@ -41,9 +44,12 @@ Anda dapat [menyalin dan menempelkan teks](https://www.qubes-os.org/doc/how-to-c
 
 Untuk menyalin dan menempelkan file dan direktori (folder) dari satu *qube* ke *qube* lainnya, Anda dapat menggunakan opsi **Copy to Other AppVM...** atau **Move to Other AppVM...**. Perbedaannya adalah bahwa opsi **Pindahkan** akan menghapus file asli. Opsi mana pun akan melindungi papan klip Anda agar tidak bocor ke *qubes* lainnya. Ini lebih aman daripada transfer file melalui udara. Komputer yang memiliki celah udara masih akan dipaksa untuk mengurai partisi atau sistem file. Hal itu tidak diperlukan dengan sistem penyalinan antar-qube.
 
-??? "Qubes tidak memiliki sistem file sendiri."
+<details class="note" markdown>
+<summary>Qubes do not have their own filesystems.</summary>
 
-    Anda dapat [menyalin dan memindahkan file](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) di antara *qubes*. Ketika melakukan hal tersebut, perubahan tidak langsung dilakukan dan dapat dengan mudah dibatalkan jika terjadi kecelakaan. Ketika Anda menjalankan *qube*, ia tidak memiliki sistem berkas yang persisten. Anda dapat membuat dan menghapus file, tetapi perubahan ini bersifat sementara.
+You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. Ketika melakukan hal tersebut, perubahan tidak langsung dilakukan dan dapat dengan mudah dibatalkan jika terjadi kecelakaan. When you run a *qube*, it does not have a persistent filesystem. Anda dapat membuat dan menghapus file, tetapi perubahan ini bersifat sementara.
+
+</details>
 
 ### Interaksi Antar-VM
 

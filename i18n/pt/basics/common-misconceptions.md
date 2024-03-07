@@ -75,20 +75,23 @@ Então, o que isto pode parecer?
 
 Um dos modelos de ameaça mais claros é aquele no qual as pessoas *sabem quem é* e aquele em que não sabem. Haverá sempre situações em que tem de declarar o seu nome legal e outras em que não precisa de o fazer.
 
-1. **Identidade conhecida** - A identidade conhecida é utilizada para situações em que é necessário declarar o seu nome. Existem muitos documentos jurídicos e contratos que exigem uma identidade legal. Pode tratar-se da abertura de uma conta bancária, da assinatura de um contrato de arrendamento de um imóvel, da obtenção de um passaporte, de declarações aduaneiras aquando da importação de artigos ou de qualquer outra forma de contacto com o seu governo. Estas coisas conduzem normalmente a credenciais como cartões de crédito, verificações de notação de crédito, números de conta e, possivelmente, endereços físicos.
+1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-    Não sugerimos utilizar uma VPN ou Tor para qualquer uma destas coisas, uma vez que a sua identidade já é conhecida mediante outros meios.
+We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-    !!! dica
-   
-        Nas compras online, a utilização de um [armário de encomendas](https://en.wikipedia.org/wiki/Parcel_locker) pode ajudar a manter o seu endereço físico privado.
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+Nas compras online, a utilização de um [armário de encomendas](https://en.wikipedia.org/wiki/Parcel_locker) pode ajudar a manter o seu endereço físico privado.
+
+</div>
 
 2. **Identidade desconhecida** - Uma identidade desconhecida pode ser um pseudónimo estável que utiliza regularmente. Não é anónimo porque não muda. Se faz parte de uma comunidade online, pode querer manter uma personalidade que os outros conheçam. Este pseudónimo não é anónimo porque — se for monitorizado durante tempo suficiente — os detalhes sobre o proprietário podem revelar mais informações, como a forma como escreve, o seu conhecimento geral sobre tópicos de interesse, etc.
 
-    Para o efeito, poderá utilizar uma VPN para ocultar o seu endereço IP. As transações financeiras são mais difíceis de mascarar: pode considerar a utilização de criptomoedas anónimas, como [Monero](https://www.getmonero.org/). A utilização da mudança de altcoin também pode ajudar a disfarçar a origem da sua moeda. Normalmente, as bolsas exigem que o COSC (conheça o seu cliente) seja concluído antes de permitirem a troca de moeda fiduciária por qualquer tipo de moeda criptográfica. As opções de encontros locais também podem ser uma solução; no entanto, estas são frequentemente mais caras e, por vezes, também exigem COSC.
+Para o efeito, poderá utilizar uma VPN para ocultar o seu endereço IP. As transações financeiras são mais difíceis de mascarar: pode considerar a utilização de criptomoedas anónimas, como [Monero](https://www.getmonero.org/). A utilização da mudança de altcoin também pode ajudar a disfarçar a origem da sua moeda. Normalmente, as bolsas exigem que o COSC (conheça o seu cliente) seja concluído antes de permitirem a troca de moeda fiduciária por qualquer tipo de moeda criptográfica. As opções de encontros locais também podem ser uma solução; no entanto, estas são frequentemente mais caras e, por vezes, também exigem COSC.
 
 3. **Identidade anónima** - Mesmo com experiência, as identidades anónimas são difíceis de manter durante longos períodos de tempo. Devem ser identidades de curto prazo e de curta duração, sendo objeto de rotação regular.
 
-    A utilização do Tor pode ajudar neste aspeto. É também de salientar que é possível um maior anonimato através da comunicação assíncrona: A comunicação em tempo real é vulnerável à análise de padrões de digitação (ou seja, mais do que um parágrafo de texto, distribuído num fórum, por correio eletrónico, etc.)
+A utilização do Tor pode ajudar neste aspeto. É também de salientar que é possível um maior anonimato através da comunicação assíncrona: A comunicação em tempo real é vulnerável à análise de padrões de digitação (ou seja, mais do que um parágrafo de texto, distribuído num fórum, por correio eletrónico, etc.)
 
 [^1]: Um exemplo notável é o incidente [2021 em que investigadores da Universidade do Minnesota introduziram três vulnerabilidades no projeto de desenvolvimento do kernel Linux](https://cse.umn.edu/cs/linux-incident).

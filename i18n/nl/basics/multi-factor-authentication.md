@@ -173,10 +173,12 @@ Het commando zal voorkomen dat een tegenstander MFA omzeilt wanneer de computer 
 
 ### Linux
 
-!!! warning
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Als de hostnaam van jouw systeem verandert (bijvoorbeeld door DHCP), zou je niet kunnen inloggen. Het is van vitaal belang dat je een correcte hostnaam instelt voor jouw computer alvorens deze gids te volgen.
-    
+Als de hostnaam van jouw systeem verandert (bijvoorbeeld door DHCP), zou je niet kunnen inloggen. Het is van vitaal belang dat je een correcte hostnaam instelt voor jouw computer alvorens deze gids te volgen.
+
+</div>
 
 De `pam_u2f` module op Linux kan twee-factor authenticatie bieden om in te loggen op de meeste populaire Linux distributies. Als je een hardware beveiligingssleutel hebt die U2F ondersteunt, kun je MFA verificatie instellen voor jouw aanmelding. Yubico heeft een gids [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) die zou moeten werken op elke distributie. De commando's van de pakketbeheerder - zoals `apt-get`- en de pakketnamen kunnen echter verschillen. Deze gids is **niet** van toepassing op Qubes OS.
 

@@ -1,7 +1,7 @@
 ---
-title: Обзор Android
+title: Android Overview
 icon: simple/android
-description: Android - это операционная система с открытым исходным кодом, которая предоставляет надежную защиту, что делает ее нашим главным выбором для телефонов.
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 ![Логотип Android](../assets/img/android/android.svg){ align=right }
@@ -99,13 +99,19 @@ Android 13:
 
 [Exodus](https://exodus-privacy.eu.org/) может быть полезен при сравнении приложений с похожими функциями. Если приложение запрашивает много разрешений и имеет много рекламы и аналитики, это вероятно плохой знак. Мы рекомендуем обращать внимание на конкретные трекеры и читать их описание, вместо того, чтобы просто **посчитать их общее количество** и предположить, что они все одинаковые.
 
-!!! warning "Осторожно"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Предупреждение</p>
 
-    Если приложение в основном представляет собой веб-сервис, отслеживание может происходить на стороне сервера. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) показывает 0 трекеров, но, безусловно, отслеживает интересы и поведение пользователей на сайте. Приложения могут избежать обнаружения, не используя стандартные библиотеки кода, созданные рекламной индустрией, хотя это маловероятно.
+Если приложение в основном представляет собой веб-сервис, отслеживание может происходить на стороне сервера. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) показывает 0 трекеров, но, безусловно, отслеживает интересы и поведение пользователей на сайте. Приложения могут избежать обнаружения, не используя стандартные библиотеки кода, созданные рекламной индустрией, хотя это маловероятно.
 
-!!! note "Примечание"
+</div>
 
-    Приложения, уважающие вашу конфиденциальность, например [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), могут показывать некоторые трекеры, например [Google Firebase Analytics] (https://reports.exodus-privacy.eu.org/en/trackers/49/). Эта библиотека включает [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging), которая нужна для поддержки [push-уведомлений](https://en.wikipedia.org/wiki/Push_technology) в приложениях. Именно [это относится](https://fosstodon.org/@bitwarden/109636825700482007) к Bitwarden. Это не означает, что Bitwarden использует все возможности аналитики, которые предоставляет Google Firebase Analytics.
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
+
+Приложения, уважающие вашу конфиденциальность, например [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), могут показывать некоторые трекеры, например [Google Firebase Analytics] (https://reports.exodus-privacy.eu.org/en/trackers/49/). Эта библиотека включает [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging), которая нужна для поддержки [push-уведомлений](https://en.wikipedia.org/wiki/Push_technology) в приложениях. Именно [это относится](https://fosstodon.org/@bitwarden/109636825700482007) к Bitwarden. Это не означает, что Bitwarden использует все возможности аналитики, которые предоставляет Google Firebase Analytics.
+
+</div>
 
 ## Privacy Features
 

@@ -35,19 +35,25 @@ Dalam hal keamanan aplikasi, umumnya kami tidak (dan terkadang tidak bisa) menge
 
 Untuk meminimalkan kerusakan *yang dapat* dilakukan oleh perangkat lunak berbahaya, Anda harus menggunakan keamanan dengan kompartementalisasi. Sebagai contoh, hal ini dapat berupa penggunaan komputer yang berbeda untuk pekerjaan yang berbeda, menggunakan mesin virtual untuk memisahkan berbagai kelompok aplikasi yang terkait, atau menggunakan sistem operasi yang aman dengan fokus yang kuat pada kotak pasir aplikasi dan kontrol akses yang wajib.
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Sistem operasi seluler umumnya memiliki kotak pasir aplikasi yang lebih baik daripada sistem operasi desktop: Aplikasi tidak dapat memperoleh akses akar, dan memerlukan izin untuk mengakses sumber daya sistem.
-    
-    Sistem operasi desktop umumnya tertinggal dalam hal kotak pasir yang tepat. ChromeOS memiliki kemampuan kotak pasir yang mirip dengan Android, dan macOS memiliki kontrol izin sistem penuh (dan pengembang dapat memilih untuk ikut serta dalam kotak pasir untuk aplikasi). Namun demikian, sistem operasi ini mengirimkan informasi identifikasi ke OEM masing-masing. Linux cenderung tidak menyerahkan informasi kepada vendor sistem, tetapi memiliki perlindungan yang buruk terhadap eksploitasi dan aplikasi jahat. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Sistem operasi seluler umumnya memiliki kotak pasir aplikasi yang lebih baik daripada sistem operasi desktop: Aplikasi tidak dapat memperoleh akses akar, dan memerlukan izin untuk mengakses sumber daya sistem.
+
+Sistem operasi desktop umumnya tertinggal dalam hal kotak pasir yang tepat. ChromeOS memiliki kemampuan kotak pasir yang mirip dengan Android, dan macOS memiliki kontrol izin sistem penuh (dan pengembang dapat memilih untuk ikut serta dalam kotak pasir untuk aplikasi). Namun demikian, sistem operasi ini mengirimkan informasi identifikasi ke OEM masing-masing. Linux cenderung tidak menyerahkan informasi kepada vendor sistem, tetapi memiliki perlindungan yang buruk terhadap eksploitasi dan aplikasi jahat. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+
+</div>
 
 <span class="pg-red">:material-target-account: Serangan Bertarget</span>
 
 Serangan yang ditargetkan terhadap orang tertentu akan lebih sulit ditangani. Serangan yang umum terjadi termasuk mengirim dokumen berbahaya melalui surel, mengeksploitasi kerentanan (misalnya pada peramban dan sistem operasi), dan serangan fisik. Jika hal ini menjadi perhatian Anda, Anda harus menggunakan strategi mitigasi ancaman yang lebih canggih.
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Secara rancangan, **peramban web**, **klien surel**, dan **aplikasi perkantoran** biasanya menjalankan kode yang tidak dipercaya, yang dikirimkan kepada Anda dari pihak ketiga. Menjalankan beberapa mesin virtual—untuk memisahkan aplikasi seperti ini dari sistem hos Anda, dan juga satu sama lain—adalah salah satu teknik yang bisa Anda gunakan untuk mengurangi kemungkinan eksploitasi pada aplikasi-aplikasi ini yang mengorbankan sistem Anda yang lain. Sebagai contoh, teknologi seperti Qubes OS atau Microsoft Defender Application Guard pada Windows menyediakan metode yang nyaman untuk melakukan hal ini.
+Secara rancangan, **peramban web**, **klien surel**, dan **aplikasi perkantoran** biasanya menjalankan kode yang tidak dipercaya, yang dikirimkan kepada Anda dari pihak ketiga. Menjalankan beberapa mesin virtual—untuk memisahkan aplikasi seperti ini dari sistem hos Anda, dan juga satu sama lain—adalah salah satu teknik yang bisa Anda gunakan untuk mengurangi kemungkinan eksploitasi pada aplikasi-aplikasi ini yang mengorbankan sistem Anda yang lain. Sebagai contoh, teknologi seperti Qubes OS atau Microsoft Defender Application Guard pada Windows menyediakan metode yang nyaman untuk melakukan hal ini.
+
+</div>
 
 Jika Anda khawatir tentang **serangan fisik** Anda harus menggunakan sistem operasi dengan implementasi boot terverifikasi yang aman, seperti Android, iOS, macOS, atau [Windows (dengan TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Anda juga harus memastikan bahwa penyimpanan Anda dienkripsi, dan bahwa sistem operasi menggunakan TPM atau Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) atau [Element](https://developers.google.com/android/security/android-ready-se) untuk menilai batas upaya memasukkan frasa sandi enkripsi. Anda sebaiknya menghindari berbagi komputer dengan orang yang tidak Anda percayai, karena sebagian besar sistem operasi desktop tidak mengenkripsi data secara terpisah per pengguna.
 
@@ -61,13 +67,16 @@ Masalah yang jelas dengan hal ini adalah penyedia layanan (atau peretas yang tel
 
 Untungnya, E2EE dapat mengatasi masalah ini dengan mengenkripsi komunikasi antara Anda dan penerima yang Anda inginkan bahkan sebelum dikirim ke server. Kerahasiaan pesan Anda dijamin, dengan asumsi penyedia layanan tidak memiliki akses ke kunci pribadi salah satu pihak.
 
-!!! note "Catatan Tentang Enkripsi Berbasis Web"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note on Web-based Encryption</p>
 
-    Dalam praktiknya, efektivitas implementasi E2EE yang berbeda bervariasi. Aplikasi, seperti [Signal](../real-time-communication.md#signal), berjalan secara asli pada perangkat Anda, dan setiap salinan aplikasi sama pada instalasi yang berbeda. Jika penyedia layanan memperkenalkan sebuah [pintu belakang](https://id.wikipedia.org/wiki/Pintu_belakang_(komputer)) dalam aplikasi mereka—dalam upaya untuk mencuri kunci pribadi Anda—nantinya dapat dideteksi dengan [rekayasa balik] (https://id.wikipedia.org/wiki/Rekayasa_balik).
-    
-    Di sisi lain, implementasi E2EE berbasis web, seperti surel web Proton Mail atau *Web Vault* dari Bitwarden, bergantung pada server yang secara dinamis menyajikan kode JavaScript ke peramban untuk menangani kriptografi. Sebuah server jahat dapat menargetkan Anda dan mengirimkan kode JavaScript berbahaya untuk mencuri kunci enkripsi Anda (dan akan sangat sulit untuk diketahui). Karena server dapat memilih untuk melayani klien web yang berbeda untuk orang yang berbeda—bahkan jika Anda menyadari serangan itu—akan sangat sulit untuk membuktikan kesalahan penyedia.
-    
-    Oleh karena itu, Anda seharusnya menggunakan aplikasi asli daripada klien web bila memungkinkan.
+Dalam praktiknya, efektivitas implementasi E2EE yang berbeda bervariasi. Aplikasi, seperti [Signal](../real-time-communication.md#signal), berjalan secara asli pada perangkat Anda, dan setiap salinan aplikasi sama pada instalasi yang berbeda. Jika penyedia layanan memperkenalkan sebuah [pintu belakang](https://id.wikipedia.org/wiki/Pintu_belakang_(komputer)) dalam aplikasi mereka—dalam upaya untuk mencuri kunci pribadi Anda—nantinya dapat dideteksi dengan [rekayasa balik] (https://id.wikipedia.org/wiki/Rekayasa_balik).
+
+Di sisi lain, implementasi E2EE berbasis web, seperti surel web Proton Mail atau *Web Vault* dari Bitwarden, bergantung pada server yang secara dinamis menyajikan kode JavaScript ke peramban untuk menangani kriptografi. Sebuah server jahat dapat menargetkan Anda dan mengirimkan kode JavaScript berbahaya untuk mencuri kunci enkripsi Anda (dan akan sangat sulit untuk diketahui). Karena server dapat memilih untuk melayani klien web yang berbeda untuk orang yang berbeda—bahkan jika Anda menyadari serangan itu—akan sangat sulit untuk membuktikan kesalahan penyedia.
+
+Oleh karena itu, Anda seharusnya menggunakan aplikasi asli daripada klien web bila memungkinkan.
+
+</div>
 
 Bahkan dengan E2EE, penyedia layanan masih bisa membuat profil Anda berdasarkan **metadata**, yang biasanya tidak dilindungi. Meskipun penyedia layanan tidak dapat membaca pesan Anda, mereka masih dapat mengamati hal-hal penting, seperti siapa yang Anda ajak bicara, seberapa sering Anda mengirim pesan kepada mereka, dan kapan Anda biasanya aktif. Perlindungan metadata cukup jarang dilakukan, dan—jika ada dalam [model ancaman](threat-modeling.md)—Anda harus memperhatikan dengan seksama dokumentasi teknis perangkat lunak yang Anda gunakan untuk mengetahui apakah ada minimalisasi atau perlindungan metadata sama sekali.
 
@@ -77,17 +86,23 @@ Bahkan dengan E2EE, penyedia layanan masih bisa membuat profil Anda berdasarkan 
 
 Pengawasan massal adalah upaya yang rumit untuk memantau "perilaku, berbagai aktivitas, atau informasi" dari seluruh (atau sebagian besar) populasi.[^1] Hal ini sering merujuk pada program pemerintah, seperti yang [diungkapkan oleh Edward Snowden pada tahun 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Namun, hal ini juga dapat dilakukan oleh perusahaan, baik atas nama lembaga pemerintah maupun atas inisiatif sendiri.
 
-!!! abstract "Atlas Pengawasan"
+<div class="admonition abstract" markdown>
+<p class="admonition-title">Atlas of Surveillance</p>
 
-    Jika Anda ingin mempelajari lebih lanjut tentang metode pengawasan dan bagaimana metode tersebut diterapkan di kota Anda, Anda juga dapat melihat [Atlas Pengawasan (Atlas of Surveillance)](https://atlasofsurveillance.org/) oleh [Electronic Frontier Foundation](https://www.eff.org/).
-    
-    Di Prancis, Anda dapat melihat [situs web Technolopolice] (https://technopolice.fr/villes/) yang dikelola oleh asosiasi nirlaba La Quadrature du Net.
+Jika Anda ingin mempelajari lebih lanjut tentang metode pengawasan dan bagaimana metode tersebut diterapkan di kota Anda, Anda juga dapat melihat [Atlas Pengawasan (Atlas of Surveillance)](https://atlasofsurveillance.org/) oleh [Electronic Frontier Foundation](https://www.eff.org/).
+
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+
+</div>
 
 Pemerintah sering kali membenarkan program pengawasan massal sebagai cara yang diperlukan untuk memerangi terorisme dan mencegah kejahatan. Namun, melanggar hak asasi manusia, hal ini paling sering digunakan untuk menargetkan kelompok minoritas dan pembangkang politik secara tidak proporsional.
 
-!!! quote "ACLU: [*Pelajaran Privasi dari Peristiwa 9/11: Pengawasan Massal Bukanlah Jalan ke Depan*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+<div class="admonition quote" markdown>
+<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-    Dalam menghadapi [pengungkapan Edward Snowden tentang program-program pemerintah seperti [PRISM](https://en.wikipedia.org/wiki/PRISM) dan [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], para pejabat intelijen juga mengakui bahwa NSA selama bertahun-tahun secara diam-diam telah mengumpulkan catatan tentang hampir semua panggilan telepon setiap orang Amerika—siapa yang menelepon siapa, kapan panggilan itu dilakukan, dan berapa lama panggilan itu berlangsung. Informasi semacam ini, ketika dikumpulkan oleh NSA dari hari ke hari, dapat mengungkapkan detail yang sangat sensitif tentang kehidupan dan pergaulan seseorang, seperti apakah mereka pernah menelepon pendeta, penyedia layanan aborsi, konselor kecanduan, atau bantuan pencegahan bunuh diri.
+Dalam menghadapi [pengungkapan Edward Snowden tentang program-program pemerintah seperti [PRISM](https://en.wikipedia.org/wiki/PRISM) dan [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], para pejabat intelijen juga mengakui bahwa NSA selama bertahun-tahun secara diam-diam telah mengumpulkan catatan tentang hampir semua panggilan telepon setiap orang Amerika—siapa yang menelepon siapa, kapan panggilan itu dilakukan, dan berapa lama panggilan itu berlangsung. Informasi semacam ini, ketika dikumpulkan oleh NSA dari hari ke hari, dapat mengungkapkan detail yang sangat sensitif tentang kehidupan dan pergaulan seseorang, seperti apakah mereka pernah menelepon pendeta, penyedia layanan aborsi, konselor kecanduan, atau bantuan pencegahan bunuh diri.
+
+</div>
 
 Meskipun pengawasan massal semakin meningkat di Amerika Serikat, pemerintah telah menemukan bahwa program pengawasan massal seperti Bagian 215 hanya memiliki "sedikit nilai unik" dalam hal menghentikan kejahatan aktual atau plot teroris, dengan upaya-upaya yang sebagian besar menduplikasi program pengawasan yang ditargetkan oleh FBI.[^2]
 
@@ -133,11 +148,14 @@ Penyensoran pada platform perusahaan semakin umum terjadi, karena platform seper
 
 Orang-orang yang khawatir dengan ancaman penyensoran dapat menggunakan teknologi seperti [Tor](../advanced/tor-overview.md) untuk mengelakkannya, dan mendukung platform komunikasi yang tahan sensor seperti [Matrix](../real-time-communication.md#element), yang tidak memiliki otoritas akun terpusat yang dapat menutup akun secara sewenang-wenang.
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Meskipun menghindari penyensoran itu sendiri bisa jadi mudah, menyembunyikan fakta bahwa Anda melakukannya bisa jadi sangat bermasalah.
-    
-    Anda harus mempertimbangkan aspek mana dari jaringan yang dapat diamati oleh musuh Anda, dan apakah Anda memiliki penyangkalan yang masuk akal atas tindakan Anda. Sebagai contoh, menggunakan [DNS terenkripsi](../advanced/dns-overview.md#what-is-encrypted-dns) bisa membantu Anda melalui sistem sensor berbasis DNS yang belum sempurna, tetapi tidak bisa menyembunyikan apa yang Anda kunjungi dari ISP Anda. Sebuah VPN atau Tor bisa membantu menyembunyikan apa yang Anda kunjungi dari administrator jaringan, tetapi tidak bisa menyembunyikan kalau Anda menggunakan jaringan tersebut sejak awal. Transport yang dapat dicolokkan (seperti Obfs4proxy, Meek, atau Shadowsocks) dapat membantu Anda menghindari dinding api yang memblokir protokol VPN umum atau Tor, tetapi upaya pengelabuan Anda masih bisa dideteksi dengan metode seperti pengujian atau [inspeksi paket dalam](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+Meskipun menghindari penyensoran itu sendiri bisa jadi mudah, menyembunyikan fakta bahwa Anda melakukannya bisa jadi sangat bermasalah.
+
+Anda harus mempertimbangkan aspek mana dari jaringan yang dapat diamati oleh musuh Anda, dan apakah Anda memiliki penyangkalan yang masuk akal atas tindakan Anda. Sebagai contoh, menggunakan [DNS terenkripsi](../advanced/dns-overview.md#what-is-encrypted-dns) bisa membantu Anda melalui sistem sensor berbasis DNS yang belum sempurna, tetapi tidak bisa menyembunyikan apa yang Anda kunjungi dari ISP Anda. Sebuah VPN atau Tor bisa membantu menyembunyikan apa yang Anda kunjungi dari administrator jaringan, tetapi tidak bisa menyembunyikan kalau Anda menggunakan jaringan tersebut sejak awal. Transport yang dapat dicolokkan (seperti Obfs4proxy, Meek, atau Shadowsocks) dapat membantu Anda menghindari dinding api yang memblokir protokol VPN umum atau Tor, tetapi upaya pengelabuan Anda masih bisa dideteksi dengan metode seperti pengujian atau [inspeksi paket dalam](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+
+</div>
 
 Anda harus selalu mempertimbangkan risiko mencoba menerobos sensor, konsekuensi potensial, dan seberapa canggih musuh Anda. Anda harus berhati-hati dalam memilih perangkat lunak, dan memiliki rencana cadangan untuk berjaga-jaga seandainya Anda ketahuan.
 

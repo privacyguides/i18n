@@ -1,8 +1,8 @@
 ---
-meta_title: "Cómo Crear Cuentas de Internet Privadas - Privacy Guides"
-title: "Creación de cuenta"
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: Crear cuentas en línea es prácticamente una necesidad en Internet, sigue estos pasos para asegurarte de mantener tu privacidad.
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 A menudo la gente se inscribe en servicios sin pensar. Tal vez sea un servicio de streaming para que puedas ver ese nuevo show del que todo el mundo habla, o una cuenta que te da un descuento para tu lugar de comida rápida favorito. Sea cual sea el caso, debes tener en cuenta las implicaciones que tednrá para tus datos ahora y más adelante.
@@ -29,9 +29,12 @@ Usualmente hay varias maneras para registrarse, cada una tiene sus propias venta
 
 La manera más común de crear una nueva cuenta es utilizando una dirección de correo electrónico y una contraseña. Cuando se utiliza este método, se debe utilizar un gestor de contraseñas y seguir las [mejores prácticas](passwords-overview.md) respecto a las contraseñas.
 
-!!! tip "Consejo"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Consejo</p>
 
-    ¡También puedes usar un gestor de contraseñas para organizar otros métodos de autenticación! Solo añade la nueva entrada y completa los espacios apropiados, puedes agregar notas para cosas como las preguntas de seguridad o una llave de respaldo.
+¡También puedes usar un gestor de contraseñas para organizar otros métodos de autenticación! Solo añade la nueva entrada y completa los espacios apropiados, puedes agregar notas para cosas como las preguntas de seguridad o una llave de respaldo.
+
+</div>
 
 Usted es responsable de gestionar sus credenciales de ingreso. Para mayor seguridad, se puede configurar la [autenticación multifactor](multi-factor-authentication.md) en las cuentas.
 

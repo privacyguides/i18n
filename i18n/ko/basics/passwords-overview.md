@@ -1,7 +1,7 @@
 ---
-title: "비밀번호 입문"
+title: "Introduction to Passwords"
 icon: 'material/form-textbox-password'
-description: 강력한 비밀번호를 만들고 계정을 안전하게 보호하는 몇 가지 방법을 알려드립니다.
+description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
 '비밀번호'는 우리의 일상 디지털 생활에 있어서 필수적인 요소입니다. 우리는 비밀번호를 통해 계정, 기기, 개인 정보를 보호합니다. 간혹 비밀번호는 우리의 개인 정보를 노리는 공격자와 우리 사이의 유일한 방어 수단임에도 불구하고, 사람들은 비밀번호의 중요성을 심각하게 생각하지 않아 쉽게 추측되거나 무차별 대입 공격에 취약한 비밀번호를 사용하는 경우가 흔합니다.
@@ -26,9 +26,12 @@ description: 강력한 비밀번호를 만들고 계정을 안전하게 보호�
 
 비밀번호 관리자 내에서 관리하는 비밀번호 등, 직접 외울 필요가 없는 비밀번호는 여러분의 [위협 모델](threat-modeling.md)에 따라 중요한 계정(특히 다중 인증을 사용하지 않는 계정)은 아직 공개되지 않은 데이터 유출이 발생했을 경우를 대비해 몇 달마다 비밀번호를 변경할 것을 권장합니다. 대부분의 비밀번호 관리자는 비밀번호 만료일 설정 기능을 제공하기 때문에 더욱 관리하기 쉽습니다.
 
-!!! tip "데이터 유출 확인"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Checking for data breaches</p>
 
-    비밀번호 관리자에서 유출된 비밀번호 확인 기능을 제공하는 경우, 반드시 해당 기능을 사용해 데이터 유출로 인해 노출됐을 가능성이 있는 비밀번호는 즉시 변경하세요. 혹은 [뉴스 애그리게이터](../news-aggregators.md)를 이용해 [내가 겪은 최근 유출 사례(Have I Been Pwned's Latest Breaches feed)](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches)를 팔로우 해두는 방법도 있습니다.
+비밀번호 관리자에서 유출된 비밀번호 확인 기능을 제공하는 경우, 반드시 해당 기능을 사용해 데이터 유출로 인해 노출됐을 가능성이 있는 비밀번호는 즉시 변경하세요. 혹은 [뉴스 애그리게이터](../news-aggregators.md)를 이용해 [내가 겪은 최근 유출 사례(Have I Been Pwned's Latest Breaches feed)](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches)를 팔로우 해두는 방법도 있습니다.
+
+</div>
 
 ## 강력한 비밀번호 만들기
 
@@ -48,9 +51,12 @@ description: 강력한 비밀번호를 만들고 계정을 안전하게 보호�
 
 실물 주사위를 사용해 다이스웨어 패스프레이즈를 생성하는 방법은 다음과 같습니다:
 
-!!! note "참고"
+<div class="admonition Note" markdown>
+<p class="admonition-title">Note</p>
 
-    본 내용에서는 [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)를 활용해 단어당 5번씩 주사위를 굴려 패스프레이즈를 생성한다고 가정합니다. 다른 단어 목록을 사용할 경우에는 주사위를 굴려야 하는 횟수 혹은 동일한 엔트로피를 달성하기 위해 필요한 단어의 양이 달라질 수 있습니다.
+본 내용에서는 [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)를 활용해 단어당 5번씩 주사위를 굴려 패스프레이즈를 생성한다고 가정합니다. 다른 단어 목록을 사용할 경우에는 주사위를 굴려야 하는 횟수 혹은 동일한 엔트로피를 달성하기 위해 필요한 단어의 양이 달라질 수 있습니다.
+
+</div>
 
 1. 6면체 주사위를 5번 굴려서 각 주사위를 굴릴 때마다 숫자를 적습니다.
 
@@ -60,31 +66,37 @@ description: 강력한 비밀번호를 만들고 계정을 안전하게 보호�
 
 4. 원하는 개수의 단어를 얻을 때까지 이 과정을 반복하고, 각 단어는 공백으로 구분합니다.
 
-!!! warning "중요"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Important</p>
 
-    단어 조합이 마음에 들지 않는다는 이유로 단어를 다시 선택해서는 **안 됩니다**. 패스프레이즈 생성 과정은 완전히 랜덤으로 진행되어야 합니다.
+단어 조합이 마음에 들지 않는다는 이유로 단어를 다시 선택해서는 **안 됩니다**. 패스프레이즈 생성 과정은 완전히 랜덤으로 진행되어야 합니다.
+
+</div>
 
 실물 주사위가 없거나 사용하고 싶지 않은 경우, 비밀번호 관리자에 내장된 비밀번호 생성기를 사용하면 됩니다. 대부분의 비밀번호 관리자는 일반적인 패스워드 방식뿐만 아니라 다이스웨어 패스프레이즈도 지원합니다.
 
 저희는 원본 목록과 동일한 수준의 보안을 제공하면서 외우기 쉬운 단어로 이루어진 [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)을 활용해 다이스웨어 패스프레이즈를 생성할 것을 권장드립니다. 영어 외 언어로 패스프레이즈를 생성하고자 하시는 경우 [다른 언어 단어 목록](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)도 있습니다.
 
-??? note "다이스웨어 패스프레이즈의 엔트로피 및 강도"
+<details class="note" markdown>
+<summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-    다이스웨어 패스프레이즈의 강도를 알려드리기 위해, 앞서 언급한 7 단어 패스프레이즈(`viewable fastness reluctant squishy seventeen shown pencil`) 및 [EEF 대규모 암호 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)을 예로 들어보겠습니다.
-    
-    다이스웨어 패스프레이즈 강도를 결정하는 지표 한 가지는 엔트로피의 크기입니다. 다이스웨어 패스프레이즈의 단어당 엔트로피는 $\text{log}_2(\text{WordsInList})$, 전체 패스프레이즈 엔트로피는 $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$로 계산됩니다.
-    
-    따라서, 앞서 언급한 목록 내 각 단어는 ~12.9비트 엔트로피($\text{log}_2(7776)$)를, 7 단어 패스프레이즈는 ~90.47비트 엔트로피($\text{log}_2(7776^7)$)를 갖습니다.
-    
-    [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)에 포함된 단어의 수는 7776개입니다. 만들어질 수 있는 패스프레이즈의 양을 계산하면 $\text{WordsInList}^\text{WordsInPhrase}$, 즉 $7776^7$입니다.
-    
-    종합하면, [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)을 활용해 생성한 7 단어 패스프레이즈는 1,719,070,799,748,422,500,000,000,000개 경우의 수 중 하나입니다.
-    
-    평균적으로, 누군가의 패스프레이즈를 알아맞히려면 가능한 모든 조합의 50%를 시도해야만 합니다. 이 점을 고려하여 계산해보면 공격자가 만약 초당 1,000,000,000,000번 시도한다고 가정해도 여러분의 패스프레이즈를 알아맞히는 데에는 27,255,689년이 걸립니다. 심지어 이는 다음 조건을 충족하는 경우의 이야기입니다:
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
-    - 여러분이 다이스웨어 방식을 사용했다는 점을 공격자가 알고 있습니다.
-    - 여러분이 어떤 단어 목록을 활용했는지를 공격자가 알고 있습니다.
-    - 여러분의 패스프레이즈 단어 개수를 공격자가 알고 있습니다.
+다이스웨어 패스프레이즈 강도를 결정하는 지표 한 가지는 엔트로피의 크기입니다. 다이스웨어 패스프레이즈의 단어당 엔트로피는 $\text{log}_2(\text{WordsInList})$, 전체 패스프레이즈 엔트로피는 $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$로 계산됩니다.
+
+따라서, 앞서 언급한 목록 내 각 단어는 ~12.9비트 엔트로피($\text{log}_2(7776)$)를, 7 단어 패스프레이즈는 ~90.47비트 엔트로피($\text{log}_2(7776^7)$)를 갖습니다.
+
+The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. 만들어질 수 있는 패스프레이즈의 양을 계산하면 $\text{WordsInList}^\text{WordsInPhrase}$, 즉 $7776^7$입니다.
+
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+
+평균적으로, 누군가의 패스프레이즈를 알아맞히려면 가능한 모든 조합의 50%를 시도해야만 합니다. 이 점을 고려하여 계산해보면 공격자가 만약 초당 1,000,000,000,000번 시도한다고 가정해도 여러분의 패스프레이즈를 알아맞히는 데에는 27,255,689년이 걸립니다. 심지어 이는 다음 조건을 충족하는 경우의 이야기입니다:
+
+- 여러분이 다이스웨어 방식을 사용했다는 점을 공격자가 알고 있습니다.
+- 여러분이 어떤 단어 목록을 활용했는지를 공격자가 알고 있습니다.
+- 여러분의 패스프레이즈 단어 개수를 공격자가 알고 있습니다.
+
+</details>
 
 요약하자면, 기억하기 쉬우면서*도* 매우 강력한 비밀번호가 필요할 경우에는 다이스웨어 패스프레이즈가 최선의 선택입니다.
 
@@ -98,13 +110,16 @@ description: 강력한 비밀번호를 만들고 계정을 안전하게 보호�
 
 [권장 비밀번호 관리자 목록](../passwords.md ""){.md-button}
 
-!!! warning "비밀번호와 TOTP 토큰을 하나의 비밀번호 관리자에 저장하지 마세요"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-    TOTP 코드 [다중 인증](../multi-factor-authentication.md) 방식을 사용하는 경우, TOTP 코드는 [별도 앱](../multi-factor-authentication.md#authenticator-apps)에서 보관하는 것이 가장 좋은 방법입니다.
-    
-    TOTP 토큰과 비밀번호를 한 곳에서 관리하면 편리하지만, 만약 공격자가 여러분의 비밀번호 관리자에 접근 가능할 경우 다중 인증은 무용지물이 됩니다.
-    
-    일회용 복구 코드 또한 비밀번호 관리자에 저장하지 말 것을 권장드립니다. 이러한 정보는 오프라인 저장 장치의 암호화 컨테이너 등에 별도로 보관해야 합니다.
+TOTP 코드 [다중 인증](../multi-factor-authentication.md) 방식을 사용하는 경우, TOTP 코드는 [별도 앱](../multi-factor-authentication.md#authenticator-apps)에서 보관하는 것이 가장 좋은 방법입니다.
+
+TOTP 토큰과 비밀번호를 한 곳에서 관리하면 편리하지만, 만약 공격자가 여러분의 비밀번호 관리자에 접근 가능할 경우 다중 인증은 무용지물이 됩니다.
+
+일회용 복구 코드 또한 비밀번호 관리자에 저장하지 말 것을 권장드립니다. 이러한 정보는 오프라인 저장 장치의 암호화 컨테이너 등에 별도로 보관해야 합니다.
+
+</div>
 
 ### 백업
 

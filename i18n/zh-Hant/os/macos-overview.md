@@ -1,7 +1,7 @@
 ---
-title: macOS 簡介
+title: macOS Overview
 icon: material/apple-finder
-description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體提供了堅固的安全。
+description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
 ---
 
 蘋果公司使用 Unix 作業系統來開發**macOS** 支援自家的 Mac 電腦。 為提高 macOS 隱私，用戶可關閉遙測功能以強化現有的隱私與安全設置。
@@ -156,9 +156,12 @@ macOS 通過不同屬性的多層軟體和硬體保護來進行深度防禦。 �
 
 ### 軟體安全
 
-!!! warning "警告"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning "警告"</p>
 
-    macOS 可以安裝測試版更新。 但它們是不穩定的，可能帶有額外遙測，因為其用於測試目的。 因此，我們建議避免使用測試版軟件。
+macOS 可以安裝測試版更新。 但它們是不穩定的，可能帶有額外遙測，因為其用於測試目的。 因此，我們建議避免使用測試版軟件。
+
+</div>
 
 #### 簽署系統卷宗
 
@@ -178,9 +181,12 @@ macOS 設置了某些無法覆蓋的安全限制。 這些稱為強制取用控�
 
 從 App Store 下載的 macOS 應用需要使用[應用沙箱](https://developer.apple.com/documentation/security/app_sandbox)進行沙箱處理。
 
-!!! warning "警告"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning "警告"</p>
 
-    從官方 App Store 之外下載的軟體不需要沙盒。 應盡可能避免使用非 App Store 軟體。
+從官方 App Store 之外下載的軟體不需要沙盒。 應盡可能避免使用非 App Store 軟體。
+
+</div>
 
 ##### 防毒軟體
 

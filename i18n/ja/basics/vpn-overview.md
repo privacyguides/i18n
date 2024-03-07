@@ -1,6 +1,6 @@
 ---
-meta_title: "VPNがプライバシーを守る方法について。 VPNの概要 - Privacy Guides"
-title: VPNの概要
+meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+title: VPN Overview
 icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
@@ -11,9 +11,12 @@ Normally, an ISP can see the flow of internet traffic entering and exiting your 
 
 Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
 
-!!! メモ
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
-    When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+
+</div>
 
 ## VPNの仕組み
 

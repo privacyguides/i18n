@@ -1,5 +1,5 @@
 ---
-title: Paiements privés
+title: Private Payments
 icon: material/hand-coin
 ---
 
@@ -45,11 +45,14 @@ Ce sont généralement de bonnes options pour les paiements récurrents/abonneme
 
 Les crypto-monnaies sont une forme numérique de monnaie conçue pour fonctionner sans autorités centrales telles qu'un gouvernement ou une banque. Bien que *certains* projets de crypto-monnaie vous permettent d'effectuer des transactions privées en ligne, beaucoup d'entre eux utilisent une chaîne de blocs publique qui ne garantit pas la confidentialité des transactions. Les crypto-monnaies ont également tendance à être des actifs très volatils, ce qui signifie que leur valeur peut changer rapidement et de manière significative à tout moment. C'est pourquoi nous ne recommandons généralement pas d'utiliser les crypto-monnaies comme réserve de valeur à long terme. Si vous décidez d'utiliser des crypto-monnaies en ligne, assurez-vous au préalable de bien comprendre les aspects liés à la protection de la vie privée et n'investissez que des montants qu'il ne serait pas désastreux de perdre.
 
-!!! danger "Danger"
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger</p>
 
-    La grande majorité des crypto-monnaies fonctionnent sur une chaîne de blocs **publique**, ce qui signifie que chaque transaction est connue de tous. Cela inclut même les crypto-monnaies les plus connues comme le Bitcoin et l'Ethereum. Les transactions avec ces crypto-monnaies ne doivent pas être considérées comme privées et ne protégeront pas votre anonymat.
-    
-    En outre, de nombreuses crypto-monnaies, si ce n'est la plupart, sont des escroqueries. Effectuez des transactions avec prudence, uniquement avec des projets auxquels vous faites confiance.
+La grande majorité des crypto-monnaies fonctionnent sur une chaîne de blocs **publique**, ce qui signifie que chaque transaction est connue de tous. Cela inclut même les crypto-monnaies les plus connues comme le Bitcoin et l'Ethereum. Les transactions avec ces crypto-monnaies ne doivent pas être considérées comme privées et ne protégeront pas votre anonymat.
+
+En outre, de nombreuses crypto-monnaies, si ce n'est la plupart, sont des escroqueries. Effectuez des transactions avec prudence, uniquement avec des projets auxquels vous faites confiance.
+
+</div>
 
 ### Crypto-monnaies privées
 

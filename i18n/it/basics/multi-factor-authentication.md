@@ -140,9 +140,12 @@ Il comando impedirà ai malintenzionati di aggirare l'AFM, all'avvio del compute
 
 ### Linux
 
-!!! warning "Attenzione"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
 
-    Se il nome del host del tuo sistema cambia (ad esempio, a causa del DHCP), non potrai accedere. È fondamentale che tu configuri un nome del host adeguato per il tuo computer, prima di seguire questa guida.
+Se il nome del host del tuo sistema cambia (ad esempio, a causa del DHCP), non potrai accedere. È fondamentale che tu configuri un nome del host adeguato per il tuo computer, prima di seguire questa guida.
+
+</div>
 
 Il modulo `pam_u2f` su Linux può fornire l'autenticazione a due fattori per accedere alle distribuzioni più popolari di Linux. Se possiedi una chiave di sicurezza hardware che supporta U2F, puoi configurare l'autenticazione AFM per il tuo accesso. Yubico dispone della [Guida di Accesso a Linux Ubuntu - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F), che dovrebbe funzionare su qualsiasi distribuzione. I comandi del gestore di pacchetti, come `apt-get` e i nomi dei pacchetti, tuttavia, potrebbero variare. Questa guida **non** si applica a Qubes OS.
 

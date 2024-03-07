@@ -1,8 +1,8 @@
 ---
-meta_title: "Come creare profili internet privatamente - Privacy Guides"
-title: "Creare profili"
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: La creazione di profili online è praticamente una necessità di Internet, aadotta questi accorgimenti per assicurarti di rimanere privato.
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 Spesso le persone si iscrivono a servizi senza riflettere. Forse è un servizio di streaming per guardare quella nuova serie di cui tutti parlano, o di un profilo che ti offre uno sconto per il tuo fast food preferito. In ogni caso, dovresti considerare le implicazioni per i tuoi dati, ora e in futuro.
@@ -29,9 +29,12 @@ Solitamente, esistono svariati metodi per iscriversi a un profilo, ognuno con i 
 
 Il modo più comune per creare un nuovo account è tramite un indirizzo e-mail e una password. Utilizzando questo metodo, dovresti utilizzare un gestore di password e seguire le [migliori pratiche](passwords-overview.md) per ciò che riguarda le password.
 
-!!! tip "Suggerimento"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Suggerimento</p>
 
-    Puoi utilizzare il tuo gestore di password per organizzare anche altri metodi d'autenticazione! Basta aggiungere la nuova voce e compilare i campi appropriati; puoi aggiungere note per cose come le domande di sicurezza o le chiavi di backup.
+Puoi utilizzare il tuo gestore di password per organizzare anche altri metodi d'autenticazione! Basta aggiungere la nuova voce e compilare i campi appropriati; puoi aggiungere note per cose come le domande di sicurezza o le chiavi di backup.
+
+</div>
 
 Sarai responsabile della gestione delle tue credenziali di accesso. Per una maggiore sicurezza, puoi impostare l'[AFM](multi-factor-authentication.md) sui tuoi profili.
 

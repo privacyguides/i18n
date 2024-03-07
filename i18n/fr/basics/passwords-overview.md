@@ -1,7 +1,7 @@
 ---
-title: "Introduction aux mots de passe"
+title: "Introduction to Passwords"
 icon: 'material/form-textbox-password'
-description: Voici quelques conseils et astuces pour créer des mots de passe plus forts et sécuriser vos comptes.
+description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
 Les mots de passe sont un élément essentiel de notre vie numérique quotidienne. Nous les utilisons pour protéger nos comptes, nos appareils et nos secrets. Bien qu'ils soient souvent la seule chose qui nous sépare d'un adversaire qui en veut à nos informations privées, ils ne font pas l'objet d'une réflexion approfondie, ce qui conduit souvent les gens à utiliser des mots de passe faciles à deviner ou à forcer.
@@ -26,9 +26,12 @@ Vous devez éviter de changer trop souvent les mots de passe que vous devez rete
 
 En ce qui concerne les mots de passe que vous n'avez pas à retenir (comme les mots de passe stockés dans votre gestionnaire de mots de passe), si votre [modèle de menace](threat-modeling.md) le demande, nous vous recommandons de passer en revue les comptes importants (en particulier les comptes qui n'utilisent pas l'authentification multi-facteurs) et de changer leur mot de passe tous les deux mois, au cas où ils auraient été compromis dans le cadre d'une fuite de données qui n'a pas encore été rendue publique. La plupart des gestionnaires de mots de passe vous permettent de fixer une date d'expiration pour votre mot de passe afin d'en faciliter la gestion.
 
-!!! tip "Vérifier les fuites de données"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Checking for data breaches</p>
 
-    Si votre gestionnaire de mots de passe vous permet de vérifier les mots de passe compromis, assurez-vous de le faire et changez rapidement tout mot de passe qui pourrait avoir été exposé dans une fuite de données. Vous pouvez également suivre le flux [Dernières Brèches de Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) à l'aide d'un [agrégateur d'actualités](../news-aggregators.md).
+Si votre gestionnaire de mots de passe vous permet de vérifier les mots de passe compromis, assurez-vous de le faire et changez rapidement tout mot de passe qui pourrait avoir été exposé dans une fuite de données. Vous pouvez également suivre le flux [Dernières Brèches de Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) à l'aide d'un [agrégateur d'actualités](../news-aggregators.md).
+
+</div>
 
 ## Créer des mots de passe forts
 
@@ -48,9 +51,12 @@ Un exemple de phrase secrète diceware est `viewable fastness reluctant squishy 
 
 Pour générer une phrase secrète diceware à l'aide de vrais dés, suivez ces étapes :
 
-!!! note "À noter"
+<div class="admonition Note" markdown>
+<p class="admonition-title">Note</p>
 
-    Ces instructions supposent que vous utilisez la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer la phrase secrète, ce qui nécessite cinq lancers de dés par mot. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
+Ces instructions supposent que vous utilisez la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer la phrase secrète, ce qui nécessite cinq lancers de dés par mot. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
+
+</div>
 
 1. Lancez cinq fois un dé à six faces, en notant le nombre après chaque lancer.
 
@@ -60,31 +66,37 @@ Pour générer une phrase secrète diceware à l'aide de vrais dés, suivez ces 
 
 4. Répétez ce processus jusqu'à ce que votre phrase secrète comporte autant de mots que nécessaire, que vous devez séparer par un espace.
 
-!!! warning "Avertissement"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Important</p>
 
-    Vous ne devez **pas** relancer les mots jusqu'à ce que vous obteniez une combinaison de mots qui vous plaît. Le processus doit être complètement aléatoire.
+Vous ne devez **pas** relancer les mots jusqu'à ce que vous obteniez une combinaison de mots qui vous plaît. Le processus doit être complètement aléatoire.
+
+</div>
 
 Si vous n'avez pas accès à de vrais dés ou si vous préférez ne pas en utiliser, vous pouvez utiliser le générateur de mots de passe intégré à votre gestionnaire de mots de passe, car la plupart d'entre eux ont la possibilité de générer des phrases secrètes diceware en plus des mots de passe ordinaires.
 
 Nous vous recommandons d'utiliser la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer vos phrases secrètes diceware, car elle offre exactement la même sécurité que la liste originale, tout en contenant des mots plus faciles à mémoriser. Il existe également [d'autres listes de mots dans différentes langues](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), si vous ne souhaitez pas que votre phrase secrète soit en anglais.
 
-??? note "Explication de l'entropie et de la force des phrases secrètes diceware"
+<details class="note" markdown>
+<summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-    Pour démontrer la force des phrases secrètes diceware, nous utiliserons la phrase secrète de sept mots mentionnée plus haut (`viewable fastness reluctant squishy seventeen shown pencil`) et la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) comme exemple.
-    
-    L'une des mesures permettant de déterminer la force d'une phrase secrète est son degré d'entropie. L'entropie par mot dans une phrase secrète est calculée comme suit : $\text{log}_2(\text{WordsInList})$ et l'entropie globale de la phrase secrète est calculée comme suit : $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
-    
-    Par conséquent, chaque mot de la liste susmentionnée génère ~12,9 bits d'entropie ($\text{log}_2(7776)$), et une phrase secrète de sept mots dérivée de cette liste a ~90,47 bits d'entropie ($\text{log}_2(7776^7)$).
-    
-    La [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contient 7776 mots uniques. Pour calculer le nombre de phrases secrètes possibles, il suffit de faire $\text{WordsInList}^\text{WordsInPhrase}$, ou dans notre cas, $7776^7$.
-    
-    Mettons tout cela en perspective : Une phrase secrète de sept mots utilisant la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) est l'une des ~1 719 070 799 748 422 500 000 000 000 phrases secrètes possibles.
-    
-    En moyenne, il faut essayer 50 % de toutes les combinaisons possibles pour deviner votre phrase. En gardant cela à l'esprit, même si votre adversaire est capable de faire ~1 000 000 000 000 de suppositions par seconde, il lui faudrait toujours ~27 255 689 ans pour deviner votre phrase secrète. C'est le cas même si les choses suivantes sont vraies :
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
-    - Votre adversaire sait que vous avez utilisé la méthode du diceware.
-    - Votre adversaire connaît la liste de mots spécifique que vous avez utilisée.
-    - Votre adversaire sait combien de mots contient votre phrase secrète.
+L'une des mesures permettant de déterminer la force d'une phrase secrète est son degré d'entropie. L'entropie par mot dans une phrase secrète est calculée comme suit : $\text{log}_2(\text{WordsInList})$ et l'entropie globale de la phrase secrète est calculée comme suit : $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+
+Par conséquent, chaque mot de la liste susmentionnée génère ~12,9 bits d'entropie ($\text{log}_2(7776)$), et une phrase secrète de sept mots dérivée de cette liste a ~90,47 bits d'entropie ($\text{log}_2(7776^7)$).
+
+The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Pour calculer le nombre de phrases secrètes possibles, il suffit de faire $\text{WordsInList}^\text{WordsInPhrase}$, ou dans notre cas, $7776^7$.
+
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+
+En moyenne, il faut essayer 50 % de toutes les combinaisons possibles pour deviner votre phrase. En gardant cela à l'esprit, même si votre adversaire est capable de faire ~1 000 000 000 000 de suppositions par seconde, il lui faudrait toujours ~27 255 689 ans pour deviner votre phrase secrète. C'est le cas même si les choses suivantes sont vraies :
+
+- Votre adversaire sait que vous avez utilisé la méthode du diceware.
+- Votre adversaire connaît la liste de mots spécifique que vous avez utilisée.
+- Votre adversaire sait combien de mots contient votre phrase secrète.
+
+</details>
 
 Pour résumer, les phrases secrètes diceware sont votre meilleure option lorsque vous avez besoin d'une phrase à la fois facile à retenir *et* exceptionnellement forte.
 
@@ -98,13 +110,16 @@ Il existe de nombreuses options intéressantes, qu'elles soient basées sur le c
 
 [Liste des gestionnaires de mots de passe recommandés](../passwords.md ""){.md-button}
 
-!!! warning "Ne placez pas vos mots de passe et vos codes TOTP dans le même gestionnaire de mots de passe"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-    Lorsque vous utilisez des codes TOTP comme [authentification à multi-facteurs](../multi-factor-authentication.md), la meilleure pratique de sécurité consiste à conserver vos codes TOTP dans une [application séparée](../multi-factor-authentication.md#authenticator-apps).
-    
-    Le stockage de vos codes TOTP au même endroit que vos mots de passe, bien que pratique, réduit les comptes à un seul facteur dans le cas où un adversaire aurait accès à votre gestionnaire de mots de passe.
-    
-    En outre, nous ne recommandons pas de stocker des codes de récupération à usage unique dans votre gestionnaire de mots de passe. Ils doivent être stockés séparément, par exemple dans un conteneur chiffré sur un dispositif de stockage hors ligne.
+Lorsque vous utilisez des codes TOTP comme [authentification à multi-facteurs](../multi-factor-authentication.md), la meilleure pratique de sécurité consiste à conserver vos codes TOTP dans une [application séparée](../multi-factor-authentication.md#authenticator-apps).
+
+Le stockage de vos codes TOTP au même endroit que vos mots de passe, bien que pratique, réduit les comptes à un seul facteur dans le cas où un adversaire aurait accès à votre gestionnaire de mots de passe.
+
+En outre, nous ne recommandons pas de stocker des codes de récupération à usage unique dans votre gestionnaire de mots de passe. Ils doivent être stockés séparément, par exemple dans un conteneur chiffré sur un dispositif de stockage hors ligne.
+
+</div>
 
 ### Sauvegardes
 

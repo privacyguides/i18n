@@ -1,8 +1,8 @@
 ---
-meta_title: "如何私下創建網際網路帳戶 - Privacy Guides"
-title: "帳號創建"
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: 創建帳戶為實際連線網際網路所必要，請採取下列步驟確保您的線上隱私。
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 人們經常不假思索地註冊網路服務。 這些帳號也許是一個串流媒體服務可觀看人人都在談論的新節目，或是取得喜歡的快餐店折扣。 無論在什麼樣的場景，您都應該考慮現在和以後對個資的影響。
@@ -29,9 +29,12 @@ description: 創建帳戶為實際連線網際網路所必要，請採取下列�
 
 建立新帳戶的最常見方式是使用電子郵件地址和密碼。 使用此方法時，您應該使用密碼管理器，並遵循 [關於密碼的最佳做法](passwords-overview.md) 。
 
-!!! tip "提示"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    您也可以使用密碼管理器來管理其他驗證方式！ 只要新增一則條目並填寫相關欄位資訊，您也可註記安全問題或備份密鑰等事項。
+您也可以使用密碼管理器來管理其他驗證方式！ 只要新增一則條目並填寫相關欄位資訊，您也可註記安全問題或備份密鑰等事項。
+
+</div>
 
 您自己負責管理您的登入憑證。 為了增加安全性，您可以在帳戶上設置 [MFA](multi-factor-authentication.md) 。
 

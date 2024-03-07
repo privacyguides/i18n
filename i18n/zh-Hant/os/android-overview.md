@@ -1,7 +1,7 @@
 ---
-title: Android 概述
+title: Android Overview
 icon: simple/android
-description: Android是一個開源作業系統，具有強大的安全保護，使其成為手機的首選。
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 ![Android 圖標](../assets/img/android/android.svg){ align=right }
@@ -102,17 +102,19 @@ Android 13:
 
 [Exodus](https://exodus-privacy.eu.org/) 在比較具相似目的的應用程式時可能很有用。 如果某應用程式需要大量權限，並且有很多的廣告和分析，這可能是個壞跡象。 建議查看個別跟蹤器與閱讀其描述而不是只有**計算總數**把所列的項目一視同仁。
 
-!!! warning "警告"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning "警告"</p>
 
-    如果應用程式主要是基於網頁的服務，則跟蹤可能發生在伺服器端。 [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/)顯示「無追蹤器」，但確實會追蹤使用者在網站上的興趣和行為。 應用程式也許無需廣告業的標準代碼庫來逃避檢測，儘管這不太可能。
-    
+如果應用程式主要是基於網頁的服務，則跟蹤可能發生在伺服器端。 [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/)顯示「無追蹤器」，但確實會追蹤使用者在網站上的興趣和行為。 應用程式也許無需廣告業的標準代碼庫來逃避檢測，儘管這不太可能。
 
-!!! note "備註"
+</div>
 
-    [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 這並不意味 Bitwarden 使用 Google Firebase Analytics 提供的所有分析功能。
-    
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
 
+[Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 這並不意味 Bitwarden 使用 Google Firebase Analytics 提供的所有分析功能。
 
+</div>
 
 ## 隱私功能
 

@@ -45,13 +45,16 @@ Il est difficile de mettre en place de mauvaises configurations comme celles-ci 
 
 ---
 
-!!! info "Empreinte numérique VPN/SSH"
+<div class="admonition info" markdown>
+<p class="admonition-title">VPN/SSH Fingerprinting</p>
 
-    Le Tor Project [mentionne](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *théoriquement* l'utilisation d'un VPN pour cacher à votre FAI les activités Tor n'est pas forcément infaillible. Les VPNs se sont révélés vulnérables à la prise d'empreinte numérique du trafic des sites web, un adversaire pouvant toujours deviner quel site web est visité, car tous les sites web ont des schémas de trafic spécifiques.
-    
-    Il n'est donc pas déraisonnable de penser que le trafic Tor chiffré caché par un VPN pourrait également être détecté par des méthodes similaires. Il n'existe aucun document de recherche sur ce sujet, et nous considérons toujours que les avantages de l'utilisation d'un VPN l'emportent largement sur ces risques, mais il s'agit d'un élément à garder à l'esprit.
-    
-    Si vous pensez toujours que les transports enfichables (ponts) offrent une protection supplémentaire contre la prise d'empreinte numérique du trafic de site web qu'un VPN n'offre pas, vous avez toujours la possibilité d'utiliser un pont **et** un VPN en même temps.
+Le Tor Project [mentionne](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *théoriquement* l'utilisation d'un VPN pour cacher à votre FAI les activités Tor n'est pas forcément infaillible. Les VPNs se sont révélés vulnérables à la prise d'empreinte numérique du trafic des sites web, un adversaire pouvant toujours deviner quel site web est visité, car tous les sites web ont des schémas de trafic spécifiques.
+
+Il n'est donc pas déraisonnable de penser que le trafic Tor chiffré caché par un VPN pourrait également être détecté par des méthodes similaires. Il n'existe aucun document de recherche sur ce sujet, et nous considérons toujours que les avantages de l'utilisation d'un VPN l'emportent largement sur ces risques, mais il s'agit d'un élément à garder à l'esprit.
+
+Si vous pensez toujours que les transports enfichables (ponts) offrent une protection supplémentaire contre la prise d'empreinte numérique du trafic de site web qu'un VPN n'offre pas, vous avez toujours la possibilité d'utiliser un pont **et** un VPN en même temps.
+
+</div>
 
 Pour déterminer si vous devez d'abord utiliser un VPN pour vous connecter au réseau Tor, il vous faudra faire preuve de bon sens et connaître les politiques de votre gouvernement et de votre FAI relatives à ce à quoi vous vous connectez. Cependant, encore une fois et dans la plupart des cas, il est préférable que vous soyez vu comme connecté à un réseau VPN commercial plutôt que directement au réseau Tor. Si les fournisseurs de VPN sont censurés dans votre région, vous pouvez également envisager d'utiliser des transports enfichables Tor (par exemple les ponts Snowflake ou meek) comme alternative, mais l'utilisation de ces ponts peut susciter plus de suspicion que les tunnels WireGuard/OpenVPN standard.
 

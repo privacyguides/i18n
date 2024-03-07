@@ -75,20 +75,23 @@ Quindi, come potrebbe apparire?
 
 Uno dei modelli di minaccia più chiari è quello in cui le persone *ti conoscono* e uno in cui non ti conoscono. Ci saranno sempre situazioni in cui dovrai dichiarare il tuo nome legale, e altre in cui non sarà necessario.
 
-1. **Identità nota**: Un'identità nota è utilizzata per le cose in cui devi dichiarare il tuo nome. Esistono molti documenti legali e contratti in cui l'identità legale è necessaria. Questi possono andare dall'apertura di un conto bancario, la firma di affitto di una proprietà, l'ottenimento di un passaporto, dichiarazioni personalizzate per l'importazione di articoli, o altri rapporti con il tuo governo. Solitamente, queste cose, richiedono credenziali quali carte di credito, controlli di affidabilità creditizia, numeri di conto e, possibilmente, indirizzi fisici.
+1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-    Non suggeriamo di utilizzare alcuna VPN o Tor per queste cose, poiché la tua identità è già nota tramite altri mezzi.
+We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-    !!! tip "Suggerimento"
-   
-        Acquistando online, l'utilizzo di un [Paccomat](https://it.wikipedia.org/wiki/Paccomat), può contribuire a mantenere privato il tuo indirizzo email.
+<div class="admonition tip" markdown>
+<p class="admonition-title">Suggerimento</p>
+
+Acquistando online, l'utilizzo di un [Paccomat](https://it.wikipedia.org/wiki/Paccomat), può contribuire a mantenere privato il tuo indirizzo email.
+
+</div>
 
 2. **Identità sconosciuta**: Un'identità sconosciuta potrebbe essere uno pseudonimo stabile che utilizzi regolarmente. Non è anonimo perché non cambia. Se fai parte di una community online, potresti voler mantenere un'identità nota ad altri. Questo pseudonimo non è anonimo perché, se monitorato abbastanza a lungo, i dettagli sul proprietario potrebbero rilevare ulteriori informazioni, come il modo in cui scrive, le sue conoscenze generali su argomenti d'interesse, etc.
 
-    Potresti voler utilizzare una VPN per questo, per mascherare il tuo indirizzo IP. Le transazioni finanziarie sono più difficili da mascherare: potresti considerare l'utilizzo di criptovalute anonime, come [Monero](https://www.getmonero.org/). L'utilizzo del cambio di criptovalute, inoltre, potrebbe aiutare a distinguere l'origine della valuta. Tipicamente, le piattaforme di scambio richiedono il completamento della KYC (conoscenza del cliente), prima di consentirti di scambiare valuta legale per qualsiasi tipo di criptovaluta. Anche le opzioni di incontro locali potrebbero essere una soluzione; tuttavia, sono spesso più costose e, talvolta, richiedono la KYC.
+Potresti voler utilizzare una VPN per questo, per mascherare il tuo indirizzo IP. Le transazioni finanziarie sono più difficili da mascherare: potresti considerare l'utilizzo di criptovalute anonime, come [Monero](https://www.getmonero.org/). L'utilizzo del cambio di criptovalute, inoltre, potrebbe aiutare a distinguere l'origine della valuta. Tipicamente, le piattaforme di scambio richiedono il completamento della KYC (conoscenza del cliente), prima di consentirti di scambiare valuta legale per qualsiasi tipo di criptovaluta. Anche le opzioni di incontro locali potrebbero essere una soluzione; tuttavia, sono spesso più costose e, talvolta, richiedono la KYC.
 
 3. **Identità anonima**: Anche con l'esperienza, le identità anonime sono difficili da mantenere per lunghi periodi di tempo. Dovrebbero essere identità a breve termine e di breve durata, a rotazione regolare.
 
-    In questo caso, l'utilizzo di Tor può aiutare. Vale anche la pena di notare che un anonimato maggiore è possibile, tramite la comunicazione asincrona: la comunicazione in tempo reale è vulnerabile alle analisi dei modelli di digitazione (cioè, più di un paragrafo di testo, distribuito su un forum, via email, etc.)
+In questo caso, l'utilizzo di Tor può aiutare. Vale anche la pena di notare che un anonimato maggiore è possibile, tramite la comunicazione asincrona: la comunicazione in tempo reale è vulnerabile alle analisi dei modelli di digitazione (cioè, più di un paragrafo di testo, distribuito su un forum, via email, etc.)
 
 [^1]: Un notevole esempio è quello dell'[incidente del 2021, in cui i ricercatori dell'Università del Minnesota hanno introdotto tre vulnerabilità nel progetto di sviluppo del kernel Linux](https://cse.umn.edu/cs/linux-incident).

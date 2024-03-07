@@ -35,19 +35,25 @@ Wat de beveiliging van toepassingen betreft, weten we over het algemeen niet (en
 
 Om de potentiële schade van kwaadaardige software tot een minimum te beperken, moet u beveiliging door compartimentering toepassen. Dit kan in de vorm van het gebruik van verschillende computers voor verschillende taken, het gebruik van virtuele machines om verschillende groepen van gerelateerde toepassingen te scheiden, of het gebruik van een veilig besturingssysteem met een sterke nadruk op sandboxing van toepassingen en verplichte toegangscontrole.
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Mobiele besturingssystemen zijn over het algemeen veiliger dan desktopbesturingssystemen als het gaat om sandboxing van toepassingen.
-    
-    Apps kunnen geen root-toegang krijgen en hebben alleen toegang tot systeembronnen die je hen verleent. Desktop besturingssystemen lopen over het algemeen achter op het gebied van goede sandboxing. Chrome OS heeft vergelijkbare sandboxing-eigenschappen als Android, en macOS heeft volledige controle over systeemtoestemmingen en opt-in (voor ontwikkelaars) sandboxing voor applicaties, maar deze besturingssystemen geven wel identificerende informatie door aan hun respectieve OEM's. Linux heeft de neiging geen informatie door te geven aan systeemverkopers, maar het heeft een slechte bescherming tegen exploits en kwaadaardige apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Mobiele besturingssystemen zijn over het algemeen veiliger dan desktopbesturingssystemen als het gaat om sandboxing van toepassingen.
+
+Apps kunnen geen root-toegang krijgen en hebben alleen toegang tot systeembronnen die je hen verleent. Desktop besturingssystemen lopen over het algemeen achter op het gebied van goede sandboxing. Chrome OS heeft vergelijkbare sandboxing-eigenschappen als Android, en macOS heeft volledige controle over systeemtoestemmingen en opt-in (voor ontwikkelaars) sandboxing voor applicaties, maar deze besturingssystemen geven wel identificerende informatie door aan hun respectieve OEM's. Linux heeft de neiging geen informatie door te geven aan systeemverkopers, maar het heeft een slechte bescherming tegen exploits en kwaadaardige apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+
+</div>
 
 <span class="pg-red">:material-target-account: Gerichte aanvallen</span>
 
 Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken. Gangbare aanvalsmethoden zijn het verzenden van schadelijke documenten via e-mails, het uitbuiten van kwetsbaarheden in de browser en het besturingssysteem, en fysieke aanvallen. Als dit voor je een punt van zorg is, moet je mogelijk meer geavanceerde strategieën ter beperking van bedreigingen toepassen.
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    **Webbrowsers**, **e-mailclients**, en **kantoorapplicaties** voeren standaard onvertrouwde code uit die je door derden wordt toegestuurd. Het draaien van meerdere virtuele machines om toepassingen als deze te scheiden van uw hostsysteem en van elkaar is een techniek die je kunt gebruiken om te voorkomen dat een exploit in deze toepassingen de rest van jouw systeem aantast. Technologieën als Qubes OS of Microsoft Defender Application Guard op Windows bieden bijvoorbeeld handige methoden om dit naadloos te doen.
+**Webbrowsers**, **e-mailclients**, en **kantoorapplicaties** voeren standaard onvertrouwde code uit die je door derden wordt toegestuurd. Het draaien van meerdere virtuele machines om toepassingen als deze te scheiden van uw hostsysteem en van elkaar is een techniek die je kunt gebruiken om te voorkomen dat een exploit in deze toepassingen de rest van jouw systeem aantast. Technologieën als Qubes OS of Microsoft Defender Application Guard op Windows bieden bijvoorbeeld handige methoden om dit naadloos te doen.
+
+</div>
 
 Als je zich zorgen maakt over **fysieke aanvallen** moet je een besturingssysteem gebruiken met een veilige geverifieerde opstartimplementatie, zoals Android, iOS, macOS, [Windows (met TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Je moet er ook voor zorgen dat jouw schijf versleuteld is, en dat het besturingssysteem een TPM of Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) of [Element](https://developers.google.com/android/security/android-ready-se) gebruikt voor het beperken van de snelheid waarmee pogingen worden gedaan om de wachtwoordzin voor de versleuteling in te voeren. Je moet voorkomen dat je jouw computer deelt met mensen die je niet vertrouwt, omdat de meeste desktopbesturingssystemen gegevens niet afzonderlijk per gebruiker versleutelen.
 
@@ -61,13 +67,16 @@ Het voor de hand liggende probleem hierbij is dat de dienstverlener (of een hack
 
 Gelukkig kan end-to-end encryptie dit probleem verlichten door de communicatie tussen jou en de gewenste ontvangers te versleutelen voordat ze zelfs maar naar de server worden verzonden. De vertrouwelijkheid van jouw berichten is gewaarborgd, zolang de dienstverlener geen toegang heeft tot de particuliere sleutels van beide partijen.
 
-!!! note "Opmerking op webgebaseerde encryptie"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note on Web-based Encryption</p>
 
-    In de praktijk varieert de doeltreffendheid van verschillende implementaties van end-to-end encryptie. Toepassingen zoals [Signal](../real-time-communication.md#signal) draaien op het toestel zelf, en elke kopie van de toepassing is hetzelfde voor verschillende installaties. Als de dienstverlener een backdoor in zijn applicatie zou aanbrengen om te proberen jouw privé-sleutels te stelen, zou dat later met reverse engineering kunnen worden opgespoord.
-    
-    Anderzijds vertrouwen webgebaseerde end-to-end encryptie-implementaties, zoals Proton Mail's webmail of Bitwarden's web vault, erop dat de server dynamisch JavaScript-code naar de browser stuurt om cryptografische operaties uit te voeren. Een kwaadwillende server zou zich op een specifieke gebruiker kunnen richten en hem kwaadwillige JavaScript-code sturen om zijn encryptiesleutel te stelen, en het zou uiterst moeilijk zijn voor de gebruiker om zoiets ooit op te merken. Zelfs als de gebruiker de poging om zijn sleutel te stelen opmerkt, zou het ongelooflijk moeilijk zijn om te bewijzen dat het de provider is die dit probeert, omdat de server ervoor kan kiezen om verschillende webclients aan verschillende gebruikers aan te bieden.
-    
-    Wanneer je vertrouwt op end-to-end encryptie, moet je daarom waar mogelijk native applicaties verkiezen boven web clients.
+In de praktijk varieert de doeltreffendheid van verschillende implementaties van end-to-end encryptie. Toepassingen zoals [Signal](../real-time-communication.md#signal) draaien op het toestel zelf, en elke kopie van de toepassing is hetzelfde voor verschillende installaties. Als de dienstverlener een backdoor in zijn applicatie zou aanbrengen om te proberen jouw privé-sleutels te stelen, zou dat later met reverse engineering kunnen worden opgespoord.
+
+Anderzijds vertrouwen webgebaseerde end-to-end encryptie-implementaties, zoals Proton Mail's webmail of Bitwarden's web vault, erop dat de server dynamisch JavaScript-code naar de browser stuurt om cryptografische operaties uit te voeren. Een kwaadwillende server zou zich op een specifieke gebruiker kunnen richten en hem kwaadwillige JavaScript-code sturen om zijn encryptiesleutel te stelen, en het zou uiterst moeilijk zijn voor de gebruiker om zoiets ooit op te merken. Zelfs als de gebruiker de poging om zijn sleutel te stelen opmerkt, zou het ongelooflijk moeilijk zijn om te bewijzen dat het de provider is die dit probeert, omdat de server ervoor kan kiezen om verschillende webclients aan verschillende gebruikers aan te bieden.
+
+Wanneer je vertrouwt op end-to-end encryptie, moet je daarom waar mogelijk native applicaties verkiezen boven web clients.
+
+</div>
 
 Zelfs met end-to-end encryptie kunnen dienstverleners je nog steeds profileren op basis van **metadata**, die doorgaans niet beschermd zijn. Hoewel de dienstverlener jouw berichten niet kan lezen om te zien wat je zegt, kan hij wel observeren met wie je praat, hoe vaak je hen berichten stuurt en op welke tijden je doorgaans actief bent. Bescherming van metadata is tamelijk ongewoon, en je zou goed moeten opletten in de technische documentatie van de software die je gebruikt om te zien of er überhaupt sprake is van minimalisering of bescherming van metadata, als dat voor je een punt van zorg is.
 
@@ -77,17 +86,23 @@ Zelfs met end-to-end encryptie kunnen dienstverleners je nog steeds profileren o
 
 Massasurveillance is een poging om een groot deel van of een gehele bevolking te surveilleren. Het verwijst vaak naar overheidsprogramma's, zoals de programma's [die in 2013 door Edward Snowden werden onthuld](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)).
 
-!!! abstract "Atlas of Surveillance"
+<div class="admonition abstract" markdown>
+<p class="admonition-title">Atlas of Surveillance</p>
 
-    Als je meer wilt weten over bewakingsmethoden en hoe die in jouw stad worden toegepast, kunt je ook de [Atlas of Surveillance](https://atlasofsurveillance.org/) van de [Electronic Frontier Foundation](https://www.eff.org/) bekijken.
-    
-    In Frankrijk kunt u een kijkje nemen op de [Technolopolice website](https://technopolice.fr/villes/) die wordt onderhouden door de non-profit vereniging La Quadrature du Net.
+Als je meer wilt weten over bewakingsmethoden en hoe die in jouw stad worden toegepast, kunt je ook de [Atlas of Surveillance](https://atlasofsurveillance.org/) van de [Electronic Frontier Foundation](https://www.eff.org/) bekijken.
+
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+
+</div>
 
 Regeringen rechtvaardigen massasurveillanceprogramma's vaak als noodzakelijke middelen om terrorisme te bestrijden en misdaad te voorkomen. Het schendt echter de mensenrechten en wordt meestal gebruikt om zich buitenproportioneel te richten op onder andere minderheidsgroepen en politieke dissidenten.
 
-!!! quote "ACLU: [*De privacyles van 9/11: Mass Surveillance is Not the Way Forward*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+<div class="admonition quote" markdown>
+<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-    Het omzeilen van de censuur zelf is betrekkelijk eenvoudig, maar het feit dat je het censuursysteem omzeilt voor de censoren kan zeer problematisch zijn. Je moet nagaan welke aspecten van het netwerk jouw tegenstander kan waarnemen, en of je jouw acties kunt ontkennen.
+Het omzeilen van de censuur zelf is betrekkelijk eenvoudig, maar het feit dat je het censuursysteem omzeilt voor de censoren kan zeer problematisch zijn. Je moet nagaan welke aspecten van het netwerk jouw tegenstander kan waarnemen, en of je jouw acties kunt ontkennen.
+
+</div>
 
 Ondanks de toenemende massasurveillance in de Verenigde Staten heeft de regering vastgesteld dat massasurveillanceprogramma's zoals Section 215 "weinig unieke waarde" hebben gehad wat betreft het stoppen van daadwerkelijke misdaden of terroristische complotten, waarbij de inspanningen grotendeels de eigen gerichte surveillanceprogramma's van de FBI dupliceren.[^2]
 
@@ -133,11 +148,14 @@ Censuur op bedrijfsplatforms komt steeds vaker voor, nu platforms als Twitter en
 
 Mensen die bezorgd zijn over de dreiging van censuur kunnen technologieën als [Tor](../advanced/tor-overview.md) gebruiken om die te omzeilen, en steun verlenen aan censuurbestendige communicatieplatforms als [Matrix](../real-time-communication.md#element), dat geen gecentraliseerde accountautoriteit heeft die willekeurig accounts kan sluiten.
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Het ontwijken van censuur kan gemakkelijk zijn, maar het verbergen van het feit dat je het doet kan heel moeilijk zijn.
-    
-    Je zou moeten overwegen welke aspecten van het netwerk je tegenstander kan waarnemen en of je plausibele ontkenningsmogelijkheden voor je actie hebt. Het gebruik van [versleutelde DNS](../advanced/dns-overview.md#what-is-encrypted-dns) kan je bijvoorbeeld helpen om rudimentaire, DNS-gebaseerde censuursystemen te omzeilen, maar het kan niet echt verbergen wat je bezoekt bij je ISP. Een VPN of Tor kan helpen verbergen wat je bezoekt voor netwerkbeheerders, maar je kunt niet verbergen dat je deze netwerken als gebruikt. Pluggable transports (zoals Obfs4proxy, Meek of Shadowsocks) kunnen je helpen firewalls te omzeilen die gangbare VPN-protocollen of Tor blokkeren, maar jouw pogingen tot omzeiling kunnen nog steeds worden ontdekt door methoden als probing of [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+Het ontwijken van censuur kan gemakkelijk zijn, maar het verbergen van het feit dat je het doet kan heel moeilijk zijn.
+
+Je zou moeten overwegen welke aspecten van het netwerk je tegenstander kan waarnemen en of je plausibele ontkenningsmogelijkheden voor je actie hebt. Het gebruik van [versleutelde DNS](../advanced/dns-overview.md#what-is-encrypted-dns) kan je bijvoorbeeld helpen om rudimentaire, DNS-gebaseerde censuursystemen te omzeilen, maar het kan niet echt verbergen wat je bezoekt bij je ISP. Een VPN of Tor kan helpen verbergen wat je bezoekt voor netwerkbeheerders, maar je kunt niet verbergen dat je deze netwerken als gebruikt. Pluggable transports (zoals Obfs4proxy, Meek of Shadowsocks) kunnen je helpen firewalls te omzeilen die gangbare VPN-protocollen of Tor blokkeren, maar jouw pogingen tot omzeiling kunnen nog steeds worden ontdekt door methoden als probing of [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+
+</div>
 
 Je moet altijd rekening houden met de risico 's van het proberen om censuur te omzeilen, de mogelijke gevolgen en hoe geavanceerd je tegenstander kan zijn. Je moet voorzichtig zijn met jouw software selectie, en een back-up plan hebben voor het geval je betrapt wordt.
 

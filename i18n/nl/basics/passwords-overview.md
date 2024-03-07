@@ -1,7 +1,7 @@
 ---
-title: "Inleiding tot wachtwoorden"
+title: "Introduction to Passwords"
 icon: 'material/form-textbox-password'
-description: Dit zijn enkele tips en trucs om de sterkste wachtwoorden te maken en jouw accounts veilig te houden.
+description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
 Wachtwoorden zijn een essentieel onderdeel van ons dagelijkse digitale leven. We gebruiken ze om onze accounts, onze apparaten en onze geheimen te beschermen. Hoewel ze vaak het enige zijn tussen ons en een tegenstander die uit is op onze privégegevens, wordt er niet veel aandacht aan besteed, wat er vaak toe leidt dat mensen wachtwoorden gebruiken die gemakkelijk geraden of gebruteforcet kunnen worden.
@@ -26,9 +26,12 @@ Wachtwoorden die je moet onthouden (zoals het hoofdwachtwoord van jouw wachtwoor
 
 Als het gaat om wachtwoorden die je niet hoeft te onthouden (zoals wachtwoorden die zijn opgeslagen in jouw wachtwoordmanager), adviseren wij, als jouw [dreigingsmodel](threat-modeling.md) daarom vraagt, belangrijke accounts door te nemen (vooral accounts die geen multi-factor authenticatie gebruiken) en hun wachtwoord om de paar maanden te wijzigen, voor het geval ze zijn gecompromitteerd in een datalek dat nog niet openbaar is geworden. Bij de meeste wachtwoordmanagers kunt u een vervaldatum voor uw wachtwoord instellen om dit gemakkelijker te beheren.
 
-!!! tip "Controleren op datalekken"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Checking for data breaches</p>
 
-    Als je met jouw wachtwoordmanager kunt controleren op gecompromitteerde wachtwoorden, doe dat dan en wijzig onmiddellijk alle wachtwoorden die bij een datalek bekend zijn geworden. Je kunt ook de [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) volgen met behulp van een [nieuwsaggregator](../news-aggregators.md).
+Als je met jouw wachtwoordmanager kunt controleren op gecompromitteerde wachtwoorden, doe dat dan en wijzig onmiddellijk alle wachtwoorden die bij een datalek bekend zijn geworden. Je kunt ook de [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) volgen met behulp van een [nieuwsaggregator](../news-aggregators.md).
+
+</div>
 
 ## Sterke wachtwoorden maken
 
@@ -48,9 +51,12 @@ Een voorbeeld van een diceware wachtwoord zin is:  `zichtbaar snelheid hond teru
 
 Volg deze stappen om een diceware passphrase te genereren met echte dobbelstenen:
 
-!!! note
+<div class="admonition Note" markdown>
+<p class="admonition-title">Note</p>
 
-    Deze instructies gaan ervan uit dat je [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) gebruikt om de wachtwoord zin te genereren, waarvoor vijf dobbelsteenworpen per woord nodig zijn. Andere woordenlijsten kunnen meer of minder rollen per woord vereisen, en kunnen een ander aantal woorden nodig hebben om dezelfde entropie te bereiken.
+Deze instructies gaan ervan uit dat je [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) gebruikt om de wachtwoord zin te genereren, waarvoor vijf dobbelsteenworpen per woord nodig zijn. Andere woordenlijsten kunnen meer of minder rollen per woord vereisen, en kunnen een ander aantal woorden nodig hebben om dezelfde entropie te bereiken.
+
+</div>
 
 1. Gooi vijf keer met een zeszijdige dobbelsteen en noteer het getal na elke worp.
 
@@ -60,31 +66,37 @@ Volg deze stappen om een diceware passphrase te genereren met echte dobbelstenen
 
 4. Herhaal dit proces totdat jouw wachtwoord zoveel woorden bevat als je nodig hebt, die je moet scheiden met een spatie.
 
-!!! warning "Belangrijk"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Important</p>
 
-    Je moet **niet** opnieuw woorden rollen totdat je een combinatie van woorden krijgt die je aanspreekt. Het proces moet volledig willekeurig zijn.
+Je moet **niet** opnieuw woorden rollen totdat je een combinatie van woorden krijgt die je aanspreekt. Het proces moet volledig willekeurig zijn.
+
+</div>
 
 Als je geen toegang hebt tot of liever geen echte dobbelstenen gebruikt, kunt je de ingebouwde wachtwoordgenerator van jouw wachtwoord manager gebruiken, omdat de meeste daarvan de optie hebben om naast gewone wachtwoorden ook diceware wachtwoord zinnen te genereren.
 
 Wij adviseren het gebruik van [EFF's grote woordenlijst](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) om jouw diceware wachtwoord zinnen te genereren, omdat het exact dezelfde veiligheid biedt als de originele lijst, terwijl het woorden bevat die gemakkelijker te onthouden zijn. Er zijn ook [andere woordenlijsten in verschillende talen](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), als u niet wilt dat uw wachtwoord in het Engels is.
 
-??? note "Uitleg van entropie en sterkte van diceware wachtwoord zinnen"
+<details class="note" markdown>
+<summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-    Om aan te tonen hoe sterk diceware wachtwoord zin zijn, gebruiken we de eerder genoemde wachtwoord zin van zeven woorden (`kijkbaar snel terughoudend hond zeventien getoond potlood`) en [EFF's grote woordenlijst](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) als voorbeeld.
-    
-    Eén meting om de sterkte van een wachtwoord zin te bepalen is hoeveel entropie het heeft. De entropie per woord in een diceware wachtwoord zin wordt berekend als $\text{log}_2(\text{WordsInList})$ en de totale entropie van de wachtwoord zin wordt berekend als $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
-    
-    Daarom resulteert elk woord in de bovengenoemde lijst in ~12,9 bits entropie ($\text{log}_2(7776)$), en een daarvan afgeleide wachtwoord zin van zeven woorden heeft ~90,47 bits entropie ($\text{log}_2(7776^7)$).
-    
-    De [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) bevat 7776 unieke woorden. Om het aantal mogelijke passphrases te berekenen, hoeven we alleen maar $\text{WordsInList}^\text{WordsInPhrase}$, of in ons geval, $7776^7$, uit te rekenen.
-    
-    Laten we dit alles in perspectief plaatsen: Een passphrase van zeven woorden met [EFF's grote woordenlijst](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is één van ~1,719,070,799,748,422,500,000,000,000 mogelijke wachtwoord zinnen.
-    
-    Gemiddeld duurt het proberen van 50% van alle mogelijke combinaties om uw zin te raden. Met dat in gedachten, zelfs als uw tegenstander in staat is tot ~1.000.000.000.000 raden per seconde, zou het hem nog steeds ~27.255.689 jaar kosten om uw wachtwoord te raden. Zelfs als de volgende dingen waar zijn:
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
-    - Je tegenstander weet dat je de diceware-methode hebt gebruikt.
-    - Je tegenstander kent de specifieke woordenlijst die je gebruikt hebt.
-    - Jouw tegenstander weet hoeveel woorden jouw wachtwoord bevat.
+Eén meting om de sterkte van een wachtwoord zin te bepalen is hoeveel entropie het heeft. De entropie per woord in een diceware wachtwoord zin wordt berekend als $\text{log}_2(\text{WordsInList})$ en de totale entropie van de wachtwoord zin wordt berekend als $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+
+Daarom resulteert elk woord in de bovengenoemde lijst in ~12,9 bits entropie ($\text{log}_2(7776)$), en een daarvan afgeleide wachtwoord zin van zeven woorden heeft ~90,47 bits entropie ($\text{log}_2(7776^7)$).
+
+The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Om het aantal mogelijke passphrases te berekenen, hoeven we alleen maar $\text{WordsInList}^\text{WordsInPhrase}$, of in ons geval, $7776^7$, uit te rekenen.
+
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+
+Gemiddeld duurt het proberen van 50% van alle mogelijke combinaties om uw zin te raden. Met dat in gedachten, zelfs als uw tegenstander in staat is tot ~1.000.000.000.000 raden per seconde, zou het hem nog steeds ~27.255.689 jaar kosten om uw wachtwoord te raden. Zelfs als de volgende dingen waar zijn:
+
+- Je tegenstander weet dat je de diceware-methode hebt gebruikt.
+- Je tegenstander kent de specifieke woordenlijst die je gebruikt hebt.
+- Jouw tegenstander weet hoeveel woorden jouw wachtwoord bevat.
+
+</details>
 
 Kortom, diceware wachtzinnen zijn jouw beste optie wanneer je iets nodig hebt dat zowel gemakkelijk te onthouden is *als* uitzonderlijk sterk.
 
@@ -98,13 +110,16 @@ Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Ki
 
 [Lijst van aanbevolen wachtwoordmanagers](../passwords.md ""){.md-button}
 
-!!! warning "Plaats uw wachtwoorden en TOTP-tokens niet in dezelfde wachtwoordmanager"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-    Wanneer je TOTP-codes gebruikt als [multi-factor authenticatie](../multi-factor-authentication.md), is de beste beveiligingspraktijk om jouw TOTP-codes in een [aparte app] te bewaren(../multi-factor-authentication.md#authenticator-apps).
-    
-    Het opslaan van jouw TOTP-tokens op dezelfde plaats als jouw wachtwoorden is weliswaar handig, maar beperkt de accounts tot één factor in het geval dat een tegenstander toegang krijgt tot jouw wachtwoord manager.
-    
-    Verder raden wij af om herstelcodes voor eenmalig gebruik op te slaan in uw wachtwoord manager. Deze moeten apart worden opgeslagen, zoals in een versleutelde container op een offline opslagapparaat.
+Wanneer je TOTP-codes gebruikt als [multi-factor authenticatie](../multi-factor-authentication.md), is de beste beveiligingspraktijk om jouw TOTP-codes in een [aparte app] te bewaren(../multi-factor-authentication.md#authenticator-apps).
+
+Het opslaan van jouw TOTP-tokens op dezelfde plaats als jouw wachtwoorden is weliswaar handig, maar beperkt de accounts tot één factor in het geval dat een tegenstander toegang krijgt tot jouw wachtwoord manager.
+
+Verder raden wij af om herstelcodes voor eenmalig gebruik op te slaan in uw wachtwoord manager. Deze moeten apart worden opgeslagen, zoals in een versleutelde container op een offline opslagapparaat.
+
+</div>
 
 ### Back-ups
 

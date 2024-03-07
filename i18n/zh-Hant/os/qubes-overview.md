@@ -10,9 +10,12 @@ description: Qubes 作業系統利用*qubes* (過去稱"虛擬機器") 來隔離
 
 Qubes 使用 [分區化](https://www.qubes-os.org/intro/) 來確保系統安全。 Qubes 從模板創建，預設為 Fedora、Debian 和 [Whonix](../desktop.md#whonix)。 Qubes OS還允許您創建一次性 [一次性](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes*。
 
-??? 更新改用“*qubes*一辭，避免將它們稱為“虛擬器”。
+<details class="note" markdown>
+<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
 
-    由於“appVM”一辭更改為“qube”，此處和 Qubes OS 文檔中的一些資訊可能在語言上產生衝突。 Qube 不是完整的虛擬器，但有與 VM 類似的功能。
+由於“appVM”一辭更改為“qube”，此處和 Qubes OS 文檔中的一些資訊可能在語言上產生衝突。 Qube 不是完整的虛擬器，但有與 VM 類似的功能。
+
+</details>
 
 ![Qubes架構](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
@@ -41,9 +44,12 @@ Qubes OS在主機作業系統上 利用 [dom0](https://wiki.xenproject.org/wiki/
 
 若要將檔案和目錄(資料夾) 從一個*qube* 複製貼到另一個 ，您可以使用選項 **Copy to Other AppVM...** 或 **Move to Other AppVM...**。 不同之處在於 **Move** 選項會刪除原始檔案。 這兩個選項都可以保護您的剪貼簿不會洩漏到任何其他*qube* 。 這比氣隙檔案傳輸更安全。 氣隙電腦仍會被迫解析分區或檔案系統。 這在inter-qube複製系統中是不需要的。
 
-??? *Qube* 沒有自己的檔案系統。
+<details class="note" markdown>
+<summary>Qubes do not have their own filesystems.</summary>
 
-    您可以在 qubes之間[複製和移動檔案](https://www.qubes-os.org/doc/how-to-copy-and-move-files/)。 當這樣做時，不會立即進行更改，並且在發生事故時可以輕鬆撤消。 當您運行 *qube* 時，它沒有持久檔案系統。 您可以創建和刪除檔案，但這些更改是暫時的。
+You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. 當這樣做時，不會立即進行更改，並且在發生事故時可以輕鬆撤消。 When you run a *qube*, it does not have a persistent filesystem. 您可以創建和刪除檔案，但這些更改是暫時的。
+
+</details>
 
 ### 虛擬機之間交互
 

@@ -133,16 +133,19 @@ Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://suppor
 After your smartcard/security key is set up, we recommend running this command in the Terminal:
 
 ```text
-sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool SIM
+sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
 ```
 
 The command will prevent an adversary from bypassing MFA when the computer boots.
 
 ### Linux
 
-!!! Recomendamos que você verifique o [documentação](https://developers.yubico.com/SSH/) de Yubico sobre como configurar isso.
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+
+</div>
 
 The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. A maioria das coisas deve ser a mesma independentemente da distribuição, no entanto os comandos do gerenciador de pacotes, como "apt-get" e nomes de pacotes podem ser diferentes. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
 

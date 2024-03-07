@@ -35,19 +35,25 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 
 为了最大限度地减少恶意软件可能造成的损害，您应该采用隔离方式进行安全防护。 这可以是使用不同的计算机进行不同的工作，使用虚拟机来分离不同的相关应用程序组，或者使用一个安全的操作系统，重点是要有应用程序沙盒和强制性的访问控制。
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    在应用程序沙盒方面，移动操作系统通常比桌面操作系统更安全。
-    
-    应用程序无法获得根访问权限，只能访问您授予它们访问权限的系统资源。 桌面操作系统在成熟的沙箱方面通常比较落后。 ChromeOS具有与安卓类似的沙盒属性，而macOS具有完整的系统权限控制和（针对开发者）可选的应用程序沙盒，然而这些操作系统的确会将识别信息传输给各自的OEM。 Linux倾向于不向系统供应商提交信息，但它对漏洞和恶意应用程序的保护很差。 This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+在应用程序沙盒方面，移动操作系统通常比桌面操作系统更安全。
+
+应用程序无法获得根访问权限，只能访问您授予它们访问权限的系统资源。 桌面操作系统在成熟的沙箱方面通常比较落后。 ChromeOS具有与安卓类似的沙盒属性，而macOS具有完整的系统权限控制和（针对开发者）可选的应用程序沙盒，然而这些操作系统的确会将识别信息传输给各自的OEM。 Linux倾向于不向系统供应商提交信息，但它对漏洞和恶意应用程序的保护很差。 This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+
+</div>
 
 <span class="pg-red">:material-target-account: 定向攻击</span>
 
 针对特定用户的有针对性的攻击更加难以处理。 常见的攻击途径包括通过电子邮件发送恶意文件，利用浏览器和操作系统的漏洞，以及物理攻击。 如果您担心这一点，则可能需要采用更高级的威胁缓解策略。
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    **网络浏览器**、**电子邮件客户端**和**办公应用程序**在设计上通常都运行源自第三方的不可信代码。 运行多个虚拟机来将此类应用程序从主机系统中分离出来，以及彼此分离，是您可以使用的一种技术，以避免这些应用程序中的漏洞被利用，危及系统的其余部分。 例如，Qubes OS或Windows上的Microsoft Defender Application Guard等技术提供了无缝执行此操作的便捷方法。
+**网络浏览器**、**电子邮件客户端**和**办公应用程序**在设计上通常都运行源自第三方的不可信代码。 运行多个虚拟机来将此类应用程序从主机系统中分离出来，以及彼此分离，是您可以使用的一种技术，以避免这些应用程序中的漏洞被利用，危及系统的其余部分。 例如，Qubes OS或Windows上的Microsoft Defender Application Guard等技术提供了无缝执行此操作的便捷方法。
+
+</div>
 
 如果你担心 **物理攻击** ，你应该使用具有安全验证启动实现的操作系统，如Android、iOS、macOS、 [Windows（带TPM）](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process)。 你还应该确保你的驱动器是加密的，并且操作系统使用TPM或安全 [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) ，以限制输入加密口令的重试速率。 你应该避免与你不信任的人分享你的电脑，因为大多数桌面操作系统没有按用户单独加密数据。
 
@@ -61,13 +67,16 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 
 值得庆幸的是，可以通过在发送到服务器之前就对您与收件人之间的通信进行端到端加密来缓解此问题。 只要服务提供者不能获得任何一方的私钥，就能保证你的信息的保密性。
 
-!!! 注释“关于基于web的加密的说明”
+<div class="admonition note" markdown>
+<p class="admonition-title">Note on Web-based Encryption</p>
 
-    在实践中，不同的端到端加密实现的有效性各不相同。 [Signal](../real-time-communication.md＃signal)这类应用程序在您的设备本地运行，并且应用程序副本在不同的安装下保持相同。 如果服务提供商在他们的应用程序中设置后门，试图窃取你的私钥，这可以在未来通过逆向工程检测出来。
-    
-    另一方面，基于Web的端到端加密实现（如Proton Mail的webmail或Bitwarden的web vault）依赖于服务器动态地向浏览器提供JavaScript代码来处理加密操作。 一个恶意的服务器可以针对一个特定的用户，向他们发送恶意的JavaScript代码来窃取他们的加密密钥，而用户是很难注意到这样的事情的。 即使用户注意到有人试图窃取他们的密钥，也很难证明是提供商试图这样做，因为服务器可以选择向不同的用户提供不同的网络客户端。
-    
-    因此，当依赖端到端加密时，你应该尽可能选择使用本地应用程序而不是网络客户端。
+在实践中，不同的端到端加密实现的有效性各不相同。 [Signal](../real-time-communication.md＃signal)这类应用程序在您的设备本地运行，并且应用程序副本在不同的安装下保持相同。 如果服务提供商在他们的应用程序中设置后门，试图窃取你的私钥，这可以在未来通过逆向工程检测出来。
+
+另一方面，基于Web的端到端加密实现（如Proton Mail的webmail或Bitwarden的web vault）依赖于服务器动态地向浏览器提供JavaScript代码来处理加密操作。 一个恶意的服务器可以针对一个特定的用户，向他们发送恶意的JavaScript代码来窃取他们的加密密钥，而用户是很难注意到这样的事情的。 即使用户注意到有人试图窃取他们的密钥，也很难证明是提供商试图这样做，因为服务器可以选择向不同的用户提供不同的网络客户端。
+
+因此，当依赖端到端加密时，你应该尽可能选择使用本地应用程序而不是网络客户端。
+
+</div>
 
 即使有端对端加密，服务提供商仍然可以根据 **元数据**，对你进行剖析，而这些元数据通常不受保护。 虽然服务提供商无法阅读您的消息以查看您所说的内容，但他们仍然可以观察到您正在与谁通话、您给他们发送消息的频率以及您通常活跃的时间等情况。 对元数据的保护是相当不常见的，如果你关心这一点，应该密切关注你所使用的软件的技术文档，看看是否有任何元数据最小化或保护。
 
@@ -77,17 +86,23 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 
 大规模监控是指对许多或所有特定人群进行监控的工作。 它通常是指像[Edward Snowden在2013披露](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present))的那一类政府项目。
 
-!!! 摘要“监测地图”
+<div class="admonition abstract" markdown>
+<p class="admonition-title">Atlas of Surveillance</p>
 
-    如果你想了解更多关于监视方法以及它们在你的城市是如何实施的，你也可以看看[电子前沿基金会](https://atlasofsurveillance.org/)的[监视地图]。
-    
-    在法国，你可以看看由非营利协会 La Quadrature du Net 维护的[Technolopolice 网站](https://technopolice.fr/villes/)。
+如果你想了解更多关于监视方法以及它们在你的城市是如何实施的，你也可以看看[电子前沿基金会](https://atlasofsurveillance.org/)的[监视地图]。
+
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+
+</div>
 
 政府经常为大规模监控项目辩护，认为这是打击恐怖主义和防止犯罪的必要手段。 然而，它侵犯人权，最常被用来不成比例地针对少数群体和持不同政见者等。
 
-!!! 引用 "美国公民自由联盟。 [*9/11的隐私教训。大规模监控不是前进的方向*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+<div class="admonition quote" markdown>
+<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-    面对[爱德华-斯诺登披露的政府项目，如 [PRISM]（https://en.wikipedia.org/wiki/PRISM）和 [Upstream]（https://en.wikipedia.org/wiki/Upstream_collection）]，情报官员也承认，国家安全局多年来一直在秘密收集几乎每个美国人的电话记录--谁在给谁打电话，这些电话是什么时候打的，以及它们持续多长时间。 你应该考虑你的对手能观察到网络的哪些方面，以及你的行动是否有合理的可否认性。
+面对[爱德华-斯诺登披露的政府项目，如 [PRISM]（https://en.wikipedia.org/wiki/PRISM）和 [Upstream]（https://en.wikipedia.org/wiki/Upstream_collection）]，情报官员也承认，国家安全局多年来一直在秘密收集几乎每个美国人的电话记录--谁在给谁打电话，这些电话是什么时候打的，以及它们持续多长时间。 你应该考虑你的对手能观察到网络的哪些方面，以及你的行动是否有合理的可否认性。
+
+</div>
 
 尽管美国的大规模监控越来越多，但政府发现，像第215条这样的大规模监控计划在阻止实际犯罪或恐怖主义阴谋方面 "没有什么独特的价值"，其努力主要是重复联邦调查局自己的目标监控计划。[^2]
 
@@ -133,11 +148,14 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 
 关注审查制度威胁的人可以使用像 [Tor](../advanced/tor-overview.md) 这样的技术来规避审查制度，并支持像 [Matrix](../real-time-communication.md#element)这样的抗审查通信平台，该平台没有一个可以任意关闭账户的集中式账户管理机构。
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    虽然逃避审查本身很容易，但隐藏你正在做的事实可能非常有问题。
-    
-    你应该考虑你的对手可以观察到网络的哪些方面，以及你的行动是否有合理的可否认性。 例如，使用[加密DNS](.../advanced/dns-overview.md#what-is-encrypted-dns)可以帮助你绕过初级的、基于DNS的审查系统，但它不能真正向ISP隐藏你正在访问的内容。 VPN或Tor可以帮助向网络管理员隐藏你正在访问的内容，但不能隐藏你首先在使用这些网络。 可插拔的传输工具（如Obfs4proxy、Meek或Shadowsocks）可以帮助你逃避阻挡普通VPN协议或Tor的防火墙，但你的规避尝试仍然可以被探测或[深度包检查](https://en.wikipedia.org/wiki/Deep_packet_inspection)等方法发现。
+虽然逃避审查本身很容易，但隐藏你正在做的事实可能非常有问题。
+
+你应该考虑你的对手可以观察到网络的哪些方面，以及你的行动是否有合理的可否认性。 例如，使用[加密DNS](.../advanced/dns-overview.md#what-is-encrypted-dns)可以帮助你绕过初级的、基于DNS的审查系统，但它不能真正向ISP隐藏你正在访问的内容。 VPN或Tor可以帮助向网络管理员隐藏你正在访问的内容，但不能隐藏你首先在使用这些网络。 可插拔的传输工具（如Obfs4proxy、Meek或Shadowsocks）可以帮助你逃避阻挡普通VPN协议或Tor的防火墙，但你的规避尝试仍然可以被探测或[深度包检查](https://en.wikipedia.org/wiki/Deep_packet_inspection)等方法发现。
+
+</div>
 
 你必须始终考虑试图绕过审查制度的风险，潜在的后果，以及你的对手可能有多复杂。 你应该谨慎地选择软件，并有一个备份计划，以防被发现。
 

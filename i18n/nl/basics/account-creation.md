@@ -1,8 +1,8 @@
 ---
-meta_title: "Hoe maak je anoniem een account aan op het internet = Privacy Guides"
-title: "Het aanmaken van accounts"
+meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+title: "Account Creation"
 icon: 'material/account-plus'
-description: Online accounts aanmaken is bijna een internetbehoefte, neem deze stappen om ervoor te zorgen dat je privé blijft.
+description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
 Vaak melden mensen zich aan voor diensten zonder na te denken. Misschien is het een streamingdienst zodat je die nieuwe show kunt bekijken waar iedereen het over heeft, of een account waarmee je korting krijgt op uw favoriete fastfood zaak. Wat het geval ook is, je moet nu en later rekening houden met de implicaties voor jouw gegevens.
@@ -29,9 +29,12 @@ Er zijn meestal meerdere manieren om een account aan te maken, elk met hun eigen
 
 De meest gebruikelijke manier om een nieuwe account aan te maken is met een e-mailadres en wachtwoord. Wanneer je deze methode gebruikt, moet je een wachtwoord manager gebruiken en de best practices [volgen](passwords-overview.md) met betrekking tot wachtwoorden.
 
-!!! tip
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Je kunt jouw wachtwoord manager ook gebruiken om andere verificatiemethoden te organiseren! Voeg gewoon het nieuwe item toe en vul de juiste velden in, u kunt notities toevoegen voor zaken als beveiligingsvragen of een back-up sleutel.
+Je kunt jouw wachtwoord manager ook gebruiken om andere verificatiemethoden te organiseren! Voeg gewoon het nieuwe item toe en vul de juiste velden in, u kunt notities toevoegen voor zaken als beveiligingsvragen of een back-up sleutel.
+
+</div>
 
 Je bent verantwoordelijk voor het beheer van jouw inloggegevens. Voor extra beveiliging kunt je  [MFA](multi-factor-authentication.md) instellen op jouw accounts.
 

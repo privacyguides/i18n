@@ -1,7 +1,7 @@
 ---
 title: Android Overview
 icon: simple/android
-description: Android adalah sistem operasi sumber terbuka dengan perlindungan keamanan yang kuat, yang menjadikannya pilihan utama kami untuk ponsel.
+description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
@@ -99,13 +99,19 @@ An app may request a permission for a specific feature it has. For example, any 
 
 [Exodus](https://exodus-privacy.eu.org/) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
 
-!!! peringatan
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
 
-    Jika sebuah aplikasi sebagian besar merupakan layanan berbasis web, pelacakan dapat terjadi di sisi server. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) menunjukkan "tidak ada pelacak" tetapi tentu saja melacak minat dan perilaku pengguna di seluruh situs. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
+Jika sebuah aplikasi sebagian besar merupakan layanan berbasis web, pelacakan dapat terjadi di sisi server. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) menunjukkan "tidak ada pelacak" tetapi tentu saja melacak minat dan perilaku pengguna di seluruh situs. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
 
-!!! catatan
+</div>
 
-    Aplikasi ramah privasi seperti [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) dapat menampilkan beberapa pelacak seperti [Google Firebase Analytics] (https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. Ini [adalah kasus] (https://fosstodon.org/@bitwarden/109636825700482007) dengan Bitwarden. Itu tidak berarti bahwa Bitwarden menggunakan semua fitur analisis yang disediakan oleh Google Firebase Analytics.
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
+
+Aplikasi ramah privasi seperti [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) dapat menampilkan beberapa pelacak seperti [Google Firebase Analytics] (https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. Ini [adalah kasus] (https://fosstodon.org/@bitwarden/109636825700482007) dengan Bitwarden. Itu tidak berarti bahwa Bitwarden menggunakan semua fitur analisis yang disediakan oleh Google Firebase Analytics.
+
+</div>
 
 ## Privacy Features
 

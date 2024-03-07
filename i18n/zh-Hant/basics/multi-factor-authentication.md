@@ -140,9 +140,12 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 ### Linux
 
-!!! warning "警告"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning "警告"</p>
 
-    如果系統主機名稱發生變更（例如由於 DHCP ） ，您將無法登入。 在遵循本指南之前，為您的電腦設置正確的主機名至關重要。
+如果系統主機名稱發生變更（例如由於 DHCP ） ，您將無法登入。 在遵循本指南之前，為您的電腦設置正確的主機名至關重要。
+
+</div>
 
 Linux 上的 `pam_u2f` 模組可以提供雙因素驗證，以便在最流行的 Linux 發行版上登錄。 如果您有支援 U2F 的硬體安全金鑰，可以為您的登入設定 MFA 驗證。 Yubico有一個 [Ubuntu Linux 登錄指南- U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) ，應該適用於任何發行版。 軟體包管理器指令（例如 `apt-get`）和軟體包名稱可能不同。 本指南 **不適用於**  Qubes OS.
 

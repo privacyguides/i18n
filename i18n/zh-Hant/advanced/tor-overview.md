@@ -51,14 +51,16 @@ Tor 是一個免費使用的去中心化網路，其讓用戶在使用網際網�
 
 ---
 
-!!! info "VPN/SSH Fingerprinting"
+<div class="admonition info" markdown>
+<p class="admonition-title">VPN/SSH Fingerprinting</p>
 
-    Tor 專案 [註](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) *理論上*使用 VPN 隱藏 Tor 活動到 ISP 可能不容易。 人們發現 VPN 很容易受到網站流量指紋辨識的影響，攻擊者仍然可猜測正在造訪哪個網站，因為所有網站都有特定的流量模式。
-    
-    因此，相信 VPN 隱藏的加密 Tor 流量也可以透過類似的方法被偵測，這並非沒道理。 沒有這個主題的研究論文，我們仍然認為使用 VPN 的好處遠遠超過這些風險，但需要記住這點。
-    
-    如果仍認為可插拔傳輸（橋接器）可以針對網站流量指紋識別提供 VPN 無法提供的額外保護，那麼可以選擇結合使用橋接器**和** VPN。
-    
+Tor 專案 [註](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) *理論上*使用 VPN 隱藏 Tor 活動到 ISP 可能不容易。 人們發現 VPN 很容易受到網站流量指紋辨識的影響，攻擊者仍然可猜測正在造訪哪個網站，因為所有網站都有特定的流量模式。
+
+因此，相信 VPN 隱藏的加密 Tor 流量也可以透過類似的方法被偵測，這並非沒道理。 沒有這個主題的研究論文，我們仍然認為使用 VPN 的好處遠遠超過這些風險，但需要記住這點。
+
+如果仍認為可插拔傳輸（橋接器）可以針對網站流量指紋識別提供 VPN 無法提供的額外保護，那麼可以選擇結合使用橋接器**和** VPN。
+
+</div>
 
 確定是否應該先使用 VPN 連接到 Tor 網絡需要一些常識和了解當地政府和 ISP 與所連接內容的政策。 然而在多數情況下，最好被視為連接到商業 VPN 網絡，而不是直接連到 Tor 網路。 如果VPN 服務商在您的地區受到審查，那麼也可以考慮使用Tor 可插拔傳輸（例如 Snowflake 或 meek ）作為替代方案，但使用這些橋接器可能比標準WireGuard/OpenVPN 隧道引起更多懷疑。
 

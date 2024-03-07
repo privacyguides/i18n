@@ -10,9 +10,12 @@ description: Qubes is an operating system built around isolating apps within *qu
 
 Qubes使用 [分区](https://www.qubes-os.org/intro/) ，以保持系统的安全性。 Qubes是由模板创建的，默认的是Fedora、Debian和 [Whonix](../desktop.md#whonix)。 Qubes OS also allows you to create once-use [disposable](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes*.
 
-??? "The term *qubes* is gradually being updated to avoid referring to them as "virtual machines"."
+<details class="note" markdown>
+<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
 
-    Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+
+</details>
 
 ![Qubes架构](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes架构，信用：什么是Qubes操作系统介绍</figcaption>
@@ -41,9 +44,12 @@ Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for contr
 
 To copy and paste files and directories (folders) from one *qube* to another, you can use the option **Copy to Other AppVM...** or **Move to Other AppVM...**. 不同的是， **Move** 选项将删除原始文件。 Either option will protect your clipboard from being leaked to any other *qubes*. This is more secure than air-gapped file transfer. An air-gapped computer will still be forced to parse partitions or file systems. 这一点在跨区拷贝系统中是不需要的。
 
-??? "Qubes do not have their own filesystems."
+<details class="note" markdown>
+<summary>Qubes do not have their own filesystems.</summary>
 
-    You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. 当这样做的时候，改变并不是立即进行的，而且在发生事故的情况下可以很容易地撤消。 When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. 当这样做的时候，改变并不是立即进行的，而且在发生事故的情况下可以很容易地撤消。 When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+
+</details>
 
 ### 虚拟机之间的相互作用
 

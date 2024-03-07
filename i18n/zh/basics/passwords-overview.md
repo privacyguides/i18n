@@ -1,5 +1,5 @@
 ---
-title: "密码简介"
+title: "Introduction to Passwords"
 icon: 'material/form-textbox-password'
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
@@ -26,9 +26,12 @@ description: These are some tips and tricks on how to create the strongest passw
 
 而那些你不需要记住的密码（如存储在密码管理器内的密码），如果你的 [威胁模型](threat-modeling.md) 有需求，我们建议每隔几个月对重要账户（尤其是不使用多因认证的账户）进行检查并更改其密码，以防它们在尚未公开的数据泄露事件中被泄露。 大多数密码管理器允许你为你的密码设置一个到期日，使之更容易管理。
 
-!!! 提示 "检查数据泄露情况"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Checking for data breaches</p>
 
-    如果你的密码管理器允许你检查被泄露的密码，请确保这样做，并及时更改任何可能在数据泄露中被泄露的密码。 你还可以在[新闻聚合器](.../news-aggregators.md)的帮助下关注[Have I Been Pwned's Latest Breaches feed]（https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches）。
+如果你的密码管理器允许你检查被泄露的密码，请确保这样做，并及时更改任何可能在数据泄露中被泄露的密码。 你还可以在[新闻聚合器](.../news-aggregators.md)的帮助下关注[Have I Been Pwned's Latest Breaches feed]（https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches）。
+
+</div>
 
 ## 创建强密码
 
@@ -48,9 +51,12 @@ Diceware是一种创建密码的方法，这种密码容易记忆，但很难猜
 
 要使用真正的骰子生成一个diceware口令，请遵循以下步骤。
 
-!!! note
+<div class="admonition Note" markdown>
+<p class="admonition-title">Note</p>
 
-    这里的说明步骤假定你使用[EFF的大型词汇表](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)来生成口令，每个词需要掷五个骰子。 其他词表可能需要更多或更少的回合，也可能需要不同数量的词来实现相同的熵值。
+这里的说明步骤假定你使用[EFF的大型词汇表](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)来生成口令，每个词需要掷五个骰子。 其他词表可能需要更多或更少的回合，也可能需要不同数量的词来实现相同的熵值。
+
+</div>
 
 1. 掷一个六面体的骰子五次，每次掷完都记下数字。
 
@@ -60,31 +66,37 @@ Diceware是一种创建密码的方法，这种密码容易记忆，但很难猜
 
 4. 重复这个过程，直到你的口令有你所需要的字数，你应该用空格来分隔每个词。
 
-!!! 警告 “重要”
+<div class="admonition warning" markdown>
+<p class="admonition-title">Important</p>
 
-    你**不**应该重新生成单词，来得到一个吸引你的单词组合。 这个过程应该是完全随机的。
+你**不**应该重新生成单词，来得到一个吸引你的单词组合。 这个过程应该是完全随机的。
+
+</div>
 
 如果你没有或者不愿意使用真正的骰子，你可以使用你的密码管理器的内置密码生成器，因为除了常规密码之外，大多数密码管理器都有生成骰子密码的选项。
 
 我们建议使用 [EFF的大型词表](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) ，以生成你的二维码密码，因为它提供了与原始列表完全相同的安全性，同时包含更容易记忆的单词。 There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
-??? 注："解释熵和二维码密码的强度"
+<details class="note" markdown>
+<summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-    为了演示diceware密码短语有多强，我们将使用前面提到的七个单词密码短语`'viewable fastness，squishy seventeen showed pencil'`和[EFF的大单词列表]（https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)为例。
-    
-    确定双关口令强度的一个指标是它的熵值有多少。 双关口令中每个字的熵计算为$\text{log}_2(\text{WordsInList})$，口令的整体熵计算为$\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$。
-    
-    因此，上述列表中的每个词都会产生~12.9比特的熵($\text{log}_2(7776)$)，而由它衍生出的七个词的口令有~90.47比特的熵($\text{log}_2(7776^7)$)。
-    
-    [EFF的大词表](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)包含7776个独特的词。 要计算可能的口令数量，我们所要做的就是$\text{WordsInList}^\text{WordsInPhrase}$，或者在我们的例子中，$7776^7$。
-    
-    让我们换一个角度来看：使用[EFF 's large wordlist] （ https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt ）的七个单词密码是~ 1,719,070,799,748,422,500,000,000,000个可能的密码之一。
-    
-    平均而言，需要尝试所有可能的组合中的50%来猜测你的短语。 考虑到这一点，即使你的对手每秒能够猜出1,000,000,000,000次，他们仍然需要27,255,689年才能猜出你的口令。 即使以下情况属实，情况也是如此:
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
-    - 你的对手知道你使用了diceware方法。
-    - 你的对手知道你使用的具体词表。
-    - 你的对手知道你的口令包含多少个字。
+确定双关口令强度的一个指标是它的熵值有多少。 双关口令中每个字的熵计算为$\text{log}_2(\text{WordsInList})$，口令的整体熵计算为$\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$。
+
+因此，上述列表中的每个词都会产生~12.9比特的熵($\text{log}_2(7776)$)，而由它衍生出的七个词的口令有~90.47比特的熵($\text{log}_2(7776^7)$)。
+
+The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. 要计算可能的口令数量，我们所要做的就是$\text{WordsInList}^\text{WordsInPhrase}$，或者在我们的例子中，$7776^7$。
+
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+
+平均而言，需要尝试所有可能的组合中的50%来猜测你的短语。 考虑到这一点，即使你的对手每秒能够猜出1,000,000,000,000次，他们仍然需要27,255,689年才能猜出你的口令。 即使以下情况属实，情况也是如此:
+
+- 你的对手知道你使用了diceware方法。
+- 你的对手知道你使用的具体词表。
+- 你的对手知道你的口令包含多少个字。
+
+</details>
 
 总而言之，当你需要一些既容易记住 *，又特别强大的* ，Diceware密码是你最好的选择。
 
@@ -98,13 +110,16 @@ Diceware是一种创建密码的方法，这种密码容易记忆，但很难猜
 
 [推荐的密码管理器列表](../passwords.md ""){.md-button}
 
-!!! 警告 "不要把你的密码和TOTP令牌放在同一个密码管理器中"
+<div class="admonition warning" markdown>
+<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-    如果您将TOTP用作任何帐户的 [多因素身份验证](../multi-factor-authentication.md) 方法，请勿在密码管理器中存储这些令牌、它们的任何备份代码或TOTP秘密本身，那样会抵消掉多因认证的益处。
-    
-    你应该使用专门的[TOTP应用程序]（.../multi-factor-authentication.md/#authenticator-apps）来代替。
-    
-    此外，我们不建议在您的密码管理器中存储用于一次性恢复的代码。 它们应当单独存储在，例如离线存储设备上的加密容器中。
+如果您将TOTP用作任何帐户的 [多因素身份验证](../multi-factor-authentication.md) 方法，请勿在密码管理器中存储这些令牌、它们的任何备份代码或TOTP秘密本身，那样会抵消掉多因认证的益处。
+
+你应该使用专门的[TOTP应用程序]（.../multi-factor-authentication.md/#authenticator-apps）来代替。
+
+此外，我们不建议在您的密码管理器中存储用于一次性恢复的代码。 它们应当单独存储在，例如离线存储设备上的加密容器中。
+
+</div>
 
 ### 备份
 

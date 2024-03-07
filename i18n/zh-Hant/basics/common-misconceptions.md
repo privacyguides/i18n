@@ -75,20 +75,23 @@ schema:
 
 最清晰的威胁模型之一是，部分人*，知道你是谁* ，而另一部分人不知道。 有些必須提出您的法定姓名的情況，但也有其他情況不需要提供全名。
 
-1. **已知身份** - 已知身份是用于必須告之姓名的事務。 有許多法律文件和合同需要合法身份。 這可能包括開設銀行帳戶、簽署財產租賃、獲得護照、進口物品時的海關申報，或其他與政府打交道的方式。 這些東西通常會需要憑證，如信用卡，信用評級檢查，帳戶號碼，以及實際地址等。
+1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-    我們不建議您使用 VPN 或 Tor 來處理這些事情，因為您的身份已經通過其他方式被對方知道。
+We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-    !!! tip "提示"
-   
-        在網上購物時，使用[包裹儲物櫃](https://zh.wikipedia.org/wiki/Parcel_locker)有助於保護您實際地址的私密性。
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+在網上購物時，使用[包裹儲物櫃](https://zh.wikipedia.org/wiki/Parcel_locker)有助於保護您實際地址的私密性。
+
+</div>
 
 2. **未知身份** - 未知身份可能是您經常使用的穩定假名。 它已不算匿名了，因為不會變動。 如果您是線上社群的一員，您可能希望保留其他人知道的角色。 這個假名不是匿名的，因為如果監控時間足夠長，關於所有者的詳細信息可以透露更多信息，例如他們的寫作方式，他們對感興趣主題的一般知識等。
 
-    您可能希望使用 VPN 來隱藏您的 IP 地址。 金融交易更難掩蓋：您可以考慮使用匿名加密貨幣，例如 [Monero](https://www.getmonero.org/)。 採用山寨幣轉移也可能有助於偽裝您的貨幣來源。 通常情況下，交易所需要完成 KYC （了解您的客戶） ，然後才能將法定貨幣兌換為任何類型的加密貨幣。 線下操作也可能是一個解決方案；然而，這些往往更昂貴，有時也需要 KYC。
+您可能希望使用 VPN 來隱藏您的 IP 地址。 金融交易更難掩蓋：您可以考慮使用匿名加密貨幣，例如 [Monero](https://www.getmonero.org/)。 採用山寨幣轉移也可能有助於偽裝您的貨幣來源。 通常情況下，交易所需要完成 KYC （了解您的客戶） ，然後才能將法定貨幣兌換為任何類型的加密貨幣。 線下操作也可能是一個解決方案；然而，這些往往更昂貴，有時也需要 KYC。
 
 3. **匿名身份** - 即使有經驗的專家，也很難長時間保持一個帳號的匿名性。 它們應該是短期和短暫的身份，定期輪流。
 
-    使用 Tor 可以幫助我們做到這一點。 同樣值得注意的是，通過異步溝通可以實現更大的匿名性：實時溝通容易受到打字模式分析的影響（即不止一段文字，在論壇上分發，通過電子郵件等）。
+使用 Tor 可以幫助我們做到這一點。 同樣值得注意的是，通過異步溝通可以實現更大的匿名性：實時溝通容易受到打字模式分析的影響（即不止一段文字，在論壇上分發，通過電子郵件等）。
 
 [^1]: 一個值得注意的例子是 [發生在2021年，明尼蘇達大學的研究人員在 Linux 內核開發項目中引入了三個漏洞](https://cse.umn.edu/cs/linux-incident).

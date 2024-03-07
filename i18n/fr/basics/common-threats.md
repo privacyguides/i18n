@@ -35,19 +35,25 @@ En matière de sécurité des applications, nous ne savons généralement pas (e
 
 Pour minimiser les dommages potentiels qu'un logiciel malveillant peut causer, vous devez employer la sécurité par compartimentation. Il peut s'agir d'utiliser des ordinateurs différents pour des tâches différentes, d'utiliser des machines virtuelles pour séparer différents groupes d'applications connexes ou d'utiliser un système d'exploitation sécurisé mettant l'accent sur le principe de [sandboxing](https://fr.wikipedia.org/wiki/Sandbox_(s%C3%A9curit%C3%A9_informatique)) (ou « bac à sable » en français) des applications et du [mandatory access control](https://fr.wikipedia.org/wiki/Contr%C3%B4le_d'acc%C3%A8s_obligatoire) (ou « Contrôle d'accès obligatoire » en français).
 
-!!! tip "Conseil"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    Les systèmes d'exploitation mobiles sont généralement plus sûrs que les systèmes d'exploitation de bureau en ce qui concerne le sandboxing des applications.
-    
-    Les systèmes d'exploitation de bureau sont généralement à la traîne en ce qui concerne le sandboxing. ChromeOS possède des capacités de sandboxing similaires à celles d'Android, et macOS dispose d'un contrôle complet des autorisations système (et les développeurs peuvent opter pour le sandboxing pour les applications). Cependant, ces systèmes d'exploitation transmettent des informations d'identification à leurs constructeurs respectifs. Linux a tendance à ne pas soumettre d'informations aux fournisseurs de systèmes, mais il a une mauvaise protection contre les exploits et les applications malveillantes. Ce problème peut être quelque peu atténué avec des distributions spécialisées qui font un usage intensif des machines virtuelles ou des conteneurs, comme [Qubes OS](../desktop.md#qubes-os).
+Les systèmes d'exploitation mobiles sont généralement plus sûrs que les systèmes d'exploitation de bureau en ce qui concerne le sandboxing des applications.
+
+Les systèmes d'exploitation de bureau sont généralement à la traîne en ce qui concerne le sandboxing. ChromeOS possède des capacités de sandboxing similaires à celles d'Android, et macOS dispose d'un contrôle complet des autorisations système (et les développeurs peuvent opter pour le sandboxing pour les applications). Cependant, ces systèmes d'exploitation transmettent des informations d'identification à leurs constructeurs respectifs. Linux a tendance à ne pas soumettre d'informations aux fournisseurs de systèmes, mais il a une mauvaise protection contre les exploits et les applications malveillantes. Ce problème peut être quelque peu atténué avec des distributions spécialisées qui font un usage intensif des machines virtuelles ou des conteneurs, comme [Qubes OS](../desktop.md#qubes-os).
+
+</div>
 
 <span class="pg-red">:material-target-account: Attaques ciblées</span>
 
 Les attaques ciblées contre une personne spécifique sont plus difficiles à gérer. Les voies d'attaque les plus courantes sont l'envoi de documents malveillants par courrier électronique, l'exploitation de vulnérabilités dans le navigateur et les systèmes d'exploitation, et les attaques physiques. Si cela vous préoccupe, il vous sera nécessaire de recourir à des stratégies plus avancées d'atténuation des menaces.
 
-!!! tip "Conseil"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    **Les navigateurs web**, **les clients de messagerie électronique** et **les applications de bureautique** exécutent généralement volontairement, et par conception, du code non fiable qui vous est envoyé par des tiers. L'exécution de plusieurs machines virtuelles pour séparer les applications de ce type de votre système hôte ainsi que les unes des autres est une technique que vous pouvez utiliser pour éviter qu'un code d'exploitation dans ces applications ne compromette le reste de votre système. Les technologies comme Qubes OS ou Microsoft Defender Application Guard sur Windows fournissent des méthodes pratiques pour le faire de manière transparente, par exemple.
+**Les navigateurs web**, **les clients de messagerie électronique** et **les applications de bureautique** exécutent généralement volontairement, et par conception, du code non fiable qui vous est envoyé par des tiers. L'exécution de plusieurs machines virtuelles pour séparer les applications de ce type de votre système hôte ainsi que les unes des autres est une technique que vous pouvez utiliser pour éviter qu'un code d'exploitation dans ces applications ne compromette le reste de votre système. Les technologies comme Qubes OS ou Microsoft Defender Application Guard sur Windows fournissent des méthodes pratiques pour le faire de manière transparente, par exemple.
+
+</div>
 
 Si vous êtes préoccupé par les **attaques physiques** vous devriez utiliser un système d'exploitation avec une implémentation de démarrage vérifié sécurisé, à la manière d'Android, d'iOS, de macOS ou de [Windows (avec TPM)](https://docs.microsoft.com/fr-fr/windows/security/information-protection/secure-the-windows-10-boot-process). Vous devriez également vous assurer que votre disque est chiffré et que le système d'exploitation utilise un TPM, une [Enclave sécurisée](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) ou un [Element sécurisé](https://developers.google.com/android/security/android-ready-se) pour limiter le taux de tentatives de saisie de la phrase de passe. Vous devriez éviter de partager votre ordinateur avec des personnes en qui vous n'avez pas confiance, car la plupart des systèmes d'exploitation de bureau ne chiffrent pas les données séparément par utilisateur.
 
@@ -61,13 +67,16 @@ Le problème évident avec cela est que le fournisseur de services (ou un pirate
 
 Heureusement, le chiffrement de bout en bout peut atténuer ce problème en rendant illisibles les communications entre vous et vos destinataires avant même qu'elles ne soient envoyées au serveur. La confidentialité de vos messages est garantie, tant que le prestataire de services n'a pas accès aux clés privées d'une des deux personnes.
 
-!!! note "Note sur le chiffrement basé sur le web"
+<div class="admonition note" markdown>
+<p class="admonition-title">Note on Web-based Encryption</p>
 
-    Dans la pratique, l'efficacité des différentes mises en œuvre du chiffrement de bout en bout varie. Des applications telles que [Signal](../real-time-communication.md#signal) s'exécutent nativement sur votre appareil, et chaque copie de l'application est la même sur différentes installations. Si le fournisseur de services venait à ouvrir une porte dérobée dans son application pour tenter de voler vos clés privées, cela pourrait être détecté ultérieurement par rétro-ingénierie.
-    
-    D'autre part, les implémentations de chiffrement de bout en bout basées sur le web, telles que l'application web de Proton Mail ou le coffre-fort web de Bitwarden, reposent sur le serveur qui sert dynamiquement du code JavaScript au navigateur pour gérer les opérations cryptographiques. Un serveur malveillant pourrait cibler une personne spécifique et lui envoyer un code JavaScript malveillant pour voler sa clé de chiffrement, et il serait extrêmement difficile pour l'utilisateur de s'en rendre compte. Même si cette personne s'aperçoit de la tentative de vol de sa clé, il serait incroyablement difficile de prouver que c'est le fournisseur qui tente de le faire, car le serveur peut choisir de servir différents clients web à différentes personnes.
-    
-    Par conséquent, lorsque vous comptez sur le chiffrement de bout en bout, vous devriez choisir d'utiliser des applications natives plutôt que des clients web, dans la mesure du possible.
+Dans la pratique, l'efficacité des différentes mises en œuvre du chiffrement de bout en bout varie. Des applications telles que [Signal](../real-time-communication.md#signal) s'exécutent nativement sur votre appareil, et chaque copie de l'application est la même sur différentes installations. Si le fournisseur de services venait à ouvrir une porte dérobée dans son application pour tenter de voler vos clés privées, cela pourrait être détecté ultérieurement par rétro-ingénierie.
+
+D'autre part, les implémentations de chiffrement de bout en bout basées sur le web, telles que l'application web de Proton Mail ou le coffre-fort web de Bitwarden, reposent sur le serveur qui sert dynamiquement du code JavaScript au navigateur pour gérer les opérations cryptographiques. Un serveur malveillant pourrait cibler une personne spécifique et lui envoyer un code JavaScript malveillant pour voler sa clé de chiffrement, et il serait extrêmement difficile pour l'utilisateur de s'en rendre compte. Même si cette personne s'aperçoit de la tentative de vol de sa clé, il serait incroyablement difficile de prouver que c'est le fournisseur qui tente de le faire, car le serveur peut choisir de servir différents clients web à différentes personnes.
+
+Par conséquent, lorsque vous comptez sur le chiffrement de bout en bout, vous devriez choisir d'utiliser des applications natives plutôt que des clients web, dans la mesure du possible.
+
+</div>
 
 Même avec le chiffrement de bout en bout, les fournisseurs de services peuvent toujours vous profiler sur la base des **métadonnées**, qui ne sont généralement pas protégées. Si le fournisseur de services ne peut pas lire vos messages pour savoir ce que vous dites, il peut néanmoins observer des choses comme les personnes avec lesquelles vous parlez, la fréquence de vos messages et les heures où vous êtes généralement actif. La protection des métadonnées est assez rare, et vous devriez prêter une attention particulière à la documentation technique du logiciel que vous utilisez pour voir s'il y a une minimisation ou une protection des métadonnées, si cela vous préoccupe.
 
@@ -77,17 +86,23 @@ Même avec le chiffrement de bout en bout, les fournisseurs de services peuvent 
 
 La surveillance de masse est un effort visant à surveiller le "comportement, de nombreuses activités ou les informations" d'une population entière (ou d'une fraction substantielle d'une population).[^1] Elle fait souvent référence à des programmes gouvernementaux, tels que ceux [divulgués par Edward Snowden en 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Cependant, elle peut également être réalisée par des entreprises, soit pour le compte d'agences gouvernementales, soit de leur propre initiative.
 
-!!! abstract "Atlas de la surveillance"
+<div class="admonition abstract" markdown>
+<p class="admonition-title">Atlas of Surveillance</p>
 
-    Si vous souhaitez en savoir plus sur les méthodes de surveillance et la manière dont elles sont mises en œuvre dans les villes aux États-Unis, vous pouvez également consulter l'[Atlas de la Surveillance](https://atlasofsurveillance.org/) de l'[Electronic Frontier Foundation](https://www.eff.org/).
-    
-    En France, vous pouvez consulter le site [Technolopolice](https://technopolice.fr/villes/) géré par l'association à but non lucratif La Quadrature du Net.
+Si vous souhaitez en savoir plus sur les méthodes de surveillance et la manière dont elles sont mises en œuvre dans les villes aux États-Unis, vous pouvez également consulter l'[Atlas de la Surveillance](https://atlasofsurveillance.org/) de l'[Electronic Frontier Foundation](https://www.eff.org/).
+
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+
+</div>
 
 Les gouvernements justifient souvent les programmes de surveillance de masse comme des moyens nécessaires pour combattre le terrorisme et prévenir la criminalité. Cependant, en violation des droits de l'homme, ces programmes de surveillance sont, entre autres, le plus souvent utilisés pour cibler de manière disproportionnée les minorités et les dissidents politiques.
 
-!!! quote "ACLU : [*La leçon du 11 septembre en matière de vie privée : La surveillance de masse n'est pas la voie à suivre*](https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward)"
+<div class="admonition quote" markdown>
+<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-    Face aux [révélations d'Edward Snowden sur des programmes gouvernementaux tels que [PRISM](https://fr.wikipedia.org/wiki/PRISM_%28programme_de_surveillance%29) et [Upstream](https://fr.wikipedia.org/wiki/Upstream_collection)], les responsables des services de renseignement ont également admis que la NSA collectait secrètement depuis des années des enregistrements sur pratiquement tous les appels téléphoniques des Américains - qui appelle qui, quand ces appels sont passés et la durée de ces appels. Ce type d'informations, lorsqu'il est amassé par la NSA quotidiennement, peut révéler des détails terriblement sensibles sur la vie des gens en associant ces données : s'ils ont appelé un pasteur, une clinique d'avortement, un centre d'addiction ou une ligne d'assistance contre le suicide par exemple.
+Face aux [révélations d'Edward Snowden sur des programmes gouvernementaux tels que [PRISM](https://fr.wikipedia.org/wiki/PRISM_%28programme_de_surveillance%29) et [Upstream](https://fr.wikipedia.org/wiki/Upstream_collection)], les responsables des services de renseignement ont également admis que la NSA collectait secrètement depuis des années des enregistrements sur pratiquement tous les appels téléphoniques des Américains - qui appelle qui, quand ces appels sont passés et la durée de ces appels. Ce type d'informations, lorsqu'il est amassé par la NSA quotidiennement, peut révéler des détails terriblement sensibles sur la vie des gens en associant ces données : s'ils ont appelé un pasteur, une clinique d'avortement, un centre d'addiction ou une ligne d'assistance contre le suicide par exemple.
+
+</div>
 
 Malgré la surveillance de masse croissante aux États-Unis, le gouvernement a constaté que les programmes de surveillance de masse comme la section 215 ont eu "peu de valeur unique" en ce qui concerne l'arrêt de crimes réels ou de complots terroristes, les efforts faisant largement double emploi avec les programmes de surveillance ciblée du FBI.[^2]
 
@@ -133,11 +148,14 @@ La censure sur les plateformes privées est de plus en plus courante, car des pl
 
 Les personnes concernées par la menace de la censure peuvent utiliser des technologies comme [Tor](../advanced/tor-overview.md) pour la contourner, et soutenir des plateformes de communication résistantes à la censure comme [Matrix](../real-time-communication.md#element), qui ne dispose pas d'une autorité centralisée pouvant fermer des comptes de manière arbitraire.
 
-!!! tip "Conseil"
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
 
-    S'il peut être facile d'échapper à la censure en soi, cacher le fait que vous le faites peut être très problématique.
-    
-    Vous devez prendre en compte quels aspects du réseau votre adversaire peut observer, et si vous avez une possibilité de déni plausible pour vos actions. Par exemple, l'utilisation de [DNS chiffrés](../advanced/dns-overview.md#what-is-encrypted-dns) peut vous aider à contourner les systèmes de censure rudimentaires basés sur les DNS, mais elle ne peut pas vraiment cacher ce que vous visitez à votre FAI. Un VPN ou Tor peut aider à cacher ce que vous visitez aux administrateurs du réseaux, mais ne peut pas cacher que vous utilisez ces réseaux. Les transports enfichables (tels que Obfs4proxy, Meek ou Shadowsocks) peuvent vous aider à contourner les pare-feu qui bloquent les protocoles VPN courants ou Tor, mais vos tentatives de contournement peuvent toujours être détectées par des méthodes telles que le sondage ou [l'inspection approfondie des paquets](https://fr.wikipedia.org/wiki/Deep_packet_inspection).
+S'il peut être facile d'échapper à la censure en soi, cacher le fait que vous le faites peut être très problématique.
+
+Vous devez prendre en compte quels aspects du réseau votre adversaire peut observer, et si vous avez une possibilité de déni plausible pour vos actions. Par exemple, l'utilisation de [DNS chiffrés](../advanced/dns-overview.md#what-is-encrypted-dns) peut vous aider à contourner les systèmes de censure rudimentaires basés sur les DNS, mais elle ne peut pas vraiment cacher ce que vous visitez à votre FAI. Un VPN ou Tor peut aider à cacher ce que vous visitez aux administrateurs du réseaux, mais ne peut pas cacher que vous utilisez ces réseaux. Les transports enfichables (tels que Obfs4proxy, Meek ou Shadowsocks) peuvent vous aider à contourner les pare-feu qui bloquent les protocoles VPN courants ou Tor, mais vos tentatives de contournement peuvent toujours être détectées par des méthodes telles que le sondage ou [l'inspection approfondie des paquets](https://fr.wikipedia.org/wiki/Deep_packet_inspection).
+
+</div>
 
 Vous devez toujours tenir compte des risques encourus en essayant de contourner la censure, des conséquences potentielles et du degré de sophistication de votre adversaire. Soyez très prudent dans le choix de vos logiciels et prévoyez un plan de secours au cas où vous seriez pris.
 

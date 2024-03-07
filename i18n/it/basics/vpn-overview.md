@@ -1,8 +1,8 @@
 ---
-meta_title: "Come le VPN proteggono la tua privacy? La nostra panoramica sulle VPN - Privacy Guides"
-title: Panoramica VPN
+meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+title: VPN Overview
 icon: material/vpn
-description: Le reti virtuali private spostano il rischio dal vostro ISP a una terza parte di cui vi fidate. Dovresti tenere a mente questi aspetti.
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
 Le Reti Private Virtuali sono un metodo d'estensione del termine della tua rete, affinché il traffico esca da qualche altra parte nel mondo.
@@ -11,9 +11,12 @@ Normalmente, un ISP può visualizzare il flusso di traffico Internet in entrate 
 
 L'utilizzo di una VPN nasconde persino queste informazioni dal tuo ISP, spostando la fiducia che poni nella tua rete, a un server da qualche altra parte nel mondo. Di conseguenza, l'ISP può soltanto vedere che sei conness* a una VPN e nulla sull'attività che vi stai svolgendo.
 
-!!! note "Nota"
+<div class="admonition note" markdown>
+<p class="admonition-title">Nota</p>
 
-    Quando ci riferiamo a "Reti Private Virtuali" su questo sito web, solitamente ci riferiamo ai [fornitori di VPN](../vpn.md) **commerciali**, per cui paghi una tariffa mensile, in cambio dell'instradamento sicuro del tuo traffico Internet, tramite server pubblici. Esistono molte altre forme di VPN, come quelle auto-ospitate, o quelle operate dai luoghi di lavoro, che ti consentono di connetterti in sicurezza alle risorse di rete interne/dei dipendenti; tuttavia, queste VPN sono solitamente progettate per accedere in sicurezza alle reti da remoto, piuttosto che per proteggere la privacy della tua connessione a Internet.
+Quando ci riferiamo a "Reti Private Virtuali" su questo sito web, solitamente ci riferiamo ai [fornitori di VPN](../vpn.md) **commerciali**, per cui paghi una tariffa mensile, in cambio dell'instradamento sicuro del tuo traffico Internet, tramite server pubblici. Esistono molte altre forme di VPN, come quelle auto-ospitate, o quelle operate dai luoghi di lavoro, che ti consentono di connetterti in sicurezza alle risorse di rete interne/dei dipendenti; tuttavia, queste VPN sono solitamente progettate per accedere in sicurezza alle reti da remoto, piuttosto che per proteggere la privacy della tua connessione a Internet.
+
+</div>
 
 ## Come funziona una VPN?
 
