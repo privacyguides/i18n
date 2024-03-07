@@ -68,7 +68,7 @@ Il problema evidente è che il fornitore del servizio (o un hacker che ha compro
 Fortunatamente, l'E2EE può alleviare questo problema crittografando le comunicazioni tra te e i tuoi destinatari desiderati, persino prima che siano inviate al server. La confidenzialità dei tuoi messaggi è garantita, supponendo che il fornitore del servizio non abbia accesso alle chiavi private di ambe le parti.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">Nota sulla crittografia basata su Web</p>
 
 In pratica, l'efficacia delle diverse implementazioni E2EE varia. Le applicazioni, come [Signal](../real-time-communication.md#signal), operano nativamente sul tuo dispositivo e ogni copia dell'applicazione è la stessa tra diverse installazioni. Se il fornitore del servizio introducesse una [backdoor](https://it.wikipedia.org/wiki/Backdoor) nella propria applicazione, tentando di rubare le tue chiavi private, sarebbe successivamente rilevabile con l'[ingegneria inversa](https://it.wikipedia.org/wiki/Reverse_engineering).
 
@@ -87,18 +87,18 @@ Anche con l'E2EE, i fornitori dei servizi possono comunque profilarti secondo i 
 La sorveglianza di massa consiste nell'intricato sforzo di monitorare il "comportamento, molte attività o informazioni" di un'intera (o di una sostanziale frazione di una) popolazione.[^1] Spesso si riferisce a programmi governativi, come quelli [divulgati da Edward Snowden, nel 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Tuttavia, può essere anche svolta dalle aziende, per conto di agenzie governative o di propria iniziativa.
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Atlas of Surveillance</p>
+<p class="admonition-title">Atlante della sorveglianza</p>
 
 Se vuoi saperne di più sui metodi di sorveglianza e su come vengono attuati nella tua città, puoi anche dare un'occhiata all'[Atlas of Surveillance](https://atlasofsurveillance.org/) della [Electronic Frontier Foundation](https://www.eff.org/).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In Francia è possibile consultare il [sito web di Technopolice](https://technopolice.fr/villes/) gestito dall'associazione no-profit La Quadrature du Net.
 
 </div>
 
 Spesso, i governi, giustificano i programmi di sorveglianza di massa come mezzi necessari per combattere il terrorismo e prevenire il crimine. Tuttavia, violando i diritti umani, sono spesso utilizzati per colpire in modo sproporzionato gruppi di minoranza e dissidenti politici, tra gli altri.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">La lezione sulla privacy dell'11 settembre: La sorveglianza di massa non è la strada da seguire</a></em></p>
 
 Di fronte alle [divulgazioni di Edward Snowden dei programmi governativi come [PRISM](https://it.wikipedia.org/wiki/PRISM_(programma_di_sorveglianza)) e [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)]; inoltre, i funzionari dell'intelligence hanno ammesso che l'NSA ha raccolto segretamente per anni i registri su virtualmente ogni chiamata telefonica statunitense: chi chiama chi, quando e quanto durano. Questo tipo di informazioni, accumulate dall'NSA giorno dopo giorno, possono rivelare dettagli incredibilmente sensibili sulle vite delle persone e le associazioni, come se hanno chiamato un prete, una struttura preposta all'aborto, un consulente per le dipendenze o una linea diretta anti-suicidi.
 

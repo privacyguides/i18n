@@ -46,7 +46,7 @@ Alcuni provider di VPN e altre pubblicazioni raccomandano occasionalmente queste
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">VPN/SSH Fingerprinting</p>
+<p class="admonition-title">Fingerprinting VPN/SSH</p>
 
 Il Tor Project [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) afferma che *teoricamente* l'utilizzo di una VPN per nascondere le attività Tor al proprio ISP potrebbe non essere infallibile. Le VPN sono risultate vulnerabili al fingerprinting del traffico dei siti web, in cui un avversario può comunque indovinare quale sito web viene visitato, perché tutti i siti web hanno modelli di traffico specifici.
 

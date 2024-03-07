@@ -1,7 +1,7 @@
 ---
-title: macOS Overview
+title: Panoramica di macOS
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: macOS è il sistema operativo desktop di Apple che opera con il loro hardware, fornendo grande sicurezza.
 ---
 
 **macOS** è un sistema operativo Unix sviluppato da Apple per i propri computer Mac. Per migliorare la privacy su macOS, puoi disabilitare le funzionalità di telemetria e rafforzare le impostazioni di privacy e sicurezza esistenti.

@@ -311,9 +311,9 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizzazione alla chiusura</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] Nel menu *Impostazioni Sito e Shields* sotto Contenuto, dopo aver cliccato sul menu *Dati dei siti sul dispositivo*, seleziona **Elimina i dati salvati dai siti sul dispositivo alla chiusura di tutte le finestre**
 
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+Se desideri rimanere connesso a un particolare sito che visiti spesso, è possibile impostare delle eccezioni in base al sito nella sezione *Comportamenti personalizzati*.
 
 </div>
 

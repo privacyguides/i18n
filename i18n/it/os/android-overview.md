@@ -1,7 +1,7 @@
 ---
-title: Android Overview
+title: Panoramica Android
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Android è un sistema operativo open-source con forti protezioni di sicurezza, il che lo rende la nostra scelta migliore per i telefoni.
 ---
 
 ![Logo di Android](../assets/img/android/android.svg){ align=right }

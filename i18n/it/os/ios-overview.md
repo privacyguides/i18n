@@ -1,7 +1,7 @@
 ---
-title: iOS Overview
+title: Panoramica su iOS
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: iOS è un sistema operativo mobile sviluppato da Apple per l'iPhone.
 ---
 
 **iOS** e **iPadOS** sono sistemi operativi mobili proprietari sviluppati da Apple per i propri prodotti, iPhone e iPad, rispettivamente. Se possiedi un dispositivo mobile Apple, puoi incrementare la tua privacy disabilitando alcune funzionalità di telemetria integrate e rafforzando alcune impostazioni per la privacy e la sicurezza, integrate sul sistema.
