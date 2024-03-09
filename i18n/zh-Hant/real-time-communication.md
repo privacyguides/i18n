@@ -148,7 +148,7 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 [:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/vector-im){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>

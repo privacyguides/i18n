@@ -145,10 +145,10 @@ Estos mensajeros no tienen secreto hacia adelante[^1], y aunque satisfacen ciert
 
 Los mensajes y los archivos compartidos en las salas privadas (las que requieren una invitación) son por defecto E2EE, al igual que las llamadas de voz y vídeo uno a uno.
 
-[:octicons-home-16: Página Principal](https://element.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://element.io/help){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/vector-im){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>

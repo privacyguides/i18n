@@ -145,10 +145,10 @@ Ces messageries instantanées ne disposent pas de la confidentialité persistant
 
 Les messages et les fichiers partagés dans les salons privés (ceux qui nécessitent une invitation) sont par défaut E2EE, tout comme les appels vocaux et vidéo individuels.
 
-[:octicons-home-16: Page d'accueil](https://element.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Politique de confidentialité" }
+[:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/vector-im){ .card-link title="Code source" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
