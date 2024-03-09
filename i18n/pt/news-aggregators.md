@@ -111,8 +111,6 @@ O **Fluent Reader** é um agregador de notícias seguro e multiplataforma que po
 [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribute }
 
-</details>
-
 </div>
 
 ### NetNewsWire

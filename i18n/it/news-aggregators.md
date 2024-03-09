@@ -111,8 +111,6 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Codice sorgente" }
 [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribuisci }
 
-</details>
-
 </div>
 
 ### NetNewsWire
