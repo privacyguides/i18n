@@ -282,11 +282,11 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Selecciona **Estricto** en **Mejorar conexiones a HTTPS**
+- [x] (Opcional) Selecciona **Bloquear Scripts** (1)
+- [x] Selecciona **Estricto, puede dañar los sitios** en Bloquear huellas digitales
+- [x] Marca **Olvídame cuando cierre este sitio** (2)
+- [ ] Desmarca todos los componentes de redes sociales
 
 </div>
 
@@ -311,9 +311,9 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 <div class="admonition tip" markdown>
 <p class="admonition-title">Desinfectar al cerrar</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] En el menú *Configuración del sitio y de los Escudos*, en Contenido, después de hacer clic en el menú *Datos de sitios en el dispositivo*, selecciona **Eliminar los datos que los sitios guardan en tu dispositivo cuando cierras todas las ventanas**
 
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+Si deseas permanecer conectado a un sitio en particular que visitas con frecuencia, puedes establecer excepciones por sitio en la sección *Comportamientos personalizados*.
 
 </div>
 

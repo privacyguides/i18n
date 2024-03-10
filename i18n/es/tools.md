@@ -200,7 +200,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 ### Proveedores de VPN
 
 <details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
+<summary>Las VPN no proporcionan anonimato</summary>
 
 Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 

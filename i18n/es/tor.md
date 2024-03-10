@@ -60,14 +60,14 @@ Si un anonimato más completo es primordial para tu situación, deberías **solo
 
 **Tor Browser** es la elección si necesitas anonimato, ya que te proporciona acceso a la red de Tor y puentes, e incluye ajustes por defecto y extensiones que estan configuradas automáticamente a los niveles de seguridad por defecto: *Estándar*, *Más seguro* y *Más seguro de todos*.
 
-[:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://www.torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servicio Onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentación }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://www.torproject.org/download/#android)
@@ -98,14 +98,14 @@ Además de instalar Tor Browser en tu ordenador directamente, también hay siste
 
 **Orbot** es una VPN de Tor gratuita para smartphones que enruta el tráfico desde cualquier aplicación en tu dispositivo a través de la red Tor.
 
-[:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://orbot.app/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentación}
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
@@ -118,9 +118,9 @@ Además de instalar Tor Browser en tu ordenador directamente, también hay siste
 Anteriormente recomendamos activar la preferencia *Aislar direcciones de destino* en los ajustes de Orbot. Aunque esta configuración puede mejorar teóricamente la privacidad forzando el uso de un circuito diferente para cada dirección IP a la que se conecte, no proporciona una ventaja práctica para la mayoría de las aplicaciones (especialmente navegación web), puede conllevar una penalización significativa del rendimiento, y aumenta la carga en la red Tor. Ya no recomendamos ajustar esta configuración desde su valor predeterminado a menos que sepa que lo necesita.[^1]
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tips for Android</p>
+<p class="admonition-title">Consejos para Android</p>
 
-Orbot puede hacer de proxy de aplicaciones individuales si soportan SOCKS o proxy HTTP. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Orbot puede hacer de proxy de aplicaciones individuales si soportan SOCKS o proxy HTTP. También puede hacer de proxy de todas tus conexiones de red utilizando [VpnService](https://developer.android.com/reference/android/net/VpnService) y se puede utilizar con el killswitch VPN en :gear: **Ajustes** → **Red e internet** → **VPN** → :gear: → **Bloquear conexiones sin VPN**.
 
 Orbot suele estar desactualizado en el [repositorio F-Droid](https://guardianproject.info/fdroid) de Guardian Project y en [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), así que considera descargarlo directamente desde el [repositorio GitHub](https://github.com/guardianproject/orbot/releases).
 
@@ -136,14 +136,14 @@ Todas las versiones están firmadas con la misma firma, por lo que deberían ser
 
 **Onion Browser** es un navegador de código abierto que te permite navegar de manera anónima, a través de la red Tor en dispositivos iOS y se encuentra respaldado por el [Proyecto Tor](https://support.torproject.org/glossary/onion-browser/).
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
