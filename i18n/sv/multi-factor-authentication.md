@@ -128,7 +128,7 @@ Vi rekommenderar starkt att du använder mobila TOTP-appar i stället för alter
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
-- [:simple-github: GitHub](https://github.com/ente-io/auth/releases)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
 - [:octicons-globe-16: Web](https://auth.ente.io)
 
 </details>

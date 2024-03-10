@@ -14,7 +14,7 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** es un servicio de copia de seguridad de fotos cifrado de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Se sometió a una [auditoría por parte de Cure53](https://ente.io/blog/cryptography-audit/) en marzo de 2023.
+**ente** es un servicio de copia de seguridad de fotos cifrado de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit/) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 [:octicons-home-16: Página Principal](https://ente.io/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
@@ -27,7 +27,7 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-android: Android](https://ente.io/download)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
-- [:simple-github: GitHub](https://github.com/ente-io/photos-app/releases)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
 - [:simple-windows11: Windows](https://ente.io/download)
 - [:simple-apple: macOS](https://ente.io/download)
 - [:simple-linux: Linux](https://ente.io/download)
