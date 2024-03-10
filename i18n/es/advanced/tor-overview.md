@@ -46,7 +46,7 @@ Es difícil establecer malas configuraciones como estas accidentalmente, porque 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">VPN/SSH Fingerprinting</p>
+<p class="admonition-title">Huella Digital VPN/SSH</p>
 
 El Proyecto Tor [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *teóricamente* usar una VPN para ocultar las actividades Tor de tu ISP puede no ser infalible. Se ha descubierto que las VPN son vulnerables a las huellas digitales de tráfico de sitios web, en las que un adversario puede adivinar qué sitio web se está visitando, ya que todos los sitios web tienen patrones de tráfico específicos.
 

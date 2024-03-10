@@ -68,7 +68,7 @@ El problema obvio de esto es que el proveedor de servicios (o un hacker que haya
 Afortunadamente, E2EE puede aliviar este problema encriptando las comunicaciones entre tú y los destinatarios deseados antes de que se envíen al servidor. La confidencialidad de tus mensajes está garantizada, suponiendo que el proveedor de servicios no tenga acceso a las claves privadas de ninguna de las partes.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">Nota sobre el cifrado basado en web</p>
 
 En la práctica, la eficacia de las diferentes implementaciones de E2EE varía. Las aplicaciones, como [Signal](../real-time-communication.md#signal), se ejecutan de forma nativa en tu dispositivo, y cada copia de la aplicación es la misma en diferentes instalaciones. Si el proveedor de servicios introdujera un [backdoor](https://es.wikipedia.org/wiki/Puerta_trasera) en su aplicación -en un intento de robar tus claves privadas- podría ser detectado posteriormente con [ingeniería inversa](https://es.wikipedia.org/wiki/Ingenier%C3%Ada_inversa).
 
@@ -87,18 +87,18 @@ Incluso con E2EE, los proveedores de servicios aún pueden hacerte un perfil bas
 La vigilancia masiva es el intrincado esfuerzo por controlar el "comportamiento, muchas actividades o información" de toda una población (o de una fracción sustancial de ella).[^1] Suele referirse a programas gubernamentales, como los que [reveló Edward Snowden en 2013](https://es.wikipedia.org/wiki/Revelaciones_sobre_la_red_de_vigilancia_mundial_(2013-2015)). Sin embargo, también puede ser llevada a cabo por empresas, ya sea en nombre de organismos gubernamentales o por iniciativa propia.
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Atlas of Surveillance</p>
+<p class="admonition-title">Atlas de la Vigilancia</p>
 
 Si quiere saber más sobre los métodos de vigilancia y cómo se aplican en su ciudad, también puede echar un vistazo al [Atlas of Surveillance](https://atlasofsurveillance.org/) de la [Electronic Frontier Foundation](https://www.eff.org/).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+En Francia puede consultar el sitio [Technolopolice](https://technopolice.fr/villes/), mantenido por la asociación sin ánimo de lucro La Quadrature du Net.
 
 </div>
 
 Los gobiernos suelen justificar los programas de vigilancia masiva como medios necesarios para combatir el terrorismo y prevenir la delincuencia. Sin embargo, al vulnerar los derechos humanos, se utiliza con mayor frecuencia para atacar desproporcionadamente a grupos minoritarios y disidentes políticos, entre otros.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">La lección del 11-S sobre la privacidad: La Vigilancia Masiva No es el Camino a Seguir</a></em></p>
 
 Ante [las revelaciones de Edward Snowden sobre programas gubernamentales como [PRISM](https://es.wikipedia.org/wiki/PRISM) y [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], los funcionarios de inteligencia también admitieron que la NSA llevaba años recopilando en secreto registros sobre prácticamente todas las llamadas telefónicas de los estadounidenses: quién llama a quién, cuándo se hacen esas llamadas y cuánto duran. Este tipo de información, cuando es recopilada por la NSA día tras día, puede revelar detalles increíblemente sensibles sobre la vida y las asociaciones de las personas, como si han llamado a un pastor, a un proveedor de aborto, a un consejero de adicciones o a una línea directa de suicidio.
 

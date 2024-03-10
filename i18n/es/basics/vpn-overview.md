@@ -1,8 +1,8 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "¿Cómo Protegen Tu Privacidad las VPN? Nuestra Vista General de las VPN - Privacy Guides"
+title: Vista General de VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Las Redes Privadas Virtuales desplazan el riesgo de tu ISP a un tercero en quien confías. Debes tener en cuenta estas cosas.
 ---
 
 Las Redes Privadas Virtuales son una forma de ampliar el extremo de tu red para que salga por otro lugar en el mundo.

@@ -75,9 +75,9 @@ Así que, ¿cómo podría verse esto?
 
 Uno de los modelos de amenaza más claros es aquel en el que la gente *sabe quién eres* y otro en el que no. Siempre habrá situaciones en las que debes declarar tu nombre legal y otras en las que no es necesario.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **Identidad conocida** - Una identidad conocida se utiliza para cosas en las que debes declarar tu nombre. Hay muchos documentos legales y contratos en los que se requiere una identidad legal. Esto puede abarcar desde la apertura de una cuenta bancaria, la firma de un contrato de arrendamiento de una propiedad, la obtención de un pasaporte, las declaraciones de aduana al importar artículos o cualquier otro trámite con tu Gobierno. Por lo general, estas cosas conducirán a credenciales como tarjetas de crédito, controles de calificación crediticia, números de cuenta y, posiblemente, direcciones físicas.
 
-We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+No sugerimos usar una VPN o Tor para ninguna de estas cosas, ya que tu identidad ya es conocida por otros medios.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Consejo</p>
