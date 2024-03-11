@@ -124,7 +124,7 @@ Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative
 [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)

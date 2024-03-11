@@ -145,10 +145,10 @@ Questi messanger non hanno la segretezza in avanti[^1], e mentre soddisfano dete
 
 I messaggi e i file condivisi nelle stanze private (che richiedono un invito), sono di default in E2EE, così come le chiamate e videochiamate tra due persone.
 
-[:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Home](https://element.io/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://element.io/help){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>

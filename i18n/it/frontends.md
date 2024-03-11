@@ -1,7 +1,7 @@
 ---
 title: "Frontend"
 icon: material/flip-to-front
-description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+description: Questi frontend open source per vari servizi Internet ti consentono di accedere ai contenuti senza JavaScript o altri disturbi.
 cover: frontends.webp
 ---
 
@@ -51,14 +51,14 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 
 Di default, FreeTube blocca tutte le inserzioni di YouTube. Inoltre, FreeTube integra facoltativamente [SponsorBlock](https://sponsor.ajay.app), per aiutarti a saltare i segmenti sponsorizzati dei video.
 
-[:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Home](https://freetubeapp.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-windows11: Windows](https://freetubeapp.io/#download)
 - [:simple-apple: macOS](https://freetubeapp.io/#download)
@@ -86,14 +86,14 @@ Utilizzando FreeTube, il tuo indirizzo IP potrebbe ancora essere noto a YouTube,
 
 Dovrai effettuare alcuni [passaggi aggiuntivi](https://gonzoknows.com/posts/Yattee/) prima di poter utilizzare Yattee per guardare YouTube, a causa delle limitazioni dell'App Store.
 
-[:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Home](https://github.com/yattee/yattee){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Codiice sorgente" }
+[:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
 - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
@@ -122,13 +122,13 @@ Di default, Yattee blocca tutte le inserzioni di YouTube. Inoltre, Yattee integr
 
 LibreTube ti consente di memorizzare il tuo elenco di iscrizioni e playlist localmente sul tuo dispositivo Android, o su un profilo sulla tua istanza di Piped di scelta, che ti consente di accedervi senza problemi, anche su altri dispositivi.
 
-[:octicons-home-16: Homepage](https://libre-tube.github.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Home](https://libre-tube.github.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
@@ -155,14 +155,14 @@ Di default, LibreTube blocca tutte le inserzioni di YouTube. Inoltre, Libretube 
 
 Il tuo elenco delle iscrizioni e le playlist sono salvate localmente sul tuo dispositivo Android.
 
-[:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Home](https://newpipe.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 

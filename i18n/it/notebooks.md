@@ -1,7 +1,7 @@
 ---
 title: "Appunti"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+description: Queste app di appunti crittografate ti consentono di tenere traccia delle tue note, senza darle alle terze parti.
 cover: notebooks.webp
 ---
 
@@ -19,14 +19,14 @@ Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNo
 
 **Standard Notes** è un'app di appunti semplice e privata che rende i tuoi appunti facili e disponibili ovunque tu sia. Dispone di E2EE su ogni piattaforma e di una potente esperienza desktop con temi ed editor personalizzati. Inoltre, è stata anche [controllata indipendentemente](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
 
-[:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Home](https://standardnotes.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -44,18 +44,18 @@ Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNo
 
 <div class="admonition recommendation" markdown>
 
-![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
+![Logo di Notesnook](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. Dispone di crittografia end-to-end su tutte le piattaforme, con una potente sincronizzazione per prendere appunti mentre sei in giro. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+**Notesnook** è un'app di appunti libera e open source, incentrata sulla privacy degli utenti e la facilità d'uso. Dispone di crittografia end-to-end su tutte le piattaforme, con una potente sincronizzazione per prendere appunti mentre sei in giro. Puoi importare facilmente le tue note da Evernote, OneNote e molte altre app, utilizzando la loro funzionalità d'[importazione ufficiale](https://importer.notesnook.com/).
 
-[:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Home](https://notesnook.com/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
@@ -80,14 +80,14 @@ Notesnook consente la crittografia delle note locali solo con la funzione [priva
 
 **Joplin** è un'applicazione gratuita, open source e completa di appunti e liste, che può gestire molte note in Markdown, organizzate in blocchi note e tag. Offre l'E2EE e può sincronizzarsi con Nextcloud, Dropbox e molto altro. Offre anche la possibilità di importare facilmente note da Evernote e note in testo semplice.
 
-[:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Home](https://joplinapp.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
@@ -113,13 +113,13 @@ Joplin non [supporta](https://github.com/laurent22/joplin/issues/289) la protezi
 
 **Cryptee** è un editor di documenti E2EE, nonché un'applicazione di archiviazione di foto open source e basato sul web. Cryptee è una PWA, il che significa che opera senza problemi su tutti i dispositivi moderni, senza richiedere le app native per ogni rispettiva piattaforma.
 
-[:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Home](https://crypt.ee){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/cryptee){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:octicons-globe-16: PWA](https://crypt.ee/download)
 
