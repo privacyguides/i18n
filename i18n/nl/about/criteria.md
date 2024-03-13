@@ -1,10 +1,13 @@
 ---
-title: Algemene criteria
+title: General Criteria
 ---
 
-!!! example "Werk in uitvoering"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    De volgende pagina is een werk in uitvoering, en geeft op dit moment niet de volledige criteria voor onze aanbevelingen weer. Eerdere discussie over dit onderwerp: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+De volgende pagina is een werk in uitvoering, en geeft op dit moment niet de volledige criteria voor onze aanbevelingen weer. Eerdere discussie over dit onderwerp: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 Hieronder staan enkele zaken die moeten gelden voor alle inzendingen aan Privacy Guides. Aan elke categorie worden aanvullende eisen gesteld.
 

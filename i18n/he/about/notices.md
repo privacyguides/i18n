@@ -1,5 +1,5 @@
 ---
-title: "הודעות וכתבי ויתור"
+title: "Notices and Disclaimers"
 ---
 
 ## הצהרה משפטית
@@ -14,9 +14,11 @@ Privacy Guides בנוסף אינם מתחייבים כי אתר זה יהיה ז
 
 ## סקירת רישוי
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    להלן סיכום הניתן לקריאה על ידי אדם של (ולא תחליף ל) ה-[רישיון](/license).
+להלן סיכום הניתן לקריאה על ידי אדם של (ולא תחליף ל) ה-[רישיון](/license).
+
+</div>
 
 אלא אם צוין אחרת, כל ה**תוכן** באתר זה זמין תחת תנאי הרישיון [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). **קוד המקור** הבסיסי המשמש ליצירת אתר זה ולהצגת תוכן זה משוחרר תחת [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 

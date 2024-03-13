@@ -1,5 +1,5 @@
 ---
-title: "اطلاعیه ها و سلب مسئولیت"
+title: "Notices and Disclaimers"
 ---
 
 ## سلب مسئولیت حقوقی
@@ -14,9 +14,11 @@ Privacy Guides is an open-source project contributed to under licenses that incl
 
 ## نمای کلی مجوزها
 
-!!! اخطار
+<div class="admonition danger" markdown>
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+</div>
 
 مگر اینکه به طور جداگانه ذکر شده باشد، تمام **محتواها** در این وب سایت بر اساس شرایط مجوز عمومی Creative Commons Attribution-NoDerivatives 4.0 International در دسترس قرار می‌گیرد. لطفاً متن کامل مجوز را در [اینجا](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) مشاهده کنید. کد منبع پایه‌ای **source code** که برای تولید این وب سایت و نمایش آن محتوا استفاده شده است، تحت مجوز MIT License منتشر شده است. لطفاً متن کامل مجوز MIT را در [اینجا](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE) مشاهده کنید.
 

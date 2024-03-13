@@ -1,5 +1,5 @@
 ---
-title: "关于隐私指南(Privacy Guides)"
+title: "About Privacy Guides"
 description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
@@ -87,9 +87,11 @@ Our team members review all changes made to the website and handle administrativ
 
 ## 网站许可证
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+</div>
 
 除非另有说明，否则本网站上的所有内容均根据 [Creative Commons Attribution-NoDerivatives 4.0国际公共许可证](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)的条款提供。 这意味着你可以自由地以任何媒介或形式复制和重新分发材料，用于任何目的，甚至是商业目的；只要你适当地注明 `隐私指南（www.privacyguides.org）` ，并提供许可证的链接。 您可以以任何合理的方式这样做，但不得以任何方式暗示隐私指南认可您或您的使用。 如果您重构、转换或建立在此网站的内容，您可能无法分发修改过的材料。
 

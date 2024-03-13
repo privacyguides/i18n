@@ -1,10 +1,13 @@
 ---
-title: 通用标准
+title: General Criteria
 ---
 
-!!! 示例“正在进行的工作”
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    以下页面是一项正在进行的工作，目前并不反映我们建议的全部标准。 过去关于这个主题的讨论。[#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+以下页面是一项正在进行的工作，目前并不反映我们建议的全部标准。 过去关于这个主题的讨论。[#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 以下是一些必须适用于所有提交给隐私指南的事项。 每个类别都会有额外的纳入要求。
 

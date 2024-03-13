@@ -1,6 +1,6 @@
 ---
-title: "Tentang Privacy Guides"
-description: Privacy Guides adalah situs web bermotif sosial yang menyediakan informasi untuk melindungi keamanan dan privasi data Anda.
+title: "About Privacy Guides"
+description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -87,9 +87,11 @@ Our team members review all changes made to the website and handle administrativ
 
 ## Lisensi Situs
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+</div>
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Kecuali dinyatakan lain, konten asli di situs web ini tersedia di bawah lisensi [Creative Commons Atribusi-TanpaTurunan 4.0 Internasional](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Ini berarti Anda bebas menyalin dan mendistribusikan ulang materi dalam media atau format apa pun untuk tujuan apa pun, bahkan untuk tujuan komersial; selama Anda memberikan kredit yang sesuai kepada `Privacy Guides (www.privacyguides.org)` dan memberikan tautan ke lisensi. Anda dapat melakukannya dengan cara yang wajar, tetapi tidak dengan cara apa pun yang menyarankan Privacy Guides mendukung Anda atau penggunaan Anda. Jika Anda menggubah, mengubah, atau mengembangkan konten situs web ini, Anda tidak boleh mendistribusikan materi yang telah dimodifikasi.
 

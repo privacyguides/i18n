@@ -1,10 +1,13 @@
 ---
-title: Általános Követelmények
+title: General Criteria
 ---
 
-!!! example "Folyamatban lévő munka"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    Az alábbi oldal egy folyamatban lévő munka, és jelenleg nem tükrözi az ajánlásaink teljes körű követelményeit. Korábbi beszélgetés erről a témáról: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+Az alábbi oldal egy folyamatban lévő munka, és jelenleg nem tükrözi az ajánlásaink teljes körű követelményeit. Korábbi beszélgetés erről a témáról: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 Below are some things that must apply to all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
 

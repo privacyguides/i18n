@@ -1,5 +1,5 @@
 ---
-title: "Avisos e declarações de exoneração de responsabilidade"
+title: "Notices and Disclaimers"
 ---
 
 ## Aviso Legal
@@ -14,9 +14,11 @@ Além disso, o Privacy Guides não garante que o seu site esteja constantemente 
 
 ## Visão geral do licenciamento
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    Segue-se um resumo legível por humanos (e não um substituto) do [license](/license).
+Segue-se um resumo legível por humanos (e não um substituto) do [license](/license).
+
+</div>
 
 Salvo indicação em contrário, todo o conteúdo **** deste site é disponibilizado ao abrigo dos termos da licença pública internacional [Creative Commons Attribution-NoDerivatives 4.0](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). O código-fonte subjacente **** utilizado para gerar este site e apresentar o seu conteúdo é disponibilizado ao abrigo da licença [MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 

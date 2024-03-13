@@ -1,5 +1,5 @@
 ---
-title: "通知和免责声明"
+title: "Notices and Disclaimers"
 ---
 
 ## 法律免責聲明
@@ -14,9 +14,11 @@ Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括�
 
 ## 授權一覽
 
-!!! danger "危險"
+<div class="admonition danger" markdown>
 
-    以下是人類可讀的[授權](/license)摘要(但無法替代授權內容)。
+以下是人類可讀的[授權](/license)摘要(但無法替代授權內容)。
+
+</div>
 
 除非另有說明，否則本網站上的所有 **內容** 均根據 [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)的條款提供。 基礎 **源代碼** 用於生成本網站並顯示該內容是根據 [MIT 許可](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)發布。
 

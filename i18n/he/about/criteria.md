@@ -1,10 +1,13 @@
 ---
-title: קריטריונים כלליים
+title: General Criteria
 ---
 
-!!! example "עבודה בתהליך"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    העמוד הבא הוא עבודה בתהליך ואינו משקף את הקריטריונים המלאים להמלצות שלנו בשלב זה. דיון עבר בנושא זה: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+העמוד הבא הוא עבודה בתהליך ואינו משקף את הקריטריונים המלאים להמלצות שלנו בשלב זה. דיון עבר בנושא זה: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 להלן כמה דברים שחייבים לחול על כל ההגשות ל-Privacy Guides. לכל קטגוריה יהיו דרישות נוספות להכללה.
 

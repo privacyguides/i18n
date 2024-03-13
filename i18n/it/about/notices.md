@@ -1,5 +1,5 @@
 ---
-title: "Avvisi e Dichiarazioni di Non Responsabilità"
+title: "Notices and Disclaimers"
 ---
 
 ## Dichiarazione di non responsabilità legale
@@ -14,9 +14,11 @@ Inoltre, Privacy Guides non garantisce che questo sito web sarà disponibile cos
 
 ## Panoramica sulle licenze
 
-!!! danger "Attenzione"
+<div class="admonition danger" markdown>
 
-    Quanto segue è un riepilogo leggibile dall'uomo (e non sostituto della) della [licenza](/license).
+Quanto segue è un riepilogo leggibile dall'uomo (e non sostituto della) della [licenza](/license).
+
+</div>
 
 Se non indicato diversamente, tutti i **contenuti** su questo sito web sono resi disponibili sotto i termini della [Licenza Pubblica Internazionale Creative Commons Attribution-NoDerivatives 4.0](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Il **codice sorgente** sottostante, utilizzato per generare questo sito web e mostrare tali contenuti, è rilasciato sotto la [Licenza MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 

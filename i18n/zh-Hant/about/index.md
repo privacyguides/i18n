@@ -1,6 +1,6 @@
 ---
-title: "關於 Privacy Guides"
-description: Privacy Guides 是一個社會導向的網站，提供資訊以保護您的資料安全和隱私。
+title: "About Privacy Guides"
+description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -87,9 +87,11 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 
 ## 網站授權
 
-!!! danger "危險"
+<div class="admonition danger" markdown>
 
-    以下是人類可讀的[授權](/license)摘要(但無法替代授權內容)。
+以下是人類可讀的[授權](/license)摘要(但無法替代授權內容)。
+
+</div>
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: 除非另有說明，本網站的原始內容將根據 [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)授權。 這意味著您可以自由以各種媒介或格式來複製和重新發布，用於入任何目的甚至包括商業，只要給予適當的註明 `Privacy Guides (www.privacyguides.org )` ，並提供版權授權連結。 您可以以任何合理的方式操作，但不能以任何方式暗示 Privacy Guides 為您或您的使用作背書。 如果重新混合，轉換或建立在本網站的內容上，您可能無法發布修改過的材料。
 

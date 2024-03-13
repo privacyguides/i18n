@@ -1,10 +1,13 @@
 ---
-title: Allmänna kriterier
+title: General Criteria
 ---
 
-!!! exempel "Pågående arbete"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    Följande sida är ett pågående arbete och återspeglar för närvarande inte alla kriterier för våra rekommendationer. Tidigare diskussion om detta ämne: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+Följande sida är ett pågående arbete och återspeglar för närvarande inte alla kriterier för våra rekommendationer. Tidigare diskussion om detta ämne: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 Nedan följer några saker som måste gälla för alla inlagor till integritetsguider. Varje kategori kommer att ha ytterligare krav för inkludering.
 

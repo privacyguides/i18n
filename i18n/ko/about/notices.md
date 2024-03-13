@@ -1,5 +1,5 @@
 ---
-title: "통지 및 면책 조항"
+title: "Notices and Disclaimers"
 ---
 
 ## 법적 고지 사항
@@ -14,9 +14,11 @@ Privacy Guides is an open-source project contributed to under licenses that incl
 
 ## 라이선스 개요
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    본 내용은 [라이선스 본문](/license)을 읽기 편하게 정리한 것입니다. 실제 효력은 라이선스 본문을 따릅니다.
+본 내용은 [라이선스 본문](/license)을 읽기 편하게 정리한 것입니다. 실제 효력은 라이선스 본문을 따릅니다.
+
+</div>
 
 별도 명시된 경우를 제외한 본 웹사이트의 모든 **콘텐츠**는 [크리에이티브 커먼즈(Creative Commons) 저작자표시-변경금지 4.0 국제 공공 라이선스](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)에 따라 이용할 수 있습니다. 본 웹사이트를 생성하고 해당 콘텐츠를 표시하는 데 기반으로 사용된 **소스 코드**는 [MIT 라이선스](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)에 따라 공개됩니다.
 

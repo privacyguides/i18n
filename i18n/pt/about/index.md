@@ -1,6 +1,6 @@
 ---
-title: "Acerca do Privacy Guides"
-description: O Privacy Guides é um site de motivação social que fornece informações com vista à segurança e privacidade dos seus dados.
+title: "About Privacy Guides"
+description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -87,9 +87,11 @@ Os membros da nossa equipa analisam todas as alterações feitas ao site e trata
 
 ## Licença do site
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    Segue-se um resumo legível por humanos (e não um substituto) do [license](/license).
+Segue-se um resumo legível por humanos (e não um substituto) do [license](/license).
+
+</div>
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Salvo indicação em contrário, o conteúdo original deste site é disponibilizado ao abrigo da licença pública internacional [Creative Commons Attribution-NoDerivatives 4.0](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Isto significa que o utilizador é livre de copiar e redistribuir o material em qualquer meio ou formato para qualquer fim, mesmo comercialmente, desde que atribua o devido crédito a `Privacy Guides (www.privacyguides.org)` e forneça uma hiperligação para a licença. Pode fazê-lo de forma razoável, mas não de uma forma que sugira que o Privacy Guides o apoia ou apoia o modo como usa a informação. Se combinar, transformar ou desenvolver conteúdo a partir deste site, não pode distribuir o material modificado.
 

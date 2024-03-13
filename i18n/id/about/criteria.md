@@ -1,10 +1,13 @@
 ---
-title: Kriteria Umum
+title: General Criteria
 ---
 
-!!! contoh "Pekerjaan yang Sedang Berlangsung"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    Halaman berikut ini masih dalam tahap pengembangan, dan tidak mencerminkan kriteria lengkap untuk rekomendasi kami saat ini. Diskusi sebelumnya tentang topik ini: [#24] (https://github.com/privacyguides/privacyguides.org/discussions/24)
+Halaman berikut ini masih dalam tahap pengembangan, dan tidak mencerminkan kriteria lengkap untuk rekomendasi kami saat ini. Diskusi sebelumnya tentang topik ini: [#24] (https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 Di bawah ini adalah beberapa hal yang harus diterapkan pada semua pengajuan ke Privacy Guides. Setiap kategori akan memiliki persyaratan tambahan untuk dimasukkan.
 

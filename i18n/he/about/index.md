@@ -1,6 +1,6 @@
 ---
-title: "אודות Privacy Guides"
-description: Privacy Guides הוא אתר בעל מוטיבציה חברתית המספק מידע להגנה על אבטחת הנתונים ופרטיותך.
+title: "About Privacy Guides"
+description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -87,9 +87,11 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 
 ## רישיון אתר
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    להלן סיכום הניתן לקריאה על ידי אדם של (ולא תחליף ל) ה-[רישיון](/license).
+להלן סיכום הניתן לקריאה על ידי אדם של (ולא תחליף ל) ה-[רישיון](/license).
+
+</div>
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: אלא אם צוין אחרת, התוכן המקורי באתר זה זמין תחת [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). משמעות הדבר היא שאתה חופשי להעתיק ולהפיץ מחדש את החומר בכל מדיום או פורמט לכל מטרה, אפילו מסחרית; כל עוד אתה נותן קרדיט מתאים ל`Privacy Guides (www.privacyguides.org)` ומספק קישור לרישיון. אתה רשאי לעשות זאת בכל דרך סבירה, אך לא בכל דרך שמציעה שPrivacy Guides מאשרים אותך או את השימוש שלך. אם תערבב מחדש, תשנה או תבנה על התוכן של אתר זה, אינך רשאי להפיץ את החומר שהשתנה.
 

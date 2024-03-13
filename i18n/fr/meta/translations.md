@@ -8,54 +8,6 @@ Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix
 
 Notez que la version anglaise du site est la version principale, ce qui signifie que les modifications y sont apportées en premier. Si vous remarquez qu'une langue est en retard par rapport à la version anglaise, n'hésitez pas à nous aider. Nous ne pouvons pas garantir l'exactitude de toutes nos traductions. Si vous avez une suggestion concernant un contenu spécifique à votre région, veuillez ouvrir une issue ou unepull request dans notre [dépôt principal](https://github.com/privacyguides/privacyguides.org).
 
-## Admonitions
-
-Tout au long du site, nous utilisons les [admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage) de MkDocs, pour montrer des informations aux lecteurs. Ils se présentent sous différentes formes telles que `example`, `warning`, `tip`, etc.
-
-Lorsque les admonitions sont utilisées, elles sont accompagnées par défaut d'une chaîne de caractères en anglais sur le site. Il est possible de les [personnaliser](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), sans trop d'efforts. Par exemple, si vous traduisez en néerlandais une admonition du type [`warning`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) , voici comment vous l'écrirez :
-
-=== "Traduction en néerlandais"
-
-    ```text
-    !!! warning "Waarschuwing"
-    ```
-
-=== "Texte source en anglais"
-
-    ```text
-    !!! warning "Avertissement"
-    ```
-
-Les téléchargements sont une [admonition personnalisée](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) qui s'écrit comme suit :
-
-=== "Traduction en néerlandais"
-
-    ```text
-    ??? downloads "Downloaden"
-    ```
-
-=== "Texte source en anglais"
-
-    ```text
-    ??? downloads
-    ```
-
-Il en va de même pour d'autres types, tels que `tip`, `example`, `warning`, `danger` etc.
-
-Les recommandations sont un type particulier d'admonition qui ne nécessite **pas** de personnalisation car elles n'ont pas de texte visible et ne sont donc jamais modifiées :
-
-=== "Traduction en néerlandais"
-
-    ```text
-    !!! recommendation
-    ```
-
-=== "Texte source en anglais"
-
-    ```text
-    !!! recommendation
-    ```
-
 ## Sortie de traduction
 
 Les logiciels de traduction permettent d'obtenir des traductions assez précises, mais vous devez vous assurer que la chaîne traduite est correcte.

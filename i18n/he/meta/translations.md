@@ -8,54 +8,6 @@ Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix
 
 שימו לב שהגרסה האנגלית של האתר היא הגרסה הראשית, כלומר שינויים מתרחשים שם תחילה. אם אתה מבחין בשפה שנמצאת מאחורי הגרסה האנגלית, אנא עזור. איננו יכולים להבטיח את הדיוק של כל התרגומים שלנו. אם יש לך הצעה לגבי תוכן ספציפי לאזור שלך, פתח בעיה או שלח בקשה ל[מאגר הראשי](https://github.com/privacyguides/privacyguides.org) שלנו.
 
-## אזהרות
-
-בכל האתר אנו משתמשים ב[התראות](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage) של MkDocs, כדי להציג מידע לקוראים. הם מגיעים בכמה טעמים שונים כגון `דוגמה`, `אזהרה`, `טיפ` וכו'.
-
-כאשר נעשה שימוש באזהרות תהיה להם מחרוזת אנגלית באתר כברירת מחדל. זה יכול להיות [להתאמה אישית](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), בלי יותר מדי מאמץ. לדוגמה, אם היית מתרגם אזהרה מסוג [`אזהרה`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) להולנדית, כך היית כותב את זה:
-
-=== "תרגום להולנדית"
-
-    ```text
-    !!! warning "Waarschuwing"
-    ```
-
-=== "טקסט מקור אנגלי"
-
-    ```text
-    !!! warning "אזהרה"
-    ```
-
-ההורדות הן [אזהרה מותאמת אישית](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) הכתובה כך:
-
-=== "תרגום להולנדית"
-
-    ```text
-    ??? downloads "Downloaden"
-    ```
-
-=== "טקסט מקור אנגלי"
-
-    ```text
-    ??? downloads
-    ```
-
-כך גם לגבי סוגים אחרים, כגון `tip`, `example`, `warning`, `danger` etc. וכו'.
-
-Recommendations הן סוג מיוחד של אזהרה ש**אין** לעקוף מאחר שאין להן טקסט גלוי, כך שהן לעולם לא משתנות:
-
-=== "תרגום להולנדית"
-
-    ```text
-    !!! recommendation
-    ```
-
-=== "טקסט מקור אנגלי"
-
-    ```text
-    !!! recommendation
-    ```
-
 ## פלט תרגום
 
 תוכנת תרגום משיגה את התרגום מדויק למדי; עם זאת, עליך לוודא שהמחרוזת המתורגמת נכונה.

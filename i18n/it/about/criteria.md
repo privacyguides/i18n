@@ -1,10 +1,13 @@
 ---
-title: Criteri Generali
+title: General Criteria
 ---
 
-!!! example "Lavori in corso"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    La seguente pagina è in costruzione e non riflette i criteri completi dei nostri consigli, al momento. Discussione precedente su questo argomento: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+La seguente pagina è in costruzione e non riflette i criteri completi dei nostri consigli, al momento. Discussione precedente su questo argomento: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 Seguono alcune cose che devono applicarsi a tutti gli articoli di Privacy Guides. Ogni categoria avrà requisiti aggiuntivi per l'inclusione.
 

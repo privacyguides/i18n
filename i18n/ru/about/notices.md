@@ -1,5 +1,5 @@
 ---
-title: "Примечания и дисклеймеры"
+title: "Notices and Disclaimers"
 ---
 
 ## Отказ от ответственности
@@ -14,9 +14,11 @@ Privacy Guides is an open-source project contributed to under licenses that incl
 
 ## Обзор лицензирования
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    Следующий текст является человеко-читаемым кратким изложением (но не заменой) [лицензии](/license).
+Следующий текст является человеко-читаемым кратким изложением (но не заменой) [лицензии](/license).
+
+</div>
 
 Если не указано иное, все **содержимое** этого сайта находится в свободном доступе на условиях лицензии [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). **Исходный код**, используемый для генерации этого сайта и отображения его содержимого, выпущен под лицензией [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 

@@ -1,10 +1,13 @@
 ---
-title: Allgemeine Kriterien
+title: General Criteria
 ---
 
-!!! example "In Bearbeitung"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    An dieser Seite wird im Moment noch gearbeitet; sie spiegelt derzeit nicht die vollständigen Kriterien für unsere Empfehlungen wieder. Frühere Diskussion zu diesem Thema: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+An dieser Seite wird im Moment noch gearbeitet; sie spiegelt derzeit nicht die vollständigen Kriterien für unsere Empfehlungen wieder. Frühere Diskussion zu diesem Thema: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 Nachfolgend sind einige Punkte aufgeführt, die für alle Einsendungen an Privacy Guides zutreffen müssen. Für jede Kategorie gelten zusätzliche Anforderungen für die Aufnahme.
 

@@ -8,54 +8,6 @@ Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix
 
 Nota che la versione in inglese del sito è la versione principale, a significare che le modifiche si verificano lì per prime. Se noti che una lingua non è aggiornata, ti preghiamo di contribuire. Non possiamo garantire l'accuratezza di tutte le nostre traduzioni. Se hai un suggerimento sui contenuti specifici della tua regione, ti preghiamo di aprire un ticket o una richiesta di pull, nel nostro [repository principale](https://github.com/privacyguides/privacyguides.org).
 
-## Ammonimenti
-
-All'interno del sito utilizziamo gli [ammonimenti](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage) di MkDocs, per mostrare le informazioni ai lettori. Possono avere diversi ambiti, quali `example` (esempio), `warning` (avviso), `tip` (consiglio), etc.
-
-Quando sono utilizzati, gli ammonimenti avranno, di default, una stringa in inglese sul sito. Questa è [personalizzabile](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), senza troppi sforzi. Ad esempio, se stessi traducendo un ammonimento di tipo [`warning`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) (avviso) in olandese, ecco come la dovresti scrivere:
-
-=== "Traduzione olandese"
-
-    ```text
-    !!! warning "Waarschuwing"
-    ```
-
-=== "Testo originale in inglese"
-
-    ```text
-    !!! warning "Attenzione"
-    ```
-
-I download sono [ammonimenti personalizzati](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions), scritti come segue:
-
-=== "Traduzione olandese"
-
-    ```text
-    ??? downloads "Downloaden"
-    ```
-
-=== "Testo originale in inglese"
-
-    ```text
-    ??? downloads
-    ```
-
-Lo stesso vale per altri tipi, quali `tip` (consiglio), `example` (esempio), `warning` (avviso), `danger` (pericolo), etc.
-
-I consigli sono un tipo di ammonimento speciale che **non** necessita di sovrascrizione, essendo privo di testo visibile, quindi, che non è mai modificato:
-
-=== "Traduzione olandese"
-
-    ```text
-    !!! recommendation
-    ```
-
-=== "Testo originale in inglese"
-
-    ```text
-    !!! recommendation
-    ```
-
 ## Risultato traduzione
 
 Il software di traduzione ottiene delle traduzioni abbastanza accurate; tuttavia, devi assicurarti che la stringa tradotta sia corretta.

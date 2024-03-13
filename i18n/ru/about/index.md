@@ -1,6 +1,6 @@
 ---
-title: "Что такое Privacy Guides"
-description: Privacy Guides - это сайт, предоставляющий информацию по защите безопасности и конфиденциальности ваших данных.
+title: "About Privacy Guides"
+description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -87,9 +87,11 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 
 ## Лицензия Сайта
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    Следующий текст является человеко-читаемым кратким изложением (но не заменой) [лицензии](/license).
+Следующий текст является человеко-читаемым кратким изложением (но не заменой) [лицензии](/license).
+
+</div>
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Если не указано иное, оригинальное содержание этого сайта доступно на условиях [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Это означает, что вы можете свободно копировать и распространять материал на любом носителе или в любом формате для любых целей, даже коммерческих; при условии, что вы укажете соответствующую ссылку на `Privacy Guides (www.privacyguides.org)` и дадите ссылку на лицензию. Вы можете делать это любым способом в рамках разумного, но не говорить, что Privacy Guides одобряет ваш проект или ваше использование материалов. Если вы смешиваете, преобразовываете или создаете что-то на основе содержимого этого сайта, вы не имеете права распространять измененный материал.
 

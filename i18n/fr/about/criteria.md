@@ -1,10 +1,13 @@
 ---
-title: Critères généraux
+title: General Criteria
 ---
 
-!!! example "Travail inachevé"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    La page suivante est inachevée et ne reflète pas l'ensemble des critères de nos recommandations à l'heure actuelle. Discussion antérieure sur ce sujet : [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+La page suivante est inachevée et ne reflète pas l'ensemble des critères de nos recommandations à l'heure actuelle. Discussion antérieure sur ce sujet : [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 Vous trouverez ci-dessous certains éléments qui doivent s'appliquer à toutes les soumissions à Privacy Guides. Chaque catégorie aura des exigences supplémentaires pour être incluse.
 

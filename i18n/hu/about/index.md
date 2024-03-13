@@ -1,6 +1,6 @@
 ---
-title: "A Privacy Guides-ról"
-description: A Privacy Guides egy szociálisan motivált weboldal, amely információkat nyújt az adatbiztonság és a magánélet védelméről.
+title: "About Privacy Guides"
+description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -87,9 +87,11 @@ Our team members review all changes made to the website and handle administrativ
 
 ## Webhelylicenc
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+</div>
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Eltérő megjegyzés hiányában a weboldal eredeti tartalma a [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) alatt érhető el. Ez azt jelenti, hogy te szabadon másolhatod és terjesztheted az anyagot bármilyen médiumban vagy formátumban, bármilyen célból, akár kereskedelmi céllal is; feltéve, hogy megfelelően hivatkozol a `Privacy Guides (www.privacyguides.org)` címre, és biztosítasz egy linket a licenchez. Te **nem** használhatod a Privacy Guides márkajelzéseit saját projektedben ennek a projektnek a kifejezett jóváhagyása nélkül. Ha a weboldal tartalmát remixeled, átalakítod, vagy arra építesz, a módosított anyagot nem terjesztheted.
 

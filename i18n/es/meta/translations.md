@@ -8,54 +8,6 @@ Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix
 
 Tome en cuenta que la versión en Inglés del sitio es la versión primaria, lo que significa que los cambios se producen primero en esta. Si nota que un lenguaje está rezagado detrás de la versión en Inglés, por favor colabore. No podemos garantizar la exactitud de todas nuestras traducciones. Si tiene una sugerencia sobre contenido específico de su región, por favor abra un issue o pull request en nuestro [repositorio principal](https://github.com/privacyguides/privacyguides.org).
 
-## Avisos
-
-En todo el sitio utilizamos los [avisos](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage) de MkDocs, para mostrar información a los lectores. Estas vienen en diferentes formatos como `ejemplo`, `peligro`, `consejo`, etc.
-
-Cuando los avisos son utilizadas, estos tienen una cadena de texto en inglés por defecto. Esto puede ser [personalizado](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title), sin demasiado esfuerzo. Por ejemplo, si se encuentra traduciendo un aviso de tipo [`peligro`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) a Holandés, así es como debe escribirse:
-
-=== "Traducción al Holandés"
-
-    ```text
-    !!! warning "Waarschuwing"
-    ```
-
-== "Texto fuente en Inglés"
-
-    ```text
-    !!! warning "Advertencia"
-    ```
-
-Las descargas son un [aviso personalizado](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions) que se encuentra escrito de la siguiente manera:
-
-=== "Traducción al Holandés"
-
-    ```text
-    ??? downloads "Downloaden"
-    ```
-
-== "Texto fuente en Inglés"
-
-    ```text
-    ??? downloads
-    ```
-
-Lo mismo aplica para otros tipos, como `consejo`, `ejemplo`, `advertencia`, `peligro` etc.
-
-Las recomendaciones son un tipo especial de aviso que **no** necesita sobreescribirse, porque no tiene un texto visible, por lo que nunca son modificados:
-
-=== "Traducción al Holandés"
-
-    ```text
-    !!! recommendation
-    ```
-
-== "Texto fuente en Inglés"
-
-    ```text
-    !!! recommendation
-    ```
-
 ## Resultado de la traducción
 
 El programa de traducción obtiene la traducción con mucha precisión; sin embargo, debes asegurarte que la cadena traducida es correcta.

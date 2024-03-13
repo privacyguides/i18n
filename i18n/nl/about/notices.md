@@ -1,5 +1,5 @@
 ---
-title: "Mededelingen en vrijwaringsclausules"
+title: "Notices and Disclaimers"
 ---
 
 ## Wettelijke aansprakelijkheid
@@ -14,9 +14,11 @@ Privacy Guides garandeert evenmin dat deze website voortdurend beschikbaar zal z
 
 ## Licentieoverzicht
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    Het volgende is een menselijk leesbare samenvatting van (en geen vervanging voor) de licentie).
+Het volgende is een menselijk leesbare samenvatting van (en geen vervanging voor) de licentie).
+
+</div>
 
 Tenzij anders vermeld, wordt alle **inhoud** op deze website beschikbaar gesteld onder de voorwaarden van de [Creative Commons Naamsvermelding-GeenAfgeleideWerken 4.0 Internationale Openbare Licentie](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). De onderliggende **broncode** gebruikt om deze website te genereren en die inhoud weer te geven is vrijgegeven onder de [MIT Licentie](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 

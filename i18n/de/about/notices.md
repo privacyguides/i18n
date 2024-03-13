@@ -1,5 +1,5 @@
 ---
-title: "Hinweise und Haftungsausschlüsse"
+title: "Notices and Disclaimers"
 ---
 
 ## Rechtlicher Hinweis
@@ -14,9 +14,11 @@ Privacy Guides garantiert außerdem nicht, dass diese Webseite ständig oder üb
 
 ## Lizenzierungsübersicht
 
-!!! danger "Achtung"
+<div class="admonition danger" markdown>
 
-    Das Folgende ist eine für Menschen leicht verständliche Zusammenfassung (und kein Ersatz) der [Lizenz](/license).
+Das Folgende ist eine für Menschen leicht verständliche Zusammenfassung (und kein Ersatz) der [Lizenz](/license).
+
+</div>
 
 Sofern nicht anders angegeben, wird der gesamte **Inhalt** dieser Webseite unter den Bedingungen der [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) zur Verfügung gestellt. Der zugrunde liegende **Sourcecode**, der für die Erstellung dieser Webseite und die Anzeige der Inhalte verwendet wird, unterliegt der [MIT-Lizenz](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 

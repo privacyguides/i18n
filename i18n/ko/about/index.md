@@ -1,6 +1,6 @@
 ---
-title: "Privacy Guides 소개"
-description: Privacy Guides는 여러분의 데이터 보안, 프라이버시 보호 정보 제공을 목적으로 운영되는 사이트입니다.
+title: "About Privacy Guides"
+description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -87,9 +87,11 @@ Privacy Guides 팀원은 모든 변경 사항을 검토하고 웹 호스팅 및 
 
 ## 사이트 라이선스
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    본 내용은 [라이선스 본문](/license)을 읽기 편하게 정리한 것입니다. 실제 효력은 라이선스 본문을 따릅니다.
+본 내용은 [라이선스 본문](/license)을 읽기 편하게 정리한 것입니다. 실제 효력은 라이선스 본문을 따릅니다.
+
+</div>
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: 별도 명시된 경우를 제외한 본 웹사이트의 저작 콘텐츠는 [크리에이티브 커먼즈(Creative Commons) 저작자표시-변경금지 4.0 국제 공공 라이선스](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)에 따라 이용할 수 있습니다. 즉, 여러분은 `Privacy Guides (www.privacyguides.org)`로의 적절한 출처 표기와 라이선스 링크를 작성한다는 조건하에 상업적 용도를 포함하여 어떤 매체나 형식으로든 자유롭게 복제 및 재배포 가능합니다. 단, 여러분은 라이선스를 중시하는 선에서 자유롭게 이용할 수 있지만 Privacy Guides가 여러분의 행위나 여러분 개인을 직접 보증/지지하는 듯이 표현해서는 안 됩니다. 또한, 본 웹사이트의 콘텐츠를 변형하는 경우, 변형된 자료를 배포해서는 안 됩니다.
 

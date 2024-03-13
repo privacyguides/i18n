@@ -8,54 +8,6 @@ Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix
 
 Bitte beachte, dass die englische Version der Website die primäre Version ist, d.h. Änderungen werden dort zuerst vorgenommen. Wenn du bemerkst, dass eine Sprache hinter der englischen Version liegt, hilf bitte mit. Wir können nicht für die Richtigkeit aller unserer Übersetzungen garantieren. Wenn du einen Vorschlag zu Inhalten hast, die speziell für deine Region gelten, öffne bitte ein Issue oder einen Pull Request in unserem [Main-Repository](https://github.com/privacyguides/privacyguides.org).
 
-## Admonitions
-
-Auf der gesamten Website verwenden wir die [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#usage) von MkDocs, um den Lesern Informationen zu zeigen. Es gibt sie in verschiedenen Varianten, zum Beispiel `example`, `warning`, `tip`, usw.
-
-Wenn Admonitions verwendet werden, werden sie auf der Website standardmäßig in englischer Sprache verfasst. Diese können ohne allzu großen Aufwand [angepasst werden](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#changing-the-title). Wenn du zum Beispiel eine Admonition des Typs [`warning`](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#type:warning) ins Niederländische übersetzen möchtest, würdest du sie folgendermaßen schreiben:
-
-=== "Niederländische Übersetzung"
-
-    ```text
-    !!! warning "Waarschuwing"
-    ```
-
-=== "Englischer Ursprungstext"
-
-    ```text
-    !!! warning
-    ```
-
-Downloads sind eine [benutzerdefinierte Admonition](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions), die wie folgt geschrieben wird:
-
-=== "Niederländische Übersetzung"
-
-    ```text
-    ??? downloads "Downloaden"
-    ```
-
-=== "Englischer Ursprungstext"
-
-    ```text
-    ??? downloads
-    ```
-
-Das Gleiche gilt für andere Arten, wie `tip`, `example`, `warning`, `danger` usw.
-
-Empfehlungen sind eine besondere Art von Admontion, die **nicht** übersetzt werden müssen, da sie keinen sichtbaren Text haben und daher nie geändert werden:
-
-=== "Niederländische Übersetzung"
-
-    ```text
-    !!! recommendation
-    ```
-
-=== "Englischer Ursprungstext"
-
-    ```text
-    !!! recommendation
-    ```
-
 ## Übersetzungsausgabe
 
 Die Übersetzungssoftware sorgt für eine recht genaue Übersetzung; Du musst jedoch sicherstellen, dass die übersetzte Zeichenfolge korrekt ist.

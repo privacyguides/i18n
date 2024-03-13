@@ -1,5 +1,5 @@
 ---
-title: "Avisos y responsabilidades"
+title: "Notices and Disclaimers"
 ---
 
 ## Aviso Legal
@@ -14,9 +14,11 @@ Además, Privacy Guides no garantiza que este sitio web esté disponible, de for
 
 ## Resumen de licencias
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    El siguiente es un resumen legible por humanos de (y no un sustituto de) la [license](/licencia).
+El siguiente es un resumen legible por humanos de (y no un sustituto de) la [license](/licencia).
+
+</div>
 
 Salvo que se indique lo contrario, todo el **contenido** de este sitio web está disponible bajo los términos de [Creative Commons Attribution-NoDerivatives 4. Licencia pública internacional](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). El subyacente **código fuente** utilizado para generar este sitio web y mostrar ese contenido está publicado bajo la [licencia MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 

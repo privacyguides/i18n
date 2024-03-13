@@ -1,5 +1,5 @@
 ---
-title: "Privacy Guides Hakkında"
+title: "About Privacy Guides"
 description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
@@ -87,9 +87,11 @@ Our team members review all changes made to the website and handle administrativ
 
 ## Site Lisansı
 
-!!! danger ""
+<div class="admonition danger" markdown>
 
-    The following is a human-readable summary of (and not a substitute for) the [license](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](/license).
+
+</div>
 
 :fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: Aksi belirtilmedikçe, bu web sitesindeki orijinal içerik [Creative Commons Attribution-NoDerivatives 4.0 Uluslararası Kamu Lisansı](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) altında kullanıma sunulmuştur. Bu, `Privacy Guides (www.privacyguides.org)` adresine uygun şekilde atıfta bulunduğunuz ve lisansa bir bağlantı verdiğiniz sürece, materyali ticari olarak bile herhangi bir amaçla herhangi bir ortamda veya formatta kopyalamakta ve yeniden dağıtmakta özgür olduğunuz anlamına gelir. Bunu herhangi bir makul bir şekilde yapabilirsiniz, ancak Gizlilik Kılavuzları (Privacy Guides) sizi veya kullanımınızı onayladığı hiçbir şekilde değil. Bu web sitesinin içeriğini yeniden düzenler, dönüştürür veya oluşturursanız, değiştirilen materyali dağıtamazsınız.
 

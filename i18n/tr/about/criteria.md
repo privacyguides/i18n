@@ -1,10 +1,13 @@
 ---
-title: Genel Kriterler
+title: General Criteria
 ---
 
-!!! örnek "Devam Eden Çalışma"
+<div class="admonition example" markdown>
+<p class="admonition-title">Work in Progress</p>
 
-    Aşağıdaki sayfa üzerinde çalışılmaktadır ve şu anda tavsiyelerimize ilişkin kriterlerin tamamını yansıtmamaktadır. Bu konuyla ilgili geçmiş tartışma: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+Aşağıdaki sayfa üzerinde çalışılmaktadır ve şu anda tavsiyelerimize ilişkin kriterlerin tamamını yansıtmamaktadır. Bu konuyla ilgili geçmiş tartışma: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
+
+</div>
 
 Aşağıda Privacy Guides'a yapılan tüm başvurular için geçerli olması gereken bazı hususlar yer almaktadır. Her kategorinin dahil edilmesi için ek gereklilikler olacaktır.
 
