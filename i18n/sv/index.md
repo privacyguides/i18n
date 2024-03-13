@@ -60,7 +60,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 ---
 
-## We need you! Here's how to get involved:
+## Vi behöver dig! Here's how to get involved:
 
 [:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }

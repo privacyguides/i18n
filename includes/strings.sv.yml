@@ -37,7 +37,7 @@ nav:
   Providers: Providers
   Software: Programvara
   Advanced: Advanced
-  About: About
+  About: Om
   Community: Community
   Online Services: Online Services
   Code of Conduct: Code of Conduct
@@ -46,7 +46,7 @@ nav:
   Technical Guides: Technical Guides
   Changelog: Changelog
   Forum: Forum
-  Blog: Blog
+  Blog: Blogg
 site:
   homepage_card: |
     A socially motivated website which provides information about protecting your online data privacy and security.

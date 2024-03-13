@@ -17,8 +17,8 @@
 *[DoT]: DNS über TLS
 *[E2EE]: Ende-zu-Ende-Verschlüsselung/Verschlüsselt
 *[ECS]: EDNS Client Subnet
-*[EEA]: Europäischer Wirtschaftsraum
-*[entropy]: Ein Maß dafür, wie unvorhersehbar etwas ist
+*[EWR]: Europäischer Wirtschaftsraum
+*[Entropie]: Ein Maß dafür, wie unvorhersehbar etwas ist
 *[EOL]: Ende des Produktlebens- oder Support-Zyklus. Gemeint ist häufig das Ende der Unterstützung mit Sicherheitsupdates.
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
@@ -32,10 +32,10 @@
 *[GUI]: Grafische Benutzeroberfläche
 *[GnuPG]: GNU Privacy Guard (PGP-Implementierung)
 *[HDD]: Festplattenlaufwerk
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code) basiertes Einmal-Passwort
 *[HTTPS]: sicheres Hypertext-Übertragungsprotokoll
 *[HTTP]: Hypertext-Übertragungsprotokoll
-*[hypervisor]: Computer Software, -Firmware oder -Hardware welche die Ressourcen eines CPUs auf mehrere Betriebssysteme aufteilt
+*[Hypervisor]: Computer Software, -Firmware oder -Hardware welche die Ressourcen eines CPUs auf mehrere Betriebssysteme aufteilt
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
@@ -53,8 +53,8 @@
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Faktor-Authentifizierung
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NAT]: Übersetzung von Netzwerkadressen
+*[NAT-PMP]: NAT Port Mapping Protokoll
 *[NTP]: Netzwerk-Zeitprotokoll
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol

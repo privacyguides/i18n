@@ -1,7 +1,7 @@
 ---
 title: "Common Misconceptions"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: Datenschutz ist kein einfaches Thema, und es ist leicht, sich von Marketingaussagen und anderen Desinformationen täuschen zu lassen.
 schema:
   - 
     "@context": https://schema.org
@@ -9,11 +9,11 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open-source software inherently secure?
+        name: Ist Open-Source-Software per se sicher?
         acceptedAnswer:
           "@type": Answer
           text: |
-            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+            Ob der Quellcode verfügbar ist und wie die Software lizenziert wird, hat erstmal keinen Einfluss auf ihre Sicherheit. Open-Source-Software hat das Potenzial, sicherer zu sein als proprietäre Software, aber es gibt absolut keine Garantie dafür, dass dies der Fall ist. Bei der Bewertung von Software sollten Sie den Ruf und die Sicherheit jedes einzelnen Tools berücksichtigen.
       - 
         "@type": Question
         name: Can shifting trust to another provider increase privacy?
