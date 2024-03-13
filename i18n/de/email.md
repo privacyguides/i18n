@@ -74,7 +74,7 @@ Proton Mail hat interne Absturzberichte, die sie **nicht** mit Dritten teilen. D
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
-Nutzer eines kostenpflichtigen Proton Mail Tarifs können ihre eigene Domain oder eine [Catch-All](https://proton.me/support/catch-all) Adresse nutzen. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Nutzer eines kostenpflichtigen Proton Mail Tarifs können ihre eigene Domain oder eine [Catch-All](https://proton.me/support/catch-all) Adresse nutzen. Proton Mail unterstützt auch [Subadressen](https://proton.me/support/creating-aliases), was für Personen nützlich ist, die keine eigene Domain erwerben möchten.
 
 #### :material-check:{ .pg-green } Diskrete Zahlungsmöglichkeiten
 
@@ -92,9 +92,9 @@ Bestimmte Informationen, die in [Proton Contacts](https://proton.me/support/prot
 
 #### :material-check:{ .pg-green } E-Mail-Verschlüsselung
 
-Proton Mail hat [die OpenPGP-Verschlüsselung](https://proton.me/support/how-to-use-pgp) in sein Webmail integriert. E-Mails an andere Proton Mail-Konten werden automatisch verschlüsselt. Die Verschlüsselung an Nicht-Proton Mail-Adressen mit einem OpenPGP-Schlüssel kannst du ganz einfach in deinen Kontoeinstellungen aktivieren. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail hat [die OpenPGP-Verschlüsselung](https://proton.me/support/how-to-use-pgp) in sein Webmail integriert. E-Mails an andere Proton Mail-Konten werden automatisch verschlüsselt. Die Verschlüsselung an Nicht-Proton Mail-Adressen mit einem OpenPGP-Schlüssel kannst du ganz einfach in deinen Kontoeinstellungen aktivieren. Proton unterstützt auch die automatische Erkennung externer Schlüssel mit dem [Web Key Directory (WKD](https://wiki.gnupg.org/WKD)). Das bedeutet, dass E-Mails an andere Anbieter, die WKD verwenden, automatisch auch mit OpenPGP verschlüsselt werden, ohne dass Sie manuell öffentliche PGP-Schlüssel mit Ihren Kontakten austauschen müssen. Außerdem ist es möglich, [Nachrichten an Nicht-Proton-Mail-Adressen ohne OpenPGP zu verschlüsseln](https://proton.me/support/password-protected-emails), ohne dass die Empfänger ein Proton-Mail-Konto benötigen.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. Dies ermöglicht es Personen, die Proton Mail nicht verwenden, die OpenPGP-Schlüssel von Proton Mail-Konten für anbieterübergreifende E2EE leicht zu finden. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Auch veröffentlicht Proton Mail öffentlichen Schlüssel der Proton-Konten über HTTP von ihrem WKD. Dies ermöglicht es Personen, die Proton Mail nicht verwenden, die OpenPGP-Schlüssel von Proton Mail-Konten für anbieterübergreifende E2EE leicht zu finden. Dies gilt nur für E-Mail-Adressen, die auf eine der Proton-eigenen Domains enden, wie @proton.me. Wenn Sie eine eigene Domain verwenden, müssen Sie [WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separat konfigurieren.
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
@@ -115,8 +115,8 @@ Proton Mail bietet keine Funktion für deinen digitalen Nachlass.
 **Mailbox.org** ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % erneuerbaren Energien betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten im günstigsten Tarif beginnen mit 2 GB Speicherplatz, der je nach Bedarf erweitert werden kann.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+[:octicons-eye-16:](https://mailbox.org/de/datenschutz){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://kb.mailbox.org/de/privat){ .card-link title=Dokumentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -129,7 +129,7 @@ Proton Mail bietet keine Funktion für deinen digitalen Nachlass.
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Bei Mailbox.org können Sie Ihre eigene Domain verwenden, und es werden [Catch-All-Adressen](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) unterstützt. Mailbox.org unterstützt auch [Subadressen](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), was nützlich ist, wenn Sie keine eigene Domain kaufen möchten.
 
 #### :material-check:{ .pg-green } Diskrete Zahlungsmöglichkeiten
 
@@ -137,7 +137,7 @@ Mailbox.org akzeptiert keine Kryptowährungen, da deren Zahlungsanbieter BitPay 
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Webstandards wie [WebAuthn](https://de.wikipedia.org/wiki/WebAuthn) werden noch nicht unterstützt.
+Mailbox.org unterstützt die [Zwei-Faktor-Authentisierung](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) nur für Webmail. Sie können entweder TOTP oder einen [YubiKey](https://en.wikipedia.org/wiki/YubiKey) über die [YubiCloud](https://yubico.com/products/services-software/yubicloud) verwenden. Webstandards wie [WebAuthn](https://de.wikipedia.org/wiki/WebAuthn) werden noch nicht unterstützt.
 
 #### :material-information-outline:{ .pg-blue } Datensicherheit
 
@@ -149,7 +149,7 @@ However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the softwa
 
 Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Diese Funktion ist nützlich, wenn der Empfänger OpenPGP nicht nutzt und daher eine Kopie der E-Mail in seinem eigenen Postfach nicht entschlüsseln kann.
 
-Mailbox.org unterstützt auch die Suche nach öffentlichen Schlüsseln über HTTP von ihrem [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Dies ermöglicht es Personen, die Mailbox.org nicht verwenden, die OpenPGP-Schlüssel von Mailbox.org-Konten für anbieterübergreifende E2EE leicht zu finden. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox.org unterstützt auch die Suche nach öffentlichen Schlüsseln über HTTP von ihrem [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Dies ermöglicht es Personen, die Mailbox.org nicht verwenden, die OpenPGP-Schlüssel von Mailbox.org-Konten für anbieterübergreifende E2EE leicht zu finden. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. Wenn Sie eine eigene Domain verwenden, müssen Sie [WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separat konfigurieren.
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
