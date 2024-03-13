@@ -55,7 +55,7 @@ Por su diseño, los **navegadores web**, los **clientes de correo electrónico**
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). También deberías asegurarte de que tu disco esté encriptado y de que el sistema operativo utiliza un TPM o Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) o [Element](https://developers.google.com/android/security/android-ready-se) para limitar los intentos de introducir la frase de contraseña de encriptación. Deberías evitar compartir tu ordenador con personas que no sean de tu confianza, ya que la mayoría de los sistemas operativos de escritorio no cifran los datos por separado para cada usuario.
+Si te preocupan los **ataques físicos** deberías utilizar un sistema operativo con una implementación de arranque seguro verificado, como Android, iOS, macOS o [Windows (con TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). También deberías asegurarte de que tu disco esté encriptado y de que el sistema operativo utiliza un TPM o Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) o [Element](https://developers.google.com/android/security/android-ready-se) para limitar los intentos de introducir la frase de contraseña de encriptación. Deberías evitar compartir tu ordenador con personas que no sean de tu confianza, ya que la mayoría de los sistemas operativos de escritorio no cifran los datos por separado para cada usuario.
 
 ## Privacidad de los proveedores de servicios
 
@@ -89,16 +89,16 @@ La vigilancia masiva es el intrincado esfuerzo por controlar el "comportamiento,
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas de la Vigilancia</p>
 
-If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
+Si quieres saber más sobre los métodos de vigilancia y cómo se aplican en tu ciudad, también puedes echar un vistazo al [Atlas de la Vigilancia](https://atlasofsurveillance.org) de la [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+En Francia puedes consultar el [sitio web de Technopolice](https://technopolice.fr/villes), mantenido por la asociación sin ánimo de lucro La Quadrature du Net.
 
 </div>
 
 Los gobiernos suelen justificar los programas de vigilancia masiva como medios necesarios para combatir el terrorismo y prevenir la delincuencia. Sin embargo, al vulnerar los derechos humanos, se utiliza con mayor frecuencia para atacar desproporcionadamente a grupos minoritarios y disidentes políticos, entre otros.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">La lección del 11-S sobre la privacidad: La Vigilancia Masiva No es el Camino a Seguir</a></em></p>
 
 Ante [las revelaciones de Edward Snowden sobre programas gubernamentales como [PRISM](https://es.wikipedia.org/wiki/PRISM) y [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], los funcionarios de inteligencia también admitieron que la NSA llevaba años recopilando en secreto registros sobre prácticamente todas las llamadas telefónicas de los estadounidenses: quién llama a quién, cuándo se hacen esas llamadas y cuánto duran. Este tipo de información, cuando es recopilada por la NSA día tras día, puede revelar detalles increíblemente sensibles sobre la vida y las asociaciones de las personas, como si han llamado a un pastor, a un proveedor de aborto, a un consejero de adicciones o a una línea directa de suicidio.
 
@@ -144,7 +144,7 @@ La censura en línea puede ser llevada a cabo (en diversos grados) por actores q
 
 La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Estos esfuerzos por controlar la comunicación y restringir el acceso a la información serán siempre incompatibles con el derecho humano a la Libertad de Expresión.[^5]
 
-La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Las presiones gubernamentales pueden ser peticiones encubiertas a las empresas, como la de la Casa Blanca [solicitando la retirada](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) de un vídeo provocativo de YouTube, o abiertamente, como la del gobierno chino exigiendo a las empresas que se adhieran a un estricto régimen de censura.
 
 Las personas preocupadas por la amenaza de la censura pueden utilizar tecnologías como [Tor](../advanced/tor-overview.md) para eludirla, y apoyar plataformas de comunicación resistentes a la censura como [Matrix](../real-time-communication.md#element), que no tiene una autoridad de cuentas centralizada que pueda cerrar cuentas arbitrariamente.
 
@@ -162,5 +162,5 @@ Siempre debes tener en cuenta los riesgos de intentar saltarse la censura, las p
 [^1]: Wikipedia: [*Vigilancia masiva*](https://es.wikipedia.org/wiki/Vigilancia_masiva) y [*Vigilancia*](https://es.wikipedia.org/wiki/Vigilancia).
 [^2]: Junta de Supervisión de la Privacidad y las Libertades Civiles de los Estados Unidos: [*Informe sobre el Programa de Registros Telefónicos llevado a cabo bajo la Sección 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Capitalismo de vigilancia*](https://es.wikipedia.org/wiki/Capitalismo_de_vigilancia)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. También deberías emplear otras técnicas de mitigación.
+[^4]: "[Enumerar lo malo](https://ranum.com/security/computer_security/editorials/dumb)" (o, "enumerar todas las cosas malas que conocemos"), como hacen muchos bloqueadores de contenidos y programas antivirus, no consigue protegerle adecuadamente de amenazas nuevas y desconocidas porque aún no se han añadido a la lista de filtros. También deberías emplear otras técnicas de mitigación.
 [^5]: Naciones Unidas: [*La Declaración Universal de Derechos Humanos*](https://www.un.org/es/about-us/universal-declaration-of-human-rights).

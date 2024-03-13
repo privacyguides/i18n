@@ -54,6 +54,6 @@ La privacidad es algo que tenemos que tener incorporado en [el software y los se
 
 ## Fuentes
 
-- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
-- [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)
+- [Por Qué Importa La Privacidad](https://amazon.com/dp/0190939044) (2021) por Neil Richards
+- [El Nuevo Petróleo: Por Qué Son Importantes la Privacidad y la Seguridad](https://thenewoil.org/en/guides/prologue/why)
 - [@Thorin-Oakenpants sobre Anonimato vs Privacidad vs Seguridad](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
