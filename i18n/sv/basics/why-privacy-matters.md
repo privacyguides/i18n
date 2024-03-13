@@ -24,7 +24,7 @@ Security is the ability to trust the applications you use—that the parties inv
 
 Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
-**Anonymity**
+**Anonymitet**
 :
 
 Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
@@ -52,7 +52,7 @@ Take cookie consent forms, for example. You may encounter these dozens of times 
 
 Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
 
-## Sources
+## Källor
 
 - [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)

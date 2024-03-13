@@ -24,7 +24,7 @@ We're writing *for* a wide variety of people, but we are writing *to* the person
 > 
 > When you use “you” to address users, they are more likely to understand what their responsibility is.
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
+Källa: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### Avoid "users"
 

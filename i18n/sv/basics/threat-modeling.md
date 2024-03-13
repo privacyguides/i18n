@@ -106,6 +106,6 @@ For people looking to increase their privacy and security online, we've compiled
 
 - [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
 
-## Sources
+## Källor
 
 - [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)

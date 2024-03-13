@@ -98,7 +98,7 @@ Wenn du eine SearXNG-Instanz verwendest, beachte unbedingt deren Datenschutzbest
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warnung</p>
 
 Startpage beschränkt regelmäßig den Zugang zu seinem Dienst auf bestimmten IP-Adressen, wie IPs, die für VPNs oder Tor reserviert sind. [DuckDuckGo](#duckduckgo) und [Brave Search](#brave-search) sind freundlichere Optionen, wenn dein Bedrohungsmodell das Verbergen deiner IP-Adresse vor dem Suchanbieter erfordert.
 

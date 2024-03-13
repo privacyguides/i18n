@@ -25,7 +25,7 @@ Connecting directly to Tor will make your connection stand out to any local netw
 
 Therefore, you should make an effort to hide your IP address **before** connecting to the Tor network. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal, through Tor Browser for example. This creates a connection chain like:
 
-- [x] You → VPN → Tor → Internet
+- [x] Du → VPN → Tor → Internet
 
 From your ISP's perspective, it looks like you're accessing a VPN normally (with the associated cover that provides you). From your VPN's perspective, they can see that you are connecting to the Tor network, but nothing about what websites you're accessing. From Tor's perspective, you're connecting normally, but in the unlikely event of some sort of Tor network compromise, only your VPN's IP would be exposed, and your VPN would *additionally* have to be compromised to deanonymize you.
 
@@ -35,8 +35,8 @@ This is **not** censorship circumvention advice, because if Tor is blocked entir
 
 We **very strongly discourage** combining Tor with a VPN in any other manner. Do not configure your connection in a way which resembles any of the following:
 
-- You → Tor → VPN → Internet
-- You → VPN → Tor → VPN → Internet
+- Du → Tor → VPN → Internet
+- Du → VPN → Tor → VPN → Internet
 - Any other configuration
 
 Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (exit nodes being blocked by websites) in some places. [Normally](https://support.torproject.org/#about_change-paths), Tor frequently changes your circuit path through the network. When you choose a permanent *destination* VPN (connecting to a VPN server *after* Tor), you're eliminating this advantage and drastically harming your anonymity.
@@ -133,7 +133,7 @@ Connecting to an Onion Service in Tor works very similarly to connecting to a cl
   <figcaption>Tor circuit pathway with Onion Services. Nodes in the <span class="pg-blue">blue</span> fence belong to your browser, while nodes in the <span class="pg-red">red</span> fence belong to the server, so their identity is hidden from you.</figcaption>
 </figure>
 
-## Encryption
+## Kryptering
 
 Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node—in that order.
 

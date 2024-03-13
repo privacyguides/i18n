@@ -11,7 +11,7 @@ There are risks associated with every new service that you use. Data breaches; d
 
 It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
 
-## Terms of Service & Privacy Policy
+## Användarvillkor & Integritetspolicy
 
 The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VOIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
 
@@ -21,7 +21,7 @@ We recommend looking for particular terms such as "data collection", "data analy
 
 Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
 
-## Authentication methods
+## Autentiseringsmetoder
 
 There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
 
@@ -48,7 +48,7 @@ Should a service get hacked, you might start receiving phishing or spam emails t
 
 [Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### "Logga in med..." (OAuth)
 
 OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
 
@@ -72,7 +72,7 @@ There is an additional danger when using *Sign in with Google*, *Facebook*, or a
 
 Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
 
-### Phone number
+### Telefonnummer
 
 We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
@@ -80,6 +80,6 @@ You should avoid giving out your real phone number if you can. Some services wil
 
 In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
 
-### Username and password
+### Användarnamn och lösenord
 
 Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.

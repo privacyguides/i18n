@@ -108,7 +108,7 @@ Apple Mail has the ability to load remote content in the background or block it 
 </div>
 
 <details class="warning" markdown>
-<summary>Warning</summary>
+<summary>Warnung</summary>
 
 Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
@@ -190,7 +190,7 @@ In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warnung</p>
 
 When replying to someone on a mailing list the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 

@@ -6,7 +6,7 @@ description: The Domain Name System is the "phonebook of the internet," helping 
 
 The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phonebook of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
 
-## What is DNS?
+## Vad är DNS?
 
 When you visit a website, a numerical address is returned. For example, when you visit `privacyguides.org`, the address `192.98.54.105` is returned.
 
@@ -55,16 +55,16 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
 
 If you run the Wireshark command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
 
-| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
-| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| No. | Time     | Source    | Destination | Protokoll | Length | Info                                                                   |
+| --- | -------- | --------- | ----------- | --------- | ------ | ---------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS       | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS       | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS       | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS       | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 An observer could modify any of these packets.
 
-## What is "encrypted DNS"?
+## Vad är "krypterad DNS"?
 
 Encrypted DNS can refer to one of a number of protocols, the most common ones being:
 
@@ -114,7 +114,7 @@ In locations where there is internet filtering (or censorship), visiting forbidd
 
 When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
 
-### IP Address
+### IP-adress
 
 The simplest way to determine browsing activity might be to look at the IP addresses your devices are accessing. For example, if the observer knows that `privacyguides.org` is at `198.98.54.105`, and your device is requesting data from `198.98.54.105`, there is a good chance you're visiting Privacy Guides.
 
@@ -279,7 +279,7 @@ Encrypted DNS with a third-party should only be used to get around redirects and
 
 [List of recommended DNS servers](../dns.md ""){.md-button}
 
-## What is DNSSEC?
+## Vad är DNSSEC?
 
 [Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) is a feature of DNS that authenticates responses to domain name lookups. It does not provide privacy protections for those lookups, but rather prevents attackers from manipulating or poisoning the responses to DNS requests.
 

@@ -108,7 +108,7 @@ Trots den ökande massövervakningen i USA har regeringen konstaterat att massö
 
 På nätet kan du spåras på olika sätt:
 
-- Din IP adress
+- Din IP-adress
 - Webbläsarcookies
 - Uppgifter som du skickar till webbplatser
 - Fingeravtryck från din webbläsare eller enhet

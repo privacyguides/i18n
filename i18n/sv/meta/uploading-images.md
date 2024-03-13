@@ -4,7 +4,7 @@ title: Uploading Images
 
 Here are a couple of general rules for contributing to Privacy Guides:
 
-## Images
+## Bilder
 
 - We **prefer** SVG images, but if those do not exist we can use PNG images
 
@@ -17,7 +17,7 @@ Company logos have canvas size of:
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
+Använd [OptiPNG](https://sourceforge.net/projects/optipng) för att optimera PNG-bilden:
 
 ```bash
 optipng -o7 file.png
