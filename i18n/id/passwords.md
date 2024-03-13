@@ -65,7 +65,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
-    url: https://keepassxc.org/
+    url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: Pengelola Kata Sandi
     operatingSystem:
@@ -81,7 +81,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
-    url: https://www.keepassdx.com/
+    url: https://keepassdx.com
     applicationCategory: Pengelola Kata Sandi
     operatingSystem: Android
     subjectOf:
@@ -93,7 +93,7 @@ schema:
     "@type": SoftwareApplication
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com/
+    url: https://strongboxsafe.com
     applicationCategory: Pengelola Kata Sandi
     operatingSystem: iOS
     subjectOf:
@@ -105,7 +105,7 @@ schema:
     "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg
-    url: https://www.gopass.pw/
+    url: https://gopass.pw
     applicationCategory: Pengelola Kata Sandi
     operatingSystem:
       - Windows
@@ -127,7 +127,7 @@ Pengelola kata sandi memungkinkan Anda menyimpan dan mengelola kata sandi dan kr
 
 Pengelola kata sandi bawaan pada perangkat lunak seperti peramban dan sistem operasi terkadang tidak sebaik perangkat lunak pengelola kata sandi khusus. Keuntungan dari pengelola kata sandi bawaan adalah integrasi yang baik dengan perangkat lunak, tetapi sering kali sangat sederhana dan tidak memiliki fitur privasi dan keamanan seperti yang dimiliki oleh penawaran mandiri.
 
-Sebagai contoh, pengelola kata sandi di Microsoft Edge sama sekali tidak menawarkan E2EE. Pengelola kata sandi Google memiliki [optional](https://support.google.com/accounts/answer/11350823) E2EE, dan [Apple] (https://support.apple.com/en-us/HT202303) menawarkan E2EE secara default.
+Sebagai contoh, pengelola kata sandi di Microsoft Edge sama sekali tidak menawarkan E2EE. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
 
 </div>
 
@@ -145,14 +145,14 @@ Pengelola kata sandi ini menyinkronkan kata sandi Anda ke server cloud untuk kem
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-- [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
 - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
 - [:simple-windows11: Windows](https://bitwarden.com/download)
 - [:simple-linux: Linux](https://bitwarden.com/download)
@@ -165,7 +165,7 @@ Pengelola kata sandi ini menyinkronkan kata sandi Anda ke server cloud untuk kem
 
 </div>
 
-Bitwarden juga memiliki fitur [Bitwarden Send](https://bitwarden.com/products/send/), yang memungkinkan Anda untuk berbagi teks dan file dengan aman dengan [ enkripsi end-to-end](https://bitwarden.com/help/send-encryption). [Kata sandi](https://bitwarden.com/help/send-privacy/#send-passwords) dapat diminta bersama dengan tautan kirim. Bitwarden Send juga memiliki fitur [penghapusan otomatis](https://bitwarden.com/help/send-lifespan).
+Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). [Kata sandi](https://bitwarden.com/help/send-privacy/#send-passwords) dapat diminta bersama dengan tautan kirim. Bitwarden Send juga memiliki fitur [penghapusan otomatis](https://bitwarden.com/help/send-lifespan).
 
 Anda memerlukan [Paket Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) untuk dapat berbagi file. Paket yang gratis hanya bisa berbagi teks saja.
 
@@ -183,20 +183,20 @@ Kode sisi server Bitwarden [bersumber terbuka](https://github.com/bitwarden/serv
 
 ![Logo 1Password](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** adalah pengelola kata sandi dengan fokus yang kuat pada keamanan dan kemudahan penggunaan, yang memungkinkan Anda menyimpan kata sandi, kartu kredit, lisensi perangkat lunak, dan informasi sensitif lainnya dalam brankas digital yang aman. Brankas Anda di-host di server 1Password dengan biaya [biaya bulanan] (https://1password.com/sign-up/). 1Password sudah [teraudit](https://support.1password.com/security-assessments/) secara teratur dan menyediakan dukungan pelanggan yang bagus. 1Password memiliki sumber yang tertutup; namun, keamanan produk didokumentasikan secara menyeluruh dalam [laporan resmi keamanan] (https://1passwordstatic.com/files/security/1password-white-paper.pdf) mereka.
+**1Password** adalah pengelola kata sandi dengan fokus yang kuat pada keamanan dan kemudahan penggunaan, yang memungkinkan Anda menyimpan kata sandi, kartu kredit, lisensi perangkat lunak, dan informasi sensitif lainnya dalam brankas digital yang aman. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password memiliki sumber yang tertutup; namun, keamanan produk didokumentasikan secara menyeluruh dalam [laporan resmi keamanan] (https://1passwordstatic.com/files/security/1password-white-paper.pdf) mereka.
 
-[:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
-- [:simple-windows11: Windows](https://1password.com/downloads/windows/)
-- [:simple-apple: macOS](https://1password.com/downloads/mac/)
-- [:simple-linux: Linux](https://1password.com/downloads/linux/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
+- [:simple-windows11: Windows](https://1password.com/downloads/windows)
+- [:simple-apple: macOS](https://1password.com/downloads/mac)
+- [:simple-linux: Linux](https://1password.com/downloads/linux)
 
 </details>
 
@@ -225,7 +225,7 @@ Satu keunggulan yang dimiliki 1Password dibandingkan Bitwarden adalah dukungan k
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
@@ -276,9 +276,9 @@ Opsi ini memungkinkan Anda untuk mengelola basis data kata sandi terenkripsi sec
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -304,10 +304,10 @@ KeePassXC menyimpan data ekspornya sebagai file [CSV](https://en.wikipedia.org/w
 
 **KeePassDX** adalah pengelola kata sandi yang ringan untuk Android, memungkinkan pengeditan data terenkripsi dalam satu file dalam format KeePass dan dapat mengisi formulir dengan cara yang aman. [Contributor Pro] (https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) memungkinkan untuk membuka konten kosmetik dan fitur protokol non-standar, tetapi yang lebih penting lagi, ini membantu dan mendorong pengembangan.
 
-[:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -325,24 +325,24 @@ KeePassXC menyimpan data ekspornya sebagai file [CSV](https://en.wikipedia.org/w
 
 ![Logo Strongbox](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** adalah pengelola kata sandi sumber terbuka untuk iOS dan macOS. Mendukung format KeePass dan Password Safe, Strongbox bisa digunakan bersamaan dengan pengelola kata sandi lainnya, seperti KeePassXC, pada platform non-Apple. Dengan menggunakan [model freemium] (https://strongboxsafe.com/pricing/), Strongbox menawarkan sebagian besar fitur di bawah tingkat gratisnya dengan lebih berorientasi pada kenyamanan [features](https://strongboxsafe.com/comparison/) - seperti otentikasi biometrik - yang terkunci di balik langganan atau lisensi abadi.
+**Strongbox** adalah pengelola kata sandi sumber terbuka untuk iOS dan macOS. Mendukung format KeePass dan Password Safe, Strongbox bisa digunakan bersamaan dengan pengelola kata sandi lainnya, seperti KeePassXC, pada platform non-Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
 
 </details>
 
 </div>
 
-Selain itu, ada versi khusus offline yang ditawarkan: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Versi ini sudah diminimalkan dalam upaya untuk mengurangi permukaan serangan.
+Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Versi ini sudah diminimalkan dalam upaya untuk mengurangi permukaan serangan.
 
 ### Baris perintah
 
@@ -356,7 +356,7 @@ Produk-produk ini adalah pengelola kata sandi minimal yang dapat digunakan dalam
 
 **gopass** adalah pengelola kata sandi untuk baris perintah yang ditulis dalam Go. Aplikasi ini bekerja pada semua sistem operasi desktop dan server utama (Linux, macOS, BSD, Windows).
 
-[:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
@@ -364,10 +364,10 @@ Produk-produk ini adalah pengelola kata sandi minimal yang dapat digunakan dalam
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
-- [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
-- [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
-- [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+- [:simple-windows11: Windows](https://gopass.pw/#install-windows)
+- [:simple-apple: macOS](https://gopass.pw/#install-macos)
+- [:simple-linux: Linux](https://gopass.pw/#install-linux)
+- [:simple-freebsd: FreeBSD](https://gopass.pw/#install-bsd)
 
 </details>
 

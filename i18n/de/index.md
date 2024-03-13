@@ -62,12 +62,12 @@ Der Versuch, alle unsere Daten ständig vor allen zu schützen, ist unpraktisch,
 
 ## Wir brauchen dich! So kannst du mitmachen:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Trete unserem Forum bei" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Folge uns auf Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Trage zu dieser Website bei" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Hilf diese Website zu Übersetze" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chatte mit uns auf Matrix" }
-[:material-information-outline:](about/index.md){ title="Erfahre mehr über uns" }
-[:material-hand-coin-outline:](about/donate.md){ title="Unterstütze das Projekt" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 Es ist wichtig, dass eine Website wie Privacy Guides immer auf dem neuesten Stand bleibt. Wir brauchen unser Publikum um Software-Updates für die auf unserer Website aufgeführten Anwendungen im Auge zu behalten und die neuesten Nachrichten über die von uns empfohlenen Anbieter zu verfolgen. Es ist schwer, mit der Schnelllebigkeit des Internets Schritt zu halten, aber wir versuchen unser Bestes. Solltest du einen Fehler entdecken, der Meinung sein, dass ein Anbieter nicht aufgelistet sein sollte, ein qualifizierter Anbieter fehlt, ein Browser-Plugin nicht mehr die beste Wahl ist oder du ein anderes Problem finden, lass es uns bitte wissen.

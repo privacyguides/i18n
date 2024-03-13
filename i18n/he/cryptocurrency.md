@@ -24,10 +24,10 @@ cover: cryptocurrency.webp
 
 **Monero** משתמש בבלוקצ'יין עם טכנולוגיות משפרות פרטיות המטשטשות עסקאות כדי להשיג אנונימיות. כל עסקת Monero מסתירה את סכום העסקה, כתובות שליחה וקבלה, ומקור הכספים ללא שום חישוקים לדלג דרכם, מה שהופך אותה לבחירה אידיאלית עבור טירוני מטבעות קריפטוגרפיים.
 
-[:octicons-home-16: דף הבית](https://www.getmonero.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=תיעוד}
-[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="קוד מקור" }
-[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=לתרומה }
+[:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title=Contribute }
 
 </details>
 
@@ -38,16 +38,16 @@ cover: cryptocurrency.webp
 לפרטיות מיטבית, הקפד להשתמש בארנק לא משמורן שבו מפתח התצוגה נשאר במכשיר. המשמעות היא שרק לך תהיה את היכולת להוציא את הכספים שלך ולראות עסקאות נכנסות ויוצאות. אם אתה משתמש בארנק משמורן, הספק יכול לראות **כל מה** שאתה עושה; אם אתה משתמש בארנק "קל משקל" שבו הספק שומר על מפתח התצוגה הפרטי שלך, הספק יכול לראות כמעט כל מה שאתה עושה. כמה ארנקים שאינם משמורנים כוללים:
 
 - [Official Monero client](https://getmonero.org/downloads) (שולחני)
-- [Cake Wallet](https://cakewallet.com/) (iOS, Android)
-    - Cake Wallet תומך במספר מטבעות קריפטוגרפיים. גרסת Monero בלבד של Cake Wallet זמינה בכתובת [Monero.com](https://monero.com/).
-- [Feather Wallet](https://featherwallet.org/) (שולחני)
-- [Monerujo](https://www.monerujo.io/) (אנדרואיד)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+    - Cake Wallet תומך במספר מטבעות קריפטוגרפיים. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
+- [Feather Wallet](https://featherwallet.org) (Desktop)
+- [Monerujo](https://monerujo.io) (Android)
 
 לפרטיות מקסימלית (אפילו עם ארנק לא משמורן), עליך להפעיל צומת Monero משלך. שימוש בצומת של אדם אחר יחשוף בפניו מידע מסוים, כגון כתובת ה-IP שממנה אתה מתחבר אליו, חותמות הזמן שאתה מסנכרן את הארנק שלך והעסקאות שאתה שולח מהארנק שלך (אם כי אין פרטים נוספים על עסקאות אלו). לחלופין, אתה יכול להתחבר לצומת Monero של מישהו אחר באמצעות Tor או i2p.
 
-באוגוסט 2021, CipherTrace [הכריזה](https://ciphertrace.com/enhanced-monero-tracing/) על יכולות מעקב משופרות של Monero עבור סוכנויות ממשלתיות. פרסומים פומביים מראים כי רשת אכיפת הפשעים הפיננסיים של משרד האוצר האמריקאי העניקה [רישיון](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) ל-"Monero Module" של CipherTrace בסוף 2022.
+In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. פרסומים פומביים מראים כי רשת אכיפת הפשעים הפיננסיים של משרד האוצר האמריקאי העניקה [רישיון](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) ל-"Monero Module" של CipherTrace בסוף 2022.
 
-פרטיות גרף העסקאות של Monero מוגבלת על ידי חתימות הטבעות הקטנות יחסית שלה, במיוחד נגד התקפות ממוקדות. תכונות הפרטיות של Monero גם [הוטלו בספק](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) על ידי כמה חוקרי אבטחה, ומספר נקודות תורפה חמורות נמצאו ותוקנו בעבר, כך שהטענות שהועלו על ידי ארגונים כמו CipherTrace אינן באות בחשבון. אמנם אין זה סביר שכלי מעקב המוני Monero קיימים כפי שהם קיימים עבור ביטקוין ואחרים, אך בטוח שכלי מעקב מסייעים בחקירות ממוקדות.
+פרטיות גרף העסקאות של Monero מוגבלת על ידי חתימות הטבעות הקטנות יחסית שלה, במיוחד נגד התקפות ממוקדות. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. אמנם אין זה סביר שכלי מעקב המוני Monero קיימים כפי שהם קיימים עבור ביטקוין ואחרים, אך בטוח שכלי מעקב מסייעים בחקירות ממוקדות.
 
 בסופו של דבר, Monero היא המתמודדת החזקה ביותר על מטבע קריפטוגרפי ידידותי לפרטיות, אך טענות הפרטיות שלה **לא** הוכחו באופן סופי כך או כך. נדרשים יותר זמן ומחקר כדי להעריך אם Monero עמיד מספיק בפני התקפות כדי לספק תמיד פרטיות נאותה.
 

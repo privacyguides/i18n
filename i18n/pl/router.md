@@ -35,10 +35,10 @@ Zapoznaj się z [listą obsługiwanych urządzeń](https://openwrt.org/toh/start
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Po zainstalowaniu na komputerze pełni rolę dedykowanej zapory sieciowej/routera dla sieci i wyróżnia się niezawodnością oraz oferuje funkcje, które można często znaleźć tylko w drogich zaporach sieciowych.
 
-[:octicons-home-16: Strona WWW](https://opnsense.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Dokumentacja}
-[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Kod źródłowy" }
-[:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Wesprzyj }
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 
 </details>
 

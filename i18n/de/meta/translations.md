@@ -2,9 +2,9 @@
 title: Übersetzungen
 ---
 
-Crowdin verfügt über eine gute Dokumentation, und wir empfehlen einen Blick in den Leitfaden [Erste Schritte](https://support.crowdin.com/crowdin-intro/) . Unsere Website ist größtenteils in [Markdown](https://de.wikipedia.org/wiki/Markdown) geschrieben, so dass es einfach sein sollte, etwas beizutragen. Diese Seite enthält einige hilfreiche Hinweise zur Übersetzung bestimmter Syntax, die dir auf unserer Website begegnen können.
+Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro) guide. Unsere Website ist größtenteils in [Markdown](https://de.wikipedia.org/wiki/Markdown) geschrieben, so dass es einfach sein sollte, etwas beizutragen. Diese Seite enthält einige hilfreiche Hinweise zur Übersetzung bestimmter Syntax, die dir auf unserer Website begegnen können.
 
-Bitte tritt unserem Lokalisierungsraum auf Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) bei, wenn du weitere Fragen hast, und lies unseren [Ankündigungs-Blogpost](https://blog.privacyguides.org/2023/02/26/i18n-announcement/) für weitere Informationen über das Projekt.
+Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement) for additional information about the project.
 
 Bitte beachte, dass die englische Version der Website die primäre Version ist, d.h. Änderungen werden dort zuerst vorgenommen. Wenn du bemerkst, dass eine Sprache hinter der englischen Version liegt, hilf bitte mit. Wir können nicht für die Richtigkeit aller unserer Übersetzungen garantieren. Wenn du einen Vorschlag zu Inhalten hast, die speziell für deine Region gelten, öffne bitte ein Issue oder einen Pull Request in unserem [Main-Repository](https://github.com/privacyguides/privacyguides.org).
 
@@ -78,4 +78,4 @@ CJK Schreibsysteme neigen dazu, alternative "Vollbreite"-Varianten von gängigen
 
 - Links müssen reguläre Klammern verwenden, d. h. `(` (Linke Parenthese U+0028) und `)` (Rechte Parenthese U+0029) und nicht `（` (Linke Parenthese in voller Breite U+FF08) oder `）` (volle Breite der rechten Klammer U+FF09)
 - Eingerückter Text in Anführungszeichen muss `:` (Doppelpunkt U+003A) und nicht `：` (Doppelpunkt mit voller Breite U+FF1A) verwenden
-- Bilder müssen `!` (Ausrufezeichen U+0021) und nicht `！` (Ausrufezeichen in voller Breite U+FF01) verwenden 
+- Bilder müssen `!` (Ausrufezeichen U+0021) und nicht `！` (Ausrufezeichen in voller Breite U+FF01) verwenden

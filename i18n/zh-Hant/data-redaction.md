@@ -88,12 +88,12 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 **Metapho** 是一個簡單清晰的相片中繼資料檢視器，例如日期、檔案名稱、大小、相機型號、快門速度和位置。
 
 [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
 
@@ -107,7 +107,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 
 **PrivacyBlur** 是一個免費應用程式，在線上分享前先模糊圖片的敏感部分。
 
-[:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
@@ -116,7 +116,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
 
 </details>
 

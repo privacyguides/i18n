@@ -10,7 +10,7 @@ Verwende eine Suchmaschine, die kein Werbeprofil auf Grundlage deiner Suchanfrag
 
 Die hier gegebenen Empfehlungen beruhen auf den Datenschutzbestimmungen der einzelnen Dienste. Es gibt **keine Garantie**, dass diese Datenschutzbestimmungen auch eingehalten werden.
 
-Erwäge die Verwendung eines [VPN](vpn.md) oder [Tor](https://www.torproject.org/), wenn dein Bedrohungsmodell das Verbergen deiner IP-Adresse vor dem Suchanbieter erfordert.
+Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
 
 ## Brave Search
 
@@ -24,10 +24,10 @@ Brave Search verfügt über einzigartige Funktionen, wie etwa Diskussionen, die 
 
 Wir emfehlen dir, [Anonyme Nutzungsstatistiken](https://search.brave.com/help/usage-metrics) zu deaktivieren, da sie standardmäßig aktiviert sind und in den Einstellungen deaktiviert werden können.
 
-[:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Datenschutzbestimmungen" }
-[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Dokumentation}
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
 
 </details>
 
@@ -41,14 +41,14 @@ Brave Search hat seinen Sitz in den Vereinigten Staaten. Die [Datenschutzbestimm
 
 ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** ist eine der gängigeren Optionen für private Suchmaschinen. Zu den erwähnenswerten Suchfunktionen von DuckDuckGo gehören [Bangs](https://duckduckgo.com/bang) und zahlreiche [Sofortantworten](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). Die Suchmaschine stützt sich auf die kommerzielle Bing-API, um die meisten Ergebnisse zu liefern, nutzt aber auch zahlreiche [andere Quellen](https://help.duckduckgo.com/results/sources/) für Sofortantworten und andere nicht primäre Ergebnisse.
+**DuckDuckGo** ist eine der gängigeren Optionen für private Suchmaschinen. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources) for instant answers and other non-primary results.
 
 DuckDuckGo ist die Standardsuchmaschine für den Tor-Browser und eine der wenigen verfügbaren Optionen für den Safari-Browser von Apple.
 
 [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Datenschutzbestimmungen" }
-[:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Dokumentation}
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -56,7 +56,7 @@ DuckDuckGo ist die Standardsuchmaschine für den Tor-Browser und eine der wenige
 
 DuckDuckGo hat seinen Sitz in den Vereinigten Staaten. Ihre [Datenschutzbestimmungen](https://duckduckgo.com/privacy) besagen, dass sie deine Suchanfragen zum Zwecke der Produktverbesserung **protokollieren**, aber weder deine IP-Adresse noch andere personenbezogene Daten speichern.
 
-DuckDuckGo bietet zwei [andere Versionen](https://help.duckduckgo.com/features/non-javascript/) ihrer Suchmaschine an, für die beide kein JavaScript benötigt wird. Allerdings fehlen diesen Versionen einige Funktionen. Diese Versionen können auch in Verbindung mit ihrer [Tor-Onion-Adresse](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) verwendet werden, indem man [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) oder [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) für die jeweilige Version anfügt.
+DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. Allerdings fehlen diesen Versionen einige Funktionen. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
 ## SearXNG
 
@@ -67,7 +67,7 @@ DuckDuckGo bietet zwei [andere Versionen](https://help.duckduckgo.com/features/n
 **SearXNG** ist eine quelloffene, selbstständig hostbare Metasuchmaschine, die die Ergebnisse anderer Suchmaschinen zusammenfasst, ohne selbst Informationen zu speichern. Es ist ein aktiv betreuter Fork von [SearX](https://github.com/searx/searx).
 
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-[:octicons-server-16:](https://searx.space/){ .card-link title="Öffentliche Instanzen"}
+[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
 [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
 
 </details>
@@ -87,11 +87,11 @@ Wenn du eine SearXNG-Instanz verwendest, beachte unbedingt deren Datenschutzbest
 ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
 ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**Startpage** ist eine private Suchmaschine, die dafür bekannt ist, dass sie Suchergebnisse von [Google und Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) liefert.  Eine der einzigartigen Funktionen von Startpage ist die [Anonyme Ansicht](https://www.startpage.com/de/anonymous-view/), die sich bemüht, die Benutzeraktivitäten zu standardisieren, um eine eindeutige Identifizierung zu erschweren. Die Funktion kann nützlich sein, um [einige](https://support.startpage.com/hc/de/articles/4455540212116-Der-Anonyme-Ansicht-Proxy-Technische-Details) Netzwerk- und Browsereigenschaften zu verbergen. Anders als der Name vermuten lässt, sollte man sich jedoch nicht auf diese Funktion verlassen, um anonym zu bleiben. Wenn du Anonymität suchst, verwende stattdessen den [Tor Browser](tor.md#tor-browser).
+**Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) search results.  One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Anders als der Name vermuten lässt, sollte man sich jedoch nicht auf diese Funktion verlassen, um anonym zu bleiben. Wenn du Anonymität suchst, verwende stattdessen den [Tor Browser](tor.md#tor-browser).
 
-[:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Datenschutzbestimmungen" }
-[:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Dokumentation}
+[:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
 </details>
 
@@ -104,9 +104,9 @@ Startpage beschränkt regelmäßig den Zugang zu seinem Dienst auf bestimmten IP
 
 </div>
 
-Startpage hat seinen Sitz in den Niederlanden. Laut ihren [Datenschutzbestimmungen](https://www.startpage.com/de/privacy-policy/) protokollieren sie Details wie das Betriebssystem, den Browsertyp und die Sprache. Sie protokollieren weder die IP-Adresse noch Suchanfragen oder andere personenbezogene Daten.
+Startpage hat seinen Sitz in den Niederlanden. According to their [privacy policy](https://startpage.com/en/privacy-policy), they log details such as: operating system, type of browser, and language. Sie protokollieren weder die IP-Adresse noch Suchanfragen oder andere personenbezogene Daten.
 
-Der Mehrheitsaktionär von Startpage ist System1, ein Werbeunternehmen. Wir glauben nicht, dass dies ein Problem ist, da sie gesonderte <a href="https://system1.com/terms/privacy-policy"]>Datenschutzbestimmungen</a> haben. Das Privacy Guides Team hat sich bereits [im Jahr 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) an Startpage gewandt, um etwaige Bedenken hinsichtlich der beträchtlichen Investition von System1 in den Dienst auszuräumen. Wir waren mit den Antworten, die wir erhielten, zufrieden.
+Der Mehrheitsaktionär von Startpage ist System1, ein Werbeunternehmen. Wir glauben nicht, dass dies ein Problem ist, da sie gesonderte <a href="https://system1.com/terms/privacy-policy"]>Datenschutzbestimmungen</a> haben. The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service. Wir waren mit den Antworten, die wir erhielten, zufrieden.
 
 ## Kriterien
 

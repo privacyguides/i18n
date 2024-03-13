@@ -18,7 +18,7 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
 
 ### Незашифрованный DNS
 
-1. Используя [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (часть проекта [Wireshark](https://en.wikipedia.org/wiki/Wireshark)), мы можем отслеживать и записывать поток интернет-пакетов. Эта команда записывает пакеты, которые соответствуют заданным правилам:
+1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. Эта команда записывает пакеты, которые соответствуют заданным правилам:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -39,7 +39,7 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Далее мы хотим [проанализировать](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) результаты:
+3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -74,7 +74,7 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
 
 ### DNS через TLS (DoT)
 
-[**DNS через TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) - это еще один метод шифрования DNS-коммуникаций, который определен в [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Впервые поддержка была реализована в Android 9, iOS 14 и в Linux в [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) в версии 237. В последние годы предпочтение в этой отрасли отошло от DoT к DoH, поскольку DoT является [комплексным протоколом](https://dnscrypt.info/faq/) и имеет различное соответствие RFC между существующими реализациями. DoT также работает на выделенном порту 853, который может быть легко заблокирован брандмауэрами.
+[**DNS через TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) - это еще один метод шифрования DNS-коммуникаций, который определен в [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. DoT также работает на выделенном порту 853, который может быть легко заблокирован брандмауэрами.
 
 ### DNS через HTTPS (DoH)
 
@@ -106,7 +106,7 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-Мы видим [установление соединения](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) и [TLS-рукопожатие](https://www.cloudflare.com/ru-ru/learning/ssl/what-happens-in-a-tls-handshake/), которое происходит при любом зашифрованном соединении. При просмотре последующих пакетов "данных приложения" ни один из них не содержит запрашиваемого нами домена или возвращаемого IP-адреса.
+We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. При просмотре последующих пакетов "данных приложения" ни один из них не содержит запрашиваемого нами домена или возвращаемого IP-адреса.
 
 ## Почему мне **не следует** использовать зашифрованный DNS?
 
@@ -158,9 +158,9 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-Это означает, что даже если мы используем серверы "зашифрованных DNS", домен, скорее всего, будет раскрыт через SNI. Протокол [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) предлагает функцию [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), которая предотвращает подобную утечку.
+Это означает, что даже если мы используем серверы "зашифрованных DNS", домен, скорее всего, будет раскрыт через SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
 
-Правительства, в частности [Китая](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) и [России](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), либо уже [начали блокировать](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) его, либо выразили желание сделать это. Недавно Россия [начала блокировать иностранные сайты](https://github.com/net4people/bbs/issues/108), использующие стандарт [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). Это связано с тем, что протокол [QUIC](https://en.wikipedia.org/wiki/QUIC), который является частью HTTP/3, требует, чтобы `ClientHello` также был зашифрован.
+Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Недавно Россия [начала блокировать иностранные сайты](https://github.com/net4people/bbs/issues/108), использующие стандарт [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). Это связано с тем, что протокол [QUIC](https://en.wikipedia.org/wiki/QUIC), который является частью HTTP/3, требует, чтобы `ClientHello` также был зашифрован.
 
 ### Протокол состояния сетевого сертификата (OCSP)
 
@@ -289,7 +289,7 @@ graph TB
 
 DNSSEC реализует иерархическую политику цифровой подписи на всех уровнях DNS. Например, в случае поиска `privacyguides.org` корневой DNS-сервер подпишет ключ для сервера имен `.org`, а сервер имен `.org` затем подпишет ключ для авторитетного сервера имен от `privacyguides.org`.
 
-<small>Адаптировано из [Обзор расширений безопасности DNS (DNSSEC)](https://cloud.google.com/dns/docs/dnssec) от Google и [DNSSEC: введение](https://blog.cloudflare.com/dnssec-an-introduction/) от Cloudflare, оба лицензированы под [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
+<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
 
 ## Что такое минимизация QNAME?
 

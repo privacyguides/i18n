@@ -60,7 +60,7 @@ Android 10 이상부터는 기존의 전체 디스크 암호화보다 유연한 
 
 펌웨어 업데이트는 보안에 있어 매우 중요합니다. 펌웨어 업데이트가 없으면 기기 보안을 유지할 수 없습니다. OEM은 자신들의 협력체와 지원 계약을 맺고 제한된 기간 동안 비공개 소스로 된 구성 요소를 제공합니다. 관련 내용은 [Android 보안 게시판](https://source.android.com/security/bulletin)에 자세히 설명되어 있습니다.
 
-휴대폰을 구성하는 요소(프로세서, 무선 기술 등)은 비공개 소스로 된 구성 요소에 의존하기 때문에, 업데이트는 각각의 제조업체로부터 제공받아야 합니다. 지원 기간 내의 기기를 구매해야 하는 이유가 바로 이것입니다. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and), [Samsung](https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-%EA%B0%A4%EB%9F%AD%EC%8B%9C-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B8%B0%EA%B8%B0-%EB%B3%B4%EC%95%88-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%B5%9C%EC%86%8C-4%EB%85%84)은 4년 이상의 기기 지원 기간을 가지고 있습니다. 지원 기간은 업체, 제품마다 다르지만, 저렴한 제품일수록 지원 기간이 짧은 경향이 있습니다. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+휴대폰을 구성하는 요소(프로세서, 무선 기술 등)은 비공개 소스로 된 구성 요소에 의존하기 때문에, 업데이트는 각각의 제조업체로부터 제공받아야 합니다. 지원 기간 내의 기기를 구매해야 하는 이유가 바로 이것입니다. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 SoC 제조업체에서 더 이상 지원하지 않는 EOL 기기는 OEM 업체나 애프터 마켓 Android 배포자로부터 펌웨어 업데이트를 받는 것이 불가능합니다. 즉, 해당 기기의 보안 문제는 해결될 일이 없습니다.
 
@@ -97,19 +97,19 @@ Android 13:
 
 앱은 특정 기능에 대한 권한을 요청할 수 있습니다. 예를 들어, QR 코드를 스캔할 수 있는 모든 앱에는 카메라 권한이 필요합니다. 일부 앱은 해당 앱에 필요한 권한보다 더 많은 권한을 요청하는 경우도 있습니다.
 
-[Exodus](https://exodus-privacy.eu.org/)는 유사한 용도의 앱을 비교하는 데에 유용합니다. 앱이 과도한 권한을 요구하고 광고 및 분석 기능이 많다면, 해당 앱은 피해야 할지도 모릅니다. Privacy Guides는 각 항목의 차이를 보지 않고 **단순히 총합 수치로 비교**하기보다는 각각의 추적기와 그 설명을 하나씩 읽어보실 것을 권장드립니다.
+[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. 앱이 과도한 권한을 요구하고 광고 및 분석 기능이 많다면, 해당 앱은 피해야 할지도 모릅니다. Privacy Guides는 각 항목의 차이를 보지 않고 **단순히 총합 수치로 비교**하기보다는 각각의 추적기와 그 설명을 하나씩 읽어보실 것을 권장드립니다.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-앱의 상당 부분이 웹 기반 서비스로 이루어진 경우, 추적은 서버 측에서 이루어질 수도 있습니다. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/)은 '추적기 없음'이라 표시되어 있지만, 사이트 전반에서 사용자의 관심사와 행동을 추적하는 것은 틀림없습니다. 앱이 광고 업계에서 제작한 표준 광고 라이브러리 외의 수단을 사용함으로써 탐지에서 벗어나는 것도 있을 수 있는 일이지만, 가능성은 낮습니다.
+앱의 상당 부분이 웹 기반 서비스로 이루어진 경우, 추적은 서버 측에서 이루어질 수도 있습니다. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. 앱이 광고 업계에서 제작한 표준 광고 라이브러리 외의 수단을 사용함으로써 탐지에서 벗어나는 것도 있을 수 있는 일이지만, 가능성은 낮습니다.
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-[Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) 처럼 프라이버시 친화적인 앱에서도 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/) 등의 일부 추적기가 표시될 수 있습니다. 해당 라이브러리는 앱에서 [푸시 알림](https://ko.wikipedia.org/wiki/%ED%91%B8%EC%8B%9C_%EA%B8%B0%EB%B2%95)을 제공할 수 있는 [Firebase 클라우드 메시징(FCM)](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)이 포함되어 있습니다. Bitwarden이 바로 [이러한 경우](https://fosstodon.org/@bitwarden/109636825700482007)에 해당합니다. Bitwarden에서 Google Firebase Analytics 트래커가 발견됐다는 사실이 Bitwarden에서 Google Firebase Analytics의 모든 분석 기능을 사용한다는 것을 의미하지는 않습니다.
+Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). 해당 라이브러리는 앱에서 [푸시 알림](https://ko.wikipedia.org/wiki/%ED%91%B8%EC%8B%9C_%EA%B8%B0%EB%B2%95)을 제공할 수 있는 [Firebase 클라우드 메시징(FCM)](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)이 포함되어 있습니다. Bitwarden이 바로 [이러한 경우](https://fosstodon.org/@bitwarden/109636825700482007)에 해당합니다. Bitwarden에서 Google Firebase Analytics 트래커가 발견됐다는 사실이 Bitwarden에서 Google Firebase Analytics의 모든 분석 기능을 사용한다는 것을 의미하지는 않습니다.
 
 </div>
 
@@ -145,20 +145,20 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### 고급 보호 프로그램
 
-Google 계정을 가지고 있다면 [고급 보호 프로그램](https://landing.google.com/advancedprotection/)에 등록하시는 것을 권장드립니다. [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)를 지원하는 하드웨어 보안 키를 2개 이상 가지고 있다면 누구나 무료로 이용할 수 있습니다.
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)를 지원하는 하드웨어 보안 키를 2개 이상 가지고 있다면 누구나 무료로 이용할 수 있습니다.
 
 고급 보호 프로그램은 향상된 위협 모니터링 기능을 제공합니다.
 
 - Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - Google 및 인증된 제3자 앱만이 계정 데이터에 접근 가능
 - Google 계정의 받은 편지함에서 [피싱](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 시도 스캔
-- Google Chrome의 더 엄격한 [세이프 브라우징 검사](https://www.google.com/chrome/privacy/whitepaper.html#malware)
+- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
 - 계정 자격 증명 손실 시 더 엄격한 복구 절차
 
- Google Play에 샌드박스가 적용되지 않은 환경의 경우(기본 운영 체제는 대부분 이 경우입니다), 고급 보호 프로그램은 다음과 같은 [추가 이점](https://support.google.com/accounts/answer/9764949?hl=ko)을 제공합니다.
+ If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
 
 - Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- [Play 프로텍트](https://support.google.com/googleplay/answer/2812853?hl=ko#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work%2C%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EB%B3%B4%ED%98%B8-%EC%95%8C%EB%A6%BC-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D)에 의한 필수적인 자동 기기 스캔
+- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - 검증되지 않은 애플리케이션에 대한 경고 표시
 
 ### Google Play 시스템 업데이트
@@ -169,7 +169,7 @@ Google 계정을 가지고 있다면 [고급 보호 프로그램](https://landin
 
 ### 광고 ID
 
-Google Play 서비스가 설치된 모든 기기는 타겟 광고에 사용되는 [광고 ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=ko)가 자동으로 생성됩니다. 이 기능을 비활성화하여 수집되는 데이터를 제한할 수 있습니다.
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. 이 기능을 비활성화하여 수집되는 데이터를 제한할 수 있습니다.
 
 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)가 존재하는 Android 배포판의 경우, :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **Ads**, *Delete advertising ID*를 선택하세요.
 

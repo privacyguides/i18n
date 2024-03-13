@@ -2,9 +2,9 @@
 title: Traducciones
 ---
 
-Crowdin poseé una buena documentación, y sugerimos consultar la guía de [Inicio rápido](https://support.crowdin.com/crowdin-intro/). Nuestro sitio se encuentra escrito en gran parte en [Markdown](https://en.wikipedia.org/wiki/Markdown), por lo que debe ser fácil contribuir. Esta página contiene algunos consejos útiles para la traducción de algunas sintaxis específicas que puedes encontrar en nuestro sitio.
+Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro) guide. Nuestro sitio se encuentra escrito en gran parte en [Markdown](https://en.wikipedia.org/wiki/Markdown), por lo que debe ser fácil contribuir. Esta página contiene algunos consejos útiles para la traducción de algunas sintaxis específicas que puedes encontrar en nuestro sitio.
 
-Por favor, únase a nuestra sala de localización en Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) si tienes algunas preguntas adicionales, y lee nuestra [publicación de anuncio en el blog](https://blog.privacyguides.org/2023/02/26/i18n-announcement/) para obtener información adicional sobre el proyecto.
+Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement) for additional information about the project.
 
 Tome en cuenta que la versión en Inglés del sitio es la versión primaria, lo que significa que los cambios se producen primero en esta. Si nota que un lenguaje está rezagado detrás de la versión en Inglés, por favor colabore. No podemos garantizar la exactitud de todas nuestras traducciones. Si tiene una sugerencia sobre contenido específico de su región, por favor abra un issue o pull request en nuestro [repositorio principal](https://github.com/privacyguides/privacyguides.org).
 
@@ -78,4 +78,4 @@ Los sistemas de escritura CJK tienden a utilizar variantes alternativas de "anch
 
 - Los enlaces deben usar paréntesis regulares como `(` (paréntesis izquierdo U+0028) y `)` (paréntesis derecho U+0029) y no ` (` (paréntesis izquierdo de ancho completo U+FF08) o `) ` (paréntesis derecho de ancho completo U+FF09)
 - El texto indentado debe utilizar `:` (dos puntos U+003A) y no `：` (dos puntos de ancho completo U+FF1A)
-- Las imágenes deben utilizar `!` (signo de exclamación U+0021) y no `! ` (signo de exclamación de ancho completoU+FF01) 
+- Las imágenes deben utilizar `!` (signo de exclamación U+0021) y no `! ` (signo de exclamación de ancho completoU+FF01)

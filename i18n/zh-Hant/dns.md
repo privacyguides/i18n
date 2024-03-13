@@ -11,14 +11,14 @@ cover: dns.webp
 
 ## 推薦的 DNS 提供商
 
-| DNS 提供者                                                                         | 隐私政策                                                                                                  | 協議                                                                    | 日誌記錄   | ECS | 篩選                                                                                                |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------ | --- | ------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | 明文 <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | 一些[^1] | 是   | 根據個人配置。 使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | 明文 <br> DoH/3 <br> DoT                                    | 一些[^2] | 不是  | 根據個人配置。                                                                                           |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | 明文 <br> DoH/3 <br> DoT <br> DoQ                     | 可選[^3] | 不是  | 根據個人配置。                                                                                           |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                                    | 否[^4]  | 不是  | 根據個人配置。 正在使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)  |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | 明文 <br> DoH/3 <br> DoT <br> DoQ                     | 可選[^5] | 可選的 | 根據個人配置。                                                                                           |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | 明文 <br> DoH <br> DoT <br> DNSCrypt                  | 一些[^6] | 可選的 | 根據個人設定，預設會封鎖惡意軟體。                                                                                 |
+| DNS 提供者                                                                    | 隐私政策                                                                                                 | 協議                                                                    | 日誌記錄   | ECS | 篩選                                                                                                |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------ | --- | ------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)            | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | 明文 <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | 一些[^1] | 是   | 根據個人配置。 使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | 明文 <br> DoH/3 <br> DoT                                    | 一些[^2] | 不是  | 根據個人配置。                                                                                           |
+| [**Control D**](https://controld.com/free-dns)                             | [:octicons-link-external-24:](https://controld.com/privacy)                                          | 明文 <br> DoH/3 <br> DoT <br> DoQ                     | 可選[^3] | 不是  | 根據個人配置。                                                                                           |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH <br> DoT                                                    | 否[^4]  | 不是  | 根據個人配置。 正在使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)  |
+| [**NextDNS**](https://nextdns.io)                                          | [:octicons-link-external-24:](https://nextdns.io/privacy)                                            | 明文 <br> DoH/3 <br> DoT <br> DoQ                     | 可選[^5] | 可選的 | 根據個人配置。                                                                                           |
+| [**Quad9**](https://quad9.net)                                             | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | 明文 <br> DoH <br> DoT <br> DNSCrypt                  | 一些[^6] | 可選的 | 根據個人設定，預設會封鎖惡意軟體。                                                                                 |
 
 ### 標準
 
@@ -50,7 +50,7 @@ Android 9 以上版本支持 DoT (DNS over TLS)。 設定方式可以在以下�
 
 #### 已簽署的設定檔
 
-Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profile creator](https://dns.notjakob.com/tool.html) 是一款非正式工具用以建立您自己的加密 DNS 設定檔。不過這個軟體並未得到簽署。 最好是簽署過個人資設定檔；簽署會驗證個人資料的來源，並有助於確保個人資料的完整性。 綠色的「已驗證」標籤會提供給已簽署的配置文件。 代碼簽名的詳細資訊，請參閱 [關於代碼簽名](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)。 由 [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html)、 [NextDNS](https://apple.nextdns.io)和 [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/)提供的**簽名設定檔** 。
+Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profile creator](https://dns.notjakob.com/tool.html) 是一款非正式工具用以建立您自己的加密 DNS 設定檔。不過這個軟體並未得到簽署。 最好是簽署過個人資設定檔；簽署會驗證個人資料的來源，並有助於確保個人資料的完整性。 綠色的「已驗證」標籤會提供給已簽署的配置文件。 代碼簽名的詳細資訊，請參閱 [關於代碼簽名](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)。 **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://quad9.net/news/blog/ios-mobile-provisioning-profiles).
 
 <div class="admonition info" markdown>
 <p class="admonition-title">資訊</p>
@@ -74,7 +74,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -123,9 +123,9 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard 首頁標誌](assets/img/dns/adguard-home.svg){ align=right }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
-**AdGuard** 是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，使用[DNS 過濾](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) 來封鎖不需要的網頁內容，例如廣告。
+**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 AdGuard 首頁提供精美的網頁介面，可查看有用資訊並管理被封鎖的內容。
 
@@ -144,13 +144,13 @@ AdGuard 首頁提供精美的網頁介面，可查看有用資訊並管理被封
 
 ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-**Pi-hole** 是一個開源的 [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) ，它使用 [DNS 篩選](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/)來阻止不需要的網頁內容，例如廣告。
+**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 Pi-hole 設計應用在 Raspberry Pi ，但它不限於這種硬體。 該軟體良好的 Web 界面，可查看有用資訊和管理被阻止的內容。
 
-[:octicons-home-16: Homepage](https://pi-hole.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
@@ -159,8 +159,8 @@ Pi-hole 設計應用在 Raspberry Pi ，但它不限於這種硬體。 該軟體
 </div>
 
 [^1]: AdGuard 儲存其 DNS 伺服器的總和效能指標，即對特定伺服器的全部請求數量、被封鎖的請求數量，以及處理請求的速度。 他們還會保存和儲存過去24小時內所請求的網域資料庫。 我們需要這些資訊來識別和阻止新的追蹤器和威脅。 我們還記錄了這些追蹤器被封鎖的次數。 我們需要這些資訊以便在過濾器中刪除過時的規則。 [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
-[^2]: Cloudflare 僅收集並儲存發送至  1.1.1.1解析器的有限 DNS 查詢資料。 1.1.1.1解析器服務不會記錄個人資料，且大部分有限的非個人識別查詢資料僅存儲25小時。 [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
+[^2]: Cloudflare 僅收集並儲存發送至  1.1.1.1解析器的有限 DNS 查詢資料。 1.1.1.1解析器服務不會記錄個人資料，且大部分有限的非個人識別查詢資料僅存儲25小時。 [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D 只有記錄使用自定義 DNS 配置的高級解析器。 免費解析器不記錄數據。 [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: Mullvad 的 DNS 服務可供 Mullvad VPN 的訂閱者和非訂閱者使用。 他們的隱私政策明確聲稱他們不會以任何方式記錄 DNS 請求。 [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
+[^4]: Mullvad 的 DNS 服務可供 Mullvad VPN 的訂閱者和非訂閱者使用。 他們的隱私政策明確聲稱他們不會以任何方式記錄 DNS 請求。 [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^5]: NextDNS can provide insights and logging features on an opt-out basis. 您可以選擇保留的任何日誌選擇時間長短和日誌儲存位置。 如果沒有特別要求，則不會記錄任何數據。 [https://nextdns.io/privacy](https://nextdns.io/privacy)
-[^6]: Quad9會收集一些資料，以進行威脅監控和回應。 然後這些資料會被重新混合與共享，例如用於安全研究。 Quad9 不會收集或記錄 IP 位址或其他他們認為可識別個人身份的資料。 [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
+[^6]: Quad9會收集一些資料，以進行威脅監控和回應。 然後這些資料會被重新混合與共享，例如用於安全研究。 Quad9 不會收集或記錄 IP 位址或其他他們認為可識別個人身份的資料。 [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

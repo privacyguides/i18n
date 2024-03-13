@@ -9,7 +9,7 @@ icon: material/hand-coin
 
 幾個世紀以來， **現金** 一直是私人支付的主要形式。 在大多數情況下，現金具有優秀的隱私性，在大多數國家被廣泛接受，並且是 **可替代的**，這意味著它是非唯一的，完全可互換。
 
-現金支付法因國家而異。 在美國，10,000美元以上交易需在 [8300表格中](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000)對美國國稅局披露。 收款業必須驗證收款人的姓名、地址、職業、出生日期、社會安全號碼或其他TIN （部分例外）。 少於 3,000 美元交換和匯款，就無須身份證明。 現金鈔票有序號。 商家很少追蹤序號，但執法部門可以在針對性調查中用到它們。
+現金支付法因國家而異。 In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). 收款業必須驗證收款人的姓名、地址、職業、出生日期、社會安全號碼或其他TIN （部分例外）。 少於 3,000 美元交換和匯款，就無須身份證明。 現金鈔票有序號。 商家很少追蹤序號，但執法部門可以在針對性調查中用到它們。
 
 儘管如此，現金仍是最好的選擇。
 
@@ -60,7 +60,7 @@ icon: material/hand-coin
 
 - [推薦的加密貨幣 :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
 
-隱私硬幣受到政府機構日益嚴格的監管。 2020年[美國稅務局 IRS 發表 $625,000 賞金](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc)，來徵求工具破解 Bitcoin Lightning Network 和 Monero 交易隱私。 最後由 [二家公司](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) 共同獲得 $1250000 美元，但外界並不知道所開發的工具是用在哪一種加密貨幣網路。 由於這些工具的保密性，追蹤加密貨幣的方法都未得到獨立的證實。隱私硬幣交易很可能被運用在針對性地調查，而大規模監控則無法阻止。
+隱私硬幣受到政府機構日益嚴格的監管。 In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. 最後由 [二家公司](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) 共同獲得 $1250000 美元，但外界並不知道所開發的工具是用在哪一種加密貨幣網路。 由於這些工具的保密性，追蹤加密貨幣的方法都未得到獨立的證實。隱私硬幣交易很可能被運用在針對性地調查，而大規模監控則無法阻止。
 
 ### 其他貨幣（比特幣、以太坊等）
 
@@ -76,7 +76,7 @@ icon: material/hand-coin
 
 ### 取得
 
-私下購買 [加密貨幣](../cryptocurrency.md) ，如Monero 可能很困難。 P2P 市場如 [LocalMonero](https://localmonero.co/)，為促進人群交易的平台，也是個可考慮的選擇。 如果使用需要 KYC的交易所是您可接受的風險(只要隨後的交易無法追蹤)。一個更容易的方式是從 [Kraken](https://kraken.com/)等交易所購買 Monero ，或者從 KYC 交易所購買比特幣/萊特幣，然後兌換為 Monero。 然後，您可以將購入的 Monero 提取到自己的非保管錢包，以便 日後私下使用。
+私下購買 [加密貨幣](../cryptocurrency.md) ，如Monero 可能很困難。 P2P marketplaces like [LocalMonero](https://localmonero.co), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. 然後，您可以將購入的 Monero 提取到自己的非保管錢包，以便 日後私下使用。
 
 如果您選擇這條路線，請確保以不同的時間和額度購買與用掉Monero 。 如果你在交易所購買 5000 美元的 Monero ，並在一個小時後花掉這筆錢，外部觀察者會將這些行為作關聯，無關 Monero 走的是通道。 驚人的購買和提前購買大量的Monero 以支應之後小額交易，可以避免這種陷阱。
 

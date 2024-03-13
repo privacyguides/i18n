@@ -62,12 +62,12 @@ Tüm verilerinizi her zaman herkesten korumaya çalışmak pratik değildir, pah
 
 ## Sana ihtiyacımız var! Nasıl dahil olabilirsiniz:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Forumumuza Katılın" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Bizi Mastodon'da takip edin" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Bu web sitesine katkıda bulunun" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Bu web sitesini çevirmeye yardımcı olun" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Matrix'te bizimle sohbet edin" }
-[:material-information-outline:](about/index.md){ title="Hakkımızda daha fazla bilgi edinin" }
-[:material-hand-coin-outline:](about/donate.md){ title="Projeyi destekleyin" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 Privacy Guides gibi bir web sitesinin her zaman güncel kalması önemlidir. Hedef kitlemizin sitemizde listelenen uygulamalar için yazılım güncellemelerini takip etmesine ve önerdiğimiz sağlayıcılarla ilgili son haberleri izlemesine ihtiyacımız var. İnternetin hızlı temposuna ayak uydurmak zor, ancak elimizden gelenin en iyisini yapmaya çalışıyoruz. Bir hata tespit ederseniz, bir sağlayıcının listelenmemesi gerektiğini düşünürseniz, nitelikli bir sağlayıcının eksik olduğunu fark ederseniz, bir tarayıcı eklentisinin artık en iyi seçenek olmadığını düşünürseniz veya başka bir sorunu ortaya çıkarırsanız, lütfen bize bildirin.

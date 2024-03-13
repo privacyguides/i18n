@@ -52,10 +52,10 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
@@ -74,7 +74,7 @@ Proton Mail tiene informes de errores internos que **no** comparten con terceros
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Suscriptores de pago de Proton Mail pueden utilizar su propio dominio con el servicio o una direcciones [catch-all](https://proton.me/support/catch-all). Proton Mail también soporta [subdireccionamiento](https://proton.me/support/creating-aliases), que es útil para las personas que no quieren comprar un dominio.
+Suscriptores de pago de Proton Mail pueden utilizar su propio dominio con el servicio o una direcciones [catch-all](https://proton.me/support/catch-all). Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Métodos de pago privados
 
@@ -129,7 +129,7 @@ Proton Mail no ofrece la función de legado digital.
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Mailbox.org te permite utilizar tu propio dominio y admite las direcciones [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). Mailbox.org también es compatible con [subdireccionamiento](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), lo que es útil si no desea comprar un dominio.
+Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Métodos Privados de Pago
 
@@ -137,17 +137,17 @@ Mailbox.org no acepta criptomonedas debido a que su procesador de pagos BitPay s
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
-Mailbox.org soporta [autenticación de doble factor](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) solo para su correo web. Puede utilizar TOTP o una [YubiKey](https://en.wikipedia.org/wiki/YubiKey) a través de [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Estándares web como [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) aún no son soportados.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Estándares web como [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) aún no son soportados.
 
 #### :material-information-outline:{ .pg-blue } Seguridad de Datos
 
-Mailbox.org permite encriptación del correo entrante usando su [buzón encriptado](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Nuevos mensajes que recibas se encriptaran inmediatamente con tu clave pública.
+Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nuevos mensajes que recibas se encriptaran inmediatamente con tu clave pública.
 
-Sin embargo, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), la plataforma de software utilizada por Mailbox.org, [no soporta](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) el cifrado de tu libreta de direcciones y calendario. Una [opción independiente](calendar.md) puede ser más apropiada para esa información.
+However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. Una [opción independiente](calendar.md) puede ser más apropiada para esa información.
 
 #### :material-check:{ .pg-green } Encriptación de Correo Electrónico
 
-Mailbox.org tiene [encriptación integrada](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) en su correo web, lo que simplifica el envío de mensajes a personas con claves públicas OpenPGP. También permiten que [destinatarios remotos desencripten un correo electrónico](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) en los servidores de Mailbox.org. Esta característica es útil cuando el destinatario remoto no tiene OpenPGP y no puede descifrar una copia del correo electrónico en su propio buzón de correo.
+Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Esta característica es útil cuando el destinatario remoto no tiene OpenPGP y no puede descifrar una copia del correo electrónico en su propio buzón de correo.
 
 Mailbox.org también admite el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite que personas afuera de Mailbox.org encuentren fácilmente las claves OpenPGP de las cuentas de Mailbox.org, para E2EE entre proveedores. Esto solo aplica para las direcciones de correo electrónico que terminan en un dominio de Mailbox.org, como @mailbox.org. Si utilizas un dominio personalizado, debes [configurar WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) por separado.
 
@@ -157,9 +157,9 @@ Tu cuenta se convertirá en una cuenta de usuario restringida cuando finalice tu
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
-Puedes acceder a tu cuenta de Mailbox.org a través de IMAP/SMTP utilizando su [servicio .onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Sin embargo, no se puede acceder a su interfaz de correo web a través de su servicio .onion y es posible que se produzcan errores de certificado TLS.
+You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Sin embargo, no se puede acceder a su interfaz de correo web a través de su servicio .onion y es posible que se produzcan errores de certificado TLS.
 
-Todas las cuentas vienen con un almacenamiento limitado en la nube que [puede ser encriptado](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org también ofrece el alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), que impone el cifrado TLS en la conexión entre servidores de correo; de lo contrario, el mensaje no se enviará en absoluto. Mailbox.org también admite [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) además de protocolos de acceso estándar como IMAP y POP3.
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org también admite [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) además de protocolos de acceso estándar como IMAP y POP3.
 
 Mailbox.org tiene una función de legado digital para todos los planes. Puedes elegir si deseas que alguno de tus datos se transmita a los herederos, siempre que lo soliciten y aporten tu testamento. Alternativamente, puedes designar a una persona por su nombre y dirección.
 
@@ -181,22 +181,22 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 **Tuta** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva en funcionamiento desde **2011** y tiene su sede en Hanóver, Alemania. Las cuentas empiezan con 1Gb de almacenamiento con su plan gratuito.
 
-[:octicons-home-16: Página Principal](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
 - [:simple-windows11: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -206,7 +206,7 @@ Tuta no admite el [protocolo IMAP](https://tuta.com/faq/#imap) ni el uso de [cli
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Las cuentas de pago de Tuta pueden utilizar 15 o 30 alias en función de su plan y alias ilimitados en [dominios personalizados](https://tuta.com/faq#custom-domain). Tuta no permite la [subdirección (más direcciones)](https://tuta.com/faq#plus), pero puede utilizar un [catch-all](https://tuta.com/howto#settings-global) con un dominio personalizado.
+Las cuentas de pago de Tuta pueden utilizar 15 o 30 alias en función de su plan y alias ilimitados en [dominios personalizados](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } Métodos de pago privados
 
@@ -232,7 +232,7 @@ Tuta [eliminará las cuentas gratuitas inactivas](https://tuta.com/faq#inactive-
 
 Tuta ofrece la versión empresarial de [Tuta para organizaciones sin ánimo de lucro](https://tuta.com/blog/posts/secure-email-for-non-profit) de forma gratuita o con un importante descuento.
 
-Tuta también tiene una función para empresas llamada [Secure Connect](https://tuta.com/secure-connect/). Esto garantiza que el contacto del cliente con la empresa utilice E2EE. La función cuesta 240 €/año.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Esto garantiza que el contacto del cliente con la empresa utilice E2EE. La función cuesta 240 €/año.
 
 Tuta no ofrece una función de legado digital.
 
@@ -280,18 +280,18 @@ Utilizar un servicio de alias requiere confiar, tanto a tu proveedor de correo e
 [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 </details>
 
 </div>
 
-El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de $1/mes e ilimitado en el plan de $4/mes (facturado en $3 por un año). Puedes crear alias estándar ilimitados (terminan en un dominio como @[username].addy.io o en un dominio personalizado en los planes de pago), sin embargo, como se ha mencionado previamente, esto puede ser perjudicial para la privacidad porque las personas pueden relacionar trivialmente los alias estándar, basándose únicamente en el nombre de dominio. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [realizó una auditoría](https://addy.io/blog/addy-io-passes-independent-security-audit/) de addi.io en setiembre de 2023 y [no se encontró](https://addy.io/addy-io-security-audit.pdf) alguna vulnerabilidad importante.
+El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de $1/mes e ilimitado en el plan de $4/mes (facturado en $3 por un año). Puedes crear alias estándar ilimitados (terminan en un dominio como @[username].addy.io o en un dominio personalizado en los planes de pago), sin embargo, como se ha mencionado previamente, esto puede ser perjudicial para la privacidad porque las personas pueden relacionar trivialmente los alias estándar, basándose únicamente en el nombre de dominio. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 Funciones gratuitas destacables:
 
@@ -309,27 +309,27 @@ Funciones gratuitas destacables:
 
 **SimpleLogin** es un servicio gratuito que proporciona alias de correo electrónico en una variedad de nombres de dominio compartidos, y opcionalmente proporciona características de pago como alias ilimitados y dominios personalizados.
 
-[:octicons-home-16: Página Principal](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
 
 </details>
 
 </div>
 
-SimpleLogin fue [adquirida por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) a partir del 8 de abril de 2022. Si utiliza Proton Mail para su buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tiene que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de su elección. Securitum [auditado](https://simplelogin.io/blog/security-audit/) SimpleLogin a principios de 2022 y todos los problemas [fueron resueltos](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin fue [adquirida por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) a partir del 8 de abril de 2022. Si utiliza Proton Mail para su buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tiene que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de su elección. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
 Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. Si tienes el plan Proton Unlimited, Business o Visionary, tendrás SimpleLogin Premium gratis.
 
@@ -351,10 +351,10 @@ Los administradores de sistemas avanzados pueden plantearse crear su propio serv
 
 **Mailcow** es un servidor de correo más avanzado perfecto para aquellos con un poco más de experiencia en Linux. Tiene todo lo que necesitas en un contenedor Docker: Un servidor de correo con soporte DKIM, antivirus, monitorización de spam, webmail, ActiveSync con SOGo y administración basada en web con soporte 2FA.
 
-[:octicons-home-16: Página Principal](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
 </div>
 
@@ -372,8 +372,8 @@ Los administradores de sistemas avanzados pueden plantearse crear su propio serv
 
 Para un enfoque más manual, hemos seleccionado estos dos artículos:
 
-- [Configuración de un servidor de correo con OpenSMTPD, Dovecot y Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [Cómo gestionar tu propio servidor de correo](https://www.c0ffee.net/blog/mail-server-guide/) (agosto de 2017)
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
 
 ## Criterios
 
@@ -386,7 +386,7 @@ Consideramos que estas características son importantes para ofrecer un servicio
 **Mínimo para calificar:**
 
 - Cifra los datos de las cuentas de correo electrónico en reposo con cifrado de acceso cero.
-- Capacidad de exportación como [Mbox](https://en.wikipedia.org/wiki/Mbox) o .eml individual con [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) estándar.
+- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Permitir a los usuarios utilizar su propio [nombre de dominio](https://en.wikipedia.org/wiki/Domain_name). Los nombres de dominio personalizados son importantes para los usuarios porque les permiten mantener su agencia del servicio, en caso de que éste se estropee o sea adquirido por otra empresa que no dé prioridad a la privacidad.
 - Operaciones en infraestructura propia, es decir, no construidas sobre proveedores de servicios de correo electrónico de terceros.
 
@@ -397,7 +397,7 @@ Consideramos que estas características son importantes para ofrecer un servicio
 - Compatibilidad con [WKD](https://wiki.gnupg.org/WKD) para permitir un mejor descubrimiento de claves OpenPGP públicas a través de HTTP. Los usuarios de GnuPG pueden obtener una clave escribiendo: `gpg --locate-key usuario_ejemplo@ejemplo.com`
 - Soporte para un buzón temporal para usuarios externos. Esto es útil cuando quieres enviar un correo electrónico encriptado, sin enviar una copia real a tu destinatario. Estos correos electrónicos suelen tener una vida útil limitada y luego se eliminan automáticamente. Tampoco requieren que el destinatario configure ninguna criptografía como OpenPGP.
 - Disponibilidad de los servicios del proveedor de correo electrónico a través de un [ servicio onion](https://en.wikipedia.org/wiki/.onion).
-- Soporte de [subdireccionamiento](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
+- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
 - Funcionalidad Catch-all o alias para aquellos que poseen sus propios dominios.
 - Utilización de protocolos estándar de acceso al correo electrónico como IMAP, SMTP o [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Los protocolos de acceso estándar garantizan que los clientes puedan descargar fácilmente todo su correo electrónico en caso de que quieran cambiar de proveedor.
 
@@ -425,13 +425,13 @@ Los servidores de correo electrónico manejan muchos datos sensibles. Esperamos 
 - Protección del correo web con 2FA, como TOTP.
 - Cifrado de acceso cero, basado en el cifrado en reposo. El proveedor no disponga de las claves de descifrado de los datos que posee. Esto evita que un empleado deshonesto filtre datos a los que tiene acceso o que un adversario remoto divulgue datos que ha robado al obtener acceso no autorizado al servidor.
 - Compatible con [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
-- No haya errores o vulnerabilidades TLS cuando se perfilan con herramientas como [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/)o [Qualys SSL Labs](https://www.ssllabs.com/ssltest); esto incluye errores relacionados con el certificado y parámetros DH débiles, como los que llevaron a [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Una preferencia de suite de servidor (opcional en TLSv1.3) para suites de cifrado potentes que soporten forward secrecy y encriptación autenticada.
 - Una política válida [MTA-STS](https://tools.ietf.org/html/rfc8461) y [TLS-RPT](https://tools.ietf.org/html/rfc8460).
 - Registros válidos de [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities).
 - Registros válidos [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) y [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail).
 - Tenga un registro y una política adecuados de [DMARC](https://en.wikipedia.org/wiki/DMARC) o use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) para la autenticación. Si se utiliza la autenticación DMARC, la política debe establecerse en `rechazar` o `cuarentena`.
-- Una preferencia de conjunto de servidores de TLS 1.2 o posterior y un plan para [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - [Envío de SMTPS](https://en.wikipedia.org/wiki/SMTPS), suponiendo que se utiliza SMTP.
 - Estándares de seguridad del sitio web tales como:
     - [Seguridad de transporte estricta HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -446,7 +446,7 @@ Los servidores de correo electrónico manejan muchos datos sensibles. Esperamos 
 - Programas de recompensa de errores y/o un proceso coordinado de divulgación de vulnerabilidades.
 - Estándares de seguridad del sitio web tales como:
     - [Política de seguridad de contenido (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### Confianza
 

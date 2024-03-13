@@ -34,7 +34,7 @@ A **Standard Notes** egy egyszerű és privát jegyzetkezelő alkalmazás, amely
 - [:simple-windows11: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)
 - [:simple-linux: Linux](https://standardnotes.com)
-- [:octicons-globe-16: Web](https://app.standardnotes.com/)
+- [:octicons-globe-16: Web](https://app.standardnotes.com)
 
 </details>
 
@@ -46,11 +46,11 @@ A **Standard Notes** egy egyszerű és privát jegyzetkezelő alkalmazás, amely
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. It features end-to-end encryption on all platforms with a powerful sync to take your notes on the go. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com).
 
-[:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.notesnook.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
 
@@ -58,12 +58,12 @@ A **Standard Notes** egy egyszerű és privát jegyzetkezelő alkalmazás, amely
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
 - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
 - [:simple-windows11: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
-- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
 </details>
@@ -80,22 +80,22 @@ Notesnook only allows local note encryption with the [private vault](https://hel
 
 A **Joplin** egy ingyenes, nyílt forráskódú, teljesen felszerelt jegyzetkezelő és teendő vezető alkalmazás, amely nagyszámú, jegyzetfüzetekbe és címkékbe rendezett markdown jegyzeteket képes kezelni. End-to-End titkosítást kínál, és képes szinkronizálni a Nextcloudon, a Dropboxon és sok máson keresztül is. Evernote és nyílt szöveges jegyzetek egyszerű importálását is lehetővé teszi.
 
-[:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://joplinapp.org/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
 - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
 - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
 - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
 - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 </details>
@@ -137,7 +137,7 @@ A Cryptee 100MB tárhelyet kínál ingyenesen, fizetős lehetőséggel, ha több
 
 ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-Az **Org-mode** egy [major mode](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) a GNU Emacs számára. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Szinkronizálás a [fájlszinkronizációs](file-sharing.md#file-sync) eszközökkel lehetséges.
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is for keeping notes, maintaining to-do lists, planning projects, and authoring documents with a fast and effective plain-text system. Szinkronizálás a [fájlszinkronizációs](file-sharing.md#file-sync) eszközökkel lehetséges.
 
 [:octicons-home-16: Honlap](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Dokumentáció}

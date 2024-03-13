@@ -6,7 +6,7 @@ description: macOS è il sistema operativo desktop di Apple che opera con il lor
 
 **macOS** è un sistema operativo Unix sviluppato da Apple per i propri computer Mac. Per migliorare la privacy su macOS, puoi disabilitare le funzionalità di telemetria e rafforzare le impostazioni di privacy e sicurezza esistenti.
 
-I più datati Mac e Hackintosh basati su Intel non supportano tutte le funzionalità di sicurezza offerte da macOS. Per migliorare la sicurezza dei dati, consigliamo di utilizzare un Mac più recente, con [Apple Silicon](https://support.apple.com/en-us/HT211814).
+I più datati Mac e Hackintosh basati su Intel non supportano tutte le funzionalità di sicurezza offerte da macOS. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/HT211814).
 
 ## Note sulla Privacy
 
@@ -22,13 +22,13 @@ macOS esegue controlli online quando apri un'app, per verificare che questa non 
 
 Precedentemente, questi controlli erano eseguiti tramite un protocollo crittografato OCSP, le cui informazioni sulle app che esegui sulla tua rete, sarebbero potute trapelare. Apple ha aggiornato il proprio servizio OCSP per utilizzare la crittografia HTTPS nel 2021 e ha [pubblicato le informazioni](https://support.apple.com/HT202491) sulla propria politica di registrazione per questo servizio. Inoltre, hanno promesso di aggiungere un meccanismo per consentire alle persone di disattivare questo controllo online, sebbene questo non sia stato aggiunto a macOS fino a luglio 2023.
 
-Sebbene [puoi](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) disattivare manualmente questo controllo in maniera relativamente facile, consigliamo di non farlo, a meno che non sia molto compromesso dai controlli di revoca eseguiti da macOS, poiché svolgono un ruolo importante nell'assicurarsi che le app compromesse siano bloccate dall'esecuzione.
+While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
 
 ## Configurazione consigliata
 
 Il tuo profilo, quando configuri per la prima volta Mac, sarà un profilo Amministratore, avente privilegi maggiori di un profilo utente Standard. macOS presenta numerose protezioni che impediscono a malware e altri programmi di abusare dei tuoi privilegi da Amministratore, così che l'utilizzo di questo profilo sia, in generale, sicuro.
 
-Tuttavia, exploit nelle utility protettive, come `sudo`, sono stati [scoperti in passato](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass/). Se desideri evitare la possibilità che i programmi che esegui abusino dei tuoi privilegi da Amministratore, potresti considerare di creare un secondo profilo utente Standard, da utilizzare per le operazioni quotidiane. Ciò presenta l'ulteriore beneficio di rendere più ovvio quando un'app necessita dell'accesso da amministratore, poiché ti richiederà le credenziali ogni volta.
+However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass). Se desideri evitare la possibilità che i programmi che esegui abusino dei tuoi privilegi da Amministratore, potresti considerare di creare un secondo profilo utente Standard, da utilizzare per le operazioni quotidiane. Ciò presenta l'ulteriore beneficio di rendere più ovvio quando un'app necessita dell'accesso da amministratore, poiché ti richiederà le credenziali ogni volta.
 
 Se utilizzi un secondo profilo, non è rigorosamente necessario connettersi al tuo profilo da Amministratore originale, dalla schermata d'accesso di macOS. Quando stai facendo qualcosa da utente Standard che richieda le autorizzazioni da Amministratore, il sistema dovrebbe richiederti l'autenticazione, dove puoi inserire le tue credenziali da Amministratore, pur essendo un utente Standard, una tantum. Apple fornisce [supporto](https://support.apple.com/HT203998) per nascondere il tuo profilo da Amministratore, se preferisci visualizzare un singolo profilo sulla tua schermata di accesso.
 
@@ -128,7 +128,7 @@ Sui vecchi computer Mac basati su Intel, FileVault è la sola forma di crittogra
 
 ##### Modalità Lockdown
 
-La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disabilita alcune funzionalità per poter migliorare la sicurezza. Alcune app o funzionalità non funzioneranno allo stesso modo di quanto sono disattivate, ad esempio, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) e [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) sono disabilitate su Safari, con la Modalità di Lockdown abilitata. Consigliamo di abilitare la Modalità di Lockdown e di scoprire se impatta significativamente sul tuo utilizzo: è facile convivere con molte delle modifiche che effettua.
+La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disabilita alcune funzionalità per poter migliorare la sicurezza. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers) and [WASM](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. Consigliamo di abilitare la Modalità di Lockdown e di scoprire se impatta significativamente sul tuo utilizzo: è facile convivere con molte delle modifiche che effettua.
 
 - [x] Clicca **Attiva**
 

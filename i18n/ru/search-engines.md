@@ -10,7 +10,7 @@ cover: search-engines.webp
 
 Приведенные здесь рекомендации основаны на политиках конфиденциальности этих сервисов. Не существует **никакой гарантии** того, что эти политики конфиденциальности будут соблюдены.
 
-Советуем использовать [VPN](/vpn) или [Tor](https://www.torproject.org/), если ваша модель угроз требует скрытия вашего IP-адреса от поискового провайдера.
+Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
 
 ## Brave Search
 
@@ -24,10 +24,10 @@ Brave Search включает такие уникальные функции, к
 
 Мы рекомендуем вам отключить [Анонимные метрики использования](https://search.brave.com/help/usage-metrics), поскольку они включены по умолчанию и могут быть отключены в настройках.
 
-[:octicons-home-16: Домашняя страница](https://search.brave.com/){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Сервис Onion" }
-[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Документация}
+[:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
 
 </details>
 
@@ -41,14 +41,14 @@ Brave Search включает такие уникальные функции, к
 
 ![Логотип DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** - одна из наиболее распространенных приватных поисковых систем. Примечательные функции поиска DuckDuckGo включают [bangs](https://duckduckgo.com/bang) и множество [мгновенных ответов] (https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). Поисковая система полагается на коммерческий API Bing для получения большинства результатов, но использует множество [других источников](https://help.duckduckgo.com/results/sources/) для получения мгновенных ответов и других не основных результатов.
+**DuckDuckGo** - одна из наиболее распространенных приватных поисковых систем. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources) for instant answers and other non-primary results.
 
 DuckDuckGo является поисковой системой по умолчанию для браузера Tor и одним из немногих доступных вариантов в браузере Safari от Apple.
 
-[:octicons-home-16: Домашняя страница](https://duckduckgo.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Сервис Onion" }
-[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Документация}
+[:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -56,7 +56,7 @@ DuckDuckGo является поисковой системой по умолч�
 
 Компания DuckDuckGo базируется в США. В их [политике конфиденциальности](https://duckduckgo.com/privacy) говорится, что они **ведут логи** ваших поисковых запросов в целях улучшения качества продукции, но не записывают IP-адреса или любую другую личную информацию.
 
-DuckDuckGo предлагает две [другие версии](https://help.duckduckgo.com/features/non-javascript/) своей поисковой системы, обе из которых не требуют JavaScript. Однако в этих версиях меньше функций. Эти версии также можно использовать в сочетании с их адресом [Tor onion](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/), добавив [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) или [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) для соответствующей версии.
+DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. Однако в этих версиях меньше функций. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
 ## SearXNG
 
@@ -66,9 +66,9 @@ DuckDuckGo предлагает две [другие версии](https://help.
 
 **SearXNG** - это мета-поисковая система с открытым исходным кодом и возможностью самостоятельного хостинга, агрегирующая результаты других поисковых систем и не хранящая никакой информации сама. Это активно поддерживаемый форк [SearX](https://github.com/searx/searx).
 
-[:octicons-home-16: Домашняя страница](https://searxng.org){ .md-button .md-button--primary }
-[:octicons-server-16:](https://searx.space/){ .card-link title="Публичный экземпляр"}
-[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Исходный код" }
+[:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
+[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
 
 </details>
 
@@ -87,11 +87,11 @@ SearXNG — это прокси между пользователями и по�
 ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
 ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) search results.  Одной из уникальных особенностей Startpage является [анонимный просмотр](https://www.startpage.com/en/anonymous-view/), который прилагает усилия для стандартизации действий пользователя, чтобы затруднить его уникальную идентификацию. Эта функция может быть полезна для скрытия [некоторых](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) свойств сети и браузера. Несмотря на название, на эту функцию не следует полагаться для обеспечения анонимности. Если вам нужна анонимность, используйте [Tor Browser](tor.md#tor-browser).
+**Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) search results.  One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Несмотря на название, на эту функцию не следует полагаться для обеспечения анонимности. Если вам нужна анонимность, используйте [Tor Browser](tor.md#tor-browser).
 
-[:octicons-home-16: Домашняя страница](https://www.startpage.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Документация}
+[:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
 </details>
 
@@ -104,9 +104,9 @@ Startpage регулярно ограничивает доступ к серви
 
 </div>
 
-Startpage базируется в Нидерландах. Согласно их [ политике конфиденциальности](https://www.startpage.com/en/privacy-policy/), они регистрируют такие данные, как: операционная система, тип браузера и язык. Они не хранят ваш IP-адрес, поисковые запросы или другую идентифицирующую вас информацию.
+Startpage базируется в Нидерландах. According to their [privacy policy](https://startpage.com/en/privacy-policy), they log details such as: operating system, type of browser, and language. Они не хранят ваш IP-адрес, поисковые запросы или другую идентифицирующую вас информацию.
 
-Основным акционером Startpage является компания System1, занимающаяся рекламными технологиями. Мы не считаем это проблемой, поскольку у них есть отдельная [политика конфиденциальности](https://system1.com/terms/privacy-policy). Команда Privacy Guides связалась со Startpage [еще в 2020 году](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/), чтобы прояснить любые сомнения по поводу значительных инвестиций System1 в сервис. Мы были удовлетворены полученными ответами.
+Основным акционером Startpage является компания System1, занимающаяся рекламными технологиями. Мы не считаем это проблемой, поскольку у них есть отдельная [политика конфиденциальности](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service. Мы были удовлетворены полученными ответами.
 
 ## Критерии
 

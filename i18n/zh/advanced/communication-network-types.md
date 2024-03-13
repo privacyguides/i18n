@@ -28,7 +28,7 @@ description: 即时信息应用程序常用的几种网络架构的概述。
 - 可以包括 [访问限制和审查](https://drewdevault.com/2018/08/08/Signal.html)。 这可能包括以下内容：
 - 封禁将可能提供更灵活的定制或更好的体验的[第三方客户端](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165)。 通常在使用条款和条件中定义。
 - 为第三方开发者提供的文件很差或没有。
-- 当单个实体控制服务时，[所有权](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/)，隐私政策和服务的行为很容易改变，可能会在以后危及服务。
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - 自托管需要耐心和知识。
 
 ## 联邦网络
@@ -60,7 +60,7 @@ description: 即时信息应用程序常用的几种网络架构的概述。
 
 点对点聊天软件连接到一个由节点组成的 [分布式网络](https://en.wikipedia.org/wiki/Distributed_networking) ，在没有第三方服务器的情况下将信息转发给收件人。
 
-客户端（对等节点）通常通过使用 [分布式网络](https://en.wikipedia.org/wiki/Distributed_computing) 找到对方。 这方面的例子包括 [分布式哈希表](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT)，由 [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) 和 [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) 等使用。 另一种方法是基于近距离的网络，通过WiFi或蓝牙建立连接（例如，Briar或 [Scuttlebutt](https://www.scuttlebutt.nz) 社交网络协议）。
+客户端（对等节点）通常通过使用 [分布式网络](https://en.wikipedia.org/wiki/Distributed_computing) 找到对方。 这方面的例子包括 [分布式哈希表](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT)，由 [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) 和 [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) 等使用。 Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 一旦一个节点通过这些方法中的任何一种找到了通往其联系人的路线，它们之间就会建立直接连接。 虽然信息通常是加密的，但观察者仍然可以推断出发件人和收件人的位置和身份。
 

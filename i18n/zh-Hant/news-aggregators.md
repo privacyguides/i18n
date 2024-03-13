@@ -21,7 +21,7 @@ cover: news-aggregators.webp
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
 [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
@@ -83,7 +83,7 @@ cover: news-aggregators.webp
 
 [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
 
@@ -121,15 +121,15 @@ cover: news-aggregators.webp
 
 **NetNewsWire** 是一款免費開源的訊息源閱讀器，適用於macOS 和 iOS ，專注於原生設計和功能集。 它支持典型的Feed 格式與內置支持 Reddit Feed。
 
-[:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
 
 </details>
@@ -178,7 +178,7 @@ Reddit 允許您通過 RSS 訂閱 subreddits。
 `[SUBREDDIT]` 替換成所欲訂閱的 subreddit.
 
 ```text
-https://www.reddit.com/r/[SUBREDDIT]/new/.rss
+https://reddit.com/r/[SUBREDDIT]/new/.rss
 ```
 
 </div>
@@ -190,10 +190,10 @@ https://www.reddit.com/r/[SUBREDDIT]/new/.rss
 <div class="admonition example" markdown>
 <p class="admonition-title">Example "例子"</p>
 
-欲透過 RSS 軟體訂閱 YouTube 頻，首先檢查該頻道的 [頻道代號](https://support.google.com/youtube/answer/6180214). 頻道代號可在其"關於"頁面找到，請到: **關於** > **分享** > **複製頻道 ID**. 替換下方的 `[CHANNEL ID]`:
+欲透過 RSS 軟體訂閱 YouTube 頻，首先檢查該頻道的 [頻道代號](https://support.google.com/youtube/answer/6180214). 頻道代號可在其"關於"頁面找到，請到: **關於** > **分享** > **複製頻道 ID**. Replace `[CHANNEL ID]` below:
 
 ```text
-https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
 ```
 
 </div>

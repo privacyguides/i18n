@@ -28,7 +28,7 @@ schema:
     "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
-    url: https://www.apple.com/safari/
+    url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
       - iOS
@@ -41,22 +41,22 @@ schema:
 
 ## 安卓
 
-在安卓系统上，火狐的安全性仍然低于基于Chromium的替代品。Mozilla的引擎， [GeckoView](https://mozilla.github.io/geckoview/)，还没有支持 [网站隔离](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) 或启用 [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)。
+On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
 <div class="admonition recommendation" markdown>
 
-![Brave标识](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave浏览器**包括一个内置的内容拦截器和[隐私功能](https://brave.com/privacy-features/)，其中许多功能都是默认启用的。
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟悉的感觉，而且网站兼容性问题最小。
 
-[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -77,7 +77,7 @@ Tor浏览器是匿名浏览互联网的唯一途径。 当您使用Brave时，�
 
 ##### 盾
 
-Brave在其 [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 功能中包括一些防指纹的措施。 我们建议将这些选项配置为 [，在你访问的所有页面上全局](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-)。
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 ##### Brave shields global defaults
 
@@ -101,7 +101,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
 ##### Clear browsing data
 
@@ -115,7 +115,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Uncheck **Allow sites to check if you have payment methods saved**
 - [ ] Uncheck **IPFS Gateway** (1)
 - [x] Select **Close tabs on exit**
@@ -129,7 +129,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 #### Brave 同步
 
-[Brave 同步](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) 允许你的浏览数据（历史记录、书签等）在你所有的设备上访问，而不需要账户，并以E2EE进行保护。
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## iOS
 
@@ -141,10 +141,10 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
 
-[:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
 </details>
@@ -185,7 +185,7 @@ Privacy Report is accessible via the Page Settings menu.
 
 - [ ] Disable **Privacy Preserving Ad Measurement**
 
-Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
 The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
 
@@ -201,9 +201,9 @@ Do note that Private Browsing does not save cookies and website data, so it won'
 
 ##### iCloud Sync
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/en-us/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://www.apple.com/legal/privacy/en-ww/).
+Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/en-us/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
 
 - [x] Turn On **Advanced Data Protection**
 
@@ -227,7 +227,7 @@ AdGuard for iOS has some premium features; however, standard Safari content bloc
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 
 </details>
 

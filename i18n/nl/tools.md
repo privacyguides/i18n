@@ -9,7 +9,7 @@ description: Privacy Guides is de meest transparante en betrouwbare website voor
 
 Als je op zoek bent naar een specifieke oplossing voor iets, dan zijn dit de hardware en software tools die wij aanbevelen in verschillende categorieën. Onze aanbevolen privacytools zijn in de eerste plaats gekozen op basis van beveiligingskenmerken, met extra nadruk op gedecentraliseerde en open-source tools. Ze zijn van toepassing op een verscheidenheid aan dreigingsmodellen, variërend van bescherming tegen wereldwijde massasurveillanceprogramma's en het vermijden van grote technologiebedrijven tot het beperken van aanvallen, maar alleen jij kunt bepalen wat het beste werkt voor jouw behoeften.
 
-Als je hulp wilt bij het uitzoeken van de beste privacytools en alternatieve programma's voor jouw behoeften, start dan een discussie op ons [forum](https://discuss.privacyguides.net/) of onze [Matrix](https://matrix.to/#/#privacyguides:matrix.org) gemeenschap!
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 Voor meer details over elk project, waarom ze werden gekozen, en extra tips of trucs die we aanbevelen, klik op de "Meer informatie"-link in elke sectie, of klik op de aanbeveling zelf om naar die specifieke sectie van de pagina te gaan.
 
@@ -89,7 +89,7 @@ Voor meer details over elk project, waarom ze werden gekozen, en extra tips of t
 
 #### DNS Providers
 
-Wij [bevelen](dns.md#recommended-providers) een aantal versleutelde DNS servers aan op basis van verschillende criteria, zoals [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) en [Quad9](https://quad9.net/) onder andere. Wij raden je aan onze pagina's over DNS te lezen voordat je een provider kiest. In veel gevallen wordt het gebruik van een alternatieve DNS-provider niet aanbevolen.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. Wij raden je aan onze pagina's over DNS te lezen voordat je een provider kiest. In veel gevallen wordt het gebruik van een alternatieve DNS-provider niet aanbevolen.
 
 [Meer informatie :material-arrow-right-drop-circle:](dns.md)
 

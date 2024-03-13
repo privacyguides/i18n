@@ -28,9 +28,9 @@ cover: financial-services.webp
 
 התוכנית החינמית של **Privacy.com** מאפשרת לך ליצור עד 12 כרטיסים וירטואליים בחודש, להגדיר מגבלות הוצאות על כרטיסים אלה ולכבות כרטיסים באופן מיידי. התוכנית בתשלום שלהם מאפשרת לך ליצור עד 36 כרטיסים בחודש, לקבל החזר של 1% מזומן על רכישות ולהסתיר מידע של העסקה מהבנק שלך.
 
-[:octicons-home-16: דף הבית](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=תיעוד}
+[:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
 
 </details>
 
@@ -47,9 +47,9 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 **MySudo** מספקת עד 9 כרטיסים וירטואליים בהתאם לתוכנית שתרכשו. התוכניות בתשלום שלהם כוללות בנוסף פונקציונליות שעשויה להיות שימושית לביצוע רכישות באופן פרטי, כגון מספרי טלפון וירטואליים וכתובות אימייל, אם כי בדרך כלל אנו ממליצים על [ספקי כינוי אימייל](email.md) אחרים לשימוש נרחב בכינויי אימייל.
 
-[:octicons-home-16: דף הבית](https://mysudo.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=תיעוד}
+[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -83,9 +83,9 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 ** CoinCards ** (זמין בארה"ב ובקנדה) מאפשר לך לרכוש כרטיסי מתנה למגוון גדול של סוחרים.
 
-[:octicons-home-16: דף הבית](https://coincards.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=תיעוד}
+[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
 
 </details>
 

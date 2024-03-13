@@ -55,7 +55,7 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 
 </div>
 
-如果你担心 **物理攻击** ，你应该使用具有安全验证启动实现的操作系统，如Android、iOS、macOS、 [Windows（带TPM）](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process)。 你还应该确保你的驱动器是加密的，并且操作系统使用TPM或安全 [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) ，以限制输入加密口令的重试速率。 你应该避免与你不信任的人分享你的电脑，因为大多数桌面操作系统没有按用户单独加密数据。
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). 你还应该确保你的驱动器是加密的，并且操作系统使用TPM或安全 [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) ，以限制输入加密口令的重试速率。 你应该避免与你不信任的人分享你的电脑，因为大多数桌面操作系统没有按用户单独加密数据。
 
 ## 来自服务提供商的隐私
 
@@ -89,16 +89,16 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-如果你想了解更多关于监视方法以及它们在你的城市是如何实施的，你也可以看看[电子前沿基金会](https://atlasofsurveillance.org/)的[监视地图]。
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 政府经常为大规模监控项目辩护，认为这是打击恐怖主义和防止犯罪的必要手段。 然而，它侵犯人权，最常被用来不成比例地针对少数群体和持不同政见者等。
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 面对[爱德华-斯诺登披露的政府项目，如 [PRISM]（https://en.wikipedia.org/wiki/PRISM）和 [Upstream]（https://en.wikipedia.org/wiki/Upstream_collection）]，情报官员也承认，国家安全局多年来一直在秘密收集几乎每个美国人的电话记录--谁在给谁打电话，这些电话是什么时候打的，以及它们持续多长时间。 你应该考虑你的对手能观察到网络的哪些方面，以及你的行动是否有合理的可否认性。
 
@@ -144,7 +144,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 包括极权主义政府、网络管理员和服务提供商在内的行为者都可以（在不同程度上）进行网上审查。 这些控制通讯和限制获取信息的努力，总是与言论自由的人权不相容。[^5]
 
-企业平台的审查制度越来越普遍，因为像Twitter和Facebook这样的平台屈服于公众需求、市场压力和政府机构的压力。 政府可以向企业隐蔽，例如白宫 [要求删除](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) 某个挑衅性的YouTube视频；也可以是公开的，例如中国政府要求企业遵守严格的审查制度。
+企业平台的审查制度越来越普遍，因为像Twitter和Facebook这样的平台屈服于公众需求、市场压力和政府机构的压力。 Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 关注审查制度威胁的人可以使用像 [Tor](../advanced/tor-overview.md) 这样的技术来规避审查制度，并支持像 [Matrix](../real-time-communication.md#element)这样的抗审查通信平台，该平台没有一个可以任意关闭账户的集中式账户管理机构。
 
@@ -162,5 +162,5 @@ In France you can take a look at the [Technopolice website](https://technopolice
 [^1]: 美国隐私和公民自由监督委员会。 [关于根据第215条进行的电话记录计划的报告](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: 维基百科： [监控资本主义](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^3]: 维基百科。 [*监视资本主义*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 你还应该采用其他缓解技术。
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 你还应该采用其他缓解技术。
 [^5]: 联合国。 [*世界人权宣言》*](https://www.un.org/en/about-us/universal-declaration-of-human-rights)。

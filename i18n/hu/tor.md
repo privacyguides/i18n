@@ -10,7 +10,7 @@ schema:
     "@type": SoftwareApplication
     name: Tor Böngésző
     image: /assets/img/browsers/tor.svg
-    url: https://www.torproject.org
+    url: https://torproject.org
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
     applicationCategory: Web Browser
     operatingSystem:
@@ -27,11 +27,11 @@ schema:
 
 A **Tor** hálózat egy önkéntesek által üzemeltetett szerverekből álló csoport, amely lehetővé teszi, hogy ingyenesen csatlakozhass, és javíts a magánéleteden, valamint a biztonságodon az Interneten. Személyek és szervezetek a Tor-hálózaton keresztül ".onion rejtett szolgáltatásokkal" is megoszthatnak információkat anélkül, hogy veszélyeztetnék a magánéletüket. Mivel a Tor forgalmat nehéz blokkolni és nyomon követni, a Tor egy hatékony cenzúra megkerülő eszköz.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
+[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 A Tor úgy működik, hogy az internetes forgalmadat ezeken az önkéntesek által üzemeltetett szervereken keresztül irányítja át, ahelyett, hogy közvetlen kapcsolatot létesítene a meglátogatni kívánt oldallal. Ez elrejti, hogy honnan érkezik a forgalom, és a kapcsolat útvonalában egyetlen szerver sem látja a teljes útvonalat, ahonnan a forgalom érkezik és ahová tart, ami azt jelenti, hogy még az általad csatlakozásra használt szerverek sem tudják megtörni az anonimitásodat.
 
@@ -60,20 +60,20 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 A **Tor Böngésző** a legjobb választás, ha anonimitásra van szükséged, mivel hozzáférést biztosít a Tor-hálózathoz és a Tor-hidakhoz, valamint alapértelmezett beállításokat és bővítményeket tartalmaz, amelyek automatikusan előre beállított biztonsági szintek alapján vannak konfigurálva: *Normál*, *Biztonságosabb* és *Legbiztonságosabb*.
 
-[:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-- [:simple-android: Android](https://www.torproject.org/download/#android)
-- [:simple-windows11: Windows](https://www.torproject.org/download/)
-- [:simple-apple: macOS](https://www.torproject.org/download/)
-- [:simple-linux: Linux](https://www.torproject.org/download/)
+- [:simple-android: Android](https://torproject.org/download/#android)
+- [:simple-windows11: Windows](https://torproject.org/download)
+- [:simple-apple: macOS](https://torproject.org/download)
+- [:simple-linux: Linux](https://torproject.org/download)
 
 </details>
 
@@ -86,7 +86,7 @@ A **Tor Böngésző** a legjobb választás, ha anonimitásra van szükséged, m
 
 </div>
 
-A Tor böngészőt úgy tervezték, hogy megakadályozza az fingerprintelést, vagyis a beazonosításodat a böngésző konfigurációja alapján. Ezért elengedhetetlen, hogy **ne** módosítsd a böngészőt az alapértelmezett [biztonsági szinteken](https://tb-manual.torproject.org/security-settings/) túl.
+A Tor böngészőt úgy tervezték, hogy megakadályozza az fingerprintelést, vagyis a beazonosításodat a böngésző konfigurációja alapján. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings).
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
@@ -98,7 +98,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 Az **Orbot** egy ingyenes Tor VPN okostelefonokhoz, amely a Tor hálózaton keresztül irányítja az eszközödön lévő bármely alkalmazás forgalmát.
 
-[:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
 [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
@@ -108,7 +108,7 @@ Az **Orbot** egy ingyenes Tor VPN okostelefonokhoz, amely a Tor hálózaton kere
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
 - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
 </details>
@@ -134,7 +134,7 @@ Minden verzió ugyanazzal az aláírással van tanusítva, így kompatibilisnek 
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -164,10 +164,10 @@ A **Snowflake** lehetővé teszi, hogy sávszélességet adományozz a Tor proje
 
 Azok, akik cenzúra alatt állnak, Snowflake proxykat tudnak használni a Tor-hálózathoz való csatlakozáshoz. A Snowflake egy nagyszerű módja annak, hogy hozzájárulj a hálózathoz, még akkor is, ha nincs meg a technikai tudásod egy Tor elosztó vagy híd üzemeltetéséhez.
 
-[:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 </details>
 
@@ -181,4 +181,4 @@ A Snowflake semmilyen módon nem növeli az magánéletedet, és a személyes b�
 
 Egy Snowflake proxy futtatása alacsony kockázatú, még inkább, mint egy Tor elosztó vagy híd futtatása, amelyek már eleve sem különösebben kockázatos vállalkozások. Ettől függetlenül még mindig forgalom kerül átküldésre a hálózatodon ami bizonyos szempontból hatással lehet arra, különösen, ha a hálózatod sávszélessége korlátozott. Győződj meg róla, hogy érted [hogyan működik a Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) mielőtt eldöntöd, hogy futtatsz-e proxyt.
 
-[^1]: Az `IsolateDestAddr` beállítást a [Tor levelezési listáján](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) és a [Whonix's Stream Isolation dokumentációjában](https://www.whonix.org/wiki/Stream_Isolation) tárgyalják, ahol mindkét projekt azt javasolja, hogy ez általában nem jó megközelítés a legtöbb ember számára.
+[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.

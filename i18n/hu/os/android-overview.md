@@ -60,7 +60,7 @@ Több OEM-gyártó is elrontotta a Verified Boot megvalósítását, amivel a ma
 
 A firmware-frissítések kritikus fontosságúak a biztonság fenntartása szempontjából, és nélkülük az eszközöd nem lehet biztonságos. Az OEM-gyártók támogatási megállapodásokat kötnek partnereikkel a zárt forráskódú komponensek korlátozott ideig történő biztosítására. Ezek a havonta megjelenő [Android Security Bulletin](https://source.android.com/security/bulletin)-ben vannak részletezve.
 
-Mivel a telefon összetevői, például a processzor és a rádiótechnológiák zárt forráskódú komponensekre épülnek, a frissítéseket az adott gyártóknak kell biztosítaniuk. Ezért fontos, hogy olyan készüléket vásárolj ami rendelkezik aktív támogatási ciklussal. A [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) és a [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) 4 évig támogatja készülékeit, míg az olcsóbb termékek gyakran rövidebb támogatási ciklusokkal rendelkeznek. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+Mivel a telefon összetevői, például a processzor és a rádiótechnológiák zárt forráskódú komponensekre épülnek, a frissítéseket az adott gyártóknak kell biztosítaniuk. Ezért fontos, hogy olyan készüléket vásárolj ami rendelkezik aktív támogatási ciklussal. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 Az SoC gyártó által már nem támogatott, lejárt életciklusú eszközök nem kaphatnak firmware-frissítéseket OEM-gyártóktól vagy utángyártó Android-forgalmazóktól. Ez azt jelenti, hogy ezekkel az eszközökkel kapcsolatos biztonsági problémák javítatlanok maradnak.
 
@@ -97,19 +97,19 @@ Android 13:
 
 Egy alkalmazás engedélyt kérhet egy adott funkciójához. Például minden olyan alkalmazásnak, amely QR-kódokat tud beolvasni, szüksége van a kamera engedélyre. Egyes alkalmazások a szükségesnél több engedélyt kérhetnek.
 
-Az [Exodus](https://exodus-privacy.eu.org/) hasznos lehet hasonló célú alkalmazások összehasonlításakor. Ha egy alkalmazás sok engedélyt igényel, valamint sok reklámot és elemzést tartalmaz, az valószínűleg egy rossz jel. Javasoljuk, hogy tekintsd meg az egyes nyomkövetőket és olvasd el a leírásukat, ahelyett, hogy egyszerűen **megszámolod az összeset** azt feltételezve, hogy a felsorolt tételek egyenlőek.
+[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. Ha egy alkalmazás sok engedélyt igényel, valamint sok reklámot és elemzést tartalmaz, az valószínűleg egy rossz jel. Javasoljuk, hogy tekintsd meg az egyes nyomkövetőket és olvasd el a leírásukat, ahelyett, hogy egyszerűen **megszámolod az összeset** azt feltételezve, hogy a felsorolt tételek egyenlőek.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Ha egy alkalmazás többnyire egy webalapú szolgáltatás, a nyomon követés történhet a szerveroldalon. A [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) azt mutatja, hogy "nincsenek nyomkövetők", de minden bizonnyal nyomon követi a felhasználók érdeklődését és viselkedését az oldalon. Alkalmazások elkerülhetik az észlelést azzal, hogy nem használják a reklámipar által készített szabványos kódkönyvtárakat, bár ez nem valószínű.
+Ha egy alkalmazás többnyire egy webalapú szolgáltatás, a nyomon követés történhet a szerveroldalon. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Alkalmazások elkerülhetik az észlelést azzal, hogy nem használják a reklámipar által készített szabványos kódkönyvtárakat, bár ez nem valószínű.
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Az olyan magánélet-barát alkalmazások, mint a [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/), megjeleníthetnek néhány nyomkövetőt, mint például a [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Ez a könyvtár tartalmazza a [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)-et, amely [push értesítéseket](https://en.wikipedia.org/wiki/Push_technology) tud nyújtani az alkalmazásoknak. Ez [a helyzet](https://fosstodon.org/@bitwarden/109636825700482007) a Bitwardennel is. Ez nem jelenti azt, hogy a Bitwarden a Google Firebase Analytics által biztosított összes elemzési funkciót használja.
+Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). Ez a könyvtár tartalmazza a [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)-et, amely [push értesítéseket](https://en.wikipedia.org/wiki/Push_technology) tud nyújtani az alkalmazásoknak. Ez [a helyzet](https://fosstodon.org/@bitwarden/109636825700482007) a Bitwardennel is. Ez nem jelenti azt, hogy a Bitwarden a Google Firebase Analytics által biztosított összes elemzési funkciót használja.
 
 </div>
 
@@ -145,20 +145,20 @@ If you are using a device with Google services, either your stock operating syst
 
 ### Advanced Protection Program
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection/). It is available at no cost to anyone with two or more hardware security keys with [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) support.
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). It is available at no cost to anyone with two or more hardware security keys with [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) support.
 
 The Advanced Protection Program provides enhanced threat monitoring and enables:
 
 - Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - Only Google and verified third-party apps can access account data
 - Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
-- Stricter [safe browser scanning](https://www.google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
+- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
 - Stricter recovery process for accounts with lost credentials
 
- If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949?hl=en) such as:
+ If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
 
 - Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Warning you about unverified applications
 
 ### Google Play System Updates
@@ -169,7 +169,7 @@ If you have an EOL device shipped with Android 10 or above and are unable to run
 
 ### Advertising ID
 
-All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) used for targeted advertising. Disable this feature to limit the data collected about you.
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Disable this feature to limit the data collected about you.
 
 On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **Ads**, and select *Delete advertising ID*.
 

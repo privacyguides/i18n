@@ -15,7 +15,7 @@ cover: file-sharing.webp
 
 ![Send 로고](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send**는 Mozilla가 중단했던 Firefox Send 서비스를 포크한 프로젝트입니다. 링크를 통해 다른 사람에게 파일을 전송할 수 있습니다. 파일은 기기에서 암호화되기 때문에 서버에서는 읽을 수 없으며, 원하는 경우 비밀번호로 보호할 수도 있습니다. Send 프로젝트의 메인테이너는 [공개 인스턴스](https://send.vis.ee/)를 직접 호스팅하고 있습니다. 다른 공개 인스턴스를 사용할 수도 있으며, 여러분이 직접 Send를 호스팅하는 것도 가능합니다.
+**Send**는 Mozilla가 중단했던 Firefox Send 서비스를 포크한 프로젝트입니다. 링크를 통해 다른 사람에게 파일을 전송할 수 있습니다. 파일은 기기에서 암호화되기 때문에 서버에서는 읽을 수 없으며, 원하는 경우 비밀번호로 보호할 수도 있습니다. The maintainer of Send hosts a [public instance](https://send.vis.ee). 다른 공개 인스턴스를 사용할 수도 있으며, 여러분이 직접 Send를 호스팅하는 것도 가능합니다.
 
 [:octicons-home-16: 홈페이지](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="공개 인스턴스"}
@@ -80,10 +80,10 @@ Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준�
 
 **FreedomBox**는 [SBC(Single Board Computer)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EB%B3%B4%EB%93%9C_%EC%BB%B4%ED%93%A8%ED%84%B0)에서 구동되도록 설계된 운영체제입니다. 자체 호스팅 서버 애플리케이션을 간편하게 설정할 수 있도록 하는 것이 FreedomBox의 목표입니다.
 
-[:octicons-home-16: 홈페이지](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=문서}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="소스 코드" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=기부 }
+[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
+[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -101,9 +101,9 @@ Privacy Guides 팀은 사이트의 모든 항목마다 명확한 평가 기준�
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -137,16 +137,16 @@ Privacy Guides는 Nextcloud용 [E2EE 앱](https://apps.nextcloud.com/apps/end_to
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-- [:simple-windows11: Windows](https://syncthing.net/downloads/)
-- [:simple-apple: macOS](https://syncthing.net/downloads/)
-- [:simple-linux: Linux](https://syncthing.net/downloads/)
-- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
+- [:simple-windows11: Windows](https://syncthing.net/downloads)
+- [:simple-apple: macOS](https://syncthing.net/downloads)
+- [:simple-linux: Linux](https://syncthing.net/downloads)
+- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
 
 </details>
 

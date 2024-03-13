@@ -19,7 +19,7 @@ cover: frontends.webp
 
 ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
 
-**ProxiTok** 是 [TikTok](https://www.tiktok.com)網站的開源前端，也可自主託管。
+**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
 
 There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
@@ -53,7 +53,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 
 [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.freetubeapp.io){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
 
@@ -72,7 +72,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-使用 FreeTube 時，IP 位址可能會被 YouTube、[Invidious](https://instances.invidious.io)或 [SponsorBlock](https://sponsor.ajay.app/) 所知，具體取決於您的設定。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -84,7 +84,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 
 **Yattee** 是一款免費的開源隱私導向影片播放器，適用於iOS、tvOS 和 macOS 觀看 [YouTube](https://youtube.com)。 使用 Yattee 時，訂閱清單和播放列表會儲存在 本地裝置上。
 
-由於 App Store 限制，您需要採取一些[額外步驟](https://gonzoknows.com/posts/Yattee/) 才能使用 Yattee 觀看YouTube。
+You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube, due to App Store restrictions.
 
 [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -95,7 +95,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
+- [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
 - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
 </details>
@@ -105,7 +105,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-使用 Yattee 時，IP位址可能仍會被 YouTube、 [Invidious](https://instances.invidious.io)、 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)或 [SponsorBlock](https://sponsor.ajay.app/)所知曉，具體取決於您的設定。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -139,7 +139,7 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-使用 LibreTube 時，IP 位址會為所用的 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)實例和 [SponsorBlock](https://sponsor.ajay.app/)看見，具體取決於您的設定。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -151,15 +151,15 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 
 ![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** 是 [YouTube](https://youtube.com)、 [SoundCloud](https://soundcloud.com)、 [media.ccc.de](https://media.ccc.de)、 [Bandcamp](https://bandcamp.com)和 [PeerTube](https://joinpeertube.org/) (1)的免費開源 Android應用程式。
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 訂閱清單和播放列表會儲存在本地的 Android裝置。
 
 [:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentation}
+[:octicons-info-16:](https://teamnewpipe.github.io/documentation){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -170,7 +170,7 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 
 </div>
 
-1. 預設實例為 [FramaTube](https://framatube.org/)，但可在 **Settings** → **Content** → **PeerTube instance ** 添加更多實例。
+1. The default instance is [FramaTube](https://framatube.org), however more can be added via **Settings** → **Content** → **PeerTube instances**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
@@ -192,9 +192,9 @@ There are a number of public instances, with some instances having [Tor](tor.md)
 
 [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
 [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://docs.invidious.io/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.invidious.io){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://invidious.io/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -226,7 +226,7 @@ Piped 需要JavaScript 才能運行，它有許多公共實例。
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
 [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=Documentation}
+[:octicons-info-16:](https://piped-docs.kavin.rocks){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 

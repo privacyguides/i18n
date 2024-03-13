@@ -54,6 +54,6 @@ icon: 'material/shield-account'
 
 ## 來源
 
-- [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) by Neil Richards
-- [新石油l: 為何隱私 & 安全重要](https://thenewoil.org/en/guides/prologue/why/)
+- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
+- [新石油l: 為何隱私 & 安全重要](https://thenewoil.org/en/guides/prologue/why)
 - [@Thorin-Oakenpants 有關"匿名" vs "隱私" vs "安全"](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)

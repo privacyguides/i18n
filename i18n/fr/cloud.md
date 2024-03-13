@@ -56,15 +56,15 @@ Les nouveaux clients mobiles de Proton Drive n'ont pas encore fait l'objet d'un 
 
 **Tresorit** est un fournisseur suisse-hongrois de stockage cloud chiffré fondé en 2011. Tresorit appartient à la Poste suisse, le service postal national de la Suisse.
 
-[:octicons-home-16: Page d'accueil](https://tresorit.com/){ class="md-button md-button--primary" }
-[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://tresorit.com){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
 - [:simple-windows11: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
@@ -75,15 +75,15 @@ Les nouveaux clients mobiles de Proton Drive n'ont pas encore fait l'objet d'un 
 
 Tresorit a fait l'objet d'un certain nombre d'audits de sécurité indépendants :
 
-- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/) : ISO/IEC 27001:2013[^1] [Certification](https://www.certipedia.com/quality_marks/9108644476) de conformité par TÜV Rheinland InterCert Kft
-- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/) : Test de pénétration par Computest
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
     - Cet examen a permis d'évaluer la sécurité du client web de Tresorit, de l'application Android, de l'application Windows et de l'infrastructure associée.
     - Computest a découvert deux vulnérabilités qui ont été résolues.
-- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/) : Test de pénétration par Ernst & Young.
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - Cette étude a analysé le code source complet de Tresorit et validé que la mise en œuvre correspond aux concepts décrits dans le [livre blanc](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) de Tresorit.
     - Ernst & Young a également testé les clients web, mobiles et de bureau : "Les résultats des tests n'ont révélé aucun écart par rapport aux affirmations de Tresorit en matière de confidentialité des données".
 
-Ils ont également reçu le Digital Trust Label, une certification de la [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/) qui exige la réussite de [35 critères](https://digitaltrust-label.swiss/criteria/) liés à la sécurité, à la confidentialité et à la fiabilité.
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
 
 ## Critères
 

@@ -62,12 +62,12 @@ Intentar proteger todos tus datos de todo el mundo y en todo momento es impráct
 
 ## ¡Te necesitamos! Aquí te indicamos cómo involucrarse:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Únete a nuestro foro" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Síguenos en Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribuye a este sitio web" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Ayuda a traducir este sitio web" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chatea con nosotros en Matrix" }
-[:material-information-outline:](about/index.md){ title="Conócenos mejor" }
-[:material-hand-coin-outline:](about/donate.md){ title="Apoya el proyecto" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 Es importante que un sitio web como Privacy Guides se mantenga siempre actualizado. Necesitamos que nuestra audiencia vigile las actualizaciones de software para las aplicaciones listadas en nuestro sitio y también sigan las últimas noticias sobre proveedores que recomendamos. Es difícil mantenerse al día con el ritmo rápido de Internet, pero intentamos lo mejor. Si detectas un error, crees que un proveedor no debe ser listado, notas que falta un proveedor calificado, crees que un plugin de navegador ya no es la mejor opción, o descubres cualquier otro problema, por favor háznoslo saber.

@@ -62,12 +62,12 @@ Tentar proteger os seus dados de toda a gente, a toda a hora, é impraticável, 
 
 ## Precisamos de si! Eis como participar:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Junte-se ao Fórum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Siga-nos no Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribua para este site" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Ajude a traduzir o site" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Fale connosco no Matrix" }
-[:material-information-outline:](about/index.md){ title="Saiba mais sibre nós" }
-[:material-hand-coin-outline:](about/donate.md){ title="Apoie o projeto" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 É importante que um site como o Privacy Guides esteja sempre atualizado. Precisamos que o nosso público esteja atento às atualizações de software para as aplicações listadas no nosso site e siga as notícias recentes sobre os fornecedores que recomendamos. É difícil acompanhar o ritmo acelerado da Internet, mas tentamos fazer o nosso melhor. Se detetar um erro, se achar que um fornecedor não deveria constar da lista, se notar que falta um fornecedor qualificado, se achar que um plugin do browser já não é a melhor opção ou se descobrir qualquer outro problema, informe-nos.

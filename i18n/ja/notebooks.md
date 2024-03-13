@@ -34,7 +34,7 @@ cover: notebooks.webp
 - [:simple-windows11: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)
 - [:simple-linux: Linux](https://standardnotes.com)
-- [:octicons-globe-16: Web](https://app.standardnotes.com/)
+- [:octicons-globe-16: Web](https://app.standardnotes.com)
 
 </details>
 
@@ -46,11 +46,11 @@ cover: notebooks.webp
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. 外出先でメモを取るための強力な同期機能を備えており、すべてのプラットフォームでエンドツーエンドの暗号化を行います。 You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. 外出先でメモを取るための強力な同期機能を備えており、すべてのプラットフォームでエンドツーエンドの暗号化を行います。 You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com).
 
-[:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.notesnook.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
 
@@ -58,12 +58,12 @@ cover: notebooks.webp
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
 - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
 - [:simple-windows11: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
-- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
 </details>
@@ -80,22 +80,22 @@ Notesnook only allows local note encryption with the [private vault](https://hel
 
 **Joplin**は、ノートやタグを管理し大量のMarkdownノートを扱える、フリー、オープンソース、フル機能のノートおよびToDoアプリケーションです。 エンドツーエンド暗号化対応で、NextcloudやDropboxなどを通じて同期できます。 また、Evernoteやプレーンテキストノートを簡単にインポートできます。
 
-[:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://joplinapp.org/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
 - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
 - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
 - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
 - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 </details>
@@ -135,9 +135,9 @@ Crypteeは100MBのストレージを無料で提供しています。さらに�
 
 <div class="admonition recommendation" markdown>
 
-![Org-modeロゴ](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode**はGNU Emacsの[主要なモード](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)です。 Org-modeを使うと、高速かつ効果的なプレーンテキスト システムにより、メモの保存、ToDoリストの管理、プロジェクトの計画、およびドキュメントの作成を行うことができます。 [ファイル同期](file-sharing.md#file-sync)ツールを使うと同期が可能です。
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-modeを使うと、高速かつ効果的なプレーンテキスト システムにより、メモの保存、ToDoリストの管理、プロジェクトの計画、およびドキュメントの作成を行うことができます。 [ファイル同期](file-sharing.md#file-sync)ツールを使うと同期が可能です。
 
 [:octicons-home-16: ホームページ](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=文書 }

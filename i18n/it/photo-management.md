@@ -14,12 +14,12 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 ![logo ente](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![logo ente](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** è un servizio di backup foto crittografato end-to-end che supporta backup automatici su iOS e Android. Il loro codice è completamente open source, sia dal lato del client che del server. È [ospitabile autonomamente](https://github.com/ente-io/ente/tree/main/server#self-hosting). Ha superato un [controllo da Cure53](https://ente.io/blog/cryptography-audit/) a marzo 2023 e da [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) ad aprile 2023.
+**ente** è un servizio di backup foto crittografato end-to-end che supporta backup automatici su iOS e Android. Il loro codice è completamente open source, sia dal lato del client che del server. È [ospitabile autonomamente](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
-[:octicons-home-16: Homepage](https://ente.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -46,17 +46,17 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 
 **Stingle** è un'applicazione per gallerie e fotocamere con funzionalità integrate di backup e sincronizzazione crittografata end-to-end per foto e video. Lo storage parte da 1 GB per gli account gratuiti sul loro cloud, oppure puoi ospitare il tuo server API Stingle per una totale indipendenza.
 
-[:octicons-home-16: Homepage](https://stingle.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/stingle){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://stingle.org/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
-- [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos/)
-- [:simple-appstore: App Store](https://apps.apple.com/in/app/stingle-photos/id1582535448)
+- [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
 - [:simple-github: GitHub](https://github.com/stingle)
 
 </details>
@@ -69,12 +69,12 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 
 ![Logo PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. Supporta la sincronizzazione e la condivisione degli album e una serie di altre [funzioni](https://www.photoprism.app/features). Non include E2EE, quindi è meglio che sia ospitato su un server di fiducia e che sia sotto il tuo controllo.
+**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). Non include E2EE, quindi è meglio che sia ospitato su un server di fiducia e che sia sotto il tuo controllo.
 
-[:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>

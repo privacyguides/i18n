@@ -28,9 +28,9 @@ cover: financial-services.webp
 
 Бесплатный тарифный план **Privacy.com** позволяет создавать до 12 виртуальных карт в месяц, устанавливать лимиты расходов по этим картам и мгновенно отключать карты. Платный тарифный план позволяет создавать до 36 карт в месяц, получать 1% кэшбэка за покупки и скрывать информацию о транзакциях от вашего банка.
 
-[:octicons-home-16: Домашняя страница](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Документация}
+[:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
 
 </details>
 
@@ -47,9 +47,9 @@ Privacy.com по умолчанию передает информацию о п�
 
 **MySudo** предоставляет до 9 виртуальных карт в зависимости от приобретенного вами тарифного плана. Их платные тарифные планы дополнительно включают функциональность, которая может быть полезна для совершения покупок в приватном порядке, например, виртуальные номера телефонов и адреса электронной почты, хотя для широкого использования псевдонимов электронной почты мы обычно рекомендуем других [провайдеров псевдонимов электронной почты](email.md).
 
-[:octicons-home-16: Домашняя страница](https://mysudo.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Документация}
+[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -83,9 +83,9 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 **CoinCards** (доступна в США и Канаде) позволяет приобретать подарочные карты для большого количества продавцов.
 
-[:octicons-home-16: Домашняя страница](https://coincards.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Документация}
+[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
 
 </details>
 

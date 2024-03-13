@@ -17,17 +17,17 @@ cover: desktop.webp
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora 通常較其他發行版更早採用較新技術，例如 [Wayland](https://wayland.freedesktop.org/) ， [PipeWire](https://pipewire.org)。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
+**Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org), [PipeWire](https://pipewire.org). 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentation}
-[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-Fedora 有一個半滾動的發布週期。 雖然像 [GNOME](https://www.gnome.org) 這樣的套件在下一個Fedora發布之前會被凍結，但大多數套件（包括內核）在該版的整個生命週期中都會頻繁更新。 每個 Fedora 版本支持一年，每6個月發布新版本。
+Fedora 有一個半滾動的發布週期。 While some packages like [GNOME](https://gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. 每個 Fedora 版本支持一年，每6個月發布新版本。
 
 ### openSUSE Tumbleweed
 
@@ -37,11 +37,11 @@ Fedora 有一個半滾動的發布週期。 雖然像 [GNOME](https://www.gnome.
 
 **openSUSE Tumbleweed** 是一個穩定滾動發行版。
 
-openSUSE Tumbleweed 有一個 [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/)系統，使用 [Btrfs](https://en.wikipedia.org/wiki/Btrfs)和 [Snapper](https://en.opensuse.org/openSUSE: Snapper_Tutorial)來確保快照可以在出現問題時回滾。
+openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
 
-[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentation}
-[:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org){ .card-link title=Documentation}
+[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title=Contribute }
 
 </details>
 
@@ -57,9 +57,9 @@ Tumbleweed 遵循滾動發佈模式，每個更新都是快照發布。 當您�
 
 **Arch Linux** 是一個輕量級的、自己動手(DIY)的發行版，意味著只能得到你安裝的東西。 如需更多資訊，請參閱他們的 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)。
 
-[:octicons-home-16: Homepage](https://archlinux.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentation}
-[:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://archlinux.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title=Documentation}
+[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -83,22 +83,22 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 **Fedora Atomic Desktops** 是 Fedora 的變體，它使用「rpm-ostree」套件管理器，專注於容器化工作流程和桌面應用程式的 Flatpak。 這些變體版都遵循 Fedora Workstation 同樣的發佈時間表，受益於相同的快速更新並保持非常接近上遊。
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
-[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-[Fedora Atomic Desktop](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) 有多種桌面環境風格可挑選，例如 **Fedora Silverblue**（[GNOME](https://www.gnome.org/) 一起提供）、**Fedora Kinoite**（隨[KDE](https://kde.org/) 提供）、**Fedora Sway Atomic** > 或**Fedora Budgie Atomic**。 但不推薦最後一個，因為 Budgie 桌面環境[仍需要 X11](https://buddiesofbudgie.org/blog/wayland)。
+The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://gnome.org)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. 但不推薦最後一個，因為 Budgie 桌面環境[仍需要 X11](https://buddiesofbudgie.org/blog/wayland)。
 
-這些作業系統與 Fedora Workstation 不同，它們用更高級方式替換了[DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) 套件 管理器，其叫作[`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/)。 `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
+These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree). `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
 
 更新完成後，您將重新啟動系統進入新的部署。 `rpm-ostree` 保留系統的兩個部署，以便在新部署中出現故障時可以輕鬆回滾。 還可以根據需要固定更多部署。
 
-[Flatpak](https://www.flatpak.org) 是這些發行版本的主要套件安裝方式，而 `rpm-ostree` 只用在基礎映像上疊加那些無法留在容器的套件。
+[Flatpak](https://flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
 
-作為 Flatpaks 替代品， [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/)可以建立 [Podman](https://podman.io) 容器，與主機系統共用主目與仿傳統 Fedora 環境。挑剔的開發者 [喜歡這個功能](https://containertoolbx.org)。
+As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
 
 ### NixOS
 
@@ -108,7 +108,7 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和可靠性。
 
-[:octicons-home-16: Homepage](https://nixos.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://nixos.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
 [:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribute }
 
@@ -136,10 +136,10 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 **Whonix** 為基於 [Kicksecure](#kicksecure) 專注在安全的 Debian 分支系統。 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](# qubes-os) 配合使用。
 
-[:octicons-home-16: Homepage](https://www.whonix.org/){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentation}
-[:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://whonix.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title=Contribute }
 
 </details>
 
@@ -147,9 +147,9 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 Whonix 運行兩個虛擬機器：一個“工作站”和一個 Tor “閘道”。 來自工作站的所有通訊都必須通過 Tor 閘道。 這意味著，即使工作站受到某種惡意軟體的破壞，真實的IP地址仍然隱藏。
 
-它的功能包括Tor 串流隔離、[擊鍵匿名](https://www.whonix.org/wiki/Keyrinkle_Deanonymization#Kloak)、[加密交換](https://github. com /Whonix/swap-file-creator)，以及強化的記憶體分配器。 Whonix 未來版本可能包括 [完整系統 AppArmor](https://github.com/Whonix/apparmor-profile-everything) 和 [個沙盒應用程式啟動器](https://www.whonix.org/wiki/Sandbox-app-launcher) ，以完全限制系統上的所有進程。
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Whonix 最好[與 Qubes 結合使用](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers)。 我們 [曾建議](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring in conjunction with a VPN 在 Qubes 底下與 ProxyVM 一起設定 Whonix 以便能對 ISP 隱瞞 Tor 的活動狀況。
+Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). 我們 [曾建議](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring in conjunction with a VPN 在 Qubes 底下與 ProxyVM 一起設定 Whonix 以便能對 ISP 隱瞞 Tor 的活動狀況。
 
 ### Tails
 
@@ -159,9 +159,9 @@ Whonix 最好[與 Qubes 結合使用](https://www.whonix.org/wiki/Qubes/Why_use_
 
 **Tails** 是一個基於Debian 的自生作業系統，通過 Tor 路由所有通訊，透過 DVD ， USB記憶棒或 SD卡安裝幾乎可在任何電腦上啟動。 它使用 [Tor](tor.md) 來保護隱私和匿名性，同時規避審查制度，並且使用的電腦在關閉電源後不會留下任何痕跡。
 
-[:octicons-home-16: Homepage](https://tails.boum.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentation}
-[:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=Documentation}
+[:octicons-heart-16:](https://tails.net/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -178,7 +178,7 @@ Tails 關閉後[不會抹除](https://gitlab.tails.boum.org/tails/tails/-/issues
 
 Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origin) ，這可能會使對手更容易指紋識別 Tails 用戶。 [Whonix](desktop.md#whonix) 虛擬機器可能更為防洩漏may be more leak-proof, however they are not amnesic, ，但它沒有失憶功能，因此資料可以從儲存設備上進行恢復。
 
-設計上， Tails 每次重新啟動後意謂將完全重置。 加密 [永久存儲](https://tails.boum.org/doc/persistent_storage/index.en.html) 可以配置來存儲一些資料。
+設計上， Tails 每次重新啟動後意謂將完全重置。 Encrypted [persistent storage](https://tails.net/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
 ## 以安全爲重點的發行版
 
@@ -190,12 +190,12 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origi
 
 **Qubes OS** 是開源作業系統，利用安全的虛擬器為桌面運算提供更強的安全性 (或稱"qubes"). Qubes 基於 Xen, X Window 系統與 Linux。 大多數 Linux 應用它都可以執行且適用 Linux 驅動。
 
-[:octicons-home-16: Homepage](https://www.qubes-os.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://qubes-os.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribute }
+[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -215,11 +215,11 @@ Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔�
 
 **Kicksecure**—其簡化的介紹—可以說是一組腳本、置配與套件的組合，可大幅減少 Debian 的攻擊面。 它預設覆蓋了大量的隱私和加固建議。 它也是 [Whonix](#whonix) 的基礎作業系統。
 
-[:octicons-home-16: Homepage](https://www.kicksecure.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+[:octicons-home-16: Homepage](https://kicksecure.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
 [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title=Contribute }
 
 </details>
 

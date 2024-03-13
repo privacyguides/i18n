@@ -28,17 +28,17 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 **Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
-[:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.thunderbird.net)
-- [:simple-apple: macOS](https://www.thunderbird.net)
-- [:simple-linux: Linux](https://www.thunderbird.net)
+- [:simple-windows11: Windows](https://thunderbird.net)
+- [:simple-apple: macOS](https://thunderbird.net)
+- [:simple-linux: Linux](https://thunderbird.net)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
 </details>
@@ -75,7 +75,7 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen** → **Privacy
 **Apple Mail** is opgenomen in macOS en kan worden uitgebreid met OpenPGP-ondersteuning met [GPG Suite](/encryption/#gpg-suite), waarmee de mogelijkheid wordt toegevoegd om versleutelde e-mail te versturen.
 
 [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
 
 </details>
@@ -94,7 +94,7 @@ Apple Mail heeft de mogelijkheid om inhoud op afstand op de achtergrond te laden
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -128,7 +128,7 @@ Canary Mail is closed-source. We raden het aan omdat er maar weinig keuzes zijn 
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -146,13 +146,13 @@ Canary Mail is closed-source. We raden het aan omdat er maar weinig keuzes zijn 
 
 ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** is een applicatie voor het beheer van persoonlijke informatie die geïntegreerde mail-, agenda- en adresboekfuncties biedt. Evolution heeft uitgebreide [documentation](https://help.gnome.org/users/evolution/stable/) om u op weg te helpen.
+**Evolution** is een applicatie voor het beheer van persoonlijke informatie die geïntegreerde mail-, agenda- en adresboekfuncties biedt. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -175,7 +175,7 @@ In de toekomst zal K-9 Mail de [officieel gemerkte](https://k9mail.app/2022/06/1
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.k9mail.app){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
 
@@ -206,9 +206,9 @@ Bij het beantwoorden van iemand op een mailinglijst kan de optie "beantwoorden" 
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title=Documentation}
 [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -228,8 +228,8 @@ Bij het beantwoorden van iemand op een mailinglijst kan de optie "beantwoorden" 
 
 **Mailvelope** is een browser extensie die de uitwisseling van versleutelde e-mails mogelijk maakt volgens de OpenPGP encryptie standaard.
 
-[:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
@@ -255,9 +255,9 @@ Bij het beantwoorden van iemand op een mailinglijst kan de optie "beantwoorden" 
 NeoMutt is een tekst-gebaseerde client die een steile leercurve heeft. Het is echter zeer aanpasbaar.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
+[:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

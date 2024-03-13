@@ -21,19 +21,19 @@ schema:
 
 **Privacy Guides** הוא אתר בעל מוטיבציה חברתית המספק [מידע](/kb) להגנה על אבטחת הנתונים ופרטיותך. המשימה שלך היא ליידע את הציבור על הערך של פרטיות דיגיטלית, ויוזמות ממשלתיות גלובליות שמטרתן לנטר את הפעילות המקוונת שלך. אנחנו קולקטיב ללא מטרות רווח המופעל כולו על ידי [חברי צוות](https://discuss.privacyguides.net/g/team) מתנדבים ותורמים. האתר שלנו נקי מפרסומות ואינו מזוהה עם אף אחד מהספקים הרשומים.
 
-[:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=דף הבית }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="קוד מקור" }
-[:octicons-heart-16:](donate.md){ .card-link title=לתרומה }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[:octicons-heart-16:](donate.md){ .card-link title=Contribute }
 
 > כדי למצוא אפליקציות [אלטרנטיביות ממוקדות פרטיות], בדוק אתרים כמו Good Reports ו-**Privacy Guides**, המפרטים אפליקציות ממוקדות פרטיות במגוון קטגוריות, כולל ספקי אימייל (בדרך כלל בתוכניות בתשלום) שאינן מנוהלות על ידי הגדולים חברות טכנולוגיה.
 
-— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
+— [New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
 
 > אם אתה מחפש VPN חדש, אתה יכול ללכת לקוד ההנחה של כמעט כל פודקאסט. אם אתה מחפש VPN **טוב**, אתה צריך עזרה מקצועית. אותו דבר לגבי לקוחות אימייל, דפדפנים, מערכות הפעלה ומנהלי סיסמאות. איך אתה יודע איזו מבין אלה היא האפשרות הטובה והידידותית ביותר לפרטיות? בשביל זה יש **Privacy Guides**, פלטפורמה שבה מספר מתנדבים מחפשים מדי יום ביומו את הכלים הידידותיים לפרטיות הטובים ביותר לשימוש באינטרנט.
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [תורגם מהולנדית]
 
-מוצג גם ב: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), ו- [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://wired.com/story/firefox-mozilla-2022).
 
 ## היסטוריה
 
@@ -41,7 +41,7 @@ schema:
 
 בשנת 2022, השלמנו את המעבר של מסגרת האתר הראשית שלנו מ-Jekyll ל-MkDocs, באמצעות תוכנת התיעוד `mkdocs-material`. השינוי הזה הפך את תרומות הקוד הפתוח לאתר שלנו לקלות משמעותית עבור זרים, מכיוון שבמקום צורך לדעת תחביר מסובך כדי לכתוב פוסטים בצורה יעילה, התרומה קלה כעת כמו כתיבת מסמך Markdown סטנדרטי.
 
-בנוסף השקנו את פורום הדיון החדש שלנו בכתובת [discuss.privacyguides.net](https://discuss.privacyguides.net/) כפלטפורמה קהילתית לחלוק רעיונות ולשאול שאלות על המשימה שלנו. זה מגדיל את הקהילה הקיימת שלנו ב-Matrix, והחליף את פלטפורמת הדיונים הקודמת של GitHub שלנו, מה שמפחית את ההסתמכות שלנו על פלטפורמות דיון קנייניות.
+We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. זה מגדיל את הקהילה הקיימת שלנו ב-Matrix, והחליף את פלטפורמת הדיונים הקודמת של GitHub שלנו, מה שמפחית את ההסתמכות שלנו על פלטפורמות דיון קנייניות.
 
 עד כה בשנת 2023 השקנו תרגומים בינלאומיים של האתר שלנו ב[צרפתית](/fr/), [עברית](/he/), וגם [הולנדית](/nl/), שפות נוספות בדרך, התאפשרה על ידי צוות התרגום המצוין שלנו ב-[Crowdin](https://crowdin.com/project/privacyguides). אנו מתכננים להמשיך ולקדם את משימתנו של הסברה וחינוך, למצוא דרכים להדגיש בצורה ברורה יותר את הסכנות של חוסר מודעות לפרטיות בעידן הדיגיטלי המודרני ואת השכיחות והנזקים של פרצות אבטחה בכל תעשיית הטכנולוגיה.
 

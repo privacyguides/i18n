@@ -22,15 +22,15 @@ cover: encryption.webp
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.cryptomator.org/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.cryptomator.org){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://cryptomator.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1560822163)
 - [:simple-android: Android](https://cryptomator.org/android)
 - [:simple-windows11: Windows](https://cryptomator.org/downloads)
 - [:simple-apple: macOS](https://cryptomator.org/downloads)
@@ -45,7 +45,7 @@ Cryptomator использует шифрование AES-256 для шифро�
 
 Cure53 провёл [аудит](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) некоторых криптографических библиотек Cryptomator. Эти библиотеки включают в себя [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) и [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). Аудит не проходила [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), которая сейчас используется в iOS.
 
-В документации Cryptomator подробно описаны его предполагаемые [цели безопасности](https://docs.cryptomator.org/en/latest/security/security-target/), [архитектура безопасности](https://docs.cryptomator.org/en/latest/security/architecture/), и [лучшие практики](https://docs.cryptomator.org/en/latest/security/best-practices/) для использования.
+Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.
 
 ### Picocrypt (Файлы)
 
@@ -81,15 +81,15 @@ Cure53 провёл [аудит](https://community.cryptomator.org/t/has-there-b
 
 [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://veracrypt.fr/code/){ .card-link title="Source Code" }
+[:octicons-code-16:](https://veracrypt.fr/code){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.veracrypt.fr/en/Downloads.html)
-- [:simple-apple: macOS](https://www.veracrypt.fr/en/Downloads.html)
-- [:simple-linux: Linux](https://www.veracrypt.fr/en/Downloads.html)
+- [:simple-windows11: Windows](https://veracrypt.fr/en/Downloads.html)
+- [:simple-apple: macOS](https://veracrypt.fr/en/Downloads.html)
+- [:simple-linux: Linux](https://veracrypt.fr/en/Downloads.html)
 
 </details>
 
@@ -111,15 +111,15 @@ For encrypting the drive your operating system boots from, we generally recommen
 
 ![Логотип BitLocker](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** - решение для полного шифрования диска в Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection/).
+**BitLocker** - решение для полного шифрования диска в Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
 
-[:octicons-info-16:](https://docs.microsoft.com/en-us/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Документация}
+[:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
 </details>
 
 </div>
 
-BitLocker [поддерживается только](https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) в Pro, Enterprise и Education версиях Windows. Эту функцию можно включить и в Home версии при соответствии условиям.
+BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. Эту функцию можно включить и в Home версии при соответствии условиям.
 
 <details class="example" markdown>
 <summary>Enabling BitLocker on Windows Home</summary>
@@ -136,7 +136,7 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
    ```
 
-3. Откройте [дополнительные параметры запуска](https://support.microsoft.com/en-us/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Необходимо перезагрузиться, нажав клавишу F8 до запуска Windows, и перейти в *командную строку* в разделе **Устранение неполадок** → **Дополнительные параметры** → **Командная строка**.
+3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Необходимо перезагрузиться, нажав клавишу F8 до запуска Windows, и перейти в *командную строку* в разделе **Устранение неполадок** → **Дополнительные параметры** → **Командная строка**.
 4. Войдите под учетной записью администратора и введите следующее для запуска шифрования:
    ```powershell
    manage-bde -on c: -used
@@ -183,9 +183,9 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
 
 **LUKS** - это стандартный метод FDE для Linux. Его можно использовать для шифрования полных томов, разделов или создания зашифрованных контейнеров.
 
-[:octicons-home-16: Домашняя страница](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Документация}
-[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup/){ .card-link title="Исходный код" }
+[:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Source Code" }
 
 </details>
 
@@ -231,20 +231,20 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ![Логотип Kryptor](assets/img/encryption-software/kryptor.png){ align=right }
 
-**Kryptor** - это бесплатный инструмент для шифрования и подписи файлов с открытым исходным кодом, использующий современные и безопасные криптографические алгоритмы. Его цель - стать улучшенной версией [age](https://github.com/FiloSottile/age) и [Minisign](https://jedisct1.github.io/minisign/), чтобы обеспечить простую, удобную для пользователя альтернативу GPG.
+**Kryptor** - это бесплатный инструмент для шифрования и подписи файлов с открытым исходным кодом, использующий современные и безопасные криптографические алгоритмы. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
 
-[:octicons-home-16: Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.kryptor.co.uk/tutorial){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kryptor.co.uk/tutorial){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.kryptor.co.uk/#donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kryptor.co.uk/#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.kryptor.co.uk)
-- [:simple-apple: macOS](https://www.kryptor.co.uk)
-- [:simple-linux: Linux](https://www.kryptor.co.uk)
+- [:simple-windows11: Windows](https://kryptor.co.uk)
+- [:simple-apple: macOS](https://kryptor.co.uk)
+- [:simple-linux: Linux](https://kryptor.co.uk)
 
 </details>
 
@@ -258,10 +258,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 **Tomb** - это оболочка командной строки для LUKS. Он поддерживает стеганографию с помощью [сторонних инструментов](https://github.com/dyne/Tomb#how-does-it-work).
 
-[:octicons-home-16: Домашняя страница](https://www.dyne.org/software/tomb){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Исходный код" }
-[:octicons-heart-16:](https://www.dyne.org/donate){ .card-link title=Поддержать}
+[:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://dyne.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -271,12 +271,12 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 OpenPGP иногда необходим для решения специфических задач, таких как цифровая подпись и шифрование электронной почты. PGP имеет множество функций и является [комплексным](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html), поскольку существует уже долгое время. Для таких задач, как подписание или шифрование файлов, мы предлагаем использовать вышеуказанные варианты.
 
-При шифровании с помощью PGP у вас есть возможность настроить различные параметры в файле `gpg.conf`. Мы рекомендуем придерживаться стандартных опций, указанных в [FAQ пользователя GnuPG](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
+При шифровании с помощью PGP у вас есть возможность настроить различные параметры в файле `gpg.conf`. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Use future defaults when generating a key</p>
 
-When [generating keys](https://www.gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to/):
+When [generating keys](https://gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to):
 
 ```bash
 gpg --quick-gen-key alice@example.com future-default
@@ -290,7 +290,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![Логотип GNU Privacy Guard](assets/img/encryption-software/gnupg.svg){ align=right }
 
-**GnuPG** - это GPL-альтернатива криптографическому пакету PGP. GnuPG совместим с [RFC 4880](https://tools.ietf.org/html/rfc4880), который является текущей спецификацией IETF для OpenPGP. Проект GnuPG работает над [обновленным проектом](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) в попытке улучшить OpenPGP. GnuPG является частью фонда свободного программного обеспечения GNU и получил крупное [финансирование](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) от правительства Германии.
+**GnuPG** - это GPL-альтернатива криптографическому пакету PGP. GnuPG совместим с [RFC 4880](https://tools.ietf.org/html/rfc4880), который является текущей спецификацией IETF для OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG является частью фонда свободного программного обеспечения GNU и получил крупное [финансирование](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) от правительства Германии.
 
 [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
@@ -369,11 +369,11 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![Логотип OpenKeychain](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** - это Android-реализация GnuPG. Он обычно требуется почтовым клиентам, таким как [K-9 Mail](email-clients.md#k-9-mail) и [FairEmail](email-clients.md#fairemail), а также другим приложениям для Android для обеспечения поддержки шифрования. Компания Cure53 завершила [аудит безопасности](https://www.openkeychain.org/openkeychain-3-6) OpenKeychain 3.6 в октябре 2015 года. Технические подробности об аудите и решениях OpenKeychain можно найти на сайте [здесь](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** - это Android-реализация GnuPG. Он обычно требуется почтовым клиентам, таким как [K-9 Mail](email-clients.md#k-9-mail) и [FairEmail](email-clients.md#fairemail), а также другим приложениям для Android для обеспечения поддержки шифрования. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Технические подробности об аудите и решениях OpenKeychain можно найти на сайте [здесь](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
-[:octicons-home-16: Homepage](https://www.openkeychain.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.openkeychain.org/faq/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://openkeychain.org/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>

@@ -55,7 +55,7 @@ Secara rancangan, **peramban web**, **klien surel**, dan **aplikasi perkantoran*
 
 </div>
 
-Jika Anda khawatir tentang **serangan fisik** Anda harus menggunakan sistem operasi dengan implementasi boot terverifikasi yang aman, seperti Android, iOS, macOS, atau [Windows (dengan TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Anda juga harus memastikan bahwa penyimpanan Anda dienkripsi, dan bahwa sistem operasi menggunakan TPM atau Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) atau [Element](https://developers.google.com/android/security/android-ready-se) untuk menilai batas upaya memasukkan frasa sandi enkripsi. Anda sebaiknya menghindari berbagi komputer dengan orang yang tidak Anda percayai, karena sebagian besar sistem operasi desktop tidak mengenkripsi data secara terpisah per pengguna.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Anda juga harus memastikan bahwa penyimpanan Anda dienkripsi, dan bahwa sistem operasi menggunakan TPM atau Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) atau [Element](https://developers.google.com/android/security/android-ready-se) untuk menilai batas upaya memasukkan frasa sandi enkripsi. Anda sebaiknya menghindari berbagi komputer dengan orang yang tidak Anda percayai, karena sebagian besar sistem operasi desktop tidak mengenkripsi data secara terpisah per pengguna.
 
 ## Privasi Dari Penyedia Layanan
 
@@ -89,16 +89,16 @@ Pengawasan massal adalah upaya yang rumit untuk memantau "perilaku, berbagai akt
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-Jika Anda ingin mempelajari lebih lanjut tentang metode pengawasan dan bagaimana metode tersebut diterapkan di kota Anda, Anda juga dapat melihat [Atlas Pengawasan (Atlas of Surveillance)](https://atlasofsurveillance.org/) oleh [Electronic Frontier Foundation](https://www.eff.org/).
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 Pemerintah sering kali membenarkan program pengawasan massal sebagai cara yang diperlukan untuk memerangi terorisme dan mencegah kejahatan. Namun, melanggar hak asasi manusia, hal ini paling sering digunakan untuk menargetkan kelompok minoritas dan pembangkang politik secara tidak proporsional.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 Dalam menghadapi [pengungkapan Edward Snowden tentang program-program pemerintah seperti [PRISM](https://en.wikipedia.org/wiki/PRISM) dan [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], para pejabat intelijen juga mengakui bahwa NSA selama bertahun-tahun secara diam-diam telah mengumpulkan catatan tentang hampir semua panggilan telepon setiap orang Amerika—siapa yang menelepon siapa, kapan panggilan itu dilakukan, dan berapa lama panggilan itu berlangsung. Informasi semacam ini, ketika dikumpulkan oleh NSA dari hari ke hari, dapat mengungkapkan detail yang sangat sensitif tentang kehidupan dan pergaulan seseorang, seperti apakah mereka pernah menelepon pendeta, penyedia layanan aborsi, konselor kecanduan, atau bantuan pencegahan bunuh diri.
 
@@ -144,7 +144,7 @@ Jika Anda telah mengirimkan informasi asli Anda ke situs-situs yang seharusnya t
 
 Penyensoran secara daring bisa dilakukan (dalam berbagai tingkatan) oleh berbagai pihak, termasuk pemerintah totaliter, administrator jaringan, dan penyedia layanan. Upaya-upaya untuk mengendalikan komunikasi dan membatasi akses terhadap informasi akan selalu tidak sesuai dengan hak asasi manusia atas Kebebasan Berekspresi.[^5]
 
-Penyensoran pada platform perusahaan semakin umum terjadi, karena platform seperti Twitter dan Facebook menyerah pada permintaan publik, tekanan pasar, dan tekanan dari lembaga pemerintah. Tekanan pemerintah dapat berupa permintaan terselubung kepada bisnis, seperti Gedung Putih [yang meminta penghapusan](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) video YouTube yang provokatif, atau secara terang-terangan, seperti pemerintah Cina yang mewajibkan perusahaan untuk mematuhi rezim sensor yang ketat.
+Penyensoran pada platform perusahaan semakin umum terjadi, karena platform seperti Twitter dan Facebook menyerah pada permintaan publik, tekanan pasar, dan tekanan dari lembaga pemerintah. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 Orang-orang yang khawatir dengan ancaman penyensoran dapat menggunakan teknologi seperti [Tor](../advanced/tor-overview.md) untuk mengelakkannya, dan mendukung platform komunikasi yang tahan sensor seperti [Matrix](../real-time-communication.md#element), yang tidak memiliki otoritas akun terpusat yang dapat menutup akun secara sewenang-wenang.
 
@@ -162,5 +162,5 @@ Anda harus selalu mempertimbangkan risiko mencoba menerobos sensor, konsekuensi 
 [^1]: Wikipedia: [*Pengawasan Massal*](https://en.wikipedia.org/wiki/Mass_surveillance) dan [*Pengawasan*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: Badan Pengawasan Privasi dan Kebebasan Sipil Amerika Serikat: [*Laporan tentang Program Rekaman Telepon yang Dilakukan berdasarkan Pasal 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Kapitalisme pengawasan*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Anda juga harus menggunakan teknik mitigasi lainnya.
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Anda juga harus menggunakan teknik mitigasi lainnya.
 [^5]: Perserikatan Bangsa-Bangsa: [*Deklarasi Universal Hak Asasi Manusia*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

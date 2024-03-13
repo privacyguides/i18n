@@ -19,7 +19,7 @@ Als je een instantie gebruikt die door iemand anders wordt beheerd, moet je het 
 
 ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
 
-**ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
+**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
 
 There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
@@ -53,7 +53,7 @@ Standaard blokkeert FreeTube alle YouTube-advertenties. Bovendien integreert Fre
 
 [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.freetubeapp.io){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
 
@@ -72,7 +72,7 @@ Standaard blokkeert FreeTube alle YouTube-advertenties. Bovendien integreert Fre
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Als je FreeTube gebruikt, kan je IP-adres nog steeds bekend zijn bij YouTube, [Invidious](https://instances.invidious.io) of [SponsorBlock](https://sponsor.ajay.app/), afhankelijk van je configuratie. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -84,7 +84,7 @@ Als je FreeTube gebruikt, kan je IP-adres nog steeds bekend zijn bij YouTube, [I
 
 **Yattee** is een gratis en open-source privacy georiënteerde videospeler voor iOS, tvOS en macOS voor [YouTube](https://youtube.com). Wanneer je Yattee gebruikt, wordt je abonnementenlijst lokaal op je toestel opgeslagen.
 
-Je zult een paar [extra stappen](https://gonzoknows.com/posts/Yattee/) moeten nemen voordat je Yattee kunt gebruiken om YouTube te kijken, vanwege beperkingen in de App Store.
+You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube, due to App Store restrictions.
 
 [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -95,7 +95,7 @@ Je zult een paar [extra stappen](https://gonzoknows.com/posts/Yattee/) moeten ne
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
+- [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
 - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
 </details>
@@ -105,7 +105,7 @@ Je zult een paar [extra stappen](https://gonzoknows.com/posts/Yattee/) moeten ne
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Wanneer je Yattee gebruikt, is jouw IP-adres mogelijk nog steeds bekend bij YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) of [SponsorBlock](https://sponsor.ajay.app/), afhankelijk van jouw configuratie. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -139,7 +139,7 @@ Met LibreTube kunt u uw abonnementenlijst en afspeellijsten lokaal op uw Android
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Wanneer u LibreTube gebruikt, is uw IP-adres zichtbaar voor de door u gekozen instantie [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) en/of [SponsorBlock](https://sponsor.ajay.app/), afhankelijk van uw configuratie. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -151,15 +151,15 @@ LibreTube blokkeert standaard alle YouTube-advertenties. Bovendien gebruikt Libr
 
 ![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** is een gratis en open-source Android applicatie voor [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), en [PeerTube](https://joinpeertube.org/) (1).
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 Uw abonnementenlijst en afspeellijsten worden lokaal op uw Android toestel opgeslagen.
 
 [:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentation}
+[:octicons-info-16:](https://teamnewpipe.github.io/documentation){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -170,7 +170,7 @@ Uw abonnementenlijst en afspeellijsten worden lokaal op uw Android toestel opges
 
 </div>
 
-1. De standaard instantie is [FramaTube](https://framatube.org/), maar er kunnen er meer worden toegevoegd via **Instellingen** → **Inhoud** → **PeerTube instanties**
+1. The default instance is [FramaTube](https://framatube.org), however more can be added via **Settings** → **Content** → **PeerTube instances**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -192,9 +192,9 @@ There are a number of public instances, with some instances having [Tor](tor.md)
 
 [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
 [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://docs.invidious.io/){ .card-link title=Documentatie}
-[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Broncode" }
-[:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Bijdragen }
+[:octicons-info-16:](https://docs.invidious.io){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://invidious.io/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -226,9 +226,9 @@ Piped vereist JavaScript om te kunnen functioneren en er zijn een aantal openbar
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
 [:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=Documentatie}
-[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Broncode" }
-[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Bijdragen }
+[:octicons-info-16:](https://piped-docs.kavin.rocks){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 
 </details>
 

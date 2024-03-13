@@ -4,25 +4,25 @@ icon: 'material/account-remove'
 description: Sangat mudah untuk mengumpulkan sejumlah besar akun internet, berikut ini beberapa tips tentang cara memangkas koleksi Anda.
 ---
 
-Seiring waktu, mudah sekali untuk menumpuk sejumlah akun online, yang banyak di antaranya mungkin sudah tidak Anda gunakan lagi. Menghapus akun-akun yang tidak terpakai ini merupakan langkah penting untuk mendapatkan kembali privasi Anda, karena akun-akun yang tidak aktif rentan terhadap pelanggaran data. Pelanggaran data adalah ketika keamanan layanan terganggu dan informasi yang dilindungi dilihat, dikirim, atau dicuri oleh pihak yang tidak berwenang. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://www.deceptive.design/), for the betterment of your online presence.
+Seiring waktu, mudah sekali untuk menumpuk sejumlah akun online, yang banyak di antaranya mungkin sudah tidak Anda gunakan lagi. Menghapus akun-akun yang tidak terpakai ini merupakan langkah penting untuk mendapatkan kembali privasi Anda, karena akun-akun yang tidak aktif rentan terhadap pelanggaran data. Pelanggaran data adalah ketika keamanan layanan terganggu dan informasi yang dilindungi dilihat, dikirim, atau dicuri oleh pihak yang tidak berwenang. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## Menemukan Akun Lama
 
 ### Pengelola Kata Sandi
 
-Jika Anda memiliki pengelola kata sandi yang telah Anda gunakan untuk seluruh kehidupan digital Anda, bagian ini akan sangat mudah. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned/).
+Jika Anda memiliki pengelola kata sandi yang telah Anda gunakan untuk seluruh kehidupan digital Anda, bagian ini akan sangat mudah. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser or your phone without even realizing it. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser or your phone without even realizing it. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
 Platform desktop juga sering kali memiliki pengelola kata sandi yang dapat membantu Anda memulihkan kata sandi yang Anda lupakan:
 
-- Windows [Manajer Kredensial](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Kata Sandi](https://support.apple.com/en-us/HT211145)
-- iOS [Kata Sandi](https://support.apple.com/en-us/HT211146)
+- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [Passwords](https://support.apple.com/HT211145)
+- iOS [Passwords](https://support.apple.com/HT211146)
 - Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
@@ -39,7 +39,7 @@ Ketika mencoba untuk mendapatkan kembali akses, jika situs mengembalikan pesan k
 
 ### GDPR (hanya untuk penduduk EEA)
 
-Penduduk EEA memiliki hak tambahan terkait penghapusan data yang ditentukan dalam [Pasal 17](https://www.gdpr.org/regulation/article-17.html) GDPR. Jika itu berlaku untuk Anda, baca kebijakan privasi untuk setiap layanan yang diberikan untuk menemukan informasi tentang cara menggunakan hak Anda untuk menghapus. Membaca kebijakan privasi terbukti penting, karena beberapa layanan memiliki opsi "Hapus Akun" yang hanya menonaktifkan akun Anda dan untuk penghapusan yang sebenarnya Anda harus mengambil tindakan tambahan. Terkadang penghapusan yang sebenarnya mungkin melibatkan pengisian survei, mengirim email ke petugas perlindungan data layanan atau bahkan membuktikan tempat tinggal Anda di EEA. Jika Anda berencana untuk menggunakan cara ini,**jangan** menimpa informasi akun - identitas Anda sebagai penduduk EEA mungkin diperlukan. Perhatikan bahwa lokasi layanan tidak masalah; GDPR berlaku untuk siapa pun yang melayani pengguna Eropa. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and you may be entitled to monetary compensation.
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. Jika itu berlaku untuk Anda, baca kebijakan privasi untuk setiap layanan yang diberikan untuk menemukan informasi tentang cara menggunakan hak Anda untuk menghapus. Membaca kebijakan privasi terbukti penting, karena beberapa layanan memiliki opsi "Hapus Akun" yang hanya menonaktifkan akun Anda dan untuk penghapusan yang sebenarnya Anda harus mengambil tindakan tambahan. Terkadang penghapusan yang sebenarnya mungkin melibatkan pengisian survei, mengirim email ke petugas perlindungan data layanan atau bahkan membuktikan tempat tinggal Anda di EEA. Jika Anda berencana untuk menggunakan cara ini,**jangan** menimpa informasi akun - identitas Anda sebagai penduduk EEA mungkin diperlukan. Perhatikan bahwa lokasi layanan tidak masalah; GDPR berlaku untuk siapa pun yang melayani pengguna Eropa. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and you may be entitled to monetary compensation.
 
 ### Overwriting Account information
 
@@ -59,4 +59,4 @@ Bahkan ketika Anda dapat menghapus akun, tidak ada jaminan bahwa semua informasi
 
 ## Hindari Akun Baru
 
-Seperti kata pepatah lama, "satu ons pencegahan sebanding dengan satu pon pengobatan." Kapan pun Anda merasa tergoda untuk mendaftar akun baru, tanyakan pada diri sendiri, "Apakah saya benar-benar membutuhkan ini? Dapatkah saya menyelesaikan apa yang saya butuhkan tanpa akun?" Menghapus akun sering kali lebih sulit daripada membuat akun. Dan bahkan setelah menghapus atau mengubah informasi di akun Anda, mungkin ada versi cache dari pihak ketiga-seperti [Internet Archive](https://archive.org/). Avoid the temptation when you're able to—your future self will thank you!
+Seperti kata pepatah lama, "satu ons pencegahan sebanding dengan satu pon pengobatan." Kapan pun Anda merasa tergoda untuk mendaftar akun baru, tanyakan pada diri sendiri, "Apakah saya benar-benar membutuhkan ini? Dapatkah saya menyelesaikan apa yang saya butuhkan tanpa akun?" Menghapus akun sering kali lebih sulit daripada membuat akun. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). Avoid the temptation when you're able to—your future self will thank you!

@@ -17,7 +17,7 @@ title: העלאת תמונות
 
 ### PNG
 
-השתמש ב-[OptiPNG](https://sourceforge.net/projects/optipng/) כדי לבצע אופטימיזציה של תמונת PNG:
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
 
 ```bash
 optipng -o7 file.png

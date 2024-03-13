@@ -35,10 +35,10 @@ Di seguito sono elencati alcuni sistemi operativi alternativi, utilizzabili sui 
 
 **OPNsense** è una piattaforma open source di firewall e routing basata su FreeBSD che incorpora molte funzionalità avanzate come il traffic shaping, il bilanciamento del carico e le funzionalità VPN, con molte altre funzionalità disponibili sotto forma di plugin. OPNsense è comunemente distribuito come firewall perimetrale, router, punto d'accesso wireless, server DHCP, server DNS ed endpoint VPN.
 
-[:octicons-home-16: Home](https://opnsense.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Codice Sorgente" }
-[:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Contribuisci}
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 
 </details>
 

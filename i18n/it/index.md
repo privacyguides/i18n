@@ -62,12 +62,12 @@ Provare a proteggere tutti i tuoi dati da chiunque e in ogni momento, è poco pr
 
 ## Abbiamo bisogno di te! Ecco come puoi partecipare:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Unisciti al nostro Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Seguici su Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribuisci a questo sito web" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Aiuta a tradurre questo sito web" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Scrivici su Matrix" }
-[:material-information-outline:](about/index.md){ title="Scopri di più su di noi" }
-[:material-hand-coin-outline:](about/donate.md){ title="Supporta il progetto" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 È importante che un sito web come Privacy Guides sia sempre aggiornato. Necessitiamo che il nostro pubblico tenga d'occhio gli aggiornamenti delle applicazioni elencate sul nostro sito e che segua le notizie sui fornitori che consigliamo. È difficile tenere il passo con il veloce ritmo di Internet, ma facciamo del nostro meglio. Se noti un errore, pensi che un fornitore non dovrebbe essere elencato, noti che un fornitore qualificato sia mancante, credi che un plugin per browser non sia più la scelta migliore, o scopri qualsiasi altro problema, ti preghiamo di farcelo sapere.

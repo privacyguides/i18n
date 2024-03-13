@@ -28,17 +28,17 @@ OpenPGP non supporta inoltre la [forward secrecy](https://en.wikipedia.org/wiki/
 
 **Thunderbird** è un client di posta elettronica, newsgroup, news feed e chat (XMPP, IRC, Matrix) gratuito, open-source e multipiattaforma, sviluppato dalla communityThunderbird e precedentemente dalla Mozilla Foundation.
 
-[:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentazione}
-[:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.thunderbird.net)
-- [:simple-apple: macOS](https://www.thunderbird.net)
-- [:simple-linux: Linux](https://www.thunderbird.net)
+- [:simple-windows11: Windows](https://thunderbird.net)
+- [:simple-apple: macOS](https://thunderbird.net)
+- [:simple-linux: Linux](https://thunderbird.net)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
 </details>
@@ -74,9 +74,9 @@ Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy 
 
 **Apple Mail** è incluso in macOS ed è estendibile per supportare OpenPGP con [GPG Suite](encryption.md#gpg-suite), che aggiunge la possibilità di inviare email crittografate in PGP.
 
-[:octicons-home-16: Home](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Politica sulla Privacy" }
-[:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentazione}
+[:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
 
 </details>
 
@@ -93,8 +93,8 @@ Apple Mail può caricare i contenuti da remoto in background o bloccarli interam
 **Canary Mail** è un client email a pagamento progettato per semplificare la crittografia end-to-end con funzionaalità di sicurezza come il blocco biometrico dell'app.
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentazione}
+[:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -125,10 +125,10 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
 **FairEmail** è un'app di email minimale e open source che utilizza gli standard apeerti (IMAP, SMTP, OpenPGP), con un basso consumo di dati e batteria.
 
 [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribuisci }
+[:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -146,13 +146,13 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
 
 ![Logo di Evolution](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** è un'applicazione per la gestione delle informazioni personali che fornisce funzionalità integrate di email, calendario e rubrica. Evolution dispone di un'ampia [documentazione](https://help.gnome.org/users/evolution/stable/) per aiutarti a iniziare.
+**Evolution** è un'applicazione per la gestione delle informazioni personali che fornisce funzionalità integrate di email, calendario e rubrica. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribuisci }
+[:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -174,10 +174,10 @@ Canary Mail è closed-source. Lo consigliamo a causa di alcune scelte per i clie
 In futuro, K-9 Mail sarà il client [ufficiale](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) di Thunderbird per Android.
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribuisci }
+[:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.k9mail.app){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -205,10 +205,10 @@ Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includ
 **Kontact** è un'applicazione di gestione delle informazioni personali (PIM), dal progetto [KDE](https://dke.org). Fornisce un client email, rubrica, un'agenda e un client RSS.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuisci }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title=Documentation}
+[:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -228,10 +228,10 @@ Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includ
 
 **Mailvelope** è un'estensione del browser che consente lo scambio di email crittografate secondo lo standard di crittografia OpenPGP.
 
-[:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -255,9 +255,9 @@ Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includ
 NeoMutt è un client basato su testo con una curva d'apprendimento molto rapida. Tuttavia, è molto personalizzabile.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Codice sorgente"}
-[:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribuisci }
+[:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>

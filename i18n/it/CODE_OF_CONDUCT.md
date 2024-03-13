@@ -16,7 +16,7 @@ Cosa ci aspettiamo dai membri delle nostre community:
 
 2. **Non abusare della nostra disponibilità ad aiutare**
 
-      I membri della nostra community non sono supporto tecnico gratuito. Siamo lieti di aiutare con passi specifici per il viaggio individuale sulla privacy, se sono disposti a impegnarsi. Non siamo obbligati a rispondere a domande infinite, ripetitive su problemi informatici generali risolvibili con una semplice ricerca su Internet. **Non** diventare un [vampiro dell'aiuto](https://slash7.com/2006/12/22/vampires/).
+      I membri della nostra community non sono supporto tecnico gratuito. Siamo lieti di aiutare con passi specifici per il viaggio individuale sulla privacy, se sono disposti a impegnarsi. Non siamo obbligati a rispondere a domande infinite, ripetitive su problemi informatici generali risolvibili con una semplice ricerca su Internet. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
 
 3. **Comportarsi in modo positivo e costruttivo**
 

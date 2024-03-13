@@ -62,12 +62,12 @@ schema:
 
 ## あなたの力が必要です！ 参加方法は以下の通りです:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="フォーラムに参加" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Mastodonでフォロー" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="このウェブサイトに貢献" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="このウェブサイトの翻訳に協力" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="私たちとMatrixでチャット" }
-[:material-information-outline:](about/index.md){ title="私たちの詳細" }
-[:material-hand-coin-outline:](about/donate.md){ title="プロジェクトを支援" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 Privacy Guidesのようなウェブサイトは、常に最新の情報を提供することが重要です。 閲覧者は、私たちのサイトに掲載されたアプリケーションのソフトウェアアップデートを確認し、おすすめのプロバイダに関する最新情報を入手する必要があります。 インターネットの速さに追いつくのは難しいですが、私たちは最善を尽くします。 誤りを見つけた場合、不適切なプロバイダが掲載されていると感じた場合、適格なプロバイダが掲載されていない場合、ブラウザのプラグインが最適でないと感じた場合、またはその他の問題を発見した場合は、ご連絡ください。

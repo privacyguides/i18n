@@ -60,7 +60,7 @@ Verified Boot забезпечує цілісність файлів опера�
 
 Оскільки такі компоненти телефону, як процесор та радіотехнології, покладаються на компоненти із закритим вихідним кодом, оновлення повинні надаватися відповідними виробниками. Тому важливо, щоб ви придбали пристрій в рамках активного циклу підтримки. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) та [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) підтримують свої пристрої протягом 4 років, тоді як дешевші продукти часто мають коротші цикли підтримки.
 
-Пристрої EOL, які більше не підтримуються виробником SoC, не можуть отримувати оновлення мікропрограми від OEM-виробників або сторонніх дистриб'юторів Android. Це означає, що проблеми безпеки на цих пристроях залишаться не усуненими. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+Пристрої EOL, які більше не підтримуються виробником SoC, не можуть отримувати оновлення мікропрограми від OEM-виробників або сторонніх дистриб'юторів Android. Це означає, що проблеми безпеки на цих пристроях залишаться не усуненими. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 Важливо не використовувати версії Android з [вичерпаним терміном служби](https://endoflife.date/android). Новіші версії Android не тільки отримують оновлення безпеки для операційної системи, але й важливі оновлення, що покращують конфіденційність.
 
@@ -97,19 +97,19 @@ Android 13:
 
 An app may request a permission for a specific feature it has. For example, any app that can scan QR codes will require the camera permission. Some apps can request more permissions than they need.
 
-[Exodus](https://exodus-privacy.eu.org/) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
+[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
+If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
+Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
 </div>
 
@@ -145,20 +145,20 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### Програма додаткового захисту
 
-Якщо у вас є обліковий запис Google, радимо зареєструватися в [Програмі Додаткового Захисту](https://landing.google.com/advancedprotection/). Це дозволить вам отримати **деякі** виправлення безпеки від Google, не порушуючи при цьому моделі безпеки Android використовуючи небезпечну похідну Android і збільшуючи поверхню атаки.
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). Це дозволить вам отримати **деякі** виправлення безпеки від Google, не порушуючи при цьому моделі безпеки Android використовуючи небезпечну похідну Android і збільшуючи поверхню атаки.
 
 Програма додаткового захисту забезпечує посилений моніторинг загроз та вмикає:
 
 - Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - Доступ до даних облікового запису можуть отримувати лише Google і перевірені сторонні програми
 - Сканування вхідних електронних листів в акаунтах Gmail на предмет [спроб фішингу](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
-- Суворіше [сканування веб-переглядача](https://www.google.com/chrome/privacy/whitepaper.html#malware) з Google Chrome
+- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
 - Більш суворий процес відновлення облікових записів з втраченими обліковими даними
 
- Якщо ви використовуєте не ізольовані сервіси Google Play (поширені в заводських операційних системах), Програма Додаткового Захисту також надає декілька [додаткових переваг](https://support.google.com/accounts/answer/9764949?hl=en), таких як:
+ If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
 
 - Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- Обов'язкове автоматичне сканування пристрою за допомогою [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Попередження про неперевірені додатки
 
 ### Оновлення системи Google Play
@@ -169,7 +169,7 @@ In the past, Android security updates had to be shipped by the operating system 
 
 ### Рекламний ідентифікатор
 
-Всі пристрої з встановленими сервісами Google Play автоматично генерують [рекламний ідентифікатор](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en), який використовується для таргетованої реклами. Вимкніть цю функцію, щоб обмежити збір даних про вас.
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Вимкніть цю функцію, щоб обмежити збір даних про вас.
 
 On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **Ads**, and select *Delete advertising ID*.
 

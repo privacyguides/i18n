@@ -70,8 +70,8 @@ schema:
 **Mullvad 浏览器** 是 [Tor 浏览器](tor.md#tor-browser) 去除了 Tor 网络的一个版本，旨在为 VPN 用户提供 Tor 浏览器的反指纹浏览器技术。 它由 Tor 项目开发，由 [Mullvad](vpn.md#mullvad) 发布，**不需要** 使用 Mullvad 的 VPN。
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title=Documentation}
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -85,7 +85,7 @@ schema:
 
 </div>
 
-与 [Tor Browser](tor.md)一样，Mullvad Browser 的设计也是通过使您的浏览器指纹与所有其他 Mullvad Browser 用户完全相来了防止指纹识别。它自带了默认设置和扩展程序，这些会由设置的安全级别自动配置： *标准*, *更安全* 和 *最安全*。 因此，在调整自带的 [安全级别](https://tb-manual.torproject.org/security-settings/) 之外，请务必不要对浏览器进行任何修改。 其他修改会使您的指纹变得独一无二，从而失去使用该浏览器的意义。 如果你想对浏览器进行更多的配置而且不担心指纹识别，我们建议你使用 [Firefox](#firefox)。
+与 [Tor Browser](tor.md)一样，Mullvad Browser 的设计也是通过使您的浏览器指纹与所有其他 Mullvad Browser 用户完全相来了防止指纹识别。它自带了默认设置和扩展程序，这些会由设置的安全级别自动配置： *标准*, *更安全* 和 *最安全*。 Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). 其他修改会使您的指纹变得独一无二，从而失去使用该浏览器的意义。 如果你想对浏览器进行更多的配置而且不担心指纹识别，我们建议你使用 [Firefox](#firefox)。
 
 ### 防指纹
 
@@ -116,17 +116,17 @@ Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines
 **火狐浏览器**提供强大的隐私设置，如[增强型跟踪保护](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，它可以帮助阻止各种[类型的跟踪](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mozilla.org/privacy/firefox/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.mozilla.org/firefox/windows)
-- [:simple-apple: macOS](https://www.mozilla.org/firefox/mac)
-- [:simple-linux: Linux](https://www.mozilla.org/firefox/linux)
+- [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://mozilla.org/firefox/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
 </details>
@@ -136,7 +136,7 @@ Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases).
 
 </div>
 
@@ -162,7 +162,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 ##### Firefox Suggest (仅限美国)
 
-[Firefox Suggest](https://support.mozilla.org/en-US/kb/firefox-suggest) 是一项仅在美国可用的类似于搜索建议的功能。 我们建议禁用这个功能，原因与我们建议禁用搜索建议的原因相同。 如果在 **地址栏** 标题下没有看到这些选项，则表示您没有获得这个功能，可以忽略这些设置。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. 我们建议禁用这个功能，原因与我们建议禁用搜索建议的原因相同。 如果在 **地址栏** 标题下没有看到这些选项，则表示您没有获得这个功能，可以忽略这些设置。
 
 - [ ] 取消选中 **来自网络的建议**
 - [ ] 取消选中 **来自赞助商的建议**
@@ -183,7 +183,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 > 火狐浏览器会向我们发送有关您的火狐浏览器版本和语言、设备操作系统和硬件配置、内存、有关崩溃和错误的基本信息以及更新、安全浏览和激活等自动处理结果的数据。 当火狐浏览器向我们发送数据时，您的IP地址会被暂时收集，作为我们服务器日志的一部分。
 
-此外，火狐账户服务还收集 [一些技术数据](https://www.mozilla.org/en-US/privacy/firefox/#firefox-accounts)。 如果你使用Firefox账户，你可以选择退出。
+Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). 如果你使用Firefox账户，你可以选择退出。
 
 1. 在 accounts.firefox.com</a>上打开你的
 配置文件设置。</li> 
@@ -212,7 +212,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 #### 同步
 
-[火狐浏览器同步](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) ，使您的浏览数据（历史记录、书签等）可以在您的所有设备上访问，并通过E2EE进行保护。
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
 
 
@@ -225,7 +225,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 </div>
 
-[Arkenfox项目](https://github.com/arkenfox/user.js) ，为Firefox提供了一套精心考虑的选项。 如果你 [决定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 使用Arkenfox，有几个 [选项](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) 是主观严格的和/或可能导致一些网站不能正常工作-- [，你可以很容易地改变](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以满足你的需要。 我们 **，强烈建议** ，阅读其完整的 [wiki](https://github.com/arkenfox/user.js/wiki)。 Arkenfox还能支持 [容器](https://support.mozilla.org/en-US/kb/containers#w_for-advanced-users)。
+[Arkenfox项目](https://github.com/arkenfox/user.js) ，为Firefox提供了一套精心考虑的选项。 如果你 [决定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 使用Arkenfox，有几个 [选项](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) 是主观严格的和/或可能导致一些网站不能正常工作-- [，你可以很容易地改变](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以满足你的需要。 我们 **，强烈建议** ，阅读其完整的 [wiki](https://github.com/arkenfox/user.js/wiki)。 Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
 Arkenfox 的目标只是通过 canvas 随机化和 Firefox 内置的抗指纹配置设置来挫败基本的或幼稚的跟踪脚本。 它不会像 Mullvad 浏览器或 Tor 浏览器那样，让你的浏览器与一大群其他用户融为一体，所以不会阻挡进阶的指纹跟踪脚本。 当然，您可以同时使用多种浏览器，例如，您可以考虑使用 Firefox+Arkenfox 浏览一些需要保持登录状态或着您信任的网站，并使用 Mullvad 浏览器进行一般浏览。
 
@@ -235,25 +235,25 @@ Arkenfox 的目标只是通过 canvas 随机化和 Firefox 内置的抗指纹配
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave标识](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave浏览器**包括一个内置的内容拦截器和[隐私功能](https://brave.com/privacy-features/)，其中许多功能都是默认启用的。
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟悉的感觉，而且网站兼容性问题最小。
 
-[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-windows11: Windows](https://brave.com/download/)
-- [:simple-apple: macOS](https://brave.com/download/)
-- [:simple-linux: Linux](https://brave.com/linux/) (1)
+- [:simple-windows11: Windows](https://brave.com/download)
+- [:simple-apple: macOS](https://brave.com/download)
+- [:simple-linux: Linux](https://brave.com/linux) (1)
 
 </details>
 
@@ -282,7 +282,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 ##### 盾
 
-Brave在其 [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 功能中包括一些防指纹的措施。 我们建议将这些选项配置为 [，在你访问的所有页面上全局](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-)。
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 Shields的选项可以根据需要在每个站点的基础上进行降级，但在默认情况下，我们建议设置以下内容。
 
@@ -306,7 +306,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net/) extension.
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
 
@@ -315,7 +315,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
@@ -324,7 +324,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. Brave 对指纹的抵抗力**不如** Tor 浏览器，而且使用 Brave 的 Tor 功能的人要少得多，所以你的指纹会突出。 在 [需要强大的匿名性的地方](https://support.brave.com/hc/en-us/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity-) ，使用 [Tor 浏览器](tor.md#tor-browser)。
+1. Brave 对指纹的抵抗力**不如** Tor 浏览器，而且使用 Brave 的 Tor 功能的人要少得多，所以你的指纹会突出。 Where [strong anonymity is required](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) use the [Tor Browser](tor.md#tor-browser).
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
@@ -367,7 +367,7 @@ Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 如果您不�
 
 #### 同步
 
-[Brave 同步](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) 允许你的浏览数据（历史记录、书签等）在你所有的设备上访问，而不需要账户，并以E2EE进行保护。
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 
 
@@ -401,7 +401,7 @@ In general, we recommend keeping your browser extensions to a minimum to decreas
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 
@@ -440,7 +440,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
 </details>
@@ -476,7 +476,7 @@ We are working on establishing defined criteria for every section of our site, a
 - 可用于Linux、macOS和Windows。
 - 为使浏览器更加尊重隐私所需的任何改变都不应该对用户体验产生负面影响。
 - 默认情况下阻止第三方的cookies。
-- Supports [state partitioning](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
+- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
 
 
 
@@ -485,7 +485,7 @@ We are working on establishing defined criteria for every section of our site, a
 我们的最佳情况代表了我们希望从这个类别中的完美项目中看到的东西。 我们的推荐可能不包括任何或所有这些功能，但那些包含这些功能的推荐可能比本页面上的其他推荐排名更高。
 
 - 包括内置的内容拦截功能。
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers)).
+- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
 - Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
 
 - 不包括不增强用户隐私的累赘功能。
@@ -508,4 +508,4 @@ We are working on establishing defined criteria for every section of our site, a
 
 
 [^2]:    
-    Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state/).
+    Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

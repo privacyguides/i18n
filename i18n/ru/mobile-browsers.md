@@ -28,7 +28,7 @@ schema:
     "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
-    url: https://www.apple.com/safari/
+    url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
       - iOS
@@ -41,22 +41,22 @@ schema:
 
 ## Android
 
-На Android браузер Firefox менее безопасен, чем основанные на Chromium альтернативы: движок Mozilla, [GeckoView](https://mozilla.github.io/geckoview/), ещё не поддерживает [изоляцию сайтов](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) и не включает [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** включает встроенный блокировщик контента и [инструменты конфиденциальности](https://brave.com/privacy-features/), многие из которых включены по умолчанию.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave основан на Chromium, поэтому он покажется тебе знакомым, а также у него не должно быть проблем совместимости с сайтами.
 
-[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -77,7 +77,7 @@ Tor Browser — это единственный способ действите�
 
 ##### Щиты
 
-Brave включает несколько инструментов защиты от отслеживания в разделе [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Мы рекомендуем включить эти настройки [для всех сайтов](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-), которые ты посещаешь.
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 ##### Общие настройки по умолчанию системы Brave Schields
 
@@ -101,7 +101,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. Эта опция обеспечивает функциональность, аналогичную расширенным [режимам блокировки](https://github.com/gorhill/uBlock/wiki/Blocking-mode) uBlock Origin или расширения [NoScript](https://noscript.net/).
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
 ##### Очистить историю
 
@@ -115,13 +115,13 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
-- [x] Выберите **Отключить непроксируемый протокол UDP** в [Политика обработки IP WebRTC](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [ ] Отключите **Разрешить сайтам проверять наличие сохраненных способов оплаты**
-- [ ] Отключите **Шлюз IPFS** (1)
-- [x] Включите **Удалять файлы cookie и данные сайтов при закрытии всех окон**
-- [ ] Отключите **Разрешить выполнение аналитики продукта, не нарушающей конфеденциальности**
-- [ ] Отключите **Автоматически отправлять данные диагностики**
-- [ ] Отключите **Автоматически отправлять ежедневные данные PING в Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 
@@ -129,7 +129,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 #### Синхронизация
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) позволяет синхронизировать данные браузера (историю, закладки и т. д.) между несколькими устройствами без необходимости создавать аккаунт, а также защищает их при помощи E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## iOS
 
@@ -141,11 +141,11 @@ Brave allows you to select additional content filters within the internal `brave
 
 ![Логотип Safari](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** — браузер по умолчанию на iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+**Safari** — браузер по умолчанию на iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
 
-[:octicons-home-16: Домашняя страница](https://www.apple.com/ru/safari/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/ru/legal/privacy/data/ru/safari/){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://support.apple.com/ru-ru/guide/safari/welcome/mac){ .card-link title=Документация}
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
 </details>
 
@@ -185,7 +185,7 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 - [ ] Отключи **Конфиденциальные рекламные отчеты**
 
-Для измерения количества рекламных кликов традиционно используется технология отслеживания, нарушающая конфиденциальность пользователей. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) - это функция WebKit и предлагаемый веб-стандарт, позволяющий рекламодателям измерять эффективность веб-кампаний без ущерба для конфиденциальности пользователей.
+Для измерения количества рекламных кликов традиционно используется технология отслеживания, нарушающая конфиденциальность пользователей. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
 Сама по себе эта функция не вызывает особых опасений в плане конфиденциальности, и хотя вы можете оставить ее включенной, мы рекомендуем её отключить, так как она автоматически отключается в Private Browsing.
 
@@ -201,9 +201,9 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 ##### Синхронизация iCloud
 
-Синхронизация истории Safari, групп вкладок, вкладок iCloud и сохраненных паролей осуществляется с E2EE. Однако по умолчанию закладки [не используют E2EE](https://support.apple.com/ru-ru/HT202303). Apple может расшифровать их и получить к ним доступ в соответствии со своей [политикой конфиденциальности](https://www.apple.com/legal/privacy/en-ww/).
+Синхронизация истории Safari, групп вкладок, вкладок iCloud и сохраненных паролей осуществляется с E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-Вы можете включить E2EE для ваших закладок и загрузок Safari, включив [расширенную защиту данных](https://support.apple.com/ru-ru/HT212520). Перейди к настройке **Apple ID → iCloud → Расширенная защита данных**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Перейди к настройке **Apple ID → iCloud → Расширенная защита данных**.
 
 - [x] Включи **Расширенная защита данных**
 
@@ -227,7 +227,7 @@ AdGuard для iOS имеет несколько премиум-функций, 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 
 </details>
 

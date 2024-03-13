@@ -56,15 +56,15 @@ Proton Drive'ın yeni mobil uygulamaları henüz herhangi bir üçüncü tarafç
 
 **Tresorit** İsviçre-Macaristan tabanlı, 2011 yılında kurulmuş bir bulut depolama sağlayıcısıdır. Tresorit is owned by the Swiss Post, the national postal service of Switzerland.
 
-[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-home-16: Homepage](https://tresorit.com){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
 - [:simple-windows11: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
@@ -75,15 +75,15 @@ Proton Drive'ın yeni mobil uygulamaları henüz herhangi bir üçüncü tarafç
 
 Tresorit has received a number of independent security audits:
 
-- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001:2013[^1] Compliance [Certification](https://www.certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
-- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): Penetration Testing by Computest
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
     - This review assessed the security of the Tresorit web client, Android app, Windows app, and associated infrastructure.
     - Computest discovered two vulnerabilities which have been resolved.
-- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): Penetration Testing by Ernst & Young.
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - This review analyzed the full source code of Tresorit and validated that the implementation matches the concepts described in Tresorit's [white paper](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf).
     - Ernst & Young additionally tested the web, mobile, and desktop clients: "Test results found no deviation from Tresorit’s data confidentiality claims."
 
-They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria/) related to security, privacy, and reliability.
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
 
 ## Criteria
 

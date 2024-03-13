@@ -35,10 +35,10 @@ cover: router.webp
 
 **OPNsense** היא חומת אש ופלטפורמת ניתוב מבוססת קוד פתוח, מבוססת FreeBSD, המשלבת תכונות מתקדמות רבות כגון עיצוב תעבורה, איזון עומסים ויכולות VPN, עם תכונות רבות נוספות הזמינות בצורה של תוספים. OPNsense נפוץ כחומת אש היקפית, נתב, נקודת גישה אלחוטית, שרת DHCP, שרת DNS ונקודת קצה VPN.
 
-[:octicons-home-16: דף הבית](https://opnsense.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=תיעוד}
-[:octicons-code-16:](https://github.com/opnsense){ .card-link title="קוד מקור" }
-[:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=לתרומה }
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 
 </details>
 

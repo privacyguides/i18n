@@ -18,7 +18,7 @@ Hieronder bespreken we en geven we een tutorial om te bewijzen wat een externe w
 
 ### Onversleutelde DNS
 
-1. Met [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (onderdeel van het [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) kunnen we de internet packet flow monitoren en opnemen. Dit commando registreert pakketten die aan de gespecificeerde regels voldoen:
+1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. Dit commando registreert pakketten die aan de gespecificeerde regels voldoen:
 
     ```bash
     tshark -w /tmp/dns.pcap udp poort 53 en host 1.1.1.1 of host 8.8.8.8
@@ -39,7 +39,7 @@ Hieronder bespreken we en geven we een tutorial om te bewijzen wat een externe w
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Vervolgens willen wij [analyseren](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) de resultaten:
+3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -74,7 +74,7 @@ Versleutelde DNS kan verwijzen naar een van een aantal protocollen, waarvan de m
 
 ### DNS over TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) is een andere methode voor het versleutelen van DNS-communicatie die is gedefinieerd in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Ondersteuning werd voor het eerst geïmplementeerd in Android 9, iOS 14, en op Linux in [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in versie 237. De laatste jaren is de voorkeur in de sector verschoven van DoT naar DoH, omdat DoT een [complex protocol is](https://dnscrypt.info/faq/) en de naleving van de RFC in de bestaande implementaties varieert. DoT werkt ook op een speciale poort 853 die gemakkelijk kan worden geblokkeerd door restrictieve firewalls.
+[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) is een andere methode voor het versleutelen van DNS-communicatie die is gedefinieerd in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. DoT werkt ook op een speciale poort 853 die gemakkelijk kan worden geblokkeerd door restrictieve firewalls.
 
 ### DNS over HTTPS (DoH)
 
@@ -106,7 +106,7 @@ In dit voorbeeld zullen we vastleggen wat er gebeurt als we een DoH-verzoek doen
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-We zien de [verbinding tot stand brengen](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) en [TLS handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) die bij elke versleutelde verbinding optreedt. Als we kijken naar de "toepassings gegevens" pakketten die volgen, bevat geen van hen het domein dat we hebben aangevraagd of het IP adres dat wordt teruggestuurd.
+We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. Als we kijken naar de "toepassings gegevens" pakketten die volgen, bevat geen van hen het domein dat we hebben aangevraagd of het IP adres dat wordt teruggestuurd.
 
 ## Waarom **zou ik geen** versleutelde DNS gebruiken?
 
@@ -158,9 +158,9 @@ Server Name Indication wordt meestal gebruikt wanneer een IP-adres veel websites
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-Dit betekent dat zelfs als we "Encrypted DNS" servers gebruiken, het domein waarschijnlijk zal worden onthuld via SNI. Het [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brengt het [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/) met zich mee, dat dit soort lekken voorkomt.
+Dit betekent dat zelfs als we "Encrypted DNS" servers gebruiken, het domein waarschijnlijk zal worden onthuld via SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
 
-Regeringen, met name [China](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) en [Rusland](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), zijn al begonnen [met het blokkeren van](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) of hebben de wens geuit dit te doen. Onlangs is Rusland [begonnen met het blokkeren van buitenlandse websites](https://github.com/net4people/bbs/issues/108) die gebruik maken van de [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) norm. Dit komt doordat het [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol dat deel uitmaakt van HTTP/3 vereist dat `ClientHello` ook gecodeerd wordt.
+Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Onlangs is Rusland [begonnen met het blokkeren van buitenlandse websites](https://github.com/net4people/bbs/issues/108) die gebruik maken van de [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) norm. Dit komt doordat het [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol dat deel uitmaakt van HTTP/3 vereist dat `ClientHello` ook gecodeerd wordt.
 
 ### Protocol voor onlinecertificaatstatus (PVOC/OCSP)
 
@@ -289,7 +289,7 @@ Het DNSSEC-ondertekeningsproces is vergelijkbaar met iemand die een juridisch do
 
 DNSSEC implementeert een hiërarchisch digitaal ondertekeningsbeleid over alle lagen van DNS. Bijvoorbeeld, in het geval van een `privacyguides.org` lookup, zou een root DNS-server een sleutel ondertekenen voor de `.org` nameserver, en de `.org` nameserver zou dan een sleutel ondertekenen voor `privacyguides.org`'s gezaghebbende nameserver.
 
-<small>Aangepast uit [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) van Google en [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction/) van Cloudflare, beide met een licentie onder [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
+<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
 
 ## Wat is QNAME-minimalisatie?
 

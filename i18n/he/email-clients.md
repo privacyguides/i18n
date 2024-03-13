@@ -28,17 +28,17 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 **Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
-[:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.thunderbird.net)
-- [:simple-apple: macOS](https://www.thunderbird.net)
-- [:simple-linux: Linux](https://www.thunderbird.net)
+- [:simple-windows11: Windows](https://thunderbird.net)
+- [:simple-apple: macOS](https://thunderbird.net)
+- [:simple-linux: Linux](https://thunderbird.net)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
 </details>
@@ -74,9 +74,9 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 **Apple Mail** כלול ב-macOS וניתן להרחיב אותו כך שתהיה לו תמיכה ב-OpenPGP עם [GPG Suite](encryption.md#gpg-suite), אשר מוסיפה את היכולת לשלוח מייל מוצפן PGP.
 
-[:octicons-home-16: דף הבית](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://support.apple.com/mail){ .card-link title=תיעוד}
+[:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
 
 </details>
 
@@ -94,7 +94,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -128,7 +128,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -146,13 +146,13 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 ![Evolution לוגו](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** הוא יישום לניהול מידע אישי המספק פונקציונליות משולבת של דואר, לוחות שנה ופנקס כתובות. ל-Evolution יש [תיעוד](https://help.gnome.org/users/evolution/stable/) נרחב שיעזור לך להתחיל.
+**Evolution** הוא יישום לניהול מידע אישי המספק פונקציונליות משולבת של דואר, לוחות שנה ופנקס כתובות. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -175,7 +175,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.k9mail.app){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
 
@@ -206,9 +206,9 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title=Documentation}
 [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -228,8 +228,8 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 **Mailvelope** היא תוסף דפדפן המאפשר החלפת מיילים מוצפנים בהתאם לתקן ההצפנה OpenPGP.
 
-[:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
@@ -255,9 +255,9 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 NeoMutt הוא לקוח מבוסס טקסט שיש לו עקומת למידה תלולה. עם זאת, זה מאוד להתאמה אישית.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
+[:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

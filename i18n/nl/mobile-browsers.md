@@ -28,7 +28,7 @@ schema:
     "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
-    url: https://www.apple.com/safari/
+    url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
       - iOS
@@ -41,22 +41,22 @@ Dit zijn onze momenteel aanbevolen mobiele webbrowsers en configuraties voor sta
 
 ## Android
 
-Op Android is Firefox nog steeds minder veilig dan op Chromium gebaseerde alternatieven: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview/), moet nog [site-isolatie](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) ondersteunen of [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196) inschakelen.
+On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
 <div class="admonition recommendation" markdown>
 
-![Brave-logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** bevat een ingebouwde inhoudsblokker en [privacyfuncties](https://brave.com/privacy-features/), waarvan vele standaard zijn ingeschakeld.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moeten aanvoelen en minimale website compatibiliteitsproblemen moeten hebben.
 
-[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -77,7 +77,7 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen** → **Dappere
 
 ##### Schilden
 
-Brave bevat enkele anti-vingerafdruk maatregelen in zijn [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) functie. Wij raden aan om deze opties [globaal te configureren](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) voor alle pagina's die je bezoekt.
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 ##### Brave shields global defaults
 
@@ -101,7 +101,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. Deze optie biedt functionaliteit die vergelijkbaar is met uBlock Origin's geavanceerde [blokkeringsmodes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) of de [NoScript](https://noscript.net/) extensie.
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
 ##### Browserdata opschonen
 
@@ -115,7 +115,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Uncheck **Allow sites to check if you have payment methods saved**
 - [ ] Uncheck **IPFS Gateway** (1)
 - [x] Select **Close tabs on exit**
@@ -129,7 +129,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) maakt jouw surfgegevens (geschiedenis, bladwijzers, enz.) toegankelijk op al jouw apparaten zonder dat je een account nodig hebt en beschermt ze met E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## iOS
 
@@ -141,11 +141,11 @@ Op iOS is elke app die op het web kan surfen beperkt tot [](https://developer.ap
 
 ![Safari-logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is de standaardbrowser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+**Safari** is de standaardbrowser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
 
-[:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacybeleid" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentatie}
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
 </details>
 
@@ -185,7 +185,7 @@ Privacyrapport is toegankelijk via het menu Pagina-instellingen.
 
 - [ ] Schakel **Privacy Preserving Ad Measurement**uit
 
-Bij het meten van advertentieklikken wordt van oudsher gebruik gemaakt van trackingtechnologie die inbreuk maakt op de privacy van de gebruiker. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) is een WebKit-functie en een voorgestelde webstandaard die adverteerders in staat moet stellen de doeltreffendheid van webcampagnes te meten zonder afbreuk te doen aan de privacy van de gebruiker.
+Bij het meten van advertentieklikken wordt van oudsher gebruik gemaakt van trackingtechnologie die inbreuk maakt op de privacy van de gebruiker. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
 De functie heeft op zichzelf weinig privacyproblemen, dus hoewel je ervoor kunt kiezen om hem ingeschakeld te laten, beschouwen wij het feit dat hij automatisch is uitgeschakeld in Privénavigatie als een aanwijzing om de functie uit te schakelen.
 
@@ -201,9 +201,9 @@ Houd er rekening mee dat privénavigatie geen cookies en gegevens opslaat, zodat
 
 ##### iCloud Synchronisatie
 
-De synchronisatie van de Safari-geschiedenis, tabbladgroepen, iCloud-tabbladen en opgeslagen wachtwoorden verloopt via E2EE. Standaard zijn bladwijzers dat echter [niet](https://support.apple.com/en-us/HT202303). Apple kan ze ontsleutelen en openen in overeenstemming met hun [privacybeleid](https://www.apple.com/legal/privacy/en-ww/).
+De synchronisatie van de Safari-geschiedenis, tabbladgroepen, iCloud-tabbladen en opgeslagen wachtwoorden verloopt via E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-Je kunt E2EE inschakelen voor jouw Safari bladwijzers en downloads door [Geavanceerde gegevensbescherming](https://support.apple.com/en-us/HT212520)in te schakelen. Ga naar jouw **Apple ID naam → iCloud → Geavanceerde gegevensbescherming**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Ga naar jouw **Apple ID naam → iCloud → Geavanceerde gegevensbescherming**.
 
 - [x] Zet **Geavanceerde gegevensbescherming aan**
 
@@ -227,7 +227,7 @@ AdGuard voor iOS heeft enkele premium functies, maar standaard Safari-inhoud blo
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 
 </details>
 

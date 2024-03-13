@@ -28,7 +28,7 @@ Certaines messageries auto-hébergées vous permettent de configurer votre propr
 - Peut inclure des [restrictions de contrôle ou d'accès](https://drewdevault.com/2018/08/08/Signal.html). Cela peut inclure des choses telles que :
 - Être [interdit de connecter des clients tiers](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) au réseau centralisé, ce qui pourrait permettre une plus grande personnalisation ou une meilleure expérience. Ces modalités sont souvent définies dans les conditions d'utilisation.
 - Documentation insuffisante ou inexistante pour les développeurs tiers.
-- La [propriété](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), la politique de confidentialité et les opérations du service peuvent changer facilement lorsqu'une seule entité le contrôle, ce qui peut compromettre le service par la suite.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - L'auto-hébergement demande des efforts et des connaissances sur la manière de mettre en place un service.
 
 ## Réseaux Fédérés
@@ -60,7 +60,7 @@ Lorsqu'ils sont auto-hébergés, les membres d'un serveur fédéré peuvent déc
 
 Les messageries P2P se connectent à un [réseau distribué](https://fr.wikipedia.org/wiki/Réseau_distribué) de nœuds pour relayer un message au destinataire sans serveur tiers.
 
-Les clients (les pairs) se trouvent généralement les uns les autres grâce à l'utilisation d'un réseau de [calcul distribué](https://fr.wikipedia.org/wiki/Calcul_distribué). Citons par exemple les [Tables de Hachages Distribuées](https://fr.wikipedia.org/wiki/Table_de_hachage_distribuée) (THD), utilisées par les [Torrents](https://fr.wikipedia.org/wiki/BitTorrent) et [l'IPFS](https://fr.wikipedia.org/wiki/InterPlanetary_File_System). Une autre approche est celle des réseaux basés sur la proximité, où une connexion est établie par Wi-Fi ou Bluetooth (par exemple Briar ou le protocole de réseau social [Scuttlebutt](https://www.scuttlebutt.nz)).
+Les clients (les pairs) se trouvent généralement les uns les autres grâce à l'utilisation d'un réseau de [calcul distribué](https://fr.wikipedia.org/wiki/Calcul_distribué). Citons par exemple les [Tables de Hachages Distribuées](https://fr.wikipedia.org/wiki/Table_de_hachage_distribuée) (THD), utilisées par les [Torrents](https://fr.wikipedia.org/wiki/BitTorrent) et [l'IPFS](https://fr.wikipedia.org/wiki/InterPlanetary_File_System). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Lorsqu'un pair a trouvé une route vers son contact par l'une de ces méthodes, une connexion directe est établie entre eux. Bien que les messages soient généralement chiffrés, un observateur peut toujours déduire l'emplacement et l'identité de l'expéditeur et du destinataire.
 

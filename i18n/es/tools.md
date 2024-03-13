@@ -9,7 +9,7 @@ description: Privacy Guides es el sitio web más transparente y fiable para enco
 
 Si está buscando una solución específica para algo, estas son las herramientas de hardware y software que recomendamos en una variedad de categorías. Nuestras herramientas de privacidad recomendadas se eligen principalmente en función de sus características de seguridad, con un énfasis adicional en las herramientas descentralizadas y de código abierto. Son aplicables a una variedad de modelos de amenazas que van desde la protección contra los programas de vigilancia masiva global y la evasión de las grandes empresas tecnológicas hasta la mitigación de ataques, pero solo usted puede determinar lo que funcionará mejor según sus necesidades.
 
-¡Si necesita ayuda para averiguar cuáles son las mejores herramientas de privacidad y programas alternativos para sus necesidades, inicie un debate en nuestro [foro](https://discuss.privacyguides.net/) o en nuestra comunidad [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 Para obtener más información sobre cada proyecto, por qué han sido elegidos y otros consejos o trucos que recomendamos, haga clic en el enlace "Más información" de cada sección o en la propia recomendación para acceder a la sección correspondiente de la página.
 
@@ -89,7 +89,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 #### Proveedores de DNS
 
-[Recomendamos](dns.md#recommended-providers) una serie de servidores DNS cifrados, como [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) y [Quad9](https://quad9.net/) entre otros, según varios criterios. Recomendamos que leas nuestras páginas sobre DNS antes de elegir un proveedor. En muchos casos no se recomienda utilizar un proveedor de DNS alternativo.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. Recomendamos que leas nuestras páginas sobre DNS antes de elegir un proveedor. En muchos casos no se recomienda utilizar un proveedor de DNS alternativo.
 
 [Más información :material-arrow-right-drop-circle:](dns.md)
 

@@ -35,10 +35,10 @@ You can consult OpenWrt's [table of hardware](https://openwrt.org/toh/start) to 
 
 **OPNsense** adalah platform tembok api dan perutean berbasis FreeBSD yang bersumber terbuka, yang menggabungkan banyak fitur canggih seperti pembentukan lalu lintas internet, penyeimbangan beban, dan kemampuan VPN, dengan banyak fitur lain yang tersedia dalam bentuk plugin. OPNsense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and VPN endpoint.
 
-[:octicons-home-16: Homepage](https://opnsense.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 
 </details>
 

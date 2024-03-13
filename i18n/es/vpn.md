@@ -25,7 +25,7 @@ Si buscas **anonimato**, deberías usar el navegador Tor.
 
 Si busca mayor **seguridad**, debería asegurarse siempre de que se conecta a sitios web que utilicen HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
 
-[Descargar Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Mitos y FAQ de Tor](advanced/tor-overview.md){ .md-button }
+[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -43,19 +43,19 @@ Nuestros proveedores recomendados usan encriptación, aceptan Monero, soportan W
 
 **Proton VPN** es un fuerte contendiente en el espacio VPN, y han estado en funcionamiento desde 2016. Proton AG tiene su sede en Suiza y ofrece un nivel gratuito limitado, así como una opción premium con más funciones.
 
-[:octicons-home-16: Página Principal](https://protonvpn.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
 - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
 - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup)
 
 </details>
 
@@ -74,7 +74,7 @@ También pensamos que es mejor para la seguridad de las claves privadas del prov
 
 Los clientes VPN de Mullvad han sido auditados por Cure53 y Assured AB en un reporte de pentest \[publicado en cure53.de\](https://cure53.de/pentest-report_mullvad_v2.pdf). Los investigadores de seguridad concluyeron:
 
-&gt; Cure53 y Assured AB están satisfechos con los resultados de la auditoría y el software deja una impresión positiva en general. Con la dedicación a la seguridad del equipo interno de Mullvad VPN, los testers no tienen dudas de que el proyecto va por buen camino desde el punto de vista de la seguridad. Puedes ver informes individuales para cada plataforma en [protonvpn.com](https://protonvpn.com/blog/open-source/). En abril de 2022, Proton VPN se sometió a [otra auditoría](https://protonvpn.com/blog/no-logs-audit/) y el informe fue [elaborado por Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). El 9 de noviembre de 2021, [Securitum](https://research.securitum.com)proporcionó una carta de certificación [](https://proton.me/blog/security-audit-all-proton-apps) para las aplicaciones de Proton VPN.
+&gt; Cure53 y Assured AB están satisfechos con los resultados de la auditoría y el software deja una impresión positiva en general. Con la dedicación a la seguridad del equipo interno de Mullvad VPN, los testers no tienen dudas de que el proyecto va por buen camino desde el punto de vista de la seguridad. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). El 9 de noviembre de 2021, [Securitum](https://research.securitum.com)proporcionó una carta de certificación [](https://proton.me/blog/security-audit-all-proton-apps) para las aplicaciones de Proton VPN.
 
 #### :material-check:{ .pg-green } Clientes de código abierto
 
@@ -86,31 +86,31 @@ Proton VPN, además de aceptar tarjetas de crédito/débito, PayPal y [Bitcoin](
 
 #### :material-check:{ .pg-green } Soporte de WireGuard
 
-Mullvad soporta el protocolo WireGuard®. [WireGuard](https://www.wireguard.com) es un protocolo más nuevo que utiliza criptografía de última generación [](https://www.wireguard.com/protocol/). Además, WireGuard aspira ser más simple y veloz.
+Mullvad soporta el protocolo WireGuard®. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Además, WireGuard aspira ser más simple y veloz.
 
-Proton VPN [recomienda](https://protonvpn.com/blog/wireguard/) el uso de WireGuard con su servicio. En las aplicaciones de Proton VPN para Windows, macOS, iOS, Android, ChromeOS y Android TV, WireGuard es el protocolo predeterminado; sin embargo, [la compatibilidad](https://protonvpn.com/support/how-to-change-vpn-protocols/) para el protocolo no está presente en su aplicación para Linux.
+Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols) for the protocol is not present in their Linux app.
 
 #### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
 
-Actualmente, Proton VPN solo admite el [ reenvío del puerto](https://protonvpn.com/support/port-forwarding/) remoto y efímero a través de NAT-PMP, con tiempos de arrendamiento de 60 segundos. La aplicación de Windows ofrece una opción de fácil acceso para ello, mientras que en otros sistemas operativos tendrás que ejecutar tu propio cliente [NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup/). Las aplicaciones de torrents suelen soportar NAT-PMP de forma nativa.
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Las aplicaciones de torrents suelen soportar NAT-PMP de forma nativa.
 
 #### :material-information-outline:{ .pg-orange } Evasión de la Censura
 
-Proton VPN tiene su protocolo [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) que *puede* ayudar en situaciones en las que los protocolos VPN como OpenVPN o Wireguard están bloqueados con varias técnicas rudimentarias. Stealth encapsula el túnel VPN en una sesión TLS para que parezca tráfico de Internet más genérico.
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsula el túnel VPN en una sesión TLS para que parezca tráfico de Internet más genérico.
 
 Por desgracia, no funciona muy bien en países donde se despliegan sofisticados filtros que analizan todo el tráfico saliente en un intento de descubrir túneles cifrados. Stealth tampoco está disponible aún en [Windows](https://github.com/ProtonVPN/win-app/issues/64) ni Linux.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
-Además de proporcionar archivos de configuración estándar de OpenVPN, Proton VPN tiene clientes móviles para [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)y [GitHub](https://github.com/ProtonVPN/android-app/releases), lo que permite conexiones fáciles a sus servidores.
+In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/app/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
-Mullvad ha publicado su cliente en la \[App Store\](https://apps.apple.com/app/mullvad-vpn/id1488466513) y en \[Google Play\](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), ambos con una interfaz fácil de usar en lugar de requerir la configuración manual de la conexión de WireGuard. El cliente móvil en Android también está disponible en \[F-Droid\](https://f-droid.org/packages/net.mullvad.mullvadvpn), lo que garantiza que se compila con \[builds reproducibles\](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html). Ofrecen bloqueo de contenidos y bloqueo de malware conocido con su servicio DNS. Además, Proton VPN también ofrece servidores "Tor" que te permiten conectarte fácilmente a sitios.onion, pero seguimos recomendando encarecidamente utilizar [el Navegador Tor oficial](https://www.torproject.org/) para este propósito.
+Mullvad ha publicado su cliente en la \[App Store\](https://apps.apple.com/app/mullvad-vpn/id1488466513) y en \[Google Play\](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), ambos con una interfaz fácil de usar en lugar de requerir la configuración manual de la conexión de WireGuard. El cliente móvil en Android también está disponible en \[F-Droid\](https://f-droid.org/packages/net.mullvad.mullvadvpn), lo que garantiza que se compila con \[builds reproducibles\](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html). Ofrecen bloqueo de contenidos y bloqueo de malware conocido con su servicio DNS. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://torproject.org) for this purpose.
 
 #### :material-alert-outline:{ .pg-orange } La función Killswitch no funciona en los Macs basados en Intel
 
-Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-chip-kill-switch/) en Macs basados en Intel cuando se utiliza el killswitch de VPN. Utilizan \[ShadowSocks\](https://shadowsocks.org/en/index.html) en su configuración de ShadowSocks + OpenVPN, lo que les hace más resistentes contra los cortafuegos con \[Inspección profunda de paquete\](https://es.wikipedia.org/wiki/Deep_Packet_Inspection) que intentan bloquear las VPN.
+System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN killswitch. Utilizan \[ShadowSocks\](https://shadowsocks.org/en/index.html) en su configuración de ShadowSocks + OpenVPN, lo que les hace más resistentes contra los cortafuegos con \[Inspección profunda de paquete\](https://es.wikipedia.org/wiki/Deep_Packet_Inspection) que intentan bloquear las VPN.
 
 ### IVPN
 
@@ -120,20 +120,20 @@ Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-c
 
 **IVPN** es un fuerte contendiente en el espacio de las VPNs, y ha estado en funcionamiento desde 2009. IVPN es basado en Gibraltar.
 
-[:octicons-home-16: Página Principal](https://www.ivpn.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
+- [:simple-windows11: Windows](https://ivpn.net/apps-windows)
+- [:simple-apple: macOS](https://ivpn.net/apps-macos)
+- [:simple-linux: Linux](https://ivpn.net/apps-linux)
 
 </details>
 
@@ -141,7 +141,7 @@ Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-c
 
 #### :material-check:{ .pg-green } 37 Países
 
-IVPN tiene [servidores en 37 países](https://www.ivpn.net/server-locations).(1) Elegir un proveedor VPN con un servidor más cercano a ti reducirá la latencia del tráfico de red que envíes. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
 1. Última comprobación: 21-12-2023
@@ -150,11 +150,11 @@ También pensamos que es mejor para la seguridad de las claves privadas del prov
 
 #### :material-check:{ .pg-green } Auditado independientemente
 
-IVPN se ha sometido a una auditoría de no-registrar en [por parte de Cure53](https://cure53.de/audit-report_ivpn.pdf) que concluyó de acuerdo con la afirmación de no-registrar de IVPN. IVPN también ha completado una [prueba de penetración exhaustiva Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) en enero de 2020. IVPN también ha dicho que tiene previsto tener [informes anuales](https://www.ivpn.net/blog/independent-security-audit-concluded) en el futuro. Se realizó una revisión adicional [en abril de 2022](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) y fue producida por Cure53 [en su sitio web](https://cure53.de/pentest-report_IVPN_2022.pdf).
+IVPN se ha sometido a una auditoría de no-registrar en [por parte de Cure53](https://cure53.de/audit-report_ivpn.pdf) que concluyó de acuerdo con la afirmación de no-registrar de IVPN. IVPN también ha completado una [prueba de penetración exhaustiva Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) en enero de 2020. IVPN has also said they plan to have [annual reports](https://ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
 #### :material-check:{ .pg-green } Clientes de Código Abierto
 
-A partir de febrero de 2020, [las aplicaciones IVPN ya son de código abierto](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). El código fuente puede ser obtenido en su [organización GitHub](https://github.com/ivpn).
+As of February 2020 [IVPN applications are now open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). El código fuente puede ser obtenido en su [organización GitHub](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Acepta Efectivo y Monero
 
@@ -162,25 +162,25 @@ Además de aceptar tarjetas de crédito/débito y PayPal, IVPN acepta Bitcoin, *
 
 #### :material-check:{ .pg-green } Soporte de WireGuard
 
-IVPN soporta el protocolo WireGuard®. [WireGuard](https://www.wireguard.com) es un protocolo más nuevo que utiliza criptografía de última generación [](https://www.wireguard.com/protocol/). Además, WireGuard aspira ser más simple y veloz.
+IVPN soporta el protocolo WireGuard®. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Además, WireGuard aspira ser más simple y veloz.
 
-IVPN [recomienda](https://www.ivpn.net/wireguard/) el uso de WireGuard con su servicio y, como tal, el protocolo es el predeterminado en todas las aplicaciones de IVPN. IVPN también ofrece un generador de configuración de WireGuard para utilizarlo con las [apps](https://www.wireguard.com/install/) oficiales.
+IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
 #### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
 
-Anteriormente, IVPN admitía el reenvío de puertos, pero eliminó la opción en [junio de 2023](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding). La ausencia de esta característica podría afectar negativamente a ciertas aplicaciones, especialmente a las aplicaciones peer-to-peer como los clientes torrent.
+IVPN previously supported port forwarding, but removed the option in [June 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). La ausencia de esta característica podría afectar negativamente a ciertas aplicaciones, especialmente a las aplicaciones peer-to-peer como los clientes torrent.
 
 #### :material-check:{ .pg-green } Evasión de la censura
 
-IVPN tiene modos de ofuscación usando el proyecto [v2ray](https://www.v2ray.com/en/index.html) que ayuda en situaciones donde los protocolos VPN como OpenVPN o Wireguard están bloqueados. Actualmente, esta característica sólo está disponible en la versión para escritorio y [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/). Este cuenta con dos modos donde puede usar [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) sobre QUIC o conexiones TCP. QUIC es un moderno protocolo con mejor control de la congestión y puede ser más rápido con menor latencia. El modo TCP ayuda para que tus datos aparezcan como tráfico HTTP regular.
+IVPN has obfuscation modes using the [v2ray](https://v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Este cuenta con dos modos donde puede usar [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) sobre QUIC o conexiones TCP. QUIC es un moderno protocolo con mejor control de la congestión y puede ser más rápido con menor latencia. El modo TCP ayuda para que tus datos aparezcan como tráfico HTTP regular.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
-Además de proporcionar los archivos de configuración estándar de OpenVPN, IVPN tiene clientes móviles para [App Store](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683), y [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) y[GitHub](https://github.com/ivpn/android-app/releases) que permiten conexiones fáciles a sus servidores.
+In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/app/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
-Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y Suecia. IVPN también proporciona la funcionalidad "[AntiTracker](https://www.ivpn.net/antitracker)", que bloquea las redes publicitarias y los rastreadores al nivel de la red.
+Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y Suecia. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
 ### Mullvad
 
@@ -190,21 +190,21 @@ Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y 
 
 **Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. Llevan en funcionamiento desde **2009**. Mullvad tiene su sede en Suecia y no tiene prueba gratuita.
 
-[:octicons-home-16: Página Principal](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
 - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux)
 
 </details>
 
@@ -212,7 +212,7 @@ Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y 
 
 #### :material-check:{ .pg-green } 40 Países
 
-Mullvad tiene [servidores en 40 países](https://mullvad.net/servers/).(1) Elegir un proveedor de VPN con el servidor más cercano a ti reducirá la latencia del tráfico de red que envías. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Mullvad has [servers in 40 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
 1. Última comprobación: 21-12-2023
@@ -225,11 +225,11 @@ Los clientes VPN de Mullvad han sido auditados por Cure53 y Assured AB en un rep
 
 > Cure53 y Assured AB están satisfechos con los resultados de la auditoría y el software deja una impresión general positiva. Con la dedicación a la seguridad del equipo interno de Mullvad VPN, los comprobadores no tienen dudas de que el proyecto va por buen camino desde el punto de vista de la seguridad.
 
-En 2020 una segunda auditoría [fue anunciada](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) y el [informe final de auditoríase](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) fue hecho disponible en la página de Cure53:
+In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
 
 > Los resultados del proyecto de mayo-junio de 2020 dirigido al complejo de Mullvad son bastante positivos. [...] El ecosistema general de aplicaciones utilizado por Mullvad deja una impresión sólida y estructurada. La estructura general de la aplicación facilita el despliegue de parches y correcciones de forma estructurada. Más que nada, los hallazgos detectados por Cure53 muestran la importancia de auditar y reevaluar constantemente los vectores de filtración actuales, para garantizar siempre la privacidad de los usuarios finales. Dicho esto, Mullvad hace un gran trabajo protegiendo al usuario final de las filtraciones comunes de Información personalmente identificable y de los riesgos relacionados con la privacidad.
 
-En 2021 [se anunció](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) una auditoría de infraestructuras y el [informe final de auditoría](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) se publicó en el sitio web de Cure53. Otro informe se encargó a [en junio de 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data/) y está disponible en [la web de Assured](https://www.assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data) and is available on [Assured's website](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
 #### :material-check:{ .pg-green } Clientes de Código Abierto
 
@@ -241,17 +241,17 @@ Mullvad, además de aceptar tarjetas de crédito/débito y PayPal, acepta Bitcoi
 
 #### :material-check:{ .pg-green } Soporte de WireGuard
 
-IVPN soporta el protocolo WireGuard®. [WireGuard](https://www.wireguard.com) es un protocolo más nuevo que utiliza criptografía de última generación [](https://www.wireguard.com/protocol/). Además, WireGuard aspira ser más simple y veloz.
+IVPN soporta el protocolo WireGuard®. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Además, WireGuard aspira ser más simple y veloz.
 
-Mullvad [recomienda a](https://mullvad.net/en/help/why-wireguard/) el uso de WireGuard con su servicio. Es el protocolo predeterminado o único en las aplicaciones Android, iOS, macOS y Linux de Mullvad, pero en Windows debe [habilitar manualmente](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad también ofrece un generador de configuraciones WireGuard para su uso con las [aplicaciones](https://www.wireguard.com/install/) oficiales de WireGuard.
+Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
 #### :material-check:{ .pg-green } Soporte de IPv6
 
-Mullvad te permite acceder a [a servicios alojados en IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/), a diferencia de otros proveedores que bloquean las conexiones IPv6.
+Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support), as opposed to other providers which block IPv6 connections.
 
 #### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
 
-Anteriormente, Mullvad admitía el reenvío de puertos, pero eliminó la opción en [Mayo de 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/). La ausencia de esta característica podría afectar negativamente a ciertas aplicaciones, especialmente a las aplicaciones peer-to-peer como los clientes torrent.
+Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). La ausencia de esta característica podría afectar negativamente a ciertas aplicaciones, especialmente a las aplicaciones peer-to-peer como los clientes torrent.
 
 #### :material-check:{ .pg-green } Evasión de la censura
 
@@ -259,11 +259,11 @@ Mullvad tiene un modo de ofuscación usando [Shadowsocks con v2ray](https://mull
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
-Mullvad ha publicado los clientes en [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) y [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), ambos con una interfaz fácil de usar en lugar de tener que configurar manualmente la conexión WireGuard. El cliente de Android también está disponible en [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. El cliente de Android también está disponible en [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
-Mullvad es muy transparente sobre los nodos que [posee o alquila](https://mullvad.net/en/servers/). Utilizan [ShadowSocks](https://shadowsocks.org/) en su configuración ShadowSocks + OpenVPN, haciéndolos más resistentes contra cortafuegos con [Inspección de paquetes profundos](https://en.wikipedia.org/wiki/Deep_packet_inspection) intentando bloquear VPNs. Supuestamente, [China tiene que utilizar un método diferente para bloquear los servidores de ShadowSocks](https://github.com/net4people/bbs/issues/22). El sitio web de Mullvad también es accesible a través de Tor en [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supuestamente, [China tiene que utilizar un método diferente para bloquear los servidores de ShadowSocks](https://github.com/net4people/bbs/issues/22). El sitio web de Mullvad también es accesible a través de Tor en [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
 
 ## Criterios
 

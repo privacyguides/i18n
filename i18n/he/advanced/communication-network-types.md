@@ -28,7 +28,7 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 - יכול לכלול <[שליטה או גישה מוגבלת](https://drewdevault.com/2018/08/08/Signal.html). זה יכול לכלול דברים כמו:
 - [אסור לחבר לקוחות צד שלישי](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) לרשת הריכוזית שעשויה לספק התאמה אישית גדולה יותר או חוויה טובה יותר. לרוב מוגדר בתנאים והגבלות של שימוש.
 - תיעוד לקוי או ללא תיעוד עבור מפתחי צד שלישי.
-- [הבעלות](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), מדיניות הפרטיות והתפעול של השירות יכול להשתנות בקלות כאשר ישות יחידה שולטת בו, ועלולה לסכן את השירות מאוחר יותר.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - אירוח עצמי דורש מאמץ וידע כיצד להקים שירות.
 
 ## רשתות פדרציה
@@ -60,7 +60,7 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 
 מסנג'רים P2P מתחברים ל[רשת מבוזרת](https://en.wikipedia.org/wiki/Distributed_networking) של צמתים כדי להעביר הודעה לנמען ללא שרת של צד שלישי.
 
-לקוחות (עמיתים) מוצאים זה את זה בדרך כלל באמצעות [רשת מחשוב מבוזרת](https://en.wikipedia.org/wiki/Distributed_computing). דוגמאות לכך כוללות [טבלאות Hash מפוזרות](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), המשמשות את [טורנטים](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) ו[IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) למשל. גישה נוספת היא רשתות מבוססות קרבה, שבהן נוצר חיבור באמצעות WiFi או Bluetooth (לדוגמה, Briar או פרוטוקול הרשת החברתית [Scuttlebutt](https://www.scuttlebutt.nz)).
+לקוחות (עמיתים) מוצאים זה את זה בדרך כלל באמצעות [רשת מחשוב מבוזרת](https://en.wikipedia.org/wiki/Distributed_computing). דוגמאות לכך כוללות [טבלאות Hash מפוזרות](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), המשמשות את [טורנטים](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) ו[IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) למשל. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 לאחר שעמית מצא מסלול ליצירת קשר באמצעות כל אחת מהשיטות הללו, נוצר קשר ישיר ביניהן. למרות שהודעות מוצפנות בדרך כלל, צופה עדיין יכול להסיק את המיקום והזהות של השולח והנמען.
 

@@ -4,11 +4,11 @@ title: סגנון כתיבה
 
 Privacy Guides כתובים באנגלית אמריקאית, וכדאי לעיין ב-[APA הנחיות סגנון](https://apastyle.apa.org/style-grammar-guidelines/grammar) כאשר יש ספק.
 
-באופן כללי [ההנחיות הפדרליות לשפה פשוטה של ארצות הברית](https://www.plainlanguage.gov/guidelines/) מספקות סקירה כללית טובה של איך לכתוב בצורה ברורה ותמציתית. אנו מדגישים כמה הערות חשובות מהנחיות אלה להלן.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. אנו מדגישים כמה הערות חשובות מהנחיות אלה להלן.
 
 ## כתיבה עבור הקהל שלנו
 
-[הקהל](https://www.plainlanguage.gov/guidelines/audience/) המיועד של Privacy Guides הוא בעיקר טכנולוגיה ממוצעת שמבוגרים משתמשים בה. אל תאט תוכן כאילו אתה פונה לכיתה בחטיבת הביניים, אבל אל תשתמש יתר על המידה בטרמינולוגיה מסובכת לגבי מושגים שמשתמשי מחשב ממוצעים לא היו מכירים.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. אל תאט תוכן כאילו אתה פונה לכיתה בחטיבת הביניים, אבל אל תשתמש יתר על המידה בטרמינולוגיה מסובכת לגבי מושגים שמשתמשי מחשב ממוצעים לא היו מכירים.
 
 ### התייחס רק למה שאנשים רוצים לדעת
 
@@ -24,7 +24,7 @@ Privacy Guides כתובים באנגלית אמריקאית, וכדאי לעיי
 > 
 > כאשר אתה משתמש ב"אתה" כדי לפנות למשתמשים, סביר יותר שהם יבינו מהי האחריות שלהם.
 
-מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### הימנעו מ"משתמשים "
 
@@ -37,7 +37,7 @@ Privacy Guides כתובים באנגלית אמריקאית, וכדאי לעיי
 - הגבל את המסמך לסביבות חמישה או שישה חלקים. מסמכים ארוכים כנראה צריכים להיות מחולקים לדפים נפרדים.
 - סמן רעיונות חשובים ב**מודגש** או ב*אותיות מוטות*.
 
-מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### התחל במשפט נושא
 
@@ -45,7 +45,7 @@ Privacy Guides כתובים באנגלית אמריקאית, וכדאי לעיי
 > 
 > לעתים קרובות אנו כותבים את הדרך שבה אנו חושבים, שמים את הנחות היסוד שלנו קודם כל ואחר כך את המסקנה שלנו. זו אולי הדרך הטבעית לפתח מחשבות, אבל אנחנו מסיימים עם משפט הנושא בסוף הפסקה. הזז אותו לפנים ואפשר למשתמשים לדעת לאן אתה הולך. אל תגרמו לקוראים להחזיק הרבה מידע בראש לפני שהם מגיעים לנקודה.
 
-מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## בחר את המילים שלך בקפידה
 
@@ -65,7 +65,7 @@ Privacy Guides כתובים באנגלית אמריקאית, וכדאי לעיי
 
 > מילים מיותרות מבזבזות את הזמן של הקהל שלך. כתיבה נהדרת היא כמו שיחה. השמט מידע שהקהל לא צריך לדעת. זה יכול להיות קשה כמומחה לנושא ולכן חשוב שמישהו יסתכל על המידע מנקודת המבט של הקהל.
 
-מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## שמור על שיחות טקסט
 
@@ -77,7 +77,7 @@ Privacy Guides כתובים באנגלית אמריקאית, וכדאי לעיי
 
 > קול פעיל מבהיר מי אמור לעשות מה. זה מבטל אי בהירות לגבי אחריות. לא "זה חייב להיעשות", אלא "אתה חייב לעשות את זה."
 
-מקור: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### השתמש ב"חייב" לדרישות
 

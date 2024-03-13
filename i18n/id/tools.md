@@ -9,7 +9,7 @@ description: Privacy Guides adalah situs web yang paling transparan dan dapat di
 
 Jika Anda mencari solusi spesifik untuk sesuatu, berikut ini adalah perangkat keras dan perangkat lunak yang kami rekomendasikan dalam berbagai kategori. Perangkat privasi yang kami rekomendasikan terutama dipilih berdasarkan fitur keamanan, dengan penekanan tambahan pada perangkat yang terdesentralisasi dan bersumber terbuka. Mereka dapat diterapkan pada berbagai model ancaman mulai dari perlindungan terhadap program pengawasan massal global dan menghindari perusahaan teknologi besar hingga memitigasi serangan, tetapi hanya Anda yang dapat menentukan mana yang paling sesuai dengan kebutuhan Anda.
 
-Jika Anda ingin mendapatkan bantuan untuk mengetahui alat privasi terbaik dan program alternatif untuk kebutuhan Anda, mulailah berdiskusi di [forum](https://discuss.privacyguides.net/) atau komunitas [Matrix](https://matrix.to/#/#privacyguides:matrix.org) kami!
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 Untuk detail lebih lanjut tentang setiap proyek, mengapa proyek tersebut dipilih, dan tips atau trik tambahan yang kami rekomendasikan, klik tautan "Pelajari lebih lanjut" di setiap bagian, atau klik rekomendasi itu sendiri untuk dibawa ke bagian halaman tertentu.
 
@@ -89,7 +89,7 @@ Untuk detail lebih lanjut tentang setiap proyek, mengapa proyek tersebut dipilih
 
 #### Penyedia DNS
 
-Kami [merekomendasikan](dns.md#recommended-providers) sejumlah server DNS terenkripsi berdasarkan berbagai kriteria, seperti [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) dan [Quad9](https://quad9.net/). Kami menyarankan Anda untuk membaca halaman kami tentang DNS sebelum memilih penyedia. Dalam banyak kasus, menggunakan penyedia DNS alternatif tidak disarankan.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. Kami menyarankan Anda untuk membaca halaman kami tentang DNS sebelum memilih penyedia. Dalam banyak kasus, menggunakan penyedia DNS alternatif tidak disarankan.
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](dns.md)
 

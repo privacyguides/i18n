@@ -17,7 +17,7 @@ Privacy Guidesに投稿する際の一般的なルールをいくつか紹介し
 
 ### PNG
 
-[OptiPNG](https://sourceforge.net/projects/optipng/)を使用してPNG画像を最適化してください。
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
 
 ```bash
 optipng -o7 file.png

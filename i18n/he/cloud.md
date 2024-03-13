@@ -56,15 +56,15 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 ** Tresorit ** הוא ספק אחסון ענן מוצפן שוויצרי-הונגרי שנוסד בשנת 2011. Tresorit נמצאת בבעלות ה-Swiss Post, שירות הדואר הלאומי של שוויץ.
 
-[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-home-16: Homepage](https://tresorit.com){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
 - [:simple-windows11: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
@@ -75,15 +75,15 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 Tresorit קיבלה מספר ביקורות אבטחה עצמאיות:
 
-- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001:2013[^1] הענות[הסמכה](https://www.certipedia.com/quality_marks/9108644476) על ידי TÜV Rheinland InterCert Kft
-- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): בדיקת חדירה על ידי Computest
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
     - סקירה זו העריכה את האבטחה של לקוח האינטרנט של Tresorit, אפליקציית אנדרואיד, אפליקציית ווינדוס והתשתית הקשורה אליו.
     - Computest גילתה שתי נקודות תורפה שנפתרו.
-- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): בדיקת חדירה על ידי Ernst & Young.
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - סקירה זו ניתחה את קוד המקור המלא של Tresorit ואימתה שהיישום תואם את המושגים המתוארים ב[דף הלבן](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) של Tresorit.
     - ארנסט & יאנג בדק בנוסף את האינטרנט, הנייד והמחשב שולחני: "תוצאות הבדיקה לא מצאו חריגה מתביעות סודיות הנתונים של Tresorit."
 
-הם גם קיבלו את תווית האמון הדיגיטלי, הסמכה מ[היוזמה הדיגיטלית השוויצרית](https://www.swiss-digital-initiative.org/digital-trust-label/) המחייבת העברת 35[ קריטריונים](https://digitaltrust-label.swiss/criteria/) הקשורים לאבטחה, פרטיות ואמינות.
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
 
 ## קריטריונים
 

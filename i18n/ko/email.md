@@ -55,7 +55,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
@@ -74,7 +74,7 @@ Proton Mail에는 내부 충돌 보고서가 존재하며, 이는 제3자와 공
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Proton Mail 유료 이용자는 서비스에서 자신의 도메인을 사용하거나 [Catch-all](https://proton.me/support/catch-all) 주소를 사용할 수 있습니다. 도메인을 자신이 직접 구매하지 않더라도, Proton Mail이 지원하는 [보조 주소](https://proton.me/support/creating-aliases)를 유용하게 사용할 수 있습니다.
+Proton Mail 유료 이용자는 서비스에서 자신의 도메인을 사용하거나 [Catch-all](https://proton.me/support/catch-all) 주소를 사용할 수 있습니다. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } 비공개 결제 수단
 
@@ -129,7 +129,7 @@ Proton Mail은 디지털 유산 상속 기능을 제공하지 않습니다.
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Mailbox.org는 자신의 도메인을 사용할 수 있으며, [Catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) 주소를 지원합니다. 도메인을 자신이 직접 구매하지 않더라도, Mailbox.org가 지원하는 [보조 주소](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it)를 유용하게 사용할 수 있습니다.
+Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } 비공개 결제 수단
 
@@ -137,17 +137,17 @@ Mailbox.org는 BitPay 결제 처리업체가 독일에서 운영을 중단함에
 
 #### :material-check:{ .pg-green } 계정 보안
 
-Mailbox.org는 웹메일에 한해 [이중 인증](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA)을 지원합니다. TOTP 혹은 ([YubiCloud](https://www.yubico.com/products/services-software/yubicloud)를 통한) [YubiKey](https://en.wikipedia.org/wiki/YubiKey)를 사용할 수 있습니다. [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) 등의 웹 표준은 아직 지원되지 않습니다.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) 등의 웹 표준은 아직 지원되지 않습니다.
 
 #### :material-information-outline:{ .pg-blue } 데이터 보안
 
-Mailbox.org는 [암호화된 메일함](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox)을 이용하여 수신 메일을 암호화할 수 있습니다. 새로 수신하는 메시지는 즉시 공개 키로 암호화됩니다.
+Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). 새로 수신하는 메시지는 즉시 공개 키로 암호화됩니다.
 
-하지만 Mailbox.org에서 사용하는 소프트웨어 플랫폼인 [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange)는 주소록 및 캘린더 암호화를 [지원하지 않습니다.](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) 해당 데이터에 대해서는 [다른 솔루션](calendar.md)을 찾는것이 적합할 수 있습니다.
+However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. 해당 데이터에 대해서는 [다른 솔루션](calendar.md)을 찾는것이 적합할 수 있습니다.
 
 #### :material-check:{ .pg-green } 이메일 암호화
 
-Mailbox.org의 웹메일에는 [암호화 기능이 내장](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard)되어 있어 공개 OpenPGP키를 가진 사람들에게 메일을 간편하게 보낼 수 있습니다. 또한, [수신자가 직접 Mailbox.org에 있는 메일을 복호화](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP)하게 하는 기능도 있습니다. OpenPGP가 없어 수신자가 자신의 메일함에서 직접 복호화할 수 없을 경우에 이 기능을 사용할 수 있습니다.
+Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. OpenPGP가 없어 수신자가 자신의 메일함에서 직접 복호화할 수 없을 경우에 이 기능을 사용할 수 있습니다.
 
 또한, Mailbox.org는 [웹 키 디렉터리(WKD)](https://wiki.gnupg.org/WKD)에서 HTTP를 통한 공개 키 검색을 지원합니다. Mailbox.org를 사용하지 않는 사람들은 Mailbox.org 계정의 OpenPGP 공개키를 쉽게 찾을 수 있고, 플랫폼과 무관하게 종단간 암호화를 할 수 있습니다. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
@@ -157,9 +157,9 @@ Mailbox.org의 웹메일에는 [암호화 기능이 내장](https://kb.mailbox.o
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 
-[.onion을 이용하여](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org) Mailbox.org 계정을 IMAP/SMTP로 접근할 수 있습니다. Onion 서비스를 통한 웹메일 인터페이스 접근은 불가능하며, TLS 인증서 오류가 발생할 수 있습니다.
+You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Onion 서비스를 통한 웹메일 인터페이스 접근은 불가능하며, TLS 인증서 오류가 발생할 수 있습니다.
 
-모든 계정에는 [암호화 가능한](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive) 클라우드 스토리지가 제한적으로 제공됩니다. Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
 Mailbox.org는 모든 플랜에 디지털 유산 상속 기능을 제공합니다. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
@@ -185,18 +185,18 @@ Mailbox.org는 모든 플랜에 디지털 유산 상속 기능을 제공합니�
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
 - [:simple-windows11: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -206,7 +206,7 @@ Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use 
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } 비공개 결제 수단
 
@@ -232,7 +232,7 @@ Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). 이는 고객의 비즈니스 연락에 E2EE 적용을 보장합니다. 해당 기능의 가격은 연간 240유로입니다.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). 이는 고객의 비즈니스 연락에 E2EE 적용을 보장합니다. 해당 기능의 가격은 연간 240유로입니다.
 
 Tuta doesn't offer a digital legacy feature.
 
@@ -284,14 +284,14 @@ Privacy Guides 권장 이메일 별칭 제공 업체는 해당 업체에서 관�
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 </details>
 
 </div>
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 주요 무료 기능:
 
@@ -310,8 +310,8 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
 **SimpleLogin**는 여러 공통 도메인 이름에 이메일 별칭을 제공하는 무료 서비스입니다. 유료 기능으로는 무제한 별칭 및 사용자 지정 도메인을 사용할 수 있습니다.
 
 [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -320,16 +320,16 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
 
 </details>
 
 </div>
 
-SimpleLogin은 [2022년 4월 8일자로 Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces)에 인수되었습니다. Proton Mail을 주로 사용하고 계신다면 SimpleLogin은 훌륭한 선택입니다. 이제 두 제품 모두 동일한 회사에서 소유하고 있으므로, 신뢰해야 할 업체의 개수가 하나로 줄어듭니다. SimpleLogin은 향후 Proton 제품과 더욱 긴밀하게 통합될 것으로 기대하고 있습니다. SimpleLogin은 사용자가 선택한 어떤 이메일 제공업체든 계속 전달을 지원합니다. SimpleLogin은 2022년 초 Securitum으로부터 [감사받았으며](https://simplelogin.io/blog/security-audit/), 당시 제기된 문제는 이후 모두 [해결되었습니다](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin은 [2022년 4월 8일자로 Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces)에 인수되었습니다. Proton Mail을 주로 사용하고 계신다면 SimpleLogin은 훌륭한 선택입니다. 이제 두 제품 모두 동일한 회사에서 소유하고 있으므로, 신뢰해야 할 업체의 개수가 하나로 줄어듭니다. SimpleLogin은 향후 Proton 제품과 더욱 긴밀하게 통합될 것으로 기대하고 있습니다. SimpleLogin은 사용자가 선택한 어떤 이메일 제공업체든 계속 전달을 지원합니다. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
 Proton 계정과 SimpleLogin 계정 연결은 설정에서 가능합니다. Proton Unlimited, Business, Visionary 플랜을 이용 중이라면 SimpleLogin 프리미엄도 무료로 제공됩니다.
 
@@ -351,10 +351,10 @@ Proton 계정과 SimpleLogin 계정 연결은 설정에서 가능합니다. Prot
 
 **Mailcow**는 Linux 사용 경험이 많은 분에게 적합한 고급 메일 서버입니다. DKIM 지원 메일 서버, 안티바이러스, 스팸 모니터링, SOGo 웹메일 및 ActiveSync, 이중 인증 지원 웹 기반 관리 등 필요한 모든 것을 Docker 컨테이너에 갖추고 있습니다.
 
-[:octicons-home-16: 홈페이지](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=문서}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="소스 코드" }
-[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=기여 }
+[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
 </div>
 
@@ -372,8 +372,8 @@ Proton 계정과 SimpleLogin 계정 연결은 설정에서 가능합니다. Prot
 
 보다 수동적인 접근 방식을 찾으신다면 다음 두 아티클을 추천드립니다:
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
 
 ## 평가 기준
 
@@ -386,7 +386,7 @@ Proton 계정과 SimpleLogin 계정 연결은 설정에서 가능합니다. Prot
 **최소 요구 사항:**
 
 - Zero Access Encryption을 통해 이메일 계정 데이터를 암호화해야 합니다.
-- [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) 표준을 사용해 [Mbox](https://en.wikipedia.org/wiki/Mbox) 혹은 개별 .eml 내보내기 기능을 지원해야 합니다.
+- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - 사용자가 자신의 [도메인 이름](https://en.wikipedia.org/wiki/Domain_name)을 사용할 수 있어야 합니다. Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - 자체 인프라에서 운영되어야 합니다. 다른 이메일 서비스 제공 업체의 인프라를 기반으로 만들어진 서비스여선 안 됩니다.
 
@@ -397,7 +397,7 @@ Proton 계정과 SimpleLogin 계정 연결은 설정에서 가능합니다. Prot
 - [WKD](https://wiki.gnupg.org/WKD)를 지원하여 HTTP를 통한 공개 OpenPGP 키 검색 편의를 제공해야 합니다. GnuPG 사용자는 `gpg --locate-key example_user@example.com`를 입력하여 키를 얻을 수 있습니다.
 - 외부 사용자를 위해 임시 메일함을 지원해야 합니다. 수신자에게 실제 사본을 보내지 않고 암호화된 이메일을 보내고자 할 때 유용합니다. 이러한 이메일은 보통 수명이 제한돼 있으며 이후 자동으로 삭제됩니다. 수신자가 OpenPGP 등의 암호화를 설정할 필요가 없습니다.
 - [Onion 서비스](https://en.wikipedia.org/wiki/.onion)를 통해 이메일 서비스를 이용할 수 있어야 합니다.
-- [보조 주소](https://en.wikipedia.org/wiki/Email_address#Subaddressing)를 지원해야 합니다.
+- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
 - 자체 도메인을 소유한 사용자를 위해 Catch-all 이나 별칭 기능을 제공해야 합니다.
 - IMAP, SMTP, [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol) 등 표준 이메일 접근 프로토콜을 사용해야 합니다. 표준 액세스 프로토콜을 사용함으로써, 사용자는 다른 서비스 제공 업체로 전환하고자 할 경우 모든 이메일을 쉽게 다운로드할 수 있습니다.
 
@@ -425,13 +425,13 @@ Privacy Guides이 권장하는 제공자들은 최소한의 데이터만을 수�
 - 웹메일은 2FA(TOTP 등)로 보호되어야 합니다.
 - Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)를 지원해야 합니다.
-- [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), [Qualys SSL Labs](https://www.ssllabs.com/ssltest) 등의 툴로 분석했을 때 TLS 에러나 취약점이 없어야 합니다. 여기에는 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security))으로 이어진 것과 같은 인증서 관련 오류 및 DH 파라미터도 포함됩니다.
+- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
 - A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
 - Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
 - Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
 - Website security standards such as:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -446,7 +446,7 @@ Privacy Guides이 권장하는 제공자들은 최소한의 데이터만을 수�
 - 버그 바운티 프로그램 또는 체계적인 취약점 공개 프로세스가 있음
 - Website security standards such as:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### 신뢰
 

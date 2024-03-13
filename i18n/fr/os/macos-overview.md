@@ -6,7 +6,7 @@ description: macOS is Apple's desktop operating system that works with their har
 
 **macOS** est un système d'exploitation Unix développé par Apple pour leurs ordinateurs Mac. Pour améliorer la confidentialité de macOS, il est possible de désactiver la télémétrie et renforcer les paramètres existants de confidentialité et de sécurité.
 
-Les anciens Mac à base de processeur Intel et les Hackintosh ne prennent pas en charge toutes les fonctions de sécurité offertes par macOS. Pour améliorer la sécurité des données, nous recommandons d'utiliser un Mac plus récent avec un processeur [Apple silicium](https://support.apple.com/fr-fr/HT211814).
+Les anciens Mac à base de processeur Intel et les Hackintosh ne prennent pas en charge toutes les fonctions de sécurité offertes par macOS. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/HT211814).
 
 ## Remarques concernant la vie privée
 
@@ -22,13 +22,13 @@ macOS effectue des contrôles en ligne lorsque vous ouvrez une application afin 
 
 Auparavant, ces vérifications étaient effectuées via un protocole OCSP non chiffré, ce qui pouvait entraîner une fuite d'informations sur les applications que vous exécutez sur votre réseau. Apple a mis à jour son service OCSP pour utiliser le chiffrement HTTPS en 2021, et [a publié des informations](https://support.apple.com/HT202491) sur sa politique de journalisation pour ce service. Ils ont également promis d'ajouter un mécanisme permettant aux personnes de se retirer de cette vérification en ligne, mais cela n'a pas été ajouté à macOS en date de juillet 2023.
 
-Bien que vous [puissiez](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) désactiver manuellement cette vérification assez facilement, nous vous déconseillons de le faire à moins que les vérifications de révocation effectuées par macOS ne vous compromettent gravement, car elles jouent un rôle important en empêchant l'exécution d'applications compromises.
+While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
 
 ## Configuration recommandée
 
 Lorsque vous configurez votre Mac pour la première fois, vous disposez d'un compte d'administrateur, dont les privilèges sont plus élevés que ceux d'un compte d'utilisateur standard. macOS dispose d'un certain nombre de protections qui empêchent les logiciels malveillants et d'autres programmes d'abuser de vos privilèges d'administrateur, de sorte que l'utilisation de ce compte est généralement sûre.
 
-Cependant, des exploits dans des utilitaires de protection tels que `sudo` ont été [découverts dans le passé](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass/). Si vous souhaitez éviter que les programmes que vous exécutez n'abusent de vos privilèges d'administrateur, vous pouvez envisager de créer un deuxième compte d'utilisateur standard, que vous utiliserez pour les opérations quotidiennes. Cela présente l'avantage supplémentaire de rendre plus évident le fait qu'une application a besoin d'un accès administrateur, parce qu'elle vous demandera à chaque fois de fournir des informations d'identification.
+However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass). Si vous souhaitez éviter que les programmes que vous exécutez n'abusent de vos privilèges d'administrateur, vous pouvez envisager de créer un deuxième compte d'utilisateur standard, que vous utiliserez pour les opérations quotidiennes. Cela présente l'avantage supplémentaire de rendre plus évident le fait qu'une application a besoin d'un accès administrateur, parce qu'elle vous demandera à chaque fois de fournir des informations d'identification.
 
 Si vous utilisez un deuxième compte, il n'est pas strictement nécessaire de vous connecter à votre compte administrateur d'origine à partir de l'écran de connexion de macOS. Lorsque vous effectuez, en tant qu'utilisateur standard, une opération nécessitant des autorisations d'administrateur, le système vous invite à vous authentifier, ce qui vous permet d'entrer une seule fois vos informations d'identification d'administrateur en tant qu'utilisateur standard. Apple fournit des [conseils](https://support.apple.com/HT203998) sur la façon de masquer votre compte administrateur si vous préférez ne voir qu'un seul compte sur votre écran de connexion.
 
@@ -128,7 +128,7 @@ Sur les anciens ordinateurs Mac à processeur Intel, FileVault est la seule form
 
 ##### Mode Isolement
 
-Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) désactive certaines fonctionnalités afin d'améliorer la sécurité. Certaines applications ou fonctionnalités ne fonctionneront pas de la même manière que lorsqu'il est désactivé. Par exemple, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) et [WASM](https://developer.mozilla.org/fr/docs/WebAssembly) sont désactivés dans Safari lorsque le mode Isolement est activé. Nous vous recommandons d'activer le mode Isolement et de voir s'il a un impact significatif sur votre utilisation, car la plupart des changements qu'il apporte sont faciles à vivre.
+Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) désactive certaines fonctionnalités afin d'améliorer la sécurité. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers) and [WASM](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. Nous vous recommandons d'activer le mode Isolement et de voir s'il a un impact significatif sur votre utilisation, car la plupart des changements qu'il apporte sont faciles à vivre.
 
 - [x] Cliquez sur **Activer**
 

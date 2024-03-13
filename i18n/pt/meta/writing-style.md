@@ -4,11 +4,11 @@ title: Normas de Estilo
 
 Privacy Guides está originalmente escrito em inglês dos EU, pelo que deve consultar as [normas de estilo da APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) em caso de dúvida.
 
-Em geral, as [as diretrizes federais de linguagem simples dos Estados Unidos](https://www.plainlanguage.gov/guidelines/) fornecem uma boa visão geral de como escrever de forma clara e concisa. Em seguida, destacamos algumas notas orientativas importantes.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. Em seguida, destacamos algumas notas orientativas importantes.
 
 ## Escreva para o nosso público
 
-O [público-alvo](https://www.plainlanguage.gov/guidelines/audience/) do Privacy Guides é sobretudo público adulto, utilizador de tecnologia. Não assuma uma postura diletante, simplificando o conteúdo como se estivesse a dirigir-se a uma turma do ensino básico ou médio. Contudo, não use terminologia demasiado complicada, sobretudo quando estão em causa conceitos com os quais os utilizadores comuns não estão familiarizados.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Não assuma uma postura diletante, simplificando o conteúdo como se estivesse a dirigir-se a uma turma do ensino básico ou médio. Contudo, não use terminologia demasiado complicada, sobretudo quando estão em causa conceitos com os quais os utilizadores comuns não estão familiarizados.
 
 ### Aborde apenas o que as pessoas querem saber
 
@@ -24,7 +24,7 @@ Escrevemos *para* uma grande variedade de pessoas, mas escrevemos *sobretudo par
 > 
 > Quando usa “você” para se referir aos utilizadores, é mais provável que eles entendam a sua responsabilidade.
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### Evite "utilizadores"
 
@@ -37,7 +37,7 @@ A organização é primordial. O conteúdo deve estar organizado de forma a que,
 - Um documento não deve ter mais do que cinco ou seis secções. Documentos longos deverão ser desdobrados em páginas separadas.
 - Assinale as ideias importantes com **negrito** ou *itálico*.
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### Comece com uma frase de tópico
 
@@ -45,7 +45,7 @@ Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 > 
 > Muitas vezes escrevemos de acordo com a nossa opinião, apresentando primeiro as nossas premissas e depois a nossa conclusão. Será talvez a forma natural de desenvolver as ideias, mas acabaremos por chegar apenas ao essencial do tópico no final do parágrafo. Coloque o essencial do tópico no início, informando os utilizadores sobre qual a direção que será seguida. Evite que os seus leitores acumulem demasiada informação nas suas cabeças, antes de chegarem ao essencial do tópico.
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## Escolha as suas palavras com cuidado
 
@@ -65,7 +65,7 @@ Deveremos evitar a utilização de abreviaturas, sempre que possível, embora sa
 
 > Palavras desnecessárias desperdiçam tempo ao seu público. Uma boa escrita é como uma conversa. Omita informações desnecessárias. Pode ser uma tarefa difícil para quem é especialista no tema, pelo que é importante que alguém possa validar a informação da perspetiva do público.
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## Mantenha o texto em tom de conversa
 
@@ -77,7 +77,7 @@ Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 > A voz ativa torna claro quem deve fazer o quê. Elimina ambiguidades em relação às responsabilidades. Não diga "deve ser feito", mas antes "tem de o fazer."
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### Use "deve" para requisitos
 

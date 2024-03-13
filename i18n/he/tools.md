@@ -9,7 +9,7 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 אם אתם מחפשים פתרון ספציפי למשהו, אלו הם כלי החומרה והתוכנה שאנו ממליצים עליהם במגוון קטגוריות. כלי הפרטיות המומלצים שלנו נבחרים בעיקר על סמך תכונות אבטחה, עם דגש נוסף על כלים מבוזרים וקוד פתוח. הם ישימים למגוון מודלים של איומים, החל מהגנה מפני תוכניות מעקב המוני גלובליות והימנעות מחברות טכנולוגיה גדולות ועד למיתון התקפות, אבל רק אתה יכול לקבוע מה יעבוד הכי טוב עבור הצרכים שלך.
 
-אם אתה רוצה עזרה בזיהוי כלי הפרטיות והתוכניות החלופיות הטובות ביותר לצרכים שלך, התחל דיון ב[פורום](https://discuss.privacyguides.net/) או בקהילת ה- [Matrix](https://matrix.to/#/#privacyguides:matrix.org) שלנו!
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 לפרטים נוספים על כל פרויקט, מדוע הם נבחרו וטיפים או טריקים נוספים שאנו ממליצים עליו, לחץ על הקישור "למד עוד" בכל חלק, או לחץ על ההמלצה עצמה כדי לעבור לאותו חלק ספציפי של העמוד.
 
@@ -89,7 +89,7 @@ description: Privacy Guides הוא האתר השקוף והאמין ביותר �
 
 #### ספקי DNS
 
-אנו ממליצים [](dns.md#recommended-providers) מספר שרתי DNS מוצפנים על בסיס מגוון רחב של קריטריונים, כגון [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) ו [Quad9](https://quad9.net/) בין היתר. אנו ממליצים לך לקרוא את הדפים שלנו על DNS לפני בחירת ספק. במקרים רבים, שימוש בספק DNS חלופי אינו מומלץ.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. אנו ממליצים לך לקרוא את הדפים שלנו על DNS לפני בחירת ספק. במקרים רבים, שימוש בספק DNS חלופי אינו מומלץ.
 
 [למד עוד :material-arrow-right-drop-circle:](dns.md)
 

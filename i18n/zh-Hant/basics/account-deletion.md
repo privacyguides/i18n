@@ -4,25 +4,25 @@ icon: 'material/account-remove'
 description: 一般人很容易累積大量的網路服務帳戶，這裏有一些如何順理這些資料的小訣竅。
 ---
 
-隨著時間的推移，一般人很容易地積累一些網路帳戶，但可能其中有不少早已不再使用。 刪除這些未使用的帳戶是收回隱私的重要一步，因為休眠帳戶容易受到數據洩露的影響。 資料外洩是指服務的安全性受到破壞，受保護的資訊被未經授權的行為者檢視、傳輸或竊取。 不幸的是近來資料外洩事件 [已見怪不怪](https://haveibeenpwned.com/PwnedWebsites)  ，保持良好的數位清潔才能減輕資料外洩對個人生活的衝擊。 本指南的目標是幫助您通過令人討厭的帳戶刪除過程----通常由 [欺騙性設計](https://www.deceptive.design/)讓刪除困難，以改善您的網路現身。
+隨著時間的推移，一般人很容易地積累一些網路帳戶，但可能其中有不少早已不再使用。 刪除這些未使用的帳戶是收回隱私的重要一步，因為休眠帳戶容易受到數據洩露的影響。 資料外洩是指服務的安全性受到破壞，受保護的資訊被未經授權的行為者檢視、傳輸或竊取。 不幸的是近來資料外洩事件 [已見怪不怪](https://haveibeenpwned.com/PwnedWebsites)  ，保持良好的數位清潔才能減輕資料外洩對個人生活的衝擊。 The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## 查找舊帳戶
 
 ### 密碼管理器。
 
-如果您使用一個貫穿整個數位生活的密碼管理器，這部分將非常容易。 通常，它們包括內置功能，用於檢測您的憑證是否在資料洩露中暴露-例如Bitwarden的 [資料洩露報告](https://bitwarden.com/blog/have-you-been-pwned/)。
+如果您使用一個貫穿整個數位生活的密碼管理器，這部分將非常容易。 Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
   ![Bitwarden's 資料外洩報告特色](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-即使您之前沒有明確使用過密碼管理器，但可能在無意中早已透過瀏覽器或手機中使用了密碼管理器。 例如： [Firefox 密碼管理器](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins)、 [Google 密碼管理器](https://passwords.google.com/intro) 和 [Edge  密碼管理器](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)。
+即使您之前沒有明確使用過密碼管理器，但可能在無意中早已透過瀏覽器或手機中使用了密碼管理器。 For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
 桌面平臺通常還有一個密碼管理器，可以幫助您恢復忘記的密碼：
 
-- Windows [憑證管理器r](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [密碼](https://support.apple.com/en-us/HT211145)
-- iOS [密碼](https://support.apple.com/en-us/HT211146)
+- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [Passwords](https://support.apple.com/HT211145)
+- iOS [Passwords](https://support.apple.com/HT211146)
 - Linux, Gnome Keyring, 可透過 [Seahorse](https://wiki.gnome.org/Apps/Seahorse) 或 [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)來取用。
 
 ### 電子郵件
@@ -39,7 +39,7 @@ description: 一般人很容易累積大量的網路服務帳戶，這裏有一�
 
 ### GDPR （僅限歐洲經濟區居民）
 
-歐盟居民在資料刪除上享有額外權利，其詳見於 GDPR [第 17 條](https://www.gdpr.org/regulation/article-17.html)規定。 如果適用於您，請閱讀任何特定服務的隱私權政策，以查找有關如何行使刪除權利的資訊。 閱讀隱私政策可能很重要，因為某些服務的「刪除帳戶」選項，實際上只是停用您的帳戶，若要真正刪除，您必須採取額外行動。 有時，刪除過程中可能需填寫調查、向服務商的資料保護人員發送電子郵件，甚至提出您為歐盟居民的證明。 如果您打算這樣做，請 **不要** 覆寫帳戶資訊-可能需要歐盟居民身份。 請注意，服務的位置並不重要； GDPR 適用於為歐盟用戶服務的任何人。 若服務商不願尊重您請求刪除的權利，可聯絡所在國的[官方資料保護機關](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)，您可能有權請求金錢賠償。
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. 如果適用於您，請閱讀任何特定服務的隱私權政策，以查找有關如何行使刪除權利的資訊。 閱讀隱私政策可能很重要，因為某些服務的「刪除帳戶」選項，實際上只是停用您的帳戶，若要真正刪除，您必須採取額外行動。 有時，刪除過程中可能需填寫調查、向服務商的資料保護人員發送電子郵件，甚至提出您為歐盟居民的證明。 如果您打算這樣做，請 **不要** 覆寫帳戶資訊-可能需要歐盟居民身份。 請注意，服務的位置並不重要； GDPR 適用於為歐盟用戶服務的任何人。 若服務商不願尊重您請求刪除的權利，可聯絡所在國的[官方資料保護機關](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)，您可能有權請求金錢賠償。
 
 ### 覆寫帳戶資訊
 
@@ -59,4 +59,4 @@ description: 一般人很容易累積大量的網路服務帳戶，這裏有一�
 
 ## 避免註冊新帳戶
 
-俗話說：「預防更勝治療。」 每當你覺得想要註冊一個新帳戶時，問問自己：「我真的需要註冊這個嗎？ 有不需要註冊的替代方案嗎？」 刪除一個帳戶通常比創建一個帳戶要困難得多。 即使刪除或更改帳戶上的資訊，也可能有來自第三方的緩存版本，例如 [Internet Archive](https://archive.org/)。 如果可能的話，不要隨便註冊帳號－未來的你會感謝你現在的決定！
+俗話說：「預防更勝治療。」 每當你覺得想要註冊一個新帳戶時，問問自己：「我真的需要註冊這個嗎？ 有不需要註冊的替代方案嗎？」 刪除一個帳戶通常比創建一個帳戶要困難得多。 And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). 如果可能的話，不要隨便註冊帳號－未來的你會感謝你現在的決定！

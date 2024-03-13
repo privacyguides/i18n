@@ -20,20 +20,20 @@ Queste app di messaggistica sono ottime per proteggere le tue comunicazioni sens
 
 ![Logo di Signal](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. L'app fornisce messaggistica istantanea e chiamate protette con il Signal Protocol, un protocollo di crittografia estremamente sicuro che supporta la segretezza in avanti[^1] e la sicurezza post-compromesso. ^2]
+**Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
-[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ . ard-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.signal.org){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
-- [:simple-android: Android](https://signal.org/android/apk/)
+- [:simple-android: Android](https://signal.org/android/apk)
 - [:simple-windows11: Windows](https://signal.org/download/windows)
 - [:simple-apple: macOS](https://signal.org/download/macos)
 - [:simple-linux: Linux](https://signal.org/download/linux)
@@ -53,13 +53,13 @@ Signal richiede il tuo numero di telefono per la registrazione, ma dovresti crea
 
 È possibile modificare l'impostazione **Chi può trovarmi con il numero** in **Nessuno** se si vuole evitare che persone che hanno già il tuo numero di telefono scoprano il tuo account/nome utente Signal.
 
-Gli elenchi di contatti su Signal sono crittografati utilizzando il PIN di Signal e il server non ha accesso ad essi. Inoltre, i profili personali sono crittografati e condivisi esclusivamente con i contatti con cui parli. Signal supporta i gruppi privati [](https://signal.org/blog/signal-private-group-system/), in cui il server non registra i membri del gruppo, i titoli del gruppo, gli avatar o gli attributi del gruppo. Signal ha metadati minimi quando [Mittente sigillato](https://signal.org/blog/sealed-sender/) è abilitato. L'indirizzo del mittente è crittografato insieme al corpo del messaggio e soltanto l'indirizzo del destinatario è visibile al server. Mittente Sigillato è abilitato esclusivamente per i tuoi contatti, ma è attivabile per tutti i destinatari con il rischio incrementato di ricevere spam.
+Gli elenchi di contatti su Signal sono crittografati utilizzando il PIN di Signal e il server non ha accesso ad essi. Inoltre, i profili personali sono crittografati e condivisi esclusivamente con i contatti con cui parli. Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. L'indirizzo del mittente è crittografato insieme al corpo del messaggio e soltanto l'indirizzo del destinatario è visibile al server. Mittente Sigillato è abilitato esclusivamente per i tuoi contatti, ma è attivabile per tutti i destinatari con il rischio incrementato di ricevere spam.
 
-Il protocollo è stato [controllato](https://eprint.iacr.org/2016/1013.pdf) indipendentemente nel 2016. Le specifiche per il protocollo di Signal si possono trovare nella sua [documentazione](https://signal.org/docs/).
+Il protocollo è stato [controllato](https://eprint.iacr.org/2016/1013.pdf) indipendentemente nel 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
 
 Abbiamo alcuni consigli aggiuntivi sulla configurazione e rafforzamento della tua installazione di Signal:
 
-[Configurazione e Rafforzamento di Signal :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
+[Configurazione e Rafforzamento di Signal :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
 ### SimpleX Chat
 
@@ -75,10 +75,10 @@ Abbiamo alcuni consigli aggiuntivi sulla configurazione e rafforzamento della tu
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
 - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
@@ -96,22 +96,22 @@ SimpleX Chat supporta le funzionalità di base per le chat di gruppo, messaggi d
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Briar](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** è un'app di messaggistica istantanea crittografata che si [connette](https://briarproject.org/how-it-works/) ad altri client utilizzando la Rete di Tor. Briar può anche connettersi via Wi-Fi o Bluetooth quando si trova nelle vicinanze. La modalità mesh locale di Briar può essere utile quando la connessione a Internet è problematica.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network. Briar può anche connettersi via Wi-Fi o Bluetooth quando si trova nelle vicinanze. La modalità mesh locale di Briar può essere utile quando la connessione a Internet è problematica.
 
-[:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentazione}
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://briarproject.org/){ .card-link title="Le opzioni per donare sono elencate in fondo alla homepage" }
+[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
-- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
+- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop)
+- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
 </details>
@@ -120,7 +120,7 @@ SimpleX Chat supporta le funzionalità di base per le chat di gruppo, messaggi d
 
 Per aggiungere un contatto su Briar, è necessario prima aggiungersi a vicenda. Puoi scambiare i link `briar://` o scansionare il codice QR di un contatto, se è nelle vicinanze.
 
-Il software per il client è stato [controllato](https://briarproject.org/news/2017-beta-released-security-audit/) indipendentemente, così come il protocollo anonimo di trasmissione che utilizza la Rete di Tor.
+The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
 
 Briar ha [pubblicato le specifiche](https://code.briarproject.org/briar/briar-spec) complete.
 
@@ -139,26 +139,26 @@ Questi messanger non hanno la segretezza in avanti[^1], e mentre soddisfano dete
 
 <div class="admonition recommendation" markdown>
 
-![Logo Element](assets/img/messengers/element.svg){ align=right }
+![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** è il [client](https://matrix.org/ecosystem/clients/) di riferimento per il protocollo [Matrix](https://matrix.org/docs/guides/introduction), uno [standard aperto](https://matrix.org/docs/spec) per la comunicazione decentralizzata sicura in tempo reale.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients) for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
 I messaggi e i file condivisi nelle stanze private (che richiedono un invito), sono di default in E2EE, così come le chiamate e videochiamate tra due persone.
 
-[:octicons-home-16: Pagina Home](https://element.io/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Politica sulla privacy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
-- [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
-- [:simple-windows11: Windows](https://element.io/get-started)
-- [:simple-apple: macOS](https://element.io/get-started)
-- [:simple-linux: Linux](https://element.io/get-started)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
+- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
+- [:simple-windows11: Windows](https://element.io/download)
+- [:simple-apple: macOS](https://element.io/download)
+- [:simple-linux: Linux](https://element.io/download)
 - [:octicons-globe-16: Web](https://app.element.io)
 
 </details>
@@ -171,7 +171,7 @@ Le chiamate e le videochiamate [non](https://github.com/vector-im/element-web/is
 
 Il protocollo Matrix stesso [teoricamente supporta la segretezza in avanti](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], tuttavia questo è [attualmente non supportato in Element](https://github.com/vector-im/element-web/issues/7101) a causa dell'interruzione di alcuni aspetti dell'esperienza utente, come i backup delle chiavi e la cronologia dei messaggi condivisi.
 
-Il protocollo è stato [controllato](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) indipendentemente nel 2016. Le specifiche per il protocollo di Matrix possono essere trovate nella sua [documentazione](https://spec.matrix.org/latest/). Il [ratchet di crittografia Olm](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) utilizzato da Matrix è un'implementazione dell'[algoritmo Double Ratchet](https://signal.org/docs/specifications/doubleratchet/) di Signal.
+Il protocollo è stato [controllato](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) indipendentemente nel 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
 
 ### Session
 
@@ -181,12 +181,12 @@ Il protocollo è stato [controllato](https://matrix.org/blog/2016/11/21/matrixs-
 
 **Session** è un'app di messaggistica decentralizzata incentrata sulle comunicazioni private, sicure e anonime. Session offre il supporto ai messaggi diretti, alle chat di gruppo e alle chiamate vocali.
 
-Session utilizza la [Rete Oxen Service Node](https://oxen.io/) decentralizzata per memorizzare e instradare i messaggi. Ogni messaggio crittografato è indirizzato tramite tre nodi nella Rete del Nodo del Servizio di Oxen, rendendo virtualmente impossibile, per i nodi, la compilazione di informazioni significative su coloro che utilizzano la rete.
+Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to store and route messages. Ogni messaggio crittografato è indirizzato tramite tre nodi nella Rete del Nodo del Servizio di Oxen, rendendo virtualmente impossibile, per i nodi, la compilazione di informazioni significative su coloro che utilizzano la rete.
 
-[:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>

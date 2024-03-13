@@ -69,13 +69,13 @@ Se utilizzi Tor, *probabilmente* faresti meglio a connetterti alla rete Tor tram
 
 Non dovresti utilizzare quella funzionalità. Il vantaggio principale dell'utilizzo di Tor è che non devi affidarti al fornitore della tua VPN, il che è negato utilizzando i nodi di Tor ospitati dalla tua VPN, invece di connettersi direttamente a Tor dal proprio computer.
 
-Al momento, Tor supporta soltanto il protocollo TCP. UDP (utilizzato da [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), e altri protocolli), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) e altri pacchetti, saranno rilasciati. Per compensare questa situazione, i fornitori di VPN di solito instradano tutti i pacchetti non-TCP attraverso il loro server VPN (il primo hop). Questo è il caso di [ProtonVPN](https://protonvpn.com/support/tor-vpn/). Inoltre, quando si utilizza questa configurazione di Tor su VPN, non si ha il controllo su altre importanti funzionalità di Tor come [Isolated Destination Address](https://www.whonix.org/wiki/Stream_Isolation) (utilizzo di un circuito Tor diverso per ogni dominio visitato).
+Al momento, Tor supporta soltanto il protocollo TCP. UDP (utilizzato da [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), e altri protocolli), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) e altri pacchetti, saranno rilasciati. Per compensare questa situazione, i fornitori di VPN di solito instradano tutti i pacchetti non-TCP attraverso il loro server VPN (il primo hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
 
 La funzionalità dovrebbe esser vista come un *comodo* metodo per accedere ai servizi nascosti su Tor, non per rimanere anonimi. Per un anonimato adeguato, utilizza [Tor Browser](../tor.md).
 
 ## Proprietà delle VPN commerciali
 
-Gran parte dei servizi VPN sono posseduti dalle stesse [poche aziende](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). Queste losche aziende gestiscono molti piccoli servizi VPN per creare l'illusione di avere una maggiore scelta e massimizzare i profitti. Tipicamente, questi fornitori che si nutrono nella propria società di comodo, prevedono politiche sulla privacy terribili e non gli dovrebbe essere affidato il tuo traffico Internet. Dovresti essere molto rigido su quale fornitore decidi di utilizzare.
+Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). Queste losche aziende gestiscono molti piccoli servizi VPN per creare l'illusione di avere una maggiore scelta e massimizzare i profitti. Tipicamente, questi fornitori che si nutrono nella propria società di comodo, prevedono politiche sulla privacy terribili e non gli dovrebbe essere affidato il tuo traffico Internet. Dovresti essere molto rigido su quale fornitore decidi di utilizzare.
 
 Dovresti anche essere consapevole del fatto che molti siti di recensioni delle VPN, sono meeri veicoli pubblicitari, aperti al maggior offerente. ==Privacy Guides non riceve denaro consigliando prodotti esterni, e non utilizza mai programmi d'affiliazione.==
 
@@ -111,8 +111,8 @@ Molte dVPN sono utilizzate per spingere una criptovaluta, piuttosto che per offr
 
 ## Informazioni correlate alle VPN
 
-- [The Trouble with VPN and Privacy Review Sites (Il problema dei siti di recensioni di VPN e privacy)](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [Free VPN App Investigation (Indagine sulle app di VPN gratuite)](https://www.top10vpn.com/free-vpn-app-investigation/)
-- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies (Svelati i proprietari segreti delle VPN: 101 prodotti per VPN gestiti da sole 23 aziende)](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
-- [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions (Questa azienda cinese è segretamente dietro 24 app popolari che cercano autorizzazioni pericolose)](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-- [VPN - a Very Precarious Narrative (VPN - una narrazione molto precaria)](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) di Dennis Schubert
+- [The Trouble with VPN and Privacy Review Sites (Il problema dei siti di recensioni di VPN e privacy)](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
+- [Free VPN App Investigation (Indagine sulle app di VPN gratuite)](https://top10vpn.com/research/free-vpn-investigations/ownership)
+- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies (Svelati i proprietari segreti delle VPN: 101 prodotti per VPN gestiti da sole 23 aziende)](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
+- [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions (Questa azienda cinese è segretamente dietro 24 app popolari che cercano autorizzazioni pericolose)](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert

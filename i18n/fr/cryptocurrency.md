@@ -24,10 +24,10 @@ De nombreux projets de crypto-monnaies, voire la plupart, sont des escroqueries.
 
 **Monero** utilise une chaîne de blocs avec des technologies de protection de la vie privée qui obscurcissent les transactions afin d'obtenir un anonymat. Chaque transaction Monero cache le montant de la transaction, les adresses d'envoi et de réception, ainsi que la source des fonds, sans aucune difficulté, ce qui en fait un choix idéal pour les novices en matière de crypto-monnaies.
 
-[:octicons-home-16: Page d'accueil](https://www.getmonero.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Code source" }
-[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Contribuer }
+[:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title=Contribute }
 
 </details>
 
@@ -38,16 +38,16 @@ Avec Monero, les observateurs extérieurs ne peuvent pas déchiffrer les adresse
 Pour une confidentialité optimale, assurez-vous d'utiliser un portefeuille sans garde, où la clé de visualisation reste sur l'appareil. Cela signifie que vous êtes le seul à pouvoir dépenser vos fonds et à voir les transactions entrantes et sortantes. Si vous utilisez un portefeuille de garde, le fournisseur peut voir **tout** ce que vous faites ; si vous utilisez un portefeuille "léger" dans lequel le fournisseur conserve votre clé privée, il peut voir presque tout ce que vous faites. Parmi les portefeuilles non gardiens, on peut citer :
 
 - [le client Monero officiel](https://getmonero.org/downloads) (bureau)
-- [Cake Wallet](https://cakewallet.com/) (iOS, Android)
-    - Cake Wallet prend en charge plusieurs crypto-monnaies. Une version de Cake Wallet réservée aux utilisateurs de Monero est disponible sur [Monero.com](https://monero.com/).
-- [Feather Wallet](https://featherwallet.org/) (bureau)
-- [Monerujo](https://www.monerujo.io/) (Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+    - Cake Wallet prend en charge plusieurs crypto-monnaies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
+- [Feather Wallet](https://featherwallet.org) (Desktop)
+- [Monerujo](https://monerujo.io) (Android)
 
 Pour une confidentialité maximale (même avec un portefeuille sans garde), vous devriez utiliser votre propre nœud Monero. L'utilisation du nœud d'une autre personne expose certaines informations, telles que l'adresse IP à partir de laquelle vous vous connectez, les heures auxquelles vous synchronisez votre portefeuille et les transactions que vous envoyez à partir de votre portefeuille (mais pas d'autres détails sur ces transactions). Vous pouvez également vous connecter au nœud Monero de quelqu'un d'autre via Tor ou i2p.
 
-En août 2021, CipherTrace [a annoncé](https://ciphertrace.com/enhanced-monero-tracing/) des capacités de traçage de Monero améliorées pour les agences gouvernementales. Des publications publiques montrent que le Financial Crimes Enforcement Network du département du Trésor américain [a accordé une licence à](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace pour son "module Monero" à la fin de l'année 2022.
+In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. Des publications publiques montrent que le Financial Crimes Enforcement Network du département du Trésor américain [a accordé une licence à](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace pour son "module Monero" à la fin de l'année 2022.
 
-La confidentialité du graphe des transactions Monero est limitée par son cercle de signatures relativement petit, en particulier contre les attaques ciblées. Les caractéristiques de confidentialité de Monero ont également été [remises en question](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) par certains chercheurs en sécurité, et un certain nombre de vulnérabilités graves ont été trouvées et corrigées dans le passé, de sorte que les affirmations faites par des organisations comme CipherTrace ne sont pas hors de question. S'il est peu probable qu'il existe des outils de surveillance de masse de Monero comme il en existe pour le Bitcoin et d'autres, il est certain que les outils de traçage facilitent les enquêtes ciblées.
+La confidentialité du graphe des transactions Monero est limitée par son cercle de signatures relativement petit, en particulier contre les attaques ciblées. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. S'il est peu probable qu'il existe des outils de surveillance de masse de Monero comme il en existe pour le Bitcoin et d'autres, il est certain que les outils de traçage facilitent les enquêtes ciblées.
 
 En fin de compte, Monero est la crypto-monnaie la plus respectueuse de la vie privée, mais ses revendications en matière de confidentialité **n'ont pas** été prouvées de manière définitive. Plus de temps et de recherche sont nécessaires pour évaluer si le Monero est suffisamment résistant aux attaques pour toujours offrir une protection adéquate de la vie privée.
 

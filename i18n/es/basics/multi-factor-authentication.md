@@ -30,7 +30,7 @@ El TOTP es una de las formas más comunes de MFA disponibles. Cuando se configur
 
 El código de tiempo limitado se deriva entonces del secreto compartido y de la hora actual. Como el código sólo es válido durante un corto periodo de tiempo, sin acceso al secreto compartido, un adversario no puede generar nuevos códigos.
 
-Si tienes una llave de seguridad de hardware con soporte para TOTP (como una YubiKey con [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), recomendamos que almacenes tus "secretos compartidos" en el equipo. El hardware como el YubiKey se desarrolló con la intención de que el "secreto compartido" fuera difícil de extraer y copiar. Una YubiKey tampoco está conectada al Internet, a diferencia de un teléfono con una aplicación TOTP.
+If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. El hardware como el YubiKey se desarrolló con la intención de que el "secreto compartido" fuera difícil de extraer y copiar. Una YubiKey tampoco está conectada al Internet, a diferencia de un teléfono con una aplicación TOTP.
 
 A diferencia de [WebAuthn](#fido-fast-identity-online), TOTP no ofrece protección contra [Phishing](https://es.wikipedia.org/wiki/Phishing) o ataques de reutilización. Si un adversario obtiene un código válido de ti, puede utilizarlo tantas veces como quiera hasta que caduque (generalmente 60 segundos).
 
@@ -122,13 +122,13 @@ Además de proteger tus inicios de sesión del sitio web, la autenticación de m
 
 ### Windows
 
-Yubico tiene un [Proveedor de credenciales](https://learn.microsoft.com/es-es/windows/win32/secauthn/credential-providers-in-windows) dedicado que añade la autenticación Challenge-Response para el flujo de inicio de sesión con nombre de usuario + contraseña para las cuentas locales de Windows. Si tienes una YubiKey con soporte de autenticación Challenge-Response, echa un ojo a la [Guía de configuración de Yubico Login para Windows](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), que te permitirá configurar MFA en tu computadora Windows.
+Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
 
 ### macOS
 
 macOS tiene [soporte nativo](https://support.apple.com/es-es/guide/deployment/depd0b888248/web) para la autenticación con tarjetas inteligentes (PIV). Si tienes una tarjeta inteligente o una llave de seguridad de hardware compatible con la interfaz PIV como la YubiKey, te recomendamos que sigas la documentación de tu tarjeta inteligente/vendedor de seguridad de hardware y configures la autenticación de segundo factor para tu ordenador macOS.
 
-Yubico tiene una guía [Uso de tu YubiKey como una tarjeta inteligente en macOS](https://support.yubico.com/hc/en-us/articles/360016649059) que puede ayudarte a configurar tu YubiKey en macOS.
+Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
 Después de configurar tu tarjeta inteligente/clave de seguridad, te recomendamos que ejecutes este comando en el Terminal:
 
@@ -147,22 +147,22 @@ Si el nombre de host de tu sistema cambia (por ejemplo, debido al DHCP), no podr
 
 </div>
 
-El módulo `pam_u2f` en Linux puede proporcionar autenticación de dos factores para iniciar sesión en las distribuciones Linux más populares. Si tienes una llave de seguridad de hardware compatible con U2F, puedes configurar la autenticación MFA para tu inicio de sesión. Yubico tiene una guía [Guía de inicio de sesión en Ubuntu Linux - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) que debería funcionar en cualquier distribución. Sin embargo, los comandos del gestor de paquetes—como `"apt-get"`—y los nombres de los paquetes pueden ser diferentes. Esta guía **no** le aplica a Qubes OS.
+El módulo `pam_u2f` en Linux puede proporcionar autenticación de dos factores para iniciar sesión en las distribuciones Linux más populares. Si tienes una llave de seguridad de hardware compatible con U2F, puedes configurar la autenticación MFA para tu inicio de sesión. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. Sin embargo, los comandos del gestor de paquetes—como `"apt-get"`—y los nombres de los paquetes pueden ser diferentes. Esta guía **no** le aplica a Qubes OS.
 
 ### Qubes OS
 
-Qubes OS tiene soporte para la autenticación Challenge-Response con YubiKeys. Si tienes una YubiKey con soporte de autenticación Challenge-Response, échale un ojo a la [documentación de YubiKey](https://www.qubes-os.org/doc/yubikey/) de Qubes OS si quieres configurar MFA en Qubes OS.
+Qubes OS tiene soporte para la autenticación Challenge-Response con YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
 
 ### SSH
 
 #### Llaves de Seguridad
 
-MFA de SSH podría configurarse utilizando varios métodos de autenticación diferentes que son populares con las claves de seguridad de hardware. Te recomendamos que consultea la [documentación](https://developers.yubico.com/SSH/) de Yubico sobre cómo configurarlo.
+MFA de SSH podría configurarse utilizando varios métodos de autenticación diferentes que son populares con las claves de seguridad de hardware. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
 
 #### Contraseñas de un solo uso basado en tiempo (TOTP)
 
-MFA de SSH también se puede configurar utilizando TOTP. DigitalOcean ha proporcionado un tutorial [Cómo Configurar la Autenticación Multifactor para SSH en Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). La mayoría de las cosas deberían ser las mismas independientemente de la distribución, sin embargo los comandos del gestor de paquetes—como `"apt-get"`—y los nombres de los paquetes pueden diferir.
+MFA de SSH también se puede configurar utilizando TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). La mayoría de las cosas deberían ser las mismas independientemente de la distribución, sin embargo los comandos del gestor de paquetes—como `"apt-get"`—y los nombres de los paquetes pueden diferir.
 
 ### KeePass (y KeePassXC)
 
-Las bases de datos de KeePass y KeePassXC pueden ser aseguradas utilizando Challenge-Response o HOTP como segundo factor de autenticación. Yubico ha proporcionado un documento para KeePass [Usando tu YubiKey con KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) y también hay uno en el sitio web de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
+Las bases de datos de KeePass y KeePassXC pueden ser aseguradas utilizando Challenge-Response o HOTP como segundo factor de autenticación. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

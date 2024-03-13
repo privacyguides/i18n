@@ -19,7 +19,7 @@ Quando estiver a utilizar uma instância gerida por outra pessoa, certifique-se 
 
 ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
 
-**ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
+**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
 
 There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
@@ -53,7 +53,7 @@ Por predefinição, o FreeTube bloqueia todos os anúncios do YouTube. Além dis
 
 [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.freetubeapp.io){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
 
@@ -72,7 +72,7 @@ Por predefinição, o FreeTube bloqueia todos os anúncios do YouTube. Além dis
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Ao utilizar o FreeTube, o seu endereço IP pode ainda ser do conhecimento do YouTube, [Invidious](https://instances.invidious.io) ou [SponsorBlock](https://sponsor.ajay.app/), dependendo da sua configuração. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -84,7 +84,7 @@ Ao utilizar o FreeTube, o seu endereço IP pode ainda ser do conhecimento do You
 
 O **Yattee** é um leitor de vídeos do [YouTube](https://youtube.com), gratuito e de código aberto, orientado para a privacidade, com versões para iOS, tvOS e macOS. Quando utiliza o Yattee, a sua lista de subscrições é guardada localmente no seu dispositivo.
 
-Terá de efetuar alguns [passos extra] (https://gonzoknows.com/posts/Yattee/) antes de poder utilizar o Yattee para ver o YouTube, devido a restrições da App Store.
+You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube, due to App Store restrictions.
 
 [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -95,7 +95,7 @@ Terá de efetuar alguns [passos extra] (https://gonzoknows.com/posts/Yattee/) an
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
+- [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
 - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
 </details>
@@ -105,7 +105,7 @@ Terá de efetuar alguns [passos extra] (https://gonzoknows.com/posts/Yattee/) an
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Ao utilizar o Yattee, o seu endereço IP pode ainda ser do conhecimento do YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) ou [SponsorBlock](https://sponsor.ajay.app/), dependendo da sua configuração. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -139,7 +139,7 @@ O LibreTube permite-lhe armazenar a sua lista de subscrição e listas de reprod
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Ao utilizar o LibreTube, o seu endereço IP será visível para a instância [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) que escolher e/ou [SponsorBlock](https://sponsor.ajay.app/), dependendo da sua configuração. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -149,17 +149,17 @@ Por defeito, o LibreTube bloqueia todos os anúncios do YouTube. Além disso, o 
 
 <div class="admonition recommendation annotate" markdown>
 
-![Logótipo Newpipe](assets/img/frontends/newpipe.svg){ align=right }
+![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** é uma aplicação Android gratuita e de código aberto para [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com) e [PeerTube](https://joinpeertube.org/) (1).
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 A sua lista de subscrição e listas de reprodução são guardadas localmente no seu dispositivo Android.
 
 [:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentation}
+[:octicons-info-16:](https://teamnewpipe.github.io/documentation){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -170,7 +170,7 @@ A sua lista de subscrição e listas de reprodução são guardadas localmente n
 
 </div>
 
-1. A instância predefinida é [FramaTube](https://framatube.org/), mas podem ser adicionadas mais através de **Settings** → **Content** → **PeerTube instances**
+1. The default instance is [FramaTube](https://framatube.org), however more can be added via **Settings** → **Content** → **PeerTube instances**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -191,10 +191,10 @@ O **Invidious** é um frontend gratuito e de código aberto para [YouTube](https
 There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
 [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
-[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Instâncias Públicas"}
-[:octicons-info-16:](https://docs.invidious.io/){ .card-link title=Documentação}
-[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Código-fonte" }
-[:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Contribuir }
+[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://docs.invidious.io){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://invidious.io/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -224,11 +224,11 @@ O **Piped** é um frontend gratuito e de código aberto para [YouTube](https://y
 
 O Piped requer JavaScript para funcionar e existem várias instâncias públicas.
 
-[:octicons-repo-16: Repositório](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Instâncias Públicas"}
-[:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=Documentação}
-[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Código-fonte" }
-[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribuir }
+[:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+[:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://piped-docs.kavin.rocks){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 
 </details>
 

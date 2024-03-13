@@ -28,7 +28,7 @@ Bij sommige zelf gehoste berichten diensten kun je je eigen server opzetten. Zel
 - Kan [beperkte controle of toegang](https://drewdevault.com/2018/08/08/Signal.html)omvatten. Dit kan dingen inhouden zoals:
 - Het is [verboden om clients van derden](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) aan te sluiten op het gecentraliseerde netwerk, wat zou kunnen zorgen voor meer maatwerk of een betere ervaring. Vaak gedefinieerd in de gebruiksvoorwaarden.
 - Slechte of geen documentatie voor externe ontwikkelaars.
-- De [eigendom](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), het privacybeleid en de verrichtingen van de dienst kunnen gemakkelijk veranderen wanneer één enkele entiteit de dienst controleert, waardoor de dienst later in gevaar kan worden gebracht.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - Zelf-hosting vergt inspanning en kennis van het opzetten van een dienst.
 
 ## Gefedereerde netwerken
@@ -60,7 +60,7 @@ Bij zelf-hosting kunnen leden van een federatieve server leden van andere server
 
 P2P berichten diensten maken verbinding met een [gedistribueerd netwerk](https://en.wikipedia.org/wiki/Distributed_networking) van knooppunten om een bericht door te geven aan de ontvanger zonder een server van derden.
 
-Cliënten (peers) vinden elkaar meestal via een [gedistribueerd computernetwerk](https://en.wikipedia.org/wiki/Distributed_computing). Voorbeelden hiervan zijn [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), gebruikt door [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) en [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) bijvoorbeeld. Een andere benadering is op nabijheid gebaseerde netwerken, waarbij een verbinding tot stand wordt gebracht via WiFi of Bluetooth (bijvoorbeeld Briar of het [Scuttlebutt](https://www.scuttlebutt.nz) sociale netwerkprotocol).
+Cliënten (peers) vinden elkaar meestal via een [gedistribueerd computernetwerk](https://en.wikipedia.org/wiki/Distributed_computing). Voorbeelden hiervan zijn [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), gebruikt door [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) en [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) bijvoorbeeld. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Zodra een peer via een van deze methoden een route naar zijn contactpersoon heeft gevonden, wordt een rechtstreekse verbinding tussen hen tot stand gebracht. Hoewel berichten meestal versleuteld zijn, kan een waarnemer toch de locatie en de identiteit van de verzender en de ontvanger afleiden.
 

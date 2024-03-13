@@ -55,7 +55,7 @@ description: Модель угрозы уникальна для каждого,
 
 </div>
 
-Если вы опасаетесь **физических атак**, вам следует использовать операционную систему с реализацией безопасной проверенной загрузки, например Android, iOS, macOS или [Windows (с TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Также следует убедиться, что диск зашифрован и что операционная система использует TPM или [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) или [Secure Element](https://developers.google.com/android/security/android-ready-se) для ограничения количества попыток ввода парольной фразы шифрования. Вам следует избегать совместного использования компьютера с людьми, которым вы не доверяете, поскольку большинство настольных операционных систем не шифруют данные отдельно для каждого пользователя.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Также следует убедиться, что диск зашифрован и что операционная система использует TPM или [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) или [Secure Element](https://developers.google.com/android/security/android-ready-se) для ограничения количества попыток ввода парольной фразы шифрования. Вам следует избегать совместного использования компьютера с людьми, которым вы не доверяете, поскольку большинство настольных операционных систем не шифруют данные отдельно для каждого пользователя.
 
 ## Конфиденциальность от поставщиков услуг
 
@@ -89,16 +89,16 @@ description: Модель угрозы уникальна для каждого,
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-Если вы хотите узнать больше о методах наблюдения и о том, как они применяются в вашем городе, вы также можете взглянуть на [Атлас наблюдения](https://atlasofsurveillance.org/) от [Electronic Frontier Foundation](https://www.eff.org/).
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 Правительства часто оправдывают программы массовой слежки как необходимые средства для борьбы с терроризмом и предотвращения преступлений. Однако, нарушая права человека, она чаще всего используется для непропорционального преследования меньшинств и политических диссидентов.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 Перед лицом [разоблачений Эдварда Сноудена о таких правительственных программах, как [PRISM](https://en.wikipedia.org/wiki/PRISM) и [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], представители разведки также признали, что АНБ в течение многих лет тайно собирало записи о телефонных звонках практически каждого американца - кто кому звонит, когда эти звонки совершаются и как долго они длятся. Подобная информация, накапливаемая АНБ день за днем, может раскрыть невероятно чувствительные детали о жизни и связях людей, например, звонили ли они пастору, специалисту по абортам, консультанту по наркомании или на горячую линию для самоубийц.
 
@@ -144,7 +144,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 Цензура в Интернете может осуществляться (в разной степени) тоталитарными правительствами, администраторами сетей и поставщиками услуг. Эти попытки контролировать коммуникацию и ограничивать доступ к информации всегда будут несовместимы с правом человека на свободу слова и самовыражения.[^5]
 
-Цензура на корпоративных платформах становится все более распространенным явлением, поскольку такие платформы, как Twitter и Facebook, поддаются общественному и рыночному давлению и давлению со стороны государственных органов. Давление со стороны правительства может быть скрытым, например, Белый дом [требует удалить](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) провокационное видео на YouTube, или открытым, например, правительство Китая требует от компаний придерживаться строгого режима цензуры.
+Цензура на корпоративных платформах становится все более распространенным явлением, поскольку такие платформы, как Twitter и Facebook, поддаются общественному и рыночному давлению и давлению со стороны государственных органов. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 Люди, обеспокоенные угрозой цензуры, могут использовать такие технологии, как [Tor](../advanced/tor-overview.md), чтобы обойти ее, и поддерживать устойчивые к цензуре платформы для общения, такие как [Matrix](../real-time-communication.md#element), где нет централизованного органа, который может произвольно закрыть учетные записи.
 
@@ -162,5 +162,5 @@ In France you can take a look at the [Technopolice website](https://technopolice
 [^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: Совет по надзору за соблюдением конфиденциальности и гражданских свобод США: [*Отчет о программе записи телефонных разговоров, проводимой в соответствии с разделом 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Вы также должны использовать другие методы смягчения последствий.
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Вы также должны использовать другие методы смягчения последствий.
 [^5]: Организация Объединенных Наций: [*Всеобщая декларация прав человека*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

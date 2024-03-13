@@ -29,7 +29,7 @@ Unless otherwise noted, all **content** on this website is made available under 
 
 这意味着您可以根据Creative Commons Attribution-NoDerivatives 4.0国际公共许可证文本中列出的条款，将此存储库中的可读内容用于您自己的项目。 您可以以任何合理的方式这样做，但不得以任何方式暗示隐私指南认可您或您的使用。 **未经本项目的明确批准，您 **，不得在您自己的项目中使用隐私指南的品牌。 隐私指南的品牌商标包括“隐私指南”字样和盾形标志。
 
-我们认为从第三方提供商获得的 `资产` 中的标志和其他图像属于公共领域或 **合理使用**。 简而言之，法律 [公正使用原则](https://www.copyright.gov/fair-use/more-info.html) 允许使用受版权保护的图像来识别主题，以供公众评论。 然而，在一个或多个司法管辖区，这些徽标和其他图像仍可能受商标法的约束。 在使用此内容之前，请确保其用于识别拥有商标的实体或组织，并且根据适用于您预期使用情况的法律，您有权使用商标。 *从本网站复制内容时，您应自行负责确保您不侵犯他人的商标或版权。*
+我们认为从第三方提供商获得的 `资产` 中的标志和其他图像属于公共领域或 **合理使用**。 In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. 然而，在一个或多个司法管辖区，这些徽标和其他图像仍可能受商标法的约束。 在使用此内容之前，请确保其用于识别拥有商标的实体或组织，并且根据适用于您预期使用情况的法律，您有权使用商标。 *从本网站复制内容时，您应自行负责确保您不侵犯他人的商标或版权。*
 
 When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
@@ -47,4 +47,4 @@ When you contribute to our website you are doing so under the above licenses, an
 
 ---
 
-*本通知本身的部分内容来自GitHub上的 [openensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) 。 That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*本通知本身的部分内容来自GitHub上的 [openensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) 。 That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0).*

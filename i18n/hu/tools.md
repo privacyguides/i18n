@@ -9,7 +9,7 @@ description: Privacy Guides is the most transparent and reliable website for fin
 
 Ha valamilyen konkrét megoldást keresel, ezek a hardver- és szoftvereszközök amiket ajánlunk, különböző kategóriákban. Az általunk ajánlott adatvédelmi eszközöket elsősorban biztonsági funkciók alapján választottuk ki, további hangsúlyt fektetve a decentralizált és nyílt forráskódú eszközökre. Ezek számos védelmi modellre alkalmazhatók, globális tömeges megfigyelési programok elleni védelemtől kezdve, big tech cégek elkerüléstől, támadások enyhítéséig, de csak te tudod meghatározni, hogy a te igényeidek mi felel meg a legjobban.
 
-Ha segítségre kérnél a legjobb adatvédelmi eszközök és alternatív programok kiválasztásához a munkaterhelésedhez/felhasználási módodhoz illően, indíts el egy beszélgetést a [fórumon](https://discuss.privacyguides.net/), vagy a [Matrix](https://matrix.to/#/#privacyguides:matrix.org) közösségünkben!
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 Ha további információt szeretnél megtudni az egyes projektekről, hogy miért választottuk őket, és további tippekről vagy trükkökről amiket ajánlunk, kattints az egyes szakaszokban található "További információ" linkre, vagy kattints magára az ajánlásra, hogy az oldal ahhoz az adott szakaszához lépj.
 
@@ -89,7 +89,7 @@ Ha további információt szeretnél megtudni az egyes projektekről, hogy miér
 
 #### DNS Szolgáltatók
 
-Számos követelmény alapján [ajánlunk](dns.md#recommended-providers) több titkosított DNS szervert, mint [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) és [Quad9](https://quad9.net/) többek között. Javasoljuk, hogy egy szolgáltató kiválasztása előtt olvasd el a DNS-ről szóló oldalainkat. Sok esetben nem ajánlott alternatív DNS-szolgáltató használata.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. Javasoljuk, hogy egy szolgáltató kiválasztása előtt olvasd el a DNS-ről szóló oldalainkat. Sok esetben nem ajánlott alternatív DNS-szolgáltató használata.
 
 [További információ :material-arrow-right-drop-circle:](dns.md)
 

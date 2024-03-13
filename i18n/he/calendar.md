@@ -13,7 +13,7 @@ cover: calendar.webp
 
 ![Tuta לוגו](assets/img/calendar/tuta.svg){ align=right }
 
-**Tuta** מציעה לוח שנה בחינם ומוצפן על פני הפלטפורמות הנתמכות שלהם. התכונות כוללות: E2EE אוטומטי של כל הנתונים, תכונות שיתוף, פונקציונליות ייבוא/ייצוא, אימות רב-גורמי ו-[עוד](https://tuta.com/calendar-app-comparison/).
+**Tuta** מציעה לוח שנה בחינם ומוצפן על פני הפלטפורמות הנתמכות שלהם. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
 מספר לוחות שנה ופונקציונליות שיתוף מורחבת מוגבלים למנויים בתשלום.
 
@@ -21,18 +21,18 @@ cover: calendar.webp
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
-- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
-- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
+- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -55,7 +55,7 @@ cover: calendar.webp
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1514709943)
 - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 </details>

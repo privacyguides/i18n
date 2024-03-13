@@ -62,12 +62,12 @@ Tentar proteger os seus dados contra todos, o tempo todo, é impraticável, caro
 
 ## Precisamos de você! Como se envolver:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Participe do nosso fórum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Siga-nos no Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribua para este site" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Ajude a traduzir este site" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Converse conosco no Matrix" }
-[:material-information-outline:](about/index.md){ title="Saiba mais sobre nós" }
-[:material-hand-coin-outline:](about/donate.md){ title="Apoie o projeto" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 É importante que um site como o Privacy Guides esteja sempre atualizado. Precisamos que nosso público fique de olho nas atualizações de software para os aplicativos listados em nosso site e acompanhe as notícias recentes sobre os serviços que recomendamos. É difícil acompanhar o ritmo acelerado da internet, mas tentamos o nosso melhor. Se você detectar um erro, achar que um serviço não deve ser listado, notar que um serviço qualificado está faltando, acreditar que uma extensão de navegador não é mais a melhor escolha ou descobrir qualquer outro problema, informe-nos.

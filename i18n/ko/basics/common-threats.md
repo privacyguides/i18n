@@ -55,7 +55,7 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
 </div>
 
-**물리적 공격**이 우려된다면 Android, iOS, macOS, [Windows(TPM 사용)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process) 등 보안 부팅이 구현된 운영 체제를 사용해야 합니다. 또한 드라이브를 암호화하고, 운영 체제에서 TPM/Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)/[Element](https://developers.google.com/android/security/android-ready-se)를 이용해 암호 입력 시도를 제한해야 합니다. 대부분의 데스크톱 운영체제는 사용자별 데이터를 암호화하지 않으므로, 신뢰하지 않는 사람과 컴퓨터를 공유하지 말아야 합니다.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). 또한 드라이브를 암호화하고, 운영 체제에서 TPM/Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)/[Element](https://developers.google.com/android/security/android-ready-se)를 이용해 암호 입력 시도를 제한해야 합니다. 대부분의 데스크톱 운영체제는 사용자별 데이터를 암호화하지 않으므로, 신뢰하지 않는 사람과 컴퓨터를 공유하지 말아야 합니다.
 
 ## 서비스 제공 업체로부터의 프라이버시
 
@@ -89,16 +89,16 @@ E2EE를 적용하더라도 여전히 서비스 제공 업체는 (일반적으로
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-감시 방법과, 미국의 특정 도시에서 어떻게 감시 체계를 운용하는지 자세히 알고 싶다면 [Electronic Frontier Foundation](https://www.eff.org/)의 [Atlas of Surveillance](https://atlasofsurveillance.org/)를 살펴보세요.
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 정부는 테러 대응 및 범죄 예방에 필요한 수단으로 대중 감시 프로그램을 정당화하는 경우가 많습니다. 하지만 이는 분명한 인권 침해일 뿐만 아니라, 대중 감시는 소수 집단과 정치적 반체제 인사 등의 대상을 집중적으로 표적삼는 데에 가장 자주 사용됩니다.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 정보 당국은 에드워드 스노든의 정부 프로그램([PRISM](https://en.wikipedia.org/wiki/PRISM), [Upstream](https://en.wikipedia.org/wiki/Upstream_collection) 등) 폭로에 직면하여, NSA가 수년간 사실상 모든 미국인의 전화 통화 기록(누가 누구랑 통화하는지, 언제 통화하는지, 얼마나 오래 통화하는지)을 비밀리에 수집해 왔음을 인정했습니다. NSA가 이러한 정보를 매일 수집할 경우, 어떤 사람이 목사, 낙태 시술자, 중독 상담사, 자살 예방 상담사와 전화했는지 등 사람들의 삶과 관계성에 대해 극도로 민감한 정보를 파악할 수 있습니다.
 
@@ -144,7 +144,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 '온라인 검열'은 전체주의 정부, 네트워크 관리자, 서비스 제공 업체 등 다양한 주체에 의해 (그 정도 또한 다양하게) 이루어질 수 있습니다. 의사소통을 통제하고 정보 접근을 제한하는 '검열'은 표현의 자유 인권과 절대 양립할 수 없습니다.[^5]
 
-Twitter, Facebook 같은 플랫폼이 대중의 요구, 시장의 압력, 정부 기관의 압력에 굴복하면서, 기업 플랫폼에서의 검열은 점점 보편화되고 있습니다. 정부가 기업에 넣는 압력은 백악관이 YouTube에 자극적인 동영상의 [삭제를 요청한 것](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html)처럼 비밀스러운 요청일 수도 있고, 중국 정부가 기업에 검열 제도 준수를 요구하는 것 처럼 노골적인 요청일 수도 있습니다.
+Twitter, Facebook 같은 플랫폼이 대중의 요구, 시장의 압력, 정부 기관의 압력에 굴복하면서, 기업 플랫폼에서의 검열은 점점 보편화되고 있습니다. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 검열 위협이 우려될 경우, [Tor](../advanced/tor-overview.md) 등의 기술을 사용해 검열을 우회할 수 있으며, [Matrix](../real-time-communication.md#element) 처럼 중앙 집중식 계정 시스템이 없는(플랫폼이 독단적으로 누군가의 계정을 차단할 수 없는) 검열 방지 통신 플랫폼을 지원할 수 있습니다.
 
@@ -162,5 +162,5 @@ Twitter, Facebook 같은 플랫폼이 대중의 요구, 시장의 압력, 정부
 [^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: 미국 프라이버시 및 시민 자유 감독 위원회: [*215조항에 따라 수행된 전화 통화 기록 프로그램에 대한 보고서*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 다른 완화 기술도 추가로 사용해야 합니다.
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 다른 완화 기술도 추가로 사용해야 합니다.
 [^5]: UN: [*세계 인권 선언*](https://www.un.org/en/about-us/universal-declaration-of-human-rights)

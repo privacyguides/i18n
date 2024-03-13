@@ -17,7 +17,7 @@ Logotipos de empresa tem tamanho de tela de:
 
 ### PNG
 
-Use o [OptiPNG](https://sourceforge.net/projects/optipng/) para otimizar a imagem PNG:
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
 
 ```bash
 optipng -o7 file.png

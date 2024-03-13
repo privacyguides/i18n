@@ -54,13 +54,13 @@ Volg deze stappen om een diceware passphrase te genereren met echte dobbelstenen
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-Deze instructies gaan ervan uit dat je [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) gebruikt om de wachtwoord zin te genereren, waarvoor vijf dobbelsteenworpen per woord nodig zijn. Andere woordenlijsten kunnen meer of minder rollen per woord vereisen, en kunnen een ander aantal woorden nodig hebben om dezelfde entropie te bereiken.
+These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Andere woordenlijsten kunnen meer of minder rollen per woord vereisen, en kunnen een ander aantal woorden nodig hebben om dezelfde entropie te bereiken.
 
 </div>
 
 1. Gooi vijf keer met een zeszijdige dobbelsteen en noteer het getal na elke worp.
 
-2. Laten we bijvoorbeeld zeggen dat u `2-5-2-6-6`heeft gerold. Zoek in de grote woordenlijst van [EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) naar het woord dat overeenkomt met `25266`.
+2. Laten we bijvoorbeeld zeggen dat u `2-5-2-6-6`heeft gerold. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. U vindt het woord `gecodeerd`. Schrijf dat woord op.
 
@@ -75,20 +75,20 @@ Je moet **niet** opnieuw woorden rollen totdat je een combinatie van woorden kri
 
 Als je geen toegang hebt tot of liever geen echte dobbelstenen gebruikt, kunt je de ingebouwde wachtwoordgenerator van jouw wachtwoord manager gebruiken, omdat de meeste daarvan de optie hebben om naast gewone wachtwoorden ook diceware wachtwoord zinnen te genereren.
 
-Wij adviseren het gebruik van [EFF's grote woordenlijst](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) om jouw diceware wachtwoord zinnen te genereren, omdat het exact dezelfde veiligheid biedt als de originele lijst, terwijl het woorden bevat die gemakkelijker te onthouden zijn. Er zijn ook [andere woordenlijsten in verschillende talen](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), als u niet wilt dat uw wachtwoord in het Engels is.
+We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. Er zijn ook [andere woordenlijsten in verschillende talen](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), als u niet wilt dat uw wachtwoord in het Engels is.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 Eén meting om de sterkte van een wachtwoord zin te bepalen is hoeveel entropie het heeft. De entropie per woord in een diceware wachtwoord zin wordt berekend als $\text{log}_2(\text{WordsInList})$ en de totale entropie van de wachtwoord zin wordt berekend als $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
 
 Daarom resulteert elk woord in de bovengenoemde lijst in ~12,9 bits entropie ($\text{log}_2(7776)$), en een daarvan afgeleide wachtwoord zin van zeven woorden heeft ~90,47 bits entropie ($\text{log}_2(7776^7)$).
 
-The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Om het aantal mogelijke passphrases te berekenen, hoeven we alleen maar $\text{WordsInList}^\text{WordsInPhrase}$, of in ons geval, $7776^7$, uit te rekenen.
+The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Om het aantal mogelijke passphrases te berekenen, hoeven we alleen maar $\text{WordsInList}^\text{WordsInPhrase}$, of in ons geval, $7776^7$, uit te rekenen.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 Gemiddeld duurt het proberen van 50% van alle mogelijke combinaties om uw zin te raden. Met dat in gedachten, zelfs als uw tegenstander in staat is tot ~1.000.000.000.000 raden per seconde, zou het hem nog steeds ~27.255.689 jaar kosten om uw wachtwoord te raden. Zelfs als de volgende dingen waar zijn:
 

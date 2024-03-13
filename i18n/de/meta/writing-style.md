@@ -4,11 +4,11 @@ title: Schreibstil
 
 Privacy Guides ist in amerikanischem Englisch verfasst, und du solltest im Zweifelsfall die [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) zu Rate ziehen.
 
-Im Allgemeinen bieten die [United States federal plain language guidelines](https://www.plainlanguage.gov/guidelines/) einen guten Überblick darüber, wie man klar und prägnant schreibt. Im Folgenden werden einige wichtige Punkte aus diesen Richtlinien hervorgehoben.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. Im Folgenden werden einige wichtige Punkte aus diesen Richtlinien hervorgehoben.
 
 ## Schreiben für unser Publikum
 
-Die Privacy Guides [Zielgruppe](https://www.plainlanguage.gov/guidelines/audience/) besteht hauptsächlich aus durchschnittlichen, technikaffinen Erwachsenen. Vereinfache den Inhalt nicht zu sehr, als würdest du dich an eine Schulklasse wenden, aber verwende auch nicht zu viele komplizierte Begriffe für Konzepte, mit denen der durchschnittliche Computerbenutzer nicht vertraut ist.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Vereinfache den Inhalt nicht zu sehr, als würdest du dich an eine Schulklasse wenden, aber verwende auch nicht zu viele komplizierte Begriffe für Konzepte, mit denen der durchschnittliche Computerbenutzer nicht vertraut ist.
 
 ### Nur das ansprechen, was die Leute wissen wollen
 
@@ -24,7 +24,7 @@ Wir schreiben *für* für eine Vielzahl von Menschen, aber wir schreiben *an* di
 > 
 > Wenn du die Nutzer mit "Du" ansprichst, werden sie eher verstehen, was ihre Verantwortung ist.
 
-Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### Vermeide "Benutzer"
 
@@ -37,7 +37,7 @@ Organisieren ist der Schlüssel. Inhalte sollten von den wichtigsten zu den am w
 - Beschränke das Dokument auf etwa fünf oder sechs Abschnitte. Lange Dokumente sollten wahrscheinlich in einzelne Seiten aufgeteilt werden.
 - Markiere wichtige Ideen mit **Fettschrift** oder *Kursivschrift*.
 
-Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### Mit einem thematischen Satz beginnen
 
@@ -45,7 +45,7 @@ Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 > 
 > Wir schreiben oft so, wie wir denken, indem wir zuerst unsere Prämissen und dann unsere Schlussfolgerung formulieren. Es mag die natürliche Art sein, Gedanken zu entwickeln, aber wir enden mit dem Themensatz am Ende des Absatzes. Setze es nach vorne und lass die Nutzer wissen, worauf du hinaus willst. Zwinge die Leser nicht, viele Informationen im Kopf zu behalten, bevor du auf den Punkt kommst.
 
-Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## Wähle deine Worte sorgfältig
 
@@ -65,7 +65,7 @@ Wir sollten versuchen, Abkürzungen so weit wie möglich zu vermeiden, aber Tech
 
 > Unnötige Worte verschwenden die Zeit deines Publikums. Gutes Schreiben ist wie ein Gespräch. Lass Informationen weg, die das Publikum nicht wissen muss. Als Fachexperte kann dies schwierig sein, daher ist es wichtig, dass jemand die Informationen aus der Perspektive des Publikums betrachtet.
 
-Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## Texte konversationell halten
 
@@ -77,7 +77,7 @@ Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 > Der Aktivsatz macht deutlich, wer was tun soll. Er beseitigt Unklarheiten über die Zuständigkeiten. Nicht "Es muss getan werden", sondern "Du musst es tun."
 
-Quelle: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### Verwendung von "muss" für Anforderungen
 

@@ -11,14 +11,14 @@ cover: dns.webp
 
 ## موفِّرو الخدمة الموصى بهم
 
-| الموفِّر                                                                       | سياسة الخصوصية                                                                                        | الموافيق                                                                     | تسجيل الأنشطة                                                              | ECS     | التصفية                                                                                                                                               |
-| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**آدجارد**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | بعض منه <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">١</a></sup> | Yes     | Based on personal configuration. لك العثور على قائمة التصفيات المستخدمة هنا. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**كلاودفلير**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                                    | بعض منه <sup id="fnref:2"><a href="#fn:2" class="footnote-ref">٢</a></sup> | لا يوجد | Based on personal configuration.                                                                                                                      |
-| [**كنترول دي**](https://controld.com/free-dns)                                 | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | اختياري<sup id="fnref:3"><a href="#fn:3" class="footnote-ref">٣</a></sup>  | لا يوجد | Based on personal configuration.                                                                                                                      |
-| [**ملفاد**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)       | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                                           | لا يوجد<sup id="fnref:4"><a href="#fn:4" class="footnote-ref">٤</a></sup>  | لا يوجد | Based on personal configuration. لك العثور على قائمة التصفيات المستخدمة هنا. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**نكست‌دي‌إن‌إس**](https://www.nextdns.io)                                    | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | اختياري<sup id="fnref:5"><a href="#fn:5" class="footnote-ref">٥</a></sup>  | اختياري | Based on personal configuration.                                                                                                                      |
-| [**كواد٩**](https://quad9.net)                                                 | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt                  | بعض منه<sup id="fnref:6"><a href="#fn:6" class="footnote-ref">٦</a></sup>  | اختياري | Based on personal configuration, Malware blocking by default.                                                                                         |
+| الموفِّر                                                                 | سياسة الخصوصية                                                                                       | الموافيق                                                                     | تسجيل الأنشطة                                                              | ECS     | التصفية                                                                                                                                               |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**آدجارد**](https://adguard.com/en/adguard-dns/overview.html)           | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | بعض منه <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">١</a></sup> | Yes     | Based on personal configuration. لك العثور على قائمة التصفيات المستخدمة هنا. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**كلاودفلير**](https://developers.cloudflare.com/1.1.1.1/setup)         | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Cleartext <br> DoH/3 <br> DoT                                    | بعض منه <sup id="fnref:2"><a href="#fn:2" class="footnote-ref">٢</a></sup> | لا يوجد | Based on personal configuration.                                                                                                                      |
+| [**كنترول دي**](https://controld.com/free-dns)                           | [:octicons-link-external-24:](https://controld.com/privacy)                                          | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | اختياري<sup id="fnref:3"><a href="#fn:3" class="footnote-ref">٣</a></sup>  | لا يوجد | Based on personal configuration.                                                                                                                      |
+| [**ملفاد**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH <br> DoT                                                           | لا يوجد<sup id="fnref:4"><a href="#fn:4" class="footnote-ref">٤</a></sup>  | لا يوجد | Based on personal configuration. لك العثور على قائمة التصفيات المستخدمة هنا. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**نكست‌دي‌إن‌إس**](https://nextdns.io)                                  | [:octicons-link-external-24:](https://nextdns.io/privacy)                                            | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | اختياري<sup id="fnref:5"><a href="#fn:5" class="footnote-ref">٥</a></sup>  | اختياري | Based on personal configuration.                                                                                                                      |
+| [**كواد٩**](https://quad9.net)                                           | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt                  | بعض منه<sup id="fnref:6"><a href="#fn:6" class="footnote-ref">٦</a></sup>  | اختياري | Based on personal configuration, Malware blocking by default.                                                                                         |
 
 ### Criteria
 
@@ -50,7 +50,7 @@ cover: dns.webp
 
 #### ملفَّات التعريف الموقَّعة
 
-لا تتيح أبل واجهةً أصيلةً لإنشاء ملفَّات تعريف معمَّاة. [مُنشئ ملفَّات تعريف نظام تسمية النطاقات الآمن](https://dns.notjakob.com/tool.html) هو أداة غير رسمية تتيح لك إنشاء ملفَّات تعريف نظام تسمية النطاقات معمَّاة، ولكن ضع في حسبانك أنها لن توقَّع. تفضَّل ملفَّات التعريف الموقَّعة على غيرها، وذلك ﻷن التوقيع يؤكِّد أصلها وصحَّتها. تعلَّم ملفَّات التعريف الموقَّعة بعلامة «مؤكَّد» خضراء. لتستزيد علمًا عن توقيع الرموز عليك مطالعة [عن توقيع الرموز](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). توفِّر [آدجارد](https://adguard.com/en/blog/encrypted-dns-ios-14.html) و [نكست‌دي‌إن‌إس](https://apple.nextdns.io) و [كواد٩](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/) **ملفَّات تعريف موقَّعةً**.
+لا تتيح أبل واجهةً أصيلةً لإنشاء ملفَّات تعريف معمَّاة. [مُنشئ ملفَّات تعريف نظام تسمية النطاقات الآمن](https://dns.notjakob.com/tool.html) هو أداة غير رسمية تتيح لك إنشاء ملفَّات تعريف نظام تسمية النطاقات معمَّاة، ولكن ضع في حسبانك أنها لن توقَّع. تفضَّل ملفَّات التعريف الموقَّعة على غيرها، وذلك ﻷن التوقيع يؤكِّد أصلها وصحَّتها. تعلَّم ملفَّات التعريف الموقَّعة بعلامة «مؤكَّد» خضراء. لتستزيد علمًا عن توقيع الرموز عليك مطالعة [عن توقيع الرموز](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://quad9.net/news/blog/ios-mobile-provisioning-profiles).
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
@@ -74,7 +74,7 @@ cover: dns.webp
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -123,9 +123,9 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=left }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
-**آدجارد هوم** هو نظام [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) مفتوح المصدر يستخدم [تصفية أنظمة تسمية النطاقات](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) ليحظر محتويات الوِب غير المرغوب بها، كالإعلانات.
+**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 لدى آدجارد هوم واجهة وِب متقنة الصنع ترى فيها المعلومات وتدير ما حُظر.
 
@@ -142,25 +142,25 @@ cover: dns.webp
 
 <div class="admonition recommendation" markdown>
 
-![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=left }
+![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-**باي-هول** هو نظام[DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) مفتوح المصدر يستخدم [تصفية أنظمة تسمية النطاقات](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) ليحظر محتويات الوِب غير المرغوب بها، كالإعلانات.
+**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 صُمِّم باي-هول ليستضاف في جهاز راسبيري باي، ولكنَّه ليس محدودًا به. لهذه البرمجية واجهة وِب سهلة الاستخدام ترى فيها المعلومات وتدير ما حُظر.
 
-[:octicons-home-16: الصفحة الرئيسة](https://pi-hole.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="سياسة الخصوصية" }
-[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=التوثيق}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="رمز المصدر" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=ساهم }
+[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
 [^1]: تخزِّن آدجارد قياسات الأداء المجمَّعة من خوادم أنظمة تسمية نطاقاتهم، وتتضمَّن عدد الطلبات المكتملة لكلِّ خادم، وعدد الطلبات المحظورة، وسرعة معالجة الطلبات. وتخزِّن أيضًا قاعدة بيانات بها النطاقات المطلوبة خلال آخر ٢٤ ساعة. «نحتاج هذه المعلومات لنتحرَّى ونحظر المتتبِّعات والمخاطر الجديدة.» «وكذلك نسجِّل عدد المرات التي تُحظر فيها المتتبِّعات. نحتاج هذه المعلومات لنزيل القواعد القديمة من تصفياتنا.» [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
-[^2]: تجمِّع وتخزِّن كلاودفلير عددًا قليلًا من استعلامات أنظمة تسمية النطاقات المرسلة للمحلِّل ١٫١٫١٫١. لا تسجِّل خدمة المحلِّل ١٫١٫١٫١ بيانات شخصيةً، وغالب ما تسِّجل من بيانات لا تعرِّف الأشخاص تخزَّن مدَّة ٢٥ ساعةً لا أكثر. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
+[^2]: تجمِّع وتخزِّن كلاودفلير عددًا قليلًا من استعلامات أنظمة تسمية النطاقات المرسلة للمحلِّل ١٫١٫١٫١. لا تسجِّل خدمة المحلِّل ١٫١٫١٫١ بيانات شخصيةً، وغالب ما تسِّجل من بيانات لا تعرِّف الأشخاص تخزَّن مدَّة ٢٥ ساعةً لا أكثر. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: تسجِّل كنترول دي البيانات من المحلِّلات المدفوعة التي لها ملفَّات تعريف مخصَّصة فقط. المحلِّلات المجَّانية لا تسجِّل بيانات. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: خدمة أنظمة تسمية النطاقات من ملفاد متاحة للمشتركين في خدمة الشبكة الخاصة الافتراضية ولغير المشتركين كذلك. تزعم سياسة خصوصيتهم صريحًا أنهم لا يسجِّلون طلبات أنظمة تسمية النطاقات أبدًا. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
+[^4]: خدمة أنظمة تسمية النطاقات من ملفاد متاحة للمشتركين في خدمة الشبكة الخاصة الافتراضية ولغير المشتركين كذلك. تزعم سياسة خصوصيتهم صريحًا أنهم لا يسجِّلون طلبات أنظمة تسمية النطاقات أبدًا. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^5]: NextDNS can provide insights and logging features on an opt-out basis. لك اختيار مدَّة الاحتفاظ ومواضع تخزين التسجيل لأيِّ سجِّلات أردت. إن لم يُطلب تسجيل بيانات فلن تسجَّل. [https://nextdns.io/privacy](https://nextdns.io/privacy)
-[^6]: تجمع كواد٩ بعض البيانات لمراقبة المخاطر والاستجابات. ويمكن لتلك البيانات أن تُخلط وتُشارك، وغرض ذلك قد يكون لأبحاث الأمن. لا تجمع كواد٩ ولا تسجِّل عناوين IP أو أيَّ بيانات تصنِّفها معرِّفةً شخصيًّا. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
+[^6]: تجمع كواد٩ بعض البيانات لمراقبة المخاطر والاستجابات. ويمكن لتلك البيانات أن تُخلط وتُشارك، وغرض ذلك قد يكون لأبحاث الأمن. لا تجمع كواد٩ ولا تسجِّل عناوين IP أو أيَّ بيانات تصنِّفها معرِّفةً شخصيًّا. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

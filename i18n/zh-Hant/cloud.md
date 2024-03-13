@@ -56,15 +56,15 @@ Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
 
 **Tresorit** 為 2011年創辦於瑞士- 匃牙利的加密雲端儲存供應商。 Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
 
-[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-home-16: Homepage](https://tresorit.com){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
 - [:simple-windows11: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
@@ -75,15 +75,15 @@ Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
 
 Tresorit 已獲得多項獨立安全稽核：
 
-- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001: 2013[^1] 符合性 [認證](https://www.certipedia.com/quality_marks/9108644476) TÜV Rheinland InterCert Kft
-- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/)： Computest 的滲透測試
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
     - 該檢查評估了Tresorit 網頁用戶端、Android 應用程式、Windows 應用程式和相關基礎設施的安全性。
     - Computest 發現了兩個已解決的漏洞。
-- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/)： Ernst & Young 的滲透測試。
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - 該檢測分析了 Tresorit 完整源代碼，並驗證了落實 Tresorit [白皮書](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf)中描述的概念。
     - Ernst & Young 還測試了網絡、行動和桌面客戶端： “測試結果發現沒有偏離 Tresorit 的資料機密性聲明。
 
-他們還獲得了數位信任標籤，這是 [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/) 的認證，該認證要求通過與安全性，隱私和可靠性相關的 [35標準](https://digitaltrust-label.swiss/criteria/) 。
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
 
 ## 標準
 

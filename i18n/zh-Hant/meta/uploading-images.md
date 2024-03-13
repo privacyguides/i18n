@@ -17,7 +17,7 @@ title: 上傳圖片
 
 ### PNG
 
-使用 [OptiPNG](https://sourceforge.net/projects/optipng/) 來優化PNG影像：
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
 
 ```bash
 optipng -o7 file.png

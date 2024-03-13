@@ -2,9 +2,9 @@
 title: Traductions
 ---
 
-Crowdin dispose d'une bonne documentation, et nous vous suggérons de consulter leur guide [Getting Started](https://support.crowdin.com/crowdin-intro/) . Notre site est en grande partie rédigé en [Markdown](https://en.wikipedia.org/wiki/Markdown), il devrait donc être facile d'y contribuer. Cette page contient des conseils utiles pour traduire certaines syntaxes spécifiques que vous pouvez rencontrer sur notre site.
+Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro) guide. Notre site est en grande partie rédigé en [Markdown](https://en.wikipedia.org/wiki/Markdown), il devrait donc être facile d'y contribuer. Cette page contient des conseils utiles pour traduire certaines syntaxes spécifiques que vous pouvez rencontrer sur notre site.
 
-Veuillez rejoindre notre salle de localisation sur Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) si vous avez des questions supplémentaires, et lisez notre [article de blog d'announce](https://blog.privacyguides.org/2023/02/26/i18n-announcement/) pour plus d'informations sur le projet.
+Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement) for additional information about the project.
 
 Notez que la version anglaise du site est la version principale, ce qui signifie que les modifications y sont apportées en premier. Si vous remarquez qu'une langue est en retard par rapport à la version anglaise, n'hésitez pas à nous aider. Nous ne pouvons pas garantir l'exactitude de toutes nos traductions. Si vous avez une suggestion concernant un contenu spécifique à votre région, veuillez ouvrir une issue ou unepull request dans notre [dépôt principal](https://github.com/privacyguides/privacyguides.org).
 
@@ -78,4 +78,4 @@ Les systèmes d'écriture CJK ont tendance à utiliser des variantes "pleine lar
 
 - Les liens doivent utiliser des parenthèses normales, c'est-à-dire `(` (parenthèse gauche U+0028) et `)` (parenthèse droite U+0029) et non `（` (parenthèse gauche pleine largeur U+FF08) ou `）` (parenthèse droite pleine largeur U+FF09)
 - Le texte cité et en retrait doit utiliser `:` (deux-points U+003A) et non `：` (deux-points pleine largeur U+FF1A)
-- Les images doivent utiliser `!` (point d'exclamation U+0021) et non `！` (point d'exclamation pleine largeur U+FF01) 
+- Les images doivent utiliser `!` (point d'exclamation U+0021) et non `！` (point d'exclamation pleine largeur U+FF01)

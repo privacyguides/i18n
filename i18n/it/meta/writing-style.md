@@ -4,11 +4,11 @@ title: Stile di scrittura
 
 Privacy Guides è scritto in inglese americano, e dovresti far riferimento alle [linee guida di Stile APA](https://apastyle.apa.org/style-grammar-guidelines/grammar), in caso di dubbi.
 
-In generale, le [linee guida federali degli Stati Uniti per il linguaggio semplice](https://www.plainlanguage.gov/guidelines/), forniscono una buona panoramica su come scrivere in modo chiaro e conciso. Evidenziamo alcune note importanti da tali linee guida, di seguito.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. Evidenziamo alcune note importanti da tali linee guida, di seguito.
 
 ## Scrivere per il nostro pubblico
 
-Il [pubblico](https://www.plainlanguage.gov/guidelines/audience/) cui Privacy Guides si riferisce è per lo più composto da adulti medi che utilizzano la tecnologia. Non sminuire i contenuti come se ti stessi rivolgendo a una classe delle medie ma, al contempo, non esagerare con le terminologie complicate su conctti che, gli utilizzatori medi di computer, non sarebbero familiari.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Non sminuire i contenuti come se ti stessi rivolgendo a una classe delle medie ma, al contempo, non esagerare con le terminologie complicate su conctti che, gli utilizzatori medi di computer, non sarebbero familiari.
 
 ### Spiega solo ciò che le persone vogliono sapere
 
@@ -24,7 +24,7 @@ Scriviamo *per* un'ampia varietà di persone ma, al contempo, *alla* persona che
 > 
 > Utilizzando il "tu" per rivolgerti agli utenti, potrebbero comprendere più probabilmente quali siano le loro responsabilità.
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### Evita "utenti"
 
@@ -37,7 +37,7 @@ L'organizzazione è fondamentale. I contenuti dovrebbero confluire dalle informa
 - Limita il documento ad un massimo di cinque o sei sezioni. I documenti lunghi dovrebbero essere suddivisi in più pagine separate.
 - Evidenzia le idee importanti con il **grassetto** o con il *corsivo*.
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### Inizia con una frase chiave
 
@@ -45,7 +45,7 @@ Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 > 
 > Spesso, scriviamo così come pensiamo, ponendo prima le nostre premesse, poi le nostr conclusioni. Potrebbe essere il metodo naturale per sviluppare i pensieri, ma noi preferiamo inserire una frase chiave alla fine del paragrafo. Mettila in risalto e fai capire alle persone dove stai andando a parare. Non costringere i lettori a trattenere molte informazioni in testa, prima di arrivare al punto.
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## Scegli con cura le tue parole
 
@@ -65,7 +65,7 @@ Dovremmo provare a evitare le abbreviazioni quadno possibile, ma la tecnologia �
 
 > Le parole inutili fanno perdere tempo al tuo pubblico. Una buona scrittura è come una conversazione. Ometti le informazioni che il pubblico non necessita di sapere. Ciò può risultare difficile per un esperto in materia, quindi, è importante far leggere a qualcuno le informazioni, dalla prospettiva del pubblico.
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## Mantieni colloquiale il testo
 
@@ -77,7 +77,7 @@ Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 > Una voce attiva rende chiaro chi dovrebbe fare cosa. Elimina l'ambiguità sulle responsabilità. Non utlizzare "Dev'esser fatto," piuttosto, preferisci "Devi farlo."
 
-Fonte: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### Utilizza "deve" per i requisiti
 

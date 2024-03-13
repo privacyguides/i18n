@@ -65,7 +65,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
-    url: https://keepassxc.org/
+    url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: Gestor de Palavras-Passe
     operatingSystem:
@@ -81,7 +81,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
-    url: https://www.keepassdx.com/
+    url: https://keepassdx.com
     applicationCategory: Gestor de Palavras-Passe
     operatingSystem: Android
     subjectOf:
@@ -93,7 +93,7 @@ schema:
     "@type": SoftwareApplication
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com/
+    url: https://strongboxsafe.com
     applicationCategory: Gestor de Palavras-Passe
     operatingSystem: iOS
     subjectOf:
@@ -105,7 +105,7 @@ schema:
     "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg
-    url: https://www.gopass.pw/
+    url: https://gopass.pw
     applicationCategory: Gestor de Palavras-Passe
     operatingSystem:
       - Windows
@@ -127,7 +127,7 @@ Os gestores de palavras-passe permitem-lhe armazenar e gerir de forma segura as 
 
 Os gestores de palavras-passe integrados em software, como browsers e sistemas operativos, não são, por vezes, tão bons como o software dedicado de gestão de palavras-passe. A vantagem de um gestor de palavras-passe integrado é a sua boa integração com o software em causa, mas muitas vezes pode ser muito simples e carecer de funcionalidades de privacidade e segurança que as ofertas autónomas possuem.
 
-Por exemplo, o gestor de palavras-passe no Microsoft Edge não oferece E2EE. O gestor de palavras-passe da Google tem [optional](https://support.google.com/accounts/answer/11350823) E2EE, e o [da Apple](https://support.apple.com/en-us/HT202303) oferece E2EE por predefinição.
+Por exemplo, o gestor de palavras-passe no Microsoft Edge não oferece E2EE. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
 
 </div>
 
@@ -145,14 +145,14 @@ Estes gestores de palavras-passe sincronizam as suas palavras-passe com um servi
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-- [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
 - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
 - [:simple-windows11: Windows](https://bitwarden.com/download)
 - [:simple-linux: Linux](https://bitwarden.com/download)
@@ -165,7 +165,7 @@ Estes gestores de palavras-passe sincronizam as suas palavras-passe com um servi
 
 </div>
 
-O Bitwarden também inclui [Bitwarden Send](https://bitwarden.com/products/send/), que lhe permite partilhar texto e ficheiros de forma segura com [encriptação de ponta a ponta](https://bitwarden.com/help/send-encryption). Pode ser necessária uma palavra-passe [palavra-passe](https://bitwarden.com/help/send-privacy/#send-passwords) juntamente com o link de envio. O Bitwarden Send também inclui [eliminação automática](https://bitwarden.com/help/send-lifespan).
+Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). Pode ser necessária uma palavra-passe [palavra-passe](https://bitwarden.com/help/send-privacy/#send-passwords) juntamente com o link de envio. O Bitwarden Send também inclui [eliminação automática](https://bitwarden.com/help/send-lifespan).
 
 É necessário o [Plano Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) para poder partilhar ficheiros. O plano gratuito apenas permite a partilha de texto.
 
@@ -183,20 +183,20 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 ![Logótipo 1Password](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** é um gestor de palavras-passe com um forte foco na segurança e facilidade de utilização, que lhe permite guardar palavras-passe, cartões de crédito, licenças de software e qualquer outra informação sensível num cofre digital seguro. Seu cofre é hospedado nos servidores do 1Password por uma [taxa mensal] (https://1password.com/sign-up/). O 1Password é [audited](https://support.1password.com/security-assessments/) regularmente e oferece um apoio ao cliente excecional. O 1Password é de código fechado; no entanto, a segurança do produto está documentada de forma exaustiva no seu [livro branco de segurança] (https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+**1Password** é um gestor de palavras-passe com um forte foco na segurança e facilidade de utilização, que lhe permite guardar palavras-passe, cartões de crédito, licenças de software e qualquer outra informação sensível num cofre digital seguro. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. O 1Password é de código fechado; no entanto, a segurança do produto está documentada de forma exaustiva no seu [livro branco de segurança] (https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
-[:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
-- [:simple-windows11: Windows](https://1password.com/downloads/windows/)
-- [:simple-apple: macOS](https://1password.com/downloads/mac/)
-- [:simple-linux: Linux](https://1password.com/downloads/linux/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
+- [:simple-windows11: Windows](https://1password.com/downloads/windows)
+- [:simple-apple: macOS](https://1password.com/downloads/mac)
+- [:simple-linux: Linux](https://1password.com/downloads/linux)
 
 </details>
 
@@ -225,7 +225,7 @@ Uma vantagem do 1Password sobre o Bitwarden é o seu suporte de primeira classe 
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
@@ -276,9 +276,9 @@ O **KeePassXC** é um fork comunitário do KeePassX, um port nativo multi-plataf
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -304,10 +304,10 @@ O KeePassXC armazena os seus dados de exportação em formato [CSV](https://en.w
 
 O **KeePassDX** é um gestor de palavras-passe leve para Android, que permite editar dados encriptados num único ficheiro, no formato KeePass, e preencher os formulários de forma segura. O [Contributor Pro] (https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) permite desbloquear conteúdos de personalização e funcionalidades de protocolo não normalizadas, e, mais importante, ajuda e incentiva o desenvolvimento.
 
-[:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -325,24 +325,24 @@ O **KeePassDX** é um gestor de palavras-passe leve para Android, que permite ed
 
 ![Logótipo Strongbox](assets/img/password-management/strongbox.svg){ align=right }
 
-O **Strongbox** é um gestor de palavras-passe nativo e de código aberto para iOS e macOS. Suportando os formatos KeePass e Password Safe, o Strongbox pode ser utilizado em conjunto com outros gestores de palavras-passe, como o KeePassXC, em plataformas que não sejam da Apple. Ao empregar um [modelo freemium] (https://strongboxsafe.com/pricing/), a Strongbox inclui a maioria das funcionalidades no plano gratuito, estando as funcionalidades orientadas para a conveniência [features](https://strongboxsafe.com/comparison/) - como a autenticação biométrica - disponíveis através de subscrição ou licença perpétua.
+O **Strongbox** é um gestor de palavras-passe nativo e de código aberto para iOS e macOS. Suportando os formatos KeePass e Password Safe, o Strongbox pode ser utilizado em conjunto com outros gestores de palavras-passe, como o KeePassXC, em plataformas que não sejam da Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
 
 </details>
 
 </div>
 
-Além disso, é oferecida uma versão offline: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Esta versão é simplificada e procura reduzir a superfície de ataque.
+Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Esta versão é simplificada e procura reduzir a superfície de ataque.
 
 ### Linha de comando
 
@@ -356,7 +356,7 @@ Estes produtos são gestores de palavras-passe minimalistas, que podem ser utili
 
 **gopass** é um gestor de palavras-passe para a linha de comandos, escrito em Go. Funciona em todos os principais sistemas operativos para desktop e servidor (Linux, macOS, BSD, Windows).
 
-[:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
@@ -364,10 +364,10 @@ Estes produtos são gestores de palavras-passe minimalistas, que podem ser utili
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
-- [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
-- [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
-- [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+- [:simple-windows11: Windows](https://gopass.pw/#install-windows)
+- [:simple-apple: macOS](https://gopass.pw/#install-macos)
+- [:simple-linux: Linux](https://gopass.pw/#install-linux)
+- [:simple-freebsd: FreeBSD](https://gopass.pw/#install-bsd)
 
 </details>
 

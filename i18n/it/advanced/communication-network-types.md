@@ -28,7 +28,7 @@ Alcuni servizi di messaggistica ospitati autonomamente, ti consentono di configu
 - Possono includere [controllo o accesso limitato](https://drewdevault.com/2018/08/08/Signal.html). Questo può includere cose come:
 - [Divieto di connettere client di terze parti](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) alla rete centralizzata, che potrebbero fornire una maggiore personalizzazione o una migliore esperienza. Spesso definito nei Termini e Condizioni di utilizzo.
 - Documentazione scarsa o assente per gli sviluppatori di terze parti.
-- La [proprietà](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), politica sulla privacy e le operazioni del servizio possono cambiare facilmente quando una singola entità lo controlla, potenzialmente compromettendo il servizio in seguito.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - L'hosting autonomo richiede sforzi e conoscenze sulla configurazione di un servizio.
 
 ## Reti Federate
@@ -60,7 +60,7 @@ Quando ospitati autonomamente, i membri di un server federato possono scoprire e
 
 La messaggistica P2P si connette a una [rete distribuita](https://en.wikipedia.org/wiki/Distributed_networking) di noti per trasmettere un messaggio al destinatario, senza un server di terze parti.
 
-I client (pari), solitamente, si trovano utilizzando una rete di [calcolo distribuita](https://en.wikipedia.org/wiki/Distributed_computing). Esempi di ciò includono le [Tabelle di Hash Distribuite](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), utilizzate ad esempio dai [torrent](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) e da [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). Un altro approccio sono le reti basate sulla prossimità, dove una connessione è stabilita via WiFi o Bluetooth (ad esempio, Briar o il protocollo di rete sociale [Scuttlebutt](https://www.scuttlebutt.nz)).
+I client (pari), solitamente, si trovano utilizzando una rete di [calcolo distribuita](https://en.wikipedia.org/wiki/Distributed_computing). Esempi di ciò includono le [Tabelle di Hash Distribuite](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), utilizzate ad esempio dai [torrent](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) e da [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Una volta che un paro ha trovato un percorso al suo contatto tramite uno di questi metodi, una connessione diretta tra di essi è creata. Sebbene i messaggi siano solitamente crittografati, un osservatore potrà comunque dedurre la posizione e l'identità del mittente e del destinatario.
 

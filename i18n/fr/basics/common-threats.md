@@ -55,7 +55,7 @@ Les attaques ciblées contre une personne spécifique sont plus difficiles à g�
 
 </div>
 
-Si vous êtes préoccupé par les **attaques physiques** vous devriez utiliser un système d'exploitation avec une implémentation de démarrage vérifié sécurisé, à la manière d'Android, d'iOS, de macOS ou de [Windows (avec TPM)](https://docs.microsoft.com/fr-fr/windows/security/information-protection/secure-the-windows-10-boot-process). Vous devriez également vous assurer que votre disque est chiffré et que le système d'exploitation utilise un TPM, une [Enclave sécurisée](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) ou un [Element sécurisé](https://developers.google.com/android/security/android-ready-se) pour limiter le taux de tentatives de saisie de la phrase de passe. Vous devriez éviter de partager votre ordinateur avec des personnes en qui vous n'avez pas confiance, car la plupart des systèmes d'exploitation de bureau ne chiffrent pas les données séparément par utilisateur.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Vous devriez également vous assurer que votre disque est chiffré et que le système d'exploitation utilise un TPM, une [Enclave sécurisée](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) ou un [Element sécurisé](https://developers.google.com/android/security/android-ready-se) pour limiter le taux de tentatives de saisie de la phrase de passe. Vous devriez éviter de partager votre ordinateur avec des personnes en qui vous n'avez pas confiance, car la plupart des systèmes d'exploitation de bureau ne chiffrent pas les données séparément par utilisateur.
 
 ## Protection de ses données des fournisseurs de services
 
@@ -89,16 +89,16 @@ La surveillance de masse est un effort visant à surveiller le "comportement, de
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-Si vous souhaitez en savoir plus sur les méthodes de surveillance et la manière dont elles sont mises en œuvre dans les villes aux États-Unis, vous pouvez également consulter l'[Atlas de la Surveillance](https://atlasofsurveillance.org/) de l'[Electronic Frontier Foundation](https://www.eff.org/).
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 Les gouvernements justifient souvent les programmes de surveillance de masse comme des moyens nécessaires pour combattre le terrorisme et prévenir la criminalité. Cependant, en violation des droits de l'homme, ces programmes de surveillance sont, entre autres, le plus souvent utilisés pour cibler de manière disproportionnée les minorités et les dissidents politiques.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 Face aux [révélations d'Edward Snowden sur des programmes gouvernementaux tels que [PRISM](https://fr.wikipedia.org/wiki/PRISM_%28programme_de_surveillance%29) et [Upstream](https://fr.wikipedia.org/wiki/Upstream_collection)], les responsables des services de renseignement ont également admis que la NSA collectait secrètement depuis des années des enregistrements sur pratiquement tous les appels téléphoniques des Américains - qui appelle qui, quand ces appels sont passés et la durée de ces appels. Ce type d'informations, lorsqu'il est amassé par la NSA quotidiennement, peut révéler des détails terriblement sensibles sur la vie des gens en associant ces données : s'ils ont appelé un pasteur, une clinique d'avortement, un centre d'addiction ou une ligne d'assistance contre le suicide par exemple.
 
@@ -144,7 +144,7 @@ Si vous avez déjà soumis vos véritables informations à des sites qui ne devr
 
 La censure en ligne peut être exercée (à des degrés divers) par des acteurs tels que des gouvernements totalitaires, des administrateurs de réseaux et des fournisseurs de services. Ces efforts pour contrôler la communication et restreindre l'accès à l'information seront toujours incompatibles avec le droit humain à la liberté d'expression.[^5]
 
-La censure sur les plateformes privées est de plus en plus courante, car des plateformes comme Twitter et Facebook cèdent à la demande du public, aux pressions du marché et à celles des agences gouvernementales. Les pressions gouvernementales peuvent prendre la forme de demandes secrètes adressées aux entreprises, comme la Maison Blanche [demandant le retrait](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) d'une vidéo provocante sur YouTube, ou de demandes manifestes, comme le gouvernement chinois exigeant des entreprises qu'elles adhèrent à un régime de censure strict.
+La censure sur les plateformes privées est de plus en plus courante, car des plateformes comme Twitter et Facebook cèdent à la demande du public, aux pressions du marché et à celles des agences gouvernementales. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 Les personnes concernées par la menace de la censure peuvent utiliser des technologies comme [Tor](../advanced/tor-overview.md) pour la contourner, et soutenir des plateformes de communication résistantes à la censure comme [Matrix](../real-time-communication.md#element), qui ne dispose pas d'une autorité centralisée pouvant fermer des comptes de manière arbitraire.
 
@@ -162,5 +162,5 @@ Vous devez toujours tenir compte des risques encourus en essayant de contourner 
 [^1]: Commission de surveillance de la vie privée et des libertés civiles des États-Unis : [Rapport sur le programme d'enregistrements téléphoniques mené en vertu de la section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Conseil de surveillance de la vie privée et des libertés civiles des États-Unis : [*Rapport sur le programme d'enregistrements téléphoniques mené en vertu de la section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipédia : [*Capitalisme de surveillance*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Énumérer la méchanceté](https://www.ranum.com/security/computer_security/editorials/dumb/)" (ou "énumérer toutes les mauvaises choses que nous connaissons") comme le font de nombreux bloqueurs de contenu et programmes antivirus, ne permet pas de vous protéger correctement contre les menaces nouvelles et inconnues, car elles n'ont pas encore été ajoutées à la liste des filtres. Vous devriez également utiliser d'autres techniques d'atténuation.
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Vous devriez également utiliser d'autres techniques d'atténuation.
 [^5]: Nations Unies : [*Déclaration universelle des droits de l'homme*](https://www.un.org/fr/about-us/universal-declaration-of-human-rights).

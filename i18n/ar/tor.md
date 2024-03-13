@@ -10,7 +10,7 @@ schema:
     "@type": SoftwareApplication
     name: متصفِّح تور
     image: /assets/img/browsers/tor.svg
-    url: https://www.torproject.org
+    url: https://torproject.org
     sameAs: https://en.wikipedia.org/wiki/Tor_(network)
     applicationCategory: Web Browser
     operatingSystem:
@@ -27,11 +27,11 @@ schema:
 
 شبكة **تور** هي خوادم يديرها متطوِّعون تتيح لك الاتصال بها مجَّانًا وتحسِّن خصوصيتك وأمنك في الإنترنت. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=Homepage }
+[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 يعمل تور عن طريق توجيه اتصالاتك عبر خوادم المتطوِّعين، وذلك بدلًا من الاتصال بالموقع الذي تريد مباشرةً. يلبِّس هذا أصل الاتصال، وليس بوسع أي خادم في سبيل الاتصال رؤيته من بدايته لمقصده، مما يعني أن حتى الخوادم المستخدمة للاتصال لا تنتهك مجهوليتك.
 
@@ -60,20 +60,20 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 **متصفِّح تور** خير خيار إن أردت المجهولية، فهو يمكِّنك من الاتصال بشبكة تور وجسورها، وفيه إعدادات مبدئية تُضبط حسب مستوى الأمن: *قياسي* و*أأمن* و*أشدُّ أمن*.
 
-[:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-- [:simple-android: Android](https://www.torproject.org/download/#android)
-- [:simple-windows11: Windows](https://www.torproject.org/download/)
-- [:simple-apple: macOS](https://www.torproject.org/download/)
-- [:simple-linux: Linux](https://www.torproject.org/download/)
+- [:simple-android: Android](https://torproject.org/download/#android)
+- [:simple-windows11: Windows](https://torproject.org/download)
+- [:simple-apple: macOS](https://torproject.org/download)
+- [:simple-linux: Linux](https://torproject.org/download)
 
 </details>
 
@@ -86,7 +86,7 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 </div>
 
-صمِّم متصفِّح تور لمكافحة التبصيم، أو كشف هويَّتك حسب ضبط متصفِّحك. وزبدة القول أنه عليك **ألا** تعدِّل المتصفِّح خلا [مستويات الأمن](https://tb-manual.torproject.org/security-settings/) المبدئية.
+صمِّم متصفِّح تور لمكافحة التبصيم، أو كشف هويَّتك حسب ضبط متصفِّحك. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings).
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
@@ -98,7 +98,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 **أربوت** هو شبكة تور افتراضية خاصة للأجهزة الذكية، وما يفعله هو توجيه اتصالاتك من أيِّ تطبيق عبر شبكة تور.
 
-[:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
 [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
@@ -108,7 +108,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
 - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
 </details>
@@ -134,7 +134,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -164,10 +164,10 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
 يستطيع من يخضع للرقابة أن يستعمل وسطاء سنوفليك ليتَّصل بشبكة تور. ييسِّر سنوفليك المساهمة في شبكة تور، فلا تحتاج لمعلومات تقنية لتشغِّل مرحِّل تور أو جسرًا له.
 
-[:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 </details>
 
@@ -181,4 +181,4 @@ You can enable Snowflake in your browser by opening it in another tab and turnin
 
 إن تشغيل وسيط سنوفليك ليس منذرًا بالخطر، بل أقلُّ خطرًا من تشغيل مرحِّل تور أو جسر له، وهذا ليس بذاك الخطر أصلًا. ولكنه يوسِّط الاتصالات عبر شبكتك، ولعلَّ لهذا تبعات، خاصَّةً إن كانت شبكتك محدودةً. عليك تمعُّن [سبيل عمل سنوفليك](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) قبل أن تقرِّر تشغيل وسيط.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.

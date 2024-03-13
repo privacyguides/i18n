@@ -54,13 +54,13 @@ description: These are some tips and tricks on how to create the strongest passw
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-Эти инструкции предполагают, что вы используете [большой список слов EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) для генерации парольной фразы, что требует пяти бросков кубика на слово. Другие списки слов могут требовать больше или меньше бросков на слово, и могут потребоваться другое количество слов для достижения той же энтропии.
+These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Другие списки слов могут требовать больше или меньше бросков на слово, и могут потребоваться другое количество слов для достижения той же энтропии.
 
 </div>
 
 1. Бросьте шестигранный кубик пять раз, записывая число после каждого броска.
 
-2. В качестве примера, допустим, вы бросили `2-5-2-6-6`. Найдите в [Большом списке слов EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) слово, соответствующее `25266`.
+2. В качестве примера, допустим, вы бросили `2-5-2-6-6`. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. Вы найдете слово `encrypt`. Запишите это слово.
 
@@ -75,20 +75,20 @@ description: These are some tips and tricks on how to create the strongest passw
 
 Если у вас нет доступа к настоящим игральным костям или вы предпочитаете не использовать их, вы можете воспользоваться встроенным в менеджере паролей генератором паролей, поскольку большинство из них имеют возможность генерировать парольные фразы в дополнение к обычным паролям.
 
-Мы рекомендуем использовать [большой список слов EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) для генерации парольных фраз, поскольку он обеспечивает точно такую же безопасность, как и оригинальный список, но содержит слова, которые легче запомнить. Есть также [другие списки слов на разных языках](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), если вы не хотите, чтобы ваша парольная фраза была на английском языке.
+We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. Есть также [другие списки слов на разных языках](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), если вы не хотите, чтобы ваша парольная фраза была на английском языке.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 Одним из показателей для определения силы парольной фразы является ее энтропия. Энтропия каждого слова в парольной фразе вычисляется как $\text{log}_2(\text{Слов-в-списке})$, а общая энтропия парольной фразы вычисляется как $\text{log}_2(\text{Слов-в-списке}^\text{Слов-в-фразе})$.
 
 Таким образом, каждое слово в вышеупомянутом списке дает ~12,9 бит энтропии ($\text{log}_2(7776)$), а парольная фраза из семи слов имеет ~90,47 бит энтропии ($\text{log}_2(7776^7)$).
 
-The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Чтобы вычислить количество возможных парольных фраз, достаточно $\text{Слов-в-списке}^\text{Слов-в-фразе}$, или, в нашем случае, $7776^7$.
+The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Чтобы вычислить количество возможных парольных фраз, достаточно $\text{Слов-в-списке}^\text{Слов-в-фразе}$, или, в нашем случае, $7776^7$.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 В среднем, чтобы угадать вашу фразу, нужно попробовать 50% всех возможных комбинаций. Учитывая это, даже если ваш противник способен на ~1 000 000 000 000 000 000 угадываний в секунду, ему все равно потребуется ~27 255 689 лет, чтобы угадать вашу кодовую фразу. Это так, даже если верны следующие вещи:
 

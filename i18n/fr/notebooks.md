@@ -34,7 +34,7 @@ Standard Notes est une application de notes simple et privée qui rend vos prise
 - [:simple-windows11: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)
 - [:simple-linux: Linux](https://standardnotes.com)
-- [:octicons-globe-16: Web](https://app.standardnotes.com/)
+- [:octicons-globe-16: Web](https://app.standardnotes.com)
 
 </details>
 
@@ -46,11 +46,11 @@ Standard Notes est une application de notes simple et privée qui rend vos prise
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. Elle propose un chiffrement de bout en bout sur toutes les plateformes et une synchronisation puissante pour prendre vos notes en déplacement. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. Elle propose un chiffrement de bout en bout sur toutes les plateformes et une synchronisation puissante pour prendre vos notes en déplacement. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com).
 
-[:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.notesnook.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
 
@@ -58,12 +58,12 @@ Standard Notes est une application de notes simple et privée qui rend vos prise
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
 - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
 - [:simple-windows11: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
-- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
 </details>
@@ -80,22 +80,22 @@ Notesnook autorise le chiffrement de notes locales seulement avec la fonctionnal
 
 **Joplin** est une application gratuite, open-source et complète de prise de notes et de tâches à accomplir qui peut gérer un grand nombre de notes écrites en markdown organisées en carnets et en balises. Il offre E2EE et peut se synchroniser via Nextcloud, Dropbox, et plus encore. Il permet également d'importer facilement des notes d'Evernote et des notes en texte brut.
 
-[:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://joplinapp.org/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
 - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
 - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
 - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
 - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 </details>
@@ -135,9 +135,9 @@ Cryptee offre 100 Mo de stockage gratuit, avec des options payantes si vous avez
 
 <div class="admonition recommendation" markdown>
 
-![Logo Org-mode](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** est un [mode majeur](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) pour GNU Emacs. Org-mode permet de prendre des notes, de tenir à jour des listes to-do, de planifier des projets et de rédiger des documents à l'aide d'un système de texte brut rapide et efficace. La synchronisation est possible avec des outils de [synchronisation de fichiers](file-sharing.md#file-sync).
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode permet de prendre des notes, de tenir à jour des listes to-do, de planifier des projets et de rédiger des documents à l'aide d'un système de texte brut rapide et efficace. La synchronisation est possible avec des outils de [synchronisation de fichiers](file-sharing.md#file-sync).
 
 [:octicons-home-16: Page d'accueil](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}

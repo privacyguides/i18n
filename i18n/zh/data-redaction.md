@@ -88,12 +88,12 @@ cover: data-redaction.webp
 **Metapho**是一个简单而干净的照片元数据查看器，如日期、文件名、大小、相机型号、快门速度和位置。
 
 [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
 
@@ -107,7 +107,7 @@ cover: data-redaction.webp
 
 **PrivacyBlur**是一个免费的应用程序，它可以在网上分享之前模糊图片的敏感部分。
 
-[:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
@@ -116,7 +116,7 @@ cover: data-redaction.webp
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
 
 </details>
 

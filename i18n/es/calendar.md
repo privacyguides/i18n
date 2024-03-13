@@ -13,26 +13,26 @@ Los calendarios contienen algunos de sus datos más sensibles; utilice productos
 
 ![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
 
-**Tuta** ofrece un calendario gratuito y cifrado en todas sus plataformas compatibles. Entre sus características se incluyen: E2EE automático de todos los datos, funciones de uso compartido, funcionalidad de importación/exportación, autenticación multifactor y [more](https://tuta.com/calendar-app-comparison/).
+**Tuta** ofrece un calendario gratuito y cifrado en todas sus plataformas compatibles. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
 Las funciones de calendarios múltiples y uso compartido ampliado están limitadas a los suscriptores de pago.
 
-[:octicons-home-16: Página Principal](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
-- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
-- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
+- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -52,10 +52,10 @@ Las funciones de calendarios múltiples y uso compartido ampliado están limitad
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1514709943)
 - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 </details>

@@ -52,10 +52,10 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
@@ -74,7 +74,7 @@ Proton Mail 的內容崩潰報告 **不會**對其它第三方分享。 可以�
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-付費的 Proton Mail 訂閱者可以使用自定網域服務或 [通用電子郵件](https://proton.me/support/catch-all) 功能。 Proton Mail還支持 [子地址](https://proton.me/support/creating-aliases)，這對於不想購買網域的人很有用。
+付費的 Proton Mail 訂閱者可以使用自定網域服務或 [通用電子郵件](https://proton.me/support/catch-all) 功能。 Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } 私人付款方式
 
@@ -129,7 +129,7 @@ Proton Mail不提供數字遺產功能。
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-Mailbox.org 可以使用自定網域，且支援 [通用電子郵件](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) 地址。 Mailbox.org 也支援 [子地址](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it)，如果您不想購買網域，這很有用。
+Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } 私人付款方式
 
@@ -137,17 +137,17 @@ Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 
 
 #### :material-check:{ .pg-green } 帳戶安全
 
-Mailbox.org支援 [雙因素驗證](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) ，僅適用於他們的網絡郵件。 您可以通過 [YubiCloud](https://www.yubico.com/products/services-software/yubicloud)使用TOTP或 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) 。 Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 
-Mailbox.org 允許使用 [加密郵箱](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox)對傳入郵件進行加密。 收到的新訊息將立即用您的公鑰加密。
+Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). 收到的新訊息將立即用您的公鑰加密。
 
-但是， [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange)---- Mailbox.org使用的軟件平臺， [不支持](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) 通訊錄和行事曆加密。 [獨立的選項](calendar.md) 可能更適合該資訊。
+However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. [獨立的選項](calendar.md) 可能更適合該資訊。
 
 #### :material-check:{ .pg-green }電子郵件加密
 
-Mailbox.org在他們的網絡郵件中有 [個集成的加密](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) ，這簡化了向具有公開OpenPGP密鑰的人發送消息。 它們還允許 [遠端收件人解密 Mailbox.org伺服器上的電子郵件](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) 。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
+Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
 
 Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 因此其它人可以輕鬆找到 Mailbox.org 帳戶的 OpenPGP 金鑰，便於跨提供者使用 E2EE。 這僅限於使用 Mailbox.org  自身網域(例如 @mailbox.org) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
 
@@ -157,9 +157,9 @@ Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.g
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-您可以透過 IMAP/SMTP 使用其 [.onion 服務](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org)存取您的 Mailbox.org 帳戶。 然而，他們的網頁郵件介面無法訪問其  .onion 服務，可能會遇到 TLS 憑證錯誤。
+You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). 然而，他們的網頁郵件介面無法訪問其  .onion 服務，可能會遇到 TLS 憑證錯誤。
 
-所有帳戶都附帶有限、[可以加密](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive)的雲端儲存空間 。 Mailbox.org 還提供別名 [@ secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely)，它對郵件伺服器之間的連線強制進行TLS加密，否則根本不會發送訊息。 Mailbox.org 除了支援 IMAP 和 POP3 等標準存取通訊協議外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org 除了支援 IMAP 和 POP3 等標準存取通訊協議外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
 
 Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否要將任何資料傳遞給繼承人，但對方必須提出你的遺囑證明。 或者，您可以通過姓名和地址提出人選。
 
@@ -185,18 +185,18 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
 - [:simple-windows11: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -206,7 +206,7 @@ Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [�
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-付費的 Tuta 帳戶可使用 15 ~ 30 別名，而 [自定域名](https://tuta.com/faq#custom-domain)帳戶則無上限。 Tuta 不能 [子地址（加號 +定址）](https://tuta.com/faq#plus)，但您可以使用自定義域名的 [通用電于郵件](https://tuta.com/howto#settings-global)功能 。
+付費的 Tuta 帳戶可使用 15 ~ 30 別名，而 [自定域名](https://tuta.com/faq#custom-domain)帳戶則無上限。 Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } 私人付款方式
 
@@ -232,7 +232,7 @@ Tuta [刪除六個月未登入使用的免費帳戶](https://tuta.com/faq#inacti
 
 Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/posts/secure-email-for-non-profit) 或大幅折扣。
 
-Tuta 付費版還有一種 [Secure Connect](https://tuta.com/secure-connect/)功能。 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
 
 Tuta 不提供數位遺產功能。
 
@@ -280,18 +280,18 @@ Tuta 不提供數位遺產功能。
 [:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 </details>
 
 </div>
 
-免費帳戶建立共用網域名(像 @addy.io ) 的數量為最多10個，月付1美元則可增加到 50 個別外，月付 4美元(或年繳則以3美元計) 則無數量限制。 付費帳戶可建立無數的標準別名如尾綴為 @[username].addy.io 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。 2023年9月 Securitum [通過addy.io 審查](https://addy.io/blog/addy-io-passes-independent-security-audit/) ，沒[發現重大的弱點缺失](https://addy.io/addy-io-security-audit.pdf)。
+免費帳戶建立共用網域名(像 @addy.io ) 的數量為最多10個，月付1美元則可增加到 50 個別外，月付 4美元(或年繳則以3美元計) 則無數量限制。 付費帳戶可建立無數的標準別名如尾綴為 @[username].addy.io 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。 Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 值得注意的免費功能：
 
@@ -310,26 +310,26 @@ Tuta 不提供數位遺產功能。
 **SimpleLogin** 是一項免費服務，可在各種共享域名上提供電子郵件別名，並可選擇提供無限別名和自訂域名等付費功能。
 
 [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
 
 </details>
 
 </div>
 
-SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) 買下。 如果您的主要郵箱使用質子郵件， SimpleLogin是一個不錯的選擇。 由於這兩種產品現在都由同一家公司擁有，您現在只需要信任單一實體。 我們預計 SimpleLogin  未來會與 Proton 產品更緊密地整合。 SimpleLogin 繼續支援轉寄至您所選擇的任何電子郵件供應商。 Securitum [在2022年初審核了](https://simplelogin.io/blog/security-audit/) SimpleLogin ，所有問題 [都已解決](https://simplelogin.io/audit2022/web.pdf)。
+SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) 買下。 如果您的主要郵箱使用質子郵件， SimpleLogin是一個不錯的選擇。 由於這兩種產品現在都由同一家公司擁有，您現在只需要信任單一實體。 我們預計 SimpleLogin  未來會與 Proton 產品更緊密地整合。 SimpleLogin 繼續支援轉寄至您所選擇的任何電子郵件供應商。 Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
 您可以在設定中將您的 SimpleLogin 帳戶與 Proton 帳戶連結。 如果您有 Proton Unlimited 、Business 或 Visionary 計劃，也可免費獲得 SimpleLogin Premium。
 
@@ -352,9 +352,9 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 **Mailcow** 是一個更先進的郵件伺服器，非常適合有豐富 Linux 經驗者。 它的 Docke r容器中擁有您需要的一切：支援 DKIM 的郵件伺服器、防毒和垃圾郵件監控、具有SOGo 的 Webmail 和 ActiveSync ，以及具有2FA 支援的網頁管理介面。
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
 </div>
 
@@ -372,8 +372,8 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 
 為了更清楚手動設定方法，我們挑選了這兩篇文章：
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
 
 ## 標準
 
@@ -386,7 +386,7 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 **最低合格要求：**
 
 - 使用零存取加密技術全程加密電子郵件帳戶資料。
-- 匯出功能為 [Mbox](https://en.wikipedia.org/wiki/Mbox) 或滙出符合 [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) 標準的個人.eml 格式。
+- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - 允許使用者使用自己的 [網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
 - 在自有基礎設施上運作，即不建立在第三方電子郵件服務提供商之上。
 
@@ -397,7 +397,7 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 - 支援 [WKD](https://wiki.gnupg.org/WKD) ，以改善透過HTTP發現公開的OpenPGP金鑰。 GnuPG 使用者可以透過輸入： `gpg --locate-key example_user@example.com` 取得金鑰。
 - 支援外部使用者的臨時信箱。 當您想要發送加密的電子郵件時，這非常有用，而無需將實際副本發送給您的收件人。 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
 - 可提供 [onion 服務](https://en.wikipedia.org/wiki/.onion)的電子郵件服務供應商。
-- [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) 支持.
+- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
 - 為擁有自己網域的用戶提供通用地址或別名功能。
 - 使用標準電子郵件存取協定，例如 IMAP、SMTP 或 [ JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)。 標準存取協議確保客戶可以輕鬆下載所有電子郵件，一旦他們想切換到其它提供商。
 
@@ -425,13 +425,13 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 - 使用 2FA 保護網頁郵件，如TOTP。
 - 無存取的靜態加密，如零存取加密。 提供者沒有其所持有資料的解密金鑰。 這可以防止流氓員工外洩所存取的資料或遠程對手通過獲得對伺服器的未經授權的訪問來竊取資料。
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 支持。
-- 使用 [Hardenize](https://www.hardenize.com/)、 [testssl.sh ](https://testssl.sh/)或 [ Qualys SSL Labs ](https://www.ssllabs.com/ssltest)等工具進行剖繪時，沒有TLS 錯誤或漏洞；這包括與憑證相關的錯誤和弱 DH參數，例如導致 [ Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 的錯誤。
+- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - 伺服器套件偏好（在TLS v1.3上可選），適用於支持正向保密和已驗證加密的強大密碼套件。
 - 有效的 [MTA-STS](https://tools.ietf.org/html/rfc8461) 和[TLS-RPT](https://tools.ietf.org/html/rfc8460) 政策。
 - 有效 [ DANE ](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) 紀錄。
 - 有效的 [SPF ](https://en.wikipedia.org/wiki/Sender_Policy_Framework) 和 [ DKIM ](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) 記錄。
 - 擁有適當的 [DMARC ](https://en.wikipedia.org/wiki/DMARC) 記錄和原則，或使用 [ ARC ](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) 進行驗證。 如果正在使用 DMARC 驗證，則必須將原則設置為 `拒絕` 或 `隔離`。
-- 伺服器套件最好為 TLS 1.2或更高版本以及 [ RFC8996](https://datatracker.ietf.org/doc/rfc8996/)計劃。
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - 假設使用SMTP，[SMTPS](https://en.wikipedia.org/wiki/SMTPS) 提交。
 - 網站安全標準，例如：
     - [HTTP 嚴格傳輸安全性](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -446,7 +446,7 @@ SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proto
 - 漏洞獎勵計劃和/或協調漏洞披露過程。
 - 網站安全標準，例如：
     - [內容安全策略(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### 信任
 

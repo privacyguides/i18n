@@ -28,7 +28,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 - [접근이나 제어가 제한적](https://drewdevault.com/2018/08/08/Signal.html)일 수 있습니다. 예시는 다음과 같습니다:
 - 더 자유로운 커스텀이나 더 나은 사용 경험을 제공 가능한 제3자 클라이언트를 중앙 집중형 네트워크에 연결하는 것이 [금지됩니다](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165). 이는 이용 약관에 정의되어 있는 경우가 많습니다.
 - 외부 개발자를 위한 문서가 부실하거나 아예 없습니다.
-- 단일 주체가 서비스를 통제하는 경우, 서비스의 [소유권](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), 프라이버시 정책, 운영이 쉽게 뒤바뀔 수 있으며, 훗날에 서비스가 손상될 가능성이 존재합니다.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - 자체 호스팅을 하기 위해서는 서비스 구축에 대한 노력과 지식이 필요합니다.
 
 ## 연합형 네트워크
@@ -60,7 +60,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 
 P2P 메신저는 [분산형(Distributed) 네트워크](https://en.wikipedia.org/wiki/Distributed_networking)에 노드로서 연결되어 제3자 서버 없이 수신자에게 메시지를 전달합니다.
 
-클라이언트(피어)는 일반적으로 [분산 컴퓨팅](https://en.wikipedia.org/wiki/Distributed_computing) 네트워크를 이용해 서로를 찾아냅니다. 예시로는 [토렌트](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8%ED%86%A0%EB%A0%8C%ED%8A%B8), [IPFS](https://ko.wikipedia.org/wiki/InterPlanetary_File_System)에서 사용하는 [분산 해시 테이블](https://ko.wikipedia.org/wiki/%EB%B6%84%EC%82%B0_%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)(DHT)이 있습니다. Wi-Fi나 Bluetooth를 통해 연결하는 근접 기반 네트워크 방식(Proximity Based Network)을 사용하는 경우도 있습니다. Briar, [Scuttlebutt](https://www.scuttlebutt.nz) 소셜 네트워크 프로토콜이 대표적입니다.
+클라이언트(피어)는 일반적으로 [분산 컴퓨팅](https://en.wikipedia.org/wiki/Distributed_computing) 네트워크를 이용해 서로를 찾아냅니다. 예시로는 [토렌트](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8%ED%86%A0%EB%A0%8C%ED%8A%B8), [IPFS](https://ko.wikipedia.org/wiki/InterPlanetary_File_System)에서 사용하는 [분산 해시 테이블](https://ko.wikipedia.org/wiki/%EB%B6%84%EC%82%B0_%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)(DHT)이 있습니다. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 피어가 이러한 방법을 통해 연락 상대로 연결되는 경로를 찾아내면 서로 직접 연결이 이루어집니다. 메시지에는 일반적으로 암호화가 적용되나, 관찰자는 발신자/수신자의 위치와 신원을 유추할 수 있습니다.
 

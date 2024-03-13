@@ -56,15 +56,15 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 **Tresorit** - швейцарско-венгерский провайдер зашифрованных облачных хранилищ, основанный в 2011 году. Tresorit принадлежит Swiss Post, национальной почтовой службе Швейцарии.
 
-[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-home-16: Homepage](https://tresorit.com){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
 - [:simple-windows11: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
@@ -75,15 +75,15 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 Компания Tresorit прошла ряд независимых аудитов безопасности:
 
-- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): ISO/IEC 27001:2013[^1] соответствие [сертификации](https://www.certipedia.com/quality_marks/9108644476) от TÜV Rheinland InterCert Kft
-- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): Тестирование на проникновение от Computest
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
     - В данном обзоре оценивалась безопасность веб-клиента Tresorit, приложения для Android, приложения для Windows и соответствующей инфраструктуры.
     - Computest обнаружил две уязвимости, которые были устранены.
-- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): Тестирование на проникновение от Ernst & Young.
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - В данном обзоре был проанализирован весь исходный код Tresorit и было подтверждено, что реализация соответствует концепциям, описанным в [техническом документе](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) Tresorit.
     - Компания Ernst & Young дополнительно протестировала веб-приложение, мобильные и настольные клиенты: "Результаты тестирования не выявили никаких отклонений от заявлений Tresorit о конфиденциальности данных."
 
-Они также получили Digital Trust Label, сертификацию от [Swiss Digital Initiative](https://www.swiss-digital-initiative.org/digital-trust-label/), которая требует соответствия [35 критериям](https://digitaltrust-label.swiss/criteria/), связанных с безопасностью, конфиденциальностью и надежностью.
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
 
 ## Критерии
 

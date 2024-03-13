@@ -20,20 +20,20 @@ cover: real-time-communication.webp
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** 是由Signal Messenger LLC開發的行動應用程式。 這款應用程式透過 Signal 協議來保護即時訊息和通話，它是極其安全的加密協議，支援前向保密[^1] 和洩露後安全性。[^2]
+**Signal** 是由Signal Messenger LLC開發的行動應用程式。 The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
-[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.signal.org){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
-- [:simple-android: Android](https://signal.org/android/apk/)
+- [:simple-android: Android](https://signal.org/android/apk)
 - [:simple-windows11: Windows](https://signal.org/download/windows)
 - [:simple-apple: macOS](https://signal.org/download/macos)
 - [:simple-linux: Linux](https://signal.org/download/linux)
@@ -53,13 +53,13 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 
 若想防止已知您手機號碼的人可以找到您的 Signal 帳號或用戶名稱，也可以選擇把 **誰可看見我的號碼** 設置為**無人可見** 。
 
-連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal 支援[私密 群組](https://signal.org/blog/signal-private-group-system/)，伺服器不會記錄該群組成員資格、群組標題、群組頭像，或群組屬性。 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender/) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
+連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
 
-其協議在2016年獨立進行了 [審計](https://eprint.iacr.org/2016/1013.pdf) 。 Signal 協議的規範可以在他們的 [文檔](https://signal.org/docs/)中找到。
+其協議在2016年獨立進行了 [審計](https://eprint.iacr.org/2016/1013.pdf) 。 The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
 
 我們有一些關於配置和硬化 Signal 安裝的額外提示：
 
-[Signal 配置和硬化 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
+[Signal 配置和硬化 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
 ### SimpleX Chat
 
@@ -75,10 +75,10 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
 - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
@@ -98,20 +98,20 @@ SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式
 
 ![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** 是 [連接](https://briarproject.org/how-it-works/)其他使用 Tor網路客戶端的加密即時通訊工具。 Briar 還可以在本地附近通過 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格(mesh)模式可能很有用。
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network. Briar 還可以在本地附近通過 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格(mesh)模式可能很有用。
 
-[:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
 [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
+[:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
-- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
+- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop)
+- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
 </details>
@@ -120,7 +120,7 @@ SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式
 
 Briar 要新增聯絡人，必須先彼此互加。 您可以交換 `briar://` 鏈結或是掃瞄對方的二維碼。
 
-客戶端軟體被獨立 [稽核](https://briarproject.org/news/2017-beta-released-security-audit/)，而匿名路由協議使用Tor 網路也接受了審計。
+The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
 
 Briar有一個完整 [發布的規範](https://code.briarproject.org/briar/briar-spec)。
 
@@ -141,24 +141,24 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** 是 [Matrix](https://matrix.org/docs/guides/introduction) 協議的參考[用戶端](https://matrix.org/ecosystem/clients/) ，這是一個 [開放標準](https://matrix.org/docs/spec) 、安全去中心化實時通訊。
+**Element** is the reference [client](https://matrix.org/ecosystem/clients) for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
 在私人聊天室（需透過邀請加入）共享的訊息和文件預設為 E2EE ，一對一的語音和視訊通話也是如此。
 
-[:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
-- [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
-- [:simple-windows11: Windows](https://element.io/get-started)
-- [:simple-apple: macOS](https://element.io/get-started)
-- [:simple-linux: Linux](https://element.io/get-started)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
+- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
+- [:simple-windows11: Windows](https://element.io/download)
+- [:simple-apple: macOS](https://element.io/download)
+- [:simple-linux: Linux](https://element.io/download)
 - [:octicons-globe-16: Web](https://app.element.io)
 
 </details>
@@ -171,7 +171,7 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 
 Matrix 協議本身[理論上支持前向保密](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy) [^1]，但[ Element 目前不支援](https:/ / github.com/vector-im/element-web/issues/7101)，因為會破壞某方面的使用者體驗，例如金鑰備份和共享訊息歷史記錄。
 
-其協議在 2016年獨立進行了 [審計](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) 。 Matrix 協議的規範可以在他們的 [文檔](https://spec.matrix.org/latest/)中找到。 Matrix 使用的 [Olm 加密棘輪](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/)是執行Signal [Double Ratchet 演算法](https://signal.org/docs/specifications/doubleratchet/)。
+其協議在 2016年獨立進行了 [審計](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) 。 The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
 
 ### Session
 
@@ -181,9 +181,9 @@ Matrix 協議本身[理論上支持前向保密](https://gitlab.matrix.org/matri
 
 **Session** 是一款分散式通訊軟體，專注於私密、安全和匿名。 Session 支援直接訊息、羣組聊天和語音通話。
 
-Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來儲存和路由訊息。 每條加密訊息都通過 Oxen Service Node Network 中三個節點路由，使得節點幾乎不可能編譯有意義信息給此網路的使用者。
+Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to store and route messages. 每條加密訊息都通過 Oxen Service Node Network 中三個節點路由，使得節點幾乎不可能編譯有意義信息給此網路的使用者。
 
-[:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }

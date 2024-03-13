@@ -14,9 +14,9 @@ cover: photo-management.webp
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit/) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+**ente**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
-[:octicons-home-16: Homepage](https://ente.io/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
@@ -46,17 +46,17 @@ cover: photo-management.webp
 
 **Stingle** 是一款圖庫和相機應用程序，內建端對端加密備份和同步功能，適用於照片和影片。 免費帳戶的雲端儲存空間為 1GB，或者自行託管 Stingle API 伺服器來實現完全獨立。
 
-[:octicons-home-16: Homepage](https://stingle.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://stingle.org/faq/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://stingle.org/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
-- [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos/)
-- [:simple-appstore: App Store](https://apps.apple.com/in/app/stingle-photos/id1582535448)
+- [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
 - [:simple-github: GitHub](https://github.com/stingle)
 
 </details>
@@ -69,11 +69,11 @@ cover: photo-management.webp
 
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** 是一個管理照片的自架平台。 它支援相簿同步和共享以及各種其他[功能](https://www.photoprism.app/features)。 它不包括 E2EE，因此最好將其託管在信任且能控制的伺服器上。
+**PhotoPrism** 是一個管理照片的自架平台。 It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). 它不包括 E2EE，因此最好將其託管在信任且能控制的伺服器上。
 
-[:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>

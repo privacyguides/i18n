@@ -22,18 +22,18 @@ cover: real-time-communication.webp
 
 **Signal** היא אפליקציה לנייד שפותחה על ידי סיגנל מסנג'ר LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
-[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.signal.org){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
-- [:simple-android: Android](https://signal.org/android/apk/)
+- [:simple-android: Android](https://signal.org/android/apk)
 - [:simple-windows11: Windows](https://signal.org/download/windows)
 - [:simple-apple: macOS](https://signal.org/download/macos)
 - [:simple-linux: Linux](https://signal.org/download/linux)
@@ -53,13 +53,13 @@ Signal requires your phone number for registration, however you should create a 
 
 You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. גם פרופילים אישיים מוצפנים ומשותפים רק עם אנשי קשר שאיתם אתה משוחח בצ'אט. Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. לSignal יש מטא נתונים מינימליים כאשר [שולח חתום](https://signal.org/blog/sealed-sender/) מופעל. כתובת השולח מוצפנת יחד עם גוף ההודעה, ורק כתובת הנמען גלויה לשרת. 'שולח אטום' זמין רק עבור אנשים ברשימת אנשי הקשר שלך, אך ניתן להפוך אותו לזמין עבור כל הנמענים עם סיכון מוגבר לקבלת דואר זבל.
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. גם פרופילים אישיים מוצפנים ומשותפים רק עם אנשי קשר שאיתם אתה משוחח בצ'אט. Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. כתובת השולח מוצפנת יחד עם גוף ההודעה, ורק כתובת הנמען גלויה לשרת. 'שולח אטום' זמין רק עבור אנשים ברשימת אנשי הקשר שלך, אך ניתן להפוך אותו לזמין עבור כל הנמענים עם סיכון מוגבר לקבלת דואר זבל.
 
-הפרוטוקול היה מבוקר [באופן עצמאי](https://eprint.iacr.org/2016/1013.pdf) בשנת 2016. ניתן למצוא את המפרט של פרוטוקול סיגנל בתיעוד [](https://signal.org/docs/)שלהם.
+הפרוטוקול היה מבוקר [באופן עצמאי](https://eprint.iacr.org/2016/1013.pdf) בשנת 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
 
 יש לנו כמה טיפים נוספים להגדרה והקשחה של התקנת הSignal שלך:
 
-[תצורת סיגנל והקשחה :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
+[תצורת סיגנל והקשחה :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
 ### SimpleX Chat
 
@@ -78,7 +78,7 @@ Contact lists on Signal are encrypted using your Signal PIN and the server does 
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
 - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
@@ -96,22 +96,22 @@ SimpleX Chat תומך בפונקציונליות בסיסית של צ'אט קב�
 
 <div class="admonition recommendation" markdown>
 
-![לוגו של Briar](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** הוא מסנג'ר מיידי מוצפן ש[מתחבר](https://briarproject.org/how-it-works/) ללקוחות אחרים המשתמשים ברשת Tor. Briar יכול גם להתחבר באמצעות Wi-Fi או Bluetooth כאשר הוא נמצא בקרבה מקומית. מצב הרשת המקומי של Briar יכול להיות שימושי כאשר זמינות האינטרנט היא בעיה.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network. Briar יכול גם להתחבר באמצעות Wi-Fi או Bluetooth כאשר הוא נמצא בקרבה מקומית. מצב הרשת המקומי של Briar יכול להיות שימושי כאשר זמינות האינטרנט היא בעיה.
 
-[:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
 [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
+[:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
-- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
+- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop)
+- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
 </details>
@@ -120,7 +120,7 @@ SimpleX Chat תומך בפונקציונליות בסיסית של צ'אט קב�
 
 כדי להוסיף איש קשר ב Briar, שניכם חייבים להוסיף אחד את השני קודם. באפשרותך להחליף `קישורים ` או לסרוק את קוד ה - QR של איש הקשר אם הוא נמצא בקרבת מקום.
 
-תוכנת הקליינט נבדקה באופן עצמאי [](https://briarproject.org/news/2017-beta-released-security-audit/), ופרוטוקול הניתוב האנונימי משתמש ברשת Tor שנבדקה אף היא.
+The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
 
 ל Briar יש מפרט ש[פורסם במלואו](https://code.briarproject.org/briar/briar-spec).
 
@@ -141,11 +141,11 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients) for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
 הודעות וקבצים המשותפים בחדרים פרטיים (אלו הדורשים הזמנה) הם כברירת מחדל E2EE וכך גם שיחות קול ווידאו אחד לאחד.
 
-[:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
@@ -154,11 +154,11 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
-- [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
-- [:simple-windows11: Windows](https://element.io/get-started)
-- [:simple-apple: macOS](https://element.io/get-started)
-- [:simple-linux: Linux](https://element.io/get-started)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
+- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
+- [:simple-windows11: Windows](https://element.io/download)
+- [:simple-apple: macOS](https://element.io/download)
+- [:simple-linux: Linux](https://element.io/download)
 - [:octicons-globe-16: Web](https://app.element.io)
 
 </details>
@@ -171,7 +171,7 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
-הפרוטוקול היה מבוקר [באופן עצמאי](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) בשנת 2016. את המפרט לפרוטוקול מטריקס ניתן למצוא [בתיעוד שלהם](https://spec.matrix.org/latest/). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
+הפרוטוקול היה מבוקר [באופן עצמאי](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) בשנת 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
 
 ### Session
 
@@ -181,9 +181,9 @@ The Matrix protocol itself [theoretically supports forward secrecy](https://gitl
 
 **Session** הוא מסנג'ר מבוזר עם התמקדות בתקשורת פרטית, מאובטחת ואנונימית. Session מציע תמיכה בהודעות ישירות, צ'אטים קבוצתיים ושיחות קוליות.
 
-Session משתמש ב-[Oxen Service Node Network](https://oxen.io/) המבוזר כדי לאחסן ולנתב הודעות. כל הודעה מוצפנת מנותבת דרך שלושה צמתים ברשת Oxen Service Node Network, מה שהופך את זה למעשה לבלתי אפשרי עבור הצמתים לאסוף מידע משמעותי על המשתמשים ברשת.
+Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to store and route messages. כל הודעה מוצפנת מנותבת דרך שלושה צמתים ברשת Oxen Service Node Network, מה שהופך את זה למעשה לבלתי אפשרי עבור הצמתים לאסוף מידע משמעותי על המשתמשים ברשת.
 
-[:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }

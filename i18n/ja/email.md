@@ -55,7 +55,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
@@ -74,7 +74,7 @@ Proton Mailには内部にクラッシュレポートがあり、これは第三
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
-Proton Mailの有料会員は独自ドメインでサービスや [キャッチオール](https://proton.me/support/catch-all) アドレスを使うことができます。 Proton Mailはドメインを購入したくない人に便利な [サブアドレス](https://proton.me/support/creating-aliases) もサポートしています。
+Proton Mailの有料会員は独自ドメインでサービスや [キャッチオール](https://proton.me/support/catch-all) アドレスを使うことができます。 Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } プライベートな支払い方法
 
@@ -129,7 +129,7 @@ Proton Mailにはデジタル遺産の機能はありません。
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
-Mailbox.orgでは独自ドメインを使用することができ、 [キャッチオール](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) アドレスをサポートしています。 Mailbox.orgはドメインを購入したくない人に便利な [サブアドレス](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it) もサポートしています。
+Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } プライベートな支払い方法
 
@@ -137,17 +137,17 @@ Mailbox.orgは決済プロセッサBitPayがドイツでの業務を停止した
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
-Mailbox.orgはwebメールに限り [二要素認証](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) をサポートしています。 [YubiCloud](https://www.yubico.com/products/services-software/yubicloud)を介して、TOTP または [YubiKey](https://en.wikipedia.org/wiki/YubiKey) のいずれかを使用することができます。 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) などのウェブ標準はまだサポートされていません。
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) などのウェブ標準はまだサポートされていません。
 
 #### :material-information-outline:{ .pg-blue } データのセキュリティ
 
-Mailbox.orgでは [encrypted mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox) を使用して受信メールを暗号化することができます。 新しいメッセージを受信するとすぐにあなたの公開鍵で暗号化されます。
+Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). 新しいメッセージを受信するとすぐにあなたの公開鍵で暗号化されます。
 
-ただし、Mailbox.orgが使用しているソフトウェアプラットフォームである [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange) はアドレス帳とカレンダーの暗号化を [サポートしていません](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) 。 その情報については、 [スタンドアロンオプション](calendar.md) の方が適切であるかもしれません。
+However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. その情報については、 [スタンドアロンオプション](calendar.md) の方が適切であるかもしれません。
 
 #### :material-check:{ .pg-green } メールの暗号化
 
-Mailbox.orgはwebメールに [暗号化を組み込んで](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) おり、OpenPGP公開鍵を持つ人へのメッセージ送信を簡素化します。 また、Mailbox.orgのサーバ上にある [メールをリモートの受信者が復号](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) することもできます。 この機能はリモートの受信者がOpenPGPを持っておらず、自分のメールボックスにあるメールのコピーを複合できない場合に便利です。
+Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. この機能はリモートの受信者がOpenPGPを持っておらず、自分のメールボックスにあるメールのコピーを複合できない場合に便利です。
 
 Mailbox.orgは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP経由で公開鍵を発見することもサポートしています。 これにより、Mailbox.orgを使っていない人でも、Mailbox.orgアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。 This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
@@ -157,9 +157,9 @@ Mailbox.orgは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP�
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
-[.onionサービス](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org) を使って、IMAP/SMTP経由でMailboxl.orgアカウントにアクセスできます。 ただし .onionサービスからwebメールのインターフェイスにアクセスすることはできず、TLS証明書のエラーが発生する可能性があります。
+You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). ただし .onionサービスからwebメールのインターフェイスにアクセスすることはできず、TLS証明書のエラーが発生する可能性があります。
 
-全てのアカウントには [暗号化可能](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive) な限られたクラウドストレージが付属しています。 Mailbox.orgは [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely) エイリアスも提供しており、これはメールサーバ間の接続にTLS暗号化を強制し、さもなければメッセージは全く送信されません。 Mailbox.orgはIMAPやPOP3のような標準的なアクセスプロトコルに加え、 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) もサポートしています。
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.orgはIMAPやPOP3のような標準的なアクセスプロトコルに加え、 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) もサポートしています。
 
 Mailbox.orgの全てのプランにはデジタル遺産機能があります。 相続人が申請し、遺言書を提出することを条件に、自分のデータを相続人に渡すかどうかを選択することができます。 または、名前と住所で人を指名することもできます。
 
@@ -185,18 +185,18 @@ Mailbox.orgの全てのプランにはデジタル遺産機能があります。
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
 - [:simple-windows11: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -206,7 +206,7 @@ Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use 
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } プライベートな支払い方法
 
@@ -232,7 +232,7 @@ Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
 Tutaにはデジタルレガシー機能はありません。
 
@@ -284,14 +284,14 @@ Using an aliasing service requires trusting both your email provider and your al
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 </details>
 
 </div>
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 注目すべき無料の機能：
 
@@ -310,8 +310,8 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
 **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
 
 [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -320,16 +320,16 @@ The number of shared aliases (which end in a shared domain like @addy.io) that y
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
 
 </details>
 
 </div>
 
-SimpleLoginは、2022年4月8日付で[Proton AGに買収](https://proton.me/news/proton-and-simplelogin-join-forces)されました。 Proton Mailを第一のメールボックスに使っている場合、SimpleLoginは素晴らしい選択肢です。 いまでは両方の製品が同じ会社によって所有されているので、一つの企業を信頼すれば十分となりました。 また、SimpleLoginは今後、プロトンが提供するサービスとより緊密に統合されるものと期待されています。 引き続きSimpleLoginは、希望のメールプロバイダーへの転送をサポートします。 Securitumは2022年初めにSimpleLoginを[監査](https://simplelogin.io/blog/security-audit/)し、すべての問題は[対処](https://simplelogin.io/audit2022/web.pdf)されました。
+SimpleLoginは、2022年4月8日付で[Proton AGに買収](https://proton.me/news/proton-and-simplelogin-join-forces)されました。 Proton Mailを第一のメールボックスに使っている場合、SimpleLoginは素晴らしい選択肢です。 いまでは両方の製品が同じ会社によって所有されているので、一つの企業を信頼すれば十分となりました。 また、SimpleLoginは今後、プロトンが提供するサービスとより緊密に統合されるものと期待されています。 引き続きSimpleLoginは、希望のメールプロバイダーへの転送をサポートします。 Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
 設定でSimpleLoginアカウントをProtonアカウントとリンクさせることができます。 Proton Unlimited、Business、またはVisionaryプランをお持ちの場合は、SimpleLogin Premiumを無料で利用できます。
 
@@ -352,9 +352,9 @@ Advanced system administrators may consider setting up their own email server. M
 **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
 </div>
 
@@ -372,8 +372,8 @@ Advanced system administrators may consider setting up their own email server. M
 
 For a more manual approach we've picked out these two articles:
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide/) (August 2017)
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
 
 ## 規準
 
@@ -386,7 +386,7 @@ We regard these features as important in order to provide a safe and optimal ser
 **最低条件：**
 
 - Encrypts email account data at rest with zero-access encryption.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standard.
+- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Operates on owned infrastructure, i.e. not built upon third-party email service providers.
 
@@ -397,7 +397,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
 - Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
-- [Subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing) support.
+- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
 - Catch-all or alias functionality for those who own their own domains.
 - Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
@@ -425,13 +425,13 @@ We regard these features as important in order to provide a safe and optimal ser
 - TOTPなどの二要素認証によるウェブメールの保護。
 - Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)のサポート。
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), or [Qualys SSL Labs](https://www.ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
 - 有効な [MTA-STS](https://tools.ietf.org/html/rfc8461) および [TLS-RPT](https://tools.ietf.org/html/rfc8460) ポリシー。
 - 有効な[DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)レコード。
 - 有効な[SPF](https://ja.wikipedia.org/wiki/Sender_Policy_Framework)および[DKIM](https://ja.wikipedia.org/wiki/DKIM)レコード。
 - Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
 - 以下のようなウェブサイトのセキュリティ基準：
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -446,7 +446,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - バグ報奨金プログラム、協調的な脆弱性開示プロセス。
 - 以下のようなウェブサイトのセキュリティ基準：
     - [コンテンツセキュリティポリシー（CSP）](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### 信頼
 

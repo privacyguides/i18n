@@ -55,7 +55,7 @@ Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken.
 
 </div>
 
-Als je zich zorgen maakt over **fysieke aanvallen** moet je een besturingssysteem gebruiken met een veilige geverifieerde opstartimplementatie, zoals Android, iOS, macOS, [Windows (met TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Je moet er ook voor zorgen dat jouw schijf versleuteld is, en dat het besturingssysteem een TPM of Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) of [Element](https://developers.google.com/android/security/android-ready-se) gebruikt voor het beperken van de snelheid waarmee pogingen worden gedaan om de wachtwoordzin voor de versleuteling in te voeren. Je moet voorkomen dat je jouw computer deelt met mensen die je niet vertrouwt, omdat de meeste desktopbesturingssystemen gegevens niet afzonderlijk per gebruiker versleutelen.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Je moet er ook voor zorgen dat jouw schijf versleuteld is, en dat het besturingssysteem een TPM of Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) of [Element](https://developers.google.com/android/security/android-ready-se) gebruikt voor het beperken van de snelheid waarmee pogingen worden gedaan om de wachtwoordzin voor de versleuteling in te voeren. Je moet voorkomen dat je jouw computer deelt met mensen die je niet vertrouwt, omdat de meeste desktopbesturingssystemen gegevens niet afzonderlijk per gebruiker versleutelen.
 
 ## Privacy van dienstverleners
 
@@ -89,16 +89,16 @@ Massasurveillance is een poging om een groot deel van of een gehele bevolking te
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-Als je meer wilt weten over bewakingsmethoden en hoe die in jouw stad worden toegepast, kunt je ook de [Atlas of Surveillance](https://atlasofsurveillance.org/) van de [Electronic Frontier Foundation](https://www.eff.org/) bekijken.
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 Regeringen rechtvaardigen massasurveillanceprogramma's vaak als noodzakelijke middelen om terrorisme te bestrijden en misdaad te voorkomen. Het schendt echter de mensenrechten en wordt meestal gebruikt om zich buitenproportioneel te richten op onder andere minderheidsgroepen en politieke dissidenten.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 Het omzeilen van de censuur zelf is betrekkelijk eenvoudig, maar het feit dat je het censuursysteem omzeilt voor de censoren kan zeer problematisch zijn. Je moet nagaan welke aspecten van het netwerk jouw tegenstander kan waarnemen, en of je jouw acties kunt ontkennen.
 
@@ -144,7 +144,7 @@ Censuur op bedrijfsplatforms komt steeds vaker voor nu platforms als Twitter en 
 
 Censuur online kan (in verschillende mate) worden uitgeoefend door actoren zoals totalitaire regeringen, netwerkbeheerders en dienstverleners. Deze pogingen om de communicatie te controleren en de toegang tot informatie te beperken zullen altijd onverenigbaar zijn met het mensenrecht op vrijheid van meningsuiting.[^5]
 
-Censuur op bedrijfsplatforms komt steeds vaker voor, nu platforms als Twitter en Facebook toegeven aan de vraag van het publiek, de druk van de markt en de druk van overheidsinstanties. Overheidsdruk kan bestaan uit heimelijke verzoeken aan bedrijven, zoals het verzoek van het Witte Huis [om een provocerende YouTube-video uit de lucht te halen ](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html), of uit openlijke, zoals de Chinese regering die van bedrijven eist dat zij zich houden aan een streng censuurregime.
+Censuur op bedrijfsplatforms komt steeds vaker voor, nu platforms als Twitter en Facebook toegeven aan de vraag van het publiek, de druk van de markt en de druk van overheidsinstanties. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 Mensen die bezorgd zijn over de dreiging van censuur kunnen technologieën als [Tor](../advanced/tor-overview.md) gebruiken om die te omzeilen, en steun verlenen aan censuurbestendige communicatieplatforms als [Matrix](../real-time-communication.md#element), dat geen gecentraliseerde accountautoriteit heeft die willekeurig accounts kan sluiten.
 
@@ -162,5 +162,5 @@ Je moet altijd rekening houden met de risico 's van het proberen om censuur te o
 [^1]: United States Privacy and Civil Liberties Oversight Board: [Rapport over het telefoongegevens programma, uitgevoerd onder Section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Wikipedia: [Surveillance kapitalisme](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^3]: Wikipedia: [*Surveillancekapitalisme*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Je moet ook andere mitigatietechnieken gebruiken.
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Je moet ook andere mitigatietechnieken gebruiken.
 [^5]: Verenigde Naties: [*Universele Verklaring van de Rechten van de Mens*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

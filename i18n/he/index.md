@@ -62,12 +62,12 @@ schema:
 
 ## אנחנו זקוקים לך! יש כמה דרכים לעזור לנו:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="הצטרף לפורום שלנו" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="עקבו אחרינו במסטודון" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="תרום לאתר זה" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="עזור לתרגם את האתר הזה" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="שוחח איתנו במטריקס" }
-[:material-information-outline:](about/index.md){ title="למד עוד אודותינו" }
-[:material-hand-coin-outline:](about/donate.md){ title="תמכו בפרויקט" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 חשוב שאתר כמו Privacy Guides יישאר תמיד מעודכן. אנחנו צריכים שהקהל שלנו יפקח עין על עדכוני תוכנה עבור היישומים הרשומים באתר שלנו ויעקוב אחר התפתחויות לגבי ספקים שאנחנו ממליצים עליהם. קשה לעמוד בקצב המהיר של האינטרנט, אבל אנחנו מנסים כמיטב יכולתנו. אם אתה מזהה איזו שגיאה, חושב שספק לא צריך להיות רשום, שם לב שחסר ספק מוסמך, מאמין שתוסף דפדפן הוא כבר לא הבחירה הטובה ביותר, או מוצא כל בעיה אחרת, אנא הודיע לנו.

@@ -11,14 +11,14 @@ cover: dns.webp
 
 ## ספקים מומלצים
 
-| ספקי DNS                                                                        | מדיניות פרטיות                                                                                        | פרוטוקולים                                                                                 | תיעוד בקשות    | ECS        | סינון                                                                                                                             |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt               | חלקי[^1]       | Yes        | מבוסס על תצורה אישית. רשימת סינון בשימוש ניתן למצוא כאן. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH <br> DoT                                                    | חלקי[^2]       | לא         | מבוסס על תצורה אישית.                                                                                                             |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH <br> DoT <br> DNSCrypt <br> DoQ <br> DoH3 | אופציונאלי[^3] | לא         | מבוסס על תצורה אישית.                                                                                                             |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                                                         | לא[^4]         | לא         | מבוסס על תצורה אישית. רשימת סינון בשימוש ניתן למצוא כאן. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH <br> DoT <br> DNSCrypt <br> DoQ <br> DoH3 | אופציונאלי[^5] | אופציונאלי | מבוסס על תצורה אישית.                                                                                                             |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt                                | חלק[^6]        | אופציונאלי | בהתבסס על תצורה אישית, חוסם תוכנות זדוניות כברירת מחדל.                                                                           |
+| ספקי DNS                                                                   | מדיניות פרטיות                                                                                       | פרוטוקולים                                                                                 | תיעוד בקשות    | ECS        | סינון                                                                                                                             |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)            | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt               | חלקי[^1]       | Yes        | מבוסס על תצורה אישית. רשימת סינון בשימוש ניתן למצוא כאן. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Cleartext <br> DoH <br> DoT                                                    | חלקי[^2]       | לא         | מבוסס על תצורה אישית.                                                                                                             |
+| [**Control D**](https://controld.com/free-dns)                             | [:octicons-link-external-24:](https://controld.com/privacy)                                          | Cleartext <br> DoH <br> DoT <br> DNSCrypt <br> DoQ <br> DoH3 | אופציונאלי[^3] | לא         | מבוסס על תצורה אישית.                                                                                                             |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH <br> DoT                                                                         | לא[^4]         | לא         | מבוסס על תצורה אישית. רשימת סינון בשימוש ניתן למצוא כאן. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://nextdns.io)                                          | [:octicons-link-external-24:](https://nextdns.io/privacy)                                            | Cleartext <br> DoH <br> DoT <br> DNSCrypt <br> DoQ <br> DoH3 | אופציונאלי[^5] | אופציונאלי | מבוסס על תצורה אישית.                                                                                                             |
+| [**Quad9**](https://quad9.net)                                             | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt                                | חלק[^6]        | אופציונאלי | בהתבסס על תצורה אישית, חוסם תוכנות זדוניות כברירת מחדל.                                                                           |
 
 ### קריטריונים
 
@@ -50,7 +50,7 @@ cover: dns.webp
 
 #### פרופילים חתומים
 
-Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מוצפנים. [יוצר פרופיל DNS מאובטח](https://dns.notjakob.com/tool.html) הוא כלי לא רשמי ליצירת פרופילי DNS מוצפנים משלך, אולם הם לא ייחתמו. פרופילים חתומים מועדפים; החתימה מאמתת את מקור הפרופיל ומסייעת להבטיח את שלמות הפרופילים. תווית "מאומת" ירוקה ניתנת לפרופילי תצורה חתומים. לקבלת מידע נוסף על חתימת קוד, ראה [אודות חתימת קוד](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **פרופילים חתומים** מוצעים על ידי [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), ו [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
+Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מוצפנים. [יוצר פרופיל DNS מאובטח](https://dns.notjakob.com/tool.html) הוא כלי לא רשמי ליצירת פרופילי DNS מוצפנים משלך, אולם הם לא ייחתמו. פרופילים חתומים מועדפים; החתימה מאמתת את מקור הפרופיל ומסייעת להבטיח את שלמות הפרופילים. תווית "מאומת" ירוקה ניתנת לפרופילי תצורה חתומים. לקבלת מידע נוסף על חתימת קוד, ראה [אודות חתימת קוד](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://quad9.net/news/blog/ios-mobile-provisioning-profiles).
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
@@ -74,7 +74,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -123,9 +123,9 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard Home לוגו](assets/img/dns/adguard-home.svg){ align=right }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
-**AdGuard Home** הוא קוד פתוח [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) שמשתמש ב[סינון DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) כדי לחסום תוכן אינטרנט לא רצוי, כגון פרסומות.
+**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 AdGuard Home כולל ממשק אינטרנט משופשף כדי להציג תובנות ולנהל תוכן חסום.
 
@@ -142,25 +142,25 @@ AdGuard Home כולל ממשק אינטרנט משופשף כדי להציג ת�
 
 <div class="admonition recommendation" markdown>
 
-![Pi-hole לוגו](assets/img/dns/pi-hole.svg){ align=right }
+![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-**Pi-hole** הוא קוד פתוח [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) שמשתמש ב[סינון DNS](https://www.cloudflare.com/learning/access -management/what-is-dns-filtering/) כדי לחסום תוכן אינטרנט לא רצוי, כגון פרסומות.
+**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 Pi-hole מיועד להתארח ב-Raspberry Pi, אך הוא אינו מוגבל לחומרה כזו. התוכנה כוללת ממשק אינטרנט ידידותי כדי להציג תובנות ולנהל תוכן חסום.
 
-[:octicons-home-16: דף הבית](https://pi-hole.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=תיעוד}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="קוד מקור" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=לתרומה }
+[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
 [^1]: AdGuard מאחסן מדדי ביצועים מצטברים של שרתי ה-DNS שלהם, כלומר מספר הבקשות המלאות לשרת מסוים, מספר הבקשות החסומות ומהירות עיבוד הבקשות. הם גם שומרים ומאחסנים את מסד הנתונים של הדומיינים שהתבקשו ב-24 השעות האחרונות. "אנחנו צריכים את המידע הזה כדי לזהות ולחסום עוקבים ואיומים חדשים." "אנחנו גם מתעדים כמה פעמים גשש זה או אחר נחסם. אנחנו צריכים את המידע הזה כדי להסיר את הכללים המיושנים מהמסננים שלנו." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
-[^2]: Cloudflare אוספת ומאחסנת רק את נתוני שאילתת ה-DNS המוגבלים שנשלחים לפותר 1.1.1.1. שירות הפותר 1.1.1.1 אינו רושם נתונים אישיים, וחלק הארי של נתוני השאילתות המוגבלים שאינם ניתנים לזיהוי אישי מאוחסן למשך 25 שעות בלבד. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
+[^2]: Cloudflare אוספת ומאחסנת רק את נתוני שאילתת ה-DNS המוגבלים שנשלחים לפותר 1.1.1.1. שירות הפותר 1.1.1.1 אינו רושם נתונים אישיים, וחלק הארי של נתוני השאילתות המוגבלים שאינם ניתנים לזיהוי אישי מאוחסן למשך 25 שעות בלבד. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D רק מתעדים עבור פותרי Premium עם פרופילי DNS מותאמים אישית. פותרים חינמיים אינם רושמים נתונים. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: שירות ה-DNS של Mullvad זמין הן למנויים והן ללא מנויים של Mullvad VPN. מדיניות הפרטיות שלהם טוענת במפורש שהם לא רושמים בקשות DNS בשום צורה. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
+[^4]: שירות ה-DNS של Mullvad זמין הן למנויים והן ללא מנויים של Mullvad VPN. מדיניות הפרטיות שלהם טוענת במפורש שהם לא רושמים בקשות DNS בשום צורה. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^5]: NextDNS can provide insights and logging features on an opt-out basis. אתה יכול לבחור זמני שמירה ומיקומי אחסון ביומן עבור כל יומן שתבחר לשמור. אם זה לא מתבקש במיוחד, לא נרשמים נתונים. [https://nextdns.io/privacy](https://nextdns.io/privacy)
-[^6]: Quad9 אוספת חלק מהנתונים למטרות ניטור ותגובה של איומים. לאחר מכן ניתן לערבב מחדש את הנתונים הללו ולשתף אותם, למשל לצורך מחקר אבטחה. Quad9 אינה אוספת או מתעדת כתובות IP או נתונים אחרים שלדעתם ניתנים לזיהוי אישי. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
+[^6]: Quad9 אוספת חלק מהנתונים למטרות ניטור ותגובה של איומים. לאחר מכן ניתן לערבב מחדש את הנתונים הללו ולשתף אותם, למשל לצורך מחקר אבטחה. Quad9 אינה אוספת או מתעדת כתובות IP או נתונים אחרים שלדעתם ניתנים לזיהוי אישי. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

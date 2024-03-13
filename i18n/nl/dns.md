@@ -11,14 +11,14 @@ Versleutelde DNS met servers van derden zou alleen moeten worden gebruikt om sim
 
 ## Aanbevolen Providers
 
-| DNS-provider                                                                    | Privacybeleid                                                                                         | Protocollen                                                                  | Loggen        | ECS       | Filteren                                                                                                                                                               |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | Beetje[^1]    | Yes       | Op basis van persoonlijke configuratie. De filterlijst die wordt gebruikt, is hier te vinden. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                                    | Beetje[^2]    | Nee       | Op basis van persoonlijke configuratie.                                                                                                                                |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | Optioneel[^3] | Nee       | Op basis van persoonlijke configuratie.                                                                                                                                |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                                           | Geen[^4]      | Nee       | Op basis van persoonlijke configuratie. De filterlijst die wordt gebruikt, is hier te vinden. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | Optioneel[^5] | Optioneel | Op basis van persoonlijke configuratie.                                                                                                                                |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt                  | Beetje[^6]    | Optioneel | Gebaseerd op persoonlijke configuratie, blokkeert Malware.                                                                                                             |
+| DNS-provider                                                               | Privacybeleid                                                                                        | Protocollen                                                                  | Loggen        | ECS       | Filteren                                                                                                                                                               |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)            | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | Beetje[^1]    | Yes       | Op basis van persoonlijke configuratie. De filterlijst die wordt gebruikt, is hier te vinden. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Cleartext <br> DoH/3 <br> DoT                                    | Beetje[^2]    | Nee       | Op basis van persoonlijke configuratie.                                                                                                                                |
+| [**Control D**](https://controld.com/free-dns)                             | [:octicons-link-external-24:](https://controld.com/privacy)                                          | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | Optioneel[^3] | Nee       | Op basis van persoonlijke configuratie.                                                                                                                                |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH <br> DoT                                                           | Geen[^4]      | Nee       | Op basis van persoonlijke configuratie. De filterlijst die wordt gebruikt, is hier te vinden. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://nextdns.io)                                          | [:octicons-link-external-24:](https://nextdns.io/privacy)                                            | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | Optioneel[^5] | Optioneel | Op basis van persoonlijke configuratie.                                                                                                                                |
+| [**Quad9**](https://quad9.net)                                             | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt                  | Beetje[^6]    | Optioneel | Gebaseerd op persoonlijke configuratie, blokkeert Malware.                                                                                                             |
 
 ### Criteria
 
@@ -50,7 +50,7 @@ Na installatie van een configuratieprofiel of een app die gebruik maakt van de D
 
 #### Ondertekende Profielen
 
-Apple biedt geen native interface voor het maken van versleutelde DNS-profielen. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is een onofficiële tool voor het maken van je eigen versleutelde DNS-profielen, echter worden deze niet ondertekend. Ondertekende profielen hebben de voorkeur; ondertekening valideert de oorsprong van een profiel en helpt de integriteit van de profielen te waarborgen. Een groen "Geverifieerd" label wordt gegeven aan ondertekende configuratieprofielen. Voor meer informatie over het ondertekenen van codes, zie [Over het ondertekenen van codes](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Ondertekende profielen** worden aangeboden door [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), en [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
+Apple biedt geen native interface voor het maken van versleutelde DNS-profielen. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is een onofficiële tool voor het maken van je eigen versleutelde DNS-profielen, echter worden deze niet ondertekend. Ondertekende profielen hebben de voorkeur; ondertekening valideert de oorsprong van een profiel en helpt de integriteit van de profielen te waarborgen. Een groen "Geverifieerd" label wordt gegeven aan ondertekende configuratieprofielen. Voor meer informatie over het ondertekenen van codes, zie [Over het ondertekenen van codes](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://quad9.net/news/blog/ios-mobile-provisioning-profiles).
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
@@ -74,7 +74,7 @@ Versleutelde DNS-proxy software biedt een lokale proxy voor de [onversleutelde D
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -125,7 +125,7 @@ Een zelf gehoste DNS-oplossing is handig voor het bieden van filtering op gecont
 
 ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
-**AdGuard Home** is een open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) die gebruik maakt van [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) om ongewenste webinhoud, zoals advertenties, te blokkeren.
+**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 AdGuard Home beschikt over een vriendelijke webinterface om inzicht te krijgen en geblokkeerde inhoud te beheren.
 
@@ -144,23 +144,23 @@ AdGuard Home beschikt over een vriendelijke webinterface om inzicht te krijgen e
 
 ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-**Pi-hole** is een open-source [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) die [DNS filtering](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) gebruikt om ongewenste webinhoud, zoals advertenties, te blokkeren.
+**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 Pi-hole is ontworpen om te worden gehost op een Raspberry Pi, maar het is niet beperkt tot dergelijke hardware. De software beschikt over een vriendelijke webinterface om inzicht te krijgen en geblokkeerde inhoud te beheren.
 
-[:octicons-home-16: Homepage](https://pi-hole.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Privacybeleid" }
-[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentatie}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Broncode" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Bijdrage leveren }
+[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
 [^1]: AdGuard slaat geaggregeerde prestatiecijfers van hun DNS-servers op, namelijk het aantal volledige verzoeken aan een bepaalde server, het aantal geblokkeerde verzoeken, en de snelheid waarmee verzoeken worden verwerkt. Zij houden ook de database bij van domeinen die in de laatste 24 uur zijn aangevraagd. "We hebben deze informatie nodig om nieuwe trackers en bedreigingen te identificeren en te blokkeren." "We houden ook bij hoe vaak bepaalde trackers geblokkeerd zijn. We hebben deze informatie nodig om verouderde regels uit onze filters te verwijderen." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
-[^2]: Cloudflare verzamelt en bewaart alleen de beperkte DNS-querygegevens die naar de 1.1.1.1 resolver worden gestuurd. De 1.1.1.1 resolver dienst logt geen persoonsgegevens, en het grootste deel van de beperkte niet-persoonlijk identificeerbare query-gegevens wordt slechts 25 uur bewaard. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
+[^2]: Cloudflare verzamelt en bewaart alleen de beperkte DNS-querygegevens die naar de 1.1.1.1 resolver worden gestuurd. De 1.1.1.1 resolver dienst logt geen persoonsgegevens, en het grootste deel van de beperkte niet-persoonlijk identificeerbare query-gegevens wordt slechts 25 uur bewaard. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D logt alleen voor Premium resolvers met aangepaste DNS-profielen. Gratis resolvers loggen geen gegevens. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: De DNS-service van Mullvad is beschikbaar voor zowel abonnees als niet-abonnees van Mullvad VPN. Hun privacybeleid beweert expliciet dat zij op geen enkele manier DNS-verzoeken loggen. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
+[^4]: De DNS-service van Mullvad is beschikbaar voor zowel abonnees als niet-abonnees van Mullvad VPN. Hun privacybeleid beweert expliciet dat zij op geen enkele manier DNS-verzoeken loggen. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^5]: NextDNS can provide insights and logging features on an opt-out basis. Je kan retentietijden en opslaglocaties kiezen voor de logs die je wilt bewaren. Als er niet specifiek om gevraagd wordt, worden er geen gegevens gelogd. [https://nextdns.io/privacy](https://nextdns.io/privacy)
-[^6]: Quad9 verzamelt sommige gegevens ten behoeve van de monitoring van en reactie op bedreigingen. Die gegevens kunnen vervolgens opnieuw worden gemengd en gedeeld, bijvoorbeeld ten behoeve van veiligheidsonderzoek. Quad9 verzamelt of registreert geen IP-adressen of andere gegevens die zij als persoonlijk identificeerbaar beschouwen. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
+[^6]: Quad9 verzamelt sommige gegevens ten behoeve van de monitoring van en reactie op bedreigingen. Die gegevens kunnen vervolgens opnieuw worden gemengd en gedeeld, bijvoorbeeld ten behoeve van veiligheidsonderzoek. Quad9 verzamelt of registreert geen IP-adressen of andere gegevens die zij als persoonlijk identificeerbaar beschouwen. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

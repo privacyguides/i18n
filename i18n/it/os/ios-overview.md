@@ -22,7 +22,7 @@ La sola fonte di app su iOS è l'App Store di Apple, che richiede un Apple ID pe
 
 ### Telemetria Invadente
 
-Apple ha storicamente avuto problemi con l'adeguata anonimizzazione della propria telemetria, su iOS. [Nel 2019](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), si è scoperto che Apple trasmette le registrazioni di Siri, alcune contenenti informazioni altamente confidenziali, ai propri server, per la revisione manuale da contraenti di terze parti. Sebbene tale programma sia stato temporaneamente interrotto dopo l'[ampia segnalazione](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana) di tale pratica, il problema non è stato completamente risolto [fino al 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+Apple ha storicamente avuto problemi con l'adeguata anonimizzazione della propria telemetria, su iOS. [In 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
 Di recente, si è scoperto che Apple [trasmette dati analitici anche quando la condivisione degli stessi è disattivata](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) su iOS, e questi dati [sembrano](https://twitter.com/mysk_co/status/1594515229915979776) essere facilmente collegabili agli identificativi univoci dell'account iCloud, nonostante siano presumibilmente anonimi.
 
@@ -54,7 +54,7 @@ In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto 
 
 #### Find My
 
-**Find My** è un servizio che ti consente di tracciare i tuoi dispositivi Apple e di condividere la tua posizione con i tuoi amici e la tua famiglia. Inoltre, ti consente di svuotare da remoto il tuo dispositivo, in caso di furto, impedendo ai ladri di accedere ai tuoi dati. I [dati sulla posizione](https://www.apple.com/legal/privacy/data/en/find-my/) di Find My sono E2EE, quando:
+**Find My** è un servizio che ti consente di tracciare i tuoi dispositivi Apple e di condividere la tua posizione con i tuoi amici e la tua famiglia. Inoltre, ti consente di svuotare da remoto il tuo dispositivo, in caso di furto, impedendo ai ladri di accedere ai tuoi dati. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
 
 - La tua posizione è condivisa con un membro della famiglia o amico, ed entrambi utilizzate iOS 15 o superiore.
 - Il tuo dispositivo è offline ed è individuato dalla Rete di Find My.
@@ -117,7 +117,7 @@ Se non desideri che qualcuno possa controllare il tuo telefono con Siri, quando 
 
 Impostare una password forte sul tuo telefono è il passo più importante che puoi intraprendere per la sicurezza fisica del dispositivo. In questo caso dovrai trovare un compromesso tra la sicurezza e la comodità: una password più lunga sarà noiosa da digitare ogni volta, ma una password o un PIN più breve sarà più facile da indovinare. Configurare Face ID o TouchID insieme a una password forte, può costituire un buon compromesso tra utilizzabilità e sicurezza.
 
-Seleziona **Attiva Passcode** o **Modifica Passcode** > **Opzioni Passcode** > **Codice Alfanumerico Personalizzato**. Assicurati di creare una [password sicura](https://www.privacyguides.org/basics/passwords-overview/).
+Seleziona **Attiva Passcode** o **Modifica Passcode** > **Opzioni Passcode** > **Codice Alfanumerico Personalizzato**. Make sure that you create a [secure password](../basics/passwords-overview.md).
 
 Se desideri utilizzare Face ID o Touch ID, puoi ora procedere alla configurazione. Il tuo telefono utilizzerà la password configurata in precedenza come ripiego, nel caso in cui la tua verifica biometrica dovesse fallire. I metodi biometrici di sblocco sono principalmente una comodità, sebbene impediscano alle telecamere di sicurezza o alle persone alle tue spalle di guardarti inserire il tuo codice d'accesso.
 
@@ -129,7 +129,7 @@ Su alcuni dispositivi precedenti, potresti dover premere cinque volte il tasto d
 
 - [x] Seleziona **Attiva la protezione**
 
-Dopo aver abilitato la protezione dei dati rubati, [alcune azioni](https://support.apple.com/en-us/HT212510) richiederanno l'autenticazione biometrica senza una password di riserva (nel caso in cui uno "shoulder surfer" abbia ottenuto il PIN), come ad esempio l'utilizzo del riempimento automatico della password, l'accesso alle informazioni di pagamento e la disattivazione della modalità smarrito. Aggiunge inoltre un ritardo di sicurezza ad alcune azioni eseguite fuori casa o in un altro "luogo familiare", come la richiesta di un timer di un'ora per reimpostare la password dell'ID Apple o per uscire dal proprio ID Apple. Questo ritardo ha lo scopo di dare all'utente il tempo di attivare la Modalità smarrito e di proteggere il proprio account prima che un ladro possa resettare il dispositivo.
+After enabling stolen data protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. Aggiunge inoltre un ritardo di sicurezza ad alcune azioni eseguite fuori casa o in un altro "luogo familiare", come la richiesta di un timer di un'ora per reimpostare la password dell'ID Apple o per uscire dal proprio ID Apple. Questo ritardo ha lo scopo di dare all'utente il tempo di attivare la Modalità smarrito e di proteggere il proprio account prima che un ladro possa resettare il dispositivo.
 
 **Consenti Accesso Da Bloccato** ti offre delle opzioni per consentire l'accesso quando il telefono è bloccato. Più di queste opzioni disabiliti, minori saranno le azioni disponibili a qualcuno senza la tua password, ma meno comodo sarà per te. Seleziona e scegli quali di queste non desideri siano accessibili a qualcuno, qualora dovesse impossessarsi del tuo telefono.
 
@@ -187,7 +187,7 @@ Disabilita gli **Annunci Personalizzati**, se non desideri ricevere annunci mira
 
 - [x] Seleziona **Attiva Rapporto sulla Privacy delle App**
 
-La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) è un'impostazione di sicurezza che puoi abilitare per rendere il tuo telefono più resistente agli attacchi. Sappi che certe app e funzionalità [non funzioneranno](https://support.apple.com/en-us/HT212650) come di norma.
+La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) è un'impostazione di sicurezza che puoi abilitare per rendere il tuo telefono più resistente agli attacchi. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
 
 - [x] Seleziona **Attiva Modalità Lockdown**
 

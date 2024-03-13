@@ -4,25 +4,25 @@ icon: 'material/account-remove'
 description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
 ---
 
-Zamanla birlikte, çoğunu artık kullanmayacağınız birçok çevrimiçi hesap biriktirebilirsiniz. Kullanılmayan hesablar veri ihlallerine karşı savunmasız olduğundan, bu hesapları silmek gizliliğinizi geri kazanmak için önemli bir adımdır. Veri ihlali, bir hizmetin güvenliğinin tehlikeye girmesi ve korunan bilgilerin yetkisi olmayan kişiler tarafından görüntülenmesi, aktarılması veya çalınmasıdır. Veri ihlalleri ne yazık ki bu günlerde [ çok yaygın](https://haveibeenpwned.com/PwnedWebsites), bu yüzden iyi bir dijital hijyen uygulamak, bu ihlallerin verileriniz üzerindeki etkilerini azaltmanın en iyi yoludur. Bu rehberin amacı, çevrimiçi varlığınızın daha iyi olması için [aldatıcı tasarım](https://www.deceptive.design/)ile genellikle zorlaştırılan hesap silme gibi can sıkıcı bir süreçte size yol göstermeye yardımcı olmaktır.
+Zamanla birlikte, çoğunu artık kullanmayacağınız birçok çevrimiçi hesap biriktirebilirsiniz. Kullanılmayan hesablar veri ihlallerine karşı savunmasız olduğundan, bu hesapları silmek gizliliğinizi geri kazanmak için önemli bir adımdır. Veri ihlali, bir hizmetin güvenliğinin tehlikeye girmesi ve korunan bilgilerin yetkisi olmayan kişiler tarafından görüntülenmesi, aktarılması veya çalınmasıdır. Veri ihlalleri ne yazık ki bu günlerde [ çok yaygın](https://haveibeenpwned.com/PwnedWebsites), bu yüzden iyi bir dijital hijyen uygulamak, bu ihlallerin verileriniz üzerindeki etkilerini azaltmanın en iyi yoludur. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## Eski Hesapları Bulma
 
 ### Parola Yöneticisi
 
-Eğer tüm dijital hayatınız boyunca kullandığınız bir parola t-yöneticisi varsa, bu kısım çok kolay olacaktır. Çoğu zaman, Bitwarden'ın [Veri İhlali Raporu](https://bitwarden.com/blog/have-you-been-pwned/) gibi, bilgilerinizin bir veri ihlalinde açığa çıkıp çıkmadığını kontrol edebileceğiniz bir özellik içerirler.
+Eğer tüm dijital hayatınız boyunca kullandığınız bir parola t-yöneticisi varsa, bu kısım çok kolay olacaktır. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
   ![Bitwarden'ın Veri İhlali Raporu özelliği](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Daha önce harici bir parola yöneticisi kullanmamış olsanız bile, farkında olmadan tarayıcınızda veya telefonunuzda bir parola yöneticisi kullanmış olabilirsiniz. Örneğin: [Firefox Parola Yöneticisi](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [ Google Parola Yöneticisi](https://passwords.google.com/intro) ve [Edge Parola Yöneticisi](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Daha önce harici bir parola yöneticisi kullanmamış olsanız bile, farkında olmadan tarayıcınızda veya telefonunuzda bir parola yöneticisi kullanmış olabilirsiniz. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
 Masaüstü platformlarında da unutmuş olabileceğiniz parolaları kurtarmanıza yardımcı olabilecek parola yöneticileri bulunur:
 
-- Windows [Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/en-us/HT211145)
-- iOS [Passwords](https://support.apple.com/en-us/HT211146)
+- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [Passwords](https://support.apple.com/HT211145)
+- iOS [Passwords](https://support.apple.com/HT211146)
 - Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### E-Posta
@@ -39,7 +39,7 @@ When attempting to regain access, if the site returns an error message saying th
 
 ### GDPR (EEA residents only)
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://www.gdpr.org/regulation/article-17.html) of the GDPR. If it's applicable to you, read the privacy policy for any given service to find information on how to exercise your right to erasure. Reading the privacy policy can prove important, as some services have a "Delete Account" option that only disables your account and for real deletion you have to take additional action. Sometimes actual deletion may involve filling out surveys, emailing the data protection officer of the service or even proving your residence in the EEA. If you plan to go this way, do **not** overwrite account information—your identity as an EEA resident may be required. Note that the location of the service does not matter; GDPR applies to anyone serving European users. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and you may be entitled to monetary compensation.
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. If it's applicable to you, read the privacy policy for any given service to find information on how to exercise your right to erasure. Reading the privacy policy can prove important, as some services have a "Delete Account" option that only disables your account and for real deletion you have to take additional action. Sometimes actual deletion may involve filling out surveys, emailing the data protection officer of the service or even proving your residence in the EEA. If you plan to go this way, do **not** overwrite account information—your identity as an EEA resident may be required. Note that the location of the service does not matter; GDPR applies to anyone serving European users. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and you may be entitled to monetary compensation.
 
 ### Overwriting Account information
 
@@ -59,4 +59,4 @@ Even when you are able to delete an account, there is no guarantee that all your
 
 ## Avoid New Accounts
 
-As the old saying goes, "an ounce of prevention is worth a pound of cure." Whenever you feel tempted to sign up for a new account, ask yourself, "Do I really need this? Can I accomplish what I need to without an account?" It can often be much harder to delete an account than to create one. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org/). Avoid the temptation when you're able to—your future self will thank you!
+As the old saying goes, "an ounce of prevention is worth a pound of cure." Whenever you feel tempted to sign up for a new account, ask yourself, "Do I really need this? Can I accomplish what I need to without an account?" It can often be much harder to delete an account than to create one. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). Avoid the temptation when you're able to—your future self will thank you!

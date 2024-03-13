@@ -17,7 +17,7 @@ title: بارگذاری تصویر
 
 ### PNG
 
-برای بهینه‌سازی تصویر PNG از [OptiPNG](https://sourceforge.net/projects/optipng/) استفاده کنید:
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
 
 ```bash
 optipng -o7 file.png

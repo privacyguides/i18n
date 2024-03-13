@@ -28,7 +28,7 @@ description: Обзор нескольких сетевых архитектур
 - Может включать [ограниченный контроль или доступ](https://drewdevault.com/2018/08/08/Signal.html). Это может включать в себя такие вещи, как:
 - [Запрет на подключение сторонних клиентов](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) к централизованной сети, которые могли бы обеспечить большую персонализацию или лучший опыт. Это часто написано в условиях использования.
 - Плохая документация для сторонних разработчиков или ее полное отсутствие.
-- [Руководство](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), политика конфиденциальности и операции сервиса могут легко измениться, если его контролирует одна организация, что впоследствии может поставить сервис под угрозу.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - Самостоятельный хостинг требует усилий и знаний о том, как настроить сервис.
 
 ## Федеративные сети
@@ -60,7 +60,7 @@ description: Обзор нескольких сетевых архитектур
 
 Мессенджеры P2P подключаются к [распределенной сети](https://en.wikipedia.org/wiki/Distributed_networking) узлов, чтобы передать сообщение получателю без стороннего сервера.
 
-Клиенты (peers) обычно находят друг друга с помощью сети [распределенных вычислений](https://en.wikipedia.org/wiki/Distributed_computing). Примером могут служить [распределенные хэш-таблицы](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), используемые, например, в [торрентах](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) и [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). Другой подход - сети, основанные на отдалении пользователей, где соединение устанавливается по WiFi или Bluetooth (например, Briar или протокол социальной сети [Scuttlebutt](https://www.scuttlebutt.nz)).
+Клиенты (peers) обычно находят друг друга с помощью сети [распределенных вычислений](https://en.wikipedia.org/wiki/Distributed_computing). Примером могут служить [распределенные хэш-таблицы](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), используемые, например, в [торрентах](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) и [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Если клиент нашел маршрут к своему контакту с помощью любого из этих методов, между ними устанавливается прямое соединение. Хотя сообщения обычно шифруются, наблюдатель все равно может определить местоположение и личность отправителя и получателя.
 

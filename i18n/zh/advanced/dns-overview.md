@@ -18,7 +18,7 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
 
 ### 未加密DNS
 
-1. 使用 [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) （ [Wireshark](https://en.wikipedia.org/wiki/Wireshark) 项目的一部分），我们可以监测和记录互联网数据包流。 此命令记录符合指定规则的数据包:
+1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. 此命令记录符合指定规则的数据包:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -39,7 +39,7 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. 接下来，我们来 [分析](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) 输出的结果：
+3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -74,7 +74,7 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
 
 ### DNS over TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) 是另一种加密DNS通信的方法，在 [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)中被定义。 首次得到支持是在安卓9、iOS 14和Linux上，被版本号237的 [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) 实现。 近年来，业界的偏好已经从DoT转向DoH，因为DoT是一个 [复杂的协议](https://dnscrypt.info/faq/) ，并且在现有的实现中对RFC的遵守情况各不相同。 DoT也在一个专用的853端口上运行，该端口很容易被限制性的防火墙阻断。
+[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) 是另一种加密DNS通信的方法，在 [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)中被定义。 Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. DoT也在一个专用的853端口上运行，该端口很容易被限制性的防火墙阻断。
 
 ### DNS over HTTPS (DoH)
 
@@ -106,7 +106,7 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-我们可以看到任何加密连接都需要发生的 [连接建立](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) 和 [TLS握手](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) 过程。 当查看下面的“应用程序数据”数据包时，没有一个数据包包含我们请求的域或返回的IP地址。
+We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. 当查看下面的“应用程序数据”数据包时，没有一个数据包包含我们请求的域或返回的IP地址。
 
 ## 为什么我**不应该** 使用加密的DNS？
 
@@ -158,13 +158,9 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-这意味着即使我们使用 "加密DNS "服务器，域名也可能通过SNI被披露。 [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) 协议带来了 [Client Hello](https://blog.cloudflare.com/encrypted-client-hello/)，可以防止这种泄漏。
+这意味着即使我们使用 "加密DNS "服务器，域名也可能通过SNI被披露。 The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
 
-</a> 各国政府，特别是 [中国](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) 和 [俄罗斯](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)，已经开始阻止
-
-，或表示希望这样做。 [最近，俄罗斯开始封锁使用 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) 标准的外国网站](https://github.com/net4people/bbs/issues/108)。 这是因为作为HTTP/3一部分的 [QUIC](https://en.wikipedia.org/wiki/QUIC) 协议要求 `ClientHello` 也被加密。</p> 
-
-
+Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. [最近，俄罗斯开始封锁使用 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) 标准的外国网站](https://github.com/net4people/bbs/issues/108)。 这是因为作为HTTP/3一部分的 [QUIC](https://en.wikipedia.org/wiki/QUIC) 协议要求 `ClientHello` 也被加密。
 
 ### 在线证书状态协议（OCSP）
 
@@ -174,66 +170,46 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
 
 我们可以使用 [`openssl`](https://en.wikipedia.org/wiki/OpenSSL) 命令来模拟浏览器会做什么。
 
-1. 获取服务器证书，并使用 [`sed`](https://en.wikipedia.org/wiki/Sed) ，只保留重要部分，并将其写入文件。 
-   
-   
+1. 获取服务器证书，并使用 [`sed`](https://en.wikipedia.org/wiki/Sed) ，只保留重要部分，并将其写入文件。
 
     ```bash
     openssl s_client -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
     ```
 
-
-2. 获得中间证书。 [证书颁发机构（CA）](https://en.wikipedia.org/wiki/Certificate_authority) ，通常不直接签署证书；他们使用所谓的 "中间 "证书。 
-   
-   
+2. 获得中间证书。 [证书颁发机构（CA）](https://en.wikipedia.org/wiki/Certificate_authority) ，通常不直接签署证书；他们使用所谓的 "中间 "证书。
 
     ```bash
     openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
     ```
 
-
-3. `pg_and_intermediate.cert` 中的第一个证书实际上是步骤1中的服务器证书。 我们可以再次使用 `sed` ，删除直到END的第一个实例。 
-   
-   
+3. `pg_and_intermediate.cert` 中的第一个证书实际上是步骤1中的服务器证书。 我们可以再次使用 `sed` ，删除直到END的第一个实例。
 
     ```bash
     sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
         /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
     ```
 
-
-4. 获取服务器证书的OCSP应答器。 
-   
-   
+4. 获取服务器证书的OCSP应答器。
 
     ```bash
     openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
     ```
 
-
-我们的证书显示的是Lets Encrypt证书响应者。 如果我们想查看证书的所有详细信息，我们可以使用： 
-
-
+    我们的证书显示的是Lets Encrypt证书响应者。 如果我们想查看证书的所有详细信息，我们可以使用：
 
     ```bash
     openssl x509 -text -noout -in /tmp/pg_server.cert
     ```
 
-
-5. 开始捕获数据包。 
-   
-   
+5. 开始捕获数据包。
 
     ```bash
     tshark -w /tmp/pg_ocsp.pcap -f "tcp port http"
     ```
 
-
-6. 提出OCSP请求。 
-   
-   
+6. 提出OCSP请求。
 
     ```bash
     openssl ocsp -issuer /tmp/intermediate_chain.cert \
@@ -242,19 +218,13 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
                  -url http://r3.o.lencr.org
     ```
 
-
-7. 打开捕获。 
-   
-   
+7. 打开捕获。
 
     ```bash
     wireshark -r /tmp/pg_ocsp.pcap
     ```
 
-
-在 "OCSP "协议中会有两个数据包：一个 "请求 "和一个 "响应"。 对于 "请求"，我们可以通过展开每个字段旁边的三角形 &#9656; ，看到 "序列号"。 
-
-
+    在 "OCSP "协议中会有两个数据包：一个 "请求 "和一个 "响应"。 对于 "请求"，我们可以通过展开每个字段旁边的三角形 &#9656; ，看到 "序列号"。
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -265,10 +235,7 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
               serialNumber
     ```
 
-
-对于 "回应"，我们也可以看到 "序列号"。 
-
-
+    对于 "回应"，我们也可以看到 "序列号"。
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -281,25 +248,17 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
                   serialNumber
     ```
 
-
-8. 或者使用 `tshark` 来过滤序列号的数据包。 
-   
-   
+8. 或者使用 `tshark` 来过滤序列号的数据包。
 
     ```bash
     tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
     ```
 
-
 如果网络观察者拥有公开的公共证书，他们可以将序列号与该证书相匹配，从而从中确定你所访问的网站。 这个过程可以自动化，并能将IP地址与序列号联系起来。 也可以检查 [证书透明度](https://en.wikipedia.org/wiki/Certificate_Transparency) 日志中的序列号。
-
-
 
 ## 我应该使用加密的DNS吗？
 
 我们做了这个流程图来描述你什么时候 *应该* 使用加密的DNS。
-
-
 
 ``` mermaid
 图TB
@@ -316,12 +275,9 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
     ispDNS --> | 否 | nothing(什么都不做)
 ```
 
-
 第三方的加密DNS应该只用于绕过重定向和基本的 [DNS拦截](https://en.wikipedia.org/wiki/DNS_blocking) ，当你能确定不会有任何后果，或者你对一个能做一些基本过滤的供应商感兴趣时。
 
 [推荐的DNS服务器列表](../dns.md ""){.md-button}
-
-
 
 ## 什么是DNSSEC？
 
@@ -333,9 +289,7 @@ DNSSEC的签署过程类似于某人用笔签署一份法律文件；该人用�
 
 DNSSEC在DNS的所有层面上实现了分层的数字签名政策。 例如，在 `privacyguides.org` 查询的情况下，根 DNS 服务器将签署 `.org` 名称服务器的密钥，然后 `.org` 名称服务器将签署 `privacyguides.org`的权威名称服务器的密钥。
 
-<small>改编自Google的[DNS安全扩展(DNSSEC)概述](https://cloud.google.com/dns/docs/dnssec)和Cloudflare的[DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction/)，两者均以[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)授权。</small> 
-
-
+<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
 
 ## 什么是QNAME最小化？
 
@@ -347,7 +301,6 @@ DNSSEC在DNS的所有层面上实现了分层的数字签名政策。 例如，�
 | .net 的服务器           | discuss.privacyguides.net 的 IP 地址是什么？ | 我不知道，问 Privacy Guides 的服务器... |
 | Privacy Guides 的服务器 | discuss.privacyguides.net 的 IP 地址是什么？ | 5.161.195.190!                |
 
-
 有了 “QNAME 最小化” 技术，DNS 解析器现在只请求能够找到链中的下一个服务器的信息。 在这个例子中，根服务器只要求提供足够的信息，以便能够找到 .net TLD 的名称服务器，以此类推，而不会知道您要访问的完整域名：
 
 | 服务器                 | 询问                                    | 响应                       |
@@ -357,10 +310,7 @@ DNSSEC在DNS的所有层面上实现了分层的数字签名政策。 例如，�
 | Privacy Guides 的服务器 | discuss.privacyguides.net 的名称服务器是什么？  | 就是此服务器！                  |
 | Privacy Guides 的服务器 | discuss.privacyguides.net 的 IP 地址是什么？ | 5.161.195.190            |
 
-
 虽然这个过程的效率会稍低一些，但在这个例子中，中央根域名服务器和顶级域名的域名服务器都不会收到您的 *完整* 查询的信息，从而减少了有关您的浏览习惯的信息传输量。 进一步的技术描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)中定义。
-
-
 
 ## 什么是EDNS客户子网（ECS）？
 

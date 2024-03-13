@@ -13,21 +13,21 @@ cover: multi-factor-authentication.webp
 
 ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
 
-**YubiKeys** הם בין מפתחות האבטחה הפופולריים ביותר. לחלק מדגמי YubiKey יש מגוון רחב של תכונות כגון: [גורם שני אוניברסלי (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 ו-WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [אימות זהות אישית (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/),[TOTP ו HOTP](https://developers.yubico.com/OATH).
+**YubiKeys** הם בין מפתחות האבטחה הפופולריים ביותר. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
 
-אחד היתרונות של YubiKey הוא שמפתח אחד יכול לעשות כמעט הכל (YubiKey 5), שאפשר לצפות ממפתח אבטחת חומרה. אנו ממליצים לך לקחת את [חידון](https://www.yubico.com/quiz/) לפני הרכישה כדי לוודא שאתה עושה את הבחירה הנכונה.
+אחד היתרונות של YubiKey הוא שמפתח אחד יכול לעשות כמעט הכל (YubiKey 5), שאפשר לצפות ממפתח אבטחת חומרה. We do encourage you to take the [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
 
-[:octicons-home-16: דף הבית](https://www.yubico.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://docs.yubico.com/){ .card-link title=תיעוד}
+[:octicons-home-16: Homepage](https://yubico.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
 
 </details>
 
 </div>
 
-[טבלת ההשוואה](https://www.yubico.com/store/compare/) מציגה את התכונות ואת אופן ההשוואה של YubiKeys. אנו ממליצים בחום לבחור במפתחות מסדרת YubiKey 5.
+The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare. אנו ממליצים בחום לבחור במפתחות מסדרת YubiKey 5.
 
-ניתן לתכנת את [YubiKey מנהל](https://www.yubico.com/support/download/yubikey-manager/) או [YubiKey כלי התאמה אישית](https://www.yubico.com/support/download/yubikey-personalization-tools/). לניהול קודי TOTP, תוכל להשתמש ב - [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). כל הלקוחות של Yubico הם קוד פתוח.
+YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). כל הלקוחות של Yubico הם קוד פתוח.
 
 עבור דגמים התומכים ב - HOTP וב - TOTP, ישנם 2 חריצים בממשק ה - OTP שניתן להשתמש בהם עבור HOTP ו -32 חריצים לאחסון סודות TOTP. סודות אלה מאוחסנים מוצפנים על המפתח ואף פעם לא לחשוף אותם למכשירים הם מחוברים. ברגע שזרע (סוד משותף) ניתן למאמת Yubico, הוא ייתן רק את הקודים בני שש הספרות, אך לעולם לא את הזרע. מודל אבטחה זה עוזר להגביל את מה שתוקף יכול לעשות אם הוא מסכן את אחד המכשירים המריצים את המאמת של Yubico והופך את ה - YubiKey לעמיד בפני תוקף פיזי.
 
@@ -46,17 +46,17 @@ The firmware of YubiKey is not open source and is not updatable. אם אתה ר�
 
 **ל - Nitrokey** יש מפתח אבטחה המסוגל ל- [FIDO2 ו- WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) בשם **Nitrokey FIDO2**. לתמיכה ב-PGP, עליך לרכוש אחד מהמפתחות האחרים שלהם כגון **Nitrokey Start**, **Nitrokey Pro 2** או **Nitrokey Storage 2**.
 
-[:octicons-home-16: דף הבית](https://www.nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=תיעוד}
+[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentation}
 
 </details>
 
 </div>
 
-[טבלת ההשוואה](https://www.nitrokey.com/#comparison) מציגה את התכונות ואת ההשוואה בין דגמי Nitrokey. ל**Nitrokey 3** המופיע ברשימה תהיה ערכת תכונות משולבת.
+The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. ל**Nitrokey 3** המופיע ברשימה תהיה ערכת תכונות משולבת.
 
-ניתן להגדיר דגמי Nitrokey באמצעות [Nitrokey app](https://www.nitrokey.com/download).
+Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
 
 עבור הדגמים התומכים ב - HOTP וב - TOTP, ישנם 3 חריצים עבור HOTP ו -15 עבור TOTP. Nitrokeys מסוימים יכולים לשמש כמנהל סיסמאות. הם יכולים לאחסן 16 אישורים שונים ולהצפין אותם באמצעות אותה סיסמה כמו ממשק OpenPGP.
 
@@ -74,7 +74,7 @@ The firmware of YubiKey is not open source and is not updatable. אם אתה ר�
 
 </div>
 
-ה-Nitrokey Pro 2, Nitrokey Storage 2 וה-Nitrokey 3 הקרובים תומכים באימות שלמות המערכת עבור מחשבים ניידים עם קושחת [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/).
+The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://coreboot.org) + [Heads](https://osresearch.net) firmware.
 
 הקושחה של Nitrokey היא קוד פתוח, שלא כמו YubiKey. הקושחה בדגמי NitroKey המודרניים (למעט ה**NitroKey Pro 2**) ניתנת לעדכון.
 
@@ -127,7 +127,7 @@ The firmware of YubiKey is not open source and is not updatable. אם אתה ר�
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
 - [:octicons-globe-16: Web](https://auth.ente.io)
 
@@ -147,7 +147,7 @@ The firmware of YubiKey is not open source and is not updatable. אם אתה ר�
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

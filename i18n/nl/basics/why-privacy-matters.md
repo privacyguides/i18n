@@ -54,6 +54,6 @@ Privacy is iets wat we standaard in [software en diensten](../tools.md) moeten i
 
 ## Bronnen
 
-- [Waarom privacy belangrijk is](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021) door Neil Richards
-- [The New Oil: Waarom privacy & veiligheid belangrijk is](https://thenewoil.org/en/guides/prologue/why/)
+- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
+- [The New Oil: Waarom privacy & veiligheid belangrijk is](https://thenewoil.org/en/guides/prologue/why)
 - [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)

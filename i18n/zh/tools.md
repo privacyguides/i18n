@@ -9,7 +9,7 @@ description: Privacy Guides is the most transparent and reliable website for fin
 
 如果你正在寻找某项具体解决方案，这里是一些我们推荐的各种类别的软硬件工具。 我们推荐的隐私工具主要依据它们的安全功能来选择，另外还强调了去中心化和开源。 They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 关于每个项目的更多相关细节, 为什么选择它们以及我们提议的一些额外的使用提示或技巧，请点击每个部分的 "了解详情" 链接, 或者也可以点击推荐项本身来转到具体的页面部分。
 
@@ -89,7 +89,7 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 #### 加密DNS代理
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
 [了解更多 :hero-arrow-circle-right-fill:](dns.md)
 

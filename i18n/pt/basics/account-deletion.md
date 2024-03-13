@@ -4,25 +4,25 @@ icon: 'material/account-remove'
 description: É fácil acumular um grande número de contas na Internet. Eis algumas dicas sobre como reduzir a sua coleção.
 ---
 
-Com o passar do tempo, pode ser fácil acumular uma série de contas em linha, muitas das quais podem já não ser utilizadas. A eliminação destas contas não utilizadas é um passo importante para recuperar a sua privacidade, uma vez que as contas inativas são vulneráveis a violações de dados. Uma violação de dados ocorre quando a segurança de um serviço é comprometida e as informações protegidas são visualizadas, transmitidas ou roubadas por pessoas não autorizadas. Infelizmente, as violações de dados são [demasiado comuns](https://haveibeenpwned.com/PwnedWebsites) atualmente, pelo que praticar uma boa higiene digital é a melhor forma de minimizar o impacto tido na sua vida. O objetivo deste guia é ajudá-lo a navegar pelo processo incómodo de eliminação de contas, muitas vezes dificultado pelo [design enganador](https://www.deceptive.design/), para melhorar a sua presença online.
+Com o passar do tempo, pode ser fácil acumular uma série de contas em linha, muitas das quais podem já não ser utilizadas. A eliminação destas contas não utilizadas é um passo importante para recuperar a sua privacidade, uma vez que as contas inativas são vulneráveis a violações de dados. Uma violação de dados ocorre quando a segurança de um serviço é comprometida e as informações protegidas são visualizadas, transmitidas ou roubadas por pessoas não autorizadas. Infelizmente, as violações de dados são [demasiado comuns](https://haveibeenpwned.com/PwnedWebsites) atualmente, pelo que praticar uma boa higiene digital é a melhor forma de minimizar o impacto tido na sua vida. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## Encontrar Contas Antigas
 
 ### Gestor de Palavras-Passe
 
-Se tiver um gestor de palavras-passe que tenha utilizado durante toda a sua vida digital, esta parte será muito fácil. Muitas vezes, incluem funcionalidades incorporadas para detetar se as suas credenciais foram expostas numa violação de dados — como o Relatório de violação de dados [da Bitwarden](https://bitwarden.com/blog/have-you-been-pwned/).
+Se tiver um gestor de palavras-passe que tenha utilizado durante toda a sua vida digital, esta parte será muito fácil. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
   ![Funcionalidade do Relatório de Violação de Dados da Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Mesmo que nunca tenha utilizado explicitamente um gestor de palavras-passe, é provável que já o tenha feito no seu navegador ou no seu telemóvel sem se aperceber. Por exemplo: [Gestor de Palavras-Passe da Google](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Gestor de Palavras-Passe da Google](https://passwords.google.com/intro) e [Gestor de Palavras-Passe da Google](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Mesmo que nunca tenha utilizado explicitamente um gestor de palavras-passe, é provável que já o tenha feito no seu navegador ou no seu telemóvel sem se aperceber. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
 As plataformas de ambiente de trabalho também têm frequentemente um gestor de palavras-passe que pode ajudá-lo a recuperar palavras-passe esquecidas:
 
-- [Gestor de Credenciais](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0) Windows
-- [Palavras-passe](https://support.apple.com/en-us/HT211145) macOS
-- [Palavras-passe](https://support.apple.com/en-us/HT211146) iOS
+- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [Passwords](https://support.apple.com/HT211145)
+- iOS [Passwords](https://support.apple.com/HT211146)
 - Linux, Gnome Keyring, que pode ser acedido através de [Seahorse](https://wiki.gnome.org/Apps/Seahorse) ou [KDE Wallet Manager](https://userbase.kde.org /KDE_Wallet_Manager)
 
 ### Correio eletrónico
@@ -39,7 +39,7 @@ Ao tentar recuperar o acesso, se o sítio web devolver uma mensagem de erro a in
 
 ### RGPD (somente residentes no EEE)
 
-Os residentes do EEE têm direitos adicionais relativamente à eliminação de dados especificados em [Artigo 17](https://www.gdpr.org/regulation/article-17.html) do RGPD. Se for aplicável ao seu caso, leia a política de privacidade de um determinado serviço para obter informações sobre como exercer o seu direito ao apagamento. A leitura da política de privacidade pode revelar-se importante, uma vez que alguns serviços têm uma opção "Eliminar conta" que apenas desativa a sua conta e, para uma verdadeira eliminação, tem de tomar medidas adicionais. Por vezes, a eliminação efetiva pode implicar o preenchimento de inquéritos, o envio de uma mensagem de correio eletrónico ao responsável pela proteção de dados do serviço ou mesmo a prova da sua residência no EEE. Se pretender seguir este caminho, **não** substitua as informações da conta — a sua identidade como residente no EEE pode ser exigida. Note-se que a localização do serviço não é importante; o RGPD aplica-se a todos os que servem utilizadores europeus. Se o serviço não respeitar o seu direito ao apagamento, pode contactar a sua [Autoridade de Proteção de Dados](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) nacional, e poderá ter direito a uma compensação monetária.
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. Se for aplicável ao seu caso, leia a política de privacidade de um determinado serviço para obter informações sobre como exercer o seu direito ao apagamento. A leitura da política de privacidade pode revelar-se importante, uma vez que alguns serviços têm uma opção "Eliminar conta" que apenas desativa a sua conta e, para uma verdadeira eliminação, tem de tomar medidas adicionais. Por vezes, a eliminação efetiva pode implicar o preenchimento de inquéritos, o envio de uma mensagem de correio eletrónico ao responsável pela proteção de dados do serviço ou mesmo a prova da sua residência no EEE. Se pretender seguir este caminho, **não** substitua as informações da conta — a sua identidade como residente no EEE pode ser exigida. Note-se que a localização do serviço não é importante; o RGPD aplica-se a todos os que servem utilizadores europeus. Se o serviço não respeitar o seu direito ao apagamento, pode contactar a sua [Autoridade de Proteção de Dados](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) nacional, e poderá ter direito a uma compensação monetária.
 
 ### Subscrever Informações da Conta
 
@@ -59,4 +59,4 @@ Mesmo quando é possível eliminar uma conta, não há garantia de que todas as 
 
 ## Evitar Contas Novas
 
-Como diz o velho ditado, "mais vale um grama de prevenção do que um quilo de cura." Sempre que se sentir tentado a inscrever-se numa nova conta, pergunte a si próprio: "Preciso mesmo disto? Posso fazer o que preciso sem uma conta?" Muitas vezes, pode ser muito mais difícil apagar uma conta do que criar uma. E mesmo após apagar ou alterar as informações da sua conta, poderá existir uma versão em memória transitória de terceiros, como o [Internet Archive](https://archive.org/). Evite a tentação quando puder — o seu futuro o agradecer-lhe-á!
+Como diz o velho ditado, "mais vale um grama de prevenção do que um quilo de cura." Sempre que se sentir tentado a inscrever-se numa nova conta, pergunte a si próprio: "Preciso mesmo disto? Posso fazer o que preciso sem uma conta?" Muitas vezes, pode ser muito mais difícil apagar uma conta do que criar uma. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). Evite a tentação quando puder — o seu futuro o agradecer-lhe-á!

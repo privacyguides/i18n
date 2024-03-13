@@ -65,7 +65,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
-    url: https://keepassxc.org/
+    url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: Менеджер паролей
     operatingSystem:
@@ -81,7 +81,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
-    url: https://www.keepassdx.com/
+    url: https://keepassdx.com
     applicationCategory: Менеджер паролей
     operatingSystem: Android
     subjectOf:
@@ -93,7 +93,7 @@ schema:
     "@type": SoftwareApplication
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com/
+    url: https://strongboxsafe.com
     applicationCategory: Менеджер паролей
     operatingSystem: iOS
     subjectOf:
@@ -105,7 +105,7 @@ schema:
     "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg
-    url: https://www.gopass.pw/
+    url: https://gopass.pw
     applicationCategory: Менеджер паролей
     operatingSystem:
       - Windows
@@ -127,7 +127,7 @@ schema:
 
 Встроенные менеджеры паролей, например в браузерах и операционных системах, иногда не так хороши, как специализированные программы для управления паролями. Преимуществом встроенных менеджеров паролей является хорошая интеграция с программным обеспечением, но зачастую они могут быть очень простыми и не иметь функций конфиденциальности и безопасности, которыми обладают отдельные программы.
 
-Например, менеджер паролей в Microsoft Edge вообще не поддерживает E2EE. Менеджер паролей Google имеет [опциональную](https://support.google.com/accounts/answer/11350823?hl=ru) поддержку E2EE, а менеджер паролей от Apple [предлагает](https://support.apple.com/ru-ru/HT202303) E2EE по умолчанию.
+Например, менеджер паролей в Microsoft Edge вообще не поддерживает E2EE. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
 
 </div>
 
@@ -145,14 +145,14 @@ schema:
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-- [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
 - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
 - [:simple-windows11: Windows](https://bitwarden.com/download)
 - [:simple-linux: Linux](https://bitwarden.com/download)
@@ -165,7 +165,7 @@ schema:
 
 </div>
 
-Bitwarden также имеет функцию [Bitwarden Send](https://bitwarden.com/products/send/), которая позволяет безопасно обмениваться текстом и файлами с использованием [сквозного шифрования](https://bitwarden.com/help/send-encryption). Отправленные через Bitwarden Send данные можно защитить [паролем](https://bitwarden.com/help/send-privacy/#send-passwords). Bitwarden Send также имеет функцию [автоматического удаления данных](https://bitwarden.com/help/send-lifespan).
+Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). Отправленные через Bitwarden Send данные можно защитить [паролем](https://bitwarden.com/help/send-privacy/#send-passwords). Bitwarden Send также имеет функцию [автоматического удаления данных](https://bitwarden.com/help/send-lifespan).
 
 Чтобы иметь возможность обмениваться файлами, вам необходима [Премиум-подписка](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans). Бесплатный план позволяет обмениваться только текстом.
 
@@ -183,20 +183,20 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 ![Логотип 1Password](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** — это менеджер паролей с акцентом на безопасность и простоту использования, который позволяет хранить пароли, кредитные карты, лицензии на программное обеспечение и любую другую конфиденциальную информацию в надежном цифровом хранилище. Ваши данные хранятся на серверах 1Password за [ежемесячную плату](https://1password.com/ru/sign-up/). 1Password регулярно проходит [независимые проверки на безопасность](https://support.1password.com/security-assessments/) и обеспечивает прекрасную поддержку клиентов. 1Password имеет закрытый исходный код, но безопасность продукта подробно описана в их [технической документации по безопасности](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+**1Password** — это менеджер паролей с акцентом на безопасность и простоту использования, который позволяет хранить пароли, кредитные карты, лицензии на программное обеспечение и любую другую конфиденциальную информацию в надежном цифровом хранилище. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password имеет закрытый исходный код, но безопасность продукта подробно описана в их [технической документации по безопасности](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
-[:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
-- [:simple-windows11: Windows](https://1password.com/downloads/windows/)
-- [:simple-apple: macOS](https://1password.com/downloads/mac/)
-- [:simple-linux: Linux](https://1password.com/downloads/linux/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
+- [:simple-windows11: Windows](https://1password.com/downloads/windows)
+- [:simple-apple: macOS](https://1password.com/downloads/mac)
+- [:simple-linux: Linux](https://1password.com/downloads/linux)
 
 </details>
 
@@ -225,7 +225,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
@@ -276,9 +276,9 @@ Psono предоставляет подробную документацию п�
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -304,10 +304,10 @@ KeePassXC хранит экспортированные данные в виде
 
 **KeePassDX** - это легкий менеджер паролей для Android, который позволяет редактировать зашифрованные данные в одном файле в формате KeePass и безопасно заполнять формы. Покупка [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) позволяет разблокировать косметический контент и нестандартные функции протокола, но, что еще важнее, поддерживает развитие проекта.
 
-[:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -325,24 +325,24 @@ KeePassXC хранит экспортированные данные в виде
 
 ![Логотип Strongbox](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** - это нативный менеджер паролей с открытым исходным кодом для iOS и macOS. Он поддерживает форматы KeePass и Password Safe, поэтому может быть использован совместно с другими менеджерами паролей, например KeePassXC, на устройствах не от Apple. Strongbox использует модель [freemium](https://strongboxsafe.com/pricing/), поэтому предлагает большинство функций бесплатно, но дополнительные [функции](https://strongboxsafe.com/comparison/) для удобства, например биометрическая аутентификация, доступны по подписке или единоразовой покупке.
+**Strongbox** - это нативный менеджер паролей с открытым исходным кодом для iOS и macOS. Он поддерживает форматы KeePass и Password Safe, поэтому может быть использован совместно с другими менеджерами паролей, например KeePassXC, на устройствах не от Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
 
 </details>
 
 </div>
 
-Кроме того, предлагается и полностью оффлайн версия: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). Эта версия урезана, чтобы уменьшить площадь атаки.
+Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Эта версия урезана, чтобы уменьшить площадь атаки.
 
 ### Для командной строки
 
@@ -356,7 +356,7 @@ KeePassXC хранит экспортированные данные в виде
 
 **gopass** - это менеджер паролей для командной строки, написанный на языке Go. Он работает на всех основных операционных системах для ПК и серверов (Linux, macOS, BSD, Windows).
 
-[:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
@@ -364,10 +364,10 @@ KeePassXC хранит экспортированные данные в виде
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
-- [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
-- [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
-- [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+- [:simple-windows11: Windows](https://gopass.pw/#install-windows)
+- [:simple-apple: macOS](https://gopass.pw/#install-macos)
+- [:simple-linux: Linux](https://gopass.pw/#install-linux)
+- [:simple-freebsd: FreeBSD](https://gopass.pw/#install-bsd)
 
 </details>
 

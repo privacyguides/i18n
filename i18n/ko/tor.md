@@ -10,7 +10,7 @@ schema:
     "@type": SoftwareApplication
     name: Tor 브라우저
     image: /assets/img/browsers/tor.svg
-    url: https://www.torproject.org
+    url: https://torproject.org
     sameAs: https://ko.wikipedia.org/wiki/%ED%86%A0%EB%A5%B4_(%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
     applicationCategory: 웹 브라우저
     operatingSystem:
@@ -27,11 +27,11 @@ schema:
 
 **Tor** 네트워크는 자원 봉사 형태로 운영되는 서버 그룹으로, 무료로 연결하여 인터넷에서 프라이버시와 보안을 향상시킬 수 있습니다. 개인 및 단체는 'Onion hidden 서비스'를 통해, 프라이버시를 침해받는 일 없이 Tor 네트워크에서 정보를 공유할 수 있습니다. Tor 트래픽은 차단 및 추적이 어렵기 때문에 검열 우회에 효과적입니다.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title=홈페이지 }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion 서비스" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title="관련 문서"}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="소스 코드" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=기여하기 }
+[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 Tor는 방문하려는 사이트에 직접 연결하는 방식이 아닌, 자원 봉사자가 운영하는 서버를 통해 인터넷 트래픽을 전송합니다. 이러한 방식을 통해 트래픽의 출처를 알 수 없게 만들고, 연결 경로상의 서버 또한 트래픽의 전체 경로는 볼 수 없으므로, 연결에 사용한 서버조차도 여러분의 익명성을 깨트릴 수 없습니다.
 
@@ -60,20 +60,20 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 **Tor 브라우저**는 익명성이 필요한 경우 선택해야 할 브라우저입니다. 이 브라우저는 Tor 네트워크와 브릿지에 접근할 수 있도록 해주며, 기본 보안 수준인 Standard, Safer, Safest에 따라 자동으로 구성되는 기본 설정과 확장 기능을 탑재하고 있습니다.
 
-[:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-- [:simple-android: Android](https://www.torproject.org/download/#android)
-- [:simple-windows11: Windows](https://www.torproject.org/download/)
-- [:simple-apple: macOS](https://www.torproject.org/download/)
-- [:simple-linux: Linux](https://www.torproject.org/download/)
+- [:simple-android: Android](https://torproject.org/download/#android)
+- [:simple-windows11: Windows](https://torproject.org/download)
+- [:simple-apple: macOS](https://torproject.org/download)
+- [:simple-linux: Linux](https://torproject.org/download)
 
 </details>
 
@@ -86,7 +86,7 @@ Tor 브라우저에서는 **절대로** 추가 확장 프로그램을 설치하�
 
 </div>
 
-Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식별을 방지하도록 설계되었습니다. 따라서, 브라우저를 기본 [보안 수준](https://tb-manual.torproject.org/security-settings/)을 벗어나는 수정을 해서는 **안 됩니다**.
+Tor 브라우저는 핑거프린팅 및 브라우저 설정 기반 사용자 식별을 방지하도록 설계되었습니다. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings).
 
 Tor Browser를 컴퓨터에 설치해서 연결하는 방법도 있지만, [Qubes OS](desktop.md#qubes-os)의 [Whonix](desktop.md#whonix)처럼 Tor 네트워크에 연결하기 위한 용도로 만들어진 운영 체제도 있습니다. 이러한 연결 방식은 Tor Browser를 사용하는 것보다 더 강력한 보안을 제공합니다.
 
@@ -98,7 +98,7 @@ Tor Browser를 컴퓨터에 설치해서 연결하는 방법도 있지만, [Qube
 
 **Orbot**는 기기의 어떤 앱이든 해당 앱의 트래픽을 Tor 네트워크를 통해 라우팅하는 스마트폰용 무료 Tor VPN입니다.
 
-[:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
 [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
@@ -108,7 +108,7 @@ Tor Browser를 컴퓨터에 설치해서 연결하는 방법도 있지만, [Qube
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
 - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
 </details>
@@ -134,7 +134,7 @@ Guardian Project [F-Droid 저장소](https://guardianproject.info/fdroid), [Goog
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser/).
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -164,10 +164,10 @@ Guardian Project [F-Droid 저장소](https://guardianproject.info/fdroid), [Goog
 
 검열을 받고 있는 사람들은 Snowflake 프록시를 사용해 Tor 네트워크에 접속할 수 있습니다. Snowflake는 Tor 릴레이나 브리지를 운영할 기술적 노하우가 없더라도 네트워크에 기여할 수 있는 좋은 방법입니다.
 
-[:octicons-home-16: Homepage](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 </details>
 
@@ -181,4 +181,4 @@ Snowflake는 어떤 방식으로도 여러분의 프라이버시를 침해하지
 
 Snowflake 프록시 구동의 위험성은 매우 낮습니다. Tor 릴레이/브리지 구동(이 또한 특별히 위험하지 않습니다)보다도 훨씬 위험성이 낮습니다. 물론 여러분의 네트워크를 통해 프록시 트래픽이 전달되기 때문에, 네트워크 대역폭이 제한된 경우 등에는 여러분에게 영향을 끼칠 수 있습니다. 프록시 구동 여부를 결정하기 전에 [Snowflake 작동 방식](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home)을 이해해 두세요.
 
-[^1]: `IsolateDestAddr` 설정은 [Tor 메일링 리스트](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html), [Whonix Stream Isolation 문서](https://www.whonix.org/wiki/Stream_Isolation)에서 논의되었으며, 두 프로젝트 모두 해당 설정은 대부분의 사람들에게 추천하지 않았습니다.
+[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.

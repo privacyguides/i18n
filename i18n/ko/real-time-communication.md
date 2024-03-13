@@ -22,18 +22,18 @@ cover: real-time-communication.webp
 
 **Signal**은 Signal Messenger LLC에서 개발한 모바일 앱입니다. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
-[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.signal.org){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
-- [:simple-android: Android](https://signal.org/android/apk/)
+- [:simple-android: Android](https://signal.org/android/apk)
 - [:simple-windows11: Windows](https://signal.org/download/windows)
 - [:simple-apple: macOS](https://signal.org/download/macos)
 - [:simple-linux: Linux](https://signal.org/download/linux)
@@ -53,13 +53,13 @@ Signal requires your phone number for registration, however you should create a 
 
 You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. 개인 프로필 또한 암호화되어 여러분이 대화하는 상대에게만 공유됩니다. Signal supports [private groups](https://signal.org/blog/signal-private-group-system/), where the server has no record of your group memberships, group titles, group avatars, or group attributes. 메타데이터를 최소화하는 [Sealed Sender](https://signal.org/blog/sealed-sender/) 기능도 존재합니다. 해당 기능을 사용할 경우, 발신자 주소는 메시지 본문과 함께 암호화되어 서버에서는 수신자 주소만 볼 수 있습니다. Sealed Sender는 연락처 목록에 있는 사람들에게만 활성화되지만, 스팸 수신 위험성이 높아짐에 따라 모든 수신자에게 활성화하는 것도 가능합니다.
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. 개인 프로필 또한 암호화되어 여러분이 대화하는 상대에게만 공유됩니다. Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. 해당 기능을 사용할 경우, 발신자 주소는 메시지 본문과 함께 암호화되어 서버에서는 수신자 주소만 볼 수 있습니다. Sealed Sender는 연락처 목록에 있는 사람들에게만 활성화되지만, 스팸 수신 위험성이 높아짐에 따라 모든 수신자에게 활성화하는 것도 가능합니다.
 
-Signal 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://eprint.iacr.org/2016/1013.pdf). Signal 프로토콜 사양은 [문서](https://signal.org/docs/)에서 확인할 수 있습니다.
+Signal 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://eprint.iacr.org/2016/1013.pdf). The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
 
 Signal 설치 구성 및 보안 강화 관련 도움말이 필요하신 분은 다음 내용을 참고하세요.
 
-[Signal 설정 및 보안 강화 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/)
+[Signal 설정 및 보안 강화 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
 ### SimpleX Chat
 
@@ -78,7 +78,7 @@ Signal 설치 구성 및 보안 강화 관련 도움말이 필요하신 분은 �
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/simplex-chat/id1605771084)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
 - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
@@ -96,22 +96,22 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 
 <div class="admonition recommendation" markdown>
 
-![Briar 로고](assets/img/messengers/briar.svg){ align=right }
+![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar**는 Tor 네트워크를 이용해 다른 클라이언트에 연결하는 방식으로 [작동하는](https://briarproject.org/how-it-works/) 암호화 메신저입니다. 근거리에 있는 경우 Wi-Fi 혹은 Bluetooth를 통해 연결하는 것도 가능합니다. Briar 로컬 메시 모드는 인터넷을 제대로 사용할 수 없는 상황에도 유용합니다.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network. 근거리에 있는 경우 Wi-Fi 혹은 Bluetooth를 통해 연결하는 것도 가능합니다. Briar 로컬 메시 모드는 인터넷을 제대로 사용할 수 없는 상황에도 유용합니다.
 
-[:octicons-home-16: Homepage](https://briarproject.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
 [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://briarproject.org/){ .card-link title="Donation options are listed on the bottom of the homepage" }
+[:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop/)
-- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop/)
+- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop)
+- [:simple-linux: Linux](https://briarproject.org/download-briar-desktop)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
 </details>
@@ -120,7 +120,7 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 
 Briar 연락처에 누군가를 등록하려면 서로가 모두 서로를 연락처에 추가해야 합니다. `briar://` 링크를 서로 교환하거나, (가까운 거리에 있는 경우) 연락처에서 QR 코드를 스캔하여 추가할 수 있습니다.
 
-클라이언트 소프트웨어는 제3자로부터 [보안 감사를 받았습니다](https://briarproject.org/news/2017-beta-released-security-audit/). 메신저의 익명 라우팅 프로토콜은 마찬가지로 보안 감사가 진행된 바 있는 Tor 네트워크가 사용됩니다.
+The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
 
 Briar [사양 문서](https://code.briarproject.org/briar/briar-spec)는 전체 공개되어 있습니다.
 
@@ -141,11 +141,11 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the reference [client](https://matrix.org/ecosystem/clients/) for the [Matrix](https://matrix.org/docs/guides/introduction) protocol, an [open standard](https://matrix.org/docs/spec) for secure decentralized real-time communication.
+**Element** is the reference [client](https://matrix.org/ecosystem/clients) for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
 비공개 대화방(초대가 필요한 대화방)에서 이루어지는 메시지 및 파일 공유는 기본적으로 E2EE가 적용되며, 일대일 음성 및 영상 통화도 마찬가지입니다.
 
-[:octicons-home-16: Homepage](https://element.io/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
@@ -154,11 +154,11 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/vector/id1083446067)
-- [:simple-github: GitHub](https://github.com/vector-im/element-android/releases)
-- [:simple-windows11: Windows](https://element.io/get-started)
-- [:simple-apple: macOS](https://element.io/get-started)
-- [:simple-linux: Linux](https://element.io/get-started)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
+- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
+- [:simple-windows11: Windows](https://element.io/download)
+- [:simple-apple: macOS](https://element.io/download)
+- [:simple-linux: Linux](https://element.io/download)
 - [:octicons-globe-16: Web](https://app.element.io)
 
 </details>
@@ -171,7 +171,7 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
-Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). Matirx 프로토콜 사양은 [문서](https://spec.matrix.org/latest/)에서 확인할 수 있습니다. The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption/) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet/).
+Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last). The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
 
 ### Session
 
@@ -181,9 +181,9 @@ Matrix 프로토콜은 2016년에 독립적으로 [감사를 받았습니다](ht
 
 **Session**는 비공개, 보안, 익명 대화에 중점을 둔 탈중앙화 메신저입니다. Session은 개인 메시지, 그룹 채팅, 음성 통화를 지원합니다.
 
-Session은 탈중앙화된 [Oxen Service Node Network](https://oxen.io/)를 이용해 메시지 저장 및 라우팅을 수행합니다. 모든 암호화 메시지는 Oxen 서비스 노드 네트워크의 노드 3개를 이용해 라우팅되므로, 특정 노드가 사용자에 대한 의미 있는 정보를 수집하는 것은 불가능에 가깝습니다.
+Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to store and route messages. 모든 암호화 메시지는 Oxen 서비스 노드 네트워크의 노드 3개를 이용해 라우팅되므로, 특정 노드가 사용자에 대한 의미 있는 정보를 수집하는 것은 불가능에 가깝습니다.
 
-[:octicons-home-16: Homepage](https://getsession.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }

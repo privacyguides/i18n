@@ -28,17 +28,17 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 **Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
 
-[:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.thunderbird.net)
-- [:simple-apple: macOS](https://www.thunderbird.net)
-- [:simple-linux: Linux](https://www.thunderbird.net)
+- [:simple-windows11: Windows](https://thunderbird.net)
+- [:simple-apple: macOS](https://thunderbird.net)
+- [:simple-linux: Linux](https://thunderbird.net)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
 </details>
@@ -74,9 +74,9 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 **Apple Mail**은 macOS에 기본 포함되어 있으며, PGP 암호화 이메일 전송 기능을 추가하는 [GPG Suite](encryption.md#gpg-suite)를 통해 OpenPGP를 지원하도록 확장 가능합니다.
 
-[:octicons-home-16: 홈페이지](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="프라이버시 정책" }
-[:octicons-info-16:](https://support.apple.com/mail){ .card-link title=문서}
+[:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
 
 </details>
 
@@ -94,7 +94,7 @@ Apple Mail은 외부 콘텐츠를 백그라운드에서 로드하거나, 완전�
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -128,7 +128,7 @@ Canay Mail은 오픈 소스가 아닙니다. iOS에서 PGP E2EE를 지원하는 
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -146,13 +146,13 @@ Canay Mail은 오픈 소스가 아닙니다. iOS에서 PGP E2EE를 지원하는 
 
 ![Evolution 로고](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** 메일, 캘린더, 연락처 기능을 통합적으로 제공하는 개인 정보 관리 애플리케이션입니다. 시작하는 데에 도움이 되는 방대한 [문서](https://help.gnome.org/users/evolution/stable/)가 존재합니다.
+**Evolution** 메일, 캘린더, 연락처 기능을 통합적으로 제공하는 개인 정보 관리 애플리케이션입니다. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -175,7 +175,7 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.k9mail.app){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
 
@@ -206,9 +206,9 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title=Documentation}
 [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -228,8 +228,8 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 
 **Mailvelope**는 OpenPGP 암호화 표준에 따라 암호화된 이메일을 주고받을 수 있게 해주는 브라우저 확장 프로그램입니다.
 
-[:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
@@ -255,9 +255,9 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 NeoMutt은 텍스트 기반 클라이언트로, 사용법을 익히기 매우 어렵습니다. 하지만 자유로운 커스텀이 가능합니다.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
+[:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

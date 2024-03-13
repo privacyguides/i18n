@@ -4,11 +4,11 @@ title: Style d'écriture
 
 Privacy Guides est rédigé en anglais américain, et vous devez vous référer aux directives de [style APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) en cas de doute.
 
-En général, les [directives fédérales américaines en matière de langage clair](https://www.plainlanguage.gov/guidelines/) fournissent un bon aperçu de la manière d'écrire de façon claire et concise. Nous soulignons ci-dessous quelques notes importantes de ces directives.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. Nous soulignons ci-dessous quelques notes importantes de ces directives.
 
 ## Écrire pour notre public
 
-Le [public](https://www.plainlanguage.gov/guidelines/audience/) visé par Privacy Guides est principalement constitué d'adultes moyens, utilisant la technologie. Ne simplifiez pas le contenu comme si vous vous adressiez à une classe d'école primaire, mais n'abusez pas d'une terminologie compliquée concernant des concepts que l'utilisateur moyen d'un ordinateur ne connaît pas.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Ne simplifiez pas le contenu comme si vous vous adressiez à une classe d'école primaire, mais n'abusez pas d'une terminologie compliquée concernant des concepts que l'utilisateur moyen d'un ordinateur ne connaît pas.
 
 ### N'aborder que ce que les gens veulent savoir
 
@@ -24,7 +24,7 @@ Nous écrivons *pour* une grande variété de personnes, mais nous écrivons *à
 > 
 > Lorsque vous utilisez le "vous" pour vous adresser aux utilisateurs, ceux-ci sont plus susceptibles de comprendre quelle est leur responsabilité.
 
-Source : [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### Évitez les "utilisateurs"
 
@@ -37,7 +37,7 @@ L'organisation est clé. Le contenu doit aller de l'information la plus importan
 - Limitez le document à environ cinq ou six sections. Les documents longs devraient probablement être divisés en pages séparées.
 - Marquez les idées importantes avec **du gras** ou *de l'italique*.
 
-Source : [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### Commencez par une phrase sujet
 
@@ -45,7 +45,7 @@ Source : [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 > 
 > Nous écrivons souvent de la même manière que nous pensons, en mettant nos prémisses en premier et ensuite notre conclusion. C'est peut-être la façon naturelle de développer des pensées, mais nous nous retrouvons avec la phrase sujet à la fin du paragraphe. Déplacez-la au début et laissez les utilisateurs savoir où vous allez. N'obligez pas les lecteurs à retenir un grand nombre d'informations dans leur tête avant d'en venir au fait.
 
-Source : [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## Choisissez vos mots avec soin
 
@@ -65,7 +65,7 @@ Nous devrions essayer d'éviter les abréviations dans la mesure du possible, ma
 
 > Les mots inutiles font perdre du temps à votre public. Une bonne écriture est comme une conversation. Omettez les informations que le public n'a pas besoin de connaître. Cela peut s'avérer difficile pour un expert en la matière. Il est donc important que quelqu'un examine les informations du point de vue du public.
 
-Source : [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## Garder le texte conversationnel
 
@@ -77,7 +77,7 @@ Source : [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 > La voix active indique clairement qui est censé faire quoi. Il élimine toute ambiguïté quant aux responsabilités. Pas "Il faut le faire", mais "Vous devez le faire"
 
-Source : [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### Utilisez "doit" pour les exigences
 

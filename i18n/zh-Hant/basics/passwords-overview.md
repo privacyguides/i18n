@@ -54,13 +54,13 @@ Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶�
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-這裏的說明假設您正使用 [EFF的大型單詞清單](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) 來生成密語，每個單詞需要骰子滾動五次。 其他單詞列表的單詞其骰子滾動次數不一，且可能需要不同單詞數量來達成相同的熵。
+These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. 其他單詞列表的單詞其骰子滾動次數不一，且可能需要不同單詞數量來達成相同的熵。
 
 </div>
 
 1. 將1~6 骰子滾動五次，記下每次出現的數字。
 
-2. 例如，假設您滾動了 `2-5-2-6-6`。 查看 [EFF 的大型單詞清單](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) ，找出對應於 `25266` 的單詞。
+2. 例如，假設您滾動了 `2-5-2-6-6`。 Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. 你會得到單詞 `encrypt`。 把這個詞寫下來。
 
@@ -75,20 +75,20 @@ Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶�
 
 如果您手邊沒有或不想使用真正的骰子，可利用密碼管理器內建密碼生成器，因為大多數密碼生成器除了普通密碼之外還可以選擇生成 diceware 口令密語。
 
-我們建議使用 [EFF 的大型單詞清單](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) 來生成您的diceware 口令密語，因為它提供與原始列表完全相同的安全性，同時更容易記憶的單詞。 如果不想要使用英文密語，也有 [其他語言的單詞清單](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)。
+We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. 如果不想要使用英文密語，也有 [其他語言的單詞清單](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)。
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 判斷 diceware 口令密語強度的衡量標準是確定它有多少熵。 Diceware 口令密語中的個別單詞的熵為 $\text{log}_2(\text{WordsInList})$ 而整組密語的熵總量為 $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase}).
 
 因此，上述列表中的每個單詞都會產生~ 12.9 位熵（($\text{log}_2 (7776) $)  ，而其中取得七個單詞組成的口令密語就具有~ 90.47位熵 ($\text{log}_2 (7776 ^ 7) $ )。
 
-The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. 要計算可能的口令密語數量，所要做的就是 $\text{WordsInList}^\text{WordsInPhrase}$ ，或者依我們的情況， $ 7776 ^ 7 $。
+The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. 要計算可能的口令密語數量，所要做的就是 $\text{WordsInList}^\text{WordsInPhrase}$ ，或者依我們的情況， $ 7776 ^ 7 $。
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 平均而言，至少要嘗試所有可能組合的一半來猜測您的密語。 考慮到這一點，即使對手每秒能夠猜測~ 1,000,000,000,000 次，他們仍然需要~ 27,255,689 年來猜出您的密語。 即使以下情況屬實，也是如此：
 

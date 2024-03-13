@@ -10,7 +10,7 @@ cover: search-engines.webp
 
 這裡的建議是基於每個服務的隱私政策的優點。 **不能保證**這些隱私政策都有好好落實。
 
-如果您的威脅模型需要向搜尋供應商隱藏您的IP位址，請考慮使用 [VPN](vpn.md) 或 [Tor](https://www.torproject.org/) 。
+Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
 
 ## Brave Search
 
@@ -24,7 +24,7 @@ Brave Search 包括獨特的功能，如討論，突出了對話為中心的結�
 
 我們建議您停用 [匿名使用指標](https://search.brave.com/help/usage-metrics) ，因為它預設為啟用，可在設定中停用。
 
-[:octicons-home-16: Homepage](https://search.brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
@@ -41,14 +41,14 @@ Brave Search 總部在美國。 他們的 [隱私政策](https://search.brave.co
 
 ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** 最主流的隱私搜尋引擎選項之一。 著名的 DuckDuckGo 搜索功能包括 [bangs](https://duckduckgo.com/bang)和許多[即時答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/)。 搜尋引擎依賴商業 Bing API 來提供大多數結果，但它確實使用許多[其他來源](https://help.duckduckgo.com/results/sources/ )來獲取即時答案和其他非主要結果。
+**DuckDuckGo** 最主流的隱私搜尋引擎選項之一。 Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources) for instant answers and other non-primary results.
 
 DuckDuckGo 是 Tor瀏覽器的預設搜尋引擎，也是 Apple Safari 瀏覽器上為數不多的可用選項之一。
 
 [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -56,7 +56,7 @@ DuckDuckGo 是 Tor瀏覽器的預設搜尋引擎，也是 Apple Safari 瀏覽器
 
 Brave Search 總部在美國。 他們的[隱私政策](https://duckduckgo.com/privacy)聲明他們**確實** 記錄使用者搜尋以改善其產品，但不會記錄 IP 地址或其它可識別的個人資訊。
 
-DuckDuckGo 提供兩種 [其它版本](https://help.duckduckgo.com/features/non-javascript/) 搜尋引擎，兩者皆不需要JavaScript。 然而，這些版本缺少特色。 這些版本也可以與其 [Tor 洋蔥地址](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) 一起使用，通過為相應的版本附加 [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) 或 [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) 後綴。
+DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. 然而，這些版本缺少特色。 These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
 ## SearXNG
 
@@ -67,7 +67,7 @@ DuckDuckGo 提供兩種 [其它版本](https://help.duckduckgo.com/features/non-
 **SearXNG** 是一個開源、自我託管的中繼搜索引擎，聚合其他搜索引擎的結果，而自身不儲存任何資訊。 它是一個積極維護的 [SearX](https://github.com/searx/searx) 分支。
 
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-[:octicons-server-16:](https://searx.space/){ .card-link title="Public Instances"}
+[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
 [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
 
 </details>
@@ -87,11 +87,11 @@ SearXNG 是您和它所聚合的搜尋引擎之間的代理。 您的搜尋查�
 ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
 ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**Startpage**為私密搜尋引擎，提供[Google 與 Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing-) 的搜尋結果。  Startpage 的獨特功能之一是 [匿名視圖](https://www.startpage.com/en/anonymous-view/) ，它努力標準化用戶活動，使其更難被突出識別。 這個功能可用來隱藏 [某些](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) 網路與瀏覽器特徵。 不像名字所暗示的，該功能不應該依賴於匿名。 如果您正在尋找匿名性，請改用 [Tor瀏覽器](tor.md#tor-browser)。
+**Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) search results.  One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. 不像名字所暗示的，該功能不應該依賴於匿名。 如果您正在尋找匿名性，請改用 [Tor瀏覽器](tor.md#tor-browser)。
 
-[:octicons-home-16: Homepage](https://www.startpage.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
 </details>
 
@@ -104,12 +104,9 @@ Startpage 定期限制服務對某些 IP位址的存取，例如為 VPN 或Tor �
 
 </div>
 
-Startpage位於荷蘭。 根據他們的 [隱私政策](https://www.startpage.com/en/privacy-policy/)，他們記錄細節如：作業系統、瀏覽器類型和語言。 他們不會記錄您的IP位址、搜尋查詢或其他個人識別資訊。
+Startpage位於荷蘭。 According to their [privacy policy](https://startpage.com/en/privacy-policy), they log details such as: operating system, type of browser, and language. 他們不會記錄您的IP位址、搜尋查詢或其他個人識別資訊。
 
-Startpage 大股東是System1，它是一家廣告技術公司。 我們不認為這是問題，因為他們有明顯分開的 [隱私政策](https://system1.com/terms/privacy-policy)。 Privacy Guides 團隊2020年</a> 聯繫 Startpage
-，以消除對 System1對該服務大量投資的擔憂。 我們對收到的答案感到滿意。</p> 
-
-
+Startpage 大股東是System1，它是一家廣告技術公司。 我們不認為這是問題，因為他們有明顯分開的 [隱私政策](https://system1.com/terms/privacy-policy)。 The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service. 我們對收到的答案感到滿意。
 
 ## 標準
 
@@ -126,8 +123,6 @@ Startpage 大股東是System1，它是一家廣告技術公司。 我們不認�
 
 - 不得根據其隱私權政策收集個人身份資訊。
 - 不得要求使用者建立帳戶。
-
-
 
 ### 最佳案例
 

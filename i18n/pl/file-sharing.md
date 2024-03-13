@@ -19,11 +19,7 @@ Dowiedz się, jak prywatnie udostępniać piki pomiędzy swoimi urządzeniami, z
 [:octicons-info-16:](https://magic-wormhole.readthedocs.io/){ .card-link title=Dokumentacja}
 [:octicons-code-16:](https://github.com/magic-wormhole/magic-wormhole){ .card-link title="Kod źródłowy" }
 
-??? pobieranie
-
-    - [:fontawesome-brands-windows: Windows](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation)
-    - [:fontawesome-brands-apple: macOS](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#macos-os-x)
-    - [:fontawesome-brands-linux: Linux](https://magic-wormhole.readthedocs.io/en/latest/welcome.html#installation) You can use other public instances, or you can host Send yourself.
+??? The maintainer of Send hosts a [public instance](https://send.vis.ee). You can use other public instances, or you can host Send yourself.
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -91,7 +87,7 @@ We are working on establishing defined criteria for every section of our site, a
 [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
 [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -109,9 +105,9 @@ We are working on establishing defined criteria for every section of our site, a
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -145,16 +141,16 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-- [:simple-windows11: Windows](https://syncthing.net/downloads/)
-- [:simple-apple: macOS](https://syncthing.net/downloads/)
-- [:simple-linux: Linux](https://syncthing.net/downloads/)
-- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
+- [:simple-windows11: Windows](https://syncthing.net/downloads)
+- [:simple-apple: macOS](https://syncthing.net/downloads)
+- [:simple-linux: Linux](https://syncthing.net/downloads)
+- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
 
 </details>
 

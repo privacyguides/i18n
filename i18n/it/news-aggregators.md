@@ -18,10 +18,10 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 **Akregator** è un aggregatore di notizie, parte del progetto [KDE](https://kde.org). Dispone di funzionalità di ricerca veloce, archiviazione avanzata e un browser interno per la facile lettura delle notizie.
 
 [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentazione}
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuisci }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -82,10 +82,10 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 **Fluent Reader** è un aggregatore di notizie multipiattaforma e sicuro, che dispone di utili funzionalità per la privacy, come l'eliminazione dei cookie all'uscita, rigide [politiche di sicurezza dei contenuti (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) e supporto al proxy, a significare che puoi utilizzarlo su [Tor](tor.md).
 
 [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuisci }
+[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -121,15 +121,15 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 
 **NetNewsWire** è un lettore di feed gratuito e open source per macOS e iOS, incentrato su una serie di funzionalità e una progettazione native. Supporta i formati tipici dei feed, insieme al supporto integrato per i feed di Reddit.
 
-[:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
 
 </details>
@@ -177,8 +177,8 @@ Reddit consente d'iscriverti ai subreddit tramite RSS.
 
 Sostituisci `[SUBREDDIT]` con il subreddit a cui desideri iscriverti.
 
-```testo
-https://www.reddit.com/r/[SUBREDDIT]/new/.rss
+```text
+https://reddit.com/r/[SUBREDDIT]/new/.rss
 ```
 
 </div>
@@ -190,10 +190,10 @@ Puoi iscriverti ai canali di YouTube senza accedere e associare le informazioni 
 <div class="admonition example" markdown>
 <p class="admonition-title">Esempio</p>
 
-Per iscriverti a un canale YouTube con un client RSS, cerca innanzitutto il [codice del canale](https://support.google.com/youtube/answer6180214). Il codice del canale si trova nella pagina informativa del canale YouTube a cui ci si vuole abbonare, alla voce **Informazioni** > **Condividi** > **Copia ID canale**. Sostituisci l'`[ID CANALE]` di seguito:
+Per iscriverti a un canale YouTube con un client RSS, cerca innanzitutto il [codice del canale](https://support.google.com/youtube/answer6180214). Il codice del canale si trova nella pagina informativa del canale YouTube a cui ci si vuole abbonare, alla voce **Informazioni** > **Condividi** > **Copia ID canale**. Replace `[CHANNEL ID]` below:
 
-``testo
-https://www.youtube.com/feeds/videos.xml?channel_id=[ID CANALE]
+```text
+https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
 ```
 
 </div>

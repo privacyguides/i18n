@@ -11,14 +11,14 @@ DNS terenkripsi dengan server pihak ketiga sebaiknya hanya digunakan untuk menga
 
 ## Penyedia yang Direkomendasikan
 
-| Penyedia DNS                                                                    | Kebijakan Privasi                                                                                     | Protokol                                                                     | Pencatatan Log | ECS      | Pemfilteran                                                                                                                                                     |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | Beberapa[^1]   | Yes      | Berdasarkan konfigurasi pribadi. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Teks biasa <br> DoH/3 <br> DoT                                   | Beberapa[^2]   | Tidak    | Berdasarkan konfigurasi pribadi.                                                                                                                                |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Teks biasa <br> DoH/3 <br> DoT <br> DoQ                    | Opsional[^3]   | Tidak    | Berdasarkan konfigurasi pribadi.                                                                                                                                |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                                           | Tidak[^4]      | Tidak    | Berdasarkan konfigurasi pribadi. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Teks biasa <br> DoH/3 <br> DoT <br> DoQ                    | Opsional[^5]   | Opsional | Berdasarkan konfigurasi pribadi.                                                                                                                                |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Teks biasa <br> DoH <br> DoT <br> DNSCrypt                 | Beberapa[^6]   | Opsional | Berdasarkan konfigurasi personal, Malware terblokir secara default.                                                                                             |
+| Penyedia DNS                                                               | Kebijakan Privasi                                                                                    | Protokol                                                                     | Pencatatan Log | ECS      | Pemfilteran                                                                                                                                                     |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)            | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | Beberapa[^1]   | Yes      | Berdasarkan konfigurasi pribadi. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Teks biasa <br> DoH/3 <br> DoT                                   | Beberapa[^2]   | Tidak    | Berdasarkan konfigurasi pribadi.                                                                                                                                |
+| [**Control D**](https://controld.com/free-dns)                             | [:octicons-link-external-24:](https://controld.com/privacy)                                          | Teks biasa <br> DoH/3 <br> DoT <br> DoQ                    | Opsional[^3]   | Tidak    | Berdasarkan konfigurasi pribadi.                                                                                                                                |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH <br> DoT                                                           | Tidak[^4]      | Tidak    | Berdasarkan konfigurasi pribadi. Daftar filter yang digunakan dapat ditemukan di sini. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://nextdns.io)                                          | [:octicons-link-external-24:](https://nextdns.io/privacy)                                            | Teks biasa <br> DoH/3 <br> DoT <br> DoQ                    | Opsional[^5]   | Opsional | Berdasarkan konfigurasi pribadi.                                                                                                                                |
+| [**Quad9**](https://quad9.net)                                             | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | Teks biasa <br> DoH <br> DoT <br> DNSCrypt                 | Beberapa[^6]   | Opsional | Berdasarkan konfigurasi personal, Malware terblokir secara default.                                                                                             |
 
 ### Kriteria
 
@@ -50,7 +50,7 @@ Setelah pemasangan profil konfigurasi atau aplikasi yang menggunakan API Pengatu
 
 #### Profil yang Ditandatangani
 
-Apple tidak menyediakan antarmuka asli untuk membuat profil DNS terenkripsi. [Pembuat profil DNS aman](https://dns.notjakob.com/tool.html) adalah alat tidak resmi untuk membuat profil DNS terenkripsi Anda sendiri, namun profil tersebut tidak akan ditandatangani. Profil yang ditandatangani lebih disukai; penandatanganan memvalidasi asal profil dan membantu memastikan integritas profil. Label "Terverifikasi" berwarna hijau diberikan pada profil konfigurasi yang telah ditandatangani. Untuk informasi lebih lanjut tentang penandatanganan kode, lihat [Tentang Penandatanganan Kode](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Profil yang ditandatangani** ditawarkan oleh [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), dan [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
+Apple tidak menyediakan antarmuka asli untuk membuat profil DNS terenkripsi. [Pembuat profil DNS aman](https://dns.notjakob.com/tool.html) adalah alat tidak resmi untuk membuat profil DNS terenkripsi Anda sendiri, namun profil tersebut tidak akan ditandatangani. Profil yang ditandatangani lebih disukai; penandatanganan memvalidasi asal profil dan membantu memastikan integritas profil. Label "Terverifikasi" berwarna hijau diberikan pada profil konfigurasi yang telah ditandatangani. Untuk informasi lebih lanjut tentang penandatanganan kode, lihat [Tentang Penandatanganan Kode](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://quad9.net/news/blog/ios-mobile-provisioning-profiles).
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
@@ -74,7 +74,7 @@ Perangkat lunak proxy DNS terenkripsi menyediakan proxy lokal untuk [DNS tidak t
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -123,9 +123,9 @@ Solusi DNS yang dihosting sendiri berguna untuk menyediakan penyaringan pada pla
 
 <div class="admonition recommendation" markdown>
 
-![Logo AdGuard Home](assets/img/dns/adguard-home.svg){ align=right }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
-**AdGuard Home** adalah [lubang penyaring DNS](https://en.wikipedia.org/wiki/DNS_sinkhole) yang menggunakan [penyaringan DNS] (https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) untuk memblokir konten web yang tidak diinginkan, seperti iklan.
+**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 AdGuard Home memiliki antarmuka web yang dipoles untuk melihat wawasan dan mengelola konten yang diblokir.
 
@@ -142,25 +142,25 @@ AdGuard Home memiliki antarmuka web yang dipoles untuk melihat wawasan dan menge
 
 <div class="admonition recommendation" markdown>
 
-![Logo Pi-hole](assets/img/dns/pi-hole.svg){ align=right }
+![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-**Pi-hole** adalah [lubang penyaring DNS](https://en.wikipedia.org/wiki/DNS_sinkhole) yang menggunakan [penyaringan DNS] (https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) untuk memblokir konten web yang tidak diinginkan, seperti iklan.
+**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 Pi-hole dirancang untuk dihosting di Raspberry Pi, tetapi tidak terbatas pada perangkat keras tersebut. Perangkat lunak ini memiliki antarmuka web yang ramah untuk melihat analisis dan mengelola konten yang diblokir.
 
-[:octicons-home-16: Beranda](https://pi-hole.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Kebijakan Privasi" }
-[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Dokumentasi}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Kode Sumber" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Kontribusi }
+[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
 [^1]: AdGuard menyimpan informasi kinerja dari server DNS mereka, seperti informasi request kepada server tertentu, jumlah request yang terblokir dan informasi mengenai kecepatan request ketika sedang diproses. Mereka juga menyimpan database domain yang diminta dalam waktu 24 jam terakhir. "Kami membutuhkan informasi ini untuk mengidentifikasi dan memblokir pelacak dan ancaman baru." "Kami juga mencatat berapa kali pelacak telah diblokir. Kami membutuhkan informasi ini untuk menghapus aturan lama dari filter kami." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
-[^2]: Cloudflare hanya mengumpulkan dan menyimpan data permintaan DNS terbatas yang dikirim ke resolver 1.1.1.1. Layanan resolver 1.1.1.1 tidak mencatat data pribadi, dan sebagian besar data yang tidak dapat diidentifikasi secara pribadi hanya disimpan selama 25 jam. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
+[^2]: Cloudflare hanya mengumpulkan dan menyimpan data permintaan DNS terbatas yang dikirim ke resolver 1.1.1.1. Layanan resolver 1.1.1.1 tidak mencatat data pribadi, dan sebagian besar data yang tidak dapat diidentifikasi secara pribadi hanya disimpan selama 25 jam. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D hanya mencatat untuk resolver Premium dengan profil DNS khusus. Resolver gratis tidak mencatat data. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: Layanan DNS Mullvad tersedia untuk pelanggan dan non-pelanggan Mullvad VPN. Kebijakan privasi mereka secara eksplisit mengklaim bahwa mereka tidak mencatat permintaan DNS dengan cara apa pun. [https://mullvad.net/en/help/no-logging-data-policy](https://mullvad.net/en/help/no-logging-data-policy/)
+[^4]: Layanan DNS Mullvad tersedia untuk pelanggan dan non-pelanggan Mullvad VPN. Kebijakan privasi mereka secara eksplisit mengklaim bahwa mereka tidak mencatat permintaan DNS dengan cara apa pun. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^5]: NextDNS can provide insights and logging features on an opt-out basis. Anda dapat memilih waktu penyimpanan dan lokasi penyimpanan log untuk disimpan. Jika tidak diminta secara khusus, tidak ada data yang dicatat. [https://nextdns.io/privacy](https://nextdns.io/privacy)
-[^6]: Quad9 mengumpulkan beberapa data untuk tujuan pemantauan dan tanggapan ancaman. Data nantinya diacak dan dibagikan untuk tujuan penelitian keamanan. Quad9 tidak mengumpulkan atau mencatat alamat IP atau data lain yang mereka anggap dapat diidentifikasi secara pribadi. [https://www.quad9.net/privacy/policy](https://www.quad9.net/privacy/policy/)
+[^6]: Quad9 mengumpulkan beberapa data untuk tujuan pemantauan dan tanggapan ancaman. Data nantinya diacak dan dibagikan untuk tujuan penelitian keamanan. Quad9 tidak mengumpulkan atau mencatat alamat IP atau data lain yang mereka anggap dapat diidentifikasi secara pribadi. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

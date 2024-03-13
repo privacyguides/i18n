@@ -13,7 +13,7 @@ Sonuç olarak e-posta, başkalarıyla iletişim kurmak için değil, çevrimiçi
 
 Farklı e-posta sağlayıcıları arasındaki e-postalara uçtan uca şifreleme eklemenin standart yolu OpenPGP kullanmaktır. OpenPGP standardının farklı uygulamaları vardır, en yaygın olanları [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) ve [OpenPGP.js](https://openpgpjs.org).
 
-İş dünyasında popüler olan [S/MIME](https://en.wikipedia.org/wiki/S/MIME)adında başka bir standart daha vardır, ancak bir [Sertifika Yetkilisi](https://en.wikipedia.org/wiki/Certificate_authority) tarafından verilen bir sertifika gerektirir (hepsi S/MIME sertifikası vermez). [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) ve [Web için Outlook veya Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480)desteği vardır.
+İş dünyasında popüler olan [S/MIME](https://en.wikipedia.org/wiki/S/MIME)adında başka bir standart daha vardır, ancak bir [Sertifika Yetkilisi](https://en.wikipedia.org/wiki/Certificate_authority) tarafından verilen bir sertifika gerektirir (hepsi S/MIME sertifikası vermez). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. Bu nedenle, mümkün olduğunca kişiden kişiye iletişim için e-posta yerine ileri gizlilik uygulayan [anlık mesajlaşma programlarını](../real-time-communication.md) öneriyoruz.
 
@@ -23,7 +23,7 @@ The Web Key Directory (WKD) standard allows email clients to discover the OpenPG
 
 In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
 
-If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
 
 If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
 
@@ -33,7 +33,7 @@ Email providers which allow you to use standard access protocols like IMAP and S
 
 ### How Do I Protect My Private Keys?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smartcard and the decrypted content is sent back to the device.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smartcard and the decrypted content is sent back to the device.
 
 It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
 

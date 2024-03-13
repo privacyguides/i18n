@@ -62,12 +62,12 @@ Megpróbálni az összes adatodat mindenkitől és mindig megvédeni nem praktik
 
 ## Szükségünk van rád! Itt van, hogyan tudsz részt venni:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Csatlakozz a Fórumunkhoz" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Kövess minket a Mastodonon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Járulj hozzá a weboldalhoz" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Segíts lefordítani a weboldalt" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Csevegj velünk a Matrixon" }
-[:material-information-outline:](about/index.md){ title="Tudjon meg többet rólunk" }
-[:material-hand-coin-outline:](about/donate.md){ title="Támogasd a projektet" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 Fontos, hogy egy olyan weboldal, mint a Privacy Guides, mindig naprakész maradjon. Szükségünk van arra, hogy a közönségünk figyelemmel kísérje az oldalunkon felsorolt alkalmazások frissítéseit, és kövesse az általunk ajánlott szolgáltatókkal kapcsolatos legújabb híreket. Nehéz lépést tartani az internet gyors tempójával, de mi megteszünk minden tőlünk telhetőt. Ha hibát észlelsz, úgy gondolod, hogy egy szolgáltatónak nem kellene szerepelnie a listán, észreveszed, hogy egy alkalmas szolgáltató hiányzik, úgy véled, hogy egy böngésző bővítmény már nem a legjobb választás, vagy ha bármilyen más problémát észlelsz, kérjük, jelezd nekünk.

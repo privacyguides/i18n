@@ -35,8 +35,8 @@ Du kan se OpenWrts [tabell över maskinvara](https://openwrt.org/toh/start) för
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense används vanligen som brandvägg, router, trådlös åtkomstpunkt, DHCP-server, DNS-server och VPN-slutpunkt.
 
-[:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 

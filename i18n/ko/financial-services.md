@@ -28,9 +28,9 @@ Many banks and credit card providers offer native virtual card functionality. If
 
 **Privacy.com**'s free plan allows you to create up to 12 virtual cards per month, set spend limits on those cards, and shut off cards instantly. Their paid plan allows you to create up to 36 cards per month, get 1% cash back on purchases, and hide transaction information from your bank.
 
-[:octicons-home-16: 홈페이지](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="프라이버시 정책" }
-[:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=문서}
+[:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
 
 </details>
 
@@ -47,9 +47,9 @@ Privacy.com gives information about the merchants you purchase from to your bank
 
 **MySudo** provides up to 9 virtual cards depending on the plan you purchase. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email.md) for extensive email aliasing use.
 
-[:octicons-home-16: 홈페이지](https://mysudo.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="프라이버시 정책" }
-[:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=문서}
+[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -83,9 +83,9 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 **CoinCards** (available in the US and Canada) allows you to purchase gift cards for a large variety of merchants.
 
-[:octicons-home-16: 홈페이지](https://coincards.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="프라이버시 정책" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=문서}
+[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
 
 </details>
 

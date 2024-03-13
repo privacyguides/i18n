@@ -13,21 +13,21 @@ cover: multi-factor-authentication.webp
 
 ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
 
-Les **YubiKeys** font partie des clés de sécurité les plus populaires. Certains modèles de YubiKey disposent d'un large éventail de fonctionnalités telles que : [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 et WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP/), [TOTP et HOTP](https://developers.yubico.com/OATH).
+Les **YubiKeys** font partie des clés de sécurité les plus populaires. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
 
-L'un des avantages de la YubiKey est qu'une seule clé peut faire presque tout (YubiKey 5) ce que vous pouvez attendre d'une clé de sécurité matérielle. Nous vous encourageons à faire le [quiz](https://www.yubico.com/quiz/) avant d'acheter afin d'être sûr de faire le bon choix.
+L'un des avantages de la YubiKey est qu'une seule clé peut faire presque tout (YubiKey 5) ce que vous pouvez attendre d'une clé de sécurité matérielle. We do encourage you to take the [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
 
-[:octicons-home-16: Page d'accueil](https://www.yubico.com/?lang=fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://yubico.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
 
 </details>
 
 </div>
 
-Le [tableau de comparaison](https://www.yubico.com/store/compare/) montre les fonctionnalités de chaque YubiKeys et leurs différences. Nous vous recommandons vivement de choisir des clés de la série YubiKey 5.
+The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare. Nous vous recommandons vivement de choisir des clés de la série YubiKey 5.
 
-Les YubiKeys peuvent être programmées à l'aide du [Gestionnaire YubiKey](https://www.yubico.com/support/download/yubikey-manager/) ou de l'[Outil de Personnalisation YubiKey](https://www.yubico.com/support/download/yubikey-personalization-tools/). Pour gérer les codes TOTP, vous pouvez utiliser le [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/). Tous les clients de Yubico sont open source.
+YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). Tous les clients de Yubico sont open source.
 
 Pour les modèles qui supportent HOTP et TOTP, il y a 2 emplacements dans l'interface OTP qui peuvent être utilisés pour HOTP et 32 emplacements pour stocker les secrets TOTP. Ces secrets sont stockés et chiffrés sur la clé et ne sont jamais exposés aux appareils sur lesquels elle est branchée. Une fois qu'une graine (secret partagé) est donnée à l'authentificateur Yubico, celui-ci ne donnera que les codes à six chiffres, mais jamais la graine. Ce modèle de sécurité permet de limiter ce qu'un attaquant peut faire s'il compromet l'un des appareils exécutant le Yubico Authenticator et rend la YubiKey résistante à un attaquant physique.
 
@@ -46,17 +46,17 @@ The firmware of YubiKey is not open source and is not updatable. Si vous souhait
 
 **Nitrokey** possède une clé de sécurité qui prend en charge [FIDO2 et WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) appelée la **Nitrokey FIDO2**. Pour la prise en charge de PGP, vous devez acheter l'une de leurs autres clés comme la **Nitrokey Start**, la **Nitrokey Pro 2** ou la **Nitrokey Storage 2**.
 
-[:octicons-home-16: Page d'accueil](https://www.nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentation}
 
 </details>
 
 </div>
 
-Le [tableau de comparaison](https://www.nitrokey.com/#comparison) montre les fonctionnalités de chaque Nitrokey et leurs différences. La **Nitrokey 3** répertoriée aura un ensemble de fonctionnalités combinées.
+The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. La **Nitrokey 3** répertoriée aura un ensemble de fonctionnalités combinées.
 
-Les modèles de Nitrokey peuvent être configurés à l'aide de l'[application Nitrokey](https://www.nitrokey.com/download).
+Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
 
 Pour les modèles qui supportent HOTP et TOTP, il y a 3 emplacements pour HOTP et 15 pour TOTP. Certaines Nitrokeys peuvent faire office de gestionnaire de mots de passe. Ils peuvent stocker 16 identifiants différents et les chiffrer en utilisant le même mot de passe que l'interface OpenPGP.
 
@@ -74,7 +74,7 @@ La réinitialisation de l'interface OpenPGP sur une Nitrokey rendra également l
 
 </div>
 
-La Nitrokey Pro 2, la Nitrokey Storage 2 et la Nitrokey 3 à venir prennent en charge la vérification de l'intégrité du système pour les ordinateurs portables dotés du micrologiciel [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) .
+The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://coreboot.org) + [Heads](https://osresearch.net) firmware.
 
 Le micrologiciel de la Nitrokey est open source, contrairement à la YubiKey. Le micrologiciel des modèles NitroKey modernes (à l'exception de la **NitroKey Pro 2**) peut être mis à jour.
 
@@ -127,7 +127,7 @@ Nous vous recommandons vivement d'utiliser des applications TOTP mobiles plutôt
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
 - [:octicons-globe-16: Web](https://auth.ente.io)
 
@@ -147,7 +147,7 @@ Nous vous recommandons vivement d'utiliser des applications TOTP mobiles plutôt
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

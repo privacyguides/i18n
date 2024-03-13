@@ -55,7 +55,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
@@ -74,7 +74,7 @@ Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit 
 
 #### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-Betaalde Proton Mail abonnees kunnen hun eigen domein met de dienst gebruiken of een [catch-all](https://proton.me/support/catch-all) adres. Proton Mail ondersteunt ook [subadressering](https://proton.me/support/creating-aliases), wat handig is voor mensen die geen domein willen kopen.
+Betaalde Proton Mail abonnees kunnen hun eigen domein met de dienst gebruiken of een [catch-all](https://proton.me/support/catch-all) adres. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Privé betaalmethoden
 
@@ -129,7 +129,7 @@ Proton Mail heeft geen digitale erfenis functie.
 
 #### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-Mailbox.org laat je je eigen domein gebruiken en ze ondersteunen [catch-all](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) adressen. Mailbox.org ondersteunt ook [subadressering](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), wat handig is als je geen domein wilt kopen.
+Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Privé betaalmethoden
 
@@ -137,17 +137,17 @@ Mailbox.org accepteert geen Bitcoin of andere cryptocurrencies als gevolg van he
 
 #### :material-check:{ .pg-green } Accountbeveiliging
 
-Mailbox.org ondersteunt [twee-factor authenticatie](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) alleen voor hun webmail. Je kunt TOTP of een [Yubikey](https://en.wikipedia.org/wiki/YubiKey) gebruiken via de [Yubicloud](https://www.yubico.com/products/services-software/yubicloud). Webstandaarden zoals [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) worden nog niet ondersteund.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Webstandaarden zoals [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) worden nog niet ondersteund.
 
 #### :material-information-outline:{ .pg-blue } Gegevensbeveiliging
 
-Mailbox.org maakt encryptie van inkomende mail mogelijk met behulp van hun [versleutelde mailbox](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Nieuwe berichten die je ontvangt, worden dan onmiddellijk versleuteld met jouw openbare sleutel.
+Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nieuwe berichten die je ontvangt, worden dan onmiddellijk versleuteld met jouw openbare sleutel.
 
-Echter, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), het softwareplatform dat wordt gebruikt door Mailbox.org, [ondersteunt niet](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) de versleuteling van je adresboek en agenda. Een [standalone optie](calendar.md) kan geschikter zijn voor die informatie.
+However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. Een [standalone optie](calendar.md) kan geschikter zijn voor die informatie.
 
 #### :material-check:{ .pg-green } Email encryptie
 
-Mailbox.org heeft [geïntegreerde encryptie](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) in hun webmail, wat het verzenden van berichten naar mensen met openbare OpenPGP-sleutels vereenvoudigt. Ook kunnen [ontvangers op afstand een e-mail](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) op de servers van Mailbox.org ontsleutelen. Deze functie is nuttig wanneer de ontvanger op afstand geen OpenPGP heeft en geen kopie van de e-mail in zijn eigen mailbox kan ontsleutelen.
+Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Deze functie is nuttig wanneer de ontvanger op afstand geen OpenPGP heeft en geen kopie van de e-mail in zijn eigen mailbox kan ontsleutelen.
 
 Mailbox.org ondersteunt ook de ontdekking van publieke sleutels via HTTP vanuit hun [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Hierdoor kunnen mensen buiten Mailbox.org gemakkelijk de OpenPGP sleutels van Mailbox.org accounts vinden, voor cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
@@ -157,9 +157,9 @@ Je account wordt ingesteld op een beperkt gebruikersaccount zodra je contract is
 
 #### :material-information-outline:{ .pg-blue } Extra functionaliteit
 
-Je kan je Mailbox.org-account openen via IMAP/SMTP met behulp van hun [.onion-service](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Hun webmail interface is echter niet toegankelijk via hun .onion dienst en kan je te maken krijgen met TLS-certificaatfouten.
+You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Hun webmail interface is echter niet toegankelijk via hun .onion dienst en kan je te maken krijgen met TLS-certificaatfouten.
 
-Alle accounts hebben een beperkte cloud opslag die [kan worden versleuteld](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org biedt ook de alias [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), die de TLS-versleuteling op de verbinding tussen mailservers afdwingt, anders wordt het bericht helemaal niet verzonden. Mailbox.org ondersteunt ook [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) naast standaard toegangsprotocollen zoals IMAP en POP3.
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org ondersteunt ook [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) naast standaard toegangsprotocollen zoals IMAP en POP3.
 
 Mailbox.org heeft een digitale nalatenschap functie voor alle abonnementen. Je kunt kiezen of je wilt dat jouw gegevens worden doorgegeven aan jouw erfgenamen, mits zij een aanvraag indienen en jouw testament overleggen. Je kunt ook een persoon nomineren met naam en adres.
 
@@ -185,18 +185,18 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
 - [:simple-windows11: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -206,7 +206,7 @@ Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use 
 
 #### :material-check:{ .pg-green } Aangepaste domeinen en aliassen
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } Privé betaalmethodes
 
@@ -232,7 +232,7 @@ Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). Dit zorgt ervoor dat het klantcontact met het bedrijf gebruik maakt van E2EE. De functie kost €240/j.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Dit zorgt ervoor dat het klantcontact met het bedrijf gebruik maakt van E2EE. De functie kost €240/j.
 
 Tuta doesn't offer a digital legacy feature.
 
@@ -284,14 +284,14 @@ Het gebruik van een aliasingdienst vereist dat je zowel jouw e-mailprovider als 
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 </details>
 
 </div>
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 Opmerkelijke gratis functies:
 
@@ -310,8 +310,8 @@ Opmerkelijke gratis functies:
 **SimpleLogin** is een gratis dienst die e-mailaliassen op verschillende gedeelde domeinnamen biedt, en optioneel betaalde functies zoals onbeperkte aliassen en aangepaste domeinen.
 
 [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -320,16 +320,16 @@ Opmerkelijke gratis functies:
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
 
 </details>
 
 </div>
 
-SimpleLogin werd [overgenomen door Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) met ingang van 8 april 2022. Als je Proton Mail gebruikt voor uw primaire mailbox, is SimpleLogin een goede keuze. Aangezien beide producten nu eigendom zijn van hetzelfde bedrijf, hoeft je nog maar op één entiteit te vertrouwen. Wij verwachten ook dat SimpleLogin in de toekomst nauwer zal worden geïntegreerd met het aanbod van Proton. SimpleLogin blijft forwarding naar elke e-mailprovider van jouw keuze ondersteunen. Securitum [heeft begin 2022 een audit uitgevoerd op](https://simplelogin.io/blog/security-audit/) SimpleLogin en alle problemen [zijn aangepakt](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin werd [overgenomen door Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) met ingang van 8 april 2022. Als je Proton Mail gebruikt voor uw primaire mailbox, is SimpleLogin een goede keuze. Aangezien beide producten nu eigendom zijn van hetzelfde bedrijf, hoeft je nog maar op één entiteit te vertrouwen. Wij verwachten ook dat SimpleLogin in de toekomst nauwer zal worden geïntegreerd met het aanbod van Proton. SimpleLogin blijft forwarding naar elke e-mailprovider van jouw keuze ondersteunen. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
 Je kunt jouw SimpleLogin account in de instellingen koppelen aan jouw Proton account. Als je Proton Unlimited, Business of Visionary Plan hebt, heb je SimpleLogin Premium gratis.
 
@@ -352,9 +352,9 @@ Gevorderde systeembeheerders kunnen overwegen hun eigen e-mailserver op te zette
 **Mailcow** is een meer geavanceerde mailserver, perfect voor mensen met wat meer Linux ervaring. Het heeft alles wat je nodig hebt in een Docker container: Een mailserver met DKIM-ondersteuning, antivirus- en spammonitoring, webmail en ActiveSync met SOGo, en webgebaseerd beheer met 2FA-ondersteuning.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Documentatie}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Broncode" }
-[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Bijdrage leveren }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
 </div>
 
@@ -372,8 +372,8 @@ Gevorderde systeembeheerders kunnen overwegen hun eigen e-mailserver op te zette
 
 Voor een meer handmatige aanpak hebben we deze twee artikelen uitgekozen:
 
-- [Een mailserver opzetten met OpenSMTPD, Dovecot en Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [Hoe run je je eigen mailserver](https://www.c0ffee.net/blog/mail-server-guide/) (augustus 2017)
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
 
 ## Criteria
 
@@ -386,7 +386,7 @@ Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst t
 **Minimum om in aanmerking te komen:**
 
 - Versleutelt e-mail accountgegevens in rust met zero-access encryptie.
-- Exportmogelijkheid als [Mbox](https://en.wikipedia.org/wiki/Mbox) of individuele .eml met [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) standaard.
+- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Sta gebruikers toe hun eigen [domeinnaam te gebruiken](https://en.wikipedia.org/wiki/Domain_name). Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat privacy niet hoog in het vaandel heeft staan.
 - Werkt op eigen infrastructuur, d.w.z. niet gebaseerd op e-mail service providers van derden.
 
@@ -397,7 +397,7 @@ Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst t
 - Ondersteuning voor [WKD](https://wiki.gnupg.org/WKD) om een verbeterde ontdekking van publieke OpenPGP sleutels via HTTP mogelijk te maken. GnuPG-gebruikers kunnen een sleutel krijgen door te typen: `gpg --locate-key example_user@example.com`
 - Ondersteuning voor een tijdelijke mailbox voor externe gebruikers. Dit is handig wanneer je een versleutelde e-mail wilt verzenden, zonder een echte kopie naar jouw ontvanger te sturen. Deze e-mails hebben meestal een beperkte levensduur en worden daarna automatisch verwijderd. Zij vereisen ook niet dat de ontvanger cryptografie configureert zoals OpenPGP.
 - Beschikbaarheid van de diensten van de e-mailprovider via een [onion service](https://en.wikipedia.org/wiki/.onion).
-- [Ondersteuning voor subadressering](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
+- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
 - Catch-all of alias functionaliteit voor diegenen die hun eigen domeinen bezitten.
 - Gebruik van standaard e-mail toegangsprotocollen zoals IMAP, SMTP of [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standaard toegangsprotocollen zorgen ervoor dat klanten al hun e-mail gemakkelijk kunnen downloaden, mochten zij naar een andere provider willen overstappen.
 
@@ -425,13 +425,13 @@ Email servers verwerken veel zeer gevoelige gegevens. We verwachten dat provider
 - Bescherming van webmail met 2FA, zoals TOTP.
 - Zero access encryptie, bouwt voort op encryptie in rust. De provider heeft geen decryptiesleutels voor de gegevens die ze hebben. Dit voorkomt dat een malafide werknemer gegevens lekt waartoe hij toegang heeft, of dat een tegenstander op afstand gegevens vrijgeeft die hij heeft gestolen door ongeoorloofde toegang tot de server te verkrijgen.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) ondersteuning.
-- Geen [TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) fouten/kwetsbaarheden bij profilering door tools zoals [Hardenize](https://www.hardenize.com), [testssl.sh](https://testssl.sh) of [Qualys SSL Labs](https://www.ssllabs.com/ssltest), dit omvat certificaatgerelateerde fouten, slechte of zwakke ciphersuites, zwakke DH-parameters zoals die welke hebben geleid tot [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Een geldig [MTA-STS](https://tools.ietf.org/html/rfc8461) en [TLS-RPT](https://tools.ietf.org/html/rfc8460) beleid.
 - Geldig [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
 - Geldige [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) en [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Geldige [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) en [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Zorg voor een correct [DMARC](https://en.wikipedia.org/wiki/DMARC) record en beleid of gebruik [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) voor verificatie. Als DMARC-authenticatie wordt gebruikt, moet het beleid worden ingesteld op `reject` of `quarantine`.
-- Een server suite voorkeur van TLS 1.2 of hoger en een plan voor [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) indiening, ervan uitgaande dat SMTP wordt gebruikt.
 - Beveiligingsnormen voor websites, zoals:
     - [HTTP Strict Transport Security](https://nl.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -446,7 +446,7 @@ Email servers verwerken veel zeer gevoelige gegevens. We verwachten dat provider
 - Programma's voor bug-bounty's en/of een gecoördineerd proces voor de openbaarmaking van kwetsbaarheden.
 - Beveiligingsnormen voor websites, zoals:
     - [Inhoud beveiligingsbeleid (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### Vertrouwen
 

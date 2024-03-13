@@ -60,7 +60,7 @@ Veel OEM's hebben ook een gebroken uitvoering van Verified Boot waar je je bewus
 
 Firmware-updates zijn van cruciaal belang voor het behoud van de veiligheid en zonder deze updates kan uw toestel niet veilig zijn. OEM's hebben ondersteuningsovereenkomsten met hun partners om de closed-source componenten voor een beperkte ondersteuningsperiode te leveren. Deze worden gedetailleerd beschreven in de maandelijkse [Android Security Bulletins](https://source.android.com/security/bulletin).
 
-Aangezien de onderdelen van de telefoon, zoals de processor en de radiotechnologieën, afhankelijk zijn van closed-source componenten, moeten de updates door de respectieve fabrikanten worden verstrekt. Daarom is het belangrijk dat u een toestel koopt binnen een actieve ondersteuningscyclus. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) en [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) ondersteunen hun toestellen gedurende 4 jaar, terwijl goedkopere producten vaak kortere ondersteuningscycli hebben. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+Aangezien de onderdelen van de telefoon, zoals de processor en de radiotechnologieën, afhankelijk zijn van closed-source componenten, moeten de updates door de respectieve fabrikanten worden verstrekt. Daarom is het belangrijk dat u een toestel koopt binnen een actieve ondersteuningscyclus. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 EOL-apparaten die niet langer door de SoC-fabrikant worden ondersteund, kunnen geen firmware-updates ontvangen van OEM-verkopers of aftermarket-distributeurs van Android. Dit betekent dat beveiligingsproblemen met die apparaten onopgelost zullen blijven.
 
@@ -97,19 +97,19 @@ Android 13:
 
 Een app kan een toestemming vragen voor een specifieke functie die hij heeft. Bijvoorbeeld, elke app die QR-codes kan scannen heeft toestemming voor de camera nodig. Sommige apps kunnen meer toestemmingen vragen dan ze nodig hebben.
 
-[Exodus](https://exodus-privacy.eu.org/) kan nuttig zijn bij het vergelijken van apps die vergelijkbare doelen hebben. Als een app veel machtigingen nodig heeft en veel advertenties en analytics heeft, is dit waarschijnlijk een slecht teken. Wij raden aan de individuele trackers te bekijken en hun beschrijvingen te lezen in plaats van eenvoudigweg **het totaal** te tellen en aan te nemen dat alle vermelde items gelijk zijn.
+[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. Als een app veel machtigingen nodig heeft en veel advertenties en analytics heeft, is dit waarschijnlijk een slecht teken. Wij raden aan de individuele trackers te bekijken en hun beschrijvingen te lezen in plaats van eenvoudigweg **het totaal** te tellen en aan te nemen dat alle vermelde items gelijk zijn.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Als een app vooral een webdienst is, kan de tracking aan de serverzijde plaatsvinden. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) toont "geen trackers", maar volgt zeker de interesses en het gedrag van gebruikers op de site. Apps kunnen detectie omzeilen door geen gebruik te maken van door de reclame-industrie geproduceerde standaardcodebibliotheken, hoewel dit onwaarschijnlijk is.
+Als een app vooral een webdienst is, kan de tracking aan de serverzijde plaatsvinden. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps kunnen detectie omzeilen door geen gebruik te maken van door de reclame-industrie geproduceerde standaardcodebibliotheken, hoewel dit onwaarschijnlijk is.
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Privacy-vriendelijke apps zoals [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) kunnen sommige trackers tonen zoals [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). Deze bibliotheek bevat [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) die [pushmeldingen](https://en.wikipedia.org/wiki/Push_technology) in apps kan bieden. Dit [is het geval](https://fosstodon.org/@bitwarden/109636825700482007) met Bitwarden. Dat betekent niet dat Bitwarden alle analysefuncties gebruikt die Google Firebase Analytics biedt.
+Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). Deze bibliotheek bevat [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) die [pushmeldingen](https://en.wikipedia.org/wiki/Push_technology) in apps kan bieden. Dit [is het geval](https://fosstodon.org/@bitwarden/109636825700482007) met Bitwarden. Dat betekent niet dat Bitwarden alle analysefuncties gebruikt die Google Firebase Analytics biedt.
 
 </div>
 
@@ -145,20 +145,20 @@ Als je een apparaat gebruikt met Google-diensten, hetzij ujouw standaard besturi
 
 ### Geavanceerd beschermingsprogramma
 
-Als je een Google-account hebt, raden wij je aan je in te schrijven voor het [Advanced Protection Program](https://landing.google.com/advancedprotection/). Het is gratis beschikbaar voor iedereen met twee of meer hardware beveiligingssleutels met [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) ondersteuning.
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). Het is gratis beschikbaar voor iedereen met twee of meer hardware beveiligingssleutels met [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) ondersteuning.
 
 Het geavanceerde beschermingsprogramma biedt verbeterde controle op bedreigingen en maakt het mogelijk:
 
 - Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - Alleen Google en geverifieerde apps van derden hebben toegang tot accountgegevens
 - Scannen van inkomende e-mails op Gmail-accounts voor [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) pogingen
-- Strengere [veilige browser scannen](https://www.google.com/chrome/privacy/whitepaper.html#malware) met Google Chrome
+- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
 - Striktere herstelprocedure voor accounts met verloren inloggegevens
 
- Als je gebruikmaakt van niet-sandboxed Google Play Services (gebruikelijk op standaard besturingssystemen), wordt het Advanced Protection Program ook geleverd met [extra voordelen](https://support.google.com/accounts/answer/9764949?hl=en), zoals:
+ If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
 
 - Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- Verplichte automatische apparaatscan met [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Je waarschuwt voor niet geverifieerde toepassingen
 
 ### Google Play Systeem Updates
@@ -169,7 +169,7 @@ Als je een EOL-apparaat hebt dat met Android 10 of hoger wordt geleverd en geen 
 
 ### Reclame-ID
 
-Alle apparaten waarop Google Play Services zijn geïnstalleerd, genereren automatisch een [-reclame-ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) die wordt gebruikt voor gerichte reclame. Schakel deze functie uit om de over je verzamelde gegevens te beperken.
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Schakel deze functie uit om de over je verzamelde gegevens te beperken.
 
 Op Android distributies met [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), ga naar :gear: **Instellingen** → **Apps** → **Sandboxed Google Play** → **Google Instellingen** → **Advertenties**, en selecteer *Verwijder reclame ID*.
 

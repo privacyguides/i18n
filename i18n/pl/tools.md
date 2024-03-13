@@ -9,7 +9,7 @@ description: Privacy Guides is the most transparent and reliable website for fin
 
 Jeśli szukasz konkretnego rozwiązania, oto polecane przez nas narzędzia oraz oprogramowanie w różnych kategoriach. Polecane przez nas narzędzia zostały wybrane głównie na podstawie funkcji zabezpieczeń z dodatkowym naciskiem na te o zdecentralizowane i o otwartym kodzie żródłowym. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
@@ -89,7 +89,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 #### DNS Providers
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
 [Dowiedz się więcej :hero-arrow-circle-right-fill:](dns.md)
 

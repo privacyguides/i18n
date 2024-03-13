@@ -28,9 +28,9 @@ De nombreuses banques et fournisseurs de cartes de crédit proposent une fonctio
 
 L'offre gratuite de **Privacy.com** vous permet de créer jusqu'à 12 cartes virtuelles par mois, de fixer des limites de dépenses pour ces cartes et de les arrêter instantanément. Son offre payante vous permet de créer jusqu'à 36 cartes par mois, d'obtenir 1 % de remise en argent sur vos achats et de masquer les informations relatives aux transactions à votre banque.
 
-[:octicons-home-16: Page d'accueil](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
 
 </details>
 
@@ -47,9 +47,9 @@ Privacy.com transmet par défaut à votre banque des informations sur les commer
 
 **MySudo** fournit jusqu'à 9 cartes virtuelles en fonction de l'offre que vous prenez. Leurs offres payantes comprennent en outre des fonctionnalités qui peuvent être utiles pour effectuer des achats de façon privée, telles que des numéros de téléphone et des adresses email virtuels, bien que nous recommandions généralement d'autres [fournisseurs d'alias d'email](email.md) pour une utilisation plus poussée des alias d'email.
 
-[:octicons-home-16: Page d'accueil](https://mysudo.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -83,9 +83,9 @@ Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de 
 
 **CoinCards** (disponible aux Etats-Unis et au Canada) vous permet d'acheter des cartes-cadeaux auprès d'un grand nombre de commerçants.
 
-[:octicons-home-16: Page d'accueil](https://coincards.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
 
 </details>
 

@@ -21,19 +21,19 @@ schema:
 
 **Privacy Guides** is een sociaal gemotiveerde website die [informatie biedt](/kb) voor de bescherming van jouw gegevens en privacy. Onze missie is om het publiek te informeren over de waarde van digitale privacy, en wereldwijde overheidsinitiatieven die erop gericht zijn jouw online activiteiten te controleren. Wij zijn een non-profit collectief dat volledig wordt beheerd door vrijwillige [teamleden](https://discuss.privacyguides.net/g/team) en bijdragers. Onze website is vrij van advertenties en niet geaffilieerd met andere aanbieders in de lijst.
 
-[:octicons-home-16:](https://www.privacyguides.org/){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Broncide" }
-[:octicons-heart-16:](donate.md){ .card-link title=Bijdrage leveren }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[:octicons-heart-16:](donate.md){ .card-link title=Contribute }
 
 > Om [privacygerichte alternatieve] apps te vinden, kunt je kijken op sites als Good Reports en **Privacy Guides**, waar privacygerichte apps in verschillende categorieën worden genoemd, waaronder e-mailproviders (meestal tegen betaling) die niet worden beheerd door de grote techbedrijven.
 
-— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/)
+— [New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
 
 > Als je op zoek bent naar een nieuwe vpn, kun je terecht bij de kortingscode van zowat iedere willekeurige podcast. Als je op zoek bent naar een **goéde** vpn, heb je professionele hulp nodig. Hetzelfde geldt voor e-mailclients, browsers, besturingssystemen en wachtwoordmanagers. Hoe weet je welke daarvan de beste, privacyvriendelijkste optie is? Daarvoor is er **Privacy Guides**, een platform waarop een aantal vrijwilligers dag in, dag uit zoekt naar de beste privacyvriendelijke tools om internet mee op te gaan.
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html)
 
-Ook verschenen op: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), en [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://wired.com/story/firefox-mozilla-2022).
 
 ## Geschiedenis
 
@@ -41,7 +41,7 @@ Privacy Guides werd gelanceerd in september 2021 als voortzetting van het [verou
 
 In 2022 hebben we de overgang van ons belangrijkste websiteframework van Jekyll naar MkDocs voltooid, met behulp van de `mkdocs-material` documentatiesoftware. Deze wijziging maakte open-sourcebijdragen aan onze site aanzienlijk eenvoudiger voor buitenstaanders, omdat in plaats van ingewikkelde syntaxis te moeten kennen om berichten effectief te kunnen schrijven, bijdragen nu net zo eenvoudig is als het schrijven van een standaard Markdown-document.
 
-Daarnaast lanceerden we ons nieuwe discussieforum op [discuss.privacyguides.net](https://discuss.privacyguides.net/) als een gemeenschapsplatform om ideeën te delen en vragen te stellen over onze missie. Dit vergroot onze bestaande community op Matrix, en vervangt ons vorige GitHub Discussieplatform, waardoor we minder afhankelijk worden van discussieplatformen van derden.
+We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. Dit vergroot onze bestaande community op Matrix, en vervangt ons vorige GitHub Discussieplatform, waardoor we minder afhankelijk worden van discussieplatformen van derden.
 
 Tot nu toe hebben we in 2023 internationale vertalingen van onze website gelanceerd in [Frans](/fr/), [Hebreeuws](/he/), en [Nederlands](/nl/), met meer talen op komst, mogelijk gemaakt door ons uitstekende vertaalteam op [Crowdin](https://crowdin.com/project/privacyguides). We zijn van plan onze missie van voorlichting en educatie voort te zetten en manieren te vinden om de gevaren van een gebrek aan privacybewustzijn in het moderne digitale tijdperk en de prevalentie en schade van beveiligingsinbreuken in de technologie-industrie duidelijker te benadrukken.
 

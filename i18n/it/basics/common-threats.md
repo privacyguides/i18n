@@ -55,7 +55,7 @@ Per loro natura, i **browser web**, i **client email** e le **applicazioni per u
 
 </div>
 
-Se temi un **attacco fisico**, dovresti utilizzare un sistema operativo con un'implementazione d'avvio verificata e sicura, come Android, iOS, macOS, o [Windows (con TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Inoltre, dovresti assicurarti che la tua unità sia crittografata e che il sistema operativo utilizzi un TPM o Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) od [Element](https://developers.google.com/android/security/android-ready-se), per limitare la frequenza dei tentativi di inserire la frase segreta crittografica. Dovresti evitare di condividere il tuo computer con persone di cui non ti fidi, poiché gran parte dei sistemi operativi per desktop non crittografa i dati separatamente, per ogni utente.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Inoltre, dovresti assicurarti che la tua unità sia crittografata e che il sistema operativo utilizzi un TPM o Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) od [Element](https://developers.google.com/android/security/android-ready-se), per limitare la frequenza dei tentativi di inserire la frase segreta crittografica. Dovresti evitare di condividere il tuo computer con persone di cui non ti fidi, poiché gran parte dei sistemi operativi per desktop non crittografa i dati separatamente, per ogni utente.
 
 ## Privacy dai fornitori del servizio
 
@@ -89,16 +89,16 @@ La sorveglianza di massa consiste nell'intricato sforzo di monitorare il "compor
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlante della sorveglianza</p>
 
-Se vuoi saperne di più sui metodi di sorveglianza e su come vengono attuati nella tua città, puoi anche dare un'occhiata all'[Atlas of Surveillance](https://atlasofsurveillance.org/) della [Electronic Frontier Foundation](https://www.eff.org/).
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In Francia è possibile consultare il [sito web di Technopolice](https://technopolice.fr/villes/) gestito dall'associazione no-profit La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 Spesso, i governi, giustificano i programmi di sorveglianza di massa come mezzi necessari per combattere il terrorismo e prevenire il crimine. Tuttavia, violando i diritti umani, sono spesso utilizzati per colpire in modo sproporzionato gruppi di minoranza e dissidenti politici, tra gli altri.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">La lezione sulla privacy dell'11 settembre: La sorveglianza di massa non è la strada da seguire</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 Di fronte alle [divulgazioni di Edward Snowden dei programmi governativi come [PRISM](https://it.wikipedia.org/wiki/PRISM_(programma_di_sorveglianza)) e [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)]; inoltre, i funzionari dell'intelligence hanno ammesso che l'NSA ha raccolto segretamente per anni i registri su virtualmente ogni chiamata telefonica statunitense: chi chiama chi, quando e quanto durano. Questo tipo di informazioni, accumulate dall'NSA giorno dopo giorno, possono rivelare dettagli incredibilmente sensibili sulle vite delle persone e le associazioni, come se hanno chiamato un prete, una struttura preposta all'aborto, un consulente per le dipendenze o una linea diretta anti-suicidi.
 
@@ -144,7 +144,7 @@ Se hai già inviato le tue informazioni reali ai siti che non dovrebbero possede
 
 La censura online è attuabile (in varie misure) da attori tra cui i governi totalitari, gli amministratori di rete e i fornitori dei servizi. Questi sforzi di controllo della comunicazione e di limitazione dell'accesso alle informazioni, saranno sempre incompatibili con il diritto umano alla Libertà d'Espressione.[^5]
 
-La censura sulle piattaforme aziendali è sempre più comune, in quanto piattaforme come Twitter e Facebook cedono alle richieste del pubblico, alle pressioni di mercato e alle pressioni dalle agenzie governative. Le pressioni governative possono essere richieste segrete alle aziende, come la [richiesta di rimozione](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) della Casa Bianca di un video YouTube provocativo, o palesi, come il governo cinese che richiede alle aziende di aderire a un rigido regime di censura.
+La censura sulle piattaforme aziendali è sempre più comune, in quanto piattaforme come Twitter e Facebook cedono alle richieste del pubblico, alle pressioni di mercato e alle pressioni dalle agenzie governative. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 Le persone preoccupate dalla minaccia della censura possono utilizzare tecnologie come [Tor](../advanced/tor-overview.md) per aggirarla, e supportare le piattaforme di comunicazione resistenti alla censura come [Matrix](../real-time-communication.md#element), prive di autorità centralizzata che possa chiudere arbitrariamente i profili.
 
@@ -162,5 +162,5 @@ Devi sempre considerare i rischi di provare a eludere la censura, le potenziali 
 [^1]: Wikipedia: [*Sorveglianza di massa*](https://en.wikipedia.org/wiki/Mass_surveillance) e [*Sorveglianza*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: Comitato di Supervisione delle Libertà Civili e della Privacy degli Stati Uniti: [*Rapporto sul Programma dei registri telefonici condotto ai sensi della Sezione 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Capitalismo di sorveglianza*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (o, "elencare tutte le cose cattive che conosciamo"), come molti blocker di contenuti e programmi antivirus fanno, non riesce a proteggerti adeguatamente da minacce nuove e sconosciute perché non sono ancora state aggiunte alla lista dei filtri. Inoltre, dovresti utilizzare altre tecniche di mitigazione.
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Inoltre, dovresti utilizzare altre tecniche di mitigazione.
 [^5]: Nazioni Unite: [*Dichiarazione Universale dei Diritti dell'Uomo*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

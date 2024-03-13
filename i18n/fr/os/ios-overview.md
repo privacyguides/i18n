@@ -22,7 +22,7 @@ La seule source d'applications sur iOS est l'App Store d'Apple, dont l'accès n�
 
 ### Télémétrie invasive
 
-Apple a, par le passé, eu des problèmes pour anonymiser correctement ses données télémétriques sur iOS. [En 2019](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), il a été constaté qu'Apple transmettait des enregistrements Siri - dont certains contenaient des informations hautement confidentielles - à ses serveurs pour qu'ils soient examinés manuellement par des contractants tiers. Bien qu'ils aient temporairement arrêté ce programme après que cette pratique ait été [largement signalée](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), le problème n'a été complètement résolu [qu'en 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+Apple a, par le passé, eu des problèmes pour anonymiser correctement ses données télémétriques sur iOS. [In 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
 Plus récemment, il a été constaté qu'Apple [transmettait des données analytiques même lorsque le partage des données analytiques était désactivé](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) sur iOS, et ces données [semblent](https://twitter.com/mysk_co/status/1594515229915979776) être facilement reliées à des identifiants de compte iCloud uniques, bien qu'elles soient censées être anonymes.
 
@@ -54,7 +54,7 @@ En haut de l'application **Réglages**, vous verrez votre nom et votre photo de 
 
 #### Localiser
 
-**Localiser** est un service qui vous permet de suivre vos appareils Apple et de partager votre localisation avec vos amis et votre famille. Il vous permet également d'effacer votre appareil à distance en cas de vol, empêchant ainsi un voleur d'accéder à vos données. Vos [données de localisation Localiser sont E2EE](https://www.apple.com/legal/privacy/data/fr/find-my/) lorsque :
+**Localiser** est un service qui vous permet de suivre vos appareils Apple et de partager votre localisation avec vos amis et votre famille. Il vous permet également d'effacer votre appareil à distance en cas de vol, empêchant ainsi un voleur d'accéder à vos données. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
 
 - Votre position est partagée avec un membre de votre famille ou un ami, et vous utilisez tous deux iOS 15 ou une version ultérieure.
 - Votre appareil est hors ligne et est localisé par le réseau de Localiser.
@@ -117,7 +117,7 @@ Si vous ne voulez pas que quelqu'un puisse contrôler votre téléphone avec Sir
 
 Définir un mot de passe fort pour votre téléphone est la mesure la plus importante que vous puissiez prendre pour assurer la sécurité physique de votre appareil. Vous devrez faire des compromis entre la sécurité et la commodité : un mot de passe plus long sera fastidieux à saisir à chaque fois, mais un mot de passe ou un code PIN plus court sera plus facile à deviner. Configurer Face ID ou Touch ID avec un mot de passe fort peut être un bon compromis entre convivialité et sécurité.
 
-Sélectionnez **Activer le code d'accès** ou **Modifier le code d'accès** > **Options du code d'accès** > **Code alphanumérique personnalisé**. Veillez à créer un [mot de passe sûr](https://www.privacyguides.org/basics/passwords-overview/).
+Sélectionnez **Activer le code d'accès** ou **Modifier le code d'accès** > **Options du code d'accès** > **Code alphanumérique personnalisé**. Make sure that you create a [secure password](../basics/passwords-overview.md).
 
 Si vous souhaitez utiliser Face ID ou Touch ID, vous pouvez le configurer maintenant. Votre téléphone utilisera le mot de passe que vous avez défini précédemment comme solution de secours en cas d'échec de la vérification biométrique. Les méthodes de déverrouillage biométrique existent principalement pour la commodité, même si elles empêchent les caméras de surveillance ou les personnes de vous regarder saisir votre code d'accès par-dessus votre épaule.
 
@@ -129,7 +129,7 @@ Sur certains appareils plus anciens, vous devrez peut-être appuyer cinq fois su
 
 - [x] Sélectionnez **Activer la protection**
 
-Après avoir activé la protection en cas de vol de l’appareil, [certaines actions](https://support.apple.com/en-us/HT212510) nécessiteront une authentification biométrique sans possibilité de recourir au mot de passe (dans le cas où un passant obtient votre code PIN à la dérobée), comme l'utilisation du remplissage des mots de passe, l'accès aux informations de paiement et la désactivation du mode perdu. Elle ajoute également un délai de sécurité pour certaines actions effectuées en dehors de votre domicile ou d'un autre "lieu familier", comme la nécessité d'un délai d'une heure pour réinitialiser votre mot de passe Apple ID ou vous déconnecter de votre Apple ID. Ce délai a pour but de vous donner le temps d'activer le mode Perdu et de sécuriser votre compte avant qu'un voleur ne puisse réinitialiser votre appareil.
+After enabling stolen data protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. Elle ajoute également un délai de sécurité pour certaines actions effectuées en dehors de votre domicile ou d'un autre "lieu familier", comme la nécessité d'un délai d'une heure pour réinitialiser votre mot de passe Apple ID ou vous déconnecter de votre Apple ID. Ce délai a pour but de vous donner le temps d'activer le mode Perdu et de sécuriser votre compte avant qu'un voleur ne puisse réinitialiser votre appareil.
 
 **Autoriser l'accès lorsque le téléphone est verrouillé** vous offre des options pour définir ce que vous pouvez autoriser lorsque votre téléphone est verrouillé. Plus vous désactivez d'options, moins quelqu'un qui n'a pas votre mot de passe peut faire de choses, mais moins c'est pratique pour vous. Choisissez les éléments auxquels vous ne voulez pas que quelqu'un ait accès s'il met la main sur votre téléphone.
 
@@ -187,7 +187,7 @@ Désactivez **Publicités personnalisées** si vous ne voulez pas de publicités
 
 - [x] Sélectionnez **Activer le rapport de confidentialité des apps**
 
-Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) est un paramètre de sécurité que vous pouvez activer pour rendre votre téléphone plus résistant aux attaques. Sachez que certaines applications et fonctionnalités [ne fonctionneront pas](https://support.apple.com/fr-fr/HT212650) comme elles le font normalement.
+Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) est un paramètre de sécurité que vous pouvez activer pour rendre votre téléphone plus résistant aux attaques. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
 
 - [x] Sélectionnez **Activer le mode Isolement**
 

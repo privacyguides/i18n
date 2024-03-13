@@ -15,12 +15,12 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 יש כמה חששות בולטים של פרטיות עם לינוקס שכדאי להיות מודעים אליהם. למרות החסרונות הללו, הפצות לינוקס לשולחן העבודה עדיין נהדרות עבור רוב האנשים שרוצים:
 
 - הימנע מטלמטריה שמגיעה לרוב עם מערכות הפעלה קנייניות
-- לשמור על [חופש תוכנה](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- השתמש במערכות ממוקדות פרטיות כגון [Whonix](https://www.whonix.org) או [Tails](https://tails.boum.org/)
+- Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
+- Use privacy focused systems such as [Whonix](https://whonix.org) or [Tails](https://tails.net)
 
 ### Open-Source Security
 
-זוהי [תפיסה שגויה נפוצה](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) שלינוקס ותוכנות קוד פתוח אחרות מאובטחות מטבען פשוט בגלל שקוד המקור זמין. יש ציפייה שאימות קהילה מתרחש באופן קבוע, אבל זה לא תמיד [המקרה](https://seirdy.one/posts/2022/02/02/floss-security/).
+זוהי [תפיסה שגויה נפוצה](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) שלינוקס ותוכנות קוד פתוח אחרות מאובטחות מטבען פשוט בגלל שקוד המקור זמין. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
 
 במציאות, אבטחת הפצה תלויה במספר גורמים, כגון פעילות הפרויקט, חווית מפתח, רמת הקפדנות המופעלת על ביקורות קוד, וכמה פעמים ניתנת תשומת לב לחלקים ספציפיים של בסיס הקוד שעלולים להישאר ללא נגיעה במשך שנים.
 
@@ -30,9 +30,9 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 - **אתחול מאומת** בלינוקס אינו חזק כמו חלופות כגון [אתחול מאובטח של אפל](https://support.apple.com/guide/security/secac71d5623/web) או [אתחול מאומת](https://source.android.com/security/verifiedboot) של אנדרואיד. אתחול מאומת מונע התעסקות מתמשכת על ידי תוכנות זדוניות ו[התקפות עוזרות מרושעות](https://en.wikipedia.org/wiki/Evil_Maid_attack), אך הוא עדיין ברובו [לא זמין אפילו בהפצות המתקדמות ביותר](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
-- **ארגז חול חזק** עבור אפליקציות בלינוקס חסר מאוד, אפילו עם אפליקציות מכולות כמו Flatpaks או פתרונות ארגז חול כמו Firejail. Flatpak היא כלי השירות המבטיח ביותר לארגזי חול עבור לינוקס עד כה, אך עדיין חסרה בתחומים רבים ומאפשרת [ברירות מחדל לא בטוחות](https://flatkill.org/2020/) המאפשרות לרוב האפליקציות לעקוף באופן טריוויאלי את ארגז החול שלהם.
+- **ארגז חול חזק** עבור אפליקציות בלינוקס חסר מאוד, אפילו עם אפליקציות מכולות כמו Flatpaks או פתרונות ארגז חול כמו Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which allow most apps to trivially bypass their sandbox.
 
-בנוסף, לינוקס מפגרת בהטמעת [הפחתות ניצול](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) אשר כעת סטנדרטיות במערכות הפעלה אחרות, כגון Code Guard שרירותי ב-Windows או Hardened Runtime ב-macOS. כמו כן, רוב תוכניות הלינוקס ולינוקס עצמה מקודדות בשפות שאינן בטוחות בזיכרון. באגים של שחיתות זיכרון אחראים ל[רוב הפגיעויות](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code/) תיקנו והוקצו CVE. למרות שזה נכון גם עבור Windows ו-macOS, הם מתקדמים במהירות באימוץ שפות בטוחות לזיכרון - כמו Rust ו- Swift, בהתאמה - בעוד שאין מאמץ דומה לשכתב את לינוקס בשפה בטוחה לזיכרון כמו Rust.
+בנוסף, לינוקס מפגרת בהטמעת [הפחתות ניצול](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) אשר כעת סטנדרטיות במערכות הפעלה אחרות, כגון Code Guard שרירותי ב-Windows או Hardened Runtime ב-macOS. כמו כן, רוב תוכניות הלינוקס ולינוקס עצמה מקודדות בשפות שאינן בטוחות בזיכרון. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. למרות שזה נכון גם עבור Windows ו-macOS, הם מתקדמים במהירות באימוץ שפות בטוחות לזיכרון - כמו Rust ו- Swift, בהתאמה - בעוד שאין מאמץ דומה לשכתב את לינוקס בשפה בטוחה לזיכרון כמו Rust.
 
 ## בחירת ההפצה שלך
 
@@ -42,9 +42,9 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 אנו ממליצים בחום לבחור בהפצות שנשארות קרובות למהדורות התוכנה היציבות במעלה הזרם, המכונה לעתים קרובות הפצות מהדורות מתגלגלות. הסיבה לכך היא שהפצות מחזור שחרור קפוא לרוב אינן מעדכנות גרסאות חבילה ונגררות לפי עדכוני אבטחה.
 
-עבור הפצות קפואות כגון [Debian](https://www.debian.org/security/faq#handling), מתחזקים חבילות צפויים לבצע אחורה תיקונים כדי לתקן נקודות תורפה במקום להקפיץ את התוכנה ל- "הגרסה הבאה" שפורסמה על ידי המפתח במעלה הזרם. חלק מתיקוני האבטחה [לא](https://arxiv.org/abs/2105.14565) מקבלים [מזהה CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (במיוחד תוכנה פחות פופולרית) כלל ולכן אינם נכנסים להפצה עם מודל התיקון הזה. כתוצאה מכך תיקוני אבטחה קלים מתעכבים לפעמים עד לגרסה הגדולה הבאה.
+For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. חלק מתיקוני האבטחה [לא](https://arxiv.org/abs/2105.14565) מקבלים [מזהה CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (במיוחד תוכנה פחות פופולרית) כלל ולכן אינם נכנסים להפצה עם מודל התיקון הזה. כתוצאה מכך תיקוני אבטחה קלים מתעכבים לפעמים עד לגרסה הגדולה הבאה.
 
-אנחנו לא מאמינים שהחזקת חבילות והחלת תיקוני ביניים הם רעיון טוב, מכיוון שהוא שונה מהדרך שבה המפתח התכוון שהתוכנה תעבוד. ל [Richard Brown](https://rootco.de/aboutme/) יש מצגת על נושא זה:
+אנחנו לא מאמינים שהחזקת חבילות והחלת תיקוני ביניים הם רעיון טוב, מכיוון שהוא שונה מהדרך שבה המפתח התכוון שהתוכנה תעבוד. [Richard Brown](https://rootco.de/aboutme) has a presentation about this:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="מהדורות רגילות הן שגויות, גלגלו על החיים שלכם" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -74,7 +74,7 @@ The Atomic update method is used for [distributions](../desktop.md#atomic-distri
 
 עבור מערכת מאובטחת, מצפים ממך גם שיהיה לך מספיק ידע בלינוקס כדי להגדיר כראוי אבטחה עבור המערכת שלהם, כגון אימוץ מערכת [בקרת כניסה חובה](https://en.wikipedia.org/wiki/Mandatory_access_control), הגדרת רשימות שחורות של [מודול ליבה](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) רשימות שחורות, הקשחת פרמטרי אתחול, מניפולציה של [סיסקטל](https://en.wikipedia.org/wiki/Sysctl) פרמטרים, ולדעת אילו רכיבים הם צריכים כמו [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-כל מי שמשתמש ב[Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **חייב** להרגיש בנוח ביקורת PKGBUILD שהם מורידים מהשירות הזה. חבילות AUR הן תוכן המיוצר בקהילה ואינן נבדקות בשום צורה, ולכן הן פגיעות להתקפות שרשרת אספקת תוכנה, [מה שקרה למעשה](https://www.bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository/).
+כל מי שמשתמש ב[Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **חייב** להרגיש בנוח ביקורת PKGBUILD שהם מורידים מהשירות הזה. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software supply chain attacks, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
 
 תמיד יש להשתמש ב-AUR במשורה, ולעתים קרובות יש הרבה עצות רעות בדפים שונים שמפנים אנשים להשתמש באופן עיוור ב[עוזרים של AUR](https://wiki.archlinux.org/title/AUR_helpers) ללא אזהרה מספקת. אזהרות דומות חלות על שימוש בארכיון חבילות אישיות של צד שלישי (PPA) בהפצות מבוססות דביאן או בפרויקטים קהילתיים (COPR) בפדורה.
 
@@ -83,11 +83,11 @@ The Atomic update method is used for [distributions](../desktop.md#atomic-distri
 בנוסף, אנו ממליצים על **נגד** שתי נגזרות Arch אלו במיוחד:
 
 - **Manjaro**: הפצה זו מעכבת חבילות למשך שבועיים כדי לוודא שהשינויים שלהן לא יישברו, לא כדי לוודא שהמעלה הזרם יציב. כאשר נעשה שימוש בחבילות AUR, הן בנויות לרוב על פי [ספריות](https://en.wikipedia.org/wiki/Library_(computing)) העדכניות ביותר מהמאגרים של Arch.
-- **Garuda**: הם משתמשים ב[Chaotic-AUR](https://aur.chaotic.cx/) אשר מרכיב באופן אוטומטי ועיוור חבילות מה- AUR. אין תהליך אימות כדי לוודא שחבילות AUR אינן סובלות מהתקפות שרשרת האספקה.
+- **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx) which automatically and blindly compiles packages from the AUR. אין תהליך אימות כדי לוודא שחבילות AUR אינן סובלות מהתקפות שרשרת האספקה.
 
 ### הפצות ליבה של לינוקס ו-"Libre"
 
-אנו ממליצים **נגד** להשתמש בליבת Linux-libre, מכיוון שהיא [מסירה אמצעי אבטחה](https://www.phoronix.com/news/GNU-Linux-Libre-5.7-Released) ו[מדכא אזהרות ליבה](https://news.ycombinator.com/item?id=29674846) לגבי מיקרוקוד פגיע.
+We recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode.
 
 ## המלצות כלליות
 
@@ -95,7 +95,7 @@ The Atomic update method is used for [distributions](../desktop.md#atomic-distri
 
 לרוב ההפצות של לינוקס יש אפשרות בתוך תוכנית ההתקנה שלה להפעלת [LUKS](../encryption.md#linux-unified-key-setup) FDE. אם אפשרות זו לא מוגדרת בזמן ההתקנה, תצטרך לגבות את הנתונים שלך ולהתקין מחדש, מכיוון שההצפנה מוחלת לאחר [חלוקת דיסקים ](https://en.wikipedia.org/wiki/Disk_partitioning), אבל לפני ש[מערכות הקבצים](https://en.wikipedia.org/wiki/File_system) מתעצבות. אנו מציעים גם למחוק בצורה מאובטחת את מכשיר האחסון שלך:
 
-- [מחיקת נתונים מאובטחת :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure/)
+- [מחיקת נתונים מאובטחת :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
 ### החלף
 
@@ -105,15 +105,15 @@ The Atomic update method is used for [distributions](../desktop.md#atomic-distri
 
 ### Wayland
 
-אנו ממליצים להשתמש בסביבת שולחן עבודה התומכת בפרוטוקול התצוגה [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)), שכן הוא פותח עם האבטחה [לזכור](https://lwn.net/Articles/589147/). קודמו ([X11](https://en.wikipedia.org/wiki/X_Window_System)) אינו תומך בבידוד GUI, המאפשר לכל חלון [תיעדו, רשמו והזריקו קלט בחלונות אחרים](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), מה שהופך כל ניסיון לארגז חול חסר תועלת. אמנם יש אפשרויות לעשות X11 מקונן כגון [Xpra](https://en.wikipedia.org/wiki/Xpra) או [Xephyr](https://en.wikipedia.org/wiki/Xephyr), לעתים קרובות הם מגיעים עם השלכות ביצועים שליליות, ואינם נוחים להגדרה ואינם עדיפים על פני Wayland.
+We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). קודמו ([X11](https://en.wikipedia.org/wiki/X_Window_System)) אינו תומך בבידוד GUI, המאפשר לכל חלון [תיעדו, רשמו והזריקו קלט בחלונות אחרים](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), מה שהופך כל ניסיון לארגז חול חסר תועלת. אמנם יש אפשרויות לעשות X11 מקונן כגון [Xpra](https://en.wikipedia.org/wiki/Xpra) או [Xephyr](https://en.wikipedia.org/wiki/Xephyr), לעתים קרובות הם מגיעים עם השלכות ביצועים שליליות, ואינם נוחים להגדרה ואינם עדיפים על פני Wayland.
 
-Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://www.gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). חלק מההפצות כמו Fedora ו- Tumbleweed משתמשות בו כברירת מחדל, וחלק אחרות עשויות לעשות זאת בעתיד מכיוון ש-X11 נמצא ב[מצב תחזוקה קשה](https://www.phoronix.com/news/X.Org-Maintenance-Mode-Quickly). אם אתה משתמש באחת מהסביבות האלה זה קל כמו לבחור את הפגישה "Wayland" במנהל התצוגה של שולחן העבודה ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). אם אתה משתמש באחת מהסביבות האלה זה קל כמו לבחור את הפגישה "Wayland" במנהל התצוגה של שולחן העבודה ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 אנו ממליצים **נגד** להשתמש בסביבות שולחן עבודה או במנהלי חלונות שאין להם תמיכה ב-Wayland, כגון Cinnamon (ברירת מחדל ב-Linux Mint), Pantheon (ברירת מחדל במערכת ההפעלה היסודית), MATE, Xfce, ו-i3.
 
 ### קושחה קניינית (עדכוני מיקרוקוד)
 
-חלק מההפצות של לינוקס (כגון [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) מבוססות או הפצות עשה זאת בעצמך) אינן מגיעות עם קנייני [microcode](https://en.wikipedia.org/wiki/Microcode) עדכוני המתקן פרצות אבטחה קריטיות. כמה דוגמאות בולטות לפגיעויות אלה כוללות [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), ועוד [hardware vulnerabilities](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
+חלק מההפצות של לינוקס (כגון [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) מבוססות או הפצות עשה זאת בעצמך) אינן מגיעות עם קנייני [microcode](https://en.wikipedia.org/wiki/Microcode) עדכוני המתקן פרצות אבטחה קריטיות. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
 אנו **ממליצים בחום** להתקין עדכוני מיקרוקוד, מכיוון שהם מכילים תיקוני אבטחה חשובים עבור ה-CPU אשר לא ניתן להפחית באופן מלא בתוכנה בלבד. לפדורה ול-openSUSE יש את עדכוני המיקרוקוד כברירת מחדל.
 
@@ -131,11 +131,11 @@ Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protoc
 
 הפצות רבות של לינוקס לשולחן העבודה (Fedora, openSUSE וכו') מגיעות עם [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) כדי להגדיר הגדרות Ethernet ו-Wi-Fi.
 
-אפשר [לבצע באקראי](https://fedoramagazine.org/randomize-mac-address-nm/) את [כתובת MAC](https://en.wikipedia.org/wiki/MAC_address) בעת שימוש ב-NetworkManager. זה מספק קצת יותר פרטיות ברשתות Wi-Fi מכיוון שהוא מקשה על מעקב אחר מכשירים ספציפיים ברשת שאליה אתה מחובר. זה [**לא**](https://papers.mathyvanhoef.com/wisec2016.pdf) הופך אותך לאנונימי.
+It is possible to [randomize](https://fedoramagazine.org/randomize-mac-address-nm) the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. זה מספק קצת יותר פרטיות ברשתות Wi-Fi מכיוון שהוא מקשה על מעקב אחר מכשירים ספציפיים ברשת שאליה אתה מחובר. זה [**לא**](https://papers.mathyvanhoef.com/wisec2016.pdf) הופך אותך לאנונימי.
 
-אנו ממליצים לשנות את ההגדרה ל-**אקראי** </strong>במקום** יציב**, כפי שהוצע ב[מאמר](https://fedoramagazine.org/randomize-mac-address-nm/).
+We recommend changing the setting to **random** instead of **stable**, as suggested in the [article](https://fedoramagazine.org/randomize-mac-address-nm).
 
-אם אתה משתמש ב [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), יהיה עליך להגדיר [`MACAddressPolicy=random`](https://www.freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) אשר יאפשר [RFC 7844 (פרופילי אנונימיות עבור לקוחות DHCP)](https://www.freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
+If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), you will need to set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) which will enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
 כתובות MAC אקראית מועילה בעיקר עבור חיבורי Wi-Fi. עבור חיבורי אינטרנט, כתובת אקראית של ה-MAC שלך מספקת תועלת מועטה (אם בכלל), מכיוון שמנהל רשת יכול לזהות את המכשיר שלך באופן טריוויאלי באמצעים אחרים (כגון בדיקת היציאה אליה אתה מחובר במתג הרשת). הקצאה אקראית של כתובות Wi-Fi MAC תלויה בתמיכה מהקושחה של ה-Wi-Fi.
 
@@ -151,6 +151,6 @@ Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protoc
 
 פרויקט Fedora [סופר](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) כמה מערכות ייחודיות ניגשים למראות שלו באמצעות [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) משתנה במקום מזהה ייחודי. פדורה עושה זאת כדי לקבוע עומס והספקת שרתים טובים יותר עבור עדכונים במידת הצורך.
 
-[אפשרות](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) זו כבויה כעת כברירת מחדל. אנו ממליצים להוסיף את `countme=false` ל-`/etc/dnf/dnf.conf` למקרה שהוא יופעל בעתיד. במערכות המשתמשות ב-`rpm-ostree` כגון Silverblue, אפשרות ה-countme מושבתת על ידי מיסוך של [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems/) טיימר.
+[אפשרות](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) זו כבויה כעת כברירת מחדל. אנו ממליצים להוסיף את `countme=false` ל-`/etc/dnf/dnf.conf` למקרה שהוא יופעל בעתיד. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
 
 openSUSE משתמשת גם ב[מזהה ייחודי](https://en.opensuse.org/openSUSE:Statistics) כדי לספור מערכות, אותן ניתן להשבית על ידי מחיקת הקובץ `/var/lib/zypp/AnonymousUniqueId`.

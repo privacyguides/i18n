@@ -30,7 +30,7 @@ TOTP是目前最常见的MFA形式之一。 当你设置TOTP时，一般要求�
 
 然后，时限代码可以由共享密钥和当前时间派生。 由于代码只在很短的时间内有效，在无法获得共享密钥的情况下，对手无法生成新的代码。
 
-如果你有一个支持TOTP的硬件安全密钥（如YubiKey与 [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)），我们建议你将 "共享密钥 "存储在硬件上。 YubiKey等硬件正是为了使 "共享密钥 "难以提取和复制而开发的。 YubiKey也没有连接到互联网，这与带有TOTP应用程序的手机不同。
+If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. YubiKey等硬件正是为了使 "共享密钥 "难以提取和复制而开发的。 YubiKey也没有连接到互联网，这与带有TOTP应用程序的手机不同。
 
 与 [WebAuthn](#fido-fast-identity-online)不同，TOTP不提供对 [网络钓鱼](https://en.wikipedia.org/wiki/Phishing) 或重放攻击的保护。 如果对手从你那里获得一个有效的代码，他们可以随意使用，直到它过期（一般为60秒）。
 
@@ -122,13 +122,13 @@ WebAuthn是第二因素身份验证中的最安全、最私密的形式。 虽�
 
 ### Windows 系统
 
-Yubico有一个专用的 [凭据提供程序](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) ，为本地Windows帐户的用户名+密码登录流程添加质询-响应身份验证步骤。 如果你有一个支持质询-响应验证的YubiKey, 请看 [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), 该指南允许您在Windows计算机上设置MFA
+Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
 
 ### mac系统
 
 macOS [原生支持](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 使用智能卡（PIV）进行认证。 如果你有一张支持PIV接口的智能卡或硬件安全钥匙，如YubiKey，我们建议你按照你的智能卡/硬件安全供应商的文档，为你的macOS电脑设置第二要素认证。
 
-Yubico有一个指南 [在macOS中把YubiKey作为智能卡使用](https://support.yubico.com/hc/en-us/articles/360016649059) ，可以帮助你在macOS上设置YubiKey。
+Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
 设置智能卡/安全密钥后，我们建议在终端中运行此命令：
 
@@ -147,22 +147,22 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 </div>
 
-Linux上的 `pam_u2f` 模块可以在大多数流行的Linux发行版上为登录提供双因素认证。 如果你有一个支持U2F的硬件安全密钥，你可以为你的登录设置MFA认证。 Yubico有一个指南 [Ubuntu Linux登录指南 - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) ，它应该适用于任何发行版。 然而，软件包管理器的命令--如 `apt-get`--和软件包名称可能不同。 本指南 **不** 适用于Qubes OS。
+Linux上的 `pam_u2f` 模块可以在大多数流行的Linux发行版上为登录提供双因素认证。 如果你有一个支持U2F的硬件安全密钥，你可以为你的登录设置MFA认证。 Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. 然而，软件包管理器的命令--如 `apt-get`--和软件包名称可能不同。 本指南 **不** 适用于Qubes OS。
 
 ### Qubes操作系统
 
-Qubes OS支持使用YubiKeys进行质询-响应身份验证。 如果您有一个支持质询-响应身份验证的YubiKey，如果您想在Qubes OS上设置MFA，请查看Qubes OS的 [YubiKey文档](https://www.qubes-os.org/doc/yubikey/)。
+Qubes OS支持使用YubiKeys进行质询-响应身份验证。 If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
 
 ### SSH
 
 #### 硬件安全密钥
 
-可以用多种不同的流行的硬件安全密钥验证方法来设置SSH MFA。 我们建议你查看Yubico的 [文档](https://developers.yubico.com/SSH/) 了解如何设置。
+可以用多种不同的流行的硬件安全密钥验证方法来设置SSH MFA。 We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
 
 #### 基于时间的一次性密码（TOTP）。
 
-SSH MFA也可以使用TOTP进行设置。 DigitalOcean提供了一个教程 [如何在Ubuntu 20.04上为SSH设置多因素认证](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)。 无论哪个发行版，大多数东西都应该是一样的，但是软件包管理器命令--例如 `apt-get`--和软件包名称可能不同。
+SSH MFA也可以使用TOTP进行设置。 DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). 无论哪个发行版，大多数东西都应该是一样的，但是软件包管理器命令--例如 `apt-get`--和软件包名称可能不同。
 
 ### KeePass (和KeePassXC)
 
-KeePass和KeePassXC数据库可以使用质询响应或HOTP作为第二因素身份验证进行保护。 Yubico为KeePass提供了一份文件 [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) ，在 [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) 网站上也有一份。
+KeePass和KeePassXC数据库可以使用质询响应或HOTP作为第二因素身份验证进行保护。 Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

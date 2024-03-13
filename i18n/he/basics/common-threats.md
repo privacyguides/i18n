@@ -55,7 +55,7 @@ description: מודל האיום שלך הוא אישי עבורך, אך אלו 
 
 </div>
 
-אם אתה מודאג מ**התקפות פיזיות**, עליך להשתמש במערכת הפעלה עם יישום אתחול מאומת מאובטח, כגון Android, iOS, macOS או [Windows (עם TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). עליך גם לוודא שהכונן שלך מוצפן ושמערכת ההפעלה משתמשת ב-TPM או ב-Secure [מובלע](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) או [אלמנט](https://developers.google.com/android/security/android-ready-se) כדי להגביל ניסיונות להזין את ביטוי הסיסמה להצפנה. עליך להימנע משיתוף המחשב שלך עם אנשים שאינך סומך עליהם, מכיוון שרוב מערכות ההפעלה שולחניות אינן מצפינות נתונים בנפרד לכל משתמש.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). עליך גם לוודא שהכונן שלך מוצפן ושמערכת ההפעלה משתמשת ב-TPM או ב-Secure [מובלע](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) או [אלמנט](https://developers.google.com/android/security/android-ready-se) כדי להגביל ניסיונות להזין את ביטוי הסיסמה להצפנה. עליך להימנע משיתוף המחשב שלך עם אנשים שאינך סומך עליהם, מכיוון שרוב מערכות ההפעלה שולחניות אינן מצפינות נתונים בנפרד לכל משתמש.
 
 ## פרטיות מספקי שירות
 
@@ -89,16 +89,16 @@ description: מודל האיום שלך הוא אישי עבורך, אך אלו 
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-אם אתה רוצה ללמוד עוד על שיטות מעקב וכיצד הן מיושמות בעיר שלך, תוכל גם להסתכל על [אטלס המעקב](https://atlasofsurveillance.org/) של [Electronic Frontier Foundation](https://www.eff.org/).
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 ממשלות לעתים קרובות מצדיקות תוכניות מעקב המוניות כאמצעים הכרחיים למאבק בטרור ולמניעת פשע. עם זאת, תוך הפרת זכויות אדם, הוא משמש לרוב כדי למקד באופן לא פרופורציונלי קבוצות מיעוט ומתנגדים פוליטיים, בין היתר.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 אל מול [חשיפותיו של אדוארד סנודן לגבי תוכניות ממשלתיות כגון [PRISM](https://en.wikipedia.org/wiki/PRISM) ו-[Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], פקידי מודיעין גם הודו כי ה-NSA במשך שנים אספה בחשאי תיעוד על כמעט כל שיחות טלפון של כל אמריקאי - מי מתקשר למי, מתי השיחות הללו מבוצעות וכמה זמן הן נמשכות. מידע מסוג זה, כאשר הוא נצבר על ידי ה-NSA יום אחר יום, יכול לחשוף פרטים רגישים להפליא על חייהם והאסוציאציות של אנשים, כגון האם הם התקשרו לכומר, מטפל בהפלות, ליועצת להתמכרות או למוקד התאבדות.
 
@@ -144,7 +144,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 צנזורה מקוונת יכולה להתבצע (בדרגות שונות) על ידי שחקנים כולל ממשלות טוטליטריות, מנהלי רשתות וספקי שירותים. מאמצים אלה לשלוט בתקשורת ולהגביל את הגישה למידע תמיד יהיו בלתי עולים בקנה אחד עם זכות האדם לחופש הביטוי.[^5]
 
-צנזורה על פלטפורמות ארגוניות נפוצה יותר ויותר, שכן פלטפורמות כמו טוויטר ופייסבוק נכנעות לדרישת הציבור, לחצי השוק וללחצים של סוכנויות ממשלתיות. לחצים ממשלתיים יכולים להיות בקשות סמויות לעסקים, כמו [הבית הלבן המבקש הסרה](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) של סרטון יוטיוב פרובוקטיבי, או גלויים, כמו למשל שממשלת סין דורשת מחברות לדבוק במשטר קפדני של צנזורה.
+צנזורה על פלטפורמות ארגוניות נפוצה יותר ויותר, שכן פלטפורמות כמו טוויטר ופייסבוק נכנעות לדרישת הציבור, לחצי השוק וללחצים של סוכנויות ממשלתיות. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 אנשים המודאגים מהאיום של צנזורה יכולים להשתמש בטכנולוגיות כמו [Tor](../advanced/tor-overview.md) כדי לעקוף אותו, ולתמוך בפלטפורמות תקשורת עמידות לצנזורה כמו [Matrix](../real-time-communication.md#element), שאין לה סמכות חשבון מרכזית יכול לסגור חשבונות באופן שרירותי.
 
@@ -162,5 +162,5 @@ In France you can take a look at the [Technopolice website](https://technopolice
 [^1]: ויקיפדיה: [*מעקבים המונים*](https://en.wikipedia.org/wiki/Mass_surveillance) ו[*מעקבים*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: מועצת הפיקוח על הפרטיות וחירויות האזרח של ארצות הברית: [*דיווח על תוכנית רישומי הטלפון שנערכה לפי סעיף 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: ויקיפדיה: [*מעקב קפיטליזם*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. אתה צריך גם להשתמש בטכניקות הפחתה אחרות.
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. אתה צריך גם להשתמש בטכניקות הפחתה אחרות.
 [^5]: האומות המאוחדות: [*הכרזה אוניברסלית על זכויות אדם*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

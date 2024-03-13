@@ -60,7 +60,7 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 עדכוני קושחה הם קריטיים לשמירה על האבטחה ובלעדיהם המכשיר שלך לא יכול להיות מאובטח. ליצרני ציוד מקורי יש הסכמי תמיכה עם השותפים שלהם כדי לספק את רכיבי הקוד הסגור לתקופת תמיכה מוגבלת. אלה מפורטים ב[עלוני האבטחה של אנדרואיד](https://source.android.com/security/bulletin) החודשיים.
 
-מכיוון שרכיבי הטלפון, כגון טכנולוגיות המעבד והרדיו, מסתמכים על רכיבי קוד סגור, העדכונים חייבים להיות מסופקים על ידי היצרנים המתאימים. לכן, חשוב שתרכוש מכשיר בתוך מחזור תמיכה פעיל. [קוואלקום](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) ו[סמסונג](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) תומכות במכשירים שלהן במשך 4 שנים, בעוד שלמוצרים זולים יותר יש לרוב מחזורי תמיכה קצרים יותר. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+מכיוון שרכיבי הטלפון, כגון טכנולוגיות המעבד והרדיו, מסתמכים על רכיבי קוד סגור, העדכונים חייבים להיות מסופקים על ידי היצרנים המתאימים. לכן, חשוב שתרכוש מכשיר בתוך מחזור תמיכה פעיל. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 מכשירי EOL שאינם נתמכים עוד על ידי יצרן ה-SoC אינם יכולים לקבל עדכוני קושחה מספקי OEM או מפיצי אנדרואיד לאחר השוק. משמעות הדבר היא שבעיות אבטחה במכשירים אלה יישארו ללא תיקון.
 
@@ -97,19 +97,19 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 אפליקציה עשויה לבקש הרשאה עבור תכונה ספציפית שיש לה. לדוגמה, כל אפליקציה שיכולה לסרוק קודי QR תדרוש את אישור המצלמה. אפליקציות מסוימות יכולות לבקש יותר הרשאות ממה שהן צריכות.
 
-[Exodus](https://exodus-privacy.eu.org/) יכול להיות שימושי כאשר משווים אפליקציות שיש להן מטרות דומות. אם אפליקציה דורשת הרבה הרשאות ויש לה הרבה פרסום וניתוח זה כנראה סימן רע. אנו ממליצים להסתכל על העוקבים הבודדים ולקרוא את התיאורים שלהם במקום פשוט **לספור את הסכום הכולל** ולהנחה שכל הפריטים הרשומים שווים.
+[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. אם אפליקציה דורשת הרבה הרשאות ויש לה הרבה פרסום וניתוח זה כנראה סימן רע. אנו ממליצים להסתכל על העוקבים הבודדים ולקרוא את התיאורים שלהם במקום פשוט **לספור את הסכום הכולל** ולהנחה שכל הפריטים הרשומים שווים.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-אם אפליקציה היא ברובה שירות מבוסס אינטרנט, המעקב עשוי להתרחש בצד השרת. [פייסבוק](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) מציג "ללא עוקבים" אבל בהחלט עוקב אחר תחומי העניין וההתנהגות של המשתמשים ברחבי האתר. אפליקציות עשויות להתחמק מזיהוי על ידי אי שימוש בספריות קוד סטנדרטיות המיוצרות על ידי תעשיית הפרסום, אם כי זה לא סביר.
+אם אפליקציה היא ברובה שירות מבוסס אינטרנט, המעקב עשוי להתרחש בצד השרת. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. אפליקציות עשויות להתחמק מזיהוי על ידי אי שימוש בספריות קוד סטנדרטיות המיוצרות על ידי תעשיית הפרסום, אם כי זה לא סביר.
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-אפליקציות ידידותיות לפרטיות כגון [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) עשויות להציג עוקבים מסוימים כגון [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). ספרייה זו כוללת את [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) שיכולה לספק [הודעות דחיפה](https://en.wikipedia.org/wiki/Push_technology) באפליקציות. זה [המקרה](https://fosstodon.org/@bitwarden/109636825700482007) עם Bitwarden. זה לא אומר ש-Bitwarden משתמש בכל תכונות הניתוח שמסופקות על ידי Google Firebase Analytics.
+Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). ספרייה זו כוללת את [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) שיכולה לספק [הודעות דחיפה](https://en.wikipedia.org/wiki/Push_technology) באפליקציות. זה [המקרה](https://fosstodon.org/@bitwarden/109636825700482007) עם Bitwarden. זה לא אומר ש-Bitwarden משתמש בכל תכונות הניתוח שמסופקות על ידי Google Firebase Analytics.
 
 </div>
 
@@ -145,20 +145,20 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### תוכנית הגנה מתקדמת
 
-אם יש לך חשבון Google, אנו מציעים להירשם ל[תוכנית ההגנה המתקדמת](https://landing.google.com/advancedprotection/). הוא זמין ללא עלות לכל מי שיש לו שני מפתחות אבטחה חומרה או יותר עם תמיכה ב-[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). הוא זמין ללא עלות לכל מי שיש לו שני מפתחות אבטחה חומרה או יותר עם תמיכה ב-[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
 
 תוכנית ההגנה המתקדמת מספקת ניטור איומים משופר ומאפשרת:
 
 - Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - רק גוגל ואפליקציות צד שלישי מאומתות יכולות לגשת לנתוני החשבון
 - סריקה של הודעות אימייל נכנסות בחשבונות Gmail עבור ניסיונות [דיוג](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
-- [סריקת דפדפן בטוחה](https://www.google.com/chrome/privacy/whitepaper.html#malware) מחמירה יותר עם Google Chrome
+- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
 - תהליך שחזור מחמיר עבור חשבונות עם אישורים שאבדו
 
- אם אתה משתמש בשירותי Google Play שאינם בארגז חול (נפוצים במערכות הפעלה במלאי), תוכנית ההגנה המתקדמת מגיעה גם עם [הטבות נוספות](https://support.google.com/accounts/answer/9764949?hl=en) כגון:
+ If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
 
 - Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- סריקת מכשיר אוטומטי חובה עם [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - מזהיר אותך לגבי יישומים לא מאומתים
 
 ### עדכוני מערכת Google Play
@@ -169,7 +169,7 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### מזהה פרסום
 
-כל המכשירים עם שירותי Google Play מותקנים באופן אוטומטי מייצרים [מזהה פרסום](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) המשמש לפרסום ממוקד. השבת תכונה זו כדי להגביל את הנתונים שנאספו עליך.
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. השבת תכונה זו כדי להגביל את הנתונים שנאספו עליך.
 
 בהפצות אנדרואיד עם [Google Play בארגז חול](https://grapheneos.org/usage#sandboxed-google-play), עבור אל :gear: **הגדרות** ← **אפליקציות** ← **Google Play בארגז חול** ← **הגדרות גוגל** ← **מודעות**, ותבחר *מחק מזהה פרסום*.
 

@@ -18,7 +18,7 @@ DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94
 
 ### 암호화되지 않은 DNS
 
-1. [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html)를 이용하면 인터넷 패킷 흐름을 모니터링하고 기록할 수 있습니다(tshark는 [Wireshark](https://ko.wikipedia.org/wiki/%EC%99%80%EC%9D%B4%EC%96%B4%EC%83%A4%ED%81%AC) 프로젝트의 일부입니다). 다음 명령어는 명시된 규칙을 충족하는 패킷을 기록합니다.
+1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. 다음 명령어는 명시된 규칙을 충족하는 패킷을 기록합니다.
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -39,7 +39,7 @@ DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. 이제 결과를 [분석](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs)합니다.
+3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -78,7 +78,7 @@ RFC 절차를 거치지 않았기 때문에, [일부 구현체](https://dnscrypt
 
 ### DOT(DNS over TLS)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS)는 DNS 통신을 암호화하는 또 다른 방법으로, [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)에 정의되어 있습니다. Android 9, iOS 14, Linux([systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) 237 버전)에서 처음으로 지원되었습니다. DoT는 [복잡한 프로토콜](https://dnscrypt.info/faq/)인데다가 구현체마다 RFC 준수 여부가 다양하기 때문에, 최근 몇 년 동안은 업계 선호도가 DoT에서 DoH로 이동하고 있습니다. 또한, 853 포트를 전용으로 사용하기 때문에 제한적인 방화벽에 의해 쉽게 차단될 수 있다는 문제도 존재합니다.
+[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS)는 DNS 통신을 암호화하는 또 다른 방법으로, [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)에 정의되어 있습니다. Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. 또한, 853 포트를 전용으로 사용하기 때문에 제한적인 방화벽에 의해 쉽게 차단될 수 있다는 문제도 존재합니다.
 
 
 
@@ -123,7 +123,7 @@ DoH 네이티브 구현은 iOS 14, macOS 11, Microsoft Windows, Android 13(단, 
     ```
 
 
-[연결 생성](https://ko.wikipedia.org/wiki/%EC%A0%84%EC%86%A1_%EC%A0%9C%EC%96%B4_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C#%EC%97%B0%EA%B2%B0_%EC%83%9D%EC%84%B1) 및 [TLS 핸드셰이크](https://www.cloudflare.com/ko-kr/learning/ssl/what-happens-in-a-tls-handshake/)가 모든 암호화 연결에서 발생하는 것을 확인할 수 있습니다. 뒤따르는 'Application Data' 패킷을 살펴보면 요청했던 도메인이나 반환된 IP 주소가 포함되어 있지 않다는 것 또한 확인할 수 있습니다.
+We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. 뒤따르는 'Application Data' 패킷을 살펴보면 요청했던 도메인이나 반환된 IP 주소가 포함되어 있지 않다는 것 또한 확인할 수 있습니다.
 
 
 
@@ -193,9 +193,9 @@ SNI(Server Name Indication, 서버 이름 표시)는 주로 하나의 IP 주소�
     ```
 
 
-즉, '암호화 DNS'를 사용하더라도 도메인은 SNI를 통해 노출될 가능성이 높습니다. [TLS 1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) 프로토콜에는 이런 방식의 유출을 방지하는 [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/) 기능이 존재합니다.
+즉, '암호화 DNS'를 사용하더라도 도메인은 SNI를 통해 노출될 가능성이 높습니다. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
 
-하지만 Encrypted Client Hello 또한 여러 정부(특히 [중국](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/), [러시아](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/))에서 [차단을 시작했거나](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello), 차단을 시도하고 있습니다. 최근 러시아는 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) 표준을 사용하는 [해외 사이트를 차단하기 시작했습니다](https://github.com/net4people/bbs/issues/108). HTTP/3의 일부인 [QUIC](https://ko.wikipedia.org/wiki/QUIC) 프로토콜에서는 `ClientHello` 암호화가 필수적이기 때문입니다.
+Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. 최근 러시아는 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) 표준을 사용하는 [해외 사이트를 차단하기 시작했습니다](https://github.com/net4people/bbs/issues/108). HTTP/3의 일부인 [QUIC](https://ko.wikipedia.org/wiki/QUIC) 프로토콜에서는 `ClientHello` 암호화가 필수적이기 때문입니다.
 
 
 
@@ -366,7 +366,7 @@ DNSSEC 서명 과정은 사람이 펜으로 법적 문서에 서명하는 과정
 
 DNSSEC은 DNS의 모든 계층에 걸쳐 계층적(Hierarchical) 디지털 서명 정책을 구현합니다. 예를 들어 `privacyguides.org`를 조회하는 경우, 루트 DNS 서버는 자신의 키로 서명해 `.org` 네임 서버에게 제공하고, `.org` 네임 서버 또한 자신의 키로 서명해 `privacyguides.org`의 권한 있는 서버에 제공합니다.
 
-<small>Google의 [DNS Security Extensions (DNSSEC) 개요](https://cloud.google.com/dns/docs/dnssec?hl=ko)와 Cloudflare의 [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction/)를 각색하였으며, 두 글은 모두 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 라이선스를 따릅니다.</small> 
+<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small> 
 
 
 

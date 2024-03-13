@@ -24,10 +24,10 @@ cover: cryptocurrency.webp
 
 **Monero** использует блокчейн с технологиями повышения конфиденциальности, которые затрудняют отслеживание транзакций для достижения анонимности. Каждая транзакция в Monero скрывает сумму транзакции, адреса отправителя и получателя и источник средств, не требуя при этом дополнительных действий, что делает её идеальным выбором для новичков в области криптовалют.
 
-[:octicons-home-16: Домашняя страница](https://www.getmonero.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://www.getmonero.org/resources/user-guides/){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Исходный код" }
-[:octicons-heart-16:](https://www.getmonero.org/get-started/contributing/){ .card-link title=Поддержать}
+[:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title=Contribute }
 
 </details>
 
@@ -38,16 +38,16 @@ cover: cryptocurrency.webp
 Для максимальной конфиденциальности убедитесь, что вы используете некастодиальный кошелек, где ключ просмотра остается на вашем устройстве, а не на удалённом сервере. Это означает то, что только вы будете иметь возможность расходовать свои средства и видеть входящие и исходящие транзакции. Если вы используете кастодиальный кошелек, провайдер может видеть **абсолютно всё**, что вы делаете; если вы используете "лёгкий" кошелек, где провайдер хранит ваш приватный ключ, он может видеть практически всё, что вы делаете. Некоторые некастодиальные кошельки включают в себя:
 
 - [Официальный клиент Monero](https://getmonero.org/ru/downloads/) (для ПК)
-- [Cake Wallet](https://cakewallet.com/) (iOS, Android)
-    - Cake Wallet поддерживает множество криптовалют. Версия Cake Wallet, предназначенная только для Monero, доступна на сайте [Monero.com](https://monero.com/).
-- [Feather Wallet](https://featherwallet.org/) (для ПК)
-- [Monerujo](https://www.monerujo.io/) (Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+    - Cake Wallet поддерживает множество криптовалют. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
+- [Feather Wallet](https://featherwallet.org) (Desktop)
+- [Monerujo](https://monerujo.io) (Android)
 
 Для обеспечения максимальной конфиденциальности (даже при использовании некастодиального кошелька) вам следует запустить собственный узел Monero. Использование чьего-то узла раскрывает ему некоторую информацию, например: IP-адрес, с которого вы к нему подключаетесь, временные метки, по которым вы синхронизируете свой кошелек, и транзакции, которые вы отправляете из своего кошелька (хотя никакой другой информации об этих транзакциях нет). С другой стороны, вы можете подключиться к чужому узлу Monero через Tor или i2p.
 
-В августе 2021 года компания CipherTrace [объявила о](https://ciphertrace.com/enhanced-monero-tracing/) расширенных возможностях отслеживания Monero для государственных учреждений. Публичные сообщения показывают, что сеть по борьбе с финансовыми преступлениями министерства финансов США [лицензировала](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) "модуль Monero" CipherTrace в конце 2022 года.
+In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. Публичные сообщения показывают, что сеть по борьбе с финансовыми преступлениями министерства финансов США [лицензировала](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) "модуль Monero" CipherTrace в конце 2022 года.
 
-Конфиденциальность графа транзакций Monero ограничена его относительно небольшими кольцевыми подписями, особенно против персональных атак. Функции конфиденциальности Monero также были [поставлены под сомнение](https://web.archive.org/web/20180331203053/https://www.wired.com/story/monero-privacy/) некоторыми исследователями безопасности, и ряд серьезных уязвимостей был найден и исправлен в прошлом, поэтому заявления, сделанные такими организациями, как CipherTrace, не исключены. Хотя маловероятно, что существуют инструменты массового наблюдения за Monero, как это происходит с Bitcoin и другими криптовалютами, несомненно инструменты отслеживания помогают проводить персональные расследования.
+Конфиденциальность графа транзакций Monero ограничена его относительно небольшими кольцевыми подписями, особенно против персональных атак. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. Хотя маловероятно, что существуют инструменты массового наблюдения за Monero, как это происходит с Bitcoin и другими криптовалютами, несомненно инструменты отслеживания помогают проводить персональные расследования.
 
 В конечном итоге Monero является самым сильным претендентом на звание криптовалюты, обеспечивающей конфиденциальность, но ее заявления о конфиденциальности **не** были окончательно доказаны тем или иным способом. Необходимо больше времени и исследований, чтобы оценить, достаточно ли устойчива Monero к атакам, чтобы всегда обеспечивать достаточную конфиденциальность.
 

@@ -35,10 +35,10 @@ cover: router.webp
 
 **OPNsense** 是開源的、基於FreeBSD 的防火牆和路由平臺，它包含許多進階功能，如流量整形、負載平衡和 VPN 功能，且有插件的形式提供更多功能。 OPNsense 通常部署作邊界防火牆、路由器、無線存取點、DHCP伺服器、DNS伺服器和 VPN 端點。
 
-[:octicons-home-16: Homepage](https://opnsense.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 
 </details>
 

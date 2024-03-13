@@ -18,7 +18,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 ### 未加密的 DNS
 
-1. 使用 [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) （ [Wireshark](https://en.wikipedia.org/wiki/Wireshark) 項目的一部分） ，我們可以監控和記錄網路封包的傳輸。 此命令記錄符合指定規則的封包：
+1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. 此命令記錄符合指定規則的封包：
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -39,7 +39,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. 接下來我們要[分析](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) 結果:
+3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -74,7 +74,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 ### 通過 TLS 的 DNS)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) 是另一種加密 DNS 通訊方式，其定義於 [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)。 支持首先在Android 9 ， iOS 14和Linux的 [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) 版本237中實現。 近年來，業界偏好已經從 DoT 轉移到 DoH ，因為 DoT 協議[複雜](https://dnscrypt.info/faq/) ，並且在實現中對RFC 的遵照狀況各不相同。 DoT 還在專用端口 853 上運行，但很容易被限制性防火牆阻止。
+[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) 是另一種加密 DNS 通訊方式，其定義於 [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)。 Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. DoT 還在專用端口 853 上運行，但很容易被限制性防火牆阻止。
 
 ### 通過 HTTPS 的 DNS)
 
@@ -106,7 +106,7 @@ DoH 原生執行出現在 iOS 14, macOS 11, Microsoft Windows, 與 Android 13 (�
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-[連接建立](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) 在加密連接時會進行 [TLS 握手](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) 。 當查看隨後的“應用程序數據”封包時，都不包含所請求的域名或它的 IP 地址。
+We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. 當查看隨後的“應用程序數據”封包時，都不包含所請求的域名或它的 IP 地址。
 
 ## 什麼時候 **不該** 使用加密的 DNS ？
 
@@ -158,9 +158,9 @@ DoH 原生執行出現在 iOS 14, macOS 11, Microsoft Windows, 與 Android 13 (�
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-即便使用「加密 DNS」伺服器，網域也可能會透過 SNI 披露。 [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) 協議帶來了 [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/)，可以防止這種洩漏。
+即便使用「加密 DNS」伺服器，網域也可能會透過 SNI 披露。 The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
 
-政府，特別是 [中國](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) 和 [俄羅斯](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/)，已經[開始封鎖](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) ，或者有些表示將這樣做。 近來俄羅斯
+Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. 近來俄羅斯
 
 開始屏蔽使用 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)的外國網站。 這是因為作為HTTP/3的一部分的 [QUIC](https://en.wikipedia.org/wiki/QUIC) 協議要求 `ClientHello` 也被加密。</p> 
 
@@ -333,7 +333,7 @@ DNSSEC 簽署過程類似於無法仿製的個人獨特簽名於法律文件，�
 
 DNSSEC 在所有 DNS 層中實施分級數位簽名政策。 例如，查詢 `privacyguides.org` ，根 DNS 伺服器將簽署尾綴 `.org` 伺服器密鑰，然後 `.org` 伺服器再簽署 `privacyguides.org`的授權名稱伺服器的密鑰。
 
-<small>改編自 Google [DNS Security Extensions (DNSSEC) overview] (https://cloud.google.com/dns/docs/dnssec)和 Cloudflare [DNSSEC: An Introduction] (https://blog.cloudflare.com/dnssec-an-introduction/) ，兩者均根據[CC BY 4.0] (https://creativecommons.org/licenses/by/4 .0/)授權。</small> 
+<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small> 
 
 
 

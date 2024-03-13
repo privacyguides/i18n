@@ -17,11 +17,11 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 **Akregator** es un lector de fuentes de noticias que es parte del proyecto [KDE](https://kde.org). Este incluye una búsqueda rápida, funcionalidades avanzadas de archivado y un navegador interno para facilitar la lectura de las noticias.
 
-[:octicons-home-16: Página Principal](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentación}
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -81,11 +81,11 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 **Fluent Reader** es un lector de noticias seguro y multiplataforma que cuenta con útiles funciones de privacidad, como la eliminación de cookies al salir, estrictas [políticas de seguridad de contenidos (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) y soporte para proxy, lo que significa que puede utilizarlo a través de [Tor](tor.md).
 
-[:octicons-home-16: Página Principal](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -121,15 +121,15 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 
 **NetNewsWire** es un lector de fuentes gratuito y de código abierto para macOS e iOS centrado en un diseño y unas funciones nativos. Es compatible con los formatos de fuente típicos, además incluye soporte integrado para fuentes de Reddit.
 
-[:octicons-home-16: Página Principal](https://netnewswire.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
 
 </details>
@@ -178,7 +178,7 @@ Reddit le permite suscribirse a subreddits a través de RSS.
 Sustituya `[SUBREDDIT]` por el subreddit al que desea suscribirse.
 
 ```text
-https://www.reddit.com/r/[SUBREDDIT]/new/.rss
+https://reddit.com/r/[SUBREDDIT]/new/.rss
 ```
 
 </div>
@@ -190,10 +190,10 @@ Puede suscribirse a los canales de YouTube sin iniciar sesión ni asociar la inf
 <div class="admonition example" markdown>
 <p class="admonition-title">Ejemplo</p>
 
-Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214). El código del canal se encuentra en la página "Acerca de" del canal de YouTube al que desea suscribirse, en: **Acerca de** > **Compartir** > **Copiar ID de canal**. Sustituya `[[CHANNEL ID]` a continuación:
+Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214). El código del canal se encuentra en la página "Acerca de" del canal de YouTube al que desea suscribirse, en: **Acerca de** > **Compartir** > **Copiar ID de canal**. Replace `[CHANNEL ID]` below:
 
 ```text
-https://www.youtube.com/feeds/videos.xml?channel_id=[[CHANNEL ID]
+https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
 ```
 
 </div>

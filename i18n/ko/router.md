@@ -35,10 +35,10 @@ cover: router.webp
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. OPNsense는 일반적으로 경계 방화벽(Perimeter Firewall), 라우터, 무선 액세스 포인트, DHCP 서버, DNS 서버, VPN 엔드포인트상에 배포됩니다.
 
-[:octicons-home-16: 홈페이지](https://opnsense.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=문서}
-[:octicons-code-16:](https://github.com/opnsense){ .card-link title="소스 코드" }
-[:octicons-heart-16:](https://opnsense.org/donate/){ .card-link title=기부 }
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 
 </details>
 

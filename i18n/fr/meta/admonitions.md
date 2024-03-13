@@ -163,17 +163,17 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![logo PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** est une plateforme auto-hébergeable pour la gestion des photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://www.photoprism.app/features). Elle ne fournit pas de E2EE, donc il est préférable de l'héberger sur un serveur de confiance et que vous contrôler.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
-[:octicons-home-16: Page d'accueil](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Code source" }
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -188,12 +188,12 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 
 ![logo PhotoPrism](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** est une plateforme auto-hébergée pour la gestion des photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://www.photoprism.app/features). Elle n'inclut pas l'E2EE, il est donc préférable de l'héberger sur un serveur en lequel vous avez confiance et que vous contrôlez.
+**PhotoPrism** est une plateforme auto-hébergée pour la gestion des photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). Elle n'inclut pas l'E2EE, il est donc préférable de l'héberger sur un serveur en lequel vous avez confiance et que vous contrôlez.
 
-[:octicons-home-16: Page d'accueil](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Code source" }
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -212,10 +212,10 @@ Il s'agit d'un type spécial d'avertissement repliable, utilisé pour générer 
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
@@ -231,7 +231,7 @@ Il s'agit d'un type spécial d'avertissement repliable, utilisé pour générer 
 <summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)

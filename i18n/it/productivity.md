@@ -18,10 +18,10 @@ Gran parte delle suite da ufficio non supportano l'E2EE, a significare che il fo
 **Nextcloud** è una suite di software gratuiti e open source dal client al server, per creare i propri servizi di hosting dei file su un server privato che controlli.
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribuisci }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -52,11 +52,11 @@ Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_e
 
 **CryptPad** è un'alternativa privata di design ai più diffusi strumenti per ufficio. Tutti i contenuti di questo servizio web sono crittografati end-to-end e sono facilmente condivisibili con altri utenti.
 
-[:octicons-home-16: Home](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Politica sulla Privacy" }
-[:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Codice Sorgente" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
 
 </details>
 
@@ -99,20 +99,20 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 
 **LibreOffice** è una suite per ufficio gratuita e open source con funzionalità estese.
 
-[:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://libreoffice.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=Documentation}
+[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-- [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
-- [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
-- [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
-- [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
+- [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
+- [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
+- [:simple-windows11: Windows](https://libreoffice.org/download/download)
+- [:simple-apple: macOS](https://libreoffice.org/download/download)
+- [:simple-linux: Linux](https://libreoffice.org/download/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
 
 </details>
@@ -127,19 +127,19 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 
 **OnlyOffice** è una suite per ufficio gratuita e open source basata su cloud con funzionalità estese, tra cui l'integrazione con Nextcloud.
 
-[:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://onlyoffice.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
-- [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
-- [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
-- [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
+- [:simple-windows11: Windows](https://onlyoffice.com/download-desktop.aspx)
+- [:simple-apple: macOS](https://onlyoffice.com/download-desktop.aspx)
+- [:simple-linux: Linux](https://onlyoffice.com/download-desktop.aspx)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
 
 </details>
@@ -175,10 +175,10 @@ In generale, definiamo suite da ufficio le applicazioni che potrebbero ragionevo
 
 **PrivateBin** è un pastebin online minimalista e open source, il cui server ha zero conoscenze sui dati incollati. I dati sono crittografati/decrittografati nel browser utilizzando AES a 256 bit. È la versione migliorata di ZeroBin.
 
-[:octicons-home-16: Home](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Istanze Pubbliche"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Codice Sorgente" }
+[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
+[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
 </details>
 

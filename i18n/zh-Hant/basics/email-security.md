@@ -13,7 +13,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 將 E2EE 添加到不同電子郵件提供商之間的電子郵件的標準方法是使用 OpenPGP。 OpenPGP 標準有不同的實現，最常見的是 [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) 和 [OpenPGP.js](https://openpgpjs.org)。
 
-還有另一種標準被稱為 [S/MIME](https://en.wikipedia.org/wiki/S/MIME)，但它需要由 [憑證機構](https://en.wikipedia.org/wiki/Certificate_authority) 頒發的憑證（並非所有憑證都發行S/MIME憑證）。 它支持 [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) 和 [Outlook for Web或Exchange Server 2016 ， 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480)。
+還有另一種標準被稱為 [S/MIME](https://en.wikipedia.org/wiki/S/MIME)，但它需要由 [憑證機構](https://en.wikipedia.org/wiki/Certificate_authority) 頒發的憑證（並非所有憑證都發行S/MIME憑證）。 It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 即使您使用OpenPGP ，它也不支持 [向前保密](https://en.wikipedia.org/wiki/Forward_secrecy)，這意味著如果您或收件人的私鑰被盜，所有先前加密的消息都將被曝光。 這就是為什麼我們建議 [即時通訊](../real-time-communication.md) ，只要有可能，就實現電子郵件的前向保密性，以進行個人對個人的通信。
 
@@ -23,7 +23,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 除了我們推薦的[電子郵件用戶端](../email-clients.md)支援 WKD外，一些網頁郵件供應商也支援 WKD。 *自己的*金鑰是否發佈到 WKD 供其他人使用取決於網域配置。 如果使用支援 WKD 的[電子郵件提供者](../email.md#openpgp-known-services)，例如 Proton Mail 或 Mailbox.org，他們可以在其網站上發布您網域名所準備的 OpenPGP 金鑰。
 
-如果使用自訂網域，則需另外設定 WKD。 如果你可控制自定域名，則無論電子郵件提供者為何，都可以設定 WKD。 一個簡單的方法是使用[  「keys.openpgp.org  WKD 即服務」](https://keys.openpgp.org/about/usage#wkd-as-a-service)功能，透過指向`wkd.keys.openpgp.org` 網域的`openpgpkey` 子網域來設定CNAME 記錄，然後將金鑰上傳到[keys.openpgp.org](https ://keys.openpgp.org/)。 或者你可以 [在自己的 Web 伺服器搭建 WKD r](https://wiki.gnupg.org/WKDHosting) 。
+如果使用自訂網域，則需另外設定 WKD。 如果你可控制自定域名，則無論電子郵件提供者為何，都可以設定 WKD。 One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org). 或者你可以 [在自己的 Web 伺服器搭建 WKD r](https://wiki.gnupg.org/WKDHosting) 。
 
 如使用不支援 WKD 供應商的共用網域（例如 @gmail.com），則無法透過此方法與其他人共用你的 OpenPGP 密鑰。
 
@@ -33,7 +33,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 ### 我要怎樣保護自己的私密鑰匙？
 
-智慧鑰卡（例如 [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) 或 [Nitrokey](https://www.nitrokey.com)）的工作原理是從用戶端的設備（手機，平板電腦，電腦等）接收加密的電子郵件消息。 安全鑰卡會解密該訊息再把解開的內容傳到設備。
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 安全鑰卡會解密該訊息再把解開的內容傳到設備。
 
 在智慧卡上進行解密的優點是可避免將私鑰暴露在某個遭破壞的裝置。
 

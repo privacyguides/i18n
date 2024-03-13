@@ -54,13 +54,13 @@ Pour générer une phrase secrète diceware à l'aide de vrais dés, suivez ces 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-Ces instructions supposent que vous utilisez la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer la phrase secrète, ce qui nécessite cinq lancers de dés par mot. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
+These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
 
 </div>
 
 1. Lancez cinq fois un dé à six faces, en notant le nombre après chaque lancer.
 
-2. Par exemple, disons que vous avez obtenu `2-5-2-6-6`. Cherchez dans la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) le mot qui correspond à `25266`.
+2. Par exemple, disons que vous avez obtenu `2-5-2-6-6`. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. Vous trouverez le mot `encrypt`. Notez ce mot.
 
@@ -75,20 +75,20 @@ Vous ne devez **pas** relancer les mots jusqu'à ce que vous obteniez une combin
 
 Si vous n'avez pas accès à de vrais dés ou si vous préférez ne pas en utiliser, vous pouvez utiliser le générateur de mots de passe intégré à votre gestionnaire de mots de passe, car la plupart d'entre eux ont la possibilité de générer des phrases secrètes diceware en plus des mots de passe ordinaires.
 
-Nous vous recommandons d'utiliser la [grande liste de mots de l'EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer vos phrases secrètes diceware, car elle offre exactement la même sécurité que la liste originale, tout en contenant des mots plus faciles à mémoriser. Il existe également [d'autres listes de mots dans différentes langues](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), si vous ne souhaitez pas que votre phrase secrète soit en anglais.
+We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. Il existe également [d'autres listes de mots dans différentes langues](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), si vous ne souhaitez pas que votre phrase secrète soit en anglais.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 L'une des mesures permettant de déterminer la force d'une phrase secrète est son degré d'entropie. L'entropie par mot dans une phrase secrète est calculée comme suit : $\text{log}_2(\text{WordsInList})$ et l'entropie globale de la phrase secrète est calculée comme suit : $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
 
 Par conséquent, chaque mot de la liste susmentionnée génère ~12,9 bits d'entropie ($\text{log}_2(7776)$), et une phrase secrète de sept mots dérivée de cette liste a ~90,47 bits d'entropie ($\text{log}_2(7776^7)$).
 
-The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Pour calculer le nombre de phrases secrètes possibles, il suffit de faire $\text{WordsInList}^\text{WordsInPhrase}$, ou dans notre cas, $7776^7$.
+The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Pour calculer le nombre de phrases secrètes possibles, il suffit de faire $\text{WordsInList}^\text{WordsInPhrase}$, ou dans notre cas, $7776^7$.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 En moyenne, il faut essayer 50 % de toutes les combinaisons possibles pour deviner votre phrase. En gardant cela à l'esprit, même si votre adversaire est capable de faire ~1 000 000 000 000 de suppositions par seconde, il lui faudrait toujours ~27 255 689 ans pour deviner votre phrase secrète. C'est le cas même si les choses suivantes sont vraies :
 

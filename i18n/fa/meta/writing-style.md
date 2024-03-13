@@ -4,11 +4,11 @@ title: سبک نوشتن
 
 وبسایت Privacy Guides به زبان انگلیسی با لهجه امریکایی نوشته شده است و وقتی شک دارید باید به [دستورالعمل‌های سبک نوشتن APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) مراجعه کنید.
 
-به طور کلی [دستورالعمل‌های زبان ساده فدرال ایالات متحده (United States federal plain language guidelines)](https://www.plainlanguage.gov/guidelines/)، نمای کلی خوبی از نحوه نوشتن واضح و مختصر ارائه می‌دهند. در زیر به چند نکته مهم از این دستورالعمل ها اشاره می کنیم.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. در زیر به چند نکته مهم از این دستورالعمل ها اشاره می کنیم.
 
 ## برای مخاطبانمان می نویسیم
 
-[مخاطب](https://www.plainlanguage.gov/guidelines/audience/) مورد نظر Privacy Guides، در درجه اول و فناوری‌های مورد استفاده روزمره بزرگسالان است. به گونه‌ای که گویی در حال خطاب به یک کلاس راهنمایی هستید، محتوا را بی‌حس نکنید، اما از اصطلاحات پیچیده درباره مفاهیمی که کاربران معمولی کامپیوتر با آن‌ها آشنا نیستند، بیش از حد استفاده نکنید.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. به گونه‌ای که گویی در حال خطاب به یک کلاس راهنمایی هستید، محتوا را بی‌حس نکنید، اما از اصطلاحات پیچیده درباره مفاهیمی که کاربران معمولی کامپیوتر با آن‌ها آشنا نیستند، بیش از حد استفاده نکنید.
 
 ### فقط درباره آنچه مخاطب میخواهند بدانند توضیح دهید
 
@@ -24,7 +24,7 @@ title: سبک نوشتن
 > 
 > هنگامی که از "شما" برای خطاب به کاربران استفاده می کنید، آنها بیشتر متوجه می شوند که مسئولیت آنها چیست.
 
-منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### اجتناب از "کاربران"
 
@@ -37,7 +37,7 @@ title: سبک نوشتن
 - هر متن بیشتر از پنج یا شش بخش نشود. اسناد طولانی بهتر است به صفحات جداگانه تقسیم شوند.
 - مطالب مهم را **بولد** کنید یا *با حروف کج بنویسید*.
 
-منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### با یک جمله موضوعی شروع کنید
 
@@ -45,7 +45,7 @@ title: سبک نوشتن
 > 
 > ما اغلب به روشی که فکر می کنیم می‌نویسیم، ابتدا مقدمات و سپس نتیجه گیری خود را می‌نویسیم. ممکن است این روش طبیعی برای پرورش افکار باشد، اما ما با جمله موضوعی در پایان پاراگراف پایان می دهیم. جمله‌ها را به جلو ببرید و به کاربران اطلاع دهید که هدفتان چیست. خواننده را مجبور نکنید قبل از رسیدن به اصل مطلب، اطلاعات زیادی را در ذهن خود نگه دارند.
 
-منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## کلمات خود را با دقت انتخاب کنید
 
@@ -65,7 +65,7 @@ title: سبک نوشتن
 
 > کلمات غیر ضروری وقت مخاطب شما را تلف می کند. یک نوشته خوب مثل یک مکالمه است. اطلاعاتی را که مخاطب نیازی به دانستن آنها ندارد حذف کنید. این می تواند به عنوان یک متخصص در موضوع دشوار باشد، بنابراین مهم است که به اطلاعات از دیدگاه مخاطب نگاه کنید.
 
-منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## متن به صورت مکالمه نگه دارید
 
@@ -77,7 +77,7 @@ title: سبک نوشتن
 
 > صدای فعال مشخص می کند که چه کسی قرار است چه کاری انجام دهد. ابهام در مورد مسئولیت ها را از بین می برد. نه «باید انجام شود»، بلکه «تو باید انجامش دهی».
 
-منبع: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### برای الزامات از "باید" استفاده کنید
 

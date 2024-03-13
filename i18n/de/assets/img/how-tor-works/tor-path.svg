@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1530" height="850" version="1.1" viewBox="0 0 404.81 224.9">
   <path d="m43.472 137.96h-20.432v-43.788h40.842v43.788z" fill="#729fcf" fill-rule="evenodd"/>
   <path d="m43.472 137.96h-20.432v-43.788h40.842v43.788h-20.41" fill="none" stroke="#3465a4" stroke-linecap="round" stroke-linejoin="round" stroke-width=".022199px"/>
@@ -25,7 +25,7 @@
   <g font-family="'Liberation Sans'" font-size="14.105px" font-weight="400" letter-spacing="0px" stroke-width=".58923" word-spacing="0px">
     <text transform="scale(.96579 1.0354)" x="23.469173" y="145.54295" style="line-height:125%" xml:space="preserve">
       <tspan x="23.469173" y="145.54295">Dein</tspan>
-      <tspan x="23.469173" y="163.17372">Gerät</tspan>
+      <tspan x="23.469173" y="163.17372">Ger&#xE4;t</tspan>
     </text>
     <text transform="scale(.96579 1.0354)" x="94.823898" y="62.191856" style="line-height:125%" xml:space="preserve">
       <tspan x="94.823898" y="62.191856" fill="#000000" stroke-width=".58923">

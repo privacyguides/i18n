@@ -54,13 +54,13 @@ description: These are some tips and tricks on how to create the strongest passw
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-본 내용에서는 [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)를 활용해 단어당 5번씩 주사위를 굴려 패스프레이즈를 생성한다고 가정합니다. 다른 단어 목록을 사용할 경우에는 주사위를 굴려야 하는 횟수 혹은 동일한 엔트로피를 달성하기 위해 필요한 단어의 양이 달라질 수 있습니다.
+These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. 다른 단어 목록을 사용할 경우에는 주사위를 굴려야 하는 횟수 혹은 동일한 엔트로피를 달성하기 위해 필요한 단어의 양이 달라질 수 있습니다.
 
 </div>
 
 1. 6면체 주사위를 5번 굴려서 각 주사위를 굴릴 때마다 숫자를 적습니다.
 
-2. 예를 들어, `2-5-2-6-6`가 나왔다고 가정해 보겠습니다. [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)에서 `25266`에 해당하는 단어를 찾아봅시다.
+2. 예를 들어, `2-5-2-6-6`가 나왔다고 가정해 보겠습니다. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. `encrypt` 단어를 찾았습니다. 이 단어를 받아 적습니다.
 
@@ -75,20 +75,20 @@ description: These are some tips and tricks on how to create the strongest passw
 
 실물 주사위가 없거나 사용하고 싶지 않은 경우, 비밀번호 관리자에 내장된 비밀번호 생성기를 사용하면 됩니다. 대부분의 비밀번호 관리자는 일반적인 패스워드 방식뿐만 아니라 다이스웨어 패스프레이즈도 지원합니다.
 
-저희는 원본 목록과 동일한 수준의 보안을 제공하면서 외우기 쉬운 단어로 이루어진 [EEF 대규모 단어 목록](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)을 활용해 다이스웨어 패스프레이즈를 생성할 것을 권장드립니다. 영어 외 언어로 패스프레이즈를 생성하고자 하시는 경우 [다른 언어 단어 목록](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)도 있습니다.
+We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. 영어 외 언어로 패스프레이즈를 생성하고자 하시는 경우 [다른 언어 단어 목록](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)도 있습니다.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 다이스웨어 패스프레이즈 강도를 결정하는 지표 한 가지는 엔트로피의 크기입니다. 다이스웨어 패스프레이즈의 단어당 엔트로피는 $\text{log}_2(\text{WordsInList})$, 전체 패스프레이즈 엔트로피는 $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$로 계산됩니다.
 
 따라서, 앞서 언급한 목록 내 각 단어는 ~12.9비트 엔트로피($\text{log}_2(7776)$)를, 7 단어 패스프레이즈는 ~90.47비트 엔트로피($\text{log}_2(7776^7)$)를 갖습니다.
 
-The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. 만들어질 수 있는 패스프레이즈의 양을 계산하면 $\text{WordsInList}^\text{WordsInPhrase}$, 즉 $7776^7$입니다.
+The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. 만들어질 수 있는 패스프레이즈의 양을 계산하면 $\text{WordsInList}^\text{WordsInPhrase}$, 즉 $7776^7$입니다.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 평균적으로, 누군가의 패스프레이즈를 알아맞히려면 가능한 모든 조합의 50%를 시도해야만 합니다. 이 점을 고려하여 계산해보면 공격자가 만약 초당 1,000,000,000,000번 시도한다고 가정해도 여러분의 패스프레이즈를 알아맞히는 데에는 27,255,689년이 걸립니다. 심지어 이는 다음 조건을 충족하는 경우의 이야기입니다:
 

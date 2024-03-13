@@ -9,7 +9,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬件和軟件工具。 我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。 它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
 
-如果您需要協助，為您的需求找出最佳的隱私工具和替代方案，請在我們的 [論壇](https://discuss.privacyguides.net/) 或 [matrix](https://matrix.to/#/#privacyguides:matrix.org) 社區開始討論！
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 有關每個項目的詳細資訊，為什麼選擇它們，以及我們推薦的其他提示或技巧，請點擊每個部分中的“了解更多”連結，或點擊推薦本身以轉到頁面的特定部分。
 
@@ -89,7 +89,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 #### DNS 提供者
 
-基於各種標準，我們 [推薦](dns.md#recommended-providers) 一些加密 DNS 伺服器，例如[Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) 與 [Quad9](https://quad9.net/)。 建議您在選擇供應商之前先閱讀我們有關 DNS 的頁面。 在許多情況下，不建議使用替代 DNS 提供商。
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. 建議您在選擇供應商之前先閱讀我們有關 DNS 的頁面。 在許多情況下，不建議使用替代 DNS 提供商。
 
 [了解更多 :material-arrow-right-drop-circle:](dns.md)
 

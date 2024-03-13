@@ -23,7 +23,7 @@ Tor 是一個免費使用的去中心化網路，其讓用戶在使用網際網�
 
 由於各種原因，我們已[一般建議](../basics/vpn-overview.md)絕大多數人使用值得信賴的VPN 提供商，以下有關透過 VPN 連接到Tor的建議可能適用。 <mark>在連接到 Tor 之前無需停用 VPN</mark>，某些線上資源讓您相信這一點。
 
-直接連接到 Tor 將使您的連接在任何本地網路管理員或 ISP 面前脫穎突出。 網路管理員過去已[偵測並將此類流量作關聯性](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax/)，以識別網路上的特定 Tor 使用者並對其進行去匿名化。 另一方面，連接 VPN 並不會太可疑，因為日常消費者使用商業 VPN 服務來執行各種日常任務例如繞過地理限制，即使在網路限制嚴格的國家也是如此。
+直接連接到 Tor 將使您的連接在任何本地網路管理員或 ISP 面前脫穎突出。 Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in the past by network administrators to identify and deanonymize specific Tor users on their network. 另一方面，連接 VPN 並不會太可疑，因為日常消費者使用商業 VPN 服務來執行各種日常任務例如繞過地理限制，即使在網路限制嚴格的國家也是如此。
 
 所以應在**在**連接到 Tor 網路之前盡力隱藏自己的 IP 位址。 只需連接到VPN（透過電腦上安裝的客戶端），然後正常存取[Tor](../tor.md)（例如透過Tor 瀏覽器）即可做到這一點。 這將建立一個連接鏈，例如：
 
@@ -84,7 +84,7 @@ Tor 網路並非在任何情況下都是完美的隱私保護工具，其存在�
 
 ### Tor usage is not undetectable
 
-**即便使用橋接器和可插拔傳輸，**Tor 專案並未提供任何工具來對ISP 隱藏正在使用 Tor 的事實。 即使使用模糊的「可插拔傳輸」或非公共橋接器也不能隱藏正在使用私人通訊通道的事實。 最受歡迎的可插拔傳輸，例如obfs4（將流量混淆為「看起來沒什麼」）和meek（使用網域前置來偽裝流量）可以是[使用相當標準的流量分析技術檢測](https://www.hackerfactor.com/blog/ index.php?/archives/889-Tor-0day-Burning-Bridges.html)。 Snowflake 也有類似的問題，< em x-id="3">在 Tor 連線建立前</em>，[很容易偵測到](https://www.hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) 。
+**即便使用橋接器和可插拔傳輸，**Tor 專案並未提供任何工具來對ISP 隱藏正在使用 Tor 的事實。 即使使用模糊的「可插拔傳輸」或非公共橋接器也不能隱藏正在使用私人通訊通道的事實。 The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
 
 還有這三種以外的可插拔傳輸，但通常依賴透過隱蔽性來逃避偵測的安全性。 它們不是不可能被檢測，只是使用者太少，以至於不值得為它們建立檢測器。 如果特別遭受監控，則不應依賴它們。
 
@@ -226,7 +226,7 @@ ISP 肯定不會截取所有資料包級資料與將其永久存儲，他們*無
 
 
 [^1]:    
-    迴路中的第一個節點被稱為“入口守衛”或“守衛”。 它是一個快速和穩定的中繼站，作迴路中的第一個入口通常會維持 2~3個月，以防止已知的匿名破壞攻擊。 其餘的迴路則會依每次訪問網站而變化，這些中繼節點共同提供Tor  完整隱私保護。 了解更多關於守衛中繼的運作，請參考 [部落格文章](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [入口守衛論文paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2/))
+    迴路中的第一個節點被稱為“入口守衛”或“守衛”。 它是一個快速和穩定的中繼站，作迴路中的第一個入口通常會維持 2~3個月，以防止已知的匿名破壞攻擊。 其餘的迴路則會依每次訪問網站而變化，這些中繼節點共同提供Tor  完整隱私保護。 了解更多關於守衛中繼的運作，請參考 [部落格文章](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [入口守衛論文paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 
 
 

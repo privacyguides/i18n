@@ -34,7 +34,7 @@ cover: notebooks.webp
 - [:simple-windows11: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)
 - [:simple-linux: Linux](https://standardnotes.com)
-- [:octicons-globe-16: Web](https://app.standardnotes.com/)
+- [:octicons-globe-16: Web](https://app.standardnotes.com)
 
 </details>
 
@@ -46,11 +46,11 @@ cover: notebooks.webp
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. 모든 플랫폼에서 종단 간 암호화를 지원하고, 강력한 동기화 기능을 제공하여 언제 어디서든 노트를 작성할 수 있습니다. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com/).
+**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. 모든 플랫폼에서 종단 간 암호화를 지원하고, 강력한 동기화 기능을 제공하여 언제 어디서든 노트를 작성할 수 있습니다. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com).
 
-[:octicons-home-16: Homepage](https://notesnook.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.notesnook.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
 
@@ -58,12 +58,12 @@ cover: notebooks.webp
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
 - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
 - [:simple-windows11: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
-- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
 </details>
@@ -80,22 +80,22 @@ Notesnook only allows local note encryption with the [private vault](https://hel
 
 **Joplin**은 기능이 완벽하게 갖춰진 무료 오픈 소스 노트 작성/할 일 관리 애플리케이션입니다. 노트북 분류와 태그로 정리하여 수많은 마크다운 노트를 관리할 수 있습니다. E2EE를 제공하며, Nextcloud, Dropbox 등을 통해 동기화 가능합니다. Evernote나 일반 텍스트 노트에서 간편하게 가져올 수 있는 기능도 제공합니다.
 
-[:octicons-home-16: Homepage](https://joplinapp.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://joplinapp.org/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
 - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
 - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
 - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
 - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 </details>
@@ -135,9 +135,9 @@ Cryptee는 100MB 저장 공간을 무료로 제공하며, 유료 결제를 통�
 
 <div class="admonition recommendation" markdown>
 
-![Org-mode 로고](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode**는 GNU Emacs의 [메이저 모드(Major Mode)](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)입니다. 빠르고 효과적인 일반 텍스트 시스템으로 노트 작성, 할 일 목록 관리, 프로젝트 계획, 문서 작성이 가능합니다. [파일 동기화](file-sharing.md#file-sync) 툴을 이용하면 동기화 가능합니다.
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. 빠르고 효과적인 일반 텍스트 시스템으로 노트 작성, 할 일 목록 관리, 프로젝트 계획, 문서 작성이 가능합니다. [파일 동기화](file-sharing.md#file-sync) 툴을 이용하면 동기화 가능합니다.
 
 [:octicons-home-16: 홈페이지](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=문서}

@@ -4,11 +4,11 @@ icon: simple/qubesos
 description: Qubes è un sistema operativo basato sull'isolamento delle applicazioni all'interno delle *qube* (precedentemente chiamate "VM"), per una maggiore sicurezza.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) è un sistema operativo open-source che utilizza l'hypervisor [Xen](https://en.wikipedia.org/wiki/Xen) per fornire una forte sicurezza per il desktop computing attraverso le *qube* isolate (che sono macchine virtuali). Puoi assegnare ad ogni *qube* un livello di fiducia in base al suo scopo. Qubes OS fornisce sicurezza utilizzando l'isolamento. Permette solo azioni su base individuale e quindi è l'opposto della [enumerazione dei difetti](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) è un sistema operativo open-source che utilizza l'hypervisor [Xen](https://en.wikipedia.org/wiki/Xen) per fornire una forte sicurezza per il desktop computing attraverso le *qube* isolate (che sono macchine virtuali). Puoi assegnare ad ogni *qube* un livello di fiducia in base al suo scopo. Qubes OS fornisce sicurezza utilizzando l'isolamento. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
 
 ## Come funziona Qubes OS?
 
-Qubes utilizza la [compartimentazione](https://www.qubes-os.org/intro/) per mantenere il sistema sicuro. I Qube sono creati da modelli, predefiniti per Fedora, Debian e [Whonix](../desktop.md#whonix). Qubes OS ti consente anche di creare *qubes* [monouso](https://www.qubes-os.org/doc/how-to-use-disposables/).
+Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. I Qube sono creati da modelli, predefiniti per Fedora, Debian e [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
 
 <details class="note" markdown>
 <summary>Il termine <em>qubes</em> viene gradualmente aggiornato per evitare di riferirsi ad essi come "macchine virtuali".</summary>
@@ -20,7 +20,7 @@ Alcune informazioni riportate qui e nella documentazione di Quebes OS possono co
 ![Architettura Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Architettura di Qubes, Crediti: Introduzione a Qubes OS</figcaption>
 
-Ogni qube ha un [bordo colorato](https://www.qubes-os.org/screenshots/) che può aiutarti a tenere traccia del dominio in cui viene eseguito. Ad esempio, potresti utilizzare un colore specifico per le operazioni bancarie, utilizzandone uno differente per un browser generico non affidabile.
+Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. Ad esempio, potresti utilizzare un colore specifico per le operazioni bancarie, utilizzandone uno differente per un browser generico non affidabile.
 
 ![Bordo colorato](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Bordi delle finestre di Qubes, Crediti: Screenshot di Qubes</figcaption>
@@ -33,7 +33,7 @@ Qubes OS utilizza [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM per contr
 
 ### Copiare e incollare il testo
 
-Puoi [copiare e incollare il testo](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) utilizzando `qvm-copy-to-vm` o le istruzioni seguenti:
+You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-text) using `qvm-copy-to-vm` or the below instructions:
 
 1. Premi **Ctrl+C** per dire alla *qube* in cui ti trovi che vuoi copiare qualcosa.
 2. Premi **Ctrl+Maiusc+C** per dire alla *qube* di rendere disponibile questo buffer negli appunti globali.
@@ -47,13 +47,13 @@ Per copiare e incollare file e cartelle da una *qube* a un'altra, puoi usare l'o
 <details class="note" markdown>
 <summary>I Qubes non hanno un proprio filesystem.</summary>
 
-È possibile [copiare e spostare i file](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) tra *qubes*. Così facendo, le modifiche non vengono applicate immediatamente e sono facilmente annullabili, in caso di incidente. Quando si esegue un *qube*, non ha un filesystem persistente. Puoi creare e cancellare file, ma queste modifiche sono effimere.
+You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. Così facendo, le modifiche non vengono applicate immediatamente e sono facilmente annullabili, in caso di incidente. Quando si esegue un *qube*, non ha un filesystem persistente. Puoi creare e cancellare file, ma queste modifiche sono effimere.
 
 </details>
 
 ### Interazioni tra VM
 
-Il [framework qrexec](https://www.qubes-os.org/doc/qrexec/) è una parte fondamentale di Qubes che consente la comunicazione tra i domini. Si basa sulla libreria di Xen *vchan*, che facilita l'[isolamento tramite politiche](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
+The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
 
 ## Connettersi a Tor tramite una VPN
 
@@ -73,9 +73,9 @@ I tuoi qube dovrebbero esser configurati similmente a come segue:
 
 ## Risorse aggiuntive
 
-Per ulteriori informazioni si consiglia di consultare le ampie pagine di documentazione di Qubes OS presenti sul [sito web di Qubes OS](https://www.qubes-os.org/doc/). Le copie offline sono scaricabili dal [repository della documentazione](https://github.com/QubesOS/qubes-doc) di Qubes OS.
+For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). Le copie offline sono scaricabili dal [repository della documentazione](https://github.com/QubesOS/qubes-doc) di Qubes OS.
 
-- [Probabilmente il sistema operativo più sicuro al mondo](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
+- [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
 - [Compartimentazione software vs. separazione fisica](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
 - [Suddividere la mia vita digitale in domini di sicurezza](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Articoli Correlati](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
+- [Related Articles](https://qubes-os.org/news/categories/#articles) (Qubes OS)

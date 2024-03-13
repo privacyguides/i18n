@@ -30,7 +30,7 @@ TOTP היא אחת הצורות הנפוצות ביותר של MFA. כאשר א�
 
 לאחר מכן, הקוד המוגבל בזמן נגזר מהסוד המשותף ומהזמן הנוכחי. מאחר שהקוד תקף לזמן קצר בלבד, ללא גישה לסוד המשותף, היריב אינו יכול ליצור קודים חדשים.
 
-אם יש לך מפתח אבטחת חומרה עם תמיכה ב-TOTP (כגון YubiKey עם [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), אנו ממליצים לאחסן את "הסודות המשותפים" שלך בחומרה. חומרה כגון YubiKey פותחה מתוך כוונה להקשות על החילוץ וההעתקה של "הסוד המשותף". YubiKey גם לא מחובר לאינטרנט, בניגוד לטלפון עם אפליקציית TOTP.
+If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. חומרה כגון YubiKey פותחה מתוך כוונה להקשות על החילוץ וההעתקה של "הסוד המשותף". YubiKey גם לא מחובר לאינטרנט, בניגוד לטלפון עם אפליקציית TOTP.
 
 שלא כמו [WebAuthn](#fido-fast-identity-online), TOTP אינו מציע הגנה מפני [דיוג](https://en.wikipedia.org/wiki/Phishing) או שימוש חוזר בהתקפות. אם יריב משיג ממך קוד חוקי, הוא רשאי להשתמש בו כמה פעמים שירצה עד שתוקפו יפוג (בדרך כלל 60 שניות).
 
@@ -122,13 +122,13 @@ WebAuthn היא הצורה המאובטחת והפרטית ביותר של אי�
 
 ### ווינדוס
 
-לYubico יש ספק [אישורים ייעודי](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) שמוסיף אימות Challenge-Response עבור זרימת הכניסה לשם משתמש + סיסמה עבור חשבונות Windows מקומיים. אם יש לך YubiKey עם תמיכה באימות Challenge-Response, עיין במדריך התצורה של [Yubico Login for Windows](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), שיאפשר לך להגדיר MFA במחשב Windows שלך.
+Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
 
 ### macOS
 
 ל - macOS יש [תמיכה מקומית](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) לאימות עם כרטיסים חכמים (PIV). אם יש לך כרטיס חכם או מפתח אבטחה חומרה התומך בממשק PIV כגון YubiKey, אנו ממליצים לך לעקוב אחר התיעוד של ספק הכרטיס החכם/חומרה שלך ולהגדיר אימות גורם שני עבור מחשב macOS שלך.
 
-לYubico יש מדריך [שימוש ב-YubiKey שלך ככרטיס חכם ב-macOS](https://support.yubico.com/hc/en-us/articles/360016649059) שיכול לעזור לך להגדיר את YubiKey ב-macOS.
+Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
 לאחר הגדרת הכרטיס החכם/מפתח האבטחה שלך, אנו ממליצים להפעיל את הפקודה הזו בטרמינל:
 
@@ -147,22 +147,22 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 </div>
 
-מודול `pam_u2f` ב-Linux יכול לספק אימות דו-גורמי לכניסה לרוב ההפצות הפופולריות של לינוקס. אם יש לך מפתח אבטחת חומרה התומך ב-U2F, תוכל להגדיר אימות MFA עבור הכניסה שלך. ליוביקו יש מדריך [מדריך התחברות ל-Ubuntu Linux - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) שאמור לעבוד על כל הפצה. הפקודות של מנהל החבילות - כגון `apt-get` - ושמות החבילות עשויים להיות שונים. מדריך זה **אינו** חל על מערכת ההפעלה Qubes.
+מודול `pam_u2f` ב-Linux יכול לספק אימות דו-גורמי לכניסה לרוב ההפצות הפופולריות של לינוקס. אם יש לך מפתח אבטחת חומרה התומך ב-U2F, תוכל להגדיר אימות MFA עבור הכניסה שלך. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. הפקודות של מנהל החבילות - כגון `apt-get` - ושמות החבילות עשויים להיות שונים. מדריך זה **אינו** חל על מערכת ההפעלה Qubes.
 
 ### Qubes OS
 
-ל-Qubes OS יש תמיכה באימות Challenge-Response עם YubiKeys. אם יש לך YubiKey עם תמיכה באימות Challenge-Response, עיין ב[תיעוד של YubiKey](https://www.qubes-os.org/doc/yubikey/) של Qubes OS. רוצה להגדיר MFA ב-Qubes OS.
+ל-Qubes OS יש תמיכה באימות Challenge-Response עם YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
 
 ### SSH
 
 #### מפתחות אבטחה של חומרה
 
-ניתן להגדיר SSH MFA באמצעות מספר שיטות אימות שונות הפופולריות במפתחות אבטחה של חומרה. אנו ממליצים לך לעיין ב[תיעוד](https://developers.yubico.com/SSH/) של Yubico כיצד להגדיר זאת.
+ניתן להגדיר SSH MFA באמצעות מספר שיטות אימות שונות הפופולריות במפתחות אבטחה של חומרה. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
 
 #### סיסמה חד פעמית מבוססת זמן (TOTP)
 
-ניתן גם להגדיר SSH MFA באמצעות TOTP. DigitalO Ocean סיפק מדריך [כיצד להגדיר אימות רב - גורמי עבור SSH ב - Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). רוב הדברים צריכים להיות זהים ללא קשר להפצה, אולם פקודות מנהל החבילות - כגון `apt-get` - ושמות החבילות עשויים להיות שונים.
+ניתן גם להגדיר SSH MFA באמצעות TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). רוב הדברים צריכים להיות זהים ללא קשר להפצה, אולם פקודות מנהל החבילות - כגון `apt-get` - ושמות החבילות עשויים להיות שונים.
 
 ### KeePass (ו-KeePassXC)
 
-ניתן לאבטח מסדי נתונים של KeePass ו-KeePassXC באמצעות Challenge-Response או HOTP כאימות גורם שני. Yubico סיפקה מסמך עבור KeePass [שימוש ב-YubiKey עם KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) ויש גם אחד באתר [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
+ניתן לאבטח מסדי נתונים של KeePass ו-KeePassXC באמצעות Challenge-Response או HOTP כאימות גורם שני. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

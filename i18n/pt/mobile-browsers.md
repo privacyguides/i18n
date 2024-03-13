@@ -28,7 +28,7 @@ schema:
     "@type": MobileApplication
     name: Origem do uBlock
     image: /assets/img/browsers/safari.svg
-    url: https://www.apple.com/safari/
+    url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
       - iOS
@@ -41,22 +41,22 @@ Estes são os navegadores para dispositivos móveis e as configurações atualme
 
 ## Android
 
-No Android, o Firefox continua a ser menos seguro do que as alternativas baseadas no Chromium: o motor da Mozilla, [GeckoView](https://mozilla.github.io/geckoview/), ainda não suporta [o isolamento de sites](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) nem ativa [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
 <div class="admonition recommendation" markdown>
 
-![Logótipo Brave](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-O **Brave** inclui um bloqueador de conteúdos incorporado e [funcionalidades de privacidade] (https://brave.com/privacy-features/), muitas das quais estão ativadas por predefinição.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Inclui [características de privacidade](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0), tais como Proteção de Rastreamento Inteligente, Relatório de Privacidade, abas isoladas de Navegação Privada, iCloud Private Relay, e atualizações automáticas de HTTPS.
 
-[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -77,7 +77,7 @@ Estas opções podem ser encontradas em :material-menu: → **Definições** →
 
 ##### Proteções
 
-A Brave inclui algumas medidas de bloqueio de impressão digital na sua funcionalidade [Proteção](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-). Sugerimos que configure estas opções [globalmente](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) em todas as páginas que visitar.
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 ##### Predefinições globais das proteções do Brave
 
@@ -101,7 +101,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. Esta opção disponibiliza uma funcionalidade semelhante aos modos de bloqueio avançados do uBlock Origin [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) ou à extensão [NoScript](https://noscript.net/).
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
 ##### Limpar dados de navegação
 
@@ -115,7 +115,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Uncheck **Allow sites to check if you have payment methods saved**
 - [ ] Uncheck **IPFS Gateway** (1)
 - [x] Select **Close tabs on exit**
@@ -129,7 +129,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 #### Sincronização do Brave
 
-[A Sincronização do Brave](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) permite que os seus dados de navegação (histórico, marcadores, etc.) estejam acessíveis em todos os seus dispositivos, sem necessidade de uma conta, e protege-os com E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## iOS
 
@@ -141,11 +141,11 @@ No iOS, qualquer aplicação que possa navegar na Web está [limitada](https://d
 
 ![Logótipo Safari](assets/img/browsers/safari.svg){ align=right }
 
-O **Safari** é o navegador predefinido no iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+O **Safari** é o navegador predefinido no iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
 
-[:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Política de Privacidade" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentação}
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
 </details>
 
@@ -185,7 +185,7 @@ O Relatório de Privacidade é acessível através do menu de Configurações.
 
 - [ ] Desativar **Medidor de Anúncios Respeitador de Privacidade**
 
-A medição de clique em anúncios tem usado tradicionalmente a tecnologia de rastreamento que viola a privacidade do utilizador. A [Medição de Clique Privado](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) é um recurso de WebKit e um padrão proposto para permitir que anunciantes meçam a eficácia de campanhas na web sem comprometer a privacidade do utilizador.
+A medição de clique em anúncios tem usado tradicionalmente a tecnologia de rastreamento que viola a privacidade do utilizador. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
 A funcionalidade tem poucas preocupações de privacidade por si só, então enquanto pode optar por deixá-lo ligado, nós consideramos que ele é automaticamente desativado na navegação privativa como um indicador para desativar o recurso.
 
@@ -201,9 +201,9 @@ Tenha em atenção que a Navegação Privada não guarda cookies e dados de sít
 
 ##### Sincronização iCloud
 
-A sincronização do histórico do Safari, grupos de separadores, separadores do iCloud e palavras-passe guardadas são E2EE. No entanto, por predefinição, os marcadores não [são](https://support.apple.com/en-us/HT202303). A Apple pode desencriptá-los e aceder-lhes segundo a sua [política de privacidade](https://www.apple.com/legal/privacy/en-ww/).
+A sincronização do histórico do Safari, grupos de separadores, separadores do iCloud e palavras-passe guardadas são E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-Pode ativar o E2EE para os seus favoritos e transferências do Safari ativando a [Proteção Avançada de Dados](https://support.apple.com/en-us/HT212520). Aceda ao seu **Nome de ID Apple → iCloud → Proteção de Dados Avançada**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Aceda ao seu **Nome de ID Apple → iCloud → Proteção de Dados Avançada**.
 
 - [x] Ligue a **Proteção de Dados Avançada**
 
@@ -227,7 +227,7 @@ O AdGuard para iOS tem algumas funcionalidades premium; no entanto, o bloqueio d
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 
 </details>
 

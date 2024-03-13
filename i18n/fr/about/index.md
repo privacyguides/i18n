@@ -21,19 +21,19 @@ schema:
 
 **Privacy Guides** est un site web à vocation sociale qui fournit [des informations](/kb) pour protéger la sécurité de vos données et votre vie privée. Notre mission est d'informer le public sur la valeur de la vie privée numérique et sur les initiatives gouvernementales mondiales visant à surveiller votre activité en ligne. Nous sommes un collectif à but non lucratif entièrement géré par des [membres bénévoles de l'équipe](https://discuss.privacyguides.net/g/team) et des contributeurs. Notre site est exempt de publicité et n'est affilié à aucun des fournisseurs cités.
 
-[:octicons-home-16:](https://www.privacyguides.org/){ .card-link title="Page d'accueil" }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Code source" }
-[:octicons-heart-16:](donate.md){ .card-link title=Contribuer }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[:octicons-heart-16:](donate.md){ .card-link title=Contribute }
 
 > Pour trouver des applications [alternatives axées sur la protection de la vie privée], consultez des sites tels que Good Reports et **Privacy Guides**, qui répertorient les applications axées sur la protection de la vie privée dans diverses catégories, notamment les fournisseurs de courrier électronique (généralement payants) qui ne sont pas gérés par les grands géants du web.
 
-— [New York Times](https://www.nytimes.com/wirecutter/guides/online-security-social-media-privacy/) [Traduit de l'anglais]
+— [New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
 
 > Si vous êtes à la recherche d'un nouveau VPN, vous pouvez consulter le code de réduction d'à peu près tous les podcasts. Si vous cherchez un **bon** VPN, vous avez besoin d'une aide professionnelle. Il en va de même pour les clients de messagerie, les navigateurs, les systèmes d'exploitation et les gestionnaires de mots de passe. Comment savoir laquelle de ces options est la meilleure, la plus respectueuse de la vie privée ? Pour cela, il existe **Privacy Guides**, une plateforme sur laquelle un certain nombre de bénévoles recherchent jour après jour les meilleurs outils respectueux de la vie privée à utiliser sur internet.
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Traduit du néerlandais]
 
-Également présenté sur : [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok/), [Wirecutter](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc/) [[2](https://www.nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac/)], [NPO Radio 1](https://www.nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), et [Wired](https://www.wired.com/story/firefox-mozilla-2022/).
+Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), and [Wired](https://wired.com/story/firefox-mozilla-2022).
 
 ## Histoire
 
@@ -41,7 +41,7 @@ Privacy Guides a été lancé en septembre 2021 dans le prolongement du projet �
 
 En 2022, nous avons achevé la transition de l'environnement de site web principal de Jekyll à MkDocs, en utilisant le logiciel de documentation `mkdocs-material`. Ce changement a rendu les contributions open source à notre site considérablement plus facile pour les personnes extérieures, parce qu'au lieu d'avoir besoin de connaître une syntaxe complexe pour écrire des messages efficacement, contribuer est maintenant aussi simple que d'écrire un document Markdown standard.
 
-Nous avons également lancé notre nouveau forum de discussion sur [discuss.privacyguides.net](https://discuss.privacyguides.net/) comme plateforme communautaire pour partager des idées et poser des questions sur notre mission. Cela complète notre communauté existante sur Matrix et remplace notre précédente plate-forme de Discussions GitHub, réduisant ainsi notre dépendance aux plateformes de discussion propriétaires.
+We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. Cela complète notre communauté existante sur Matrix et remplace notre précédente plate-forme de Discussions GitHub, réduisant ainsi notre dépendance aux plateformes de discussion propriétaires.
 
 Jusqu'à présent en 2023, nous avons lancé des traductions internationales de notre site en [français](/fr/), [hébreu](/he/), et [néerlandais](/nl/), et d'autres langues sont à venir, rendu possible par notre excellente équipe de traduction sur [Crowdin](https://crowdin.com/project/privacyguides). Nous avons l'intention de poursuivre notre mission de sensibilisation et d'éducation, et trouver des moyens de mieux mettre en évidence les dangers d'un manque de sensibilisation à la protection de la vie privée à l'ère numérique moderne, et la prévalence et les conséquences des failles de sécurité dans l'industrie de la technologie.
 

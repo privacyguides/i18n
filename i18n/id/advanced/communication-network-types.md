@@ -28,7 +28,7 @@ Beberapa perpesanan yang dihosting sendiri memungkinkan Anda untuk mengatur serv
 - Dapat menyertakan [kontrol atau akses terbatas](https://drewdevault.com/2018/08/08/Signal.html). Ini dapat mencakup hal-hal seperti:
 - Dilarang [menghubungkan klien pihak ketiga](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) ke jaringan terpusat yang mungkin memberikan penyesuaian yang lebih besar atau pengalaman yang lebih baik. Sering kali didefinisikan dalam Syarat dan Ketentuan penggunaan.
 - Dokumentasi yang buruk atau tidak ada sama sekali untuk pengembang pihak ketiga.
-- [Kepemilikan](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), kebijakan privasi, dan operasi layanan dapat berubah dengan mudah ketika satu entitas mengendalikannya, yang berpotensi membahayakan layanan di kemudian hari.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - Hosting mandiri membutuhkan upaya dan pengetahuan tentang cara menyiapkan layanan.
 
 ## Jaringan Federasi
@@ -60,7 +60,7 @@ Ketika dihosting sendiri, anggota server federasi dapat menemukan dan berkomunik
 
 Perpesanan P2P terhubung ke [jaringan node yang terdistribusi](https://en.wikipedia.org/wiki/Distributed_networking) untuk menyampaikan pesan ke penerima tanpa server pihak ketiga.
 
-Klien (peer) biasanya menemukan satu sama lain melalui penggunaan jaringan [komputasi terdistribusi](https://id.wikipedia.org/wiki/Komputasi_terdistribusi). Contohnya antara lain [Tabel Hash Terdistribusi](https://id.wikipedia.org/wiki/Tabel_Hash_Terdistribusi) (DHT), yang digunakan oleh [torrent](https://id.wikipedia.org/wiki/BitTorrent) dan [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) sebagai contoh. Pendekatan lain adalah jaringan berbasis kedekatan, di mana koneksi dibuat melalui WiFi atau Bluetooth (misalnya, Briar atau protokol jaringan sosial [Scuttlebutt](https://www.scuttlebutt.nz)).
+Klien (peer) biasanya menemukan satu sama lain melalui penggunaan jaringan [komputasi terdistribusi](https://id.wikipedia.org/wiki/Komputasi_terdistribusi). Contohnya antara lain [Tabel Hash Terdistribusi](https://id.wikipedia.org/wiki/Tabel_Hash_Terdistribusi) (DHT), yang digunakan oleh [torrent](https://id.wikipedia.org/wiki/BitTorrent) dan [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) sebagai contoh. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Setelah peer menemukan rute ke kontaknya melalui salah satu metode ini, koneksi langsung di antara mereka dibuat. Meskipun pesan biasanya dienkripsi, seorang pengamat masih dapat menyimpulkan lokasi dan identitas pengirim dan penerima.
 

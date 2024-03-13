@@ -9,7 +9,7 @@ icon: material/hand-coin
 
 **현금**은 수 세기 동안 주된 비공개 결제 수단으로 쓰여 왔습니다. 현금은 수많은 나라들에서 사용할 뿐만 아니라, 대부분의 상황에서 매우 뛰어난 프라이버시를 제공합니다. 또한, 고유하지 않아 똑같이 생긴 물건과 구별할 수 없습니다.
 
-현금 결제 관련 법률은 국가마다 다릅니다. 미국의 경우에는 $10,000 이상의 현금 결제를 할 때[Form 8300](https://www.irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000)를 이용하여 IRS에게 보고해야 합니다. 이를 받는 회사는 해당 결제를 진행하는 사람의 이름, 주소, 직업, 생년월일과 주민등록번호나 다른 TIN을 확인할 의무가 있습니다 (일부 예외 사항 제외). 환전 또는 송금과 같은 경우에는 신분증 없이 결제할 수 있는 금액이 $3,000 이하입니다. 또한, 현금에는 일렬번호가 인쇄되어 있습니다. 판매자가 일렬번호를 추적하는 일은 거의 없지만, 법 집행 기관은 수사에서 이를 사용할 수 있습니다.
+현금 결제 관련 법률은 국가마다 다릅니다. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). 이를 받는 회사는 해당 결제를 진행하는 사람의 이름, 주소, 직업, 생년월일과 주민등록번호나 다른 TIN을 확인할 의무가 있습니다 (일부 예외 사항 제외). 환전 또는 송금과 같은 경우에는 신분증 없이 결제할 수 있는 금액이 $3,000 이하입니다. 또한, 현금에는 일렬번호가 인쇄되어 있습니다. 판매자가 일렬번호를 추적하는 일은 거의 없지만, 법 집행 기관은 수사에서 이를 사용할 수 있습니다.
 
 그럼에도 불구하고 현금은 일반적으로 가장 좋은 결제 방식입니다.
 
@@ -60,7 +60,7 @@ Additionally, many if not most cryptocurrencies are scams. Make transactions car
 
 - [권장하는 암호화폐 :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
 
-프라이버시 코인들은 정부 기관들로부터 감시를 받고 있습니다. 2020년에는 [IRS에서 비트코인 Lightning 네트워크와 모네로의 거래를 해독할 수 있는 도구에 대해 625,000 달러의 현상금](https://www.forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc)을 발표했습니다. 결론적으로 IRS는 Chainanalysis와 Integra Fec [이 두 회사에게 총합 125만 달러의 현상금을 지급했습니다](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view). 이 도구들이 어떤 네트워크를 대상으로 만들어졌는지는 공개되지 않았습니다. 기밀 유지로 인해 ==이 암호화폐 추적 방법들이 실제로 작동하는지는 독립적으로 확인된 바는 없습니다.== 하지만, 표적 조사를 돕는 암호화폐 추적 도구는 존재할 확률이 높으며, 이런 암호화폐는 대규모 감시만 피할 수 있을 것입니다.
+프라이버시 코인들은 정부 기관들로부터 감시를 받고 있습니다. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. 결론적으로 IRS는 Chainanalysis와 Integra Fec [이 두 회사에게 총합 125만 달러의 현상금을 지급했습니다](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view). 이 도구들이 어떤 네트워크를 대상으로 만들어졌는지는 공개되지 않았습니다. 기밀 유지로 인해 ==이 암호화폐 추적 방법들이 실제로 작동하는지는 독립적으로 확인된 바는 없습니다.== 하지만, 표적 조사를 돕는 암호화폐 추적 도구는 존재할 확률이 높으며, 이런 암호화폐는 대규모 감시만 피할 수 있을 것입니다.
 
 ### 기타 코인 (비트코인, 이더리움 등)
 
@@ -76,7 +76,7 @@ Additionally, many if not most cryptocurrencies are scams. Make transactions car
 
 ### Acquisition
 
-Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces like [LocalMonero](https://localmonero.co/), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com/), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own noncustodial wallet to use privately from that point forward.
+Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces like [LocalMonero](https://localmonero.co), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own noncustodial wallet to use privately from that point forward.
 
 If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
 

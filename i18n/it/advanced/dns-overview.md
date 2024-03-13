@@ -18,7 +18,7 @@ Di seguito, discutiamo e forniamo un tutorial per provare ciò che un osservator
 
 ### DNS non crittografato
 
-1. Utilizzando [`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (parte del progetto di [Wireshark](https://en.wikipedia.org/wiki/Wireshark)), possiamo monitorare e registrare il flusso di pacchetti di Internet. Il comando registra i pacchetti che soddisfano le regole specificate:
+1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. Il comando registra i pacchetti che soddisfano le regole specificate:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -39,7 +39,7 @@ Di seguito, discutiamo e forniamo un tutorial per provare ciò che un osservator
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Successivamente, vogliamo [analizzare](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) i risultati:
+3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -74,7 +74,7 @@ Il DNS crittografato può riferirsi a uno dei numerosi protocolli, i più comuni
 
 ### DNS-over-TLS (DoT)
 
-[**DNS-over-TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) è un altro metodo per crittografare le comunicazioni DNS, definito in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Il supporto è stato implementato per la prima volta in Android 9, iOS 14 e su Linux in [systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=), nella versione 237. La preferenza nel settore è stata allontanarsi dal DoT al DoH negli ultimi anni, poiché DoT è un [protocollo complesso](https://dnscrypt.info/faq/), avente una conformità variabile al RFC tra le implementazioni che esistono. Inoltre, DoT opera su una porta 853 dedicata, facilmente bloccabile dai firewall restrittivi.
+[**DNS-over-TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) è un altro metodo per crittografare le comunicazioni DNS, definito in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. Inoltre, DoT opera su una porta 853 dedicata, facilmente bloccabile dai firewall restrittivi.
 
 ### DNS-over-HTTPS (DoH)
 
@@ -106,7 +106,7 @@ In questo esempio registreremo cosa si verifica quando effettuiamo una richiesta
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-Possiamo vedere l'[instaurazione della connessione](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) e l'[handshake TLS](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/), che si verificano con qualsiasi connessione crittografata. Osservando i successivi pacchetti di "dati dell'applicazione", nessuno di essi contiene il dominio richiesto o l'indirizzo IP restituito.
+We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. Osservando i successivi pacchetti di "dati dell'applicazione", nessuno di essi contiene il dominio richiesto o l'indirizzo IP restituito.
 
 ## Perché **non dovrei** utilizzare il DNS crittografato?
 
@@ -158,9 +158,9 @@ L'Indicazione del Nome del Server è tipicamente utilizzata quando un indirizzo 
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-Ciò significa che, anche se stiamo utilizzando dei server "DNS Crittografati", il dominio sarà probabilmente divulgato tramite SNI. Il protocollo [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) porta con sé [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello/), che impedisce questo tipo di fuga d'informazioni.
+Ciò significa che, anche se stiamo utilizzando dei server "DNS Crittografati", il dominio sarà probabilmente divulgato tramite SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
 
-I governi, in particolare la [Cina](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) e la [Russia](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), hanno già [iniziato a bloccarlo](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) o espresso il desiderio di volerlo fare. Di recente, la Russia ha [iniziato a bloccare i siti web stranieri](https://github.com/net4people/bbs/issues/108), che utilizzano lo standard [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). Questo perché il protocollo [QUIC](https://en.wikipedia.org/wiki/QUIC), parte di HTTP/3, richiede che anche `ClientHello` sia crittografato.
+Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Di recente, la Russia ha [iniziato a bloccare i siti web stranieri](https://github.com/net4people/bbs/issues/108), che utilizzano lo standard [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). Questo perché il protocollo [QUIC](https://en.wikipedia.org/wiki/QUIC), parte di HTTP/3, richiede che anche `ClientHello` sia crittografato.
 
 ### Protocollo di Stato del Certificato Online (OCSP)
 
@@ -289,7 +289,7 @@ Il processo di firma delle DNSSEC è simile a quello di firma di un documento le
 
 Le DNSSEC implementano una politica di firma digitale gerarchica, tra tutti i livelli del DNS. Ad esempio, nel caso di una ricerca di `privacyguides.org`, un server DNS di radice firmerebbe una chiave per il nome del server `.org`, e il nome del server `.org`, dunque, firmerebbe un chiave per quello autoritativo di `privacyguides.org`.
 
-<small>Adattato dalla [panoramica sulle Estensioni di Sicurezza DNS (DNSSEC)](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: Un'introduzione](https://blog.cloudflare.com/dnssec-an-introduction/), di Cloudflare, entrambi sotto licenza [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
+<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
 
 ## Cos'è la minimizzazione dei QNAME?
 

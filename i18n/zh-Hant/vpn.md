@@ -25,7 +25,7 @@ cover: vpn.webp
 
 如果要的是更多 **安全性** ，您應該確保您全程使用 HTTPS 連接到網站。 VPN 不能取代良好的安全措施。
 
-[Download Tor](https://www.torproject.org/){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -43,19 +43,19 @@ cover: vpn.webp
 
 **Proton VPN** 是 VPN 領域強大競爭者，自 2016 年開始營運。 Proton AG 總部位於瑞士，提供有限的免費會員等級，以及更多功能的付費選項。
 
-[:octicons-home-16: Homepage](https://protonvpn.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support/){ .card-link title=Documentation}
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1437005085)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
 - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
 - [:simple-windows11: Windows](https://protonvpn.com/download-windows)
-- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup/)
+- [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup)
 
 </details>
 
@@ -72,7 +72,7 @@ Proton VPN 在73個國家/地區設有 [伺服器](https://protonvpn.com/vpn-ser
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-截至 2020年1月， Proton VPN 已接受 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS應用程序中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部“正確修復”這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以透過 [protonvpn.com](https://protonvpn.com/blog/open-source/)查看各個平臺的報告。  2022 年 4月Proton VPN 通過 [另一次審計](https://protonvpn.com/blog/no-logs-audit/) ，[ Securitum 所作的報告在此](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf)。  [Securitum](https://research.securitum.com)  在 2021年11月9日簽發 [Proton VPN 的應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
+截至 2020年1月， Proton VPN 已接受 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS應用程序中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部“正確修復”這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf).  [Securitum](https://research.securitum.com)  在 2021年11月9日簽發 [Proton VPN 的應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
 #### :material-check:{ .pg-green } 開源客戶端
 
@@ -84,31 +84,31 @@ Proton VPN 在 [GitHub](https://github.com/ProtonVPN) 提供其桌面和移動�
 
 #### :material-check:{ .pg-green } WireGuard支持
 
-Proton VPN 支持 WireGuard ®協議。 [WireGuard](https://www.wireguard.com) 是一個較新的協議，使用最先進的 [加密技術](https://www.wireguard.com/protocol/)。 此外， WireGuard的目標是更簡單，更高效。
+Proton VPN 支持 WireGuard ®協議。 [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). 此外， WireGuard的目標是更簡單，更高效。
 
-Proton VPN [建議](https://protonvpn.com/blog/wireguard/) 搭配 WireGuard 使用。   Proton VPN 在 Windows, macOS, iOS, Android, ChromeOS, 以及 Android TV 等平台的應用軟體， WireGuard 已是預設協議，不過[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols/) Linux 作業系統的應用軟體。
+Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols) for the protocol is not present in their Linux app.
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://protonvpn.com/support/port-forwarding/)期間為 60 秒。 Windows 應用提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup/)。 Torrent 應用往往支援 NAT-PMP 原生。
+Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent 應用往往支援 NAT-PMP 原生。
 
 #### :material-information-outline:{ .pg-orange } 審查規避
 
-Proton VPN 有自己的[Stealth](https://protonvpn.com/blog/stealth-vpn-protocol/) 協定，在其它 VPN 協定如 OpenVPN, Wireguard 遭封鎖時*或可*派上用場。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
 
 不幸在部署複雜過濾器分析所有對外流量以試圖發現加密隧道的國家/地區，它的效果不太好。 Stealth 也無法在 [Windows](https://github.com/ProtonVPN/win-app/issues/64) 或 Linux 上使用。
 
 #### :material-check:{ .pg-green } 手機客戶端
 
-除了提供標準的 OpenVPN 配置檔案外， Proton VPN 還有 [ App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085)、 [ Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US)和 [個GitHub](https://github.com/ProtonVPN/android-app/releases) 的移動客戶端，可以輕鬆連接到其伺服器。
+In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/app/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-除 Linux 以外，Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 在瑞士、冰島和瑞典，Proton VPN 擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外， Proton VPN 還提供“Tor”伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議這類目的，最好還是使用 [官方 Tor 瀏覽器](https://www.torproject.org/) 。
+除 Linux 以外，Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 在瑞士、冰島和瑞典，Proton VPN 擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://torproject.org) for this purpose.
 
 #### :material-alert-outline:{ .pg-orange } Killswitch 無法用在  Intel 處理器的 Mac 電腦
 
-Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](https://protonvpn.com/support/macos-t2-chip-kill-switch/) 。 如果您需要此功能，但使用的是搭載 Intel 晶片組的Mac ，則應考慮使用其他 VPN 服務。
+System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN killswitch. 如果您需要此功能，但使用的是搭載 Intel 晶片組的Mac ，則應考慮使用其他 VPN 服務。
 
 ### IVPN
 
@@ -118,9 +118,9 @@ Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](htt
 
 **IVPN** 是另一家高級 VPN 提供商，自  2009年開始運營。 IVPN 位於直布羅陀。
 
-[:octicons-home-16: Homepage](https://www.ivpn.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.ivpn.net/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -128,10 +128,10 @@ Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](htt
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/ivpn-serious-privacy-protection/id1193122683)
-- [:simple-windows11: Windows](https://www.ivpn.net/apps-windows/)
-- [:simple-apple: macOS](https://www.ivpn.net/apps-macos/)
-- [:simple-linux: Linux](https://www.ivpn.net/apps-linux/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
+- [:simple-windows11: Windows](https://ivpn.net/apps-windows)
+- [:simple-apple: macOS](https://ivpn.net/apps-macos)
+- [:simple-linux: Linux](https://ivpn.net/apps-linux)
 
 </details>
 
@@ -139,7 +139,7 @@ Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](htt
 
 #### :material-check:{ .pg-green } 37 個國家
 
-IVPN 在 37 個國家/地區擁有 [伺服器](https://www.ivpn.net/server-locations)。 (1)選擇離最近的伺服器 VPN 供應商，將減少發送網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。
+IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。
 { .annotate }
 
 1. 上次檢查日期： 2023-12-21
@@ -150,13 +150,13 @@ IVPN 在 37 個國家/地區擁有 [伺服器](https://www.ivpn.net/server-locat
 
 IVPN 通過 Cure53</a> 的
 
-不留記錄審計，該審計結果與 IVPN 的不留記錄聲明一致。 IVPN 還在2020年1月完成了Cure53 [全面的 pentest 報告](https://cure53.de/summary-report_ivpn_2019.pdf) 。 IVPN 也表示打算未來會定期提出 [年度報告](https://www.ivpn.net/blog/independent-security-audit-concluded)。 2022年4月進行[進一步評估](https://www.ivpn.net/blog/ivpn-apps-security-audit-2022-concluded/) ，並由執行單位 Cure53 發佈[在其網站](https://cure53.de/pentest-report_IVPN_2022.pdf)。</p> 
+不留記錄審計，該審計結果與 IVPN 的不留記錄聲明一致。 IVPN 還在2020年1月完成了Cure53 [全面的 pentest 報告](https://cure53.de/summary-report_ivpn_2019.pdf) 。 IVPN has also said they plan to have [annual reports](https://ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).</p> 
 
 
 
 #### :material-check:{ .pg-green } 開源客戶端
 
-2020 二月後 [IVPN 應用程式已公開其源代碼](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source)。 源代碼可以從他們的 [GitHub組織](https://github.com/ivpn)獲得。
+As of February 2020 [IVPN applications are now open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). 源代碼可以從他們的 [GitHub組織](https://github.com/ivpn)獲得。
 
 
 
@@ -168,33 +168,33 @@ IVPN 通過 Cure53</a> 的
 
 #### :material-check:{ .pg-green } WireGuard支持
 
-IVPN 支援 WireGuard 協議。 [WireGuard](https://www.wireguard.com) 是一個較新的協議，使用最先進的 [加密技術](https://www.wireguard.com/protocol/)。 此外， WireGuard的目標是更簡單，更高效。
+IVPN 支援 WireGuard 協議。 [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). 此外， WireGuard的目標是更簡單，更高效。
 
-IVPN [建議](https://www.ivpn.net/wireguard/)搭配 WireGuard 一起使用， IVPN's 所有應用程式皆已預設 WireGuard 協議。 IVPN 亦提供 WireGuard 設置生成器以用於官方版本的 WireGuard [應用軟體](https://www.wireguard.com/install/)。
+IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
 
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-IVPN 之前支援向前轉發，但於[2023年6月](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding)移除此功能選項。 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
+IVPN previously supported port forwarding, but removed the option in [June 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
 
 
 
 #### :material-check:{ .pg-green } 審查規避
 
-IVPN 混淆模式採[v2ray](https://www.v2ray.com/en/index.html) 專案，它 在其它 VPN 協定如 OpenVPN, Wireguard 遭封鎖時可予協助。 此功能目前僅支援桌機版與 [iOS](https://www.ivpn.net/knowledgebase/ios/v2ray/)。 有兩種模式可運用: [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) 取代 QUIC 或 TCP 連接。 QUIC 為新版的協定具有更佳的擁塞控制，減少延遲速度更快。 TCP 模式的數據呈現為一般的 HTTP 流量。
+IVPN has obfuscation modes using the [v2ray](https://v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). 有兩種模式可運用: [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) 取代 QUIC 或 TCP 連接。 QUIC 為新版的協定具有更佳的擁塞控制，減少延遲速度更快。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
 
 
 #### :material-check:{ .pg-green } 手機客戶端
 
-除標準的 OpenVPN 配置文件外， IVPN可以在 [App Store ](https://apps.apple.com/us/app/ivpn-serious-privacy-protection/id1193122683)、 [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)和  [GitHub](https://github.com/ivpn/android-app/releases) 下載移動客戶端，以輕鬆連接到他們的伺服器。
+In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/app/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
 
 
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"[反追蹤](https://www.ivpn.net/antitracker)" 功能，以阻絕來自網路層的廣告與追蹤。
+IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
 
 
@@ -208,19 +208,19 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
-- [:simple-appstore: App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
 - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-- [:simple-windows11: Windows](https://mullvad.net/en/download/windows/)
-- [:simple-apple: macOS](https://mullvad.net/en/download/macos/)
-- [:simple-linux: Linux](https://mullvad.net/en/download/linux/)
+- [:simple-windows11: Windows](https://mullvad.net/en/download/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/linux)
 
 </details>
 
@@ -228,7 +228,7 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
 
 #### :material-check:{ .pg-green } 40 個國家
 
-Mullvad 在 40 個國家/地區設有 [伺服器](https://mullvad.net/servers/)。(1) 選擇離最近伺服器，這將減少網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。 
+Mullvad has [servers in 40 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。 
 
 { .annotate }
 
@@ -246,13 +246,13 @@ Cure53 審計了 Mullvad's VPN 客戶端軟體， Assured AB 對他們進行穿�
 
 > Cure53 和 Assured AB 對審計結果感到滿意，Mullvad 留下整體正面的印象。 由於 Mullvad VPN 內部團隊在安全上的投入，測試人員肯定了該項目從安全角度來看是正確的。
 
-2020年宣布第二次審計 [](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app/) ， [最終報告結果](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) 可在 Cure53 網站上獲得：
+In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
 
 
 
 > 2020年5月~6月針對 Mullvad  的專案結果是相當正面。 [...] Mullvad 使用的整體應用生態系統給人留下了結構完善之印象。 該應用程序的整體結構更容易以結構化的方式推出補丁和修復。 Cure53 的發現展示了不斷審核和重新評估當前泄漏向量的重要性，以始終確保最終用戶的隱私。 Mullvad 在保護最終用戶免受常見 PII 洩漏和隱私相關風險方面做得很好。
 
-2021年宣布[基礎設施審計](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit/) ，並在 Cure53 網站上公布[最終審計報告](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) 。 2022年6月</日>另一份委託 Assured 所作的報告 。</p> 
+In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data) and is available on [Assured's website](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
 
 
@@ -270,21 +270,21 @@ Mullvad 在[GitHub 提供其桌面和移動客戶端的源代碼](https://github
 
 #### :material-check:{ .pg-green } WireGuard支持
 
-Mullvad 支持 WireGuard ®協議。 [WireGuard](https://www.wireguard.com) 是一個較新的協議，使用最先進的 [加密技術](https://www.wireguard.com/protocol/)。 此外， WireGuard的目標是更簡單，更高效。
+Mullvad 支持 WireGuard ®協議。 [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). 此外， WireGuard的目標是更簡單，更高效。
 
-Mullvad [建議](https://mullvad.net/en/help/why-wireguard/) 搭配 WireGuard 使用。  Android, iOS, macOS, 與 Linux  Mullvad 應用軟體已將 WireGuard 調為預設協議，但 Windows 則須要自行 [手動打開](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard。 Mullvad 提供 WireGuard 配置生成器，搭配 WireGuard  官方 [應用程序](https://www.wireguard.com/install/)。
+Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
 
 
 #### :material-check:{ .pg-green } IPv6 支持
 
-Mullvad 可 [存取託管在 IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) 的服務，有些供應商會阻止IPv6 連接。
+Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support), as opposed to other providers which block IPv6 connections.
 
 
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-Mullvad 之前支援向前轉發，但於[2023年5月](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports/)移除此功能選項。 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
+Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
 
 
 
@@ -296,13 +296,13 @@ Mullvad 混淆模式採用 [Shadowsocks with v2ray](https://mullvad.net/en/help/
 
 #### :material-check:{ .pg-green } 手機客戶端
 
-Mullvad 有 [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) 和 [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) 用戶端，兩者易於使用的界面，無須手動配置 WireGuard 連接。 Android 客戶端也從 [GitHub](https://github.com/mullvad/mullvadvpn-app/releases)下載。
+Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. Android 客戶端也從 [GitHub](https://github.com/mullvad/mullvadvpn-app/releases)下載。
 
 
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Mullvad 對 [自有或租用](https://mullvad.net/en/servers/)的節點非常透明。 他們在 ShadowSocks + OpenVPN 配置中使用 [ShadowSocks](https://shadowsocks.org/) ，以更能抵抗 [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) 試圖阻止 VPN 之防火牆。 據推測， [中國使用不同的方法來阻止 ShadowSocks 伺服器](https://github.com/net4people/bbs/issues/22)。 Mullvad 網站也可以通過 Tor 訪問 [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion)。
+Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. 據推測， [中國使用不同的方法來阻止 ShadowSocks 伺服器](https://github.com/net4people/bbs/issues/22)。 Mullvad 網站也可以通過 Tor 訪問 [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion)。
 
 
 

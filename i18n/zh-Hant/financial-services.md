@@ -30,7 +30,7 @@ cover: financial-services.webp
 
 [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
 
 </details>
 
@@ -47,9 +47,9 @@ Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 �
 
 **MySudo** 根據您購買的方案最多提供 9張虛擬卡。 付費方案還包括一些有助於私密購物的功能，例如虛擬電話號碼和電子郵件地址，但我們通常建議使用專業 [電子郵件別名提供商](email.md)進行廣泛的別名使用保護。
 
-[:octicons-home-16: Homepage](https://mysudo.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -83,9 +83,9 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 **CoinCards** (美國和加拿大提供)允許您為各種商家購買禮品卡。
 
-[:octicons-home-16: Homepage](https://coincards.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
 
 </details>
 

@@ -88,12 +88,12 @@ ExifEraser로 이미지 메타데이터를 제거하는 방법은 다양합니�
 **Metapho**는 날짜, 파일명, 파일 크기, 카메라 모델, 셔터 속도, 위치 등 사진 메타데이터를 간단하고 깔끔하게 볼 수 있는 애플리케이션입니다.
 
 [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
 
@@ -107,7 +107,7 @@ ExifEraser로 이미지 메타데이터를 제거하는 방법은 다양합니�
 
 **PrivacyBlur**는 사진을 온라인에 공유하기 전에 민감한 부분을 흐릿하게 만들 수 있는 무료 앱입니다.
 
-[:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
@@ -116,7 +116,7 @@ ExifEraser로 이미지 메타데이터를 제거하는 방법은 다양합니�
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
 
 </details>
 

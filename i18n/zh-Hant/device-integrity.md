@@ -26,7 +26,7 @@ These tools may provide utility for certain individuals. 它們提供了多數�
 
 如果以下任何工具表明可能有 Pegasus、Predator 或 KingsPawn 等間諜軟體危害，建議聯絡：
 
-- 如果您是人權捍衛者、記者或來自民間團體：[國際特赦組織安全實驗室](https://securitylab.amnesty.org/contact-us/)
+- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
 - 如果企業或政府設備受到威脅：請聯絡企業、部門或機構的相應安全聯絡員
 - 本地執法單位
 
@@ -54,7 +54,7 @@ These tools may provide utility for certain individuals. 它們提供了多數�
 
 可靠且全面的數位鑑識支援和分類需要存取非公開指標、研究和威脅情報。
 
-可透過 [Amnesty International's Security Lab](https://www.amnesty.org/en/tech/) 或 [Access Now’s Digital Security Helpline](https://www.accessnow.org/help/) 取得公民社會的此類支援。
+Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
 
 </div>
 
@@ -66,16 +66,16 @@ These tools may provide utility for certain individuals. 它們提供了多數�
 
 ![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描移動設備的過程，查找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [Pegasus 專案](https://forbiddenstories.org/about-the-pegasus-project/) 背景下發布。
+**Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描移動設備的過程，查找已知間諜軟體活動的潛在目標或感染痕跡。 MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
-[:octicons-home-16: Homepage](https://mvt.re/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://mvt.re){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
 
-- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
-- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
+- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
+- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
 
 </details>
 
@@ -110,7 +110,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存可用於分類潛在�
 
 **iMazing** 為 iOS 裝置提供免費的間諜軟體分析工具，充當 [MVT](#mobile-verification-toolkit) 的圖形介面包裝器。 相比 MVT ，它更容易運行，前者是專為技術人員和法醫調查人員設計的命令列工具。
 
-[:octicons-home-16: Homepage](https://imazing.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://imazing.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
@@ -167,7 +167,7 @@ Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的�
 
 審核員使用**兩個**設備執行證明和入侵檢測，即一個_被審核者_（正在驗證的設備）和一個_審核員_（執行驗證的設備）。 審核者可以是任何Android 10+ 裝置（或由[GrapheneOS](android.md#grapheneos) 運行的遠端Web 服務），而受審核者必須是專門的[支援的裝置](https\://attestation.app /about #device-support）。 Auditor 適用於:
 
-- 在_審核員_和_被審核者_之間使用 [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式，雙方在兩人在[硬體支援的金鑰庫](https://source.android.com/security/keystore/)the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/)中建立 _審計員_私鑰。
+- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
 - _審核員_可以是審核員應用程式的另一個實例，也可以是[遠端憑證服務](https://attestation.app)。
 - _審計者_ 記錄 _審計對象_ 當前的狀態和配置。
 - 如果在配對完成後發生篡改 審計對象的作業系統 ，審計人員將意識到設備狀態和配置的變化。
@@ -207,13 +207,13 @@ Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的�
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
+- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
 
 </details>
 
 </div>
 
-Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟體的受害者，請[造訪此頁面](https://stopstalkerware.org/information-for-survivors/) 尋求建議。
+Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors) for advice.
 
 ### iVerify (iOS)
 
@@ -223,14 +223,14 @@ Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟
 
 **iVerify** 是一款 iOS 應用程式，會自動掃描裝置檢查配置設定、修補程式等級和其他安全性領域。 它還會檢查裝置是否有被越獄工具或間諜軟體（例如 Pegasus）入侵的跡象。
 
-[:octicons-home-16: Homepage](https://www.iverify.io/consumer){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1466120520)
 
 </details>
 

@@ -4,25 +4,25 @@ icon: '资料/账户-删除'
 description: 积累大量互联网账户很容易，这里有一些关于如何控制您的账户数量的小贴士。
 ---
 
-随着时间的推移，很容易积累一些在线账户，其中许多账户你可能不再使用。 删除这些未使用的账户是找回隐私的一个重要步骤，因为休眠账户很容易受到数据泄露的影响。 数据泄露是指一项服务的安全性受到损害，受保护的信息被未经授权的人查看、传输或窃取。 不幸的是，而今数据泄露 [太过于常见](https://haveibeenpwned.com/PwnedWebsites) ，因此保持良好的数字卫生是将它们对你生活的影响降到最低的最好方法。 本指南的目标就是引导您经由令人讨厌的帐户删除过程来优化你的线上生活，这些过程通常采用了 [欺骗性设计](https://www.deceptive.design/)使得其变得更加困难。
+随着时间的推移，很容易积累一些在线账户，其中许多账户你可能不再使用。 删除这些未使用的账户是找回隐私的一个重要步骤，因为休眠账户很容易受到数据泄露的影响。 数据泄露是指一项服务的安全性受到损害，受保护的信息被未经授权的人查看、传输或窃取。 不幸的是，而今数据泄露 [太过于常见](https://haveibeenpwned.com/PwnedWebsites) ，因此保持良好的数字卫生是将它们对你生活的影响降到最低的最好方法。 The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## 查找旧帐户
 
 ### 密码管理器
 
-如果您有一个贯穿整个数字生活来使用的密码管理器，这个部分将非常简单。 通常情况下，它们内置有检测你的凭证是否在数据泄露中被暴露的功能--例如Bitwarden的 [数据泄露报告](https://bitwarden.com/blog/have-you-been-pwned/)。
+如果您有一个贯穿整个数字生活来使用的密码管理器，这个部分将非常简单。 Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-即使你以前没有明确使用过密码管理器，你也有可能在不知不觉中使用了你的浏览器或手机中的密码管理器。 例如。 [火狐密码管理器](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [谷歌密码管理器](https://passwords.google.com/intro) 和 [Edge密码管理器](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)。
+即使你以前没有明确使用过密码管理器，你也有可能在不知不觉中使用了你的浏览器或手机中的密码管理器。 For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
 桌面平台通常也有一个密码管理器，可以帮助你恢复你忘记的密码。
 
-- Windows [Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/en-us/HT211145)
-- iOS [Passwords](https://support.apple.com/en-us/HT211146)
+- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [Passwords](https://support.apple.com/HT211145)
+- iOS [Passwords](https://support.apple.com/HT211146)
 - Linux 上有 Gnome Keyring，可以通过 [Seahorse](https://wiki.gnome.org/Apps/Seahorse) 或 [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager) 访问。
 
 ### 电子邮箱
@@ -39,7 +39,7 @@ description: 积累大量互联网账户很容易，这里有一些关于如何�
 
 ### GDPR（仅限欧洲经济区居民）
 
-欧洲经济区的居民在数据删除方面有额外的权利，具体见 [GDPR第17条](https://www.gdpr.org/regulation/article-17.html)。 如果适用于你，请阅读任何特定服务的隐私政策，以找到关于如何行使你的删除权的信息。 阅读隐私政策可能被证明是重要的，因为一些服务有一个 "删除账户 "的选项，它只是禁用你的账户，而要真正删除，你必须采取额外行动。 有时，实际删除可能涉及填写调查表、向服务的数据保护人员发送电子邮件，甚至证明你在欧洲经济区拥有住所。 如果你打算这么做， **不要** 覆盖账户信息--你作为欧洲经济区居民的身份可能被要求。 请注意，服务的地点并不重要；GDPR适用于任何为欧洲用户服务的人。 如果服务不尊重你的删除权，你可以联系你的国家的 [数据保护局](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) ，你可能有权获得金钱赔偿。
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. 如果适用于你，请阅读任何特定服务的隐私政策，以找到关于如何行使你的删除权的信息。 阅读隐私政策可能被证明是重要的，因为一些服务有一个 "删除账户 "的选项，它只是禁用你的账户，而要真正删除，你必须采取额外行动。 有时，实际删除可能涉及填写调查表、向服务的数据保护人员发送电子邮件，甚至证明你在欧洲经济区拥有住所。 如果你打算这么做， **不要** 覆盖账户信息--你作为欧洲经济区居民的身份可能被要求。 请注意，服务的地点并不重要；GDPR适用于任何为欧洲用户服务的人。 如果服务不尊重你的删除权，你可以联系你的国家的 [数据保护局](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) ，你可能有权获得金钱赔偿。
 
 ### 覆盖账户信息
 
@@ -59,4 +59,4 @@ description: 积累大量互联网账户很容易，这里有一些关于如何�
 
 ## 避免新账户
 
-老话说，"上医治未病"。 每当你觉得被诱惑去注册一个新账户时，问问自己，"我真的需要这个吗？ 没有账户，我可以完成我需要的东西吗？" 删除一个账户往往比创建一个账户要难得多。 而且，即使在删除或改变你的账户信息后，可能还有一个来自第三方的缓存版本，如 [Internet Archive](https://archive.org/)。 当你能够避免诱惑时--你未来的自己会感谢你的。
+老话说，"上医治未病"。 每当你觉得被诱惑去注册一个新账户时，问问自己，"我真的需要这个吗？ 没有账户，我可以完成我需要的东西吗？" 删除一个账户往往比创建一个账户要难得多。 And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). 当你能够避免诱惑时--你未来的自己会感谢你的。

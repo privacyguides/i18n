@@ -18,7 +18,7 @@ DNS קיים מאז [הימים הראשונים](https://en.wikipedia.org/wiki/
 
 ### DNS לא מוצפן
 
-1. שימוש ב-[`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html) (חלק מ-[>פרויקט Wireshark](https://en.wikipedia.org/wiki/Wireshark)) אנו יכולים לנטר ולתעד את זרימת מנות האינטרנט. פקודה זו מתעדת מנות העומדות בכללים שצוינו:
+1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. פקודה זו מתעדת מנות העומדות בכללים שצוינו:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -39,7 +39,7 @@ DNS קיים מאז [הימים הראשונים](https://en.wikipedia.org/wiki/
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. לאחר מכן, אנו רוצים [לנתח](https://www.wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) את התוצאות:
+3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -74,7 +74,7 @@ DNS מוצפן יכול להתייחס לאחד ממספר פרוטוקולים,
 
 ### DNS על TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) היא שיטה נוספת להצפנת תקשורת DNS שהיא מוגדרת ב-[RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). התמיכה יושמה לראשונה ב-Android 9, iOS 14 וב-Linux ב-[systemd-resolved](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) בגרסה 237. ההעדפה בתעשייה התרחקה מ-DoT ל-DoH בשנים האחרונות, מכיוון ש-DoT הוא [פרוטוקול מורכב](https://dnscrypt.info/faq/) ובעל תאימות משתנה ל-RFC על פני המימושים הקיימים. Dot פועלת גם על פורט ייעודי 853 שניתן לחסום בקלות על ידי חומות אש מגבילות.
+[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) היא שיטה נוספת להצפנת תקשורת DNS שהיא מוגדרת ב-[RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. Dot פועלת גם על פורט ייעודי 853 שניתן לחסום בקלות על ידי חומות אש מגבילות.
 
 ### DNS דרך HTTPS (DoH)
 
@@ -106,7 +106,7 @@ DNS מוצפן יכול להתייחס לאחד ממספר פרוטוקולים,
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-אנו יכולים לראות את [הקמת החיבור](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) ואת [לחיצת יד TLS](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) המתרחשת עם כל חיבור מוצפן. כאשר מסתכלים על חבילות "האפליקציה" שלאחר מכן, אף אחת מהן לא מכילה את הדומיין שביקשנו או את כתובת ה-IP שהוחזרה.
+We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. כאשר מסתכלים על חבילות "האפליקציה" שלאחר מכן, אף אחת מהן לא מכילה את הדומיין שביקשנו או את כתובת ה-IP שהוחזרה.
 
 ## מדוע **אסור** לי להשתמש ב-DNS מוצפן?
 
@@ -158,9 +158,9 @@ DNS מוצפן יכול להתייחס לאחד ממספר פרוטוקולים,
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-משמעות הדבר היא שגם אם אנו משתמשים בשרתי "DNS מוצפן", הדומיין ככל הנראה ייחשף דרך SNI. פרוטוקול [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) מביא איתו את [לקוח מוצפן Hello](https://blog.cloudflare.com/encrypted-client-hello/), המונע דליפה מסוג זה.
+משמעות הדבר היא שגם אם אנו משתמשים בשרתי "DNS מוצפן", הדומיין ככל הנראה ייחשף דרך SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
 
-ממשלות, ובפרט סין [](https://www.zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni/) ורוסיה [](https://www.zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni/), כבר החלו לחסום את סין [](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) או הביעו רצון לעשות זאת. לאחרונה רוסיה [החלה לחסום אתרים](https://github.com/net4people/bbs/issues/108) המשתמשים בתקן זה [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) סטנדרטי. הסיבה לכך היא ש [QUIC](https://en.wikipedia.org/wiki/QUIC) פרוטוקול המהווה חלק מ HTTP/3 דורש שגם `ClientHello` יהיה מוצפן.
+Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. לאחרונה רוסיה [החלה לחסום אתרים](https://github.com/net4people/bbs/issues/108) המשתמשים בתקן זה [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) סטנדרטי. הסיבה לכך היא ש [QUIC](https://en.wikipedia.org/wiki/QUIC) פרוטוקול המהווה חלק מ HTTP/3 דורש שגם `ClientHello` יהיה מוצפן.
 
 ### פרוטוקול סטטוס תעודה מקוון (OCSP)
 
@@ -289,7 +289,7 @@ graph TB
 
 DNSSEC מיישמת מדיניות חתימה דיגיטלית היררכית בכל שכבות ה-DNS. לדוגמה, במקרה של חיפוש `privacyguides.org`, שרת DNS שורש יחתום על מפתח עבור שרת השמות `.org` ו-`.org` nameserver יחתום על מפתח עבור שרת השמות הסמכותי של `privacyguides.org`.
 
-<small>מותאם מ[סקירה כללית של תוספי אבטחת DNS (DNSSEC)](https://cloud.google.com/dns/docs/dnssec) על ידי Google ו-DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction/) מאת Cloudflare, שניהם ברישיון תחת [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).</small>
+<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
 
 ## מהו מזעור QName?
 

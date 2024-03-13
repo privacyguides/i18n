@@ -55,7 +55,7 @@ OpenPGP также не поддерживает прямую секретнос
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
@@ -74,7 +74,7 @@ OpenPGP также не поддерживает прямую секретнос
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Платные подписчики Proton Mail могут использовать свой собственный домен или [универсальный адрес](https://proton.me/support/catch-all). Proton Mail также поддерживает [субадресацию](https://proton.me/support/creating-aliases), что полезно для тех, кто не хочет покупать домен.
+Платные подписчики Proton Mail могут использовать свой собственный домен или [универсальный адрес](https://proton.me/support/catch-all). Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Конфиденциальные способы оплаты
 
@@ -129,7 +129,7 @@ Proton Mail не предлагает функцию цифрового насл
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Mailbox.org позволяет тебе использовать собственный домен, и поддерживает [универсальные](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain) адреса. Mailbox.org также поддерживает [субадресацию](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), что полезно для тех, кто не хочет покупать домен.
+Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Конфиденциальные способы оплаты
 
@@ -137,17 +137,17 @@ Mailbox.org не принимает криптовалюты в связи с т
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 
-Mailbox.org поддерживает [двухфакторную аутентификацию](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) только для своей веб-почты. Ты можешь использовать либо TOTP, либо [YubiKey](https://en.wikipedia.org/wiki/YubiKey) с помощью [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). Веб-стандарты, такие, как [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), пока не поддерживаются.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Веб-стандарты, такие, как [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), пока не поддерживаются.
 
 #### :material-information-outline:{ .pg-blue } Безопасность данных
 
-Mailbox.org позволяет шифровать входящую почту с помощью своего [зашифрованного почтового ящика](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox). Новые сообщения, которые ты получаешь, будут немедленно зашифрованы твоим открытым ключом.
+Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Новые сообщения, которые ты получаешь, будут немедленно зашифрованы твоим открытым ключом.
 
-Однако [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), программная платформа, используемая Mailbox.org, [не поддерживает](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) шифрование твоей адресной книги и календаря. [Отдельное решение](calendar.md) может больше подойти для этой информации.
+However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. [Отдельное решение](calendar.md) может больше подойти для этой информации.
 
 #### :material-check:{ .pg-green } Шифрование электронной почты
 
-Mailbox.org использует [встроенное шифрование](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) в свою веб-почту, что упрощает отправку сообщений людям с открытыми ключами OpenPGP. Они также позволяют [пользователям без Mailbox.org расшифровывать электронные письма](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) на серверах Mailbox.org. Эта функция полезна, когда получатель не имеет OpenPGP и не может расшифровать копию письма в собственном почтовом ящике.
+Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Эта функция полезна, когда получатель не имеет OpenPGP и не может расшифровать копию письма в собственном почтовом ящике.
 
 Mailbox.org также поддерживает обнаружение открытых ключей через HTTP с их [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Это позволяет людям, не использующим Mailbox.org, легко находить OpenPGP-ключи учетных записей Mailbox.org для кросс-провайдерского E2EE. Это относится только к адресам электронной почты, заканчивающимся на один из собственных доменов "Mailbox.org", например @mailbox.org. При использовании кастомного домена необходимо [настроить WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) отдельно.
 
@@ -157,9 +157,9 @@ Mailbox.org также поддерживает обнаружение откр�
 
 #### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-Ты можешь получить доступ к своему аккаунту Mailbox.org через IMAP/SMTP, используя их сервис [.onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org). Однако доступ к интерфейсу веб-почты через службу .onion невозможен, и ты можешь столкнуться с ошибками сертификата TLS.
+You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Однако доступ к интерфейсу веб-почты через службу .onion невозможен, и ты можешь столкнуться с ошибками сертификата TLS.
 
-Все учетные записи имеют ограниченное облачное хранилище, которое [может быть зашифровано](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org также предлагает псевдоним [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), который требует шифрование TLS от соединения между почтовыми серверами, в противном случае сообщение вообще не будет отправлено. Mailbox.org также поддерживает [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) в дополнение к стандартным протоколам доступа, таким как IMAP и POP3.
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org также поддерживает [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) в дополнение к стандартным протоколам доступа, таким как IMAP и POP3.
 
 Mailbox.org имеет функцию цифрового наследия для всех тарифных планов. Ты можешь выбрать, хочешь ли ты, чтобы какие-либо из твоих данных были переданы твоим наследникам, при условии, что они подадут заявление и предоставят твоё завещание. Кроме того, ты можешь назначить наследника по имени и адресу.
 
@@ -185,18 +185,18 @@ Mailbox.org имеет функцию цифрового наследия для
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
 - [:simple-windows11: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -206,7 +206,7 @@ Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use 
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } Конфиденциальные способы оплаты
 
@@ -232,7 +232,7 @@ Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect/). Это гарантирует, что контакт клиента с бизнесом использует E2EE. Стоимость функции составляет €240/год.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Это гарантирует, что контакт клиента с бизнесом использует E2EE. Стоимость функции составляет €240/год.
 
 Tuta doesn't offer a digital legacy feature.
 
@@ -284,14 +284,14 @@ Tuta doesn't offer a digital legacy feature.
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 </details>
 
 </div>
 
-Количество общих псевдонимов (заканчивающихся на общий домен, например @addy.io), которые вы можете создать, ограничено 10 на бесплатном плане addy.io, 50 на плане стоимостью 1 доллар в месяц и неограниченно на плане стоимостью 4 доллара в месяц (счет выставляется на 3 доллара в течение года). Ты можешь создавать неограниченное количество стандартных псевдонимов (которые заканчиваются на домен типа @[username].addy.io или пользовательский домен в платных тарифных планах), однако, как уже говорилось ранее, это может нанести ущерб конфиденциальности, поскольку люди могут банально связать ваши стандартные псевдонимы вместе на основе общего доменного имени. Они полезны в тех случаях, когда общий домен может быть заблокирован какой-либо службой. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+Количество общих псевдонимов (заканчивающихся на общий домен, например @addy.io), которые вы можете создать, ограничено 10 на бесплатном плане addy.io, 50 на плане стоимостью 1 доллар в месяц и неограниченно на плане стоимостью 4 доллара в месяц (счет выставляется на 3 доллара в течение года). Ты можешь создавать неограниченное количество стандартных псевдонимов (которые заканчиваются на домен типа @[username].addy.io или пользовательский домен в платных тарифных планах), однако, как уже говорилось ранее, это может нанести ущерб конфиденциальности, поскольку люди могут банально связать ваши стандартные псевдонимы вместе на основе общего доменного имени. Они полезны в тех случаях, когда общий домен может быть заблокирован какой-либо службой. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 Примечательные бесплатные функции:
 
@@ -310,8 +310,8 @@ Tuta doesn't offer a digital legacy feature.
 **SimpleLogin** - это бесплатный сервис, который предоставляет псевдонимы электронной почты на различных общих доменных именах, и опционально платные возможности, такие как неограниченное количество псевдонимов и пользовательские домены.
 
 [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -320,16 +320,16 @@ Tuta doesn't offer a digital legacy feature.
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
 
 </details>
 
 </div>
 
-SimpleLogin был [приобретен компанией Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) по состоянию на 8 апреля 2022 года. Если ты используешь Proton Mail в качестве основного почтового ящика, SimpleLogin - отличный выбор. Поскольку оба продукта теперь принадлежат одной компании, тебе нужно доверять только одной организации. Мы также ожидаем, что в будущем SimpleLogin будет более тесно интегрирован с приложениями Proton. SimpleLogin по-прежнему поддерживает пересылку на любого поставщика услуг электронной почты по твоему выбору. Securitum [провела аудит](https://simplelogin.io/blog/security-audit/) SimpleLogin в начале 2022 года, и все проблемы [были устранены](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin был [приобретен компанией Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) по состоянию на 8 апреля 2022 года. Если ты используешь Proton Mail в качестве основного почтового ящика, SimpleLogin - отличный выбор. Поскольку оба продукта теперь принадлежат одной компании, тебе нужно доверять только одной организации. Мы также ожидаем, что в будущем SimpleLogin будет более тесно интегрирован с приложениями Proton. SimpleLogin по-прежнему поддерживает пересылку на любого поставщика услуг электронной почты по твоему выбору. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
 В настройках SompleLogin ты можешь связать свою учетную запись SimpleLogin с учетной записью Proton. Если у тебя есть план Proton Unlimited, Business или Visionary, то ты также получаешь SimpleLogin Premium бесплатно.
 
@@ -351,10 +351,10 @@ SimpleLogin был [приобретен компанией Proton AG](https://p
 
 **Mailcow** - это более продвинутый почтовый сервер, идеально подходящий для тех, у кого есть опыт работы с Linux. В его контейнере Docker есть всё, что тебе нужно: почтовый сервер с поддержкой DKIM, антивирус и мониторинг спама, веб-почта и ActiveSync с SOGo, а также веб-администрирование с поддержкой 2FA.
 
-[:octicons-home-16: Домашняя страница](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Исходный код" }
-[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=Поддержать }
+[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
 </div>
 
@@ -372,8 +372,8 @@ SimpleLogin был [приобретен компанией Proton AG](https://p
 
 Для ручной настройки мы выбрали эти две статьи:
 
-- [Настройка почтового сервера с OpenSMTPD, Dovecot и Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [Как запустить собственный почтовый сервер](https://www.c0ffee.net/blog/mail-server-guide/) (август 2017)
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
 
 ## Критерии
 
@@ -386,7 +386,7 @@ SimpleLogin был [приобретен компанией Proton AG](https://p
 **Минимальные требования:**
 
 - Шифрует данные аккаунта электронной почты в состоянии покоя с помощью шифрования с нулевым доступом.
-- Возможность экспорта в виде [Mbox](https://en.wikipedia.org/wiki/Mbox) или отдельных .eml со стандартом [RFC5322](https://datatracker.ietf.org/doc/rfc5322/) .
+- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Разрешает пользователям использовать собственное [доменное имя](https://en.wikipedia.org/wiki/Domain_name). Пользовательские доменные имена важны для пользователей, поскольку позволяют им сохранить свое агентство от сервиса, если он окажется плохим или будет приобретен другой компанией, которая не уделяет приоритетного внимания конфиденциальности.
 - Работает на собственной инфраструктуре, т.е. не опирается на сторонних провайдеров электронной почты.
 
@@ -397,7 +397,7 @@ SimpleLogin был [приобретен компанией Proton AG](https://p
 - Поддерживает [WKD](https://wiki.gnupg.org/WKD) для улучшения обнаружения открытых ключей OpenPGP через HTTP. Пользователи GnuPG могут получить ключ, набрав: `gpg --locate-key example_user@example.com`
 - Поддержка временного почтового ящика для внешних пользователей. Это полезно, когда вы хотите отправить зашифрованное сообщение электронной почты, не отправляя фактическую копию получателю. Такие письма обычно имеют ограниченный срок действия, а затем автоматически удаляются. Они также не требуют от получателя настройки какой-либо криптографии, как OpenPGP.
 - Доступность услуг провайдера электронной почты через [службу .onion](https://en.wikipedia.org/wiki/.onion).
-- [Поддержка субадресации](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
+- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
 - Функциональность поймать-все или псевдонимов для тех, кто владеет собственными доменами.
 - Использование стандартных протоколов доступа к электронной почте, таких как IMAP, SMTP или [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Стандартные протоколы доступа обеспечивают клиентам возможность легко скачать всю свою электронную почту, если они захотят перейти к другому провайдеру.
 
@@ -425,13 +425,13 @@ SimpleLogin был [приобретен компанией Proton AG](https://p
 - Защита веб-почты с помощью 2FA, например, TOTP.
 - Шифрование с нулевым доступом, основанное на шифровании в состоянии покоя. Провайдер не имеет ключей расшифровки для хранящихся у него данных. Это предотвращает утечку данных, к которым имеет доступ недобросовестный сотрудник. Или утечку данных, которые злоумышленник украл, получив несанкционированный доступ к серверу.
 - Поддержка [DNSSEC](https://ru.wikipedia.org/wiki/DNSSEC).
-- Отсутствие ошибок или уязвимостей TLS при профилировании такими инструментами, как [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), или [Qualys SSL Labs](https://www.ssllabs.com/ssltest); сюда входят ошибки, связанные с сертификатами, и слабые параметры DH, например, те, которые привели к [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Настройки сервера (опционально для TLSv1.3) для сильных наборов шифров, которые поддерживают прямую секретность и аутентифицированное шифрование.
 - Действующая политика [MTA-STS](https://tools.ietf.org/html/rfc8461) и [TLS-RPT](https://tools.ietf.org/html/rfc8460).
 - Действительные записи [DANE](https://ru.wikipedia.org/wiki/DANE).
 - Действительные записи [SPF](https://ru.wikipedia.org/wiki/Sender_Policy_Framework) и [DKIM](https://ru.wikipedia.org/wiki/DomainKeys_Identified_Mail).
 - Имеет надлежащую политику и запись [DMARC](https://ru.wikipedia.org/wiki/DMARC) или использует [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) для аутентификации. Если используется DMARC-аутентификация, политика должна быть установлена на `reject` или `quarantine`.
-- Предпочтение серверного пакета TLS 1.2 или более поздней версии и план [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) отправка, при условии использования SMTP.
 - Стандарты безопасности веб-сайта, такие как:
     - [Строгая транспортная безопасность HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -446,7 +446,7 @@ SimpleLogin был [приобретен компанией Proton AG](https://p
 - Программы "bug-bounty" и/или скоординированный процесс раскрытия информации об уязвимостях.
 - Стандарты безопасности веб-сайта, такие как:
     - [Политика безопасности контента (CSP, Content-Security-Policy)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### Доверие
 

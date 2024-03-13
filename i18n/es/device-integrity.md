@@ -26,7 +26,7 @@ Esto significa que un atacante deberá volver a infectar tu dispositivo con regu
 
 Si cualquiera de las siguientes herramientas indican un potencial compromiso de parte de programas espías como Pegasus, Predator o KingsPawn, te recomendamos contactar:
 
-- Si eres un defensor de los derechos humanos, periodista o perteneces a una organización de la sociedad civil: [Laboratorio de Seguridad de Amnistía Internacional](https://securitylab.amnesty.org/contact-us/)
+- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
 - Si un dispositivo empresarial o gubernamental es comprometido: Contacte al responsable de seguridad de tu empresa, departamento o agencia
 - Cuerpos locales de seguridad
 
@@ -54,7 +54,7 @@ Los indicadores públicos de compromiso son insuficientes para determinar si un 
 
 Un soporte forense digital confiable y completo requiere el acceso a indicadores privados, investigación e inteligencia de amenazas.
 
-Dicho soporte está disponible para la sociedad civil a través del [Laboratorio de Seguridad de Amnistía Internacional](https://www.amnesty.org/en/tech/) o la [Línea de ayuda de Seguridad Digital de Access Now](https://www.accessnow.org/help/).
+Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
 
 </div>
 
@@ -66,16 +66,16 @@ Estas herramientas pueden desencadenar falsos positivos. Si alguna de estas herr
 
 ![Logo de MVT](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) es una colección de herramientas que simplifican y automatizan el proceso de escanear dispositivos móviles en busca de potenciales rastros de ataques o infecciones por campañas conocidas de espionaje. MVT fue desarrollado por Amnistía Internacional y se publicó en 2021 en el contexto del [Proyecto Pegasus](https://forbiddenstories.org/about-the-pegasus-project/).
+**Mobile Verification Toolkit** (**MVT**) es una colección de herramientas que simplifican y automatizan el proceso de escanear dispositivos móviles en busca de potenciales rastros de ataques o infecciones por campañas conocidas de espionaje. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 
-[:octicons-home-16: Página principal](https://mvt.re/){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Código fuente" }
+[:octicons-home-16: Homepage](https://mvt.re){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
 
-- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install/)
-- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install/)
+- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
+- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
 
 </details>
 
@@ -110,9 +110,9 @@ MVT te permite realizar escaneos/análisis más profundos si tu dispositivo tien
 
 **iMazing** proporciona una herramienta gratuita para el análisis de programas de espionaje, disponible para dispositivos iOS, que actúa como una interfaz gráfica para [MVT](#mobile-verification-toolkit). Esta puede ser más fácil de ejecutar, a comparación del propio MVT, que es una herramienta de línea de comandos diseñada para tecnólogos e investigadores forenses.
 
-[:octicons-home-16: Página principal](https://imazing.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Política de privacidad" }
-[:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title="Documentación"}
+[:octicons-home-16: Homepage](https://imazing.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -167,7 +167,7 @@ Auditor no es una herramienta de escaneo/análisis como otras herramientas de es
 
 El auditor realiza la atestación y la detección de intrusiones con **dos** dispositivos, uno _auditado_ (el dispositivo que se verifica) y un _auditor_ (el dispositivo que realiza la verificación). El auditor puede ser cualquier dispositivo Android 10+ (o un servicio web remoto operado por [GrapheneOS](android.md#grapheneos)), mientras que el auditado debe ser específicamente un [dispositivo soportado](https://attestation.app/about#device-support). Auditor funciona así:
 
-- Utilizando un modelo [Confiar en el Primer Uso (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) entre un _auditor_ y un _auditado_, la pareja establece una clave privada en el [almacén de claves respaldado por hardware](https://source.android.com/security/keystore/) de _Auditor_.
+- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
 - El _auditor_ puede ser otra instancia de la aplicación Auditor o el [Servicio de Certificación a Distancia](https://attestation.app).
 - El _auditor_ registra el estado actual y la configuración del _auditado_.
 - En caso de que se produzca una manipulación del sistema operativo del _auditado_ una vez completado el emparejamiento, el auditor será consciente del cambio en el estado y las configuraciones del dispositivo.
@@ -207,13 +207,13 @@ El uso de estas aplicaciones no basta para determinar que un dispositivo está "
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner/)
+- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
 
 </details>
 
 </div>
 
-Hypatia es especialmente bueno en la detección de stalkerware común: Si sospechas que eres víctima de stalkerware, deberías [visitar esta página](https://stopstalkerware.org/information-for-survivors/) para obtener asesoramiento.
+Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors) for advice.
 
 ### iVerify (iOS)
 
@@ -223,14 +223,14 @@ Hypatia es especialmente bueno en la detección de stalkerware común: Si sospec
 
 **iVerify** es una aplicación para iOS que escanea de manera automática tu dispositivo para revisar los ajustes de la configuración, el nivel de parche y otras áreas de seguridad. Esta también revisa tu dispositivo por indicadores de compromiso de herramientas de jailbreak o programas de espionaje como Pegasus.
 
-[:octicons-home-16: Página principal](https://www.iverify.io/consumer){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.iverify.io/privacy-policy){ .card-link title="Política de privacidad" }
-[:octicons-info-16:](https://www.iverify.io/frequently-asked-questions#iVerify-General){ .card-link title="Documentación"}
+[:octicons-home-16: Homepage](https://iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/iverify/id1466120520)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1466120520)
 
 </details>
 

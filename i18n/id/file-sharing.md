@@ -15,7 +15,7 @@ Temukan cara berbagi file secara pribadi di antara perangkat Anda, dengan teman 
 
 ![Logo Send](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** adalah cabang dari layanan Firefox Send yang sudah tidak digunakan lagi oleh Mozilla yang memungkinkan Anda untuk mengirim berkas kepada orang lain dengan sebuah tautan. File dienkripsi di perangkat Anda sehingga tidak dapat dibaca oleh server, dan secara opsional juga dapat dilindungi dengan kata sandi. Pengelola Send menghosting sebuah [server publik](https://send.vis.ee/). Anda bisa menggunakan server publik lainnya, atau Anda bisa meng-host Send sendiri.
+**Send** adalah cabang dari layanan Firefox Send yang sudah tidak digunakan lagi oleh Mozilla yang memungkinkan Anda untuk mengirim berkas kepada orang lain dengan sebuah tautan. File dienkripsi di perangkat Anda sehingga tidak dapat dibaca oleh server, dan secara opsional juga dapat dilindungi dengan kata sandi. The maintainer of Send hosts a [public instance](https://send.vis.ee). Anda bisa menggunakan server publik lainnya, atau Anda bisa meng-host Send sendiri.
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -81,9 +81,9 @@ Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari sit
 **FreedomBox** adalah sistem operasi yang dirancang untuk dijalankan pada [komputer papan tunggal (SBC)] (https://en.wikipedia.org/wiki/Single-board_computer). Tujuannya adalah untuk memudahkan pengaturan aplikasi server yang mungkin ingin Anda hosting sendiri.
 
 [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Dokumentasi}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Kode Sumber" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Kontribusi }
+[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
+[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -101,9 +101,9 @@ Kami sedang berupaya menetapkan kriteria yang jelas untuk setiap bagian dari sit
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -137,16 +137,16 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-- [:simple-windows11: Windows](https://syncthing.net/downloads/)
-- [:simple-apple: macOS](https://syncthing.net/downloads/)
-- [:simple-linux: Linux](https://syncthing.net/downloads/)
-- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
+- [:simple-windows11: Windows](https://syncthing.net/downloads)
+- [:simple-apple: macOS](https://syncthing.net/downloads)
+- [:simple-linux: Linux](https://syncthing.net/downloads)
+- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
 
 </details>
 

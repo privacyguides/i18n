@@ -65,7 +65,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
-    url: https://keepassxc.org/
+    url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: 密碼管理器。
     operatingSystem:
@@ -81,7 +81,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
-    url: https://www.keepassdx.com/
+    url: https://keepassdx.com
     applicationCategory: 密碼管理器。
     operatingSystem: Android
     subjectOf:
@@ -93,7 +93,7 @@ schema:
     "@type": SoftwareApplication
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com/
+    url: https://strongboxsafe.com
     applicationCategory: 密碼管理器。
     operatingSystem: iOS
     subjectOf:
@@ -105,7 +105,7 @@ schema:
     "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg
-    url: https://www.gopass.pw/
+    url: https://gopass.pw
     applicationCategory: 密碼管理器。
     operatingSystem:
       - Windows 作業系統
@@ -127,7 +127,7 @@ schema:
 
 瀏覽器和作業系統所內置的密碼管理器常常不如專用密碼管理器軟體。 內建的密碼管理器優點是與原生軟體很好地整合，但它通常非常簡單，並且缺乏獨立產品具有的隱私和安全功能。
 
-例如，Microsoft Edge 的密碼管理器根本不提供 E2EE。 Google的密碼管理員有 [optional](https://support.google.com/accounts/answer/11350823) 個E2EE ，而 [Apple](https://support.apple.com/en-us/HT202303)預設提供E2EE。
+例如，Microsoft Edge 的密碼管理器根本不提供 E2EE。 Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
 
 </div>
 
@@ -145,14 +145,14 @@ schema:
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-- [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
 - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
 - [:simple-windows11: Windows](https://bitwarden.com/download)
 - [:simple-linux: Linux](https://bitwarden.com/download)
@@ -165,7 +165,7 @@ schema:
 
 </div>
 
-Bitwarden還具有 [Bitwarden Send](https://bitwarden.com/products/send/)功能，允許您使用 [端到端加密](https://bitwarden.com/help/send-encryption)安全地共享文本和檔案。 發送分享鏈接時可以要求帶[分享密碼](https://bitwarden.com/help/send-privacy/#send-passwords) 。 Bitwarden Send 還具[自動刪除功能](https://bitwarden.com/help/send-lifespan)。
+Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). 發送分享鏈接時可以要求帶[分享密碼](https://bitwarden.com/help/send-privacy/#send-passwords) 。 Bitwarden Send 還具[自動刪除功能](https://bitwarden.com/help/send-lifespan)。
 
 您需要使用 [高級付費方案](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) 才能共享檔案。 免費方案只允許文字分享。
 
@@ -183,20 +183,20 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** 是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
+**1Password** 是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
-[:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
-- [:simple-windows11: Windows](https://1password.com/downloads/windows/)
-- [:simple-apple: macOS](https://1password.com/downloads/mac/)
-- [:simple-linux: Linux](https://1password.com/downloads/linux/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
+- [:simple-windows11: Windows](https://1password.com/downloads/windows)
+- [:simple-apple: macOS](https://1password.com/downloads/mac)
+- [:simple-linux: Linux](https://1password.com/downloads/linux)
 
 </details>
 
@@ -225,7 +225,7 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
@@ -276,9 +276,9 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -304,10 +304,10 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 **KeePassDX** 是 Android 輕量級密碼管理器，允許編輯KeePass 格式文件中的加密資料，與安全填寫密碼表單。 [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) 允許解鎖上妝的內容和非標準協議功能，但更重要的是，它有助於並鼓勵開發。
 
-[:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -325,24 +325,24 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** 是 iOS 和 macOS 原生開源密碼管理器。 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 通過採用 [免費增值模式](https://strongboxsafe.com/pricing/) ， Strongbox 免費會員等級提供了大多數功能，而更方便的 [功能](https://strongboxsafe.com/comparison/) -例如生物識別驗證-則必須在訂閱或購買永久授權之後才能享受。
+**Strongbox** 是 iOS 和 macOS 原生開源密碼管理器。 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
 
 </details>
 
 </div>
 
-此外，還有一個僅限離線版本： [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638)。 這個版本被剝離許多特色，以試圖減少攻擊面。
+Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). 這個版本被剝離許多特色，以試圖減少攻擊面。
 
 ### 命令行
 
@@ -356,7 +356,7 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 **gopass** 是用Go編寫的命令行的密碼管理器。 它適用於所有主要的桌面和伺服器作業系統（Linux， macOS， BSD， Windows）。
 
-[:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
@@ -364,10 +364,10 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
-- [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
-- [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
-- [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+- [:simple-windows11: Windows](https://gopass.pw/#install-windows)
+- [:simple-apple: macOS](https://gopass.pw/#install-macos)
+- [:simple-linux: Linux](https://gopass.pw/#install-linux)
+- [:simple-freebsd: FreeBSD](https://gopass.pw/#install-bsd)
 
 </details>
 

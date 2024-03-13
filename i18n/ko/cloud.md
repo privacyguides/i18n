@@ -56,15 +56,15 @@ Proton Drive의 새로운 모바일 클라이언트는 아직 제3자에 의해 
 
 **Tresorit**은 2011년에 설립된 스위스-헝가리의 암호화 클라우드 스토리지 제공 업체입니다. Tresorit은 스위스 국영 우편 서비스인 스위스 포스트(스위스 우체국)가 소유하고 있습니다.
 
-[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-home-16: Homepage](https://tresorit.com){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id722163232)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
 - [:simple-windows11: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
@@ -75,15 +75,15 @@ Proton Drive의 새로운 모바일 클라이언트는 아직 제3자에 의해 
 
 Tresorit은 독립적인 보안 감사를 여러 차례 받았습니다.
 
-- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification/): TÜV Rheinland InterCert Kft ISO/IEC 27001:2013[^1] 준수 [인증](https://www.certipedia.com/quality_marks/9108644476)
-- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security/): Computest 모의 침투 테스트
+- [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
+- [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
     - 해당 검토에서는 Tresorit 웹 클라이언트, Android/Windows 앱 및 관련 인프라 보안을 평가했습니다.
     - Computest는 취약점을 2개 발견했으며, 이 취약점은 해결되었습니다.
-- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture/): Ernst & Young 모의 침투 테스트
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - 해당 검토에서는 Tresorit의 전체 소스 코드를 분석하여, Tresorit [백서](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf)에서 설명한 개념과 구현이 일치하는지 검증했습니다.
     - Ernst & Young은 추가로 웹, 모바일, 데스크톱 클라이언트를 검사했습니다. "검사 결과, Tresorit이 주장하는 데이터 기밀성과 차이가 없는 것으로 나타났습니다."
 
-추가적으로, [스위스 디지털 이니셔티브(Swiss Digital Initiative)](https://www.swiss-digital-initiative.org/digital-trust-label/)의 보안, 프라이버시, 신뢰성 관련 [35개 평가 기준](https://digitaltrust-label.swiss/criteria/)을 통과해야 하는 Digital Trust Label 인증을 받았습니다.
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
 
 ## 평가 기준
 

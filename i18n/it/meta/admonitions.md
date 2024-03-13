@@ -163,17 +163,17 @@ Questo formato viene utilizzato per generare schede di raccomandazione. In parti
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![Logo PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. Supporta la sincronizzazione e la condivisione degli album e una serie di altre [funzionalità](https://www.photoprism.app/features). Non include E2EE, quindi è consigliabile ospitarlo su un server di cui ci si fida e che è sotto il proprio controllo.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
-[:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -188,12 +188,12 @@ Questo formato viene utilizzato per generare schede di raccomandazione. In parti
 
 ![Logo PhotoPrism](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. Supporta la sincronizzazione e la condivisione degli album e una serie di altre [funzioni](https://www.photoprism.app/features). Non include E2EE, quindi è meglio che sia ospitato su un server di fiducia e che sia sotto il tuo controllo.
+**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). Non include E2EE, quindi è meglio che sia ospitato su un server di fiducia e che sia sotto il tuo controllo.
 
-[:octicons-home-16: Homepage](https://www.photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.photoprism.app/privacy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://www.photoprism.app/kb){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -212,10 +212,10 @@ Si tratta di un tipo speciale di monito a scomparsa, utilizzato per generare la 
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
@@ -231,7 +231,7 @@ Si tratta di un tipo speciale di monito a scomparsa, utilizzato per generare la 
 <summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)

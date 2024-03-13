@@ -88,7 +88,7 @@ We don't suggest using a VPN or Tor for any of these things, as your identity is
 
 2. **未知身份** - 未知身份可能是您經常使用的穩定假名。 它已不算匿名了，因為不會變動。 如果您是線上社群的一員，您可能希望保留其他人知道的角色。 這個假名不是匿名的，因為如果監控時間足夠長，關於所有者的詳細信息可以透露更多信息，例如他們的寫作方式，他們對感興趣主題的一般知識等。
 
-您可能希望使用 VPN 來隱藏您的 IP 地址。 金融交易更難掩蓋：您可以考慮使用匿名加密貨幣，例如 [Monero](https://www.getmonero.org/)。 採用山寨幣轉移也可能有助於偽裝您的貨幣來源。 通常情況下，交易所需要完成 KYC （了解您的客戶） ，然後才能將法定貨幣兌換為任何類型的加密貨幣。 線下操作也可能是一個解決方案；然而，這些往往更昂貴，有時也需要 KYC。
+您可能希望使用 VPN 來隱藏您的 IP 地址。 Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). 採用山寨幣轉移也可能有助於偽裝您的貨幣來源。 通常情況下，交易所需要完成 KYC （了解您的客戶） ，然後才能將法定貨幣兌換為任何類型的加密貨幣。 線下操作也可能是一個解決方案；然而，這些往往更昂貴，有時也需要 KYC。
 
 3. **匿名身份** - 即使有經驗的專家，也很難長時間保持一個帳號的匿名性。 它們應該是短期和短暫的身份，定期輪流。
 

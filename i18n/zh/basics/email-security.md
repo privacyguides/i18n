@@ -13,7 +13,7 @@ description: 电子邮件在许多方面本身就不安全，以下是它不是�
 
 在不同的电邮供应商之间为电子邮件添加端到端加密的标准方法是使用OpenPGP。 OpenPGP标准有不同的实现方式，最常见的是 [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) 和 [OpenPGP.js](https://openpgpjs.org)。
 
-有另一种标准受到商业界的欢迎，称为 [S/MIME](https://en.wikipedia.org/wiki/S/MIME)，然而，它需要一个由 [证书颁发机构](https://en.wikipedia.org/wiki/Certificate_authority) （不是所有的证书颁发机构都颁发S/MIME证书）颁发的证书。 它在 [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) 和 [Outlook for Web 或 Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480)得到支持。
+有另一种标准受到商业界的欢迎，称为 [S/MIME](https://en.wikipedia.org/wiki/S/MIME)，然而，它需要一个由 [证书颁发机构](https://en.wikipedia.org/wiki/Certificate_authority) （不是所有的证书颁发机构都颁发S/MIME证书）颁发的证书。 It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 即使你使用OpenPGP，它也不支持 [前向加密](https://en.wikipedia.org/wiki/Forward_secrecy)，这意味着如果你或收件人的私钥被盗，所有在之前使用它加密的信息都将被暴露。 这就是为什么我们推荐 [即时通讯工具](../real-time-communication.md) ，比起电子邮件，它尽可能更好地在人与人之间的通信中实现前向保密性。
 
@@ -23,7 +23,7 @@ description: 电子邮件在许多方面本身就不安全，以下是它不是�
 
 除了我们推荐的 [电子邮件客户端（](../email-clients.md) ）支持 WKD 外，一些网络邮件提供商也支持 WKD。 *您自己的* 密钥是否发布到 WKD 供他人使用，取决于您的域配置。 如果您使用支持 WKD 的 [电子邮件提供商](../email.md#openpgp-compatible-services) （如 Proton Mail 或 Mailbox.org），他们可以为您在其域上发布 OpenPGP 密钥。
 
-如果使用自己的自定义域，则需要单独配置 WKD。 如果您能控制自己的域名，那么无论您的电子邮件提供商是谁，您都可以设置 WKD。 一个简单的方法是使用 keys.openpgp.org 的 "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" 功能，在 `openpgpkey` 子域上设置一个 CNAME 记录，指向 `wkd.keys.openpgp.org`，然后将密钥上传到 [keys.openpgp.org](https://keys.openpgp.org/)。 或者，您也可以 [自行将 WKD 托管在自己的网络服务器上](https://wiki.gnupg.org/WKDHosting)。
+如果使用自己的自定义域，则需要单独配置 WKD。 如果您能控制自己的域名，那么无论您的电子邮件提供商是谁，您都可以设置 WKD。 One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org). 或者，您也可以 [自行将 WKD 托管在自己的网络服务器上](https://wiki.gnupg.org/WKDHosting)。
 
 如果您使用不支持 WKD 的提供商提供的共享域名（如 @gmail.com），则无法通过此方法与他人共享 OpenPGP 密钥。
 
@@ -33,7 +33,7 @@ description: 电子邮件在许多方面本身就不安全，以下是它不是�
 
 ### 我如何保护我的私钥？
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 然后，该信息被智能卡解密，解密后的内容被送回设备。
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 然后，该信息被智能卡解密，解密后的内容被送回设备。
 
 在智能卡上进行解密是很有利的，这样可以避免将你的私钥暴露给某个被攻破的设备。
 

@@ -65,7 +65,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
-    url: https://keepassxc.org/
+    url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
     applicationCategory: מנהל הסיסמאות
     operatingSystem:
@@ -81,7 +81,7 @@ schema:
     "@type": SoftwareApplication
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
-    url: https://www.keepassdx.com/
+    url: https://keepassdx.com
     applicationCategory: מנהל הסיסמאות
     operatingSystem: אנדרואיד
     subjectOf:
@@ -93,7 +93,7 @@ schema:
     "@type": SoftwareApplication
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com/
+    url: https://strongboxsafe.com
     applicationCategory: מנהל הסיסמאות
     operatingSystem: iOS
     subjectOf:
@@ -105,7 +105,7 @@ schema:
     "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg
-    url: https://www.gopass.pw/
+    url: https://gopass.pw
     applicationCategory: מנהל הסיסמאות
     operatingSystem:
       - ווינדוס
@@ -127,7 +127,7 @@ schema:
 
 מנהלי סיסמאות מובנים בתוכנות כמו דפדפנים ומערכות הפעלה אינם טובים לפעמים כמו תוכנות ייעודיות למנהל סיסמאות. היתרון של מנהל סיסמאות מובנה הוא אינטגרציה טובה עם התוכנה, אך לרוב זה יכול להיות פשוט מאוד וחסר תכונות פרטיות ואבטחה שיש להצעות עצמאיות.
 
-לדוגמה, מנהל הסיסמאות ב-Microsoft Edge אינו מציע E2EE כלל. למנהל הסיסמאות של Google יש E2EE [אופציונלי](https://support.google.com/accounts/answer/11350823), ו-[של Apple](https://support.apple.com/en-us/HT202303) מציע E2EE על ידי ברירת מחדל.
+לדוגמה, מנהל הסיסמאות ב-Microsoft Edge אינו מציע E2EE כלל. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
 
 </div>
 
@@ -145,14 +145,14 @@ schema:
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help/){ .card-link title=Documentation}
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-- [:simple-appstore: App Store](https://apps.apple.com/app/bitwarden-password-manager/id1137397744)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
 - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
 - [:simple-windows11: Windows](https://bitwarden.com/download)
 - [:simple-linux: Linux](https://bitwarden.com/download)
@@ -165,7 +165,7 @@ schema:
 
 </div>
 
-Bitwarden כולל גם [Bitwarden Send](https://bitwarden.com/products/send/), המאפשר לך לשתף טקסט וקבצים בצורה מאובטחת עם [הצפנה מקצה לקצה](https://bitwarden.com/help/send-encryption). ניתן לדרוש [סיסמה](https://bitwarden.com/help/send-privacy/#send-passwords) יחד עם קישור השליחה. Bitwarden Send כולל גם תכונות [מחיקה אוטומטית](https://bitwarden.com/help/send-lifespan).
+Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). ניתן לדרוש [סיסמה](https://bitwarden.com/help/send-privacy/#send-passwords) יחד עם קישור השליחה. Bitwarden Send כולל גם תכונות [מחיקה אוטומטית](https://bitwarden.com/help/send-lifespan).
 
 אתה צריך [תוכנית פרימיום](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) כדי להיות מסוגל לשתף קבצים. התוכנית החינמית מאפשרת שיתוף טקסט בלבד.
 
@@ -183,20 +183,20 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 ![1Password לוגו](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** הוא מנהל סיסמאות עם דגש חזק על אבטחה וקלות שימוש, המאפשר לך לאחסן סיסמאות, כרטיסי אשראי, רישיונות תוכנה וכל מידע רגיש אחר בכספת דיגיטלית מאובטחת. הכספת שלכם מתארחת בשרתים של 1Password תמורת [תשלום חודשי](https://1password.com/sign-up/). 1Password [מבוקרת](https://support.1password.com/security-assessments/) על בסיס קבוע ומספקת תמיכת לקוחות יוצאת דופן. 1Password הוא מקור סגור; עם זאת, האבטחה של המוצר מתועדת ביסודיות ב[מסמך האבטחה הלבן](https://1passwordstatic.com/files/security/1password-white-paper.pdf) שלהם.
+**1Password** הוא מנהל סיסמאות עם דגש חזק על אבטחה וקלות שימוש, המאפשר לך לאחסן סיסמאות, כרטיסי אשראי, רישיונות תוכנה וכל מידע רגיש אחר בכספת דיגיטלית מאובטחת. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password הוא מקור סגור; עם זאת, האבטחה של המוצר מתועדת ביסודיות ב[מסמך האבטחה הלבן](https://1passwordstatic.com/files/security/1password-white-paper.pdf) שלהם.
 
-[:octicons-home-16: Homepage](https://1password.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750?mt=8)
-- [:simple-windows11: Windows](https://1password.com/downloads/windows/)
-- [:simple-apple: macOS](https://1password.com/downloads/mac/)
-- [:simple-linux: Linux](https://1password.com/downloads/linux/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
+- [:simple-windows11: Windows](https://1password.com/downloads/windows)
+- [:simple-apple: macOS](https://1password.com/downloads/mac)
+- [:simple-linux: Linux](https://1password.com/downloads/linux)
 
 </details>
 
@@ -225,7 +225,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/psono-password-manager/id1545581224)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
@@ -276,9 +276,9 @@ Psono מספקת תיעוד נרחב עבור המוצר שלהם. לקוח הא
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs/){ .card-link title=Documentation}
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -304,10 +304,10 @@ KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](http
 
 **KeePassDX** הוא מנהל סיסמאות קל משקל לאנדרואיד, מאפשר עריכת נתונים מוצפנים בקובץ בודד בפורמט KeePass ויכול למלא את הטפסים בצורה מאובטחת. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) מאפשר ביטול נעילה של תוכן קוסמטי ותכונות פרוטוקול לא סטנדרטיות, אך חשוב מכך, זה עוזר ומעודד התפתחות.
 
-[:octicons-home-16: Homepage](https://www.keepassdx.com){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.keepassdx.com/#donation){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -325,24 +325,24 @@ KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](http
 
 ![לוגו Strongbox](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** הוא מנהל סיסמאות מקורי בקוד פתוח עבור iOS ו-macOS. תמיכה בפורמטים של KeePass ו- Password Safe, ניתן להשתמש ב-Strongbox במקביל למנהלי סיסמאות אחרים, כמו KeePassXC, בפלטפורמות שאינן של אפל. על ידי שימוש ב[מודל freemium](https://strongboxsafe.com/pricing/), Strongbox מציעה את רוב התכונות תחת השכבה החינמית שלה עם [תכונות](https://strongboxsafe.com/comparison/) יותר מוכוונות נוחות - כגון כאימות ביומטרי - נעול מאחורי מנוי או רישיון תמידי.
+**Strongbox** הוא מנהל סיסמאות מקורי בקוד פתוח עבור iOS ו-macOS. תמיכה בפורמטים של KeePass ו- Password Safe, ניתן להשתמש ב-Strongbox במקביל למנהלי סיסמאות אחרים, כמו KeePassXC, בפלטפורמות שאינן של אפל. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/strongbox-keepass-pwsafe/id897283731)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
 
 </details>
 
 </div>
 
-בנוסף, קיימת גרסה לא מקוונת בלבד המוצעת: [Strongbox Zero](https://apps.apple.com/app/strongbox-keepass-pwsafe/id1581589638). גרסה זו מופשטת בניסיון לצמצם את שטח התקיפה.
+Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). גרסה זו מופשטת בניסיון לצמצם את שטח התקיפה.
 
 ### שורת הפקודה
 
@@ -356,7 +356,7 @@ KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](http
 
 **gopass** הוא מנהל סיסמאות עבור שורת הפקודה הכתובה ב-Go. זה עובד על כל מערכות ההפעלה העיקריות של שולחן העבודה והשרת (Linux, macOS, BSD, Windows).
 
-[:octicons-home-16: Homepage](https://www.gopass.pw){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
@@ -364,10 +364,10 @@ KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](http
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.gopass.pw/#install-windows)
-- [:simple-apple: macOS](https://www.gopass.pw/#install-macos)
-- [:simple-linux: Linux](https://www.gopass.pw/#install-linux)
-- [:simple-freebsd: FreeBSD](https://www.gopass.pw/#install-bsd)
+- [:simple-windows11: Windows](https://gopass.pw/#install-windows)
+- [:simple-apple: macOS](https://gopass.pw/#install-macos)
+- [:simple-linux: Linux](https://gopass.pw/#install-linux)
+- [:simple-freebsd: FreeBSD](https://gopass.pw/#install-bsd)
 
 </details>
 

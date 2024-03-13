@@ -13,21 +13,21 @@ cover: multi-factor-authentication.webp
 
 ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
 
-**YubiKeys** 是最常用的安全金鑰之一。 有些 YubiKey 型號具廣泛的功能，例如： [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor)、[FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)、[Yubico OTP](basics/multi-factor-authentication.md#yubico-otp)、[Personal Identity Verification (PIV)](https://developers.yubico.com/PIV)、 [OpenPGP](https://developers.yubico.com/PGP/)、[TOTP and HOTP](https://developers.yubico.com/OATH)驗證。
+**YubiKeys** 是最常用的安全金鑰之一。 Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
 
-YubiKey 好處之一是，一支密鑰（ 例如 YubiKey 5 ）可以滿足對安全密鑰硬體的全部期待。 我們建議您在購買前先 [作個小測驗](https://www.yubico.com/quiz/) ，以確保您做出正確的選擇。
+YubiKey 好處之一是，一支密鑰（ 例如 YubiKey 5 ）可以滿足對安全密鑰硬體的全部期待。 We do encourage you to take the [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
 
-[:octicons-home-16: Homepage](https://www.yubico.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://yubico.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
 
 </details>
 
 </div>
 
-[比較表](https://www.yubico.com/store/compare/) 顯示了各型號 YubiKeys  功能比較。 我們強烈建議您從YubiKey 5系列中挑選。
+The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare. 我們強烈建議您從YubiKey 5系列中挑選。
 
-YubiKeys可以利用 [YubiKey Manager](https://www.yubico.com/support/download/yubikey-manager/) 或 [YubiKey Personalization Tools](https://www.yubico.com/support/download/yubikey-personalization-tools/)來收授指令。 若要管理 TOTP 代碼，您可以使用 [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)。 Yubico 所有客戶端軟體都是開源。
+YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). Yubico 所有客戶端軟體都是開源。
 
 支持 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來存儲 TOTP 機密。 這些機密經加密後存儲在密鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
@@ -46,17 +46,17 @@ The firmware of YubiKey is not open source and is not updatable. 如果您想要
 
 **Nitrokey** 能夠 [FIDO2 和 WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)的安全金鑰，稱為 **Nitrokey FIDO2**。 若要獲得 PGP 支援，您需要購買他們其他鑰匙，例如 **Nitrokey Start**、**Nitrokey Pro 2** 或 **Nitrokey Storage 2**。
 
-[:octicons-home-16: Homepage](https://www.nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.nitrokey.com/){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentation}
 
 </details>
 
 </div>
 
-[比較表](https://www.nitrokey.com/#comparison) 顯示了各型號 Nitrokey 功能比較。 **Nitrokey 3** 具有組合的功能集。
+The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. **Nitrokey 3** 具有組合的功能集。
 
-可以使用 [Nitrokey 應用程序](https://www.nitrokey.com/download)配置 Nitrokey 模型。
+Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
 
 支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以存儲 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
 
@@ -74,7 +74,7 @@ The firmware of YubiKey is not open source and is not updatable. 如果您想要
 
 </div>
 
-Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記型電腦的 [Coreboot](https://www.coreboot.org/) + [Heads](https://osresearch.net/) 軔體與系統完整性驗證。
+The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://coreboot.org) + [Heads](https://osresearch.net) firmware.
 
 不同於 YubiKey，Nitrokey 軔體是開源。 NitroKey 型號可（ **NitroKey Pro 2**除外）可更新軔體。
 
@@ -127,7 +127,7 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/ente-authenticator/id6444121398)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
 - [:octicons-globe-16: Web](https://auth.ente.io)
 
@@ -147,7 +147,7 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

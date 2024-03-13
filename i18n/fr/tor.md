@@ -10,7 +10,7 @@ schema:
     "@type": SoftwareApplication
     name: Navigateur Tor
     image: /assets/img/browsers/tor.svg
-    url: https://www.torproject.org
+    url: https://torproject.org
     sameAs: https://fr.m.wikipedia.org/wiki/Tor_(r%C3%A9seau)
     applicationCategory: Web Browser
     operatingSystem:
@@ -27,11 +27,11 @@ schema:
 
 Le réseau **Tor** est un groupe de serveurs gérés par des bénévoles qui vous permet de vous connecter gratuitement et d'améliorer votre confidentialité et votre sécurité sur Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
 
-[:octicons-home-16:](https://www.torproject.org){ .card-link title="Page d'accueil" }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Service onion" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Code source" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuer }
+[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 Tor fonctionne en acheminant votre trafic Internet via ces serveurs gérés par des volontaires, au lieu d'établir une connexion directe avec le site que vous essayez de visiter. Cela permet de masquer la provenance du trafic, et aucun serveur sur le chemin de la connexion n'est en mesure de voir le chemin complet de la provenance et de la destination du trafic, ce qui signifie que même les serveurs que vous utilisez pour vous connecter ne peuvent pas briser votre anonymat.
 
@@ -60,20 +60,20 @@ Si un anonymat plus complet est primordial dans votre situation, vous devriez **
 
 Le **Navigateur Tor** est le choix idéal si vous avez besoin d'anonymat, car il vous donne accès au réseau et aux ponts Tor, et il inclut des paramètres par défaut et des extensions qui sont automatiquement configurées par les niveaux de sécurité par défaut : *Normal*, *Plus sûr* et *Le plus sûr*.
 
-[:octicons-home-16: Homepage](https://www.torproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org/){ .card-link title=Documentation }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-- [:simple-android: Android](https://www.torproject.org/download/#android)
-- [:simple-windows11: Windows](https://www.torproject.org/download/)
-- [:simple-apple: macOS](https://www.torproject.org/download/)
-- [:simple-linux: Linux](https://www.torproject.org/download/)
+- [:simple-android: Android](https://torproject.org/download/#android)
+- [:simple-windows11: Windows](https://torproject.org/download)
+- [:simple-apple: macOS](https://torproject.org/download)
+- [:simple-linux: Linux](https://torproject.org/download)
 
 </details>
 
@@ -86,7 +86,7 @@ Vous ne devriez **jamais** installer des extensions supplémentaires sur le Navi
 
 </div>
 
-Le Navigateur Tor est conçu pour empêcher la prise d'empreintes numérique, ou l'identification en fonction de la configuration de votre navigateur. Par conséquent, il est impératif de ne **pas** modifier le navigateur au-delà des [niveaux de sécurité](https://tb-manual.torproject.org/fr/security-settings/) par défaut.
+Le Navigateur Tor est conçu pour empêcher la prise d'empreintes numérique, ou l'identification en fonction de la configuration de votre navigateur. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings).
 
 Outre installer le Navigateur Tor sur votre ordinateur, il existe également des systèmes d'exploitation conçus spécifiquement pour se connecter au réseau Tor tels que [Whonix](desktop.md#whonix) sur [Qubes OS](desktop.md#qubes-os), qui offrent une sécurité et des protections encore plus importantes que le Navigateur Tor standard.
 
@@ -98,7 +98,7 @@ Outre installer le Navigateur Tor sur votre ordinateur, il existe également des
 
 **Orbot** est un VPN Tor gratuit pour smartphones qui achemine le trafic de n'importe quelle application sur votre appareil à travers le réseau Tor.
 
-[:octicons-home-16: Homepage](https://orbot.app/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
 [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
@@ -108,7 +108,7 @@ Outre installer le Navigateur Tor sur votre ordinateur, il existe également des
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/orbot/id1609461599)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
 - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
 </details>
@@ -132,9 +132,9 @@ Toutes les versions sont signées en utilisant la même signature, elles devraie
 
 <div class="admonition recommendation" markdown>
 
-![logo Navigateur Onion](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-Le **Navigateur Onion** est un navigateur open-source qui vous permet de naviguer anonymement sur le web via le réseau Tor sur les appareils iOS et qui est soutenu par le [Projet Tor](https://support.torproject.org/glossary/onion-browser/).
+**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -164,10 +164,10 @@ Le **Navigateur Onion** est un navigateur open-source qui vous permet de navigue
 
 Les personnes censurées peuvent utiliser les proxys Snowflake pour se connecter au réseau Tor. Snowflake est un excellent moyen de contribuer au réseau même si vous n'avez pas le savoir-faire technique pour gérer un relais ou un pont Tor.
 
-[:octicons-home-16: Page d'accueil](https://snowflake.torproject.org/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Code source" }
-[:octicons-heart-16:](https://donate.torproject.org/){ .card-link title=Contribuer }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 </details>
 
@@ -181,4 +181,4 @@ Snowflake n'améliore en rien votre vie privée et n'est pas utilisé pour se co
 
 Faire fonctionner un proxy Snowflake est peu risqué, encore moins que de faire fonctionner un relais ou un pont Tor qui ne sont déjà pas des entreprises particulièrement risquées. Toutefois, il achemine le trafic par le biais de votre réseau, ce qui peut avoir un impact à certains égards, surtout si votre réseau a une bande passante limitée. Assurez-vous de comprendre [le fonctionnement de Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) avant de décider de faire tourner un proxy.
 
-[^1]: Le paramètre `IsolateDestAddr` est discuté sur la [liste de diffusion Tor](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) et [Whonix's Stream Isolation documentation](https://www.whonix.org/wiki/Stream_Isolation), où les deux projets suggèrent que ce n'est généralement pas une bonne approche pour la plupart des gens.
+[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.

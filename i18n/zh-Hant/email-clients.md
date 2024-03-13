@@ -28,17 +28,17 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 **Thunderbird** 是一個免費、開源、跨平臺的電子郵件、新聞組、新聞提要和聊天(XMPP、IRC、Matrix)客戶端，由Thunderbird 社區開發，之前由 Mozilla 基金會開發。
 
-[:octicons-home-16: Homepage](https://www.thunderbird.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.thunderbird.net)
-- [:simple-apple: macOS](https://www.thunderbird.net)
-- [:simple-linux: Linux](https://www.thunderbird.net)
+- [:simple-windows11: Windows](https://thunderbird.net)
+- [:simple-apple: macOS](https://thunderbird.net)
+- [:simple-linux: Linux](https://thunderbird.net)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
 </details>
@@ -75,7 +75,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 **Apple Mail** 包含在 macOS，並可利用[GPG Suite](encryption.md#gpg-suite)擴展支援 OpenPGP，增加了發送PGP 加密電子郵件的能力。
 
 [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/en-ww/){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.apple.com/mail){ .card-link title=Documentation}
 
 </details>
@@ -94,7 +94,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com/){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
@@ -128,7 +128,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://email.faircode.eu/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
@@ -146,13 +146,13 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** 是個人資訊管理應用程式，提供綜合郵件、行事曆和聯絡簿功能。 Evolution有廣泛的 [文檔](https://help.gnome.org/users/evolution/stable/)來幫助您開始。
+**Evolution** 是個人資訊管理應用程式，提供綜合郵件、行事曆和聯絡簿功能。 Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable/){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution/){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.gnome.org/donate/){ .card-link title=Contribute }
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title=Documentation}
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
@@ -175,7 +175,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.k9mail.app/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.k9mail.app){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
 
@@ -206,9 +206,9 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users/){ .card-link title=Documentation}
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title=Documentation}
 [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
@@ -228,8 +228,8 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 **Mailvelope** 是一個瀏覽器擴充功能，可按照 OpenPGP 加密標準交換加密電子郵件。
 
-[:octicons-home-16: Homepage](https://www.mailvelope.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.mailvelope.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
@@ -255,9 +255,9 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 NeoMutt 是一個文字指令的客戶端，具有陡峭的學習曲線。 然而，它有高度自制的特色。
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://neomutt.org/guide/){ .card-link title=Documentation}
+[:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.paypal.com/paypalme/russon/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>

@@ -69,13 +69,13 @@ If you do use Tor then you are *probably* best off connecting to the Tor network
 
 You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
 
-Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. כדי לפצות על כך, ספקי VPN בדרך כלל ינתבו את כל החבילות שאינן TCP דרך שרת ה-VPN שלהם (הקפיצה הראשונה שלך). זה המקרה עם [ProtonVPN](https://protonvpn.com/support/tor-vpn/). בנוסף, בעת שימוש בהגדרת Tor over VPN זו, אין לך שליטה על תכונות Tor חשובות אחרות כגון [כתובת יעד מבודדת](https://www.whonix.org/wiki/Stream_Isolation) (באמצעות מעגל Tor שונה עבור כל דומיין שאתה מבקר בו).
+Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. כדי לפצות על כך, ספקי VPN בדרך כלל ינתבו את כל החבילות שאינן TCP דרך שרת ה-VPN שלהם (הקפיצה הראשונה שלך). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
 
 The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
 
 ## Commercial VPN Ownership
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
 
 You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
 
@@ -111,8 +111,8 @@ Many dVPNs are used to push a cryptocurrency rather than to make the best servic
 
 ## מידע שקשור ל VPN
 
-- [הבעיה עם אתרי סקירת VPN ואתרי פרטיות](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [חקירת אפליקציית VPN בחינם](https://www.top10vpn.com/free-vpn-app-investigation/)
-- [בעלי VPN מוסתרים חשפו: 101 מוצרי VPN המנוהלים על ידי 23 חברות בלבד](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
-- [החברה הסינית הזו עומדת בסתר מאחורי 24 אפליקציות פופולריות שמחפשות הרשאות מסוכנות](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-- [VPN - נרטיב מאוד מעורער](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) מאת Dennis Schubert
+- [הבעיה עם אתרי סקירת VPN ואתרי פרטיות](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
+- [חקירת אפליקציית VPN בחינם](https://top10vpn.com/research/free-vpn-investigations/ownership)
+- [בעלי VPN מוסתרים חשפו: 101 מוצרי VPN המנוהלים על ידי 23 חברות בלבד](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
+- [החברה הסינית הזו עומדת בסתר מאחורי 24 אפליקציות פופולריות שמחפשות הרשאות מסוכנות](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert

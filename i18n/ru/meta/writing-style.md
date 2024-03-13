@@ -4,11 +4,11 @@ title: Стиль написания
 
 Privacy Guides написан на американском английском, и в случае сомнений вам следует обратиться к [руководству по стилю APA](https://apastyle.apa.org/style-grammar-guidelines/grammar).
 
-В целом [Федеральное руководство США по написанию текстов](https://www.plainlanguage.gov/guidelines/) дает хорошее представление о том, как писать ясно и лаконично. Ниже мы приводим несколько важных замечаний из этих рекомендаций.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. Ниже мы приводим несколько важных замечаний из этих рекомендаций.
 
 ## Пишите для нашей аудитории
 
-Предполагаемая [аудитория](https://www.plainlanguage.gov/guidelines/audience/) "Privacy Guides" - это в основном взрослые люди, пользующиеся техникой. Не упрощайте содержание, как будто вы обращаетесь к классу средней школы, но и не злоупотребляйте сложной терминологией в отношении понятий, с которыми не знакомы обычные пользователи компьютеров.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Не упрощайте содержание, как будто вы обращаетесь к классу средней школы, но и не злоупотребляйте сложной терминологией в отношении понятий, с которыми не знакомы обычные пользователи компьютеров.
 
 ### Обращайтесь только к тому, что люди хотят знать
 
@@ -24,7 +24,7 @@ Privacy Guides написан на американском английском
 > 
 > Когда вы обращаетесь к пользователям на "Вы", они с большей вероятностью поймут, в чем заключается их ответственность.
 
-Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### Избегайте слова "пользователи"
 
@@ -37,7 +37,7 @@ Privacy Guides написан на американском английском
 - Ограничьте документ примерно пятью-шестью разделами. Длинные документы, вероятно, следует разделить на отдельные страницы.
 - Отметьте важные идеи **жирным** или *курсивом *.
 
-Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### Начните с вывода
 
@@ -45,7 +45,7 @@ Privacy Guides написан на американском английском
 > 
 > Мы часто пишем так, как думаем: сначала ставим предпосылки, а затем вывод. Возможно, это естественный способ развития мысли, но в итоге мы получаем вывод в конце абзаца. Переместите его вперед и дайте пользователям понять, куда вы направляетесь. Не заставляйте читателей держать в голове много информации, прежде чем перейти к сути.
 
-Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## Тщательно подбирайте слова
 
@@ -65,7 +65,7 @@ Privacy Guides написан на американском английском
 
 > Лишние слова тратят время вашей аудитории. Искусство написания текстов - это как разговор. Пропустите информацию, которую аудитории не нужно знать. Это может быть непросто, если вы являетесь экспертом в данной области, поэтому важно, чтобы кто-то посмотрел на информацию с точки зрения аудитории.
 
-Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## Сохраняйте разговорный характер текста
 
@@ -77,7 +77,7 @@ Privacy Guides написан на американском английском
 
 > Активный голос уточняет, кто что должен сделать. Это устраняет двусмысленность в отношении обязанностей. Не "Это должно быть сделано", а "Ты должен это сделать."
 
-Источник: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### Используйте слово "должен" для требований
 

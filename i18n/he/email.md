@@ -55,7 +55,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
@@ -74,7 +74,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-מנויי Proton Mail בתשלום יכולים להשתמש בדומיין משלהם עם השירות או בכתובת [תפוס-הכל](https://proton.me/support/catch-all). Proton Mail תומך גם ב[כתובת משנה](https://proton.me/support/creating-aliases), שהיא שימושית לאנשים שלא רוצים לרכוש דומיין.
+מנויי Proton Mail בתשלום יכולים להשתמש בדומיין משלהם עם השירות או בכתובת [תפוס-הכל](https://proton.me/support/catch-all). Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } שיטות תשלום פרטיות
 
@@ -129,7 +129,7 @@ Proton Mail אינו מציע תכונה מורשת דיגיטלית.
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-Mailbox.org מאפשר לך להשתמש בדומיין משלך, והם תומכים בכתובות [תפוס כל](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). Mailbox.org תומך גם [בכתובת משנה](https://kb.mailbox.org/display/BMBOKBEN/What+is+an+alias+and+how+do+I+use+it), וזה שימושי אם אינך רוצה לרכוש דומיין.
+Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } שיטות תשלום פרטיות
 
@@ -137,17 +137,17 @@ Mailbox.org אינו מקבל מטבעות קריפטוגרפיים כלשהם �
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
-Mailbox.org תומך ב[אימות דו-שלבי](https://kb.mailbox.org/display/MBOKBEN/How+to+use+two-factor+authentication+-+2FA) עבור דואר האינטרנט שלהם בלבד. אתה יכול להשתמש ב- TOTP או ב- [YubiKey](https://en.wikipedia.org/wiki/YubiKey) דרך [YubiCloud](https://www.yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) אינם נתמכים עדיין.
+Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). תקני אינטרנט כגון [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) אינם נתמכים עדיין.
 
 #### :material-information-outline:{ .pg-blue } אבטחת מידע
 
-Mailbox.org מאפשר הצפנה של דואר נכנס באמצעות [תיבת הדואר המוצפנת](https://kb.mailbox.org/display/MBOKBEN/The+Encrypted+Mailbox) שלהם. הודעות חדשות שתקבל יוצפנו באופן מיידי באמצעות המפתח הציבורי שלך.
+Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). הודעות חדשות שתקבל יוצפנו באופן מיידי באמצעות המפתח הציבורי שלך.
 
-עם זאת, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), פלטפורמת התוכנה המשמשת את Mailbox.org, [אינה תומכת](https://kb.mailbox.org/display/BMBOKBEN/Encryption+of+calendar+and+address+book) בהצפנה של פנקס הכתובות והלוח שנה שלך. [אפשרות עצמאית](calendar.md) עשויה להתאים יותר למידע זה.
+However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. [אפשרות עצמאית](calendar.md) עשויה להתאים יותר למידע זה.
 
 #### :material-check:{ .pg-green } הצפנת אימייל
 
-ל-Mailbox.org יש [הצפנה משולבת](https://kb.mailbox.org/display/MBOKBEN/Send+encrypted+e-mails+with+Guard) בדואר האינטרנט שלהם, מה שמקל על שליחת הודעות לאנשים עם מפתחות OpenPGP ציבוריים. הם גם מאפשרים [לנמענים מרוחקים לפענח אימייל בשרתים](https://kb.mailbox.org/display/MBOKBEN/My+recipient+does+not+use+PGP) של Mailbox.org. תכונה זו שימושית כאשר לנמען המרוחק אין OpenPGP ואין באפשרותו לפענח עותק של הדואר האלקטרוני בתיבת הדואר שלו.
+Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. תכונה זו שימושית כאשר לנמען המרוחק אין OpenPGP ואין באפשרותו לפענח עותק של הדואר האלקטרוני בתיבת הדואר שלו.
 
 Mailbox.org תומך גם בגילוי מפתחות ציבוריים באמצעות HTTP מ-[Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) שלהם. זה מאפשר לאנשים מחוץ Mailbox.org למצוא את מפתחות OpenPGP של חשבונות Mailbox.org בקלות, עבור E2EE חוצה ספקים. זה חל רק על כתובות אימיילים המסתיימות באחד מהדומיינים של Mailbox.org עצמו, כמו mailbox.org@. אם אתה משתמש בדומיין מותאם אישית, עליך [להגדיר את WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) בנפרד.
 
@@ -157,9 +157,9 @@ Mailbox.org תומך גם בגילוי מפתחות ציבוריים באמצע�
 
 #### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
-אתה יכול לגשת לחשבון Mailbox.org שלך דרך IMAP/SMTP באמצעות [שירות.onion](https://kb.mailbox.org/display/MBOKBEN/The+Tor+exit+node+of+mailbox.org) שלהם. עם זאת, לא ניתן לגשת לממשק דואר האינטרנט שלהם באמצעות שירות.onion שלהם ואתה עלול להיתקל בשגיאות אישור TLS.
+You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). עם זאת, לא ניתן לגשת לממשק דואר האינטרנט שלהם באמצעות שירות.onion שלהם ואתה עלול להיתקל בשגיאות אישור TLS.
 
-כל החשבונות מגיעים עם אחסון ענן מוגבל ש[ניתן להצפנה](https://kb.mailbox.org/display/MBOKBEN/Encrypt+files+on+your+Drive). Mailbox.org מציעה גם את הכינוי [@secure.mailbox.org](https://kb.mailbox.org/display/MBOKBEN/Ensuring+E-Mails+are+Sent+Securely), אשר אוכף את הצפנת TLS על החיבור בין שרתי דואר, אחרת ההודעה לא תישלח כלל. Mailbox.org תומך גם ב-[Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) בנוסף לפרוטוקולי גישה סטנדרטיים כמו IMAP ו-POP3.
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org תומך גם ב-[Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) בנוסף לפרוטוקולי גישה סטנדרטיים כמו IMAP ו-POP3.
 
 Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכניות. אתה יכול לבחור אם אתה רוצה שכל הנתונים שלך יועברו ליורשים בתנאי שהם חלים ומספקים את הצוואה שלך. לחלופין, ניתן למנות אדם לפי שם וכתובת.
 
@@ -185,18 +185,18 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/tutanota/id922429609)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
 - [:simple-windows11: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -206,7 +206,7 @@ Tuta אינו תומך ב[פרוטוקול IMAP](https://tuta.com/faq/#imap) א�
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [subaddressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } שיטות תשלום פרטיות
 
@@ -232,7 +232,7 @@ Tuta [ימחק חשבונות בחינם לא פעילים](https://tuta.com/faq
 
 Tuta מציעה את הגרסה העסקית של [Tuta לארגונים ללא מטרות רווח](https://tuta.com/blog/posts/secure-email-for-non-profit) בחינם או בהנחה כבדה.
 
-ל-Tuta יש גם תכונה עסקית בשם [חיבור מאובטח](https://tuta.com/secure-connect/). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
+Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
 
 Tuta אינו מציע תכונה מורשת דיגיטלית.
 
@@ -284,14 +284,14 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 </details>
 
 </div>
 
-מספר הכינויים המשותפים (שמסתיימים בדומיין משותף כמו @addy.io) שאתה יכול ליצור מוגבל ל-10 בתוכנית החינמית של addy.io, 50 בתוכנית של $1 לחודש וללא הגבלה בתוכנית של $4 לחודש (החיוב 3 דולר לשנה). אתה יכול ליצור כינויים סטנדרטיים ללא הגבלה (שמסתיימים בדומיין כמו @[username].addy.io או דומיין מותאם אישית בתוכניות בתשלום), עם זאת, כפי שצוין קודם לכן, זה יכול להזיק לפרטיות מכיוון שאנשים יכולים לקשור באופן טריוויאלי את הכינויים הסטנדרטיים שלך יחד על סמך שם הדומיין בלבד. הם שימושיים כאשר דומיין משותף עשוי להיות חסום על ידי שירות. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit/) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+מספר הכינויים המשותפים (שמסתיימים בדומיין משותף כמו @addy.io) שאתה יכול ליצור מוגבל ל-10 בתוכנית החינמית של addy.io, 50 בתוכנית של $1 לחודש וללא הגבלה בתוכנית של $4 לחודש (החיוב 3 דולר לשנה). אתה יכול ליצור כינויים סטנדרטיים ללא הגבלה (שמסתיימים בדומיין כמו @[username].addy.io או דומיין מותאם אישית בתוכניות בתשלום), עם זאת, כפי שצוין קודם לכן, זה יכול להזיק לפרטיות מכיוון שאנשים יכולים לקשור באופן טריוויאלי את הכינויים הסטנדרטיים שלך יחד על סמך שם הדומיין בלבד. הם שימושיים כאשר דומיין משותף עשוי להיות חסום על ידי שירות. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 תכונות חינמיות בולטות:
 
@@ -310,8 +310,8 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 **SimpleLogin** הוא שירות חינמי המספק כינויי דוא"ל על מגוון שמות דומיין משותפים, ובאופן אופציונלי מספק תכונות בתשלום כמו כינויים בלתי מוגבלים ודומיינים מותאמים אישית.
 
 [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -320,16 +320,16 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1494051017)
+- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
 
 </details>
 
 </div>
 
-SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) נכון ל-8 באפריל 2022. אם אתה משתמש ב-Proton Mail עבור תיבת הדואר הראשית שלך, SimpleLogin היא בחירה מצוינת. מכיוון ששני המוצרים נמצאים כעת בבעלות אותה חברה, כעת עליך לסמוך רק על ישות אחת. אנו גם מצפים ש-SimpleLogin תשתלב בצורה הדוקה יותר עם ההיצע של Proton בעתיד. SimpleLogin ממשיכה לתמוך בהעברה לכל ספק דוא"ל שתבחרו. Securitum [ביקרה את SimpleLogin](https://simplelogin.io/blog/security-audit/) בתחילת 2022 וכל הבעיות [טופלו](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) נכון ל-8 באפריל 2022. אם אתה משתמש ב-Proton Mail עבור תיבת הדואר הראשית שלך, SimpleLogin היא בחירה מצוינת. מכיוון ששני המוצרים נמצאים כעת בבעלות אותה חברה, כעת עליך לסמוך רק על ישות אחת. אנו גם מצפים ש-SimpleLogin תשתלב בצורה הדוקה יותר עם ההיצע של Proton בעתיד. SimpleLogin ממשיכה לתמוך בהעברה לכל ספק דוא"ל שתבחרו. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
 תוכל לקשר את חשבון SimpleLogin שלך בהגדרות עם חשבון Proton שלך. אם יש לך את הפרוטון ללא הגבלה, עסקים, או תוכנית חזון, יהיה לך SimpleLogin פרימיום בחינם.
 
@@ -352,9 +352,9 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 **Mailcow** הוא שרת דואר מתקדם יותר המושלם עבור אלה עם קצת יותר ניסיון בלינוקס. יש לו את כל מה שאתה צריך במיכל Docker: שרת דואר עם תמיכה ב- DKIM, ניטור אנטי וירוס וספאם, דואר אינטרנט ו- ActiveSync עם SOGo, וניהול מבוסס אינטרנט עם תמיכה ב- 2FA.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailcow.github.io/mailcow-dockerized-docs/){ .card-link title=תיעוד}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="קוד מקור" }
-[:octicons-heart-16:](https://www.servercow.de/mailcow?lang=en#sal){ .card-link title=לתרומה }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
 
 </div>
 
@@ -372,8 +372,8 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 
 לגישה ידנית יותר בחרנו את שני המאמרים הבאים:
 
-- [הגדרת שרת דואר עם OpenSMTPD, Dovecot ו - Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/) (2019)
-- [כיצד להפעיל שרת דואר משלך](https://www.c0ffee.net/blog/mail-server-guide/) (אוגוסט 2017)
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
 
 ## קריטריונים
 
@@ -386,7 +386,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 **מינימום כדי לעמוד בדרישות:**
 
 - מצפין נתוני חשבון אימייל במצב מנוחה עם הצפנה ללא גישה.
-- יכולת ייצוא כ [Mbox](https://en.wikipedia.org/wiki/Mbox) או .eml בודד עם תקן [RFC5322](https://datatracker.ietf.org/doc/rfc5322/).
+- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - מאפשר למשתמשים להשתמש ב[שם דומיין](https://en.wikipedia.org/wiki/Domain_name) משלהם. שמות דומיין מותאמים אישית חשובים למשתמשים מכיוון שהם מאפשרים להם לתחזק את הסוכנות שלהם מהשירות, אם היא תהפוך לגרועה או תירכש על ידי חברה אחרת שאינה מתעדפת פרטיות.
 - פועל על תשתית בבעלות, כלומר לא בנוי על ספקי שירותי דואר אלקטרוני של צד שלישי.
 
@@ -397,7 +397,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 - תמיכה עבור [WKD](https://wiki.gnupg.org/WKD) כדי לאפשר גילוי משופר של מפתחות OpenPGP ציבוריים באמצעות HTTP. משתמשי GnuPG יכולים לקבל מפתח על ידי הקלדה `gpg --locate-key example_user@example.com`
 - תמיכה בתיבת דואר זמנית למשתמשים חיצוניים. פעולה זו שימושית כאשר ברצונך לשלוח דוא"ל מוצפן, מבלי לשלוח עותק בפועל לנמען שלך. למיילים אלה יש בדרך כלל תוחלת חיים מוגבלת ולאחר מכן נמחקות אוטומטית. הם גם לא דורשים מהנמען להגדיר שום קריפטוגרפיה כמו OpenPGP.
 - זמינות שירותי ספק הדואר האלקטרוני באמצעות [שירות onion](https://en.wikipedia.org/wiki/.onion).
-- [תמיכה בתת - כתובת](https://en.wikipedia.org/wiki/Email_address#Subaddressing).
+- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
 - פונקציונליות של תפוס - הכל או כינוי עבור בעלי דומיינים משלהם.
 - שימוש בפרוטוקולי גישה סטנדרטיים למייל כגון IMAP, SMTP או [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). פרוטוקולי גישה סטנדרטיים מבטיחים שלקוחות יכולים להוריד בקלות את כל האימייל שלהם, אם הם רוצים לעבור לספק אחר.
 
@@ -425,13 +425,13 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 - הגנה על דואר אינטרנט עם 2FA, כגון TOTP.
 - הצפנת אפס גישה, מתבססת על הצפנה במנוחה. לספק אין את מפתחות הפענוח של הנתונים שברשותו. פעולה זו מונעת מעובד שסרח להדליף נתונים שיש לו גישה אליהם או מיריב מרחוק לשחרר נתונים שגנב על ידי השגת גישה בלתי מורשית לשרת.
 - תמיכה ב [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
-- אין שגיאות TLS או פגיעות בעת פרופיל על ידי כלים כגון [Hardenize](https://www.hardenize.com/), [testssl.sh](https://testssl.sh/), או [Qualys SSL Labs](https://www.ssllabs.com/ssltest); זה כולל שגיאות הקשורות לאישור ופרמטרים חלשים של DH, כגון אלה שהובילו ל - [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - העדפת חבילת שרתים (אופציונלית ב-TLSv1.3) עבור חבילות צופן חזקות התומכות בסודיות קדימה ובהצפנה מאומתת.
 - [MTA-STS](https://tools.ietf.org/html/rfc8461) בתוקף וגם מדיניות [TLS-RPT](https://tools.ietf.org/html/rfc8460).
 - בתוקף [רשומות DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities).
 - בתוקף [רשומות SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) ו - [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail).
 - שיהיה לך מתאים [DMARC](https://en.wikipedia.org/wiki/DMARC) עבר ומדיניות או שימוש ב [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) לאימות. אם נעשה שימוש באימות DMARC, יש להגדיר את המדיניות ל- `דוחה` או `הסגר`.
-- העדפת חבילת שרת של TLS 1.2 ואילך ותוכנית עבור [RFC8996](https://datatracker.ietf.org/doc/rfc8996/).
+- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - [שליחת SMTPS](https://en.wikipedia.org/wiki/SMTPS), בהנחה שנעשה שימוש ב - SMTP.
 - תקני אבטחת אתר אינטרנט כגון:
     - [אבטחת תעבורה קפדנית של HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -446,7 +446,7 @@ SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and
 - תוכניות לחיפוש באגים ו/או תהליך גילוי - פגיעות מתואם.
 - תקני אבטחת אתר אינטרנט כגון:
     - [מדיניות אבטחת תוכן (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
-    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163/)
+    - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### אמון
 

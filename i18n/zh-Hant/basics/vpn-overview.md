@@ -69,13 +69,13 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 不應該使用該功能：使用 Tor 的主要優點是不信任 VPN 提供者，當使用 VPN 託管的 Tor 節點而不是從電腦直接連接到 Tor 時，這一點就被否定了。
 
-目前Tor 僅支援 TCP 協定。 UDP（由 [WebRTC](https://en.wikipedia.org/wiki/WebRTC) 使用，[HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) 和其他協定）、[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) 和其他資料封包將被丟棄。 為了彌補這一點， VPN 提供商通常會引導全部的non-TCP 封包通過他們的 VPN 伺服器（您的第一個跳）。 [ProtonVPN ](https://protonvpn.com/support/tor-vpn/)的情況就是如此。 此外，使用此 Tor over VPN 設定時，您無法控制 Tor 其他重要的功能，例如 [隔離目標位址](https://www.whonix.org/wiki/Stream_Isolation) （為您訪問不同網域使用不同的Tor 迴路）。
+目前Tor 僅支援 TCP 協定。 UDP（由 [WebRTC](https://en.wikipedia.org/wiki/WebRTC) 使用，[HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) 和其他協定）、[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) 和其他資料封包將被丟棄。 為了彌補這一點， VPN 提供商通常會引導全部的non-TCP 封包通過他們的 VPN 伺服器（您的第一個跳）。 This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
 
 此功能應被視為*便捷*訪問 Tor 隱藏服務的方式，而不是保持匿名。 為了獲得妥適的匿名性，請使用 [Tor 瀏覽器](../tor.md)。
 
 ## 商業 VPN 所有權
 
-大多數 VPN 服務由[少數的同一家公司](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)擁有。 這些可疑的公司運行許多小型 VPN 服務，製造出一種擁有比實際更多選擇的假象，來實現利潤最大化。 通常這些為空殼公司提供服務的供應商都有糟糕的隱私權政策，不應信任。 請非常嚴格地決定使用哪個提供者。
+Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). 這些可疑的公司運行許多小型 VPN 服務，製造出一種擁有比實際更多選擇的假象，來實現利潤最大化。 通常這些為空殼公司提供服務的供應商都有糟糕的隱私權政策，不應信任。 請非常嚴格地決定使用哪個提供者。
 
 還應警惕：許多 VPN 評論網站只是向最高出價者開放的廣告工具。 == Privacy Guides 不會透過推薦外部產品賺錢，且從不使用推廣方案。==
 
@@ -111,8 +111,8 @@ MPR 試圖解決 VPN 固有的問題：用戶必須完全信任它們。 他們�
 
 ## VPN 相關資訊
 
-- [VPN 問題和隱私評論網站](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [免費 VPN 應用程式調查](https://www.top10vpn.com/free-vpn-app-investigation/)
-- [揭露隱身的 VPN 擁有者：由 23 家公司運營101款 VPN 產品](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
-- [這家中國公司祕密支持24個尋求危險權限的流行應用程序](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-- [VPN - a Very Precarious Narrative](https://schub.io/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
+- [VPN 問題和隱私評論網站](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
+- [免費 VPN 應用程式調查](https://top10vpn.com/research/free-vpn-investigations/ownership)
+- [揭露隱身的 VPN 擁有者：由 23 家公司運營101款 VPN 產品](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
+- [這家中國公司祕密支持24個尋求危險權限的流行應用程序](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert

@@ -4,25 +4,25 @@ icon: 'material/account-remove'
 description: 온라인 계정은 어느새 잔뜩 쌓여 있기 마련입니다. 여러분의 계정을 정리하는 데 도움이 될 몇 가지 팁을 알려드립니다.
 ---
 
-온라인 계정은 시간이 지날수록 쌓여갑니다. 그리고 그 중 상당수는 더 이상 사용하지 않는 계정일 겁니다. 휴면 계정은 데이터 유출에 취약하므로 '사용하지 않는 계정을 삭제하는 것'은 프라이버시 보호에 있어서 중요합니다. 데이터 유출이란, 보호되어야 할 정보가 서비스 보안 손상으로 인해 무단으로 열람, 전송, 도난당하는 것을 말합니다. 안타깝게도 최근에는 데이터 유출 사고가 [너무 많이 발생합니다](https://haveibeenpwned.com/PwnedWebsites). 데이터 유출 사고가 여러분의 삶에 미치는 영향을 최소화하고자 한다면 디지털에서도 위생 관념을 철저히 해야 합니다. 본 내용은 온라인 상에서 여러분의 발자취를 지우기 어렵게 만드는 각종 [다크 패턴](https://www.deceptive.design/)으로 인해 복잡해진 계정 삭제 절차를 안내하는 것을 목적으로 작성되었습니다.
+온라인 계정은 시간이 지날수록 쌓여갑니다. 그리고 그 중 상당수는 더 이상 사용하지 않는 계정일 겁니다. 휴면 계정은 데이터 유출에 취약하므로 '사용하지 않는 계정을 삭제하는 것'은 프라이버시 보호에 있어서 중요합니다. 데이터 유출이란, 보호되어야 할 정보가 서비스 보안 손상으로 인해 무단으로 열람, 전송, 도난당하는 것을 말합니다. 안타깝게도 최근에는 데이터 유출 사고가 [너무 많이 발생합니다](https://haveibeenpwned.com/PwnedWebsites). 데이터 유출 사고가 여러분의 삶에 미치는 영향을 최소화하고자 한다면 디지털에서도 위생 관념을 철저히 해야 합니다. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## 오래된 계정 찾기
 
 ### 비밀번호 관리자
 
-디지털 생활 내내 비밀번호 관리자를 사용해 왔다면 이는 매우 간단합니다. 비밀번호 관리자는 데이터 유출로 자격 증명 노출이 발생했는지 감지하는 기능이 내장되어있는 경우도 있습니다(예시: Bitwarden [데이터 유출 보고서](https://bitwarden.com/blog/have-you-been-pwned/) 기능).
+디지털 생활 내내 비밀번호 관리자를 사용해 왔다면 이는 매우 간단합니다. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
   ![Bitwarden 데이터 유출 보고서 기능](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-비밀번호 관리자를 따로 사용한 적이 없더라도, 자신도 모르는 사이 브라우저나 휴대폰 내장 비밀번호 관리자를 사용했을 가능성이 있습니다. (예시: [Firefox 비밀번호 관리자](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google 비밀번호 관리자](https://passwords.google.com/intro), [Edge 암호 관리자](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336))
+비밀번호 관리자를 따로 사용한 적이 없더라도, 자신도 모르는 사이 브라우저나 휴대폰 내장 비밀번호 관리자를 사용했을 가능성이 있습니다. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
 데스크톱 플랫폼에도 보통 비밀번호 관리자가 있기 때문에, 잊어버린 비밀번호를 복구하는 데에 유용할 수 있습니다:
 
-- Windows [자격 증명 관리자](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [암호](https://support.apple.com/en-us/HT211145)
-- iOS [암호](https://support.apple.com/en-us/HT211146)
+- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [Passwords](https://support.apple.com/HT211145)
+- iOS [Passwords](https://support.apple.com/HT211146)
 - Linux Gnome Keyring ([Seahorse](https://wiki.gnome.org/Apps/Seahorse), [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)로 사용 가능)
 
 ### 이메일
@@ -39,7 +39,7 @@ description: 온라인 계정은 어느새 잔뜩 쌓여 있기 마련입니다.
 
 ### GDPR (EEA 거주자만 해당)
 
-EEA 거주자는 GDPR [제17조](https://www.gdpr.org/regulation/article-17.html)에 명시된 데이터 삭제권을 보장받습니다. EEA 거주자이신 경우, 해당 서비스의 프라이버시 정책(개인정보 처리방침)을 읽고 삭제권을 행사하는 방법을 찾아보세요. 일부 서비스는 '계정 삭제' 옵션이 계정을 비활성화할 뿐 실제 삭제를 위해서는 추가 조치가 필요하기에, 프라이버시 정책을 읽어보는 것은 중요합니다. 실제로 데이터를 삭제하려면 설문을 작성해야 하거나, 해당 서비스 데이터 보호 책임자에게 이메일을 보내야 하거나, EEA 거주자임을 증명해야 하는 경우도 있습니다. 따라서, 이 방법을 사용하고자 한다면 계정 정보 덮어쓰기를 해선 **안** 됩니다. EEA 거주자 신원이 필요할 수도 있기 때문입니다. 알아두실 점은, GDPR은 서비스 업체 위치에 무관하게 적용된다는 것입니다. GDPR은 유럽 사용자를 고객으로 삼는 서비스라면 모두 적용됩니다. 만약 서비스가 EEA 거주자의 삭제권을 존중하지 않는 경우, 여러분은 자기 나라의 [데이터 보호 기관](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)에 연락하시면 됩니다(금전적 보상을 받을 수도 있습니다).
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. EEA 거주자이신 경우, 해당 서비스의 프라이버시 정책(개인정보 처리방침)을 읽고 삭제권을 행사하는 방법을 찾아보세요. 일부 서비스는 '계정 삭제' 옵션이 계정을 비활성화할 뿐 실제 삭제를 위해서는 추가 조치가 필요하기에, 프라이버시 정책을 읽어보는 것은 중요합니다. 실제로 데이터를 삭제하려면 설문을 작성해야 하거나, 해당 서비스 데이터 보호 책임자에게 이메일을 보내야 하거나, EEA 거주자임을 증명해야 하는 경우도 있습니다. 따라서, 이 방법을 사용하고자 한다면 계정 정보 덮어쓰기를 해선 **안** 됩니다. EEA 거주자 신원이 필요할 수도 있기 때문입니다. 알아두실 점은, GDPR은 서비스 업체 위치에 무관하게 적용된다는 것입니다. GDPR은 유럽 사용자를 고객으로 삼는 서비스라면 모두 적용됩니다. 만약 서비스가 EEA 거주자의 삭제권을 존중하지 않는 경우, 여러분은 자기 나라의 [데이터 보호 기관](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)에 연락하시면 됩니다(금전적 보상을 받을 수도 있습니다).
 
 ### 계정 정보 덮어쓰기
 
@@ -59,4 +59,4 @@ EEA 거주자는 GDPR [제17조](https://www.gdpr.org/regulation/article-17.html
 
 ## 계정 새로 생성하지 않기
 
-"예방이 치료보다 낫다"라는 말도 있습니다. 새 계정을 가입하고 싶은 마음이 생길 때마다 한 번씩 생각해보세요. '이 계정이 정말 필요한가?' '계정 없이도 내가 원하는 작업을 할 수 있나?' 계정 생성보다 삭제가 훨씬 더 어려운 경우가 많습니다. 게다가 계정을 삭제하거나 계정 정보를 변경한 이후에도 [인터넷 아카이브](https://archive.org/) 등 외부에 캐시된 버전이 존재할 수 있습니다. 미래에 후회하지 않기 위해서는 피할 수 있을 때 유혹을 피해야 합니다.
+"예방이 치료보다 낫다"라는 말도 있습니다. 새 계정을 가입하고 싶은 마음이 생길 때마다 한 번씩 생각해보세요. '이 계정이 정말 필요한가?' '계정 없이도 내가 원하는 작업을 할 수 있나?' 계정 생성보다 삭제가 훨씬 더 어려운 경우가 많습니다. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). 미래에 후회하지 않기 위해서는 피할 수 있을 때 유혹을 피해야 합니다.

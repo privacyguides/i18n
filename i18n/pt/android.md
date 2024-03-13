@@ -83,9 +83,9 @@ schema:
 
 O **Projeto de Código Aberto do Android** é um sistema operativo móvel de código aberto liderado pela Google que alimenta a maioria dos dispositivos móveis do mundo. A maioria dos telemóveis vendidos com Android são modificados para incluir integrações e aplicações invasivas, como o Google Play Services, pelo que pode melhorar significativamente a sua privacidade no seu dispositivo móvel substituindo a instalação predefinida do seu telemóvel por uma versão do Android sem estas funcionalidades invasivas.
 
-[:octicons-home-16:](https://source.android.com/){ .card-link title=Página Inicial }
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/){ .card-link title="Código fonte" }
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject){ .card-link title="Source Code" }
 
 Estes são os sistemas operativos, dispositivos e aplicações Android que recomendamos para maximizar a segurança e a privacidade do seu dispositivo móvel. Para saber mais sobre o Android:
 
@@ -113,27 +113,27 @@ O **GrapheneOS** é a melhor escolha quando se trata de privacidade e segurança
 
 O GrapheneOS proporciona melhorias adicionais [reforço da segurança](https://en.wikipedia.org/wiki/Hardening_(computing)) e da privacidade. Tem um [alocador de memória reforçado](https://github.com/GrapheneOS/hardened_malloc), permissões de rede e de sensor e várias outras [características de segurança](https://grapheneos.org/features). O GrapheneOS também vem com atualizações de firmware completas e compilações assinadas, pelo que o arranque verificado é totalmente suportado.
 
-[:octicons-home-16: Página Inicial](https://grapheneos.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Política de Privacidade" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentação}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Código fonte" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 </div>
 
-GrapheneOS suporta o [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), que executa [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) totalmente sandboxed como qualquer outro aplicativo regular. Isto significa que pode tirar partido da maioria dos serviços do Google Play, como as notificações push [](https://firebase.google.com/docs/cloud-messaging/), ao mesmo tempo que lhe dá controlo total sobre as suas permissões e acesso, e, ao mesmo tempo, que os restringe a um perfil de trabalho específico [](os/android-overview.md#work-profile) ou a um perfil de utilizador [](os/android-overview.md#user-profiles) à sua escolha.
+GrapheneOS suporta o [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), que executa [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) totalmente sandboxed como qualquer outro aplicativo regular. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
 Os telemóveis Google Pixel são os únicos dispositivos que cumprem atualmente os requisitos de segurança de hardware do GrapheneOS [](https://grapheneos.org/faq#device-support).
 
-[Por que recomendamos GrapheneOS em vez de CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/ ""){.md-button}
+[Por que recomendamos GrapheneOS em vez de CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos ""){.md-button}
 
 ### DivestOS
 
 <div class="admonition recommendation" markdown>
 
-![Logótipo do DivestOS](assets/img/android/divestos.svg){ align=right }
+![DivestOS logo](assets/img/android/divestos.svg){ align=right }
 
-**DivestOS** é um soft-fork do [LineageOS](https://lineageos.org/).
+**DivestOS** is a soft-fork of [LineageOS](https://lineageos.org).
 DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices&base=LineageOS) from LineageOS. Tem compilações assinadas, possibilitando ter [arranque verificado](https://source.android.com/security/verifiedboot) em alguns dispositivos não Pixel.
 
 [:octicons-home-16: Página Inicial](https://divestos.org){ .md-button .md-button--primary }
@@ -145,11 +145,11 @@ DivestOS inherits many [supported devices](https://divestos.org/index.php?page=d
 
 </div>
 
-O DivestOS tem vulnerabilidades automatizadas do kernel ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), menos blobs proprietários, e um ficheiro [hosts](https://divested.dev/index.php?page=dnsbl) personalizado. O seu WebView reforçado, [Mulch](https://gitlab.com/divested-mobile/mulch), permite [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) para todas as arquiteturas e [particionamento do estado da rede](https://developer.mozilla.org/en-US/docs/Web/Privacy/State_Partitioning), e recebe atualizações fora de banda. O DivestOS também inclui patches de kernel do GrapheneOS e habilita todos os recursos de segurança do kernel disponíveis via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). Todos os kernels mais recentes que a versão 3.4 incluem [sanitização de página inteira](https://lwn.net/Articles/334747/) e todos os ~22 kernels compilados pela Clang têm [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) ativado.
+O DivestOS tem vulnerabilidades automatizadas do kernel ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), menos blobs proprietários, e um ficheiro [hosts](https://divested.dev/index.php?page=dnsbl) personalizado. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. O DivestOS também inclui patches de kernel do GrapheneOS e habilita todos os recursos de segurança do kernel disponíveis via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
-O DivestOS implementa alguns patches de proteção de sistema originalmente desenvolvidos para o GrapheneOS. O DivestOS 16.0 e superior implementa as permissões [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) e SENSORS do GrapheneOS, [alocador de memória endurecido](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constificação](https://en.wikipedia.org/wiki/Const_(computer_programming)), e patchsets parciais de endurecimento [bionic](https://en.wikipedia.org/wiki/Bionic_(software)). 17.1 e superior apresenta a opção de randomização completa do GrapheneOS por rede [MAC](https://en.wikipedia.org/wiki/MAC_address#Randomization), [`controle ptrace_scope`](https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html), e opções de tempo limite de reinicialização automática/Wi-Fi/Bluetooth [](https://grapheneos.org/features).
+O DivestOS implementa alguns patches de proteção de sistema originalmente desenvolvidos para o GrapheneOS. O DivestOS 16.0 e superior implementa as permissões [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) e SENSORS do GrapheneOS, [alocador de memória endurecido](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constificação](https://en.wikipedia.org/wiki/Const_(computer_programming)), e patchsets parciais de endurecimento [bionic](https://en.wikipedia.org/wiki/Bionic_(software)). 17.1 and higher features GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features).
 
-O DivestOS utiliza o F-Droid como loja de aplicações por padrão. We normally [recommend avoiding F-Droid](#f-droid), but doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) **with the DivestOS repositories enabled** to keep those components up to date. Para outras aplicações, os nossos métodos recomendados para as obter continuam a aplicar-se.
+O DivestOS utiliza o F-Droid como loja de aplicações por padrão. We normally [recommend avoiding F-Droid](#f-droid), but doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repositories ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) and [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) **with the DivestOS repositories enabled** to keep those components up to date. Para outras aplicações, os nossos métodos recomendados para as obter continuam a aplicar-se.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
@@ -166,13 +166,13 @@ Ao comprar um dispositivo, recomendamos que o adquira o mais novo possível. O s
 
 Evite comprar telemóveis a operadores de redes móveis. Estes têm frequentemente um **bootloader bloqueado** e não suportam [desbloqueio OEM](https://source.android.com/devices/bootloader/locking_unlocking). Estas variantes de telemóvel impedem-no de instalar qualquer tipo de distribuição alternativa do Android.
 
-Tenha muito **cuidado** ao comprar telemóveis em segunda mão em mercados online. Verifique sempre a reputação do vendedor. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://www.gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Existe também o risco de estar associado à atividade do proprietário anterior.
+Tenha muito **cuidado** ao comprar telemóveis em segunda mão em mercados online. Verifique sempre a reputação do vendedor. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Existe também o risco de estar associado à atividade do proprietário anterior.
 
 Mais algumas dicas sobre dispositivos Android e compatibilidade com o sistema operativo:
 
 - Não compre dispositivos que tenham atingido ou estejam perto do fim da sua vida útil; as atualizações de firmware adicionais devem ser fornecidas pelo fabricante.
 - Não compre telemóveis LineageOS ou /e/ OS pré-carregados ou quaisquer telemóveis Android sem o devido suporte [Verified Boot](https://source.android.com/security/verifiedboot) e atualizações de firmware. Estes dispositivos também não permitem verificar se foram adulterados.
-- Em suma, se um dispositivo ou uma distribuição Android não constar da lista, existe provavelmente um bom motivo. Consulte o nosso [fórum](https://discuss.privacyguides.net/) para obter mais informações!
+- Em suma, se um dispositivo ou uma distribuição Android não constar da lista, existe provavelmente um bom motivo. Check out our [forum](https://discuss.privacyguides.net) to find details!
 
 ### Google Pixel
 
@@ -194,7 +194,7 @@ Os Secure Elements, como o Titan M2, são mais limitados do que o Trusted Execut
 
 Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
 
-A instalação do GrapheneOS num telemóvel Pixel é fácil com o seu [instalador por web](https://grapheneos.org/install/web). Se não se sentir à vontade para o fazer por si mesmo e estiver disposto a gastar um pouco mais de dinheiro, consulte o [NitroPhone](https://shop.nitrokey.com/shop), uma vez que vem pré-carregado com GrapheneOS da reputada empresa [Nitrokey](https://www.nitrokey.com/about).
+A instalação do GrapheneOS num telemóvel Pixel é fácil com o seu [instalador por web](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
 
 Mais algumas dicas para comprar um Google Pixel:
 
@@ -218,16 +218,16 @@ Nós recomendamos uma grande variedade de aplicações Android neste sítio web.
 
 O Shelter suporta o bloqueio da pesquisa de contactos entre perfis e a partilha de ficheiros entre perfis através do gestor de ficheiros predefinido ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
-[:octicons-repo-16: Repositório](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Código fonte" }
-[:octicons-heart-16:](https://www.patreon.com/PeterCxy){ .card-link title=Contribuir }
+[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-O Shelter é recomendado em relação a [Insular](https://secure-system.gitlab.io/Insular/) e [Island](https://github.com/oasisfeng/island), uma vez que suporta [bloqueio de pesquisa de contactos] (https://secure-system.gitlab.io/Insular/faq.html).
+Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
 
 Ao utilizar o Shelter, deposita a total confiança no seu programador, uma vez que o Shelter atua como [Device Admin] (https://developer.android.com/guide/topics/admin/device-admin) para criar o Perfil de Trabalho com um acesso alargado aos dados armazenados no Perfil de Trabalho.
 
@@ -322,11 +322,11 @@ O **Secure PDF Viewer** é um visualizador de PDF baseado em [pdf.js](https://en
 
 </div>
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk/) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious *update* is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious *update* is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
 
 ### Loja de Aplicações GrapheneOS
 
-A loja de aplicações GrapheneOS está disponível no [GitHub](https://github.com/GrapheneOS/Apps/releases). Suporta o Android 12 e superior, e é capaz de se atualizar. A loja de aplicações tem aplicações autónomas criadas pelo projeto GrapheneOS, tais como [Auditor](https://attestation.app/), [Camera](https://github.com/GrapheneOS/Camera), e [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). Se estiver à procura destas aplicações, recomendamos vivamente que as obtenha na loja de aplicações GrapheneOS em vez de na Play Store, uma vez que as aplicações na sua loja são assinadas pela própria assinatura do projeto GrapheneOS, à qual a Google não tem acesso.
+A loja de aplicações GrapheneOS está disponível no [GitHub](https://github.com/GrapheneOS/Apps/releases). Suporta o Android 12 e superior, e é capaz de se atualizar. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](https://attestation.app), [Camera](https://github.com/GrapheneOS/Camera), and [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). Se estiver à procura destas aplicações, recomendamos vivamente que as obtenha na loja de aplicações GrapheneOS em vez de na Play Store, uma vez que as aplicações na sua loja são assinadas pela própria assinatura do projeto GrapheneOS, à qual a Google não tem acesso.
 
 ### Loja Aurora
 
@@ -338,7 +338,7 @@ A Google Play Store requer uma conta do Google para entrar, o que não é ótimo
 
 A **Aurora Store** é um cliente da Google Play Store que não requer uma Conta Google, Google Play Services ou microG para transferir aplicações.
 
-[:octicons-home-16: Homepage](https://auroraoss.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
 [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
 
@@ -375,7 +375,7 @@ No GitLab, utilizando [Aurora Store](#aurora-store) como exemplo, navegará para
 
 Se descarregar ficheiros APK para instalar manualmente, pode verificar a sua assinatura com a ferramenta [`apksigner`](https://developer.android.com/studio/command-line/apksigner), que faz parte do Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
-1. Instale [Java JDK](https://www.oracle.com/java/technologies/downloads/).
+1. Install [Java JDK](https://oracle.com/java/technologies/downloads).
 
 2. Descarregue as ferramentas de linha de comandos do [Android Studio](https://developer.android.com/studio#command-tools).
 
@@ -393,7 +393,7 @@ Se descarregar ficheiros APK para instalar manualmente, pode verificar a sua ass
     ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
     ```
 
-5. Os hashes resultantes podem então ser comparados com outra fonte. Alguns programadores, como o Signal, [mostram as impressões digitais](https://signal.org/android/apk/) no seus sítio web.
+5. Os hashes resultantes podem então ser comparados com outra fonte. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk) on their website.
 
     ```bash
     Signer #1 certificate DN: CN=GrapheneOS
@@ -406,18 +406,18 @@ Se descarregar ficheiros APK para instalar manualmente, pode verificar a sua ass
 
 ![Logótipo do F-Droid](assets/img/android/f-droid.svg){ align=right width=120px }
 
-==We only recommend F-Droid as a way to obtain apps which cannot be obtained via the means above.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. A opção de adicionar repositórios de terceiros e não ficar confinado ao jardim murado do Google levou à sua popularidade. Além disso, o F-Droid tem [builds reproduzíveis](https://f-droid.org/en/docs/Reproducible_Builds/) para algumas aplicações e dedica-se ao software livre e de código aberto. However, there are some security-related downsides to how F-Droid builds, signs, and delivers packages:
+==We only recommend F-Droid as a way to obtain apps which cannot be obtained via the means above.== F-Droid is often recommended as an alternative to Google Play, particularly in the privacy community. A opção de adicionar repositórios de terceiros e não ficar confinado ao jardim murado do Google levou à sua popularidade. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds) for some applications and is dedicated to free and open-source software. However, there are some security-related downsides to how F-Droid builds, signs, and delivers packages:
 
 Devido ao seu processo de criação de aplicações, as aplicações no repositório oficial do F-Droid atrasam-se frequentemente nas atualizações. Os manejadores do F-Droid também reutilizam IDs de pacotes enquanto assinam aplicativos com as suas próprias chaves, o que não é ideal, por dar à equipe do F-Droid a confiança final. Additionally, the requirements for an app to be included in the official F-Droid repo are less strict than other app stores like Google Play, meaning that F-Droid tends to host a lot more apps which are older, unmaintained, or otherwise no longer meet [modern security standards](https://developer.android.com/google/play/requirements/target-sdk).
 
-Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) alleviate some of these concerns. O repositório IzzyOnDroid puxa as compilações diretamente do GitHub e é a melhor coisa a seguir aos repositórios dos próprios programadores. However, it is not something that we can fully recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that repository if they are later added to the main F-Droid repository. Embora isso faça sentido (uma vez que o objetivo desse repositório em particular é alojar aplicações antes de serem aceites no repositório principal do F-Droid), pode deixá-lo com aplicações instaladas que já não recebem atualizações.
+Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid) alleviate some of these concerns. O repositório IzzyOnDroid puxa as compilações diretamente do GitHub e é a melhor coisa a seguir aos repositórios dos próprios programadores. However, it is not something that we can fully recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that repository if they are later added to the main F-Droid repository. Embora isso faça sentido (uma vez que o objetivo desse repositório em particular é alojar aplicações antes de serem aceites no repositório principal do F-Droid), pode deixá-lo com aplicações instaladas que já não recebem atualizações.
 
-That said, the [F-Droid](https://f-droid.org/en/packages/) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid/) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgement when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
+That said, the [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgement when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-Em alguns casos raros, o programador de uma aplicação só a distribui através do F-Droid ([Gadgetbridge](https://gadgetbridge.org/) é um exemplo disso). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) client instead of the original F-Droid app to obtain it. F-Droid Basic can do unattended updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic can do unattended updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
 
 </div>
 

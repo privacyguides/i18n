@@ -28,7 +28,7 @@ schema:
     "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
-    url: https://www.apple.com/safari/
+    url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
       - iOS
@@ -41,22 +41,22 @@ schema:
 
 ## אנדרואיד
 
-באנדרואיד, פיירפוקס עדיין פחות מאובטח מאלטרנטיבות מבוססות Chromium: המנוע של מוזילה, [GeckoView](https://mozilla.github.io/geckoview/), עדיין לא תמך [בבידוד אתרים](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) או איפשר את [תהליך מבודד](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
 <div class="admonition recommendation" markdown>
 
-![Brave לוגו](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**דפדפן Brave** כולל חוסם תוכן מובנה ו [תכונות פרטיות ]( https://brave.com/privacy-features/), רבים מהם מופעלים כברירת מחדל.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור להרגיש מוכר ושיהיו לו בעיות תאימות מינימליות לאתר.
 
-[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -77,7 +77,7 @@ Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור ל�
 
 ##### Shields
 
-Brave כולל כמה אמצעים נגד טביעת אצבע בתכונת [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) שלו. אנו מציעים להגדיר את האפשרויות האלה [גלובלי](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) בכל הדפים שבהם אתה מבקר.
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 ##### ברירות מחדל גלובליות של Brave Shield
 
@@ -101,7 +101,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. אפשרות זו מספקת פונקציונליות דומה ל [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) המתקדמים של uBlock Origin או ל [NoScript](https://noscript.net/) extension.
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
 ##### IPFS
 
@@ -115,13 +115,13 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
--[x] בחר ** השבת UDP לא פרוקסי ** תחת [WebRTC IP מדיניות טיפול](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
-- [] בטל את הסימון ** אפשר לאתרים לבדוק אם יש לך שיטות תשלום שנשמרו **
-- [] בטל את הסימון ** שער IPFS ** (1)
-- [x] בחר ** סגור כרטיסיות ביציאה **
-- [] בטל את הסימון ** אפשר ניתוח מוצרים לשמר פרטיות (P3A) **
-- [] בטל את הסימון ** שלח באופן אוטומטי דוחות אבחון **
-- [] בטל את הסימון ** שלח אוטומטית פינג שימוש יומיומי לאמיץ **
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 
@@ -129,7 +129,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 #### סנכרון Brave
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) מאפשר לנתוני הגלישה שלך (היסטוריה, סימניות וכו ') להיות נגישים בכל המכשירים שלך ללא צורך בחשבון ומגן עליהם באמצעות E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## iOS
 
@@ -141,11 +141,11 @@ Brave allows you to select additional content filters within the internal `brave
 
 ![Safari לוגו](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** הוא דפדפן ברירת המחדל ב - iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+**Safari** הוא דפדפן ברירת המחדל ב - iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
 
-[:octicons-home-16: דף הבית](https://www.apple.com/safari/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=תיעוד}
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
 </details>
 
@@ -185,7 +185,7 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 - [ ] השבת **פרטיות שמירה על מדידת מודעות**
 
-מדידת קליקים על מודעה השתמשה באופן מסורתי בטכנולוגיית מעקב הפוגעת בפרטיות המשתמש. [מדידת קליקים פרטית](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) היא תכונה של WebKit ותקן אינטרנט מוצע שמטרתו לאפשר למפרסמים למדוד האפקטיביות של מסעות פרסום באינטרנט מבלי להתפשר על פרטיות המשתמש.
+מדידת קליקים על מודעה השתמשה באופן מסורתי בטכנולוגיית מעקב הפוגעת בפרטיות המשתמש. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
 לתכונה יש מעט חששות פרטיות בפני עצמה, כך שבעוד שאתה יכול לבחור להשאיר אותה פועלת, אנו רואים בעובדה שהיא מושבתת אוטומטית בגלישה פרטית כאינדיקטור להשבית התכונה.
 
@@ -201,9 +201,9 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 ##### iCloud Sync
 
-סנכרון של היסטוריית ספארי, קבוצות כרטיסיות, כרטיסיות iCloud וסיסמאות שמורות הם E2EE. עם זאת, כברירת מחדל, סימניות [לא](https://support.apple.com/en-us/HT202303). Apple יכולה לפענח ולגשת אליהם בהתאם ל[מדיניות הפרטיות](https://www.apple.com/legal/privacy/en-ww/) שלהם.
+סנכרון של היסטוריית ספארי, קבוצות כרטיסיות, כרטיסיות iCloud וסיסמאות שמורות הם E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-אתה יכול להפעיל את E2EE עבור הסימניות וההורדות שלך ב-Safari על ידי הפעלת [הגנה על נתונים מתקדמת](https://support.apple.com/en-us/HT212520). עבור אל **שם Apple ID שלך ← iCloud ← הגנת נתונים מתקדמת**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). עבור אל **שם Apple ID שלך ← iCloud ← הגנת נתונים מתקדמת**.
 
 - [x] הפעל **הגנת נתונים מתקדמת**
 
@@ -227,7 +227,7 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 
 </details>
 

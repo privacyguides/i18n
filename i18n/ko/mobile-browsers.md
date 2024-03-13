@@ -28,7 +28,7 @@ schema:
     "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
-    url: https://www.apple.com/safari/
+    url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
       - iOS
@@ -41,22 +41,22 @@ schema:
 
 ## Android
 
-Android에서, Firefox는 Chrome 기반 대체제보다 보안성이 떨어집니다. Mozilla의 Android 브라우저 엔진인 [GeckoView](https://mozilla.github.io/geckoview/)는 아직 [사이트 격리](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)를 지원하지 않고 [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)가 활성화되어 있지 않습니다.
+On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
 <div class="admonition recommendation" markdown>
 
-![Brave 로고](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave 브라우저**에는 콘텐츠 차단기와 [프라이버시 기능](https://brave.com/privacy-features/)이 내장되어 있으며, 이 중 상당수가 기본적으로 활성화되어 있습니다.
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므로, 친숙하며 웹사이트 호환성 문제가 적습니다.
 
-[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -77,7 +77,7 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
 ##### Shields
 
-Brave 브라우저는 [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 기능 내에 핑거프린팅 방지가 포함되어 있습니다. 방문하는 모든 페이지에 [전역적으로](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) 옵션을 설정하는 것이 좋습니다.
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 ##### Brave Shields 전역 기본값
 
@@ -101,7 +101,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. 해당 옵션은 uBlock Origin의 고급 [차단 모드](https://github.com/gorhill/uBlock/wiki/Blocking-mode)나 [NoScript](https://noscript.net/) 확장 프로그램과 유사한 기능을 제공합니다.
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
 ##### 인터넷 사용 기록 삭제
 
@@ -115,13 +115,13 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
-- [x] [WebRTC IP 처리 방침](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)을 **프록시가 아닌 UDP 비활성화하기**로 설정
-- [ ] **사이트에서 저장된 결제 수단이 있는지 확인하도록 허용** 비활성화
-- [ ] **IPFS 게이트웨이** 비활성화 (1)
-- [x] **나갈 때 탭 닫기** 활성화
-- [ ] **프라이버시 보호 제품 분석(P3A) 허용** 비활성화
-- [ ] **진단 보고서 자동 전송** 비활성화
-- [ ] **일일 사용 Ping을 Brave에 자동으로 보내기** 비활성화
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 
@@ -129,7 +129,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 #### Brave 동기화
 
-[Brave 동기화](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync)를 이용하면 계정을 생성하지 않고도 자신의 모든 기기에서 브라우저 데이터(탐색 기록, 북마크 등)를 동기화할 수 있으며, E2EE로 보호됩니다.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## iOS
 
@@ -141,11 +141,11 @@ iOS에서는 웹 브라우징이 가능한 모든 앱이 Apple에서 제공하�
 
 ![Safari 로고](assets/img/browsers/safari.svg){ align=right }
 
-**Safari**는 iOS 기본 브라우저입니다. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention/), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+**Safari**는 iOS 기본 브라우저입니다. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
 
-[:octicons-home-16: 홈페이지](https://www.apple.com/safari/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/kr/legal/privacy/data/ko/safari/){ .card-link title="프라이버시 정책" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=문서}
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
 </details>
 
@@ -185,7 +185,7 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 - [ ] **개인 정보 보호 광고 측정** 비활성화
 
-광고 클릭 측정에는 사용자 개인정보를 침해하는 추적 기술이 사용되는 것이 일반적입니다. Webkit 기능이자 웹 표준으로 제안된 [비공개 클릭 측정](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) 기능은 광고주가 사용자의 프라이버시를 침해하지 않으면서도 웹 캠페인 효과를 측정할 수 있도록 하는 것을 목표로 합니다.
+광고 클릭 측정에는 사용자 개인정보를 침해하는 추적 기술이 사용되는 것이 일반적입니다. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
 해당 기능은 프라이버시 관련 우려가 거의 없으므로 활성화해둘 수도 있으나, 개인정보 보호 브라우징에서 이 기능이 자동으로 비활성화된다는 점을 고려하여, 비활성화할 것으로 명시하였습니다.
 
@@ -201,9 +201,9 @@ Safari 개인정보 보호 브라우징 모드는 추가적인 프라이버시 �
 
 ##### iCloud 동기화
 
-Safari 방문 기록, 탭 그룹, iCloud 탭, 저장된 암호는 E2EE 동기화됩니다. 하지만, 책갈피는 기본적으로 [종단 간 암호화되지 않습니다](https://support.apple.com/ko-kr/HT202303). Apple은 [개인정보 처리방침](https://www.apple.com/kr/legal/privacy/kr/)에 따라 복호화하고 접근할 수 있습니다.
+Safari 방문 기록, 탭 그룹, iCloud 탭, 저장된 암호는 E2EE 동기화됩니다. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-[고급 데이터 보호](https://support.apple.com/ko-kr/HT212520)를 활성화하면 Safari 책갈피 및 다운로드 항목에도 E2EE를 적용할 수 있습니다. **Apple 사용자 이름 → iCloud → 고급 데이터 보호**로 이동하세요.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). **Apple 사용자 이름 → iCloud → 고급 데이터 보호**로 이동하세요.
 
 - [x] **고급 데이터 보호** 활성화
 
@@ -227,7 +227,7 @@ iOS용 AdGuard에는 몇 가지 프리미엄 기능이 있지만, 표준 Safari 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 
 </details>
 

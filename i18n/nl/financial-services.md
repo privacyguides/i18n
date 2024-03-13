@@ -29,8 +29,8 @@ Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){
 Met het gratis plan van **Privacy.com** kunt je tot 12 virtuele kaarten per maand aanmaken, uitgavenlimieten op die kaarten instellen en kaarten onmiddellijk uitschakelen. Met hun betaalde plan kunt je tot 36 kaarten per maand aanmaken, 1% cashback krijgen op aankopen en transactiegegevens voor jouw bank verbergen.
 
 [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacybeleid" }
-[:octicons-info-16:](https://support.privacy.com/hc/en-us){ .card-link title=Documentatie}
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
 
 </details>
 
@@ -47,9 +47,9 @@ MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=rig
 
 **MySudo** biedt tot 9 virtuele kaarten, afhankelijk van het plan dat je koopt. Hun betaalde plannen omvatten bovendien functionaliteit die nuttig kan zijn om privé aankopen te doen, zoals virtuele telefoonnummers en e-mailadressen, hoewel wij gewoonlijk andere [email aliasing providers](email.md) aanbevelen voor uitgebreid e-mail aliasing gebruik.
 
-[:octicons-home-16: Homepage](https://mysudo.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mysudo.com/hc/en-us){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -83,9 +83,9 @@ Met deze diensten kunt je online cadeaubonnen kopen voor verschillende handelare
 
 ** CoinCards ** (beschikbaar in de VS, Canada en het VK) kunt je cadeaubonnen kopen voor een grote verscheidenheid aan verkopers.
 
-[:octicons-home-16: Homepage](https://coincards.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy/){ .card-link title="Privacybeleid" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions/){ .card-link title=Documentatie}
+[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
 
 </details>
 

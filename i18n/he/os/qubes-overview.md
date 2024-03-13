@@ -4,11 +4,11 @@ icon: simple/qubesos
 description: Qubes היא מערכת הפעלה הבנויה סביב בידוד אפליקציות בתוך *qubes* (לשעבר "VMs") לאבטחה מוגברת.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) היא מערכת הפעלה בקוד פתוח המשתמשת ב[Xen](https://en.wikipedia.org/wiki/Xen) היפרוויזר לספק אבטחה חזקה עבור מחשוב שולחני באמצעות *qubes* מבודדים, (אשר הם מכונות וירטואליות). אתה יכול להקצות לכל *qube* רמת אמון על סמך מטרתו. מערכת ההפעלה Qubes מספקת אבטחה באמצעות בידוד. הוא מתיר פעולות רק על בסיס כל מקרה ומקרה ולכן הוא ההפך מ[badness enumeration](https://www.ranum.com/security/computer_security/editorials/dumb/).
+[**Qubes OS**](../desktop.md#qubes-os) היא מערכת הפעלה בקוד פתוח המשתמשת ב[Xen](https://en.wikipedia.org/wiki/Xen) היפרוויזר לספק אבטחה חזקה עבור מחשוב שולחני באמצעות *qubes* מבודדים, (אשר הם מכונות וירטואליות). אתה יכול להקצות לכל *qube* רמת אמון על סמך מטרתו. מערכת ההפעלה Qubes מספקת אבטחה באמצעות בידוד. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
 
 ## איך עובדת מערכת ההפעלה של Qubes?
 
-Qubes משתמשת ב[מידור](https://www.qubes-os.org/intro/) כדי לשמור על אבטחת המערכת. Qubes נוצרים מתבניות, ברירת המחדל היא עבור Fedora, Debian ו-[Whonix](../desktop.md#whonix). מערכת ההפעלה Qubes מאפשרת לך גם ליצור [חד פעמי](https://www.qubes-os.org/doc/how-to-use-disposables/) *qubes* לשימוש חד פעמי.
+Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes נוצרים מתבניות, ברירת המחדל היא עבור Fedora, Debian ו-[Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
 
 <details class="note" markdown>
 <summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
@@ -20,7 +20,7 @@ Qubes משתמשת ב[מידור](https://www.qubes-os.org/intro/) כדי לשמ
 ![ארכיטקטורת Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>ארכיטקטורת Qubes, קרדיט: מהי הקדמה למערכת ההפעלה של Qubes</figcaption>
 
-לכל qube יש [גבול צבעוני](https://www.qubes-os.org/screenshots/) שיכול לעזור לך לעקוב אחר התחום שבו היא פועלת. אתה יכול, למשל, להשתמש בצבע ספציפי עבור הדפדפן הבנקאי שלך, תוך שימוש בצבע אחר עבור דפדפן כללי שאינו מהימן.
+Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. אתה יכול, למשל, להשתמש בצבע ספציפי עבור הדפדפן הבנקאי שלך, תוך שימוש בצבע אחר עבור דפדפן כללי שאינו מהימן.
 
 ![גבול צבוע](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>גבולות החלונות של Qubes, קרדיט: צילומי מסך של Qubes</figcaption>
@@ -33,7 +33,7 @@ Qubes OS משתמשת ב-[דום0](https://wiki.xenproject.org/wiki/Dom0)Xen VM 
 
 ### העתקה והדבקה של טקסט
 
-אתה יכול [להעתיק ולהדביק טקסט](https://www.qubes-os.org/doc/how-to-copy-and-paste-text/) באמצעות `qvm-copy -to-vm` או ההוראות שלהלן:
+You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-text) using `qvm-copy-to-vm` or the below instructions:
 
 1. הקש על **Ctrl+C** כדי לומר ל-*qube* שאתה נמצא בו שאתה רוצה להעתיק משהו.
 2. הקש על **Ctrl+Shift+C** כדי לומר ל*qube* להפוך את המאגר הזה לזמין ללוח הגלובלי.
@@ -47,13 +47,13 @@ Qubes OS משתמשת ב-[דום0](https://wiki.xenproject.org/wiki/Dom0)Xen VM 
 <details class="note" markdown>
 <summary>Qubes do not have their own filesystems.</summary>
 
-You can [copy and move files](https://www.qubes-os.org/doc/how-to-copy-and-move-files/) between *qubes*. כאשר עושים זאת השינויים לא מתבצעים באופן מיידי וניתן לבטל אותם בקלות במקרה של תאונה. When you run a *qube*, it does not have a persistent filesystem. אתה יכול ליצור ולמחוק קבצים, אבל השינויים האלה הם ארעיים.
+You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. כאשר עושים זאת השינויים לא מתבצעים באופן מיידי וניתן לבטל אותם בקלות במקרה של תאונה. When you run a *qube*, it does not have a persistent filesystem. אתה יכול ליצור ולמחוק קבצים, אבל השינויים האלה הם ארעיים.
 
 </details>
 
 ### אינטראקציות בין-VM
 
-[מסגרת qrexec](https://www.qubes-os.org/doc/qrexec/) היא חלק מרכזי ב-Qubes המאפשר תקשורת בין דומיינים. הוא בנוי על גבי ספריית Xen *vchan*, המאפשרת [בידוד באמצעות מדיניות](https://www.qubes-os.org/news/2020/06/22/new-qrexec-policy-system/).
+The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
 
 ## Connecting to Tor via a VPN
 
@@ -73,9 +73,9 @@ Your qubes should be configured in a manner similar to this:
 
 ## מקורות נוספים
 
-למידע נוסף, אנו ממליצים לך לעיין בדפי התיעוד הנרחבים של Qubes OS הממוקמים ב[אתר האינטרנט של Qubes OS](https://www.qubes-os.org/doc/). ניתן להוריד עותקים לא מקוונים מ[מאגר התיעוד](https://github.com/QubesOS/qubes-doc) של Qubes OS.
+For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). ניתן להוריד עותקים לא מקוונים מ[מאגר התיעוד](https://github.com/QubesOS/qubes-doc) של Qubes OS.
 
-- [ללא ספק מערכת ההפעלה המאובטחת ביותר בעולם](https://www.opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard/) (Open Technology Fund)
+- [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
 - [מידור תוכנה לעומת הפרדה פיזית](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
 - [חלוקת החיים הדיגיטליים שלי לתחומי אבטחה](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [מאמרים קשורים](https://www.qubes-os.org/news/categories/#articles) (Qubes OS)
+- [Related Articles](https://qubes-os.org/news/categories/#articles) (Qubes OS)

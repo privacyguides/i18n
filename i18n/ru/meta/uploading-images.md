@@ -17,7 +17,7 @@ title: Загрузка изображений
 
 ### PNG
 
-Используйте [OptiPNG](https://sourceforge.net/projects/optipng/) для оптимизации PNG-изображения:
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
 
 ```bash
 optipng -o7 file.png

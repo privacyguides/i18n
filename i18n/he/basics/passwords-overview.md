@@ -54,13 +54,13 @@ description: These are some tips and tricks on how to create the strongest passw
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-הוראות אלה מניחות שאתה משתמש ב[רשימת המילים הגדולה של EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) כדי ליצור את ביטוי הסיסמה, שדורש חמש הטלות קוביות לכל מילה. רשימות מילים אחרות עשויות לדרוש יותר או פחות גלגולים למילה, ועשויות לדרוש כמות שונה של מילים כדי להשיג את אותה אנטרופיה.
+These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. רשימות מילים אחרות עשויות לדרוש יותר או פחות גלגולים למילה, ועשויות לדרוש כמות שונה של מילים כדי להשיג את אותה אנטרופיה.
 
 </div>
 
 1. לזרוק קובייה בעלת שש צדדים חמש פעמים, לרשום את המספר לאחר כל גלגול.
 
-2. כדוגמה, נניח שזרקת `2-5-2-6-6`. חפש ב [רשימת המילים הגדולה של ה-EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) את המילה המתאימה ל-`25266`.
+2. כדוגמה, נניח שזרקת `2-5-2-6-6`. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. אתה תמצא את המילה `להצפין`. כתוב את המילה הזו.
 
@@ -75,20 +75,20 @@ description: These are some tips and tricks on how to create the strongest passw
 
 אם אין לך גישה או תעדיף לא להשתמש בקוביות אמיתיות, תוכל להשתמש במחולל הסיסמאות המובנה של מנהל הסיסמאות שלך, שכן לרובם יש אפשרות ליצור ביטויי סיסמה של תוכנת קוביות בנוסף לסיסמאות הרגילות.
 
-אנו ממליצים להשתמש ב[רשימת המילים הגדולה של EFF](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) כדי ליצור את ביטויי הסיסמה של תוכנת הקוביות שלך, מכיוון שהיא מציעה את אותה אבטחה בדיוק כמו הרשימה המקורית, תוך שהיא מכילה מילים שקל יותר לשנן. יש גם [רשימות מילים אחרות בשפות שונות](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), אם אינך רוצה שביטוי הסיסמה שלך יהיה באנגלית.
+We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. יש גם [רשימות מילים אחרות בשפות שונות](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), אם אינך רוצה שביטוי הסיסמה שלך יהיה באנגלית.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 מדד אחד לקביעת עוצמתו של משפט סיסמא של קוביות הוא כמה אנטרופיה יש לו. האנטרופיה למילה בביטוי סיסמה של תוכנת קוביות מחושבת כnd the overall entropy of the passphrase is calculated as -$\text{log}_2(\text{WordsInList})$והאנטרופיה הכוללת של ביטוי הסיסמה מחושבת כ - $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
 
 לכן, כל מילה ברשימה הנ"ל מביאה ל-~12.9 סיביות של אנטרופיה ($\text{log}_2(7776)$), ולביטוי סיסמה של שבע מילים שנגזר ממנו יש ~90.47 סיביות של אנטרופיה($\text{log}_2(7776^7)$).
 
-The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. כדי לחשב את כמות ביטויי הסיסמה האפשריים, כל שעלינו לעשות הוא $\text{WordsInList}^\text{WordsInPhrase}$, או במקרה שלנו, $ 7776^7 $.
+The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. כדי לחשב את כמות ביטויי הסיסמה האפשריים, כל שעלינו לעשות הוא $\text{WordsInList}^\text{WordsInPhrase}$, או במקרה שלנו, $ 7776^7 $.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 בממוצע, צריך לנסות 50% מכל השילובים האפשריים כדי לנחש את הביטוי שלך. עם זאת בחשבון, גם אם היריב שלך מסוגל ל-1,000,000,000,000 ניחושים בשנייה, עדיין ייקח לו ~27,255,689 שנים לנחש את משפט הסיסמה שלך. זה המצב גם אם הדברים הבאים נכונים:
 

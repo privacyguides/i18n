@@ -6,7 +6,7 @@ description: macOS is Apple's desktop operating system that works with their har
 
 **macOS** היא מערכת הפעלה Unix שפותחה על ידי אפל עבור מחשבי ה-Mac שלהם. כדי לשפר את הפרטיות ב-macOS, אתה יכול להשבית את תכונות הטלמטריה ולהקשיח את הגדרות הפרטיות והאבטחה הקיימות.
 
-מחשבי Mac ו-Hackintosh ישנים יותר מבוססי אינטל אינם תומכים בכל תכונות האבטחה ש-macOS מציעה. כדי לשפר את אבטחת הנתונים, אנו ממליצים להשתמש ב-Mac חדש יותר עם [סיליקון של אפל](https://support.apple.com/en-us/HT211814).
+מחשבי Mac ו-Hackintosh ישנים יותר מבוססי אינטל אינם תומכים בכל תכונות האבטחה ש-macOS מציעה. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/HT211814).
 
 ## הערות פרטיות
 
@@ -22,13 +22,13 @@ macOS מבצעת בדיקות מקוונות כאשר אתה פותח אפליק
 
 בעבר, בדיקות אלו בוצעו באמצעות פרוטוקול OCSP לא מוצפן שיכול היה להדליף מידע על האפליקציות שהרצת לרשת שלך. אפל שדרגה את שירות ה-OCSP שלה לשימוש בהצפנת HTTPS בשנת 2021, ו[פרסמה מידע](https://support.apple.com/HT202491) על מדיניות הרישום שלהם עבור שירות זה. בנוסף, הם הבטיחו להוסיף מנגנון שיאפשר לאנשים לבטל את הסכמתם לבדיקה המקוונת הזו, אך זה לא התווסף ל-macOS נכון ליולי 2023.
 
-בעוד שאתה [יכול](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) לבטל את ההסכמה ידנית לבדיקה זו בקלות יחסית, אנו ממליצה שלא לעשות זאת אלא אם כן תיפגע בצורה חמורה על ידי בדיקות הביטול שבוצעו על ידי macOS, מכיוון שהן ממלאות תפקיד חשוב בהבטחת היישומים שנפרצו לחסום לפעול.
+While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
 
 ## תצורה מומלצת
 
 החשבון שלך כשתגדיר לראשונה את ה-Mac שלך יהיה חשבון Administrator, בעל הרשאות גבוהות יותר מאשר חשבון משתמש רגיל. ל-macOS יש מספר הגנות שמונעות מתוכנות זדוניות ותוכניות אחרות לנצל לרעה את הרשאות המנהל שלך, כך שבדרך כלל בטוח להשתמש בחשבון זה.
 
-עם זאת, ניצול של כלי עזר מגן כמו `sudo` ה[תגלו בעבר](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass/). אם ברצונך להימנע מהאפשרות שתוכניות שאתה מפעיל מנצלות לרעה את הרשאות המנהל שלך, תוכל לשקול ליצור חשבון משתמש שני סטנדרטי שבו אתה משתמש לפעולות יומיומיות. יש לזה יתרון נוסף בכך שהוא הופך את זה לברור יותר כאשר אפליקציה צריכה גישת מנהל, מכיוון שהיא תבקש ממך אישורים בכל פעם.
+However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass). אם ברצונך להימנע מהאפשרות שתוכניות שאתה מפעיל מנצלות לרעה את הרשאות המנהל שלך, תוכל לשקול ליצור חשבון משתמש שני סטנדרטי שבו אתה משתמש לפעולות יומיומיות. יש לזה יתרון נוסף בכך שהוא הופך את זה לברור יותר כאשר אפליקציה צריכה גישת מנהל, מכיוון שהיא תבקש ממך אישורים בכל פעם.
 
 אם אתה משתמש בחשבון שני, אין צורך בהחלט להיכנס לחשבון המנהל המקורי שלך ממסך הכניסה של macOS. כאשר אתה עושה משהו כמשתמש רגיל הדורש הרשאות מנהל מערכת, המערכת אמורה לבקש ממך אימות, שם תוכל להזין את אישורי המנהל שלך כמשתמש הרגיל שלך באופן חד פעמי. אפל מספקת [הנחיות](https://support.apple.com/HT203998) להסתרת חשבון המנהל שלך אם אתה מעדיף לראות רק חשבון בודד במסך ההתחברות שלך.
 
@@ -128,7 +128,7 @@ macOS מבצעת בדיקות מקוונות כאשר אתה פותח אפליק
 
 ##### מצב נעילה
 
-[מצב נעילה](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) משבית תכונות מסוימות כדי לשפר בִּטָחוֹן. אפליקציות או תכונות מסוימות לא יפעלו כמו שהם פועלים כשהם כבויים, לדוגמה, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in -time-jit-compilers/) ו-[WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) מושבתים ב-Safari עם נעילה מצב מופעל. אנו ממליצים להפעיל את מצב הנעילה ולראות אם זה משפיע באופן משמעותי על השימוש שלך, הרבה מהשינויים שהוא עושה קלים לחיות איתם.
+[מצב נעילה](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) משבית תכונות מסוימות כדי לשפר בִּטָחוֹן. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers) and [WASM](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. אנו ממליצים להפעיל את מצב הנעילה ולראות אם זה משפיע באופן משמעותי על השימוש שלך, הרבה מהשינויים שהוא עושה קלים לחיות איתם.
 
 - [x] לחץ על **הפעל**
 

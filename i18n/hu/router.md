@@ -35,7 +35,10 @@ Az OpenWrt [hardvertáblázatában](https://openwrt.org/toh/start) ellenőrizhet
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Az OPNsense-t általában peremtűzfalként, routerként, vezeték nélküli hozzáférési pontként, DHCP-szerverként, DNS-szerverként és VPN végpontként vetik be.
 
-A pfSense-t általában perem tűzfalként, routerként, vezeték nélküli hozzáférési pontként, DHCP szerverként, DNS szerverként és VPN végpontként telepítik.
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 
 </details>
 

@@ -60,7 +60,7 @@ Verified Boot確保作業系統檔案的完整性，從而防止具有物理訪�
 
 韌體更新對於維護安全性至關重要，沒有它們，您的設備就無法安全。 OEM 與其合作夥伴簽訂了支援協議，在有限的支持期內提供封閉式元件。 詳情請參閱每月 [Android 安全公告](https://source.android.com/security/bulletin)。
 
-由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [高通](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) 和 [三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) 設備支援年限為 4年，而較便宜產品的支援週期通常更短。 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705)的推出， Google 現在製造自己的 SoC ，他們將提供至少 5年的支持。 隨著 Pixel 8 系列的推出，Google 將支援期限延長至 7 年。
+由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705)的推出， Google 現在製造自己的 SoC ，他們將提供至少 5年的支持。 隨著 Pixel 8 系列的推出，Google 將支援期限延長至 7 年。
 
 對於 OEM 供應商或市場經銷商不提供韌體更新的 EOL 裝置，SoC 製造商不再支援。 這意味著這些設備的安全問題將得不到解決。
 
@@ -100,19 +100,19 @@ Android 13:
 
 應用程式可能會要求獲得特定功能的許可。 例如，任何可以掃描二維碼的應用程式都需要相機權限。 有些應用程式可能會要求超過所需的權限。
 
-[Exodus](https://exodus-privacy.eu.org/) 在比較具相似目的的應用程式時可能很有用。 如果某應用程式需要大量權限，並且有很多的廣告和分析，這可能是個壞跡象。 建議查看個別跟蹤器與閱讀其描述而不是只有**計算總數**把所列的項目一視同仁。
+[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. 如果某應用程式需要大量權限，並且有很多的廣告和分析，這可能是個壞跡象。 建議查看個別跟蹤器與閱讀其描述而不是只有**計算總數**把所列的項目一視同仁。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-如果應用程式主要是基於網頁的服務，則跟蹤可能發生在伺服器端。 [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/)顯示「無追蹤器」，但確實會追蹤使用者在網站上的興趣和行為。 應用程式也許無需廣告業的標準代碼庫來逃避檢測，儘管這不太可能。
+如果應用程式主要是基於網頁的服務，則跟蹤可能發生在伺服器端。 [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. 應用程式也許無需廣告業的標準代碼庫來逃避檢測，儘管這不太可能。
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-[Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 這並不意味 Bitwarden 使用 Google Firebase Analytics 提供的所有分析功能。
+Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 這並不意味 Bitwarden 使用 Google Firebase Analytics 提供的所有分析功能。
 
 </div>
 
@@ -160,21 +160,21 @@ Android 7以上版本支援VPN kill switch ，無需安裝第三方應用程式�
 
 ### 進階保護計劃
 
-如果有 Google 帳戶，建議註冊 [進階保護計劃](https://landing.google.com/advancedprotection/)。 任何擁有兩個或多個硬體安全金鑰且支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 都可免費使用。
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). 任何擁有兩個或多個硬體安全金鑰且支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 都可免費使用。
 
 進階防護計劃提供強化的威脅監控，並能夠：
 
 - 更嚴格的雙因素驗證；例如 **必須**使用 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) ，禁用 [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa)， [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) 和 [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - 只有Google 和經過驗證的第三方應用程式才能存取帳戶資料
 - 掃描Gmail帳戶上的傳入電子郵件進行 [次網絡釣魚](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 次嘗試
-- 使用 Google Chrome 進行更嚴格的 [安全瀏覽器掃描](https://www.google.com/chrome/privacy/whitepaper.html#malware)
+- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
 - 丟失憑的證帳戶予以更嚴格的恢復程序
   
-  如果您使用非沙盒 Google Play 服務（在庫存作業系統上很常見） ，進階保護計劃還附帶 [額外優惠](https://support.google.com/accounts/answer/9764949?hl=en) ，例如：
+  If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
 
 - 不允許在Google Play 商店、作業系統供應商的應用程式商店之外安裝應用程式，或透過 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)安裝應用程式
 
-- 強制自動裝置掃描與 [播放保護](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - 警告您未經驗證的應用程式
 
 
@@ -189,7 +189,7 @@ Android 7以上版本支援VPN kill switch ，無需安裝第三方應用程式�
 
 ### 廣告識別碼
 
-所有安裝 Google Play 服務的裝置都會自動產生 [廣告ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) ，用於定向廣告。 禁用此功能以限制其收集您的資料。
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. 禁用此功能以限制其收集您的資料。
 
 在具有 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)的Android 版上，前往 :gear: **設定** → **應用程式** → **Sandboxed Google Play** → **Google 設定** → **廣告**，然後選擇 *刪除廣告ID*。
 

@@ -62,12 +62,12 @@ Het is onpraktisch, duur en vermoeiend om te proberen al jouw gegevens altijd te
 
 ## We hebben je nodig! Zo kan je betrokken raken:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Word lid van ons forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Volg ons op Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Draag bij aan deze website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help deze website vertalen" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat met ons op Matrix" }
-[:material-information-outline:](about/index.md){ title="Meer informatie over ons" }
-[:material-hand-coin-outline:](about/donate.md){ title="Steun het project" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 Het is belangrijk voor een website zoals Privacy Guides om altijd up-to-date te blijven. Ons publiek moet software-updates in de gaten houden voor de toepassingen die op onze site staan en recent nieuws volgen over aanbieders die wij aanbevelen. Het is moeilijk om het hoge tempo van het internet bij te houden, maar we doen ons best. Als je een fout ziet, denkt dat een provider niet in de lijst thuishoort, merkt dat een gekwalificeerde provider ontbreekt, denkt dat een browserplugin niet langer de beste keuze is, of een ander probleem ontdekt, laat het ons dan weten.

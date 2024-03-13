@@ -26,7 +26,7 @@ Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNo
 [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -34,7 +34,7 @@ Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNo
 - [:simple-windows11: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)
 - [:simple-linux: Linux](https://standardnotes.com)
-- [:octicons-globe-16: Web](https://app.standardnotes.com/)
+- [:octicons-globe-16: Web](https://app.standardnotes.com)
 
 </details>
 
@@ -46,24 +46,24 @@ Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNo
 
 ![Logo di Notesnook](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** è un'app di appunti libera e open source, incentrata sulla privacy degli utenti e la facilità d'uso. Dispone di crittografia end-to-end su tutte le piattaforme, con una potente sincronizzazione per prendere appunti mentre sei in giro. Puoi importare facilmente le tue note da Evernote, OneNote e molte altre app, utilizzando la loro funzionalità d'[importazione ufficiale](https://importer.notesnook.com/).
+**Notesnook** è un'app di appunti libera e open source, incentrata sulla privacy degli utenti e la facilità d'uso. Dispone di crittografia end-to-end su tutte le piattaforme, con una potente sincronizzazione per prendere appunti mentre sei in giro. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com).
 
-[:octicons-home-16: Pagina Home](https://notesnook.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Politica sulla privacy" }
-[:octicons-info-16:](https://help.notesnook.com/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.notesnook.com){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/notesnook-take-private-notes/id1544027013)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
 - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
 - [:simple-windows11: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
-- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 
 </details>
@@ -80,22 +80,22 @@ Notesnook consente la crittografia delle note locali solo con la funzione [priva
 
 **Joplin** è un'applicazione gratuita, open source e completa di appunti e liste, che può gestire molte note in Markdown, organizzate in blocchi note e tag. Offre l'E2EE e può sincronizzarsi con Nextcloud, Dropbox e molto altro. Offre anche la possibilità di importare facilmente note da Evernote e note in testo semplice.
 
-[:octicons-home-16: Pagina Home](https://joplinapp.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://joplinapp.org/privacy/){ .card-link title="Politica sulla privacy" }
-[:octicons-info-16:](https://joplinapp.org/help/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://joplinapp.org/donate/){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://joplinapp.org/help){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/joplin/id1315599797)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
 - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
 - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
 - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
 - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 </details>
@@ -135,9 +135,9 @@ Cryptee offre 100MB di archiviazione gratuiti, con opzioni a pagamento se necess
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Org-mode](assets/img/notebooks/org-mode.svg){ align=right }
+![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** è una [modalità principale](https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) per GNU Emacs. Org-mode serve a prendere appunti, mantenere gli elenchi di attività, pianificare progetti e scrivere documenti con un sistema veloce ed efficiente di testo semplice. La sincronizzazione è possibile con gli strumenti di [sincronizzazione dei file](file-sharing.md#file-sync).
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode serve a prendere appunti, mantenere gli elenchi di attività, pianificare progetti e scrivere documenti con un sistema veloce ed efficiente di testo semplice. La sincronizzazione è possibile con gli strumenti di [sincronizzazione dei file](file-sharing.md#file-sync).
 
 [:octicons-home-16: Home](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentazione}

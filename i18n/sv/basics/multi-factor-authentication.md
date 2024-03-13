@@ -30,7 +30,7 @@ TOTP is one of the most common forms of MFA available. When you set up TOTP, you
 
 The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
+If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
 
 Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
 
@@ -122,13 +122,13 @@ Flerfaktorsautentisering kan användas för att säkra lokala inloggningar, SSH-
 
 ### Windows
 
-Yubico har en dedikerad [Credential Provider](https://docs.microsoft.com/en-us/windows/win32/secauthn/credential-providers-in-windows) som lägger till Challenge-Response-autentisering för inloggningsflödet med användarnamn och lösenord för lokala Windows-konton. Om du har en YubiKey med stöd för autentisering med utmaningssvar kan du ta en titt på [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/en-us/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), där du kan konfigurera MFA på din Windows-dator.
+Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
 
 ### macOS
 
 macOS har [inbyggt stöd](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) för autentisering med smarta kort (PIV). Om du har ett smartkort eller en hårdvarunyckel som stöder PIV-gränssnittet, till exempel YubiKey, rekommenderar vi att du följer dokumentationen från leverantören av smartkortet eller hårdvarunyckeln och konfigurerar andrafaktorsautentisering för din macOS-dator.
 
-[Använda din YubiKey som ett smartkort i macOS](https://support.yubico.com/hc/en-us/articles/360016649059) som kan hjälpa dig att ställa in din YubiKey på macOS.
+Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
 När din smartkort/säkerhetsnyckel har ställts in rekommenderar vi att du kör det här kommandot i terminalen:
 
@@ -147,22 +147,22 @@ Om värdnamnet på ditt system ändras (till exempel på grund av DHCP), skulle 
 
 </div>
 
-Modulen `pam_u2f` på Linux kan ge tvåfaktorsautentisering för inloggning på de flesta populära Linuxdistributioner. Om du har en maskinvarusäkerhetsnyckel som stöder U2F kan du konfigurera MFA-autentisering för inloggning. Yubico har en guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/en-us/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) som borde fungera för alla distributioner. Pakethanteraren kommandon-såsom `apt-get`-och paketnamn kan dock skilja sig. Den här guiden gäller **inte** för Qubes OS.
+Modulen `pam_u2f` på Linux kan ge tvåfaktorsautentisering för inloggning på de flesta populära Linuxdistributioner. Om du har en maskinvarusäkerhetsnyckel som stöder U2F kan du konfigurera MFA-autentisering för inloggning. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. Pakethanteraren kommandon-såsom `apt-get`-och paketnamn kan dock skilja sig. Den här guiden gäller **inte** för Qubes OS.
 
 ### Qubes OS
 
-Qubes OS har stöd för autentisering med Challenge-Response-autentisering med YubiKeys. Om du har en YubiKey med stöd för autentisering med utmaningssvar kan du ta en titt på dokumentationen för Qubes OS [YubiKey](https://www.qubes-os.org/doc/yubikey/) om du vill konfigurera MFA på Qubes OS.
+Qubes OS har stöd för autentisering med Challenge-Response-autentisering med YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
 
 ### SSH
 
 #### Hårdvarusäkerhetsnycklar
 
-SSH MFA kan konfigureras med flera olika autentiseringsmetoder som är populära med hårdvarusäkerhetsnycklar. Vi rekommenderar att du läser Yubicos dokumentation på [](https://developers.yubico.com/SSH/) om hur du ställer in detta.
+SSH MFA kan konfigureras med flera olika autentiseringsmetoder som är populära med hårdvarusäkerhetsnycklar. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
 
 #### Tidsbaserat engångslösenord (TOTP)
 
-SSH MFA kan också ställas in med TOTP. DigitalOcean har tillhandahållit en handledning [Hur man ställer in flerfaktorsautentisering för SSH på Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Det mesta bör vara likadant oavsett distribution, men kommandona för pakethanteraren - t. ex. `apt-get`- och paketnamnen kan skilja sig åt.
+SSH MFA kan också ställas in med TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Det mesta bör vara likadant oavsett distribution, men kommandona för pakethanteraren - t. ex. `apt-get`- och paketnamnen kan skilja sig åt.
 
 ### KeePass (och KeePassXC)
 
-KeePass- och KeePassXC-databaser kan säkras med hjälp av Challenge-Response eller HOTP som andrafaktorsautentisering. Yubico har tillhandahållit ett dokument för KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/en-us/articles/360013779759-Using-Your-YubiKey-with-KeePass) och det finns också ett dokument på webbplatsen [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
+KeePass- och KeePassXC-databaser kan säkras med hjälp av Challenge-Response eller HOTP som andrafaktorsautentisering. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

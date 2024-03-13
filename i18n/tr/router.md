@@ -35,7 +35,10 @@ Cihazınızın desteklenip desteklenmediğini kontrol etmek için OpenWrt'nin [d
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Bir ağ için özel bir güvenlik duvarı/yönlendirici yapmak üzere bir bilgisayara kurulmuştur ve güvenilirliği, genellikle, sadece pahalı ticari güvenlik duvarlarında bulunan özellikler sunmasıyla bilinir.
 
-pfSense genellikle çevre güvenlik duvarı, yönlendirici, kablosuz erişim noktası, DHCP sunucusu, DNS sunucusu ve VPN noktası olarak dağıtılır.
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 
 </details>
 

@@ -28,7 +28,7 @@ Algumas aplicações de mensagens instantâneas permitem-lhe a opção de auto-h
 - Pode incluir [controlo ou acesso restrito](https://drewdevault.com/2018/08/08/Signal.html). Ou seja:
 - Estar [impedida a ligação de clientes de terceiros](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) à rede centralizada, o que poderia permitir uma maior personalização ou uma melhor experiência. Frequentemente definido nos Termos e Condições de utilização.
 - Documentação deficiente ou inexistente para os programadores terceiros.
-- A [propriedade](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), a política de privacidade e gestão do serviço podem mudar facilmente quando uma única entidade os controla, podendo ficar assim, mais tarde, comprometido o serviço.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - A auto-hospedagem requer esforço e conhecimento para a configuração do serviço.
 
 ## Redes Federadas
@@ -60,7 +60,7 @@ Numa solução auto-hospedada, os membros de um servidor federado podem descobri
 
 As aplicações de mensagens instantâneas P2P ligam-se a uma [rede distribuída](https://en.wikipedia.org/wiki/Distributed_networking) de nós para retransmitir a mensagem ao destinatário, sem utilizar um servidor de terceiros.
 
-Os clientes (peers) comunicam através da utilização de uma rede de [computação distribuída](https://en.wikipedia.org/wiki/Distributed_computing). Exemplos do atrás dito incluem [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), utilizadas por [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) e [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System), por exemplo. Outra abordagem é a das redes de proximidade, em que uma ligação é estabelecida através de WiFi ou Bluetooth (por exemplo, Briar ou o protocolo de rede social [Scuttlebutt](https://www.scuttlebutt.nz)).
+Os clientes (peers) comunicam através da utilização de uma rede de [computação distribuída](https://en.wikipedia.org/wiki/Distributed_computing). Exemplos do atrás dito incluem [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), utilizadas por [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) e [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System), por exemplo. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Uma vez que um peer tenha encontrado uma rota para o seu contacto através de qualquer um destes métodos, é estabelecida uma ligação direta entre eles. Embora as mensagens sejam normalmente encriptadas, um observador pode ainda assim deduzir a localização e a identidade do remetente e do destinatário.
 

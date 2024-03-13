@@ -62,12 +62,12 @@ schema:
 
 ## 我们需要你！ 參與方式如下：
 
-[:simple-discourse:](https://discuss.privacyguides.net/){title = "加入我們的論壇"}
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){rel = me title = "關注我們的Mastodon"}
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){title = "提供貢獻"}
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){title = "幫助網站翻譯"}
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){title = "在Matrix上與我們聊天"}
-[:material-information-outline:](about/index.md){title = "更了解我們"}
-[:material-hand-coin-outline:](about/donate.md){title = "支持本項目"}
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 像 Privacy Guides 這類網站必須維持最新狀態。 我們需要觀眾留意網站上列出的應用程式的軟體更新，並掌握推薦供應商的最新消息。 跟上互聯網快速變化並不容易，但我們盡力而為。 如果您發現錯誤、認為不應該列出提供商、注意到沒列上的適格提供商、認為瀏覽器附加元件不再是最佳選擇或發現任何其他問題，請告訴我們。

@@ -13,7 +13,7 @@ Akibatnya, surel paling baik digunakan untuk menerima surel transaksional (pembe
 
 Cara standar untuk menambahkan E2EE ke surel antara penyedia surel yang berbeda adalah dengan menggunakan OpenPGP. Ada beberapa implementasi yang berbeda dari standar OpenPGP, yang paling umum adalah [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) dan [OpenPGP.js](https://openpgpjs.org).
 
-Ada standar lain yang populer di kalangan bisnis yang disebut [S/MIME](https://en.wikipedia.org/wiki/S/MIME), namun standar ini membutuhkan sertifikat yang dikeluarkan dari [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (tidak semua dari mereka mengeluarkan sertifikat S/MIME). Ini memiliki dukungan di [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) dan [Outlook untuk Web atau Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+Ada standar lain yang populer di kalangan bisnis yang disebut [S/MIME](https://en.wikipedia.org/wiki/S/MIME), namun standar ini membutuhkan sertifikat yang dikeluarkan dari [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (tidak semua dari mereka mengeluarkan sertifikat S/MIME). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 Bahkan jika Anda menggunakan OpenPGP, ini tidak mendukung [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), yang berarti jika kunci privat Anda atau penerima dicuri, semua pesan sebelumnya yang dienkripsi dengan kunci tersebut akan terekspos. Inilah sebabnya mengapa kami merekomendasikan [instant messenger](../real-time-communication.md) yang menerapkan kerahasiaan ke depan melalui email untuk komunikasi orang-ke-orang bila memungkinkan.
 
@@ -23,7 +23,7 @@ Standar Direktori Kunci Web (Web Key Directory; WKD) memungkinkan klien surel un
 
 Selain [klien surel yang kami rekomendasikan](../email-clients.md), yang mendukung WKD, beberapa penyedia surel berabasis web juga mendukung WKD. Apakah kunci *Anda* diterbitkan ke WKD untuk digunakan orang lain tergantung pada konfigurasi domain Anda. Jika Anda menggunakan [penyedia surel](../email.md#openpgp-compatible-services) yang mendukung WKD, seperti Proton Mail atau Mailbox.org, mereka dapat mempublikasikan kunci OpenPGP Anda ke domain mereka untuk Anda.
 
-Jika Anda menggunakan domain khusus Anda sendiri, Anda perlu mengonfigurasikan WKD secara terpisah. Jika Anda mengontrol nama domain Anda, Anda bisa menyiapkan WKD terlepas dari apa pun penyedia surel Anda. Salah satu cara mudah untuk melakukan ini adalah dengan menggunakan fitur "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" dari keys.openpgp.org, dengan mengatur catatan CNAME pada subdomain `openpgpkey` dari domain Anda yang diarahkan ke `wkd.keys.openpgp.org`, kemudian mengunggah kunci Anda ke [keys.openpgp.org](https://keys.openpgp.org/). Sebagai alternatif, Anda dapat [meng-host sendiri WKD di server web Anda sendiri](https://wiki.gnupg.org/WKDHosting).
+Jika Anda menggunakan domain khusus Anda sendiri, Anda perlu mengonfigurasikan WKD secara terpisah. Jika Anda mengontrol nama domain Anda, Anda bisa menyiapkan WKD terlepas dari apa pun penyedia surel Anda. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org). Sebagai alternatif, Anda dapat [meng-host sendiri WKD di server web Anda sendiri](https://wiki.gnupg.org/WKDHosting).
 
 Jika Anda menggunakan domain bersama dari penyedia yang tidak mendukung WKD, seperti @gmail.com, Anda tidak akan dapat berbagi kunci OpenPGP dengan orang lain melalui metode ini.
 
@@ -33,7 +33,7 @@ Penyedia email yang memungkinkan Anda menggunakan protokol akses standar seperti
 
 ### Bagaimana Cara Melindungi Kunci Pribadi Saya?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Pesan tersebut kemudian didekripsi oleh smartcard dan konten yang telah didekripsi dikirim kembali ke perangkat.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Pesan tersebut kemudian didekripsi oleh smartcard dan konten yang telah didekripsi dikirim kembali ke perangkat.
 
 Terjadinya proses dekripsi di kartu pintar begitu menguntungkan karena hal tersebut berfungsi untuk menghindari kemungkinan mengekspos kunci pribadi Anda ke perangkat yang telah tersusupi.
 

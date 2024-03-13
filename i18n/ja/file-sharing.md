@@ -15,7 +15,7 @@ cover: file-sharing.webp
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send**は、Mozillaの廃止されたFirefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。 ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 Sendの保守管理者は[公開インスタンス](https://send.vis.ee/)をホストしています。 他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
+**Send**は、Mozillaの廃止されたFirefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。 ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 The maintainer of Send hosts a [public instance](https://send.vis.ee). 他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="公開インスタンス"}
@@ -81,9 +81,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 **FreedomBox**は、[シングルボードコンピュータ（SBC）](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)上で動作するように設計されたオペレーティングシステムです。 目的は、自身でホストしたいサーバーアプリケーションを簡単に立ち上げられるようにすることです。
 
 [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=ドキュメンテーション}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="ソースコード" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=貢献 }
+[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
+[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -101,9 +101,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -137,16 +137,16 @@ Nextcloudでの[E2EEアプリ](https://apps.nextcloud.com/apps/end_to_end_encryp
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-- [:simple-windows11: Windows](https://syncthing.net/downloads/)
-- [:simple-apple: macOS](https://syncthing.net/downloads/)
-- [:simple-linux: Linux](https://syncthing.net/downloads/)
-- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
+- [:simple-windows11: Windows](https://syncthing.net/downloads)
+- [:simple-apple: macOS](https://syncthing.net/downloads)
+- [:simple-linux: Linux](https://syncthing.net/downloads)
+- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
 
 </details>
 

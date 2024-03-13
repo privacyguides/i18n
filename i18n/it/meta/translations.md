@@ -2,9 +2,9 @@
 title: Traduzioni
 ---
 
-Crowdin ha una buona documentazione, e suggeriamo di consultare la loro guida [Per Iniziare](https://support.crowdin.com/crowdin-intro/). Il nostro sito è per lo più scritto in [Markdown](https://en.wikipedia.org/wiki/Markdown), quindi, contribuire, dovrebbe essere facile. Questa pagina contiene dei consigli utili per tradurre parte specifica della sintassi che potresti incontrare sul nostro sito.
+Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro) guide. Il nostro sito è per lo più scritto in [Markdown](https://en.wikipedia.org/wiki/Markdown), quindi, contribuire, dovrebbe essere facile. Questa pagina contiene dei consigli utili per tradurre parte specifica della sintassi che potresti incontrare sul nostro sito.
 
-Ti preghiamo di unirti alla nostra stanza di localizzazione su Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)), se hai qualsiasi ulteriore domanda, e di leggere i [post del nostro blog di annunci](https://blog.privacyguides.org/2023/02/26/i18n-announcement/), per ulteriori informazioni sul progetto.
+Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement) for additional information about the project.
 
 Nota che la versione in inglese del sito è la versione principale, a significare che le modifiche si verificano lì per prime. Se noti che una lingua non è aggiornata, ti preghiamo di contribuire. Non possiamo garantire l'accuratezza di tutte le nostre traduzioni. Se hai un suggerimento sui contenuti specifici della tua regione, ti preghiamo di aprire un ticket o una richiesta di pull, nel nostro [repository principale](https://github.com/privacyguides/privacyguides.org).
 
@@ -78,4 +78,4 @@ Sistemi di scrittura CJK tendono a utilizzare varianti alternative "a larghezza 
 
 - I link devono utilizzare le parentesi regolari, cioè `(` (Parentesi Sinistra U+0028) e `)` (Parentesi Destra U+0029) ee non `（` (Parentesi Sinistra a Larghezza Intera U+FF08) o `）` (Parentesi Destra a Larghezza Intera U+FF09)
 - Il testo tra virgolette rientrato deve utilizzare `:` (Due punti U+003A) e non `：` (Due Punti a Larghezza Intera U+FF1A)
-- Le immagini devono utilizzare `!` (Punto Esclamativo U+0021) e non `！` (Punto Esclamativo a Larghezza Intera U+FF01) 
+- Le immagini devono utilizzare `!` (Punto Esclamativo U+0021) e non `！` (Punto Esclamativo a Larghezza Intera U+FF01)

@@ -13,26 +13,26 @@ I calendari contengono alcuni dei tuoi dati più sensibili; utilizza prodotti ch
 
 ![Logo di Tuta](assets/img/calendario/tuta.svg){ align=right }
 
-**Tuta** offre un calendario gratuito e criptato su tutte le loro piattaforme supportate. Le funzionalità includono: E2EE automatico di tutti i dati, funzionalità di condivisione, importazione/esportazione, autenticazione a più fattori e [more](https://tuta.com/it/calendar-app-comparison).
+**Tuta** offre un calendario gratuito e criptato su tutte le loro piattaforme supportate. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
 Calendari multipli e funzionalità di condivisione estese sono limitate agli abbonati a pagamento.
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://tuta.com/community/){ .card-link title=Contribuisci }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/tutanota/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients/)
-- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients/)
-- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients/)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
+- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-- [:octicons-browser-16: Web](https://app.tuta.com/)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -52,10 +52,10 @@ Calendari multipli e funzionalità di condivisione estese sono limitate agli abb
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1514709943)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1514709943)
 - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 </details>

@@ -62,7 +62,7 @@ schema:
 
 ## We need you! Here's how to get involved:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Join our Forum" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
 [:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
 [:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
 [:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }

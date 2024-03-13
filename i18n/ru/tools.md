@@ -9,7 +9,7 @@ description: Privacy Guides - это самый прозрачный и наде
 
 Если вы ищете какое-либо решение, то в этом списке все аппаратные и программные средства, которые мы рекомендуем. Рекомендуемые инструменты для обеспечения приватности/конфиденциальности выбираются в первую очередь на основе функций безопасности с дополнительным акцентом на децентрализованные инструменты с открытым исходным кодом. Эти инструменты можно использовать с различными моделями угроз: например, для защиты от массовой слежки или избегания big-tech компаний, — но только вы сможете определить, что необходимо именно в вашем случае.
 
-Если вам нужна помощь в выборе лучших инструментов для обеспечения конфиденциальности и альтернативных программ для ваших нужд, начните обсуждение на нашем [форуме](https://discuss.privacyguides.net/) или в сообществе [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 Для получения более подробной информации о каждом проекте, почему он был выбран, а также о дополнительных советах или приемах, которые мы рекомендуем, нажмите на ссылку "Узнать больше" в каждом разделе или нажмите на саму рекомендацию, чтобы перейти в этот конкретный раздел страницы.
 
@@ -89,7 +89,7 @@ description: Privacy Guides - это самый прозрачный и наде
 
 #### Провайдеры DNS
 
-Мы [рекомендуем](dns.md#recommended-providers) ряд зашифрованных DNS-серверов, основанных на различных критериях, таких как [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) и [Quad9](https://quad9.net/) среди прочих. Мы рекомендуем вам прочитать наши материалы о DNS перед выбором провайдера. Во многих случаях использование других DNS-провайдеров не рекомендуется.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. Мы рекомендуем вам прочитать наши материалы о DNS перед выбором провайдера. Во многих случаях использование других DNS-провайдеров не рекомендуется.
 
 [Узнать больше :material-arrow-right-drop-circle:](dns.md)
 

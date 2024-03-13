@@ -6,7 +6,7 @@ description: macOS is Apple's desktop operating system that works with their har
 
 **macOS** is een Unix besturingssysteem ontwikkeld door Apple voor hun Mac computers. Om de privacy op macOS te verbeteren, kun je telemetry functies uitschakelen en bestaande privacy-en beveiligingsinstellingen aanscherpen.
 
-Oudere op Intel-gebaseerde Macs en Hackintoshes ondersteunen niet alle beveiligingsfuncties die macOS biedt. Om de gegevensbeveiliging te verbeteren, raden we een nieuwere Mac met [Apple silicon](https://support.apple.com/en-us/HT211814) aan.
+Oudere op Intel-gebaseerde Macs en Hackintoshes ondersteunen niet alle beveiligingsfuncties die macOS biedt. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/HT211814).
 
 ## Privacy Opmerkingen
 
@@ -22,13 +22,13 @@ macOS voert online controles uit wanneer u een app opent om te controleren of ee
 
 Vroeger werden deze controles uitgevoerd via een niet-versleuteld OCSP-protocol, dat informatie kon lekken over de apps die je gebruikt naar het netwerk waarmee je verbonden was. Apple heeft hun OCSP-service geüpgraded om HTTPS encryptie te gebruiken in 2021, en [plaatste informatie](https://support.apple.com/HT202491) over hun logboekbeleid voor deze service. Ze beloofden bovendien een mechanisme toe te voegen voor de opt-out van deze onlinecontrole, maar dit is niet toegevoegd aan macOS op het moment van schrijven (juli 2023).
 
-Terwijl jij [](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private/) deze controle relatief gemakkelijk kan uitschakelen, raden wij aan om dit niet te doen tenzij je ernstig gecompromitteerd wordt door de intrekkingscontroles uitgevoerd door macOS, omdat ze een belangrijke rol spelen door ervoor te zorgen dat gecompromitteerde apps niet kunnen werken.
+While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
 
 ## Aanbevolen configuratie
 
 Your account when you first set up your Mac will be an Administrator account, which has higher privileges than a Standard user account. macOS has a number of protections which prevent malware and other programs from abusing your Administrator privileges, so it is generally safe to use this account.
 
-However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass/). If you want to avoid the possibility that programs you run abuse your Administrator privileges, you could consider creating a second, Standard user account which you use for day-to-day operations. This has the added benefit of making it more obvious when an app needs admin access, because it will prompt you for credentials every time.
+However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass). If you want to avoid the possibility that programs you run abuse your Administrator privileges, you could consider creating a second, Standard user account which you use for day-to-day operations. This has the added benefit of making it more obvious when an app needs admin access, because it will prompt you for credentials every time.
 
 If you do use a second account, it is not strictly required to ever log in to your original Administrator account from the macOS login screen. When you are doing something as a Standard user which requires Administrator permissions, the system should prompt you for authentication, where you can enter your Administrator credentials as your Standard user on a one-time basis. Apple provides [guidance](https://support.apple.com/HT203998) on hiding your Administrator account if you prefer to only see a single account on your login screen.
 
@@ -128,7 +128,7 @@ On older Intel-based Mac computers, FileVault is the only form of disk encryptio
 
 ##### Lockdown Mode
 
-[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disables some features in order to improve security. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/) and [WASM](https://developer.mozilla.org/en-US/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts your usage, many of the changes it makes are easy to live with.
+[Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disables some features in order to improve security. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers) and [WASM](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts your usage, many of the changes it makes are easy to live with.
 
 - [x] Click **Turn On**
 

@@ -15,7 +15,7 @@ Upptäck hur du kan dela dina filer privat mellan dina enheter, med vänner och 
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** är en förgrening av Mozillas nedlagda Firefox Send-tjänst som låter dig skicka filer till andra med en länk. Filerna krypteras på din enhet så att de inte kan läsas av servern, och de kan också skyddas med lösenord. Den som upprätthåller Send är värd för en [offentlig instans] (https://send.vis.ee/). Du kan använda andra offentliga instanser, eller du kan vara värd för Skicka själv.
+**Send** är en förgrening av Mozillas nedlagda Firefox Send-tjänst som låter dig skicka filer till andra med en länk. Filerna krypteras på din enhet så att de inte kan läsas av servern, och de kan också skyddas med lösenord. The maintainer of Send hosts a [public instance](https://send.vis.ee). Du kan använda andra offentliga instanser, eller du kan vara värd för Skicka själv.
 
 [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -80,8 +80,8 @@ Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och d
 
 **FreedomBox** är ett operativsystem som är utformat för att köras på en [single-board computer (SBC)] (https://en.wikipedia.org/wiki/Single-board_computer). Syftet är att göra det enkelt att konfigurera serverprogram som du kanske vill vara värd för själv.
 
-[:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
 [:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
 
@@ -101,9 +101,9 @@ Vi arbetar med att fastställa kriterier för varje del av vår webbplats, och d
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -137,16 +137,16 @@ Vi rekommenderar inte att du använder [E2EE App](https://apps.nextcloud.com/app
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-- [:simple-windows11: Windows](https://syncthing.net/downloads/)
-- [:simple-apple: macOS](https://syncthing.net/downloads/)
-- [:simple-linux: Linux](https://syncthing.net/downloads/)
-- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
+- [:simple-windows11: Windows](https://syncthing.net/downloads)
+- [:simple-apple: macOS](https://syncthing.net/downloads)
+- [:simple-linux: Linux](https://syncthing.net/downloads)
+- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
 
 </details>
 

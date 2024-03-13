@@ -4,11 +4,11 @@ title: 작성 스타일
 
 (역주: 본 내용은 Privacy Guides '영어 원문'의 내용을 번역한 것입니다. 한국어 번역본의 스타일은 언어/문화의 차이로 인해 상당히 달라질 수밖에 없습니다.) Privacy Guides는 미국 영문으로 작성되었습니다. 기본적인 문법은 [APA Style Guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar)를 참고하시기 바랍니다.
 
-일반적으로 [Federal plain language guidelines](https://www.plainlanguage.gov/guidelines/)는 명확하고 간결하게 작성하는 방법에 대한 훌륭한 개요를 제공합니다. 다음 내용은 해당 가이드라인 내에서 몇 가지 중요한 사항을 강조한 것입니다.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. 다음 내용은 해당 가이드라인 내에서 몇 가지 중요한 사항을 강조한 것입니다.
 
 ## 청중을 위한 글쓰기
 
-Privacy Guides에서 가정하고 있는 '[청중](https://www.plainlanguage.gov/guidelines/audience/)'이란, 주로 '기술에 대한 평균적인 지식을 갖춘 성인'을 의미합니다. 중학생에게 설명하는 것처럼 쉽게 설명할 필요는 없지만, 일반 컴퓨터 사용자에게 익숙치 않은 개념을 설명할 때 어려운 용어를 남용해서도 안 됩니다.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. 중학생에게 설명하는 것처럼 쉽게 설명할 필요는 없지만, 일반 컴퓨터 사용자에게 익숙치 않은 개념을 설명할 때 어려운 용어를 남용해서도 안 됩니다.
 
 ### 사람들이 알고 싶어 하는 내용만 다루세요
 
@@ -24,7 +24,7 @@ Privacy Guides에서 가정하고 있는 '[청중](https://www.plainlanguage.gov
 > 
 > 사용자를 지칭할 때 '당신'을 사용하면 사용자가 자신의 책임에 대해 더 잘 이해할 수 있습니다.
 
-출처: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### '사용자'라는 표현을 지양하세요
 
@@ -37,7 +37,7 @@ Privacy Guides에서 가정하고 있는 '[청중](https://www.plainlanguage.gov
 - 문서의 섹션을 5~6개 정도로 제한하세요. 긴 문서는 여러 페이지로 나눠서 작성하는 편이 좋습니다.
 - 중요한 아이디어는 **Bold**나 *Italic*으로 표시해야 합니다.
 
-출처: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### 주제문부터 시작하세요
 
@@ -45,7 +45,7 @@ Privacy Guides에서 가정하고 있는 '[청중](https://www.plainlanguage.gov
 > 
 > 우리는 간혹 전제를 먼저 제시하고 결론을 내리는 방식으로 글을 작성합니다. 생각을 전개하는 과정으로서는 자연스러울 수 있지만, 이는 주제문이 문단의 끝에 위치하는 결과를 낳습니다. 주제문을 맨 앞으로 이동함으로써 독자에게 길을 잡아줄 수 있습니다. 독자가 요점을 파악하지 못한 상태에서 많은 정보를 머릿속에 담아두게 만들지 마세요.
 
-출처: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## 단어는 신중하게 선택하세요
 
@@ -65,7 +65,7 @@ Privacy Guides에서 가정하고 있는 '[청중](https://www.plainlanguage.gov
 
 > 불필요한 단어는 청중의 시간을 낭비합니다. 훌륭한 글쓰기는 대화와 같습니다. 청중에게 있어서 불필요한 정보는 생략하세요. 이는 어떤 주제의 전문가로서는 어려울 수도 있지만, 중요한 것은 청중의 관점에서 정보를 살펴보는 것입니다.
 
-출처: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## 대화하듯이 글을 작성하세요
 
@@ -77,7 +77,7 @@ Privacy Guides에서 가정하고 있는 '[청중](https://www.plainlanguage.gov
 
 > 능동 표현은 '누가 무엇을 해야 하는지'를 명확히 합니다. 이는 혼동을 방지합니다. '이와 같은 식으로 되어야 합니다' 대신 '이렇게 하셔야 합니다'라고 작성해야 합니다.
 
-출처: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### 요구 사항에는 "해야 합니다"라고 작성하세요
 

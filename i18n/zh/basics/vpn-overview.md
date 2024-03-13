@@ -69,13 +69,13 @@ If you do use Tor then you are *probably* best off connecting to the Tor network
 
 You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
 
-Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. 为了弥补这一点，VPN供应商通常会将所有非TCP数据包通过其VPN服务器（你的第一跳）进行路由。 [ProtonVPN](https://protonvpn.com/support/tor-vpn/)就是这种情况。 此外，在使用这种Tor over VPN设置时， 您无法控制其他重要的Tor功能，例如 [目的地址隔离](https://www.whonix.org/wiki/Stream_Isolation) (对您访问的每个域名使用不同的Tor线路)。
+Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. 为了弥补这一点，VPN供应商通常会将所有非TCP数据包通过其VPN服务器（你的第一跳）进行路由。 This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
 
 The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
 
 ## Commercial VPN Ownership
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
 
 You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
 
@@ -111,8 +111,8 @@ Many dVPNs are used to push a cryptocurrency rather than to make the best servic
 
 ## VPN的相关信息
 
-- [VPN和隐私审查网站的问题](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites/)
-- [免费VPN应用调查](https://www.top10vpn.com/free-vpn-app-investigation/)
-- [揭开隐蔽VPN所有者的面纱：101个VPN产品仅由23家公司运营](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies/)
-- [这家中国公司秘密地在24个流行的应用程序背后寻求危险的权限](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions/)
-- [VPN -一个非常危险的叙事 ](https://schub.io/blog/2019/04/08/very-precarious-narrative.html)作者：丹尼斯·舒伯特（ Dennis Schubert ）
+- [VPN和隐私审查网站的问题](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
+- [免费VPN应用调查](https://top10vpn.com/research/free-vpn-investigations/ownership)
+- [揭开隐蔽VPN所有者的面纱：101个VPN产品仅由23家公司运营](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
+- [这家中国公司秘密地在24个流行的应用程序背后寻求危险的权限](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert

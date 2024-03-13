@@ -28,7 +28,7 @@ Algunos servicios de mensajería autoalojados te permiten configurar tu propio s
 - Puede incluir [control o acceso restringido](https://drewdevault.com/2018/08/08/Signal.html). Esto puede incluir cosas como:
 - Estar [prohibido conectar clientes de terceros](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) a la red centralizada que podría proporcionar una mayor personalización o una mejor experiencia. A menudo se define en los Términos y condiciones de uso.
 - Documentación pobre o nula para desarrolladores de terceros.
-- La [propiedad](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), política de privacidad y las operaciones del servicio pueden cambiar fácilmente cuando una sola entidad lo controla, potencialmente comprometiendo el servicio más adelante.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - El autoalojamiento requiere esfuerzo y conocimiento de cómo configurar un servicio.
 
 ## Redes Federadas
@@ -60,7 +60,7 @@ Cuando autoalojados, miembros de un servidor federado pueden descubrir y comunic
 
 Los servicios de mensajería P2P se conectan a una [red distribuida](https://es.wikipedia.org/wiki/Red_distribuida) de nodos para transmitir un mensaje al destinatario sin necesidad de un servidor externo.
 
-Los clientes (pares) usualmente se encuentran entre sí mediante el uso de una red de [computación distribuida](https://en.wikipedia.org/wiki/Distributed_computing). Ejemplos de esto incluyen la [Tabla de hash distribuida](https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida) (DHT), usada por [torrents](https://es.wikipedia.org/wiki/BitTorrent) y [IPFS](https://es.wikipedia.org/wiki/Sistema_de_archivos_interplanetario) por ejemplo. Otro enfoque son las redes basadas en la proximidad, en las que se establece una conexión a través de WiFi o Bluetooth (por ejemplo, Briar o el protocolo de red social [Scuttlebutt](https://www.scuttlebutt.nz)).
+Los clientes (pares) usualmente se encuentran entre sí mediante el uso de una red de [computación distribuida](https://en.wikipedia.org/wiki/Distributed_computing). Ejemplos de esto incluyen la [Tabla de hash distribuida](https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida) (DHT), usada por [torrents](https://es.wikipedia.org/wiki/BitTorrent) y [IPFS](https://es.wikipedia.org/wiki/Sistema_de_archivos_interplanetario) por ejemplo. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Una vez que un par ha encontrado una ruta a su contacto a través de cualquiera de estos métodos, se establece una conexión directa entre ellos. Aunque los mensajes suelen estar encriptados, un observador puede deducir la ubicación y la identidad del remitente y del destinatario.
 

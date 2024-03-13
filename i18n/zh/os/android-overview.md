@@ -60,7 +60,7 @@ For example, if you want to post a picture to Discord you can open your file man
 
 固件更新是维护安全的关键，没有它们，你的设备就不可能是安全的。 原始设备制造商与他们的合作伙伴有支持协议，在有限的支持期内提供闭源组件。 这些内容详见每月的 [Android安全公告](https://source.android.com/security/bulletin)。
 
-由于手机的组件，如处理器和无线电技术依赖于闭源组件，更新必须由各自的制造商提供。 因此，重要的是，你要在一个有效的支持周期内购买设备。 [高通公司](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) 和 [三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) ，对其设备的支持期为4年，而便宜的产品往往支持周期更短。 With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
+由于手机的组件，如处理器和无线电技术依赖于闭源组件，更新必须由各自的制造商提供。 因此，重要的是，你要在一个有效的支持周期内购买设备。 [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
 不再受SoC制造商支持的EOL设备无法从OEM供应商或后市场Android分销商处获得固件更新。 这意味着这些设备的安全问题将继续得不到解决。
 
@@ -97,19 +97,19 @@ Android 13:
 
 An app may request a permission for a specific feature it has. For example, any app that can scan QR codes will require the camera permission. Some apps can request more permissions than they need.
 
-[Exodus](https://exodus-privacy.eu.org/) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
+[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. If an app requires a lot of permissions and has a lot of advertising and analytics this is probably a bad sign. We recommend looking at the individual trackers and reading their descriptions rather than simply **counting the total** and assuming all items listed are equal.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest/) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
+If an app is mostly a web-based service, the tracking may occur on the server side. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Apps may evade detection by not using standard code libraries produced by the advertising industry, though this is unlikely.
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
+Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
 
 </div>
 
@@ -145,20 +145,20 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### 高级保护计划
 
-如果你有一个谷歌账户，我们建议注册 [高级保护计划](https://landing.google.com/advancedprotection/)。 任何拥有两个或更多支持 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 的硬件安全密钥的人都可以免费使用。
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). 任何拥有两个或更多支持 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 的硬件安全密钥的人都可以免费使用。
 
 高级保护计划提供增强的威胁监控，并支持：
 
 - Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - 只有谷歌和经过验证的第三方应用程序可以访问账户数据
 - 在 Gmail 帐户上扫描收到的邮件以进行 [钓鱼](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 尝试
-- 更严格的 [安全的浏览器扫描](https://www.google.com/chrome/privacy/whitepaper.html#malware) 与谷歌浏览器
+- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
 - 对丢失凭证的账户有更严格的恢复程序
 
- 如果你使用非沙盒式的Google Play服务（在股票操作系统上很常见），高级保护计划还带有 [额外的好处](https://support.google.com/accounts/answer/9764949?hl=en) ，例如。
+ If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
 
 - Not allowing app installation outside the Google Play Store, the OS vendor's app store, or via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- 强制性的自动设备扫描与 [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - 警告你有未经验证的应用程序
 
 ### Google Play 系统更新
@@ -169,7 +169,7 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### 广告 ID
 
-所有安装了Google Play服务的设备都会自动生成一个 [广告ID](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en) ，用于定向广告。 禁用此功能以限制收集到的关于你的数据。
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. 禁用此功能以限制收集到的关于你的数据。
 
 在带有 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)的安卓发行上，进入 :gear: **设置** → **应用程序** → **Sandboxed Google Play** → **谷歌设置** → **广告**，并选择 *删除广告 ID*。
 

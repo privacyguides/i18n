@@ -4,11 +4,11 @@ title: Schrijfstijl
 
 Privacy Guides is geschreven in Amerikaans Engels, en je dient bij twijfel de [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) te raadplegen.
 
-In het algemeen bieden de [Amerikaanse federale richtlijnen inzake klare taal](https://www.plainlanguage.gov/guidelines/) een goed overzicht van hoe duidelijk en beknopt te schrijven. Wij belichten hieronder enkele belangrijke opmerkingen uit deze richtsnoeren.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. Wij belichten hieronder enkele belangrijke opmerkingen uit deze richtsnoeren.
 
 ## Schrijven voor ons publiek
 
-Het beoogde [publiek van Privacy Guides](https://www.plainlanguage.gov/guidelines/audience/) is voornamelijk gemiddelde, technologie gebruikende volwassenen. Verlaag de inhoud niet alsof je een middelbare schoolklas toespreekt, maar gebruik niet te veel ingewikkelde terminologie over concepten waarmee de gemiddelde computergebruiker niet vertrouwd is.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Verlaag de inhoud niet alsof je een middelbare schoolklas toespreekt, maar gebruik niet te veel ingewikkelde terminologie over concepten waarmee de gemiddelde computergebruiker niet vertrouwd is.
 
 ### Ga alleen in op wat mensen willen weten
 
@@ -24,7 +24,7 @@ We schrijven *voor* een grote verscheidenheid aan mensen, maar we schrijven *voo
 > 
 > Wanneer je "je" gebruikt om gebruikers aan te spreken, zullen zij eerder begrijpen wat hun verantwoordelijkheid is.
 
-Bron: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/audience/address-the-user/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### Vermijd "gebruikers"
 
@@ -37,7 +37,7 @@ Organisatie is de sleutel. De inhoud moet stromen van de belangrijkste naar de m
 - Beperk het document tot ongeveer vijf of zes secties. Lange documenten moeten waarschijnlijk worden opgesplitst in afzonderlijke pagina's.
 - Markeer belangrijke ideeën met **vet** of *cursief*.
 
-Bron: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### Begin met een onderwerpzin
 
@@ -45,7 +45,7 @@ Bron: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/design/)
 > 
 > We schrijven vaak de manier waarop we denken, waarbij we onze uitgangspunten eerst plaatsen en dan onze conclusie. Het is misschien de natuurlijke manier om gedachten te ontwikkelen, maar we eindigen met de onderwerpzin aan het eind van de alinea. Verplaats het naar voren en laat gebruikers weten waar je naartoe gaat. Laat de lezers niet te veel informatie in hun hoofd houden voordat ze ter zake komen.
 
-Bron: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/organize/have-a-topic-sentence/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## Kies je woorden zorgvuldig
 
@@ -65,7 +65,7 @@ We moeten proberen afkortingen waar mogelijk te vermijden, maar de technologie z
 
 > Onnodige woorden verspillen de tijd van je publiek. Goed schrijven is als een gesprek. Laat informatie weg die het publiek niet hoeft te weten. Dit kan moeilijk zijn als een expert op het gebied van onderwerpen, dus het is belangrijk dat iemand naar de informatie kijkt vanuit het perspectief van het publiek.
 
-Bron: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## Tekst conversatief houden
 
@@ -77,7 +77,7 @@ Bron: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/concise/)
 
 > De actieve stem maakt duidelijk wie wat moet doen. Het neemt onduidelijkheid over verantwoordelijkheden weg. Niet "Het moet gebeuren," maar "Je moet het doen."
 
-Bron: [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/conversational/use-active-voice/)
+Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### Gebruik "must" voor vereisten
 

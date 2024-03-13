@@ -22,7 +22,7 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 ### טלמטריה פולשנית
 
-לאפל היו בעבר בעיות עם אנונימיזציה נכונה של הטלמטריה שלהם ב-iOS. [בשנת 2019](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), אפל נמצאה משדרת הקלטות Siri - חלקן מכילות מידע סודי ביותר - לשרתים שלהן לבדיקה ידנית על ידי קבלני צד שלישי. בזמן שהם הפסיקו זמנית את התוכנית הזו אחרי האימון הזה היה [דיווח נרחב על](https://www.theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), הבעיה לא נפתרה לחלוטין [עד 2021](https://www.theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+לאפל היו בעבר בעיות עם אנונימיזציה נכונה של הטלמטריה שלהם ב-iOS. [In 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
 לאחרונה, נמצאה שאפל [משדרת ניתוח נתונים גם כאשר שיתוף הניתוח מושבת ](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) ב-iOS, והנתונים האלה [נראה](https://twitter.com/mysk_co/status/1594515229915979776) מקושרים בקלות למזהים ייחודיים של חשבון iCloud למרות שהם כביכול אנונימיים.
 
@@ -54,7 +54,7 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 #### מצא את שלי - Find My
 
-**Find My** הוא שירות המאפשר לך לעקוב אחר מכשירי ה אפל שלך ולשתף את המיקום שלך עם חברים ובני משפחה. הוא גם מאפשר לך למחוק את המכשיר שלך מרחוק במקרה שהוא נגנב, ומונע מגנב לגשת לנתונים שלך. ה Find My שלך [נתוני המיקום הם E2EE](https://www.apple.com/legal/privacy/data/en/find-my/) כאשר:
+**Find My** הוא שירות המאפשר לך לעקוב אחר מכשירי ה אפל שלך ולשתף את המיקום שלך עם חברים ובני משפחה. הוא גם מאפשר לך למחוק את המכשיר שלך מרחוק במקרה שהוא נגנב, ומונע מגנב לגשת לנתונים שלך. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
 
 - המיקום משותף עם בן משפחה או חבר, ושניכם משתמשים ב - iOS 15 או יותר.
 - המכשיר שלך לא מחובר וממוקם על ידי 'מצא את הרשת שלי '.
@@ -117,7 +117,7 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 הגדרת סיסמה חזקה בטלפון שלך היא הצעד החשוב ביותר שאתה יכול לנקוט לאבטחת המכשיר הפיזי. תצטרך לעשות כאן פשרה בין אבטחה לנוחות: סיסמה ארוכה יותר תהיה מעצבנת להזין בכל פעם, אבל סיסמה קצרה יותר או PIN יהיה קל יותר לנחש. הגדרת Face ID או Touch ID יחד עם סיסמה חזקה יכולה להיות פשרה טובה בין שימושיות ואבטחה.
 
-בחר **הפעל קוד גישה** או **שנה קוד גישה** > **אפשרויות קוד סיסמה** > **קוד אלפאנומרי מותאם אישית**. ודא שאתה יוצר [סיסמה מאובטחת](https://www.privacyguides.org/basics/passwords-overview/).
+בחר **הפעל קוד גישה** או **שנה קוד גישה** > **אפשרויות קוד סיסמה** > **קוד אלפאנומרי מותאם אישית**. Make sure that you create a [secure password](../basics/passwords-overview.md).
 
 אם ברצונך להשתמש ב-Face ID או Touch ID, תוכל להמשיך ולהגדיר זאת כעת. הטלפון שלך ישתמש בסיסמה שהגדרת קודם לכן כחלופה למקרה שהאימות הביומטרי שלך ייכשל. שיטות פתיחה ביומטריות הן בעיקר נוחות, אם כי הן עוצרות מצלמות מעקב או אנשים מעבר לכתף שלך מלצפות בך מזין את קוד הסיסמה שלך.
 
@@ -129,7 +129,7 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 - [x] Select **Turn On Protection**
 
-After enabling stolen data protection, [certain actions](https://support.apple.com/en-us/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. It also adds a security delay to certain actions performed away from your home or other "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+After enabling stolen data protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. It also adds a security delay to certain actions performed away from your home or other "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
 
 **אפשר גישה כאשר הוא נעול** נותן לך אפשרויות למה שאתה יכול לאפשר כשהטלפון שלך נעול. ככל שתבטל יותר מהאפשרויות האלה, כך מישהו ללא הסיסמה שלך יכול לעשות פחות, אבל זה יהיה פחות נוח עבורך. תברר ובחר לאילו מבין אלה אינך רוצה שלמישהו תהיה גישה אם הוא ישים את ידו על הטלפון שלך.
 
@@ -187,7 +187,7 @@ After enabling stolen data protection, [certain actions](https://support.apple.c
 
 - [x] בחר **הפעל דוח פרטיות של אפליקציה**
 
-[מצב נעילה](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) הוא הגדרת אבטחה שתוכל להפעיל כדי להפוך את הטלפון שלך עמיד יותר בפני התקפות. שים לב שאפליקציות ותכונות מסוימות [לא יפעלו](https://support.apple.com/en-us/HT212650) כפי שהם פועלים בדרך כלל.
+[מצב נעילה](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) הוא הגדרת אבטחה שתוכל להפעיל כדי להפוך את הטלפון שלך עמיד יותר בפני התקפות. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
 
 - [x] בחר **הפעל מצב נעילה**
 

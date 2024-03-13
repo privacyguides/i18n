@@ -29,7 +29,7 @@ Privacy Guides is an open-source project contributed to under licenses that incl
 
 즉, 저장소 내용 중 사람이 읽을 수 있는 콘텐츠는 크리에이티브 커먼즈 저작자표시-변경금지 4.0 국제 공공 라이선스 텍스트에 명시된 조항에 따라 자신의 프로젝트에 사용할 수 있습니다. 단, 여러분은 라이선스를 중시하는 선에서 자유롭게 이용할 수 있지만 Privacy Guides가 여러분의 행위나 여러분 개인을 직접 보증/지지하는 듯이 표현해서는 안 됩니다. 여러분은 본 프로젝트에서 명시적으로 승인하지 않는 한 자신의 프로젝트에서 Privacy Guides 상표를 사용할 수 **없습니다**. Privacy Guides 브랜드 상표에는 'Privacy Guides' 로고타입과 방패 로고가 포함됩니다.
 
-Privacy Guides는 외부 제공 업체로부터 얻은 로고 및 각종 이미지(`assets`에 존재)에 대해, 퍼블릭 도메인이거나 공정 이용에 해당되는 것으로 판단하고 있습니다. ['공정 이용'](https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%A0%95_%EC%9D%B4%EC%9A%A9)은 미국의 공정 이용 법리([Fair Use Doctrine](https://www.copyright.gov/fair-use/more-info.html))를 대표로 하는 저작권법으로, 간단히 설명하면 공개 논평에서 내용의 주제를 식별할 목적으로 저작권이 있는 이미지를 사용하는 것은 법적으로 허용하는 법입니다. 단, 로고 등의 이미지는 여전히 일부 관할권에서는 상표법의 적용을 받을 수 있습니다. 본 콘텐츠를 활용하기에 앞서 상표를 소유한 법인 및 단체를 식별하는 용도로 사용한 것이 맞는지 확인하고, 활용하고자 하는 상황에 적용되는 법률에 따라 해당 상표를 사용할 권리가 존재하는지 확인하세요. *여러분이 본 웹사이트의 콘텐츠를 복제할 때, 타인의 상표나 저작권을 침해하지 않도록 할 책임은 전적으로 여러분에게 있습니다.*
+Privacy Guides는 외부 제공 업체로부터 얻은 로고 및 각종 이미지(`assets`에 존재)에 대해, 퍼블릭 도메인이거나 공정 이용에 해당되는 것으로 판단하고 있습니다. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. 단, 로고 등의 이미지는 여전히 일부 관할권에서는 상표법의 적용을 받을 수 있습니다. 본 콘텐츠를 활용하기에 앞서 상표를 소유한 법인 및 단체를 식별하는 용도로 사용한 것이 맞는지 확인하고, 활용하고자 하는 상황에 적용되는 법률에 따라 해당 상표를 사용할 권리가 존재하는지 확인하세요. *여러분이 본 웹사이트의 콘텐츠를 복제할 때, 타인의 상표나 저작권을 침해하지 않도록 할 책임은 전적으로 여러분에게 있습니다.*
 
 여러분이 본 웹사이트에 기여하는 경우, 여러분은 상기 라이선스에 따라 기여하는 것입니다. 여러분은 프로젝트의 일부로서 여러분의 기여를 복제, 변형, 공연, 전시, 공연, 배포할 수 있는 권리를 Privacy Guides에게 부여하게 됩니다. 이는 영구적이며, 전 세계적으로 유효하며, 비독점적이고, 양도 가능하며, 로열티가 없고, 철회 불가능합니다. 또한 이 권리는 여러 단계의 서브라이선스 주체에게 재실시됩니다.
 
@@ -47,4 +47,4 @@ Privacy Guides는 외부 제공 업체로부터 얻은 로고 및 각종 이미�
 
 ---
 
-*본 공지의 일부는 GitHub의 [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md)로부터 참고하여 채택되었습니다. 해당 자료 및 본 공지 페이지는 [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/) 라이선스를 따릅니다.*
+*본 공지의 일부는 GitHub의 [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md)로부터 참고하여 채택되었습니다. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0).*

@@ -11,14 +11,14 @@ I DNS crittografati con server di terze parti dovrebbero essere utilizzati solta
 
 ## Fornitori consigliati
 
-| Fornitore DNS                                                                   | Politica sulla Privacy                                                                                | Protocolli                                                                   | Registrazione   | ECS         | Filtraggio                                                                                                                                                      |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)                 | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                                | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | Parziale[^1]    | Sì          | Secondo la configurazione personale. L'elenco dei filtri utilizzati è disponibile qui. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/) | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/) | Cleartext <br> DoH/3 <br> DoT                                    | Parziale[^2]    | No          | Secondo la configurazione personale.                                                                                                                            |
-| [**Control D**](https://controld.com/free-dns)                                  | [:octicons-link-external-24:](https://controld.com/privacy)                                           | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | Facoltativa[^3] | No          | Secondo la configurazione personale.                                                                                                                            |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)      | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy/)                    | DoH <br> DoT                                                           | No[^4]          | No          | Secondo la configurazione personale. L'elenco dei filtri utilizzati è disponibile qui. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://www.nextdns.io)                                           | [:octicons-link-external-24:](https://www.nextdns.io/privacy)                                         | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | Facoltativa[^5] | Facoltativa | Secondo la configurazione personale.                                                                                                                            |
-| [**Quad9**](https://quad9.net)                                                  | [:octicons-link-external-24:](https://quad9.net/privacy/policy/)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt                  | Parziale[^6]    | Facoltativa | Secondo la configurazione personale, blocco dei malware predefinito.                                                                                            |
+| Fornitore DNS                                                              | Politica sulla Privacy                                                                               | Protocolli                                                                   | Registrazione   | ECS         | Filtraggio                                                                                                                                                      |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)            | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | Parziale[^1]    | Sì          | Secondo la configurazione personale. L'elenco dei filtri utilizzati è disponibile qui. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Cleartext <br> DoH/3 <br> DoT                                    | Parziale[^2]    | No          | Secondo la configurazione personale.                                                                                                                            |
+| [**Control D**](https://controld.com/free-dns)                             | [:octicons-link-external-24:](https://controld.com/privacy)                                          | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | Facoltativa[^3] | No          | Secondo la configurazione personale.                                                                                                                            |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH <br> DoT                                                           | No[^4]          | No          | Secondo la configurazione personale. L'elenco dei filtri utilizzati è disponibile qui. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://nextdns.io)                                          | [:octicons-link-external-24:](https://nextdns.io/privacy)                                            | Cleartext <br> DoH/3 <br> DoT <br> DoQ                     | Facoltativa[^5] | Facoltativa | Secondo la configurazione personale.                                                                                                                            |
+| [**Quad9**](https://quad9.net)                                             | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | Cleartext <br> DoH <br> DoT <br> DNSCrypt                  | Parziale[^6]    | Facoltativa | Secondo la configurazione personale, blocco dei malware predefinito.                                                                                            |
 
 ### Criteri
 
@@ -50,7 +50,7 @@ Dopo l'installazione di un profilo di configurazione o di un'app che utilizza l'
 
 #### Profili firmati
 
-Apple non fornisce un'interfaccia nativa per la creazione di profili DNS crittografati. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) è uno strumento non ufficiale per creare i propri profili DNS crittografati, tuttavia, non saranno firmati. I profili firmati sono da preferire; la firma convalida l'origine di un profilo e contribuisce a garantire l'integrità. Un'etichetta verde "Verificato" è data ai profili di configurazione firmati. Per ulteriori informazioni sulla firma del codice, consulta [Informazioni sulla firma del codice](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **I profili firmati** sono offerti da [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io) e [Quad9](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles/).
+Apple non fornisce un'interfaccia nativa per la creazione di profili DNS crittografati. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) è uno strumento non ufficiale per creare i propri profili DNS crittografati, tuttavia, non saranno firmati. I profili firmati sono da preferire; la firma convalida l'origine di un profilo e contribuisce a garantire l'integrità. Un'etichetta verde "Verificato" è data ai profili di configurazione firmati. Per ulteriori informazioni sulla firma del codice, consulta [Informazioni sulla firma del codice](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html). **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://quad9.net/news/blog/ios-mobile-provisioning-profiles).
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
@@ -73,9 +73,9 @@ I software proxy per il DNS crittografato forniscono un proxy locale a cui inolt
 **RethinkDNS** è un client Android open-source che supporta [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) e DNS Proxy, oltre a memorizzare nella cache le risposte DNS, registrare localmente le richieste DNS, nonché utilizzabile come firewall.
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://docs.rethinkdns.com/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Codice sorgente" }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -123,9 +123,9 @@ Una soluzione DNS self-hosted è utile per fornire il filtraggio su piattaforme 
 
 <div class="admonition recommendation" markdown>
 
-![Logo di AdGuard Home](assets/img/dns/adguard-home.svg){ align=right }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
-**AdGuard Home** è un [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) open source che utilizza il [filtraggio DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) per bloccare i contenuti web indesiderati, come le inserzioni.
+**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 AdGuard Home dispone di un'interfaccia web raffinata per visualizzare i dettagli e gestire i contenuti bloccati.
 
@@ -142,25 +142,25 @@ AdGuard Home dispone di un'interfaccia web raffinata per visualizzare i dettagli
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Pi-hole](assets/img/dns/pi-hole.svg){ align=right }
+![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-**Pi-hole** è un [DNS-sinkhole](https://wikipedia.org/wiki/DNS_sinkhole) open source che utilizza il [filtraggio DNS](https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/) per bloccare i contenuti web indesiderati, come le inserzioni.
+**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
 Pi-hole è stato progettato per essere ospitato su un Raspberry Pi, ma non si limita a tale hardware. Il software dispone di un'interfaccia web intuitiva per visualizzare i dettagli e gestire i contenuti bloccati.
 
-[:octicons-home-16: Home](https://pi-hole.net/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy/){ .card-link title="Politica sulla Privacy" }
-[:octicons-info-16:](https://docs.pi-hole.net/){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Codice Sorgente" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
 [^1]: AdGuard memorizza le statistiche aggregate sulle prestazioni dei propri server DNS, ossia il numero di richieste complete a un server in particolare, il numero di richieste bloccate e la velocità d'elaborazione delle richieste. Inoltre, conserva e memorizza il database dei domini richiesti nelle ultime 24 ore. "Necessitiamo di queste informazioni per identificare e bloccare i nuovi tracciatori e minacce." "Inoltre, registriamo quante volte un tracciatore è stato bloccato. Necessitiamo di queste informazioni per rimuovere le regole obsolete dai nostri filtri." [https://adguard.com/it/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
-[^2]: Cloudflare raccoglie e memorizza soltanto i dati limitati delle richieste DNS inviate al risolutore 1.1.1.1. Il servizio del risolutore 1.1.1.1 non registra i dati personali e, gran parte dei dati delle richieste limitate e non personalmente identificabili, sono memorizzati soltanto per 25 ore. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/)
+[^2]: Cloudflare raccoglie e memorizza soltanto i dati limitati delle richieste DNS inviate al risolutore 1.1.1.1. Il servizio del risolutore 1.1.1.1 non registra i dati personali e, gran parte dei dati delle richieste limitate e non personalmente identificabili, sono memorizzati soltanto per 25 ore. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D registra soltanto i risolutori Premium con profili DNS personalizzati. I risolutori gratuiti non registrano dati. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: Il servizio DNS di Mullvad è disponibile per tutti, abbonati a Mullvad VPN e non. La loro politica sulla privacy dichiara esplicitamente che non registrano in alcun modo le richieste DNS. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy/)
+[^4]: Il servizio DNS di Mullvad è disponibile per tutti, abbonati a Mullvad VPN e non. La loro politica sulla privacy dichiara esplicitamente che non registrano in alcun modo le richieste DNS. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^5]: NextDNS è in grado di fornire funzioni di approfondimento e di logging su base opt-out. Puoi decidere il tempo di conservazione e la posizione dell'archivio per tutti i dati che decidi di registrare. A meno che non sia richiesto specificamente, nessun dato viene registrato. [https://nextdns.io/privacy](https://nextdns.io/privacy)
-[^6]: Quad9 raccoglie alcuni dati per monitorare e rispondere a eventuali minacce. Tali dati potrebbero essere poi rimescolati e condivisi, ad esempio ai fini della ricerca sulla sicurezza. Quad9 non raccoglie o registra gli indirizzi IP o qualsiasi altro dato ritenuto personalmente identificabile. [https://www.quad9.net/privacy/policy/](https://www.quad9.net/privacy/policy/)
+[^6]: Quad9 raccoglie alcuni dati per monitorare e rispondere a eventuali minacce. Tali dati potrebbero essere poi rimescolati e condivisi, ad esempio ai fini della ricerca sulla sicurezza. Quad9 non raccoglie o registra gli indirizzi IP o qualsiasi altro dato ritenuto personalmente identificabile. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

@@ -10,7 +10,7 @@ cover: search-engines.webp
 
 ההמלצות כאן מבוססות על היתרונות של מדיניות הפרטיות של כל שירות. אין **ערובה לכך** שמדיניות פרטיות זו תכובד.
 
-מומלץ להשתמש ב - [VPN](vpn.md) או [Tor](https://www.torproject.org/) אם מודל האיום דורש הסתרת כתובת ה - IP שלכם מספק החיפוש.
+Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
 
 ## חיפוש Brave
 
@@ -24,10 +24,10 @@ Brave Search כולל תכונות ייחודיות כגון דיונים, המ�
 
 אנו ממליצים להשבית את [מדדי שימוש אנונימיים](https://search.brave.com/help/usage-metrics) מכיוון שהוא מופעל כברירת מחדל וניתן להשבית אותו בהגדרות.
 
-[:octicons-home-16: דף הבית](https://search.brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://search.brave.com/help){ .card-link title=תיעוד}
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
 
 </details>
 
@@ -41,14 +41,14 @@ Brave Search מבוסס בארצות הברית. [מדיניות הפרטיות]
 
 ![DuckDuckGo לוגו](assets/img/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** היא אחת האפשרויות היותר מיינסטרים במנועי חיפוש פרטיים. תכונות החיפוש הבולטות של DuckDuckGo כוללות [bangs](https://duckduckgo.com/bang) והרבה [תשובות מיידיות](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). מנוע החיפוש מסתמך על Bing API מסחרי כדי להגיש את רוב התוצאות, אך הוא משתמש במספר [מקורות אחרים](https://help.duckduckgo.com/results/sources/) לתשובות מיידיות ולתוצאות אחרות שאינן ראשוניות.
+**DuckDuckGo** היא אחת האפשרויות היותר מיינסטרים במנועי חיפוש פרטיים. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources) for instant answers and other non-primary results.
 
 DuckDuckGo הוא מנוע החיפוש המוגדר כברירת מחדל עבור דפדפן Tor והוא אחת האפשרויות הבודדות הזמינות בדפדפן הספארי של אפל.
 
-[:octicons-home-16: דף הבית](https://duckduckgo.com){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://help.duckduckgo.com/){ .card-link title=תיעוד}
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
 
 </details>
 
@@ -56,7 +56,7 @@ DuckDuckGo הוא מנוע החיפוש המוגדר כברירת מחדל עב�
 
 DuckDuckGo מבוססת בארצות הברית. [מדיניות הפרטיות](https://duckduckgo.com/privacy) שלהם קובעת **שהם** שומרים את החיפושים שלך למטרות שיפור מוצרים, אך לא את כתובת ה-IP שלך או כל מידע מזהה אישי אחר.
 
-DuckDuckGo מציעה שתי [גרסאות אחרות](https://help.duckduckgo.com/features/non-javascript/) של מנוע החיפוש שלהם, שתיהן אינן דורשות JavaScript. עם זאת, גרסאות אלו חסרות תכונות. ניתן להשתמש בגרסאות אלה גם יחד עם [Tor כתובת בצל](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) על-ידי צירוף [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) או [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) עבור הגרסה המתאימה.
+DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. עם זאת, גרסאות אלו חסרות תכונות. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
 ## SearXNG
 
@@ -66,9 +66,9 @@ DuckDuckGo מציעה שתי [גרסאות אחרות](https://help.duckduckgo.c
 
 **SearXNG** הוא מנוע חיפוש מטה-חיפוש, מתארח בעצמו, קוד-פתוח, אוסף את התוצאות של מנועי חיפוש אחרים מבלי לאחסן מידע בעצמו. זהו מזלג מתוחזק פעיל של [SearX](https://github.com/searx/searx).
 
-[:octicons-home-16: דף הבית](https://searxng.org){ .md-button .md-button--primary }
-[:octicons-server-16:](https://searx.space/){ .card-link title="מופעים ציבוריים"}
-[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="קוד מקור" }
+[:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
+[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
 
 </details>
 
@@ -84,14 +84,14 @@ SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שמהם �
 
 <div class="admonition recommendation" markdown>
 
-![Startpage לוגו](assets/img/search-engines/startpage.svg#only-light){ align=right }
-![Startpage לוגו](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
+![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-**Startpage** הוא מנוע חיפוש פרטי הידוע בשירות [Google ו-Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage -and-your-search-partners-like-Google-and-Microsoft-Bing-) תוצאות החיפוש.  אחת התכונות הייחודיות של Startpage היא [תצוגה אנונימית](https://www.startpage.com/en/anonymous-view/), שמשקיעה מאמצים בסטנדרטיזציה של פעילות המשתמשים כדי להקשות על זיהוי ייחודי. התכונה יכולה להיות שימושית להסתרת [some](https://support.startpage.com/hc/en-us/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) מאפייני הרשת והדפדפן. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
+**Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) search results.  One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. שלא כמו שהשם מרמז, אין להסתמך על התכונה לאנונימיות. אם אתה מחפש אנונימיות, השתמש במקום זאת ב [Tor Browser]( tor.md#tor - browser).
 
-[:octicons-home-16: דף הבית](https://www.startpage.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.startpage.com/en/privacy-policy){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://support.startpage.com/hc/en-us/categories/4481917470356-Startpage-Search-Engine){ .card-link title=תיעוד}
+[:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
 </details>
 
@@ -104,9 +104,9 @@ Startpage מגביל באופן קבוע את גישת השירות לכתובו
 
 </div>
 
-Startpage מבוסס בהולנד. לפי [מדיניות הפרטיות](https://www.startpage.com/en/privacy-policy/) שלהם, הם רושמים פרטים כגון: מערכת הפעלה, סוג הדפדפן והשפה. הם לא רושמים את כתובת ה-IP שלך, שאילתות חיפוש או מידע אישי מזהה אחר.
+Startpage מבוסס בהולנד. According to their [privacy policy](https://startpage.com/en/privacy-policy), they log details such as: operating system, type of browser, and language. הם לא רושמים את כתובת ה-IP שלך, שאילתות חיפוש או מידע אישי מזהה אחר.
 
-בעלת המניות הרוב של Startpage היא System1 שהיא חברת adtech. אנחנו לא מאמינים שזו בעיה מכיוון שיש להם [מדיניות פרטיות](https://system1.com/terms/privacy-policy) נפרדת באופן מובהק. צוות Privacy Guides פנה אל Startpage [בשנת 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage/) כדי לפתור את כל החששות מההשקעה הגדולה של System1 בשירות. היינו מרוצים מהתשובות שקיבלנו.
+בעלת המניות הרוב של Startpage היא System1 שהיא חברת adtech. אנחנו לא מאמינים שזו בעיה מכיוון שיש להם [מדיניות פרטיות](https://system1.com/terms/privacy-policy) נפרדת באופן מובהק. The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service. היינו מרוצים מהתשובות שקיבלנו.
 
 ## קריטריונים
 

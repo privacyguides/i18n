@@ -60,7 +60,7 @@ Inoltre, molti OEM dispongono di un'implementazione corrotta dell'Avvio Verifica
 
 Gli aggiornamenti del firmware sono fondamentali per mantenere la sicurezza e, senza di essi, il tuo dispositivo non può essere sicuro. Gli OEM stipulano accordi di supporto coi propri partner per fornire i componenti closed source per un periodo di supporto limitato. Questi sono mensilmente riportati nei [Bollettini di Sicurezza di Android](https://source.android.com/security/bulletin).
 
-Poiché i componenti del telefono, come il processore e le tecnologie radio, si affidano a componenti closed source, gli aggiornamenti devono essere forniti dai rispettivi produttori. Dunque, è importante che tu acquisti un dispositivo entro un ciclo di supporto attivo. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) e [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) supportano i propri dispositivi per 4 anni, mentre i prodotti più economici prevedono spesso cicli di supporto più brevi. Con l'introduzione del [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google produce ora il proprio SoC e fornirà un supporto di almeno 5 anni. Con l'introduzione della serie Pixel 8, Google ha aumentato la finestra di supporto a 7 anni.
+Poiché i componenti del telefono, come il processore e le tecnologie radio, si affidano a componenti closed source, gli aggiornamenti devono essere forniti dai rispettivi produttori. Dunque, è importante che tu acquisti un dispositivo entro un ciclo di supporto attivo. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. Con l'introduzione del [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google produce ora il proprio SoC e fornirà un supporto di almeno 5 anni. Con l'introduzione della serie Pixel 8, Google ha aumentato la finestra di supporto a 7 anni.
 
 I dispositivi EOL, non più supportati dal produttore del SoC, non possono ricevere aggiornamenti del firmware dai fornitori OEM o dai distributori di ricambi per Android. Ciò significa che i problemi di sicurezza di questi dispositivi non saranno risolti.
 
@@ -97,19 +97,19 @@ Android 13:
 
 Un'app potrebbe richiedere un'autorizzazione per una sua funzionalità specifica. Ad esempio, ogni app capace di scansionare i codici QR, richiederà l'autorizzazione all'utilizzo della fotocamera. Alcune app possono richiedere più autorizzazioni di quelle necessarie.
 
-[Exodus](https://exodus-privacy.eu.org/) può essere utile se devi confrontare app con scopi simili. Se un'app richiede molte autorizzazioni e contiene molti annunci e analisi, è probabilmente un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contarne il totale** e supporre che tutte le voci elencate siano uguali.
+[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. Se un'app richiede molte autorizzazioni e contiene molti annunci e analisi, è probabilmente un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contarne il totale** e supporre che tutte le voci elencate siano uguali.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-Se un'app è prevalentemente un servizio basato su web, il tracciamento potrebbe verificarsi dal lato del server. [Facebook](https://reports.exodus-privacy.eu.org/it/reports/com.facebook.katana/latest/) mostra "nessun tracciatore", ma traccia sicuramente gli interessi e comportamenti degli utenti sul sito. Le app potrebbero eludere il rilevamento non utilizzando le librerie di codice standard prodotte dall'industria pubblicitaria, sebbene sia improbabile.
+Se un'app è prevalentemente un servizio basato su web, il tracciamento potrebbe verificarsi dal lato del server. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Le app potrebbero eludere il rilevamento non utilizzando le librerie di codice standard prodotte dall'industria pubblicitaria, sebbene sia improbabile.
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-Le app che rispettano la privacy come [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/) potrebbero mostrare dei tracciatori come [Google Firebase Analytics](https://reports.exodus.privacy.eu.org/en/trackers/49/). Questa libreria include [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) che può fornire [notifiche push](https://en.wikipedia.org/wiki/Push_technology) nelle app. Questo [è il caso] (https://fosstodon.org/@bitwarden/109636825700482007) di Bitwarden. Ciò non significa che Bitwarden sta utilizzando tutte le funzionalità analitiche fornite da Google Firebase Analytics.
+Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). Questa libreria include [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) che può fornire [notifiche push](https://en.wikipedia.org/wiki/Push_technology) nelle app. Questo [è il caso] (https://fosstodon.org/@bitwarden/109636825700482007) di Bitwarden. Ciò non significa che Bitwarden sta utilizzando tutte le funzionalità analitiche fornite da Google Firebase Analytics.
 
 </div>
 
@@ -145,20 +145,20 @@ Se utilizzi un dispositivo provvisto dei servizi di Google, il tuo sistema opera
 
 ### Programma di protezione avanzata
 
-Se possiedi un profilo Google, ti suggeriamo di iscriverti al [Programma di Protezione Avanzata](https://landing.google.com/advancedprotection/). È disponibile gratuitamente a costo zero per chiunque possieda due o più chiavi di sicurezza hardware con supporto a [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). È disponibile gratuitamente a costo zero per chiunque possieda due o più chiavi di sicurezza hardware con supporto a [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
 
 Il Programma di Protezione Avanzata fornisce un migliore monitoraggio delle minacce, e consente:
 
 - Autenticazione a due fattori più rigida; ad esempio, [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **deve** essere utilizzato e non è consentito l'uso di [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) e [OAuth](https://en.wikipedia.org/wiki/OAuth)
 - L'accesso ai dati del profilo soltanto a Google e alle app verificate di terze parti
 - Scansione delle email in entrata sui profili Gmail, in cerca di tentativi di [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
-- [Scansione del browser sicura](https://www.google.com/chrome/privacy/whitepaper.html#malware) e più rigida, con Google Chrome
+- Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
 - Processo di recupero più rigido per i profili con credenziali perdute
 
- Se utilizzi Google Play Services non 'sandboxed' (comune sui sistemi operativi di fabbrica), il Programma di Protezione Avanzata fornisce anche dei [benefici aggiuntivi](https://support.google.com/accounts/answer/9764949?hl=en), come:
+ If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
 
 - Non permette l'installazione di app al di fuori del Google Play Store, dell'app store del fornitore del sistema operativo o tramite [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- Scansione del dispositivo automatica e obbligatoria con [Play Protect](https://support.google.com/googleplay/answer/2812853?hl=en#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Avviso sulle applicazioni non verificate
 
 ### Aggiornamenti di Sistema di Google Play
@@ -169,7 +169,7 @@ Se possiedi un dispositivo al termine della vita, distribuito con Android 10 o s
 
 ### ID pubblicitario
 
-Tutti i dispositivi con Google Play Services installata automaticamente, generano un [ID pubblicitario](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en), utilizzando per la pubblicità mirata. Disabilita questa funzionalità per limitare i dati raccolti su di te.
+All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Disabilita questa funzionalità per limitare i dati raccolti su di te.
 
 Sulle distribuzioni Android con [Google Play in modalità sandbox](https://grapheneos.org/usage#sandboxed-google-play), vai su :gear: **Impostazioni** → **App** → **Sandboxed Google Play** → **Impostazioni di Google** → **Pubblicità** e seleziona *Elimina ID pubblicitario*.
 

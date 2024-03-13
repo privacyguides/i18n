@@ -17,7 +17,7 @@ Bedrijfslogo's hebben canvas grootte van:
 
 ### PNG
 
-Gebruik [OptiPNG](https://sourceforge.net/projects/optipng/) om de PNG-afbeelding te optimaliseren:
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
 
 ```bash
 optipng -o7 file.png

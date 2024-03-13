@@ -28,7 +28,7 @@ schema:
     "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
-    url: https://www.apple.com/safari/
+    url: https://apple.com/safari
     applicationCategory: Web Browser
     operatingSystem:
       - iOS
@@ -41,7 +41,7 @@ schema:
 
 ## 安卓
 
-在安卓系統上， Firefox 仍然不如基於 Chromium 的替代品安全： Mozilla 的引擎 [GeckoView](https://mozilla.github.io/geckoview/)尚未支持 [站點隔離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) 或啟用 [隔離流程](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)。
+On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 ### Brave
 
@@ -49,14 +49,14 @@ schema:
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
+**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
 
 Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
 
-[:octicons-home-16: Homepage](https://brave.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -77,7 +77,7 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用Bra
 
 ##### Shields
 
-Brave [Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields-) 功能包含一些防指紋識別措施。 我們建議您在所有瀏覽的網頁上設定這些選項 [全局](https://support.brave.com/hc/en-us/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings-) 。
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 ##### Brave屏蔽全局默認值
 
@@ -100,7 +100,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net/) 擴展。
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
 ##### 清除瀏覽資料
 
@@ -114,13 +114,13 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 <div class="annotate" markdown>
 
-- [x] 選擇 **在[WebRTC IP處理政策](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)**
-- []取消勾選 **允許網站檢查您是否儲存了付款方式**
-- []取消勾選 **IPFS閘道** (1)
-- [x] 選擇 **關閉出口標籤**
-- [ ] 取消勾選**允許隱私保護產品分析(P3A)**
-- [ ] 取消勾選 **自動發送診斷報告**
-- [ ] 取消勾選 **自動發送每日使用情況給Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (1)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 
@@ -128,7 +128,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 #### Brave 同步
 
-[Brave Sync](https://support.brave.com/hc/en-us/articles/360059793111-Understanding-Brave-Sync) 允許您在不同設備上訪問瀏覽數據（歷史記錄，書籤等），而無需帳戶且有 E2EE保護。
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## iOS
 
@@ -140,10 +140,10 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是iOS 預設瀏覽器。 它包括[隱私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0)，例如[預防智慧追蹤](https://webkit .org/blog/7675/intelligent-tracking-prevention/)、隱私權報告、獨立且短暫的私密瀏覽標籤、iCloud 私密中繼、透過隨機化向網站呈現系統配置的簡化版以實現指紋保護，讓更多設備看起來差不多一樣，使用生物識別資訊/PIN 鎖定私人標籤的能力。 它可以使用不同的配置檔來分開瀏覽。
+**Safari** 是iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. 它可以使用不同的配置檔來分開瀏覽。
 
-[:octicons-home-16: Homepage](https://www.apple.com/safari/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/en/safari/){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
 </details>
@@ -184,7 +184,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 - [ ] 禁用 **隱私保留廣告計量**
 
-廣告點擊測量是過去用來追蹤侵犯用戶隱私的技術。 [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/) 是一個 WebKit 功能和提議的網頁標準，旨在允許廣告商在不影響用戶隱私的情況下衡量網站活動的有效性。
+廣告點擊測量是過去用來追蹤侵犯用戶隱私的技術。 [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
 此功能本身沒有什麼隱私疑慮，因此您可以選擇不管它，但我們認為，它在私密瀏覽中自動停用反而顯示出功能被關閉的情況。
 
@@ -200,9 +200,9 @@ Safari的私人瀏覽模式提供額外的隱私保護。 隱私瀏覽每個標�
 
 ##### iCloud 同步
 
-Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都是 E2EE。 但默認情況下，書籤[不是](https://support.apple.com/en-us/HT202303)。 Apple可以根據其 [隱私權政策](https://www.apple.com/legal/privacy/en-ww/)解密並存取它們。
+Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都是 E2EE。 However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-您可以為Safari 書籤和下載啟用 E2EE ，只需啟用 [Advanced Data Protection](https://support.apple.com/en-us/HT212520)即可。 請在 **Apple ID name → iCloud → 進階資料保護**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). 請在 **Apple ID name → iCloud → 進階資料保護**.
 
 - [x] 開啟 **進階資料保護**
 
@@ -224,9 +224,9 @@ iOS 版 AdGuard 有一些高級功能；然而，標準Safari 內容封鎖是免
 [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-store/id1047223162)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 
 </details>
 

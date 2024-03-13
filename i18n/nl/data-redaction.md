@@ -88,12 +88,12 @@ De app biedt meerdere manieren om metadata uit afbeeldingen te wissen. Namelijk:
 Metapho geeft eenvoudige en nette weergave van de afbeeldingsmetadata zoals datum, bestandsnaam, grootte, camera model, sluitertijd, en locatie.
 
 [:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/metapho/id914457352)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
 
@@ -107,7 +107,7 @@ Metapho geeft eenvoudige en nette weergave van de afbeeldingsmetadata zoals datu
 
 **PrivacyBlur** is een gratis app die gevoelige delen van foto's kan vervagen voordat je ze online deelt.
 
-[:octicons-home-16: Homepage](https://privacyblur.app/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
@@ -116,7 +116,7 @@ Metapho geeft eenvoudige en nette weergave van de afbeeldingsmetadata zoals datu
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/privacyblur/id1536274106)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
 
 </details>
 

@@ -4,25 +4,25 @@ icon: 'material/account-remove'
 description: Het is gemakkelijk om een groot aantal internetaccounts op te bouwen, hier zijn enkele tips over hoe je jouw verzameling kunt snoeien.
 ---
 
-Na verloop van tijd kan het gemakkelijk zijn om een aantal online accounts te verzamelen, waarvan je er vele misschien niet meer gebruikt. Het verwijderen van deze ongebruikte accounts is een belangrijke stap in het terugwinnen van jouw privacy, aangezien slapende accounts kwetsbaar zijn voor gegevensinbreuken. Van een datalek is sprake wanneer de beveiliging van een dienst wordt gecompromitteerd en beschermde informatie door onbevoegden wordt ingezien, doorgegeven of gestolen. Inbreuken op gegevens zijn tegenwoordig helaas al [te gewoon](https://haveibeenpwned.com/PwnedWebsites), en dus is een goede digitale hygiëne de beste manier om de impact ervan op jouw leven te minimaliseren. Het doel van deze gids is je door het vervelende proces van accountverwijdering te loodsen, vaak bemoeilijkt door [bedrieglijk ontwerp](https://www.deceptive.design/), ten voordele van uw online aanwezigheid.
+Na verloop van tijd kan het gemakkelijk zijn om een aantal online accounts te verzamelen, waarvan je er vele misschien niet meer gebruikt. Het verwijderen van deze ongebruikte accounts is een belangrijke stap in het terugwinnen van jouw privacy, aangezien slapende accounts kwetsbaar zijn voor gegevensinbreuken. Van een datalek is sprake wanneer de beveiliging van een dienst wordt gecompromitteerd en beschermde informatie door onbevoegden wordt ingezien, doorgegeven of gestolen. Inbreuken op gegevens zijn tegenwoordig helaas al [te gewoon](https://haveibeenpwned.com/PwnedWebsites), en dus is een goede digitale hygiëne de beste manier om de impact ervan op jouw leven te minimaliseren. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## Oude accounts vinden
 
 ### Wachtwoord Manager
 
-Als u een wachtwoord manager hebt die je al jouw hele digitale leven gebruikt, is dit deel heel eenvoudig. Vaak hebben ze ingebouwde functionaliteit om te detecteren of jouw gegevens zijn blootgesteld bij een datalek, zoals het [Data Breach Report van Bitwarden](https://bitwarden.com/blog/have-you-been-pwned/).
+Als u een wachtwoord manager hebt die je al jouw hele digitale leven gebruikt, is dit deel heel eenvoudig. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
   ![Bitwarden 's Data Breach Report-functie](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Zelfs als je nog nooit expliciet een wachtwoordmanager hebt gebruikt, is de kans groot dat je er een in jouw browser of op jouw telefoon hebt gebruikt zonder het te beseffen. Bijvoorbeeld: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) en [Edge Password Manager](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Zelfs als je nog nooit expliciet een wachtwoordmanager hebt gebruikt, is de kans groot dat je er een in jouw browser of op jouw telefoon hebt gebruikt zonder het te beseffen. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
 Desktopplatforms hebben vaak ook een wachtwoordmanager waarmee je vergeten wachtwoorden kunt terugvinden:
 
-- Windows [Credential Manager](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Wachtwoorden](https://support.apple.com/en-us/HT211145)
-- iOS [Wachtwoorden](https://support.apple.com/en-us/HT211146)
+- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [Passwords](https://support.apple.com/HT211145)
+- iOS [Passwords](https://support.apple.com/HT211146)
 - Linux, Gnome Keyring, die toegankelijk is via [Seahorse](https://wiki.gnome.org/Apps/Seahorse) of [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
@@ -39,7 +39,7 @@ Als de site een foutmelding geeft dat het e-mailadres niet gekoppeld is aan een 
 
 ### GDPR (alleen inwoners van de EER)
 
-Inwoners van de EER hebben aanvullende rechten met betrekking tot het wissen van gegevens, zoals gespecificeerd in [artikel 17](https://www.gdpr.org/regulation/article-17.html) van de GDPR. Als het op je van toepassing is, lees dan het privacybeleid voor een bepaalde dienst om informatie te vinden over hoe je jouw recht op wissing kunt uitoefenen. Het lezen van het privacybeleid kan belangrijk blijken, want sommige diensten hebben een optie "Account verwijderen" die alleen jouw account uitschakelt en voor echte verwijdering moet je extra actie ondernemen. Soms kan het daadwerkelijk wissen inhouden dat je een enquête invult, een e-mail stuurt naar de functionaris voor gegevensbescherming van de dienst of zelfs bewijst dat je in de EER woont. Als je van plan bent deze weg te gaan, overschrijf dan de accountgegevens van **niet** - jouw identiteit als inwoner van de EER kan vereist zijn. Merk op dat de locatie van de dienst er niet toe doet; GDPR is van toepassing op iedereen die Europese gebruikers bedient. Indien de dienst jouw recht op wissing niet respecteert, kunt je contact opnemen met jouw nationale [gegevensbeschermingsautoriteit](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) en kunt je recht hebben op een geldelijke vergoeding.
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. Als het op je van toepassing is, lees dan het privacybeleid voor een bepaalde dienst om informatie te vinden over hoe je jouw recht op wissing kunt uitoefenen. Het lezen van het privacybeleid kan belangrijk blijken, want sommige diensten hebben een optie "Account verwijderen" die alleen jouw account uitschakelt en voor echte verwijdering moet je extra actie ondernemen. Soms kan het daadwerkelijk wissen inhouden dat je een enquête invult, een e-mail stuurt naar de functionaris voor gegevensbescherming van de dienst of zelfs bewijst dat je in de EER woont. Als je van plan bent deze weg te gaan, overschrijf dan de accountgegevens van **niet** - jouw identiteit als inwoner van de EER kan vereist zijn. Merk op dat de locatie van de dienst er niet toe doet; GDPR is van toepassing op iedereen die Europese gebruikers bedient. Indien de dienst jouw recht op wissing niet respecteert, kunt je contact opnemen met jouw nationale [gegevensbeschermingsautoriteit](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) en kunt je recht hebben op een geldelijke vergoeding.
 
 ### Overschrijven van account informatie
 
@@ -59,4 +59,4 @@ Zelfs wanneer je een account kunt verwijderen, is er geen garantie dat al jouw i
 
 ## Vermijd nieuwe accounts
 
-Zoals het oude gezegde luidt: "Voorkomen is beter dan genezen." Telkens wanneer je in de verleiding komt om een nieuwe account aan te maken, vraag jezelf dan af: "Heb ik dit echt nodig? Kan ik doen wat ik moet doen zonder een account?" Het kan vaak veel moeilijker zijn om een account te verwijderen dan om er een aan te maken. En zelfs na het verwijderen of wijzigen van de info op jouw account, kan er een cache-versie van een derde partij zijn, zoals het [Internet Archive](https://archive.org/). Vermijd de verleiding als je kunt. Je toekomstige ik zal je dankbaar zijn!
+Zoals het oude gezegde luidt: "Voorkomen is beter dan genezen." Telkens wanneer je in de verleiding komt om een nieuwe account aan te maken, vraag jezelf dan af: "Heb ik dit echt nodig? Kan ik doen wat ik moet doen zonder een account?" Het kan vaak veel moeilijker zijn om een account te verwijderen dan om er een aan te maken. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). Vermijd de verleiding als je kunt. Je toekomstige ik zal je dankbaar zijn!

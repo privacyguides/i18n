@@ -21,7 +21,7 @@ cover: news-aggregators.webp
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
 [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -83,7 +83,7 @@ cover: news-aggregators.webp
 
 [:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki/){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
 
@@ -121,15 +121,15 @@ cover: news-aggregators.webp
 
 **NetNewsWire**는 네이티브 디자인 및 기능에 중점을 둔 macOS, iOS용 무료 오픈소스 피드 리더입니다. 일반적인 피드 형식과 함께 Reddit 피드를 기본 지원합니다.
 
-[:octicons-home-16: Homepage](https://netnewswire.com/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help/){ .card-link title=Documentation}
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
 
 </details>
@@ -178,7 +178,7 @@ Reddit에서는 RSS를 이용해 서브레딧을 구독할 수 있습니다.
 Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
 
 ```text
-https://www.reddit.com/r/[SUBREDDIT]/new/.rss
+https://reddit.com/r/[SUBREDDIT]/new/.rss
 ```
 
 </div>
@@ -193,7 +193,7 @@ YouTube에 로그인하거나 여러분의 Google 계정에 사용 정보를 남
 RSS 클라이언트로 Youtube 채널을 구독하려면 [채널 코드](https://support.google.com/youtube/answer/6180214)를 확인해야 합니다. The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
 
 ```text
-https://www.youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
 ```
 
 </div>

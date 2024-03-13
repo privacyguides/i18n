@@ -55,7 +55,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 </div>
 
-若您特別擔心 **物理攻擊**，就應選用具安全驗證開機的作業系統，例如 Android, iOS, macOS, 或[Windows (帶 TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process)。 應確保您的驅動器是加密的，並且操作系統使用 TPM或 Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) 來限制輸入加密密碼的嘗試率。 您應該避免與不信任的人共享您的電腦，因為大多數桌面作業系統不會單獨加密每個用戶的數據。
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). 應確保您的驅動器是加密的，並且操作系統使用 TPM或 Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) 來限制輸入加密密碼的嘗試率。 您應該避免與不信任的人共享您的電腦，因為大多數桌面作業系統不會單獨加密每個用戶的數據。
 
 ## 服務供應商的隱私權
 
@@ -89,16 +89,16 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-如果您想進一步了解監控方法及其在您所在城市的實施方式，您也可以查看[電子前鋒基金會 Eff](https://www.eff.org/)的[監控地圖集](https://atlasofsurveillance.org/)。
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 政府常認為大規模監控計劃是打擊恐怖主義和預防犯罪的必要手段。 然而，少數羣體和政治異見人士最常遭受不成比例地人權侵害。
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 面對[愛德華·斯諾登（Edward Snowden）披露的 [PRISM]（ https://en.wikipedia.org/wiki/PRISM ）和 [Upstream]（ https://en.wikipedia.org/wiki/Upstream_collection ）]等政府計劃，情報官員承認，國家安全局多年來一直祕密地收集每個美國人電話的記錄—誰在打電話，何時打電話，以及通話時間多久。 當  NSA 日復一日地收集這類資訊時，就可以揭示人們生活相關聯的敏感細節，例如他們是否打電話給牧師、墮胎提供者、成癮顧問或自殺熱線。
 
@@ -144,7 +144,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 網口審查包括由極權主義政府、網路管理員和服務提供商等所進行的行為（在不同程度上）。 這些試圖控制通訊與限縮資料取用的作為，往往不見容於意見自由的基本人權。[^5]
 
-對企業平臺的審查越來越普遍，如Twitter 和 Facebook 等平臺屈服於公眾需求、市場和政府機構的壓力。 政府對企業的施壓可能是隱蔽的，例如白宮私下 [要求拿掉](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) 某個勯動的 Youtube 影片，或是公開者如中國政府命令企業要遵循嚴厲的審查制度。
+對企業平臺的審查越來越普遍，如Twitter 和 Facebook 等平臺屈服於公眾需求、市場和政府機構的壓力。 Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 關注審查威脅的人可以使用像 [Tor](../advanced/tor-overview.md) 這樣的技術來規避它，並支持像 [Matrix](../real-time-communication.md#element)這樣的抗審查通信平臺，該平臺沒有可以任意關閉帳戶的集中帳戶權限。
 
@@ -162,5 +162,5 @@ In France you can take a look at the [Technopolice website](https://technopolice
 [^1]: 維基百科: [*大型監控*](https://en.wikipedia.org/wiki/Mass_surveillance) 與 [*監控*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: 美國隱私和公民自由監督委員會： [*根據第 215 條進行的電話記錄計劃的報告*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: 維基百科: [*監控資本主義*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: “[枚舉壞處](https://www.ranum.com/security/computer_security/editorials/dumb/)” （或“列出所知的全部壞事” ），未能充分保護您免受新的和未知的威脅，因為許多內容攔截程式和防病毒程式尚未被添加到過濾器列表。 您還應採用其他緩解技術。
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 您還應採用其他緩解技術。
 [^5]: 聯合國： [*《世界人權宣言》*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

@@ -15,7 +15,7 @@ cover: file-sharing.webp
 
 ![Логотип Send](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** - это форк прекратившего свое существование сервиса Firefox Send от Mozilla, который позволяет отправлять файлы другим людям с помощью ссылки. Файлы шифруются на вашем устройстве, чтобы их не мог прочитать сервер, и по желанию могут быть защищены паролем. Разработчик Send держит [публичный экземпляр сайта](https://send.vis.ee/). Вы можете использовать другие публичные экземпляры или развернуть Send самостоятельно.
+**Send** - это форк прекратившего свое существование сервиса Firefox Send от Mozilla, который позволяет отправлять файлы другим людям с помощью ссылки. Файлы шифруются на вашем устройстве, чтобы их не мог прочитать сервер, и по желанию могут быть защищены паролем. The maintainer of Send hosts a [public instance](https://send.vis.ee). Вы можете использовать другие публичные экземпляры или развернуть Send самостоятельно.
 
 [:octicons-home-16: Домашняя страница](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Публичные экземпляры"}
@@ -80,10 +80,10 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **FreedomBox** - это операционная система, разработанная для запуска на [одноплатном компьютере](https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%BD%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80). Цель FreedomBox заключается в том, чтобы максимально облегчить настройку серверных приложений для самостоятельного хостинга.
 
-[:octicons-home-16: Домашняя страница](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Документация}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Исходный код" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate/){ .card-link title=Поддержать }
+[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
+[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -101,9 +101,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -137,16 +137,16 @@ ffsend upload --host https://send.vis.ee/ FILE
 [:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-- [:simple-windows11: Windows](https://syncthing.net/downloads/)
-- [:simple-apple: macOS](https://syncthing.net/downloads/)
-- [:simple-linux: Linux](https://syncthing.net/downloads/)
-- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads/)
+- [:simple-windows11: Windows](https://syncthing.net/downloads)
+- [:simple-apple: macOS](https://syncthing.net/downloads)
+- [:simple-linux: Linux](https://syncthing.net/downloads)
+- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
 
 </details>
 

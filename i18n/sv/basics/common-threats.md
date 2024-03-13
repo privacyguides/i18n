@@ -55,7 +55,7 @@ I **webbläsare**, **emailklienter** och **kontorsprogram** körs vanligtvis kod
 
 </div>
 
-Om du är orolig för **fysiska attacker** bör du använda ett operativsystem med en säker verifierad uppstart, t.ex. Android, iOS, macOS eller [Windows (med TPM)](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process). Du bör också se till att enheten är krypterad och att operativsystemet använder en TPM eller Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) eller [Element](https://developers.google.com/android/security/android-ready-se) för att begränsa försöken att ange krypteringsfrasen. Du bör undvika att dela din dator med personer du inte litar på, eftersom de flesta stationära operativsystem inte krypterar data separat per användare.
+If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Du bör också se till att enheten är krypterad och att operativsystemet använder en TPM eller Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) eller [Element](https://developers.google.com/android/security/android-ready-se) för att begränsa försöken att ange krypteringsfrasen. Du bör undvika att dela din dator med personer du inte litar på, eftersom de flesta stationära operativsystem inte krypterar data separat per användare.
 
 ## Sekretess från tjänsteleverantörer
 
@@ -89,16 +89,16 @@ Massövervakning är ett komplicerat försök att övervaka "beteende, många ak
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-Om du vill veta mer om övervakningsmetoder och hur de tillämpas i din stad kan du också ta en titt på [Atlas of Surveillance] (https://atlasofsurveillance.org/) från [Electronic Frontier Foundation] (https://www.eff.org/).
+If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes/) maintained by the non-profit association La Quadrature du Net.
+In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
 Regeringar rättfärdigar ofta massövervakningsprogram som nödvändiga medel för att bekämpa terrorism och förebygga brottslighet. Men kränker de mänskliga rättigheterna, är det oftast används för att oproportionerligt rikta minoritetsgrupper och politiska dissidenter, bland annat.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://www.aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 Med anledning av [Edward Snowdens avslöjanden om regeringsprogram som [PRISM](https://en.wikipedia.org/wiki/PRISM) och [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)] erkände underrättelsetjänstemännen också att NSA i åratal i hemlighet hade samlat in uppgifter om praktiskt taget alla amerikaners telefonsamtal - vem som ringer till vem, när samtalen görs och hur länge de varar. Den här typen av information kan, när den samlas in av NSA dag efter dag, avslöja otroligt känsliga detaljer om människors liv och umgänge, t. ex. om de har ringt till en pastor, en abortvårdare, en missbruksrådgivare eller en självmordshotline.
 
@@ -144,7 +144,7 @@ Om du redan har skickat in din riktiga information till webbplatser som inte bor
 
 Censur på nätet kan utföras (i varierande grad) av aktörer som totalitära regeringar, nätverksadministratörer och tjänsteleverantörer. Dessa försök att kontrollera kommunikation och begränsa tillgången till information kommer alltid att vara oförenliga med den mänskliga rätten till yttrandefrihet.[^5]
 
-Censur på företagsplattformar blir allt vanligare, eftersom plattformar som Twitter och Facebook ger efter för allmänhetens efterfrågan, marknadstryck och påtryckningar från myndigheter. Statliga påtryckningar kan vara dolda förfrågningar till företag, till exempel när Vita huset [begär att en provocerande YouTube-video ska tas bort](https://www.nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html), eller öppna förfrågningar, till exempel när den kinesiska regeringen kräver att företag ska följa en strikt censurregim.
+Censur på företagsplattformar blir allt vanligare, eftersom plattformar som Twitter och Facebook ger efter för allmänhetens efterfrågan, marknadstryck och påtryckningar från myndigheter. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
 Människor som oroar sig för hotet om censur kan använda teknik som [Tor](../advanced/tor-overview.md) för att kringgå den och stödja censurresistenta kommunikationsplattformar som [Matrix](../real-time-communication.md#element), som inte har någon centraliserad kontoinspektion som kan stänga konton godtyckligt.
 
@@ -162,5 +162,5 @@ Du måste alltid överväga riskerna med att försöka kringgå censur, de poten
 [^1]: Wikipedia: [*Massövervakning*](https://en.wikipedia.org/wiki/Mass_surveillance) och [*Övervakning*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: Usa: s tillsynsnämnd för integritet och medborgerliga fri- och rättigheter: [*Rapport om telefonregistreringsprogrammet som genomförts enligt avsnitt 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Övervakningskapitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://www.ranum.com/security/computer_security/editorials/dumb/)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Du bör också använda andra metoder för att minska risken.
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Du bör också använda andra metoder för att minska risken.
 [^5]: Förenta nationerna: [*Universella förklaringen om de mänskliga rättigheterna*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).

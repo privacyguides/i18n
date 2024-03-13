@@ -4,25 +4,25 @@ icon: 'material/account-remove'
 description: È facile accumulare un numerosi profili su Internet, ecco alcuni consigli su come sfoltirli.
 ---
 
-Con il tempo, può essere facile accumulare numerosi profili online, molti dei quali non sono più utilizzati. L'eliminazione di tali profili inutilizzati è un passaggio importante per rivendicare la propria privacy, poiché i profili inattivi sono vulnerabili alle violazioni di dati. Una violazione dei dati si verifica quando la sicurezza di un servizio viene compromessa, e le informazioni protette vengono visualizzate, trasmesse o rubate da utenti non autorizzati. Le violazioni dei dati, oggi, sono sfortunatamente tutte [troppo comuni](https://haveibeenpwned.com/PwnedWebsites); quindi, praticare una buona igiene digitale è il metodo migliore per minimizzarne l'impatto sulla tua vita. Lo scopo di questa guida, quindi, è aiutarti a superare il fastidioso processo di eliminazione dei profili, spesso reso difficile dal [design ingannevole](https://www.deceptive.design/), per migliorare la propria presenza online.
+Con il tempo, può essere facile accumulare numerosi profili online, molti dei quali non sono più utilizzati. L'eliminazione di tali profili inutilizzati è un passaggio importante per rivendicare la propria privacy, poiché i profili inattivi sono vulnerabili alle violazioni di dati. Una violazione dei dati si verifica quando la sicurezza di un servizio viene compromessa, e le informazioni protette vengono visualizzate, trasmesse o rubate da utenti non autorizzati. Le violazioni dei dati, oggi, sono sfortunatamente tutte [troppo comuni](https://haveibeenpwned.com/PwnedWebsites); quindi, praticare una buona igiene digitale è il metodo migliore per minimizzarne l'impatto sulla tua vita. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
 
 ## Trovare i vecchi account
 
 ### Gestore di password
 
-Se hai un gestore di password che hai utilizzato per tutta la tua vita digitale, questa parte sarà molto semplice. Spesso, includono la funzionalità integrata per rilevare se le tue credenziali sono state esposte a violazioni di dati, come il [Rapporto sulle Violazioni dei Dati](https://bitwarden.com/blog/have-you-been-pwned/) di Bitwarden.
+Se hai un gestore di password che hai utilizzato per tutta la tua vita digitale, questa parte sarà molto semplice. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
 
 <figure markdown>
   ![Funzionalità di Rapporto sulle Violazioni dei Dati di Bitwarden](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Anche se non hai mai utilizzato un gestore di password, è probabile che tu abbia utilizzato quello del tuo browser o del tuo telefono senza nemmeno accorgetene. Ad esempio: [Gestore Password Firefox ](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins),[Gestore Password Google](https://passwords.google.com/intro) e [ Gestore Password Edge ](https://support.microsoft.com/en-us/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Anche se non hai mai utilizzato un gestore di password, è probabile che tu abbia utilizzato quello del tuo browser o del tuo telefono senza nemmeno accorgetene. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
 Le piattaforme desktop dispongono spesso di un gestore di password che può aiutarvi a recuperare le password dimenticate:
 
-- [Gestione credenziali](https://support.microsoft.com/en-us/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0) di Windows
-- [Password](https://support.apple.com/en-us/HT211145) di macOS
-- [ Password](https://support.apple.com/en-us/HT211146) di iOS
+- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOS [Passwords](https://support.apple.com/HT211145)
+- iOS [Passwords](https://support.apple.com/HT211146)
 - Gnome Keyring di Linux, accessibile tramite [Seahorse](https://wiki.gnome.org/Apps/Seahorse) o [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
@@ -39,7 +39,7 @@ Quando tenti di recuperare l'account, se il sito restituisce un messaggio di err
 
 ### GDPR (solo per i residenti nello SEE)
 
-I residenti SEE hanno ulteriori diritti relativi alla cancellazione dei dati, specificati all'[Articolo 17](https://www.gdpr.org/regulation/article-17.html) del RGPD. Se applicabile, leggi la politica sulla privacy per qualsiasi dato servizio, per trovare le informazioni su come esercitare il tuo diritto alla cancellazione. Leggere la politica sulla privacy può rivelarsi importante, poiché alcuni servizi hanno un'opzione "Elimina Profilo" che disabilita il tuo profilo, mentre per l'eliminazione reale devi intraprendere ulteriori azioni. Talvolta, l'eliminazione effettiva potrebbe richiedere la compilazione di sondaggi, il contatto del responsabile della protezione dei dati, o persino la dimostrazione della tua residenza nel SEE. Se intendi procedere in questo modo, **non** sovrascrivere le informazioni del profilo: la tua identità come residente del SEE potrebbe venirti richiesta. Nota che la posizione geografica del servizio non ha alcuna importanza; il RGPD si applica a chiunque serva utenti europei. Se il servizio non rispetta il tuo diritto alla cancellazione, puoi contattare l'[Autorità di Protezione dei Dati](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) nazionale, e potresti anche avere diritto a un risarcimento in denaro.
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. Se applicabile, leggi la politica sulla privacy per qualsiasi dato servizio, per trovare le informazioni su come esercitare il tuo diritto alla cancellazione. Leggere la politica sulla privacy può rivelarsi importante, poiché alcuni servizi hanno un'opzione "Elimina Profilo" che disabilita il tuo profilo, mentre per l'eliminazione reale devi intraprendere ulteriori azioni. Talvolta, l'eliminazione effettiva potrebbe richiedere la compilazione di sondaggi, il contatto del responsabile della protezione dei dati, o persino la dimostrazione della tua residenza nel SEE. Se intendi procedere in questo modo, **non** sovrascrivere le informazioni del profilo: la tua identità come residente del SEE potrebbe venirti richiesta. Nota che la posizione geografica del servizio non ha alcuna importanza; il RGPD si applica a chiunque serva utenti europei. Se il servizio non rispetta il tuo diritto alla cancellazione, puoi contattare l'[Autorità di Protezione dei Dati](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) nazionale, e potresti anche avere diritto a un risarcimento in denaro.
 
 ### Sovrascrivere informazioni del profilo
 
@@ -59,4 +59,4 @@ Anche quando riesci a eliminare un profilo, non vi è alcuna garanzia che tutte 
 
 ## Evita i nuovi profili
 
-Come dice il vecchio detto, "un grammo di prevenzione vale un chilo di cura." Ogni volta che ti senti tentato di registrare un nuovo profilo, chiediti: "Ne ho davvero bisogno? Posso realizzare ciò che mi serve senza un profilo?" Spesso è molto più difficile eliminare un profilo, piuttosto che crearne uno. E anche dopo aver eliminato o modificato le informazioni del tuo account, potrebbe esserci una versione nella cache di qualche sito di terze parti, come [Internet Archive](https://archive.org/). Quando possibile, evita la tentazione: il te stesso del futuro ti ringrazierà!
+Come dice il vecchio detto, "un grammo di prevenzione vale un chilo di cura." Ogni volta che ti senti tentato di registrare un nuovo profilo, chiediti: "Ne ho davvero bisogno? Posso realizzare ciò che mi serve senza un profilo?" Spesso è molto più difficile eliminare un profilo, piuttosto che crearne uno. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). Quando possibile, evita la tentazione: il te stesso del futuro ti ringrazierà!

@@ -54,13 +54,13 @@ Diceware是一种创建密码的方法，这种密码容易记忆，但很难猜
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-这里的说明步骤假定你使用[EFF的大型词汇表](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt)来生成口令，每个词需要掷五个骰子。 其他词表可能需要更多或更少的回合，也可能需要不同数量的词来实现相同的熵值。
+These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. 其他词表可能需要更多或更少的回合，也可能需要不同数量的词来实现相同的熵值。
 
 </div>
 
 1. 掷一个六面体的骰子五次，每次掷完都记下数字。
 
-2. 举个例子，假设你掷出 `2-5-2-6-6`。 通过 [EFF的大词表](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) ，寻找与 `25266`相对应的词。
+2. 举个例子，假设你掷出 `2-5-2-6-6`。 Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. 你可以得到这个词 `encrypt` 把这个词写下来。
 
@@ -75,20 +75,20 @@ Diceware是一种创建密码的方法，这种密码容易记忆，但很难猜
 
 如果你没有或者不愿意使用真正的骰子，你可以使用你的密码管理器的内置密码生成器，因为除了常规密码之外，大多数密码管理器都有生成骰子密码的选项。
 
-我们建议使用 [EFF的大型词表](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) ，以生成你的二维码密码，因为它提供了与原始列表完全相同的安全性，同时包含更容易记忆的单词。 There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 确定双关口令强度的一个指标是它的熵值有多少。 双关口令中每个字的熵计算为$\text{log}_2(\text{WordsInList})$，口令的整体熵计算为$\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$。
 
 因此，上述列表中的每个词都会产生~12.9比特的熵($\text{log}_2(7776)$)，而由它衍生出的七个词的口令有~90.47比特的熵($\text{log}_2(7776^7)$)。
 
-The [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. 要计算可能的口令数量，我们所要做的就是$\text{WordsInList}^\text{WordsInPhrase}$，或者在我们的例子中，$7776^7$。
+The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. 要计算可能的口令数量，我们所要做的就是$\text{WordsInList}^\text{WordsInPhrase}$，或者在我们的例子中，$7776^7$。
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 平均而言，需要尝试所有可能的组合中的50%来猜测你的短语。 考虑到这一点，即使你的对手每秒能够猜出1,000,000,000,000次，他们仍然需要27,255,689年才能猜出你的口令。 即使以下情况属实，情况也是如此:
 

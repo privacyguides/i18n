@@ -19,9 +19,9 @@ cover: productivity.webp
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
@@ -53,8 +53,8 @@ cover: productivity.webp
 **CryptPad** 隱私設計可替代流行的辦公工具。 網頁服務上的所有內容都是端到端加密，也可輕鬆與其他用戶共享。
 
 [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=Documentation}
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
 
@@ -99,20 +99,20 @@ cover: productivity.webp
 
 **LibreOffice** 是一個免費且開源的辦公套件，具有廣泛的功能。
 
-[:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentation}
-[:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://libreoffice.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=Documentation}
+[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-- [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
-- [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
-- [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
-- [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
+- [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
+- [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
+- [:simple-windows11: Windows](https://libreoffice.org/download/download)
+- [:simple-apple: macOS](https://libreoffice.org/download/download)
+- [:simple-linux: Linux](https://libreoffice.org/download/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
 
 </details>
@@ -127,7 +127,7 @@ cover: productivity.webp
 
 **OnlyOffice** 是一個基於雲的免費開源辦公套件，具有廣泛的功能，包括與Nextcloud的整合。
 
-[:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://onlyoffice.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
@@ -137,9 +137,9 @@ cover: productivity.webp
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
-- [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
-- [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
-- [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
+- [:simple-windows11: Windows](https://onlyoffice.com/download-desktop.aspx)
+- [:simple-apple: macOS](https://onlyoffice.com/download-desktop.aspx)
+- [:simple-linux: Linux](https://onlyoffice.com/download-desktop.aspx)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
 
 </details>
@@ -176,7 +176,7 @@ cover: productivity.webp
 **PrivateBin** 是一個極簡主義的開源網路剪貼板 ，伺服器對黏貼的資料一無所知。 資料在瀏覽器中使用 256位元AES 來加密/解密。 它是 ZeroBin 的改進版本。
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="Public Instances"}
+[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
 [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 

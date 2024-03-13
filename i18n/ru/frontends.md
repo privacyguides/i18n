@@ -19,7 +19,7 @@ cover: frontends.webp
 
 ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
 
-**ProxiTok** is an open-source frontend to the [TikTok](https://www.tiktok.com) website that is also self-hostable.
+**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
 
 There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
@@ -53,7 +53,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 
 [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.freetubeapp.io/){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.freetubeapp.io){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
 
@@ -72,7 +72,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-При использовании FreeTube ваш IP-адрес все равно может быть известен YouTube, [Invidious](https://instances.invidious.io) или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -84,7 +84,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 
 **Yattee** - это бесплатный, ориентированный на конфиденциальность видеоплеер с открытым исходным кодом для iOS, tvOS и macOS для [YouTube](https://youtube.com). При использовании Yattee список подписок сохраняется локально на вашем устройстве.
 
-Вам придется сделать несколько [дополнительных шагов](https://gonzoknows.com/posts/Yattee/), прежде чем вы сможете использовать Yattee для просмотра YouTube, из-за ограничений App Store.
+You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube, due to App Store restrictions.
 
 [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -95,7 +95,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-apple: App Store](https://apps.apple.com/us/app/yattee/id1595136629)
+- [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
 - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
 </details>
@@ -105,7 +105,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-При использовании Yattee ваш IP-адрес все еще может быть известен YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -139,7 +139,7 @@ LibreTube позволяет хранить список подписок и п�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-При использовании LibreTube ваш IP-адрес будет виден выбранному вами экземпляру [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) и/или [SponsorBlock](https://sponsor.ajay.app/) в зависимости от вашей конфигурации. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
 
 </div>
 
@@ -149,17 +149,17 @@ LibreTube позволяет хранить список подписок и п�
 
 <div class="admonition recommendation annotate" markdown>
 
-![Логотип Newpipe](assets/img/frontends/newpipe.svg){ align=right }
+![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** - это бесплатное приложение для Android с открытым исходным кодом для [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com) и [PeerTube](https://joinpeertube.org/) (1).
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 Список подписок и плейлисты сохраняются локально на вашем устройстве Android.
 
 [:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://teamnewpipe.github.io/documentation/){ .card-link title=Documentation}
+[:octicons-info-16:](https://teamnewpipe.github.io/documentation){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://newpipe.net/donate/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -170,7 +170,7 @@ LibreTube позволяет хранить список подписок и п�
 
 </div>
 
-1. По умолчанию используется экземпляр [FramaTube](https://framatube.org/), однако другие экземпляры можно добавить через **Настройки** → **Контент** → **Серверы PeerTube**
+1. The default instance is [FramaTube](https://framatube.org), however more can be added via **Settings** → **Content** → **PeerTube instances**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
@@ -190,11 +190,11 @@ LibreTube позволяет хранить список подписок и п�
 
 There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 
-[:octicons-home-16: Домашняя страница](https://invidious.io){ .md-button .md-button--primary }
-[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Публичный экземпляр"}
-[:octicons-info-16:](https://docs.invidious.io/){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Исходный код" }
-[:octicons-heart-16:](https://invidious.io/donate/){ .card-link title=Поддержать }
+[:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
+[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://docs.invidious.io){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://invidious.io/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -224,11 +224,11 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 
 Для работы Piped требуется JavaScript, и существует множество публичных экземпляров.
 
-[:octicons-repo-16: Репозиторий](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Публичный экземпляр"}
-[:octicons-info-16:](https://piped-docs.kavin.rocks/){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Исходный код" }
-[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Поддержать }
+[:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+[:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://piped-docs.kavin.rocks){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 
 </details>
 

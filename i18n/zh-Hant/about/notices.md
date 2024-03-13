@@ -29,7 +29,7 @@ Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括�
 
 這意味著您可以根據 Creative Commons Attribution-NoDerivatives 4.0 國際公共許可證文本中概述的條款，將此存儲庫中的人類可讀內容用於自己的項目。 您可以依合理的方式這樣做，但不能以任何方式暗示 Privacy Guides 認可您或您的使用。 未經本專案明確同意，**不得**在任何專案中使用 Privacy Guides 品牌。 Privacy Guides  品牌商標包括 "Privacy Guides" 文字商標和盾牌標誌。
 
-我們認為，從第三方供應商`資產` 取得的標誌和圖像不是公有領域，就是**合理使用**。 簡而言之，法律 [合理使用原則](https://www.copyright.gov/fair-use/more-info.html) 允許使用受版權保護的圖像來識別主題以供公眾評論。 但是，這些標誌和圖像可能仍受一個或多個司法管轄區的商標法約束。 在使用此內容之前，請確保其用於識別擁有商標的實體或組織，並確保您有權根據適用所預期情況下的法律。 *從本網站複製內容時，您自行負責確保您不會侵犯他人的商標或版權。*
+我們認為，從第三方供應商`資產` 取得的標誌和圖像不是公有領域，就是**合理使用**。 In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. 但是，這些標誌和圖像可能仍受一個或多個司法管轄區的商標法約束。 在使用此內容之前，請確保其用於識別擁有商標的實體或組織，並確保您有權根據適用所預期情況下的法律。 *從本網站複製內容時，您自行負責確保您不會侵犯他人的商標或版權。*
 
 當您對我們的網站作出貢獻時，您是根據上述許可，並且您授予 Privacy Guides 永久全球性、非排他、可轉讓、免版稅、不可撤銷的許可，Privacy Guides  有權通過多個層級的轉授權人再許可這些權利，以複製，修改，顯示，執行和分發您的貢獻作為項目的一部分。
 
@@ -47,4 +47,4 @@ Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括�
 
 ---
 
-*此通知本身的部分內容來自GitHub上的 [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) 。 該資源和此頁面本身依 [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0/)授權發布。*
+*此通知本身的部分內容來自GitHub上的 [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) 。 That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0).*

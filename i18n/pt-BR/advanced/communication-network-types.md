@@ -28,7 +28,7 @@ Alguns mensageiros podem ser auto-hospedados e permitem que você configure seu 
 - Pode incluir [controle ou acesso restrito](https://drewdevault.com/2018/08/08/Signal.html). Isto pode incluir coisas como:
 - Ser [proibido de conectar clientes alternativos](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) à rede, mesmo podendo oferecer uma melhor customização ou até mesmo uma melhor experiência. Muitas vezes definido nos Termos e Condições de uso.
 - Documentação pobre ou inexistente para desenvolvedores de terceiros.
-- O [proprietário](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), a política de privacidade e operações podem ser facilmente mudadas quando uma só entidade controla tudo, podendo comprometer o serviço mais tarde.
+- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - A auto-hospedagem requer esforço e conhecimento de como configurar um serviço.
 
 ## Redes Federadas
@@ -60,7 +60,7 @@ Quando auto-hospedados, os membros de um servidor federado podem descobrir e se 
 
 Os mensageiros P2P se conectam a uma [ rede distribuída](https://en.wikipedia.org/wiki/Distributed_networking) de nós para retransmitir uma mensagem ao destinatário sem um servidor de terceiros.
 
-Clientes (peers) geralmente encontram um ao outro através do uso de um [sistema de processamento distribuído](https://pt.wikipedia.org/wiki/Sistema_de_processamento_distribu%C3%ADdo). Exemplos disso incluem [Distributed hash table](https://pt.wikipedia.org/wiki/Distributed_hash_table) (DHT), usado por [torrents](https://pt.wikipedia.org/wiki/BitTorrent) e [IPFS](https://pt.wikipedia.org/wiki/Sistema_de_Arquivos_Interplanet%C3%A1rio) por exemplo. Outra abordagem é redes baseadas em proximidade, onde uma conexão é estabelecida através de WiFi ou Bluetooth (por exemplo, Briar ou o protocolo de rede social [Scuttlebutt](https://www.scuttlebutt.nz)).
+Clientes (peers) geralmente encontram um ao outro através do uso de um [sistema de processamento distribuído](https://pt.wikipedia.org/wiki/Sistema_de_processamento_distribu%C3%ADdo). Exemplos disso incluem [Distributed hash table](https://pt.wikipedia.org/wiki/Distributed_hash_table) (DHT), usado por [torrents](https://pt.wikipedia.org/wiki/BitTorrent) e [IPFS](https://pt.wikipedia.org/wiki/Sistema_de_Arquivos_Interplanet%C3%A1rio) por exemplo. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Uma vez que um peer tenha encontrado uma rota para o seu contato através de qualquer um desses métodos, uma conexão direta entre eles é feita. Embora as mensagens sejam geralmente criptografadas, um observador ainda pode deduzir a localização e a identidade do remetente e do destinatário.
 

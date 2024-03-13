@@ -62,12 +62,12 @@ schema:
 
 ## Ви нам потрібні! Ось як можна долучитися:
 
-[:simple-discourse:](https://discuss.privacyguides.net/){ title="Приєднуйтесь до нашого форуму" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Слідкуйте за нами на Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Зробити внесок у цей сайт" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Допомогти з перекладом цього сайту" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Поспілкуйтеся з нами на Matrix" }
-[:material-information-outline:](about/index.md){ title="Дізнатися більше про нас" }
-[:material-hand-coin-outline:](about/donate.md){ title="Підтримати проект" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
+[:material-information-outline:](about/index.md){ title="Learn more about us" }
+[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
 
 Для таких сайтів, як Privacy Guides, важливо завжди залишатися актуальними. Ми хочемо, щоб наша аудиторія стежила за оновленнями програмного забезпечення для додатків, перелічених на нашому сайті, а також за останніми новинами про провайдерів, яких ми рекомендуємо. Важко встигати за швидким темпом інтернету, але ми намагаємося з усіх сил. Якщо ви помітили помилку, вважаєте, що провайдер не повинен бути в списку, помітили відсутність кваліфікованого провайдера, вважаєте, що плагін для браузера більше не є найкращим вибором, або виявили будь-яку іншу проблему, будь ласка, повідомте нам про це.

@@ -13,7 +13,7 @@ description: אימייל הוא מטבעו לא מאובטח במובנים ר�
 
 הדרך הסטנדרטית להוסיף E2EE למיילים בין ספקי אימייל שונים היא באמצעות OpenPGP. ישנם יישומים שונים של תקן OpenPGP, הנפוצים ביותר הם [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) ו- [OpenPGP.js](https://openpgpjs.org).
 
-קיים תקן נוסף שפופולרי בקרב עסקים בשם [S/MIME](https://en.wikipedia.org/wiki/S/MIME), עם זאת, הוא דורש אישור שהונפקו מ[>רשות האישורים](https://en.wikipedia.org/wiki/Certificate_authority) (לא כולן מנפיקות אישורי S/MIME). יש לו תמיכה ב [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) ו [Outlook for Web או Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+קיים תקן נוסף שפופולרי בקרב עסקים בשם [S/MIME](https://en.wikipedia.org/wiki/S/MIME), עם זאת, הוא דורש אישור שהונפקו מ[>רשות האישורים](https://en.wikipedia.org/wiki/Certificate_authority) (לא כולן מנפיקות אישורי S/MIME). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 גם אם אתה משתמש ב - OpenPGP, הוא אינו תומך בסודיות [קדימה](https://en.wikipedia.org/wiki/Forward_secrecy), כלומר אם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות שהוצפנו איתו ייחשפו. זו הסיבה שאנו ממליצים על [מסנג'רים מיידיים](../real-time-communication.md) אשר מיישמים סודיות קדימה על פני דואר אלקטרוני עבור הודעות פנים אל פנים במידת האפשר.
 
@@ -23,7 +23,7 @@ The Web Key Directory (WKD) standard allows email clients to discover the OpenPG
 
 In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
 
-If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
 
 If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
 
@@ -33,7 +33,7 @@ If you use a shared domain from a provider which doesn't support WKD, like @gmai
 
 ### כיצד אוכל להגן על המפתחות הפרטיים שלי?
 
-כרטיס חכם (כגון [Yubikey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) עובד על ידי קבלת הודעת אימייל מוצפנת ממכשיר (טלפון, טאבלט, מחשב וכו') המריץ לקוח אימייל/מייל אינטרנט. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
 
 זה יתרון שהפענוח יתרחש בכרטיס החכם כדי למנוע חשיפת המפתח הפרטי שלך למכשיר שנפגע.
 

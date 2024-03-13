@@ -54,6 +54,6 @@ All of these concepts overlap, but it is possible to have any combination of the
 
 ## 출처
 
-- Neil Richards - [Why Privacy Matters](https://www.amazon.com/Why-Privacy-Matters-Neil-Richards/dp/0190939044) (2021)
-- [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why/)
+- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
+- [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)
 - [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)

@@ -17,7 +17,7 @@ title: 이미지 업로드 방법
 
 ### PNG
 
-PNG 이미지는 [OptiPNG](https://sourceforge.net/projects/optipng/)를 이용해 최적화하세요.
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
 
 ```bash
 optipng -o7 file.png

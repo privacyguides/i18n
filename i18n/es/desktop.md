@@ -17,17 +17,17 @@ Las distribuciones de Linux se recomiendan comúnmente para la protección de la
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** es nuestra distribución recomendada para la gente nueva en Linux. Fedora suele adoptar tecnologías más recientes antes que otras distribuciones, por ejemplo, [Wayland](https://wayland.freedesktop.org/), [PipeWire](https://pipewire.org). Estas nuevas tecnologías suelen venir acompañadas de mejoras en la seguridad, la privacidad y la usabilidad en general.
+**Fedora Workstation** es nuestra distribución recomendada para la gente nueva en Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org), [PipeWire](https://pipewire.org). Estas nuevas tecnologías suelen venir acompañadas de mejoras en la seguridad, la privacidad y la usabilidad en general.
 
-[:octicons-home-16: Página Principal](https://fedoraproject.org/workstation/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs/){ .card-link title=Documentación}
-[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuir}
+[:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-Fedora tiene un ciclo de lanzamientos semicontinuo. Mientras que algunos paquetes como [GNOME](https://www.gnome.org) quedan congelados hasta la siguiente versión de Fedora, la mayoría de los paquetes (incluido el kernel) se actualizan con frecuencia durante toda la vida útil de la versión. Cada versión de Fedora recibe soporte durante un año, con una nueva versión cada 6 meses.
+Fedora tiene un ciclo de lanzamientos semicontinuo. While some packages like [GNOME](https://gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Cada versión de Fedora recibe soporte durante un año, con una nueva versión cada 6 meses.
 
 ### openSUSE Tumbleweed
 
@@ -37,11 +37,11 @@ Fedora tiene un ciclo de lanzamientos semicontinuo. Mientras que algunos paquete
 
 **openSUSE Tumbleweed** es una distribución estable con actualización continua.
 
-openSUSE Tumbleweed cuenta con un sistema de [actualización transaccional](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates/) que utiliza [Btrfs](https://en.wikipedia.org/wiki/Btrfs) y [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) para garantizar que las copias instantáneas se puedan revertir en caso de que haya algún problema.
+openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
 
-[:octicons-home-16: Página Principal](https://get.opensuse.org/tumbleweed/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://doc.opensuse.org/){ .card-link title=Documentación}
-[:octicons-heart-16:](https://shop.opensuse.org/){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org){ .card-link title=Documentation}
+[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title=Contribute }
 
 </details>
 
@@ -57,9 +57,9 @@ Tumbleweed sigue un modelo de actualización continua en el que cada actualizaci
 
 **Arch Linux** es una distribución ligera del estilo "hágalo usted mismo" (DIY), lo que significa que sólo obtiene lo que instala. Para obtener más información, consulte su [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
-[:octicons-home-16: Página Principal](https://archlinux.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.archlinux.org/){ .card-link title=Documentación}
-[:octicons-heart-16:](https://archlinux.org/donate/){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://archlinux.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title=Documentation}
+[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -83,22 +83,22 @@ Gran parte de los [paquetes de Arch Linux](https://reproducible.archlinux.org) s
 
 **Fedora Atomic Desktops** son variantes de Fedora que utilizan el gestor de paquetes `rpm-ostree` y se centran principalmente en flujos de trabajo en contenedores y Flatpak para aplicaciones de escritorio. Todas estas variantes siguen el mismo calendario de lanzamientos que Fedora Workstation, beneficiándose de las mismas actualizaciones rápidas y manteniéndose muy cerca del upstream.
 
-[:octicons-home-16: Página Principal](https://fedoraproject.org/atomic-desktops/){ .md-button .md-button--primary }
-[:octicons-heart-16:](https://whatcanidoforfedora.org/){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-Los [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops/) vienen en una variedad de sabores dependiendo del entorno de escritorio que prefieras, como **Fedora Silverblue** (que viene con [GNOME](https://www.gnome.org/)), **Fedora Kinoite**, (que viene con [KDE](https://kde.org/)), **Fedora Sway Atomic**, o **Fedora Budgie Atomic**. Sin embargo, no recomendamos la última de ellas, ya que el entorno de escritorio Budgie [sigue necesitando X11](https://buddiesofbudgie.org/blog/wayland).
+The [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://gnome.org)), **Fedora Kinoite**, (which comes with [KDE](https://kde.org)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. Sin embargo, no recomendamos la última de ellas, ya que el entorno de escritorio Budgie [sigue necesitando X11](https://buddiesofbudgie.org/blog/wayland).
 
-Estos sistemas operativos difieren de Fedora Workstation en que sustituyen el gestor de paquetes [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) por una alternativa mucho más avanzada denominada [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree/). El gestor de paquetes `rpm-ostree` funciona descargando una imagen base para el sistema, y luego superponiendo paquetes sobre ella en un árbol de commit [git](https://en.wikipedia.org/wiki/Git)-like. Cuando se actualice el sistema, se descargará una nueva imagen base y las superposiciones se aplicarán a esa nueva imagen.
+These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree). El gestor de paquetes `rpm-ostree` funciona descargando una imagen base para el sistema, y luego superponiendo paquetes sobre ella en un árbol de commit [git](https://en.wikipedia.org/wiki/Git)-like. Cuando se actualice el sistema, se descargará una nueva imagen base y las superposiciones se aplicarán a esa nueva imagen.
 
 Una vez completada la actualización, reiniciarás el sistema con la nueva implementación. `rpm-ostree` mantiene dos despliegues del sistema para que puedas revertir fácilmente si algo se rompe en la nueva implementación. También existe la opción de anclar más implementaciones según sea necesario.
 
-[Flatpak](https://www.flatpak.org) es el método principal de instalación de paquetes en estas distribuciones, ya que `rpm-ostree` solo está pensado para superponer paquetes que no pueden permanecer dentro de un contenedor sobre la imagen base.
+[Flatpak](https://flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
 
-Como alternativa a Flatpaks, existe la opción de [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox/) para crear contenedores [Podman](https://podman.io) con un directorio raíz compartido con el sistema operativo anfitrión e imitar un entorno Fedora tradicional, lo cual es una [característica útil](https://containertoolbx.org) para el desarrollador exigente.
+As an alternative to Flatpaks, there is the option of [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) to create [Podman](https://podman.io) containers with a shared home directory with the host operating system and mimic a traditional Fedora environment, which is a [useful feature](https://containertoolbx.org) for the discerning developer.
 
 ### NixOS
 
@@ -108,9 +108,9 @@ Como alternativa a Flatpaks, existe la opción de [Toolbox](https://docs.fedorap
 
 NixOS es una distribución independiente basada en el gestor de paquetes Nix y centrada en la reproducibilidad y la fiabilidad.
 
-[:octicons-home-16: Página Principal](https://nixos.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentación}
-[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://nixos.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
+[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribute }
 
 </details>
 
@@ -136,10 +136,10 @@ Nix es un gestor de paquetes basado en el código fuente; si no hay ningún paqu
 
 **Whonix** está basado en [Kicksecure](#kicksecure), una bifurcación de Debian centrada en la seguridad. Su objetivo es proporcionar privacidad, seguridad y anonimato en Internet. Whonix se utiliza mejor junto con [Qubes OS](#qubes-os).
 
-[:octicons-home-16: Página principal](https://www.whonix.org/){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://www.dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Servicio Onion" }
-[:octicons-info-16:](https://www.whonix.org/wiki/Documentation){ .card-link title=Documentación}
-[:octicons-heart-16:](https://www.whonix.org/wiki/Donate){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://whonix.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title=Contribute }
 
 </details>
 
@@ -147,9 +147,9 @@ Nix es un gestor de paquetes basado en el código fuente; si no hay ningún paqu
 
 Whonix está pensado para funcionar como dos máquinas virtuales: una "Estación de Trabajo" y una "Puerta de Enlace" Tor. Todas las comunicaciones desde la Estación de Trabajo deben pasar por la puerta de enlace Tor. Esto significa que incluso si la Estación de Trabajo se ve comprometida por algún tipo de malware, la verdadera dirección IP permanecerá oculta.
 
-Algunas de sus características incluyen Tor Stream Isolation, [keystroke anonymization](https://www.whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), y un asignador de memoria endurecido. Las futuras versiones de Whonix probablemente incluirán [políticas AppArmor para todo el sistema](https://github.com/Whonix/apparmor-profile-everything) y un [lanzador de aplicaciones sandbox](https://www.whonix.org/wiki/Sandbox-app-launcher) para confinar completamente todos los procesos del sistema.
+Some of its features include Tor Stream Isolation, [keystroke anonymization](https://whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/Whonix/apparmor-profile-everything) and a [sandbox app launcher](https://whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
-Whonix se utiliza mejor [junto con Qubes](https://www.whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). Tenemos una [guía recomendada](os/qubes-overview.md#connecting-to-tor-via-a-vpn) sobre la configuración de Whonix junto con una VPN ProxyVM en Qubes para ocultar tus actividades Tor de tu ISP.
+Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). Tenemos una [guía recomendada](os/qubes-overview.md#connecting-to-tor-via-a-vpn) sobre la configuración de Whonix junto con una VPN ProxyVM en Qubes para ocultar tus actividades Tor de tu ISP.
 
 ### Tails
 
@@ -159,9 +159,9 @@ Whonix se utiliza mejor [junto con Qubes](https://www.whonix.org/wiki/Qubes/Why_
 
 **Tails** es un sistema operativo basado en Debian que enruta todas las comunicaciones a través de Tor, y que puede arrancar en casi cualquier ordenador desde un DVD, una memoria USB o una tarjeta SD. Utiliza [Tor](tor.md) para preservar la privacidad y el anonimato a la vez que elude la censura, y no deja rastro de sí mismo en el ordenador en el que se utiliza una vez apagado.
 
-[:octicons-home-16: Página Principal](https://tails.boum.org/){ .md-button .md-button--primary }
-[:octicons-info-16:](https://tails.boum.org/doc/index.en.html){ .card-link title=Documentación}
-[:octicons-heart-16:](https://tails.boum.org/donate/){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=Documentation}
+[:octicons-heart-16:](https://tails.net/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -178,7 +178,7 @@ Tails es genial contra el análisis forense debido a la amnesia (lo que signific
 
 Tails incluye [uBlock Origin](desktop-browsers.md#ublock-origin) en el Navegador Tor por defecto, lo que potencialmente puede facilitar a los adversarios la toma de huellas digitales de los usuarios de Tails. Las máquinas virtuales de [Whonix](desktop.md#whonix) pueden ser más a prueba de fugas, sin embargo no son amnésicas, lo que significa que los datos pueden ser recuperados de su dispositivo de almacenamiento.
 
-Tails está diseñado para formatearse por completo después de cada reinicio. El [almacenamiento persistente](https://tails.boum.org/doc/persistent_storage/index.en.html) cifrado puede configurarse para almacenar algunos datos entre reinicios.
+Tails está diseñado para formatearse por completo después de cada reinicio. Encrypted [persistent storage](https://tails.net/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 
 ## Distribuciones Enfocadas en la Seguridad
 
@@ -190,12 +190,12 @@ Tails está diseñado para formatearse por completo después de cada reinicio. E
 
 **Qubes OS** es un sistema operativo de código abierto diseñado para proporcionar una fuerte seguridad para la informática de escritorio a través de máquinas virtuales seguras (o "qubes"). Qubes se basa en Xen, el Sistema de Ventanas X y Linux. Puede ejecutar la mayoría de las aplicaciones Linux y utilizar la mayoría de los controladores Linux.
 
-[:octicons-home-16: Página Principal](https://www.qubes-os.org/){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://www.qubes-os.org/privacy/){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://www.qubes-os.org/doc/){ .card-link title=Documentación }
-[:octicons-code-16:](https://github.com/QubesOS/){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://www.qubes-os.org/donate/){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://qubes-os.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title=Contribute }
 
 </details>
 
@@ -215,11 +215,11 @@ Aunque [desaconsejamos](os/linux-overview.md#release-cycle) distribuciones "perp
 
 **Kicksecure** -en términos muy simplificados- es un conjunto de scripts, configuraciones y paquetes que reducen sustancialmente la superficie de ataque de Debian. Cubre muchas recomendaciones de privacidad y seguridad por defecto. También sirve de sistema operativo base para [Whonix](#whonix).
 
-[:octicons-home-16: Página Principal](https://www.kicksecure.com/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.kicksecure.com/wiki/Privacy_Policy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://www.kicksecure.com/wiki/Documentation){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://www.kicksecure.com/wiki/Donate){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://kicksecure.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title=Contribute }
 
 </details>
 

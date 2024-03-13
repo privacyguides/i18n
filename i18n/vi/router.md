@@ -34,7 +34,10 @@ Bạn có thể tham khảo OpenWrt's [table of hardware](https://openwrt.org/to
 
 **OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Nó được cài đặt trên máy tính để làm tường lửa/bộ định tuyến chuyên dụng cho mạng và được chú ý về độ tin cậy và cung cấp các tính năng thường chỉ có trong các tường lửa thương mại đắt tiền.
 
-pfSense thường được triển khai dưới dạng tường lửa vành đai, bộ định tuyến, điểm truy cập không dây, máy chủ DHCP, máy chủ DNS và điểm cuối VPN.
+[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
 
 </details>
 

@@ -9,7 +9,7 @@ description: Privacy Guidesは、大規模監視プログラムやその他の�
 
 何か特定のソリューションをお探しなら、様々なカテゴリーでおすすめのハードウェアとソフトウェアのツールをご紹介します。 私たちがおすすめするプライバシーツールは、主にセキュリティ機能に基づいて選択されており、さらに分散型やオープンソースのツールに重点を置いています。 これらは、世界的な大規模監視プログラムからの保護や大手ハイテク企業の回避から攻撃の緩和まで、さまざまな脅威モデルに適用できます。しかし、あなただけがあなたのニーズに最適であるかを判断できます。
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net/) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
 For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
@@ -89,7 +89,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 #### DNSプロバイダ
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net/) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
 
 [詳細 :material-arrow-right-drop-circle:](dns.md)
 

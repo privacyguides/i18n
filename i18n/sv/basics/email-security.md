@@ -13,7 +13,7 @@ E-post används därför bäst för att ta emot transaktionsmeddelanden (t. ex. 
 
 Standardmetoden för att lägga till E2EE i e-postmeddelanden mellan olika e-postleverantörer är att använda OpenPGP. Det finns olika implementeringar av OpenPGP-standarden, de vanligaste är [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) och [OpenPGP.js](https://openpgpjs.org).
 
-Det finns en annan standard som är populär bland företag och som heter [S/MIME](https://en.wikipedia.org/wiki/S/MIME), men den kräver ett certifikat som utfärdats av en [Certifikatmyndighet](https://en.wikipedia.org/wiki/Certificate_authority) (alla utfärdar inte S/MIME-certifikat). Den har stöd för [Google Workplace](https://support.google.com/a/topic/9061730?hl=en&ref_topic=9061731) och [Outlook for Web eller Exchange Server 2016, 2019](https://support.office.com/en-us/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+Det finns en annan standard som är populär bland företag och som heter [S/MIME](https://en.wikipedia.org/wiki/S/MIME), men den kräver ett certifikat som utfärdats av en [Certifikatmyndighet](https://en.wikipedia.org/wiki/Certificate_authority) (alla utfärdar inte S/MIME-certifikat). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 Även om du använder OpenPGP har det inte stöd för [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), vilket innebär att om antingen din eller mottagarens privata nyckel någonsin stjäls kommer alla tidigare meddelanden som krypterats med den att avslöjas. Det är därför vi rekommenderar [snabbmeddelanden](../real-time-communication.md) som implementerar vidarebefordran av sekretess via e-post för person-till-person-kommunikation när det är möjligt.
 
@@ -23,7 +23,7 @@ The Web Key Directory (WKD) standard allows email clients to discover the OpenPG
 
 In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
 
-If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org/). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
 
 If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
 
@@ -33,7 +33,7 @@ E-postleverantörer som tillåter dig att använda standardprotokoll som IMAP oc
 
 ### Hur skyddar jag mina privata nycklar?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/en-us/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://www.nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Meddelandet dekrypteras sedan av smartkortet och det dekrypterade innehållet skickas tillbaka till enheten.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Meddelandet dekrypteras sedan av smartkortet och det dekrypterade innehållet skickas tillbaka till enheten.
 
 It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
 

@@ -19,9 +19,9 @@ cover: productivity.webp
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support/){ .card-link title=Documentation}
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute/){ .card-link title=Contribute }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -52,11 +52,11 @@ cover: productivity.webp
 
 **CryptPad** הוא אלטרנטיבה פרטית-עיצובית לכלי משרד פופולריים. כל התוכן בשירות אינטרנט זה מוצפן מקצה לקצה וניתן לשתף אותו עם משתמשים אחרים בקלות.
 
-[:octicons-home-16: דף הבית](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE/){ .card-link title="מדיניות פרטיות" }
-[:octicons-info-16:](https://docs.cryptpad.fr/){ .card-link title=תיעוד}
-[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="קוד מקור" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=לתרומה }
+[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
 
 </details>
 
@@ -99,20 +99,20 @@ cover: productivity.webp
 
 **LibreOffice** היא חבילת משרדים חינמית וקוד פתוח עם פונקציונליות נרחבת.
 
-[:octicons-home-16: Homepage](https://www.libreoffice.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.libreoffice.org/about-us/privacy/privacy-policy-en/){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation/){ .card-link title=Documentation}
-[:octicons-code-16:](https://www.libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://www.libreoffice.org/donate/){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://libreoffice.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=Documentation}
+[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://www.libreoffice.org/download/android-and-ios/)
-- [:simple-appstore: App Store](https://www.libreoffice.org/download/android-and-ios/)
-- [:simple-windows11: Windows](https://www.libreoffice.org/download/download/)
-- [:simple-apple: macOS](https://www.libreoffice.org/download/download/)
-- [:simple-linux: Linux](https://www.libreoffice.org/download/download/)
+- [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
+- [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
+- [:simple-windows11: Windows](https://libreoffice.org/download/download)
+- [:simple-apple: macOS](https://libreoffice.org/download/download)
+- [:simple-linux: Linux](https://libreoffice.org/download/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
 
 </details>
@@ -127,7 +127,7 @@ cover: productivity.webp
 
 **OnlyOffice** היא חבילת משרדים חינמית מבוססת ענן וקוד פתוח עם פונקציונליות נרחבת, כולל אינטגרציה עם Nextcloud.
 
-[:octicons-home-16: Homepage](https://www.onlyoffice.com){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://onlyoffice.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
@@ -137,9 +137,9 @@ cover: productivity.webp
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
-- [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
-- [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
-- [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
+- [:simple-windows11: Windows](https://onlyoffice.com/download-desktop.aspx)
+- [:simple-apple: macOS](https://onlyoffice.com/download-desktop.aspx)
+- [:simple-linux: Linux](https://onlyoffice.com/download-desktop.aspx)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
 
 </details>
@@ -175,10 +175,10 @@ cover: productivity.webp
 
 **PrivateBin** הוא מינימליסטי, קוד פתוח מקוון Pastebin שבו לשרת יש אפס ידע על נתונים מודבקים. הנתונים מוצפנים/מפוענים בדפדפן באמצעות 256 סיביות AES. זוהי הגרסה המשופרת של ZeroBin.
 
-[:octicons-home-16: דף הבית](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory/){ .card-link title="מופעים ציבוריים"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=תיעוד}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="קוד מקור" }
+[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
+[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
 </details>
 
