@@ -232,9 +232,9 @@ Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Dadurch wird sichergestellt, dass der Kundenkontakt zum Unternehmen über E2EE erfolgt. Das Feature kostet 240 €/Jahr.
+Tuta hat auch eine Geschäftskundenfunktion namens [Secure Connect](https://tuta.com/de/business). Dadurch wird sichergestellt, dass der Kundenkontakt zum Unternehmen über E2EE erfolgt. Das Feature kostet 240 €/Jahr.
 
-Tuta doesn't offer a digital legacy feature.
+Tuta bietet keine Funktion für deinen digitalen Nachlass.
 
 ## E-Mail-Aliasing-Dienste
 

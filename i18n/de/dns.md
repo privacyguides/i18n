@@ -1,7 +1,7 @@
 ---
-title: "DNS Resolvers"
+title: "DNS-Resolver"
 icon: material/dns
-description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
+description: Dies sind einige verschlüsselte DNS-Provider, zu denen wir den Wechsel empfehlen, um die Standardkonfiguration Ihres ISP (Internetanbieters) zu ersetzen.
 cover: dns.webp
 ---
 
@@ -11,21 +11,21 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 ## Empfohlene DNS-Anbieter
 
-| DNS-Anbieter                                                               | Datenschutzerklärung                                                                                 | Protokolle                                                                   | Logging      | ECS      | Filter                                                                                                                                                |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)            | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | Some[^1]     | Yes      | Based on personal configuration. Die verwendete Filterliste findest du hier. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Klartext <br> DoH/3 <br> DoT                                     | Some[^2]     | Nein     | Based on personal configuration.                                                                                                                      |
-| [**Control D**](https://controld.com/free-dns)                             | [:octicons-link-external-24:](https://controld.com/privacy)                                          | Klartext <br> DoH/3 <br> DoT <br> DoQ                      | Optional[^3] | Nein     | Based on personal configuration.                                                                                                                      |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH <br> DoT                                                           | Nein[^4]     | Nein     | Based on personal configuration. Die verwendete Filterliste findest du hier. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://nextdns.io)                                          | [:octicons-link-external-24:](https://nextdns.io/privacy)                                            | Klartext <br> DoH/3 <br> DoT <br> DoQ                      | Optional[^5] | Optional | Based on personal configuration.                                                                                                                      |
-| [**Quad9**](https://quad9.net)                                             | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | Klartext <br> DoH <br> DoT <br> DNSCrypt                   | Some[^6]     | Optional | Based on personal configuration, Malware blocking by default.                                                                                         |
+| DNS-Anbieter                                                               | Datenschutzerklärung                                                                                 | Protokolle                                                                   | Protokollierung | ECS      | Filter                                                                                                                                                |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)            | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | Some[^1]        | Yes      | Based on personal configuration. Die verwendete Filterliste findest du hier. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Klartext <br> DoH/3 <br> DoT                                     | Some[^2]        | Nein     | Based on personal configuration.                                                                                                                      |
+| [**Control D**](https://controld.com/free-dns)                             | [:octicons-link-external-24:](https://controld.com/privacy)                                          | Klartext <br> DoH/3 <br> DoT <br> DoQ                      | Optional[^3]    | Nein     | Based on personal configuration.                                                                                                                      |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH <br> DoT                                                           | Nein[^4]        | Nein     | Based on personal configuration. Die verwendete Filterliste findest du hier. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
+| [**NextDNS**](https://nextdns.io)                                          | [:octicons-link-external-24:](https://nextdns.io/privacy)                                            | Klartext <br> DoH/3 <br> DoT <br> DoQ                      | Optional[^5]    | Optional | Based on personal configuration.                                                                                                                      |
+| [**Quad9**](https://quad9.net)                                             | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | Klartext <br> DoH <br> DoT <br> DNSCrypt                   | Some[^6]        | Optional | Based on personal configuration, Malware blocking by default.                                                                                         |
 
-### Criteria
+### Kriterien
 
 **Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, verbunden sind.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen, sich mit dieser Liste vertraut zu machen, bevor sich für ein Projekt entschieden wird und eigenen Nachforschungen anzustellen, um sicherzustellen, dass es die richtige Wahl ist.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
+<p class="admonition-title">Dieser Abschnitt ist neu</p>
 
 Wir arbeiten daran, definierte Kriterien für jeden Bereich unserer Website festzulegen, daher kann dies sich noch ändern. Bei Fragen zu unseren Kriterien, können diese [in unserem Forum] (https://discuss.privacyguides.net/latest) gestellt werden. Und gehen Sie nicht davon aus, dass wir etwas bei unseren Empfehlungen nicht berücksichtigt haben, wenn es hier nicht aufgeführt ist. Es gibt viele Faktoren, die berücksichtigt und besprochen werden, wenn wir ein Projekt empfehlen, und die Dokumentation jedes einzelnen Faktors ist ein laufender Prozess.
 
@@ -36,13 +36,13 @@ Wir arbeiten daran, definierte Kriterien für jeden Bereich unserer Website fest
 - Erlaubt es [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) zu deaktivieren.
 - Bevorzugt [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) Unterstützung oder Geo-Steering-Unterstützung.
 
-## Native Operating System Support
+## Native Betriebssystemunterstützung
 
 ### Android
 
 Android 9 und höher unterstützen DNS über TLS. Die Einstellungen sind zu finden unter: **Einstellungen** &rarr; **Netzwerk & Internet** &rarr; **Privates DNS**.
 
-### Apple Devices
+### Apple-Geräte
 
 Die neuesten Versionen von iOS, iPadOS, tvOS und macOS unterstützen sowohl DoT als auch DoH. Beide Protokolle werden nativ über [Konfigurationsprofile](https://support.apple.com/de-de/guide/security/secf6fb9f053/web) oder über die [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings)unterstützt.
 
@@ -59,9 +59,9 @@ Apple bietet keine native Schnittstelle zur Erstellung von Profilen mit verschl�
 
 </div>
 
-## Encrypted DNS Proxies
+## Verschlüsselte DNS-Proxies
 
-Verschlüsseltes DNS-Proxy-Software bietet einen lokalen Proxy, an den der [unverschlüsselte DNS](advanced/dns-overview.md#unencrypted-dns) weitergeleitet wird. Normalerweise wird es auf Plattformen verwendet, die [verschlüsseltes DNS](advanced/dns-overview.md#what-is-encrypted-dns) nicht unterstützen.
+Verschlüsselte DNS-Proxy-Software stellt einen lokalen Proxy für den [unverschlüsselten DNS-](advanced/dns-overview.md#unencrypted-dns) Resolver zur Verfügung. Normalerweise wird es auf Plattformen verwendet, die [verschlüsseltes DNS](advanced/dns-overview.md#what-is-encrypted-dns) nicht unterstützen.
 
 ### RethinkDNS
 
@@ -115,7 +115,7 @@ Verschlüsseltes DNS-Proxy-Software bietet einen lokalen Proxy, an den der [unve
 
 </div>
 
-## Self-hosted Solutions
+## Selbstgehostete Lösungen
 
 Eine selbst gehostete DNS-Lösung ist nützlich für die Filterung auf kontrollierten Plattformen wie Smart-TVs und anderen IoT-Geräten, da keine clientseitige Software erforderlich ist.
 
