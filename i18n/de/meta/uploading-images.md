@@ -17,7 +17,7 @@ Firmenlogos haben eine Leinwandgröße von:
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
+Verwenden Sie [OptiPNG](https://sourceforge.net/projects/optipng), um das PNG-Bild zu optimieren:
 
 ```bash
 optipng -o7 file.png
