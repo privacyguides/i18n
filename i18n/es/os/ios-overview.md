@@ -1,7 +1,7 @@
 ---
-title: iOS Overview
+title: Vista General de iOS
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: iOS es un sistema operativo móvil desarrollado por Apple para el iPhone.
 ---
 
 **iOS** y **iPadOS** son sistemas operativos móviles patentados desarrollados por Apple para sus productos iPhone y iPad, respectivamente. Si tienes un dispositivo móvil de Apple, puedes aumentar tu privacidad desactivando algunas funciones de telemetría integradas y reforzando algunos ajustes de privacidad y seguridad integrados en el sistema.
@@ -22,7 +22,7 @@ La única fuente de aplicaciones en iOS es la App Store de Apple, que requiere u
 
 ### Telemetría Invasiva
 
-Apple ha tenido históricamente problemas para anonimizar correctamente su telemetría en iOS. [In 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+Apple ha tenido históricamente problemas para anonimizar correctamente su telemetría en iOS. [En 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), se descubrió que Apple transmitía grabaciones de Siri, algunas con información altamente confidencial, a sus servidores para que terceros contratistas las revisaran manualmente. Aunque detuvieron temporalmente ese programa después de que se [informara ampliamente de](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana) esa práctica, el problema no se resolvió por completo [hasta 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
 Recientemente, se ha descubierto que Apple [transmite datos analíticos incluso cuando el envío de datos analíticos se encuentra desactivado](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) en iOS, y esta información [parece](https://twitter.com/mysk_co/status/1594515229915979776) estar fácilmente vinculados a identificadores de cuenta únicos de iCloud, a pesar de ser supuestamente anónimos.
 
@@ -54,7 +54,7 @@ En la parte superior de la aplicación **Ajustes**, verás tu nombre y tu foto d
 
 #### Buscar
 
-**Buscar** es un servicio que te permite rastrear tus dispositivos Apple y compartir tu ubicación con tus amigos y familiares. También te permite borrar el dispositivo a distancia en caso de robo, evitando que un ladrón acceda a tus datos. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
+**Buscar** es un servicio que te permite rastrear tus dispositivos Apple y compartir tu ubicación con tus amigos y familiares. También te permite borrar el dispositivo a distancia en caso de robo, evitando que un ladrón acceda a tus datos. Tus [datos de localización de Buscar son E2EE](https://apple.com/legal/privacy/data/en/find-my) cuando:
 
 - Tu localización se comparte con un familiar o amigo, y ambos utilizáis iOS 15 o superior.
 - Tu dispositivo está desconectado y es localizado por la red Buscar.
@@ -117,7 +117,7 @@ Si no quieres que nadie pueda controlar tu teléfono con Siri cuando está bloqu
 
 Establecer una contraseña segura en tu teléfono es el paso más importante que puedes dar para la seguridad física del dispositivo. Tendrás que elegir entre seguridad y comodidad: Una contraseña más larga será molesta de escribir cada vez, pero una contraseña más corta o un PIN serán más fáciles de adivinar. Configurar Face ID o Touch ID junto con una contraseña segura puede ser un buen compromiso entre usabilidad y seguridad.
 
-Selecciona **Activar Código** o **Cambiar Código** > **Opciones de Código** > **Código Alfanumérico Personalizado**. Make sure that you create a [secure password](../basics/passwords-overview.md).
+Selecciona **Activar Código** o **Cambiar Código** > **Opciones de Código** > **Código Alfanumérico Personalizado**. Asegúrate de crear una [contraseña segura](../basics/passwords-overview.md).
 
 Si deseas utilizar Face ID o Touch ID, puedes seguir adelante y configurarlo ahora. Tu teléfono utilizará la contraseña que configuraste anteriormente como alternativa en caso de que falle la verificación biométrica. Los métodos de desbloqueo biométrico son ante todo una ventaja, aunque impiden que las cámaras de vigilancia o las personas por encima de su hombro te vean introducir el código.
 
@@ -129,7 +129,7 @@ En algunos dispositivos antiguos, puede que tengas que pulsar el botón de encen
 
 - [x] Selecciona **Activar Protección**
 
-After enabling stolen data protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. También añade un retardo de seguridad a ciertas acciones realizadas fuera de casa o de otro "lugar familiar", como el requerimiento de un temporizador de 1 hora para restablecer la contraseña de tu ID de Apple o cerrar sesión en tu ID de Apple. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
+Después de activar la protección de datos robados, [ciertas acciones](https://support.apple.com/HT212510) requerirán autenticación biométrica sin una contraseña de respaldo (en el caso de que un shoulder surfer haya obtenido tu PIN), tales como el uso de autorrelleno de contraseña, el acceso a la información de pago, y la desactivación del modo perdido. También añade un retardo de seguridad a ciertas acciones realizadas fuera de casa o de otro "lugar familiar", como el requerimiento de un temporizador de 1 hora para restablecer la contraseña de tu ID de Apple o cerrar sesión en tu ID de Apple. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
 
 **Permitir Acceso al Estar Bloqueado** te da opciones para lo que puedes permitir cuando tu teléfono está bloqueado. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti. Elige a cuáles de ellos no quieres que alguien tenga acceso si llega a poner sus manos en tu teléfono.
 
@@ -187,7 +187,7 @@ Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Sel
 
 - [x] Selecciona **Activar el Informe de Privacidad de las Apps**
 
-[Modo de Aislamiento](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) es un ajuste de seguridad que puedes activar para que tu teléfono sea más resistente a los ataques. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
+[Modo de Aislamiento](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) es un ajuste de seguridad que puedes activar para que tu teléfono sea más resistente a los ataques. Ten en cuenta que algunas aplicaciones y funciones [no funcionarán](https://support.apple.com/HT212650) como lo hacen normalmente.
 
 - [x] Selecciona **Activar el Modo de Aislamiento**
 
