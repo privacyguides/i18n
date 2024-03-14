@@ -13,7 +13,7 @@ En consecuencia, el correo electrónico se utiliza mejor para recibir correos el
 
 La forma estándar de añadir E2EE a los correos electrónicos entre diferentes proveedores de correo electrónico es utilizando OpenPGP. Existen diferentes implementaciones del estándar OpenPGP, siendo las más comunes [GnuPG](https://es.wikipedia.org/wiki/GNU_Privacy_Guard) y [OpenPGP.js](https://openpgpjs.org).
 
-Hay otro estándar que es popular entre las empresas llamada [S/MIME](https://es.wikipedia.org/wiki/S/MIME), sin embargo, requiere un certificado emitido por una [Autoridad de certificación](https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n) (no todos emiten certificados S/MIME). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+Hay otro estándar que es popular entre las empresas llamada [S/MIME](https://es.wikipedia.org/wiki/S/MIME), sin embargo, requiere un certificado emitido por una [Autoridad de certificación](https://es.wikipedia.org/wiki/Autoridad_de_certificaci%C3%B3n) (no todos emiten certificados S/MIME). Tiene soporte en [Google Workplace](https://support.google.com/a/topic/9061730) y [Outlook en la Web o Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
 Incluso si utilizas OpenPGP, no admite el [secreto perfecto hacia adelante](https://es.wikipedia.org/wiki/Perfect_forward_secrecy), lo que significa que si alguna vez se roba tu clave privada o la del destinatario, todos los mensajes anteriores cifrados con ella se expondrán. Es por eso que recomendamos [servicios de mensajería instantáneos](../real-time-communication.md) que implementan el secreto perfecto hacia adelante por sobre el correo electrónico para las comunicaciones de persona a persona siempre que sea posible.
 
@@ -23,7 +23,7 @@ El estándar de Directorio de Claves Web (WKD, por sus siglas en inglés) permit
 
 Además de los [clientes de correo electrónico que recomendamos](../email-clients.md) y son compatibles con WKD, algunos clientes web de correo electrónico también son compatibles con WKD. Si *tu propia* clave es publicada en WKD para que otros la utilicen, esto dependerá de tu configuración de dominio. Si utilizas un [proveedor de correo electrónico](../email.md#openpgp-compatible-services) compatible con WKD, como Proton Mail o Mailbox.org, ellos pueden publicar tu clave OpenPGP en su dominio por usted.
 
-Su utilizas tu propio dominio personalizado, necesitarás configurar WKD por separado. Si tienes control sobre tu nombre de dominio, puedes configurar WKD sin importar el proveedor de correo electrónico que utilices. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org). De manera alternativa, puedes [hospedar WKD en tu propio servidor web](https://wiki.gnupg.org/WKDHosting).
+Su utilizas tu propio dominio personalizado, necesitarás configurar WKD por separado. Si tienes control sobre tu nombre de dominio, puedes configurar WKD sin importar el proveedor de correo electrónico que utilices. Una manera fácil de hacer esto es utilizar la característica de "[WKD como servicio](https://keys.openpgp.org/about/usage#wkd-as-a-service)", desde keys.openpgp.org, al configurar un registro CNAME en el subdominio de `openpgpkey` de tu dominio, apuntando a `wkd.keys.openpgp.org`, y después publicando tu clave en [keys.openpgp.org](https://keys.openpgp.org). De manera alternativa, puedes [hospedar WKD en tu propio servidor web](https://wiki.gnupg.org/WKDHosting).
 
 Si utilizar un dominio compartido desde un proveedor no compatible con WKD, como @gmail.com, no podrás compartir tu clave OpenPGP con otros a través de este método.
 
@@ -33,7 +33,7 @@ Los proveedores de correo electrónico que permiten utilizar protocolos de acces
 
 ### ¿Cómo puedo proteger mis claves privadas?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. El mensaje es entonces descifrado por la tarjeta inteligente y el contenido descifrado es enviado de vuelta al dispositivo.
+Una tarjeta inteligente (como una [Yubikey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o una [Nitrokey](https://nitrokey.com)) funciona recibiendo un mensaje de correo electrónico cifrado desde un dispositivo (teléfono, tableta, ordenador, etc.) que ejecuta un cliente de correo electrónico/correo web. El mensaje es entonces descifrado por la tarjeta inteligente y el contenido descifrado es enviado de vuelta al dispositivo.
 
 Es ventajoso para el descifrado que suceda en la tarjeta inteligente para evitar la posible exposición de tu clave privada en un dispositivo comprometido.
 

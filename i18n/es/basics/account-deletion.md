@@ -4,23 +4,23 @@ icon: 'material/account-remove'
 description: Es fácil acumular un gran número de cuentas de Internet, aquí tienes algunos consejos sobre cómo reducir tu colección.
 ---
 
-Con el tiempo, puede ser fácil acumular varias cuentas en línea, muchas de las cuales puede que ya no utilices. Eliminar estas cuentas que no utilizas es un paso importante para recuperar tu privacidad, ya que las cuentas inactivas son vulnerables a las filtraciones de datos. Una filtración de datos se da cuando la seguridad de un servicio se ve comprometida y la información protegida es vista, transmitida o robada por actores no autorizados. Desafortunadamente, las filtraciones de datos son [demasiado comunes](https://haveibeenpwned.com/PwnedWebsites) en estos días, por lo que practicar una buena higiene digital es la mejor manera de minimizar el impacto que tienen en tu vida. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+Con el tiempo, puede ser fácil acumular varias cuentas en línea, muchas de las cuales puede que ya no utilices. Eliminar estas cuentas que no utilizas es un paso importante para recuperar tu privacidad, ya que las cuentas inactivas son vulnerables a las filtraciones de datos. Una filtración de datos se da cuando la seguridad de un servicio se ve comprometida y la información protegida es vista, transmitida o robada por actores no autorizados. Desafortunadamente, las filtraciones de datos son [demasiado comunes](https://haveibeenpwned.com/PwnedWebsites) en estos días, por lo que practicar una buena higiene digital es la mejor manera de minimizar el impacto que tienen en tu vida. El objetivo de esta guía es ayudarte a atravesar el fastidioso proceso de eliminación de cuentas para mejorar tu presencia en línea, lo que es a menudo dificultado por un [diseño engañoso](https://deceptive.design).
 
 ## Buscar cuentas antiguas
 
 ### Administrador de contraseñas
 
-Si tienes un gestor de contraseñas que has utilizado durante toda tu vida digital, esta parte será muy fácil. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
+Si tienes un gestor de contraseñas que has utilizado durante toda tu vida digital, esta parte será muy fácil. A menudo, incluyen funcionalidad integrada para detectar si tus credenciales fueron expuestas en una filtración de datos, como el [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned) (Reporte de filtración de datos) de Bitwarden.
 
 <figure markdown>
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Incluso si no has usado explícitamente un gestor de contraseñas antes, es probable que hayas usado el de tu navegador o el de tu teléfono sin darte cuenta. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Incluso si no has usado explícitamente un gestor de contraseñas antes, es probable que hayas usado el de tu navegador o el de tu teléfono sin darte cuenta. Por ejemplo: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) y [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
 Los sistemas operativos también suelen tener un gestor de contraseñas que puede ayudarte a recuperar contraseñas que has olvidado:
 
-- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- [Administrador de credenciales](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0) de Windows
 - macOS [Passwords](https://support.apple.com/HT211145)
 - iOS [Passwords](https://support.apple.com/HT211146)
 - Linux, Gnome Keyring, al cual se puede acceder a través de [Seahorse](https://wiki.gnome.org/Apps/Seahorse) o [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
@@ -39,7 +39,7 @@ Cuando intentes recuperar el acceso, si el sitio devuelve un mensaje de error di
 
 ### RGPD (solamente residentes del EEE)
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. Si es aplicable para ti, lee la política de privacidad del servicio para encontrar información sobre cómo ejercer tu derecho de eliminación. Leer la política de privacidad puede ser importante, ya que algunos servicios tienen una opción de "Borrar Cuenta" que solamente desactiva tu cuenta y para la eliminación real tienes que tomar acción adicional. A veces, la eliminación real puede implicar llenar formularios, enviar un correo electrónico al responsable de la protección de datos del servicio, o incluso demostrar tu residencia en el EEE. Si planeas seguir este camino, **no** sobrescribas la información de tu cuenta; es posible que se requiera tu identidad como residente del EEE. Ten en cuenta que la ubicación del servicio no importa; el RGPD se aplica a cualquiera que preste servicios a usuarios europeos. Si el servicio no respeta tu derecho de supresión de datos, puedes ponerte en contacto con tu [Autoridad de Protección de Datos](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_es) y puedes tener derecho a una compensación monetaria.
+Los residentes del EEE tienen derechos adicionales en relación con la supresión de datos especificados en el [Artículo 17](https://gdpr.org/regulation/article-17.html) del GDPR. Si es aplicable para ti, lee la política de privacidad del servicio para encontrar información sobre cómo ejercer tu derecho de eliminación. Leer la política de privacidad puede ser importante, ya que algunos servicios tienen una opción de "Borrar Cuenta" que solamente desactiva tu cuenta y para la eliminación real tienes que tomar acción adicional. A veces, la eliminación real puede implicar llenar formularios, enviar un correo electrónico al responsable de la protección de datos del servicio, o incluso demostrar tu residencia en el EEE. Si planeas seguir este camino, **no** sobrescribas la información de tu cuenta; es posible que se requiera tu identidad como residente del EEE. Ten en cuenta que la ubicación del servicio no importa; el RGPD se aplica a cualquiera que preste servicios a usuarios europeos. Si el servicio no respeta tu derecho de supresión de datos, puedes ponerte en contacto con tu [Autoridad de Protección de Datos](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_es) y puedes tener derecho a una compensación monetaria.
 
 ### Sobrescribir la información de la cuenta
 
@@ -59,4 +59,4 @@ Aunque puedas eliminar una cuenta, no hay garantía de que toda tu información 
 
 ## Evita Cuentas Nuevas
 
-Como dice el refrán, "una onza de prevención vale más que una libra de cura." Cuando te sientas tentado a crear una nueva cuenta, pregúntate "¿realmente lo necesito? ¿Puedo lograr lo que necesito sin una cuenta?" A menudo puede ser mucho más difícil eliminar una cuenta que crearla. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). Evita la tentación cuando puedas, ¡tu futuro yo te lo agradecerá!
+Como dice el refrán, "una onza de prevención vale más que una libra de cura." Cuando te sientas tentado a crear una nueva cuenta, pregúntate "¿realmente lo necesito? ¿Puedo lograr lo que necesito sin una cuenta?" A menudo puede ser mucho más difícil eliminar una cuenta que crearla. E incluso después de borrar o cambiar la información de tu cuenta, puede haber una versión en caché de un tercero, como en el [Internet Archive](https://archive.org). Evita la tentación cuando puedas, ¡tu futuro yo te lo agradecerá!
