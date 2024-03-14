@@ -214,7 +214,7 @@ Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cry
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
-Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
+Tuta unterstützt die [Zwei-Faktor-Authentifizierung](https://tuta.com/faq#2fa) entweder mit TOTP oder U2F.
 
 #### :material-check:{ .pg-green } Datensicherheit
 
@@ -226,13 +226,13 @@ Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can on
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
-Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. Du kannst ein deaktiviertes kostenloses Konto wieder verwenden, wenn du bezahlst.
+Tuta [löscht inaktive kostenlose Konten](https://tuta.com/faq#inactive-accounts) nach sechs Monaten. Du kannst ein deaktiviertes kostenloses Konto wieder verwenden, wenn du bezahlst.
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta bietet [Non-Profit-Organisationen](https://tuta.com/blog/posts/secure-email-for-non-profit) die Business-Version von [Tuta](https://tuta.com/blog/posts/secure-email-for-non-profit) kostenlos oder mit einem starken Rabatt an.
 
-Tuta hat auch eine Geschäftskundenfunktion namens [Secure Connect](https://tuta.com/de/business). Dadurch wird sichergestellt, dass der Kundenkontakt zum Unternehmen über E2EE erfolgt. Das Feature kostet 240 €/Jahr.
+Tuta hat auch eine Geschäftskundenfunktion namens [Secure Connect](https://tuta.com/secure-connect). Dadurch wird sichergestellt, dass der Kundenkontakt zum Unternehmen über E2EE erfolgt. Das Feature kostet 240 €/Jahr.
 
 Tuta bietet keine Funktion für deinen digitalen Nachlass.
 
@@ -386,7 +386,7 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
 - Verschlüsselt die Daten von E-Mail-Konten im Ruhezustand mit Zero-Access-Verschlüsselung.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
+- Exportmöglichkeit als [Mbox](https://en.wikipedia.org/wiki/Mbox) oder individuelle .eml mit [RFC5322-Standard](https://datatracker.ietf.org/doc/rfc5322).
 - Erlaubt es dem Nutzer, seinen eigenen [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) zu verwenden. Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
 - Arbeitet auf einer eigenen Infrastruktur, d.h. nicht auf der eines Drittanbieters von E-Mail-Diensten.
 
