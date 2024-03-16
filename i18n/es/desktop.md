@@ -190,12 +190,12 @@ Tails está diseñado para formatearse por completo después de cada reinicio. E
 
 **Qubes OS** es un sistema operativo de código abierto diseñado para proporcionar una fuerte seguridad para la informática de escritorio a través de máquinas virtuales seguras (o "qubes"). Qubes se basa en Xen, el Sistema de Ventanas X y Linux. Puede ejecutar la mayoría de las aplicaciones Linux y utilizar la mayoría de los controladores Linux.
 
-[:octicons-home-16: Homepage](https://qubes-os.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://qubes-os.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Servicio Onion" }
+[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title=Documentación }
+[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title=Contribuir }
 
 </details>
 
@@ -215,11 +215,11 @@ Aunque [desaconsejamos](os/linux-overview.md#release-cycle) distribuciones "perp
 
 **Kicksecure** -en términos muy simplificados- es un conjunto de scripts, configuraciones y paquetes que reducen sustancialmente la superficie de ataque de Debian. Cubre muchas recomendaciones de privacidad y seguridad por defecto. También sirve de sistema operativo base para [Whonix](#whonix).
 
-[:octicons-home-16: Homepage](https://kicksecure.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://kicksecure.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title=Documentación }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title=Contribuir }
 
 </details>
 

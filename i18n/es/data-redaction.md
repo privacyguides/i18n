@@ -1,8 +1,8 @@
 ---
-meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
-title: "Data and Metadata Redaction"
+meta_title: "Eliminar PII con Depuradores de Metadatos y Herramientas de Edición de Datos - Privacy Guides"
+title: "Edición de Datos y Metadatos"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Utiliza estas herramientas para eliminar metadatos como la ubicación GPS y otros datos identificativos de las fotos y archivos que compartas.
 cover: data-redaction.webp
 ---
 
@@ -20,12 +20,12 @@ Cuando compartas archivos, asegúrate de remover los metadatos asociados. Archiv
 
 En Linux, existe una herramienta gráfica de terceros [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) basada en MAT2 y está [disponible en Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
 
-[:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
-[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+[:octicons-repo-16: Repositorio](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentación}
+[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -48,12 +48,12 @@ En Linux, existe una herramienta gráfica de terceros [Metadata Cleaner](https:/
 
 Actualmente admite archivos JPEG, PNG y WebP.
 
-[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+[:octicons-repo-16: Repositorio](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -87,11 +87,11 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 **Metapho** es un visor simple y limpio para metadatos de fotos como fecha, nombre de archivo, tamaño, modelo de cámara, velocidad de obturación y ubicación.
 
-[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Página Principal](https://zininworks.com/metapho){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Política de Privacidad" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
@@ -107,13 +107,13 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 
 **PrivacyBlur** es una aplicación gratuita que permite difuminar partes sensibles de las imágenes antes de compartirlas en Internet.
 
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://privacyblur.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
@@ -141,13 +141,13 @@ No se debe **nunca** utilizar el desenfoque para redactar [texto en imágenes](h
 
 Suele ser un componente de otras aplicaciones de eliminación de Exif y se encuentra en la mayoría de los repositorios de las distribuciones de Linux.
 
-[:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://exiftool.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)
@@ -158,7 +158,7 @@ Suele ser un componente de otras aplicaciones de eliminación de Exif y se encue
 </div>
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Deleting data from a directory of files</p>
+<p class="admonition-title">Borrar datos de un directorio de archivos</p>
 
 ```bash
 exiftool -all= *.file_extension

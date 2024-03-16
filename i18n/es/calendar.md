@@ -13,18 +13,18 @@ Los calendarios contienen algunos de sus datos más sensibles; utilice productos
 
 ![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
 
-**Tuta** ofrece un calendario gratuito y cifrado en todas sus plataformas compatibles. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** ofrece un calendario gratuito y cifrado en todas sus plataformas compatibles. Entre sus características se incluyen: E2EE automático de todos los datos, funciones para compartir, funcionalidad de importación/exportación, autenticación multifactor y [más](https://tuta.com/calendar-app-comparison).
 
 Las funciones de calendarios múltiples y uso compartido ampliado están limitadas a los suscriptores de pago.
 
-[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://tuta.com/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código " }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -52,7 +52,7 @@ Las funciones de calendarios múltiples y uso compartido ampliado están limitad
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1514709943)

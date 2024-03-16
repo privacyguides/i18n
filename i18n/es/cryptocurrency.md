@@ -24,10 +24,10 @@ Muchas, si no la mayoría de los proyectos de criptomonedas son estafas. Únicam
 
 **Monero** utiliza una cadena de bloques (blockchain) con tecnologías que mejoran la privacidad. Cada transacción realizada con Monero, oculta el monto de la transacción, las direcciones de envío y recepción, además del origen de los fondos sin ningún intermediario, convirtiéndola en una opción ideal para los novatos en las criptomonedas.
 
-[:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://getmonero.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/monero-project/monero){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://getmonero.org/get-started/contributing){ .card-link title=Contribuir }
 
 </details>
 
@@ -39,15 +39,15 @@ Para una mejor privacidad, se debe asegurar de utilizar una billetera no monitor
 
 - [Cliente oficial de Monero](https://getmonero.org/downloads) (Escritorio)
 - [Cake Wallet](https://cakewallet.com) (iOS, Android)
-    - Cake Wallet soporta múltiples criptomonedas. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
+    - Cake Wallet soporta múltiples criptomonedas. Una versión de Cake Wallet que únicamente soporta Monero puede obtenerse desde [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)
 
 Para obtener un nivel máximo de privacidad (incluso con una billetera monitoreada), usted debe ejecutar su propio nodo de Monero. Al utilizar el nodo de otra persona, usted expondrá alguna información a dicha persona, como la dirección IP que utiliza para conectarse, las marcas de tiempo que sincroniza su billetera, y las transacciones que realiza desde su billetera (aunque no hay otros detalles sobre esas transacciones). Alternativamente, usted puede conectarse al nodo de Monero de otra persona a través de Tor o i2p.
 
-In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. Publicaciones públicas muestran cómo la Red de Ejecución de Delitos Financieros del Departamento de Tesorería del Gobierno de los Estados Unidos [licenció](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) el módulo CipherTrace de Monero a finales de 2022.
+En agosto de 2021, CipherTrace [anunció](https://ciphertrace.com/enhanced-monero-tracing) capacidades mejoradas de rastreo de Monero para agencias gubernamentales. Publicaciones públicas muestran cómo la Red de Ejecución de Delitos Financieros del Departamento de Tesorería del Gobierno de los Estados Unidos [licenció](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) el módulo CipherTrace de Monero a finales de 2022.
 
-La privacidad del gráfico transaccional de Monero está limitada por sus firmas de anillo relativamente pequeñas, especialmente contra ataques dirigidos. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. Mientras es poco probable que las herramientas de vigilancia masiva de Monero existan como lo hacen para Bitcoin y otras, es seguro que las herramientas de rastreo ayudan en las investigaciones dirigidas.
+La privacidad del gráfico transaccional de Monero está limitada por sus firmas de anillo relativamente pequeñas, especialmente contra ataques dirigidos. Las características de privacidad de Monero también han sido [cuestionadas](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) por algunos investigadores de seguridad, y una serie de vulnerabilidades graves han sido encontradas y corregidas en el pasado, haciendo que las reclamaciones de organizaciones como CipherTrace no están descartadas. Mientras es poco probable que las herramientas de vigilancia masiva de Monero existan como lo hacen para Bitcoin y otras, es seguro que las herramientas de rastreo ayudan en las investigaciones dirigidas.
 
 En última instancia, Monero es el principal candidato para una criptomoneda amigable con la privacidad, pero sus argumentos de privacidad **no** han sido definitivamente comprobados de una manera u otra. Más tiempo e investigación es requerida para encontrar los puntos donde Monero es lo suficientemente resistente a los ataques como para proporcionar la privacidad adecuada.
 
