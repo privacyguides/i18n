@@ -16,9 +16,9 @@ Para todo lo demás, recomendamos una variedad de proveedores de correo electró
 - [Otros Proveedores Encriptados :material-arrow-right-drop-circle:](#more-providers)
 - [Opciones Autoalojadas :material-arrow-right-drop-circle:](#self-hosting-email)
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+Además de (o en lugar de) un proveedor de correo electrónico recomendado aquí, es posible que desees considerar un [servicio de alias de correo electrónico](email-aliasing.md) dedicado para proteger tu privacidad. Entre otras cosas, estos servicios pueden ayudarte a proteger tu bandeja de entrada real del spam, evitar que los profesionales del marketing correlacionen tus cuentas y cifrar todos los mensajes entrantes con PGP.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [Más información :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Servicios Compatibles con OpenPGP
 

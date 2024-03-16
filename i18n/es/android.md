@@ -83,9 +83,9 @@ schema:
 
 El **proyecto de código abierto de Android** es un sistema operativo móvil de código abierto liderado por Google, que está detrás de la mayor parte de los dispositivos móviles del mundo. La mayor parte de los teléfono vendidos con Android son modificados para incluir integraciones y aplicaciones invasivas como los servicios de Google Play, así que puedes mejorar la privacidad de tu dispositivo móvil de manera significativa al reemplazar la instalación predeterminada de tu teléfono con una versión de Android sin esas características invasivas.
 
-[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com){ .card-link title=Página Principal }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentación}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject){ .card-link title="Código Fuente" }
 
 Estos son los sistemas operativos Android, dispositivos y aplicaciones que recomendamos para maximizar la seguridad y privacidad de tu dispositivo móvil. Para obtener más información sobre Android:
 
@@ -113,15 +113,15 @@ Los dispositivos al final de su vida útil (como GrapheneOS o los dispositivos d
 
 GrapheneOS proporciona mejoras [adicionales de seguridad](https://en.wikipedia.org/wiki/Hardening_(computing)) y privacidad. Dispone de un [asignador de memoria reforzado](https://github.com/GrapheneOS/hardened_malloc), permisos de red y de sensores, y otras [características de seguridad](https://grapheneos.org/features). GrapheneOS también incluye actualizaciones completas de firmware y compilaciones firmadas, por lo que el arranque verificado es totalmente compatible.
 
-[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
 
 </div>
 
-GrapheneOS es compatible con [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), que ejecuta [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) totalmente sandboxed como cualquier otra aplicación normal. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
+GrapheneOS es compatible con [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), que ejecuta [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) totalmente sandboxed como cualquier otra aplicación normal. Esto significa que puedes aprovechar la mayoría de los servicios de Google Play, como [notificaciones push](https://firebase.google.com/docs/cloud-messaging), al tiempo que te da un control total sobre sus permisos y acceso, y mientras que los contiene a un [perfil de trabajo](os/android-overview.md#work-profile) o [perfil de usuario](os/android-overview.md#user-profiles) específico de tu elección.
 
 Los teléfonos Pixel de Google son los únicos dispositivos que actualmente cumplen los [requisitos de seguridad de hardware ](https://grapheneos.org/faq#device-support)de GrapheneOS.
 
@@ -133,7 +133,7 @@ Los teléfonos Pixel de Google son los únicos dispositivos que actualmente cump
 
 ![DivestOS logo](assets/img/android/divestos.svg){ align=right }
 
-**DivestOS** is a soft-fork of [LineageOS](https://lineageos.org).
+**DivestOS** es un soft-fork de [LineageOS](https://lineageos.org).
 DivestOS hereda muchos [dispositivos compatibles](https://divestos.org/index.php?page=devices&base=LineageOS) de LineageOS. Tiene compilaciones firmadas, lo que hace posible tener [arranque verificado](https://source.android.com/security/verifiedboot) en algunos dispositivos que no son Pixel.
 
 [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
@@ -145,11 +145,11 @@ DivestOS hereda muchos [dispositivos compatibles](https://divestos.org/index.php
 
 </div>
 
-DivestOS ha automatizado la vulnerabilidad del kernel ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [parcheando](https://gitlab.com/divested-mobile/cve_checker), menos bloques propietarios, y un archivo personalizado [hosts](https://divested.dev/index.php?page=dnsbl). Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates. DivestOS también incluye parches de GrapheneOS para el kernel y habilita todas las características de seguridad del kernel disponibles a través de [endurecimiento defconfig](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
+DivestOS ha automatizado la vulnerabilidad del kernel ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [parcheando](https://gitlab.com/divested-mobile/cve_checker), menos bloques propietarios, y un archivo personalizado [hosts](https://divested.dev/index.php?page=dnsbl). Su WebView reforzado, [Mulch](https://gitlab.com/divested-mobile/mulch), permite [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) para todas las arquitecturas y la [partición del estado de la red](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), y recibe actualizaciones fuera de banda. DivestOS también incluye parches de GrapheneOS para el kernel y habilita todas las características de seguridad del kernel disponibles a través de [endurecimiento defconfig](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). Todos los kernels más recientes que la versión 3.4 incluyen [saneamiento](https://lwn.net/Articles/334747) de página completa y todos los ~22 kernels compilados por Clang tienen [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) habilitado.
 
-DivestOS implementa algunos parches de endurecimiento del sistema desarrollados originalmente para GrapheneOS. DivestOS 16.0 y superior implementa los permisos de GrapheneOS [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) y SENSORS, [asignador de memoria endurecido](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constificación](https://en.wikipedia.org/wiki/Const_(computer_programming)), y parches de endurecimiento parcial [biónico](https://en.wikipedia.org/wiki/Bionic_(software)). 17.1 and higher features GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features).
+DivestOS implementa algunos parches de endurecimiento del sistema desarrollados originalmente para GrapheneOS. DivestOS 16.0 y superior implementa los permisos de GrapheneOS [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) y SENSORS, [asignador de memoria endurecido](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constificación](https://en.wikipedia.org/wiki/Const_(computer_programming)), y parches de endurecimiento parcial [biónico](https://en.wikipedia.org/wiki/Bionic_(software)). A partir de la versión 17.1, GrapheneOS ofrece la opción de [aleatorización de MAC](https://en.wikipedia.org/wiki/MAC_address#Randomization) por red, control de [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) y [opciones timeout](https://grapheneos.org/features) de reinicio/Wi-Fi/Bluetooth automático.
 
-DivestOS utiliza F-Droid como su tienda de aplicaciones por defecto. Por lo general [recomendamos evitar F-Droid](#f-droid), pero hacerlo en DivestOS no es viable; los desarrolladores actualizan sus aplicaciones a través de sus propios repositorios de F-Droid ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) y [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) **with the DivestOS repositories enabled** to keep those components up to date. Para las demás aplicaciones, se siguen aplicando nuestros métodos recomendados para obtenerlas.
+DivestOS utiliza F-Droid como su tienda de aplicaciones por defecto. Por lo general [recomendamos evitar F-Droid](#f-droid), pero hacerlo en DivestOS no es viable; los desarrolladores actualizan sus aplicaciones a través de sus propios repositorios de F-Droid ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) y [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). Recomendamos desactivar la aplicación oficial de F-Droid y usar [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) **con los repositorios de DivestOS activados** para mantener los componentes actualizados. Para las demás aplicaciones, se siguen aplicando nuestros métodos recomendados para obtenerlas.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
@@ -166,13 +166,13 @@ Al comprar un dispositivo, recomendamos obtener uno lo más nuevo posible. El so
 
 Evita comprar teléfonos a operadores de redes móviles. Estos suelen tener un **bootloader bloqueado** y no admiten [desbloqueo OEM](https://source.android.com/devices/bootloader/locking_unlocking). Estas variantes de teléfono te impedirán instalar cualquier tipo de distribución alternativa de Android.
 
-Ten mucho **cuidado** con la compra de teléfonos de segunda mano de los mercados en línea. Comprueba siempre la reputación del vendedor. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). También existe el riesgo de que se te asocie con la actividad del propietario anterior.
+Ten mucho **cuidado** con la compra de teléfonos de segunda mano de los mercados en línea. Comprueba siempre la reputación del vendedor. Si el dispositivo es robado, existe la posibilidad de que se introduzca en la [base de datos de IMEI](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). También existe el riesgo de que se te asocie con la actividad del propietario anterior.
 
 Algunos consejos más sobre los dispositivos Android y la compatibilidad del sistema operativo:
 
 - No compres dispositivos que hayan alcanzado o estén cerca del final de su vida útil, las actualizaciones adicionales del firmware deben ser proporcionadas por el fabricante.
 - No compres teléfonos LineageOS, OS precargados o cualquier teléfono Android sin el soporte adecuado, [Arranque verificado](https://source.android.com/security/verifiedboot) y actualizaciones de firmware. Tampoco tienes forma de comprobar si estos dispositivos han sido manipulados.
-- En resumen, si un dispositivo o una distribución de Android no aparece aquí, probablemente haya una buena razón. Check out our [forum](https://discuss.privacyguides.net) to find details!
+- En resumen, si un dispositivo o una distribución de Android no aparece aquí, probablemente haya una buena razón. ¡Consulta nuestro [foro](https://discuss.privacyguides.net) para obtener más información!
 
 ### Google Pixel
 
@@ -194,7 +194,7 @@ Los elementos seguros como el Titan M2 son más limitados que el entorno de ejec
 
 Los teléfonos Google Pixel utilizan un SO TEE llamado Trusty que es de [código abierto](https://source.android.com/security/trusty#whyTrusty), a diferencia de muchos otros teléfonos.
 
-La instalación de GrapheneOS en un teléfono Pixel es fácil con su [instalador web](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
+La instalación de GrapheneOS en un teléfono Pixel es fácil con su [instalador web](https://grapheneos.org/install/web). Si no te sientes cómodo haciéndolo tú mismo y estás dispuesto a gastar un poco más de dinero, échale un vistazo a [NitroPhone](https://shop.nitrokey.com/shop), ya que vienen con GrapheneOS, de la reputada empresa [Nitrokey](https://nitrokey.com/about).
 
 Algunos consejos más para comprar un Google Pixel:
 
@@ -218,16 +218,16 @@ En este sitio recomendamos una amplia variedad de aplicaciones para Android. Las
 
 Shelter permite bloquear la búsqueda de contactos entre perfiles y compartir archivos entre perfiles a través del gestor de archivos predeterminado ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
-[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
+[:octicons-repo-16: Repositorio](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribuir }
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+Se recomienda Shelter en lugar de [Insular](https://secure-system.gitlab.io/Insular) e [Island](https://github.com/oasisfeng/island), ya que admite [bloqueo de búsqueda de contactos](https://secure-system.gitlab.io/Insular/faq.html).
 
 Al usar Shelter, está depositando toda su confianza en su desarrollador, ya que Shelter actúa como [Administrador de dispositivos](https://developer.android.com/guide/topics/admin/device-admin) para crear el perfil de trabajo, y tiene un amplio acceso a los datos almacenados en él.
 
@@ -322,11 +322,11 @@ Los metadatos de orientación de la imagen no se borran. Si habilitas la ubicaci
 
 </div>
 
-Obtenium te permite descargar archivos instaladores APK desde una gran variedad de fuentes, y depende de ti asegurarte que esas fuentes y aplicaciones son legítimas. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. El riesgo de instalar una *actualización* maliciosa es bajo, porque Android verifica por sí mismo que todas las actualizaciones de aplicaciones estén firmadas por el mismo desarrollador de las aplicaciones existentes antes de ser instaladas.
+Obtenium te permite descargar archivos instaladores APK desde una gran variedad de fuentes, y depende de ti asegurarte que esas fuentes y aplicaciones son legítimas. Por ejemplo, utilizar Obtainium para instalar Signal desde [la página oficial de Signal](https://signal.org/android/apk) puede estar bien, pero realizar la instalación desde repositorios de terceros como Aptoide o APKPure puede generar riesgos adicionales. El riesgo de instalar una *actualización* maliciosa es bajo, porque Android verifica por sí mismo que todas las actualizaciones de aplicaciones estén firmadas por el mismo desarrollador de las aplicaciones existentes antes de ser instaladas.
 
 ### Tienda de aplicaciones GrapheneOS
 
-La tienda de aplicaciones de GrapheneOS está disponible en [GitHub](https://github.com/GrapheneOS/Apps/releases). Soporta Android 12 o superior y es capaz de actualizarse a sí mismo. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](https://attestation.app), [Camera](https://github.com/GrapheneOS/Camera), and [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). Si estás buscando estas aplicaciones, te recomendamos que las obtengas desde la tienda de aplicaciones de GrapheneOS en lugar de la Play Store, ya que las aplicaciones en su tienda están firmadas por la propia firma del proyecto de GrapheneOS a la que Google no tiene acceso.
+La tienda de aplicaciones de GrapheneOS está disponible en [GitHub](https://github.com/GrapheneOS/Apps/releases). Soporta Android 12 o superior y es capaz de actualizarse a sí mismo. La tienda de aplicaciones cuenta con aplicaciones independientes creadas por el proyecto GrapheneOS, como [Auditor](https://attestation.app), [Camera](https://github.com/GrapheneOS/Camera) y [PDF Viewer](https://github.com/GrapheneOS/PdfViewer). Si estás buscando estas aplicaciones, te recomendamos que las obtengas desde la tienda de aplicaciones de GrapheneOS en lugar de la Play Store, ya que las aplicaciones en su tienda están firmadas por la propia firma del proyecto de GrapheneOS a la que Google no tiene acceso.
 
 ### Aurora Store
 
