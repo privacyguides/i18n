@@ -3,6 +3,10 @@ title: "DNS解析器"
 icon: material/dns
 description: These are some encrypted DNS providers we recommend switching to, to replace your ISP's default configuration.
 cover: dns.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. 加密的DNS不会帮助你隐藏任何浏览活动。

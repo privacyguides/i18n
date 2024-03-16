@@ -3,6 +3,10 @@ title: "DNS-resolvers"
 icon: material/dns
 description: Dit zijn enkele versleutelde DNS-providers die wij aanbevelen, ter vervanging van de standaardconfiguratie van jouw ISP.
 cover: dns.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 Versleutelde DNS met servers van derden zou alleen moeten worden gebruikt om simpele [DNS-blokkering](https://en.wikipedia.org/wiki/DNS_blocking) te omzeilen en als je er zeker van bent dat er geen gevolgen zullen zijn. Versleutelde DNS zal je niet helpen jouw surfactiviteiten te verbergen.

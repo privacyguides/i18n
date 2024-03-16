@@ -3,6 +3,10 @@ title: "DNSリゾルバ"
 icon: material/dns
 description: ISPのデフォルト設定を置き換える際に推奨される、暗号化DNSプロバイダーの一覧です。
 cover: dns.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Encrypted DNS will not help you hide any of your browsing activity.

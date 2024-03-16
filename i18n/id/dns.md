@@ -3,6 +3,10 @@ title: "Penyelesai DNS"
 icon: material/dns
 description: Berikut ini adalah beberapa penyedia DNS terenkripsi yang kami sarankan yang bisa digunakan untuk menggantikan konfigurasi bawaan ISP Anda.
 cover: dns.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 DNS terenkripsi dengan server pihak ketiga sebaiknya hanya digunakan untuk mengatasi pemblokiran [DNS dasar](https://en.wikipedia.org/wiki/DNS_blocking) ketika Anda yakin tidak akan ada konsekuensi apa pun. DNS yang terenkripsi tidak akan membantu menyembunyikan aktivitas penjelajahan Anda.

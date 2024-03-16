@@ -3,6 +3,10 @@ title: "DNS-Resolver"
 icon: material/dns
 description: Dies sind einige verschlüsselte DNS-Provider, zu denen wir den Wechsel empfehlen, um die Standardkonfiguration Ihres ISP (Internetanbieters) zu ersetzen.
 cover: dns.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Verschlüsseltes DNS hilft dir nicht dabei, deine Browsing-Aktivitäten zu verbergen.

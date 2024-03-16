@@ -3,6 +3,10 @@ title: "DNS Resolverek"
 icon: material/dns
 description: Ezekre a titkosított DNS-szolgáltatókra való átállást javasoljuk, hogy lecseréld az internetszolgáltatód alapértelmezett konfigurációját.
 cover: dns.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 Titkosított DNS-t harmadik féltől származó szerverekkel csak alapvető [DNS-blokkolás](https://en.wikipedia.org/wiki/DNS_blocking) megkerülésére kellene használni, ha biztos vagy benne, hogy annak nem lesz semmilyen következménye. A titkosított DNS nem fog segíteni elrejteni a böngészési tevékenységedet.
