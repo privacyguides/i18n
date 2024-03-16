@@ -14,8 +14,11 @@ cover: email.webp
 
 - [ספקי דוא"ל תואמי OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [ספקים מוצפנים אחרים :material-arrow-right-drop-circle:](#more-providers)
-- [שירותי כינוי אימייל :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [אפשרויות אירוח עצמי :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## ספקי אימייל מומלצים
 
@@ -235,109 +238,6 @@ Tuta מציעה את הגרסה העסקית של [Tuta לארגונים ללא 
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
 
 Tuta אינו מציע תכונה מורשת דיגיטלית.
-
-## שירותי כינוי דוא"ל
-
-שירות כינוי דוא"ל מאפשר לך ליצור בקלות כתובת דוא"ל חדשה עבור כל אתר שאתה נרשם אליו. כינויי הדואר האלקטרוני שאתה יוצר מועברים לאחר מכן לכתובת דוא"ל שתבחר, תוך הסתרת כתובת הדוא"ל "הראשית" שלך וגם זהות ספק הדוא"ל שלך. כינוי דוא"ל אמיתי טוב יותר מאשר כתובת פלוס הנפוצה בשימוש ונתמך על ידי ספקים רבים, מה שמאפשר לך ליצור כינויים כמו yourname+[anythinghere]@example.com, מכיוון שאתרים, מפרסמים ורשתות מעקב יכולים להסיר כל דבר לאחר סימן + כדי לדעת את כתובת הדוא"ל האמיתית שלך.
-
-<div class="grid cards" markdown>
-
-- ![addy.io לוגו](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin לוגו](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-כינוי דוא"ל יכול לשמש כהגנה למקרה שספק הדוא"ל שלך יפסיק לפעול. בתרחיש זה, באפשרותך לנתב מחדש בקלות את הכינויים שלך לכתובת דואר אלקטרוני חדשה. עם זאת, אתה נותן אמון בשירות הכינוי כדי להמשיך לתפקד.
-
-שימוש בשירות ייעודי של כינוי דואר אלקטרוני יש גם מספר יתרונות על פני כינוי 'לתפוס-הכל' על תחום מותאם אישית:
-
-- ניתן להפעיל ולכבות כינויים באופן אישי בעת הצורך, וכך למנוע מאתרי אינטרנט לשלוח לך דוא"ל באופן אקראי.
-- התגובות נשלחות מכתובת הכינוי, ומגינות על כתובת הדוא"ל האמיתית שלך.
-
-תכונות חינמיות בולטות:
-
-- כינויים הם קבועים וניתן להפעיל אותם שוב אם אתה צריך לקבל משהו כמו איפוס סיסמה.
-- הודעות דוא"ל נשלחות לתיבת הדואר המהימנה שלך ולא מאוחסנות על ידי ספק הכינויים.
-- שירותי דואר אלקטרוני זמניים בדרך כלל יש תיבות דואר ציבוריות אשר ניתן לגשת על ידי כל מי שמכיר את הכתובת, כינויים פרטיים שלך.
-
-ההמלצות שלנו לכינוי דוא"ל הן ספקים המאפשרים לך ליצור כינויים בדומיינים שהם שולטים בהם, כמו גם דומיינ(ים) מותאמים אישית משלך תמורת תשלום שנתי צנוע. ניתן גם לארח אותם בעצמך אם אתה רוצה שליטה מקסימלית. עם זאת, שימוש בדומיין מותאם אישית יכול להיות בעל חסרונות הקשורים לפרטיות: אם אתה האדם היחיד המשתמש בדומיין המותאם אישית שלך, ניתן לעקוב בקלות אחר הפעולות שלך באתרי אינטרנט פשוט על ידי הסתכלות על שם הדומיין בכתובת הדוא"ל והתעלמות מכל מה שלפני ה-(@) סימן.
-
-שימוש בשירות כינויים מחייב לתת אמון הן בספק הדואר האלקטרוני שלך והן בספק הכתובות שלך בהודעות הלא מוצפנות שלך. חלק מהספקים מפחיתים זאת מעט עם הצפנת PGP אוטומטית, שמפחיתה את מספר הצדדים שאתה צריך לסמוך עליהם משניים לאחד על ידי הצפנת הודעות דוא"ל נכנסות לפני שהן נמסרות לספק תיבת הדואר הסופי שלך.
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![addy.io לוגו](assets/img/email/addy.svg#only-light){ align=right }
-![addy.io לוגו](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-**addy.io** מאפשר לך ליצור 10 כינויים של דומיין בדומיין משותף בחינם, או כינויים "סטנדרטיים" ללא הגבלה שהם פחות אנונימיים.
-
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-מספר הכינויים המשותפים (שמסתיימים בדומיין משותף כמו @addy.io) שאתה יכול ליצור מוגבל ל-10 בתוכנית החינמית של addy.io, 50 בתוכנית של $1 לחודש וללא הגבלה בתוכנית של $4 לחודש (החיוב 3 דולר לשנה). אתה יכול ליצור כינויים סטנדרטיים ללא הגבלה (שמסתיימים בדומיין כמו @[username].addy.io או דומיין מותאם אישית בתוכניות בתשלום), עם זאת, כפי שצוין קודם לכן, זה יכול להזיק לפרטיות מכיוון שאנשים יכולים לקשור באופן טריוויאלי את הכינויים הסטנדרטיים שלך יחד על סמך שם הדומיין בלבד. הם שימושיים כאשר דומיין משותף עשוי להיות חסום על ידי שירות. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-תכונות חינמיות בולטות:
-
-- [x] 10 כינויים משותפים
-- [x] כינויים סטנדרטיים ללא הגבלה
-- [ ] אין תגובות יוצאות
-- [x] 1 תיבות דואר של נמען
-- [x] הצפנת PGP אוטומטית
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Simplelogin לוגו](assets/img/email/simplelogin.svg){ align=right }
-
-**SimpleLogin** הוא שירות חינמי המספק כינויי דוא"ל על מגוון שמות דומיין משותפים, ובאופן אופציונלי מספק תכונות בתשלום כמו כינויים בלתי מוגבלים ודומיינים מותאמים אישית.
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-SimpleLogin [נרכשה על ידי Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) נכון ל-8 באפריל 2022. אם אתה משתמש ב-Proton Mail עבור תיבת הדואר הראשית שלך, SimpleLogin היא בחירה מצוינת. מכיוון ששני המוצרים נמצאים כעת בבעלות אותה חברה, כעת עליך לסמוך רק על ישות אחת. אנו גם מצפים ש-SimpleLogin תשתלב בצורה הדוקה יותר עם ההיצע של Proton בעתיד. SimpleLogin ממשיכה לתמוך בהעברה לכל ספק דוא"ל שתבחרו. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-תוכל לקשר את חשבון SimpleLogin שלך בהגדרות עם חשבון Proton שלך. אם יש לך את הפרוטון ללא הגבלה, עסקים, או תוכנית חזון, יהיה לך SimpleLogin פרימיום בחינם.
-
-תכונות חינמיות בולטות:
-
-- [x] 10 כינויים משותפים
-- [x] תשובות ללא הגבלה
-- [x] 1 תיבת דואר נמען
 
 ## אימייל לאירוח עצמי
 

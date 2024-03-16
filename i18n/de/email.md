@@ -14,8 +14,11 @@ Für alles andere empfehlen wir eine Reihe von E-Mail-Anbietern, die auf nachhal
 
 - [OpenPGP-kompatible E-Mail-Anbieter :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Andere verschlüsselte Anbieter :material-arrow-right-drop-circle:](#more-providers)
-- [E-Mail-Alias-Dienste :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Selbstbetreibbare Optionen :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP-kompatible Dienste
 
@@ -236,109 +239,6 @@ Tuta hat auch eine Geschäftskundenfunktion namens [Secure Connect](https://tuta
 
 Tuta bietet keine Funktion für deinen digitalen Nachlass.
 
-## E-Mail-Aliasing-Dienste
-
-Mit einem E-Mail-Aliasing-Dienst können Sie für jede Website, für die Sie sich anmelden, ganz einfach eine neue E-Mail-Adresse generieren. Die von dir erstellten E-Mail-Aliase werden dann an eine E-Mail-Adresse deiner Wahl weitergeleitet, wobei sowohl deine "Haupt"-E-Mail-Adresse als auch die Identität deines E-Mail-Anbieters verborgen bleiben. Echtes E-Mail-Aliasing ist besser als die von vielen Providern verwendete und unterstützte Plus-Adressierung, mit der du Aliase wie DeinName+[irgendetwas]@example.com erstellen kannst, da Websites, Werbetreibende und Tracking-Netzwerke einfach alles nach dem +-Zeichen entfernen können, um deine wahre E-Mail-Adresse zu erfahren.
-
-<div class="grid cards" markdown>
-
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-Das E-Mail-Aliasing kann als Schutz dienen, falls dein E-Mail-Anbieter einmal seinen Betrieb einstellt. In diesem Fall kannst du deine Aliase einfach an eine neue E-Mail-Adresse weiterleiten. Im Gegenzug vertraust du jedoch darauf, dass der Aliasing-Dienst weiterhin funktioniert.
-
-Die Verwendung eines speziellen E-Mail-Aliasdienstes hat auch eine Reihe von Vorteilen gegenüber einem Catch-All-Alias auf einer benutzerdefinierten Domäne:
-
-- Aliasnamen können bei Bedarf individuell ein- und ausgeschaltet werden, um zu verhindern, dass Websites wahllos E-Mails an dich senden.
-- Die Antworten werden von der Alias-Adresse gesendet, sodass deine echte E-Mail-Adresse verborgen bleibt.
-
-Sie haben auch eine Reihe von Vorteilen gegenüber "temporären E-Mail-Diensten":
-
-- Aliase sind dauerhaft und können wieder aktiviert werden, wenn du z. B. ein neues Kennwort erhalten musst.
-- E-Mails werden an dein vertrauenswürdiges Postfach gesendet und nicht beim Alias-Anbieter gespeichert.
-- Temporäre E-Mail-Dienste haben in der Regel öffentliche Postfächer, auf die jeder zugreifen kann, der die Adresse kennt, während Aliase privat sind.
-
-Unsere E-Mail-Aliasing-Empfehlungen beziehen sich auf Anbieter, die es Ihnen ermöglichen, gegen eine geringe Jahresgebühr Aliase für die von dir kontrollierten Domains sowie für deine eigene(n) benutzerdefinierte(n) Domain(s) zu erstellen. Sie können auch selbst gehostet werden, wenn du dir maximale Kontrolle wünscht. Die Verwendung einer benutzerdefinierten Domäne kann jedoch datenschutzbezogene Nachteile haben: Wenn du die einzige Person bist, die deine benutzerdefinierte Domäne verwendet, können deine Aktionen auf verschiedenen Websites leicht nachverfolgt werden, indem einfach der Domänenname in der E-Mail-Adresse betrachtet und alles vor dem @-Zeichen ignoriert wird.
-
-Die Verwendung eines Alias-Dienstes setzt voraus, dass du sowohl deinem E-Mail-Anbieter als auch deinem Alias-Anbieter deine unverschlüsselten Nachrichten anvertraust. Einige Anbieter entschärfen dieses Problem durch die automatische PGP-Verschlüsselung, bei der die Anzahl der Parteien, denen du vertrauen musst, von zwei auf eine reduziert wird, indem eingehende E-Mails verschlüsselt werden, bevor sie an deinen endgültigen Mailbox-Anbieter übermittelt werden.
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-Mit **addy.io** können sie gratis 10 verschiedene Aliase auf einem geteilten Domainnamen erstellen, oder unendlich viele "standard" Aliase, welche weniger anonym sind.
-
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-Mit dem gratis-Plan ist die Anzahl der geteilten Aliase (welche in einer geteilten Domäne, wie z.B. @addy.io, enden) auf 10 beschränkt. Für 1$ im Monat erhalten sie 50, und für 4$ im Monat unendlich viele (3$ pro Monat wenn sie jährlich zahlen). Sie können unendlich viele standard Aliase (welche in einer Domäne wie @[Nutzername].addy.io oder einer benutzerdefinierten Domäne mit Abo enden) erstellen, allerdings sind diese, wie schon gesagt, weniger anonym, da schon allein über den Domainnamen alle Aliase miteinander auf eine Person zurückgeführt werden können. Standard Aliase sind sinnvoll, wenn geteilte Domänen von einer Website geblockt werden. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-Bemerkenswerte kostenlose Funktionen:
-
-- [x] 10 Gemeinsame Aliasnamen
-- [x] Unbegrenzte Standard-Aliasnamen
-- [ ] Keine ausgehenden Antworten
-- [x] Eine Mailbox zum Empfang
-- [x] Automatische PGP-Verschlüsselung
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Simplelogin-Logo](assets/img/email/simplelogin.svg){ align=right }
-
-**SimpleLogin** ist ein kostenloser Dienst, der E-Mail-Aliase für eine Vielzahl von gemeinsam genutzten Domänennamen bereitstellt und optional kostenpflichtige Funktionen wie unbegrenzte Aliase und benutzerdefinierte Domänen bietet.
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-SimpleLogin wurde zum 8. April 2022 [von der Proton AG übernommen](https://proton.me/news/proton-and-simplelogin-join-forces). Wenn du Proton Mail für dein Hauptpostfach verwendest, ist SimpleLogin eine gute Wahl. Da beide Produkte nun demselben Unternehmen gehören, musst du nur noch einem einzigen Unternehmen vertrauen. Wir gehen außerdem davon aus, dass SimpleLogin in Zukunft enger mit den Angeboten von Proton integriert werden wird. SimpleLogin unterstützt weiterhin die Weiterleitung an einen E-Mail-Anbieter deiner Wahl. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-Du kannst dein SimpleLogin-Konto in den Einstellungen mit deinem Proton-Konto verknüpfen. Wenn du den Proton Unlimited, Business oder Visionary Tarif nutzt, erhältst du zusätzlich SimpleLogin Premium kostenlos dazu.
-
-Bemerkenswerte kostenlose Funktionen:
-
-- [x] 10 Gemeinsame Aliasnamen
-- [x] Unbegrenzte Antworten
-- [x] 1 Empfänger-Mailbox
-
 ## E-Mail Selbst Hosten
 
 Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-Mail-Servers in Erwägung ziehen. Mailserver erfordern Aufmerksamkeit und ständige Wartung, um die Sicherheit und die Zuverlässigkeit der Mailzustellung zu gewährleisten.
@@ -452,7 +352,7 @@ Auf E-Mail-Servern werden viele sehr sensible Daten verarbeitet. Wir erwarten, d
 
 Du würdest jemandem mit einer gefälschten Identität nicht deine Finanzen anvertrauen, warum solltest du ihm also deine E-Mails anvertrauen? Wir verlangen von den von uns empfohlenen Anbietern, dass sie ihre Eigentumsverhältnisse oder ihre Führungsrolle öffentlich machen. Außerdem wünschen wir uns häufige Transparenzberichte, insbesondere über die Bearbeitung von Regierungsanfragen.
 
-**Mindestvoraussetzung um sich zu qualifizieren:**
+**Mindestvoraussetzung um zu qualifizieren:**
 
 - Öffentliche Führung oder Eigentum.
 

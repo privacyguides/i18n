@@ -14,8 +14,11 @@ cover: email.webp
 
 - [OpenPGP 호환 이메일 제공 업체 :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [기타 암호화 이메일 제공 업체 :material-arrow-right-drop-circle:](#more-providers)
-- [이메일 별칭 서비스 :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [자체 호스팅 솔루션 :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP 호환 서비스
 
@@ -235,109 +238,6 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). 이는 고객의 비즈니스 연락에 E2EE 적용을 보장합니다. 해당 기능의 가격은 연간 240유로입니다.
 
 Tuta doesn't offer a digital legacy feature.
-
-## 이메일 별칭 서비스
-
-이메일 별칭 서비스를 이용하면 가입하는 모든 웹사이트마다 새로운 이메일 주소를 생성해 사용하는 것이 가능합니다. 생성한 이메일 별칭으로 오는 메시지는 모두 여러분이 선택한 이메일 주소로 전달됩니다. 따라서 여러분이 '주로' 사용하는 이메일 주소를 드러내지 않을 수 있고, 여러분이 사용하는 이메일 제공 업체가 무엇인지도 숨길 수 있습니다. 사용자명+[어떤 문자열]@example.com 형태로 이메일 별칭을 생성하는 서비스가 대다수지만, 이 경우 웹사이트나 광고 업체 혹은 추적 네트워크에서 + 기호 뒤의 문자열을 지우기만 하면 여러분의 실제 이메일 주소를 알아낼 수 있으므로, 이런 형태 대신 완전한 이메일 별칭을 만드는 것이 훨씬 낫습니다.
-
-<div class="grid cards" markdown>
-
-- ![addy.io 로고](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin 로고](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-이메일 별칭은 이메일 제공 업체가 운영을 중단하는 경우를 대비한 안전장치 역할을 할 수도 있습니다. 이메일 제공 업체가 운영을 중단한 경우, 이메일 별칭의 전달 주소를 새로운 이메일 주소로 바꾸기만 하면 됩니다. 단, 이는 이메일 별칭 서비스가 계속 운영될 것이라는 신뢰 또한 필요로 합니다.
-
-이메일 별칭 전용 서비스를 사용할 경우 사용자 정의 도메인에서 Catch-all 별칭보다 유리한 점이 있습니다:
-
-- 별칭은 필요할 때 개별적으로 켜고 끌 수 있어 웹사이트가 무차별적으로 이메일을 보내는 걸 방지할 수 있습니다.
-- 답장 시 실제 이메일 주소가 드러내지 않고 별칭 주소에서 전송됩니다.
-
-'임시 이메일' 서비스에 비해서도 여러 이점이 있습니다.
-
-- 이메일 별칭은 영구적이며, 비밀번호 재설정 등의 이메일을 받아야 하는 경우 다시 활성화할 수 있습니다.
-- 이메일을 이메일 별칭 서비스 제공 업체에서 저장하는 것이 아닌, 여러분이 신뢰하는 메일함으로 전송됩니다.
-- 임시 이메일 서비스는 일반적으로 누군가 주소를 알고만 있다면 접근 가능한 공개 메일함이 존재합니다. 반면 이메일 별칭은 비공개로, 여러분만 볼 수 있습니다.
-
-Privacy Guides 권장 이메일 별칭 제공 업체는 해당 업체에서 관리하는 도메인을 이용한 이메일 별칭 생성 서비스를 제공하며, 소정의 연간 요금으로 여러분이 보유한 도메인을 이용할 수도 있습니다. 가능한 한 많은 통제권을 원하는 경우 자체 호스팅할 수도 있습니다. 단, 사용자 정의 도메인을 사용할 경우에는 프라이버시 면에서 단점이 생길 수 있습니다. 해당 사용자 정의 도메인을 사용하는 사람이 한 명뿐일 경우, 이메일 주소에서 @ 기호 앞부분을 무시하고 도메인 이름만으로도 해당 사람을 특정 웹사이트의 경계 밖에서도 쉽게 추적 가능해집니다.
-
-'이메일 별칭 서비스를 사용한다'라는 것은, 암호화되지 않은 메시지를 다룰 땐 이메일 제공 업체와 이메일 별칭 서비스 제공 업체를 모두 신뢰해야 함을 의미합니다. 일부 제공 업체는 수신 이메일을 최종 메일함 제공 업체에 도달하기 전에 자동으로 PGP 암호화는 방식을 통해 신뢰해야 할 개체의 수를 둘에서 하나로 줄이는 식으로 해당 문제를 어느 정도 완화하기도 합니다.
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
-
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-주요 무료 기능:
-
-- [x] 10개의 공통 도메인 별칭
-- [x] 무제한 Standard 별칭
-- [ ] 발신 답장 불가능
-- [x] 1 Recipient Mailboxes
-- [x] 자동 PGP 암호화
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Simplelogin 로고](assets/img/email/simplelogin.svg){ align=right }
-
-**SimpleLogin**는 여러 공통 도메인 이름에 이메일 별칭을 제공하는 무료 서비스입니다. 유료 기능으로는 무제한 별칭 및 사용자 지정 도메인을 사용할 수 있습니다.
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-SimpleLogin은 [2022년 4월 8일자로 Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces)에 인수되었습니다. Proton Mail을 주로 사용하고 계신다면 SimpleLogin은 훌륭한 선택입니다. 이제 두 제품 모두 동일한 회사에서 소유하고 있으므로, 신뢰해야 할 업체의 개수가 하나로 줄어듭니다. SimpleLogin은 향후 Proton 제품과 더욱 긴밀하게 통합될 것으로 기대하고 있습니다. SimpleLogin은 사용자가 선택한 어떤 이메일 제공업체든 계속 전달을 지원합니다. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-Proton 계정과 SimpleLogin 계정 연결은 설정에서 가능합니다. Proton Unlimited, Business, Visionary 플랜을 이용 중이라면 SimpleLogin 프리미엄도 무료로 제공됩니다.
-
-주요 무료 기능:
-
-- [x] 10개의 공통 도메인 별칭
-- [x] 무제한 답장
-- [x] 1개의 수신자 메일함
 
 ## 자체 호스팅 이메일
 

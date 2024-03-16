@@ -14,8 +14,11 @@ Pour tout le reste, nous recommandons une variété de fournisseurs d'email en f
 
 - [Fournisseurs d'e-mails compatibles avec OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Autres fournisseurs chiffrés :material-arrow-right-drop-circle:](#more-providers)
-- [Services d'alias d'e-mail :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Options d'auto-hébergement :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Services compatibles avec OpenPGP
 
@@ -235,109 +238,6 @@ Tuta offre la version professionnelle de [Tuta aux organisations à but non lucr
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Cela garantit que le contact du client avec l'entreprise utilise E2EE. La fonctionnalité coûte 240 €/an.
 
 Tuta ne propose pas de fonction d'héritage numérique.
-
-## Services d'alias d'e-mails
-
-Un service d'alias d'e-mails vous permet de générer facilement une nouvelle adresse e-mail pour chaque site web auquel vous vous inscrivez. Les alias que vous créez sont ensuite transférés vers une adresse e-mail de votre choix, ce qui permet de masquer à la fois votre adresse e-mail "principale" et l'identité de votre fournisseur d'e-mail. Un véritable alias d'e-mail est mieux que l'adressage plus, couramment utilisé et pris en charge par de nombreux fournisseurs, qui vous permet de créer des alias tels que votrenom+[nimportequoiici]@exemple.fr, car les sites web, les annonceurs et les réseaux de pistage peuvent trivialement supprimer tout ce qui suit le signe + pour connaître votre véritable adresse e-mail.
-
-<div class="grid cards" markdown>
-
-- ![logo addy.io](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![logo SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-L'alias d'e-mail peut servir de protection au cas où votre fournisseur d'e-mail cesserait de fonctionner. Dans ce cas, vous pouvez facilement rediriger vos alias vers une nouvelle adresse e-mail. En revanche, vous faites confiance au service d'alias pour qu'il continue de fonctionner.
-
-L'utilisation d'un service d'alias d'e-mail dédié présente également un certain nombre d'avantages par rapport à un alias fourre-tout sur un domaine personnalisé :
-
-- Les alias peuvent être activés et désactivés individuellement lorsque vous en avez besoin, ce qui empêche les sites web de vous envoyer des e-mails de façon aléatoire.
-- Les réponses sont envoyées à partir de l'adresse alias, qui masque votre véritable adresse e-mail.
-
-Ils présentent également un certain nombre d'avantages par rapport aux services qui fournissent des "e-mails temporaires" :
-
-- Les alias sont permanents et peuvent être réactivés si vous devez recevoir quelque chose comme une réinitialisation de mot de passe.
-- Les e-mails sont envoyés à votre boîte mail de confiance plutôt que d'être stockés par le fournisseur d'alias.
-- Les services d'e-mails temporaires proposent généralement des boîtes mail publiques auxquelles peuvent accéder tous ceux qui connaissent l'adresse, tandis que les alias sont privés.
-
-Nos recommandations en matière d'alias d'e-mail sont des fournisseurs qui vous permettent de créer des alias sur des domaines qu'ils contrôlent, ainsi que sur votre ou vos propres domaine(s) personnalisé(s), pour un coût annuel modeste. Ils peuvent également être auto-hébergés si vous souhaitez un contrôle maximal. Toutefois, l'utilisation d'un domaine personnalisé peut présenter des inconvénients en matière de confidentialité : Si vous êtes la seule personne à utiliser votre domaine personnalisé, vos actions peuvent être facilement suivies sur les sites web en regardant simplement le nom de domaine dans l'adresse e-mail et en ignorant tout ce qui se trouve avant le signe arobase (@).
-
-L'utilisation d'un service d'alias nécessite de faire confiance à la fois à votre fournisseur d'e-mail et à votre fournisseur d'alias pour vos messages non chiffrés. Certains fournisseurs atténuent légèrement ce problème grâce au chiffrement automatique PGP, qui réduit le nombre de services auxquels vous devez faire confiance de deux à un en chiffrant les e-mails entrants avant qu'ils ne soient remis à votre fournisseur de boîte mail final.
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![logo addy.io](assets/img/email/addy.svg#only-light){ align=right }
-![logo addy.io](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-**addy.io** vous permet de créer gratuitement 10 alias de domaine sur un domaine partagé, ou un nombre illimité d'alias "standard" qui sont moins anonymes.
-
-[:octicons-home-16: Page d'accueil](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Code source" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuer }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-Le nombre d'alias partagés (qui se terminent par un domaine partagé comme @addy.io) que vous pouvez créer est limité à 10 sur l'offre gratuite d'addy.io, à 50 sur leur offre à $1/mois et illimité sur leur offre à $4/mois (facturé $3 pour un an). Vous pouvez créer un nombre illimité d'alias standard (qui se terminent par un domaine tel que @[nomdutilisateur].addy.io ou un domaine personnalisé sur les offres payantes), mais, comme nous l'avons déjà mentionné, cela peut nuire à la confidentialité car les gens peuvent trivialement relier vos alias standard en se basant sur le seul nom de domaine. Ils sont utiles lorsqu'un domaine partagé peut être bloqué par un service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-Fonctions gratuites notables :
-
-- [x] 10 Alias partagés
-- [x] Alias standard illimités
-- [ ] Pas de réponses sortantes
-- [x] 1 Boîte mail de réception
-- [x] Chiffrement automatique PGP
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Logo Simplelogin](assets/img/email/simplelogin.svg){ align=right }
-
-**SimpleLogin** est un service gratuit qui fournit des alias d'e-mail sur une variété de noms de domaine partagés, et offre en option des fonctionnalités payantes comme des alias illimités et des domaines personnalisés.
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-SimpleLogin a été [acquis par Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) à compter du 8 avril 2022. Si vous utilisez Proton Mail pour votre boîte mail principale, SimpleLogin est un excellent choix. Les deux produits étant désormais détenus par la même société, vous ne devez plus faire confiance qu'à une seule entité. Nous supposons également que SimpleLogin sera plus étroitement intégré aux offres de Proton à l'avenir. SimpleLogin continue de prendre en charge la redirection vers le fournisseur d'e-mail de votre choix. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-Vous pouvez lier votre compte SimpleLogin avec votre compte Proton dans les paramètres de SimpleLogin. Si vous avez l'offre Proton Illimité, Entreprise, ou Visionnaire, vous aurez SimpleLogin Premium gratuitement.
-
-Fonctions gratuites notables :
-
-- [x] 10 Alias partagés
-- [x] Réponses illimitées
-- [x] 1 Boîte mail de réception
 
 ## E-mail auto-hébergé
 

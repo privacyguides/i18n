@@ -131,12 +131,12 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Logo di addy.io](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![Logo di SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
+- ![addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [addy.io](email-aliasing.md#addyio)
+- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
-[Scopri di più :material-arrow-right-drop-circle:](email.md#email-aliasing-services)
+[Scopri di più :material-arrow-right-drop-circle:](email-aliasing.md)
 
 #### Email ospitate autonomamente
 

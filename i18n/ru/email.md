@@ -14,8 +14,11 @@ cover: email.webp
 
 - [Провайдеры электронной почты, поддерживающие OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Другие провайдеры, поддерживающие шифрование :material-arrow-right-drop-circle:](#more-providers)
-- [Сервисы псевдонимов электронной почты :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Варианты самостоятельного хостинга :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Сервисы, поддерживающие OpenPGP
 
@@ -235,109 +238,6 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Это гарантирует, что контакт клиента с бизнесом использует E2EE. Стоимость функции составляет €240/год.
 
 Tuta doesn't offer a digital legacy feature.
-
-## Сервисы псевдонимов электронной почты
-
-Служба псевдонимов электронной почты позволяет легко генерировать новый адрес электронной почты для каждого сайта, на котором ты зарегистрирован. Созданные тобой псевдонимы электронной почты затем пересылают почту на выбранный тобой адрес электронной почты, скрывая как твой "основной" адрес электронной почты, так и название твоего провайдера электронной почты. Истинная адресация электронной почты лучше, чем плюсовая адресация, обычно используемая и поддерживаемая многими провайдерами, которая позволяет создавать псевдонимы типа ваше_имя+[что-то_ещё]@example.com, поскольку веб-сайты, рекламодатели и сети отслеживания могут просто удалить всё, что идет после знака +, чтобы узнать твой настоящий адрес электронной почты.
-
-<div class="grid cards" markdown>
-
-- ![Логотип addy.io](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![Логотип SimpleLogin](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-Псевдоним электронной почты может служить защитой на случай, если твой поставщик услуг электронной почты прекратит свою работу. В этом случае ты можешь легко перенаправить свои псевдонимы на новый адрес электронной почты. Однако, в этом случае, ты доверяешь службе псевдонимов продолжать функционировать.
-
-Использование специализированной службы псевдонимов электронной почты также имеет ряд преимуществ по сравнению с универсальным псевдонимом на пользовательском домене:
-
-- Псевдонимы можно включать и выключать по отдельности, когда это необходимо, что предотвращает случайную рассылку электронной почты веб-сайтами.
-- Ответы отправляются с псевдонимного адреса, скрывая твой настоящий адрес электронной почты.
-
-Они также имеют ряд преимуществ по сравнению с услугами "временной электронной почты":
-
-- Псевдонимы являются постоянными и могут быть включены снова, если тебе нужно получить что-то вроде сброса пароля.
-- Письма отправляются на ваш доверенный почтовый ящик, а не хранятся у поставщика псевдонимов.
-- Временные почтовые службы обычно имеют публичные почтовые ящики, доступ к которым может получить любой, кто знает адрес, псевдонимы же доступны только тебе.
-
-Наши рекомендованные провайдеры псевдонимов электронной почты позволяют тебе создавать псевдонимы на доменах, которые они контролируют, а также на твоих собственных доменах за умеренную годовую плату. Ты так же можешь разместить их на своем сервере, если ты хочешь получить максимальный контроль. Однако использование пользовательского домена может иметь недостатки, связанные с конфиденциальностью: если ты единственный человек, использующий пользовательский домен, твои действия можно легко отследить на всех сайтах, просто посмотрев на доменное имя в адресе электронной почты и проигнорировав всё, что находится перед знаком "эт" (@).
-
-Отправка/получение незашифрованных писем через службу псевдонимов требует доверия как к твоему почтовому провайдеру, так и к провайдеру псевдонимов. Некоторые провайдеры смягчают эту проблему с помощью автоматического шифрования PGP, которое уменьшает требующих доверия сторон с двух до одной, шифруя входящие электронные письма до их доставки к твоему конечному почтовому провайдеру.
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![Логотип addy.io](assets/img/email/addy.svg#only-light){ align=right }
-![Логотип addy.io](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-**addy.io** позволяет вам создать 10 псевдонимов на общем домене или неограниченное количество "стандартных" псевдонимов, которые менее анонимны.
-
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-Количество общих псевдонимов (заканчивающихся на общий домен, например @addy.io), которые вы можете создать, ограничено 10 на бесплатном плане addy.io, 50 на плане стоимостью 1 доллар в месяц и неограниченно на плане стоимостью 4 доллара в месяц (счет выставляется на 3 доллара в течение года). Ты можешь создавать неограниченное количество стандартных псевдонимов (которые заканчиваются на домен типа @[username].addy.io или пользовательский домен в платных тарифных планах), однако, как уже говорилось ранее, это может нанести ущерб конфиденциальности, поскольку люди могут банально связать ваши стандартные псевдонимы вместе на основе общего доменного имени. Они полезны в тех случаях, когда общий домен может быть заблокирован какой-либо службой. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-Примечательные бесплатные функции:
-
-- [x] 10 общих псевдонимов
-- [x] Неограниченное количество стандартных псевдонимов
-- [ ] Нет исходящих ответов
-- [x] 1 Почтовый ящик получателя
-- [x] Автоматическое шифрование PGP
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Логотип Simplelogin](assets/img/email/simplelogin.svg){ align=right }
-
-**SimpleLogin** - это бесплатный сервис, который предоставляет псевдонимы электронной почты на различных общих доменных именах, и опционально платные возможности, такие как неограниченное количество псевдонимов и пользовательские домены.
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-SimpleLogin был [приобретен компанией Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) по состоянию на 8 апреля 2022 года. Если ты используешь Proton Mail в качестве основного почтового ящика, SimpleLogin - отличный выбор. Поскольку оба продукта теперь принадлежат одной компании, тебе нужно доверять только одной организации. Мы также ожидаем, что в будущем SimpleLogin будет более тесно интегрирован с приложениями Proton. SimpleLogin по-прежнему поддерживает пересылку на любого поставщика услуг электронной почты по твоему выбору. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-В настройках SompleLogin ты можешь связать свою учетную запись SimpleLogin с учетной записью Proton. Если у тебя есть план Proton Unlimited, Business или Visionary, то ты также получаешь SimpleLogin Premium бесплатно.
-
-Примечательные бесплатные функции:
-
-- [x] 10 общих псевдонимов
-- [x] Неограниченные ответы
-- [x] 1 Почтовый ящик получателя
 
 ## Электронная почта для самостоятельного хостинга
 

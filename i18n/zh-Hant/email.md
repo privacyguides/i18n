@@ -14,8 +14,11 @@ cover: email.webp
 
 - [OpenPGP 兼容的郵件提供商 :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [其他加密提供者 :material-arrow-right-drop-circle:](#more-providers)
-- [電子郵箱別名服務 :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [自主託管選項 :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP 兼容服務
 
@@ -235,109 +238,6 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/posts/s
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
 
 Tuta 不提供數位遺產功能。
-
-## 郵箱別名
-
-電子郵件別名服務可讓您輕鬆地為每次網站註冊生成一個新的電子郵件地址。 您電子郵件別名會自動把郵件轉發到您選擇的電子郵件地址，以隱藏您“主要”電子郵件地址和電子郵件提供商。 真正的電子郵件別名比許多提供商常用和支持的加地址更好，這允許您創建別名，如yourname +[anythinghere]@ example.com ，因為網站，廣告商和跟蹤網絡可以簡單地刪除+符號之後的任何內容，以知道您的真實電子郵件地址。
-
-<div class="grid cards" markdown>
-
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-電子郵件別名可以作為一種保護措施，一旦您的電子郵件提供商停止運營。 在這種情況下，您可以輕鬆地將別名重新路由到新的電子郵件地址。 但這也意謂，您把信任轉移到另一家別名服務以繼續享用此功能。
-
-使用專門的電子郵件別名服務比自定網域上的通用別名有許多好處：
-
-- 有需要時，可以單獨開啟和關閉別名，防止網站隨機發送電子郵件給您。
-- 從別名地址發送回覆，屏蔽真實電子郵件地址。
-
-與「臨時電子郵件」服務相比，它們還有許多好處：
-
-- 別名是永久性的，如果您需要接收密碼重設等內容，可以再次開啟別名。
-- 電子郵件會發送到您信任的郵箱，而不是儲存在別名服務提供者。
-- 臨時電子郵件服務通常會有公共郵箱，任何知道地址的人都可以訪問，別名則您所私有的。
-
-我們建議的電子郵件別名供應商，可讓您在他們控制的網域上創建別名，或您支付適度的年費來自定網域。 如果您想要最大限度的控制，也可以自主託管。 但是，使用自定網域可能會有隱私上的缺點：如果您是唯一使用該自定網域的人，只需查看電子郵件地址中的網域名稱並忽略 (@) 符號之前的所有內容，即可輕鬆跟蹤您的動作。
-
-使用別名服務需要信任您的電子郵件提供商和您的別名提供商如何對待您未加密的消息。 有些供應商會透過自動 PGP 加密來稍微減輕這種情況，傳送到最終信箱供應商之前加密所傳送的電子郵件，將您需要信任的各方數量從兩個減少到一個。
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-**addy.io** 可在共享網域名上設置10個免費的別名電子郵件地址，或是匿名性較低但無上限的標準別名。
-
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-免費帳戶建立共用網域名(像 @addy.io ) 的數量為最多10個，月付1美元則可增加到 50 個別外，月付 4美元(或年繳則以3美元計) 則無數量限制。 付費帳戶可建立無數的標準別名如尾綴為 @[username].addy.io 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。 Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-值得注意的免費功能：
-
-- [x] 10共享別名
-- [x] 無限的別名
-- [ ] No Outgoing Replies
-- [x] 1收件人郵箱
-- [x] 自動PGP加密
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
-
-**SimpleLogin** 是一項免費服務，可在各種共享域名上提供電子郵件別名，並可選擇提供無限別名和自訂域名等付費功能。
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-SimpleLogin 在  2022年4 月 8 日被 [ Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) 買下。 如果您的主要郵箱使用質子郵件， SimpleLogin是一個不錯的選擇。 由於這兩種產品現在都由同一家公司擁有，您現在只需要信任單一實體。 我們預計 SimpleLogin  未來會與 Proton 產品更緊密地整合。 SimpleLogin 繼續支援轉寄至您所選擇的任何電子郵件供應商。 Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-您可以在設定中將您的 SimpleLogin 帳戶與 Proton 帳戶連結。 如果您有 Proton Unlimited 、Business 或 Visionary 計劃，也可免費獲得 SimpleLogin Premium。
-
-值得注意的免費功能：
-
-- [x] 10共享別名
-- [x] 無限回復
-- [x] 1收件人郵箱
 
 ## 自主託管電子郵件
 

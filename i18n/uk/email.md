@@ -14,8 +14,11 @@ cover: email.webp
 
 - [OpenPGP-сумісні провайдери електронної пошти :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Інші провайдери електронної пошти з шифруванням :material-arrow-right-drop-circle:](#more-providers)
-- [Послуги аліасингу електронної пошти :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Варіанти самостійного розміщення :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Сервіси, сумісні з OpenPGP
 
@@ -235,109 +238,6 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Це забезпечує контакт клієнта з бізнесом, який використовує E2EE. Ця функція коштує 240 євро на рік.
 
 Tuta doesn't offer a digital legacy feature.
-
-## Служби аліасингу електронної пошти
-
-Сервіс аліасів електронної пошти дозволяє вам легко генерувати нову адресу електронної пошти для кожного веб-сайту, на якому ви реєструєтесь. Створені вами аліаси пересилають всю пошту на обрану вами адресу електронної пошти, приховуючи як вашу "основну" електронну адресу, так і особу вашого провайдера електронної пошти. Справжній аліасінг електронної пошти краще, ніж адресація з плюсом, яка широко використовується і підтримується багатьма провайдерами, що дозволяє створювати псевдоніми на кшталт ваше ім'я +[щозавгодно]@example.com, оскільки веб-сайти, рекламодавці та мережі відстеження можуть банально видалити все, що стоїть після знака +, щоб дізнатися вашу справжню електронну адресу.
-
-<div class="grid cards" markdown>
-
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-Псевдонімізація електронної пошти може слугувати захистом на випадок, якщо ваш поштовий провайдер припинить роботу. У цьому випадку ви можете легко перенаправити свої аліаси на нову адресу електронної пошти. Своєю чергою, однак, ви довіряєте службі аліасингу, в подальшому функціонуванні.
-
-Використання спеціального сервісу аліасингу електронної пошти також має низку переваг у порівнянні з універсальним псевдонімом у власному домені:
-
-- Псевдоніми можна вмикати та вимикати індивідуально, коли вам це потрібно, щоб веб-сайти не надсилали вам випадкових листів.
-- Відповіді надсилаються з псевдо-адреси, яка приховує вашу справжню електронну адресу.
-
-Вони також мають низку переваг над "тимчасовими поштовими сервісами":
-
-- Аліаси є постійними і можуть бути ввімкнені знову, якщо вам потрібно отримати щось на кшталт скидання пароля.
-- Імейли надсилаються на вашу довірену поштову скриньку, а не зберігаються у провайдера псевдонімів.
-- Тимчасові поштові служби зазвичай мають загальнодоступні поштові скриньки, до яких може отримати доступ будь-хто, хто знає адресу, а аліаси є приватними для вас.
-
-Ми рекомендуємо провайдерів, які дозволяють створювати аліаси на доменах, які вони контролюють, а також на власних доменах за помірну щорічну плату. Вони також можуть бути розміщені самостійно, якщо ви хочете отримати максимальний контроль. Однак використання власного домену може мати недоліки, пов'язані з конфіденційністю: Якщо ви єдина людина, яка використовує власний домен, ваші дії можна легко відстежити на різних веб-сайтах, просто подивившись на доменне ім'я в адресі електронної пошти та ігноруючи все, що стоїть перед знаком at (@).
-
-Використання сервісу псевдонімів вимагає довіри до ваших незашифрованих повідомлень як з боку вашого провайдера електронної пошти, так і з боку провайдера аліасів. Деякі провайдери дещо пом'якшують цю проблему за допомогою автоматичного PGP шифрування, яке зменшує кількість сторін, яким ви повинні довіряти, з двох до однієї, шифруючи вхідні електронні листи до того, як вони будуть доставлені до вашого кінцевого провайдера поштової скриньки.
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
-
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-Особливі безкоштовні можливості:
-
-- [x] 10 спільних псевдонімів
-- [x] Необмежена кількість стандартних псевдонімів
-- [ ] Немає вихідних відповідей
-- [x] 1 Recipient Mailboxes
-- [x] Автоматичне шифрування PGP
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Логотип Simplelogin](assets/img/email/simplelogin.svg){ align=right }
-
-**SimpleLogin — це безкоштовний сервіс, який надає аліаси для електронної пошти на низці загальних доменних імен, а також опціонально надає платні функції, такі як необмежена кількість псевдонімів та власні домени.
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-SimpleLogin був [придбаний компанією Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) 8 квітня 2022 року. Якщо ви використовуєте Proton Mail як основну поштову скриньку, SimpleLogin — чудовий вибір. Оскільки обидва продукти тепер належать одній компанії, вам достатньо довіряти лише одному суб'єкту. Ми також очікуємо, що в майбутньому SimpleLogin буде більш тісно інтегрований з пропозиціями Proton. SimpleLogin продовжує підтримувати переадресацію до будь-якого провайдера електронної пошти на ваш вибір. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-Ви можете прив'язати свій обліковий запис SimpleLogin до свого облікового запису Proton в налаштуваннях. Якщо ви маєте тарифний план Proton Unlimited, Business або Visionary, ви отримаєте SimpleLogin Premium безкоштовно.
-
-Особливі безкоштовні можливості:
-
-- [x] 10 спільних псевдонімів
-- [x] Необмежена кількість відповідей
-- [x] 1 Поштова скринька одержувача
 
 ## Самостійний хостинг електронної пошти
 

@@ -14,8 +14,11 @@ Para tudo o resto, recomendamos uma variedade de fornecedores de e-mail baseados
 
 - [Fornecedores de Correio Eletrónico Compatíveis com OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Outros Fornecedores com Encriptação :material-arrow-right-drop-circle:](#more-providers)
-- [Serviços de Aliasing de Correio Eletrónico :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Opções Auto-Hospedadas :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Serviços Compatíveis com OpenPGP
 
@@ -235,109 +238,6 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Isto garante que todos os contactos do cliente com a empresa utilizam o E2EE. Esta funcionalidade custa 240 euros por ano.
 
 Tuta doesn't offer a digital legacy feature.
-
-## Serviços de aliasing de e-mail
-
-Um serviço de aliasing de e-mail permite-lhe gerar facilmente um novo endereço de e-mail para cada sítio Web em que efetue um registo. Os aliases de e-mail que gera são depois reencaminhados para um endereço de e-mail à sua escolha, ocultando tanto o seu endereço de e-mail "principal" como a identidade do seu fornecedor de e-mail. Um serviço de aliasing de e-mail é melhor do que o endereçamento plus habitualmente utilizado e suportado por muitos fornecedores, que permite criar aliases como yourname+[anythinghere]@example.com, porque os sites, os anunciantes e as redes de rastreio podem remover trivialmente tudo o que se segue ao sinal + para conhecer o seu verdadeiro endereço de e-mail.
-
-<div class="grid cards" markdown>
-
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-O aliasing de e-mail pode funcionar como uma salvaguarda no caso de o seu fornecedor de e-mail cessar atividade. Nesse caso, pode facilmente reencaminhar os seus pseudónimos para um novo endereço de correio eletrónico. No entanto, está a depositar toda confiança apenas no serviço de aliasing para continuar a ter acesso ao seu e-mail.
-
-A utilização de um serviço de aliasing de e-mail dedicado tem uma série de vantagens em relação a um alias global num domínio personalizado:
-
-- Os pseudónimos podem ser ativados e desativados individualmente quando necessário, evitando que os sites enviem mensagens de e-mail de forma aleatória.
-- As respostas são enviadas a partir do endereço alias, protegendo o seu endereço de e-mail real.
-
-Têm também uma série de vantagens em relação aos serviços de "e-mail temporário":
-
-- Os pseudónimos são permanentes e podem ser ativados novamente se for necessário receber alguma informação, como por exemplo uma redefinição de palavra-passe.
-- Os e-mails são enviados para a sua caixa de correio de confiança, em vez de serem guardados pelo fornecedor do pseudónimo.
-- Os serviços de e-mail temporário têm normalmente caixas de correio públicas que podem ser acedidas por qualquer pessoa que conheça o endereço; os pseudónimos são privados.
-
-As nossas recomendações de aliasing de e-mail são fornecedores que lhe permitem criar aliases em domínios que eles controlam, bem como no(s) seu(s) próprio(s) domínio(s) personalizado(s), por uma módica taxa anual. Também podem ser auto-hospedados, caso pretenda um controlo máximo. No entanto, a utilização de um domínio personalizado pode ter desvantagens relacionadas com a privacidade: Se for a única pessoa a utilizar o seu domínio personalizado, as suas ações podem ser facilmente localizadas em todos os sites bastando olhar para o nome do domínio no endereço de e-mail e ignorar tudo o que vem antes do sinal arroba (@).
-
-A utilização de um serviço de aliasing requer a sua confiança no fornecedor de e-mail e no fornecedor de aliasing, no caso das suas mensagens não serem encriptadas. Alguns fornecedores atenuam ligeiramente esta situação com a encriptação PGP automática, o que encripta os e-mails recebidos antes de serem entregues ao fornecedor final de e-mail, reduzindo o número de entidades terceiras em que é necessário confiar, de duas para uma.
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
-
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-Funcionalidades gratuitas dignas de nota:
-
-- [x] 10 Aliases partilhados
-- [x] Aliases padrão ilimitados
-- [ ] Nenhuma resposta de saída
-- [x] 1 Recipient Mailboxes
-- [x] Encriptação PGP automática
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Logótipo Simplelogin](assets/img/email/simplelogin.svg){ align=right }
-
-O **SimpleLogin** é um serviço gratuito que fornece aliases de e-mail numa variedade de nomes de domínio partilhados e, opcionalmente, fornece funcionalidades pagas, como aliases ilimitados e domínios personalizados.
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-O SimpleLogin foi [adquirido pela Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces), em 8 de abril de 2022. Se utiliza o Proton Mail para a sua caixa de correio principal, o SimpleLogin é uma ótima escolha. Uma vez que ambos os produtos são agora propriedade da mesma empresa, só tem de confiar numa única entidade. Também esperamos que o SimpleLogin seja integrado de forma mais estreita com as ofertas da Proton no futuro. O SimpleLogin continua a suportar o reencaminhamento para qualquer fornecedor de e-mail de sua preferência. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-Nas definições, pode associar a sua conta SimpleLogin à sua conta Proton. Se tiver o Plano Proton Unlimited, Business ou Visionary, terá o SimpleLogin Premium gratuitamente.
-
-Funcionalidades gratuitas dignas de nota:
-
-- [x] 10 Aliases partilhados
-- [x] Respostas ilimitadas
-- [x] 1 Caixa de correio do destinatário
 
 ## E-mail auto-hospedado
 

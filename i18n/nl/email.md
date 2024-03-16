@@ -14,8 +14,11 @@ Voor al het andere raden wij verschillende e-mailproviders aan op basis van duur
 
 - [OpenPGP-compatibele e-mailproviders :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Andere versleutelde aanbieders :material-arrow-right-drop-circle:](#more-providers)
-- [E-mail Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Zelf-gehoste opties :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP compatibele diensten
 
@@ -235,109 +238,6 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Dit zorgt ervoor dat het klantcontact met het bedrijf gebruik maakt van E2EE. De functie kost €240/j.
 
 Tuta doesn't offer a digital legacy feature.
-
-## E-mail aliasing diensten
-
-Met een e-mail aliasing dienst kun je gemakkelijk een nieuw e-mailadres genereren voor elke website waarvoor je je aanmeldt. De e-mailaliassen die je aanmaakt worden dan doorgestuurd naar een e-mailadres vanjouw keuze, waardoor zowel jouw "hoofd"-e-mailadres als de identiteit van jouw e-mailprovider wordt verborgen. Echte e-mailaliasing is beter dan de door veel providers gebruikte en ondersteunde plus-adressering, waarmee je aliassen kunt maken als jouwnaam+[anythinghere]@voorbeeld.com, omdat websites, adverteerders en traceringsnetwerken triviaal alles na het +-teken kunnen verwijderen om jouw echte e-mailadres te ontdekken.
-
-<div class="grid cards" markdown>
-
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-E-mailaliasing kan fungeren als een waarborg voor het geval jouw e-mailprovider ooit ophoudt te werken. In dat scenario kun je jouw aliassen gemakkelijk omleiden naar een nieuw e-mailadres. Op zijn beurt stelt je echter vertrouwen in de aliasingdienst om te blijven functioneren.
-
-Het gebruik van een speciale e-mail aliasing dienst heeft ook een aantal voordelen ten opzichte van een catch-all alias op een aangepast domein:
-
-- Aliassen kunnen individueel worden in- en uitgeschakeld wanneer je ze nodig hebt, zodat websites je niet willekeurig e-mailen.
-- Antwoorden worden verzonden vanaf het aliasadres, waardoor jouw echte e-mailadres wordt afgeschermd.
-
-Ze hebben ook een aantal voordelen ten opzichte van "tijdelijke e-mail" diensten:
-
-- Aliassen zijn permanent en kunnen weer worden ingeschakeld als je iets moet ontvangen zoals een wachtwoord-reset.
-- E-mails worden naar jouw vertrouwde mailbox gestuurd in plaats van opgeslagen door de alias provider.
-- Tijdelijke e-maildiensten hebben doorgaans openbare mailboxen die voor iedereen die het adres kent toegankelijk zijn, aliassen zijn privé.
-
-Onze aanbevelingen voor e-mailaliassen zijn providers waarmee je aliassen kunt aanmaken op domeinen die zij beheren, en op jouw eigen aangepaste domein(en) voor een bescheiden jaarlijks bedrag. Ze kunnen ook zelf worden gehost als je maximale controle wilt. Het gebruik van een eigen domein kan echter ook nadelen hebben voor de privacy: Als je de enige persoon bent die ouw aangepaste domein gebruikt, kunnen jouw acties op verschillende websites gemakkelijk worden getraceerd door simpelweg naar de domeinnaam in het e-mailadres te kijken en alles voor het at (@) teken te negeren.
-
-Het gebruik van een aliasingdienst vereist dat je zowel jouw e-mailprovider als jouw aliasingprovider vertrouwt met jouw onversleutelde berichten. Sommige aanbieders verzachten dit enigszins met automatische PGP-versleuteling, die het aantal partijen dat je moet vertrouwen terugbrengt van twee naar één door inkomende e-mails te versleutelen voordat ze bij je uiteindelijke postbusaanbieder worden afgeleverd.
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
-
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-Opmerkelijke gratis functies:
-
-- [x] 10 Gedeelde Aliassen
-- [x] Onbeperkt aantal standaard aliassen
-- [ ] Geen uitgaande antwoorden
-- [x] 1 Recipient Mailboxes
-- [x] Automatische PGP-versleuteling
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Simplelogin logo](assets/img/email/simplelogin.svg){ align=right }
-
-**SimpleLogin** is een gratis dienst die e-mailaliassen op verschillende gedeelde domeinnamen biedt, en optioneel betaalde functies zoals onbeperkte aliassen en aangepaste domeinen.
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-SimpleLogin werd [overgenomen door Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) met ingang van 8 april 2022. Als je Proton Mail gebruikt voor uw primaire mailbox, is SimpleLogin een goede keuze. Aangezien beide producten nu eigendom zijn van hetzelfde bedrijf, hoeft je nog maar op één entiteit te vertrouwen. Wij verwachten ook dat SimpleLogin in de toekomst nauwer zal worden geïntegreerd met het aanbod van Proton. SimpleLogin blijft forwarding naar elke e-mailprovider van jouw keuze ondersteunen. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-Je kunt jouw SimpleLogin account in de instellingen koppelen aan jouw Proton account. Als je Proton Unlimited, Business of Visionary Plan hebt, heb je SimpleLogin Premium gratis.
-
-Opmerkelijke gratis functies:
-
-- [x] 10 Gedeelde Aliassen
-- [x] Onbeperkt antwoorden
-- [x] 1 Ontvanger Mailbox
 
 ## Onze criteria
 

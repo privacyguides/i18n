@@ -14,8 +14,11 @@ Para qualquer outra coisa, recomendamos uma variedade de provedores de email bas
 
 - [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
-- [Email Aliasing Services :material-arrow-right-drop-circle:](#email-aliasing-services)
 - [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+
+- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Serviços Compatíveis com OpenPGP
 
@@ -235,109 +238,6 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Isso garante que o contato do cliente com a empresa use o E2EE. O recurso custa 240 euros por ano.
 
 Tuta doesn't offer a digital legacy feature.
-
-## Serviços de Disfarce de Email
-
-Um serviço de disfarce de e-mail permite que você gere facilmente um novo endereço de e-mail para cada site em que se registrar. Os e-mails alternativos que você gera são encaminhados para um endereço de e-mail que você escolher, ocultando o seu endereço de e-mail "principal" e a identidade do seu provedor de email. Um verdadeiro pseudônimo de e-mail é melhor do que o endereçamento plus comumente usado e suportado por muitos provedores, que permite criar pseudônimos como seunome+[anythinghere]@exemplo.com, porque sites, anunciantes e redes de rastreamento podem remover trivialmente qualquer coisa após o sinal + para saber seu verdadeiro endereço de e-mail.
-
-<div class="grid cards" markdown>
-
-- ![addy.io logo](assets/img/email/mini/addy.svg){ .twemoji } [addy.io](email.md#addyio)
-- ![SimpleLogin logo](assets/img/email/simplelogin.svg){ .twemoji } [SimpleLogin](email.md#simplelogin)
-
-</div>
-
-Os pseudônimos de e-mail podem funcionar como uma proteção caso seu provedor de e-mail encerre suas atividades. Nesse cenário, você pode facilmente redirecionar seus pseudônimos para um novo endereço de e-mail. Por outro lado, no entanto, você está depositando confiança na continuidade do funcionamento do serviço de pseudônimo.
-
-O uso de um serviço especializado em pseudônimos de e-mail também tem várias vantagens em relação a um pseudônimo "catch-all" genérico de um domínio personalizado:
-
-- Pseudônimos podem ser ativados e desativados individualmente quando você precisar deles, evitando que os sites enviem e-mails aleatórios para você.
-- Suas respostas são enviadas pelo endereço de pseudônimo, protegendo seu endereço de e-mail real.
-
-Eles também têm vários benefícios em relação aos serviços de "e-mail temporário":
-
-- Os pseudônimos são permanentes e podem ser ativadas novamente se você precisar receber algo como uma redefinição de senha.
-- E-mails são enviados para sua caixa de correio confiável em vez de serem armazenados pelo provedor de pseudônimos.
-- Serviços de e-mail temporários normalmente têm caixas de correio públicas que podem ser acessadas por qualquer pessoa que conheça o endereço; os pseudônimos são privados para você.
-
-Nossas recomendações de pseudônimos de e-mail são provedores que permitem que você crie pseudônimos nos domínios que eles controlam, bem como em seu(s) próprio(s) domínio(s) personalizado(s), por uma modesta taxa anual. Eles também podem ser auto-hospedados se você quiser ter o máximo de controle. Contudo, o uso de um domínio personalizado pode ter desvantagens relacionadas à privacidade: Se você for a única pessoa a usar seu domínio personalizado, suas ações poderão ser facilmente rastreadas em todos os sites simplesmente observando o nome do domínio no endereço de e-mail e ignorando tudo antes do sinal de arroba (@).
-
-O uso de um serviço de pseudônimo exige que as mensagens não criptografadas sejam confiadas ao seu provedor de e-mail e ao provedor de pseudônimo. Alguns provedores diminuem um pouco esse problema com a criptografia PGP automática, que reduz o número de partes em que você precisa confiar de duas para uma, criptografando os e-mails recebidos antes de serem entregues ao seu provedor de caixa de correio final.
-
-### addy.io
-
-<div class="admonition recommendation" markdown>
-
-![addy.io logo](assets/img/email/addy.svg#only-light){ align=right }
-![addy.io logo](assets/img/email/addy-dark.svg#only-dark){ align=right }
-
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
-
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
-
-</details>
-
-</div>
-
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
-
-Recursos gratuitos de destaque:
-
-- [x] 10 Pseudônimos Compartilhados
-- [x] Pseudônimos Padrão Ilimitados
-- [ ] No Outgoing Replies
-- [x] 1 Recipient Mailboxes
-- [x] Criptografia PGP automática
-
-### SimpleLogin
-
-<div class="admonition recommendation" markdown>
-
-![Logótipo Simplelogin](assets/img/email/simplelogin.svg){ align=right }
-
-**SimpleLogin** é um serviço gratuito que fornece pseudônimos de e-mail em uma variedade de nomes de domínio compartilhados e, opcionalmente, oferece recursos pagos, como pseudônimos ilimitados e domínios personalizados.
-
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
-- [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
-- [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
-
-</details>
-
-</div>
-
-SimpleLogin foi [adquirido pelo Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) a partir de 8 de abril de 2022. Se você usa o Proton Mail como sua caixa de correio principal, o SimpleLogin é uma ótima opção. Como os dois produtos agora pertencem à mesma empresa, você só precisa confiar em uma única entidade. Também esperamos que, no futuro, o SimpleLogin seja mais fortemente integrado às ofertas da Proton. SimpleLogin continua a oferecer suporte ao encaminhamento para qualquer provedor de e-mail de sua escolha. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
-
-Você pode vincular sua conta SimpleLogin com sua conta Proton nas configurações. Se você tiver o Proton Unlimited, Business ou Visionary Plan, terá o SimpleLogin Premium gratuitamente.
-
-Recursos gratuitos de destaque:
-
-- [x] 10 Pseudônimos Compartilhados
-- [x] Respostas ilimitadas
-- [x] 1 Caixa de Correio Destinatária
 
 ## Email Auto-Hospedado
 
