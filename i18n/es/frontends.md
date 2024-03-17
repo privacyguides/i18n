@@ -1,7 +1,7 @@
 ---
 title: "Interfaces de usuario"
 icon: material/flip-to-front
-description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+description: Estas interfaces de código abierto para varios servicios de Internet, te permiten acceder al contenido sin JavaScript u otras molestias.
 cover: frontends.webp
 ---
 
@@ -9,7 +9,7 @@ A veces, los servicios intentarán obligarle a registrarse mediante el bloqueo a
 
 Si decides autoalojar, es importante que otras personas utilicen también tu instancia para que puedas pasar desapercibido. Debes tener cuidado con dónde y cómo alojas, ya que el uso de otras personas estará vinculado a tu alojamiento.
 
-Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la política de privacidad de esa instancia en específico. Pueden ser modificados por sus propietarios y, por lo tanto, pueden no reflejar la política por defecto. Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII.
+Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la política de privacidad de esa instancia en específico. Pueden ser modificados por sus propietarios y, por lo tanto, pueden no reflejar la política por defecto. Algunas instancias tienen direcciones .onion de [Tor](tor.md) que pueden otorgar algo de privacidad mientras tus búsquedas no contengan PII (Información Personal Identificable).
 
 ## TikTok
 

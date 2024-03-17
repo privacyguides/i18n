@@ -17,17 +17,17 @@ Las distribuciones de Linux se recomiendan comúnmente para la protección de la
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** es nuestra distribución recomendada para la gente nueva en Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org), [PipeWire](https://pipewire.org). Estas nuevas tecnologías suelen venir acompañadas de mejoras en la seguridad, la privacidad y la usabilidad en general.
+**Fedora Workstation** es nuestra distribución recomendada para la gente nueva en Linux. Por lo general, Fedora adopta nuevas tecnologías antes de otras distribuciones. Por ejemplo, [Wayland](https://wayland.freedesktop.org), [PipeWire](https://pipewire.org). Estas nuevas tecnologías suelen venir acompañadas de mejoras en la seguridad, la privacidad y la usabilidad en general.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
+[:octicons-home-16: Página principal](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentación}
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribuir}
 
 </details>
 
 </div>
 
-Fedora tiene un ciclo de lanzamientos semicontinuo. While some packages like [GNOME](https://gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Cada versión de Fedora recibe soporte durante un año, con una nueva versión cada 6 meses.
+Fedora tiene un ciclo de lanzamientos semicontinuo. Mientras algunos paquetes como [GNOME](https://gnome.org) son congelados hasta el próximo lanzamiento de Fedora, la mayoría de los paquetes (incluyendo el kernel) son actualizados con frecuencia a través del ciclo de vida del lanzamiento. Cada versión de Fedora recibe soporte durante un año, con una nueva versión cada 6 meses.
 
 ### openSUSE Tumbleweed
 
@@ -37,11 +37,11 @@ Fedora tiene un ciclo de lanzamientos semicontinuo. While some packages like [GN
 
 **openSUSE Tumbleweed** es una distribución estable con actualización continua.
 
-openSUSE Tumbleweed has a [transactional update](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates) system that uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
+openSUSE Tumbleweed tiene un sistema de [actualización transaccional](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates) que usa [Btrfs](https://en.wikipedia.org/wiki/Btrfs) y [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) para garantizar que las copias instantáneas pueden revertirse cuando suceda algún problema.
 
-[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
-[:octicons-info-16:](https://doc.opensuse.org){ .card-link title=Documentation}
-[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title=Contribute }
+[:octicons-home-16: Página principal](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org){ .card-link title=Documentación}
+[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title=Contribuir}
 
 </details>
 
