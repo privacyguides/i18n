@@ -46,40 +46,76 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 2023년 현재까지, [프랑스어](/fr/), [히브리어](/he/), [네덜란드어](/nl/) 버전 번역 사이트를 공개했습니다. [Crowdin](https://crowdin.com/project/privacyguides)에서 작업하는 훌륭한 Privacy Guides 번역 팀이 보다 많은 언어를 지원할 수 있도록 노력하고 있습니다. Privacy Guides는 앞으로도 사회 공헌 및 지식 전달이라는 본래 목적에 힘쓸 것이며, 현대 디지털 시대에 만연한 프라이버시 불감증에 대한 경각심을 일깨울 방법과 기술 산업 전반에 걸친 보안 사고의 피해를 명확하게 강조할 방법을 모색해 나갈 계획입니다.
 
 ## 팀 구성원
+<!-- markdownlint-disable MD030 -->
 
-??? person "@jonah"
+<div class="grid cards" markdown>
+<!-- Every team member should have a unique emoji.
+     Team member cards should include ONLY the following links:
+     - Discourse Profile
+     - ONE Link of team member's choice
+     - Email if applicable
+     This is to keep it fair and not spammy, especially as we grow.
+-->
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
-    - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    - [:fontawesome-solid-house: 홈페이지](https://www.jonaharagon.com)
+-   :robot:{ .lg .middle } **@jonah**
 
-??? person "@niek-de-wilde"
+    ---
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
-    - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
-    - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: 이메일](mailto:niekdewilde@privacyguides.org)
+    :material-text-account: Founder
 
-??? person "@dngray"
+    [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/dngray)
-    - [:simple-github: GitHub](https://github.com/dngray "@dngray")
-    - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: 이메일](mailto:dngray@privacyguides.org)
+    [:material-home: Homepage](https://www.jonaharagon.com)
 
-??? person "@freddy"
+    [:material-email: Email](mailto:jonah@privacyguides.org)
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
-    - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
-    - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-house: 홈페이지](https://freddy.lol)
+-   :cactus:{ .lg .middle } **@niek-de-wilde**
 
-??? person "@olivia"
+    ---
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/olivia)
-    - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+
+    [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+
+    [:material-email: Email](mailto:niekdewilde@privacyguides.org)
+
+-   :polar_bear:{ .lg .middle } **@dngray**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+
+    [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+
+    [:material-email: Email](mailto:dngray@privacyguides.org)
+
+-   :detective:{ .lg .middle } **@freddy**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+
+    [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+
+    [:material-email: Email](mailto:freddy@privacyguides.org)
+
+-   :smirk_cat:{ .lg .middle } **@olivia**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+
+    [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+
+</div>
 
 추가로 [많은 분들이](https://github.com/privacyguides/privacyguides.org/graphs/contributors) 프로젝트에 기여해 주셨습니다. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 

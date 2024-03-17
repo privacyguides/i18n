@@ -46,40 +46,76 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 Até ao momento, lançámos traduções internacionais do nosso site em [Francês](/fr/), [Hebraico](/he/), e [Holandês](/nl/), estando neste momento em preparação versões em mais línguas, graças ao contributo da nossa excelente equipa de tradução do [Crowdin](https://crowdin.com/project/privacyguides). Tencionamos continuar a levar por diante a nossa missão de divulgação e educação e encontrar formas de realçar mais claramente os perigos da falta de sensibilização para a privacidade na era digital moderna, bem como a prevalência e os danos das violações de segurança na indústria tecnológica.
 
 ## A nossa equipa
+<!-- markdownlint-disable MD030 -->
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@jonah"
+<div class="grid cards" markdown>
+<!-- Every team member should have a unique emoji.
+     Team member cards should include ONLY the following links:
+     - Discourse Profile
+     - ONE Link of team member's choice
+     - Email if applicable
+     This is to keep it fair and not spammy, especially as we grow.
+-->
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
-    - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    - [:fontawesome-solid-house: Homepage](https://www.jonaharagon.com)
+-   :robot:{ .lg .middle } **@jonah**
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@niek-de-wilde"
+    ---
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
-    - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
-    - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: E-mail](mailto:niekdewilde@privacyguides.org)
+    :material-text-account: Founder
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@dngray"
+    [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/dngray)
-    - [:simple-github: GitHub](https://github.com/dngray "@dngray")
-    - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: E-mail](mailto:dngray@privacyguides.org)
+    [:material-home: Homepage](https://www.jonaharagon.com)
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@freddy"
+    [:material-email: Email](mailto:jonah@privacyguides.org)
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
-    - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
-    - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-house: Homepage](https://freddy.lol)
+-   :cactus:{ .lg .middle } **@niek-de-wilde**
 
-Recomendamos armazenar uma chave de recuperação local em um local seguro, em vez de utilizar a recuperação do iCloud FileVault. person "@olivia"
+    ---
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/olivia)
-    - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+
+    [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+
+    [:material-email: Email](mailto:niekdewilde@privacyguides.org)
+
+-   :polar_bear:{ .lg .middle } **@dngray**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+
+    [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+
+    [:material-email: Email](mailto:dngray@privacyguides.org)
+
+-   :detective:{ .lg .middle } **@freddy**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+
+    [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+
+    [:material-email: Email](mailto:freddy@privacyguides.org)
+
+-   :smirk_cat:{ .lg .middle } **@olivia**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+
+    [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+
+</div>
 
 Além destas pessoas, [muitas outras](https://github.com/privacyguides/privacyguides.org/graphs/contributors) deram o seu contributo para o projeto. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 

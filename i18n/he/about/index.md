@@ -46,40 +46,76 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 עד כה בשנת 2023 השקנו תרגומים בינלאומיים של האתר שלנו ב[צרפתית](/fr/), [עברית](/he/), וגם [הולנדית](/nl/), שפות נוספות בדרך, התאפשרה על ידי צוות התרגום המצוין שלנו ב-[Crowdin](https://crowdin.com/project/privacyguides). אנו מתכננים להמשיך ולקדם את משימתנו של הסברה וחינוך, למצוא דרכים להדגיש בצורה ברורה יותר את הסכנות של חוסר מודעות לפרטיות בעידן הדיגיטלי המודרני ואת השכיחות והנזקים של פרצות אבטחה בכל תעשיית הטכנולוגיה.
 
 ## הצוות שלנו
+<!-- markdownlint-disable MD030 -->
 
-??? person "@jonah"
+<div class="grid cards" markdown>
+<!-- Every team member should have a unique emoji.
+     Team member cards should include ONLY the following links:
+     - Discourse Profile
+     - ONE Link of team member's choice
+     - Email if applicable
+     This is to keep it fair and not spammy, especially as we grow.
+-->
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/jonah)
-    - [:simple-github: GitHub](https://github.com/jonaharagon "@jonaharagon")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-    - [:fontawesome-solid-house: דף הבית](https://www.jonaharagon.com)
+-   :robot:{ .lg .middle } **@jonah**
 
-??? person "@niek-de-wilde"
+    ---
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/Niek-de-Wilde)
-    - [:simple-github: GitHub](https://github.com/blacklight447 "@blacklight447")
-    - [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: אימייל](mailto:niekdewilde@privacyguides.org)
+    :material-text-account: Founder
 
-??? person "@dngray"
+    [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/dngray)
-    - [:simple-github: GitHub](https://github.com/dngray "@dngray")
-    - [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-    - [:fontawesome-solid-envelope: אימייל](mailto:dngray@privacyguides.org)
+    [:material-home: Homepage](https://www.jonaharagon.com)
 
-??? person "@freddy"
+    [:material-email: Email](mailto:jonah@privacyguides.org)
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/freddy)
-    - [:simple-github: GitHub](https://github.com/freddy-m "@freddy-m")
-    - [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-    - [:fontawesome-solid-house: דף הבית](https://freddy.lol)
+-   :cactus:{ .lg .middle } **@niek-de-wilde**
 
-??? person "@olivia"
+    ---
 
-    - [:simple-discourse: Discourse](https://discuss.privacyguides.net/u/olivia)
-    - [:simple-github: GitHub](https://github.com/hook9 "@hook9")
-    - [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+
+    [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+
+    [:material-email: Email](mailto:niekdewilde@privacyguides.org)
+
+-   :polar_bear:{ .lg .middle } **@dngray**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+
+    [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+
+    [:material-email: Email](mailto:dngray@privacyguides.org)
+
+-   :detective:{ .lg .middle } **@freddy**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+
+    [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+
+    [:material-email: Email](mailto:freddy@privacyguides.org)
+
+-   :smirk_cat:{ .lg .middle } **@olivia**
+
+    ---
+
+    :material-text-account: Founder
+
+    [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+
+    [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+
+</div>
 
 בנוסף, [אנשים רבים](https://github.com/privacyguides/privacyguides.org/graphs/contributors) תרמו לפרויקט. גם אתה יכול, אנחנו בקוד פתוח בגיטהאב ומקבלים הצעות תרגום ב-[Crowdin](https://crowdin.com/project/privacyguides).
 
