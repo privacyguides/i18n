@@ -82,7 +82,7 @@ El software de proxy de DNS encriptado proporciona un proxy local para que el re
 [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
 - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
@@ -100,7 +100,7 @@ El software de proxy de DNS encriptado proporciona un proxy local para que el re
 **dnscrypt-proxy** es un proxy DNS con soporte para [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), y [DNS Anonimizado](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
+<p class="admonition-title">La función DNS anonimizado <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>no</strong></a> anonimiza otro tráfico de red.</p>
 </div>
 
 [:octicons-repo-16: Repositorio](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
@@ -109,7 +109,7 @@ El software de proxy de DNS encriptado proporciona un proxy local para que el re
 [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
@@ -129,7 +129,7 @@ Una solución DNS autoalojada es útil para proporcionar filtrado en plataformas
 
 ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
-**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
+**AdGuard Home** es un [DNS-sinkhole](https://es.wikipedia.org/wiki/DNS_sinkhole) de código abierto que utiliza [filtrado DNS](https://cloudflare.com/learning/access-management/what-is-dns-filtering) para bloquear contenidos web no deseados, como la publicidad.
 
 AdGuard Home cuenta con una interfaz web pulida para ver información y gestionar el contenido bloqueado.
 
@@ -148,15 +148,15 @@ AdGuard Home cuenta con una interfaz web pulida para ver información y gestiona
 
 ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
+**Pi-hole** es un [DNS-sinkhole](https://es.wikipedia.org/wiki/DNS_sinkhole) de código abierto que utiliza [filtrado DNS](https://cloudflare.com/learning/access-management/what-is-dns-filtering) para bloquear contenidos web no deseados, como la publicidad.
 
 Pi-hole está diseñado para alojarse en una Raspberry Pi, pero no se limita a dicho hardware. El software cuenta con una interfaz web fácil de usar para ver los datos y gestionar los contenidos bloqueados.
 
-[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://pi-hole.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribuir }
 
 </details>
 
@@ -166,5 +166,5 @@ Pi-hole está diseñado para alojarse en una Raspberry Pi, pero no se limita a d
 [^2]: Cloudflare recopila y almacena únicamente los datos de consulta DNS limitados que se envían al resolver 1.1.1.1. El servicio de resolución 1.1.1.1 no registra datos personales, y el grueso de los limitados datos de consulta no identificables personalmente se almacena solo durante 25 horas. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: El Control D solo registra los resolvers Premium con perfiles DNS personalizados. Los resolvers libres no registran datos. [https://controld.com/privacy](https://controld.com/privacy)
 [^4]: El servicio DNS de Mullvad está disponible tanto para suscriptores como para no suscriptores de Mullvad VPN. Su política de privacidad afirma explícitamente que no registran solicitudes DNS de ninguna manera. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
-[^5]: When used with an account, NextDNS will enable insights and logging features by default (as some features require it). You can choose retention time and log storage location for any logs you choose to keep, or disable logs altogether. If used without an account, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
+[^5]: Cuando se utiliza con una cuenta, NextDNS habilitará las funciones de información y registro de forma predeterminada (ya que algunas funciones lo requieren). Puedes elegir los tiempos de retención y las ubicaciones de almacenamiento de los registros que desees conservar. Si se utiliza sin una cuenta, no se registra ningún dato. [https://nextdns.io/privacy](https://nextdns.io/privacy)
 [^6]: Quad9 recopila algunos datos con fines de monitorización y respuesta ante amenazas. Esos datos pueden remezclarse y compartirse, por ejemplo, con fines de investigación sobre seguridad. Quad9 no colecciona ni registra direcciones IP ni otros datos que consideren personalmente identificables. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)
