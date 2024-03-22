@@ -1,9 +1,9 @@
 ---
-title: General Criteria
+title: 通用標準
 ---
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Work in Progress</p>
+<p class="admonition-title">施工中</p>
 
 以下頁面是一項正在進行的工作，並未反映我們目前的建議的全部標準。 過去關於此主題的討論： [#24](https://github.com/privacyguides/privacyguides.org/discussion/24)
 

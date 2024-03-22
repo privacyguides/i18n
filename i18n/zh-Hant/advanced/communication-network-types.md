@@ -28,7 +28,7 @@ description: 簡介常見的即時通訊應用程式網路架構。
 - [限制控制或存取](https://drewdevault.com/2018/08/08/Signal.html)。 可能包括以下內容：
 - 集中型網路 [禁封了](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165)可以提供更靈活自定與更佳使用體驗的第三方客戶端。 通常定義在使用條款和條件。
 - 對於第三方開發人員來說，文件記錄很糟。
-- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
+- 由單一實體控制服務時，其 [所有權](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire)、隱私政策和服務操作可輕易改變，甚致危及服務。
 - 自我託管需要精力和設置服務的知識。
 
 ## 聯邦式網絡
@@ -60,7 +60,7 @@ description: 簡介常見的即時通訊應用程式網路架構。
 
 P2P 軟體連接到 [分佈式網路](https://en.wikipedia.org/wiki/Distributed_networking) 中的節點，在沒有第三方伺服器的情況下將訊息傳遞給收件人。
 
-客戶端（對等軟體）通常通過 [分布式計算](https://en.wikipedia.org/wiki/Distributed_computing) 網絡找到彼此。 例如， [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT)被 [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) 和 [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) 使用。 Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+客戶端（對等軟體）通常通過 [分布式計算](https://en.wikipedia.org/wiki/Distributed_computing) 網絡找到彼此。 例如， [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT)被 [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) 和 [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) 使用。 另一種方法是鄰近的網絡，通過WiFi或藍牙建立連接（例如， Briar 或 [Scuttlebutt](https://scuttlebutt.nz) 社交網絡協議）。
 
 一旦對等體通過任何這些方法找到通往其聯繫的路徑，它們之間就會建立直接連接。  通常訊息內容會加密，但觀察者仍然可以推斷發件人和收件人的位置和身份。
 

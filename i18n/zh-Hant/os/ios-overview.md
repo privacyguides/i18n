@@ -1,7 +1,7 @@
 ---
-title: iOS Overview
+title: iOS 簡介
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 Mac 電腦。
 ---
 
 **iOS** 和 **iPadOS** 是 Apple 分別為其 iPhone 和 iPad 產品開發的專有移動作業系統。 如果您擁有 Apple 移動設備，可通過禁用某些內置遙測功能以及強化系統內置的隱私和安全設置來增強隱私。
@@ -22,7 +22,7 @@ IOS 上應用的唯一來源是 Apple App Store，需要 Apple ID 才能訪問�
 
 ### 侵入式遙測
 
-蘋果在 iOS 適當匿名遙測上常發生問題。 [In 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+蘋果在 iOS 適當匿名遙測上常發生問題。 [2019 年](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)，Apple 被發現將 Siri 錄音（其中一些包含高度機密信息）傳輸回其伺服器，以供第三方承包商進行手動審核。 While they temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
 最近，人們發現 Apple [即使禁用分析共享， iOS 也會傳輸分析數據 ](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) ，儘管宣稱已匿名處理，這些數據[似乎](https://twitter.com/mysk_co/status/1594515229915979776)很容易連結到唯一的 iCloud 帳戶標識符。
 
@@ -54,7 +54,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 #### Find My
 
-**Find My(尋找我的iPhone)** 是一項服務，可讓您跟踪您的 Apple 設備並與朋友和家人分享您的位置。 若設備遭竊，它可以讓您從遠端進行抺除，從而防止小偷訪問您的資料。 Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
+**Find My(尋找我的iPhone)** 是一項服務，可讓您跟踪您的 Apple 設備並與朋友和家人分享您的位置。 若設備遭竊，它可以讓您從遠端進行抺除，從而防止小偷訪問您的資料。 在以下情況，「尋找我的」[位置資料為 E2EE](https://apple.com/legal/privacy/data/en/find-my)：
 
 - 您的位置已與家人或朋友共享，並且都使用 iOS 15 或更高版本。
 - 設備處於離線狀態，且由Find My 網路找到。
@@ -117,7 +117,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 在手機上設置強密碼是確保設備物理安全的最重要步驟。 您必須權衡安全性與便利性：每次輸入較長的密碼很麻煩，但較短的密碼或 PIN 碼很容易被猜到。 設置 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
 
-選擇 **打開 Passcode ** 或 **更改 Passcode** > **Passcode 選項** > **自定 字母數字密碼**. Make sure that you create a [secure password](../basics/passwords-overview.md).
+選擇 **打開 Passcode ** 或 **更改 Passcode** > **Passcode 選項** > **自定 字母數字密碼**. 確認建立[安全密碼](../basics/passwords-overview.md)。
 
 如果想使用 Face ID 或 Touch ID，可以立即進行設置。 您的手機將使用之前設置的密碼作為後備密碼，以防生物識別驗證失敗。 生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
 
@@ -129,7 +129,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 - [x] 選擇**開啟保護**
 
-After enabling stolen data protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. 它還可以在住處或其他「熟悉位置」以外的地點執行的某些操作增加安全延遲，例如需要 1 小時計時器來重設 Apple ID 密碼或退出 Apple ID。 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
+啟用被盜資料保護後，[某些操作](https://support.apple.com/HT212510)將需要生物識別身份驗證，無需密碼回退（如果駭客准竊盜已獲得您的 PIN），例如使用密碼自動填寫功能就可訪問支付資訊並關閉遺失模式。 它還可以在住處或其他「熟悉位置」以外的地點執行的某些操作增加安全延遲，例如需要 1 小時計時器來重設 Apple ID 密碼或退出 Apple ID。 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
 
 **鎖定時允許存取** 提供您在手機鎖定時可以允許的選項。 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。 選擇不希望其他人接觸您的手機後訪問其中哪些內容。
 
@@ -187,7 +187,7 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [x] 選擇 **開啟 App 隱私報告**
 
-[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)是可以啟用的安全設置使手機更能抵抗攻擊。 Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
+[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)是可以啟用的安全設置使手機更能抵抗攻擊。 請注意，某些應用和功能[將無法正常運作](https://support.apple.com/HT212650)。
 
 - [x] 選擇 **打開封閉模式**
 
