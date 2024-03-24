@@ -179,7 +179,7 @@ La Protección de la integridad del sistema hace que las ubicaciones de los arch
 
 ##### Sandbox de aplicaciones
 
-Para las aplicaciones de macOS descargadas desde App Store, es necesario que estas se encuentren virtualizadas utilizando el [Sandbox de aplicaciones](https://developer.apple.com/documentation/security/app_sandbox).
+macOS apps submitted to the App Store after June 1, 2012 are required to be sandboxed using the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>

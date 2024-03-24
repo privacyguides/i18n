@@ -179,7 +179,7 @@ La protection de l'intégrité du système met en lecture seule les emplacements
 
 ##### Sandbox des applications
 
-Les applications macOS téléchargées à partir de l'App Store doivent être mises en sandbox à l'aide de [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
+macOS apps submitted to the App Store after June 1, 2012 are required to be sandboxed using the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>

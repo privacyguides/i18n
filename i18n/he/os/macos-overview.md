@@ -179,7 +179,7 @@ macOS מגדיר מגבלות אבטחה מסוימות שלא ניתן לעקו
 
 ##### ארגז חול לאפליקציה
 
-אפליקציות macOS שהורדו מ-App Store נדרשות להיות בארגז חול באמצעות [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
+macOS apps submitted to the App Store after June 1, 2012 are required to be sandboxed using the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>

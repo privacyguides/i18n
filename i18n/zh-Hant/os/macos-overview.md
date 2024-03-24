@@ -179,7 +179,7 @@ macOS 設置了某些無法覆蓋的安全限制。 這些稱為強制取用控�
 
 ##### App 沙盒
 
-從 App Store 下載的 macOS 應用需要使用[應用沙箱](https://developer.apple.com/documentation/security/app_sandbox)進行沙箱處理。
+macOS apps submitted to the App Store after June 1, 2012 are required to be sandboxed using the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
