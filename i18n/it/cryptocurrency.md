@@ -38,7 +38,7 @@ Con Monero, gli osservatori esterni non possono decifrare gli indirizzi che scam
 Per una privacy ottimale, assicurati di utilizzare un portafoglio non custodiale in cui la chiave di visualizzazione del portafoglio resta sul dispositivo. Ciò significa che soltanto tu potrai spendere i tuoi fondi e visualizzare le transazioni in entrata e in uscita. Se utilizzi un portafoglio custodiale, il fornitore può vedere **tutto** ciò che fai; se utilizzi un portafoglio "leggero" in cui il fornitore conserva la chiave di visualizzazione privata, questi può vedere quasi tutto ciò che fai. Alcuni portafogli non custodiali sono:
 
 - [Client ufficiale Monero ](https://getmonero.org/downloads) (Desktop)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet supporta più criptovalute. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)

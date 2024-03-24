@@ -38,7 +38,7 @@ cover: cryptocurrency.webp
 Для максимальной конфиденциальности убедитесь, что вы используете некастодиальный кошелек, где ключ просмотра остается на вашем устройстве, а не на удалённом сервере. Это означает то, что только вы будете иметь возможность расходовать свои средства и видеть входящие и исходящие транзакции. Если вы используете кастодиальный кошелек, провайдер может видеть **абсолютно всё**, что вы делаете; если вы используете "лёгкий" кошелек, где провайдер хранит ваш приватный ключ, он может видеть практически всё, что вы делаете. Некоторые некастодиальные кошельки включают в себя:
 
 - [Официальный клиент Monero](https://getmonero.org/ru/downloads/) (для ПК)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet поддерживает множество криптовалют. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)

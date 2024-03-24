@@ -61,12 +61,12 @@ Penyedia yang kami rekomendasikan menggunakan enkripsi, menerima Monero, menduku
 
 </div>
 
-#### :material-check:{ .pg-green } 71 Countries
+#### :material-check:{ .pg-green } 88 Countries
 
-Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers) [or 3 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
+Proton VPN has [servers in 88 countries](https://protonvpn.com/vpn-servers) [or 5 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
 { .annotate }
 
-1. Last checked: 2023-12-21
+1. Last checked: 2024-03-23
 
 Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
 
@@ -208,12 +208,12 @@ Klien IVPN mendukung autentikasi dua faktor (klien Mullvad tidak). IVPN also pro
 
 </div>
 
-#### :material-check:{ .pg-green } 40 Countries
+#### :material-check:{ .pg-green } 41 Countries
 
-Mullvad has [servers in 40 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
+Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Ini karena rute yang lebih pendek (lebih sedikit loncatan) ke tempat tujuan.
 { .annotate }
 
-1. Last checked: 2023-12-21
+1. Last checked: 2024-03-23
 
 Kami juga berpikir akan lebih baik untuk keamanan kunci pribadi penyedia VPN jika mereka menggunakan [server khusus](https://en.wikipedia.org/wiki/Dedicated_hosting_service), daripada solusi berbagi pakai yang lebih murah (dengan pelanggan lain) seperti [peladen pribadi virtual](https://id.wikipedia.org/wiki/Peladen_pribadi_virtual).
 

@@ -38,7 +38,7 @@ Dengan Monero, pengamat luar tidak dapat menguraikan alamat yang memperdagangkan
 Untuk privasi yang optimal, pastikan untuk menggunakan dompet nonkustodian di mana kunci tampilan tetap berada di perangkat. Ini berarti hanya Anda yang dapat menggunakan dana Anda dan melihat transaksi yang masuk dan keluar. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your private view key, the provider can see almost everything you do. Some noncustodial wallets include:
 
 - [Official Monero client](https://getmonero.org/downloads) (Desktop)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet supports multiple cryptocurrencies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)

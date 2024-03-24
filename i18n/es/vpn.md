@@ -61,12 +61,12 @@ Nuestros proveedores recomendados usan encriptación, aceptan Monero, soportan W
 
 </div>
 
-#### :material-check:{ .pg-green } 71 Países
+#### :material-check:{ .pg-green } 88 Countries
 
-Proton VPN tiene [servidores en 71 países](https://protonvpn.com/vpn-servers) [o 3 si utilizas su plan gratuito](https://protonvpn.com/free-vpn).(1) Elegir un proveedor VPN con un servidor más cercano a ti reducirá la latencia del tráfico de red que envíes. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Proton VPN has [servers in 88 countries](https://protonvpn.com/vpn-servers) [or 5 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Última comprobación: 21-12-2023
+1. Last checked: 2024-03-23
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -210,12 +210,12 @@ Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y 
 
 </div>
 
-#### :material-check:{ .pg-green } 40 Países
+#### :material-check:{ .pg-green } 41 Countries
 
-Mullvad tiene [servidores en 40 países](https://mullvad.net/servers).(1) Elegir un proveedor de VPN con el servidor más cercano a ti reducirá la latencia del tráfico de red que envías. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Última comprobación: 21-12-2023
+1. Last checked: 2024-03-23
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 

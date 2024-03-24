@@ -60,12 +60,12 @@ If you're looking for added **security**, you should always ensure you're connec
 
 </div>
 
-#### :material-check:{ .pg-green } 71 Countries
+#### :material-check:{ .pg-green } 88 Countries
 
-Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers) [or 3 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
+Proton VPN has [servers in 88 countries](https://protonvpn.com/vpn-servers) [or 5 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
 { .annotate }
 
-1. Last checked: 2023-12-21
+1. Last checked: 2024-03-23
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -207,12 +207,12 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
 </div>
 
-#### :material-check:{ .pg-green } 40 Countries
+#### :material-check:{ .pg-green } 41 Countries
 
-Mullvad has [servers in 40 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
+Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Bunun nedeni hedefe giden rotanın daha kısa olmasıdır (daha az atlama).
 { .annotate }
 
-1. Last checked: 2023-12-21
+1. Last checked: 2024-03-23
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 

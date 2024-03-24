@@ -38,7 +38,7 @@ Monero를 사용할 경우, Monero를 거래하는 주소, 거래 금액, 주소
 최적의 프라이버시를 챙기고자 할 경우, View Key를 기기에서 관리하는 방식인 비수탁형 지갑(Non-Custodial Wallet)을 사용해야 합니다. 비수탁형 지갑은 사용자 본인 외에는 자금 지출은 물론이고, 들어오고 나가는 트랜잭션을 볼 수 없습니다. 만약 수탁형 지갑(Custodial Wallet)을 사용할 경우, 여러분이 하는 **모든 행동**을 제공 업체가 볼 수 있습니다. 경량 지갑(Lightweight Wallet)을 사용할 경우에는 제공 업체가 여러분의 View 개인 키를 보관하며, 여러분이 하는 행동을 거의 전부 볼 수 있습니다. 비수탁형 지갑으로는 이러한 것들이 있습니다:
 
 - [공식 Monero 클라이언트](https://getmonero.org/downloads) (데스크톱)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet은 여러 암호화폐를 지원합니다. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)

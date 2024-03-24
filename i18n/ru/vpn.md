@@ -61,12 +61,12 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 </div>
 
-#### :material-check:{ .pg-green } 71 Страна
+#### :material-check:{ .pg-green } 88 Countries
 
-У Proton VPN есть [серверы в 71 стране](https://protonvpn.com/vpn-servers) [ или 3, если вы используете бесплатный тариф](https://protonvpn.com/free-vpn).(1) Выбор VPN провайдера с ближайшим к вам сервером снизит задержку при передаче трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+Proton VPN has [servers in 88 countries](https://protonvpn.com/vpn-servers) [or 5 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
-1. Последняя проверка: 21.12.2023
+1. Last checked: 2024-03-23
 
 Мы также считаем, что для безопасности закрытых ключей VPN-провайдера ему следует использовать [выделенные серверы](https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80), а не более дешевые виртуальные хостинги (которые разделены между несколькими клиентами), такие как [виртуальные частные серверы](https://ru.wikipedia.org/wiki/VPS).
 
@@ -208,12 +208,12 @@ In addition to providing standard OpenVPN configuration files, IVPN has mobile c
 
 </div>
 
-#### :material-check:{ .pg-green } 40 Стран
+#### :material-check:{ .pg-green } 41 Countries
 
-Mullvad has [servers in 40 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
-1. Последняя проверка: 21.12.2023
+1. Last checked: 2024-03-23
 
 Мы также считаем, что для безопасности закрытых ключей VPN-провайдера ему следует использовать [выделенные серверы](https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80), а не более дешевые виртуальные хостинги (которые разделены между несколькими клиентами), такие как [виртуальные частные серверы](https://ru.wikipedia.org/wiki/VPS).
 

@@ -38,7 +38,7 @@ cover: cryptocurrency.webp
 為了獲得最佳的隱私，請務必使用非保管錢包，讓查看密鑰保留在設備上。 這意味著只有您能夠花費資金並查看交易進出。 若使用託管錢包，則服務商可看到**全部活動** ；如果用的是"輕量"錢包，則服務商保存了您的私鑰並看到您全部的交易活動。 一些非保管錢包包括：
 
 - [官方Monero客戶端](https://getmonero.org/downloads) （桌面）
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet 支援多種加密貨幣。 A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)

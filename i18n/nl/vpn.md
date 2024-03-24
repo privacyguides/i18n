@@ -61,12 +61,12 @@ Onze aanbevolen providers gebruiken encryptie, accepteren Monero, ondersteunen W
 
 </div>
 
-#### :material-check:{ .pg-green } 71 Countries
+#### :material-check:{ .pg-green } 88 Countries
 
-Proton VPN has [servers in 71 countries](https://protonvpn.com/vpn-servers) [or 3 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
+Proton VPN has [servers in 88 countries](https://protonvpn.com/vpn-servers) [or 5 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
 { .annotate }
 
-1. Last checked: 2023-12-21
+1. Last checked: 2024-03-23
 
 Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -208,12 +208,12 @@ IVPN-clients ondersteunen tweefactorauthenticatie (de clients van Mullvad niet).
 
 </div>
 
-#### :material-check:{ .pg-green } 40 Countries
+#### :material-check:{ .pg-green } 41 Countries
 
-Mullvad has [servers in 40 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
+Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Dit komt door een kortere route (minder hops) naar de bestemming.
 { .annotate }
 
-1. Last checked: 2023-12-21
+1. Last checked: 2024-03-23
 
 Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de VPN-provider als ze [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service) gebruiken, in plaats van goedkopere gedeelde servers (met andere klanten) zoals [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 

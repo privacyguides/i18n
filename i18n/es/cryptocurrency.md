@@ -38,7 +38,7 @@ Con Monero, los observadores externos no pueden descifrar las direcciones transa
 Para una mejor privacidad, se debe asegurar de utilizar una billetera no monitorizada donde la clave de visualización permanece en el dispositivo. Esto significa que solo usted tiene la capacidad de gastar sus fondos, además de ver las transacciones entrantes y salientes. Si usted utiliza una billetera monitoreada, el proveedor puede ver **todo** lo que hace; si utiliza una billetera "ligera" donde el proveedor retiene su clave privada de visualización, el proveedor puede ver casi todo lo que hace. Algunas billeteras no monitoreadas son:
 
 - [Cliente oficial de Monero](https://getmonero.org/downloads) (Escritorio)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet soporta múltiples criptomonedas. Una versión de Cake Wallet que únicamente soporta Monero puede obtenerse desde [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)

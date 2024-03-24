@@ -61,12 +61,12 @@ cover: vpn.webp
 
 </div>
 
-#### :material-check:{ .pg-green } 71 個國家
+#### :material-check:{ .pg-green } 88 Countries
 
-Proton VPN 在73個國家/地區設有 [伺服器](https://protonvpn.com/vpn-servers). (1)選擇距離您最近的伺服器的VPN供應商，將減少您網路流量的延遲。 這是因為到目的地的路線較短（跳數較少）。
+Proton VPN has [servers in 88 countries](https://protonvpn.com/vpn-servers) [or 5 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。
 { .annotate }
 
-1. 上次檢查日期： 2023-12-21
+1. Last checked: 2024-03-23
 
 我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
 
@@ -226,13 +226,13 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN also
 
 </div>
 
-#### :material-check:{ .pg-green } 40 個國家
+#### :material-check:{ .pg-green } 41 Countries
 
-Mullvad has [servers in 40 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。 
+Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到目的地的路線較短（跳數較少）。 
 
 { .annotate }
 
-1. 上次檢查日期： 2023-12-21
+1. Last checked: 2024-03-23
 
 我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜（與其他客戶共享)的解決方案 ，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，則 VPN提供商的私鑰更安全。
 

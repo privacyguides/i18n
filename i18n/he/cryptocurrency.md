@@ -38,7 +38,7 @@ cover: cryptocurrency.webp
 לפרטיות מיטבית, הקפד להשתמש בארנק לא משמורן שבו מפתח התצוגה נשאר במכשיר. המשמעות היא שרק לך תהיה את היכולת להוציא את הכספים שלך ולראות עסקאות נכנסות ויוצאות. אם אתה משתמש בארנק משמורן, הספק יכול לראות **כל מה** שאתה עושה; אם אתה משתמש בארנק "קל משקל" שבו הספק שומר על מפתח התצוגה הפרטי שלך, הספק יכול לראות כמעט כל מה שאתה עושה. כמה ארנקים שאינם משמורנים כוללים:
 
 - [Official Monero client](https://getmonero.org/downloads) (שולחני)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet תומך במספר מטבעות קריפטוגרפיים. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)

@@ -38,7 +38,7 @@ Met Monero kunnen externe waarnemers geen adressen ontcijferen die handelen in M
 Voor optimale privacy, zorg ervoor dat je een noncustodial wallet gebruikt waar de view key op het apparaat blijft. Dit betekent dat alleen jij je geld kunt uitgeven en de inkomende en uitgaande transacties kunt zien. Als je een custodial wallet gebruikt, kan de provider **alles zien wat** je doet; als je een "lichtgewicht" wallet gebruikt waarbij de provider jouw privé view key bewaard, kan de provider bijna alles zien wat u doet. Sommige niet-custodiale wallets omvatten:
 
 - [Officiële Monero-client](https://getmonero.org/downloads) (Desktop)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet ondersteunt meerdere cryptocurrencies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)

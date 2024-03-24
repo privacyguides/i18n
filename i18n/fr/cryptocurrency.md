@@ -38,7 +38,7 @@ Avec Monero, les observateurs extérieurs ne peuvent pas déchiffrer les adresse
 Pour une confidentialité optimale, assurez-vous d'utiliser un portefeuille sans garde, où la clé de visualisation reste sur l'appareil. Cela signifie que vous êtes le seul à pouvoir dépenser vos fonds et à voir les transactions entrantes et sortantes. Si vous utilisez un portefeuille de garde, le fournisseur peut voir **tout** ce que vous faites ; si vous utilisez un portefeuille "léger" dans lequel le fournisseur conserve votre clé privée, il peut voir presque tout ce que vous faites. Parmi les portefeuilles non gardiens, on peut citer :
 
 - [le client Monero officiel](https://getmonero.org/downloads) (bureau)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
     - Cake Wallet prend en charge plusieurs crypto-monnaies. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)
