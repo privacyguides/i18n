@@ -40,7 +40,7 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 ## 正在連接到Tor
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">溫馨提示</p>
 
 在連接 Tor 之前，請先已閱讀[本站相關介紹概述](advanced/tor-overview.md)，了解 Tor 是什麼以及如何安全地連接使用。 通常建議透過值得信賴的 [VPN 供應商](vpn.md) 來連接 Tor，但其操作必須**正確**，以避免降低匿名性。
 
@@ -67,7 +67,7 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 [:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://torproject.org/download/#android)
@@ -86,7 +86,7 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 
 </div>
 
-Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings).
+Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此， **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings)。
 
 除了直接在電腦安裝 Tor 瀏覽器外，還有專門設計用於連接到 Tor 網絡的操作系統，例如 [Qubes OS 作業系統](desktop.md#qubes-os) [Whonix](desktop.md#whonix)，它們提供比標準 Tor 瀏覽器更高的安全性和保護。
 
@@ -105,7 +105,7 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
@@ -118,9 +118,9 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 我們之前建議在 Orbot 設定中啟用 *隔離目標地址* 偏好設定。 雖然從理論上講，此設置可以強制您連接不同 IP地址使用不同的迴路來改善隱私，但它並未為大多數應用程式（特別是 Web瀏覽）提供實際優勢，可能會帶來顯著的效能拖累，增加 Tor 網絡的負載。 我們不再建議您從預設值調整此設定，除非您知道需要調整。[^1]
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tips for Android</p>
+<p class="admonition-title">Android 提示</p>
 
-Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService](https://developer.android.com/reference/android/net/VpnService) 代理您的所有網路連接，其 VPN killswitch 設置在 :gear: **Settings** → **Network &amp; internet** → **VPN** → :gear: → **Block connections without VPN**.。
 
 Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和 [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) 上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository](https://github.com/guardianproject/orbot/releases) 下載。
 
@@ -134,7 +134,7 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
+**Onion 瀏覽器r** 為開源瀏覽器可在 iOS 設備上匿名瀏覽 Tor 網絡，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -143,7 +143,7 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
@@ -181,4 +181,4 @@ Snowflake 無法加強隱私，也不會在您的個人瀏覽器中連接 Tor網
 
 運行 Snowflake 代理風險很低，甚至低於運行 Tor 中繼或橋接器，而這些中繼器或橋接器已經不算是特別高風險的工作。 但是，它通過您的網路進行代理流量，在某些方面可能會產生影響，特別是您的網路頻寬有限制的話。 在運行代理之前，要確保已清楚了解[ Snowflake 運作方式](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) 。
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: `IsolateDestAddr` 設定問題已在 [Tor 郵件群組](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) 中討論過而且在 [Whonix's 串流隔離文檔](https://whonix.org/wiki/Stream_Isolation)，兩項專案都認為對大多數人而言它並不是好方法。
