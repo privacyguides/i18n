@@ -261,13 +261,13 @@ Cure53 審計了 Mullvad's VPN 客戶端軟體， Assured AB 對他們進行穿�
 
 > Cure53 和 Assured AB 對審計結果感到滿意，Mullvad 留下整體正面的印象。 由於 Mullvad VPN 內部團隊在安全上的投入，測試人員肯定了該項目從安全角度來看是正確的。
 
-In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
+2020 年，宣布第二次審核[](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app)，[最終審計報告](https://cure53.de/pentest-report_mullvad_2020_v2.pdf)已發布在 Cure53 網站上：
 
 
 
 > 2020年5月~6月針對 Mullvad  的專案結果是相當正面。 [...] Mullvad 使用的整體應用生態系統給人留下了結構完善之印象。 該應用程序的整體結構更容易以結構化的方式推出補丁和修復。 Cure53 的發現展示了不斷審核和重新評估當前泄漏向量的重要性，以始終確保最終用戶的隱私。 Mullvad 在保護最終用戶免受常見 PII 洩漏和隱私相關風險方面做得很好。
 
-In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data) and is available on [Assured's website](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+2021 年宣布進行基礎設施審計< /a> 和[最終審計報告](https://cure53.de/pentest-report_mullvad_2021_v1.pdf)已在Cure53 網站上發布。 另一份報告已於[ 2022 年 6 月](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer -data)發布，可在 [Assured 網站](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf)上取得。</p> 
 
 
 
