@@ -4,11 +4,11 @@ title: 撰寫風格
 
 Privacy Guides 以美式英語書寫，如有疑問，請參閱 [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) 。
 
-In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. 我們在下方強調這些準則中的幾個重要提示。
+一般而言， [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) 提供了如何寫得清晰簡潔的良好概述。 我們在下方強調這些準則中的幾個重要提示。
 
 ## 為我們的觀眾寫作
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. 不要愚蠢的內容，像是跟中學班級學生說明，不要過度使用一般電腦用戶不熟悉的概念與複雜術語。
+Privacy Guides 預設的 [讀者群](https://plainlanguage.gov/guidelines/audience) 為一般普遍程度技術使用的成年人。 不要愚蠢的內容，像是跟中學班級學生說明，不要過度使用一般電腦用戶不熟悉的概念與複雜術語。
 
 ### 只探討人們想知道的內容
 
@@ -24,7 +24,7 @@ Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audienc
 > 
 > 當你用“你”來稱呼用戶時，他們更有可能理解他們的責任是什麼。
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
+來源： [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### 避免“用戶”
 
@@ -37,7 +37,7 @@ Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/addres
 - 將文件限制在五或六個部分左右。 很長的文件應該分成不同的頁面。
 - 用 **粗體** 或 *斜體*來標記重要的想法。
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
+來源： [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
 ### 以主題句開頭
 
@@ -45,7 +45,7 @@ Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 > 
 > 我們常按照自己的想法寫作，先是前提，然後結論。 這可能是發展思想的自然方式，以主題句作為以段落最後的結束。 把它放在前面，讓讀者知道要去哪裡。 進入正題之前，先別讓讀者腦子裝入過多資訊。
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
+來源： [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
 ## 謹選擇用字
 
@@ -65,7 +65,7 @@ Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a
 
 > 沒必要的文字將會浪費大家的時間。 好的寫作就像生活對話。 減除讀者無須知道的資訊。 在意主題的專家不容易處理此事，所以若有審計者角度來看待資訊就很重要。
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
+來源： [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 ## 保持文字像在交談
 
@@ -77,7 +77,7 @@ Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
 > 主動語調讓主詞與行動更為明確。 它可減少責任不清的情況 不用被動式，請用主動語氣。
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
+來源： [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
 
 ### "必須"表示要求 for requirements
 

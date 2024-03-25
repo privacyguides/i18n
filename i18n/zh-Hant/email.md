@@ -16,9 +16,9 @@ cover: email.webp
 - [其他加密提供者 :material-arrow-right-drop-circle:](#more-providers)
 - [自主託管選項 :material-arrow-right-drop-circle:](#self-hosting-email)
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+除（或代替）此處推薦的電子郵件提供者之外，可能還希望考慮使用專門的[電子郵件別名服務](email-aliasing.md)來保護隱私。 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [更多資訊 :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP 兼容服務
 
@@ -55,7 +55,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -77,7 +77,7 @@ Proton Mail 的內容崩潰報告 **不會**對其它第三方分享。 可以�
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-付費的 Proton Mail 訂閱者可以使用自定網域服務或 [通用電子郵件](https://proton.me/support/catch-all) 功能。 Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+付費的 Proton Mail 訂閱者可以使用自定網域服務或 [通用電子郵件](https://proton.me/support/catch-all) 功能。 Proton Mail還支持 [子地址](https://proton.me/support/creating-aliases)，這對於不想購買網域的人很有用。
 
 #### :material-check:{ .pg-green } 私人付款方式
 
@@ -132,7 +132,7 @@ Proton Mail不提供數字遺產功能。
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox.org 可使用自定域名，且支援 [捕獲所有](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all- alias-with-a-custom-domain-name) 位址。 Proton Mail還支持 <[子地址](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)，這對於不想購買網域的人很有用。
 
 #### :material-check:{ .pg-green } 私人付款方式
 
@@ -140,31 +140,39 @@ Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 
 
 #### :material-check:{ .pg-green } 帳戶安全
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
+Mailbox.org [雙重認證](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)功能僅限網頁郵件。 可透過 [TOTP 或 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) -software /yubicloud">YubiCloud](https://yubico.com/products/services)。 Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). 收到的新訊息將立即用您的公鑰加密。
+Mailbox.org 允許使用 [加密郵箱](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox)對傳入郵件進行加密。 收到的新訊息將立即用您的公鑰加密。
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. [獨立的選項](calendar.md) 可能更適合該資訊。
+不迥 Mailbox.org 使用的軟體平台 [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange)[不支援](https:// kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book)通訊錄和行事曆加密。 [獨立的選項](calendar.md) 可能更適合該資訊。
 
 #### :material-check:{ .pg-green }電子郵件加密
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
+Mailbox.org在他們的網絡郵件中有 [個集成的加密](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) ，這簡化了向具有公開OpenPGP密鑰的人發送消息。 它們可讓
+
+遠端收件者在 Mailbox.org 的伺服器上解密電子郵件</ a > 。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。</p> 
 
 Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 因此其它人可以輕鬆找到 Mailbox.org 帳戶的 OpenPGP 金鑰，便於跨提供者使用 E2EE。 這僅限於使用 Mailbox.org  自身網域(例如 @mailbox.org) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+
+
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
 當合約到期後，您的帳戶將受到限制，在 [30天後，它將被永久刪除](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract)。
 
+
+
 #### :material-information-outline:{ .pg-blue } 額外功能
 
 You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). 然而，他們的網頁郵件介面無法訪問其  .onion 服務，可能會遇到 TLS 憑證錯誤。
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org 除了支援 IMAP 和 POP3 等標準存取通訊協議外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
+All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org 還提供別名 [@ secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely)，它對郵件伺服器之間的連線強制進行TLS加密，否則根本不會發送訊息。 Mailbox.org 除了支援 IMAP 和 POP3 等標準存取通訊協議外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
 
 Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否要將任何資料傳遞給繼承人，但對方必須提出你的遺囑證明。 或者，您可以通過姓名和地址提出人選。
+
+
 
 ## 更多供應商
 
@@ -191,7 +199,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -207,41 +215,59 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。 目前不支援 [電子郵件匯入](https://github.com/tutao/tutanota/issues/630) ，但這點很快就 [會改善](https://tuta.com/blog/posts/kickoff-import)。 電子郵件可以單個 [或選擇資料夾批量](https://tuta.com/howto#generalMail)匯出 ，但若您有許多資料夾，可能會不方便。
 
+
+
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-付費的 Tuta 帳戶可使用 15 ~ 30 別名，而 [自定域名](https://tuta.com/faq#custom-domain)帳戶則無上限。 Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+付費的 Tuta 帳戶可使用 15 ~ 30 別名，而 [自定域名](https://tuta.com/faq#custom-domain)帳戶則無上限。 Tuta 不能 [子地址（加號 +定址）](https://tuta.com/faq#plus)，但您可以使用自定義域名的 [通用電于郵件](https://tuta.com/howto#settings-global)功能 。
+
+
 
 #### :material-information-outline:{ .pg-blue } 私人付款方式
 
 Tuta 僅接受信用卡和 PayPal ，但 [加密貨幣](cryptocurrency.md) 可用於通過其[ 合作伙伴 Proxystore ](https://tuta.com/faq/#cryptocurrency) 購買禮品卡。
 
+
+
 #### :material-check:{ .pg-green } 帳戶安全
 
 Tuta 支援 TOTP 或 U2F 的 [雙因素驗證](https://tuta.com/faq#2fa) 。
+
+
 
 #### :material-check:{ .pg-green } 資料安全
 
 Tutanota 提供 [未登入零存取](https://tuta.com/faq#what-encrypted) 支援，其應用在電子郵件、 [通訊錄](https://tuta.com/faq#encrypted-address-book)以及 [行事曆](https://tuta.com/faq#calendar)。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
 
+
+
 #### :material-information-outline:{ .pg-blue } 電子郵件加密
 
 Tuta [不使用 OpenPGP ](https://tuta.com/support/#pgp)。 只能透過 [臨時 Tuta 郵箱](https://tuta.com/support/#encrypted-email-external)，才能接收非Tuta 電子郵件帳戶寄出的加密電子郵件。
+
+
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
 Tuta [刪除六個月未登入使用的免費帳戶](https://tuta.com/faq#inactive-accounts) 。 付費後，可以重用激活已停用的免費帳戶。
 
+
+
 #### :material-information-outline:{ .pg-blue } 額外功能
 
 Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/posts/secure-email-for-non-profit) 或大幅折扣。
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
+Tuta 付費版還有一種 [Secure Connect](https://tuta.com/secure-connect)功能。 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
 
 Tuta 不提供數位遺產功能。
+
+
 
 ## 自主託管電子郵件
 
 進階系統管理員可以考慮設定自己的電子郵件伺服器。 郵件伺服器需要注意和持續維護，以確保安全性和郵件傳遞的可靠性。
+
+
 
 ### 結合軟體解決方案
 
@@ -275,9 +301,13 @@ Tuta 不提供數位遺產功能。
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
 - [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
 
+
+
 ## 標準
 
 **請注意，我們與以下推薦的任何供應商並無瓜葛。** 除了 [我們的條件標準](about/criteria.md)外，我們還為任何希望獲得推薦的電子郵件供應商制定了一套明確要求，包括實施業界最佳做法，現代技術等。 我們建議您在選擇電子郵件提供商之前熟悉此列表，並進行自己的研究，以確保您選擇的電子郵件提供商是您的正確選擇。
+
+
 
 ### 技術
 
@@ -301,6 +331,8 @@ Tuta 不提供數位遺產功能。
 - 為擁有自己網域的用戶提供通用地址或別名功能。
 - 使用標準電子郵件存取協定，例如 IMAP、SMTP 或 [ JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)。 標準存取協議確保客戶可以輕鬆下載所有電子郵件，一旦他們想切換到其它提供商。
 
+
+
 ### 隱私
 
 我們希望所推薦的提供商盡可能少地收集客戶資料。
@@ -315,6 +347,8 @@ Tuta 不提供數位遺產功能。
 
 - 接受 [匿名付款選項](advanced/payments.md) （[加密貨幣](cryptocurrency.md)，現金，禮品卡等）
 - 託管在有強力法律保障隱私的司法管轄區。
+
+
 
 ### 安全
 
@@ -331,10 +365,10 @@ Tuta 不提供數位遺產功能。
 - 有效 [ DANE ](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) 紀錄。
 - 有效的 [SPF ](https://en.wikipedia.org/wiki/Sender_Policy_Framework) 和 [ DKIM ](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) 記錄。
 - 擁有適當的 [DMARC ](https://en.wikipedia.org/wiki/DMARC) 記錄和原則，或使用 [ ARC ](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) 進行驗證。 如果正在使用 DMARC 驗證，則必須將原則設置為 `拒絕` 或 `隔離`。
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
+- 伺服器套件最好為 TLS 1.2或更高版本以及 [ RFC8996](https://datatracker.ietf.org/doc/rfc8996)計劃。
 - 假設使用SMTP，[SMTPS](https://en.wikipedia.org/wiki/SMTPS) 提交。
-- 網站安全標準，例如：
-    - [HTTP 嚴格傳輸安全性](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+- 網站安全標準，例如： 
+      - [HTTP 嚴格傳輸安全性](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - 如果從外部網域加載東西時，[子資源完整性](https://en.wikipedia.org/wiki/Subresource_Integrity) 。
 - 必須支援檢視 [訊息表頭](https://en.wikipedia.org/wiki/Email#Message_header)，因為它是確定電子郵件是否為網路釣魚嘗試的關鍵取證功能。
 
@@ -344,9 +378,11 @@ Tuta 不提供數位遺產功能。
 - [DNS憑證授權機構授權(CAA)資源記錄](https://tools.ietf.org/html/rfc6844) 除了DANE支持。
 - 實現 [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)，這對於發佈郵件列表 [RFC8617](https://tools.ietf.org/html/rfc8617)非常有用。
 - 漏洞獎勵計劃和/或協調漏洞披露過程。
-- 網站安全標準，例如：
-    - [內容安全策略(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+- 網站安全標準，例如： 
+      - [內容安全策略(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
+
+
 
 ### 信任
 
@@ -361,6 +397,8 @@ Tuta 不提供數位遺產功能。
 - 面向公眾的領導
 - 頻繁的透明度報告。
 
+
+
 ### 行銷
 
 對於所推薦的電子郵件供應商，我們樂見其負責任的營銷。
@@ -373,13 +411,15 @@ Tuta 不提供數位遺產功能。
 
 - 宣稱破解不了的加密 使用加密時應意識到，當有一天技術足以破解它時，它就不再是祕密的。
 - 保證 100% 匿名性保護。 當有人聲稱某件事是100 ％時，這意味著失敗沒有確定性。 我們知道人們可以很容易地以多種方式去匿名化自己，例如：
-
-    - 重覆使用個人資訊 (如電子郵件帳戶、獨特的假名等等 pseudonyms, etc.) 而沒透過匿名軟體 (如 Tor, VPN 之類)。
+  
+      - 重覆使用個人資訊 (如電子郵件帳戶、獨特的假名等等 pseudonyms, etc.) 而沒透過匿名軟體 (如 Tor, VPN 之類)。
     - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **最佳案例：**
 
 - 清晰易讀的文件。 這包括諸如設置 2FA 、電子郵件客戶端、OpenPGP等。
+
+
 
 ### 附加功能
 
