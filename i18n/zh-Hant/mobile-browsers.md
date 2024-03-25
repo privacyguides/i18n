@@ -41,7 +41,7 @@ schema:
 
 ## 安卓
 
-On Android, Firefox is still less secure than Chromium-based alternatives: Mozilla's engine, [GeckoView](https://mozilla.github.io/geckoview), has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
+在 Android 上，Firefox 的安全性仍然低於基於 Chromium 的替代品：Mozilla引擎 [GeckoView](https://mozilla.github.io/geckoview) 尚未支援 [站點隔離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)或啟用[隔離進程](https://bugzilla.mozilla. org/show_bug.cgi?id=1565196)。
 
 ### Brave
 
@@ -123,13 +123,13 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] 選擇 **在[WebRTC IP處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)**
+- [ ]取消勾選 **允許網站檢查您是否儲存了付款方式**
+- [ ]取消勾選 **IPFS閘道** (1)
+- [x] 選擇 **關閉出口標籤**
+- [ ] 取消勾選**允許隱私保護產品分析(P3A)**
+- [ ] 取消勾選 **自動發送診斷報告**
+- [ ] 取消勾選 **自動發送每日使用情況給Brave**
 
 </div>
 
@@ -155,7 +155,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. 它可以使用不同的配置檔來分開瀏覽。
+**Safari** 是iOS 預設瀏覽器。 它包括[隱私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0)如: [智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention）、隱私權報告、獨立且短暫的私密瀏覽標籤、iCloud 私密中繼、透過隨機化並向網站呈現簡化版本的系統配置來實現指紋保護，以便更多設備看起來相同，以及使用生物識別資訊/PIN 鎖定私人標籤的能力。 它可以使用不同的配置檔來分開瀏覽。
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
@@ -209,7 +209,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 - [ ] 禁用 **隱私保留廣告計量**
 
-廣告點擊測量是過去用來追蹤侵犯用戶隱私的技術。 [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+廣告點擊測量是過去用來追蹤侵犯用戶隱私的技術。 [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) 是一個 WebKit 功能和提議的網頁標準，旨在允許廣告商在不影響用戶隱私的情況下衡量網站活動的有效性。
 
 此功能本身沒有什麼隱私疑慮，因此您可以選擇不管它，但我們認為，它在私密瀏覽中自動停用反而顯示出功能被關閉的情況。
 
@@ -229,9 +229,9 @@ Safari的私人瀏覽模式提供額外的隱私保護。 隱私瀏覽每個標�
 
 ##### iCloud 同步
 
-Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都是 E2EE。 However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
+Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都是 E2EE。 但預設情況下，書籤[沒有](https://support.apple.com/HT202303)。 Apple可以根據其 [隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). 請在 **Apple ID name → iCloud → 進階資料保護**.
+您可以為Safari 書籤和下載啟用 E2EE ，只需啟用 [Advanced Data Protection](https://support.apple.com/HT212520)即可。 請在 **Apple ID name → iCloud → 進階資料保護**.
 
 - [x] 開啟 **進階資料保護**
 
@@ -255,7 +255,7 @@ iOS 版 AdGuard 有一些高級功能；然而，標準Safari 內容封鎖是免
 [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 
