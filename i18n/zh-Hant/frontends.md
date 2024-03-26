@@ -33,7 +33,7 @@ There are a number of public instances, with some instances having [Tor](tor.md)
 </div>
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">溫馨提示</p>
 
 ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
 
@@ -58,7 +58,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-windows11: Windows](https://freetubeapp.io/#download)
 - [:simple-apple: macOS](https://freetubeapp.io/#download)
@@ -93,7 +93,7 @@ You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) b
 [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
 - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)

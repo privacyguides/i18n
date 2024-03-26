@@ -82,7 +82,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
 - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
@@ -109,7 +109,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
@@ -127,9 +127,9 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
+![AdGuard 首頁標誌](assets/img/dns/adguard-home.svg){ align=right }
 
-**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
+**AdGuard** 是一個開源的 [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) ，使用[DNS 過濾](https://cloudflare.com/learning/access-management/what-is-dns-filtering/) 來封鎖不需要的網頁內容，例如廣告。
 
 AdGuard 首頁提供精美的網頁介面，可查看有用資訊並管理被封鎖的內容。
 
@@ -148,7 +148,7 @@ AdGuard 首頁提供精美的網頁介面，可查看有用資訊並管理被封
 
 ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
+**Pi-hole** 是一個開源的 [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) ，它使用 [DNS 篩選](https://cloudflare.com/learning/access-management/what-is-dns-filtering/)來阻止不需要的網頁內容，例如廣告。
 
 Pi-hole 設計應用在 Raspberry Pi ，但它不限於這種硬體。 該軟體良好的 Web 界面，可查看有用資訊和管理被阻止的內容。
 

@@ -1,9 +1,9 @@
 ---
-title: "About Privacy Guides"
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+title: "關於 Privacy Guides"
+description: Privacy Guides 是一個社會導向的網站，提供資訊以保護您的資料安全和隱私。
 schema:
   "@context": https://schema.org
-  "@type": Organization
+  "@type": 組織
   "@id": https://www.privacyguides.org/
   name: Privacy Guides
   url: https://www.privacyguides.org/en/about/
