@@ -20,14 +20,14 @@ Las opciones enumeradas aquí son multiplataforma y excelentes para crear copias
 
 **Cryptomator** es una solución de cifrado diseñada para guardar archivos de forma privada en cualquier proveedor en la nube. Le permite crear bóvedas que se almacenan en una unidad virtual, cuyo contenido está cifrado y sincronizado con su proveedor de almacenamiento en la nube.
 
-[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.cryptomator.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://docs.cryptomator.org){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1560822163)
@@ -45,7 +45,7 @@ Cryptomator utiliza el cifrado AES-256 para cifrar tanto los archivos como los n
 
 Algunas bibliotecas criptográficas de Cryptomator han sido [auditadas](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) por Cure53. El alcance de las bibliotecas auditadas incluye: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) y [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). La auditoría no se extendió a [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), que es una biblioteca utilizada por Cryptomator para iOS.
 
-Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.
+La documentación de Cryptomator detalla con más detalle su [objetivo de seguridad](https://docs.cryptomator.org/en/latest/security/security-target), la [arquitectura de seguridad](https://docs.cryptomator.org/en/latest/security/architecture) y las [mejores prácticas](https://docs.cryptomator.org/en/latest/security/best-practices) de uso.
 
 ### Picocrypt (Archivo)
 
@@ -79,13 +79,13 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 **VeraCrypt** es una utilidad de software gratuito con el código fuente disponible que se utiliza para el cifrado sobre la marcha. Puede crear un disco cifrado virtual dentro de un archivo, cifrar una partición o cifrar todo el dispositivo de almacenamiento con autenticación previa al arranque.
 
-[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
-[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://veracrypt.fr/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://veracrypt.fr){ .md-button .md-button--primary }
+[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title=Documentación}
+[:octicons-code-16:](https://veracrypt.fr/code){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://veracrypt.fr/en/Downloads.html)
@@ -111,15 +111,15 @@ Para cifrar la unidad desde la que inicia el sistema operativo, por lo general r
 
 ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** es la solución de cifrado de volumen completo incluida con Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
+**BitLocker** es la solución de cifrado de volumen completo incluida con Microsoft Windows. La principal razón por la que recomendamos utilizarlo para encriptar tu unidad de arranque, es por su [uso de TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, una compañía forense, ha escrito sobre esta característica en [Entendiendo la Protección TPM de BitLocker](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
 
-[:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
+[:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentación}
 
 </details>
 
 </div>
 
-BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. Se puede habilitar en las ediciones Home siempre que cumplan con los requisitos previos.
+BitLocker [solo es compatible](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) con las ediciones Pro, Enterprise y Education de Windows. Se puede habilitar en las ediciones Home siempre que cumplan con los requisitos previos.
 
 <details class="example" markdown>
 <summary>Activar BitLocker en Windows Home</summary>
@@ -136,7 +136,7 @@ Para habilitar BitLocker en las ediciones "Home" de Windows, debe tener particio
    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
    ```
 
-3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Debe reiniciar mientras pulsa la tecla F8 antes de que se inicie Windows y entrar en el símbolo del sistema ** en **Solucionar problemas** → **Opciones avanzadas** → **Símbolo del sistema**.
+3. Accede a las [Opciones Avanzadas de Inicio](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Debe reiniciar mientras pulsa la tecla F8 antes de que se inicie Windows y entrar en el símbolo del sistema ** en **Solucionar problemas** → **Opciones avanzadas** → **Símbolo del sistema**.
 4. Inicie sesión con su cuenta de administrador y escriba esto en el símbolo del sistema para iniciar el cifrado:
    ```powershell
    manage-bde -on c: -used
@@ -183,9 +183,9 @@ Recomendamos almacenar una clave de recuperación local en un lugar seguro en lu
 
 **LUKS** es el método FDE por defecto para Linux. Puede utilizarse para cifrar volúmenes completos, particiones o crear contenedores cifrados.
 
-[:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title=Documentación}
+[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Código Fuente" }
 
 </details>
 
@@ -231,16 +231,16 @@ Las herramientas con interfaces de línea de comandos son útiles para integrar 
 
 ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
 
-**Kryptor** es una herramienta de cifrado y firma de archivos gratuita y de código abierto que hace uso de algoritmos criptográficos modernos y seguros. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
+**Kryptor** es una herramienta de cifrado y firma de archivos gratuita y de código abierto que hace uso de algoritmos criptográficos modernos y seguros. Pretende ser una versión mejorada de [age](https://github.com/FiloSottile/age) y [Minisign](https://jedisct1.github.io/minisign/) para ofrecer una alternativa sencilla y más fácil a GPG.
 
-[:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kryptor.co.uk/tutorial){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kryptor.co.uk/#donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://kryptor.co.uk){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://kryptor.co.uk/tutorial){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://kryptor.co.uk/#donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://kryptor.co.uk)
 - [:simple-apple: macOS](https://kryptor.co.uk)
@@ -258,10 +258,10 @@ Las herramientas con interfaces de línea de comandos son útiles para integrar 
 
 **Tomb** es un empaquetador de shell de línea de comandos para LUKS. Admite esteganografía a través de [herramientas de terceros](https://github.com/dyne/Tomb#how-does-it-work).
 
-[:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://dyne.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://dyne.org/software/tomb){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/dyne/Tomb){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://dyne.org/donate){ .card-link title=Contribuir }
 
 </details>
 
@@ -271,12 +271,12 @@ Las herramientas con interfaces de línea de comandos son útiles para integrar 
 
 OpenPGP es a veces necesario para tareas específicas como la firma digital y el cifrado de correo electrónico. PGP tiene muchas funciones y es [complejo](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) ya que existe desde hace mucho tiempo. Para tareas como firmar o cifrar archivos, sugerimos las opciones anteriores.
 
-Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su archivo `gpg.conf`. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
+Al cifrar con PGP, tiene la opción de configurar diferentes opciones en su archivo `gpg.conf`. Recomendamos utilizar las opciones estándar especificadas en las [Preguntas Frecuentes de los Usuarios de GnuPG](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Utilice future defaults al generar una clave</p>
 
-When [generating keys](https://gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to):
+Al [generar claves](https://gnupg.org/gph/en/manual/c14.html) sugerimos usar el comando `future-default` ya que esto instruirá a GnuPG a usar criptografía moderna como [Curve25519](https://es.wikipedia.org/wiki/Curve25519#Popularidad) y [Ed25519](https://ed25519.cr.yp.to):
 
 ```bash
 gpg --quick-gen-key alice@example.com future-default
@@ -290,7 +290,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
 
-**GNUPG** es una alternativa con licencia GPL a la suite de software criptográfico PGP. GnuPG cumple con [RFC 4880](https://tools.ietf.org/html/rfc4880), que es la especificación actual del IETF de OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG forma parte del proyecto de software GNU de la Fundación para el Software Libre y ha recibido un importante [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) del gobierno alemán.
+**GNUPG** es una alternativa con licencia GPL a la suite de software criptográfico PGP. GnuPG cumple con [RFC 4880](https://tools.ietf.org/html/rfc4880), que es la especificación actual del IETF de OpenPGP. El proyecto GnuPG ha estado trabajando en un [borrador actualizado](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) en un intento de modernizar OpenPGP. GnuPG forma parte del proyecto de software GNU de la Fundación para el Software Libre y ha recibido un importante [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) del gobierno alemán.
 
 [:octicons-home-16: Página Principal](https://gnupg.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Política de Privacidad" }
