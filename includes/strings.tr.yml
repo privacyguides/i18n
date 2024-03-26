@@ -40,15 +40,15 @@ nav:
   About: Hakkında
   Community: Topluluk
   Online Services: Çevrimiçi Hizmetler
-  Code of Conduct: Davranış Kuralları
+  Code of Conduct: Topluluk Kuralları
   Contributing: Katkıda Bulunma
-  Writing Guide: Rehber Yazma
+  Writing Guide: Yazım Rehberi
   Technical Guides: Teknik Rehberler
   Changelog: Değişiklik Günlüğü
   Forum: Forum
   Blog: Blog
 site:
   homepage_card: |
-    Veri mahremiyetinizi koruma ve güvenlik hakkında bilgi sağlayan, topluluk motivasyonlu bir internet sitesi.
+    Çevrimiçi veri mahremiyetinizi koruma ve güvenlik hakkında bilgi sağlayan, toplum yararını gözeten bir internet sitesi.
   translation: |
-    Privacy Guides'in Crowdin'deki fantastik dil ekibimiz tarafından çevirilmiş Türkçe kopyasını görüntülüyorsunuz. Eğer bu sayfada herhangi bir hata veya çevrilmemiş bir bölüm fark ederseniz lütfen yardımcı olmayı düşünün! Daha fazla bilgi ve ipucu için çeviri rehberimize göz atın.
+    Privacy Guides'in Crowdin'deki fantastik dil ekibimiz tarafından çevrilmiş Türkçe kopyasını görüntülüyorsunuz. Eğer bu sayfada herhangi bir hata veya çevrilmemiş bir bölüm fark ederseniz lütfen yardımcı olmayı değerlendirin! Daha fazla bilgi ve ipucu için çeviri rehberimize göz atın.
