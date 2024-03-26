@@ -22,13 +22,13 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 過去這些檢查是通過未加密的 OCSP 協議執行，因此可能會將您運行的應用程式資料洩露到網路上。 Apple 在 2021 年將其 OCSP 服務升級為 HTTPS 加密，並[發布了該服務的日誌記錄政策資訊](https://support.apple.com/HT202491)。 他們還承諾添加一種機制，讓用戶可選擇退出此連線檢查，但截至 2023 年 7 月，該機制尚未添加到 macOS 。
 
-While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
+雖然[可以](https://electiclight.co/2021/02/23/how-to-run-apps-in-private/)相對輕鬆地手動選擇退出此檢查，但除非您會受到 macOS 執行撤銷檢查的嚴重損害，不建議這樣做，它們在確保阻止受感染的應用程式運行上發揮著重要作用。
 
 ## 建議配置
 
 首次設置 Mac 時，您的帳戶將是管理員帳戶，其具有比標準用戶帳戶更高的權限。 macOS 有許多保護措施可以防止惡意軟體和其他程式濫用您的管理員權限，因此使用此帳戶通常是安全的。
 
-However, exploits in protective utilities like `sudo` have been [discovered in the past](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass). 如果想避免運行的程式濫用管理員權限，可以考慮創建第二個標準用戶帳戶用於日常操作。 這樣的另一個好處是，當應用程式需要管理員訪問權限時，它會更加明顯，因為它每次都會提示您輸入憑據。
+然而，破壞利用 `sudo` 這類的保護效用程式中的漏洞問題，已[ 發現過](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass)。 如果想避免運行的程式濫用管理員權限，可以考慮創建第二個標準用戶帳戶用於日常操作。 這樣的另一個好處是，當應用程式需要管理員訪問權限時，它會更加明顯，因為它每次都會提示您輸入憑據。
 
 如果您使用第二個帳戶，則不會嚴格要求在 macOS 登入畫面需登錄到原始管理員帳戶。 當以標準用戶身份執行需要管理員權限的操作時，系統會提示進行身份驗證，這時可以作為標準用戶單次性輸入管理員憑據。 如果希望在登錄畫面中只有一個帳戶，Apple 提供了[隱藏管理員帳戶的指南](https://support.apple.com/HT203998)。
 
@@ -128,7 +128,7 @@ Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是
 
 ##### 封閉模式
 
-[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) 禁用某些功能以提高安全性。 Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers) and [WASM](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. 建議啟用封閉模式看看它是否會顯著影響您的使用，它所做的許多更改都很容易接受。
+[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) 禁用某些功能以提高安全性。 某些應用程式或功能在關閉時將無法正常運作，例如 [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in -time-jit- compilers) 和[WASM](https://developer.mozilla.org/docs/WebAssembly) 在啟用鎖定模式的Safari 中被停用。 建議啟用封閉模式看看它是否會顯著影響您的使用，它所做的許多更改都很容易接受。
 
 - [x] 點擊 **開啟**
 
@@ -179,7 +179,7 @@ macOS 設置了某些無法覆蓋的安全限制。 這些稱為強制取用控�
 
 ##### App 沙盒
 
-macOS apps submitted to the App Store after June 1, 2012 are required to be sandboxed using the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
+2012年6月之後，從 App Store 下載的 macOS 應用需要使用[應用沙箱](https://developer.apple.com/documentation/security/app_sandbox)進行沙箱處理。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
