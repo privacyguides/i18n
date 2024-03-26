@@ -1,22 +1,22 @@
 #The strings in these files need to be copied MANUALLY to /config/mkdocs.LANG.yml
 #This file exists just so these strings can be originally translated on Crowdin.
 config:
-  description: Privacy Guides, kendinizi çevrimiçi olarak korumanız için merkezi gizlilik ve güvenlik kaynağıdır.
+  description: Privacy Guides, kendinizi çevrimiçi olarak korumanız için merkezi gizlilik ve güvenlik kaynağınızdır.
   copyright:
     - 
       1: |
-         Privacy Guides; veri güvenliğinizi sağlama ve mahremiyet hakkında bilgi sağlayan, kâr amacı gütmeyen, topluluk motivasyonlu bir internet sitesidir.
+         Privacy Guides; veri güvenliğinizi sağlama ve mahremiyet hakkında bilgi sağlayan, kâr amacı değil toplumsal fayda güden bir internet sitesidir.
     - 
       2: |
-         Belirli ürünleri önererek bir gelir elde etmiyoruz ve sponsorlu bağlantılar kullanmıyoruz.
+         Önerdiğimiz ürünlerden gelir elde etmiyoruz ve sponsorlu bağlantılar kullanmıyoruz.
     - 
       3: |
          Privacy Guides ve katkıda bulunanlar.
     - 
       4: |
-         İçerik CC BY-ND altında lisanslanmıştır.
+         İçerik CC BY-ND 4.0 lisansına tabidir.
   feedback:
-    question: Bu sayfa yararlı oldu mu?
+    question: Bu sayfa yardımcı oldu mu?
     yes: Bu sayfa yararlıydı
     yes-note: Geri bildiriminiz için teşekkürler!
     no: Bu sayfa geliştirilebilir
@@ -29,14 +29,14 @@ config:
 nav:
   Home: Ana Sayfa
   Knowledge Base: Bilgi Arşivi
-  Technology Essentials: Teknoloji Esasları
+  Technology Essentials: Teknoloji Temelleri
   Operating Systems: İşletim Sistemleri
   Advanced Topics: İleri Düzey Konular
   Recommendations: Öneriler
   Internet Browsing: İnternette Gezinme
-  Providers: Sağlayıcılar
+  Providers: Servis Sağlayıcılar
   Software: Yazılım
-  Advanced: Gelişmiş
+  Advanced: İleri düzey
   About: Hakkında
   Community: Topluluk
   Online Services: Çevrimiçi Hizmetler
