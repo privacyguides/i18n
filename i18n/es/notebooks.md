@@ -1,7 +1,7 @@
 ---
 title: "Blocs de Notas"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+description: Estas aplicaciones encriptadas para tomar notas te permiten hacer un seguimiento de tus apuntes sin cedérselos a terceros.
 cover: notebooks.webp
 ---
 

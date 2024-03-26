@@ -17,11 +17,11 @@ La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que sign
 
 **Nextcloud** es un conjunto de programas gratuitos y de código abierto, para la creación de su propio servicio de almacenamiento de archivos en un servidor privado que usted controle.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>

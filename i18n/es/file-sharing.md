@@ -15,7 +15,7 @@ Descubra cómo puede compartir de manera privada sus archivos entre sus disposit
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** es una bifurcación del programa Firefox Send (descontinuado por Mozilla), que permite enviar archivos a otras personas mediante un enlace. Los archivos son encriptados en su dispositivo, lo que no permite que sean leídos por el servidor y, opcionalmente, también pueden protegerse por una contraseña. The maintainer of Send hosts a [public instance](https://send.vis.ee). Puede usitlizar otras instancias públicas o puede hospedar Send usted mismo.
+**Send** es una bifurcación del programa Firefox Send (descontinuado por Mozilla), que permite enviar archivos a otras personas mediante un enlace. Los archivos son encriptados en su dispositivo, lo que no permite que sean leídos por el servidor y, opcionalmente, también pueden protegerse por una contraseña. El responsable de mantener Send alberga una [instancia pública](https://send.vis.ee). Puede usitlizar otras instancias públicas o puede hospedar Send usted mismo.
 
 [:octicons-home-16: Página principal](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -80,10 +80,10 @@ Estamos trabajando en establecer criterios definidos para cada sección de nuest
 
 **FreedomBox** es un sistema operativo diseñado para correr en una [computadora de placa única (SBC, por sus siglas en inglés)](https://en.wikipedia.org/wiki/Single-board_computer). El propósito es facilitar la configuración de aplicaciones que requieran un servidor y se puedan alojar por usted mismo.
 
-[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://freedombox.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentación}
+[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribuir }
 
 </details>
 
@@ -99,11 +99,11 @@ Estamos trabajando en establecer criterios definidos para cada sección de nuest
 
 **Nextcloud** es un conjunto de programas gratuitos y de código abierto, para la creación de su propio servicio de almacenamiento de archivos en un servidor privado que usted controle.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -134,13 +134,13 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 
 **Syncthing** es una herramienta de sincronización continua de archivos peer-to-peer de código abierto. Es utilizada para sincronizar archivos entre dos o más dispositivos sobre la red local o el Internet. Syncthing no utiliza un servidor centralizado, este utiliza el [Protocolo de Intercambio de Bloques](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) para transferir los datos entre dispositivos. Todos los datos son encriptados utilizando TLS.
 
-[:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://syncthing.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
 - [:simple-windows11: Windows](https://syncthing.net/downloads)

@@ -28,9 +28,9 @@ Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de
 
 El plan gratuito de **Privacy.com** le permite crear hasta 12 tarjetas virtuales al mes, establecer límites de gasto en esas tarjetas y cerrarlas al instante. Su plan de pago le permite crear hasta 36 tarjetas al mes, obtener un 1% de reembolso en las compras y ocultar la información de la transacción de su banco.
 
-[:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
+[:octicons-home-16: Página Principal](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentación}
 
 </details>
 
@@ -47,9 +47,9 @@ Privacy.com facilita por defecto a su banco información sobre los comercios en 
 
 **MySudo** proporciona hasta 9 tarjetas virtuales dependiendo del plan que contrate. Sus planes de pago incluyen además funciones que pueden ser útiles para realizar compras en privado, como números de teléfono virtuales y direcciones de correo electrónico, aunque normalmente recomendamos otros [proveedores de alias de correo electrónico](email.md) para un uso extenso del alias de correo electrónico.
 
-[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
+[:octicons-home-16: Página Principal](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentación}
 
 </details>
 
@@ -83,9 +83,9 @@ Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de
 
 **CoinCards** (disponible en EE. UU. y Canad) le permite comprar tarjetas regalo para una gran variedad de comercios.
 
-[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
+[:octicons-home-16: Página Principal](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentación}
 
 </details>
 

@@ -369,12 +369,12 @@ Recomendamos echar un vistazo a sus [Primeros pasos](https://gpgtools.tenderapp.
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** es una implementación de GnuPG para Android. Es comúnmente requerido por clientes de correo como [K-9 Mail](email-clients.md#k-9-mail) y [FairEmail](email-clients.md#fairemail) y otras aplicaciones Android para proporcionar soporte de cifrado. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Los detalles técnicos sobre la auditoría y las soluciones de OpenKeychain pueden consultarse [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** es una implementación de GnuPG para Android. Es comúnmente requerido por clientes de correo como [K-9 Mail](email-clients.md#k-9-mail) y [FairEmail](email-clients.md#fairemail) y otras aplicaciones Android para proporcionar soporte de cifrado. Cure53 completó una [auditoría de seguridad](https://openkeychain.org/openkeychain-3-6) de OpenKeychain 3.6 en octubre de 2015. Los detalles técnicos sobre la auditoría y las soluciones de OpenKeychain pueden consultarse [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
-[:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://openkeychain.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://openkeychain.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://openkeychain.org/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
