@@ -1,8 +1,8 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "VPN 如何保護隱私？ VPN 概述 - Privacy Guides"
+title: VPN 簡介
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: 虛擬私用網路將風險從您的ISP 轉移到您信任的第三方。 應該記住這些事情。
 ---
 
 虛擬專用網路是將您的網路末端延伸到世界其它地方的一種方式。
@@ -12,7 +12,7 @@ ISP 可以看到網路終端設備（例如數據機）的網際網路進出流�
 使用 VPN 將您對網路的信任轉移到世界上某處的伺服器，甚至可以向 ISP 隱藏這些資訊。 因此， ISP只會看到您已連接到VPN ，而不會看到您正在傳遞的活動。
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Note "備註"</p>
 
 我們在本站提到「虛擬私人網路」時，通常指的是**商業** [VPN 服務商](../vpn.md)，每月向其支付費用以換取路由網路流量安全地通過他們的公共伺服器。 還有許多其他形式的VPN，例如自行託管的 VPN 或由工作場所運營的VPN，它們允許安全地連接到內部/員工網絡資源，但是，這類VPN 通常旨在安全地訪問遠端網絡，而不是保護隱私的網路連線。
 
@@ -69,13 +69,13 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 不應該使用該功能：使用 Tor 的主要優點是不信任 VPN 提供者，當使用 VPN 託管的 Tor 節點而不是從電腦直接連接到 Tor 時，這一點就被否定了。
 
-目前Tor 僅支援 TCP 協定。 UDP（由 [WebRTC](https://en.wikipedia.org/wiki/WebRTC) 使用，[HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) 和其他協定）、[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) 和其他資料封包將被丟棄。 為了彌補這一點， VPN 提供商通常會引導全部的non-TCP 封包通過他們的 VPN 伺服器（您的第一個跳）。 This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+目前Tor 僅支援 TCP 協定。 UDP（由 [WebRTC](https://en.wikipedia.org/wiki/WebRTC) 使用，[HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) 和其他協定）、[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) 和其他資料封包將被丟棄。 為了彌補這一點， VPN 提供商通常會引導全部的non-TCP 封包通過他們的 VPN 伺服器（您的第一個跳）。 [ProtonVPN](https://protonvpn.com/support/tor-vpn) 就是這種情況。 此外，使用此 Tor over VPN 設定時，將無法控制 Tor 其他重要的功能，例如 [隔離目標位址](https://whonix.org/wiki/Stream_Isolation) （為了訪問不同網域使用不同的Tor 迴路）。
 
 此功能應被視為*便捷*訪問 Tor 隱藏服務的方式，而不是保持匿名。 為了獲得妥適的匿名性，請使用 [Tor 瀏覽器](../tor.md)。
 
 ## 商業 VPN 所有權
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). 這些可疑的公司運行許多小型 VPN 服務，製造出一種擁有比實際更多選擇的假象，來實現利潤最大化。 通常這些為空殼公司提供服務的供應商都有糟糕的隱私權政策，不應信任。 請非常嚴格地決定使用哪個提供者。
+大多數 VPN 服務都是由[少數公司](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)擁有。 這些可疑的公司運行許多小型 VPN 服務，製造出一種擁有比實際更多選擇的假象，來實現利潤最大化。 通常這些為空殼公司提供服務的供應商都有糟糕的隱私權政策，不應信任。 請非常嚴格地決定使用哪個提供者。
 
 還應警惕：許多 VPN 評論網站只是向最高出價者開放的廣告工具。 == Privacy Guides 不會透過推薦外部產品賺錢，且從不使用推廣方案。==
 

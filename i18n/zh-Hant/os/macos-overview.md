@@ -1,12 +1,12 @@
 ---
-title: macOS Overview
+title: macOS 簡介
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體提供了堅固的安全。
 ---
 
 蘋果公司使用 Unix 作業系統來開發**macOS** 支援自家的 Mac 電腦。 為提高 macOS 隱私，用戶可關閉遙測功能以強化現有的隱私與安全設置。
 
-舊款的 Intel-based Macs 與 Hackintoshe 則無法完全支援 macOS 所提供的安全功能。 To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/HT211814).
+舊款的 Intel-based Macs 與 Hackintoshe 則無法完全支援 macOS 所提供的安全功能。 為提昇資料安全，建議使用帶[Apple silicon](https://support.apple.com/HT211814)晶片的新款 Mac 。
 
 ## 隱私筆記
 

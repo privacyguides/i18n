@@ -6,23 +6,23 @@ description: Ezek az e-mail szolgáltatók nagyszerű helyet kínálnak az e-mai
 cover: email.webp
 ---
 
-Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
+Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Ahelyett, hogy e-mailben lépnél kapcsolatba másokkal, fontold meg egy olyan azonnali üzenetküldő használatát, amely támogatja a forward secrecy-t, vagyis szó szerint az előre titkosítást.
 
 [Recommended Instant Messengers](real-time-communication.md ""){.md-button}
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
+Minden más esetre olyan e-mail szolgáltatókat ajánlunk, amelyek fenntartható üzleti modelleken és beépített biztonsági, adat- és magánéletvédelmi funkciókon alapulnak.
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
-- [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+- [OpenPGP-kompatibilis e-mail szolgáltatók :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Egyéb titkosított szolgáltatók :material-arrow-right-drop-circle:](#more-providers)
+- [Saját szerveren futtatható lehetőségek :material-arrow-right-drop-circle:](#self-hosting-email)
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+Az itt ajánlott e-mail szolgáltatók mellett (vagy helyett) érdemes megfontolni egy dedikált [e-mail alias szolgáltatást](email-aliasing.md) is a magánélet védelme érdekében. Ezek a szolgáltatások többek között segíthetnek megvédeni a valódi potaládádat a spamektől, megakadályozhatják, hogy a marketingesek összekapcsolják a fiókjaidat, és PGP-vel titkosíthatják az összes bejövő üzenetedet.
 
 - [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
-## OpenPGP Compatible Services
+## OpenPGP-kompatibilis szolgáltatások
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Ezek a szolgáltatók natívan támogatják az OpenPGP titkosítást/visszafejtést és a [Web Key Directory szabványt](basics/email-security.md#what-is-the-web-key-directory-standard), lehetővé téve a szolgáltatófüggetlen, végponttól-végpontig titkosított e-maileket. Például egy Proton Mail felhasználó küldhet végponttól-végpontig titkosított üzenetet egy Mailbox.org felhasználónak, de fogadhatsz OpenPGP-titkosított értesítéseket olyan internetes szolgáltatásoktól is, amelyek támogatják azt.
 
 <div class="grid cards" markdown>
 
@@ -381,6 +381,6 @@ Nem használhat felelőtlen marketinget:
 
 - Clear and easy to read documentation. This includes things like, setting up 2FA, email clients, OpenPGP, etc.
 
-### További Funkciók
+### További funkciók
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+Bár ezek nem szigorú követelmények, más kényelmi vagy adatvédelmi tényezőket is figyelembe vettünk, amikor eldöntöttük, mely szolgáltatókat ajánljuk.
