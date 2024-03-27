@@ -14,7 +14,7 @@ cover: photo-management.webp
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+**ente**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 其客戶端和伺服器端的程式碼都完全開源。 它可以 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting). 它分別於2023 年3 月接受了[Cure53](https://ente.io/blog/cryptography-audit) 和 2023 年 4 月[Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf)審核。
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -69,7 +69,7 @@ cover: photo-management.webp
 
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** 是一個管理照片的自架平台。 It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). 它不包括 E2EE，因此最好將其託管在信任且能控制的伺服器上。
+**PhotoPrism** 是一個管理照片的自架平台。 支援相簿同步和共享以及各種其他[功能](https://photoprism.app/features)。 它不包括 E2EE，因此最好將其託管在信任且能控制的伺服器上。
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }

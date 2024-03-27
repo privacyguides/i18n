@@ -1,14 +1,14 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "保護您的隱私和安全的最佳密碼管理器 - Privacy Guides"
 title: "密碼管理器。"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: 密碼管理器可以安全地存儲和管理密碼和其他憑證。
 cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": 網頁
-    name: Password Manager Recommendations
+    name: 密碼管理器建議
     url: "./"
   - 
     "@context": http://schema.org
@@ -183,14 +183,14 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** 是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
+**1Password** 是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
 [:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -325,7 +325,7 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** 是 iOS 和 macOS 原生開源密碼管理器。 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** 是 iOS 和 macOS 原生開源密碼管理器。 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 通過採用 [免費增值模式](https://strongboxsafe.com/pricing/) ， Strongbox 免費會員等級提供了大多數功能，而更方便的 [功能](https://strongboxsafe.com/comparison/) -例如生物識別驗證-則必須在訂閱或購買永久授權之後才能享受。
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
@@ -342,7 +342,7 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 </div>
 
-Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). 這個版本被剝離許多特色，以試圖減少攻擊面。
+此外，還提供離線版本：[Strongbox Zero](https://apps.apple.com/app/id1581589638)。 這個版本被剝離許多特色，以試圖減少攻擊面。
 
 ### 命令行
 

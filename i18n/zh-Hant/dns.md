@@ -54,7 +54,7 @@ Android 9 以上版本支持 DoT (DNS over TLS)。 設定方式可以在以下�
 
 #### 已簽署的設定檔
 
-Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profile creator](https://dns.notjakob.com/tool.html) 是一款非正式工具用以建立您自己的加密 DNS 設定檔。不過這個軟體並未得到簽署。 最好是簽署過個人資設定檔；簽署會驗證個人資料的來源，並有助於確保個人資料的完整性。 綠色的「已驗證」標籤會提供給已簽署的配置文件。 代碼簽名的詳細資訊，請參閱 [關於代碼簽名](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)。 **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://quad9.net/news/blog/ios-mobile-provisioning-profiles).
+Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profile creator](https://dns.notjakob.com/tool.html) 是一款非正式工具用以建立您自己的加密 DNS 設定檔。不過這個軟體並未得到簽署。 最好是簽署過個人資設定檔；簽署會驗證個人資料的來源，並有助於確保個人資料的完整性。 綠色的「已驗證」標籤會提供給已簽署的配置文件。 代碼簽名的詳細資訊，請參閱 [關於代碼簽名](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)。 **簽署過的設定資料**是由 [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io)與 [Quad9](https://quad9.net/news/blog/ios-mobile-provisioning-profiles)所提供。
 
 <div class="admonition info" markdown>
 <p class="admonition-title">資訊</p>
@@ -100,7 +100,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 **dnscrypt-proxy** 是 DNS 代理，支持 [DNSCrypt](advanced/dns-overview.md#dnscrypt)、 [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)和[Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS)。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
+<p class="admonition-title">匿名 DNS 功能<a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>不會</strong></a>對其他網路流量作匿名化。</p>
 </div>
 
 [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
@@ -166,5 +166,5 @@ Pi-hole 設計應用在 Raspberry Pi ，但它不限於這種硬體。 該軟體
 [^2]: Cloudflare 僅收集並儲存發送至  1.1.1.1解析器的有限 DNS 查詢資料。 1.1.1.1解析器服務不會記錄個人資料，且大部分有限的非個人識別查詢資料僅存儲25小時。 [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D 只有記錄使用自定義 DNS 配置的高級解析器。 免費解析器不記錄數據。 [https://controld.com/privacy](https://controld.com/privacy)
 [^4]: Mullvad 的 DNS 服務可供 Mullvad VPN 的訂閱者和非訂閱者使用。 他們的隱私政策明確聲稱他們不會以任何方式記錄 DNS 請求。 [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
-[^5]: When used with an account, NextDNS will enable insights and logging features by default (as some features require it). You can choose retention time and log storage location for any logs you choose to keep, or disable logs altogether. If used without an account, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
+[^5]: 與帳戶一起使用時，NextDNS 將預設啟用洞察和日誌記錄功能（因為某些功能需求）。 可選擇保留日誌的存留時間和儲存位置，或完全停用日誌。 如果沒有使用帳戶，則不會記錄任何資料。 [https://nextdns.io/privacy](https://nextdns.io/privacy)
 [^6]: Quad9會收集一些資料，以進行威脅監控和回應。 然後這些資料會被重新混合與共享，例如用於安全研究。 Quad9 不會收集或記錄 IP 位址或其他他們認為可識別個人身份的資料。 [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

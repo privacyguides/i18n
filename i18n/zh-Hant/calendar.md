@@ -13,7 +13,7 @@ cover: calendar.webp
 
 ![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
 
-**Tuta** 在其支援平台上提供免費加密的行事曆。 Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** 在其支援平台上提供免費加密的行事曆。 功能包括：所有資料自動 E2EEZ、共享、匯入/匯出、多因素驗證[等等](https://tuta.com/calendar-app-comparison/)。
 
 多個行事曆和擴展共享功能僅限於付費訂閱者。
 

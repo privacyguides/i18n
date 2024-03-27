@@ -1,8 +1,8 @@
 ---
-meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
-title: "Data and Metadata Redaction"
+meta_title: "使用中繼資料洗滌器和數據編輯工具移除個人識別資料 - Privacy Guides"
+title: "資料和中繼資料處理"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: 使用這些工具來移除所分享的相片和文件中的GPS定位和其他識別資訊等中繼資料。
 cover: data-redaction.webp
 ---
 
@@ -158,7 +158,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 </div>
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Deleting data from a directory of files</p>
+<p class="admonition-title">從檔案目錄中刪除資料</p>
 
 ```bash
 exiftool -all= *.file_extension

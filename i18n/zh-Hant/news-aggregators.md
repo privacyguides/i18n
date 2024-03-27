@@ -190,7 +190,7 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 <div class="admonition example" markdown>
 <p class="admonition-title">Example "例子"</p>
 
-欲透過 RSS 軟體訂閱 YouTube 頻，首先檢查該頻道的 [頻道代號](https://support.google.com/youtube/answer/6180214). 頻道代號可在其"關於"頁面找到，請到: **關於** > **分享** > **複製頻道 ID**. Replace `[CHANNEL ID]` below:
+欲透過 RSS 軟體訂閱 YouTube 頻，首先檢查該頻道的 [頻道代號](https://support.google.com/youtube/answer/6180214). 頻道代號可在其"關於"頁面找到，請到: **關於** > **分享** > **複製頻道 ID**. 替換下方的 `[CHANNEL ID]`:
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

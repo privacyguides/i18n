@@ -146,7 +146,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** 是個人資訊管理應用程式，提供綜合郵件、行事曆和聯絡簿功能。 Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
+**Evolution** 是個人資訊管理應用程式，提供綜合郵件、行事曆和聯絡簿功能。 Evolution有豐富的 [文件](https://help.gnome.org/users/evolution/stable/)來協助入手。
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }

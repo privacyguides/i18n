@@ -9,7 +9,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬件和軟件工具。 我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。 它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+如果您需要協助，為您的需求找出最佳的隱私工具和替代方案，請在我們的 [論壇](https://discuss.privacyguides.net) 或 [matrix](https://matrix.to/#/#privacyguides:matrix.org) 社區開始討論！
 
 有關每個項目的詳細資訊，為什麼選擇它們，以及我們推薦的其他提示或技巧，請點擊每個部分中的“了解更多”連結，或點擊推薦本身以轉到頁面的特定部分。
 
@@ -89,7 +89,7 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 #### DNS 提供者
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. 建議您在選擇供應商之前先閱讀我們有關 DNS 的頁面。 在許多情況下，不建議使用替代 DNS 提供商。
+我們根據各種標準[推薦](dns.md#recommulated-providers)一些加密的 DNS 伺服器，例如[Mullvad](https://mulvad.net/en/ help/dns- over-https-and-dns-over-tls) 和[Quad9](https://quad9.net) 等。 建議您在選擇供應商之前先閱讀我們有關 DNS 的頁面。 在許多情況下，不建議使用替代 DNS 提供商。
 
 [了解更多 :material-arrow-right-drop-circle:](dns.md)
 
@@ -202,11 +202,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <details class="danger" markdown>
 <summary>VPN 不提供匿名性。</summary>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+使用 VPN **不會** 讓您的瀏覽習慣匿名，也不會為不安全（ HTTP ）流量增加額外的安全性。
 
-If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+如果追求的是**匿名性**，應該使用 Tor 瀏覽器**取代** VPN。
 
-If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN不能取代良好的安全措施。
+如果需要額外的 **安全性** ，應該確保一直使用 HTTPS 連接到網站。 VPN不能取代良好的安全措施。
 
 [了解更多 :material-arrow-right-drop-circle:](vpn.md)
 
@@ -245,7 +245,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 [了解更多 :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Data and Metadata Redaction
+### 資料和中繼資料處理
 
 <div class="grid cards" markdown>
 
@@ -280,9 +280,9 @@ If you're looking for added **security**, you should always ensure you're connec
 ### 加密軟體
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>作業系統磁碟加密</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
+若要加密作業系統磁碟，通常建議使用作業系統提供的加密工具，無論是 Windows 的 **BitLocker**、macOS**FileVault** 或 Linux **LUKS**。 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
 
 [了解更多 :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
@@ -487,7 +487,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 ## 進階工具
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+這些工具可能對某些人很實用。 它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
 
 ### 設備完整性驗證
 

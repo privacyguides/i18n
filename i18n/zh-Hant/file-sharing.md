@@ -15,7 +15,7 @@ cover: file-sharing.webp
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** 是分支自 Mozilla 已停止的 Firefox Send服務，它允許您使用鏈接將檔案發送給其他人。 檔案在您的裝置上已加密，因此無法被伺服器讀取，並且它們也可以選擇受密碼保護。 The maintainer of Send hosts a [public instance](https://send.vis.ee). 你可以利用其他公開實例，也可以自行託管 Send。
+**Send** 是分支自 Mozilla 已停止的 Firefox Send服務，它允許您使用鏈接將檔案發送給其他人。 檔案在您的裝置上已加密，因此無法被伺服器讀取，並且它們也可以選擇受密碼保護。 Send 維護者託管 [公共實例](https://send.vis.ee)。 你可以利用其他公開實例，也可以自行託管 Send。
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -140,7 +140,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 [:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads: "下載"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
 - [:simple-windows11: Windows](https://syncthing.net/downloads)

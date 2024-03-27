@@ -188,7 +188,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 ![PhotoPrism logo](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** 是一個管理照片的自架平台。 It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). 它不包括 E2EE，因此最好將其託管在信任且能控制的伺服器上。
+**PhotoPrism** 是一個管理照片的自架平台。 支援相簿同步和共享以及各種其他[功能](https://photoprism.app/features)。 它不包括 E2EE，因此最好將其託管在信任且能控制的伺服器上。
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
