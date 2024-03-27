@@ -35,10 +35,10 @@ Puedes consultar [ la tabla de hardware](https://openwrt.org/toh/start) de OpenW
 
 **OPNsense** es una plataforma de enrutamiento y cortafuegos de código abierto basada en FreeBSD que incorpora muchas características avanzadas, como la conformación del tráfico, el equilibrio de carga y las capacidades de VPN, con muchas más características disponibles en forma de plugins. OPNsense se implementa habitualmente como cortafuegos perimetral, router, punto de acceso inalámbrico, servidor DHCP, servidor DNS y punto final VPN.
 
-[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribuir }
 
 </details>
 

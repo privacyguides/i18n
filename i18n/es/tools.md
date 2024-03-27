@@ -9,7 +9,7 @@ description: Privacy Guides es el sitio web más transparente y fiable para enco
 
 Si está buscando una solución específica para algo, estas son las herramientas de hardware y software que recomendamos en una variedad de categorías. Nuestras herramientas de privacidad recomendadas se eligen principalmente en función de sus características de seguridad, con un énfasis adicional en las herramientas descentralizadas y de código abierto. Son aplicables a una variedad de modelos de amenazas que van desde la protección contra los programas de vigilancia masiva global y la evasión de las grandes empresas tecnológicas hasta la mitigación de ataques, pero solo usted puede determinar lo que funcionará mejor según sus necesidades.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+¡Si necesita ayuda para averiguar cuáles son las mejores herramientas de privacidad y programas alternativos para sus necesidades, inicie un debate en nuestro [foro](https://discuss.privacyguides.net) o en nuestra comunidad [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
 
 Para obtener más información sobre cada proyecto, por qué han sido elegidos y otros consejos o trucos que recomendamos, haga clic en el enlace "Más información" de cada sección o en la propia recomendación para acceder a la sección correspondiente de la página.
 
@@ -89,7 +89,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 #### Proveedores de DNS
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. Recomendamos que leas nuestras páginas sobre DNS antes de elegir un proveedor. En muchos casos no se recomienda utilizar un proveedor de DNS alternativo.
+[Recomendamos](dns.md#recommended-providers) una serie de servidores DNS cifrados en función de diversos criterios, como [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) y [Quad9](https://quad9.net), entre otros. Recomendamos que leas nuestras páginas sobre DNS antes de elegir un proveedor. En muchos casos no se recomienda utilizar un proveedor de DNS alternativo.
 
 [Más información :material-arrow-right-drop-circle:](dns.md)
 
@@ -202,11 +202,11 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <details class="danger" markdown>
 <summary>Las VPN no proporcionan anonimato</summary>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+Utilizar una VPN **no** mantendrá sus hábitos de navegación en el anonimato, ni añadirá seguridad adicional al tráfico no seguro (HTTP).
 
-If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+Si busca **anonimato**, debería usar el Navegador Tor **en lugar** de una VPN.
 
-If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
+Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que utilicen HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
 
 [Más información :material-arrow-right-drop-circle:](vpn.md)
 
@@ -280,9 +280,9 @@ If you're looking for added **security**, you should always ensure you're connec
 ### Software de Cifrado
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Cifrado de Disco del Sistema Operativo</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Estas herramientas están incluidas en el sistema operativo y suelen utilizar elementos de cifrado por hardware, como un TPM, que otros programas de cifrado de disco completo, como VeraCrypt, no utilizan. VeraCrypt sigue siendo adecuado para los discos que no son del sistema operativo, como las unidades externas, especialmente las unidades a las que se puede acceder desde varios sistemas operativos.
+Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar cualquier herramienta de cifrado que proporcione su sistema operativo, ya sea **BitLocker** en Windows, **FileVault** en macOS o **LUKS** en Linux. Estas herramientas están incluidas en el sistema operativo y suelen utilizar elementos de cifrado por hardware, como un TPM, que otros programas de cifrado de disco completo, como VeraCrypt, no utilizan. VeraCrypt sigue siendo adecuado para los discos que no son del sistema operativo, como las unidades externas, especialmente las unidades a las que se puede acceder desde varios sistemas operativos.
 
 [Más información :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
@@ -487,7 +487,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 ## Herramientas Avanzadas
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+Estas herramientas pueden ser útiles para determinadas personas. Proporcionan funcionalidades de las que la mayoría de la gente no necesita preocuparse, y a menudo requieren conocimientos técnicos más profundos para utilizarlas con eficacia.
 
 ### Verificación de Integridad del Dispositivo
 
