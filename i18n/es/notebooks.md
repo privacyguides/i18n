@@ -19,11 +19,11 @@ Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft O
 
 **Standard Notes** es una aplicación de notas simple y privada que hace que tus notas sean fáciles y estén disponibles dondequiera que estés. Ofrece E2EE en todas las plataformas y una potente experiencia de escritorio con temas y editores personalizados. Además ha sido [auditada de forma independiente](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
 
-[:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://standardnotes.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -46,7 +46,7 @@ Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft O
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. Ofrece cifrado de extremo a extremo en todas las plataformas con una potente sincronización para tomar tus notas sobre la marcha. Puedes importar fácilmente tus notas desde Evernote, OneNote y muchas otras aplicaciones utilizando su [importador oficial](https://importer.notesnook.com).
+**Notesnook** es una aplicación gratuita y de código abierto para tomar notas, centrada en la privacidad del usuario y la facilidad de uso. Ofrece cifrado de extremo a extremo en todas las plataformas con una potente sincronización para tomar tus notas sobre la marcha. Puedes importar fácilmente tus notas desde Evernote, OneNote y muchas otras aplicaciones utilizando su [importador oficial](https://importer.notesnook.com).
 
 [:octicons-home-16: Página Principal](https://notesnook.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Politica de Privacidad" }
