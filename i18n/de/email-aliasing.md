@@ -1,5 +1,5 @@
 ---
-title: Email Aliasing
+title: E-Mail-Aliasing
 icon: material/email-lock
 description: An email aliasing service allows you to easily generate a new email address for every website you register for.
 cover: email-aliasing.webp
@@ -59,13 +59,13 @@ Using an aliasing service requires trusting both your email provider and your al
 
 The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
-Notable free features:
+Bemerkenswerte kostenlose Funktionen:
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Standard Aliases
-- [ ] No Outgoing Replies
-- [x] 1 Recipient Mailbox
-- [x] Automatic PGP Encryption
+- [x] 10 Gemeinsame Aliasnamen
+- [x] Unbegrenzte Standard-Aliasnamen
+- [ ] Keine ausgehenden Antworten
+- [x] 1 Empfänger-Mailbox
+- [x] Automatische PGP-Verschlüsselung
 
 ### SimpleLogin
 
@@ -99,11 +99,11 @@ SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simple
 
 You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
 
-Notable free features:
+Bemerkenswerte kostenlose Funktionen:
 
-- [x] 10 Shared Aliases
+- [x] 10 Gemeinsame Aliasnamen
 - [x] Unlimited Replies
-- [x] 1 Recipient Mailbox
+- [x] 1 Empfänger-Mailbox
 - [ ] Automatic PGP Encryption is only available on paid plans
 
 ## Criteria
