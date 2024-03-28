@@ -1,5 +1,5 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
+meta_title: "Titkosított privát e-mail ajánlások – Privacy Guides"
 title: "Email szolgáltatások"
 icon: material/email
 description: Ezek az e-mail szolgáltatók nagyszerű helyet kínálnak az e-mailek biztonságos tárolására, és sokan kínálnak más szolgáltatókkal együttműködő OpenPGP titkosítást.
@@ -8,7 +8,7 @@ cover: email.webp
 
 Az email gyakorlatilag elengedhetetlen bármilyen online szolgáltatás használatához, azonban nem ajánljuk személyes beszélgetésekhez. Ahelyett, hogy e-mailben lépnél kapcsolatba másokkal, fontold meg egy olyan azonnali üzenetküldő használatát, amely támogatja a forward secrecy-t, vagyis szó szerint az előre titkosítást.
 
-[Recommended Instant Messengers](real-time-communication.md ""){.md-button}
+[Ajánlott azonnali üzenetküldők](real-time-communication.md ""){.md-button}
 
 Minden más esetre olyan emailszolgáltatókat ajánlunk, amelyek fenntartható üzleti modelleken és beépített biztonsági, adat- és magánéletvédelmi funkciókon alapulnak.
 
@@ -18,7 +18,7 @@ Minden más esetre olyan emailszolgáltatókat ajánlunk, amelyek fenntartható 
 
 Az itt ajánlott email szolgáltatók mellett (vagy helyett) érdemes megfontolni egy dedikált [e-mail alias szolgáltatást](email-aliasing.md) is a magánélet védelme érdekében. Ezek a szolgáltatások többek között segíthetnek megvédeni a valódi potaládádat a spamektől, megakadályozhatják, hogy a marketingesek összekapcsolják a fiókjaidat, és PGP-vel titkosíthatják az összes bejövő üzenetedet.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [További információ :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP-kompatibilis szolgáltatások
 
@@ -50,7 +50,7 @@ A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titk
 
 [:octicons-home-16: Főoldal](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion szolgáltatás" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Adatvédelem" }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Adatvédelmi tájékoztató" }
 [:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Dokumentáció}
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Forráskód" }
 
@@ -73,41 +73,41 @@ Az ingyenes fiókoknak vannak bizonyos korlátai, például nem tudnak keresni a
 
 Ha Proton Unlimited, Business vagy Visionary csomaggal rendelkezel, a [SimpleLogin](#simplelogin) Premiumot is ingyenesen használhatod.
 
-Proton Mail has internal crash reports that they **do not** share with third parties. Ez kikapcsolható a: **Beállítások** > **Fiók** > **Biztonság és adatvédelem** > **Adatvédelem és adatgyűjtés** > **Hibajelentések küldése**.
+A Proton Mail belső hibajelentéseket készít; ezeket **nem** osztják meg harmadik felekkel. Ez kikapcsolható a: **Beállítások** > **Fiók** > **Biztonság és adatvédelem** > **Adatvédelem és adatgyűjtés** > **Hibajelentések küldése**.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Egyedi domainek és álnevek
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+A fizetős Proton Mail előfizetők saját domain címmel is használhatják a szolgáltatást, vagy egy [gyűjtőcímet](https://proton.me/support/catch-all) hozhatnak létre. A Proton Mail támogatja [az alcímzést](https://proton.me/support/creating-aliases) is, ami hasznos azok számára, akik nem akarnak domaint vásárolni.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Privát fizetési módok
 
-Proton Mail [accepts](https://proton.me/support/payment-options) cash by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+A Proton Mail készpénzt is [elfogad](https://proton.me/support/payment-options) postai úton a szokásos hitelkártyás, [Bitcoin-](advanced/payments.md#other-coins-bitcoin-ethereum-etc) és PayPal-fizetési módok mellett.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Fiók biztonsága
 
-Proton Mail supports TOTP [two factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two factor authentication first.
+A Proton Mail támogatja a TOTP [kétfaktoros hitelesítést](https://proton.me/support/two-factor-authentication-2fa) és a FIDO2 vagy U2F szabványokat használó [hardveres biztonsági kulcsokat](https://proton.me/support/2fa-security-key). A hardveres biztonsági kulcs használatához először a TOTP kétfaktoros hitelesítés beállítása szükséges.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Adatbiztonság
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+A Proton Mail [zéró hozzáférésű titkosítással](https://proton.me/blog/zero-access-encryption) védi az e-maileket és [naptárakat](https://proton.me/news/protoncalendar-security-model). A zéró hozzáférésű titkosítással védett adatokhoz csak Ön férhet hozzá.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+A [Proton Contactsban](https://proton.me/support/proton-contacts) tárolt bizonyos információk, például a megjelenített nevek és e-mail címek nem biztosítottak zéró hozzáférésű titkosítással. A zéró hozzáférésű titkosítást támogató kapcsolati mezők, például a telefonszámok, lakat ikonjával vannak jelölve.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } E-mail titkosítás
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. Proton also supports automatic external key discovery with [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+A Proton Mail [integrálta az OpenPGP titkosítást](https://proton.me/support/how-to-use-pgp) a webmailjébe. A más Proton Mail-fiókokba küldött e-mailek automatikusan titkosítva vannak, és a nem Proton Mail-címekre küldött, OpenPGP-kulccsal rendelkező e-mailek titkosítása egyszerűen engedélyezhető a fiók beállításaiban. A Proton támogatja az automatikus külső kulcskeresést a [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) segítségével. Ez azt jelenti, hogy a WKD-t használó más szolgáltatóknak küldött e-maileket automatikusan az OpenPGP-vel is titkosítja, anélkül, hogy manuálisan kellene nyilvános PGP-kulcsokat cserélnie a kapcsolattartóival. Az [OpenPGP nélkül, nem Proton Mail címekre küldött üzeneteket titkosíthatod](https://proton.me/support/password-protected-emails), anélkül, hogy a címzetteknek Proton Mail fiókot kellene regisztrálniuk.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+A Proton Mail a Proton-fiókok nyilvános kulcsait is közzéteszi HTTP-n keresztül a WKD-ből. Ez lehetővé teszi, hogy a Proton Mailt nem használók is könnyen megtalálják a Proton Mail fiókok OpenPGP-kulcsait a szolgáltatóközi E2EE-hez. Ez csak a Proton saját domainjeire végződő e-mail címekre vonatkozik, mint például a @proton.me. Ha egyéni tartományt használsz, kézzel kell [konfigurálni a WKD-t](./basics/email-security.md#what-is-the-web-key-directory-standard).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period.
+Ha előfizetéssel rendelkezel, de 14 napon túli [fizetetlen számlád](https://proton.me/support/delinquency) van, nem férhetsz hozzá adataidhoz. 30 nap elteltével fiókod fizetésképtelenné válik, és nem fogadja a beérkező leveleket. Ebben az időszakban továbbra is kiszámlázzák a szolgáltatást.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } További funkciók
 
-Proton Mail offers an "Unlimited" account for €9.99/Month, which also enables access to Proton VPN in addition to providing multiple accounts, domains, aliases, and 500GB of storage.
+A Proton Mail "Unlimited" fiókot kínál 9,99 €/hó összegért, amely a Proton VPN-hez való hozzáférést is lehetővé teszi, emellett több fiókot, domaineket, aliasokat és 500 GB tárhelyet biztosít.
 
-Proton Mail doesn't offer a digital legacy feature.
+A Proton Mail nem kínál digitális örökség funkciót.
 
 ### Mailbox.org
 
@@ -115,14 +115,14 @@ Proton Mail doesn't offer a digital legacy feature.
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with 2 GB of storage, which can be upgraded as needed.
+**A **Mailbox.org** egy olyan e-mail szolgáltatás, amelynek középpontjában a biztonság, a reklámmentesség és a 100%-ban környezetbarát energiával működő, magánhálózatról biztosított energia áll. 2014 óta működnek. A Mailbox.org székhelye Berlinben, Németországban található. A fiókok 2 GB tárhellyel indulnak, amely szükség szerint bővíthető.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+[:octicons-home-16: Főoldal](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Adatvédelmi tájékoztató" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Dokumentáció}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Letöltés</summary>
 
 - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -130,45 +130,45 @@ Proton Mail doesn't offer a digital legacy feature.
 
 </div>
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Egyedi domainek és álnevek
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+A Mailbox.org lehetővé teszi a saját domain használatáz, és támogatja a [gyűjtőcímeket](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). A Mailbox.org támogatja az [alcímzést](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it) is, ami akkor hasznos, ha nem szeretne domain-t vásárolni.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Privát fizetési módok
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept Cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+A Mailbox.org nem fogad el semmilyen kriptovalutát, mivel a fizetési szolgáltatójuk, a BitPay felfüggesztette működését Németországban. Elfogadják azonban a postai készpénzt, a bankszámlára történő készpénzfizetést, a banki átutalást, a hitelkártyát, a PayPal-t és néhány Németországban elérhető feldolgozót, mint a paydirekt és a Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Fiók biztonsága
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) are not yet supported.
+A Mailbox.org csak a webmail esetében támogatja a [kétfaktoros hitelesítést](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa). A TOTP vagy a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) a [YubiCloudon](https://yubico.com/products/services-software/yubicloud) keresztül használható. Az olyan webes szabványok, mint a [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), még nem támogatottak.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } Adatbiztonság
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). New messages that you receive will then be immediately encrypted with your public key.
+A Mailbox.org lehetővé teszi a bejövő levelek titkosítását a [titkosított postafiók](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox) segítségével. A kapott új üzeneteket ezután azonnal titkosítja a nyilvános kulcsával.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that information.
+A Mailbox.org által használt szoftverplatform, az [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange) azonban [nem támogatja](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) a címjegyzék és a naptár titkosítását. Az ilyen információk tárolásához megfelelőbb lehet egy [önálló alternatíva](calendar.md).
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } E-mail titkosítás
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+A Mailbox.org webmailbe [beépített titkosítást](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) alkalmaz, ami leegyszerűsíti az üzenetek küldését nyilvános OpenPGP-kulcsokkal rendelkező személyeknek. Lehetővé teszik továbbá, hogy a [távoli címzettek visszafejtsenek egy e-mailt](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) a Mailbox.org szerverein. Ez a funkció akkor hasznos, ha a távoli címzett nem rendelkezik OpenPGP-vel, és nem tudja visszafejteni az e-mail másolatát a saját postafiókjában.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily, for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+A Mailbox.org támogatja a nyilvános kulcsok HTTP-n keresztüli keresését is a [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) segítségével. Ez lehetővé teszi, hogy a Mailbox.org-ot nem használók is könnyen megtalálják a Mailbox.org fiókok OpenPGP-kulcsait a szolgáltatóközi végponttól-végpontig terjedő titkosításhoz. Ez csak a Mailbox.org saját domainjeire végződő e-mail címekre vonatkozik, mint például a @mailbox.org. Ha egyéni tartományt használsz, kézzel kell [konfigurálni a WKD-t](./basics/email-security.md#what-is-the-web-key-directory-standard).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+A szerződés lejártakor a diók korlátozottá válik, [30 nap](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract) elteltével pedig [visszavonhatatlanul törlődik](https://kb.mailbox. org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } További funkciók
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service and you may experience TLS certificate errors.
+A Mailbox.org fiók a [.onion szolgáltatásuk](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org) segítségével IMAP/SMTP-n keresztül is elérhető. A webmail felületük azonban nem érhető el a .onion szolgáltatásukon keresztül, és előfordulhat, hogy TLS-tanúsítvány hibák jelennek meg.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Minden fiókhoz korlátozott felhőalapú tárhely tartozik, amely [titkosítható](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). A mailbox.org kínálja a [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely) aliast is, amely érvényesíti a TLS titkosítást a levelezőszerverek közötti kapcsolaton, ennek hiányában az üzenet egyáltalán nem lesz elküldve. A Mailbox.org támogatja az [Exchange ActiveSync-et](https://en.wikipedia.org/wiki/Exchange_ActiveSync) is a szabványos hozzáférési protokollok, például az IMAP és a POP3 mellett.
 
-Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+A Mailbox.org minden előfizetési csomagban rendelkezik digitális örökség funkcióval. Elnöntheted, hogy szeretnéd-e, hogy adataid bármelyik örökösre szálljanak, feltéve, hogy ezt kérelmezed és végrendelkezésben rögzíted. Alternatívaként nevet és címet is megadhatsz egy személynek.
 
-## More Providers
+## További szolgáltatók
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-maileket, így kiválóan alkalmasak a tárolt e-mailek biztonságban tartására. Nem támogatják azonban a különböző szolgáltatók közötti E2EE-kommunikáció interoperábilis titkosítási szabványait.
 
 <div class="grid cards" markdown>
 
@@ -182,16 +182,16 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a biztonságra és az adatvédelemre összpontosít. A Tuta **2011** óta működik, székhelye Hannoverben, Németországban található. A fiókok 1GB induló tárhellyel kezdődnek a ingyenes csomagban.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-home-16: Főoldal](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Adatvédelmi tájékoztató" }
+[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Dokumentáció}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Forráskód" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Hozzájárulás}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Letöltés</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -205,37 +205,37 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+A Tuta nem támogatja az [IMAP protokollt](https://tuta.com/faq/#imap) vagy a harmadik féltől származó [e-mail kliensek](email-clients.md) használatát, és [külső e-mail fiókokat](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) sem tud hozzáadni a Tuta alkalmazáshoz. Az [e-mail import](https://github.com/tutao/tutanota/issues/630) jelenleg szintén nem támogatott, bár ez [hamarosan megváltozik](https://tuta.com/blog/posts/kickoff-import). Az e-mailek [egyenként vagy](https://tuta.com/howto#generalMail) mappánként [tömeges kiválasztással](https://tuta.com/howto#generalMail) exportálhatók, ami kényelmetlen lehet, ha sok mappája van.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Egyedi domainek és álnevek
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+A fizetős Tuta-fiókok 15 vagy 30 álnevet használhatnak a csomagtól függően, valamint korlátlan számú álnevet [egyéni domaineken](https://tuta.com/faq#custom-domain). A Tuta nem teszi lehetővé az [alcímzést (plusz címek)](https://tuta.com/faq#plus), de használhatsz egy [gyűjtőcímet](https://tuta.com/howto#settings-global) egy egyéni domainnel.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } Privát fizetési módok
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
+A Tuta közvetlenül csak hitelkártyákat és PayPal-t fogad el, azonban a [kriptovaluta](cryptocurrency.md) a Proxystore-ral való [partnerségen](https://tuta.com/faq/#cryptocurrency) keresztül ajándékkártyák vásárlására is használható.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Fiók biztonsága
 
-Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
+A Tuta támogatja a [kétfaktoros hitelesítést](https://tuta.com/faq#2fa) TOTP és U2F segítségével.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Adatbiztonság
 
-Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). This means the messages and other data stored in your account are only readable by you.
+A Tuta [alapértelmezett zéró hozzáférésű titkosítást biztosít](https://tuta.com/faq#what-encrypted) az e-mailekre, a [címjegyzékben szereplő kapcsolatokra](https://tuta.com/faq#encrypted-address-book) és a [naptárakra](https://tuta.com/faq#calendar). Ez azt jelenti, hogy a fiókodban tárolt üzeneteket és egyéb adatokhoz kizárólag te férhetsz hozzá.
 
 #### :material-information-outline:{ .pg-blue } Email Encryption
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+A Tuta [nem használja az OpenPGP-t](https://tuta.com/support/#pgp). A Tuta fiókok csak akkor fogadhatnak titkosított e-maileket nem Tuta e-mail fiókokból, ha azokat egy [ideiglenes Tuta postafiókon](https://tuta.com/support/#encrypted-email-external) keresztül küldik.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
-Tuta will [delete inactive free accounts](https://tuta.com/faq#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+A Tuta hat hónap elteltével [törli az inaktív ingyenes fiókokat](https://tuta.com/faq#inactive-accounts). Egy deaktivált ingyenes fiókot újra felhasználhatsz, ha fizetsz érte.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } További funkciók
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+A Tuta az üzleti verzióját [nonprofit szervezetek számára](https://tuta.com/blog/posts/secure-email-for-non-profit) ingyenesen vagy jelentős kedvezménnyel kínálja.
 
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+A Tuta rendelkezik egy [Secure Connect](https://tuta.com/secure-connect) nevű üzleti funkcióval is. This ensures customer contact to the business uses E2EE. The feature costs €240/y.
 
 Tuta doesn't offer a digital legacy feature.
 
