@@ -45,7 +45,7 @@ Cryptomator 使用 AES-256 加密來加密檔案和檔案名稱。 Cryptomator �
 
 一些 Cryptomator 加密程式庫 [已被Cure53審核](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) 。 稽核程式庫的範圍包括： [cryptolib](https://github.com/cryptomator/cryptolib)、 [cryptofs](https://github.com/cryptomator/cryptofs)、 [siv-mode](https://github.com/cryptomator/siv-mode) 和 [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor)。 審計並未包含[cryptolib-swift](https://github.com/cryptomator/cryptolib-swift)它是 Cryptomator 運用在 iOS 程式庫。
 
-Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.
+Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptomator.org/en/latest/security/security-target)，[安全架構](https:/ /docs.cryptomator.org/en/latest/security/architecture)和[最佳實踐](https://docs.cryptomator.org/en/latest/security/best-practices) 以供更詳細的使用。
 
 ### Picocrypt (檔案)
 
@@ -85,7 +85,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-windows11: Windows](https://veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://veracrypt.fr/en/Downloads.html)
@@ -114,7 +114,7 @@ VeraCrypt< /a> ，因為它們提供了額外的靈活性避免供應商鎖定�
 
 ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
+**BitLocker** 是 Microsoft Windows 捆綁的全磁區加密解決方案。 我們推薦利用它加密開機設備，因為其[使用 TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). 鑑證公司 ElcomSoft 曾撰寫過此功能的相關介紹 [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title=Documentation}
 
@@ -122,7 +122,7 @@ VeraCrypt< /a> ，因為它們提供了額外的靈活性避免供應商鎖定�
 
 </div>
 
-BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. 它可以在家庭版上啓用，只要符合先決條件。
+BitLocker [僅支援](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838)專業版、企業版和教育版Windows 版本。 它可以在家庭版上啓用，只要符合先決條件。
 
 <details class="example" markdown>
 <summary>Windows Home上啓用BitLocker</summary>
@@ -145,7 +145,7 @@ BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-devi
    ```
 
 
-3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). 重新啟動時需要在 Windows 啟動前按下F8 鍵，然後進入 *命令提示符* in **疑難排解** → **進階選項** → **命令提示符**。
+3. 造訪[進階啟動選項](https://support.microsoft.com/windows/advanced-startup-options-include-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617)。 重新啟動時需要在 Windows 啟動前按下F8 鍵，然後進入 *命令提示符* in **疑難排解** → **進階選項** → **命令提示符**。
 
 4. 使用管理員帳戶登入並在命令提示符中輸入指令以開始加密： 
    
@@ -258,7 +258,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
 
-**Kryptor** 是一個免費的開源文件加密和簽名工具，利用現代安全的加密算法。 It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
+**Kryptor** 是一個免費的開源文件加密和簽名工具，利用現代安全的加密算法。 它旨在成為更好版本的 [age](https://github.com/FiloSottile/age)和 [Minisign](https://jedisct1.github.io/minisign/)，提供一個簡單，更容易的 GPG 替代品。
 
 [:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
@@ -298,12 +298,12 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件。 PGP具有許多功能，但也有爭議 [複數](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) ，因為它已經存在了很長時間。 對於簽署或加密檔案等任務，我們建議您使用上述選項。
 
-使用 PGP 加密時，您可以選擇在 `gpg.conf` 檔案中設定不同的選項。 We recommend staying with the standard options specified in the [GnuPG user FAQ](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
+使用 PGP 加密時，您可以選擇在 `gpg.conf` 檔案中設定不同的選項。 我們建議您繼續使用 [ GnuPG 用戶常見問題集](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf)中指定的標準選項。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">在生成金鑰時使用未來的預設值</p>
 
-When [generating keys](https://gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to):
+當[產生金鑰](https://gnupg.org/gph/en/manual/c14.html)時，建議使用`future-default` 指令，它將指示GnuPG 使用現代密碼學，例如[Curve25519](https: //en.wikipedia.org/wiki/Curve25519#History) 與 [Ed25519](https://ed25519.cr.yp.to):
 
 ```bash
 gpg --quick-gen-key alice@example.com future-default
@@ -317,7 +317,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
 
-**GnuPG** 是 GPL授權的加密軟體 PGP 替代品。 GnuPG 符合 [RFC 4880](https://tools.ietf.org/html/rfc4880) ，這是目前 OpenPGP 的 IETF 規範。 The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG 是自由軟體基金會GNU 軟體項目的一部分，並已收到德國政府的重大 [資助](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)。
+**GnuPG** 是 GPL授權的加密軟體 PGP 替代品。 GnuPG 符合 [RFC 4880](https://tools.ietf.org/html/rfc4880) ，這是目前 OpenPGP 的 IETF 規範。 GnuPG 專案一直致力於 [更新](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh/) ，試圖現代化OpenPGP。 GnuPG 是自由軟體基金會GNU 軟體項目的一部分，並已收到德國政府的重大 [資助](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html)。
 
 [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
@@ -396,7 +396,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** 是 GnuPG 的Android 實作。 郵件客戶端通常需要它，例如 [K-9 Mail](email-clients.md#k-9-mail) 和 [FairEmail](email-clients.md#fairemail) 以及其他 Android 應用程序提供加密支持。 Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
+**OpenKeychain** 是 GnuPG 的Android 實作。 郵件客戶端通常需要它，例如 [K-9 Mail](email-clients.md#k-9-mail) 和 [FairEmail](email-clients.md#fairemail) 以及其他 Android 應用程序提供加密支持。 Cure53 於2015年10月完成了 OpenKeychain 3.6 的 [安全審核](https://openkeychain.org/openkeychain-3-6)。 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
