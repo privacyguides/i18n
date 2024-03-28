@@ -37,13 +37,13 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 
 ![addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+**addy.io** te permite crear 10 alias de dominio en un dominio compartido de forma gratuita, o alias "estándar" ilimitados, que son menos anónimos.
 
-[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -57,15 +57,15 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 
 </div>
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de 1$/mes e ilimitado en el plan de 4$/mes (facturado en 3$ por un año). Puedes crear alias estándar ilimitados (terminan en un dominio como @[nombredeusuario].addy.io o en un dominio personalizado en los planes de pago), sin embargo, como se ha mencionado previamente, esto puede ser perjudicial para la privacidad porque las personas pueden relacionar trivialmente tus alias estándar, basándose únicamente en el nombre de dominio. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [auditó](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io en septiembre de 2023 y no [se identificaron] vulnerabilidades significativas(https\://addy.io/addy-io-security-audit.pdf).
 
-Notable free features:
+Funciones gratuitas destacables:
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Standard Aliases
-- [ ] No Outgoing Replies
-- [x] 1 Recipient Mailbox
-- [x] Automatic PGP Encryption
+- [x] 10 Alias Compartidos
+- [x] Alias Estándar Ilimitados
+- [ ] No Hay Respuestas Salientes
+- [x] 1 Buzón de Destinatario
+- [x] Cifrado PGP automático
 
 ### SimpleLogin
 
@@ -73,12 +73,12 @@ Notable free features:
 
 ![Simplelogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
 
-**SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
+**SimpleLogin** es un servicio gratuito que proporciona alias de correo electrónico en una variedad de nombres de dominio compartidos y, opcionalmente, ofrece funciones de pago como alias ilimitados y dominios personalizados.
 
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://simplelogin.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -95,19 +95,19 @@ Notable free features:
 
 </div>
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin fue [adquirido por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) el 8 de abril de 2022. Si utilizas Proton Mail para tu buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tienes que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de tu elección. Securitum [auditó](https://simplelogin.io/blog/security-audit) SimpleLogin a principios de 2022 y todos los problemas [se solucionaron](https://simplelogin.io/audit2022/web.pdf).
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
+Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. Si tienes el plan Proton Unlimited, Business o Visionary, tendrás SimpleLogin Premium gratis.
 
-Notable free features:
+Funciones gratuitas destacables:
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Replies
-- [x] 1 Recipient Mailbox
-- [ ] Automatic PGP Encryption is only available on paid plans
+- [x] 10 Alias Compartidos
+- [x] Respuestas Ilimitadas
+- [x] 1 Buzón de Destinatario
+- [ ] El cifrado PGP automático solo está disponible en los planes de pago
 
 ## Criterios
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we evaluate email aliasing providers to the same standard as our regular [email provider criteria](email.md#criteria) where applicable. We suggest you familiarize yourself with this list before choosing an email service, and conduct your own research to ensure the provider you choose is the right choice for you.
+**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proveedores que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), evaluamos los proveedores de correo electrónico con el mismo estándar que nuestros [criterios de proveedor de correo electrónico](email.md#criteria) donde corresponda. Sugerimos que te familiarices con esta lista antes de decidir utilizar un servicio de correo electrónico y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-\*[Automatic PGP Encryption]: Allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.
+\*[Cifrado PGP Automático]: Te permite cifrar los correos electrónicos entrantes no cifrados antes de que se reenvíen a tu buzón, asegurándote de que tu proveedor de buzón principal nunca vea contenido de correo electrónico no cifrado.
