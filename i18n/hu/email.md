@@ -223,7 +223,7 @@ A Tuta támogatja a [kétfaktoros hitelesítést](https://tuta.com/faq#2fa) TOTP
 
 A Tuta [alapértelmezett zéró hozzáférésű titkosítást biztosít](https://tuta.com/faq#what-encrypted) az e-mailekre, a [címjegyzékben szereplő kapcsolatokra](https://tuta.com/faq#encrypted-address-book) és a [naptárakra](https://tuta.com/faq#calendar). Ez azt jelenti, hogy a fiókodban tárolt üzeneteket és egyéb adatokhoz kizárólag te férhetsz hozzá.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } E-mail titkosítás
 
 A Tuta [nem használja az OpenPGP-t](https://tuta.com/support/#pgp). A Tuta fiókok csak akkor fogadhatnak titkosított e-maileket nem Tuta e-mail fiókokból, ha azokat egy [ideiglenes Tuta postafiókon](https://tuta.com/support/#encrypted-email-external) keresztül küldik.
 
@@ -235,26 +235,26 @@ A Tuta hat hónap elteltével [törli az inaktív ingyenes fiókokat](https://tu
 
 A Tuta az üzleti verzióját [nonprofit szervezetek számára](https://tuta.com/blog/posts/secure-email-for-non-profit) ingyenesen vagy jelentős kedvezménnyel kínálja.
 
-A Tuta rendelkezik egy [Secure Connect](https://tuta.com/secure-connect) nevű üzleti funkcióval is. This ensures customer contact to the business uses E2EE. The feature costs €240/y.
+A Tuta rendelkezik egy [Secure Connect](https://tuta.com/secure-connect) nevű üzleti funkcióval is. Ez biztosítja, hogy az ügyfélkapcsolat a végponttól-végpontig titkosított csatornákat használja. A funkció ára 240€/év.
 
-Tuta doesn't offer a digital legacy feature.
+A Tuta nem kínál digitális örökség funkciót.
 
-## Saját Üzemeltetésű Email
+## Saját üzemeltetésű email
 
-Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.
+A haladó rendszergazdák fontolóra vehetik saját e-mail szerver felállítását. A levelezőszerverek figyelmet és folyamatos karbantartást igényelnek a biztonság és a megbízható levélkézbesítés fenntartása érdekében.
 
-### Combined software solutions
+### Kombinált szoftvermegoldások
 
 <div class="admonition recommendation" markdown>
 
 ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+A **Mailcow** egy fejlettebb levelezőszerver, amely tökéletes azok számára, akik kicsit több Linux-tapasztalattal rendelkeznek. Mindent tartalmaz, amire egy Docker konténerben szükséged van: DKIM-támogatással rendelkező levelezőszerver, vírusirtó és spamfigyelés, webmail és ActiveSync a SOGo-val, valamint webalapú adminisztráció 2FA-támogatással.
 
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+[:octicons-home-16: Honlap](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Dokumentáció}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Forráskód" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Támogatás}
 
 </div>
 
@@ -262,44 +262,44 @@ Advanced system administrators may consider setting up their own email server. M
 
 ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
 
-**Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+A **Mail-in-a-Box** egy automatizált beállítási szkript egy levelezőszerver telepítéséhez Ubuntun. Célja, hogy megkönnyítse az emberek számára saját levelezőszerverük beállítását.
 
-[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+[:octicons-home-16: Honlap](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Dokumentáció}
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Forráskód" }
 
 </div>
 
-For a more manual approach we've picked out these two articles:
+A manuálisabb megközelítéshez ezt a két cikket választottuk ki:
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
+- [Levelezőszerver beállítása OpenSMTPD, Dovecot és Rspamd segítségével](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [Hogyan futtassuk saját levelezőszerverünket](https://c0ffee.net/blog/mail-server-guide) (2017. augusztus)
 
 ## Követelmények
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any Email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an Email provider, and conduct your own research to ensure the Email provider you choose is the right choice for you.
+**Felhívjuk figyelmedet, hogy nem állunk kapcsolatban az általunk ajánlott szolgáltatókkal.** A [alapvető kritériumainkon](about/criteria.md) túlmenően egyértelmű követelményrendszert dolgoztunk ki minden olyan e-mail szolgáltató számára, amelyet ajánlani kívánunk, beleértve az iparági legjobb gyakorlatok alkalmazását, a modern technológiát és egyebeket. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt választasz egy e-mail szolgáltatót, és végezz saját kutatást, hogy megbizonyosodj arról, hogy a választott e-mail szolgáltató a megfelelő választás a számodra.
 
 ### Technológia
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
+Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltatás nyújtása érdekében. Meg kell vizsgálnod, hogy az adott szolgáltató rendelkezik-e az általad igényelt funkciókkal.
 
 **Alap Elvárások Minősítéshez:**
 
-- Encrypts email account data at rest with zero-access encryption.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Operates on owned infrastructure, i.e. not built upon third-party email service providers.
+- Az email fiókok adatai alapértelmezetten zéró hozzáféréssel legyenek titkosítva.
+- Exportálási képesség [Mbox](https://en.wikipedia.org/wiki/Mbox) vagy egyedi .eml formátumban az [RFC5322](https://datatracker.ietf.org/doc/rfc5322) szabványnak megfelelően.
+- Lehetővé teszi a felhasználók számára, hogy saját [domainnevüket](https://en.wikipedia.org/wiki/Domain_name) használják. Az egyéni domain nevek azért fontosak a felhasználók számára, mert lehetővé teszik számukra, hogy megőrizzék a függetlenedési képességüket a szolgáltatástól, ha az rosszra fordulna, vagy ha egy másik vállalat felvásárolná, amely nem helyezi előtérbe az adatvédelmet.
+- Saját infrastruktúrán működik, azaz nem harmadik féltől származó e-mail szolgáltatóra épül.
 
 **Legjobb esetben:**
 
-- Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
-- Integrated webmail E2EE/PGP encryption provided as a convenience.
-- Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
-- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Catch-all or alias functionality for those who own their own domains.
-- Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Zéró hozzáférésű titkosítással titkosítja az összes fiókadatot (névjegyek, naptárak stb.).
+- Integrált webmail E2EE/PGP titkosítás, amely kényelmi funkciót biztosít.
+- A [WKD](https://wiki.gnupg.org/WKD) támogatása a nyilvános OpenPGP kulcsok HTTP-n keresztüli jobb felderítésének lehetővé tételéhez. A GnuPG felhasználók kulcsot szerezhetnek a következő paranccsal: `gpg --locate-key example_user@example.com`
+- Ideiglenes postafiók támogatása külső felhasználók számára. Ez akkor hasznos, ha titkosított e-mailt szeretne küldeni anélkül, hogy a címzettnek tényleges másolatot küldene. Ezek az e-mailek általában korlátozott élettartamúak, majd automatikusan törlődnek. A címzettnek nem kell semmilyen titkosítást konfigurálnia, mint az OpenPGP esetében.
+- Az emailszolgáltató weboldalának elérhetősége egy [.onion szolgáltatáson](https://en.wikipedia.org/wiki/.onion) keresztül.
+- Az [alcímzés](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) támogatása.
+- Catch-all (gyűjtő email cím) vagy alias funkció azok számára, akiknek saját domainjeik vannak.
+- A szabványos e-mail hozzáférési protokollok, például IMAP, SMTP vagy [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol) használata. A szabványos hozzáférési protokollok biztosítják, hogy az ügyfelek könnyen letölthessék az összes e-mailjüket, ha másik szolgáltatóhoz szeretnének váltani.
 
 ### Adatvédelem
 
@@ -307,54 +307,54 @@ Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkeveseb
 
 **Alap elvárások minősítéshez:**
 
-- Protect sender's IP address. Filter it from showing in the `Received` header field.
-- Don't require personally identifiable information (PII) besides a username and a password.
-- Privacy policy that meets the requirements defined by the GDPR.
+- A feladó IP-címének védelme. Szűrje ki, hogy ne jelenjen meg a `Fogadott` fejléc mezőben.
+- A felhasználónevet és jelszót leszámítva ne kérjen személyazonosításra alkalmas adatokat (PII).
+- A GDPR által meghatározott követelményeknek megfelelő adatvédelmi politika.
 
 **Legjobb esetben:**
 
-- Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Hosted in a jurisdiction with strong email privacy protection laws.
+- Elfogadja az [anonim fizetési lehetőségeket](advanced/payments.md)[(kriptopénz](cryptocurrency.md), készpénz, ajándékkártyák stb.)
+- Olyan joghatóságban van elhelyezve, ahol erős e-mail adatvédelmi törvények vannak érvényben.
 
 ### Adatbiztonság
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their members.
+Az e-mail szerverek sok nagyon érzékeny adatot kezelnek. Elvárjuk, hogy a szolgáltatók a legjobb iparági gyakorlatokat alkalmazzák tagjaik adatainak védelme érdekében.
 
 **Alap elvárások minősítéshez:**
 
-- Protection of webmail with 2FA, such as TOTP.
-- Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- A webmail védelme 2FA-val, például TOTP-vel.
+- Zéró hozzáférésű titkosítás, ami a nyugalmi titkosításra épül. A szolgáltató nem rendelkezik a birtokában lévő adatok visszafejtési kulcsaival. Ez megakadályozza, hogy egy rosszhiszemű alkalmazott kiszivárogtassa az adatokat, amelyekhez hozzáfér, vagy egy távoli ellenfél a szerverhez való jogosulatlan hozzáféréssel kiadja az ellopott adatokat.
+- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) támogatás.
+- Nincsenek TLS-hibák vagy sebezhetőségek, amikor olyan eszközökkel profilozzák, mint a [Hardenize](https://hardenize.com), a [testssl.sh](https://testssl.sh) vagy a [Qualys SSL Labs](https://ssllabs.com/ssltest); ez magában foglalja a tanúsítványokkal kapcsolatos hibákat és a gyenge DH-paramétereket, például azokat, amelyek a [Logjamhoz](https://en.wikipedia.org/wiki/Logjam_(computer_security)) vezettek.
+- Kiszolgálói csomag preferencia (a TLSv1.3 esetében opcionális) az erős titkosítási csomagok számára, amelyek támogatják a továbbított titkosítást és a hitelesített titkosítást.
+- Érvényes [MTA-STS](https://tools.ietf.org/html/rfc8461) és [TLS-RPT](https://tools.ietf.org/html/rfc8460) házirend.
+- Érvényes [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) rekordok.
+- Érvényes [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) és [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) rekordok.
+- Rendelkezzen megfelelő [DMARC](https://en.wikipedia.org/wiki/DMARC) rekorddal és házirenddel, vagy használjon [ARC-t](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) a hitelesítéshez. Ha DMARC-hitelesítést használ, a házirendet `elutasításra` vagy `karanténba` kell állítani.
+- A TLS 1.2 vagy újabb szervercsomag előnyben részesítése és az [RFC8996](https://datatracker.ietf.org/doc/rfc8996) tervezése.
+- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) beküldés, feltéve, hogy SMTP-t használnak.
+- Weboldal biztonsági szabványok, mint például:
+    - [HTTP szigorú szállítási biztonság (Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - [Alforrás integritás](https://en.wikipedia.org/wiki/Subresource_Integrity), ha külső tartományokból tölt be dolgokat.
+- Támogatnia kell az [üzenetfejlécek](https://en.wikipedia.org/wiki/Email#Message_header) megtekintését, mivel ez egy kulcsfontosságú funkció annak megállapításához, hogy egy e-mail adathalász kísérlet-e.
 
 **Legjobb esetben:**
 
-- Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- A hardveres hitelesítés támogatása, pl. U2F és [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). Az U2F és a WebAuthn biztonságosabb, mivel az ügyféloldali hardvereszközön tárolt privát kulcsot használnak a hitelesítéshez, szemben a TOTP használatakor a webkiszolgálón és az ügyféloldalon tárolt megosztott titokkal. Továbbá az U2F és a WebAuthn ellenállóbb az adathalászattal szemben, mivel a hitelesítési válasz a hitelesített [tartománynév](https://en.wikipedia.org/wiki/Domain_name) alapján történik.
+- [DNS-hitelesítésszolgáltatói engedélyezési (CAA) erőforrásrekord](https://tools.ietf.org/html/rfc6844) a DANE-támogatás mellett.
+- Az [ARC (Authenticated Received Chain)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) megvalósítása, ez azoknak hasznos, akik [RFC8617](https://tools.ietf.org/html/rfc8617) levelezési listákra írnak.
 - Bug-bounty programok és/vagy összehangolt sebezhetőség-közzétételi folyamat.
-- Website security standards such as:
+- Weboldal biztonsági szabványok, mint például:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
-### Bizalom
+### Megbízhatóság
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Az általunk ajánlott szolgáltatóktól elvárjuk, hogy nyilvánosak legyenek a tulajdonlásukról vagy vezetésükről. Szeretnénk továbbá gyakori átláthatósági jelentéseket látni, különösen a kormányzati kérelmek kezelésének módját illetően.
+A pénzügyeidet sem bíznád egy hamis személyazonosságú emberre, akkor miért bíznád rájuk az e-mailjeidet? Az általunk ajánlott szolgáltatóktól megköveteljük, hogy nyilvánosan nyilatkozzanak a tulajdonlásukról vagy vezetésükről. Szeretnénk továbbá gyakori átláthatósági jelentéseket látni, különösen a kormányzati kérelmek kezelésének módját illetően.
 
 **Alap elvárások minősítéshez:**
 
-- Nyilvános vezetés vagy tulajdonlás.
+- Átlátható vezetés vagy tulajdonlás.
 
 **Legjobb esetben:**
 
@@ -363,23 +363,23 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### Marketing
 
-With the email providers we recommend we like to see responsible marketing.
+Az általunk ajánlott emailszolgáltatóknál felelős marketinget szeretnénk látni.
 
 **Alap elvárások minősítéshez:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
+- Saját analitikát kell üzemeltetnie (nem Google Analytics, Adobe Analytics stb.). A szolgáltató webhelyének szintén be kell tartania a [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) kéréseket is, a követést elutasítani kívánó személyek számára.
 
 Nem használhat felelőtlen marketinget:
 
-- Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
+- A "feltörhetetlen titkosítás" állítása. A titkosítást úgy kell használni, hogy annak nem titkos jellege is figyelembe legyen véve a jövőben, amikor már rendelkezésre áll a feltörésére alkalmas technológia.
 - Az anonimitás 100%-os védelmének garantálása. Ha valaki azt állítja, hogy valami 100%-os, az azt jelenti, hogy nem merülhet fel meghibásodás. Tudjuk, hogy személyek elég könnyen és számos módon deanonimizálni tudják magukat, pl.:
 
-    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Böngésző fingerprintelés](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+    - Olyan személyes adatok újrafelhasználása (pl. e-mail fiókok, egyedi álnevek stb.), amelyekhez anonimitási szoftverek (Tor, VPN stb.) nélkül jutottak hozzá.
+    - [Böngésző ujjlenyomatok](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Legjobb esetben:**
 
-- Clear and easy to read documentation. Ez többek között olyan dolgokat foglal magában, mint a kétlépcsős hitelesítés, az e-mail kliensek, vagy az OpenPGP beállítása.
+- Letisztult és könnyen érthető dokumentáció. Ez többek között olyan dolgokat foglal magában, mint a kétlépcsős hitelesítés, az e-mail kliensek, vagy az OpenPGP beállítása.
 
 ### További funkciók
 
