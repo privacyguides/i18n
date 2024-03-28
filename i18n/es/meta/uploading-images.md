@@ -17,7 +17,7 @@ Los logotipos de empresa tienen un tamaño de lienzo de:
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
+Utiliza [OptiPNG](https://sourceforge.net/projects/optipng) para optimizar la imagen PNG:
 
 ```bash
 optipng -o7 file.png
