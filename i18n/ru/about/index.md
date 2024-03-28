@@ -7,7 +7,7 @@ schema:
   "@id": https://www.privacyguides.org/
   name: Privacy Guides
   url: https://www.privacyguides.org/en/about/
-  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  logo: https://www.privacyguides.org/en/assets/brand/logos/png/square/pg-yellow.png
   sameAs:
     - https://twitter.com/privacy_guides
     - https://github.com/privacyguides
@@ -17,7 +17,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Лого Privacy Guides](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
+![Лого Privacy Guides](../assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
 **Privacy Guides** - это социально мотивированный сайт, предоставляющий [информацию](/kb) по защите безопасности и конфиденциальности ваших данных. Наша миссия - информировать общественность о ценности цифровой конфиденциальности и о глобальных правительственных инициативах, направленных на мониторинг вашей активности в интернете. Мы являемся некоммерческим коллективом, который полностью управляется [волонтёрами](https://discuss.privacyguides.net/g/team) и помогающими нам людьми. Наш сайт не содержит рекламы и не связан ни с одним из перечисленных провайдеров.
 

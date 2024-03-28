@@ -7,7 +7,7 @@ schema:
   "@id": https://www.privacyguides.org/
   name: Privacy Guides
   url: https://www.privacyguides.org/en/about/
-  logo: https://www.privacyguides.org/en/assets/brand/png/square/pg-yellow.png
+  logo: https://www.privacyguides.org/en/assets/brand/logos/png/square/pg-yellow.png
   sameAs:
     - https://twitter.com/privacy_guides
     - https://github.com/privacyguides
@@ -17,7 +17,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides 圖標](../assets/brand/PNG/Square/pg-yellow.png){ align=right }
+![Privacy Guides 圖標](../assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
 隱私權指南是一個社會導向的網站，提供資訊以保護您的資料安全和隱私。 我們的使命是告知公眾數位隱私的價值，以及全球政府監控線上活動的行徑。 我們是非營利合作，完全由志願者 [團隊成員](https://discuss.privacyguides.net/g/team) 和貢獻者經營。 我們的網站沒有廣告，與任何列出的供應商也沒有商務往來。
 
