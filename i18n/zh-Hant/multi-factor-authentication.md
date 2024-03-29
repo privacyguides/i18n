@@ -1,7 +1,7 @@
 ---
-title: "Multi-Factor Authenticators"
+title: "多重因素驗證"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: 這些工具可協助透過多重身份驗證保護網路帳戶，而無需將您的祕密傳送給第三方。
 cover: multi-factor-authentication.webp
 ---
 
@@ -13,9 +13,9 @@ cover: multi-factor-authentication.webp
 
 ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
 
-**YubiKeys** 是最常用的安全金鑰之一。 Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+**YubiKeys** 是最常用的安全金鑰之一。 有些 YubiKey 型號具廣泛的功能，例如： [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor)、[FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)、[Yubico OTP](basics/multi-factor-authentication.md#yubico-otp)、[Personal Identity Verification (PIV)](https://developers.yubico.com/PIV)、 [OpenPGP](https://developers.yubico.com/PGP)、[TOTP and HOTP](https://developers.yubico.com/OATH)驗證。
 
-YubiKey 好處之一是，一支密鑰（ 例如 YubiKey 5 ）可以滿足對安全密鑰硬體的全部期待。 We do encourage you to take the [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
+YubiKey 好處之一是，一支密鑰（ 例如 YubiKey 5 ）可以滿足對安全密鑰硬體的全部期待。 建議購買前先 [作個小測驗](https://yubico.com/quiz/) ，以確保做出正確的選擇。
 
 [:octicons-home-16: Homepage](https://yubico.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
@@ -25,16 +25,16 @@ YubiKey 好處之一是，一支密鑰（ 例如 YubiKey 5 ）可以滿足對安
 
 </div>
 
-The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare. 我們強烈建議您從YubiKey 5系列中挑選。
+[比較表](https://yubico.com/store/compare) 顯示了各型號 YubiKeys 功能比較。 我們強烈建議您從YubiKey 5系列中挑選。
 
-YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). Yubico 所有客戶端軟體都是開源。
+YubiKey 可使用 [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) 或 [YubiKey 個人化工具](https://yubico.com/support/download/yubikey-personalization-tools)。 若要管理 TOTP 程式碼，可使用 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)。 Yubico 所有客戶端軟體都是開源。
 
 支持 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來存儲 TOTP 機密。 這些機密經加密後存儲在密鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "警告"</p>
 
-The firmware of YubiKey is not open source and is not updatable. 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
+YubiKey 軔體並不開源，無法更新。 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
 
 </div>
 
@@ -54,9 +54,9 @@ The firmware of YubiKey is not open source and is not updatable. 如果您想要
 
 </div>
 
-The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. **Nitrokey 3** 具有組合的功能集。
+[比較表](https://nitrokey.com/#comparison) 顯示了各型號 Nitrokey 功能比較。 **Nitrokey 3** 具有組合的功能集。
 
-Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
+可以使用 [Nitrokey 應用程序](https://nitrokey.com/download)配置 Nitrokey 模型。
 
 支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以存儲 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
 
@@ -74,7 +74,7 @@ Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/
 
 </div>
 
-The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://coreboot.org) + [Heads](https://osresearch.net) firmware.
+Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記型電腦的 [Coreboot](https://coreboot.org) + [Heads](https://osresearch.net) 軔體與系統完整性驗證。
 
 不同於 YubiKey，Nitrokey 軔體是開源。 NitroKey 型號可（ **NitroKey Pro 2**除外）可更新軔體。
 
@@ -124,7 +124,7 @@ The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports sys
 [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
@@ -150,7 +150,7 @@ The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports sys
 [:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis)
 - [:simple-github: GitHub](https://github.com/beemdevelopment/Aegis/releases)

@@ -1,11 +1,11 @@
 ---
-title: Email Aliasing
+title: 電子郵件別名
 icon: material/email-lock
-description: An email aliasing service allows you to easily generate a new email address for every website you register for.
+description: 電子郵件別名服務可輕鬆地替每次網站註冊生成一個新的電子郵件地址。
 cover: email-aliasing.webp
 ---
 
-An email aliasing service allows you to easily generate a new email address for every website you register for. The email aliases you generate are then forwarded to an email address of your choosing, hiding both your "main" email address and the identity of your [email provider](email.md). True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like `yourname+[anythinghere]@example.com`, because websites, advertisers, and tracking networks can trivially remove anything after the `+` sign. Organizations like the [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) require that advertisers [normalize email addresses](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) so that they can be correlated and tracked, regardless of users' privacy wishes.
+電子郵件別名服務可輕鬆地替每次網站註冊生成一個新的電子郵件地址。 電子郵件別名會自動把郵件轉發到所選擇的電子郵件地址，以隱藏“主要”電子郵件地址和[電子郵件提供商](email.md)。 True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like `yourname+[anythinghere]@example.com`, because websites, advertisers, and tracking networks can trivially remove anything after the `+` sign. Organizations like the [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) require that advertisers [normalize email addresses](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) so that they can be correlated and tracked, regardless of users' privacy wishes.
 
 <div class="grid cards" markdown>
 
@@ -59,9 +59,9 @@ Using an aliasing service requires trusting both your email provider and your al
 
 The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases (which end in a domain like @[username].addy.io or a custom domain on paid plans), however, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
-Notable free features:
+值得注意的免費功能：
 
-- [x] 10 Shared Aliases
+- [x] 10 個共享別名
 - [x] Unlimited Standard Aliases
 - [ ] No Outgoing Replies
 - [x] 1 Recipient Mailbox
@@ -95,14 +95,14 @@ Notable free features:
 
 </div>
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin 繼續支援轉寄至您所選擇的任何電子郵件供應商。 Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
+可在設定中將 SimpleLogin 帳戶與 Proton 帳戶作連結。 如果有 Proton Unlimited 、Business 或 Visionary 計劃，也可免費獲得 SimpleLogin Premium。
 
-Notable free features:
+值得注意的免費功能：
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Replies
+- [x] 10 個共享別名
+- [x] 無回復上限
 - [x] 1 Recipient Mailbox
 - [ ] Automatic PGP Encryption is only available on paid plans
 

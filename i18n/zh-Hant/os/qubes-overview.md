@@ -4,14 +4,14 @@ icon: simple/qubesos
 description: Qubes 作業系統利用*qubes* (過去稱"虛擬機器") 來隔離應用程式以提高安全性。
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) 為開源作業系統，其使用 [Xen](https://en.wikipedia.org/wiki/Xen) 管理程序利用 隔離*qubes*(虛擬器)來為桌面運算提供強固的安全。 您可為每一個 *qube* 依其目的指定不同的信賴層級。 Qubes OS 利用隔離作法來提高安全性。 It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
+[**Qubes OS**](../desktop.md#qubes-os) 為開源作業系統，其使用 [Xen](https://en.wikipedia.org/wiki/Xen) 管理程序利用 隔離*qubes*(虛擬器)來為桌面運算提供強固的安全。 您可為每一個 *qube* 依其目的指定不同的信賴層級。 Qubes OS 利用隔離作法來提高安全性。 它只允許根據具體情況進行操作，因此與[不良枚舉](https://ranum.com/security/computer_security/editorials/dumb)相反。
 
 ## Qubes OS如何工作？
 
-Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes 從模板創建，預設為 Fedora、Debian 和 [Whonix](../desktop.md#whonix)。 Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
+Qubes 使用 [分區化](https://qubes-os.org/intro) 來確保系統安全。 Qubes 從模板創建，預設為 Fedora、Debian 和 [Whonix](../desktop.md#whonix)。 Qubes OS 還可建立一次性[拋棄式](https://qubes-os.org/doc/how-to-use-disposables) *qube*。
 
 <details class="note" markdown>
-<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
+<summary>更新改用 <em x-id="3">qubes</em>一辭，避免將它們稱為“虛擬器”。</summary>
 
 由於“appVM”一辭更改為“qube”，此處和 Qubes OS 文檔中的一些資訊可能在語言上產生衝突。 Qube 不是完整的虛擬器，但有與 VM 類似的功能。
 
@@ -20,7 +20,7 @@ Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system
 ![Qubes架構](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
 
-Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. 例如，可以為銀行瀏覽器使用特定的顏色，而一般不信任的瀏覽器則使用不同顏色。
+每個 qubes 都有 [顏色邊框](https://qubes-os.org/screenshots) ，幫助您追蹤它運行的地方。 例如，可以為銀行瀏覽器使用特定的顏色，而一般不信任的瀏覽器則使用不同顏色。
 
 ![顏色邊框](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes 視窗邊框，圖片來源： Qubes Screenshots</figcaption>
@@ -33,7 +33,7 @@ Qubes OS在主機作業系統上 利用 [dom0](https://wiki.xenproject.org/wiki/
 
 ### 復制和黏貼文本
 
-You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-text) using `qvm-copy-to-vm` or the below instructions:
+可利用 `qvm-copy-to-vm` 或以下說明 [複製並貼上文本](https://qubes-os.org/doc/how-to-copy-and-paste-text) ：
 
 1. 按 **Ctrl + C** 讓所在的 *qube* 複製某些內容。
 2. 按 **Ctrl + Shift + C** 讓 *qube* 將此緩衝區供全局剪貼板使用。
@@ -45,15 +45,15 @@ You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-tex
 若要將檔案和目錄(資料夾) 從一個*qube* 複製貼到另一個 ，您可以使用選項 **Copy to Other AppVM...** 或 **Move to Other AppVM...**。 不同之處在於 **Move** 選項會刪除原始檔案。 這兩個選項都可以保護您的剪貼簿不會洩漏到任何其他*qube* 。 這比氣隙檔案傳輸更安全。 氣隙電腦仍會被迫解析分區或檔案系統。 這在inter-qube複製系統中是不需要的。
 
 <details class="note" markdown>
-<summary>Qubes do not have their own filesystems.</summary>
+<summary>Qubes 沒有自己的檔案系統。</summary>
 
-You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. 當這樣做時，不會立即進行更改，並且在發生事故時可以輕鬆撤消。 When you run a *qube*, it does not have a persistent filesystem. 您可以創建和刪除檔案，但這些更改是暫時的。
+可在 *qubes*之間[複製和移動檔案](https://qubes-os.org/doc/how-to-copy-and-move-files)。 當這樣做時，不會立即進行更改，並且在發生事故時可以輕鬆撤消。 運行*qube* 時，它沒有持久檔案系統。 您可以創建和刪除檔案，但這些更改是暫時的。
 
 </details>
 
 ### 虛擬機之間交互
 
-The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
+[qrexec 框架](https://qubes-os.org/doc/qrexec) 是 Qubes 的核心構成，其可在域之間作溝通。 它建構在 Xen 函式庫 *vchan* 之上，這有助於[透過政策隔離](https://qubes-os.org/news/2020/06/22/ new-qrexec-policy-system)。
 
 ## 透過 VPN 連接 Tor
 
@@ -73,9 +73,9 @@ Qubes 設置大概像這樣：
 
 ## 其他資源
 
-For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). 可以從Qubes OS [文件庫](https://github.com/QubesOS/qubes-doc)下載離線副本。
+如需更多資訊，建議瀏覽[Qubes OS 網站](https://qubes-os.org/doc)上 Qubes OS 文件頁面。 可以從Qubes OS [文件庫](https://github.com/QubesOS/qubes-doc)下載離線副本。
 
 - [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
 - [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
 - [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://qubes-os.org/news/categories/#articles) (Qubes OS)
+- [相關文章](https://qubes-os.org/news/categories/#articles) (Qubes OS)
