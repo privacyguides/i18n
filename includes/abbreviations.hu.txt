@@ -1,4 +1,4 @@
-*[2FA]: 2-Factor Authentication - Kétlépcsős Hitelesítés
+*[2FA]: 2-Factor Authentication – Kétlépcsős Hitelesítés
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project - Android Nyílt Forráskódú Projekt
 *[ATA]: Advanced Technology Attachment
@@ -53,7 +53,7 @@
 *[MEID]: Mobile Equipment Identifier - Mobil Berendezés Azonosító
 *[MFA]: Multi-Factor Authentication - Többlépcsős Hitelesítés
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
+*[NAT]: Network address translation – Hálózati címfordítás
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Network Time Protocol - Hálózati Idő Protokoll
 *[OCI]: Open Container Initiative
