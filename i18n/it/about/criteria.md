@@ -1,9 +1,9 @@
 ---
-title: General Criteria
+title: Criteri generali
 ---
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Work in Progress</p>
+<p class="admonition-title">Lavori In Corso</p>
 
 La seguente pagina è in costruzione e non riflette i criteri completi dei nostri consigli, al momento. Discussione precedente su questo argomento: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
 

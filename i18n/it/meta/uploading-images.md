@@ -17,7 +17,7 @@ I loghi aziendali hanno dimensioni di:
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
+Utilizza l'[OptiPNG](https://sourceforge.net/projects/optipng) per ottimizzare l'immagine PNG:
 
 ```bash
 optipng -o7 file.png

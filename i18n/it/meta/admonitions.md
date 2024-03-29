@@ -163,17 +163,17 @@ Questo formato viene utilizzato per generare schede di raccomandazione. In parti
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
+![Logo di PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** è una piattaforma auto-ospitabile per gestire le foto. Supporta la sincronizzazione e condivisione degli album, nonché una varietà di altre [funzionalità](https://photoprism.app/features). Non include E2EE, quindi è meglio ospitarla su un server attendibile e sotto il tuo controllo.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina iniziale](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -188,15 +188,15 @@ Questo formato viene utilizzato per generare schede di raccomandazione. In parti
 
 ![Logo PhotoPrism](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). Non include E2EE, quindi è meglio che sia ospitato su un server di fiducia e che sia sotto il tuo controllo.
+**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. Supporta la sincronizzazione e condivisione degli album, nonché una varietà di altre [funzionalità](https://photoprism.app/features). Non include E2EE, quindi è meglio che sia ospitato su un server di fiducia e che sia sotto il tuo controllo.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina iniziale](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Politica sulla privacy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Download</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -212,7 +212,7 @@ Si tratta di un tipo speciale di monito a scomparsa, utilizzato per generare la 
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)

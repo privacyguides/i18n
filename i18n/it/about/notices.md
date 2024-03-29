@@ -1,5 +1,5 @@
 ---
-title: "Notices and Disclaimers"
+title: "Avvisi e Dichiarazioni di non responsabilità"
 ---
 
 ## Dichiarazione di non responsabilità legale
@@ -31,7 +31,7 @@ Ciò non include il codice di terze parti incorporato in questo repository, o il
 
 Ciò significa che puoi utilizzare i contenuti leggibili dall'uomo in questo repository per il tuo progetto, secondo i termini delineati nel testo della Licenza Pubblica Internazionale Creative Commons Attribution-NoDerivatives 4.0. Puoi farlo in qualsiasi modo ragionevole, ma non in alcun modo che suggerisca che Privacy Guides promuova te o il tuo utilizzo. **Non puoi** utilizzare i marchi di Privacy Guides nel tuo progetto, senza l'espressa approvazione da parte di questo progetto. I marchi registrati di Privacy Guides includono il marchio "Privacy Guides" e il logo dello scudo.
 
-Crediamo che i loghi e altre immagini in `assets`, ottenute da fornitori di terze parti, siano nel dominio pubblico o dell'**utilizzo equo e solidale**. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. Tuttavia, questi loghi e altre immagini potrebbero ancora essere soggetti a leggi sui marchi, in una o più giurisdizioni. Prima di utilizzare tali contenuti, ti preghiamo di assicurarti che sia utilizzato per identificare l'entità o l'organizzazione che possiede il marchio registrato, e che tu abbia il diritto a utilizzarlo, sotto le leggi che si applicano nelle circostanze del tuo utilizzo previsto. *Copiando i contenuti da questo sito web, sei l'unico responsabile della garanzia di non violare il marchio o copyright altrui.*
+Crediamo che i loghi e altre immagini in `assets`, ottenute da fornitori di terze parti, siano nel dominio pubblico o dell'**utilizzo equo e solidale**. In breve, la [dottrina dell'utilizzo equo e solidale](https://copyright.gov/fair-use/more-info.html) legale consente l'utilizzo di immagini coperte da copyright, per identificare la materia del soggetto, per scopi di commento pubblico. Tuttavia, questi loghi e altre immagini potrebbero ancora essere soggetti a leggi sui marchi, in una o più giurisdizioni. Prima di utilizzare tali contenuti, ti preghiamo di assicurarti che sia utilizzato per identificare l'entità o l'organizzazione che possiede il marchio registrato, e che tu abbia il diritto a utilizzarlo, sotto le leggi che si applicano nelle circostanze del tuo utilizzo previsto. *Copiando i contenuti da questo sito web, sei l'unico responsabile della garanzia di non violare il marchio o copyright altrui.*
 
 Contribuendo al nostro sito web, lo fai secondo le licenze suddette, concedendo a Privacy Guides una licenza perpetua, globale, non esclusiva, trasferibile, esente da royalty e irrevocabile, con il diritto di sublicenziare tali diritti, tramite più livelli di sublicenze, per riprodurre, modificare, mostrare, eseguire e distribuire il tuo contributo, come parte del nostro progetto.
 
@@ -49,4 +49,4 @@ Non devi condurre alcuna attività di raccolta dei dati sistematica o automatizz
 
 ---
 
-*Porzioni di questo stesso avviso sono stati adottati da [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md), su GitHub. That resource and this page itself are released under [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0).*
+*Porzioni di questo stesso avviso sono stati adottati da [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md), su GitHub. Quella risorsa e questa stessa pagina sono rilasciate sotto la licenza [CC-BY-4.0](https://creativecommons.org/licenses/by-sa/4.0).*

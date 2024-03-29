@@ -28,10 +28,10 @@
   <g transform="matrix(.26458 0 0 .26458 -26.794 -25.953)">
     <g transform="matrix(.42318 0 0 .45369 63.518 110.55)">
       <g transform="translate(88.72,550.07)">
-        <text font-family="Helvetica" font-size="53.309px">Your</text>
+        <text font-family="Helvetica" font-size="53.309px">Il tuo</text>
       </g>
       <g transform="translate(88.72,616.71)">
-        <text font-family="Helvetica" font-size="53.309px">Device</text>
+        <text font-family="Helvetica" font-size="53.309px">Dispositivo</text>
       </g>
     </g>
     <g transform="matrix(.42318 0 0 .42318 215.19 217.54)">
@@ -114,7 +114,7 @@
       <text font-family="Helvetica" font-size="53.309px">Relay</text>
     </g>
     <g transform="matrix(.42318 0 0 .45369 924.29 375.58)">
-      <text font-family="Helvetica" font-size="53.309px">Entry</text>
+      <text font-family="Helvetica" font-size="53.309px">Ingresso</text>
     </g>
     <g transform="matrix(.43818 0 0 -.43818 616.24 496.06)">
       <path d="m330.23 166.03-137.18 182.29 3.883 2.924 137.18-182.29z"/>
