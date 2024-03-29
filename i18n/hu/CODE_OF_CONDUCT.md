@@ -1,53 +1,53 @@
-# Community Code of Conduct
+# Közösségi magatartási kódex
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**Fogadjuk**, hogy közösségünket mindenki számára zaklatásmentes élménnyé tesszük.
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**Arra törekszünk**, hogy pozitív környezetet teremtsünk, befogadó és befogadó nyelvezetet használunk, és tiszteletben tartjuk mások nézeteit.
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+**Nem engedélyezzük** a nem megfelelő vagy más módon elfogadhatatlan viselkedést, például a szexualizált nyelvezetet, a trollkodó és sértő megjegyzéseket, vagy az intolerancia vagy zaklatás egyéb módon történő előmozdítását.
 
-## Community Standards
+## Közösségi normák
 
-What we expect from members of our communities:
+Mit várunk el közösségeink tagjaitól:
 
-1. **Do not spread misinformation**
+1. **Ne terjessz félretájékoztatást**
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      Egy bizonyítékokon alapuló oktatási közösséget hozunk létre az adatvédelem és az információbiztonság körül, nem pedig egy információs otthont az összeesküvés-elméletek számára. Ha például azt állítja, hogy egy bizonyos szoftver rosszindulatú, vagy hogy bizonyos telemetriai adatok sértik a magánéletet, részletesen ismertesse, hogy mit és hogyan gyűjtenek. Az ilyen jellegű állításokat technikai bizonyítékokkal kell alátámasztani.
 
-2. **Do not abuse our willingness to help**
+2. **Ne élj vissza a segítőkészségünkkel**
 
-      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
+      Közösségünk tagjai nyújtanak ingyenes technikai támogatást. Szívesen segítünk azonban részletes útmutatókkal az egyéni, magánéleted védelmét növelő úton, ha hajlandó vagy erőfeszítéseket tenni. Nem vagyunk kötelesek végtelen, ismétlődő kérdésekre válaszolni, általános számítógépes problémákra, amelyek egy egyszerű internetes kereséssel megoldhatók. **Ne** válj [segédvámpírrá](https://slash7.com/2006/12/22/vampires).
 
-3. **Behave in a positive and constructive manner**
+3. **Légy pozitív és konstruktív**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+      Példák a közösségünk pozitív környezetéhez hozzájáruló viselkedésre:
 
-      - Being respectful of differing opinions, viewpoints, and experiences.
-      - Demonstrating empathy and kindness toward others.
-      - Focusing on what is best not just for us as overseers, but for the overall community.
-      - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
-      - Operating with a communal mindset at all times.
+      - A különböző véleményeket, nézetek és tapasztalatok tisztelettel kezeljük.
+      - Empátiát és kedvességes tanúsítunk mások iránt.
+      - Arra összpontosítunk, hogy mi a legjobb nem csak nekünk, hanem az egész közösségnek.
+      - Konstruktív visszajelzéseket adunk, és méltóságteljesen elfogadjuk a közösségünkön belül, miközben fejlődünk és javulunk.
+      - Mindig közösségi gondolkodásmóddal dolgozunk.
 
-## Unacceptable Behavior
+## Elfogadhatatlan viselkedés
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Az alábbi viselkedésformák zaklatásnak minősülnek, és közösségünkben elfogadhatatlanok:
 
-- Any other conduct which would reasonably be considered inappropriate in a professional setting.
-- Public and/or private harassment of any kind.
-- Publishing others' private information, such as a physical address and/or email address, without a persons explicit permission.
-- The use of sexualized language or imagery, and sexual attention or advances of any kind.
-- Trolling, insulting and/or derogatory comments, including personal or political attacks.
+- Bármilyen más olyan magatartás, amely szakmai környezetben ésszerűen helytelennek tekinthető.
+- Bármilyen nyilvános és/vagy magánéleti zaklatás.
+- Mások magánjellegű adatainak, például fizikai címének és/vagy e-mail címének közzététele az adott személy kifejezett engedélye nélkül.
+- Szexualizált nyelvezet vagy képek használata, valamint bármilyen szexuális figyelem vagy közeledés.
+- Trollkodás, sértő és/vagy becsmérlő megjegyzések, beleértve a személyes vagy politikai támadásokat.
 
-## Scope
+## Hatáskör
 
-Our Code of Conduct applies within all project spaces, as well as when an individual is representing the Privacy Guides project in other communities.
+Magatartási kódexünk minden projektterületen belül érvényes, valamint akkor is, ha egy személy az Privacy Guides projektet képviseli más közösségekben.
 
-We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Felelősek vagyunk a közösségünk normáinak tisztázásáért, és jogunkban áll szükség szerint és saját belátásunk szerint eltávolítani vagy módosítani a közösségünkben résztvevők hozzászólásait.
 
-## Contact
+## Kapcsolat
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
+Ha problémát észlelsz egy olyan platformon, mint a Matrix vagy a Reddit, kérjük, lépj kapcsolatba az adott platform moderátoraival chat-en, közvetlen üzenetben vagy bármely kijelölt "Modmail" rendszeren keresztül.
 
-If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Ha máshol van problémád, vagy olyan problémád, amelyet a közösségi moderátorok nem tudnak megoldani, írj a `jonah@privacyguides.org` és/vagy a `dngray@privacyguides.org` címre.
 
-All community leaders are obligated to respect the privacy and security of reporters for all incidents.
+Minden közösségi vezető köteles tiszteletben tartani a bejelentők magánéletét és biztonságát minden incidens esetében.

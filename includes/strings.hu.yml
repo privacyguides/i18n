@@ -5,7 +5,7 @@ config:
   copyright:
     - 
       1: |
-         A Privacy Guides egy non-profit, szociálisan motivált weboldal, amely az adatbiztonságod és az adatvédelmed megvédéséhez nyújt információkat.
+         A Privacy Guides egy non-profit, társadalmi célú weboldal, amely az adatbiztonságod és az adatvédelmed megvédéséhez nyújt információkat.
     - 
       2: |
          Nem keresünk pénzt bizonyos termékek ajánlásával, és nem használunk affiliate linkeket.
@@ -29,26 +29,26 @@ config:
 nav:
   Home: Kezdőlap
   Knowledge Base: Tudásbázis
-  Technology Essentials: Technológiai Alapismeretek
-  Operating Systems: Operációs Rendszerek
-  Advanced Topics: Haladó Témakörök
+  Technology Essentials: Technológiai alapismeretek
+  Operating Systems: Operációs rendszerek
+  Advanced Topics: Haladó témakörök
   Recommendations: Ajánlások
-  Internet Browsing: Internet Böngészés
+  Internet Browsing: Internet böngészés
   Providers: Szolgáltatók
   Software: Szoftver
-  Advanced: Advanced
+  Advanced: Haladó
   About: Rólunk
   Community: Közösség
-  Online Services: Online Szolgáltatások
-  Code of Conduct: Magatartási Kódex
+  Online Services: Online szolgáltatások
+  Code of Conduct: Magatartási kódex
   Contributing: Közreműködés
-  Writing Guide: Írói Útmutató
-  Technical Guides: Technikai Útmutatók
-  Changelog: Változásnapló
+  Writing Guide: Írói útmutató
+  Technical Guides: Technikai útmutatók
+  Changelog: Változások listája
   Forum: Fórum
   Blog: Blog
 site:
   homepage_card: |
-    A socially motivated website which provides information about protecting your online data privacy and security.
+    Közhasznú, társadalmi indíttatású weboldal, mely az online adatvédelemről és biztonságról nyújt tájékoztatást.
   translation: |
-    You're viewing the English copy of Privacy Guides, translated by our fantastic language team on Crowdin. If you notice an error, or see any untranslated sections on this page, please consider helping out! For more information and tips see our translation guide.
+    A Privacy Guides magyar nyelvű változatát olvasod, melyet a Crowdin fantasztikus közösségi fordítócsapata készített. Ha hibát észlelsz, vagy le nem fordított részeket látsz ezen az oldalon, kérjük, fontold meg, hogy te is besegítesz! További információkért és tippekért lásd a fordítási útmutatónkat.
