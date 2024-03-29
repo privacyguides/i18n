@@ -10,7 +10,7 @@ Utilizza un motore di ricerca che non crei un profilo pubblicitario basato sulle
 
 Questi consigli si basano sui meriti delle politiche sulla privacy di ogni servizio. Non esiste **alcuna garanzia** che tali politiche sulle privacy siano rispettate.
 
-Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
+Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](tor.md), se il tuo modello di minaccia richiede l'occultamento del tuo indirizzo IP dal fornitore di ricerca.
 
 ## Brave Search
 

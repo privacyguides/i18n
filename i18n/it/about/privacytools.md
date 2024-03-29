@@ -77,11 +77,11 @@ Inoltre, BurungHntu ha pubblicato un [post di Twitter](https://twitter.com/priva
 
 Dal 25 settembre 2022, stiamo vedendo i piani generali di BurungHantu realizzarsi su privacytools.io, ed è proprio per questo che abbiamo deciso di creare questa pagina esplicativa, oggi. Il sito web che sta gestendo sembra essere una versione fortemente ottimizzata per il SEO del sito, che consiglia strumenti, in cambio di compenso monetario. Molto di recente, IVPN e Mullvad, due fornitori VPN [consigliati](../vpn.md) quasi universamente dalla community sulla privacy e noti per la propria posizione contro i programmi d'affiliazione, sono stati rimossi da PrivacyTools. Al loro posto? NordVPN, Surfshark, ExpressVPN e hide.me; enormi società di VPN con piattaforme e pratiche aziendli non affidabili, note per il proprio marketing aggressivo e i propri programmi d'affiliazione.
 
-==**PrivacyTools has become exactly the type of site we [warned against](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews) on the PrivacyTools blog in 2019.**== We've tried to keep our distance from PrivacyTools since the transition, but their continued harassment towards our project and now their absurd abuse of the credibility their brand gained over 6 years of open-source contributions is extremely troubling to us. Coloro che, tra noi, lottano realmente per la privacy, non stanno lottando gli uni contro gli altri, e non si fanno consigliare dal migliore offerente.
+==**PrivacyTools è diventato esattamente il tipo di sito che [sconsigliavamo](https://web.archive.org/web/20210729205249/https://blog.privacytools.io/the-trouble-with-vpn-and-privacy-reviews) sul blog di PrivacyTools, nel 2019.**== Abbiamo provato a distanziarci da PrivacyTools dalla transizione, ma le loro continue angherie nei confronti del nostro progetto e, ora, il loro assurdo abuso della credibilità del loro marchio, guadagnata durante 6 anni di contributi open source, ci preoccupano estremamente. Coloro che, tra noi, lottano realmente per la privacy, non stanno lottando gli uni contro gli altri, e non si fanno consigliare dal migliore offerente.
 
 ## r/privacytoolsIO ora
 
-After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
+Dopo il lancio di [r/PrivacyGuides](https://reddit.com/r/privacyguides), era improponibile per u/trai_dep continuare a moderare entrambe le subreddit, e con la community d'accordo con la transizione, r/privacytoolsIO [è stata resa](https://reddit.com/comments/qk7qrj) una sub limitata in un post, l'1 novembre 2021:
 
 > [...] La crescita di questo subreddit è stata la conseguenza di un grande sforzo, durato diversi anni, da parte del team di PrivacyGuides.org. E da ognuno di voi.
 > 
@@ -89,7 +89,7 @@ After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it wa
 
 I subreddit non appartengono a nessuno e, specialmente, non ai titolari dei marchi. Appartengono alle proprie community, che, insieme ai propri moderatori hanno preso la decisione di supportare la transizione a r/PrivacyGuides.
 
-In the months since, BurungHantu has threatened and begged for returning subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
+Nei mesi successivi, BurungHantu ha minacciato e implorato la restituzione del controllo della subreddit al suo profilo, in [violazione](https://reddit.com/r/redditrequest/wiki/top_mod_removal) delle regole di Reddit:
 
 > Le ritorsioni da qualsiasi moderatore relativamente alle richieste di rimozione, sono vietate.
 

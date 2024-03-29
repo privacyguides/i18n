@@ -188,7 +188,7 @@ A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a 
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Adatvédelmi tájékoztató" }
 [:octicons-info-16:](https://tuta.com/faq){ .card-link title=Dokumentáció}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Forráskód" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Hozzájárulás}
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Közreműködés}
 
 <details class="downloads" markdown>
 <summary>Letöltés</summary>
@@ -254,7 +254,7 @@ A **Mailcow** egy fejlettebb levelezőszerver, amely tökéletes azok számára,
 [:octicons-home-16: Honlap](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Dokumentáció}
 [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Forráskód" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Támogatás}
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Közreműködés}
 
 </div>
 
@@ -375,7 +375,7 @@ Nem használhat felelőtlen marketinget:
 - Az anonimitás 100%-os védelmének garantálása. Ha valaki azt állítja, hogy valami 100%-os, az azt jelenti, hogy nem merülhet fel meghibásodás. Tudjuk, hogy személyek elég könnyen és számos módon deanonimizálni tudják magukat, pl.:
 
     - Olyan személyes adatok újrafelhasználása (pl. e-mail fiókok, egyedi álnevek stb.), amelyekhez anonimitási szoftverek (Tor, VPN stb.) nélkül jutottak hozzá.
-    - [Böngésző ujjlenyomatok](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+    - [Böngésző ujjlenyomatolás](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Legjobb esetben:**
 
