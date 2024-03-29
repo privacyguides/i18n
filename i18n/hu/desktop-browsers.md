@@ -57,9 +57,9 @@ schema:
       url: "./"
 ---
 
-Ezek az általunk jelenleg ajánlott asztali webböngészők és konfigurációk az átlagos, nem anonim böngészéshez. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Ezek az általunk jelenleg ajánlott asztali webböngészők és konfigurációk az átlagos, nem anonim böngészéshez. A [Mullvad Böngészőt](#mullvad-browser) ajánljuk, ha kiemelten fontos számodra az erős adatvédelem és az alapértelmezett ujjlenyomat-védelem, a [Firefox](#firefox)-ot azoknak ajánljuk, akik jó alternatívát keresnek a Google Chrome-hoz, és csak hétköznapi internetezők. A [Brave](#brave)-et pedig akkor, ha szükséged van a Chromium böngésző kompatibilitására.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+Ha névtelenül szeretnél böngészni az interneten, használd inkább a [Tor](tor.md) szolgáltatást. Ezen az oldalon teszünk néhány konfigurációs ajánlást, de a Tor Böngésző kivételével minden más böngésző *lekövehtető* valamilyen módon.
 
 ## Mullvad Browser
 
@@ -67,15 +67,16 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+A **Mullvad Böngésző** egy verziója a [Tor Böngésző](tor.md#tor-browser)nek, amelyből a Tor hálózati integrációkat eltávolították, célja pedig az, hogy a Tor Böngésző ujjlenyomat-védelmi böngészőtechnológiáit VPN-felhasználók számára is elérhetővé tegye. A böngészőt a Tor Project fejlesztette és a [Mullvad](vpn.md#mullvad) terjeszti, és **nem** igényli a Mullvad VPN használatát.
+
+[:octicons-home-16: Honlap](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Adatvédelmi tájékoztató" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title=Dokumentáció}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Forráskód" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Letöltés</summary>
 
 - [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -85,27 +86,27 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). Other modifications would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+A [Tor Browserhez](tor.md) hasonlóan a Mullvad Browser is úgy lett kialakítva, hogy megakadályozza az ujjlenyomat-képzést azáltal, hogy a böngésző ujjlenyomata megegyezik az összes többi Mullvad Browser felhasználóéval, és olyan alapértelmezett beállításokat és bővítményeket tartalmaz, amelyeket az alapértelmezett biztonsági szintek automatikusan konfigurálnak: *Alapértelmezett*, *Biztonságosabb* és *Legbiztonságosabb*. Ezért elengedhetetlen, hogy a böngészőt az alapértelmezett [biztonsági szintek](https://tb-manual.torproject.org/security-settings) beállításán kívül egyáltalán ne módosítsa. Más módosítások egyedivé tennék az ujjlenyomatot, ami meghiúsítja a böngésző használatának célját. Ha erősebben szeretné konfigurálni a böngészőjét, és az ujjlenyomatok nem jelentenek gondot az Ön számára, akkor inkább a [Firefoxot](#firefox) ajánljuk.
 
-### Anti-Fingerprinting
+### Ujjlenyomat-mentesítés
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+[VPN](vpn.md) használata **nélkül** a Mullvad Browser ugyanolyan védelmet nyújt a [naiv ujjlenyomatgyűjtő szkriptek](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) ellen, mint más privát böngészők, például a Firefox+[Arkenfox](#arkenfox-advanced) vagy a [Brave](#brave). A Mullvad böngésző beépítetten ezeket a védelmi mechanizmusokat biztosítja, azonban ennek következtében némi rugalmasság és kényelem elvesztésével jár, szemben a más privát böngészők nyújtotta lehetőségekkel.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+== A legerősebb ujjlenyomat-védelem érdekében javasoljuk, hogy a Mullvad Browser-t VPN-nel **együtt** használja==, legyen az a Mullvad vagy egy másik ajánlott VPN szolgáltató. Amikor VPN-el együtt használod a Mullvad Böngészőt, akkor egy ujjlenyomatot és egy IP-címtartományt osztasz meg sok más felhasználóval, így elvegyülhetsz a "tömegben". Ez a stratégia az egyetlen módja a fejlett nyomkövető szkriptek meghiúsításának, és ugyanezt az ujjlenyomat-ellenes technikát használja a Tor Böngésző is.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+Fontos megjegyezni, hogy bár a Mullvad Böngészőt bármely VPN szolgáltatóval használhatod, más embereknek is ezt a VPN-t kell használniuk a "tömeg" létrehozásához, amely valószínűbb a Mullvad VPN-nél más szolgáltatókhoz képest, különösen a Mullvad Böngésző indulását követő időszakban. A Mullvad Böngészőnek nincs beépített VPN kapcsolódási lehetősége, és nem ellenőrzi, hogy VPN-t használsz-e a böngészés előtt; a VPN kapcsolatot külön kell konfigurálni és kezelni.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically [don't recommend](#extensions) adding *additional* browser extensions, these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+A Mullvad Böngésző előre telepített *uBlock Origin* és *NoScript* böngészőbővítményekkel érkezik. Bár általában [nem javasoljuk](#extensions) *további* böngészőbővítmények hozzáadását, ezeket a böngészővel előre telepített bővítményeket **nem** szabad eltávolítani vagy az alapértelmezett értékeken kívül konfigurálni, mivel ez észrevehetően megkülönböztetné a böngésző ujjlenyomatát a többi Mullvad Böngésző-felhasználótól. A Mullvad böngészőbővítmény is előre telepítve van, amely biztonságosan *eltávolítható* a böngésző ujjlenyomatának befolyásolása nélkül, ha szeretné, de akkor is biztonságosan megtartható, ha nem használja a Mullvad VPN-t.
 
-### Private Browsing Mode
+### Privát böngészési mód
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+A Mullvad Browser állandó privát böngészési módban működik, ami azt jelenti, hogy az előzmények, sütik és egyéb webhelyadatok mindig törlődnek, amikor a böngészőt bezárod. A könyvjelzőid, böngészőbeállításaid és a bővítménybeállítások továbbra is megmaradnak.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+Ez szükséges az előrehaladott követési formák megakadályozásához, azonban cserébe fel kell áldoznunk némi kényelmet és néhány Firefox funkciót, például a többfiókos konténereket. Ne felejtsd el, hogy mindig használhatsz több böngészőt. Például megfontolhatod a Firefox és az Arkenfox egyidejű használatát néhány olyan weboldalhoz, amelyeken bejelentkezve maradnál, vagy amelyek nem működnek megfelelően a Mullvad Böngészőben, míg általános böngészéshez használhatod a Mullvad Böngészőt.
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes preinstalled with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly (which is why it is limited to paying subscribers), however because of this limitation it is possible for Mullvad to correlate search queries and Mullvad VPN accounts. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+A Mullvad Browser alapértelmezett [keresőmotorja](search-engines.md) a DuckDuckGo, de a **Mullvad Leta** keresőmotor is előre telepítve van, amelyhez aktív Mullvad VPN előfizetés szükséges. A Mullvad Leta közvetlenül a Google fizetős keresési API-ját használja (ezért korlátozzák a használatát az előfizetőkre), azonban ennek a korlátozásnak köszönhetően a Mullvad össze tudja kapcsolni a keresési lekérdezéseket és a Mullvad VPN fiókokat. Ezért nem javasoljuk a Mullvad Leta használatát, még akkor sem, ha a Mullvad nagyon kevés információt gyűjt a VPN-előfizetőiről.
 
 ## Firefox
 
