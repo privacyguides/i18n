@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: Képek feltöltése
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+Íme néhány általános szabály a Privacy Guides-hoz való hozzájáruláshoz:
 
-## Images
+## Képek
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- **Előnyben részesítjük** az SVG képeket, de ha ilyenek nem léteznek, használhatunk PNG képeket is
 
-Company logos have canvas size of:
+A vállalati logók mérete:
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## Optimalizálás
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
+Használd az [OptiPNG-t](https://sourceforge.net/projects/optipng) a PNG kép optimalizálásához:
 
 ```bash
 optipng -o7 file.png
@@ -29,12 +29,12 @@ optipng -o7 file.png
 
 [Scour](https://github.com/scour-project/scour) all SVG images.
 
-In Inkscape:
+Inkscape-ben:
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. Fájl > Mentés másként..
+2. Típus beállítása: Optimalizált SVG (*.svg)
 
-In the **Options** tab:
+A **Beállítások** lapon:
 
 - **Number of significant digits for coordinates** > **5**
 - [x] Turn on **Shorten color values**
@@ -71,7 +71,7 @@ In the **IDs** tab:
 
 #### CLI
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+Ugyanez érhető el a [Scour](https://github.com/scour-project/scour) paranccsal is:
 
 ```bash
 scour --set-precision=5 \

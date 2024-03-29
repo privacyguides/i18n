@@ -80,7 +80,7 @@ A **Tor Böngésző** a legjobb választás, ha anonimitásra van szükséged, m
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Vigyázat!</p>
 
 **Soha** nem telepíts semmilyen további bővítményt a Tor Böngészőre vagy szerkeszd az `about:config` beállításokat, beleértve azokat is, amelyeket a Firefoxhoz javasolunk. A böngésző bővítmények és a nem alap beállítások miatt kitűnsz a Tor-hálózat többi felhasználója közül, így téve a böngésződ könnyebben [fingerprintelhetővé](https://support.torproject.org/glossary/browser-fingerprinting).
 
@@ -136,11 +136,11 @@ Minden verzió ugyanazzal az aláírással van aláírva, így kompatibilisnek k
 
 Az **Onion Browser** egy nyílt forráskódú böngésző, amely lehetővé teszi a Tor-hálózaton keresztüli anonim böngészést iOS-eszközökön, és amelyet a [Tor Project](https://support.torproject.org/glossary/onion-browser) támogat.
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+[:octicons-home-16: Honlap](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Adatvédelmi tájékoztató" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Dokumentáció}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Forráskód" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Támogatás}
 
 <details class="downloads" markdown>
 <summary>Letöltés</summary>
@@ -162,12 +162,12 @@ Az **Onion Browser** egy nyílt forráskódú böngésző, amely lehetővé tesz
 
 A **Snowflake** lehetővé teszi, hogy sávszélességet adományozz a Tor projektnek azáltal, hogy egy "Snowflake proxy"-t működtetsz a böngésződben.
 
-Azok, akik cenzúra alatt állnak, Snowflake proxykat tudnak használni a Tor-hálózathoz való csatlakozáshoz. A Snowflake egy nagyszerű módja annak, hogy hozzájárulj a hálózathoz, még akkor is, ha nincs meg a technikai tudásod egy Tor elosztó vagy híd üzemeltetéséhez.
+Azok, akiket cenzúráznak, Snowflake proxykat használhatnak a Tor-hálózathoz való csatlakozáshoz. A Snowflake egy nagyszerű módja annak, hogy hozzájárulj a hálózathoz, még akkor is, ha nincs meg a technikai tudásod egy Tor elosztó vagy híd üzemeltetéséhez.
 
-[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-home-16: Honlap](https://snowflake.torproject.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentáció}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Forráskód" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Támogatás}
 
 </details>
 
@@ -177,8 +177,8 @@ A Snowflake-et engedélyezheted a böngésződben úgy, hogy megnyitod azt egy m
 
 [A Snowflake futtatása böngészőben :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
 
-A Snowflake semmilyen módon nem növeli az magánéletedet, és a személyes böngésződön keresztül a Tor-hálózathoz kapcsolódni sem használatos. Ha azonban az internetkapcsolatod nincs cenzúrázva, érdemes megfontolni a futtatását, hogy segíts cenzúrázott hálózatokon lévő személyeknek jobb magánéletet elérni. Nem kell aggódnod amiatt, hogy személyek milyen weboldalakhoz férnek hozzá a proxydon keresztül - a látható böngészési IP-címük majd megegyezik a Tor kilépő csomópontjukkal nem pedig tieddel.
+A Snowflake semmilyen módon nem növeli az magánéletedet, és a személyes böngésződön keresztül a Tor-hálózathoz kapcsolódni sem használatos. Ha azonban az internetkapcsolatod nincs cenzúrázva, érdemes megfontolni a futtatását, hogy segíts cenzúrázott hálózatokon lévő személyeknek jobb magánéletet elérni. Nem kell aggódnod amiatt, hogy személyek milyen weboldalakhoz férnek hozzá a proxydon keresztül – a látható böngészési IP-címük a Tor kilépő csomópontjukkal egyezik majd meg, nem pedig tieddel.
 
-Egy Snowflake proxy futtatása alacsony kockázatú, még inkább, mint egy Tor elosztó vagy híd futtatása, amelyek már eleve sem különösebben kockázatos vállalkozások. Ettől függetlenül még mindig forgalom kerül átküldésre a hálózatodon ami bizonyos szempontból hatással lehet arra, különösen, ha a hálózatod sávszélessége korlátozott. Győződj meg róla, hogy érted [hogyan működik a Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) mielőtt eldöntöd, hogy futtatsz-e proxyt.
+Egy Snowflake proxy futtatása alacsony kockázatú, még inkább, mint egy Tor elosztó vagy híd futtatása, amelyek már eleve sem különösebben kockázatos vállalkozások. Ugyanakkor a hálózaton keresztül történő forgalom átvitelére is képes, ami bizonyos szempontból hatással lehet, különösen, ha a hálózat sávszélessége korlátozott. Győződj meg róla, hogy érted [hogyan működik a Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home), mielőtt eldöntöd, hogy futtatsz-e proxyt.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: Az `IsolateDestAddr` beállításról a [Tor levelezési listán](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) és a [Whonix Stream Isolation dokumentációjában](https://whonix.org/wiki/Stream_Isolation) is szó esik, ahol mindkét projekt azt javasolja, hogy ez általában nem jó megközelítés a legtöbb ember számára.

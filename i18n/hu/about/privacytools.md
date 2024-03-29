@@ -4,13 +4,13 @@ title: "PrivacyTools GYIK"
 
 # Why we moved on from PrivacyTools
 
-In September 2021, every active contributor unanimously agreed to move from PrivacyTools to work on this site: Privacy Guides. This decision was made because PrivacyTools’ founder and controller of the domain name had disappeared for an extended period of time and could not be contacted.
+2021 szeptemberében minden aktív közreműködőnk egyhangúlag beleegyezett abba, hogy a PrivacyToolsról átköltözik a Privacy Guides oldalra. Erre a döntésre azért került sor, mert a PrivacyTools alapítója és a domain név kezelője hosszabb időre eltűnt, és nem lehetett kapcsolatba lépni vele.
 
-Having built a reputable site and set of services on PrivacyTools.io, this caused grave concerns for the future of PrivacyTools, as any future disruption could wipe out the entire organization with no recovery method. This transition was communicated to the PrivacyTools community many months in advance via a variety of channels including its blog, Twitter, Reddit, and Mastodon to ensure the entire process went as smoothly as possible. We did this to ensure nobody was kept in the dark, which has been our modus operandi since our team was created, and to make sure Privacy Guides was recognized as the same reliable organization that PrivacyTools was before the transition.
+Miután a PrivacyTools.io jó hírű webhelyet és szolgáltatáscsomagot épített, ez komoly aggodalmakat okozott a PrivacyTools jövőjét illetően, mivel bármilyen jövőbeli zavar a teljes szervezetet eltörölhette volna, helyreállítási lehetőség nélkül. Az átállásról a PrivacyTools közösséget már hónapokkal korábban tájékoztatták különböző csatornákon keresztül, többek között a blogon, a Twitteren, a Redditen és a Mastodonon keresztül, hogy az egész folyamat a lehető legsimábban menjen végbe. Ezt azért tettük, hogy senki ne maradjon a sötétben, ami a csapatunk megalakulása óta a mi módszereink közé tartozik, és hogy a Privacy Guides-t ugyanolyan megbízható szervezetként ismerjék el, mint amilyen a PrivacyTools volt az átállás előtt.
 
-After the organizational move was completed, the founder of PrivacyTools returned and began to spread misinformation about the Privacy Guides project. They continue to spread misinformation in addition to operating a paid link farm on the PrivacyTools domain. We are creating this page to clear up any misconceptions.
+Miután a szervezeti költözés befejeződött, a PrivacyTools alapítója visszatért, és félretájékoztatást kezdett terjeszteni az Adatvédelmi útmutatók projektről. Továbbra is félretájékoztatást osztanak meg, emellett fizetett linkfarmot működtetnek a PrivacyTools domainjén. Ezt az oldalt azért hoztuk létre, hogy tisztázzuk a tévhiteket.
 
-## What is PrivacyTools?
+## Mi az a PrivacyTools?
 
 PrivacyTools was created in 2015 by "BurungHantu," who wanted to make a privacy information resource - helpful tools following the Snowden revelations. The site grew into a flourishing open-source project with [many contributors](https://github.com/privacytools/privacytools.io/graphs/contributors), some eventually given various organizational responsibilities, such as operating online services like Matrix and Mastodon, managing and reviewing changes to the site on GitHub, finding sponsors for the project, writing blog posts and operating social media outreach platforms like Twitter, etc.
 
