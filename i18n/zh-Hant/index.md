@@ -40,7 +40,7 @@ schema:
 <!-- markdownlint-disable-next-line -->
 ## 為何我該關心？
 
-##### “我沒有什麼可隱瞞的。 為何我該在意自己的隱私？
+##### “我沒有什麼可隱瞞的。 為何我該在意自己的隱私？”
 
 就像異族通婚、女性投票權、言論自由等等權利，隱私權並非總是好好地受保障 在一些獨裁政權下，根本無隱私可言 前人已為隱私權奮鬥了數個世代 ==隱私作為一種人權，是人人生而固有的權利== ，每個人都應當 (不受歧視地) 享受此權利。
 
@@ -48,26 +48,26 @@ schema:
 
 [:material-book-outline: 為什麼隱私很重要](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
-## 我該怎麼辦
+## 我該怎麼做？
 
 ##### 首先，您需要製定計劃
 
-冀望您所有的資料完全免受任何人的侵害是不實際、昂貴且耗神的。 但別擔心 安全是一種過程，向前思考以製定出一個適合您的正確計劃。 安全性不是只限於您使用的工具或下載的軟件。 相反，它始於了解您面臨的獨特威脅，以及如何減輕它們。
+冀望您所有的資料完全免受任何人的侵害是不實際、昂貴且耗神的。 但是別擔心！ 安全是一種過程，向前思考以制定出一個適合您的計劃。 安全並不僅僅只限於您使用的工具或下載的軟件。 相反，它始於了解您面臨的獨特威脅，以及如何減輕它們。
 
-==這個識別威脅和定義對策的過程稱為 **威脅模型**== ，它構成了完整安全和隱私計劃的基礎。
+==這個識別威脅和定義對策的過程稱為 **威脅模型**== ，它構成了所有安全及隱私計劃的基礎。
 
-[:material-book-outline: 了解更多關於威脅建模](basics/threat-modeling.md){class = "md-button md-button--primary"}
+[:material-book-outline: 了解威脅建模](basics/threat-modeling.md){ class = "md-button md-button--primary" }
 
 ---
 
-## 我们需要你！ 參與方式如下：
+## 我們需要你！ 參與方式如下：
 
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
+[:simple-discourse:](https://discuss.privacyguides.net){ title="加入我們的論壇" }
+[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="在 Mastodon 上跟隨我們" }
+[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="為這個網站做出貢獻" }
+[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="幫助翻譯這個網站" }
+[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="在 Matrix 上與我們交談" }
+[:material-information-outline:](about/index.md){ title="了解更多關於我們的資訊" }
+[:material-hand-coin-outline:](about/donate.md){ title="支持這個項目" }
 
-像 Privacy Guides 這類網站必須維持最新狀態。 我們需要觀眾留意網站上列出的應用程式的軟體更新，並掌握推薦供應商的最新消息。 跟上互聯網快速變化並不容易，但我們盡力而為。 如果您發現錯誤、認為不應該列出提供商、注意到沒列上的適格提供商、認為瀏覽器附加元件不再是最佳選擇或發現任何其他問題，請告訴我們。
+像 Privacy Guides 這類的網站必須隨時保持最新狀態。 我們需要觀眾留意網站上列出的應用程式的軟體更新，並掌握推薦供應商的最新消息。 跟上互聯網快速變化並不容易，但我們盡力而為。 如果您發現錯誤，認為某個提供商不應該列出、注意到某個合格的提供商不在列表上、認為某個瀏覽器附加元件不再是最佳選擇，或發現任何其他問題，請告訴我們。
