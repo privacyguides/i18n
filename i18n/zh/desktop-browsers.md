@@ -253,13 +253,12 @@ Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟�
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux) (1)
+- [:simple-linux: Linux](https://brave.com/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>
 
 </div>
-
-1. 我们建议不要使用Flatpak版本的Brave，因为它用Flatpak的沙箱代替了Chromium的沙箱，效果较差。 此外，该软件包并非由Brave Software, Inc.维护。
 
 **macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
 

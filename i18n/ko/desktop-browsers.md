@@ -241,13 +241,12 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux) (1)
+- [:simple-linux: Linux](https://brave.com/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>
 
 </div>
-
-1. Flatpak 버전 Brave는 Chromium의 샌드박스 기능을 효과가 떨어지는 Flatpak 샌드박스로 대체하기 때문에, Flatpak 버전은 사용하지 않는 것이 좋습니다. 또한, 해당 패키지는 Brave Software, Inc.에서 직접 관리하는 패키지가 아닙니다.
 
 **macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
 

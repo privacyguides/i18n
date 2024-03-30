@@ -241,13 +241,12 @@ Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moete
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux) (1)
+- [:simple-linux: Linux](https://brave.com/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>
 
 </div>
-
-1. We raden af om de Flatpak-versie van Brave te gebruiken, omdat die de sandbox van Chromium vervangt door die van Flatpak, wat minder effectief is. Bovendien wordt het pakket niet onderhouden door Brave Software, Inc.
 
 **macOS-gebruikers:** De download van Brave Browser van hun officiële website is een `.pkg` installatieprogramma dat beheerdersrechten vereist om uit te voeren (en het kan andere onnodige scripts uitvoeren op uw machine). Als een alternatief kunt u de laatste `Brave-Browser-universal.dmg` file downloaden van hun [GitHub releases](https://github.com/brave/brave-browser/releases/latest) pagina, die een traditionele "Sleep naar Applicaties map" installatie biedt.
 

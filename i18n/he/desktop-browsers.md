@@ -241,13 +241,12 @@ Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור ל�
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux) (1)
+- [:simple-linux: Linux](https://brave.com/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>
 
 </div>
-
-1. אנו ממליצים לא להשתמש בגרסת Flatpak של Brave, מכיוון שהיא מחליפה את ארגז החול של Chromium ב-Flatpak, שהוא פחות יעיל. בנוסף, החבילה אינה מתוחזקת על ידי Brave Software, Inc.
 
 **משתמשי macOS:** ההורדה של Brave Browser מהאתר הרשמי שלהם היא מתקין `.pkg` הדורש הרשאות מנהל כדי לפעול (ועשוי להפעיל סקריפטים מיותרים אחרים במחשב שלך). כחלופה, אתה יכול להוריד את הקובץ האחרון `Brave-Browser-universal.dmg` מעמוד[ההפצות גיטהאב ](https://github.com/brave/brave-browser/releases/latest)שלהם, המספק התקנה מסורתית של "גרור לתיקיית יישומים".
 

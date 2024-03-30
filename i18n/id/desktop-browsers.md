@@ -241,13 +241,12 @@ Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya teras
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux) (1)
+- [:simple-linux: Linux](https://brave.com/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>
 
 </div>
-
-1. We advise against using the Flatpak version of Brave, as it replaces Chromium's sandbox with Flatpak's, which is less effective. Additionally, the package is not maintained by Brave Software, Inc.
 
 **pengguna macOS:** Unduhan untuk Brave Browser dari situs web resmi mereka adalah penginstal `.pkg` yang membutuhkan hak akses admin untuk menjalankannya (dan mungkin menjalankan skrip lain yang tidak perlu di komputer Anda). Sebagai alternatif, Anda bisa mengunduh file `Brave-Browser-universal.dmg` terbaru dari laman [rilis GitHub](https://github.com/brave/brave-browser/releases/latest), yang menyediakan instalasi "seret ke folder Aplikasi".
 

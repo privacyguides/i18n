@@ -241,13 +241,12 @@ Brave est basé sur le projet de navigateur Web Chromium. Il devrait donc vous �
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux) (1)
+- [:simple-linux: Linux](https://brave.com/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>
 
 </div>
-
-1. Nous vous déconseillons d'utiliser la version Flatpak de Brave, car elle remplace la sandbox de Chromium par celle de Flatpak, qui est moins efficace. De plus, le paquet n'est pas maintenu par Brave Software, Inc.
 
 **Utilisateurs de macOS :** Le téléchargement du navigateur Brave depuis leur site officiel est un programme d'installation `.pkg` qui nécessite des privilèges d'administrateur pour être exécuté (et peut exécuter d'autres scripts inutiles sur votre machine). Vous pouvez également télécharger le dernier fichier `Brave-Browser-universal.dmg` à partir de la page [releases sur GitHub](https://github.com/brave/brave-browser/releases/latest), qui permet une installation traditionnelle par "glisser vers le dossier Applications".
 

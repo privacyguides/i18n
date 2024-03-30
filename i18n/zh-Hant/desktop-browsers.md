@@ -236,18 +236,17 @@ Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有�
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-windows11: Windows](https://brave.com/download/)
-- [:simple-apple: macOS](https://brave.com/download/)
-- [:simple-linux: Linux](https://brave.com/linux/) (1)
+- [:simple-windows11: Windows](https://brave.com/download)
+- [:simple-apple: macOS](https://brave.com/download)
+- [:simple-linux: Linux](https://brave.com/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>
 
 </div>
-
-1. 我們建議不要使用 Flatpak 版本的Brave ，因為它將 Chromium沙盒替換為 Flatpak 沙盒，後者不太有效。 此外，該套件並非由Brave Software, Inc.維護。
 
 **macOS 用戶：** 從 Brave 官網下載副檔名 `.pkg` 的安裝器，此需管理員權限方可執行(也可能會需執行其它非必要腳本在機器上)。 或者，自 [GitHub 發佈](https://github.com/brave/brave-browser/releases/latest) 頁下載 `Brave-Browser-universal.dmg`，其提供傳統"拖曳至應用程式資料夾"的安裝方式。
 
