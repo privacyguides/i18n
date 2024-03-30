@@ -239,15 +239,6 @@ As listas de filtros adicionais tornam as coisas mais lentas e podem aumentar a 
 
 **Por favor, note que não somos afiliados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrões](about/criteria.md), desenvolvemos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por utilizar um projeto e que faça a sua própria investigação para garantir que é a escolha certa para si.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
-
-</div>
-
 ### Requisitos Mínimos
 
 - Deve suportar atualizações automáticas.

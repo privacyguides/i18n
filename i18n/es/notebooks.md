@@ -152,13 +152,6 @@ Cryptee ofrece 100MB de almacenamiento gratuito, con opciones de pago si necesit
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten proporcionar recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir usar un proyecto, y que lleves a cabo tu propia investigación para asegurarte de que es la elección correcta para ti.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Esta sección es nueva</p>
-
-Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
-
-</div>
-
 - Los clientes deben ser de código abierto.
 - Cualquier funcionalidad de sincronización en la nube debe ser E2EE.
 - Debe permitir exportar documentos a un formato estándar.

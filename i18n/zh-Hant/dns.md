@@ -28,13 +28,6 @@ global:
 
 **請注意，我們這裏所推薦專案沒有任何牽扯。 ** 除了 [我們的標準準則](about/criteria.md)外，還有一套明確要求以提出客觀建議。 我們建議您在選擇使用任何項目之前先熟悉此列表，並進行自己的研究，以確保您的正確選擇。
 
-<div class="admonition example" markdown>
-<p class="admonition-title">此部份新增</p>
-
-我們正在努力為這個網站的各個部分建立明確標準，它可能依情況變化。 如果您對我們的標準有任何疑問，請[在我們的論壇上提問] (https://discuss.privacyguides.net/latest) ，不要因為未列出而認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個專案時，會考慮和討論許多因素，記錄每一個項目都是一件持續的工作。
-
-</div>
-
 - 必須支援 [ DNSSEC ](advanced/dns-overview.md#what-is-dnssec)。
 - [QNAME 最小化](advanced/dns-overview.md#what-is-qname-minimization).
 - 可讓 [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs)禁用 。

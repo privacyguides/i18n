@@ -28,13 +28,6 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 **Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, verbunden sind.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen, sich mit dieser Liste vertraut zu machen, bevor sich für ein Projekt entschieden wird und eigenen Nachforschungen anzustellen, um sicherzustellen, dass es die richtige Wahl ist.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Dieser Abschnitt ist neu</p>
-
-Wir arbeiten daran, definierte Kriterien für jeden Bereich unserer Website festzulegen, daher kann dies sich noch ändern. Bei Fragen zu unseren Kriterien, können diese [in unserem Forum] (https://discuss.privacyguides.net/latest) gestellt werden. Und gehen Sie nicht davon aus, dass wir etwas bei unseren Empfehlungen nicht berücksichtigt haben, wenn es hier nicht aufgeführt ist. Es gibt viele Faktoren, die berücksichtigt und besprochen werden, wenn wir ein Projekt empfehlen, und die Dokumentation jedes einzelnen Faktors ist ein laufender Prozess.
-
-</div>
-
 - Muss [DNSSEC](advanced/dns-overview.md#what-is-dnssec) unterstützen.
 - [QNAME Minimierung](advanced/dns-overview.md#what-is-qname-minimization).
 - Erlaubt es [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) zu deaktivieren.

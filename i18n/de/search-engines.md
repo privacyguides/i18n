@@ -112,13 +112,6 @@ Der Mehrheitsaktionär von Startpage ist System1, ein Werbeunternehmen. Wir glau
 
 **Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Wir arbeiten daran, für jeden Bereich unserer Website genaue Kriterien festzulegen, die sich möglicherweise noch ändern werden. Wenn du irgendwelche Fragen zu unseren Kriterien hast, frage bitte [in unserem Forum](https://discuss.privacyguides.net/latest) und gehe nicht davon aus, dass wir etwas bei unseren Empfehlungen nicht berücksichtigt haben, nur weil es hier nicht aufgeführt ist. Es gibt viele Faktoren, die berücksichtigt und diskutiert werden, wenn wir ein Projekt empfehlen, und die Dokumentation jedes einzelnen Faktors ist ein laufender Prozess.
-
-</div>
-
 ### Mindestanforderungen
 
 - Darf keine persönlich identifizierbaren Informationen gemäß ihrer Datenschutzrichtlinie sammeln.

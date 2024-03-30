@@ -61,18 +61,6 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** là một pastebin trực tuyến mã nguồn mở, tối giản, nơi máy chủ không có kiến ​​thức về dữ liệu đã dán. Dữ liệu được mã hóa/giải mã trong trình duyệt bằng 256-bit AES. tải xuống
-
-    - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
-    - [:fontawesome-brands-github: Mã nguồn](https://github.com/dani-garcia/vaultwarden)
-
-</div>
-
 - Allows the creation of multiple cards which function as a shield between the merchant and your personal finances.
 - Cards must not require you to provide accurate billing address information to the merchant.
 
@@ -99,18 +87,6 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 ### Framadate
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** là một pastebin trực tuyến mã nguồn mở, tối giản, nơi máy chủ không có kiến ​​thức về dữ liệu đã dán. Dữ liệu được mã hóa/giải mã trong trình duyệt bằng 256-bit AES. tải xuống
-
-    - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
-    - [:fontawesome-brands-github: Mã nguồn](https://github.com/dani-garcia/vaultwarden)
-
-</div>
 
 - Accepts payment in [a recommended cryptocurrency](cryptocurrency.md).
 - No ID requirement.

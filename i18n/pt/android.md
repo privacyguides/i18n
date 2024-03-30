@@ -425,13 +425,6 @@ In some rare cases, the developer of an app will only distribute it through F-Dr
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Estamos a trabalhar no sentido de estabelecer critérios definidos para cada secção do nosso sítio, o que pode estar sujeito a alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum](https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
-
-</div>
-
 ### Sistemas Operativos
 
 - O software deve ser de código aberto.

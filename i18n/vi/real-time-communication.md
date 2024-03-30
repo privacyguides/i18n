@@ -214,18 +214,6 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** là một pastebin trực tuyến mã nguồn mở, tối giản, nơi máy chủ không có kiến ​​thức về dữ liệu đã dán. Dữ liệu được mã hóa/giải mã trong trình duyệt bằng 256-bit AES. tải xuống
-
-    - [:fontawesome-brands-docker: Dockerhub](https://hub.docker.com/r/vaultwarden/server)
-    - [:fontawesome-brands-github: Mã nguồn](https://github.com/dani-garcia/vaultwarden)
-
-</div>
-
 - Has open-source clients.
 - Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
 - Uses E2EE for private messages by default.

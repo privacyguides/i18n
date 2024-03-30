@@ -28,13 +28,6 @@ DNS criptografado com servidores de terceiros só deve ser usado para contornar 
 
 **Por favor, note que não somos parceiros de nenhum dos produtos que recomendamos.** Além de [nossos requisitos básicos](about/criteria.md), desenvolvemos um conjunto claro de requisitos para nos permitir fornecer recomendações objetivas. Recomendamos que você se familiarize com esta lista antes de escolher usar um produto, e que faça sua própria pesquisa para garantir que o produto escolhido é o ideal para você.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Estamos trabalhando para estabelecer requisitos definidos para cada seção de nosso site, e isto pode estar sujeito a mudanças. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-
-</div>
-
 - Deve suportar [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [Minimização QNAME](advanced/dns-overview.md#what-is-qname-minimization).
 - Permitir que [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) seja desativado.

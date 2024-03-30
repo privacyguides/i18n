@@ -89,13 +89,6 @@ cover: photo-management.webp
 
 請注意，我們所推薦專案沒有任何瓜葛。 除[標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-<div class="admonition example" markdown>
-<p class="admonition-title">此部份新增</p>
-
-我們正在努力為我們網站的每個部分建立定義的標準，這可能會有所變化。 如果您對我們的標準有任何疑問，請在 [論壇上提問](https://discuss.privacyguides.net/latest) ，如果沒有列出，請不要認為我們在提出建議時沒有考慮到某些事情。 當我們推薦一個項目時，有許多因素被考慮和討論，記錄每一個項目都是正在進行式。
-
-</div>
-
 ### 最低合格要求
 
 - 雲端託管提供者須強制執行端對端加密。

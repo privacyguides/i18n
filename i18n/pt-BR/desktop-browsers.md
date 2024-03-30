@@ -426,13 +426,6 @@ uBlock Origin Lite only receives block list updates whenever the extension is up
 
 **Por favor, note que não somos parceiros de nenhum dos produtos que recomendamos.**Em adição aos[nossos critérios básicos](about/criteria.md), desenvolvemos um conjunto claro de requisitos para nos permitir fornecer recomendações objetivas. Recomendamos que você se familiarize com esta lista antes de escolher usar um produto, e que faça sua própria pesquisa para garantir que o produto escolhido é o ideal para você.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Estamos trabalhando para estabelecer critérios definidos para cada seção de nosso site, e isto pode estar sujeito a mudanças. Se você tiver alguma dúvida sobre nossos critérios, por favor [pergunte em nosso fórum](https://discuss.privacyguides.net/latest) e não assuma que não consideramos algo ao fazer nossas recomendações se não estiver listado aqui. Há muitos fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em andamento.
-
-</div>
-
 ### Requisitos Mínimos
 
 - Deve ser um software de código aberto.

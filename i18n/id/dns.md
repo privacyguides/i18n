@@ -28,13 +28,6 @@ DNS terenkripsi dengan server pihak ketiga sebaiknya hanya digunakan untuk menga
 
 **Harap dicatat bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami menyarankan agar Anda mengenal lebih lanjut daftar di bawah ini sebelum memutuskan untuk menggunakan project tertentu. Selalu lakukan riset sendiri untuk memastikan bahwa project tersebut adalah pilihan yang tepat untuk Anda.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Kami sedang berupaya menetapkan kriteria yang ditentukan untuk setiap bagian dari situs kami, dan hal ini dapat berubah sewaktu-waktu. Jika Anda memiliki pertanyaan tentang kriteria kami, silakan [tanyakan di forum kami](https://discuss.privacyguides.net/latest) dan jangan berasumsi bahwa kami tidak mempertimbangkan sesuatu saat membuat rekomendasi jika tidak tercantum di sini. Ada banyak faktor yang dipertimbangkan dan didiskusikan saat kami merekomendasikan sebuah proyek, dan mendokumentasikan setiap faktor tersebut merupakan pekerjaan yang sedang berjalan.
-
-</div>
-
 - Harus mendukung [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [Minimalisasi QNAME](advanced/dns-overview.md#what-is-qname-minimization).
 - Mengizinkan [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) untuk dinonaktifkan.

@@ -61,13 +61,6 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Sitemizin her bölümü için tanımlanmış kriterler oluşturmaya çalışıyoruz ve bu değişebilir. Kriterlerimizle ilgili herhangi bir sorunuz varsa, lütfen [forumumuzda sorun](https://discuss.privacyguides.net/latest) ve burada listelenmemişse, önerilerimizi yaparken dikkate almadığımızı düşünmeyin. Bir projeyi önerdiğimizde dikkate alınan ve tartışılan birçok faktör vardır ve her birini belgelemek için çalışmaya devam ediyoruz.
-
-</div>
-
 - Şifresi çözülmüş verileri uzak bir sunucuda depolamamalıdır.
 - Açık kaynaklı yazılım olmalıdır.
 - Linux, macOS ve Windows için istemcilere sahip olmalı veya bir web arayüzüne sahip olmalıdır.
@@ -155,13 +148,6 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 ### Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-
-</div>
 
 #### Minimum Requirements
 

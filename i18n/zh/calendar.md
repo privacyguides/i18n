@@ -68,13 +68,6 @@ Unfortunately, as of January 2024 Proton has [still](https://discuss.privacyguid
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-We are working on establishing defined criteria for every section of our site, and this may be subject to change. If you have any questions about our criteria, please [ask on our forum](https://discuss.privacyguides.net/latest) and don't assume we didn't consider something when making our recommendations if it is not listed here. There are many factors considered and discussed when we recommend a project, and documenting every single one is a work-in-progress.
-
-</div>
-
 ### Minimum Qualifications
 
 - 必须与E2EE同步并存储信息，以确保数据对服务提供者不可见。

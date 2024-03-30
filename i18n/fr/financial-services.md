@@ -61,13 +61,6 @@ Les cartes virtuelles de MySudo ne sont actuellement disponibles que via leur ap
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Cette section est nouvelle</p>
-
-Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
-
-</div>
-
 - Permet de créer plusieurs cartes qui servent de bouclier entre le commerçant et vos finances personnelles.
 - Les cartes ne doivent pas vous obliger à fournir au commerçant des informations exactes sur l'adresse de facturation.
 
@@ -94,13 +87,6 @@ Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de 
 ### Critères
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">Cette section est nouvelle</p>
-
-Nous travaillons à l'établissement de critères définis pour chaque section de notre site, et celles-ci peuvent être sujet à changement. Si vous avez des questions sur nos critères, veuillez [poser la question sur notre forum](https://discuss.privacyguides.net/latest) et ne supposez pas que nous n'avons pas pris en compte un élément dans nos recommandations s'il ne figure pas dans la liste. De nombreux facteurs sont pris en compte et discutés lorsque nous recommandons un projet, et la documentation de chacun d'entre eux est en cours.
-
-</div>
 
 - Accepte les paiements dans [une crypto-monnaie recommandée](cryptocurrency.md).
 - Pas d'obligation d'identification.

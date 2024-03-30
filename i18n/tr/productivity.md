@@ -66,13 +66,6 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Sitemizin her bölümü için tanımlanmış kriterler oluşturmaya çalışıyoruz ve bu değişebilir. Kriterlerimizle ilgili herhangi bir sorunuz varsa, lütfen [forumumuzda sorun](https://discuss.privacyguides.net/latest) ve burada listelenmemişse, önerilerimizi yaparken dikkate almadığımızı düşünmeyin. Bir projeyi önerdiğimizde dikkate alınan ve tartışılan birçok faktör vardır ve her birini belgelemek için çalışmaya devam ediyoruz.
-
-</div>
-
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
 
 - Open source.
@@ -150,13 +143,6 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 **Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Sitemizin her bölümü için tanımlanmış kriterler oluşturmaya çalışıyoruz ve bu değişebilir. Kriterlerimizle ilgili herhangi bir sorunuz varsa, lütfen [forumumuzda sorun](https://discuss.privacyguides.net/latest) ve burada listelenmemişse, önerilerimizi yaparken dikkate almadığımızı düşünmeyin. Bir projeyi önerdiğimizde dikkate alınan ve tartışılan birçok faktör vardır ve her birini belgelemek için çalışmaya devam ediyoruz.
-
-</div>
-
 Genel olarak, ofis programlarını çoğu ihtiyaç için Microsoft Word'ün yerine kullanılabilecek uygulamalar olarak tanımlıyoruz.
 
 - Çapraz platform olmalıdır.
@@ -187,13 +173,6 @@ Genel olarak, ofis programlarını çoğu ihtiyaç için Microsoft Word'ün yeri
 ### Criteria
 
 **Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Sitemizin her bölümü için tanımlanmış kriterler oluşturmaya çalışıyoruz ve bu değişebilir. Kriterlerimizle ilgili herhangi bir sorunuz varsa, lütfen [forumumuzda sorun](https://discuss.privacyguides.net/latest) ve burada listelenmemişse, önerilerimizi yaparken dikkate almadığımızı düşünmeyin. Bir projeyi önerdiğimizde dikkate alınan ve tartışılan birçok faktör vardır ve her birini belgelemek için çalışmaya devam ediyoruz.
-
-</div>
 
 #### Minimum Gereksinimler
 

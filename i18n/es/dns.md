@@ -28,13 +28,6 @@ Un DNS encriptado con servidores de terceros solo debe utilizarse para evitar el
 
 **Ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten proporcionar recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir usar un proyecto, y que lleves a cabo tu propia investigación para asegurarte de que es la elección correcta para ti.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Esta sección es nueva</p>
-
-Estamos trabajando para establecer criterios definidos para cada sección de nuestro sitio, y esto puede estar sujeto a cambios. Si tienes alguna pregunta sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos considerado algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Hay muchos factores que se consideran y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
-
-</div>
-
 - Debe soportar [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [Minimización QNAME](advanced/dns-overview.md#what-is-qname-minimization).
 - Permitir que [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) sea desactivado.

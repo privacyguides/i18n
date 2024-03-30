@@ -28,13 +28,6 @@ global:
 
 **عليك التنبُّه لأننا لسنا ذوي صلة بأيٍّ من المشاريع التي نوصي بها**، وزيادةً على [معاييرنا القياسية](about/criteria.md) فقد طوَّرنا مجموعة متطلَّبات تتيح لنا توصية توصيات موضوعية. ينبغي لك الاطِّلاع على هذه القائمة قبل الاختيار منها، وابحث بنفسك لتتيقَّن من أن ما اخترت يناسبك.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-لا نزال نجتهد في تعريف معايير واضحة لكلِّ قسم من صفحتنا، فلعلَّ هذا يتغيَّر. إن كانت لديك أيُّ أسئلة عن معاييرنا [فاسأل في منتدانا](https://discuss.privacyguides.net/latest)، ولا تظنَّنا غفلنا عن شيء ما لم يُذكر هنا. توجد العديد من الأوجه المناقَشة قبلما نوصي بمشروع، وتوثيقها كلها لا يزال جاريًا.
-
-</div>
-
 - يجب أن يدعم [إضافات الأمان لأنظمة أسماء النطاقات](advanced/dns-overview.md#what-is-dnssec).
 - [تدنية الأسماء المؤهَّلة](advanced/dns-overview.md#what-is-qname-minimization).
 - يسمح بتعطيل [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs).

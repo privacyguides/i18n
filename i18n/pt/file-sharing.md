@@ -61,13 +61,6 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **Por favor note que não somos afiliados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrões](about/criteria.md), nós desenvolvemos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por utilizar um projeto e que faça a sua própria investigação para garantir que é a escolha certa para si.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Estamos a trabalhar no sentido de estabelecer critérios definidos para cada secção do nosso sítio, o que pode estar sujeito a alterações. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
-
-</div>
-
 - Must not store decrypted data on a remote server.
 - O software deve ser de código aberto.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
@@ -157,15 +150,6 @@ Estamos a trabalhar no sentido de estabelecer critérios definidos para cada sec
 ### Framadate
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-![logo PrivateBin](/assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** é um pastebin online minimalista e de código aberto onde o servidor tem zero conhecimento de dados colados. Os dados são criptografados/descriptografados no navegador usando AES de 256 bits. Psono suporta compartilhamento seguro de senhas, arquivos, marcadores e e-mails.
-
-</div>
 
 #### Requisitos mínimos
 

@@ -28,13 +28,6 @@ Encrypted DNS with third-party servers should only be used to get around basic [
 
 **请注意，我们与我们推荐的任何项目都没有关系。** 除了 [我们的标准标准](about/criteria.md)，我们还制定了一套明确的要求，使我们能够提供客观的建议。 我们建议你在选择使用一个项目之前熟悉这个清单，并进行自己的研究以确保它是你的正确选择。
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-我们正在努力为我们网站的每个部分建立确定的标准，这可能会有变化。 如果你对我们的标准有任何疑问，请[在我们的论坛上提问](https://discuss.privacyguides.net/latest)，如果这里没有列出，不要以为我们在做推荐时没有考虑到什么。 当我们推荐一个项目时，有许多因素被考虑和讨论，而记录每一个因素是一项正在进行的工作。
-
-</div>
-
 - 必须支持 [DNSSEC](advanced/dns-overview.md#what-is-dnssec)。
 - [QNAME最小化](advanced/dns-overview.md#what-is-qname-minimization).
 - 允许 [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) 被禁用。

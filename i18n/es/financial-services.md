@@ -61,13 +61,6 @@ Por el momento, las tarjetas virtuales de MySudo solo están disponibles a trav�
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Esta sección es nueva</p>
-
-Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
-
-</div>
-
 - Permite la creación de múltiples tarjetas que funcionan como un escudo entre el comercio y sus finanzas personales.
 - Las tarjetas no deben exigirle que facilite al comercio información precisa sobre la dirección de facturación.
 
@@ -94,13 +87,6 @@ Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de
 ### Criterios
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">Esta sección es nueva</p>
-
-Estamos trabajando en establecer criterios definidos para cada sección de nuestra página, y esto puede estar sujeto a cambios. Si tienes alguna duda sobre nuestros criterios, por favor [pregunta en nuestro foro](https://discuss.privacyguides.net/latest) y no asumas que no hemos tenido en cuenta algo a la hora de hacer nuestras recomendaciones si no aparece aquí. Son muchos los factores que se tienen en cuenta y se debaten cuando recomendamos un proyecto, y documentar cada uno de ellos es un trabajo en curso.
-
-</div>
 
 - Acepta pagos en [una criptomoneda recomendada](cryptocurrency.md).
 - No exige identificación.

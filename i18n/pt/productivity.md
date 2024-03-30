@@ -66,13 +66,6 @@ O **CryptPad** é uma alternativa privada por design às ferramentas de escritó
 
 **Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
-
-</div>
-
 Em geral, definimos as plataformas de colaboração como suites completas que podem razoavelmente atuar como substitutos de plataformas de colaboração, como o Google Drive.
 
 - Open source.
@@ -150,13 +143,6 @@ O **LibreOffice** é uma suíte de escritório gratuita e de código aberto com 
 
 **Note que não estamos associados a nenhum dos projetos que recomendamos.**Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
-
-</div>
-
 Em geral, definimos suites de escritório como aplicações que podem razoavelmente substituir o Microsoft Word para a maioria das necessidades.
 
 - Devem ser multiplataforma.
@@ -187,13 +173,6 @@ O **PrivateBin** é um pastebin online minimalista e de código aberto, e cujo s
 ### Critérios
 
 **Note que não estamos associados a nenhum dos projetos que recomendamos.**Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
-
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Estamos a trabalhar no sentido de estabelecer critérios para cada secção do nosso site, o que pode originar alterações. Se tiver alguma dúvida sobre os critérios utilizados, por favor [pergunte no nosso fórum] (https://discuss.privacyguides.net/latest) e não parta do princípio de que algo foi excluído das nossas recomendações, caso não esteja listado aqui. São muitos os fatores considerados e discutidos quando recomendamos um projeto, e documentar cada um deles é um trabalho em curso.
-
-</div>
 
 #### Requisitos mínimos
 

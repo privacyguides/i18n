@@ -28,13 +28,6 @@ Versleutelde DNS met servers van derden zou alleen moeten worden gebruikt om sim
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaard criteria](about/criteria.md) hebben wij een duidelijke reeks eisen opgesteld om objectieve aanbevelingen te kunnen doen. We raden je aan deze lijst goed door te lezen voordat je een project kiest en je eigen onderzoek te doen om er zeker van te zijn dat het de juiste keuze voor jou is.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-We werken aan het vaststellen van gedefinieerde criteria voor elk deel van onze site, en dit kan onderhevig zijn aan verandering. Als je vragen hebt over onze criteria, stel ze dan [op ons forum](https://discuss.privacyguides.net/latest) en ga er niet van uit dat we iets niet in overweging hebben genomen bij het opstellen van onze aanbevelingen als het hier niet vermeld staat. Er zijn veel factoren die worden overwogen en besproken wanneer wij een project aanbevelen, en het documenteren van elke factor is een werk in uitvoering.
-
-</div>
-
 - Moet [DNSSEC](advanced/dns-overview.md#what-is-dnssec) ondersteunen.
 - [QNAME Minimalisatie](advanced/dns-overview.md#what-is-qname-minimization).
 - Toestaan dat [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) kan worden uitgeschakeld.

@@ -28,13 +28,6 @@ global:
 
 **Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir dizi gereklilik geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-<div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
-
-Sitemizin her bölümü için tanımlanmış kriterler oluşturmaya çalışıyoruz ve bu değişebilir. Kriterlerimizle ilgili herhangi bir sorunuz varsa, lütfen [forumumuzda sorun](https://discuss.privacyguides.net/latest) ve burada listelenmemişse, önerilerimizi yaparken dikkate almadığımızı düşünmeyin. Bir projeyi önerdiğimizde dikkate alınan ve tartışılan birçok faktör vardır ve her birini belgelemek devam eden bir çalışmadır.
-
-</div>
-
 - [DNSSEC](advanced/dns-overview.md#what-is-dnssec) desteklemelidir.
 - [QNAME Minimizasyonu](advanced/dns-overview.md#what-is-qname-minimization).
 - [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) adresinin devre dışı bırakılmasına izin verilmelidir.
