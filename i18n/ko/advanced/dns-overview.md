@@ -70,9 +70,7 @@ DNS는 [인터넷의 초창기](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt)는 DNS 쿼리를 암호화하는 최초의 방법 중 하나였습니다. DNSCrypt는 443 포트에서 작동하며, TCP/UDP 전송 프로토콜 모두에서 작동합니다. DNSCrypt는 [국제 인터넷 표준화 기구(IETF)](https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EC%9D%B8%ED%84%B0%EB%84%B7_%ED%91%9C%EC%A4%80%ED%99%94_%EA%B8%B0%EA%B5%AC)에 제출되지 않았고
-
-RFC 절차를 거치지 않았기 때문에, [일부 구현체](https://dnscrypt.info/implementations)를 제외하고는 널리 사용되지 않았습니다. 결과적으로, 보다 널리 사용되는 [DNS over HTTPS](#dns-over-https-doh)로 대체되었습니다.</p> 
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt)는 DNS 쿼리를 암호화하는 최초의 방법 중 하나였습니다. DNSCrypt는 443 포트에서 작동하며, TCP/UDP 전송 프로토콜 모두에서 작동합니다. DNSCrypt는 [국제 인터넷 표준화 기구(IETF)](https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EC%9D%B8%ED%84%B0%EB%84%B7_%ED%91%9C%EC%A4%80%ED%99%94_%EA%B8%B0%EA%B5%AC)에 제출되지 않았고RFC 절차를 거치지 않았기 때문에, [일부 구현체](https://dnscrypt.info/implementations)를 제외하고는 널리 사용되지 않았습니다. 결과적으로, 보다 널리 사용되는 [DNS over HTTPS](#dns-over-https-doh)로 대체되었습니다.</p> 
 
 
 
@@ -87,6 +85,32 @@ RFC 절차를 거치지 않았기 때문에, [일부 구현체](https://dnscrypt
 [**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS)는 [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484)에 정의되어 있으며, 쿼리를 [HTTP/2](https://ko.wikipedia.org/wiki/HTTP/2) 프로토콜에 패키징하여 HTTPS를 통해 보안을 제공합니다. Firefox 60, Chrome 83과 같은 웹 브라우저에서 처음으로 지원되었습니다.
 
 DoH 네이티브 구현은 iOS 14, macOS 11, Microsoft Windows, Android 13(단, [기본 활성화가 아닙니다](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144))부터 추가되었습니다. 일반 Linux 데스크톱의 경우, systemd [구현체](https://github.com/systemd/systemd/issues/8639)가 아직 존재하지 않기 때문에 [별도 소프트웨어를 설치해야 합니다](../dns.md#encrypted-dns-proxies).
+
+
+
+### 운영 체제 기본 지원
+
+
+
+#### Android
+
+Android 9 이상 버전은 DNS over TLS를 지원합니다. 해당 설정은 **설정** &rarr; **네트워크 및 인터넷** &rarr; **비공개 DNS**에서 확인할 수 있습니다.
+
+
+
+#### Apple 기기
+
+iOS, iPadOS, tvOS, macOS 최신 버전은 DoT, DoH를 모두 지원합니다. 두 프로토콜 모두 [구성 프로필](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web)이나 [DNS 설정 API](https://developer.apple.com/documentation/networkextension/dns_settings)를 통해 운영 체제에서 기본으로 지원합니다.
+
+구성 프로필이나, DNS 설정 API를 사용하는 앱을 설치하고 나면 DNS 구성에서 선택 가능합니다. VPN이 활성화되어 있는 경우, VPN 연결 내 DNS 요청은 시스템 전체 설정이 아닌 VPN의 DNS 설정을 사용합니다.
+
+Apple은 암호화 DNS 프로필 생성을 위한 기본 인터페이스를 제공하지 않습니다. [보안 DNS 프로필 생성기(Secure DNS profile creator)](https://dns.notjakob.com/tool.html)는 자신만의 암호화 DNS 프로필을 생성할 수 있는 비공식 툴이지만, 프로필 서명은 불가능합니다. 프로필 서명은 프로필 출처 확인 및 무결성 보장에 도움이 되므로, 서명된 프로필이 선호됩니다. 서명된 구성 프로필에는 '확인 완료' 표시가 나타납니다. 코드 서명에 대한 자세한 내용은 [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)을 참고하세요.
+
+
+
+#### Linux
+
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 
 
@@ -401,4 +425,35 @@ While this process can be slightly more inefficient, in this example neither the
 
 ECS는 동영상 스트리밍이나 JavaScript 웹 앱 서비스에 때 자주 쓰이는 [콘텐츠 전송 네트워크(CDN)](https://ko.wikipedia.org/wiki/%EC%BD%98%ED%85%90%EC%B8%A0_%EC%A0%84%EC%86%A1_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)처럼 클라이언트와 가까운 서버의 응답을 제공하여 데이터 전송 속도를 높이는 기술입니다.
 
-단, ECS는 DNS 서버에 클라이언트의 위치에 관한 일부 정보를 알려주기 때문에 프라이버시 면에서 불이익이 존재합니다.
+This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+
+If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+
+
+
+```bash
+dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+
+Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+
+
+
+```bash
+dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+
+If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+
+
+
+```text
+o-o.myaddr.l.google.com. 60 IN  TXT "198.51.100.32"
+o-o.myaddr.l.google.com. 60 IN  TXT "edns0-client-subnet 198.51.100.0/24"
+;; Query time: 64 msec
+;; SERVER: 9.9.9.11#53(9.9.9.11)
+;; WHEN: Wed Mar 13 10:23:08 CDT 2024
+;; MSG SIZE  rcvd: 130
+```

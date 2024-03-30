@@ -15,50 +15,126 @@ global:
 
 ## 권장 제공 업체
 
-| DNS 제공 업체                                                                  | 프라이버시 정책                                                                                             | 프로토콜                                                                         | 로그 보관   | ECS   | 필터링                                                                                                               |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------- | ----- | ----------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard**](https://adguard.com/en/adguard-dns/overview.html)            | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | Cleartext <br> DoH/3 <br> DoT <br> DoQ <br> DNSCrypt | 일부[^1]  | Yes   | 개인 설정에 따라 달라집니다. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | 평문 <br> DoH/3 <br> DoT                                           | 일부[^2]  | 비활성화  | 개인 설정에 따라 달라집니다.                                                                                                  |
-| [**Control D**](https://controld.com/free-dns)                             | [:octicons-link-external-24:](https://controld.com/privacy)                                          | 평문 <br> DoH/3 <br> DoT <br> DoQ                            | 선택적[^3] | 비활성화  | 개인 설정에 따라 달라집니다.                                                                                                  |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH <br> DoT                                                           | 없음[^4]  | 비활성화  | 개인 설정에 따라 달라집니다. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    |
-| [**NextDNS**](https://nextdns.io)                                          | [:octicons-link-external-24:](https://nextdns.io/privacy)                                            | 평문 <br> DoH/3 <br> DoT <br> DoQ                            | 선택적[^5] | 선택 사항 | 개인 설정에 따라 달라집니다.                                                                                                  |
-| [**Quad9**](https://quad9.net)                                             | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | 평문 <br> DoH <br> DoT <br> DNSCrypt                         | 일부[^6]  | 선택 사항 | 개인 설정에 따라 달라지지만, 멀웨어는 기본적으로 차단됩니다.                                                                                |
+These are our favorite public DNS resolvers based on their privacy and security characteristics, and their worldwide performance. Some of these services offer basic DNS-level blocking of malware or trackers depending on the server you choose, but if you want to be able to see and customize what is blocked you should use a dedicated DNS filtering product instead.
 
-### 평가 기준
+| DNS 제공 업체                                                                  | 프라이버시 정책                                                                                             | 프로토콜                                     | 로그 보관    | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | 필터링                                                                                                                      | Signed Apple Profile                                                                            |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------- | -------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | [:octicons-link-external-24:](https://adguard.com/en/privacy/dns.html)                               | Cleartext   DoH/3   DoT   DoQ   DNSCrypt | 일부[^1]   | Anonymized                                                     | Based on server choice. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | [Yes](https://adguard.com/en/blog/encrypted-dns-ios-14.html)                                    |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | [:octicons-link-external-24:](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) | Cleartext   DoH/3   DoT                  | 일부[^2]   | 비활성화                                                           | Based on server choice.                                                                                                  | [비활성화](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846/) |
+| [**Control D Free DNS**](https://controld.com/free-dns)                    | [:octicons-link-external-24:](https://controld.com/privacy)                                          | Cleartext   DoH/3   DoT   DoQ            | 선택적[^3]  | 비활성화                                                           | Based on server choice.                                                                                                  | [Yes](https://docs.controld.com/docs/macos-platform)                                            |
+| [**dns0.eu**](https://dns0.eu)                                             | [:octicons-link-external-24:](https://dns0.eu/privacy)                                               | Cleartext   DoH/3   DoH   DoT   DoQ      | 비활성화     | Anonymized                                                     | Based on server choice.                                                                                                  | [Yes](https://www.dns0.eu/zero.dns0.eu.mobileconfig)                                            |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | [:octicons-link-external-24:](https://mullvad.net/en/help/no-logging-data-policy)                    | DoH   DoT                                | 없음[^4]   | 비활성화                                                           | Based on server choice. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    | [Yes](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices)     |
+| [**Quad9**](https://quad9.net)                                             | [:octicons-link-external-24:](https://quad9.net/privacy/policy)                                      | Cleartext   DoH   DoT   DNSCrypt         | Some[^5] | 선택 사항                                                          | Based on server choice, malware blocking by default.                                                                     | [Yes](https://quad9.net/news/blog/ios-mobile-provisioning-profiles)                             |
 
-**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
+## Self-Hosted DNS Filtering
 
-- [DNSSEC](advanced/dns-overview.md#what-is-dnssec)를 지원해야 합니다.
-- [QNAME 최소화](advanced/dns-overview.md#what-is-qname-minimization)를 지원해야 합니다.
-- [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) 비활성화를 지원해야 합니다.
-- [Anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) 혹은 Geo steering을 적극 지원해야 합니다.
+자체 호스팅 DNS 솔루션은 클라이언트 측 소프트웨어가 필요하지 않기 때문에, 스마트 TV 및 기타 IoT 기기처럼 통제된 플랫폼에서 필터링을 적용하기에 유용합니다.
 
-## 운영 체제 기본 지원
+### Pi-hole
 
-### Android
+<div class="admonition recommendation" markdown>
 
-Android 9 이상 버전은 DNS over TLS를 지원합니다. 해당 설정은 **설정** &rarr; **네트워크 및 인터넷** &rarr; **비공개 DNS**에서 확인할 수 있습니다.
+![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-### Apple 기기
+**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
 
-iOS, iPadOS, tvOS, macOS 최신 버전은 DoT, DoH를 모두 지원합니다. 두 프로토콜 모두 [구성 프로필](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web)이나 [DNS 설정 API](https://developer.apple.com/documentation/networkextension/dns_settings)를 통해 운영 체제에서 기본으로 지원합니다.
+Pi-hole은 라즈베리 파이에서 호스팅되도록 설계되었지만, 그 외 하드웨어에서도 사용할 수 있습니다. 친절한 웹 인터페이스를 통해 쉽고 빠른 분석 및 차단 콘텐츠 관리가 가능합니다.
 
-구성 프로필이나, DNS 설정 API를 사용하는 앱을 설치하고 나면 DNS 구성에서 선택 가능합니다. VPN이 활성화되어 있는 경우, VPN 연결 내 DNS 요청은 시스템 전체 설정이 아닌 VPN의 DNS 설정을 사용합니다.
+[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
 
-#### 서명된 프로필
-
-Apple은 암호화 DNS 프로필 생성을 위한 기본 인터페이스를 제공하지 않습니다. [보안 DNS 프로필 생성기(Secure DNS profile creator)](https://dns.notjakob.com/tool.html)는 자신만의 암호화 DNS 프로필을 생성할 수 있는 비공식 툴이지만, 프로필 서명은 불가능합니다. 프로필 서명은 프로필 출처 확인 및 무결성 보장에 도움이 되므로, 서명된 프로필이 선호됩니다. 서명된 구성 프로필에는 '확인 완료' 표시가 나타납니다. 코드 서명에 대한 자세한 내용은 [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)을 참고하세요. **Signed profiles** are offered by [AdGuard](https://adguard.com/en/blog/encrypted-dns-ios-14.html), [NextDNS](https://apple.nextdns.io), and [Quad9](https://quad9.net/news/blog/ios-mobile-provisioning-profiles).
-
-<div class="admonition info" markdown>
-<p class="admonition-title">Info</p>
-
-많은 Linux 배포판에서 DNS 조회에 사용하는 `systemd-resolved`는 아직 [DoH를 지원하지 않습니다](https://github.com/systemd/systemd/issues/8639). DoH를 사용하려는 경우, [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) 등의 프록시를 설치 및 [설정하여](https://wiki.archlinux.org/title/Dnscrypt-proxy), 시스템 리졸버에서 모든 DNS 요청을 가져와 HTTPS로 전달하도록 해야 합니다.
+</details>
 
 </div>
 
+### AdGuard Home
+
+<div class="admonition recommendation" markdown>
+
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
+
+**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
+
+세련된 웹 인터페이스를 통해 쉽고 빠른 분석 및 차단 콘텐츠 관리가 가능합니다.
+
+[:octicons-home-16: 홈페이지](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="프라이버시 정책" }
+[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=문서}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="소스 코드" }
+
+</details>
+
+</div>
+
+## Cloud-Based DNS Filtering
+
+These DNS filtering solutions offer a web dashboard where you can customize the blocklists to your exact needs, similarly to a Pi-hole. These services are usually easier to set up and configure than self-hosted services like the ones above, and can be used more easily across multiple networks (self-hosted solutions are typically restricted to your home/local network unless you set up a more advanced configuration).
+
+### Control D
+
+<div class="admonition recommendation" markdown>
+
+![Control D logo](assets/img/dns/control-d.svg){ align=right }
+
+**Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level. In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free.
+
+[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://docs.controld.com/docs/gui-setup-utility)
+- [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
+- [:simple-linux: Linux](https://docs.controld.com/docs/ctrld)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
+- [:simple-appstore: App Store](https://apps.apple.com/app/1518799460)
+- [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases/tag/v1.3.5)
+
+</details>
+
+</div>
+
+### NextDNS
+
+<div class="admonition recommendation" markdown>
+
+![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
+
+**NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level. They offer a fully functional free plan for limited use.
+
+[:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.nextdns.io){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-windows11: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
+- [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
+- [:simple-linux: Linux](https://github.com/nextdns/nextdns/wiki)
+- [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
+- [:simple-github: GitHub](https://github.com/nextdns/nextdns/releases)
+
+</details>
+
+</div>
+
+When used with an account, NextDNS will enable insights and logging features by default (as some features require it). You can choose retention time and log storage location for any logs you choose to keep, or disable logs altogether.
+
+NextDNS's free plan is fully functional, but should not be relied upon for security or other critical filtering applications, because after 300,000 DNS queries in a month all filtering, logging, and other account-based functionality is disabled. It can still be used as a regular DNS provider after that point, so your devices will continue to function and make secure queries via DNS-over-HTTPS, just without your filter lists.
+
+NextDNS also offers public DNS-over-HTTPS service at `https://dns.nextdns.io` and DNS-over-TLS/QUIC at `dns.nextdns.io`, which are available by default in Firefox and Chromium, and subject to their default no-logging [privacy policy](https://nextdns.io/privacy).
+
 ## 암호화 DNS 프록시
 
-암호화 DNS 프록시 소프트웨어는 [비암호화 DNS](advanced/dns-overview.md#unencrypted-dns) 리졸버로부터 요청을 전달 받는 로컬 프록시를 제공합니다. 보통 [암호화 DNS](advanced/dns-overview.md#what-is-encrypted-dns)를 기본적으로 지원하지 않는 플랫폼에서 사용됩니다.
+암호화 DNS 프록시 소프트웨어는 [비암호화 DNS](advanced/dns-overview.md#unencrypted-dns) 리졸버로부터 요청을 전달 받는 로컬 프록시를 제공합니다. Typically, it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
 
 ### RethinkDNS
 
@@ -112,52 +188,19 @@ Apple은 암호화 DNS 프로필 생성을 위한 기본 인터페이스를 제�
 
 </div>
 
-## 자체 호스팅 솔루션
+## 평가 기준
 
-자체 호스팅 DNS 솔루션은 클라이언트 측 소프트웨어가 필요하지 않기 때문에, 스마트 TV 및 기타 IoT 기기처럼 통제된 플랫폼에서 필터링을 적용하기에 유용합니다.
+**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
 
-### AdGuard Home
+### 최소 요구 사항
 
-<div class="admonition recommendation" markdown>
-
-![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
-
-**AdGuard Home** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
-
-세련된 웹 인터페이스를 통해 쉽고 빠른 분석 및 차단 콘텐츠 관리가 가능합니다.
-
-[:octicons-home-16: 홈페이지](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="프라이버시 정책" }
-[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=문서}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="소스 코드" }
-
-</details>
-
-</div>
-
-### Pi-hole
-
-<div class="admonition recommendation" markdown>
-
-![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
-
-**Pi-hole** is an open-source [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) which uses [DNS filtering](https://cloudflare.com/learning/access-management/what-is-dns-filtering) to block unwanted web content, such as advertisements.
-
-Pi-hole은 라즈베리 파이에서 호스팅되도록 설계되었지만, 그 외 하드웨어에서도 사용할 수 있습니다. 친절한 웹 인터페이스를 통해 쉽고 빠른 분석 및 차단 콘텐츠 관리가 가능합니다.
-
-[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
-
-</details>
-
-</div>
+- [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
+- [QNAME 최소화](advanced/dns-overview.md#what-is-qname-minimization)를 지원해야 합니다.
+- Anonymize [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) or disable it by default.
+- [Anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) 혹은 Geo steering을 적극 지원해야 합니다.
 
 [^1]: AdGuard는 특정 서버의 완료된 요청 수, 차단된 요청 수, 요청 처리 속도 등 DNS 서버의 집계 성능 지표를 저장합니다. 또한, 지난 24시간 이내의 도메인 요청 데이터베이스를 보관 및 저장합니다. "해당 정보는 새로운 추적기 및 위협을 식별하고 차단하기 위해 필요합니다." "각 추적기가 차단된 횟수 또한 기록합니다. 이는 오래되어 불필요한 규칙을 필터에서 제거하기 위해 필요합니다." [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare는 1.1.1.1 리졸버로 전송되는 DNS 쿼리의 제한된 데이터만 수집 및 저장합니다. 1.1.1.1 리졸버는 개인 데이터를 기록하지 않으며, 개인 식별이 불가능하도록 제한된 쿼리 데이터는 대부분 25시간 동안만 저장됩니다. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D는 사용자 정의 프로필이 있는 프리미엄 리졸버에 대해서만 로그를 기록합니다. 무료 리졸버는 데이터를 기록하지 않습니다. [https://controld.com/privacy](https://controld.com/privacy)
 [^4]: Mullvad DNS 서비스는 Mullvad VPN 가입자/비가입자 모두 이용 가능합니다. 프라이버시 정책 상, 어떤 방식으로든 DNS 요청을 기록하지 않는다고 명시되어 있습니다. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
-[^5]: When used with an account, NextDNS will enable insights and logging features by default (as some features require it). You can choose retention time and log storage location for any logs you choose to keep, or disable logs altogether. If used without an account, no data is logged. [https://nextdns.io/privacy](https://nextdns.io/privacy)
-[^6]: Quad9은 위협 모니터링 및 대응 목적으로 일부 데이터를 수집합니다. 해당 데이터는 보안 연구 등의 목적으로 변형 후 공유될 수 있습니다. Quad9은 개인 식별 용도로 쓰일 수 있다고 판단되는 IP 주소 및 기타 데이터를 수집하거나 기록하지 않습니다. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)
+[^5]: Quad9은 위협 모니터링 및 대응 목적으로 일부 데이터를 수집합니다. 해당 데이터는 보안 연구 등의 목적으로 변형 후 공유될 수 있습니다. Quad9은 개인 식별 용도로 쓰일 수 있다고 판단되는 IP 주소 및 기타 데이터를 수집하거나 기록하지 않습니다. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

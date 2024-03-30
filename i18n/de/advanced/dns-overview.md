@@ -82,6 +82,24 @@ Verschlüsseltes DNS kann sich auf eine Reihe von Protokollen beziehen, von dene
 
 Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../dns.md#encrypted-dns-proxies).
 
+### Native Betriebssystemunterstützung
+
+#### Android
+
+Android 9 und höher unterstützen DNS über TLS. Die Einstellungen sind zu finden unter: **Einstellungen** &rarr; **Netzwerk & Internet** &rarr; **Privates DNS**.
+
+#### Apple-Geräte
+
+Die neuesten Versionen von iOS, iPadOS, tvOS und macOS unterstützen sowohl DoT als auch DoH. Beide Protokolle werden nativ über [Konfigurationsprofile](https://support.apple.com/de-de/guide/security/secf6fb9f053/web) oder über die [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings)unterstützt.
+
+Nach der Installation eines Konfigurationsprofils oder einer Anwendung, die die DNS-Einstellungs-API verwendet, kann die DNS-Konfiguration ausgewählt werden. Wenn ein VPN aktiv ist, verwendet die DNS Auflösung innerhalb des VPN-Tunnels die DNS-Einstellungen des VPN und nicht deine systemweiten Einstellungen.
+
+Apple bietet keine native Schnittstelle zur Erstellung von Profilen mit verschlüsseltem DNS. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) ist ein inoffizielles Tool zur Erstellung eigener Profile mit verschlüsseltem DNS, diese sind jedoch nicht signiert. Signierte Profile sind zu bevorzugen; das Signieren bestätigt die Herkunft eines Profils und trägt dazu bei, die Integrität der Profile zu gewährleisten. Signierte Konfigurationsprofile erhalten ein grünes "Verifiziert"-Label. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
+
+#### Linux
+
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+
 ## What can an outside party see?
 
 In this example we will record what happens when we make a DoH request:
@@ -318,4 +336,27 @@ The [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is a 
 
 It's intended to "speed up" delivery of data by giving the client an answer that belongs to a server that is close to them such as a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), which are often used in video streaming and serving JavaScript web apps.
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location.
+This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+
+If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+
+```bash
+dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+
+```bash
+dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+
+```text
+o-o.myaddr.l.google.com. 60 IN  TXT "198.51.100.32"
+o-o.myaddr.l.google.com. 60 IN  TXT "edns0-client-subnet 198.51.100.0/24"
+;; Query time: 64 msec
+;; SERVER: 9.9.9.11#53(9.9.9.11)
+;; WHEN: Wed Mar 13 10:23:08 CDT 2024
+;; MSG SIZE  rcvd: 130
+```

@@ -82,6 +82,24 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
 
 DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（然而，它不会被默认启用 [](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)）。 一般的Linux桌面支持还在等待systemd [实现](https://github.com/systemd/systemd/issues/8639) ，所以 [目前依然需要安装第三方软件](../dns.md#linux)。
 
+### Native Operating System Support
+
+#### 安卓
+
+安卓9及以上系统支持通过TLS的DNS。 这些设置可以在下面找到。 **设置** &rarr; **网络 & 互联网** &rarr; **私人DNS**。
+
+#### Apple Devices
+
+最新版本的iOS、iPadOS、tvOS和macOS，同时支持DoT和DoH。 通过 [配置文件](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) ，或通过 [DNS设置API](https://developer.apple.com/documentation/networkextension/dns_settings)，这两种协议都得到了本地支持。
+
+在安装配置文件或使用DNS设置API的应用程序后，可以选择DNS配置。 如果VPN处于激活状态，在VPN隧道内的解析将使用VPN的DNS设置，而不是你整个系统的设置。
+
+苹果公司没有为创建加密的DNS配置文件提供本地接口。 [安全DNS配置文件创建者](https://dns.notjakob.com/tool.html) 是一个非官方的工具，用于创建你自己的加密DNS配置文件，然而它们将不会被签署。 签名的档案是首选；签名验证了档案的来源，有助于确保档案的完整性。 绿色的 "已验证 "标签被赋予已签署的配置文件。 关于代码签名的更多信息，见 [关于代码签名](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)。
+
+#### Linux系统
+
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+
 ## 外部一方能看到什么？
 
 在本示例中，我们将记录当我们提出DoH请求时会发生什么：
@@ -318,4 +336,27 @@ DNSSEC在DNS的所有层面上实现了分层的数字签名政策。 例如，�
 
 它的目的是 "加快 "数据的交付，给客户一个属于离他们很近的服务器的答案，如 [内容交付网络](https://en.wikipedia.org/wiki/Content_delivery_network)，这通常用于视频流和服务JavaScript网络应用。
 
-这项功能确实是以隐私为代价的，因为它告诉DNS服务器一些关于客户端位置的信息。
+This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+
+If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+
+```bash
+dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+
+```bash
+dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+
+```text
+o-o.myaddr.l.google.com. 60 IN  TXT "198.51.100.32"
+o-o.myaddr.l.google.com. 60 IN  TXT "edns0-client-subnet 198.51.100.0/24"
+;; Query time: 64 msec
+;; SERVER: 9.9.9.11#53(9.9.9.11)
+;; WHEN: Wed Mar 13 10:23:08 CDT 2024
+;; MSG SIZE  rcvd: 130
+```

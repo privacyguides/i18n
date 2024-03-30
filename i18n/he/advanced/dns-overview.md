@@ -82,6 +82,24 @@ DNS מוצפן יכול להתייחס לאחד ממספר פרוטוקולים,
 
 יישום מקורי של DoH הופיע ב-iOS 14, macOS 11, Microsoft Windows ו-אנדרואיד 13 (עם זאת, הוא לא יופעל [>כברירת מחדל](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). תמיכת שולחן העבודה הכללית של לינוקס ממתינה ל[יישום](https://github.com/systemd/systemd/issues/8639) של systemd כך ש[עדיין נדרשת התקנת תוכנת צד שלישי](../dns.md#encrypted-dns-proxies).
 
+### תמיכה במערכת הפעלה מקומית
+
+#### אנדרואיד
+
+אנדרואיד 9 ומעלה תומכת ב-DNS דרך TLS. ניתן למצוא את ההגדרות ב: **הגדרות** &rarr; **רשת & אינטרנט** &rarr; **פרטי DNS**.
+
+#### מוצרי Apple
+
+הגרסאות האחרונות של iOS, iPadOS, tvOS ו-macOS, תומכות הן ב-DoT והן ב-DoH. שני הפרוטוקולים נתמכים באופן מקורי באמצעות [פרופילי תצורה](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) או דרך [ממשק API להגדרות DNS](https://developer.apple.com/documentation/networkextension/dns_settings).
+
+לאחר התקנה של פרופיל תצורה או אפליקציה המשתמשת ב-API של הגדרות DNS, ניתן לבחור את תצורת ה-DNS. אם VPN פעיל, הרזולוציה בתוך מנהרת ה-VPN תשתמש בהגדרות ה-DNS של ה-VPN ולא בהגדרות כלל המערכת שלך.
+
+Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מוצפנים. [יוצר פרופיל DNS מאובטח](https://dns.notjakob.com/tool.html) הוא כלי לא רשמי ליצירת פרופילי DNS מוצפנים משלך, אולם הם לא ייחתמו. פרופילים חתומים מועדפים; החתימה מאמתת את מקור הפרופיל ומסייעת להבטיח את שלמות הפרופילים. תווית "מאומת" ירוקה ניתנת לפרופילי תצורה חתומים. לקבלת מידע נוסף על חתימת קוד, ראה [אודות חתימת קוד](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
+
+#### לינוקס
+
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+
 ## מה יכול גורם חיצוני לראות?
 
 בדוגמה זו נתעד מה קורה כאשר אנו מבקשים בקשת DoH:
@@ -308,7 +326,7 @@ With "QNAME minimization," your DNS resolver now only asks for just enough infor
 | Root server            | What's the nameserver for .net?                      | *Provides .net's server*          |
 | .net's server          | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
 | Privacy Guides' server | What's the nameserver for discuss.privacyguides.net? | השרת הזה!                         |
-| השרת של Privacy Guides | מה ה-IP של discuss.privacyguides.net?                | 5.161.195.190                     |
+| Privacy Guides' server | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
 
 While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. תיאור טכני נוסף מוגדר ב [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
 
@@ -318,4 +336,27 @@ While this process can be slightly more inefficient, in this example neither the
 
 זה נועד "לזרז" את מסירת הנתונים על ידי מתן תשובה ללקוח השייך לשרת הקרוב אליו כגון [תוכן רשת מסירה](https://en.wikipedia.org/wiki/Content_delivery_network), המשמשות לעתים קרובות בהזרמת וידאו והגשת יישומי אינטרנט של JavaScript.
 
-תכונה זו כרוכה בעלות פרטיות, מכיוון שהיא מספרת לשרת ה-DNS מידע על מיקומו של הלקוח.
+This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+
+If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+
+```bash
+dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+
+```bash
+dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+
+```text
+o-o.myaddr.l.google.com. 60 IN  TXT "198.51.100.32"
+o-o.myaddr.l.google.com. 60 IN  TXT "edns0-client-subnet 198.51.100.0/24"
+;; Query time: 64 msec
+;; SERVER: 9.9.9.11#53(9.9.9.11)
+;; WHEN: Wed Mar 13 10:23:08 CDT 2024
+;; MSG SIZE  rcvd: 130
+```

@@ -82,6 +82,24 @@ DNS encriptado puede referirse a uno de un número de protocolos, los más comun
 
 La implementación nativa de DoH apareció en iOS 14, macOS 11, Microsoft Windows y Android 13 (sin embargo, no estará habilitada [por defecto](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). El soporte general de los escritorios de Linux está a la espera de la [implementación](https://github.com/systemd/systemd/issues/8639) de systemd por lo que [la instalación de software de terceros sigue siendo necesaria](../dns.md#linux).
 
+### Compatibilidad con Sistemas Operativos Nativos
+
+#### Android
+
+Android 9 y superiores soportan DNS sobre TLS. Los ajustes se pueden encontrar en: **Configuración** &rarr; **Red & Internet** &rarr; **DNS privado**.
+
+#### Dispositivos Apple
+
+Las últimas versiones de iOS, iPadOS, tvOS y macOS, soportan tanto DoT como DoH. Ambos protocolos son soportados nativamente a través de [configuración de perfiles ](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) o a través de la [API de configuración DNS](https://developer.apple.com/documentation/networkextension/dns_settings).
+
+Tras la instalación de un perfil de configuración o de una aplicación que utilice la API de configuración de DNS, se puede seleccionar la configuración de DNS. Si una VPN está activa, la resolución dentro del túnel VPN utilizará la configuración DNS de la VPN y no la configuración de todo el sistema.
+
+Apple no proporciona una interfaz nativa para crear perfiles DNS encriptados. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) es una herramienta no oficial para crear tus propios perfiles DNS encriptados, aunque no estarán firmados. Son preferibles los perfiles firmados; la firma valida el origen de un perfil y ayuda a garantizar su integridad. Los perfiles de configuración firmados reciben la etiqueta verde de "Verificado". Para más información sobre la firma de código, consulte [Acerca de la firma de código](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
+
+#### Linux
+
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+
 ## ¿Qué puede ver un tercero?
 
 En este ejemplo registraremos lo que sucede cuando hacemos una solicitud de DoH:
@@ -318,4 +336,27 @@ La [Subred de Cliente EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) es
 
 Su objetivo es "acelerar" la entrega de datos dando al cliente una respuesta que pertenece a un servidor que está cerca de él, como una [red de distribución de contenidos](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos), que se utilizan a menudo en la transmisión de vídeo y el servicio de aplicaciones web de JavaScript.
 
-Esta característica tiene un coste de privacidad, ya que indica al servidor DNS cierta información sobre la ubicación del cliente.
+This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+
+If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+
+```bash
+dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+
+```bash
+dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+
+```text
+o-o.myaddr.l.google.com. 60 IN  TXT "198.51.100.32"
+o-o.myaddr.l.google.com. 60 IN  TXT "edns0-client-subnet 198.51.100.0/24"
+;; Query time: 64 msec
+;; SERVER: 9.9.9.11#53(9.9.9.11)
+;; WHEN: Wed Mar 13 10:23:08 CDT 2024
+;; MSG SIZE  rcvd: 130
+```

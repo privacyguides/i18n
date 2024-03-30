@@ -82,6 +82,24 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 DoH 原生執行出現在 iOS 14, macOS 11, Microsoft Windows, 與 Android 13 (不過其並未[預設啟動 ](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144))。 一般 Linux 桌面支援仍待 systemd [實現](https://github.com/systemd/systemd/issues/8639)， 所以 [還是得安裝第三方軟體](../dns.md#encrypted-dns-proxies)。
 
+### 原生作業系統支援
+
+#### Android
+
+Android 9 以上版本支持 DoT (DNS over TLS)。 設定方式可以在以下位置找到： **設定** &rarr; **網路 & 網際網路** &rarr; **私人 DNS**。
+
+#### Apple裝置
+
+最新版本的 iOS、iPadOS、tvOS 和 macOS 都支持 DoT 和 DoH。 這兩個通訊協議都透過 [組態檔](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) 或透過 [DNS 設定 API ](https://developer.apple.com/documentation/networkextension/dns_settings)獲得原生支援。
+
+安裝設定設定檔或使用 DNS 設定API 的應用程式後，即可選擇 DNS 設定。 如果啟用 VPN， 隧道內的解析將使用 VPN 的 DNS 設置，而不是設備系統的設置。
+
+Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profile creator](https://dns.notjakob.com/tool.html) 是一款非正式工具用以建立您自己的加密 DNS 設定檔。不過這個軟體並未得到簽署。 最好是簽署過個人資設定檔；簽署會驗證個人資料的來源，並有助於確保個人資料的完整性。 綠色的「已驗證」標籤會提供給已簽署的配置文件。 代碼簽名的詳細資訊，請參閱 [關於代碼簽名](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)。
+
+#### Linux
+
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+
 ## 外部人士可以看到什麼？
 
 在此範例中，我們將記錄當我們提出 DoH 請求時發生的事情：
@@ -160,9 +178,7 @@ DoH 原生執行出現在 iOS 14, macOS 11, Microsoft Windows, 與 Android 13 (�
 
 即便使用「加密 DNS」伺服器，網域也可能會透過 SNI 披露。 [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) 協議帶來 [加密的 Client Hello](https://blog.cloudflare。com /encrypted-client-hello)，可防止這種洩漏。
 
-各國政府，特別是
-
-中國< /a> 和[俄羅斯](https://zdnet.com/article/ Russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh- dot -esni)，已經[開始阻止](https://en.wikipedia.org/wiki/Server_Name_Inspiration#Encrypted_Client_Hello)它，或表達出企圖這樣做的想法。 近來俄羅斯 開始屏蔽使用 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)的外國網站。 這是因為作為HTTP/3的一部分的 [QUIC](https://en.wikipedia.org/wiki/QUIC) 協議要求 `ClientHello` 也被加密。</p> 
+各國政府，特別是中國< /a> 和[俄羅斯](https://zdnet.com/article/ Russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh- dot -esni)，已經[開始阻止](https://en.wikipedia.org/wiki/Server_Name_Inspiration#Encrypted_Client_Hello)它，或表達出企圖這樣做的想法。 近來俄羅斯 開始屏蔽使用 [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)的外國網站。 這是因為作為HTTP/3的一部分的 [QUIC](https://en.wikipedia.org/wiki/QUIC) 協議要求 `ClientHello` 也被加密。</p> 
 
 
 
@@ -355,7 +371,7 @@ QNAME 指 "合格域名"，例如 `discuss.privacyguides.net`. 過去，在解�
 | 根伺服器               | 什麼是 .net 域名伺服器?                      | *提供 .net 伺服器*           |
 | .net 伺服器           | Privacyguides.net 的域名伺服器是什麼?         | *提供 Privacy Guides 伺服器* |
 | Privacy Guides 伺服器 | discuss.privacyguides.net 的域名伺服器是什麼? | 此伺服器                    |
-| Privacy Guides 伺服器 | discuss.privacyguides.net 的 IP 是多少?  | 5.161.195.190           |
+| Privacy Guides 伺服器 | Discuss.privacyguides.net 的 IP 是多少?  | 5.161.195.190           |
 
 
 雖然此過程可能稍減低效率低，但中央根網域伺服器和 TLD 網域伺服器都不會收到有關您的*完整*查詢的資訊，從而減少了資訊量傳輸您瀏覽習慣。 進一步的技術描述在 [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)。
@@ -368,4 +384,35 @@ QNAME 指 "合格域名"，例如 `discuss.privacyguides.net`. 過去，在解�
 
 它的目的是回答客戶端距離最靠近的伺服器以“加快”資料的傳遞，類似[內容傳遞網絡](https://en.wikipedia.org/wiki/Content_delivery_network)，後者通常用於視頻串流和 JavaScript Web 應用程序。
 
-此功能確實以隱私為代價，因為它會告訴 DNS伺服器一些有關客戶端位置的資訊。
+This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+
+If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+
+
+
+```bash
+dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+
+Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+
+
+
+```bash
+dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
+```
+
+
+If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+
+
+
+```text
+o-o.myaddr.l.google.com. 60 IN  TXT "198.51.100.32"
+o-o.myaddr.l.google.com. 60 IN  TXT "edns0-client-subnet 198.51.100.0/24"
+;; Query time: 64 msec
+;; SERVER: 9.9.9.11#53(9.9.9.11)
+;; WHEN: Wed Mar 13 10:23:08 CDT 2024
+;; MSG SIZE  rcvd: 130
+```
