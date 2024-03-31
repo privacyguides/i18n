@@ -32,7 +32,7 @@ Posiadamy kilka domen, takich jak `privacyguides.org`, których utrzymanie rejes
 
 Ruch na tej witrynie zużywa setki gigabajtów danych miesięcznie, a do obsługi tak dużego ruchu korzystamy z usług różnych dostawców usług.
 
-**Usługi online**
+**Online Services**
 :
 
 We host [internet services](https://privacyguides.net) for testing and showcasing different privacy-products we like and [recommend](../tools.md). Some of which are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
