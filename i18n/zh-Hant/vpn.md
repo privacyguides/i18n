@@ -49,7 +49,7 @@ cover: vpn.webp
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
@@ -68,61 +68,47 @@ Proton VPN 在 [88 個國家/地區設有伺服器](https://protonvpn.com/vpn-se
 
 1. 上次檢查日期： 2024-03-23
 
-我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
+我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如[虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-截至 2020 年 1 月， Proton VPN 已通過 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程序中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以在 [protonvpn.com](https://protonvpn.com/blog/open-source) 查看各個平臺的報告。 2022 年 4 月，Proton VPN 接受了[另一次審計](https://protonvpn.com/blog/no-logs-audit)，[報告由 Securitum 製作](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf)。  [Securitum](https://research.securitum.com)  在 2021年11月9日簽發 [Proton VPN 的應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
+截至 2020 年 1 月， Proton VPN 已通過 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以在 [protonvpn.com](https://protonvpn.com/blog/open-source) 查看各個平臺的報告。 2022 年 4 月，Proton VPN 接受了[另一次審計](https://protonvpn.com/blog/no-logs-audit)，[報告由 Securitum 製作](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf)。 [Securitum](https://research.securitum.com) 於 2021 年 11 月 9 日簽發 Proton VPN 的[應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
 #### :material-check:{ .pg-green } 開源客戶端
 
-Proton VPN 在 [GitHub](https://github.com/ProtonVPN) 提供其桌面和移動客戶端的源代碼。
+Proton VPN 在其 [GitHub 組織](https://github.com/ProtonVPN) 中提供桌面和行動裝置客戶端的原始碼。
 
 #### :material-check:{ .pg-green } 接受現金
 
-除信用卡/簽帳卡、PayPal 和 [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc)之外，Proton VPN 還接受 **現金/當地貨幣** 等匿名付款方式。
+除信用卡/簽帳卡、PayPal 和 [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 以外，Proton VPN 還接受 **現金/當地貨幣** 等匿名付款方式。
 
-#### :material-check:{ .pg-green } WireGuard支持
+#### :material-check:{ .pg-green } 支援 WireGuard
 
-Proton VPN 支持 WireGuard ®協議。 [WireGuard](https://wireguard.com) 是一種較新協議，使用最先進的
+Proton VPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外， WireGuard 的目標是更簡單，更高效。
 
-密碼學< /a>. 此外， WireGuard的目標是更簡單，更高效。</p> 
-
-Proton VPN [建議](https://protonvpn.com/blog/wireguard) 搭配 WireGuard 使用。 Proton VPN 在 Windows, macOS, iOS, Android, ChromeOS, 以及 Android TV 等平台的應用軟體， WireGuard 已是預設協議，不過[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols) Linux 作業系統的應用軟體。
-
-
+Proton VPN [建議](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 在 Proton VPN 的 Windows、macOS、iOS、Android、ChromeOS 以及 Android TV 等平台的應用程式中，WireGuard 已是預設協議；然而， Linux 作業系統的應用程式[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols)此協議。
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-Proton VPN 目前僅支援暫寺性NAT-PMP遠方 [連接埠轉發](https://protonvpn.com/support/port-forwarding)期間為 60 秒。 Windows 應用提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup)。 Torrent 應用往往支援 NAT-PMP 原生。
+Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](https://protonvpn.com/support/port-forwarding)，租用時間為 60 秒。 Windows 應用程式提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup)。 BT 客戶端通常原生支援 NAT-PMP。
 
+#### :material-information-outline:{ .pg-orange } 規避審查
 
-
-#### :material-information-outline:{ .pg-orange } 審查規避
-
-Proton VPN 有自己的[Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) 協定，在其它 VPN 協定如 OpenVPN, Wireguard 遭封鎖時*或可*派上用場。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
+Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) 協定，在其它 VPN 協定如 OpenVPN、WireGuard 遭封鎖時*可能*有所幫助。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
 
 不幸在部署複雜過濾器分析所有對外流量以試圖發現加密隧道的國家/地區，它的效果不太好。 Stealth 也無法在 [Windows](https://github.com/ProtonVPN/win-app/issues/64) 或 Linux 上使用。
 
+#### :material-check:{ .pg-green } 行動裝置客戶端
 
-
-#### :material-check:{ .pg-green } 手機客戶端
-
-除了提供標準 OpenVPN 設定檔外，Proton VPN 還提供 [App Store](https://apps.apple.com/app/id1437005085)、[Google Play](https:///play.google.com/store/apps/details?id=ch.protonvpn.android) 和[GitHub ](https://github.com/ProtonVPN/android-app/releases)方便連接到他們的伺服器。
-
-
+除了提供標準 OpenVPN 設定檔外，Proton VPN 還在 [App Store](https://apps.apple.com/app/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) 和 [GitHub](https://github.com/ProtonVPN/android-app/releases) 提供行動裝置客戶端以方便連接到他們的伺服器。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-除 Linux 以外，Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 在瑞士、冰島和瑞典，Proton VPN 擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外， Proton VPN 還提供“Tor”伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議這類目的，最好還是使用 [官方 Tor 瀏覽器](https://torproject.org) 。
-
-
+除 Linux 以外，Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外， Proton VPN 還提供“Tor”伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議這類目的，最好還是使用 [官方 Tor 瀏覽器](https://torproject.org) 。
 
 #### :material-alert-outline:{ .pg-orange } Killswitch 無法用在  Intel 處理器的 Mac 電腦
 
 Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](https://protonvpn.com/support/macos-t2-chip-kill-switch) 。 如果您需要此功能，但使用的是搭載 Intel 晶片組的Mac ，則應考慮使用其他 VPN 服務。
-
-
 
 ### IVPN
 
@@ -153,19 +139,18 @@ Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](htt
 
 #### :material-check:{ .pg-green } 37 個國家
 
-IVPN 在 37 個國家/地區擁有 [伺服器](https://ivpn.net/status)。 (1)選擇離最近的伺服器 VPN 供應商，將減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。 
-
+IVPN 在 37 個國家/地區擁有 [伺服器](https://ivpn.net/status)。 (1)選擇離最近的伺服器 VPN 供應商，將減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 上次檢查日期： 2023-12-21
 
-我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
-
-
+我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如[虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-IVPN 通過 Cure53</a> 的 不留記錄審計，該審計結果與 IVPN 的不留記錄聲明一致。 IVPN 還在2020年1月完成了Cure53 [全面的 pentest 報告](https://cure53.de/summary-report_ivpn_2019.pdf) 。 IVPN 也表示，計劃未來提供[年度報告](https://ivpn.net/blog/independent-security-audit-conclusiond)。 [2022 年 4 月](https://ivpn.net/blog/ivpn-apps-security-audit-2022-conclusiond)進行進一步審核，並由 Cure53 [公布在網站上](https://cure53.de/pentest-report_IVPN_2022.pdf)。</p> 
+IVPN 通過 Cure53</a> 的
+
+不留記錄審計，該審計結果與 IVPN 的不留記錄聲明一致。 IVPN 還在2020年1月完成了Cure53 [全面的 pentest 報告](https://cure53.de/summary-report_ivpn_2019.pdf) 。 IVPN 也表示，計劃未來提供[年度報告](https://ivpn.net/blog/independent-security-audit-conclusiond)。 [2022 年 4 月](https://ivpn.net/blog/ivpn-apps-security-audit-2022-conclusiond)進行進一步審核，並由 Cure53 [公布在網站上](https://cure53.de/pentest-report_IVPN_2022.pdf)。</p> 
 
 
 
@@ -183,7 +168,7 @@ IVPN 通過 Cure53</a> 的 不留記錄審計，該審計結果與 IVPN 的不�
 
 #### :material-check:{ .pg-green } WireGuard支持
 
-IVPN 支援 WireGuard 協議。 [WireGuard](https://wireguard.com) 是一種較新協議，使用最先進的密碼學< /a>. 此外， WireGuard的目標是更簡單，更高效。</p> 
+IVPN 支援 WireGuard 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外， WireGuard 的目標是更簡單，更高效。
 
 IVPN [建議](https://ivpn.net/wireguard)搭配 WireGuard 一起使用， IVPN's 所有應用程式皆已預設 WireGuard 協議。 IVPN 亦提供 WireGuard 設置生成器以用於官方版本的 WireGuard [應用軟體](https://wireguard.com/install)。
 
@@ -249,7 +234,7 @@ Mullvad 在 41 個國家/地區設有 [伺服器](https://mullvad.net/servers)�
 
 1. 上次檢查日期： 2024-03-23
 
-我們認為，如果 VPN 提供商使用 [專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如 [虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
+我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如[虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
 
 
 
@@ -273,7 +258,7 @@ Cure53 審計了 Mullvad's VPN 客戶端軟體， Assured AB 對他們進行穿�
 
 #### :material-check:{ .pg-green } 開源客戶端
 
-Mullvad 在[GitHub 提供其桌面和移動客戶端的源代碼](https://github.com/mullvad/mullvadvpn-app)。
+Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提供桌面和行動裝置客戶端的原始碼。
 
 
 
@@ -285,7 +270,7 @@ Mullvad 在[GitHub 提供其桌面和移動客戶端的源代碼](https://github
 
 #### :material-check:{ .pg-green } WireGuard支持
 
-Mullvad 支持 WireGuard ®協議。 [WireGuard](https://wireguard.com) 是一種較新協議，使用最先進的密碼學< /a>. 此外， WireGuard的目標是更簡單，更高效。</p> 
+Mullvad 支持 WireGuard ®協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外， WireGuard 的目標是更簡單，更高效。
 
 Mullvad [建議](https://mullvad.net/en/help/why-wireguard) 搭配 WireGuard 使用。 Android, iOS, macOS, 與 Linux Mullvad 應用軟體已將 WireGuard 調為預設協議，但 Windows 則須要自行 [手動打開](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard。 Mullvad 提供 WireGuard 配置生成器，搭配 WireGuard 官方 [應用程式](https://wireguard.com/install)。
 
@@ -379,13 +364,13 @@ Mullvad 對 [自有或租用](https://mullvad.net/en/servers)的節點非常透�
 **最低合格要求：**
 
 - 強固加密方案：具有 SHA-256 驗證的 OpenVPN; RSA-2048 或更好的握手; AES-256-GCM 或 AES-256-CBC 數據加密。
-- 前向保密
+- 前向保密。
 - 公佈信譽良好第三方公司的安全審計。
 
 **最佳案例：**
 
 - 最強加密： RSA-4096。
-- 前向保密
+- 前向保密。
 - 由信譽良好的第三方公司執行公佈的全面安全審計。
 - 漏洞獎勵計劃和/或協調漏洞披露過程。
 
@@ -412,14 +397,14 @@ Mullvad 對 [自有或租用](https://mullvad.net/en/servers)的節點非常透�
 
 **最低合格要求：**
 
-- 必須自行託管分析工具（例如不用 Google Analytics ）。 供應商的網站還必須符合 [DNT（請勿追蹤）](https://en.wikipedia.org/wiki/Do_Not_Track) 的要求。
+- 必須自行託管分析工具 (例如不使用 Google Analytics)。 供應商的網站還必須遵守 [DNT (Do Not Track, 請勿追蹤) ](https://en.wikipedia.org/wiki/Do_Not_Track) 的要求，以供選擇退出的人使用。
 
 不得有任何不負責任的行銷：
 
 - 保證 100% 匿名性保護。 當有人聲稱某件事是100% 時，這意味他對失敗也無從確定。 我們知道有許多方式可以輕易地去匿名化，例如： 
-      - 重複使用無匿名軟體（Tor、VPN等）情況下訪問的個人資訊（例如電子郵件帳戶，獨特的假名等）
+      - 重複使用在沒有使用匿名軟體 (例如 Tor、VPN 等) 情況下訪問的個人資訊 (例如電子郵件帳戶，獨特的假名等)
     - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- 聲稱單一迴路中 VPN 比 Tor  “更匿名” ， Tor 是由三個或更多個跳組成經常變化的迴路。
+- 聲稱單一迴路 VPN 比 Tor “更匿名” ， Tor 是由三個或更多個跳組成經常變化的迴路。
 - 使用負責任的語言：也就是說，可以說VPN “已斷開”或“未連接” ，但是聲稱某人“暴露” ， “易受攻擊”或“受損”是不必要的使用可能不正確的警告語言。 例如，此人可能只是使用其他VPN提供商的服務或使用Tor。
 
 **最佳案例：**
@@ -427,10 +412,10 @@ Mullvad 對 [自有或租用](https://mullvad.net/en/servers)的節點非常透�
 負責任的行銷，既具教育意義又對消費者實用，可能包括：
 
 - 與何時應使用 [Tor](tor.md) 的準確比較。
-- VPN 服務商網站可否透過 [.onion服務](https://en.wikipedia.org/wiki/.onion)訪問。
+- VPN 服務商網站可否透過 [.onion 服務](https://en.wikipedia.org/wiki/.onion)訪問。
 
 
 
 ### 附加功能
 
-雖不是嚴格要求，在決定推薦哪些服務商時我們還會考慮其他一些便利或隱私因素。 其中包括內容封鎖功能、warrant canaries、多跳連接、出色的客戶支持、允許同時連接的數量等。
+雖不是嚴格要求，在決定推薦哪些服務商時我們還會考慮其他一些便利或隱私因素。 其中包括內容封鎖功能、金絲雀安全聲明 (warrant canaries)、多跳連接、出色的客戶支持、允許同時連接的數量等。

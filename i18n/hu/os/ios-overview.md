@@ -1,38 +1,38 @@
 ---
-title: iOS Overview
+title: iOS áttekintés
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: Az iOS egy mobil operációs rendszer, amelyet az Apple fejlesztett ki az iPhone-okra.
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+Az **iOS** és az **iPadOS** az Apple által az iPhone és az iPad termékekhez kifejlesztett saját mobil operációs rendszerek. Ha rendelkezel egy Apple mobil eszközzel, növelheted a magánéletedet a beépített telemetria funkciók kikapcsolásával, valamint néhány adatvédelmi és biztonsági beállítás megerősítésével, amelyek be vannak építve a rendszerbe.
 
-## Privacy Notes
+## Adatvédelmi megjegyzés
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best-practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+Az iOS eszközöket gyakran dicsérik a biztonsági szakértők a megbízható adatvédelem és a legmodernebb jógyakorlatok betartása miatt. Azonban az Apple zárt ökoszisztémájának korlátozó volta – különösen a mobil eszközök esetében – továbbra is számos módon hátráltatja a magánélet védelmét.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+Általánosságban úgy véljük, hogy az iOS a legtöbb ember számára az átlagosnál jobb adatvédelmi és biztonsági védelmet nyújt, mint a bármelyik gyártótól származó Android készülékek. Ha azonban teljesen független akar lenni az Apple vagy a Google felhőszolgáltatásaitól, vagy ha teljesen függetleníteni szeretné magát, akkor még magasabb szintű adatvédelmet érhet el egy olyan [egyedi Android operációs rendszerrel](../android.md), mint a GrapheneOS.
 
-### Activation Lock
+### Aktiválási zár
 
-All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
+Minden iOS-eszközt le kell ellenőrizni az Apple Activation Lock szerverein, amikor először beállítják vagy visszaállítják, ami azt jelenti, hogy az iOS-eszköz használatához internetkapcsolat **szükséges**.
 
-### Mandatory App Store
+### Kötelező App Store
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple ID to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+Az iOS-en az alkalmazások egyetlen forrása az Apple App Store, amelyhez Apple ID szükséges. Ez azt jelenti, hogy az Apple nyilvántartást vezet minden egyes alkalmazásról, amelyet telepítesz a készülékedre, és valószínűleg össze tudja kapcsolni ezeket az információkat a tényleges személyazonosságoddal, ha megadsz egy fizetési módot az App Store-nak.
 
-### Invasive Telemetry
+### Invazív telemetria
 
-Apple has historically had problems with properly anonymizing their telemetry on iOS. [In 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+Az Apple-nek korábban is voltak problémái telemetria megfelelő anonimizálásával az iOS-en. [2019-ben](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings) kiderült, hogy az Apple a Siri felvételeit – amelyek némelyike rendkívül bizalmas információkat tartalmazott – továbbította a szervereire, hogy azt harmadik fél szerződött vállalkozók kézzel vizsgálják felül. Bár átmenetileg leállították ezt a programot, miután [széles körben beszámoltak](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana) erről a gyakorlatról, a probléma [2021-ig](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) nem oldódott meg teljesen.
 
-More recently, Apple has been found to [transmit analytics even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being anonymous.
+A közelmúltban kiderült, hogy az Apple [még akkor is továbbítja az analitikai adatokat, ha az](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) iOS-en az analitikai megosztás ki van kapcsolva, és [úgy tűnik,](https://twitter.com/mysk_co/status/1594515229915979776) hogy ezek az adatok könnyen összekapcsolhatók az iCloud-fiók egyedi azonosítóival, annak ellenére, hogy állítólag névtelenek.
 
-## Recommended Configuration
+## Ajánlott konfiguráció
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
+Az Apple termékeivel kapcsolatos adatvédelmi és biztonsági aggályok többsége a felhőszolgáltatásokkal kapcsolatos, nem pedig a hardverrel vagy szoftverrel. Amikor az Apple szolgáltatásait, például az iCloudot használod, a legtöbb adatodat a szervereiken tárolják, és olyan kulcsokkal védik, amelyekhez az Apple alapértelmezés szerint hozzáfér. Az [Apple dokumentációjában](https://support.apple.com/HT202303) tájékozódhatsz arról, hogy mely szolgáltatások végponttól végpontig titkosítottak. Bármi, ami "átvitel alatt", vagy a "szerveren" van, azt jelenti, hogy az Apple hozzáférhet ezekhez az adatokhoz a te engedélyed nélkül. A bűnüldöző szervek időnként visszaéltek ezzel a hozzáférési szinttel, hogy megkerüljék azt a tényt, hogy a felhasználói adatok egyébként biztonságosan titkosítva vannak az eszközön, valamint természetesen az Apple is ugyanúgy ki van téve az adatvédelmi incidenseknek, mint bármely más vállalat.
 
-Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+Ezért ha használod az iCloudot, [engedélyezd a **Speciális adatvédelmet**](https://support.apple.com/HT212520). Ez szinte az összes iCloud-adatot titkosítja az eszközökön tárolt kulcsokkal (végponttól-végpontig terjedő titkosítás), nem pedig az Apple szerverein, így az iCloud-adataid biztonságban lesznek egy esetleges adatsértés esetén, és egyébként rejtve maradnak az Apple elől.
 
 The encryption used by Advanced Data Protection, while strong, [is not *quite* as robust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) as the encryption offered by other [cloud services](../cloud.md), particularly when it comes to iCloud Drive. While we strongly encourage using Advanced Data Protection if you use iCloud, we would also suggest considering finding an alternative to iCloud from a more [privacy-focused service provider](../tools.md), although it is unlikely most people would be impacted by these encryption quirks.
 
@@ -52,9 +52,9 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 - [ ] Turn off **Personalized Recommendations**
 
-#### Find My
+#### Lokátor
 
-**Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
+A **Lokátor** egy olyan szolgáltatás, amellyel nyomon követheted Apple-eszközeidet, és megoszthatod a tartózkodási helyedet barátaiddal és családtagjaiddal. Lehetővé teszi továbbá, hogy távolról töröld a készülékedet, ha ellopják, így megakadályozva, hogy a tolvaj hozzáférjen az adataidhoz. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
 
 - Your location is shared with a family member or friend, and you both use iOS 15 or greater.
 - Your device is offline and is located by the Find My Network.
@@ -67,17 +67,17 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 Many other privacy-related settings can be found in the **Settings** app.
 
-#### Airplane Mode
+#### Repülőgép üzemmód
 
-Enabling **Airplane Mode** stops your phone from contacting cell towers. You will still be able to connect to Wi-Fi and Bluetooth, so whenever you are connected to Wi-Fi you can turn this setting on.
+A **repülőgépes üzemmód** engedélyezése megakadályozza, hogy a telefon kapcsolatba lépjen a mobiltornyokkal. Továbbra is képes leszel csatlakozni Wi-Fi-hez és a Bluetooth-hoz, így amikor Wi-Fi-hez csatlakozol, bekapcsolhatod ezt a beállítást.
 
 #### Wi-Fi
 
-You can enable hardware address randomization to protect you from tracking across Wi-Fi networks. On the network you are currently connected to, press the :material-information: button:
+A Wi-Fi hálózatokon keresztüli nyomon követés elleni védelem érdekében engedélyezheted a hardvercímek véletlenszerűségét. Az aktuálisan csatlakoztatott hálózatk megtekintéséhez kattints a :material-information: gombra:
 
-- [x] Turn on **Private Wi-Fi Address**
+- [x] **Privát Wi-Fi cím** bekapcsolása
 
-You also have the option to **Limit IP Address Tracking**. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
+Lehetőséged van az **IP-címek nyomon követésének korlátozására** is. This is similar to iCloud Private Relay but only affects connections to "known trackers." Because it only affects connections to potentially malicious servers, this setting is probably fine to leave enabled, but if you don't want *any* traffic to be routed through Apple's servers, you should turn it off.
 
 #### Bluetooth
 
@@ -144,16 +144,16 @@ After enabling stolen data protection, [certain actions](https://support.apple.c
 - [ ] Turn off **Return Missed Calls**
 - [ ] Turn off **USB Accessories**
 
-iPhones are already resistant to brute-force attacks by making you wait long periods of time after multiple failed attempts; however, there have historically been exploits to get around this. To be extra safe, you can set your phone to wipe itself after 10 failed passcode attempts.
+Az iPhone-ok már most is ellenállnak a brute-force támadásoknak, mivel több sikertelen próbálkozás után hosszú ideig kell várakoznia; azonban a múltban már voltak olyan megoldások, amelyekkel ezt meg lehetett kerülni. Az extra biztonság kedvéért beállíthatod, hogy a telefonod 10 sikertelen jelkódkísérlet után törölje magát.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Figyelmeztetés</p>
 
-With this setting enabled, someone could intentionally wipe your phone by entering the wrong password many times. Make sure you have proper backups and only enable this setting if you feel comfortable with it.
+Ha ezt a beállítást engedélyezed, valaki szándékosan törölheti a telefonodat azzal, ha többször rossz jelszót ír be. Győződj meg róla, hogy megfelelő biztonsági mentésekkel rendelkezel, és csak akkor engedélyezd ezt a beállítást, ha részedről ez a kockázat rendben van.
 
 </div>
 
-- [x] Turn on **Erase Data**
+- [x] **Adatok törlésének** bekapcsolása
 
 #### Adatvédelem
 
@@ -193,30 +193,30 @@ Disable **Personalized Ads** if you don't want targeted ads. Select **Apple Adve
 
 ## Additional Advice
 
-### E2EE Calls
+### Végponttól-végpontig titkosított hívások
 
-Normal phone calls made with the Phone app through your carrier are not E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE, or you can use [another app](../real-time-communication.md) like Signal.
+A telefonszolgáltatón keresztül a Telefon alkalmazással kezdeményezett normál telefonhívások nincsenek végponttól-végpontig titkosítással védve. A FaceTime Video éw a FaceTime Audio hívások végponttól-végpontig titkosítottak, de használhatsz helyettük [egy másik alkalmazást](../real-time-communication.md), például a Signal-t.
 
 ### Avoid Jailbreaking
 
-Jailbreaking an iPhone undermines its security and makes you vulnerable. Running untrusted, third-party software could cause your device to be infected with malware.
+Az iPhone jailbreakelése aláássa a biztonságot, és sebezhetővé tesz téged. A nem megbízható, harmadik féltől származó szoftverek futtatása rosszindulatú szoftverekkel fertőzheti meg a készülékedet.
 
-### Encrypted iMessage
+### Titkosított iMessage
 
 The color of the message bubble in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates they're using the outdated SMS and MMS protocols. Currently, the only way to get E2EE in Messages is for both parties to be using iMessage on Apple devices.
 
 If either you or your messaging partner have iCloud Backup enabled without Advanced Data Protection, the encryption key will be stored on Apple's servers, meaning they can access your messages. Additionally, iMessage's key exchange is not as secure as alternative implementations, like Signal (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
 
-### Blacking Out Faces/Information
+### Arcok/információk elsötétítése
 
 If you need to hide information in a photo, you can use Apple's built-in tools to do so. Open the photo you want to edit, press edit in the top right corner of the screen, then press the markup symbol at the top right. Press the plus at the bottom right of the screen, then press the rectangle icon. Now, you can place a rectangle anywhere on the image. Make sure to press the shape icon at the bottom left and select the filled-in rectangle. **Don't** use the highlighter to obfuscate information, because its opacity is not quite 100%.
 
-### iOS Betas
+### iOS béták
 
 Apple always makes beta versions of iOS available early for those that wish to help find and report bugs. We don't recommend installing beta software on your phone. Beta releases are potentially unstable and could have undiscovered security vulnerabilities.
 
-## Security Highlights
+## Biztonsági kiemelések
 
-### Before First Unlock
+### Az első feloldás előtt
 
 If your threat model includes forensic tools and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. The state *after* a reboot but *before* unlocking your device is referred to as "Before First Unlock" (BFU), and when your device is in that state it makes it [significantly more difficult](https://belkasoft.com/checkm8_glossary) for forensic tools to exploit vulnerabilities to access your data. This BFU state allows you to receive notifications for calls, texts, and alarms, but most of the data on your device is still encrypted and inaccessible. This can be impractical, so consider whether these trade-offs make sense for your situation.
