@@ -108,9 +108,9 @@ Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative
 
 <div class="admonition recommendation" markdown>
 
-![Logo di ente Auth](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
 
-**ente Auth** è un'app gratuita e open source che memorizza e genera token TOTP sul tuo dispositivo mobile. Può essere utilizzato con un account online per eseguire il backup e la sincronizzazione dei token tra i tuoi dispositivi (e per accedervi tramite un'interfaccia web) in modo sicuro, con crittografia end-to-end. Può essere utilizzato anche offline su un singolo dispositivo senza la necessità di un account.
+**ente Auth** is a free and open-source app which stores and generates TOTP tokens. Può essere utilizzato con un account online per eseguire il backup e la sincronizzazione dei token tra i tuoi dispositivi (e per accedervi tramite un'interfaccia web) in modo sicuro, con crittografia end-to-end. Può essere utilizzato anche offline su un singolo dispositivo senza la necessità di un account.
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Informativa sulla Privacy" }
@@ -121,10 +121,7 @@ Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
-- [:simple-windows11: Windows](https://ente.io/download)
-- [:simple-apple: macOS](https://ente.io/download)
-- [:simple-linux: Linux](https://ente.io/download)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
 - [:octicons-globe-16: Web](https://auth.ente.io)
 
 </details>

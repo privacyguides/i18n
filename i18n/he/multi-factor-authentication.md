@@ -108,9 +108,9 @@ The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports sys
 
 <div class="admonition recommendation" markdown>
 
-![ente Auth לוגו](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
 
-**ente Auth** היא אפליקציה חינמית וקוד פתוח המאחסנת ויוצרת אסימוני TOTP במכשיר הנייד שלך. ניתן להשתמש בו עם חשבון מקוון כדי לגבות ולסנכרן את האסימונים שלך בין המכשירים שלך (ולגשת אליהם דרך ממשק אינטרנט) בצורה מאובטחת ומוצפנת מקצה לקצה. ניתן להשתמש בו גם במצב לא מקוון במכשיר בודד ללא צורך בחשבון.
+**ente Auth** is a free and open-source app which stores and generates TOTP tokens. ניתן להשתמש בו עם חשבון מקוון כדי לגבות ולסנכרן את האסימונים שלך בין המכשירים שלך (ולגשת אליהם דרך ממשק אינטרנט) בצורה מאובטחת ומוצפנת מקצה לקצה. ניתן להשתמש בו גם במצב לא מקוון במכשיר בודד ללא צורך בחשבון.
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -121,10 +121,7 @@ The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports sys
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
-- [:simple-windows11: Windows](https://ente.io/download)
-- [:simple-apple: macOS](https://ente.io/download)
-- [:simple-linux: Linux](https://ente.io/download)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
 - [:octicons-globe-16: Web](https://auth.ente.io)
 
 </details>

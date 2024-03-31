@@ -110,7 +110,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
 
-**ente Auth** adalah sebuah aplikasi sumber terbuka dan gratis yang menyimpan dan menghasilkan token TOTP pada perangkat seluler Anda. Aplikasi tersebut dapat digunakan dengan akun daring untuk mencadangkan dan menyinkronkanisasi token Anda di seluruh perangkat Anda (dan mengaksesnya melalui antarmuka web) dengan cara yang aman dan terenkripsi ujung-ke-ujung. Aplikasi ini juga dapat digunakan secara luring pada satu perangkat tanpa perlu akun.
+**ente Auth** is a free and open-source app which stores and generates TOTP tokens. Aplikasi tersebut dapat digunakan dengan akun daring untuk mencadangkan dan menyinkronkanisasi token Anda di seluruh perangkat Anda (dan mengaksesnya melalui antarmuka web) dengan cara yang aman dan terenkripsi ujung-ke-ujung. Aplikasi ini juga dapat digunakan secara luring pada satu perangkat tanpa perlu akun.
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -121,10 +121,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
-- [:simple-windows11: Windows](https://ente.io/download)
-- [:simple-apple: macOS](https://ente.io/download)
-- [:simple-linux: Linux](https://ente.io/download)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
 - [:octicons-globe-16: Web](https://auth.ente.io)
 
 </details>
