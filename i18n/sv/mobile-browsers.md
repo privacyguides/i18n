@@ -155,7 +155,7 @@ I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app
 
 These options can be found in :gear: **Settings** → **Safari**
 
-##### Profiles
+##### Profiler
 
 All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 

@@ -200,7 +200,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 ### VPN提供商
 
 <details class="danger" markdown>
-<summary>VPN 不提供匿名性。</summary>
+<summary>VPN 不提供匿名性</summary>
 
 使用 VPN **不會** 讓您的瀏覽習慣匿名，也不會為不安全（ HTTP ）流量增加額外的安全性。
 

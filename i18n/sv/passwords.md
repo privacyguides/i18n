@@ -15,7 +15,7 @@ schema:
     "@type": SoftwareApplication
     name: Bitwarden
     image: /assets/img/password-management/bitwarden.svg
-    url: https://bitwarden.com
+    url: https://bitwarden.com/
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
     applicationCategory: Password Manager
     operatingSystem:
@@ -33,7 +33,7 @@ schema:
     "@type": SoftwareApplication
     name: 1Password
     image: /assets/img/password-management/1password.svg
-    url: https://1password.com
+    url: https://1password.com/
     sameAs: https://en.wikipedia.org/wiki/1Password
     applicationCategory: Password Manager
     operatingSystem:
