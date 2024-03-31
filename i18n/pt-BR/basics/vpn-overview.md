@@ -1,26 +1,26 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "Como as VPNs protegem sua privacidade? Nossa Visão Geral Sobre VPN — Privacy Guides"
+title: Visão geral da VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: As Redes Privadas Virtuais transferem o risco do seu ISP para um terceiro em quem você confia. Você deve ter isso em mente.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+Redes Privadas Virtuais são uma maneira de estender o fim da sua rede para sair de outro lugar do mundo.
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normalmente um provedor de serviços de internet (ISP) pode ver o fluxo de tráfego da Internet que entra e sai do seu dispositivo de rede (por exemplo, o modem). Protocolos de criptografia, como o HTTPS, são comumente usados na Internet, portanto, talvez eles não consigam ver exatamente o que você está postando ou lendo, mas podem ter uma ideia dos [domínios que você solicita](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+Usar uma VPN esconde mesmo essa informação do seu ISP, mudando a confiança depositada em sua rede para um servidor em outro lugar do mundo. Como resultado, o ISP só vê que você está conectado a uma VPN e nada sobre a atividade que está passando por ela.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+Quando nos referimos a "Redes Privadas Virtuais" neste site, geralmente estamos nos referindo a **provedores comerciais** [de VPN](../vpn.md), aos quais você paga uma taxa mensal em troca do roteamento seguro do seu tráfego de Internet por seus servidores públicos. Há muitas outras formas de VPN, como as que você mesmo hospeda ou as operadas por locais de trabalho que permitem a conexão segura a recursos de rede interna/dos funcionários; no entanto, essas VPNs geralmente são projetadas para acessar redes remotas com segurança, em vez de proteger a privacidade da sua conexão com a Internet.
 
 </div>
 
-## How does a VPN work?
+## Como funciona a VPN?
 
-VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+As VPNs criptografam o tráfego entre o dispositivo e um servidor de propriedade do provedor de VPN. Do ponto de vista de qualquer pessoa entre você e o servidor VPN, parece que você está se conectando ao servidor VPN. Do ponto de vista de qualquer pessoa entre o servidor VPN e o site de destino, tudo o que ela pode ver é o servidor VPN se conectando ao site.
 
 ``` mermaid
 flowchart LR
@@ -30,32 +30,32 @@ flowchart LR
  end
 ```
 
-Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+Observe que uma VPN não adiciona nenhuma segurança ou criptografia ao seu tráfego entre o servidor VPN e o seu destino na Internet. Para acessar um site com segurança, você ainda **deve** garantir que o HTTPS esteja em uso, independentemente de usar uma VPN.
 
 ## Devo Usar Uma VPN?
 
-**Yes**, almost certainly. A VPN has many advantages, including:
+**Sim**, quase com certeza. Uma VPN tem muitas vantagens, incluindo:
 
-1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+1. Ocultar seu tráfego **apenas** do seu provedor de serviços de Internet.
+1. Ocultação de seus downloads (como torrents) de seu ISP e de organizações antipirataria.
+1. Oculta seu IP de sites e serviços de terceiros, ajudando-o a se integrar e evitando o rastreamento baseado em IP.
+1. Permitindo que você contorne as restrições geográficas de determinados conteúdos.
 
-VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
+As VPNs podem oferecer *alguns* dos mesmos benefícios que o Tor, como ocultar seu IP dos sites que você visita e deslocar geograficamente seu tráfego de rede, e bons provedores de VPN não cooperarão com, por exemplo, autoridades legais de regimes opressivos, especialmente se você escolher um provedor de VPN fora de sua própria jurisdição.
 
-VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. E não há nenhuma maneira de verificar as políticas de "não registro" dos provedores de VPN.
+VPNs não podem criptografar dados fora da conexão entre o seu dispositivo e o servidor VPN. Os provedores de VPN também podem ver e modificar o seu tráfego da mesma forma que o seu ISP, portanto, ainda há um nível de confiança que você está depositando neles. E não há nenhuma maneira de verificar as políticas de "não registro" dos provedores de VPN.
 
-## When isn't a VPN suitable?
+## Quando uma VPN não é apropriada?
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely be useful. Fazê-lo pode acionar sistemas de detecção de fraude e “spam”, como se você logasse no site do seu banco.
+É pouco provável que a utilização de uma VPN seja útil nos casos em que utiliza a sua [identidade](common-threats.md#common-misconceptions). Fazê-lo pode acionar sistemas de detecção de fraude e “spam”, como se você logasse no site do seu banco.
 
-It's important to remember that a VPN will not provide you with absolute anonymity, because the VPN provider itself will still see your real IP address, destination website information, and often has a money trail that can be linked directly back to you. You can't rely on "no logging" policies to protect your data from anyone who is able to protect. If you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+É importante lembrar que uma VPN não lhe proporcionará anonimato absoluto, pois o próprio provedor de VPN ainda verá seu endereço IP real, as informações do site de destino e, muitas vezes, tem um rastro de dinheiro que pode ser vinculado diretamente a você. Não é possível confiar em políticas de "não registro" para proteger seus dados de qualquer pessoa que possa protegê-los. Se você precisar de segurança total da própria rede, considere o uso do [Tor](../advanced/tor-overview.md), além ou em vez de uma VPN.
 
-You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. Para manter realmente privado e seguro o que você faz nos sites que visita, você precisa utilizar HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+Você também não deve confiar em uma VPN para proteger sua conexão com um destino HTTP não criptografado. Para manter realmente privado e seguro o que você faz nos sites que visita, você precisa utilizar HTTPS. Isso manterá suas senhas, tokens de sessão e consultas protegidas do provedor de VPN e de outros adversários em potencial entre o servidor VPN e seu destino. Você deve ativar o modo somente-HTTPS em seu navegador (se for compatível) para atenuar os ataques que tentam fazer downgrade de sua conexão de HTTPS para HTTP.
 
 ## Devo usar DNS criptografado com uma VPN?
 
-Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. Seu provedor VPN ainda pode ver quais sites você visita baseado nos seus endereços IP e outros métodos. All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
+A menos que seu próprio provedor de VPN hospede os servidores de DNS criptografados, **provavelmente não**. Usar o DOH/DOT (ou qualquer outra forma de DNS criptografado) com servidores de terceiros simplesmente adicionará mais entidades nas quais confiar. Seu provedor VPN ainda pode ver quais sites você visita baseado nos seus endereços IP e outros métodos. Dito isso, pode haver algumas vantagens em ativar o DNS criptografado para habilitar outros recursos de segurança em seu navegador, como o ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
 
 Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. No entanto, seu navegador já deve estar checando por [certificados TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) com **HTTPS** e te informar sobre. Se você não está usando **HTTPS**, então um adversário pode simplesmente modificar qualquer coisa diferente das suas consultas DNS e o resultado será pouco diferente.
 
