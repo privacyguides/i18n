@@ -15,7 +15,7 @@ Un DNS encriptado con servidores de terceros solo debe utilizarse para evitar el
 
 ## Proveedores Recomendados
 
-These are our favorite public DNS resolvers based on their privacy and security characteristics, and their worldwide performance. Some of these services offer basic DNS-level blocking of malware or trackers depending on the server you choose, but if you want to be able to see and customize what is blocked you should use a dedicated DNS filtering product instead.
+Estos son nuestros resolvedores de DNS públicos favoritos en función de sus características de privacidad y seguridad, y de su rendimiento en todo el mundo. Algunos de estos servicios ofrecen un bloqueo básico a nivel de DNS de malware o rastreadores en función del servidor que elijas, pero si quieres poder ver y personalizar lo que se bloquea, deberías utilizar en su lugar un producto de filtrado DNS dedicado.
 
 | Proveedor de DNS                                                           | Política de Privacidad                                                                               | Protocolos                               | Registro     | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Filtrado                                                                                                                                                         | Signed Apple Profile                                                                                                     |
 | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------ | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -79,15 +79,15 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 ![Control D logo](assets/img/dns/control-d.svg){ align=right }
 
-**Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level. In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free.
+**Control D** es un servicio DNS personalizable que permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel de DNS. Además de sus planes de pago, ofrecen una serie de resolvedores DNS preconfigurados que puedes utilizar gratuitamente.
 
-[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://controld.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
@@ -106,15 +106,15 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 ![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
 
-**NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level. They offer a fully functional free plan for limited use.
+ **NextDNS** es un servicio DNS personalizable que te permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel DNS. Ofrecen un plan gratuito totalmente funcional para uso limitado.
 
-[:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.nextdns.io){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://nextdns.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://help.nextdns.io){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-windows11: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
 - [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
@@ -128,13 +128,13 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 Cuando se utiliza con una cuenta, NextDNS habilitará las funciones de información y registro de forma predeterminada (ya que algunas funciones lo requieren). Puedes elegir los tiempos de retención y las ubicaciones de almacenamiento de los registros que desees conservar.
 
-NextDNS's free plan is fully functional, but should not be relied upon for security or other critical filtering applications, because after 300,000 DNS queries in a month all filtering, logging, and other account-based functionality is disabled. It can still be used as a regular DNS provider after that point, so your devices will continue to function and make secure queries via DNS-over-HTTPS, just without your filter lists.
+El plan gratuito de NextDNS es totalmente funcional, pero no se debe confiar en él para aplicaciones de seguridad u otras aplicaciones de filtrado críticas, ya que después de 300.000 consultas DNS en un mes se deshabilitan todas las funciones de filtrado, registro y otras funciones basadas en la cuenta. Se puede seguir utilizando como un proveedor DNS normal después de ese punto, por lo que sus dispositivos seguirán funcionando y haciendo consultas seguras a través de DNS-sobre-HTTPS, solo que sin sus listas de filtros.
 
-NextDNS also offers public DNS-over-HTTPS service at `https://dns.nextdns.io` and DNS-over-TLS/QUIC at `dns.nextdns.io`, which are available by default in Firefox and Chromium, and subject to their default no-logging [privacy policy](https://nextdns.io/privacy).
+NextDNS también ofrece el servicio público DNS-sobre-HTTPS en `https://dns.nextdns.io` y DNS-sobre-TLS/QUIC en `dns.nextdns.io`, que están disponibles por defecto en Firefox y Chromium, y sujetos a su [política de privacidad](https://nextdns.io/privacy) de no-logging por defecto.
 
 ## Proxies DNS Cifrados
 
-El software de proxy de DNS encriptado proporciona un proxy local para que el resolver DNS [no encriptado](advanced/dns-overview.md#unencrypted-dns) lo reenvíe. Typically, it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
+El software de proxy de DNS encriptado proporciona un proxy local para que el resolver DNS [no encriptado](advanced/dns-overview.md#unencrypted-dns) lo reenvíe. Normalmente, se utiliza en plataformas que no soportan [DNS cifrado](advanced/dns-overview.md#what-is-encrypted-dns) de forma nativa.
 
 ### RethinkDNS
 
@@ -196,7 +196,7 @@ El software de proxy de DNS encriptado proporciona un proxy local para que el re
 
 - [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [Minimización QNAME](advanced/dns-overview.md#what-is-qname-minimization).
-- Anonymize [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) or disable it by default.
+- Anonimizar [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) o desactivarlo por defecto.
 - Preferir soporte [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) o soporte de dirección geográfica.
 
 [^1]: AdGuard almacena métricas de rendimiento agregadas de sus servidores DNS, es decir, el número de solicitudes completas a un servidor en particular, el número de solicitudes bloqueadas, y la velocidad de procesamiento de solicitudes. También guardan y almacenan la base de datos de dominios solicitados dentro de las últimas 24 horas. "Necesitamos esta información para identificar y bloquear nuevos rastreadores y amenazas". "También registramos cuántas veces se ha bloqueado tal o cual rastreador. Necesitamos esta información para eliminar normas obsoletas de nuestros filtros". [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)

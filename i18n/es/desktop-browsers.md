@@ -236,7 +236,7 @@ Brave se basa en el proyecto de navegador web Chromium, por lo que debería resu
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
