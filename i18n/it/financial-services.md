@@ -45,7 +45,7 @@ Privacy.com fornisce le informazioni sui commercianti da cui acquisti alla tua b
 ![Logo di MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
 ![Logo di MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** fornisce fino a 9 carte virtuali a seconda del piano acquistato. I piani a pagamento, inoltre, includono funzionalità che potrebbero tornare utili per effettuare acquisti privatamente, come numeri di telefono e indirizzi email virtuali, sebbene, tipicamente, consigliamo altri [fornitori di alias email](email.md), per l'utilizzo prolungato di alias email.
+**MySudo** fornisce fino a 9 carte virtuali a seconda del piano acquistato. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email.md) for extensive email aliasing use.
 
 [:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }

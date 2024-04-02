@@ -45,7 +45,7 @@ Privacy.com geeft standaard informatie over de handelaren bij wie je koopt door 
 MySudo logo](assets/img/financiële-diensten/mysudo.svg#alleen-licht){ align=right }
 MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** biedt tot 9 virtuele kaarten, afhankelijk van het plan dat je koopt. Hun betaalde plannen omvatten bovendien functionaliteit die nuttig kan zijn om privé aankopen te doen, zoals virtuele telefoonnummers en e-mailadressen, hoewel wij gewoonlijk andere [email aliasing providers](email.md) aanbevelen voor uitgebreid e-mail aliasing gebruik.
+**MySudo** biedt tot 9 virtuele kaarten, afhankelijk van het plan dat je koopt. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email.md) for extensive email aliasing use.
 
 [:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }

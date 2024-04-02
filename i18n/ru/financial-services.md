@@ -45,7 +45,7 @@ Privacy.com по умолчанию передает информацию о п�
 ![Логотип MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
 ![Логотип MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** предоставляет до 9 виртуальных карт в зависимости от приобретенного вами тарифного плана. Их платные тарифные планы дополнительно включают функциональность, которая может быть полезна для совершения покупок в приватном порядке, например, виртуальные номера телефонов и адреса электронной почты, хотя для широкого использования псевдонимов электронной почты мы обычно рекомендуем других [провайдеров псевдонимов электронной почты](email.md).
+**MySudo** предоставляет до 9 виртуальных карт в зависимости от приобретенного вами тарифного плана. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email.md) for extensive email aliasing use.
 
 [:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }

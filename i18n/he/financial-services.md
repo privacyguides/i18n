@@ -45,7 +45,7 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 ![MySudo לוגו](assets/img/financial-services/mysudo.svg#only-light){ align=right }
 ![MySudo לוגו](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** מספקת עד 9 כרטיסים וירטואליים בהתאם לתוכנית שתרכשו. התוכניות בתשלום שלהם כוללות בנוסף פונקציונליות שעשויה להיות שימושית לביצוע רכישות באופן פרטי, כגון מספרי טלפון וירטואליים וכתובות אימייל, אם כי בדרך כלל אנו ממליצים על [ספקי כינוי אימייל](email.md) אחרים לשימוש נרחב בכינויי אימייל.
+**MySudo** מספקת עד 9 כרטיסים וירטואליים בהתאם לתוכנית שתרכשו. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email.md) for extensive email aliasing use.
 
 [:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }

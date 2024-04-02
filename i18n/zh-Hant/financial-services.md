@@ -45,7 +45,7 @@ Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 �
 ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
 ![MySudo標誌](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** 根據您購買的方案最多提供 9張虛擬卡。 付費方案還包括一些有助於私密購物的功能，例如虛擬電話號碼和電子郵件地址，但我們通常建議使用專業 [電子郵件別名提供商](email.md)進行廣泛的別名使用保護。
+**MySudo** 根據您購買的方案最多提供 9張虛擬卡。 Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email.md) for extensive email aliasing use.
 
 [:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
