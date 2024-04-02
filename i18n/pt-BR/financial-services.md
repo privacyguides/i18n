@@ -45,7 +45,7 @@ Privacy.com gives information about the merchants you purchase from to your bank
 ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
 ![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** provides up to 9 virtual cards depending on the plan you purchase. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email.md) for extensive email aliasing use.
+**MySudo** provides up to 9 virtual cards depending on the plan you purchase. Os seus planos pagos também incluem funcionalidades que podem ser úteis para a realização de compras privadas, como números de telefone virtuais e endereços de e-mail, embora geralmente recomendemos outros [provedores de aliasing de e-mail](email.md) para extenso uso de aliasing de e-mail.
 
 [:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }

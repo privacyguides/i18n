@@ -2,7 +2,7 @@
 title: Traffic Statistics
 ---
 
-We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below. With this process:
+Nós hospedamos o [Umami] (https\://umami.is) para criar uma boa visualização de nossas estatísticas de tráfego, que são públicas no link abaixo. With this process:
 
 - Your information is never shared with a third-party, it stays on servers we control
 - Your personal data is never saved, we only collect data in aggregate
