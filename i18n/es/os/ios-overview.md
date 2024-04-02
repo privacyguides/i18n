@@ -40,7 +40,7 @@ También puedes proteger tus datos limitando lo que sincronizas con iCloud. En l
 
 #### iCloud+
 
-Una suscripción de pago a **iCloud+** (con cualquier plan de almacenamiento de iCloud) incluye algunas funciones de protección de la privacidad. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email.md#email-aliasing-services) just for these features alone.
+Una suscripción de pago a **iCloud+** (con cualquier plan de almacenamiento de iCloud) incluye algunas funciones de protección de la privacidad. Si bien pueden ofrecer un servicio adecuado a los clientes actuales de iCloud, no recomendaríamos adquirir un plan iCloud+ en lugar de una [VPN ](../vpn.md) y un [servicio independiente de alias de correo electrónico](../email.md#email-aliasing-services) solo por estas funciones.
 
 **Relay Privado** es un servicio proxy que retransmite tu tráfico de Safari a través de dos servidores: uno propiedad de Apple y otro de un proveedor externo (incluyendo Akamai, Cloudflare y Fastly). En teoría, esto debería impedir que cualquier proveedor de la cadena -incluido Apple- tenga plena visibilidad de los sitios web que visitas mientras estás conectado. A diferencia de una VPN completa, el Relay Privado no protege el tráfico de tus aplicaciones fuera de Safari.
 

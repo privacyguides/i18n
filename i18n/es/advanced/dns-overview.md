@@ -98,7 +98,7 @@ Apple no proporciona una interfaz nativa para crear perfiles DNS encriptados. [S
 
 #### Linux
 
-`systemd-resolved`, que muchas distribuciones Linux utilizan para realizar sus búsquedas DNS, todavía no [soporta DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, que muchas distribuciones Linux utilizan para realizar sus búsquedas DNS, todavía no [soporta DoH](https://github.com/systemd/systemd/issues/8639). Si quieres utilizar DoH, tendrás que instalar un proxy como [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) y [configurarlo](https://wiki.archlinux.org/title/Dnscrypt-proxy) para tomar todas las consultas DNS de tu sistema de resolución y reenviarlas a través de HTTPS.
 
 ## ¿Qué puede ver un tercero?
 
@@ -336,21 +336,21 @@ La [Subred de Cliente EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) es
 
 Su objetivo es "acelerar" la entrega de datos dando al cliente una respuesta que pertenece a un servidor que está cerca de él, como una [red de distribución de contenidos](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos), que se utilizan a menudo en la transmisión de vídeo y el servicio de aplicaciones web de JavaScript.
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+Esta función tiene un coste en términos de privacidad, ya que comunica al servidor DNS cierta información sobre la ubicación del cliente, generalmente tu red IP. Por ejemplo, si gu dirección IP es `198.51.100.32`, el proveedor de DNS puede compartir `198.51.100.0/24` con el servidor autoritativo. Algunos proveedores de DNS anonimizan estos datos proporcionando otra dirección IP que está aproximadamente cerca de tu ubicación.
 
-If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+Si tienes `dig` instalado, puedes comprobar si tu proveedor de DNS proporciona información EDNS a los servidores de nombres DNS con el siguiente comando:
 
 ```bash
 dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+Ten en cuenta que este comando se pondrá en contacto con Google para realizar la prueba y te devolverá tu IP, así como la información de subred del cliente EDNS. Si quieres probar otro resolvedor DNS puedes especificar su IP, para probar `9.9.9.11` por ejemplo:
 
 ```bash
 dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+Si los resultados incluyen un segundo registro TXT edns0-client-subnet (como se muestra a continuación), entonces tu servidor DNS está transmitiendo información EDNS. La IP o red que se muestra a continuación es la información precisa que tu proveedor de DNS ha compartido con Google.
 
 ```text
 o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"

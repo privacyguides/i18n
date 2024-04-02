@@ -46,7 +46,7 @@ La aplicación web Proton Drive ha sido auditada de forma independiente por Secu
 
 > Los auditores identificaron dos vulnerabilidades de baja gravedad. Además, se notificaron cinco recomendaciones generales. Al mismo tiempo, confirmamos que no se detectaron problemas de seguridad importantes durante el pentest.
 
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
+Los nuevos clientes móviles de Proton Drive aún no han sido auditados públicamente por terceros.
 
 ## Tresorit
 
@@ -91,15 +91,15 @@ También han recibido el Digital Trust Label, una certificación de la [Swiss Di
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech).
+**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir y ver sus fotos, vídeos, documentos, etc. Peergos protege tus archivos con cifrado cuántico resistente de extremo a extremo y garantiza que todos los datos sobre tus archivos permanezcan privados. Está construido sobre [IPFS (InterPlanetary File System)](https://ipfs.tech).
 
-[:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://book.peergos.net){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://peergos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://book.peergos.net){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:octicons-globe-16: Web](https://peergos.net)
 - [:simple-windows11: Windows](https://github.com/Peergos/web-ui/releases)
@@ -110,13 +110,13 @@ También han recibido el Digital Trust Label, una certificación de la [Swiss Di
 
 </div>
 
-Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server negating the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
+Peergos es principalmente una aplicación web, pero puedes alojar tú mismo el servidor, ya sea como caché local para tu cuenta Peergos remota o como servidor de almacenamiento independiente, sin necesidad de registrarte para obtener una cuenta y una suscripción remotas. El servidor Peergos es un archivo `.jar`, lo que significa que debes tener instalado en tu máquina Java 17+ Runtime Environmen ([descarga de OpenJDK](https://azul.com/downloads)) para que funcione.
 
-Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
+Ejecutar una versión local de Peergos junto con una cuenta registrada en su servicio alojado de pago te permite acceder a tu almacenamiento Peergos sin depender de DNS o autoridades de certificación TLS, y mantener una copia de seguridad de tus datos en su nube. La experiencia del usuario debería ser la misma tanto si ejecutas su servidor de escritorio como si utilizas su interfaz web alojada.
 
-Peergos was [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in September 2019, and all found issues were subsequently fixed.
+Peergos fue [auditado](https://cure53.de/pentest-report_peergos.pdf) por Cure53 en septiembre de 2019, y todos los problemas encontrados se solucionaron posteriormente.
 
-Also, the Android app is not available but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). The current workaround is to use the mobile [PWA](https://peergos.net) instead.
+Además, la aplicación para Android no está disponible, pero se está [trabajando](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25) en ella. La solución actual consiste en utilizar [la PWA](https://peergos.net) móvil en su lugar.
 
 ## Criterios
 

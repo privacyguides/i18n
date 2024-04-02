@@ -140,7 +140,7 @@ Firefox incluye un [token de descarga] único (https://bugzilla.mozilla.org/show
 
 </div>
 
-### Recommended Firefox Configuration
+### Configuración Recomendada de Firefox
 
 Estas opciones se encuentran en :material-menu: → **Ajustes**
 
@@ -257,7 +257,7 @@ Brave añade un "[código de referido](https://github.com/brave/brave-browser/wi
 
 </div>
 
-### Recommended Brave Configuration
+### Configuración Recomendada de Brave
 
 Estas opciones se encuentran en :material-menu: → **Configuración**.
 
