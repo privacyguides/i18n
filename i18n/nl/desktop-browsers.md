@@ -16,7 +16,7 @@ schema:
     "@type": SoftwareApplication
     name: Mullvad Browser
     image: /assets/img/browsers/mullvad_browser.svg
-    url: https://mullvad.net/en/browser
+    url: https://mullvad.net/nl/browser
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -31,7 +31,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://nl.wikipedia.org/wiki/Mozilla_Firefox
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -46,7 +46,7 @@ schema:
     name: Brave
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
+    sameAs: https://nl.wikipedia.org/wiki/Brave_(webbrowser)
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
