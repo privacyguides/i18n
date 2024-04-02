@@ -8,12 +8,17 @@ Privacy Guides es un proyecto comunitario gestionado por una serie de colaborado
 
 La privacidad de los visitantes de nuestro sitio web es importante para nosotros, por lo que no rastreamos a ninguna persona en particular. Como visitante de nuestro sitio web:
 
-- No se recopila información personal
-- No se almacenan cookies en el navegador
+- No personal information is stored
 - No se comparte, envía o vente su información a terceros
 - No se comparte su información con compañías de publicidad
 - No se extrae ni se recolecta información para obtener tendencias personales y de comportamiento
 - No se monetiza la información
+
+You can view the data we collect on our [statistics](statistics.md) page.
+
+We run a self-hosted installation of [Umami](https://umami.is/) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only, and no personal data is stored.
+
+The only data which is collected is data sent in a standard web request, which includes referral sources, the page you're visiting, your user agent, your IP address, and your screen resolution. The raw data is immediately discarded after statistics have been generated, for example if we collect your screen resolution as `1125x2436`, the only data we retain is "mobile device" and not your specific resolution.
 
 ## Datos que recopilamos de los titulares de cuentas
 

@@ -8,12 +8,17 @@ title: "隐私政策"
 
 網站訪客的隱私對我們很重要，因此我們不會追蹤任何個人。 作為我們網站的訪客：
 
-- 不收集任何個人資訊
-- 瀏覽器中不會儲存 Cookie 等資訊
+- No personal information is stored
 - 不會對第三方分享、傳送或出售任何資訊
 - 不會與廣告公司共享任何資訊
 - 不挖掘和收集個人和行為趨勢
 - 未通過任何訪客資訊盈利
+
+You can view the data we collect on our [statistics](statistics.md) page.
+
+We run a self-hosted installation of [Umami](https://umami.is/) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only, and no personal data is stored.
+
+The only data which is collected is data sent in a standard web request, which includes referral sources, the page you're visiting, your user agent, your IP address, and your screen resolution. The raw data is immediately discarded after statistics have been generated, for example if we collect your screen resolution as `1125x2436`, the only data we retain is "mobile device" and not your specific resolution.
 
 ## 我們從帳戶持有人收集的資料
 

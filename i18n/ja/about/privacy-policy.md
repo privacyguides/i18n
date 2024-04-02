@@ -8,12 +8,17 @@ Privacy Guidesは、多くの積極的なボランティアにより運営され
 
 私たちは、ウェブサイト閲覧者のプライバシーを重視しているため、各個人を追跡することはありません。 私たちのウェブサイトの訪問者に関して、
 
-- No personal information is collected
-- No information such as cookies are stored in the browser
+- No personal information is stored
 - No information is shared with, sent to or sold to third-parties
 - No information is shared with advertising companies
 - No information is mined and harvested for personal and behavioral trends
 - No information is monetized
+
+You can view the data we collect on our [statistics](statistics.md) page.
+
+We run a self-hosted installation of [Umami](https://umami.is/) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only, and no personal data is stored.
+
+The only data which is collected is data sent in a standard web request, which includes referral sources, the page you're visiting, your user agent, your IP address, and your screen resolution. The raw data is immediately discarded after statistics have been generated, for example if we collect your screen resolution as `1125x2436`, the only data we retain is "mobile device" and not your specific resolution.
 
 ## アカウントの所有者から収集するデータ
 
