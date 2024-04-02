@@ -85,6 +85,39 @@ Tresorit ha recibido varias auditorías de seguridad independientes:
 
 También han recibido el Digital Trust Label, una certificación de la [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) que exige superar [35 criterios](https://digitaltrust-label.swiss/criteria) relacionados con la seguridad, la privacidad y la fiabilidad.
 
+## Peergos
+
+<div class="admonition recommendation" markdown>
+
+![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
+
+**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech).
+
+[:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://book.peergos.net){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:octicons-globe-16: Web](https://peergos.net)
+- [:simple-windows11: Windows](https://github.com/Peergos/web-ui/releases)
+- [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
+- [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
+
+</details>
+
+</div>
+
+Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server negating the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
+
+Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
+
+Peergos was [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in September 2019, and all found issues were subsequently fixed.
+
+Also, the Android app is not available but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). The current workaround is to use the mobile [PWA](https://peergos.net) instead.
+
 ## Criterios
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.

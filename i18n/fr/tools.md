@@ -79,8 +79,9 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 <div class="grid cards" markdown>
 
-- ![Logo Proton Drive](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
-- ![Logo Tresorit](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
+- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
+- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji } [Peergos](cloud.md#peergos)
 
 </div>
 

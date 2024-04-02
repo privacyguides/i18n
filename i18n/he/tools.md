@@ -79,8 +79,9 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive לוגו](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit לוגו](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
+- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji } [Proton Drive](cloud.md#proton-drive)
+- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji } [Tresorit](cloud.md#tresorit)
+- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji } [Peergos](cloud.md#peergos)
 
 </div>
 
