@@ -140,7 +140,7 @@ Firefox enthält einen einzigartigen [Download-Token](https://bugzilla.mozilla.o
 
 </div>
 
-### Empfohlene Konfiguration
+### Recommended Firefox Configuration
 
 Diese Optionen sind zu finden unter :material-menu: → **Einstellungen**
 
@@ -257,7 +257,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 </div>
 
-### Empfohlene Konfiguration
+### Recommended Brave Configuration
 
 Diese Optionen sind unter :material-menu: → **Einstellungen** zu finden.
 
@@ -340,7 +340,7 @@ Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Ang
 
 1. Diese Option ist nicht auf allen Plattformen verfügbar.
 
-#### Sync
+#### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 

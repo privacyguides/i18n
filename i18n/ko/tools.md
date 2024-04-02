@@ -62,6 +62,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](mobile-browsers.md)
 
+<!-- markdownlint-disable-next-line -->
 ### 추가 자료
 
 <div class="grid cards annotate" markdown>

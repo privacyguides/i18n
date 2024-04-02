@@ -13,15 +13,13 @@
 ## Gitea
 
 - Адрес: [code.privacyguides.dev](https://code.privacyguides.dev)
-- Доступ: Только по приглашению  
-  Доступ может быть предоставлен по запросу любой команде, работающей над разработкой или контентом связанными с *Privacy Guides*.
+- Availability: Invite-Only Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
 - Исходный код: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - Адрес: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Доступ: Только по приглашению  
-  Доступ может быть предоставлен по запросу членам команды Privacy Guides, модераторам чатов в Matrix, сторонним администраторам сообществ Matrix, операторам Matrix-ботов и другим лицам, нуждающимся в надежном Matrix-сервере.
+- Availability: Invite-Only Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
 - Исходный код: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
@@ -33,6 +31,5 @@
 ## Invidious
 
 - Домен: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Доступность: Полупубличный  
-  Мы размещаем Invidious в основном для обслуживания встроенных видеороликов YouTube на нашем сайте, этот экземпляр не предназначен для общего использования и может быть ограничен в любое время.
+- Availability: Semi-Public We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
 - Исходный код: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

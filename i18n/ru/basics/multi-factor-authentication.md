@@ -159,7 +159,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 МФА с SSH может быть настроена с использованием нескольких различных методов аутентификации, которые популярны при использовании аппаратных ключей безопасности. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
 
-#### Одноразовый пароль основанный на времени (TOTP)
+#### TOTP
 
 МФА с SSH также можно настроить с помощью TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Большинство вещей должны быть одинаковыми независимо от дистрибутива, однако команды менеджера пакетов - например, `apt-get`- и названия пакетов могут отличаться.
 

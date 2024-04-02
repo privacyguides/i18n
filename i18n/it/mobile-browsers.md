@@ -69,7 +69,7 @@ Brave si basa sul progetto del browser web di Chromium, quindi, dovrebbe sembrar
 
 </div>
 
-#### Configurazione consigliata
+#### Recommended Brave Configuration
 
 Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Quando utilizzi Brave, consigliamo di modificare le seguenti informazioni per proteggere la tua privacy da certe parti, ma tutti i browser tranne [Tor Browser](tor.md#tor-browser) saranno tracciabili da *qualcuno*, in un modo o nell'altro.
 
@@ -151,7 +151,7 @@ Su iOS, qualsiasi app che possa navigare sul web è [limitata](https://developer
 
 </div>
 
-#### Configurazione consigliata
+#### Recommended Firefox Configuration
 
 Queste opzioni si trovano in :gear: **Impostazioni** → **Safari**
 

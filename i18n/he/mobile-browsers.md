@@ -69,7 +69,7 @@ Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור ל�
 
 </div>
 
-#### תצורה מומלצת
+#### Recommended Brave Configuration
 
 דפדפן Tor הוא הדרך היחידה לגלוש באמת באינטרנט באופן אנונימי. כאשר אתה משתמש ב-Brave, אנו ממליצים לשנות את ההגדרות הבאות כדי להגן על פרטיותך מפני גורמים מסוימים, אך כל הדפדפנים מלבד [Tor דפדפן](tor.md#tor-browser) יהיו ניתנים למעקב על ידי *מישהו* בהקשר זה או אחר.
 
@@ -151,7 +151,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-#### תצורה מומלצת
+#### Recommended Firefox Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

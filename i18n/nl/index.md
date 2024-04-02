@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## Waarom moet ik me zorgen maken?
 
 ##### "Ik heb niks te verbergen. Waarom zou ik me zorgen maken over mijn privacy?"

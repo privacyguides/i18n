@@ -62,6 +62,7 @@ Ha további információt szeretnél megtudni az egyes projektekről, hogy miér
 
 [További információ :material-arrow-right-drop-circle:](mobile-browsers.md)
 
+<!-- markdownlint-disable-next-line -->
 ### Android
 
 <div class="grid cards annotate" markdown>

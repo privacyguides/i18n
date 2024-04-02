@@ -62,6 +62,7 @@ Om du vill ha mer information om varje projekt, varför de valdes ut och ytterli
 
 [Läs mer :material-arrow-right-drop-circle:](mobile-browsers.md)
 
+<!-- markdownlint-disable-next-line -->
 ### Ytterligare resurser
 
 <div class="grid cards annotate" markdown>

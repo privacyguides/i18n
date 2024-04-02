@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## چرا باید برای من مهم باشد؟
 
 ##### "من چیزی برای مخفی کردن ندارم. چرا باید به حریم خصوصی اهمیت بدهم؟"

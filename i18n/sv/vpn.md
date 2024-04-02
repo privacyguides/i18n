@@ -1,10 +1,12 @@
 ---
 meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
-title: "VPN Services"
+title: "VPN-tjänster"
 icon: material/vpn
 description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
 cover: vpn.webp
 ---
+
+<!-- markdownlint-disable MD024 -->
 
 If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:
 

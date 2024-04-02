@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## Γιατί πρέπει να με νοιάζει;
 
 ##### "Δεν έχω κάτι να κρύψω. Γιατί πρέπει να με νοιάζει η ιδιωτικότητα μου;"

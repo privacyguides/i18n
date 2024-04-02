@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## Proč by mě to mělo zajímat?
 
 ##### "Nic před nikým neskrývám. Proč by mě mělo soukromí zajímat?"

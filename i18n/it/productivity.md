@@ -5,6 +5,7 @@ description: Gran parte delle suite da ufficio non supportano l'E2EE, a signific
 cover: productivity.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 Gran parte delle suite da ufficio non supportano l'E2EE, a significare che il fornitore del cloud ha accesso a tutto ciò che fai. La politica sulla privacy potrebbe proteggere legalmente i tuoi diritti, ma non fornisce vincoli tecnici di accesso.
 
 ## Piattaforme di collaborazione

@@ -4,8 +4,6 @@ icon: material/archive
 description: Some pages that used to be in our knowledge base can now be found on our blog.
 ---
 
-# Az Oldalak Át Lettek Helyezve a Blogokhoz
-
 Néhány oldal, amely korábban a tudásbázisunkban volt, most a blogunkon található:
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos)

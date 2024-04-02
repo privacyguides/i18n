@@ -6,6 +6,7 @@ description: Penyedia surel ini menawarkan tempat yang baik untuk menyimpan sure
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 Surel bisa dibilang merupakan kebutuhan untuk menggunakan layanan daring apa pun, namun kami tidak merekomendasikannya untuk percakapan antar orang. Daripada menggunakan surel untuk menghubungi orang lain, pertimbangkan untuk menggunakan media pesan instan yang mendukung kerahasiaan penerusan.
 
 [Perpesanan Instan yang Direkomendasikan](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Akun gratis memiliki beberapa keterbatasan, seperti tidak dapat mencari teks tubuh dan tidak memiliki akses ke [Proton Mail Bridge](https://proton.me/mail/bridge), yang diperlukan untuk menggunakan [klien surel desktop yang direkomendasikan](email-clients.md) (misalnya Thunderbird). Akun berbayar mencakup fitur-fitur seperti Proton Mail Bridge, penyimpanan tambahan, dan dukungan domain khusus. [Surat pengesahan](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton Mail pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
 
-Jika Anda memiliki paket Proton Unlimited, Bisnis, atau Visioner, Anda juga mendapatkan [SimpleLogin](#simplelogin) Premium secara gratis.
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail memiliki laporan mogok internal yang tidak **dibagikan kepada pihak ketiga**. Ini dapat dinonaktifkan di: **Pengaturan** > **Buka Pengaturan** > **Akun** > **Keamanan dan privasi** > **Kirim laporan kemogokan**.
 

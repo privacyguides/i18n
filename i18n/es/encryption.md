@@ -127,28 +127,32 @@ BitLocker [solo es compatible](https://support.microsoft.com/windows/turn-on-dev
 Para habilitar BitLocker en las ediciones "Home" de Windows, debe tener particiones formateadas con una [Tabla de Particiones GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) y disponer de un módulo TPM dedicado (v1.2, 2.0+). Es posible que tenga que [desactivar la funcionalidad que no es de Bitlocker "Cifrado del dispositivo"](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (que es inferior, ya que envía su clave de recuperación a los servidores de Microsoft) si ya está habilitada en su dispositivo antes de seguir esta guía.
 
 1. Abra un símbolo del sistema y verifique el formato de la tabla de particiones de su unidad con el siguiente comando. Debería ver "**GPT**" listado bajo "Partition Style":
-   ```powershell
-   powershell Get-Disk
-   ```
+
+    ```powershell
+    powershell Get-Disk
+    ```
 
 2. Ejecute este comando (en un símbolo del sistema ejecutado como administrador) para verificar su versión de TPM. Debería ver `2.0` o `1.2` junto a `SpecVersion`:
-   ```powershell
-   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-   ```
+
+    ```powershell
+    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+    ```
 
 3. Accede a las [Opciones Avanzadas de Inicio](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Debe reiniciar mientras pulsa la tecla F8 antes de que se inicie Windows y entrar en el símbolo del sistema ** en **Solucionar problemas** → **Opciones avanzadas** → **Símbolo del sistema**.
 4. Inicie sesión con su cuenta de administrador y escriba esto en el símbolo del sistema para iniciar el cifrado:
-   ```powershell
-   manage-bde -on c: -used
-   ```
+
+    ```powershell
+    manage-bde -on c: -used
+    ```
 
 5. Cierre el símbolo del sistema y continúe con el arranque normal de Windows.
 6. Abra un símbolo del sistema como administrador y ejecute los siguientes comandos:
-   ```powershell
-   manage-bde c: -protectors -add -rp -tpm
-   manage-bde -protectors -enable c:
-   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-   ```
+
+    ```powershell
+    manage-bde c: -protectors -add -rp -tpm
+    manage-bde -protectors -enable c:
+    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+    ```
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Consejo</p>

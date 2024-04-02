@@ -159,7 +159,7 @@ Qubes OS支持使用YubiKeys进行质询-响应身份验证。 If you have a Yub
 
 可以用多种不同的流行的硬件安全密钥验证方法来设置SSH MFA。 We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
 
-#### 基于时间的一次性密码（TOTP）。
+#### TOTP
 
 SSH MFA也可以使用TOTP进行设置。 DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). 无论哪个发行版，大多数东西都应该是一样的，但是软件包管理器命令--例如 `apt-get`--和软件包名称可能不同。
 

@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## Чому це має мене хвилювати?
 
 ##### "Мені нічого приховувати. Чому я повинен піклуватися про свою приватність?"

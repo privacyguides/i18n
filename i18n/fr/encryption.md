@@ -127,28 +127,32 @@ BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-devi
 Pour activer BitLocker sur les éditions "Famille" de Windows, vous devez formater vos partitions avec une [Table de Partitionnement GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) et disposer d'un module TPM dédié (v1.2, 2.0+). Il se peut que vous deviez [désactiver la fonctionnalité "Chiffrement de l'appareil" non-Bitlocker](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (qui est inférieure car elle envoie votre clé de récupération aux serveurs de Microsoft) si elle est déjà activée sur votre appareil avant de suivre ce guide.
 
 1. Ouvrez une invite de commande et vérifiez le format de la table de partition de votre disque à l'aide de la commande suivante. Vous devriez voir "**GPT**" listé sous "Style de partition" :
-   ```powershell
-   powershell Get-Disk
-   ```
+
+    ```powershell
+    powershell Get-Disk
+    ```
 
 2. Exécutez cette commande (dans une invite de commande administrateur) pour vérifier la version de votre TPM. Vous devriez voir `2.0` ou `1.2` listé à côté de `SpecVersion`:
-   ```powershell
-   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-   ```
+
+    ```powershell
+    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+    ```
 
 3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Vous devez redémarrer en appuyant sur la touche F8 avant que Windows ne démarre et aller dans l'*invite de commande* dans **Dépannage** → **Options avancées** → **Invite de commande**.
 4. Connectez-vous avec votre compte administrateur et tapez ceci dans l'invite de commande pour lancer le chiffrement:
-   ```powershell
-   manage-bde -on c: -used
-   ```
+
+    ```powershell
+    manage-bde -on c: -used
+    ```
 
 5. Fermez l'invite de commande et continuez le démarrage vers Windows normalement.
 6. Ouvrez une invite de commande administrateur et exécutez les commandes suivantes:
-   ```powershell
-   manage-bde c: -protectors -add -rp -tpm
-   manage-bde -protectors -enable c:
-   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-   ```
+
+    ```powershell
+    manage-bde c: -protectors -add -rp -tpm
+    manage-bde -protectors -enable c:
+    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+    ```
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

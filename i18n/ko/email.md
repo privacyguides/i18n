@@ -6,6 +6,7 @@ description: 이러한 이메일 제공 업체는 여러분의 이메일을 안�
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 이메일은 모든 온라인 서비스 이용에 사실상 필수적이지만, 개인 간 대화에는 권장드리지 않습니다. 다른 사람에게 연락할 때는 이메일보다는 순방향 비밀성을 지원하는 메신저를 사용하는 것이 좋습니다.
 
 [권장 메신저](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 무료 계정은 본문 텍스트 검색이 불가능하고 [Proton Mail Bridge](https://proton.me/mail/bridge)(Thunderbird 등 [권장 데스크톱 이메일 클라이언트](email-clients.md)를 사용하려면 필수적인 기능)를 사용할 수 없습니다. 유료 계정에는 Proton Mail Bridge, 추가 저장 공간, 사용자 지정 도메인 지원 등의 기능이 제공됩니다. Proton Mail 앱 [감사 증명서](https://proton.me/blog/security-audit-all-proton-apps)는 2021년 11월 9일에 [Securitum](https://research.securitum.com)에서 발급하였습니다.
 
-Proton Unlimited, Business, Visionary 플랜을 이용 중이라면 [SimpleLogin](#simplelogin) 프리미엄도 무료로 제공됩니다.
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail에는 내부 충돌 보고서가 존재하며, 이는 제3자와 공유되지 **않습니다**. 충돌 보고서는 비활성화 가능합니다: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 

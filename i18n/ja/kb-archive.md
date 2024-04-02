@@ -4,8 +4,6 @@ icon: material/archive
 description: Some pages that used to be in our knowledge base can now be found on our blog.
 ---
 
-# ブログに移動したページ
-
 Some pages that used to be in our knowledge base can now be found on our blog:
 
 - [GrapheneOSとCalyxOSの比較](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos)

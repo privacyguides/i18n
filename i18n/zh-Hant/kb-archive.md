@@ -4,8 +4,6 @@ icon: material/archive
 description: 一些曾經出現在知識庫中的頁面現在可以在我們的部落格上找到。
 ---
 
-# 頁面移至部落格
-
 一些曾經出現在知識庫中的頁面現在可以在我們的部落格上找到。
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos)

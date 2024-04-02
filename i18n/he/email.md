@@ -6,6 +6,7 @@ description: ספקי אימייל אלה מציעים מקום מצוין לא�
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 אימייל הוא למעשה הכרח לשימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם. דואר אלקטרוני הוא למעשה הכרח שימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם.
 
 [מסנג'רים (הודעות מיידיות) מומלצות](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 לחשבונות חינמיים יש מגבלות מסוימות, כגון חוסר היכולת לחפש גוף טקסט ואי גישה ל[Proton Mail Bridge](https://proton.me/mail/bridge), אשר נדרש כדי השתמש ב[לקוח אימייל שולחן העבודה המומלץ](email-clients.md) (למשל Thunderbird). חשבונות בתשלום כוללים תכונות כגון Proton Mail Bridge, אחסון נוסף ותמיכה בתחומים מותאמים אישית. [מכתב אישור](https://proton.me/blog/security-audit-all-proton-apps) סופק עבור האפליקציות של Proton Mail ב-9 בנובמבר 2021 על ידי [Securitum](https://research.securitum.com).
 
-אם יש לך תוכנית Proton Unlimited, Business או Visionary, אתה גם מקבל [SimpleLogin](#simplelogin) פרימיום בחינם.
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 ל-Proton Mail יש דוחות קריסה פנימיים שהם **לא** חולקים עם צדדים שלישיים. ניתן להשבית אפשרות זו ב: **הגדרות** > **עבור אל הגדרות** > **חשבון** > **אבטחה ופרטיות** > **שלח דוחות קריסה**.
 

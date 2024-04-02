@@ -200,7 +200,7 @@ SSH MFA kan worden ingesteld met behulp van meerdere verschillende authenticatie
 
 
 
-#### Time-based One-time Password (TOTP)
+#### TOTP
 
 SSH MFA kan ook worden ingesteld met TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). De meeste dingen zouden hetzelfde moeten zijn, ongeacht de distributie, maar de commando's van de pakketbeheerder - zoals `apt-get`- en de pakketnamen kunnen verschillen.
 

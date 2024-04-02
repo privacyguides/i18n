@@ -6,6 +6,7 @@ description: これらの電子メールプロバイダはメールを安全に�
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 実質的に、電子メールはどんなオンラインサービスを使うにも必要ですが、個人間での会話にはお勧めしません。 他人との連絡には電子メールを使うよりも、前方秘匿性のあるインスタントメッセンジャの使用を検討してください。
 
 [おすすめのインスタントメッセンジャー](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 無料アカウントには本文の検索ができないことや、 [推奨されるデスクトップメールクライアント](email-clients.md) (Thunderbirdなど)を使用するために必要な [Proton Mail Bridge](https://proton.me/mail/bridge) を利用できないといった制限があります。 有料アカウントにはProton Mail Bridge、追加ストレージ、カスタムドメインのサポートなどの機能が含まれています。 [Securitum](https://research.securitum.com)により2021年11月9日 [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton Mailアプリにおくられました。
 
-Proton Unlimitedプラン、Businessプラン、またはVisionaryプランをお持ちの場合、 [SimpleLogin](#simplelogin) Premiumも無料で利用できます。
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mailには内部にクラッシュレポートがあり、これは第三者に共有 **されません** 。 クラッシュレポートは次のように無効にできます: **設定** > **設定を開く** > **アカウント** > **セキュリティとプライバシー** > **クラッシュレポートを送信**
 

@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## A kogo to obchodzi?
 
 ##### "Ja nie mam nic do ukrycia. Po co mam się martwić o swoją prywatność?"

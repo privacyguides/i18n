@@ -366,6 +366,7 @@ Estes produtos são gestores de palavras-passe minimalistas, que podem ser utili
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Critérios
 
 **Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.

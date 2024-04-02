@@ -6,6 +6,8 @@ description: Ini adalah layanan VPN terbaik untuk melindungi privasi dan keamana
 cover: vpn.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
+
 Jika Anda mencari **privasi tambahan** dari ISP Anda, pada jaringan Wi-Fi publik, atau saat melakukan torrent file, VPN bisa jadi solusi untuk Anda selama Anda memahami risiko yang ada. Menurut kami, penyedia layanan ini adalah yang terbaik di antara yang lain:
 
 <div class="grid cards" markdown>

@@ -6,6 +6,7 @@ description: Estes fornecedores de correio eletrónico são um excelente local p
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 O correio eletrónico é praticamente uma necessidade para subscrever qualquer serviço online, mas não o recomendamos para conversas pessoais. Em vez de utilizar o correio eletrónico para contactar outras pessoas, considere a possibilidade de utilizar uma aplicação de mensagens instantâneas que suporte encaminhamento sigiloso.
 
 [Aplicações de Mensagens Instantâneas Recomendadas](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ O **Proton Mail** é um serviço de e-mail que privilegia a privacidade, a encri
 
 As contas gratuitas têm algumas limitações, tais como a impossibilidade de pesquisar o corpo do texto e o facto de não terem acesso ao [Proton Mail Bridge](https://proton.me/mail/bridge), que é necessário para utilizar um [cliente recomendado de e-mail para PC](email-clients.md) (por exemplo, Thunderbird). As contas pagas incluem funcionalidades como o Proton Mail Bridge, armazenamento adicional e suporte para domínios personalizados. A [Securitum](https://research.securitum.com) [certificou](https://proton.me/blog/security-audit-all-proton-apps) as aplicações do Proton Mail, em 9 de novembro de 2021.
 
-Se tiver o Plano Proton Unlimited, Business ou Visionary, poderá usar o [SimpleLogin](#simplelogin) Premium gratuitamente.
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 O Proton Mail tem relatórios internos de falhas que **não** partilham com terceiros. Verifique "Criptografia de E-mail".
 

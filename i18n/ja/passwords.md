@@ -366,6 +366,7 @@ These products are minimal password managers that can be used within scripting a
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### 規準
 
 **私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。

@@ -159,7 +159,7 @@ Qubes OS supporta l'autenticazione Contestazione-Risposta con le YubiKey. If you
 
 L'AFM SSH potrebbe essere configurata utilizzando svariati metodi d'autenticazione differenti, popolari con le chiavi di sicurezza hardware. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
 
-#### Password Monouso basata sul Tempo (TOTP)
+#### TOTP
 
 L'AFM SSH può anche essere configurata utilizzando TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Gran parte delle cose dovrebbe essere le stesse indipendentemente dalla distribuzione, tuttavia, i comandi del gestore di pacchetti, come `apt-get`, e i nomi dei pacchetti, potrebbero variare.
 

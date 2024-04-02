@@ -11,11 +11,13 @@ De privacy gaat uiteindelijk over menselijke informatie, en dat is belangrijk om
 
 Veel mensen halen de begrippen **privacy**, **veiligheid**, en **anonimiteit** door elkaar. Je ziet mensen verschillende producten bekritiseren als "niet privé", terwijl ze eigenlijk bedoelen dat het bijvoorbeeld geen anonimiteit biedt. Op deze website behandelen we alle drie onderwerpen, maar het is belangrijk dat je het verschil begrijpt en wanneer het om verschillende zaken gaat.
 
+<!-- markdownlint-disable-next-line -->
 **Privacy**
 :
 
 ==Privacy is de garantie dat jouw gegevens alleen worden gezien door de partijen die jij daar toegang voor geeft.== In de context van een berichten dienst biedt bijvoorbeeld end-to-end encryptie privacy door jouw bericht alleen zichtbaar te houden voor jou en de ontvanger.
 
+<!-- markdownlint-disable-next-line -->
 **Veiligheid**
 :
 
@@ -24,7 +26,8 @@ Veiligheid is het vermogen om de applicaties die je gebruikt te vertrouwen, dat 
 
 Certificaten bewijzen dat je rechtstreeks praat met de website die je bezoekt, en voorkomt dat aanvallers op jouw netwerk de gegevens kunnen lezen of wijzigen die van of naar de website worden gestuurd.
 
-**Anonimiteit**
+<!-- markdownlint-disable-next-line -->
+**Anonymity**
 :
 
 Anonimiteit is de mogelijkheid om te handelen zonder blijvende identificatie. Je kunt dit online bereiken met [Tor](../tor.md), waarmee je op het internet kunt surfen met een willekeurig IP-adres en netwerkverbinding in plaats van jouw eigen.

@@ -6,6 +6,7 @@ description: 这些电子邮件提供商提供了一个很好的场所来安全�
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 电子邮件实际上是使用任何在线服务的必需品，但我们不建议使用它进行人与人之间的对话。 与其使用电子邮件与他人联系，不如考虑使用支持前向保密的即时通讯媒介。
 
 [推荐的即时通讯工具](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 免费账户有一些限制，如不能搜索正文，不能访问 [Proton Mail Bridge](https://proton.me/mail/bridge)，这是使用 [推荐的桌面电子邮件客户端](email-clients.md) （如Thunderbird）所需要的。 付费帐户包括Proton Mail Bridge等功能，额外的存储空间和自定义域支持。 2021年11月9日， [Securitum](https://research.securitum.com)，为Proton Mail的应用程序提供了一份 [的证明信](https://proton.me/blog/security-audit-all-proton-apps)。
 
-如果你有 "Proton Unlimited"、" Business "或 "Visionary "计划，你还可以免费获得 [SimpleLogin](#simplelogin) Premium。
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 </strong> Proton Mail有内部碰撞报告，他们 **，不与第三方分享。 这可以在以下方面禁用。 **设置** > **转到设置** > **帐户** > **安全和隐私** > **发送崩溃报告**。</p>
 

@@ -159,7 +159,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 ניתן להגדיר SSH MFA באמצעות מספר שיטות אימות שונות הפופולריות במפתחות אבטחה של חומרה. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
 
-#### סיסמה חד פעמית מבוססת זמן (TOTP)
+#### TOTP
 
 ניתן גם להגדיר SSH MFA באמצעות TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). רוב הדברים צריכים להיות זהים ללא קשר להפצה, אולם פקודות מנהל החבילות - כגון `apt-get` - ושמות החבילות עשויים להיות שונים.
 

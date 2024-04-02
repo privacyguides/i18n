@@ -159,7 +159,7 @@ Qubes OS tiene soporte para la autenticación Challenge-Response con YubiKeys. S
 
 MFA de SSH podría configurarse utilizando varios métodos de autenticación diferentes que son populares con las claves de seguridad de hardware. Te recomendamos que consultes la [documentación](https://developers.yubico.com/SSH) de Yubico sobre cómo configurarlo.
 
-#### Contraseñas de un solo uso basado en tiempo (TOTP)
+#### TOTP
 
 MFA de SSH también se puede configurar utilizando TOTP. DigitalOcean ha proporcionado un tutorial [Cómo Configurar la Autenticación de Múltiples Factores para SSH en Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). La mayoría de las cosas deberían ser las mismas independientemente de la distribución, sin embargo los comandos del gestor de paquetes—como `"apt-get"`—y los nombres de los paquetes pueden diferir.
 

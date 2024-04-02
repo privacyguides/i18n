@@ -11,12 +11,14 @@ Mahremiyet nihayetinde insan bilgisiyle ilgilidir ve bu önemlidir çünkü insa
 
 Birçok kişi **gizlilik**, **güvenlik**ve **anonimlik** kavramlarını birbiriyle karıştırmaktadır. Örneğin, insanların çeşitli ürünleri "gizli olmadığı" gerekçesi ile eleştirdiğini görürsünüz, oysaki demek istedikleri anonim sağlamadıklarıdır. Bu sitede üç konuyu da ele alıyoruz, ancak bunların arasındaki farkı ve her birinin ne zaman devreye girdiğini anlamanız önemlidir.
 
-**Gizlilik**
+<!-- markdownlint-disable-next-line -->
+**Privacy**
 :
 
 ==Gizlilik, verilerinizin sadece sizin izin verdiğiniz taraflarca görünmesinin güvencesidir.== Örneğin bir anlık mesajlaşma uygulaması için, uçtan uca şifreleme, mesajlarınızı sadece size ve alıcıya görünür tutarak gizlilik sağlar.
 
-**Güvenlik**
+<!-- markdownlint-disable-next-line -->
+**Security**
 :
 
 Güvenlik, kullandığınız uygulamalara - ilgili tarafların söyledikleri kişiler olduklarına - ve onların bu uygulamaları güvende tutacaklarına inanma becerisidir. Örneğin internette gezinirken, güvenlik HTTPS sertifikalarıyla sağlanabilir.
@@ -24,7 +26,8 @@ Güvenlik, kullandığınız uygulamalara - ilgili tarafların söyledikleri ki�
 
 Sertifikalar ziyaret ettiğiniz siteyle doğrudan konuştuğunuzu kanıtlar ve ağınızdaki saldırganların web sitesine gönderilen veya web sitesinden gelen verileri okumasını veya değiştirmesini engeller.
 
-**Anonimlik**
+<!-- markdownlint-disable-next-line -->
+**Anonymity**
 :
 
 Anonimlik, kalıcı bir tanımlayıcı olmadan hareket edebilme yeteneğidir. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.

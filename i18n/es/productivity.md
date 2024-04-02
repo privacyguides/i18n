@@ -5,6 +5,7 @@ description: La mayoría de las paquetes de ofimática en línea no admiten E2EE
 cover: productivity.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que significa que el proveedor de la nube tiene acceso a todo lo que usted hace. La política de privacidad puede proteger legalmente sus derechos, pero no establece limitaciones técnicas de acceso.
 
 ## Plataformas de Colaboración

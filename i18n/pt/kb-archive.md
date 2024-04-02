@@ -4,8 +4,6 @@ icon: material/archive
 description: Algumas páginas que costumavam estar na nossa base de conhecimento podem agora ser encontradas no nosso blogue.
 ---
 
-# Páginas movidas para o blogue
-
 Algumas páginas que costumavam estar na nossa base de conhecimento podem agora ser encontradas no nosso blogue:
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos)

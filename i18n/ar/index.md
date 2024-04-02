@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## لماذا ينبغي عليَّ الاهتمام؟
 
 ##### "ليس لديَّ شيئٌ اُخفيه. لماذا يجب أن أهتم بخصوصيتي؟ "

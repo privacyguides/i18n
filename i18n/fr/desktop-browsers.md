@@ -140,7 +140,7 @@ Firefox inclut un [jeton de téléchargement](https://bugzilla.mozilla.org/show_
 
 </div>
 
-### Configuration recommandée
+### Recommended Firefox Configuration
 
 Ces options se trouvent dans :material-menu: → **Paramètres**
 
@@ -257,7 +257,7 @@ Brave ajoute un "[code d'affiliation](https://github.com/brave/brave-browser/wik
 
 </div>
 
-### Configuration recommandée
+### Recommended Brave Configuration
 
 Ces options se trouvent dans :material-menu: → **Paramètres**.
 
@@ -340,7 +340,7 @@ Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreint
 
 1. Cette option n'est pas présente sur toutes les plateformes.
 
-#### Synchronisation
+#### Synchronisation Brave
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 

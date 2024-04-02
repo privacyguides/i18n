@@ -2,8 +2,6 @@
 title: "PrivacyTools GYIK"
 ---
 
-# Why we moved on from PrivacyTools
-
 2021 szeptemberében minden aktív közreműködőnk egyhangúlag beleegyezett abba, hogy a PrivacyToolsról átköltözik a Privacy Guides oldalra. Erre a döntésre azért került sor, mert a PrivacyTools alapítója és a domain név kezelője hosszabb időre eltűnt, és nem lehetett kapcsolatba lépni vele.
 
 Miután a PrivacyTools.io jó hírű webhelyet és szolgáltatáscsomagot épített, ez komoly aggodalmakat okozott a PrivacyTools jövőjét illetően, mivel bármilyen jövőbeli zavar a teljes szervezetet eltörölhette volna, helyreállítási lehetőség nélkül. Az átállásról a PrivacyTools közösséget már hónapokkal korábban tájékoztatták különböző csatornákon keresztül, többek között a blogon, a Twitteren, a Redditen és a Mastodonon keresztül, hogy az egész folyamat a lehető legsimábban menjen végbe. Ezt azért tettük, hogy senki ne maradjon a sötétben, ami a csapatunk megalakulása óta a mi módszereink közé tartozik, és hogy a Privacy Guides-t ugyanolyan megbízható szervezetként ismerjék el, mint amilyen a PrivacyTools volt az átállás előtt.
@@ -50,11 +48,11 @@ A Reddit megköveteli, hogy az alredditek aktív moderátorokkal rendelkezzenek.
 
 2021. szeptember 14-én [bejelentettük](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) az új domainre való áttérésünk kezdetét:
 
-> [...] szükségesnek láttuk, hogy az átállást mihamarabb végrehajtsuk, hogy az emberek időben értesülhessenek róla. Ez időt teremtett nekünk a domain név átállítására, amely jelenleg a www.privacyguides.org címre irányul át, és remélhetőleg mindenkinek elegendő időt ad arra, hogy észrevegye a változást, frissítse a könyvjelzőket és a ránk hivatkozó weboldalakat ...stb.
+> [...] szükségesnek láttuk, hogy az átállást mihamarabb végrehajtsuk, hogy az emberek időben értesülhessenek róla. This gives us adequate time to transition the domain name, which is currently redirecting to `www.privacyguides.org`, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
 
 Ez a változás [a következőket vonta maga után:](https://reddit.com/comments/pnhn4a)
 
-- A www.privacytools.io átirányítása a [www.privacyguides.org](https://www.privacyguides.org) címre.
+- Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - A forráskód archiválása a GitHubon, hogy megőrizzük a korábbi munkánkat és a problémakövetőt, amelyet továbbra is használtunk az oldal jövőbeli fejlesztésének hónapjai során.
 - Bejelentések közzététele a subredditünkön és különböző más közösségekben, amelyek tájékoztatják az embereket a hivatalos változásról.
 - A privacytools.io szolgáltatások, mint például a Matrix és a Mastodon hivatalos bezárása, és a meglévő felhasználók ösztönzése a lehető leghamarabbi áttérésre.
@@ -65,7 +63,7 @@ Ez a változás [a következőket vonta maga után:](https://reddit.com/comments
 
 Nagyjából egy héttel az átállást követően BurungHantu közel egy év után először tért vissza online, azonban a csapatunkból senki sem volt hajlandó visszatérni a PrivacyToolshoz a korábbi megbízhatatlansága miatt. Ahelyett, hogy bocsánatot kért volna hosszas távolléte miatt, azonnal támadásba lendült, és a Privacy Guides-ra való áttérést az ellene és a projektje elleni támadásnak minősítette. Később sok ilyen bejegyzést [törölt](https://reddit.com/comments/pp9yie/comment/hd49wbn), amikor a közösség rámutatott, hogy nem volt jelen, és elhagyta a projektet.
 
-Ekkor BurungHantu azt állította, hogy egyedül akarja folytatni a privacytools.io-t, és kérte, hogy távolítsuk el az átirányítást a www.privacytools.io oldalról a [www.privacyguides.org](https://www.privacyguides.org) oldalra. Mi köteleztük és kértük, hogy tartsa aktívan a Matrix, Mastodon és PeerTube aldomainjeit, hogy legalább néhány hónapig nyilvános szolgáltatásként működtethessük a közösségünk számára, hogy az ezeken a platformokon lévő felhasználók könnyen át tudjanak menni más fiókokra. A szolgáltatásaink feldarabolt jellege miatt azok specifikus domain nevekhez voltak kötve, ami nagyon nehézzé tette az áttelepülést (néhány esetben lehetetlenné).
+At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Mi köteleztük és kértük, hogy tartsa aktívan a Matrix, Mastodon és PeerTube aldomainjeit, hogy legalább néhány hónapig nyilvános szolgáltatásként működtethessük a közösségünk számára, hogy az ezeken a platformokon lévő felhasználók könnyen át tudjanak menni más fiókokra. A szolgáltatásaink feldarabolt jellege miatt azok specifikus domain nevekhez voltak kötve, ami nagyon nehézzé tette az áttelepülést (néhány esetben lehetetlenné).
 
 Sajnos, mivel az r/privacytoolsIO alreddit irányítását BurungHantu kérésére nem adták át (további információk lejjebb), ezeket az aldomaineket október elején [lekapcsolták](https://reddit.com/comments/pymthv/comment/hexwrps), így a még mindig ezeket a szolgáltatásokat használó felhasználók számára megszűnt minden migrációs lehetőség.
 
@@ -85,7 +83,7 @@ Az [r/PrivacyGuides](https://reddit.com/r/privacyguides) elindítása után nem 
 
 > [...] A PrivacyGuides.org csapatának több éven át tartó nagy erőfeszítései eredményeként nőtt meg ez az aloldal. És mindannyiótok által.
 > 
-> Egy Subreddit adminisztrálása és moderálása rengeteg munkát jelent. Egy kerthez hasonlóan türelmes ápolást és napi gondozást igényel. Ez nem dilettánsoknak vagy elkötelezettséggel küzdő embereknek való feladat. Nem fejlődhet olyan kertész alatt, aki több évre elhagyja, majd megjelenik, és az idei termést követeli tiszteletdíjként. Ez igazságtalan az évekkel ezelőtt alakult csapattal szemben. Ez nem igazságos veletek szemben sem. [...]
+> Egy Subreddit adminisztrálása és moderálása rengeteg munkát jelent. Egy kerthez hasonlóan türelmes ápolást és napi gondozást igényel. It's not a task for dilettantes or commitment-challenged people. Nem fejlődhet olyan kertész alatt, aki több évre elhagyja, majd megjelenik, és az idei termést követeli tiszteletdíjként. It's unfair to the team formed years ago. Ez nem igazságos veletek szemben sem. [...]
 
 A szubredditek nem tartoznak senkihez, és különösen nem tartoznak a márkatulajdonosokhoz. A közösségükhöz tartoznak, és a közösség és annak moderátorai döntöttek úgy, hogy támogatják az r/PrivacyGuides-ba való költözést.
 
@@ -101,7 +99,7 @@ Az adománygyűjtő platformunk, az OpenCollective egy másik vitás kérdés. �
 
 Így az OpenCollective-ben lévő pénzeszközök a Privacy Guides tulajdonában vannak, a mi projektünknek adták őket, és nem egy jól ismert domain név tulajdonosának. A 2021. szeptember 17-én az adományozóknak tett bejelentésben felajánlottuk a visszatérítést minden olyan adományozónak, aki nem ért egyet az általunk képviselt állásponttal, de senki sem élt ezzel az ajánlattal:
 
-> Ha bármelyik szponzor vagy támogató nem ért egyet a közelmúltbeli eseményekkel, vagy úgy érzi, hogy félre lett vezetve, és a rendkívül szokatlan körülmények miatt visszatérítést szeretne kérni, kérjük, lépjen kapcsolatba a projekt adminisztrátorával a jonah@triplebit.net e-mail címen.
+> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
 
 ## További olvasnivaló
 

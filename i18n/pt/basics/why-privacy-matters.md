@@ -11,11 +11,13 @@ Em última análise, a privacidade diz respeito à informação humana, e sabemo
 
 Muitas pessoas confundem os conceitos de **privacidade**, **segurança** e **anonimato**. Há pessoas que criticam vários produtos como "não oferecendo privacidade", quando na realidade apenas não oferecem anonimato, por exemplo. Neste site, abordamos os três temas, mas é importante que se compreenda a diferença entre eles, e quando cada um entra em jogo.
 
+<!-- markdownlint-disable-next-line -->
 **Privacidade**
 :
 
 ==A privacidade é a garantia de que os seus dados só são vistos por quem autoriza.== No contexto de uma aplicação de mensagens instantâneas, por exemplo, a encriptação ponta a ponta garante privacidade, mantendo a sua mensagem visível apenas para si e para o destinatário.
 
+<!-- markdownlint-disable-next-line -->
 **Segurança**
 :
 
@@ -24,7 +26,8 @@ A segurança é a capacidade de confiar nas aplicações que utiliza — sendo o
 
 Os certificados permitem a certeza de que fala diretamente com o site que está a visitar e impedem que os atacantes na sua rede leiam ou modifiquem os dados enviados para ou a partir do site.
 
-**Anonimato**
+<!-- markdownlint-disable-next-line -->
+**Anonymity**
 :
 
 O anonimato é a capacidade de agir sem um identificador persistente. Pode obter essa privacidade online com o navegador [Tor](../tor.md), que lhe permite navegar na Internet com um endereço IP e uma ligação de rede aleatórios, que substituem os seus.

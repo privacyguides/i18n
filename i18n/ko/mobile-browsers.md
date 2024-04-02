@@ -69,7 +69,7 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
 </div>
 
-#### 권장 설정
+#### Recommended Brave Configuration
 
 진정한 익명 인터넷 탐색이 가능한 유일한 방법은 Tor 브라우저입니다. 다음 설정들은 여러분이 Brave를 사용할 때 특정 주체로부터 프라이버시를 보호할 수 있도록 권장드리는 사항입니다. [Tor 브라우저](tor.md#tor-browser) 이외의 모든 브라우저는 어떤 식으로든 누군가는 특정 대상을 추적할 수 있음을 명심해야 합니다.
 
@@ -151,7 +151,7 @@ iOS에서는 웹 브라우징이 가능한 모든 앱이 Apple에서 제공하�
 
 </div>
 
-#### 권장 설정
+#### Recommended Firefox Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

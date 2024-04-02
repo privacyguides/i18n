@@ -4,8 +4,6 @@ icon: material/archive
 description: 본래 지식 기반에서 다루었던 일부 페이지는 현재 블로그로 이동되었습니다.
 ---
 
-# 블로그로 옮겨진 페이지
-
 이하 페이지는 본래 지식 기반에서 다루었으나, 현재는 블로그로 이동되었습니다.
 
 - [GrapheneOS vs CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos)

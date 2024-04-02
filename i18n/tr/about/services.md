@@ -13,15 +13,13 @@
 ## Gitea
 
 - Domain: [code.privacyguides.dev](https://code.privacyguides.dev)
-- Kullanılabilirlik: Yalnızca Davetliler  
-  *Privacy Guides* ile ilgili geliştirme veya içerik üzerinde çalışan herhangi bir ekibe talep üzerine erişim verilebilir.
+- Availability: Invite-Only Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
 - Kaynak: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - Domain: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Kullanılabilirlik: Yalnızca Davetliler  
-  Erişim, talep üzerine Gizlilik Kılavuzları ekip üyelerine, Matrix moderatörlerine, üçüncü taraf Matrix topluluk yöneticilerine, Matrix bot operatörlerine ve güvenilir bir Matrix varlığına ihtiyaç duyan diğer kişilere verilebilir.
+- Availability: Invite-Only Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
 - Kaynak: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
@@ -33,6 +31,5 @@
 ## Invidious
 
 - Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Kullanılabilirlik: Yarı Halka Açık  
-  Invidious'u öncelikle web sitemizde gömülü YouTube videoları göstermek için hostluyoruz, bu sunucu genel amaçlı kullanım için tasarlanmamıştır ve herhangi bir zamanda sınırlandırılabilir.
+- Availability: Semi-Public We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
 - Kaynak: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

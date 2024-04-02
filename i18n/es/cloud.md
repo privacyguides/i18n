@@ -46,7 +46,7 @@ La aplicación web Proton Drive ha sido auditada de forma independiente por Secu
 
 > Los auditores identificaron dos vulnerabilidades de baja gravedad. Además, se notificaron cinco recomendaciones generales. Al mismo tiempo, confirmamos que no se detectaron problemas de seguridad importantes durante el pentest.
 
-Los nuevos clientes móviles de Proton Drive aún no han sido auditados públicamente por un tercero.
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

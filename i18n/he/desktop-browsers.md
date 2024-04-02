@@ -140,7 +140,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 </div>
 
-### תצורה מומלצת
+### Recommended Firefox Configuration
 
 ניתן למצוא אפשרויות אלה ב :material-menu: ← **הגדרות**
 
@@ -257,7 +257,7 @@ Brave מוסיף "[קוד הפניה](https://github.com/brave/brave-browser/wik
 
 </div>
 
-### תצורה מומלצת
+### Recommended Brave Configuration
 
 ניתן למצוא אפשרויות אלה ב - :material-menu: ← **הגדרות**.
 
@@ -340,7 +340,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 1. אפשרות זו אינה קיימת בכל הפלטפורמות.
 
-#### סנכרון
+#### סנכרון Brave
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 

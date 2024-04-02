@@ -6,6 +6,7 @@ description: These email providers offer a great place to store your emails secu
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 E-posta, herhangi bir çevrimiçi hizmeti kullanmak için pratikte bir gerekliliktir, ancak bireysel görüşmeler için e-posta kullanılmasını önermiyoruz. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
 
 [Önerilen Anlık Mesajlaşma Programları](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g. Thunderbird). Ücretli hesaplar Proton Mail Bridge, ek depolama alanı ve özel alan adı desteği gibi özellikler içerir. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-Proton Unlimited, Business veya Visionary Planına sahipseniz, [SimpleLogin](#simplelogin) Premium'u da ücretsiz olarak alırsınız.
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail has internal crash reports that they **do not** share with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 

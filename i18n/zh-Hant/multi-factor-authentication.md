@@ -152,6 +152,7 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。

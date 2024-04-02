@@ -15,7 +15,7 @@ Upptäck hur du kan dela dina filer privat mellan dina enheter, med vänner och 
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** är en förgrening av Mozillas nedlagda Firefox Send-tjänst som låter dig skicka filer till andra med en länk. Filerna krypteras på din enhet så att de inte kan läsas av servern, och de kan också skyddas med lösenord. The maintainer of Send hosts a [public instance](https://send.vis.ee). Du kan använda andra offentliga instanser, eller du kan vara värd för Skicka själv.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Filerna krypteras på din enhet så att de inte kan läsas av servern, och de kan också skyddas med lösenord. The maintainer of Send hosts a [public instance](https://send.vis.ee). Du kan använda andra offentliga instanser, eller du kan vara värd för Skicka själv.
 
 [:octicons-home-16: Startsida](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -145,6 +145,7 @@ Vi rekommenderar inte att du använder [E2EE App](https://apps.nextcloud.com/app
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Kriterier
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.

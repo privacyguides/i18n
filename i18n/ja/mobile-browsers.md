@@ -69,7 +69,7 @@ BraveはChromiumウェブブラウザープロジェクトに基づいて構築�
 
 </div>
 
-#### 推奨する設定
+#### Recommended Brave Configuration
 
 本当に匿名でインターネットを閲覧する唯一の方法は、Tor Browserを使うことです。 Braveを使用する際は、特定の相手からプライバシーを保護するために以下の設定を変更することをお勧めしますが、 [Tor Browser](tor.md#tor-browser) 以外のブラウザーについては、*誰か*が何らかの形で追跡することができます。
 
@@ -151,7 +151,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 </div>
 
-#### 推奨する設定
+#### Recommended Firefox Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

@@ -77,21 +77,21 @@ schema:
 
 1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+    <div class="admonition tip" markdown>
+    <p class="admonition-title">Tip</p>
 
-网购时，使用[快递柜](https://en.wikipedia.org/wiki/Parcel_locker)可以帮助你保持实际住址的隐私。
+    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
-</div>
+    </div>
 
-2. **未知身份** -未知身份可能是您经常使用的稳定化名。 它不是匿名的，因为它没有变化。 如果你是一个网络社区的一部分，你可能希望保留一个别人知道的角色。 这个化名不是匿名的，因为如果监测的时间足够长，关于主人的细节可以揭示进一步的信息，如他们的写作方式，他们对感兴趣的话题的一般知识，等等。
+2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
 
-你可能希望为此使用VPN，以掩盖你的IP地址。 Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). 采用altcoin转移也可能有助于掩盖你的货币来源。 通常情况下，交易所需要完成KYC（了解你的客户），然后才允许你将法币兑换成任何种类的加密货币。 当地见面会选项也可能是一种解决方案;然而，这些往往更昂贵，有时也需要KYC。
+    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
 
-3. **匿名身份** - 即使有经验，匿名身份也很难长期维持。 它们应该是短期和短命的身份，定期轮换。
+3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
-使用Tor可以帮助解决这个问题。 还值得注意的是，通过异步通信可以实现更大的匿名性。实时通信容易受到打字模式的分析（即超过一段文字，在论坛上分发，通过电子邮件等）。
+    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: 其中一个明显的例子是 [2021年明尼苏达大学的研究人员将三个漏洞引入了Linux内核开发项目的事件](https://cse.umn.edu/cs/linux-incident)。
+[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).

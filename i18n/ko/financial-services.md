@@ -84,6 +84,7 @@ These services allow you to purchase gift cards for a variety of merchants onlin
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### 평가 기준
 
 **Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.

@@ -62,6 +62,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](mobile-browsers.md)
 
+<!-- markdownlint-disable-next-line -->
 ### 其他資源
 
 <div class="grid cards annotate" markdown>

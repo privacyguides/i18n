@@ -140,7 +140,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 </div>
 
-### 推奨する設定
+### Recommended Firefox Configuration
 
 これらのオプションは :material-menu: → **設定**にあります。
 
@@ -257,7 +257,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 </div>
 
-### 推奨する設定
+### Recommended Brave Configuration
 
 これらのオプションは :material-menu: → **設定**にあります。
 
@@ -340,7 +340,7 @@ BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面�
 
 1. このオプションはすべてのプラットフォームにあるわけではありません。
 
-#### 同期
+#### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 

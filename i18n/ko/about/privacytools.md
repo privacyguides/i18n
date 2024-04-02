@@ -2,8 +2,6 @@
 title: "PrivacyTools FAQ"
 ---
 
-# PrivacyTools에서 이전하게 된 이유
-
 2021년 9월, 당시에 활동하던 모든 기여자는 만장일치로 PrivacyTools에서 현재 사이트(Privacy Guides)로 이전하는 데 동의했습니다. PrivacyTools 창립자이자 사이트 도메인 관리자가 장기간 잠적하여 연락이 닿지 않아 내려진 결정이었습니다.
 
 당시에 이미 높은 평판을 얻은 사이트와 서비스 세트를 PrivacyTools에 구축한 상태였기에, 앞으로의 사이트 운영에 대한 우려는 더더욱 무시할 수 없었습니다. 이전 과정이 최대한 원할하게 진행될 수 있도록, 이전하기 수개월 전부터 블로그, Twitter, Reddit, Mastodon 등 다양한 경로를 통해 PrivacyTools 커뮤니티에 공지가 이루어졌습니다. 팀이 만들어진 이래로 지금까지 이어져온 운영 방식인 '모든 일을 투명하게 진행한다'라는 원칙을 지키고, Privacy Guides가 이전하기 전의 PrivacyTools와 마찬가지로 신뢰할 수 있는 단체로 인정받을 수 있도록 하기 위해 이러한 과정을 택했습니다.
@@ -50,11 +48,11 @@ Reddit은 서브레딧에 활동하는 관리자가 존재해야 합니다. 주 
 
 On September 14th, 2021, we [announced](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) the beginning of our migration to this new domain:
 
-> ... 저희는 이전이 이루어졌음을 사람들이 가능한 한 빨리 알 수 있도록 이전을 서둘러야 한다고 판단했습니다. 현재 www.privacyguides.org로 리디렉션되는 도메인을 최대한 오래 유지해야 모든 사용자가 변경 사항을 확인하고 북마크 및 웹사이트 링크 등을 업데이트하기에 충분한 시간을 확보할 수 있기 때문입니다.
+> ... 저희는 이전이 이루어졌음을 사람들이 가능한 한 빨리 알 수 있도록 이전을 서둘러야 한다고 판단했습니다. This gives us adequate time to transition the domain name, which is currently redirecting to `www.privacyguides.org`, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
 
 This change [entailed:](https://reddit.com/comments/pnhn4a)
 
-- www.privacytools.io를 [www.privacyguides.org](https://www.privacyguides.org)로 리디렉션합니다.
+- Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - 지난 작업과 이슈 트래커를 보존하기 위해 GitHub에 소스 코드를 아카이브하여 향후 수개월 동안 현재 사이트를 개발하는 용도로 이용했습니다.
 - 서브레딧을 비롯한 다양한 커뮤니티에 공지를 게시하여 공식적인 변경 사항을 알립니다.
 - Matrix, Mastodon 등 privacytools.io 서비스를 공식적으로 폐쇄하고 기존 사용자에게 가능한 한 빨리 이전하도록 권장합니다.
@@ -65,7 +63,7 @@ This change [entailed:](https://reddit.com/comments/pnhn4a)
 
 이전하고 나서 대략 일주일 후, BurungHantu는 약 1년 만에 처음으로 온라인에 복귀했지만, 여태까지의 불안정성으로 인해 팀원은 아무도 PrivacyTools로 복귀할 의향이 없었습니다. BurungHantu는 장기 부재에 대해 사과하기는 커녕 즉시 공격적으로 나서며 Privacy Guides로의 이전을 자신과 자신의 프로젝트에 대한 공격으로 받아들였습니다. He subsequently [deleted](https://reddit.com/comments/pp9yie/comment/hd49wbn) many of these posts when it was pointed out by the community that he had been absent and abandoned the project.
 
-이 시점에서 BurungHantu는 '자신은 privacytools.io 작업을 계속하고 싶다'며 www.privacytools.io의 [www.privacyguides.org](https://www.privacyguides.org) 리디렉션을 제거해 달라고 요청했습니다. Privacy Guides는 이를 따랐고, 커뮤니티 인원들이 사용하고 있는 Matrix, Mastodon, PeerTube 서브도메인을 적어도 앞으로 몇 달간은 공개 서비스로 계속 운영하여 해당 사용자들이 다른 계정으로 마이그레이션할 기간을 마련해달라고 BurungHantu에게 요청했습니다. 당시 제공하던 서비스의 연합적 특성으로 인해 특정 도메인에 결속돼있어 마이그레이션하기 매우 어려웠고, 아예 불가능한 경우마저 있었습니다.
+At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Privacy Guides는 이를 따랐고, 커뮤니티 인원들이 사용하고 있는 Matrix, Mastodon, PeerTube 서브도메인을 적어도 앞으로 몇 달간은 공개 서비스로 계속 운영하여 해당 사용자들이 다른 계정으로 마이그레이션할 기간을 마련해달라고 BurungHantu에게 요청했습니다. 당시 제공하던 서비스의 연합적 특성으로 인해 특정 도메인에 결속돼있어 마이그레이션하기 매우 어려웠고, 아예 불가능한 경우마저 있었습니다.
 
 Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
@@ -85,7 +83,7 @@ After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it wa
 
 > ... 이 서브레딧의 여태까지의 성장은 수년에 걸쳐 이루어진 많은 노력의 결과입니다. 다름 아닌 PrivacyGuides.org 팀이 그 주역이었습니다. 그리고 여러분 모두의 덕택이었습니다.
 > 
-> 서브레딧 운영에는 많은 관리와 조정 노력이 필요합니다. 정원과 마찬가지로 인내심을 갖고 매일 관리해야 합니다. 딜레마에 빠진 사람이나, 약속을 제대로 지키지 못하는 사람이 할 수 있는 일은 아닙니다. 수년 동안 방치해 두다가 갑자기 나타나 올해의 수확물을 기대하는 정원사 밑에서는 결코 융성할 수 없습니다. 수년 전부터 참여해왔던 팀원에게 있어 부당한 일입니다. 여러분에게 있어 부당한 일입니다. ...
+> 서브레딧 운영에는 많은 관리와 조정 노력이 필요합니다. 정원과 마찬가지로 인내심을 갖고 매일 관리해야 합니다. It's not a task for dilettantes or commitment-challenged people. 수년 동안 방치해 두다가 갑자기 나타나 올해의 수확물을 기대하는 정원사 밑에서는 결코 융성할 수 없습니다. It's unfair to the team formed years ago. 여러분에게 있어 부당한 일입니다. ...
 
 서브레딧은 그 누구의 소유물도 아니며, 브랜드 대표만의 소유물은 더더욱 아닙니다. 서브레딧은 커뮤니티의 소유물입니다. 그리고 커뮤니티와 운영진은 r/PrivacyGuides로의 이전을 지지하기로 결정했습니다.
 
@@ -101,7 +99,7 @@ In the months since, BurungHantu has threatened and begged for returning subredd
 
 따라서 OpenCollective 자금은 Privacy Guides에 속합니다. 유명한 도메인의 소유자에게 제공되는 것이 아닌, Privacy Guides 프로젝트에 제공됩니다. 2021년 9월 17일, Privacy Guides는 앞서 공지했던 이전 계획에 동의하지 않는 후원자에게는 환불 처리를 해줄 것을 알렸으나, 실제로 환불을 요청한 후원자는 없었습니다.
 
-> 후원자 중 최근의 상황에 동의하지 않거나 오해의 소지가 있다고 생각되어 환불을 요청하고자 하는 경우, 프로젝트 관리자에게 이메일(jonah@triplebit.net)로 연락해 주시기 바랍니다.
+> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
 
 ## 추가 참고 자료
 

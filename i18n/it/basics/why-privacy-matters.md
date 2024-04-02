@@ -11,11 +11,13 @@ In fin dei conti la privacy riguarda le informazioni umane, ed è importante per
 
 In molti confondono i concetti di **privacy**, **sicurezza** e **anonimato**. Vedrai persone criticare vari prodotti come "non privati", quando in realtà intendono che non forniscono, ad esempio, anonimato. Su questo sito web, copriamo tutti e tre gli argomenti, ma è importante che tu ne comprenda le differenze, nonché quando ognuno di essi entra in gioco.
 
+<!-- markdownlint-disable-next-line -->
 **Privacy**
 :
 
 ==La privacy è la garanzia che i tuoi dati siano visualizzati soltanto dalle parti cui intendi farle visualizzare.== Nel contesto della messaggistica istantanea, ad esempio, la crittografia end-to-end fornisce la privacy, mantenendo i tuoi messaggi visibili soltanto a te stesso e al destinatario.
 
+<!-- markdownlint-disable-next-line -->
 **Sicurezza**
 :
 
@@ -24,7 +26,8 @@ La sicurezza è la capacità di fidarsi delle applicazioni che utilizzi, che le 
 
 I certificati dimostrano che stai parlando direttamente con il sito web che stai visitando e impediscono ai malintenzionati sulla tua rete di leggere o modificare i dati inviati al o dal sito web.
 
-**Anonimato**
+<!-- markdownlint-disable-next-line -->
+**Anonymity**
 :
 
 L'anonimato è la capacità di agire senza un identificativo persistente. Potresti ottenerlo online con [Tor](../tor.md), che ti consente di navigare in Internet con un indirizzo IP e una connessione di rete casuali, invece che con i tuoi.

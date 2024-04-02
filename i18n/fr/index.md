@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## En quoi ça me concerne ?
 
 ##### « Je n'ai rien à cacher. Pourquoi devrais-je me soucier de ma vie privée ? »

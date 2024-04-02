@@ -13,15 +13,13 @@
 ## Gitea
 
 - 域名: [code.privacyguides.dev](https://code.privacyguides.dev)
-- 可用性。仅限邀请  
-  ，任何从事 *《隐私指南》*相关开发或内容的团队可应要求获得访问权。
+- Availability: Invite-Only Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
 - 来源： [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - 域名: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- 可用性。仅限邀请  
-  ，可根据要求将访问权授予Privacy Guides团队成员、Matrix版主、第三方Matrix社区管理员、Matrix机器人操作员以及其他需要可靠Matrix存在的个人。
+- Availability: Invite-Only Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
 - 来源： [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
@@ -33,6 +31,5 @@
 ## Invidious
 
 - Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Availability: Semi-Public  
-  We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
+- Availability: Semi-Public We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
 - Source: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

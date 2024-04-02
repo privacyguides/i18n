@@ -46,7 +46,7 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 > המבקרים זיהו שתי נקודות תורפה בדרגת חומרה נמוכה. בנוסף, דווחו חמש המלצות כלליות. יחד עם זאת, אנו מאשרים כי לא זוהו בעיות אבטחה חשובות במהלך המבחן.
 
-הלקוחות הניידים החדשים של Proton Drive עדיין לא עברו ביקורת פומבית על ידי צד שלישי.
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

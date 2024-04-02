@@ -6,6 +6,8 @@ description: These are the best VPN services for protecting your privacy and sec
 cover: vpn.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
+
 ISP로부터의 **프라이버시**가 필요하거나, 공용 Wi-Fi에 연결되어 있거나, 토렌트를 사용하는 중이라면 VPN이 알맞는 해결책이 될 수 있습니다. 다만, VPN의 단점들을 인지하고 있어야 합니다. We think these providers are a cut above the rest:
 
 <div class="grid cards" markdown>

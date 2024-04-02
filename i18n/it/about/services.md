@@ -13,15 +13,13 @@ Gestiamo una serie di servizi web per testare le nostre funzionalità e promuove
 ## Gitea
 
 - Dominio: [code.privacyguides.dev](https://code.privacyguides.dev)
-- Disponibilità: Solo su invito  
-  L'accesso può essere concesso su richiesta a tutti i team che lavorano allo sviluppo o ai contenuti di *Privacy Guides*.
+- Availability: Invite-Only Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
 - Fonte: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - Dominio: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Disponibilità: Solo su invito  
-  L'accesso può essere concesso su richiesta ai membri del team di Privacy Guides, ai moderatori di Matrix, agli amministratori di terze parti della community di Matrix, agli operatori dei bot di Matrix e ad altri individui che necessitino di un presenza affidabile su Matrix.
+- Availability: Invite-Only Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
 - Fonte: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
@@ -33,6 +31,5 @@ Gestiamo una serie di servizi web per testare le nostre funzionalità e promuove
 ## Invidious
 
 - Dominio: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Disponibilità: Semi-Pubblico  
-  Ospitiamo Invidious principalmente per offrire dei video YouTube incorporati sul nostro sito web, quest'istanza non è intesa per l'utilizzo a scopo generale e potrebbe essere limitata in qualsiasi momento.
+- Availability: Semi-Public We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
 - Fonte: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

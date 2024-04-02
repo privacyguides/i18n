@@ -6,6 +6,7 @@ description: 這些電子郵件提供商提供了一個好地方來安全地存�
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 電子郵件實際上是使用任何線上服務的必需品，但我們不建議把它應用於人與人之間的對話。 與其使用電子郵件聯繫他人，不如考慮使用支援前向保密的即時通訊媒介。
 
 [推薦的即時通訊工具](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 免費帳戶有一些功能限制，例如無法搜索正文文本和無法訪問 [Proton Mail Bridge](https://proton.me/mail/bridge)，它可以用在 [推薦的桌面電子郵件客戶端](email-clients.md) （例如Thunderbird ）。 付費帳戶包括Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 Proton Mail 應用程式於2021年11月9日由 [Securitum](https://research.securitum.com)提供 [認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
-如果您有 Proton Unlimited 、Business 或 Visionary 計劃，也可免費獲得 [SimpleLogin](#simplelogin) Premium。
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail 的內容崩潰報告 **不會**對其它第三方分享。 可以在以下位置停用此功能： **設定** > **前往設定** > **帳戶** > **安全和隱私** > **傳送崩潰報告**。
 

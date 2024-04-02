@@ -2,8 +2,6 @@
 title: "隐私工具常见问题"
 ---
 
-# 我们为什么从隐私工具转向隐私指南
-
 2021年9月，每个活跃的贡献者都一致同意从隐私工具转到这个网站工作：隐私指南。 之所以做出此决定，是因为PrivacyTools的创始人和域名控制者已消失很长一段时间，无法与之联系。
 
 在PrivacyTools.io上构建了一个信誉良好的网站和服务，这对隐私工具的未来造成了严重打击，因为任何未来的意外都可能在没有恢复方法的情况下毁灭整个组织。 这种转变在几个月前通过包括博客、Twitter、Reddit和Mastodon在内的各种渠道传达给隐私工具社区，以确保整个过程尽可能顺利进行。 我们这样做是为了确保没有人被蒙在鼓里，这也是我们团队成立以来的工作方式，同时也是为了确保隐私指南被公认为与转型前的隐私工具一样的可靠组织。
@@ -50,11 +48,11 @@ Reddit要求子版块有活跃的版主。 如果主版主长时间不活动（�
 
 On September 14th, 2021, we [announced](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) the beginning of our migration to this new domain:
 
-> [...] 我们发现有必要尽早进行这一转换，以确保人们尽快发现这一过渡。 这给了我们足够的时间来过渡域名，目前正在重定向到www.privacyguides.org，并希望给每个人足够的时间来注意这一变化，更新书签和网站等。
+> [...] 我们发现有必要尽早进行这一转换，以确保人们尽快发现这一过渡。 This gives us adequate time to transition the domain name, which is currently redirecting to `www.privacyguides.org`, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
 
 This change [entailed:](https://reddit.com/comments/pnhn4a)
 
-- 重定向 www.privacytools.io 到 [www.privacyguides.org](https://www.privacyguides.org)。
+- Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - 在GitHub上存档源代码，以保存我们过去的工作和问题跟踪器，我们继续使用该网站未来几个月的开发。
 - 在我们的subreddit和其他各种社区发布公告，告知人们官方的变化。
 - 正式关闭privacytools.io服务，如Matrix和Mastodon，并鼓励现有用户尽快迁移。
@@ -65,7 +63,7 @@ This change [entailed:](https://reddit.com/comments/pnhn4a)
 
 在过渡期后的大约一周，BurungHantu在近一年来首次回到了网上，然而我们团队中没有人愿意回到PrivacyTools，因为他历来不可靠。 他没有为自己的长期缺席道歉，而是立即展开攻势，将向隐私指南的过渡定位为对他和他的项目的攻击。 He subsequently [deleted](https://reddit.com/comments/pp9yie/comment/hd49wbn) many of these posts when it was pointed out by the community that he had been absent and abandoned the project.
 
-此时，BurungHantu声称他想继续自己的privacytools.io的工作，并要求我们删除从www.privacytools.io 到 [www.privacyguides.org](https://www.privacyguides.org)的重定向。 我们答应了他的请求，并要求他保持Matrix、Mastodon和PeerTube的子域名的活跃性，以便我们作为一项公共服务在社区内运行至少几个月，以便让这些平台上的用户能够轻松地迁移到其他账户。 由于我们所提供的服务的联合性质，它们与特定的域名联系在一起，使得迁移非常困难（在某些情况下不可能迁移）。
+At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). 我们答应了他的请求，并要求他保持Matrix、Mastodon和PeerTube的子域名的活跃性，以便我们作为一项公共服务在社区内运行至少几个月，以便让这些平台上的用户能够轻松地迁移到其他账户。 由于我们所提供的服务的联合性质，它们与特定的域名联系在一起，使得迁移非常困难（在某些情况下不可能迁移）。
 
 Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
@@ -85,7 +83,7 @@ After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it wa
 
 > [...] 该小组的成长是PrivacyGuides.org团队数年来努力的结果。 还有你们每一个人。
 > 
-> 一个Subreddit需要大量的工作来管理和调节。 就像一个花园一样，它需要耐心的照料和日常护理。 这不是一个适合放荡不羁的人或有承诺问题的人的任务。 它不可能在一个抛弃了它好几年的园丁手下茁壮成长，然后出现在那里要求今年的收获作为他们的贡品。 这对多年前组建的团队是不公平的。 这对你不公平。 [...]
+> 一个Subreddit需要大量的工作来管理和调节。 就像一个花园一样，它需要耐心的照料和日常护理。 It's not a task for dilettantes or commitment-challenged people. 它不可能在一个抛弃了它好几年的园丁手下茁壮成长，然后出现在那里要求今年的收获作为他们的贡品。 It's unfair to the team formed years ago. 这对你不公平。 [...]
 
 子版块不属于任何人，尤其不属于品牌持有人。 他们属于自己的社区，而社区及其版主做出了支持移至r/PrivacyGuides的决定。
 
@@ -104,7 +102,7 @@ In the months since, BurungHantu has threatened and begged for returning subredd
 
 
 
-> 如果任何赞助商或支持者不同意或觉得被最近的这些事件误导，并希望在这些极不寻常的情况下要求退款，请通过电子邮件与我们的项目管理员联系，jonah@triplebit.net。
+> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
 
 
 

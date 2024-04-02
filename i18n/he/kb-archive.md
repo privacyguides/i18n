@@ -4,8 +4,6 @@ icon: material/archive
 description: חלק מהדפים שהיו בעבר במאגר הידע שלנו נמצאים כעת בבלוג שלנו.
 ---
 
-# דפים הועברו לבלוג
-
 כמה דפים שהיו בעבר במאגר הידע שלנו נמצאים כעת בבלוג שלנו:
 
 - [GrapheneOS לעומת CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos)

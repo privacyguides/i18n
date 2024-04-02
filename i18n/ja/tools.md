@@ -62,6 +62,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [詳細 :material-arrow-right-drop-circle:](mobile-browsers.md)
 
+<!-- markdownlint-disable-next-line -->
 ### 追加のリソース
 
 <div class="grid cards annotate" markdown>

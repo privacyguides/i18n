@@ -6,6 +6,7 @@ description: این ارائه دهندگان ایمیل فضایی عالی ب�
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 ایمیل عملاً برای استفاده از هر سرویس آنلاین ضروری است، اما ما آن را برای مکالمات فرد به فرد توصیه نمی کنیم. به جای استفاده از ایمیل برای تماس با افراد دیگر، از یک پیام‌رسان استفاده کنید که از محرمانگی رو به جلو (forward secrecy) پشتیبانی می‌کند.
 
 [پیام‌رسان‌های توصیه شده](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 حساب‌های رایگان دارای محدودیت‌هایی هستند، مانند عدم امکان جستجوی متن اصلی و عدم دسترسی به [Proton Mail Bridge](https://proton.me/mail/bridge)، که برای استفاده از [نرم افزار ایمیل دسک‌تاپ (ویندوزی) توصیه‌شده](email-clients.md) لازم است (به عنوان مثال. Thunderbird). حساب‌های پولی شامل ویژگی‌هایی مانند Proton Mail Bridge، فضای ذخیره‌سازی اضافی و پشتیبانی از دامنه سفارشی است. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-اگر حسابUnlimited یا Business یا Visionary دارید، [SimpleLogin](#simplelogin) پولی را نیز به صورت رایگان دریافت می کنید.
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail گزارش‌های خرابی داخلی دارد که اطلاعات آن را با اشخاص ثالث به اشتراک **نمی‌گذارد**. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 

@@ -84,6 +84,7 @@ Questi servizi ti consentono di acquistare carte regalo per numerosi commerciant
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Criteri
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.

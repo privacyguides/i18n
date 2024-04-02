@@ -9,15 +9,18 @@ Jika Anda membuat perubahan pada situs web ini di editor web GitHub.com secara l
 Anda dapat menggunakan kunci SSH yang sudah ada untuk masuk, atau [membuat kunci baru](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 1. Konfigurasikan klien Git Anda untuk menandatangani komit dan tag secara default (hapus `--global` untuk hanya menandatangani secara bawaan untuk repo ini):
-   ```
-   git config --global commit.gpgsign true
-   git config --global gpg.format ssh
-   git config --global tag.gpgSign true
-   ```
+
+    ```bash
+    git config --global commit.gpgsign true
+    git config --global gpg.format ssh
+    git config --global tag.gpgSign true
+    ```
+
 2. Atur kunci SSH Anda untuk masuk ke Git dengan perintah berikut, mengggantikan `/PATH/TO/.SSH/KEY.PUB` dengan jalur ke kunci publik yang ingin Anda gunakan, mis. `/home/user/.ssh/id_ed25519.pub`:
-   ```
-   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
-   ```
+
+    ```bash
+    git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
+    ```
 
 Pastikan Anda [menambahkan kunci SSH Anda ke akun GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **Signing Key** (sebagai lawan atau tambahan dari Kunci Autentikasi).
 
@@ -27,7 +30,7 @@ Gunakan `git pull --rebase` alih-alih `git pull` saat menarik perubahan dari Git
 
 Anda dapat mengatur ini menjadi perilaku default:
 
-```
+```bash
 git config --global pull.rebase true
 ```
 
@@ -35,7 +38,7 @@ git config --global pull.rebase true
 
 Jika Anda bekerja pada cabang Anda sendiri, jalankan perintah ini sebelum mengirimkan PR:
 
-```
+```bash
 git fetch origin
 git rebase origin/main
 ```

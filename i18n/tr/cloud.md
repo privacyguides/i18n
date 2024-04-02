@@ -46,7 +46,7 @@ Proton Drive web uygulaması [2021](https://proton.me/blog/security-audit-all-pr
 
 > Denetçiler iki adet düşük şiddette güvenlik açığı tespit etmiştir. Ek olarak, 5 genel tavsiye raporu verilmiştir. Bununla birlikte, penetrasyon testi sırasında önemli bir güvenlik sorunu olmadığını teyit ediyoruz.
 
-Proton Drive'ın yeni mobil uygulamaları henüz herhangi bir üçüncü tarafça denetlenmedi.
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

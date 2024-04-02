@@ -46,7 +46,7 @@ De Proton Drive webapplicatie is onafhankelijk gecontroleerd door Securitum in [
 
 > De controleurs ontdekten twee zwakke plekken met een lage ernstgraad. Daarnaast werden vijf algemene aanbevelingen gedaan. Tegelijkertijd bevestigen wij dat tijdens de pentest geen belangrijke beveiligingsproblemen zijn vastgesteld.
 
-De gloednieuwe mobiele klanten van Proton Drive zijn nog niet publiekelijk gecontroleerd door een derde partij.
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

@@ -5,6 +5,7 @@ description: De meeste online office suites ondersteunen geen E2EE, wat betekent
 cover: productivity.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 De meeste online office suites ondersteunen geen E2EE, wat betekent dat de cloud provider toegang heeft tot alles wat je doet. Het privacybeleid kan jouw rechten wettelijk beschermen, maar het voorziet niet in technische toegangsbeperkingen.
 
 ## Samenwerkingsplatforms

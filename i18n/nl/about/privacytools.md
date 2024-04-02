@@ -2,8 +2,6 @@
 title: "PrivacyTools FAQ"
 ---
 
-# Waarom we zijn overgestapt van PrivacyTools
-
 In september 2021 hebben alle actieve medewerkers unaniem ingestemd om van PrivacyTools over te stappen naar deze site: Privacy Guides. Deze beslissing werd genomen omdat de oprichter van PrivacyTools en beheerder van de domeinnaam voor langere tijd was verdwenen en niet kon worden gecontacteerd.
 
 Aangezien PrivacyTools.io een gerenommeerde site en een reeks diensten had opgebouwd, baarde dit grote zorgen voor de toekomst van PrivacyTools, aangezien elke toekomstige verstoring de hele organisatie zou kunnen wegvagen zonder herstelmethode. Deze overgang werd vele maanden van tevoren aan de PrivacyTools-gemeenschap meegedeeld via verschillende kanalen, waaronder de blog, Twitter, Reddit en Mastodon, om ervoor te zorgen dat het hele proces zo soepel mogelijk zou verlopen. We deden dit om ervoor te zorgen dat niemand in het ongewisse werd gelaten, wat onze modus operandi is geweest sinds de oprichting van ons team, en om ervoor te zorgen dat Privacy Guides werd herkend als dezelfde betrouwbare organisatie die PrivacyTools was voor de overgang.
@@ -50,11 +48,11 @@ Reddit vereist dat subreddits actieve moderatoren hebben. Indien de eerste moder
 
 On September 14th, 2021, we [announced](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) the beginning of our migration to this new domain:
 
-> [...] wij vonden het nodig deze omschakeling eerder vroeger dan later te maken om ervoor te zorgen dat de mensen zo snel mogelijk van deze overgang op de hoogte zouden zijn. Dit geeft ons voldoende tijd om de domeinnaam, die momenteel doorverwijst naar www.privacyguides.org, te veranderen en hopelijk geeft het iedereen genoeg tijd om de verandering op te merken, bladwijzers en websites bij te werken, enz.
+> [...] wij vonden het nodig deze omschakeling eerder vroeger dan later te maken om ervoor te zorgen dat de mensen zo snel mogelijk van deze overgang op de hoogte zouden zijn. This gives us adequate time to transition the domain name, which is currently redirecting to `www.privacyguides.org`, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
 
 This change [entailed:](https://reddit.com/comments/pnhn4a)
 
-- www.privacytools.io omleiden naar [www.privacyguides.org](https://www.privacyguides.org).
+- Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - Het archiveren van de broncode op GitHub om ons werk uit het verleden en de issue tracker te bewaren, die we bleven gebruiken voor maanden van toekomstige ontwikkeling van deze site.
 - Aankondigingen plaatsen op onze subreddit en diverse andere gemeenschappen om mensen te informeren over de officiële verandering.
 - Formeel sluiten van privacytools.io-diensten, zoals Matrix en Mastodon, en bestaande gebruikers aanmoedigen om zo snel mogelijk te migreren.
@@ -65,7 +63,7 @@ Alles leek soepel te verlopen, en het grootste deel van onze actieve gemeenschap
 
 Ongeveer een week na de overgang kwam BurungHantu voor het eerst in bijna een jaar weer online, maar niemand van ons team wilde terugkeren naar PrivacyTools vanwege zijn historische onbetrouwbaarheid. In plaats van zich te verontschuldigen voor zijn langdurige afwezigheid, ging hij onmiddellijk in de aanval en positioneerde de overgang naar Privacy Guides als een aanval op hem en zijn project. He subsequently [deleted](https://reddit.com/comments/pp9yie/comment/hd49wbn) many of these posts when it was pointed out by the community that he had been absent and abandoned the project.
 
-Op dit punt beweerde BurungHantu dat hij alleen verder wilde werken aan privacytools.io en vroeg ons de redirect van www.privacytools.io naar [www.privacyguides.org](https://www.privacyguides.org)te verwijderen. We hebben hem gevraagd de subdomeinen voor Matrix, Mastodon en PeerTube ten minste een paar maanden actief te houden als openbare dienst voor onze gemeenschap, zodat gebruikers op deze platforms gemakkelijk naar andere accounts kunnen migreren. Door de gefedereerde aard van de diensten die wij leverden, waren deze gebonden aan specifieke domeinnamen waardoor het zeer moeilijk (en in sommige gevallen onmogelijk) was om te migreren.
+At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). We hebben hem gevraagd de subdomeinen voor Matrix, Mastodon en PeerTube ten minste een paar maanden actief te houden als openbare dienst voor onze gemeenschap, zodat gebruikers op deze platforms gemakkelijk naar andere accounts kunnen migreren. Door de gefedereerde aard van de diensten die wij leverden, waren deze gebonden aan specifieke domeinnamen waardoor het zeer moeilijk (en in sommige gevallen onmogelijk) was om te migreren.
 
 Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
@@ -85,7 +83,7 @@ After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it wa
 
 > [...] De groei van deze Sub was het resultaat van grote inspanningen, gedurende meerdere jaren, door het PrivacyGuides.org team. En door ieder van jullie.
 > 
-> Een Subreddit is veel werk om te beheren en te modereren. Net als een tuin vereist het geduldig onderhoud en dagelijkse zorg. Het is geen taak voor dilettantes of vrijblijvende mensen. Het kan niet gedijen onder een tuinman die het enkele jaren in de steek laat en dan de oogst van dit jaar als eerbetoon eist. Het is oneerlijk tegenover het team dat jaren geleden werd gevormd. Het is niet eerlijk tegenover jou. [...]
+> Een Subreddit is veel werk om te beheren en te modereren. Net als een tuin vereist het geduldig onderhoud en dagelijkse zorg. It's not a task for dilettantes or commitment-challenged people. Het kan niet gedijen onder een tuinman die het enkele jaren in de steek laat en dan de oogst van dit jaar als eerbetoon eist. It's unfair to the team formed years ago. Het is niet eerlijk tegenover jou. [...]
 
 Subreddits zijn van niemand, en al helemaal niet van merkhouders. Ze horen bij hun gemeenschap, en de gemeenschap en haar moderatoren hebben besloten de verhuizing naar r/PrivacyGuides te steunen.
 
@@ -101,7 +99,7 @@ Ons fondsenwervingsplatform, OpenCollective, is een andere bron van onenigheid. 
 
 De fondsen in OpenCollective behoren dus toe aan Privacy Guides, ze zijn gegeven aan ons project, en niet aan de eigenaar van een bekende domeinnaam. In de aankondiging aan donateurs op 17 september 2021 boden wij donateurs die het niet eens zijn met ons standpunt een terugbetaling aan, maar niemand is op dit aanbod ingegaan:
 
-> Als sponsors of donateurs het niet eens zijn met of zich misleid voelen door deze recente gebeurtenissen en een terugbetaling willen aanvragen gezien deze hoogst ongebruikelijke omstandigheden, neem dan contact op met onze projectbeheerder door een e-mail te sturen naar jonah@triplebit.net.
+> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
 
 ## Meer lezen
 

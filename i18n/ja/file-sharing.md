@@ -15,7 +15,7 @@ cover: file-sharing.webp
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send**は、Mozillaの廃止されたFirefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。 ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 The maintainer of Send hosts a [public instance](https://send.vis.ee). 他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 The maintainer of Send hosts a [public instance](https://send.vis.ee). 他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="公開インスタンス"}
@@ -145,6 +145,7 @@ Nextcloudでの[E2EEアプリ](https://apps.nextcloud.com/apps/end_to_end_encryp
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### 規準
 
 **私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。

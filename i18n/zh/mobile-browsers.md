@@ -69,7 +69,7 @@ Brave是建立在Chromium网络浏览器项目之上的，所以它应该有熟�
 
 </div>
 
-#### 推荐配置
+#### Recommended Brave Configuration
 
 Tor浏览器是匿名浏览互联网的唯一途径。 当您使用Brave时，我们建议您更改以下设置，以保护您的隐私不受某些方的侵害，但除了 [Tor浏览器](tor.md#tor-browser) 之外的所有浏览器都可以在某些方面被 *个人* 追踪。
 
@@ -151,7 +151,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 </div>
 
-#### 推荐配置
+#### Recommended Firefox Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

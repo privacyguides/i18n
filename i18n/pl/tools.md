@@ -62,6 +62,7 @@ For more details about each project, why they were chosen, and additional tips o
 
 [Dowiedz się więcej :hero-arrow-circle-right-fill:](mobile-browsers.md)
 
+<!-- markdownlint-disable-next-line -->
 ### Android
 
 <div class="grid cards annotate" markdown>

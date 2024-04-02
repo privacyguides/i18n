@@ -4,8 +4,6 @@ icon: material/archive
 description: Certaines pages qui se trouvaient auparavant dans notre base de connaissances peuvent désormais être consultées sur notre blog.
 ---
 
-# Pages déplacées vers le blog
-
 Certaines pages qui se trouvaient auparavant dans notre base de connaissances peuvent désormais être consultées sur notre blog :
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos)

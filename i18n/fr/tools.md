@@ -62,6 +62,7 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 [En savoir plus :material-arrow-right-drop-circle:](mobile-browsers.md)
 
+<!-- markdownlint-disable-next-line -->
 ### Ressources supplémentaires
 
 <div class="grid cards annotate" markdown>

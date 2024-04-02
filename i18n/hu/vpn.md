@@ -6,6 +6,8 @@ description: Ezek a legjobb VPN-szolgáltatások az online magánéleted és biz
 cover: vpn.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
+
 If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:
 
 <div class="grid cards" markdown>

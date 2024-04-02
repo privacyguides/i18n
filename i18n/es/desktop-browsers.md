@@ -140,7 +140,7 @@ Firefox incluye un [token de descarga] único (https://bugzilla.mozilla.org/show
 
 </div>
 
-### Configuración Recomendada
+### Recommended Firefox Configuration
 
 Estas opciones se encuentran en :material-menu: → **Ajustes**
 
@@ -257,7 +257,7 @@ Brave añade un "[código de referido](https://github.com/brave/brave-browser/wi
 
 </div>
 
-### Configuración Recomendada
+### Recommended Brave Configuration
 
 Estas opciones se encuentran en :material-menu: → **Configuración**.
 
@@ -340,7 +340,7 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 
 1. Esta opción no está presente en todas las plataformas.
 
-#### Sincronización
+#### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permite que tus datos de navegación (historial, favoritos, etc.) sean accesibles en todos tus dispositivos sin necesidad de tener una cuenta y los protege con E2EE.
 

@@ -9,15 +9,18 @@ title: Git 使用建議
 可使用現有的SSH 密鑰簽署或 [建立新密鑰one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)。
 
 1. 設置 Git 客戶端以預設簽署提交與標籤(移除 `--global` 以便只對此存取庫作簽署):
-   ```
-   git config --global commit.gpgsign true
-   git config --global gpg.format ssh
-   git config --global tag.gpgSign true
-   ```
+
+    ```bash
+    git config --global commit.gpgsign true
+    git config --global gpg.format ssh
+    git config --global tag.gpgSign true
+    ```
+
 2. 透過下方指令來設定簽署 Git 的 SSH 密鑰，把 `/PATH/TO/.SSH/KEY.PUB` 替換成存放公鑰的路徑，如 `/home/user/.ssh/id_ed25519.pub`:
-   ```
-   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
-   ```
+
+    ```bash
+    git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
+    ```
 
 確認 [加入您 GitHub 帳戶中的 SSH 密鑰](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **簽署密鑰** (其不同於驗證密鑰)。
 
@@ -27,7 +30,7 @@ title: Git 使用建議
 
 可將它設為默認行為:
 
-```
+```bash
 git config --global pull.rebase true
 ```
 
@@ -35,7 +38,7 @@ git config --global pull.rebase true
 
 如果是在自建的旁支工作，提取請求前先執行這些指令:
 
-```
+```bash
 git fetch origin
 git rebase origin/main
 ```

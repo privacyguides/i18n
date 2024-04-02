@@ -366,6 +366,7 @@ Produk-produk ini adalah pengelola kata sandi minimal yang dapat digunakan dalam
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Kriteria
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.

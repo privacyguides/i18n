@@ -69,7 +69,7 @@ Brave, Chromium web tarayıcısı projesi üzerine inşa edilmiştir, bu nedenle
 
 </div>
 
-#### Önerilen Yapılandırma
+#### Recommended Brave Configuration
 
 Tor Browser, internette gerçekten anonim olarak gezinmenin tek yoludur. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
@@ -151,7 +151,7 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 </div>
 
-#### Önerilen Yapılandırma
+#### Recommended Firefox Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

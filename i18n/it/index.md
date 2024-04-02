@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## Perché dovrebbe importarmi?
 
 ##### “Non ho nulla da nascondere. Perché dovrei preoccuparmi della mia privacy?"

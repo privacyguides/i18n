@@ -46,7 +46,7 @@ L'applicazione web di Proton Drive è stata controllata indipendentemente da Sec
 
 > I revisori hanno identificato due vulnerabilità di bassa gravità. Inoltre, sono stati segnalati cinque suggerimenti generali. Al contempo, confermiamo che non è stato identificato alcun problema di sicurezza importante, durante il pentest.
 
-I nuovi client mobile di Proton Drive non sono ancora stati controllati pubblicamente da una terza parte.
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

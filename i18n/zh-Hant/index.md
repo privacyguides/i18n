@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## 為何我該關心？
 
 ##### “我沒有什麼可隱瞞的。 為何我該在意自己的隱私？”

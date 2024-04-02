@@ -69,7 +69,7 @@ Inclui [características de privacidade](https://support.apple.com/guide/iphone/
 
 </div>
 
-#### Configuração recomendada
+#### Recommended Brave Configuration
 
 O Tor é a única forma de navegar verdadeiramente de forma anónima na Internet. Quando utilizar o Brave, recomendamos que altere as seguintes definições para proteger a sua privacidade de determinadas entidades terceiras. Contudo, todos os browsers, com a exceção do [Tor](tor.md#tor-browser) serão rastreáveis por *alguém* de uma forma ou de outra.
 
@@ -151,7 +151,7 @@ O **Safari** é o navegador predefinido no iOS. It includes [privacy features](h
 
 </div>
 
-#### Configuração recomendada
+#### Recommended Firefox Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

@@ -15,7 +15,7 @@ Ontdek hoe je jouw bestanden privé kunt delen tussen jouw apparaten, met jouw v
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** is een vork van Mozilla 's beëindigde Firefox Send-service waarmee je bestanden naar anderen kunt verzenden met een link. Bestanden worden op jouw apparaat versleuteld zodat ze niet door de server kunnen worden gelezen, en ze kunnen optioneel ook met een wachtwoord worden beveiligd. The maintainer of Send hosts a [public instance](https://send.vis.ee). Je kunt andere openbare instanties gebruiken, of je kunt Send zelf hosten.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Bestanden worden op jouw apparaat versleuteld zodat ze niet door de server kunnen worden gelezen, en ze kunnen optioneel ook met een wachtwoord worden beveiligd. The maintainer of Send hosts a [public instance](https://send.vis.ee). Je kunt andere openbare instanties gebruiken, of je kunt Send zelf hosten.
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
@@ -145,6 +145,7 @@ Wij raden het gebruik van de [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Criteria
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.

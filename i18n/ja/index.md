@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## なぜ気にする必要があるのか？
 
 ##### 「隠すものは何もありません。 なぜ、プライバシーを気にする必要があるのですか？」

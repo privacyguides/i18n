@@ -6,6 +6,8 @@ description: Dit zijn de beste VPN-diensten om jouw privacy en veiligheid online
 cover: vpn.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
+
 Als je op zoek bent naar extra **privacy** van uw ISP, op een openbaar Wi-Fi-netwerk, of tijdens het torrenten van bestanden, kan een VPN de oplossing voor je zijn, zolang je de risico's ervan begrijpt. Wij denken dat deze aanbieders een stuk beter zijn dan de rest:
 
 <div class="grid cards" markdown>

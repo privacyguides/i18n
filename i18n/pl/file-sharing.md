@@ -13,9 +13,9 @@ Dowiedz się, jak prywatnie udostępniać piki pomiędzy swoimi urządzeniami, z
 
 <div class="admonition recommendation" markdown>
 
-![Magic Wormhole logo](assets/img/file-sharing-sync/magic_wormhole.png){ align=right }
+![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Magic Wormhole** to pakiet, który dostarcza bibliotekę i narzędzie konsolowe o nazwie wormhole, które umożliwia wysyłanie plików i katalogów (lub kawałków tekstu) o dowolnym rozmiarze z jednego komputera na drugi. [:octicons-repo-16: Repozytorium](https://github.com/magic-wormhole/magic-wormhole){ .md-button .md-button--primary }
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. [:octicons-repo-16: Repozytorium](https://github.com/magic-wormhole/magic-wormhole){ .md-button .md-button--primary }
 [:octicons-info-16:](https://magic-wormhole.readthedocs.io/){ .card-link title=Dokumentacja}
 [:octicons-code-16:](https://github.com/magic-wormhole/magic-wormhole){ .card-link title="Kod źródłowy" }
 
@@ -149,6 +149,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Criteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.

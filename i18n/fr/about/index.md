@@ -49,12 +49,12 @@ Jusqu'à présent en 2023, nous avons lancé des traductions internationales de 
 <!-- markdownlint-disable MD030 -->
 
 <div class="grid cards" markdown>
-<!-- Every team member should have a unique emoji.
-     Team member cards should include ONLY the following links:
-     - Discourse Profile
-     - ONE Link of team member's choice
-     - Email if applicable
-     This is to keep it fair and not spammy, especially as we grow.
+<!--  Every team member should have a unique emoji.
+      Team member cards should include ONLY the following links:
+      - Discourse Profile
+      - ONE Link of team member's choice
+      - Email if applicable
+      This is to keep it fair and not spammy, especially as we grow.
 -->
 
 -   :robot:{ .lg .middle } **@jonah**

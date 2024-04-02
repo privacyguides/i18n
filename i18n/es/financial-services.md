@@ -84,6 +84,7 @@ Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Criterios
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.

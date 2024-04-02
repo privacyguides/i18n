@@ -13,9 +13,9 @@ Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i t
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Send](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** è un fork del servizio, ormai dismesso, di Firefox Send di Mozilla, che consente di inviare file ad altri con un link. I file sono crittografati sul tuo dispositivo così che non possano esser letti dal server e, facoltativamente, possono essere anche protetti da password. The maintainer of Send hosts a [public instance](https://send.vis.ee). Puoi utilizzare altre istanze pubbliche, o puoi ospitare Send autonomamente.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. I file sono crittografati sul tuo dispositivo così che non possano esser letti dal server e, facoltativamente, possono essere anche protetti da password. The maintainer of Send hosts a [public instance](https://send.vis.ee). Puoi utilizzare altre istanze pubbliche, o puoi ospitare Send autonomamente.
 
 [:octicons-home-16: Home](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Istanze Pubbliche"}
@@ -145,6 +145,7 @@ Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_e
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Criteri
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.

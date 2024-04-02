@@ -15,7 +15,7 @@ Fedezd fel, hogyan oszthatod meg fájljaid privát módon készülékek között
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-A **Send** a Mozilla megszűnt Firefox Send szolgáltatásának egy forkja, amely lehetővé teszi, hogy fájlokat küldj másoknak egy link segítségével. A fájlok az eszközön kerülnek titkosításra, így a szerver nem tudja azokat elolvasni, és választhatóan jelszóval is védhetők. The maintainer of Send hosts a [public instance](https://send.vis.ee). Használhatsz más nyilvános instanceket, vagy magad is üzemeltetheted a Send-et.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. A fájlok az eszközön kerülnek titkosításra, így a szerver nem tudja azokat elolvasni, és választhatóan jelszóval is védhetők. The maintainer of Send hosts a [public instance](https://send.vis.ee). Használhatsz más nyilvános instanceket, vagy magad is üzemeltetheted a Send-et.
 
 [:octicons-home-16: Honlap](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Publikus Instancek"}
@@ -145,6 +145,7 @@ A **Syncthing** egy nyílt forráskódú peer-to-peer folyamatos fájlszinkroniz
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Követelmények
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.

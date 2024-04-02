@@ -5,6 +5,7 @@ description: Çoğu çevrimiçi ofis uygulmaları uçtan uca şifrelemeyi destek
 cover: productivity.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 Çoğu çevrimiçi ofis uygulmaları uçtan uca şifrelemeyi desteklemez, bu da bulut sağlayıcısının yaptığınız her şeye erişebileceği anlamına gelir. Gizlilik politikası haklarınızı yasal olarak koruyabilir, ancak teknik erişim kısıtlamaları sağlamaz.
 
 ## Ortak Çalışma Platformları

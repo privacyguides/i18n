@@ -61,6 +61,7 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 [了解更多 :hero-arrow-circle-right-fill:](mobile-browsers.md)
 
+<!-- markdownlint-disable-next-line -->
 ### 其它资源
 
 <div class="grid cards annotate" markdown>

@@ -127,28 +127,32 @@ BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-devi
 Per abilitare BitLocker sulle edizioni "Home" di Windows, è necessario che le partizioni siano formattate con una [tabella delle partizioni GUID](https://en.wikipedia.org/wiki/GUID_Partition_Table) e che sia presente un modulo TPM dedicato (v1.2, 2.0+). Potrebbe essere necessario [disabilitare la funzionalità non-Bitlocker "Crittografia dispositivo"](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (che è inferiore perché invia la chiave di recupero ai server di Microsoft) se è abilitata sul dispositivo già prima di seguire questa guida.
 
 1. Apri il prompt dei comandi e verifica il formato della tabella di partizione dell'unità, con il seguente comando. Dovresti vedere "**GPT**" elencato sotto "Stile di Partizione":
-   ```powershell
-   powershell Get-Disk
-   ```
+
+    ```powershell
+    powershell Get-Disk
+    ```
 
 2. Esegui questo comando (nel prompt dei comandi da admin), per verificare la tua versione di TPM. Dovresti vedere `2.0` o `1.2`, elencato affianco a `SpecVersion`:
-   ```powershell
-   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-   ```
+
+    ```powershell
+    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+    ```
 
 3. Access [Advanced Startup Options](https://support.microsoft.com/windows/advanced-startup-options-including-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617). Devi riavviare premendo il tasto F8, prima dell'avvio di Windows e andare nel *prompt dei comandi* in **Risoluzione dei Problemi** → **Opzioni Avanzate** → **Prompt dei Comandi**.
 4. Accedi con il tuo profilo da amministratore e digita nel prompt dei comandi questo comando, per avviare la crittografia:
-   ```powershell
-   manage-bde -on c: -used
-   ```
+
+    ```powershell
+    manage-bde -on c: -used
+    ```
 
 5. Chiudi il prompt dei comandi e procedi con l'avvio regolare di Windows.
 6. Apri il prompt dei comandi con privilegi da amministratore ed esegui i seguenti comandi:
-   ```powershell
-   manage-bde c: -protectors -add -rp -tpm
-   manage-bde -protectors -enable c:
-   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-   ```
+
+    ```powershell
+    manage-bde c: -protectors -add -rp -tpm
+    manage-bde -protectors -enable c:
+    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+    ```
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Suggerimento</p>

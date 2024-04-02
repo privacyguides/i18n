@@ -132,17 +132,19 @@ BitLocker [僅支援](https://support.microsoft.com/windows/turn-on-device-encry
 1. 開啟命令提示符，並使用以下命令檢查磁碟機的分區表格格式。 您應該會在“分區樣式”下方看到“**GPT**” ： 
    
    
-   ```powershell
-   powershell Get-Disk
-   ```
+
+    ```powershell
+    powershell Get-Disk
+    ```
 
 
 2. 在管理員命令提示符中執行此命令以檢查您的TPM版本。 您應該會在 `個SpecVersion`旁邊看到 `2.0` 或 `1.2` ： 
    
    
-   ```powershell
-   powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
-   ```
+
+    ```powershell
+    powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
+    ```
 
 
 3. 造訪[進階啟動選項](https://support.microsoft.com/windows/advanced-startup-options-include-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617)。 重新啟動時需要在 Windows 啟動前按下F8 鍵，然後進入 *命令提示符* in **疑難排解** → **進階選項** → **命令提示符**。
@@ -150,20 +152,22 @@ BitLocker [僅支援](https://support.microsoft.com/windows/turn-on-device-encry
 4. 使用管理員帳戶登入並在命令提示符中輸入指令以開始加密： 
    
    
-   ```powershell
-   manage-bde -on c: -used
-   ```
+
+    ```powershell
+    manage-bde -on c: -used
+    ```
 
 
 5. 關閉命令提示符並繼續啟動正常Windows。
 
 6. 打開 admin 命令提示符並運行以下命令： 
    
-   ```powershell
-   manage-bde c: -protectors -add -rp -tpm
-   manage-bde -protectors -enable c:
-   manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
-   ```
+
+    ```powershell
+    manage-bde c: -protectors -add -rp -tpm
+    manage-bde -protectors -enable c:
+    manage-bde -protectors -get c: > %UserProfile%\Desktop\BitLocker-Recovery-Key.txt
+    ```
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>

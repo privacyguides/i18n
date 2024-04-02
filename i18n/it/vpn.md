@@ -6,6 +6,8 @@ description: Questi sono i migliori servizi VPN per proteggere la tua privacy e 
 cover: vpn.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
+
 Se desideri ulteriore **privacy** dal tuo ISP, su una rete Wi-Fi pubblica, o durante torrenting di file, una VPN potrebbe essere la soluzione per te, purché tu comprenda i rischi associati. Riteniamo che questi provider siano una spanna sopra gli altri:
 
 <div class="grid cards" markdown>

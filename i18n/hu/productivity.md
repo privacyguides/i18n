@@ -5,6 +5,7 @@ description: A legtöbb online irodai programcsomag nem támogatja az End-to-End
 cover: productivity.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 A legtöbb online irodai programcsomag nem támogatja az End-to-End titkosítást, ami azt jelenti, hogy a felhőszolgáltató hozzáfér mindenhez, amit csinálsz. Az adatvédelmi tájékoztató törvényileg védheti a jogaidat, de nem biztosít technikai hozzáférési korlátokat.
 
 ## Kollaborációs Platformok

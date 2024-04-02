@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## Neden önemsemeliyim?
 
 ##### "Saklayacak bir şeyim yok. Mahremiyetimi neden önemseyeyim ki?"

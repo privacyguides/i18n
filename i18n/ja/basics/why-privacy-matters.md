@@ -11,11 +11,13 @@ icon: 'material/shield-account'
 
 多くの人は、**プライバシー**、**セキュリティ**、**匿名性**の概念を混同しています。 例えば、ある製品が匿名性を提供していないという意味で「プライベートではない」と批判する人々がいます。 このウェブサイトでは、これら3つのトピックすべてを取り上げます。まず、それぞれの違いを理解しましょう。
 
+<!-- markdownlint-disable-next-line -->
 **プライバシー**
 :
 
 ==プライバシーとは、あなたが許可した人だけがあなたのデータを閲覧できる保証のことです。==例えば、インスタントメッセンジャの場合、あなたと宛先のみがメッセージを閲覧できるようにするエンドツーエンド暗号化がプライバシーを提供します。
 
+<!-- markdownlint-disable-next-line -->
 **セキュリティー**
 :
 
@@ -24,7 +26,8 @@ Security is the ability to trust the applications you use—that the parties inv
 
 Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
 
-**匿名性**
+<!-- markdownlint-disable-next-line -->
+**Anonymity**
 :
 
 匿名性とは、永続的な識別子なしに行動できる能力のことです。 You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.

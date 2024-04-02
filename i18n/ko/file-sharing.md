@@ -13,9 +13,9 @@ cover: file-sharing.webp
 
 <div class="admonition recommendation" markdown>
 
-![Send 로고](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send**는 Mozilla가 중단했던 Firefox Send 서비스를 포크한 프로젝트입니다. 링크를 통해 다른 사람에게 파일을 전송할 수 있습니다. 파일은 기기에서 암호화되기 때문에 서버에서는 읽을 수 없으며, 원하는 경우 비밀번호로 보호할 수도 있습니다. The maintainer of Send hosts a [public instance](https://send.vis.ee). 다른 공개 인스턴스를 사용할 수도 있으며, 여러분이 직접 Send를 호스팅하는 것도 가능합니다.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. 파일은 기기에서 암호화되기 때문에 서버에서는 읽을 수 없으며, 원하는 경우 비밀번호로 보호할 수도 있습니다. The maintainer of Send hosts a [public instance](https://send.vis.ee). 다른 공개 인스턴스를 사용할 수도 있으며, 여러분이 직접 Send를 호스팅하는 것도 가능합니다.
 
 [:octicons-home-16: 홈페이지](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="공개 인스턴스"}
@@ -145,6 +145,7 @@ Privacy Guides는 Nextcloud용 [E2EE 앱](https://apps.nextcloud.com/apps/end_to
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### 평가 기준
 
 **Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.

@@ -19,4 +19,4 @@ Podem ser encontradas diretrizes de marca adicionais em [github.com/privacyguide
 
 "Privacy Guides" e o logótipo do escudo são marcas registadas, propriedade de Jonah Aragon, sendo concedida ao projeto Privacy Guides a sua utilização ilimitada.
 
-Sem renunciar a nenhum dos seus direitos, o Privacy Guides não aconselha terceiros sobre o âmbito dos seus direitos de propriedade intelectual. O Privacy Guides não permite nem consente utilizações das suas marcas registadas que possam causar confusão ao implicar a associação do Privacy Guides com algum patrocínio. Se tiver conhecimento de uma utilização deste tipo, contacte Jonah Aragon através do endereço jonah@privacyguides.org. Consulte o seu advogado se tiver dúvidas.
+Sem renunciar a nenhum dos seus direitos, o Privacy Guides não aconselha terceiros sobre o âmbito dos seus direitos de propriedade intelectual. O Privacy Guides não permite nem consente utilizações das suas marcas registadas que possam causar confusão ao implicar a associação do Privacy Guides com algum patrocínio. If you are aware of any such use, please contact Jonah Aragon at `jonah@privacyguides.org`. Consulte o seu advogado se tiver dúvidas.

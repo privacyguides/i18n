@@ -152,6 +152,7 @@ Vi rekommenderar starkt att du använder mobila TOTP-appar i stället för alter
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Kriterier
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.

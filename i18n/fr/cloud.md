@@ -46,7 +46,7 @@ L'application web Proton Drive a fait l'objet d'un audit indépendant par Securi
 
 > Les auditeurs ont relevé deux faiblesses de faible gravité. En outre, cinq recommandations générales ont été formulées. En même temps, nous confirmons qu'aucun problème de sécurité important n'a été identifié pendant le test d'intrusion.
 
-Les nouveaux clients mobiles de Proton Drive n'ont pas encore fait l'objet d'un audit public par un tiers.
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

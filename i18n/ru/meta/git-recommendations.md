@@ -9,15 +9,18 @@ title: Рекомендации по Git
 Вы можете использовать существующий SSH-ключ для подписи или [создать новый](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 1. Настройте ваш Git-клиент на подпись коммитов и тегов по умолчанию (удалите `--global`, чтобы подписывать по умолчанию только этот репозиторий):
-   ```
-   git config --global commit.gpgsign true
-   git config --global gpg.format ssh
-   git config --global tag.gpgSign true
-   ```
+
+    ```bash
+    git config --global commit.gpgsign true
+    git config --global gpg.format ssh
+    git config --global tag.gpgSign true
+    ```
+
 2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
-   ```
-   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
-   ```
+
+    ```bash
+    git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
+    ```
 
 Убедитесь, что вы [добавили свой SSH-ключ в учетную запись GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **в качестве ключа подписи** (в отличие от ключа идентификации или в дополнение к нему).
 
@@ -27,7 +30,7 @@ title: Рекомендации по Git
 
 Вы можете установить это поведение по умолчанию:
 
-```
+```bash
 git config --global pull.rebase true
 ```
 
@@ -35,7 +38,7 @@ git config --global pull.rebase true
 
 Если вы работаете над собственной веткой, выполните эти команды перед отправкой PR:
 
-```
+```bash
 git fetch origin
 git rebase origin/main
 ```

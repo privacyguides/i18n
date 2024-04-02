@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## Mengapa saya harus peduli?
 
 ##### “Saya tidak memiliki apa-apa untuk disembunyikan. Mengapa saya harus peduli dengan privasi saya?”

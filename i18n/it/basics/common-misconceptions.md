@@ -75,23 +75,23 @@ Quindi, come potrebbe apparire?
 
 Uno dei modelli di minaccia più chiari è quello in cui le persone *ti conoscono* e uno in cui non ti conoscono. Ci saranno sempre situazioni in cui dovrai dichiarare il tuo nome legale, e altre in cui non sarà necessario.
 
-1. **Identità nota**: Un'identità nota è utilizzata per le cose in cui devi dichiarare il tuo nome. Esistono molti documenti legali e contratti in cui l'identità legale è necessaria. Questi possono andare dall'apertura di un conto bancario, la firma di affitto di una proprietà, l'ottenimento di un passaporto, dichiarazioni personalizzate per l'importazione di articoli, o altri rapporti con il tuo governo. Solitamente, queste cose, richiedono credenziali quali carte di credito, controlli di affidabilità creditizia, numeri di conto e, possibilmente, indirizzi fisici.
+1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-Non suggeriamo di utilizzare VPN o Tor per queste cose, poiché la tua identità è già nota tramite altri mezzi.
+    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Suggerimento</p>
+    <div class="admonition tip" markdown>
+    <p class="admonition-title">Suggerimento</p>
 
-Acquistando online, l'utilizzo di un [Paccomat](https://it.wikipedia.org/wiki/Paccomat), può contribuire a mantenere privato il tuo indirizzo email.
+    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
-</div>
+    </div>
 
-2. **Identità sconosciuta**: Un'identità sconosciuta potrebbe essere uno pseudonimo stabile che utilizzi regolarmente. Non è anonimo perché non cambia. Se fai parte di una community online, potresti voler mantenere un'identità nota ad altri. Questo pseudonimo non è anonimo perché, se monitorato abbastanza a lungo, i dettagli sul proprietario potrebbero rilevare ulteriori informazioni, come il modo in cui scrive, le sue conoscenze generali su argomenti d'interesse, etc.
+2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
 
-Potresti voler utilizzare una VPN per questo, per mascherare il tuo indirizzo IP. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). L'utilizzo del cambio di criptovalute, inoltre, potrebbe aiutare a distinguere l'origine della valuta. Tipicamente, le piattaforme di scambio richiedono il completamento della KYC (conoscenza del cliente), prima di consentirti di scambiare valuta legale per qualsiasi tipo di criptovaluta. Anche le opzioni di incontro locali potrebbero essere una soluzione; tuttavia, sono spesso più costose e, talvolta, richiedono la KYC.
+    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
 
-3. **Identità anonima**: Anche con l'esperienza, le identità anonime sono difficili da mantenere per lunghi periodi di tempo. Dovrebbero essere identità a breve termine e di breve durata, a rotazione regolare.
+3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
-In questo caso, l'utilizzo di Tor può aiutare. Vale anche la pena di notare che un anonimato maggiore è possibile, tramite la comunicazione asincrona: la comunicazione in tempo reale è vulnerabile alle analisi dei modelli di digitazione (cioè, più di un paragrafo di testo, distribuito su un forum, via email, etc.)
+    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: Un notevole esempio è quello dell'[incidente del 2021, in cui i ricercatori dell'Università del Minnesota hanno introdotto tre vulnerabilità nel progetto di sviluppo del kernel Linux](https://cse.umn.edu/cs/linux-incident).
+[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).

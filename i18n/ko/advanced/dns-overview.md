@@ -450,8 +450,8 @@ If the results include a second edns0-client-subnet TXT record (like shown below
 
 
 ```text
-o-o.myaddr.l.google.com. 60 IN  TXT "198.51.100.32"
-o-o.myaddr.l.google.com. 60 IN  TXT "edns0-client-subnet 198.51.100.0/24"
+o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"
+o-o.myaddr.l.google.com. 60 IN TXT "edns0-client-subnet 198.51.100.0/24"
 ;; Query time: 64 msec
 ;; SERVER: 9.9.9.11#53(9.9.9.11)
 ;; WHEN: Wed Mar 13 10:23:08 CDT 2024

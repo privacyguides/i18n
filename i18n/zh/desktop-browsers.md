@@ -140,7 +140,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 </div>
 
-### 推荐配置
+### Recommended Firefox Configuration
 
 这些选项可以在 :material-menu: → **设置**中找到。
 
@@ -269,7 +269,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 </div>
 
-### 推荐配置
+### Recommended Brave Configuration
 
 这些选项可以在 :material-menu: → **设置**中找到。
 
@@ -364,7 +364,7 @@ Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 如果您不�
 
 
 
-#### 同步
+#### Brave 同步
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 

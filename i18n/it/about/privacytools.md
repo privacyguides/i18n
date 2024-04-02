@@ -2,8 +2,6 @@
 title: "Domande Frequenti su PrivacyTools"
 ---
 
-# Perché abbiamo abbandonato PrivacyTools
-
 A settembre 2021, ogni collaboratore attivo ha acconsentito unanimemente a passare da PrivacyTools a questo sito: Privacy Guides. Questa decisione è stata presa poiché il fondatore e controllore del nome di dominio di PrivacyTools, è scomparso per un lungo periodo di tempo e non è stato possibile contattarlo.
 
 Avendo costruito un sito e una serie di servizi affidabili su PrivacyTools.io, ciò ha causato gravi preoccupazioni per il futuro di PrivacyTools, poiché qualsiasi futura interruzione avrebbe potuto spazzare via l'intera organizzazione, senza alcun metodo di recupero. Questa transizione è stata comunicata alla community di PrivacyTools con molti mesi in anticipo, tramite svariati canali tra cui il suo blog, Twitter, Reddit e Mastodon, per assicurarsi che l'intero processo si svolgesse nel più semplice modo possibile. Lo abbiamo fatto per assicurarci che nessuno rimanesse all'oscuro, quello che è stato il nostro modus operandi dalla creazione del nostro team, e per assicurarci che Privacy Guides fosse riconosciuto come la stessa organizzazione affidabile, che era PrivacyTools prima della transizione.
@@ -50,11 +48,11 @@ Reddit richiede che i subreddit abbiano dei moderatori attivi. Se il moderatore 
 
 Il 14 settembre 2021, [abbiamo annunciato](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) l'inizio della nostra migrazione a questo nuovo dominio:
 
-> [...] abbiamo ritenuto necessario effettuare questo passaggio prima, piuttosto che dopo, per assicurarci che le persone ne venisseero a conoscenza il prima possibile. Ciò ci concede un tempo adeguato per passare al nome di dominio, che reindirizza al momento a www.privacyguides.org, nella speranza che tutti abbiano abbastanza tempo per notare il cambiamento, aggiornare segnalibri e siti web, etc.
+> [...] abbiamo ritenuto necessario effettuare questo passaggio prima, piuttosto che dopo, per assicurarci che le persone ne venisseero a conoscenza il prima possibile. This gives us adequate time to transition the domain name, which is currently redirecting to `www.privacyguides.org`, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
 
 Questa modfica [ha comportato:](https://reddit.com/comments/pnhn4a)
 
-- Il reindirizzamento di www.privacytools.io a [www.privacyguides.org](https://www.privacyguides.org).
+- Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - L'archiviazione del codice sorgente su GitHub per preservare il nostro lvoro precedente e tracciatore dei problemi, che abbiamo continuato a utilizzare per mesi di sviluppo futuro di questo sito.
 - La pubblicazione di annunci al nostro subreddit e varie altre community, informando le persone del cambiamento ufficiale.
 - La chiusura ufficiale dei servizi di privacytools.io, come Matrix e Mastodon, e l'incoraggiamento degli utenti esistenti a migrare il prima possibile.
@@ -65,7 +63,7 @@ Tutto sembrava andare bene e, gran parte della nostra community attiva, ha effet
 
 Approssimativamente una settimana dopo la transizione, BurungHantu è tornato online per la prima volta dopo quasi un anno, tuttaavia, nessuno nel nostro team era desideroso di tornare a PrivacyTools, a causa della sua storica inaffidabilità. Piuttosto che scusarsi per la propria assenza prolungata, è passato immediatamente all'offensiva, definendo la transizione a Privacy Guides come un attacco contro di lui e il suo progetto. In seguito, [ha eliminato](https://reddit.com/comments/pp9yie/comment/hd49wbn) molti di questi post quando la community gli ha fatto notare che fosse stato assente e avesse abbandonato il progetto.
 
-A questo punto, BurungHantu ha dichiarato di voler continuare a lavorare a privacytools.io per conto proprio, richiedendoci di rimuovere il reindirizzamento da www.privacytools.io a [www.privacyguides.org](https://www.privacyguides.org). Abbiamo accettato e richiesto che mantenesse i sottodomini per Matrix, Mastodon e PeerTube, attivi, perché gestissimo un servizio pubblico alla nostra community, per almeno qualche mese, per consentire agli utenti di tali piattaforme di migrare facilmente ad altri profili. A causa della natura federata dei servizi che fornivamo, erano legati a nomi di dominio specifici, complicando la migrazione (e, in alcuni casi, rendendola impossibile).
+At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Abbiamo accettato e richiesto che mantenesse i sottodomini per Matrix, Mastodon e PeerTube, attivi, perché gestissimo un servizio pubblico alla nostra community, per almeno qualche mese, per consentire agli utenti di tali piattaforme di migrare facilmente ad altri profili. A causa della natura federata dei servizi che fornivamo, erano legati a nomi di dominio specifici, complicando la migrazione (e, in alcuni casi, rendendola impossibile).
 
 Sfortunatamente, poiché il controllo della Subreddit r/privacytoolsIO non era stato restituito a BurungHantu su sua richiesta (seguono ulteriori informazioni), quei sottodomini sono stati [tagliati fuori](https://reddit.com/comments/pymthv/comment/hexwrps) all'inizio di ottobre, terminando qualsiasi possibilità di migrazione a qualsiasi utente utilizzasse ancora quei servizi.
 
@@ -85,7 +83,7 @@ Dopo il lancio di [r/PrivacyGuides](https://reddit.com/r/privacyguides), era imp
 
 > [...] La crescita di questo subreddit è stata la conseguenza di un grande sforzo, durato diversi anni, da parte del team di PrivacyGuides.org. E da ognuno di voi.
 > 
-> Un Subreddit è molto impegnativo da amministrare e moderare. Come un giardino, richiede una cura quotidiana e paziente. Non è un lavoro per dilettanti o persone che non si impegnano. Non può prosperare con un giardiniere che lo abbandona per svariati anni, per poi ripresentarsi richiedendo il raccolto dell'anno come tributo. È ingiusto nei confronti del team formato anni fa. È ingiusto nei tuoi confronti. [...]
+> Un Subreddit è molto impegnativo da amministrare e moderare. Come un giardino, richiede una cura quotidiana e paziente. It's not a task for dilettantes or commitment-challenged people. Non può prosperare con un giardiniere che lo abbandona per svariati anni, per poi ripresentarsi richiedendo il raccolto dell'anno come tributo. It's unfair to the team formed years ago. È ingiusto nei tuoi confronti. [...]
 
 I subreddit non appartengono a nessuno e, specialmente, non ai titolari dei marchi. Appartengono alle proprie community, che, insieme ai propri moderatori hanno preso la decisione di supportare la transizione a r/PrivacyGuides.
 
@@ -101,7 +99,7 @@ La nostra piattaforma di raccolta fondi, OpenCollective, è un'altra fonte di co
 
 Pertanto, i fondi di OpenCollective appartengono a Privacy Guides, sono stati dati al nostro progetto, e non al proprietario di un famoso dominio. Nell'annuncio fatto ai donatori il 17 settembre 2021, abbiamo offerto un rimborso a qualsiasi donatore che non fosse d'accordo con la nostra posizione, ma nessuno ha accettato quest'offerta:
 
-> Se qualsiasi sponsor o sostenitore non è d'accordo con o si sente ingannato dagli eventi recenti e vorrebbe richiedere un rimborso date tali circostanze estremamente insolite, ti preghiamo di contattare l'amministratore del nostro progetto, inviando un'email a jonah@triplebit.net.
+> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
 
 ## Ulteriori letture
 

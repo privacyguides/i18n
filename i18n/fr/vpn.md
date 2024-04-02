@@ -6,6 +6,8 @@ description: Voici les meilleurs services VPN pour protéger votre vie privée e
 cover: vpn.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
+
 Si vous recherchez à protéger votre **vie privée** vis-à-vis de votre FAI, sur un réseau Wi-Fi public ou lorsque vous téléchargez des fichiers en torrent, un VPN peut être la solution pour vous, à condition que vous compreniez les risques encourus. Nous pensons que ces fournisseurs se distinguent des autres :
 
 <div class="grid cards" markdown>

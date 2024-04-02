@@ -77,21 +77,21 @@ schema:
 
 1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+    <div class="admonition tip" markdown>
+    <p class="admonition-title">Tip</p>
 
-בעת קניות באינטרנט, השימוש ב[ארונית חבילות](https://en.wikipedia.org/wiki/Parcel_locker) יכול לעזור לשמור על פרטיות הכתובת הפיזית שלך.
+    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
-</div>
+    </div>
 
-2. **זהות לא ידועה** - זהות לא ידועה יכולה להיות שם בדוי יציב שאתה משתמש בו באופן קבוע. זה לא אנונימי כי זה לא משתנה. אם אתה חלק מקהילה מקוונת, ייתכן שתרצה לשמור על דמות שאחרים מכירים. שם בדוי זה אינו אנונימי מכיוון שאם מנוטרים מספיק זמן - פרטים על הבעלים יכולים לחשוף מידע נוסף, כגון האופן שבו הם כותבים, הידע הכללי שלהם לגבי נושאים מעניינים וכו'.
+2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
 
-ייתכן שתרצו להשתמש ב - VPN כדי להסתיר את כתובת ה - IP שלכם. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). שימוש בהעברת אלטקוין עשוי גם לעזור להסוות את מקור המטבע שלך. בדרך כלל, ההחלפות דורשות את השלמת KYC (הכר את הלקוח שלך) לפני שהן יאפשרו לך להחליף מטבע פיאט לכל סוג של מטבע קריפטוגרפי. גם אפשרויות מפגש מקומיות עשויות להוות פתרון; עם זאת, אלה לעתים קרובות יותר יקרים ולפעמים גם דורשים KYC.
+    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
 
-3. **זהות אנונימית** - גם עם ניסיון, זהויות אנונימיות קשות לשמירה לאורך תקופות זמן ארוכות. הן צריכות להיות זהויות קצרות טווח וקצרות מועד המסובבות באופן קבוע.
+3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
-שימוש ב- Tor יכול לעזור בזה. ראוי גם לציין כי אנונימיות רבה יותר אפשרית באמצעות תקשורת אסינכרונית: תקשורת בזמן אמת חשופה לניתוח של דפוסי הקלדה (כלומר יותר מפסקת טקסט, מופצת בפורום, באמצעות דואר אלקטרוני וכו')
+    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: אחת הדוגמאות הבולטות לכך היא [תקרית 2021 שבה חוקרים מאוניברסיטת מינסוטה הציגו שלוש נקודות תורפה לפרויקט פיתוח ליבת לינוקס](https://cse.umn.edu/cs/linux-incident).
+[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).

@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## Miért érdekeljen ez engem?
 
 ##### “Nincs semmi rejtegetnivalóm. Miért kellene törődnöm a magánéletemmel?”

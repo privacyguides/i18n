@@ -46,7 +46,7 @@ Proton Driveのウェブアプリケーションは、[2021](https://proton.me/b
 
 > 監査人は、2つの深刻度の低い脆弱性を特定しました。 また、5つの一般的な勧告を行いました。 同時に、ペンテストに際して重要なセキュリティ上の問題が特定されなかったことを確認しました。
 
-Proton Driveの新しいモバイルクライアントは、まだ第三者による公的な監査を受けていません。
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

@@ -366,6 +366,7 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。

@@ -13,15 +13,13 @@ Számos webes szolgáltatást futtatunk, hogy teszteljünk funkciókat és néps
 ## Gitea
 
 - Domain: [code.privacyguides.dev](https://code.privacyguides.dev)
-- Elérhetőség: Csak Meghívóval  
-  A *Privacy Guides*-hoz kapcsolódó fejlesztéseken vagy tartalmakon dolgozó bármely csapat számára kérésre engedélyezhető a hozzáférés.
+- Availability: Invite-Only Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
 - Forrás: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - Domain: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Elérhetőség: Csak Meghívóval  
-  A hozzáférés kérésre megadható a Privacy Guides csapatának tagjainak, Mátrix-moderátoroknak, harmadik feles Matrix közösség adminisztrátoroknak, Matrix-botok üzemeltetőinek és más olyan személyeknek, akiknek megbízható Matrix-jelenlétre van szükségük.
+- Availability: Invite-Only Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
 - Forrás: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
@@ -33,6 +31,5 @@ Számos webes szolgáltatást futtatunk, hogy teszteljünk funkciókat és néps
 ## Invidious
 
 - Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Elérhetőség: Félig Nyilvános  
-  Az Invidioust elsősorban beágyazott YouTube-videók szolgáltatásához üzemeltetjük a webhelyünkön, ez az instance általános célú használatra nem szolgál, és bármikor korlátozható.
+- Availability: Semi-Public We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
 - Forrás: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

@@ -140,7 +140,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 </div>
 
-### Configuração recomendada
+### Recommended Firefox Configuration
 
 Estas opções podem ser encontradas em :material-menu: → **Ajustes...**
 
@@ -257,7 +257,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 </div>
 
-### Configuração recomendada
+### Recommended Brave Configuration
 
 Estas opções podem ser encontradas em :material-menu: → **Definições...**.
 
@@ -340,7 +340,7 @@ As funcionalidades Web3 do Brave podem potencialmente aumentar a impressão digi
 
 1. Esta opção não está presente em todas as plataformas.
 
-#### Sincronização
+#### Sincronização do Brave
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 

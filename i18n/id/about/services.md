@@ -13,15 +13,13 @@ Kami menjalankan sejumlah layanan web untuk menguji fitur dan mempromosikan proy
 ## Gitea
 
 - Domain: [code.privacyguides.dev](https://code.privacyguides.dev)
-- Ketersediaan: Khusus Undangan  
-  Akses dapat diberikan berdasarkan permintaan kepada tim mana pun yang bekerja pada pengembangan atau konten yang berkaitan dengan *Privacy Guides*.
+- Availability: Invite-Only Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
 - Sumber: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - Domain: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Ketersediaan: Khusus Undangan  
-  Akses dapat diberikan berdasarkan permintaan kepada anggota tim Privacy Guides, moderator Matrix, administrator komunitas Matrix pihak ketiga, operator bot Matrix, dan individu lain yang membutuhkan kehadiran di Matrix yang andal.
+- Availability: Invite-Only Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
 - Sumber: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
@@ -33,6 +31,5 @@ Kami menjalankan sejumlah layanan web untuk menguji fitur dan mempromosikan proy
 ## Invidious
 
 - Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Ketersediaan: Semi-Publik  
-  Kami melayani Invidious terutama untuk menyajikan video YouTube yang disematkan di situs web kami, layanan ini tidak dimaksudkan untuk penggunaan tujuan umum dan dapat dibatasi sewaktu-waktu.
+- Availability: Semi-Public We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
 - Sumber: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

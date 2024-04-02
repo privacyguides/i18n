@@ -46,7 +46,7 @@ Proton Drive 網路應用程式已於[2021年](https://proton.me/blog/security-a
 
 > 審計人員發現了兩個不嚴重的漏洞。 此外，還提出五項一般性建議。 與此同時，我們確認在滲透測試期間沒有發現重大安全問題。
 
-Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

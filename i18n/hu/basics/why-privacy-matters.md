@@ -11,11 +11,13 @@ A magánélet végső soron az emberi információkról szól, és ez azért fon
 
 Sokan összekeverik az **adatvédelem**, az **adatbiztonság** és az **anonimitás** fogalmát. Láthatod, hogy emberek kritizálnak különböző termékeket, mint "nem privát", amikor valójában úgy értik, hogy nem biztosít anonimitást például. Ezen a weboldalon mindhárom témakörrel foglalkozunk, de fontos, hogy megértsd a köztük lévő különbséget, és hogy mikor melyik kerül a képbe.
 
+<!-- markdownlint-disable-next-line -->
 **Adatvédelem**
 :
 
 ==Az adatvédelem az a biztosíték, hogy az adataidat csak azok a felek láthatják, akiknek látni szándékozod azokat.== Az azonnali üzenetküldő szolgáltatások esetében például az end-to-end titkosítás biztosítja az adatvédelmet, mivel az üzenetet csak te és a címzett láthatja.
 
+<!-- markdownlint-disable-next-line -->
 **Adatbiztonság**
 :
 
@@ -24,7 +26,8 @@ A biztonság az a képesség, hogy megbízhatsz az általad használt alkalmazá
 
 A tanúsítványok bizonyítják, hogy közvetlenül a meglátogatott webhelyhez beszélsz, és megakadályozzák, hogy a hálózaton lévő támadók elolvassák vagy módosítsák a webhelyre küldött vagy onnan származó adatokat.
 
-**Anonimitás**
+<!-- markdownlint-disable-next-line -->
+**Anonymity**
 :
 
 Az anonimitás az a képesség, hogy állandó azonosító nélkül tevékenykedjünk. Ezt online a [Tor](../tor.md) segítségével érheted el, amely lehetővé teszi, hogy egy saját IP-cím és hálózati kapcsolat helyett egy véletlenszerű IP-címmel és hálózati kapcsolattal böngészhesd az internetet.

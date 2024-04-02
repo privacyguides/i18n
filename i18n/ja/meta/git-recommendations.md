@@ -9,15 +9,18 @@ GitHub.comのウェブエディターでこのウェブサイトに直接変更�
 署名に既存の SSH キーを使用することも、[新しいSSH キーを作成することもできます](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)。
 
 1. デフォルトでコミットとタグに署名するように Git クライアントを設定する (remove `--global` to only sign by default for this repo):
-   ```
-   git config --global commit.gpgsign true
-   git config --global gpg.format ssh
-   git config --global tag.gpgSign true
-   ```
+
+    ```bash
+    git config --global commit.gpgsign true
+    git config --global gpg.format ssh
+    git config --global tag.gpgSign true
+    ```
+
 2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
-   ```
-   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
-   ```
+
+    ```bash
+    git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
+    ```
 
 Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **as a Signing Key** (as opposed to or in addition to as an Authentication Key).
 
@@ -27,7 +30,7 @@ Use `git pull --rebase` instead of `git pull` when pulling in changes from GitHu
 
 You can set this to be the default behavior:
 
-```
+```bash
 git config --global pull.rebase true
 ```
 
@@ -35,7 +38,7 @@ git config --global pull.rebase true
 
 If you are working on your own branch, run these commands before submitting a PR:
 
-```
+```bash
 git fetch origin
 git rebase origin/main
 ```

@@ -15,7 +15,7 @@ Descubra como partilhar os seus ficheiros em privado entre os seus dispositivos,
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** é um fork do serviço Firefox Send, descontinuado pela Mozilla, que lhe permite enviar ficheiros para outros com uma hiperligação. Os ficheiros são encriptados no seu dispositivo para não poderem ser lidos pelo servidor e, opcionalmente, também podem ser protegidos por palavra-passe. The maintainer of Send hosts a [public instance](https://send.vis.ee). Pode utilizar outras instâncias públicas ou pode alojar o Send por si.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Os ficheiros são encriptados no seu dispositivo para não poderem ser lidos pelo servidor e, opcionalmente, também podem ser protegidos por palavra-passe. The maintainer of Send hosts a [public instance](https://send.vis.ee). Pode utilizar outras instâncias públicas ou pode alojar o Send por si.
 
 [:octicons-home-16: Página Inicial](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Instâncias Públicas"}
@@ -147,6 +147,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Framadate
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.

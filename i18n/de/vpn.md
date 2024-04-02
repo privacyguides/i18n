@@ -6,6 +6,8 @@ description: Dies sind die besten VPN-Anbieter zum Schutz deiner Privatsphäre u
 cover: vpn.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
+
 Wenn du auf der Suche nach zusätzlicher **Privatsphäre** vor deinem ISP, in einem öffentlichen Wi-Fi-Netzwerk oder beim Torrenting von Dateien bist, kann ein VPN die Lösung für dich sein, solange du die damit verbundenen Risiken verstehst. Wir sind der Meinung, dass diese Anbieter über den Rest hinausragen:
 
 <div class="grid cards" markdown>

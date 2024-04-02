@@ -77,21 +77,21 @@ schema:
 
 1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+    <div class="admonition tip" markdown>
+    <p class="admonition-title">Tip</p>
 
-При покупках в Інтернеті використання [поштомата] (https://uk.wikipedia.org/wiki/Поштомат) може допомогти зберегти вашу фізичну адресу в конфіденційності.
+    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
-</div>
+    </div>
 
-2. **Невідома особистість** — невідома особистість може бути стабільним псевдонімом, який ви регулярно використовуєте. Він не є анонімним, бо не змінюється. Якщо ви є частиною онлайн-спільноти, можливо, ви захочете зберегти образ, який знають інші. Цей псевдонім не є анонімним, оскільки за умови тривалого спостереження за ним можна отримати додаткову інформацію про його власника, наприклад, про те, як він пише, його загальні знання про теми, які його цікавлять, тощо.
+2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
 
-Ви можете використовувати VPN для цього, щоб приховати свою IP-адресу. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). Використання зміни альткоїнів також може допомогти приховати, звідки походить ваша валюта. Як правило, обмінники вимагають пройти процедуру KYC (знай свого клієнта), перш ніж вони дозволять вам обміняти фіатну валюту на будь-який вид криптовалюти. Місцеві варіанти зустрічей також можуть бути рішенням, але вони часто дорожчі, а іноді також вимагають KYC.
+    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
 
-3. **Анонімна особистість** — навіть маючи досвід, анонімну особистість важко підтримувати тривалий час. Це мають бути короткострокові та недовговічні ідентичності, які регулярно змінюються.
+3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
-Використання Tor може допомогти в цьому. Варто також зазначити, що більша анонімність можлива через асинхронне спілкування: Спілкування в режимі реального часу вразливе до аналізу шаблонів набору тексту (тобто більше за абзац тексту, поширеного на форумі, електронною поштою тощо).
+    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: Одним із помітних прикладів цього є [інцидент 2021 року, в якому дослідники Університету Міннесоти впровадили три вразливості у проект розробки ядра Лінукса](https://cse.umn.edu/cs/linux-incident).
+[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).

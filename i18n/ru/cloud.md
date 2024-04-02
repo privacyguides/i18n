@@ -46,7 +46,7 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 > Аудиторы выявили две уязвимости низкой степени серьезности. Кроме того, были представлены пять общих рекомендаций. В то же время мы подтверждаем, что в ходе теста на проникновение не было выявлено никаких важных проблем с безопасностью.
 
-Новые мобильные клиенты "Proton Drive" еще не прошли публичный аудит третьей стороной.
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

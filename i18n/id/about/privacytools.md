@@ -2,8 +2,6 @@
 title: "Pertanyaan Umum PrivacyTools"
 ---
 
-# Mengapa kami pindah dari PrivacyTools
-
 Pada bulan September 2021, setiap kontributor aktif dengan suara bulat setuju untuk berpindah dari PrivacyTools untuk bekerja di situs ini: Privacy Guides. Keputusan ini diambil karena pendiri dan pengendali nama domain PrivacyTools telah menghilang dalam jangka waktu yang lama dan tidak dapat dihubungi.
 
 Setelah membangun situs dan serangkaian layanan yang memiliki reputasi baik di PrivacyTools.io, hal ini menimbulkan kekhawatiran besar bagi masa depan PrivacyTools, karena gangguan apa pun di masa depan dapat menghapus seluruh organisasi tanpa metode pemulihan. Transisi ini dikomunikasikan kepada komunitas PrivacyTools beberapa bulan sebelumnya melalui berbagai saluran termasuk blog, Twitter, Reddit, dan Mastodon untuk memastikan seluruh proses berjalan semulus mungkin. Kami melakukan ini untuk memastikan tidak ada siapa pun yang berada di dalam kegelapan, yang telah menjadi modus operandi kami sejak tim kami diciptakan, dan untuk memastikan Privacy Guides diakui sebagai organisasi terpercaya yang sama dengan PrivacyTools sebelum transisi.
@@ -50,11 +48,11 @@ Reddit mengharuskan subreddit memiliki moderator yang aktif. Jika moderator utam
 
 On September 14th, 2021, we [announced](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) the beginning of our migration to this new domain:
 
-> [...] kami merasa perlu untuk melakukan peralihan ini lebih cepat daripada nanti untuk memastikan orang akan mengetahui tentang transisi ini sesegera mungkin. Hal ini memberikan kami waktu yang cukup untuk melakukan transisi nama domain, yang saat ini dialihkan ke www.privacyguides.org, dan diharapkan dapat memberikan waktu yang cukup bagi semua orang untuk mengetahui perubahan tersebut, memperbarui markah dan situs web, dll.
+> [...] kami merasa perlu untuk melakukan peralihan ini lebih cepat daripada nanti untuk memastikan orang akan mengetahui tentang transisi ini sesegera mungkin. This gives us adequate time to transition the domain name, which is currently redirecting to `www.privacyguides.org`, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
 
 This change [entailed:](https://reddit.com/comments/pnhn4a)
 
-- Mengalihkan www.privacytools.io ke [www.privacyguides.org](https://www.privacyguides.org).
+- Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - Mengarsipkan kode sumber di GitHub untuk melestarikan pekerjaan masa lalu dan pelacak masalah kami, yang terus kami gunakan selama berbulan-bulan pengembangan dari situs ini di masa depan.
 - Mengirim pengumuman ke subreddit kami dan berbagai komunitas lain yang menginformasikan orang-orang tentang perubahan resmi.
 - Secara resmi menutup layanan privacytools.io, seperti Matrix dan Mastodon, dan mendorong pengguna lama untuk bermigrasi sesegera mungkin.
@@ -65,7 +63,7 @@ Segala sesuatunya tampak berjalan dengan lancar, dan sebagian besar komunitas ak
 
 Kira-kira seminggu setelah transisi, BurungHantu kembali daring untuk pertama kalinya dalam hampir satu tahun, namun tidak ada seorang pun dari tim kami yang ingin kembali ke PrivacyTools karena sejarahnya yang tidak dapat diandalkan. Daripada meminta maaf atas ketidakhadirannya yang berkepanjangan, ia segera melakukan serangan dan memposisikan transisi ke Privacy Guides sebagai serangan terhadapnya dan proyeknya. He subsequently [deleted](https://reddit.com/comments/pp9yie/comment/hd49wbn) many of these posts when it was pointed out by the community that he had been absent and abandoned the project.
 
-Pada titik ini, BurungHantu menyatakan bahwa ia ingin melanjutkan pengerjaan privacytools.io secara mandiri dan meminta kami untuk menghapus pengalihan dari www.privacytools.io ke [www.privacyguides.org](https://www.privacyguides.org). Kami mewajibkan dan meminta supaya subdomain untuk Matrix, Mastodon, dan PeerTube tetap aktif agar kami dapat menjalankan layanan publik kepada komunitas kami setidaknya selama beberapa bulan, agar pengguna di platform tersebut dapat dengan mudah bermigrasi ke akun lain. Karena sifat federasi dari layanan yang kami sediakan, layanan ini terikat pada nama domain tertentu sehingga sangat sulit untuk dimigrasikan (dan dalam beberapa kasus tidak mungkin).
+At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Kami mewajibkan dan meminta supaya subdomain untuk Matrix, Mastodon, dan PeerTube tetap aktif agar kami dapat menjalankan layanan publik kepada komunitas kami setidaknya selama beberapa bulan, agar pengguna di platform tersebut dapat dengan mudah bermigrasi ke akun lain. Karena sifat federasi dari layanan yang kami sediakan, layanan ini terikat pada nama domain tertentu sehingga sangat sulit untuk dimigrasikan (dan dalam beberapa kasus tidak mungkin).
 
 Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
@@ -85,7 +83,7 @@ After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it wa
 
 > [...] Pertumbuhan Sub ini adalah hasil dari upaya besar, selama beberapa tahun, oleh tim PrivacyGuides.org. Dan oleh Anda semua.
 > 
-> Subreddit adalah pekerjaan yang sangat banyak untuk dikelola dan dimoderasi. Seperti halnya sebuah taman, taman ini membutuhkan perawatan yang sabar dan perawatan harian. Ini bukanlah tugas untuk orang yang tidak suka bekerja keras atau orang yang sulit berkomitmen. Tanaman ini tidak dapat tumbuh subur di bawah seorang tukang kebun yang meninggalkannya selama beberapa tahun, lalu muncul dan menuntut hasil panen tahun ini sebagai penghargaan. Ini tidak adil bagi tim yang dibentuk beberapa tahun yang lalu. Ini tidak adil bagi Anda. [...]
+> Subreddit adalah pekerjaan yang sangat banyak untuk dikelola dan dimoderasi. Seperti halnya sebuah taman, taman ini membutuhkan perawatan yang sabar dan perawatan harian. It's not a task for dilettantes or commitment-challenged people. Tanaman ini tidak dapat tumbuh subur di bawah seorang tukang kebun yang meninggalkannya selama beberapa tahun, lalu muncul dan menuntut hasil panen tahun ini sebagai penghargaan. It's unfair to the team formed years ago. Ini tidak adil bagi Anda. [...]
 
 Subreddit bukan milik siapa pun, dan terutama bukan milik pemegang merek. Mereka adalah bagian dari komunitas mereka, dan komunitas serta para moderatornya membuat keputusan untuk mendukung perpindahan ke r/PrivacyGuides.
 
@@ -101,7 +99,7 @@ Platform penggalangan dana kami, OpenCollective, adalah sumber perdebatan lainny
 
 Dengan demikian, dana yang ada di OpenCollective adalah milik Privacy Guides, dana tersebut diberikan kepada proyek kami, dan bukan kepada pemilik nama domain terkenal. Dalam pengumuman yang disampaikan kepada para donatur pada tanggal 17 September 2021, kami menawarkan pengembalian dana kepada setiap donatur yang tidak setuju dengan sikap yang kami ambil, tetapi tidak ada yang menerima tawaran ini:
 
-> Jika ada sponsor atau pendukung yang tidak setuju atau merasa disesatkan oleh peristiwa baru ini dan ingin meminta pengembalian dana karena keadaan yang sangat tidak biasa ini, silakan hubungi admin proyek kami melalui surel ke jonah@triplebit.net.
+> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
 
 ## Bacaan Lebih Lanjut
 

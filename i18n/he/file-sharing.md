@@ -13,9 +13,9 @@ cover: file-sharing.webp
 
 <div class="admonition recommendation" markdown>
 
-![Send לוגו](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** היא נגזרת של שירות Firefox Send של Mozilla שהופסקה המאפשר לך לשלוח קבצים לאחרים עם קישור. קבצים מוצפנים במכשיר שלך כך שלא ניתן לקרוא אותם על ידי השרת, והם יכולים להיות מוגנים באמצעות סיסמה. The maintainer of Send hosts a [public instance](https://send.vis.ee). אפשר להשתמש במועדים ציבוריים אחרים, או לארח לשלוח את עצמכם.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. קבצים מוצפנים במכשיר שלך כך שלא ניתן לקרוא אותם על ידי השרת, והם יכולים להיות מוגנים באמצעות סיסמה. The maintainer of Send hosts a [public instance](https://send.vis.ee). אפשר להשתמש במועדים ציבוריים אחרים, או לארח לשלוח את עצמכם.
 
 [:octicons-home-16: דף הבית](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="מופעים ציבוריים"}
@@ -145,6 +145,7 @@ ffsend upload -- host https://send.vis.ee/ FILE
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.

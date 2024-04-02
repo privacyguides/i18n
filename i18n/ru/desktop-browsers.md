@@ -140,7 +140,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 </div>
 
-### Рекомендованные настройки
+### Recommended Firefox Configuration
 
 Эти параметры можно найти в :material-menu: → **Настройки**
 
@@ -257,7 +257,7 @@ Brave добавляет "[реферальный код](https://github. om/bra
 
 </div>
 
-### Рекомендованные настройки
+### Recommended Brave Configuration
 
 Эти параметры можно найти в разделе :material-menu: → **Настройки**.
 

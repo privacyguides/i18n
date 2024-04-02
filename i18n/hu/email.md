@@ -6,6 +6,7 @@ description: Ezek az e-mail szolgáltatók nagyszerű helyet kínálnak az e-mai
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 Az email gyakorlatilag elengedhetetlen bármilyen online szolgáltatás használatához, azonban nem ajánljuk személyes beszélgetésekhez. Ahelyett, hogy e-mailben lépnél kapcsolatba másokkal, fontold meg egy olyan azonnali üzenetküldő használatát, amely támogatja a forward secrecy-t, vagyis szó szerint az előre titkosítást.
 
 [Ajánlott azonnali üzenetküldők](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titk
 
 Az ingyenes fiókoknak vannak bizonyos korlátai, például nem tudnak keresni a szövegben, és nem férnek hozzá a [Proton Mail Bridge-hez](https://proton.me/mail/bridge), ami egy [ajánlott asztali e-mail kliens](email-clients.md) (pl. Thunderbird) használatához szükséges átjáró. A fizetős fiókok olyan funkciókat is tartalmaznak, mint a Proton Mail Bridge, további tárhely és egyéni domainek támogatása. A Proton Mail alkalmazást 2021. november 9-én a [Securitum](https://research.securitum.com) [tanúsította](https://proton.me/blog/security-audit-all-proton-apps).
 
-Ha Proton Unlimited, Business vagy Visionary csomaggal rendelkezel, a [SimpleLogin](#simplelogin) Premiumot is ingyenesen használhatod.
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 A Proton Mail belső hibajelentéseket készít; ezeket **nem** osztják meg harmadik felekkel. Ez kikapcsolható a: **Beállítások** > **Fiók** > **Biztonság és adatvédelem** > **Adatvédelem és adatgyűjtés** > **Hibajelentések küldése**.
 

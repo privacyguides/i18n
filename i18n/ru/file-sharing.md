@@ -13,9 +13,9 @@ cover: file-sharing.webp
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Send](assets/img/file-sharing-sync/send.svg){ align=right }
+![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** - это форк прекратившего свое существование сервиса Firefox Send от Mozilla, который позволяет отправлять файлы другим людям с помощью ссылки. Файлы шифруются на вашем устройстве, чтобы их не мог прочитать сервер, и по желанию могут быть защищены паролем. The maintainer of Send hosts a [public instance](https://send.vis.ee). Вы можете использовать другие публичные экземпляры или развернуть Send самостоятельно.
+**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. Файлы шифруются на вашем устройстве, чтобы их не мог прочитать сервер, и по желанию могут быть защищены паролем. The maintainer of Send hosts a [public instance](https://send.vis.ee). Вы можете использовать другие публичные экземпляры или развернуть Send самостоятельно.
 
 [:octicons-home-16: Домашняя страница](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Публичные экземпляры"}
@@ -145,6 +145,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Критерии
 
 **Обратите внимание, что у нас нет связей ни с одним из проектов, которые мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md)мы разработали четкий набор требований, позволяющий нам давать объективные рекомендации. Мы рекомендуем вам ознакомиться с этим списком, прежде чем выбрать программу, и провести самостоятельное исследование, чтобы убедиться, что это правильный выбор для вас.

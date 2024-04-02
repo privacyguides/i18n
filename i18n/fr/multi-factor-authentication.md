@@ -152,6 +152,7 @@ Nous vous recommandons vivement d'utiliser des applications TOTP mobiles plutôt
 
 </div>
 
+<!-- markdownlint-disable-next-line -->
 ### Critères
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.

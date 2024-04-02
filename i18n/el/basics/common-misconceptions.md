@@ -77,21 +77,21 @@ schema:
 
 1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+    <div class="admonition tip" markdown>
+    <p class="admonition-title">Tip</p>
 
-Όταν κάνετε ηλεκτρονικές αγορές, η χρήση μίας[θυρίδας δεμάτων] (https://en.wikipedia.org/wiki/Parcel_locker) μπορεί να σας βοηθήσει να διατηρήσετε τη φυσική σας διεύθυνση ιδιωτική.
+    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
-</div>
+    </div>
 
-2. **Άγνωστη ταυτότητα** - Μια άγνωστη ταυτότητα θα μπορούσε να είναι ένα σταθερό ψευδώνυμο, που χρησιμοποιείτε τακτικά. Δεν είναι ανώνυμο, διότι δεν αλλάζει. Αν είστε μέλος μιας διαδικτυακής κοινότητας, ίσως είναι σκόπιμο να διατηρείτε μια persona, την οποία γνωρίζουν οι άλλοι. Αυτό το ψευδώνυμο δεν είναι ανώνυμο, διότι, αν παρακολουθείται για αρκετό χρονικό διάστημα, λεπτομέρειες σχετικά με τον ιδιοκτήτη μπορούν να αποκαλύψουν περαιτέρω πληροφορίες, όπως ο τρόπος που γράφει, οι γενικές γνώσεις του για θέματα, που τον ενδιαφέρουν κ. λ. π.
+2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
 
-Ίσως, είναι εύλογο να χρησιμοποιήσετε ένα VPN γι' αυτό, προκειμένου να αποκρύψετε τη διεύθυνση IP σας. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). Η χρήση altcoin shifting μπορεί επίσης να σας βοηθήσει, να αποκρύψετε την προέλευση των νομισμάτων σας. Συνήθως, τα ανταλλακτήρια απαιτούν την ολοκλήρωση του KYC (know your customer), προτού σας επιτρέψουν να ανταλλάξετε παραστατικό χρήμα( fiat currency) σε οποιοδήποτε είδος κρυπτονομίσματος. Οι επιλογές συνάντησης σε τοπικό επίπεδο μπορούν επίσης να αποτελέσουν μια λύση. Ωστόσο, αυτές είναι συχνά πιο ακριβές και ενδέχεται σε ορισμένες περιπτώσεις να απαιτούν KYC.
+    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
 
-3. **Ανώνυμη ταυτότητα** - Ακόμα και όταν υπάρχει εμπειρία, οι ανώνυμες ταυτότητες είναι δύσκολο να διατηρηθούν για μεγάλα χρονικά διαστήματα. Θα πρέπει να είναι βραχυπρόθεσμες και βραχύβιες ταυτότητες, οι οποίες εναλλάσσονται τακτικά.
+3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
-Η χρήση του Tor μπορεί να βοηθήσει με αυτό. Αξίζει επίσης να σημειωθεί ότι η επίτευξη μεγαλύτερης ανωνυμίας είναι δυνατή μέσω της ασύγχρονης επικοινωνίας: Η επικοινωνία σε πραγματικό χρόνο είναι ευάλωτη έναντι μιας ενδεχόμενης ανάλυσης των μοτίβων πληκτρολόγησης (π.χ. περισσότερο κείμενο από μια παράγραφο, το οποίο διανέμεται σε ένα φόρουμ, μέσω ηλεκτρονικού ταχυδρομείου κ.λπ.)
+    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: Ένα αξιοσημείωτο παράδειγμα αυτού, είναι το περιστατικό [2021, όπου ερευνητές του Πανεπιστημίου της Μινεσότα εισήγαγαν τρία τρωτά σημεία στο έργο ανάπτυξης του πυρήνα Linux](https://cse.umn.edu/cs/linux-incident).
+[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).

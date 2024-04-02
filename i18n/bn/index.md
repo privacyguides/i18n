@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## আমার কি যায় আসে?
 
 ##### “আমার কিছু লুকানোর নেই। ব্যক্তিগত গোপনীয়তা নিয়ে কেন আমি ভাববো?”

@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## למה שיהיה אכפת לי?
 
 ##### “אין לי מה להסתיר. למה שאדאג לפרטיות שלי?"

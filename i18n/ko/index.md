@@ -37,7 +37,7 @@ schema:
       query-input: required name=search_term_string
 ---
 
-<!-- markdownlint-disable-next-line -->
+<!-- markdownlint-disable -->
 ## 왜 신경 써야 하나요?
 
 ##### "전 숨길 게 없어요. 프라이버시를 신경 써야 할 이유가 있나요?"

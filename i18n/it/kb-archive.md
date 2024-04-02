@@ -4,8 +4,6 @@ icon: material/archive
 description: Alcune pagine che si trovavano nella nostra base di conoscenza, si possono ora trovare sul nostro blog.
 ---
 
-# Pagine spostate sul blog
-
 Alcune pagine che si trovavano nella nostra base di conoscenza, si possono ora trovare sul nostro blog:
 
 - [GrapheneOS vs. CalyxOS](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos)

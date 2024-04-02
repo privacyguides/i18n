@@ -46,7 +46,7 @@ Proton Drive 웹 어플리케이션은 [2021년에](https://proton.me/blog/secur
 
 > 감사자는 중요도가 낮은 취약점을 2개 발견했습니다. 또한, 일반 권장 사항이 5개 보고되었습니다. 동시에, 침투 테스트 중에 중요한 보안 문제가 발견되지 않았음을 확인했습니다.
 
-Proton Drive의 새로운 모바일 클라이언트는 아직 제3자에 의해 공개적으로 감사를 받지 않았습니다.
+Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 

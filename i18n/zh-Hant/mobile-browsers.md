@@ -69,7 +69,7 @@ Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有�
 
 </div>
 
-#### 建議配置
+#### Recommended Brave Configuration
 
 Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用Brave時，我們建議您更改以下設定，以保護您的隱私免受某些影響，但除 [Tor 瀏覽器](tor.md#tor-browser) 外其它覽器在某些方面都可能 *被追蹤* 。
 
@@ -165,7 +165,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-#### 建議配置
+#### Recommended Firefox Configuration
 
 這些選項可以在 :gear: **Safari** →**設定**中找到。
 

@@ -77,21 +77,21 @@ Les modèles de menace les plus clairs sont ceux où les gens *savent qui vous �
 
 1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
 
-We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+    <div class="admonition tip" markdown>
+    <p class="admonition-title">Tip</p>
 
-Lorsque vous effectuez des achats en ligne, l'utilisation d'une [consigne à colis](https://en.wikipedia.org/wiki/Parcel_locker) peut contribuer à préserver la confidentialité de votre adresse physique.
+    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 
-</div>
+    </div>
 
-2. **Identité inconnue** - Une identité inconnue pourrait être un pseudonyme stable que vous utilisez régulièrement. Il n'est pas anonyme car il ne change pas. Si vous faites partie d'une communauté en ligne, vous souhaiterez peut-être conserver un personnage que les autres connaissent. Ce pseudonyme n'est pas anonyme car, s'il est surveillé suffisamment longtemps, les détails concernant le propriétaire peuvent révéler d'autres informations, telles que sa façon d'écrire, ses connaissances générales sur des sujets d'intérêt, etc.
+2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
 
-Vous pouvez utiliser un VPN pour masquer votre adresse IP. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). L'utilisation de monnaies alternatives peut également contribuer à masquer l'origine de votre monnaie. En règle générale, les centres d'échange exigent que le processus [KYC](https://fr.wikipedia.org/wiki/Know_your_customer) (connaissance du client) soit complété avant de vous autoriser à échanger de la monnaie fiduciaire contre tout type de cryptomonnaie. Les options de rencontres locales peuvent également être une solution, mais elles sont souvent plus coûteuses et nécessitent parfois un processus KYC.
+    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](https://getmonero.org). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
 
-3. **Identité anonyme** - Même avec de l'expérience, les identités anonymes sont difficiles à maintenir sur de longues périodes. Il doit s'agir d'identités à court terme et de courte durée qui font l'objet d'une rotation régulière.
+3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
-L'utilisation de Tor peut y contribuer. Il convient également de noter qu'un plus grand anonymat est possible grâce à la communication asynchrone : La communication en temps réel est vulnérable à l'analyse des habitudes de frappe (c'est-à-dire plus d'un paragraphe de texte, diffusé sur un forum, par e-mail, etc.)
+    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: Un exemple notable est l'[incident de 2021 dans lequel des chercheurs de l'Université du Minnesota ont introduit trois vulnérabilités dans le projet de développement du noyau Linux](https://cse.umn.edu/cs/linux-incident).
+[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).

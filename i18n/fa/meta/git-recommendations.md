@@ -9,15 +9,18 @@ title: توصیه‌های Git
 می توانید از یک کلید SSH موجود برای امضا استفاده کنید، یا[جدیدش را بسازید](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 1. کلاینت Git خود را تنظیم کنید تا به طور پیش‌فرض commitها و برچسب‌ها را امضا کند (`--global` را حذف کنید تا فقط به‌طور پیش‌فرض برای این مخزن امضا شود):
-   ```
-   git config --global commit.gpgsign true
-   git config --global gpg.format ssh
-   git config --global tag.gpgSign true
-   ```
+
+    ```bash
+    git config --global commit.gpgsign true
+    git config --global gpg.format ssh
+    git config --global tag.gpgSign true
+    ```
+
 2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
-   ```
-   git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
-   ```
+
+    ```bash
+    git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
+    ```
 
 مطمئن شوید که [ کلید خصوصی خود را به اکانت GitHub اضافه کنید](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **به عنوان کلید امضا شده** (برخلاف یا علاوه بر آن به عنوان یک کلید احراز هویت).
 
@@ -27,7 +30,7 @@ title: توصیه‌های Git
 
 می توانید این را به عنوان رفتار پیش فرض تنظیم کنید:
 
-```
+```bash
 git config --global pull.rebase true
 ```
 
@@ -35,7 +38,7 @@ git config --global pull.rebase true
 
 اگر روی branch خود کار می کنید، این دستورها را قبل از ارسال یک PR اجرا کنید:
 
-```
+```bash
 git fetch origin
 git rebase origin/main
 ```

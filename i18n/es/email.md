@@ -6,6 +6,7 @@ description: Estos proveedores de correo electrónico ofrecen un lugar estupendo
 cover: email.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 Correo electrónico es prácticamente una necesidad para utilizar cualquier servicio en línea, sin embargo, no lo recomendamos para las conversaciones de persona a persona. En vez de utilizar el correo electrónico para comunicarte con otras personas, considera utilizar un servicio de mensajería instantánea que soporte el secreto hacia adelante.
 
 [Servicios de Mensajería Instantánea Recomendados](real-time-communication.md ""){.md-button}
@@ -71,7 +72,7 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 
 Las cuentas gratuitas tienen algunas limitaciones, como no poder buscar texto en el contenido, y no tener acceso a [Proton Mail Bridge](https://proton.me/mail/bridge), que es requerido para utilizar un [cliente recomendado de correo electrónico para escritorio](email-clients.md) (como Thunderbird). Cuentas pagas incluyen funciones como Proton Mail Bridge, almacenamiento adicional, y soporte para dominios personalizados. Una [carta de certificación](https://proton.me/blog/security-audit-all-proton-apps) fue proporcionada para las aplicaciones de Proton Mail el 9 de noviembre de 2021 por [Securitum](https://research.securitum.com).
 
-Si tienes el plan Proton Unlimited, Business o Visionary, también obtendrás [SimpleLogin](#simplelogin) Premium gratis.
+If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail tiene informes de errores internos que **no** comparten con terceros. Puede desactivarse en: **Ajustes** > **Ir a Ajustes** > **Cuenta** > **Seguridad y privacidad** > **Enviar informes de fallos**.
 

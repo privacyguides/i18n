@@ -5,6 +5,7 @@ description: A maioria das suítes de escritório online não suporta E2EE, o qu
 cover: productivity.webp
 ---
 
+<!-- markdownlint-disable MD024 -->
 A maioria das suítes de escritório online não suporta E2EE, o que significa que o fornecedor da nuvem tem acesso a tudo o que faz. A política de privacidade pode proteger legalmente os seus direitos, mas não prevê restrições técnicas de acesso.
 
 ## Plataformas de colaboração

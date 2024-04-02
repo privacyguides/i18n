@@ -159,7 +159,7 @@ Qubes OS 支援 YubiKeys 進行 Challenge-Response 驗證。 若有具 Challenge
 
 SSH MFA 可以使用多種不同的身份驗證方法進行設置，這些方法在硬體安全金鑰中很受歡迎。 建議查看 Yubico [文件檔](https://developers.yubico.com/SSH) ，了解如何設置此功能。
 
-#### 暫時性的一次性密碼 (TOTP)
+#### TOTP
 
 SSH MFA 也可以使用 TOTP 設定。 DigitalOcean 提供了[如何在Ubuntu 20.04 上為SSH 設定多重身份驗證](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)的教程。 無論是哪一個發行版本，大多數操作方式都相同，但是軟體包管理器命令-例如 `apt-get`-和軟體包名稱可能不同。
 

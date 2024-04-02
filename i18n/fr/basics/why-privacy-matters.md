@@ -11,11 +11,13 @@ La protection de la vie privée concerne en fin de compte des informations humai
 
 De nombreuses personnes confondent les concepts de **vie privée**, **sécurité**, et **anonymat**. Vous verrez des gens critiquer divers produits en disant qu'ils ne sont pas privés, alors qu'ils veulent dire qu'ils ne garantissent pas l'anonymat, par exemple. Sur ce site web, nous abordons ces trois sujets, mais il est important que vous compreniez la différence entre eux et quand chacun d'entre eux entre en jeu.
 
-**Vie privée**
+<!-- markdownlint-disable-next-line -->
+**Confidentialité**
 :
 
 ==La protection de la vie privée est l'assurance que vos données ne sont vues que par les parties que vous autorisez à les voir.== Dans le contexte d'une messagerie instantanée, par exemple, le chiffrement de bout en bout assure la confidentialité en faisant en sorte que votre message ne soit visible que par vous-même et par le destinataire.
 
+<!-- markdownlint-disable-next-line -->
 **Sécurité**
 :
 
@@ -24,7 +26,8 @@ La sécurité est la capacité à faire confiance aux applications que vous util
 
 Les certificats prouvent que vous communiquez directement avec le site web que vous visitez et empêchent les attaquants sur votre réseau de lire ou de modifier les données envoyées vers ou depuis le site web.
 
-**Anonymat**
+<!-- markdownlint-disable-next-line -->
+**Anonymity**
 :
 
 L'anonymat est la capacité d'agir sans identifiant permanent. Vous pouvez y parvenir en ligne avec [Tor](../tor.md), qui vous permet de naviguer sur internet avec une adresse IP et une connexion réseau aléatoires au lieu de la vôtre.

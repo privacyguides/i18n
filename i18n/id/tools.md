@@ -62,6 +62,7 @@ Untuk detail lebih lanjut tentang setiap proyek, mengapa proyek tersebut dipilih
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](mobile-browsers.md)
 
+<!-- markdownlint-disable-next-line -->
 ### Sumber Daya Tambahan
 
 <div class="grid cards annotate" markdown>
