@@ -77,9 +77,9 @@ Wenn du anonym im Internet surfen möchtest, solltest du stattdessen [Tor](tor.m
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
-- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+- [:simple-windows11: Windows](https://mullvad.net/de/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/de/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/de/download/browser/linux)
 
 </details>
 
@@ -95,7 +95,7 @@ Wie der [Tor Browser](tor.md) ist Mullvad Browser so konzipiert, dass er Fingerp
 
 Beachte, dass du den Mullvad Browser zwar mit jedem VPN-Anbieter nutzen kannst, dass aber auch andere Personen in diesem VPN Mullvad Browser nutzen müssen, damit diese "Masse" existieren kann. Das ist bei Mullvad VPN im Vergleich zu anderen Anbietern allerdings wahrscheinlicher, insbesondere so kurz nach dem Start des Mullvad Browser. Mullvad Browser verfügt weder über eine eingebaute VPN-Verbindung, noch prüft er vor dem Surfen, ob du einen VPN verwendest; Deine VPN-Verbindung muss separat konfiguriert und verwaltet werden.
 
-Mullvad Browser wird mit den vorinstallierten Erweiterungen *uBlock Origin* und *NoScript* geliefert. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. Außerdem ist die Mullvad-Erweiterung vorinstalliert, die du problemlos entfernen *kannst*, ohne deinen Browser-Fingerabdruck zu beeinträchtigen. Sie kann aber auch behalten werden, sogar wenn du Mullvad VPN nicht verwendest.
+Mullvad Browser wird mit den vorinstallierten Erweiterungen *uBlock Origin* und *NoScript* geliefert. Während wir normalerweise *zusätzliche* Browser-Erweiterungen [nicht empfehlen](#extensions), sollten diese Erweiterungen, die mit dem Browser vorinstalliert sind, **nicht** entfernt oder außerhalb ihrer Standardwerte konfiguriert werden, da dies deinen Browser-Fingerabdruck deutlich von dem anderer Mullvad-Browser-Nutzer unterscheiden würde. Außerdem ist die Mullvad-Erweiterung vorinstalliert, die du problemlos entfernen *kannst*, ohne deinen Browser-Fingerabdruck zu beeinträchtigen. Sie kann aber auch behalten werden, sogar wenn du Mullvad VPN nicht verwendest.
 
 ### Privates Browsen
 
@@ -124,10 +124,10 @@ Mullvad Browser wird mit DuckDuckGo als Standard [Suchmaschine](search-engines.m
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
-- [:simple-apple: macOS](https://mozilla.org/firefox/mac)
-- [:simple-linux: Linux](https://mozilla.org/firefox/linux)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+- [:simple-windows11: Windows](https://www.mozilla.org/de/firefox/windows/)
+- [:simple-apple: macOS](https://www.mozilla.org/de/firefox/mac)
+- [:simple-linux: Linux](https://www.mozilla.org/de/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/org.mozilla.firefox)
 
 </details>
 
@@ -140,7 +140,7 @@ Firefox enthält einen einzigartigen [Download-Token](https://bugzilla.mozilla.o
 
 </div>
 
-### Recommended Firefox Configuration
+### Empfohlene Firefox-Konfiguration
 
 Diese Optionen sind zu finden unter :material-menu: → **Einstellungen**
 
@@ -248,71 +248,71 @@ Brave basiert auf dem Chromium-Webbrowser-Projekt, sollte sich also vertraut anf
 
 </div>
 
-**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
+**macOS-Benutzer:** Der Download von Brave Browser von der offiziellen Website ist ein `.pkg-Installationsprogramm`, das zum Ausführen Administratorrechte erfordert (und möglicherweise andere unnötige Skripte auf Ihrem Rechner ausführen kann). Alternativ kannst du die neueste `Brave-Browser-universal.dmg-Datei` von der [GitHub-Veröffentlichungsseite](https://github.com/brave/brave-browser/releases/latest) herunterladen, die eine herkömmliche Installation durch "Ziehen in den Anwendungsordner" ermöglicht.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>
 
-Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+Brave fügt dem Dateinamen bei Downloads von der Brave-Website einen "[Herkunftsnachweis](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" hinzu, der verwendet wird, um festzustellen, von welcher Quelle der Browser heruntergeladen wurde, z. B. `BRV002` in einem Download namens `Brave-Browser-BRV002.pkg`. Der Installer wird dann Braves Server mit dem Empfehlungscode am Ende des Installationsprozesses anpingen. Wenn du darüber besorgt bist, kannst du die Installer-Datei vor dem Öffnen umbenennen.
 
 </div>
 
-### Recommended Brave Configuration
+### Empfohlene Brave-Konfiguration
 
 Diese Optionen sind unter :material-menu: → **Einstellungen** zu finden.
 
 #### Einstellungen
 
-##### Shields
+##### Schutz
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave enthält einige Anti-Fingerabdruck-Maßnahmen in der [Schutz](https://support.brave.com/hc/articles/360022973471-What-is-Shields)-Funktion. Wir empfehlen, diese Optionen [global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) für alle Seiten zu konfigurieren.
 
-Die Optionen von Shields können je nach Bedarf für jede Website heruntergestuft werden, aber als Standardeinstellung empfehlen wir Folgendes:
+Die Schutz-Möglichkeiten können je nach Bedarf für jede Website heruntergestuft werden, aber als Standardeinstellung empfehlen wir Folgendes:
 
 <div class="annotate" markdown>
 
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Wähle **Verhindern, dass Websites aufgrund meiner Spracheinstellungen Fingerabdrücke von mir erstellen**
+- [x] Wähle **Aggressiv** unter Tracker & Anzeigenblockierung
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>Inhaltsfilter</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. Wir raten davon ab, diese Funktion zu verwenden; behalte stattdessen die Standard-Filterlisten bei. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab und kann auch die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer der von dir verwendeten Listen hinzugefügt wird.
+Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite `brave://adblock`. Wir raten davon ab, diese Funktion zu verwenden; behalte stattdessen die Standard-Filterlisten bei. Die Verwendung zusätzlicher Listen hebt dich von anderen Brave-Benutzern ab und kann auch die Angriffsfläche vergrößern, wenn es eine Sicherheitslücke in Brave gibt und eine bösartige Regel zu einer der von dir verwendeten Listen hinzugefügt wird.
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Wähle **Streng** unter **Verbindungen auf HTTPS upgraden**
+- [x] (Optional) Wähle **JavaScript blockieren** (1)
+- [x] Wählen Sie **Streng, könnte Websites kaputtmachen** unter Fingerprinting blockieren
+- [x] Markiere **Vergiss mich, wenn ich diese Seite schließe** (2)
+- [ ] Deaktiviere alles unter Social-Media-Sperrung
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
+1. Diese Option bietet ähnliche Funktionen wie die erweiterten [Blockierungsmodi](https://github.com/gorhill/uBlock/wiki/Blocking-mode) von uBlock Origin.
+2. Wenn du auf einer bestimmten Website, die du häufig besuchst, eingeloggt bleiben möchtest, kannst du Ausnahmen für die einzelnen Websites festlegen, indem du auf das Schildsymbol in der Adressleiste klickst.
 
 ##### Privatsphäre und Sicherheit
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Aktiviere **Nicht-proxisiertes UDP deaktivieren** unter [WebRTC-IP-Nutzungsrichtlinien](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc)
+- [ ] Deaktiviere **Nutzen Sie Google-Services für Push-Benachrichtigungen**
+- [ ] Deaktiviere **Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)**
+- [ ] Deaktiviere **Ping der täglichen Nutzung automatisch an Brave senden**
+- [ ] Deaktiviere **Automatisch Diagnoseberichte senden**
+- [ ] Deaktiviere **Privates Fenster mit Tor** (1)
 
 </div>
 
-1. Brave ist **nicht** so resistent gegen Fingerabdrücke wie der Tor-Browser. Außerdem nutzen viel weniger Leute Brave zusammen mit Tor, du wirst also auffallen. Where [strong anonymity is required](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) use the [Tor Browser](tor.md#tor-browser).
+1. Brave ist **nicht** so resistent gegen Fingerabdrücke wie der Tor-Browser. Außerdem nutzen viel weniger Leute Brave zusammen mit Tor, du wirst also auffallen. Wenn [starke Anonymität erforderlich ist](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity), verwende den [Tor-Browser](tor.md#tor-browser).
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Sanitizing on close</p>
+<p class="admonition-title">Browserdaten beim Schließen löschen</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] Wähle im Menü *Datenschutz und Sicherheit* unter *Inhalte*, *Zusätzliche Inhaltseinstellungen*, *Websitedaten auf dem Gerät* die Option **Websitedaten löschen, die auf deinem Gerät gespeichert wurden, wenn du alle Fenster schließt**
 
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+Wenn du bei einer bestimmten Website, die du häufig besuchst, angemeldet bleiben möchtest, kannst du im Abschnitt *Benutzerdefinierte Einstellungen* Ausnahmen für jede Website festlegen.
 
 </div>
 
@@ -342,7 +342,7 @@ Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Ang
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) ermöglicht den Zugriff auf deine Browsing-Daten (Verlauf, Lesezeichen usw.) auf all deinen Geräten und schützt diese Daten mit E2EE.
 
 #### Brave Rewards und Wallet
 
@@ -364,18 +364,18 @@ Durch **Brave Rewards** erhälst du Basic Attention Token (BAT) Kryptowährung f
 - Verfügbar für Linux, macOS und Windows.
 - Alle Änderungen, die erforderlich sind, um den Browser datenschutzfreundlicher zu machen, sollten die Benutzerfreundlichkeit nicht beeinträchtigen.
 - Blockiert standardmäßig Cookies von Drittanbietern.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Unterstützt [State Partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), um das Cross-Site-Tracking abzuschwächen.[^1]
 
 ### Im besten Fall
 
 Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Funktionen, aber diejenigen, die sie enthalten, werden auf dieser Seite möglicherweise höher eingestuft als jene, die sie nicht enthalten.
 
 - Enthält eine integrierte Funktion zum Sperren von Inhalten.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. Dies kann Vorteile gegenüber der Installation von Electron-basierten Anwendungen haben, da Sie von den regelmäßigen Sicherheitsupdates Ihres Browsers profitieren.
+- Unterstützt die Aufteilung von Cookies (à la [Multi-Account Container](https://support.mozilla.org/de/kb/firefox-tab-container)).
+- Unterstützt Progressive Web Apps. Mit PWAs kannst du bestimmte Websites so installieren, als wären sie native Anwendungen auf deinem Computer. Dies kann Vorteile gegenüber der Installation von Electron-basierten Anwendungen haben, da Sie von den regelmäßigen Sicherheitsupdates Ihres Browsers profitieren.
 - Enthält keine Zusatzfunktionen (Bloatware), die die Privatsphäre der Benutzer nicht beeinträchtigen.
 - Erfasst standardmäßig keine Telemetrie.
 - Bietet eine Open-Source-Implementierung des Sync-Servers.
 - Standardmäßig wird eine [private Suchmaschine](search-engines.md) verwendet.
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Braves Implementierung ist detailliert unter [Brave Privacy Updates: Partitionieren des Netzwerkzustands für Privatsphäre](https://brave.com/privacy-updates/14-partitioning-network-state) beschrieben.

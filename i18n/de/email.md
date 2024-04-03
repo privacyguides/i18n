@@ -17,9 +17,9 @@ Für alles andere empfehlen wir eine Reihe von E-Mail-Anbietern, die auf nachhal
 - [Andere verschlüsselte Anbieter :material-arrow-right-drop-circle:](#more-providers)
 - [Selbstbetreibbare Optionen :material-arrow-right-drop-circle:](#self-hosting-email)
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+Zusätzlich zu (oder anstelle von) einem hier empfohlenen E-Mail-Anbieter kannst du einen speziellen [E-Mail-Aliasing-Dienst](email-aliasing.md) in Betracht ziehen, um deine Privatsphäre zu schützen. Diese Dienste können unter anderem dazu beitragen, deinen echten Posteingang vor Spam zu schützen, zu verhindern, dass Vermarkter deine Konten miteinander in Verbindung bringen, und alle eingehenden Nachrichten mit PGP zu verschlüsseln.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [Weitere Informationen :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP-kompatible Dienste
 
@@ -72,7 +72,7 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 
 Kostenlose Konten haben einige Einschränkungen, wie z. B. die fehlende Möglichkeit Text zu durchsuchen und keinen Zugang zu [Proton Mail Bridge](https://proton.me/mail/bridge). Diese ist für die Verwendung eines [empfohlenen Desktop-E-Mail-Programms](email-clients.md) (z. B. Thunderbird) erforderlich. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und die Nutzung eigener Domains. Am 9. November 2021 wurden durch [Securitum](https://research.securitum.com) ein Sicherheitsaudit durchgeführt und  die Anwendungen von Proton Mail [zertifiziert](https://proton.me/blog/security-audit-all-proton-apps).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Wenn du den Proton Unlimited, Business oder Visionary Tarif nutzt, erhältst du zusätzlich [SimpleLogin](email-aliasing.md#simplelogin) Premium kostenlos dazu.
 
 Proton Mail hat interne Absturzberichte, die sie **nicht** mit Dritten teilen. Die Absturzberichte können in den Einstellungen deaktiviert werden: **Einstellungen** > **Gehe zu Einstellungen** > **Konto** > **Sicherheit und Datenschutz** > **Absturzberichte senden**.
 
@@ -151,9 +151,9 @@ Mailbox.org ermöglicht die Verschlüsselung von eingehenden E-Mails mit der [ve
 
 #### :material-check:{ .pg-green } E-Mail-Verschlüsselung
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Diese Funktion ist nützlich, wenn der Empfänger OpenPGP nicht nutzt und daher eine Kopie der E-Mail in seinem eigenen Postfach nicht entschlüsseln kann.
+Mailbox.org hat die [Verschlüsselung](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in sein Webmail [integriert](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard), was den Versand von Nachrichten an Personen mit öffentlichen OpenPGP-Schlüsseln vereinfacht. Sie erlauben es auch entfernten Empfängern [eine E-Mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) auf den Servern von Mailbox.org zu entschlüsseln. Diese Funktion ist nützlich, wenn der Empfänger OpenPGP nicht nutzt und daher eine Kopie der E-Mail in seinem eigenen Postfach nicht entschlüsseln kann.
 
-Mailbox.org unterstützt auch die Suche nach öffentlichen Schlüsseln über HTTP von ihrem [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Dies ermöglicht es Personen, die Mailbox.org nicht verwenden, die OpenPGP-Schlüssel von Mailbox.org-Konten für anbieterübergreifende E2EE leicht zu finden. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. Um eine eigene Domain zu verwenden, musst du [WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separat konfigurieren.
+Mailbox.org unterstützt auch die Suche nach öffentlichen Schlüsseln über HTTP von ihrem [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Dies ermöglicht es Personen, die Mailbox.org nicht verwenden, die OpenPGP-Schlüssel von Mailbox.org-Konten für anbieterübergreifende E2EE leicht zu finden. Dies gilt nur für E-Mail-Adressen, die auf eine der Mailbox.org-eigenen Domains enden, wie @mailbox.org. Um eine eigene Domain zu verwenden, musst du [WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separat konfigurieren.
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
@@ -161,9 +161,9 @@ Ihr Konto wird bei Vertragsende auf ein eingeschränktes Benutzerkonto umgestell
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Auf die Webmail-Schnittstelle kann jedoch nicht über den .onion-Dienst zugegriffen werden und es können TLS-Zertifikatsfehler auftreten.
+Du kannst auf Ihr Mailbox.org-Konto über IMAP/SMTP zugreifen, indem du deren [.onion-Dienst](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org) nutzt. Auf die Webmail-Schnittstelle kann jedoch nicht über den .onion-Dienst zugegriffen werden und es können TLS-Zertifikatsfehler auftreten.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org unterstützt neben den Standardzugriffsprotokollen wie IMAP und POP3 auch [Exchange ActiveSync](https://de.wikipedia.org/wiki/Exchange_ActiveSync).
+Alle Konten verfügen über einen begrenzten Cloud-Speicher, der [verschlüsselt werden kann](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org bietet auch den Alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely) an, der die TLS-Verschlüsselung der Verbindung zwischen den Mailservern erzwingt, ansonsten wird die Nachricht erst gar nicht gesendet. Mailbox.org unterstützt neben den Standardzugriffsprotokollen wie IMAP und POP3 auch [Exchange ActiveSync](https://de.wikipedia.org/wiki/Exchange_ActiveSync).
 
 Mailbox.org bietet für alle Tarife eine digitale Hinterlassenschaft an. Du kannst wählen, ob deine Daten an die Erben weitergegeben werden sollen, sofern diese einen Antrag stellen und dein Testament vorlegen. Alternativ kannst du auch eine Person mit Namen und Adresse benennen.
 
