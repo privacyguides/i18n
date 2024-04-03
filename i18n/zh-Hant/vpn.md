@@ -65,7 +65,7 @@ cover: vpn.webp
 
 #### :material-check:{ .pg-green } 88 個國家
 
-Proton VPN 在 [88 個國家/地區設有伺服器](https://protonvpn.com/vpn-servers)，[免費方案則為 5 國](https://protonvpn.com/free-vpn)。 (1) 選擇距離最近的伺服器的 VPN 伺服器，將會減少您所傳送之網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+Proton VPN 在 [88 個國家/地區設有伺服器](https://protonvpn.com/vpn-servers)，[免費方案則為 5 國](https://protonvpn.com/free-vpn)。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 上次檢查日期： 2024-03-23
@@ -86,7 +86,7 @@ Proton VPN 在其 [GitHub 組織](https://github.com/ProtonVPN) 中提供桌面�
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
-Proton VPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外， WireGuard 的目標是更簡單，更高效。
+Proton VPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外，WireGuard 的目標是更簡單，更高效。
 
 Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 在 Proton VPN 的 Windows、macOS、iOS、Android、ChromeOS 以及 Android TV 等平台的應用程式中，WireGuard 已是預設協議；然而， Linux 作業系統的應用程式[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols)此協議。
 
@@ -141,7 +141,7 @@ Proton VPN 客戶端目前支持除 Linux 外所有平臺上的雙因素身份�
 
 #### :material-check:{ .pg-green } 37 個國家
 
-IVPN 在 37 個國家/地區擁有 [伺服器](https://ivpn.net/status)。 (1)選擇離最近的伺服器 VPN 供應商，將減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+IVPN 在 [37 個國家/地區設有伺服器](https://ivpn.net/status)。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 上次檢查日期： 2023-12-21
@@ -150,55 +150,37 @@ IVPN 在 37 個國家/地區擁有 [伺服器](https://ivpn.net/status)。 (1)�
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-IVPN 通過 Cure53</a> 的
-
-不留記錄審計，該審計結果與 IVPN 的不留記錄聲明一致。 IVPN 還在2020年1月完成了Cure53 [全面的 pentest 報告](https://cure53.de/summary-report_ivpn_2019.pdf) 。 IVPN 也表示，計劃未來提供[年度報告](https://ivpn.net/blog/independent-security-audit-conclusiond)。 [2022 年 4 月](https://ivpn.net/blog/ivpn-apps-security-audit-2022-conclusiond)進行進一步審核，並由 Cure53 [公布在網站上](https://cure53.de/pentest-report_IVPN_2022.pdf)。</p> 
-
-
+IVPN 已通過 [Cure53 的無日誌審計](https://cure53.de/audit-report_ivpn.pdf)，該審計結果與 IVPN 的無日誌聲明一致。 IVPN 還在 2020 年 1 月完成了 [Cure53 的全面滲透測試報告](https://cure53.de/summary-report_ivpn_2019.pdf) 。 IVPN 也表示他們計劃在未來提供 [年度報告](https://ivpn.net/blog/independent-security-audit-concluded)。 進一步的審核於 [2022 年 4 月](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded)進行，並由 Cure53 [在其網站上公布](https://cure53.de/pentest-report_IVPN_2022.pdf)。
 
 #### :material-check:{ .pg-green } 開源客戶端
 
-2020 年 2 月起[IVPN 應用程式已開源](https://ivpn.net/blog/ivpn-applications-are-now-open-source)。 源代碼可以從他們的 [GitHub組織](https://github.com/ivpn)獲得。
+2020 年 2 月起[IVPN 應用程式已開源](https://ivpn.net/blog/ivpn-applications-are-now-open-source)。 原始碼可從他們的 [GitHub 組織](https://github.com/ivpn) 取得。
 
+#### :material-check:{ .pg-green } 接受現金和 Monero
 
+除了接受信用卡/簽帳卡和 PayPal 外，IVPN 還接受比特幣、**Monero** 和 **現金/當地貨幣** (僅限年度方案) 作為匿名付款方式。
 
-#### :material-check:{ .pg-green } 接受現金和Monero
+#### :material-check:{ .pg-green } 支援 WireGuard
 
-除了接受信用卡/簽帳卡和 PayPal 外， IVPN 還接受比特幣 **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。
+IVPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外，WireGuard 的目標是更簡單，更高效。
 
-
-
-#### :material-check:{ .pg-green } WireGuard支持
-
-IVPN 支援 WireGuard 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外， WireGuard 的目標是更簡單，更高效。
-
-IVPN [建議](https://ivpn.net/wireguard)搭配 WireGuard 一起使用， IVPN's 所有應用程式皆已預設 WireGuard 協議。 IVPN 亦提供 WireGuard 設置生成器以用於官方版本的 WireGuard [應用軟體](https://wireguard.com/install)。
-
-
+IVPN [建議](https://ivpn.net/wireguard)搭配 WireGuard 使用，IVPN 在所有平台的應用程式皆已預設為 WireGuard 協議。 IVPN 也提供 WireGuard 設定檔產生器，可用於 WireGuard 的官方[應用程式](https://wireguard.com/install)。
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-IVPN 之前支援向前轉發，但於[2023年6月](https://ivpn.net/blog/gradual-removal-of-port-forwarding)移除此功能選項。 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
+IVPN 曾支援遠端端口轉發，但在 [2023 年 6 月](https://ivpn.net/blog/gradual-removal-of-port-forwarding) 移除了此功能。 缺少此功能可能會對某些應用程式造成負面影響，尤其是 BT 客戶端等點對點應用程式。
 
+#### :material-check:{ .pg-green } 規避審查
 
+IVPN 使用 [v2ray](https://v2ray.com/en/index.html) 的混淆模式，這有助於在 OpenVPN 或 WireGuard 等 VPN 協定遭到封鎖時繞過審查。 此功能目前僅支援桌機版與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray)。 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控管，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
-#### :material-check:{ .pg-green } 審查規避
+#### :material-check:{ .pg-green } 行動裝置客戶端
 
-IVPN 混淆模式採[v2ray](https://v2ray.com/en/index.html) 專案，它 在其它 VPN 協定如 OpenVPN, Wireguard 遭封鎖時可予協助。 此功能目前僅支援桌機版與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray)。 有兩種模式可運用: [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) 取代 QUIC 或 TCP 連接。 QUIC 為新版的協定具有更佳的擁塞控制，減少延遲速度更快。 TCP 模式的數據呈現為一般的 HTTP 流量。
-
-
-
-#### :material-check:{ .pg-green } 手機客戶端
-
-除了提供標準 OpenVPN 設定檔外，IVPN 提供 [App Store](https://apps.apple.com/app/id1193122683)、[Google Play](https:// play.google.com/store/apps/details?id=net.ivpn.client) 和GitHub</ a> 方便連接到他們的伺服器。</p> 
-
-
+除了提供標準 OpenVPN 設定檔外，IVPN 還在 [App Store](https://apps.apple.com/app/id1193122683)、[Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) 和 [GitHub](https://github.com/ivpn/android-app/releases) 提供行動裝置客戶端，以供使用者方便連接到他們的伺服器。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"[反追蹤](https://ivpn.net/antitracker)" 功能，以阻絕來自網路層的廣告與追蹤。
-
-
+IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有 "[反追蹤](https://ivpn.net/antitracker)" 功能，以阻絕來自網路層的廣告與追蹤。
 
 ### Mullvad
 
@@ -206,16 +188,16 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
 
 ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的VPN ，非常注重透明和安全性。 自 **2009 年** 開始運營。 Mullvad 總部位於瑞典，不提供免費試用。
+**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 自 **2009 年** 開始運營。 Mullvad 總部位於瑞典，不提供免費試用。
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
@@ -230,31 +212,26 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有"
 
 #### :material-check:{ .pg-green } 41 個國家
 
-Mullvad 在 41 個國家/地區設有 [伺服器](https://mullvad.net/servers)。(1) 選擇離最近伺服器，這將減少網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。 
-
+IVPN 在 [41 個國家/地區設有伺服器](https://mullvad.net/servers)。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 上次檢查日期： 2024-03-23
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如[虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
 
-
-
 #### :material-check:{ .pg-green } 獨立稽核
 
-Cure53 審計了 Mullvad's VPN 客戶端軟體， Assured AB 對他們進行穿透測試，相關報告在[ cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf)。 安全研究人員得出結論：
+Mullvad 的 VPN 客戶端已通過 Cure53 和 Assured AB 的滲透測試審計，報告[發布於 cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf)。 安全研究人員得出結論：
 
-
-
-> Cure53 和 Assured AB 對審計結果感到滿意，Mullvad 留下整體正面的印象。 由於 Mullvad VPN 內部團隊在安全上的投入，測試人員肯定了該項目從安全角度來看是正確的。
+> Cure53 和 Assured AB 對審計結果感到滿意，對該軟體整體留下正面的印象。 由於 Mullvad VPN 內部團隊在安全上的投入，測試人員肯定了該項目從安全角度來看是正確的。
 
 2020 年，宣布第二次審核[](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app)，[最終審計報告](https://cure53.de/pentest-report_mullvad_2020_v2.pdf)已發布在 Cure53 網站上：
 
-
-
 > 2020年5月~6月針對 Mullvad  的專案結果是相當正面。 [...] Mullvad 使用的整體應用生態系統給人留下了結構完善之印象。 該應用程序的整體結構更容易以結構化的方式推出補丁和修復。 Cure53 的發現展示了不斷審核和重新評估當前泄漏向量的重要性，以始終確保最終用戶的隱私。 Mullvad 在保護最終用戶免受常見 PII 洩漏和隱私相關風險方面做得很好。
 
-2021 年宣布進行基礎設施審計< /a> 和[最終審計報告](https://cure53.de/pentest-report_mullvad_2021_v1.pdf)已在Cure53 網站上發布。 另一份報告已於[ 2022 年 6 月](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer -data)發布，可在 [Assured 網站](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf)上取得。</p> 
+2021 年宣布進行基礎設施審計
+
+< /a> 和[最終審計報告](https://cure53.de/pentest-report_mullvad_2021_v1.pdf)已在Cure53 網站上發布。 另一份報告已於[ 2022 年 6 月](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer -data)發布，可在 [Assured 網站](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf)上取得。</p> 
 
 
 
@@ -264,7 +241,7 @@ Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提
 
 
 
-#### :material-check:{ .pg-green } 接受現金和Monero
+#### :material-check:{ .pg-green } 接受現金和 Monero
 
 除了接受信用卡/簽帳卡和 PayPal 外， IVPN 還接受比特幣 **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 他們也接受 Swish 和銀行電匯。
 
@@ -272,7 +249,7 @@ Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提
 
 #### :material-check:{ .pg-green } WireGuard支持
 
-Mullvad 支持 WireGuard ®協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外， WireGuard 的目標是更簡單，更高效。
+Mullvad 支持 WireGuard ®協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外，WireGuard 的目標是更簡單，更高效。
 
 Mullvad [建議](https://mullvad.net/en/help/why-wireguard) 搭配 WireGuard 使用。 Android, iOS, macOS, 與 Linux Mullvad 應用軟體已將 WireGuard 調為預設協議，但 Windows 則須要自行 [手動打開](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard。 Mullvad 提供 WireGuard 配置生成器，搭配 WireGuard 官方 [應用程式](https://wireguard.com/install)。
 
@@ -286,11 +263,11 @@ Mullvad 可 [存取託管在 IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-su
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
-IVPN 之前支援向前轉發，但於[2023年6月](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding)移除此功能選項。 失去此功能將對應用程式造成負面影響，尤其是點對點的應用如 torrent 客戶端軟體。
+IVPN 之前支援向前轉發，但於[2023年6月](https://www.ivpn.net/blog/gradual-removal-of-port-forwarding)移除此功能選項。 缺少此功能可能會對某些應用程式造成負面影響，尤其是 BT 客戶端等點對點應用程式。
 
 
 
-#### :material-check:{ .pg-green } 審查規避
+#### :material-check:{ .pg-green } 規避審查
 
 Mullvad 混淆模式採用 [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) ， 當其它 VPN 協定如 OpenVPN, Wireguard 遭封鎖時派得上用場。
 

@@ -95,7 +95,7 @@ Al igual que [Tor Browser](tor.md), Mullvad Browser está diseñado para evitar 
 
 Ten en cuenta que aunque puedes usar Mullvad Browser con cualquier proveedor de VPN, otras personas en esa VPN también deben estar usando Mullvad Browser para que exista esta "multitud", algo que es más probable en Mullvad VPN en comparación con otros proveedores, especialmente tan cerca del lanzamiento de Mullvad Browser. Mullvad Browser no tiene conectividad VPN integrada, ni comprueba si estás usando una VPN antes de navegar; tu conexión VPN tiene que ser configurada y gestionada por separado.
 
-Mullvad Browser viene con las extensiones de navegador *uBlock Origin* y *NoScript* preinstaladas. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. También viene preinstalado con la extensión Mullvad Browser Extension, que *puede* ser eliminada de forma segura sin afectar a tu huella digital del navegador si lo deseas, pero también es seguro mantenerla incluso si no utilizas Mullvad VPN.
+Mullvad Browser viene con las extensiones de navegador *uBlock Origin* y *NoScript* preinstaladas. Aunque normalmente desaconsejamos añadir [extensiones](browser-extensions.md) *adicionales* al navegador, estas extensiones que vienen preinstaladas con el navegador **no** deberían ser eliminadas o configuradas fuera de sus valores por defecto, porque hacerlo haría notablemente distinta tu huella digital del navegador de otros usuarios de Mullvad Browser. También viene preinstalado con la extensión Mullvad Browser Extension, que *puede* ser eliminada de forma segura sin afectar a tu huella digital del navegador si lo deseas, pero también es seguro mantenerla incluso si no utilizas Mullvad VPN.
 
 ### Modo de Navegación Privada
 
@@ -289,7 +289,7 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
+1. Esta opción proporciona una funcionalidad similar a los [modos de bloqueo](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzados de uBlock Origin.
 2. Si deseas permanecer conectado a un sitio concreto que visitas a menudo, puedes establecer excepciones por sitio haciendo clic en el icono del Escudo de la barra de direcciones.
 
 ##### Privacidad y seguridad
@@ -364,7 +364,7 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 - Disponible para iOS, macOS y Windows.
 - Cualquier cambio necesario para que el navegador respete más la privacidad no debería afectar negativamente a la experiencia del usuario.
 - Bloquea las cookies de terceros por defecto.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Admite la [partición de estados](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) para mitigar el rastreo entre sitios.[^1]
 
 ### Mejor Caso
 
@@ -378,4 +378,4 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
 - Ofrece la implementación de un servidor de sincronización de código abierto.
 - Por defecto usa un [motor de búsqueda privado](search-engines.md).
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: La implementación de Brave se detalla en [Brave Privacy Updates: Partitioning network-state for](https://brave.com/privacy-updates/14-partitioning-network-state) privacy.

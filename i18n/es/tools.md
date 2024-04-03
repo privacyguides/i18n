@@ -51,7 +51,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 [Más información :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-## Browser Extensions
+## Extensiones de Navegador
 
 <div class="grid cards" markdown>
 
