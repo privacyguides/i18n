@@ -82,11 +82,11 @@ Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶�
 
 為了證明 diceware 密語的強度，我們將使用前面提到的七個單詞密語（`viewable fastness reluctant squishy seventeen shown pencil`）和 [EFF 的大型單詞列表](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)作例子。
 
-判斷 diceware 口令密語強度的衡量標準是確定它有多少熵。 Diceware 口令密語中的個別單詞的熵為 $\text{log}_2(\text{WordsInList})$ 而整組密語的熵總量為 $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase}).
+One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
-因此，上述列表中的每個單詞都會產生~ 12.9 位熵（($\text{log}_2 (7776) $)  ，而其中取得七個單詞組成的口令密語就具有~ 90.47位熵 ($\text{log}_2 (7776 ^ 7) $ )。
+Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-[EFF 的大型單字清單](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)包含 7776 個獨特單字。 要計算可能的口令密語數量，所要做的就是 $\text{WordsInList}^\text{WordsInPhrase}$ ，或者依我們的情況， $ 7776 ^ 7 $。
+[EFF 的大型單字清單](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)包含 7776 個獨特單字。 To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
 讓我們從這個角度來看：使用 \[EFF 的大型單詞列表\](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) 的七個單詞的口令密短大約有1,719,070,799,748,422,500,000,000 種組合。
 

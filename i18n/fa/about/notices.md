@@ -24,10 +24,9 @@ The following is a human-readable summary of (and not a substitute for) the [lic
 
 این شامل کدهای شخص ثالثی که در این مخزن جاسازی شده است یا کدهایی که مجوز جایگزین دیگری در آنها ذکر شده است، نمی‌شود. موارد زیر نمونه‌های قابل توجه هستند، اما این لیست ممکن است کامل نباشد:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
-* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
-* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
+* The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
 این بدان معناست که شما می‌توانید از محتوای قابل فهم بشری در این مخزن برای پروژه خود استفاده کنید، طبق شرایطی که در متن مجوز عمومی Creative Commons Attribution-NoDerivatives 4.0 International Public License تعیین شده است. شما می‌توانید این کار را به هر نحو منصفانه‌ای انجام دهید، اما نباید به هر نحوی که به نظر برسد Privacy Guides شما یا استفاده شما را تأیید می‌کند. شما **نمی‌توانید** از برندینگ Privacy Guides در پروژه خود استفاده کنید مگر با تأیید صریح از این پروژه. علامت تجاری برند Privacy Guides شامل عبارت "Privacy Guides" به همراه لوگوی سپر می‌باشد.
 

@@ -201,7 +201,7 @@ Pixel 手機很容易安裝 GrapheneOS 只需依其 [網頁安裝程式](https:/
 - 如果想買便宜的 Pixel 設備，建議購買"**a**"型號，其為旗艦機發布後的預算款。 通常會有折扣，因為 Google 會出清庫存。
 - 考慮在實體商店提供折扣與特價的商品。
 - 找找國內線上折扣社區的網站。 這些可提醒有好的商品。
-- Google 提供一份其設備 [支援週期](https://support.google.com/nexus/answer/4457705)的列表清單。 設備每日價格可以計算為: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$，意味著設備使用時間越長，每天的費用越低。
+- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math> , meaning that the longer use of the device the lower cost per day.
 - 如果你的地區無法購得 Pixel ， [NitroPhone](https://shop.nitrokey.com/shop) 可提供全球配送。
 
 ## 一般應用

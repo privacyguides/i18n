@@ -201,7 +201,7 @@ Google Pixel phones use a TEE OS called Trusty which is [open source](https://so
 - Если вы хотите купить устройство Pixel по выгодной цене, мы советуем приобрести модель "**a**" сразу после выхода следующего флагмана. Скидки обычно предоставляются потому, что Google пытается очистить свои запасы.
 - Рассмотрите варианты снижения цены и специальные предложения, предлагаемые в физических магазинах.
 - Просмотрите сайты общественных онлайн-сделок в вашей стране. Они могут предупредить вас о хороших распродажах.
-- Google предоставляет список с указанием [цикла поддержки](https://support.google.com/nexus/answer/4457705?hl=ru&sjid=8188849062388690554-EU#zippy=) для каждого из своих устройств. Стоимость одного дня использования устройства может быть рассчитана как: $\text{Цена} \over \text {Дата окончания поддержки}-\text{Текущая дата}$, что означает, что чем дольше используется устройство, тем ниже стоимость одного дня.
+- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math> , meaning that the longer use of the device the lower cost per day.
 - If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
 
 ## Основные приложения

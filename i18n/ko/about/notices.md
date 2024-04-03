@@ -24,10 +24,9 @@ Privacy Guides is an open-source project contributed to under licenses that incl
 
 저장소에 포함된 제3자 코드나 대체 라이선스가 별도 명시된 코드는 이에 포함되지 않습니다. 다음은 주요 예시이나, 여기에 나열되지 않은 사례가 있을 수 있습니다:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js)는 [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt)에 따라 라이선스가 부여됩니다.
-* [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) 제목 폰트는 [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt)에 따라 라이선스가 부여됩니다.
-* [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) 본문 폰트는 [자세히 설명된 조항](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt)에 따라 라이선스가 부여됩니다.
-* [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) 고정폭 폰트는 [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt)에 따라 라이선스가 부여됩니다.
+* The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
 즉, 저장소 내용 중 사람이 읽을 수 있는 콘텐츠는 크리에이티브 커먼즈 저작자표시-변경금지 4.0 국제 공공 라이선스 텍스트에 명시된 조항에 따라 자신의 프로젝트에 사용할 수 있습니다. 단, 여러분은 라이선스를 중시하는 선에서 자유롭게 이용할 수 있지만 Privacy Guides가 여러분의 행위나 여러분 개인을 직접 보증/지지하는 듯이 표현해서는 안 됩니다. 여러분은 본 프로젝트에서 명시적으로 승인하지 않는 한 자신의 프로젝트에서 Privacy Guides 상표를 사용할 수 **없습니다**. Privacy Guides 브랜드 상표에는 'Privacy Guides' 로고타입과 방패 로고가 포함됩니다.
 

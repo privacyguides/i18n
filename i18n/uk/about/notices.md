@@ -24,10 +24,9 @@ Unless otherwise noted, all **content** on this website is made available under 
 
 Це не включає сторонній код, вбудований в цей репозиторій, або код, де ліцензія, що замінює ліцензію, відмічена іншим чином. Нижче наведені відомі приклади, але цей список може бути неповним:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
-* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
-* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
+* The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
 Це означає, що ви можете використовувати читабельний вміст в цьому репозиторії для вашого власного проєкту відповідно до умов, викладених в універсальному тексті CC0 1.0. Ви **не маєте права** використовувати брендинг Privacy Guides у своєму власному проєкті без прямого схвалення цього проєкту. Торгові марки бернду Privacy Guides включають в себе логотип та "Privacy Guides". Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
 

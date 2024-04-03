@@ -24,10 +24,9 @@ Unless otherwise noted, all **content** on this website is made available under 
 
 这不包括嵌入此存储库的第三方代码，也不包括其他标注了替代许可证的代码。 以下是一些值得注意的例子，但这一清单可能不包括所有方面：
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
-* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
-* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
+* The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
 这意味着您可以根据Creative Commons Attribution-NoDerivatives 4.0国际公共许可证文本中列出的条款，将此存储库中的可读内容用于您自己的项目。 您可以以任何合理的方式这样做，但不得以任何方式暗示隐私指南认可您或您的使用。 **未经本项目的明确批准，您 **，不得在您自己的项目中使用隐私指南的品牌。 隐私指南的品牌商标包括“隐私指南”字样和盾形标志。
 

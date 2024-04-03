@@ -24,10 +24,9 @@ Privacy Guides בנוסף אינם מתחייבים כי אתר זה יהיה ז
 
 זה לא כולל קוד של צד שלישי המוטמע במאגר זה, או קוד שבו צוין אחרת רישיון מחליף. להלן דוגמאות בולטות, אך ייתכן שרשימה זו אינה כוללת:
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) מורשה תחת רישיון [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
-* גופן הכותרת של [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) מורשה תחת רישיון [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
-* הגופן [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) המשמש לרוב הטקסט באתר הינו מורשה בתנאים המפורטים [כאן](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
-* הגופן [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) המשמש עבור טקסט מונו-רווח באתר הוא מורשה תחת [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
+* The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
 משמעות הדבר היא שאתה יכול להשתמש בתוכן הניתן לקריאה על ידי אדם במאגר זה עבור הפרויקט שלך, לפי התנאים המפורטים בטקסט של Creative Commons Attribution-NoDerivatives 4.0 International Public License. אתה רשאי לעשות זאת בכל דרך סבירה, אך לא בכל דרך שמציעה שPrivacy Guides מאשרים אותך או את השימוש שלך. **אינך רשאי** להשתמש במיתוג Privacy Guides בפרויקט שלך ללא אישור מפורש מפרויקט זה. סימני המסחר של המותג של מדריכי הפרטיות כוללים את סימן המילה "Privacy Guides" ואת לוגו המגן.
 

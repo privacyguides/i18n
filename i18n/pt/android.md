@@ -201,7 +201,7 @@ Mais algumas dicas para comprar um Google Pixel:
 - Se procura uma pechincha num dispositivo Pixel, sugerimos que compre um modelo "**a**", logo após o lançamento do próximo topo de gama. Normalmente, os descontos estão disponíveis porque a Google está a tentar liquidar o seu stock.
 - Considere as opções de redução de preços e as promoções oferecidas nas lojas físicas.
 - Consulte os sítios de pechinchas da comunidade em linha no seu país. Estes podem alertá-lo para boas vendas.
-- A Google fornece uma lista com o [ciclo de suporte](https://support.google.com/nexus/answer/4457705) para cada um dos seus dispositivos. O preço por dia de um dispositivo pode ser calculado da seguinte forma: $\text{Cost} \over \text {EOL Date}-\text{Current Date}$, o que significa que quanto maior for o tempo de utilização do dispositivo, menor será o custo por dia.
+- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math> , meaning that the longer use of the device the lower cost per day.
 - If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
 
 ## Aplicações Gerais

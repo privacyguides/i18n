@@ -82,11 +82,11 @@ Te recomendamos que utilices la [EFF large wordlist](https://eff.org/files/2016/
 
 Para demostrar lo fuertes que son las frases de contraseña diceware, utilizaremos la frase de contraseña de siete palabras antes mencionada (`viewable fastness reluctant squishy seventeen shown pencil`) y [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) como ejemplo.
 
-Una métrica para determinar la fuerza de una frase de contraseña diceware es cuánta entropía tiene. La entropía por palabra en una frase de contraseña diceware se calcula como $\text{log}_2(\text{WordsInList})$ y la entropía global de la frase de contraseña se calcula como $\text{log}_2(\text{WordsInList}^\text{WordsInPhrase})$.
+One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
-Por lo tanto, cada palabra de la lista mencionada da como resultado ~12,9 bits de entropía ($\text{log}_2(7776)$), y una frase de contraseña de siete palabras derivada de ella tiene ~90,47 bits de entropía ($\text{log}_2(7776^7)$).
+Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-La [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 palabras únicas. Para calcular la cantidad de frases de contraseña posibles, todo lo que tenemos que hacer es $\text{WordsInList}^\text{WordsInPhrase}$, o en nuestro caso, $7776^7$.
+La [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 palabras únicas. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
 Pongamos todo esto en perspectiva: Una frase de siete palabras utilizando la [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) es una de las ~1.719.070.799.748.422.500.000.000.000 frases posibles.
 

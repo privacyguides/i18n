@@ -24,10 +24,9 @@ Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括�
 
 這不包括嵌入在此儲存庫中的第三方代碼，或以其他方式注明取代許可證的代碼。 以下是引人注目的例子，但此列表可能不包括所有：
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) 是根據 [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt)授權的。
-* 網站標題字使用 [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) 字體，請使用許可依照 [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt)。
-* 本站文字大量使用[Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans)字體，其版權條款請見[此處](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt)。
-* 網站上用於等間距文字的 [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) 字體是根據 [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt)授權的。
+* The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
 這意味著您可以根據 Creative Commons Attribution-NoDerivatives 4.0 國際公共許可證文本中概述的條款，將此存儲庫中的人類可讀內容用於自己的項目。 您可以依合理的方式這樣做，但不能以任何方式暗示 Privacy Guides 認可您或您的使用。 未經本專案明確同意，**不得**在任何專案中使用 Privacy Guides 品牌。 Privacy Guides  品牌商標包括 "Privacy Guides" 文字商標和盾牌標誌。
 

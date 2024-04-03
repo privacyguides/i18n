@@ -201,7 +201,7 @@ DivestOS משתמשת ב-F-Droid כחנות האפליקציות המוגדרת 
 - אם אתה מחפש מציאה על מכשיר פיקסל, אנו מציעים לקנות דגם "**a**", מיד לאחר יציאת ספינת הדגל הבאה. הנחות זמינות בדרך כלל מכיוון שגוגל תנסה לסלק את המלאי שלה.
 - שקול אפשרויות מכות מחיר ומבצעים המוצעים בחנויות פיזיות.
 - עיין באתרי עסקאות אןנליין של קהילתיות במדינה שלך. אלה יכולים להתריע על מכירות טובות.
-- Google מספקת רשימה המציגה את [מחזור התמיכה](https://support.google.com/nexus/answer/4457705) עבור כל אחד מהמכשירים שלהם. ניתן לחשב את המחיר ליום עבור מכשיר כך: $\text{עלות} \מעל \text {תאריך EOL}-\text{תאריך נוכחי}$, כלומר ככל שהשימוש ארוך יותר במכשיר כך העלות ליום נמוכה יותר.
+- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math> , meaning that the longer use of the device the lower cost per day.
 - If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
 
 ## אפליקציות כלליות
