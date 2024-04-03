@@ -209,32 +209,6 @@ You can enable E2EE for your Safari bookmarks and downloads by enabling [Advance
 
 Als je iCloud gebruikt terwijl Geavanceerde gegevensbescherming is uitgeschakeld, raden we je ook aan te controleren of de standaard downloadlocatie van Safari is ingesteld op lokaal op jouw apparaat. Extra filterlijsten kunnen de prestaties beïnvloeden en het aanvalsoppervlak vergroten, dus pas alleen toe wat u nodig hebt.
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard-logo](assets/img/browsers/adguard.svg){ align=right }
-
-**AdGuard voor iOS** is een gratis en open-source uitbreiding voor het blokkeren van inhoud voor Safari die gebruikmaakt van de eigen [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-
-AdGuard voor iOS heeft enkele premium functies, maar standaard Safari-inhoud blokkeren is gratis.
-
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-Extra filterlijsten kunnen de prestaties beïnvloeden en het aanvalsoppervlak vergroten, dus gebruik alleen wat je nodig hebt.
-
 ## Criteria
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
@@ -247,8 +221,3 @@ Extra filterlijsten kunnen de prestaties beïnvloeden en het aanvalsoppervlak ve
 - Android-browsers moeten de Chromium-engine gebruiken.
     - Helaas is Mozilla GeckoView nog steeds minder veilig dan Chromium op Android.
     - iOS-browsers zijn beperkt tot WebKit.
-
-### Uitbreidings criteria
-
-- Mag geen ingebouwde browser- of OS-functionaliteit repliceren.
-- Moet rechtstreeks van invloed zijn op de privacy van de gebruiker, d.w.z. mag niet gewoon informatie verstrekken.

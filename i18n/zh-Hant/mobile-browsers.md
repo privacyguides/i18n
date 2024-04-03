@@ -239,34 +239,6 @@ Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都
 
 
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-
-**適用於 iOS的 AdGuard** 是使用原生[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) 的Safari 免費開源內容封鎖擴展。
-
-iOS 版 AdGuard 有一些高級功能；然而，標準Safari 內容封鎖是免費的。
-
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-額外的過濾器清單會減慢速度，並可能會增加您的攻擊面，因此只應用您需要的東西。
-
-
-
 ## 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
@@ -281,10 +253,3 @@ iOS 版 AdGuard 有一些高級功能；然而，標準Safari 內容封鎖是免
 - 安卓版瀏覽器必須使用 Chromium 引擎。 
       - 不幸的是， Mozilla GeckoView仍然不如Android上的Chromium安全。
     - iOS瀏覽器僅限於WebKit。
-
-
-
-### 擴展元件標準
-
-- 不得複製內建瀏覽器或作業系統功能。
-- 必須直接影響用戶隱私，即不得簡單地提供資訊。

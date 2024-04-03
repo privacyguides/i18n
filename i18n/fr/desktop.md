@@ -176,7 +176,7 @@ Tails [n'efface pas](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) la
 
 Tails est excellent pour la contre-analyse en raison de son amnésie (ce qui signifie que rien n'est écrit sur le disque) ; cependant, ce n'est pas une distribution renforcée comme Whonix. Elle ne dispose pas de nombreuses fonctions d'anonymat et de sécurité comme Whonix et est mise à jour beaucoup moins souvent (seulement une fois toutes les six semaines). Un système Tails compromis par un logiciel malveillant peut potentiellement contourner le proxy transparent et permettre à l'utilisateur d'être désanonymisé.
 
-Tails inclut [uBlock Origin](desktop-browsers.md#ublock-origin) dans le Navigateur Tor par défaut, ce qui peut potentiellement faciliter la tâche des adversaires pour identifier l'empreinte numérique des utilisateurs de Tails. Les machines virtuelles [Whonix](desktop.md#whonix) sont peut-être plus étanches, mais elles ne sont pas amnésiques, ce qui signifie que les données peuvent être récupérées sur votre périphérique de stockage.
+Tails includes [uBlock Origin](browser-extensions.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. Les machines virtuelles [Whonix](desktop.md#whonix) sont peut-être plus étanches, mais elles ne sont pas amnésiques, ce qui signifie que les données peuvent être récupérées sur votre périphérique de stockage.
 
 De par sa conception, Tails est censé se réinitialiser complètement après chaque redémarrage. Encrypted [persistent storage](https://tails.net/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
 

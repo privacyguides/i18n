@@ -209,32 +209,6 @@ Puedes activar E2EE para tus favoritos y tus descargas de Safari activando [Prot
 
 Si utilizas iCloud con la Protección de Datos Avanzada desactivada, también te recomendamos que compruebes que la ubicación de descarga predeterminada de Safari está configurada como local en tu dispositivo. Esta opción se encuentra en :gear: **Ajustes** → **Safari** → **General** → **Descargas**.
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-
-**AdGuard para iOS** es una extensión de bloqueo de contenidos gratuita y de código abierto para Safari que utiliza la [Content Blocker API] nativa (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-
-AdGuard para iOS tiene algunas funciones premium; sin embargo, el bloqueo de contenidos estándar de Safari es gratuito.
-
-[:octicons-home-16: Página Principal](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Código Fuente" }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-Las listas de filtros adicionales ralentizan las cosas y pueden aumentar su superficie de ataque, así que aplique sólo lo que necesite.
-
 ## Criterios
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
@@ -247,8 +221,3 @@ Las listas de filtros adicionales ralentizan las cosas y pueden aumentar su supe
 - Los navegadores Android deben utilizar el motor Chromium.
     - Por desgracia, Mozilla GeckoView sigue siendo menos seguro que Chromium en Android.
     - Los navegadores de iOS están limitados a WebKit.
-
-### Extensión de Criterios
-
-- No debe replicar la funcionalidad integrada del navegador o del sistema operativo.
-- Debe afectar directamente a la privacidad del usuario, es decir, no debe limitarse a proporcionar información.

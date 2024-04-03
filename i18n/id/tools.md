@@ -40,17 +40,6 @@ Untuk detail lebih lanjut tentang setiap proyek, mengapa proyek tersebut dipilih
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Sumber Daya Tambahan
-
-<div class="grid cards" markdown>
-
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
-- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
-
-</div>
-
-[Pelajari lebih lanjut :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
-
 ## Peramban Web Seluler
 
 <div class="grid cards" markdown>
@@ -62,16 +51,17 @@ Untuk detail lebih lanjut tentang setiap proyek, mengapa proyek tersebut dipilih
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-<!-- markdownlint-disable-next-line -->
-### Sumber Daya Tambahan
+## Browser Extensions
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
+- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](browser-extensions.md#adguard)
 
 </div>
 
-[Pelajari lebih lanjut :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](browser-extensions.md)
 
 ## Penyedia Layanan
 

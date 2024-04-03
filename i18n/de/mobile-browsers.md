@@ -208,32 +208,6 @@ You can enable E2EE for your Safari bookmarks and downloads by enabling [Advance
 
 Wenn du iCloud mit deaktiviertem erweitertem Datenschutz verwendest, empfehlen wir auch zu überprüfen, ob der Standard-Ladeort von Safari auf Ihrem Gerät lokal eingestellt ist. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-
-**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-
-AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
-
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-Zusätzliche Filterlisten verlangsamen die Arbeit und können die Angriffsfläche vergrößern, daher solltest du nur das anwenden, was du brauchst.
-
 ## Kriterien
 
 **Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, verbunden sind.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen, sich mit dieser Liste vertraut zu machen, bevor sich für ein Projekt entschieden wird und eigene Nachforschungen anzustellen, um sicherzustellen, dass es die richtige Wahl ist.
@@ -246,8 +220,3 @@ Zusätzliche Filterlisten verlangsamen die Arbeit und können die Angriffsfläch
 - Android-Browser müssen die Chromium-Engine verwenden.
     - Leider ist Mozilla GeckoView auf Android immer noch weniger sicher als Chromium.
     - iOS-Browser sind auf WebKit beschränkt.
-
-### Weitere Kriterien
-
-- Darf keine eingebauten Browser- oder Betriebssystemfunktionen replizieren.
-- Muss sich direkt auf die Privatsphäre der Nutzer auswirken, d. h. es dürfen nicht einfach nur Informationen geliefert werden.

@@ -176,7 +176,7 @@ Tails 關閉後[不會抹除](https://gitlab.tails.boum.org/tails/tails/-/issues
 
 由於失憶功能(意指沒有寫入磁碟)，Tails 非常適合對抗資料探集；然而，它不像 Whonix 那樣是硬化發行版。 它缺乏 Whonix 的許多匿名和安全功能，並且更新頻率較低（每六周一次）。 被惡意軟體入侵的 Tails 系統可能會繞過透明代理，使用戶去匿名化。
 
-Tails Tor 瀏覽器預設包含 [uBlock Origin](desktop-browsers.md#ublock-origin) ，這可能會使對手更容易指紋識別 Tails 用戶。 [Whonix](desktop.md#whonix) 虛擬機器可能更為防洩漏may be more leak-proof, however they are not amnesic, ，但它沒有失憶功能，因此資料可以從儲存設備上進行恢復。
+Tails includes [uBlock Origin](browser-extensions.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. [Whonix](desktop.md#whonix) 虛擬機器可能更為防洩漏may be more leak-proof, however they are not amnesic, ，但它沒有失憶功能，因此資料可以從儲存設備上進行恢復。
 
 設計上， Tails 每次重新啟動後意謂將完全重置。 加密 [永久存儲](https://tails.net/doc/persistent_storage/index.en.html) 可以配置來存儲一些資料。
 

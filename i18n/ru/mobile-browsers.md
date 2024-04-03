@@ -209,32 +209,6 @@ You can enable E2EE for your Safari bookmarks and downloads by enabling [Advance
 
 Если вы используете iCloud вместе с расширенной защитой данных, мы также рекомендуем проверить, что место по умолчанию для загрузки файлов в Safari установлено локально на устройстве. Эта опция может быть найдена в :gear: **Настройки** → **Safari** → **Основные** → **Загрузки**.
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![Логотип AdGuard](assets/img/browsers/adguard.svg){ align=right }
-
-**AdGuard для iOS** — это бесплатный и открытый блокировщик контента для Safari, который использует нативный [API блокировки контента](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-
-AdGuard для iOS имеет несколько премиум-функций, хотя стандартные средства блокировки контента Safari бесплатны.
-
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-Дополнительные списки блокировки замедляют работу браузера и могут упростить атаку, поэтому пользуйся только тем, что тебе необходимо.
-
 ## Критерии
 
 **Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем тебе ознакомиться с этим списком, прежде чем выбрать продукт, и провести собственное исследование, чтобы убедиться в правильности своего выбора.
@@ -247,8 +221,3 @@ AdGuard для iOS имеет несколько премиум-функций, 
 - Браузеры для Android должны использовать движок Chromium.
     - К сожалению, Mozilla GeckoView все еще менее безопасен, чем Chromium на Android.
     - Браузеры для iOS ограничены использованием WebKit.
-
-### Критерии для расширений
-
-- Не должны копировать встроенную функциональность браузера или ОС.
-- Должны непосредственно влиять на конфиденциальность пользователя, т.е. не просто предоставлять информацию.

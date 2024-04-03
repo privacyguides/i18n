@@ -40,17 +40,6 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 [Узнать больше :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Дополнительные ресурсы
-
-<div class="grid cards" markdown>
-
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
-- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
-
-</div>
-
-[Узнать больше :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
-
 ## Мобильные браузеры
 
 <div class="grid cards" markdown>
@@ -62,16 +51,17 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 [Узнать больше :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-<!-- markdownlint-disable-next-line -->
-### Дополнительные ресурсы
+## Browser Extensions
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
-- ![Логотип AdGuard](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
+- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](browser-extensions.md#adguard)
 
 </div>
 
-[Узнать больше :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[Узнать больше :material-arrow-right-drop-circle:](browser-extensions.md)
 
 ## Поставщики услуг
 

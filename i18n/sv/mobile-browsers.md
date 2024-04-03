@@ -209,32 +209,6 @@ You can enable E2EE for your Safari bookmarks and downloads by enabling [Advance
 
 Om du använder iCloud med avancerat dataskydd inaktiverat rekommenderar vi också att du kontrollerar att Safaris standardhämtningsplats är inställd på lokalt på din enhet. Detta alternativ finns i :gear: **Inställningar** → **Safari** → **Allmänt** → **Nedladdningar**.
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
-
-**AdGuard för iOS** är ett gratis tillägg för innehållsspärrning för Safari med öppen källkod som använder det inhemska [Content Blocker API] (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-
-AdGuard för iOS har vissa premiumfunktioner, men standardblockeringen av innehåll i Safari är gratis.
-
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-Ytterligare filterlistor saktar ner saker och kan öka din attackyta, så använd bara det du behöver.
-
 ## Kriterier
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
@@ -247,8 +221,3 @@ Ytterligare filterlistor saktar ner saker och kan öka din attackyta, så använ
 - Android webbläsare måste använda Chromium-motorn.
     - Tyvärr är Mozilla GeckoView fortfarande mindre säkert än Chromium på Android.
     - iOS-browsers är begränsade till WebKit.
-
-### Kriterier för förlängning
-
-- Får inte replikera inbyggda webbläsar- eller OS-funktioner.
-- Måste direkt påverka användarens integritet, det vill säga får inte bara ge information.

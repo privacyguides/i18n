@@ -40,17 +40,6 @@ Ha további információt szeretnél megtudni az egyes projektekről, hogy miér
 
 [További információ :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Android
-
-<div class="grid cards" markdown>
-
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
-- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
-
-</div>
-
-[További információ :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
-
 ## Mobil Web Böngészők
 
 <div class="grid cards" markdown>
@@ -62,16 +51,17 @@ Ha további információt szeretnél megtudni az egyes projektekről, hogy miér
 
 [További információ :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-<!-- markdownlint-disable-next-line -->
-### Android
+## Browser Extensions
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard iOS-hez](mobile-browsers.md#adguard)
+- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](browser-extensions.md#adguard)
 
 </div>
 
-[További információ :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[További információ :material-arrow-right-drop-circle:](browser-extensions.md)
 
 ## Szolgáltatók
 

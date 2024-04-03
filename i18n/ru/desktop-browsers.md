@@ -95,7 +95,7 @@ schema:
 
 Обрати внимание, что, хотя ты и можешь использовать Mullvad Browser с любым VPN провайдером, другие люди с этим VPN также должны использовать Mullvad Browser, чтобы эта "толпа" существовала. Более вероятно, что люди, использующие Mullwad Browser, также используют Mullwad VPN. Mullvad Browser ни имеет встроенной возможности подключаться к VPN, ни проверяет, используете ли вы VPN; ваше VPN-соединение должно быть настроено и управляться отдельно.
 
-Mullvad Browser поставляется с предустановленными расширениями *uBlock Origin* и *NoScript*. Хотя мы обычно [не рекомендуем](#extensions) добавлять *дополнительные* расширения для браузера, эти расширения, которые поставляются с браузером, **не нужно** удалять или дополнительно настраивать, потому что это сделает цифровой отпечаток вашего браузера заметно отличным от других пользователей Mullvad Browser. Он также поставляется с предустановленным расширением Mullvad Browser Extension, которое *можно* безопасно удалить без влияния на цифровой отпечаток браузера, оставить его тоже безопасно, даже если ты не используешь Mullvad VPN.
+Mullvad Browser поставляется с предустановленными расширениями *uBlock Origin* и *NoScript*. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. Он также поставляется с предустановленным расширением Mullvad Browser Extension, которое *можно* безопасно удалить без влияния на цифровой отпечаток браузера, оставить его тоже безопасно, даже если ты не используешь Mullvad VPN.
 
 ### Режим приватного просмотра
 
@@ -289,7 +289,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 2. Если вы хотите оставаться залогиненными на определенном сайте, который вы часто посещаете, вы можете установить исключения для каждого сайта, нажав на значок щита в адресной строке.
 
 ##### Конфиденциальность и безопасность
@@ -352,76 +352,6 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 ## Дополнительные ресурсы
 
-Обычно, мы рекомендуем использовать как можно меньше расширений, чтобы уменьшить площадь атаки; они имеют привилегированный доступ к твоему браузеру, требуют доверия к их разработчикам, могут [идентифицировать тебя](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), а также [ослабляют](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) изоляцию между сайтами. Однако uBlock Origin может оказаться полезным, если тебе нужен функционал по блокировке контента.
-
-### uBlock Origin
-
-<div class="admonition recommendation" markdown>
-
-![Логотип uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
-
-**uBlock Origin** это популярный блокировщик контента, который может помочь тебе блокировать рекламу, трекеры и скрипты цифровых отпечатков.
-
-[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
-
-</details>
-
-</div>
-
-Мы рекомендуем следовать [документации разработчика](https://github.com/gorhill/uBlock/wiki/Blocking-mode) и выбрать один из "режимов". Дополнительные списки фильтров могут повлиять на производительность и [могут увеличить площадь атаки](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
-
-Вот некоторые другие [списки фильтров](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists), которые ты, возможно, захочешь добавить:
-
-- [x] Выбери **Приватность** > **AdGuard URL Tracking Protection**
-- Импортируй [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
-
-### uBlock Origin Lite
-
-У uBlock Origin также есть "Lite" версия расширения, которая предлагает очень ограниченный набор функций по сравнению с оригинальным расширением. Однако у него есть несколько преимуществ перед своим полнофункциональным собратом, поэтому вы можете использовать его, если...
-
-- ...вы не хотите предоставлять полные права на "чтение/изменение данных сайта" никаким расширениям (даже таким надежным, как uBlock Origin)
-- ...вы хотите более ресурсоэффективный (память/ЦПУ) блокировщик контента[^1]
-- ...ваш браузер поддерживает только расширения Manifest V3
-
-<div class="admonition recommendation" markdown>
-
-![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-
-**uBlock Origin Lite** это блокировщик контента совместимый с Manifest V3. По сравнению с оригинальным *uBlock Origin*, это расширение не требует широких прав на "чтение/изменение данных" для функционирования.
-
-[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
-
-</details>
-
-</div>
-
-Мы рекомендуем эту версию uBlock Origin только в том случае, если вы никогда не хотите вносить изменения в списки фильтров, поскольку она поддерживает только несколько предварительно выбранных списков и не предлагает никаких дополнительных возможностей настройки, включая возможность выбора элементов для блокировки вручную. Эти ограничения связаны с дизайном Manifest V3.
-
-Эта версия предлагает три уровня блокировки: "Базовый" работает, не требуя особых привилегий для просмотра и изменения содержимого сайта, в то время как уровни "Оптимальный" и "Полный" требуют таких широких полномочий, но предлагают более качественную фильтрацию с помощью дополнительных косметических правил и скриптов.
-
-Если вы установите режим фильтрации по умолчанию как "Оптимальный" или "Полный", расширение будет запрашивать доступ для чтения/изменения **всех** сайтов, которые вы посещаете. Однако у вас также есть возможность изменить настройки на "Оптимальные" или "Полные" **для каждого сайта**, регулируя ползунок во всплывающей панели расширения на каждом конкретном сайте. Когда вы это сделаете, расширение запросит доступ для чтения/изменения только этого сайта. Поэтому, если вы хотите воспользоваться преимуществами uBlock Origin Lite и не выдавать ему разрешения, вам следует оставить значение по умолчанию "Базовое" и повышать его только на тех сайтах, где этот уровень не является достаточным.
-
-uBlock Origin Lite получает обновления списка блокировок только при обновлении расширения из магазина расширений вашего браузера, а не по требованию. Это означает, что вы можете не заметить новые угрозы, которые будут блокироваться в течение нескольких недель, пока не будет опубликован полный выпуск расширения.
-
 ## Критерии
 
 **Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Мы рекомендуем тебе ознакомиться с этим списком, прежде чем выбрать продукт, и провести собственное исследование, чтобы убедиться в правильности своего выбора.
@@ -434,7 +364,7 @@ uBlock Origin Lite получает обновления списка блоки
 - Доступен для Linux, macOS и Windows.
 - Любые изменения, необходимые для того, чтобы браузер больше соблюдал конфиденциальность, не должны негативно влиять на опыт использования.
 - По умолчанию блокирует сторонние файлы куки.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
+- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### В лучшем случае
 
@@ -448,10 +378,4 @@ uBlock Origin Lite получает обновления списка блоки
 - Предоставляет реализацию сервера синхронизации с открытым исходным кодом.
 - По умолчанию включена [конфиденциальная поисковая система](search-engines.md).
 
-### Критерии для расширения
-
-- Не должно копировать встроенную функциональность браузера или ОС.
-- Должно непосредственно влиять на конфиденциальность пользователя, т.е. не просто предоставлять информацию.
-
-[^1]: uBlock Origin Lite *сам* не потребляет никаких ресурсов, поскольку использует новые API, благодаря которым браузер обрабатывает списки фильтров нативно, а не выполняет JavaScript-код внутри расширения для фильтрации. Однако это преимущество в ресурсах является лишь [теоретическим](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), поскольку возможно, что стандартный код фильтрации uBlock Origin более эффективен, чем собственный код фильтрации вашего браузера. Этот показатель еще не был протестирован.
-[^2]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

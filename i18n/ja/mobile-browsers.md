@@ -209,32 +209,6 @@ You can enable E2EE for your Safari bookmarks and downloads by enabling [Advance
 
 高度なデータ保護を無効にしてiCloudを使用している場合は、Safariのデフォルトのダウンロード場所が、デバイスのローカルに設定されているかどうかを確認することもお勧めします。 This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard logo](https://developer.apple.apple.com/documentation/safariservices/creating_a_content_blocker){ align=right }
-
-**AdGuard for iOS** はSafariのネイティブの[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker)を使用する、フリー（自由）でオープンソースのコンテンツブロック用拡張機能です。
-
-AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
-
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-フィルターリストを追加すると動作が遅くなり、攻撃対象が増える可能性があります。そのため、必要なものだけを適用してください。
-
 ## 規準
 
 **私たちは、推奨するどのプロジェクトとも提携していないことに注意してください。** [標準的な基準](about/criteria.md) に加えて、客観的な推奨事項を提供できるようにするために明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
@@ -247,8 +221,3 @@ AdGuard for iOS has some premium features; however, standard Safari content bloc
 - Androidのブラウザーの場合はChromiumエンジンを使用していること。
     - 残念ながら、Mozilla GeckoViewはAndroidのChromiumよりもまだ安全性が低いです。
     - iOSブラウザはWebKitに制限されています。
-
-### 拡張機能の基準
-
-- ブラウザやOSに含まれる機能と重複しないこと。
-- ユーザーのプライバシーに直接影響を与えるものであること。つまり、単に情報を提供するだけではないこと。

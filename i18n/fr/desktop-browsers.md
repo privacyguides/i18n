@@ -95,7 +95,7 @@ Comme le [Navigateur Tor](tor.md), le Navigateur Mullvad est conçu pour empêch
 
 Notez que si vous pouvez utiliser le Navigateur Mullvad avec n'importe quel fournisseur de VPN, d'autres personnes sur ce VPN doivent également utiliser le Navigateur Mullvad pour que cette "foule" existe, ce qui est plus probable sur le VPN Mullvad par rapport à d'autres fournisseurs, en particulier si peu de temps après le lancement du Navigateur Mullvad. Le Navigateur Mullvad ne dispose pas d'une connectivité VPN intégrée et ne vérifie pas non plus si vous utilisez un VPN avant de naviguer ; votre connexion VPN doit être configurée et gérée séparément.
 
-Le Navigateur Mullvad est livré avec les extensions *uBlock Origin* et *NoScript* préinstallées. Bien que nous ne [recommandions généralement pas](#extensions) d'ajouter des extensions de navigateur *supplémentaires*, ces extensions préinstallées avec le navigateur ne doivent **pas** être supprimées ou configurées en dehors de leurs valeurs par défaut, car cela rendrait l'empreinte numérique de votre navigateur sensiblement différente de celle des autres utilisateurs du Navigateur Mullvad. Il est également préinstallé avec l'extension de navigateur Mullvad, qui *peut* être supprimée en toute sécurité sans impact sur l'empreinte numérique de votre navigateur si vous le souhaitez, mais qui peut également être conservée en toute sécurité même si vous n'utilisez pas le VPN Mullvad.
+Le Navigateur Mullvad est livré avec les extensions *uBlock Origin* et *NoScript* préinstallées. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. Il est également préinstallé avec l'extension de navigateur Mullvad, qui *peut* être supprimée en toute sécurité sans impact sur l'empreinte numérique de votre navigateur si vous le souhaitez, mais qui peut également être conservée en toute sécurité même si vous n'utilisez pas le VPN Mullvad.
 
 ### Mode de navigation privée
 
@@ -289,7 +289,7 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 2. Si vous souhaitez rester connecté à un site particulier que vous visitez souvent, vous pouvez définir des exceptions pour chaque site en cliquant sur l'icône Bouclier dans la barre d'adresse.
 
 ##### Confidentialité et sécurité
@@ -352,76 +352,6 @@ Le **Portefeuille Brave** fonctionne localement sur votre ordinateur, mais ne pr
 
 ## Ressources supplémentaires
 
-D'une manière générale, nous vous recommandons de limiter au maximum les extensions de votre navigateur afin de réduire votre surface d'attaque ; elles ont un accès privilégié dans votre navigateur, vous obligent à faire confiance au développeur, peuvent vous faire [sortir du lot](https://fr.wikipedia.org/wiki/Empreinte_digitale_d%27appareil), et [affaiblir](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolation des sites. Cependant, uBlock Origin peut s'avérer utile si vous appréciez la fonctionnalité de blocage de contenu.
-
-### uBlock Origin
-
-<div class="admonition recommendation" markdown>
-
-![Logo uBlock Origin](assets/img/browsers/ublock_origin.svg){ align=right }
-
-**uBlock Origin** est un bloqueur de contenu populaire qui peut vous aider à bloquer les publicités, les traqueurs et les scripts d'empreintes numériques.
-
-[:octicons-repo-16: Dépôt](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Code source" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
-
-</details>
-
-</div>
-
-Nous vous suggérons de suivre la [documentation du développeur](https://github.com/gorhill/uBlock/wiki/Blocking-mode) et de choisir l'un des "modes". Des listes de filtres supplémentaires peuvent avoir un impact sur les performances et [peuvent augmenter la surface d'attaque](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
-
-Voici d'autres [listes de filtres](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) que vous pourriez envisager d'ajouter :
-
-- [x] Cochez **Confidentialité** > **AdGuard URL Tracking Protection**
-- Ajoutez [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
-
-### uBlock Origin Lite
-
-uBlock Origin possède également une version "Lite" de leur extension, qui offre un ensemble de fonctionnalités très limité par rapport à l'extension originale. Cependant, elle a quelques avantages distincts par rapport à sa grande soeur, donc vous pouvez l'envisager si...
-
-- ...vous ne voulez pas accorder les autorisations complètes de "lecture/modification des données de sites web" à une extension (même une de confiance comme uBlock Origin)
-- ...vous voulez un bloqueur de contenu plus efficace en ressources (mémoire/CPU)[^1]
-- ...votre navigateur ne prend en charge que les extensions Manifest V3
-
-<div class="admonition recommendation" markdown>
-
-![logo uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-
-**uBlock Origin Lite** est un bloqueur de contenu compatible Manifest V3. Comparée à l'original *uBlock Origin*, cette extension ne nécessite pas de larges autorisations "lecture/modification des données" pour fonctionner.
-
-[:octicons-repo-16: Dépôt](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Politique de confidentialié" }
-[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Code source" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
-
-</details>
-
-</div>
-
-Nous ne recommandons cette version d'uBlock Origin que si vous ne voulez jamais apporter de modifications à vos listes de filtres, parce qu'elle ne prend en charge que quelques listes présélectionnées et n'offre aucune option de personnalisation supplémentaire, y compris la possibilité de sélectionner des éléments à bloquer manuellement. Ces restrictions sont dues à des limitations dans la conception du manifeste V3.
-
-Cette version offre trois niveaux de blocage : "Basique" fonctionne sans avoir besoin de privilèges spéciaux pour afficher et modifier le contenu du site, tandis que les niveaux "Optimal" et "Complet" requièrent cette large autorisation, mais offrent une meilleure expérience de filtrage avec des règles cosmétiques supplémentaires et des injections de scriptlet.
-
-Si vous définissez le mode de filtrage par défaut à "Optimal" ou "Complet", l'extension demandera l'accès en lecture/modification à **tous** les sites Web que vous visitez. Cependant, vous avez également la possibilité de changer le réglage à "Optimal" ou "Complet" **par site** en ajustant le curseur dans le panneau pop-up de l'extension sur un site donné. Lorsque vous le faites, l'extension ne demandera qu'un accès en lecture/modification de ce site. Par conséquent, si vous voulez profiter de la configuration "sans autorisation" d'uBlock Origin Lite, vous devriez probablement laisser le paramètre par défaut sur "Basique" et ne l'augmenter que sur les sites où ce niveau n'est pas adéquat.
-
-uBlock Origin Lite ne reçoit les mises à jour de la liste de blocage que lorsque l'extension est mise à jour depuis le marché des extensions de votre navigateur, et non pas sur demande. Cela signifie que vous risquez de manquer les nouvelles menaces bloquées pendant des semaines jusqu'à ce qu'une version complète de l'extension soit publiée.
-
 ## Critères
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
@@ -434,7 +364,7 @@ uBlock Origin Lite ne reçoit les mises à jour de la liste de blocage que lorsq
 - Disponible sur Linux, macOS et Windows.
 - Les modifications nécessaires pour rendre le navigateur plus respectueux de la vie privée ne devraient pas avoir d'impact négatif sur l'expérience des utilisateurs.
 - Bloque les cookies tiers par défaut.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^2]
+- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### Dans le meilleur des cas
 
@@ -448,10 +378,4 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 - Fournit une implémentation de serveur de synchronisation open-source.
 - Le moteur de recherche par défaut est un [moteur de recherche privé](search-engines.md).
 
-### Critères d'extension
-
-- Ne doit pas dupliquer une fonctionnalité intégrée dans le navigateur ou dans le système d'exploitation.
-- Doit avoir un impact direct sur la vie privée des utilisateurs, c'est-à-dire qu'il ne doit pas simplement fournir des informations.
-
-[^1]: uBlock Origin Lite *lui-même* ne consommera aucune ressource, parce qu'il utilise des APIs plus récentes qui permettent au navigateur de traiter nativement les listes de filtres, au lieu d'exécuter du code JavaScript dans l'extension pour gérer le filtrage. Cependant, cet avantage de ressource est seulement [théorique](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), parce qu'il est possible que le code de filtrage standard d'uBlock Origin soit plus efficace que le code de filtrage natif de votre navigateur. Cela n'a pas encore été comparé.
-[^2]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

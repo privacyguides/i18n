@@ -95,7 +95,7 @@ schema:
 
 請注意，雖然可以將 Mullvad 瀏覽器與任何 VPN 一起使用，但該 VPN 的其他人也必須使用 Mullvad瀏覽器 "人群"才會存在。比起其他提供商， Mullvad VPN 更可能存在相同的人群，特別是Mullvad 瀏覽器的推出。 Mullvad 瀏覽器沒有內建VPN 連接，也不會在瀏覽之前檢查是否使用 VPN，必須單獨配置和管理VPN 連接。
 
-Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們尤其[不建議](#extensions) 增 *額外的* 瀏覽器擴充套件，有些擴充在瀏覽器安裝之前已存在**無法**移除或改變預設值，因為一旦隨意更動就會突顯出您的 Mullvad 瀏覽器與其它Mullvad 瀏覽器的差異。 它還預先安裝了 Mullvad 瀏覽器擴展套件，但也可將之*安全地移除* ，並不會影響瀏覽器指紋，但即使不使用Mullvad VPN ，也可以安全地保留。
+Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. 它還預先安裝了 Mullvad 瀏覽器擴展套件，但也可將之*安全地移除* ，並不會影響瀏覽器指紋，但即使不使用Mullvad VPN ，也可以安全地保留。
 
 ### 隱私瀏覽模式
 
@@ -266,6 +266,7 @@ Brave 在官網的下載檔案中新增了 "[推廣碼](https://github.com/brave
 ##### Shields
 
 Brave [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些防指紋措施。 建議
+
 全域配置這些選項</ a> 在造訪的所有頁面。</p> 
 
 Shields 可以選擇根據需要依各網站情況降級，但我們建議預設以下內容：
@@ -289,7 +290,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net) 擴展。
+1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 2. 若想在經常造訪的特定站點保持登入，則可以透過網址列中的盾牌圖示來為每個站點設定例外。
 
 
@@ -366,80 +367,6 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 ## 其他資源
 
-一般來說，我們建議您將擴充功能維持在最低限度：它們在瀏覽器中有特別訪問權限，需要您信任開發人員，它們也會讓瀏覽器 [特徵顯露出來](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)， [弱化](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 網站隔離。 但是，如果您重視內容封鎖功能， uBlock Origin可能會很有用。
-
-
-
-### uBlock Origin
-
-<div class="admonition recommendation" markdown>
-
-![uBlock Origin標誌](assets/img/browsers/ublock_origin.svg){ align=right }
-
-**uBlock Origin** 是一個受歡迎的內容攔截程式，可以幫助您封鎖廣告、追蹤器和指紋腳本。
-
-[:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
-
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
-
-</details>
-
-</div>
-
-我們建議遵循 [開發人員的文檔](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 並選擇其中一個“模式”。 額外的過濾器清單可能會影響效能，而 [增加攻擊面](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css)。
-
-以下是其他 [篩選條件清單](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) ，您可考慮新增：
-
-- [x] 勾選 **隱私權** > **AdGuard 網址追蹤保護**
-- 添加 [真正正統的 URL 縮短工具](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
-
-
-
-### uBlock Origin Lite
-
-uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集非常有限。 但比之成熟的姊妹產品它具有一些明顯優勢值得考慮，如果...
-
-- ...不想對擴充功能授予完整的「讀取/修改網站資料」權限（即使是像 uBlock Origin 這樣受信任的擴充功能）
-- ....想要一個資源（記憶體/CPU）更有效率的內容攔截器[^1]
-- ...瀏覽器只能支援 Manifest V3 擴展。
-
-<div class="admonition recommendation" markdown>
-
-![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
-
-**uBlock Origin Lite** 為相容 Manifest V3 的內容封鎖器。 相較於 *uBlock Origin* ，此附加元件不需要廣泛的「讀取/修改資料」權限即可運作。
-
-[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
-
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
-
-</details>
-
-</div>
-
-若不想更改濾器列表，我們僅推薦此版本的 uBlock Origin，因為它僅支援一些預先選擇的列表，且不提供其他自訂選項，包括手動選擇要封鎖的元素的功能。 這些限制是由於 Manifest V3 設計之故。
-
-此版本提供三種封鎖等級：「基本」等級不需要任何特殊權限即可查看和修改網站內容，而「最佳」和「完整」等級確實需要廣泛的權限，但透過附加裝飾規則提供更好的過濾體驗和腳本注入。
-
-如將預設過濾模式設為“最佳”或“完整”，則擴充功能將要求讀取/修改**所有**造訪網站的存取權限。 不過也可以透過調整擴充功能彈出面板中的滑桿，將設定變更為**每個網站**的「最佳」或「完整」在任何指定網站。 當這樣，擴充功能將僅請求對該網站的讀取/修改存取權限。 因此，如想利用 uBlock Origin Lite 的“無權限”配置，應將預設保留為“基本”，並且僅在該級別不夠的網站上將其調整得更高。
-
-uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時接收封鎖清單更新，而不是按需求接收。 此意味著可能會錯過被封鎖數週的新威脅，直到附加元件發布完整的版本。
-
 
 
 ## 標準
@@ -456,7 +383,7 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 - 適用於Linux、macOS和Windows。
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
 - 預設情況下會封鎖第三方Cookie。
-- 支援[狀態分隔](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)以緩解跨站點跟踪。<sup id="fnref:2"><a href ="#fn:2" class="footnote-ref">2</a></sup>
+- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 
 
@@ -476,16 +403,5 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 
 
 
-### 擴展元件標準
-
-- 不得複製內建瀏覽器或作業系統功能。
-- 必須直接影響用戶隱私，即不得簡單地提供資訊。
-
-
-
 [^1]:    
-    uBlock Origin Lite*本身*不會消耗任何資源，因為它使用更新的API，瀏覽器能夠本地處理過濾器列表，而不是在擴充功能中執行JavaScript 程式碼來處理過濾。 然而，這種資源優勢僅止於[理論](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo)，因為標準uBlock Origin 的過濾程式碼可能比瀏覽器的本機過濾程式碼更有效。 這尚未進行基準測試.
-
-
-[^2]:    
-    Brave 的實施詳情請參閱 [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state)。
+    Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

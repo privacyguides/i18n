@@ -40,17 +40,6 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### Risorse aggiuntive
-
-<div class="grid cards" markdown>
-
-- ![Logo di uBlock Origin](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
-- ![Logo di uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
-
-</div>
-
-[Scopri di più :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
-
 ## Browser web mobile
 
 <div class="grid cards" markdown>
@@ -62,16 +51,17 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-<!-- markdownlint-disable-next-line -->
-### Risorse aggiuntive
+## Browser Extensions
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
-- ![Logo di AdGuard](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
+- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](browser-extensions.md#adguard)
 
 </div>
 
-[Scopri di più :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[Scopri di più :material-arrow-right-drop-circle:](browser-extensions.md)
 
 ## Fornitori di servizi
 

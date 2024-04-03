@@ -40,17 +40,6 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](desktop-browsers.md)
 
-### 其他資源
-
-<div class="grid cards" markdown>
-
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](desktop-browsers.md#ublock-origin)
-- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](desktop-browsers.md#ublock-origin-lite)
-
-</div>
-
-[了解更多 :material-arrow-right-drop-circle:](desktop-browsers.md#additional-resources)
-
 ## 行動瀏覽器
 
 <div class="grid cards" markdown>
@@ -62,16 +51,17 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-<!-- markdownlint-disable-next-line -->
-### 其他資源
+## Browser Extensions
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](mobile-browsers.md#adguard)
+- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for iOS](browser-extensions.md#adguard)
 
 </div>
 
-[了解更多 :material-arrow-right-drop-circle:](mobile-browsers.md#adguard)
+[了解更多 :material-arrow-right-drop-circle:](browser-extensions.md)
 
 ## 服務提供商
 
@@ -162,7 +152,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[了解更多 :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
 #### 禮品卡市集
 
@@ -172,7 +162,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 </div>
 
-[了解更多 :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+[Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
 ### 照片管理
 

@@ -209,32 +209,6 @@ You can enable E2EE for your Safari bookmarks and downloads by enabling [Advance
 
 אם אתה משתמש ב-iCloud עם הגנת נתונים מתקדמת מושבתת, אנו ממליצים גם לבדוק כדי לוודא שמיקום ההורדה המוגדר כברירת מחדל של Safari מוגדר באופן מקומי במכשיר שלך. ניתן למצוא אפשרות זו ב -:gear: **הגדרות** ← **Safari** ← **כללי** ← **הורדות**.
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard לוגו](assets/img/browsers/adguard.svg){ align=right }
-
-**AdGuard for iOS** הוא תוסף חסימת תוכן בקוד פתוח בחינם עבור Safari המשתמש ב-[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
-
-ל-AdGuard for iOS יש כמה תכונות פרימיום; עם זאת, חסימת תוכן ספארי רגילה אינה כרוכה בתשלום.
-
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-רשימות פילטרים נוספות מאטות את הקצב ועשויות להגדיל את משטח ההתקפה שלך, אז יש ליישם רק את מה שאתה צריך.
-
 ## קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
@@ -247,8 +221,3 @@ You can enable E2EE for your Safari bookmarks and downloads by enabling [Advance
 - דפדפני אנדרואיד חייבים להשתמש במנוע ה - Chromium.
     - למרבה הצער, Mozilla GeckoView עדיין פחות מאובטחת מ-Chromium באנדרואיד.
     - דפדפני iOS מוגבלים ל-WebKit.
-
-### קריטריונים להרחבה
-
-- אסור לשכפל דפדפן מובנה או פונקציונליות מערכת הפעלה.
-- חייב להשפיע ישירות על פרטיות המשתמש, כלומר לא חייב פשוט לספק מידע.

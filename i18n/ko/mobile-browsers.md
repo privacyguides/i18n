@@ -209,32 +209,6 @@ You can enable E2EE for your Safari bookmarks and downloads by enabling [Advance
 
 고급 데이터 보호가 비활성화된 iCloud를 사용하는 경우, 여러분의 기기에서 Safari 기본 다운로드 위치 설정을 확인하고 로컬로 지정할 것을 권장드립니다. 해당 옵션은 :gear: **설정** → **Safari** → **일반** → **다운로드**에서 확인할 수 있습니다.
 
-### AdGuard
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard 로고](assets/img/browsers/adguard.svg){ align=right }
-
-**iOS용 AdGuard**는 Safari용 무료 오픈 소스 콘텐츠 차단 확장 프로그램입니다. Safari [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker)를 사용합니다.
-
-iOS용 AdGuard에는 몇 가지 프리미엄 기능이 있지만, 표준 Safari 콘텐츠 차단 기능은 무료입니다.
-
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
-
-</details>
-
-</div>
-
-필터 목록을 추가하면 속도가 느려지고 공격 표면을 증가시킬 수 있으므로, 필요한 것만 적용하시기 바랍니다.
-
 ## 평가 기준
 
 **Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
@@ -247,8 +221,3 @@ iOS용 AdGuard에는 몇 가지 프리미엄 기능이 있지만, 표준 Safari 
 - Android 브라우저는 Chromium 엔진을 사용해야 합니다.
     - 안타깝게도 Android에서 Mozilla GeckoView는 Chromium보다 보안이 뒤떨어집니다.
     - iOS 브라우저는 Webkit으로 한정됩니다.
-
-### 확장 프로그램 평가 기준
-
-- 내장 브라우저 혹은 운영 체제 기능을 복제해서는 안됩니다.
-- 사용자 프라이버시에 직접적인 이점을 제공해야 합니다. 단순 정보 제공은 기준 미달입니다.
