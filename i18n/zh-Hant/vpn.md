@@ -88,7 +88,7 @@ Proton VPN 在其 [GitHub 組織](https://github.com/ProtonVPN) 中提供桌面�
 
 Proton VPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外， WireGuard 的目標是更簡單，更高效。
 
-Proton VPN [建議](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 在 Proton VPN 的 Windows、macOS、iOS、Android、ChromeOS 以及 Android TV 等平台的應用程式中，WireGuard 已是預設協議；然而， Linux 作業系統的應用程式[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols)此協議。
+Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 在 Proton VPN 的 Windows、macOS、iOS、Android、ChromeOS 以及 Android TV 等平台的應用程式中，WireGuard 已是預設協議；然而， Linux 作業系統的應用程式[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols)此協議。
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
@@ -98,19 +98,19 @@ Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](htt
 
 Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) 協定，在其它 VPN 協定如 OpenVPN、WireGuard 遭封鎖時*可能*有所幫助。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
 
-不幸在部署複雜過濾器分析所有對外流量以試圖發現加密隧道的國家/地區，它的效果不太好。 Stealth 也無法在 [Windows](https://github.com/ProtonVPN/win-app/issues/64) 或 Linux 上使用。
+不幸的是，在部署了複雜的過濾系統，且分析所有對外流量以試圖檢測加密隧道的國家/地區，它的效果並不理想。 Stealth 也無法在 [Windows](https://github.com/ProtonVPN/win-app/issues/64) 或 Linux 上使用。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
-除了提供標準 OpenVPN 設定檔外，Proton VPN 還在 [App Store](https://apps.apple.com/app/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) 和 [GitHub](https://github.com/ProtonVPN/android-app/releases) 提供行動裝置客戶端以方便連接到他們的伺服器。
+除了提供標準 OpenVPN 設定檔外，Proton VPN 還在 [App Store](https://apps.apple.com/app/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) 和 [GitHub](https://github.com/ProtonVPN/android-app/releases) 提供行動裝置客戶端，以供使用者方便連接到他們的伺服器。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-除 Linux 以外，Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外， Proton VPN 還提供“Tor”伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議這類目的，最好還是使用 [官方 Tor 瀏覽器](https://torproject.org) 。
+Proton VPN 客戶端目前支持除 Linux 外所有平臺上的雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外，Proton VPN 還提供 "Tor" 伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](https://torproject.org) 來完成此類目的。
 
-#### :material-alert-outline:{ .pg-orange } Killswitch 無法用在  Intel 處理器的 Mac 電腦
+#### :material-alert-outline:{ .pg-orange } Killswitch 無法在基於 Intel 處理器的 Mac 電腦上使用
 
-Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](https://protonvpn.com/support/macos-t2-chip-kill-switch) 。 如果您需要此功能，但使用的是搭載 Intel 晶片組的Mac ，則應考慮使用其他 VPN 服務。
+基於 Intel 處理器的 Mac 電腦 若使用 VPN killswitch 可能會導致 [系統崩潰](https://protonvpn.com/support/macos-t2-chip-kill-switch) 。 如果您需要此功能，但使用的是搭載 Intel 處理器的 Mac 電腦 ，則應考慮使用其他 VPN 服務。
 
 ### IVPN
 
@@ -118,15 +118,15 @@ Intel 處理器的 Mac 電腦 若用 VPN killswitch 會發生 [系統崩潰](htt
 
 ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** 是另一家高級 VPN 提供商，自  2009年開始運營。 IVPN 位於直布羅陀。
+**IVPN** 是另一個高級 VPN 提供商，自 2009 年開始運營。 IVPN 位於直布羅陀。
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="文件"}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
