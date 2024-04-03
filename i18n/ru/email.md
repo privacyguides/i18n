@@ -278,7 +278,7 @@ Tuta doesn't offer a digital legacy feature.
 
 ## Критерии
 
-**Обрати внимание, что мы не связаны ни с одним из рекомендуемых нами провайдеров.** Помимо [наших стандартных критериев](about/criteria.md), мы разработали четкий набор требований к любому провайдеру электронной почты, желающему быть рекомендованным, включая внедрение лучших отраслевых практик, современных технологий и многое другое. Мы рекомендуем тебе ознакомиться с этим списком, перед выбором провайдера электронной почты, и провести собственное исследование, чтобы убедиться, что выбранный тобой провайдер электронной почты подходит именно тебе.
+**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
 ### Технология
 

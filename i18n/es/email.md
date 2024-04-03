@@ -278,7 +278,7 @@ Para un enfoque más manual, hemos seleccionado estos dos artículos:
 
 ## Criterios
 
-**Tenga en cuenta que no estamos afiliados a ninguno de los proveedores que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos para cualquier proveedor de Email que desee ser recomendado, incluyendo la implementación de las mejores prácticas de la industria, tecnología moderna y más. Le sugerimos que se familiarice con esta lista antes de elegir un proveedor de correo electrónico, y que realice su propia investigación para asegurarse de que el proveedor de correo electrónico que elija sea la opción adecuada para usted.
+**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
 ### Tecnología
 

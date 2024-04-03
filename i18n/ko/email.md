@@ -278,7 +278,7 @@ Tuta doesn't offer a digital legacy feature.
 
 ## 평가 기준
 
-**Privacy Guides는 권장 목록의 어떠한 제공 업체와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 이메일 제공 업체 평가 기준에는 업계 모범 사례, 최신 기술 사용 여부 등이 포함됩니다. 특정 이메일 제공 업체를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
+**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
 ### 기술
 

@@ -278,7 +278,7 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 
 ## קריטריונים
 
-**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף [לקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה לפני שתבחר ספק דוא"ל, ולערוך מחקר משלך כדי להבטיח שספק הדוא"ל שבחרת הוא הבחירה הנכונה עבורך.
+**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
 ### טכנולוגיה
 

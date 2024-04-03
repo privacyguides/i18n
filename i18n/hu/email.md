@@ -278,7 +278,7 @@ A manuálisabb megközelítéshez ezt a két cikket választottuk ki:
 
 ## Követelmények
 
-**Felhívjuk figyelmedet, hogy nem állunk kapcsolatban az általunk ajánlott szolgáltatókkal.** A [alapvető kritériumainkon](about/criteria.md) túlmenően egyértelmű követelményrendszert dolgoztunk ki minden olyan e-mail szolgáltató számára, amelyet ajánlani kívánunk, beleértve az iparági legjobb gyakorlatok alkalmazását, a modern technológiát és egyebeket. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt választasz egy e-mail szolgáltatót, és végezz saját kutatást, hogy megbizonyosodj arról, hogy a választott e-mail szolgáltató a megfelelő választás a számodra.
+**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
 ### Technológia
 
