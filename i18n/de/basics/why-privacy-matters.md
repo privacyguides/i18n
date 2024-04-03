@@ -5,58 +5,58 @@ icon: 'material/shield-account'
 
 Nie war deine Privatsphäre so wichtig, wie im modernen Zeitalter der digitalen Datenauswertung. Dennoch glaubne viele, dass es bereits ein hoffnungsloser Fall ist. Das ist es nicht. ==Deine Privatsphäre ist in Gefahr== und du musst dich darum kümmern. Bei der Privatsphäre geht es um Macht, darum ist es wichtig, dass die Macht in den richtigen Händen landet.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Bei der Privatsphäre geht es letztlich um Informationen über Menschen, und das ist deshalb so wichtig, weil wir wissen diese Informationen Macht über Menschen verleiht. Wenn uns daran gelegen ist, dass wir authentische, erfüllte und freie Menschen sein können, müssen wir uns um die Regeln kümmern und sorgen, die für Informationen über uns gelten. Unsere moderne Gesellschaft ist zu einem großen Teil auf **Informationen** ausgerichtet. Wenn du online einkaufst, die Nachrichten liest, etwas im Internet recherchierst, wählst, eine Wegbeschreibung suchst oder wirklich nur irgendetwas online tust, verlässt du dich auf diese Informationen. Wenn wir in einer Informationsgesellschaft leben, sind unsere eigenen Informationen wichtig, und deshalb ist auch die Privatsphäre wichtig.
 
-## What is Privacy?
+## Was ist Privatsphäre?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Viele Menschen verwechseln die Begriffe zur **Privatsphäre**, **Sicherheit** und **Anonymität**. Es gibt Leute, die verschiedene Produkte als "nicht privat" kritisieren, obwohl sie in Wirklichkeit meinen, dass sie beispielsweise keine Anonymität bieten. Auf dieser Website befassen wir uns mit allen drei Themen, aber es ist wichtig, dass du den Unterschied zwischen ihnen verstehst und weißt, wann es um welches der drei Themen geht.
 
 <!-- markdownlint-disable-next-line -->
 **Datenschutz**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==Privatsphäre ist die Gewissheit, dass deine Daten nur von den Parteien gesehen werden, die sie sehen sollen.== Im Zusammenhang mit einem Messengerdienst beispielsweise, sorgt die Ende-zu-Ende-Verschlüsselung (E2EE) für Privatsphäre, indem sie dafür sorgt, dass deine Nachricht nur für dich selbst und den Empfänger sichtbar ist.
 
 <!-- markdownlint-disable-next-line -->
 **Sicherheit**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. Im Zusammenhang mit dem Surfen im Internet kann solche Sicherheit zum Beispiel durch HTTPS-Zertifikate gewährleistet werden.
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+Zertifikate beweisen, dass du direkt mit der von dir besuchten Website kommunizierst, und hindern Angreifer in deinem Netzwerk daran, die an die Website gesendeten oder von ihr stammenden Daten zu lesen oder zu verändern.
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**Anonymität**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Anonymität ist die Fähigkeit, ohne dauerhafte Kennungen zu agieren. Dies könntest du online mit [Tor](../tor.md) erreichen, das es dir ermöglicht, mit einer zufälligen IP-Adresse und Netzwerkverbindung anstelle deiner eigenen im Internet zu surfen.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+**Pseudonymität** ist ein ähnliches Konzept, das es dir ermöglicht, eine dauerhafte Kennung zu haben, ohne dass diese mit deiner tatsächlichen Identität verbunden ist. Wenn dich jeder online als `@GamerGuy12` kennt, aber niemand deinen richtigen Namen weiß, ist das dein Pseudonym.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+Alle diese Konzepte überschneiden sich, aber es ist möglich, jede beliebige Kombination von ihnen zu haben. Für die meisten Menschen ist es am besten, wenn sich alle drei Konzepte überschneiden. Es ist jedoch schwieriger zu erreichen, als viele zunächst glauben. Manchmal muss man bei einigen dieser Punkte Kompromisse eingehen, und das ist auch in Ordnung. Hier kommt die **Bedrohungsmodellierung** ins Spiel, die es dir ermöglicht, fundierte Entscheidungen über die von dir genutzte [Software und Dienste](../tools.md) zu treffen.
 
-[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
+[:material-book-outline: Mehr über die Bedrohungsanalyse erfahren](threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## Privatsphäre (Datenschutz) vs. Geheimhaltung
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+Ein häufiges Gegenargument zum Datenschutz, ist die Vorstellung, dass man keine Privatsphäre braucht, wenn man **"nichts zu verbergen" hat.** Dies ist ein gefährlicher Irrtum, denn er erweckt den Eindruck, dass Menschen, die Privatsphäre fordern, abartig, kriminell oder falsch sein müssen.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. Das liegt daran, dass du deine Privatsphäre willst, aber nicht unbedingt alles verheimlichen willst. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==Man sollte Privatsphäre nicht mit Geheimhaltung verwechseln.== Wir wissen, was auf der Toilette passiert, aber du machst trotzdem die Tür zu. Das liegt daran, dass du deine Privatsphäre willst, nicht Geheimhaltung. Es gibt immer bestimmte Fakten über uns - z. B. Informationen über unsere Gesundheit oder unser Sexualverhalten -, von denen wir nicht möchten, dass die ganze Welt sie erfährt, und das ist in Ordnung so. Das Bedürfnis nach Privatsphäre ist legitim, und das macht uns menschlich. Bei der Privatsphäre geht es darum, deine Rechte über deine eigenen Daten zu stärken, nicht darum, Geheimnisse zu verbergen.
 
-## Is Privacy About Control?
+## Geht es bei Privatsphäre um Kontrolle?
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Eine gängige Definition des Begriffs "Datenschutz" besagt, dass es sich um die Möglichkeit handelt, zu *kontrollieren,* wer Zugang zu deinen Daten hat. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. Es klingt schön und es spricht viele Leute an, aber in der Praxis funktioniert es einfach nicht.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+Nimm zum Beispiel Einwilligungserklärungen für Cookies. Auf den verschiedenen Websites, die Sie besuchen, begegnen dir diese vielleicht dutzende Male pro Tag, mit einer netten Auswahl an Kontrollkästchen und Schiebereglern, die es dir ermöglichen, deine Präferenzen genau nach deinen Bedürfnissen zu "kuratieren". Am Ende drücken wir einfach auf die Schaltfläche "Ich stimme zu", weil wir den Artikel lesen oder einen Kauf tätigen wollen. Niemand möchte auf jeder einzelnen Website, die er besucht, ein persönliches Datenschutzaudit durchführen. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
 
 ==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+Datenschutz ist etwas, das standardmäßig in die von uns genutzte [Software und die von uns genutzten Dienste](../tools.md) implementiert sein muss, denn man kann die meisten Anwendungen und Dienste nicht selbst auf Datenschutz trimmen.
 
-## Sources
+## Quellen
 
-- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
+- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) von Neil Richards
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)
-- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
+- [@Thorin-Oakenpants über Anonymität vs. Privatsphäre vs. Sicherheit](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)

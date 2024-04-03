@@ -239,9 +239,9 @@ Brave basiert auf dem Chromium-Webbrowser-Projekt, sollte sich also vertraut anf
 <summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-windows11: Windows](https://brave.com/download)
-- [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux)
+- [:simple-windows11: Windows](https://brave.com/de/download/)
+- [:simple-apple: macOS](https://brave.com/de/download/)
+- [:simple-linux: Linux](https://brave.com/linux/)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>

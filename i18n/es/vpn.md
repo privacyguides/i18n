@@ -63,12 +63,12 @@ Nuestros proveedores recomendados usan encriptación, aceptan Monero, soportan W
 
 </div>
 
-#### :material-check:{ .pg-green } 91 Countries
+#### :material-check:{ .pg-green } 91 Países
 
-Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) [or 8 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Proton VPN tiene [servidores en 91 países](https://protonvpn.com/vpn-servers) [u 8 su usas el plan gratuito](https://protonvpn.com/free-vpn).(1) Eligiendo un proveedor de VPN con un servidor cerca tuyo reduce la latencia del tráfico de red saliente. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Última revisión: 2024-04-02
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -92,9 +92,9 @@ Mullvad soporta el protocolo WireGuard®. [WireGuard](https://wireguard.com) es 
 
 Proton VPN [recomienda](https://protonvpn.com/blog/wireguard) el uso de WireGuard con su servicio. En las aplicaciones de Proton VPN para Windows, macOS, iOS, Android, ChromeOS y Android TV, WireGuard es el protocolo predeterminado; sin embargo, [la compatibilidad](https://protonvpn.com/support/how-to-change-vpn-protocols) para el protocolo no está presente en su aplicación para Linux.
 
-#### :material-alert-outline:{ .pg-orange } No IPv6 Support
+#### :material-alert-outline:{ .pg-orange } Sin soporte para IPv6
 
-Proton VPN's servers are only compatible with IPv4. The Proton VPN applications will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Proton VPN from an IPv6-only network.
+Los servidores de Proton VPN sólo son compatibles con IPv4. Las aplicaciones de Proton VPN bloquearán todo el tráfico IPv6 saliente, por lo que no debes preocuparte por la filtración de tu dirección IPv6, pero no serás capaz de conectarte a cualquier página disponible sólo a través de IPv6 y no serás capaz de conectarte a Proton VPN desde una red de solo IPv6.
 
 #### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
 
@@ -150,7 +150,7 @@ Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-c
 IVPN tiene [servidores en 37 países](https://ivpn.net/status).(1) Elegir un proveedor VPN con un servidor más cercano a ti reducirá la latencia del tráfico de red que envíes. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Última revisión: 2024-04-02
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -225,7 +225,7 @@ Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y 
 Mullvad tiene [servidores en 41 países](https://mullvad.net/servers).(1) Elegir un proveedor de VPN con el servidor más cercano a ti reducirá la latencia del tráfico de red que envías. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Última revisión: 2024-04-02
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 
