@@ -1,5 +1,5 @@
 ---
-meta_title: "PC 和 Mac上隱私權尊重網頁瀏覽器的 - Privacy Guides"
+meta_title: "尊重隱私的 PC 和 Mac 網路瀏覽器 - Privacy Guides"
 title: "桌面瀏覽器"
 icon: material/laptop
 description: 這些網頁瀏覽器提供比 Google Chrome 更強大的隱私保護。
@@ -95,34 +95,34 @@ schema:
 
 請注意，雖然您可以將 Mullvad 瀏覽器與任何 VPN 供應商一起使用，但該 VPN 上的其他使用者也必須使用 Mullvad 瀏覽器，才能形成這個「人群」，而這在 Mullvad VPN 上比其他供應商更有可能發生，特別是在 Mullvad 瀏覽器推出後不久。 Mullvad 瀏覽器沒有內建 VPN，也不會在瀏覽之前檢查是否使用 VPN，必須另外設定和管理 VPN 連線。
 
-Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們通常不建議新增*額外*的[瀏覽器擴充功能](browser-extensions.md)，且這些與瀏覽器預裝的擴充功 **不**應移除或在預設值以外進行設定，一旦隨意更動，您的瀏覽器指紋會明顯有別於其他 Mullvad 瀏覽器使用者。 它還預先安裝了 Mullvad 瀏覽器擴充功能，但也*可*將其安全地移除，而不會影響您的瀏覽器指紋，但即使您不使用 Mullvad VPN，也可以安全地保留它。
+Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們通常不建議新增*額外*的[瀏覽器擴充功能](browser-extensions.md)，且這些與瀏覽器預裝的擴充功能**不**應移除或在預設值以外進行設定，一旦隨意更動，您的瀏覽器指紋會明顯有別於其他 Mullvad 瀏覽器使用者。 它還預先安裝了 Mullvad 瀏覽器擴充功能，但也*可*將其安全地移除，而不會影響您的瀏覽器指紋，但即使您不使用 Mullvad VPN，也可以安全地保留它。
 
 ### 隱私瀏覽模式
 
 Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的歷史記錄、Cookie 和其他網站資料在每次關閉瀏覽器時都會被清除。 但書籤、瀏覽器設定和擴充功能設定仍會保留。
 
-這是為了防止進階形式的跟蹤，但確實犧牲了方便和某些Firefox功能（例如多帳戶容器）為代價。 請記住，您可以隨時使用多個瀏覽器，例如，您可以考慮將Firefox + Arkenfox用於一些您希望保持登錄或在Mullvad瀏覽器中無法正常工作的網站，以及用於一般瀏覽的Mullvad瀏覽器。
+這是為了防止進階形式的追蹤，但確實犧牲了便利性和一些 Firefox 功能，例如多重帳戶容器 (Multi-Account Containers，又稱容器分頁功能)。 請記住，您隨時可以使用多個瀏覽器，例如，您可以考慮對希望保持登入狀態或在 Mullvad 瀏覽器中無法正常運作的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時使用 Mullvad 瀏覽器。
 
 ### Mullvad Leta
 
-Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.md)，它也預先安裝了 **Mullvad Leta**，這是需要訂閱 Mullvad VPN 才能訪問的搜索引擎。 Mullvad Leta 直接查詢 Google的付費搜索API （這是為什麼僅限於付費用戶） ，但由於這種限制， Mullvad 可以將搜索查詢與 Mullvad VPN 帳戶作關聯。 因此，不鼓勵使用 Mullvad Leta ，即使 Mullvad 收集關於其VPN 用戶的資訊很少。
+Mullvad 瀏覽器將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)，它也預先安裝了 **Mullvad Leta**，一個需要訂閱 Mullvad VPN 才能使用的搜尋引擎。 Mullvad Leta 使用 Google 的付費搜尋 API (這就是為什麼它僅限於付費訂閱者)，但由於這種限制，Mullvad 可以把搜尋查詢和 Mullvad VPN 帳戶進行關聯。 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
 
 ## Firefox
 
 <div class="admonition recommendation" markdown>
 
-![Firefox標誌](assets/img/browsers/firefox.svg){ align=right }
+![Firefox 標誌](assets/img/browsers/firefox.svg){ align=right }
 
-**Firefox** 提供強大的隱私設定，例如[Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) ，可以幫助阻止各種[類型的追蹤](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
+**Firefox** 提供強大的隱私設定，例如[加強型追蹤保護功能](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，可以幫助阻擋各種[類型的追蹤](https://support.mozilla.org/zh-TW/kb/enhanced-tracking-protection-firefox-desktop#w_jia-qiang-xing-zhui-zong-bao-hu-gong-neng-hui-feng-suo-shi-mo)。
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title="文件" }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="捐贈" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -134,19 +134,19 @@ Mullvad Browser 將DuckDuckGo 設置為預設的 [搜索引擎](search-engines.m
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
-Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，並使用 Firefox 中的遙測技術傳送令牌。 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/)的更新**不**包含該令牌。
+Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，並使用 Firefox 中的遙測傳送該令牌。 該令牌**不**包含在 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases) 上的發行版中。
 
 </div>
 
-### Recommended Firefox Configuration
+### 建議的 Firefox 設定
 
-這些選項可以在 :material-menu: → **設置**中找到
+這些選項可以在 :material-menu: → **設定** 中找到
 
 #### 搜尋
 
-- [ ] 取消勾選**提供搜尋建議**
+- [ ] 取消勾選**顯示搜尋建議**
 
 搜尋建議功能可能無法在您所在的地區使用。
 
@@ -154,26 +154,26 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 #### 隱私 & 安全
 
-##### 增強的追蹤保護
+##### 加強型追蹤保護功能
 
-- [x] Select **嚴格**加強型追蹤保護
+- [x] 選擇 **嚴格** 加強型追蹤保護
 
-通過封鎖社交媒體跟蹤器、指紋腳本（請注意，這並不能防止 *所有* 指紋的侵害）、加密挖礦器、跨站點跟蹤cookie和其他跟蹤內容來保護您。 ETP 可以防止許多常見威脅，但它不能阻止所有跟蹤途徑，因為它的設計對網站的可用性影響很小甚至沒有影響。
+通過封鎖社交媒體追蹤器、指紋辨識腳本 (請注意，這無法保護您免於*所有*的指紋辨識)、加密貨幣採礦程式、跨網站 Cookie 和其他追蹤內容來保護您。 加強型追蹤保護功能可保護您免於許多常見威脅，但它不能阻止所有追蹤途徑，因為它被設計為對網站的可用性影響極小或沒有影響。
 
-##### Firefox建議（僅限美國）
+##### Firefox Suggest (僅限美國)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 功能只限美國地區，其類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在 **地址欄** 標題下沒有看到這些選項，則表示您沒有新的體驗，可以忽略這些變更。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 功能只限美國地區，其功能類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在 **搜尋建議** 及 <0>網址列</0> 標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
 
 - [ ] 取消勾選 **提供搜尋建議**
-- [ ] 取消勾選 **贊助商的建議**
+- [ ] 取消勾選 **Suggestions from sponsors**
 
-##### 關閉時消毒
+##### 關閉時清除資料
 
-如果您想在特定網站保持登錄狀態，可允許 **Cookies 和網站資料中的例外情況** → **管理例外情況...**
+如果您想在特定網站保持登入，可以在 **Cookie 與網站資料** → **管理例外網站…** 中允許例外。
 
 - [x] 勾選 **關閉 Firefox 時清除 Cookie 與網站資料**
 
-這可以保護您免受持久性 Cookie 侵害，但不能保護您免受在任何一次瀏覽過程的 Cookie。 啟用此功能後，只需重新啟動 Firefox ，即可輕鬆清除您的瀏覽器 cookie。 您可以設定每個網站的例外情況，如果希望經常訪問的特定網站保持登錄。
+這可以保護您免受持久性 Cookie 侵害，但不能保護您免受在任何一次瀏覽階段的 Cookie。 啟用此功能後，只需重新啟動 Firefox，就能輕鬆清除瀏覽器 Cookie。 如果您希望在經常造訪的特定網站保持登入，可以針對每個網站設定例外。
 
 ##### 遙測
 

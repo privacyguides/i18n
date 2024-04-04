@@ -165,7 +165,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-#### Recommended Firefox Configuration
+#### 建議的 Firefox 設定
 
 這些選項可以在 :gear: **Safari** →**設定**中找到。
 
