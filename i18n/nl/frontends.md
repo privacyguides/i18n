@@ -122,10 +122,11 @@ Yattee blokkeert standaard alle YouTube-advertenties. Bovendien integreert Yatte
 
 Met LibreTube kunt u uw abonnementenlijst en afspeellijsten lokaal op uw Android-toestel opslaan, of in een account op uw Piped-instantie naar keuze, waardoor u er ook op andere toestellen naadloos toegang toe hebt.
 
-[:octicons-home-16: Homepage](https://libre-tube.github.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://libretube.dev){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -143,7 +144,7 @@ When using LibreTube, your IP address will be visible to the [Piped](https://git
 
 </div>
 
-LibreTube blokkeert standaard alle YouTube-advertenties. Bovendien gebruikt Libretube [SponsorBlock](https://sponsor.ajay.app) om u te helpen gesponsorde videosegmenten over te slaan. U kunt de soorten segmenten die SponsorBlock zal overslaan volledig configureren, of volledig uitschakelen. Er is ook een knop op de videospeler zelf om deze desgewenst voor een specifieke video uit te schakelen.
+LibreTube blokkeert standaard alle YouTube-advertenties. Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. U kunt de soorten segmenten die SponsorBlock zal overslaan volledig configureren, of volledig uitschakelen. Er is ook een knop op de videospeler zelf om deze desgewenst voor een specifieke video uit te schakelen.
 
 ### NewPipe (Android)
 
@@ -225,8 +226,8 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 Piped vereist JavaScript om te kunnen functioneren en er zijn een aantal openbare instanties.
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://piped-docs.kavin.rocks){ .card-link title=Documentation}
+[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 

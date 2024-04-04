@@ -122,10 +122,11 @@ When using Yattee, your IP address may still be known to YouTube, [Invidious](ht
 
 LibreTube מאפשר לך לאחסן את רשימת המנויים והפלייליסטים שלך באופן מקומי במכשיר האנדרואיד שלך, או בחשבון במופע Piped שבחרת, מה שמאפשר לך לגשת אליהם בצורה חלקה גם במכשירים אחרים.
 
-[:octicons-home-16: Homepage](https://libre-tube.github.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://libretube.dev){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -143,7 +144,7 @@ When using LibreTube, your IP address will be visible to the [Piped](https://git
 
 </div>
 
-כברירת מחדל, LibreTube חוסמת את כל פרסומות יוטיוב. בנוסף, Libretube משתמשת ב[SponsorBlock](https://sponsor.ajay.app) כדי לעזור לך לדלג על קטעי וידאו ממומנים. אתה יכול להגדיר באופן מלא את סוגי הפלחים שSponsorBlock ידלג עליהם, או להשבית אותו לחלוטין. יש גם כפתור בנגן הווידאו עצמו כדי להשבית אותו עבור סרטון מסוים אם תרצה בכך.
+כברירת מחדל, LibreTube חוסמת את כל פרסומות יוטיוב. Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. אתה יכול להגדיר באופן מלא את סוגי הפלחים שSponsorBlock ידלג עליהם, או להשבית אותו לחלוטין. יש גם כפתור בנגן הווידאו עצמו כדי להשבית אותו עבור סרטון מסוים אם תרצה בכך.
 
 ### NewPipe (אנדרואיד)
 
@@ -225,8 +226,8 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 Piped דורש JavaScript כדי לתפקד ויש מספר מופעים ציבוריים.
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://piped-docs.kavin.rocks){ .card-link title=Documentation}
+[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 

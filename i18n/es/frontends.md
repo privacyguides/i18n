@@ -122,10 +122,11 @@ Por defecto, Yattee bloquea todos los anuncios de YouTube. Además, Yattee se in
 
 LibreTube le permite almacenar su lista de suscripciones y listas de reproducción localmente en su dispositivo Android, o en una cuenta de su instancia de Piped preferida, lo que le permite acceder a ellas sin problemas desde otros dispositivos.
 
-[:octicons-home-16: Página Principal](https://libre-tube.github.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://libretube.dev){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -143,7 +144,7 @@ Cuando uses LibreTube, tu dirección IP será visible para la instancia [Piped](
 
 </div>
 
-Por defecto, LibreTube bloquea todos los anuncios de YouTube. Además, Libretube utiliza [SponsorBlock](https://sponsor.ajay.app) para ayudarle a saltarse los segmentos de vídeo patrocinados. Puede configurar completamente los tipos de segmentos que SponsorBlock omitirá, o desactivarlo por completo. También hay un botón en el propio reproductor de vídeo para desactivarlo para un vídeo específico si lo desea.
+Por defecto, LibreTube bloquea todos los anuncios de YouTube. Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. Puede configurar completamente los tipos de segmentos que SponsorBlock omitirá, o desactivarlo por completo. También hay un botón en el propio reproductor de vídeo para desactivarlo para un vídeo específico si lo desea.
 
 ### NewPipe (Android)
 
@@ -224,11 +225,11 @@ Invidious es útil si deseas desactivar JavaScript en tu navegador, como [Tor Br
 
 Piped requiere JavaScript para funcionar y existen varias instancias públicas.
 
-[:octicons-repo-16: Repositorio](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Instancias Públicas"}
-[:octicons-info-16:](https://piped-docs.kavin.rocks){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribuir }
+[:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 
 </details>
 

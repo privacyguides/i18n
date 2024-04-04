@@ -122,10 +122,11 @@ O **LibreTube** é uma aplicação Android gratuita e de código aberto para [Yo
 
 O LibreTube permite-lhe armazenar a sua lista de subscrição e listas de reprodução localmente no seu dispositivo Android, ou numa conta na sua instância de eleição do Piped, o que lhe permite aceder-lhes sem problemas também noutros dispositivos.
 
-[:octicons-home-16: Homepage](https://libre-tube.github.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/libre-tube/LibreTube#privacy-policy-and-disclaimer){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Homepage](https://libretube.dev){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -143,7 +144,7 @@ When using LibreTube, your IP address will be visible to the [Piped](https://git
 
 </div>
 
-Por defeito, o LibreTube bloqueia todos os anúncios do YouTube. Além disso, o Libretube utiliza o [SponsorBlock](https://sponsor.ajay.app) para o ajudar a saltar segmentos de vídeo patrocinados. É possível configurar totalmente os tipos de segmentos que SponsorBlock irá ignorar ou desactivá-lo completamente. Existe também um botão no próprio leitor de vídeo para o desativar para um vídeo específico, se assim o desejar.
+Por defeito, o LibreTube bloqueia todos os anúncios do YouTube. Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. É possível configurar totalmente os tipos de segmentos que SponsorBlock irá ignorar ou desactivá-lo completamente. Existe também um botão no próprio leitor de vídeo para o desativar para um vídeo específico, se assim o desejar.
 
 ### NewPipe (Android)
 
@@ -225,8 +226,8 @@ O **Piped** é um frontend gratuito e de código aberto para [YouTube](https://y
 O Piped requer JavaScript para funcionar e existem várias instâncias públicas.
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://piped.kavin.rocks/preferences#ddlInstanceSelection){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://piped-docs.kavin.rocks){ .card-link title=Documentation}
+[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
 

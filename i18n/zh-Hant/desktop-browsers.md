@@ -61,11 +61,11 @@ schema:
 
 如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。 我們在此頁面提供一些設定建議，但除了 Tor 瀏覽器之外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
 
-## Mullvad Browser
+## Mullvad 瀏覽器
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser 標誌](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad 瀏覽器標誌](assets/img/browsers/mullvad_browser.svg){ align=right }
 
 **Mullvad 瀏覽器**是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本，，旨在為 VPN 使用者提供 Tor 瀏覽器的反指紋辨識技術。 它由 Tor Porject 開發並由 [Mullvad](vpn.md#mullvad)發佈，且不需要使用 Mullvad 的 VPN。
 
@@ -85,21 +85,21 @@ schema:
 
 </div>
 
-與 [Tor 瀏覽器](tor.md)類似，Mullvad 瀏覽器旨在通過使您的瀏覽器指紋與其他 Mullvad 瀏覽器用戶相同來防止指紋識別，並且它還包括根據安全等級自動配置的設定和擴充功能，分為 *標準*、*較安全* 和 *最安全* 三個等級。 因此，除了調整預設的 [安全等級](https://tb-manual.torproject.org/security-settings)之外，絕對不要修改瀏覽器。 其他修改將使您的指紋獨一無二，破壞使用此瀏覽器的目的。 如果您想重度配置瀏覽器，並且指紋不是問題，則建議使用 [Firefox](#firefox) 。
+與 [Tor 瀏覽器](tor.md)類似，Mullvad 瀏覽器旨在通過使您的瀏覽器指紋與其他 Mullvad 瀏覽器用戶相同來防止指紋識別，並且它還包括根據安全等級自動配置的設定和擴充功能，分為 *標準*、*較安全* 和 *最安全* 三個等級。 因此，除了調整預設的[安全等級](https://tb-manual.torproject.org/security-settings)外，請絕對不要對瀏覽器進行任何修改。 其他修改將使您的指紋變得獨特，從而打破使用此瀏覽器的目的。 如果您希望對瀏覽器進行更多配置，且指紋識別對您來說不是問題，我們建議使用 [Firefox](#firefox)。
 
-### 防指印辨識
+### 防止指紋識別
 
-**沒有** 使用 [VPN](vpn.md)， Mullvad 瀏覽器提供與其他私人瀏覽器（如Firefox +[Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)）相同的保護，防止 [原生的指紋腳本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) 。 Mullvad Browser 優異地提供這些保護，代價是沒有其它瀏覽器所具備的靈活性和便利。
+在**不**使用 [VPN](vpn.md) 的情況下，Mullvad 瀏覽器可提供與其他私人瀏覽器 (例如 Firefox + [Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)) 相同的防護措施，以對抗[單純的指紋辨識腳本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)。 Mullvad 瀏覽器在開箱即用的情況下提供了這些保護措施，代價是可能會牺牲其他私密瀏覽器所具備的靈活性和便利性。
 
-==需要最強的防指紋辨識保護，建議使用 Mullvad 瀏覽器**搭配**  VPN==無論是 Mullvad VPN 或其它推薦的 VPN 提供商。 Mullvad 瀏覽器使用 VPN 時，您將與許多其他用戶共享指紋和 IP地址池，以讓您混在其中的“人羣”。 這種策略是阻止進階追蹤腳本的唯一方法，也是Tor Browser使用的相同反指紋技術。
+==要獲得最強大的防指紋辨識防護，我們建議將 Mullvad 瀏覽器 **搭配** VPN 一同使用== ，不論是 Mullvad 或其他推薦的 VPN 供應商皆可。 當您將 VPN 與 Mullvad 瀏覽器搭配使用時，您將與許多其他使用者共用一個指紋和 IP 位址池，以讓你混在「人群」之中。 這個策略是阻止進階追蹤腳本的唯一方法，也是 Tor Browser 使用的相同防指紋辨識技術。
 
-請注意，雖然可以將 Mullvad 瀏覽器與任何 VPN 一起使用，但該 VPN 的其他人也必須使用 Mullvad瀏覽器 "人群"才會存在。比起其他提供商， Mullvad VPN 更可能存在相同的人群，特別是Mullvad 瀏覽器的推出。 Mullvad 瀏覽器沒有內建VPN 連接，也不會在瀏覽之前檢查是否使用 VPN，必須單獨配置和管理VPN 連接。
+請注意，雖然您可以將 Mullvad 瀏覽器與任何 VPN 供應商一起使用，但該 VPN 上的其他使用者也必須使用 Mullvad 瀏覽器，才能形成這個「人群」，而這在 Mullvad VPN 上比其他供應商更有可能發生，特別是在 Mullvad 瀏覽器推出後不久。 Mullvad 瀏覽器沒有內建 VPN，也不會在瀏覽之前檢查是否使用 VPN，必須另外設定和管理 VPN 連線。
 
-Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. 它還預先安裝了 Mullvad 瀏覽器擴展套件，但也可將之*安全地移除* ，並不會影響瀏覽器指紋，但即使不使用Mullvad VPN ，也可以安全地保留。
+Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們通常不建議新增*額外*的[瀏覽器擴充功能](browser-extensions.md)，且這些與瀏覽器預裝的擴充功 **不**應移除或在預設值以外進行設定，一旦隨意更動，您的瀏覽器指紋會明顯有別於其他 Mullvad 瀏覽器使用者。 它還預先安裝了 Mullvad 瀏覽器擴充功能，但也*可*將其安全地移除，而不會影響您的瀏覽器指紋，但即使您不使用 Mullvad VPN，也可以安全地保留它。
 
 ### 隱私瀏覽模式
 
-Mullvad 瀏覽器永久以隱私瀏覽模式運行，這意味著歷史記錄、Cookie 和其他網站資料在每次關閉瀏覽器時都會被清除。 但書籤、瀏覽器設定和擴充功能設定仍會保留。
+Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的歷史記錄、Cookie 和其他網站資料在每次關閉瀏覽器時都會被清除。 但書籤、瀏覽器設定和擴充功能設定仍會保留。
 
 這是為了防止進階形式的跟蹤，但確實犧牲了方便和某些Firefox功能（例如多帳戶容器）為代價。 請記住，您可以隨時使用多個瀏覽器，例如，您可以考慮將Firefox + Arkenfox用於一些您希望保持登錄或在Mullvad瀏覽器中無法正常工作的網站，以及用於一般瀏覽的Mullvad瀏覽器。
 
