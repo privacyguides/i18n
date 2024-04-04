@@ -2,7 +2,7 @@
 meta_title: "私密 VPN 服務建議和比較，無任何贊助商或廣告 - Privacy Guides"
 title: "VPN 服務"
 icon: material/vpn
-description: 這些是保護您線上隱私和安全的最佳 VPN 服務。 在這裡找一個不會監視您的供應商。
+description: 這些是保護您線上隱私和安全的最佳 VPN 服務。 在這裡尋找一個不會監視您的供應商。
 cover: vpn.webp
 ---
 
@@ -63,12 +63,12 @@ cover: vpn.webp
 
 </div>
 
-#### :material-check:{ .pg-green } 91 Countries
+#### :material-check:{ .pg-green } 91 個國家
 
-Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) [or 8 if you use their free plan](https://protonvpn.com/free-vpn).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
+Proton VPN 在 [88 個國家/地區設有伺服器](https://protonvpn.com/vpn-servers)，[免費方案則為 5 國](https://protonvpn.com/free-vpn)。 (1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. 上次檢查日期：2024-04-02
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如[虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
 
@@ -90,15 +90,15 @@ Proton VPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protoc
 
 Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 在 Proton VPN 的 Windows、macOS、iOS、Android、ChromeOS 以及 Android TV 等平台的應用程式中，WireGuard 已是預設協議；然而， Linux 作業系統的應用程式[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols)此協議。
 
-#### :material-alert-outline:{ .pg-orange } No IPv6 Support
+#### :material-alert-outline:{ .pg-orange } 不支援 IPv6
 
-Proton VPN's servers are only compatible with IPv4. The Proton VPN applications will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Proton VPN from an IPv6-only network.
+Proton VPN 的伺服器僅支援 IPv4。 Proton VPN 的客戶端會封鎖所有的 IPv6 出站流量，所以不用擔心您的 IPv6 地址會洩漏，但是您將無法連接到任何僅支援 IPv6 的網站，並且無法從僅有 IPv6 的網路連接到 Proton VPN。
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
 Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](https://protonvpn.com/support/port-forwarding)，租用時間為 60 秒。 Windows 應用程式提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup)。 BT 客戶端通常原生支援 NAT-PMP。
 
-#### :material-information-outline:{ .pg-blue } Anti-Censorship
+#### :material-information-outline:{ .pg-blue } 突破網路審查
 
 Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) 協定，在其它 VPN 協定如 OpenVPN、WireGuard 遭封鎖時*可能*有所幫助。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
 
@@ -108,13 +108,13 @@ Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protoco
 
 除了提供標準 OpenVPN 設定檔外，Proton VPN 還在 [App Store](https://apps.apple.com/app/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) 和 [GitHub](https://github.com/ProtonVPN/android-app/releases) 提供行動裝置客戶端，以供使用者方便連接到他們的伺服器。
 
-#### :material-alert-outline:{ .pg-orange } Additional Notes
+#### :material-alert-outline:{ .pg-orange } 補充說明
 
 Proton VPN 客戶端目前支持除 Linux 外所有平臺上的雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外，Proton VPN 還提供 "Tor" 伺服器，讓您可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](https://torproject.org) 來完成此類目的。
 
 ##### :material-alert-outline:{ .pg-orange } Killswitch 無法在基於 Intel 處理器的 Mac 電腦上使用
 
-基於 Intel 處理器的 Mac 電腦 若使用 VPN killswitch 可能會導致 [系統崩潰](https://protonvpn.com/support/macos-t2-chip-kill-switch) 。 如果您需要此功能，但使用的是搭載 Intel 處理器的 Mac 電腦 ，則應考慮使用其他 VPN 服務。
+基於 Intel 處理器的 Mac 電腦 若使用 VPN killswitch 可能會導致[系統崩潰](https://protonvpn.com/support/macos-t2-chip-kill-switch) 。 如果您需要此功能，但使用的是搭載 Intel 處理器的 Mac 電腦 ，則應考慮使用其他 VPN 服務。
 
 ### IVPN
 
@@ -148,13 +148,13 @@ Proton VPN 客戶端目前支持除 Linux 外所有平臺上的雙因素身份�
 IVPN 在 [37 個國家/地區設有伺服器](https://ivpn.net/status)。 (1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. 上次檢查日期：2024-04-02
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如[虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-IVPN 已通過 [Cure53 的無日誌審計](https://cure53.de/audit-report_ivpn.pdf)，該審計結果與 IVPN 的無日誌聲明一致。 IVPN 還在 2020 年 1 月完成了 [Cure53 的全面滲透測試報告](https://cure53.de/summary-report_ivpn_2019.pdf) 。 IVPN 也表示他們計劃在未來提供 [年度報告](https://ivpn.net/blog/independent-security-audit-concluded)。 進一步的審核於 [2022 年 4 月](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded)進行，並由 Cure53 [在其網站上公布](https://cure53.de/pentest-report_IVPN_2022.pdf)。
+IVPN 已通過 [Cure53 的無日誌審計](https://cure53.de/audit-report_ivpn.pdf)，該審計結果與 IVPN 的無日誌聲明一致。 IVPN 還在 2020 年 1 月完成了 [Cure53 的全面滲透測試報告](https://cure53.de/summary-report_ivpn_2019.pdf) 。 IVPN 也表示他們計劃在未來提供[年度報告](https://ivpn.net/blog/independent-security-audit-concluded)。 進一步的審核於 [2022 年 4 月](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded)進行，並由 Cure53 [在其網站上公布](https://cure53.de/pentest-report_IVPN_2022.pdf)。
 
 #### :material-check:{ .pg-green } 開源客戶端
 
@@ -170,15 +170,15 @@ IVPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol) �
 
 IVPN [建議](https://ivpn.net/wireguard)搭配 WireGuard 使用，IVPN 在所有平台的應用程式皆已預設為 WireGuard 協議。 IVPN 也提供 WireGuard 設定檔產生器，可用於 WireGuard 的官方[應用程式](https://wireguard.com/install)。
 
-#### :material-information-outline:{ .pg-blue } IPv6 Support
+#### :material-information-outline:{ .pg-blue } 支援 IPv6
 
-IVPN allows you to [connect to services using IPv6](https://www.ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
+IVPN 允許您[透過 IPv6 連接到服務](https://www.ivpn.net/knowledgebase/general/do-you-support-ipv6)，但無法從僅支援 IPv6 的裝置連線。
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
 IVPN 曾支援遠端端口轉發，但在 [2023 年 6 月](https://ivpn.net/blog/gradual-removal-of-port-forwarding) 移除了此功能。 缺少此功能可能會對某些應用程式造成負面影響，尤其是 BT 客戶端等點對點應用程式。
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } 突破網路審查
 
 IVPN 使用 [v2ray](https://v2ray.com/en/index.html) 的混淆模式，這有助於在 OpenVPN 或 WireGuard 等 VPN 協定遭到封鎖時繞過審查。 此功能目前僅支援桌機版與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray)。 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控管，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
@@ -186,7 +186,7 @@ IVPN 使用 [v2ray](https://v2ray.com/en/index.html) 的混淆模式，這有助
 
 除了提供標準 OpenVPN 設定檔外，IVPN 還在 [App Store](https://apps.apple.com/app/id1193122683)、[Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) 和 [GitHub](https://github.com/ivpn/android-app/releases) 提供行動裝置客戶端，以供使用者方便連接到他們的伺服器。
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } 補充說明
 
 IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有「[反追蹤](https://ivpn.net/antitracker)」功能，以阻絕來自網路層的廣告與追蹤。
 
@@ -223,7 +223,7 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有�
 IVPN 在 [41 個國家/地區設有伺服器](https://mullvad.net/servers)。 (1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. 上次檢查日期：2024-04-02
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜 (與其他客戶共享) 的解決方案，例如[虛擬專用服務器](https://en.wikipedia.org/wiki/Virtual_private_server)，對其私鑰的安全性會更好。
 
@@ -255,13 +255,13 @@ Mullvad [建議](https://mullvad.net/en/help/why-wireguard)搭配 WireGuard 使�
 
 #### :material-check:{ .pg-green } IPv6 支持
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) and connect from a device using an IPv6 address.
+Mullvad 允許您[存取架設在 IPv6 上的服務](https://mullvad.net/en/blog/2014/9/15/ipv6-support)，且支援使用 IPv6 的裝置連線。
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
 Mullvad 曾支援遠端端口轉發，但在 [2023 年 5 月](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports) 移除了此功能。 缺少此功能可能會對某些應用程式造成負面影響，尤其是 BT 客戶端等點對點應用程式。
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } 突破網路審查
 
 IVPN 使用 [Shadowsocks 與 v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) 的混淆模式，這有助於在 OpenVPN 或 WireGuard 等 VPN 協定遭到封鎖時繞過審查。
 
@@ -269,7 +269,7 @@ IVPN 使用 [Shadowsocks 與 v2ray](https://mullvad.net/en/help/shadowsocks-with
 
 Mullvad 提供 [App Store](https://apps.apple.com/app/id1488466513) 和 [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) 客戶端，兩者都支持易於使用的界面，無須手動配置 WireGuard。 Android 客戶端也可以在 [GitHub](https://github.com/mullvad/mullvadvpn-app/releases) 上下載。
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } 補充說明
 
 Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點透明度非常好。 他們在 ShadowSocks + OpenVPN 配置中使用 [ShadowSocks](https://shadowsocks.org)，以更能抵抗具有[深度封包檢查](https://en.wikipedia.org/wiki/Deep_packet_inspection)的防火牆試圖封鎖 VPN。 據推測， [中國使用不同的方法來阻止 ShadowSocks 伺服器](https://github.com/net4people/bbs/issues/22)。 Mullvad 網站也可以通過 Tor 訪問 [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion)。
 
