@@ -181,41 +181,41 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 - [ ] 取消勾選k **允許 Firefox 安裝並進行研究**
 - [ ] 取消勾選 **允許 Firefox 以您的身分自動回報錯誤報告**
 
-> Firefox 會傳送有關 Firefox 版本和語言的資料；裝置作業系統和硬體配置；記憶體、有關崩潰和錯誤的基本資訊；更新、安全瀏覽和啟動等自動化程序的結果。 當 Firefox 將資料傳送給我們時，您的IP位址會作為伺服器記錄的一部分暫時收集。
+> Firefox 會向我們發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向我們發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。 当 Firefox 向我们发送数据时，会将您的 IP 地址作为服务器日志的一部分暂时收集。
 
-此外，Firefox 帳號服務也會收集[一些技術資料](https://mozilla.org/privacy/firefox/#firefox-accounts)。 如果有使用 Firefox 帳戶，可選擇退出：
+此外，Firefox 帳號服務也會收集[一些技術資料](https://mozilla.org/privacy/firefox/#firefox-accounts)。 如果有使用 Firefox 帳戶，您可以選擇退出：
 
 1. 在 accounts.firefox.com 開啟您的 [個人資料設定](https://accounts.firefox.com/settings#data-collection)
-2. 取消勾選 **資料收集和使用** > **協助改善Firefox帳戶**
+2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
 
 ##### 純 HTTPS 模式
 
-- [x] 選擇 **在所有視窗都開啟純 HTTPS 模式**
+- [x] 勾選 **在所有視窗都開啟純 HTTPS 模式**
 
-這可以防止您無意中連接到純文字 HTTP 網站。 如今，沒有 HTTPS 的網站已很少見，因此這對日常瀏覽幾乎沒有影響。
+這可以防止您無意間以明文 HTTP 連線到網站。 如今，不支援 HTTPS 的網站並不多見，因此這對您日常瀏覽的影響應該很小或沒有影響。
 
-##### 通過 HTTPS 的 DNS
+##### DNS over HTTPS
 
-如在[HTTPS 底下](dns.md)使用 DNS:
+如您使用 [DNS over HTTPS 提供者](dns.md):
 
-- [x] 選取 **Max Protection** 與合適的供應商。
+- [x] 選擇 **最大保護** 與合適的提供者
 
-Max Protection 強制使用 HTTPS 上的 DNS，如果 Firefox 無法連線到安全 DNS 解析器，或安全 DNS 解析器表示所嘗試存取的網域的記錄不存在，則會顯示安全性警告。 這可以阻止秘密連接的網路降低了 DNS 安全性。
+最大保護 強制使用 DNS over HTTPS，如果 Firefox 無法連線到您的安全 DNS 解析器，或者安全 DNS 解析器表示您嘗試存取的網域沒有記錄，則會顯示安全警告。 這可以防止您所連接的網路暗中降低您的 DNS 安全性。
 
 #### 同步
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) 可以在不同設備之間 E2EE 地傳輸同步瀏覽資料(訪問記錄與書籤等)。
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) 讓您的瀏覽資料 (歷史記錄、書籤等) 在所有裝置上都可存取，並使用端對端加密 (E2EE) 進行保護。
 
 ### Arkenfox （進階）
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">使用Mullvad 瀏覽器進階防指紋辨識</p>
+<p class="admonition-title">使用 Mullvad 瀏覽器以進階防止指紋識別</p>
 
-[Mullvad瀏覽器](#mullvad-browser) 提供與 Arkenfox 相同的防指紋保護，不需要使用 Mullvad VPN 就能獲得這些保護。 再加上VPN ， Mullvad 瀏覽器可以阻擋 Arkenfox 無法處理的更先進追蹤腳本。 Arkenfox 仍具有更靈活的優勢，可以對需要繼續登錄的網站設置例外。
+[Mullvad 瀏覽器](#mullvad-browser) 提供與 Arkenfox 相同的防指紋保護，不需要使用 Mullvad VPN 就能獲得這些保護。 再加上 VPN ， Mullvad 瀏覽器可以阻擋 Arkenfox 無法處理的更先進追蹤腳本。 Arkenfox 仍具有更靈活的優勢，可以對需要保持登入狀態的個別網站設定例外。
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox  提供一套完整的考量選項。 如果您 [決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 使用Arkenfox ，則 [有幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) 在主觀上嚴格而且可能導致某些網站無法正常運作- [可以輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以滿足需求。  **強列建議**仔細看過他們完整的[維基頁wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox 也啟用[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)支援。
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox ，[有幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])在主觀上過於嚴格，而且可能導致某些網站無法正常運作 - [可以輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以滿足您的需求。 我們**強烈建議**閱讀他們完整的[維基](https://github.com/arkenfox/user.js/wiki)頁面。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
 Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配置設置來阻止基本或天真的跟蹤腳本。 它並不打算讓您的瀏覽器與其他 Arkenfox 用戶的大量混在一起，那是 Mullvad 瀏覽器或 Tor瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記住，您可以隨時使用多個瀏覽器，例如，您可以考慮將Firefox + Arkenfox 用於希望保持登錄或可以信任的幾個網站，而 Mullvad 瀏覽器則用於一般瀏覽。
 
