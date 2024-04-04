@@ -57,17 +57,17 @@ schema:
       url: "./"
 ---
 
-這些是我們目前推薦的桌面網頁瀏覽器和標準/非匿名瀏覽的配置。 如果在意強大的隱私保護和優異的防止辨識指紋，建議使用 [Mullvad 瀏覽器](#mullvad-browser) ， [Firefox](#firefox) 適合作替代 Google Chrome 的休閒網際網路瀏覽器，而 [Brave](#brave)則適合需要Chromium 瀏覽器兼容性。
+這些是我們目前推薦的桌面網頁瀏覽器和標準/非匿名瀏覽的配置。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)； 如果您在尋求 Google Chrome 的良好替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
 
-如果你需要匿名瀏覽網際網路，你應該使用 [Tor](tor.md) 代替。 我們在這裏提出一些設定建議，除 Tor 瀏覽器之外所有瀏覽器都會被 *某人* 以某種方式追蹤。
+如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。 我們在此頁面提供一些設定建議，但除了 Tor 瀏覽器之外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
 
 ## Mullvad Browser
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad Browser 標誌](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad 瀏覽器** 是移除 Tor 網路整合的[Tor 瀏覽器](tor.md#tor-browser)版本，旨在為 VPN 用戶提供Tor 瀏覽器的反指紋辨識瀏覽器技術。 它由 Tor Porject 開發並由 [Mullvad](vpn.md#mullvad)發佈，且不需要使用 Mullvad 的 VPN。
+**Mullvad 瀏覽器**是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本，，旨在為 VPN 使用者提供 Tor 瀏覽器的反指紋辨識技術。 它由 Tor Porject 開發並由 [Mullvad](vpn.md#mullvad)發佈，且不需要使用 Mullvad 的 VPN。
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
