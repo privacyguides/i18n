@@ -181,7 +181,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 - [ ] 取消勾選k **允許 Firefox 安裝並進行研究**
 - [ ] 取消勾選 **允許 Firefox 以您的身分自動回報錯誤報告**
 
-> Firefox 會向我們發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向我們發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。 当 Firefox 向我们发送数据时，会将您的 IP 地址作为服务器日志的一部分暂时收集。
+> Firefox 會向我們發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向我們發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
 
 此外，Firefox 帳號服務也會收集[一些技術資料](https://mozilla.org/privacy/firefox/#firefox-accounts)。 如果有使用 Firefox 帳戶，您可以選擇退出：
 
@@ -196,7 +196,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 ##### DNS over HTTPS
 
-如您使用 [DNS over HTTPS 提供者](dns.md):
+如果您使用 [DNS over HTTPS 提供者](dns.md):
 
 - [x] 選擇 **最大保護** 與合適的提供者
 
@@ -206,7 +206,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) 讓您的瀏覽資料 (歷史記錄、書籤等) 在所有裝置上都可存取，並使用端對端加密 (E2EE) 進行保護。
 
-### Arkenfox （進階）
+### Arkenfox (進階)
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">使用 Mullvad 瀏覽器以進階防止指紋識別</p>
@@ -215,9 +215,9 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox ，[有幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])在主觀上過於嚴格，而且可能導致某些網站無法正常運作 - [可以輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以滿足您的需求。 我們**強烈建議**閱讀他們完整的[維基](https://github.com/arkenfox/user.js/wiki)頁面。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox ，[有幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])在主觀上過於嚴格，而且可能導致某些網站無法正常運作 - [可以輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)以滿足您的需求。 我們**強烈建議**完整閱讀他們的[維基](https://github.com/arkenfox/user.js/wiki)頁面。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
-Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配置設置來阻止基本或天真的跟蹤腳本。 它並不打算讓您的瀏覽器與其他 Arkenfox 用戶的大量混在一起，那是 Mullvad 瀏覽器或 Tor瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記住，您可以隨時使用多個瀏覽器，例如，您可以考慮將Firefox + Arkenfox 用於希望保持登錄或可以信任的幾個網站，而 Mullvad 瀏覽器則用於一般瀏覽。
+Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配置設置來阻止基本或天真的跟蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記住，您可以隨時使用多個瀏覽器。例如，您可以考慮將 Firefox + Arkenfox 用於希望保持登入或可以信任的幾個網站，而 Mullvad 瀏覽器則用於一般瀏覽。
 
 ## Brave
 
@@ -257,17 +257,15 @@ Brave 在官網的下載檔案中新增了 "[推廣碼](https://github.com/brave
 
 </div>
 
-### Recommended Brave Configuration
+### 建議的 Brave 設定
 
-這些選項可以在 :material-menu: → **設定**中找到。
+這些選項可以在 :material-menu: → **設定** 中找到。
 
 #### 設定
 
 ##### Shields
 
-Brave [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些防指紋措施。 建議
-
-全域配置這些選項</ a> 在造訪的所有頁面。</p> 
+Brave [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些防指紋措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)配置這些選項。
 
 Shields 可以選擇根據需要依各網站情況降級，但我們建議預設以下內容：
 
@@ -290,10 +288,8 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
+1. 此選項提供的功能類似於 uBlock Origin 的進階[封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode)。
 2. 若想在經常造訪的特定站點保持登入，則可以透過網址列中的盾牌圖示來為每個站點設定例外。
-
-
 
 ##### 隐私和安全
 
@@ -328,16 +324,12 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 - [ ] 取消勾選 **Hangouts**
 - [ ] 取消勾選 **WebTorrent**
 
-
-
 ##### Web3
 
 Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到任何功能，否則應停用這些功能。
 
 - 在預設的 Ethereum 與 Solana 錢包底下選取 **Extensions (no fallback)**
 - 設定 **禁用****解析 IPFS 資源的方法**
-
-
 
 ##### 系統
 
@@ -349,13 +341,9 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 1. 此功能並不適用於所有平臺。
 
-
-
 #### Brave 同步
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同設備上訪問瀏覽數據（歷史記錄，書籤等），而無需帳戶且具 E2EE保護。
-
-
 
 #### 勇敢獎勵與錢包
 
@@ -363,17 +351,11 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 **Brave Wallet** 在您的電腦上進行本地操作，但不支援任何私人加密貨幣，因此不鼓勵使用此功能。
 
-
-
 ## 其他資源
-
-
 
 ## 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
-
-
 
 ### 最低合格要求
 
@@ -383,25 +365,18 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 - 適用於Linux、macOS和Windows。
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
 - 預設情況下會封鎖第三方Cookie。
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
-
-
+- 支援[狀態分割](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)以減少跨網站追蹤。[^1]
 
 ### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 包括內置的內容攔截功能。
-- 支持cookie分割（à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)）。
+- 支援 Cookie 區隔 (就像[多帳戶容器](https://support.mozilla.org/kb/containers)一樣)。
 - 支援漸進式網絡應用程式 PWA 可讓您安裝某些網站，就像是電腦上的原生應用程式一樣。 這可能比安裝 Electron 應用程式更有優勢，因為您可以受益於瀏覽器定期安全更新。
-
 - 不包括不影響用戶隱私的附加功能(bloatware)。
-
 - 預設情況下不收集遙測。
 - 提供開源同步伺服器實作。
 - 預設為 [私密搜尋引擎](search-engines.md)。
 
-
-
-[^1]:    
-    Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Brave 的實施詳情請參閱 [Brave 隱私更新：為隱私區隔網路狀態](https://brave.com/privacy-updates/14-partitioning-network-state)。

@@ -69,7 +69,7 @@ Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有�
 
 </div>
 
-#### Recommended Brave Configuration
+#### 建議的 Brave 設定
 
 Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用Brave時，我們建議您更改以下設定，以保護您的隱私免受某些影響，但除 [Tor 瀏覽器](tor.md#tor-browser) 外其它覽器在某些方面都可能 *被追蹤* 。
 
@@ -77,10 +77,7 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用Bra
 
 ##### Shields
 
-Brave [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些防指紋措施。 建議
-全域配置這些選項</ a> 在造訪的所有頁面。</p> 
-
-
+Brave [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些防指紋措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)配置這些選項。
 
 ##### Brave屏蔽全局默認值
 
@@ -105,19 +102,13 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net) 擴展。
 
-
-
 ##### 清除瀏覽資料
 
 - [x] Select **清除出口**的數據
 
-
-
 ##### 社交媒體屏蔽
 
 - [ ] 取消勾選所有社交媒體組件
-
-
 
 ##### 其他隱私設定
 
@@ -135,19 +126,13 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 1. InterPlanetary File System (IPFS)是一個分散的對等網絡，用於在分布式文件系統中存儲和共享數據。 除非您使用此功能，否則禁用它。
 
-
-
 #### Brave 同步
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同設備上訪問瀏覽數據（歷史記錄，書籤等），而無需帳戶且具 E2EE保護。
 
-
-
 ## iOS
 
 在 iOS上，任何可以瀏覽網頁的應用程式都是 [限制](https://developer.apple.com/app-store/review/guidelines) 使用 Apple 提供的 [WebKit 框架](https://developer.apple.com/documentation/webkit)，因此沒有理由使用第三方瀏覽器。
-
-
 
 ### Safari
 
@@ -169,25 +154,19 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 這些選項可以在 :gear: **Safari** →**設定**中找到。
 
-
-
 ##### 設定檔
 
 所有 cookie、歷史記錄和網站資料對於每個設定檔都是獨立的。 您應該將不同設定檔用於不同目的，例如 購物、工作或上學。
 
-
-
 ##### 隱私 & 安全
 
 - [x] 啓用 **防止跨網站跟蹤**
-  
-  這將啟用 WebKit [智慧型跟蹤保護](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能透過設備的機器學習來阻止跟蹤器不必要的跟蹤。 ITP 可以防止許多常見的威脅，但它不會阻止所有跟蹤途徑，因為它的設計不會干擾網站的可用性。
+
+    這將啟用 WebKit [智慧型跟蹤保護](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能透過設備的機器學習來阻止跟蹤器不必要的跟蹤。 ITP 可以防止許多常見的威脅，但它不會阻止所有跟蹤途徑，因為它的設計不會干擾網站的可用性。
 
 - [x] 啟用**需要Face ID 才能解鎖私密瀏覽**
-  
-  此設定可將私人分頁在不使用時鎖定在生物辨識/PIN 裏。
 
-
+    此設定可將私人分頁在不使用時鎖定在生物辨識/PIN 裏。
 
 ##### 進階 → 隱私
 
@@ -195,15 +174,11 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 - [x] 選擇 **所有瀏覽** 或 **私密瀏覽**
 
-
-
 ##### 隱私報告
 
 隱私報告提供跨網站追蹤器的快照，瀏覽器如何防止追蹤器在您訪問的網站上分析您的狀況。 它還可以顯示每週報告，以顯示哪些追蹤器隨著時間的推移被封鎖。
 
 隱私權報告可透過「頁面設定」選單存取。
-
-
 
 ##### 隱私保護廣告測量
 
@@ -212,8 +187,6 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 廣告點擊測量是過去用來追蹤侵犯用戶隱私的技術。 [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) 是一個 WebKit 功能和提議的網頁標準，旨在允許廣告商在不影響用戶隱私的情況下衡量網站活動的有效性。
 
 此功能本身沒有什麼隱私疑慮，因此您可以選擇不管它，但我們認為，它在私密瀏覽中自動停用反而顯示出功能被關閉的情況。
-
-
 
 ##### 一直保持私密瀏覽
 
@@ -225,8 +198,6 @@ Safari的私人瀏覽模式提供額外的隱私保護。 隱私瀏覽每個標�
 
 請注意，「私密瀏覽」不會儲存Cookie和網站資料，因此無法繼續登入網站。 這可能會造成不便。
 
-
-
 ##### iCloud 同步
 
 Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都是 E2EE。 但預設情況下，書籤[沒有](https://support.apple.com/HT202303)。 Apple可以根據其 [隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
@@ -237,19 +208,15 @@ Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都
 
 如果您在禁用「進階資料保護」的情況下使用iCloud ，我們亦建議您檢查，確保 Safari 預設下載位置已設定為裝置上的本機位置。 此選項可在 :gear: **設定** → **Safari** → **一般** → **下載**中找到。
 
-
-
 ## 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
-
-
 
 ### 最低合格要求
 
 - 必須支援自動更新。
 - 必須在上遊發布後的0-1天內收到引擎更新。
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
-- 安卓版瀏覽器必須使用 Chromium 引擎。 
-      - 不幸的是， Mozilla GeckoView仍然不如Android上的Chromium安全。
+- 安卓版瀏覽器必須使用 Chromium 引擎。
+    - 不幸的是， Mozilla GeckoView仍然不如Android上的Chromium安全。
     - iOS瀏覽器僅限於WebKit。
