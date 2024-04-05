@@ -35,7 +35,7 @@ If your password manager lets you check for compromised passwords, make sure to 
 
 ## Creating strong passwords
 
-### Passwords
+### Lösenord
 
 A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
 
