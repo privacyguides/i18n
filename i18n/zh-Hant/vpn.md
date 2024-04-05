@@ -31,11 +31,11 @@ global:
 
 我們推薦的提供商使用加密技術、支援 WireGuard & OpenVPN ，且具有無日誌政策。 閱讀我們的 [完整列表標準](#criteria) 以獲取更多信息。
 
-| 提供商                   | 國家  | WireGuard                     | 端口轉發                                            | IPv6                                              | Anonymous Payments |
-| --------------------- | --- | ----------------------------- | ----------------------------------------------- | ------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 91+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 部分支援 | :material-alert-outline:{ .pg-orange }            | 現金                 |
-| [IVPN](#ivpn)         | 37+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero, Cash       |
-| [Mullvad](#mullvad)   | 41+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                     | Monero, Cash       |
+| 提供商                   | 國家  | WireGuard                     | 端口轉發                                            | IPv6                                              | 匿名支付      |
+| --------------------- | --- | ----------------------------- | ----------------------------------------------- | ------------------------------------------------- | --------- |
+| [Proton](#proton-vpn) | 91+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 部分支援 | :material-alert-outline:{ .pg-orange }            | 現金        |
+| [IVPN](#ivpn)         | 37+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
+| [Mullvad](#mullvad)   | 41+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                     | Monero、現金 |
 
 ### Proton VPN
 

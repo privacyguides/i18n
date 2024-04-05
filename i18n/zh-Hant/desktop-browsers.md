@@ -136,7 +136,7 @@ Mullvad 瀏覽器將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，並使用 Firefox 中的遙測傳送該令牌。 The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，並使用 Firefox 中的遙測傳送該令牌。 該令牌**不**包含在 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/) 上的發行版中。
 
 </div>
 
@@ -227,16 +227,16 @@ Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配�
 
 **Brave Browser** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
 
-Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
+Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉並且具有最少的網站兼容性問題。
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋蔥服務" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
@@ -248,12 +248,12 @@ Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有�
 
 </div>
 
-**macOS 用戶：** 從 Brave 官網下載副檔名 `.pkg` 的安裝器，此需管理員權限方可執行(也可能會需執行其它非必要腳本在機器上)。 或者，自 [GitHub 發佈](https://github.com/brave/brave-browser/releases/latest) 頁下載 `Brave-Browser-universal.dmg`，其提供傳統"拖曳至應用程式資料夾"的安裝方式。
+**macOS 用戶：** 從 Brave 官網下載副檔名為 `.pkg` 的安裝程式，需要以管理員權限執行 (並且可能會在您的機器上執行其他不必要的腳本)。 作為替代方案，您可以從他們的 [GitHub 發布](https://github.com/brave/brave-browser/releases/latest) 頁下載最新的 `Brave-Browser-universal.dmg` 檔案，這提供了傳統的 “拖曳到應用程式文件夾” 安裝方法。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
-Brave 在官網的下載檔案中新增了 "[推廣碼](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" 用以追蹤該瀏覽器從何處下載，例如`BRV002` 下載的檔名為 `Brave-Browser-BRV002.pkg`。 安裝器在安裝程序尾端會使用推廣代碼來呼叫 Brave 伺服器。 如擔心此問題，可在開啟前更改安裝軟體的檔名。
+Brave 在官網的下載檔案中新增了 "[推廣代碼](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" 用以追蹤瀏覽器的下載來源，例如從 `BRV002` 下載的檔案名稱為 `Brave-Browser-BRV002.pkg`。 安裝程式會在安裝過程結束後向 Brave 伺服器發送推廣代碼。 如擔心此問題，可在開啟前更改安裝軟體的檔案名稱。
 
 </div>
 
@@ -355,28 +355,28 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 ## 標準
 
-**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了我們的標準之外，我們還制定了一套[明確的要求](about/criteria.md)，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
 - 必須是開源軟體。
 - 支援自動更新。
-- 從上遊版本開始在0-1天內接收引擎更新。
-- 適用於Linux、macOS和Windows。
-- 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
-- 預設情況下會封鎖第三方Cookie。
+- 從上游版本釋出後的 0-1 天內接收引擎更新。
+- 可在 Linux、macOS 和 Windows 上使用。
+- 為了使瀏覽器更尊重隱私權所作的任何變動都不應對使用者體驗產生負面影響。
+- 預設情況下會封鎖第三方 Cookie。
 - 支援[狀態分割](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)以減少跨網站追蹤。[^1]
 
 ### 最佳案例
 
-最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳案例標準代表我們希望在這個類別中看到的完美項目應具備的條件。 我們建議的瀏覽器可能不包括以下所有功能，但若包含這些功能會讓該項目在此頁面排名更高。
 
-- 包括內置的內容攔截功能。
+- 包括內建內容攔截功能。
 - 支援 Cookie 區隔 (就像[多帳戶容器](https://support.mozilla.org/kb/containers)一樣)。
-- 支援漸進式網絡應用程式 PWA 可讓您安裝某些網站，就像是電腦上的原生應用程式一樣。 這可能比安裝 Electron 應用程式更有優勢，因為您可以受益於瀏覽器定期安全更新。
-- 不包括不影響用戶隱私的附加功能(bloatware)。
-- 預設情況下不收集遙測。
+- 支援漸進式網絡應用程式。 PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 這可能比安裝 Electron 應用程式更有優勢，因為您可以受益於瀏覽器的定期安全更新。
+- 不包括對使用者隱私沒有影響的附加功能 (bloatware)。
+- 預設情況下不收集遙測數據。
 - 提供開源同步伺服器實作。
-- 預設為 [私密搜尋引擎](search-engines.md)。
+- 預設使用[私密搜尋引擎](search-engines.md)。
 
 [^1]: Brave 的實施詳情請參閱 [Brave 隱私更新：為隱私區隔網路狀態](https://brave.com/privacy-updates/14-partitioning-network-state)。

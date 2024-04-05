@@ -53,11 +53,11 @@ schema:
 
 Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋蔥服務" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
