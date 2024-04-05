@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
-template: overrides/home.cs.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ Snažit se neustále chránit všechna data před všemi je nepraktické, nákla
 ==Tento proces identifikace hrozeb a vytváření protiopatření se nazývá **threat modeling**== a tvoří základ každého dobrého plánu pro bezpečnost a ochranu soukromí.
 
 [:material-book-outline: Další informace o threat modelingu](basics/threat-modeling.md){ class="md-button md-button--primary" }
-
----
-
-## Potřebujeme vás! Zde je návod, jak začít:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
-
-Pro webové stránky jako je Privacy Guides je důležité, aby byly vždy aktuální. We need our audience to keep an eye on software updates for the applications listed on our site and follow recent news about providers that we recommend. It's hard to keep up with the fast pace of the internet, but we try our best. If you spot an error, think a provider should not be listed, notice a qualified provider is missing, believe a browser plugin is no longer the best choice, or uncover any other issue, please let us know.

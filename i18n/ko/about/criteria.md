@@ -2,29 +2,18 @@
 title: General Criteria
 ---
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Work in Progress</p>
+Below are some general priorities we consider for all submissions to Privacy Guides. 각 분야마다 별도의 추가적인 요구 사항이 존재할 수 있습니다.
 
-본 페이지는 현재 작업 중이며, 현시점에 존재하는 모든 권장 사항에 반영되는 전체 평가 기준이 아닙니다. 본 주제 관련 예전 토론: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
-
-</div>
-
-다음은 Privacy Guides에 등재된 모든 서비스 및 애플리케이션에 적용되는 몇 가지 사항입니다. 각 분야마다 별도의 추가적인 요구 사항이 존재할 수 있습니다.
+- **Security**: Tools should follow security best-practices wherever applicable.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **활발한 개발**: 권장 툴은 유지 관리가 활발하게 이루어져야 합니다. 개발이 중단된 프로젝트는 대부분 제거됩니다.
+- **사용성**: 툴은 대부분의 컴퓨터 사용자가 사용하는 데에 무리가 없어야 합니다. 지나치게 많은 기술적 배경 지식이 요구되어서는 안 됩니다.
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## 재무 공시
 
 Privacy Guides는 특정 제품을 추천함으로써 수익을 창출하지 않으며, 제휴 링크를 운영하지 않고, 프로젝트 후원자에게 특례를 적용하지도 않습니다.
-
-## 일반 가이드라인
-
-다음 사항들을 고려하여 권장 목록에 새로 추가합니다.
-
-- **보안**: 툴은 (해당되는 경우) 보안 모범 사례를 따라야 합니다.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
-- **크로스 플랫폼**: 특정 벤더에 종속되는 것을 피하기 위해 일반적으로 크로스 플랫폼을 우선합니다.
-- **활발한 개발**: 권장 툴은 유지 관리가 활발하게 이루어져야 합니다. 개발이 중단된 프로젝트는 대부분 제거됩니다.
-- **사용성**: 툴은 대부분의 컴퓨터 사용자가 사용하는 데에 무리가 없어야 합니다. 지나치게 많은 기술적 배경 지식이 요구되어서는 안 됩니다.
-- **문서화**: 툴은 명확하고 폭넓은 안내 문서를 제공해야 합니다.
 
 ## 개발자 본인의 제안
 

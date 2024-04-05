@@ -2,29 +2,18 @@
 title: General Criteria
 ---
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Work in Progress</p>
+Below are some general priorities we consider for all submissions to Privacy Guides. Chaque catégorie aura des exigences supplémentaires pour être incluse.
 
-La page suivante est inachevée et ne reflète pas l'ensemble des critères de nos recommandations à l'heure actuelle. Discussion antérieure sur ce sujet : [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
-
-</div>
-
-Vous trouverez ci-dessous certains éléments qui doivent s'appliquer à toutes les soumissions à Privacy Guides. Chaque catégorie aura des exigences supplémentaires pour être incluse.
+- **Security**: Tools should follow security best-practices wherever applicable.
+- **Disponibilité des sources** : les projets open source sont généralement préférés aux solutions propriétaires équivalentes.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **Développement actif** : les outils que nous recommandons doivent être activement maintenus. Les projets non maintenus seront, dans la plupart des cas, supprimés.
+- **Facilité d'utilisation** : les outils doivent être accessibles à la plupart des utilisateurs d'ordinateurs, sans qu'un bagage trop technique soit nécessaire.
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## Divulgation financière
 
 Nous ne gagnons pas d'argent en recommandant certains produits, nous n'utilisons pas de liens affiliés et nous n'accordons pas de considération particulière aux donateurs du projet.
-
-## Directives générales
-
-Nous appliquons ces priorités lorsque nous envisageons de nouvelles recommandations :
-
-- **Sécurisé** : les outils doivent respecter les bonnes pratiques en matière de sécurité, le cas échéant.
-- **Disponibilité des sources** : les projets open source sont généralement préférés aux solutions propriétaires équivalentes.
-- **Multiplateforme** : nous préférons généralement que les recommandations soient multiplateformes, afin d'éviter d'être coincé chez un fournisseur.
-- **Développement actif** : les outils que nous recommandons doivent être activement maintenus. Les projets non maintenus seront, dans la plupart des cas, supprimés.
-- **Facilité d'utilisation** : les outils doivent être accessibles à la plupart des utilisateurs d'ordinateurs, sans qu'un bagage trop technique soit nécessaire.
-- **Documenté** : ses outils doivent disposer d'une documentation claire et complète pour leur utilisation.
 
 ## Soumissions par les développeurs
 

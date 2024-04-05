@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: a független adatvédelmi és adatbiztonsági forrásod"
-template: overrides/home.hu.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ Megpróbálni az összes adatodat mindenkitől és mindig megvédeni nem praktik
 ==A fenyegetések azonosításának és az ellenintézkedések meghatározásának ezt a folyamatát **védelmi modellezésnek**== nevezzük, és ez képezi minden jó biztonsági és adatvédelmi terv alapját.
 
 [:material-book-outline: További információk a védelmi modellekről](basics/threat-modeling.md){ class="md-button md-button--primary" }
-
----
-
-## Szükségünk van rád! Itt van, hogyan tudsz részt venni:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Csatlakozz a fórumunkhoz" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Kövess minket a Mastodonon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Járulj hozzá ehhez a weboldalhoz" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Segíts lefordítani ezt a weboldalt" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Csevegj velünk a Mátrixon" }
-[:material-information-outline:](about/index.md){ title="Tudj meg többet rólunk" }
-[:material-hand-coin-outline:](about/donate.md){ title="Támogasd a projektet" }
-
-Fontos, hogy egy olyan weboldal, mint a Privacy Guides, mindig naprakész maradjon. Szükségünk van arra, hogy a közönségünk figyelemmel kísérje az oldalunkon felsorolt alkalmazások frissítéseit, és kövesse az általunk ajánlott szolgáltatókkal kapcsolatos legújabb híreket. Nehéz lépést tartani az internet gyors tempójával, de mi megteszünk minden tőlünk telhetőt. Ha hibát észlelsz, úgy gondolod, hogy egy szolgáltatónak nem kellene szerepelnie a listán, észreveszed, hogy egy alkalmas szolgáltató hiányzik, úgy véled, hogy egy böngésző bővítmény már nem a legjobb választás, vagy ha bármilyen más problémát észlelsz, kérjük, jelezd nekünk.

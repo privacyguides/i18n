@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: 您的獨立隱私和安全資源"
-template: overrides/home.zh-Hant.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ schema:
 ==這個識別威脅和定義對策的過程稱為 **威脅模型**== ，它構成了所有安全及隱私計劃的基礎。
 
 [:material-book-outline: 了解威脅建模](basics/threat-modeling.md){ class = "md-button md-button--primary" }
-
----
-
-## 我們需要你！ 參與方式如下：
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="加入我們的論壇" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="在 Mastodon 上跟隨我們" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="為這個網站做出貢獻" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="幫助翻譯這個網站" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="在 Matrix 上與我們交談" }
-[:material-information-outline:](about/index.md){ title="了解更多關於我們的資訊" }
-[:material-hand-coin-outline:](about/donate.md){ title="支持這個項目" }
-
-像 Privacy Guides 這類的網站必須隨時保持最新狀態。 我們需要讀者留意網站上列出的應用程式的軟體更新，並關注推薦供應商的最新消息。 跟上互聯網快速變化並不容易，但我們盡力而為。 如果您發現錯誤，認為某個提供商不應該列出、注意到某個合格的提供商不在列表上、認為某個瀏覽器附加元件不再是最佳選擇，或發現任何其他問題，請告訴我們。

@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: プライバシーとセキュリティに関する独立したリソース"
-template: overrides/home.ja.html
+template: home.html
 social:
   cards_layout: Home
 hide:
@@ -57,17 +57,3 @@ schema:
 ==脅威を特定して対策を定義するこのプロセスは**脅威モデリング**と呼ばれ==、優れたセキュリティとプライバシー計画の基礎となります。
 
 [:material-book-outline: 脅威モデリングの詳細](basics/threat-modeling.md){ class="md-button md-button--primary" }
-
----
-
-## あなたの力が必要です！ 参加方法は以下の通りです:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
-
-Privacy Guidesのようなウェブサイトは、常に最新の情報を提供することが重要です。 閲覧者は、私たちのサイトに掲載されたアプリケーションのソフトウェアアップデートを確認し、おすすめのプロバイダに関する最新情報を入手する必要があります。 インターネットの速さに追いつくのは難しいですが、私たちは最善を尽くします。 誤りを見つけた場合、不適切なプロバイダが掲載されていると感じた場合、適格なプロバイダが掲載されていない場合、ブラウザのプラグインが最適でないと感じた場合、またはその他の問題を発見した場合は、ご連絡ください。

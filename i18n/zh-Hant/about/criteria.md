@@ -1,30 +1,19 @@
 ---
-title: 通用標準
+title: General Criteria
 ---
 
-<div class="admonition example" markdown>
-<p class="admonition-title">施工中</p>
+Below are some general priorities we consider for all submissions to Privacy Guides. 每個類別都會有額外的加入要求。
 
-以下頁面是一項正在進行的工作，並未反映我們目前的建議的全部標準。 過去關於此主題的討論： [#24](https://github.com/privacyguides/privacyguides.org/discussion/24)
-
-</div>
-
-以下是一些必須適用於所有提交給 Privacy Guides 的內容。 每個類別都會有額外的加入要求。
+- **Security**: Tools should follow security best-practices wherever applicable.
+- **源代碼可取得**：開源專案通常比同等商用替代方案更受歡迎。
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **積極開發**：我們建議的工具應該積極開發，在大多數情況下，未維護的項目將被移除。
+- **可用性**：工具應可讓大多數電腦使用者使用，無需要求過度的技術背景。
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## 財務披露
 
 我們不通過推薦某些產品賺錢，我們不使用聯盟鏈接，我們不向項目捐贈者提供特殊考慮。
-
-## 一般指引
-
-我們在考慮新建議時應用這些優先事項：
-
-- **安全**：工具應在合適的地方遵循安全的最佳做法。
-- **源代碼可取得**：開源專案通常比同等商用替代方案更受歡迎。
-- **跨平臺**：我們通常傾向於建議跨平臺，以避免供應商鎖定。
-- **積極開發**：我們建議的工具應該積極開發，在大多數情況下，未維護的項目將被移除。
-- **可用性**：工具應可讓大多數電腦使用者使用，無需要求過度的技術背景。
-- **Documented**：工具應有清晰和廣泛的文件可供使用。
 
 ## 開發人員自我提交
 

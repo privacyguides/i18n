@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Ваш независимый ресурс по конфиденциальности и безопасности"
-template: overrides/home.ru.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ schema:
 ==Процесс нахождения угроз и мер противодействия им называется **моделированием угроз**==, и он составляет основу каждого хорошего плана безопасности и приватности.
 
 [:material-book-outline: Узнайте больше о моделировании угроз](basics/threat-modeling.md){class="md-button md-button--primary"}
-
----
-
-## Вы нужны нам! Вот как можно помочь нам:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
-
-Такому сайту, как Privacy Guides, важно содержать наиболее актуальную информацию. Нам нужно, чтобы читатели следили за обновлениями программного обеспечения, перечисленного на сайте, и были в курсе новостей о сервисах, которые мы рекомендуем. Сложно угнаться за быстрым темпом развития интернета, но мы стараемся изо всех сил. Если вы встретите ошибку, посчитаете сервис недостойным упоминания на нашем сайте, заметите отсутствие хорошего сервиса, найдёте лучшую альтернативу браузерному расширению или обнаружите любую другую проблему, дайте нам знать.

@@ -1,30 +1,19 @@
 ---
-title: Criterios Generales
+title: General Criteria
 ---
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Trabajo en Progreso</p>
+Below are some general priorities we consider for all submissions to Privacy Guides. Cada categoría puede tener requisitos adicionales.
 
-La siguiente página se encuentra en construcción, y no refleja todos los criterios para nuestras recomendaciones en este momento. Discusión anterior sobre este tema: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
-
-</div>
-
-Abajo se encuentran algunos aspectos que deben cumplir todos los envíos a Privacy Guides. Cada categoría puede tener requisitos adicionales.
+- **Security**: Tools should follow security best-practices wherever applicable.
+- **Disponibilidad del código**: Proyectos de código abierto son preferibles sobre alternativas similares de código cerrado.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **Desarrollo activo**: Las herramientas que recomendamos deben ser desarrolladas activamente, los proyectos no mantenidos serán eliminados en la mayoría de los casos.
+- **Usabilidad**: Las herramientas deben ser accesibles para la mayoría de los usuarios de ordenador, no debe exigirse una formación demasiado técnica.
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## Información financiera
 
 No obtenemos dinero al recomendar ciertos productos, nosotros no utilizamos enlaces de afiliados, y no realizamos alguna consideración especial a los patrocinadores del proyecto.
-
-## Lineamientos generales
-
-Aplicamos estas prioridades al considerar nuevas recomendaciones:
-
-- Herramientas **seguras**: Las herramientas deben seguir las mejores prácticas de seguridad cuando sea necesario.
-- **Disponibilidad del código**: Proyectos de código abierto son preferibles sobre alternativas similares de código cerrado.
-- **Multiplataforma**: Preferimos que las recomendaciones sean multiplataforma para evitar la dependencia de un sistema.
-- **Desarrollo activo**: Las herramientas que recomendamos deben ser desarrolladas activamente, los proyectos no mantenidos serán eliminados en la mayoría de los casos.
-- **Usabilidad**: Las herramientas deben ser accesibles para la mayoría de los usuarios de ordenador, no debe exigirse una formación demasiado técnica.
-- **Documentado**: Las herramientas deben tener una documentación de uso clara y extensa.
 
 ## Autoenvíos del desarrollador
 

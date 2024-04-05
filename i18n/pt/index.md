@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: o seu recurso independente de privacidade e segurança"
-template: overrides/home.pt.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ Tentar proteger os seus dados de toda a gente, a toda a hora, é impraticável, 
 ==Este processo de identificação de ameaças e definição de contramedidas é designado por **modelagem de ameaças**== e constitui a base de qualquer bom plano de segurança e privacidade.
 
 [:material-book-outline: Saiba mais sobre a modelação de ameaças](basics/threat-modeling.md){ class="md-button md-button--primary" }
-
----
-
-## Precisamos de si! Eis como participar:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
-
-É importante que um site como o Privacy Guides esteja sempre atualizado. Precisamos que o nosso público esteja atento às atualizações de software para as aplicações listadas no nosso site e siga as notícias recentes sobre os fornecedores que recomendamos. É difícil acompanhar o ritmo acelerado da Internet, mas tentamos fazer o nosso melhor. Se detetar um erro, se achar que um fornecedor não deveria constar da lista, se notar que falta um fornecedor qualificado, se achar que um plugin do browser já não é a melhor opção ou se descobrir qualquer outro problema, informe-nos.

@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
-template: overrides/home.tr.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ Tüm verilerinizi her zaman herkesten korumaya çalışmak pratik değildir, pah
 ==Tehditleri belirleme ve karşı önlemleri tanımlama sürecine **tehdit modelleme**== denir ve her iyi güvenlik ve gizlilik planının temelini oluşturur.
 
 [:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
-
----
-
-## Sana ihtiyacımız var! Nasıl dahil olabilirsiniz:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
-
-Privacy Guides gibi bir web sitesinin her zaman güncel kalması önemlidir. Hedef kitlemizin sitemizde listelenen uygulamalar için yazılım güncellemelerini takip etmesine ve önerdiğimiz sağlayıcılarla ilgili son haberleri izlemesine ihtiyacımız var. İnternetin hızlı temposuna ayak uydurmak zor, ancak elimizden gelenin en iyisini yapmaya çalışıyoruz. Bir hata tespit ederseniz, bir sağlayıcının listelenmemesi gerektiğini düşünürseniz, nitelikli bir sağlayıcının eksik olduğunu fark ederseniz, bir tarayıcı eklentisinin artık en iyi seçenek olmadığını düşünürseniz veya başka bir sorunu ortaya çıkarırsanız, lütfen bize bildirin.

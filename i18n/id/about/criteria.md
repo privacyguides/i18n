@@ -2,29 +2,18 @@
 title: General Criteria
 ---
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Work in Progress</p>
+Below are some general priorities we consider for all submissions to Privacy Guides. Setiap kategori akan memiliki persyaratan tambahan untuk dimasukkan.
 
-Halaman berikut ini masih dalam tahap pengembangan, dan tidak mencerminkan kriteria lengkap untuk rekomendasi kami saat ini. Diskusi sebelumnya tentang topik ini: [#24] (https://github.com/privacyguides/privacyguides.org/discussions/24)
-
-</div>
-
-Di bawah ini adalah beberapa hal yang harus diterapkan pada semua pengajuan ke Privacy Guides. Setiap kategori akan memiliki persyaratan tambahan untuk dimasukkan.
+- **Security**: Tools should follow security best-practices wherever applicable.
+- **Ketersediaan Sumber**: Proyek sumber terbuka umumnya lebih disukai daripada alternatif bersumber tertutup yang setara.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **Pengembangan Aktif**: Alat yang kami rekomendasikan harus dikembangkan secara aktif, proyek yang tidak terpelihara akan dihapus dalam banyak kasus.
+- **Kegunaan**: Alat bantu harus dapat diakses oleh sebagian besar pengguna komputer, latar belakang yang terlalu teknis tidak diperlukan.
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## Pengungkapan Keuangan
 
 Kami tidak menghasilkan uang dari merekomendasikan produk tertentu, kami tidak menggunakan tautan afiliasi, dan kami tidak memberikan pertimbangan khusus kepada para donatur proyek.
-
-## Pedoman Umum
-
-Kami menerapkan prioritas ini ketika mempertimbangkan rekomendasi baru:
-
-- **Aman**: Alat harus mengikuti praktik terbaik keamanan di mana pun berlaku.
-- **Ketersediaan Sumber**: Proyek sumber terbuka umumnya lebih disukai daripada alternatif bersumber tertutup yang setara.
-- **Lintas Platform**: Kami biasanya lebih memilih rekomendasi yang bersifat lintas platform, untuk menghindari penguncian penyedia.
-- **Pengembangan Aktif**: Alat yang kami rekomendasikan harus dikembangkan secara aktif, proyek yang tidak terpelihara akan dihapus dalam banyak kasus.
-- **Kegunaan**: Alat bantu harus dapat diakses oleh sebagian besar pengguna komputer, latar belakang yang terlalu teknis tidak diperlukan.
-- **Terdokumentasi**: Alat harus memiliki dokumentasi yang jelas dan ekstensif untuk digunakan.
 
 ## Pengajuan Diri Pengembang
 

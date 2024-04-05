@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
-template: overrides/home.id.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ Mencoba untuk melindungi semua data Anda dari semua orang setiap saat tidaklah p
 ==Proses mengidentifikasi ancaman dan mendefinisikan tindakan penanggulangan disebut **pemodelan ancaman**==, dan ini menjadi dasar dari setiap rencana keamanan dan privasi yang baik.
 
 [:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
-
----
-
-## Kami membutuhkan Anda! Berikut adalah cara untuk terlibat:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
-
-Ini penting bagi situs web seperti Privacy Guides untuk selalu mendapatkan informasi yang terbaru. Kami membutuhkan audiens kami untuk mengawasi pembaruan perangkat lunak untuk aplikasi yang terdaftar di situs kami dan mengikuti berita terbaru tentang penyedia yang kami rekomendasikan. Memang sulit untuk mengimbangi kecepatan internet yang begitu cepat, tetapi kami berusaha sebaik mungkin. Jika Anda menemukan kesalahan, merasa bahwa sebuah penyedia tidak seharusnya terdaftar, melihat penyedia yang memenuhi syarat tidak ada, merasa plugin peramban tidak lagi menjadi pilihan terbaik, atau menemukan masalah lain, silakan beri tahu kami.

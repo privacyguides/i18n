@@ -1,30 +1,19 @@
 ---
-title: Allgemeine Kriterien
+title: General Criteria
 ---
 
-<div class="admonition example" markdown>
-<p class="admonition-title">In Arbeit</p>
+Below are some general priorities we consider for all submissions to Privacy Guides. Für jede Kategorie gelten zusätzliche Anforderungen für die Aufnahme.
 
-An dieser Seite wird im Moment noch gearbeitet; sie spiegelt derzeit nicht die vollständigen Kriterien für unsere Empfehlungen wieder. Frühere Diskussion zu diesem Thema: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
-
-</div>
-
-Nachfolgend sind einige Punkte aufgeführt, die für alle Einsendungen an Privacy Guides zutreffen müssen. Für jede Kategorie gelten zusätzliche Anforderungen für die Aufnahme.
+- **Security**: Tools should follow security best-practices wherever applicable.
+- **Verfügbarkeit des Quellcodes**: Open-Source-Projekte werden meist gegenüber gleichwertigen proprietären Alternativen bevorzugt.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **Aktive Entwicklung**: Die von uns empfohlenen Tools sollten aktiv weiterentwickelt werden, nicht gewartete Projekte werden in den meisten Fällen entfernt.
+- **Benutzerfreundlichkeit**: Die Tools sollten für die meisten Computerbenutzer zugänglich sein, ein übermäßig technischer Hintergrund sollte nicht erforderlich sein.
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## Finanz-Offenlegung
 
 Wir verdienen kein Geld mit Empfehlungen bestimmter Produkte, wir verwenden keine Affiliate-Links, und wir gewähren keine besondere Gegenleistung für Projektspender.
-
-## Allgemeine Richtlinien
-
-Wir wenden diese Prioritäten beim Prüfen neuer Empfehlungen an:
-
-- **Sicher**: Tools sollten, wo möglich, bewährte Sicherheitspraktiken anwenden.
-- **Verfügbarkeit des Quellcodes**: Open-Source-Projekte werden meist gegenüber gleichwertigen proprietären Alternativen bevorzugt.
-- **Plattformübergreifend**: Wir bevorzugen Empfehlungen die plattformübergreifend sind, um eine Herstellerbindung zu vermeiden.
-- **Aktive Entwicklung**: Die von uns empfohlenen Tools sollten aktiv weiterentwickelt werden, nicht gewartete Projekte werden in den meisten Fällen entfernt.
-- **Benutzerfreundlichkeit**: Die Tools sollten für die meisten Computerbenutzer zugänglich sein, ein übermäßig technischer Hintergrund sollte nicht erforderlich sein.
-- **Dokumentiert**: Die Werkzeuge sollten über eine klare und ausführliche Dokumentation zum Gebrauch verfügen.
 
 ## Selbsteinreichungen von Entwicklern
 

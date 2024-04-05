@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: 여러분의 개인 프라이버시, 보안 리소스"
-template: overrides/home.ko.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ schema:
 ==위협을 식별하고, 대응책을 정의하는 과정을 **위협 모델링**==이라 합니다. 훌륭한 보안, 개인정보 보호 계획이라면 언제나 그 근간에는 위협 모델링이 존재합니다.
 
 [:material-book-outline: 위협 모델링 자세히 알아보기](basics/threat-modeling.md){ class="md-button md-button--primary" }
-
----
-
-## 여러분의 도움이 필요합니다! 참여 방법은 다음과 같습니다:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
-
-Privacy Guides와 같은 사이트는 언제나 최신 정보를 제공하는 것이 중요합니다. 사이트에서 안내된 프로그램의 업데이트를 주시하고, 추천한 제공 업체 관련 최신 뉴스를 따라가기 위해서는 여러분들의 집단 지성이 필요합니다. 인터넷의 빠른 변화를 따라잡기는 쉽지 않지만, 우린 최선을 다하고 있습니다. 사이트에서 오류를 발견하셨거나, 특정 제공 업체가 목록에서 제외되어야 한다고 생각하시거나, 혹은 적절한 제공 업체가 누락되었거나, 브라우저 플러그인이 더 이상 훌륭한 선택이 아니라고 생각하시는 등 각종 문제를 발견한 경우 알려주시기 바랍니다.

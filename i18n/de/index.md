@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Deine unabhängige Quelle für Datenschutz und Sicherheit"
-template: overrides/home.de.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ Der Versuch, alle unsere Daten ständig vor allen zu schützen, ist unpraktisch,
 == Dieser Prozess der Identifizierung von Bedrohungen und der Festlegung von Gegenmaßnahmen wird als **Bedrohungsanalyse** bezeichnet== und bildet die Grundlage für jeden guten Sicherheits- und Datenschutzplan.
 
 [:material-book-outline: Lerne mehr zur Bedrohungsanalyse ](basics/threat-modeling.md){ class="md-button md-button--primary" }
-
----
-
-## Wir brauchen dich! So kannst du mitmachen:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Treten Sie unserem Forum bei" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Folgen Sie uns auf Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Zu dieser Website beitragen" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Helfen Sie bei der Übersetzung dieser Website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chatten Sie mit uns auf Matrix" }
-[:material-information-outline:](about/index.md){ title="Erfahren Sie mehr über uns" }
-[:material-hand-coin-outline:](about/donate.md){ title="Unterstützen Sie das Projekt" }
-
-Es ist wichtig, dass eine Website wie Privacy Guides immer auf dem neuesten Stand bleibt. Wir brauchen unser Publikum um Software-Updates für die auf unserer Website aufgeführten Anwendungen im Auge zu behalten und die neuesten Nachrichten über die von uns empfohlenen Anbieter zu verfolgen. Es ist schwer, mit der Schnelllebigkeit des Internets Schritt zu halten, aber wir versuchen unser Bestes. Solltest du einen Fehler entdecken, der Meinung sein, dass ein Anbieter nicht aufgelistet sein sollte, ein qualifizierter Anbieter fehlt, ein Browser-Plugin nicht mehr die beste Wahl ist oder du ein anderes Problem finden, lass es uns bitte wissen.

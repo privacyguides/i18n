@@ -2,29 +2,18 @@
 title: General Criteria
 ---
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Work in Progress</p>
+Below are some general priorities we consider for all submissions to Privacy Guides. Varje kategori kommer att ha ytterligare krav för inkludering.
 
-Följande sida är ett pågående arbete och återspeglar för närvarande inte alla kriterier för våra rekommendationer. Tidigare diskussion om detta ämne: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
-
-</div>
-
-Nedan följer några saker som måste gälla för alla inlagor till integritetsguider. Varje kategori kommer att ha ytterligare krav för inkludering.
+- **Security**: Tools should follow security best-practices wherever applicable.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **Aktiv utveckling**: De verktyg som vi rekommenderar bör vara aktivt utvecklade, ounderhållna projekt kommer i de flesta fall att tas bort.
+- **Användbarhet**: Verktyg bör vara tillgängliga för de flesta datoranvändare, en alltför teknisk bakgrund bör inte krävas.
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## Finansiell information
 
 Vi tjänar inga pengar på att rekommendera vissa produkter, vi använder inga affiliate-länkar och vi ger inga särskilda överväganden till projektdonatorer.
-
-## Allmänna riktlinjer
-
-Vi tillämpar dessa prioriteringar när vi överväger nya rekommendationer:
-
-- **Säker**: Verktyg bör följa bästa säkerhetspraxis där det är tillämpligt.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
-- **Plattformsoberoende**: Vi föredrar vanligtvis att rekommendationerna är plattformsoberoende för att undvika leverantörslåsning.
-- **Aktiv utveckling**: De verktyg som vi rekommenderar bör vara aktivt utvecklade, ounderhållna projekt kommer i de flesta fall att tas bort.
-- **Användbarhet**: Verktyg bör vara tillgängliga för de flesta datoranvändare, en alltför teknisk bakgrund bör inte krävas.
-- **Dokumenterad**: Verktyg ska ha tydlig och omfattande dokumentation för användning.
 
 ## Utvecklarens självinlämningar
 

@@ -2,29 +2,18 @@
 title: General Criteria
 ---
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Work in Progress</p>
+Below are some general priorities we consider for all submissions to Privacy Guides. 每个类别都会有额外的纳入要求。
 
-以下页面是一项正在进行的工作，目前并不反映我们建议的全部标准。 过去关于这个主题的讨论。[#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
-
-</div>
-
-以下是一些必须适用于所有提交给隐私指南的事项。 每个类别都会有额外的纳入要求。
+- **Security**: Tools should follow security best-practices wherever applicable.
+- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **积极开发**：我们推荐的工具应该积极开发，未维护的项目在大多数情况下会被删除。
+- **可用性**：工具应该是大多数计算机用户可以使用的，不应该要求有过度的技术背景。
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## 财务披露
 
 我们不通过推荐某些产品赚钱，我们不使用联盟链接，我们也不为项目捐赠者提供特殊考虑。
-
-## 一般准则
-
-我们在考虑新的建议时采用这些优先事项。
-
-- **安全**：工具应该在适用的地方遵循安全的最佳做法。
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
-- **跨平台**：我们通常倾向于建议跨平台，以避免厂商锁定。
-- **积极开发**：我们推荐的工具应该积极开发，未维护的项目在大多数情况下会被删除。
-- **可用性**：工具应该是大多数计算机用户可以使用的，不应该要求有过度的技术背景。
-- **文档化**：工具应该有明确和广泛的使用文档。
 
 ## 开发商自行提交的资料
 

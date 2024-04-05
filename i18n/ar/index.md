@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
-template: overrides/home.ar.html
+template: home.html
 social:
   cards_layout: home
 hide:
@@ -57,17 +57,3 @@ schema:
 ==هذه العملية لتحديد التهديدات وتحديد الإجراءات المضادة تسمى **نَمذَجَةُ التَّهدِيد**==، وهي تشكل الأساس لكل خِطَّة أمان وخصوصية جيدة.
 
 [:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
-
----
-
-## نحتاجُك! إليك كيفية المشاركة:
-
-[:simple-discourse:](https://discuss.privacyguides.net){ title="Join our Forum" }
-[:simple-mastodon:](https://mastodon.neat.computer/@privacyguides){ rel=me title="Follow us on Mastodon" }
-[:material-book-edit:](https://github.com/privacyguides/privacyguides.org){ title="Contribute to this website" }
-[:material-translate:](https://matrix.to/#/#pg-i18n:aragon.sh){ title="Help translate this website" }
-[:simple-matrix:](https://matrix.to/#/#privacyguides:matrix.org){ title="Chat with us on Matrix" }
-[:material-information-outline:](about/index.md){ title="Learn more about us" }
-[:material-hand-coin-outline:](about/donate.md){ title="Support the project" }
-
-من المهم أن يُحدَّث موقع ويب مثل إرشادات الخصوصية بشكل مستمر. نحتاج إلى أن يراقب جمهورنا تحديثات برمجيات التطبيقات المدرجة على موقعنا ومتابعة آخر الأخبار حول مقدمي الخدمة الذين نوصي بهم. من الصعب مواكبة الوتيرة السريعة للإنترنت، لكننا نبذل قصارى جهدنا. إذا اكتشفت خطأً، اعتقدت أنه لا يجب إدراج مقدم خدمة، لاحظت اختفاء مزود مؤهَّل، اعتقدت أن المكون الإضافي للمتصفح لم يعد هو الخيار الأفضل، أو اكتشفت أي مشكلة أخرى، يرجى إبلاغنا بذلك.

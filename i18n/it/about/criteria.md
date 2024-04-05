@@ -1,30 +1,19 @@
 ---
-title: Criteri generali
+title: General Criteria
 ---
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Lavori In Corso</p>
+Below are some general priorities we consider for all submissions to Privacy Guides. Ogni categoria avrà requisiti aggiuntivi per l'inclusione.
 
-La seguente pagina è in costruzione e non riflette i criteri completi dei nostri consigli, al momento. Discussione precedente su questo argomento: [#24](https://github.com/privacyguides/privacyguides.org/discussions/24)
-
-</div>
-
-Seguono alcune cose che devono applicarsi a tutti gli articoli di Privacy Guides. Ogni categoria avrà requisiti aggiuntivi per l'inclusione.
+- **Security**: Tools should follow security best-practices wherever applicable.
+- **Disponibilità codice sorgente**: i progetti open source sono generalmente preferiti rispetto alle alternative proprietarie.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **Sviluppo attivo**: Gli strumenti che consigliamo dovrebbero essere mantenuti attivamente; i progetti non mantenuti, in gran parte dei casi, saranno rimossi.
+- **Utilizzabilità**: gli strumenti dovrebbero essere accessibili a gran parte degli utenti, senza richiedere un background eccessivamente tecnico.
+- **Documentation**: Tools should have clear and extensive documentation for use.
 
 ## Comunicazione Finanziaria
 
 Non guadagniamo denaro consigliando certi prodotti, non utilizziamo i link d'affiliazione e non offriamo considerazione speciale ai progetti donatori.
-
-## Linee Guida Generali
-
-Applichiamo queste priorità considerando nuovi consigli:
-
-- **Sicuro**: gli strumenti dovrebbero seguire le migliori pratiche di sicurezza, ove applicabile.
-- **Disponibilità codice sorgente**: i progetti open source sono generalmente preferiti rispetto alle alternative proprietarie.
-- **Multipiattaforma**: tipicamente, preferiamo che i prodotti consigliati siano multipiattaforma, per evitare il blocco del venditore.
-- **Sviluppo attivo**: Gli strumenti che consigliamo dovrebbero essere mantenuti attivamente; i progetti non mantenuti, in gran parte dei casi, saranno rimossi.
-- **Utilizzabilità**: gli strumenti dovrebbero essere accessibili a gran parte degli utenti, senza richiedere un background eccessivamente tecnico.
-- **Documentato**: Gli strumenti dovrebbero disporre di una documentazione chiara ed estesa per l'uso.
 
 ## Autocandidatura degli sviluppatori
 
