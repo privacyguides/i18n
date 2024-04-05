@@ -77,7 +77,7 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Br
 
 ##### 防護
 
-Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些選項。
+Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
 ##### Brave 防護全域預設設定
 
@@ -99,31 +99,31 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-1. 此選項提供的功能類似uBlock Origin 進階 [封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net) 擴展。
+1. 此選項提供的功能類似於 uBlock Origin 的 進階[封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net) 擴充功能。
 
 ##### 清除瀏覽資料
 
-- [x] Select **清除出口**的數據
+- [x] 勾選 **結束時清除資料**
 
-##### 社交媒體屏蔽
+##### 阻擋社交媒體
 
-- [ ] 取消勾選所有社交媒體組件
+- [ ] 取消勾選所有社交媒體元件
 
 ##### 其他隱私設定
 
 <div class="annotate" markdown>
 
-- [x] 選擇 **在[WebRTC IP處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)**
-- [ ]取消勾選 **允許網站檢查您是否儲存了付款方式**
-- [ ]取消勾選 **IPFS閘道** (1)
-- [x] 選擇 **關閉出口標籤**
-- [ ] 取消勾選**允許隱私保護產品分析(P3A)**
-- [ ] 取消勾選 **自動發送診斷報告**
-- [ ] 取消勾選 **自動發送每日使用情況給Brave**
+- [x] 在 [WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 下選擇 **停用非代理 UDP**
+- [ ] 取消勾選 **允許網站檢查是否有已儲存的付款方式**
+- [ ] 取消勾選 **IPFS 閘道器** (1)
+- [x] 勾選 **退出時關閉分頁**
+- [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
+- [ ] 取消勾選 **自動傳送診斷報告**
+- [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
 
 </div>
 
-1. InterPlanetary File System (IPFS)是一個分散的對等網絡，用於在分布式文件系統中存儲和共享數據。 除非您使用此功能，否則禁用它。
+1. 星際檔案系統 (InterPlanetary File System，縮寫為 IPFS) 是一個旨在實現檔案的分散式儲存、共享和持久化的網路傳輸協定。 除非您使用此功能，否則停用它。
 
 #### Brave 同步
 
@@ -131,31 +131,31 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 ## iOS
 
-在 iOS上，任何可以瀏覽網頁的應用程式都是 [限制](https://developer.apple.com/app-store/review/guidelines) 使用 Apple 提供的 [WebKit 框架](https://developer.apple.com/documentation/webkit)，因此沒有理由使用第三方瀏覽器。
+在 iOS 上，任何可以瀏覽網頁的應用程式都被[限制](https://developer.apple.com/app-store/review/guidelines)使用 Apple 提供的 [WebKit 框架](https://developer.apple.com/documentation/webkit)，因此沒有理由使用第三方瀏覽器。
 
 ### Safari
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是iOS 預設瀏覽器。 它包括[隱私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0)如: [智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention）、隱私權報告、獨立且短暫的私密瀏覽標籤、iCloud 私密中繼、透過隨機化並向網站呈現簡化版本的系統配置來實現指紋保護，以便更多設備看起來相同，以及使用生物識別資訊/PIN 鎖定私人標籤的能力。 它可以使用不同的配置檔來分開瀏覽。
+**Safari** 是 iOS 預設瀏覽器。 它包括[隱私權功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0)，如 [智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、獨立且短暫的私密瀏覽標籤頁、iCloud 私密轉送、透過隨機化並向網站呈現簡化版本的系統設定來實現指紋保護，以使更多設備看起來相同的指紋保護，以及使用 生物識別資訊/PIN 鎖定私密瀏覽的功能。 它還可以使用不同的設定檔來分隔您的瀏覽。
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title="文件" }
 
 </details>
 
 </div>
 
-#### Recommended Safari Configuration
+#### 建議的 Safari 設定
 
 這些選項可以在 :gear: **Safari** →**設定**中找到。
 
 ##### 設定檔
 
-所有 cookie、歷史記錄和網站資料對於每個設定檔都是獨立的。 您應該將不同設定檔用於不同目的，例如 購物、工作或上學。
+所有 cookie、歷史記錄和網站資料對於每個設定檔都是獨立的。 您應該將不同設定檔用於不同目的，例如購物、工作或學校。
 
 ##### 隱私 & 安全
 
@@ -163,7 +163,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
     這將啟用 WebKit [智慧型跟蹤保護](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能透過設備的機器學習來阻止跟蹤器不必要的跟蹤。 ITP 可以防止許多常見的威脅，但它不會阻止所有跟蹤途徑，因為它的設計不會干擾網站的可用性。
 
-- [x] 啟用**需要Face ID 才能解鎖私密瀏覽**
+- [x] 啟用**需要 Face ID 才能解鎖私密瀏覽**
 
     此設定可將私人分頁在不使用時鎖定在生物辨識/PIN 裏。
 
@@ -189,7 +189,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 ##### 一直保持私密瀏覽
 
-開啟Safari ，然後點按右下角的「標籤」按鈕。 然後，擴展標籤組列表。
+開啟 Safari ，然後點按右下角的「標籤」按鈕。 然後，擴展標籤組列表。
 
 - [x] 選擇 **私密**
 
@@ -199,23 +199,23 @@ Safari的私人瀏覽模式提供額外的隱私保護。 隱私瀏覽每個標�
 
 ##### iCloud 同步
 
-Safari 歷史記錄、標籤組、iCloud 標籤分頁和保存密碼的同步都是 E2EE。 但預設情況下，書籤[沒有](https://support.apple.com/HT202303)。 Apple可以根據其 [隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
+Safari 歷史記錄、標籤頁、iCloud 標籤分頁和保存密碼的同步都採用 E2EE 加密。 但預設情況下，書籤[沒有](https://support.apple.com/HT202303)。 Apple 可以根據其[隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
 
-您可以為Safari 書籤和下載啟用 E2EE ，只需啟用 [Advanced Data Protection](https://support.apple.com/HT212520)即可。 請在 **Apple ID name → iCloud → 進階資料保護**.
+您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用 [進階資料防護](https://support.apple.com/HT212520) 即可。 請在 **Apple ID name → iCloud → 進階資料保護**.
 
 - [x] 開啟 **進階資料保護**
 
-如果您在禁用「進階資料保護」的情況下使用iCloud ，我們亦建議您檢查，確保 Safari 預設下載位置已設定為裝置上的本機位置。 此選項可在 :gear: **設定** → **Safari** → **一般** → **下載**中找到。
+如果您在禁用「進階資料保護」的情況下使用 iCloud ，我們亦建議您檢查，確保 Safari 預設下載位置已設定為裝置上的本機位置。 此選項可在 :gear: **設定** → **Safari** → **一般** → **下載**中找到。
 
 ## 標準
 
-**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了我們的標準之外，我們還制定了一套[明確的要求](about/criteria.md)，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
 - 必須支援自動更新。
-- 必須在上遊發布後的0-1天內收到引擎更新。
+- 必須從上游版本釋出後的 0-1 天內接收引擎更新。
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
-- 安卓版瀏覽器必須使用 Chromium 引擎。
-    - 不幸的是， Mozilla GeckoView仍然不如Android上的Chromium安全。
-    - iOS瀏覽器僅限於WebKit。
+- Android 瀏覽器必須使用 Chromium 引擎。
+    - 不幸的是，Mozilla GeckoView 仍然不如 Android 上的 Chromium 安全。
+    - iOS 瀏覽器僅限於 WebKit。

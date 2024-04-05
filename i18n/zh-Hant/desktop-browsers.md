@@ -215,7 +215,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox ，[有幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])在主觀上過於嚴格，而且可能導致某些網站無法正常運作 - [可以輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)以滿足您的需求。 我們**強烈建議**完整閱讀他們的[維基](https://github.com/arkenfox/user.js/wiki)頁面。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，[有幾個設定](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])在主觀上過於嚴格，而且可能導致某些網站無法正常運作 - 但是您[可以輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)以滿足您的需求。 我們**強烈建議**完整閱讀他們的[維基](https://github.com/arkenfox/user.js/wiki)頁面。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
 Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配置設置來阻止基本或天真的跟蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記住，您可以隨時使用多個瀏覽器。例如，您可以考慮將 Firefox + Arkenfox 用於希望保持登入或可以信任的幾個網站，而 Mullvad 瀏覽器則用於一般瀏覽。
 
@@ -265,7 +265,7 @@ Brave 在官網的下載檔案中新增了 "[推廣代碼](https://github.com/br
 
 ##### 防護
 
-Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些選項。
+Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
 防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
