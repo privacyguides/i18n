@@ -151,7 +151,7 @@ W systemie iOS każda aplikacja, która umożliwia przeglądanie Internetu [ma o
 
 </div>
 
-#### Recommended Firefox Configuration
+#### Recommended Safari Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

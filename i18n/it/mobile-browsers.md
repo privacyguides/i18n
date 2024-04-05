@@ -151,7 +151,7 @@ Su iOS, qualsiasi app che possa navigare sul web è [limitata](https://developer
 
 </div>
 
-#### Recommended Firefox Configuration
+#### Recommended Safari Configuration
 
 Queste opzioni si trovano in :gear: **Impostazioni** → **Safari**
 

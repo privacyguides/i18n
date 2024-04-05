@@ -151,7 +151,7 @@ Sur iOS, toute application capable de naviguer sur le web est [](https://develop
 
 </div>
 
-#### Recommended Firefox Configuration
+#### Recommended Safari Configuration
 
 Ces options se trouvent dans :gear: → **Paramètres** → **Safari**
 

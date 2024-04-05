@@ -151,7 +151,7 @@ Op iOS is elke app die op het web kan surfen beperkt tot [](https://developer.ap
 
 </div>
 
-#### Recommended Firefox Configuration
+#### Recommended Safari Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

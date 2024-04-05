@@ -151,7 +151,7 @@ iOS에서는 웹 브라우징이 가능한 모든 앱이 Apple에서 제공하�
 
 </div>
 
-#### Recommended Firefox Configuration
+#### Recommended Safari Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

@@ -151,7 +151,7 @@ En iOS, cualquier aplicación que puede navegar en internet está [limitada](htt
 
 </div>
 
-#### Configuración Recomendada de Firefox
+#### Recommended Safari Configuration
 
 Estas opciones se encuentran en :gear: **Ajustes** → **Safari**
 

@@ -151,7 +151,7 @@ I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app
 
 </div>
 
-#### Recommended Firefox Configuration
+#### Recommended Safari Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

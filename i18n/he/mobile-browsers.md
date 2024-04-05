@@ -151,7 +151,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-#### Recommended Firefox Configuration
+#### Recommended Safari Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

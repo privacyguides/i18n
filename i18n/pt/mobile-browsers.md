@@ -151,7 +151,7 @@ O **Safari** é o navegador predefinido no iOS. It includes [privacy features](h
 
 </div>
 
-#### Recommended Firefox Configuration
+#### Recommended Safari Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 

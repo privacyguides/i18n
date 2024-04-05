@@ -150,7 +150,7 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 
 </div>
 
-#### Empfohlene Firefox-Konfiguration
+#### Recommended Safari Configuration
 
 These options can be found in :gear: **Settings** → **Safari**
 
