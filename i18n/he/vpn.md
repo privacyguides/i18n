@@ -4,28 +4,22 @@ title: "שירותי VPN"
 icon: material/vpn
 description: אלו הם שירותי ה-VPN הטובים ביותר להגנה על הפרטיות והאבטחה שלך באינטרנט. מצא כאן ספק שאינו מעוניין לרגל אחריך.
 cover: vpn.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
 
-אם אתה מחפש **פרטיות** נוספת מ-ISP שלך, ברשת Wi-Fi ציבורית, או תוך כדי טורנט קבצים, VPN עשוי להיות הפתרון עבורך כל עוד אתה מבין את הסיכונים הכרוכים בכך. אנו חושבים שהספקים האלה הם חתך מעל השאר:
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN לוגו](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN לוגו](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad לוגו](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-
-</div>
+If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs do not provide anonymity</p>
 
-שימוש ב-VPN **לא** ישמור על הרגלי הגלישה שלך אנונימיים, וגם לא יוסיף אבטחה לתעבורה לא מאובטחת (HTTP).
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
-If you are looking for **anonymity**, you should use the Tor Browser.
-
-אם אתה מחפש **אבטחה** נוספת, עליך תמיד לוודא שאתה מתחבר לאתרים באמצעות HTTPS. VPN אינו תחליף לשיטות אבטחה טובות.
+If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN אינו תחליף לשיטות אבטחה טובות.
 
 [Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
@@ -35,7 +29,13 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 ## ספקים מומלצים
 
-הספקים המומלצים שלנו משתמשים בהצפנה, מקבלים Monero, תומכים ב-WireGuard & OpenVPN, ויש להם מדיניות ללא רישום. קרא את \[רשימת הקריטריונים המלאה\](#_20) שלנו למידע נוסף.
+Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. קרא את \[רשימת הקריטריונים המלאה\](#_20) שלנו למידע נוסף.
+
+| Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
+| --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 91+       | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | מזומן              |
+| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash       |
+| [Mullvad](#mullvad)   | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Cash       |
 
 ### Proton VPN
 
@@ -94,7 +94,7 @@ Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGua
 
 Proton VPN's servers are only compatible with IPv4. The Proton VPN applications will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Proton VPN from an IPv6-only network.
 
-#### :material-alert-outline:{ .pg-orange } העברת פורטים מרחוק
+#### :material-information-outline:{ .pg-info } Remote Port Forwarding
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). יישומי טורנט תומכים לעתים קרובות ב-NAT-PMP באופן מקורי.
 

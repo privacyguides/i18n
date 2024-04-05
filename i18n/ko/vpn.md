@@ -4,28 +4,22 @@ title: "VPN 서비스"
 icon: material/vpn
 description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
 cover: vpn.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
 
-ISP로부터의 **프라이버시**가 필요하거나, 공용 Wi-Fi에 연결되어 있거나, 토렌트를 사용하는 중이라면 VPN이 알맞는 해결책이 될 수 있습니다. 다만, VPN의 단점들을 인지하고 있어야 합니다. We think these providers are a cut above the rest:
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN 로고](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN 로고](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad 로고](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-
-</div>
+If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs do not provide anonymity</p>
 
-VPN은 브라우저 사용 패턴을 익명화하지 않고, 보호되지 않은 트래픽 (HTTP)에 추가적인 보안을 제공하지 않습니다.
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
-If you are looking for **anonymity**, you should use the Tor Browser.
-
-만약 추가적인 보안이 필요하다면, 연결된 웹사이트가 HTTPS를 사용하는지 꼭 확인해야 합니다. VPN은 올바른 보안 관행을 대체할 수 없습니다.
+If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN은 올바른 보안 관행을 대체할 수 없습니다.
 
 [Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
@@ -35,7 +29,13 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 ## 권장 제공 업체
 
-Privacy Guides 권장 제공 업체는 암호화 사용, Monero 결제 지원, WireGuard & OpenVPN 지원, 노 로그 정책을 가지고 있습니다. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
+Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
+
+| Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
+| --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 91+       | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | 현금                 |
+| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash       |
+| [Mullvad](#mullvad)   | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Cash       |
 
 ### Proton VPN
 
@@ -94,7 +94,7 @@ Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGua
 
 Proton VPN's servers are only compatible with IPv4. The Proton VPN applications will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Proton VPN from an IPv6-only network.
 
-#### :material-alert-outline:{ .pg-orange } 원격 포트 포워딩
+#### :material-information-outline:{ .pg-info } Remote Port Forwarding
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). 토렌트 애플리케이션은 대부분 NAT-PMP를 지원합니다.
 

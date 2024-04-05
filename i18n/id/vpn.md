@@ -4,28 +4,22 @@ title: "Layanan VPN"
 icon: material/vpn
 description: Ini adalah layanan VPN terbaik untuk melindungi privasi dan keamanan daring Anda. Temukan penyedia di sini yang tidak memata-matai Anda.
 cover: vpn.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
 
-Jika Anda mencari **privasi tambahan** dari ISP Anda, pada jaringan Wi-Fi publik, atau saat melakukan torrent file, VPN bisa jadi solusi untuk Anda selama Anda memahami risiko yang ada. Menurut kami, penyedia layanan ini adalah yang terbaik di antara yang lain:
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-
-</div>
+If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs do not provide anonymity</p>
 
-Menggunakan VPN **tidak** akan menjaga kebiasaan jelajah Anda tetap anonim, dan juga tidak akan menambah keamanan tambahan pada lalu lintas yang tidak aman (HTTP).
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
-If you are looking for **anonymity**, you should use the Tor Browser.
-
-Jika Anda membutuhkan **keamanan** tambahan, Anda harus selalu memastikan bahwa Anda terhubung ke situs web menggunakan HTTPS. VPN bukanlah pengganti praktik keamanan yang baik.
+If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN bukanlah pengganti praktik keamanan yang baik.
 
 [Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
@@ -35,7 +29,13 @@ Jika Anda membutuhkan **keamanan** tambahan, Anda harus selalu memastikan bahwa 
 
 ## Penyedia yang Direkomendasikan
 
-Penyedia yang kami rekomendasikan menggunakan enkripsi, menerima Monero, mendukung WireGuard & OpenVPN, dan memiliki kebijakan tanpa pencatatan. Baca [daftar lengkap kriteria kami](#criteria) untuk informasi lebih lanjut.
+Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Baca [daftar lengkap kriteria kami](#criteria) untuk informasi lebih lanjut.
+
+| Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
+| --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 91+       | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | Uang Tunai         |
+| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash       |
+| [Mullvad](#mullvad)   | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Cash       |
 
 ### Proton VPN
 
@@ -94,7 +94,7 @@ Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGua
 
 Proton VPN's servers are only compatible with IPv4. The Proton VPN applications will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Proton VPN from an IPv6-only network.
 
-#### :material-alert-outline:{ .pg-orange } Penerusan Porta Jarak Jauh
+#### :material-information-outline:{ .pg-info } Remote Port Forwarding
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent applications often support NAT-PMP natively.
 

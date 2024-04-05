@@ -4,28 +4,22 @@ title: "VPN сервисы"
 icon: material/vpn
 description: Это лучшие VPN-сервисы для защиты вашей конфиденциальности и безопасности в Интернете. Найдите провайдера, который не будет шпионить за вами.
 cover: vpn.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
 
-Если вам нужна дополнительная **приватность** от своего провайдера, при подключении к публичным сетям Wi-Fi или во время скачивания торрентов, VPN может быть правильным решением для вас, если вы понимаете связанные с этим риски. Мы считаем, что эти VPN-провайдеры на голову выше остальных:
-
-<div class="grid cards" markdown>
-
-- ![Логотип Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![Логотип IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Логотип Mullvad](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-
-</div>
+If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs do not provide anonymity</p>
 
-Использование VPN **не обеспечивает** анонимность ваших привычек при просмотре веб-страниц, а также **не прибавляет** безопасности при использовании незащищенного (HTTP) трафика.
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
-If you are looking for **anonymity**, you should use the Tor Browser.
-
-Если вам нужна дополнительная **безопасность**, убедитесь, что вы подключаетесь к веб-сайтам, используя HTTPS. VPN не является заменой полезных привычек для обеспечения безопасности.
+If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN не является заменой полезных привычек для обеспечения безопасности.
 
 [Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
@@ -35,7 +29,13 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 ## Рекомендованные провайдеры
 
-Рекомендуемые нами провайдеры находятся за пределами США, используют шифрование, принимают Monero, поддерживают WireGuard и OpenVPN и не сохраняют логи вашего трафика. Для получения дополнительной информации, ознакомьтесь с \[полным списком критериев\](#_18).
+Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Для получения дополнительной информации, ознакомьтесь с \[полным списком критериев\](#_18).
+
+| Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
+| --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 91+       | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | Наличные           |
+| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash       |
+| [Mullvad](#mullvad)   | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Cash       |
 
 ### Proton VPN
 
@@ -94,7 +94,7 @@ Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGua
 
 Proton VPN's servers are only compatible with IPv4. The Proton VPN applications will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Proton VPN from an IPv6-only network.
 
-#### :material-alert-outline:{ .pg-orange } Удалённая переадресация портов
+#### :material-information-outline:{ .pg-info } Remote Port Forwarding
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Торрент приложения часто поддерживают NAT-PMP нативно.
 
@@ -174,7 +174,7 @@ IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their se
 
 IVPN allows you to [connect to services using IPv6](https://www.ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
 
-#### :material-alert-outline:{ .pg-orange } Удаленная переадресация портов
+#### :material-alert-outline:{ .pg-orange } Удалённая переадресация портов
 
 IVPN previously supported port forwarding, but removed the option in [June 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). Отсутствие этой функции может негативно сказаться на некоторых приложениях, особенно на пиринговых приложениях, таких как торрент-клиенты.
 
@@ -257,7 +257,7 @@ Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireG
 
 Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) and connect from a device using an IPv6 address.
 
-#### :material-alert-outline:{ .pg-orange } Удалённая переадресация портов
+#### :material-alert-outline:{ .pg-orange } Удаленная переадресация портов
 
 Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). Отсутствие этой функции может негативно сказаться на некоторых приложениях, особенно на пиринговых приложениях, таких как торрент-клиенты.
 

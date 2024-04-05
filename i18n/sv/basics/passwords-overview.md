@@ -4,17 +4,17 @@ icon: 'material/form-textbox-password'
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Lösenord är en viktig del av vår digitala vardag. Vi använder dem för att skydda våra konton, våra enheter och våra hemligheter. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
 
 ## Best Practices
 
-### Use unique passwords for every service
+### Använd unika lösenord för varje tjänst
 
 Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. För att undvika detta, bör du se till att du aldrig återanvänder dina lösenord.
 
-### Use randomly generated passwords
+### Använd slumpmässigt genererade lösenord
 
 ==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
 
@@ -104,7 +104,7 @@ To sum it up, diceware passphrases are your best option when you need something 
 
 ### Lösenordshanterare
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+Det bästa sättet att lagra dina lösenord är genom att använda en lösenordshanterare. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
 
 There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
 

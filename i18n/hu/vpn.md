@@ -4,28 +4,22 @@ title: "VPN Szolgáltatások"
 icon: material/vpn
 description: Ezek a legjobb VPN-szolgáltatások az online magánéleted és biztonságod megvédéséhez. Find a provider here that isn’t out to spy on you.
 cover: vpn.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
 
-If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand the risks involved. We think these providers are a cut above the rest:
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-
-</div>
+If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs do not provide anonymity</p>
 
-Egy VPN használata **nem** fogja anonimizálni a böngészési szokásaidat, és nem biztosít további védelmet nem biztonságos (HTTP) forgalomnak.
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
-If you are looking for **anonymity**, you should use the Tor Browser.
-
-Ha több **biztonságot** keresel, mindig győződj meg arról, hogy a weboldalakhoz HTTPS használatával csatlakozol. Egy VPN nem helyettesít helyes biztonsági gyakorlatokat.
+If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Egy VPN nem helyettesít helyes biztonsági gyakorlatokat.
 
 [Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
@@ -35,7 +29,13 @@ Ha több **biztonságot** keresel, mindig győződj meg arról, hogy a weboldala
 
 ## Ajánlott Szolgáltatók
 
-Az általunk ajánlott szolgáltatók titkosítást használnak, elfogadják a Monero-t, támogatják a WireGuard-ot és OpenVPN-t, valamint naplózásmentes irányelvekkel rendelkeznek. Read our [full list of criteria](#criteria) for more information.
+Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
+
+| Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
+| --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 91+       | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | Cash               |
+| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash       |
+| [Mullvad](#mullvad)   | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Cash       |
 
 ### Proton VPN
 
@@ -94,7 +94,7 @@ Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGua
 
 Proton VPN's servers are only compatible with IPv4. The Proton VPN applications will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Proton VPN from an IPv6-only network.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-information-outline:{ .pg-info } Remote Port Forwarding
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent applications often support NAT-PMP natively.
 

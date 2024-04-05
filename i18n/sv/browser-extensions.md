@@ -1,5 +1,5 @@
 ---
-title: Browser Extensions
+title: Webbläsartillägg
 icon: material/puzzle-outline
 description: These browser extensions can enhance your browsing experience and protect your privacy.
 cover: browser-extensions.webp
@@ -11,7 +11,7 @@ However, some provide functionality which can outweigh these downsides in certai
 
 Don't install extensions which you don't immediately have a need for, or ones that duplicate the functionality of your browser. For example, [Brave](desktop-browsers.md#brave) users don't need to install uBlock Origin, because Brave Shields already provides the same functionality.
 
-## Content Blockers
+## Innehållsblockerare
 
 ### uBlock Origin
 

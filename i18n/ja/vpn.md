@@ -4,28 +4,22 @@ title: "VPNサービス"
 icon: material/vpn
 description: これらは、あなたのプライバシーとセキュリティをオンラインで保護するための最も優れたVPNサービスです。 スパイ目的でないVPNサービスプロパイダーをここで見つけましょう。
 cover: vpn.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
 
-ISPや公共Wi-Fiネットワークから**プライバシー**をより一層保護したい場合、またはファイルをTorrentで送受信している際にそうしたい場合、リスクを理解している限りで、VPNはあなたにとっての解決策になる可能性があります。 以下のプロバイダは他のプロバイダと比較して洗練されていると、私たちは考えています。
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN ロゴ](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN ロゴ](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad ロゴ](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-
-</div>
+If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs do not provide anonymity</p>
 
-VPNを使用しても、ブラウジング習慣を匿名化したり、安全でない通信（HTTP）へのセキュリティーが強化されたりすることは**ありません**。
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
-If you are looking for **anonymity**, you should use the Tor Browser.
-
-**セキュリティー**を強化するには、ウェブサイトへの接続に常にHTTPSを使用してください。 VPNは、優れたセキュリティーの代わりにはなりません。
+If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPNは、優れたセキュリティーの代わりにはなりません。
 
 [Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
@@ -35,7 +29,13 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 ## 推奨するサービスプロバイダー
 
-私たちがおすすめするプロバイダは、暗号化を使用し、Moneroを受け入れ、WireGuardとOpenVPNに対応し、ノーログポリシーを備えています。 詳細については、[基準の完全なリスト](#criteria)をお読みください。
+Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. 詳細については、[基準の完全なリスト](#criteria)をお読みください。
+
+| Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
+| --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 91+       | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | 現金                 |
+| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash       |
+| [Mullvad](#mullvad)   | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Cash       |
 
 ### Proton VPN
 
@@ -94,7 +94,7 @@ Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGua
 
 Proton VPN's servers are only compatible with IPv4. The Proton VPN applications will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Proton VPN from an IPv6-only network.
 
-#### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
+#### :material-information-outline:{ .pg-info } Remote Port Forwarding
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrentアプリは多くの場合NAT-PMPをネイティブサポートしています。
 

@@ -4,30 +4,24 @@ title: "Servicios de VPN"
 icon: material/vpn
 description: Estos son los mejores servicios VPN para proteger tu privacidad y seguridad en línea. Encuentra un proveedor aquí que no esté para espiarte.
 cover: vpn.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
 
-Si buscas **privacidad** adicional de tu proveedor de servicios de internet, en una red wifi pública o mientras descargando archivos Torrent, una VPN puede ser la solución para ti, siempre y cuando entiendas los riesgos que conlleva. Creemos que estos proveedores están por encima de los demás:
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji } [Proton VPN](#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji } [Mullvad](#mullvad)
-
-</div>
+If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Las VPN no proporcionan anonimato</p>
+<p class="admonition-title">VPNs do not provide anonymity</p>
 
-El uso de una VPN **no** mantendrá sus hábitos de navegación en el anonimato, ni añadirá seguridad adicional al tráfico no seguro (HTTP).
+Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
-Si buscas **anonimato**, deberías usar el navegador Tor.
+If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
 
-Si busca mayor **seguridad**, debería asegurarse siempre de que se conecta a sitios web que utilicen HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
-
-[Descargar Tor](https://torproject.org){ .md-button .md-button--primary } [Mitos y preguntas frecuentes sobre Tor](advanced/tor-overview.md){ .md-button }
+[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -35,7 +29,13 @@ Si busca mayor **seguridad**, debería asegurarse siempre de que se conecta a si
 
 ## Proveedores Recomendados
 
-Nuestros proveedores recomendados usan encriptación, aceptan Monero, soportan WireGuard & OpenVPN, y tienen una política de no registro. Lee nuestra \[lista completa de criterios\](#criterios) para más información.
+Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Lee nuestra \[lista completa de criterios\](#criterios) para más información.
+
+| Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
+| --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 91+       | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | Efectivo           |
+| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash       |
+| [Mullvad](#mullvad)   | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Cash       |
 
 ### Proton VPN
 
@@ -96,7 +96,7 @@ Proton VPN [recomienda](https://protonvpn.com/blog/wireguard) el uso de WireGuar
 
 Los servidores de Proton VPN sólo son compatibles con IPv4. Las aplicaciones de Proton VPN bloquearán todo el tráfico IPv6 saliente, por lo que no debes preocuparte por la filtración de tu dirección IPv6, pero no serás capaz de conectarte a cualquier página disponible sólo a través de IPv6 y no serás capaz de conectarte a Proton VPN desde una red de solo IPv6.
 
-#### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
+#### :material-information-outline:{ .pg-info } Remote Port Forwarding
 
 Actualmente, Proton VPN solo admite el [ reenvío del puerto](https://protonvpn.com/support/port-forwarding) remoto y efímero a través de NAT-PMP, con tiempos de arrendamiento de 60 segundos. La aplicación de Windows ofrece una opción de fácil acceso para ello, mientras que en otros sistemas operativos tendrás que ejecutar tu propio cliente [NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup). Las aplicaciones de torrents suelen soportar NAT-PMP de forma nativa.
 

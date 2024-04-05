@@ -51,7 +51,7 @@ Om du vill ha mer information om varje projekt, varför de valdes ut och ytterli
 
 [Läs mer :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-## Browser Extensions
+## Webbläsartillägg
 
 <div class="grid cards" markdown>
 
