@@ -12,11 +12,11 @@ Wat we verwachten van leden van onze community:
 
 1. **Do not spread misinformation**
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive; explain in detail what is collected and how it collected. Dergelijke beweringen moeten met technische bewijzen worden gestaafd.
+      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Dergelijke beweringen moeten met technische bewijzen worden gestaafd.
 
 2. **Do not abuse our willingness to help**
 
-      Our community members are not free tech support. We are happy to help with specific steps for individual's, privacy journey, if they are willing to put in effort. We are not obligated to answer endless, repetitive questions, about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
+      Our community members are not free tech support. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
 
 3. **Gedraag je op een positieve en constructieve manier**
 
@@ -25,7 +25,7 @@ Wat we verwachten van leden van onze community:
       - Being respectful of differing opinions, viewpoints, and experiences.
       - Demonstrating empathy and kindness toward others.
       - Focusing on what is best not just for us as overseers, but for the overall community.
-      - Giving and gracefully accepting constructive feedback within' our community while growing and improving.
+      - Giving and gracefully accepting constructive feedback within our community while growing and improving.
       - Operating with a communal mindset at all times.
 
 ## Unacceptable Behavior
@@ -34,7 +34,7 @@ De volgende gedragingen worden beschouwd als intimidatie en zijn onaanvaardbaar 
 
 - Any other conduct which would reasonably be considered inappropriate in a professional setting.
 - Public and/or private harassment of any kind.
-- Publishing others' private information, such as a physical address and/or email address, without a persons explicit permission.
+- Publishing others' private information, such as a physical address and/or an email address, without their explicit permission.
 - The use of sexualized language or imagery, and sexual attention or advances of any kind.
 - Trolling, insulting and/or derogatory comments, including personal or political attacks.
 

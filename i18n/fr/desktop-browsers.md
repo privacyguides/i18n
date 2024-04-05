@@ -136,7 +136,7 @@ Le navigateur Mullvad est livré avec DuckDuckGo comme [moteur de recherche](sea
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-Firefox inclut un [jeton de téléchargement](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) unique dans les téléchargements fais à partir du site web de Mozilla et utilise la télémétrie dans Firefox pour envoyer le jeton. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases).
+Firefox inclut un [jeton de téléchargement](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) unique dans les téléchargements fais à partir du site web de Mozilla et utilise la télémétrie dans Firefox pour envoyer le jeton. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 

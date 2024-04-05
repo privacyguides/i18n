@@ -39,13 +39,13 @@ description: 一般人很容易累積大量的網路服務帳戶，這裏有一�
 
 ### GDPR （僅限歐洲經濟區居民）
 
-歐盟居民在資料刪除上享有額外權利，其詳見於 GDPR [第 17 條](https://gdpr.org/regulation/article-17.html)規定。 如果適用於您，請閱讀任何特定服務的隱私權政策，以查找有關如何行使刪除權利的資訊。 閱讀隱私政策可能很重要，因為某些服務的「刪除帳戶」選項，實際上只是停用您的帳戶，若要真正刪除，您必須採取額外行動。 有時，刪除過程中可能需填寫調查、向服務商的資料保護人員發送電子郵件，甚至提出您為歐盟居民的證明。 如果您打算這樣做，請 **不要** 覆寫帳戶資訊-可能需要歐盟居民身份。 請注意，服務的位置並不重要； GDPR 適用於為歐盟用戶服務的任何人。 若服務商不願尊重您請求刪除的權利，可聯絡所在國的[官方資料保護機關](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)，您可能有權請求金錢賠償。
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. 如果適用於您，請閱讀任何特定服務的隱私權政策，以查找有關如何行使刪除權利的資訊。 閱讀隱私政策可能很重要，因為某些服務的「刪除帳戶」選項，實際上只是停用您的帳戶，若要真正刪除，您必須採取額外行動。 有時，刪除過程中可能需填寫調查、向服務商的資料保護人員發送電子郵件，甚至提出您為歐盟居民的證明。 如果您打算這樣做，請 **不要** 覆寫帳戶資訊-可能需要歐盟居民身份。 請注意，服務的位置並不重要； GDPR 適用於為歐盟用戶服務的任何人。 若服務商不願尊重您請求刪除的權利，可聯絡所在國的[官方資料保護機關](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)，您可能有權請求金錢賠償。
 
 ### 覆寫帳戶資訊
 
 在某些情況下，可以採用虛假資料來覆蓋帳戶的信息。 當您登入後，請將帳戶中的所有資訊變更為偽造資訊。 原因是許多網站甚至在帳戶刪除後仍會保留您之前擁有的資訊。 希望他們會用你輸入的最新數據覆蓋之前的信息。 但是，無法保證不會有先前信息的備份。
 
-對於帳戶電子郵件，請通過您選擇的提供商創建新的替代電子郵件帳戶，或使用 [電子郵件別名服務](../email.md#email-aliasing-services)創建別名。 完成後，您可以刪除替代電子郵件地址。 我們建議您不要使用臨時電子郵件提供商，因為通常可以重新啟用臨時電子郵件。
+For the account email, either create a new alternate email account via your provider of choice or create an alias using an [email aliasing service](../email-aliasing.md). 完成後，您可以刪除替代電子郵件地址。 我們建議您不要使用臨時電子郵件提供商，因為通常可以重新啟用臨時電子郵件。
 
 ### 刪除帳戶
 

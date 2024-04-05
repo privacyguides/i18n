@@ -39,13 +39,13 @@ description: 积累大量互联网账户很容易，这里有一些关于如何�
 
 ### GDPR（仅限欧洲经济区居民）
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. 如果适用于你，请阅读任何特定服务的隐私政策，以找到关于如何行使你的删除权的信息。 阅读隐私政策可能被证明是重要的，因为一些服务有一个 "删除账户 "的选项，它只是禁用你的账户，而要真正删除，你必须采取额外行动。 有时，实际删除可能涉及填写调查表、向服务的数据保护人员发送电子邮件，甚至证明你在欧洲经济区拥有住所。 如果你打算这么做， **不要** 覆盖账户信息--你作为欧洲经济区居民的身份可能被要求。 请注意，服务的地点并不重要；GDPR适用于任何为欧洲用户服务的人。 如果服务不尊重你的删除权，你可以联系你的国家的 [数据保护局](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) ，你可能有权获得金钱赔偿。
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. 如果适用于你，请阅读任何特定服务的隐私政策，以找到关于如何行使你的删除权的信息。 阅读隐私政策可能被证明是重要的，因为一些服务有一个 "删除账户 "的选项，它只是禁用你的账户，而要真正删除，你必须采取额外行动。 有时，实际删除可能涉及填写调查表、向服务的数据保护人员发送电子邮件，甚至证明你在欧洲经济区拥有住所。 如果你打算这么做， **不要** 覆盖账户信息--你作为欧洲经济区居民的身份可能被要求。 请注意，服务的地点并不重要；GDPR适用于任何为欧洲用户服务的人。 如果服务不尊重你的删除权，你可以联系你的国家的 [数据保护局](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) ，你可能有权获得金钱赔偿。
 
 ### 覆盖账户信息
 
 在某些情况下，如果你打算放弃一个账户，用假数据覆盖账户信息可能是有意义的。 一旦你确定你可以登录，将你账户中的所有信息改为伪造的信息。 原因是许多网站会保留你以前的信息，即使是在删除账户后。 这一方法寄希望于他们能用你输入的最新数据来覆盖以前的信息。 但是，无法保证不会使用以前的信息进行备份。
 
-对于账户的电子邮件，可以通过你选择的供应商创建一个新的备用电子邮件账户，或者使用 [电子邮件别名服务创建一个别名](/email/#email-aliasing-services)。 一旦完成，您可以删除备用电子邮件地址。 我们建议不要使用临时电子邮件供应商，因为很多时候这类临时电子邮件有可能被重新激活。
+For the account email, either create a new alternate email account via your provider of choice or create an alias using an [email aliasing service](../email-aliasing.md). 一旦完成，您可以删除备用电子邮件地址。 我们建议不要使用临时电子邮件供应商，因为很多时候这类临时电子邮件有可能被重新激活。
 
 ### 删除
 

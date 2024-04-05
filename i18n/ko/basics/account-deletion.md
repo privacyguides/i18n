@@ -39,13 +39,13 @@ description: 온라인 계정은 어느새 잔뜩 쌓여 있기 마련입니다.
 
 ### GDPR (EEA 거주자만 해당)
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr.org/regulation/article-17.html) of the GDPR. EEA 거주자이신 경우, 해당 서비스의 프라이버시 정책(개인정보 처리방침)을 읽고 삭제권을 행사하는 방법을 찾아보세요. 일부 서비스는 '계정 삭제' 옵션이 계정을 비활성화할 뿐 실제 삭제를 위해서는 추가 조치가 필요하기에, 프라이버시 정책을 읽어보는 것은 중요합니다. 실제로 데이터를 삭제하려면 설문을 작성해야 하거나, 해당 서비스 데이터 보호 책임자에게 이메일을 보내야 하거나, EEA 거주자임을 증명해야 하는 경우도 있습니다. 따라서, 이 방법을 사용하고자 한다면 계정 정보 덮어쓰기를 해선 **안** 됩니다. EEA 거주자 신원이 필요할 수도 있기 때문입니다. 알아두실 점은, GDPR은 서비스 업체 위치에 무관하게 적용된다는 것입니다. GDPR은 유럽 사용자를 고객으로 삼는 서비스라면 모두 적용됩니다. 만약 서비스가 EEA 거주자의 삭제권을 존중하지 않는 경우, 여러분은 자기 나라의 [데이터 보호 기관](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)에 연락하시면 됩니다(금전적 보상을 받을 수도 있습니다).
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. EEA 거주자이신 경우, 해당 서비스의 프라이버시 정책(개인정보 처리방침)을 읽고 삭제권을 행사하는 방법을 찾아보세요. 일부 서비스는 '계정 삭제' 옵션이 계정을 비활성화할 뿐 실제 삭제를 위해서는 추가 조치가 필요하기에, 프라이버시 정책을 읽어보는 것은 중요합니다. 실제로 데이터를 삭제하려면 설문을 작성해야 하거나, 해당 서비스 데이터 보호 책임자에게 이메일을 보내야 하거나, EEA 거주자임을 증명해야 하는 경우도 있습니다. 따라서, 이 방법을 사용하고자 한다면 계정 정보 덮어쓰기를 해선 **안** 됩니다. EEA 거주자 신원이 필요할 수도 있기 때문입니다. 알아두실 점은, GDPR은 서비스 업체 위치에 무관하게 적용된다는 것입니다. GDPR은 유럽 사용자를 고객으로 삼는 서비스라면 모두 적용됩니다. 만약 서비스가 EEA 거주자의 삭제권을 존중하지 않는 경우, 여러분은 자기 나라의 [데이터 보호 기관](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)에 연락하시면 됩니다(금전적 보상을 받을 수도 있습니다).
 
 ### 계정 정보 덮어쓰기
 
 계정을 버리려는 경우 중 일부 상황에서는 계정 정보를 가짜 데이터로 덮어씌우는 게 합리적일 수도 있습니다. 계정에 로그인한 뒤, 계정의 모든 정보를 위조된 정보로 변경하세요. 계정 정보를 덮어씌워야 하는 이유는, 많은 사이트가 사용자의 계정 삭제 후에도 이전에 가지고 있던 정보를 보관하기 때문입니다. 이상적인 결과는 기존 정보가 모두 위조된 데이터로 덮어씌워지는 것입니다. 하지만 서비스 업체가 여러분의 기존 정보가 포함된 백업을 가지고 있을 가능성은 여전히 존재합니다.
 
-계정 이메일의 경우, 이메일 제공 업체를 선택해 대체할 이메일 계정을 새로 생성하거나, [이메일 별칭 서비스](../email.md#email-aliasing-services)를 사용해 별칭을 만드세요. 그런 다음, 대체한 이메일 주소를 삭제할 수 있습니다. 임시 이메일 서비스 사용은 추천드리지 않습니다. 임시 이메일은 다시 활성화할 수 있는 경우가 종종 있기 때문입니다.
+For the account email, either create a new alternate email account via your provider of choice or create an alias using an [email aliasing service](../email-aliasing.md). 그런 다음, 대체한 이메일 주소를 삭제할 수 있습니다. 임시 이메일 서비스 사용은 추천드리지 않습니다. 임시 이메일은 다시 활성화할 수 있는 경우가 종종 있기 때문입니다.
 
 ### 삭제
 

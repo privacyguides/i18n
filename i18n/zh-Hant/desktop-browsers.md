@@ -136,7 +136,7 @@ Mullvad 瀏覽器將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，並使用 Firefox 中的遙測傳送該令牌。 該令牌**不**包含在 [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases) 上的發行版中。
+Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0)，並使用 Firefox 中的遙測傳送該令牌。 The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 

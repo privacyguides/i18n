@@ -136,7 +136,7 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-Firefox include un [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) unico nei download dal sito web di Mozilla e utilizza la telemetria di Firefox per inviare il token. Il token **non** è incluso nelle versioni di [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases).
+Firefox include un [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) unico nei download dal sito web di Mozilla e utilizza la telemetria di Firefox per inviare il token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 

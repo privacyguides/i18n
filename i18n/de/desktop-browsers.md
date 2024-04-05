@@ -136,7 +136,7 @@ Mullvad Browser wird mit DuckDuckGo als Standard [Suchmaschine](search-engines.m
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>
 
-Firefox enthält einen einzigartigen [Download-Token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in Downloads von Mozilla-Website und verwendet Telemetrie in Firefox, um diesen Token zu übermitteln. Das Token ist **nicht** in den Veröffentlichungen des [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/) enthalten.
+Firefox enthält einen einzigartigen [Download-Token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in Downloads von Mozilla-Website und verwendet Telemetrie in Firefox, um diesen Token zu übermitteln. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
