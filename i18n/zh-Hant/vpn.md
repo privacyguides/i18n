@@ -12,16 +12,16 @@ global:
 
 <!-- markdownlint-disable MD024 -->
 
-If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
+如果您希望在連接到網際網路連線供應商 (ISP)、使用公共 Wi-Fi 網路，或進行 BT 傳輸時能有更好的**隱私**保護，VPN 可能是適合您的解決方案。
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
+<p class="admonition-title">VPN 不提供匿名性</p>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+使用 VPN **無法** 讓您的瀏覽習慣保持匿名，也不會為不安全 (HTTP) 的流量增加額外的安全性。
 
-If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN不能取代良好的安全措施。
+如果您追求的是 **匿名性** ，您應該使用 Tor 瀏覽器。 如果您正在尋求額外的 **安全性** ，您應該始終確保使用 HTTPS 連接到網站。 VPN不能取代良好的安全措施。
 
-[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[下載 Tor](https://torproject.org){ .md-button .md-button--primary } [Tor 迷思 & 常見問答](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -29,13 +29,13 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 ## 推薦的提供商
 
-Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. 閱讀我們的 [完整列表標準](#criteria) 以獲取更多信息。
+我們推薦的提供商使用加密技術、支援 WireGuard & OpenVPN ，且具有無日誌政策。 閱讀我們的 [完整列表標準](#criteria) 以獲取更多信息。
 
-| Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
-| --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 91+       | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | 現金                 |
-| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash       |
-| [Mullvad](#mullvad)   | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Cash       |
+| 提供商                   | 國家  | WireGuard                     | 端口轉發                                            | IPv6                                              | Anonymous Payments |
+| --------------------- | --- | ----------------------------- | ----------------------------------------------- | ------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 91+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 部分支援 | :material-alert-outline:{ .pg-orange }            | 現金                 |
+| [IVPN](#ivpn)         | 37+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero, Cash       |
+| [Mullvad](#mullvad)   | 41+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                     | Monero, Cash       |
 
 ### Proton VPN
 
@@ -94,7 +94,7 @@ Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用
 
 Proton VPN 的伺服器僅支援 IPv4。 Proton VPN 的客戶端會封鎖所有的 IPv6 出站流量，所以不用擔心您的 IPv6 地址會洩漏，但是您將無法連接到任何僅支援 IPv6 的網站，並且無法從僅有 IPv6 的網路連接到 Proton VPN。
 
-#### :material-information-outline:{ .pg-info } Remote Port Forwarding
+#### :material-information-outline:{ .pg-info } 遠端端口轉發
 
 Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](https://protonvpn.com/support/port-forwarding)，租用時間為 60 秒。 Windows 應用程式提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup)。 BT 客戶端通常原生支援 NAT-PMP。
 

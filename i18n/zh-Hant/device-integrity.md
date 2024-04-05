@@ -165,7 +165,7 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的硬體支援金鑰庫來允許驗證裝置的身份並確保作業系統本身沒有被篡改或透過驗證啟動降級。 這為裝置本身提供了非常強大的完整性檢查，但不一定檢查裝置上執行的使用者級應用程式是否是惡意的。
 
-審核員使用**兩個**設備執行證明和入侵檢測，即一個_被審核者_（正在驗證的設備）和一個_審核員_（執行驗證的設備）。 審核者可以是任何Android 10+ 裝置（或由[GrapheneOS](android.md#grapheneos) 運行的遠端Web 服務），而受審核者必須是專門的[支援的裝置](https\://attestation.app /about #device-support）。 Auditor 適用於:
+審核員使用**兩個**設備執行證明和入侵檢測，即一個_被審核者_（正在驗證的設備）和一個_審核員_（執行驗證的設備）。 審核者可以是任何Android 10+ 裝置（或由[GrapheneOS](android.md#grapheneos) 運行的遠端Web 服務），而受審核者必須是專門的[支援的裝置](https://attestation.app /about #device-support）。 Auditor 適用於:
 
 - 在_審核員_和_被審核者_之間使用 [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式，雙方在兩人在[硬體支援的金鑰庫](https://source.android.com/security/keystore/)the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/)中建立 _審計員_私鑰。
 - _審核員_可以是審核員應用程式的另一個實例，也可以是[遠端憑證服務](https://attestation.app)。
