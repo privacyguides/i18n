@@ -57,9 +57,9 @@ schema:
       url: "./"
 ---
 
-這些是我們目前推薦的桌面網頁瀏覽器和標準/非匿名瀏覽的配置。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)； 如果您在尋求 Google Chrome 的良好替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
+這些是我們目前推薦的桌面網路瀏覽器和標準/非匿名瀏覽的設定。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋求 Google Chrome 的良好替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
 
-如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。 我們在此頁面提供一些設定建議，但除了 Tor 瀏覽器之外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
+如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。 我們在此頁面提供一些設定建議，但除了 Tor 瀏覽器以外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
 
 ## Mullvad 瀏覽器
 
@@ -223,9 +223,9 @@ Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配�
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave 標誌](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
+**Brave 瀏覽器** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
 
 Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉並且具有最少的網站兼容性問題。
 
@@ -263,16 +263,16 @@ Brave 在官網的下載檔案中新增了 "[推廣代碼](https://github.com/br
 
 #### 設定
 
-##### Shields
+##### 防護
 
-Brave [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些防指紋措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)配置這些選項。
+Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些選項。
 
-Shields 可以選擇根據需要依各網站情況降級，但我們建議預設以下內容：
+防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
 <div class="annotate" markdown>
 
-- [x] 選擇 **防止網站根據語言偏好進行指紋辨識**
-- [x] 在追蹤器和廣告封鎖下選擇 **侵略性**
+- [x] 勾選 **根據我的語言偏好設定，防止網站識別我的指紋**
+- [x] 在 **追蹤器與廣告封鎖** 下選擇 **積極**
 
 <details class="warning" markdown>
 <summary>使用預設過濾器列表</summary>
@@ -280,18 +280,18 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </details>
 
-- [x] 選擇 **嚴格** 位於**升級至 HTTPS 連線**選項底下
-- [x] (可選的) 選取 **屏蔽 Scripts** (1)
-- [x] 選取 **嚴格, 可能會破壞網站** 屏蔽瀏覽器識別指紋底下
-- [x] 勾選**關閉此站後即遺忘** (2)
-- [ ] 取消勾選所有的社交媒體元件
+- [x] 在 **升級連線至 HTTPS** 下選擇 **嚴格**
+- [x] (可選) 勾選 **封鎖指令碼** (1)
+- [x] 在 **封鎖指紋識別功能** 下選擇 **嚴格，可能會破壞網站**
+- [x] 勾選 **當我關閉此網站時忘記我** (2)
+- [ ] 在 **阻擋社群媒體** 下取消勾選所有社交元件
 
 </div>
 
 1. 此選項提供的功能類似於 uBlock Origin 的進階[封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode)。
 2. 若想在經常造訪的特定站點保持登入，則可以透過網址列中的盾牌圖示來為每個站點設定例外。
 
-##### 隐私和安全
+##### 隱私權和安全性
 
 <div class="annotate" markdown>
 
@@ -306,10 +306,10 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-1. Brave在瀏覽器指紋識別的抵抗力是 **不如** Tor 瀏覽器，且BraveTor 使用者少，容易被突出。 如果[需要強匿名性](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)，請使用< a href="tor.md#tor-browser">Tor 瀏覽器</a>。
+1. Brave 在瀏覽器指紋識別的隱藏能力**不如** Tor 瀏覽器，且使用 Brave 的 Tor 使用者少，因此您將會顯得突出。 如果[需要強大的匿名性](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)，請使用 [Tor 瀏覽器](tor.md#tor-browser)。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">關閉時消毒</p>
+<p class="admonition-title">離開時清除資料</p>
 
 - [x] In the *Sites and Shields Settings* 選單中的“內容”下，點擊“裝置上網站資料”選單後，選擇“**關閉所有視窗時刪除已儲存至裝置的資料網站**”
 
@@ -317,25 +317,25 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-##### 擴充套件
+##### 擴充功能
 
-**Extensions**中關閉不使用的內建擴展套件
+在**擴充功能**中關閉不使用的內建擴充功能
 
 - [ ] 取消勾選 **Hangouts**
 - [ ] 取消勾選 **WebTorrent**
 
 ##### Web3
 
-Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到任何功能，否則應停用這些功能。
+Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非有用到任何功能，否則應停用這些功能。
 
-- 在預設的 Ethereum 與 Solana 錢包底下選取 **Extensions (no fallback)**
-- 設定 **禁用****解析 IPFS 資源的方法**
+- 在預設的 以太坊 與 Solana 錢包下選擇 **擴充功能 (無後援)**
+- 在 **解析 IPFS 資源的方法** 下選擇 **已停用**
 
 ##### 系統
 
 <div class="annotate" markdown>
 
-- [ ] 取消勾選 **Brave 關閉時繼續執行應用程式** 以禁用背景應用程式(1)
+- [ ] 取消勾選 **在 Brave 關閉時繼續執行背景應用程式** 以停用背景應用程式 (1)
 
 </div>
 
@@ -343,13 +343,13 @@ Brave Web3 功能可能會增加瀏覽器指紋和攻擊面。 除非有用到�
 
 #### Brave 同步
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同設備上訪問瀏覽數據（歷史記錄，書籤等），而無需帳戶且具 E2EE保護。
+[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上訪問瀏覽數據 (歷史記錄，書籤等)，無需帳戶且具 E2EE 保護。
 
-#### 勇敢獎勵與錢包
+#### Brave 獎勵與錢包
 
-** Brave 獎勵** 可讓您在 Brave 執行某些動作時獲得Basic Attention Token (BAT) 加密貨幣。 它依賴於來自特定數量的提供商的託管帳戶和KYC。 我們不建議 BAT 作為 [私有加密貨幣](cryptocurrency.md)，也不建議使用 [保管錢包](advanced/payments.md#other-coins-bitcoin-ethereum-etc)，因此不鼓勵使用此功能。
+** Brave 獎勵** 可讓您在 Brave 執行某些動作時獲得Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為 [私密加密貨幣](cryptocurrency.md)，也不建議使用 [托管錢包](advanced/payments.md#other-coins-bitcoin-ethereum-etc)，因此我們不建議使用此功能。
 
-**Brave Wallet** 在您的電腦上進行本地操作，但不支援任何私人加密貨幣，因此不鼓勵使用此功能。
+**Brave 錢包** 在您的電腦上本地運行，但不支援任何私密加密貨幣，因此我們也不建議使用此功能。
 
 ## 其他資源
 

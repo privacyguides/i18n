@@ -1,14 +1,14 @@
 ---
-meta_title: "Android 和 iOS 行動版尊隱私的網頁瀏覽器的-Privacy Guides"
+meta_title: "尊重隱私的 Android 和 iOS 行動瀏覽器 - Privacy Guides"
 title: "行動瀏覽器"
 icon: material/cellphone-information
-description: 這些瀏覽器是我們目前推薦在手機使用的標準/非匿名互聯網瀏覽器。
+description: 這些瀏覽器是我們目前推薦在行動裝置上使用的標準/非匿名網路瀏覽器。
 cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": 網頁
-    name: 私人行動瀏覽器建議
+    name: 私密行動瀏覽器推薦
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -37,21 +37,21 @@ schema:
       url: "./"
 ---
 
-這些是我們目前推薦的行動網頁瀏覽器和標準/非匿名網際網路瀏覽的配置。 如果你需要匿名瀏覽網際網路，你應該使用 [Tor](tor.md) 代替。 一般來說，我們建議您將擴充功能維持在最低限度：它們在瀏覽器中有特別訪問權限，需要您信任開發人員，它們也會讓瀏覽器 [特徵顯露出來](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)， [弱化](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 網站隔離。
+這些是我們目前推薦的行動網路瀏覽器和標準/非匿名網際網路瀏覽的設定。 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。 一般來說，我們建議您將擴充功能維持在最低限度：它們在瀏覽器中有特別訪問權限，需要您信任開發人員，也可能會讓您變得[顯眼](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)， 並[弱化](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)網站隔離。
 
-## 安卓
+## Android
 
-在 Android 上，Firefox 的安全性仍然低於基於 Chromium 的替代品：Mozilla引擎 [GeckoView](https://mozilla.github.io/geckoview) 尚未支援 [站點隔離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)或啟用[隔離進程](https://bugzilla.mozilla. org/show_bug.cgi?id=1565196)。
+在 Android 上，Firefox 的安全性仍然低於基於 Chromium 的替代品：Mozilla 的 [GeckoView](https://mozilla.github.io/geckoview) 引擎尚未支援[站點隔離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)或啟用[隔離進程](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)。
 
 ### Brave
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave 標誌](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
+**Brave 瀏覽器** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
 
-Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有最小的網站兼容性問題。
+Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉並且具有最少的網站兼容性問題。
 
 [:octicons-home-16: 首頁](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋蔥服務" }
@@ -60,7 +60,7 @@ Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有�
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -71,21 +71,21 @@ Brave 建立在 Chromium 瀏覽器專案，因此令人感到熟悉並且具有�
 
 #### 建議的 Brave 設定
 
-Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用Brave時，我們建議您更改以下設定，以保護您的隱私免受某些影響，但除 [Tor 瀏覽器](tor.md#tor-browser) 外其它覽器在某些方面都可能 *被追蹤* 。
+Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Brave 時，我們建議您更改以下設定，以保護您的隱私免受某些影響，但除了[Tor 瀏覽器](tor.md#tor-browser)以外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
 
-這些選項可以在 :material-menu: → **設置** → **Brave Shields & 隱私**中找到
+這些選項可以在 :material-menu: → **設定** → **Brave 防護與安全性** 中找到
 
-##### Shields
+##### 防護
 
-Brave [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能中包含一些防指紋措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)配置這些選項。
+Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些選項。
 
-##### Brave屏蔽全局默認值
+##### Brave 防護全域預設設定
 
-Shields 可以選擇根據需要依各網站情況降級，但我們建議預設以下內容：
+防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
 <div class="annotate" markdown>
 
-- [x] **阻止追蹤器和廣告**底下請選擇**積極**
+- [x] 在 **封鎖追蹤器與廣告** 下選擇 **積極**
 
 <details class="warning" markdown>
 <summary>使用預設過濾器列表</summary>
@@ -93,10 +93,9 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </details>
 
-- [x] 選擇 **昇級使用 HTTPS 連接**
-- [x] 選擇 **一直使用安全連接**
-- [x] (可選的) 選擇 **封鎖腳本** (1)
-- [x] **Block fingerprinting** 選擇 **嚴格(可能會打斷網站)**
+- [x] 在 **升級連線至 HTTPS** 下選擇 **嚴格**
+- [x] (可選) 勾選 **阻擋指令稿** (1)
+- [x] 在 **封鎖指紋識別** 下選擇 **嚴格**
 
 </div>
 
@@ -128,7 +127,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 #### Brave 同步
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同設備上訪問瀏覽數據（歷史記錄，書籤等），而無需帳戶且具 E2EE保護。
+[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上訪問瀏覽數據 (歷史記錄，書籤等)，無需帳戶且具 E2EE 保護。
 
 ## iOS
 
