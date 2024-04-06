@@ -108,7 +108,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 </div>
 
 <details class="warning" markdown>
-<summary>Warning "警告"</summary>
+<summary>警告</summary>
 
 Canary Mail 最近才發布了 Windows 和 Android 用戶端，我們不認為它們已如 iOS和 Mac 用戶端一樣穩定。
 
@@ -190,7 +190,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 當回覆郵件群組中的某人時，「回覆」選項也可能包括郵件群組。 如需更多資訊，請參閱 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)。
 

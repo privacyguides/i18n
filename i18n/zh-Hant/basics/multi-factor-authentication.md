@@ -141,7 +141,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 ### Linux
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 如果系統主機名稱發生變更（例如由於 DHCP ） ，您將無法登入。 在遵循本指南之前，為您的電腦設置正確的主機名至關重要。
 

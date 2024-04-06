@@ -147,7 +147,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長時間； 然而，過去已經有一些漏洞可以繞開這個問題。 為了更加安全，可將手機設置為在 10 次密碼嘗試錯誤後自行擦除。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 啟用此設置後，別人可以通過多次輸入錯誤密碼來故意擦除您的手機。 確保有適當備份，並且僅在有把握的情況下才啟用此設置。
 

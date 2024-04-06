@@ -157,7 +157,7 @@ macOS 通過不同屬性的多層軟體和硬體保護來進行深度防禦。 �
 ### 軟體安全
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 macOS 可以安裝測試版更新。 但它們是不穩定的，可能帶有額外遙測，因為其用於測試目的。 因此，我們建議避免使用測試版軟件。
 
@@ -182,7 +182,7 @@ macOS 設置了某些無法覆蓋的安全限制。 這些稱為強制取用控�
 2012年6月之後，從 App Store 下載的 macOS 應用需要使用[應用沙箱](https://developer.apple.com/documentation/security/app_sandbox)進行沙箱處理。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 從官方 App Store 之外下載的軟體不需要沙盒。 應盡可能避免使用非 App Store 軟體。
 

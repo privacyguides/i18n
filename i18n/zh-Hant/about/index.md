@@ -19,7 +19,7 @@ schema:
 
 ![Privacy Guides 圖標](../assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-隱私權指南是一個社會導向的網站，提供資訊以保護您的資料安全和隱私。 我們的使命是告知公眾數位隱私的價值，以及全球政府監控線上活動的行徑。 我們是非營利合作，完全由志願者 [團隊成員](https://discuss.privacyguides.net/g/team) 和貢獻者經營。 我們的網站沒有廣告，與任何列出的供應商也沒有商務往來。
+**Privacy Guides** 是一個以社會為導向的網站，提供有關如何保護您的線上資料隱私和安全的[資訊](/kb)。 我們的使命是告知公眾數位隱私的價值，以及全球政府監控線上活動的行徑。 我們是一個完全由志願[團隊成員](https://discuss.privacyguides.net/g/team)和貢獻者運營的非營利團體。 我們的網站沒有廣告，與任何列出的供應商也沒有商務往來。
 
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }

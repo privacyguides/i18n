@@ -98,7 +98,7 @@ SearXNG 是您和它所聚合的搜尋引擎之間的代理。 您的搜尋查�
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 Startpage 定期限制服務對某些 IP位址的存取，例如為 VPN 或Tor 保留的IP。 [DuckDuckGo](#duckduckgo) 和 [Brave Search](#brave-search) 是更友好的選項，如果您的威脅模型需要向搜索提供商隱藏您的IP位址。
 

@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-這些是我們目前推薦的行動網路瀏覽器和標準/非匿名網際網路瀏覽的設定。 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。 一般來說，我們建議您將擴充功能維持在最低限度：它們在瀏覽器中有特別訪問權限，需要您信任開發人員，也可能會讓您變得[顯眼](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)， 並[弱化](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)網站隔離。
+這些是我們目前推薦的行動網路瀏覽器和標準/非匿名網際網路瀏覽的設定。 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。 一般來說，我們建議您將擴充功能維持在最低限度：它們在瀏覽器中有特別訪問權限，需要您信任開發人員，也可能會讓您[顯得突出](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)， 並[弱化](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)網站隔離。
 
 ## Android
 
@@ -71,7 +71,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉�
 
 #### 建議的 Brave 設定
 
-Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Brave 時，我們建議您更改以下設定，以保護您的隱私免受某些影響，但除了[Tor 瀏覽器](tor.md#tor-browser)以外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
+Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Brave 時，我們建議您更改以下設定，以保護您的隱私免受某些影響，但除了 [Tor 瀏覽器](tor.md#tor-browser)以外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
 
 這些選項可以在 :material-menu: → **設定** → **Brave 防護與安全性** 中找到
 

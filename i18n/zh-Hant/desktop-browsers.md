@@ -162,7 +162,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 ##### Firefox Suggest (僅限美國)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 功能只限美國地區，其功能類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在 **網址列** 標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 功能只限美國地區，其功能類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在「**網址列**」標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
 
 - [ ] 取消勾選 **Suggestions from the web**
 - [ ] 取消勾選 **Suggestions from sponsors**
@@ -347,7 +347,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 #### Brave 獎勵與錢包
 
-** Brave 獎勵** 可讓您在 Brave 執行某些動作時獲得Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為 [私密加密貨幣](cryptocurrency.md)，也不建議使用 [托管錢包](advanced/payments.md#other-coins-bitcoin-ethereum-etc)，因此我們不建議使用此功能。
+** Brave 獎勵** 可讓您在 Brave 執行某些動作時獲得Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[私密加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#other-coins-bitcoin-ethereum-etc)，因此我們不建議使用此功能。
 
 **Brave 錢包** 在您的電腦上本地運行，但不支援任何私密加密貨幣，因此我們也不建議使用此功能。
 

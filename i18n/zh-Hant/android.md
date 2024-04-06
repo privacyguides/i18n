@@ -152,7 +152,7 @@ DivestOS 實現了一些最初為 GrapheneOS 開發的系統加固補丁。 Dive
 DivestOS 以 F-Droid 為預設的應用下載服務。 通常建議 [少用 F-Droid](#f-droid)，然而這對 DivestOS 卻不可行，開發者透過 ([DivestOS 官方](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) 與 [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2))的 F-Droid 存取庫來更新他們的應用程式。 建議禁用官方 F-Droid 應用，並使用 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic)**一併啟用DivestOS 存取庫**，以保持這些組件為最新。 至於其它應用，我們建議的獲取方式仍適用。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 DivestOS 軔體更新 [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS)和品管依所支援的設備不同而異。 雖取決於設備的兼容性，我们仍推薦 GrapheneOS。 對其它設備，DivestOS 是不錯的選項。
 
@@ -225,7 +225,7 @@ Shelter 阻止聯繫人利用默認檔案管理器([DocumentsUI](https://source.
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 推薦使用 Shelter 取代 [Insular](https://secure-system.gitlab.io/Insular)和 [Island](https://github.com/oasisfeng/island)，因為 Shelter 支持[聯繫人搜索屏蔽](https://secure-system.gitlab.io/Insular/faq.html)。
 

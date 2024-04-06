@@ -123,7 +123,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 您 **永遠不要** 使用模糊來編輯 [圖片中的文字](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果要編輯影像中的文字，請在文字上畫一個框。 為此，我們建議使用 [Pocket Paint](https://github.com/Catrobat/Paintroid) 等應用程式。
 

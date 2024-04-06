@@ -32,7 +32,7 @@ YubiKey 可使用 [YubiKey Manager](https://yubico.com/support/download/yubikey-
 支持 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來存儲 TOTP 機密。 這些機密經加密後存儲在密鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 YubiKey 軔體並不開源，無法更新。 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
 
@@ -61,14 +61,14 @@ YubiKey 軔體並不開源，無法更新。 如果您想要使用較新韌體�
 支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以存儲 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的設備，但HOTP 和 TOTP存儲* *未經加密* * ，容易受到物理攻擊。 如果需要存儲 HOTP 或 TOTP 這類祕密，強烈建議使用Yubikey 代替。
 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 重置 Nitrokey 的 OpenPGP 介面會使密碼資料庫變為 [無法存取](https://docs.nitrokey.com/pro/linux/factory-reset)。
 

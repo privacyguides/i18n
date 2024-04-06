@@ -33,7 +33,7 @@ cover: email.webp
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些元數據無法加密如主旨列。 了解更多[電子郵件元數據](basics/email-security.md#email-metadata-overview).
 
@@ -47,7 +47,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** 是一家專注於隱私、加密、安全性和易用性的電子郵件服務。 自 **2013 年** 開始運營。 Proton AG 總部位於瑞士日內瓦。 免費帳戶有 500 MB 的存儲j容量。
+**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 自 **2013 年** 開始運營。 Proton AG 總部位於瑞士日內瓦。 免費帳戶有 500 MB 的存儲j容量。
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -56,7 +56,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -64,51 +64,51 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
+- [:octicons-browser-16: 網頁版](https://mail.proton.me)
 
 </details>
 
 </div>
 
-免費帳戶有一些功能限制，例如無法搜索正文文本和無法訪問 [Proton Mail Bridge](https://proton.me/mail/bridge)，它可以用在 [推薦的桌面電子郵件客戶端](email-clients.md) （例如Thunderbird ）。 付費帳戶包括Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 Proton Mail 應用程式於2021年11月9日由 [Securitum](https://research.securitum.com)提供 [認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
+免費帳戶有一些功能限制，例如無法搜索郵件正文內容，也無法無法使用 [Proton Mail Bridge](https://proton.me/mail/bridge)；後者是使用[建議的桌面郵件客戶端](email-clients.md) (例如 Thunderbird) 所需的。 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 Proton Mail 應用程式於 2021 年 11 月 9 日由 [Securitum](https://research.securitum.com) 提供[認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+如果您訂閱了 Proton Unlimited、Business 或 Visionary 方案，您還可以免費獲得 [SimpleLogin](email-aliasing.md#simplelogin) 的 Premium 會員。
 
-Proton Mail 的內容崩潰報告 **不會**對其它第三方分享。 可以在以下位置停用此功能： **設定** > **前往設定** > **帳戶** > **安全和隱私** > **傳送崩潰報告**。
+Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在以下位置停用此功能：**設定** > **前往設定** > **帳戶** > **安全和隱私** > **傳送崩潰報告**。
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 自訂域名和別名
 
-付費的 Proton Mail 訂閱者可以使用自定網域服務或 [通用電子郵件](https://proton.me/support/catch-all) 功能。 Proton Mail還支持 [子地址](https://proton.me/support/creating-aliases)，這對於不想購買網域的人很有用。
+付費的 Proton Mail 訂閱者可以使用自定網域服務或 [通用電子郵件](https://proton.me/support/catch-all) 功能。 Proton Mail 還支持 [子地址](https://proton.me/support/creating-aliases)，這對於不想購買網域的人很有用。
 
-#### :material-check:{ .pg-green } 私人付款方式
+#### :material-check:{ .pg-green } 私密付款方式
 
-Proton Mail [除了標準信用卡/簽帳卡外，還接受](https://proton.me/support/payment-options) 現金郵寄， [比特幣](advanced/payments.md#other-coins-bitcoin-ethereum-etc)和 PayPal 付款。
+Proton Mail 除了[支持](https://proton.me/support/payment-options)郵寄現金外，還接受信用卡/簽帳卡、[Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 和 PayPal 付款。
 
-#### :material-check:{ .pg-green } 帳戶安全
+#### :material-check:{ .pg-green } 帳號安全
 
-Proton Mail 支援使用 FIDO2 或 U2F標準 的 TOTP [雙因素驗證](https://proton.me/support/two-factor-authentication-2fa) 和 [硬體安全金鑰](https://proton.me/support/2fa-security-key) 。 使用硬體安全金鑰需要先設定 TOTP 雙因素驗證。
+Proton Mail 支援使用 TOTP [雙因素驗證](https://proton.me/support/two-factor-authentication-2fa) 和採用 FIDO2 或 U2F 標準的 [硬體安全金鑰](https://proton.me/support/2fa-security-key)。 使用硬體安全金鑰需要先設定 TOTP 雙因素驗證。
 
 #### :material-check:{ .pg-green } 資料安全
 
-在用戶未登入時，Proton Mail 使用 [zero-access 加密技術](https://proton.me/blog/zero-access-encryption)來保護電子郵件[行事曆](https://proton.me/news/protoncalendar-security-model)的資料安全。 使用零訪問加密保護的數據只能由您訪問。
+Proton Mail 使用「[零存取加密技術](https://proton.me/blog/zero-access-encryption)」來保護電子郵件和[行事曆](https://proton.me/news/protoncalendar-security-model)的資料安全。 使用「零存取加密技術」保護的數據只能由您訪問。
 
 存儲在 [Proton 通錄](https://proton.me/support/proton-contacts)中的某些資訊，例如顯示名稱和電子郵件地址，並未使用零存取加密進行保護。 支援零存取加密的聯絡人欄位(例如電話號碼)會以掛鎖圖示顯示。
 
-#### :material-check:{ .pg-green }電子郵件加密
+#### :material-check:{ .pg-green } 電子郵件加密
 
-Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mai l帳戶的電子郵件會自動加密，並且可以在您的帳戶設置中輕鬆啟用使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密。 Proton 也支援透過 [Web 金鑰目錄 (WKD)](https://wiki.gnupg.org/WKD) 自動發現外部金鑰。 因此發送到使用 WKD 的其他供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換公共 PGP 金鑰。 它可以 [加密非 Proton Mail 郵件地址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用帶OpenPGP 的 Proton Mail 帳戶。
+Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mail 帳號的電子郵件會自動加密，並且可以在您的帳號設置中輕鬆啟用「使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密」。 Proton 也支援透過 [Web 金鑰目錄 (WKD)](https://wiki.gnupg.org/WKD) 自動發現外部金鑰。 因此發送到使用 WKD 的其他供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換公共 PGP 金鑰。 它可以 [加密非 Proton Mail 郵件地址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用帶OpenPGP 的 Proton Mail 帳戶。
 
-Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓非 Proton Mail 用戶可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Proton's 自身網域別名(例如 @proton.me) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓非 Proton Mail 使用者可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Proton 自身網域別名 (例如 @proton.me) 的電子郵件。 如果使用自定域名，則須另行[設定 WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
 
-#### :material-information-outline:{ .pg-blue } 帳戶終止
+#### :material-information-outline:{ .pg-blue } 終止帳號
 
-若您的付費帳戶逾期 14天[未付款](https://proton.me/support/delinquency) ， 您將無法讀取自己的資料。 30天後，您的帳戶將標記為拖欠狀態，無法再收取郵件。 在此期間，我們會繼續向你收費。
+若您的付費帳戶逾期 14 天[未付款](https://proton.me/support/delinquency)，您將無法讀取自己的資料。 30 天後，您的帳戶將標記為欠費狀態，無法再收取郵件。 在此期間，我們會繼續向你收費。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Proton Mail 提供每月 9.99 歐元的“無限 Unlimited”帳戶，除了提供多個帳戶、域名、別名和 500GB 儲存空間外，還可以使用 Proton VPN。
+Proton Mail 提供每月 9.99 歐元的"Unlimited" 帳號，除了提供多個帳號、域名、別名和 500GB 儲存空間外，還可以使用 Proton VPN。
 
-Proton Mail不提供數字遺產功能。
+Proton Mail 不提供數字遺產功能。
 
 ### Mailbox.org
 
@@ -116,22 +116,22 @@ Proton Mail不提供數字遺產功能。
 
 ![Mailbox.org 標誌](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** 電子郵件服務，專注於安全、無廣告和使用 100% 民間環保發電能源。 自 **2014 年** 開始運營。 Mailbox.org總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
+**Mailbox.org** 電子郵件服務，專注於安全、無廣告和使用 100% 民間環保發電能源。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="文件" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
-- [:octicons-browser-16: Web](https://login.mailbox.org)
+- [:octicons-browser-16: 網頁版](https://login.mailbox.org)
 
 </details>
 
 </div>
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 自訂域名和別名
 
 Mailbox.org 可使用自定域名，且支援 [捕獲所有](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all- alias-with-a-custom-domain-name) 位址。 Proton Mail還支持 <[子地址](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)，這對於不想購買網域的人很有用。
 
@@ -139,7 +139,7 @@ Mailbox.org 可使用自定域名，且支援 [捕獲所有](https://kb.mailbox.
 
 Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 不過他們可以收郵寄現金、銀行帳戶現金支付、銀行轉帳、信用卡、 PayPa l以及幾個德國特定處理商： paydirekt 和 Sofortüberweisung。
 
-#### :material-check:{ .pg-green } 帳戶安全
+#### :material-check:{ .pg-green } 帳號安全
 
 Mailbox.org [雙重認證](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)功能僅限網頁郵件。 可透過 [TOTP 或 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) -software /yubicloud">YubiCloud](https://yubico.com/products/services)。 Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
 
@@ -149,17 +149,17 @@ Mailbox.org 允許使用 [加密郵箱](https://kb.mailbox.org/en/private/e-mail
 
 不迥 Mailbox.org 使用的軟體平台 [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange)[不支援](https:// kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book)通訊錄和行事曆加密。 [獨立的選項](calendar.md) 可能更適合該資訊。
 
-#### :material-check:{ .pg-green }電子郵件加密
+#### :material-check:{ .pg-green } 電子郵件加密
 
 Mailbox.org在他們的網絡郵件中有 [個集成的加密](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) ，這簡化了向具有公開OpenPGP密鑰的人發送消息。 它們可讓
 
 遠端收件者在 Mailbox.org 的伺服器上解密電子郵件</ a > 。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。</p> 
 
-Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 因此其它人可以輕鬆找到 Mailbox.org 帳戶的 OpenPGP 金鑰，便於跨提供者使用 E2EE。 這僅限於使用 Mailbox.org  自身網域(例如 @mailbox.org) 的電子郵件。 如果使用自定域名，則須另行 [設定WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 因此其它人可以輕鬆找到 Mailbox.org 帳戶的 OpenPGP 金鑰，便於跨提供者使用 E2EE。 這僅限於使用 Mailbox.org  自身網域(例如 @mailbox.org) 的電子郵件。 如果使用自定域名，則須另行[設定 WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
 
 
 
-#### :material-information-outline:{ .pg-blue } 帳戶終止
+#### :material-information-outline:{ .pg-blue } 終止帳號
 
 當合約到期後，您的帳戶將受到限制，在 [30天後，它將被永久刪除](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract)。
 
@@ -193,11 +193,11 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 **Tuta** 使用加密、關注安全和隱私的電子郵件服務。 Tuta 自 **2011 年** 開始運營，總部位於德國漢諾威。 免費帳戶有 1GB 儲存空間。
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
@@ -214,23 +214,23 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 </div>
 
-Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。 目前不支援 [電子郵件匯入](https://github.com/tutao/tutanota/issues/630) ，但這點很快就 [會改善](https://tuta.com/blog/posts/kickoff-import)。 Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。 目前不支援[匯入電子郵件](https://github.com/tutao/tutanota/issues/630) ，但這點很快就[會改善](https://tuta.com/blog/posts/kickoff-import)。 Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } 自訂域名和別名
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+付費的 Tuta 帳戶可以根據其方案使用 15 或 30 個別名，並且在[自訂域名](https://tuta.com/support#custom-domain)上可以使用無限個別名。 Tuta 不允許使用[子地址 (加號地址)](https://tuta.com/support#plus)，但您可以在自訂域名上使用[接收所有郵件](https://tuta.com/support#settings-global)功能。
 
 
 
-#### :material-information-outline:{ .pg-blue } 私人付款方式
+#### :material-information-outline:{ .pg-blue } 私密付款方式
 
 Tuta 僅接受信用卡和 PayPal ，但 [加密貨幣](cryptocurrency.md) 可用於通過其[ 合作伙伴 Proxystore ](https://tuta.com/faq/#cryptocurrency) 購買禮品卡。
 
 
 
-#### :material-check:{ .pg-green } 帳戶安全
+#### :material-check:{ .pg-green } 帳號安全
 
 Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
@@ -248,7 +248,7 @@ Tuta [不使用 OpenPGP ](https://tuta.com/support/#pgp)。 只能透過 [臨時
 
 
 
-#### :material-information-outline:{ .pg-blue } 帳戶終止
+#### :material-information-outline:{ .pg-blue } 終止帳號
 
 Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. 付費後，可以重用激活已停用的免費帳戶。
 

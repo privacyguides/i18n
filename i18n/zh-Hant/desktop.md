@@ -168,7 +168,7 @@ Whonix 最好[與 Qubes 結合使用](https://whonix.org/wiki/Qubes/Why_use_Qube
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 Tails 關閉後[不會抹除](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) [視訊記憶體](https://en.wikipedia.org/wiki/Dual- ported_video_RAM) 。 使用 Tails 後重新啟動電腦時，電腦可能會短暫顯示之前 Tails 最後一個畫面。 如果是關閉電腦而不是重新啟動，則影像記憶會在斷電一段時間後自動擦除。
 

@@ -129,7 +129,7 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 ## 額外選項
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning "警告"</p>
+<p class="admonition-title">警告</p>
 
 這些通訊軟體無向前保密[^1]，雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通信的機密性。
 
