@@ -1,34 +1,34 @@
 ---
-title: Linux Overview
+title: Gambaran Umum Linux
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: Linux adalah alternatif sistem operasi desktop sumber terbuka yang berfokus pada privasi, tetapi tidak semua distribusi diciptakan sama.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, Linux desktop has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** adalah alternatif sistem operasi komputer sumber terbuka yang berfokus pada privasi. Dalam menghadapi telemetri yang merajalela dan teknologi lain yang melanggar privasi dalam sistem operasi utama, Linux tetap menjadi pilihan yang jelas bagi mereka yang mencari kendali penuh atas komputer mereka dari awal.
 
-Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
+Situs web kami umumnya menggunakan istilah "Linux" untuk menjelaskan distribusi Linux **desktop**. Sistem operasi lain yang juga menggunakan kernel Linux seperti ChromeOS, Android, dan Qubes OS tidak dibahas di halaman ini.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
+[Rekomendasi Linux kami :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Privacy Notes
+## Catatan Privasi
 
-There are some notable privacy concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
+Ada beberapa masalah privasi penting pada Linux yang harus Anda sadari. Terlepas dari kekurangan ini, distribusi Linux desktop masih bagus untuk kebanyakan orang yang ingin:
 
-- Avoid telemetry that often comes with proprietary operating systems
-- Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy focused systems such as [Whonix](https://whonix.org) or [Tails](https://tails.net)
+- Menghindari telemetri yang sering kali disertakan dengan sistem operasi berpemilik
+- Menjaga [kebebasan perangkat lunak](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
+- Menggunakan sistem yang berfokus pada privasi seperti [Whonix](https://whonix.org) atau [Tails](https://tails.net)
 
 ### Keamanan Sumber Terbuka
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software is inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
+Adalah [kesalahpahaman umum](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) bahwa Linux dan perangkat lunak sumber terbuka lainnya secara inheren aman hanya karena kode sumbernya terbuka. Ada ekspektasi bahwa verifikasi komunitas dilakukan secara teratur, tetapi tidak selalu [demikian](https://seirdy.one/posts/2022/02/02/floss-security).
 
-In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
+Kenyataannya, keamanan distro bergantung pada sejumlah faktor, seperti aktivitas proyek, pengalaman pengembang, tingkat ketelitian yang diterapkan pada tinjauan kode, dan seberapa sering perhatian diberikan pada bagian tertentu dari basis kode yang mungkin tidak tersentuh selama bertahun-tahun.
 
-### Missing Security Features
+### Fitur Keamanan yang tidak terdapat pada Linux
 
-At the moment, desktop Linux [falls behind alternatives](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) like macOS or Android when it comes to certain security features. We hope to see improvements in these areas in the future.
+Saat ini, Linux [tertinggal jika dibandingkan alternatif](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) seperti macOS atau Android dalam hal fitur keamanan tertentu. Kami berharap dapat melihat peningkatan di area ini di masa depan.
 
-- **Verified boot** on Linux is not as robust as alternatives such as Apple’s [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web) or Android’s [Verified Boot](https://source.android.com/security/verifiedboot). Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
+- **Boot terverifikasi** di Linux tidak sekuat alternatif seperti [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web)-nya Apple atau [Verified Boot](https://source.android.com/security/verifiedboot)-nya Android. Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
 - **Strong sandboxing** for apps on Linux is severely lacking, even with containerized apps like Flatpaks or sandboxing solutions like Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which allow most apps to trivially bypass their sandbox.
 
