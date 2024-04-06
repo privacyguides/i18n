@@ -28,31 +28,31 @@ Kenyataannya, keamanan distro bergantung pada sejumlah faktor, seperti aktivitas
 
 Saat ini, Linux [tertinggal jika dibandingkan alternatif](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) seperti macOS atau Android dalam hal fitur keamanan tertentu. Kami berharap dapat melihat peningkatan di area ini di masa depan.
 
-- **Boot terverifikasi** di Linux tidak sekuat alternatif seperti [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web)-nya Apple atau [Verified Boot](https://source.android.com/security/verifiedboot)-nya Android. Verified boot prevents persistent tampering by malware and [evil maid attacks](https://en.wikipedia.org/wiki/Evil_Maid_attack), but is still largely [unavailable on even the most advanced distributions](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
+- **Boot terverifikasi** di Linux tidak sekuat alternatif seperti [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web)-nya Apple atau [Verified Boot](https://source.android.com/security/verifiedboot)-nya Android. Boot terverifikasi mencegah gangguan terus-menerus oleh *malware* dan [serangan pembantu jahat](https://en.wikipedia.org/wiki/Evil_Maid_attack), tetapi sebagian besar masih belum [tersedia pada distribusi yang paling canggih](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3) sekalipun.
 
-- **Strong sandboxing** for apps on Linux is severely lacking, even with containerized apps like Flatpaks or sandboxing solutions like Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which allow most apps to trivially bypass their sandbox.
+- ***Sandboxing* yang kuat** untuk aplikasi di Linux sangat kurang, bahkan dengan aplikasi yang terkontainerisasi seperti Flatpaks atau solusi *sandbox* seperti Firejail. Flatpak adalah utilitas *sandbox* yang paling menjanjikan untuk Linux sejauh ini, tetapi masih memiliki kekurangan di banyak area dan memungkinkan [bawaan](https://flatkill.org/2020) yang [tidak aman](https://flatkill.org/2020) yang memungkinkan sebagian besar aplikasi melewati *sandbox* mereka.
 
-Additionally, Linux falls behind in implementing [exploit mitigations](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) which are now standard on other operating systems, such as Arbitrary Code Guard on Windows or Hardened Runtime on macOS. Also, most Linux programs and Linux itself are coded in memory-unsafe languages. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages—such as Rust and Swift, respectively—while there is no similar effort to rewrite Linux in a memory-safe language like Rust.
+Selain itu, Linux tertinggal dalam mengimplementasikan [mitigasi eksploitasi](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) yang sekarang menjadi standar pada sistem operasi lain, seperti Arbitrary Code Guard pada Windows atau Hardened Runtime pada macOS. Sebagian besar program Linux dan Linux itu sendiri juga dikodekan dalam bahasa yang tidak aman untuk memori. *Bug* korupsi memori bertanggung jawab atas [sebagian besar kerentanan](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) yang diperbaiki dan diberi CVE. Meskipun hal ini juga berlaku untuk Windows dan macOS, kedua sistem operasi tersebut dengan cepat membuat kemajuan dalam mengadopsi bahasa yang aman dari segi memori - masing-masing seperti Rust dan Swift - sementara tidak ada upaya yang sama untuk menulis ulang Linux dalam bahasa yang aman dari segi memori seperti Rust.
 
-## Choosing your distribution
+## Memilih distribusi Anda
 
-Not all Linux distributions are created equal. Our [Linux recommendation page](../desktop.md) is not meant to be an authoritative source on which distribution you should use, but our recommendations *are* aligned with the following guidelines. These are a few things you should keep in mind when choosing a distribution:
+Tidak semua distribusi Linux diciptakan sama. [Halaman rekomendasi Linux](../desktop.md) kami tidak dimaksudkan sebagai sumber otoritatif tentang distribusi mana yang harus Anda gunakan, tetapi rekomendasi kami *selaras* dengan pedoman berikut. Berikut ini adalah beberapa hal yang harus Anda ingat ketika memilih distribusi:
 
-### Release cycle
+### Siklus rilis
 
-We highly recommend that you choose distributions which stay close to the stable upstream software releases, often referred to as rolling release distributions. This is because frozen release cycle distributions often don’t update package versions and fall behind on security updates.
+Kami sangat menyarankan agar Anda memilih distribusi yang dekat dengan rilis perangkat lunak hulu yang stabil, yang sering disebut sebagai distribusi *rolling release*. Hal ini karena distribusi siklus *frozen release* sering kali tidak memperbarui versi paket dan tertinggal dalam pembaruan keamanan.
 
-For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result minor security fixes are sometimes held back until the next major release.
+Untuk distribusi *frozen* seperti [Debian](https://debian.org/security/faq#handling), pengelola paket diharapkan untuk melakukan *backport patch* untuk memperbaiki kerentanan alih-alih memindahkan perangkat lunak ke "versi berikutnya" yang dirilis oleh pengembang hulu. Beberapa perbaikan keamanan [tidak](https://arxiv.org/abs/2105.14565) menerima [ID CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (terutama perangkat lunak yang kurang populer) sama sekali dan oleh karena itu tidak masuk ke dalam distribusi dengan model penambalan ini. Akibatnya, perbaikan keamanan kecil terkadang tertunda hingga rilis besar berikutnya.
 
-We don’t believe holding packages back and applying interim patches is a good idea, as it diverges from the way the developer might have intended the software to work. [Richard Brown](https://rootco.de/aboutme) has a presentation about this:
+Kami tidak percaya bahwa menahan paket dan menerapkan tambalan sementara adalah ide yang bagus, karena hal ini menyimpang dari cara kerja perangkat lunak yang diinginkan oleh pengembang. [Richard Brown](https://rootco.de/aboutme) memiliki presentasi tentang hal ini:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Regular Releases are Wrong, Roll for your life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Traditional vs Atomic updates
+### Pembaruan Tradisional vs Atomik
 
-Traditionally, Linux distributions update by sequentially updating the desired packages. Traditional updates such as those used in Fedora, Arch Linux, and Debian based distributions can be less reliable if an error occurs while updating.
+Secara tradisional, distribusi Linux melakukan pembaruan dengan memperbarui paket yang diinginkan secara berurutan. Pembaruan tradisional seperti yang digunakan pada distribusi berbasis Fedora, Arch Linux, dan Debian bisa jadi kurang dapat diandalkan jika terjadi kesalahan saat melakukan pembaruan.
 
 Atomic updating distributions apply updates in full or not at all. Typically, transactional update systems are also atomic.
 
