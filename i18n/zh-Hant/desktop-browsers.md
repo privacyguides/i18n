@@ -162,9 +162,9 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 ##### Firefox Suggest (僅限美國)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 功能只限美國地區，其功能類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在 **搜尋建議** 及 <0>網址列</0> 標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 功能只限美國地區，其功能類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在 **網址列** 標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
 
-- [ ] 取消勾選 **提供搜尋建議**
+- [ ] 取消勾選 **Suggestions from the web**
 - [ ] 取消勾選 **Suggestions from sponsors**
 
 ##### 關閉時清除資料
@@ -173,7 +173,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 - [x] 勾選 **關閉 Firefox 時清除 Cookie 與網站資料**
 
-這可以保護您免受持久性 Cookie 侵害，但不能保護您免受在任何一次瀏覽階段的 Cookie。 啟用此功能後，只需重新啟動 Firefox，就能輕鬆清除瀏覽器 Cookie。 如果您希望在經常造訪的特定網站保持登入，可以針對每個網站設定例外。
+這可以保護您免受持久性 Cookie 的影響，但不能保護您免受在任何一次瀏覽階段的 Cookie。 啟用此功能後，只需重新啟動 Firefox，就能輕鬆清除瀏覽器 Cookie。 如果您希望在經常造訪的特定網站保持登入，可以針對每個網站設定例外。
 
 ##### 遙測
 
@@ -248,7 +248,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉�
 
 </div>
 
-**macOS 用戶：** 從 Brave 官網下載副檔名為 `.pkg` 的安裝程式，需要以管理員權限執行 (並且可能會在您的機器上執行其他不必要的腳本)。 作為替代方案，您可以從他們的 [GitHub 發布](https://github.com/brave/brave-browser/releases/latest) 頁下載最新的 `Brave-Browser-universal.dmg` 檔案，這提供了傳統的 “拖曳到應用程式文件夾” 安裝方法。
+**macOS 用戶：** 從 Brave 官網下載副檔名為 `.pkg` 的安裝程式，需要以管理員權限執行 (並且可能會在您的機器上執行其他不必要的腳本)。 作為替代方案，您可以從他們的 [GitHub releases](https://github.com/brave/brave-browser/releases/latest) 頁面下載最新的 `Brave-Browser-universal.dmg` 檔案，這提供了傳統的 “拖曳到應用程式文件夾” 安裝方法。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -306,7 +306,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-1. Brave 在瀏覽器指紋識別的隱藏能力**不如** Tor 瀏覽器，且使用 Brave 的 Tor 使用者少，因此您將會顯得突出。 如果[需要強大的匿名性](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)，請使用 [Tor 瀏覽器](tor.md#tor-browser)。
+1. Brave 在瀏覽器指紋識別的隱藏能力**不如** Tor 瀏覽器，且使用 Brave 的 Tor 使用者少，因此這將會使您顯得突出。 在[需要強大匿名性](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)的情況下，請使用 [Tor 瀏覽器](tor.md#tor-browser)。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">離開時清除資料</p>

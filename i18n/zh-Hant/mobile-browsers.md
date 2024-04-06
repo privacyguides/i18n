@@ -139,7 +139,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 ![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 預設瀏覽器。 它包括[隱私權功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0)，如 [智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、獨立且短暫的私密瀏覽標籤頁、iCloud 私密轉送、透過隨機化並向網站呈現簡化版本的系統設定來實現指紋保護，以使更多設備看起來相同的指紋保護，以及使用 生物識別資訊/PIN 鎖定私密瀏覽的功能。 它還可以使用不同的設定檔來分隔您的瀏覽。
+**Safari** 是 iOS 預設瀏覽器。 它包括[隱私權功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0)，如 [智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、獨立且短暫的私密瀏覽分頁、iCloud 私密轉送、透過隨機化並向網站呈現簡化版本的系統設定來實現指紋保護，以使更多設備看起來相同的指紋保護，以及使用 生物識別資訊/PIN 鎖定私密瀏覽的功能。 它還可以使用不同的主題類別來分隔您的瀏覽。
 
 [:octicons-home-16: 首頁](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="隱私權政策" }
@@ -151,25 +151,25 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 #### 建議的 Safari 設定
 
-這些選項可以在 :gear: **Safari** →**設定**中找到。
+這些選項可以在 :gear: **設定** → **Safari** 中找到。
 
-##### 設定檔
+##### 主題類別
 
-所有 cookie、歷史記錄和網站資料對於每個設定檔都是獨立的。 您應該將不同設定檔用於不同目的，例如購物、工作或學校。
+您的所有 Cookie、歷史記錄和網站資料將會針對各個主題類別分開。 您應該為不同用途使用不同的主題類別，例如購物、工作或學校。
 
 ##### 隱私 & 安全
 
 - [x] 啓用 **防止跨網站跟蹤**
 
-    這將啟用 WebKit [智慧型跟蹤保護](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能透過設備的機器學習來阻止跟蹤器不必要的跟蹤。 ITP 可以防止許多常見的威脅，但它不會阻止所有跟蹤途徑，因為它的設計不會干擾網站的可用性。
+    這將啟用 WebKit 的[智慧追蹤預防](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能利用裝置上的機器學習來阻止跟蹤器不必要的跟蹤。 智慧追蹤預防可保護您免於許多常見威脅，但它不能阻止所有追蹤途徑，因為它被設計為不會干擾網站的可用性。
 
-- [x] 啟用**需要 Face ID 才能解鎖私密瀏覽**
+- [x] 啟用 **需要密碼來解鎖私密瀏覽**
 
-    此設定可將私人分頁在不使用時鎖定在生物辨識/PIN 裏。
+    此設定可在私密瀏覽分頁未使用時使用 生物辨識資訊/PIN 鎖定。
 
-##### 進階 → 隱私
+##### 進階 → 隱私權
 
-**進階追蹤與指紋辨識保護**設定將隨機化某些值，以便更難進行指紋辨識：
+**進階追蹤和指紋保護** 設定將隨機化某些值，可使網站更難以進行指紋辨識：
 
 - [x] 選擇 **所有瀏覽** 或 **私密瀏覽**
 
@@ -179,33 +179,33 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 隱私權報告可透過「頁面設定」選單存取。
 
-##### 隱私保護廣告測量
+##### 維護隱私權廣告測量
 
-- [ ] 禁用 **隱私保留廣告計量**
+- [ ] 停用 **維護隱私權廣告測量**
 
-廣告點擊測量是過去用來追蹤侵犯用戶隱私的技術。 [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) 是一個 WebKit 功能和提議的網頁標準，旨在允許廣告商在不影響用戶隱私的情況下衡量網站活動的有效性。
+廣告點擊測量通常使用侵犯使用者隱私的追蹤技術。 「[私密點擊測量](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm)」是一項針對 WebKit 的功能和提議的網頁標準，旨在讓廣告商能夠衡量網路活動的效果，同時不損害使用者隱私。
 
 此功能本身沒有什麼隱私疑慮，因此您可以選擇不管它，但我們認為，它在私密瀏覽中自動停用反而顯示出功能被關閉的情況。
 
-##### 一直保持私密瀏覽
+##### 總是保持私密瀏覽
 
-開啟 Safari ，然後點按右下角的「標籤」按鈕。 然後，擴展標籤組列表。
+開啟 Safari ，然後點按右下角的「標籤」按鈕。 然後，展開分頁群組清單。
 
-- [x] 選擇 **私密**
+- [x] 選擇 **私密瀏覽**
 
-Safari的私人瀏覽模式提供額外的隱私保護。 隱私瀏覽每個標籤分頁使用新的 [短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) 工作階段，這意味著標籤彼此隔離。 隱私瀏覽還有其他較小的隱私優勢，例如在使用Safari的翻譯功能時不會將網頁的地址傳送給Apple。
+Safar i的私密瀏覽模式提供額外的隱私保護。 私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。 隱私瀏覽還有其他較小的隱私優勢，例如在使用 Safari 的翻譯功能時，不會將網頁地址傳送給 Apple。
 
-請注意，「私密瀏覽」不會儲存Cookie和網站資料，因此無法繼續登入網站。 這可能會造成不便。
+請注意，私密瀏覽不會保存 Cookies 和網站資料，因此無法保持登入狀態。 這可能會帶來不便。
 
 ##### iCloud 同步
 
-Safari 歷史記錄、標籤頁、iCloud 標籤分頁和保存密碼的同步都採用 E2EE 加密。 但預設情況下，書籤[沒有](https://support.apple.com/HT202303)。 Apple 可以根據其[隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
+Safari 的歷史記錄、分頁群組、iCloud 分頁和已儲存密碼的同步都採用 E2EE 加密。 但預設情況下，書籤[並非如此](https://support.apple.com/HT202303)。 Apple 可以根據其[隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
 
-您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用 [進階資料防護](https://support.apple.com/HT212520) 即可。 請在 **Apple ID name → iCloud → 進階資料保護**.
+您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用「[進階資料防護](https://support.apple.com/HT212520)」即可。 請前往您的 **Apple ID 名稱 → iCloud → 進階資料保護**。
 
-- [x] 開啟 **進階資料保護**
+- [x] 開啟 「**進階資料保護**」
 
-如果您在禁用「進階資料保護」的情況下使用 iCloud ，我們亦建議您檢查，確保 Safari 預設下載位置已設定為裝置上的本機位置。 此選項可在 :gear: **設定** → **Safari** → **一般** → **下載**中找到。
+如果您在不開啟「進階資料保護」的情況下使用 iCloud ，我們亦建議您檢查，確保 Safari 預設下載位置已設定為裝置上的本機位置。 此選項可在 :gear: **設定** → **Safari** → **一般** → **下載**中找到。
 
 ## 標準
 
