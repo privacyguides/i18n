@@ -195,7 +195,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
@@ -214,13 +214,13 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 </div>
 
-Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。 目前不支援 [電子郵件匯入](https://github.com/tutao/tutanota/issues/630) ，但這點很快就 [會改善](https://tuta.com/blog/posts/kickoff-import)。 電子郵件可以單個 [或選擇資料夾批量](https://tuta.com/howto#generalMail)匯出 ，但若您有許多資料夾，可能會不方便。
+Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。 目前不支援 [電子郵件匯入](https://github.com/tutao/tutanota/issues/630) ，但這點很快就 [會改善](https://tuta.com/blog/posts/kickoff-import)。 Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
-付費的 Tuta 帳戶可使用 15 ~ 30 別名，而 [自定域名](https://tuta.com/faq#custom-domain)帳戶則無上限。 Tuta 不能 [子地址（加號 +定址）](https://tuta.com/faq#plus)，但您可以使用自定義域名的 [通用電于郵件](https://tuta.com/howto#settings-global)功能 。
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
 
 
@@ -232,13 +232,13 @@ Tuta 僅接受信用卡和 PayPal ，但 [加密貨幣](cryptocurrency.md) 可�
 
 #### :material-check:{ .pg-green } 帳戶安全
 
-Tuta 支援 TOTP 或 U2F 的 [雙因素驗證](https://tuta.com/faq#2fa) 。
+Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
 
 
 #### :material-check:{ .pg-green } 資料安全
 
-Tutanota 提供 [未登入零存取](https://tuta.com/faq#what-encrypted) 支援，其應用在電子郵件、 [通訊錄](https://tuta.com/faq#encrypted-address-book)以及 [行事曆](https://tuta.com/faq#calendar)。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
 
 
 
@@ -250,15 +250,13 @@ Tuta [不使用 OpenPGP ](https://tuta.com/support/#pgp)。 只能透過 [臨時
 
 #### :material-information-outline:{ .pg-blue } 帳戶終止
 
-Tuta [刪除六個月未登入使用的免費帳戶](https://tuta.com/faq#inactive-accounts) 。 付費後，可以重用激活已停用的免費帳戶。
+Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. 付費後，可以重用激活已停用的免費帳戶。
 
 
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
 Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/posts/secure-email-for-non-profit) 或大幅折扣。
-
-Tuta 付費版還有一種 [Secure Connect](https://tuta.com/secure-connect)功能。 這可以確保客戶的業務聯繫使用 E2EE。 價格爲一年 € 240 歐元。
 
 Tuta 不提供數位遺產功能。
 

@@ -187,7 +187,7 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
@@ -206,11 +206,11 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 </div>
 
-Tuta non supporta il [protocollo IMAP](https://tuta.com/faq/#imap) o l'utilizzo di [client email](email-clients.md) di terze parti e, inoltre, non potrai aggiungere [account email esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app di Tuta. [L'importazione di email](https://github.com/tutao/tutanota/issues/630) non è attualmente supportata, anche se questo aspetto è destinato ad [essere modificato](https://tuta.com/blog/posts/kickoff-import). Le email possono essere esportate [singolarmente o tramite selezione in blocco](https://tuta.com/howto#generalMail) per cartella, il che può risultare scomodo se hai molte cartelle.
+Tuta non supporta il [protocollo IMAP](https://tuta.com/faq/#imap) o l'utilizzo di [client email](email-clients.md) di terze parti e, inoltre, non potrai aggiungere [account email esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app di Tuta. [L'importazione di email](https://github.com/tutao/tutanota/issues/630) non è attualmente supportata, anche se questo aspetto è destinato ad [essere modificato](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } Domini e Alias personalizzati
 
-Gli account di Tuta a pagamento possono utilizzare 15 o 30 alias a seconda del piano e alias illimitati sui [domini personalizzati](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } Metodi di pagamento privati
 
@@ -218,11 +218,11 @@ Tuta accetta diretti soltanto carte di credito e PayPal, tuttavia, le [criptoval
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Tuta supporta [l'autenticazione a due fattori](https://tuta.com/faq#2fa) con TOTP o U2F.
+Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 
-Tuta dispone di [crittografia ad accesso zero a riposo](https://tuta.com/faq#what-encrypted) per le tue email, [i tuoi contatti della rubrica](https://tuta.com/faq#encrypted-address-book) e [i tuoi calendari](https://tuta.com/faq#calendar). Ciò significa che messaggi e altri dati memorizzati nel tuo profilo, sono leggibili soltanto da te.
+Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Ciò significa che messaggi e altri dati memorizzati nel tuo profilo, sono leggibili soltanto da te.
 
 #### :material-information-outline:{ .pg-blue } Crittografia Email
 
@@ -230,13 +230,11 @@ Tuta [non utilizza OpenPGP](https://tuta.com/support/#pgp). Gli account Tuta pos
 
 #### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
-Tuta [eliminerà gli account gratuiti inattivi](https://tuta.com/faq#inactive-accounts) dopo sei mesi. Puoi riutilizzare un profilo gratuito disattivato, previo pagamento.
+Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Puoi riutilizzare un profilo gratuito disattivato, previo pagamento.
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
 Tuta offre la versione aziendale di [Tuta alle organizzazioni non profit](https://tuta.com/blog/posts/secure-email-for-non-profit) gratuitamente o con un ottimo sconto.
-
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). Questa, garantisce che il contatto del cliente con l'azienda utilizzi l'E2EE. La funzionalità costa €240 all'anno.
 
 Tuta non offre una funzionalità di eredità digitale.
 

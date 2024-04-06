@@ -187,7 +187,7 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
@@ -206,11 +206,11 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 
 </div>
 
-Tuta אינו תומך ב[פרוטוקול IMAP](https://tuta.com/faq/#imap) או בשימוש ב[ של צד שלישי לקוחות אימייל](email-clients.md), וגם לא תוכל להוסיף [חשבונות אימייל חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tuta. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/howto#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta אינו תומך ב[פרוטוקול IMAP](https://tuta.com/faq/#imap) או בשימוש ב[ של צד שלישי לקוחות אימייל](email-clients.md), וגם לא תוכל להוסיף [חשבונות אימייל חיצוניים](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) לאפליקציית Tuta. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/faq#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/faq#plus), but you can use a [catch-all](https://tuta.com/howto#settings-global) with a custom domain.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } שיטות תשלום פרטיות
 
@@ -218,11 +218,11 @@ Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cry
 
 #### :material-check:{ .pg-green } אבטחת חשבון
 
-Tuta supports [two factor authentication](https://tuta.com/faq#2fa) with either TOTP or U2F.
+Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } אבטחת מידע
 
-Tuta has [zero access encryption at rest](https://tuta.com/faq#what-encrypted) for your emails, [address book contacts](https://tuta.com/faq#encrypted-address-book), and [calendars](https://tuta.com/faq#calendar). משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
+Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). משמעות הדבר היא שההודעות ונתונים אחרים המאוחסנים בחשבונך ניתנים לקריאה רק על ידך.
 
 #### :material-information-outline:{ .pg-blue } הצפנת אימייל
 
@@ -230,13 +230,11 @@ Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can on
 
 #### :material-information-outline:{ .pg-blue } סגירת חשבון
 
-Tuta [ימחק חשבונות בחינם לא פעילים](https://tuta.com/faq#inactive-accounts) לאחר שישה חודשים. אם ברצונך לשלם, באפשרותך להשתמש שוב בחשבון חינמי שהושבת.
+Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. אם ברצונך לשלם, באפשרותך להשתמש שוב בחשבון חינמי שהושבת.
 
 #### :material-information-outline:{ .pg-blue } פונקציונליות נוספת
 
 Tuta מציעה את הגרסה העסקית של [Tuta לארגונים ללא מטרות רווח](https://tuta.com/blog/posts/secure-email-for-non-profit) בחינם או בהנחה כבדה.
-
-Tuta also has a business feature called [Secure Connect](https://tuta.com/secure-connect). זה מבטיח שיצירת קשר עם הלקוח לעסק משתמשת ב- E2EE. התכונה עולה 240 אירו לשנה.
 
 Tuta אינו מציע תכונה מורשת דיגיטלית.
 

@@ -42,7 +42,7 @@ Tidak semua distribusi Linux diciptakan sama. [Halaman rekomendasi Linux](../des
 
 Kami sangat menyarankan agar Anda memilih distribusi yang dekat dengan rilis perangkat lunak hulu yang stabil, yang sering disebut sebagai distribusi *rolling release*. Hal ini karena distribusi siklus *frozen release* sering kali tidak memperbarui versi paket dan tertinggal dalam pembaruan keamanan.
 
-Untuk distribusi *frozen* seperti [Debian](https://debian.org/security/faq#handling), pengelola paket diharapkan untuk melakukan *backport patch* untuk memperbaiki kerentanan alih-alih memindahkan perangkat lunak ke "versi berikutnya" yang dirilis oleh pengembang hulu. Beberapa perbaikan keamanan [tidak](https://arxiv.org/abs/2105.14565) menerima [ID CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (terutama perangkat lunak yang kurang populer) sama sekali dan oleh karena itu tidak masuk ke dalam distribusi dengan model penambalan ini. Akibatnya, perbaikan keamanan kecil terkadang tertunda hingga rilis besar berikutnya.
+Untuk distribusi *frozen* seperti [Debian](https://debian.org/security/faq#handling), pengelola paket diharapkan untuk melakukan *backport patch* untuk memperbaiki kerentanan daripada memindahkan perangkat lunak ke "versi berikutnya" yang dirilis oleh pengembang hulu. Beberapa perbaikan keamanan [tidak](https://arxiv.org/abs/2105.14565) menerima [ID CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (terutama perangkat lunak yang kurang populer) sama sekali dan oleh karena itu tidak masuk ke dalam distribusi dengan model penambalan ini. Akibatnya, perbaikan keamanan kecil terkadang tertunda hingga rilis besar berikutnya.
 
 Kami tidak percaya bahwa menahan paket dan menerapkan tambalan sementara adalah ide yang bagus, karena hal ini menyimpang dari cara kerja perangkat lunak yang diinginkan oleh pengembang. [Richard Brown](https://rootco.de/aboutme) memiliki presentasi tentang hal ini:
 
@@ -54,23 +54,23 @@ Kami tidak percaya bahwa menahan paket dan menerapkan tambalan sementara adalah 
 
 Secara tradisional, distribusi Linux melakukan pembaruan dengan memperbarui paket yang diinginkan secara berurutan. Pembaruan tradisional seperti yang digunakan pada distribusi berbasis Fedora, Arch Linux, dan Debian bisa jadi kurang dapat diandalkan jika terjadi kesalahan saat melakukan pembaruan.
 
-Atomic updating distributions apply updates in full or not at all. Typically, transactional update systems are also atomic.
+Distribusi pembaruan atomik menerapkan pembaruan secara penuh atau tidak sama sekali. Biasanya, sistem pembaruan transaksional juga bersifat atomik.
 
-A transactional update system creates a snapshot that is made before and after an update is applied. If an update fails at any time (perhaps due to a power failure), the update can be easily rolled back to a “last known good state."
+Sistem pembaruan transaksional membuat *snapshot* yang dibuat sebelum dan sesudah pembaruan diterapkan. Jika pembaruan gagal sewaktu-waktu (mungkin karena listrik mati), pembaruan dapat dengan mudah dikembalikan ke "kondisi baik terakhir yang diketahui".
 
-The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) provided a presentation on how `rpm-ostree` works with Silverblue:
+Metode pembaruan Atomic digunakan untuk [distribusi](../desktop.md#atomic-distributions) seperti Silverblue, Tumbleweed, dan NixOS dan dapat mencapai keandalan dengan model ini. [Adam Šamalík](https://twitter.com/adsamalik) memberikan presentasi tentang cara kerja `rpm-ostree` dengan Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### “Security-focused” distributions
+### Distribusi yang "berfokus pada keamanan"
 
-There is often some confusion between “security-focused” distributions and “pentesting” distributions. A quick search for “the most secure Linux distribution” will often give results like Kali Linux, Black Arch, or Parrot OS. These distributions are offensive penetration testing distributions that bundle tools for testing other systems. They don’t include any “extra security” or defensive mitigations intended for regular use.
+Sering kali terdapat kebingungan antara distribusi "yang berfokus pada keamanan" dan distribusi "pentesting". Pencarian cepat untuk "distribusi Linux yang paling aman" sering kali memberikan hasil seperti Kali Linux, Black Arch, atau Parrot OS. Distribusi ini adalah distribusi pengujian penetrasi ofensif yang menggabungkan alat-alat untuk menguji sistem lain. Distribusi-distribusi tersebut tidak menyertakan "keamanan ekstra" atau mitigasi pertahanan yang dimaksudkan untuk penggunaan biasa.
 
-### Arch-based distributions
+### Distribusi berbasis Arch
 
-Arch and Arch-based distributions are not recommended for those new to Linux (regardless of distribution) as they require regular [system maintenance](https://wiki.archlinux.org/title/System_maintenance). Arch does not have a distribution update mechanism for the underlying software choices. As a result you have to stay aware with current trends and adopt technologies as they supersede older practices on your own.
+Arch dan distribusi berbasis Arch tidak direkomendasikan bagi mereka yang baru mengenal Linux (apa pun distribusinya) karena memerlukan [pemeliharaan sistem](https://wiki.archlinux.org/title/System_maintenance) secara teratur. Arch tidak memiliki mekanisme pembaruan distribusi untuk pilihan perangkat lunak yang mendasarinya. As a result you have to stay aware with current trends and adopt technologies as they supersede older practices on your own.
 
 For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
 

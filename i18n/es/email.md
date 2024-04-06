@@ -185,11 +185,11 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 **Tuta** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva en funcionamiento desde **2011** y tiene su sede en Hanóver, Alemania. Las cuentas empiezan con 1Gb de almacenamiento con su plan gratuito.
 
-[:octicons-home-16: Página Principal](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -206,11 +206,11 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 </div>
 
-Tuta no admite el [protocolo IMAP](https://tuta.com/faq/#imap) ni el uso de [clientes de correo electrónico](email-clients.md) de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tuta. [La importación de correo electrónico](https://github.com/tutao/tutanota/issues/630) tampoco es compatible en la actualidad, aunque está [previsto que se modifique](https://tuta.com/blog/posts/kickoff-import). Los correos electrónicos se pueden exportar [individualmente o por selección masiva](https://tuta.com/howto#generalMail) por carpeta, lo que puede resultar incómodo si tiene muchas carpetas.
+Tuta no admite el [protocolo IMAP](https://tuta.com/faq/#imap) ni el uso de [clientes de correo electrónico](email-clients.md) de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tuta. [La importación de correo electrónico](https://github.com/tutao/tutanota/issues/630) tampoco es compatible en la actualidad, aunque está [previsto que se modifique](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Las cuentas de pago de Tuta pueden utilizar 15 o 30 alias en función de su plan y alias ilimitados en [dominios personalizados](https://tuta.com/faq#custom-domain). Tuta no permite el [subdireccionamiento (más direcciones)](https://tuta.com/faq#plus), pero puedes utilizar un [catch-all](https://tuta.com/howto#settings-global) con un dominio personalizado.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } Métodos de pago privados
 
@@ -218,11 +218,11 @@ Tuta solo acepta directamente tarjetas de crédito y PayPal, sin embargo, la [cr
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
-Tuta soporta [autenticación de doble factor](https://tuta.com/faq#2fa) con TOTP o U2F.
+Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } Seguridad de los datos
 
-Tutanota dispone de [cifrado de acceso cero en reposo](https://tuta.com/faq#what-encrypted) para tus correos electrónicos, [contactos de la libreta de direcciones](https://tuta.com/faq#encrypted-address-book), y [calendarios](https://tuta.com/faq#calendar). Esto significa que sólo tú puedes leer los mensajes y otros datos almacenados en tu cuenta.
+Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Esto significa que sólo tú puedes leer los mensajes y otros datos almacenados en tu cuenta.
 
 #### :material-information-outline:{ .pg-blue } Cifrado de correo electrónico
 
@@ -230,13 +230,11 @@ Tuta [no utiliza OpenPGP](https://tuta.com/support/#pgp). Las cuentas de Tuta so
 
 #### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
-Tuta [eliminará las cuentas gratuitas inactivas](https://tuta.com/faq#inactive-accounts) transcurridos seis meses. Puedes reutilizar una cuenta gratuita desactivada si pagas.
+Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Puedes reutilizar una cuenta gratuita desactivada si pagas.
 
 #### :material-information-outline:{ .pg-blue } Funciones adicionales
 
 Tuta ofrece la versión empresarial de [Tuta para organizaciones sin ánimo de lucro](https://tuta.com/blog/posts/secure-email-for-non-profit) de forma gratuita o con un importante descuento.
-
-Tuta también tiene una función para empresas llamada [Secure Connect](https://tuta.com/secure-connect). Esto garantiza que el contacto del cliente con la empresa utilice E2EE. La función cuesta 240 €/año.
 
 Tuta no ofrece una función de legado digital.
 

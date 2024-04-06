@@ -185,11 +185,11 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 
 A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a biztonságra és az adatvédelemre összpontosít. A Tuta **2011** óta működik, székhelye Hannoverben, Németországban található. A fiókok 1GB induló tárhellyel kezdődnek a ingyenes csomagban.
 
-[:octicons-home-16: Főoldal](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Adatvédelmi tájékoztató" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Dokumentáció}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Forráskód" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Közreműködés}
+[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Letöltés</summary>
@@ -206,11 +206,11 @@ A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a 
 
 </div>
 
-A Tuta nem támogatja az [IMAP protokollt](https://tuta.com/faq/#imap) vagy a harmadik féltől származó [e-mail kliensek](email-clients.md) használatát, és [külső e-mail fiókokat](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) sem tud hozzáadni a Tuta alkalmazáshoz. Az [e-mail import](https://github.com/tutao/tutanota/issues/630) jelenleg szintén nem támogatott, bár ez [hamarosan megváltozik](https://tuta.com/blog/posts/kickoff-import). Az e-mailek [egyenként vagy](https://tuta.com/howto#generalMail) mappánként [tömeges kiválasztással](https://tuta.com/howto#generalMail) exportálhatók, ami kényelmetlen lehet, ha sok mappája van.
+A Tuta nem támogatja az [IMAP protokollt](https://tuta.com/faq/#imap) vagy a harmadik féltől származó [e-mail kliensek](email-clients.md) használatát, és [külső e-mail fiókokat](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) sem tud hozzáadni a Tuta alkalmazáshoz. Az [e-mail import](https://github.com/tutao/tutanota/issues/630) jelenleg szintén nem támogatott, bár ez [hamarosan megváltozik](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } Egyedi domainek és álnevek
 
-A fizetős Tuta-fiókok 15 vagy 30 álnevet használhatnak a csomagtól függően, valamint korlátlan számú álnevet [egyéni domaineken](https://tuta.com/faq#custom-domain). A Tuta nem teszi lehetővé az [alcímzést (plusz címek)](https://tuta.com/faq#plus), de használhatsz egy [gyűjtőcímet](https://tuta.com/howto#settings-global) egy egyéni domainnel.
+Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
 #### :material-information-outline:{ .pg-blue } Privát fizetési módok
 
@@ -218,11 +218,11 @@ A Tuta közvetlenül csak hitelkártyákat és PayPal-t fogad el, azonban a [kri
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
-A Tuta támogatja a [kétfaktoros hitelesítést](https://tuta.com/faq#2fa) TOTP és U2F segítségével.
+Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } Adatbiztonság
 
-A Tuta [alapértelmezett zéró hozzáférésű titkosítást biztosít](https://tuta.com/faq#what-encrypted) az e-mailekre, a [címjegyzékben szereplő kapcsolatokra](https://tuta.com/faq#encrypted-address-book) és a [naptárakra](https://tuta.com/faq#calendar). Ez azt jelenti, hogy a fiókodban tárolt üzeneteket és egyéb adatokhoz kizárólag te férhetsz hozzá.
+Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Ez azt jelenti, hogy a fiókodban tárolt üzeneteket és egyéb adatokhoz kizárólag te férhetsz hozzá.
 
 #### :material-information-outline:{ .pg-blue } E-mail titkosítás
 
@@ -230,13 +230,11 @@ A Tuta [nem használja az OpenPGP-t](https://tuta.com/support/#pgp). A Tuta fió
 
 #### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
-A Tuta hat hónap elteltével [törli az inaktív ingyenes fiókokat](https://tuta.com/faq#inactive-accounts). Egy deaktivált ingyenes fiókot újra felhasználhatsz, ha fizetsz érte.
+Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Egy deaktivált ingyenes fiókot újra felhasználhatsz, ha fizetsz érte.
 
 #### :material-information-outline:{ .pg-blue } További funkciók
 
 A Tuta az üzleti verzióját [nonprofit szervezetek számára](https://tuta.com/blog/posts/secure-email-for-non-profit) ingyenesen vagy jelentős kedvezménnyel kínálja.
-
-A Tuta rendelkezik egy [Secure Connect](https://tuta.com/secure-connect) nevű üzleti funkcióval is. Ez biztosítja, hogy az ügyfélkapcsolat a végponttól-végpontig titkosított csatornákat használja. A funkció ára 240€/év.
 
 A Tuta nem kínál digitális örökség funkciót.
 
