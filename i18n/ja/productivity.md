@@ -18,17 +18,17 @@ cover: productivity.webp
 
 **Nextcloud**は、自由でオープンソースのクライアント・サーバーソフトウェアのスイートです。あなた自身が管理する非公開のサーバーでファイルホスティングサービスを構築するのに使用できます。
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
+[:octicons-home-16: ホームページ](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=ドキュメント}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=貢献}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
+- [:simple-appstore: App Store](https://apps.apple.com/jp/app/nextcloud/id1125420102)
 - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
 - [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
 - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)

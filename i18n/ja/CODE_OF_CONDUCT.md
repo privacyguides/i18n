@@ -10,44 +10,44 @@
 
 コミュニティーのメンバーに期待されることは以下の通りです。
 
-1. **Do not spread misinformation**
+1. **誤った情報を拡散しないこと**
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. このような主張は、技術的な証拠に基づいていなければなりません。
+      私たちは、陰謀論の巣窟ではなく、情報プライバシーとセキュリティーに関する、証拠に基づいた教育コミュニティーを構築しています。 たとえば、特定のソフトウェアが悪意のあるものである、または特定のテレメトリデータがプライバシーを侵害していると主張する場合は、 収集される内容と収集方法を詳細に説明してください。 このような主張は、技術的な証拠に基づいていなければなりません。
 
-2. **Do not abuse our willingness to help**
+2. **助けたいという意志を乱用しないこと**
 
-      Our community members are not free tech support. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
+      私たちのコミュニティメンバーは、無料の技術サポートではありません。 私たちは、あなた自身が努力を惜しまないのであれば、あなたのプライバシーに関する取り組みにおける具体的なステップを喜んでお手伝いします。 私たちは、インターネット検索で簡単に解決できる一般的なコンピュータの問題について、延々と繰り返される質問に答える義務はありません。 [help vampire](https://slash7.com/2006/12/22/vampires)に**ならないで**ください。
 
 3. **前向きかつ建設的な態度で行動すること**
 
       前向きな環境を作り上げることに貢献する行動の例：
 
-      - Being respectful of differing opinions, viewpoints, and experiences.
-      - Demonstrating empathy and kindness toward others.
-      - Focusing on what is best not just for us as overseers, but for the overall community.
-      - Giving and gracefully accepting constructive feedback within our community while growing and improving.
-      - Operating with a communal mindset at all times.
+      - 異なる意見、視点、経験を尊重すること。
+      - 他の人々に対して共感と優しさを示す。
+      - 個人としてだけでなく、社会全体にとって何が最善であるかに焦点を当てること。
+      - 私たちのコミュニティ内で建設的なフィードバックを与え、適切に受け入れながら、成長と改善をしていくこと。
+      - 常に共同的な考え方をもって行動する。
 
-## Unacceptable Behavior
+## 容認できない行為
 
 以下の行為はハラスメントとみなされ、私たちのコミュニティーでは容認されません：
 
-- Any other conduct which would reasonably be considered inappropriate in a professional setting.
-- Public and/or private harassment of any kind.
-- Publishing others' private information, such as a physical address and/or an email address, without their explicit permission.
-- The use of sexualized language or imagery, and sexual attention or advances of any kind.
-- Trolling, insulting and/or derogatory comments, including personal or political attacks.
+- 専門的な場において、合理的に考えて不適切とみなされるようなその他の行為
+- あらゆる種類の公的および私的な嫌がらせ。
+- 明示的な許可なしに、住所やメールアドレスなどの他人の個人情報を公開すること。
+- 性的な言葉や画像の使用、およびあらゆる種類の性的注目や性的誘い。
+- 荒らし行為、侮辱的または軽蔑的なコメント、個人的または政治的な攻撃。
 
-## Scope
+## 適用範囲
 
 行動規範は、すべてのプロジェクトスペースで適用されるだけでなく、個人が他のコミュニティーでPrivacy Guidesプロジェクトを代表する場合にも適用されます。
 
-We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+私たちはコミュニティーの基準を明確にする責任があり、必要に応じて、私たちの裁量でコミュニティーに参加している人のコメントを削除または変更する権利を有します。
 
-## Contact
+## 連絡先
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
+MatrixやRedditのようなプラットフォームで問題が発生した場合は、そのプラットフォームのモデレーターにチャット、ダイレクトメッセージ、または指定された「Modmail」システムを通じて連絡してください。
 
-If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+他の場所で問題が発生した場合、またはコミュニティーのモデレーターが解決できない問題が発生した場合は、 `jonah@privacyguides.org`、`dngray@privacyguides.org`までご連絡ください。
 
-All community leaders are obligated to respect the privacy and security of reporters for all incidents.
+すべてのコミュニティリーダーは、すべての問題において報告者のプライバシーとセキュリティを尊重する義務があります。

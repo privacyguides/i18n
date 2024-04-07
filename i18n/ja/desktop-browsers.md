@@ -217,7 +217,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 [Arkenfoxプロジェクト](https://github.com/arkenfox/user.js)は、Firefoxのための慎重に考えられたオプションのセットを提供しています。 もしArkenfoxを使用することを[決めた](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)場合、[いくつかのオプション](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])は主観的に厳格であり、また、一部のウェブサイトが正しく動作しなくなる可能性があります。これらのオプションは、ニーズに合わせて[簡単に変更できます](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)。 プロジェクトの[wiki](https://github.com/arkenfox/user.js/wiki)に全て目を通すことを**強くお勧めします**。 Arkenfoxは[コンテナ](https://support.mozilla.org/kb/containers#w_for-advanced-users)のサポートも可能にしています。
 
-Arkenfoxでは、canvasのランダム化やFirefoxの組み込みのフィンガープリント対策の設定に基づき、基本的または単純なトラッキングスクリプトを防ぐことを唯一の目的としています。 Arkenfoxは、Mullvad BrowserやTor Browserのように、高度なフィンガープリンティングトラッキング用のスクリプトを防止するための唯一の方法である、他の多くのArkenfoxユーザーとブラウザを混ぜ合わせることを目指してはいません。 常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままにしたいサイトや、それとは別の仕方で信頼したいサイトについては Firefox + Arkenfox を使用し、一般的なブラウジングには Mullvad Browserを使用するといった方法を考えることができます。
+Arkenfoxでは、canvasのランダム化やFirefoxの組み込みのフィンガープリント対策の設定に基づき、基本的または単純なトラッキングスクリプトを防ぐことを唯一の目的としています。 Arkenfoxは、Mullvad BrowserやTor Browserが行う、高度なフィンガープリントトラッキング用のスクリプを防止する唯一の方法である大勢のユーザーの中に溶け込ませることは目的としていません。 常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままや信頼したいくつかのサイトにはFirefox + Arkenfoxを使用し、一般的なブラウジングにはMullvad ブラウザを使用するといった方法を検討できます。
 
 ## Brave
 
@@ -225,7 +225,7 @@ Arkenfoxでは、canvasのランダム化やFirefoxの組み込みのフィン�
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave ブラウザ** にはコンテンツブロッカーと[プライバシー機能](https://brave.com/privacy-features)が組み込まれており、その多くはデフォルトで有効になっています。
 
 BraveはChromiumウェブブラウザプロジェクトに基づいて構築されているため、使い慣れた使用感があるほか、ウェブサイトの互換性問題が最小限に抑えられます。
 
@@ -251,9 +251,9 @@ BraveはChromiumウェブブラウザプロジェクトに基づいて構築さ�
 **macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">注意</p>
 
-Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. これが心配な場合は、インストーラファイルを開く前に名前を変更できます。
 
 </div>
 
@@ -364,7 +364,7 @@ BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面�
 - Linux、macOS、Windowsで利用できる。
 - ブラウザをよりプライバシーを尊重したものにするための変更が、ユーザーエクスペリエンスを損なうものではないこと。
 - デフォルトでサードパーティCookieをブロックしている。
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- クロスサイトトラッキングを軽減する[state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)をサポートしている。[^1]
 
 ### 満たされることが望ましい基準
 
@@ -378,4 +378,4 @@ BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面�
 - オープンソースの同期サーバー実装を提供していること。
 - [プライベートな検索エンジン](search-engines.md)をデフォルトで設定していること。
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Braveの実装は[Brave プライバシーアップデートで詳しく説明されています: プライバシーのためのネットワーク状態のパーティショニング](https://brave.com/privacy-updates/14-partitioning-network-state)
