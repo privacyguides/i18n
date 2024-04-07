@@ -53,11 +53,11 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
 
 BraveはChromiumウェブブラウザープロジェクトに基づいて構築されているため、使い慣れた使用感があるほか、ウェブサイトの互換性問題を最小限に抑えられます。
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: ホームページ](https://brave.com/ja/){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://support.brave.com/hc/en-us/categories/360006507272){ .card-link title=ドキュメント}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="ソースコード" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -69,7 +69,7 @@ BraveはChromiumウェブブラウザープロジェクトに基づいて構築�
 
 </div>
 
-#### Recommended Brave Configuration
+#### 推奨するBraveの設定
 
 本当に匿名でインターネットを閲覧する唯一の方法は、Tor Browserを使うことです。 Braveを使用する際は、特定の相手からプライバシーを保護するために以下の設定を変更することをお勧めしますが、 [Tor Browser](tor.md#tor-browser) 以外のブラウザーについては、*誰か*が何らかの形で追跡することができます。
 
