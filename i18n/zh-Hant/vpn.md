@@ -65,7 +65,7 @@ global:
 
 #### :material-check:{ .pg-green } 91 個國家
 
-Proton VPN 在 [88 個國家/地區設有伺服器](https://protonvpn.com/vpn-servers)，[免費方案則為 5 國](https://protonvpn.com/free-vpn)。 (1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 上次檢查日期：2024-04-02

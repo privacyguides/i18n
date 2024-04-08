@@ -65,7 +65,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 #### :material-check:{ .pg-green } 91 Países
 
-Proton VPN tiene [servidores en 91 países](https://protonvpn.com/vpn-servers) [u 8 su usas el plan gratuito](https://protonvpn.com/free-vpn).(1) Eligiendo un proveedor de VPN con un servidor cerca tuyo reduce la latencia del tráfico de red saliente. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
 1. Última revisión: 2024-04-02
