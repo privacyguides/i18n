@@ -90,6 +90,7 @@ SearXNG 是您和它所聚合的搜尋引擎之間的代理。 您的搜尋查�
 **Startpage**為私密搜尋引擎，提供[Google 與 Bing](https://support.startpage.com/hc/en-us/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) 的搜尋結果。  Startpage 的獨特功能之一是 [匿名視圖](https://startpage.com/en/anonymous-view/) ，它努力標準化用戶活動，使其更難被突出識別。 這個功能可用來隱藏 [某些](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) 網路與瀏覽器特徵。 不像名字所暗示的，該功能不應該依賴於匿名。 如果您正在尋找匿名性，請改用 [Tor瀏覽器](tor.md#tor-browser)。
 
 [:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
@@ -97,16 +98,11 @@ SearXNG 是您和它所聚合的搜尋引擎之間的代理。 您的搜尋查�
 
 </div>
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-Startpage 定期限制服務對某些 IP位址的存取，例如為 VPN 或Tor 保留的IP。 [DuckDuckGo](#duckduckgo) 和 [Brave Search](#brave-search) 是更友好的選項，如果您的威脅模型需要向搜索提供商隱藏您的IP位址。
-
-</div>
-
 Startpage位於荷蘭。 根據他們的 [隱私政策](https://startpage.com/en/privacy-policy)，他們記錄細節如：作業系統、瀏覽器類型和語言。 他們不會記錄您的IP位址、搜尋查詢或其他個人識別資訊。
 
-Startpage 大股東是System1，它是一家廣告技術公司。 我們不認為這是問題，因為他們有明顯分開的 [隱私政策](https://system1.com/terms/privacy-policy)。 Privacy Guides 團隊[2020年聯繫 Startpage ](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage)，以消除對 System1對該服務大量投資的擔憂。 我們對收到的答案感到滿意。
+Startpage 大股東是System1，它是一家廣告技術公司。 我們不認為這是問題，因為他們有明顯分開的 [隱私政策](https://system1.com/terms/privacy-policy)。 The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
+
+Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
 
 ## 標準
 

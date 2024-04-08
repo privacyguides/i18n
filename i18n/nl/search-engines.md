@@ -90,6 +90,7 @@ Wanneer je een SearXNG-instantie gebruikt, moet je zeker hun privacybeleid lezen
 **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) search results.  One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. In tegenstelling tot wat de naam suggereert, mag deze functie niet worden gebruikt voor anonimiteit. Als u op zoek bent naar anonimiteit, gebruik dan de [Tor Browser](tor.md#tor-browser).
 
 [:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
@@ -97,16 +98,11 @@ Wanneer je een SearXNG-instantie gebruikt, moet je zeker hun privacybeleid lezen
 
 </div>
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-Startpage beperkt regelmatig de toegang tot de dienst tot bepaalde IP adressen, zoals IPs gereserveerd voor VPNs of Tor. [DuckDuckGo](#duckduckgo) en [Brave Search](#brave-search) zijn vriendelijker opties als jouw dreigingsmodel vereist dat je jouw IP-adres verbergt voor de zoekprovider.
-
-</div>
-
 Startpage is gevestigd in Nederland. According to their [privacy policy](https://startpage.com/en/privacy-policy), they log details such as: operating system, type of browser, and language. Zij slaan jouw IP-adres, zoekopdrachten of andere persoonlijk identificeerbare informatie niet op.
 
-Startpage's meerderheidsaandeelhouder is System1, een adtech bedrijf. Wij denken niet dat dit een probleem is, aangezien zij een duidelijk gescheiden [privacybeleid hebben](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service. We waren tevreden met de antwoorden die we kregen.
+Startpage's meerderheidsaandeelhouder is System1, een adtech bedrijf. Wij denken niet dat dit een probleem is, aangezien zij een duidelijk gescheiden [privacybeleid hebben](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
+
+Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
 
 ## Criteria
 

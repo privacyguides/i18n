@@ -90,6 +90,7 @@ SearXNG — это прокси между пользователями и по�
 **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) search results.  One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. Несмотря на название, на эту функцию не следует полагаться для обеспечения анонимности. Если вам нужна анонимность, используйте [Tor Browser](tor.md#tor-browser).
 
 [:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
@@ -97,16 +98,11 @@ SearXNG — это прокси между пользователями и по�
 
 </div>
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Предупреждение</p>
-
-Startpage регулярно ограничивает доступ к сервису для определенных IP-адресов, например, IP-адресов, зарезервированных для VPN или Tor. [DuckDuckGo](#duckduckgo) и [Brave Search](#brave-search) являются более дружественными вариантами, если ваша модель угроз требует скрытия вашего IP-адреса от поставщика поиска.
-
-</div>
-
 Startpage базируется в Нидерландах. According to their [privacy policy](https://startpage.com/en/privacy-policy), they log details such as: operating system, type of browser, and language. Они не хранят ваш IP-адрес, поисковые запросы или другую идентифицирующую вас информацию.
 
-Основным акционером Startpage является компания System1, занимающаяся рекламными технологиями. Мы не считаем это проблемой, поскольку у них есть отдельная [политика конфиденциальности](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service. Мы были удовлетворены полученными ответами.
+Основным акционером Startpage является компания System1, занимающаяся рекламными технологиями. Мы не считаем это проблемой, поскольку у них есть отдельная [политика конфиденциальности](https://system1.com/terms/privacy-policy). The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
+
+Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
 
 ## Критерии
 

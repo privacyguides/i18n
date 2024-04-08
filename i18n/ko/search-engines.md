@@ -90,6 +90,7 @@ SearXNG 인스턴스를 사용하는 경우에는 해당 인스턴스의 프라�
 **Startpage** is a private search engine known for serving [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) search results.  One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. 단, 명칭과는 다르게 해당 기능은 익명성 면에서 의존해서는 안 됩니다. 익명성이 필요한 경우에는 [Tor 브라우저](tor.md#tor-browser)를 사용하세요.
 
 [:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
 
@@ -97,16 +98,11 @@ SearXNG 인스턴스를 사용하는 경우에는 해당 인스턴스의 프라�
 
 </div>
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-Startpage는 VPN이나 Tor에서 쓰이는 IP 등 특정 IP 주소를 자주 차단합니다. 위협 모델상 검색 서비스 제공 업체에게 IP를 노출하지 않고자 하는 분의 경우, [DuckDuckGo](#duckduckgo), [Brave Search](#brave-search)가 더 편리한 선택입니다.
-
-</div>
-
 Startpage 본사는 네덜란드에 위치하고 있습니다. According to their [privacy policy](https://startpage.com/en/privacy-policy), they log details such as: operating system, type of browser, and language. IP 주소, 검색 쿼리 및 그 외 개인 식별 정보는 기록하지 않습니다.
 
-Startpage 대주주는 System1이라는 애드테크 회사입니다. 별도의 [프라이버시 정책](https://system1.com/terms/privacy-policy)을 가지고 있으므로 문제가 되지는 않을 것으로 판단됩니다. The Privacy Guides team reached out to Startpage [back in 2020](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service. Privacy Guides 팀은 해당 답변에 납득했습니다.
+Startpage 대주주는 System1이라는 애드테크 회사입니다. 별도의 [프라이버시 정책](https://system1.com/terms/privacy-policy)을 가지고 있으므로 문제가 되지는 않을 것으로 판단됩니다. The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
+
+Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
 
 ## 평가 기준
 
