@@ -84,6 +84,7 @@ Gran parte dei [pacchetti di Arch Linux](https://reproducible.archlinux.org) son
 I **Fedora Atomic Desktops** sono varianti di Fedora che utilizzano il gestore di pacchetti `rpm-ostree` e sono fortemente incentrati sui flussi di lavoro containerizzati e su Flatpak per le applicazioni desktop. Tutte queste varianti seguono lo stesso programma di rilascio di Fedora Workstation, beneficiando degli stessi aggiornamenti veloci e restando molto vicine alla versione a monte.
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title=Documentation}
 [:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
 </details>

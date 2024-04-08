@@ -39,11 +39,11 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 
 **addy.io** te permite crear 10 alias de dominio en un dominio compartido de forma gratuita, o alias "estándar" ilimitados, que son menos anónimos.
 
-[:octicons-home-16: Página Principal](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://app.addy.io/docs){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://addy.io/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -57,7 +57,7 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 
 </div>
 
-El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de 1$/mes e ilimitado en el plan de 4$/mes (facturado en 3$ por un año). You can create unlimited standard aliases which end in a domain like @[username].addy.io or a custom domain on paid plans. However, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [auditó](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io en septiembre de 2023 y no [se identificaron] vulnerabilidades significativas(https\://addy.io/addy-io-security-audit.pdf).
+El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de 1$/mes e ilimitado en el plan de 4$/mes (facturado en 3$ por un año). You can create unlimited standard aliases which end in a domain like @[username].addy.io or a custom domain on paid plans. However, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [auditó](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io en septiembre de 2023 y no [se identificaron] vulnerabilidades significativas(https://addy.io/addy-io-security-audit.pdf).
 
 Funciones gratuitas destacables:
 

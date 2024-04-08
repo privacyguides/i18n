@@ -105,7 +105,7 @@ Dit is nodig om geavanceerde vormen van tracking te voorkomen, maar gaat wel ten
 
 ### Mullvad Leta
 
-Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekmachine](search-engines.md), maar het komt ook voorgeïnstalleerd met **Mullvad Leta**, een zoekmachine die een actief Mullvad VPN-abonnement vereist om toegang te krijgen. Mullvad Leta bevraagt de betaalde zoek-API van Google rechtstreeks (daarom is het beperkt tot betalende abonnees), maar door deze beperking is het mogelijk voor Mullvad om zoekopdrachten en Mullvad VPN-accounts te correleren. Daarom raden wij het gebruik van Mullvad Leta af, ook al verzamelt Mullvad zeer weinig informatie over hun VPN-abonnees.
+Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekmachine](search-engines.md), maar het komt ook voorgeïnstalleerd met **Mullvad Leta**, een zoekmachine die een actief Mullvad VPN-abonnement vereist om toegang te krijgen. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Daarom raden wij het gebruik van Mullvad Leta af, ook al verzamelt Mullvad zeer weinig informatie over hun VPN-abonnees.
 
 ## Firefox
 
@@ -117,7 +117,7 @@ Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekma
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
@@ -146,11 +146,18 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen**
 
 #### Zoeken
 
-- [ ] Uncheck **Geef zoeksuggesties**
+- [ ] Uncheck **Show search suggestions**
 
 Functies voor zoeksuggesties zijn mogelijk niet beschikbaar in jouw regio.
 
 Zoeksuggesties sturen alles wat je in de adresbalk typt naar de standaardzoekmachine, ongeacht of je een echte zoekopdracht geeft. Door zoeksuggesties uit te schakelen, kun je nauwkeuriger bepalen welke gegevens je naar jouw zoekmachineprovider stuurt.
+
+##### Firefox stelt voor (alleen VS)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Wij raden aan dit uit te schakelen om dezelfde reden als waarom wij aanraden zoeksuggesties uit te schakelen. Als je deze opties niet ziet onder de kop **Adresbalk**, hebt je de nieuwe ervaring niet en kun je deze wijzigingen negeren.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Deselecteer **Suggesties van sponsors**
 
 #### Privacy & beveiliging
 
@@ -159,13 +166,6 @@ Zoeksuggesties sturen alles wat je in de adresbalk typt naar de standaardzoekmac
 - [x] Select **Strict** Verbeterde traceringsbescherming
 
 Dit beschermt je door het blokkeren van social media trackers, fingerprinting scripts (merk op dat dit je niet beschermt tegen *alle* fingerprinting), cryptominers, cross-site tracking cookies, en sommige andere tracking content. ETP beschermt tegen veel voorkomende bedreigingen, maar blokkeert niet alle tracking-wegen omdat het is ontworpen om de bruikbaarheid van de site zo min mogelijk of helemaal niet te beïnvloeden.
-
-##### Firefox stelt voor (alleen VS)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Wij raden aan dit uit te schakelen om dezelfde reden als waarom wij aanraden zoeksuggesties uit te schakelen. Als je deze opties niet ziet onder de kop **Adresbalk**, hebt je de nieuwe ervaring niet en kun je deze wijzigingen negeren.
-
-- [ ] Deselecteer **Accepteer cookies van sites**
-- [ ] Deselecteer **Suggesties van sponsors**
 
 ##### Saneren bij sluiten
 
@@ -183,7 +183,7 @@ Dit beschermt je tegen blijvende cookies, maar niet tegen cookies die tijdens ee
 
 > Firefox stuurt ons gegevens over jouw Firefox-versie en -taal; besturingssysteem van het apparaat en hardwareconfiguratie; geheugen, basisinformatie over crashes en fouten; resultaat van geautomatiseerde processen zoals updates, veilig browsen en activering. Wanneer Firefox gegevens naar ons verzendt, wordt uw IP-adres tijdelijk verzameld als onderdeel van onze serverlogs.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). Als je een Firefox-account gebruikt, kun je je afmelden:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. Open jouw [profielinstellingen op accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Schakel **Gegevensverzameling en -gebruik uit** > **Help Firefox-accounts verbeteren**

@@ -123,7 +123,7 @@ GrapheneOS 提供額外的 [安全加固](https://en.wikipedia.org/wiki/Hardenin
 
 GrapheneOS 支援 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), 它可以像其它普通應用一樣在沙盒中執行[Google Play 服務](https://en.wikipedia.org/wiki/Google_Play_Services) 。 這意味可利用大多數 Google Play 服務，如 [推送通知](https://firebase.google.com/docs/cloud-messaging)，完全控制其權限和訪問，同時將其包含所選的特定 [工作設定檔](os/android-overview.md#work-profile) 或 [用戶設定檔](os/android-overview.md#user-profiles)。
 
-Google Pixel 手機是目前唯一符合 GrapheneOS [硬體安全要求](https://grapheneos.org/faq#device-support)的設備。
+Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
 
 [為何我們推薦 GrapheneOS 而非 CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos ""){.md-button}
 
@@ -269,7 +269,7 @@ Shelter 阻止聯繫人利用默認檔案管理器([DocumentsUI](https://source.
 
 目前影片沒有刪除中繼資料，未來計畫要刪除。
 
-圖片方向的中繼資料未刪除。 如果 (Secure Camera) 開啟定位， 也 **不會** 被不會偵測到。 如果之後想刪除，必須使用外部應用如[ExifEraser](data-redaction.md#exiferaser)。
+圖片方向的中繼資料未刪除。 如果 (Secure Camera) 開啟定位， 也 **不會** 被不會偵測到。 If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser-android).
 
 </div>
 
@@ -310,6 +310,7 @@ Shelter 阻止聯繫人利用默認檔案管理器([DocumentsUI](https://source.
 **Obtainium** 應用管理器可以直接透過開發者自己的發佈頁來安裝與更新應用。(例如 GitHub, GitLab 等等.), 取代集中式的應用商店或代碼儲存庫。  在 Android 12 以上版本，可支援自動背景更新。
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
 
@@ -351,7 +352,7 @@ Google Play商店需要登錄 Google 帳戶，這對隱私來說不是很好。 
 
 </div>
 
-Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇使用 Google 帳戶登錄 Aurora Store 來下載所購買的應用程式，這確實可以訪問您的 Google 安裝應用程式列表，但是設備仍可無需完整的Google Play 客戶端、Google Play 服務或microG。
+Aurora Store不允許其匿名帳戶下載付費應用程式。 You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### 手動使用 RSS 通知
 
@@ -417,7 +418,7 @@ Aurora Store不允許其匿名帳戶下載付費應用程式。 您可以選擇�
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-在某些罕見情況下，應用程式開發者將只通過 F-droid 發布（[Gadgetbridge](https://gadgetbridge.org)就是一例。) 如果真需要這樣的應用程式，建議使用 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) ，而不是從官方的 F-droid 應用程式來獲得。 F-Droid Basic 可以進行無需特權或 root 的更新，且具降低的功能集（限制攻擊面）。
+在某些罕見情況下，應用程式開發者將只通過 F-droid 發布（[Gadgetbridge](https://gadgetbridge.org)就是一例。) 如果真需要這樣的應用程式，建議使用 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic/) ，而不是從官方的 F-droid 應用程式來獲得。 F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
 
 </div>
 

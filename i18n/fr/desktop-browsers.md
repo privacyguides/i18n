@@ -105,7 +105,7 @@ Ceci est nécessaire pour empêcher les formes avancées de pistage, mais se fai
 
 ### Mullvad Leta
 
-Le navigateur Mullvad est livré avec DuckDuckGo comme [moteur de recherche](search-engines.md) par défaut, mais il est également préinstallé avec **Mullvad Leta**, un moteur de recherche qui nécessite un abonnement VPN Mullvad actif pour y accéder. Mullvad Leta interroge directement l'API de recherche payante de Google (c'est pourquoi il est limité aux abonnés payants). Cependant, en raison de cette limitation, il est possible pour Mullvad d'établir une corrélation entre les requêtes de recherche et les comptes VPN Mullvad. C'est pourquoi nous déconseillons l'utilisation de Mullvad Leta, même si Mullvad recueille très peu d'informations sur ses abonnés VPN.
+Le navigateur Mullvad est livré avec DuckDuckGo comme [moteur de recherche](search-engines.md) par défaut, mais il est également préinstallé avec **Mullvad Leta**, un moteur de recherche qui nécessite un abonnement VPN Mullvad actif pour y accéder. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. C'est pourquoi nous déconseillons l'utilisation de Mullvad Leta, même si Mullvad recueille très peu d'informations sur ses abonnés VPN.
 
 ## Firefox
 
@@ -117,7 +117,7 @@ Le navigateur Mullvad est livré avec DuckDuckGo comme [moteur de recherche](sea
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
@@ -146,11 +146,18 @@ Ces options se trouvent dans :material-menu: → **Paramètres**
 
 #### Recherche
 
-- [ ] Décochez **Fournir des suggestions de recherche**
+- [ ] Uncheck **Show search suggestions**
 
 Les fonctionnalités de suggestion de recherche peuvent ne pas être disponibles dans votre région.
 
 Les suggestions de recherche envoient tout ce que vous tapez dans la barre d'adresse au moteur de recherche par défaut, que vous lanciez ou non une recherche. La désactivation des suggestions de recherche vous permet de contrôler plus précisément les données que vous envoyez à votre fournisseur de moteur de recherche.
+
+##### Suggestions Firefox (États-Unis uniquement)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Nous recommandons de les désactiver pour la même raison que nous recommandons de désactiver les suggestions de recherche. Si vous ne voyez pas ces options dans l'en-tête de la **barre d'adresse**, c'est que vous n'avez pas la nouvelle expérience et que vous pouvez ignorer ces changements.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Décochez **Suggestions des sponsors**
 
 #### Confidentialité & sécurité
 
@@ -159,13 +166,6 @@ Les suggestions de recherche envoient tout ce que vous tapez dans la barre d'adr
 - [x] Sélectionnez **Stricte** Protection renforcée contre le pistage
 
 Cela vous protège en bloquant les traceurs de réseaux sociaux, les scripts de prise d'empreinte (notez que cela ne vous protège pas de *toutes* les prises d'empreinte), les cryptomineurs, les cookies de suivi intersites et certains autres contenus de suivi. La PRT protège de nombreuses menaces courantes, mais ne bloque pas tous les moyens de suivi, car il est conçu pour avoir un impact minimal, voire nul, sur l'utilisation du site.
-
-##### Suggestions Firefox (États-Unis uniquement)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Nous recommandons de les désactiver pour la même raison que nous recommandons de désactiver les suggestions de recherche. Si vous ne voyez pas ces options dans l'en-tête de la **barre d'adresse**, c'est que vous n'avez pas la nouvelle expérience et que vous pouvez ignorer ces changements.
-
-- [ ] Décochez **Suggestions du web**
-- [ ] Décochez **Suggestions des sponsors**
 
 ##### Supprimer à la fermeture
 
@@ -183,7 +183,7 @@ Cela vous protège contre les cookies persistants, mais ne vous protège pas con
 
 > Firefox nous envoie des données sur la version et la langue de votre Firefox ; le système d'exploitation de l'appareil et la configuration matérielle ; la mémoire, les informations de base sur les plantages et les erreurs; les résultats de processus automatisés tels que les mises à jour, la navigation sécurisée et l'activation de notre système. Lorsque Firefox nous envoie des données, votre adresse IP est temporairement collectée dans les journaux de notre serveur.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). Si vous utilisez un compte Firefox, vous pouvez la refuser :
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. Ouvrez les [paramètres de votre profil sur accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Décochez **Collecte et utilisation de données** > **Aidez à améliorer les comptes Firefox**

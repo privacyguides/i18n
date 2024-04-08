@@ -84,6 +84,7 @@ Arch Linux有一个滚动的发布周期。 没有固定的发布时间表，软
 **Fedora Atomic Desktops** are variants of Fedora which use the `rpm-ostree` package manager and have a strong focus on containerized workflows and Flatpak for desktop applications. All of these variants follow the same release schedule as Fedora Workstation, benefiting from the same fast updates and staying very close to upstream.
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title=Documentation}
 [:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
 </details>

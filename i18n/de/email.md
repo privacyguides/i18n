@@ -72,7 +72,7 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 
 Kostenlose Konten haben einige Einschränkungen, wie z. B. die fehlende Möglichkeit Text zu durchsuchen und keinen Zugang zu [Proton Mail Bridge](https://proton.me/mail/bridge). Diese ist für die Verwendung eines [empfohlenen Desktop-E-Mail-Programms](email-clients.md) (z. B. Thunderbird) erforderlich. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und die Nutzung eigener Domains. Am 9. November 2021 wurden durch [Securitum](https://research.securitum.com) ein Sicherheitsaudit durchgeführt und  die Anwendungen von Proton Mail [zertifiziert](https://proton.me/blog/security-audit-all-proton-apps).
 
-Wenn du den Proton Unlimited, Business oder Visionary Tarif nutzt, erhältst du zusätzlich [SimpleLogin](email-aliasing.md#simplelogin) Premium kostenlos dazu.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail hat interne Absturzberichte, die sie **nicht** mit Dritten teilen. Die Absturzberichte können in den Einstellungen deaktiviert werden: **Einstellungen** > **Gehe zu Einstellungen** > **Konto** > **Sicherheit und Datenschutz** > **Absturzberichte senden**.
 
@@ -137,7 +137,7 @@ Bei Mailbox.org kannst du deine eigene Domain verwenden, und es werden [Catch-Al
 
 #### :material-check:{ .pg-green } Diskrete Zahlungsmöglichkeiten
 
-Mailbox.org akzeptiert keine Kryptowährungen, da deren Zahlungsanbieter BitPay seinen Betrieb in Deutschland eingestellt hat. Sie akzeptieren jedoch Bargeld per Post, Barzahlung auf ein Bankkonto, Banküberweisung, Kreditkarte, PayPal und einige Deutschland spezifische Anbieter: paydirekt und Sofortüberweisung.
+Mailbox.org akzeptiert keine Kryptowährungen, da deren Zahlungsanbieter BitPay seinen Betrieb in Deutschland eingestellt hat. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
@@ -157,7 +157,7 @@ Mailbox.org unterstützt auch die Suche nach öffentlichen Schlüsseln über HTT
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
-Ihr Konto wird bei Vertragsende auf ein eingeschränktes Benutzerkonto umgestellt, nach [30 Tagen wird es unwiderruflich gelöscht](https://kb.mailbox.org/de/privat/ihr-account-bei-mailbox-org/mailbox-org-bezahlen#mailbox.orgbezahlen-MeineVertragslaufzeitistabgelaufen-wasjetzt?).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 

@@ -19,7 +19,7 @@ cover: calendar.webp
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
@@ -44,11 +44,11 @@ cover: calendar.webp
 
 ！[Proton](aassets/img/calendar/proton-calendar.svg)}=right }
 
-**Proton Calendar** 是一个通过网络或移动客户提供给Proton成员的加密日历服务。 功能包括：所有数据的自动E2EE，共享功能，导入/导出功能，多因素认证，以及 [more]（https://proton.me/support/proton-calendar-guide/）。 Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 扩展的分享功能也仅限于付费用户。
+**Proton Calendar** 是一个通过网络或移动客户提供给Proton成员的加密日历服务。 功能包括：所有数据的自动E2EE，共享功能，导入/导出功能，多因素认证，以及 [more]（https://proton.me/support/proton-calendar-guide/）。 Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 扩展的分享功能也仅限于付费用户。
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>

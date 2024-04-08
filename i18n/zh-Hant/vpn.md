@@ -172,7 +172,7 @@ IVPN [建議](https://ivpn.net/wireguard)搭配 WireGuard 使用，IVPN 在所�
 
 #### :material-information-outline:{ .pg-blue } 支援 IPv6
 
-IVPN 允許您[透過 IPv6 連接到服務](https://www.ivpn.net/knowledgebase/general/do-you-support-ipv6)，但無法從僅支援 IPv6 的裝置連線。
+IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 

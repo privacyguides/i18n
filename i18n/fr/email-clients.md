@@ -10,7 +10,7 @@ Notre liste de recommandations contient des clients d'e-mail qui prennent en cha
 <details class="warning" markdown>
 <summary>L'e-mail n'assure pas la confidentialité persistante</summary>
 
-Lorsque l'on utilise une technologie de chiffrement de bout en bout (E2EE) comme OpenPGP, les e-mails contiennent toujours [certaines métadonnées](email.md#email-metadata-overview) dans l'en-tête de l'e-mail qui ne sont pas chiffrées.
+When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
 
 OpenPGP ne prend pas non plus en charge la [confidentialité persistante](https://en.wikipedia.org/wiki/Forward_secrecy), ce qui signifie que si votre clé privée ou celle du destinataire est volée, tous les messages précédents chiffrés avec cette clé seront exposés : [comment protéger mes clés privées ?](basics/email-security.md) Envisagez d'utiliser un support qui assure la confidentialité persistante :
 
@@ -62,7 +62,7 @@ Ces options se trouvent dans :material-menu: → **Paramètres** → **Confident
 
 #### Thunderbird-user.js (avancé)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), est un ensemble d'options de configuration qui vise à désactiver le plus grand nombre possible de fonctions de navigation web dans Thunderbird afin de réduire la surface d'attaque et de préserver la confidentialité. Certains changements sont rétroportés depuis le [projet Arkenfox](https://github.com/arkenfox/user.js).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. Certains changements sont rétroportés depuis le [projet Arkenfox](https://github.com/arkenfox/user.js).
 
 ## Spécifique à une plateforme
 
@@ -94,7 +94,7 @@ Apple Mail a la possibilité de charger le contenu distant en arrière-plan ou d
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>

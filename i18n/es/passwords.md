@@ -337,17 +337,13 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
 
 Además, hay una versión solo sin conexión: [Strongbox Cero](https://apps.apple.com/app/id1581589638). Esta versión tiene solo lo básico para reducir la superficie de ataque.
 
-### Línea de comandos
-
-Estos productos son administradores de contraseñas mínimos que se pueden utilizar dentro de las aplicaciones de scripting.
-
-#### gopass
+### gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
 ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** es un gestor de contraseñas para línea de comandos escrito en Go. Funciona en los principales sistemas operativos de escritorio y servidor (Linux, macOS, BSD, Windows).
+**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
 
 [:octicons-home-16: Página Principal](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentación}

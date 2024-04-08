@@ -337,17 +337,13 @@ KeePassXC menyimpan data ekspornya sebagai file [CSV](https://en.wikipedia.org/w
 
 Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Versi ini sudah diminimalkan dalam upaya untuk mengurangi permukaan serangan.
 
-### Baris perintah
-
-Produk-produk ini adalah pengelola kata sandi minimal yang dapat digunakan dalam aplikasi skrip.
-
-#### gopass
+### gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![logo gopass](assets/img/password-management/gopass.svg){ align=right }
+![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** adalah pengelola kata sandi untuk baris perintah yang ditulis dalam Go. Aplikasi ini bekerja pada semua sistem operasi desktop dan server utama (Linux, macOS, BSD, Windows).
+**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}

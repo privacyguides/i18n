@@ -84,6 +84,7 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 **Fedora Atomic Desktops** 是 Fedora 的變體，它使用「rpm-ostree」套件管理器，專注於容器化工作流程和桌面應用程式的 Flatpak。 這些變體版都遵循 Fedora Workstation 同樣的發佈時間表，受益於相同的快速更新並保持非常接近上遊。
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title=Documentation}
 [:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
 </details>

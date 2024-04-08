@@ -105,7 +105,7 @@ Esto es necesario para evitar formas avanzadas de rastreo, pero a costa de la co
 
 ### Mullvad Leta
 
-Mullvad Browser viene con DuckDuckGo configurado como [motor de búsqueda](search-engines.md) por defecto, pero también viene preinstalado con **Mullvad Leta**, un motor de búsqueda que requiere una suscripción activa a Mullvad VPN para poder acceder. Mullvad Leta consulta directamente la API de búsqueda de pago de Google (razón por la cual está limitada a los suscriptores de pago), sin embargo, debido a esta limitación, es posible que Mullvad correlacione las consultas de búsqueda y las cuentas VPN de Mullvad. Por este motivo, desaconsejamos el uso de Mullvad Leta, a pesar de que Mullvad recopila muy poca información sobre sus suscriptores de VPN.
+Mullvad Browser viene con DuckDuckGo configurado como [motor de búsqueda](search-engines.md) por defecto, pero también viene preinstalado con **Mullvad Leta**, un motor de búsqueda que requiere una suscripción activa a Mullvad VPN para poder acceder. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Por este motivo, desaconsejamos el uso de Mullvad Leta, a pesar de que Mullvad recopila muy poca información sobre sus suscriptores de VPN.
 
 ## Firefox
 
@@ -115,11 +115,11 @@ Mullvad Browser viene con DuckDuckGo configurado como [motor de búsqueda](searc
 
 **Firefox** brinda una configuración fuerte de privacidad como la [Protección de Rastreo Mejorada](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), que puede ayudar con el bloqueo de varios [tipos de rastreadores](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-[:octicons-home-16: Página Principal](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentación}
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -146,11 +146,18 @@ Estas opciones se encuentran en :material-menu: → **Ajustes**
 
 #### Buscar
 
-- [ ] Desmarca **Proporcionar sugerencias de búsqueda**
+- [ ] Uncheck **Show search suggestions**
 
 Es posible que las funciones de sugerencia de búsqueda no estén disponibles en tu región.
 
 Las sugerencias de búsqueda envían todo lo que escribes en la barra de direcciones al motor de búsqueda predeterminado, independientemente de si realizas una búsqueda real. Desactivar las sugerencias de búsqueda te permite controlar con mayor precisión los datos que envías al proveedor de tu motor de búsqueda.
+
+##### Firefox Suggest (solo en EE. UU.)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) es una función similar a las sugerencias de búsqueda que solo está disponible en Estados Unidos. Recomendamos desactivarlo por la misma razón que recomendamos desactivar las sugerencias de búsqueda. Si no ves estas opciones en lel encabezado de la **Barra de Direcciones**, no tienes la nueva experiencia y puedes ignorar estos cambios.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Desmarque **Suggestions from sponsors**
 
 #### Privacidad y seguridad
 
@@ -159,13 +166,6 @@ Las sugerencias de búsqueda envían todo lo que escribes en la barra de direcci
 - [x] Selecciona **Estricto** Protección de seguimiento mejorada
 
 Esto te protege bloqueando los rastreadores de redes sociales, las secuencias de comandos de huellas digitales (ten en cuenta que esto no te protege de *todas* las huellas digitales), los criptomineros, las cookies de rastreo de sitios cruzados y algunos otros contenidos de rastreo. ETP protege contra muchas amenazas comunes, pero no bloquea todas las vías de rastreo porque está diseñado para tener un impacto mínimo o nulo en la usabilidad del sitio.
-
-##### Firefox Suggest (solo en EE. UU.)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) es una función similar a las sugerencias de búsqueda que solo está disponible en Estados Unidos. Recomendamos desactivarlo por la misma razón que recomendamos desactivar las sugerencias de búsqueda. Si no ves estas opciones en lel encabezado de la **Barra de Direcciones**, no tienes la nueva experiencia y puedes ignorar estos cambios.
-
-- [ ] Desmarca **Suggestions from the web**
-- [ ] Desmarque **Suggestions from sponsors**
 
 ##### Desinfectar al cerrar
 
@@ -183,7 +183,7 @@ Esto te protege de las cookies persistentes, pero no te protege de las cookies a
 
 > Firefox envía datos sobre tu versión e idioma de Firefox; sistema operativo del dispositivo y configuración del hardware; memoria, información básica sobre fallos y errores; resultado de procesos automatizados como actualizaciones, navegación segura y activación. Cuando Firefox envía datos, tu dirección IP se recoge temporalmente como parte de los registros de nuestro servidor.
 
-Además, el servicio Firefox Accounts recopila [algunos datos técnicos](https://mozilla.org/privacy/firefox/#firefox-accounts). Si usas una cuenta de Firefox, puedes excluir:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. Abre la [configuración de tu perfil en accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Desmarca **Recopilación y uso de datos** > **Ayuda a mejorar Cuentas de Firefox**

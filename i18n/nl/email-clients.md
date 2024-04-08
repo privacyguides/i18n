@@ -10,7 +10,7 @@ Onze aanbevelingslijst bevat e-mailcliënten die zowel [OpenPGP](encryption.md#o
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
+When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
 
 OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
 
@@ -62,7 +62,7 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen** → **Privacy
 
 #### Thunderbird-user.js (geavanceerd)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), is een set van configuratie-opties die erop gericht is zoveel mogelijk van de web-browsing functies binnen Thunderbird uit te schakelen om de aanvals oppervlakte te verkleinen en de privacy te behouden. let op
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. let op
 
 ## Platform specifiek
 
@@ -94,7 +94,7 @@ Apple Mail heeft de mogelijkheid om inhoud op afstand op de achtergrond te laden
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

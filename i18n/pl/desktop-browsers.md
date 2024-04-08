@@ -105,7 +105,7 @@ Jest to wymagane, aby zapobiec zaawansowanym formom śledzenia, ale odbywa się 
 
 ### Mullvad Leta
 
-Mullvad Browser jest dostarczany z DuckDuckGo ustawionym jako domyślna wyszukiwarka [](search-engines.md), ale jest również preinstalowany z **Mullvad Leta**, wyszukiwarką, która wymaga aktywnej subskrypcji Mullvad VPN, aby uzyskać do niej dostęp. Mullvad Leta bezpośrednio odpytuje interfejs API płatnego wyszukiwania Google (dlatego jest ograniczony do płatnych subskrybentów), jednak z powodu tego ograniczenia Mullvad może powiązać zapytania wyszukiwania i konta użytkowników Mullvad VPN. Z tego powodu odradzamy korzystanie z Mullvad Leta, mimo że Mullvad zbiera bardzo mało informacji o swoich subskrybentach VPN.
+Mullvad Browser jest dostarczany z DuckDuckGo ustawionym jako domyślna wyszukiwarka [](search-engines.md), ale jest również preinstalowany z **Mullvad Leta**, wyszukiwarką, która wymaga aktywnej subskrypcji Mullvad VPN, aby uzyskać do niej dostęp. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Z tego powodu odradzamy korzystanie z Mullvad Leta, mimo że Mullvad zbiera bardzo mało informacji o swoich subskrybentach VPN.
 
 ## Firefox
 
@@ -117,7 +117,7 @@ Mullvad Browser jest dostarczany z DuckDuckGo ustawionym jako domyślna wyszukiw
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
@@ -146,11 +146,18 @@ Opcje te można znaleźć na stronie :material-menu: → **Ustawienia**
 
 #### Wyszukiwarka
 
-- [ ] Usuń zaznaczenie **Podaj sugestie wyszukiwania**
+- [ ] Uncheck **Show search suggestions**
 
 Funkcje sugestii wyszukiwania mogą być niedostępne w danym regionie.
 
 Sugestie wyszukiwania wysyłają wszystko, co wpisujesz w pasku adresu, do domyślnej wyszukiwarki, niezależnie od tego, czy wysyłasz rzeczywiste wyszukiwanie. Wyłączenie sugestii wyszukiwania pozwala bardziej precyzyjnie kontrolować dane wysyłane do dostawcy wyszukiwarki.
+
+##### Firefox Suggest (tylko USA)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie sugestii wyszukiwania. Jeśli nie widzisz tych opcji pod **paskiem adresu strony** , nie masz tej funkcjonalności i możesz zignorować te zmiany.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Usuń zaznaczenie **Sugestie od sponsorów**
 
 #### Prywatność i bezpieczeństwo
 
@@ -159,13 +166,6 @@ Sugestie wyszukiwania wysyłają wszystko, co wpisujesz w pasku adresu, do domy�
 - [x] Wybierz **Ścisła** ochrona przed śledzeniem
 
 Chroni to użytkownika poprzez blokowanie modułów śledzących w mediach społecznościowych, skryptów fingerprinting (należy pamiętać, że nie chroni to przed *wszystkimi* odciskami palców), koparek kryptowalut, plików cookie śledzących różne witryny i niektórych innych treści śledzących. Ochrona przed śledzeniem chroni przed wieloma typowymi zagrożeniami, ale nie blokuje wszystkich ścieżek śledzenia, ponieważ została zaprojektowana tak, aby mieć minimalny lub zerowy wpływ na użyteczność witryny.
-
-##### Firefox Suggest (tylko USA)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie sugestii wyszukiwania. Jeśli nie widzisz tych opcji pod **paskiem adresu strony** , nie masz tej funkcjonalności i możesz zignorować te zmiany.
-
-- [ ] Usuń zaznaczenie **Sugestie z sieci**
-- [ ] Usuń zaznaczenie **Sugestie od sponsorów**
 
 ##### Wyczyść po zamknięciu
 
@@ -183,7 +183,7 @@ Chroni to użytkownika przed trwałymi plikami cookie, ale nie chroni przed plik
 
 > Firefox wysyła o nas dane o wersji i języku Firefoksa, systemie operacyjnym urządzeniach i konfiguracji sprzętowej, pamięci, podstawowe informacje o awariach i błędach oraz wynikach zautomatyzowanych procesów, takich jak aktualizacje, bezpieczne przeglądanie i aktywacja. Gdy przeglądarka Firefox wysyła nasze dane, adres IP użytkownika jest tymczasowo gromadzony w dziennikach serwera.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). Jeśli korzystasz z konta Firefox, możesz z tego zrezygnować:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. Otwórz ustawienia profilu [na accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Usuń zaznaczenie **Gromadzenie i wykorzystywanie danych** > **Pomóż ulepszyć konta Firefox**

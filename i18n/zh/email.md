@@ -72,7 +72,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 免费账户有一些限制，如不能搜索正文，不能访问 [Proton Mail Bridge](https://proton.me/mail/bridge)，这是使用 [推荐的桌面电子邮件客户端](email-clients.md) （如Thunderbird）所需要的。 付费帐户包括Proton Mail Bridge等功能，额外的存储空间和自定义域支持。 2021年11月9日， [Securitum](https://research.securitum.com)，为Proton Mail的应用程序提供了一份 [的证明信](https://proton.me/blog/security-audit-all-proton-apps)。
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 </strong> Proton Mail有内部碰撞报告，他们 **，不与第三方分享。 这可以在以下方面禁用。 **设置** > **转到设置** > **帐户** > **安全和隐私** > **发送崩溃报告**。</p>
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } Private Payment Methods
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. 然而，他们确实接受邮寄现金、向银行账户支付现金、银行转账、信用卡、贝宝和几个德国特有的处理器：Paydirekt和Sofortüberweisung。
+Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Account Security
 
@@ -157,7 +157,7 @@ Mailbox.org also supports the discovery of public keys via HTTP from their [Web 
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 

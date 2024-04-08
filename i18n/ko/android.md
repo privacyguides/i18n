@@ -123,7 +123,7 @@ GraphneOS는 추가적인 [보안 강화](https://en.wikipedia.org/wiki/Hardenin
 
 GrapheneOS는 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) 지원하여, [Google Play 서비스](https://en.wikipedia.org/wiki/Google_Play_Services)를 여타 일반 앱처럼 완벽하게 샌드박스를 적용하여 실행할 수 있습니다. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
-Google Pixel 스마트폰은 현재 GrapheneOS [하드웨어 보안 요구 사항](https://grapheneos.org/faq#device-support)을 충족하는 유일한 기기입니다.
+Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
 
 [CalyxOS보다 GrapheneOS를 추천하는 이유 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos ""){.md-button}
 
@@ -269,7 +269,7 @@ When using Shelter, you are placing complete trust in its developer, as Shelter 
 
 현재 동영상 파일은 메타데이터 제거가 지원되지 않지만, 지원 예정입니다.
 
-이미지 방향 메타데이터는 제거되지 않습니다. (Secure Camera 내에서) 위치 기록을 활성화할 경우, 위치 기록은 제거되지 않습니다. 추후에 제거하려면 [ExifEraser](data-redaction.md#exiferaser) 등의 외부 앱을 사용해야 합니다.
+이미지 방향 메타데이터는 제거되지 않습니다. (Secure Camera 내에서) 위치 기록을 활성화할 경우, 위치 기록은 제거되지 않습니다. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser-android).
 
 </div>
 
@@ -310,6 +310,7 @@ When using Shelter, you are placing complete trust in its developer, as Shelter 
 **Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
 
@@ -351,7 +352,7 @@ Google Play 스토어는 Google 계정 로그인이 필수적이기 때문에 �
 
 </div>
 
-Aurora Store에서는 익명 계정 기능을 사용해 유료 앱은 다운로드 불가능합니다. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google, however you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store에서는 익명 계정 기능을 사용해 유료 앱은 다운로드 불가능합니다. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### Manually with RSS Notifications
 
@@ -417,7 +418,7 @@ That said, the [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](http
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic can do unattended updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
 
 </div>
 

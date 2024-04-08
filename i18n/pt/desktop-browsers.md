@@ -105,7 +105,7 @@ Este procedimento serve para evitar formas avançadas de rastreio, mas sacrifica
 
 ### Mullvad Leta
 
-O Mullvad Browser vem com o motor de pesquisa DuckDuckGo predefinido [](search-engines.md), mas também vem pré-instalado com o **Mullvad Leta**, um motor de pesquisa que requer uma subscrição VPN Mullvad ativa para ser acedido. O Mullvad Leta consulta diretamente a API de pesquisa paga do Google (razão pela qual está limitado a subscritores pagantes). No entanto, devido a essa limitação, é possível ao Mullvad correlacionar as consultas de pesquisa e as contas VPN Mullvad. Por este motivo, desaconselhamos a utilização do Mullvad Leta, apesar do Mullvad recolher muito poucas informações sobre os seus subscritores de VPN.
+O Mullvad Browser vem com o motor de pesquisa DuckDuckGo predefinido [](search-engines.md), mas também vem pré-instalado com o **Mullvad Leta**, um motor de pesquisa que requer uma subscrição VPN Mullvad ativa para ser acedido. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Por este motivo, desaconselhamos a utilização do Mullvad Leta, apesar do Mullvad recolher muito poucas informações sobre os seus subscritores de VPN.
 
 ## Firefox
 
@@ -117,7 +117,7 @@ O **Firefox** possui definições de privacidade fortes, como a [Proteção Melh
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
@@ -146,11 +146,18 @@ Estas opções podem ser encontradas em :material-menu: → **Ajustes...**
 
 #### Pesquisa
 
-- [ ] Desmarque **Mostrar sugestões de pesquisa**
+- [ ] Uncheck **Show search suggestions**
 
 As funcionalidades de sugestão de pesquisa podem não estar disponíveis na sua região.
 
 As sugestões de pesquisa enviam tudo o que escrever na barra de endereço para o motor de pesquisa predefinido, independentemente de efetuar uma pesquisa real. A desativação das sugestões de pesquisa permite-lhe controlar com maior precisão os dados que envia ao seu fornecedor de motores de pesquisa.
+
+##### Firefox Suggest (apenas nos EUA)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Recomendamos a sua desativação pelo mesmo motivo que recomendamos a desativação das sugestões de pesquisa. Se não vir essa opções no cabeçalho da **Barra de endereço**, é porque não dispõe dessa nova experiência, devendo ignorar estas alterações.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Desmarque **Sugestões de patrocinadores**
 
 #### Privacidade & Segurança
 
@@ -159,13 +166,6 @@ As sugestões de pesquisa enviam tudo o que escrever na barra de endereço para 
 - [x] Selecione **Rigorosa** Proteção mais forte
 
 Esta proteção bloqueia rastreadores de redes sociais, scripts de impressões digitais (note que isto não o protege de *todas as impressões digitais*), criptomineradores, cookies de rastreio entre sites e alguns outros conteúdos de rastreio. A Proteção Melhorada contra a monitorização protege-o contra muitas ameaças comuns, mas não bloqueia todos os modos de rastreio, uma vez que foi concebida para ter um impacto mínimo ou nulo na usabilidade do site.
-
-##### Firefox Suggest (apenas nos EUA)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Recomendamos a sua desativação pelo mesmo motivo que recomendamos a desativação das sugestões de pesquisa. Se não vir essa opções no cabeçalho da **Barra de endereço**, é porque não dispõe dessa nova experiência, devendo ignorar estas alterações.
-
-- [ ] Desmarque **Sugestões da web**
-- [ ] Desmarque **Sugestões de patrocinadores**
 
 ##### Higienizar ao fechar
 
@@ -183,7 +183,7 @@ Esta ação protege-o dos cookies persistentes, mas não o protege dos cookies a
 
 > O Firefox envia-nos dados sobre a sua versão e idioma do Firefox; sistema operativo e configuração de hardware do dispositivo; memória, informações básicas sobre falhas e erros; resultado de processos automatizados como atualizações, navegação segura e ativação. Quando o Firefox nos envia dados, o seu endereço IP é temporariamente recolhido como parte dos registos do nosso servidor.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). Se utilizar uma conta Firefox, pode optar por não participar:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. Abra as definições do seu perfil [em accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Desmarque **Recolha e utilização de dados** > **Ajudar a melhorar as contas Firefox**

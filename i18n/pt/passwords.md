@@ -337,17 +337,13 @@ O **Strongbox** é um gestor de palavras-passe nativo e de código aberto para i
 
 Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Esta versão é simplificada e procura reduzir a superfície de ataque.
 
-### Linha de comando
-
-Estes produtos são gestores de palavras-passe minimalistas, que podem ser utilizados em aplicações de scripting.
-
-#### gopass
+### gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![logótipo do gopass](assets/img/password-management/gopass.svg){ align=right }
+![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** é um gestor de palavras-passe para a linha de comandos, escrito em Go. Funciona em todos os principais sistemas operativos para desktop e servidor (Linux, macOS, BSD, Windows).
+**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}

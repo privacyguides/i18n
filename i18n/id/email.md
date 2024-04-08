@@ -72,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Akun gratis memiliki beberapa keterbatasan, seperti tidak dapat mencari teks tubuh dan tidak memiliki akses ke [Proton Mail Bridge](https://proton.me/mail/bridge), yang diperlukan untuk menggunakan [klien surel desktop yang direkomendasikan](email-clients.md) (misalnya Thunderbird). Akun berbayar mencakup fitur-fitur seperti Proton Mail Bridge, penyimpanan tambahan, dan dukungan domain khusus. [Surat pengesahan](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton Mail pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail memiliki laporan mogok internal yang tidak **dibagikan kepada pihak ketiga**. Ini dapat dinonaktifkan di: **Pengaturan** > **Buka Pengaturan** > **Akun** > **Keamanan dan privasi** > **Kirim laporan kemogokan**.
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } Metode Pembayaran Pribadi
 
-Mailbox.org tidak menerima Bitcoin atau mata uang kripto lainnya sebagai karena prosesor pembayaran mereka BitPay menangguhkan operasi di Jerman. Namun, mereka menerima uang tunai melalui pos, pembayaran tunai ke rekening bank, transfer bank, kartu kredit, PayPal, dan beberapa prosesor khusus Jerman: paydirekt dan Sofortüberweisung.
+Mailbox.org tidak menerima Bitcoin atau mata uang kripto lainnya sebagai karena prosesor pembayaran mereka BitPay menangguhkan operasi di Jerman. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Keamanan Akun
 
@@ -157,7 +157,7 @@ Mailbox.org also supports the discovery of public keys via HTTP from their [Web 
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-Your account will be set to a restricted user account when your contract ends, after [30 days it will be irrevocably deleted](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 

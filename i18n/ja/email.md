@@ -72,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 無料アカウントには本文の検索ができないことや、 [推奨されるデスクトップメールクライアント](email-clients.md) (Thunderbirdなど)を使用するために必要な [Proton Mail Bridge](https://proton.me/mail/bridge) を利用できないといった制限があります。 有料アカウントにはProton Mail Bridge、追加ストレージ、カスタムドメインのサポートなどの機能が含まれています。 [Securitum](https://research.securitum.com)により2021年11月9日 [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton Mailアプリにおくられました。
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mailには内部にクラッシュレポートがあり、これは第三者に共有 **されません** 。 クラッシュレポートは次のように無効にできます: **設定** > **設定を開く** > **アカウント** > **セキュリティとプライバシー** > **クラッシュレポートを送信**
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } プライベートな支払い方法
 
-Mailbox.orgは決済プロセッサBitPayがドイツでの業務を停止したために暗号通貨を受け付けていません。 しかし、郵送による現金払い、銀行口座への現金払い、銀行振込、クレジットカード、PayPal、そしてドイツ固有のプロセッサであるpaydirektとSofortüberweisungを受け付けています。
+Mailbox.orgは決済プロセッサBitPayがドイツでの業務を停止したために暗号通貨を受け付けていません。 However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
@@ -157,7 +157,7 @@ Mailbox.orgは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP�
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
-アカウントは契約が終了すると制限付きユーザアカウントに設定されます。 [30日後、取り消し不能で削除されます](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract) 。
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 

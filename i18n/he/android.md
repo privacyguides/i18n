@@ -123,7 +123,7 @@ GrapheneOS מספקת [הקשחת אבטחה](https://en.wikipedia.org/wiki/Hard
 
 GrapheneOS תומך ב-[Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), המריץ את [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) בארגז חול מלא כמו כל אפליקציה רגילה אחרת. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
-טלפונים של Google Pixel הם המכשירים היחידים שעומדים כרגע ב[דרישות אבטחת החומרה](https://grapheneos.org/faq#device-support) של GrapheneOS.
+Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
 
 [מדוע אנו ממליצים על GrapheneOS על פני CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos ""){.md-button}
 
@@ -269,7 +269,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 
 מטא נתונים אינם נמחקים כעת מקבצי וידאו אבל זה מתוכנן.
 
-המטא נתונים של כיוון התמונה לא נמחקים. אם תפעיל מיקום ב(Secure Camera) זה גם **לא** יימחק. אם ברצונך למחוק זאת מאוחר יותר, יהיה עליך להשתמש באפליקציה חיצונית כגון [ExifEraser](data-redaction.md#exiferaser).
+המטא נתונים של כיוון התמונה לא נמחקים. אם תפעיל מיקום ב(Secure Camera) זה גם **לא** יימחק. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser-android).
 
 </div>
 
@@ -310,6 +310,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 **Obtainium** הוא מנהל אפליקציות המאפשר לך להתקין ולעדכן אפליקציות ישירות מדף ההפצות של המפתח עצמו (כלומר. GitHub, GitLab, אתר האינטרנט של המפתח וכו'), במקום חנות/מאגר אפליקציות מרכזי. הוא תומך בעדכוני רקע אוטומטיים באנדרואיד 12 ומעלה.
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
 
@@ -351,7 +352,7 @@ Obtainium מאפשר לך להוריד קבצי התקנת APK ממגוון רח
 
 </div>
 
-Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם תכונת החשבון האנונימי שלהן. אתה יכול לחלופין להתחבר עם חשבון גוגל שלך ל-Aurora Store כדי להוריד אפליקציות שרכשת, מה שאכן נותן גישה לרשימת האפליקציות שהתקנת לגוגל, אולם אתה עדיין נהנה מכך שאינך דורש את לקוח Google Play המלא ואת Google Play Services או microG במכשיר שלך.
+Aurora Store לא מאפשרת להוריד אפליקציות בתשלום עם תכונת החשבון האנונימי שלהן. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### התראות RSS באופן ידני
 
@@ -417,7 +418,7 @@ That said, the [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](http
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic יכול לבצע עדכונים ללא השגחה ללא הרחבה או שורש מורשים, ויש לו מערך תכונות מופחת (הגבלת משטח ההתקפה).
+In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
 
 </div>
 

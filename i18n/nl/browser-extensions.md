@@ -59,7 +59,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 **uBlock Origin Lite** is a Manifest V3 compatible content blocker. Compared to the original _uBlock Origin_, this extension does not require broad "read/modify data" permissions to function.
 
 [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
 
@@ -110,6 +110,6 @@ Extra filterlijsten kunnen de prestaties beïnvloeden en het aanvalsoppervlak ve
 ## Criteria
 
 - Mag geen ingebouwde browser- of OS-functionaliteit repliceren.
-- Moet rechtstreeks van invloed zijn op de privacy van de gebruiker, d.w\.z. mag niet gewoon informatie verstrekken.
+- Moet rechtstreeks van invloed zijn op de privacy van de gebruiker, d.w.z. mag niet gewoon informatie verstrekken.
 
 [^1]: uBlock Origin Lite _itself_ will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.

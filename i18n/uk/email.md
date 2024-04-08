@@ -72,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Безкоштовні акаунти мають деякі обмеження, такі як відсутність можливості пошуку в основному тексті та доступу до [Proton Mail Bridge](https://proton.me/mail/bridge), який необхідний для використання [рекомендованого десктопного поштового клієнта](email-clients.md) (наприклад, Thunderbird). Платні акаунти включають такі функції, як Proton Mail Bridge, додаткове сховище та підтримку власних доменів. [Атестаційний лист](https://proton.me/blog/security-audit-all-proton-apps) для додатків Proton Mail було надано 9 листопада 2021 року компанією [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail має внутрішні звіти про збої, які **не** передаються третім особам. Цю функцію можна вимкнути: **Налаштування** > **Перейти до налаштувань** > **Обліковий запис** > **Безпека та конфіденційність** > **Надсилати звіти про збої**.
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } Конфіденційні способи оплати
 
-Mailbox.org не приймає жодних криптовалют, оскільки їхній платіжний процесор BitPay призупинив роботу в Німеччині. Однак вони приймають готівку поштою, готівку на банківський рахунок, банківські перекази, кредитні картки, PayPal і кілька німецьких платіжних систем: paydirekt і Sofortüberweisung.
+Mailbox.org не приймає жодних криптовалют, оскільки їхній платіжний процесор BitPay призупинив роботу в Німеччині. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Безпека облікового запису
 
@@ -157,7 +157,7 @@ Mailbox.org також підтримує виявлення публічних 
 
 #### :material-information-outline:{ .pg-blue } Деактивація облікового запису
 
-Після закінчення контракту ваш обліковий запис буде переведено в режим обмеженого користування, а через [30 днів він буде безповоротно видалений](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Додаткова функціональність
 

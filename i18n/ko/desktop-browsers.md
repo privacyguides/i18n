@@ -105,7 +105,7 @@ Mullvad 브라우저는 항상 사생활 보호 모드로 작동하므로 방문
 
 ### Mullvad Leta
 
-Mullvad 브라우저는 DuckDuckGo가 기본 [검색 엔진](search-engines.md)으로 설정되어 있지만, Mullvad VPN 구독 시 사용 가능한 **Mullvad Leta** 검색 엔진도 기본 설치되어 있습니다. Mullvad Leta는 Google 유료 검색 API(유료 구독자 전용인 이유)에 바로 쿼리를 전송할 수 있지만, '유료 구독자 전용'이라는 점으로 인해 검색 쿼리와 Mullvad VPN 계정 사이의 연결점이 생길 가능성이 존재합니다. 이러한 이유로, 저희는 Mullvad가 VPN 구독자에 대한 정보를 거의 수집하지 않는다는 점을 알고 있음에도 불구하고 Mullvad Leta 사용을 권장하지 않습니다.
+Mullvad 브라우저는 DuckDuckGo가 기본 [검색 엔진](search-engines.md)으로 설정되어 있지만, Mullvad VPN 구독 시 사용 가능한 **Mullvad Leta** 검색 엔진도 기본 설치되어 있습니다. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. 이러한 이유로, 저희는 Mullvad가 VPN 구독자에 대한 정보를 거의 수집하지 않는다는 점을 알고 있음에도 불구하고 Mullvad Leta 사용을 권장하지 않습니다.
 
 ## Firefox
 
@@ -117,7 +117,7 @@ Mullvad 브라우저는 DuckDuckGo가 기본 [검색 엔진](search-engines.md)�
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
@@ -146,11 +146,18 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 #### 검색
 
-- [ ] **검색 제안 사용** 비활성화
+- [ ] Uncheck **Show search suggestions**
 
 여러분의 지역에 따라 검색 제안 기능이 제공되지 않을 수도 있습니다.
 
 검색 제안 기능은 실제로 검색을 누르지 않더라도 주소창에 입력하는 모든 내용을 기본 검색 엔진으로 전송합니다. 검색 제안을 비활성화하여 검색 엔진 제공 업체에 전송하는 데이터를 보다 신중하게 조절할 수 있습니다.
+
+##### Firefox Suggest (미국 한정)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. 검색 제안 사용을 비활성화한 것과 마찬가지 이유로 해당 기능을 비활성화할 것을 권장드립니다. **주소 표시줄** 헤더에 이러한 옵션이 표시되지 않는 경우 이는 무시하셔도 좋습니다.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] **스폰서에서 제안** 비활성화
 
 #### 개인 정보 및 보안
 
@@ -159,13 +166,6 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 - [x] 향상된 추적 방지 기능에서 **엄격** 활성화
 
 소셜 미디어 추적기, 핑거프린팅 스크립트(*모든* 핑거프린팅으로부터 보호하지는 못함), 암호화폐 채굴기, 교차 사이트 추적 쿠키 및 기타 추적 콘텐츠를 차단합니다. 향상된 추적 방지 기능은 대부분의 일반적인 위협을 방지하지만, 웹사이트 사용성을 해치지 않도록 설계되었기 때문에 모든 추적 경로를 차단하지는 못합니다.
-
-##### Firefox Suggest (미국 한정)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. 검색 제안 사용을 비활성화한 것과 마찬가지 이유로 해당 기능을 비활성화할 것을 권장드립니다. **주소 표시줄** 헤더에 이러한 옵션이 표시되지 않는 경우 이는 무시하셔도 좋습니다.
-
-- [ ] **웹에서 제안** 비활성화
-- [ ] **스폰서에서 제안** 비활성화
 
 ##### 종료 시 데이터 정리
 
@@ -183,7 +183,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 > Firefox는 사용자의 Firefox 버전 및 언어, 기기 운영 체제 및 하드웨어 구성, 메모리, 충돌 및 오류에 대한 기본 정보, 업테이트 및 세이프 브라우징 같은 자동화 프로세스의 결과, 활성화 여부 등의 데이터를 당사(Mozilla)로 전송합니다. Firefox가 당사에 데이터를 전송할 때 사용자의 IP 주소는 당사 서버 로그의 일부로 일시적으로 수집됩니다.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). Firefox 계정을 이용하는 경우 이를 거부할 수 있습니다.
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. [accounts.firefox.com 프로필 설정](https://accounts.firefox.com/settings#data-collection) 열기
 2. **데이터 수집 및 사용** > **Firefox 계정 개선에 참여** 비활성화

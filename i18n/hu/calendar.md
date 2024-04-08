@@ -19,7 +19,7 @@ A több naptár és kiterjesztett megosztási funkciók csak a fizetett előfize
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
@@ -44,11 +44,11 @@ A több naptár és kiterjesztett megosztási funkciók csak a fizetett előfize
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-A **Proton Calendar** egy titkosított naptárszolgáltatás, amely a Proton-tagok számára webes vagy mobilklienseken keresztül érhető el. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók és még [sok más](https://proton.me/support/proton-calendar-guide). Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Kiterjesztett megosztási funkciók szintén csak a fizetett előfizetőknek elérhető.
+A **Proton Calendar** egy titkosított naptárszolgáltatás, amely a Proton-tagok számára webes vagy mobilklienseken keresztül érhető el. A funkciók közé tartoznak: az összes adat automatikus End-to-End titkosítása, megosztási funkciók, import/export funkciók és még [sok más](https://proton.me/support/proton-calendar-guide). Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Kiterjesztett megosztási funkciók szintén csak a fizetett előfizetőknek elérhető.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>

@@ -105,7 +105,7 @@ Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭
 
 ### Mullvad Leta
 
-Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines.md)，但它也预装了 **Mullvad Leta**，这是一个需要订阅 Mullvad VPN 才能访问的搜索引擎。 Mullvad Leta 直接查询谷歌的付费搜索 API（这是它仅限于付费用户的原因），但因为这种限制的存在，Mullvad 有可能将搜索查询与 Mullvad VPN 账户进行关联。 因此，我们不建议使用 Mullvad Leta，虽然 Mullvad 对 VPN 用户信息收集得很少。
+Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines.md)，但它也预装了 **Mullvad Leta**，这是一个需要订阅 Mullvad VPN 才能访问的搜索引擎。 Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. 因此，我们不建议使用 Mullvad Leta，虽然 Mullvad 对 VPN 用户信息收集得很少。
 
 ## Firefox（火狐浏览器）
 
@@ -117,7 +117,7 @@ Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
@@ -146,11 +146,18 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 #### 搜索
 
-- [ ] 取消勾选 **提供搜索建议**
+- [ ] Uncheck **Show search suggestions**
 
 搜索建议功能可能在你的地区无法使用。
 
 搜索建议将你在地址栏中输入的所有内容发送到默认的搜索引擎，而不管你是否提交了实际的搜索。 禁用搜索建议可以让你更精确地控制你向搜索引擎供应商发送的数据。
+
+##### Firefox Suggest (仅限美国)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. 我们建议禁用这个功能，原因与我们建议禁用搜索建议的原因相同。 如果在 **地址栏** 标题下没有看到这些选项，则表示您没有获得这个功能，可以忽略这些设置。
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] 取消选中 **来自赞助商的建议**
 
 #### 隐私与安全
 
@@ -159,13 +166,6 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 - [x] 选择 **严格的** 增强跟踪保护
 
 这可以通过阻止社交媒体追踪器、指纹脚本（注意，这并不能保护你 *所有* 指纹）、加密器、跨网站追踪cookies和其他一些追踪内容来保护你。 ETP可以防止许多常见的威胁，但它并不阻止所有的跟踪途径，因为它的设计对网站的可用性影响最小甚至没有影响。
-
-##### Firefox Suggest (仅限美国)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. 我们建议禁用这个功能，原因与我们建议禁用搜索建议的原因相同。 如果在 **地址栏** 标题下没有看到这些选项，则表示您没有获得这个功能，可以忽略这些设置。
-
-- [ ] 取消选中 **来自网络的建议**
-- [ ] 取消选中 **来自赞助商的建议**
 
 ##### 关闭时消毒
 
@@ -183,7 +183,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 > 火狐浏览器会向我们发送有关您的火狐浏览器版本和语言、设备操作系统和硬件配置、内存、有关崩溃和错误的基本信息以及更新、安全浏览和激活等自动处理结果的数据。 当火狐浏览器向我们发送数据时，您的IP地址会被暂时收集，作为我们服务器日志的一部分。
 
-Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). 如果你使用Firefox账户，你可以选择退出。
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. 在 accounts.firefox.com</a>上打开你的
 

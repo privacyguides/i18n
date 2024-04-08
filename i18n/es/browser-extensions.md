@@ -58,10 +58,10 @@ uBlock Origin también tiene una versión "Lite" de su extensión, que ofrece un
 
 **uBlock Origin Lite** es un bloqueador de contenidos compatible con Manifest V3. En comparación con el _uBlock Origin_ original, esta extensión no requiere amplios permisos de "lectura/modificación de datos" para funcionar.
 
-[:octicons-repo-16: Repositorio](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Código Fuente" }
+[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -89,7 +89,7 @@ Recomendamos [Safari](mobile-browsers.md#safari) para los usuarios de iOS, que l
 
 ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
 
-**AdGuard for iOS** es una extensión de bloqueo de contenidos gratuita y de código abierto para Safari que utiliza la [Content Blocker API] nativa (https\://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+**AdGuard for iOS** es una extensión de bloqueo de contenidos gratuita y de código abierto para Safari que utiliza la [Content Blocker API] nativa (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
 [:octicons-home-16: Página Principal](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }

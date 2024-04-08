@@ -72,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 هەژمارە بەخۆڕایەکان هەندێک سنووریان هەیە، وەک نەتوانینی گەڕان لەناو دەقی نامە و مافی نەبوونی بەکارهێنانی [Proton Mail Bridge](https://proton.me/mail/bridge)، کە پێویستە بۆ بەکارهێنانی[ ڕاژەخوازە پێشنیارکراوەکانی سەر کۆمپیوتەر](email-clients.md) (نـم. Thunderbird). هەژمارە پارەدراوەکان هەندێک تایبەتمەندی لەخۆدەگرن وەک Proton Mail Bridge، کۆگای زیادە، و پشتگیری دۆمەینە تایبەتەکان. [نامەیەکی تاقیکردنەوە](https://proton.me/blog/security-audit-all-proton-apps) بە مەبەستی لایەنگری بۆ کاربەرنامەکانی Proton Mail پێشکەشکرا لە 9ـی تشرینی دووەمی(نۆڤێمبەری) ساڵی 2021 لەلایەن [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail ڕاپۆرتی تێکچوونە ناوخۆییەکانی هەیە، کە ئەوان هاوبەشی **ناکەن** لەگەڵ لایەنە سێیەمەکان. ئەمە دەتوانێ لە ناچالاک بکرێت لە: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green }شێوازی پارەدانی نهێنی
 
-Mailbox.org هیچ جۆرە دراوێکی دیجیتاڵی قبوڵ ناکات بەهۆی ڕاگرتنی کارەکانی شێوازی پارەدانەکەیان BitPay لە ئەڵمانیا. هەرچۆنێک بێت، ئەوان پارە وەردەگرن لە ڕێگەی نەخت بە پۆستە یان لە ڕێی هەژماری بانکی، گواستنەوەی بانک، کرێدیت کارت، PayPal لەگەڵ دوو شێوازی تایبەت بە ئەڵمانیا: paydirekt و Sofortüberweisung.
+Mailbox.org هیچ جۆرە دراوێکی دیجیتاڵی قبوڵ ناکات بەهۆی ڕاگرتنی کارەکانی شێوازی پارەدانەکەیان BitPay لە ئەڵمانیا. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green }پارێزراوێتی هەژمار
 
@@ -157,7 +157,7 @@ Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail
 
 #### :material-information-outline:{ .pg-blue } لەناوبردنی هەژمار
 
-کاتێک گرێبەستەکەت تەواودەبێت هەژمارەکەت دەگۆڕدرێت بۆ هەژمارێکی سنووردار، [دوای 30 ڕۆژ لە نەگەڕانەوەت ئەوا هەژمارەکەت دەسڕدرێتەوە](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } کرداری زیادە
 

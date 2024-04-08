@@ -10,7 +10,7 @@ Nuestra lista de recomendaciones contiene clientes de correo electrónico que so
 <details class="warning" markdown>
 <summary>El correo electrónico no proporciona secreto hacia adelante</summary>
 
-Cuando se utiliza una tecnología de cifrado de extremo a extremo (E2EE) como OpenPGP, el correo electrónico seguirá teniendo [algunos metadatos](email.md#email-metadata-overview) que no están cifrados en la cabecera del correo electrónico.
+When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
 
 OpenPGP tampoco admite [secreto hacia adelante](https://en.wikipedia.org/wiki/Forward_secrecy), lo que significa que si te roban la clave privada a ti o al destinatario, todos los mensajes anteriores cifrados con ella quedarán al descubierto: [¿Cómo puedo proteger mis claves privadas?](basics/email-security.md) Considera la posibilidad de utilizar un medio que ofrezca secreto hacia adelante:
 
@@ -62,7 +62,7 @@ Estas opciones se encuentran en :material-menu: → **Ajustes** → **Privacidad
 
 #### Thunderbird-user.js (avanzado)
 
-[`thunderbird-user.js`](https://github.om/HorlogeSkynet/thunderbird-user.js), es un conjunto de opciones de configuración cuyo objetivo es desactivar el mayor número posible de funciones de navegación web dentro de Thunderbird con el fin de reducir la superficie y mantener la privacidad. Algunos de los cambios son adaptados desde el [proyecto Arkenfox](https://github.com/arkenfox/user.js).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. Algunos de los cambios son adaptados desde el [proyecto Arkenfox](https://github.com/arkenfox/user.js).
 
 ## Plataforma Específica
 
@@ -92,9 +92,9 @@ Apple Mail tiene la capacidad de cargar contenido remoto en segundo plano o bloq
 
 **Canary Mail** es un cliente de correo electrónico de pago diseñado para que el cifrado de extremo a extremo sea perfecto, con funciones de seguridad como el bloqueo biométrico de aplicaciones.
 
-[:octicons-home-16: Página Principal](https://canarymail.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentación}
+[:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>

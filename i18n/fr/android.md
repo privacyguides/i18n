@@ -123,7 +123,7 @@ GrapheneOS apporte des améliorations supplémentaires en matière de [renforcem
 
 GrapheneOS prend en charge [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), qui exécute les [Services Google Play](https://fr.wikipedia.org/wiki/Services_Google_Play) entièrement sandboxed comme toute autre application normale. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
-Les téléphones Google Pixel sont les seuls appareils qui répondent actuellement aux [exigences de sécurité matérielle](https://grapheneos.org/faq#device-support) de GrapheneOS.
+Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
 
 [Pourquoi nous recommandons GrapheneOS plutôt que CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos ""){.md-button}
 
@@ -269,7 +269,7 @@ Les principales caractéristiques de confidentialité comprennent :
 
 Les métadonnées ne sont pour le moment pas supprimées des fichiers vidéo, mais cela est prévu.
 
-Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous activez la fonction de localisation (dans Secure Camera), elle ne **sera pas** non plus supprimée. Si vous voulez la supprimer ultérieurement, vous devrez utiliser une application externe telle que [ExifEraser](data-redaction.md#exiferaser).
+Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous activez la fonction de localisation (dans Secure Camera), elle ne **sera pas** non plus supprimée. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser-android).
 
 </div>
 
@@ -309,9 +309,10 @@ Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous acti
 
 **Obtainium** est un gestionnaire d'applications qui vous permet d'installer et de mettre à jour des applications directement à partir de la page de publication du développeur (i.e. GitHub, GitLab, le site web du développeur, etc.), plutôt qu'un magasin d'applications/dépôt centralisé. Il prend en charge les mises à jour automatiques en arrière-plan sur Android 12 et les versions ultérieures.
 
-[:octicons-repo-16: Dépôt](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Code source" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuer }
+[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -351,7 +352,7 @@ Le Google Play Store nécessite un compte Google pour se connecter, ce qui n'est
 
 </div>
 
-Aurora Store ne vous permet pas de télécharger des applications payantes grâce à sa fonction de compte anonyme. Vous pouvez éventuellement vous connecter avec votre compte Google sur Aurora Store pour télécharger les applications que vous avez achetées, ce qui donne accès à la liste des applications que vous avez installées à Google, mais vous bénéficiez toujours de l'avantage de ne pas avoir besoin du client Google Play complet et des services Google Play ou microG sur votre appareil.
+Aurora Store ne vous permet pas de télécharger des applications payantes grâce à sa fonction de compte anonyme. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### Manuellement avec les notifications RSS
 
@@ -417,7 +418,7 @@ That said, the [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](http
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic peut effectuer des mises à jour en arrière-plan, sans extension privilégiée ou root, et possède un ensemble de fonctionnalités réduit (limitant la surface d'attaque).
+In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
 
 </div>
 

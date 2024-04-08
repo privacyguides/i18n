@@ -72,7 +72,7 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 
 Las cuentas gratuitas tienen algunas limitaciones, como no poder buscar texto en el contenido, y no tener acceso a [Proton Mail Bridge](https://proton.me/mail/bridge), que es requerido para utilizar un [cliente recomendado de correo electrónico para escritorio](email-clients.md) (como Thunderbird). Cuentas pagas incluyen funciones como Proton Mail Bridge, almacenamiento adicional, y soporte para dominios personalizados. Una [carta de certificación](https://proton.me/blog/security-audit-all-proton-apps) fue proporcionada para las aplicaciones de Proton Mail el 9 de noviembre de 2021 por [Securitum](https://research.securitum.com).
 
-Si tienes el plan Proton Unlimited, Business o Visionary, también obtendrás [SimpleLogin](email-aliasing.md#simplelogin) Premium gratis.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail tiene informes de errores internos que **no** comparten con terceros. Puede desactivarse en: **Ajustes** > **Ir a Ajustes** > **Cuenta** > **Seguridad y privacidad** > **Enviar informes de fallos**.
 
@@ -137,7 +137,7 @@ Mailbox.org te permite utilizar tu propio dominio y admite direcciones [catch-al
 
 #### :material-check:{ .pg-green } Métodos Privados de Pago
 
-Mailbox.org no acepta criptomonedas debido a que su procesador de pagos BitPay suspendió sus operaciones en Alemania. Sin embargo, aceptan Efectivo por correo, pago en efectivo a cuenta bancaria, transferencia bancaria, tarjeta de crédito, PayPal y un par de procesadores específicos alemanes: paydirekt y Sofortüberweisung.
+Mailbox.org no acepta criptomonedas debido a que su procesador de pagos BitPay suspendió sus operaciones en Alemania. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
@@ -157,7 +157,7 @@ Mailbox.org también admite el descubrimiento de claves públicas a través de H
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
-Tu cuenta se convertirá en una cuenta de usuario restringida cuando finalice tu contrato, después de [30 días se eliminará irrevocablemente](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 

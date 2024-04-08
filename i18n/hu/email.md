@@ -72,7 +72,7 @@ A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titk
 
 Az ingyenes fiókoknak vannak bizonyos korlátai, például nem tudnak keresni a szövegben, és nem férnek hozzá a [Proton Mail Bridge-hez](https://proton.me/mail/bridge), ami egy [ajánlott asztali e-mail kliens](email-clients.md) (pl. Thunderbird) használatához szükséges átjáró. A fizetős fiókok olyan funkciókat is tartalmaznak, mint a Proton Mail Bridge, további tárhely és egyéni domainek támogatása. A Proton Mail alkalmazást 2021. november 9-én a [Securitum](https://research.securitum.com) [tanúsította](https://proton.me/blog/security-audit-all-proton-apps).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 A Proton Mail belső hibajelentéseket készít; ezeket **nem** osztják meg harmadik felekkel. Ez kikapcsolható a: **Beállítások** > **Fiók** > **Biztonság és adatvédelem** > **Adatvédelem és adatgyűjtés** > **Hibajelentések küldése**.
 
@@ -137,7 +137,7 @@ A Mailbox.org lehetővé teszi a saját domain használatáz, és támogatja a [
 
 #### :material-check:{ .pg-green } Privát fizetési módok
 
-A Mailbox.org nem fogad el semmilyen kriptovalutát, mivel a fizetési szolgáltatójuk, a BitPay felfüggesztette működését Németországban. Elfogadják azonban a postai készpénzt, a bankszámlára történő készpénzfizetést, a banki átutalást, a hitelkártyát, a PayPal-t és néhány Németországban elérhető feldolgozót, mint a paydirekt és a Sofortüberweisung.
+A Mailbox.org nem fogad el semmilyen kriptovalutát, mivel a fizetési szolgáltatójuk, a BitPay felfüggesztette működését Németországban. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
@@ -157,7 +157,7 @@ A Mailbox.org támogatja a nyilvános kulcsok HTTP-n keresztüli keresését is 
 
 #### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
-A szerződés lejártakor a diók korlátozottá válik, [30 nap](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract) elteltével pedig [visszavonhatatlanul törlődik](https://kb.mailbox. org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } További funkciók
 

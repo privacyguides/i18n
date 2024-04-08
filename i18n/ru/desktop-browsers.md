@@ -105,7 +105,7 @@ Mullvad Browser работает в постоянном режиме прива
 
 ### Mullvad Leta
 
-Mullvad Browser поставляется с включенной по умолчанию [поисковой системой](search-engines.md) DuckDuckGo. В нём также есть предустановленная **Mullvad Leta** - поисковая система, для доступа к которой требуется активная подписка Mullvad VPN. Mullvad Leta напрямую запрашивает API платного поиска Google (именно поэтому он ограничен для платных подписчиков), однако из-за этого ограничения Mullvad может связать поисковые запросы и учетные записи Mullvad VPN. По этой причине мы не рекомендуем использовать Mullvad Leta, несмотря на то, что Mullvad собирает очень мало информации о своих подписчиках VPN.
+Mullvad Browser поставляется с включенной по умолчанию [поисковой системой](search-engines.md) DuckDuckGo. В нём также есть предустановленная **Mullvad Leta** - поисковая система, для доступа к которой требуется активная подписка Mullvad VPN. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. По этой причине мы не рекомендуем использовать Mullvad Leta, несмотря на то, что Mullvad собирает очень мало информации о своих подписчиках VPN.
 
 ## Firefox
 
@@ -117,7 +117,7 @@ Mullvad Browser поставляется с включенной по умолч
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
@@ -146,11 +146,18 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 #### Поиск
 
-- [ ] Отключи **Отображать поисковые предложения**
+- [ ] Uncheck **Show search suggestions**
 
 Функции поисковых предложений могут быть недоступны в твоём регионе.
 
 Поисковые предложения отправляют всё, что ты набираешь в адресной строке, в поисковую систему по умолчанию, независимо от того, запускаешь ли ты фактический поиск. Отключение поисковых предложений позволяет более точно контролировать данные, которые вы отправляете поисковой системе.
+
+##### Предложения Firefox (Только США)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Мы рекомендуем отключить его по той же причине, по которой мы рекомендуем отключать поисковые предложения. Если ты не видишь этих опций в **адресной строке**, то у тебя нет этой функции и ты можешь игнорировать эти изменения.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Отключи **Suggestions from sponsors**
 
 #### Приватность и защита
 
@@ -159,13 +166,6 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 - [x] Выбери **Строгая**
 
 Она защищает тебя, блокируя трекеры социальных сетей, скрипты цифровых отпечатков (обрати внимание, что она не защищает тебя от *всех* цифровых отпечатков), криптомайнеры, межсайтовые файлы куки для отслеживания и некоторые другие средства отслеживания. Улучшенная защита от отслеживания защищает от многих распространенных угроз, но не блокирует все пути отслеживания, поскольку разработана таким образом, чтобы минимально или вообще не влиять на удобство использования сайта.
-
-##### Предложения Firefox (Только США)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Мы рекомендуем отключить его по той же причине, по которой мы рекомендуем отключать поисковые предложения. Если ты не видишь этих опций в **адресной строке**, то у тебя нет этой функции и ты можешь игнорировать эти изменения.
-
-- [ ] Отключи **Suggestions from the web**
-- [ ] Отключи **Suggestions from sponsors**
 
 ##### Отчистка при закрытии
 
@@ -183,7 +183,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 > Firefox отправляет нам данные о версии и языке вашего Firefox; операционной системе устройства и конфигурации оборудования; памяти, основную информацию о сбоях и ошибках; результаты автоматизированных процессов, таких как обновления, безопасный просмотр и активация. Когда Firefox отправляет нам данные, ваш IP-адрес временно собирается как часть логов нашего сервера.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). Если ты используешь учетную запись Firefox, то ты можешь отключить сбор этих данных:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. Открой [настройки профиля на сайте accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Отключи **Сбор и использование данных** > **Помогите улучшить ⁨аккаунты Firefox⁩**

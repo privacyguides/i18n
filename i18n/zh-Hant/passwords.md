@@ -337,17 +337,13 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 此外，還提供離線版本：[Strongbox Zero](https://apps.apple.com/app/id1581589638)。 這個版本被剝離許多特色，以試圖減少攻擊面。
 
-### 命令行
-
-這些產品是最低限度的密碼管理器，可以在腳本應用程序中使用。
-
-#### gopass
+### gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
 ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** 是用Go編寫的命令行的密碼管理器。 它適用於所有主要的桌面和伺服器作業系統（Linux， macOS， BSD， Windows）。
+**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}

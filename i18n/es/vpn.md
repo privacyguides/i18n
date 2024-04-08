@@ -174,7 +174,7 @@ IVPN [recomienda](https://ivpn.net/wireguard) el uso de WireGuard con su servici
 
 #### :material-information-outline:{ .pg-blue } IPv6 Support
 
-IVPN allows you to [connect to services using IPv6](https://www.ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
+IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
 
 #### :material-alert-outline:{ .pg-orange } Reenvío Remoto de Puertos
 

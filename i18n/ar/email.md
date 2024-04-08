@@ -72,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 للحسابات المجانية قيود، كعجزهم عن البحث في النصوص وعدم استخدام [جسر بريد بروتون](https://proton.me/mail/bridge)، وتحتاجه إن أردت استخدام [أحد برامج البريد في سطح المكتب الموصى بها](email-clients.md) (مثل ثندربرد). لمن اشترك في حساب عند بريد بروتون مزايا، مثل جسر بريد بروتون ومساحة تخزين إضافية ودعم أسماء النطاق المخصَّصة. أعطت [سكيورتم](https://research.securitum.com) [شهادةً](https://proton.me/blog/security-audit-all-proton-apps) لتطبيقات بريد بروتون في التاسع من نوفمبر عام ٢٠٢١.
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 عند بريد بروتون تقارير تعطُّل داخلية **لا** يشاركونها مع أيِّ جهة خارجية. ولك تعطيلها في: **الإعدادات** > ** إذهب للإعدادات** > **الحساب** > **الأمن والخصوصية** > **أرسل تقارير التعطُّل**.
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } سُبُل الدفع الخاصَّة
 
-لا تقبل Mailbox.org الدفع باستخدام العملات المعمَّاة، وسبب ذلك أن معالج دفعهم، بِت‌بَي، علَّق عملياته في ألمانيا. ولكنهم يقبلون الدفع نقدًا عبر البريد، ودفع النقد لحساب مصرف، والتحويل المصرفيَّ، وبطاقات الائتمان، وبَي‌بال، وبعض معالجي الدفع في ألمانيا: paydirekt و Sofortüberweisung.
+لا تقبل Mailbox.org الدفع باستخدام العملات المعمَّاة، وسبب ذلك أن معالج دفعهم، بِت‌بَي، علَّق عملياته في ألمانيا. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } أمن الحساب
 
@@ -157,7 +157,7 @@ Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-يعيَّن حسابك حساب مستخدم مقيَّد عند انتهاء عقدك، وبعد [ثلاثين يوم سوف يحذف نهائيًّا](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } وظائف إضافية
 

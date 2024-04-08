@@ -72,7 +72,7 @@ O **Proton Mail** é um serviço de e-mail que privilegia a privacidade, a encri
 
 As contas gratuitas têm algumas limitações, tais como a impossibilidade de pesquisar o corpo do texto e o facto de não terem acesso ao [Proton Mail Bridge](https://proton.me/mail/bridge), que é necessário para utilizar um [cliente recomendado de e-mail para PC](email-clients.md) (por exemplo, Thunderbird). As contas pagas incluem funcionalidades como o Proton Mail Bridge, armazenamento adicional e suporte para domínios personalizados. A [Securitum](https://research.securitum.com) [certificou](https://proton.me/blog/security-audit-all-proton-apps) as aplicações do Proton Mail, em 9 de novembro de 2021.
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 O Proton Mail tem relatórios internos de falhas que **não** partilham com terceiros. Verifique "Criptografia de E-mail".
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } Métodos de pagamento privados
 
-O Mailbox.org não aceita quaisquer criptomoedas devido ao facto do seu processador de pagamentos BitPay ter suspendido as operações na Alemanha. No entanto, aceitam dinheiro por correio, pagamento em dinheiro para conta bancária, transferência bancária, cartão de crédito, PayPal e alguns serviços de pagamento específicos para a Alemanha: paydirekt e Sofortüberweisung.
+O Mailbox.org não aceita quaisquer criptomoedas devido ao facto do seu processador de pagamentos BitPay ter suspendido as operações na Alemanha. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Segurança da conta
 
@@ -157,7 +157,7 @@ O Mailbox.org também suporta a descoberta de chaves públicas via HTTP a partir
 
 #### :material-information-outline:{ .pg-blue } Remoção da conta
 
-Após o termo do contrato, a sua conta será definida como uma conta de utilizador restrita. Passados [30 dias será irrevogavelmente eliminada](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Funcionalidade adicional
 

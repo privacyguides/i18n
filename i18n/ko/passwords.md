@@ -337,17 +337,13 @@ KeePassXC는 데이터 내보내기 시 [CSV](https://en.wikipedia.org/wiki/Comm
 
 Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). 해당 버전은 공격 표면을 최소화하기 위해 만들어졌습니다.
 
-### 커맨드라인
-
-커맨드라인 비밀번호 관리자는 스크립트 애플리케이션 내에서 사용할 수 있는 미니멀한 비밀번호 관리자입니다.
-
-#### gopass
+### gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![gopass 로고](assets/img/password-management/gopass.svg){ align=right }
+![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass**는 Go 언어로 작성된 커맨드라인용 비밀번호 관리자입니다. 모든 주요 데스크톱 및 서버 운영 체제(Linux, macOS, BSD, Windows)에서 작동합니다.
+**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}

@@ -72,7 +72,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 免費帳戶有一些功能限制，例如無法搜索郵件正文內容，也無法無法使用 [Proton Mail Bridge](https://proton.me/mail/bridge)；後者是使用[建議的桌面郵件客戶端](email-clients.md) (例如 Thunderbird) 所需的。 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 Proton Mail 應用程式於 2021 年 11 月 9 日由 [Securitum](https://research.securitum.com) 提供[認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
-如果您訂閱了 Proton Unlimited、Business 或 Visionary 方案，您還可以免費獲得 [SimpleLogin](email-aliasing.md#simplelogin) 的 Premium 會員。
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在以下位置停用此功能：**設定** > **前往設定** > **帳戶** > **安全和隱私** > **傳送崩潰報告**。
 
@@ -137,7 +137,7 @@ Mailbox.org 可使用自定域名，且支援 [捕獲所有](https://kb.mailbox.
 
 #### :material-check:{ .pg-green } 私人付款方式
 
-Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 不過他們可以收郵寄現金、銀行帳戶現金支付、銀行轉帳、信用卡、 PayPa l以及幾個德國特定處理商： paydirekt 和 Sofortüberweisung。
+Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } 帳號安全
 
@@ -161,7 +161,7 @@ Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.g
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
-當合約到期後，您的帳戶將受到限制，在 [30天後，它將被永久刪除](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract)。
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 
 

@@ -72,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Contas gratuitas têm algumas limitações, como não poderem pesquisar no corpo de texto e não ter acesso à [Ponte Proton Mail](https://proton.me/mail/bridge), o que é requerido para usar um [cliente de email desktop recomendado](email-clients.md) (ex. Thunderbird). Contas pagas incluem funcionalidades como a Ponte Proton Mail, mais armazenamento, e suporte para domínios customizados. Um [certificado de segurança](https://proton.me/blog/security-audit-all-proton-apps) foi concedido para os aplicativos do Proton Mail em 9 de Novembro de 2021 pela [Securitium](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 O Proton Mail tem relatórios internos de travamento que eles **não** compartilham com terceiros. Isto pode ser desativado em: **Configurações** > **Vá para Configurações** > **Conta** > **Segurança e privacidade** > **Enviar relatórios de erro**.
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } Métodos de Pagamento Privados
 
-Mailbox.org não aceita nenhuma criptomoeda como resultado do seu processador de pagamentos BitPay ter suspendido as operações na Alemanha. No entanto, eles aceitam dinheiro por correio, pagamento em dinheiro para conta bancária, transferência bancária, cartão de crédito, PayPal e alguns processadores específicos da Alemanha: paydirekt and Sofortüberweisung.
+Mailbox.org não aceita nenhuma criptomoeda como resultado do seu processador de pagamentos BitPay ter suspendido as operações na Alemanha. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Segurança da Conta
 
@@ -157,7 +157,7 @@ Mailbox.org também suporta a descoberta de chaves públicas via HTTP a partir d
 
 #### :material-information-outline:{ .pg-blue } Rescisão da Conta
 
-Sua conta será definida como uma conta de usuário restrita quando o contrato terminar, após [30 dias ela será irrevogavelmente excluída](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
 

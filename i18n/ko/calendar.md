@@ -19,7 +19,7 @@ cover: calendar.webp
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
@@ -44,11 +44,11 @@ cover: calendar.webp
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar**는 Proton 회원이라면 웹/모바일 클라이언트에서 사용 가능한 암호화 캘린더 서비스입니다. 모든 데이터 자동 E2EE, 공유 기능, 가져오기/내보내기 기능을 포함한 [다양한 기능](https://proton.me/support/proton-calendar-guide)이 있습니다. Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 확장된 공유 기능은 유료 플랜 사용자 전용입니다.
+**Proton Calendar**는 Proton 회원이라면 웹/모바일 클라이언트에서 사용 가능한 암호화 캘린더 서비스입니다. 모든 데이터 자동 E2EE, 공유 기능, 가져오기/내보내기 기능을 포함한 [다양한 기능](https://proton.me/support/proton-calendar-guide)이 있습니다. Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 확장된 공유 기능은 유료 플랜 사용자 전용입니다.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>

@@ -105,7 +105,7 @@ Mullvad Browser מגיע עם *uBlock Origin* ו*NoScript* הרחבות דפדפ
 
 ### Mullvad Leta
 
-Mullvad Browser מגיע עם DuckDuckGo מוגדר כ[מנוע החיפוש](search-engines.md) המוגדר כברירת מחדל, אך הוא מגיע גם מותקן מראש עם **Mullvad Leta**, מנוע חיפוש שדורש מנוי Mullvad VPN פעיל כדי לגשת אליו. Mullvad Leta מבצע שאילתות ישירות ב-API החיפוש בתשלום של גוגל (ולכן הוא מוגבל למנויים משלמים), אולם בגלל מגבלה זו, ניתן ל-Mullvad לתאם בין שאילתות חיפוש וחשבונות Mullvad VPN. מסיבה זו אנו מונעים את השימוש ב-Mullvad Leta, למרות ש-Mullvad אוספת מעט מאוד מידע על מנויי ה-VPN שלהם.
+Mullvad Browser מגיע עם DuckDuckGo מוגדר כ[מנוע החיפוש](search-engines.md) המוגדר כברירת מחדל, אך הוא מגיע גם מותקן מראש עם **Mullvad Leta**, מנוע חיפוש שדורש מנוי Mullvad VPN פעיל כדי לגשת אליו. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. מסיבה זו אנו מונעים את השימוש ב-Mullvad Leta, למרות ש-Mullvad אוספת מעט מאוד מידע על מנויי ה-VPN שלהם.
 
 ## Firefox
 
@@ -117,7 +117,7 @@ Mullvad Browser מגיע עם DuckDuckGo מוגדר כ[מנוע החיפוש](se
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
@@ -146,11 +146,18 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 #### חיפוש
 
-- [ ] בטל את הסימון **הצגת המלצות חיפוש**
+- [ ] Uncheck **Show search suggestions**
 
 ייתכן שתכונות הצעות חיפוש לא יהיו זמינות באזור שלך.
 
 הצעות חיפוש שולחות את כל מה שאתה מקליד בסרגל הכתובות למנוע החיפוש המוגדר כברירת מחדל, ללא קשר אם אתה שולח חיפוש בפועל. השבתת הצעות חיפוש מאפשרת לך לשלוט בצורה מדויקת יותר באילו נתונים אתה שולח לספק מנועי החיפוש שלך.
+
+##### Firefox Suggest (ארה"ב בלבד)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. אנו ממליצים להשבית אותו מאותה סיבה שאנו ממליצים להשבית את הצעות החיפוש. אם אינך רואה את האפשרויות הללו תחת הכותרת **סרגל הכתובות**, אין לך את החוויה החדשה ואתה יכול להתעלם משינויים אלה.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] בטל את הסימון **הצעות מנותני חסות**
 
 #### פרטיות& אבטחה
 
@@ -159,13 +166,6 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 - [x] בחר ** מחמיר** הגנת מעקב מתקדמת
 
 זה מגן עליך על ידי חסימת מעקבי מדיה חברתית, סקריפטים של טביעת אצבע (שים לב שזה לא מגן עליך מפני *כל* טביעות האצבע), קריפטומינרים, עוגיות מעקב חוצות- אתרים ותוכן מעקב אחר. ETP מגן מפני איומים נפוצים רבים, אך הוא אינו חוסם את כל אפיקי המעקב מכיוון שהוא נועד להשפיע באופן מינימלי עד ללא השפעה על השימושיות באתר.
-
-##### Firefox Suggest (ארה"ב בלבד)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. אנו ממליצים להשבית אותו מאותה סיבה שאנו ממליצים להשבית את הצעות החיפוש. אם אינך רואה את האפשרויות הללו תחת הכותרת **סרגל הכתובות**, אין לך את החוויה החדשה ואתה יכול להתעלם משינויים אלה.
-
-- [] בטל את הסימון **הצעות מהאינטרנט**
-- [ ] בטל את הסימון **הצעות מנותני חסות**
 
 ##### חיטוי בעת סגירה
 
@@ -183,7 +183,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 > Firefox שולח נתונים על הגרסה והשפה של Firefox שלך; תצורת מערכת ההפעלה והחומרה של המכשיר; זיכרון, מידע בסיסי על קריסות ושגיאות; תוצאה של תהליכים אוטומטיים כמו עדכונים, גלישה בטוחה והפעלה אלינו. כאשר Firefox שולח לנו נתונים, כתובת ה-IP שלך נאספת זמנית כחלק מיומני השרת שלנו.
 
-Additionally, the Firefox Accounts service collects [some technical data](https://mozilla.org/privacy/firefox/#firefox-accounts). אם אתה משתמש בחשבון Firefox אתה יכול לבטל את הסכמתך:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. פתח את [הגדרות הפרופיל שלך ב ](https://accounts.firefox.com/settings#data-collection)accounts.firefox.com
 2. ביטול סימון **איסוף נתונים ושימוש** > **עזרה בשיפור חשבונות Firefox**

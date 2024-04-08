@@ -10,7 +10,7 @@ cover: email-clients.webp
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
+When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
 
 OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
 
@@ -62,7 +62,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### Thunderbird-user.js (고급)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js)는 공격 표면을 줄이고 프라이버시를 지키기 위해 Thunderbird 내 웹 탐색 기능을 최소화하는 것을 목표로 하는 구성 옵션 세트입니다. 일부분은 [Arkenfox 프로젝트](https://github.com/arkenfox/user.js)에서 백포트되었습니다.
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. 일부분은 [Arkenfox 프로젝트](https://github.com/arkenfox/user.js)에서 백포트되었습니다.
 
 ## 개별 플랫폼
 
@@ -94,7 +94,7 @@ Apple Mail은 외부 콘텐츠를 백그라운드에서 로드하거나, 완전�
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

@@ -28,7 +28,7 @@ tải xuống
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
@@ -53,14 +53,14 @@ tải xuống
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Tất cả dữ liệu được lưu trữ bên trong nó đều được mã hóa đầu cuối khi được lưu trữ trên các máy chủ của ProtonMail. Those on the free tier get access to 3 calendars, whereas paid subscribers can create up to 25 calendars. tải xuống
+**Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Tất cả dữ liệu được lưu trữ bên trong nó đều được mã hóa đầu cuối khi được lưu trữ trên các máy chủ của ProtonMail. Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. tải xuống
 
     - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
     - [:fontawesome-brands-github: Mã nguồn](https://github.com/ProtonMail/WebClients)
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/proton-calendar-guide){ .card-link title=Documentation}
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>

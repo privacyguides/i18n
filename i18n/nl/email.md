@@ -72,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Gratis accounts hebben enkele beperkingen, zoals het niet kunnen doorzoeken van bodytekst en geen toegang tot [Proton Mail Bridge](https://proton.me/mail/bridge), die nodig is om een [aanbevolen desktop e-mailclient](email-clients.md) (bv. Thunderbird) te gebruiken. Betaalde accounts bevatten functies zoals Proton Mail Bridge, extra opslagruimte en ondersteuning voor aangepaste domeinen. Een [attestatiebrief](https://proton.me/blog/security-audit-all-proton-apps) werd op 9 november 2021 verstrekt voor de apps van Proton Mail door [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail heeft interne crash rapporten die ze **niet** delen met derden. Dit kan worden uitgeschakeld in: **Instellingen** > **Ga naar Instellingen** > **Account** > **Beveiliging en privacy** > **Crashmeldingen versturen**.
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } Privé betaalmethoden
 
-Mailbox.org accepteert geen Bitcoin of andere cryptocurrencies als gevolg van het feit dat hun betalingsverwerker BitPay zijn activiteiten in Duitsland heeft opgeschort. Echter aanvaarden ze wel contant geld per post, contante betaling op bankrekening, bankoverschrijving, kredietkaart, PayPal en een paar Duitse verwerkers: paydirekt en Sofortüberweisung.
+Mailbox.org accepteert geen Bitcoin of andere cryptocurrencies als gevolg van het feit dat hun betalingsverwerker BitPay zijn activiteiten in Duitsland heeft opgeschort. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Accountbeveiliging
 
@@ -157,7 +157,7 @@ Mailbox.org ondersteunt ook de ontdekking van publieke sleutels via HTTP vanuit 
 
 #### :material-information-outline:{ .pg-blue } Beëindiging van account
 
-Je account wordt ingesteld op een beperkt gebruikersaccount zodra je contract is beëindigd, na [30 dagen wordt deze onherroepelijk verwijderd](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Extra functionaliteit
 

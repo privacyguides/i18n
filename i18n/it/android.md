@@ -123,7 +123,7 @@ GrapheneOS fornisce maggiore [sicurezza] (https://it.wikipedia.org/wiki/Hardenin
 
 GrapheneOS supporta [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), che esegue [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) in piena modalità sandbox, come ogni altra app regolare. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
 
-I telefoni Google Pixel sono i soli dispositivi che, al momento, soddisfano i [requisiti di sicurezza hardware](https://grapheneos.org/faq#device-support) di GrapheneOS.
+Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
 
 [Perché consigliamo GrapheneOS, rispetto a CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos ""){.md-button}
 
@@ -269,7 +269,7 @@ Le principali funzionalità di privacy includono:
 
 I metadati non sono al momento eliminati dai file video, ma la funzionalità è in fase di sviluppo.
 
-I metadati sull'orientamento dell'immagine non vengono eliminati. Se abiliti la posizione (su Secure Camera), nemmeno questa **sarà** eliminata. Se desideri eliminarla in seguito, dovrai utilizzare un'app esterna come [ExifEraser](data-redaction.md#exiferaser).
+I metadati sull'orientamento dell'immagine non vengono eliminati. Se abiliti la posizione (su Secure Camera), nemmeno questa **sarà** eliminata. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser-android).
 
 </div>
 
@@ -310,8 +310,9 @@ La [Politica sulla Sicurezza dei Contenuti](https://en.wikipedia.org/wiki/Conten
 **Obtainium** è un gestore di app che ti consente di installare e aggiornare le app direttamente dalla pagina di rilascio dello sviluppatore (es. GitHub, GitLab, il sito web dello sviluppatore, ecc.), piuttosto che un app store/repository di app centralizzato. Supporta gli aggiornamenti automatici in background su Android 12 e versioni successive.
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuisci }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -351,7 +352,7 @@ Il Google Play Store richiede un profilo Google per l'accesso, il che non è un 
 
 </div>
 
-Aurora Store non consente di scaricare app a pagamento con la propria funzione del profilo anonimo. Facoltativamente, puoi accedere con il tuo profilo di Google all'Aurora Store per scaricare le app acquistate, consentendo l'accesso all'elenco delle app installate a Google e, tuttavia, beneficiando del fatto di non richiedere il client completo di Google Play e Google Play Services o microG sul tuo dispositivo.
+Aurora Store non consente di scaricare app a pagamento con la propria funzione del profilo anonimo. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### Manualmente con le notifiche RSS
 
@@ -417,7 +418,7 @@ That said, the [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](http
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic può eseguire aggiornamenti incustoditi senza estensioni privilegiate o root, inoltre ha un set di funzionalità ridotto (limitando la superficie di attacco).
+In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
 
 </div>
 

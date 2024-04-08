@@ -10,7 +10,7 @@ cover: email-clients.webp
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](email.md#email-metadata-overview) that is not encrypted in the header of the email.
+When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
 
 OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
 
@@ -62,7 +62,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### Thunderbird-user.js (продвинутый)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), представляет собой набор конфигурации, цель которых - отключить как можно больше функций веб-браузинга в Thunderbird, чтобы уменьшить поверхность атаки и сохранить конфиденциальность. Некоторые изменения перенесены из [проекта Arkenfox](https://github.com/arkenfox/user.js).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. Некоторые изменения перенесены из [проекта Arkenfox](https://github.com/arkenfox/user.js).
 
 ## Конкретные платформы
 
@@ -94,7 +94,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

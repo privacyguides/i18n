@@ -72,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 무료 계정은 본문 텍스트 검색이 불가능하고 [Proton Mail Bridge](https://proton.me/mail/bridge)(Thunderbird 등 [권장 데스크톱 이메일 클라이언트](email-clients.md)를 사용하려면 필수적인 기능)를 사용할 수 없습니다. 유료 계정에는 Proton Mail Bridge, 추가 저장 공간, 사용자 지정 도메인 지원 등의 기능이 제공됩니다. Proton Mail 앱 [감사 증명서](https://proton.me/blog/security-audit-all-proton-apps)는 2021년 11월 9일에 [Securitum](https://research.securitum.com)에서 발급하였습니다.
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail에는 내부 충돌 보고서가 존재하며, 이는 제3자와 공유되지 **않습니다**. 충돌 보고서는 비활성화 가능합니다: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } 비공개 결제 수단
 
-Mailbox.org는 BitPay 결제 처리업체가 독일에서 운영을 중단함에 따라 어떠한 암호화폐도 받지 않습니다. 단, 몇 가지 독일 전용 결제 수단(paydirekt, Sofortüberweisung)을 비롯해 현금 우편, 은행 계좌 현금 입금, 은행 송금, 신용 카드, PayPal을 지원합니다.
+Mailbox.org는 BitPay 결제 처리업체가 독일에서 운영을 중단함에 따라 어떠한 암호화폐도 받지 않습니다. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } 계정 보안
 
@@ -157,7 +157,7 @@ Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail
 
 #### :material-information-outline:{ .pg-blue } 계정 해지
 
-계약이 끝나면 해당 계정은 제한된 상태로 변경되며, [30일이 지나면 영구적으로 삭제됩니다](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } 추가 기능
 

@@ -124,7 +124,7 @@ LibreTube le permite almacenar su lista de suscripciones y listas de reproducci�
 
 [:octicons-home-16: Homepage](https://libretube.dev){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/libre-tube/LibreTube#readme){ .card-link title=Documentation}
+[:octicons-info-16:](https://libretube.dev/#faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
 
@@ -156,11 +156,11 @@ Por defecto, LibreTube bloquea todos los anuncios de YouTube. Additionally, Libr
 
 Tu lista de suscripciones y tus listas de reproducción se guardan localmente en tu dispositivo Android.
 
-[:octicons-home-16: Página Principal](https://newpipe.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://teamnewpipe.github.io/documentation){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://newpipe.net/FAQ){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>

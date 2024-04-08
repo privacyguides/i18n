@@ -105,7 +105,7 @@ Ciò è necessario per impedire forme avanzate di tracciamento, a costo della co
 
 ### Mullvad Leta
 
-Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) predefinito, ma include anche **Mullvad Leta**, un motore di ricerca che richiede un abbonamento attivo alla VPN di Mullvad, per potervi accedere. Mullvad Leta utilizza direttamente l'API di ricerca a pagamento di Google (motivo per cui è limitato agli abbonati), tuttavia, a causa di tale limitazione, è possibile per Mullvad correlare le ricerche e i profili VPN di Mullvad. Per questo motivo sconsigliamo l'uso di Mullvad Leta, anche se Mullvad raccoglie pochissime informazioni sui propri abbonati alla VPN.
+Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) predefinito, ma include anche **Mullvad Leta**, un motore di ricerca che richiede un abbonamento attivo alla VPN di Mullvad, per potervi accedere. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Per questo motivo sconsigliamo l'uso di Mullvad Leta, anche se Mullvad raccoglie pochissime informazioni sui propri abbonati alla VPN.
 
 ## Firefox
 
@@ -115,11 +115,11 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
 
 **Firefox** offre robuste impostazioni di privacy, come la [protezione antitracciamento avanzata](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop), che aiuta a bloccare varie [tipologie di tracciamento](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop#w_che-cosa-viene-bloccato-con-la-protezione-antitracciamento-avanzata).
 
-[:octicons-home-16: Pagina iniziale](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Politica sulla privacy" }
-[:octicons-info-16:](https://firefox-source-docs.mozilla.org){ .card-link title=Documentazione}
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Download</summary>
@@ -146,11 +146,18 @@ Queste opzioni si possono trovare in :material-menu: → **Impostazioni**
 
 #### Ricerca
 
-- [ ] Disabilita **Visualizza suggerimenti di ricerca**
+- [ ] Uncheck **Show search suggestions**
 
 Le funzionalità di suggerimento di ricerca potrebbero non essere disponibili nella tua regione.
 
 I suggerimenti di ricerca inviano qualsiasi cosa tu digiti nella barra degli indirizzi al motore di ricerca predefinito, indipendentemente dal fatto che tu invii una ricerca effettiva. Disabilitare i suggerimenti di ricerca ti consente di controllare più precisamente quali dati invii al fornitore del tuo motore di ricerca.
+
+##### Firefox Suggest (solo USA)
+
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) è una funzionalità simile ai suggerimenti di riceerca, disponibile esclusivamente negli Stati Uniti. Consigliamo di disabilitarla per le stesse motivazioni per cui consigliamo di disabilitare i suggerimenti di ricerca. Se non vedi queste opzioni sotto l'intestazione della **Barra degli Indirizzi**, non disponi della nuova esperienza e puoi ignorare tali modifiche.
+
+- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Rimuovi la spunta da **Suggestions from sponsors**
 
 #### Privacy e sicurezza
 
@@ -159,13 +166,6 @@ I suggerimenti di ricerca inviano qualsiasi cosa tu digiti nella barra degli ind
 - [x] Seleziona Protezione antitracciamento avanzata **Restrittiva**
 
 Questo ti protegge bloccando i tracciatori dei social, gli script di fingerprinting (nota che non ti protegge da *tutto* il fingerprinting), cryptominer, cookie di tracciamento dei tra siti e alcuni altri contenuti di tracciamento. La Protezione antitracciamento avanzata protegge da molte minacce comuni, ma non blocca tutte le vie di tracciamento, poiché è progettata per avere un impatto minimo o zero sull'utilizzabilità del sito.
-
-##### Firefox Suggest (solo USA)
-
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) è una funzionalità simile ai suggerimenti di riceerca, disponibile esclusivamente negli Stati Uniti. Consigliamo di disabilitarla per le stesse motivazioni per cui consigliamo di disabilitare i suggerimenti di ricerca. Se non vedi queste opzioni sotto l'intestazione della **Barra degli Indirizzi**, non disponi della nuova esperienza e puoi ignorare tali modifiche.
-
-- [ ] Rimuovi la spunta **Suggestions from the web**
-- [ ] Rimuovi la spunta da **Suggestions from sponsors**
 
 ##### Eliminazione alla Chiusura
 
@@ -183,7 +183,7 @@ Ciò ti protegge dai cookie persistenti, ma non da quelli acquisiti durante ogni
 
 > Firefox ci invia i dati sulla tua versione e lingua di Firefox; sistema operativo del dispositivo e configurazione hardware; memoria, informazioni essenziali su arresti anomali ed errori; risultati di processi automatizzati quali aggiornamenti, navigazione sicura e attivazione. Quando Firefox ci invia i dati, il tuo indirizzo IP è raccolto temporaneamente come parte dei registri del nostro server.
 
-Inoltre, il servizio Firefox Accounts raccoglie [dei dati tecnici](https://mozilla.org/privacy/firefox/#firefox-accounts). Se utilizzi un Profilo di Firefox, puoi disattivarlo:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
 
 1. Apri le [impostazioni del tuo profilo su accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deseleziona ** Raccolta e utilizzo dati ** > **Aiutaci a migliorare gli ⁨account Firefox⁩**

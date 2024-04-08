@@ -10,7 +10,7 @@ Il nostro elenco di consigli contiene i client email che supportano sia [OpenPGP
 <details class="warning" markdown>
 <summary>L'email non fornisce la forward secrecy</summary>
 
-Quando si utilizza una tecnologia di crittografia end-to-end (E2EE) come OpenPGP, le e-mail avranno ancora [alcuni metadati](email.md#email-metadata-overview) non crittografati nell'intestazione dell'e-mail.
+When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
 
 OpenPGP non supporta inoltre la [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), il che significa che se la tua chiave privata o quella del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa saranno esposti: [Come posso proteggere le mie chiavi private?](basics/email-security.md) Considera la possibilità di utilizzare un mezzo di comunicazione che garantisca la forward secrecy:
 
@@ -62,7 +62,7 @@ Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Privacy 
 
 #### Thunderbird-user.js (avanzato)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js), è una serie di opzioni di configurazione che mira a disabilitare quante più funzionalità di navigazione web possibili su Thunderbird, per poter ridurre la superficie e mantenere la privacy. Alcune delle modifiche provengono dal [progetto Arkenfox](https://github.com/arkenfox/user.js).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. Alcune delle modifiche provengono dal [progetto Arkenfox](https://github.com/arkenfox/user.js).
 
 ## Specifiche della Piattaforma
 
@@ -94,7 +94,7 @@ Apple Mail può caricare i contenuti da remoto in background o bloccarli interam
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.zendesk.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>

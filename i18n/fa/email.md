@@ -72,7 +72,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 حساب‌های رایگان دارای محدودیت‌هایی هستند، مانند عدم امکان جستجوی متن اصلی و عدم دسترسی به [Proton Mail Bridge](https://proton.me/mail/bridge)، که برای استفاده از [نرم افزار ایمیل دسک‌تاپ (ویندوزی) توصیه‌شده](email-clients.md) لازم است (به عنوان مثال. Thunderbird). حساب‌های پولی شامل ویژگی‌هایی مانند Proton Mail Bridge، فضای ذخیره‌سازی اضافی و پشتیبانی از دامنه سفارشی است. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail گزارش‌های خرابی داخلی دارد که اطلاعات آن را با اشخاص ثالث به اشتراک **نمی‌گذارد**. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
@@ -137,7 +137,7 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } روش های پرداخت خصوصی
 
-به دلیل تعلیق پرداخت‌یار BitPay در آلمان، Mailbox.org هیچ ارز دیجیتالی را نمی‌پذیرد. با این حال، آنها پول نقد از طریق پست، پرداخت نقدی به حساب بانکی، انتقال بانکی، کارت اعتباری، پی پال و چند پرداخت‌یار خاص آلمانی paydirekt و Sofortüberweisung را می پذیرند.
+به دلیل تعلیق پرداخت‌یار BitPay در آلمان، Mailbox.org هیچ ارز دیجیتالی را نمی‌پذیرد. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } امنیت حساب
 
@@ -157,7 +157,7 @@ Mailbox.org همچنین از کشف کلیدهای عمومی از طریق HTT
 
 #### :material-information-outline:{ .pg-blue } بستن حساب
 
-پس از پایان اشتراک، حساب شما محدود می شود. پس از [30 روز به صورت غیر قابل برگشت](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract) حذف می شود.
+Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } عملکردهای دیگر
 
