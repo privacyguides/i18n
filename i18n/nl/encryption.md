@@ -260,7 +260,7 @@ Tools met command-line interfaces zijn handig voor het integreren van [shell scr
 
 ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb** is een is een command-line shell wrapper voor LUKS. Het ondersteunt steganografie via [hulpprogramma's van derden](https://github.com/dyne/Tomb#how-does-it-work).
+**Tomb** is een is een command-line shell wrapper voor LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}

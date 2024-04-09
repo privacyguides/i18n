@@ -260,7 +260,7 @@ Las herramientas con interfaces de línea de comandos son útiles para integrar 
 
 ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb** es un empaquetador de shell de línea de comandos para LUKS. Admite esteganografía a través de [herramientas de terceros](https://github.com/dyne/Tomb#how-does-it-work).
+**Tomb** es un empaquetador de shell de línea de comandos para LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Página Principal](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentación}

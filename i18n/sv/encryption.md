@@ -260,7 +260,7 @@ Verktyg med kommandoradsgränssnitt är användbara för att integrera [skalskri
 
 ![Tomb-logotyp](assets/img/encryption-software/tomb.png){ align=right }
 
-* * Tomb * * är ett kommandoradsskal för LUKS. Den stöder steganografi via [verktyg från tredje part] (https://github.com/dyne/Tomb#how-does-it-work).
+* * Tomb * * är ett kommandoradsskal för LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}

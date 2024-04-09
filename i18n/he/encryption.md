@@ -260,7 +260,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ![Tomb לוגו](assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb** הוא מעטפת מעטפת שורת פקודה עבור LUKS. הוא תומך בסטגנוגרפיה באמצעות [כלים של צד שלישי](https://github.com/dyne/Tomb#how-does-it-work).
+**Tomb** הוא מעטפת מעטפת שורת פקודה עבור LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}

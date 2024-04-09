@@ -259,7 +259,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ![Tomb 로고](assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb**는 LUKS의 커맨드라인 Shell 래퍼(Wrapper)입니다. [외부 툴](https://github.com/dyne/Tomb#how-does-it-work)을 통해 스테가노그래피(Steganography)를 지원합니다.
+**Tomb**는 LUKS의 커맨드라인 Shell 래퍼(Wrapper)입니다. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}

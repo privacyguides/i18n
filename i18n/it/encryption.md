@@ -260,7 +260,7 @@ Gli strumenti con interfacce di riga di comando sono utili per integrare gli [sc
 
 ![Logo di Tomb](assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb** è un wrapper della shell a riga di comando, per LUKS. Supporta la steganografia tramite [strumenti di terze parti](https://github.com/dyne/Tomb#how-does-it-work).
+**Tomb** è un wrapper della shell a riga di comando, per LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}

@@ -270,7 +270,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 ![Logotipo da Tumba](/assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb** é uma shell wrapper de linha de comando para LUKS. Ele suporta esteganografia através de [ferramentas de terceiros](https://github.com/dyne/Tomb#how-does-it-work).
+**Tomb** é uma shell wrapper de linha de comando para LUKS. It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
