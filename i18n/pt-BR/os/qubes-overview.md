@@ -47,11 +47,11 @@ To copy and paste files and directories (folders) from one *qube* to another, yo
 <details class="note" markdown>
 <summary>Qubes do not have their own filesystems.</summary>
 
-You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. When doing so the changes aren't immediately made and can be easily undone in case of an accident. When you run a *qube*, it does not have a persistent filesystem. You can create and delete files, but these changes are ephemeral.
+You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. When doing so the changes aren't immediately made and can be easily undone in case of an accident. When you run a *qube*, it does not have a persistent filesystem. Você pode criar e excluir arquivos, mas essas alterações são efêmeras.
 
 </details>
 
-### Inter-VM Interactions
+### Interações entre VMs
 
 The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
 
