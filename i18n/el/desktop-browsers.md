@@ -85,7 +85,7 @@ schema:
 
 </div>
 
-Όπως και ο [περιηγητής Tor ](tor.md), έτσι και ο περιηγητής Mullvad έχει σχεδιαστεί για να αποτρέπει το fingerprinting, καθιστώντας το ψηφιακό δακτυλικό αποτύπωμα του προγράμματος περιήγησης πανομοιότυπο με όλων των υπόλοιπων χρηστών του περιηγητή Mullvad, και περιλαμβάνει προεπιλεγμένες ρυθμίσεις και επεκτάσεις, οι οποίες διαμορφώνονται αυτόματα από τα προεπιλεγμένα επίπεδα ασφαλείας: *τυπικό*, *ασφαλέστερο* και *ασφαλέστατο*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). Άλλες τροποποιήσεις θα έκαναν το ψηφιακό δακτυλικό σας αποτύπωμα μοναδικό, αναιρώντας έτσι τον σκοπό χρήσης αυτού του προγράμματος περιήγησης. Εάν θέλετε να ρυθμίσετε το πρόγραμμα περιήγησης σας σε μεγαλύτερο βαθμό και το fingerprinting δεν αποτελεί μία από τις έγνοιες σας, τότε σας προτείνουμε το [Firefox](#firefox).
+Όπως και ο [περιηγητής Tor ](tor.md), έτσι και ο περιηγητής Mullvad έχει σχεδιαστεί για να αποτρέπει το fingerprinting, καθιστώντας το ψηφιακό δακτυλικό αποτύπωμα του προγράμματος περιήγησης πανομοιότυπο με όλων των υπόλοιπων χρηστών του περιηγητή Mullvad, και περιλαμβάνει προεπιλεγμένες ρυθμίσεις και επεκτάσεις, οι οποίες διαμορφώνονται αυτόματα από τα προεπιλεγμένα επίπεδα ασφαλείας: *τυπικό*, *ασφαλέστερο* και *ασφαλέστατο*. Ως εκ τούτου, είναι πολύ σημαντικό να μην τροποποιήσετε καθόλου το πρόγραμμα περιήγησης εκτός από την προσαρμογή των προεπιλεγμένων επιπέδων ασφαλείας [](https://tb-manual.torproject.org/security-settings). Άλλες τροποποιήσεις θα έκαναν το ψηφιακό δακτυλικό σας αποτύπωμα μοναδικό, αναιρώντας έτσι τον σκοπό χρήσης αυτού του προγράμματος περιήγησης. Εάν θέλετε να ρυθμίσετε το πρόγραμμα περιήγησης σας σε μεγαλύτερο βαθμό και το fingerprinting δε σας απασχολεί, τότε σας προτείνουμε το [Firefox](#firefox).
 
 ### Anti-Fingerprinting
 
@@ -95,7 +95,7 @@ schema:
 
 Σημειώστε, ότι ενώ μπορείτε να χρησιμοποιήσετε το περιηγητή Mullvad σε συνδυασμό με οποιονδήποτε πάροχο VPN, οι άλλοι άνθρωποι σε αυτό το VPN πρέπει επίσης να χρησιμοποιούν το περιηγητή Mullvad, ετσί ώστε να μπορέσει να υπάρξει αυτό το "πλήθος", κάτι που είναι πιο πιθανό στο Mullvad VPN σε σύγκριση με άλλους παρόχους, ιδιαίτερα τόσο κοντά στην κυκλοφορία του Mullvad Browser. Ο περιηγητής Mullvad δε διαθέτει ενσωματωμένη συνδεσιμότητα VPN, ούτε ελέγχει εάν χρησιμοποιείτε ένα VPN πριν από την περιήγηση- η σύνδεση VPN πρέπει να ρυθμιστεί και να υπόκειται σε διαχείρισή ξεχωριστά.
 
-Ο περιηγητής Mullvad διαθέτει προεγκατεστημένες τις επεκτάσεις *uBlock Origin* και *NoScript*. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. Έρχεται επίσης προεγκατεστημένο με την επέκταση περιήγησης Mullvad, η οποία *μπορεί* να αφαιρεθεί με ασφάλεια χωρίς να επηρεάσει το ψηφιακό δακτυλικό αποτύπωμα του προγράμματος περιήγησής σας, αν θέλετε, αλλά είναι επίσης ασφαλές να το διατηρήσετε ακόμα και αν δεν χρησιμοποιείτε το Mullvad VPN.
+Ο περιηγητής Mullvad διαθέτει προεγκατεστημένες τις επεκτάσεις *uBlock Origin* και *NoScript*. Ενώ συνήθως δεν συνιστούμε την πρόσθεση *επιπλέων* [πρόσθετων επεκτάσεων](browser-extensions.md), αυτές οι επεκτάσεις, οι οποίες είναι προ-εγκατεστημένες στο πρόγραμμα περιήγησης θα πρέπει να **μην** αφαιρεθούν ή να ρυθμιστούν πέρα από τις προεπιλεγμένες ρυθμίσεις τους, διότι κάτι τέτοιο θα κάνει αισθητά το ψηφιακό δακτυλικό αποτύπωμα του περιηγητή σας διακριτό από τους άλλους χρήστες του προγράμματος περιήγησης Mullvad. Έρχεται επίσης προεγκατεστημένο με την επέκταση περιήγησης Mullvad, η οποία *μπορεί* να αφαιρεθεί με ασφάλεια χωρίς να επηρεάσει το ψηφιακό δακτυλικό αποτύπωμα του προγράμματος περιήγησής σας, αν θέλετε, αλλά είναι επίσης ασφαλές να το διατηρήσετε ακόμα και αν δεν χρησιμοποιείτε το Mullvad VPN.
 
 ### Λειτουργία Ιδιωτικής Περιήγησης
 
@@ -105,7 +105,7 @@ schema:
 
 ### Mullvad Leta
 
-Ο περιηγητής Mullvad διαθέτει το DuckDuckGo ως προεπιλεγμένη μηχανή αναζήτησης [](search-engines.md), αλλά έχει επίσης προεγκατεστημένο και το **Mullvad Leta**, μια μηχανή αναζήτησης που απαιτεί μια ενεργή συνδρομή Mullvad VPN για πρόσβαση. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Για το λόγο αυτό, αποθαρρύνουμε τη χρήση του Mullvad Leta, παρόλο που η Mullvad συλλέγει πολύ λίγες πληροφορίες για τους συνδρομητές VPN της.
+Ο περιηγητής Mullvad διαθέτει το DuckDuckGo ως προεπιλεγμένη μηχανή αναζήτησης [](search-engines.md), αλλά έχει επίσης προεγκατεστημένο και το **Mullvad Leta**, μια μηχανή αναζήτησης που απαιτεί μια ενεργή συνδρομή Mullvad VPN για πρόσβαση. Το Mullvad Leta αναζητά απευθείας το API πληρωμένης αναζήτησης της Google, γι' αυτό και περιορίζεται σε συνδρομητές επί πληρωμής. Ωστόσο, η Mullvad μπορεί να συσχετίσει τα ερωτήματα αναζήτησης και τους λογαριασμούς VPN της Mullvad λόγω αυτού του περιορισμού. Για το λόγο αυτό, αποθαρρύνουμε τη χρήση του Mullvad Leta, παρόλο που η Mullvad συλλέγει πολύ λίγες πληροφορίες για τους συνδρομητές VPN της.
 
 ## Firefox
 
@@ -134,13 +134,13 @@ schema:
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Προσοχή</p>
 
 Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
-### Recommended Firefox Configuration
+### Προτεινόμενη Ρύθμιση Firefox
 
 These options can be found in :material-menu: → **Settings**
 
@@ -352,27 +352,27 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 ## Additional Resources
 
-## Criteria
+## Κριτήρια
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Σημειώστε ότι δε συσχετιζόμαστε με κανένα από τα project που προτείνουμε.** Εκτός από τα [συνήθη κριτήριά μας](about/criteria.md), έχουμε αναπτύξει ένα σαφές σύνολο απαιτήσεων που μας επιτρέπουν να παρέχουμε αντικειμενικές συστάσεις. Σας προτείνουμε να εξοικειωθείτε με αυτόν τον κατάλογο προτού επιλέξετε να χρησιμοποιήσετε ένα project και να διεξάγετε τη δική σας έρευνα για να βεβαιωθείτε ότι είναι η σωστή επιλογή για εσάς.
 
-### Minimum Requirements
+### Ελάχιστες Απαιτήσεις
 
-- Must be open-source software.
-- Supports automatic updates.
-- Receives engine updates in 0-1 days from upstream release.
-- Available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
-- Blocks third-party cookies by default.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Πρέπει να είναι λογισμικό ανοικτού κώδικα.
+- Υποστηρίζει αυτόματες ενημερώσεις.
+- Λαμβάνει ενημερώσεις engine σε 0-1 ημέρες από την έκδοση του upstream.
+- Είναι διαθέσιμο σε Linux, macOS και Windows.
+- Οποιεσδήποτε αλλαγές απαιτούνται για να γίνει το πρόγραμμα περιήγησης πιο φιλικό προς το απόρρητο δεν θα πρέπει να επηρεάζουν αρνητικά την εμπειρία του χρήστη.
+- Μπλοκάρει τα cookies τρίτων από προεπιλογή.
+- Υποστηρίζει [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) για τον μετριασμό της παρακολούθησης μεταξύ των τοποθεσιών.[^1]
 
-### Best-Case
+### Βέλτιστη Περίπτωση
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Τα κριτήρια της καλύτερης περίπτωσης αντιπροσωπεύουν αυτό που θα θέλαμε να δούμε από το τέλειο project σε αυτή την κατηγορία. Οι συστάσεις μας ενδέχεται να μην περιλαμβάνουν κάποια ή όλες αυτές τις λειτουργίες, αλλά εκείνες που τις περιλαμβάνουν ενδέχεται να κατατάσσονται υψηλότερα από άλλες σε αυτή τη σελίδα.
 
-- Includes built-in content blocking functionality.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
+- Περιλαμβάνει ενσωματωμένη λειτουργία αποκλεισμού περιεχομένου.
+- Υποστηρίζει διαμερισμό cookie ([Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Υποστηρίζει Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
 - Does not include add-on functionality (bloatware) that does not impact user privacy.
 - Does not collect telemetry by default.
 - Provides open-source sync server implementation.
