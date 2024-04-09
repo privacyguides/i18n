@@ -95,7 +95,7 @@ Come [Tor Browser](tor.md), Mullvad Browser è progettato per impedire il finger
 
 Nota che, sebbene tu possa utilizzare Mullvad Browser con qualsiasi fornitore VPN, altre persone su tale VPN devono anch'esse utilizzare Mullvad Browser affinché tale "folla" esista, il che è molto più probabile su Mullvad VPN, rispetto ad altri fornitori, in particolare così a breve distanza dal lancio di Mullvad Browser. Mullvad Browser non dispone di connettività VPN integrata, né verifica che tu stia utilizzando una VPN prima di navigare; la tua connessione VPN dev'essere configurata e gestita separatamente.
 
-Mullvad Browser contiene le estensioni pre-installate di *uBlock Origin* e *NoScript*. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. Inoltre, presenta l'Estensione Mullvad Browser pre-installata, che *può* essere rimossa in sicurezza, senza influenzare l'impronta digitale del tuo browser, se lo desideri, ma è anche sicura da mantenere se non utilizzi la VPN di Mullvad.
+Mullvad Browser contiene le estensioni pre-installate di *uBlock Origin* e *NoScript*. Anche se in genere sconsigliamo di aggiungere *ulteriori* [estensioni del browser](browser-extensions.md), quelle preinstallate **non** devono essere rimosse o configurate al di fuori dei valori predefiniti, perché in questo modo l'impronta digitale del browser si distinguerebbe notevolmente da quella degli altri utenti di Mullvad Browser. Inoltre, presenta l'Estensione Mullvad Browser pre-installata, che *può* essere rimossa in sicurezza, senza influenzare l'impronta digitale del tuo browser, se lo desideri, ma è anche sicura da mantenere se non utilizzi la VPN di Mullvad.
 
 ### Modalità di Navigazione Privata
 
@@ -105,7 +105,7 @@ Ciò è necessario per impedire forme avanzate di tracciamento, a costo della co
 
 ### Mullvad Leta
 
-Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) predefinito, ma include anche **Mullvad Leta**, un motore di ricerca che richiede un abbonamento attivo alla VPN di Mullvad, per potervi accedere. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Per questo motivo sconsigliamo l'uso di Mullvad Leta, anche se Mullvad raccoglie pochissime informazioni sui propri abbonati alla VPN.
+Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) predefinito, ma include anche **Mullvad Leta**, un motore di ricerca che richiede un abbonamento attivo alla VPN di Mullvad, per potervi accedere. Mullvad Leta interroga direttamente l'API di ricerca a pagamento di Google, motivo per cui è limitata agli abbonati paganti. Tuttavia, è possibile per Mullvad correlare le query di ricerca e gli account VPN Mullvad a causa di questa limitazione. Per questo motivo sconsigliamo l'uso di Mullvad Leta, anche se Mullvad raccoglie pochissime informazioni sui propri abbonati alla VPN.
 
 ## Firefox
 
@@ -116,10 +116,10 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
 **Firefox** offre robuste impostazioni di privacy, come la [protezione antitracciamento avanzata](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop), che aiuta a bloccare varie [tipologie di tracciamento](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop#w_che-cosa-viene-bloccato-con-la-protezione-antitracciamento-avanzata).
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentazione}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Download</summary>
@@ -136,17 +136,17 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-Firefox include un [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) unico nei download dal sito web di Mozilla e utilizza la telemetria di Firefox per inviare il token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox include un [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) unico nei download dal sito web di Mozilla e utilizza la telemetria di Firefox per inviare il token. Il token **non** è incluso nelle versioni di [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
-### Recommended Firefox Configuration
+### Configurazione consigliata di Firefox
 
 Queste opzioni si possono trovare in :material-menu: → **Impostazioni**
 
 #### Ricerca
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Disabilita **Visualizza suggerimenti di ricerca**
 
 Le funzionalità di suggerimento di ricerca potrebbero non essere disponibili nella tua regione.
 
@@ -156,7 +156,7 @@ I suggerimenti di ricerca inviano qualsiasi cosa tu digiti nella barra degli ind
 
 [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) è una funzionalità simile ai suggerimenti di riceerca, disponibile esclusivamente negli Stati Uniti. Consigliamo di disabilitarla per le stesse motivazioni per cui consigliamo di disabilitare i suggerimenti di ricerca. Se non vedi queste opzioni sotto l'intestazione della **Barra degli Indirizzi**, non disponi della nuova esperienza e puoi ignorare tali modifiche.
 
-- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Deselezionare i **suggerimenti da Firefox**
 - [ ] Rimuovi la spunta da **Suggestions from sponsors**
 
 #### Privacy e sicurezza
@@ -183,7 +183,7 @@ Ciò ti protegge dai cookie persistenti, ma non da quelli acquisiti durante ogni
 
 > Firefox ci invia i dati sulla tua versione e lingua di Firefox; sistema operativo del dispositivo e configurazione hardware; memoria, informazioni essenziali su arresti anomali ed errori; risultati di processi automatizzati quali aggiornamenti, navigazione sicura e attivazione. Quando Firefox ci invia i dati, il tuo indirizzo IP è raccolto temporaneamente come parte dei registri del nostro server.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
+Inoltre, il servizio Mozilla Accounts raccoglie [alcuni dati tecnici](https://mozilla.org/privacy/mozilla-accounts). Se si utilizza un account Mozilla è possibile rinunciare:
 
 1. Apri le [impostazioni del tuo profilo su accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deseleziona ** Raccolta e utilizzo dati ** > **Aiutaci a migliorare gli ⁨account Firefox⁩**
@@ -230,13 +230,13 @@ Arkenfox mira soltanto a contrastare gli script di tracciamento di base o sempli
 Brave è basato sul progetto del browser web di Chromium, quindi, dovrebbe risultare familiare e avere problemi minimi di compatibilità con i siti web.
 
 [:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servizio Onion" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
@@ -257,7 +257,7 @@ Brave aggiunge un "[codice di riferimento](https://github.com/brave/brave-browse
 
 </div>
 
-### Recommended Brave Configuration
+### Configurazione consigliata di Brave
 
 Queste opzioni si possono trovare in :material-menu: → **Impostazioni**.
 
@@ -289,23 +289,23 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
+1. Questa opzione offre una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzate di uBlock Origin.
 2. Se desideri mantenere l'accesso in un particolare sito che visiti spesso, puoi selezionare le eccezioni per ogni sito cliccando sull'icona dello scudo sulla barra degli indirizzi.
 
 ##### Privacy e sicurezza
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Seleziona **Disabilita non-proxied UDP** sotto [WebRTC IP Handling Policy](https://support.brave. om/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Deseleziona **Usa i servizi Google per la messaggistica push**
+- [ ] Deseleziona **Consenti l'analisi dei prodotti nel rispetto della privacy (P3A)**
+- [ ] Deseleziona **Invia automaticamente il ping giornaliero a Brave**
+- [ ] Deseleziona **Invia automaticamente rapporti diagnostici**
+- [ ] Deseleziona **Finestra privata con Tor** (1)
 
 </div>
 
-1. Brave **non è** resistente al fingerprinting come il Tor Browser e molte meno persone utilizzano Brave con Tor, facendoti quindi distinguere. Where [strong anonymity is required](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) use the [Tor Browser](tor.md#tor-browser).
+1. Brave **non è** resistente al fingerprinting come il Tor Browser e molte meno persone utilizzano Brave con Tor, facendoti quindi distinguere. Dove [è richiesto un forte anonimato](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) utilizzare [Tor Browser](tor.md#tor-browser).
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizzazione alla chiusura</p>
@@ -342,7 +342,7 @@ Le funzionalità Web3 di Brave possono potenzialmente aumentare il fingerprint d
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) consente ai tuoi dati di navigazione (cronologia, segnalibri, ecc.) di essere accessibili su tutti i dispositivi, senza richiedere un profilo e li protegge con l'E2EE.
 
 #### Ricompense e Portafoglio di Brave
 
@@ -364,18 +364,18 @@ Le funzionalità Web3 di Brave possono potenzialmente aumentare il fingerprint d
 - È disponibile su Linux, macOS e Windows.
 - Qualsiasi modifica necessaria per rendere il browser più rispettoso della privacy non dovrebbe influenzare negativamente l'esperienza degli utenti.
 - Blocca i cookie di terze parti di default.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Supporta il [partizionamento degli stati](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) per mitigare il tracciamento cross-site.[^1]
 
 ### Miglior Caso
 
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere alcuna o tutte queste funzionalità, ma quelli che le presentano, potrebbero essere meglio classificati di altri su questa pagina.
 
 - Include una funzionalità di blocco dei contenuti integrati.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Supporta la compartimentazione dei cookie (alla maniera dei [Container Multi-Account](https://support.mozilla.org/kb/containers)).
 - Supporta le Applicazioni Web Progressive (PWA). Le PWA consentono di installare determinati siti web come se fossero applicazioni native sul computer. Ciò può comportare vantaggi rispetto all'installazione di app basate su Electron, poiché benefici degli aggiornamenti di sicurezza regolari del tuo browser.
 - Non include funzionalità aggiuntive (bloatware) che non influiscono sulla privacy dell'utente.
 - Non raccoglie la telemetria di default.
 - Fornisce un'implementazione open source del server di sincronizzazione.
 - Presenta un [motore di ricerca privato](search-engines.md) di default.
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: L'implementazione di Brave è descritta in dettaglio in [Brave Privacy Updates: Partizionamento dello stato della rete per la privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

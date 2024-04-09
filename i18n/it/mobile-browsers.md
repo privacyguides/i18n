@@ -54,10 +54,10 @@ On Android, Firefox is still less secure than Chromium-based alternatives: Mozil
 Brave si basa sul progetto del browser web di Chromium, quindi, dovrebbe sembrare familire e avere problemi di compatibilità minimali con i siti web.
 
 [:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servizio Onion" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -69,7 +69,7 @@ Brave si basa sul progetto del browser web di Chromium, quindi, dovrebbe sembrar
 
 </div>
 
-#### Recommended Brave Configuration
+#### Configurazione consigliata di Brave
 
 Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Quando utilizzi Brave, consigliamo di modificare le seguenti informazioni per proteggere la tua privacy da certe parti, ma tutti i browser tranne [Tor Browser](tor.md#tor-browser) saranno tracciabili da *qualcuno*, in un modo o nell'altro.
 
@@ -129,7 +129,7 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) consente ai tuoi dati di navigazione (cronologia, segnalibri, ecc.) di essere accessibili su tutti i dispositivi, senza richiedere un profilo e li protegge con l'E2EE.
 
 ## iOS
 

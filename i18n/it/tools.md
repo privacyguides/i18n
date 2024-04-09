@@ -192,13 +192,13 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 ### Fornitori di VPN
 
 <details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
+<summary>Le VPN non forniscono l'anonimato</summary>
 
 L'utilizzo di una VPN **non** manterrà anonime le tue abitudini di navigazione, né aggiungerà ulteriore sicurezza al traffico non sicuro (HTTP).
 
 Se stai cercando l'**anonimato**, dovresti utilizzare Tor Browser, **invece** che una VPN.
 
-Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti web che utilizzano HTTPS. Una VPN non è un sostituto per buone pratiche di sicurezza.
+Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connetterti a siti web che utilizzano HTTPS. Una VPN non sostituisce le buone pratiche di sicurezza.
 
 [Scopri di più :material-arrow-right-drop-circle:](vpn.md)
 
