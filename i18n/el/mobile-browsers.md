@@ -129,7 +129,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+Το [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) επιτρέπει στα δεδομένα περιήγησής σας (ιστορικό, σελιδοδείκτες κ. λπ.) να είναι προσβάσιμα σε όλες τις συσκευές σας χωρίς να απαιτείται λογαριασμός και τα προστατεύει με κρυπτογράφηση από άκρο σε άκρο.
 
 ## iOS
 
