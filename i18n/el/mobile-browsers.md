@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+meta_title: "Περιηγητές Web για κινητά με σεβασμό στο απόρρητο για Android και iOS - Privacy Guides"
+title: "Περιηγητές για κινητά"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: Αυτά τα προγράμματα περιήγησης συνιστούμε επί του παρόντος για τυπική/μη ανώνυμη περιήγηση στο διαδίκτυο από το τηλέφωνό σας.
 cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Συστάσεις για πρόγραμμα περιήγησης για κινητά που σέβονται την ιδιωτικότητα
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended mobile web browsers and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. In general, we recommend keeping extensions to a minimum; they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+Αυτοί είναι οι περιηγητές ιστού για κινητά τηλέφωνα, τους οποίους προτείνουμε επί του παρόντος, καθώς και οι ρυθμίσεις για τυπική/μη-ανώνυμη περιήγηση. Εάν χρειάζεται να περιηγηθείτε στο διαδίκτυο ανώνυμα, θα πρέπει σε αυτή την περίπτωση να χρησιμοποιήσετε το [Tor](tor.md). Σε γενικές γραμμές, συνιστούμε να περιορίζετε τις επεκτάσεις στο ελάχιστο. Έχουν προνομιακή πρόσβαση στο πρόγραμμα περιήγησής σας, απαιτούν την εμπιστοσύνη του προγραμματιστή, μπορεί να σας κάνουν να [ξεχωρίζετε](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) στοα διαδίκτυο και να [αποδυναμώνουν](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) την απομόνωση του ιστότοπου με ασφαλές τρόπο.
 
 ## Android
 
@@ -198,7 +198,7 @@ The following privacy/security-related options can be found in the :gear: **Sett
 
 All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
-##### Privacy & Security
+##### Απόρρητο και ασφάλεια
 
 - [x] Enable **Prevent Cross-Site Tracking**
 

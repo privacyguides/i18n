@@ -1,8 +1,8 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "Πρόγραμμα περιήγησης και δίκτυο Tor: Tor: Ανώνυμη περιήγηση στο διαδίκτυο - Privacy Guides"
 title: "Tor Browser"
 icon: simple/torbrowser
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Προστατέψτε την περιήγησή σας στο διαδίκτυο από τα αδιάκριτα βλέμματα χρησιμοποιώντας το δίκτυο Tor, ένα ασφαλές δίκτυο που παρακάμπτει τη λογοκρισία.
 cover: tor.webp
 schema:
   - 
@@ -23,7 +23,7 @@ schema:
       url: "./"
 ---
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+**Το Tor** είναι μια ομάδα διακομιστών που λειτουργούν εθελοντικά και σας επιτρέπουν να συνδεθείτε δωρεάν και να βελτιώσετε την ιδιωτικότητα και την ασφάλειά σας στο Διαδίκτυο. Τα άτομα και οι οργανισμοί μπορούν επίσης να μοιράζονται πληροφορίες μέσω του δικτύου Tor με τις κρυφές υπηρεσίες ".onion" χωρίς να θέτουν σε κίνδυνο την ιδιωτικότητά τους. Επειδή η διαδικτυακή κυκλοφορία του Tor είναι δύσκολο να μπλοκαριστεί και να ανιχνευθεί, το Tor είναι ένα αποτελεσματικό εργαλείο παράκαμψης της λογοκρισίας.
 
 [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 

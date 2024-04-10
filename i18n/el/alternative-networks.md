@@ -15,7 +15,7 @@ When it comes to anonymizing networks, we want to specially note that [Tor](adva
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+The **Tor** network is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Τα άτομα και οι οργανισμοί μπορούν επίσης να μοιράζονται πληροφορίες μέσω του δικτύου Tor με τις κρυφές υπηρεσίες ".onion" χωρίς να θέτουν σε κίνδυνο την ιδιωτικότητά τους. Επειδή η διαδικτυακή κυκλοφορία του Tor είναι δύσκολο να μπλοκαριστεί και να ανιχνευθεί, το Tor είναι ένα αποτελεσματικό εργαλείο παράκαμψης της λογοκρισίας.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }

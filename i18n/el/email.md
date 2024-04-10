@@ -1,19 +1,19 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
-title: "Email Services"
+meta_title: "Συστάσεις για κρυπτογραφημένα ιδιωτικά email - Privacy Guides"
+title: "Υπηρεσίες ηλεκτρονικού ταχυδρομείου"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Αυτοί οι πάροχοι ηλεκτρονικού ταχυδρομείου προσφέρουν ένα εξαιρετικό μέρος για την ασφαλή αποθήκευση των μηνυμάτων ηλεκτρονικού ταχυδρομείου σας και πολλοί από αυτούς προσφέρουν διαλειτουργική κρυπτογράφηση OpenPGP με άλλους παρόχους.
 cover: email.webp
 ---
 
 <!-- markdownlint-disable MD024 -->
-Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
+Το ηλεκτρονικό ταχυδρομείο είναι πρακτικά απαραίτητο για τη χρήση οποιασδήποτε διαδικτυακής υπηρεσίας, ωστόσο δεν το συνιστούμε για συνομιλίες από άτομο σε άτομο. Αντί να χρησιμοποιείτε το ηλεκτρονικό ταχυδρομείο για να επικοινωνείτε με άλλα άτομα, σκεφτείτε να χρησιμοποιήσετε ένα μέσο άμεσων μηνυμάτων που υποστηρίζει forward secrecy.
 
-[Recommended Instant Messengers](real-time-communication.md ""){.md-button}
+[Προτεινόμενες εφαρμογές άμεσων μηνυμάτων](real-time-communication.md ""){.md-button}
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features.
+Για όλα τα υπόλοιπα, συνιστούμε μια ποικιλία παρόχων ηλεκτρονικού ταχυδρομείου που βασίζονται σε βιώσιμα επιχειρηματικά μοντέλα και ενσωματωμένα χαρακτηριστικά ασφάλειας και απορρήτου.
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
+- [Πάροχοι ηλεκτρονικού ταχυδρομείου συμβατοί με το OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
 - [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
 - [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
 
