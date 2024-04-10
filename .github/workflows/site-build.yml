@@ -33,7 +33,7 @@ jobs:
     strategy:
       matrix:
         repo: [mkdocs-material-insiders, brand, i18n]
-    uses: privacyguides/privacyguides.org/.github/workflows/download-repo.yml@main
+    uses: privacyguides/.github/.github/workflows/download-repo.yml@main
     with:
       repo: ${{ matrix.repo }}
     secrets:
@@ -43,7 +43,7 @@ jobs:
     needs: submodule
     strategy:
       matrix:
-        lang: [es, fr, he, it, nl, ru, zh-Hant]
+        lang: [es, fr, he, it, ko, nl, pt, ru, zh-Hant]
       fail-fast: false
     permissions:
       contents: read
@@ -57,4 +57,4 @@ jobs:
   cleanup:
     if: ${{ always() }}
     needs: build
-    uses: privacyguides/privacyguides.org/.github/workflows/cleanup.yml@main
+    uses: privacyguides/.github/.github/workflows/cleanup.yml@main
