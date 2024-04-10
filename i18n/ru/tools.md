@@ -44,8 +44,9 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 <div class="grid cards" markdown>
 
-- ![Логотип Brave](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
-- ![Логотип Safari](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
+- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
+- ![Mull logo](assets/img/browsers/mull.svg){ .twemoji } [Mull (Android)](mobile-browsers.md#mull)
+- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
 
@@ -381,13 +382,14 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 <div class="grid cards" markdown>
 
-- ![Логотип Bitwarden](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
-- ![Логотип 1Password](assets/img/password-management/1password.svg){ .twemoji } [1Password](passwords.md#1password)
-- ![Логотип Psono](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
-- ![Логотип KeePassXC](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
-- ![Логотип KeePassDX](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Логотип Strongbox](assets/img/password-management/strongbox.svg){ .twemoji } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
-- ![Логотип gopass](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
+- ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
+- ![Proton Pass logo](assets/img/password-management/protonpass.svg){ .twemoji } [Proton Pass](passwords.md#proton-pass)
+- ![1Password logo](assets/img/password-management/1password.svg){ .twemoji } [1Password](passwords.md#1password)
+- ![Psono logo](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
+- ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
+- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx-android)
+- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
+- ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
 
 </div>
 

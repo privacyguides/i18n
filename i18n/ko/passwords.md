@@ -49,6 +49,20 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
+    name: Proton Pass
+    image: /assets/img/password-management/protonpass.svg
+    url: https://proton.me/pass
+    applicationCategory: 비밀번호 관리자
+    operatingSystem:
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
@@ -139,9 +153,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Bitwarden 로고](assets/img/password-management/bitwarden.svg){ align=right }
+![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden**은 무료 오픈 소스 비밀번호 관리자입니다. 개인, 팀, 비즈니스 조직의 비밀번호 관리 문제를 해결하는 것을 목표로 합니다. Bitwarden은 모든 로그인 및 비밀번호를 저장하는 동시에 간편하게 모든 기기 간 동기화가 가능한, 가장 안전하고 뛰어난 서비스로 꼽히는 솔루션입니다.
+**Bitwarden** is a free and open-source password and passkey manager. 개인, 팀, 비즈니스 조직의 비밀번호 관리 문제를 해결하는 것을 목표로 합니다. Bitwarden은 모든 로그인 및 비밀번호를 저장하는 동시에 간편하게 모든 기기 간 동기화가 가능한, 가장 안전하고 뛰어난 서비스로 꼽히는 솔루션입니다.
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
@@ -160,6 +174,7 @@ schema:
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+- [:simple-safari: Safari](https://apps.apple.com/us/app/bitwarden/id1352778147)
 
 </details>
 
@@ -177,13 +192,51 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="소스 코드" }
 [:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=기부 }
 
+### Proton Pass
+
+<div class="admonition recommendation" markdown>
+
+![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
+
+Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
+
+[:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation"}
+[:octicons-code-16:](https://github.com/protonpass/){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
+- [:simple-windows11: Windows](https://proton.me/pass/download)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/proton-pass/)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:octicons-globe-16: Web](https://pass.proton.me/)
+
+</details>
+
+</div>
+
+With the acquisition of SimpleLogin in April 2022, Proton has offered a "hide-my-email" feature that lets you create 10 aliases (free plan) or unlimited aliases (paid plans).
+
+Proton Pass currently doesn't have any "master password" functionality, which means that your vault is protected with the password for your Proton account and any of their supported [two factor authentication](basics/multi-factor-authentication.md) methods.
+
+The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June of 2023. The security analysis company concluded:
+
+> Proton Pass apps and components leave a rather positive impression in terms of security.
+
+All issues were addressed and fixed shortly after the [report](https://res.cloudinary.com/dbulfrlrz/images/v1707561557/wp-pme/Cure53-proton-pass-20230717/Cure53-proton-pass-20230717.pdf).
+
 ### 1Password
 
 <div class="admonition recommendation" markdown>
 
-![1Password 로고](assets/img/password-management/1password.svg){ align=right }
+![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password**는 보안과 사용 편의성에 중점을 둔 비밀번호 관리자입니다. 비밀번호, 카드, 소프트웨어 라이선스를 비롯한 민감한 정보를 안전한 디지털 보관함에 저장 가능합니다. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password는 오픈 소스가 아니지만, 제품의 보안은 [보안 백서](https://1passwordstatic.com/files/security/1password-white-paper.pdf)에 철저하게 문서화되어 있습니다.
+**1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password는 오픈 소스가 아니지만, 제품의 보안은 [보안 백서](https://1passwordstatic.com/files/security/1password-white-paper.pdf)에 철저하게 문서화되어 있습니다.
 
 [:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
@@ -197,6 +250,11 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 - [:simple-windows11: Windows](https://1password.com/downloads/windows)
 - [:simple-apple: macOS](https://1password.com/downloads/mac)
 - [:simple-linux: Linux](https://1password.com/downloads/linux)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
+- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
+- [:octicons-globe-16: Web](https://my.1password.com/signin)
 
 </details>
 

@@ -45,6 +45,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 <div class="grid cards" markdown>
 
 - ![Brave logo](assets/img/browsers/brave.svg){ .twemoji } [Brave (Android)](mobile-browsers.md#brave)
+- ![Mull logo](assets/img/browsers/mull.svg){ .twemoji } [Mull (Android)](mobile-browsers.md#mull)
 - ![Safari logo](assets/img/browsers/safari.svg){ .twemoji } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
@@ -382,6 +383,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 <div class="grid cards" markdown>
 
 - ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](passwords.md#bitwarden)
+- ![Proton Pass logo](assets/img/password-management/protonpass.svg){ .twemoji } [Proton Pass](passwords.md#proton-pass)
 - ![1Password logo](assets/img/password-management/1password.svg){ .twemoji } [1Password](passwords.md#1password)
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji } [Psono](passwords.md#psono)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)

@@ -252,6 +252,8 @@ Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) with
 - 必须能够自托管。
 - 必须向匿名用户提供所有基本的网站功能。
 
-We only consider frontends for websites which are...
+We only consider frontends if one of the following is true for a platform:
 
 - Normally only accessible with JavaScript enabled.
+- Normally only accessible with an account.
+- Blocks access from commercial [VPNs](vpn.md).

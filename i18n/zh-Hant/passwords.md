@@ -49,6 +49,20 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
+    name: Proton Pass
+    image: /assets/img/password-management/protonpass.svg
+    url: https://proton.me/pass
+    applicationCategory: 密碼管理器。
+    operatingSystem:
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": 網頁
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
@@ -141,7 +155,7 @@ schema:
 
 ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** 是一個免費的開源密碼管理器。 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可存儲所有登錄名和密碼，同時方便地在所有設備之間保持同步。
+**Bitwarden** is a free and open-source password and passkey manager. 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可存儲所有登錄名和密碼，同時方便地在所有設備之間保持同步。
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
@@ -149,7 +163,7 @@ schema:
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
@@ -160,6 +174,7 @@ schema:
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+- [:simple-safari: Safari](https://apps.apple.com/us/app/bitwarden/id1352778147)
 
 </details>
 
@@ -177,26 +192,69 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribute }
 
+### Proton Pass
+
+<div class="admonition recommendation" markdown>
+
+![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
+
+Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
+
+[:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation"}
+[:octicons-code-16:](https://github.com/protonpass/){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
+- [:simple-windows11: Windows](https://proton.me/pass/download)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/proton-pass/)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:octicons-globe-16: Web](https://pass.proton.me/)
+
+</details>
+
+</div>
+
+With the acquisition of SimpleLogin in April 2022, Proton has offered a "hide-my-email" feature that lets you create 10 aliases (free plan) or unlimited aliases (paid plans).
+
+Proton Pass currently doesn't have any "master password" functionality, which means that your vault is protected with the password for your Proton account and any of their supported [two factor authentication](basics/multi-factor-authentication.md) methods.
+
+The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June of 2023. The security analysis company concluded:
+
+> Proton Pass apps and components leave a rather positive impression in terms of security.
+
+All issues were addressed and fixed shortly after the [report](https://res.cloudinary.com/dbulfrlrz/images/v1707561557/wp-pme/Cure53-proton-pass-20230717/Cure53-proton-pass-20230717.pdf).
+
 ### 1Password
 
 <div class="admonition recommendation" markdown>
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** 是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
+**1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
 [:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
 - [:simple-windows11: Windows](https://1password.com/downloads/windows)
 - [:simple-apple: macOS](https://1password.com/downloads/mac)
 - [:simple-linux: Linux](https://1password.com/downloads/linux)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
+- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
+- [:octicons-globe-16: Web](https://my.1password.com/signin)
 
 </details>
 

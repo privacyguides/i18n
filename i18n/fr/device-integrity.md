@@ -207,7 +207,7 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
+- [:simple-fdroid: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
 
 </details>
 

@@ -252,6 +252,8 @@ Aanbevolen frontends...
 - Moet zelf te hosten zijn.
 - Moet alle basisfuncties van de website beschikbaar stellen aan anonieme gebruikers.
 
-We overwegen alleen frontends voor websites die...
+We only consider frontends if one of the following is true for a platform:
 
 - Normally only accessible with JavaScript enabled.
+- Normally only accessible with an account.
+- Blocks access from commercial [VPNs](vpn.md).

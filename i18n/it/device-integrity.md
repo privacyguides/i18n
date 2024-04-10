@@ -207,7 +207,7 @@ L'utilizzo di queste app non è sufficiente per determinare che un dispositivo s
 <details class="downloads" markdown>
 <summary>Download</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
+- [:simple-fdroid: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
 
 </details>
 

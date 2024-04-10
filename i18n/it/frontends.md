@@ -252,6 +252,8 @@ Frontend consigliati...
 - Deve essere ospitabile autonomamente.
 - Deve fornire tutte le funzionalità di base del sito web a utenti anonimi.
 
-Consideriamo soltanto i frontend per i siti web che...
+We only consider frontends if one of the following is true for a platform:
 
-- Normalmente è accessibile solo con JavaScript abilitato.
+- Normally only accessible with JavaScript enabled.
+- Normally only accessible with an account.
+- Blocks access from commercial [VPNs](vpn.md).

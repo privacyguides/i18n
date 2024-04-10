@@ -252,6 +252,8 @@ Piped שימושי אם ברצונך להשתמש ב - [SponsorBlock](https://sp
 - חייב להיות ניתן לאירוח עצמי.
 - חייב לספק את כל הפונקציונליות הבסיסית של האתר הזמינה למשתמשים אנונימיים.
 
-אנו מתייחסים רק לחזיתות עבור אתרים שהם...
+We only consider frontends if one of the following is true for a platform:
 
 - Normally only accessible with JavaScript enabled.
+- Normally only accessible with an account.
+- Blocks access from commercial [VPNs](vpn.md).

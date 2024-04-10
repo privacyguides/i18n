@@ -252,6 +252,8 @@ Piped 需要JavaScript 才能運行，它有許多公共實例。
 - 必須是可自行託管。
 - 必須提供匿名訪客完整的網站基本功能。
 
-我們只考慮網站的前端是...
+We only consider frontends if one of the following is true for a platform:
 
 - Normally only accessible with JavaScript enabled.
+- Normally only accessible with an account.
+- Blocks access from commercial [VPNs](vpn.md).

@@ -41,8 +41,6 @@ schema:
 
 ## Android
 
-在 Android 上，Firefox 的安全性仍然低於基於 Chromium 的替代品：Mozilla 的 [GeckoView](https://mozilla.github.io/geckoview) 引擎尚未支援[站點隔離](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture)或啟用[隔離進程](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196)。
-
 ### Brave
 
 <div class="admonition recommendation" markdown>
@@ -129,6 +127,45 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 [Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上訪問瀏覽數據 (歷史記錄，書籤等)，無需帳戶且具 E2EE 保護。
 
+### Mull
+
+<div class="admonition danger" markdown>
+<p class="admonition-title">Danger "危險"</p>
+
+Firefox (Gecko)-based browsers on Android [lack per-site process isolation](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196), a powerful security feature that offers additional protection against a malicious website exploiting a security vulnerability. Missing this feature likely won't pose an issue for low-risk web browsers who keep their browser up-to-date, but those visiting higher-risk sites or at risk of targeted/0-day attacks should strongly consider a Chromium-based browser like [Brave](#brave) instead.
+
+</div>
+
+<div class="admonition recommendation" markdown>
+
+![Mull logo](assets/img/browsers/mull.svg){ align=right }
+
+**Mull** is a privacy oriented and deblobbed Android browser based on Firefox. Compared to Firefox, it offers much greater fingerprinting protection out of the box, and disables JavaScript Just-in-Time (JIT) compilation for enhanced security. It also removes all proprietary elements from Firefox, such as replacing Google Play Services references.
+
+[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentation }
+[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos/)
+
+</details>
+
+</div>
+
+Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official/) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+
+Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
+
+#### Recommended Mull Configuration
+
+We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
+
+Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
+
 ## iOS
 
 在 iOS 上，任何可以瀏覽網頁的應用程式都被[限制](https://developer.apple.com/app-store/review/guidelines)使用 Apple 提供的 [WebKit 框架](https://developer.apple.com/documentation/webkit)，因此沒有理由使用第三方瀏覽器。
@@ -151,7 +188,9 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 #### 建議的 Safari 設定
 
-這些選項可以在 :gear: **設定** → **Safari** 中找到。
+We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
+
+The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
 
 ##### 主題類別
 
@@ -214,8 +253,6 @@ Safari 的歷史記錄、分頁群組、iCloud 分頁和已儲存密碼的同步
 ### 最低合格要求
 
 - 必須支援自動更新。
-- 必須從上游版本釋出後的 0-1 天內接收引擎更新。
+- Must receive engine updates from upstream releases quickly.
+- Must support content blocking.
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
-- Android 瀏覽器必須使用 Chromium 引擎。
-    - 不幸的是，Mozilla GeckoView 仍然不如 Android 上的 Chromium 安全。
-    - iOS 瀏覽器僅限於 WebKit。

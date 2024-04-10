@@ -252,6 +252,8 @@ Las interfaces de usuario recomendadas...
 - Deben ser autoalojables.
 - Deben ofrecer todas las funciones básicas del sitio web a los usuarios anónimos.
 
-Sólo consideramos interfcaes de usuario para sitios web que son...
+We only consider frontends if one of the following is true for a platform:
 
-- Normalmente solo accesibles con JavaScript activado.
+- Normally only accessible with JavaScript enabled.
+- Normally only accessible with an account.
+- Blocks access from commercial [VPNs](vpn.md).

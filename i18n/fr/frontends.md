@@ -252,6 +252,8 @@ Clients recommandés...
 - Doit être auto-hébergeable.
 - Doit fournir toutes les fonctionnalités de base du site web accessibles aux utilisateurs anonymes.
 
-Nous ne prenons en compte que les clients des sites web qui sont...
+We only consider frontends if one of the following is true for a platform:
 
-- Normalement accessible uniquement si JavaScript est activé.
+- Normally only accessible with JavaScript enabled.
+- Normally only accessible with an account.
+- Blocks access from commercial [VPNs](vpn.md).

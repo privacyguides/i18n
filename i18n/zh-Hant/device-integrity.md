@@ -207,7 +207,7 @@ Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的�
 <details class="downloads" markdown>
 <summary>Downloads "下載"</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
+- [:simple-fdroid: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
 
 </details>
 

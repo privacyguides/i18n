@@ -49,6 +49,20 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
+    name: Proton Pass
+    image: /assets/img/password-management/protonpass.svg
+    url: https://proton.me/pass
+    applicationCategory: Administrador de contraseñas
+    operatingSystem:
+      - Android
+      - iOS
+    subjectOf:
+      "@context": http://schema.org
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": SoftwareApplication
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
@@ -141,7 +155,7 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 
 ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** es un administrador de contraseñas gratuito y de código abierto. Su objetivo es resolver los problemas de gestión de contraseñas para individuos, equipos y organizaciones empresariales. Bitwarden es una de las soluciones más fáciles y seguras para almacenar todas sus contraseñas e inicios de sesión manteniéndolos convenientemente sincronizados entre todos sus dispositivos.
+**Bitwarden** is a free and open-source password and passkey manager. Su objetivo es resolver los problemas de gestión de contraseñas para individuos, equipos y organizaciones empresariales. Bitwarden es una de las soluciones más fáciles y seguras para almacenar todas sus contraseñas e inicios de sesión manteniéndolos convenientemente sincronizados entre todos sus dispositivos.
 
 [:octicons-home-16: Página Principal](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Política de Privacidad" }
@@ -149,7 +163,7 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
@@ -160,6 +174,7 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+- [:simple-safari: Safari](https://apps.apple.com/us/app/bitwarden/id1352778147)
 
 </details>
 
@@ -177,26 +192,69 @@ El código del lado del servidor de Bitwarden es de [código abierto](https://gi
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribuir }
 
+### Proton Pass
+
+<div class="admonition recommendation" markdown>
+
+![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
+
+Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
+
+[:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation"}
+[:octicons-code-16:](https://github.com/protonpass/){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
+- [:simple-windows11: Windows](https://proton.me/pass/download)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/proton-pass/)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:octicons-globe-16: Web](https://pass.proton.me/)
+
+</details>
+
+</div>
+
+With the acquisition of SimpleLogin in April 2022, Proton has offered a "hide-my-email" feature that lets you create 10 aliases (free plan) or unlimited aliases (paid plans).
+
+Proton Pass currently doesn't have any "master password" functionality, which means that your vault is protected with the password for your Proton account and any of their supported [two factor authentication](basics/multi-factor-authentication.md) methods.
+
+The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June of 2023. The security analysis company concluded:
+
+> Proton Pass apps and components leave a rather positive impression in terms of security.
+
+All issues were addressed and fixed shortly after the [report](https://res.cloudinary.com/dbulfrlrz/images/v1707561557/wp-pme/Cure53-proton-pass-20230717/Cure53-proton-pass-20230717.pdf).
+
 ### 1Password
 
 <div class="admonition recommendation" markdown>
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** es un administrador de contraseñas con un fuerte enfoque en la seguridad y la facilidad de uso, que te permite almacenar contraseñas, tarjetas de crédito, licencias de software y cualquier otra información sensible en una bóveda digital segura. Tu bóveda se aloja en los servidores de 1Password por una [cuota mensual](https://1password.com/sign-up). 1Password es [auditada](https://support.1password.com/security-assessments) con regularidad y ofrece una atención al cliente excepcional. 1Password es de código cerrado; sin embargo, la seguridad del producto está exhaustivamente documentada en su [libro blanco de seguridad](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+**1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Tu bóveda se aloja en los servidores de 1Password por una [cuota mensual](https://1password.com/sign-up). 1Password es [auditada](https://support.1password.com/security-assessments) con regularidad y ofrece una atención al cliente excepcional. 1Password es de código cerrado; sin embargo, la seguridad del producto está exhaustivamente documentada en su [libro blanco de seguridad](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
 [:octicons-home-16: Página Principal](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://support.1password.com){ .card-link title=Documentación}
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
 - [:simple-windows11: Windows](https://1password.com/downloads/windows)
 - [:simple-apple: macOS](https://1password.com/downloads/mac)
 - [:simple-linux: Linux](https://1password.com/downloads/linux)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
+- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
+- [:octicons-globe-16: Web](https://my.1password.com/signin)
 
 </details>
 

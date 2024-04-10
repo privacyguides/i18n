@@ -252,6 +252,8 @@ Frontends recomendados...
 - Deve ser auto-hospedável.
 - Deve fornecer todas as funcionalidades básicas do site disponíveis para utilizadores anónimos.
 
-Só consideramos frontends para sites que sejam...
+We only consider frontends if one of the following is true for a platform:
 
 - Normally only accessible with JavaScript enabled.
+- Normally only accessible with an account.
+- Blocks access from commercial [VPNs](vpn.md).

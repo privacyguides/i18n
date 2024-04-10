@@ -252,6 +252,8 @@ Recommended frontends...
 - 자체 호스팅이 가능해야 합니다.
 - 익명 사용자도 웹사이트의 기본적인 기능을 모두 사용할 수 있어야 합니다.
 
-We only consider frontends for websites which are...
+We only consider frontends if one of the following is true for a platform:
 
 - Normally only accessible with JavaScript enabled.
+- Normally only accessible with an account.
+- Blocks access from commercial [VPNs](vpn.md).
