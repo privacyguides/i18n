@@ -122,7 +122,7 @@ Proton VPN 客戶端目前支持除 Linux 外所有平臺上的雙因素身份�
 
 ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** 是另一個高級 VPN 提供商，自 2009 年開始運營。 IVPN 位於直布羅陀。
+**IVPN** 是另一個高級 VPN 提供商，自 2009 年開始運營。 IVPN is based in Gibraltar and does not offer a free trial.
 
 [:octicons-home-16: 首頁](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="隱私權政策" }
@@ -188,7 +188,7 @@ IVPN 使用 [v2ray](https://v2ray.com/en/index.html) 的混淆模式，這有助
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有「[反追蹤](https://ivpn.net/antitracker)」功能，以阻絕來自網路層的廣告與追蹤。
+IVPN clients support two factor authentication. IVPN 有「[反追蹤](https://ivpn.net/antitracker)」功能，以阻絕來自網路層的廣告與追蹤。
 
 ### Mullvad
 
@@ -196,7 +196,7 @@ IVPN 客戶端支援雙因素驗證（Mullvad 客戶端不支援）。 IVPN 有�
 
 ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 自 **2009 年** 開始運營。 Mullvad 總部位於瑞典，不提供免費試用。
+**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 自 **2009 年** 開始運營。 Mullvad is based in Sweden and does not offer a free trial.
 
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
@@ -271,7 +271,7 @@ Mullvad 提供 [App Store](https://apps.apple.com/app/id1488466513) 和 [Google 
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點透明度非常好。 他們在 ShadowSocks + OpenVPN 配置中使用 [ShadowSocks](https://shadowsocks.org)，以更能抵抗具有[深度封包檢查](https://en.wikipedia.org/wiki/Deep_packet_inspection)的防火牆試圖封鎖 VPN。 據推測， [中國使用不同的方法來阻止 ShadowSocks 伺服器](https://github.com/net4people/bbs/issues/22)。 Mullvad 網站也可以通過 Tor 訪問 [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion)。
+Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點透明度非常好。 他們在 ShadowSocks + OpenVPN 配置中使用 [ShadowSocks](https://shadowsocks.org)，以更能抵抗具有[深度封包檢查](https://en.wikipedia.org/wiki/Deep_packet_inspection)的防火牆試圖封鎖 VPN。 據推測， [中國使用不同的方法來阻止 ShadowSocks 伺服器](https://github.com/net4people/bbs/issues/22)。
 
 ## 標準
 
@@ -297,7 +297,6 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 
 **最佳案例：**
 
-- 支持 WireGuard 和 OpenVPN。
 - Killswitch 具高度可配置選項（啟用/禁用某些網路、開機時啟閉等上）
 - 易於使用的 VPN 客戶端
 - 支援 [IPv6](https://en.wikipedia.org/wiki/IPv6) 協議 我們預期伺服器將允許透過 IPv6 傳入連線，並允許您存取託管在 IPv6 位址上的服務。

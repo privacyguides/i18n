@@ -164,13 +164,9 @@ I software proxy per il DNS crittografato forniscono un proxy locale a cui inolt
 
 <div class="admonition recommendation" markdown>
 
-![Logo di dnscrypt-proxy](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**dnscrypt-proxy** è un proxy DNS con supporto a [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) e [DNS Anonimizzato](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">La funzione DNS anonimizzato <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>non</strong></a> anonimizza altro traffico di rete.</p>
-</div>
+**dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentazione}
@@ -185,6 +181,13 @@ I software proxy per il DNS crittografato forniscono un proxy locale a cui inolt
 - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
 </details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
+
+The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
 
 </div>
 

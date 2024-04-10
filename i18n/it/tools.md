@@ -389,7 +389,7 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](passwords.md#keepassxc)
 - ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](passwords.md#keepassdx-android)
 - ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
-- ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } [gopass](passwords.md#gopass)
+- ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji } [gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
 

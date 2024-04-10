@@ -122,7 +122,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ![IVPN标志](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN**是另一个高级VPN供应商，他们自2009年以来一直在运营。 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。
+**IVPN**是另一个高级VPN供应商，他们自2009年以来一直在运营。 IVPN is based in Gibraltar and does not offer a free trial.
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
@@ -188,7 +188,7 @@ In addition to providing standard OpenVPN configuration files, IVPN has mobile c
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-IVPN clients support two factor authentication (Mullvad's clients do not). IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+IVPN clients support two factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
 ### Mullvad
 
@@ -196,7 +196,7 @@ IVPN clients support two factor authentication (Mullvad's clients do not). IVPN 
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。 这是因为到达目的地的路由较短(跳数较少)。
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. 挑一个拥有离你最近的服务器的VPN供应商将减少你的网络流量的发送延迟。 Mullvad is based in Sweden and does not offer a free trial.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
@@ -271,7 +271,7 @@ Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22).
 
 ## Criteria
 
@@ -297,7 +297,6 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 **Best Case:**
 
-- 支持WireGuard和OpenVPN。
 - 具有高度可配置的选项（在某些网络上启用/禁用，在启动时，等等）的杀戮开关。
 - 易于使用的VPN客户端
 - 支持 [IPv6](https://en.wikipedia.org/wiki/IPv6)。 我们希望服务器将允许通过IPv6的传入连接，并允许你访问IPv6地址上托管的服务。

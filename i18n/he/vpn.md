@@ -122,7 +122,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ![לוגו IVPN](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** הוא עוד ספק VPN פרימיום, והם פועלים מאז 2009. IVPN מבוסס בגיברלטר.
+**IVPN** הוא עוד ספק VPN פרימיום, והם פועלים מאז 2009. IVPN is based in Gibraltar and does not offer a free trial.
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
@@ -188,7 +188,7 @@ In addition to providing standard OpenVPN configuration files, IVPN has mobile c
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-תוכונת IVPN תומכים באימות דו - שלבי (הלקוחות של Mullvad לא תומכים). IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+IVPN clients support two factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
 ### Mullvad
 
@@ -196,7 +196,7 @@ In addition to providing standard OpenVPN configuration files, IVPN has mobile c
 
 ![לוגו Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** הוא VPN מהיר וזול עם התמקדות רצינית בשקיפות ואבטחה. הם פועלים מאז **2009**. Mullvad מבוסס בשוודיה ואין לו ניסיון חינם.
+**Mullvad** הוא VPN מהיר וזול עם התמקדות רצינית בשקיפות ואבטחה. הם פועלים מאז **2009**. Mullvad is based in Sweden and does not offer a free trial.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
@@ -271,7 +271,7 @@ Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. לכאורה, [סין צריכה להשתמש בשיטה אחרת כדי לחסום שרתי ShadowSocks ](https://github.com/net4people/bbs/issues/22). האתר של Mullvad נגיש גם דרך Tor בכתובת [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. לכאורה, [סין צריכה להשתמש בשיטה אחרת כדי לחסום שרתי ShadowSocks ](https://github.com/net4people/bbs/issues/22).
 
 ## קריטריונים
 
@@ -297,7 +297,6 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 
 **המקרה הטוב ביותר:**
 
-- תמיכה ב - WireGuard וב - OpenVPN.
 - Killswitch עם אפשרויות להגדרה גבוהה (הפעלה/השבתה ברשתות מסוימות, על אתחול, וכו ')
 - קליינטים VPN קלים לשימוש
 - תומך [IPv6](https://en.wikipedia.org/wiki/IPv6). אנו מצפים כי שרתים יאפשרו חיבורים נכנסים באמצעות IPv6 ויאפשרו לך לגשת לשירותים המתארחים בכתובות IPv6.

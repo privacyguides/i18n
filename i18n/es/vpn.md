@@ -124,7 +124,7 @@ Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-c
 
 ![IVPN logo](assets/img/vpn/protonvpn.svg){ align=right }
 
-**IVPN** es un fuerte contendiente en el espacio de las VPNs, y ha estado en funcionamiento desde 2009. IVPN es basado en Gibraltar.
+**IVPN** es un fuerte contendiente en el espacio de las VPNs, y ha estado en funcionamiento desde 2009. IVPN is based in Gibraltar and does not offer a free trial.
 
 [:octicons-home-16: Página Principal](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Política de Privacidad" }
@@ -190,7 +190,7 @@ Además de proporcionar archivos de configuración OpenVPN estándar, IVPN cuent
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y Suecia. IVPN también ofrece la función "[AntiTracker](https://ivpn.net/antitracker)", que bloquea las redes publicitarias y los rastreadores a nivel de red.
+IVPN clients support two factor authentication. IVPN también ofrece la función "[AntiTracker](https://ivpn.net/antitracker)", que bloquea las redes publicitarias y los rastreadores a nivel de red.
 
 ### Mullvad
 
@@ -198,7 +198,7 @@ Proton VPN tiene sus propios servidores y centros de datos en Suiza, Islandia y 
 
 ![Logo de Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. Llevan en funcionamiento desde **2009**. Mullvad tiene su sede en Suecia y no tiene prueba gratuita.
+**Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. Llevan en funcionamiento desde **2009**. Mullvad is based in Sweden and does not offer a free trial.
 
 [:octicons-home-16: Página Principal](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servicio Onion" }
@@ -273,7 +273,7 @@ Mullvad ha publicado clientes para [App Store](https://apps.apple.com/app/id1488
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-Mullvad es muy transparente sobre los nodos que [posee o alquila](https://mullvad.net/en/servers). Utilizan [ShadowSocks](https://shadowsocks.org) en su configuración ShadowSocks + OpenVPN, haciéndolos más resistentes contra cortafuegos con [Inspección de Profunda de Paquetes](https://en.wikipedia.org/wiki/Deep_packet_inspection) intentando bloquear VPNs. Supuestamente, [China tiene que utilizar un método diferente para bloquear los servidores de ShadowSocks](https://github.com/net4people/bbs/issues/22). El sitio web de Mullvad también es accesible a través de Tor en [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvad es muy transparente sobre los nodos que [posee o alquila](https://mullvad.net/en/servers). Utilizan [ShadowSocks](https://shadowsocks.org) en su configuración ShadowSocks + OpenVPN, haciéndolos más resistentes contra cortafuegos con [Inspección de Profunda de Paquetes](https://en.wikipedia.org/wiki/Deep_packet_inspection) intentando bloquear VPNs. Supuestamente, [China tiene que utilizar un método diferente para bloquear los servidores de ShadowSocks](https://github.com/net4people/bbs/issues/22).
 
 ## Criterios
 
@@ -299,7 +299,6 @@ Requerimos que todos nuestros proveedores de VPN recomendados proporcionen archi
 
 **Mejor Caso:**
 
-- Soporte de WireGuard y OpenVPN.
 - Killswitch con opciones altamente configurables (activar/desactivar en determinadas redes, en el arranque, etc.)
 - Clientes VPN fáciles de usar
 - Admite [IPv6](https://en.wikipedia.org/wiki/IPv6). Esperamos que los servidores permitan las conexiones entrantes a través de IPv6 y le permitan acceder a los servicios alojados en direcciones IPv6.

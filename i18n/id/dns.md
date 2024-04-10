@@ -164,13 +164,9 @@ Perangkat lunak proxy DNS terenkripsi menyediakan proxy lokal untuk [DNS tidak t
 
 <div class="admonition recommendation" markdown>
 
-![dnscrypt - proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**dnscrypt - proxy ** adalah proxy DNS dengan dukungan untuk [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), dan [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonimized-DNS).
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">The anonymized DNS feature does <a href="advanced/dns-overview.md#why-shouldnt-i0-use-encrypted-dns"><strong>not</strong></a> anonymize other network traffic.</p>
-</div>
+**dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
@@ -185,6 +181,13 @@ Perangkat lunak proxy DNS terenkripsi menyediakan proxy lokal untuk [DNS tidak t
 - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 
 </details>
+
+</div>
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
 
 </div>
 

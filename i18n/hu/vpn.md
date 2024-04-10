@@ -122,7 +122,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-Az **IVPN** egy másik prémium VPN szolgáltató, és 2009 óta vannak működésben. Az IVPN székhelye Gibraltáron található.
+Az **IVPN** egy másik prémium VPN szolgáltató, és 2009 óta vannak működésben. IVPN is based in Gibraltar and does not offer a free trial.
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
@@ -188,7 +188,7 @@ In addition to providing standard OpenVPN configuration files, IVPN has mobile c
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-Az IVPN kliensei támogatják a kétfaktoros hitelesítést (a Mullvad kliensei nem). IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+IVPN clients support two factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
 ### Mullvad
 
@@ -196,7 +196,7 @@ Az IVPN kliensei támogatják a kétfaktoros hitelesítést (a Mullvad kliensei 
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-A **Mullvad** egy gyors és olcsó VPN, amely komoly hangsúlyt fektet az átláthatóságra és a biztonságra. **2009** óta vannak működésben. A Mullvad székhelye Svédországban van, és nem rendelkezik ingyenes próbaverzióval.
+A **Mullvad** egy gyors és olcsó VPN, amely komoly hangsúlyt fektet az átláthatóságra és a biztonságra. **2009** óta vannak működésben. Mullvad is based in Sweden and does not offer a free trial.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
@@ -271,7 +271,7 @@ Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [
 
 #### :material-information-outline:{ .pg-blue } Additional Notes
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22).
 
 ## Követelmények
 
@@ -297,7 +297,6 @@ Minden általunk ajánlott VPN-szolgáltatótól elvárjuk, hogy biztosítson Op
 
 **Legjobb Esetben:**
 
-- WireGuard és OpenVPN támogatás.
 - Killswitch jól konfigurálható beállításokkal (engedélyezés/tiltás bizonyos hálózatokon, indításkor, stb.)
 - Könnyen használható VPN kliensek
 - [IPv6](https://en.wikipedia.org/wiki/IPv6) támogatása. Elvárjuk, hogy szerverek engedélyezzék az IPv6-on keresztül érkező kapcsolatokat, és lehetővé tegyék IPv6-címeken üzemeltetett szolgáltatások elérését.
