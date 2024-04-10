@@ -1,7 +1,7 @@
 ---
 meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
-title: "Tor Network"
-icon: simple/torproject
+title: "Tor Browser"
+icon: simple/torbrowser
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 cover: tor.webp
 schema:
@@ -23,21 +23,9 @@ schema:
       url: "./"
 ---
 
-![Логотип Tor](assets/img/self-contained-networks/tor.svg){ align=right }
-
-Мережа **Tor** - це група серверів, керованих волонтерами, яка дозволяє вам підключатися безкоштовно і покращувати вашу конфіденційність і безпеку в Інтернеті. Приватні особи та організації також можуть обмінюватися інформацією через мережу Tor з "прихованими сервісами .onion" без шкоди для своєї конфіденційності. Оскільки трафік Tor важко заблокувати і відстежити, Tor є ефективним інструментом обходу цензури.
-
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
-
-Tor працює, спрямовуючи ваш інтернет-трафік через ці волонтерські сервери, замість того, щоб встановлювати пряме з'єднання з сайтом, який ви намагаєтесь відвідати. Це приховує, звідки надходить трафік, і жоден сервер у шляху з 'єднання не може побачити повний шлях, звідки надходить трафік, а це означає, що навіть сервери, які ви використовуєте для з' єднання, не можуть порушити вашу анонімність.
+**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Приватні особи та організації також можуть обмінюватися інформацією через мережу Tor з "прихованими сервісами .onion" без шкоди для своєї конфіденційності. Оскільки трафік Tor важко заблокувати і відстежити, Tor є ефективним інструментом обходу цензури.
 
 [Детальний огляд Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
-
-## Підключення до Tor
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
@@ -52,7 +40,7 @@ Some of these apps are better than others, and again making a determination come
 
 If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
-### Tor Browser
+## Tor Browser
 
 <div class="admonition recommendation" markdown>
 
@@ -90,7 +78,7 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
-### Orbot
+## Orbot
 
 <div class="admonition recommendation" markdown>
 
@@ -128,7 +116,7 @@ Orbot часто застаріває в [F-Droid репозиторії](https:
 
 </div>
 
-### Onion Browser
+## Onion Browser
 
 <div class="admonition recommendation" markdown>
 
@@ -150,35 +138,3 @@ Orbot часто застаріває в [F-Droid репозиторії](https:
 </details>
 
 </div>
-
-## Реле та мости
-
-### Snowflake
-
-<div class="admonition recommendation" markdown>
-
-![Логотип Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
-![Логотип Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
-
-**Snowflake** дозволяє вам пожертвувати пропускну здатність для проекту Tor, використовуючи "проксі-сервер Snowflake" у вашому браузері.
-
-Люди, які зазнають цензури, можуть використовувати проксі-сервери Snowflake для підключення до мережі Tor. Snowflake — це чудовий спосіб зробити внесок у мережу, навіть якщо ви не володієте технічними знаннями для запуску Tor-реле або моста.
-
-[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
-
-</details>
-
-</div>
-
-You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
-
-[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
-
-Snowflake жодним чином не збільшує вашу конфіденційність і не використовується для підключення до мережі Tor у вашому власному браузері. Однак, якщо ваше інтернет-з'єднання не піддається цензурі, вам варто подумати про його використання, щоб допомогти людям, які перебувають у мережах з цензурою, самим досягти кращої конфіденційності. Вам не потрібно турбуватися про те, до яких сайтів люди отримують доступ через ваш проксі — їх видима IP-адреса буде відповідати їх вихідному вузлу з Tor, а не вашій.
-
-Запуск проксі-сервера Snowflake пов'язаний з навіть меншим ризиком, ніж запуск Tor-реле або моста, які й самі не є особливо ризикованими заходами. Однак він все одно спрямовує трафік проходить через вашу мережу, що може мати певний вплив, особливо якщо ваша мережа має обмежену пропускну здатність. Переконайтеся, що ви розумієте [як працює Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) перед тим, як вирішити, чи запускати проксі.
-
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.

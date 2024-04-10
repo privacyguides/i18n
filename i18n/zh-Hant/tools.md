@@ -483,6 +483,15 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 這些工具可能對某些人很實用。 它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
 
+### Alternative Networks
+
+<div class="grid cards" markdown>
+
+- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](alternative-networks.md#tor)
+
+</div>
+
 ### 設備完整性驗證
 
 <div class="grid cards" markdown>

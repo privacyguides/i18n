@@ -483,6 +483,15 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 Questi strumenti possono essere utili per alcuni individui. Forniscono funzionalità di cui gran parte delle persone non devono preoccuparsi e spesso richiedono una conoscenza tecnologica più approfondita per un utilizzo efficace.
 
+### Alternative Networks
+
+<div class="grid cards" markdown>
+
+- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](alternative-networks.md#tor)
+
+</div>
+
 ### Verifica dell'Integrità del Dispositivo
 
 <div class="grid cards" markdown>

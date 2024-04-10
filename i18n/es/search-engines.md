@@ -100,7 +100,7 @@ Cuando utilice una instancia de SearXNG, asegúrese de leer su política de priv
 
 Startpage tiene su sede en los Países Bajos. Según su [política de privacidad](https://startpage.com/en/privacy-policy), registran datos como: sistema operativo, tipo de navegador e idioma. No registran su dirección IP, consultas de búsqueda u otra información de identificación personal.
 
-El accionista mayoritario de Startpage es System1, una empresa de tecnología publicitaria. No creemos que eso sea un problema, ya que tienen una [política de privacidad](https://system1.com/terms/privacy-policy) claramente separada. The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
+El accionista mayoritario de Startpage es System1, una empresa de tecnología publicitaria. No creemos que eso sea un problema, ya que tienen una [política de privacidad](https://system1.com/terms/privacy-policy) claramente separada. The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
 
 Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
 

@@ -483,6 +483,15 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 Estas herramientas pueden ser útiles para determinadas personas. Proporcionan funcionalidades de las que la mayoría de la gente no necesita preocuparse, y a menudo requieren conocimientos técnicos más profundos para utilizarlas con eficacia.
 
+### Alternative Networks
+
+<div class="grid cards" markdown>
+
+- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](alternative-networks.md#tor)
+
+</div>
+
 ### Verificación de Integridad del Dispositivo
 
 <div class="grid cards" markdown>

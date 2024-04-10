@@ -1,7 +1,7 @@
 ---
 meta_title: "Tor böngésző és hálózat: névtelen webes böngészés – Privacy Guides"
-title: "Tor hálózat"
-icon: simple/torproject
+title: "Tor Böngésző"
+icon: simple/torbrowser
 description: Védd meg internetes böngészésed a kíváncsi szemek elől egy biztonságos hálózat, a Tor használatával, amely megkerüli a cenzúrát.
 cover: tor.webp
 schema:
@@ -23,21 +23,9 @@ schema:
       url: "./"
 ---
 
-![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
-
-A **Tor** hálózat egy önkéntesek által üzemeltetett szerverekből álló csoport, amely lehetővé teszi, hogy ingyenesen csatlakozhass, és javíts a magánéleteden, valamint a biztonságodon az Interneten. A magánszemélyek és szervezetek a Tor-hálózaton keresztül a ".onion rejtett szolgáltatásokkal" is megoszthatnak információkat anélkül, hogy veszélyeztetnék a magánéletüket. Mivel a Tor forgalmat nehéz blokkolni és nyomon követni, a Tor hatékony eszköz a cenzúra megkerülésére.
-
-[:octicons-home-16:](https://torproject.org){ .card-link title=Honlap}
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion szolgáltatás" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Dokumentáció}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Forráskód" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Közreműködés }
-
-A Tor úgy működik, hogy az internetes forgalmadat önkéntesek által üzemeltetett szervereken keresztül irányítja át, ahelyett, hogy közvetlen kapcsolatot létesítene a meglátogatni kívánt oldallal. Ez elrejti, hogy honnan érkezik a forgalom, és a kapcsolat útvonalában egyetlen szerver sem látja a teljes útvonalat, ahonnan a forgalom érkezik és ahová tart, ami azt jelenti, hogy még az általad csatlakozásra használt szerverek sem tudják megtörni az anonimitásodat.
+**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. A magánszemélyek és szervezetek a Tor-hálózaton keresztül a ".onion rejtett szolgáltatásokkal" is megoszthatnak információkat anélkül, hogy veszélyeztetnék a magánéletüket. Mivel a Tor forgalmat nehéz blokkolni és nyomon követni, a Tor hatékony eszköz a cenzúra megkerülésére.
 
 [Részletes Tor áttekintés :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
-
-## Csatlakozás a Torhoz
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tanács</p>
@@ -52,7 +40,7 @@ Néhány ilyen alkalmazás jobb, mint mások, a választás a fenyegetettségi s
 
 Ha a teljes anonimitás a legfontosabb számodra, akkor **csak** az asztali Tor Browser klienst használd, ideális esetben egy [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) konfigurációban. A mobil böngészők kevésbé elterjedtek a Toron (emiatt könnyebben lehet ujjlenyomatolni azokat), és más konfigurációkat nem tesztelnek olyan szigorúan a deanonimizálás ellen.
 
-### Tor Böngésző
+## Tor Böngésző
 
 <div class="admonition recommendation" markdown>
 
@@ -90,7 +78,7 @@ A Tor böngészőt úgy tervezték, hogy megakadályozza az ujjlenyomatolást, v
 
 A Tor Böngésző közvetlen számítógépre telepítése mellett vannak olyan operációs rendszerek is, amelyeket kifejezetten a Tor-hálózathoz való csatlakozásra terveztek, mint például a [Whonix](desktop.md#whonix) a [Qubes OS-en](desktop.md#qubes-os), amelyek még nagyobb biztonságot és védelmet nyújtanak, mint a hagyományos Tor Browser önmagában.
 
-### Orbot
+## Orbot
 
 <div class="admonition recommendation" markdown>
 
@@ -115,7 +103,7 @@ Az **Orbot** egy ingyenes Tor VPN okostelefonokhoz, amely a Tor hálózaton kere
 
 </div>
 
-Korábban ajánlottuk az *Célcím elszigetelése* beállítás engedélyezését az Orbot beállításaiban. Bár ez a beállítás elméletileg javíthatja az adatvédelmet azáltal, hogy minden egyes IP-címhez más-más áramkör használatát kényszeríti, a legtöbb alkalmazásnál (különösen webböngészésnél) nem nyújt gyakorlati előnyt, jelentős teljesítménycsökkenéssel járhat, és növeli a Tor hálózat terhelését. Többé már nem javasoljuk, hogy ezt a beállítást az alapértelmezett értékétől eltérően módosítsd, kivéve, ha tudod, hogy szükséged van rá.[^1]
+Korábban ajánlottuk az *Célcím elszigetelése* beállítás engedélyezését az Orbot beállításaiban. Bár ez a beállítás elméletileg javíthatja az adatvédelmet azáltal, hogy minden egyes IP-címhez más-más áramkör használatát kényszeríti, a legtöbb alkalmazásnál (különösen webböngészésnél) nem nyújt gyakorlati előnyt, jelentős teljesítménycsökkenéssel járhat, és növeli a Tor hálózat terhelését. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tippek Androidhoz</p>
@@ -128,7 +116,7 @@ Minden verzió ugyanazzal az aláírással van aláírva, így kompatibilisnek k
 
 </div>
 
-### Onion Browser
+## Onion Browser
 
 <div class="admonition recommendation" markdown>
 
@@ -150,35 +138,3 @@ Az **Onion Browser** egy nyílt forráskódú böngésző, amely lehetővé tesz
 </details>
 
 </div>
-
-## Elosztók and hidak
-
-### Snowflake
-
-<div class="admonition recommendation" markdown>
-
-![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
-
-A **Snowflake** lehetővé teszi, hogy sávszélességet adományozz a Tor projektnek azáltal, hogy egy "Snowflake proxy"-t működtetsz a böngésződben.
-
-Azok, akiket cenzúráznak, Snowflake proxykat használhatnak a Tor-hálózathoz való csatlakozáshoz. A Snowflake egy nagyszerű módja annak, hogy hozzájárulj a hálózathoz, még akkor is, ha nincs meg a technikai tudásod egy Tor elosztó vagy híd üzemeltetéséhez.
-
-[:octicons-home-16: Honlap](https://snowflake.torproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Dokumentáció}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Forráskód" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Támogatás}
-
-</details>
-
-</div>
-
-A Snowflake-et engedélyezheted a böngésződben úgy, hogy megnyitod azt egy másik lapon, és aktiválod a kapcsolót. Futni hagyhatod a háttérben, hogy hozzájárulj a kapcsolatoddal böngészés közben. Nem javasoljuk a Snowflake böngésző bővítményként való telepítését; harmadik féltől származó bővítmények hozzáadása növelheti a támadási felületet.
-
-[A Snowflake futtatása böngészőben :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
-
-A Snowflake semmilyen módon nem növeli az magánéletedet, és a személyes böngésződön keresztül a Tor-hálózathoz kapcsolódni sem használatos. Ha azonban az internetkapcsolatod nincs cenzúrázva, érdemes megfontolni a futtatását, hogy segíts cenzúrázott hálózatokon lévő személyeknek jobb magánéletet elérni. Nem kell aggódnod amiatt, hogy személyek milyen weboldalakhoz férnek hozzá a proxydon keresztül – a látható böngészési IP-címük a Tor kilépő csomópontjukkal egyezik majd meg, nem pedig tieddel.
-
-Egy Snowflake proxy futtatása alacsony kockázatú, még inkább, mint egy Tor elosztó vagy híd futtatása, amelyek már eleve sem különösebben kockázatos vállalkozások. Ugyanakkor a hálózaton keresztül történő forgalom átvitelére is képes, ami bizonyos szempontból hatással lehet, különösen, ha a hálózat sávszélessége korlátozott. Győződj meg róla, hogy érted [hogyan működik a Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home), mielőtt eldöntöd, hogy futtatsz-e proxyt.
-
-[^1]: Az `IsolateDestAddr` beállításról a [Tor levelezési listán](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) és a [Whonix Stream Isolation dokumentációjában](https://whonix.org/wiki/Stream_Isolation) is szó esik, ahol mindkét projekt azt javasolja, hogy ez általában nem jó megközelítés a legtöbb ember számára.

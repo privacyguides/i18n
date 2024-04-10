@@ -1,7 +1,7 @@
 ---
 meta_title: "Peramban dan Jaringan Tor: Penjelajahan Web Anonim - Privacy Guides"
-title: "Jaringan Tor"
-icon: simple/torproject
+title: "Tor Browser"
+icon: simple/torbrowser
 description: Lindungi penjelajahan internet Anda dari pengintaian dengan menggunakan jaringan Tor, sebuah jaringan aman yang dapat menghindari penyensoran.
 cover: tor.webp
 schema:
@@ -23,21 +23,9 @@ schema:
       url: "./"
 ---
 
-![Logo Tor](assets/img/self-contained-networks/tor.svg){ align=right }
-
-Jaringan **Tor** adalah sekelompok server yang dioperasikan secara sukarela yang memungkinkan Anda terhubung secara gratis dan meningkatkan privasi dan keamanan Anda di Internet. Individu dan organisasi juga dapat berbagi informasi melalui jaringan Tor dengan "layanan tersembunyi .onion" tanpa mengorbankan privasi mereka. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
-
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
-
-Tor bekerja dengan merutekan lalu lintas internet Anda melalui server yang dioperasikan secara sukarela, daripada membuat koneksi langsung ke situs yang Anda coba kunjungi. Hal ini mengaburkan dari mana lalu lintas berasal, dan tidak ada server di jalur koneksi yang dapat melihat jalur penuh dari mana lalu lintas berasal dan pergi, yang berarti bahkan server yang Anda gunakan untuk terhubung tidak dapat merusak anonimitas Anda.
+**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individu dan organisasi juga dapat berbagi informasi melalui jaringan Tor dengan "layanan tersembunyi .onion" tanpa mengorbankan privasi mereka. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
 
 [Ikhtisar Tor Terperinci :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
-
-## Menghubungkan ke Tor
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
@@ -52,7 +40,7 @@ Some of these apps are better than others, and again making a determination come
 
 If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
-### Tor Browser
+## Tor Browser
 
 <div class="admonition recommendation" markdown>
 
@@ -90,7 +78,7 @@ Tor Browser dirancang untuk mencegah sidik jari, atau mengidentifikasi Anda berd
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
-### Orbot
+## Orbot
 
 <div class="admonition recommendation" markdown>
 
@@ -115,7 +103,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 </div>
 
-Kami sebelumnya merekomendasikan untuk mengaktifkan preferensi *Isolasi Alamat Tujuan* di pengaturan Orbot. Walaupun pengaturan ini secara teoritis dapat meningkatkan privasi dengan memaksakan penggunaan sirkuit yang berbeda untuk setiap alamat IP yang Anda sambungkan, pengaturan ini tidak memberikan keuntungan praktis untuk sebagian besar aplikasi (terutama penelusuran web), dapat menimbulkan dampak buruk signifikan terhadap kinerja, dan meningkatkan beban pada jaringan Tor. Kami tidak lagi menyarankan untuk menyesuaikan pengaturan ini dari nilai bawaannya kecuali jika Anda memang membutuhkannya.[^1]
+Kami sebelumnya merekomendasikan untuk mengaktifkan preferensi *Isolasi Alamat Tujuan* di pengaturan Orbot. Walaupun pengaturan ini secara teoritis dapat meningkatkan privasi dengan memaksakan penggunaan sirkuit yang berbeda untuk setiap alamat IP yang Anda sambungkan, pengaturan ini tidak memberikan keuntungan praktis untuk sebagian besar aplikasi (terutama penelusuran web), dapat menimbulkan dampak buruk signifikan terhadap kinerja, dan meningkatkan beban pada jaringan Tor. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tips for Android</p>
@@ -128,7 +116,7 @@ Semua versi ditandatangani menggunakan tanda tangan yang sama sehingga seharusny
 
 </div>
 
-### Onion Browser
+## Onion Browser
 
 <div class="admonition recommendation" markdown>
 
@@ -150,35 +138,3 @@ Semua versi ditandatangani menggunakan tanda tangan yang sama sehingga seharusny
 </details>
 
 </div>
-
-## Relai dan Jembatan
-
-### Snowflake
-
-<div class="admonition recommendation" markdown>
-
-![Logo Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
-![Logo Snowflake](assets/img/browsers/snowflake-gelap.svg#only-dark){ align=right }
-
-**Snowflake** memungkinkan Anda untuk menyumbangkan bandwidth ke Proyek Tor dengan mengoperasikan "proksi Snowflake" di dalam peramban Anda.
-
-Orang-orang yang disensor bisa menggunakan proksi Snowflake untuk menyambung ke jaringan Tor. Snowflake adalah cara yang bagus untuk berkontribusi pada jaringan bahkan jika Anda tidak memiliki pengetahuan teknis untuk menjalankan relai atau jembatan Tor.
-
-[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
-
-</details>
-
-</div>
-
-Anda dapat mengaktifkan Snowflake di peramban Anda dengan membukanya di tab lain dan mengaktifkan tombolnya. Anda dapat membiarkannya berjalan di latar belakang saat Anda menjelajah untuk menyumbangkan koneksi Anda. Kami tidak menyarankan untuk memasang Snowflake sebagai ekstensi peramban; menambahkan ekstensi pihak ketiga dapat meningkatkan permukaan serangan Anda.
-
-[Jalankan Snowflake di Peramban Anda :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
-
-Snowflake tidak meningkatkan privasi Anda dengan cara apa pun, juga tidak digunakan untuk terhubung ke jaringan Tor dalam peramban pribadi Anda. Namun, jika koneksi internet Anda tidak disensor, Anda sebaiknya mempertimbangkan untuk menjalankannya untuk membantu orang-orang di jaringan yang disensor untuk mencapai privasi yang lebih baik. Tidak perlu khawatir tentang situs web mana yang diakses orang melalui proksi Anda—alamat IP penjelajahan mereka yang terlihat akan cocok dengan node keluar Tor mereka, bukan milik Anda.
-
-Menjalankan proksi Snowflake berisiko rendah, bahkan lebih rendah daripada menjalankan relai Tor atau jembatan yang sudah tidak terlalu berisiko. Namun, itu masih memproksi lalu lintas melalui jaringan Anda yang dapat berdampak pada beberapa hal, terutama jika jaringan Anda memiliki bandwidth terbatas. Pastikan Anda memahami [cara kerja Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) sebelum memutuskan apakah akan menjalankan proksi.
-
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.

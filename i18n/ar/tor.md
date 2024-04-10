@@ -1,7 +1,7 @@
 ---
 meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
-title: "Tor Network"
-icon: simple/torproject
+title: "متصفِّح تور"
+icon: simple/torbrowser
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 cover: tor.webp
 schema:
@@ -23,21 +23,9 @@ schema:
       url: "./"
 ---
 
-![شعار تور](assets/img/self-contained-networks/tor.svg){ align=right }
-
-شبكة **تور** هي خوادم يديرها متطوِّعون تتيح لك الاتصال بها مجَّانًا وتحسِّن خصوصيتك وأمنك في الإنترنت. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
-
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
-
-يعمل تور عن طريق توجيه اتصالاتك عبر خوادم المتطوِّعين، وذلك بدلًا من الاتصال بالموقع الذي تريد مباشرةً. يلبِّس هذا أصل الاتصال، وليس بوسع أي خادم في سبيل الاتصال رؤيته من بدايته لمقصده، مما يعني أن حتى الخوادم المستخدمة للاتصال لا تنتهك مجهوليتك.
+**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
 
 [نظرة عامة شاملة عن تور :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
-
-## الاتصال بتور
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
@@ -52,7 +40,7 @@ Some of these apps are better than others, and again making a determination come
 
 If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
-### متصفِّح تور
+## متصفِّح تور
 
 <div class="admonition recommendation" markdown>
 
@@ -90,7 +78,7 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
-### أُربوت
+## أُربوت
 
 <div class="admonition recommendation" markdown>
 
@@ -128,7 +116,7 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 
 </div>
 
-### Onion Browser
+## Onion Browser
 
 <div class="admonition recommendation" markdown>
 
@@ -150,35 +138,3 @@ We previously recommended enabling the *Isolate Destination Address* preference 
 </details>
 
 </div>
-
-## المرحِّلات والجسور
-
-### سنوفليك
-
-<div class="admonition recommendation" markdown>
-
-![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=left }
-![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=left }
-
-يتيح لك **سنوفليك** أن تساهم بشيء من حيِّز نطاقك في مشروع تور، ويكون ذلك عبر تشغيل «وسيط سنوفليك» ضمن متصفِّحك.
-
-يستطيع من يخضع للرقابة أن يستعمل وسطاء سنوفليك ليتَّصل بشبكة تور. ييسِّر سنوفليك المساهمة في شبكة تور، فلا تحتاج لمعلومات تقنية لتشغِّل مرحِّل تور أو جسرًا له.
-
-[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
-
-</details>
-
-</div>
-
-You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension; adding third-party extensions can increase your attack surface.
-
-[Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
-
-لا يفيد سنوفليك في تحسين خصوصيتك أبدًا، وليس سبيلًا لاتصال بشبكة تور داخل متصفِّحك. ولكن إن كان اتصالك بالإنترنت لا يخضع لرقابة فتخيَّر تشغيله لتعين من يستعمل شبكات تخضع لها في تحسين خصوصيتهم. ولا تقلق حيال أيِّ صفحات يزورها من يستخدم وسيطك، ﻷن عنوان IP لهم يطابق ذاك التابع لعقدة مخرج تور، لا عقدتك.
-
-إن تشغيل وسيط سنوفليك ليس منذرًا بالخطر، بل أقلُّ خطرًا من تشغيل مرحِّل تور أو جسر له، وهذا ليس بذاك الخطر أصلًا. ولكنه يوسِّط الاتصالات عبر شبكتك، ولعلَّ لهذا تبعات، خاصَّةً إن كانت شبكتك محدودةً. عليك تمعُّن [سبيل عمل سنوفليك](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) قبل أن تقرِّر تشغيل وسيط.
-
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.

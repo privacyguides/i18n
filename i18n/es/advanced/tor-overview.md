@@ -4,11 +4,21 @@ icon: 'simple/torproject'
 description: Tor es una red descentralizada y gratuita diseñada para utilizar Internet con la mayor privacidad posible.
 ---
 
-Tor es una red descentralizada y gratuita diseñada para utilizar Internet con la mayor privacidad posible. Si se utiliza correctamente, la red permite la navegación y las comunicaciones privadas y anónimas.
+![Logotipo de Tor](../assets/img/self-contained-networks/tor.svg){ align=right }
+
+[**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. Si se utiliza correctamente, la red permite la navegación y las comunicaciones privadas y anónimas. Debido a que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una herramienta eficaz para eludir la censura.
+
+Tor works by routing your internet traffic through volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. Esto ofusca de dónde viene el tráfico, y ningún servidor en la ruta de conexión es capaz de ver la ruta completa de dónde viene y a dónde va el tráfico, lo que significa que incluso los servidores a los que te estás conectando no pueden romper tu anonimato.
+
+[:octicons-home-16:](https://torproject.org){ .card-link title=Página Principal }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servicio Onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentación}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribuir }
 
 ## Conectarse a Tor de Forma Segura
 
-Antes de conectarte a [Tor](../tor.md), deberías considerar cuidadosamente qué estás buscando conseguir usando Tor en primer lugar, y a quién estás intentando ocultar tu actividad en la red.
+Before connecting to Tor, you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
 
 Si vives en un país libre, accedes a contenido mundano a través de Tor, no te preocupa que tu ISP o los administradores de tu red local sepan que estás usando Tor, y quieres ayudar a [a desestigmatizar](https://2019.www.torproject.org/about/torusers.html.en) el uso de Tor, probablemente puedes conectarte a Tor directamente a través de medios estándar como [Tor Browser](../tor.md) sin preocuparte.
 

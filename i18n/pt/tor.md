@@ -1,7 +1,7 @@
 ---
 meta_title: "Navegador e rede Tor: navegação anónima na Web - Privacy Guides"
-title: "Rede Tor"
-icon: simple/torproject
+title: "Browser Tor"
+icon: simple/torbrowser
 description: Proteja a sua navegação na Internet de olhares curiosos utilizando a rede Tor, uma rede segura que contorna a censura.
 cover: tor.webp
 schema:
@@ -23,21 +23,9 @@ schema:
       url: "./"
 ---
 
-![Logótipo do Tor](assets/img/self-contained-networks/tor.svg){ align=right }
-
-A rede **Tor** é um grupo de servidores operados por voluntários que pode utilizar gratuitamente para melhorar a sua privacidade e segurança na Internet. Os indivíduos e as organizações também podem partilhar informações através da rede Tor com os serviços ocultos ".onion", sem comprometer a sua privacidade. O facto do tráfego do Tor ser difícil de bloquear e rastrear, faz dele uma ferramenta eficaz para contornar a censura.
-
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
-
-O Tor encaminha o seu tráfego de Internet através destes servidores operados por voluntários, em vez de estabelecer uma ligação direta ao site que está a tentar visitar. A origem do tráfego fica assim ofuscada e nenhum servidor ao longo do caminho da ligação pode saber o caminho completo, o que significa que mesmo os servidores que utiliza para se ligar não conseguem quebrar o seu anonimato.
+**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Os indivíduos e as organizações também podem partilhar informações através da rede Tor com os serviços ocultos ".onion", sem comprometer a sua privacidade. O facto do tráfego do Tor ser difícil de bloquear e rastrear, faz dele uma ferramenta eficaz para contornar a censura.
 
 [Visão detalhada do Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
-
-## Ligar ao Tor
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
@@ -52,7 +40,7 @@ Some of these apps are better than others, and again making a determination come
 
 If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
-### Browser Tor
+## Navegador Tor
 
 <div class="admonition recommendation" markdown>
 
@@ -90,7 +78,7 @@ O Tor foi concebido para evitar a recolha de impressões digitais, ou a sua iden
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
-### Orbot
+## Orbot
 
 <div class="admonition recommendation" markdown>
 
@@ -115,7 +103,7 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 </div>
 
-Anteriormente, recomendamos ativar a preferência *Isolar endereço de destino* nas configurações do Orbot. Enquanto esta configuração pode teoricamente melhorar a privacidade ao forçar o uso de um circuito diferente para cada endereço IP ao qual você se conecta, ela não fornece uma vantagem prática para a maioria das aplicações (especialmente navegação na web), pode vir com uma penalidade significativa de desempenho, e aumenta a carga na rede Tor. Não recomendamos mais o ajuste dessa configuração do valor padrão, a menos que saiba que é necessário.[^1]
+Anteriormente, recomendamos ativar a preferência *Isolar endereço de destino* nas configurações do Orbot. Enquanto esta configuração pode teoricamente melhorar a privacidade ao forçar o uso de um circuito diferente para cada endereço IP ao qual você se conecta, ela não fornece uma vantagem prática para a maioria das aplicações (especialmente navegação na web), pode vir com uma penalidade significativa de desempenho, e aumenta a carga na rede Tor. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tips for Android</p>
@@ -134,7 +122,7 @@ O Orbot está frequentemente desatualizado no [repositório F-Droid](https://gua
 
 </div>
 
-### Onion Browser
+## Onion Browser
 
 <div class="admonition recommendation" markdown>
 
@@ -156,35 +144,3 @@ O Orbot está frequentemente desatualizado no [repositório F-Droid](https://gua
 </details>
 
 </div>
-
-## Relays e Pontes
-
-### Snowflake
-
-<div class="admonition recommendation" markdown>
-
-![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
-
-**Snowflake** permite-lhe doar largura de banda ao Projeto Tor através da utilização de um "proxy Snowflake" no seu navegador.
-
-As pessoas censuradas podem utilizar proxies Snowflake para se ligarem à rede Tor. Snowflake é uma ótima maneira de contribuir para a rede, mesmo que não tenha o conhecimento técnico para executar um retransmissor ou ponte Tor.
-
-[:octicons-home-16: Homepage](https://snowflake.torproject.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/Technical%20Overview){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
-
-</details>
-
-</div>
-
-Pode ativar o Snowflake no seu navegador abrindo-o noutro separador e ligando o interrutor. Pode deixá-lo a funcionar em segundo plano enquanto navega para contribuir para a sua ligação. Não recomendamos instalar o Snowflake como uma extensão do navegador; adicionar extensões de terceiros pode aumentar a sua superfície de ataque.
-
-[Execute o Snowflake no seu navegador :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html ""){.md-button}
-
-O Snowflake não aumenta a sua privacidade de forma alguma, nem é utilizado para ligar à rede Tor no seu navegador pessoal. No entanto, se a sua ligação à Internet não for censurada, deve considerar a possibilidade de o executar para ajudar as pessoas em redes censuradas a obterem uma maior privacidade. Não há necessidade de se preocupar com os sites a que as pessoas acedem através do seu proxy—o endereço IP de navegação visível corresponderá ao nó de saída Tor, não ao seu.
-
-Executar um proxy Snowflake é de baixo risco, ainda mais do que executar um Relay Tor ou uma ponte, que já não são empreendimentos particularmente arriscados. No entanto, continua a fazer proxy do tráfego através da sua rede, o que pode ter algum impacto, especialmente se a sua rede tiver uma largura de banda limitada. Certifique-se de que compreende [como funciona o Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) antes de decidir se pretende executar um proxy.
-
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.

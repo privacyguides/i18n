@@ -100,7 +100,7 @@ SearXNG הוא פרוקסי בינך לבין מנועי החיפוש שמהם �
 
 Startpage מבוסס בהולנד. According to their [privacy policy](https://startpage.com/en/privacy-policy), they log details such as: operating system, type of browser, and language. הם לא רושמים את כתובת ה-IP שלך, שאילתות חיפוש או מידע אישי מזהה אחר.
 
-בעלת המניות הרוב של Startpage היא System1 שהיא חברת adtech. אנחנו לא מאמינים שזו בעיה מכיוון שיש להם [מדיניות פרטיות](https://system1.com/terms/privacy-policy) נפרדת באופן מובהק. The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage/) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
+בעלת המניות הרוב של Startpage היא System1 שהיא חברת adtech. אנחנו לא מאמינים שזו בעיה מכיוון שיש להם [מדיניות פרטיות](https://system1.com/terms/privacy-policy) נפרדת באופן מובהק. The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
 
 Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
 

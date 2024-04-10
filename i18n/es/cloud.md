@@ -93,10 +93,10 @@ También han recibido el Digital Trust Label, una certificación de la [Swiss Di
 
 **Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir y ver sus fotos, vídeos, documentos, etc. Peergos protege tus archivos con cifrado cuántico resistente de extremo a extremo y garantiza que todos los datos sobre tus archivos permanezcan privados. Está construido sobre [IPFS (InterPlanetary File System)](https://ipfs.tech).
 
-[:octicons-home-16: Página Principal](https://peergos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://book.peergos.net){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://book.peergos.org){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
