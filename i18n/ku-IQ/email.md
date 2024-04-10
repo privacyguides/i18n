@@ -102,7 +102,7 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 
 #### :material-information-outline:{ .pg-blue } لەناوبردنی هەژمار
 
-ئەگەر هەژمارێکی پارەدراوت هەبێت وە [پارەی پسوولەکەت نەدابێت](https://proton.me/support/delinquency) دوای 14 ڕۆژ، ئەوا ناتوانیت دەستت بگات بە زانیاریەکانت. دوای 30 ڕۆژ، هەژمارەکەت دەبێتە نایاسایی و هیچ نامایەکی ترت بۆ نایەت. لەم ماوەیەدا بەردەوام دەبیت لە وەرگرتنی پسوولە.
+ئەگەر هەژمارێکی پارەدراوت هەبێت وە [پارەی پسوولەکەت نەدابێت](https://proton.me/support/delinquency) دوای 14 ڕۆژ، ئەوا ناتوانیت دەستت بگات بە زانیاریەکانت. دوای 30 ڕۆژ، هەژمارەکەت دەبێتە نایاسایی و هیچ نامایەکی ترت بۆ نایەت. لەم ماوەیەدا بەردەوام دەبیت لە وەرگرتنی پسوولە. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address on a deactivated account.
 
 #### :material-information-outline:{ .pg-blue } کرداری زیادە
 

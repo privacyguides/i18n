@@ -11,6 +11,38 @@ Si decides autoalojar, es importante que otras personas utilicen también tu ins
 
 Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la política de privacidad de esa instancia en específico. Pueden ser modificados por sus propietarios y, por lo tanto, pueden no reflejar la política por defecto. Algunas instancias tienen direcciones .onion de [Tor](tor.md) que pueden otorgar algo de privacidad mientras tus búsquedas no contengan PII (Información Personal Identificable).
 
+## Reddit
+
+### Redlib
+
+<div class="admonition recommendation" markdown>
+
+![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
+
+**Redlib** is an open-source frontend to the [Reddit](https://www.reddit.com) website that is also self-hostable.
+
+Existen varias instancias públicas, algunas de las cuales disponen de soporte para servicios onion [Tor](tor.md).
+
+[:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
+
+</div>
+
+<div class="admonition note" markdown>
+<p class="admonition-title">Nota</p>
+
+The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
+
+</div>
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Consejo</p>
+
+Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
+</div>
+
 ## TikTok
 
 ### ProxiTok

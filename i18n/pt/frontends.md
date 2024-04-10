@@ -11,6 +11,38 @@ Se optar por auto-hospedar estes frontends, é importante que tenha outras pesso
 
 Quando estiver a utilizar uma instância gerida por outra pessoa, certifique-se de que lê a política de privacidade dessa instância específica. Podem ser modificados pelos seus proprietários e, por conseguinte, podem não refletir a política predefinida. Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII.
 
+## Reddit
+
+### Redlib
+
+<div class="admonition recommendation" markdown>
+
+![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
+
+**Redlib** is an open-source frontend to the [Reddit](https://www.reddit.com) website that is also self-hostable.
+
+There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
+
+[:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
+
+</div>
+
+<div class="admonition note" markdown>
+<p class="admonition-title">Note</p>
+
+The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
+
+</div>
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Tip</p>
+
+Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
+</div>
+
 ## TikTok
 
 ### ProxiTok

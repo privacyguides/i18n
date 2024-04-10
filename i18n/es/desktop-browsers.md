@@ -105,7 +105,7 @@ Esto es necesario para evitar formas avanzadas de rastreo, pero a costa de la co
 
 ### Mullvad Leta
 
-Mullvad Browser viene con DuckDuckGo configurado como [motor de búsqueda](search-engines.md) por defecto, pero también viene preinstalado con **Mullvad Leta**, un motor de búsqueda que requiere una suscripción activa a Mullvad VPN para poder acceder. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Por este motivo, desaconsejamos el uso de Mullvad Leta, a pesar de que Mullvad recopila muy poca información sobre sus suscriptores de VPN.
+Mullvad Browser viene con DuckDuckGo configurado como [motor de búsqueda](search-engines.md) por defecto, pero también viene preinstalado con **Mullvad Leta**, un motor de búsqueda que requiere una suscripción activa a Mullvad VPN para poder acceder. Mullvad Leta consulta directamente la API de búsqueda de pago de Google, que se encuentra limitada a los suscriptores de pago. Sin embargo, para Mullvad es posible correlacionar las consultas de búsqueda y las cuentas de Mullvad VPN debido a esta limitación. Por este motivo, desaconsejamos el uso de Mullvad Leta, a pesar de que Mullvad recopila muy poca información sobre sus suscriptores de VPN.
 
 ## Firefox
 
@@ -115,11 +115,11 @@ Mullvad Browser viene con DuckDuckGo configurado como [motor de búsqueda](searc
 
 **Firefox** brinda una configuración fuerte de privacidad como la [Protección de Rastreo Mejorada](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), que puede ayudar con el bloqueo de varios [tipos de rastreadores](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
+[:octicons-home-16: Página principal](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Política de privacidad" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentación}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Código fuente" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -136,7 +136,7 @@ Mullvad Browser viene con DuckDuckGo configurado como [motor de búsqueda](searc
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Firefox incluye un [token de descarga] único (https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) en las descargas del sitio web de Mozilla y utiliza la telemetría de Firefox para enviar el token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox incluye un [token de descarga] único (https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) en las descargas del sitio web de Mozilla y utiliza la telemetría de Firefox para enviar el token. El token **no** está incluido en las versiones de [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
@@ -146,7 +146,7 @@ Estas opciones se encuentran en :material-menu: → **Ajustes**
 
 #### Buscar
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Desmarca **Mostrar sugerencias de búsqueda**
 
 Es posible que las funciones de sugerencia de búsqueda no estén disponibles en tu región.
 
@@ -156,7 +156,7 @@ Las sugerencias de búsqueda envían todo lo que escribes en la barra de direcci
 
 [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) es una función similar a las sugerencias de búsqueda que solo está disponible en Estados Unidos. Recomendamos desactivarlo por la misma razón que recomendamos desactivar las sugerencias de búsqueda. Si no ves estas opciones en lel encabezado de la **Barra de Direcciones**, no tienes la nueva experiencia y puedes ignorar estos cambios.
 
-- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Desmarca **Sugerencias de Firefox**
 - [ ] Desmarque **Suggestions from sponsors**
 
 #### Privacidad y seguridad
@@ -183,7 +183,7 @@ Esto te protege de las cookies persistentes, pero no te protege de las cookies a
 
 > Firefox envía datos sobre tu versión e idioma de Firefox; sistema operativo del dispositivo y configuración del hardware; memoria, información básica sobre fallos y errores; resultado de procesos automatizados como actualizaciones, navegación segura y activación. Cuando Firefox envía datos, tu dirección IP se recoge temporalmente como parte de los registros de nuestro servidor.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
+Además, el servicio de Cuentas de Mozilla recopila [algunos datos técnicos](https://mozilla.org/privacy/mozilla-accounts). Si usas una cuenta de Mozilla, puedes optar por salir:
 
 1. Abre la [configuración de tu perfil en accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Desmarca **Recopilación y uso de datos** > **Ayuda a mejorar Cuentas de Firefox**

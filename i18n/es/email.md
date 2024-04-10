@@ -72,7 +72,7 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 
 Las cuentas gratuitas tienen algunas limitaciones, como no poder buscar texto en el contenido, y no tener acceso a [Proton Mail Bridge](https://proton.me/mail/bridge), que es requerido para utilizar un [cliente recomendado de correo electrónico para escritorio](email-clients.md) (como Thunderbird). Cuentas pagas incluyen funciones como Proton Mail Bridge, almacenamiento adicional, y soporte para dominios personalizados. Una [carta de certificación](https://proton.me/blog/security-audit-all-proton-apps) fue proporcionada para las aplicaciones de Proton Mail el 9 de noviembre de 2021 por [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Si tienes el plan Proton Unlimited, Business, Family o Visionary, recibes [SimpleLogin](email-aliasing.md#simplelogin) Premium gratis.
 
 Proton Mail tiene informes de errores internos que **no** comparten con terceros. Puede desactivarse en: **Ajustes** > **Ir a Ajustes** > **Cuenta** > **Seguridad y privacidad** > **Enviar informes de fallos**.
 
@@ -102,7 +102,7 @@ Proton Mail también publica las direcciones públicas de las cuentas a través 
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
-Si tienes una cuenta de pago y tu factura [no esta paga](https://proton.me/support/delinquency) después de 14 días, no podrá acceder a tus datos. Transcurridos 30 días, tu cuenta se convertirá en morosa y no recibirás correo entrante. Seguirás siendo facturando durante este periodo.
+Si tienes una cuenta de pago y tu factura [no esta paga](https://proton.me/support/delinquency) después de 14 días, no podrá acceder a tus datos. Transcurridos 30 días, tu cuenta se convertirá en morosa y no recibirás correo entrante. Seguirás siendo facturando durante este periodo. Proton [elimina las cuentas gratuitas sin actividad](https://proton.me/support/inactive-accounts) luego de un año. **No** puedes reutilizar la dirección de correo electrónico de una cuenta desactivada.
 
 #### :material-information-outline:{ .pg-blue }: Funcionalidad Adicional
 
@@ -137,7 +137,7 @@ Mailbox.org te permite utilizar tu propio dominio y admite direcciones [catch-al
 
 #### :material-check:{ .pg-green } Métodos Privados de Pago
 
-Mailbox.org no acepta criptomonedas debido a que su procesador de pagos BitPay suspendió sus operaciones en Alemania. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org no acepta criptomonedas debido a que su procesador de pagos BitPay suspendió sus operaciones en Alemania. Sin embargo, aceptan los pagos por correo, pagos a una cuenta bancaria, transferencias bancarias, tarjetas de crédito, PayPal y algunos procesadores de pago alemanes: paydirekt y Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
@@ -157,7 +157,7 @@ Mailbox.org también admite el descubrimiento de claves públicas a través de H
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Tu cuenta se convertirá en una cuenta de usuario restringida cuando tu contrato finalice. Se eliminará luego de [30 días](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
@@ -206,11 +206,11 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 </div>
 
-Tuta no admite el [protocolo IMAP](https://tuta.com/faq/#imap) ni el uso de [clientes de correo electrónico](email-clients.md) de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tuta. [La importación de correo electrónico](https://github.com/tutao/tutanota/issues/630) tampoco es compatible en la actualidad, aunque está [previsto que se modifique](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta no admite el [protocolo IMAP](https://tuta.com/faq/#imap) ni el uso de [clientes de correo electrónico](email-clients.md) de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tuta. [La importación de correo electrónico](https://github.com/tutao/tutanota/issues/630) tampoco es compatible en la actualidad, aunque está [previsto que se modifique](https://tuta.com/blog/posts/kickoff-import). Los correos electrónicos pueden ser exportados [individual o grupalmente](https://tuta.com/support#generalMail) por carpeta, lo que puede ser poco conveniente si tienes varias carpetas.
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+Las cuentas de pago de Tuta cuentan con 15 o 30 alias dependiendo del plan y alias ilimitados en [dominios personalizados](https://tuta.com/support#custom-domain). Tuta no permite el [subdireccionamiento (direcciones con un más)](https://tuta.com/support#plus), pero puedes usar [catch-all](https://tuta.com/support#settings-global) con un dominio personalizado.
 
 #### :material-information-outline:{ .pg-blue } Métodos de pago privados
 
@@ -218,11 +218,11 @@ Tuta solo acepta directamente tarjetas de crédito y PayPal, sin embargo, la [cr
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
-Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta soporta la [autenticación de dos factores](https://tuta.com/support#2fa) ya sea con TOTP o U2F.
 
 #### :material-check:{ .pg-green } Seguridad de los datos
 
-Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Esto significa que sólo tú puedes leer los mensajes y otros datos almacenados en tu cuenta.
+Tuta tiene [cifrado de acceso cero en reposo](https://tuta.com/support#what-encrypted) para tus correos, [contactos de la libreta de direcciones](https://tuta.com/support#encrypted-address-book) y [calendarios](https://tuta.com/support#calendar). Esto significa que sólo tú puedes leer los mensajes y otros datos almacenados en tu cuenta.
 
 #### :material-information-outline:{ .pg-blue } Cifrado de correo electrónico
 
@@ -230,7 +230,7 @@ Tuta [no utiliza OpenPGP](https://tuta.com/support/#pgp). Las cuentas de Tuta so
 
 #### :material-information-outline:{ .pg-blue } Cancelación de la cuenta
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Puedes reutilizar una cuenta gratuita desactivada si pagas.
+Tuta [elimina las cuentas gratuitas inactivas](https://tuta.com/support#inactive-accounts) luego de seis meses. Puedes reutilizar una cuenta gratuita desactivada si pagas.
 
 #### :material-information-outline:{ .pg-blue } Funciones adicionales
 

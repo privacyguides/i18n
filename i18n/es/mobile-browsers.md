@@ -256,5 +256,5 @@ Si utilizas iCloud con la Protección de Datos Avanzada desactivada, también te
 
 - Debe admitir actualizaciones automáticas.
 - Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
+- Debe soportar el bloqueo de contenido.
 - Cualquier cambio necesario para que el navegador respete más la privacidad no debería afectar negativamente a la experiencia del usuario.
