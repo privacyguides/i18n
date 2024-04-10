@@ -1,5 +1,5 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+meta_title: "Bagaimana VPN Menjaga Privasi Anda? Konsep Utama VPN - Privacy Guides"
 title: VPN Overview
 icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
