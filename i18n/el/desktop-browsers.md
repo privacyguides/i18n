@@ -136,7 +136,7 @@ schema:
 <div class="admonition warning" markdown>
 <p class="admonition-title">Προσοχή</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Ο Firefox περιλαμβάνει ένα μοναδικό [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) στις λήψεις από τον ιστότοπο της Mozilla και χρησιμοποιεί την τηλεμετρία του Firefox για την αποστολή του token. Το token **δεν** περιλαμβάνεται στις εκδόσεις από το [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
@@ -372,7 +372,7 @@ Disable built-in extensions you do not use in **Extensions**
 
 - Περιλαμβάνει ενσωματωμένη λειτουργία αποκλεισμού περιεχομένου.
 - Υποστηρίζει διαμερισμό cookie ([Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Υποστηρίζει Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
+- Υποστηρίζει Progressive Web Apps. Τα PWA σάς επιτρέπουν να εγκαθιστάτε ορισμένους ιστότοπους σαν να ήταν εγγενείς εφαρμογές στον υπολογιστή σας. Αυτό μπορεί να έχει πλεονεκτήματα σε σχέση με την εγκατάσταση εφαρμογών που βασίζονται στο Electron, επειδή επωφελείστε από τις τακτικές ενημερώσεις ασφαλείας του προγράμματος περιήγησής σας.
 - Δεν περιλαμβάνει πρόσθετες λειτουργίες (bloatware) που δεν επηρεάζουν το απόρρητο του χρήστη.
 - Δεν συλλέγει τηλεμετρία από προεπιλογή.
 - Παρέχει υλοποίηση διακομιστή συγχρονισμού ανοικτού κώδικα.

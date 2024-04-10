@@ -17,7 +17,7 @@ Pour tout le reste, nous recommandons une variété de fournisseurs d'email en f
 - [Autres fournisseurs chiffrés :material-arrow-right-drop-circle:](#more-providers)
 - [Options d'auto-hébergement :material-arrow-right-drop-circle:](#self-hosting-email)
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+En plus (ou à la place) d'un fournisseur de courrier électronique recommandé ici, vous pouvez envisager un [service d'alias de courrier électronique](email-aliasing.md) dédié pour protéger votre vie privée. Ces services permettent notamment de protéger votre boîte de réception réelle contre le spam, d'empêcher les spécialistes du marketing d'établir une corrélation entre vos comptes et de crypter tous les messages entrants à l'aide de PGP.
 
 - [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
@@ -78,7 +78,7 @@ Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** a
 
 #### :material-check:{ .pg-green } Domaines personnalisés et alias
 
-Les abonnés payants à Proton Mail peuvent utiliser leur propre domaine avec le service ou une adresse [fourre-tout](https://proton.me/support/catch-all). Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Les abonnés payants à Proton Mail peuvent utiliser leur propre domaine avec le service ou une adresse [fourre-tout](https://proton.me/support/catch-all). Proton Mail prend également en charge la [sous-adressage](https://proton.me/support/creating-aliases), ce qui est utile pour les personnes qui ne souhaitent pas acheter un domaine.
 
 #### :material-check:{ .pg-green } Modes de paiement privés
 
@@ -102,7 +102,7 @@ Proton Mail publie également les clés publiques des comptes Proton via HTTP à
 
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
-Si vous avez un compte payant et que votre [facture est impayée](https://proton.me/support/delinquency) après 14 jours, vous ne pourrez pas accéder à vos données. Après 30 jours, votre compte sera en impayé et ne recevra plus d'e-mail entrant. Vous continuerez à être facturé pendant cette période. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address on a deactivated account.
+Si vous avez un compte payant et que votre [facture est impayée](https://proton.me/support/delinquency) après 14 jours, vous ne pourrez pas accéder à vos données. Après 30 jours, votre compte sera en impayé et ne recevra plus d'e-mail entrant. Vous continuerez à être facturé pendant cette période. Proton [supprimera les comptes gratuits inactifs](https://proton.me/support/inactive-accounts) après un an. Vous **ne pouvez pas** réutiliser l'adresse électronique d'un compte désactivé.
 
 #### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
 
