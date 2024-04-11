@@ -9,13 +9,14 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 - <span class="pg-purple">:material-incognito: 匿名</span> -保護您的在線活動免受您真實身份影響，保護您防範某些企圖揭露 *您* 身份的侵害。
 - <span class="pg-red">:material-target-account: 針對性的攻擊</span> -保護免受駭客或其他惡意行為者的攻擊，他們正試圖存取訪問 *您的* 資料或設備。
 - <span class="pg-orange">:material-bug-outline: 被動攻擊</span> -保護免受惡意軟體、數據洩露和其他同時針對多人的攻擊。
+- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 - <span class="pg-teal">:material-server-network: 服務供應商</span> - 保護您的資料免受服務供應商侵害（例如，使用 E2EE ，使您保存在伺服器的資料無法被他人讀取）。
 - <span class="pg-blue">:material-eye-outline: 大規模監控</span> -保護您免受政府機構、組織、網站和服務共同追蹤您的活動。
 - <span class="pg-brown">:material-account-cash: 監控資本主義</span> - 保議自己不會被  Google， Facebook 等大型網路廣告以及其它無數第三方資料收集者監控。
 - <span class="pg-green">:material-account-search: 公開曝光</span> -限制搜尋引擎或一般大眾可在網路上找到有關您的資訊。
 - <span class="pg-blue-gray">:material-close-outline: 審查</span> -避免資訊被封鎖或自己的網路發言時受到審查。
 
-其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 例如，有權訪問有價值或重要資料的開發人員可能主要關注 <span class="pg-red">:material-target-account: 針對性攻擊</span>，但他們仍然希望保護自己的個資免受 <span class="pg-blue">:material-eye-outline: 大規模監控</span> 計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>-例如惡意軟件影響他們的設備。
+其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>-例如惡意軟件影響他們的設備。
 
 ## 匿名 vs. 隱私
 
@@ -56,6 +57,31 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 </div>
 
 若特別擔心 **物理攻擊**，就應選用具安全驗證開機的作業系統，例如 Android, iOS, macOS, 或[Windows (帶 TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process)。 應確保您的驅動器是加密的，並且操作系統使用 TPM或 Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) 來限制輸入加密密碼的嘗試率。 您應該避免與不信任的人共享您的電腦，因為大多數桌面作業系統不會單獨加密每個用戶的數據。
+
+<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+
+Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+
+<div class="admonition example" markdown>
+<p class="admonition-title">Example</p>
+
+A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+
+</div>
+
+There are few ways in which this type of attack might be carried out:
+
+1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+2. A developer may be coerced by an outside party to add malicious code.
+3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+
+1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
+3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
 ## 服務供應商的隱私權
 

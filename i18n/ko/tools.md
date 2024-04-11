@@ -13,18 +13,15 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
 
-## Tor 네트워크
+## Tor 브라우저
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
-- ![Tor 브라우저 로고](assets/img/browsers/tor.svg){ .twemoji } [Tor 브라우저](tor.md#tor-browser)
-- ![Orbot 로고](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (스마트폰 Tor 프록시)](tor.md#orbot)
-- ![Onion 브라우저 로고](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion 브라우저 (iOS용 Tor)](tor.md#onion-browser)
-- ![Snowflake 로고](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake 로고](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
+- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
 
 </div>
-
-1. Snowflake를 사용하는 것은 프라이버시를 강화하지 않지만, Tor 네트워크에 기여할 수 있도록 하고 인터넷이 검열된 곳에서 더 좋은 프라이버시를 얻을 수 있도록 도울 수 있습니다.
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](tor.md)
 
@@ -489,8 +486,11 @@ These tools may provide utility for certain individuals. They provide functional
 
 - ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
 - ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](alternative-networks.md#tor)
+- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](alternative-networks.md)
 
 ### Device Integrity Verification
 

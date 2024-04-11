@@ -9,13 +9,14 @@ In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën va
 - <span class="pg-purple">:material-incognito: Anonimiteit</span> - Het afschermen van jouw online activiteiten van jouw echte identiteit, waardoor je beschermd bent tegen mensen die proberen te achterhalen *jouw* identiteit specifiek.
 - <span class="pg-red">:material-target-account: Gerichte aanvallen</span> - Beschermd zijn tegen gerichte hackers of andere kwaadwillenden die toegang proberen te krijgen tot *jouw* gegevens of apparaten specifiek.
 - <span class="pg-orange">:material-bug-outline: Passieve aanvallen</span> - Beschermd zijn tegen zaken als malware, inbreuken op gegevens en andere aanvallen die tegen veel mensen tegelijk worden uitgevoerd
+- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 - <span class="pg-teal">:material-server-network: Dienstverleners</span> - Bescherming van jouw gegevens tegen dienstverleners, bv. met end-to-endencryptie waardoor jouw gegevens onleesbaar worden voor de server.
 - <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> - Bescherming tegen overheidsinstellingen, organisaties, websites en diensten die samenwerken om jouw activiteiten te volgen.
 - <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Jezelf beschermen tegen grote advertentienetwerken zoals Google en Facebook, en een groot aantal andere gegevensverzamelaars van derden
 - <span class="pg-green">:material-account-search: Public Exposure</span> - het beperken van de informatie over je die online toegankelijk is voor zoekmachines of het grote publiek.
 - <span class="pg-blue-gray">:material-close-outline: Censuur</span> - Voorkomen van gecensureerde toegang tot informatie en zelf gecensureerd worden als je online spreekt
 
-Sommige van deze bedreigingen kunnen zwaarder wegen dan andere, afhankelijk van jouw specifieke zorgen. Een softwareontwikkelaar die toegang heeft tot waardevolle of kritieke gegevens is bijvoorbeeld misschien in de eerste plaats bezorgd over <span class="pg-red">:material-target-account: gerichte aanvallen</span>, maar verder willen zij waarschijnlijk nog steeds hun persoonlijke gegevens beschermen tegen opneming in <span class="pg-blue">:material-eye-outline: programma's voor massatoezicht</span>. Op dezelfde manier is de "gemiddelde consument" misschien in de eerste plaats bezorgd over <span class="pg-green">:material-account-search: Public Exposure</span> van zijn persoonsgegevens, maar moet hij toch op zijn hoede zijn voor op beveiliging gerichte zaken zoals <span class="pg-orange">:material-bug-outline: Passive Attacks</span> zoals malware die zijn apparaten aantast.
+Sommige van deze bedreigingen kunnen zwaarder wegen dan andere, afhankelijk van jouw specifieke zorgen. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Op dezelfde manier is de "gemiddelde consument" misschien in de eerste plaats bezorgd over <span class="pg-green">:material-account-search: Public Exposure</span> van zijn persoonsgegevens, maar moet hij toch op zijn hoede zijn voor op beveiliging gerichte zaken zoals <span class="pg-orange">:material-bug-outline: Passive Attacks</span> zoals malware die zijn apparaten aantast.
 
 ## Anonimiteit versus privacy
 
@@ -56,6 +57,31 @@ Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken.
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Je moet er ook voor zorgen dat jouw schijf versleuteld is, en dat het besturingssysteem een TPM of Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) of [Element](https://developers.google.com/android/security/android-ready-se) gebruikt voor het beperken van de snelheid waarmee pogingen worden gedaan om de wachtwoordzin voor de versleuteling in te voeren. Je moet voorkomen dat je jouw computer deelt met mensen die je niet vertrouwt, omdat de meeste desktopbesturingssystemen gegevens niet afzonderlijk per gebruiker versleutelen.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+
+Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+
+<div class="admonition example" markdown>
+<p class="admonition-title">Example</p>
+
+A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+
+</div>
+
+There are few ways in which this type of attack might be carried out:
+
+1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+2. A developer may be coerced by an outside party to add malicious code.
+3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+
+1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
+3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
 ## Privacy van dienstverleners
 

@@ -9,13 +9,14 @@ In linea di massima, le nostre raccomandazioni sono suddivise in [minacce](threa
 - <span class="pg-purple">:material-incognito: Anonimato</span> - Proteggono la tua attività online dalla tua identità reale, proteggendoti da persone che mirano a scoprire la *tua* identità nello specifico.
 - <span class="pg-red">:material-target-account: Attacchi mirati</span> - Protezione da hacker o altri malintenzionati, che mirano ad accedere ai *tuoi* dati o dispositivi, nello specifico.
 - <span class="pg-orange">:material-bug-outline: Attacchi passivi</span> - Protezione da malware, violazioni di dati e altri attacchi effettuati contro molte persone, in una singola volta.
+- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 - <span class="pg-teal">:material-server-network: Service Providers</span> - Protezione dei tuoi dati dai fornitori del servizio (es., con l'E2EE, che rende i tuoi dati illeggibili dal server).
 - <span class="pg-blue">:material-eye-outline: Sorveglianza di massa</span> - Protezione dalle agenzie governative, organizzazioni, siti web e servizi che cooperano per tracciare le tue attività.
 - <span class="pg-brown">:material-account-cash: Capitalismo di sorveglianza</span> - Protezione dalle grandi reti pubblicitarie, come Google e Facebook, nonché da una miriade di altri raccoglitori di dati di terze parti.
 - <span class="pg-green">:material-account-search: Esposizione pubblica</span> - Limitazione delle informazioni accessibili online su di te, ai motori di ricerca o al pubblico generale.
 - <span class="pg-blue-gray">:material-close-outline: Censura</span> - Prevenzione dell'accesso censurato a informazioni, o della tua censura, comunicando online.
 
-Alcune di queste minacce potrebbero essere per te più importanti di altre, a seconda delle tue preoccupazioni specifiche. Ad esempio, uno sviluppatore di software con accesso a dati preziosi o critici potrebbe essere principalmente preoccupato degli <span class="pg-red">:material-target-account: Attacchi Mirati</span>, pur volendo proteggere i propri dati personali dalla raccolta, da parte dei programmi di <span class="pg-blue">:material-eye-outline: Sorveglianza di Massa</span>. Similmente, in molto potrebbero essere principalmente preoccupati dall'<span class="pg-green">:material-account-search: Esposizione Pubblica</span> dei propri dati personali, pur rimanendo attendi ai problemi di sicurezza, come gli <span class="pg-orange">:material-bug-outline: Attacchi Passivi</span>, come i malware che colpiscono i loro dispositivi.
+Alcune di queste minacce potrebbero essere per te più importanti di altre, a seconda delle tue preoccupazioni specifiche. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similmente, in molto potrebbero essere principalmente preoccupati dall'<span class="pg-green">:material-account-search: Esposizione Pubblica</span> dei propri dati personali, pur rimanendo attendi ai problemi di sicurezza, come gli <span class="pg-orange">:material-bug-outline: Attacchi Passivi</span>, come i malware che colpiscono i loro dispositivi.
 
 ## Anonimato vs. Privacy
 
@@ -56,6 +57,31 @@ Per loro natura, i **browser web**, i **client email** e le **applicazioni per u
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Inoltre, dovresti assicurarti che la tua unità sia crittografata e che il sistema operativo utilizzi un TPM o Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) od [Element](https://developers.google.com/android/security/android-ready-se), per limitare la frequenza dei tentativi di inserire la frase segreta crittografica. Dovresti evitare di condividere il tuo computer con persone di cui non ti fidi, poiché gran parte dei sistemi operativi per desktop non crittografa i dati separatamente, per ogni utente.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+
+Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+
+<div class="admonition example" markdown>
+<p class="admonition-title">Esempio</p>
+
+A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+
+</div>
+
+There are few ways in which this type of attack might be carried out:
+
+1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+2. A developer may be coerced by an outside party to add malicious code.
+3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+
+1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
+3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
 ## Privacy dai fornitori del servizio
 

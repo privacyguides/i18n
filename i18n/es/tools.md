@@ -13,18 +13,15 @@ Si está buscando una solución específica para algo, estas son las herramienta
 
 Para obtener más información sobre cada proyecto, por qué han sido elegidos y otros consejos o trucos que recomendamos, haga clic en el enlace "Más información" de cada sección o en la propia recomendación para acceder a la sección correspondiente de la página.
 
-## Red Tor
+## Tor Browser
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Navegador Tor](tor.md#tor-browser)
+- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
 - ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor para iOS)](tor.md#onion-browser)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
 
 </div>
-
-1. Snowflake no aumenta la privacidad, sin embargo, le permite a usted contribuir fácilmente a la red Tor y ayudar a que la gente en redes censuradas consiga una mejor privacidad.
 
 [Más información :material-arrow-right-drop-circle:](tor.md)
 
@@ -489,8 +486,11 @@ Estas herramientas pueden ser útiles para determinadas personas. Proporcionan f
 
 - ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
 - ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](alternative-networks.md#tor)
+- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
+
+[Más información :material-arrow-right-drop-circle:](alternative-networks.md)
 
 ### Verificación de Integridad del Dispositivo
 

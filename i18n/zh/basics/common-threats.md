@@ -9,13 +9,14 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 - <span class="pg-purple">:material-incognito: 匿名性</span> - 隔离你的线上活动和你的真实身份, 特别是要保护 *你的* 身份不被人揭露。
 - <span class="pg-red">:material-target-account: 定向攻击</span> -防御专业黑客或恶意代理人获得，特别是 *你的* 数据或设备的访问权。
 - <span class="pg-orange">:material-bug-outline: 被动攻击</span> - 防御诸如恶意软件、数据泄露和其他一些同时针对许多人的攻击。
+- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 - <span class="pg-teal">:material-server-network: 服务供应商</span> - 保护您的数据不受服务供应商的影响，例如，通过端到端加密使您的数据无法被服务器读取。
 - <span class="pg-blue">:material-eye-outline: 大规模监控</span> - 防止政府机构、组织、网站和服务联合起来共同追踪你的活动。
 - <span class="pg-brown">:material-account-cash: 监视资本主义</span> - 保护自己不受谷歌和Facebook等大型广告网络以及其他无数第三方数据收集者的影响
 - <span class="pg-green">:material-account-search: 公开曝光</span> - 限制搜索引擎或一般公众在线访问到关于你的信息的能力。
 - <span class="pg-blue-gray">:material-close-outline: 审查</span> - 避免信息的获取受到审查或者在网上的发言被审查。
 
-其中一些威胁可能比其他威胁更重要，具体取决于您的关注点。 例如，一个能接触到有价值或关键数据的软件开发者可能主要关注 <span class="pg-red">:material-target-account: 定向攻击</span>，但除此之外，他们可能仍然希望保护自己的个人数据不被卷进 <span class="pg-blue">:material-eye-outline: 大规模监控</span> 计划。 同样，"普通人 "可能主要关心他们的个人数据的 <span class="pg-green">:material-account-search: ，公开曝光</span> ，但他们仍应警惕那些侧重于安全的问题，比如<span class="pg-orange">:material-bug-outline: ，被动攻击</span>，就像那些会影响到设备的恶意软件 。
+其中一些威胁可能比其他威胁更重要，具体取决于您的关注点。 For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. 同样，"普通人 "可能主要关心他们的个人数据的 <span class="pg-green">:material-account-search: ，公开曝光</span> ，但他们仍应警惕那些侧重于安全的问题，比如<span class="pg-orange">:material-bug-outline: ，被动攻击</span>，就像那些会影响到设备的恶意软件 。
 
 ## 匿名与隐私
 
@@ -56,6 +57,31 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). 你还应该确保你的驱动器是加密的，并且操作系统使用TPM或安全 [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) ，以限制输入加密口令的重试速率。 你应该避免与你不信任的人分享你的电脑，因为大多数桌面操作系统没有按用户单独加密数据。
+
+<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+
+Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+
+<div class="admonition example" markdown>
+<p class="admonition-title">Example</p>
+
+A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+
+</div>
+
+There are few ways in which this type of attack might be carried out:
+
+1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+2. A developer may be coerced by an outside party to add malicious code.
+3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+
+1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
+3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
 ## 来自服务提供商的隐私
 

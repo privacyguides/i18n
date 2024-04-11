@@ -13,18 +13,15 @@ If you want assistance figuring out the best privacy tools and alternative progr
 
 关于每个项目的更多相关细节, 为什么选择它们以及我们提议的一些额外的使用提示或技巧，请点击每个部分的 "了解详情" 链接, 或者也可以点击推荐项本身来转到具体的页面部分。
 
-## 桌面端浏览器
+## Tor浏览器
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
 - ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
 - ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
 - ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
 
 </div>
-
-1. Snowflake 不能够增进你的隐私，但它能够让你轻松地为Tor网络做出贡献，并帮助那些受网络审查的人获得更好的隐私。
 
 [了解更多 :hero-arrow-circle-right-fill:](tor.md)
 
@@ -497,8 +494,11 @@ These tools may provide utility for certain individuals. They provide functional
 
 - ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
 - ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](alternative-networks.md#tor)
+- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
+
+[了解更多 :hero-arrow-circle-right-fill:](alternative-networks.md)
 
 ### Device Integrity Verification
 

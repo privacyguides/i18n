@@ -9,13 +9,14 @@ En términos generales, clasificamos nuestras recomendaciones en las [amenazas](
 - <span class="pg-purple">:material-incognito: Anonimato</span> - Proteger tu actividad en línea de tu identidad real, protegiendote de las personas que están tratando de descubrir *tu* identidad específicamente.
 - <span class="pg-red">:material-target-account: Ataques dirigidos</span> - Estar protegido de los hackers u otros actores maliciosos que están tratando de acceder a *tus* datos o dispositivos específicamente.
 - <span class="pg-orange">:material-bug-outline: Ataques pasivos</span> - Estar protegido de cosas como el malware, las filtraciones de datos y otros ataques que se realizan contra muchas personas a la vez.
+- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 - <span class="pg-teal">:material-server-network: Proveedores de servicios</span> - Proteger tus datos de los proveedores de servicios (por ejemplo, con E2EE, que hace que tus datos sean ilegibles para el servidor).
 - <span class="pg-blue">:material-eye-outline: Vigilancia masiva</span> - Protección contra las agencias gubernamentales, organizaciones, sitios web y servicios que trabajan juntos para rastrear tus actividades.
 - <span class="pg-brown">:material-account-cash: Capitalismo de la vigilancia</span> - Protegerse de las grandes redes de publicidad, como Google y Facebook, así como de una miríada de otros recolectores de datos de terceros.
 - <span class="pg-green">:material-account-search: Exposición pública</span> - Limitar la información sobre ti que es accesible en línea, para los motores de búsqueda o el público en general.
 - <span class="pg-blue-gray">:material-close-outline: Censura</span> - Evitar el acceso censurado a la información o ser censurado uno mismo al hablar en línea.
 
-Algunas de estas amenazas pueden ser más importantes para ti que otras, dependiendo de tus preocupaciones específicas. Por ejemplo, un desarrollador de software con acceso a datos valiosos o críticos puede estar preocupado principalmente por <span class="pg-red">:material-target-account: Ataques dirigidos</span>, pero probablemente siga queriendo proteger sus datos personales de ser barridos por los programas de <span class="pg-blue">:material-eye-outline: Vigilancia masiva</span>. Del mismo modo, muchas personas pueden estar preocupadas principalmente por la <span class="pg-green">:material-account-search: Exposición pública</span> de sus datos personales, pero aún así deben tener cuidado con los problemas centrados en la seguridad, como los <span class="pg-orange">:material-bug-outline: Ataques pasivos</span>-como el malware que afecta a sus dispositivos.
+Algunas de estas amenazas pueden ser más importantes para ti que otras, dependiendo de tus preocupaciones específicas. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Del mismo modo, muchas personas pueden estar preocupadas principalmente por la <span class="pg-green">:material-account-search: Exposición pública</span> de sus datos personales, pero aún así deben tener cuidado con los problemas centrados en la seguridad, como los <span class="pg-orange">:material-bug-outline: Ataques pasivos</span>-como el malware que afecta a sus dispositivos.
 
 ## Anonimato vs. Privacidad
 
@@ -56,6 +57,31 @@ Por su diseño, los **navegadores web**, los **clientes de correo electrónico**
 </div>
 
 Si te preocupan los **ataques físicos** deberías utilizar un sistema operativo con una implementación de arranque seguro verificado, como Android, iOS, macOS o [Windows (con TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). También deberías asegurarte de que tu disco esté encriptado y de que el sistema operativo utiliza un TPM o Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) o [Element](https://developers.google.com/android/security/android-ready-se) para limitar los intentos de introducir la frase de contraseña de encriptación. Deberías evitar compartir tu ordenador con personas que no sean de tu confianza, ya que la mayoría de los sistemas operativos de escritorio no cifran los datos por separado para cada usuario.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+
+Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+
+<div class="admonition example" markdown>
+<p class="admonition-title">Ejemplo</p>
+
+A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+
+</div>
+
+There are few ways in which this type of attack might be carried out:
+
+1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+2. A developer may be coerced by an outside party to add malicious code.
+3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+
+1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
+3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
 ## Privacidad de los proveedores de servicios
 

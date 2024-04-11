@@ -42,7 +42,7 @@ schema:
 
 Estes mitos resultam de uma série de preconceitos, mas se o código fonte está disponível e a forma como o software é licenciado não afecta de modo algum a sua segurança de forma inerente. ==Software de código aberto tem o *potencial* para ser mais seguro do que um software proprietário, mas não existe qualquer garantia de que assim seja.== Quando se avalia o software, se deve olhar a reputação e a segurança de cada ferramenta numa base individual.
 
-O software de código aberto *pode* ser auditado por terceiros, e é muitas vezes mais transparente sobre potenciais vulnerabilidades do que os seus equivalentes proprietários. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities into even large projects.[^1]
+O software de código aberto *pode* ser auditado por terceiros, e é muitas vezes mais transparente sobre potenciais vulnerabilidades do que os seus equivalentes proprietários. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities known as <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
 
 On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
 
@@ -94,4 +94,4 @@ One of the clearest threat models is one where people *know who you are* and one
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://www.cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

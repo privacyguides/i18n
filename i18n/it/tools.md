@@ -13,18 +13,15 @@ Se desideri assistenza per capire di quali migliori strumenti e programmi altern
 
 Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori consigli o trucchi consigliati, clicca il link "Scopri di Più" in ogni sezione, o clicca sullo stesso consiglio, per essere reindirizzato alla sezione specifica della pagina.
 
-## Rete Tor
+## Tor Browser
 
-<div class="grid cards annotate" markdown>
+<div class="grid cards" markdown>
 
-- ![Logo di Tor Browser](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
-- ![Logo di Orbot](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Proxy Tor per Smartphone)](tor.md#orbot)
-- ![Logo di Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor per iOS)](tor.md#onion-browser)
-- ![Logo di Snowflake](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Logo di Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](tor.md#snowflake) (1)
+- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji } [Tor Browser](tor.md#tor-browser)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
 
 </div>
-
-1. Snowflake non incrementa la privacy, tuttavia, ti consente di contribuire facilmente alla rete di Tor e di aiutare persone su reti censurate, a ottenere una migliore privacy.
 
 [Scopri di più :material-arrow-right-drop-circle:](tor.md)
 
@@ -489,8 +486,11 @@ Questi strumenti possono essere utili per alcuni individui. Forniscono funzional
 
 - ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
 - ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji } [Tor](alternative-networks.md#tor)
+- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
+
+[Scopri di più :material-arrow-right-drop-circle:](alternative-networks.md)
 
 ### Verifica dell'Integrità del Dispositivo
 

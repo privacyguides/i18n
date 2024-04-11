@@ -42,7 +42,7 @@ schema:
 
 這些迷思源於許多偏見，原始碼是否開放以及軟體的許可並不會以任何方式影響其安全性。 ==開源軟件 *可能* 比商業軟件更安全，但絕對不能保證這一點。==評估軟體時，您應該根據每個工具的聲譽和安全性進行評估。
 
-開源軟體*能夠*由第三方人員進行審計，比起同類商用軟體，前者對待潛在漏洞更為透明。 它還允許您查看代碼並禁用您發現的任何可疑功能。 然而，*除非您真的這樣做了*，否則不能保證程式碼曾經被評估過，特別是小型軟體專案。 開放的發展過程有時會遭利用，甚至在大型專案中被引入新的漏洞。
+開源軟體*能夠*由第三方人員進行審計，比起同類商用軟體，前者對待潛在漏洞更為透明。 它還允許您查看代碼並禁用您發現的任何可疑功能。 然而，*除非您真的這樣做了*，否則不能保證程式碼曾經被評估過，特別是小型軟體專案。 The open development process has also sometimes been exploited to introduce new vulnerabilities known as <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
 
 另一方面，專有軟件不太透明，但這並不意味著它不安全。 主要的商用軟件專案會由內部和第三方機構進行審計，獨立的安全研究人員仍然可以通過逆向工程等技術發現漏洞。
 
@@ -94,4 +94,4 @@ schema:
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://www.cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

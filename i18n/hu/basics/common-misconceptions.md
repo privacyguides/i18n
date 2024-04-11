@@ -42,7 +42,7 @@ schema:
 
 Ezek a mítoszok számos előítéletből fakadnak, de az, hogy a forráskód elérhető-e, és hogy a szoftverek licencelése hogyan történik, nem befolyásolja annak biztonságát semmilyen módon. ==A nyílt forráskódú szoftverek potenciálisan ** biztonságosabbak, mint a jogvédett szoftverek, de egyáltalán nem garantálható, hogy ez így is van.== Egy szoftver elbírálásánál az egyes eszközök hírnevét és biztonságát egyénileg kell megvizsgálni.
 
-Nyílt forráskódú szoftverek felülvizsgál*hatók* harmadik felek által, és gyakran átláthatóbbak lehetséges sebezhetőségek esetében, mint a jogvédett szoftverek. Azt is lehetővé teszi, hogy felülvizsgáld a kódot, és letiltsd a gyanús funkciókat, amiket találsz. Azonban, *ha nem így teszel*, nincs garancia arra, hogy a kód valaha is el lett bírálva, különösen a kisebb szoftverprojektek esetében. A nyílt fejlesztési folyamat is ki lett használva arra, hogy új sebezhetőségeket építsenek be még nagyobb projektekbe is.[^1]
+Nyílt forráskódú szoftverek felülvizsgál*hatók* harmadik felek által, és gyakran átláthatóbbak lehetséges sebezhetőségek esetében, mint a jogvédett szoftverek. Azt is lehetővé teszi, hogy felülvizsgáld a kódot, és letiltsd a gyanús funkciókat, amiket találsz. Azonban, *ha nem így teszel*, nincs garancia arra, hogy a kód valaha is el lett bírálva, különösen a kisebb szoftverprojektek esetében. The open development process has also sometimes been exploited to introduce new vulnerabilities known as <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
 
 A másik oldalon a jogvédett szoftverek kevésbé átláthatóak, de ez nem jelenti azt, hogy nem biztonságosak. A nagyobb jogvédett szoftverprojektek belső és harmadik fél által is felülvizsgálhatók, és független biztonsági kutatók továbbra is találhatnak sebezhetőségeket olyan technikákkal, mint a reverse engineering.
 
@@ -94,4 +94,4 @@ One of the clearest threat models is one where people *know who you are* and one
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: One notable example of this is the [2021 incident in which University of Minnesota researchers introduced three vulnerabilities into the Linux kernel development project](https://cse.umn.edu/cs/linux-incident).
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://www.cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
