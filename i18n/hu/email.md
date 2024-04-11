@@ -47,7 +47,7 @@ Az OpenPGP nem támogatja a Forward secrecy-t sem, ami azt jelenti, hogy ha a t�
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. **2013** óta működnek. A Proton AG székhelye Genfben, Svájcban található. A fiókok 500 MB induló tárhellyel kezdődnek a ingyenes csomagban.
+A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. **2013** óta működnek. A Proton AG székhelye Genfben, Svájcban található. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Főoldal](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion szolgáltatás" }
@@ -74,7 +74,7 @@ Az ingyenes fiókoknak vannak bizonyos korlátai, például nem tudnak keresni a
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-A Proton Mail belső hibajelentéseket készít; ezeket **nem** osztják meg harmadik felekkel. Ez kikapcsolható a: **Beállítások** > **Fiók** > **Biztonság és adatvédelem** > **Adatvédelem és adatgyűjtés** > **Hibajelentések küldése**.
+Proton Mail has internal crash reports that are **not** shared with third parties. Ez kikapcsolható a: **Beállítások** > **Fiók** > **Biztonság és adatvédelem** > **Adatvédelem és adatgyűjtés** > **Hibajelentések küldése**.
 
 #### :material-check:{ .pg-green } Egyedi domainek és álnevek
 

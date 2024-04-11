@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![ Proton Mail logo ]( assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** adalah layanan surel dengan fokus pada privasi, enkripsi, keamanan, dan kemudahan penggunaan. Mereka telah beroperasi sejak **2013**. Proton AG berbasis di Genewa, Swiss. Akun dimulai dengan penyimpanan 500 MB dengan paket gratis mereka.
+**Proton Mail** adalah layanan surel dengan fokus pada privasi, enkripsi, keamanan, dan kemudahan penggunaan. Mereka telah beroperasi sejak **2013**. Proton AG berbasis di Genewa, Swiss. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ Akun gratis memiliki beberapa keterbatasan, seperti tidak dapat mencari teks tub
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail memiliki laporan mogok internal yang tidak **dibagikan kepada pihak ketiga**. Ini dapat dinonaktifkan di: **Pengaturan** > **Buka Pengaturan** > **Akun** > **Keamanan dan privasi** > **Kirim laporan kemogokan**.
+Proton Mail has internal crash reports that are **not** shared with third parties. Ini dapat dinonaktifkan di: **Pengaturan** > **Buka Pengaturan** > **Akun** > **Keamanan dan privasi** > **Kirim laporan kemogokan**.
 
 #### :material-check:{ .pg-green } Domain dan Alias Khusus
 

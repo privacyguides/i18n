@@ -47,7 +47,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 ! [Proton Mail徽标] (assets/img/email/protonmail.svg) {align = right}
 
-* * Proton Mail * *是一项专注于隐私、加密、安全性和易用性的电子邮件服务。 他们自**2013年**以来一直在运作。 Proton公司总部位于瑞士日内瓦。 他们的免费计划中，账户一开始开始有500MB的存储空间。
+* * Proton Mail * *是一项专注于隐私、加密、安全性和易用性的电子邮件服务。 他们自**2013年**以来一直在运作。 Proton公司总部位于瑞士日内瓦。 Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-</strong> Proton Mail有内部碰撞报告，他们 **，不与第三方分享。 这可以在以下方面禁用。 **设置** > **转到设置** > **帐户** > **安全和隐私** > **发送崩溃报告**。</p>
+Proton Mail has internal crash reports that are **not** shared with third parties. 这可以在以下方面禁用。 **设置** > **转到设置** > **帐户** > **安全和隐私** > **发送崩溃报告**。
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 

@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![لۆگۆی Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** خزمەتگوزاریەکی پۆستەی ئەلکتڕۆنیە، کە سەرنجی هەبوونی تایبەتێتی، شفرکردن، پارێزراوی، وە ئاسان لە بەکارهێنان دروست کراوە. ئەوان لە **2013**ـەوە لە کاردان. Proton AG is based in Genève, Switzerland. Accounts start with 500 MB storage with their free plan.
+**Proton Mail** خزمەتگوزاریەکی پۆستەی ئەلکتڕۆنیە، کە سەرنجی هەبوونی تایبەتێتی، شفرکردن، پارێزراوی، وە ئاسان لە بەکارهێنان دروست کراوە. ئەوان لە **2013**ـەوە لە کاردان. Proton AG is based in Genève, Switzerland. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail ڕاپۆرتی تێکچوونە ناوخۆییەکانی هەیە، کە ئەوان هاوبەشی **ناکەن** لەگەڵ لایەنە سێیەمەکان. ئەمە دەتوانێ لە ناچالاک بکرێت لە: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+Proton Mail has internal crash reports that are **not** shared with third parties. ئەمە دەتوانێ لە ناچالاک بکرێت لە: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
 #### :material-check:{ .pg-green } دۆمەینە تایبەتیەکان و نازناوەکان
 

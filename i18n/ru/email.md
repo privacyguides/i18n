@@ -47,7 +47,7 @@ OpenPGP также не поддерживает прямую секретнос
 
 ![Логотип Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** — это сервис электронной почты, фокусирующийся на приватности, шифровании, безопасности и простоте использования. Они работают с **2013** года. Компания Proton AG базируется в Женеве, Швейцария. Аккаунты получают от 500 МБ хранилища на бесплатном тарифе.
+**Proton Mail** — это сервис электронной почты, фокусирующийся на приватности, шифровании, безопасности и простоте использования. Они работают с **2013** года. Компания Proton AG базируется в Женеве, Швейцария. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ OpenPGP также не поддерживает прямую секретнос
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-У компании Proton Mail есть внутренние отчеты об ошибках, которые они **не передают** третьим лицам. Это можно отключить в: **Настройки** > **Перейти в Настройки** > **Учетная запись** > **Безопасность и конфиденциальность** > **Отправка отчетов об ошибках**.
+Proton Mail has internal crash reports that are **not** shared with third parties. Это можно отключить в: **Настройки** > **Перейти в Настройки** > **Учетная запись** > **Безопасность и конфиденциальность** > **Отправка отчетов об ошибках**.
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 

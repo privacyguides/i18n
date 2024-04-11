@@ -47,7 +47,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 自 **2013 年** 開始運營。 Proton AG 總部位於瑞士日內瓦。 免費帳戶有 500 MB 的存儲j容量。
+**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 自 **2013 年** 開始運營。 Proton AG 總部位於瑞士日內瓦。 Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在以下位置停用此功能：**設定** > **前往設定** > **帳戶** > **安全和隱私** > **傳送崩潰報告**。
+Proton Mail has internal crash reports that are **not** shared with third parties. 可以在以下位置停用此功能：**設定** > **前往設定** > **帳戶** > **安全和隱私** > **傳送崩潰報告**。
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 

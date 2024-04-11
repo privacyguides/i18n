@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** は、プライバシー、暗号化、セキュリティ、使いやすさを重視したメールサービスです。 2013年から運営をされています。 Proton AGはスイスのジュネーブに拠点を置いています。 アカウントは無料プランでストレージ500MBから始まります。
+**Proton Mail** は、プライバシー、暗号化、セキュリティ、使いやすさを重視したメールサービスです。 2013年から運営をされています。 Proton AGはスイスのジュネーブに拠点を置いています。 Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mailには内部にクラッシュレポートがあり、これは第三者に共有 **されません** 。 クラッシュレポートは次のように無効にできます: **設定** > **設定を開く** > **アカウント** > **セキュリティとプライバシー** > **クラッシュレポートを送信**
+Proton Mail has internal crash reports that are **not** shared with third parties. クラッシュレポートは次のように無効にできます: **設定** > **設定を開く** > **アカウント** > **セキュリティとプライバシー** > **クラッシュレポートを送信**
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 

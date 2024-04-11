@@ -47,7 +47,7 @@ OpenPGP ne prend pas non plus en charge la confidentialité persistante, ce qui 
 
 ![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Il est en activité depuis **2013**. Proton AG a son siège à Genève, en Suisse. Les comptes commencent avec 500 Mo de stockage avec leur offre gratuite.
+**Proton Mail** est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Il est en activité depuis **2013**. Proton AG a son siège à Genève, en Suisse. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Page d'accueil](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Service onion" }
@@ -74,7 +74,7 @@ Les comptes gratuits présentent certaines limitations, comme le fait de ne pas 
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** avec des tiers. Ils peuvent être désactivés dans : **Paramètres** > **Aller à Paramètres** > **Compte** > **Sécurité et confidentialité** > **Envoyer des rapports de crash**.
+Proton Mail has internal crash reports that are **not** shared with third parties. Ils peuvent être désactivés dans : **Paramètres** > **Aller à Paramètres** > **Compte** > **Sécurité et confidentialité** > **Envoyer des rapports de crash**.
 
 #### :material-check:{ .pg-green } Domaines personnalisés et alias
 

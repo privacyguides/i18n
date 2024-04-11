@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** یک سرویس ایمیل با تمرکز بر حریم خصوصی، رمزگذاری، امنیت و سهولت استفاده است. آن‌ها از **2013** شروع به کار کرده‌اند. شرکت Proton AG در ژنو سوئیس قرار دارد. طرح رایگان شامل ۵۰۰ مگابایت فضای ذخیره‌سازی است.
+**Proton Mail** یک سرویس ایمیل با تمرکز بر حریم خصوصی، رمزگذاری، امنیت و سهولت استفاده است. آن‌ها از **2013** شروع به کار کرده‌اند. شرکت Proton AG در ژنو سوئیس قرار دارد. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail گزارش‌های خرابی داخلی دارد که اطلاعات آن را با اشخاص ثالث به اشتراک **نمی‌گذارد**. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 

@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=left }
 
-**بريد بروتون** هو خدمة بُرُد إلكترونية تركِّز في الخصوصية والتعمية والأمن واليسر. وهم يعملون منذ **٢٠١٣**. ومقرُّ بروتون أي‌جي في جنيف في سويسرا. تبدأ الحسابات عندهم لها سعة تخزين ٥٠٠ م‌بايت، وذلك حسب الاشتراك المجاني.
+**بريد بروتون** هو خدمة بُرُد إلكترونية تركِّز في الخصوصية والتعمية والأمن واليسر. وهم يعملون منذ **٢٠١٣**. ومقرُّ بروتون أي‌جي في جنيف في سويسرا. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-عند بريد بروتون تقارير تعطُّل داخلية **لا** يشاركونها مع أيِّ جهة خارجية. ولك تعطيلها في: **الإعدادات** > ** إذهب للإعدادات** > **الحساب** > **الأمن والخصوصية** > **أرسل تقارير التعطُّل**.
+Proton Mail has internal crash reports that are **not** shared with third parties. ولك تعطيلها في: **الإعدادات** > ** إذهب للإعدادات** > **الحساب** > **الأمن والخصوصية** > **أرسل تقارير التعطُّل**.
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 

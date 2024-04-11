@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail 로고](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail**은 프라이버시, 암호화, 보안, 사용 편의성에 중점을 둔 이메일 서비스입니다. **2013년**부터 운영되었습니다. Proton AG 본사는 스위스 제네바에 위치하고 있습니다. 무료 플랜 계정은 500MB 저장 공간으로 시작합니다.
+**Proton Mail**은 프라이버시, 암호화, 보안, 사용 편의성에 중점을 둔 이메일 서비스입니다. **2013년**부터 운영되었습니다. Proton AG 본사는 스위스 제네바에 위치하고 있습니다. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail에는 내부 충돌 보고서가 존재하며, 이는 제3자와 공유되지 **않습니다**. 충돌 보고서는 비활성화 가능합니다: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+Proton Mail has internal crash reports that are **not** shared with third parties. 충돌 보고서는 비활성화 가능합니다: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 

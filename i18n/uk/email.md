@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Логотип Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail — це поштовий сервіс з акцентом на конфіденційності, шифруванні, безпеці та простоті використання. Вони працюють з **2013 року**. Компанія Proton AG базується в Женеві, Швейцарія. Облікові записи починаються з 500 МБ пам'яті в безкоштовному тарифному плані.
+**Proton Mail — це поштовий сервіс з акцентом на конфіденційності, шифруванні, безпеці та простоті використання. Вони працюють з **2013 року**. Компанія Proton AG базується в Женеві, Швейцарія. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail має внутрішні звіти про збої, які **не** передаються третім особам. Цю функцію можна вимкнути: **Налаштування** > **Перейти до налаштувань** > **Обліковий запис** > **Безпека та конфіденційність** > **Надсилати звіти про збої**.
+Proton Mail has internal crash reports that are **not** shared with third parties. Цю функцію можна вимкнути: **Налаштування** > **Перейти до налаштувань** > **Обліковий запис** > **Безпека та конфіденційність** > **Надсилати звіти про збої**.
 
 #### :material-check:{ .pg-green } Користувацькі домени та аліаси
 

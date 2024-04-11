@@ -47,7 +47,7 @@ Inoltre, OpenPGP non supporta la Forward Secrecy, ciò significa che se la chiav
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. Operano dal **2013**. Proton AG ha sede a Ginevra, Svizzera. Gli account partono da 500MB di spazio di archiviazione con il piano gratuito.
+**Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. Operano dal **2013**. Proton AG ha sede a Ginevra, Svizzera. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servizio Onion" }
@@ -74,7 +74,7 @@ Gli account gratuiti presentano delle limitazioni, come l'incapacità di cercare
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail ha dei rapporti sugli arresti anomali interni che **non** condividono con terze parti. Ciò è disabilitabile in: **Impostazioni** > **Vai alle Impostazioni** > **Profilo** > **Sicurezza e privacy** > **Invia rapporti sugli arresti anomali**.
+Proton Mail has internal crash reports that are **not** shared with third parties. Ciò è disabilitabile in: **Impostazioni** > **Vai alle Impostazioni** > **Profilo** > **Sicurezza e privacy** > **Invia rapporti sugli arresti anomali**.
 
 #### :material-check:{ .pg-green } Domini e Alias Personalizzati
 

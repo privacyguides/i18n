@@ -47,7 +47,7 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit **2013** in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Konten im kostenlosen Tarif beginnen mit 1 GB Speicherplatz.
+**Proton Mail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit **2013** in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion / Tor" }
@@ -74,7 +74,7 @@ Kostenlose Konten haben einige Einschränkungen, wie z. B. die fehlende Möglich
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail hat interne Absturzberichte, die sie **nicht** mit Dritten teilen. Die Absturzberichte können in den Einstellungen deaktiviert werden: **Einstellungen** > **Gehe zu Einstellungen** > **Konto** > **Sicherheit und Datenschutz** > **Absturzberichte senden**.
+Proton Mail has internal crash reports that are **not** shared with third parties. Die Absturzberichte können in den Einstellungen deaktiviert werden: **Einstellungen** > **Gehe zu Einstellungen** > **Konto** > **Sicherheit und Datenschutz** > **Absturzberichte senden**.
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 

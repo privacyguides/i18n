@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail לוגו](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** הוא שירות דואר אלקטרוני עם התמקדות בפרטיות, הצפנה, אבטחה וקלות שימוש. הם פועלים מאז **2013**. Proton AG מבוססת בז'נב, שוויץ. חשבונות מתחילים עם 500 MB אחסון עם התוכנית החינמית שלהם.
+**Proton Mail** הוא שירות דואר אלקטרוני עם התמקדות בפרטיות, הצפנה, אבטחה וקלות שימוש. הם פועלים מאז **2013**. Proton AG מבוססת בז'נב, שוויץ. Accounts start with 1 GB of storage with their free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -74,7 +74,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-ל-Proton Mail יש דוחות קריסה פנימיים שהם **לא** חולקים עם צדדים שלישיים. ניתן להשבית אפשרות זו ב: **הגדרות** > **עבור אל הגדרות** > **חשבון** > **אבטחה ופרטיות** > **שלח דוחות קריסה**.
+Proton Mail has internal crash reports that are **not** shared with third parties. ניתן להשבית אפשרות זו ב: **הגדרות** > **עבור אל הגדרות** > **חשבון** > **אבטחה ופרטיות** > **שלח דוחות קריסה**.
 
 #### :material-check:{ .pg-green } דומיינים וכינויים מותאמים אישית
 
