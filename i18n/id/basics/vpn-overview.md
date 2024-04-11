@@ -2,7 +2,7 @@
 meta_title: "Bagaimana VPN Menjaga Privasi Anda? Konsep Utama VPN - Privacy Guides"
 title: Konsep Utama VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. Anda harus memperhatikan hal-hal ini.
 ---
 
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
