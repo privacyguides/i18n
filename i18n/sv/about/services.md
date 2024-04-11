@@ -6,30 +6,30 @@ We run a number of web services to test out features and promote cool decentrali
 
 ## Discourse
 
-- Domain: [discuss.privacyguides.net](https://discuss.privacyguides.net)
+- Domän: [discuss.privacyguides.net](https://discuss.privacyguides.net)
 - Availability: Public
-- Source: [github.com/discourse/discourse](https://github.com/discourse/discourse)
+- Källa: [github.com/discourse/discourse](https://github.com/discourse/discourse)
 
 ## Gitea
 
-- Domain: [code.privacyguides.dev](https://code.privacyguides.dev)
+- Domän: [code.privacyguides.dev](https://code.privacyguides.dev)
 - Availability: Invite-Only Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
-- Source: [snapcraft.io/gitea](https://snapcraft.io/gitea)
+- Källa: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
-- Domain: [matrix.privacyguides.org](https://matrix.privacyguides.org)
+- Domän: [matrix.privacyguides.org](https://matrix.privacyguides.org)
 - Availability: Invite-Only Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
-- Source: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
+- Källa: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
 
-- Domain: [search.privacyguides.net](https://search.privacyguides.net)
+- Domän: [search.privacyguides.net](https://search.privacyguides.net)
 - Availability: Public
-- Source: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
+- Källa: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
 
 ## Invidious
 
-- Domain: [invidious.privacyguides.net](https://invidious.privacyguides.net)
+- Domän: [invidious.privacyguides.net](https://invidious.privacyguides.net)
 - Availability: Semi-Public We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
-- Source: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
+- Källa: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)
