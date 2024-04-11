@@ -31,7 +31,7 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
 
-| Provider              | Länder | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonyma betalningar |
+| Leverantör            | Länder | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonyma betalningar |
 | --------------------- | ------ | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------- |
 | [Proton](#proton-vpn) | 91+    | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | Cash                |
 | [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash        |

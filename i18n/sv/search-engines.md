@@ -18,11 +18,11 @@ The recommendations here do not collect personally identifying information (PII)
 
 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hiding your IP address from the search provider.
 
-| Provider                      | Search Index                                                                                                                                                                  | Tor Hidden Service            | Logging / Privacy Policy | Country of Operation |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ | -------------------- |
-| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence/)                                                                                                                         | :material-check:{ .pg-green } | Anonymized[^1]           | United States        |
-| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                           | :material-check:{ .pg-green } | Anonymized[^2]           | United States        |
-| [Startpage](#startpage)       | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3]           | Netherlands          |
+| Leverantör                    | Search Index                                                                                                                                                                  | Tor Hidden Service            | Loggning / Integritetspolicy | Country of Operation |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------------- | -------------------- |
+| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence/)                                                                                                                         | :material-check:{ .pg-green } | Anonymized[^1]               | United States        |
+| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                           | :material-check:{ .pg-green } | Anonymized[^2]               | United States        |
+| [Startpage](#startpage)       | [Google och Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3]               | Nederländerna        |
 
 ### Brave Search
 
