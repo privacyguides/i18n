@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![لۆگۆی Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** خزمەتگوزاریەکی پۆستەی ئەلکتڕۆنیە، کە سەرنجی هەبوونی تایبەتێتی، شفرکردن، پارێزراوی، وە ئاسان لە بەکارهێنان دروست کراوە. ئەوان لە **2013**ـەوە لە کاردان. Proton AG is based in Genève, Switzerland. Accounts start with 1 GB of storage with their free plan.
+**Proton Mail** خزمەتگوزاریەکی پۆستەی ئەلکتڕۆنیە، کە سەرنجی هەبوونی تایبەتێتی، شفرکردن، پارێزراوی، وە ئاسان لە بەکارهێنان دروست کراوە. ئەوان لە **2013**ـەوە لە کاردان. Proton AG is based in Genève, Switzerland. Accounts start with up to 1GB storage with the free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -116,7 +116,7 @@ Poton Mail کرداری میراتی دیجیتاڵی پێشکەش ناکات.
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox** خزمەتگوزاریەکی پۆستەی ئەلکتڕۆنیە کە جەخت لە هەبوونی سەلامەتی و بێ بەرامبەری تایبەتێتی و کارکردن بە وزەیەکی %100ـی هاوڕێی ژینگە. ئەوان لە **2014**ـەوە لە کاردان. Mailbox.org دەکەوێتە بەرلین، لە ئەڵمانیا. هەژمارەکان دەستپێدەکەن لە 2GB بۆ هەڵگرتن، کە دەتوانرێت زیاد بکرێت بەپێی پێویست.
+**Mailbox** خزمەتگوزاریەکی پۆستەی ئەلکتڕۆنیە کە جەخت لە هەبوونی سەلامەتی و بێ بەرامبەری تایبەتێتی و کارکردن بە وزەیەکی %100ـی هاوڕێی ژینگە. ئەوان لە **2014**ـەوە لە کاردان. Mailbox.org دەکەوێتە بەرلین، لە ئەڵمانیا. Accounts start with up to 2GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -183,7 +183,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with 1GB storage with their free plan.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with up to 1GB storage with the free plan.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }

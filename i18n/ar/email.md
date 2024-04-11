@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=left }
 
-**بريد بروتون** هو خدمة بُرُد إلكترونية تركِّز في الخصوصية والتعمية والأمن واليسر. وهم يعملون منذ **٢٠١٣**. ومقرُّ بروتون أي‌جي في جنيف في سويسرا. Accounts start with 1 GB of storage with their free plan.
+**بريد بروتون** هو خدمة بُرُد إلكترونية تركِّز في الخصوصية والتعمية والأمن واليسر. وهم يعملون منذ **٢٠١٣**. ومقرُّ بروتون أي‌جي في جنيف في سويسرا. Accounts start with up to 1GB storage with the free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -116,7 +116,7 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=left }
 
-**Mailbox.org** هو خدمة بريد إلكترونيٍّ تركِّز على الأمن والخلوِّ من الإعلانات، وهي تستلم طاقتها من مصادر خاصَّة ١٠٠٪ صديقة للبيئة. وهم يعملون منذ ٢٠١٤. ومقرُّهم في برلين في ألمانيا. تبدأ الحسابات ولها مساحة تخزين ٢ ج‌بايت، وتمكن زيادتها حسب الحاجة.
+**Mailbox.org** هو خدمة بريد إلكترونيٍّ تركِّز على الأمن والخلوِّ من الإعلانات، وهي تستلم طاقتها من مصادر خاصَّة ١٠٠٪ صديقة للبيئة. وهم يعملون منذ ٢٠١٤. ومقرُّهم في برلين في ألمانيا. Accounts start with up to 2GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -183,7 +183,7 @@ All accounts come with limited cloud storage that [can be encrypted](https://kb.
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. تبدأ الحسابات المجانية عندهم بمساحة تخزين ١ ج‌بايت.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with up to 1GB storage with the free plan.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }

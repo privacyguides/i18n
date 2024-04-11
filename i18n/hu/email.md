@@ -47,7 +47,7 @@ Az OpenPGP nem támogatja a Forward secrecy-t sem, ami azt jelenti, hogy ha a t�
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. **2013** óta működnek. A Proton AG székhelye Genfben, Svájcban található. Accounts start with 1 GB of storage with their free plan.
+A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. **2013** óta működnek. A Proton AG székhelye Genfben, Svájcban található. Accounts start with up to 1GB storage with the free plan.
 
 [:octicons-home-16: Főoldal](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion szolgáltatás" }
@@ -116,7 +116,7 @@ A Proton Mail nem kínál digitális örökség funkciót.
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**A **Mailbox.org** egy olyan e-mail szolgáltatás, amelynek középpontjában a biztonság, a reklámmentesség és a 100%-ban környezetbarát energiával működő, magánhálózatról biztosított energia áll. 2014 óta működnek. A Mailbox.org székhelye Berlinben, Németországban található. A fiókok 2 GB tárhellyel indulnak, amely szükség szerint bővíthető.
+**A **Mailbox.org** egy olyan e-mail szolgáltatás, amelynek középpontjában a biztonság, a reklámmentesség és a 100%-ban környezetbarát energiával működő, magánhálózatról biztosított energia áll. 2014 óta működnek. A Mailbox.org székhelye Berlinben, Németországban található. Accounts start with up to 2GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: Főoldal](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Adatvédelmi tájékoztató" }
@@ -183,7 +183,7 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a biztonságra és az adatvédelemre összpontosít. A Tuta **2011** óta működik, székhelye Hannoverben, Németországban található. A fiókok 1GB induló tárhellyel kezdődnek a ingyenes csomagban.
+A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a biztonságra és az adatvédelemre összpontosít. A Tuta **2011** óta működik, székhelye Hannoverben, Németországban található. Accounts start with up to 1GB storage with the free plan.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }

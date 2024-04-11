@@ -47,7 +47,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Логотип Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail — це поштовий сервіс з акцентом на конфіденційності, шифруванні, безпеці та простоті використання. Вони працюють з **2013 року**. Компанія Proton AG базується в Женеві, Швейцарія. Accounts start with 1 GB of storage with their free plan.
+**Proton Mail — це поштовий сервіс з акцентом на конфіденційності, шифруванні, безпеці та простоті використання. Вони працюють з **2013 року**. Компанія Proton AG базується в Женеві, Швейцарія. Accounts start with up to 1GB storage with the free plan.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -116,7 +116,7 @@ Proton Mail не пропонує функцію цифрової спадщин
 
 ![Логотип Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** — це поштовий сервіс, який прагне бути безпечним, не містить реклами та працює на 100% екологічно чистій енергії. Вони працюють з 2014 року. Mailbox.org базується в Берліні, Німеччина. Облікові записи починаються з 2 ГБ сховища, яке можна збільшити за потреби.
+**Mailbox.org** — це поштовий сервіс, який прагне бути безпечним, не містить реклами та працює на 100% екологічно чистій енергії. Вони працюють з 2014 року. Mailbox.org базується в Берліні, Німеччина. Accounts start with up to 2GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -183,7 +183,7 @@ Mailbox.org має функцію цифрової спадщини для вс�
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Облікові записи починаються з 1 ГБ пам'яті в безкоштовному тарифному плані.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with up to 1GB storage with the free plan.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
