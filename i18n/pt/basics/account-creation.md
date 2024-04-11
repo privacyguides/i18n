@@ -46,7 +46,7 @@ Se não quiser fornecer o seu verdadeiro endereço de correio eletrónico a um s
 
 Se um serviço for comprometido, pode começar a receber mensagens eletrónicas de phishing ou spam no endereço que utilizou para se registar. A utilização de aliases únicos para cada serviço pode ajudar a identificar exatamente qual o serviço comprometido.
 
-[Serviços de aliasing de correio eletrónico recomendados](../email.md#email-aliasing-services ""){.md-button}
+[Serviços de aliasing de correio eletrónico recomendados](../email-aliasing.md ""){.md-button}
 
 ### "Iniciar a sessão com..." (OAuth)
 

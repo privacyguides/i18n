@@ -46,7 +46,7 @@ Als je jouw echte e-mailadres niet aan een dienst wilt geven, kunt je een alias 
 
 Als een dienst wordt gehackt, kunt je phishing- of spam-e-mails ontvangen op het adres waarmee je je hebt aangemeld. Het gebruik van unieke aliassen voor elke service kan helpen bij het identificeren van precies welke service is gehackt.
 
-[Aanbevolen diensten voor e-mailaliasing](../email.md#email-aliasing-services ""){.md-button}
+[Aanbevolen diensten voor e-mailaliasing](../email-aliasing.md ""){.md-button}
 
 ### Meld je aan met... OAuth
 

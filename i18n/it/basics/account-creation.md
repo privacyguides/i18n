@@ -46,7 +46,7 @@ Se non desideri fornire il tuo indirizzo email reale a un servizio, puoi utilizz
 
 Se un servizio dovesse essere violato, potresti iniziare a ricevere email di phishing o spam all'indirizzo utilizzato per iscriverti. Utilizzare alias univoci per ogni servizio può assisterti nell'identificare esattamente quale servizio è stato violato.
 
-[Servizi di alias email consigliati](../email.md#email-aliasing-services ""){.md-button}
+[Servizi di alias email consigliati](../email-aliasing.md ""){.md-button}
 
 ### "Accedi con..." (OAuth)
 

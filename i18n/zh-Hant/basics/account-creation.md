@@ -46,7 +46,7 @@ description: 創建帳戶為實際連線網際網路所必要，請採取下列�
 
 如果服務遭到黑客攻擊，您用於註冊的電子郵件可能會收到網絡釣魚或垃圾郵件。 為每個服務使用獨特的別名可以幫助確定哪些服務被駭。
 
-[推薦的電子郵件別名服務](../email.md#email-aliasing-services ""){.md-button}
+[推薦的電子郵件別名服務](../email-aliasing.md ""){.md-button}
 
 ### "登入方式：" (OAuth)
 

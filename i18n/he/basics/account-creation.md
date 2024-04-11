@@ -46,7 +46,7 @@ description: Creating accounts online is practically an internet necessity, take
 
 אם שירות ייפרץ, ייתכן שתתחיל לקבל הודעות דיוג או דואר זבל לכתובת שבה השתמשת כדי להירשם. שימוש בכינויים ייחודיים עבור כל שירות יכול לסייע בזיהוי בדיוק איזה שירות נפרץ.
 
-[שירותי כינוי אימייל מומלצים](../email.md#email-aliasing-services ""){.md-button}
+[שירותי כינוי אימייל מומלצים](../email-aliasing.md ""){.md-button}
 
 ### "להתחבר עם..." (OAuth)
 

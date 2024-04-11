@@ -40,7 +40,7 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 #### iCloud+
 
-מנוי **iCloud+** בתשלום (עם כל תוכנית אחסון של iCloud) מגיע עם פונקציונליות מסוימת להגנה על הפרטיות. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email.md#email-aliasing-services) just for these features alone.
+מנוי **iCloud+** בתשלום (עם כל תוכנית אחסון של iCloud) מגיע עם פונקציונליות מסוימת להגנה על הפרטיות. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
 
 **ממסר פרטי** הוא שירות פרוקסי המעביר את תעבורת הספארי שלך דרך שני שרתים: אחד בבעלות אפל ואחד בבעלות ספק צד שלישי (כולל Akamai, Cloudflare ו-Fastly). בתיאוריה זה אמור למנוע מכל ספק בודד בשרשרת - כולל אפל - לקבל ראות מלאה באילו אתרים אתה מבקר בזמן שאתה מחובר. בניגוד ל-VPN מלא, Private Relay אינו מגן על תעבורה מהאפליקציות שלך מחוץ ל-Safari.
 

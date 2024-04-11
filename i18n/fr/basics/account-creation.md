@@ -46,7 +46,7 @@ Si vous ne voulez pas donner votre véritable adresse e-mail à un service, vous
 
 Si un service est piraté, vous pouvez commencer à recevoir des e-mails d'hameçonnage ou de spam à l'adresse que vous avez utilisée pour vous inscrire. L'utilisation d'alias uniques pour chaque service peut aider à identifier exactement quel service a été piraté.
 
-[Services d'alias d'e-mail recommandés](../email.md#email-aliasing-services ""){.md-button}
+[Services d'alias d'e-mail recommandés](../email-aliasing.md ""){.md-button}
 
 ### "Se connecter avec..." (OAuth)
 

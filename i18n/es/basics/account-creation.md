@@ -46,7 +46,7 @@ Si no se quiere utilizar una dirección real de correo electrónico en un servic
 
 Si un servicio es hackeado, puede que usted comience a recibir correos engañosos o basura en la dirección que utilizó para registrarse. Al utilizar un único alias para cada servicio, se puede identificar cual servicio fue hackeado.
 
-[Servicios recomendados de alias de correo electrónico](../email.md#email-aliasing-services ""){.md-button}
+[Servicios recomendados de alias de correo electrónico](../email-aliasing.md ""){.md-button}
 
 ### "Iniciar sesión con..." (OAuth)
 

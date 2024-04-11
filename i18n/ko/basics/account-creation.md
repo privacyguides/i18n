@@ -46,7 +46,7 @@ description: Creating accounts online is practically an internet necessity, take
 
 서비스가 해킹당할 경우, 가입한 이메일 주소로 피싱/스팸 메일이 올 수 있습니다. 서비스마다 고유한 별칭을 사용하면 어떤 서비스가 해킹당했는지 식별 가능합니다.
 
-[권장 이메일 별칭 서비스](../email.md#email-aliasing-services ""){.md-button}
+[권장 이메일 별칭 서비스](../email-aliasing.md ""){.md-button}
 
 ### '~ (으)로 로그인' (OAuth)
 

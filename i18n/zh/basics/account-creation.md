@@ -46,7 +46,7 @@ description: Creating accounts online is practically an internet necessity, take
 
 如果一项服务被黑客攻击，你可能会开始收到钓鱼或垃圾邮件到你用来注册的地址。 为每项服务使用独特的别名，可以帮助准确识别什么服务被黑。
 
-[推荐的电子邮件别名服务](../email.md#email-aliasing-services ""){.md-button}
+[推荐的电子邮件别名服务](../email-aliasing.md ""){.md-button}
 
 ### “通过……登录” (OAuth)
 

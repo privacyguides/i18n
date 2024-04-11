@@ -46,7 +46,7 @@ Jika Anda tidak ingin memberikan alamat surel asli Anda ke layanan, Anda memilik
 
 Jika layanan diretas, Anda mungkin akan mulai menerima surel phishing atau spam ke alamat yang Anda gunakan untuk mendaftar. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
-[Recommended email aliasing services](../email.md#email-aliasing-services ""){.md-button}
+[Recommended email aliasing services](../email-aliasing.md ""){.md-button}
 
 ### "Sign in with..." (OAuth)
 
