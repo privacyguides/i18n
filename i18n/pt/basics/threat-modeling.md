@@ -1,7 +1,7 @@
 ---
 meta_title: "Modelo de ameaças: o primeiro passo na sua jornada de privacidade - Privacy Guides"
 title: "Modelo de ameaças"
-icon: 'O que são modelos de ameaça?'
+icon: 'material/target-account'
 description: Equilibrar segurança, privacidade e usabilidade é uma das primeiras e mais difíceis tarefas que enfrentará na sua jornada de privacidade.
 ---
 
