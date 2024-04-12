@@ -28,7 +28,7 @@ schema:
     "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
-    url: https://apple.com/safari
+    url: https://www.apple.com/de/safari/
     applicationCategory: Web Browser
     operatingSystem:
       - iOS
@@ -255,5 +255,5 @@ Wenn du iCloud mit deaktiviertem erweitertem Datenschutz verwendest, empfehlen w
 
 - Unterstützt automatische Updates.
 - Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
+- Inhaltsperre muss unterstützt werden.
 - Alle Änderungen, die erforderlich sind, um den Browser datenschutzfreundlicher zu machen, sollten die Benutzerfreundlichkeit nicht beeinträchtigen.

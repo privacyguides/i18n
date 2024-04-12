@@ -1,5 +1,5 @@
 ---
-title: "Types of Communication Networks"
+title: "Arten von Kommunikationsnetzen"
 icon: 'material/transit-connection-variant'
 description: An overview of several network architectures commonly used by instant messaging applications.
 ---
@@ -8,7 +8,7 @@ There are several network architectures commonly used to relay messages between 
 
 [Empfohlene Instant Messenger](../real-time-communication.md ""){.md-button}
 
-## Centralized Networks
+## Zentralisierte Netzwerke
 
 ![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
 
@@ -16,14 +16,14 @@ Centralized messengers are those where all participants are on the same server o
 
 Some self-hosted messengers allow you to set up your own server. Self-hosting can provide additional privacy guarantees, such as no usage logs or limited access to metadata (data about who is talking to whom). Self-hosted centralized messengers are isolated and everyone must be on the same server to communicate.
 
-**Advantages:**
+**Vorteile:**
 
 - New features and changes can be implemented more quickly.
 - Easier to get started with and to find contacts.
 - Most mature and stable features ecosystems, as they are easier to program in a centralized software.
 - Privacy issues may be reduced when you trust a server that you're self-hosting.
 
-**Disadvantages:**
+**Nachteile:**
 
 - Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). This can include things like:
 - Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
@@ -31,7 +31,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 - The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - Self-hosting requires effort and knowledge of how to set up a service.
 
-## Federated Networks
+## Föderierte Netzwerke
 
 ![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
 
@@ -39,14 +39,14 @@ Federated messengers use multiple, independent, decentralized servers that are a
 
 When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
 
-**Advantages:**
+**Vorteile:**
 
 - Allows for greater control over your own data when running your own server.
 - Allows you to choose whom to trust your data with by choosing between multiple "public" servers.
 - Often allows for third-party clients which can provide a more native, customized, or accessible experience.
 - Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (e.g., a family member).
 
-**Disadvantages:**
+**Nachteile:**
 
 - Adding new features is more complex because these features need to be standardized and tested to ensure they work with all servers on the network.
 - Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
@@ -54,7 +54,7 @@ When self-hosted, members of a federated server can discover and communicate wit
 - Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
 - Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
 
-## Peer-to-Peer Networks
+## Peer-to-Peer-Netzwerke
 
 ![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
 
@@ -66,12 +66,12 @@ Once a peer has found a route to its contact via any of these methods, a direct 
 
 P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
 
-**Advantages:**
+**Vorteile:**
 
 - Minimal information is exposed to third-parties.
 - Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
 
-**Disadvantages:**
+**Nachteile:**
 
 - Reduced feature set:
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
@@ -89,12 +89,12 @@ There are [many](https://doi.org/10.1145/3182658) different ways to implement an
 
 Self-hosting a node in an anonymous routing network does not provide the hoster with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
-**Advantages:**
+**Vorteile:**
 
 - Minimal to no information is exposed to other parties.
 - Messages can be relayed in a decentralized manner even if one of the parties is offline.
 
-**Disadvantages:**
+**Nachteile:**
 
 - Slow message propagation.
 - Often limited to fewer media types, mostly text, since the network is slow.
