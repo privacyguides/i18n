@@ -16,27 +16,27 @@ title: Συστάσεις χρήσης Git
     git config --global tag.gpgSign true
     ```
 
-2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
+2. Ορίστε το κλειδί SSH για υπογραφή στο Git με την ακόλουθη εντολή, αντικαθιστώντας το `/PATH/TO/.SSH/KEY.PUB` με τη διαδρομή του δημόσιου κλειδιού που θέλετε να χρησιμοποιήσετε, π.χ. `/home/user/.ssh/id_ed25519.pub`:
 
     ```bash
     git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
     ```
 
-Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **as a Signing Key** (as opposed to or in addition to as an Authentication Key).
+Βεβαιωθείτε ότι έχετε [προσθέσει το κλειδί SSH στο λογαριασμό σας στο GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **ως κλειδί υπογραφής** (σε αντίθεση ή επιπλέον του κλειδιού ελέγχου ταυτότητας).
 
-## Rebase on Git pull
+## Rebase στο Git pull
 
-Use `git pull --rebase` instead of `git pull` when pulling in changes from GitHub to your local machine. This way your local changes will always be "on top of" the latest changes on GitHub, and you avoid merge commits (which are disallowed in this repo).
+Χρησιμοποιήστε το `git pull --rebase` αντί του `git pull` όταν τραβάτε αλλαγές από το GitHub στον τοπικό σας υπολογιστή. Με αυτόν τον τρόπο οι τοπικές αλλαγές σας θα είναι πάντα "πάνω" από τις τελευταίες αλλαγές στο GitHub και θα αποφεύγετε τις συγχωνεύσεις (οι οποίες δεν επιτρέπονται σε αυτό το αποθετήριο).
 
-You can set this to be the default behavior:
+Μπορείτε να το ορίσετε αυτό ως προεπιλεγμένη συμπεριφορά:
 
 ```bash
 git config --global pull.rebase true
 ```
 
-## Rebase from `main` before submitting a PR
+## Επαναφορά από το `main` πριν από την υποβολή ενός PR
 
-If you are working on your own branch, run these commands before submitting a PR:
+Αν εργάζεστε στο δικό σας branch, εκτελέστε αυτές τις εντολές πριν υποβάλετε ένα PR:
 
 ```bash
 git fetch origin
