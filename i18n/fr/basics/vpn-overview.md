@@ -1,8 +1,8 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "Comment les VPNs protègent-ils votre vie privée ? Notre introduction aux VPNs - Privacy Guides"
+title: Introduction aux VPNs
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Les réseaux privés virtuels déplacent le risque de votre FAI à un tiers en qui vous avez confiance. Vous devriez garder ces éléments à l'esprit.
 ---
 
 Les Réseaux Privés Virtuels sont un moyen d'étendre l'extrémité de votre réseau avec une sortie située ailleurs dans le monde.
@@ -69,13 +69,13 @@ Si vous utilisez Tor alors il est *probablement* préférable de vous connecter 
 
 Vous ne devriez pas utiliser cette fonctionnalité : l'avantage principal d'utiliser Tor est que vous ne faites pas confiance à votre fournisseur VPN, qui est annulée lorsque vous utilisez des nœuds Tor hébergés par votre VPN au lieu de vous connecter directement à Tor depuis votre ordinateur.
 
-Actuellement, Tor supporte seulement le protocole TCP. UDP (utilisé par [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), et d'autres protocoles), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), et autres paquets seront lâchés. Pour compenser cela, les fournisseurs de VPN acheminent généralement tous les paquets non TCP par leur serveur VPN (votre premier saut). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+Actuellement, Tor supporte seulement le protocole TCP. UDP (utilisé par [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), et d'autres protocoles), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), et autres paquets seront lâchés. Pour compenser cela, les fournisseurs de VPN acheminent généralement tous les paquets non TCP par leur serveur VPN (votre premier saut). C'est le cas de [ProtonVPN](https://protonvpn.com/support/tor-vpn). De plus, lorsque vous utilisez cette configuration Tor sur VPN, vous n'avez pas le contrôle sur d'autres fonctionnalités importantes de Tor telles que l'[adresse de destination isolée](https://whonix.org/wiki/Stream_Isolation) (utilisation d'un circuit Tor différent pour chaque domaine que vous visitez).
 
 La fonctionnalité doit être vue comme un moyen *pratique* pour accéder aux services cachés sur Tor, pas pour rester anonyme. Pour un véritable anonymat, utilisez le [Navigateur Tor](../tor.md).
 
 ## Propriété d'un VPN commercial
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). Ces sociétés douteuses gèrent un grand nombre de petits services VPN afin de créer l'illusion que vous avez plus de choix qu'il n'y en a en réalité et de maximiser leurs profits. En règle générale, ces fournisseurs qui alimentent leur société écran ont des politiques de protection de la vie privée déplorables et il ne faut pas leur confier votre trafic internet. Vous devriez être très strict quant au fournisseur que vous décidez d'utiliser.
+La plupart des services VPN sont détenus par les mêmes [entreprises](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). Ces sociétés douteuses gèrent un grand nombre de petits services VPN afin de créer l'illusion que vous avez plus de choix qu'il n'y en a en réalité et de maximiser leurs profits. En règle générale, ces fournisseurs qui alimentent leur société écran ont des politiques de protection de la vie privée déplorables et il ne faut pas leur confier votre trafic internet. Vous devriez être très strict quant au fournisseur que vous décidez d'utiliser.
 
 Vous devez également vous méfier du fait que de nombreux sites d'évaluation de VPN ne sont que des véhicules publicitaires ouverts au plus offrant. ==Privacy Guides ne gagne pas d'argent en recommandant des produits externes et n'utilise jamais de programmes d'affiliation.==
 
@@ -115,4 +115,4 @@ De nombreux dVPNs sont utilisés pour pousser une crypto-monnaie plutôt que pou
 - [Enquête sur les applications VPN gratuites](https://top10vpn.com/research/free-vpn-investigations/ownership)
 - [Les propriétaires inconnus des VPNs dévoilés : 101 produits VPN gérés par seulement 23 sociétés](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
 - [Cette société chinoise est secrètement à l'origine de 24 applications populaires qui cherchent à obtenir des autorisations dangereuses](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
-- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
+- [VPN - un récit très précaire](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) par Dennis Schubert

@@ -28,7 +28,7 @@ Certaines messageries auto-hébergées vous permettent de configurer votre propr
 - Peut inclure des [restrictions de contrôle ou d'accès](https://drewdevault.com/2018/08/08/Signal.html). Cela peut inclure des choses telles que :
 - Être [interdit de connecter des clients tiers](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) au réseau centralisé, ce qui pourrait permettre une plus grande personnalisation ou une meilleure expérience. Ces modalités sont souvent définies dans les conditions d'utilisation.
 - Documentation insuffisante ou inexistante pour les développeurs tiers.
-- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
+- La [propriété](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), la politique de confidentialité et les opérations du service peuvent changer facilement lorsqu'une seule entité le contrôle, ce qui peut compromettre le service par la suite.
 - L'auto-hébergement demande des efforts et des connaissances sur la manière de mettre en place un service.
 
 ## Réseaux Fédérés
