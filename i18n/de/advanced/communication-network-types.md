@@ -1,10 +1,10 @@
 ---
 title: "Arten von Kommunikationsnetzen"
 icon: 'material/transit-connection-variant'
-description: An overview of several network architectures commonly used by instant messaging applications.
+description: Eine Übersicht über mehrere Netzwerkarchitekturen, die häufig von Instant-Messaging-Anwendungen verwendet werden.
 ---
 
-There are several network architectures commonly used to relay messages between people. These networks can provide different privacy guarantees, which is why it's worth considering your [threat model](../basics/threat-modeling.md) when deciding which app to use.
+Es gibt mehrere Netzwerkarchitekturen, die häufig verwendet werden, um Nachrichten zwischen Menschen zu übertragen. Diese Netzwerke können unterschiedliche Datenschutzgarantien bieten, weshalb es sich lohnt, bei der Entscheidung, welche App du verwenden möchtest, ihr [Bedrohungsmodell](../basics/threat-modeling.md) zu berücksichtigen.
 
 [Empfohlene Instant Messenger](../real-time-communication.md ""){.md-button}
 
