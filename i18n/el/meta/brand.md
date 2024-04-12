@@ -1,8 +1,8 @@
 ---
-title: Branding Guidelines
+title: Κατευθυντήριες γραμμές branding
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+Το όνομα του ιστότοπου είναι **Privacy Guides** και **δεν** πρέπει να αλλάξει σε:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,12 +11,12 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+Το όνομα του subreddit είναι **r/PrivacyGuides** ή **the Privacy Guides Subreddit**.
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+Πρόσθετες κατευθυντήριες γραμμές για το branding μπορείτε να βρείτε στη διεύθυνση [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Trademark
+## Εμπορικό σήμα
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+Το "Privacy Guides" και το λογότυπο της ασπίδας είναι εμπορικά σήματα που ανήκουν στον Jonah Aragon, και η απεριόριστη χρήση τους επιτρέπεται στο έργο Privacy Guides.
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at `jonah@privacyguides.org`. Consult your legal counsel if you have questions.
+Χωρίς να παραιτείται από οποιοδήποτε δικαίωμά της, η Privacy Guides δεν συμβουλεύει άλλους σχετικά με το εύρος των δικαιωμάτων πνευματικής ιδιοκτησίας της. Η Privacy Guides δεν επιτρέπουν ούτε συναινούν σε οποιαδήποτε χρήση των εμπορικών σημάτων τους με τρόπο που ενδέχεται να προκαλέσει σύγχυση υπονοώντας σύνδεση ή χορηγία από τους οδηγούς απορρήτου. Εάν γνωρίζετε οποιαδήποτε τέτοια χρήση, επικοινωνήστε με τον Jonah Aragon στο `jonah@privacyguides.org`. Συμβουλευτείτε το νομικό σας σύμβουλο εάν έχετε ερωτήσεις.

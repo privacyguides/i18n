@@ -1,14 +1,14 @@
 ---
-title: Git Recommendations
+title: Συστάσεις χρήσης Git
 ---
 
-If you make changes to this website on GitHub.com's web editor directly, you shouldn't have to worry about this. If you are developing locally and/or are a long-term website editor (who should probably be developing locally!), consider these recommendations.
+Αν κάνετε αλλαγές σε αυτόν τον ιστότοπο απευθείας στον web editor του GitHub.com, δεν χρειάζεται να ανησυχείτε γι' αυτό. Εάν αναπτύσσετε τοπικά ή/και είστε μακροχρόνιος συντάκτης ιστότοπων (που μάλλον θα έπρεπε να αναπτύσσετε τοπικά!), λάβετε υπόψη σας αυτές τις συστάσεις.
 
-## Enable SSH Key Commit Signing
+## Ενεργοποίηση Υπογραφής Κλειδιού SSH
 
-You can use an existing SSH key for signing, or [create a new one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+Μπορείτε να χρησιμοποιήσετε ένα υπάρχον κλειδί SSH για υπογραφή ή να [δημιουργήσετε ένα νέο](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-1. Configure your Git client to sign commits and tags by default (remove `--global` to only sign by default for this repo):
+1. Ρυθμίστε το πρόγραμμα-πελάτη του Git να υπογράφει commits και tags από προεπιλογή (αφαιρέστε το `--global` για να υπογράφετε από προεπιλογή μόνο για αυτό το repo):
 
     ```bash
     git config --global commit.gpgsign true

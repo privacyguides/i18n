@@ -1,53 +1,53 @@
-# Community Code of Conduct
+# Κοινοτικός Κώδικας Δεοντολογίας
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**Δεσμευόμαστε** να κάνουμε την κοινότητά μας μια εμπειρία χωρίς παρενόχληση για όλους.
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**Προσπαθούμε** να δημιουργήσουμε ένα θετικό περιβάλλον, χρησιμοποιώντας φιλόξενη και περιεκτική γλώσσα και σεβόμενοι τις απόψεις των άλλων.
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+**Δεν επιτρέπουμε** ακατάλληλη ή άλλως απαράδεκτη συμπεριφορά, όπως σεξουαλική γλώσσα, τρολάρισμα και προσβλητικά σχόλια ή άλλη προώθηση της μισαλλοδοξίας ή της παρενόχλησης.
 
-## Community Standards
+## Κοινοτικά Πρότυπα
 
-What we expect from members of our communities:
+Τι ζητάμε από τα μέλη των κοινοτήτων μας:
 
-1. **Do not spread misinformation**
+1. **Μην διαδίδετε παραπληροφόρηση**
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      Δημιουργούμε μια εκπαιδευτική κοινότητα βασισμένη σε στοιχεία γύρω από την ιδιωτικότητα και την ασφάλεια των πληροφοριών, και όχι μια βάση πληροφοριών για θεωρίες συνωμοσίας. Για παράδειγμα, όταν ισχυρίζεστε ότι ένα συγκεκριμένο λογισμικό είναι κακόβουλο ή ότι ορισμένα δεδομένα τηλεμετρίας παραβιάζουν την ιδιωτική ζωή, εξηγήστε λεπτομερώς τι συλλέγεται και πώς συλλέγεται. Οι ισχυρισμοί αυτής της φύσης πρέπει να υποστηρίζονται από τεχνικά στοιχεία.
 
-2. **Do not abuse our willingness to help**
+2. **Μην κάνετε κατάχρηση της προθυμίας μας να βοηθήσουμε**
 
-      Our community members are not free tech support. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
+      Τα μέλη της κοινότητάς μας δεν είναι δωρεάν τεχνική υποστήριξη. Είμαστε στην ευχάριστη θέση να σας βοηθήσουμε με συγκεκριμένα βήματα για το ταξίδι σας στην προστασία της ιδιωτικής ζωής, αν είστε πρόθυμοι να καταβάλλετε προσπάθεια. Δεν είμαστε υποχρεωμένοι να απαντάμε σε ατελείωτες, επαναλαμβανόμενες ερωτήσεις σχετικά με γενικά προβλήματα υπολογιστών που επιλύονται με μια απλή αναζήτηση στο διαδίκτυο. **Μην** κάνετε [επαναλαμβανόμενες ερωτήσεις](https://slash7.com/2006/12/22/vampires).
 
-3. **Behave in a positive and constructive manner**
+3. **Να συμπεριφέρεστε με θετικό και εποικοδομητικό τρόπο**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+      Παραδείγματα συμπεριφοράς που συμβάλλουν σε ένα θετικό περιβάλλον για την κοινότητά μας περιλαμβάνουν:
 
-      - Being respectful of differing opinions, viewpoints, and experiences.
-      - Demonstrating empathy and kindness toward others.
-      - Focusing on what is best not just for us as overseers, but for the overall community.
-      - Giving and gracefully accepting constructive feedback within our community while growing and improving.
-      - Operating with a communal mindset at all times.
+      - Σεβασμός των διαφορετικών γνώμων, απόψεων και εμπειριών.
+      - Επίδειξη ενσυναίσθησης και ευγένειας προς τους άλλους.
+      - Να εστιάζουμε στο τι είναι καλύτερο όχι μόνο για εμάς ως επόπτες, αλλά για τη συνολική κοινότητα.
+      - Να δίνουμε και να δεχόμαστε με χάρη εποικοδομητικά σχόλια εντός της κοινότητάς μας, καθώς αναπτυσσόμαστε και βελτιωνόμαστε.
+      - Λειτουργώντας με μια κοινή νοοτροπία ανά πάσα στιγμή.
 
-## Unacceptable Behavior
+## Μη Αποδεκτή Συμπεριφορά
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Οι ακόλουθες συμπεριφορές θεωρούνται παρενόχληση και μη αποδεκτές στην κοινότητά μας:
 
-- Any other conduct which would reasonably be considered inappropriate in a professional setting.
-- Public and/or private harassment of any kind.
-- Publishing others' private information, such as a physical address and/or an email address, without their explicit permission.
-- The use of sexualized language or imagery, and sexual attention or advances of any kind.
-- Trolling, insulting and/or derogatory comments, including personal or political attacks.
+- Οποιαδήποτε άλλη συμπεριφορά που εύλογα θα θεωρούνταν ακατάλληλη σε επαγγελματικό περιβάλλον.
+- Δημόσια ή/και ιδιωτική παρενόχληση κάθε είδους.
+- Δημοσίευση προσωπικών πληροφοριών άλλων, όπως μια φυσική διεύθυνση ή/και μια διεύθυνση ηλεκτρονικού ταχυδρομείου, χωρίς τη ρητή άδειά τους.
+- Η χρήση σεξουαλικής γλώσσας ή εικόνων και η σεξουαλική προσοχή ή προσέγγιση οποιουδήποτε είδους.
+- Τρολάρισμα, προσβλητικά ή/και υποτιμητικά σχόλια, συμπεριλαμβανομένων προσωπικών ή πολιτικών επιθέσεων.
 
-## Scope
+## Πεδίο Eφαρμογής
 
-Our Code of Conduct applies within all project spaces, as well as when an individual is representing the Privacy Guides project in other communities.
+Ο Κώδικας Δεοντολογίας ισχύει σε όλους τους χώρους του έργου, καθώς και όταν ένα άτομο εκπροσωπεί το έργο Privacy Guides σε άλλες κοινότητες.
 
-We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Είμαστε υπεύθυνοι για την αποσαφήνιση των προτύπων της κοινότητάς μας και έχουμε το δικαίωμα να αφαιρούμε ή να τροποποιούμε τα σχόλια όσων συμμετέχουν στην κοινότητά μας, ανάλογα με τις ανάγκες και τη διακριτική μας ευχέρεια.
 
-## Contact
+## Επικοινωνία
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
+Αν παρατηρήσετε κάποιο πρόβλημα σε μια πλατφόρμα όπως το Matrix ή το Reddit, παρακαλούμε επικοινωνήστε με τους συντονιστές μας στην εν λόγω πλατφόρμα μέσω συνομιλίας, άμεσου μηνύματος ή οποιουδήποτε καθορισμένου συστήματος επικοινωνίας συντονιστών τύπου "Modmail".
 
-If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Αν έχετε κάποιο πρόβλημα αλλού ή ένα πρόβλημα που οι συντονιστές της κοινότητάς μας δεν μπορούν να επιλύσουν, επικοινωνήστε με τον `jonah@privacyguides.org` ή/και `dngray@privacyguides.org`.
 
-All community leaders are obligated to respect the privacy and security of reporters for all incidents.
+Όλοι οι ηγέτες της κοινότητας είναι υποχρεωμένοι να σέβονται την ιδιωτικότητα και την ασφάλεια των δημοσιογράφων για όλα τα περιστατικά.
