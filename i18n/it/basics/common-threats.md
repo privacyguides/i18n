@@ -78,10 +78,10 @@ Ci sono pochi modi in cui questo tipo di attacco potrebbe essere effettuato:
 Questi tipi di attacchi possono richiedere molto tempo e preparazione per essere eseguiti e sono rischiosi perché possono essere rilevati, in particolare nei progetti open source se sono popolari e hanno interessi esterni. Purtroppo sono anche uno dei più pericolosi, in quanto molto difficili da mitigare completamente. Invitiamo i lettori a utilizzare solo software che godono di buona reputazione e che si sforzano di mitigare i rischi:
 
 1. Adottando solo software popolari che esistono da tempo. Maggiore è l'interesse per un progetto, maggiore è la probabilità che le parti esterne notino cambiamenti malevoli. Un attore malintenzionato dovrà inoltre dedicare più tempo a guadagnare la fiducia della comunità con contributi significativi.
-2. Trovare software che rilasci il codice sorgente con piattaforme d'infrastruttura di compilazione affidabili e ampiamente diffuse, rispetto alle workstation degli sviluppatori oppure a server self-hosted. Alcuni sistemi come GitHub Actions consentono di ispezionare lo script di compilazione che viene eseguito pubblicamente per una maggiore sicurezza. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+2. Trovando software che rilasci il codice sorgente con piattaforme d'infrastruttura di compilazione affidabili e ampiamente diffuse, rispetto alle workstation degli sviluppatori oppure a server self-hosted. Alcuni sistemi come GitHub Actions consentono di ispezionare lo script di compilazione che viene eseguito pubblicamente per una maggiore sicurezza. In questo modo si riduce la probabilità che il malware presente sul computer di uno sviluppatore possa infettare i suoi pacchetti e si ha la certezza che i codici sorgente prodotti siano effettivamente corretti.
+3. Cercando la firma del codice sui singoli commit e rilasci di codice sorgente, per creare una traccia verificabile di chi ha fatto cosa. Ad esempio: Il codice malevolo era presente nell'archivio del software? Quale sviluppatore l'ha aggiunto? È stato aggiunto durante la compilazione?
+4. Controllando se il codice sorgente ha messaggi di commit significativi (come i [commit convenzionali](https://conventionalcommits.org)) che spiegano che cambiamento la modifica dovrebbe realizzare. Messaggi chiari possono facilitare la verifica, la revisione e la ricerca di bug da parte di persone esterne al progetto.
+5. Annotando il numero di collaboratori o manutentori di un programma. Uno sviluppatore solitario può essere più suscettibile alla costrizione ad aggiungere codice malevolo da una parte esterna o di abilitare per negligenza un comportamento indesiderato. Questo potrebbe significare che il software sviluppato da "Big Tech" è soggetto a maggiori controlli rispetto a uno sviluppatore solitario che non risponde a nessuno.
 
 ## Privacy dai fornitori del servizio
 
@@ -115,7 +115,7 @@ La sorveglianza di massa consiste nell'intricato sforzo di monitorare il "compor
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlante della sorveglianza</p>
 
-If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
+Se vuoi saperne di più sui metodi di sorveglianza e su come vengono attuati nella tua città, puoi anche dare un'occhiata a [Atlas of Surveillance](https://atlasofsurveillance.org/) della [Electronic Frontier Foundation](https://eff.org/).
 
 In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
