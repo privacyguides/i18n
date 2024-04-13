@@ -29,12 +29,12 @@ optipng -o7 file.png
 
 [Scour](https://github.com/scour-project/scour) all SVG images.
 
-In Inkscape:
+Στο Inkscape:
 
 1. Αρχείο Αποθήκευση ως..
 2. Ορισμός τύπου σε βελτιστοποιημένο SVG (*.svg)
 
-Στην καρτέλα **Επιλογές**:
+Στην καρτέλα **Options**:
 
 - **Number of significant digits for coordinates** > **5**
 - [x] Turn on **Shorten color values**
@@ -45,22 +45,22 @@ In Inkscape:
 - [ ] Turn off **Keep unreferenced definitions**
 - [x] Turn on **Work around renderer bugs**
 
-In the **SVG Output** tab under **Document options**:
+Στην καρτέλα **SVG Output** στις επιλογές εγγράφου ****:
 
-- [ ] Turn off **Remove the XML declaration**
-- [x] Turn on **Remove metadata**
-- [x] Turn on **Remove comments**
-- [x] Turn on **Embeded raster images**
-- [x] Turn on **Enable viewboxing**
+- [ ] Απενεργοποίηση **Remove the XML declaration**
+- [x] Ενεργοποίηση της λειτουργίας **Remove metadata**
+- [x] Ενεργοποίηση της λειτουργίας **Remove metadata**
+- [x] Ενεργοποίηση **Embeded raster image**
+- [x] Ενεργοποίηση **Enable viewboxing**
 
-In the **SVG Output** under **Pretty-printing**:
+Στην καρτέλα **SVG Output** στις επιλογές εγγράφου **Pretty-printing**:
 
-- [ ] Turn off **Format output with line-breaks and indentation**
-- **Indentation characters** > Select **Space**
+- [ ] Απενεργοποίηση της επιλογής **Format output with line-breaks and indentation**
+- **Χαρακτήρες εσοχής** > Επιλέξτε **Space**
 - **Depth of indentation** > **1**
-- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
+- [ ] Απενεργοποίηση **Strip the "xml:space" attribute from the root SVG element**
 
-In the **IDs** tab:
+Στην καρτέλα **IDs**:
 
 - [x] Turn on **Remove unused IDs**
 - [ ] Turn off **Shorten IDs**
@@ -71,7 +71,7 @@ In the **IDs** tab:
 
 #### CLI
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+Το ίδιο μπορεί να επιτευχθεί με την εντολή [Scour](https://github.com/scour-project/scour):
 
 ```bash
 scour --set-precision=5 \
