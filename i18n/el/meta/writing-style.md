@@ -26,40 +26,40 @@ title: Στυλ γραφής
 
 Πηγή: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
-### Avoid "users"
+### Αποφύγετε τη χρήση όρου "χρήστες"
 
-Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
+Αποφύγετε να αποκαλείτε τους ανθρώπους "χρήστες" και προτιμήστε το "άνθρωποι" ή μια πιο συγκεκριμένη περιγραφή της ομάδας ανθρώπων για την οποία γράφετε.
 
-## Organizing content
+## Οργάνωση περιεχομένου
 
-Organization is key. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+Η οργάνωση είναι κλειδί. Το περιεχόμενο θα πρέπει να κυλάει από τις πιο σημαντικές προς τις λιγότερο σημαντικές πληροφορίες και να χρησιμοποιείτε επικεφαλίδες όσο χρειάζεται για να διαχωρίζετε λογικά τις διάφορες ιδέες.
 
-- Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
-- Mark important ideas with **bold** or *italics*.
+- Περιορίστε το έγγραφο σε περίπου πέντε ή έξι ενότητες. Τα μακροσκελή έγγραφα θα πρέπει μάλλον να χωρίζονται σε ξεχωριστές σελίδες.
+- Σημειώστε τις σημαντικές ιδέες με **έντονη** ή *πλάγια γρα*φή.
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
+Πηγή: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
-### Begin with a topic sentence
+### Ξεκινήστε με μια θεματική πρόταση
 
-> If you tell your reader what they’re going to read about, they’re less likely to have to read your paragraph again. Headings help, but they’re not enough. Establish a context for your audience before you provide them with the details.
+> Αν πείτε στον αναγνώστη σας για ποιο θέμα πρόκειται να διαβάσει, είναι λιγότερο πιθανό να χρειαστεί να διαβάσει ξανά την παράγραφο σας. Οι τίτλοι βοηθούν, αλλά δεν επαρκούν πάντοτε. Δημιουργήστε ένα πλαίσιο για το ακροατήριό σας προτού του δώσετε τις λεπτομέρειες.
 > 
-> We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
+> Συχνά γράφουμε με τον τρόπο που σκεφτόμαστε, βάζοντας πρώτα τις προθέσεις μας και μετά το συμπέρασμά μας. Μπορεί να είναι ο φυσικός τρόπος ανάπτυξης σκέψεων, αλλά καταλήγουμε με την πρόταση θέματος στο τέλος της παραγράφου. Βάλτε το μπροστά και αφήστε τους χρήστες να γνωρίζουν πού πηγαίνετε. Μην αναγκάζετε τους αναγνώστες να συγκρατούν πολλές πληροφορίες στο μυαλό τους προτού μπουν στο θέμα.
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
+Πηγή: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
-## Choose your words carefully
+## Επιλέξτε προσεκτικά τις λέξεις που χρησιμοποιείτε
 
-> Words matter. They are the most basic building blocks of written and spoken communication. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
+> Οι λέξεις έχουν σημασία. Είναι τα πιο βασικά δομικά στοιχεία της γραπτής και προφορικής επικοινωνίας. Μην περιπλέκετε τα πράγματα χρησιμοποιώντας ορολογία, τεχνικούς όρους ή συντομογραφίες που δεν θα καταλάβει ο κόσμος.
 
-We should try to avoid abbreviations where possible, but technology is full of abbreviations. In general, spell out the abbreviation/acronym the first time it is used on a page, and add the abbreviation to the abbreviation glossary file when it is used repeatedly.
+Θα πρέπει να προσπαθούμε να αποφεύγουμε τις συντομογραφίες όπου είναι δυνατόν, αλλά η τεχνολογία είναι γεμάτη συντομογραφίες. Γενικά, γράψτε τη συντομογραφία/ακρωνύμιο την πρώτη φορά που χρησιμοποιείται σε μια σελίδα και προσθέστε τη συντομογραφία στο αρχείο γλωσσαρίου συντομογραφιών όταν χρησιμοποιείται επανειλημμένα.
 
-> Kathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:
+> Η Kathy McGinty προσφέρει απλές οδηγίες για να ενισχύσετε τις απλές, άμεσες προτάσεις σας:
 > 
-> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. on weekends.
+> > Δεν μπορεί να διαφύγει κανείς του γεγονότος ότι θεωρείται πολύ σημαντικό να σημειωθεί ότι μια σειρά από διάφορες διαθέσιμες εφαρμοστέες μελέτες ipso facto έχουν γενικά εντοπίσει το γεγονός ότι η πρόσθετη κατάλληλη νυχτερινή απασχόληση θα μπορούσε συνήθως να κρατήσει τους ανήλικους εφήβους μακριά από τις οδικές αρτηρίες κατά τις νυχτερινές ώρες, συμπεριλαμβανομένων, μεταξύ άλλων, του χρόνου πριν από τα μεσάνυχτα τις καθημερινές ή/και τις 2 π.μ. τα Σαββατοκύριακα.
 > 
-> And the original, using stronger, simpler words:
+> Και το πρωτότυπο, με ισχυρότερες, απλούστερες λέξεις:
 > 
-> > More night jobs would keep youths off the streets.
+> > Περισσότερες νυχτερινές θέσεις εργασίας θα κρατούσαν τους νέους μακριά από τους δρόμους.
 
 ## Να είστε συνοπτικοί
 

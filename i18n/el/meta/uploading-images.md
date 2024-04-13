@@ -1,23 +1,23 @@
 ---
-title: Uploading Images
+title: Μεταφόρτωση Εικόνων
 ---
 
-Here are a couple of general rules for contributing to Privacy Guides:
+Εδώ είναι μερικοί γενικοί κανόνες για τη συνεισφορά στο Privacy Guides:
 
-## Images
+## Εικόνες
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images
+- **Προτιμούμε** εικόνες SVG, αλλά αν δεν υπάρχουν, μπορούμε να χρησιμοποιήσουμε εικόνες PNG.
 
-Company logos have canvas size of:
+Τα λογότυπα της εταιρείας έχουν μέγεθος καμβά:
 
 - 128x128px
 - 384x128px
 
-## Optimization
+## Βελτιστοποίηση
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
+Χρησιμοποιήστε το [OptiPNG](https://sourceforge.net/projects/optipng) για να βελτιστοποιήσετε την εικόνα PNG:
 
 ```bash
 optipng -o7 file.png
@@ -31,10 +31,10 @@ optipng -o7 file.png
 
 In Inkscape:
 
-1. File Save As..
-2. Set type to Optimized SVG (*.svg)
+1. Αρχείο Αποθήκευση ως..
+2. Ορισμός τύπου σε βελτιστοποιημένο SVG (*.svg)
 
-In the **Options** tab:
+Στην καρτέλα **Επιλογές**:
 
 - **Number of significant digits for coordinates** > **5**
 - [x] Turn on **Shorten color values**
