@@ -110,7 +110,7 @@ In addition to providing standard OpenVPN configuration files, Proton VPN has mo
 
 #### :material-alert-outline:{ .pg-orange } Additional Notes
 
-В настоящее время клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах, кроме Linux. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://torproject.org) for this purpose.
+В настоящее время клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах, кроме Linux. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
 
 ##### :material-alert-outline:{ .pg-orange } Функция Killswitch не работает на Mac на базе Intel
 

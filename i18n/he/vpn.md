@@ -110,7 +110,7 @@ In addition to providing standard OpenVPN configuration files, Proton VPN has mo
 
 #### :material-alert-outline:{ .pg-orange } Additional Notes
 
-תוכנות Proton VPN תומכים באימות דו-שלבי בכל הפלטפורמות מלבד לינוקס כרגע. ל - Proton VPN יש שרתים ומרכזי נתונים משלו בשוויץ, איסלנד ושוודיה. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://torproject.org) for this purpose.
+תוכנות Proton VPN תומכים באימות דו-שלבי בכל הפלטפורמות מלבד לינוקס כרגע. ל - Proton VPN יש שרתים ומרכזי נתונים משלו בשוויץ, איסלנד ושוודיה. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
 
 ##### :material-alert-outline:{ .pg-orange } תכונת Killswitch שבורה במחשבי Mac מבוססי אינטל
 
