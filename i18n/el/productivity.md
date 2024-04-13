@@ -177,7 +177,7 @@ In general, we define office suites as applications which could reasonably act a
 
 #### Minimum Requirements
 
-- Must be open source.
+- Πρέπει να είναι ανοικτού κώδικα.
 - Must implement "zero-trust" end-to-end encryption.
 - Must support password-protected files.
 
