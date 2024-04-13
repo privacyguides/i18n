@@ -14,17 +14,17 @@ title: Στυλ γραφής
 
 Οι άνθρωποι δεν χρειάζονται υπερβολικά πολύπλοκα άρθρα με μικρή συνάφεια για αυτούς. Βρείτε τι θέλετε να επιτύχουν οι άνθρωποι όταν γράφετε ένα άρθρο και συμπεριλάβετε μόνο αυτές τις λεπτομέρειες.
 
-> Πείτε στο κοινό σας γιατί το υλικό είναι σημαντικό για αυτούς. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
+> Πείτε στο κοινό σας γιατί το υλικό είναι σημαντικό για αυτούς. Πείτε: "Αν θέλετε μια ερευνητική επιχορήγηση, να τι πρέπει να κάνετε". Ή, "Αν θέλετε να εξορύξετε ομοσπονδιακό άνθρακα, να τι πρέπει να ξέρετε". Ή, "Αν σχεδιάζετε ένα ταξίδι στη Ρουάντα, διαβάστε πρώτα αυτό".
 
-### Address people directly
+### Απευθυνθείτε άμεσα στα άτομα
 
-We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. Use "you" to address the reader directly.
+Γράφουμε *για* μια μεγάλη ποικιλία ανθρώπων, αλλά γράφουμε *για* το άτομο που πραγματικά το διαβάζει. Χρησιμοποιήστε το "εσείς" για να απευθυνθείτε απευθείας στον αναγνώστη/αναγνώστες.
 
-> More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
+> Περισσότερο από οποιαδήποτε άλλη τεχνική, η χρήση του "εσύ/εσείς" τραβάει τους χρήστες στις πληροφορίες και τις κάνει σχετικές με αυτούς.
 > 
-> When you use “you” to address users, they are more likely to understand what their responsibility is.
+> Όταν χρησιμοποιείτε το "εσείς" για να απευθυνθείτε στους χρήστες, είναι πιο πιθανό να κατανοήσουν ποια είναι η ευθύνη τους.
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
+Πηγή: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
 ### Avoid "users"
 
@@ -69,7 +69,7 @@ We should try to avoid abbreviations where possible, but technology is full of a
 
 ## Κρατήστε το κείμενο διαλογικό
 
-> Τα ρήματα είναι το «καύσιμο» της γραφής. Δίνουν στις προτάσεις σας δύναμη και κατεύθυνση. Ζωντανεύουν τα γραπτά σας και τα κάνουν πιο ενδιαφέροντα.
+> Τα ρήματα είναι το "καύσιμο" της γραφής. Δίνουν στις προτάσεις σας δύναμη και κατεύθυνση. Ζωντανεύουν τα γραπτά σας και τα κάνουν πιο ενδιαφέροντα.
 > 
 > Τα ρήματα λένε στο ακροατήριό σας τι να κάνει. Βεβαιωθείτε ότι είναι σαφές ποιος κάνει τι.
 
