@@ -142,7 +142,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 \[רשימה זו אינה ממצה].
 
-אם אתה מודאג לגבי תוכניות מעקב המוני, אתה יכול להשתמש באסטרטגיות כמו מידור של הזהויות המקוונות שלך, השתלבות עם משתמשים אחרים, או, במידת האפשר, פשוט הימנעות מסירת מידע מזהה.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: קפיטליזם מעקב</span>
 

@@ -142,7 +142,7 @@ En línea, puedes ser rastreado a través de varios métodos:
 
 \[Esta lista no es exhaustiva].
 
-Si te preocupan los programas de vigilancia masiva, puedes utilizar estrategias como compartimentar tus identidades en línea, mezclarte con otros usuarios o, siempre que sea posible, simplemente evitar proporcionar información que te identifique.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: Capitalismo de Vigilancia</span>
 

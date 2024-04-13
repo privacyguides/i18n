@@ -142,7 +142,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 \ [此列表并非详尽无遗]。
 
-如果你担心大规模的监控项目，你可以使用一些策略，比如将你的在线身份进行分隔，与其他用户混在一起，或者尽可能地避免提供身份信息。
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: 监视资本主义</span>
 

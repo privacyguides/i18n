@@ -142,7 +142,7 @@ Online è possibile essere rintracciati con svariati metodi:
 
 \[Questo elenco non è completo].
 
-Se sei preoccupato per i programmi di sorveglianza di massa, puoi utilizzare strategie come la compartimentazione delle tue identità online, confonderti con gli altri utenti, o, quando possibile, semplicemente di evitare di fornire informazioni identificative.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: Capitalismo di sorveglianza</span>
 

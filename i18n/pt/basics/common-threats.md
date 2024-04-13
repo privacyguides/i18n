@@ -142,7 +142,7 @@ Enquanto online, pode ser seguido através de uma variedade de métodos:
 
 \[Esta não é uma lista exaustiva].
 
-Se estiver preocupado com os programas de vigilância em massa, pode utilizar estratégias como compartimentar as suas identidades online, misturar-se com outros utilizadores ou, sempre que possível, simplesmente evitar fornecer informações de identificação.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: Capitalismo de vigilância</span>
 

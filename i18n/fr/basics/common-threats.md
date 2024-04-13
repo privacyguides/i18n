@@ -142,7 +142,7 @@ Vous pouvez être pisté de plusieurs manières en ligne :
 
 \[Cette liste n'est pas exhaustive].
 
-Si vous êtes préoccupé par les programmes de surveillance de masse, vous pouvez utiliser des stratégies comme cloisonner vos identités virtuelles, vous fondre dans la masse des utilisateurs, ou, dans la mesure du possible, simplement éviter de renseigner des informations qui pourraient permettre de vous identifier.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: Capitalisme de surveillance</span>
 

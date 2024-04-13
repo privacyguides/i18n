@@ -142,7 +142,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 \[Этот список не является исчерпывающим].
 
-Если вас беспокоят программы массовой слежки, вы можете использовать такие стратегии, как разделение своей личности в Интернете, смешивание с другими пользователями или, по возможности, просто избегать предоставления идентифицирующей информации.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: Капитализм слежки</span>
 

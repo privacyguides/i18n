@@ -142,7 +142,7 @@ Ondanks de toenemende massasurveillance in de Verenigde Staten is de regering to
 
 \[Deze lijst is niet uitputtend].
 
-Als je bezorgd bent over massale surveillance programma's, kun je strategieën gebruiken zoals het opsplitsen van jouw online-identiteiten, je mengen met andere gebruikers of, waar mogelijk, gewoon vermijden om identificerende informatie te geven.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: Surveillance kapitalisme</span>
 

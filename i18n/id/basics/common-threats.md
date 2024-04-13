@@ -142,7 +142,7 @@ Secara daring, Anda dapat dilacak melalui berbagai metode:
 
 \[Daftar ini tidak lengkap].
 
-Jika Anda khawatir dengan program pengawasan massal, Anda bisa menggunakan strategi seperti membagi identitas daring Anda, berbaur dengan pengguna lain, atau, jika memungkinkan, hindari memberikan informasi identitas.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: Kapitalisme Pengawasan</span>
 

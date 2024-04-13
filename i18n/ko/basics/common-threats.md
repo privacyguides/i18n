@@ -142,7 +142,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 \[이 목록뿐만이 아닙니다].
 
-대중 감시 프로그램을 우려하는 경우, 온라인 신원을 구별해 활동하거나, 다른 사용자 사이에 섞여들거나, 가능한 선에서 식별 정보를 최소화하는 등의 전략을 이용할 수 있습니다.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: 감시 자본주의(Surveillance Capitalism)</span>
 

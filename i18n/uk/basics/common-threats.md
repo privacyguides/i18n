@@ -142,7 +142,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 \[Цей список не є вичерпним].
 
-Якщо ви стурбовані програмами масового стеження, ви можете використовувати такі стратегії, як розмежування ваших ідентифікаційних даних в Інтернеті, змішування з іншими користувачами або, коли це можливо, просто уникати розголошення інформації, що ідентифікує вас.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: Капіталізм нагляду</span>
 

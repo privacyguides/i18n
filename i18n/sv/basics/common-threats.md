@@ -142,7 +142,7 @@ På nätet kan du spåras på olika sätt:
 
 \[Denna lista är inte uttömmande].
 
-Om du är orolig för massövervakningsprogram kan du använda strategier som att dela upp din identitet på nätet, smälta in bland andra användare eller, när det är möjligt, helt enkelt undvika att lämna ut identifieringsuppgifter.
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: Övervakningskapitalism</span>
 

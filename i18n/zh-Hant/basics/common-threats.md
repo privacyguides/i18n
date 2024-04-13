@@ -142,7 +142,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 
 \ [此列表並非詳盡無缺]。
 
-如果您擔心大規模監控計劃，您可以隨時隨地策略性避免提供識別個資，例如劃分您的網路身份，與其他用戶混合。
+If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
 <span class="pg-brown">:material-account-cash: 監控資本主義</span>
 

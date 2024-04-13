@@ -27,7 +27,7 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+Χρησιμοποιήστε [Scour](https://github.com/scour-project/scour) για όλες τις SVG εικόνες.
 
 Στο Inkscape:
 
@@ -37,37 +37,37 @@ optipng -o7 file.png
 Στην καρτέλα **Options**:
 
 - **Number of significant digits for coordinates** > **5**
-- [x] Turn on **Shorten color values**
-- [x] Turn on **Convert CSS attributes to XML attributes**
-- [x] Turn on **Collapse groups**
-- [x] Turn on **Create groups for similar attributes**
-- [ ] Turn off **Keep editor data**
-- [ ] Turn off **Keep unreferenced definitions**
-- [x] Turn on **Work around renderer bugs**
+- [x] Ενεργοποιήστε **Shorten color values**
+- [x] Ενεργοποιήστε **Convert CSS attributes to XML attributes**
+- [x] Ενεργοποιήστε **Collapse groups**
+- [x] Ενεργοποιήστε **Create groups for similar attributes**
+- [ ] Απενεργοποιήστε **Keep editor data**
+- [ ] Απενεργοποιήστε **Keep unreferenced definitions**
+- [x] Ενεργοποιήστε **Work around renderer bugs**
 
 Στην καρτέλα **SVG Output** στις επιλογές εγγράφου ****:
 
-- [ ] Απενεργοποίηση **Remove the XML declaration**
-- [x] Ενεργοποίηση της λειτουργίας **Remove metadata**
-- [x] Ενεργοποίηση της λειτουργίας **Remove metadata**
-- [x] Ενεργοποίηση **Embeded raster image**
-- [x] Ενεργοποίηση **Enable viewboxing**
+- [ ] Απενεργοποιήστε **Remove the XML declaration**
+- [x] Ενεργοποιήστε **Remove metadata**
+- [x] Ενεργοποιήστε **Remove comments**
+- [x] Ενεργοποιήστε **Embeded raster images**
+- [x] Ενεργοποιήστε **Enable viewboxing**
 
 Στην καρτέλα **SVG Output** στις επιλογές εγγράφου **Pretty-printing**:
 
 - [ ] Απενεργοποίηση της επιλογής **Format output with line-breaks and indentation**
-- **Χαρακτήρες εσοχής** > Επιλέξτε **Space**
+- **Indentation characters** > Επιλέξτε **Space**
 - **Depth of indentation** > **1**
-- [ ] Απενεργοποίηση **Strip the "xml:space" attribute from the root SVG element**
+- [ ] Απενεργοποιήστε **Strip the "xml:space" attribute from the root SVG element**
 
 Στην καρτέλα **IDs**:
 
-- [x] Turn on **Remove unused IDs**
-- [ ] Turn off **Shorten IDs**
-- **Prefix shortened IDs with** > `leave blank`
-- [x] Turn on **Preserve manually created IDs not ending with digits**
-- **Preserve the following IDs** > `leave blank`
-- **Preserve IDs starting with** > `leave blank`
+- [x] Ενεργοποιήστε **Remove unused IDs**
+- [ ] Απενεργοποιήστε **Shorten IDs**
+- **Prefix shortened IDs with** > `αφήστε το κενό`
+- [x] Ενεργοποιήστε **Preserve manually created IDs not ending with digits**
+- **Preserve the following IDs** > `αφήστε το κενό`
+- **Preserve IDs starting with** > `αφήστε το κενό`
 
 #### CLI
 
