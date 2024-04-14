@@ -4,6 +4,10 @@ title: "电子邮件服务"
 icon: material/email
 description: 这些电子邮件提供商提供了一个很好的场所来安全地存储您的电子邮件，许多提供了与其他提供商兼容的 OpenPGP 加密服务。
 cover: email.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
@@ -11,11 +15,15 @@ cover: email.webp
 
 [推荐的即时通讯工具](real-time-communication.md ""){.md-button}
 
-对于其他一切，我们根据可持续的商业模式和内置的安全和隐私功能，推荐各种电子邮件供应商。
+## 推荐的供应商
 
-- [OpenPGP-Compatible Email Providers :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Other Encrypted Providers :material-arrow-right-drop-circle:](#more-providers)
-- [Self-Hosted Options :material-arrow-right-drop-circle:](#self-hosting-email)
+对于其他一切，我们根据可持续的商业模式和内置的安全和隐私功能，推荐各种电子邮件供应商。 Read our [full list of criteria](#criteria) for more information.
+
+| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonymous Payments            |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                          |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                          |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
@@ -47,7 +55,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 ! [Proton Mail徽标] (assets/img/email/protonmail.svg) {align = right}
 
-* * Proton Mail * *是一项专注于隐私、加密、安全性和易用性的电子邮件服务。 他们自**2013年**以来一直在运作。 Proton公司总部位于瑞士日内瓦。 Accounts start with up to 1GB storage with the free plan.
+* * Proton Mail * *是一项专注于隐私、加密、安全性和易用性的电子邮件服务。 他们自**2013年**以来一直在运作。 Proton公司总部位于瑞士日内瓦。 The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -72,9 +80,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 免费账户有一些限制，如不能搜索正文，不能访问 [Proton Mail Bridge](https://proton.me/mail/bridge)，这是使用 [推荐的桌面电子邮件客户端](email-clients.md) （如Thunderbird）所需要的。 付费帐户包括Proton Mail Bridge等功能，额外的存储空间和自定义域支持。 2021年11月9日， [Securitum](https://research.securitum.com)，为Proton Mail的应用程序提供了一份 [的证明信](https://proton.me/blog/security-audit-all-proton-apps)。
 
-If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail has internal crash reports that are **not** shared with third parties. 这可以在以下方面禁用。 **设置** > **转到设置** > **帐户** > **安全和隐私** > **发送崩溃报告**。
+Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
@@ -102,11 +110,11 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. 30天后，你的账户将成为欠费账户，不会收到来信。 在此期间，您将继续收到账单。 Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address on a deactivated account.
+If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. 30天后，你的账户将成为欠费账户，不会收到来信。 在此期间，您将继续收到账单。 Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
 
 #### :material-information-outline:{ .pg-blue } Additional Functionality
 
-Proton Mail提供9.99欧元/月的 "无限 "账户，除了提供多个账户、域名、别名和500GB的存储空间外，还能访问Proton VPN。
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500GB of storage.
 
 Proton Mail不提供数字遗留功能。
 
@@ -183,7 +191,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with up to 1GB storage with the free plan.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }

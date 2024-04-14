@@ -4,6 +4,10 @@ title: "Layanan Surel"
 icon: material/email
 description: Penyedia surel ini menawarkan tempat yang baik untuk menyimpan surel Anda dengan aman, dan banyak yang menawarkan enkripsi OpenPGP yang dapat dioperasikan dengan penyedia lain.
 cover: email.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
@@ -11,11 +15,15 @@ Surel bisa dibilang merupakan kebutuhan untuk menggunakan layanan daring apa pun
 
 [Perpesanan Instan yang Direkomendasikan](real-time-communication.md ""){.md-button}
 
-Untuk yang lainnya, kami merekomendasikan berbagai penyedia surel yang didasarkan pada model bisnis yang berkelanjutan serta fitur keamanan dan privasi bawaan.
+## Penyedia yang Direkomendasikan
 
-- [Penyedia Email yang Kompatibel dengan OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Penyedia Terenkripsi Lainnya :material-arrow-right-drop-circle:](#more-providers)
-- [Opsi yang Dilayani Sendiri :material-arrow-right-drop-circle:](#self-hosting-email)
+Untuk yang lainnya, kami merekomendasikan berbagai penyedia surel yang didasarkan pada model bisnis yang berkelanjutan serta fitur keamanan dan privasi bawaan. Baca [daftar lengkap kriteria kami](#criteria) untuk informasi lebih lanjut.
+
+| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonymous Payments            |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Uang Tunai                    |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Uang Tunai                    |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
@@ -47,7 +55,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![ Proton Mail logo ]( assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** adalah layanan surel dengan fokus pada privasi, enkripsi, keamanan, dan kemudahan penggunaan. Mereka telah beroperasi sejak **2013**. Proton AG berbasis di Genewa, Swiss. Accounts start with up to 1GB storage with the free plan.
+**Proton Mail** adalah layanan surel dengan fokus pada privasi, enkripsi, keamanan, dan kemudahan penggunaan. Mereka telah beroperasi sejak **2013**. Proton AG berbasis di Genewa, Swiss. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -72,9 +80,9 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Akun gratis memiliki beberapa keterbatasan, seperti tidak dapat mencari teks tubuh dan tidak memiliki akses ke [Proton Mail Bridge](https://proton.me/mail/bridge), yang diperlukan untuk menggunakan [klien surel desktop yang direkomendasikan](email-clients.md) (misalnya Thunderbird). Akun berbayar mencakup fitur-fitur seperti Proton Mail Bridge, penyimpanan tambahan, dan dukungan domain khusus. [Surat pengesahan](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton Mail pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail has internal crash reports that are **not** shared with third parties. Ini dapat dinonaktifkan di: **Pengaturan** > **Buka Pengaturan** > **Akun** > **Keamanan dan privasi** > **Kirim laporan kemogokan**.
+Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
 #### :material-check:{ .pg-green } Domain dan Alias Khusus
 
@@ -102,11 +110,11 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 
 #### :material-information-outline:{ .pg-blue } Account Termination
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. Setelah 30 hari, akun Anda akan menjadi tunggakan dan tidak akan menerima surat masuk. Anda akan terus ditagih selama periode ini. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address on a deactivated account.
+If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. Setelah 30 hari, akun Anda akan menjadi tunggakan dan tidak akan menerima surat masuk. Anda akan terus ditagih selama periode ini. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
 
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 
-Proton Mail menawarkan akun "Unlimited" seharga €9,99/Bulan, yang juga memungkinkan akses ke Proton VPN selain menyediakan beberapa akun, domain, alias, dan penyimpanan 500GB.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500GB of storage.
 
 Proton Mail tidak menawarkan fitur warisan digital.
 
@@ -183,7 +191,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with up to 1GB storage with the free plan.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }

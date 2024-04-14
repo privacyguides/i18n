@@ -4,6 +4,10 @@ title: "Servicios de Correo Electrónico"
 icon: material/email
 description: Estos proveedores de correo electrónico ofrecen un lugar estupendo para almacenar tus correos de forma segura, y muchos ofrecen encriptación OpenPGP inter operable con otros proveedores.
 cover: email.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
@@ -11,11 +15,15 @@ Correo electrónico es prácticamente una necesidad para utilizar cualquier serv
 
 [Servicios de Mensajería Instantánea Recomendados](real-time-communication.md ""){.md-button}
 
-Para todo lo demás, recomendamos una variedad de proveedores de correo electrónico basados en modelos sostenibles, además de características de seguridad y privacidad integradas.
+## Proveedores Recomendados
 
-- [Proveedores de Correo Electrónico Compatibles con OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Otros Proveedores Encriptados :material-arrow-right-drop-circle:](#more-providers)
-- [Opciones Autoalojadas :material-arrow-right-drop-circle:](#self-hosting-email)
+Para todo lo demás, recomendamos una variedad de proveedores de correo electrónico basados en modelos sostenibles, además de características de seguridad y privacidad integradas. Lee nuestra \[lista completa de criterios\](#criterios) para más información.
+
+| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonymous Payments            |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Efectivo                      |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Efectivo                      |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
 
 Además de (o en lugar de) un proveedor de correo electrónico recomendado aquí, es posible que desees considerar un [servicio de alias de correo electrónico](email-aliasing.md) dedicado para proteger tu privacidad. Entre otras cosas, estos servicios pueden ayudarte a proteger tu bandeja de entrada real del spam, evitar que los profesionales del marketing correlacionen tus cuentas y cifrar todos los mensajes entrantes con PGP.
 
@@ -47,7 +55,7 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 
 ![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** es un servicio de correo electrónico con un enfoque en privacidad, encriptación, seguridad, y la facilidad de uso. Han estado en operación desde **2013**. Proton AG tiene su sede en Ginebra, Suiza. Accounts start with up to 1GB storage with the free plan.
+**Proton Mail** es un servicio de correo electrónico con un enfoque en privacidad, encriptación, seguridad, y la facilidad de uso. Han estado en operación desde **2013**. Proton AG tiene su sede en Ginebra, Suiza. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Página principal](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servicio Onion" }
@@ -72,9 +80,9 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 
 Las cuentas gratuitas tienen algunas limitaciones, como no poder buscar texto en el contenido, y no tener acceso a [Proton Mail Bridge](https://proton.me/mail/bridge), que es requerido para utilizar un [cliente recomendado de correo electrónico para escritorio](email-clients.md) (como Thunderbird). Cuentas pagas incluyen funciones como Proton Mail Bridge, almacenamiento adicional, y soporte para dominios personalizados. Una [carta de certificación](https://proton.me/blog/security-audit-all-proton-apps) fue proporcionada para las aplicaciones de Proton Mail el 9 de noviembre de 2021 por [Securitum](https://research.securitum.com).
 
-Si tienes el plan Proton Unlimited, Business, Family o Visionary, recibes [SimpleLogin](email-aliasing.md#simplelogin) Premium gratis.
+If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail has internal crash reports that are **not** shared with third parties. Puede desactivarse en: **Ajustes** > **Ir a Ajustes** > **Cuenta** > **Seguridad y privacidad** > **Enviar informes de fallos**.
+Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
@@ -102,11 +110,11 @@ Proton Mail también publica las direcciones públicas de las cuentas a través 
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
-Si tienes una cuenta de pago y tu factura [no esta paga](https://proton.me/support/delinquency) después de 14 días, no podrá acceder a tus datos. Transcurridos 30 días, tu cuenta se convertirá en morosa y no recibirás correo entrante. Seguirás siendo facturando durante este periodo. Proton [elimina las cuentas gratuitas sin actividad](https://proton.me/support/inactive-accounts) luego de un año. **No** puedes reutilizar la dirección de correo electrónico de una cuenta desactivada.
+Si tienes una cuenta de pago y tu factura [no esta paga](https://proton.me/support/delinquency) después de 14 días, no podrá acceder a tus datos. Transcurridos 30 días, tu cuenta se convertirá en morosa y no recibirás correo entrante. Seguirás siendo facturando durante este periodo. Proton [elimina las cuentas gratuitas sin actividad](https://proton.me/support/inactive-accounts) luego de un año. You **cannot** reuse the email address of a deactivated account.
 
 #### :material-information-outline:{ .pg-blue }: Funcionalidad Adicional
 
-Proton Mail ofrece una cuenta "Ilimitada" por €9,99 euros al mes, que también permite acceder a Proton VPN además de proporcionar múltiples cuentas, dominios, alias, y 500 GB de almacenamiento.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500GB of storage.
 
 Proton Mail no ofrece la función de legado digital.
 
@@ -183,7 +191,7 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva en funcionamiento desde **2011** y tiene su sede en Hanóver, Alemania. Accounts start with up to 1GB storage with the free plan.
+**Tuta** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva en funcionamiento desde **2011** y tiene su sede en Hanóver, Alemania. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -310,7 +318,7 @@ Preferimos que nuestros proveedores recomendados recojan la menor cantidad de da
 - No requiere información personal identificable (PII) aparte de un nombre de usuario y una contraseña.
 - Política de privacidad que cumple los requisitos definidos por el RGPD.
 
-**Mejor caso:**
+**Mejor Caso:**
 
 - Acepta [opciones de pago anónimas](advanced/payments.md) ([criptomonedas](cryptocurrency.md), efectivo, tarjetas regalo, etc.)
 - Alojado en una jurisdicción con leyes de protección de la privacidad del correo electrónico estrictas.

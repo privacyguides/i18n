@@ -70,42 +70,42 @@ Sering kali terdapat kebingungan antara distribusi "yang berfokus pada keamanan"
 
 ### Distribusi berbasis Arch
 
-Arch dan distribusi berbasis Arch tidak direkomendasikan bagi mereka yang baru mengenal Linux (apa pun distribusinya) karena memerlukan [pemeliharaan sistem](https://wiki.archlinux.org/title/System_maintenance) secara teratur. Arch tidak memiliki mekanisme pembaruan distribusi untuk pilihan perangkat lunak yang mendasarinya. As a result you have to stay aware with current trends and adopt technologies as they supersede older practices on your own.
+Arch dan distribusi berbasis Arch tidak direkomendasikan bagi mereka yang baru mengenal Linux (apa pun distribusinya) karena memerlukan [pemeliharaan sistem](https://wiki.archlinux.org/title/System_maintenance) secara teratur. Arch tidak memiliki mekanisme pembaruan distribusi untuk pilihan perangkat lunak yang mendasarinya. Akibatnya, Anda harus tetap waspada dengan tren saat ini dan mengadopsi teknologi yang menggantikan praktik-praktik lama secara mandiri.
 
-For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
+Agar sistem aman, Anda juga diharapkan memiliki pengetahuan Linux yang cukup untuk mengatur keamanan sistem dengan benar seperti mengadopsi sistem [kontrol akses wajib](https://en.wikipedia.org/wiki/Mandatory_access_control), mengatur daftar hitam [modul kernel](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), memperkuat parameter but, memanipulasi parameter [sysctl](https://en.wikipedia.org/wiki/Sysctl), dan mengetahui komponen apa saja yang dibutuhkan seperti [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Anyone using the [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **must** be comfortable auditing PKGBUILDs that they download from that service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software supply chain attacks, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
+Siapa pun yang menggunakan [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **tidak boleh** segan untuk mengaudit PKGBUILD yang mereka unduh dari layanan tersebut. Paket AUR adalah konten yang diproduksi oleh komunitas dan tidak diperiksa dengan cara apa pun, dan oleh karena itu rentan terhadap serangan rantai pasok perangkat lunak, yang kenyataannya telah terjadi [pada masa lalu](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
 
-The AUR should always be used sparingly, and often there is a lot of bad advice on various pages which direct people to blindly use [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) without sufficient warning. Similar warnings apply to use third-party Personal Package Archives (PPAs) on Debian based distributions or Community Projects (COPR) on Fedora.
+AUR harus selalu digunakan dengan hemat, dan sering kali ada banyak saran buruk di berbagai halaman yang mengarahkan orang untuk secara membabi buta menggunakan [pembantu AUR](https://wiki.archlinux.org/title/AUR_helpers) tanpa peringatan yang memadai. Peringatan serupa berlaku untuk penggunaan Personal Package Archives (PPA) pihak ketiga pada distribusi berbasis Debian atau Community Projects (COPR) pada Fedora.
 
-If you are experienced with Linux and wish to use an Arch-based distribution, we generally recommend mainline Arch Linux over any of its derivatives.
+Jika Anda berpengalaman dengan Linux dan ingin menggunakan distribusi berbasis Arch, kami umumnya merekomendasikan Arch Linux *mainline* daripada turunannya.
 
-Additionally, we recommend **against** these two Arch derivatives specifically:
+Selain itu, kami merekomendasikan untuk **tidak** menggunakan kedua turunan Arch ini secara khusus:
 
-- **Manjaro**: This distribution holds packages back for 2 weeks to make sure that their own changes don’t break, not to make sure that upstream is stable. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
-- **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx) which automatically and blindly compiles packages from the AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
+- **Manjaro**: Distribusi ini menahan paket selama 2 minggu untuk memastikan bahwa perubahan yang mereka buat tidak rusak, bukan untuk memastikan bahwa hulu stabil. Ketika paket AUR digunakan, paket ini sering kali dibuat berdasarkan [pustaka](https://en.wikipedia.org/wiki/Library_(computing)) terbaru dari repositori Arch.
+- **Garuda**: Mereka menggunakan [Chaotic-AUR](https://aur.chaotic.cx) yang secara otomatis dan membabi buta mengkompilasi paket-paket dari AUR. Tidak ada proses verifikasi untuk memastikan bahwa paket AUR tidak mengalami serangan rantai pasok.
 
-### Linux-libre kernel and “Libre” distributions
+### Kernel Linux-libre dan distribusi "Libre"
 
-We recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode.
+Kami menyarankan untuk **tidak** menggunakan kernel Linux-libre, karena kernel ini [menghilangkan mitigasi keamanan](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) dan [[menahan peringatan kernel](https://news.ycombinator.com/item?id=29674846)](https://news.ycombinator.com/item?id=29674846) tentang kode mikro yang rentan.
 
-## General Recommendations
+## Rekomendasi Umum
 
-### Drive Encryption
+### Enkripsi Kandar
 
-Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to backup your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
+Sebagian besar distribusi Linux memiliki opsi dalam pemasang untuk mengaktifkan [LUKS](../encryption.md#linux-unified-key-setup) FDE. Jika opsi ini tidak diatur pada saat instalasi, Anda harus membuat cadangan data dan menginstal ulang, karena enkripsi diterapkan setelah [partisi diska](https://en.wikipedia.org/wiki/Disk_partitioning), tetapi sebelum [sistem berkas](https://en.wikipedia.org/wiki/File_system) diformat. Kami juga menyarankan untuk menghapus perangkat penyimpanan Anda dengan aman:
 
-- [Secure Data Erasure :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
+- [Penghapusan Data yang Aman :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
 ### Swap
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) instead of a traditional swap file or partition to avoid writing potentially sensitive memory data to persistent storage (and improve performance). Fedora-based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Pertimbangkan untuk menggunakan [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) alih-alih berkas atau partisi swap tradisional untuk menghindari penulisan data memori yang mungkin sensitif ke penyimpanan persisten (dan meningkatkan kinerja). Distribusi berbasis Fedora [menggunakan ZRAM secara bawaan](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
-If you require suspend-to-disk (hibernation) functionality, you will still need to use a traditional swap file or partition. Make sure that any swap space you do have on a persistent storage device is [encrypted](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) at a minimum to mitigate some of these threats.
+Jika Anda memerlukan fungsi suspend-to-disk (hibernasi), Anda masih perlu menggunakan berkas atau partisi swap tradisional. Pastikan ruang swap yang Anda miliki pada perangkat penyimpanan persisten, paling tidak, [dienkripsi](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) untuk mengurangi sebagian ancaman ini.
 
 ### Wayland
 
-We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). Its predecessor ([X11](https://en.wikipedia.org/wiki/X_Window_System)) does not support GUI isolation, which allows any window to [record, log, and inject inputs in other windows](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), making any attempt at sandboxing futile. While there are options to do nested X11 such as [Xpra](https://en.wikipedia.org/wiki/Xpra) or [Xephyr](https://en.wikipedia.org/wiki/Xephyr), they often come with negative performance consequences, and are neither convenient to set up nor preferable over Wayland.
+Kami menyarankan untuk menggunakan lingkungan desktop yang mendukung protokol tampilan [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)), karena protokol ini dikembangkan dengan [mempertimbangkan](https://lwn.net/Articles/589147) keamanan. Pendahulunya ([X11](https://en.wikipedia.org/wiki/X_Window_System)) tidak mendukung isolasi GUI, yang memungkinkan jendela mana pun [merekam, mencatat, dan menyuntikkan input di jendela lain](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), sehingga upaya *sandboxing* menjadi sia-sia. While there are options to do nested X11 such as [Xpra](https://en.wikipedia.org/wiki/Xpra) or [Xephyr](https://en.wikipedia.org/wiki/Xephyr), they often come with negative performance consequences, and are neither convenient to set up nor preferable over Wayland.
 
 Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 

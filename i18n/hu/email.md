@@ -4,6 +4,10 @@ title: "Email szolgáltatások"
 icon: material/email
 description: Ezek az e-mail szolgáltatók nagyszerű helyet kínálnak az e-mailek biztonságos tárolására, és sokan kínálnak más szolgáltatókkal együttműködő OpenPGP titkosítást.
 cover: email.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
@@ -11,11 +15,15 @@ Az email gyakorlatilag elengedhetetlen bármilyen online szolgáltatás használ
 
 [Ajánlott azonnali üzenetküldők](real-time-communication.md ""){.md-button}
 
-Minden más esetre olyan emailszolgáltatókat ajánlunk, amelyek fenntartható üzleti modelleken és beépített biztonsági, adat- és magánéletvédelmi funkciókon alapulnak.
+## Ajánlott Szolgáltatók
 
-- [OpenPGP-kompatibilis email szolgáltatók :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [Egyéb titkosított szolgáltatók :material-arrow-right-drop-circle:](#more-providers)
-- [Saját szerveren futtatható lehetőségek :material-arrow-right-drop-circle:](#self-hosting-email)
+Minden más esetre olyan emailszolgáltatókat ajánlunk, amelyek fenntartható üzleti modelleken és beépített biztonsági, adat- és magánéletvédelmi funkciókon alapulnak. Read our [full list of criteria](#criteria) for more information.
+
+| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonymous Payments            |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                          |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                          |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
 
 Az itt ajánlott email szolgáltatók mellett (vagy helyett) érdemes megfontolni egy dedikált [e-mail alias szolgáltatást](email-aliasing.md) is a magánélet védelme érdekében. Ezek a szolgáltatások többek között segíthetnek megvédeni a valódi potaládádat a spamektől, megakadályozhatják, hogy a marketingesek összekapcsolják a fiókjaidat, és PGP-vel titkosíthatják az összes bejövő üzenetedet.
 
@@ -47,7 +55,7 @@ Az OpenPGP nem támogatja a Forward secrecy-t sem, ami azt jelenti, hogy ha a t�
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. **2013** óta működnek. A Proton AG székhelye Genfben, Svájcban található. Accounts start with up to 1GB storage with the free plan.
+A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. **2013** óta működnek. A Proton AG székhelye Genfben, Svájcban található. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Főoldal](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion szolgáltatás" }
@@ -72,9 +80,9 @@ A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titk
 
 Az ingyenes fiókoknak vannak bizonyos korlátai, például nem tudnak keresni a szövegben, és nem férnek hozzá a [Proton Mail Bridge-hez](https://proton.me/mail/bridge), ami egy [ajánlott asztali e-mail kliens](email-clients.md) (pl. Thunderbird) használatához szükséges átjáró. A fizetős fiókok olyan funkciókat is tartalmaznak, mint a Proton Mail Bridge, további tárhely és egyéni domainek támogatása. A Proton Mail alkalmazást 2021. november 9-én a [Securitum](https://research.securitum.com) [tanúsította](https://proton.me/blog/security-audit-all-proton-apps).
 
-If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail has internal crash reports that are **not** shared with third parties. Ez kikapcsolható a: **Beállítások** > **Fiók** > **Biztonság és adatvédelem** > **Adatvédelem és adatgyűjtés** > **Hibajelentések küldése**.
+Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
 #### :material-check:{ .pg-green } Egyedi domainek és álnevek
 
@@ -102,11 +110,11 @@ A Proton Mail a Proton-fiókok nyilvános kulcsait is közzéteszi HTTP-n keresz
 
 #### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
-Ha előfizetéssel rendelkezel, de 14 napon túli [fizetetlen számlád](https://proton.me/support/delinquency) van, nem férhetsz hozzá adataidhoz. 30 nap elteltével fiókod fizetésképtelenné válik, és nem fogadja a beérkező leveleket. Ebben az időszakban továbbra is kiszámlázzák a szolgáltatást. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address on a deactivated account.
+Ha előfizetéssel rendelkezel, de 14 napon túli [fizetetlen számlád](https://proton.me/support/delinquency) van, nem férhetsz hozzá adataidhoz. 30 nap elteltével fiókod fizetésképtelenné válik, és nem fogadja a beérkező leveleket. Ebben az időszakban továbbra is kiszámlázzák a szolgáltatást. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
 
 #### :material-information-outline:{ .pg-blue } További funkciók
 
-A Proton Mail "Unlimited" fiókot kínál 9,99 €/hó összegért, amely a Proton VPN-hez való hozzáférést is lehetővé teszi, emellett több fiókot, domaineket, aliasokat és 500 GB tárhelyet biztosít.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500GB of storage.
 
 A Proton Mail nem kínál digitális örökség funkciót.
 
@@ -183,7 +191,7 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a biztonságra és az adatvédelemre összpontosít. A Tuta **2011** óta működik, székhelye Hannoverben, Németországban található. Accounts start with up to 1GB storage with the free plan.
+A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a biztonságra és az adatvédelemre összpontosít. A Tuta **2011** óta működik, székhelye Hannoverben, Németországban található. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }

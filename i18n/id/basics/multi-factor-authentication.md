@@ -90,7 +90,7 @@ Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** id
 
 If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
 
-## General Recommendations
+## Rekomendasi Umum
 
 We have these general recommendations:
 

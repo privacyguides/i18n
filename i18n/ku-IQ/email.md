@@ -4,6 +4,10 @@ title: "خزمەتگوزاری پۆستەی ئەلکتڕۆنی"
 icon: material/email
 description: ئەم دابینکەرانەی پۆستەی ئەلکتڕۆنی شوێنێکی نایاب پێشکەش دەکەن بۆ کۆکردنەوەی پۆستەکان بە پارێزراوی.
 cover: email.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
@@ -11,11 +15,15 @@ cover: email.webp
 
 [نامەبەرە دەستبەجێیە پێشنیارکراوەکان](real-time-communication.md ""){.md-button}
 
-بۆ هەموو شتێکی تر، ئێمە دابینکەری پۆستەی ئەلکتڕۆنی جۆراوجۆر پێشنیاردەکەین لەسەر بنەمای شێوازی بازرگانی پشتپێبەستراو و تایبەتمەندیەکانی پاراستن و تایبەتێێی.
+## دابینکەرانی پێشنیارکراو
 
-- [دابینکەرانی پۆستەی ئەلکتڕۆنی گونجاو لەگەڵOpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [دابینکەرانی تری شفرکراو:material-arrow-right-drop-circle:](#more-providers)
-- [هەڵبژاردنەکانی سەرپەرشتی-خودی :material-arrow-right-drop-circle:](#self-hosting-email)
+بۆ هەموو شتێکی تر، ئێمە دابینکەری پۆستەی ئەلکتڕۆنی جۆراوجۆر پێشنیاردەکەین لەسەر بنەمای شێوازی بازرگانی پشتپێبەستراو و تایبەتمەندیەکانی پاراستن و تایبەتێێی. Read our [full list of criteria](#criteria) for more information.
+
+| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonymous Payments            |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                          |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                          |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
@@ -47,7 +55,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![لۆگۆی Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** خزمەتگوزاریەکی پۆستەی ئەلکتڕۆنیە، کە سەرنجی هەبوونی تایبەتێتی، شفرکردن، پارێزراوی، وە ئاسان لە بەکارهێنان دروست کراوە. ئەوان لە **2013**ـەوە لە کاردان. Proton AG is based in Genève, Switzerland. Accounts start with up to 1GB storage with the free plan.
+**Proton Mail** خزمەتگوزاریەکی پۆستەی ئەلکتڕۆنیە، کە سەرنجی هەبوونی تایبەتێتی، شفرکردن، پارێزراوی، وە ئاسان لە بەکارهێنان دروست کراوە. ئەوان لە **2013**ـەوە لە کاردان. Proton AG is based in Genève, Switzerland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -72,9 +80,9 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 هەژمارە بەخۆڕایەکان هەندێک سنووریان هەیە، وەک نەتوانینی گەڕان لەناو دەقی نامە و مافی نەبوونی بەکارهێنانی [Proton Mail Bridge](https://proton.me/mail/bridge)، کە پێویستە بۆ بەکارهێنانی[ ڕاژەخوازە پێشنیارکراوەکانی سەر کۆمپیوتەر](email-clients.md) (نـم. Thunderbird). هەژمارە پارەدراوەکان هەندێک تایبەتمەندی لەخۆدەگرن وەک Proton Mail Bridge، کۆگای زیادە، و پشتگیری دۆمەینە تایبەتەکان. [نامەیەکی تاقیکردنەوە](https://proton.me/blog/security-audit-all-proton-apps) بە مەبەستی لایەنگری بۆ کاربەرنامەکانی Proton Mail پێشکەشکرا لە 9ـی تشرینی دووەمی(نۆڤێمبەری) ساڵی 2021 لەلایەن [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail has internal crash reports that are **not** shared with third parties. ئەمە دەتوانێ لە ناچالاک بکرێت لە: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
 #### :material-check:{ .pg-green } دۆمەینە تایبەتیەکان و نازناوەکان
 
@@ -102,11 +110,11 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 
 #### :material-information-outline:{ .pg-blue } لەناوبردنی هەژمار
 
-ئەگەر هەژمارێکی پارەدراوت هەبێت وە [پارەی پسوولەکەت نەدابێت](https://proton.me/support/delinquency) دوای 14 ڕۆژ، ئەوا ناتوانیت دەستت بگات بە زانیاریەکانت. دوای 30 ڕۆژ، هەژمارەکەت دەبێتە نایاسایی و هیچ نامایەکی ترت بۆ نایەت. لەم ماوەیەدا بەردەوام دەبیت لە وەرگرتنی پسوولە. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address on a deactivated account.
+ئەگەر هەژمارێکی پارەدراوت هەبێت وە [پارەی پسوولەکەت نەدابێت](https://proton.me/support/delinquency) دوای 14 ڕۆژ، ئەوا ناتوانیت دەستت بگات بە زانیاریەکانت. دوای 30 ڕۆژ، هەژمارەکەت دەبێتە نایاسایی و هیچ نامایەکی ترت بۆ نایەت. لەم ماوەیەدا بەردەوام دەبیت لە وەرگرتنی پسوولە. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
 
 #### :material-information-outline:{ .pg-blue } کرداری زیادە
 
-Proton Mail هەژمارێکی "Unlimited" پێشکەش دەکات لەبەرامبەر €9.99 بۆ یەک مانگ، کە توانای بەکارهێنانی Proton VPN چالاک دەکات جگە لە پێشکەشکردنی زیاتر لە هەژمارێک، دۆمەینێک، نازناوێک، وە 500G بۆ کۆکردنەوە.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500GB of storage.
 
 Poton Mail کرداری میراتی دیجیتاڵی پێشکەش ناکات.
 
@@ -183,7 +191,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with up to 1GB storage with the free plan.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }

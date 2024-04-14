@@ -4,6 +4,10 @@ title: "سرویس‌های ایمیل"
 icon: material/email
 description: این ارائه دهندگان ایمیل فضایی عالی برای ذخیره ایمن ایمیل‌های شما ارائه می دهند، و بسیاری از آنها رمزگذاری OpenPGP با سایر ارائه دهندگان ایمیل را ارائه می دهند.
 cover: email.webp
+global:
+  - 
+    - randomize-element
+    - "table tbody"
 ---
 
 <!-- markdownlint-disable MD024 -->
@@ -11,11 +15,15 @@ cover: email.webp
 
 [پیام‌رسان‌های توصیه شده](real-time-communication.md ""){.md-button}
 
-برای هر چیز دیگری، ما انواع ارائه دهندگان ایمیل را بر اساس مدل‌های تجاری پایدار و ویژگی‌های امنیتی و حریم خصوصی توصیه می‌کنیم.
+## Recommended Providers
 
-- [ارائه دهندگان ایمیل سازگار با OpenPGP :material-arrow-right-drop-circle:](#openpgp-compatible-services)
-- [سایر ارائه دهندگان ایمیل رمزگذاری شده :material-arrow-right-drop-circle:](#more-providers)
-- [گزینه های خود میزبانی (Self-Hosted) :material-arrow-right-drop-circle:](#self-hosting-email)
+برای هر چیز دیگری، ما انواع ارائه دهندگان ایمیل را بر اساس مدل‌های تجاری پایدار و ویژگی‌های امنیتی و حریم خصوصی توصیه می‌کنیم. Read our [full list of criteria](#criteria) for more information.
+
+| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonymous Payments            |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                          |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                          |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
@@ -47,7 +55,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** یک سرویس ایمیل با تمرکز بر حریم خصوصی، رمزگذاری، امنیت و سهولت استفاده است. آن‌ها از **2013** شروع به کار کرده‌اند. شرکت Proton AG در ژنو سوئیس قرار دارد. Accounts start with up to 1GB storage with the free plan.
+**Proton Mail** یک سرویس ایمیل با تمرکز بر حریم خصوصی، رمزگذاری، امنیت و سهولت استفاده است. آن‌ها از **2013** شروع به کار کرده‌اند. شرکت Proton AG در ژنو سوئیس قرار دارد. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -72,9 +80,9 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 حساب‌های رایگان دارای محدودیت‌هایی هستند، مانند عدم امکان جستجوی متن اصلی و عدم دسترسی به [Proton Mail Bridge](https://proton.me/mail/bridge)، که برای استفاده از [نرم افزار ایمیل دسک‌تاپ (ویندوزی) توصیه‌شده](email-clients.md) لازم است (به عنوان مثال. Thunderbird). حساب‌های پولی شامل ویژگی‌هایی مانند Proton Mail Bridge، فضای ذخیره‌سازی اضافی و پشتیبانی از دامنه سفارشی است. A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, Family, or Visionary Plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in: **Settings** > **Go to Settings** > **Account** > **Security and privacy** > **Send crash reports**.
+Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
 #### :material-check:{ .pg-green } Custom Domains and Aliases
 
@@ -102,11 +110,11 @@ Proton Mail also publishes the public keys of Proton accounts via HTTP from thei
 
 #### :material-information-outline:{ .pg-blue } بستن حساب
 
-اگر یک حساب پولی دارید و [صورتحساب شما پس از 14 روز پرداخت نشده است](https://proton.me/support/delinquency)، نمی‌توانید به داده‌های خود دسترسی داشته باشید. پس از 30 روز، حساب شما معلق می‌شود و نامه های دریافتی را دریافت نمی‌کند. در این مدت صورتحساب شما ادامه خواهد داشت. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address on a deactivated account.
+اگر یک حساب پولی دارید و [صورتحساب شما پس از 14 روز پرداخت نشده است](https://proton.me/support/delinquency)، نمی‌توانید به داده‌های خود دسترسی داشته باشید. پس از 30 روز، حساب شما معلق می‌شود و نامه های دریافتی را دریافت نمی‌کند. در این مدت صورتحساب شما ادامه خواهد داشت. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
 
 #### :material-information-outline:{ .pg-blue } عملکردهای دیگر
 
-Proton Mail یک حساب "نامحدود" یا Unlimited به مبلغ 9.99 یورو در ماه ارائه می‌دهد که علاوه بر ارائه چندین حساب، دامنه، نام مستعار و 500 گیگابایت فضای ذخیره سازی، دسترسی به Proton VPN را نیز امکان پذیر می‌کند.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500GB of storage.
 
 Proton Mail امکان به ارث بردن اطلاعات برای وراث را ندارد.
 
@@ -183,7 +191,7 @@ Mailbox.org امکان به ارث بردن اطلاعات برای همه طر�
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Accounts start with up to 1GB storage with the free plan.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -310,7 +318,7 @@ We prefer our recommended providers to collect as little data as possible.
 - Don't require personally identifiable information (PII) besides a username and a password.
 - Privacy policy that meets the requirements defined by the GDPR.
 
-**بهترین شرایط:**
+**Best Case:**
 
 - Accepts [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 - Hosted in a jurisdiction with strong email privacy protection laws.
