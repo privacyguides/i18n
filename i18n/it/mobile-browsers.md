@@ -28,7 +28,7 @@ schema:
     "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
-    url: https://apple.com/safari
+    url: https://www.apple.com/it/safari/
     applicationCategory: Web Browser
     operatingSystem:
       - iOS
@@ -99,7 +99,7 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
+1. Questa opzione fornisce una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzate di uBlock Origin o all'estensione [NoScript](https://noscript.net).
 
 ##### Cancella dati di navigazione
 
@@ -113,13 +113,13 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Seleziona **Disabilita l'UDP senza proxy** in [Gestione politica IP WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Deseleziona **Consenti ai siti di controllare se hai metodi di pagamento salvati**
+- [ ] Deseleziona **Gateway IPFS** (1)
+- [x] Seleziona **Chiudi le schede quando esci**
+- [ ] Deseleziona **Acconsenti all'analisi dei prodotto di tutela della privacy (P3A)**
+- [ ] Deseleziona **Invia automaticamente i rapporti di diagnostica**
+- [ ] Deseleziona **Invia automaticamente un ping di utilizzo giornaliero a Brave**
 
 </div>
 
@@ -134,39 +134,39 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 <div class="admonition danger" markdown>
 <p class="admonition-title">Attenzione</p>
 
-Firefox (Gecko)-based browsers on Android [lack per-site process isolation](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196), a powerful security feature that offers additional protection against a malicious website exploiting a security vulnerability. Missing this feature likely won't pose an issue for low-risk web browsers who keep their browser up-to-date, but those visiting higher-risk sites or at risk of targeted/0-day attacks should strongly consider a Chromium-based browser like [Brave](#brave) instead.
+I browser basati su Firefox (Gecko) su Android [mancano l'isolamento dei processi per sito](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196), una potente funzione di sicurezza che offre una protezione aggiuntiva contro un sito web dannoso che sfrutta una vulnerabilità di sicurezza. La mancanza di questa funzione probabilmente non rappresenterà un problema per i browser web a basso rischio che mantengono il proprio browser aggiornato, ma coloro che visitano siti ad alto rischio o che sono a rischio di attacchi mirati/0-day dovrebbero prendere in considerazione un browser basato su Chromium come [Brave](#brave).
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![Mull logo](assets/img/browsers/mull.svg){ align=right }
+![Logo Mull](assets/img/browsers/mull.svg){ align=right }
 
-**Mull** is a privacy oriented and deblobbed Android browser based on Firefox. Compared to Firefox, it offers much greater fingerprinting protection out of the box, and disables JavaScript Just-in-Time (JIT) compilation for enhanced security. It also removes all proprietary elements from Firefox, such as replacing Google Play Services references.
+**Mull** è un browser Android orientato alla privacy e deblobbed, basato su Firefox. Rispetto a Firefox, offre una maggiore protezione dalle impronte digitali e disabilita la compilazione di JavaScript Just-in-Time (JIT) per una maggiore sicurezza. Inoltre, rimuove tutti gli elementi proprietari da Firefox, come la sostituzione dei riferimenti a Google Play Services.
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentation }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Informatica sulla privacy" }
+[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentazione }
+[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos)
+- [:simple-fdroid: F-Droid](https://f-droid.org/it/packages/us.spotco.fennec_dos/)
 
 </details>
 
 </div>
 
-Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+Attiva [F-Droid Repo](https://divestos.org/fdroid/official) di DivestOS per ricevere gli aggiornamenti direttamente dallo sviluppatore. Scaricando Mull dalla repo predefinita di F-Droid, gli aggiornamenti potrebbero ritardare di qualche giorno o più.
 
-Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
+Mull abilita molte delle funzionalità sviluppate dal [progetto Tor uplift](https://wiki.mozilla.org/Security/Tor_Uplift) utilizzando le preferenze di [Arkenfox](desktop-browsers.md#arkenfox-advanced). I blob proprietari vengono rimossi dal codice di Mozilla utilizzando gli script sviluppati per Fennec F-Droid.
 
-#### Recommended Mull Configuration
+#### Configurazione consigliata di Mull
 
-We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
+Suggeriamo di installare [uBlock Origin](browser-extensions.md#ublock-origin) come blocco dei contenuti se si desidera bloccare i tracker all'interno di Mull.
 
-Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
+Mull è dotato di impostazioni di protezione della privacy configurate di default. Si può prendere in considerazione la possibilità di configurare l'opzione **Elimina dati di navigazione all'uscita ** nelle impostazioni di Mull, se si desidera chiudere automaticamente tutte le schede aperte all'uscita dell'applicazione, oppure cancellare automaticamente altri dati come la cronologia di navigazione e i cookie.
 
 ## iOS
 
@@ -178,21 +178,21 @@ Su iOS, qualsiasi app che possa navigare sul web è [limitata](https://developer
 
 ![Logo di Safari](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** è il browser predefinito di iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. Consente inoltre di separare la navigazione con profili diversi.
+**Safari** è il browser predefinito di iOS. Include [funzioni per la privacy](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) come [Prevenzione Intelligente del Tracciamento](https://webkit.org/blog/7675/intelligent-tracking-prevention), Report sulla Privacy, schede di navigazione privata isolate ed effimere, Relay privato iCloud, protezione delle impronte digitali attraverso la randomizzazione e la presentazione di una versione semplificata della configurazione del sistema ai siti web, in modo che più dispositivi appaiano identici, e la possibilità di bloccare le schede private con i propri dati biometrici/PIN. Consente inoltre di separare la navigazione con profili diversi.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://apple.com/it/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/it/safari/){ .card-link title="Informativa sulla privacy" }
+[:octicons-info-16:](https://support.apple.com/it-it/guide/safari/welcome/mac){ .card-link title=Documentazione}
 
 </details>
 
 </div>
 
-#### Recommended Safari Configuration
+#### Configurazione consigliata di Safari
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
+Suggeriamo di installare [AdGuard](browser-extensions.md#adguard) come blocco dei contenuti se si desidera bloccare i tracker in Safari.
 
-The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
+Le seguenti opzioni, relative alla privacy/sicurezza, sono disponibili nell'app :gear: **Impostazioni** → **Safari**
 
 ##### Profili
 
@@ -224,7 +224,7 @@ Il Rapporto sulla Privacy è accessibile tramite il menu Impostazioni della Pagi
 
 - [ ] Disabilita la **Misurazione della pubblicità che tutela la privacy**
 
-Tradizionalmente, la misurazione dei click sugli annunci ha utilizzato la tecnologia di tracciamento, che viola la privacy degli utenti. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+Tradizionalmente, la misurazione dei click sugli annunci ha utilizzato la tecnologia di tracciamento, che viola la privacy degli utenti. La [misurazione privata dei clic](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) è una funzione di WebKit e uno standard web proposto per consentire agli inserzionisti di misurare l'efficacia delle campagne web senza compromettere la privacy degli utenti.
 
 Questa, presenta poche preoccupazioni sulla privacy, quindi, sebbene tu possa scegliere di lasciarla attiva, consideriamo il fatto che sia automaticamente disabilitata per la Navigazione Privata, come un segnale per disabilitarla.
 
@@ -240,9 +240,9 @@ Nota che la Navigazione Privata non salva i cookie e dati dei siti web, quindi, 
 
 ##### Sincronizzazione iCloud
 
-La sincronizzazione della Cronologia di Safari, dei Gruppi di Schede, delle Schede di iCloud e delle password salvate, avviene E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
+La sincronizzazione della Cronologia di Safari, dei Gruppi di Schede, delle Schede di iCloud e delle password salvate, avviene E2EE. Tuttavia, per impostazione predefinita, i segnalibri [non lo sono](https://support.apple.com/HT202303). Apple può decifrarli e accedervi in base alla propria [informativa sulla privacy](https://apple.com/legal/privacy/en-ww).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Vai al tuo **nome ID Apple → iCloud → Protezione Avanzata dei Dati**.
+È possibile attivare E2EE per i segnalibri e i download di Safari attivando la [Protezione Avanzata dei Dati](https://support.apple.com/HT212520). Vai al tuo **nome ID Apple → iCloud → Protezione Avanzata dei Dati**.
 
 - [x] Attiva la **Protezione Avanzata dei Dati**
 
@@ -255,6 +255,6 @@ Se utilizzi iCloud con la Protezione Avanzata dei Dati disabilitata, consigliamo
 ### Requisiti minimi
 
 - Deve supportare gli aggiornamenti automatici.
-- Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
+- Deve ricevere rapidamente gli aggiornamenti dalle release upstream.
+- Deve supportare il blocco dei contenuti.
 - Qualsiasi modifica necessaria per rendere il browser più rispettoso della privacy non dovrebbe avere un impatto negativo sull'esperienza dell'utente.

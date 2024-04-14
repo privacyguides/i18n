@@ -117,7 +117,7 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 
 </div>
 
-추가로 [많은 분들이](https://github.com/privacyguides/privacyguides.org/graphs/contributors) 프로젝트에 기여해 주셨습니다. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Privacy Guides 팀원은 모든 변경 사항을 검토하고 웹 호스팅 및 재무 관리 등의 업무를 처리합니다. 팀원들은 본 사이트에 기여하는 과정에서 사적 이익을 얻지 않습니다. Privacy Guides로의 기부는 일반적으로 미국에서 세금 공제 대상입니다.
 

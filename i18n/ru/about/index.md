@@ -117,7 +117,7 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 
 </div>
 
-Кроме них, [множество других людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) внесли свой вклад в проект. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Члены нашей команды проверяют все изменения, вносимые на сайт, и выполняют административные обязанности, такие как веб-хостинг и управление финансами, однако они не получают личной прибыли от этого сайта. Денежные пожертвования для Privacy Guides подлежат налоговым вычетам в США.
 

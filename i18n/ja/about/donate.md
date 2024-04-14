@@ -3,7 +3,7 @@ title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
-Privacy Guidesを最新の状態に保ち、プライバシーと大量監視についての情報を広めるには、多くの[人々](https://github.com/privacyguides/privacyguides.org/graphs/contributors)と[労力](https://github.com/privacyguides/privacyguides.org/pulse/monthly)が必要です。 私たちの活動が気に入ったら、[サイトの編集](https://github.com/privacyguides/privacyguides.org)や[翻訳](https://crowdin.com/project/privacyguides)への参加をご検討ください。
+It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. 私たちの活動が気に入ったら、[サイトの編集](https://github.com/privacyguides/privacyguides.org)や[翻訳](https://crowdin.com/project/privacyguides)への参加をご検討ください。
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Donation Information</p>

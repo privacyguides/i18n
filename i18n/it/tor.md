@@ -10,7 +10,7 @@ schema:
     "@type": SoftwareApplication
     name: Tor Browser
     image: /assets/img/browsers/tor.svg
-    url: https://torproject.org
+    url: https://www.torproject.org/it/
     sameAs: https://it.wikipedia.org/wiki/Tor_(software)
     applicationCategory: Web Browser
     operatingSystem:
@@ -23,7 +23,7 @@ schema:
       url: "./"
 ---
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individui e organizzazioni possono inoltre condividere le informazioni tramite la rete Tor con i "servizi nascosti .onion", senza comprometterne la privacy. Poiché il traffico di Tor è difficile da bloccare e tracciare, è un efficace strumento di elusione della censura.
+**Tor** è un gruppo di server gestiti da volontari che consente di connettersi gratuitamente e di migliorare la propria privacy e sicurezza su Internet. Individui e organizzazioni possono inoltre condividere le informazioni tramite la rete Tor con i "servizi nascosti .onion", senza comprometterne la privacy. Poiché il traffico di Tor è difficile da bloccare e tracciare, è un efficace strumento di elusione della censura.
 
 [Panoramica dettagliata di Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
@@ -48,20 +48,20 @@ Se l'anonimato più completo è fondamentale per la tua situazione, dovresti uti
 
 Il **Tor Browser** è la scelta ideale per l'anonimato, fornendoti accesso alla rete e ai ponti di Tor e include impostazioni ed estensioni predefinite, configurate automaticamente dai livelli di sicurezza predefiniti: *Standard*, *Safer* e *Safest*.
 
-[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://torproject.org/it){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentazione }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-- [:simple-android: Android](https://torproject.org/download/#android)
-- [:simple-windows11: Windows](https://torproject.org/download)
-- [:simple-apple: macOS](https://torproject.org/download)
-- [:simple-linux: Linux](https://torproject.org/download)
+- [:simple-android: Android](https://torproject.org/it/download/#android)
+- [:simple-windows11: Windows](https://torproject.org/it/download)
+- [:simple-apple: macOS](https://torproject.org/it/download)
+- [:simple-linux: Linux](https://torproject.org/it/download)
 
 </details>
 
@@ -74,7 +74,7 @@ Non dovresti **mai** installare alcun'estensione aggiuntiva su Tor Browser o mod
 
 </div>
 
-Tor Browser è progettato per impedire il fingerprinting, o la tua identificazione secondo la configurazione del tuo browser. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings).
+Tor Browser è progettato per impedire il fingerprinting, o la tua identificazione secondo la configurazione del tuo browser. Pertanto, è imperativo **non** modificare il browser oltre i livelli di [sicurezza](https://tb-manual.torproject.org/security-settings) predefiniti.
 
 Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre dei sistemi operativi specificamente progettati per connettersi alla rete di Tor, come [Whonix](desktop.md#whonix) su [Qubes OS](desktop.md#qubes-os), che forniscono sicurezza e protezioni persino maggiori, rispetto al solo Tor Browser standard.
 
@@ -87,13 +87,13 @@ Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre d
 **Orbot** è una VPN di Tor gratuita per smartphone, che instrada il traffico da qualsiasi app sul tuo dispositivo, tramite la rete di Tor.
 
 [:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Informativa sulla privacy" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentazione}
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
@@ -103,7 +103,7 @@ Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre d
 
 </div>
 
-Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo di Destinazione* nelle impostazioni di Orbot. Sebbene quest'impostazione possa teoricamente migliorare la privacy, imponendo l'utilizzo di un circuito differente per ogni indirizzo IP cui ti connetti, non fornisce un vantaggio pratico per gran parte delle applicazioni (specialmente per la navigazione web), può comportare una significativa riduzione delle prestazioni e incrementa il carico sulla rete di Tor. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+Abbiamo precedentemente consiglito di abilitare la preferenza *Isola Indirizzo di Destinazione* nelle impostazioni di Orbot. Sebbene quest'impostazione possa teoricamente migliorare la privacy, imponendo l'utilizzo di un circuito differente per ogni indirizzo IP cui ti connetti, non fornisce un vantaggio pratico per gran parte delle applicazioni (specialmente per la navigazione web), può comportare una significativa riduzione delle prestazioni e incrementa il carico sulla rete di Tor. Non consigliamo più la regolazione di quest'impostazione dal suo valore predefinito, a meno che tu sappia che è necessario.[^1]
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Suggerimenti per Android</p>
@@ -120,9 +120,9 @@ Tutte le versioni sono firmate utilizzando la medesima firma, quindi, dovrebbero
 
 <div class="admonition recommendation" markdown>
 
-![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Logo di Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
+**Onion Browser** è un browser open-source che consente di navigare sul web in modo anonimo attraverso la rete Tor su dispositivi iOS ed è approvato dal [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Informativa sulla Privacy" }
@@ -139,4 +139,4 @@ Tutte le versioni sono firmate utilizzando la medesima firma, quindi, dovrebbero
 
 </div>
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: L'impostazione `IsolateDestAddr` è discussa nella [mailing list Tor](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) e nella [documentazione Stream Isolation di Whonix](https://whonix.org/wiki/Stream_Isolation), dove entrambi i progetti suggeriscono che di solito non è un buon approccio per la maggior parte delle persone.

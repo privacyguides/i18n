@@ -3,7 +3,7 @@ title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
-需要大量的 [人](https://github.com/privacyguides/privacyguides.org/graphs/contributors) 和 [工作](https://github.com/privacyguides/privacyguides.org/pulse/monthly) ，以保持《隐私指南》的更新和传播有关隐私和大规模监控的信息。 如果你喜欢我们的工作，帮助我们的最好方式是通过参与 [编辑网站](https://github.com/privacyguides/privacyguides.org) 或 [贡献翻译](https://crowdin.com/project/privacyguides)。
+It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. 如果你喜欢我们的工作，帮助我们的最好方式是通过参与 [编辑网站](https://github.com/privacyguides/privacyguides.org) 或 [贡献翻译](https://crowdin.com/project/privacyguides)。
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Donation Information</p>

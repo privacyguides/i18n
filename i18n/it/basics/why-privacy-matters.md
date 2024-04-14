@@ -27,7 +27,7 @@ La sicurezza è la capacità di fidarsi delle applicazioni che utilizzi, che le 
 I certificati dimostrano che stai parlando direttamente con il sito web che stai visitando e impediscono ai malintenzionati sulla tua rete di leggere o modificare i dati inviati al o dal sito web.
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**Anonimato**
 :
 
 L'anonimato è la capacità di agire senza un identificativo persistente. Potresti ottenerlo online con [Tor](../tor.md), che ti consente di navigare in Internet con un indirizzo IP e una connessione di rete casuali, invece che con i tuoi.

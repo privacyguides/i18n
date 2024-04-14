@@ -3,7 +3,7 @@ title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
-Підтримка актуальності Privacy Guides та поширення інформації про конфіденційність і глобальне спостереження, потребує багато [людей](https://github.com/privacyguides/privacyguides.org/graphs/contributors) та [праці](https://github.com/privacyguides/privacyguides.org/pulse/monthly). Якщо вам подобається те, що ми робимо, спробуйте долучитися: [редагуйте сайт](https://github.com/privacyguides/privacyguides.org) або [робіть переклади](https://crowdin.com/project/privacyguides).
+It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. Якщо вам подобається те, що ми робимо, спробуйте долучитися: [редагуйте сайт](https://github.com/privacyguides/privacyguides.org) або [робіть переклади](https://crowdin.com/project/privacyguides).
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Donation Information</p>
