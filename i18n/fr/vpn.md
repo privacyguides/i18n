@@ -12,14 +12,14 @@ global:
 
 <!-- markdownlint-disable MD024 -->
 
-If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
+Si vous recherchez à protéger votre **vie privée** vis-à-vis de votre FAI, sur un réseau Wi-Fi public ou lorsque vous téléchargez des fichiers en torrent, un VPN peut être la solution pour vous.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
+<p class="admonition-title">Les VPN ne peuvent pas fournir d'anonymat</p>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
 
-If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
+Si vous recherchez l'**anonymat**, vous devriez utiliser le Navigateur Tor. Si vous recherchez une **sécurité** supplémentaire, vous devez toujours assurer que vous vous connectez aux sites web en utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
 
 [Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
@@ -29,7 +29,7 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 ## Fournisseurs recommandés
 
-Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Lisez notre \[liste complète de critères\](#criteres) pour plus d'informations.
+Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent Monero, prennent en charge WireGuard & OpenVPN, et ont une politique de non-journalisation. Lisez notre \[liste complète de critères\](#criteres) pour plus d'informations.
 
 | Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
 | --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
@@ -65,10 +65,10 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 #### :material-check:{ .pg-green } 91 Countries
 
-Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
+Proton VPN a [des serveurs dans 91 pays](https://protonvpn.com/vpn-servers) ou [5](https://protonvpn.com/support/how-to-create-free-vpn-account) si vous utilisez leur [offre gratuite](https://protonvpn.com/free-vpn/server).(1) Choisir un fournisseur VPN avec un serveur le plus proche de vous réduira la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Dernière vérification : 2024-04-02
 
 Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur VPN d'utiliser des [serveurs dédiés](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9), plutôt que des solutions partagées (avec d'autres clients) moins chères telles que les [serveurs privés virtuels](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9_virtuel).
 
@@ -148,7 +148,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Dernière vérification : 2024-04-02
 
 Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur VPN d'utiliser des [serveurs dédiés](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9), plutôt que des solutions partagées (avec d'autres clients) moins chères telles que les [serveurs privés virtuels](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9_virtuel).
 
@@ -223,7 +223,7 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Dernière vérification : 2024-04-02
 
 Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur VPN d'utiliser des [serveurs dédiés](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9), plutôt que des solutions partagées (avec d'autres clients) moins chères telles que les [serveurs privés virtuels](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9_virtuel).
 
