@@ -1,5 +1,5 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
+meta_title: "Modellierung von Bedrohungen: Der erste Schritt auf Ihrem Weg zum Datenschutz - Privacy Guides"
 title: "Threat Modeling"
 icon: 'material/target-account'
 description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.

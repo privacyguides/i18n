@@ -210,9 +210,9 @@ IVPN-Clients unterstützen die Zwei-Faktor-Authentisierung. IVPN bietet auch die
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
 - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-- [:simple-windows11: Windows](https://mullvad.net/en/download/windows)
-- [:simple-apple: macOS](https://mullvad.net/en/download/macos)
-- [:simple-linux: Linux](https://mullvad.net/en/download/linux)
+- [:simple-windows11: Windows](https://mullvad.net/de/download/windows)
+- [:simple-apple: macOS](https://mullvad.net/de/download/macos)
+- [:simple-linux: Linux](https://mullvad.net/de/download/linux)
 
 </details>
 
