@@ -2,7 +2,7 @@
 title: Admonitions
 ---
 
-**Admonitions** (or "call-outs") are a choice writers can use to include side content in an article without interrupting the document flow.
+**Admonitionen** (oder "Call-outs") sind eine Möglichkeit für Autoren, Nebeninhalte in einen Artikel einzufügen, ohne den Dokumentfluss zu unterbrechen.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example Admonition</p>
@@ -18,7 +18,7 @@ This is an example of a collapsible admonition. Lorem ipsum dolor sit amet, cons
 
 </details>
 
-## Formatting
+## Formatierung
 
 To add an admonition to a page, you can use the following code:
 
@@ -242,7 +242,7 @@ This is a special type of collapsible admonition, used to generate the download 
 
 </div>
 
-## Old Format
+## Altes Format
 
 Throughout the site, you may see some admonitions formatted similarly to these examples:
 
