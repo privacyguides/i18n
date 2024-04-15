@@ -2,7 +2,7 @@
 title: Branding Guidelines
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+Nazwa strony to **Privacy Guides** i **nie** powinna być zmieniana na:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -11,12 +11,12 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+Nazwa subreddita to **r/PrivacyGuides** lub **Privacy Guides Subreddit**.
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+Dodatkowe wytyczne dotyczące marki można znaleźć na stronie [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Trademark
+## Znak firmowy
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"Privacy Guides" i logo tarczy są znakami firmowymi należącymi do Jonah Aragon, a ich nieograniczone wykorzystanie jest przyznawane projektowi Privacy Guides.
 
 Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at `jonah@privacyguides.org`. Consult your legal counsel if you have questions.
