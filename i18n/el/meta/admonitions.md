@@ -188,12 +188,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ![PhotoPrism logo](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+Το **PhotoPrism** είναι μια self-hostable πλατφόρμα για τη διαχείριση φωτογραφιών. Υποστηρίζει συγχρονισμό και κοινή χρήση άλμπουμ, καθώς και μια ποικιλία άλλων [χαρακτηριστικών](https://photoprism.app/features). Δεν περιλαμβάνει E2EE, οπότε είναι καλύτερο να φιλοξενηθεί σε έναν διακομιστή που εμπιστεύεστε και είναι υπό τον έλεγχό σας.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Αρχική σελίδα](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Πολιτική Απορρήτου" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Τεκμηρίωση}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Πηγαίος Κώδικας" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -208,7 +208,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 #### `downloads`
 
-This is a special type of collapsible admonition, used to generate the download links section. It is only used within recommendation cards, as shown in the example above.
+Πρόκειται για έναν ειδικό τύπο πτυσσόμενης προειδοποίησης, που χρησιμοποιείται για τη δημιουργία της ενότητας συνδέσμων λήψης. Χρησιμοποιείται μόνο σε κάρτες συστάσεων, όπως φαίνεται στο παραπάνω παράδειγμα.
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
@@ -242,9 +242,9 @@ This is a special type of collapsible admonition, used to generate the download 
 
 </div>
 
-## Old Format
+## Παλιά Μορφοποιήση
 
-Throughout the site, you may see some admonitions formatted similarly to these examples:
+Σε ολόκληρο τον ιστότοπο, μπορεί να δείτε κάποιες παραινέσεις διαμορφωμένες παρόμοια με αυτά τα παραδείγματα:
 
 ```markdown title="Admonition"
 !!! note
