@@ -92,29 +92,29 @@ Proton VPN [empfiehlt](https://protonvpn.com/blog/wireguard) die Verwendung von 
 
 #### :material-alert-outline:{ .pg-orange } Keine IPv6-Unterstützung
 
-Proton VPN's servers are only compatible with IPv4. The Proton VPN applications will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, and you will not be able to connect to Proton VPN from an IPv6-only network.
+Die Server von Proton VPN sind nur mit IPv4 kompatibel. Die Proton VPN-Anwendungen blockieren den gesamten ausgehenden IPv6-Verkehr, so dass du dir keine Sorgen machen musst, dass deine IPv6-Adresse ausspioniert wird; aber du kannst dich nicht mit reinen IPv6-Websites verbinden, und du kannst dich nicht von einem reinen IPv6-Netzwerk aus mit Proton VPN verbinden.
 
-#### :material-information-outline:{ .pg-info } Remote Port Forwarding
+#### :material-information-outline:{ .pg-info } Remote Portweiterleitung
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent-Anwendungen unterstützen oft NAT-PMP von Haus aus.
+Proton VPN unterstützt derzeit nur vorrübergehende [Remote-Port-Weiterleitung](https://protonvpn.com/support/port-forwarding) über NAT-PMP, mit 60 Sekunden Bestandszeit. Die Windows-App bietet eine leicht zugängliche Option dafür, während du auf anderen Betriebssystemen deinen eigenen [NAT-PMP-Client](https://protonvpn.com/support/port-forwarding-manual-setup) ausführen musst. Torrent-Anwendungen unterstützen oft NAT-PMP von Haus aus.
 
-#### :material-information-outline:{ .pg-blue } Anti-Censorship
+#### :material-information-outline:{ .pg-blue } Anti-Zensur
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+Proton VPN hat sein [Stealth-Protokoll](https://protonvpn.com/blog/stealth-vpn-protocol), das in Situationen helfen *kann*, in denen VPN-Protokolle wie OpenVPN oder Wireguard mit verschiedenen, rudimentären Techniken blockiert werden. Stealth kapselt den VPN-Tunnel in eine TLS-Sitzung ein, damit er mehr wie normaler Internetverkehr aussieht.
 
-Unfortunately it does not work very well in countries where sophisticated filters are deployed that analyze all outgoing traffic in an attempt to discover encrypted tunnels. Stealth is also not yet available on [Windows](https://github.com/ProtonVPN/win-app/issues/64) or Linux.
+Leider funktioniert das in Ländern, in denen hochentwickelte Filter eingesetzt werden, die den gesamten ausgehenden Datenverkehr analysieren und versuchen, verschlüsselte Tunnel zu entdecken, nicht sehr gut. Stealth ist bisher her noch nicht für [Windows](https://github.com/ProtonVPN/win-app/issues/64) oder Linux verfügbar.
 
 #### :material-check:{ .pg-green } Mobile Anwendungen
 
-In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/app/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
+Neben der Bereitstellung von Standard-OpenVPN-Konfigurationsdateien bietet Proton VPN Mobile Clients im [App Store](https://apps.apple.com/app/id1437005085), bei [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) und auf [GitHub](https://github.com/ProtonVPN/android-app/releases) an, die eine einfache Verbindung zu den Servern ermöglichen.
 
-#### :material-alert-outline:{ .pg-orange } Additional Notes
+#### :material-alert-outline:{ .pg-orange } Zusätzliche Hinweise
 
-Proton VPN Clients unterstützen Zwei-Faktor-Authentifizierung auf allen Plattformen außer Linux. Proton VPN hat eigene Server und Rechenzentren in der Schweiz, Island und Schweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Proton VPN Clients unterstützen die Zwei-Faktor-Authentisierung auf allen Plattformen außer Linux. Proton VPN hat eigene Server und Rechenzentren in der Schweiz, Island und Schweden. Sie bieten mit ihrem DNS-Dienst die Blockierung von Inhalten und bekannter Malware an. Darüber hinaus bietet Proton VPN auch "Tor"-Server an, die es dir ermöglichen, sich problemlos mit Onion-Seiten zu verbinden. Wir empfehlen jedoch dringend, zu diesem Zweck [den offiziellen Tor-Browser](tor.md#tor-browser) zu verwenden.
 
-##### :material-alert-outline:{ .pg-orange } Killswitch-Funktion ist auf Intel-basierten Macs defekt
+##### :material-alert-outline:{ .pg-orange } Die Killswitch-Funktion ist auf Intel-basierten Macs defekt
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN killswitch. Wenn du diese Funktion benötigst und einen Mac mit Intel-Chipsatz verwendest, solltest du einen anderen VPN-Dienst nutzen.
+Systemabstürze [können](https://protonvpn.com/support/macos-t2-chip-kill-switch) auf Intel-basierten Macs auftreten, wenn der VPN-Killswitch verwendet wird. Wenn du diese Funktion benötigst und einen Mac mit Intel-Chipsatz verwendest, solltest du einen anderen VPN-Dienst nutzen.
 
 ### IVPN
 
@@ -122,12 +122,12 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** ist ein weiterer Premium-VPN-Anbieter und ist seit 2009 aktiv. IVPN is based in Gibraltar and does not offer a free trial.
+**IVPN** ist ein weiterer Premium-VPN-Anbieter und ist seit 2009 aktiv. IVPN hat seinen Sitz in Gibraltar und bietet keine kostenlose Testversion an.
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-home-16: Homepage](https://www.ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.ivpn.net/privacy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://www.ivpn.net/knowledgebase/general){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -143,9 +143,9 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 </div>
 
-#### :material-check:{ .pg-green } 37 Countries
+#### :material-check:{ .pg-green } 37 Länder
 
-IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
+IVPN hat [Server in 37 Ländern](https://ivpn.net/status).(1) Die Wahl eines VPN-Anbieters mit einem Server in deiner Nähe verringert die Latenz des von dir gesendeten Netzwerkverkehrs. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
 1. Stand: 2024-04-02
@@ -154,11 +154,11 @@ Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüs
 
 #### :material-check:{ .pg-green } Unabhängig geprüft
 
-IVPN hat sich einem [No-Logging-Audit von Cure53](https://cure53.de/audit-report_ivpn.pdf) unterzogen, das die Behauptung von IVPN, dass kein Logging stattfindet, bestätigte. IVPN hat auch einen [umfassenden Pentestbericht von Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) vom Januar 2020. IVPN has also said they plan to have [annual reports](https://ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+IVPN hat sich einem [No-Logging-Audit von Cure53](https://cure53.de/audit-report_ivpn.pdf) unterzogen, das die Behauptung von IVPN, dass kein Logging stattfindet, bestätigte. IVPN hat auch einen [umfassenden Pentestbericht von Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) vom Januar 2020. Das IVPN hat für die Zukunft [Jahresberichte](https://ivpn.net/blog/independent-security-audit-concluded) in Aussicht gestellt. Eine weitere Überprüfung fand [im April 2022](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded) statt und wurde von Cure53 [auf ihrer Website](https://cure53.de/pentest-report_IVPN_2022.pdf) veröffentlicht.
 
-#### :material-check:{ .pg-green } Open-Source Anwendungen
+#### :material-check:{ .pg-green } Open-Source-Clients
 
-As of February 2020 [IVPN applications are now open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Der Quellcode kann von ihrer [GitHub Organisation](https://github.com/ivpn) bezogen werden.
+Seit Februar 2020 [sind die IVPN-Anwendungen nun quelloffen](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Der Quellcode kann von ihrer [GitHub Organisation](https://github.com/ivpn) bezogen werden.
 
 #### :material-check:{ .pg-green } Akzeptiert Bargeld und Monero
 
@@ -168,27 +168,27 @@ Neben Kredit-/Debitkarten und PayPal akzeptiert IVPN auch Bitcoin, **Monero** un
 
 IVPN unterstützt das WireGuard®-Protokoll. [WireGuard](https://wireguard.com) ist ein neueres Protokoll, das modernste [Kryptographie](https://wireguard.com/protocol) verwendet. Darüber hinaus zielt WireGuard darauf ab, einfacher und leistungsfähiger zu sein.
 
-IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+IVPN [empfiehlt die](https://ivpn.net/wireguard) Verwendung von WireGuard mit seinem Service und daher ist das Protokoll die Standardeinstellung für alle IVPN-Apps. IVPN bietet auch einen WireGuard-Konfigurationsgenerator zur Verwendung mit den [offiziellen WireGuard-Apps](https://wireguard.com/install) an.
 
-#### :material-information-outline:{ .pg-blue } IPv6 Support
+#### :material-information-outline:{ .pg-blue } IPv6-Unterstützung
 
-IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
+IVPN ermöglicht dir die [Verbindung zu Diensten, die IPv6 verwenden](https://ivpn.net/knowledgebase/general/do-you-support-ipv6), aber nicht die Verbindung von einem Gerät mit einer IPv6-Adresse.
 
 #### :material-alert-outline:{ .pg-orange } Remote Portweiterleitung
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). Das Fehlen dieser Funktion könnte sich negativ auf bestimmte Anwendungen auswirken, insbesondere auf Peer-to-Peer-Anwendungen wie Torrent-Clients.
+IVPN unterstützte früher die Portweiterleitung, entfernte diese Option aber im [Juni 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). Das Fehlen dieser Funktion könnte sich negativ auf bestimmte Anwendungen auswirken, insbesondere auf Peer-to-Peer-Anwendungen wie Torrent-Clients.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } Anti-Zensur
 
-IVPN has obfuscation modes using the [v2ray](https://v2ray.com/en/index.html) project which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
+IVPN verfügt über Verschleierungsmodi unter Verwendung des [v2ray-Projekts](https://v2ray.com/en/index.html), die in Situationen helfen, in denen VPN-Protokolle wie OpenVPN oder Wireguard blockiert sind. Derzeit ist diese Funktion nur auf Desktop und [iOS](https://ivpn.net/knowledgebase/ios/v2ray) verfügbar. Sie verfügt über zwei Modi, in denen man [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) über QUIC- oder TCP-Verbindungen nutzen kann. QUIC ist ein modernes Protokoll mit besserer Staukontrolle und kann daher schneller sein und geringere Latenzzeiten aufweisen. Der TCP-Modus lässt deine Daten als normalen HTTP-Verkehr erscheinen.
 
 #### :material-check:{ .pg-green } Mobile Anwendungen
 
-In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/app/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
+Zusätzlich zu den Standard-OpenVPN-Konfigurationsdateien bietet IVPN mobile Clients für [App Store](https://apps.apple.com/app/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) und [GitHub](https://github.com/ivpn/android-app/releases) an, die eine einfache Verbindung zu den Servern ermöglichen.
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Zusätzliche Hinweise
 
-IVPN clients support two factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+IVPN-Clients unterstützen die Zwei-Faktor-Authentisierung. IVPN bietet auch die Funktion "[AntiTracker](https://ivpn.net/antitracker)", die Werbenetzwerke und Tracker auf der Netzwerkebene blockiert.
 
 ### Mullvad
 
@@ -196,12 +196,12 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** ist ein schnelles und preiswertes VPN mit einem ernsthaften Fokus auf Transparenz und Sicherheit. Mullvad ist seit **2009** in Betrieb. Mullvad is based in Sweden and does not offer a free trial.
+**Mullvad** ist ein schnelles und preiswertes VPN mit einem ernsthaften Fokus auf Transparenz und Sicherheit. Mullvad ist seit **2009** in Betrieb. Mullvad ist in Schweden ansässig und bietet keine kostenlose Testversion an.
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://mullvad.net/de){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Dienst" }
+[:octicons-eye-16:](https://mullvad.net/de/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/de/help){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -218,9 +218,9 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 41 Länder
 
-Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
+Mullvad hat [Server in 41 Ländern](https://mullvad.net/servers).(1) Die Wahl eines VPN-Anbieters mit einem Server in deiner Nähe verringert die Latenz des von dir gesendeten Netzwerkverkehrs. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
 1. Stand: 2024-04-02
@@ -233,11 +233,11 @@ Die VPN-Clients von Mullvad wurden von Cure53 und Assured AB in einem Pentestber
 
 > Cure53 und Assured AB sind mit den Ergebnissen des Audits zufrieden und die Software hinterlässt einen insgesamt positiven Eindruck. Dank des Engagements des internen Teams von Mullvad VPN haben die Tester keine Zweifel daran, dass das Projekt in puncto Sicherheit auf dem richtigen Weg ist.
 
-In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
+Für das Jahr 2020 wurde eine zweite Prüfung [angekündigt](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app), und der [endgültige Prüfbericht](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) wurde auf der Website von Cure53 veröffentlicht:
 
 > Die Ergebnisse dieses Mai-Juni 2020-Projekts, das auf den Mullvad-Komplex abzielt, sind recht positiv. [...] Das Gesamte von Mullvad verwendete Anwendungsökosystem hinterlässt einen soliden und strukturierten Eindruck. Die Gesamtstruktur der Anwendung macht es einfach, Patches und Korrekturen auf strukturierte Weise auszuführen. Die von Cure53 festgestellten Ergebnisse zeigen vor allem, wie wichtig es ist, die aktuellen Leckvektoren ständig zu überprüfen und neu zu bewerten, um die Privatsphäre der Endnutzer stets zu gewährleisten. In diesem Sinne leistet Mullvad gute Arbeit beim Schutz des Endbenutzers vor allgemeinen PII-Lecks und datenschutzbezogenen Risiken.
 
-In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data) and is available on [Assured's website](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+In 2021 wurde ein Infrastruktur-Audit [angekündigt](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) und der [endgültige Audit-Bericht](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) auf der Website von Cure53 veröffentlicht. Ein weiterer Bericht wurde [im Juni 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data) in Auftrag gegeben und ist auf der [Website von Assured](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf) verfügbar.
 
 #### :material-check:{ .pg-green } Open-Source Anwendungen
 
@@ -251,27 +251,27 @@ Mullvad akzeptiert nicht nur Kredit-/Debitkarten und PayPal, sondern auch Bitcoi
 
 Mullvad unterstützt das WireGuard®-Protokoll. [WireGuard](https://wireguard.com) ist ein neueres Protokoll, das modernste [Kryptographie](https://wireguard.com/protocol) verwendet. Darüber hinaus zielt WireGuard darauf ab, einfacher und leistungsfähiger zu sein.
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Mullvad [empfiehlt](https://mullvad.net/en/help/why-wireguard) die Verwendung von WireGuard mit ihrem Dienst. Es ist das Standardprotokoll bzw. das einzige Protokoll in den Android-, iOS-, macOS- und Linux-Apps von Mullvad; unter Windows musst du WireGuard [manuell aktivieren](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app). Mullvad bietet auch einen WireGuard-Konfigurationsgenerator zur Verwendung mit den offiziellen [WireGuard-Apps](https://wireguard.com/install).
 
 #### :material-check:{ .pg-green } IPv6-Unterstützung
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) and connect from a device using an IPv6 address.
+Mit Mullvad kannst du [auf Dienste zugreifen, die auf IPv6 gehostet werden](https://mullvad.net/en/blog/2014/9/15/ipv6-support), und eine Verbindung von einem Gerät mit einer IPv6-Adresse herstellen.
 
 #### :material-alert-outline:{ .pg-orange } Remote Portweiterleitung
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). Das Fehlen dieser Funktion könnte sich negativ auf bestimmte Anwendungen auswirken, insbesondere auf Peer-to-Peer-Anwendungen wie Torrent-Clients.
+Mullvad unterstützte früher die Portweiterleitung, entfernte diese Option jedoch im [Mai 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). Das Fehlen dieser Funktion könnte sich negativ auf bestimmte Anwendungen auswirken, insbesondere auf Peer-to-Peer-Anwendungen wie Torrent-Clients.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } Anti-Zensur
 
-Mullvad has obfuscation an mode using [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) which may be useful in situations where VPN protocols like OpenVPN or Wireguard are blocked.
+Mullvad verfügt über einen Verschleierungsmodus, der [Shadowsocks mit v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) verwendet und in Situationen nützlich sein kann, in denen VPN-Protokolle wie OpenVPN oder Wireguard blockiert sind.
 
 #### :material-check:{ .pg-green } Mobile Anwendungen
 
-Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. Der Android-Client ist auch auf [GitHub](https://github.com/mullvad/mullvadvpn-app/releases) verfügbar.
+Mullvad hat [App Store-](https://apps.apple.com/app/id1488466513) und [Google Play-Clients](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) veröffentlicht, die beide eine einfach zu bedienende Benutzeroberfläche besitzen, so dass du deine WireGuard-Verbindung nicht manuell konfigurieren musst. Der Android-Client ist auch auf [GitHub](https://github.com/mullvad/mullvadvpn-app/releases) verfügbar.
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Hinweise
 
-Mullvad ist sehr transparent, welche Netzwerk-Knotenpunkte sie [besitzen oder mieten](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Angeblich muss [China eine andere Methode verwenden, um ShadowSocks-Server zu blockieren](https://github.com/net4people/bbs/issues/22).
+Mullvad ist sehr transparent, welche Netzwerk-Knotenpunkte sie [besitzen oder mieten](https://mullvad.net/en/servers). Sie verwenden [ShadowSocks](https://shadowsocks.org) in ihrer ShadowSocks + OpenVPN-Konfiguration, was sie resistenter gegen Firewalls mit [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) macht, die versuchen, VPNs zu blockieren. Angeblich muss [China eine andere Methode verwenden, um ShadowSocks-Server zu blockieren](https://github.com/net4people/bbs/issues/22).
 
 ## Kriterien
 
