@@ -18,11 +18,11 @@ La plupart des suites bureautiques en ligne ne prennent pas en charge l'E2EE, ce
 
 **Nextcloud** est une suite de logiciels client-serveur gratuits et open-source permettant de créer vos propres services d'hébergement de fichiers sur un serveur privé que vous contrôlez.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Code source" }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>

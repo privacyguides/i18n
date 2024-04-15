@@ -27,7 +27,7 @@ La sécurité est la capacité à faire confiance aux applications que vous util
 Les certificats prouvent que vous communiquez directement avec le site web que vous visitez et empêchent les attaquants sur votre réseau de lire ou de modifier les données envoyées vers ou depuis le site web.
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**Anonymat**
 :
 
 L'anonymat est la capacité d'agir sans identifiant permanent. Vous pouvez y parvenir en ligne avec [Tor](../tor.md), qui vous permet de naviguer sur internet avec une adresse IP et une connexion réseau aléatoires au lieu de la vôtre.

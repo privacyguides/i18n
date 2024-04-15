@@ -45,10 +45,10 @@ Privacy.com transmet par défaut à votre banque des informations sur les commer
 ![logo MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
 ![logo MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** fournit jusqu'à 9 cartes virtuelles en fonction de l'offre que vous prenez. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email-aliasing.md) for extensive email aliasing use.
+**MySudo** fournit jusqu'à 9 cartes virtuelles en fonction de l'offre que vous prenez. Leurs offres payantes comprennent en outre des fonctionnalités qui peuvent être utiles pour effectuer des achats de façon privée, telles que des numéros de téléphone et des adresses e-mail virtuels, bien que nous recommandions généralement d'autres [fournisseurs d'alias d'e-mail](email-aliasing.md) pour une utilisation plus poussée.
 
-[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
 
 </details>
@@ -76,8 +76,8 @@ Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de 
 
 **CoinCards** (disponible aux Etats-Unis et au Canada) vous permet d'acheter des cartes-cadeaux auprès d'un grand nombre de commerçants.
 
-[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
 
 </details>

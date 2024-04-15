@@ -1,8 +1,8 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+meta_title: "Comment créer des comptes internet de façon privée - Privacy Guides"
+title: "Création de compte"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: La création de comptes en ligne est pratiquement une nécessité sur internet, prenez ces mesures pour vous assurer de rester privé.
 ---
 
 Souvent, les gens s'inscrivent à des services sans réfléchir. Il s'agit peut-être d'un service de streaming qui vous permet de regarder la nouvelle émission dont tout le monde parle, ou d'un compte qui vous permet de bénéficier d'une réduction dans votre fast-food préféré. Quoi qu'il en soit, vous devez tenir compte des implications pour vos données, maintenant et plus tard.

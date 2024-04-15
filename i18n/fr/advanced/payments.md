@@ -1,5 +1,5 @@
 ---
-title: Private Payments
+title: Paiements privés
 icon: material/hand-coin
 ---
 
