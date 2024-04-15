@@ -9,35 +9,35 @@ Wir ordnen unsere Empfehlungen nach [Bedrohungen](threat-modeling.md) beziehungs
 - <span class="pg-purple">:material-incognito: Anonymität</span> - Trennen deiner Online-Aktivitäten von deiner realen Identität, um dich vor Personen zu schützen, die gezielt versuchen *deine* Identität aufzudecken.
 - <span class="pg-red">:material-target-account: Gezielte Angriffe</span> - Schutz vor Hackern oder anderen böswilligen Akteuren, die versuchen, sich Zugang zu *deinen* Daten oder Geräten zu verschaffen.
 - <span class="pg-orange">:material-bug-outline: Passive Angriffe</span> - Schutz vor Malware, Datenleaks und anderen Angriffen, die sich gegen viele Menschen gleichzeitig richten.
-- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
-- <span class="pg-teal">:material-server-network: Diensteanbieter</span> - Schutz deiner Daten vor Dienstleistern (z.B. mit E2EE, welche deine Daten für den Server unlesbar macht).
+- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain-Angriffe</span> - Eine Schwachstelle oder ein Exploit, die, bzw. der entweder direkt oder über eine Abhängigkeit aus einer weiteren Quelle in ansonsten gute Software eingeschleust wird.
+- <span class="pg-teal">:material-server-network: Diensteanbieter</span> - Schutz deiner Daten vor Dienstleistern (z. B. mit E2EE, welche deine Daten für den Server unlesbar macht).
 - <span class="pg-blue">:material-eye-outline: Massenüberwachung</span> - Schutz vor Regierungsbehörden, Organisationen, Webseiten und Diensten, die zusammenarbeiten, um deine Aktivitäten zu verfolgen.
 - <span class="pg-brown">:material-account-cash: Überwachungskapitalismus</span> - Schütz dich vor großen Werbenetzwerken wie Google und Facebook sowie vor einer Vielzahl anderer Datensammler.
 - <span class="pg-green">:material-account-search: Öffentliche Bloßstellung</span> - Begrenzung der Informationen über dich online—für Suchmaschinen oder die allgemeine Öffentlichkeit.
 - <span class="pg-blue-gray">:material-close-outline: Zensur</span> - Umgehen von beschränktem Zugang zu Informationen oder vermeiden selbst zensiert zu werden.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+Einige dieser Bedrohungen können für dich wichtiger sein als andere, je nach deinen spezifischen Anliegen. Ein Softwareentwickler, der Zugang zu wertvollen oder kritischen Daten hat, könnte sich beispielsweise in erster Linie über <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain-Angriffe</span> und <span class="pg-red">:material-target-account: Targeted Attacks</span> Sorgen machen. Sie werden wahrscheinlich immer noch ihre persönlichen Daten davor schützen wollen, von <span class="pg-blue">:material-eye-outline: Massenüberwachungsprogrammen</span> erfasst zu werden. Ebenso sind viele Menschen vielleicht in erster Linie besorgt über die <span class="pg-green">:material-account-search: Öffentliche Bloßstellung</span> ihrer persönlichen Daten, sollten aber trotzdem auf sicherheitsrelevante Probleme achten, wie z. B. <span class="pg-orange">:material-bug-outline: Passive Angriffe</span> - wie Malware, die ihre Geräte befallen.
 
-## Anonymity vs. Privacy
+## Anonymität vs. Datenschutz
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: Anonymität</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+Anonymität wird oft mit Datenschutz in einen Topf geworfen, es sind aber unterschiedliche Konzepte. Während Datenschutz aus einer Reihe von Entscheidungen besteht, die du über die Verwendung und Weitergabe deiner Daten triffst, bedeutet Anonymität die vollständige Trennung deiner Online-Aktivitäten von deiner wirklichen Identität.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+Für Whistleblower und Journalisten beispielsweise kann ein viel extremeres Bedrohungsmodell gelten, das völlige Anonymität erfordert. Das bedeutet nicht nur, dass sie verbergen, was sie tun, welche Daten sie haben und dass sie nicht von böswilligen Akteuren oder Regierungen gehackt werden, sondern auch, dass sie völlig verbergen, wer sie sind. Sie sind oft bereit, jede Art von Bequemlichkeit zu opfern, wenn es darum geht, ihre Anonymität, Privatsphäre oder Sicherheit zu schützen, weil ihr Leben davon abhängen könnte. Die meisten Menschen brauchen so weit nicht zu gehen.
 
-## Security and Privacy
+## Sicherheit und Datenschutz
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: Passive Angriffe</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+Sicherheit und Datenschutz werden auch oft verwechselt, weil man Sicherheit braucht, um überhaupt einen Anschein von Datenschutz zu erhalten: Der Einsatz von Tools - selbst wenn sie von vornherein privat sind - ist sinnlos, wenn sie leicht von Angreifern ausgenutzt werden können, die später Ihre Daten veröffentlichen. Das Gegenteil ist jedoch nicht unbedingt der Fall: Der sicherste Dienst der Welt *ist nicht unbedingt* privat. Das beste Beispiel hierfür ist das Anvertrauen von Daten an Google, das in Anbetracht seiner Größe nur wenige Sicherheitsvorfälle zu verzeichnen hatte, weil es branchenführende Sicherheitsexperten mit der Sicherung seiner Infrastruktur beschäftigt. Obwohl Google sehr sichere Dienste anbietet, würden nur sehr wenige Menschen ihre Daten in den kostenlosen Verbraucherprodukten von Google (Gmail, YouTube usw.) als privat betrachten
 
 When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
 
 To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Tipp</p>
 
 Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
 
@@ -50,7 +50,7 @@ Desktop operating systems generally lag behind on proper sandboxing. ChromeOS ha
 Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Tipp</p>
 
 By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
 
@@ -63,7 +63,7 @@ If you are concerned about **physical attacks** you should use an operating syst
 Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Beispiel</p>
 
 A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
 
@@ -83,9 +83,9 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
 5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
-## Privacy From Service Providers
+## Datenschutz bei Dienstanbietern
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">:material-server-network: Diensteanbieter</span>
 
 We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
 
@@ -94,7 +94,7 @@ The obvious problem with this is that the service provider (or a hacker who has 
 Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">Hinweis zur webbasierten Verschlüsselung</p>
 
 In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
 
@@ -106,14 +106,14 @@ Therefore, you should use native applications over web clients whenever possible
 
 Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as who you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
 
-## Mass Surveillance Programs
+## Massenüberwachungsprogramme
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">:material-eye-outline: Massenüberwachung</span>
 
 Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Atlas of Surveillance</p>
+<p class="admonition-title">Atlas der Überwachung</p>
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
@@ -152,7 +152,7 @@ For many people, tracking and surveillance by private corporations is a growing 
 
 Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
 
-## Limiting Public Information
+## Einschränkung der öffentlichen Information
 
 <span class="pg-green">:material-account-search: Public Exposure</span>
 
@@ -164,9 +164,9 @@ On sites where you do share information, checking the privacy settings of your a
 
 If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
 
-## Avoiding Censorship
+## Vermeidung von Zensur
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: Zensur</span>
 
 Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
 
@@ -175,7 +175,7 @@ Censorship on corporate platforms is increasingly common, as platforms like Twit
 People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Tipp</p>
 
 While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
 
@@ -185,8 +185,8 @@ You should consider which aspects of the network your adversary can observe, and
 
 You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
+[^1]: Wikipedia: [*Massenüberwachungen*](https://en.wikipedia.org/wiki/Mass_surveillance) und [*Überwachung*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: Vereinte Nationen: [*Allgemeine Erklärung der Menschenrechte*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
