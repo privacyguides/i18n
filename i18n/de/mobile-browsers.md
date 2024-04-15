@@ -71,19 +71,19 @@ Brave basiert auf dem Chromium-Webbrowser-Projekt, sollte sich also vertraut anf
 
 Tor Browser ist die einzige Möglichkeit, wirklich anonym im Internet zu surfen. Wenn du Brave benutzt, empfehlen wir dir, die folgenden Einstellungen zu ändern, um deine Privatsphäre vor bestimmten Parteien zu schützen, aber alle anderen Browser als der [Tor Browser](tor.md#tor-browser) werden von *irgendjemandem* in irgendeiner Weise verfolgt werden können.
 
-Diese Optionen findest du unter :material-menu: → **Einstellungen** → **Brave Shields & Datenschutz**
+Diese Optionen findest du unter :material-menu: → **Einstellungen** → **Schutz**
 
-##### Shields
+##### Schutz
 
 Brave enthält einige Anti-Fingerabdruck-Maßnahmen in der [Schutz](https://support.brave.com/hc/articles/360022973471-What-is-Shields)-Funktion. Wir empfehlen, diese Optionen [global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) für alle Seiten zu konfigurieren.
 
-##### Brave Shields' globale Standardeinstellungen
+##### Globale Standardeinstellungen
 
-Die Optionen von Shields können je nach Bedarf für jede Website heruntergestuft werden, aber als Standardeinstellung empfehlen wir Folgendes:
+Die Optionen im Schutz-Menü können je nach Bedarf für jede Website heruntergestuft werden, aber als Standardeinstellung empfehlen wir Folgendes:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under **Block trackers & ads**
+- [x] Wähle **Aggressiv** unter **Tracker & Anzeigenblockierung**
 
 <details class="warning" markdown>
 <summary>Inhaltsfilter</summary>
@@ -92,17 +92,17 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 
 </details>
 
-- [x] Wähle **Alle Verbindungen müssen HTTPS verwenden (streng)**
-- [x] (Optional) Wähle **Skripte blockieren** (1)
-- [x] Wähle **Fingerabdruck blockiert (streng, könnte Websites kaputtmachen** unter **Fingerprinting blockieren**
+- [x] Wähle **Verbindungen auf HTTPS upgraden (Streng)**
+- [x] (Optional) Wähle **JavaScript blockieren** (an)
+- [x] Wähle **Fingerprinting blockieren (Streng, könnte Websites kaputtmachen**
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
+1. Diese Option bietet eine ähnliche Funktionalität wie die erweiterten Blockierungsmodi von uBlock Origin [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) oder die Erweiterung [NoScript](https://noscript.net).
 
 ##### Browserdaten löschen
 
-- [x] Wähle **Daten beim Beenden löschen**
+- [x] Wähle **Vergiss mich, wenn ich diese Seite schließe**
 
 ##### Social Media Blocking
 
@@ -131,17 +131,17 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 ### Mull
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Gefahr</p>
 
-Firefox (Gecko)-based browsers on Android [lack per-site process isolation](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196), a powerful security feature that offers additional protection against a malicious website exploiting a security vulnerability. Missing this feature likely won't pose an issue for low-risk web browsers who keep their browser up-to-date, but those visiting higher-risk sites or at risk of targeted/0-day attacks should strongly consider a Chromium-based browser like [Brave](#brave) instead.
+Firefox (Gecko)-basierten Browsern auf Android fehlt [die Isolierung von Prozessen pro Website] (https://bugzilla.mozilla.org/show_bug.cgi?id=1565196), eine leistungsstarke Sicherheitsfunktion, die zusätzlichen Schutz vor einer bösartigen Website bietet, die eine Sicherheitslücke ausnutzt. Das Fehlen dieser Funktion stellt für Webbrowser mit geringem Risiko, die ihren Browser auf dem neuesten Stand halten, wahrscheinlich kein Problem dar. Wer jedoch Websites mit höherem Risiko besucht oder dem Risiko gezielter 0-Day-Angriffe ausgesetzt ist, sollte stattdessen unbedingt einen Chromium-basierten Browser wie [Brave](#brave) in Betracht ziehen.
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![Mull logo](assets/img/browsers/mull.svg){ align=right }
+![Mull-Logo](assets/img/browsers/mull.svg){ align=right }
 
-**Mull** is a privacy oriented and deblobbed Android browser based on Firefox. Compared to Firefox, it offers much greater fingerprinting protection out of the box, and disables JavaScript Just-in-Time (JIT) compilation for enhanced security. It also removes all proprietary elements from Firefox, such as replacing Google Play Services references.
+**Mull** ist ein datenschutzorientierter und puristischer Android-Browser, der auf Firefox basiert. Im Vergleich zu Firefox bietet er einen wesentlich besseren Schutz vor Fingerabdrücken und deaktiviert die Just-in-Time-Kompilierung (JIT) von JavaScript, um die Sicherheit zu erhöhen. Außerdem werden alle proprietären Elemente aus Firefox entfernt, wie z. B. das Ersetzen der Verweise auf Google Play-Services.
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
@@ -157,15 +157,15 @@ Firefox (Gecko)-based browsers on Android [lack per-site process isolation](http
 
 </div>
 
-Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+Aktiviere das [F-Droid Repo](https://divestos.org/fdroid/official) von DivestOS, um Updates direkt vom Entwickler zu erhalten. Wenn du Mull aus dem Standard-F-Droid-Repository herunterlädst, können sich Updates um einige Tage oder länger verzögern.
 
-Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
+Mull aktiviert viele Funktionen, die vom [Tor Uplift-Projekt](https://wiki.mozilla.org/Security/Tor_Uplift) entwickelt wurden, indem es Einstellungen von [Arkenfox](desktop-browsers.md#arkenfox-advanced) verwendet. Proprietäre Blobs werden mit den für Fennec F-Droid entwickelten Skripten aus Mozillas Code entfernt.
 
-#### Recommended Mull Configuration
+#### Empfohlene Mull Konfiguration
 
-We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
+Wir empfehlen die Installation von [uBlock Origin](browser-extensions.md#ublock-origin) als Inhaltsblocker, wenn du Tracker in Mull blockieren möchtest.
 
-Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
+Mull verfügt über bereits standardmäßig konfigurierte Einstellungen zum Schutz der Privatsphäre. Du kannst die Option **Browserdaten beim Beenden löschen** in den Einstellungen von Mull konfigurieren, wenn du alle offenen Tabs beim Beenden der App automatisch schließen oder andere Daten wie den Browserverlauf und Cookies automatisch löschen möchtest.
 
 ## iOS
 
@@ -239,7 +239,7 @@ Beachte, dass Private Browsing keine Cookies und Website-Daten speichert, sodass
 
 ##### iCloud Sync
 
-Die Synchronisierung von Safari-Verlauf, Tab-Gruppen, iCloud-Tabs und gespeicherten Kennwörtern erfolgt über E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
+Die Synchronisierung von Safari-Verlauf, Tab-Gruppen, iCloud-Tabs und gespeicherten Kennwörtern erfolgt über E2EE. Allerdings werden Lesezeichen standardmäßig [nicht](https://support.apple.com/HT202303) verschlüsselt. Apple kann sie entschlüsseln und in Übereinstimmung mit der [Datenschutzrichtlinie](https://apple.com/legal/privacy/en-ww) darauf zugreifen.
 
 You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to your **Apple ID name → iCloud → Advanced Data Protection**.
 
@@ -254,6 +254,6 @@ Wenn du iCloud mit deaktiviertem erweitertem Datenschutz verwendest, empfehlen w
 ### Mindestanforderungen
 
 - Unterstützt automatische Updates.
-- Must receive engine updates from upstream releases quickly.
+- Muss Engine-Updates von Upstream-Releases schnell erhalten.
 - Inhaltsperre muss unterstützt werden.
 - Alle Änderungen, die erforderlich sind, um den Browser datenschutzfreundlicher zu machen, sollten die Benutzerfreundlichkeit nicht beeinträchtigen.

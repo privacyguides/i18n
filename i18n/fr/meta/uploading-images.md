@@ -17,7 +17,7 @@ Les logos d'entreprise ont une taille canvas de :
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
+Utilisez [OptiPNG](https://sourceforge.net/projects/optipng) pour optimiser l'image PNG :
 
 ```bash
 optipng -o7 file.png

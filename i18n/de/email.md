@@ -19,11 +19,11 @@ E-Mail ist praktisch eine Voraussetzung für die Nutzung aller Online-Dienste, w
 
 Für alles andere empfehlen wir eine Reihe von E-Mail-Anbietern, die auf nachhaltigen Geschäftsmodellen basieren und integrierte Sicherheits- und Datenschutzfunktionen bieten. Weitere Informationen findest du in unserem [vollständigen Kriterienkatalog](#criteria).
 
-| Anbieter                    | OpenPGP / WKD                          | IMAP / SMTP                                                           | Null-Zugriff-Verschlüsselung                         | Anonyme Zahlungen             |
-| --------------------------- | -------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Nur kostenpflichtige Pläne | :material-check:{ .pg-green }                        | Bargeld                       |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                         | :material-information-outline:{ .pg-blue } Mail only | Bargeld                       |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
+| Anbieter                    | OpenPGP / WKD                          | IMAP / SMTP                                                           | Null-Zugriff-Verschlüsselung                        | Anonyme Zahlungen                   |
+| --------------------------- | -------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------- | ----------------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Nur kostenpflichtige Pläne | :material-check:{ .pg-green }                       | Bargeld                             |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                         | :material-information-outline:{ .pg-blue } Nur Mail | Bargeld                             |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                | :material-check:{ .pg-green }                       | Monero & Bargeld über Drittanbieter |
 
 Zusätzlich zu (oder anstelle von) einem hier empfohlenen E-Mail-Anbieter kannst du einen speziellen [E-Mail-Aliasing-Dienst](email-aliasing.md) in Betracht ziehen, um deine Privatsphäre zu schützen. Diese Dienste können unter anderem dazu beitragen, deinen echten Posteingang vor Spam zu schützen, zu verhindern, dass Vermarkter deine Konten miteinander in Verbindung bringen, und alle eingehenden Nachrichten mit PGP zu verschlüsseln.
 
@@ -55,7 +55,7 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit **2013** in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+**Proton Mail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit **2013** in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion / Tor" }
@@ -80,9 +80,9 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 
 Kostenlose Konten haben einige Einschränkungen, wie z. B. die fehlende Möglichkeit Text zu durchsuchen und keinen Zugang zu [Proton Mail Bridge](https://proton.me/mail/bridge). Diese ist für die Verwendung eines [empfohlenen Desktop-E-Mail-Programms](email-clients.md) (z. B. Thunderbird) erforderlich. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und die Nutzung eigener Domains. Am 9. November 2021 wurden durch [Securitum](https://research.securitum.com) ein Sicherheitsaudit durchgeführt und  die Anwendungen von Proton Mail [zertifiziert](https://proton.me/blog/security-audit-all-proton-apps).
 
-If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Wenn du den Proton Unlimited, Business, Familie oder den Visionary-Tarif nutzt, erhältst du zusätzlich [SimpleLogin](email-aliasing.md#simplelogin) Premium kostenlos dazu.
 
-Proton Mail hat interne Absturzberichte, die sie **nicht** mit Dritten teilen. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail hat interne Absturzberichte, die sie **nicht** mit Dritten teilen. Dies kann in der Web-App deaktiviert werden: :gear: → **Alle Einstellungen** → **Konto** → **Sicherheit und Datenschutz** → **Privatsphäre und Datenerfassung**.
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
@@ -110,11 +110,11 @@ Auch veröffentlicht Proton Mail öffentlichen Schlüssel der Proton-Konten übe
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
-Wenn du ein kostenpflichtiges Konto hast und deine Rechnung [nach 14 Tagen noch nicht bezahlt ist](https://proton.me/de/support/delinquency), kannst du nicht mehr auf Ihre Daten zugreifen. Nach 30 Tagen wird dein Konto als säumig markiert und kann keine E-Mails mehr empfangen. Während dieses Zeitraums werden dir die Kosten weiterhin in Rechnung gestellt. Proton [löscht inaktive kostenlose Konten](https://proton.me/support/inactive-accounts) nach einem Jahr. You **cannot** reuse the email address of a deactivated account.
+Wenn du ein kostenpflichtiges Konto hast und deine Rechnung [nach 14 Tagen noch nicht bezahlt ist](https://proton.me/de/support/delinquency), kannst du nicht mehr auf Ihre Daten zugreifen. Nach 30 Tagen wird dein Konto als säumig markiert und kann keine E-Mails mehr empfangen. Während dieses Zeitraums werden dir die Kosten weiterhin in Rechnung gestellt. Proton [löscht inaktive kostenlose Konten](https://proton.me/support/inactive-accounts) nach einem Jahr. Du kannst die E-Mail-Adresse eines deaktivierten Kontos **nicht** wiederverwenden.
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500GB of storage.
+Der [Unlimited-Tarif](https://proton.me/support/proton-plans#proton-unlimited) von Proton Mail ermöglicht auch den Zugang zu anderen Proton-Diensten und bietet darüber hinaus mehrere benutzerdefinierte Domains, eine unbegrenzte Anzahl von "Hide-my-email"-Aliasnamen und 500 GB Speicherplatz.
 
 Proton Mail bietet keine Funktion für deinen digitalen Nachlass.
 
@@ -189,15 +189,15 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg){ align=right }
+![Tuta-Logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+**Tuta** ist ein E-Mail-Dienst, dessen Schwerpunkt auf Sicherheit und Datenschutz durch Verschlüsselung liegt. Tuta ist seit **2011** in Betrieb und hat seinen Sitz in Hannover. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Datenschutz" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Quelltext" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Mitwirken}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -214,31 +214,31 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta unterstützt weder das [IMAP-Protokoll](https://tuta.com/faq/#imap) noch die Verwendung von [E-Mail-Clients](email-clients.md) von Drittanbietern, und du kannst auch keine [externen E-Mail-Konten](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) zur Tuta-App hinzufügen. Auch der [E-Mail-Import](https://github.com/tutao/tutanota/issues/630) wird derzeit nicht unterstützt, was sich aber [bald ändern](https://tuta.com/blog/posts/kickoff-import) soll. E-Mails können [einzeln oder per Massenauswahl](https://tuta.com/support#generalMail) pro Ordner exportiert werden, was bei vielen Ordnern unpraktisch sein kann.
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+Bezahlte Tuta-Konten können je nach Tarif entweder 15 oder 30 Aliase und unbegrenzte Aliase auf [benutzerdefinierten Domains](https://tuta.com/support#custom-domain) verwenden. Tuta lässt keine [Unteradressen (Plus-Adressen)](https://tuta.com/support#plus) zu, du kannst aber einen [Catch-All](https://tuta.com/support#settings-global) mit einer benutzerdefinierten Domain verwenden.
 
 #### :material-information-outline:{ .pg-blue } Private Zahlungsmöglichkeiten
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
+Tutanota akzeptiert nur Kreditkarten und PayPal, aber [Kryptowährung](cryptocurrency.md) kann verwendet werden, um Guthabenkarten über ihre [Partnerschaft](https://tuta.com/faq/#cryptocurrency) mit Proxystore zu kaufen.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
-Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta unterstützt die [Zwei-Faktor-Authentisierung](https://tuta.com/support#2fa) entweder mit TOTP oder U2F.
 
 #### :material-check:{ .pg-green } Datensicherheit
 
-Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Das bedeutet, dass die in Ihrem Konto gespeicherten Nachrichten und anderen Daten nur von dir gelesen werden können.
+Tuta bietet eine [Zero-Access-Verschlüsselung im Ruhezustand](https://tuta.com/support#what-encrypted) für Ihre E-Mails, [Adressbuchkontakte](https://tuta.com/support#encrypted-address-book) und [Kalender](https://tuta.com/support#calendar). Das bedeutet, dass die in deinem Konto gespeicherten Nachrichten und andere Daten nur von dir gelesen werden können.
 
 #### :material-information-outline:{ .pg-blue } E-Mail-Verschlüsselung
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta [verwendet kein OpenPGP](https://tuta.com/support/#pgp). Tuta-Konten können verschlüsselte E-Mails von Nicht-Tuta-E-Mail-Konten nur empfangen, wenn sie über ein temporäres Tuta-Postfach [gesendet werden](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Kontokündigung
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Du kannst ein deaktiviertes kostenloses Konto wieder verwenden, wenn du bezahlst.
+Tuta [löscht inaktive kostenlose Konten](https://tuta.com/support#inactive-accounts) nach sechs Monaten. Du kannst ein deaktiviertes kostenloses Konto wieder verwenden, wenn du bezahlst.
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
@@ -259,9 +259,9 @@ Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-M
 **Mailcow** ist ein fortgeschrittener Mailserver, perfekt für diejenigen mit ein wenig mehr Linux-Erfahrung. Es vereinigt alles was du brauchst in einem Docker-Container: Einen Mailserver mit DKIM-Unterstützung, Virenschutz und Spam-Überwachung, Webmail und ActiveSync mit SOGo, sowie eine webbasierte Verwaltung mit 2FA-Unterstützung.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Quelltext" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Mitwirken }
 
 </div>
 
@@ -284,7 +284,7 @@ Für einen eher manuellen Ansatz haben wir diese beiden Artikel herausgesucht:
 
 ## Kriterien
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**Bitte beachte, dass wir mit keinem der von uns empfohlenen Anbieter verbunden sind.** Zusätzlich zu [unseren Standardkriterien](about/criteria.md)haben wir eine Reihe klarer Anforderungen für jeden E-Mail-Anbieter entwickelt, der empfohlen werden möchte, darunter die Umsetzung branchenweit bewährter Verfahren, moderne Technologien und weiteres. Wir empfehlen, sich mit dieser Liste vertraut zu machen, bevor du dich für einen E-Mail-Anbieter entscheidest, und deine eigenen Nachforschungen anzustellst, um sicherzustellen, dass der gewählte E-Mail-Anbieter die richtige Wahl für dich ist.
 
 ### Technologien
 
@@ -304,7 +304,7 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 - Unterstützung für [WKD](https://wiki.gnupg.org/WKD), um die Suche nach öffentlichen OpenPGP-Schlüsseln über HTTP zu verbessern. GnuPG-Benutzer können einen Schlüssel erhalten, indem sie Folgendes eingeben: `gpg --locate-key beispiel_nutzer@example.com`
 - Unterstützung für eine temporäre Mailbox für externe Benutzer. Dies ist nützlich, wenn du eine verschlüsselte E-Mail versenden möchtest, ohne eine Kopie an den Empfänger zu senden. Diese E-Mails haben in der Regel eine begrenzte Lebensdauer und werden dann automatisch gelöscht. Sie erfordern auch nicht, dass der Empfänger eine Kryptographie wie OpenPGP konfiguriert.
 - Verfügbarkeit der Dienste des E-Mail-Anbieters über einen [onion service](https://de.wikipedia.org/wiki/.onion).
-- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
+- Unterstützung [von Unteradressen](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
 - Catch-All- oder Alias-Funktionalität für diejenigen, die ihre eigenen Domains besitzen.
 - Verwendung von Standard-E-Mail-Zugangsprotokollen wie IMAP, SMTP oder [JMAP](https://de.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standardzugriffsprotokolle stellen sicher, dass die Kunden alle ihre E-Mails problemlos herunterladen können, sollten sie zu einem anderen Anbieter wechseln wollen.
 
@@ -332,13 +332,13 @@ Auf E-Mail-Servern werden viele sehr sensible Daten verarbeitet. Wir erwarten, d
 - Schutz von Webmail mit 2FA, wie TOTP.
 - Zero-Access-Verschlüsselung, baut auf Verschlüsselung im Ruhezustand auf. Der Anbieter verfügt nicht über die Entschlüsselungsschlüssel zu den Daten, die er besitzt. So wird verhindert, dass ein abtrünniger Mitarbeitender Daten preisgibt, auf die er/sie Zugriff hat, oder dass ein Angreifender Daten freigibt, die er/sie gestohlen hat, indem er/sie sich unbefugt Zugang zum Server verschafft.
 - [DNSSEC](https://de.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) Unterstützung.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- Keine TLS-Fehler oder -Schwachstellen beim Profiling durch Tools wie [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh)oder [Qualys SSL Labs](https://ssllabs.com/ssltest); dies schließt zertifikatsbezogene Fehler und schwache DH-Parameter ein, wie z. B. die, die zu [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) führten.
 - Eine Server-Suite-Präferenz (optional bei TLSv1.3) für starke Cipher-Suites, die Forward Secrecy und authentifizierte Verschlüsselung unterstützen.
 - Eine gültige [MTA-STS](https://tools.ietf.org/html/rfc8461) und [TLS-RPT](https://tools.ietf.org/html/rfc8460) Richtlinie.
 - Gültige [DANE](https://de.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) Datensätze.
 - Gültige [SPF](https://de.wikipedia.org/wiki/Sender_Policy_Framework) und [DKIM](https://de.wikipedia.org/wiki/DomainKeys_Identified_Mail) Einträge.
 - Besitzen eines ordnungsgemäßen [DMARC](https://de.wikipedia.org/wiki/DMARC) Datensatzes und einer Richtlinie oder verwenden von [ARC](https://de.wikipedia.org/wiki/Authenticated_Received_Chain) für die Authentifizierung. Wenn die DMARC-Authentifizierung verwendet wird, muss die Richtlinie auf `reject` oder `quarantine` eingestellt sein.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
+- Eine Server-Suite-Einstellung mit TLS 1.2 oder höher und ein Plan für [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - [SMTPS](https://de.wikipedia.org/wiki/SMTPS) Übermittlung, vorausgesetzt, SMTP wird verwendet.
 - Website-Sicherheitsstandards wie z. B.:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
@@ -347,7 +347,7 @@ Auf E-Mail-Servern werden viele sehr sensible Daten verarbeitet. Wir erwarten, d
 
 **Im Besten Fall:**
 
-- Unterstützung für Hardware-Authentifizierung, d.h. U2F und [WebAuthn](https://de.wikipedia.org/wiki/WebAuthn). U2F und WebAuthn sind sicherer, da sie zur Authentifizierung von Personen einen privaten Schlüssel verwenden, der auf einem clientseitigen Hardware-Gerät gespeichert ist, im Gegensatz zu einem gemeinsam genutzten Geheimnis, das bei der Verwendung von TOTP auf dem Webserver und auf der Clientseite gespeichert ist. Darüber hinaus sind U2F und WebAuthn resistenter gegen Phishing, da ihre Authentifizierungsantwort auf dem authentifizierten [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) basiert.
+- Unterstützung für Hardware-Authentisierung, z. B. U2F und [WebAuthn](https://de.wikipedia.org/wiki/WebAuthn). U2F und WebAuthn sind sicherer, da sie zur Authentifizierung von Personen einen privaten Schlüssel verwenden, der auf einem clientseitigen Hardware-Gerät gespeichert ist, im Gegensatz zu einem gemeinsam genutzten Geheimnis, das bei der Verwendung von TOTP auf dem Webserver und auf der Clientseite gespeichert ist. Darüber hinaus sind U2F und WebAuthn resistenter gegen Phishing, da ihre Authentisierungsantwort auf dem authentifizierten [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) basiert.
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) zusätzlich zur DANE-Unterstützung.
 - Implementierung von [Authenticated Received Chain (ARC)](https://de.wikipedia.org/wiki/Authenticated_Received_Chain), dies ist nützlich für Leute, die auf Mailinglisten posten [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Bug-Bounty-Programme und/oder ein koordiniertes Verfahren zur Offenlegung von Sicherheitslücken.
@@ -381,7 +381,7 @@ Es darf kein Marketing geben, das unverantwortlich ist:
 - Behauptung einer "unknackbaren Verschlüsselung". Die Verschlüsselung sollte in der Voraussicht eingesetzt werden, dass sie in Zukunft möglicherweise nicht mehr geheim ist, wenn die Technologie vorhanden ist, um sie zu knacken.
 - Gewährleistung eines 100%igen Schutzes der Anonymität. Wenn jemand behauptet, etwas sei zu 100% sicher, bedeutet das, dass es keine Sicherheit für ein Scheitern gibt. Wir wissen, dass Menschen sich auf verschiedene Weise recht einfach deanonymisieren können, z. B.:
 
-    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - Wiederverwendung persönlicher Informationen (z. B. E-Mail-Konten, eindeutige Pseudonyme usw.), auf die sie ohne Anonymisierungssoftware (Tor, VPN usw.) zugegriffen haben
     - [Browser-Fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Im besten Fall:**

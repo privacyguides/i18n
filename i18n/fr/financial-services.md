@@ -28,8 +28,8 @@ De nombreuses banques et fournisseurs de cartes de crédit proposent une fonctio
 
 L'offre gratuite de **Privacy.com** vous permet de créer jusqu'à 12 cartes virtuelles par mois, de fixer des limites de dépenses pour ces cartes et de les arrêter instantanément. Son offre payante vous permet de créer jusqu'à 36 cartes par mois, d'obtenir 1 % de remise en argent sur vos achats et de masquer les informations relatives aux transactions à votre banque.
 
-[:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
 
 </details>

@@ -35,10 +35,10 @@ Vous pouvez consulter le [tableau de matériel](https://openwrt.org/toh/start) d
 
 **OPNsense** est une plateforme de routage et de pare-feu open source basée sur FreeBSD qui intègre de nombreuses fonctionnalités avancées telles que la mise en forme du trafic, l'équilibrage de charge et des capacités VPN, avec de nombreuses autres fonctionnalités disponibles sous forme de plugins. OPNsense est généralement déployé comme pare-feu de périmètre, routeur, point d'accès sans fil, serveur DHCP, serveur DNS et point de terminaison VPN.
 
-[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://opnsense.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Code source" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribuer }
 
 </details>
 
