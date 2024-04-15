@@ -16,15 +16,15 @@
 *[DoH3]: DNS über HTTP/3
 *[DoT]: DNS über TLS
 *[E2EE]: Ende-zu-Ende-Verschlüsselung/Verschlüsselt
-*[ECS]: EDNS Client Subnet
+*[ECS]: EDNS Client Subnetz
 *[EWR]: Europäischer Wirtschaftsraum
 *[Entropie]: Ein Maß dafür, wie unvorhersehbar etwas ist
 *[EOL]: Ende des Produktlebens- oder Support-Zyklus. Gemeint ist häufig das Ende der Unterstützung mit Sicherheitsupdates.
-*[Exif]: Exchangeable image file format
-*[FCM]: Firebase Cloud Messaging
+*[Exif]: Austauschbares Bilddateiformat
+*[FCM]: Firebase-Cloud-Nachrichtendienst
 *[FDE]: vollständige Festplattenverschlüsselung
 *[FIDO]: Fast IDentity Online
-*[FS]: Forward Secrecy
+*[FS]: Forward Secrecy (vorwärts gerichtete Geheimhaltung)
 *[fork]: Ein neues Softwareprojekt, das durch Kopieren eines bestehenden Projekts und das unabhängige Hinzufügen erstellt wird
 *[DSGVO]: Datenschutzverordnung
 *[GPG]: GNU Privacy Guard (PGP-Implementierung)
@@ -36,7 +36,7 @@
 *[HTTPS]: sicheres Hypertext-Übertragungsprotokoll
 *[HTTP]: Hypertext-Übertragungsprotokoll
 *[Hypervisor]: Computer Software, -Firmware oder -Hardware welche die Ressourcen eines CPUs auf mehrere Betriebssysteme aufteilt
-*[ICCID]: Integrated Circuit Card Identifier
+*[ICCID]: Integrierter Schaltkreiskarten-Identifikator
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
@@ -45,7 +45,7 @@
 *[IPv6]: Internetprotokoll Version 6
 *[ISP]: Internetdienstanbieter
 *[ISPs]: Internetdienstanbieter
-*[JNI]: Java Native Interface
+*[JNI]: Native Java-Schnittstelle
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control

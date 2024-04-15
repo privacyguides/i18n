@@ -190,7 +190,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### VPN Providers
 
 <details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
+<summary>VPNs bieten keine Anonymität</summary>
 
 Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
