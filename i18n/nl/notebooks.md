@@ -154,6 +154,8 @@ Cryptee biedt gratis 100MB opslag, met betaalde opties als je meer nodig hebt. A
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
+### Minimale vereisten
+
 - Clients must be open source.
 - Elke cloud-synchronisatiefunctionaliteit moet E2EE zijn.
 - Moet het exporteren van documenten naar een standaardformaat ondersteunen.

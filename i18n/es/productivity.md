@@ -67,6 +67,8 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
+#### Requisitos Mínimos
+
 En general, definimos las plataformas de colaboración como paquetes completos que podrían actuar razonablemente como un sustituto de plataformas de colaboración como Google Drive.
 
 - Código abierto.

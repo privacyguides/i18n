@@ -67,6 +67,8 @@ Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_e
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
+#### Requisiti minimi
+
 In generale, definiamo le piattaforme di collaborazione come suite complete, che potrebbero ragionevolmente agire da sostituti alle piattaforme collaborative come Google Drive.
 
 - Open source.

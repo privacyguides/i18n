@@ -154,6 +154,8 @@ Cryptee ofrece 100MB de almacenamiento gratuito, con opciones de pago si necesit
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten proporcionar recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir usar un proyecto, y que lleves a cabo tu propia investigación para asegurarte de que es la elección correcta para ti.
 
+### Requisitos Mínimos
+
 - Los clientes deben ser de código abierto.
 - Cualquier funcionalidad de sincronización en la nube debe ser E2EE.
 - Debe permitir exportar documentos a un formato estándar.

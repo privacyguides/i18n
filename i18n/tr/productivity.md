@@ -67,6 +67,8 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
+#### Minimum Gereksinimler
+
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
 
 - Open source.
@@ -175,7 +177,7 @@ Genel olarak, ofis programlarını çoğu ihtiyaç için Microsoft Word'ün yeri
 
 **Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-#### Minimum Gereksinimler
+#### Minimum Requirements
 
 - Must be open source.
 - "Sıfır güven" uçtan uca şifreleme uygulamalıdır.

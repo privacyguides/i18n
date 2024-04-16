@@ -214,6 +214,8 @@ Session ha un [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) che descrive i 
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
+### Requisiti minimi
+
 - Ha client open-source.
 - Non richiede la condivisione di identificativi personali (numeri di telefono o e-mail in particolare) con i contatti.
 - Usa E2EE per i messaggi privati di default.

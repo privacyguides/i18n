@@ -154,6 +154,8 @@ A Cryptee 100MB tárhelyet kínál ingyenesen, fizetős lehetőséggel, ha több
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
+### Alap elvárások
+
 - Clients must be open source.
 - Minden felhőszinkronizálás funkciónak End-to-End titkosítottnak kell lennie.
 - Támogatnia kell dokumentumok szabványos formátumba történő exportálását.

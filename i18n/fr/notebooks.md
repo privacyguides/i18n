@@ -154,6 +154,8 @@ Cryptee offre 100 Mo de stockage gratuit, avec des options payantes si vous avez
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
+### Exigences minimales
+
 - Les clients doivent être open source.
 - Toute fonctionnalité de synchronisation cloud doit être E2EE.
 - Doit permettre l'export de documents dans un format standard.

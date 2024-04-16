@@ -67,6 +67,8 @@ O **CryptPad** é uma alternativa privada por design às ferramentas de escritó
 
 **Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
+#### Requisitos mínimos
+
 Em geral, definimos as plataformas de colaboração como suites completas que podem razoavelmente atuar como substitutos de plataformas de colaboração, como o Google Drive.
 
 - Open source.

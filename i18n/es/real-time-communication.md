@@ -214,6 +214,8 @@ Session tiene un [informe oficial](https://arxiv.org/pdf/2002.04609.pdf) que des
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
 
+### Requisitos Mínimos
+
 - Tiene clientes de código abierto.
 - No requiere compartir identificadores personales (números de teléfono o correos electrónicos en particular) con los contactos.
 - Utiliza por defecto E2EE para los mensajes privados.
