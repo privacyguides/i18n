@@ -108,9 +108,9 @@ Purtroppo non funziona molto bene nei Paesi in cui vengono impiegati filtri sofi
 
 Oltre a fornire file di configurazione OpenVPN standard, Proton VPN dispone di client mobile per [App Store](https://apps.apple.com/app/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) e [GitHub](https://github.com/ProtonVPN/android-app/releases) che consentono una facile connessione ai propri server.
 
-#### :material-alert-outline:{ .pg-orange } Note aggiuntive
+#### :material-information-outline:{ .pg-blue } Note aggiuntive
 
-I client di ProtonVPN supportano l'autenticazione a due fattori su tutte le piattaforme, tranne Linux, al momento. Proton VPN ha i propri server e datacenter in Svizzera, Islanda e Svezia. Offrono il blocco dei contenuti e il blocco di malware noti con il loro servizio DNS. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Proton VPN clients support two factor authentication on all platforms. Proton VPN ha i propri server e datacenter in Svizzera, Islanda e Svezia. Offrono il blocco dei contenuti e il blocco di malware noti con il loro servizio DNS. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
 
 ##### :material-alert-outline:{ .pg-orange } La funzione Killswitch non funziona sui Mac basati su Intel
 

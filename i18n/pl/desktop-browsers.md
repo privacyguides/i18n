@@ -69,17 +69,17 @@ Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md).
 
 **Mullvad Browser** to wersja [przeglądarki Tor](tor.md#tor-browser) z usuniętymi integracjami sieci Tor, mająca na celu dostarczenie technologii przeglądarki Tor Browser zapobiegającej odciskom palców użytkownikom VPN. Jest on rozwijany przez Tor Project i dystrybuowany przez [Mullvad](vpn.md#mullvad) i **nie** wymaga korzystania z VPN Mullvad.
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://mullvad.net/pl/download/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/pl/help/privacy-policy/){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://mullvad.net/pl/help/tag/mullvad-browser/){ .card-link title="Dokumentacja"}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pliki do pobrania</summary>
 
-- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
-- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+- [:simple-windows11: Windows](https://mullvad.net/pl/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/pl/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/pl/download/browser/linux)
 
 </details>
 
