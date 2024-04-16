@@ -129,6 +129,6 @@ The following is a human-readable summary of (and not a substitute for) the [lic
 
 </div>
 
-除非另有说明，否则本网站上的所有内容均根据 [Creative Commons Attribution-NoDerivatives 4.0国际公共许可证](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)的条款提供。 这意味着你可以自由地以任何媒介或形式复制和重新分发材料，用于任何目的，甚至是商业目的；只要你适当地注明 `隐私指南（www.privacyguides.org）` ，并提供许可证的链接。 您可以以任何合理的方式这样做，但不得以任何方式暗示隐私指南认可您或您的使用。 如果您重构、转换或建立在此网站的内容，您可能无法分发修改过的材料。
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
 
-设立这个许可证是为了防止人们在不给予适当信用的情况下分享我们的作品，并防止人们以可能被用来误导的方式修改我们的作品。 如果你觉得这个许可证的条款对你正在进行的项目来说限制性太大，请与我们联系： `jonah@privacyguides.org`。 我们很高兴为隐私领域的善意项目提供替代的许可选项
+You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.

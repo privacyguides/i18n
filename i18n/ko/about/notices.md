@@ -20,15 +20,15 @@ Privacy Guides is an open-source project contributed to under licenses that incl
 
 </div>
 
-별도 명시된 경우를 제외한 본 웹사이트의 모든 **콘텐츠**는 [크리에이티브 커먼즈(Creative Commons) 저작자표시-변경금지 4.0 국제 공공 라이선스](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)에 따라 이용할 수 있습니다. 본 웹사이트를 생성하고 해당 콘텐츠를 표시하는 데 기반으로 사용된 **소스 코드**는 [MIT 라이선스](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)에 따라 공개됩니다.
+Unless otherwise noted, all **content** on this website is released under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). This means that you can use the human-readable content on this website for your own project, as long as you give appropriate credit to [Privacy Guides](https://www.privacyguides.org) including a link where technically possible, and you release your project under the same license. You may not do so in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides brand trademarks in your own project without express approval from this project. Privacy Guides 브랜드 상표에는 'Privacy Guides' 로고타입과 방패 로고가 포함됩니다.
 
-저장소에 포함된 제3자 코드나 대체 라이선스가 별도 명시된 코드는 이에 포함되지 않습니다. 다음은 주요 예시이나, 여기에 나열되지 않은 사례가 있을 수 있습니다:
+본 웹사이트를 생성하고 해당 콘텐츠를 표시하는 데 기반으로 사용된 **소스 코드**는 [MIT 라이선스](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)에 따라 공개됩니다.
+
+This does not include third-party code embedded in the Privacy Guides code repository, or code where a superseding license is otherwise noted. 다음은 주요 예시이나, 여기에 나열되지 않은 사례가 있을 수 있습니다:
 
 * The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
 * The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
 * The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
-
-즉, 저장소 내용 중 사람이 읽을 수 있는 콘텐츠는 크리에이티브 커먼즈 저작자표시-변경금지 4.0 국제 공공 라이선스 텍스트에 명시된 조항에 따라 자신의 프로젝트에 사용할 수 있습니다. 단, 여러분은 라이선스를 중시하는 선에서 자유롭게 이용할 수 있지만 Privacy Guides가 여러분의 행위나 여러분 개인을 직접 보증/지지하는 듯이 표현해서는 안 됩니다. 여러분은 본 프로젝트에서 명시적으로 승인하지 않는 한 자신의 프로젝트에서 Privacy Guides 상표를 사용할 수 **없습니다**. Privacy Guides 브랜드 상표에는 'Privacy Guides' 로고타입과 방패 로고가 포함됩니다.
 
 Privacy Guides는 외부 제공 업체로부터 얻은 로고 및 각종 이미지(`assets`에 존재)에 대해, 퍼블릭 도메인이거나 공정 이용에 해당되는 것으로 판단하고 있습니다. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. 단, 로고 등의 이미지는 여전히 일부 관할권에서는 상표법의 적용을 받을 수 있습니다. 본 콘텐츠를 활용하기에 앞서 상표를 소유한 법인 및 단체를 식별하는 용도로 사용한 것이 맞는지 확인하고, 활용하고자 하는 상황에 적용되는 법률에 따라 해당 상표를 사용할 권리가 존재하는지 확인하세요. *여러분이 본 웹사이트의 콘텐츠를 복제할 때, 타인의 상표나 저작권을 침해하지 않도록 할 책임은 전적으로 여러분에게 있습니다.*
 

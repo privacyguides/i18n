@@ -20,15 +20,15 @@ Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括�
 
 </div>
 
-除非另有說明，否則本網站上的所有 **內容** 均根據 [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)的條款提供。 基礎 **源代碼** 用於生成本網站並顯示該內容是根據 [MIT 許可](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)發布。
+Unless otherwise noted, all **content** on this website is released under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). This means that you can use the human-readable content on this website for your own project, as long as you give appropriate credit to [Privacy Guides](https://www.privacyguides.org) including a link where technically possible, and you release your project under the same license. You may not do so in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides brand trademarks in your own project without express approval from this project. Privacy Guides  品牌商標包括 "Privacy Guides" 文字商標和盾牌標誌。
 
-這不包括嵌入在此儲存庫中的第三方代碼，或以其他方式注明取代許可證的代碼。 以下是引人注目的例子，但此列表可能不包括所有：
+基礎 **源代碼** 用於生成本網站並顯示該內容是根據 [MIT 許可](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)發布。
+
+This does not include third-party code embedded in the Privacy Guides code repository, or code where a superseding license is otherwise noted. 以下是引人注目的例子，但此列表可能不包括所有：
 
 * The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
 * The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
 * The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
-
-這意味著您可以根據 Creative Commons Attribution-NoDerivatives 4.0 國際公共許可證文本中概述的條款，將此存儲庫中的人類可讀內容用於自己的項目。 您可以依合理的方式這樣做，但不能以任何方式暗示 Privacy Guides 認可您或您的使用。 未經本專案明確同意，**不得**在任何專案中使用 Privacy Guides 品牌。 Privacy Guides  品牌商標包括 "Privacy Guides" 文字商標和盾牌標誌。
 
 我們認為，從第三方供應商`資產` 取得的標誌和圖像不是公有領域，就是**合理使用**。 簡而言之，法律 [合理使用原則](https://copyright.gov/fair-use/more-info.html) 允許使用受版權保護的圖像來識別主題以供公眾評論。 但是，這些標誌和圖像可能仍受一個或多個司法管轄區的商標法約束。 在使用此內容之前，請確保其用於識別擁有商標的實體或組織，並確保您有權根據適用所預期情況下的法律。 *從本網站複製內容時，您自行負責確保您不會侵犯他人的商標或版權。*
 

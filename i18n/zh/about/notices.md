@@ -20,15 +20,15 @@ The following is a human-readable summary of (and not a substitute for) the [lic
 
 </div>
 
-Unless otherwise noted, all **content** on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+Unless otherwise noted, all **content** on this website is released under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). This means that you can use the human-readable content on this website for your own project, as long as you give appropriate credit to [Privacy Guides](https://www.privacyguides.org) including a link where technically possible, and you release your project under the same license. You may not do so in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides brand trademarks in your own project without express approval from this project. 隐私指南的品牌商标包括“隐私指南”字样和盾形标志。
 
-这不包括嵌入此存储库的第三方代码，也不包括其他标注了替代许可证的代码。 以下是一些值得注意的例子，但这一清单可能不包括所有方面：
+The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+
+This does not include third-party code embedded in the Privacy Guides code repository, or code where a superseding license is otherwise noted. 以下是一些值得注意的例子，但这一清单可能不包括所有方面：
 
 * The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
 * The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
 * The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
-
-这意味着您可以根据Creative Commons Attribution-NoDerivatives 4.0国际公共许可证文本中列出的条款，将此存储库中的可读内容用于您自己的项目。 您可以以任何合理的方式这样做，但不得以任何方式暗示隐私指南认可您或您的使用。 **未经本项目的明确批准，您 **，不得在您自己的项目中使用隐私指南的品牌。 隐私指南的品牌商标包括“隐私指南”字样和盾形标志。
 
 我们认为从第三方提供商获得的 `资产` 中的标志和其他图像属于公共领域或 **合理使用**。 In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. 然而，在一个或多个司法管辖区，这些徽标和其他图像仍可能受商标法的约束。 在使用此内容之前，请确保其用于识别拥有商标的实体或组织，并且根据适用于您预期使用情况的法律，您有权使用商标。 *从本网站复制内容时，您应自行负责确保您不侵犯他人的商标或版权。*
 

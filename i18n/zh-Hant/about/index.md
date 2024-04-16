@@ -129,6 +129,6 @@ Additionally, [many people](https://github.com/privacyguides/privacyguides.org/g
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: 除非另有說明，本網站的原始內容將根據 [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)授權。 這意味著您可以自由以各種媒介或格式來複製和重新發布，用於入任何目的甚至包括商業，只要給予適當的註明 `Privacy Guides (www.privacyguides.org )` ，並提供版權授權連結。 您可以以任何合理的方式操作，但不能以任何方式暗示 Privacy Guides 為您或您的使用作背書。 如果重新混合，轉換或建立在本網站的內容上，您可能無法發布修改過的材料。
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
 
-這個授權是為了防止人們在不給予適當信用下分享我們的作品而，並防止人們可能因而遭誤導。 如果您發現此授權條款對您正在進行的專案過於嚴格，請來信`jonah@privacyguides.org`與我們聯繫。 我們很樂意為隱私領域的善意專案提供替代許可選項！
+You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.

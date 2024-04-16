@@ -20,15 +20,15 @@ Privacy Guides בנוסף אינם מתחייבים כי אתר זה יהיה ז
 
 </div>
 
-אלא אם צוין אחרת, כל ה**תוכן** באתר זה זמין תחת תנאי הרישיון [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). **קוד המקור** הבסיסי המשמש ליצירת אתר זה ולהצגת תוכן זה משוחרר תחת [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+Unless otherwise noted, all **content** on this website is released under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). This means that you can use the human-readable content on this website for your own project, as long as you give appropriate credit to [Privacy Guides](https://www.privacyguides.org) including a link where technically possible, and you release your project under the same license. You may not do so in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides brand trademarks in your own project without express approval from this project. סימני המסחר של המותג של מדריכי הפרטיות כוללים את סימן המילה "Privacy Guides" ואת לוגו המגן.
 
-זה לא כולל קוד של צד שלישי המוטמע במאגר זה, או קוד שבו צוין אחרת רישיון מחליף. להלן דוגמאות בולטות, אך ייתכן שרשימה זו אינה כוללת:
+**קוד המקור** הבסיסי המשמש ליצירת אתר זה ולהצגת תוכן זה משוחרר תחת [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
+
+This does not include third-party code embedded in the Privacy Guides code repository, or code where a superseding license is otherwise noted. להלן דוגמאות בולטות, אך ייתכן שרשימה זו אינה כוללת:
 
 * The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
 * The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
 * The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
-
-משמעות הדבר היא שאתה יכול להשתמש בתוכן הניתן לקריאה על ידי אדם במאגר זה עבור הפרויקט שלך, לפי התנאים המפורטים בטקסט של Creative Commons Attribution-NoDerivatives 4.0 International Public License. אתה רשאי לעשות זאת בכל דרך סבירה, אך לא בכל דרך שמציעה שPrivacy Guides מאשרים אותך או את השימוש שלך. **אינך רשאי** להשתמש במיתוג Privacy Guides בפרויקט שלך ללא אישור מפורש מפרויקט זה. סימני המסחר של המותג של מדריכי הפרטיות כוללים את סימן המילה "Privacy Guides" ואת לוגו המגן.
 
 אנו מאמינים שסמלי הלוגו ותמונות אחרות ב`נכסים` המתקבלים מספקי צד שלישי הם נחלת הכלל או ב**שימוש הוגן**. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. עם זאת, ייתכן שסמלים אלה ותמונות אחרות עדיין יהיו כפופות לחוקי סימנים מסחריים בתחומי שיפוט אחד או יותר. לפני השימוש בתוכן זה, אנא ודא שהוא משמש לזיהוי הישות או הארגון המחזיקים בסימן המסחרי וכי יש לך את הזכות להשתמש בו לפי החוקים החלים בנסיבות השימוש המיועד שלך. *בעת העתקת תוכן מאתר זה, אתה האחראי הבלעדי לוודא שאינך מפר סימן מסחרי או זכויות יוצרים של מישהו אחר.*
 

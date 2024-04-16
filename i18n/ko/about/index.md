@@ -129,6 +129,6 @@ Privacy Guides 팀원은 모든 변경 사항을 검토하고 웹 호스팅 및 
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-nd: 별도 명시된 경우를 제외한 본 웹사이트의 저작 콘텐츠는 [크리에이티브 커먼즈(Creative Commons) 저작자표시-변경금지 4.0 국제 공공 라이선스](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)에 따라 이용할 수 있습니다. 즉, 여러분은 `Privacy Guides (www.privacyguides.org)`로의 적절한 출처 표기와 라이선스 링크를 작성한다는 조건하에 상업적 용도를 포함하여 어떤 매체나 형식으로든 자유롭게 복제 및 재배포 가능합니다. 단, 여러분은 라이선스를 중시하는 선에서 자유롭게 이용할 수 있지만 Privacy Guides가 여러분의 행위나 여러분 개인을 직접 보증/지지하는 듯이 표현해서는 안 됩니다. 또한, 본 웹사이트의 콘텐츠를 변형하는 경우, 변형된 자료를 배포해서는 안 됩니다.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
 
-본 라이선스는 Privacy Guides의 저작물을 적절한 출처 표기 없이 공유하거나, 교묘하게 변형하여 사람들을 선동하는 등의 일이 일어나는 것을 방지하기 위해 채택하였습니다. 본 라이선스가 지나치게 제한적이어서 여러분의 프로젝트를 진행하는 데에 어려움이 있다면 `jonah@privacyguides.org`로 연락해 주세요. 프라이버시 분야에서 선의로 진행하는 프로젝트를 위해서라면 기꺼이 별도 라이선스 선택지를 제공해드릴 수 있습니다!
+You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
