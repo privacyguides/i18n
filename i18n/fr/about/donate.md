@@ -3,7 +3,7 @@ title: Nous soutenir
 ---
 
 <!-- markdownlint-disable MD036 -->
-Il faut beaucoup de [personnes](https://github.com/privacyguides/privacyguides.org/graphs/contributors) et de [travail](https://github.com/privacyguides/privacyguides.org/pulse/monthly) pour tenir à jour Privacy Guides et diffuser le mot sur la protection de la vie privée et la surveillance de masse. Si vous aimez ce que nous faisons, envisagez de vous impliquer en [éditant le site](https://github.com/privacyguides/privacyguides.org) ou en [contribuant aux traductions](https://crowdin.com/project/privacyguides).
+It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. Si vous aimez ce que nous faisons, envisagez de vous impliquer en [éditant le site](https://github.com/privacyguides/privacyguides.org) ou en [contribuant aux traductions](https://crowdin.com/project/privacyguides).
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Informations sur les dons</p>

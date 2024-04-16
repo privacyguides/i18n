@@ -19,7 +19,7 @@ Als je een instantie gebruikt die door iemand anders wordt beheerd, moet je het 
 
 ![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
 
-**Redlib** is an open-source frontend to the [Reddit](https://www.reddit.com) website that is also self-hostable.
+**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable.
 
 There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
 

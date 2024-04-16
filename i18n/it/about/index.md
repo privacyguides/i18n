@@ -117,7 +117,7 @@ Finora, nel 2023, abbiamo lanciato le traduzioni internazionali del nostro sito 
 
 </div>
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. Puoi farlo anche tu, siamo open source su GitHub e accettiamo suggerimenti per la traduzione su [Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](contributors.md) have made contributions to the project. Puoi farlo anche tu, siamo open source su GitHub e accettiamo suggerimenti per la traduzione su [Crowdin](https://crowdin.com/project/privacyguides).
 
 I membri del nostro team revisionano tutte le modifiche effettuate al sito web e gestiscono i doveri amministrativi, come l'hosting web e le finanze; tuttavia, non traggono alcun profitto personale da alcun contributo effettuato a questo sito. Le donazioni a Privacy Guides sono generalmente deducibili dalle tasse negli Stati Uniti.
 

@@ -117,7 +117,7 @@ Privacy Guides 於2021年9月推出，是 [已解散的](privacytools.md) "Priva
 
 </div>
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. 也可在 GitHub 或 [Crowdin](https://crowdin.com/project/privacyguides)提出翻譯建議。
+Additionally, [many people](contributors.md) have made contributions to the project. 也可在 GitHub 或 [Crowdin](https://crowdin.com/project/privacyguides)提出翻譯建議。
 
 團隊成員會審查對網站所做的所有更改，並處理網站託管和財務等管理職責，但他們不會從對本網站的任何貢獻中獲利。 在美國，對 Privacy Guides 捐贈通常可以減稅。
 

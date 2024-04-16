@@ -19,7 +19,7 @@ Cuando utilices una instancia gestionada por otra persona, asegúrate de leer la
 
 ![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
 
-**Redlib** is an open-source frontend to the [Reddit](https://www.reddit.com) website that is also self-hostable.
+**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable.
 
 Existen varias instancias públicas, algunas de las cuales disponen de soporte para servicios onion [Tor](tor.md).
 

@@ -19,7 +19,7 @@ Utilizzando un'istanza gestita da altri, assicurati di leggere la politica sulla
 
 ![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
 
-**Redlib** is an open-source frontend to the [Reddit](https://www.reddit.com) website that is also self-hostable.
+**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable.
 
 Esistono numerose istanze pubbliche, alcune dotate del supporto ai servizi onion di [Tor](tor.md).
 

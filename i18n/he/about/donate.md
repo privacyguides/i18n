@@ -3,7 +3,7 @@ title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
-It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. אם אתה אוהב את מה שאנחנו עושים, שקול להיות מעורב על ידי [עריכת האתר](https://github.com/privacyguides/privacyguides.org) או [תרומה בתרגום](https://crowdin.com/project/privacyguides).
+It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. אם אתה אוהב את מה שאנחנו עושים, שקול להיות מעורב על ידי [עריכת האתר](https://github.com/privacyguides/privacyguides.org) או [תרומה בתרגום](https://crowdin.com/project/privacyguides).
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Donation Information</p>

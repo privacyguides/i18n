@@ -117,7 +117,7 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 
 </div>
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. גם אתה יכול, אנחנו בקוד פתוח בגיטהאב ומקבלים הצעות תרגום ב-[Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](contributors.md) have made contributions to the project. גם אתה יכול, אנחנו בקוד פתוח בגיטהאב ומקבלים הצעות תרגום ב-[Crowdin](https://crowdin.com/project/privacyguides).
 
 חברי הצוות שלנו בודקים את כל השינויים שבוצעו באתר ומטפלים בתפקידים אדמיניסטרטיביים כגון אירוח אתרים ופיננסים, אולם הם אינם מרוויחים באופן אישי מכל תרומה כלשהי לאתר זה. תרומות ל-Privacy Guides ניתנות לניכוי מס בדרך כלל בארצות הברית.
 

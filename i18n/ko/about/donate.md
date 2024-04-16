@@ -3,7 +3,7 @@ title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
-It takes a lot of [people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. 저희의 노력을 응원하신다면 [사이트 편집 기여](https://github.com/privacyguides/privacyguides.org) 혹은 [번역 기여](https://crowdin.com/project/privacyguides)에 참여해보세요.
+It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. 저희의 노력을 응원하신다면 [사이트 편집 기여](https://github.com/privacyguides/privacyguides.org) 혹은 [번역 기여](https://crowdin.com/project/privacyguides)에 참여해보세요.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Donation Information</p>

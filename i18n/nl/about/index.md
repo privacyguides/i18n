@@ -117,7 +117,7 @@ Tot nu toe hebben we in 2023 internationale vertalingen van onze website gelance
 
 </div>
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](contributors.md) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Onze teamleden bekijken alle wijzigingen aan de website en nemen administratieve taken op zich zoals webhosting en financiën, maar zij profiteren niet persoonlijk van bijdragen aan deze site. Giften aan Privacy Guides zijn in het algemeen aftrekbaar van de belasting in de Verenigde Staten.
 

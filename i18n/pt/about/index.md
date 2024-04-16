@@ -117,7 +117,7 @@ Até ao momento, lançámos traduções internacionais do nosso site em [Francê
 
 </div>
 
-Additionally, [many people](https://github.com/privacyguides/privacyguides.org/graphs/contributors) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Additionally, [many people](contributors.md) have made contributions to the project. You can too, we're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
 Os membros da nossa equipa analisam todas as alterações feitas ao site e tratam das tarefas administrativas, como o alojamento Web e as finanças, sem que lucrem pessoalmente com quaisquer contribuições financeiras a este site. Os donativos para o Privacy Guides são geralmente dedutíveis nos Estados Unidos.
 
