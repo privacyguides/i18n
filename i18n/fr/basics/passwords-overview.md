@@ -1,7 +1,7 @@
 ---
-title: "Introduction to Passwords"
+title: "Introduction aux mots de passe"
 icon: 'material/form-textbox-password'
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: Voici quelques conseils et astuces pour créer des mots de passe plus forts et sécuriser vos comptes.
 ---
 
 Les mots de passe sont un élément essentiel de notre vie numérique quotidienne. Nous les utilisons pour protéger nos comptes, nos appareils et nos secrets. Bien qu'ils soient souvent la seule chose qui nous sépare d'un adversaire qui en veut à nos informations privées, ils ne font pas l'objet d'une réflexion approfondie, ce qui conduit souvent les gens à utiliser des mots de passe faciles à deviner ou à forcer.
@@ -27,7 +27,7 @@ Vous devez éviter de changer trop souvent les mots de passe que vous devez rete
 En ce qui concerne les mots de passe que vous n'avez pas à retenir (comme les mots de passe stockés dans votre gestionnaire de mots de passe), si votre [modèle de menace](threat-modeling.md) le demande, nous vous recommandons de passer en revue les comptes importants (en particulier les comptes qui n'utilisent pas l'authentification multi-facteurs) et de changer leur mot de passe tous les deux mois, au cas où ils auraient été compromis dans le cadre d'une fuite de données qui n'a pas encore été rendue publique. La plupart des gestionnaires de mots de passe vous permettent de fixer une date d'expiration pour votre mot de passe afin d'en faciliter la gestion.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
+<p class="admonition-title">Vérifier les fuites/violations de données</p>
 
 Si votre gestionnaire de mots de passe vous permet de vérifier les mots de passe compromis, assurez-vous de le faire et changez rapidement tout mot de passe qui pourrait avoir été exposé dans une fuite de données. Vous pouvez également suivre le flux [Dernières Brèches de Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) à l'aide d'un [agrégateur d'actualités](../news-aggregators.md).
 
@@ -54,13 +54,13 @@ Pour générer une phrase secrète diceware à l'aide de vrais dés, suivez ces 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
+Ces instructions supposent que vous utilisez [la grande liste de mots de l'EFF] (https://eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer la phrase d'authentification, ce qui nécessite cinq jets de dés par mot. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
 
 </div>
 
 1. Lancez cinq fois un dé à six faces, en notant le nombre après chaque lancer.
 
-2. Par exemple, disons que vous avez obtenu `2-5-2-6-6`. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. Par exemple, disons que vous avez obtenu `2-5-2-6-6`. Recherchez dans [la grande liste de mots du FEP](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) le mot correspondant à `25266`.
 
 3. Vous trouverez le mot `encrypt`. Notez ce mot.
 
@@ -75,7 +75,7 @@ Vous ne devez **pas** relancer les mots jusqu'à ce que vous obteniez une combin
 
 Si vous n'avez pas accès à de vrais dés ou si vous préférez ne pas en utiliser, vous pouvez utiliser le générateur de mots de passe intégré à votre gestionnaire de mots de passe, car la plupart d'entre eux ont la possibilité de générer des phrases secrètes diceware en plus des mots de passe ordinaires.
 
-We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. Il existe également [d'autres listes de mots dans différentes langues](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), si vous ne souhaitez pas que votre phrase secrète soit en anglais.
+Nous vous recommandons d'utiliser la [grande liste de mots de l'EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer vos phrases de passe diceware, car elle offre exactement la même sécurité que la liste originale, tout en contenant des mots plus faciles à mémoriser. Il existe également [d'autres listes de mots dans différentes langues](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), si vous ne souhaitez pas que votre phrase secrète soit en anglais.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
