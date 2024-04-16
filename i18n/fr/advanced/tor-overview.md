@@ -6,7 +6,7 @@ description: Tor est un réseau décentralisé, gratuit, conçu pour utiliser In
 
 ![Logo Tor](../assets/img/self-contained-networks/tor.svg){ align=right }
 
-[**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. S'il est utilisé correctement, le réseau permet une navigation et des communications privées et anonymes. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
+[**Tor**](../alternative-networks.md#tor) est un réseau décentralisé, gratuit, conçu pour utiliser Internet avec le plus de confidentialité possible. S'il est utilisé correctement, le réseau permet une navigation et des communications privées et anonymes. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
 
 Tor works by routing your internet traffic through volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. Cela permet de masquer la provenance du trafic, et aucun serveur sur le chemin de la connexion n'est en mesure de voir le chemin complet de la provenance et de la destination du trafic, ce qui signifie que même les serveurs que vous utilisez pour vous connecter ne peuvent pas briser votre anonymat.
 
