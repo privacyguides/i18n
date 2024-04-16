@@ -14,7 +14,7 @@ cover: photo-management.webp
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 其客戶端和伺服器端的程式碼都完全開源。 它可以 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting). 它分別於2023 年3 月接受了[Cure53](https://ente.io/blog/cryptography-audit) 和 2023 年 4 月[Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf)審核。
+**ente**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 其客戶端和伺服器端的程式碼都完全開源。 它可以 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting). 它分別於2023 年3 月接受了[Cure53](https://ente.io/blog/cryptography-audit) 和 2023 年 4 月[Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf)審核。 The free trial offers 1GB of storage, for a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }

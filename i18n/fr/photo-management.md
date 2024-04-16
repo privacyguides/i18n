@@ -14,7 +14,7 @@ La plupart des solutions cloud de gestion de photos, telles que Google Photos, F
 ![Logo ente](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Logo ente](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** est un service de sauvegarde de photos chiffré de bout en bout qui prend en charge les sauvegardes automatiques sur iOS et Android. Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+**ente** est un service de sauvegarde de photos chiffré de bout en bout qui prend en charge les sauvegardes automatiques sur iOS et Android. Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023. L'essai gratuite offre 1GB de stockage, pendant un an.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }

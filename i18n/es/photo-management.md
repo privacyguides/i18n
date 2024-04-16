@@ -14,7 +14,7 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 ![ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** es un servicio de copia de seguridad de fotos cifrado de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Su código es totalmente abierto, tanto en el lado del cliente como en el del servidor. Es [autoalojable](https://github.com/ente-io/ente/tree/main/server#self-hosting). Se sometió a una [auditoría por Cure53](https://ente.io/blog/cryptography-audit) en marzo de 2023 y por [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) en abril de 2023.
+**ente** es un servicio de copia de seguridad de fotos cifrado de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Su código es totalmente abierto, tanto en el lado del cliente como en el del servidor. Es [autoalojable](https://github.com/ente-io/ente/tree/main/server#self-hosting). Se sometió a una [auditoría por Cure53](https://ente.io/blog/cryptography-audit) en marzo de 2023 y por [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) en abril de 2023. The free trial offers 1GB of storage, for a year.
 
 [:octicons-home-16: Página Principal](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
