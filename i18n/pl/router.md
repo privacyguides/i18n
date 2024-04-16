@@ -1,7 +1,7 @@
 ---
 title: "Oprogramowanie routera"
 icon: material/router-wireless
-description: These alternative operating systems can be used to secure your router or Wi-Fi access point.
+description: Te alternatywne systemy operacyjne mogą być wykorzystane do zabezpieczenia routera lub punktu dostępowego Wi-Fi.
 cover: router.webp
 ---
 
@@ -31,14 +31,14 @@ Zapoznaj się z [listą obsługiwanych urządzeń](https://openwrt.org/toh/start
 
 <div class="admonition recommendation" markdown>
 
-![OPNsense logo](assets/img/router/opnsense.svg){ align=right }
+![Logo OPNsense](assets/img/router/opnsense.svg){ align=right }
 
-**OPNsense** is an open-source, FreeBSD-based firewall and routing platform which incorporates many advanced features such as traffic shaping, load balancing, and VPN capabilities, with many more features available in the form of plugins. Po zainstalowaniu na komputerze pełni rolę dedykowanej zapory sieciowej/routera dla sieci i wyróżnia się niezawodnością oraz oferuje funkcje, które można często znaleźć tylko w drogich zaporach sieciowych.
+**OPNsense** to oparta na FreeBSD platforma firewall i routingu o otwartym kodzie źródłowym, która zawiera wiele zaawansowanych funkcji, takich jak kształtowanie ruchu, równoważenie obciążenia i funkcje VPN, z wieloma innymi funkcjami dostępnymi w postaci wtyczek. Po zainstalowaniu na komputerze pełni rolę dedykowanej zapory sieciowej/routera dla sieci i wyróżnia się niezawodnością oraz oferuje funkcje, które można często znaleźć tylko w drogich zaporach sieciowych.
 
-[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Strona główna](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title="Przyczyń się" }
 
 </details>
 
@@ -46,10 +46,10 @@ Zapoznaj się z [listą obsługiwanych urządzeń](https://openwrt.org/toh/start
 
 OPNsense zostało pierwotnie opracowane na podstawie [pfSense](https://en.wikipedia.org/wiki/PfSense), a oba te projekty są znane z bycia bezpłatnymi i niezawodnymi dystrybucjami zapór sieciowych, które oferują funkcje dostępne często tylko w drogich komercyjnych zaporach sieciowych. Począwszy od 2015 roku programiści OPNsense [ujawnili](https://docs.opnsense.org/history/thefork.html) wiele problemów dotyczących bezpieczeństwa i jakości kodu pfSense, co popchnęło ich w stronę utworzenia pochodnego projektu, jak również obawy związane z większościowym zakupem pfSense przez Netgate i przyszłym kierunkiem rozwoju projektu.
 
-## Criteria
+## Kryteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Pamiętaj, że nie jesteśmy związani z żadnym z zalecanych projektów.** W dodatku do [naszych standardowych kryteriów](about/criteria.md), opracowaliśmy zestaw wymagań, które umożliwiają nam podejmowanie obiektywnych decyzji. Zalecamy zapoznanie się z tą listą przed zdecydowaniem o wyborze projektu oraz przeprowadzenie własnego rozeznania, aby upewnić się, że będzie dobrym wyborem dla Ciebie.
 
-- Wymagane jest otwarte źródło.
+- Musi być open source.
 - Wymagane są regularne aktualizacje.
-- Must support a wide variety of hardware.
+- Wymagane jest wsparcie dla szerokiej gamy sprzętu.

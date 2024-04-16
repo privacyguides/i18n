@@ -179,7 +179,7 @@ In general, we define office suites as applications which could reasonably act a
 
 #### Minimum Requirements
 
-- Wymagane jest otwarte źródło.
+- Musi być open source.
 - Must implement "zero-trust" end-to-end encryption.
 - Must support password-protected files.
 

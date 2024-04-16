@@ -8,7 +8,7 @@ hide:
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of **any** kind are welcome to be added to [this list](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), including contributions to Privacy Guides outside of this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
 
-| Emoji | Type       | Description                                                                                                                                     |
+| Emoji | Typ        | Beskrivning                                                                                                                                     |
 | ----- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | 📖    | `doc`      | A contributor to the content on [privacyguides.org](https://www.privacyguides.org/en/).                         |
 | 👀    | `review`   | Someone who has taken the time to review [pull requests](https://github.com/privacyguides/privacyguides.org/pulls) to the site. |

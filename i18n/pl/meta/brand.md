@@ -1,5 +1,5 @@
 ---
-title: Branding Guidelines
+title: Wytyczne dotyczące brandingu
 ---
 
 Nazwa strony to **Privacy Guides** i **nie** powinna być zmieniana na:

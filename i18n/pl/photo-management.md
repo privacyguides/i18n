@@ -97,7 +97,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
 - Must use standard, audited encryption.
-- Wymagane jest otwarte źródło.
+- Musi być open source.
 
 ### Best Case
 

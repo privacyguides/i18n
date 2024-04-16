@@ -57,7 +57,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
@@ -67,6 +67,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 - [:simple-linux: Linux](https://notesnook.com/downloads)
 - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+- [:octicons-globe-16: Web](https://app.notesnook.com)
 
 </details>
 

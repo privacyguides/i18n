@@ -85,7 +85,7 @@ Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md).
 
 </div>
 
-Podobnie jak [Tor Browser](tor.md), przeglądarka Mullvad Browser została zaprojektowana w celu zapobiegania pozostawiania odcisku palcac w sieci poprzez uczynienie odcisku palca przeglądarki identycznym ze wszystkimi innymi użytkownikami Mullvad Browser i zawiera domyślne ustawienia i rozszerzenia, które są automatycznie konfigurowane przez domyślne poziomy bezpieczeństwa: *Standardowy*, *Bezpieczniejszy* i *Najbezpieczniejszy*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). Inne modyfikacje sprawiłyby, że odcisk palca byłby unikalny, co uniemożliwiłoby prawidłowe i bezpiecznie korzystanie z tej przeglądarki. Jeśli chcesz bardziej skonfigurować swoją przeglądarkę, a fingerprinting nie jest dla Ciebie problemem, zalecamy zamiast tego [Firefox](#firefox).
+Podobnie jak [Tor Browser](tor.md), przeglądarka Mullvad Browser została zaprojektowana w celu zapobiegania pozostawiania odcisku palcac w sieci poprzez uczynienie odcisku palca przeglądarki identycznym ze wszystkimi innymi użytkownikami Mullvad Browser i zawiera domyślne ustawienia i rozszerzenia, które są automatycznie konfigurowane przez domyślne poziomy bezpieczeństwa: *Standardowy*, *Bezpieczniejszy* i *Najbezpieczniejszy*. Dlatego konieczne jest, aby w ogóle nie modyfikować przeglądarki poza dostosowaniem domyślnych [poziomów bezpieczeństwa](https://tb-manual.torproject.org/security-settings). Inne modyfikacje sprawiłyby, że odcisk palca byłby unikalny, co uniemożliwiłoby prawidłowe i bezpiecznie korzystanie z tej przeglądarki. Jeśli chcesz bardziej skonfigurować swoją przeglądarkę, a fingerprinting nie jest dla Ciebie problemem, zalecamy zamiast tego [Firefox](#firefox).
 
 ### Ochrona przed fingerprintingiem
 
@@ -95,7 +95,7 @@ Podobnie jak [Tor Browser](tor.md), przeglądarka Mullvad Browser została zapro
 
 Należy pamiętać, że chociaż można korzystać z Mullvad Browser z dowolnym dostawcą VPN, inne osoby w tej sieci VPN muszą również korzystać z Mullvad Browser, aby ten "tłum" mógł istnieć, co jest bardziej prawdopodobne w przypadku Mullvad VPN w porównaniu z innymi dostawcami, szczególnie tak blisko uruchomienia Mullvad Browser. Mullvad Browser nie ma wbudowanej łączności VPN, ani nie sprawdza, czy korzystasz z VPN przed przeglądaniem; połączenie VPN musi być skonfigurowane i zarządzane osobno.
 
-Przeglądarka Mullvad Browser jest dostarczana z preinstalowanymi rozszerzeniami przeglądarki *uBlock Origin* i *NoScript*. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. </em> Przeglądarka jest również dostarczana z preinstalowanym rozszerzeniem przeglądarki Mullvad, które *można bezpiecznie usunąć bez wpływu na odcisk palca przeglądarki, ale można je również bezpiecznie pozostawić, nawet jeśli nie korzystasz z Mullvad VPN.</p>
+Przeglądarka Mullvad Browser jest dostarczana z preinstalowanymi rozszerzeniami przeglądarki *uBlock Origin* i *NoScript*. Chociaż zazwyczaj odradzamy dodawanie *dodatkowych* [rozszerzeń przeglądarki](browser-extensions.md), te rozszerzenia, które są fabrycznie zainstalowane z przeglądarką, **nie** powinny być usuwane ani konfigurowane poza ich domyślnymi wartościami, ponieważ spowodowałoby to zauważalne odróżnienie odcisku palca przeglądarki od innych użytkowników Mullvad Browser. </em> Przeglądarka jest również dostarczana z preinstalowanym rozszerzeniem przeglądarki Mullvad, które *można bezpiecznie usunąć bez wpływu na odcisk palca przeglądarki, ale można je również bezpiecznie pozostawić, nawet jeśli nie korzystasz z Mullvad VPN.</p>
 
 ### Tryb prywatny przeglądarki
 
@@ -105,7 +105,7 @@ Jest to wymagane, aby zapobiec zaawansowanym formom śledzenia, ale odbywa się 
 
 ### Mullvad Leta
 
-Mullvad Browser jest dostarczany z DuckDuckGo ustawionym jako domyślna wyszukiwarka [](search-engines.md), ale jest również preinstalowany z **Mullvad Leta**, wyszukiwarką, która wymaga aktywnej subskrypcji Mullvad VPN, aby uzyskać do niej dostęp. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Z tego powodu odradzamy korzystanie z Mullvad Leta, mimo że Mullvad zbiera bardzo mało informacji o swoich subskrybentach VPN.
+Mullvad Browser jest dostarczany z DuckDuckGo ustawionym jako domyślna wyszukiwarka [](search-engines.md), ale jest również preinstalowany z wyszukiwarką **Mullvad Leta**, która wymaga aktywnej subskrypcji Mullvad VPN, aby uzyskać do niej dostęp. Mullvad Leta odpytuje bezpośrednio API płatnego wyszukiwania Google, dlatego jest ograniczona do płatnych subskrybentów. Jednak z powodu tego ograniczenia Mullvad może skorelować zapytania wyszukiwania i konta Mullvad VPN. Z tego powodu odradzamy korzystanie z Mullvad Leta, mimo że Mullvad zbiera bardzo mało informacji o swoich subskrybentach VPN.
 
 ## Firefox
 
@@ -115,18 +115,18 @@ Mullvad Browser jest dostarczany z DuckDuckGo ustawionym jako domyślna wyszukiw
 
 **Firefox** zapewnia silne ustawienia prywatności, takie jak [wzmocniona ochrona przed śledzeniem](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop), które mogą pomóc zablokować różne [rodzaje śledzenia](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop#w_co-blokuje-wzmocniona-ochrona-przed-sledzeniem).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
+[:octicons-home-16: Strona główna](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/pl/privacy/firefox){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Dokumentacja"}
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Przyczyń się" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pliki do pobrania</summary>
 
-- [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
-- [:simple-apple: macOS](https://mozilla.org/firefox/mac)
-- [:simple-linux: Linux](https://mozilla.org/firefox/linux)
+- [:simple-windows11: Windows](https://www.mozilla.org/pl/firefox/windows)
+- [:simple-apple: macOS](https://mozilla.org/pl/firefox/mac)
+- [:simple-linux: Linux](https://mozilla.org/pl/firefox/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
 </details>
@@ -134,19 +134,19 @@ Mullvad Browser jest dostarczany z DuckDuckGo ustawionym jako domyślna wyszukiw
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Ostrzeżenie</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox zawiera unikalny [token pobierania](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) w pobieraniach ze strony Mozilli i używa telemetrii w Firefox, aby wysłać token. Token **nie jest** zawarty w wydaniach z [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
-### Recommended Firefox Configuration
+### Zalecana konfiguracja przeglądarki Firefox
 
 Opcje te można znaleźć na stronie :material-menu: → **Ustawienia**
 
 #### Wyszukiwarka
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Odznacz **Pokaż sugestie wyszukiwania**
 
 Funkcje sugestii wyszukiwania mogą być niedostępne w danym regionie.
 
@@ -154,9 +154,9 @@ Sugestie wyszukiwania wysyłają wszystko, co wpisujesz w pasku adresu, do domy�
 
 ##### Firefox Suggest (tylko USA)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie sugestii wyszukiwania. Jeśli nie widzisz tych opcji pod **paskiem adresu strony** , nie masz tej funkcjonalności i możesz zignorować te zmiany.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) to funkcja podobna do sugestii wyszukiwania, która jest dostępna tylko w Stanach Zjednoczonych. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie sugestii wyszukiwania. Jeśli nie widzisz tych opcji pod **paskiem adresu strony** , nie masz tej funkcjonalności i możesz zignorować te zmiany.
 
-- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Odznacz **Sugestie z Firefox**
 - [ ] Usuń zaznaczenie **Sugestie od sponsorów**
 
 #### Prywatność i bezpieczeństwo
@@ -183,12 +183,12 @@ Chroni to użytkownika przed trwałymi plikami cookie, ale nie chroni przed plik
 
 > Firefox wysyła o nas dane o wersji i języku Firefoksa, systemie operacyjnym urządzeniach i konfiguracji sprzętowej, pamięci, podstawowe informacje o awariach i błędach oraz wynikach zautomatyzowanych procesów, takich jak aktualizacje, bezpieczne przeglądanie i aktywacja. Gdy przeglądarka Firefox wysyła nasze dane, adres IP użytkownika jest tymczasowo gromadzony w dziennikach serwera.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
+Ponadto usługa Mozilla Accounts gromadzi [pewne dane techniczne](https://mozilla.org/privacy/mozilla-accounts). Jeśli korzystasz z konta Firefox, możesz z tego zrezygnować:
 
 1. Otwórz ustawienia profilu [na accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Usuń zaznaczenie **Gromadzenie i wykorzystywanie danych** > **Pomóż ulepszyć konta Firefox**
 
-##### HTTPS-Only Mode
+##### Tryb tylko HTTPS
 
 - [x] Select **Enable HTTPS-Only Mode in all windows**
 
