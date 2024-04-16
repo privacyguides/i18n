@@ -23,7 +23,7 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 ![Proton Drive 로고](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive**는 유명한 스위스의 암호화 이메일 서비스 제공 업체인 [Proton Mail](email.md#proton-mail)의 암호화 클라우드 스토리지 서비스입니다.
+**Proton Drive**는 유명한 스위스의 암호화 이메일 서비스 제공 업체인 [Proton Mail](email.md#proton-mail)의 암호화 클라우드 스토리지 서비스입니다. The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }

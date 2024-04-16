@@ -40,6 +40,8 @@ A **Standard Notes** egy egyszerű és privát jegyzetkezelő alkalmazás, amely
 
 </div>
 
+Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-forces-with-proton) as of April 10, 2024.
+
 ### Notesnook
 
 <div class="admonition recommendation" markdown>

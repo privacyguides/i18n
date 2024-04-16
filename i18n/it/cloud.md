@@ -23,7 +23,7 @@ Nextcloud è [ancora uno strumento consigliato](productivity.md) per il self-hos
 
 ![Logo di Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** è un fornitore svizzero di spazio d'archiviazione crittografato su cloud, del popolare fornitore di email crittografate, [Proton Mail](email.md#proton-mail).
+**Proton Drive** è un fornitore svizzero di spazio d'archiviazione crittografato su cloud, del popolare fornitore di email crittografate, [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Informativa sulla Privacy" }
