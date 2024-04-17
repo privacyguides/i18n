@@ -81,7 +81,7 @@ Você também deve ter cuidado com o fato de que muitos sites de avaliação de 
 
 Recentemente, várias organizações fizeram algumas tentativas para resolver alguns problemas que as VPNs centralizadas apresentam. Essas tecnologias são relativamente novas, mas vale a pena ficar de olho no desenvolvimento do campo.
 
-### Multi-Party Relays
+### Múltiplos Relays
 
 Os MPRs (Multi-Party Relays) usam vários nós pertencentes a diferentes partes, de modo que nenhuma parte individual saiba quem você é e a que está se conectando. Essa é a ideia básica por trás do Tor, mas agora existem alguns serviços pagos que tentam emular esse modelo.
 
@@ -101,14 +101,14 @@ Outros MPRs administrados por empresas diferentes, como o Google ou o INVISV, op
 
 Outra tentativa de resolver os problemas com serviços de VPN centralizados são as dVPNs. Eles se baseiam na tecnologia “blockchain” e afirmam eliminar a confiança em uma única parte, distribuindo os nós entre várias pessoas diferentes. No entanto, muitas vezes uma dVPN terá como padrão um único nó, o que significa que você precisa confiar totalmente nesse nó, assim como em uma VPN tradicional. Diferentemente de uma VPN tradicional, esse único nó que pode ver todo o seu tráfego é uma pessoa aleatória, em vez de seu provedor de VPN, que pode ser auditado e tem responsabilidades legais para manter sua política de privacidade. Para solucionar esse problema, é necessário um salto múltiplo, mas isso tem um custo de estabilidade e desempenho.
 
-Outra consideração é a responsabilidade jurídica. O nó de saída precisará lidar com problemas legais decorrentes do uso indevido da rede, uma questão com a qual a rede Tor tem lutado durante toda a sua existência. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+Outra consideração é a responsabilidade jurídica. O nó de saída precisará lidar com problemas legais decorrentes do uso indevido da rede, uma questão com a qual a rede Tor tem lutado durante toda a sua existência. Isso desencoraja as pessoas comuns de rodar nós e o torna mais atraente para um ator malicioso com muitos recursos para hospedar um. Esse é um grande problema se o serviço for de nó único, pois o nó de saída potencialmente mal-intencionado pode ver quem você é e a que está se conectando.
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+Muitas dVPNs são usadas para promover uma criptomoeda em vez de oferecer o melhor serviço. Elas também tendem a ser redes menores, com menos nós, o que as torna mais vulneráveis a [ataques Sybil](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## Informações Relacionadas a VPN
 
-- [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
+- [O problema com os sites de análise de VPN e privacidade](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
 - [Investigação de Aplicativos VPN Gratuitos](https://top10vpn.com/research/free-vpn-investigations/ownership)
 - [Proprietários Secretos de VPN revelados: 101 produtos VPN operados por apenas 23 empresas](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
 - [Esta empresa chinesa está secretamente por trás de 24 aplicativos populares que pedem permissões perigosas](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
-- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
+- [VPN - uma narrativa muito precária](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) por Dennis Schubert

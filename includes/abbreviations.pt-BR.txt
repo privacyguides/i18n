@@ -1,7 +1,7 @@
 *[2FA]: Autenticação de dois fatores
 *[ADB]: Android Debug Bridge
 *[AOSP]: Projeto Open Source Android
-*[ATA]: Advanced Technology Attachment
+*[ATA]: Acessório de tecnologia avançada
 *[superfície de ataque]: O número total de pontos de entrada possíveis para o acesso não autorizado a um sistema
 *[AVB]: Inicialização Verificada do Android
 *[cgroups]: Grupos de Controle
