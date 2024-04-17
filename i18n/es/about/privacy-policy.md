@@ -8,17 +8,17 @@ Privacy Guides es un proyecto comunitario gestionado por una serie de colaborado
 
 La privacidad de los visitantes de nuestro sitio web es importante para nosotros, por lo que no rastreamos a ninguna persona en particular. Como visitante de nuestro sitio web:
 
-- No personal information is stored
+- No se almacenan datos personales
 - No se comparte, envía o vente su información a terceros
 - No se comparte su información con compañías de publicidad
 - No se extrae ni se recolecta información para obtener tendencias personales y de comportamiento
 - No se monetiza la información
 
-You can view the data we collect on our [statistics](statistics.md) page.
+Puedes ver los datos recolectados en nuestra página de [estadísticas](statistics.md).
 
-We run a self-hosted installation of [Umami](https://umami.is) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only, and no personal data is stored.
+Ejecutamos una instancia propia de [Umami](https://umami.is) para recolectar algunos datos anónimos de uso con fines estadísticos. El objetivo es hacer un seguimiento de las tendencias generales en el tráfico de nuestro sitio web, no para rastrear visitantes individuales. Todos los datos son agregados y no se almacenan datos personales.
 
-The only data which is collected is data sent in a standard web request, which includes referral sources, the page you're visiting, your user agent, your IP address, and your screen resolution. The raw data is immediately discarded after statistics have been generated, for example if we collect your screen resolution as `1125x2436`, the only data we retain is "mobile device" and not your specific resolution.
+Los únicos datos recolectados son los datos enviados en una consulta web estándar, que incluyen las fuentes de referencia, la página que estás visitando, tu agente de usuario, tu dirección IP y la resolución de tu pantalla. Los datos brutos son descartados inmediatamente luego de que las estadísticas son generadas, por ejemplo, si recolectamos la resolución de tu pantalla como `1125x2436`, los únicos datos que conservamos son "dispositivo móvil" y no tu resolución específica.
 
 ## Datos que recopilamos de los titulares de cuentas
 
