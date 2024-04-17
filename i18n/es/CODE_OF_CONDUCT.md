@@ -12,11 +12,11 @@ Lo que esperamos de los miembros de nuestras comunidades:
 
 1. **No difundas información incorrecta**
 
-      Estamos creando una comunidad educativa basada en pruebas en torno a la privacidad y la seguridad de la información, no un hogar informativo para teorías conspirativas. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Las afirmaciones de esta naturaleza deben estar respaldadas por pruebas técnicas.
+      Estamos creando una comunidad educativa basada en pruebas en torno a la privacidad y la seguridad de la información, no un hogar informativo para teorías conspirativas. Por ejemplo, al realizar un reclamo indicando que algún programa es malicioso o ciertos datos telemétricos invaden la privacidad, explica detalladamente qué y cómo es recopilado. Las afirmaciones de esta naturaleza deben estar respaldadas por pruebas técnicas.
 
 2. **No abuses de nuestra voluntad a ayudar**
 
-      Los miembros de nuestra comunidad no son un servicio técnico gratuito. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **No** te conviertas en un [vampiro de la ayuda](https://slash7.com/2006/12/22/vampires).
+      Los miembros de nuestra comunidad no son un servicio técnico gratuito. Nos complacerá ayudarte con pasos específicos en tu camino hacia la privacidad, si estás dispuesto a colaborar. No estamos obligados a responder preguntas interminables o preguntas repetitivas sobre problemas generales de computadoras que se pueden solucionar con una simple búsqueda en Internet. **No** te conviertas en un [vampiro de la ayuda](https://slash7.com/2006/12/22/vampires).
 
 3. **Compórtate de manera positiva y constructiva**
 
@@ -25,7 +25,7 @@ Lo que esperamos de los miembros de nuestras comunidades:
       - Respetar las opiniones, puntos de vista y experiencias divergentes.
       - Demostrar empatía y amabilidad hacia los demás.
       - Centrarse en lo que es mejor no solo para nosotros como supervisores, sino para la comunidad en general.
-      - Giving and gracefully accepting constructive feedback within our community while growing and improving.
+      - Dar y aceptar elegantemente los comentarios constructivos de nuestra comunidad, mientras crecemos y mejoramos.
       - Actuar con mentalidad comunitaria en todo momento.
 
 ## Comportamiento Inaceptable
@@ -34,7 +34,7 @@ Los siguientes comportamientos se consideran acoso y son inaceptables dentro de 
 
 - Cualquier otra conducta que razonablemente pudiera considerarse inapropiada en un entorno profesional.
 - Acoso público y/o privado de cualquier tipo.
-- Publishing others' private information, such as a physical address and/or an email address, without their explicit permission.
+- Publicar información privada de los demás, como una dirección física yy/o una dirección de correo electrónico, sin el permiso explícito.
 - El uso de lenguaje o imágenes sexualizados, y las atenciones o insinuaciones sexuales de cualquier tipo.
 - Trollear, insultar y/o escribir comentarios despectivos, incluidos ataques personales o políticos.
 

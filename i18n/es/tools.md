@@ -17,9 +17,9 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji loading=lazy } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![logo de Tor Browser](assets/img/browsers/tor.svg){ .twemoji loading=lazy } [Tor Browser](tor.md#tor-browser)
+- ![logo de Orbot](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Proxy de Tor para teléfonos)](tor.md#orbot)
+- ![logo de Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor para iOS)](tor.md#onion-browser)
 
 </div>
 
@@ -29,9 +29,9 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
+- ![logo de Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![logo de Firefox](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
+- ![logo de Brave](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
 
 </div>
 
@@ -41,9 +41,9 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave (Android)](mobile-browsers.md#brave)
+- ![logo de Brave](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave (Android)](mobile-browsers.md#brave)
 - ![Mull logo](assets/img/browsers/mull.svg){ .twemoji loading=lazy } [Mull (Android)](mobile-browsers.md#mull)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji loading=lazy } [Safari (iOS)](mobile-browsers.md#safari)
+- ![logo de Safari](assets/img/browsers/safari.svg){ .twemoji loading=lazy } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
 
@@ -53,9 +53,9 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
-- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
+- ![logo de uBlock Origin](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![logo de uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![logo de AdGuard](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard para iOS](browser-extensions.md#adguard)
 
 </div>
 
@@ -481,7 +481,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 Estas herramientas pueden ser útiles para determinadas personas. Proporcionan funcionalidades de las que la mayoría de la gente no necesita preocuparse, y a menudo requieren conocimientos técnicos más profundos para utilizarlas con eficacia.
 
-### Alternative Networks
+### Redes Alternativas
 
 <div class="grid cards" markdown>
 

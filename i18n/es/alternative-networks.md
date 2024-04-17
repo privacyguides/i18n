@@ -62,21 +62,21 @@ Puedes activar Snowflake en tu navegador al abrirlo en otra pestaña y activar e
 
 Snowflake no aumenta tu privacidad de ninguna manera, ni se utiliza para conectar con la red Tor desde tu navegador personal. Sin embargo, si tu conexión a Internet no está censurada, deberías considerar ejecutarlo para ayudar a mejorar la privacidad de las personas en redes censuradas. No es necesasrio preocuparte sobre cuales páginas acceden las personas a través de tu proxy—su dirección IP visible coincidirá con su nodo de salida de Tor, no el tuyo.
 
-Running a Snowflake proxy is low-risk, even more so than running a Tor relay or bridge which are already not particularly risky endeavours. However, it does still proxy traffic through your network which can be impactful in some ways, especially if your network is bandwidth-limited. Make sure you understand [how Snowflake works](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) before deciding whether to run a proxy.
+Running a Snowflake proxy is low-risk, even more so than running a Tor relay or bridge which are already not particularly risky endeavours. Sin embargo, el tráfico de proxy pasa a través de tu red, lo que puede impactar de varias maneras, especialmente si el tráfico de tu red es limitado. Asegúrate de comprender [cómo funciona Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) antes de tomar la decisión de ejecutar un proxy.
 
-### I2P (The Invisible Internet Project)
+### I2P (El Proyecto de Internet Invisible)
 
 <div class="admonition recommendation" markdown>
 
-![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
-![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
+![logo de I2P](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
+![logo de I2P](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
-**I2P** is an network layer which encrypts your connections and routes them via a network of computers distributed around the world. It is mainly focused on creating an alternative, privacy-protecting network rather than making regular internet connections anonymous.
+**I2P** es una capa de red que cifra tus conexiones y las enruta a través de una red de computadoras distribuidas alrededor del mundo. Está enfocada principalmente en crear una red alternativa que protege la privacidad, en vez de anonimizar las conexiones regulares a Internet.
 
-[:octicons-home-16: Homepage](https://geti2p.net/en){ .md-button .md-button--primary }
-[:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/i2p/i2p.i2p){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Contribute }
+[:octicons-home-16: Página principal](https://geti2p.net/en){ .md-button .md-button--primary }
+[:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Documentación }
+[:octicons-code-16:](https://github.com/i2p/i2p.i2p){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -91,17 +91,17 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 
 </div>
 
-Unlike Tor, all I2P traffic is internal to the I2P network, which means regular internet websites are **not** directly accessible from I2P. Instead, you can connect to websites which are hosted anonymously and directly on the I2P network, which are called "eepsites" and have domains which end in `.i2p`.
+A diferencia de Tor, todo el tráfico de I2P es interno a la red I2P, lo que significa que los sitios web regulares de Internet **no** se pueden acceder directamente desde I2P. En su lugar, puedes conectarte a sitios web que son alojador de manera anónima y directamente en la red I2P, que son llamados "eepsites" y tienen dominios terminados en `.i2p`.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">¡Pruébalo!</p>
 
-You can try connecting to _Privacy Guides_ via I2P at [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p).
+Puedes tratar de conectarte a _Privacy Guides_ a través de I2P en [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p).
 
 </div>
 
-Also, unlike Tor, every I2P node will relay traffic for other users by default, instead of relying on dedicated relay volunteers to run nodes. There are approximately [10,000](https://metrics.torproject.org/networksize.html) relays and bridges on the Tor network compared to ~50,000 on I2P, meaning there is potentially more ways for your traffic to be routed to maximize anonymity. I2P also tends to be more performant than Tor, although this is likely a side-effect of Tor being more focused on regular "clearnet" internet traffic and thus using more bottlenecked exit nodes. Hidden service performance is generally considered to be much better on I2P compared to Tor. While running P2P applications like BitTorrent is challenging on Tor (and can massively impact Tor network performance), it is very easy and performant on I2P.
+Además, a diferencia de Tor, cada nodo de I2P retransmite el tráfico para otros usuarios por defecto, en vez de depender de voluntarios dedicados a la retransmisión para ejecutar los nodos. Hay aproximadamente [10,000](https://metrics.torproject.org/networksize.html) repetidores y puentes en la red Tor, comparador a los ~50,000 en I2P, significando que hay potenciamente más formas de enrutar tu tráfico para maximizar el anonimato. I2P también tiende a ser más eficiente que Tor, pero esto puede deberse a que Tor está más enfocado en el tráfico regular de Internet "limpio", por lo que usa más nodos de salida con cuellos de botella. El rendimiento del servicio oculto es, por lo general, considerado mucho mejor en I2P a comparación de Tor. Mientras la ejecución de aplicaciones como BitTorrent es complicado en Tor (y puede impactar masivamente el rendimiento de la red Tor), es muy fácil y eficiente en I2P.
 
-There are downsides to I2P's approach, however. Tor relying on dedicated exit nodes means more people in less safe environments can use it, and the relays that do exist on Tor are likely to be more performant and stable, as they generally aren't run on residential connections. Tor is also far more focused on **browser privacy** (i.e. anti-fingerprinting), with a dedicated [Tor Browser](tor.md) to make browsing activity as anonymous as possible. I2P is used via your [regular web browser](desktop-browsers.md), and while you can configure your browser to be more privacy-protecting, you probably still won't have the same browser fingerprint as other I2P users (there's no "crowd" to blend in with in that regard).
+Sin embargo, I2P presenta sus desventajas. La dependencia de Tor en nodos de salida dedicados significa que más personas en entornos menos seguros pueden usarlo, y los repetidores que existen en Tor son probablemente más eficientes y estables, porque generalmente no son ejecutados en conexiones residenciales. Tor también está más enfocado en la **privacidad del navegador** (ej: protección ante las huellas dactilares), con un [Navegador Tor](tor.md) dedicado para anonimizar la actividad de navegación lo máximo posible. I2P es usado a través de tu [navegador regular de Internet](desktop-browsers.md) y mientras puedes configurar tu navegador para que proteja mejor tu privacidad, probablemente tu navegador no tiene la misma huella dactilar que otros usuarios de I2P (no hay una "multitud" para camuflarte).
 
-Tor is likely to be more resistant to censorship, due to their robust network of bridges and varying [pluggable transports](https://tb-manual.torproject.org/circumvention). On the other hand, I2P uses directory servers for the initial connection which are varying/untrusted and run by volunteers, compared to the hard-coded/trusted ones Tor uses which are likely easier to block.
+Es probable que Tor sea más resistente a la censura, debido a su robusta red de puentes y diversos [transportes conectables](https://tb-manual.torproject.org/circumvention). Por otro lado, I2P usa servidores de directorio para la conexión inicial, que pueden ser variables/no fiables y ejecutados por voluntarios, a comparación de los codificados/fiables que Tor usa y probablemente son más fáciles de bloquear.
