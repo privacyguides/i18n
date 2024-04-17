@@ -1,11 +1,11 @@
 ---
-title: Email Aliasing
+title: Alias de courrier électronique
 icon: material/email-lock
 description: Un service d'alias d'adresses électroniques vous permet de générer facilement une nouvelle adresse électronique pour chaque site web auquel vous vous inscrivez.
 cover: email-aliasing.webp
 ---
 
-Un service d'alias d'adresses électroniques vous permet de générer facilement une nouvelle adresse électronique pour chaque site web auquel vous vous inscrivez. Les alias que vous générez sont ensuite transférés vers une adresse électronique de votre choix, masquant ainsi votre adresse électronique "principale" et l'identité de votre [fournisseur d'adresses électroniques](email.md). True email aliasing is better than plus addressing commonly used and supported by many providers, which allows you to create aliases like `yourname+[anythinghere]@example.com`, because websites, advertisers, and tracking networks can trivially remove anything after the `+` sign. Organizations like the [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) require that advertisers [normalize email addresses](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) so that they can be correlated and tracked, regardless of users' privacy wishes.
+Un service d'alias d'adresses électroniques vous permet de générer facilement une nouvelle adresse électronique pour chaque site web auquel vous vous inscrivez. Les alias que vous générez sont ensuite transférés vers une adresse électronique de votre choix, masquant ainsi votre adresse électronique "principale" et l'identité de votre [fournisseur d'adresses électroniques](email.md). Un véritable alias d'adresse électronique est préférable à l'adressage plus couramment utilisé et pris en charge par de nombreux fournisseurs, qui vous permet de créer des alias du type "nom de famille+[n'importe où]@exemple.com", parce que les sites web, les annonceurs et les réseaux de suivi peuvent trivialement supprimer tout ce qui se trouve après le signe `+`. Des organisations telles que l'[IAB] (https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) exigent que les annonceurs [normalisent les adresses électroniques] (https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) afin qu'elles puissent être corrélées et suivies, sans tenir compte des souhaits des utilisateurs en matière de protection de la vie privée.
 
 <div class="grid cards" markdown>
 
@@ -14,22 +14,22 @@ Un service d'alias d'adresses électroniques vous permet de générer facilement
 
 </div>
 
-Email aliasing can also act as a safeguard in case your email provider ever ceases operation. In that scenario, you can easily re-route your aliases to a new email address. In turn, however, you are placing trust in the aliasing service to continue functioning.
+L'alias d'e-mail peut également servir de protection au cas où votre fournisseur E-Mail cesserait ses activités. Dans ce cas, vous pouvez facilement rediriger vos alias vers une nouvelle adresse e-mail. En revanche, vous faites confiance au service d'alias pour qu'il continue de fonctionner.
 
-Using a dedicated email aliasing service also has a number of benefits over a catch-all alias on a custom domain:
+L'utilisation d'un service d'alias d'e-mail dédié présente également un certain nombre d'avantages par rapport à un alias fourre-tout sur un domaine personnalisé :
 
-- Aliases can be turned on and off individually when you need them, preventing websites from emailing you randomly.
-- Replies are sent from the alias address, shielding your real email address.
+- Les alias peuvent être activés et désactivés individuellement lorsque vous en avez besoin, ce qui empêche les sites web de vous envoyer des courriels au hasard.
+- Les réponses sont envoyées à partir de l'adresse alias, masquant ainsi votre véritable adresse électronique.
 
-They also have a number of benefits over "temporary email" services:
+Ils présentent également un certain nombre d'avantages par rapport aux services de "courrier électronique temporaire" :
 
-- Aliases are permanent and can be turned on again if you need to receive something like a password reset.
-- Emails are sent to your trusted mailbox rather than stored by the alias provider.
-- Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, while aliases are private to you.
+- Les alias sont permanents et peuvent être réactivés si vous devez recevoir quelque chose comme une réinitialisation de mot de passe.
+- Les courriels sont envoyés à votre boîte aux lettres électronique de confiance plutôt que d'être stockés par le fournisseur d'alias.
+- Les services de messagerie temporaire proposent généralement des boîtes aux lettres publiques accessibles à toute personne connaissant l'adresse, alors que les alias sont privés.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
+Nos recommandations en matière d'alias de courrier électronique concernent des fournisseurs qui vous permettent de créer des alias sur des domaines qu'ils contrôlent, ainsi que sur votre ou vos propres domaines personnalisés, moyennant une redevance annuelle modique. Ils peuvent également être auto-hébergés si vous souhaitez un contrôle maximal. Toutefois, l'utilisation d'un domaine personnalisé peut présenter des inconvénients en matière de protection de la vie privée : Si vous êtes la seule personne à utiliser votre domaine personnalisé, vos actions peuvent être facilement suivies sur les sites web simplement en regardant le nom de domaine dans l'adresse électronique et en ignorant tout ce qui se trouve avant le signe at (@).
 
-Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with Automatic PGP Encryption, which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
+L'utilisation d'un service d'alias nécessite de faire confiance à la fois à votre fournisseur de courrier électronique et à votre fournisseur d'alias pour vos messages non cryptés. Certains fournisseurs atténuent légèrement ce problème grâce au cryptage automatique PGP, qui réduit le nombre de parties auxquelles vous devez faire confiance de deux à une en cryptant les courriels entrants avant qu'ils ne soient livrés à votre fournisseur de boîte aux lettres finale.
 
 ### addy.io
 
@@ -37,7 +37,7 @@ Using an aliasing service requires trusting both your email provider and your al
 
 ![addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases which are less anonymous.
+**addy.io** vous permet de créer gratuitement 10 alias de domaine sur un domaine partagé, ou un nombre illimité d'alias "standard", qui sont moins anonymes.
 
 [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
@@ -57,15 +57,15 @@ Using an aliasing service requires trusting both your email provider and your al
 
 </div>
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can create unlimited standard aliases which end in a domain like @[username].addy.io or a custom domain on paid plans. However, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+Le nombre d'alias partagés (qui se terminent par un domaine partagé comme @addy.io) que vous pouvez créer est limité à 10 sur le plan gratuit d'addy.io, à 50 sur leur plan à 1 $/mois et illimité sur le plan à 4 $/mois (facturé 3 $ pour un an). Vous pouvez créer un nombre illimité d'alias standard qui se terminent par un domaine comme @[nom d'utilisateur].addy.io ou un domaine personnalisé sur les plans payants. Toutefois, comme indiqué précédemment, cela peut nuire à la protection de la vie privée, car les gens peuvent facilement relier vos alias standard en se basant uniquement sur le nom de domaine. Ils sont utiles lorsqu'un domaine partagé peut être bloqué par un service. Securitum a [audité](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io en septembre 2023 et aucune vulnérabilité importante [n'a été identifiée](https://addy.io/addy-io-security-audit.pdf).
 
-Notable free features:
+Fonctionnalités gratuites notables :
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Standard Aliases
+- [x] 10 Alias partagés
+- [x] Alias standard illimités
 - [ ] No Outgoing Replies
-- [x] 1 Recipient Mailbox
-- [x] Automatic PGP Encryption
+- [x] 1 boîte aux lettres pour les destinataires
+- [x] Chiffrement PGP automatique
 
 ### SimpleLogin
 
@@ -73,7 +73,7 @@ Notable free features:
 
 ![Simplelogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
 
-**SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
+**SimpleLogin** est un service gratuit qui fournit des alias de courrier électronique sur une variété de noms de domaine partagés, et offre en option des fonctions payantes comme des alias illimités et des domaines personnalisés.
 
 [:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
@@ -97,17 +97,17 @@ Notable free features:
 
 SimpleLogin a été [racheté par Proton AG] (https://proton.me/news/proton-and-simplelogin-join-forces) le 8 avril 2022. Si vous utilisez Proton Mail pour votre boîte mail principale, SimpleLogin est un excellent choix. Les deux produits étant désormais détenus par la même société, vous ne devez plus faire confiance qu'à une seule entité. Nous supposons également que SimpleLogin sera plus étroitement intégré aux offres de Proton à l'avenir. SimpleLogin continue de prendre en charge la redirection vers le fournisseur d'e-mail de votre choix. Securitum a [audité](https://simplelogin.io/blog/security-audit) SimpleLogin au début de 2022 et tous les problèmes [ont été résolus](https://simplelogin.io/audit2022/web.pdf).
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have the Proton Unlimited, Business, or Visionary Plan, you will have SimpleLogin Premium for free.
+Vous pouvez lier votre compte SimpleLogin dans les paramètres avec votre compte Proton. Si vous avez le plan Proton Unlimited, Business ou Visionary, vous aurez SimpleLogin Premium gratuitement.
 
-Notable free features:
+Fonctionnalités gratuites notables :
 
-- [x] 10 Shared Aliases
-- [x] Unlimited Replies
-- [x] 1 Recipient Mailbox
-- [ ] Automatic PGP Encryption is only available on paid plans
+- [x] 10 Alias partagés
+- [x] Réponses illimitées
+- [x] 1 boîte aux lettres pour les destinataires
+- [ ] Le chiffrement automatique PGP n'est disponible que sur les abonnements payants
 
 ## Critères
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we evaluate email aliasing providers to the same standard as our regular [email provider criteria](email.md#criteria) where applicable. We suggest you familiarize yourself with this list before choosing an email service, and conduct your own research to ensure the provider you choose is the right choice for you.
+\*\*En plus de [nos critères standards] (about/criteria.md), nous évaluons les fournisseurs d'alias d'email selon les mêmes critères que nos [critères pour les fournisseurs d'email] (email.md#criteria), le cas échéant. Nous vous conseillons de vous familiariser avec cette liste avant de choisir un service de courrier électronique et de mener vos propres recherches pour vous assurer que le fournisseur que vous choisissez est celui qui vous convient le mieux.
 
-\*[Automatic PGP Encryption]: Allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.
+\*[Chiffrement PGP automatique] : Vous permet de chiffrer les messages entrants non chiffrés avant qu'ils ne soient transférés vers votre boîte aux lettres, afin de vous assurer que votre fournisseur de messagerie principal ne voit jamais le contenu des messages non chiffrés.
