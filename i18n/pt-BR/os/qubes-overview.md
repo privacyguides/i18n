@@ -53,11 +53,11 @@ Você pode [copiar e mover arquivos](https://qubes-os.org/doc/how-to-copy-and-mo
 
 ### Interações entre VMs
 
-The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
+A [estrutura qrexec](https://qubes-os.org/doc/qrexec) é uma parte essencial do Qubes que permite a comunicação entre domínios. Ele foi desenvolvido com base na biblioteca Xen *vchan*, que facilita [o isolamento através de políticas](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
 
-## Connecting to Tor via a VPN
+## Conectando-se ao Tor por meio de uma VPN
 
-We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
+Recomendamos [que](../advanced/tor-overview.md) você se conecte à rede Tor por meio de um provedor de [VPN](../vpn.md) e, felizmente, o Qubes facilita isso com uma combinação de ProxyVMs e Whonix.
 
 After [creating a new ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
 
