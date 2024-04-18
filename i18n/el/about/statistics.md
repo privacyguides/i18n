@@ -1,16 +1,16 @@
 ---
-title: Traffic Statistics
+title: Στατιστικά στοιχεία διαδικτυακή κίνησης
 ---
 
 <!-- markdownlint-disable MD051 -->
 
-We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below. With this process:
+Εμείς οι ίδιοι φιλοξενούμε το [Umami](https://umami.is) για να δημιουργήσουμε μια ωραία απεικόνιση των στατιστικών στοιχείων της επισκεψιμότητάς μας, τα οποία είναι δημόσια στον παρακάτω σύνδεσμο. Με αυτή τη διαδικασία:
 
-- Your information is never shared with a third-party, it stays on servers we control
-- Your personal data is never saved, we only collect data in aggregate
-- No client-side JavaScript is required
+- Οι πληροφορίες σας δεν κοινοποιούνται ποτέ σε τρίτους, παραμένουν σε διακομιστές που ελέγχουμε εμείς.
+- Τα προσωπικά σας δεδομένα δεν αποθηκεύονται ποτέ, συλλέγουμε δεδομένα μόνο συγκεντρωτικά.
+- Δεν απαιτείται JavaScript από την πλευρά του επισκέπτη.
 
-Because of these facts, keep in mind our statistics may be inaccurate. It is a useful tool to compare different dates with each other and analyze overall trends, but the actual numbers may be far off from reality. They're _precise_ statistics, but not _accurate_ statistics.
+Εξαιτίας αυτών των γεγονότων, έχετε υπόψη σας ότι τα στατιστικά μας στοιχεία μπορεί να είναι ανακριβή. Είναι ένα χρήσιμο εργαλείο για τη σύγκριση διαφορετικών ημερομηνιών μεταξύ τους και την ανάλυση των συνολικών τάσεων, αλλά οι πραγματικοί αριθμοί μπορεί να απέχουν πολύ από την πραγματικότητα. Είναι _ακριβή_ στατιστικά στοιχεία, αλλά όχι _λεπτομερή_ στατιστικά στοιχεία.
 
-[View Statistics](https://stats.privacyguides.net/share/nVWjyd2QfgOPBhMF/www.privacyguides.org){ .md-button .md-button--primary }
-[Opt-Out](#__consent){ .md-button }
+[Προβολή στατιστικών στοιχείων](https://stats.privacyguides.net/share/nVWjyd2QfgOPBhMF/www.privacyguides.org){ .md-button .md-button--primary }
+[Εξαίρεση](#__consent){ .md-button }
