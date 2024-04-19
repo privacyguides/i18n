@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Mobila webbläsare som respekterar integritet för Android och iOS - Privacy Guides"
 title: "Mobila webbläsare"
 icon: material/cellphone-information
 description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
@@ -154,7 +154,7 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
-Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] a powerful security feature that protects against a malicious site performing a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-like attack to gain access to the memory of another website you have open.[^2] Chromium-based browsers like [Brave](#brave) will provide more robust protection against malicious websites.
+Firefox (Gecko)-baserade webbläsare på Android [saknar](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [sidisolering](https://wiki.mozilla.org/Project_Fission),[^1] en kraftfull säkerhetsfunktion som skyddar när en hemsida försöker utföra en [Spectre](https://sv.wikipedia.org/wiki/Spectre_(s%C3%A4kerhetsh%C3%A5l))-liknande attack för att få tillgång till minnet av en annan hemsida du har öppen.[^2] Chromiumbaserade webbläsare som [Brave](#brave) ger bättre skydd mote farliga hemsidor.
 
 </div>
 
@@ -162,13 +162,13 @@ Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official) to receiv
 
 Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 
-#### Recommended Mull Configuration
+#### Rekommenderad konfiguration för Mull
 
-We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
+Vi föreslår att du installerar [uBlock Origin](browser-extensions.md#ublock-origin) som en innehållsblockerare om du vill blockera trackers inom Mull.
 
 Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
 
-Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
+Eftersom att Mull har mer avancerade och strikta integritetsskyddsinställningar aktiverade automatiskt jämfört med många webbläsare kan en del hemsidor stoppas från att laddas, eller inte fungera som tänkt, om du inte ändrar de inställningarna. Den här [listan med kända fel och lösningar](https://divestos.org/pages/broken#mull) kan ge dig tips om hur du kan åtgärda felen när du råkar på en sida som inte laddar korrekt. Att ändra inställningar för att fixa en sida som laddar fel kan påverka integritet och säkerhet, så var säker på att du förstår alla instruktioner du följer.
 
 ## iOS
 
