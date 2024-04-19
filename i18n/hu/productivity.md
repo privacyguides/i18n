@@ -171,6 +171,22 @@ Az **OnlyOffice** egy felhőalapú, ingyenes és nyílt forráskódú irodai pro
 
 </div>
 
+### Követelmények
+
+**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+
+#### Alap elvárások
+
+- Nyílt forráskódúnak kell lennie.
+- Must implement "zero-trust" end-to-end encryption.
+- Must support password-protected files.
+
+#### Legjobb esetben
+
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
+
+- Should have a published audit from a reputable, independent third-party.
+
 ## Language services
 
 ### LanguageTool
@@ -208,14 +224,5 @@ Az **OnlyOffice** egy felhőalapú, ingyenes és nyílt forráskódú irodai pro
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
 
-#### Alap elvárások
-
 - Nyílt forráskódúnak kell lennie.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
-
-#### Legjobb esetben
-
-A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
-
-- Should have a published audit from a reputable, independent third-party.
+- Must be possible to self-host.

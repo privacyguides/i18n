@@ -171,6 +171,22 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
 
 </div>
 
+### Criteria
+
+**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
+
+#### Minimale vereisten
+
+- Moet open source zijn.
+- End-to-end versleuteling, "zero-trust", moet worden geïmplementeerd.
+- Moet wachtwoordbeveiligde bestanden ondersteunen.
+
+#### Beste geval
+
+Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
+
+- Moet een gepubliceerde audit hebben van een gerenommeerde, onafhankelijke derde partij.
+
 ## Language services
 
 ### LanguageTool
@@ -208,14 +224,5 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
-#### Minimale vereisten
-
 - Moet open source zijn.
-- End-to-end versleuteling, "zero-trust", moet worden geïmplementeerd.
-- Moet wachtwoordbeveiligde bestanden ondersteunen.
-
-#### Beste geval
-
-Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
-
-- Moet een gepubliceerde audit hebben van een gerenommeerde, onafhankelijke derde partij.
+- Must be possible to self-host.

@@ -171,6 +171,22 @@ In generale, definiamo suite da ufficio le applicazioni che potrebbero ragionevo
 
 </div>
 
+### Criteri
+
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+
+#### Requisiti minimi
+
+- Deve essere open source.
+- Deve implementare la crittografia end-to-end "a fiducia zero".
+- Deve supportare i file protetti da password.
+
+#### Miglior Caso
+
+I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
+
+- Dovrebbe disporre di un controllo pubblicato da una terza parte affidabile e indipendente.
+
 ## Language services
 
 ### LanguageTool
@@ -208,14 +224,5 @@ In generale, definiamo suite da ufficio le applicazioni che potrebbero ragionevo
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-#### Requisiti minimi
-
 - Deve essere open source.
-- Deve implementare la crittografia end-to-end "a fiducia zero".
-- Deve supportare i file protetti da password.
-
-#### Miglior Caso
-
-I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
-
-- Dovrebbe disporre di un controllo pubblicato da una terza parte affidabile e indipendente.
+- Must be possible to self-host.

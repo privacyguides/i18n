@@ -171,6 +171,22 @@ En general, definimos las paquetes ofimáticos como aplicaciones que podrían su
 
 </div>
 
+### Criterios
+
+**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+
+#### Requisitos Mínimos
+
+- Debe ser de código abierto.
+- Debe implementar el cifrado de extremo a extremo de "confianza cero".
+- Debe admitir archivos protegidos por contraseña.
+
+#### Mejor Caso
+
+Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
+
+- Debe tener una auditoría publicada por una tercera parte independiente y de buena reputación.
+
 ## Language services
 
 ### LanguageTool
@@ -208,14 +224,5 @@ En general, definimos las paquetes ofimáticos como aplicaciones que podrían su
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-#### Requisitos Mínimos
-
 - Debe ser de código abierto.
-- Debe implementar el cifrado de extremo a extremo de "confianza cero".
-- Debe admitir archivos protegidos por contraseña.
-
-#### Mejor Caso
-
-Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
-
-- Debe tener una auditoría publicada por una tercera parte independiente y de buena reputación.
+- Must be possible to self-host.

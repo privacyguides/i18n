@@ -171,6 +171,22 @@ En général, nous définissons les suites bureautiques comme des applications q
 
 </div>
 
+### Critères
+
+**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+
+#### Exigences minimales
+
+- Doit être open-source.
+- Doit implémenter le chiffrement de bout en bout "à confiance zéro".
+- Doit prendre en charge les fichiers protégés par un mot de passe.
+
+#### Dans le meilleur des cas
+
+Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+
+- Devrait disposer d'un audit publié par une tierce partie indépendante et réputée.
+
 ## Language services
 
 ### LanguageTool
@@ -208,14 +224,5 @@ En général, nous définissons les suites bureautiques comme des applications q
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
-#### Exigences minimales
-
 - Doit être open-source.
-- Doit implémenter le chiffrement de bout en bout "à confiance zéro".
-- Doit prendre en charge les fichiers protégés par un mot de passe.
-
-#### Dans le meilleur des cas
-
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
-
-- Devrait disposer d'un audit publié par une tierce partie indépendante et réputée.
+- Must be possible to self-host.

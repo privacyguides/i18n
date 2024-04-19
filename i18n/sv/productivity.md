@@ -171,6 +171,22 @@ In general, we define office suites as applications which could reasonably act a
 
 </div>
 
+### Kriterier
+
+**Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
+
+#### Minimikrav
+
+- Måste vara öppen källkod.
+- Must implement "zero-trust" end-to-end encryption.
+- Must support password-protected files.
+
+#### Bästa fall
+
+Våra kriterier för bästa fall representerar vad vi skulle vilja se av det perfekta projektet i denna kategori. Våra rekommendationer kanske inte innehåller alla eller några av dessa funktioner, men de som gör det kan vara högre rankade än andra på den här sidan.
+
+- Should have a published audit from a reputable, independent third-party.
+
 ## Language services
 
 ### LanguageTool
@@ -208,14 +224,5 @@ In general, we define office suites as applications which could reasonably act a
 
 **Observera att vi inte är knutna till något av de projekt som vi rekommenderar.** Förutom [våra standardkriterier](about/criteria.md)har vi utvecklat en tydlig uppsättning krav som gör det möjligt för oss att ge objektiva rekommendationer. Vi föreslår att du bekantar dig med den här listan innan du väljer att använda ett projekt, och att du gör din egen forskning för att se till att det är rätt val för dig.
 
-#### Minimikrav
-
 - Måste vara öppen källkod.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
-
-#### Bästa fall
-
-Våra kriterier för bästa fall representerar vad vi skulle vilja se av det perfekta projektet i denna kategori. Våra rekommendationer kanske inte innehåller alla eller några av dessa funktioner, men de som gör det kan vara högre rankade än andra på den här sidan.
-
-- Should have a published audit from a reputable, independent third-party.
+- Must be possible to self-host.
