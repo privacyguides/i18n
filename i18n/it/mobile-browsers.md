@@ -131,13 +131,6 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 ### Mull
 
-<div class="admonition danger" markdown>
-<p class="admonition-title">Attenzione</p>
-
-I browser basati su Firefox (Gecko) su Android [mancano l'isolamento dei processi per sito](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196), una potente funzione di sicurezza che offre una protezione aggiuntiva contro un sito web dannoso che sfrutta una vulnerabilità di sicurezza. La mancanza di questa funzione probabilmente non rappresenterà un problema per i browser web a basso rischio che mantengono il proprio browser aggiornato, ma coloro che visitano siti ad alto rischio o che sono a rischio di attacchi mirati/0-day dovrebbero prendere in considerazione un browser basato su Chromium come [Brave](#brave).
-
-</div>
-
 <div class="admonition recommendation" markdown>
 
 ![Logo Mull](assets/img/browsers/mull.svg){ align=right }
@@ -158,6 +151,13 @@ I browser basati su Firefox (Gecko) su Android [mancano l'isolamento dei process
 
 </div>
 
+<div class="admonition danger" markdown>
+<p class="admonition-title">Attenzione</p>
+
+Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] a powerful security feature that protects against a malicious site performing a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-like attack to gain access to the memory of another website you have open.[^2] Chromium-based browsers like [Brave](#brave) will provide more robust protection against malicious websites.
+
+</div>
+
 Attiva [F-Droid Repo](https://divestos.org/fdroid/official) di DivestOS per ricevere gli aggiornamenti direttamente dallo sviluppatore. Scaricando Mull dalla repo predefinita di F-Droid, gli aggiornamenti potrebbero ritardare di qualche giorno o più.
 
 Mull abilita molte delle funzionalità sviluppate dal [progetto Tor uplift](https://wiki.mozilla.org/Security/Tor_Uplift) utilizzando le preferenze di [Arkenfox](desktop-browsers.md#arkenfox-advanced). I blob proprietari vengono rimossi dal codice di Mozilla utilizzando gli script sviluppati per Fennec F-Droid.
@@ -167,6 +167,8 @@ Mull abilita molte delle funzionalità sviluppate dal [progetto Tor uplift](http
 Suggeriamo di installare [uBlock Origin](browser-extensions.md#ublock-origin) come blocco dei contenuti se si desidera bloccare i tracker all'interno di Mull.
 
 Mull è dotato di impostazioni di protezione della privacy configurate di default. Si può prendere in considerazione la possibilità di configurare l'opzione **Elimina dati di navigazione all'uscita ** nelle impostazioni di Mull, se si desidera chiudere automaticamente tutte le schede aperte all'uscita dell'applicazione, oppure cancellare automaticamente altri dati come la cronologia di navigazione e i cookie.
+
+Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
 
 ## iOS
 
