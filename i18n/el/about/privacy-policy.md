@@ -1,28 +1,28 @@
 ---
-title: "Privacy Policy"
+title: "Πολιτική Απορρήτου"
 ---
 
-Privacy Guides is a community project operated by a number of active volunteer contributors. The public list of team members [can be found on GitHub](https://github.com/orgs/privacyguides/people).
+Το Privacy Guides είναι ένα κοινοτικό έργο που λειτουργεί από έναν αριθμό ενεργών εθελοντών που συνεισφέρουν. Ο δημόσιος κατάλογος των μελών της ομάδας [μπορεί να βρεθεί στο GitHub](https://github.com/orgs/privacyguides/people).
 
-## Data We Collect From Visitors
+## Δεδομένα που συλλέγουμε από επισκέπτες
 
-The privacy of our website visitors is important to us, so we do not track any individual people. As a visitor to our website:
+Το απόρρητο των επισκεπτών του ιστοτόπου μας είναι σημαντικό για εμάς, γι' αυτό και δεν παρακολουθούμε μεμονωμένα άτομα. Ως επισκέπτης της ιστοσελίδας μας:
 
-- No personal information is stored
-- No information is shared with, sent to or sold to third-parties
-- No information is shared with advertising companies
-- No information is mined and harvested for personal and behavioral trends
-- No information is monetized
+- Δεν αποθηκεύονται προσωπικά δεδομένα
+- Καμία πληροφορία δεν κοινοποιείται, αποστέλλεται ή πωλείται σε τρίτους
+- Καμία πληροφορία δεν μοιράζεται με διαφημιστικές εταιρείες
+- Καμία πληροφορία δεν εξορύσσεται και δεν συλλέγεται για προσωπικές και συμπεριφορικές τάσεις
+- Καμία πληροφορία δεν πωλείται με σκοπό το κέρδος
 
-You can view the data we collect on our [statistics](statistics.md) page.
+Μπορείτε να δείτε τα δεδομένα που συλλέγουμε στη σελίδα μας με [τα στατιστικά στοιχεία](statistics.md).
 
-We run a self-hosted installation of [Umami](https://umami.is) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only, and no personal data is stored.
+Εκτελούμε μια αυτοδιαχειριζόμενη εγκατάσταση του [Umami](https://umami.is) για να συλλέγουμε κάποια ανώνυμα δεδομένα χρήσης για στατιστικούς σκοπούς. Ο στόχος είναι η παρακολούθηση των συνολικών τάσεων στην επισκεψιμότητα του ιστοτόπου μας, όχι η παρακολούθηση μεμονωμένων επισκεπτών. Όλα τα δεδομένα είναι μόνο συγκεντρωτικά και δεν αποθηκεύονται προσωπικά δεδομένα.
 
-The only data which is collected is data sent in a standard web request, which includes referral sources, the page you're visiting, your user agent, your IP address, and your screen resolution. The raw data is immediately discarded after statistics have been generated, for example if we collect your screen resolution as `1125x2436`, the only data we retain is "mobile device" and not your specific resolution.
+Τα μόνα δεδομένα που συλλέγονται είναι τα δεδομένα που αποστέλλονται σε ένα τυπικό αίτημα ιστού, τα οποία περιλαμβάνουν τις πηγές παραπομπής, τη σελίδα που επισκέπτεστε, το user agent, τη διεύθυνση IP και την ανάλυση της οθόνης σας. Τα ακατέργαστα δεδομένα απορρίπτονται αμέσως μετά τη δημιουργία στατιστικών στοιχείων, για παράδειγμα, εάν συλλέξουμε την ανάλυση της οθόνης σας ως `1125x2436`, τα μόνα δεδομένα που θα διατηρήσουμε είναι "κινητή συσκευή" και όχι η συγκεκριμένη ανάλυση.
 
-## Data We Collect From Account Holders
+## Δεδομένα που συλλέγουμε από τους κατόχους λογαριασμών
 
-If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
+Εάν εγγραφείτε για λογαριασμό σε μία από τις υπηρεσίες μας, ενδέχεται να συλλέξουμε οποιεσδήποτε πληροφορίες μας παρέχετε (όπως το email σας, τον κωδικό πρόσβασης, τις πληροφορίες προφίλ κ.λπ.) και να χρησιμοποιήσουμε αυτές τις πληροφορίες για να σας παρέχουμε την υπηρεσία. Ποτέ δεν μοιραζόμαστε ή πουλάμε αυτά τα δεδομένα.
 
 Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
 
@@ -34,16 +34,16 @@ Thus, inquiries regarding your personal information should be sent directly to:
 
 ```text
 Jonah Aragon
-Services Administrator
+Διαχειριστής υπηρεσιών
 jonah@privacyguides.org
 ```
 
-For all other inquiries, you can contact any member of our team.
+Για όλες τις άλλες ερωτήσεις, μπορείτε να επικοινωνήσετε με οποιοδήποτε μέλος της ομάδας μας.
 
-For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
+Για καταγγελίες βάσει του GDPR γενικότερα, έχετε πάντα τη δυνατότητα να υποβάλετε καταγγελίες στις τοπικές εποπτικές αρχές προστασίας δεδομένων.
 
-## About This Policy
+## Σχετικά με αυτή την πολιτική
 
-We will post any new versions of this statement [here](privacy-policy.md). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to the [Privacy Policy](privacy-policy.md) for the latest contact information at any time.
+Θα δημοσιεύουμε κάθε νέα έκδοση αυτής της δήλωσης [εδώ](privacy-policy.md). Ενδέχεται να αλλάξουμε τον τρόπο ανακοίνωσης των αλλαγών σε μελλοντικές εκδόσεις του παρόντος εγγράφου. Εν τω μεταξύ, μπορούμε να ενημερώσουμε τα στοιχεία επικοινωνίας μας ανά πάσα στιγμή χωρίς να ανακοινώσουμε την αλλαγή. Παρακαλούμε ανατρέξτε στην [Πολιτική απορρήτου](privacy-policy.md) για τα πιο πρόσφατα στοιχεία επικοινωνίας ανά πάσα στιγμή.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) of this page can be found on GitHub.
+Ένα πλήρες [ιστορικό](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) αναθεωρήσεων αυτής της σελίδας μπορεί να βρεθεί στο GitHub.
