@@ -121,14 +121,14 @@ Additionally, [many people](contributors.md) have made contributions to the proj
 
 Our team members review all changes made to the website and handle administrative duties such as web hosting and financials, however they do not personally profit from any contributions made to this site. Donations to Privacy Guides are generally tax-deductible in the United States.
 
-## Site License
+## Άδεια χρήσης ιστοσελίδας
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](/license).
+Τα παρακάτω αποτελούν μια ευανάγνωστη περίληψη (και όχι υποκατάστατο) της [άδειας](/άδειας).
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Εκτός αν αναφέρεται διαφορετικά, το πρωτότυπο περιεχόμενο αυτού του ιστότοπου διατίθεται με την [άδεια χρήσης Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Αυτό σημαίνει ότι είστε ελεύθεροι να αντιγράψετε και να αναδιανείμετε το υλικό σε οποιοδήποτε μέσο ή μορφή για οποιονδήποτε σκοπό, ακόμη και για εμπορικούς σκοπούς, αρκεί να δώσετε την κατάλληλη αναφορά στο `Privacy Guides (www.privacyguides.org)` και να μοιραστείτε το έργο σας με την ίδια άδεια.
 
-You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
+Μπορείτε να συμμορφώνεστε με αυτούς τους όρους με οποιονδήποτε εύλογο τρόπο, αλλά όχι με τρόπο που να υποδηλώνει ότι το Privacy Guides υποστηρίζει εσάς ή τη χρήση σας.
