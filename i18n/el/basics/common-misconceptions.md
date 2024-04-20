@@ -80,7 +80,7 @@ schema:
     We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
 
     <div class="admonition tip" markdown>
-    <p class="admonition-title">Tip</p>
+    <p class="admonition-title">Συμβουλή</p>
 
     When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
 

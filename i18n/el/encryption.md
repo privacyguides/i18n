@@ -155,7 +155,7 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
     ```
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Συμβουλή</p>
 
 Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
 
@@ -339,7 +339,7 @@ gpg --quick-gen-key alice@example.com future-default
 ### GPG Suite
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Σημείωση</p>
 
 We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email on iOS devices.
 

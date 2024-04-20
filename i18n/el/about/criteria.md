@@ -1,32 +1,32 @@
 ---
-title: General Criteria
+title: Γενικά κριτήρια
 ---
 
-Below are some general priorities we consider for all submissions to Privacy Guides. Each category will have additional requirements for inclusion.
+Ακολουθούν ορισμένες γενικές προτεραιότητες που εξετάζουμε για όλες τις υποβολές στο Privacy Guides. Κάθε κατηγορία θα έχει πρόσθετες απαιτήσεις για τη συμπερίληψη.
 
-- **Security**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
-- **Active Development**: The tools that we recommend should be actively developed, unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users, an overly technical background should not be required.
-- **Documentation**: Tools should have clear and extensive documentation for use.
+- **Ασφάλεια**: Εργαλεία θα πρέπει να ακολουθούν τις βέλτιστες πρακτικές ασφάλειας, όπου αυτό είναι εφικτό.
+- **Διαθεσιμότητα πηγής**: Προτιμώνται γενικά τα έργα ανοικτού κώδικα έναντι ισοδύναμων ιδιόκτητων εναλλακτικών λύσεων.
+- **Διαθεσιμότητα σε όλες τις πλατφόρμες**: Για να αποφύγουμε το κλείδωμα σε έναν προμηθευτή, συνήθως προτιμούμε οι συστάσεις να είναι διαπλατφορμιστικές.
+- **Ενεργή ανάπτυξη**: Τα εργαλεία που προτείνουμε θα πρέπει να αναπτύσσονται ενεργά, και τα μη συντηρούμενα έργα θα αφαιρούνται στις περισσότερες περιπτώσεις.
+- **Ευχρηστία**: Δεν θα πρέπει να απαιτείται υπερβολικά τεχνικό υπόβαθρο.
+- **Τεκμηρίωση**: Τα εργαλεία πρέπει να διαθέτουν σαφή και εκτενή τεκμηρίωση για τη χρήση τους.
 
-## Financial Disclosure
+## Οικονομική Γνωστοποίηση
 
-We do not make money from recommending certain products, we do not use affiliate links, and we do not provide special consideration to project donors.
+Δεν βγάζουμε χρήματα από τη σύσταση ορισμένων προϊόντων, δεν χρησιμοποιούμε συνδέσμους θυγατρικών και δεν παρέχουμε ιδιαίτερη προσοχή στους δωρητές έργων.
 
-## Developer Self-Submissions
+## Υποβολές συστάσεων από προγραμματιστές
 
-We have these requirements in regard to developers which wish to submit their project or software for consideration.
+Έχουμε αυτές τις απαιτήσεις όσον αφορά τους προγραμματιστές που επιθυμούν να υποβάλουν το έργο ή το λογισμικό τους για εξέταση.
 
-- Must disclose affiliation, i.e. your position within the project being submitted.
+- Πρέπει να γνωστοποιήσετε τη σχέση σας, δηλαδή τη θέση σας στο πλαίσιο του υποβαλλόμενου έργου.
 
-- Must have a security whitepaper if it is a project that involves handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
-    - Third party audit status. We want to know if you have one, or have one planned. If possible please mention who will be conducting the audit.
+- Πρέπει να υπάρχει ενημερωτικό δελτίο ασφάλειας, εάν πρόκειται για έργο που περιλαμβάνει χειρισμό ευαίσθητων πληροφοριών, όπως messenger, διαχειριστή κωδικών πρόσβασης, κρυπτογραφημένη αποθήκευση στο cloud κλπ.
+    - Κατάσταση ελέγχου κώδικα (audit) από τρίτους. Θέλουμε να μάθουμε αν έχετε ή σχεδιάζετε ένα. Εάν είναι δυνατόν, αναφέρετε ποιος θα διενεργήσει τον έλεγχο.
 
-- Must explain what the project brings to the table in regard to privacy.
-    - Does it solve any new problem?
-    - Why should anyone use it over the alternatives?
+- Πρέπει να εξηγήσει τι προσφέρει το έργο όσον αφορά την προστασία της ιδιωτικότητας.
+    - Επιλύει κάποιο νέο πρόβλημα;
+    - Γιατί να το χρησιμοποιήσει κάποιος αντί για τις εναλλακτικές λύσεις;
 
-- Must state what the exact threat model is with their project.
-    - It should be clear to potential users what the project can provide, and what it cannot.
+- Πρέπει να δηλώσετε ποιο είναι το ακριβές μοντέλο απειλής με το έργο τους.
+    - Θα πρέπει να είναι σαφές στους δυνητικούς χρήστες τι μπορεί να προσφέρει το έργο και τι όχι.

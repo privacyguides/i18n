@@ -1,8 +1,8 @@
 ---
-title: Νουθεσίες
+title: Admonitions
 ---
 
-**Νουθεσίες** (ή "call-outs") είναι μια επιλογή που μπορούν να χρησιμοποιήσουν οι συγγραφείς για να συμπεριλάβουν δευτερεύον περιεχόμενο σε ένα άρθρο χωρίς να διακόπτουν τη ροή του εγγράφου.
+**Admonitions** (or "call-outs") are a choice writers can use to include side content in an article without interrupting the document flow.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Παράδειγμα Υλοποίησης</p>
@@ -12,9 +12,9 @@ title: Νουθεσίες
 </div>
 
 <details class="example" markdown>
-<summary>Example Collapsible Admonition</summary>
+<summary>Παράδειγμα πτυσσόμενου κειμένου</summary>
 
-This is an example of a collapsible admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+Αυτό είναι ένα παράδειγμα κειμένου. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </details>
 
@@ -49,7 +49,7 @@ ENCLOSED TEXT
 #### `note`
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Σημείωση</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -58,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `abstract`
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Abstract</p>
+<p class="admonition-title">Περίληψη</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -67,7 +67,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `info`
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Info</p>
+<p class="admonition-title">Πληροφορία</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `tip`
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Συμβουλή</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -85,7 +85,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `success`
 
 <div class="admonition success" markdown>
-<p class="admonition-title">Success</p>
+<p class="admonition-title">Επιτυχία</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -94,7 +94,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `question`
 
 <div class="admonition question" markdown>
-<p class="admonition-title">Question</p>
+<p class="admonition-title">Ερώτηση</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -103,7 +103,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `warning`
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Προειδοποίηση</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -112,7 +112,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `failure`
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">Failure</p>
+<p class="admonition-title">Αποτυχία</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -121,7 +121,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `danger`
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Κίνδυνος</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -130,7 +130,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `bug`
 
 <div class="admonition bug" markdown>
-<p class="admonition-title">Bug</p>
+<p class="admonition-title">Σφάλμα</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -139,7 +139,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `example`
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Παράδειγμα</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -148,13 +148,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `quote`
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">Quote</p>
+<p class="admonition-title">Απόσπασμα</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 </div>
 
-### Special Types
+### Ειδικοί τύποι
 
 #### `recommendation`
 
@@ -196,7 +196,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Πηγαίος Κώδικας" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Λήψεις</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -228,7 +228,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="result" markdown>
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Λήψεις</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -257,7 +257,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="result" markdown>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Σημείωση</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -288,6 +288,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**Αυτή η μορφή δεν χρησιμοποιείται πλέον,** επειδή δεν είναι συμβατή με τις νεότερες εκδόσεις του λογισμικού μετάφρασης του Crowdin. Κατά την προσθήκη μιας νέας σελίδας στον ιστότοπο, θα πρέπει να χρησιμοποιείται μόνο η νεότερη μορφή που βασίζεται στην HTML.
+**Αυτή η μορφοποιήση δεν χρησιμοποιείται πλέον,** επειδή δεν είναι συμβατή με τις νεότερες εκδόσεις του λογισμικού μετάφρασης του Crowdin. Κατά την προσθήκη μιας νέας σελίδας στον ιστότοπο, θα πρέπει να χρησιμοποιείται μόνο η νεότερη μορφή που βασίζεται στην HTML.
 
 Δεν υπάρχει βιασύνη για τη μετατροπή των παραινέσεων με την παλιά μορφή στη νέα μορφή. Οι σελίδες που χρησιμοποιούν σήμερα αυτή τη μορφοποίηση θα πρέπει να συνεχίσουν να λειτουργούν, αλλά θα τις ενημερώσουμε ώστε να χρησιμοποιούν τη νεότερη μορφή που βασίζεται στην HTML, καθώς συνεχίζουμε να ενημερώνουμε τον ιστότοπο.

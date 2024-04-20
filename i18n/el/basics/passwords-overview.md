@@ -52,7 +52,7 @@ An example of a diceware passphrase is `viewable fastness reluctant squishy seve
 To generate a diceware passphrase using real dice, follow these steps:
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Σημείωση</p>
 
 These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
