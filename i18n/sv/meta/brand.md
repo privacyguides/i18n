@@ -19,4 +19,4 @@ Ytterligare riktlinjer för varumärket finns på [github.com/privacyguides/bran
 
 "Privacy Guides" och sköldlogotypen är varumärken som ägs av Jonah Aragon, obegränsad användning är tillåten för Privacy Guides-projektet.
 
-Utan att avstå från någon av sina rättigheter ger Privacy Guides inte råd till andra om omfattningen av sina immateriella rättigheter. Privacy Guides varken tillåter eller samtycker till att dess varumärken används på ett sätt som kan orsaka förvirring genom att antyda att de är associerade med eller sponsras av Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at `jonah@privacyguides.org`. Kontakta din juridiska rådgivare om du har frågor.
+Utan att avstå från någon av sina rättigheter ger Privacy Guides inte råd till andra om omfattningen av sina immateriella rättigheter. Privacy Guides varken tillåter eller samtycker till att dess varumärken används på ett sätt som kan orsaka förvirring genom att antyda att de är associerade med eller sponsras av Privacy Guides. Om du ser någon form av sådan användning, vänligen kontakta Jonah Aragon, `jonah@privacyguides.org`. Kontakta din juridiska rådgivare om du har frågor.

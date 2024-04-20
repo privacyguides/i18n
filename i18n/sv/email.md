@@ -1,8 +1,8 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
-title: "Email Services"
+meta_title: "Rekommendationer för krypterad privat e-post - Privacy Guides"
+title: "E-posttjänster"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Dessa e-posttjänster erbjuder en bra plats att lagra dina e-postmeddelanden säkert och många erbjuder interoperabel OpenPGP-kryptering med andra tjänster.
 cover: email.webp
 global:
   - 
@@ -11,19 +11,19 @@ global:
 ---
 
 <!-- markdownlint-disable MD024 -->
-Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
+E-post är i praktiken en nödvändighet för att använda internettjänster, men vi rekommenderar det inte för personliga konversationer. Istället för att kontakta andra personer genom e-post kan du överväga att använda en meddelandetjänst som stödjer vidarebefordingsekretess (forward secrecy).
 
-[Recommended Instant Messengers](real-time-communication.md ""){.md-button}
+[Rekommenderade meddelandetjänster](real-time-communication.md ""){.md-button}
 
-## Recommended Providers
+## Rekommenderade tjänster
 
 For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features. Read our [full list of criteria](#criteria) for more information.
 
-| Leverantör                  | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonyma betalningar           |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                          |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                          |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
+| Leverantör                  | OpenPGP / WKD                          | IMAP / SMTP                                                                   | Zero Access Encryption                                   | Anonyma betalningar              |
+| --------------------------- | -------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Endast för betalda prenumerationer | :material-check:{ .pg-green }                            | Kontant                          |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                                 | :material-information-outline:{ .pg-blue } Endast e-post | Kontant                          |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                        | :material-check:{ .pg-green }                            | Monero & Kontant via tredje part |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
@@ -55,7 +55,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+**Proton Mail** är en e-posttjänst med fokus på ,integritet, kryptering, säkerhet, och användarvänlighet. They have been in operation since **2013**. Proton AG is based in Genève, Switzerland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
