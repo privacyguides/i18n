@@ -58,16 +58,17 @@ cover: news-aggregators.webp
 
 ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** 是 Android 版本的 RSS 客戶端，具有許多 [特色](https://gitlab.com/spacecowboy/Feeder#features) ，且可與RSS 訊息來源的資料夾配合使用。 它支持 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 和 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. 它支持 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 和 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+- [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
 
 </details>
 
@@ -117,9 +118,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire 標誌](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** 是一款免費開源的訊息源閱讀器，適用於macOS 和 iOS ，專注於原生設計和功能集。 它支持典型的Feed 格式與內置支持 Reddit Feed。
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. 它支持典型的Feed 格式與內置支持 Reddit Feed。
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }

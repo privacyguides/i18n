@@ -56,18 +56,19 @@ Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) es
 
 <div class="admonition recommendation" markdown>
 
-![Logo de Feeder](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** est un client RSS moderne pour Android qui possède de nombreuses [fonctionnalités](https://gitlab.com/spacecowboy/Feeder#features) et fonctionne bien avec des dossiers de flux RSS. Il prend en charge [RSS](https://fr.wikipedia.org/wiki/RSS), [Atom](https://fr.wikipedia.org/wiki/Atom_Syndication_Format), [RDF](https://fr.wikipedia.org/wiki/RDF/XML) et [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. Il prend en charge [RSS](https://fr.wikipedia.org/wiki/RSS), [Atom](https://fr.wikipedia.org/wiki/Atom_Syndication_Format), [RDF](https://fr.wikipedia.org/wiki/RDF/XML) et [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Dépôt](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Code source" }
 [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+- [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
 
 </details>
 
@@ -117,9 +118,9 @@ Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) es
 
 <div class="admonition recommendation" markdown>
 
-![Logo NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** est un lecteur de flux gratuit et open-source pour macOS et iOS qui met l'accent sur un design et des fonctionnalités natives. Il prend en charge les formats de flux habituels, ainsi que les flux Reddit.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Il prend en charge les formats de flux habituels, ainsi que les flux Reddit.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }

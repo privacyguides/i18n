@@ -56,9 +56,9 @@ O **Akregator** é um leitor de feeds de notícias que faz parte do projeto [KDE
 
 <div class="admonition recommendation" markdown>
 
-![Logótipo Feeder](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** é um cliente RSS moderno para Android que tem muitas [features](https://gitlab.com/spacecowboy/Feeder#features) e funciona bem com pastas de feeds RSS. Suporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) e [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. Suporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) e [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
@@ -68,6 +68,7 @@ O **Akregator** é um leitor de feeds de notícias que faz parte do projeto [KDE
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+- [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
 
 </details>
 
@@ -117,9 +118,9 @@ O **Fluent Reader** é um agregador de notícias seguro e multiplataforma que po
 
 <div class="admonition recommendation" markdown>
 
-![Logótipo NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-O **NetNewsWire** é um leitor de feeds gratuito e de código aberto para macOS e iOS, centrado num design nativo e num conjunto de funcionalidades. Suporta os formatos de feeds típicos, juntamente com suporte integrado para feeds do Reddit.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Suporta os formatos de feeds típicos, juntamente com suporte integrado para feeds do Reddit.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }

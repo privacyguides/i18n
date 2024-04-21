@@ -58,7 +58,7 @@ cover: news-aggregators.webp
 
 ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** הוא קליינט RSS מודרני עבור אנדרואיד שיש לו רבים [features](https://gitlab.com/spacecowboy/Feeder#features) ועובד היטב עם תיקיות של הזנות RSS. הוא תומך ב [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. הוא תומך ב [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
@@ -68,6 +68,7 @@ cover: news-aggregators.webp
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+- [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
 
 </details>
 
@@ -117,9 +118,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire לוגו](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** קורא עדכונים חינמי וקוד פתוח עבור macOS ו-iOS עם התמקדות בעיצוב ותכונות מקוריות. הוא תומך בפורמטי ההזנה האופייניים לצד תמיכה מובנית בפיד טוויטר ו-Reddit.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. הוא תומך בפורמטי ההזנה האופייניים לצד תמיכה מובנית בפיד טוויטר ו-Reddit.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }

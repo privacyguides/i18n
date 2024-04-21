@@ -56,9 +56,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Feeder](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** - это современный RSS-клиент для Android, который имеет множество [функций](https://gitlab.com/spacecowboy/Feeder#features) и хорошо работает с группами RSS-лент. Он поддерживает [RSS](https://ru.wikipedia.org/wiki/RSS), [Atom](https://ru.wikipedia.org/wiki/Atom), [RDF](https://ru.wikipedia.org/wiki/RDF/XML) и [JSON Feed](https://ru.wikipedia.org/wiki/JSON_feed).
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. Он поддерживает [RSS](https://ru.wikipedia.org/wiki/RSS), [Atom](https://ru.wikipedia.org/wiki/Atom), [RDF](https://ru.wikipedia.org/wiki/RDF/XML) и [JSON Feed](https://ru.wikipedia.org/wiki/JSON_feed).
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
@@ -68,6 +68,7 @@ cover: news-aggregators.webp
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+- [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
 
 </details>
 
@@ -117,9 +118,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Логотип NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** - бесплатная программа для чтения лент новостей с открытым исходным кодом для macOS и iOS с упором на нативный дизайн и набор функций. Он поддерживает типичные форматы лент, а также встроенную поддержку лент Reddit.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Он поддерживает типичные форматы лент, а также встроенную поддержку лент Reddit.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }

@@ -56,9 +56,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo Feeder](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** adalah klien RSS modern untuk Android yang memiliki banyak [features](https://gitlab.com/spacecowboy/Feeder#features) dan bekerja dengan baik dengan folder umpan RSS. Ini mendukung [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_ (Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) dan [JSON Feed] (https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. Ini mendukung [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_ (Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) dan [JSON Feed] (https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
@@ -68,6 +68,7 @@ cover: news-aggregators.webp
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+- [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
 
 </details>
 
@@ -117,9 +118,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![Logo NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** adalah pembaca berita gratis dan bersumber terbuka untuk macOS dan iOS dengan fokus pada desain dan fitur asli. Ini mendukung format feed yang umum di samping dukungan bawaan untuk feed Reddit.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Ini mendukung format feed yang umum di samping dukungan bawaan untuk feed Reddit.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }

@@ -58,7 +58,7 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
 
 ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** is een moderne RSS-client voor Android die veel [features](https://gitlab.com/spacecowboy/Feeder#features) heeft en goed werkt met het mappen van RSS-feeds. Het ondersteunt [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) en [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) en [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. Het ondersteunt [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) en [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) en [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
@@ -68,6 +68,7 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+- [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
 
 </details>
 
@@ -119,7 +120,7 @@ Een [nieuwsaggregator](https://en.wikipedia.org/wiki/News_aggregator) is een man
 
 ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** een gratis en open-source feedlezer voor macOS en iOS met een focus op een native ontwerp en functieset. Het ondersteunt de typische feed formaten naast ingebouwde ondersteuning voor Reddit feeds.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Het ondersteunt de typische feed formaten naast ingebouwde ondersteuning voor Reddit feeds.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
