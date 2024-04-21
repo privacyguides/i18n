@@ -38,9 +38,9 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Why should I care?
+## Varför ska jag bry mig?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### "Jag har inget att dölja. Varför ska jag bry mig om integritet?"
 
 Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
