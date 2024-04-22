@@ -82,7 +82,7 @@ Las cuentas gratuitas tienen algunas limitaciones, como no poder buscar texto en
 
 Si tienes el plan de Proton Unlimited, Business, Family o Visionary, también recibes [SimpleLogin](email-aliasing.md#simplelogin) Premium sin costo adicional.
 
-Proton Mail tiene informes de errores internos que **no** son compartidos con terceros. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail tiene informes de errores internos que **no** son compartidos con terceros. Esto se puede desactivar en la aplicación web: :gear: → **Todos los ajustes** → **Cuenta** → **Seguridad y privacidad** → **Privacidad y recolección de datos**.
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
@@ -124,7 +124,7 @@ Proton Mail no ofrece la función de legado digital.
 
 ![Logo de Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** es un servicio de correo electrónico centrado en ser seguro, sin publicidad, y alimentado de forma privada con energía 100% ecológica. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Accounts start with up to 2GB storage, which can be upgraded as needed.
+**Mailbox.org** es un servicio de correo electrónico centrado en ser seguro, sin publicidad, y alimentado de forma privada con energía 100% ecológica. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
 
 [:octicons-home-16: Página Principal](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica de Privacidad" }
@@ -191,13 +191,13 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 ![Tuta logo](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva en funcionamiento desde **2011** y tiene su sede en Hanóver, Alemania. Free accounts start with 1GB of storage.
+**Tuta** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva en funcionamiento desde **2011** y tiene su sede en Hanóver, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-home-16: Página principal](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Política de privacidad" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código fuente" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>

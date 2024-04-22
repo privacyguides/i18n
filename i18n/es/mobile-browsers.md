@@ -154,7 +154,7 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 <div class="admonition danger" markdown>
 <p class="admonition-title">Peligro</p>
 
-Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] a powerful security feature that protects against a malicious site performing a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-like attack to gain access to the memory of another website you have open.[^2] Chromium-based browsers like [Brave](#brave) will provide more robust protection against malicious websites.
+Los navegadores basados en Firefox (Gecko) para Android [carecen](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) del [aislamiento de sitios](https://wiki.mozilla.org/Project_Fission),[^1] una potente función de seguridad que protege contra un sitio malicioso que realice un ataque similar a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)) para obtener acceso a la memoria de otro sitio web que tienes abierto.[^2] Los navegadores basados en Chromium como [Brave](#brave) proporcionan una protección más robusta contra sitios maliciosos.
 
 </div>
 
@@ -166,9 +166,9 @@ Mull activa varias características del [proyecto Tor uplift](https://wiki.mozil
 
 Sugerimos instalar [uBlock Origin](browser-extensions.md#ublock-origin) como bloqueador de contenido si quieres bloquear los rastreadores en Mull.
 
-Mull viene con ajustes para la protección de la privacidad activados por defecto. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
+Mull viene con ajustes para la protección de la privacidad activados por defecto. Puedes considerar configurar las opciones para **Eliminar los datos de navegación al salir** en los ajustes de Mull si quieres cerrar automáticamente todas las pestañas abiertas al salir de la aplicación, o eliminar otros datos como el historial de navegación y las cookies de manera automática.
 
-Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
+Debido a que Mull tiene protecciones más avanzadas y estrictas activadas por defecto a comparación de otros navegadores, algunos sitios web podrían no cargar o dejar de funcionar correctamente, a menos que se ajusten esas configuraciones. Puedes consultar esta [lista de problemas conocidos y soluciones](https://divestos.org/pages/broken#mull) para obtener consejos sobre una posible solución si encuentras un sitio roto. Ajustar una configuración para el correcto funcionamiento de un sitio web podría impactar tu privacidad y/o seguridad, por lo que debes asegurarte de comprender totalmente cualquier instrucción que sigues.
 
 ## iOS
 
@@ -190,11 +190,11 @@ En iOS, cualquier aplicación que puede navegar en internet está [limitada](htt
 
 </div>
 
-#### Recommended Safari Configuration
+#### Configuración recomendada de Safari
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
+Sugerimos instalar [AdGuard](browser-extensions.md#adguard) como bloqueador de contenido si quieres bloquear los rastreadores en Safari.
 
-The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
+Las siguientes opciones relacionadas con la privacidad/seguridad pueden encontrarse en :gear: aplicación de **Ajustes** → **Safari**
 
 ##### Perfiles
 
@@ -257,6 +257,6 @@ Si utilizas iCloud con la Protección de Datos Avanzada desactivada, también te
 ### Requisitos Mínimos
 
 - Debe admitir actualizaciones automáticas.
-- Must receive engine updates from upstream releases quickly.
+- Debe recibir las actualizaciones del motor con rapidez.
 - Debe soportar el bloqueo de contenido.
 - Cualquier cambio necesario para que el navegador respete más la privacidad no debería afectar negativamente a la experiencia del usuario.
