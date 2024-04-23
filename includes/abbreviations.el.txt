@@ -2,15 +2,15 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
-*[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
-*[CLI]: Command Line Interface
+*[επιφάνεια επίθεσης]: Ο συνολικός αριθμός πιθανών σημείων εισόδου μη-εξουσιοδοτημένης πρόσβασης σε ένα σύστημα
+*[AVB]: Android Verified Boot (Επαληθευμένη Εκκίνηση Android)
+*[cgroups]: Control Groups (Ομάδες Ελέγχου)
+*[CLI]: Command Line Interface (Διεπαφή Γραμμής Εντολών)
 *[CSV]: Comma-Separated Values
-*[CVE]: Common Vulnerabilities and Exposures
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
-*[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[CVE]: Common Vulnerabilities and Exposures (Κοινές Ευπάθειες και Εκθέσεις)
+*[ψηφιακή κληροδοσία]: Η Ψηφιακή Κληροδοσία (Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
+*[DNSSEC]: Domain Name System Security Extensions (Σύστημα Ονομάτων Τομέων – Επεκτάσεις Ασφάλειας)
+*[DNS]: Domain Name System (Σύστημα Ονομάτων Τομέων)
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
