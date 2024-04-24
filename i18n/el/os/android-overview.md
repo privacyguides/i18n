@@ -1,12 +1,12 @@
 ---
-title: Android Overview
-icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+title: Επισκόπηση Android
+icon: απλό/android
+description: Το Android είναι ένα λειτουργικό σύστημα ανοιχτού κώδικα με ισχυρές δικλίδες ασφαλείας, γεγονός που το καθιστά την κορυφαία μας επιλογή για τηλέφωνα.
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+Το **Έργο Ανοιχτού Κώδικα Android** (AOSP) είναι ένα ασφαλές λειτουργικό σύστημα για κινητά με ισχυρή [απομόνωση εφαρμογών](https://source.android.com/security/app-sandbox), [Επαληθευμένη Εκκίνηση](https://source.android.com/security/verifiedboot) (AVB) και ένα ισχυρό σύστημα ελέγχου [αδειών](https://developer.android.com/guide/topics/permissions/overview).
 
 ## Our Advice
 
