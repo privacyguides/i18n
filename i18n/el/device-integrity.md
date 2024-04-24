@@ -1,20 +1,20 @@
 ---
-title: Device Integrity
+title: Ακεραιότητα Συσκευής
 icon: material/security
-description: These tools can be used to check your devices for compromise.
+description: Τα εξής εργαλεία μπορούν να χρησιμοποιηθούν για να ελέγξεις τις συσκευές σου για παραβίαση.
 cover: device-integrity.webp
 ---
 
-These tools can be used to validate the integrity of your mobile devices and check them for indicators of compromise by spyware and malware such as Pegasus, Predator, or KingsPawn. This page focuses on **mobile security**, because mobile devices typically have read-only systems with well-known configurations, so detecting malicious modifications is easier than on traditional desktop systems. We may expand the focus of this page in the future.
+Τα εξής εργαλεία μπορούν να χρησιμοποιηθούν για να επικυρώσεις την ακεραιότητα των κινητών σου και να τα ελέγξεις για ενδείξεις παραβίασης από κακόβουλο λογισμικό (spyware και malware), όπως τα Pegasus, Predator, ή KingsPawn. Η παρούσα σελίδα επικεντρώνεται στην **ασφάλεια κινητών** επειδή αυτά έχουν συνήθως αναγνώσιμα-μόνο συστήματα με κοινότυπες διαμορφώσεις, οπότε ο εντοπισμός κακόβουλων τροποποιήσεων είναι ευκολότερος από ότι σε “παραδοσιακούς υπολογιστές.” Ενδέχεται να επεκτείνουμε το επίκεντρο αυτής της σελίδας στο μέλλον.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">This is an advanced topic</p>
+<p class="admonition-title">Αυτό είναι προχωρημένο θέμα</p>
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to use effectively.
+Τα εξής εργαλεία ίσως φανούν χρήσιμα σε ορισμένα άτομα. Παρέχουν λειτουργίες για τις οποίες τα περισσότερα άτομα δεν χρειάζεται να ανησυχούν και συχνά απαιτούν βαθύτερες τεχνικές γνώσεις ώστε να χρησιμοποιηθούν αποτελεσματικά.
 
 </div>
 
-It is **critical** to understand that scanning your device for public indicators of compromise is **not sufficient** to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
+Είναι **κρίσιμο** να κατανοήσεις πως η σάρωση της συσκευής σου για δημόσιους δείκτες παραβίασης **δεν αρκεί** για να διαπιστώσεις αν μια συσκευή είναι "καθαρή" και δεν έχει στοχευθεί από συγκεκριμένο εργαλείο κατασκοπίας. Reliance on these publicly-available scanning tools can miss recent security developments and give you a false sense of security.
 
 ## General Advice
 

@@ -14,7 +14,7 @@ cover: router.webp
 ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-Το **OpenWrt** είναι ένα λειτουργικό σύστημα βασισμένο στο Linux, χρησιμοποιείται κυρίως σε ενσωματωμένες συσκευές για τη δρομολόγηση της δικτυακής κίνησης. Περιλαμβάνει το util-linux, το uClibc και το BusyBox. Όλα τα εξαρτήματα έχουν βελτιστοποιηθεί για οικιακούς δρομολογητές.
+Το **OpenWrt** είναι ένα λειτουργικό σύστημα βασισμένο στο Linux· χρησιμοποιείται κυρίως σε ενσωματωμένες συσκευές για τη δρομολόγηση δικτυακής κίνησης. Περιλαμβάνει τα util-linux, uClibc, και BusyBox. Όλα τα εξαρτήματα έχουν βελτιστοποιηθεί για οικιακούς δρομολογητές.
 
 [:octicons-home-16: Αρχική](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Τεκμηρίωση}

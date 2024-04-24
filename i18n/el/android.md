@@ -2,13 +2,13 @@
 meta_title: "Συστάσεις Android: GrapheneOS και DivestOS - Privacy Guides"
 title: "Android"
 icon: 'simple/android'
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+description: Μπορείς να αντικαταστήσεις το λειτουργικό σύστημα του Android κινητού σου με τις εξής ασφαλείς εναλλακτικές που σέβονται την ιδιωτικότητά σου.
 cover: android.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: Ιδιωτικά Λειτουργικά Συστήματα Android
     url: "./"
   - 
     "@context": http://schema.org
@@ -91,7 +91,7 @@ These are the Android operating systems, devices, and apps we recommend to maxim
 
 [General Android Overview :material-arrow-right-drop-circle:](os/android-overview.md ""){.md-button}
 
-## AOSP Derivatives
+## Παράγωγα AOSP
 
 We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
