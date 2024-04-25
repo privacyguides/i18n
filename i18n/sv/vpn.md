@@ -43,7 +43,7 @@ Våra rekommenderade tjänster är krypterade, stödjer WireGuard & OpenVPN och 
 
 ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
+**Proton VPN** har funnits sedan 2016 och är en stark spelare på VPN-marknaden. Proton AG är baserat i Schweiz och de erbjuder en begränsad gratisnivå, samt ett mer omfattande premiumalternativ.
 
 [:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -65,7 +65,7 @@ Våra rekommenderade tjänster är krypterade, stödjer WireGuard & OpenVPN och 
 
 #### :material-check:{ .pg-green } 91 länder
 
-Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Proton VPN har [servrar i 91 länder](https://protonvpn.com/vpn-servers) eller [5](https://protonvpn.com/support/how-to-create-free-vpn-account) om du använder deras [gratisnivå](https://protonvpn.com/free-vpn/server).(1) Att välja en VPN-leverantör med en server närmast dig kommer att minska latensen för den nätverkstrafik du skickar. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
 
 1. Last checked: 2024-04-02
