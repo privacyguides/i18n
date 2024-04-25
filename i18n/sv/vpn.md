@@ -12,16 +12,16 @@ global:
 
 <!-- markdownlint-disable MD024 -->
 
-If you're looking for additional **privacy** from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you.
+Om du vill få extra **sekretess** från din internetleverantör, på ett offentligt Wi-Fi-nätverk eller när du laddar ner torrentfiler kan VPN vara en bra lösning.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
+<p class="admonition-title">En VPN gör inte att du blir anonym</p>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+Att använda VPN gör **inte** att din surfvanor blir anonyma och det ger inte extra skydd för osäker (HTTP) trafik.
 
-If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. En VPN är inte en ersättning för goda säkerhetsrutiner.
+Om du är ute efter **anonymitet** borde du använda webbläsaren Tor. Om du vill ha extra **säkerhet** bör du alltid se till att du ansluter till webbplatser med HTTPS. En VPN är inte en ersättning för goda säkerhetsrutiner.
 
-[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Ladda ned Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myter & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -65,16 +65,16 @@ Våra rekommenderade tjänster är krypterade, stödjer WireGuard & OpenVPN och 
 
 #### :material-check:{ .pg-green } 91 länder
 
-Proton VPN har [servrar i 91 länder](https://protonvpn.com/vpn-servers) eller [5](https://protonvpn.com/support/how-to-create-free-vpn-account) om du använder deras [gratisnivå](https://protonvpn.com/free-vpn/server).(1) Att välja en VPN-leverantör med en server närmast dig kommer att minska latensen för den nätverkstrafik du skickar. This is because of a shorter route (fewer hops) to the destination.
+Proton VPN har [servrar i 91 länder](https://protonvpn.com/vpn-servers) eller [5](https://protonvpn.com/support/how-to-create-free-vpn-account) om du använder deras [gratisnivå](https://protonvpn.com/free-vpn/server).(1) Att välja en VPN-leverantör med en server närmast dig kommer att minska latensen för den nätverkstrafik du skickar. Detta beror på att vägen till destinationen är kortare (färre hopp).
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Senast granskad: 2024-04-02
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Vi anser också att det är bättre för säkerheten för VPN-leverantörens privata nycklar om de använder [dedikerade servrar](https://en.wikipedia.org/wiki/Dedicated_hosting_service) istället för billigare delade lösningar (med andra kunder) som [virtuella privata servrar](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 #### :material-check:{ .pg-green } Granskad av oberoende part
 
-As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+Proton VPN har genomgått en oberoende granskning av SEC Consult i januari 2020. De hittade några sårbarheter som klassades som låg- och medelhög risk i Proton VPN:s appar för Windows, Android och iOS. Alla dessa sårbarheter "åtgärdades fullständigt" av Proton VPN innan rapporterna publicerades. Ingen av de fel som hittades hade givit en angripare fjärråtkomst till varken enhet eller trafik. Du kan se individuella rapporter för varje plattform på [protonvpn.com](https://protonvpn.com/blog/open-source). Proton VPN gick igenom [ännu en granskning](https://protonvpn.com/blog/no-logs-audit) i april 2022 och den rapporten [togs fram av Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). Den 9 november 2021 utfärdades ett [intyg](https://proton.me/blog/security-audit-all-proton-apps) för Proton VPN:s appar av [Securitum](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
@@ -112,7 +112,7 @@ In addition to providing standard OpenVPN configuration files, Proton VPN has mo
 
 Proton VPN clients support two factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
 
-##### :material-alert-outline:{ .pg-orange } Killswitch feature is broken on Intel-based Macs
+##### :material-alert-outline:{ .pg-orange } Killswitch-funktionen är trasig på Intel-baserade Mac-datorer
 
 System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN killswitch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
 
@@ -145,12 +145,12 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 #### :material-check:{ .pg-green } 37 Countries
 
-IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Detta beror på att vägen till destinationen är kortare (färre hopp).
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Senast granskad: 2024-04-02
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Vi anser också att det är bättre för säkerheten för VPN-leverantörens privata nycklar om de använder [dedikerade servrar](https://en.wikipedia.org/wiki/Dedicated_hosting_service) istället för billigare delade lösningar (med andra kunder) som [virtuella privata servrar](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 #### :material-check:{ .pg-green } Granskad av oberoende part
 
@@ -220,12 +220,12 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 #### :material-check:{ .pg-green } 41 Countries
 
-Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Detta beror på att vägen till destinationen är kortare (färre hopp).
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Senast granskad: 2024-04-02
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Vi anser också att det är bättre för säkerheten för VPN-leverantörens privata nycklar om de använder [dedikerade servrar](https://en.wikipedia.org/wiki/Dedicated_hosting_service) istället för billigare delade lösningar (med andra kunder) som [virtuella privata servrar](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 #### :material-check:{ .pg-green } Granskad av oberoende part
 
