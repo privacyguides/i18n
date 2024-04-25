@@ -17,7 +17,7 @@ E-post är i praktiken en nödvändighet för att använda internettjänster, me
 
 ## Rekommenderade tjänster
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features. Read our [full list of criteria](#criteria) for more information.
+For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features. Läs vår [fullständiga lista över kriterier](#criteria) för mer information.
 
 | Leverantör                  | OpenPGP / WKD                          | IMAP / SMTP                                                                   | Zero Access Encryption                                   | Anonyma betalningar              |
 | --------------------------- | -------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------- |

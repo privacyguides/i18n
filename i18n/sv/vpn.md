@@ -2,7 +2,7 @@
 meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
 title: "VPN-tjänster"
 icon: material/vpn
-description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
+description: Det här är de bästa VPN-tjänsterna som skyddar din integritet och säkerhet online. Här kan du hitta en tjänst som inte försöker spionera på dig.
 cover: vpn.webp
 global:
   - 
@@ -25,11 +25,11 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 </div>
 
-[Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
+[Detaljerad VPN-översikt :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## Recommended Providers
+## Rekommenderade tjänster
 
-Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
+Våra rekommenderade tjänster är krypterade, stödjer WireGuard & OpenVPN och deras policy försäkrar att data inte loggas. Läs vår [fullständiga lista över kriterier](#criteria) för mer information.
 
 | Leverantör            | Länder | WireGuard                     | Port Forwarding                                         | IPv6                                                     | Anonyma betalningar |
 | --------------------- | ------ | ----------------------------- | ------------------------------------------------------- | -------------------------------------------------------- | ------------------- |
@@ -72,7 +72,7 @@ Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) or [
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Granskad av oberoende part
 
 As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
@@ -80,11 +80,11 @@ As of January 2020, Proton VPN has undergone an independent audit by SEC Consult
 
 Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
-#### :material-check:{ .pg-green } Accepts Cash
+#### :material-check:{ .pg-green } Accepterar kontanter
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPN accepterar, tillsammans med kredit- och betalkort, PayPal och [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) även **kontant betalning** som ett alternativ för anonym betalning.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Stöd för WireGuard
 
 Proton VPN mostly supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
 
@@ -152,7 +152,7 @@ IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Granskad av oberoende part
 
 IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
@@ -164,7 +164,7 @@ As of February 2020 [IVPN applications are now open source](https://ivpn.net/blo
 
 In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Stöd för WireGuard
 
 IVPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
 
@@ -227,7 +227,7 @@ Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Granskad av oberoende part
 
 Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
 
@@ -247,7 +247,7 @@ Mullvad provides the source code for their desktop and mobile clients in their [
 
 Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Stöd för WireGuard
 
 Mullvad supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
 
