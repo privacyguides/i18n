@@ -5,7 +5,7 @@ description: Τα εξής εργαλεία μπορούν να χρησιμοπ
 cover: device-integrity.webp
 ---
 
-Τα εξής εργαλεία μπορούν να χρησιμοποιηθούν για να επικυρώσεις την ακεραιότητα των κινητών σου και να τα ελέγξεις για ενδείξεις παραβίασης από κακόβουλο λογισμικό (spyware και malware), όπως τα Pegasus, Predator, ή KingsPawn. Η παρούσα σελίδα επικεντρώνεται στην **ασφάλεια κινητών** επειδή αυτά έχουν συνήθως αναγνώσιμα-μόνο συστήματα με κοινότυπες διαμορφώσεις, οπότε ο εντοπισμός κακόβουλων τροποποιήσεων είναι ευκολότερος από ότι σε “παραδοσιακούς υπολογιστές.” Ενδέχεται να επεκτείνουμε το επίκεντρο αυτής της σελίδας στο μέλλον.
+Τα εξής εργαλεία μπορούν να χρησιμοποιηθούν για να επικυρώσεις την ακεραιότητα των κινητών σου και να τα ελέγξεις για ενδείξεις παραβίασης από "κατασκοπισμικό" (spyware) και "κακισμικό" (malware), όπως τα Pegasus, Predator, ή KingsPawn. Η παρούσα σελίδα επικεντρώνεται στην **ασφάλεια κινητών** επειδή αυτά έχουν συνήθως αναγνώσιμα-μόνο συστήματα με κοινότυπες διαμορφώσεις, οπότε ο εντοπισμός κακόβουλων τροποποιήσεων είναι ευκολότερος από ότι σε “παραδοσιακούς υπολογιστές.” Ενδέχεται να επεκτείνουμε το επίκεντρο αυτής της σελίδας στο μέλλον.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Αυτό είναι προχωρημένο θέμα</p>
@@ -18,7 +18,7 @@ cover: device-integrity.webp
 
 ## General Advice
 
-The majority of system-level exploits on modern mobile devices—especially zero-click compromises—are non-persistent, meaning they will not remain or run automatically after a reboot. For this reason, we highly recommend rebooting your device regularly. We recommend everybody reboot their devices once a week at minimum, but if non-persistent malware is of particular concern for you, we and many security experts recommend a daily reboot schedule.
+Η πλειονότητα των συστημικών exploits στα σύγχρονα κινητά—ειδικά οι παραβιάσεις μηδενός-κλικ (zero-click)—είναι μη-μόνιμες, δηλαδή δεν παραμένουν ή εκτελούνται αυτόματα έπειτα από επανεκκίνηση. Για το λόγο αυτό, συνιστούμε να επανεκκινείς τακτικά την συσκευή σου. Συνιστούμε σε όλα να επανεκκινούν τις συσκευές τους τουλάχιστον μία φορά την εβδομάδα, αλλά αν σε απασχολεί ιδιαίτερα το μη-μόνιμο κακόβουλο λογισμικό, εμείς και πολλά άτομα ειδικευμένα σε θέματα ασφάλειας συνιστούμε καθημερινή επανεκκίνηση.
 
 This means an attacker would have to regularly re-infect your device to retain access, although we'll note this is not impossible. Rebooting your device also will not protect you against _persistent_ malware, but this is less common on mobile devices due to modern security features like secure/verified boot.
 

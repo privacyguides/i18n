@@ -1,14 +1,14 @@
 ---
-meta_title: "Περιηγητές ιστού, οι οποίοι σέβονται την ιδιωτικότητα, για PC και Mac - Privacy Guides"
-title: "Περιηγητές για Υπολογιστές"
+meta_title: "Ιδιωτικοί Περιηγητές Ιστού για PC και Mac - Privacy Guides"
+title: "Περιηγητές Desktop"
 icon: material/laptop
-description: Αυτά τα προγράμματα περιήγησης ιστού παρέχουν ισχυρότερες προστασίες απορρήτου από το Google Chrome.
+description: Οι εξής περιηγητές ιστού παρέχουν ισχυρότερες προστασίες απορρήτου από το Google Chrome.
 cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Συστάσεις για πρόγραμμα περιήγησης υπολογιστών που σέβονται την ιδιωτικότητα
+    name: Συστάσεις Ιδιωτικών Περιηγητών για Επιφάνειες Εργασίας
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
