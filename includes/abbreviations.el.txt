@@ -18,24 +18,24 @@
 *[E2EE]: End-to-End Encryption (Κρυπτογράφηση Άκρου-σε-Άκρο) ή End-to-End Encrypted (Κρυπτογραφημένο Άκρο-σε-Άκρο)
 *[ECS]: EDNS Client Subnet (Υποδίκτυο Πελατ[ισσ]ών EDNS)
 *[ΕΟΧ]: Ευρωπαϊκός Οικονομικός Χώρος
-*[εντροπία]: Μέτρηση του πόσο απρόβλεπτο κάτι είναι
-*[EOL]: End-of-Life
+*[εντροπία]: Μέτρηση του πόσο απρόβλεπτο είναι κάτι
+*[ΤΚΖ]: Τέλος Κύκλου Ζωής
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
+*[ΚΠΔ]: Κρυπτογράφηση Πλήρους Δίσκου
 *[FIDO]: Fast IDentity Online
-*[FS]: Forward Secrecy
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
-*[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
-*[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[ΕΜ]: Εμπρόσθια Μυστικότητα
+*[φορκάρισμα]: Γνωστό και ως παρακλάδι στον επίσημο λόγο, το φορκάρισμα (ή φόρκα) αναφέρεται σε νέο έργο λογισμικού που προκύπτει από την αντιγραφή ενός υπάρχοντος έργου και που μετέπειτα αναπτύσσεται ανεξάρτητα
+*[ΓΚΠΔ]: Γενικός Κανονισμός για την Προστασία Δεδομένων
+*[GPG]: GNU Privacy Guard (υλοποίηση του PGP)
+*[GPS]: Global Positioning System (Παγκόσμιο Σύστημα Θεσιθεσίας)
+*[GUI]: Graphical User Interface (Γραφικό Περιβάλλον Χρηστ[ρι]ών)
+*[GnuPG]: GNU Privacy Guard (υλοποίηση του PGP)
+*[HDD]: Hard Disk Drive (Σκληρός Δίσκος)
+*[HOTP]: HMAC-based One-Time Password (Κωδικός Μιας-Χρήσης βασιζόμενος στο HMAC – όπου HMAC σημαίνει Hash-based Message Authentication Code, δηλαδή Κωδικός Αυθεντικοποίησης Μηνύματος βασιζόμενος σε Χασάρισμα)
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[υπερεποπτικό]: Λογισμικό, υλικολογισμικό ή υλισμικό που κατανέμει τους πόρους ενός επεξεργαστή μεταξύ πολλών λειτουργικών συστημάτων
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
