@@ -35,22 +35,22 @@
 *[HOTP]: HMAC-based One-Time Password (Κωδικός Μιας-Χρήσης βασιζόμενος στο HMAC – όπου HMAC σημαίνει Hash-based Message Authentication Code, δηλαδή Κωδικός Αυθεντικοποίησης Μηνύματος βασιζόμενος σε Χασάρισμα)
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[υπερεποπτικό]: Λογισμικό, υλικολογισμικό ή υλισμικό που κατανέμει τους πόρους ενός επεξεργαστή μεταξύ πολλών λειτουργικών συστημάτων
-*[ICCID]: Integrated Circuit Card Identifier
+*[υπερβλέπων]: Λογισμικό, υλικολογισμικό ή υλισμικό που κατανέμει τους πόρους ενός επεξεργαστή μεταξύ πολλών λειτουργικών συστημάτων (αγγλικά: hypervisor)
+*[ICCID]: Integrated Circuit Card Identifier (Ταυτοποιητικό Κάρτας Ολοκληρωμένου Κυκλώματος)
 *[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
-*[JNI]: Java Native Interface
-*[KYC]: Know Your Customer
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
-*[MAC]: Media Access Control
+*[IMEI]: International Mobile Equipment Identity (Διεθνής Ταυτότητα Κινητού Εξοπλισμού)
+*[IMSI]: International Mobile Subscriber Identity (Διεθνής Ταυτότητα Συνδρομιτή Κινητού)
+*[IP]: Internet Protocol (Διαδικτυακό Πρωτόκολλο)
+*[IPv4]: Internet Protocol version 4 (Διαδικτυακό Πρωτόκολλο έκδοση 4)
+*[IPv6]: Internet Protocol version 6 (Διαδικτυακό Πρωτόκολλο έκδοση 6)
+*[ISP]: Internet Service Provider (Πάροχος Υπηρεσιών Διαδικτύου)
+*[ISPs]: Internet Service Providers (Πάροχοι Υπηρεσιών Διαδικτύου)
+*[JNI]: Java Native Interface (Εγγενής Διεπαφή Java)
+*[KYC]: Know Your Customer (νομικός όρος: Μέτρα Δέουσας Επιμέλειας – μαρκετίστικος όρος: "Συστηθείτε")
+*[LUKS]: Linux Unified Key Setup (Πρόγραμμα Κρυπτογράφησης Πλήρους-Δίσκου για Linux)
+*[MAC]: Media Access Control (Έλεγχος Προσπέλασης στο Μέσο)
 *[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
+*[MEID]: Mobile Equipment Identifier (Ταυτοποιητικό Κινητού Εξοπλισμού)
 *[MFA]: Multi-Factor Authentication
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Network address translation
