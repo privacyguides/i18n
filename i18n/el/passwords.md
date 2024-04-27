@@ -1,14 +1,14 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
-title: "Password Managers"
+meta_title: "Οι Καλύτεροι Διαχειριστές Κωδικών για την προστασία της Ιδιωτικότητας και της Ασφάλειάς σου - Privacy Guides"
+title: "Διαχειριστές Κωδικών"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: Οι διαχειριστές κωδικών σου επιτρέπουν να αποθηκεύσεις και να διαχειριστείς με ασφάλεια κωδικούς και άλλα διαπιστευτήρια.
 cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Συστάσεις Διαχειριστή Κωδικών
     url: "./"
   - 
     "@context": http://schema.org
@@ -17,7 +17,7 @@ schema:
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
-    applicationCategory: Password Manager
+    applicationCategory: Διαχειριστής Κωδικών
     operatingSystem:
       - Windows
       - macOS
@@ -35,7 +35,7 @@ schema:
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
-    applicationCategory: Password Manager
+    applicationCategory: Διαχειριστής Κωδικών
     operatingSystem:
       - Windows
       - macOS
@@ -52,7 +52,7 @@ schema:
     name: Proton Pass
     image: /assets/img/password-management/protonpass.svg
     url: https://proton.me/pass
-    applicationCategory: Password Manager
+    applicationCategory: Διαχειριστής Κωδικών
     operatingSystem:
       - Android
       - iOS
@@ -66,7 +66,7 @@ schema:
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
-    applicationCategory: Password Manager
+    applicationCategory: Διαχειριστής Κωδικών
     operatingSystem:
       - Android
       - iOS
@@ -81,7 +81,7 @@ schema:
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
-    applicationCategory: Password Manager
+    applicationCategory: Διαχειριστής Κωδικών
     operatingSystem:
       - Windows
       - macOS
@@ -96,7 +96,7 @@ schema:
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
     url: https://keepassdx.com
-    applicationCategory: Password Manager
+    applicationCategory: Διαχειριστής Κωδικών
     operatingSystem: Android
     subjectOf:
       "@context": http://schema.org
@@ -108,7 +108,7 @@ schema:
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
     url: https://strongboxsafe.com
-    applicationCategory: Password Manager
+    applicationCategory: Διαχειριστής Κωδικών
     operatingSystem: iOS
     subjectOf:
       "@context": http://schema.org
@@ -120,7 +120,7 @@ schema:
     name: gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
-    applicationCategory: Password Manager
+    applicationCategory: Διαχειριστής Κωδικών
     operatingSystem:
       - Windows
       - macOS
@@ -132,22 +132,22 @@ schema:
       url: "./"
 ---
 
-Password managers allow you to securely store and manage passwords and other credentials with the use of a master password.
+Οι διαχειριστές κωδικών σου επιτρέπουν να αποθηκεύσεις και να διαχειριστείς με ασφάλεια κωδικούς και άλλα διαπιστευτήρια μέσω ενός κύριου κωδικού που χρησιμεύει ως "πασπαρτού."
 
-[Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[Εισαγωγή στους Κωδικούς :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
 
-Built-in password managers in software like browsers and operating systems are sometimes not as good as dedicated password manager software. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features standalone offerings have.
+Οι προεπιλεγμένοι διαχειριστές κωδικών σε λογισμικά όπως περιηγητές και λειτουργικά συστήματα πολλές φορές δεν μπορούν να ανταγωνιστούν τα εξειδικευμένα λογισμικά διαχείρισης κωδικών. Το πλεονέκτημα ενός προεπιλεγμένου διαχειριστή κωδικών είναι η καλή ενσωμάτωση με το υπόλοιπο λογισμικό, αλλά τείνει να είναι απλοϊκός και να υπολείπεται των χαρακτηριστικών ιδιωτικότητας και ασφάλειας που διαθέτουν οι αυτόνομες εναλλακτικές.
 
-For example, the password manager in Microsoft Edge doesn't offer E2EE at all. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
+Για παράδειγμα, ο διαχειριστής κωδικών του Microsoft Edge δεν προσφέρει καθόλου E2EE. Ο διαχειριστής κωδικών της Google διαθέτει [προαιρετικό](https://support.google.com/accounts/answer/11350823) E2EE, ενώ αυτός [της Apple](https://support.apple.com/HT202303) προσφέρει E2EE από προεπιλογή.
 
 </div>
 
-## Cloud-based
+## Διαδικτυακοί
 
-These password managers sync your passwords to a cloud server for easy accessibility from all your devices and safety against device loss.
+Οι εξής διαχειριστές κωδικών συγχρονίζουν τους κωδικούς σου με κάποιον διακομιστή στο "νέφος" για εύκολη πρόσβαση από όλες τις συσκευές σου και προστασία στην περίπτωση που τις χάσεις.
 
 ### Bitwarden
 
@@ -155,7 +155,7 @@ These password managers sync your passwords to a cloud server for easy accessibi
 
 ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** is a free and open-source password and passkey manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
+Ο **Bitwarden** είναι ένας διαχειριστής κωδικών και passkey ανοιχτού κώδικα. Στοχεύει στην επίλυση προβλημάτων διαχείρισης κωδικών για άτομα, ομάδες και επιχειρηματικούς οργανισμούς. Bitwarden is among the best and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }

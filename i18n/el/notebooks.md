@@ -9,7 +9,7 @@ Keep track of your notes and journalings without giving them to a third-party.
 
 If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports E2EE.
 
-## Cloud-based
+## Διαδικτυακοί
 
 ### Standard Notes
 
