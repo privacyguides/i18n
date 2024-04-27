@@ -149,29 +149,29 @@ Mailbox.org n'accepte aucune crypto-monnaie en raison de la suspension des activ
 
 #### :material-check:{ .pg-green } Sécurité du compte
 
-Mailbox.org prend en charge l'[authentification à deux facteurs](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) pour son application web uniquement. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Les normes web telles que [WebAuthn](https://fr.wikipedia.org/wiki/WebAuthn) ne sont pas encore prises en charge.
+Mailbox.org prend en charge l'[authentification à deux facteurs](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) pour son application web uniquement. Vous pouvez utiliser TOTP ou une [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via [YubiCloud](https://yubico.com/products/services-software/yubicloud). Les normes web telles que [WebAuthn](https://fr.wikipedia.org/wiki/WebAuthn) ne sont pas encore prises en charge.
 
 #### :material-information-outline:{ .pg-blue } Sécurité des données
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Les nouveaux messages que vous recevrez seront alors immédiatement chiffrés avec votre clé publique.
+Mailbox.org permet le chiffrement des e-mails entrant à l'aide de sa [boîte e-mails chiffrée](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Les nouveaux messages que vous recevrez seront alors immédiatement chiffrés avec votre clé publique.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. Une [option tierce](calendar.md) pourrait être plus appropriée pour ces informations.
+Cependant, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), la plateforme logicielle utilisée par Mailbox.org, [ne prend pas en charge](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) le chiffrement de votre carnet d'adresses et de votre calendrier. Une [option tierce](calendar.md) pourrait être plus appropriée pour ces informations.
 
 #### :material-check:{ .pg-green } Chiffrement des e-mails
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Cette fonction est utile lorsque le destinataire distant ne dispose pas d'OpenPGP et ne peut pas déchiffrer une copie de l'e-mail dans sa propre boîte mail.
+Mailbox.org a [du chiffrement intégré](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) dans son interface d'e-mail web, ce qui simplifie l'envoi de messages à des personnes possédant des clés OpenPGP publiques. Ils permettent également aux [destinataires distants de déchiffrer un e-mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) sur les serveurs de Mailbox.org. Cette fonction est utile lorsque le destinataire distant ne dispose pas d'OpenPGP et ne peut pas déchiffrer une copie de l'e-mail dans sa propre boîte mail.
 
 Mailbox.org prend également en charge la découverte de clés publiques via HTTP à partir de leur [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Cela permet aux personnes extérieures à Mailbox.org de trouver facilement les clés OpenPGP des comptes Mailbox.org, pour un E2EE inter-fournisseurs. Cela ne s'applique qu'aux adresses e-mails se terminant par un domaine Mailbox, comme @mailbox.org. Si vous utilisez un domaine personnalisé, vous devez [configurer le WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) séparément.
 
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Votre compte sera marqué comme un compte d'utilisateur restreint à la fin de votre contrat. Il sera irrévocablement supprimé après [30 jours](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Cependant, leur interface d'e-mail web n'est pas accessible via leur service .onion et vous pouvez rencontrer des erreurs de certificat TLS.
+Vous pouvez accéder à votre compte Mailbox.org via IMAP/SMTP en utilisant leur [service .onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Cependant, leur interface d'e-mail web n'est pas accessible via leur service .onion et vous pouvez rencontrer des erreurs de certificat TLS.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org prend également en charge [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) en plus des protocoles d'accès standard comme IMAP et POP3.
+Tous les comptes sont assortis d'un espace de stockage cloud limité, qui [peut être chiffré](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org propose également l'alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), qui applique le chiffrement TLS à la connexion entre les serveurs d'e-mail, faute de quoi le message ne sera pas envoyé. Mailbox.org prend également en charge [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) en plus des protocoles d'accès standard comme IMAP et POP3.
 
 Mailbox.org dispose d'une fonction d'héritage numérique pour toutes les offres. Vous pouvez choisir de transmettre certaines de vos données à vos héritiers, à condition d'en faire la demande et de fournir votre testament. Vous pouvez également désigner une personne par son nom et son adresse.
 
@@ -191,16 +191,16 @@ Ces fournisseurs stockent vos e-mails avec un chiffrement à connaissance zéro,
 
 ![Logo Tuta](assets/img/email/tuta.svg){ align=right }
 
-**Tuta** est un service d'e-mail qui met l'accent sur la sécurité et la confidentialité grâce à l'utilisation du chiffrement. Tuta est en activité depuis **2011** et est basée à Hanovre, en Allemagne. Free accounts start with 1GB of storage.
+**Tuta** est un service d'e-mail qui met l'accent sur la sécurité et la confidentialité grâce à l'utilisation du chiffrement. Tuta est en activité depuis **2011** et est basée à Hanovre, en Allemagne. Les comptes gratuits commencent avec 1 Go de stockage.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Code source" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -214,11 +214,11 @@ Ces fournisseurs stockent vos e-mails avec un chiffrement à connaissance zéro,
 
 </div>
 
-Tuta ne prend pas en charge le [protocole IMAP](https://tuta.com/faq/#imap) ni l'utilisation de [clients d'e-mail](email-clients.md) tiers, et vous ne pourrez pas non plus ajouter [des comptes e-mail externes](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) à l'application Tuta. L'[import d'e-mails](https://github.com/tutao/tutanota/issues/630) n'est pas pris en charge non plus pour le moment, bien que cela soit [amené à changer](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta ne prend pas en charge le [protocole IMAP](https://tuta.com/faq/#imap) ni l'utilisation de [clients d'e-mail](email-clients.md) tiers, et vous ne pourrez pas non plus ajouter [des comptes e-mail externes](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) à l'application Tuta. L'[import d'e-mails](https://github.com/tutao/tutanota/issues/630) n'est pas pris en charge non plus pour le moment, bien que cela soit [amené à changer](https://tuta.com/blog/posts/kickoff-import). Les e-mails peuvent être exportés [individuellement ou par sélection groupée](https://tuta.com/support#generalMail) par dossier, ce qui peut s'avérer peu pratique si vous avez de nombreux dossiers.
 
 #### :material-check:{ .pg-green } Domaines personnalisés et alias
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+Les comptes Tuta payants peuvent utiliser 15 ou 30 alias en fonction de leur abonnement et un nombre illimité d'alias sur [domaines personnalisés](https://tuta.com/support#custom-domain). Tuta ne permet pas le [sous-adressage (adresses plus)](https://tuta.com/support#plus), mais vous pouvez utiliser une adresse [fourre-tout](https://tuta.com/support#settings-global) avec un domaine personnalisé.
 
 #### :material-information-outline:{ .pg-blue } Modes de paiement privés
 
@@ -226,11 +226,11 @@ Tuta n'accepte directement que les cartes de crédit et PayPal, mais [les crypto
 
 #### :material-check:{ .pg-green } Sécurité du compte
 
-Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta prend en charge l'[authentification à deux facteurs](https://tuta.com/support#2fa) avec TOTP ou U2F.
 
 #### :material-check:{ .pg-green } Sécurité des données
 
-Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Cela signifie que les messages et autres données stockés dans votre compte ne sont lisibles que par vous.
+Tuta dispose d'un [chiffrement à accès zéro au repos](https://tuta.com/support#what-encrypted) pour vos e-mails, votre [carnet d'adresses, vos contacts](https://tuta.com/support#encrypted-address-book) et vos [calendriers](https://tuta.com/support#calendar). Cela signifie que les messages et autres données stockés dans votre compte ne sont lisibles que par vous.
 
 #### :material-information-outline:{ .pg-blue } Chiffrement des e-mails
 
@@ -238,7 +238,7 @@ Tuta [n'utilise pas OpenPGP](https://tuta.com/support/#pgp). Les comptes Tuta ne
 
 #### :material-information-outline:{ .pg-blue } Résiliation du compte
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Vous pouvez réutiliser un compte gratuit désactivé si vous payez.
+Tuta supprimera [les comptes gratuits inactifs](https://tuta.com/support#inactive-accounts) après six mois. Vous pouvez réutiliser un compte gratuit désactivé si vous payez.
 
 #### :material-information-outline:{ .pg-blue } Fonctionnalités supplémentaires
 
@@ -258,10 +258,10 @@ Les administrateurs système peuvent envisager de mettre en place leur propre se
 
 **Mailcow** est un serveur d'e-mail plus avancé, parfait pour ceux qui ont un peu plus d'expérience de Linux. Il possède tout ce dont vous avez besoin dans un conteneur Docker : un serveur d'e-mail avec prise en charge de DKIM, une surveillance antivirus et spam, une interface d'e-mail web et ActiveSync avec SOGo, et une administration basée sur le web avec prise en charge de l'A2F.
 
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Code source" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuer }
 
 </div>
 
@@ -279,12 +279,12 @@ Les administrateurs système peuvent envisager de mettre en place leur propre se
 
 Pour une approche plus manuelle, nous avons choisi ces deux articles :
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
+- [Mise en place d'un serveur mail avec OpenSMTPD, Dovecot et Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [Comment gérer votre propre serveur mail](https://c0ffee.net/blog/mail-server-guide) (août 2017)
 
 ## Critères
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**Veuillez noter que nous ne sommes affiliés à aucun des fournisseurs que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour tout fournisseur d'e-mail souhaitant être recommandé, y compris la mise en place des bonnes pratiques du secteur, une technologie moderne et bien plus. Nous vous suggérons de vous familiariser avec cette liste avant de choisir un fournisseur d'e-mail, et de mener vos propres recherches pour vous assurer que le fournisseur d'e-mail que vous choisissez est le bon choix pour vous.
 
 ### Technologie
 
@@ -293,7 +293,7 @@ Nous considérons ces caractéristiques comme importantes afin de fournir un ser
 **Minimum pour se qualifier :**
 
 - Chiffre les données du compte e-mail au repos avec un chiffrement à accès zéro.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
+- Capacité d'exportation en tant que [Mbox](https://en.wikipedia.org/wiki/Mbox) ou .eml individuel avec la norme [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
 - Permet aux utilisateurs d'utiliser leur propre [nom de domaine](https://en.wikipedia.org/wiki/Domain_name). Les noms de domaine personnalisés sont importants pour les utilisateurs car ils leur permettent de conserver leur indépendance du service, au cas où celui-ci tournerait mal ou serait racheté par une autre société qui ne donne pas priorité à la vie privée.
 - Fonctionne sur sa propre infrastructure, c'est-à-dire qu'elle ne repose pas sur des fournisseurs de services d'e-mail tiers.
 
@@ -304,7 +304,7 @@ Nous considérons ces caractéristiques comme importantes afin de fournir un ser
 - Prise en charge de [WKD](https://wiki.gnupg.org/WKD) pour permettre une meilleure découverte des clés publiques OpenPGP via HTTP. Les utilisateurs de GnuPG peuvent obtenir une clé en tapant : `gpg --locate-key utilisateur_exemple@exemple.fr`
 - Prise en charge d'une boîte mail temporaire pour les utilisateurs externes. Cette fonction est utile lorsque vous souhaitez envoyer un e-mail chiffré, sans envoyer une copie réelle à votre destinataire. Ces e-mails ont généralement une durée de vie limitée et sont ensuite automatiquement supprimés. Ils n'obligent pas non plus le destinataire à configurer un système de chiffrement comme OpenPGP.
 - Disponibilité des services du fournisseur d'e-mail via un [service onion](https://en.wikipedia.org/wiki/.onion).
-- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
+- Support du [sous-adressage](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
 - Fonctionnalité fourre-tout ou alias pour ceux qui possèdent leurs propres domaines.
 - Utilisation de protocoles standard d'accès aux e-mails tels que IMAP, SMTP ou [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Les protocoles d'accès standard garantissent que les clients peuvent facilement télécharger l'ensemble de leurs e-mails, s'ils souhaitent changer de fournisseur.
 
@@ -332,13 +332,13 @@ Les serveurs d'e-mail traitent un grand nombre de données très sensibles. Nous
 - Protection de l'interface d'e-mail web avec une A2F, tel que TOTP.
 - Le chiffrement à accès zéro, qui complète le chiffrement au repos. Le fournisseur ne dispose pas des clés de déchiffrement des données qu'il détient. Cela permet d'éviter qu'un employé malhonnête ne divulgue les données auxquelles il a accès ou qu'un adversaire distant ne divulgue les données qu'il a volées en obtenant un accès non autorisé au serveur.
 - Prise en charge de [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- Aucune erreurs ou vulnérabilités TLS lors du profilage par des outils tels que [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), ou [Qualys SSL Labs](https://ssllabs.com/ssltest); cela inclut les erreurs liées aux certificats et les paramètres DH faibles, tels que ceux qui ont conduit à [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Une préférence pour les serveurs (facultatif sur TLSv1.3) pour des suites de chiffrement fortes qui prennent en charge la confidentialité persistante et le chiffrement authentifié.
 - Une politique valide [MTA-STS](https://tools.ietf.org/html/rfc8461) et [TLS-RPT](https://tools.ietf.org/html/rfc8460).
 - Des enregistrements [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) valides.
 - Des enregistrements [SPF](https://fr.wikipedia.org/wiki/Sender_Policy_Framework) et [DKIM](https://fr.wikipedia.org/wiki/DomainKeys_Identified_Mail) valides.
 - Disposer d'un enregistrement et d'une politique [DMARC](https://fr.wikipedia.org/wiki/DMARC) appropriés ou utiliser [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) pour l'authentification. Si l'authentification DMARC est utilisée, la politique doit être définie comme suit : `reject` ou `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
+- Une préférence pour une suite de serveur TLS 1.2 ou plus récente et un plan pour [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - Une soumission [SMTPS](https://en.wikipedia.org/wiki/SMTPS), en supposant que le SMTP est utilisé.
 - Des normes de sécurité des sites web telles que :
     - [HTTP Strict Transport Security](https://fr.wikipedia.org/wiki/HTTP_Strict_Transport_Security)

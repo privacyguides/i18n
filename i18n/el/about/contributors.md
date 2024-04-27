@@ -1,21 +1,21 @@
 ---
-title: Συνεισφέροντες
+title: Συνεισφέροντα
 hide:
   - toc
 ---
 
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
 
-Αυτό το έργο ακολουθεί την εξής προδιαγραφή [all-contributors](https://github.com/all-contributors/all-contributors). Συνεισφορές **οποιουδήποτε** είδους είναι ευπρόσδεκτες να προστεθούν στη [λίστα αυτή](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), συμπεριλαμβανομένων συνεισφορών στο Privacy Guides εκτός αυτού του αποθετηρίου και συνεισφορών που δεν σχετίζονται με το περιεχόμενο (όπως η ανταλλαγή ιδεών του Privacy Guides, η προώθηση του έργου, η απάντηση σε ερωτήσεις στο φόρουμ κ.λπ.).
+Το παρόν έργο ακολουθεί την προδιαγραφή [all-contributors](https://github.com/all-contributors/all-contributors). Συνεισφορές **οποιουδήποτε** είδους είναι ευπρόσδεκτες να προστεθούν στη [λίστα αυτή](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), συμπεριλαμβανομένων συνεισφορών στο Privacy Guides εκτός αυτού του αποθετηρίου και συνεισφορών που δεν σχετίζονται με το περιεχόμενο (όπως η ανταλλαγή ιδεών του Privacy Guides, η προώθηση του έργου, η απάντηση σε ερωτήσεις στο forum, κτλ).
 
-| Emoji | Τύπος         | Περιγραφή                                                                                                                                                    |
-| ----- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 📖    | `doc`         | Συνεισφέροντες στο περιεχόμενο του [privacyguides.org](https://www.privacyguides.org/en/).                                   |
-| 👀    | `review`      | Κάποιος που έχει αφιερώσει χρόνο για να αναθεωρήσει [pull requests](https://github.com/privacyguides/privacyguides.org/pulls) στον ιστότοπο. |
-| 📝    | `blog`        | Κάποιος που έχει γράψει για εμάς μια ανάρτηση [blog](https://blog.privacyguides.org).                                                        |
-| 💬    | `question`    | Κάποιος που ήταν χρήσιμος όταν απαντούσε σε ερωτήσεις στο [φόρουμ](https://discuss.privacyguides.net) ή στα κανάλια Matrix.                  |
-| 🌍    | `translation` | Κάποιος που έχει συνεισφέρει στο [Crowdin](https://crowdin.com/project/privacyguides).                                                       |
+| Emoji | Type          | Description                                                                                                                                       |
+| ----- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📖    | `doc`         | Συνεισφέρον στο περιεχόμενο του [privacyguides.org](https://www.privacyguides.org/en/).                           |
+| 👀    | `review`      | Κάποιο που αφιέρωσε χρόνο για να ελέγξει [pull requests](https://github.com/privacyguides/privacyguides.org/pulls) στον ιστότοπο. |
+| 📝    | `blog`        | Κάποιο που έχει γράψει για εμάς ανάρτηση [ιστολογίου](https://blog.privacyguides.org).                                            |
+| 💬    | `question`    | Κάποιος που έδωσε χρήσιμες απαντήσεις στο [forum](https://discuss.privacyguides.net) ή στα κανάλια Matrix.                        |
+| 🌍    | `translation` | Κάποιο που έχει συνεισφέρει στο [Crowdin](https://crowdin.com/project/privacyguides).                                             |
 
-Ένα τεράστιο ευχαριστώ από την ομάδα Privacy Guides σε αυτούς τους υπέροχους ανθρώπους ([full emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Ένα τεράστιο ευχαριστώ από την ομάδα Privacy Guides σε αυτά τα υπέροχα άτομα ([full emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 \--8<-- "includes/contributors.md"
