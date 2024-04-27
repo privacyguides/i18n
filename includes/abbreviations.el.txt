@@ -1,45 +1,45 @@
-*[2FA]: Αυθεντικοποίηση Δύο-Παραγόντων
+*[2FA]: 2-Factor Authentication (Αυθεντικοποίηση Δύο-Παραγόντων)
 *[ADB]: Android Debug Bridge (Γέφυρα Αποσφαλμάτωσης Android)
 *[AOSP]: Android Open Source Project (Έργο Ανοιχτού Κώδικα Android)
 *[ATA]: Advanced Technology Attachment
-*[επιφάνεια επίθεσης]: Ο συνολικός αριθμός πιθανών σημείων εισόδου μη-εξουσιοδοτημένης πρόσβασης σε ένα σύστημα (αγγλ: attack surface)
+*[επιφάνεια επίθεσης]: Ο συνολικός αριθμός πιθανών σημείων εισόδου μη-εξουσιοδοτημένης πρόσβασης σε ένα σύστημα (αγγλικά: attack surface)
 *[AVB]: Android Verified Boot (Επαληθευμένη Εκκίνηση Android)
 *[cgroups]: Control Groups (Ομάδες Ελέγχου)
 *[CLI]: Command Line Interface (Διεπαφή Γραμμής Εντολών)
 *[CSV]: Comma-Separated Values (Τιμές Διαχωρισμένες με Κόμμα)
 *[CVE]: Common Vulnerabilities and Exposures (Κοινές Ευπάθειες και Εκθέσεις)
-*[λειτουργία ψηφιακής κληροδοσίας]: Η Ψηφιακή Κληροδοσία (αγγλ: Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
+*[λειτουργία ψηφιακής κληροδοσίας]: Η Ψηφιακή Κληροδοσία (αγγλικά: Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
 *[DNSSEC]: Domain Name System Security Extensions (Σύστημα Ονομάτων Τομέων – Επεκτάσεις Ασφάλειας)
 *[DNS]: Domain Name System (Σύστημα Ονομάτων Τομέων)
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: Κρυπτογράφηση Άκρο-σε-Άκρο (αγγλ: End-to-End Encryption)
+*[E2EE]: End-to-End Encryption/Encrypted (Κρυπτογράφηση/Κρυπτογραφημένο από Άκρο-σε-Άκρο)
 *[ECS]: EDNS Client Subnet
-*[ΕΟΧ]: Ευρωπαϊκός Οικονομικός Χώρος
+*[EEA]: European Economic Area (ΕΟΧ: Ευρωπαϊκός Οικονομικός Χώρος)
 *[εντροπία]: Μέτρηση του πόσο απρόβλεπτο είναι κάτι
-*[EOL]: End-of-Life (Τέλος Κύκλου Ζωής)
+*[EOL]: End-of-Life (ΤΚΖ: Τέλος Κύκλου Ζωής)
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption (Κρυπτογράφηση Πλήρους Δίσκου)
+*[FDE]: Full Disk Encryption (ΚΠΔ: Κρυπτογράφηση Πλήρους Δίσκου)
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy (Εμπρόσθια Μυστικότητα)
-*[φορκάρισμα]: Γνωστό και ως παρακλάδι στον επίσημο λόγο, το φορκάρισμα (ή φόρκα) αναφέρεται σε νέο έργο λογισμικού που προκύπτει από την αντιγραφή ενός υπάρχοντος έργου και που μετέπειτα αναπτύσσεται ανεξάρτητα (αγγλ: fork)
-*[GDPR]: General Data Protection Regulation (Γενικός Κανονισμός για την Προστασία Δεδομένων)
+*[φορκάρισμα]: Γνωστό και ως παρακλάδι στον επίσημο λόγο, το φορκάρισμα (ή φόρκα) αναφέρεται σε νέο έργο λογισμικού που προκύπτει από την αντιγραφή ενός υπάρχοντος έργου και που μετέπειτα αναπτύσσεται ανεξάρτητα (αγγλικά: fork)
+*[GDPR]: General Data Protection Regulation (ΓΚΠΔ: Γενικός Κανονισμός για την Προστασία Δεδομένων)
 *[GPG]: GNU Privacy Guard (υλοποίηση του PGP)
 *[GPS]: Global Positioning System (Παγκόσμιο Σύστημα Θεσιθεσίας)
-*[GUI]: Graphical User Interface (Γραφικό Περιβάλλον Χρηστ[ρι]ών)
+*[GUI]: Graphical User Interface (Γραφικό Περιβάλλον)
 *[GnuPG]: GNU Privacy Guard (υλοποίηση του PGP)
 *[HDD]: Hard Disk Drive (Σκληρός Δίσκος)
 *[HOTP]: HMAC-based One-Time Password (Κωδικός Μιας-Χρήσης βασιζόμενος στο HMAC – όπου HMAC σημαίνει Hash-based Message Authentication Code, δηλαδή Κωδικός Αυθεντικοποίησης Μηνύματος βασιζόμενος σε Χασάρισμα)
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
+*[HTTPS]: Hypertext Transfer Protocol Secure (Ασφαλές Πρωτόκολλο Μεταφοράς Υπερκειμένου)
+*[HTTP]: Hypertext Transfer Protocol (Πρωτόκολλο Μεταφοράς Υπερκειμένου)
 *[υπερβλέπων]: Λογισμικό, υλικολογισμικό ή υλισμικό που κατανέμει τους πόρους ενός επεξεργαστή μεταξύ πολλών λειτουργικών συστημάτων (αγγλικά: hypervisor)
 *[ICCID]: Integrated Circuit Card Identifier (Ταυτοποιητικό Κάρτας Ολοκληρωμένου Κυκλώματος)
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity (Διεθνής Ταυτότητα Κινητού Εξοπλισμού)
-*[IMSI]: International Mobile Subscriber Identity (Διεθνής Ταυτότητα Συνδρομιτή Κινητού)
+*[IMSI]: International Mobile Subscriber Identity (Διεθνής Ταυτότητα Συνδρομιτόντος Κινητού)
 *[IP]: Internet Protocol (Διαδικτυακό Πρωτόκολλο)
 *[IPv4]: Internet Protocol version 4 (Διαδικτυακό Πρωτόκολλο έκδοση 4)
 *[IPv6]: Internet Protocol version 6 (Διαδικτυακό Πρωτόκολλο έκδοση 6)
@@ -47,42 +47,42 @@
 *[ISPs]: Internet Service Providers (Πάροχοι Υπηρεσιών Διαδικτύου)
 *[JNI]: Java Native Interface (Εγγενής Διεπαφή Java)
 *[KYC]: Know Your Customer (νομικός όρος: Μέτρα Δέουσας Επιμέλειας – μαρκετίστικος όρος: "Συστηθείτε")
-*[LUKS]: Linux Unified Key Setup (Πρόγραμμα Κρυπτογράφησης Πλήρους-Δίσκου για Linux)
+*[LUKS]: Linux Unified Key Setup (Πρόγραμμα Κρυπτογράφησης Πλήρους Δίσκου για Linux)
 *[MAC]: Media Access Control (Έλεγχος Προσπέλασης στο Μέσο)
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier (Ταυτοποιητικό Κινητού Εξοπλισμού)
-*[MFA]: Αυθεντικοποίηση Πολλών-Παραγόντων
+*[MFA]: Multi-Factor Authentication (Αυθεντικοποίηση Πολλών-Παραγόντων)
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Network Address Translation (Μετάφραση Διεύθυνσης Δικτύου)
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Network Time Protocol (Πρωτόκολλο Δικτυακού Χρόνου)
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol (Πρωτόκολλο Διαδικτυακού Πιστοποιητικού Κατάστασης)
-*[OEM]: Original Equipment Manufacturer (Παραγωγό Πρωτότυπου Εξοπλισμού)
-*[OEMs]: Original Equipment Manufacturers (Παραγωγά Πρωτότυπου Εξοπλισμού)
+*[OEM]: Original Equipment Manufacturer (Παραγωγός Πρωτότυπου Εξοπλισμού)
+*[OEMs]: Original Equipment Manufacturers (Παραγωγοί Πρωτότυπου Εξοπλισμού)
 *[ΛΣ]: Λειτουργικό Σύστημα
 *[OTP]: One-Time Password (Κωδικός Μιας-Χρήσης)
 *[OTPs]: One-Time Passwords (Κωδικοί Μιας-Χρήσης)
 *[OpenPGP]: Υλοποίηση ανοιχτού κώδικα του Pretty Good Privacy (PGP)
 *[P2P]: Peer-to-Peer (Ομότιμο)
-*[PAM]: Linux Pluggable Authentication Modules
+*[PAM]: Pluggable Authentication Modules (υποσύστημα του Linux)
 *[POP3]: Post Office Protocol 3
 *[PGP]: Pretty Good Privacy (βλέπε OpenPGP)
-*[PII]: Personally Identifiable Information (Προσωπικές Ταυτοποιήσιμες Πληροφορίες)
+*[PII]: Personally Identifiable Information (ΠΤΠ: Προσωπικές Ταυτοποιήσιμες Πληροφορίες)
 *[QNAME]: Qualified Name
-*[κυλιόμενη κυκλοφορία]: Ενημερώσεις που κυκλοφορούν συχνά αντί προκαθορισμένων χρονικών διαστημάτων (αγγλ: rolling release)
+*[κυλιόμενη κυκλοφορία]: Ενημερώσεις που κυκλοφορούν συχνά και όχι σε προκαθορισμένα χρονικά διαστήματα (αγγλικά: rolling release)
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module (Μονάδα Ταυτότητας Συνδρομιτού)
-*[SMS]: Short Message Service (standard text messaging)
+*[SIM]: Subscriber Identity Module (Μονάδα Ταυτότητας Συνδρομίτοντος)
+*[SMS]: Short Message Service (τα λεγόμενα μηνύματα)
 *[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication
+*[SNI]: Server Name Indication (Ένδειξη Ονόματος Διακομιστή)
 *[SSD]: Solid-State Drive (Δίσκος Στερεάς Κατάστασης)
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
 *[SaaS]: Software as a Service (Λογισμικό ως Υπηρεσία, δηλαδή "Λογισμικό Νέφους")
-*[SoC]: System on Chip (Σύστημα σε Τσιπάκι)
-*[SSO]: Single sign-on
+*[SoC]: System on Chip (ΣσΤ: Σύστημα σε Τσιπάκι)
+*[SSO]: Single sign-on (Ενιαία σύνδεση)
 *[TCP]: Transmission Control Protocol (Πρωτόκολλο Ελέγχου Μεταφοράς)
 *[TEE]: Trusted Execution Environment (Έμπιστο Περιβάλλον Εκτέλεσης)
 *[TLS]: Transport Layer Security (Ασφάλεια Επιπέδου Μεταφοράς)
@@ -91,7 +91,7 @@
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
+*[UDP]: User Datagram Protocol (Πρωτόκολλο Δεδομενογράμματος Χρήστοντος)
 *[VPN]: Virtual Private Network (Εικονικό Ιδιωτικό Δίκτυο)
 *[VoIP]: Voice over Internet Protocol (Φωνή επί Διαδικτυακού Πρωτοκόλλου)
 *[W3C]: World Wide Web Consortium

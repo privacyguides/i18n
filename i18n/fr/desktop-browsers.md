@@ -310,9 +310,9 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Suppression à la fermeture</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] Dans le menu *Paramètres des sites et boucliers*, sous Contenu, après avoir cliqué sur le menu *Données du site sur l'appareil*, sélectionnez **Supprimer les données que les sites ont enregistrées sur votre appareil lorsque vous fermez toutes les fenêtres**
 
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+Si vous souhaitez rester connecté à un site particulier que vous visitez souvent, vous pouvez définir des exceptions pour chaque site dans la section *Comportements personnalisés*.
 
 </div>
 
@@ -342,7 +342,7 @@ Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreint
 
 #### Synchronisation Brave
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permet à vos données de navigation (historique, favoris, etc.) d'être accessibles sur tous vos appareils sans nécessiter de compte et les protège avec E2EE.
 
 #### Récompenses et portefeuille Brave
 
@@ -364,18 +364,18 @@ Le **Portefeuille Brave** fonctionne localement sur votre ordinateur, mais ne pr
 - Disponible sur Linux, macOS et Windows.
 - Les modifications nécessaires pour rendre le navigateur plus respectueux de la vie privée ne devraient pas avoir d'impact négatif sur l'expérience des utilisateurs.
 - Bloque les cookies tiers par défaut.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Prend en charge le [partitionnement d'état](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) afin d'atténuer le suivi intersite.[^1]
 
 ### Dans le meilleur des cas
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Comprend une fonctionnalité intégrée de blocage du contenu.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Supporte la compartimentation des cookies (à la [Account Containers](https://support.mozilla.org/kb/containers)).
 - Prend en charge des Progressive Web Apps. Les PWAs vous permettent d'installer certains sites web comme s'il s'agissait d'applications natives sur votre ordinateur. Cela peut présenter des avantages par rapport à l'installation d'applications basées sur Electron, car vous bénéficiez des mises à jour de sécurité régulières de votre navigateur.
 - Ne comprend pas de fonctionnalités supplémentaires (bloatware) qui n'ont pas d'incidence sur la vie privée des utilisateurs.
 - Ne collecte pas de télémétrie par défaut.
 - Fournit une implémentation de serveur de synchronisation open-source.
 - Le moteur de recherche par défaut est un [moteur de recherche privé](search-engines.md).
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: L'implémentation de Brave est détaillée sur le site [Brave Privacy Updates : Partitionnement de l'état du réseau pour la protection de la vie privée](https://brave.com/privacy-updates/14-partitioning-network-state).
