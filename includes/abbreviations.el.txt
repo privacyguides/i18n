@@ -1,24 +1,24 @@
 *[2FA]: Αυθεντικοποίηση 2-Παραγόντων
 *[ADB]: Android Debug Bridge
-*[AOSP]: Android Open Source Project
+*[AOSP]: Android Open Source Project (Έργο Ανοιχτού Κώδικα Android)
 *[ATA]: Advanced Technology Attachment
 *[επιφάνεια επίθεσης]: Ο συνολικός αριθμός πιθανών σημείων εισόδου μη-εξουσιοδοτημένης πρόσβασης σε ένα σύστημα
 *[AVB]: Android Verified Boot (Επαληθευμένη Εκκίνηση Android)
 *[cgroups]: Control Groups (Ομάδες Ελέγχου)
 *[CLI]: Command Line Interface (Διεπαφή Γραμμής Εντολών)
-*[CSV]: Comma-Separated Values
+*[CSV]: Comma-Separated Values (Τιμές Διαχωρισμένες με Κόμμα)
 *[CVE]: Common Vulnerabilities and Exposures (Κοινές Ευπάθειες και Εκθέσεις)
-*[ψηφιακή κληροδοσία]: Η Ψηφιακή Κληροδοσία (Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
+*[λειτουργία ψηφιακής κληροδοσίας]: Η Ψηφιακή Κληροδοσία (Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
 *[DNSSEC]: Domain Name System Security Extensions (Σύστημα Ονομάτων Τομέων – Επεκτάσεις Ασφάλειας)
 *[DNS]: Domain Name System (Σύστημα Ονομάτων Τομέων)
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted
-*[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
+*[E2EE]: End-to-End Encryption (Κρυπτογράφηση Άκρου-σε-Άκρο) ή End-to-End Encrypted (Κρυπτογραφημένο Άκρο-σε-Άκρο)
+*[ECS]: EDNS Client Subnet (Υποδίκτυο Πελατ[ισσ]ών EDNS)
+*[ΕΟΧ]: Ευρωπαϊκός Οικονομικός Χώρος
+*[εντροπία]: Μέτρηση του πόσο απρόβλεπτο κάτι είναι
 *[EOL]: End-of-Life
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
