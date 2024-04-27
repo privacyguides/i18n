@@ -69,10 +69,10 @@ Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt u
 
 Le **Navigateur Mullvad** est une version du [Navigateur Tor](tor.md#tor-browser) dont l'intégration au réseau Tor a été supprimée, visant à fournir les technologies de protection contre les empreintes numériques du Navigateur Tor aux utilisateurs de VPN. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -115,14 +115,14 @@ Le navigateur Mullvad est livré avec DuckDuckGo comme [moteur de recherche](sea
 
 **Firefox** offre de solides paramètres de confidentialité, tels que la [protection renforcée contre le suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur), qui peut contribuer à bloquer divers [types de suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur#w_what-enhanced-tracking-protection-blocks).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Code source" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -146,7 +146,7 @@ Ces options se trouvent dans :material-menu: → **Paramètres**
 
 #### Recherche
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Décochez **Afficher les suggestions de recherche**
 
 Les fonctionnalités de suggestion de recherche peuvent ne pas être disponibles dans votre région.
 
@@ -156,7 +156,7 @@ Les suggestions de recherche envoient tout ce que vous tapez dans la barre d'adr
 
 [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) est une fonction similaire aux suggestions de recherche qui n'est disponible qu'aux États-Unis. Nous recommandons de les désactiver pour la même raison que nous recommandons de désactiver les suggestions de recherche. Si vous ne voyez pas ces options dans l'en-tête de la **barre d'adresse**, c'est que vous n'avez pas la nouvelle expérience et que vous pouvez ignorer ces changements.
 
-- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Décochez **Suggestions de Firefox**
 - [ ] Décochez **Suggestions des sponsors**
 
 #### Confidentialité & sécurité
@@ -223,20 +223,20 @@ Arkenfox vise uniquement à contrecarrer les scripts de pistage basiques ou naï
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Logo Brave](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+Le navigateur **Brave** comprend un bloqueur de contenu intégré et des [fonctions de confidentialité](https://brave.com/privacy-features/), dont la plupart sont activées par défaut.
 
 Brave est basé sur le projet de navigateur Web Chromium. Il devrait donc vous être familier et présenter un minimum de problèmes de compatibilité avec les sites Web.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Service onion" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-windows11: Windows](https://brave.com/download)
@@ -281,11 +281,11 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Sélectionnez **Strict** sous **Mettre à niveau des connexions vers HTTPS**
+- [x] (facultatif) Sélectionnez **Bloquer les scripts** (1)
+- [x] Sélectionnez **Strict, peut casser les sites** sous Bloquer la capture d'empreinte numérique
+- [x] Cochez **M'oublier quand je ferme ce site** (2)
+- [ ] Décochez tous les composants de réseaux sociaux
 
 </div>
 
@@ -296,12 +296,12 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Sélectionnez **Désactiver l'UDP pas en proxy** sous [Politique de gestion des adresses IP WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Décochez **Utiliser les services Google de messagerie push**
+- [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
+- [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
+- [ ] Décochez **Envoyer automatiquement les rapports de diagnostic**
+- [ ] Décochez **Fenêtre privée avec Tor** (1)
 
 </div>
 

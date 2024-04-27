@@ -1,5 +1,5 @@
-*[2FA]: Αυθεντικοποίηση 2 Παραγόντων
-*[ADB]: Android Debug Bridge
+*[2FA]: Αυθεντικοποίηση Δύο-Παραγόντων
+*[ADB]: Android Debug Bridge (Γέφυρα Αποσφαλμάτωσης Android)
 *[AOSP]: Android Open Source Project (Έργο Ανοιχτού Κώδικα Android)
 *[ATA]: Advanced Technology Attachment
 *[επιφάνεια επίθεσης]: Ο συνολικός αριθμός πιθανών σημείων εισόδου μη-εξουσιοδοτημένης πρόσβασης σε ένα σύστημα (αγγλ: attack surface)
@@ -8,25 +8,25 @@
 *[CLI]: Command Line Interface (Διεπαφή Γραμμής Εντολών)
 *[CSV]: Comma-Separated Values (Τιμές Διαχωρισμένες με Κόμμα)
 *[CVE]: Common Vulnerabilities and Exposures (Κοινές Ευπάθειες και Εκθέσεις)
-*[λειτουργία ψηφιακής κληροδοσίας]: Η Ψηφιακή Κληροδοσία (Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
+*[λειτουργία ψηφιακής κληροδοσίας]: Η Ψηφιακή Κληροδοσία (αγγλ: Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
 *[DNSSEC]: Domain Name System Security Extensions (Σύστημα Ονομάτων Τομέων – Επεκτάσεις Ασφάλειας)
 *[DNS]: Domain Name System (Σύστημα Ονομάτων Τομέων)
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption (Κρυπτογράφηση Άκρου-σε-Άκρο) ή End-to-End Encrypted (Κρυπτογραφημένο Άκρο-σε-Άκρο)
-*[ECS]: EDNS Client Subnet (Υποδίκτυο Πελατ[ισσ]ών EDNS)
+*[E2EE]: Κρυπτογράφηση Άκρο-σε-Άκρο (αγγλ: End-to-End Encryption)
+*[ECS]: EDNS Client Subnet
 *[ΕΟΧ]: Ευρωπαϊκός Οικονομικός Χώρος
 *[εντροπία]: Μέτρηση του πόσο απρόβλεπτο είναι κάτι
-*[ΤΚΖ]: Τέλος Κύκλου Ζωής
+*[EOL]: End-of-Life (Τέλος Κύκλου Ζωής)
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[ΚΠΔ]: Κρυπτογράφηση Πλήρους Δίσκου
+*[FDE]: Full Disk Encryption (Κρυπτογράφηση Πλήρους Δίσκου)
 *[FIDO]: Fast IDentity Online
-*[ΕΜ]: Εμπρόσθια Μυστικότητα
-*[φορκάρισμα]: Γνωστό και ως παρακλάδι στον επίσημο λόγο, το φορκάρισμα (ή φόρκα) αναφέρεται σε νέο έργο λογισμικού που προκύπτει από την αντιγραφή ενός υπάρχοντος έργου και που μετέπειτα αναπτύσσεται ανεξάρτητα
-*[ΓΚΠΔ]: Γενικός Κανονισμός για την Προστασία Δεδομένων
+*[FS]: Forward Secrecy (Εμπρόσθια Μυστικότητα)
+*[φορκάρισμα]: Γνωστό και ως παρακλάδι στον επίσημο λόγο, το φορκάρισμα (ή φόρκα) αναφέρεται σε νέο έργο λογισμικού που προκύπτει από την αντιγραφή ενός υπάρχοντος έργου και που μετέπειτα αναπτύσσεται ανεξάρτητα (αγγλ: fork)
+*[GDPR]: General Data Protection Regulation (Γενικός Κανονισμός για την Προστασία Δεδομένων)
 *[GPG]: GNU Privacy Guard (υλοποίηση του PGP)
 *[GPS]: Global Positioning System (Παγκόσμιο Σύστημα Θεσιθεσίας)
 *[GUI]: Graphical User Interface (Γραφικό Περιβάλλον Χρηστ[ρι]ών)
@@ -73,27 +73,27 @@
 *[κυλιόμενη κυκλοφορία]: Ενημερώσεις που κυκλοφορούν συχνά αντί προκαθορισμένων χρονικών διαστημάτων (αγγλ: rolling release)
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
+*[SIM]: Subscriber Identity Module (Μονάδα Ταυτότητας Συνδρομιτού)
 *[SMS]: Short Message Service (standard text messaging)
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication
-*[SSD]: Solid-State Drive
+*[SSD]: Solid-State Drive (Δίσκος Στερεάς Κατάστασης)
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
-*[SoC]: System on Chip
+*[SaaS]: Software as a Service (Λογισμικό ως Υπηρεσία, δηλαδή "Λογισμικό Νέφους")
+*[SoC]: System on Chip (Σύστημα σε Τσιπάκι)
 *[SSO]: Single sign-on
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
+*[TCP]: Transmission Control Protocol (Πρωτόκολλο Ελέγχου Μεταφοράς)
+*[TEE]: Trusted Execution Environment (Έμπιστο Περιβάλλον Εκτέλεσης)
+*[TLS]: Transport Layer Security (Ασφάλεια Επιπέδου Μεταφοράς)
+*[ToS]: Terms of Service (Όροι Παροχής Υπηρεσιών)
+*[TOTP]: Time-based One-Time Password (Χρονικός Κωδικός Μιας-Χρήσης)
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
-*[VoIP]: Voice over IP (Internet Protocol)
+*[VPN]: Virtual Private Network (Εικονικό Ιδιωτικό Δίκτυο)
+*[VoIP]: Voice over Internet Protocol (Φωνή επί Διαδικτυακού Πρωτοκόλλου)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[PWA]: Progressive Web App (Προοδευτική Διαδικτυακή Εφαρμογή)
