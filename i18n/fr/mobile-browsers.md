@@ -99,7 +99,7 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
+1. Cette option fournit une fonctionnalité similaire aux [modes de blocage](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avancés de uBlock Origin ou l'extension [NoScript](https://noscript.net).
 
 ##### Effacer les données de navigation
 
@@ -113,13 +113,13 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Sélectionnez **Désactiver l'UDP pas en proxy** sous [Politique de gestion des adresses IP WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Décochez **Autorisez les sites à vérifier si vous avez enregistré des méthodes de paiement**
+- [ ] Décochez **Passerelle IPFS** (1)
+- [x] Sélectionnez **Fermer les onglets lorsque vous quittez**
+- [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
+- [ ] Décochez **Envoyer automatiquement les rapports de diagnostic**
+- [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
 
 </div>
 
@@ -133,17 +133,17 @@ La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Un
 
 <div class="admonition recommendation" markdown>
 
-![Mull logo](assets/img/browsers/mull.svg){ align=right }
+![Logo Mull](assets/img/browsers/mull.svg){ align=right }
 
-**Mull** is a privacy oriented and deblobbed Android browser based on Firefox. Compared to Firefox, it offers much greater fingerprinting protection out of the box, and disables JavaScript Just-in-Time (JIT) compilation for enhanced security. It also removes all proprietary elements from Firefox, such as replacing Google Play Services references.
+**Mull** est un navigateur Android basé sur Firefox, orienté vers la protection de la vie privée et déblobé. Par rapport à Firefox, il offre d'emblée une bien meilleure protection contre la capture d'empreintes numérique et désactive la compilation JavaScript Just-in-Time (JIT) pour une sécurité accrue. Il supprime également tous les éléments propriétaires de Firefox, comme le remplacement des références à Google Play Services.
 
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentation }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
+[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos)
 
@@ -154,15 +154,15 @@ La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Un
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
-Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] a powerful security feature that protects against a malicious site performing a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-like attack to gain access to the memory of another website you have open.[^2] Chromium-based browsers like [Brave](#brave) will provide more robust protection against malicious websites.
+Les navigateurs basés sur Firefox (Gecko) sur Android [n'ont pas](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [d'isolation de site](https://wiki.mozilla.org/Project_Fission),[^1] une fonction de sécurité puissante qui protège contre un site malveillant effectuant une attaque de type [Spectre](https://fr.wikipedia.org/wiki/Spectre_(vuln%C3%A9rabilit%C3%A9)) pour accéder à la mémoire d'un autre site web que vous avez ouvert.[^2] Les navigateurs basés sur Chromium comme [Brave](#brave) fourniront une protection plus robuste contre les sites web malveillants.
 
 </div>
 
-Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+Activez le [dépôt F-Droid](https://divestos.org/fdroid/official) de DivestOS pour recevoir les mises à jour directement du développeur. En téléchargeant Mull à partir du dépôt par défaut de F-Droid, vos mises à jour pourraient être retardées de quelques jours ou plus.
 
-Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
+Mull active de nombreuses fonctionnalités récupérées du [projet Tor uplift](https://wiki.mozilla.org/Security/Tor_Uplift) en utilisant les préférences d'[Arkenfox](desktop-browsers.md#arkenfox-advanced). Les blobs propriétaires sont supprimés du code de Mozilla à l'aide des scripts développés pour Fennec F-Droid.
 
-#### Recommended Mull Configuration
+#### Configuration Mull recommandée
 
 We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
 
