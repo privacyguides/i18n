@@ -168,7 +168,7 @@ Nous vous conseillons d'installer [uBlock Origin](browser-extensions.md#ublock-o
 
 Mull est livré avec des paramètres de protection de la vie privée configurés par défaut. Vous pouvez envisager de configurer les options **Supprimer les données de navigation lorsque l'on quitte l'application** dans les paramètres de Mull si vous souhaitez fermer automatiquement tous vos onglets ouverts lorsque vous quittez l'application, ou effacer automatiquement d'autres données telles que l'historique de navigation et les cookies.
 
-Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
+Les protections de la vie privée activées par défaut sur Mull étant plus avancées et plus strictes que celles de la plupart des navigateurs, il est possible que certains sites web ne se chargent pas ou ne fonctionnent pas correctement si vous n'ajustez pas ces paramètres. Vous pouvez consulter cette [liste de problèmes connus et de solutions de contournement](https://divestos.org/pages/broken#mull) pour obtenir des conseils sur une solution potentielle si vous rencontrez un site défectueux. Le fait d'ajuster un paramètre afin de corriger un site web peut avoir un impact sur votre vie privée/sécurité, assurez-vous donc de bien comprendre toutes les instructions que vous suivez.
 
 ## iOS
 
@@ -180,21 +180,21 @@ Sur iOS, toute application capable de naviguer sur le web est [](https://develop
 
 ![Logo Safari](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** est le navigateur par défaut dans iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. Il vous permet également de séparer votre navigation selon différents profils.
+**Safari** est le navigateur par défaut dans iOS. Il inclut des [fonctions de confidentialité](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) telles que [la protection intelligente contre le pistage](https://webkit.org/blog/7675/intelligent-tracking-prevention/), le rapport de confidentialité, des onglets de navigation privée isolés et éphémères, le relais privé iCloud, la protection contre la capture d'empreintes numériques en randomisant et présentant une version simplifiée de la configuration du système aux sites web afin que d'avantage d'appareils soient identiques, et la possibilité de verrouiller les onglets privés à l'aide de vos données biométriques ou de votre code PIN. Il vous permet également de séparer votre navigation selon différents profils.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
 
 </details>
 
 </div>
 
-#### Recommended Safari Configuration
+#### Configuration recommandée pour Safari
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
+Nous vous conseillons d'installer [AdGuard](browser-extensions.md#adguard) en tant que bloqueur de contenu si vous souhaitez bloquer les traqueurs dans Safari.
 
-The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
+Les options suivantes relatives à la vie privée et à la sécurité se trouvent dans l'application :gear: **Réglages** → **Safari**
 
 ##### Profils
 
@@ -226,7 +226,7 @@ Le Rapport de Confidentialité est accessible via le menu Paramètres de Page.
 
 - [ ] Désactiver **Mesure Publicitaire Préservant la vie privée**
 
-La mesure des clics publicitaires a traditionnellement utilisé une technologie de suivi qui porte atteinte à la vie privée des utilisateurs. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+La mesure des clics publicitaires a traditionnellement utilisé une technologie de suivi qui porte atteinte à la vie privée des utilisateurs. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) est une fonctionnalité de WebKit et une proposition de norme web visant à permettre aux annonceurs de mesurer l'efficacité des campagnes web sans compromettre la confidentialité des utilisateurs.
 
 Cette fonction ne pose que peu de problèmes de confidentialité en soi, et même si vous pouvez choisir de la laisser activée, nous considérons que le fait qu'elle soit automatiquement désactivée en Navigation Privée est un indicateur pour la désactiver.
 
@@ -242,7 +242,7 @@ Notez que la Navigation Privée n'enregistre pas les cookies et les données des
 
 ##### Synchronisation iCloud
 
-La synchronisation de l'Historique de Safari, des Groupes d'Onglets, des Onglets iCloud et des mots de passe enregistrés est E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
+La synchronisation de l'Historique de Safari, des Groupes d'Onglets, des Onglets iCloud et des mots de passe enregistrés est E2EE. Cependant, par défaut, les favoris ne le sont [pas](https://support.apple.com/HT202303). Apple peut les déchiffrer et y accéder conformément à sa [politique de confidentialité](https://apple.com/legal/privacy/en-ww).
 
 You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Accédez à votre **nom d'identifiant Apple → iCloud → Protection Avancée des Données**.
 
