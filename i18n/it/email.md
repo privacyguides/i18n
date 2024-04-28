@@ -110,7 +110,7 @@ Proton Mail pubblica anche le chiavi pubbliche degli account Proton via HTTP dal
 
 #### :material-information-outline:{ .pg-blue } Chiusura dell'account
 
-Se hai un account a pagamento e il tuo [abbonamento non viene pagato](https://proton.me/support/delinquency) dopo 14 giorni, non potrai accedere ai tuoi dati. Dopo 30 giorni, il tuo account sarà considerato moroso e non riceverà la posta in arrivo. Durante questo periodo, continuerai a essere addebitato. Proton cancellerà gli [account gratuiti](https://proton.me/support/inactive-accounts) dopo un anno di inattività. **Non ** è possibile riutilizzare l'indirizzo e-mail di un account disattivato.
+Se hai un account a pagamento e il tuo [abbonamento non viene pagato](https://proton.me/support/delinquency) dopo 14 giorni, non potrai accedere ai tuoi dati. Dopo 30 giorni, il tuo account sarà considerato moroso e non riceverà la posta in arrivo. Durante questo periodo, continuerai a essere addebitato. Proton cancellerà gli [account gratuiti](https://proton.me/support/inactive-accounts) dopo un anno di inattività. **Non** è possibile riutilizzare l'indirizzo e-mail di un account disattivato.
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
