@@ -1,22 +1,22 @@
-*[2FA]: 2-Factor Authentication (Αυθεντικοποίηση Δύο-Παραγόντων)
+*[2FA]: Αυθεντικοποίηση 2-Παραγόντων
 *[ADB]: Android Debug Bridge (Γέφυρα Αποσφαλμάτωσης Android)
-*[AOSP]: Android Open Source Project (Έργο Ανοιχτού Κώδικα Android)
+*[AOSP]: Έργο Ανοιχτού Κώδικα Android
 *[ATA]: Advanced Technology Attachment
 *[επιφάνεια επίθεσης]: Ο συνολικός αριθμός πιθανών σημείων εισόδου μη-εξουσιοδοτημένης πρόσβασης σε ένα σύστημα (αγγλικά: attack surface)
 *[AVB]: Android Verified Boot (Επαληθευμένη Εκκίνηση Android)
-*[cgroups]: Control Groups (Ομάδες Ελέγχου)
-*[CLI]: Command Line Interface (Διεπαφή Γραμμής Εντολών)
-*[CSV]: Comma-Separated Values (Τιμές Διαχωρισμένες με Κόμμα)
-*[CVE]: Common Vulnerabilities and Exposures (Κοινές Ευπάθειες και Εκθέσεις)
+*[cgroups]: Ομάδες Ελέγχου
+*[CLI]: Διεπαφή Γραμμής Εντολών
+*[CSV]: Τιμές Διαχωρισμένες με Κόμμα
+*[CVE]: Κοινές Ευπάθειες και Εκθέσεις
 *[λειτουργία ψηφιακής κληροδοσίας]: Η Ψηφιακή Κληροδοσία (αγγλικά: Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
-*[DNSSEC]: Domain Name System Security Extensions (Σύστημα Ονομάτων Τομέων – Επεκτάσεις Ασφάλειας)
-*[DNS]: Domain Name System (Σύστημα Ονομάτων Τομέων)
+*[DNSSEC]: Σύστημα Ονομάτων Τομέων – Επεκτάσεις Ασφάλειας
+*[DNS]: Σύστημα Ονομάτων Τομέων
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[E2EE]: End-to-End Encryption/Encrypted (Κρυπτογράφηση/Κρυπτογραφημένο από Άκρο-σε-Άκρο)
-*[ECS]: EDNS Client Subnet
+*[E2EE]: Κρυπτογράφηση/-μένο από Άκρο-σε-Άκρο
+*[ECS]: Υποδίκτυο Πελάτη EDNS
 *[EEA]: European Economic Area (ΕΟΧ: Ευρωπαϊκός Οικονομικός Χώρος)
 *[εντροπία]: Μέτρηση του πόσο απρόβλεπτο είναι κάτι
 *[EOL]: End-of-Life (ΤΚΖ: Τέλος Κύκλου Ζωής)
