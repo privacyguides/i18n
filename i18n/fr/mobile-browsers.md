@@ -164,9 +164,9 @@ Mull active de nombreuses fonctionnalités récupérées du [projet Tor uplift](
 
 #### Configuration Mull recommandée
 
-We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
+Nous vous conseillons d'installer [uBlock Origin](browser-extensions.md#ublock-origin) comme bloqueur de contenu si vous souhaitez bloquer les traqueurs dans Mull.
 
-Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
+Mull est livré avec des paramètres de protection de la vie privée configurés par défaut. Vous pouvez envisager de configurer les options **Supprimer les données de navigation lorsque l'on quitte l'application** dans les paramètres de Mull si vous souhaitez fermer automatiquement tous vos onglets ouverts lorsque vous quittez l'application, ou effacer automatiquement d'autres données telles que l'historique de navigation et les cookies.
 
 Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
 
