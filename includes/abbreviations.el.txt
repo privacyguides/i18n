@@ -1,11 +1,11 @@
 *[2FA]: Αυθεντικοποίηση 2-Παραγόντων
-*[ADB]: Android Debug Bridge (Γέφυρα Αποσφαλμάτωσης Android)
+*[ADB]: Android Debug Bridge (ελληνιστί: Γέφυρα Αποσφαλμάτωσης Android)
 *[AOSP]: Έργο Ανοιχτού Κώδικα Android
 *[ATA]: Advanced Technology Attachment
 *[επιφάνεια επίθεσης]: Ο συνολικός αριθμός πιθανών σημείων εισόδου μη-εξουσιοδοτημένης πρόσβασης σε ένα σύστημα (αγγλικά: attack surface)
-*[AVB]: Android Verified Boot (Επαληθευμένη Εκκίνηση Android)
+*[AVB]: Android Verified Boot (ελληνιστί: Επαληθευμένη Εκκίνηση Android)
 *[cgroups]: Ομάδες Ελέγχου
-*[CLI]: Διεπαφή Γραμμής Εντολών
+*[CLI]: Διεπαφή Γραμμής Εντολών (αγγλικά: Command-Line Interface)
 *[CSV]: Τιμές Διαχωρισμένες με Κόμμα
 *[CVE]: Κοινές Ευπάθειες και Εκθέσεις
 *[λειτουργία ψηφιακής κληροδοσίας]: Η Ψηφιακή Κληροδοσία (αγγλικά: Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
@@ -16,39 +16,39 @@
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
 *[E2EE]: Κρυπτογράφηση/-μένο από Άκρο-σε-Άκρο
-*[ECS]: Υποδίκτυο Πελάτη EDNS
-*[EEA]: European Economic Area (ΕΟΧ: Ευρωπαϊκός Οικονομικός Χώρος)
+*[ECS]: EDNS Client Subnet (Υποδίκτυο Πελάτη EDNS)
+*[EEA]: ΕΟΧ: Ευρωπαϊκός Οικονομικός Χώρος
 *[εντροπία]: Μέτρηση του πόσο απρόβλεπτο είναι κάτι
-*[EOL]: End-of-Life (ΤΚΖ: Τέλος Κύκλου Ζωής)
+*[EOL]: Τέλος Κύκλου Ζωής (αγγλικά: End-of-Life)
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption (ΚΠΔ: Κρυπτογράφηση Πλήρους Δίσκου)
+*[FDE]: Κρυπτογράφηση Πλήρους Δίσκου (αγγλικά: Full Disk Encryption)
 *[FIDO]: Fast IDentity Online
-*[FS]: Forward Secrecy (Εμπρόσθια Μυστικότητα)
+*[FS]: Εμπρόσθια Μυστικότητα (αγγλικά: Forward Secrecy)
 *[φορκάρισμα]: Γνωστό και ως παρακλάδι στον επίσημο λόγο, το φορκάρισμα (ή φόρκα) αναφέρεται σε νέο έργο λογισμικού που προκύπτει από την αντιγραφή ενός υπάρχοντος έργου και που μετέπειτα αναπτύσσεται ανεξάρτητα (αγγλικά: fork)
-*[GDPR]: General Data Protection Regulation (ΓΚΠΔ: Γενικός Κανονισμός για την Προστασία Δεδομένων)
+*[GDPR]: ΓΚΠΔ: Γενικός Κανονισμός για την Προστασία Δεδομένων
 *[GPG]: GNU Privacy Guard (υλοποίηση του PGP)
-*[GPS]: Global Positioning System (Παγκόσμιο Σύστημα Θεσιθεσίας)
-*[GUI]: Graphical User Interface (Γραφικό Περιβάλλον)
+*[GPS]: Παγκόσμιο Σύστημα Θεσιθεσίας
+*[GUI]: Γραφικό Περιβάλλον
 *[GnuPG]: GNU Privacy Guard (υλοποίηση του PGP)
-*[HDD]: Hard Disk Drive (Σκληρός Δίσκος)
-*[HOTP]: HMAC-based One-Time Password (Κωδικός Μιας-Χρήσης βάσει HMAC – όπου HMAC: Hash-based Message Authentication Code)
-*[HTTPS]: Hypertext Transfer Protocol Secure (Ασφαλές Πρωτόκολλο Μεταφοράς Υπερκειμένου)
-*[HTTP]: Hypertext Transfer Protocol (Πρωτόκολλο Μεταφοράς Υπερκειμένου)
+*[HDD]: Μαγνητικός Σκληρός Δίσκος
+*[HOTP]: Κωδικός Μιας-Χρήσης βάσει HMAC
+*[HTTPS]: Hypertext Transfer Protocol Secure (ελληνιστί: Ασφαλές Πρωτόκολλο Μεταφοράς Υπερκειμένου)
+*[HTTP]: Hypertext Transfer Protocol (ελληνιστί: Πρωτόκολλο Μεταφοράς Υπερκειμένου)
 *[υπερβλέπων]: Λογισμικό, υλικολογισμικό ή υλισμικό που κατανέμει τους πόρους ενός επεξεργαστή μεταξύ πολλών λειτουργικών συστημάτων (αγγλικά: hypervisor)
-*[ICCID]: Integrated Circuit Card Identifier (Ταυτοποιητικό Κάρτας Ολοκληρωμένου Κυκλώματος)
+*[ICCID]: Integrated Circuit Card Identifier (ελληνιστί: Ταυτοποιητικό Κάρτας Ολοκληρωμένου Κυκλώματος)
 *[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity (Διεθνής Ταυτότητα Κινητού Εξοπλισμού)
-*[IMSI]: International Mobile Subscriber Identity (Διεθνής Ταυτότητα Συνδρομίτοντος Κινητού)
-*[IP]: Internet Protocol (Διαδικτυακό Πρωτόκολλο)
-*[IPv4]: Internet Protocol version 4 (Διαδικτυακό Πρωτόκολλο έκδοση 4)
-*[IPv6]: Internet Protocol version 6 (Διαδικτυακό Πρωτόκολλο έκδοση 6)
-*[ISP]: Internet Service Provider (Πάροχος Υπηρεσιών Διαδικτύου)
-*[ISPs]: Internet Service Providers (Πάροχοι Υπηρεσιών Διαδικτύου)
-*[JNI]: Java Native Interface (Εγγενής Διεπαφή Java)
-*[KYC]: Know Your Customer (νομικός όρος: Μέτρα Δέουσας Επιμέλειας – μαρκετίστικος όρος: "Συστηθείτε")
-*[LUKS]: Linux Unified Key Setup (Πρόγραμμα Κρυπτογράφησης Πλήρους Δίσκου για Linux)
-*[MAC]: Media Access Control (Έλεγχος Προσπέλασης στο Μέσο)
+*[IMEI]: Διεθνής Ταυτότητα Κινητού Εξοπλισμού
+*[IMSI]: Διεθνής Ταυτότητα Κινητής Συνδρομής
+*[IP]: Διαδικτυακό Πρωτόκολλο
+*[IPv4]: Διαδικτυακό Πρωτόκολλο έκδοση 4
+*[IPv6]: Διαδικτυακό Πρωτόκολλο έκδοση 6
+*[ISP]: Πάροχος Υπηρεσιών Διαδικτύου
+*[ISPs]: Πάροχοι Υπηρεσιών Διαδικτύου
+*[JNI]: Java Native Interface (ελληνιστί: Εγγενής Διεπαφή Java)
+*[KYC]: Μέτρα Δέουσας Επιμέλειας (νομικός όρος) ή "Συστηθείτε" (μαρκετίστικος όρος)
+*[LUKS]: Ενοποιημένο Στήσιμο Κλειδιού Linux (Κρυπτογράφηση Πλήρους Δίσκου)
+*[MAC]: Έλεγχος Προσπέλασης Μέσου (αγγλικά: Medium Access Control)
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier (Ταυτοποιητικό Κινητού Εξοπλισμού)
 *[MFA]: Multi-Factor Authentication (Αυθεντικοποίηση Πολλών-Παραγόντων)
@@ -81,7 +81,7 @@
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
 *[SaaS]: Software as a Service (Λογισμικό ως Υπηρεσία, δηλαδή "Λογισμικό Νέφους")
-*[SoC]: System on Chip (ΣσΤ: Σύστημα σε Τσιπάκι)
+*[SoC]: System on Chip
 *[SSO]: Single sign-on (Ενιαία σύνδεση)
 *[TCP]: Transmission Control Protocol (Πρωτόκολλο Ελέγχου Μεταφοράς)
 *[TEE]: Trusted Execution Environment (Έμπιστο Περιβάλλον Εκτέλεσης)
