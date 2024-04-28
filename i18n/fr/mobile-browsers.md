@@ -244,11 +244,11 @@ Notez que la Navigation Privée n'enregistre pas les cookies et les données des
 
 La synchronisation de l'Historique de Safari, des Groupes d'Onglets, des Onglets iCloud et des mots de passe enregistrés est E2EE. Cependant, par défaut, les favoris ne le sont [pas](https://support.apple.com/HT202303). Apple peut les déchiffrer et y accéder conformément à sa [politique de confidentialité](https://apple.com/legal/privacy/en-ww).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Accédez à votre **nom d'identifiant Apple → iCloud → Protection Avancée des Données**.
+Vous pouvez activer l'E2EE pour vos favoris et vos téléchargements Safari en activant la [Protection avancée des données](https://support.apple.com/HT212520). Accédez à votre **nom d'identifiant Apple → iCloud → Protection avancée des données**.
 
-- [x] Activez **Protection Avancée des Données**
+- [x] Activez **Protection avancée des données**
 
-Si vous utilisez iCloud avec la Protection Avancée des Données désactivée, nous vous recommandons également de vérifier que l'emplacement de téléchargement par défaut de Safari est défini sur localement sur votre appareil. Cette option se trouve dans :gear: **Paramètres** → **Safari** → **Général** → **Téléchargements**.
+Si vous utilisez iCloud avec la Protection avancée des données désactivée, nous vous recommandons également de vérifier que l'emplacement de téléchargement par défaut de Safari est défini sur localement sur votre appareil. Cette option se trouve dans :gear: **Paramètres** → **Safari** → **Général** → **Téléchargements**.
 
 ## Critères
 
@@ -257,6 +257,6 @@ Si vous utilisez iCloud avec la Protection Avancée des Données désactivée, n
 ### Exigences minimales
 
 - Doit prendre en charge les mises à jour automatiques.
-- Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
+- Doit recevoir rapidement les mises à jour du moteur web parent.
+- Doit prendre en charge le blocage du contenu.
 - Les modifications nécessaires pour rendre le navigateur plus respectueux de la vie privée ne devraient pas avoir d'impact négatif sur l'expérience des utilisateurs.
