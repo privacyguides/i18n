@@ -1,5 +1,5 @@
 ---
-title: Alternative Networks
+title: Reti Alternative
 icon: material/vector-polygon
 description: These tools allow you to access networks other than the World Wide Web.
 cover: alternative-networks.webp

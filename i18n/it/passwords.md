@@ -51,7 +51,7 @@ schema:
     "@type": SoftwareApplication
     name: Proton Pass
     image: /assets/img/password-management/protonpass.svg
-    url: https://proton.me/pass
+    url: https://proton.me/it/pass
     applicationCategory: Gestore di password
     operatingSystem:
       - Android
@@ -153,14 +153,14 @@ Questi gestori di password, le sincronizzano su un server su cloud per una facil
 
 <div class="admonition recommendation" markdown>
 
-![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
+![Logo di Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** is a free and open-source password and passkey manager. L'obiettivo è quello di risolvere i problemi di gestione delle password per individui, team e organizzazioni aziendali. Bitwarden è una delle soluzioni migliori e più sicure per memorizzare tutti i vostri login e password, mantenendoli comodamente sincronizzati tra tutti i vostri dispositivi.
+**Bitwarden** è un gestore di password e passkey gratuito e open-source. L'obiettivo è quello di risolvere i problemi di gestione delle password per individui, team e organizzazioni aziendali. Bitwarden è una delle soluzioni migliori e più sicure per memorizzare tutti i vostri login e password, mantenendoli comodamente sincronizzati tra tutti i vostri dispositivi.
 
-[:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://bitwarden.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -196,24 +196,24 @@ Il codice utilizzato dai server di Bitwarden è [open-source](https://github.com
 
 <div class="admonition recommendation" markdown>
 
-![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
+![Logo di Proton Pass](assets/img/password-management/protonpass.svg){ align=right }
 
-Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
+Proton Pass è un gestore di password crittografato end-to-end, open-source sviluppato da Proton, il team che ha creato [Proton Mail](email.md#proton-mail). Memorizza in modo sicuro le tue credenziali di accesso, genera alias email unici, supporta e memorizza le passkey e offre un servizio finanziato dalla comunità e basato in Svizzera, con leggi rigorose sulla privacy dei dati.
 
-[:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation"}
-[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://proton.me/pass){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentazione"}
+[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
-- [:simple-windows11: Windows](https://proton.me/pass/download)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass&gl=It)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/proton-pass-password-manager/id6443490629)
+- [:simple-windows11: Windows](https://proton.me/it/pass/download)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/proton-pass/)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde?hl=it)
+- [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde?hl=it)
 - [:octicons-globe-16: Web](https://pass.proton.me)
 
 </details>

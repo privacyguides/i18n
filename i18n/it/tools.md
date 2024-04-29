@@ -53,9 +53,9 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
-- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
+- ![Logo di uBlock Origin](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![Logo di uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![Logo di AdGuard](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard per iOS](browser-extensions.md#adguard)
 
 </div>
 
@@ -67,9 +67,9 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
+- ![Logo di Proton Drive](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
+- ![Logo di Tresorit](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
+- ![Logo di Peergos](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
 
 </div>
 
@@ -87,8 +87,8 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
-- ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
+- ![Logo di RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![Logo di RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
+- ![Logo di dnscrypt-proxy](assets/img/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
 
 </div>
 
@@ -98,8 +98,8 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
+- ![Logo di AdGuard Home](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
+- ![Logo di Pi-hole](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
 
 </div>
 
@@ -481,7 +481,7 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 Questi strumenti possono essere utili per alcuni individui. Forniscono funzionalità di cui gran parte delle persone non devono preoccuparsi e spesso richiedono una conoscenza tecnologica più approfondita per un utilizzo efficace.
 
-### Alternative Networks
+### Reti Alternative
 
 <div class="grid cards" markdown>
 
