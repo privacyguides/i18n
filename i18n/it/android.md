@@ -310,12 +310,12 @@ La [Politica sulla Sicurezza dei Contenuti](https://en.wikipedia.org/wiki/Conten
 **Obtainium** è un gestore di app che ti consente di installare e aggiornare le app direttamente dalla pagina di rilascio dello sviluppatore (es. GitHub, GitLab, il sito web dello sviluppatore, ecc.), piuttosto che un app store/repository di app centralizzato. Supporta gli aggiornamenti automatici in background su Android 12 e versioni successive.
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -376,7 +376,7 @@ Su GitLab, utilizzando come esempio [Aurora Store](#aurora-store), dovresti navi
 
 Se scarichi i file APK da installare manualmente, puoi verificarne la firma con lo strumento [`apksigner`](https://developer.android.com/studio/command-line/apksigner), parte degli [strumenti di creazione](https://developer.android.com/studio/releases/build-tools) di Android.
 
-1. Install [Java JDK](https://oracle.com/java/technologies/downloads).
+1. Installa [Java JDK](https://oracle.com/java/technologies/downloads).
 
 2. Scarica gli [strumenti della riga di comando di Android Studio](https://developer.android.com/studio#command-tools).
 

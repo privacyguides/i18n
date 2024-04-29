@@ -171,7 +171,7 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-Tails [non cancella](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) la [memoria video](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) allo spegnimento. Quando si riavvia il computer dopo aver utilizzato Tails, è possibile che venga visualizzata brevemente l'ultima schermata visualizzata in Tails. Se si spegne il computer invece di riavviarlo, la memoria video si cancella automaticamente dopo essere rimasta per qualche tempo senza alimentazione.
+Tails [non cancella](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) la [memoria video](https://en.wikipedia.org/wiki/Dual-ported_video_RAM) allo spegnimento. Quando riavvii il computer dopo aver utilizzato Tails, è possibile che venga visualizzata brevemente l'ultima schermata visualizzata in Tails. Se spegni il computer invece di riavviarlo, la memoria video si cancellerà automaticamente dopo essere rimasta per qualche tempo senza alimentazione.
 
 </div>
 
@@ -191,12 +191,12 @@ Di design, Tails dovrebbe resettarsi completamente dopo ogni riavvio. Encrypted 
 
 **Qubes OS** è un sistema operativo open-source progettato per fornire una forte sicurezza per i computer desktop attraverso macchine virtuali sicure (o "qube"). Qubes si basa su Xen, X Window System e Linux. Può eseguire la maggior parte delle applicazioni Linux e utilizzare la maggior parte dei driver Linux.
 
-[:octicons-home-16: Homepage](https://qubes-os.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://qubes-os.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Servizio Onion" }
+[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title=Documentazione }
+[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title=Contribuisci }
 
 </details>
 
@@ -216,11 +216,11 @@ Sebbene [sconsigliamo](os/linux-overview.md#release-cycle) le distribuzioni "per
 
 **Kicksecure**, in breve, consiste in una serie di script, configurazioni e pacchetti che riducono sostanzialmente la superficie di attacco di Debian. Copre di default molti dei consigli sulla privacy e la sicurezza. Inoltre, serve da OS di base per [Whonix](#whonix).
 
-[:octicons-home-16: Homepage](https://kicksecure.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://kicksecure.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title=Documentazione }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title=Contribuisci }
 
 </details>
 
