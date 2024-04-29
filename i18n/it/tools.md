@@ -17,9 +17,9 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji loading=lazy } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Logo di Tor Browser](assets/img/browsers/tor.svg){ .twemoji loading=lazy } [Tor Browser](tor.md#tor-browser)
+- ![Logo di Orbot](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Proxy Tor per Smartphone)](tor.md#orbot)
+- ![Logo di Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor per iOS)](tor.md#onion-browser)
 
 </div>
 
@@ -49,7 +49,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-## Browser Extensions
+## Estensioni Browser
 
 <div class="grid cards" markdown>
 

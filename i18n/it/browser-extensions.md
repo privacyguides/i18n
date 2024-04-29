@@ -1,5 +1,5 @@
 ---
-title: Browser Extensions
+title: Estensioni Browser
 icon: material/puzzle-outline
 description: These browser extensions can enhance your browsing experience and protect your privacy.
 cover: browser-extensions.webp
