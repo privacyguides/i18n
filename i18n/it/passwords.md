@@ -163,24 +163,24 @@ Questi gestori di password, le sincronizzano su un server su cloud per una facil
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden&gl=It)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/bitwarden/id1137397744)
 - [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
 - [:simple-windows11: Windows](https://bitwarden.com/download)
 - [:simple-linux: Linux](https://bitwarden.com/download)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/bitwarden/id1352778147)
+- [:simple-flathub: Flathub](https://flathub.org/it/apps/com.bitwarden.desktop)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/bitwarden-password-manager/)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb?hl=it)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-mana/jbkfoedolllekgbhcbcoahefnbanhhlh?hl=it-It)
+- [:simple-safari: Safari](https://apps.apple.com/it/app/bitwarden/id1352778147)
 
 </details>
 
 </div>
 
-Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). Una [password](https://bitwarden.com/help/send-privacy/#send-passwords) può essere richiesta insieme al link di invio. Bitwarden Send dispone inoltre di funzionalità di [cancellazione automatica](https://bitwarden.com/help/send-lifespan).
+Bitwarden dispone anche di [Bitwarden Send](https://bitwarden.com/products/send), che ti consente di condividere testi e file in modo sicuro con la [crittografia end-to-end](https://bitwarden.com/help/send-encryption). Una [password](https://bitwarden.com/help/send-privacy/#send-passwords) può essere richiesta insieme al link di invio. Bitwarden Send dispone inoltre di funzionalità di [cancellazione automatica](https://bitwarden.com/help/send-lifespan).
 
 Per poter condividere i file è necessario il [piano Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans). Il piano gratuito consente esclusivamente la condivisione di testo.
 
