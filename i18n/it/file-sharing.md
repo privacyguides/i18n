@@ -92,11 +92,11 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **Nextcloud** è una suite di software gratuiti e open source dal client al server per la creazione di servizi hosting dei file su un server privato controllato dall'utente.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://nextcloud.com/it/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/it/privacy/){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://nextcloud.com/it/support/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://nextcloud.com/it/contribute/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -127,15 +127,15 @@ Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_e
 
 **Syncthing** è un'utility open source tra peer di sincronizzazione continua dei file. Viene utilizzata per sincronizzare i file tra due o più dispositivi sulla rete locale o su Internet. Syncthing non utilizza un server centralizzato; utilizza il [Protocollo di Scambio dei Blocchi](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) per trasferire i dati tra dispositivi. Tutti i dati sono crittografati utilizzando TLS.
 
-[:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://syncthing.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid&gl=It)
 - [:simple-windows11: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
 - [:simple-linux: Linux](https://syncthing.net/downloads)

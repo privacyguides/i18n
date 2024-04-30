@@ -18,11 +18,11 @@ Gran parte delle suite da ufficio non supportano l'E2EE, a significare che il fo
 
 **Nextcloud** è una suite di software gratuiti e open source dal client al server, per creare i propri servizi di hosting dei file su un server privato che controlli.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://nextcloud.com/it/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/it/privacy/){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://nextcloud.com/it/support/){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://nextcloud.com/it/contribute/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
