@@ -11,7 +11,7 @@ description: Qubes est un système d'exploitation conçu pour isoler les applica
 Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Les Qubes sont créés à partir de modèles, ceux par défaut étant pour Fedora, Debian et [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
 
 <details class="note" markdown>
-<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
+<summary>Le terme <em>qubes</em> est progressivement mis à jour afin d'éviter de les désigner comme des "machines virtuelles".</summary>
 
 Certaines des informations présentées ici et dans la documentation du système d'exploitation Qubes OS peuvent être contradictoires, car le terme "appVM" est progressivement remplacé par "qube". Les qubes ne sont pas des machines virtuelles à part entière, mais ils conservent des fonctionnalités similaires à celles des VMs.
 

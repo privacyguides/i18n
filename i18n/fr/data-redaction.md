@@ -2,7 +2,7 @@
 meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
 title: "Data and Metadata Redaction"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Utilisez ces outils pour supprimer les métadonnées telles que la localisation GPS et d'autres informations d'identification des photos et des fichiers que vous partagez.
 cover: data-redaction.webp
 ---
 
@@ -147,7 +147,7 @@ Elle est souvent un composant d'autres applications de suppression d'Exif et se 
 [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-windows11: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)

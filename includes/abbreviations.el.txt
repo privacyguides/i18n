@@ -1,4 +1,4 @@
-*[2FA]: Αυθεντικοποίηση 2-Παραγόντων
+*[2FA]: Αυθεντικοποίηση Δύο Παραγόντων
 *[ADB]: Android Debug Bridge (ελληνιστί: Γέφυρα Αποσφαλμάτωσης Android)
 *[AOSP]: Έργο Ανοιχτού Κώδικα Android
 *[ATA]: Advanced Technology Attachment
@@ -50,30 +50,30 @@
 *[LUKS]: Ενοποιημένο Στήσιμο Κλειδιού Linux (Κρυπτογράφηση Πλήρους Δίσκου)
 *[MAC]: Έλεγχος Προσπέλασης Μέσου (αγγλικά: Medium Access Control)
 *[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier (Ταυτοποιητικό Κινητού Εξοπλισμού)
-*[MFA]: Multi-Factor Authentication (Αυθεντικοποίηση Πολλών-Παραγόντων)
+*[MEID]: Ταυτοποιητικό Κινητού Εξοπλισμού
+*[MFA]: Αυθεντικοποίηση Πολλών Παραγόντων
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network Address Translation (Μετάφραση Διεύθυνσης Δικτύου)
+*[NAT]: Μετάφραση Διεύθυνσης Δικτύου (αγγλικά: Network Address Translation)
 *[NAT-PMP]: NAT Port Mapping Protocol
-*[NTP]: Network Time Protocol (Πρωτόκολλο Δικτυακού Χρόνου)
+*[NTP]: Πρωτόκολλο Δικτυακού Χρόνου
 *[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol (Πρωτόκολλο Διαδικτυακού Πιστοποιητικού Κατάστασης)
-*[OEM]: Original Equipment Manufacturer (Παραγωγός Πρωτότυπου Εξοπλισμού)
-*[OEMs]: Original Equipment Manufacturers (Παραγωγοί Πρωτότυπου Εξοπλισμού)
+*[OCSP]: Online Certificate Status Protocol (ελληνιστί: Πρωτόκολλο Διαδικτυακού Πιστοποιητικού Κατάστασης)
+*[OEM]: Παραγωγός Πρωτότυπου Εξοπλισμού
+*[OEMs]: Παραγωγοί Πρωτότυπου Εξοπλισμού
 *[ΛΣ]: Λειτουργικό Σύστημα
-*[OTP]: One-Time Password (Κωδικός Μιας-Χρήσης)
-*[OTPs]: One-Time Passwords (Κωδικοί Μιας-Χρήσης)
+*[OTP]: Κωδικός Μιας-Χρήσης
+*[OTPs]: Κωδικοί Μιας-Χρήσης
 *[OpenPGP]: Υλοποίηση ανοιχτού κώδικα του Pretty Good Privacy (PGP)
-*[P2P]: Peer-to-Peer (Ομότιμο)
+*[P2P]: Ομότιμο
 *[PAM]: Pluggable Authentication Modules (υποσύστημα του Linux)
 *[POP3]: Post Office Protocol 3
 *[PGP]: Pretty Good Privacy (βλέπε OpenPGP)
-*[PII]: Personally Identifiable Information (ΠΤΠ: Προσωπικές Ταυτοποιήσιμες Πληροφορίες)
+*[PII]: Προσωπικές Ταυτοποιήσιμες Πληροφορίες (αγγλικά: Personally Identifiable Information)
 *[QNAME]: Qualified Name
-*[κυλιόμενη κυκλοφορία]: Ενημερώσεις που κυκλοφορούν συχνά και όχι σε προκαθορισμένα χρονικά διαστήματα (αγγλικά: rolling release)
+*[κυλιόμενη κυκλοφορία]: Άμεσες ενημερώσεις χωρίς προκαθορισμένο χρονοδιάγραμμα κυκλοφορίας (αγγλικά: rolling release)
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module (Μονάδα Ταυτότητας Συνδρομίτοντος)
+*[SIM]: Subscriber Identity Module (Μονάδα Ταυτότητας Συνδρομιτού)
 *[SMS]: Short Message Service (τα λεγόμενα μηνύματα)
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Server Name Indication (Ένδειξη Ονόματος Διακομιστή)

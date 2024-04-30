@@ -17,9 +17,9 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 <div class="grid cards" markdown>
 
-- ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji loading=lazy } [Tor Browser](tor.md#tor-browser)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Logo du navigateur Tor](assets/img/browsers/tor.svg){ .twemoji loading=lazy } [Navigateur Tor](tor.md#tor-browser)
+- ![Logo d'Orbot](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Logo d'Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor pour iOS)](tor.md#onion-browser)
 
 </div>
 
@@ -29,9 +29,9 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
+- ![Logo de Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![Logo de Firefox](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
+- ![Logo de Brave](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
 
 </div>
 
@@ -41,9 +41,9 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 <div class="grid cards" markdown>
 
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave (Android)](mobile-browsers.md#brave)
-- ![Mull logo](assets/img/browsers/mull.svg){ .twemoji loading=lazy } [Mull (Android)](mobile-browsers.md#mull)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji loading=lazy } [Safari (iOS)](mobile-browsers.md#safari)
+- ![Logo de Brave](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave (Android)](mobile-browsers.md#brave)
+- ![Logo de Mull](assets/img/browsers/mull.svg){ .twemoji loading=lazy } [Mull (Android)](mobile-browsers.md#mull)
+- ![Logo de Safari](assets/img/browsers/safari.svg){ .twemoji loading=lazy } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
 
@@ -194,9 +194,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
 
-If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
+SI vous recherchez **l'anonymat**, vous devriez utiliser le navigateur Tor **à la place** d'un VPN.
 
-If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
+Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous assurer que vous vous connectez à des sites web utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
 
 [En savoir plus :material-arrow-right-drop-circle:](vpn.md)
 
