@@ -18,7 +18,7 @@ Ci-dessous, nous discutons et fournissons un tutoriel pour prouver ce qu'un obse
 
 ### DNS non chiffré
 
-1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. Cette commande enregistre les paquets qui répondent aux règles spécifiées :
+1. En utilisant [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (qui fait partie du projet [Wireshark](https://en.wikipedia.org/wiki/Wireshark) ), nous pouvons surveiller et enregistrer le flux de paquets Internet. Cette commande enregistre les paquets qui répondent aux règles spécifiées :
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -39,7 +39,7 @@ Ci-dessous, nous discutons et fournissons un tutoriel pour prouver ce qu'un obse
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Ensuite, nous voulons [analyser](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) les résultats :
 
     === "Wireshark"
 
@@ -74,7 +74,7 @@ Un DNS chiffré peut faire référence à un certain nombre de protocoles, les p
 
 ### DNS sur TLS (DoT)
 
-[**DNS sur TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) est une autre méthode de chiffrement des communications DNS qui est définie dans [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. Le DoT fonctionne également sur un port dédié 853 qui peut être facilement bloqué par des pare-feu restrictifs.
+[**DNS sur TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) est une autre méthode de chiffrement des communications DNS qui est définie dans [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). La prise en charge a été mise en œuvre pour la première fois dans Android 9, iOS 14 et sous Linux dans [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) dans la version 237. Ces dernières années, l'industrie a délaissé DoT au profit de DoH, car DoT est un [protocole complexe](https://dnscrypt.info/faq) dont la conformité au RFC varie d'une implémentation à l'autre. Le DoT fonctionne également sur un port dédié 853 qui peut être facilement bloqué par des pare-feu restrictifs.
 
 ### DNS sur HTTPS (DoH)
 
@@ -98,7 +98,7 @@ Apple ne fournit pas d'interface native pour la création de profils DNS chiffr�
 
 #### Linux
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, que de nombreuses distributions Linux utilisent pour effectuer leurs recherches DNS, ne prend pas encore [en charge DoH](https://github.com/systemd/systemd/issues/8639). Si vous souhaitez utiliser DoH, vous devez installer un proxy tel que [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) et le [configurer](https://wiki.archlinux.org/title/Dnscrypt-proxy) pour qu'il prenne toutes les requêtes DNS de votre résolveur système et les transmette via HTTPS.
 
 ## Que peut voir un tiers ?
 
@@ -124,7 +124,7 @@ Dans cet exemple, nous allons enregistrer ce qui se passe lorsque nous faisons u
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. Lorsque l'on regarde les paquets de "données d'application" qui suivent, aucun d'entre eux ne contient le domaine que nous avons demandé ou l'adresse IP renvoyée.
+Nous pouvons voir l'[établissement de la connexion](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) et la [poignée de main TLS](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) qui se produit avec toute connexion chiffrée. Lorsque l'on regarde les paquets de "données d'application" qui suivent, aucun d'entre eux ne contient le domaine que nous avons demandé ou l'adresse IP renvoyée.
 
 ## Pourquoi **ne devrais-je pas** utiliser un DNS chiffré ?
 
@@ -176,9 +176,9 @@ La Server Name Indication (indication du nom du serveur) est généralement util
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-Cela signifie que même si nous utilisons des serveurs "DNS chiffrés", le domaine sera probablement divulgué par le SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
+Cela signifie que même si nous utilisons des serveurs "DNS chiffrés", le domaine sera probablement divulgué par le SNI. Le protocole [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) intègre le protocole [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), qui empêche ce type de fuite.
 
-Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Récemment, la Russie [a commencé à bloquer les sites web étrangers](https://github.com/net4people/bbs/issues/108) qui utilisent le standard [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). En effet, le protocole [QUIC](https://fr.wikipedia.org/wiki/QUIC) qui fait partie de HTTP/3 exige que `ClientHello` soit également chiffré.
+Les gouvernements, en particulier la [Chine](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) et la [Russie](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), ont déjà [commencé à le bloquer](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) ou ont exprimé le souhait de le faire. Récemment, la Russie [a commencé à bloquer les sites web étrangers](https://github.com/net4people/bbs/issues/108) qui utilisent le standard [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3). En effet, le protocole [QUIC](https://fr.wikipedia.org/wiki/QUIC) qui fait partie de HTTP/3 exige que `ClientHello` soit également chiffré.
 
 ### Online Certificate Status Protocol (OCSP)
 
@@ -307,7 +307,7 @@ Le processus de signature DNSSEC est similaire à celui d'une personne qui signe
 
 DNSSEC met en œuvre une politique de signature numérique hiérarchique à travers toutes les couches du DNS. Par exemple, dans le cas d'une consultation de `privacyguides.org`, un serveur DNS racine signe une clé pour le serveur de noms `.org`, et le serveur de noms `.org` signe ensuite une clé pour le serveur de noms faisant autorité `privacyguides.org`.
 
-<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
+<small>Adapté de [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) par Google et [DNSSEC : An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) par Cloudflare, tous deux sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
 
 ## Qu'est-ce que la minimisation QNAME ?
 
@@ -336,21 +336,21 @@ Le [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) est un
 
 Il est destiné à "accélérer" la transmission des données en donnant au client une réponse qui appartient à un serveur proche de lui, comme un [réseau de diffusion de contenu](https://fr.wikipedia.org/wiki/Réseau_de_diffusion_de_contenu), souvent utilisé pour la diffusion de vidéos en continu et pour servir des applications Web JavaScript.
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+Cette fonction a un coût en termes de confidentialité, car elle fournit au serveur DNS des informations sur la localisation du client, généralement votre réseau IP. Par exemple, si votre adresse IP est `198.51.100.32`, le fournisseur DNS peut partager `198.51.100.0/24` avec le serveur faisant autorité. Certains fournisseurs de DNS rendent ces données anonymes en fournissant une autre adresse IP qui est approximativement proche de votre emplacement.
 
-If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+Si vous avez installé `dig`, vous pouvez tester si votre fournisseur DNS transmet les informations EDNS aux serveurs de noms DNS à l'aide de la commande suivante :
 
 ```bash
 dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+Notez que cette commande contactera Google pour le test et renverra votre IP ainsi que les informations de sous-réseau du client EDNS. Si vous souhaitez tester un autre résolveur DNS, vous pouvez spécifier son IP, pour tester `9.9.9.11` par exemple :
 
 ```bash
 dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+Si les résultats comprennent un deuxième enregistrement TXT edns0-client-subnet (comme indiqué ci-dessous), votre serveur DNS transmet des informations EDNS. L'IP ou le réseau indiqué ci-dessous est l'information précise qui a été communiquée à Google par votre fournisseur de DNS.
 
 ```text
 o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"

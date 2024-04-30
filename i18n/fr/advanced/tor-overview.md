@@ -8,17 +8,17 @@ description: Tor est un réseau décentralisé, gratuit, conçu pour utiliser In
 
 [**Tor**](../alternative-networks.md#tor) est un réseau décentralisé, gratuit, conçu pour utiliser Internet avec le plus de confidentialité possible. S'il est utilisé correctement, le réseau permet une navigation et des communications privées et anonymes. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
 
-Tor works by routing your internet traffic through volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. Cela permet de masquer la provenance du trafic, et aucun serveur sur le chemin de la connexion n'est en mesure de voir le chemin complet de la provenance et de la destination du trafic, ce qui signifie que même les serveurs que vous utilisez pour vous connecter ne peuvent pas briser votre anonymat.
+Tor fonctionne en acheminant votre trafic Internet via des serveurs gérés par des volontaires, au lieu d'établir une connexion directe avec le site que vous essayez de visiter. Cela permet de masquer la provenance du trafic, et aucun serveur sur le chemin de la connexion n'est en mesure de voir le chemin complet de la provenance et de la destination du trafic, ce qui signifie que même les serveurs que vous utilisez pour vous connecter ne peuvent pas briser votre anonymat.
 
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-home-16:](https://torproject.org){ .card-link title="Page d'accueil" }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Service onion" }
 [:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Code source" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribuer }
 
 ## Se connecter en toute sécurité à Tor
 
-Before connecting to Tor, you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
+Avant de vous connecter à Tor, vous devriez soigneusement réfléchir à ce que vous cherchez à accomplir en utilisant Tor, et à qui vous essayez de cacher votre activité sur le réseau.
 
 Si vous vivez dans un pays libre, que vous accédez à du contenu banal via Tor, que vous ne craignez pas que votre FAI ou vos administrateurs de réseau local sachent que vous utilisez Tor, et que vous voulez aider [à déstigmatiser](https://2019.www.torproject.org/about/torusers.html.en) l'utilisation de Tor, vous pouvez probablement vous connecter à Tor directement via des moyens standards comme le [Navigateur Tor](../tor.md) sans inquiétude.
 
@@ -31,7 +31,7 @@ Si vous avez la possibilité d'accéder à un fournisseur de VPN de confiance et
 
 Parce que nous [recommandons généralement](../basics/vpn-overview.md) déjà que la grande majorité des gens utilisent un fournisseur de VPN de confiance pour diverses raisons, la recommandation suivante concernant la connexion à Tor via un VPN s'applique probablement à vous. <mark>Il n'est pas nécessaire de désactiver votre VPN avant de vous connecter à Tor</mark>, comme certaines ressources en ligne pourraient vous le faire croire.
 
-En vous connectant directement à Tor, vous vous distinguerez auprès des administrateurs de réseaux locaux ou de votre FAI. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in the past by network administrators to identify and deanonymize specific Tor users on their network. D'un autre côté, se connecter à un VPN est presque toujours moins suspect, parce que les fournisseurs de VPN commerciaux sont utilisés par les consommateurs de tous les jours pour une variété de tâches courantes telles que contourner les géo-restrictions, même dans les pays avec de lourdes restrictions d'Internet.
+En vous connectant directement à Tor, vous vous distinguerez auprès des administrateurs de réseaux locaux ou de votre FAI. La détection et la corrélation de ce trafic [ont été effectuées](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) dans le passé par des administrateurs de réseau pour identifier et désanonymiser des utilisateurs spécifiques de Tor sur leur réseau. D'un autre côté, se connecter à un VPN est presque toujours moins suspect, parce que les fournisseurs de VPN commerciaux sont utilisés par les consommateurs de tous les jours pour une variété de tâches courantes telles que contourner les géo-restrictions, même dans les pays avec de lourdes restrictions d'Internet.
 
 Par conséquent, vous devriez faire un effort pour cacher votre adresse IP **avant** de vous connecter au réseau Tor. Vous pouvez le faire simplement en vous connectant à un VPN (par le biais d'un client installé sur votre ordinateur) et en accédant à [Tor](../tor.md) comme d'habitude, par exemple via le Navigateur Tor. Cela crée une chaîne de connexion comme :
 
@@ -56,7 +56,7 @@ Il est difficile de mettre en place de mauvaises configurations comme celles-ci 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">VPN/SSH Fingerprinting</p>
+<p class="admonition-title">Capture d'empreinte numérique VPN/SSH</p>
 
 Le Tor Project [mentionne](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *théoriquement* l'utilisation d'un VPN pour cacher à votre FAI les activités Tor n'est pas forcément infaillible. Les VPNs se sont révélés vulnérables à la prise d'empreinte numérique du trafic des sites web, un adversaire pouvant toujours deviner quel site web est visité, car tous les sites web ont des schémas de trafic spécifiques.
 
@@ -82,7 +82,7 @@ Comme nous l'avons déjà mentionné, Tor est également facilement identifiable
 
 ### L'utilisation de Tor n'est pas indétectable
 
-**Même si vous utilisez des ponts et des transports enfichables,** le Tor Project ne fournit aucun outil pour cacher à votre FAI le fait que vous utilisez Tor. Même l'utilisation de "transports enfichables" obscurcis ou de ponts non publics ne permet pas de dissimuler le fait que l'on utilise un canal de communication privé. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
+**Même si vous utilisez des ponts et des transports enfichables,** le Tor Project ne fournit aucun outil pour cacher à votre FAI le fait que vous utilisez Tor. Même l'utilisation de "transports enfichables" obscurcis ou de ponts non publics ne permet pas de dissimuler le fait que l'on utilise un canal de communication privé. Les transports enfichables les plus populaires comme obfs4 (qui obscurcit votre trafic pour "ne ressembler à rien") et meek (qui utilise le domain fronting pour camoufler votre trafic) peuvent être [détectés](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) avec des techniques d'analyse du trafic assez classiques. Snowflake présente des problèmes similaires et peut être [facilement détecté](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *avant* même qu'une connexion Tor ne soit établie.
 
 Il existe des transport enfichables autres que ces trois-là, mais ils reposent généralement sur la sécurité par l'obscurité pour échapper à la détection. Ils ne sont pas impossibles à détecter, ils sont simplement utilisés par si peu de personnes que cela ne vaut pas la peine de construire des détecteurs pour eux. Il ne faut pas s'y fier si vous êtes spécifiquement surveillé.
 

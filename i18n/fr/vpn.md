@@ -184,11 +184,11 @@ IVPN dispose de modes d'obscurcissement utilisant le projet [v2ray](https://v2ra
 
 #### :material-check:{ .pg-green } Clients mobiles
 
-In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/app/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
+En plus de fournir des fichiers de configuration OpenVPN standard, IVPN a des clients mobiles pour l'[App Store](https://apps.apple.com/app/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), et [GitHub](https://github.com/ivpn/android-app/releases) permettant des connexions faciles à leurs serveurs.
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Notes supplémentaires
 
-IVPN clients support two factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+Les clients IVPN prennent en charge l'authentification à deux facteurs. IVPN propose également la fonctionnalité "[AntiTraqueur](https://ivpn.net/antitracker)", qui bloque les réseaux publicitaires et les traqueurs au niveau du réseau.
 
 ### Mullvad
 
@@ -196,16 +196,16 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 ![Logo Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** est un VPN rapide et peu coûteux qui met l'accent sur la transparence et la sécurité. Il est en activité depuis **2009**. Mullvad is based in Sweden and does not offer a free trial.
+**Mullvad** est un VPN rapide et peu coûteux qui met l'accent sur la transparence et la sécurité. Ils sont en activité depuis **2009**. Mullvad est basé en Suède et n'a pas de période d'essai gratuit.
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Service onion" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
@@ -218,9 +218,9 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 41 pays
 
-Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
+Mullvad a des [serveurs dans 41 pays](https://mullvad.net/servers).(1) Choisir un fournisseur VPN avec un serveur le plus proche de vous réduira la latence du trafic réseau que vous envoyez. Cela s'explique par un itinéraire plus court (moins de sauts) jusqu'à la destination.
 { .annotate }
 
 1. Dernière vérification : 2024-04-02
@@ -233,11 +233,11 @@ Les clients VPN de Mullvad ont été audités par Cure53 et Assured AB dans un r
 
 > Cure53 et Assured AB sont satisfaits des résultats de l'audit et le logiciel laisse une impression générale positive. Grâce au dévouement de l'équipe interne du complexe du VPN Mullvad, les testeurs n'ont aucun doute sur le fait que le projet est sur la bonne voie du point de vue de la sécurité.
 
-In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
+En 2020, un deuxième audit [a été annoncé](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app) et le [rapport d'audit final](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) a été publié sur le site web de Cure53 :
 
 > Les résultats de ce projet de mai-juin 2020 ciblant le complexe de Mullvad sont assez positifs. [...] L'écosystème applicatif utilisé par Mullvad laisse une impression solide et structurée. La structure globale de l'application permet de déployer facilement des correctifs et corrections de manière structurée. Plus que tout, les résultats repérés par Cure53 montrent l'importance d'un audit et d'une réévaluation constante des vecteurs de fuite actuels, afin de toujours garantir la confidentialité des utilisateurs finaux. Ceci étant dit, Mullvad fait un excellent travail en protégeant l'utilisateur final contre les fuites courantes de DCP et les risques liés à la confidentialité.
 
-In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data) and is available on [Assured's website](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+En 2021, un audit des infrastructures [a été annoncé](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) et le [rapport d'audit final](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) a été publié sur le site web de Cure53. Un autre rapport a été commandé [en juin 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data) et est disponible sur le [site web d'Assured](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
 
 #### :material-check:{ .pg-green } Clients open source
 
@@ -251,15 +251,15 @@ Mullvad, en plus d'accepter les cartes de crédit/débit et PayPal, accepte le B
 
 Mullvad prend en charge le protocole WireGuard®. [WireGuard](https://wireguard.com) est un protocole plus récent qui utilise une [cryptographie](https://wireguard.com/protocol) de pointe. De plus, WireGuard vise à être plus simple et plus performant.
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Mullvad [recommande](https://mullvad.net/en/help/why-wireguard) l'utilisation de WireGuard avec leur service. C'est le protocole par défaut ou le seul sur les applications Android, iOS, macOS et Linux de Mullvad, mais sur Windows vous devez [activer manuellement](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad propose également un générateur de configuration WireGuard à utiliser avec les [applications](https://wireguard.com/install) officielles WireGuard.
 
 #### :material-check:{ .pg-green } Prise en charge de l'IPv6
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) and connect from a device using an IPv6 address.
+Mullvad vous permet d'[accéder à des services hébergés sur IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) et de vous connecter à partir d'un appareil utilisant une adresse IPv6.
 
 #### :material-alert-outline:{ .pg-orange } Redirection de port
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). L'absence de cette fonctionnalité pourrait avoir un impact négatif sur certaines applications, en particulier les applications pair-à-pair telles que les clients torrent.
+Mullvad prenait auparavant en charge la redirection de port, mais a supprimé cette option en [mai 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). L'absence de cette fonctionnalité pourrait avoir un impact négatif sur certaines applications, en particulier les applications pair-à-pair telles que les clients torrent.
 
 #### :material-check:{ .pg-green } Anti-censure
 
@@ -267,11 +267,11 @@ Mullvad dispose d'un mode d'obscurcissement utilisant [Shadowsocks avec v2ray](h
 
 #### :material-check:{ .pg-green } Clients mobiles
 
-Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. Le client Android est également disponible sur [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Mullvad a publié des clients [App Store](https://apps.apple.com/app/id1488466513) et [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), tous deux avec une interface simple à utiliser plutôt que nécessiter de votre part une configuration manuelle de votre connexion WireGuard. Le client Android est également disponible sur [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Notes supplémentaires
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They use [ShadowSocks](https://shadowsocks.org) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Il semblerait que [la Chine utilise une méthode différente pour bloquer les serveurs ShadowSocks](https://github.com/net4people/bbs/issues/22).
+Mullvad est très transparent quant aux nœuds qu'il [possède ou qu'il loue](https://mullvad.net/en/servers). Ils utilisent [ShadowSocks](https://shadowsocks.org) dans leur configuration ShadowSocks + OpenVPN, ce qui les rend plus résistants aux pare-feux avec de l'[inspection profonde de paquets](https://en.wikipedia.org/wiki/Deep_packet_inspection) qui tentent de bloquer les VPN. Il semblerait que [la Chine utilise une méthode différente pour bloquer les serveurs ShadowSocks](https://github.com/net4people/bbs/issues/22).
 
 ## Critères
 

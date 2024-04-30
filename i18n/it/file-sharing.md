@@ -73,10 +73,10 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **FreedomBox** è un sistema operativo progettato per essere eseguito su un [computer a scheda singola (SBC)](https://it.wikipedia.org/wiki/Single-board_computer). Lo scopo è semplificare la configurazione delle applicazioni server, che potresti voler ospitare autonomamente.
 
-[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://freedombox.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentazione}
+[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribuisci }
 
 </details>
 
