@@ -13,9 +13,9 @@ Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i t
 
 <div class="admonition recommendation" markdown>
 
-![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
+![Logo di Send](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. I file sono crittografati sul tuo dispositivo così che non possano esser letti dal server e, facoltativamente, possono essere anche protetti da password. The maintainer of Send hosts a [public instance](https://send.vis.ee). Puoi utilizzare altre istanze pubbliche, o puoi ospitare Send autonomamente.
+**Send** è un fork del servizio Firefox Send di Mozilla, ormai dismesso, che ti consente di inviare file ad altre persone con un link. I file sono crittografati sul tuo dispositivo così che non possano esser letti dal server e, facoltativamente, possono essere anche protetti da password. Il manutentore di Send ospita una [istanza pubblica](https://send.vis.ee). Puoi utilizzare altre istanze pubbliche, o puoi ospitare Send autonomamente.
 
 [:octicons-home-16: Home](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Istanze Pubbliche"}
