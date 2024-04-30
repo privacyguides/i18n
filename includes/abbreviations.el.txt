@@ -31,7 +31,7 @@
 *[GPS]: Παγκόσμιο Σύστημα Θεσιθεσίας
 *[GUI]: Γραφικό Περιβάλλον
 *[GnuPG]: GNU Privacy Guard (υλοποίηση του PGP)
-*[HDD]: Μαγνητικός Σκληρός Δίσκος
+*[HDD]: Σκληρός Δίσκος Μαγνητικής Περιστροφής
 *[HOTP]: Κωδικός Μιας-Χρήσης βάσει HMAC
 *[HTTPS]: Hypertext Transfer Protocol Secure (ελληνιστί: Ασφαλές Πρωτόκολλο Μεταφοράς Υπερκειμένου)
 *[HTTP]: Hypertext Transfer Protocol (ελληνιστί: Πρωτόκολλο Μεταφοράς Υπερκειμένου)
@@ -73,27 +73,27 @@
 *[κυλιόμενη κυκλοφορία]: Άμεσες ενημερώσεις χωρίς προκαθορισμένο χρονοδιάγραμμα κυκλοφορίας (αγγλικά: rolling release)
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module (Μονάδα Ταυτότητας Συνδρομιτού)
-*[SMS]: Short Message Service (τα λεγόμενα μηνύματα)
+*[SIM]: Μονάδα Ταυτότητας Συνδρομής
+*[SMS]: Τα τυπικά μηνύματα κινητής τηλεφωνίας
 *[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication (Ένδειξη Ονόματος Διακομιστή)
-*[SSD]: Solid-State Drive (Δίσκος Στερεάς Κατάστασης)
+*[SNI]: Server Name Indication (ελληνιστί: Ένδειξη Ονόματος Διακομιστή)
+*[SSD]: Σκληρός Δίσκος Στερεάς Κατάστασης
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (Λογισμικό ως Υπηρεσία, δηλαδή "Λογισμικό Νέφους")
+*[SaaS]: Λογισμικό ως Υπηρεσία ("Λογισμικό Νέφους")
 *[SoC]: System on Chip
-*[SSO]: Single sign-on (Ενιαία σύνδεση)
-*[TCP]: Transmission Control Protocol (Πρωτόκολλο Ελέγχου Μεταφοράς)
-*[TEE]: Trusted Execution Environment (Έμπιστο Περιβάλλον Εκτέλεσης)
-*[TLS]: Transport Layer Security (Ασφάλεια Επιπέδου Μεταφοράς)
-*[ToS]: Terms of Service (Όροι Παροχής Υπηρεσιών)
-*[TOTP]: Time-based One-Time Password (Χρονικός Κωδικός Μιας-Χρήσης)
+*[SSO]: Ενιαία Σύνδεση (αγγλικά: Single Sign-On)
+*[TCP]: Transmission Control Protocol (ελληνιστί: Πρωτόκολλο Ελέγχου Μεταφοράς)
+*[TEE]: Trusted Execution Environment (ελληνιστί: Εμπιστευμένο Περιβάλλον Εκτέλεσης)
+*[TLS]: Transport Layer Security (ελληνιστί: Ασφάλεια Επιπέδου Μεταφοράς)
+*[ToS]: Όροι Παροχής Υπηρεσιών
+*[TOTP]: Χρονικός Κωδικός Μιας-Χρήσης
 *[TPM]: Trusted Platform Module
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol (Πρωτόκολλο Δεδομενογράμματος Χρήστοντος)
-*[VPN]: Virtual Private Network (Εικονικό Ιδιωτικό Δίκτυο)
-*[VoIP]: Voice over Internet Protocol (Φωνή επί Διαδικτυακού Πρωτοκόλλου)
+*[UDP]: User Datagram Protocol (ελληνιστί: Πρωτόκολλο Δεδομενογράμματος Χρήστοντος)
+*[VPN]: Εικονικό Ιδιωτικό Δίκτυο
+*[VoIP]: Voice over Internet Protocol (ελληνιστί: Φωνή επί Διαδικτυακού Πρωτοκόλλου)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App (Προοδευτική Διαδικτυακή Εφαρμογή)
+*[PWA]: Προοδευτική Διαδικτυακή Εφαρμογή (αγγλικά: Progressive Web App)

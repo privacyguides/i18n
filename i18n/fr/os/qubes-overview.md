@@ -8,7 +8,7 @@ description: Qubes est un système d'exploitation conçu pour isoler les applica
 
 ## Comment fonctionne Qubes OS ?
 
-Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Les Qubes sont créés à partir de modèles, ceux par défaut étant pour Fedora, Debian et [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
+Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Les Qubes sont créés à partir de modèles, ceux par défaut étant pour Fedora, Debian et [Whonix](../desktop.md#whonix). Qubes OS vous permet de créer des *qubes* [jetables](https://qubes-os.org/doc/how-to-use-disposables) à usage unique.
 
 <details class="note" markdown>
 <summary>Le terme <em>qubes</em> est progressivement mis à jour afin d'éviter de les désigner comme des "machines virtuelles".</summary>
@@ -20,7 +20,7 @@ Certaines des informations présentées ici et dans la documentation du système
 ![Architecture de Qubes](../assets/img/qubes/qubes-trust-level-architecture.png)
 <figcaption>Architecture de Qubes, Crédit : Intro de Qu'est-ce que Qubes OS</figcaption>
 
-Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. Vous pouvez, par exemple, utiliser une couleur spécifique pour votre navigateur bancaire, tout en utilisant une couleur différente pour un navigateur général non fiable.
+Chaque qube a des [bordures colorées](https://qubes-os.org/screenshots) qui peuvent vous aider à repérer dans quel domaine il s'exécute. Vous pouvez, par exemple, utiliser une couleur spécifique pour votre navigateur bancaire, tout en utilisant une couleur différente pour un navigateur général non fiable.
 
 ![Bordure colorée](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Bordures de fenêtres de Qubes, Crédit : Captures d'écran Qubes</figcaption>
@@ -45,7 +45,7 @@ You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-tex
 Pour copier et coller des fichiers et des répertoires (dossiers) d'un *qube* à un autre, vous pouvez utiliser l'option **Copier vers une autre AppVM...** ou **Déplacer vers une autre AppVM...**. La différence est que l'option **Déplacer** supprime le fichier d'origine. L'une ou l'autre option protégera votre presse-papiers contre les fuites vers d'autres *qubes*. Cette méthode est plus sûre que le transfert de fichiers air-gapped. Un ordinateur air-gapped sera toujours obligé d'analyser les partitions ou les systèmes de fichiers. Cela n'est pas nécessaire avec le système de copie inter-qube.
 
 <details class="note" markdown>
-<summary>Qubes do not have their own filesystems.</summary>
+<summary>Les qubes n'ont pas leur propre système de fichiers.</summary>
 
 You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. When you run a *qube*, it does not have a persistent filesystem. Vous pouvez créer et supprimer des fichiers, mais ces modifications sont éphémères.
 
