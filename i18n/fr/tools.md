@@ -49,13 +49,13 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 [En savoir plus :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-## Browser Extensions
+## Extensions de navigateur
 
 <div class="grid cards" markdown>
 
-- ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
-- ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
+- ![Logo de uBlock Origin](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
+- ![Logo de uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
+- ![Logo d'AdGuard](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
 
 </div>
 
@@ -67,9 +67,9 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
+- ![Logo de Proton Drive](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
+- ![Logo de Tresorit](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
+- ![Logo de Peergos](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
 
 </div>
 
@@ -87,8 +87,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
-- ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
+- ![Logo de RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ .twemoji loading=lazy }![Logo de RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ .twemoji loading=lazy } [RethinkDNS](dns.md#rethinkdns)
+- ![Logo de dnscrypt-proxy](assets/img/dns/dnscrypt-proxy.svg){ .twemoji loading=lazy } [dnscrypt-proxy](dns.md#dnscrypt-proxy)
 
 </div>
 
@@ -98,8 +98,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
+- ![Logo d'AdGuard Home](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
+- ![Logo de Pi-hole](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
 
 </div>
 
@@ -109,9 +109,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Logo de Proton Mail](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
+- ![Logo de Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
+- ![Logo de Tuta](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -121,8 +121,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Logo d'addy.io](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [addy.io](email-aliasing.md#addyio)
+- ![Logo de SimpleLogin](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -132,8 +132,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
+- ![Logo de mailcow](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
+- ![Logo de Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
 
 </div>
 
@@ -145,8 +145,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji loading=lazy }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji loading=lazy } [Privacy.com](financial-services.md#privacycom-us)
-- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
+- ![Logo de Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji loading=lazy }![Logo de Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji loading=lazy } [Privacy.com](financial-services.md#privacycom-us)
+- ![Logo de MySudo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
 
 </div>
 
@@ -156,7 +156,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [CoinCards](financial-services.md#coincards)
+- ![Logo de CoinCards](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [CoinCards](financial-services.md#coincards)
 
 </div>
 
@@ -166,9 +166,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente](photo-management.md#ente)
-- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
-- ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
+- ![Logo de Ente](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Logo de Ente](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente](photo-management.md#ente)
+- ![Logo de Stingle](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Logo de Stingle](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
+- ![Logo de PhotoPrism](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
 
 </div>
 
@@ -178,10 +178,10 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
+- ![Logo de Brave Search](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
+- ![Logo de DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![Logo de SearXNG](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
+- ![Logo de Startpage](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Logo de Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
 
 </div>
 
@@ -192,7 +192,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 <details class="danger" markdown>
 <summary>Les VPN ne peuvent pas fournir d'anonymat</summary>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
 
 If you are looking for **anonymity**, you should use the Tor Browser **instead** of a VPN.
 

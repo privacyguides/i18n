@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
+meta_title: "Les meilleurs gestionnaires de mots de passe pour protéger votre vie privée et votre sécurité - Privacy Guides"
 title: "Gestionnaires de mots de passe"
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Password Manager Recommendations
+    name: Recommandations de gestionnaires de mots de passe
     url: "./"
   - 
     "@context": http://schema.org

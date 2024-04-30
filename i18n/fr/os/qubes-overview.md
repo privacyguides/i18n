@@ -73,7 +73,7 @@ Vos qubes devraient être configurés de la manière suivante :
 
 ## Ressources supplémentaires
 
-For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). Des copies hors ligne peuvent être téléchargées à partir du [dépôt de documentationde](https://github.com/QubesOS/qubes-doc) Qubes OS.
+Pour plus d'informations, nous vous invitons à consulter les pages de documentation détaillées de Qubes OS, que vous pouvez trouver sur le [site web de Qubes OS](https://qubes-os.org/doc). Des copies hors ligne peuvent être téléchargées à partir du [dépôt de documentationde](https://github.com/QubesOS/qubes-doc) Qubes OS.
 
 - [Sans doute le système d'exploitation le plus sécurisé du monde](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
 - [Comparaison entre le cloisonnement des logiciels et la séparation physique](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
