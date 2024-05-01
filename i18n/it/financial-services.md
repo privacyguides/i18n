@@ -28,9 +28,9 @@ Molte banche e fornitori di carte di credito offrono una funzionalità nativa di
 
 Il piano gratuito di **Privacy.com** ti consente di creare fino a 12 carte virtuali al mese, di impostare i limiti di spesa su tali carte e di chiuderle istantaneamente. Il piano a pagamento ti consente di creare fino a 36 carte al mese, ottenere l'1% di cashback sugli acquisti e di nascondere le informazioni sulle transazioni dalla tua banca.
 
-[:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
+[:octicons-home-16: Pagina Principale](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentazione}
 
 </details>
 
@@ -45,11 +45,11 @@ Privacy.com fornisce le informazioni sui commercianti da cui acquisti alla tua b
 ![Logo di MySudo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
 ![Logo di MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** fornisce fino a 9 carte virtuali a seconda del piano acquistato. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email-aliasing.md) for extensive email aliasing use.
+**MySudo** fornisce fino a 9 carte virtuali a seconda del piano acquistato. I loro piani a pagamento includono inoltre funzionalità che possono essere utili per effettuare acquisti privatamente, come numeri di telefono e indirizzi e-mail virtuali, anche se in genere raccomandiamo altri [fornitori di aliasing e-mail] (email-aliasing.md) per un uso estensivo dell'aliasing e-mail.
 
-[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
+[:octicons-home-16: Pagina Principale](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentazione}
 
 </details>
 
@@ -76,9 +76,9 @@ Questi servizi ti consentono di acquistare carte regalo per numerosi commerciant
 
 **CoinCards** (Disponibile negli USA e in Canada) ti consente di acquistare carte regalo per una vasta gamma di commercianti.
 
-[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
+[:octicons-home-16: Pagina Principale](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentazione}
 
 </details>
 
