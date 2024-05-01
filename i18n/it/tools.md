@@ -41,9 +41,9 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave (Android)](mobile-browsers.md#brave)
-- ![Mull logo](assets/img/browsers/mull.svg){ .twemoji loading=lazy } [Mull (Android)](mobile-browsers.md#mull)
-- ![Safari logo](assets/img/browsers/safari.svg){ .twemoji loading=lazy } [Safari (iOS)](mobile-browsers.md#safari)
+- ![Logo di Brave](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave (Android)](mobile-browsers.md#brave)
+- ![Logo di Mull](assets/img/browsers/mull.svg){ .twemoji loading=lazy } [Mull (Android)](mobile-browsers.md#mull)
+- ![Logo di Safari](assets/img/browsers/safari.svg){ .twemoji loading=lazy } [Safari (iOS)](mobile-browsers.md#safari)
 
 </div>
 
@@ -109,9 +109,9 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Logo di Proton Mail](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
+- ![Logo di Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
+- ![Logo di Tuta](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -121,8 +121,8 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [addy.io](email-aliasing.md#addyio)
-- ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
+- ![Logo di addy.io](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [addy.io](email-aliasing.md#addyio)
+- ![Logo di SimpleLogin](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
 
@@ -132,8 +132,8 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
+- ![Logo di mailcow](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
+- ![Logo di Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
 
 </div>
 
@@ -145,8 +145,8 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji loading=lazy }![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji loading=lazy } [Privacy.com](financial-services.md#privacycom-us)
-- ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
+- ![Logo di Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji loading=lazy }![Logo di Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji loading=lazy } [Privacy.com](financial-services.md#privacycom-us)
+- ![Logo di MySudo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![Logo di MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
 
 </div>
 
@@ -156,7 +156,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [CoinCards](financial-services.md#coincards)
+- ![Logo di CoinCards](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [CoinCards](financial-services.md#coincards)
 
 </div>
 
@@ -166,9 +166,9 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente](photo-management.md#ente)
-- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
-- ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
+- ![Logo di Ente](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Logo di Ente](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente](photo-management.md#ente)
+- ![Logo di Stingle](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Logo di Stingle](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
+- ![Logo di PhotoPrism](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
 
 </div>
 
@@ -178,10 +178,10 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
+- ![Logo di Brave Search](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
+- ![Logo di DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
+- ![Logo di SearXNG](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
+- ![Logo di Startpage](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Logo di Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
 
 </div>
 
@@ -204,9 +204,9 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
+- ![Logo di Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
+- ![Logo di IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
+- ![Logo di Mullvad](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
 
 </div>
 
@@ -218,8 +218,8 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/calendar/tuta.svg){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
-- ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
+- ![Logo di Tuta](assets/img/calendar/tuta.svg){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
+- ![Logo di Proton Calendar](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
 
@@ -229,7 +229,7 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 <div class="grid cards" markdown>
 
-- ![Monero logo](assets/img/cryptocurrency/monero.svg){ .twemoji loading=lazy } [Monero](cryptocurrency.md#monero)
+- ![Logo di Monero](assets/img/cryptocurrency/monero.svg){ .twemoji loading=lazy } [Monero](cryptocurrency.md#monero)
 
 </div>
 
@@ -239,11 +239,11 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 <div class="grid cards" markdown>
 
-- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
-- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji loading=lazy } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ .twemoji loading=lazy } [PrivacyBlur](data-redaction.md#privacyblur)
-- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool)
+- ![Logo di MAT2](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
+- ![Logo di ExifEraser](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![Logo di Metapho](assets/img/data-redaction/metapho.jpg){ .twemoji loading=lazy } [Metapho (iOS)](data-redaction.md#metapho-ios)
+- ![Logo di PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ .twemoji loading=lazy } [PrivacyBlur](data-redaction.md#privacyblur)
+- ![Logo di ExifTool](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool)
 
 </div>
 
@@ -253,15 +253,15 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![Logo di Thunderbird](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
+- ![Logo di Apple Mail](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![Logo di Canary Mail](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
+- ![Logo di FairEmail](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![Logo di GNOME Evolution](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![Logo di K-9 Mail](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
+- ![Logo di Kontact](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Logo di Mailvelope](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in webmail standard)](email-clients.md#mailvelope-browser)
+- ![Logo di NeoMutt](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
@@ -280,11 +280,11 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji loading=lazy } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
+- ![Logo di Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![Logo di Picocrypt](assets/img/encryption-software/picocrypt.svg){ .twemoji loading=lazy } [Picocrypt](encryption.md#picocrypt-file)
+- ![Logo di VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![Logo di VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![Logo di Kryptor](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
+- ![Logo di Tomb](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
 
 </div>
 
@@ -294,10 +294,10 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 <div class="grid cards" markdown>
 
-- ![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
-- ![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
+- ![Logo di GnuPG](assets/img/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
+- ![Logo di GPG4Win](assets/img/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
+- ![Logo di GPG Suite](assets/img/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
+- ![Logo di OpenKeychain](assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
 
 </div>
 
@@ -321,12 +321,12 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 <div class="grid cards" markdown>
 
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
-- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Logo di FreeTube](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![Logo di Yattee](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![Logo di LibreTube](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![Logo di LibreTube](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
+- ![Logo di NewPipe](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Logo di Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Logo di Invidious](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Logo di Piped](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 
@@ -338,8 +338,8 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 - ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](multi-factor-authentication.md#yubikey)
 - ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](multi-factor-authentication.md#nitrokey)
-- ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [ente Auth](multi-factor-authentication.md#ente-auth)
-- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
+- ![Logo di ente Auth](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [ente Auth](multi-factor-authentication.md#ente-auth)
+- ![Logo di Aegis](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
 
@@ -349,13 +349,13 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 <div class="grid cards" markdown>
 
-- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
-- ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
-- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji loading=lazy } [Fluent Reader](news-aggregators.md#fluent-reader)
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
-- ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
-- ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
+- ![Logo di Akregator](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
+- ![Logo di NewsFlash](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
+- ![Logo di Feeder](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
+- ![Logo di Fluent Reader](assets/img/news-aggregators/fluent-reader.svg){ .twemoji loading=lazy } [Fluent Reader](news-aggregators.md#fluent-reader)
+- ![Logo di Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Logo di Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
+- ![Logo di NetNewsWire](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
+- ![Logo di Newsboat](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
 
 </div>
 
@@ -365,11 +365,11 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 <div class="grid cards" markdown>
 
-- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji loading=lazy } [Standard Notes](notebooks.md#standard-notes)
-- ![Notesnook logo](assets/img/notebooks/notesnook.svg){ .twemoji loading=lazy } [Notesnook](notebooks.md#notesnook)
-- ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji loading=lazy } [Joplin](notebooks.md#joplin)
-- ![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
-- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji loading=lazy } [Org-mode](notebooks.md#org-mode)
+- ![Logo di Standard Notes](assets/img/notebooks/standard-notes.svg){ .twemoji loading=lazy } [Standard Notes](notebooks.md#standard-notes)
+- ![Logo di Notesnook](assets/img/notebooks/notesnook.svg){ .twemoji loading=lazy } [Notesnook](notebooks.md#notesnook)
+- ![Logo di Joplin](assets/img/notebooks/joplin.svg){ .twemoji loading=lazy } [Joplin](notebooks.md#joplin)
+- ![Logo di Cryptee](assets/img/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Logo di Cryptee](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
+- ![Logo di Org-mode](assets/img/notebooks/org-mode.svg){ .twemoji loading=lazy } [Org-mode](notebooks.md#org-mode)
 
 </div>
 
@@ -411,11 +411,11 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 <div class="grid cards" markdown>
 
-- ![Signal logo](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
-- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
-- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
-- ![Element logo](assets/img/messengers/element.svg){ .twemoji loading=lazy } [Element](real-time-communication.md#element)
-- ![Session logo](assets/img/messengers/session.svg){ .twemoji loading=lazy } [Session](real-time-communication.md#session)
+- ![Logo di Signal](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
+- ![Logo di Briar](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
+- ![Logo di SimpleX Chat](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
+- ![Logo di Element](assets/img/messengers/element.svg){ .twemoji loading=lazy } [Element](real-time-communication.md#element)
+- ![Logo di Session](assets/img/messengers/session.svg){ .twemoji loading=lazy } [Session](real-time-communication.md#session)
 
 </div>
 
@@ -427,8 +427,8 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 <div class="grid cards" markdown>
 
-- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android.md#divestos)
+- ![Logo di GrapheneOS](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![Logo di GrapheneOS](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android.md#grapheneos)
+- ![Logo di DivestOS](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android.md#divestos)
 
 </div>
 
@@ -470,8 +470,8 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 <div class="grid cards" markdown>
 
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji loading=lazy }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji loading=lazy } [OPNsense](router.md#opnsense)
+- ![Logo di OpenWrt](assets/img/router/openwrt.svg#only-light){ .twemoji loading=lazy }![Logo di OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
+- ![Logo di OPNsense](assets/img/router/opnsense.svg){ .twemoji loading=lazy } [OPNsense](router.md#opnsense)
 
 </div>
 
@@ -485,9 +485,9 @@ Questi strumenti possono essere utili per alcuni individui. Forniscono funzional
 
 <div class="grid cards" markdown>
 
-- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
-- ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
+- ![Logo di I2P](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![Logo di I2P](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Logo di Tor](./assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
+- ![Logo di Snowflake](assets/img/browsers/snowflake.svg#only-light){ .twemoji loading=lazy }![Logo di Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
 

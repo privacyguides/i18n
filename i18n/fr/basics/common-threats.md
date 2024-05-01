@@ -65,23 +65,23 @@ Les attaques de la chaîne d'approvisionnement sont souvent une forme d'<span cl
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+Un exemple notable s'est produit en 2017 lorsque M.E.Doc, un logiciel de comptabilité populaire en Ukraine, a été infecté par le virus *NotPetya*, infectant ensuite les personnes qui ont téléchargé ce logiciel avec un rançongiciel. NotPetya est une attaque par rançongiciel qui a touché plus de 2 000 entreprises dans différents pays. Elle est basée sur l'exploit *EternalBlue* mis au point par la NSA pour attaquer les ordinateurs Windows via le réseau.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+Ce type d'attaque peut être mené de plusieurs manières :
 
-1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. Un collaborateur ou un employé peut se frayer un chemin jusqu'à une position de pouvoir au sein d'un projet ou d'une organisation, puis abuser de cette position en ajoutant un code malveillant.
+2. Un développeur peut être contraint par un tiers d'ajouter un code malveillant.
+3. Un individu ou un groupe peut identifier une dépendance logicielle tierce (également connue sous le nom de bibliothèque) et s'efforcer de l'infiltrer à l'aide des deux méthodes susmentionnées, en sachant qu'elle sera utilisée par les développeurs de logiciels "en aval".
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+Ces types d'attaques peuvent nécessiter beaucoup de temps et de préparation et sont risquées car elles peuvent être détectées, en particulier dans les projets open source s'ils sont populaires et s'ils suscitent un intérêt extérieur. Malheureusement, ce sont aussi parmi les plus dangereuses, car il est très difficile de les atténuer complètement. Nous encourageons les lecteurs à n'utiliser que des logiciels qui ont une bonne réputation et qui s'efforcent de réduire les risques en :
 
-1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+1. N'adoptant que des logiciels populaires qui existent depuis un certain temps. Plus l'intérêt pour un projet est grand, plus il y a de chances que des parties externes remarquent les changements malveillants. Un acteur malveillant devra également consacrer plus de temps à gagner la confiance de la communauté par des contributions significatives.
+2. Trouvant des logiciels qui publient des binaires avec des plates-formes d'infrastructure de construction fiables et largement utilisées, par opposition aux stations de travail des développeurs ou aux serveurs auto-hébergés. Certains systèmes comme GitHub Actions vous permettent d'inspecter le script de construction qui s'exécute publiquement pour plus de confiance. Cela réduit la probabilité qu'un logiciel malveillant présent sur la machine d'un développeur puisse infecter ses paquets, et permet de s'assurer que les binaires produits sont bien produits correctement.
+3. Recherchant la signature de code sur les commits individuels et les versions du code source, ce qui crée une trace vérifiable de qui a fait quoi. Par exemple : le code malveillant se trouvait-il dans le dépôt du logiciel ? Quel développeur l'a ajouté ? A-t-il été ajouté au cours du processus de construction ?
+4. Vérifiant si le code source comporte des messages de commit significatifs (tels que les [commits conventionnels](https://conventionalcommits.org)) qui expliquent ce que la modification est censée accomplir. Des messages clairs peuvent faciliter la vérification, l'audit et la détection des bugs pour les personnes extérieures au projet.
+5. Notant le nombre de contributeurs ou de mainteneurs d'un programme. Un développeur isolé peut être plus susceptible d'être contraint d'ajouter un code malveillant par un tier, ou d'activer par négligence un comportement indésirable. Cela pourrait bien signifier que les logiciels développés par les "Géants du Web" font l'objet d'un examen plus approfondi que ceux d'un développeur isolé qui n'a de comptes à rendre à personne.
 
 ## Protection de ses données des fournisseurs de services
 
@@ -94,7 +94,7 @@ Le problème évident avec cela est que le fournisseur de services (ou un pirate
 Heureusement, le chiffrement de bout en bout peut atténuer ce problème en rendant illisibles les communications entre vous et vos destinataires avant même qu'elles ne soient envoyées au serveur. La confidentialité de vos messages est garantie, tant que le prestataire de services n'a pas accès aux clés privées d'une des deux personnes.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">Remarque sur le chiffrement basé sur le web</p>
 
 Dans la pratique, l'efficacité des différentes mises en œuvre du chiffrement de bout en bout varie. Des applications telles que [Signal](../real-time-communication.md#signal) s'exécutent nativement sur votre appareil, et chaque copie de l'application est la même sur différentes installations. Si le fournisseur de services venait à ouvrir une porte dérobée dans son application pour tenter de voler vos clés privées, cela pourrait être détecté ultérieurement par rétro-ingénierie.
 
@@ -113,11 +113,11 @@ Même avec le chiffrement de bout en bout, les fournisseurs de services peuvent 
 La surveillance de masse est un effort visant à surveiller le "comportement, de nombreuses activités ou les informations" d'une population entière (ou d'une fraction substantielle d'une population).[^1] Elle fait souvent référence à des programmes gouvernementaux, tels que ceux [divulgués par Edward Snowden en 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Cependant, elle peut également être réalisée par des entreprises, soit pour le compte d'agences gouvernementales, soit de leur propre initiative.
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Atlas of Surveillance</p>
+<p class="admonition-title">Atlas de la surveillance</p>
 
-If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
+Si vous souhaitez en savoir plus sur les méthodes de surveillance et la manière dont elles sont mises en œuvre dans votre ville, vous pouvez également consulter l'[Atlas de la surveillance](https://atlasofsurveillance.org/) de l'[Electronic Frontier Foundation](https://eff.org/).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+En France, vous pouvez consulter le [site Technolopolice](https://technopolice.fr/villes/) géré par l'association à but non lucratif La Quadrature du Net.
 
 </div>
 
@@ -142,7 +142,7 @@ Vous pouvez être pisté de plusieurs manières en ligne :
 
 \[Cette liste n'est pas exhaustive].
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+Si vous êtes préoccupé par les programmes de surveillance de masse, vous pouvez utiliser des stratégies comme cloisonner vos identités virtuelles, vous fondre dans la masse des utilisateurs, ou, dans la mesure du possible, simplement éviter de renseigner des informations qui pourraient permettre de vous identifier.
 
 <span class="pg-brown">:material-account-cash: Capitalisme de surveillance</span>
 
@@ -170,7 +170,7 @@ Si vous avez déjà soumis vos véritables informations à des sites qui ne devr
 
 La censure en ligne peut être exercée (à des degrés divers) par des acteurs tels que des gouvernements totalitaires, des administrateurs de réseaux et des fournisseurs de services. Ces efforts pour contrôler la communication et restreindre l'accès à l'information seront toujours incompatibles avec le droit humain à la liberté d'expression.[^5]
 
-La censure sur les plateformes privées est de plus en plus courante, car des plateformes comme Twitter et Facebook cèdent à la demande du public, aux pressions du marché et à celles des agences gouvernementales. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+La censure sur les plateformes privées est de plus en plus courante, car des plateformes comme Twitter et Facebook cèdent à la demande du public, aux pressions du marché et à celles des agences gouvernementales. Les pressions gouvernementales peuvent prendre la forme de demandes secrètes adressées aux entreprises, comme la Maison Blanche [demandant le retrait](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) d'une vidéo provocante sur YouTube, ou de demandes manifestes, comme le gouvernement chinois exigeant des entreprises qu'elles adhèrent à un régime de censure strict.
 
 Les personnes concernées par la menace de la censure peuvent utiliser des technologies comme [Tor](../advanced/tor-overview.md) pour la contourner, et soutenir des plateformes de communication résistantes à la censure comme [Matrix](../real-time-communication.md#element), qui ne dispose pas d'une autorité centralisée pouvant fermer des comptes de manière arbitraire.
 
@@ -188,5 +188,5 @@ Vous devez toujours tenir compte des risques encourus en essayant de contourner 
 [^1]: Commission de surveillance de la vie privée et des libertés civiles des États-Unis : [Rapport sur le programme d'enregistrements téléphoniques mené en vertu de la section 215](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^2]: Conseil de surveillance de la vie privée et des libertés civiles des États-Unis : [*Rapport sur le programme d'enregistrements téléphoniques mené en vertu de la section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipédia : [*Capitalisme de surveillance*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Vous devriez également utiliser d'autres techniques d'atténuation.
+[^4]: "[Énumérer la méchanceté](https://ranum.com/security/computer_security/editorials/dumb)" (ou "énumérer toutes les mauvaises choses que nous connaissons") comme le font de nombreux bloqueurs de contenu et programmes antivirus, ne permet pas de vous protéger correctement contre les menaces nouvelles et inconnues, car elles n'ont pas encore été ajoutées à la liste des filtres. Vous devriez également utiliser d'autres techniques d'atténuation.
 [^5]: Nations Unies : [*Déclaration universelle des droits de l'homme*](https://www.un.org/fr/about-us/universal-declaration-of-human-rights).

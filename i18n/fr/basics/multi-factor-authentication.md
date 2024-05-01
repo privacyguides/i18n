@@ -30,7 +30,7 @@ TOTP est l'une des formes les plus courantes de MFA. Lorsque vous configurez un 
 
 Le code limité dans le temps est alors dérivé du secret partagé et de l'heure courante. Comme le code n'est valable que pour une courte période, sans accès au secret partagé, un adversaire ne peut pas générer de nouveaux codes.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. Un matériel tel que la YubiKey a été développé dans l'intention de rendre le "secret partagé" difficile à extraire et à copier. Une clé YubiKey n'est pas non plus connectée à Internet, contrairement à un téléphone équipé d'une application TOTP.
+Si vous disposez d'une clé de sécurité matérielle avec prise en charge de TOTP (comme une YubiKey avec [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), nous vous recommandons de stocker vos "secrets partagés" sur le matériel. Un matériel tel que la YubiKey a été développé dans l'intention de rendre le "secret partagé" difficile à extraire et à copier. Une clé YubiKey n'est pas non plus connectée à Internet, contrairement à un téléphone équipé d'une application TOTP.
 
 Contrairement à [WebAuthn](#fido-fast-identity-online), TOTP n'offre aucune protection contre les attaques d'[hammeçonnage](https://en.wikipedia.org/wiki/Phishing) ou de réutilisation. Si un adversaire obtient de vous un code valide, il peut l'utiliser autant de fois qu'il le souhaite jusqu'à son expiration (généralement 60 secondes).
 
@@ -122,7 +122,7 @@ Au-delà de la simple sécurisation des connexions à votre site web, l'authenti
 
 ### Windows
 
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
+Yubico dispose d'un [fournisseur d'identifiants](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) dédié qui ajoute l'authentification à épreuve-réponse pour le flux de connexion nom d'utilisateur + mot de passe pour les comptes Windows locaux. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
 
 ### macOS
 
