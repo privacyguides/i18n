@@ -7,7 +7,7 @@ cover: notebooks.webp
 
 Gardez une trace de vos notes et de vos journaux sans les donner à un tiers.
 
-Si vous utilisez actuellement une application comme Evernote, Google Keep, ou Microsoft OneNote, nous vous suggérons de choisir ici une alternative qui supporte l'E2EE.
+Si vous utilisez actuellement une application comme Evernote, Google Keep, ou Microsoft OneNote, nous vous suggérons de choisir ici une alternative qui supporte le E2EE.
 
 ## Basé sur le cloud
 

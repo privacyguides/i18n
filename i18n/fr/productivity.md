@@ -1,12 +1,12 @@
 ---
 title: "Outils de productivité"
 icon: material/file-sign
-description: La plupart des suites bureautiques en ligne ne prennent pas en charge l'E2EE, ce qui signifie que le fournisseur de cloud a accès à tout ce que vous faites.
+description: La plupart des suites bureautiques en ligne ne prennent pas en charge le E2EE, ce qui signifie que le fournisseur de cloud a accès à tout ce que vous faites.
 cover: productivity.webp
 ---
 
 <!-- markdownlint-disable MD024 -->
-La plupart des suites bureautiques en ligne ne prennent pas en charge l'E2EE, ce qui signifie que le fournisseur de cloud a accès à tout ce que vous faites. La politique de confidentialité peut protéger légalement vos droits, mais elle ne fournit pas de contraintes techniques d'accès.
+La plupart des suites bureautiques en ligne ne prennent pas en charge le E2EE, ce qui signifie que le fournisseur de cloud a accès à tout ce que vous faites. La politique de confidentialité peut protéger légalement vos droits, mais elle ne fournit pas de contraintes techniques d'accès.
 
 ## Plateformes de collaboration
 
@@ -72,7 +72,7 @@ Nous ne recommandons pas l'utilisation de [l'application E2EE](https://apps.next
 En général, nous définissons les plateformes de collaboration comme des suites complètes qui pourraient raisonnablement remplacer des plateformes de collaboration comme Google Drive.
 
 - Open source.
-- Rend les fichiers accessibles via WebDAV, sauf si cela est impossible en raison de l'E2EE.
+- Rend les fichiers accessibles via WebDAV, sauf si cela est impossible en raison du E2EE.
 - Possède des clients de synchronisation pour Linux, macOS et Windows.
 - Prend en charge l'édition de documents et de feuilles de calcul.
 - Prend en charge la collaboration de documents en temps réel.

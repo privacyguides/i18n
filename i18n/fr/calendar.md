@@ -5,7 +5,7 @@ description: Les calendriers contiennent certaines de vos données les plus sens
 cover: calendar.webp
 ---
 
-Les calendriers contiennent certaines de vos données les plus sensibles ; utilisez des produits qui mettent en œuvre l'E2EE au repos pour empêcher un fournisseur de les lire.
+Les calendriers contiennent certaines de vos données les plus sensibles ; utilisez des produits qui mettent en œuvre le E2EE au repos pour empêcher un fournisseur de les lire.
 
 ## Tuta
 

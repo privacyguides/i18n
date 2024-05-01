@@ -15,7 +15,7 @@
 *[DoQ]: DNS sur QUIC
 *[DoH3]: DNS sur HTTP/3
 *[DoT]: DNS sur TLS
-*[E2EE]: Chiffrement de bout en bout/Chiffré
+*[E2EE]: Chiffrement/Chiffré(e) de bout en bout
 *[ECS]: Sous-réseau du client EDNS
 *[EEA]: Espace économique européen
 *[entropy]: Une mesure du degré d'imprévisibilité d'une chose

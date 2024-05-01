@@ -54,7 +54,7 @@ Pour générer une phrase secrète diceware à l'aide de vrais dés, suivez ces 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-Ces instructions supposent que vous utilisez [la grande liste de mots de l'EFF] (https://eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer la phrase d'authentification, ce qui nécessite cinq jets de dés par mot. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
+Ces instructions supposent que vous utilisez [la grande liste de mots de l'EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer la phrase secrète, ce qui nécessite cinq jets de dés par mot. D'autres listes de mots peuvent nécessiter plus ou moins de lancers par mot, et peuvent nécessiter un nombre différent de mots pour obtenir la même entropie.
 
 </div>
 
@@ -78,17 +78,17 @@ Si vous n'avez pas accès à de vrais dés ou si vous préférez ne pas en utili
 Nous vous recommandons d'utiliser la [grande liste de mots de l'EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) pour générer vos phrases de passe diceware, car elle offre exactement la même sécurité que la liste originale, tout en contenant des mots plus faciles à mémoriser. Il existe également [d'autres listes de mots dans différentes langues](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), si vous ne souhaitez pas que votre phrase secrète soit en anglais.
 
 <details class="note" markdown>
-<summary>Explanation of entropy and strength of diceware passphrases</summary>
+<summary>Explication de l'entropie et de la force des phrases secrètes diceware</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+Pour démontrer la force des phrases secrètes diceware, nous utiliserons la phrase secrète de sept mots mentionnée plus haut (`viewable fastness reluctant squishy seventeen shown pencil`) et la [grande liste de mots de l'EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) comme exemple.
 
-One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
+L'une des mesures permettant de déterminer la force d'une phrase secrète est son degré d'entropie. L'entropie par mot d'une phrase secrète est calculée comme suit <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>MotsDansLaListe</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> et l'entropie globale de la phrase secrète est calculée comme suit : <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>MotsDansLaListe</mtext> <mtext>MotsDansLaPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
-Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
+Par conséquent, chaque mot de la liste susmentionnée représente ~12,9 bits d'entropie (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), et une phrase secrète de sept mots dérivée de celle-ci a ~90,47 bits d'entropie (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+La [grande liste de mots de l'EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contient 7776 mots uniques. Pour calculer le nombre de phrases secrètes possibles, il suffit de faire ce qui suit <math> <msup> <mtext>MotsDansLaListe</mtext> <mtext>MotsDansLaPhrase</mtext> </msup> </math>ou dans notre cas, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Mettons tout cela en perspective : une phrase secrète de sept mots utilisant la [grande liste de mots de l'EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) est l'une des ~1 719 070 799 748 422 500 000 000 000 phrases secrètes possibles.
 
 En moyenne, il faut essayer 50 % de toutes les combinaisons possibles pour deviner votre phrase. En gardant cela à l'esprit, même si votre adversaire est capable de faire ~1 000 000 000 000 de suppositions par seconde, il lui faudrait toujours ~27 255 689 ans pour deviner votre phrase secrète. C'est le cas même si les choses suivantes sont vraies :
 
@@ -111,7 +111,7 @@ Il existe de nombreuses options intéressantes, qu'elles soient basées sur le c
 [Liste des gestionnaires de mots de passe recommandés](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
+<p class="admonition-title">Ne placez pas vos mots de passe et vos codes TOTP dans le même gestionnaire de mots de passe</p>
 
 Lorsque vous utilisez des codes TOTP comme [authentification à multi-facteurs](../multi-factor-authentication.md), la meilleure pratique de sécurité consiste à conserver vos codes TOTP dans une [application séparée](../multi-factor-authentication.md#authenticator-apps).
 

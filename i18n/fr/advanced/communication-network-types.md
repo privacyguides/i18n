@@ -69,7 +69,7 @@ Les réseaux P2P n'utilisent pas de serveurs, car les pairs communiquent directe
 **Avantages :**
 
 - Minimum d'informations exposées à des tiers.
-- Les plateformes P2P modernes implémentent l'E2EE par défaut. Il n'y a pas de serveurs qui pourraient potentiellement intercepter et déchiffrer vos transmissions, contrairement aux modèles centralisés et fédérés.
+- Les plateformes P2P modernes implémentent le E2EE par défaut. Il n'y a pas de serveurs qui pourraient potentiellement intercepter et déchiffrer vos transmissions, contrairement aux modèles centralisés et fédérés.
 
 **Inconvénients :**
 
