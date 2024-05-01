@@ -117,7 +117,7 @@ Si vous ne voulez pas que quelqu'un puisse contrôler votre téléphone avec Sir
 
 Définir un mot de passe fort pour votre téléphone est la mesure la plus importante que vous puissiez prendre pour assurer la sécurité physique de votre appareil. Vous devrez faire des compromis entre la sécurité et la commodité : un mot de passe plus long sera fastidieux à saisir à chaque fois, mais un mot de passe ou un code PIN plus court sera plus facile à deviner. Configurer Face ID ou Touch ID avec un mot de passe fort peut être un bon compromis entre convivialité et sécurité.
 
-Sélectionnez **Activer le code d'accès** ou **Modifier le code d'accès** > **Options du code d'accès** > **Code alphanumérique personnalisé**. Make sure that you create a [secure password](../basics/passwords-overview.md).
+Sélectionnez **Activer le code d'accès** ou **Modifier le code d'accès** > **Options du code d'accès** > **Code alphanumérique personnalisé**. Veillez à créer un [mot de passe sûr](../basics/passwords-overview.md).
 
 Si vous souhaitez utiliser Face ID ou Touch ID, vous pouvez le configurer maintenant. Votre téléphone utilisera le mot de passe que vous avez défini précédemment comme solution de secours en cas d'échec de la vérification biométrique. Les méthodes de déverrouillage biométrique existent principalement pour la commodité, même si elles empêchent les caméras de surveillance ou les personnes de vous regarder saisir votre code d'accès par-dessus votre épaule.
 
@@ -129,7 +129,7 @@ Sur certains appareils plus anciens, vous devrez peut-être appuyer cinq fois su
 
 - [x] Sélectionnez **Activer la protection**
 
-After enabling stolen data protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. Elle ajoute également un délai de sécurité pour certaines actions effectuées en dehors de votre domicile ou d'un autre "lieu familier", comme la nécessité d'un délai d'une heure pour réinitialiser votre mot de passe Apple ID ou vous déconnecter de votre Apple ID. Ce délai a pour but de vous donner le temps d'activer le mode Perdu et de sécuriser votre compte avant qu'un voleur ne puisse réinitialiser votre appareil.
+Après avoir activé la protection en cas de vol de l’appareil, [certaines actions](https://support.apple.com/HT212510) nécessiteront une authentification biométrique sans possibilité de recourir au mot de passe (dans le cas où un passant obtient votre code PIN à la dérobée), comme l'utilisation du remplissage des mots de passe, l'accès aux informations de paiement et la désactivation du mode perdu. Elle ajoute également un délai de sécurité pour certaines actions effectuées en dehors de votre domicile ou d'un autre "lieu familier", comme la nécessité d'un délai d'une heure pour réinitialiser votre mot de passe Apple ID ou vous déconnecter de votre Apple ID. Ce délai a pour but de vous donner le temps d'activer le mode Perdu et de sécuriser votre compte avant qu'un voleur ne puisse réinitialiser votre appareil.
 
 **Autoriser l'accès lorsque le téléphone est verrouillé** vous offre des options pour définir ce que vous pouvez autoriser lorsque votre téléphone est verrouillé. Plus vous désactivez d'options, moins quelqu'un qui n'a pas votre mot de passe peut faire de choses, mais moins c'est pratique pour vous. Choisissez les éléments auxquels vous ne voulez pas que quelqu'un ait accès s'il met la main sur votre téléphone.
 
@@ -187,7 +187,7 @@ Désactivez **Publicités personnalisées** si vous ne voulez pas de publicités
 
 - [x] Sélectionnez **Activer le rapport de confidentialité des apps**
 
-Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) est un paramètre de sécurité que vous pouvez activer pour rendre votre téléphone plus résistant aux attaques. Be aware that certain apps and features [won't work](https://support.apple.com/HT212650) as they do normally.
+Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) est un paramètre de sécurité que vous pouvez activer pour rendre votre téléphone plus résistant aux attaques. Sachez que certaines applications et fonctionnalités [ne fonctionneront pas](https://support.apple.com/HT212650) comme elles le font normalement.
 
 - [x] Sélectionnez **Activer le mode Isolement**
 
@@ -203,7 +203,7 @@ Le jailbreaking d'un iPhone compromet sa sécurité et vous rend vulnérable. L'
 
 ### iMessage chiffré
 
-La couleur de la bulle de message dans l'application Messages indique si vos messages sont E2EE ou non. Une bulle bleue indique que vous utilisez iMessage avec E2EE, tandis qu'une bulle verte indique qu'ils utilisent les protocoles SMS et MMS obsolètes. Actuellement, le seul moyen d'obtenir l'E2EE dans Messages est que les deux correspondants utilisent iMessage sur des appareils Apple.
+La couleur de la bulle de message dans l'application Messages indique si vos messages sont E2EE ou non. Une bulle bleue indique que vous utilisez iMessage avec E2EE, tandis qu'une bulle verte indique qu'ils utilisent les protocoles SMS et MMS obsolètes. Actuellement, le seul moyen d'obtenir le E2EE dans Messages est que les deux correspondants utilisent iMessage sur des appareils Apple.
 
 Si vous ou votre partenaire de messagerie avez activé la sauvegarde iCloud sans la protection avancée des données, la clé de chiffrement sera stockée sur les serveurs d'Apple, ce qui signifie qu'ils peuvent accéder à vos messages. En outre, l'échange de clés d'iMessage n'est pas aussi sûr que d'autres implémentations, comme Signal (qui permet de voir la clé du destinataire et de vérifier par QR code), et ne doit donc pas être utilisé pour des communications particulièrement sensibles.
 
