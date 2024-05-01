@@ -202,7 +202,7 @@ Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includ
 
 ![Logo di Kontact](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** è un'applicazione di gestione delle informazioni personali (PIM), dal progetto [KDE](https://dke.org). Fornisce un client email, rubrica, un'agenda e un client RSS.
+**Kontact** è un'applicazione di gestione delle informazioni personali (PIM), dal progetto [KDE](https://kde.org/it/). Fornisce un client email, rubrica, un'agenda e un client RSS.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }

@@ -1,5 +1,5 @@
 ---
-title: Contributors
+title: Collaboratori
 hide:
   - toc
 ---
