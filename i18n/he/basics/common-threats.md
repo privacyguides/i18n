@@ -126,7 +126,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-אל מול [חשיפותיו של אדוארד סנודן לגבי תוכניות ממשלתיות כגון [PRISM](https://en.wikipedia.org/wiki/PRISM) ו-[Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], פקידי מודיעין גם הודו כי ה-NSA במשך שנים אספה בחשאי תיעוד על כמעט כל שיחות טלפון של כל אמריקאי - מי מתקשר למי, מתי השיחות הללו מבוצעות וכמה זמן הן נמשכות. מידע מסוג זה, כאשר הוא נצבר על ידי ה-NSA יום אחר יום, יכול לחשוף פרטים רגישים להפליא על חייהם והאסוציאציות של אנשים, כגון האם הם התקשרו לכומר, מטפל בהפלות, ליועצת להתמכרות או למוקד התאבדות.
+In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. מידע מסוג זה, כאשר הוא נצבר על ידי ה-NSA יום אחר יום, יכול לחשוף פרטים רגישים להפליא על חייהם והאסוציאציות של אנשים, כגון האם הם התקשרו לכומר, מטפל בהפלות, ליועצת להתמכרות או למוקד התאבדות.
 
 </div>
 

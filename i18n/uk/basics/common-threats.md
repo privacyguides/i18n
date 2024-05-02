@@ -126,7 +126,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-Після викриттів [Едвардом Сноуденом таких урядових програм як [PRISM](https://uk.wikipedia.org/wiki/PRISM_(розвідувальна_програма)) і [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)], співробітники розвідки також визнали, що АНБ роками таємно збирало записи про телефонні дзвінки практично кожного американця - хто кому дзвонить, коли ці дзвінки здійснюються і як довго вони тривають. Така інформація, яку АНБ збирає день за днем, може розкрити неймовірно делікатні подробиці про життя людей і їхні зв'язки, наприклад, чи телефонували вони до пастора, лікаря, який робить аборти, консультанта з питань залежності або на гарячу лінію для самогубців.
+In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. Така інформація, яку АНБ збирає день за днем, може розкрити неймовірно делікатні подробиці про життя людей і їхні зв'язки, наприклад, чи телефонували вони до пастора, лікаря, який робить аборти, консультанта з питань залежності або на гарячу лінію для самогубців.
 
 </div>
 

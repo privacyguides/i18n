@@ -126,7 +126,7 @@ Regeringar rättfärdigar ofta massövervakningsprogram som nödvändiga medel f
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-Med anledning av [Edward Snowdens avslöjanden om regeringsprogram som [PRISM](https://en.wikipedia.org/wiki/PRISM) och [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)] erkände underrättelsetjänstemännen också att NSA i åratal i hemlighet hade samlat in uppgifter om praktiskt taget alla amerikaners telefonsamtal - vem som ringer till vem, när samtalen görs och hur länge de varar. Den här typen av information kan, när den samlas in av NSA dag efter dag, avslöja otroligt känsliga detaljer om människors liv och umgänge, t. ex. om de har ringt till en pastor, en abortvårdare, en missbruksrådgivare eller en självmordshotline.
+In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. Den här typen av information kan, när den samlas in av NSA dag efter dag, avslöja otroligt känsliga detaljer om människors liv och umgänge, t. ex. om de har ringt till en pastor, en abortvårdare, en missbruksrådgivare eller en självmordshotline.
 
 </div>
 

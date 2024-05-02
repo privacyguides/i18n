@@ -126,7 +126,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-정보 당국은 에드워드 스노든의 정부 프로그램([PRISM](https://en.wikipedia.org/wiki/PRISM), [Upstream](https://en.wikipedia.org/wiki/Upstream_collection) 등) 폭로에 직면하여, NSA가 수년간 사실상 모든 미국인의 전화 통화 기록(누가 누구랑 통화하는지, 언제 통화하는지, 얼마나 오래 통화하는지)을 비밀리에 수집해 왔음을 인정했습니다. NSA가 이러한 정보를 매일 수집할 경우, 어떤 사람이 목사, 낙태 시술자, 중독 상담사, 자살 예방 상담사와 전화했는지 등 사람들의 삶과 관계성에 대해 극도로 민감한 정보를 파악할 수 있습니다.
+In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. NSA가 이러한 정보를 매일 수집할 경우, 어떤 사람이 목사, 낙태 시술자, 중독 상담사, 자살 예방 상담사와 전화했는지 등 사람들의 삶과 관계성에 대해 극도로 민감한 정보를 파악할 수 있습니다.
 
 </div>
 

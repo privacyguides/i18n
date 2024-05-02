@@ -73,8 +73,6 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 </div>
 
-Notesnook solo permite el cifrado local de notas con la función [private vault](https://help.notesnook.com/lock-notes-with-private-vault) en su plan pro, de lo contrario tus notas no se almacenan cifradas en tu dispositivo. Tus notas se cifran siempre antes de sincronizarse con sus servidores mediante claves a las que solo tú tienes acceso.
-
 ### Joplin
 
 <div class="admonition recommendation" markdown>

@@ -126,7 +126,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-面对[爱德华-斯诺登披露的政府项目，如 [PRISM]（https://en.wikipedia.org/wiki/PRISM）和 [Upstream]（https://en.wikipedia.org/wiki/Upstream_collection）]，情报官员也承认，国家安全局多年来一直在秘密收集几乎每个美国人的电话记录--谁在给谁打电话，这些电话是什么时候打的，以及它们持续多长时间。 你应该考虑你的对手能观察到网络的哪些方面，以及你的行动是否有合理的可否认性。
+In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. 你应该考虑你的对手能观察到网络的哪些方面，以及你的行动是否有合理的可否认性。
 
 </div>
 

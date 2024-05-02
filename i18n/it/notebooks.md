@@ -73,8 +73,6 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 </div>
 
-Notesnook consente la crittografia delle note locali solo con la funzione [private vault](https://help.notesnook.com/lock-notes-with-private-vault) sul loro piano pro, altrimenti le tue note non vengono memorizzate in modo crittografato sul tuo dispositivo. I tuoi appunti vengono sempre criptati prima di essere sincronizzati sui loro server con chiavi a cui solo tu hai accesso.
-
 ### Joplin
 
 <div class="admonition recommendation" markdown>

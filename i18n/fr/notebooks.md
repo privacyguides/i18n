@@ -73,8 +73,6 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 </div>
 
-Notesnook autorise le chiffrement de notes locales seulement avec la fonctionnalité [coffre privé](https://help.notesnook.com/lock-notes-with-private-vault) sur leur offre pro, dans les autres cas vos notes ne sont pas stockées chiffrées sur votre appareil. Vos notes sont toujours chiffrées avant d'être synchronisées avec leurs serveurs avec des clés auxquelles vous seul avez accès.
-
 ### Joplin
 
 <div class="admonition recommendation" markdown>

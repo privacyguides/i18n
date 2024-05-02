@@ -73,8 +73,6 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 </div>
 
-Notesnook 僅允許使用其付費昇級方案使用本地筆記加密[私人保管庫](https://help.notesnook.com/lock-notes-with-private-vault)功能，不然筆記則以未加密方式儲存在裝置上。 筆記本在同步到伺服器之前會使用僅您可以存取的金鑰作加密。
-
 ### Joplin
 
 <div class="admonition recommendation" markdown>

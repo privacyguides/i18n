@@ -126,7 +126,7 @@ Regeringen rechtvaardigen massasurveillanceprogramma's vaak als noodzakelijke mi
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-Het omzeilen van de censuur zelf is betrekkelijk eenvoudig, maar het feit dat je het censuursysteem omzeilt voor de censoren kan zeer problematisch zijn. Je moet nagaan welke aspecten van het netwerk jouw tegenstander kan waarnemen, en of je jouw acties kunt ontkennen.
+In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. Je moet nagaan welke aspecten van het netwerk jouw tegenstander kan waarnemen, en of je jouw acties kunt ontkennen.
 
 </div>
 
