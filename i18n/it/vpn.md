@@ -315,7 +315,7 @@ Preferiamo che i provider da noi consigliati raccolgano il minor numero di dati 
 **Caso migliore:**
 
 - Accetta più [opzioni di pagamento anonime](advanced/payments.md).
-- Non sono accettate le informazioni personali (nome utente generato automaticamente, nessun'email necessaria, etc.).
+- Non sono accettate le informazioni personali (nome utente generato automaticamente, nessun'email necessaria, ecc.).
 
 ### Sicurezza
 

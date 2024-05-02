@@ -136,7 +136,7 @@ Quando effettuiamo una ricerca DNS, generalmente è perché desideriamo accedere
 
 Il metodo più semplice per determinare l'attività di navigazione, potrebbe essere quello di esaminare gli indirizzi IP accessibili ai tuoi dispositivi. Ad esempio, se l'osservatore sa che `privacyguides.org` si trova a `198.98.54.105` e il tuo dispositivo sta richiedendo dei dati da `198.98.54.105`, è molto probabile che tu stia visitando Privacy Guides.
 
-Questo metodo è utile soltanto quando l'indirizzo IP appartiene a un server che ospita soltanto alcuni siti web. Non è molto utile se il sito è ospitato su una piattaforma condivisa (es., GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Inoltre, non è molto utile se il server è ospitato dietro un [proxy inverso](https://en.wikipedia.org/wiki/Reverse_proxy), molto comune sull'Internet moderno.
+Questo metodo è utile soltanto quando l'indirizzo IP appartiene a un server che ospita soltanto alcuni siti web. Non è molto utile se il sito è ospitato su una piattaforma condivisa (es., GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, ecc.). Inoltre, non è molto utile se il server è ospitato dietro un [proxy inverso](https://en.wikipedia.org/wiki/Reverse_proxy), molto comune sull'Internet moderno.
 
 ### Indicazione del Nome del Server (SNI)
 

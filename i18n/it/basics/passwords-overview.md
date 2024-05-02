@@ -10,9 +10,9 @@ Le password sono una parte essenziale delle nostre vite digitali quotidiane. Le 
 
 ### Utilizza password uniche per ogni servizio
 
-Immagina questo: registri un profilo con la stessa email e password di numerosi servizi online. Se uno dei fornitori di tali servizi è malintenzionto, o se il servizio subisce una violazione di dati che espone la tua password in un formato non crittografato, tutto ciò che un malintenzionato dovrà fare è provare tale combinazione di email e password su numerosi servizi popolari, fino all'ottenimento di un risultato. Non importa quanto sia forte una password, perché, ormai, è già in suo possesso.
+Immagina questo: registri un account con la stessa email e password di numerosi servizi online. Se uno dei fornitori di tali servizi è malintenzionato, o se il servizio subisce una violazione di dati che espone la tua password in un formato non crittografato, tutto ciò che un malintenzionato dovrà fare è provare tale combinazione di email e password su numerosi servizi popolari, fino all'ottenimento di un risultato. Non importa quanto forte sia quella password, poiché, ormai, è già in suo possesso.
 
-Questo fenomeno è detto [riempimento delle credenziali](https://en.wikipedia.org/wiki/Credential_stuffing) ed è uno dei metodi più comuni di compromissione dei tuoi profili, da utenti malintenzionati. Per evitarlo, assicurati di non riutilizzare mai le tue password.
+Questo fenomeno è detto [riempimento delle credenziali](https://en.wikipedia.org/wiki/Credential_stuffing) ed è uno dei metodi più comuni di compromissione dei tuoi account, da utenti malintenzionati. Per evitarlo, assicurati di non riutilizzare mai le tue password.
 
 ### Usa password generate casualmente
 

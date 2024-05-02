@@ -94,7 +94,7 @@ Proton Mail [accetta](https://proton.me/support/payment-options) contanti per po
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Proton Mail supporta l'[autenticazione a due fattori](https://proton.me/support/two-factor-authentication-2fa) TOTP e le [chiavi di sicurezza hardware](https://proton.me/support/2fa-security-key), utilizzando gli standard FIDO2 o U2F. L'utilizzo di una chiave di sicurezza hardware richiede la configurazione precedente dell'autenticazione a due fattori TOTP.
+Proton Mail supporta l'[autenticazione a due fattori](https://proton.me/support/two-factor-authentication-2fa) TOTP e le [chiavi di sicurezza hardware](https://proton.me/support/2fa-security-key), utilizzando gli standard FIDO2 o U2F. L'utilizzo di una chiave di sicurezza hardware richiede prima la configurazione dell'autenticazione a due fattori TOTP.
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 
@@ -299,7 +299,7 @@ Consideriamo queste funzionalità come importanti per poter fornire un servizio 
 
 **Miglior Caso:**
 
-- Crittografa tutti i dati del profilo (Contatti, Calendari, etc.) a riposo con crittografia ad accesso zero.
+- Crittografa tutti i dati del profilo (Contatti, Calendari, ecc.) a riposo con crittografia ad accesso zero.
 - Crittografia E2EE/PGP della webmail integrata, fornita per comodità.
 - Supporto per [WKD](https://wiki.gnupg.org/WKD) per consentire la scoperta migliorata delle chiavi pubbliche di OpenPGP tramite HTTP. Gli utenti di GnuPG possono ottenere una chiave digitando: `gpg --locate-key example_user@example.com`
 - Supporto per una casella temporanea per gli utenti esterni. Questo è utile quando desideri inviare un'email crittografata, senza inviare una copia effettiva al tuo destinatario. Queste email, solitamente, hanno una durata limitata, prima di essere eliminate automaticamente. Inoltre, non richiedono al destinatario di configurare alcuna crittografia, come OpenPGP.

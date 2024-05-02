@@ -163,7 +163,7 @@ Segue un diagramma alternativo che mostra il processo. Ogni nodo rimuove il prop
   <figcaption>Inviare e ricevere dati attraverso la rete Tor</figcaption>
 </figure>
 
-Tor consente di connetterci a un server senza che alcuna signola parte conosca l'intero percorso. Il nodo d'accesso sa chi sei, ma non dove stai andando; il nodo intermedio non sa chi sei, né dove stai andando; il nodo d'uscita sa dove stai andando, ma non chi sei. Poiché il nodo d'uscita è quello che effettua la connessione finale, il server di destinazione non conoscerà il tuo indirizzo IP.
+Tor consente di connetterci a un server senza che alcuna singola parte conosca l'intero percorso. Il nodo d'accesso sa chi sei, ma non dove stai andando; il nodo intermedio non sa chi sei, né dove stai andando; il nodo d'uscita sa dove stai andando, ma non chi sei. Poiché il nodo d'uscita è quello che effettua la connessione finale, il server di destinazione non conoscerà il tuo indirizzo IP.
 
 ## Avvertenze
 
