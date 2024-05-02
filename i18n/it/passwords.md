@@ -323,7 +323,7 @@ Queste opzioni ti consentono di gestire localmente un database di password critt
 
 ![Logo di KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** è una biforcazione di KeePassX, una conversione nativa e multipiattaforma di KeePass Password Safe, mirata a estenderla e migliorarla con nuove funzionalità e correzioni di bug, per fornire un gestore di password open source, ricco di funzionalità, multipiattaforma e moderno.
+**KeePassXC** è un fork di KeePassX, una conversione nativa e multipiattaforma di KeePass Password Safe, mirata a estenderla e migliorarla con nuove funzionalità e correzioni di bug, per fornire un gestore di password open source, ricco di funzionalità, multipiattaforma e moderno.
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
