@@ -107,13 +107,13 @@ Metapho est une visionneuse simple et propre pour les métadonnées des photos t
 
 **PrivacyBlur** est une application gratuite qui permet de brouiller les parties sensibles des photos avant de les partager en ligne.
 
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://privacyblur.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
@@ -141,10 +141,10 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 
 Elle est souvent un composant d'autres applications de suppression d'Exif et se trouve dans les dépôts de la plupart des distributions Linux.
 
-[:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://exiftool.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Code source" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>

@@ -9,7 +9,7 @@ description: Privacy Guides est le site web le plus transparent et le plus fiabl
 
 Si vous cherchez une solution spécifique à un problème, voici pour diverses catégories les outils matériels et logiciels que nous vous recommandons. Les outils de protection de la vie privée que nous recommandons sont principalement choisis pour leurs fonctionnalités de sécurité, avec une attention particulière pour les outils décentralisés et open source. Ils sont adaptés à divers modèles menaces, que vous cherchiez à vous protéger contre les programmes de surveillance de masse mondiaux et à éviter les grandes entreprises du numérique, voire à mitiger les attaques. Toutefois, vous seul êtes en mesure de déterminer ce qui répondra le mieux à vos besoins.
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+Si vous souhaitez obtenir de l'aide pour trouver quels sont les outils de protection de la vie privée et les alternatives les plus adaptés à vos besoins, lancez une discussion sur notre [forum](https://discuss.privacyguides.net) ou sur notre communauté [Matrix](https://matrix.to/#/#privacyguides:matrix.org) !
 
 Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont été choisis, ou pour connaître d'autres conseils ou astuces que nous préconisons, cliquez sur le lien « En savoir plus » dans chaque section, ou cliquez sur la recommandation pour accéder à la section correspondante de cette page.
 
@@ -79,7 +79,7 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 #### Fournisseurs de DNS
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. Nous vous recommandons de lire nos pages sur les DNS avant de choisir un fournisseur. Dans de nombreux cas, l'utilisation d'un autre fournisseur de DNS n'est pas recommandée.
+Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs DNS chiffrés basés sur différents critères tels que [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) et [Quad9](https://quad9.net) entre autres. Nous vous recommandons de lire nos pages sur les DNS avant de choisir un fournisseur. Dans de nombreux cas, l'utilisation d'un autre fournisseur de DNS n'est pas recommandée.
 
 [En savoir plus :material-arrow-right-drop-circle:](dns.md)
 
@@ -253,15 +253,15 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![Logo de Thunderbird](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
+- ![Logo d'Apple Mail](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![Logo de Canary Mail](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
+- ![Logo de FairEmail](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![Logo de GNOME Evolution](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![Logo de K-9 Mail](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
+- ![Logo de Kontact](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Logo de Mailvelope](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP dans un webmail classique)](email-clients.md#mailvelope-browser)
+- ![Logo de NeoMutt](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
@@ -272,7 +272,7 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 <details class="info" markdown>
 <summary>Chiffrement du disque du système d'exploitation</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Ces outils sont fournis avec le système d'exploitation et utilisent généralement des équipements de chiffrement matériels tels que le TPM, ce que ne font pas d'autres logiciels de chiffrement de disque comme VeraCrypt. VeraCrypt convient toujours aux disques sans système d'exploitation, comme les disques externes, en particulier les disques auxquels on peut accéder à partir de plusieurs systèmes d'exploitation.
+Pour chiffrer le disque de votre système d'exploitation, nous vous recommandons généralement d'utiliser l'outil de chiffrement fourni par votre système d'exploitation, que ce soit **BitLocker** sur Windows, **FileVault** sur macOS, ou **LUKS** sur Linux. Ces outils sont fournis avec le système d'exploitation et utilisent généralement des équipements de chiffrement matériels tels que le TPM, ce que ne font pas d'autres logiciels de chiffrement de disque comme VeraCrypt. VeraCrypt convient toujours aux disques sans système d'exploitation, comme les disques externes, en particulier les disques auxquels on peut accéder à partir de plusieurs systèmes d'exploitation.
 
 [En savoir plus :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
 
@@ -280,11 +280,11 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji loading=lazy } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
+- ![Logo de Cryptomator](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![Logo de Picocrypt](assets/img/encryption-software/picocrypt.svg){ .twemoji loading=lazy } [Picocrypt](encryption.md#picocrypt-file)
+- ![Logo de VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![Logo de VeraCrypt](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![Logo de Kryptor](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
+- ![Logo de Tomb](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
 
 </div>
 
@@ -294,10 +294,10 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 <div class="grid cards" markdown>
 
-- ![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
-- ![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
+- ![Logo de GnuPG](assets/img/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
+- ![Logo de GPG4Win](assets/img/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
+- ![Logo de GPG Suite](assets/img/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
+- ![Logo d'OpenKeychain](assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
 
 </div>
 
@@ -307,11 +307,11 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 <div class="grid cards" markdown>
 
-- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
-- ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
-- ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
-- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![Logo de Send](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
+- ![Logo d'OnionShare](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
+- ![Logo de FreedomBox](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
+- ![Logo de Nextcloud](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (auto-hébergeable)](file-sharing.md#nextcloud-client-server)
+- ![Logo de Syncthing](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
@@ -321,12 +321,12 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 <div class="grid cards" markdown>
 
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
-- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Logo de FreeTube](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, PC)](frontends.md#freetube)
+- ![Logo de Yattee](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![Logo de LibreTube](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![Logo de LibreTube](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
+- ![Logo de NewPipe](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![Logo d'Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Logo d'Invidious](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![Logo de Piped](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 
@@ -470,8 +470,8 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 <div class="grid cards" markdown>
 
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji loading=lazy }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
-- ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji loading=lazy } [OPNsense](router.md#opnsense)
+- ![Logo d'OpenWrt](assets/img/router/openwrt.svg#only-light){ .twemoji loading=lazy }![Logo d'OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
+- ![Logo d'OPNsense](assets/img/router/opnsense.svg){ .twemoji loading=lazy } [OPNsense](router.md#opnsense)
 
 </div>
 
@@ -481,13 +481,13 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 
-### Alternative Networks
+### Réseaux alternatifs
 
 <div class="grid cards" markdown>
 
-- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
-- ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
+- ![Logo d'I2P](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![Logo d'I2P](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Logo de Tor](./assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
+- ![Logo de Snowflake](assets/img/browsers/snowflake.svg#only-light){ .twemoji loading=lazy }![Logo de Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
 
@@ -497,11 +497,11 @@ These tools may provide utility for certain individuals. They provide functional
 
 <div class="grid cards" markdown>
 
-- ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
-- ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
-- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify (iOS)](device-integrity.md#iverify-ios)
+- ![Logo de MVT](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![Logo d'iMazing](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![Logo d'Auditor](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Logo d'Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![Logo de Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Logo de Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
+- ![Logo d'iVerify](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify (iOS)](device-integrity.md#iverify-ios)
 
 </div>
 

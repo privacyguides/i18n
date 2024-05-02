@@ -34,7 +34,7 @@ schema:
     name: 1Password
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
-    sameAs: https://en.wikipedia.org/wiki/1Password
+    sameAs: https://fr.wikipedia.org/wiki/1Password
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
       - Windows

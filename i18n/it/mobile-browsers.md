@@ -113,13 +113,13 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Disabilita l'UDP senza proxy** in [Gestione politica IP WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Deseleziona **Consenti ai siti di controllare se hai metodi di pagamento salvati**
-- [ ] Deseleziona **Gateway IPFS** (1)
+- [x] Seleziona **Disabilita UDP senza proxy** in [Gestione politica IP WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Rimuovi la spunta da **Consenti ai siti di controllare se hai metodi di pagamento salvati**
+- [ ] Rimuovi la spunta da **Gateway IPFS** (1)
 - [x] Seleziona **Chiudi le schede quando esci**
-- [ ] Deseleziona **Acconsenti all'analisi dei prodotto di tutela della privacy (P3A)**
-- [ ] Deseleziona **Invia automaticamente i rapporti di diagnostica**
-- [ ] Deseleziona **Invia automaticamente un ping di utilizzo giornaliero a Brave**
+- [ ] Rimuovi la spunta da **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A)**
+- [ ] Rimuovi la spunta da **Invia automaticamente i rapporti di diagnostica**
+- [ ] Rimuovi la spunta da **Invia automaticamente un ping di utilizzo giornaliero a Brave**
 
 </div>
 
@@ -137,13 +137,13 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 **Mull** è un browser Android orientato alla privacy e deblobbed, basato su Firefox. Rispetto a Firefox, offre una maggiore protezione dalle impronte digitali e disabilita la compilazione di JavaScript Just-in-Time (JIT) per una maggiore sicurezza. Inoltre, rimuove tutti gli elementi proprietari da Firefox, come la sostituzione dei riferimenti a Google Play Services.
 
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Informatica sulla privacy" }
+[:octicons-home-16: Pagina Principale](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Politica sulla Privacy" }
 [:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentazione }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Codice sorgente" }
+[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-fdroid: F-Droid](https://f-droid.org/it/packages/us.spotco.fennec_dos/)
 
@@ -154,11 +154,11 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 <div class="admonition danger" markdown>
 <p class="admonition-title">Attenzione</p>
 
-Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] a powerful security feature that protects against a malicious site performing a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-like attack to gain access to the memory of another website you have open.[^2] Chromium-based browsers like [Brave](#brave) will provide more robust protection against malicious websites.
+I browser basati su Firefox (Gecko) su Android [non dispongono](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) dell' [isolamento dei siti](https://wiki.mozilla.org/Project_Fission),[^1] una potente funzione di sicurezza che protegge da un sito dannoso che esegue un attacco simile a [Spectre](https://it.wikipedia.org/wiki/Spectre_(vulnerabilità_di_sicurezza))per accedere alla memoria di un altro sito web che hai aperto.[^2] I browser basati su Chromium come [Brave](#brave) forniscono una protezione più solida contro i siti web dannosi.
 
 </div>
 
-Attiva [F-Droid Repo](https://divestos.org/fdroid/official) di DivestOS per ricevere gli aggiornamenti direttamente dallo sviluppatore. Scaricando Mull dalla repo predefinita di F-Droid, gli aggiornamenti potrebbero ritardare di qualche giorno o più.
+Attiva il repository di DivestOS su [F-Droid](https://divestos.org/fdroid/official) per ricevere gli aggiornamenti direttamente dallo sviluppatore. Scaricando Mull dal repository predefinito di F-Droid, i tuoi aggiornamenti potrebbero ritardare di qualche giorno o più.
 
 Mull abilita molte delle funzionalità sviluppate dal [progetto Tor uplift](https://wiki.mozilla.org/Security/Tor_Uplift) utilizzando le preferenze di [Arkenfox](desktop-browsers.md#arkenfox-advanced). I blob proprietari vengono rimossi dal codice di Mozilla utilizzando gli script sviluppati per Fennec F-Droid.
 

@@ -97,19 +97,19 @@ Android 13:
 
 Un'app potrebbe richiedere un'autorizzazione per una sua funzionalità specifica. Ad esempio, ogni app capace di scansionare i codici QR, richiederà l'autorizzazione all'utilizzo della fotocamera. Alcune app possono richiedere più autorizzazioni di quelle necessarie.
 
-[Exodus](https://exodus-privacy.eu.org) can be useful when comparing apps that have similar purposes. Se un'app richiede molte autorizzazioni e contiene molti annunci e analisi, è probabilmente un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contarne il totale** e supporre che tutte le voci elencate siano uguali.
+[Exodus](https://exodus-privacy.eu.org) può essere utile per confrontare applicazioni con scopi simili. Se un'app richiede molte autorizzazioni e contiene molti annunci e analisi, è probabilmente un brutto segno. Consigliamo di esaminare i singoli tracker e di leggerne le descrizioni piuttosto che limitarsi a **contarne il totale** e supporre che tutte le voci elencate siano uguali.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-Se un'app è prevalentemente un servizio basato su web, il tracciamento potrebbe verificarsi dal lato del server. [Facebook](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.katana/latest) shows "no trackers" but certainly does track users' interests and behavior across the site. Le app potrebbero eludere il rilevamento non utilizzando le librerie di codice standard prodotte dall'industria pubblicitaria, sebbene sia improbabile.
+Se un'app è prevalentemente un servizio basato su web, il tracciamento potrebbe verificarsi dal lato del server. [Facebook](https://reports.exodus-privacy.eu.org/it/reports/com.facebook.katana/latest/) mostra "nessun tracker", ma sicuramente traccia gli interessi e il comportamento degli utenti sul sito. Le app potrebbero eludere il rilevamento non utilizzando le librerie di codice standard prodotte dall'industria pubblicitaria, sebbene sia improbabile.
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). Questa libreria include [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) che può fornire [notifiche push](https://en.wikipedia.org/wiki/Push_technology) nelle app. Questo [è il caso] (https://fosstodon.org/@bitwarden/109636825700482007) di Bitwarden. Ciò non significa che Bitwarden sta utilizzando tutte le funzionalità analitiche fornite da Google Firebase Analytics.
+Le applicazioni che rispettano la privacy come [Bitwarden](https://reports.exodus-privacy.eu.org/it/reports/com.x8bit.bitwarden/latest/) possono mostrare alcuni tracker come [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/it/trackers/49/). Questa libreria include [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) che può fornire [notifiche push](https://en.wikipedia.org/wiki/Push_technology) nelle app. Questo [è il caso] (https://fosstodon.org/@bitwarden/109636825700482007) di Bitwarden. Ciò non significa che Bitwarden sta utilizzando tutte le funzionalità analitiche fornite da Google Firebase Analytics.
 
 </div>
 
