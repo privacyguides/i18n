@@ -83,9 +83,9 @@ schema:
 
 Il **Progetto Open Source di Android** è un sistema operativo mobile e open source sviluppato da Google, utilizzato da gran parte dei dispositivi mobili al mondo. Gran parte dei telefonini venduti con Android sono modificati per includere integrazioni e app invasive come Google Play Services, quindi, puoi migliorare significativamente la tua privacy sul tuo dispositivo mobile, sostituendo l'installazione predefinita del tuo telefono con una versione di Android priva di tali funzionalità invasive.
 
-[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com){ .card-link title=Pagina Principale }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentazione}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject){ .card-link title="Codice Sorgente" }
 
 Questi sono i sistemi operativi, i dispositivi e le app Android che consigliamo, per massimizzare la sicurezza e la privacy del tuo dispositivo mobile. Per scoprire di più su Android:
 
@@ -113,17 +113,17 @@ I dispositivi al termine della propria vita (come i dispositivi a "supporto este
 
 GrapheneOS fornisce maggiore [sicurezza] (https://it.wikipedia.org/wiki/Hardening) e miglioramenti della privacy. Dispone di un [allocatore di memoria rafforzato](https://github.com/GrapheneOS/hardened_malloc), autorizzazioni di rete e dei sensori e varie altre [funzionalità di sicurezza](https://grapheneos.org/features). Inoltre, dispone di aggiornamenti completi del firmware e build firmate, quindi, l'avvio verificato è pienamente supportato.
 
-[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentazione}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuisci }
 
 </div>
 
-GrapheneOS supporta [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), che esegue [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) in piena modalità sandbox, come ogni altra app regolare. This means you can take advantage of most Google Play Services, such as [push notifications](https://firebase.google.com/docs/cloud-messaging), while giving you full control over their permissions and access, and while containing them to a specific [work profile](os/android-overview.md#work-profile) or [user profile](os/android-overview.md#user-profiles) of your choice.
+GrapheneOS supporta [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), che esegue [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) in piena modalità sandbox, come ogni altra app regolare. Ciò significa che puoi sfruttare la maggior parte dei Google Play Services, come le [notifiche push](https://firebase.google.com/docs/cloud-messaging), offrendoti il pieno controllo delle autorizzazioni e dell'accesso, contenendoli in un [profilo di lavoro](os/android-overview.md#work-profile) specifico o in un [profilo utente](os/android-overview.md#user-profiles) di tua scelta.
 
-Google Pixel phones are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
+I telefoni Google Pixel sono gli unici dispositivi che attualmente soddisfano i [requisiti di sicurezza hardware](https://grapheneos.org/faq#future-devices) di GrapheneOS.
 
 [Perché consigliamo GrapheneOS, rispetto a CalyxOS :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos ""){.md-button}
 
@@ -131,10 +131,10 @@ Google Pixel phones are the only devices that currently meet GrapheneOS's [hardw
 
 <div class="admonition recommendation" markdown>
 
-![DivestOS logo](assets/img/android/divestos.svg){ align=right }
+![Logo di DivestOS](assets/img/android/divestos.svg){ align=right }
 
-**DivestOS** is a soft-fork of [LineageOS](https://lineageos.org).
-DivestOS eredita molti [dispositivi supportati](https://divestos.org/index.php?page=devices&base=LineageOS) da LineageOS. Dispone di build firmate, rendendo possibile l'[avvio verificato](https://source.android.com/security/verifiedboot) su alcuni dispositivi non Pixel.
+**DivestOS** è un soft-fork di [LineageOS](https://lineageos.org).
+DivestOS eredita molti [dispositivi supportati](https://divestos.org/index.php?page=devices&base=LineageOS) da LineageOS. Dispone di build firmate, rendendo possibile l'[avvio verificato](https://source.android.com/docs/security/features/verifiedboot?hl=it) su alcuni dispositivi non Pixel.
 
 [:octicons-home-16: Home](https://divestos.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Servizio Onion" }
@@ -172,7 +172,7 @@ Altri consigli sui dispositivi Android e sulla compatibilità del sistema operat
 
 - Non acquistare dispositivi che hanno raggiunto o sono prossimi al termine della propria vita, gli aggiornamenti del firmware aggiuntivi devono essere forniti dal produttore.
 - Non acquistare telefoni con LineageOS o /e/ OS preinstallati o qualsiasi dispositivo Android privo dell'adeguato supporto all'[Avvio Verificato](https://source.android.com/security/verifiedboot) e degli aggiornamenti del firmware. Inoltre, questi dispositivi non ti consentono di verificare se sono stati manomessi.
-- In breve, se un dispositivo o una distribuzione Android non sono elencati qui, probabilmente c'è una buona ragione. Check out our [forum](https://discuss.privacyguides.net) to find details!
+- In breve, se un dispositivo o una distribuzione Android non sono elencati qui, probabilmente c'è una buona ragione. Dai un'occhiata al nostro [forum](https://discuss.privacyguides.net) per trovare i dettagli!
 
 ### Google Pixel
 

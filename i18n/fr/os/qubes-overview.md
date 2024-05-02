@@ -8,7 +8,7 @@ description: Qubes est un système d'exploitation conçu pour isoler les applica
 
 ## Comment fonctionne Qubes OS ?
 
-Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Les Qubes sont créés à partir de modèles, ceux par défaut étant pour Fedora, Debian et [Whonix](../desktop.md#whonix). Qubes OS vous permet de créer des *qubes* [jetables](https://qubes-os.org/doc/how-to-use-disposables) à usage unique.
+Les qubes utilisent la [compartimentation](https://qubes-os.org/intro) pour assurer la sécurité du système. Les Qubes sont créés à partir de modèles, ceux par défaut étant pour Fedora, Debian et [Whonix](../desktop.md#whonix). Qubes OS vous permet de créer des *qubes* [jetables](https://qubes-os.org/doc/how-to-use-disposables) à usage unique.
 
 <details class="note" markdown>
 <summary>Le terme <em>qubes</em> est progressivement mis à jour afin d'éviter de les désigner comme des "machines virtuelles".</summary>
@@ -33,7 +33,7 @@ Qubes OS utilise une VM Web [dom0](https://wiki.xenproject.org/wiki/Dom0) pour c
 
 ### Copier et coller du texte
 
-You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-text) using `qvm-copy-to-vm` or the below instructions:
+Vous pouvez [copier et coller du texte](https://qubes-os.org/doc/how-to-copy-and-paste-text) en utilisant `qvm-copy-to-vm` ou les instructions ci-dessous :
 
 1. Appuyez sur **Ctrl+C** pour indiquer au *qube* dans lequel vous vous trouvez que vous souhaitez copier quelque chose.
 2. Appuyez sur **Ctrl+Maj+C** pour demander au *qube* de mettre ce tampon à la disposition du presse-papiers global.
@@ -47,13 +47,13 @@ Pour copier et coller des fichiers et des répertoires (dossiers) d'un *qube* à
 <details class="note" markdown>
 <summary>Les qubes n'ont pas leur propre système de fichiers.</summary>
 
-You can [copy and move files](https://qubes-os.org/doc/how-to-copy-and-move-files) between *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. When you run a *qube*, it does not have a persistent filesystem. Vous pouvez créer et supprimer des fichiers, mais ces modifications sont éphémères.
+Vous pouvez [copier et déplacer des fichiers](https://qubes-os.org/doc/how-to-copy-and-move-files) entre les *qubes*. Ce faisant, les changements ne sont pas immédiats et peuvent être facilement annulés en cas d'accident. Lorsque vous exécutez un *qube*, il ne dispose pas d'un système de fichiers persistant. Vous pouvez créer et supprimer des fichiers, mais ces modifications sont éphémères.
 
 </details>
 
 ### Interactions inter-VM
 
-The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes which allows communication between domains. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
+Le [framework qrexec](https://qubes-os.org/doc/qrexec) est une partie essentielle de Qubes qui permet la communication entre les domaines. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
 
 ## Se connecter à Tor via un VPN
 

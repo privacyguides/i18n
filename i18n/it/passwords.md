@@ -270,9 +270,9 @@ Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe pe
 
 <div class="admonition recommendation" markdown>
 
-![Logo Psono](assets/img/password-management/psono.svg){ align=right }
+![Logo di Psono](assets/img/password-management/psono.svg){ align=right }
 
-**Psono** è un gestore di password gratuito e open-source sviluppato in Germania, con particolare attenzione alla gestione delle password per i team. Psono supporta la condivisione sicura di password, file, segnalibri ed email. Tutti i codici segreti sono protetti da una password principale.
+**Psono** è un gestore di password gratuito e open source dalla Germania, con particolare attenzione alla gestione delle password per i team. Psono supporta la condivisione sicura di password, file, segnalibri ed email. Tutti i codici segreti sono protetti da una password principale.
 
 [:octicons-home-16: Pagina Home](https://psono.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Politica sulla privacy" }

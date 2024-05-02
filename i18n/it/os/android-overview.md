@@ -145,7 +145,7 @@ Se utilizzi un dispositivo provvisto dei servizi di Google, il tuo sistema opera
 
 ### Programma di protezione avanzata
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). È disponibile gratuitamente a costo zero per chiunque possieda due o più chiavi di sicurezza hardware con supporto a [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
+Se hai un account Google, ti suggeriamo di iscriverti al [Programma di protezione avanzata](https://landing.google.com/advancedprotection). È disponibile gratuitamente a costo zero per chiunque possieda due o più chiavi di sicurezza hardware con supporto a [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
 
 Il Programma di Protezione Avanzata fornisce un migliore monitoraggio delle minacce, e consente:
 
@@ -158,7 +158,7 @@ Il Programma di Protezione Avanzata fornisce un migliore monitoraggio delle mina
  If you use non-sandboxed Google Play Services (common on stock operating systems), the Advanced Protection Program also comes with [additional benefits](https://support.google.com/accounts/answer/9764949) such as:
 
 - Non permette l'installazione di app al di fuori del Google Play Store, dell'app store del fornitore del sistema operativo o tramite [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
-- Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
+- Scansione automatica obbligatoria del dispositivo con [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Avviso sulle applicazioni non verificate
 
 ### Aggiornamenti di Sistema di Google Play

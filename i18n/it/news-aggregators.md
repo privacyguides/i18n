@@ -143,7 +143,7 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 
 ![Logo di Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** è un lettore di feed RSS/Atom per la console di testo. È una biforcazione attivamente mantenuta di [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). È molto leggera e ideale per l'utilizzo tramite [Secure Shell](https://it.wikipedia.org/wiki/Secure_Shell).
+**Newsboat** è un lettore di feed RSS/Atom per la console di testo. È un fork attivamente mantenuto di [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). È molto leggera e ideale per l'utilizzo tramite [Secure Shell](https://it.wikipedia.org/wiki/Secure_Shell).
 
 [:octicons-home-16: Home](https://newsboat.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentazione}

@@ -42,9 +42,9 @@ Su Linux, esiste uno strumento grafico di terze parti [Metadata Cleaner](https:/
 
 <div class="admonition recommendation" markdown>
 
-![Logo ExifEraser](assets/img/data-redaction/exiferaser.svg){ align=right }
+![Logo di ExifEraser](assets/img/data-redaction/exiferaser.svg){ align=right }
 
-**ExifEraser** è un'applicazione moderna e senza permessi per la cancellazione dei metadati delle immagini per Android.
+**ExifEraser** è un'applicazione moderna e priva di permessi, per cancellare i metadati delle immagini, per Android.
 
 Attualmente supporta file JPEG, PNG e WebP.
 
@@ -74,7 +74,7 @@ Dopo l'elaborazione delle immagini, ExifEraser fornisce un rapporto completo su 
 L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nello specifico:
 
 - È possibile condividere un'immagine da un'altra applicazione con ExifEraser.
-- Attraverso l'applicazione stessa, è possibile selezionare una singola immagine, più immagini contemporaneamente o persino un'intera directory.
+- Tramite l'app stessa, puoi selezionare un'immagine singola, più immagini o persino un'intera cartella.
 - È dotata di un'opzione "Fotocamera" che utilizza l'app fotocamera del sistema operativo per scattare una foto e poi ne rimuove i metadati.
 - Consente di trascinare le foto da un'altra applicazione in ExifEraser quando entrambe sono aperte in modalità split-screen.
 - Infine, consente di incollare un'immagine dagli appunti.
