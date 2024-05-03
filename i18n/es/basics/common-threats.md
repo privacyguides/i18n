@@ -16,7 +16,7 @@ En términos generales, clasificamos nuestras recomendaciones en las [amenazas](
 - <span class="pg-green">:material-account-search: Exposición pública</span> - Limitar la información sobre ti que es accesible en línea, para los motores de búsqueda o el público en general.
 - <span class="pg-blue-gray">:material-close-outline: Censura</span> - Evitar el acceso censurado a la información o ser censurado uno mismo al hablar en línea.
 
-Algunas de estas amenazas pueden ser más importantes para ti que otras, dependiendo de tus preocupaciones específicas. Por ejemplo, un desarrollador de software con acceso a información importante o crítica podría estar preocupado por los <span class="pg-viridian">:material-package-variant-closed-remove: ataques a la cadena de suministros</span> y los <span class="pg-red">:material-target-account: ataques dirigidos</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Del mismo modo, muchas personas pueden estar preocupadas principalmente por la <span class="pg-green">:material-account-search: Exposición pública</span> de sus datos personales, pero aún así deben tener cuidado con los problemas centrados en la seguridad, como los <span class="pg-orange">:material-bug-outline: Ataques pasivos</span>-como el malware que afecta a sus dispositivos.
+Algunas de estas amenazas pueden ser más importantes para ti que otras, dependiendo de tus preocupaciones específicas. Por ejemplo, un desarrollador de software con acceso a información importante o crítica podría estar preocupado por los <span class="pg-viridian">:material-package-variant-closed-remove: ataques a la cadena de suministros</span> y los <span class="pg-red">:material-target-account: ataques dirigidos</span>. Es probable que ellos quieran protejer sus datos personales de ser barridos en programas de <span class="pg-blue">:material-eye-outline:Espionaje Masivo</span>. Del mismo modo, muchas personas pueden estar preocupadas principalmente por la <span class="pg-green">:material-account-search: Exposición pública</span> de sus datos personales, pero aún así deben tener cuidado con los problemas centrados en la seguridad, como los <span class="pg-orange">:material-bug-outline: Ataques pasivos</span>-como el malware que afecta a sus dispositivos.
 
 ## Anonimato vs. Privacidad
 
@@ -58,18 +58,18 @@ Por su diseño, los **navegadores web**, los **clientes de correo electrónico**
 
 Si te preocupan los **ataques físicos** deberías utilizar un sistema operativo con una implementación de arranque seguro verificado, como Android, iOS, macOS o [Windows (con TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). También deberías asegurarte de que tu disco esté encriptado y de que el sistema operativo utiliza un TPM o Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) o [Element](https://developers.google.com/android/security/android-ready-se) para limitar los intentos de introducir la frase de contraseña de encriptación. Deberías evitar compartir tu ordenador con personas que no sean de tu confianza, ya que la mayoría de los sistemas operativos de escritorio no cifran los datos por separado para cada usuario.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: Ataques a la cadena de suministro</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+Los ataques dirigidos a la cadena de suministro suelen ser una forma de <span class="pg-red">:material-target-account:ataques dirigidos</span> a negocios, gobiernos y activistas, aunque también pueden terminar comprometiendo al público.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Ejemplo</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+Un ejemplo importante de esto sucedió en 2017 cuando M.E.Doc, un software de contabilidad popular en Ucrania, fue infectado con el virus *NotPetya*, que terminó infectando con un ransonware a quienes descargaron el programa. NotPetya es un ataque de ransomware que ha impactado a 2000+ compañías en varios países y se encuentra basado en la vulnerabilidad *EternalBlue* que fue desarrollada por la NSA para atacar computadoras con Windows a través de la red.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+Hay algunas maneras de realizar este ataque:
 
 1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
 2. A developer may be coerced by an outside party to add malicious code.
