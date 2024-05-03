@@ -69,10 +69,7 @@ Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
 **Mullvad Browser** is een versie van [Tor Browser](tor.md#tor-browser) met zonder Tor netwerk integraties, gericht op het aanbieden van Tor Browser's anti-vingerafdruk browser technologieën aan VPN gebruikers. Het is ontwikkeld door het Tor Project en gedistribueerd door [Mullvad](vpn.md#mullvad), en vereist **niet** het gebruik van Mullvad's VPN.
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary } [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" } [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title=Documentation} [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -85,7 +82,7 @@ Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
 </div>
 
-Net als [Tor Browser](tor.md), is Mullvad Browser ontworpen om fingerprinting te voorkomen door jouw browser fingerprint identiek te maken aan alle andere Mullvad Browser gebruikers, en het bevat standaard instellingen en extensies die automatisch worden geconfigureerd door de standaard beveiligingsniveaus: *Standaard*, *Veiliger* en *Veiligst*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). Andere wijzigingen zouden jouw vingerafdruk uniek maken, wat het doel van het gebruik van deze browser tenietdoet. Als je jouw browser zwaarder wilt configureren en fingerprinting voor jou geen probleem is, raden wij in plaats daarvan [Firefox](#firefox) aan.
+Net als [Tor Browser](tor.md), is Mullvad Browser ontworpen om fingerprinting te voorkomen door jouw browser fingerprint identiek te maken aan alle andere Mullvad Browser gebruikers, en het bevat standaard instellingen en extensies die automatisch worden geconfigureerd door de standaard beveiligingsniveaus: *Standaard*, *Veiliger* en *Veiligst*. Daarom is het noodzakelijk dat u de browser helemaal niet aanpast buiten het aanpassen van de standaard [beveiligingsniveaus](https://tb-manual.torproject.org/security-settings). Andere wijzigingen zouden jouw vingerafdruk uniek maken, wat het doel van het gebruik van deze browser tenietdoet. Als je jouw browser zwaarder wilt configureren en fingerprinting voor jou geen probleem is, raden wij in plaats daarvan [Firefox](#firefox) aan.
 
 ### Anti-Fingerprinting
 
@@ -95,7 +92,7 @@ Net als [Tor Browser](tor.md), is Mullvad Browser ontworpen om fingerprinting te
 
 Denk eraan dat je Mullvad Browser kunt gebruiken met elke VPN-provider, maar dat andere mensen op die VPN ook Mullvad Browser moeten gebruiken om deze "menigte" te laten bestaan, iets wat waarschijnlijker is bij Mullvad VPN in vergelijking met andere providers, vooral zo kort na de lancering van Mullvad Browser. Mullvad Browser heeft geen ingebouwde VPN-connectiviteit, noch controleert het of je een VPN gebruikt voordat je gaat browsen; jouw VPN-verbinding moet apart worden geconfigureerd en beheerd.
 
-Mullvad Browser wordt geleverd met de *uBlock Origin* en *NoScript* browserextensies vooraf geïnstalleerd. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. Het wordt ook vooraf geïnstalleerd met de Mullvad-browserextensie, die *kan* veilig worden verwijderd zonder jouw browservingerafdruk te beïnvloeden als je dat wilt, maar is ook veilig om te bewaren, zelfs als je geen Mullvad VPN gebruikt.
+Mullvad Browser wordt geleverd met de *uBlock Origin* en *NoScript* browserextensies vooraf geïnstalleerd. Hoewel we het toevoegen van *extra* [browserextensies](browser-extensions.md) meestal afraden, mogen deze extensies die vooraf zijn geïnstalleerd met de browser **niet** worden verwijderd of geconfigureerd buiten hun standaardwaarden, omdat dit uw browser fingerprint duidelijk zou onderscheiden van andere gebruikers van Mullvad Browser. Het wordt ook vooraf geïnstalleerd met de Mullvad-browserextensie, die *kan* veilig worden verwijderd zonder jouw browservingerafdruk te beïnvloeden als je dat wilt, maar is ook veilig om te bewaren, zelfs als je geen Mullvad VPN gebruikt.
 
 ### Private Browsing Mode
 
@@ -105,7 +102,7 @@ Dit is nodig om geavanceerde vormen van tracking te voorkomen, maar gaat wel ten
 
 ### Mullvad Leta
 
-Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekmachine](search-engines.md), maar het komt ook voorgeïnstalleerd met **Mullvad Leta**, een zoekmachine die een actief Mullvad VPN-abonnement vereist om toegang te krijgen. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. Daarom raden wij het gebruik van Mullvad Leta af, ook al verzamelt Mullvad zeer weinig informatie over hun VPN-abonnees.
+Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekmachine](search-engines.md), maar het komt ook voorgeïnstalleerd met **Mullvad Leta**, een zoekmachine die een actief Mullvad VPN-abonnement vereist om toegang te krijgen. Mullvad Leta raadpleegt de betaalde zoek API van Google direct en is daarom beperkt tot het betalen van abonnees. Door deze beperking is het echter mogelijk voor Mullvad om zoekopdrachten en Mullvad VPN-accounts te correleren. Daarom raden wij het gebruik van Mullvad Leta af, ook al verzamelt Mullvad zeer weinig informatie over hun VPN-abonnees.
 
 ## Firefox
 
@@ -115,11 +112,7 @@ Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekma
 
 **Firefox** biedt krachtige privacy-instellingen zoals [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), die kunnen helpen bij het blokkeren van verschillende [soorten tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary } [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" } [:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation} [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" } [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -134,9 +127,9 @@ Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekma
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Waarschuwing</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox voegt een uniek [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) toe aan downloads vanaf Mozilla's website en gebruikt telemetrie in Firefox om het token te verzenden. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
