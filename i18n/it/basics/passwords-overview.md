@@ -1,5 +1,5 @@
 ---
-title: "Introduzione alle password"
+title: "Introduzione alle Password"
 icon: 'material/form-textbox-password'
 description: Ecco alcuni consigli e trucchi su come creare le password più forti e mantenere sicuri i tuoi profili.
 ---
