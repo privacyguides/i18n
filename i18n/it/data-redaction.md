@@ -125,7 +125,7 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-Non dovresti **mai** utilizzare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri censurare il testo di un'immagine, disegna un riquadro sopra di esso. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
+Non dovresti **mai** utilizzare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri censurare il testo in un'immagine, disegnaci un riquadro sopra di esso. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 </div>
 
