@@ -13,25 +13,25 @@ I calendari contengono alcuni dei tuoi dati più sensibili; utilizza prodotti ch
 
 ![Logo di Tuta](assets/img/calendario/tuta.svg){ align=right }
 
-**Tuta** offre un calendario gratuito e criptato su tutte le loro piattaforme supportate. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** offre un calendario gratuito e criptato su tutte le loro piattaforme supportate. Le caratteristiche includono: E2EE automatica di tutti i dati, funzioni di condivisione, importazione/esportazione, autenticazione a più fattori e [altro](https://tuta.com/it/calendar-app-comparison).
 
 Calendari multipli e funzionalità di condivisione estese sono limitate agli abbonati a pagamento.
 
-[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://tuta.com/it/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/it/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://tuta.com/it/support){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://tuta.com/it/community){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/tuta-encrypted-email-app/id922429609)
+- [:simple-windows11: Windows](https://tuta.com/it/blog/desktop-clients/)
+- [:simple-apple: macOS](https://tuta.com/it/blog/desktop-clients/)
+- [:simple-linux: Linux](https://tuta.com/it/blog/desktop-clients/)
+- [:simple-flathub: Flathub](https://flathub.org/it/apps/com.tutanota.Tutanota)
 - [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
@@ -44,18 +44,18 @@ Calendari multipli e funzionalità di condivisione estese sono limitate agli abb
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** è un servizio di calendario crittografato disponibile per i membri Proton, tramite web o client mobile. Le caratteristiche includono: E2EE automatico di tutti i dati, funzioni di condivisione, funzionalità di importazione/esportazione e [altre funzionalità](https://proton.me/support/proton-calendar-guide). Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Anche la funzionalità di condivisione estesa è limitata agli abbonati.
+**Proton Calendar** è un servizio di calendario crittografato disponibile per i membri Proton, tramite web o client mobile. Le caratteristiche includono: E2EE automatica di tutti i dati, funzioni di condivisione, importazione/esportazione e [altre funzionalità](https://proton.me/support/proton-calendar-guide). Gli utenti con il piano gratuito hanno accesso a 3 calendari, mentre quelli a pagamento possono creare fino a 25 calendari. Anche la funzionalità di condivisione estesa è limitata agli abbonati.
 
-[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://proton.me/it/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1514709943)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/proton-calendar-agenda-sicura/id1514709943)
 - [:octicons-browser-16: Web](https://calendar.proton.me)
 
 </details>

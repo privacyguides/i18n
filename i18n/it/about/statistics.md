@@ -1,10 +1,10 @@
 ---
-title: Traffic Statistics
+title: Statistiche sul traffico
 ---
 
 <!-- markdownlint-disable MD051 -->
 
-We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below. With this process:
+We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below. Con questo processo:
 
 - Your information is never shared with a third-party, it stays on servers we control
 - Your personal data is never saved, we only collect data in aggregate
