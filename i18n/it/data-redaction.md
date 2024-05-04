@@ -87,13 +87,13 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 
 **Metapho** è un visualizzatore semplice e pulito per i metadati delle foto, quali data, nome del file, dimensioni, modello della fotocamera, velocità dell'otturatore e posizione.
 
-[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Pagina Principale](https://zininworks.com/metapho){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Politica sulla Privacy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/metapho/id914457352)
 
 </details>
 
@@ -107,16 +107,16 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 
 **PrivacyBlur** è un'app gratuita che consente di sfocare le parti sensibili delle immagini, prima di condividerle online.
 
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://privacyblur.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/privacyblur/id1536274106)
 
 </details>
 

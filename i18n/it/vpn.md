@@ -110,7 +110,7 @@ Oltre a fornire file di configurazione OpenVPN standard, Proton VPN dispone di c
 
 #### :material-information-outline:{ .pg-blue } Note aggiuntive
 
-Proton VPN clients support two factor authentication on all platforms. Proton VPN ha i propri server e datacenter in Svizzera, Islanda e Svezia. Offrono il blocco dei contenuti e il blocco di malware noti con il loro servizio DNS. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+I client VPN di Proton supportano l'autenticazione a due fattori su tutte le piattaforme. Proton VPN ha i propri server e datacenter in Svizzera, Islanda e Svezia. Offrono il blocco dei contenuti e il blocco di malware noti con il loro servizio DNS. Inoltre, Proton VPN offre anche server "Tor" che ti consentono di connetterti facilmente ai siti onion, ma consigliamo comunque di utilizzare [il Tor Browser ufficiale](tor.md#tor-browser) per questo scopo.
 
 ##### :material-alert-outline:{ .pg-orange } La funzione Killswitch non funziona sui Mac basati su Intel
 
@@ -122,7 +122,7 @@ Arresti anomali del sistema [potrebbero verificarsi](https://protonvpn.com/suppo
 
 ![Logo di IVPN](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** è un altro fornitore di VPN premium, in operazione dal 2009. IVPN is based in Gibraltar and does not offer a free trial.
+**IVPN** è un altro fornitore di VPN premium, in operazione dal 2009. IVPN ha sede a Gibilterra e non offre una prova gratuita.
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Informativa sulla Privacy" }
@@ -188,7 +188,7 @@ Oltre a fornire file di configurazione OpenVPN standard, IVPN dispone di client 
 
 #### :material-information-outline:{ .pg-blue } Note aggiuntive
 
-IVPN clients support two factor authentication. Inoltre, IVPN fornisce la funzionaalità "[AntiTracker](https://ivpn.net/antitracker)", che blocca le reti e tracker pubblicitari dal livello della rete.
+I client di IVPN supportano l'autenticazione a due fattori. Inoltre, IVPN fornisce la funzionaalità "[AntiTracker](https://ivpn.net/antitracker)", che blocca le reti e tracker pubblicitari dal livello della rete.
 
 ### Mullvad
 
@@ -196,7 +196,7 @@ IVPN clients support two factor authentication. Inoltre, IVPN fornisce la funzio
 
 ![Logo di Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** è una VPN veloce ed economica con una grande attenzione alla trasparenza e alla sicurezza. Sono operativi dal **2009**. Mullvad is based in Sweden and does not offer a free trial.
+**Mullvad** è una VPN veloce ed economica con una grande attenzione alla trasparenza e alla sicurezza. Sono operativi dal **2009**. Mullvad ha sede in Svezia e non offre una prova gratuita.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servizio Onion" }
