@@ -4,13 +4,13 @@ title: Statistiche sul traffico
 
 <!-- markdownlint-disable MD051 -->
 
-We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below. Con questo processo:
+Abbiamo fatto self-host di [Umami](https://umami.is) per creare una bella visualizzazione delle nostre statistiche di traffico, che sono pubbliche al link sottostante. Con questo processo:
 
-- Your information is never shared with a third-party, it stays on servers we control
-- Your personal data is never saved, we only collect data in aggregate
-- No client-side JavaScript is required
+- Le tue informazioni non vengono mai condivise con terzi e rimangono su server da noi controllati
+- I tuoi dati personali non vengono mai salvati, raccogliamo dati solo in forma aggregata
+- Non è richiesto JavaScript lato client
 
-Because of these facts, keep in mind our statistics may be inaccurate. It is a useful tool to compare different dates with each other and analyze overall trends, but the actual numbers may be far off from reality. They're _precise_ statistics, but not _accurate_ statistics.
+A causa di questi fatti, tieni presente che le nostre statistiche potrebbero essere imprecise. È uno strumento utile per confrontare date diverse tra loro e analizzare le tendenze generali, ma i numeri effettivi possono essere molto lontani dalla realtà. Sono statistiche _precise_, ma non _accurate_.
 
-[View Statistics](https://stats.privacyguides.net/share/nVWjyd2QfgOPBhMF/www.privacyguides.org){ .md-button .md-button--primary }
-[Opt-Out](#__consent){ .md-button }
+[Visualizza Statistiche](https://stats.privacyguides.net/share/nVWjyd2QfgOPBhMF/www.privacyguides.org){ .md-button .md-button--primary }
+[Escluditi](#__consent){ .md-button }

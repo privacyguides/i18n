@@ -61,11 +61,11 @@ Finora, nel 2023, abbiamo lanciato le traduzioni internazionali del nostro sito 
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: Fondatore
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
+    [:material-account: Profilo](https://discuss.privacyguides.net/u/jonah)
 
-    [:material-home: Homepage](https://www.jonaharagon.com)
+    [:material-home: Pagina Principale](https://www.jonaharagon.com)
 
     [:material-email: Email](mailto:jonah@privacyguides.org)
 
@@ -73,9 +73,9 @@ Finora, nel 2023, abbiamo lanciato le traduzioni internazionali del nostro sito 
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: Fondatore
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+    [:material-account: Profilo](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
     [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
 
@@ -85,9 +85,9 @@ Finora, nel 2023, abbiamo lanciato le traduzioni internazionali del nostro sito 
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: Fondatore
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+    [:material-account: Profilo](https://discuss.privacyguides.net/u/dngray)
 
     [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
 
@@ -97,9 +97,9 @@ Finora, nel 2023, abbiamo lanciato le traduzioni internazionali del nostro sito 
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: Fondatore
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+    [:material-account: Profilo](https://discuss.privacyguides.net/u/freddy)
 
     [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
 
@@ -109,15 +109,15 @@ Finora, nel 2023, abbiamo lanciato le traduzioni internazionali del nostro sito 
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: Fondatrice
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+    [:material-account: Profilo](https://discuss.privacyguides.net/u/olivia)
 
     [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 </div>
 
-Additionally, [many people](contributors.md) have made contributions to the project. Puoi farlo anche tu, siamo open source su GitHub e accettiamo suggerimenti per la traduzione su [Crowdin](https://crowdin.com/project/privacyguides).
+Inoltre, [molte persone](contributors.md) hanno contribuito al progetto. Puoi farlo anche tu, siamo open source su GitHub e accettiamo suggerimenti per la traduzione su [Crowdin](https://crowdin.com/project/privacyguides).
 
 I membri del nostro team revisionano tutte le modifiche effettuate al sito web e gestiscono i doveri amministrativi, come l'hosting web e le finanze; tuttavia, non traggono alcun profitto personale da alcun contributo effettuato a questo sito. Le donazioni a Privacy Guides sono generalmente deducibili dalle tasse negli Stati Uniti.
 
