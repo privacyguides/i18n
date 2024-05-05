@@ -72,7 +72,7 @@ Il **Mobile Verification Toolkit** (**MVT**) è una raccolta di utility che semp
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Scarica</summary>
 
 - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
 - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
@@ -115,7 +115,7 @@ MVT ti consente di eseguire scansioni/analisi più approfondite, se il tuo dispo
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
@@ -153,7 +153,7 @@ L'utilizzo di queste app non è sufficiente per determinarre che un dispositivo 
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -205,7 +205,7 @@ L'utilizzo di queste app non è sufficiente per determinare che un dispositivo s
 [:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Scarica</summary>
 
 - [:simple-fdroid: F-Droid](https://f-droid.org/packages/us.spotco.malwarescanner)
 
@@ -228,7 +228,7 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 [:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Scarica</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1466120520)
 

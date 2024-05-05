@@ -27,15 +27,15 @@ Le opzioni qui elencate sono multipiattaforma e ottime per creare backup crittog
 [:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1560822163)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/cryptomator/id1560822163)
 - [:simple-android: Android](https://cryptomator.org/android)
 - [:simple-windows11: Windows](https://cryptomator.org/downloads)
 - [:simple-apple: macOS](https://cryptomator.org/downloads)
 - [:simple-linux: Linux](https://cryptomator.org/downloads)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+- [:simple-flathub: Flathub](https://flathub.org/it/apps/org.cryptomator.Cryptomator)
 
 </details>
 

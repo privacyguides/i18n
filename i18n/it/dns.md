@@ -87,13 +87,13 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 [:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-linux: Linux](https://docs.controld.com/docs/ctrld)
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
-- [:simple-appstore: App Store](https://apps.apple.com/app/1518799460)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/control-d-quick-setup/id1518799460)
 - [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases/tag/v1.3.5)
 
 </details>

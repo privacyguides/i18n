@@ -57,16 +57,16 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/notesnook-private-note-taking/id1544027013)
 - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
 - [:simple-windows11: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
 - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 - [:octicons-globe-16: Web](https://app.notesnook.com)
 
 </details>
@@ -88,16 +88,16 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 [:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/joplin/id1315599797)
 - [:simple-github: GitHub](https://github.com/laurent22/joplin-android/releases)
 - [:simple-windows11: Windows](https://joplinapp.org/#desktop-applications)
 - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
 - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/joplin-web-clipper/)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 </details>
 
@@ -120,7 +120,7 @@ Joplin non [supporta](https://github.com/laurent22/joplin/issues/289) la protezi
 [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Scarica</summary>
 
 - [:octicons-globe-16: PWA](https://crypt.ee/download)
 

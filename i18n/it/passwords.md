@@ -243,18 +243,18 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 [:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
-- [:simple-windows11: Windows](https://1password.com/downloads/windows)
-- [:simple-apple: macOS](https://1password.com/downloads/mac)
-- [:simple-linux: Linux](https://1password.com/downloads/linux)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/1password-x-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
-- [:octicons-globe-16: Web](https://my.1password.com/signin)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/1password-gestore-password/id1511601750)
+- [:simple-windows11: Windows](https://1password.com/it/downloads/windows/)
+- [:simple-apple: macOS](https://1password.com/it/downloads/mac/)
+- [:simple-linux: Linux](https://1password.com/it/downloads/linux/)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/1password-x-password-manager/)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/1password-%E2%80%93-gestore-di-pa/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/1password-%E2%80%93-gestore-di-pa/dppgmdbiimibapkepcbdbmkaabgiofem)
+- [:simple-safari: Safari](https://apps.apple.com/it/app/1password-for-safari/id1569813296)
+- [:octicons-globe-16: Web](https://my.1password.com/signin?l=it)
 
 </details>
 
@@ -280,12 +280,12 @@ Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe pe
 [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono&gl=It)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/psono-password-manager/id1545581224)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/psono-pw-password-manager)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/psono-free-password-manag/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
 </details>

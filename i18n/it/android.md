@@ -344,7 +344,7 @@ Il Google Play Store richiede un profilo Google per l'accesso, il che non è un 
 [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
@@ -352,7 +352,7 @@ Il Google Play Store richiede un profilo Google per l'accesso, il che non è un 
 
 </div>
 
-Aurora Store non consente di scaricare app a pagamento con la propria funzione del profilo anonimo. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store non consente di scaricare app a pagamento con la propria funzione del profilo anonimo. Puoi facoltativamente accedere con il tuo account Google all'Aurora Store per scaricare le applicazioni acquistate, il che consente a Google di accedere all'elenco delle applicazioni da te installate. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
 ### Manualmente con le notifiche RSS
 
@@ -413,7 +413,7 @@ A causa del loro processo di creazione delle app, quelle presenti nel repository
 
 Other popular third-party repositories for F-Droid such as [IzzyOnDroid](https://apt.izzysoft.de/fdroid) alleviate some of these concerns. Il repository IzzyOnDroid estrae le build direttamente da GitHub ed è la seconda scelta migliore dopo i repository degli sviluppatori. Tuttavia, non è un'opzione che possiamo consigliare pienamente, poiché le applicazioni vengono tipicamente [rimosse](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) da questo repository se in seguito vengono aggiunte al repository principale di F-Droid. Sebbene ciò abbia senso (dato che l'obiettivo di questo particolare repository è ospitare le app prima che vengano accettate nel repository principale di F-Droid), ti può lasciare con le app installate senza ricevere più aggiornamenti.
 
-That said, the [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. Quando cerchi nuove applicazioni attraverso questo metodo, dovresti usare il tuo miglior giudizio e tenere d'occhio la frequenza con cui l'applicazione viene aggiornata. Le applicazioni obsolete possono fare affidamento su librerie non supportate, tra le altre cose, comportando un potenziale rischio per la sicurezza.
+Detto ciò, i repository di [F-Droid](https://f-droid.org/en/packages) e [IzzyOnDroid](https://apt.izzysoft.de/fdroid) ospitano innumerevoli applicazioni, quindi possono essere uno strumento utile per cercare e scoprire applicazioni open-source che puoi scaricare attraverso altri mezzi come Play Store, Aurora Store o ottenendo l'APK direttamente dallo sviluppatore. Quando cerchi nuove applicazioni attraverso questo metodo, dovresti usare il tuo miglior giudizio e tenere d'occhio la frequenza con cui l'applicazione viene aggiornata. Le applicazioni obsolete possono fare affidamento su librerie non supportate, tra le altre cose, comportando un potenziale rischio per la sicurezza.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>

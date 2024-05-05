@@ -29,14 +29,14 @@ Queste app di messaggistica sono ottime per proteggere le tue comunicazioni sens
 [:octicons-heart-16:](https://signal.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/signal-chat-private-e-sicure/id874139669)
 - [:simple-android: Android](https://signal.org/android/apk)
-- [:simple-windows11: Windows](https://signal.org/download/windows)
-- [:simple-apple: macOS](https://signal.org/download/macos)
-- [:simple-linux: Linux](https://signal.org/download/linux)
+- [:simple-windows11: Windows](https://signal.org/it/download/windows)
+- [:simple-apple: macOS](https://signal.org/it/download/macos)
+- [:simple-linux: Linux](https://signal.org/it/download/linux/)
 
 </details>
 
@@ -75,10 +75,10 @@ Abbiamo alcuni consigli aggiuntivi sulla configurazione e rafforzamento della tu
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/simplex-chat-secure-messenger/id1605771084)
 - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
 - [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
@@ -107,12 +107,12 @@ SimpleX Chat supporta le funzionalità di base per le chat di gruppo, messaggi d
 [:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android&gl=IT)
 - [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop)
 - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
+- [:simple-flathub: Flathub](https://flathub.org/it/apps/org.briarproject.Briar)
 
 </details>
 
@@ -151,10 +151,10 @@ I messaggi e i file condivisi nelle stanze private (che richiedono un invito), s
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/element-messenger/id1083446067)
 - [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
 - [:simple-windows11: Windows](https://element.io/download)
 - [:simple-apple: macOS](https://element.io/download)

@@ -122,12 +122,12 @@ Mullvad Browser integra DuckDuckGo come [motore di ricerca](search-engines.md) p
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Scarica</summary>
 
-- [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
-- [:simple-apple: macOS](https://mozilla.org/firefox/mac)
-- [:simple-linux: Linux](https://mozilla.org/firefox/linux)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+- [:simple-windows11: Windows](https://mozilla.org/it/firefox/windows/)
+- [:simple-apple: macOS](https://mozilla.org/it/firefox/mac)
+- [:simple-linux: Linux](https://mozilla.org/it/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/it/apps/org.mozilla.firefox)
 
 </details>
 
