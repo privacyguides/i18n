@@ -114,12 +114,12 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 [:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
-- [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
+- [:simple-apple: macOS](https://apps.apple.com/it/app/nextdns/id1464122853)
 - [:simple-linux: Linux](https://github.com/nextdns/nextdns/wiki)
-- [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/nextdns/id1463342498)
 - [:simple-github: GitHub](https://github.com/nextdns/nextdns/releases)
 
 </details>

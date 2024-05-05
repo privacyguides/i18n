@@ -34,12 +34,12 @@ OpenPGP non supporta inoltre la [forward secrecy](https://en.wikipedia.org/wiki/
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-windows11: Windows](https://thunderbird.net)
-- [:simple-apple: macOS](https://thunderbird.net)
-- [:simple-linux: Linux](https://thunderbird.net)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
+- [:simple-windows11: Windows](https://thunderbird.net/it/)
+- [:simple-apple: macOS](https:/thunderbird.net/it/)
+- [:simple-linux: Linux](https://thunderbird.net/it/)
+- [:simple-flathub: Flathub](https://flathub.org/it/apps/org.mozilla.Thunderbird)
 
 </details>
 

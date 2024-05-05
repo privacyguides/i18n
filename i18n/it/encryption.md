@@ -85,7 +85,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://veracrypt.fr/en/Downloads.html)
@@ -244,7 +244,7 @@ Gli strumenti con interfacce di riga di comando sono utili per integrare gli [sc
 [:octicons-heart-16:](https://kryptor.co.uk/#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://kryptor.co.uk)
 - [:simple-apple: macOS](https://kryptor.co.uk)

@@ -26,10 +26,10 @@ Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNo
 [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/standard-notes/id1285392450)
 - [:simple-github: GitHub](https://github.com/standardnotes/app/releases)
 - [:simple-windows11: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)

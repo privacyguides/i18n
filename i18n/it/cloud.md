@@ -61,10 +61,10 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
 [:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/tresorit/id722163232)
 - [:simple-windows11: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
@@ -99,7 +99,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:octicons-globe-16: Web](https://peergos.net)
 - [:simple-windows11: Windows](https://github.com/Peergos/web-ui/releases)
@@ -110,7 +110,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 </div>
 
-Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server negating the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
+Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server negating the need to register for a remote account and subscription. Il server di Peergos è un file `.jar`, ciò significa che Java 17+ Runtime Environment[(scarica OpenJDK](https://azul.com/downloads)) deve essere installato sul tuo computer per farlo funzionare.
 
 Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
 

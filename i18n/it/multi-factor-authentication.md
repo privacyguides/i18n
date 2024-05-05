@@ -27,7 +27,7 @@ Uno dei benefici della YubiKey è che una chiave (YubiKey 5) può fare quasi tut
 
 The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare. Ti consigliamo vivamente di selezionare le chiavi tra le YubiKey 5 Series.
 
-YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). Tutti i client di Yubico sono open source.
+Le YubiKey possono essere programmate utilizzando [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) o [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). Tutti i client di Yubico sono open source.
 
 Per i modelli che supportano HOTP e TOTP, esistono 2 slot nell'interfaccia OTP che potrebbero essere utilizzati per HOTP e 32 slot per memorizzare i codici segreti TOTP. Questi codici segreti sono memorizzati e crittografati sulla chiave e non sono mai esposti ai dispositivi cui questa è collegata. Una volta fornito un seed (codice segreto condiviso) a Yubico Authenticator, questo fornirà soltanto il codice a sei cifre, mai il seed. Questo modello di sicurezza aiuta a limitare ciò che un malintenzionato può fare, qualora dovesse compromettere uno dei dispositivi che operano Yubico Authenticator, rendendo la YubiKey resistente agli attacchi fisici.
 
@@ -56,7 +56,7 @@ Il firmware di YubiKey non è open source e non è aggiornabile. Se desideri ave
 
 The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. La **Nitrokey 3** elencata ha un insieme di funzionalità combinate.
 
-Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
+I modelli di Nitrokey possono essere configurati tramite l'[app Nitrokey](https://nitrokey.com/download).
 
 Per i modelli che supportano HOTP e TOTP, ci sono 3 slot per HOTP e 15 per TOTP. Alcune Nitrokey possono fungere da gestori di password. Possono memorizzare fino a 16 credenziali differenti e crittografarle utilizzando la stessa password dell'interfaccia OpenPGP.
 
@@ -117,10 +117,10 @@ Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative
 [:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/ente-auth/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
 - [:octicons-globe-16: Web](https://auth.ente.io)
 
