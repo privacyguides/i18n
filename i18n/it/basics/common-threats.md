@@ -117,7 +117,7 @@ La sorveglianza di massa consiste nell'intricato sforzo di monitorare il "compor
 
 Se vuoi saperne di più sui metodi di sorveglianza e su come vengono attuati nella tua città, puoi anche dare un'occhiata a [Atlas of Surveillance](https://atlasofsurveillance.org/) della [Electronic Frontier Foundation](https://eff.org/).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In Francia puoi consultare il [sito web di Technopolice](https://technopolice.fr/villes) gestito dall'associazione non-profit La Quadrature du Net.
 
 </div>
 

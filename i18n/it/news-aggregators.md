@@ -65,9 +65,9 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play&gl=IT)
 - [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
 
 </details>
@@ -128,9 +128,9 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1480640210)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/netnewswire-rss-reader/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
 
 </details>

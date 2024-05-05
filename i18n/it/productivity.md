@@ -102,14 +102,14 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 [:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
 - [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
-- [:simple-windows11: Windows](https://libreoffice.org/download/download)
-- [:simple-apple: macOS](https://libreoffice.org/download/download)
-- [:simple-linux: Linux](https://libreoffice.org/download/download)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.libreoffice.LibreOffice)
+- [:simple-windows11: Windows](https://it.libreoffice.org/download/download/)
+- [:simple-apple: macOS](https://it.libreoffice.org/download/download/)
+- [:simple-linux: Linux](https://it.libreoffice.org/download/download/)
+- [:simple-flathub: Flathub](https://flathub.org/it/apps/org.libreoffice.LibreOffice)
 
 </details>
 
@@ -129,14 +129,14 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
-- [:simple-windows11: Windows](https://onlyoffice.com/download-desktop.aspx)
-- [:simple-apple: macOS](https://onlyoffice.com/download-desktop.aspx)
-- [:simple-linux: Linux](https://onlyoffice.com/download-desktop.aspx)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/onlyoffice-documents/id944896972)
+- [:simple-windows11: Windows](https://www.onlyoffice.com/it/download-desktop.aspx)
+- [:simple-apple: macOS](https://www.onlyoffice.com/it/download-desktop.aspx)
+- [:simple-linux: Linux](https://www.onlyoffice.com/it/download-desktop.aspx)
+- [:simple-flathub: Flathub](https://flathub.org/it/apps/org.onlyoffice.desktopeditors)
 
 </details>
 
@@ -206,15 +206,15 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 [:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
-- [:simple-windows11: Windows](https://languagetool.org/windows-desktop)
-- [:simple-apple: macOS](https://languagetool.org/mac-desktop)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/languagetool)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
-- [:simple-safari: Safari](https://apps.apple.com/app/id1534275760)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/languagetool-grammar-checker/id1534275760)
+- [:simple-windows11: Windows](https://languagetool.org/it/windows-desktop)
+- [:simple-apple: macOS](https://languagetool.org/it/mac-desktop)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/languagetool/)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/correttore-grammaticale-e/oldceeleldhonbafppcapldpdifcinji)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/correttore-grammaticale-e/hfjadhjooeceemgojogkhlppanjkbobc)
+- [:simple-safari: Safari](https://apps.apple.com/it/app/languagetool-grammar-checker/id1534275760)
 
 </details>
 

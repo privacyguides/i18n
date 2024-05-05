@@ -385,9 +385,9 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 [:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/strongbox-password-manager/id897283731)
 
 </details>
 
@@ -409,7 +409,7 @@ Additionally, there is an offline-only version offered: [Strongbox Zero](https:/
 [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-windows11: Windows](https://gopass.pw/#install-windows)
 - [:simple-apple: macOS](https://gopass.pw/#install-macos)

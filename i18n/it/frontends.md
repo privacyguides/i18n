@@ -125,9 +125,9 @@ You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) b
 [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
+- [:simple-apple: App Store](https://apps.apple.com/it/app/yattee/id1595136629)
 - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
 
 </details>
