@@ -40,7 +40,7 @@ The majority of privacy and security concerns with Apple products are related to
 
 Therefore, if you use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
 
-### System Settings
+### Systeminställningar
 
 There are a number of built-in settings you should confirm or change to harden your system. Open the **Settings** app:
 
@@ -48,7 +48,7 @@ There are a number of built-in settings you should confirm or change to harden y
 
 - [ ] Uncheck **Bluetooth** (unless you are currently using it)
 
-#### Network
+#### Nätverk
 
 Depending on if you are using **Wi-Fi** or **Ethernet** (denoted by a green dot and the word "connected"), click on the corresponding icon.
 
@@ -56,7 +56,7 @@ Click on the "Details" button by your network name:
 
 - [x] Check **Limit IP address tracking**
 
-##### Firewall
+##### Brandvägg
 
 Your firewall blocks unwanted network connections. The stricter your firewall settings are, the more secure your Mac is. However, certain services will be blocked. You should configure your firewall to be as strict as you can without blocking services you use.
 
