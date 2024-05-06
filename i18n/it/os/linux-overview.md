@@ -135,7 +135,7 @@ It is possible to [randomize](https://fedoramagazine.org/randomize-mac-address-n
 
 We recommend changing the setting to **random** instead of **stable**, as suggested in the [article](https://fedoramagazine.org/randomize-mac-address-nm).
 
-If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), you will need to set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) which will enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
+Se stai utilizzando [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), dovrai impostare [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) che abiliterà [RFC 7844 (Profili di Anonimato per i Client DHCP)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
 La randomizzazione dell'indirizzo MAC è utile soprattutto per le connessioni Wi-Fi. Per le connessioni Ethernet, la randomizzazione dell'indirizzo MAC offre pochi vantaggi (o addirittura nessuno), perché un amministratore di rete può facilmente identificare il tuo dispositivo con altri mezzi (ad esempio ispezionando la porta a cui sei connesso sullo switch di rete). La randomizzazione degli indirizzi MAC del Wi-Fi dipende dal supporto del firmware del Wi-Fi.
 
