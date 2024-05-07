@@ -7,7 +7,7 @@
 *[cgroups]: Kontrol Grupları
 *[CLI]: Komut Satırı Arayüzü
 *[CSV]: CSV Dosyası
-*[CVE]: Yaygın Güvenlik Açıkları ve Maruziyetler
+*[CVE]: Yaygın Zafiyetler ve Açıklar
 *[dijital miras özelliği]: Dijital Miras, öldüğünüzde başkalarının bilgilerinize erişmesine izin vermenizi sağlayan özelliklere denir
 *[DNSSEC]: Alan Adı Sistemi Güvenlik Eklentileri
 *[DNS]: Alan Adı Sistemi
