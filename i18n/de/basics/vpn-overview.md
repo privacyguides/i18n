@@ -34,7 +34,7 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 ## Should I use a VPN?
 
-**Yes**, almost certainly. A VPN has many advantages, including:
+**Ja**, nahezu definitiv. Ein VPN hat viele Vorteile, unter anderem:
 
 1. Hiding your traffic from **only** your Internet Service Provider.
 1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.

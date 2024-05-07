@@ -49,7 +49,7 @@
 *[KYC]: Know Your Customer
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
-*[MDAG]: Microsoft Defender Application Guard
+*[MDAG]: Microsoft Defender Anwendungsschutz
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Faktor-Authentifizierung
 *[NVMe]: Nonvolatile Memory Express
