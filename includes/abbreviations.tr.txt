@@ -24,7 +24,7 @@
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Tam Disk Şifreleme
 *[FIDO]: Fast IDentity Online
-*[FS]: İleri Güvenlik
+*[FS]: İleriye dönük gizlilik
 *[çatal]: Mevcut bir projenin kopyalanması ve ona bağımsız olarak ekleme yapılmasıyla oluşturulan yeni bir yazılım projesi
 *[GDPR]: Genel Veri Koruma Tüzüğü
 *[GPG]: GNU Privacy Guard (PGP uygulaması)
