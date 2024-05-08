@@ -418,7 +418,7 @@ Detto ciò, i repository di [F-Droid](https://f-droid.org/en/packages) e [IzzyOn
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In alcuni casi rari, lo sviluppatore di un'applicazione la distribuisce solo attraverso F-Droid ([Gadgetbridge](https://gadgetbridge.org) ne è un esempio). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+In alcuni casi rari, lo sviluppatore di un'applicazione la distribuisce solo attraverso F-Droid ([Gadgetbridge](https://gadgetbridge.org) ne è un esempio). Se hai davvero bisogno di un'applicazione del genere, ti consigliamo di utilizzare il nuovo client [F-Droid Basic](https://f-droid.org/it/packages/org.fdroid.basic/) invece dell'applicazione originale F-Droid per ottenerla. F-Droid Basic supporta gli aggiornamenti automatici in background senza estensione privilegiata o root e ha un set di funzionalità ridotto (che limita la superficie di attacco).
 
 </div>
 

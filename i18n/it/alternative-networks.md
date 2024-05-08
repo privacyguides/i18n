@@ -56,7 +56,7 @@ People who are censored can use Snowflake proxies to connect to the Tor network.
 
 </div>
 
-You can enable Snowflake in your browser by opening it in another tab and turning the switch on. You can leave it running in the background while you browse to contribute your connection. We don't recommend installing Snowflake as a browser extension, because adding third-party extensions can increase your attack surface.
+You can enable Snowflake in your browser by opening it in another tab and turning the switch on. Puoi lasciarlo in esecuzione in background mentre navighi per contribuire alla connessione. We don't recommend installing Snowflake as a browser extension, because adding third-party extensions can increase your attack surface.
 
 [Run Snowflake in your Browser :material-arrow-right-drop-circle:](https://snowflake.torproject.org/embed.html){ .md-button }
 
