@@ -149,7 +149,7 @@ DivestOS offre [correzioni](https://gitlab.com/divested-mobile/cve_checker) auto
 
 DivestOS implementa alcune correzioni di rafforzamento del sistema, sviluppate in origine per GrapheneOS. DivestOS 16.0 e superiori implementano l'interruttore delle autorizzazioni [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) e SENSORS, l'[allocatore di memoria rafforzato](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://blog.privacyguides.org/2022/04/21/grapheneos-or-calyxos/#additional-hardening), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constificato](https://en.wikipedia.org/wiki/Const_(computer_programming)) e serie di correzioni di rafforzamento [bionico](https://en.wikipedia.org/wiki/Bionic_(software)). 17.1 and higher features GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, and automatic reboot/Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features).
 
-DivestOS utilizza F-Droid come app store predefinito. Normalmente [consigliamo di evitare F-Droid](#f-droid), ma su DivestOS non è possibile farlo; gli sviluppatori aggiornano le loro applicazioni tramite i propri repository di F-Droid ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) e [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) **with the DivestOS repositories enabled** to keep those components up to date. Per le altre app, sono ancora validi i nostri metodi consigliati per ottenerle.
+DivestOS utilizza F-Droid come app store predefinito. Normalmente [consigliamo di evitare F-Droid](#f-droid), ma su DivestOS non è possibile farlo; gli sviluppatori aggiornano le loro applicazioni tramite i propri repository di F-Droid ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) e [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)). Consigliamo di disabilitare l'applicazione ufficiale F-Droid e di utilizzare [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) **con i repository DivestOS abilitati** per mantenere aggiornati questi componenti. Per le altre app, sono ancora validi i nostri metodi consigliati per ottenerle.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
@@ -166,7 +166,7 @@ Acquistando un dispositivo, consigliamo di prenderne uno il più recente possibi
 
 Evita di acquistare telefoni dagli operatori di rete mobile. Questi, spesso, dispongono di un **bootloader bloccato** e non supportano lo [sblocco dell'OEM](https://source.android.com/devices/bootloader/locking_unlocking). Queste varianti ti impediranno di installare alcun tipo di distribuzione alternativa di Android.
 
-Presta molta **attenzione** all'acquisto di telefoni di seconda mano dai mercati online. Controlla sempre la reputazione del venditore. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Esiste anche il rischio di essere associati all'attività del proprietario precedente.
+Presta molta **attenzione** all'acquisto di telefoni di seconda mano dai mercati online. Controlla sempre la reputazione del venditore. Se il dispositivo è stato rubato, c'è la possibilità che venga inserito nel [database IMEI](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Esiste anche il rischio di essere associati all'attività del proprietario precedente.
 
 Altri consigli sui dispositivi Android e sulla compatibilità del sistema operativo:
 
@@ -219,15 +219,15 @@ Consigliamo un'ampia gamma di app di Android, tramite questo sito. Le app qui el
 Shelter supporta il blocco della ricerca dei contatti tra profili e la condivisione di file tra profili tramite il gestore dei file predefinito ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
 [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribuisci }
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+Shelter è consigliato rispetto a [Insular](https://secure-system.gitlab.io/Insular) e [Island](https://github.com/oasisfeng/island) poiché supporta il [blocco della ricerca dei contatti](https://secure-system.gitlab.io/Insular/faq.html).
 
 Utilizzando Shelter, ti affidi interamente al suo sviluppatore, poiché Shelter agisce da [Admin del Dispositivo](https://developer.android.com/guide/topics/admin/device-admin?hl=it) per creare il Profilo di Lavoro, e ha ampio accesso ai dati memorizzati nel Profilo di Lavoro.
 
@@ -269,7 +269,7 @@ Le principali funzionalità di privacy includono:
 
 I metadati non sono al momento eliminati dai file video, ma la funzionalità è in fase di sviluppo.
 
-I metadati sull'orientamento dell'immagine non vengono eliminati. Se abiliti la posizione (su Secure Camera), nemmeno questa **sarà** eliminata. If you want to delete that later you will need to use an external app such as [ExifEraser](data-redaction.md#exiferaser-android).
+I metadati sull'orientamento dell'immagine non vengono eliminati. Se abiliti la posizione (su Secure Camera), nemmeno questa **sarà** eliminata. Se desideri eliminarla in seguito, dovrai utilizzare un'applicazione esterna come [ExifEraser] (data-redaction.md#exiferaser-android).
 
 </div>
 
