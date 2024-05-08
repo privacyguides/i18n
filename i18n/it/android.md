@@ -339,9 +339,9 @@ Il Google Play Store richiede un profilo Google per l'accesso, il che non è un 
 
 **Aurora Store** è un client di Google Play Store che non richiede un profilo di Google, Google Play Services o microG per scaricare le app.
 
-[:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://auroraoss.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Politica sulla Privacy" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -352,7 +352,7 @@ Il Google Play Store richiede un profilo Google per l'accesso, il che non è un 
 
 </div>
 
-Aurora Store non consente di scaricare app a pagamento con la propria funzione del profilo anonimo. Puoi facoltativamente accedere con il tuo account Google all'Aurora Store per scaricare le applicazioni acquistate, il che consente a Google di accedere all'elenco delle applicazioni da te installate. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store non consente di scaricare app a pagamento con la propria funzione del profilo anonimo. Puoi facoltativamente accedere con il tuo account Google all'Aurora Store per scaricare le applicazioni acquistate, il che consente a Google di accedere all'elenco delle applicazioni da te installate. Tuttavia, benefici del vantaggio di non richiedere il client Google Play completo e i Google Play Services o microG sul tuo dispositivo.
 
 ### Manualmente con le notifiche RSS
 
@@ -418,7 +418,7 @@ Detto ciò, i repository di [F-Droid](https://f-droid.org/en/packages) e [IzzyOn
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+In alcuni casi rari, lo sviluppatore di un'applicazione la distribuisce solo attraverso F-Droid ([Gadgetbridge](https://gadgetbridge.org) ne è un esempio). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
 
 </div>
 
