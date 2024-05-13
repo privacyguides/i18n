@@ -17,7 +17,7 @@ Nonostante ciò, è tipicamente l'opzione migliore.
 
 Acquistare carte regalo e carte prepagate presso gran parte dei negozi di alimentari e minimarket è relativamente semplice, con i contanti. Solitamente, le carte regalo, non prevedono commissioni, a differenza delle carte prepagate; quindi, presta particolare attenzione a tali commissioni e alle date di scadenza. Alcuni negozi potrebbero richiedere di fornire il tuo ID al pagamento, per ridurre le frodi.
 
-Solitamente, le carte regalo, hanno limiti di fino a $200 per carta, mentre alcune offrono limiti superiori ai $2.000 per carta. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Solitamente, le carte regalo, hanno limiti di fino a $200 per carta, mentre alcune offrono limiti superiori ai $2.000 per carta. Le carte prepagate (ad esempio, quelle di Visa o Mastercard) hanno solitamente un limite massimo di 1.000 dollari per carta.
 
 Le carte regalo hanno lo svantaggio di essere soggette alle politiche dei venditori, che potrebbero avere termini e limitazioni terribili. Ad esempio, alcuni venditori non accettano pagamenti esclusivi con carte regalo, o potrebbero annullare il valore della carta se ti considerano un utente ad alto rischio. Una volta ottenuto il credito del venditore, il venditore ha un forte controllo su di esso.
 

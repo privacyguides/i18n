@@ -245,7 +245,7 @@ Mullvad fornisce il codice sorgente per i propri client desktop e mobili nella l
 
 #### :material-check:{ .pg-green } Accetta contanti e Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. Accettano inoltre Swish e bonifici bancari.
+Mullvad, oltre ad accettare carte di credito/debito e PayPal, accetta Bitcoin, Bitcoin Cash, **Monero** e **contanti/valuta locale** come forme di pagamento anonimo; sono inoltre disponibili carte prepagate con codici riscattabili. Accettano inoltre Swish e bonifici bancari.
 
 #### :material-check:{ .pg-green } Supporto WireGuard
 
