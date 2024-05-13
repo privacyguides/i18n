@@ -17,7 +17,7 @@ Malgré cela, c'est généralement la meilleure option.
 
 Il est relativement simple d'acheter des cartes-cadeaux et des cartes prépayées dans la plupart des magasins d'alimentation et des commerces de proximité avec de l'argent liquide. Les cartes-cadeaux ne sont généralement pas payantes, mais les cartes prépayées le sont souvent. Il convient donc d'être attentif à ces frais et aux dates d'expiration. Certains magasins peuvent demander à voir votre pièce d'identité à la caisse afin de réduire les fraudes.
 
-Les cartes-cadeaux sont généralement assorties d'une limite de 200 $ par carte, mais certaines offrent des limites allant jusqu'à 2 000 $ par carte. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Les cartes-cadeaux sont généralement assorties d'une limite de 200 $ par carte, mais certaines offrent des limites allant jusqu'à 2 000 $ par carte. Les cartes prépayées (comme Visa ou Mastercard) ont généralement pour limite 1000 € par carte.
 
 Les cartes-cadeaux ont l'inconvénient d'être soumises aux politiques des commerçants, qui peuvent avoir des conditions et des restrictions terribles. Par exemple, certains commerçants n'acceptent pas exclusivement les paiements par carte-cadeau ou peuvent annuler la valeur de la carte s'ils considèrent que vous êtes un utilisateur à haut risque. Une fois que vous disposez d'un crédit commercial, le commerçant exerce un contrôle important sur ce crédit.
 
