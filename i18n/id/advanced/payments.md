@@ -17,7 +17,7 @@ Meskipun demikian, ini biasanya merupakan pilihan terbaik.
 
 Membeli kartu hadiah dan kartu prabayar di sebagian besar toko kelontong dan minimarket dengan uang tunai relatif mudah. Kartu hadiah biasanya tidak dikenakan biaya, meskipun kartu prabayar sering kali dikenakan biaya, jadi perhatikan baik-baik biaya dan tanggal kedaluwarsanya. Beberapa toko mungkin akan meminta kartu identitas Anda pada saat pembayaran untuk mengurangi penipuan.
 
-Kartu hadiah biasanya memiliki batas hingga $200 per kartu, tetapi ada juga yang menawarkan batas hingga $2.000 per kartu. Kartu prabayar (misalnya: dari Visa atau Mastercard) biasanya memiliki batas hingga $1.000 per kartu.
+Kartu hadiah biasanya memiliki batas hingga $200 per kartu, tetapi ada juga yang menawarkan batas hingga $2.000 per kartu. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Kartu hadiah memiliki sisi negatif karena tunduk pada kebijakan merchant, yang dapat memiliki persyaratan dan batasan yang buruk. Misalnya, beberapa penjual tidak menerima pembayaran dengan kartu hadiah secara eksklusif, atau mereka mungkin membatalkan nilai kartu jika mereka menganggap Anda sebagai pengguna berisiko tinggi. Setelah Anda memiliki kredit penjual, penjual memiliki tingkat kontrol yang kuat atas kredit ini.
 
@@ -58,7 +58,7 @@ Selain itu, banyak atau bahkan sebagian besar mata uang kripto adalah penipuan. 
 
 Ada sejumlah proyek mata uang kripto yang bertujuan untuk memberikan privasi dengan membuat transaksi menjadi anonim. Kami menyarankan untuk menggunakan salah satu yang menyediakan anonimitas transaksi **secara bawaan** untuk menghindari kesalahan operasional.
 
-- [Mata Uang Kripto yang Direkomendasikan :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [Mata Uang Kripto yang Direkomendasikan :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
 Koin privasi telah menjadi sasaran pengawasan yang semakin meningkat oleh badan-badan pemerintah. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million for tools which purport to do so (it is unknown which cryptocurrency network these tools target). Due to the secrecy surrounding tools like these, ==none of these methods of tracing cryptocurrencies have been independently confirmed.== However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins only succeed in thwarting mass surveillance.
 
@@ -76,7 +76,7 @@ With cryptocurrency there are two forms of wallets: custodial wallets and noncus
 
 ### Acquisition
 
-Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces like [LocalMonero](https://localmonero.co), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own noncustodial wallet to use privately from that point forward.
+Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own noncustodial wallet to use privately from that point forward.
 
 If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
 

@@ -245,7 +245,7 @@ Mullvad מספק את קוד המקור עבור לקוחות שולחן העב�
 
 #### :material-check:{ .pg-green } מקבל מזומן ומונרו
 
-Mullvad, בנוסף לקבל כרטיסי אשראי/חיוב ופייפאל, מקבל ביטקוין, ביטקוין מזומן, **מונרו** ו**מזומן/מטבע מקומי** כאמצעי תשלום אנונימיים. הם גם מקבלים סוויש והעברות בנקאיות.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. הם גם מקבלים סוויש והעברות בנקאיות.
 
 #### :material-check:{ .pg-green } תמיכה ב-WireGuard
 

@@ -17,7 +17,7 @@ Apesar disso, pagar em dinheiro é normalmente a melhor opção.
 
 É relativamente simples comprar cartões de oferta e cartões pré-pagos com dinheiro, na maioria das mercearias e lojas de conveniência. Os cartões-presente geralmente não têm associada uma taxa. Não é o caso dos cartões pré-pagos, que muitas vezes têm taxas e datas de validade, o que deve suscitar a sua atenção. No momento de pagar, algumas lojas podem pedir a sua identificação, de forma a evitar fraudes.
 
-Os cartões-presente têm geralmente limites de 200 dólares por cartão, podendo esses limites chegar aos 2 mil dólares por cartão. Os cartões pré-pagos (por exemplo, da Visa ou da Mastercard) têm normalmente limites de mil dólares por cartão.
+Os cartões-presente têm geralmente limites de 200 dólares por cartão, podendo esses limites chegar aos 2 mil dólares por cartão. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Os cartões de oferta têm a desvantagem de estarem sujeitos às políticas do comerciante, que podem ter condições e restrições terríveis. Por exemplo, alguns comerciantes não aceitam pagamentos exclusivamente em cartões de oferta ou podem mesmo cancelar o valor do cartão, se o considerarem um utilizador de alto risco. Quando se tem crédito comercial, o comerciante tem um forte grau de controlo sobre esse crédito.
 
@@ -58,7 +58,7 @@ Além disso, muitas das criptomoedas, se não a maioria, são burlas. Faça tran
 
 Há uma série de projetos de criptomoeda que pretendem proporcionar privacidade, tornando as transações anónimas. Recomendamos a utilização de uma que proporcione o anonimato da transação **por defeito**, para evitar erros operacionais.
 
-- [Criptomoedas recomendadas :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [Criptomoedas recomendadas :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
 As moedas que pretendem garantir privacidade têm sido objeto de um controlo crescente por parte das agências governamentais. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. Acabaram [por pagar a duas empresas, a ](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis e a Integra Fec), um total de 1,25 milhões de dólares por ferramentas que supostamente o fazem (desconhece-se qual a rede de criptomoedas visada por estas ferramentas). Há muito secretismo a rodear ferramentas como estas, ==nenhum destes métodos de rastreio de criptomoedas foi confirmado de forma independente.== No entanto, é bastante provável que existam ferramentas que ajudem investigações relacionadas com transações de criptomoedas orientadas para a privacidade, o que deixa espaço para que estas apenas consigam impedir a vigilância em massa.
 
@@ -76,7 +76,7 @@ Nas criptomoedas, existem duas formas de carteiras: carteiras com custódia e ca
 
 ### Aquisição
 
-Comprar com privacidade [criptomoedas](../cryptocurrency.md) como o Monero pode ser difícil. P2P marketplaces like [LocalMonero](https://localmonero.co), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Depois, pode retirar o Monero comprado para a sua própria carteira sem custódia para o utilizar com privacidade a partir desse momento.
+Comprar com privacidade [criptomoedas](../cryptocurrency.md) como o Monero pode ser difícil. P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Depois, pode retirar o Monero comprado para a sua própria carteira sem custódia para o utilizar com privacidade a partir desse momento.
 
 Se optar por esta via, certifique-se de que compra Monero em alturas diferentes das que vão ser utilizadas para o gastar, bem como em montantes diferentes. Se comprar 5 mil dólares de Monero numa casa de câmbio e fizer uma compra de 5 mil euros em Monero uma hora mais tarde, esse comportamento pode ser potencialmente correlacionado por um observador externo, independentemente do caminho que o Monero tomou. O escalonamento das compras e a compra antecipada de grandes quantidades de Monero para depois gastar em várias transações mais pequenas pode evitar esta armadilha.
 

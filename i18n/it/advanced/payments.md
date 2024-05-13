@@ -17,7 +17,7 @@ Nonostante ciò, è tipicamente l'opzione migliore.
 
 Acquistare carte regalo e carte prepagate presso gran parte dei negozi di alimentari e minimarket è relativamente semplice, con i contanti. Solitamente, le carte regalo, non prevedono commissioni, a differenza delle carte prepagate; quindi, presta particolare attenzione a tali commissioni e alle date di scadenza. Alcuni negozi potrebbero richiedere di fornire il tuo ID al pagamento, per ridurre le frodi.
 
-Solitamente, le carte regalo, hanno limiti di fino a $200 per carta, mentre alcune offrono limiti superiori ai $2.000 per carta. Le carte prepagate (es.: da Visa o Mastercard), hanno solitamente dei limiti massimi di $1.000 per carta.
+Solitamente, le carte regalo, hanno limiti di fino a $200 per carta, mentre alcune offrono limiti superiori ai $2.000 per carta. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Le carte regalo hanno lo svantaggio di essere soggette alle politiche dei venditori, che potrebbero avere termini e limitazioni terribili. Ad esempio, alcuni venditori non accettano pagamenti esclusivi con carte regalo, o potrebbero annullare il valore della carta se ti considerano un utente ad alto rischio. Una volta ottenuto il credito del venditore, il venditore ha un forte controllo su di esso.
 
@@ -58,7 +58,7 @@ Inoltre, molte, se non la maggior parte, delle criptovalute sono truffe. Effettu
 
 Esistono numerosi progetti di criptovalute che pretendono di garantire la privacy, rendendo anonime le transazioni. Consigliamo di utilizzarne uno che fornisca l'anonimato delle transazioni **di default**, per evitare gli errori operativi.
 
-- [Criptovalute consigliate :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [Criptovalute consigliate :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
 Le Privacy Coins sono state oggetto di un crescente controllo da parte delle agenzie governative. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. Infine, [hanno pagato due aziende](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chinalysis e Integra Fec), per un totale di $1,25 milioni per strumenti che pretendono di farlo (non si sa quale rete di criptovalute sia mirata da tali strumenti). A causa della segretezza che circonda strumenti come questi, ==nessuno di questi metodi di tracciamento delle criptovalute è stato confermato indipendentemente.== Tuttavia, è molto probabile che esistano strumenti che aiutano le indagini mirate sulle transazioni di monete private, e che le monete private riescano solo a contrastare la sorveglianza di massa.
 
@@ -76,7 +76,7 @@ Per le criptovalute esistono due forme di portafogli: custodiali e non custodial
 
 ### Acquisizione
 
-Acquisire [criptovalute](../cryptocurrency.md) come Monero in modo privato, può essere difficile. P2P marketplaces like [LocalMonero](https://localmonero.co), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Quindi, potrai prelevare i Monero acquistati sul tuo portafoglio non custodiale, per utilizzarli privatamente in seguito.
+Acquisire [criptovalute](../cryptocurrency.md) come Monero in modo privato, può essere difficile. P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Quindi, potrai prelevare i Monero acquistati sul tuo portafoglio non custodiale, per utilizzarli privatamente in seguito.
 
 Se scegli di procedere così, assicurati di acquistare Monero in momenti differenti e in importi differenti, rispetto a dove li spenderai. Se acquisti $5000 Monero su una piattaforma di scambio ed effettui un acquisto di $5000 in Monero un'ora dopo, queste azioni potrebbero potenzialmente essere correlate a un osservatore esterno, indipendentemente dal percorso intrapreso dai Monero. Frammentare gli acquisti e acquistare importi maggiori di Monero in anticipo, per poi spenderli su più transazioni di piccole dimensioni, può evitare tale insidia.
 

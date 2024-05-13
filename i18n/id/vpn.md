@@ -245,7 +245,7 @@ Mullvad menyediakan kode sumber untuk klien desktop dan seluler mereka di [organ
 
 #### :material-check:{ .pg-green } Menerima Uang Tunai dan Monero
 
-Mullvad, selain menerima kartu kredit/debit dan PayPal, juga menerima Bitcoin, Bitcoin Cash, **Monero** dan **uang tunai/mata uang lokal** sebagai bentuk pembayaran anonim. Mereka juga menerima transfer Swish dan transfer bank.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. Mereka juga menerima transfer Swish dan transfer bank.
 
 #### :material-check:{ .pg-green } Dukungan WireGuard
 

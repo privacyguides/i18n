@@ -17,7 +17,7 @@ Toch is het meestal de beste optie.
 
 Het is relatief eenvoudig om cadeaubonnen en prepaidkaarten te kopen bij de meeste supermarkten en gemakswinkels met contant geld. Cadeaukaarten hebben meestal geen geen kosten, maar prepaidkaarten vaak wel, dus let goed op deze kosten en vervaldata. Sommige winkels kunnen vragen om je legitimatiebewijs te zien bij het afrekenen om fraude te verminderen.
 
-Cadeaubonnen hebben meestal limieten tot $ 200 per kaart, maar sommige bieden limieten tot $ 2.000 per kaart. Prepaidkaarten (bijv. van Visa of Mastercard) hebben meestal limieten tot $ 1.000 per kaart.
+Cadeaubonnen hebben meestal limieten tot $ 200 per kaart, maar sommige bieden limieten tot $ 2.000 per kaart. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Cadeaubonnen hebben het nadeel dat ze onderworpen zijn aan het winkelbeleid, dat vreselijke voorwaarden en beperkingen kan hebben. Sommige verkopers accepteren bijvoorbeeld niet uitsluitend betaling met cadeaubonnen, of ze kunnen de waarde van de kaart annuleren als ze je als een gebruiker met een hoog risico beschouwen. Zodra je een cadeaubon hebt, heeft de winkel een sterke mate van controle over dit krediet.
 
@@ -58,7 +58,7 @@ Daarnaast zijn veel of misschien niet de meeste cryptovaluta's oplichters. Voer 
 
 Er zijn een aantal cryptocurrency-projecten die beweren privacy te bieden door transacties anoniem te maken. Wij raden aan er een te gebruiken die standaard transactie anonimiteit **biedt** om menselijke fouten te voorkomen.
 
-- [Aanbevolen cryptocurrency :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [Aanbevolen cryptocurrency :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
 Privacymunten worden steeds kritischer bekeken door overheidsinstanties. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. Ze hebben uiteindelijk [twee bedrijven](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis en Integra Fec) samen 1,25 miljoen dollar betaald voor tools die dit pretenderen te doen (het is onbekend op welk cryptocurrency netwerk deze tools zich richten). Vanwege de geheimhouding rond tools zoals deze, is geen van deze methoden voor het traceren van cryptocurrencies onafhankelijk bevestigd.== Het is vrij waarschijnlijk dat er instrumenten bestaan die gericht onderzoek naar particuliere munttransacties ondersteunen, en dat privacymunten er alleen in slagen massasurveillance te dwarsbomen.
 
@@ -76,7 +76,7 @@ Bij cryptocurrency zijn er twee vormen van wallets: custodial wallets en noncust
 
 ### Aankoop
 
-Het particulier verwerven van [cryptocurrencies](../cryptocurrency.md) zoals Monero kan moeilijk zijn. P2P marketplaces like [LocalMonero](https://localmonero.co), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Vervolgens kun je de aangekochte Monero opnemen in jouw eigen, niet-vrijwillige portemonnee om vanaf dat moment privé te gebruiken.
+Het particulier verwerven van [cryptocurrencies](../cryptocurrency.md) zoals Monero kan moeilijk zijn. P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Vervolgens kun je de aangekochte Monero opnemen in jouw eigen, niet-vrijwillige portemonnee om vanaf dat moment privé te gebruiken.
 
 Als je voor deze route kiest, zorg er dan voor dat je Monero koopt op andere tijdstippen en in andere hoeveelheden dan waar je het zult uitgeven. Als je $5000 aan Monero koopt op een beurs en een uur later een aankoop van $5000 in Monero doet, kunnen die acties mogelijk gecorreleerd worden door een buitenstaander, ongeacht welke weg de Monero aflegde. Door aankopen te spreiden en vooraf grotere hoeveelheden Monero te kopen om later uit te geven aan meerdere kleinere transacties, kan deze valkuil worden vermeden.
 

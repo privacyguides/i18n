@@ -17,7 +17,7 @@ icon: material/hand-coin
 
 마트나 편의점에서 현금으로 기프트 카드 또는 선불 카드를 손쉽게 구매할 수 있습니다. 기프트 카드는 대부분 수수료가 없지만, 선불 카드는 있는 경우가 많습니다. 따라서 수수료와 만료일을 잘 살펴봐야 합니다. 일부 매장은 사기를 방지하기 위해 결제 시 신분증 제시를 요청할 수 있습니다.
 
-기프트 카드는 일반적으로 카드당 최대 $200이지만, 일부 기프트 카드는 카드당 $2,000까지 제공할 수 있습니다. Visa 또는 Mastercard 선불 카드는 일반적으로 카드당 최대 $1,000까지 제공할 수 있습니다.
+기프트 카드는 일반적으로 카드당 최대 $200이지만, 일부 기프트 카드는 카드당 $2,000까지 제공할 수 있습니다. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 기프트 카드의 단점으로는 사용할 때 사용처의 정책이 적용된다는 점입니다. 이 정책은 매우 제한적일 수 있습니다. 예시로, 몇 판매자들은 기프트 카드로만 결제하는 것을 허용하지 않거나, 고위험군 사용자라고 판단될 경우 기프트 카드를 임의로 취소할 수 있습니다. 판매자 포인트는 해당 판매자가 강력한 제어권을 지니고 있습니다.
 
@@ -58,7 +58,7 @@ Additionally, many if not most cryptocurrencies are scams. Make transactions car
 
 거래를 익명화함으로써 프라이버시를 제공한다고 주장하는 몇몇 암호화폐 프로젝트들이 존재합니다. 사용자 실수가 발생하지 않도록 **기본적으로** 익명성을 제공하는 암호화폐 사용을 추천합니다.
 
-- [권장하는 암호화폐 :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [권장하는 암호화폐 :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
 프라이버시 코인들은 정부 기관들로부터 감시를 받고 있습니다. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. 결론적으로 IRS는 Chainanalysis와 Integra Fec [이 두 회사에게 총합 125만 달러의 현상금을 지급했습니다](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view). 이 도구들이 어떤 네트워크를 대상으로 만들어졌는지는 공개되지 않았습니다. 기밀 유지로 인해 ==이 암호화폐 추적 방법들이 실제로 작동하는지는 독립적으로 확인된 바는 없습니다.== 하지만, 표적 조사를 돕는 암호화폐 추적 도구는 존재할 확률이 높으며, 이런 암호화폐는 대규모 감시만 피할 수 있을 것입니다.
 
@@ -76,7 +76,7 @@ Additionally, many if not most cryptocurrencies are scams. Make transactions car
 
 ### Acquisition
 
-Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces like [LocalMonero](https://localmonero.co), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own noncustodial wallet to use privately from that point forward.
+Acquiring [cryptocurrencies](../cryptocurrency.md) like Monero privately can be difficult. P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own noncustodial wallet to use privately from that point forward.
 
 If you go this route, make sure to purchase Monero at different times and in different amounts than where you will spend it. If you purchase $5000 of Monero at an exchange and make a $5000 purchase in Monero an hour later, those actions could potentially be correlated by an outside observer regardless of which path the Monero took. Staggering purchases and purchasing larger amounts of Monero in advance to later spend on multiple smaller transactions can avoid this pitfall.
 

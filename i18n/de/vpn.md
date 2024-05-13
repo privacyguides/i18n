@@ -245,7 +245,7 @@ Mullvad stellt den Quellcode für seine Desktop- und mobilen Clients in seiner [
 
 #### :material-check:{ .pg-green } Akzeptiert Bargeld und Monero
 
-Mullvad akzeptiert nicht nur Kredit-/Debitkarten und PayPal, sondern auch Bitcoin, Bitcoin Cash, **Monero** und **Bargeld/lokale Währung** als anonyme Zahlungsmittel. Sie akzeptieren auch Swish- und Banküberweisungen.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. Sie akzeptieren auch Swish- und Banküberweisungen.
 
 #### :material-check:{ .pg-green } WireGuard-Unterstützung
 

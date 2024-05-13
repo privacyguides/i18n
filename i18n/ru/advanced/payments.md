@@ -17,7 +17,7 @@ icon: material/hand-coin
 
 Приобрести подарочные карты и предоплаченные карты в большинстве продуктовых и круглосуточных магазинов за наличные деньги довольно просто. Подарочные карты обычно не имеют комиссии, предоплаченные - часто имеют, поэтому обращайте пристальное внимание на эти комиссии и сроки действия. Некоторые магазины могут попросить предъявить удостоверение личности на кассе для предотвращения мошенничества.
 
-Подарочные карты обычно имеют лимит до 200 долларов, но некоторые предлагают лимиты до 2 000 долларов. Предоплаченные карты (например, от Visa или Mastercard) обычно имеют лимит до 1000 долларов США.
+Подарочные карты обычно имеют лимит до 200 долларов, но некоторые предлагают лимиты до 2 000 долларов. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Подарочные карты имеют тот недостаток, что они зависят от политики продавцов, которые могут иметь ужасные условия использования и ограничения. Например, некоторые продавцы не принимают оплату исключительно подарочными картами или могут аннулировать стоимость карты, если сочтут вас пользователем с высоким уровнем риска. Получив торговый кредит, торговое предприятие имеет сильную степень контроля над этим кредитом.
 
@@ -58,7 +58,7 @@ icon: material/hand-coin
 
 Существует ряд криптовалютных проектов, которые стремятся обеспечить конфиденциальность, делая транзакции анонимными. Мы рекомендуем использовать тот, который обеспечивает анонимность транзакций **по умолчанию**, чтобы избежать ошибок в работе.
 
-- [Рекомендуемые криптовалюты :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [Рекомендуемые криптовалюты :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
 Конфиденциальные монеты становятся объектом всё более пристального внимания со стороны государственных органов. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. В итоге они [заплатили двум компаниям](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis и Integra Fec) в общей сложности 1,25 миллиона долларов за инструменты, которые якобы позволяют это сделать (неизвестно, на какую криптовалютную сеть нацелены эти инструменты). Из-за секретности, окружающей подобные инструменты, ==ни один из этих методов отслеживания криптовалют не был независимо подтвержден.== Тем не менее, вполне вероятно, что инструменты, помогающие целенаправленным расследованиям транзакций с конфиденциальными монетами, существуют, и что частные монеты только преуспевают в предотвращении массовой слежки.
 
@@ -76,7 +76,7 @@ icon: material/hand-coin
 
 ### Приобретение
 
-Конфиденциальное приобретение [криптовалюты](../cryptocurrency.md), такой как Monero, может быть затруднительным. P2P marketplaces like [LocalMonero](https://localmonero.co), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Затем вы можете вывести приобретенные Monero на свой собственный некастодиальный кошелек, чтобы с этого момента использовать их приватно.
+Конфиденциальное приобретение [криптовалюты](../cryptocurrency.md), такой как Monero, может быть затруднительным. P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Затем вы можете вывести приобретенные Monero на свой собственный некастодиальный кошелек, чтобы с этого момента использовать их приватно.
 
 Если вы пойдете по этому пути, убедитесь, что количество Monero и время покупки должны отличаться на платформе покупки и платформе, где вы собираетесь их тратить. Если вы купите $5000 Monero на бирже и сделаете покупку на $5000 Monero часом позже, эти действия могут быть соотнесены сторонним наблюдателем. Лучше купить большие суммы Monero по частям, а затем потратить их так же. Это поможет избежать отслеживания.
 

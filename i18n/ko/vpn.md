@@ -245,7 +245,7 @@ Mullvad 데크스톱, 모바일 클라이언트 소스 코드는 [GitHub](https:
 
 #### :material-check:{ .pg-green } 현금 및 Monero 결제 가능
 
-Mullvad는 신용카드, 체크카드, 페이팔과 같은 결제 수단 외에도 비트코인, 비트코인 캐쉬 (Bitcoin Cash), **Monero**와 **현금**과 같은 익명 결제 수단 또한 지원합니다. Swish 및 은행 송금도 가능합니다.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. Swish 및 은행 송금도 가능합니다.
 
 #### :material-check:{ .pg-green } WireGuard 지원
 

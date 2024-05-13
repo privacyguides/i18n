@@ -57,17 +57,18 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook&gl=IT)
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/notesnook-private-note-taking/id1544027013)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
 - [:simple-github: GitHub](https://github.com/streetwriters/notesnook/releases)
 - [:simple-windows11: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
 - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
 - [:octicons-globe-16: Web](https://app.notesnook.com)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.notesnook.Notesnook)
 
 </details>
 

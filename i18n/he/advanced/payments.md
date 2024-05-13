@@ -17,7 +17,7 @@ icon: material/hand-coin
 
 קל יחסית לרכוש כרטיסי מתנה וכרטיסים משולמים ברוב חנויות המכולת וחנויות הנוחות במזומן. בכרטיסי מתנה בדרך כלל אין עמלה, אם כי לרוב יש בכרטיסים משולמים מראש, אז שימו לב היטב לעמלות ולתאריכי התפוגה הללו. חנויות מסוימות עשויות לבקש לראות את תעודת הזהות שלך בקופה כדי להפחית הונאה.
 
-לכרטיסי מתנה יש בדרך כלל מגבלות של עד $200 לכרטיס, אבל חלקם מציעים הגבלה של עד $2,000 לכרטיס. לכרטיסים משולמים מראש (למשל: מוויזה או מאסטרקארד) יש בדרך כלל מגבלות של עד $1,000 לכרטיס.
+לכרטיסי מתנה יש בדרך כלל מגבלות של עד $200 לכרטיס, אבל חלקם מציעים הגבלה של עד $2,000 לכרטיס. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 לכרטיסי מתנה יש את החיסרון שהם כפופים למדיניות הסוחר, שיכולה להיות לה תנאים והגבלות איומים. לדוגמה, סוחרים מסוימים אינם מקבלים תשלום בכרטיסי מתנה באופן בלעדי, או שהם עשויים לבטל את ערך הכרטיס אם הם מחשיבים אותך כמשתמש בסיכון גבוה. ברגע שיש לך אשראי סוחר, לסוחר יש מידה חזקה של שליטה על אשראי זה.
 
@@ -58,7 +58,7 @@ icon: material/hand-coin
 
 ישנם מספר פרויקטים של מטבעות קריפטוגרפיים שמתיימרים לספק פרטיות על ידי הפיכת עסקאות לאנונימיות. אנו ממליצים להשתמש באחד המספק אנונימיות לעסקה **כברירת מחדל** כדי למנוע שגיאות תפעול.
 
-- [מטבעות קריפטוגרפיים מומלצים :material-arrow-right-drop-circle:](../cryptocurrency.md#coins)
+- [מטבעות קריפטוגרפיים מומלצים :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
 מטבעות פרטיות היו נתונים לבדיקה גוברת של סוכנויות ממשלתיות. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. בסופו של דבר [הם שילמו לשתי חברות](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis ו-Integra Fec) סך של 1.25 מיליון דולר עבור כלים שמתיימרים לעשות זאת (לא ידוע לאיזו רשת מטבעות קריפטוגרפיים מכוונים הכלים הללו). בשל הסודיות סביב כלים כמו אלה, ==אף אחת מהשיטות הללו למעקב אחר מטבעות קריפטוגרפיים לא אושרה באופן עצמאי.== עם זאת, סביר מאוד להניח שקיימים כלים המסייעים לחקירות ממוקדות של עסקאות מטבעות פרטיות, ושמטבעות פרטיות מצליחים רק בסיכול מעקב המוני.
 
@@ -76,7 +76,7 @@ icon: material/hand-coin
 
 ### רכישה
 
-רכישת [מטבעות קריפטוגרפיים](../cryptocurrency.md) כמו Monero באופן פרטי יכולה להיות קשה. P2P marketplaces like [LocalMonero](https://localmonero.co), a platform which facilitates trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. לאחר מכן, אתה יכול למשוך את ה-Monero שנרכש לארנק הלא משמורן שלך כדי להשתמש בו באופן פרטי מנקודה זו ואילך.
+רכישת [מטבעות קריפטוגרפיים](../cryptocurrency.md) כמו Monero באופן פרטי יכולה להיות קשה. P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. לאחר מכן, אתה יכול למשוך את ה-Monero שנרכש לארנק הלא משמורן שלך כדי להשתמש בו באופן פרטי מנקודה זו ואילך.
 
 אם אתם הולכים בדרך זו, דאגו לרכוש את Monero בזמנים שונים ובסכומים שונים מהמקום שבו תוציאו אותו. אם אתה רוכש 5,000$ של Monero בבורסה ותבצע רכישה של 5,000$ במונרו שעה לאחר מכן, פעולות אלו עשויות להיות מתואם על ידי צופה מבחוץ, ללא קשר לנתיב שהמונרו עבר. רכישות מדהימות ורכישת כמויות גדולות יותר של Monero מראש כדי לבזבז מאוחר יותר על מספר עסקאות קטנות יותר יכולות למנוע את המלכודת הזו.
 

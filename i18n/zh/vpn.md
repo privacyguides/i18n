@@ -245,7 +245,7 @@ Mullvad provides the source code for their desktop and mobile clients in their [
 
 #### :material-check:{ .pg-green } Accepts Cash and Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. \[WireGuard\](https://www.wireguard.com)是一个较新的协议，使用最先进的 \[cryptography\](https://www.wireguard.com/protocol/)。
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. \[WireGuard\](https://www.wireguard.com)是一个较新的协议，使用最先进的 \[cryptography\](https://www.wireguard.com/protocol/)。
 
 #### :material-check:{ .pg-green } WireGuard Support
 

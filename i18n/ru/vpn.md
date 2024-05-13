@@ -245,7 +245,7 @@ Mullvad предоставляет исходный код для своих н�
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
-Помимо приема кредитных/дебетовых карт и PayPal, Mullvad принимает Bitcoin, Bitcoin Cash, **Monero** и **наличные/местные валюты** как анонимные формы платежа. Они также принимают Swish и банковские переводы.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. Они также принимают Swish и банковские переводы.
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
