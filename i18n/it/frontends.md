@@ -17,23 +17,23 @@ Utilizzando un'istanza gestita da altri, assicurati di leggere la politica sulla
 
 <div class="admonition recommendation" markdown>
 
-![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
+![Logo di Redlib](assets/img/frontends/redlib.svg){ align=right }
 
-**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable.
+**Redlib** è un frontend open source per il sito web [Reddit](https://reddit.com) che è anche auto-ospitabile.
 
 Esistono numerose istanze pubbliche, alcune dotate del supporto ai servizi onion di [Tor](tor.md).
 
 [:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
+[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Istanze Pubbliche"}
+[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Codice Sorgente" }
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
+Il sito web [Old Reddit](https://old.reddit.com) non richiede tanto JavaScript quanto il nuovo sito web di Reddit, ma ha recentemente bloccato l'accesso agli indirizzi IP riservati alle VPN pubbliche. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
 
 </div>
 
