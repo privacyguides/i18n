@@ -33,14 +33,14 @@ Esistono numerose istanze pubbliche, alcune dotate del supporto ai servizi onion
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-Il sito web [Old Reddit](https://old.reddit.com) non richiede tanto JavaScript quanto il nuovo sito web di Reddit, ma ha recentemente bloccato l'accesso agli indirizzi IP riservati alle VPN pubbliche. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
+Il sito web [Old Reddit](https://old.reddit.com) non richiede tanto JavaScript quanto il nuovo sito web di Reddit, ma ha recentemente bloccato l'accesso agli indirizzi IP riservati alle VPN pubbliche. Puoi utilizzare Old Reddit insieme a [Tor](tor.md) Onion che è stato [lanciato nell'ottobre 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) su [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
 
 </div>
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Suggerimento</p>
 
-Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
+Redlib è utile se desideri disabilitare JavaScript nel tuo browser, come [Tor Browser](tor.md#tor-browser) al livello di sicurezza "Il più sicuro".
 </div>
 
 ## TikTok
@@ -49,9 +49,9 @@ Redlib is useful if you want to disable JavaScript in your browser, such as [Tor
 
 <div class="admonition recommendation" markdown>
 
-![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
+![Logo di ProxiTok](assets/img/frontends/proxitok.svg){ align=right }
 
-**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
+**ProxiTok** è un frontend open source per il sito web [TikTok](https://tiktok.com) che è anche auto-ospitabile.
 
 Esistono numerose istanze pubbliche, alcune dotate del supporto ai servizi onion di [Tor](tor.md).
 
@@ -83,11 +83,11 @@ ProxiTok è utile se desideri disabilitare JavaScript nel tuo browser, come [Tor
 
 Di default, FreeTube blocca tutte le inserzioni di YouTube. Inoltre, FreeTube integra facoltativamente [SponsorBlock](https://sponsor.ajay.app), per aiutarti a saltare i segmenti sponsorizzati dei video.
 
-[:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.freetubeapp.io){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://freetubeapp.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://docs.freetubeapp.io){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -104,7 +104,7 @@ Di default, FreeTube blocca tutte le inserzioni di YouTube. Inoltre, FreeTube in
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Considera di utilizzare una [VPN](vpn.md) o [Tor](tor.md), se il tuo [modello di minaccia](basics/threat-modeling.md) ti richiede di mascherare l'indirizzo IP.
+Quando utilizzi FreeTube, il tuo indirizzo IP potrebbe essere ancora noto a YouTube, [Invidious](https://instances.invidious.io) o [SponsorBlock](https://sponsor.ajay.app) a seconda della tua configurazione. Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](tor.md) se il tuo [modello di minaccia](basics/threat-modeling.md) richiede di nascondere il tuo indirizzo IP.
 
 </div>
 
@@ -116,12 +116,12 @@ When using FreeTube, your IP address may still be known to YouTube, [Invidious](
 
 **Yattee** è un lettore video gratuito e open source orientato alla privacy per iOS, tvOS e macOS per [YouTube](https://youtube.com). Utilizzando Yattee, il tuo elenco di iscrizioni è salvato localmente sul tuo dispositivo.
 
-You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube, due to App Store restrictions.
+Dovrai effettuare alcuni [passaggi aggiuntivi](https://gonzoknows.com/posts/Yattee) prima di poter utilizzare Yattee per guardare YouTube, per via delle restrizioni dell'App Store.
 
-[:octicons-home-16: Pagina Home](https://github.com/yattee/yattee){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Politica sulla privacy" }
+[:octicons-home-16: Pagina Principale](https://github.com/yattee/yattee){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Politica sulla Privacy" }
 [:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Codiice sorgente" }
+[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Codiice Sorgente" }
 [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
@@ -137,7 +137,7 @@ You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) b
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Considera di utilizzare una [VPN](vpn.md) o [Tor](tor.md), se il tuo [modello di minaccia](basics/threat-modeling.md) ti richiede di mascherare l'indirizzo IP.
+Quando utilizzi Yattee, il tuo indirizzo IP potrebbe essere ancora noto a YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) o [SponsorBlock](https://sponsor.ajay.app) a seconda della tua configurazione. Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](tor.md) se il tuo [modello di minaccia](basics/threat-modeling.md) richiede di nascondere il tuo indirizzo IP.
 
 </div>
 
@@ -154,11 +154,11 @@ Di default, Yattee blocca tutte le inserzioni di YouTube. Inoltre, Yattee integr
 
 LibreTube ti consente di memorizzare il tuo elenco di iscrizioni e playlist localmente sul tuo dispositivo Android, o su un profilo sulla tua istanza di Piped di scelta, che ti consente di accedervi senza problemi, anche su altri dispositivi.
 
-[:octicons-home-16: Homepage](https://libretube.dev){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://libretube.dev/#faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://libretube.dev){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://libretube.dev/#faq){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -172,27 +172,27 @@ LibreTube ti consente di memorizzare il tuo elenco di iscrizioni e playlist loca
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Considera di utilizzare una [VPN](vpn.md) o [Tor](tor.md), se il tuo [modello di minaccia](basics/threat-modeling.md) ti richiede di mascherare l'indirizzo IP.
+Quando utilizzi LibreTube, il tuo indirizzo IP sarà visibile all'istanza [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) da te scelta e/o [SponsorBlock](https://sponsor.ajay.app) a seconda della tua configurazione. Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](tor.md) se il tuo [modello di minaccia](basics/threat-modeling.md) richiede di nascondere il tuo indirizzo IP.
 
 </div>
 
-Di default, LibreTube blocca tutte le inserzioni di YouTube. Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. Puoi configurare interamente i tipi di segmenti che SponsorBlock salterà, o disabilitarli interamente. È inoltre presente un pulsante, sul lettore dei video stesso, per disabilitarlo per un video specifico, se desiderato.
+Di default, LibreTube blocca tutte le inserzioni di YouTube. Inoltre, LibreTube utilizza [SponsorBlock](https://sponsor.ajay.app) per aiutarti a saltare i segmenti video sponsorizzati. Puoi configurare interamente i tipi di segmenti che SponsorBlock salterà, o disabilitarli interamente. È inoltre presente un pulsante, sul lettore dei video stesso, per disabilitarlo per un video specifico, se desiderato.
 
 ### NewPipe (Android)
 
 <div class="admonition recommendation annotate" markdown>
 
-![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
+![Logo di Newpipe](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
+**NewPipe** è un'applicazione Android gratuita e open source per [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com) e [PeerTube](https://joinpeertube.org/it) (1).
 
 Il tuo elenco delle iscrizioni e le playlist sono salvate localmente sul tuo dispositivo Android.
 
-[:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://newpipe.net/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://newpipe.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://newpipe.net/FAQ){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -203,12 +203,12 @@ Il tuo elenco delle iscrizioni e le playlist sono salvate localmente sul tuo dis
 
 </div>
 
-1. The default instance is [FramaTube](https://framatube.org), however more can be added via **Settings** → **Content** → **PeerTube instances**
+1. L'istanza predefinita è [FramaTube](https://framatube.org), ma se ne possono aggiungere altre tramite **Impostazioni** → **Contenuto** → **Istanze PeerTube**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-Utilizzando NewPipe, il tuo indirizzo IP sarà visibile ai fornitori di video utilizzati. Considera di utilizzare una [VPN](vpn.md) o [Tor](tor.md), se il tuo [modello di minaccia](basics/threat-modeling.md) ti richiede di mascherare l'indirizzo IP.
+Utilizzando NewPipe, il tuo indirizzo IP sarà visibile ai fornitori di video utilizzati. Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](tor.md) se il tuo [modello di minaccia](basics/threat-modeling.md) richiede di nascondere il tuo indirizzo IP.
 
 </div>
 
@@ -223,11 +223,11 @@ Utilizzando NewPipe, il tuo indirizzo IP sarà visibile ai fornitori di video ut
 
 Esistono numerose istanze pubbliche, alcune dotate del supporto ai servizi onion di [Tor](tor.md).
 
-[:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
-[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://docs.invidious.io){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://invidious.io/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://invidious.io){ .md-button .md-button--primary }
+[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Istanze Pubbliche"}
+[:octicons-info-16:](https://docs.invidious.io){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://invidious.io/donate){ .card-link title=Contribuisci }
 
 </details>
 
@@ -258,10 +258,10 @@ Invidious è utile se desideri disabilitare JavaScript nel tuo browser, come [To
 Piped richiede JavaScript per funzionare e dispone di numerose istanze pubbliche.
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
+[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Istanze Pubbliche"}
+[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribuisci }
 
 </details>
 
@@ -284,8 +284,8 @@ Frontend consigliati...
 - Deve essere ospitabile autonomamente.
 - Deve fornire tutte le funzionalità di base del sito web a utenti anonimi.
 
-We only consider frontends if one of the following is true for a platform:
+Consideriamo i frontend solo se una delle seguenti condizioni è vera per una piattaforma:
 
-- Normally only accessible with JavaScript enabled.
-- Normally only accessible with an account.
-- Blocks access from commercial [VPNs](vpn.md).
+- Normalmente accessibile solo con JavaScript abilitato.
+- Normalmente accessibile solo con un account.
+- Blocca l'accesso dalle [VPN](vpn.md) commerciali.
