@@ -28,8 +28,8 @@
 *[çatal]: Mevcut bir projenin kopyalanması ve ona bağımsız olarak ekleme yapılmasıyla oluşturulan yeni bir yazılım projesi
 *[GDPR]: Genel Veri Koruma Tüzüğü
 *[GPG]: GNU Privacy Guard (PGP uygulaması)
-*[GPS]: Küresel Konumlama Sistemi
-*[GKA]: Grafik Kullanıcı Arayüzü
+*[GPS]: Küresel Konum Belirleme Sistemi
+*[GUI]: Grafik Kullanıcı Arayüzü
 *[GnuPG]: GNU Privacy Guard (PGP uygulaması)
 *[HDD]: Sabit Disk Sürücüsü
 *[HOTP]: HMAC (Karma Tabanlı Mesaj Doğrulama Kodu) Tabanlı Tek Seferlik Parola
