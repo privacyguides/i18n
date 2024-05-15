@@ -38,11 +38,11 @@
 *[hipervizör]: Bir CPU'nun kaynaklarını birden fazla işletim sistemi arasında paylaştıran bilgisayar yazılımı, bellenimi veya donanımı
 *[ICCID]: Entegre Devre Kartı Tanımlayıcısı
 *[IMAP]: İnternet Mesaj Erişim Protokolü
-*[IMEI]: Uluslararası Mobil Ekipman Kimliği
+*[IMEI]: Uluslararası Mobil Cihaz Kodu
 *[IMSI]: Uluslararası Mobil Abone Kimliği
-*[IP]: İnternet Protokol
-*[IPv4]: İnternet Protokol Versiyon 4
-*[IPv6]: İnternet Protokol Versiyon 6
+*[IP]: İnternet Protokolü
+*[IPv4]: İnternet Protokolü Versiyon 4
+*[IPv6]: İnternet Protokolü Versiyon 6
 *[İSS]: İnternet Servis Sağlayıcısı
 *[İSS'ler]: İnternet Servis Sağlayıcıları
 *[JNI]: Java Yerel Arayüzü
