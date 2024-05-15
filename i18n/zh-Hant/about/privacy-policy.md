@@ -1,24 +1,24 @@
 ---
-title: "隐私政策"
+title: "隱私權政策"
 ---
 
-隱私指南是一個社區項目，由一群積極的志願貢獻者運營。 團隊成員 [的公開名單可以在GitHub](https://github.com/orgs/privacyguides/people)上找到。
+隱私指南是由許多積極的志願者貢獻的社區項目。 團隊成員的公開名單可以在 [GitHub](https://github.com/orgs/privacyguides/people) 上找到。
 
 ## 我們從訪客收集的資料
 
 網站訪客的隱私對我們很重要，因此我們不會追蹤任何個人。 作為我們網站的訪客：
 
-- No personal information is stored
+- 不收集任何個人資訊
 - 不會對第三方分享、傳送或出售任何資訊
 - 不會與廣告公司共享任何資訊
 - 不挖掘和收集個人和行為趨勢
 - 未通過任何訪客資訊盈利
 
-You can view the data we collect on our [statistics](statistics.md) page.
+您可以在[統計](statistics.md)頁面查看我們收集的數據。
 
-We run a self-hosted installation of [Umami](https://umami.is) to collect some anonymous usage data for statistical purposes. The goal is to track overall trends in our website traffic, it is not to track individual visitors. All the data is in aggregate only, and no personal data is stored.
+我們運行自架的 [Umami](https://umami.is)，以收集一些匿名使用數據供統計分析。 其目的是追蹤網站流量的整體趨勢，而不是追蹤個別訪客。 所有資料僅為匯總後的數據，不會儲存任何個人資料。
 
-The only data which is collected is data sent in a standard web request, which includes referral sources, the page you're visiting, your user agent, your IP address, and your screen resolution. The raw data is immediately discarded after statistics have been generated, for example if we collect your screen resolution as `1125x2436`, the only data we retain is "mobile device" and not your specific resolution.
+我們僅收集透過標準網路請求傳送的資料，其中包括引薦來源、您正在訪問的頁面、您的 IP 位址、User-Agent，以及螢幕解析度。 在生成統計數據後，原始數據會立即被丟棄，例如我們收集到您的螢幕解析度為 `1125x2436`，我們僅記錄「行動裝置」，而不是您具體的解析度。
 
 ## 我們從帳戶持有人收集的資料
 
@@ -40,10 +40,10 @@ jonah@privacyguides.org
 
 對於所有其他查詢，您可以聯繫我們團隊的任何成員。
 
-對於一般 GDPR 投訴，您可以向當個資保護監管機構提出投訴。
+對於一般的 GDPR 投訴，您也可以選擇向當地的資料保護監督機構提出投訴。
 
 ## 關於本政策
 
 我們將在這裡張貼本聲明的任何更新版本 [](privacy-policy.md)。 我們可能會在未來版本中更改公告方式。 在此期間，我們可能會隨時更新聯絡資訊，而無需宣布變更。 請隨時參閱 [隱私權政策](privacy-policy.md) 以取得最新聯絡資訊。
 
-此頁面的完整版本 [歷史記錄](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md) 可以在 GitHub 找到。
+此頁面的完整[歷史記錄](https://github.com/privacyguides/privacyguides.org/commits/main/docs/about/privacy-policy.md)可以在 GitHub 找到。

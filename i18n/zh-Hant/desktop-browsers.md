@@ -105,7 +105,7 @@ Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的
 
 ### Mullvad Leta
 
-Mullvad 瀏覽器將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)，它也預先安裝了 **Mullvad Leta**，一個需要訂閱 Mullvad VPN 才能使用的搜尋引擎。 Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
+Mullvad 瀏覽器將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)，它也預先安裝了 **Mullvad Leta**，一個需要訂閱 Mullvad VPN 才能使用的搜尋引擎。 Mullvad Leta 直接查詢 Google 的付費搜索 API，這就是為什麼它僅限付費訂閱者使用。 然而，由於這個限制，Mullvad 可能將搜索查詢和 Mullvad VPN 帳戶進行關聯。 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
 
 ## Firefox
 
@@ -115,11 +115,11 @@ Mullvad 瀏覽器將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)
 
 **Firefox** 提供強大的隱私設定，例如[加強型追蹤保護功能](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，可以幫助阻擋各種[類型的追蹤](https://support.mozilla.org/zh-TW/kb/enhanced-tracking-protection-firefox-desktop#w_jia-qiang-xing-zhui-zong-bao-hu-gong-neng-hui-feng-suo-shi-mo)。
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title=Documentation}
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="文件" }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="捐贈" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -146,17 +146,17 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 #### 搜尋
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] 取消勾選 **顯示搜尋建議**
 
 搜尋建議功能可能無法在您所在的地區使用。
 
-搜尋建議會將您在地址列中輸入的所有內容傳送至預設搜尋引擎，無論您是否實際提交搜尋。 禁用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
+搜尋建議會將您在地址列中輸入的所有內容傳送至預設搜尋引擎，無論您是否實際提交搜尋。 停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
 
 ##### Firefox Suggest (僅限美國)
 
 [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 功能只限美國地區，其功能類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在「**網址列**」標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
 
-- [ ] Uncheck **Suggestions from Firefox**
+- [ ] 取消勾選 **Suggestions from Firefox**
 - [ ] 取消勾選 **Suggestions from sponsors**
 
 #### 隱私 & 安全
@@ -183,7 +183,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 > Firefox 會向我們發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向我們發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
+此外，Mozilla 帳戶服務也收集[一些技術數據](https://mozilla.org/privacy/mozilla-accounts)。 如果有使用 Mozilla 帳戶，您可以選擇退出。
 
 1. 在 accounts.firefox.com 開啟您的 [個人資料設定](https://accounts.firefox.com/settings#data-collection)
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**

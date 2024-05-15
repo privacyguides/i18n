@@ -1,9 +1,9 @@
-*[2FA]: 雙因素驗證
+*[2FA]: 雙重要素驗證
 *[ADB]: Android 偵錯橋接器
 *[AOSP]: Android 開放原始碼計畫 (AOSP)
 *[ATA]: 高技術配置
 *[attack surface]: 攻擊面，表示整個未經授權卻可存取訪問系統的潛在數量
-*[AVB]: Android Verified Boot
+*[AVB]: Android 驗證啟動
 *[cgroups]: 對照組
 *[CLI]: 命令列介面
 *[CSV]: Comma-Separated Values (以逗號分開數值的文件)
@@ -11,25 +11,25 @@
 *[數位遺產功能]: 數位遺產是指在您死亡之後，允許讓其他人取用您留下的資料。
 *[DNSSEC]: 網域名稱系統安全擴充套件
 *[DNS]: 域名系統
-*[DoH]: 通過 HTTPS 的 DNS
-*[DoQ]: 通過 QUIC 的 DNS
-*[DoH3]: 通過 HTTP/3 的 DNS
-*[DoT]: 通過 TLS 的 DNS
-*[E2EE]: 端到端加密/加密
-*[ECS]: EDNS客戶端子網
+*[DoH]: DNS over HTTPS
+*[DoQ]: DNS over QUIC
+*[DoH3]: DNS over HTTP/3
+*[DoT]: DNS over TLS
+*[E2EE]: 端對端加密
+*[ECS]: EDNS 客戶端子網
 *[EEA]: 歐洲經濟區
 *[entropy]: 衡量某件事有多不可預測
-*[EOL]: 結束生命週期
+*[EOL]: 產品壽命結束
 *[Exif]: 可交換影像檔案格式
 *[FCM]: Firebase 雲消息
 *[FDE]: 完整磁碟加密
-*[FIDO]: 快速線上身份驗證(FIDO)
+*[FIDO]: 快速線上身份驗證 (FIDO)
 *[FS]: 前向保密
 *[fork]: 從現有軟體專案複製再另外分隔出來的新獨立專案。
 *[GDPR]: 一般資料保護法規
 *[GPG]: GNU Privacy Guard (PGP 實行)
 *[GPS]: 全球定位系統
-*[GUI]: 圖形用戶界面
+*[GUI]: 圖形使用者介面
 *[GnuPG]: GNU Privacy Guard (PGP 實行)
 *[HDD]: 硬碟
 *[HOTP]: 雜湊式訊息驗證碼(HMAC)基礎的單次密碼
@@ -67,7 +67,7 @@
 *[P2P]: 點對點
 *[PAM]: Linux 插入式驗證模組
 *[POP3]: 郵件協議 3
-*[PGP]: Pretty Good Privacy （見OpenPGP ）
+*[PGP]: Pretty Good Privacy (見OpenPGP)
 *[PII]: 個人識別資訊
 *[QNAME]: 限定名稱
 *[rolling release]: 頻繁發布而不是設定間隔的更新
@@ -82,12 +82,12 @@
 *[SUID]: 設置所有者用戶ID
 *[SaaS]: 軟體即服務(雲端軟體)
 *[SoC]: 系統晶片
-*[SSO]: 單一登入（Single Sign-On）
+*[SSO]: 單一登入
 *[TCP]: 傳輸控制通訊協定
 *[TEE]: 受信任執行環境
 *[TLS]: 傳輸層安全性
 *[ToS]: 服務條款
-*[TOTP]: 按時間計算的一次性密碼
+*[TOTP]: 基於時間的一次性密碼演算法
 *[TPM]: 信賴平台模組
 *[U2F]: 通用第二因素
 *[UEFI]: 整合可延伸韌體介面
@@ -95,5 +95,5 @@
 *[VPN]: 虛擬私密連線
 *[VoIP]: IP語音(Internet通訊協定)
 *[W3C]: 萬維網聯盟
-*[XMPP]: 可延伸傳訊與顯示通訊協定(Xmpp)
+*[XMPP]: 可延伸傳訊與顯示通訊協定
 *[PWA]: 漸進式網絡應用程式 (PWA)
