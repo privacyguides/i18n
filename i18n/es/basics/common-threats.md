@@ -71,17 +71,17 @@ Un ejemplo importante de esto sucedió en 2017 cuando M.E.Doc, un software de co
 
 Hay algunas maneras de realizar este ataque:
 
-1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. Un colaborador o empleado puede obtener una posición de poder dentro de un proyecto u organización, para luego abusar de dicha posición y agregar código malicioso.
+2. Un desarrollador puede ser coaccionado por un tercero para agregar código malicioso.
+3. Un individuo o grupo podría identificar una dependencia en software de terceros (también conocida como librería) y trabajar para infiltrarse con los dos métodos anteriores, conociendo que serán utilizadas por otros desarrolladores de software.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+Estos tipos de ataques pueden requerir mucho tiempo y preparación para ser realizados y son riesgosos porque pueden ser detectados, especialmente en proyectos de código abierto si estos son populares y tienen interés externo. Desafortunadamente, estos también son uno de los más peligrosos, porque son muy difíciles de mitigar en su totalidad. Recomendamos a los lectores utilizar únicamente programas que poseen una buena reputación y se esfuerzan por reducir los riesgos:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+1. Adoptar únicamente programas populares que han estado disponibles durante un tiempo. Entre mayor es el interés por un proyecto, mayor será la probabilidad de que terceros noten cambios maliciosos. Un actor malicioso también necesitará más tiempo para obtener la confianza de la comunidad con aportes significativos.
+2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Algunos sistemas como GitHub Actions te permiten inspeccionar el script de construcción que se ejecuta públicamente para mayor confianza. Esto reduce la probabilidad de que un malware en la computadora del desarrollador pueda infectar sus paquetes y proporciona la confianza de que los binarios son producidos correctamente.
+3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. Por ejemplo: ¿el código malicioso se encontraba en el repositorio del programa? ¿Cuál desarrollador lo agregó? ¿Se agregó durante el proceso de compilación?
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Los mensajes limpios pueden facilitar a las personas ajenas al proyecto la verificación, la auditoría y la búsqueda de errores.
+5. Anotar la cantidad de colaboradores o mantenedores en un programa. Un desarrollador solitario puede ser más susceptible de ser coaccionado para agregar código malicioso por una tercera parte, o permitir de manera negligente un comportamiento no deseado. Esto puede significar que los programas desarrollados por las "grandes tecnológicas" tienen un escrutinio mayor al de un desarrollador solitario que no responde ante nadie.
 
 ## Privacidad de los proveedores de servicios
 
@@ -126,7 +126,7 @@ Los gobiernos suelen justificar los programas de vigilancia masiva como medios n
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">La lección del 11-S sobre la privacidad: La Vigilancia Masiva No es el Camino a Seguir</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. Este tipo de información, cuando es recopilada por la NSA día tras día, puede revelar detalles increíblemente sensibles sobre la vida y las asociaciones de las personas, como si han llamado a un pastor, a un proveedor de aborto, a un consejero de adicciones o a una línea directa de suicidio.
+Ante las revelaciones de Edward Snowden sobre programas del gobierno como [PRISM](https://en.wikipedia.org/wiki/PRISM) y [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), los oficiales de inteligencia también han admitido que durante años, la NSA ha estado recolectando de manera secreta los registros sobre todas las llamadas telefónicas de los estadounidenses — a quién llaman, cuándo se realizaron las llamadas y cuál fue su duración. Este tipo de información, cuando es recopilada por la NSA día tras día, puede revelar detalles increíblemente sensibles sobre la vida y las asociaciones de las personas, como si han llamado a un pastor, a un proveedor de aborto, a un consejero de adicciones o a una línea directa de suicidio.
 
 </div>
 
@@ -142,7 +142,7 @@ En línea, puedes ser rastreado a través de varios métodos:
 
 \[Esta lista no es exhaustiva].
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+Si estás preocupado sobre los programas de vigilancia masiva, puedes usar estrategias como la compartamentalización de tus identidades en línea, mezclarte con otros usuarios o, cuando sea posible, evitar brindar información que te identifique.
 
 <span class="pg-brown">:material-account-cash: Capitalismo de Vigilancia</span>
 
