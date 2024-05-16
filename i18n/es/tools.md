@@ -253,15 +253,15 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
-- ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
-- ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![logo de Thunderbird](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
+- ![logo de Apple Mail](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![logo de Canary Mail](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
+- ![logo de FairEmail](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![logo de GNOME Evolution](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![logo de K-9 Mail](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
+- ![logo de Kontact](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![logo de Mailvelope](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
+- ![logo de NeoMutt](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
@@ -280,11 +280,11 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
-- ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji loading=lazy } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
-- ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
-- ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
+- ![logo de Cryptomator](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
+- ![logo de Picocrypt](assets/img/encryption-software/picocrypt.svg){ .twemoji loading=lazy } [Picocrypt](encryption.md#picocrypt-file)
+- ![logo de VeraCrypt](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![logo de Kryptor](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
+- ![logo de Tomb](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
 
 </div>
 
@@ -294,10 +294,10 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![GnuPG logo](assets/img/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
-- ![GPG4Win logo](assets/img/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
-- ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
-- ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
+- ![logo de GnuPG](assets/img/encryption-software/gnupg.svg){ .twemoji loading=lazy } [GnuPG](encryption.md#gnu-privacy-guard)
+- ![logo de GPG4Win](assets/img/encryption-software/gpg4win.svg){ .twemoji loading=lazy } [GPG4Win (Windows)](encryption.md#gpg4win)
+- ![logo de GPG Suite](assets/img/encryption-software/gpgsuite.png){ .twemoji loading=lazy } [GPG Suite (macOS)](encryption.md#gpg-suite)
+- ![logo de OpenKeychain](assets/img/encryption-software/openkeychain.svg){ .twemoji loading=lazy } [OpenKeychain](encryption.md#openkeychain)
 
 </div>
 
@@ -307,11 +307,11 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
-- ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
-- ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
-- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![logo de Send](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
+- ![logo de OnionShare](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
+- ![logo de FreedomBox](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
+- ![logo de Nextcloud](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![logo de Syncthing](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
@@ -321,12 +321,12 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
-- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
+- ![logo de FreeTube](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![logo de Yattee](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
+- ![logo de LibreTube](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
+- ![logo de NewPipe](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
+- ![logo de Invidious](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
+- ![logo de Piped](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
 
 </div>
 
@@ -336,10 +336,10 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](multi-factor-authentication.md#yubikey)
-- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](multi-factor-authentication.md#nitrokey)
-- ![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [ente Auth](multi-factor-authentication.md#ente-auth)
-- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
+- ![logo de YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](multi-factor-authentication.md#yubikey)
+- ![logo de Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](multi-factor-authentication.md#nitrokey)
+- ![logo de ente Auth](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [ente Auth](multi-factor-authentication.md#ente-auth)
+- ![logo de Aegis](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
 
@@ -349,13 +349,13 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
-- ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
-- ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji loading=lazy } [Fluent Reader](news-aggregators.md#fluent-reader)
-- ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
-- ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
-- ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
+- ![logo de Akregator](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
+- ![logo de NewsFlash](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
+- ![logo de Feeder](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
+- ![logo de Fluent Reader](assets/img/news-aggregators/fluent-reader.svg){ .twemoji loading=lazy } [Fluent Reader](news-aggregators.md#fluent-reader)
+- ![logo de Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
+- ![logo de NetNewsWire](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
+- ![logo de Newsboat](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)
 
 </div>
 
@@ -365,11 +365,11 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ .twemoji loading=lazy } [Standard Notes](notebooks.md#standard-notes)
-- ![Notesnook logo](assets/img/notebooks/notesnook.svg){ .twemoji loading=lazy } [Notesnook](notebooks.md#notesnook)
-- ![Joplin logo](assets/img/notebooks/joplin.svg){ .twemoji loading=lazy } [Joplin](notebooks.md#joplin)
-- ![Cryptee logo](assets/img/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
-- ![Org-mode logo](assets/img/notebooks/org-mode.svg){ .twemoji loading=lazy } [Org-mode](notebooks.md#org-mode)
+- ![logo de Standard Notes](assets/img/notebooks/standard-notes.svg){ .twemoji loading=lazy } [Standard Notes](notebooks.md#standard-notes)
+- ![logo de Notesnook](assets/img/notebooks/notesnook.svg){ .twemoji loading=lazy } [Notesnook](notebooks.md#notesnook)
+- ![logo de Joplin](assets/img/notebooks/joplin.svg){ .twemoji loading=lazy } [Joplin](notebooks.md#joplin)
+- ![logo de Cryptee](assets/img/notebooks/cryptee.svg#only-light){ .twemoji loading=lazy }![Cryptee logo](assets/img/notebooks/cryptee-dark.svg#only-dark){ .twemoji loading=lazy } [Cryptee](notebooks.md#cryptee)
+- ![logo de Org-mode](assets/img/notebooks/org-mode.svg){ .twemoji loading=lazy } [Org-mode](notebooks.md#org-mode)
 
 </div>
 
@@ -379,14 +379,14 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
-- ![Proton Pass logo](assets/img/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
-- ![1Password logo](assets/img/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
-- ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
-- ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
-- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji loading=lazy } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
-- ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [gopass (CLI)](passwords.md#gopass-cli)
+- ![logo de Bitwarden](assets/img/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
+- ![logo de Proton Pass](assets/img/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
+- ![logo de 1Password](assets/img/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
+- ![logo de Psono](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
+- ![logo de KeePassXC](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
+- ![logo de KeePassDX](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
+- ![logo de Strongbox](assets/img/password-management/strongbox.svg){ .twemoji loading=lazy } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
+- ![logo de gopass](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
 
@@ -396,12 +396,12 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
-- ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](productivity.md#libreoffice)
-- ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
-- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
-- ![PrivateBin logo](assets/img/productivity/privatebin.svg){ .twemoji loading=lazy } [PrivateBin (Pastebin)](productivity.md#privatebin)
-- ![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](productivity.md#languagetool)
+- ![logo de Nextcloud](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
+- ![logo de LibreOffice](assets/img/productivity/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](productivity.md#libreoffice)
+- ![logo de OnlyOffice](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
+- ![logo de CryptPad](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
+- ![logo de PrivateBin](assets/img/productivity/privatebin.svg){ .twemoji loading=lazy } [PrivateBin (Pastebin)](productivity.md#privatebin)
+- ![logo de LanguageTool](assets/img/productivity/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](productivity.md#languagetool)
 
 </div>
 

@@ -117,7 +117,7 @@ En lo que va de 2023 hemos lanzado traducciones internacionales de nuestro sitio
 
 </div>
 
-Additionally, [many people](contributors.md) have made contributions to the project. Tú también puedes, tenemos código abierto en GitHub y aceptamos sugerencias de traducción en [Crowdin](https://crowdin.com/project/privacyguides).
+Adicionalmente, [muchas personas](contributors.md) han contribuido al proyecto. Tú también puedes, tenemos código abierto en GitHub y aceptamos sugerencias de traducción en [Crowdin](https://crowdin.com/project/privacyguides).
 
 Los miembros de nuestro equipo revisan todos los cambios realizados en el sitio web y se encargan de las tareas administrativas, como el web hosting y las finanzas, pero no se benefician personalmente de las donaciones hechas a este sitio. Las donaciones a Privacy Guides son generalmente deducibles de impuestos en los Estados Unidos.
 
@@ -129,6 +129,6 @@ El siguiente es un resumen legible por humanos de (y no un sustituto de) la [lic
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
+:fontawesome-brands-creative-commons::fontawesome-brands-creative-commons-by::fontawesome-brands-creative-commons-sa: A menos de que se especifique lo contrario, el contenido original en este sitio web está disponible bajo la [Licencia Creative Commons Attribution-ShareAlike 4.0 International Public](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Esto significa que eres libre de copiar y redistribuir el material en cualquier medio o formato para cualquier propósito, incluso comercialmente; mientras proporciones los respectivos créditos a `Privacy Guides (www.privacyguides.org)` y compartas tu trabajo bajo la misma licencia.
 
-You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
+Puedes cumplir con estos términos de cualquier manera razonable, pero no de una manera que sugiera que Privacy Guides lo respalda a usted o su uso.

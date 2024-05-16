@@ -1,15 +1,15 @@
 ---
-title: General Criteria
+title: Criterios generales
 ---
 
-Below are some general priorities we consider for all submissions to Privacy Guides. Cada categoría puede tener requisitos adicionales.
+A continuación se encuentran algunas prioridades generales que consideramos para todos los envíos a Privacy Guides. Cada categoría puede tener requisitos adicionales.
 
-- **Security**: Tools should follow security best-practices wherever applicable.
+- **Seguridad**: Las herramientas deben seguir las mejores prácticas de seguridad siempre que sea posible.
 - **Disponibilidad del código**: Proyectos de código abierto son preferibles sobre alternativas similares de código cerrado.
-- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **Disponibilidad multiplataforma**: Preferimos que las recomendaciones sean multiplataforma para evitar la dependencia de un sistema operativo.
 - **Desarrollo activo**: Las herramientas que recomendamos deben ser desarrolladas activamente, los proyectos no mantenidos serán eliminados en la mayoría de los casos.
 - **Usabilidad**: Las herramientas deben ser accesibles para la mayoría de los usuarios de ordenador, no debe exigirse una formación demasiado técnica.
-- **Documentation**: Tools should have clear and extensive documentation for use.
+- **Documentación**: Las herramientas deben tener una documentación clara y extensa.
 
 ## Información financiera
 

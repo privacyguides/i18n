@@ -17,7 +17,7 @@ A pesar de ello, suele ser la mejor opción.
 
 Es relativamente sencillo comprar tarjetas regalo y tarjetas prepago en la mayoría de los supermercados y tiendas de conveniencia con dinero en efectivo. Las tarjetas regalo no suelen tener comisión, aunque las de prepago a menudo sí, así que presta mucha atención a estas comisiones y a las fechas de caducidad. Algunos comercios pueden pedirte el DNI en la caja para reducir el fraude.
 
-Las tarjetas regalo suelen tener límites de hasta 200 dólares por tarjeta, pero algunas ofrecen límites de hasta 2.000 dólares por tarjeta. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Las tarjetas regalo suelen tener límites de hasta 200 dólares por tarjeta, pero algunas ofrecen límites de hasta 2.000 dólares por tarjeta. Las tarjetas prepago (por ejemplo, de Visa o Mastercard) usualmente tienen límites de hasta $1,000 por tarjeta.
 
 Las tarjetas regalo tienen el inconveniente de estar sujetas a las políticas de los comercios, que pueden tener terribles condiciones y restricciones. Por ejemplo, algunos comercios no aceptan exclusivamente el pago con tarjetas regalo, o pueden anular el valor de la tarjeta si consideran que eres un usuario de alto riesgo. Una vez que se dispone de crédito comercial, el comerciante tiene un alto grado de control sobre este crédito.
 
@@ -76,7 +76,7 @@ En el caso de las criptomonedas existen dos tipos de monederos: los monederos co
 
 ### Adquisición
 
-Adquirir [criptomonedas](../cryptocurrency.md) como Monero de forma privada puede ser difícil. P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. Si el uso de un intercambio que requiere KYC es un riesgo aceptable para ti, siempre y cuando las transacciones posteriores no puedan ser rastreadas, una opción mucho más fácil es comprar Monero en un exchange como [Kraken](https://kraken.com), o comprar Bitcoin/Litecoin de un exchange KYC que luego se puede cambiar por Monero. A continuación, puedes retirar el Monero comprado a su propio monedero no custodio para utilizarlo de forma privada a partir de ese momento.
+Adquirir [criptomonedas](../cryptocurrency.md) como Monero de forma privada puede ser difícil. Los mercados P2P, plataformas que facilitan los intercambios entre personas, son una opción que también se puede usar. Si el uso de un intercambio que requiere KYC es un riesgo aceptable para ti, siempre y cuando las transacciones posteriores no puedan ser rastreadas, una opción mucho más fácil es comprar Monero en un exchange como [Kraken](https://kraken.com), o comprar Bitcoin/Litecoin de un exchange KYC que luego se puede cambiar por Monero. A continuación, puedes retirar el Monero comprado a su propio monedero no custodio para utilizarlo de forma privada a partir de ese momento.
 
 Si sigues este camino, asegúrate de comprar Monero en momentos diferentes y en cantidades distintas a las que lo gastarás. Si compras 5.000 dólares de Monero en una bolsa y haces una compra de 5.000 dólares en Monero una hora más tarde, esas acciones podrían ser potencialmente correlacionadas por un observador externo independientemente del camino que haya tomado el Monero. Escalonar las compras y adquirir grandes cantidades de Monero por adelantado para luego gastarlas en múltiples transacciones más pequeñas puede evitar este escollo.
 
