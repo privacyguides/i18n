@@ -64,11 +64,11 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)

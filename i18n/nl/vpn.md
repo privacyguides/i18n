@@ -162,7 +162,7 @@ As of February 2020 [IVPN applications are now open source](https://ivpn.net/blo
 
 #### :material-check:{ .pg-green } Accepteert contant geld en Monero
 
-Mullvad accepteert naast creditcards en PayPal ook Bitcoin, Bitcoin Cash, **Monero** en **contant geld/lokale valuta** als anonieme vormen van betaling.
+In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
 #### :material-check:{ .pg-green } WireGuard ondersteuning
 
@@ -245,7 +245,7 @@ Mullvad levert de broncode voor hun desktop en mobiele clients in hun [GitHub or
 
 #### :material-check:{ .pg-green } Accepteert contant geld en Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. Ze aanvaarden ook Swish en bankoverschrijvingen.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers.
 
 #### :material-check:{ .pg-green } WireGuard ondersteuning
 

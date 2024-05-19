@@ -162,7 +162,7 @@ As of February 2020 [IVPN applications are now open source](https://ivpn.net/blo
 
 #### :material-check:{ .pg-green } 현금 및 Monero 결제 가능
 
-IVPN은 신용카드, 체크카드, 페이팔과 같은 결제 수단 외에도 비트코인, **Monero**와 **현금** (연간 구독에만 해당) 과 같은 익명 결제 수단 또한 지원합니다.
+In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
 #### :material-check:{ .pg-green } WireGuard 지원
 
@@ -245,7 +245,7 @@ Mullvad 데크스톱, 모바일 클라이언트 소스 코드는 [GitHub](https:
 
 #### :material-check:{ .pg-green } 현금 및 Monero 결제 가능
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. Swish 및 은행 송금도 가능합니다.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers.
 
 #### :material-check:{ .pg-green } WireGuard 지원
 

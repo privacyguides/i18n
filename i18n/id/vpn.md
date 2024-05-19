@@ -162,7 +162,7 @@ As of February 2020 [IVPN applications are now open source](https://ivpn.net/blo
 
 #### :material-check:{ .pg-green } Menerima Uang Tunai dan Monero
 
-Selain menerima kartu kredit/debit dan PayPal, IVPN menerima Bitcoin, **Monero** dan **uang tunai/mata uang lokal** (pada paket tahunan) sebagai bentuk pembayaran anonim.
+In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
 #### :material-check:{ .pg-green } Dukungan WireGuard
 
@@ -245,7 +245,7 @@ Mullvad menyediakan kode sumber untuk klien desktop dan seluler mereka di [organ
 
 #### :material-check:{ .pg-green } Menerima Uang Tunai dan Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. Mereka juga menerima transfer Swish dan transfer bank.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers.
 
 #### :material-check:{ .pg-green } Dukungan WireGuard
 

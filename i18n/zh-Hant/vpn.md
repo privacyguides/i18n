@@ -162,7 +162,7 @@ IVPN 已通過 [Cure53 的無日誌審計](https://cure53.de/audit-report_ivpn.p
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-除了接受信用卡/簽帳卡和 PayPal 外，IVPN 還接受比特幣、**Monero** 和 **現金/當地貨幣** (僅限年度方案) 作為匿名付款方式。
+In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
@@ -245,7 +245,7 @@ Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. 他們也接受 Swish 和銀行電匯。
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers.
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 

@@ -162,7 +162,7 @@ As of February 2020 [IVPN applications are now open source](https://ivpn.net/blo
 
 #### :material-check:{ .pg-green } מקבל מזומן ומונרו
 
-בנוסף לקבלת כרטיסי אשראי/חיוב ופייפאל, IVPN מקבל ביטקוין, **מונרו** ו**מזומן/מטבע מקומי** (בתוכניות שנתיות) כאמצעי תשלום אנונימיים.
+In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
 #### :material-check:{ .pg-green } תמיכה ב-WireGuard
 
@@ -245,7 +245,7 @@ Mullvad מספק את קוד המקור עבור לקוחות שולחן העב�
 
 #### :material-check:{ .pg-green } מקבל מזומן ומונרו
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment, prepaid cards with redeem codes are also available. הם גם מקבלים סוויש והעברות בנקאיות.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers.
 
 #### :material-check:{ .pg-green } תמיכה ב-WireGuard
 
