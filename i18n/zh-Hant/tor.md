@@ -55,7 +55,7 @@ schema:
 [:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://torproject.org/download/#android)
@@ -93,7 +93,7 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
