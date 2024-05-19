@@ -131,7 +131,7 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 

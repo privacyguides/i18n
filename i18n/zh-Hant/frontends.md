@@ -90,7 +90,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-windows11: Windows](https://freetubeapp.io/#download)
 - [:simple-apple: macOS](https://freetubeapp.io/#download)
@@ -125,7 +125,7 @@ You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) b
 [:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-apple: App Store](https://apps.apple.com/app/id1595136629)
 - [:simple-github: GitHub](https://github.com/yattee/yattee/releases)
@@ -161,7 +161,7 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 [:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-github: GitHub](https://github.com/libre-tube/LibreTube/releases)
 
@@ -195,7 +195,7 @@ When using LibreTube, your IP address will be visible to the [Piped](https://git
 [:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-github: GitHub](https://github.com/TeamNewPipe/NewPipe/releases)
 

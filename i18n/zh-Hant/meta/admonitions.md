@@ -196,7 +196,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -228,7 +228,7 @@ This is a special type of collapsible admonition, used to generate the download 
 <div class="result" markdown>
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)

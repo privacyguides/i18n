@@ -31,7 +31,7 @@ Nextcloud 是[仍是一款受推薦的工具](productivity.md)，可用於自我
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
@@ -99,9 +99,9 @@ Tresorit 已獲得多項獨立安全稽核：
 [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
-- [:octicons-globe-16: Web](https://peergos.net)
+- [:octicons-globe-16: 網頁版](https://peergos.net)
 - [:simple-windows11: Windows](https://github.com/Peergos/web-ui/releases)
 - [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
 - [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)

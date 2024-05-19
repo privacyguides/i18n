@@ -141,7 +141,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 [:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos)
 

@@ -25,12 +25,12 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-windows11: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
-- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+- [:octicons-globe-16: 網頁版](https://0xacab.org/jvoisin/mat2#web-interface)
 
 </details>
 
@@ -53,7 +53,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Download: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -91,7 +91,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 [:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
@@ -113,7 +113,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 [:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
@@ -147,7 +147,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-windows11: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)

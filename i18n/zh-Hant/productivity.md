@@ -25,7 +25,7 @@ cover: productivity.webp
 [:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -102,7 +102,7 @@ cover: productivity.webp
 [:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
 - [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
@@ -206,7 +206,7 @@ cover: productivity.webp
 [:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
 - [:simple-windows11: Windows](https://languagetool.org/windows-desktop)

@@ -44,7 +44,7 @@ cover: router.webp
 
 </div>
 
-OPNsense 一開始是從 [pfSense](https://en.wikipedia.org/wiki/PfSense)分支另外發展出來，兩個項目都以免費和可靠的防火牆發行版而聞名，它們提供了通常只有昂貴的商業防火牆才具備的功能。  2015 年啟動後，OPNsense 開發人員[引述](https://docs.opnsense.org/history/thefork.html) pfSense  專案中一連串安全與代碼品質問題，因此覺得有必要對須目作分支。再者 Netgate 取得 pfSense 大部份所有權， pfSense 未來的方向也令他們擔憂。
+OPNsense 是從 [pfSense](https://en.wikipedia.org/wiki/PfSense) 另外發展出來的分支，兩個項目都以免費和可靠的防火牆發行版而聞名，它們提供了通常只有昂貴的商業防火牆才具備的功能。  2015 年啟動後，OPNsense 開發人員[引述](https://docs.opnsense.org/history/thefork.html) pfSense  專案中一連串安全與代碼品質問題，因此覺得有必要對須目作分支。再者 Netgate 取得 pfSense 大部份所有權， pfSense 未來的方向也令他們擔憂。
 
 ## 標準
 

@@ -151,7 +151,7 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
@@ -159,7 +159,7 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 - [:simple-windows11: Windows](https://element.io/download)
 - [:simple-apple: macOS](https://element.io/download)
 - [:simple-linux: Linux](https://element.io/download)
-- [:octicons-globe-16: Web](https://app.element.io)
+- [:octicons-globe-16: 網頁版](https://app.element.io)
 
 </details>
 
@@ -189,7 +189,7 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)

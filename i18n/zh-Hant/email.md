@@ -64,7 +64,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -72,7 +72,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 - [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
+- [:octicons-browser-16: 網頁版](https://mail.proton.me)
 
 </details>
 

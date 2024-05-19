@@ -79,7 +79,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 [:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
 - [:simple-android: Android](https://geti2p.net/en/download#android)

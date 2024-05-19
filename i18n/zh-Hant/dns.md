@@ -87,7 +87,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 [:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-windows11: Windows](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
@@ -114,7 +114,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 [:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-windows11: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
 - [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)

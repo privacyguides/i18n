@@ -329,7 +329,7 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 - [:simple-windows11: Windows](https://gpg4win.org/download.html)
@@ -355,7 +355,7 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-windows11: Windows](https://gpg4win.org/download.html)
 
@@ -386,7 +386,7 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-apple: macOS](https://gpgtools.org)
 
@@ -408,7 +408,7 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 

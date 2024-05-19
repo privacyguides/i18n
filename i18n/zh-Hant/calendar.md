@@ -24,7 +24,7 @@ cover: calendar.webp
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -32,7 +32,7 @@ cover: calendar.webp
 - [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients)
 - [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-- [:octicons-browser-16: Web](https://app.tuta.com)
+- [:octicons-browser-16: 網頁版](https://app.tuta.com)
 
 </details>
 
@@ -52,11 +52,11 @@ cover: calendar.webp
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1514709943)
-- [:octicons-browser-16: Web](https://calendar.proton.me)
+- [:octicons-browser-16: 網頁版](https://calendar.proton.me)
 
 </details>
 

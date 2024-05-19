@@ -26,7 +26,7 @@ cover: notebooks.webp
 [:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -34,7 +34,7 @@ cover: notebooks.webp
 - [:simple-windows11: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)
 - [:simple-linux: Linux](https://standardnotes.com)
-- [:octicons-globe-16: Web](https://app.standardnotes.com)
+- [:octicons-globe-16: 網頁版](https://app.standardnotes.com)
 
 </details>
 
@@ -57,7 +57,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 [:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
@@ -67,7 +67,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 - [:simple-linux: Linux](https://notesnook.com/downloads)
 - [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
-- [:octicons-globe-16: Web](https://app.notesnook.com)
+- [:octicons-globe-16: 網頁版](https://app.notesnook.com)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.notesnook.Notesnook)
 
 </details>
@@ -89,7 +89,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 [:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
@@ -121,7 +121,7 @@ Joplin 不[支援](https://github.com/laurent22/joplin/issues/289)應用程式�
 [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:octicons-globe-16: PWA](https://crypt.ee/download)
 

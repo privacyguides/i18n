@@ -22,7 +22,7 @@ cover: photo-management.webp
 [:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-android: Android](https://ente.io/download)
@@ -52,7 +52,7 @@ cover: photo-management.webp
 [:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
 - [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
@@ -77,7 +77,7 @@ cover: photo-management.webp
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
