@@ -183,7 +183,7 @@ Ciò ti protegge dai cookie persistenti, ma non da quelli acquisiti durante ogni
 
 > Firefox ci invia i dati sulla tua versione e lingua di Firefox; sistema operativo del dispositivo e configurazione hardware; memoria, informazioni essenziali su arresti anomali ed errori; risultati di processi automatizzati quali aggiornamenti, navigazione sicura e attivazione. Quando Firefox ci invia i dati, il tuo indirizzo IP è raccolto temporaneamente come parte dei registri del nostro server.
 
-Inoltre, il servizio Mozilla Accounts raccoglie [alcuni dati tecnici](https://mozilla.org/privacy/mozilla-accounts). Se si utilizza un account Mozilla è possibile rinunciare:
+Inoltre, il servizio Mozilla Accounts raccoglie [alcuni dati tecnici](https://mozilla.org/privacy/mozilla-accounts). Se utilizzi un account Mozilla puoi disattivare questa funzione:
 
 1. Apri le [impostazioni del tuo profilo su accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deseleziona ** Raccolta e utilizzo dati ** > **Aiutaci a migliorare gli ⁨account Firefox⁩**
@@ -200,7 +200,7 @@ Se utilizzi un [fornitore di DNS su HTTPS](dns.md):
 
 - [x] Seleziona **Protezione massima** e scegli un fornitore adatto
 
-La Protezione Massima impone l'utilizzo di DNS su HTTPS; un avviso di sicurezza apparirà se Firefox non riesce a connettersi al tuo risolutore DNS sicuro, o se il tuo risolutore DNS sicuro dice che i registri per il dominio cui stai provando ad accedere, non esistono. Ciò impedisce alla rete cui sei connesso, di ridurre segretameente la sicurezza del tuo DNS.
+La Protezione Massima impone l'utilizzo di DNS su HTTPS; un avviso di sicurezza apparirà se Firefox non riesce a connettersi al tuo risolutore DNS sicuro, o se il tuo risolutore DNS sicuro dice che i registri per il dominio cui stai provando ad accedere, non esistono. Ciò impedisce alla rete cui sei connesso, di ridurre segretamente la sicurezza del tuo DNS.
 
 #### Sincronizzazione
 
