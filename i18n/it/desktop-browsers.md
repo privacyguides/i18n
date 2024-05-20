@@ -296,12 +296,12 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Disabilita non-proxied UDP** sotto [WebRTC IP Handling Policy](https://support.brave. om/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Deseleziona **Usa i servizi Google per la messaggistica push**
-- [ ] Deseleziona **Consenti l'analisi dei prodotti nel rispetto della privacy (P3A)**
-- [ ] Deseleziona **Invia automaticamente il ping giornaliero a Brave**
-- [ ] Deseleziona **Invia automaticamente rapporti diagnostici**
-- [ ] Deseleziona **Finestra privata con Tor** (1)
+- [x] Seleziona **Disabilita UDP senza proxy** sotto [Gestione politica IP WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Rimuovi la spunta da **Utilizza i servizi Google per la messaggistica push**
+- [ ] Rimuovi la spunta da **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A)**
+- [ ] Rimuovi la spunta da **Invia automaticamente un ping di utilizzo giornaliero a Brave**
+- [ ] Rimuovi la spunta da **Invia automaticamente i rapporti di diagnostica**
+- [ ] Rimuovi la spunta da **Finestra in Incognito con Tor** (1)
 
 </div>
 
