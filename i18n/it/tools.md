@@ -152,7 +152,7 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 [Scopri di più :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
-#### Mercato Online di Carte Regalo
+#### Negozi Online di Carte Regalo
 
 <div class="grid cards" markdown>
 

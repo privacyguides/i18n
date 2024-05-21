@@ -15,11 +15,11 @@ cover: multi-factor-authentication.webp
 
 Le **YubiKey** sono tra le chiavi di sicurezza più popolari. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
 
-Uno dei benefici della YubiKey è che una chiave (YubiKey 5) può fare quasi tutto ciò che ti potresti aspettare da una chiave di sicurezza hardware. We do encourage you to take the [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
+Uno dei benefici della YubiKey è che una chiave (YubiKey 5) può fare quasi tutto ciò che ti potresti aspettare da una chiave di sicurezza hardware. Ti invitiamo a rispondere al [quiz](https://yubico.com/quiz) prima dell'acquisto per essere sicuro di fare la scelta giusta.
 
-[:octicons-home-16: Homepage](https://yubico.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
+[:octicons-home-16: Pagina Principale](https://yubico.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentazione}
 
 </details>
 
@@ -27,7 +27,7 @@ Uno dei benefici della YubiKey è che una chiave (YubiKey 5) può fare quasi tut
 
 The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare. Ti consigliamo vivamente di selezionare le chiavi tra le YubiKey 5 Series.
 
-Le YubiKey possono essere programmate utilizzando [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) o [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). Tutti i client di Yubico sono open source.
+Le YubiKey possono essere programmate utilizzando [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) o [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). Per gestire i codici TOTP, puoi utilizzare [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). Tutti i client di Yubico sono open source.
 
 Per i modelli che supportano HOTP e TOTP, esistono 2 slot nell'interfaccia OTP che potrebbero essere utilizzati per HOTP e 32 slot per memorizzare i codici segreti TOTP. Questi codici segreti sono memorizzati e crittografati sulla chiave e non sono mai esposti ai dispositivi cui questa è collegata. Una volta fornito un seed (codice segreto condiviso) a Yubico Authenticator, questo fornirà soltanto il codice a sei cifre, mai il seed. Questo modello di sicurezza aiuta a limitare ciò che un malintenzionato può fare, qualora dovesse compromettere uno dei dispositivi che operano Yubico Authenticator, rendendo la YubiKey resistente agli attacchi fisici.
 
