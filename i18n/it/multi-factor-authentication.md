@@ -46,15 +46,15 @@ Il firmware di YubiKey non è open source e non è aggiornabile. Se desideri ave
 
 **Nitrokey** dispone di una chiave di sicurezza che supporta [FIDO2 e WebAuthn] (basics/multi-factor-authentication.md#fido-fast-identity-online), detta **Nitrokey FIDO2**. Per il supporto PGP, devi acquistare un'altra delle loro chiavi, come la **Nitrokey Start**, la **Nitrokey Pro 2** o la **Nitrokey Storage 2**.
 
-[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentation}
+[:octicons-home-16: Pagina Principale](https://nitrokey.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://docs.nitrokey.com/it/){ .card-link title=Documentazione}
 
 </details>
 
 </div>
 
-The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. La **Nitrokey 3** elencata ha un insieme di funzionalità combinate.
+La [tabella di confronto](https://nitrokey.com/#comparison) mostra le caratteristiche e confronta i modelli Nitrokey. La **Nitrokey 3** elencata ha un insieme di funzionalità combinate.
 
 I modelli di Nitrokey possono essere configurati tramite l'[app Nitrokey](https://nitrokey.com/download).
 
