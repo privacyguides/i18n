@@ -206,10 +206,10 @@ Maksymalna ochrona wymusza użycie DNS przez HTTPS, a ostrzeżenie o bezpieczeń
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
-### Arkenfox (advanced)
+### Arkenfox (zaawansowany)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">Korzystaj z przeglądarki Mullvad Browser do zaawansowanej ochrony przed odciskami palców</p>
 
 [Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
 
@@ -350,13 +350,13 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
-## Android
+## Dodatkowe zasoby
 
-## Criteria
+## Kryteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Pamiętaj, że nie jesteśmy związani z żadnym z zalecanych projektów.** W dodatku do [naszych standardowych kryteriów](about/criteria.md), opracowaliśmy zestaw wymagań, które umożliwiają nam podejmowanie obiektywnych decyzji. Zalecamy zapoznanie się z tą listą przed zdecydowaniem o wyborze projektu oraz przeprowadzenie własnego rozeznania, aby upewnić się, że będzie dobrym wyborem dla Ciebie.
 
-### Minimum Requirements
+### Wymagania minimalne
 
 - Must be open-source software.
 - Supports automatic updates.
