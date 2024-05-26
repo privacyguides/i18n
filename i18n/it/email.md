@@ -215,7 +215,7 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Le email possono essere esportate [singolarmente o tramite selezione multipla](https://tuta.com/support#generalMail) per cartella, il che può risultare scomodo se si hanno molte cartelle.
+Tuta non supporta il [protocollo IMAP](https://tuta.com/support#imap) o l'uso di [client di posta elettronica](email-clients.md) di terze parti, e non potrai nemmeno aggiungere [account email esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app Tuta. Anche [l'importazione delle email](https://github.com/tutao/tutanota/issues/630) non è attualmente supportata, anche se la situazione è [destinata a cambiare](https://tuta.com/blog/kickoff-import). Le email possono essere esportate [singolarmente o tramite selezione multipla](https://tuta.com/support#generalMail) per cartella, il che può risultare scomodo se si hanno molte cartelle.
 
 #### :material-check:{ .pg-green } Domini e Alias personalizzati
 
@@ -223,7 +223,7 @@ Gli account Tuta a pagamento possono utilizzare 15 o 30 alias a seconda del pian
 
 #### :material-information-outline:{ .pg-blue } Metodi di pagamento privati
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
+Tuta accetta direttamente solo carte di credito e PayPal, tuttavia le [criptovalute](cryptocurrency.md) possono essere utilizzate per acquistare carte regalo grazie alla [collaborazione](https://tuta.com/support/#cryptocurrency) con Proxystore.
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
@@ -243,7 +243,7 @@ Tuta cancellerà gli  [account gratuiti](https://tuta.com/support#inactive-accou
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta offre la versione business di [Tuta alle organizzazioni non profit](https://tuta.com/blog/secure-email-for-non-profit) gratuitamente o con un enorme sconto.
 
 Tuta non offre una funzionalità di eredità digitale.
 

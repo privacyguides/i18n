@@ -25,14 +25,14 @@ Calendari multipli e funzionalità di condivisione estese sono limitate agli abb
 [:octicons-heart-16:](https://tuta.com/it/community){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/desktop-clients)
-- [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
-- [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
-- [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota&gl=IT)
+- [:simple-appstore: App Store](https://apps.apple.com/it/app/tuta-encrypted-email-app/id922429609)
+- [:simple-windows11: Windows](https://tuta.com/it/blog/desktop-clients)
+- [:simple-apple: macOS](https://tuta.com/it/blog/desktop-clients)
+- [:simple-linux: Linux](https://tuta.com/it/blog/desktop-clients)
+- [:simple-flathub: Flathub](https://flathub.org/it/apps/com.tutanota.Tutanota)
 - [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
