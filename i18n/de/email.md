@@ -181,7 +181,7 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -189,9 +189,10 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
 <div class="admonition recommendation" markdown>
 
-![Tuta-Logo](assets/img/email/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** ist ein E-Mail-Dienst, dessen Schwerpunkt auf Sicherheit und Datenschutz durch Verschlüsselung liegt. Tuta ist seit **2011** in Betrieb und hat seinen Sitz in Hannover. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta ist seit **2011** in Betrieb und hat seinen Sitz in Hannover. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Datenschutz" }
@@ -214,7 +215,7 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
 </div>
 
-Tuta unterstützt weder das [IMAP-Protokoll](https://tuta.com/faq/#imap) noch die Verwendung von [E-Mail-Clients](email-clients.md) von Drittanbietern, und du kannst auch keine [externen E-Mail-Konten](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) zur Tuta-App hinzufügen. Auch der [E-Mail-Import](https://github.com/tutao/tutanota/issues/630) wird derzeit nicht unterstützt, was sich aber [bald ändern](https://tuta.com/blog/posts/kickoff-import) soll. E-Mails können [einzeln oder per Massenauswahl](https://tuta.com/support#generalMail) pro Ordner exportiert werden, was bei vielen Ordnern unpraktisch sein kann.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). E-Mails können [einzeln oder per Massenauswahl](https://tuta.com/support#generalMail) pro Ordner exportiert werden, was bei vielen Ordnern unpraktisch sein kann.
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
@@ -222,7 +223,7 @@ Bezahlte Tuta-Konten können je nach Tarif entweder 15 oder 30 Aliase und unbegr
 
 #### :material-information-outline:{ .pg-blue } Private Zahlungsmöglichkeiten
 
-Tutanota akzeptiert nur Kreditkarten und PayPal, aber [Kryptowährung](cryptocurrency.md) kann verwendet werden, um Guthabenkarten über ihre [Partnerschaft](https://tuta.com/faq/#cryptocurrency) mit Proxystore zu kaufen.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
@@ -242,7 +243,7 @@ Tuta [löscht inaktive kostenlose Konten](https://tuta.com/support#inactive-acco
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-Tuta bietet [Non-Profit-Organisationen](https://tuta.com/blog/posts/secure-email-for-non-profit) die Business-Version von [Tuta](https://tuta.com/blog/posts/secure-email-for-non-profit) kostenlos oder mit einem starken Rabatt an.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
 Tuta bietet keine Funktion für deinen digitalen Nachlass.
 

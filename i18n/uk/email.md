@@ -181,7 +181,7 @@ Mailbox.org має функцію цифрової спадщини для вс�
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -189,7 +189,8 @@ Mailbox.org має функцію цифрової спадщини для вс�
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
 **Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
@@ -214,7 +215,7 @@ Mailbox.org має функцію цифрової спадщини для вс�
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/faq/#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } Користувацькі домени та аліаси
 
@@ -222,7 +223,7 @@ Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and u
 
 #### :material-information-outline:{ .pg-blue } Конфіденційні способи оплати
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/faq/#cryptocurrency) with Proxystore.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } Безпека облікового запису
 
@@ -242,7 +243,7 @@ Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-acco
 
 #### :material-information-outline:{ .pg-blue } Додаткова функціональність
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/posts/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
 Tuta doesn't offer a digital legacy feature.
 

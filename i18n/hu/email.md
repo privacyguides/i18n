@@ -181,7 +181,7 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -189,9 +189,10 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a biztonságra és az adatvédelemre összpontosít. A Tuta **2011** óta működik, székhelye Hannoverben, Németországban található. Free accounts start with 1GB of storage.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. A Tuta **2011** óta működik, székhelye Hannoverben, Németországban található. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -214,7 +215,7 @@ A **Tuta** egy olyan e-mail szolgáltatás, amely a titkosításon keresztül a 
 
 </div>
 
-A Tuta nem támogatja az [IMAP protokollt](https://tuta.com/faq/#imap) vagy a harmadik féltől származó [e-mail kliensek](email-clients.md) használatát, és [külső e-mail fiókokat](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) sem tud hozzáadni a Tuta alkalmazáshoz. Az [e-mail import](https://github.com/tutao/tutanota/issues/630) jelenleg szintén nem támogatott, bár ez [hamarosan megváltozik](https://tuta.com/blog/posts/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } Egyedi domainek és álnevek
 
@@ -222,7 +223,7 @@ Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and u
 
 #### :material-information-outline:{ .pg-blue } Privát fizetési módok
 
-A Tuta közvetlenül csak hitelkártyákat és PayPal-t fogad el, azonban a [kriptovaluta](cryptocurrency.md) a Proxystore-ral való [partnerségen](https://tuta.com/faq/#cryptocurrency) keresztül ajándékkártyák vásárlására is használható.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
@@ -242,7 +243,7 @@ Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-acco
 
 #### :material-information-outline:{ .pg-blue } További funkciók
 
-A Tuta az üzleti verzióját [nonprofit szervezetek számára](https://tuta.com/blog/posts/secure-email-for-non-profit) ingyenesen vagy jelentős kedvezménnyel kínálja.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
 A Tuta nem kínál digitális örökség funkciót.
 

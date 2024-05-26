@@ -102,7 +102,7 @@ MFA를 구성할 때 명심해야 하는 것은, '사용하는 방식 중 가장
 
 여러분은 항상 자신이 사용하는 MFA를 백업해두어야 합니다. 하드웨어 보안 키는 세월이 지나며 분실, 도난, 혹은 단순 고장이 발생할 수 있습니다. 계정 접근 권한이 동일한 하드웨어 보안 키를 (예비용을 포함해) 두 개씩 마련해야 합니다.
 
-TOTP 인증 앱을 사용하는 경우, 복구 키 혹은 앱 자체를 백업하거나, 다른 휴대폰에 설치한 앱이나 (VeraCrypt 등을 이용한) 별도 암호화 저장소에 '공유 비밀 키(Shared Secret Key)'를 복사해둬야 합니다.
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### 초기 설정
 

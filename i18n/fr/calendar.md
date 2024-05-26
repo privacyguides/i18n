@@ -11,9 +11,10 @@ Les calendriers contiennent certaines de vos données les plus sensibles ; utili
 
 <div class="admonition recommendation" markdown>
 
-![logo Tuta](assets/img/calendar/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offre un calendrier gratuit et chiffré sur toutes les plateformes prises en charge. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
 Les calendriers multiples et la fonctionnalité de partage étendue sont réservés aux abonnés payants.
 
@@ -28,9 +29,9 @@ Les calendriers multiples et la fonctionnalité de partage étendue sont réserv
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-windows11: Windows](https://tuta.com/blog/desktop-clients)
+- [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
+- [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
 - [:octicons-browser-16: Web](https://app.tuta.com)
 

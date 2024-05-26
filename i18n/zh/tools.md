@@ -103,7 +103,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[了解更多 :hero-arrow-circle-right-fill:](dns.md#self-hosted-solutions)
+[了解更多 :hero-arrow-circle-right-fill:](dns.md#self-hosted-dns-filtering)
 
 ### DNS
 
@@ -111,7 +111,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -218,7 +218,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/calendar/tuta.svg){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
 - ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
@@ -274,7 +274,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. 这些工具包含在操作系统中，通常使用硬件加密组件，如TPM，而其它的全盘加密软件如VeraCrypt则没有。 VeraCrypt仍然适用于加密非系统盘，如外部驱动器，特别是那些可能会从多个操作系统来访问的驱动器。
 
-[了解更多 :hero-arrow-circle-right-fill:](encryption.md##operating-system-included-full-disk-encryption-fde)
+[了解更多 :hero-arrow-circle-right-fill:](encryption.md#os-full-disk-encryption)
 
 </details>
 
@@ -501,7 +501,7 @@ These tools may provide utility for certain individuals. They provide functional
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 - ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify (iOS)](device-integrity.md#iverify-ios)
+- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify Basic (iOS)](device-integrity.md#iverify-basic-ios)
 
 </div>
 

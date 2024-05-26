@@ -74,7 +74,7 @@ Proton VPN 在 [91 個國家/地區設有伺服器](https://protonvpn.com/vpn-se
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-截至 2020 年 1 月， Proton VPN 已通過 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以在 [protonvpn.com](https://protonvpn.com/blog/open-source) 查看各個平臺的報告。 2022 年 4 月，Proton VPN 接受了[另一次審計](https://protonvpn.com/blog/no-logs-audit)，[報告由 Securitum 製作](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf)。 [Securitum](https://research.securitum.com) 於 2021 年 11 月 9 日簽發 Proton VPN 的[應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
+截至 2020 年 1 月， Proton VPN 已通過 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以在 [protonvpn.com](https://protonvpn.com/blog/open-source) 查看各個平臺的報告。 In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). [Securitum](https://research.securitum.com) 於 2021 年 11 月 9 日簽發 Proton VPN 的[應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
 #### :material-check:{ .pg-green } 開源客戶端
 

@@ -74,7 +74,7 @@ Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) or [
 
 #### :material-check:{ .pg-green } נבדק באופן עצמאי
 
-החל מינואר 2020, Proton VPN עבר ביקורת בלתי תלויה על ידי SEC Consult. SEC Consult מצא כמה נקודות תורפה בסיכון בינוני ונמוך ביישומי Windows, Android ו-iOS של Proton VPN, שכולן תוקנו כראוי על ידי Proton VPN לפני פרסום הדוחות. אף אחת מהבעיות שזוהו לא הייתה מספקת לתוקף גישה מרחוק למכשיר או לתעבורה שלך. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). [מכתב אישור](https://proton.me/blog/security-audit-all-proton-apps) סופק עבור האפליקציות של Proton VPN ב-9 בנובמבר 2021 על ידי [Securitum](https://research.securitum.com).
+החל מינואר 2020, Proton VPN עבר ביקורת בלתי תלויה על ידי SEC Consult. SEC Consult מצא כמה נקודות תורפה בסיכון בינוני ונמוך ביישומי Windows, Android ו-iOS של Proton VPN, שכולן תוקנו כראוי על ידי Proton VPN לפני פרסום הדוחות. אף אחת מהבעיות שזוהו לא הייתה מספקת לתוקף גישה מרחוק למכשיר או לתעבורה שלך. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). [מכתב אישור](https://proton.me/blog/security-audit-all-proton-apps) סופק עבור האפליקציות של Proton VPN ב-9 בנובמבר 2021 על ידי [Securitum](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } לקוחות קוד פתוח
 

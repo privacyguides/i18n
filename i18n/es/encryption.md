@@ -341,7 +341,7 @@ gpg --quick-gen-key alice@example.com future-default
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-Sugerimos [Canary Mail](email-clients.md#canary-mail) para utilizar PGP con el correo electrónico en dispositivos iOS.
+We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with email on iOS devices.
 
 </div>
 
@@ -349,7 +349,7 @@ Sugerimos [Canary Mail](email-clients.md#canary-mail) para utilizar PGP con el c
 
 ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** proporciona soporte OpenPGP para [Apple Mail](email-clients.md#apple-mail) y macOS.
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and macOS.
 
 Recomendamos echar un vistazo a sus [Primeros pasos](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) y [Base de conocimientos](https://gpgtools.tenderapp.com/kb) para obtener ayuda.
 
@@ -373,7 +373,7 @@ Recomendamos echar un vistazo a sus [Primeros pasos](https://gpgtools.tenderapp.
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** es una implementación de GnuPG para Android. Es comúnmente requerido por clientes de correo como [K-9 Mail](email-clients.md#k-9-mail) y [FairEmail](email-clients.md#fairemail) y otras aplicaciones Android para proporcionar soporte de cifrado. Cure53 completó una [auditoría de seguridad](https://openkeychain.org/openkeychain-3-6) de OpenKeychain 3.6 en octubre de 2015. Los detalles técnicos sobre la auditoría y las soluciones de OpenKeychain pueden consultarse [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** es una implementación de GnuPG para Android. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail-android) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 completó una [auditoría de seguridad](https://openkeychain.org/openkeychain-3-6) de OpenKeychain 3.6 en octubre de 2015. Los detalles técnicos sobre la auditoría y las soluciones de OpenKeychain pueden consultarse [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 [:octicons-home-16: Página Principal](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Política de Privacidad" }

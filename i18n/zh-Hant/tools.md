@@ -103,7 +103,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 </div>
 
-[了解更多 :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[了解更多 :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
 
 ### 電子郵件
 
@@ -111,7 +111,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -218,7 +218,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/calendar/tuta.svg){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
 - ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
@@ -274,7 +274,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 若要加密作業系統磁碟，通常建議使用作業系統提供的加密工具，無論是 Windows 的 **BitLocker**、macOS**FileVault** 或 Linux **LUKS**。 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
 
-[了解更多 :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+[了解更多 :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
 
 </details>
 
@@ -501,7 +501,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 - ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify (iOS)](device-integrity.md#iverify-ios)
+- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify Basic (iOS)](device-integrity.md#iverify-basic-ios)
 
 </div>
 

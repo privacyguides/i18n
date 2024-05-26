@@ -102,7 +102,7 @@ Configurando il tuo metodo AFM, tieni a mente che è sicuro soltanto quanto il m
 
 Dovresti sempre avere dei backup per il tuo metodo di AFM. Le chiavi di sicurezza potrebbero essere perdute, rubate o semplicemente smettere di funzionare nel tempo. Consigliamo di avere una coppia di chiavi di sicurezza con lo stesso accesso ai tuoi profili, anziché una sola.
 
-Utilizzando TOTP con un'app d'autenticazione, assicurati di eseguire il backup delle tue chiavi di recupero o della stessa app, o di copiare i "codici segreti condivisi" in un'altra istanza dell'app su un telefono differente o in un contenitore crittografato (es. [VeraCrypt](../encryption.md#veracrypt)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### Configurazione iniziale
 

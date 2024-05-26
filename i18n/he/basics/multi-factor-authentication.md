@@ -102,7 +102,7 @@ WebAuthn היא הצורה המאובטחת והפרטית ביותר של אי�
 
 תמיד אמורים להיות לך גיבויים לשיטת ה-MFA שלך. מפתחות אבטחה של חומרה יכולים ללכת לאיבוד, להיגנב או פשוט להפסיק לעבוד עם הזמן. מומלץ שיהיה לך זוג מפתחות אבטחה חומרה עם אותה גישה לחשבונות שלך במקום רק אחד.
 
-בעת שימוש ב-TOTP עם אפליקציית אימות, הקפד לגבות את מפתחות השחזור שלך או את האפליקציה עצמה, או העתק את "הסודות המשותפים" למופע אחר של האפליקציה בטלפון אחר או למיכל מוצפן (למשל,[VeraCrypt](../encryption.md#veracrypt)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### הגדרה ראשונית
 

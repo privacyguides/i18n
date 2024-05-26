@@ -341,15 +341,15 @@ gpg --quick-gen-key alice@example.com future-default
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-אנו מציעים [Canary Mail](email-clients.md#canary-mail) לשימוש ב-PGP עם אימייל במכשירי iOS.
+We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with email on iOS devices.
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![GPG Suite לוגו](assets/img/encryption-software/gpgsuite.png){ align=right }
+![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** מספקת תמיכה ב-OpenPGP עבור [Apple Mail](email-clients.md#apple-mail) ו-macOS.
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and macOS.
 
 אנו ממליצים להסתכל על [השלבים הראשונים](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup- gpgtools-create-a-new-key-your-first-encrypted-email) ו-[בסיס ידע](https://gpgtools.tenderapp.com/kb) לתמיכה.
 
@@ -373,7 +373,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![OpenKeychain לוגו](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** הוא יישום אנדרואיד של GnuPG. זה נדרש בדרך כלל על ידי לקוחות דואר כגון [K-9 Mail](email-clients.md#k-9-mail) ו- [FairEmail](email-clients.md#fairemail) ואפליקציות Android אחרות כדי לספק תמיכה בהצפנה. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. פרטים טכניים על הביקורת והפתרונות של OpenKeychain ניתן למצוא [כאן](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** הוא יישום אנדרואיד של GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail-android) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. פרטים טכניים על הביקורת והפתרונות של OpenKeychain ניתן למצוא [כאן](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }

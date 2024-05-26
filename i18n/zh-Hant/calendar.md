@@ -11,9 +11,10 @@ cover: calendar.webp
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** 在其支援平台上提供免費加密的行事曆。 功能包括：所有資料自動 E2EEZ、共享、匯入/匯出、多因素驗證[等等](https://tuta.com/calendar-app-comparison/)。
+**Tuta** offers a free and encrypted calendar across their supported platforms. 功能包括：所有資料自動 E2EEZ、共享、匯入/匯出、多因素驗證[等等](https://tuta.com/calendar-app-comparison/)。
 
 多個行事曆和擴展共享功能僅限於付費訂閱者。
 
@@ -24,15 +25,15 @@ cover: calendar.webp
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-windows11: Windows](https://tuta.com/blog/desktop-clients)
+- [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
+- [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-- [:octicons-browser-16: 網頁版](https://app.tuta.com)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 

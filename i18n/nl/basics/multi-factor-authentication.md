@@ -120,7 +120,7 @@ Wanneer je jouw MFA-methode configureert, moet je in gedachten houden dat deze s
 
 Je moet altijd back-ups hebben voor jouw MFA-methode. Hardwaresleutels kunnen zoekraken, gestolen worden of na verloop van tijd niet meer werken. Het is aan te bevelen om een paar hardware beveiligingssleutels te hebben met dezelfde toegang tot jouw accounts in plaats van slechts één.
 
-Wanneer je TOTP gebruikt met een authenticatie app, zorg er dan voor dat je een back-up maakt van jouw herstel sleutels of de app zelf, of kopieer de "gedeelde geheimen" naar een ander exemplaar van de app op een andere telefoon of naar een versleutelde container (bijv. [VeraCrypt](../encryption.md#veracrypt)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 
 

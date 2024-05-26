@@ -11,7 +11,8 @@ Kalenders en contactpersonen bevatten enkele van jouw gevoeligste gegevens; gebr
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/calendar/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
 **Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
@@ -28,9 +29,9 @@ Meerdere kalenders en uitgebreide functionaliteit voor delen zijn beperkt tot be
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-windows11: Windows](https://tuta.com/blog/desktop-clients)
+- [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
+- [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
 - [:octicons-browser-16: Web](https://app.tuta.com)
 

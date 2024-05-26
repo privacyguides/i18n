@@ -11,9 +11,10 @@ cover: calendar.webp
 
 <div class="admonition recommendation" markdown>
 
-![Tuta לוגו](assets/img/calendar/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** מציעה לוח שנה בחינם ומוצפן על פני הפלטפורמות הנתמכות שלהם. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
 מספר לוחות שנה ופונקציונליות שיתוף מורחבת מוגבלים למנויים בתשלום.
 
@@ -28,9 +29,9 @@ cover: calendar.webp
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-apple: macOS](https://tuta.com/blog/posts/desktop-clients)
-- [:simple-linux: Linux](https://tuta.com/blog/posts/desktop-clients)
+- [:simple-windows11: Windows](https://tuta.com/blog/desktop-clients)
+- [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
+- [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
 - [:octicons-browser-16: Web](https://app.tuta.com)
 

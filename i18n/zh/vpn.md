@@ -74,7 +74,7 @@ We also think it's better for the security of the VPN provider's private keys if
 
 #### :material-check:{ .pg-green } Independently Audited
 
-截至2020年1月，Proton VPN已经接受了SEC咨询公司的独立审计。 SEC Consult在Proton VPN的Windows、Android和iOS应用程序中发现了一些中度和低度风险的漏洞，在报告发布前，Proton VPN都已经 "妥善修复"。 所发现的问题中没有任何一个能让攻击者远程访问你的设备或流量。 You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit) and the report was [produced by Securitum](https://protonvpn.com/blog/wp-content/uploads/2022/04/securitum-protonvpn-nologs-20220330.pdf). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+截至2020年1月，Proton VPN已经接受了SEC咨询公司的独立审计。 SEC Consult在Proton VPN的Windows、Android和iOS应用程序中发现了一些中度和低度风险的漏洞，在报告发布前，Proton VPN都已经 "妥善修复"。 所发现的问题中没有任何一个能让攻击者远程访问你的设备或流量。 You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } Open-Source Clients
 

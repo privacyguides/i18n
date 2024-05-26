@@ -102,7 +102,7 @@ När du konfigurerar din MFA-metod, kom ihåg att den bara är lika säker som d
 
 Du bör alltid ha säkerhetskopior av din MFA-metod. Säkerhetsnycklar för maskinvara kan förloras, stjälas eller helt enkelt sluta fungera med tiden. Det rekommenderas att du har ett par hårdvarusäkerhetsnycklar med samma åtkomst till dina konton istället för bara en.
 
-När du använder TOTP med en autentiseringsapp ska du se till att säkerhetskopiera dina återställningsnycklar eller själva appen, eller kopiera de "delade hemligheterna" till en annan instans av appen på en annan telefon eller till en krypterad behållare (t.ex. [VeraCrypt](../encryption.md#veracrypt)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### Inledande inställning
 

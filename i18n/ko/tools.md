@@ -103,7 +103,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[자세히 알아보기 :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[자세히 알아보기 :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
 
 ### 이메일
 
@@ -111,7 +111,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -218,7 +218,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/calendar/tuta.svg){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
 - ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
@@ -274,7 +274,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. 이러한 툴들은 운영 체제에 기본적으로 포함되어 있으며, VeraCrypt와 같은 디스크 암호화 프로그램들과 달리 TPM과 같은 하드웨어를 이용하여 암호화합니다. VeraCrypt는 운영체제가 설치되지 않은 디스크에 사용하는 데에는 적합합니다. 특히, 다양한 운영체제에서 사용할 외장 하드에 사용할 수 있습니다.
 
-[자세히 알아보기 :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+[자세히 알아보기 :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
 
 </details>
 
@@ -501,7 +501,7 @@ These tools may provide utility for certain individuals. They provide functional
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 - ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify (iOS)](device-integrity.md#iverify-ios)
+- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify Basic (iOS)](device-integrity.md#iverify-basic-ios)
 
 </div>
 

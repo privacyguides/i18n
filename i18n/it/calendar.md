@@ -11,9 +11,10 @@ I calendari contengono alcuni dei tuoi dati più sensibili; utilizza prodotti ch
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Tuta](assets/img/calendario/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offre un calendario gratuito e criptato su tutte le loro piattaforme supportate. Le caratteristiche includono: E2EE automatica di tutti i dati, funzioni di condivisione, importazione/esportazione, autenticazione a più fattori e [altro](https://tuta.com/it/calendar-app-comparison).
+**Tuta** offers a free and encrypted calendar across their supported platforms. Le caratteristiche includono: E2EE automatica di tutti i dati, funzioni di condivisione, importazione/esportazione, autenticazione a più fattori e [altro](https://tuta.com/it/calendar-app-comparison).
 
 Calendari multipli e funzionalità di condivisione estese sono limitate agli abbonati a pagamento.
 
@@ -24,14 +25,14 @@ Calendari multipli e funzionalità di condivisione estese sono limitate agli abb
 [:octicons-heart-16:](https://tuta.com/it/community){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota&gl=IT)
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/tuta-encrypted-email-app/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/it/blog/desktop-clients/)
-- [:simple-apple: macOS](https://tuta.com/it/blog/desktop-clients/)
-- [:simple-linux: Linux](https://tuta.com/it/blog/desktop-clients/)
-- [:simple-flathub: Flathub](https://flathub.org/it/apps/com.tutanota.Tutanota)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
+- [:simple-windows11: Windows](https://tuta.com/blog/desktop-clients)
+- [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
+- [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
+- [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
 - [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>

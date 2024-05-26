@@ -189,7 +189,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -197,9 +197,10 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** 使用加密、關注安全和隱私的電子郵件服務。 Tuta 自 **2011 年** 開始運營，總部位於德國漢諾威。 Free accounts start with 1GB of storage.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta 自 **2011 年** 開始運營，總部位於德國漢諾威。 Free accounts start with 1GB of storage.
 
 [:octicons-home-16: 首頁](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
@@ -222,7 +223,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 </div>
 
-Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。 目前不支援[匯入電子郵件](https://github.com/tutao/tutanota/issues/630) ，但這點很快就[會改善](https://tuta.com/blog/posts/kickoff-import)。 Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 
 
@@ -234,7 +235,7 @@ Tuta 不支援 [ IMAP 協議](https://tuta.com/faq/#imap) 或使用第三方 [�
 
 #### :material-information-outline:{ .pg-blue } 私密付款方式
 
-Tuta 僅接受信用卡和 PayPal ，但 [加密貨幣](cryptocurrency.md) 可用於通過其[ 合作伙伴 Proxystore ](https://tuta.com/faq/#cryptocurrency) 購買禮品卡。
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
 
 
 
@@ -264,7 +265,7 @@ Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-acco
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/posts/secure-email-for-non-profit) 或大幅折扣。
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
 Tuta 不提供數位遺產功能。
 

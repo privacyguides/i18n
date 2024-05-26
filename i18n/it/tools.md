@@ -103,15 +103,15 @@ Per ulteriori dettagli su ogni progetto, perché è stato scelto e ulteriori con
 
 </div>
 
-[Scopri di più :material-arrow-right-drop-circle:](dns.md#self-hosted-solutions)
+[Scopri di più :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
 
 ### Email
 
 <div class="grid cards" markdown>
 
-- ![Logo di Proton Mail](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
-- ![Logo di Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Logo di Tuta](assets/img/email/tuta.svg){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -218,8 +218,8 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 <div class="grid cards" markdown>
 
-- ![Logo di Tuta](assets/img/calendar/tuta.svg){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
-- ![Logo di Proton Calendar](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](calendar.md#tuta)
+- ![Proton Calendar logo](assets/img/calendar/proton-calendar.svg){ .twemoji loading=lazy } [Proton Calendar](calendar.md#proton-calendar)
 
 </div>
 
@@ -274,7 +274,7 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 Per crittografare l'unità del sistema operativo, in genere si consiglia di utilizzare qualsiasi strumento di crittografia fornito dal sistema operativo, che si tratti di **BitLocker** su Windows, **FileVault** su macOS o **LUKS** su Linux. Questi strumenti sono inclusi con il sistema operativo e, tipicamente, utilizzano elementi crittografici hardware come TPM, a differenza di altri software crittografici a disco intero, come VeraCrypt. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
 
-[Scopri di più :material-arrow-right-drop-circle:](encryption.md##operating-system-included-full-disk-encryption-fde)
+[Scopri di più :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
 
 </details>
 
@@ -497,11 +497,11 @@ Questi strumenti possono essere utili per alcuni individui. Forniscono funzional
 
 <div class="grid cards" markdown>
 
-- ![Logo di MVT](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
-- ![Logo di iMazing](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Logo di Auditor](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Logo di Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
-- ![Logo di Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Logo di Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![Logo di iVerify](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify (iOS)](device-integrity.md#iverify-ios)
+- ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
+- ![iVerify logo](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify Basic (iOS)](device-integrity.md#iverify-basic-ios)
 
 </div>
 

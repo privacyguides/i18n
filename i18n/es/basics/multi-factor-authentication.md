@@ -102,7 +102,7 @@ Al configurar tu método MFA, ten en cuenta que es tan seguro como el método de
 
 Siempre debes tener copias de seguridad de tu método MFA. Las llaves de seguridad de hardware pueden perderse, ser robadas o simplemente dejar de funcionar con el tiempo. Se recomienda tener un par de llaves de seguridad de hardware con el mismo acceso a tus cuentas en lugar de una sola.
 
-Cuando utilices TOTP con una aplicación de autenticación, asegúrate de hacer una copia de seguridad de tus claves de recuperación o de la propia aplicación, o de copiar los "secretos compartidos" a otra instancia de la aplicación en un teléfono diferente o a un contenedor cifrado (por ejemplo, [VeraCrypt](../encryption.md#veracrypt)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### Configuración Inicial
 

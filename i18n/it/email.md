@@ -181,7 +181,7 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 <div class="grid cards" markdown>
 
-- ![Logo Tuta](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -189,9 +189,10 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Tuta](assets/img/email/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta è operativo dal **2011** e ha sede ad Hannover, in Germania. Gli account gratuiti partono da 1 GB di spazio di archiviazione.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta è operativo dal **2011** e ha sede ad Hannover, in Germania. Gli account gratuiti partono da 1 GB di spazio di archiviazione.
 
 [:octicons-home-16: Homepage](https://tuta.com/it){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/it/privacy-policy){ .card-link title="Termini e condizioni" }
@@ -214,7 +215,7 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 </div>
 
-Tuta non supporta il [protocollo IMAP](https://tuta.com/faq/#imap) o l'utilizzo di [client email](email-clients.md) di terze parti e, inoltre, non potrai aggiungere [account email esterni](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) all'app di Tuta. [L'importazione di email](https://github.com/tutao/tutanota/issues/630) non è attualmente supportata, anche se questo aspetto è destinato ad [essere modificato](https://tuta.com/blog/posts/kickoff-import). Le email possono essere esportate [singolarmente o tramite selezione multipla](https://tuta.com/support#generalMail) per cartella, il che può risultare scomodo se si hanno molte cartelle.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Le email possono essere esportate [singolarmente o tramite selezione multipla](https://tuta.com/support#generalMail) per cartella, il che può risultare scomodo se si hanno molte cartelle.
 
 #### :material-check:{ .pg-green } Domini e Alias personalizzati
 
@@ -222,7 +223,7 @@ Gli account Tuta a pagamento possono utilizzare 15 o 30 alias a seconda del pian
 
 #### :material-information-outline:{ .pg-blue } Metodi di pagamento privati
 
-Tuta accetta diretti soltanto carte di credito e PayPal, tuttavia, le [criptovalute](cryptocurrency.md) sono utilizzabili per acquistare carte regalo tramite la loro [collaborazione](https://tuta.com/faq/#cryptocurrency) con Proxystore.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
@@ -242,7 +243,7 @@ Tuta cancellerà gli  [account gratuiti](https://tuta.com/support#inactive-accou
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
-Tuta offre la versione aziendale di [Tuta alle organizzazioni non profit](https://tuta.com/blog/posts/secure-email-for-non-profit) gratuitamente o con un ottimo sconto.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
 Tuta non offre una funzionalità di eredità digitale.
 

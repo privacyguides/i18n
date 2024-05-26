@@ -215,13 +215,13 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 
 Hypatia is particularly good at detecting common stalkerware: If you suspect you are a victim of stalkerware, you should [visit this page](https://stopstalkerware.org/information-for-survivors) for advice.
 
-### iVerify (iOS)
+### iVerify Basic (iOS)
 
 <div class="admonition recommendation" markdown>
 
 ![logo iVerify](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** est une application iOS qui analyse automatiquement votre appareil pour vérifier les paramètres de configuration, le niveau des correctifs et d'autres aspects de la sécurité. Il vérifie également que votre appareil ne présente pas d'indicateurs de compromission par des outils de jailbreak ou des logiciels espions tels que Pegasus.
+**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. Il vérifie également que votre appareil ne présente pas d'indicateurs de compromission par des outils de jailbreak ou des logiciels espions tels que Pegasus.
 
 [:octicons-home-16: Homepage](https://iverify.io/consumer){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
@@ -236,8 +236,10 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 </div>
 
-Comme toutes les applications iOS, iVerify est limité à ce qu'il peut observer sur votre appareil depuis l'iOS App Sandbox. Elle ne fournira pas une analyse aussi solide qu'un outil d'analyse de système complet tel que [MVT](#mobile-verification-toolkit). Sa fonction première est de détecter si votre appareil est jailbreaké, ce qu'elle fait efficacement, mais une menace hypothétique conçue _spécifiquement_ pour contourner les contrôles d'iVerify y parviendrait probablement.
+Previously, iVerify would scan your device for threats automatically in the background and notify you if one is found, but this is [no longer the case](https://discuss.privacyguides.net/t/iverify-basic-is-now-available-on-android/18458/11) following their rebrand of the consumer app to _iVerify Basic_ in May 2024. You can still run manual scans within the app. Automatic background scanning is now only available in iVerify's enterprise product which is unavailable to consumers.
 
-iVerify n'est **pas** un outil "antivirus" et ne détectera pas les logiciels malveillants non liés au système, tels que les claviers personnalisés malveillants ou les synchronisations de configurations Wi-Fi malveillantes, par exemple.
+Like all iOS apps, iVerify Basic is restricted to what it can observe about your device from within the iOS App Sandbox. Elle ne fournira pas une analyse aussi solide qu'un outil d'analyse de système complet tel que [MVT](#mobile-verification-toolkit). Sa fonction première est de détecter si votre appareil est jailbreaké, ce qu'elle fait efficacement, mais une menace hypothétique conçue _spécifiquement_ pour contourner les contrôles d'iVerify y parviendrait probablement.
 
-Outre l'analyse de l'appareil, iVerify comprend également un certain nombre d'utilitaires de sécurité supplémentaires qui peuvent s'avérer utiles, notamment des rappels de redémarrage de l'appareil, des notifications de mise à jour iOS (qui sont souvent plus rapides que les notifications de mise à jour échelonnées d'Apple), des guides de base sur la confidentialité et la sécurité, et un outil DNS over HTTPS qui peut connecter les requêtes [DNS](dns.md) de votre appareil de manière sécurisée à Quad9, Cloudflare, ou Google.
+iVerify Basic is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
+
+In addition to device scanning, iVerify Basic also includes a number of additional security utilities which you may find useful, including device [reboot reminders](os/ios-overview.md#before-first-unlock), iOS update notifications (which are often faster than Apple's staggered update notification rollout), and some basic privacy and security guides.

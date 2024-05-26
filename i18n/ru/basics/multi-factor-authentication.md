@@ -102,7 +102,7 @@ FIDO2 и WebAuthn обладают превосходными свойствам
 
 Вы всегда должны иметь резервные копии для своего метода МФА. Аппаратные ключи безопасности могут потеряться, быть украдены или просто перестать работать со временем. Рекомендуется иметь пару аппаратных ключей безопасности, которые дублируют друг друга, вместо одного.
 
-При использовании TOTP с приложением-аутентификатором обязательно создайте резервную копию ключей восстановления или самого приложения, или скопируйте "общие секреты" в другое приложения на другом телефоне или в зашифрованный контейнер (например, [VeraCrypt](../encryption.md#veracrypt)).
+When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### Первоначальная настройка
 

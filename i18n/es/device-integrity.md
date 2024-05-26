@@ -215,13 +215,13 @@ El uso de estas aplicaciones no basta para determinar que un dispositivo está "
 
 Hypatia es especialmente buena en la detección de stalkerware común: Si sospechas que eres víctima de stalkerware, deberías [visitar esta página](https://stopstalkerware.org/information-for-survivors) para obtener asesoramiento.
 
-### iVerify (iOS)
+### iVerify Basic (iOS)
 
 <div class="admonition recommendation" markdown>
 
 ![logo de iVerify](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** es una aplicación para iOS que escanea de manera automática tu dispositivo para revisar los ajustes de la configuración, el nivel de parche y otras áreas de seguridad. Esta también revisa tu dispositivo por indicadores de compromiso de herramientas de jailbreak o programas de espionaje como Pegasus.
+**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. Esta también revisa tu dispositivo por indicadores de compromiso de herramientas de jailbreak o programas de espionaje como Pegasus.
 
 [:octicons-home-16: Página Principal](https://iverify.io/consumer){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -236,8 +236,10 @@ Hypatia es especialmente buena en la detección de stalkerware común: Si sospec
 
 </div>
 
-Como todas las aplicaciones de iOS, iVerify está limitada a lo que puede observar sobre tu dispositivo desde el iOS App Sandbox. No proporcionará un análisis tan sólido como una herramienta de análisis de sistema completo como [MVT](#mobile-verification-toolkit). Su función principal es detectar si tu dispositivo tiene jailbreak, para lo cual es eficaz, sin embargo, una hipotética amenaza que esté _específicamente_ diseñada para eludir las comprobaciones de iVerify probablemente lo conseguiría.
+Previously, iVerify would scan your device for threats automatically in the background and notify you if one is found, but this is [no longer the case](https://discuss.privacyguides.net/t/iverify-basic-is-now-available-on-android/18458/11) following their rebrand of the consumer app to _iVerify Basic_ in May 2024. You can still run manual scans within the app. Automatic background scanning is now only available in iVerify's enterprise product which is unavailable to consumers.
 
-iVerify **no** es una herramienta "antivirus", y no detectará malware no relacionado con el sistema, como teclados personalizados maliciosos o configuraciones Wi-Fi Sync maliciosas, por ejemplo.
+Like all iOS apps, iVerify Basic is restricted to what it can observe about your device from within the iOS App Sandbox. No proporcionará un análisis tan sólido como una herramienta de análisis de sistema completo como [MVT](#mobile-verification-toolkit). Su función principal es detectar si tu dispositivo tiene jailbreak, para lo cual es eficaz, sin embargo, una hipotética amenaza que esté _específicamente_ diseñada para eludir las comprobaciones de iVerify probablemente lo conseguiría.
 
-Además del escaneo del dispositivo, iVerify también incluye una serie de utilidades de seguridad adicionales que pueden resultarte útiles, como recordatorios de reinicio del dispositivo, notificaciones de actualización de iOS (que suelen ser más rápidas que el despliegue escalonado de notificaciones de actualización de Apple), algunas guías básicas de privacidad y seguridad, y una herramienta DNS sobre HTTPS que puede conectar las consultas [DNS](dns.md) de tu dispositivo de forma segura a Quad9, Cloudflare o Google.
+iVerify Basic is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
+
+In addition to device scanning, iVerify Basic also includes a number of additional security utilities which you may find useful, including device [reboot reminders](os/ios-overview.md#before-first-unlock), iOS update notifications (which are often faster than Apple's staggered update notification rollout), and some basic privacy and security guides.

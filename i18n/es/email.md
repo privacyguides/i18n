@@ -181,7 +181,7 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg){ .twemoji } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -189,9 +189,10 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva en funcionamiento desde **2011** y tiene su sede en Hanóver, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
+**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta lleva en funcionamiento desde **2011** y tiene su sede en Hanóver, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
 
 [:octicons-home-16: Página principal](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Política de privacidad" }
@@ -214,7 +215,7 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 </div>
 
-Tuta no admite el [protocolo IMAP](https://tuta.com/faq/#imap) ni el uso de [clientes de correo electrónico](email-clients.md) de terceros, y tampoco podrás añadir [cuentas de correo electrónico externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) a la aplicación Tuta. [La importación de correo electrónico](https://github.com/tutao/tutanota/issues/630) tampoco es compatible en la actualidad, aunque está [previsto que se modifique](https://tuta.com/blog/posts/kickoff-import). Los correos electrónicos pueden ser exportados [individual o grupalmente](https://tuta.com/support#generalMail) por carpeta, lo que puede ser poco conveniente si tienes varias carpetas.
+Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Los correos electrónicos pueden ser exportados [individual o grupalmente](https://tuta.com/support#generalMail) por carpeta, lo que puede ser poco conveniente si tienes varias carpetas.
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
@@ -222,7 +223,7 @@ Las cuentas de pago de Tuta cuentan con 15 o 30 alias dependiendo del plan y ali
 
 #### :material-information-outline:{ .pg-blue } Métodos de pago privados
 
-Tuta solo acepta directamente tarjetas de crédito y PayPal, sin embargo, la [criptomoneda](cryptocurrency.md) se puede usar para comprar tarjetas de regalo a través de su [asociación](https://tuta.com/faq/#cryptocurrency) con Proxystore.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
@@ -242,7 +243,7 @@ Tuta [elimina las cuentas gratuitas inactivas](https://tuta.com/support#inactive
 
 #### :material-information-outline:{ .pg-blue } Funciones adicionales
 
-Tuta ofrece la versión empresarial de [Tuta para organizaciones sin ánimo de lucro](https://tuta.com/blog/posts/secure-email-for-non-profit) de forma gratuita o con un importante descuento.
+Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
 Tuta no ofrece una función de legado digital.
 
