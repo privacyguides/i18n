@@ -221,7 +221,7 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 ![Logo iVerify](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. Inoltre, controlla il dispositivo alla ricerca di indicatori di compromissione da parte di strumenti di jailbreak o spyware come Pegasus.
+**iVerify Basic** è un'applicazione per iOS in grado di scansionare il tuo dispositivo per verificare le impostazioni di configurazione, il livello di patch e altre aree di sicurezza. Inoltre, controlla il dispositivo alla ricerca di indicatori di compromissione da parte di strumenti di jailbreak o spyware come Pegasus.
 
 [:octicons-home-16: Homepage](https://iverify.io/consumer){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
@@ -236,10 +236,10 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 </div>
 
-Previously, iVerify would scan your device for threats automatically in the background and notify you if one is found, but this is [no longer the case](https://discuss.privacyguides.net/t/iverify-basic-is-now-available-on-android/18458/11) following their rebrand of the consumer app to _iVerify Basic_ in May 2024. You can still run manual scans within the app. Automatic background scanning is now only available in iVerify's enterprise product which is unavailable to consumers.
+In precedenza, iVerify analizzava automaticamente il tuo dispositivo alla ricerca di minacce in background e ti avvisava se ne trovava una, ma [non è più così](https://discuss.privacyguides.net/t/iverify-basic-is-now-available-on-android/18458/11) a seguito del rebrand dell'app per i consumatori in _iVerify Basic_ nel maggio 2024. Puoi comunque eseguire scansioni manuali all'interno dell'applicazione. La scansione automatica in background è ora disponibile solo nella versione aziendale di iVerify, non disponibile per i consumatori.
 
-Like all iOS apps, iVerify Basic is restricted to what it can observe about your device from within the iOS App Sandbox. Non fornirà un'analisi robusta come quella di uno strumento di analisi dell'intero sistema come [MVT](#mobile-verification-toolkit). La sua funzione principale è rilevare se il tuo dispositivo ha subito il jailbreak, cosa in cui è efficiente, tuttavia, una minaccia ipotetica progettata _specificamente_ per superare i controlli di iVerify, potebbe riuscire nel proprio intento.
+Come tutte le app per iOS, iVerify Basic è limitato a ciò che può osservare sul tuo dispositivo dall'interno dell'App Sandbox di iOS. Non fornirà un'analisi robusta come quella di uno strumento di analisi dell'intero sistema come [MVT](#mobile-verification-toolkit). La sua funzione principale è rilevare se il tuo dispositivo ha subito il jailbreak, cosa in cui è efficiente, tuttavia, una minaccia ipotetica progettata _specificamente_ per superare i controlli di iVerify, potebbe riuscire nel proprio intento.
 
-iVerify Basic is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
+iVerify Basic non è uno strumento "antivirus" e non è in grado di rilevare malware non a livello di sistema, come ad esempio tastiere personalizzate o configurazioni Wi-Fi Sync dannose.
 
-In addition to device scanning, iVerify Basic also includes a number of additional security utilities which you may find useful, including device [reboot reminders](os/ios-overview.md#before-first-unlock), iOS update notifications (which are often faster than Apple's staggered update notification rollout), and some basic privacy and security guides.
+Oltre alla scansione del dispositivo, iVerify Basic include anche una serie di strumenti aggiuntivi per la sicurezza che potrebbero risultarti utili, tra cui i [promemoria per il riavvio] del dispositivo (os/ios-overview.md#before-first-unlock), le notifiche di aggiornamento di iOS (che spesso sono più rapide rispetto al rollout scaglionato degli aggiornamenti di Apple) e alcune guide basilari sulla privacy e sulla sicurezza.

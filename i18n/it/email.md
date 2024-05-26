@@ -181,7 +181,7 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Logo di Tuta](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Logo di Tuta](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -189,10 +189,10 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Logo di Tuta](assets/img/email/tuta.svg#only-light){ align=right }
+![Logo di Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta è operativo dal **2011** e ha sede ad Hannover, in Germania. Gli account gratuiti partono da 1 GB di spazio di archiviazione.
+**Tuta** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta è operativo dal **2011** e ha sede ad Hannover, in Germania. Gli account gratuiti partono da 1 GB di spazio di archiviazione.
 
 [:octicons-home-16: Homepage](https://tuta.com/it){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/it/privacy-policy){ .card-link title="Termini e condizioni" }

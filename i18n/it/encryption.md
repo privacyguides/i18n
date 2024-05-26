@@ -341,15 +341,15 @@ gpg --quick-gen-key alice@example.com future-default
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with email on iOS devices.
+Consigliamo [Canary Mail] (email-clients.md#canary-mail-ios) per utilizzare PGP con le email sui dispositivi iOS.
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
+![Logo di GPG Suite](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and macOS.
+**GPG Suite** fornisce supporto OpenPGP per [Apple Mail](email-clients.md#apple-mail-macos) e macOS.
 
 Consigliamo di dare un'occhiata ai loro [Primi passi](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) e alla loro [Base di Conoscenza](https://gpgtools.tenderapp.com/kb) per supporto.
 
