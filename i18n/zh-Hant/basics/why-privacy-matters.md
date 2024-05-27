@@ -27,7 +27,7 @@ icon: 'material/shield-account'
 憑證證明您直接與正在訪問的網站對話，防止網路攻擊者讀取或修改與網站之間交流通訊的資料。
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**匿名**
 :
 
 匿名指沒有一個長期可識別的身份 您可以使用 [Tor](../tor.md) 達成此目的，它允許您使用隨機 IP 地址與網路連接與瀏覽網際網路而不是自己的 IP。

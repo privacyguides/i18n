@@ -17,7 +17,7 @@ icon: material/hand-coin
 
 在大多數雜貨店和便利店用現金購買禮品卡和預付卡相對簡單。 禮品卡通常不收取費用，但預付卡通常會收取費用，因此請留意其費用和到期日期。 為了減少欺詐行為，部分商店可能會在結帳時要求查看身分證件。
 
-禮品卡通常每張上限為 200美元，有些禮品卡上限到 2,000 美元。 Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+禮品卡通常每張上限為 200美元，有些禮品卡上限到 2,000 美元。 預付卡（例如： Visa 或 Mastercard ）通常卡片額度為 1,000 美元。
 
 禮品卡的缺點是受商家政策的約束，這些政策可能有糟糕的條款和限制。 例如，有些商家不接受禮品卡付款，或者對高風險用戶取消禮品卡的價值。 一旦您拿了由商家信用擔保的禮品卡，商家就會對這筆金額有強烈的控制權。
 
@@ -76,7 +76,7 @@ icon: material/hand-coin
 
 ### 取得
 
-私下購買 [加密貨幣](../cryptocurrency.md) ，如Monero 可能很困難。 P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. 如果使用需要 KYC的交易所是您可接受的風險(只要隨後的交易無法追蹤)。一個更容易的方式是從 [Kraken](https://kraken.com)等交易所購買 Monero ，或者從 KYC 交易所購買比特幣/萊特幣，然後兌換為 Monero。 然後，您可以將購入的 Monero 提取到自己的非保管錢包，以便 日後私下使用。
+私下購買 [加密貨幣](../cryptocurrency.md) ，如Monero 可能很困難。 P2P 交易市場，為促進人群交易的平台，也是個可考慮的選擇。 如果使用需要 KYC的交易所是您可接受的風險(只要隨後的交易無法追蹤)。一個更容易的方式是從 [Kraken](https://kraken.com)等交易所購買 Monero ，或者從 KYC 交易所購買比特幣/萊特幣，然後兌換為 Monero。 然後，您可以將購入的 Monero 提取到自己的非保管錢包，以便 日後私下使用。
 
 如果您選擇這條路線，請確保以不同的時間和額度購買與用掉Monero 。 如果你在交易所購買 5000 美元的 Monero ，並在一個小時後花掉這筆錢，外部觀察者會將這些行為作關聯，無關 Monero 走的是通道。 驚人的購買和提前購買大量的Monero 以支應之後小額交易，可以避免這種陷阱。
 

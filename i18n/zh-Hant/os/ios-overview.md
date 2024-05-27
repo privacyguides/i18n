@@ -40,7 +40,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 #### iCloud+
 
-付費 **iCloud+** 訂閱（任何 iCloud 存儲方案）附帶一些隱私保護功能。 While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
+付費 **iCloud+** 訂閱（任何 iCloud 存儲方案）附帶一些隱私保護功能。 雖然這些能為當前 iCloud 客戶提供足夠服務，但不建議通過 [VPN](../vpn.md) 購買 iCloud 方案，和將 [獨立電子郵件別名服務](../email-aliasing.md)僅用在這些功能。
 
 **Private Relay** 為代理服務，通過兩台伺服器中繼 Safari 流量：一台由 Apple 擁有，另一台由第三方提供商（包括 Akamai、Cloudflare 和 Fastly）擁有 ）。 理論上這應該可以防止鏈中的任何單一提供商（包括 Apple）完全了解您連線訪問的網站。 與完整的 VPN 不同，Private Relay 不會保護 Safari 以外其它應用程式的流量。
 

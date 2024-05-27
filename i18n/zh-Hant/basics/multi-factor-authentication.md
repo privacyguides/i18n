@@ -102,7 +102,7 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
 
 您應該始終備份您的 MFA 方法。 硬體安全金鑰可能會丟失、被盜或隨著時間的推移而停止運作。 建議您擁有一對具有相同帳戶存取權限的硬體安全金鑰，而不僅僅是一個。
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+使用TOTP 和驗證器應用程式時，請確保備份恢復金鑰或應用程式，或將"共享密文"複製到不同手機上的另一個應用程式實例或加密容器中（例如[VeraCrypt](../encryption.md#veracrypt-disk)）。
 
 ### 初始設定
 
