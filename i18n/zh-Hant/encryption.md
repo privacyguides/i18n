@@ -287,7 +287,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb** 是 LUKS 的命令行 shell 包裝器。 It supports steganography via [third-party tools](https://dyne.org/software/tomb/#advanced-usage).
+**Tomb** 是 LUKS 的命令行 shell 包裝器。 它通過 [第三方工具](https://dyne.org/software/tomb/#advanced-usage) 支持隱寫。
 
 [:octicons-home-16: Homepage](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title=Documentation}
@@ -368,7 +368,7 @@ gpg --quick-gen-key alice@example.com future-default
 <div class="admonition note" markdown>
 <p class="admonition-title">Note "備註"</p>
 
-We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with email on iOS devices.
+建議 [Canary Mail](email-clients.md#canary-mail-ios) 在 iOS 裝置上使用 PGP 和電子郵件。
 
 </div>
 
@@ -376,7 +376,7 @@ We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with em
 
 ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and macOS.
+**GPG Suite** 爲 [Apple Mail](email-clients.md#apple-mail-macos) 和macOS 提供 OpenPGP。
 
 我們建議您查看他們的 [第一步指南](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email)和 [使用知識庫](https://gpgtools.tenderapp.com/kb) 以取得支援。
 
@@ -400,7 +400,7 @@ We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with em
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** 是 GnuPG 的Android 實作。 It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail-android) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 於2015年10月完成了 OpenKeychain 3.6 的 [安全審核](https://openkeychain.org/openkeychain-3-6)。 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
+**OpenKeychain** 是 GnuPG 的Android 實作。 郵件客戶端通常需要它，例如 [K-9 Mail](email-clients.md#k-9-mail-android) 和 [FairEmail](email-clients.md#fairemail-android) 以及其他 Android 應用程序提供加密支持。 Cure53 於2015年10月完成了 OpenKeychain 3.6 的 [安全審核](https://openkeychain.org/openkeychain-3-6)。 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }

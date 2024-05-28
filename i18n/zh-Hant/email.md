@@ -19,11 +19,11 @@ global:
 
 除此之外，我們還推薦各種基於可持續商業模式和內置安全和隱私功能的電子郵件提供商。 閱讀我們的 [完整列表標準](#criteria) 以獲取更多信息。
 
-| 提供商                         | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | 匿名支付                          |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | 現金                            |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | 現金                            |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
+| 提供商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | Zero Access Encryption                            | 匿名支付                |
+| --------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                  |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                  |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | 透過第三方 Monero & Cash |
 
 除（或代替）此處推薦的電子郵件提供者之外，可能還希望考慮使用專門的[電子郵件別名服務](email-aliasing.md)來保護隱私。 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
 

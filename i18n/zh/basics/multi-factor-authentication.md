@@ -120,10 +120,6 @@ When using TOTP with an authenticator app, be sure to back up your recovery keys
 
 除了保护你的网站登录之外，多因素认证还可以用来保护你的本地登录、SSH密钥甚至是密码数据库。
 
-### Windows 系统
-
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
-
 ### mac系统
 
 macOS [原生支持](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 使用智能卡（PIV）进行认证。 如果你有一张支持PIV接口的智能卡或硬件安全钥匙，如YubiKey，我们建议你按照你的智能卡/硬件安全供应商的文档，为你的macOS电脑设置第二要素认证。

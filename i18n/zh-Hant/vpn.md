@@ -74,7 +74,7 @@ Proton VPN 在 [91 個國家/地區設有伺服器](https://protonvpn.com/vpn-se
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-截至 2020 年 1 月， Proton VPN 已通過 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以在 [protonvpn.com](https://protonvpn.com/blog/open-source) 查看各個平臺的報告。 In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). [Securitum](https://research.securitum.com) 於 2021 年 11 月 9 日簽發 Proton VPN 的[應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
+截至 2020 年 1 月， Proton VPN 已通過 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以在 [protonvpn.com](https://protonvpn.com/blog/open-source) 查看各個平臺的報告。 2022 年 4 月，Proton VPN 接受[另一次審核](https://protonvpn.com/blog/no-logs-audit)。 [Securitum](https://research.securitum.com) 於 2021 年 11 月 9 日簽發 Proton VPN 的[應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
 #### :material-check:{ .pg-green } 開源客戶端
 
@@ -110,7 +110,7 @@ Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protoco
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-Proton VPN clients support two factor authentication on all platforms. Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外，Proton VPN 還提供 "Tor" 伺服器，可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](tor.md#tor-browser) 來完成此類目的。
 
 ##### :material-alert-outline:{ .pg-orange } Killswitch 無法在基於 Intel 處理器的 Mac 電腦上使用
 
@@ -122,7 +122,7 @@ Proton VPN clients support two factor authentication on all platforms. Proton VP
 
 ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** 是另一個高級 VPN 提供商，自 2009 年開始運營。 IVPN is based in Gibraltar and does not offer a free trial.
+**IVPN** 是另一個高級 VPN 提供商，自 2009 年開始運營。 IVPN 位於直布羅陀，不提供免費試用。
 
 [:octicons-home-16: 首頁](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="隱私權政策" }
@@ -162,7 +162,7 @@ IVPN 已通過 [Cure53 的無日誌審計](https://cure53.de/audit-report_ivpn.p
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+除了接受信用卡/簽帳卡和 PayPal 外，IVPN 還接受比特幣、**Monero** 和 **現金/當地貨幣** (僅限年度方案) 作為匿名付款方式。 [也提供](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).帶有兌換代碼的預付卡。
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
@@ -172,7 +172,7 @@ IVPN [建議](https://ivpn.net/wireguard)搭配 WireGuard 使用，IVPN 在所�
 
 #### :material-information-outline:{ .pg-blue } 支援 IPv6
 
-IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
+IVPN 可以[透過 IPv6 連接到服務](https://ivpn.net/knowledgebase/general/do-you-support-ipv6)，但無法從僅支援 IPv6 的裝置連線。
 
 #### :material-alert-outline:{ .pg-orange } 遠端端口轉發
 
@@ -188,7 +188,7 @@ IVPN 使用 [v2ray](https://v2ray.com/en/index.html) 的混淆模式，這有助
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-IVPN clients support two factor authentication. IVPN 有「[反追蹤](https://ivpn.net/antitracker)」功能，以阻絕來自網路層的廣告與追蹤。
+IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn.net/antitracker)」功能，以阻絕來自網路層的廣告與追蹤。
 
 ### Mullvad
 
@@ -196,7 +196,7 @@ IVPN clients support two factor authentication. IVPN 有「[反追蹤](https://i
 
 ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 自 **2009 年** 開始運營。 Mullvad is based in Sweden and does not offer a free trial.
+**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 自 **2009 年** 開始運營。 Mullvad 總部位於瑞典，不提供免費試用。
 
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
@@ -245,7 +245,7 @@ Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers.
+除了接受信用卡/簽帳卡和 PayPal 外， Mullvad 還接受比特幣, Bitcoin Cash **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 也提供帶有兌換代碼的預付卡。 Mullvad 也接受 Swish 和銀行電匯。
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 

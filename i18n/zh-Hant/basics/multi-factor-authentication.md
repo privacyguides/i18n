@@ -120,10 +120,6 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
 
 除了保護您的網站登錄外，多因素身份驗證還可用於保護您的本地設備的登錄、 SSH 密鑰甚至密碼資料庫。
 
-### Windows 作業系統
-
-Yubico 有專門的 [憑證提供者](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) ，為本地 Windows 帳戶在登錄流程添加了Challenge-Response 驗證。 如果持有具 Challenge-Response 驗證支援的 YubiKey ，請查看 [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide)，該指南將協助您在 Windows 電腦上設置MFA。
-
 ### macOS
 
 macOS 具有 [原生支援](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 用於使用智慧卡(PIV)進行驗證。 如果您有支援 PIV 介面的智慧卡或硬體安全金鑰(例如 YubiKey) ，建議您遵循智慧卡/硬體安全供應商的文件，為您的macOS 電腦設定第二要素驗證。

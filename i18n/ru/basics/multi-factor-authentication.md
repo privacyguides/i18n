@@ -120,10 +120,6 @@ When using TOTP with an authenticator app, be sure to back up your recovery keys
 
 Многофакторная аутентификация может использоваться не только для защиты логинов на сайте, но и для защиты локальных логинов, ключей SSH и даже баз данных паролей.
 
-### Windows
-
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
-
 ### macOS
 
 В macOS есть [нативная поддержка](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) аутентификации с помощью смарт-карт (PIV). Если у вас есть смарт-карта или аппаратный ключ безопасности, поддерживающий интерфейс PIV (например YubiKey), мы рекомендуем вам следовать документации производителя смарт-карты/аппаратного ключа безопасности и настроить двухфакторную аутентификацию на компьютере с macOS.

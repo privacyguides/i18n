@@ -146,12 +146,6 @@ Naast het beveiligen van jouw website logins, kan multifactor authenticatie ook 
 
 
 
-### Windows
-
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
-
-
-
 ### macOS
 
 macOS heeft [native ondersteuning](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) voor authenticatie met smartcards (PIV). Indien je een smartcard of een hardware beveiligingssleutel heeft die de PIV interface ondersteunt, zoals de YubiKey, raden wij je aan om de documentatie van jouw smartcard/hardware beveiligingsleverancier te volgen en tweede factor authenticatie voor jouw macOS computer in te stellen.

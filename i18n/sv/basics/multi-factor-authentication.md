@@ -120,10 +120,6 @@ Om du använder SMS MFA, använd en operatör som inte byter ditt telefonnummer 
 
 Flerfaktorsautentisering kan användas för att säkra lokala inloggningar, SSH-nycklar eller till och med lösenordsdatabaser.
 
-### Windows
-
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
-
 ### macOS
 
 macOS har [inbyggt stöd](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) för autentisering med smarta kort (PIV). Om du har ett smartkort eller en hårdvarunyckel som stöder PIV-gränssnittet, till exempel YubiKey, rekommenderar vi att du följer dokumentationen från leverantören av smartkortet eller hårdvarunyckeln och konfigurerar andrafaktorsautentisering för din macOS-dator.

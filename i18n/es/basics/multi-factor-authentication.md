@@ -120,10 +120,6 @@ Si usas MFA de SMS, utiliza un operador que no cambie tu número de teléfono a 
 
 Además de proteger tus inicios de sesión del sitio web, la autenticación de múltiples factores también se puede utilizar para proteger tus inicios de sesión locales, claves SSH o incluso bases de datos de contraseñas.
 
-### Windows
-
-Yubico tiene un [Proveedor de Credenciales](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) dedicado que añade la autenticación Challenge-Response para el flujo de inicio de sesión con nombre de usuario + contraseña para las cuentas locales de Windows. Si tienes una YubiKey con soporte de autenticación Challenge-Response, echa un ojo a la [Guía de Configuración de Yubico Login para Windows](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), que te permitirá configurar MFA en tu ordenador Windows.
-
 ### macOS
 
 macOS tiene [soporte nativo](https://support.apple.com/es-es/guide/deployment/depd0b888248/web) para la autenticación con tarjetas inteligentes (PIV). Si tienes una tarjeta inteligente o una llave de seguridad de hardware compatible con la interfaz PIV como la YubiKey, te recomendamos que sigas la documentación de tu tarjeta inteligente/vendedor de seguridad de hardware y configures la autenticación de segundo factor para tu ordenador macOS.

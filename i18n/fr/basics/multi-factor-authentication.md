@@ -120,10 +120,6 @@ Si vous utilisez la MFA par SMS, utilisez un opérateur qui ne changera pas votr
 
 Au-delà de la simple sécurisation des connexions à votre site web, l'authentification multifactorielle peut être utilisée pour sécuriser vos connexions locales, vos clés SSH ou même vos bases de données de mots de passe.
 
-### Windows
-
-Yubico dispose d'un [fournisseur d'identifiants](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) dédié qui ajoute l'authentification à épreuve-réponse pour le flux de connexion nom d'utilisateur + mot de passe pour les comptes Windows locaux. Si vous avez une YubiKey avec la prise en charge de l'authentification à épreuve-réponse, jetez un œil au [Guide de configuration de login Yubico pour Windows](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), qui vous permettra de configurer la MFA sur votre ordinateur Windows.
-
 ### macOS
 
 macOS dispose d'un [support natif](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) pour l'authentification par carte à puce (PIV). Si vous avez une carte à puce ou une clé de sécurité matérielle qui prend en charge l'interface PIV telle que la YubiKey, nous vous recommandons de suivre la documentation de votre fournisseur de sécurité de carte à puce/matérielle et de configurer l'authentification à second facteur pour votre ordinateur macOS.

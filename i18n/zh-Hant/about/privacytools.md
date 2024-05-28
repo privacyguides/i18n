@@ -48,11 +48,11 @@ Reddit要求 subreddit 有活躍的版主。 如果主要主持人長期不活�
 
 2021 年 9 月 14 日，我們[宣布](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides)開始遷移到這個新的域名：
 
-> [...] 我們認為有必要儘早轉換，以確保人們很快就會發現這個過渡的變化。 This gives us adequate time to transition the domain name, which is currently redirecting to `www.privacyguides.org`, and it hopefully gives everyone enough time to notice the change, update bookmarks and websites, etc.
+> [...] 我們認為有必要儘早轉換，以確保人們很快就會發現這個過渡的變化。 這給我們足夠的時間來轉換網域名稱，它目前正在重定向到`www.privacyguides.org `，並希望它能給每個人足夠的時間來注意變化，更新書籤和網站等。
 
 此更改[需要：](https://reddit.com/comments/pnhn4a)
 
-- Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
+- 重定向` www.privacytools.io `到 [www.privacyguides.org](https://www.privacyguides.org)。
 - 在GitHub上存檔源代碼，以保存我們過去的工作和問題跟蹤器，我們繼續使用這個網站未來幾個月的開發。
 - 向我們的 subreddit 和各種其他社區發布公告，通知人們官方變更。
 - 正式關閉 privacytools.io 服務，如 Matrix 和 Mastodon ，並鼓勵現有用戶盡快遷移。
@@ -63,7 +63,7 @@ Reddit要求 subreddit 有活躍的版主。 如果主要主持人長期不活�
 
 過渡約一周後， BurungHantu 近一年內再次出現，但由於他過去不可靠的記錄，團隊中沒有人願意回到 PrivacyTools。 他沒有為長期缺席道歉，而是立即發起攻勢，將向過渡至 Privacy Guides 定位為對他個人和他的項目之攻擊。 隨後當社區指出他缺席並放棄此專案時， [刪除](https://reddit.com/comments/pp9yie/comment/hd49wbn) 許多這類發文。
 
-At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). 我們答應了他的請求，並要求他保持 Matrix ， Mastodon 和PeerTube 的子域名活躍，讓我們社區可維持幾個月的公共服務，以便這些平臺上的用戶輕鬆遷移到其他帳戶。 由於我們提供服務的聯邦性質，它們與特定的域名相關聯，因此很難遷移（在某些情況下是不可能的）。
+此時， BurungHantu 聲稱他會繼續開發 privacytools.io ，並要求我們取消把 `www.privacytools.io`重定向到 [www.privacyguides.org](https://www.privacyguides.org)。 我們答應了他的請求，並要求他保持 Matrix ， Mastodon 和PeerTube 的子域名活躍，讓我們社區可維持幾個月的公共服務，以便這些平臺上的用戶輕鬆遷移到其他帳戶。 由於我們提供服務的聯邦性質，它們與特定的域名相關聯，因此很難遷移（在某些情況下是不可能的）。
 
 不幸的是，由於r/privacytoolsIO subreddit的控制權沒有依BurungHantu 的要求歸還給他（詳細信息如下），這些子域名在10月初被 [切斷](https://reddit.com/comments/pymthv/comment/hexwrps) ，扼阻了仍在使用這些服務的用戶的遷移。
 
@@ -83,7 +83,7 @@ BurungHantu 還發布一篇 [推特帖子](https://twitter.com/privacytoolsIO/st
 
 > [...] Sub 的發展是 PrivacyGuides.org 團隊多年來付出巨大努力的結果。 以你們每一個人，
 > 
-> Subreddit 需要大量的工作來管理和控制。 像花園一樣，它需要細心照顧和日常護理。 It's not a task for dilettantes or commitment-challenged people. 它在園丁的遺棄下繼續茁壯成長，然後遺棄者又突然出現要求把收成當作自己的貢獻，這是不合理的。 It's unfair to the team formed years ago. 這對你不公平。 [...]
+> Subreddit 需要大量的工作來管理和控制。 像花園一樣，它需要細心照顧和日常護理。 這個任務並不適合放蕩或有承諾問題的人。 它在園丁的遺棄下繼續茁壯成長，然後遺棄者又突然出現要求把收成當作自己的貢獻，這是不合理的。 這對幾年前組建的團隊不公平。 這對你不公平。 [...]
 
 Subreddit不屬於任何人，尤其不屬於品牌持有者。 他們屬於他們的社區，社區及其主持人決定支持轉移到r/PrivacyGuides。
 
@@ -99,7 +99,7 @@ Subreddit不屬於任何人，尤其不屬於品牌持有者。 他們屬於他�
 
 因此， OpenCollective 的資金屬於Privacy Guides 以資助我們的項目，而不是為人所知的域名所有者。 2021年9月17日向捐贈者發布的公告，我們向任何不同意此立場的捐贈者提供退款，但沒人提出退費：
 
-> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
+> 如果任何贊助者或支持者不同意或感覺被最近這些事件誤導，且因為這些非常不尋常的情況要求退款，請發送電子郵件至 `jonah@triplebit.net `與專案管理員聯繫。
 
 ## 延伸閱讀
 

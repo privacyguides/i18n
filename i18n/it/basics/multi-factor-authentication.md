@@ -120,10 +120,6 @@ Se utilizzi gli SMS per l'AFM, utilizza un operatore che non cambi il tuo numero
 
 Oltre a proteggere i tuoi accessi ai siti web, l'autenticazione a più fattori è utilizzabile per proteggere i tuoi accessi locali, le chiavi SSH o persino i database di password.
 
-### Windows
-
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
-
 ### macOS
 
 macOS [supporta nativamente](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) l'autenticazione con smart card (PIV). Se possiedi una smartcard o una chiave di sicurezza hardware che supporta l'interfaccia PIV, come YubiKey, consigliamo di seguire la documentazione del tuo fornitore di sicurezza con smartcard/hardware e di configurare l'autenticazione a due fattori per il tuo computer macOS.

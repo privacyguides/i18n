@@ -120,10 +120,6 @@ When using TOTP with an authenticator app, be sure to back up your recovery keys
 
 מעבר לאבטחת כניסות האתר שלך בלבד, ניתן להשתמש באימות רב-גורמי כדי לאבטח את כניסותיך המקומיות, מפתחות SSH או אפילו מסדי נתונים של סיסמאות.
 
-### ווינדוס
-
-Yubico has a dedicated [Credential Provider](https://learn.microsoft.com/windows/win32/secauthn/credential-providers-in-windows) that adds Challenge-Response authentication for the username + password login flow for local Windows accounts. If you have a YubiKey with Challenge-Response authentication support, take a look at the [Yubico Login for Windows Configuration Guide](https://support.yubico.com/hc/articles/360013708460-Yubico-Login-for-Windows-Configuration-Guide), which will allow you to set up MFA on your Windows computer.
-
 ### macOS
 
 ל - macOS יש [תמיכה מקומית](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) לאימות עם כרטיסים חכמים (PIV). אם יש לך כרטיס חכם או מפתח אבטחה חומרה התומך בממשק PIV כגון YubiKey, אנו ממליצים לך לעקוב אחר התיעוד של ספק הכרטיס החכם/חומרה שלך ולהגדיר אימות גורם שני עבור מחשב macOS שלך.
