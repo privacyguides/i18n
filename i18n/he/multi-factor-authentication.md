@@ -104,13 +104,13 @@ The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports sys
 
 אנו ממליצים בחום להשתמש באפליקציות TOTP למכשירים ניידים במקום בחלופות לשולחן העבודה, מכיוון שלאנדרואיד ול-iOS יש אבטחה ובידוד אפליקציות טובים יותר מרוב מערכות ההפעלה השולחניות.
 
-### ente Auth
+### Ente Auth
 
 <div class="admonition recommendation" markdown>
 
-![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
 
-**ente Auth** is a free and open-source app which stores and generates TOTP tokens. ניתן להשתמש בו עם חשבון מקוון כדי לגבות ולסנכרן את האסימונים שלך בין המכשירים שלך (ולגשת אליהם דרך ממשק אינטרנט) בצורה מאובטחת ומוצפנת מקצה לקצה. ניתן להשתמש בו גם במצב לא מקוון במכשיר בודד ללא צורך בחשבון.
+**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. ניתן להשתמש בו עם חשבון מקוון כדי לגבות ולסנכרן את האסימונים שלך בין המכשירים שלך (ולגשת אליהם דרך ממשק אינטרנט) בצורה מאובטחת ומוצפנת מקצה לקצה. ניתן להשתמש בו גם במצב לא מקוון במכשיר בודד ללא צורך בחשבון.
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }

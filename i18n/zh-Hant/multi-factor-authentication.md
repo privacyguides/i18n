@@ -104,13 +104,13 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 
 我們強烈建議您使用行動 TOTP 應用程式而不是桌面替代方案，因為 Android 和 iOS 比大多數桌面作業系統具有更好的安全性和應用程式隔離性。
 
-### ente Auth
+### Ente Auth
 
 <div class="admonition recommendation" markdown>
 
-![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
 
-**ente Auth** 是一款免費的開源應用，可在行動裝置上儲存和產生 TOTP 令牌。 它可以與線上帳戶一起使用，以安全、端對端加密的方式在裝置上備份和同步令牌（並透過網頁介面存取它們）。 它也可在單一設備上離線使用，無需帳戶。
+**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. 它可以與線上帳戶一起使用，以安全、端對端加密的方式在裝置上備份和同步令牌（並透過網頁介面存取它們）。 它也可在單一設備上離線使用，無需帳戶。
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }

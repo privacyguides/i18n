@@ -7,14 +7,14 @@ cover: photo-management.webp
 
 La plupart des solutions cloud de gestion de photos, telles que Google Photos, Flickr et Amazon Photos, ne protègent pas vos photos contre l'accès par le fournisseur de stockage cloud lui-même. Ces options préservent la confidentialité de vos photos personnelles, tout en vous permettant de ne les partager qu'avec votre famille et des personnes de confiance.
 
-## ente
+## Ente Photos
 
 <div class="admonition recommendation" markdown>
 
-![Logo ente](assets/img/photo-management/ente.svg#only-light){ align=right }
-![Logo ente](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
+![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
+![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**ente** est un service de sauvegarde de photos chiffré de bout en bout qui prend en charge les sauvegardes automatiques sur iOS et Android. Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023. L'essai gratuite offre 1GB de stockage, pendant un an.
+**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023. The free trial offers 5GB of storage, for a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }

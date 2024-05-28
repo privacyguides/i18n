@@ -104,13 +104,13 @@ Les applications d'authentification implémentent une norme de sécurité adopt�
 
 Nous vous recommandons vivement d'utiliser des applications TOTP mobiles plutôt que des alternatives de bureau, car Android et IOS offrent une meilleure sécurité et une meilleure isolation des applications que la plupart des systèmes d'exploitation de bureau.
 
-### ente Auth
+### Ente Auth
 
 <div class="admonition recommendation" markdown>
 
-![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
 
-**ente Auth** is a free and open-source app which stores and generates TOTP tokens. Elle peut être utilisée avec un compte en ligne pour sauvegarder et synchroniser vos jetons sur tous vos appareils (et y accéder via une interface web) de manière sécurisée et chiffrée de bout en bout. Elle peut également être utilisée hors ligne sur un seul appareil, sans qu'aucun compte ne soit nécessaire.
+**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. Elle peut être utilisée avec un compte en ligne pour sauvegarder et synchroniser vos jetons sur tous vos appareils (et y accéder via une interface web) de manière sécurisée et chiffrée de bout en bout. Elle peut également être utilisée hors ligne sur un seul appareil, sans qu'aucun compte ne soit nécessaire.
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }

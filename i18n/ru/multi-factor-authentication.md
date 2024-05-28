@@ -104,13 +104,13 @@ Nitrokey's firmware is open source, unlike the YubiKey. Прошивка сов�
 
 Мы настоятельно рекомендуем вам использовать мобильные приложения TOTP вместо настольных альтернатив, поскольку Android и iOS имеют лучшую безопасность и изоляцию приложений, чем большинство настольных операционных систем.
 
-### ente Auth
+### Ente Auth
 
 <div class="admonition recommendation" markdown>
 
-![ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
 
-**ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
