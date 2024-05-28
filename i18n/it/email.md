@@ -64,7 +64,7 @@ Inoltre, OpenPGP non supporta la Forward Secrecy, ciò significa che se la chiav
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)

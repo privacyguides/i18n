@@ -168,7 +168,7 @@ Suggeriamo di installare [uBlock Origin](browser-extensions.md#ublock-origin) co
 
 Mull è dotato di impostazioni di protezione della privacy configurate di default. Si può prendere in considerazione la possibilità di configurare l'opzione **Elimina dati di navigazione all'uscita ** nelle impostazioni di Mull, se si desidera chiudere automaticamente tutte le schede aperte all'uscita dell'applicazione, oppure cancellare automaticamente altri dati come la cronologia di navigazione e i cookie.
 
-Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
+Poiché Mull ha attivato come impostazione predefinita protezioni della privacy più avanzate e rigorose rispetto alla maggior parte dei browser, alcuni siti web potrebbero non essere caricati o funzionare correttamente se non si regolano le impostazioni. È possibile consultare questo [elenco di problemi e soluzioni note](https://divestos.org/pages/broken#mull) per ottenere consigli su una possibile soluzione se incontri un sito non funzionante. La regolazione di un'impostazione per correggere un sito web potrebbe avere un impatto sulla tua privacy/sicurezza, quindi assicurati di aver compreso appieno le istruzioni che segui.
 
 ## iOS
 
