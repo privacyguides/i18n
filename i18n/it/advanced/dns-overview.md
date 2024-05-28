@@ -18,7 +18,7 @@ Di seguito, discutiamo e forniamo un tutorial per provare ciò che un osservator
 
 ### DNS non crittografato
 
-1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. Il comando registra i pacchetti che soddisfano le regole specificate:
+1. Utilizzando [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (parte del progetto [Wireshark](https://en.wikipedia.org/wiki/Wireshark)) possiamo monitorare e registrare il flusso di pacchetti Internet. Il comando registra i pacchetti che soddisfano le regole specificate:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -336,21 +336,21 @@ La [Sottorete del Client EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet)
 
 Esiste per "velocizzare" la consegna dei dati, dando al client una risposta appartenente a un server nei suoi pressi, come una [rete di consegna dei contenuti](https://en.wikipedia.org/wiki/Content_delivery_network), spesso utilizzate nello streaming di video e per servire app web in JavaScript.
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+Questa funzionalità ha un costo in termini di privacy, in quanto comunica al server DNS alcune informazioni sulla posizione del client, in genere la tua rete IP. Ad esempio, se il tuo indirizzo IP è `198.51.100.32`, il provider DNS potrebbe condividere `198.51.100.0/24` con il server autoritativo. Alcuni provider DNS anonimizzano questi dati fornendo un altro indirizzo IP approssimativamente vicino alla tua posizione.
 
-If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+Se hai installato `dig`, puoi verificare se il tuo provider DNS fornisce informazioni EDNS ai server dei nomi DNS con il seguente comando:
 
 ```bash
 dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+Si noti che questo comando contatterà Google per il test e restituirà il tuo IP e le informazioni sulla subnet del client EDNS. Se desideri testare un altro resolver DNS, è possibile specificare il suo IP, per testare ad esempio `9.9.9.11`:
 
 ```bash
 dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+Se i risultati includono un secondo record TXT edns0-client-subnet (come mostrato di seguito), il server DNS sta trasmettendo informazioni EDNS. L'IP o la rete mostrata dopo è l'informazione precisa che è stata condivisa con Google dal tuo provider DNS.
 
 ```text
 o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"
