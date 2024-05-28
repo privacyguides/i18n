@@ -6,19 +6,19 @@ description: Tor è una rete decentralizzata e libera, progettata per utilizzare
 
 ![Logo di Tor](../assets/img/self-contained-networks/tor.svg){ align=right }
 
-[**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. Se utilizzata adeguatamente, la rete consente navigazione e comunicazioni private e anonime. Poiché il traffico di Tor è difficile da bloccare e tracciare, è un efficace strumento di elusione della censura.
+[**Tor**](../alternative-networks.md#tor) è una rete decentralizzata e gratuita progettata per utilizzare Internet con la massima privacy possibile. Se utilizzata adeguatamente, la rete consente navigazione e comunicazioni private e anonime. Poiché il traffico di Tor è difficile da bloccare e tracciare, è un efficace strumento di elusione della censura.
 
-Tor works by routing your internet traffic through volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. In questo modo si offusca la provenienza del traffico e nessun server nel percorso di connessione è in grado di vedere il percorso completo del traffico proveniente e diretto, il che significa che nemmeno i server utilizzati per connettersi possono violare l'anonimato.
+Tor funziona instradando il traffico tramite questi server gestiti da volontari, invece di effettuare una connessione diretta al sito che stai provando a visitare. In questo modo si offusca la provenienza del traffico e nessun server nel percorso di connessione è in grado di vedere il percorso completo del traffico proveniente e diretto, il che significa che nemmeno i server utilizzati per connettersi possono violare l'anonimato.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servizio Onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentazione}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Codice sorgente" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribuisci }
 
 ## Connettersi in sicurezza a Tor
 
-Before connecting to Tor, you should carefully consider what you're looking to accomplish by using Tor in the first place, and who you're trying to hide your network activity from.
+Prima di connetterti a Tor, dovresti considerare attentamente cosa vuoi ottenere utilizzando Tor e a chi vuoi nascondere la tua attività in rete.
 
 Se vivi in un Paese libero, accedi a contenuti banali tramite Tor, non sei preoccupato che il tuo ISP o gli amministratori della rete locale sappiano che stai usando Tor e vuoi aiutare [a de-stigmatizzare](https://2019.www.torproject.org/about/torusers.html.en) l'uso di Tor, puoi probabilmente connetterti a Tor direttamente tramite mezzi standard come [Tor Browser](../tor.md) senza preoccupazioni.
 
@@ -31,7 +31,7 @@ Se hai la possibilità di accedere a un provider VPN affidabile e **qualsiasi** 
 
 Poiché abbiamo già [raccomandato in generale](../basics/vpn-overview.md) che la stragrande maggioranza delle persone utilizzi un provider VPN affidabile per una serie di motivi, la seguente raccomandazione sulla connessione a Tor tramite una VPN probabilmente si applica anche a te. <mark>Non è necessario disattivare la VPN prima di connettersi a Tor</mark>, come alcune risorse online potrebbero farti credere.
 
-Collegandosi direttamente a Tor, la tua connessione si farà notare dagli amministratori della rete locale o dal tuo ISP. Detecting and correlating this traffic [has been done](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in the past by network administrators to identify and deanonymize specific Tor users on their network. D'altra parte, la connessione a una VPN è quasi sempre meno sospetta, perché i fornitori VPN commerciali sono utilizzati dai consumatori di tutti i giorni per una serie di attività banali come l'aggiramento delle geo-restrizioni, anche in Paesi con forti restrizioni su Internet.
+Collegandosi direttamente a Tor, la tua connessione si farà notare dagli amministratori della rete locale o dal tuo ISP. Il rilevamento e la correlazione di questo traffico [è stato fatto](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) in passato dagli amministratori di rete per identificare e deanonimizzare specifici utenti Tor sulla loro rete. D'altra parte, la connessione a una VPN è quasi sempre meno sospetta, perché i fornitori VPN commerciali sono utilizzati dai consumatori di tutti i giorni per una serie di attività banali come l'aggiramento delle geo-restrizioni, anche in Paesi con forti restrizioni su Internet.
 
 Pertanto, dovresti fare uno sforzo per nascondere il tuo indirizzo IP **prima di** connetterti alla rete Tor. Puoi farlo semplicemente collegandoti a una VPN (tramite un client installato sul tuo computer) e poi accedere a [Tor](../tor.md) come di consueto, ad esempio tramite il Tor Browser. In questo modo si crea una catena di connessioni del tipo:
 
@@ -82,7 +82,7 @@ Come abbiamo già accennato, Tor è anche facilmente identificabile sulla rete. 
 
 ### L'utilizzo di Tor non è irrilevabile
 
-**Anche se utilizzi ponti e trasporti collegabili**, Tor Project non fornisce alcuno strumento per nascondere che tu stia utilizzando Tor dal tuo ISP. Nemmeno l'utilizzo di "trasporti collegabili" o di ponti non pubblici, nasconde il fatto che tu stia utilizzando un canale privato di comunicazione. The most popular pluggable transports like obfs4 (which obfuscates your traffic to "look like nothing") and meek (which uses domain fronting to camouflage your traffic) can be [detected](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) with fairly standard traffic analysis techniques. Snowflake has similar issues, and can be [easily detected](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *before* a Tor connection is even established.
+**Anche se utilizzi ponti e trasporti collegabili**, Tor Project non fornisce alcuno strumento per nascondere che tu stia utilizzando Tor dal tuo ISP. Nemmeno l'utilizzo di "trasporti collegabili" o di ponti non pubblici, nasconde il fatto che tu stia utilizzando un canale privato di comunicazione. I trasporti pluggable più popolari come obfs4 (che offusca il tuo traffico affinchè "non sembri nulla") e meek (che utilizza il domain fronting per mimetizzare il tuo traffico) possono essere [rilevati](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) con tecniche di analisi del traffico abbastanza standard. Snowflake presenta problemi simili e può essere [facilmente individuato](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) *prima ancora* che venga stabilita una connessione Tor.
 
 Esistono altri trasporti collegabili oltre questi tre, ma si affidano tipicamente alla sicurezza tramite l'oscuramento per eludere il rilevamento. Non sono impossibili da rilevare, sono semplicemente utilizzati da così poche persone, che non vale la pena creare dei rilevatori specifici. Non ci si dovrebbe affidare, specificamente se si è monitorati.
 
