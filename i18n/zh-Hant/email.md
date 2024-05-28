@@ -19,7 +19,7 @@ global:
 
 除此之外，我們還推薦各種基於可持續商業模式和內置安全和隱私功能的電子郵件提供商。 閱讀我們的 [完整列表標準](#criteria) 以獲取更多信息。
 
-| 提供商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | Zero Access Encryption                            | 匿名支付                |
+| 提供商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名支付                |
 | --------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ------------------- |
 | [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                  |
 | [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                  |
@@ -55,7 +55,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 自 **2013 年** 開始運營。 Proton AG 總部位於瑞士日內瓦。 The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 自 **2013 年** 開始運營。 Proton AG 總部位於瑞士日內瓦。 Proton Mail Free 方案隨附 500MB 的郵件儲存空間，可以免費增加至 1GB。
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -80,9 +80,9 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 免費帳戶有一些功能限制，例如無法搜索郵件正文內容，也無法無法使用 [Proton Mail Bridge](https://proton.me/mail/bridge)；後者是使用[建議的桌面郵件客戶端](email-clients.md) (例如 Thunderbird) 所需的。 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 Proton Mail 應用程式於 2021 年 11 月 9 日由 [Securitum](https://research.securitum.com) 提供[認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
-If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+如果您訂閱了 Proton Unlimited、Business 或 Visionary 方案，您還可以免費獲得 [SimpleLogin](email-aliasing.md#simplelogin) 的 Premium 會員。
 
-Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在 web app 下取消，作法: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
@@ -110,11 +110,11 @@ Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
-若您的付費帳戶逾期 14 天[未付款](https://proton.me/support/delinquency)，您將無法讀取自己的資料。 30 天後，您的帳戶將標記為欠費狀態，無法再收取郵件。 在此期間，我們會繼續向你收費。 Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+若您的付費帳戶逾期 14 天[未付款](https://proton.me/support/delinquency)，您將無法讀取自己的資料。 30 天後，您的帳戶將標記為欠費狀態，無法再收取郵件。 在此期間，我們會繼續向你收費。 Proton 會[刪除六個月未登入使用的免費帳戶](https://proton.me/support/inactive-accounts) 。 **不能**重複使用已停用帳號的電子郵件地址。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500GB of storage.
+Proton Mail [無限制](https://proton.me/support/proton-plans#proton-unlimited) 方案除了提供多個自定網域、無限制隱藏之外，還允許訪問其他 Proton 服務。
 
 Proton Mail 不提供數字遺產功能。
 
@@ -124,7 +124,7 @@ Proton Mail 不提供數字遺產功能。
 
 ![Mailbox.org 標誌](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** 電子郵件服務，專注於安全、無廣告和使用 100% 民間環保發電能源。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 Accounts start with up to 2GB storage, which can be upgraded as needed.
+**Mailbox.org** 電子郵件服務，專注於安全、無廣告和使用 100% 民間環保發電能源。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
 
 [:octicons-home-16: 首頁](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="隱私權政策" }
@@ -145,7 +145,7 @@ Mailbox.org 可使用自定域名，且支援 [捕獲所有](https://kb.mailbox.
 
 #### :material-check:{ .pg-green } 私人付款方式
 
-Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 不過他們可以收郵寄現金、銀行帳戶現金支付、銀行轉帳、信用卡、 PayPa l以及幾個德國特定處理商： paydirekt 和 Sofortüberweisung。
 
 #### :material-check:{ .pg-green } 帳號安全
 
@@ -169,7 +169,7 @@ Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.g
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+當合約結束時，帳戶將被設定為受限使用者帳戶。 [30天](https://kb.mailbox.org/en/private/ payment-article/what-happens-at-the-end-of-my-contract)後，它會被不可回復地刪除。
 
 
 
@@ -200,7 +200,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta 自 **2011 年** 開始運營，總部位於德國漢諾威。 Free accounts start with 1GB of storage.
+**Tuta** 電子郵件服務透由加密應用以專注安全和隱私。 Tuta 自 **2011 年** 開始運營，總部位於德國漢諾威。 免費帳戶提供 10GB 容量。
 
 [:octicons-home-16: 首頁](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
@@ -223,7 +223,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta 不支援 [ IMAP 協議](https://tuta.com/support#imap) 或使用第三方 [電子郵件客戶端](email-clients.md)，您也無法將 [外部電子郵件帳戶](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) 添加到 Tuta 應用程式。 目前不支援[匯入電子郵件](https://github.com/tutao/tutanota/issues/630) ，但這點很快就[會改善](https://tuta.com/blog/kickoff-import)。 電子郵件可以單個 [或選擇資料夾批量](https://tuta.com/support#generalMail)匯出 ，但若您有許多資料夾，可能會不方便。
 
 
 
@@ -235,19 +235,19 @@ Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the u
 
 #### :material-information-outline:{ .pg-blue } 私密付款方式
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
+Tuta 僅接受信用卡和 PayPal ，但 [加密貨幣](cryptocurrency.md) 可用於通過其[ 合作伙伴 Proxystore ](https://tuta.com/support/#cryptocurrency) 購買禮品卡。
 
 
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta 支援 TOTP 或 U2F 的 [雙因素驗證](https://tuta.com/support#2fa) 。
 
 
 
 #### :material-check:{ .pg-green } 資料安全
 
-Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+Tuta 為 郵件、 [通訊錄地址聯絡人](https://tuta.com/support#encrypted-address-book)以及[行事曆](https://tuta.com/support#calendar)提供[零存取加密](https://tuta.com/support#what-encrypted) 。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
 
 
 
@@ -259,13 +259,13 @@ Tuta [不使用 OpenPGP ](https://tuta.com/support/#pgp)。 只能透過 [臨時
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. 付費後，可以重用激活已停用的免費帳戶。
+Tuta [刪除六個月未登入使用的免費帳戶](https://tuta.com/support#inactive-accounts) 。 付費後，可以重用激活已停用的免費帳戶。
 
 
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-email-for-non-profit) 或大幅折扣。
 
 Tuta 不提供數位遺產功能。
 
@@ -313,7 +313,7 @@ Tuta 不提供數位遺產功能。
 
 ## 標準
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**請注意，我們與以下推薦的任何供應商並無瓜葛。** 除了 [我們的條件標準](about/criteria.md)外，我們還為任何希望獲得推薦的電子郵件供應商制定了一套明確要求，包括實施業界最佳做法，現代技術等。 我們建議您在選擇電子郵件提供商之前熟悉此列表，並進行自己的研究，以確保您選擇的電子郵件提供商是您的正確選擇。
 
 
 

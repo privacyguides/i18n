@@ -23,7 +23,7 @@ schema:
       url: "./"
 ---
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. 個人和組織還可以通過 Tor 網絡與“.onion 隱藏服務”分享資訊，而不會損害他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
+**Tor** 網絡是一組由志願者操作的伺服器，可讓您免費連線，並改善您的隱私權和安全性。 個人和組織還可以通過 Tor 網絡與“.onion 隱藏服務”分享資訊，而不會損害他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
 
 [詳細的 Tor 總覽  :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
 
@@ -40,7 +40,7 @@ schema:
 
 如果更完全的匿名至關重要，則應 **僅使用** 桌面版的 Tor 客戶端應用，最好再加上[Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) 一起搭配使用。 行動瀏覽器在 Tor 上不太常見（因此更容易識別指紋），且其他配置未經嚴格的去匿名化測試。
 
-## Tor Browser
+## Tor 瀏覽器
 
 <div class="admonition recommendation" markdown>
 
@@ -103,7 +103,7 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 </div>
 
-我們之前建議在 Orbot 設定中啟用 *隔離目標地址* 偏好設定。 雖然從理論上講，此設置可以強制您連接不同 IP地址使用不同的迴路來改善隱私，但它並未為大多數應用程式（特別是 Web瀏覽）提供實際優勢，可能會帶來顯著的效能拖累，增加 Tor 網絡的負載。 We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+我們之前建議在 Orbot 設定中啟用 *隔離目標地址* 偏好設定。 雖然從理論上講，此設置可以強制您連接不同 IP地址使用不同的迴路來改善隱私，但它並未為大多數應用程式（特別是 Web瀏覽）提供實際優勢，可能會帶來顯著的效能拖累，增加 Tor 網絡的負載。 我們不再建議您從預設值調整此設定，除非您知道需要調整。[^1]
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Android 提示</p>
@@ -139,4 +139,4 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 
 </div>
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: `IsolateDestAddr` 設定問題已在 [Tor 郵件群組](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) 中討論過而且在 [Whonix's 串流隔離文檔](https://whonix.org/wiki/Stream_Isolation)，兩項專案都認為對大多數人而言它並不是好方法。

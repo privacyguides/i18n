@@ -98,7 +98,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 #### Linux
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+許多 Linux 版本所使用的distributions DNS lookups `systemd-resolved`尚未[支援 DoH](https://github.com/systemd/systemd/issues/8639)。 如果要使用 DoH ，您需要安裝一個類似[dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)的代理，並[設定](https://wiki.archlinux.org/title/Dnscrypt-proxy) 系統解析器獲取所有 DNS 查詢，透過 HTTPS 轉發。
 
 ## 外部人士可以看到什麼？
 
@@ -384,9 +384,9 @@ QNAME 指 "合格域名"，例如 `discuss.privacyguides.net`. 過去，在解�
 
 它的目的是回答客戶端距離最靠近的伺服器以“加快”資料的傳遞，類似[內容傳遞網絡](https://en.wikipedia.org/wiki/Content_delivery_network)，後者通常用於視頻串流和 JavaScript Web 應用程序。
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+此功能確實以隱私為代價，因為它會告訴 DNS伺服器一些有關客戶端位置的資訊。 例如，如果 IP 位址是 `198.51.100.32`，DNS 提供者可能會與權威伺服器共用 `198.51.100.0/24`。 一些 DNS 提供者透過大約鄰近位置的另一個 IP 位址來匿名化此資料。
 
-If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+如果有安裝 `dig`，可以用以下命令測試 DNS 提供者是否向 DNS 名稱伺服器提供 EDNS 資訊：
 
 
 
@@ -395,7 +395,7 @@ dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
 
-Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+請注意，此命令將聯絡 Google 進行測試，並返回您的 IP 以及 EDNS 客戶端子網資訊。 如要測試另一個 DNS 解析器，可指定其 IP，例如測試 `9.9.9.11`：
 
 
 
@@ -404,7 +404,7 @@ dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +
 ```
 
 
-If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+如果結果包含第二筆 edns0-client-subnet TXT 記錄（如下所示），則您的 DNS 伺服器正在傳遞 EDNS 資訊。 後面顯示的 IP 或網路是您的 DNS 提供者與 Google 共享的準確資訊。
 
 
 
