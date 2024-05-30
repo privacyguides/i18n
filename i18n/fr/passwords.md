@@ -16,7 +16,7 @@ schema:
     name: Bitwarden
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
-    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    sameAs: https://fr.wikipedia.org/wiki/Bitwarden
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
       - Windows
@@ -141,7 +141,7 @@ Les gestionnaires de mots de passe vous permettent de stocker et de gérer en to
 
 Les gestionnaires de mots de passe intégrés dans des logiciels tels que les navigateurs et les systèmes d'exploitation ne sont parfois pas aussi performants que les logiciels de gestion de mots de passe dédiés. L'avantage d'un gestionnaire de mots de passe intégré est une bonne intégration avec le logiciel, mais il peut souvent être très simpliste et manquer de fonctions de confidentialité et de sécurité dont disposent les offres dissociées.
 
-Par exemple, le gestionnaire de mots de passe de Microsoft Edge ne propose pas du tout E2EE. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
+Par exemple, le gestionnaire de mots de passe de Microsoft Edge ne propose pas du tout E2EE. Le gestionnaire de mots de passe de Google a un chiffrement de bout en bout [optionnel](https://support.google.com/accounts/answer/11350823?hl=fr), et [celui d'Apple](https://support.apple.com/fr-fr/102651) le propose par défaut.
 
 </div>
 
@@ -153,17 +153,17 @@ Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveu
 
 <div class="admonition recommendation" markdown>
 
-![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
+![Logo de Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** is a free and open-source password and passkey manager. Il vise à résoudre les problèmes de gestion des mots de passe pour les individus, les équipes et les organisations commerciales. Bitwarden est l'une des solutions les plus simples et les plus sûres pour stocker tous vos identifiants et mots de passe tout en les synchronisant de manière pratique entre tous vos appareils.
+**Bitwarden** est un gestionnaire de mots de passe et de clés de passe gratuit et open-source. Il vise à résoudre les problèmes de gestion des mots de passe pour les individus, les équipes et les organisations commerciales. Bitwarden est l'une des solutions les plus simples et les plus sûres pour stocker tous vos identifiants et mots de passe tout en les synchronisant de manière pratique entre tous vos appareils.
 
-[:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://bitwarden.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
@@ -180,7 +180,7 @@ Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveu
 
 </div>
 
-Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). Un [mot de passe](https://bitwarden.com/help/send-privacy/#send-passwords) peut être demandé avec le lien d'envoi. Bitwarden Send dispose également d'une fonction de [suppression automatique](https://bitwarden.com/help/send-lifespan).
+Bitwarden propose également [Bitwarden Send](https://bitwarden.com/products/send), qui vous permet de partager du texte et des fichiers en toute sécurité avec un [chiffrement de bout en bout](https://bitwarden.com/help/send-encryption). Un [mot de passe](https://bitwarden.com/help/send-privacy/#send-passwords) peut être demandé avec le lien d'envoi. Bitwarden Send dispose également d'une fonction de [suppression automatique](https://bitwarden.com/help/send-lifespan).
 
 Vous devez disposer de [l'offre Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) pour pouvoir partager des fichiers. L'offre gratuite ne permet que le partage de texte.
 
@@ -196,17 +196,17 @@ Le code côté serveur de Bitwarden est [open source](https://github.com/bitward
 
 <div class="admonition recommendation" markdown>
 
-![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
+![Logo de Proton Pass](assets/img/password-management/protonpass.svg){ align=right }
 
-Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
+Proton Pass est un gestionnaire de mots de passe chiffré de bout en bout développé par Proton, l'équipe à l'origine de [Proton Mail](email.md#proton-mail). Il stocke en toute sécurité vos identifiants de connexion, génère des alias d'e-mail uniques, prend en charge et stocke des clés de passe, et offre un service basé en Suisse avec des lois strictes en matière de confidentialité des données.
 
-[:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://proton.me/pass){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation"}
-[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
