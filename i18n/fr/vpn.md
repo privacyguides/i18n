@@ -162,7 +162,7 @@ Depuis février 2020, [les applications IVPN sont désormais open-source](https:
 
 #### :material-check:{ .pg-green } Accepte l'argent liquide et le Monero
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+En plus d'accepter les cartes de crédit/débit et PayPal, IVPN accepte le Bitcoin, **le Monero** et **les espèces/la monnaie locale** (sur les abonnements annuels) comme formes de paiement anonymes. Des cartes prépayées avec des codes d'avoirs sont [également disponibles](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
 #### :material-check:{ .pg-green } Prise en charge de WireGuard
 
@@ -245,7 +245,7 @@ Mullvad fournit le code source pour leurs clients de bureau et mobiles dans leur
 
 #### :material-check:{ .pg-green } Accepte l'argent liquide et le Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers.
+Mullvad, en plus d'accepter les cartes de crédit/débit et PayPal, accepte le Bitcoin, le Bitcoin Cash, **le Monero** et **les espèces/la monnaie locale** comme formes de paiement anonymes. Des cartes prépayées avec des codes d'avoirs sont également disponibles. Mullvad accepte également les virements Swish et les virements bancaires.
 
 #### :material-check:{ .pg-green } Prise en charge de WireGuard
 

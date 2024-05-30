@@ -1,11 +1,11 @@
 ---
 title: Réseaux alternatifs
 icon: material/vector-polygon
-description: These tools allow you to access networks other than the World Wide Web.
+description: Ces outils vous permettent d'accéder à des réseaux autres que le World Wide Web.
 cover: alternative-networks.webp
 ---
 
-## Anonymizing Networks
+## Réseaux d'anonymisation
 
 When it comes to anonymizing networks, we want to specially note that [Tor](advanced/tor-overview.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your anonymity, unless you know what you're doing.
 

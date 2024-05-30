@@ -102,7 +102,7 @@ Lors de la configuration de votre méthode MFA, gardez à l'esprit qu'elle est a
 
 Vous devriez toujours avoir des sauvegardes pour votre méthode MFA. Les clés de sécurité matérielle peuvent être perdues, volées ou simplement cesser de fonctionner au fil du temps. Il est recommandé d'avoir une paire de clés de sécurité matérielle avec le même accès à vos comptes au lieu d'une seule.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+Lorsque vous utilisez TOTP avec une application d'authentification, assurez-vous de sauvegarder vos clés de récupération ou l'application elle-même, ou copiez les « secrets partagés » vers une autre instance de l'application sur un autre téléphone ou vers un conteneur chiffré (par exemple [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### Configuration Initiale
 

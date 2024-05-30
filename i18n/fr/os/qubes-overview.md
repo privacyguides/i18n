@@ -4,7 +4,7 @@ icon: simple/qubesos
 description: Qubes est un système d'exploitation conçu pour isoler les applications au sein de *qubes* (anciennement "VMs") afin d'améliorer la sécurité.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) est un système d'exploitation open source qui utilise l'hyperviseur [Xen](https://fr.wikipedia.org/wiki/Xen) pour fournir une sécurité forte pour l'informatique de bureau par le biais de *qubes* isolés (qui sont des machines virtuelles). Vous pouvez attribuer à chaque *qube* un niveau de confiance en fonction de son objectif. Qubes OS assure la sécurité en utilisant l'isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
+[**Qubes OS**](../desktop.md#qubes-os) est un système d'exploitation open source qui utilise l'hyperviseur [Xen](https://fr.wikipedia.org/wiki/Xen) pour fournir une sécurité forte pour l'informatique de bureau par le biais de *qubes* isolés (qui sont des machines virtuelles). Vous pouvez attribuer à chaque *qube* un niveau de confiance en fonction de son objectif. Qubes OS assure la sécurité en utilisant l'isolation. Il n'autorise les actions qu'au cas par cas et est donc à l'opposé de [l'énumération de méchanceté](https://ranum.com/security/computer_security/editorials/dumb).
 
 ## Comment fonctionne Qubes OS ?
 
@@ -53,7 +53,7 @@ Vous pouvez [copier et déplacer des fichiers](https://qubes-os.org/doc/how-to-c
 
 ### Interactions inter-VM
 
-Le [framework qrexec](https://qubes-os.org/doc/qrexec) est une partie essentielle de Qubes qui permet la communication entre les domaines. It is built on top of the Xen library *vchan*, which facilitates [isolation through policies](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
+Le [framework qrexec](https://qubes-os.org/doc/qrexec) est une partie essentielle de Qubes qui permet la communication entre les domaines. Il s'appuie sur la bibliothèque Xen *vchan*, qui facilite l'[isolation par le biais de politiques](https://qubes-os.org/news/2020/06/22/new-qrexec-policy-system).
 
 ## Se connecter à Tor via un VPN
 

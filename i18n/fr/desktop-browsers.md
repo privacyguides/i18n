@@ -346,7 +346,7 @@ La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Un
 
 #### Récompenses et portefeuille Brave
 
-Les **Récompenses Brave** vous permettent de recevoir de la crypto-monnaie Basic Attention Token (BAT) en effectuant certaines actions dans Brave. Elles s'appuient sur un compte de garde et sur la connaissance du client (KYC) d'un certain nombre de fournisseurs. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+Les **Récompenses Brave** vous permettent de recevoir de la crypto-monnaie Basic Attention Token (BAT) en effectuant certaines actions dans Brave. Elles s'appuient sur un compte de garde et sur la connaissance du client (KYC) d'un certain nombre de fournisseurs. Nous ne recommandons pas le BAT en tant que [crypto-monnaie privée](cryptocurrency.md), ni l'utilisation d'un [portefeuille de garde](advanced/payments.md#wallet-custody), et nous décourageons donc l'utilisation de cette fonctionnalité.
 
 Le **Portefeuille Brave** fonctionne localement sur votre ordinateur, mais ne prend pas en charge les crypto-monnaies privées, nous vous déconseillons donc d'utiliser cette fonctionnalité.
 
