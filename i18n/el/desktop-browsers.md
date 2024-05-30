@@ -346,7 +346,7 @@ Disable built-in extensions you do not use in **Extensions**
 
 #### Brave Rewards and Wallet
 
-Το **Brave Rewards** σας επιτρέπει να λαμβάνετε το κρυπτονόμισμα Basic Attention Token (BAT) για την εκτέλεση ορισμένων ενεργειών στο Brave. Βασίζεται σε custodial λογαριασμό και KYC από έναν επιλεγμένο αριθμό παρόχων. Δεν συνιστούμε το BAT ως [ιδιωτικό κρυπτονόμισμα](cryptocurrency.md), ούτε συνιστούμε τη χρήση ενός [ custodial πορτοφολιού](advanced/payments.md#other-coins-bitcoin-ethereum-etc), οπότε αποθαρρύνουμε τη χρήση αυτής της λειτουργίας.
+Το **Brave Rewards** σας επιτρέπει να λαμβάνετε το κρυπτονόμισμα Basic Attention Token (BAT) για την εκτέλεση ορισμένων ενεργειών στο Brave. Βασίζεται σε custodial λογαριασμό και KYC από έναν επιλεγμένο αριθμό παρόχων. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 Το **Brave Wallet** λειτουργεί τοπικά στον υπολογιστή σας, αλλά δεν υποστηρίζει ιδιωτικά κρυπτονομίσματα, οπότε θα αποθαρρύναμε τη χρήση και αυτής της δυνατότητας.
 

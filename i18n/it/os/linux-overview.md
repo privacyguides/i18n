@@ -4,7 +4,7 @@ icon: simple/linux
 description: Linux è un sistema operativo desktop, open source, incentrato sulla privacy e alternativo, ma non tutte le distribuzioni sono uguali.
 ---
 
-**Linux** è un sistema operativo per desktop open source, alternativo e incentrato sulla privacy. Di fronte alla telemetria pervasiva e altre tecnologie che violano la privacy nei sistemi operativi tradizionali, i desktop Linux sono rimasti la scelta migliore per coloro che vorrebbero il pieno controllo sui propri computer, da cima a fondo.
+**Linux** è un sistema operativo per desktop open source, alternativo e incentrato sulla privacy. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
 
 Il nostro sito web utilizza generalmente il termine "Linux" per descrivere le distribuzioni Linux per **desktop**. Altri sistemi operativi che utilizzano anch'essi il kernel di Linux, come ChromeOS, Android e Qubes OS non sono discussi su questa pagina.
 
@@ -16,7 +16,7 @@ Esistono alcune notevoli preoccupazioni sulla privacy con Linux, di cui dovresti
 
 - Evitare la telemetria fornita dai sistemi operativi proprietari
 - Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy focused systems such as [Whonix](https://whonix.org) or [Tails](https://tails.net)
+- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
 
 ### Sicurezza Open Source
 
@@ -42,7 +42,7 @@ Non tutte le distribuzioni Linux sono uguali. La nostra [pagina di consigli per 
 
 Ti consigliamo vivamente di scegliere le distribuzioni che restano vicine alle release stabili a monte del software, spesso note come distribuzioni a rilascio continuo. Questo perché le distribuzioni a rilascio congelato, spesso, non aggiornano le versioni dei pacchetti e restano indietro con gli aggiornamenti di sicurezza.
 
-For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Alcune correzioni di sicurezza [non](https://arxiv.org/abs/2105.14565) ricevono affatto un [ID CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (software particolarmente meno popolare) e, dunque, non arrivano alla distribuzione con questo modello di correzione. Di conseguenza, talvolta, le correzioni di sicurezza minori sono rimandate alla versione principale successiva.
+For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Alcune correzioni di sicurezza [non](https://arxiv.org/abs/2105.14565) ricevono affatto un [ID CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (software particolarmente meno popolare) e, dunque, non arrivano alla distribuzione con questo modello di correzione. As a result, minor security fixes are sometimes held back until the next major release.
 
 Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una buona idea, poiché si discosta dal modo in cui lo sviluppatore avrebbe voluto che il software funzionasse. [Richard Brown](https://rootco.de/aboutme) has a presentation about this:
 
@@ -107,7 +107,7 @@ Se richiedi la funzionalità di sospensione su disco (ibernazione), dovresti com
 
 We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). Il suo predecessore ([X11](https://en.wikipedia.org/wiki/X_Window_System)) non supporta l'isolamento della GUI, che consente a qualsiasi finestra di [registrare e iniettare input in altre finestre](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), rendendo futile qualsiasi tentativo di sandboxing. Sebbene esistano delle opzioni per eseguire X11 nidificato, quali [Xpra](https://en.wikipedia.org/wiki/Xpra) o [Xephyr](https://en.wikipedia.org/wiki/Xephyr), queste, spesso, presentano delle conseguenze negative sulle prestazioni e non sono né comode da configurare, né preferibili a Wayland.
 
-Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Se stai utilizzando uno di questi ambienti è molto facile, basta selezionare la sessione “Wayland” nel gestore dello schermo del desktop([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Se stai utilizzando uno di questi ambienti è molto facile, basta selezionare la sessione “Wayland” nel gestore dello schermo del desktop([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 **Sconsigliamo** di usare ambienti desktop o gestori di finestre che non hanno il supporto per Wayland, come Cinnamon (è di default su Linux Mint), Pantheon (è di default su Elementary OS), MATE, Xfce, e i3.
 
@@ -123,7 +123,7 @@ Molte distribuzioni di Linux installano automaticamente gli aggiornamenti o ti r
 
 Alcune distribuzioni (in particolare quelle rivolte agli utenti avanzati) sono più scarne e si aspettano che tu faccia le cose da solo (ad esempio Arch o Debian). Per ricevere gli aggiornamenti di sicurezza importanti su queste distribuzioni è necessario eseguire manualmente il "gestore di pacchetti" (`apt`, `pacman`, `dnf`, ecc.).
 
-Inoltre, alcune distribuzioni non scaricano in automatico gli aggiornamenti del firmware. Per questo, dovrai installare [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
+Inoltre, alcune distribuzioni non scaricano in automatico gli aggiornamenti del firmware. For that, you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
 ## Miglioramenti della Privacy
 
@@ -145,7 +145,7 @@ Esistono altri identificatori di sistema a cui dovresti prestare attenzione. Dov
 
 - **Nomi del host:** Il nome del host del tuo sistema è condiviso con le reti cui ti connetti. Dovresti evitare di includere i termini identificativi, come il tuo nome o sistema operativo nel tuo nome del host, piuttosto utilizzando termini generici o stringhe casuali.
 - **Nomi utente:** Similmente, il tuo nome utente è utilizzato in vari modi nel tuo sistema. Cerca di utilizzare termini generici come "utente", piuttosto che il tuo nome reale.
-- **ID della macchina:** Durante l'installazione, viene generato un ID della macchina univoco, memorizzato sul tuo dispositivo. Considera di [impostarlo a un ID generico](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
+- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. Considera di [impostarlo a un ID generico](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### Conteggio di Sistema
 
@@ -153,4 +153,4 @@ Fedora Project [conteggia](https://fedoraproject.org/wiki/Changes/DNF_Better_Cou
 
 Quest'[opzione](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) è disabilitata di default. Consigliamo di aggiungere `countme=false` a `/etc/dnf/dnf.conf` nel caso in cui venga abilitato in futuro. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
 
-anche openSUSE utilizza un [ID unico](https://en.opensuse.org/openSUSE:Statistics) per contare i sistemi, che può essere disabilitato cancellando il file `/var/lib/zypp/AnonymousUniqueId`.
+openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by emptying the `/var/lib/zypp/AnonymousUniqueId` file.

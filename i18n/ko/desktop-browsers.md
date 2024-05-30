@@ -346,7 +346,7 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 
 #### Brave Rewards 및 Brave 월렛
 
-**Brave Rewards**는 Brave 내에서 특정 작업을 수행하여 BAT(Basic Attention Token) 암호화폐를 받을 수 있는 기능입니다. 해당 기능은 일부 선정된 제공 업체의 수탁형 계정과 KYC(고객 신원 확인)에 기반하여 동작합니다. Privacy Guide는 BAT를 [프라이버시 암호화폐](cryptocurrency.md)로 권장하지 않으며, [수탁형 지갑](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 사용 또한 권장하지 않습니다. 따라서 해당 기능은 사용하지 않을 것을 권장합니다.
+**Brave Rewards**는 Brave 내에서 특정 작업을 수행하여 BAT(Basic Attention Token) 암호화폐를 받을 수 있는 기능입니다. 해당 기능은 일부 선정된 제공 업체의 수탁형 계정과 KYC(고객 신원 확인)에 기반하여 동작합니다. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave 월렛**은 사용자 컴퓨터 로컬에서 작동하지만, 프라이버시 암호화폐를 지원하지 않으므로 이 또한 사용을 권장하지 않습니다.
 

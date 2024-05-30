@@ -346,7 +346,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** מאפשר לך לקבל מטבע קריפטוגרפי Basic Attention Token (BAT) עבור ביצוע פעולות מסוימות בתוך Brave. זה מסתמך על חשבון משמורת ו-KYC ממספר נבחר של ספקים. איננו ממליצים על BAT כ[מטבע קריפטוגרפי פרטי](cryptocurrency.md), וגם איננו ממליצים להשתמש ב[ארנק משמורת](advanced/payments.md#other-coins-bitcoin-ethereum-etc), לכן נמנע משימוש בתכונה זו.
+**Brave Rewards** מאפשר לך לקבל מטבע קריפטוגרפי Basic Attention Token (BAT) עבור ביצוע פעולות מסוימות בתוך Brave. זה מסתמך על חשבון משמורת ו-KYC ממספר נבחר של ספקים. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** פועל באופן מקומי במחשב שלך, אך אינו תומך במטבעות קריפטוגרפיים פרטיים כלשהם, ולכן אנו נמנע משימוש גם בתכונה זו.
 

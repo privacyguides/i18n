@@ -4,7 +4,7 @@ icon: simple/linux
 description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, Linux desktop has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
 
 Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
 
@@ -16,7 +16,7 @@ There are some notable privacy concerns with Linux which you should be aware of.
 
 - Undvik telemetri som ofta kommer med egna operativsystem
 - Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy focused systems such as [Whonix](https://whonix.org) or [Tails](https://tails.net)
+- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
 
 ### Open-Source Security
 
@@ -42,7 +42,7 @@ Inte alla Linux-distributioner är skapade lika. Our [Linux recommendation page]
 
 Vi rekommenderar starkt att du väljer distributioner som ligger nära de stabila uppströmsutgåvorna, ofta kallade rullande utgåvor. Detta beror på att frysta utgåvor ofta inte uppdaterar paketversioner och hamnar bakom säkerhetsuppdateringar.
 
-For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. Som ett resultat hålls mindre säkerhetskorrigeringar ibland tillbaka till nästa stora utgåva.
+For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result, minor security fixes are sometimes held back until the next major release.
 
 Vi tror inte att hålla paket tillbaka och tillämpa tillfälliga patchar är en bra idé, eftersom det skiljer sig från hur utvecklaren kan ha avsett att programvaran ska fungera. [Richard Brown](https://rootco.de/aboutme) has a presentation about this:
 
@@ -107,7 +107,7 @@ If you require suspend-to-disk (hibernation) functionality, you will still need 
 
 We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). Its predecessor ([X11](https://en.wikipedia.org/wiki/X_Window_System)) does not support GUI isolation, which allows any window to [record, log, and inject inputs in other windows](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), making any attempt at sandboxing futile. While there are options to do nested X11 such as [Xpra](https://en.wikipedia.org/wiki/Xpra) or [Xephyr](https://en.wikipedia.org/wiki/Xephyr), they often come with negative performance consequences, and are neither convenient to set up nor preferable over Wayland.
 
-Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Om du använder en av dessa miljöer är det lika enkelt som att välja "Wayland"-sessionen i skrivbordsdisplayhanteraren ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Om du använder en av dessa miljöer är det lika enkelt som att välja "Wayland"-sessionen i skrivbordsdisplayhanteraren ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 Vi rekommenderar **mot** om du använder skrivbordsmiljöer eller fönsterhanterare som inte har stöd för Wayland, till exempel Cinnamon (standard i Linux Mint), Pantheon (standard i Elementary OS), MATE, Xfce och i3.
 
@@ -123,7 +123,7 @@ De flesta Linuxdistributioner installerar automatiskt uppdateringar eller påmin
 
 Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). Dessa kräver att du kör "pakethanteraren" (`apt`, `pacman`, `dnf`, etc.) manuellt för att få viktiga säkerhetsuppdateringar.
 
-Dessutom hämtar vissa distributioner inte uppdateringar av den fasta programvaran automatiskt. För detta måste du installera [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
+Dessutom hämtar vissa distributioner inte uppdateringar av den fasta programvaran automatiskt. For that, you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
 ## Verktyg för integritet
 
@@ -145,7 +145,7 @@ Det finns andra systemidentifierare som du bör vara försiktig med. Du bör fun
 
 - **Värdnamn:** Systemets värdnamn delas med de nätverk du ansluter till. Du bör undvika att inkludera identifierande termer som ditt namn eller operativsystem i ditt värdnamn och i stället hålla dig till generiska termer eller slumpmässiga strängar.
 - **Användarnamn:** På samma sätt används ditt användarnamn på olika sätt i systemet. Överväg att använda generiska termer som "användare" snarare än ditt faktiska namn.
-- **Machine ID:**: During installation a unique machine ID is generated and stored on your device. Consider [setting it to a generic ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
+- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. Consider [setting it to a generic ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### System Counting
 
@@ -153,4 +153,4 @@ The Fedora Project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Co
 
 This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) is currently off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
 
-openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by deleting the `/var/lib/zypp/AnonymousUniqueId` file.
+openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by emptying the `/var/lib/zypp/AnonymousUniqueId` file.

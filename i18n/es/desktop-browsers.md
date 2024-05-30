@@ -346,7 +346,7 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 
 #### Brave Rewards y Wallet
 
-**Brave Rewards** te permite recibir la criptomoneda Basic Attention Token (BAT) por realizar ciertas acciones dentro de Brave. Se basa en una cuenta de custodia y KYC de un número selecto de proveedores. No recomendamos BAT como [criptomoneda privada](cryptocurrency.md), ni tampoco recomendamos utilizar un [monedero de custodia](advanced/payments.md#other-coins-bitcoin-ethereum-etc), por lo que desaconsejamos utilizar esta función.
+**Brave Rewards** te permite recibir la criptomoneda Basic Attention Token (BAT) por realizar ciertas acciones dentro de Brave. Se basa en una cuenta de custodia y KYC de un número selecto de proveedores. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** funciona localmente en tu ordenador, pero no admite ninguna criptomoneda privada, por lo que desaconsejamos utilizar esta función también.
 

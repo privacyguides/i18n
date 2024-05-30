@@ -32,7 +32,7 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 
 **Brave Search** is a search engine developed by Brave. 해당 색인은 Google 검색에 최적화되어 있으므로, 다른 대안에 비해 문맥상 더 정확한 결과를 제공할 수 있습니다.
 
-Brave Search includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results—such as forum posts.
+Brave Search includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
 
 [:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -42,6 +42,8 @@ Brave Search includes unique features such as [Discussions](https://search.brave
 </details>
 
 </div>
+
+Note that if you use Brave Search while logged in to a Premium account, it may make it easier for Brave to correlate queries with specific users.
 
 We recommend you disable [Anonymous usage metrics](https://search.brave.com/help/usage-metrics) as it is enabled by default and can be disabled within settings.
 
@@ -121,7 +123,7 @@ SearXNG 인스턴스를 사용하는 경우에는 해당 인스턴스의 프라�
 ### 최소 요구 사항
 
 - Must not collect PII per their privacy policy.
-- 해당 서비스에서는 사용자가 계정을 만들 수 없어야 합니다.
+- Must not require users to create an account with them.
 
 ### 우대 사항
 

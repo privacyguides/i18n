@@ -4,7 +4,7 @@ icon: simple/linux
 description: Linux 為開源、以隱私為中心的桌面作業系統替代選項，但並非所有發行版都一模一樣。
 ---
 
-**Linux** 是開源、注重隱私的桌面作業系統替代方案。 面對主流作業系統中普遍存在的遙測和其他侵犯隱私的技術，Linux 桌面仍是那些用戶希望能完全控制電腦的明智選擇。
+**Linux** 是開源、注重隱私的桌面作業系統替代方案。 In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
 
 我們網站通常使用術語 "Linux "來講述桌面Linux 發行版。 其它也使用Linux內核的作業系統，如 ChromeOS、Android 和Qubes OS，此處不作討論。
 
@@ -16,7 +16,7 @@ description: Linux 為開源、以隱私為中心的桌面作業系統替代選�
 
 - 避免商業作業系統經常出現的遙測現象
 - 維護 [軟體自由](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- 使用專注隱私的系統如: [Whonix](https://whonix.org) 或 [Tails](https://tails.net)
+- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
 
 ### 開源安全
 
@@ -44,7 +44,7 @@ description: Linux 為開源、以隱私為中心的桌面作業系統替代選�
 
 像 [Debian](https://debian.org/security/faq#handling)這樣的凍結發行版，套件維護人員預計會回移補丁修復漏洞，而不是將軟體提昇到上遊開發人員發布的“下一個版本”。 某些安全修復
 
-根本没收到 [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) （特别是不流行的軟體），在此種補丁模式不會放入發行版。 因此小型安全修復有時候要等到下次主要發佈時才一起進行。</p> 
+根本没收到 [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) （特别是不流行的軟體），在此種補丁模式不會放入發行版。 As a result, minor security fixes are sometimes held back until the next major release.</p> 
 
 我們不認為保留軟體套件和應用臨時補丁是好主意，因為它偏離了開發者計畫讓軟體工作的方式。 [Richard Brown](https://rootco.de/aboutme) 對此有一份簡報：
 
@@ -121,7 +121,7 @@ description: Linux 為開源、以隱私為中心的桌面作業系統替代選�
 
 建議使用支持 [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) 顯示協議的桌面環境，因為它的開發 [考慮到了安全](https://lwn.net/Articles/589147)。 其前身( [X11](https://en.wikipedia.org/wiki/X_Window_System))，不支持GUI 隔離，允許所有視窗[記錄畫面、日誌和注入其他視窗的輸入](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html)，使任何沙盒嘗試都是徒勞。 雖然有一些選項可以做嵌套 X11，比如 [Xpra](https://en.wikipedia.org/wiki/Xpra) 或 [Xephyr](https://en.wikipedia.org/wiki/Xephyr)，但它們往往會帶來負面性能，設置也不方便，不如 Wayland 可取。
 
-幸好 [wayland 組成](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) 例如包括在[GNOME](https://gnome.org) 與[KDE Plasma](https://kde.org) 可以妥善支援 Wayland 與其它使用[wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots)的組件 (例如 [Sway](https://swaywm.org)). 某些發佈版本如 Fedora 和 Tumbleweed 預設使用它，有些則可能在未來也會這樣作在 X11 成為 [硬性維護模式](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly)後。 如果使用以下的桌面環境，就像在桌面顯示管理器中選擇 "Wayland "一樣簡單([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)) 。
+Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). 某些發佈版本如 Fedora 和 Tumbleweed 預設使用它，有些則可能在未來也會這樣作在 X11 成為 [硬性維護模式](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly)後。 如果使用以下的桌面環境，就像在桌面顯示管理器中選擇 "Wayland "一樣簡單([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)) 。
 
 我們**反對**使用不支援 Wayland 的桌面環境或視窗管理器，如Cinnamon（Linux Mint）、Pantheon（Elementary OS）、MATE、Xfce 和 i3。
 
@@ -141,7 +141,7 @@ Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) �
 
 一些發行版（尤其是那些針對進階用戶）更加簡陋，指望使用者自己能做一些事情（例如 Arch 或 Debian） 例如需要手動運行 "軟體套件管理器" (`apt`, `pacman`, `dnf`等等)，以便接收重要的安全更新。
 
-此外，一些發行版不會自動下載靭體更新。 为此，你将需要安装 [`fwupd`](https://wiki.archlinux.org/title/Fwupd)。
+此外，一些發行版不會自動下載靭體更新。 For that, you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
 
 
@@ -169,7 +169,7 @@ MAC 地址隨機化主要有利於 Wi-Fi 連接。 對以太網連接，隨機�
 
 - **主機名稱 **，系統的主機名稱會分享到所連接的網路。 應避免主機名稱像你的名字或作業系統等具識別度的術語，最好用一般術語或隨機字符串。
 - **用戶名稱 ** 。同樣地，用戶名稱會在系統中以各種方式使用。 考慮用 "用戶 "這樣一般常見字，而不是您的真實姓名。
-- **機器 ID：**：在安裝過程中，會生成一個獨特的機器ID 並存儲在您的設備上。 考慮 [將它設置為一個通用 ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)。
+- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. 考慮 [將它設置為一個通用 ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)。
 
 
 
@@ -179,4 +179,4 @@ Fedora 專案使用[`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better
 
 這個 [選項](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前預設為關閉。 我們建議將 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以備將來啟用。 使用 `rpm-ostree` 的系統，如 Silverblue，通過遮蔽 [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) 計時器來禁用 countme 選項。
 
-openSUSE 還使用[唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 來計算系統，可以通過刪除 `/var/lib/zypp/AnonymousUniqueId` 檔來禁用它。
+openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by emptying the `/var/lib/zypp/AnonymousUniqueId` file.

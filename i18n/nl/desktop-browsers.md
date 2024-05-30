@@ -339,7 +339,7 @@ De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanval
 
 #### Brave Rewards en Wallet
 
-**Met Brave Rewards** kun je Basic Attention Token (BAT) cryptocurrency ontvangen voor het uitvoeren van bepaalde acties binnen Brave. Het is afhankelijk van een bewaarrekening en KYC van een select aantal providers. Wij raden BAT niet aan als een [private cryptocurrency](cryptocurrency.md), noch raden wij het gebruik van een [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc)aan, dus raden wij het gebruik van deze functie af.
+**Met Brave Rewards** kun je Basic Attention Token (BAT) cryptocurrency ontvangen voor het uitvoeren van bepaalde acties binnen Brave. Het is afhankelijk van een bewaarrekening en KYC van een select aantal providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** werkt lokaal op jouw computer, maar ondersteunt geen private cryptocurrencies, dus we raden het gebruik van deze functie ook af.
 

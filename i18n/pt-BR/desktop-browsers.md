@@ -346,7 +346,7 @@ As funcionalidades Web3 do Brave podem potencialmente acrescentar à impressão 
 
 #### Recompensas Brave e Carteira
 
-O **Brave Rewards** te permite receber a criptomoeda Basic Attention Token (BAT) por performar certas atividades através do Brave. Ele depende de uma conta de custódia e KYC de um número selecionado de provedores. Nós não recomendamos o BAT como uma [criptomoeda privada](cryptocurrency.md), tampouco recomendamos usar uma [carteira de custódia](advanced/payments.md#other-coins-bitcoin-ethereum-etc), então nós desencorajamos o uso dessa função.
+O **Brave Rewards** te permite receber a criptomoeda Basic Attention Token (BAT) por performar certas atividades através do Brave. Ele depende de uma conta de custódia e KYC de um número selecionado de provedores. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 A **Carteira Brave** opera localmente em seu computador, mas não suporta nenhuma criptomoeda privada, então nós desencorajamos o uso dessa ferramenta também.
 

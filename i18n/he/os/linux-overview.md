@@ -4,7 +4,7 @@ icon: simple/linux
 description: לינוקס היא חלופה למערכת הפעלה שולחנית ממוקדת פרטיות בקוד פתוח, אך לא כל ההפצות נוצרות שווה.
 ---
 
-**Linux** היא חלופה למערכת הפעלה שולחנית בקוד פתוח, ממוקדת פרטיות. מול טלמטריה נרחבת וטכנולוגיות אחרות שפוגעות בפרטיות במערכות הפעלה מיינסטרים, שולחן העבודה של לינוקס נשאר הבחירה הברורה עבור אנשים שמחפשים שליטה מוחלטת על המחשבים שלהם מהיסוד.
+**Linux** היא חלופה למערכת הפעלה שולחנית בקוד פתוח, ממוקדת פרטיות. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
 
 האתר שלנו משתמש בדרך כלל במונח "Linux" כדי לתאר הפצות לינוקס של **שולחן העבודה**. מערכות הפעלה אחרות המשתמשות גם בליבת לינוקס כגון ChromeOS, Android ו-Qubes OS אינן נדונות בדף זה.
 
@@ -16,7 +16,7 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 - הימנע מטלמטריה שמגיעה לרוב עם מערכות הפעלה קנייניות
 - Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy focused systems such as [Whonix](https://whonix.org) or [Tails](https://tails.net)
+- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
 
 ### Open-Source Security
 
@@ -42,7 +42,7 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 אנו ממליצים בחום לבחור בהפצות שנשארות קרובות למהדורות התוכנה היציבות במעלה הזרם, המכונה לעתים קרובות הפצות מהדורות מתגלגלות. הסיבה לכך היא שהפצות מחזור שחרור קפוא לרוב אינן מעדכנות גרסאות חבילה ונגררות לפי עדכוני אבטחה.
 
-For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. חלק מתיקוני האבטחה [לא](https://arxiv.org/abs/2105.14565) מקבלים [מזהה CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (במיוחד תוכנה פחות פופולרית) כלל ולכן אינם נכנסים להפצה עם מודל התיקון הזה. כתוצאה מכך תיקוני אבטחה קלים מתעכבים לפעמים עד לגרסה הגדולה הבאה.
+For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. חלק מתיקוני האבטחה [לא](https://arxiv.org/abs/2105.14565) מקבלים [מזהה CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (במיוחד תוכנה פחות פופולרית) כלל ולכן אינם נכנסים להפצה עם מודל התיקון הזה. As a result, minor security fixes are sometimes held back until the next major release.
 
 אנחנו לא מאמינים שהחזקת חבילות והחלת תיקוני ביניים הם רעיון טוב, מכיוון שהוא שונה מהדרך שבה המפתח התכוון שהתוכנה תעבוד. [Richard Brown](https://rootco.de/aboutme) has a presentation about this:
 
@@ -107,7 +107,7 @@ We recommend **against** using the Linux-libre kernel, since it [removes securit
 
 We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). קודמו ([X11](https://en.wikipedia.org/wiki/X_Window_System)) אינו תומך בבידוד GUI, המאפשר לכל חלון [תיעדו, רשמו והזריקו קלט בחלונות אחרים](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), מה שהופך כל ניסיון לארגז חול חסר תועלת. אמנם יש אפשרויות לעשות X11 מקונן כגון [Xpra](https://en.wikipedia.org/wiki/Xpra) או [Xephyr](https://en.wikipedia.org/wiki/Xephyr), לעתים קרובות הם מגיעים עם השלכות ביצועים שליליות, ואינם נוחים להגדרה ואינם עדיפים על פני Wayland.
 
-Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). אם אתה משתמש באחת מהסביבות האלה זה קל כמו לבחור את הפגישה "Wayland" במנהל התצוגה של שולחן העבודה ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). אם אתה משתמש באחת מהסביבות האלה זה קל כמו לבחור את הפגישה "Wayland" במנהל התצוגה של שולחן העבודה ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 אנו ממליצים **נגד** להשתמש בסביבות שולחן עבודה או במנהלי חלונות שאין להם תמיכה ב-Wayland, כגון Cinnamon (ברירת מחדל ב-Linux Mint), Pantheon (ברירת מחדל במערכת ההפעלה היסודית), MATE, Xfce, ו-i3.
 
@@ -123,7 +123,7 @@ Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protoc
 
 חלק מההפצות (במיוחד אלו המיועדות למשתמשים מתקדמים) הן עצמות יותר ומצפות ממך לעשות דברים בעצמך (למשל Arch או Debian). אלה ידרשו להפעיל את "מנהל החבילות" (`apt`, `pacman`, `dnf` וכו') באופן ידני על מנת לקבל עדכוני אבטחה חשובים.
 
-בנוסף, הפצות מסוימות לא יוריד עדכוני קושחה באופן אוטומטי. לשם כך תצטרך להתקין את [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
+בנוסף, הפצות מסוימות לא יוריד עדכוני קושחה באופן אוטומטי. For that, you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
 ## תיקוני פרטיות
 
@@ -145,7 +145,7 @@ If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancill
 
 - **שמות מארח:** שם המארח של המערכת שלך משותף עם הרשתות שאליהן אתה מתחבר. עליך להימנע מלכלול מונחים מזהים כמו השם או מערכת ההפעלה שלך בשם המארח שלך, במקום להיצמד למונחים גנריים או מחרוזות אקראיות.
 - **שמות משתמש:** באופן דומה, שם המשתמש שלך משמש במגוון דרכים במערכת שלך. שקול להשתמש במונחים גנריים כמו "משתמש" ולא בשמך האמיתי.
-- **מזהה מכונה:** במהלך ההתקנה נוצר מזהה מכונה ייחודי ומאוחסן במכשיר שלך. שקול [להגדיר אותו למזהה גנרי](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
+- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. שקול [להגדיר אותו למזהה גנרי](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
 ### ספירת מערכת
 
@@ -153,4 +153,4 @@ If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancill
 
 [אפשרות](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) זו כבויה כעת כברירת מחדל. אנו ממליצים להוסיף את `countme=false` ל-`/etc/dnf/dnf.conf` למקרה שהוא יופעל בעתיד. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
 
-openSUSE משתמשת גם ב[מזהה ייחודי](https://en.opensuse.org/openSUSE:Statistics) כדי לספור מערכות, אותן ניתן להשבית על ידי מחיקת הקובץ `/var/lib/zypp/AnonymousUniqueId`.
+openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by emptying the `/var/lib/zypp/AnonymousUniqueId` file.

@@ -4,7 +4,7 @@ icon: simple/linux
 description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, Linux desktop has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
 
 Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
 
@@ -16,7 +16,7 @@ There are some notable privacy concerns with Linux which you should be aware of.
 
 - 避免专有操作系统中经常出现的遥测现象
 - Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy focused systems such as [Whonix](https://whonix.org) or [Tails](https://tails.net)
+- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
 
 ### Open-Source Security
 
@@ -42,7 +42,7 @@ Additionally, Linux falls behind in implementing [exploit mitigations](https://m
 
 我们强烈建议你选择与稳定的上游软件版本接近的发行版，通常被称为滚动发行版。 这是因为冻结发布周期的发行版往往不更新软件包版本，并且在安全更新方面落后。
 
-For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. 因此，小的安全修复有时会被推迟到下一个主要版本。
+For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (particularly less popular software) at all and therefore do not make it into the distribution with this patching model. As a result, minor security fixes are sometimes held back until the next major release.
 
 我们不认为保留软件包和应用临时补丁是一个好主意，因为它偏离了开发者可能打算让软件工作的方式。 [Richard Brown](https://rootco.de/aboutme) has a presentation about this:
 
@@ -107,7 +107,7 @@ If you require suspend-to-disk (hibernation) functionality, you will still need 
 
 We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). Its predecessor ([X11](https://en.wikipedia.org/wiki/X_Window_System)) does not support GUI isolation, which allows any window to [record, log, and inject inputs in other windows](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), making any attempt at sandboxing futile. While there are options to do nested X11 such as [Xpra](https://en.wikipedia.org/wiki/Xpra) or [Xephyr](https://en.wikipedia.org/wiki/Xephyr), they often come with negative performance consequences, and are neither convenient to set up nor preferable over Wayland.
 
-Fortunately, [wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). 如果你使用的是这些环境之一，就像在桌面显示管理器中选择 "Wayland "会话一样简单([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)) 。
+Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). 如果你使用的是这些环境之一，就像在桌面显示管理器中选择 "Wayland "会话一样简单([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)) 。
 
 </strong> 我们建议 **，反对使用没有Wayland支持的桌面环境或窗口管理器，如Cinnamon（Linux Mint的默认）、Pantheon（Elementary OS的默认）、MATE、Xfce和i3。</p>
 
@@ -123,7 +123,7 @@ We **highly recommend** that you install microcode updates, as they contain impo
 
 Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). 这些将需要手动运行 "软件包管理器" (`apt`, `pacman`, `dnf`, 等等)，以便接收重要的安全更新。
 
-此外，一些发行版将不会自动下载固件更新。 为此，你将需要安装 [`fwupd`](https://wiki.archlinux.org/title/Fwupd)。
+此外，一些发行版将不会自动下载固件更新。 For that, you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
 ## 隐私调整
 
@@ -145,7 +145,7 @@ MAC address randomization is primarily beneficial for Wi-Fi connections. For Eth
 
 - **主机名。** 你的系统的主机名是与你所连接的网络共享的。 你应该避免在你的主机名中包括像你的名字或操作系统这样的识别术语，而是坚持使用通用术语或随机字符串。
 - **用户名。** 同样地，你的用户名在你的系统中以各种方式使用。 考虑使用 "用户 "这样的通用术语，而不是你的真实姓名。
-- **机器ID：**：在安装过程中，会生成一个独特的机器ID并存储在你的设备上。 考虑 [，将其设置为一个通用的ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)。
+- **Machine ID:** During installation, a unique machine ID is generated and stored on your device. 考虑 [，将其设置为一个通用的ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)。
 
 ### 系统计数
 
@@ -153,4 +153,4 @@ Fedora 项目 [通过使用一个 [`countme`](https://fedoraproject.org/wiki/Cha
 
 这个 [选项](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前默认是关闭的。 我们建议将 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以备将来启用它。 On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
 
-openSUSE 还使用一个 [唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 来计算系统，可以通过删除 `/var/lib/zypp/AnonymousUniqueId` 文件来禁用它。
+openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by emptying the `/var/lib/zypp/AnonymousUniqueId` file.

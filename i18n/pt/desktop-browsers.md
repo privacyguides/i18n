@@ -346,7 +346,7 @@ As funcionalidades Web3 do Brave podem potencialmente aumentar a impressão digi
 
 #### Recompensar Brave
 
-**Recompensas Brave** permite-lhe receber criptomoeda Basic Attention Token (BAT) pelo facto de realizar determinadas ações. Baseia-se numa conta de custódia e no KYC de um número selecionado de fornecedores. Não recomendamos a BAT como uma criptomoeda privada [](cryptocurrency.md), nem recomendamos a utilização de uma carteira de custódia [](advanced/payments.md#other-coins-bitcoin-ethereum-etc), pelo que desencorajamos a utilização desta funcionalidade.
+**Recompensas Brave** permite-lhe receber criptomoeda Basic Attention Token (BAT) pelo facto de realizar determinadas ações. Baseia-se numa conta de custódia e no KYC de um número selecionado de fornecedores. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **A Brave Wallet** funciona localmente no seu computador, mas não suporta quaisquer criptomoedas privadas, pelo que desencorajamos a utilização desta funcionalidade também.
 

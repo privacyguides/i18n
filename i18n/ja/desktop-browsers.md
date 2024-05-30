@@ -346,7 +346,7 @@ BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面�
 
 #### Brave RewardsとWallet
 
-**Brave Rewards**では、Brave内で特定のアクションを実行することで、Basic Attention Token（BAT）という暗号通貨を受け取ることができます。 It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#other-coins-bitcoin-ethereum-etc), so we would discourage using this feature.
+**Brave Rewards**では、Brave内で特定のアクションを実行することで、Basic Attention Token（BAT）という暗号通貨を受け取ることができます。 It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
