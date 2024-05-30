@@ -20,12 +20,12 @@ Lorsque vous partagez des fichiers, veillez à supprimer les métadonnées assoc
 
 Sous Linux, un outil graphique tiers [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) fonctionnant avec MAT2 existe et est [disponible sur Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
 
-[:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+[:octicons-repo-16: Dépôt](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
 [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
-[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-windows11: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -48,12 +48,12 @@ Sous Linux, un outil graphique tiers [Metadata Cleaner](https://gitlab.com/rmnvg
 
 Il prend actuellement en charge les fichiers JPEG, PNG et WebP.
 
-[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
+[:octicons-repo-16: Dépôt](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)
@@ -87,11 +87,11 @@ L'application offre plusieurs façons d'effacer les métadonnées des images. À
 
 Metapho est une visionneuse simple et propre pour les métadonnées des photos telles que la date, le nom du fichier, la taille, le modèle d'appareil photo, la vitesse d'obturation et le lieu.
 
-[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://zininworks.com/metapho){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Politique de confidentialité" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
