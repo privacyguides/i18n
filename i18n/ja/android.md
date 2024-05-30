@@ -109,15 +109,15 @@ End-of-life devices (such as GrapheneOS or CalyxOS's "extended support" devices)
 ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ align=right }
 ![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
 
-**GrapheneOS** is the best choice when it comes to privacy and security.
+**GrapheneOS**はプライバシーとセキュリティに関して最善の選択です。
 
-GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_(computing)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
+GrapheneOSはさらなる[セキュリティの強化（ハードニング）](https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%8B%E3%83%B3%E3%82%B0)とプライバシーの改善を提供します。 [強化されたメモリアロケータ](https://github.com/GrapheneOS/hardened_malloc)、ネットワークとセンサーの権限、その他のさまざまな[セキュリティ機能](https://grapheneos.org/features)を備えています。 GrapheneOSはまた、完全なファームウェアアップデートと署名付きビルドが付属しており、確認付きブートは完全にサポートされている。
 
-[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: ホームページ](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=ドキュメント}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=貢献 }
 
 </div>
 

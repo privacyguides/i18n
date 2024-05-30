@@ -1,7 +1,7 @@
 ---
-title: Android Overview
+title: Androidの概要
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Androidは、強力なセキュリティー保護機能を備えたオープンソースのオペレーティングシステムであり、携帯電話に関する最も優れた選択肢です。
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
@@ -30,17 +30,17 @@ AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Fire
 
 We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
 
-### アップデートをインストールすること
+### アップデートをインストールする
 
 It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android not only receive security updates for the operating system but also important privacy enhancing updates too.
 
 For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
 
-### Sharing Media
+### メディアの共有
 
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+Androidに内蔵された共有機能を使えば、多くのアプリにメディアへのアクセス許可を与える必要がなくなります。 多くのアプリでは、メディアをアップロードするためにファイルを「共有」することができます。
 
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+例えば、Discordに写真を投稿したい場合は、Discordにメディアや写真へのフルアクセスを許可する代わりに、ファイルマネージャーやギャラリーを開いて、その写真を Discord アプリと共有できます。
 
 ## セキュリティーの保護
 
@@ -161,7 +161,7 @@ The Advanced Protection Program provides enhanced threat monitoring and enables:
 - Mandatory automatic device scanning with [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Warning you about unverified applications
 
-### Google Play System Updates
+### Google Play システム アップデート
 
 In the past, Android security updates had to be shipped by the operating system vendor. Android has become more modular beginning with Android 10, and Google can push security updates for **some** system components via the privileged Play Services.
 
@@ -169,19 +169,19 @@ If you have an EOL device shipped with Android 10 or above and are unable to run
 
 ### 広告ID
 
-All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Disable this feature to limit the data collected about you.
+Google Play Servicesがインストールされているすべてのデバイスは、ターゲット広告に使用される[広告 ID](https://support.google.com/googleplay/android-developer/answer/6048248)を自動的に生成します。 この機能を無効にすると、あなたについて収集されるデータを制限できます。
 
-On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **Ads**, and select *Delete advertising ID*.
+[サンドボックス化されたGoogle Play](https://grapheneos.org/usage#sandboxed-google-play)を備えたAndroid ディストリビューションでは、:gear: **設定** → **アプリ** → **Sandboxed Google Play** → **Google Settings** → **広告**に移動し、*Delete advertising ID*を選択します。
 
 On Android distributions with privileged Google Play Services (such as stock OSes), the setting may be in one of several locations. Check
 
-- :gear: **Settings** → **Google** → **Ads**
-- :gear: **Settings** → **Privacy** → **Ads**
+- :gear: **設定** → **Google** → **広告**
+- :gear: **設定** → **プライバシー** → **広告**
 
-You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads*, this varies between OEM distributions of Android. If presented with the option to delete the advertising ID that is preferred. If not, then make sure to opt out and reset your advertising ID.
+広告 IDを削除するか、*興味や関心に基づく広告をオプトアウト*するかを選択できます。これはAndroidのOEMディストリビューションによって異なります。 広告 IDを削除するオプションが表示された場合は、そちらを優先してください。 そうでない場合は、必ず広告IDをオプトアウトしてリセットしてください。
 
 ### SafetyNetとPlay Integrity API
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation)と[Play Integrity API](https://developer.android.com/google/play/integrity)は、一般的に[銀行アプリ](https://grapheneos.org/usage#banking-apps)に使用されます。 GrapheneOSには、サンドボックス化されたPlayサービスがあり、多くの銀行アプリはうまく動作しますが、一部の非金融アプリには、それ自体の改ざん防止メカニズムが備わっているため、適切に動作しない可能性があります。 GrapheneOSは、 `basicIntegrity` のチェックは通過しますが、 認証チェック `ctsProfileMatch`は通過しません。 Android 8以降を搭載したデバイスには、ハードウェア認証のサポートがあります。これは、キーの漏洩や深刻な脆弱性がない限り回避することはできません。
 
-As for Google Wallet, we don't recommend this due to their [privacy policy](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en), which states you must opt out if you don't want your credit rating and personal information shared with affiliate marketing services.
+Google ウォレットついては、その[プライバシー ポリシー](https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en)により推奨されません。信用評価や個人情報をアフィリエイト マーケティング サービスと共有したくない場合はオプトアウトする必要があると規定されているからです。
