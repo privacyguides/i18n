@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: Bağımsız Gizlilik ve Güvenlik Kaynağınız"
 template: home.html
 social:
   cards_layout: home
@@ -46,7 +46,7 @@ Tıpkı ırklar arası evlilik hakkı, kadınların oy hakkı, ifade özgürlü�
 
 Mahremiyet ile gizliliği birbirine karıştırmamalısınız. Banyoda ne olduğunu biliyoruz ama yine de kapıyı kapatıyoruz. Çünkü gizlilik değil, mahremiyet istiyorsunuz. **Herkesin** koruyacak bir şeyi vardır. Mahremiyet bizi insan yapan bir şeydir.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Neden Gizlilik Önemlidir](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Ne yapmalıyım?
 
@@ -56,4 +56,4 @@ Tüm verilerinizi her zaman herkesten korumaya çalışmak pratik değildir, pah
 
 ==Tehditleri belirleme ve karşı önlemleri tanımlama sürecine **tehdit modelleme**== denir ve her iyi güvenlik ve gizlilik planının temelini oluşturur.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Tehdit Modellemesi Hakkında Daha Fazla Bilgi Edinin](basics/threat-modeling.md){ class="md-button md-button--primary" }
