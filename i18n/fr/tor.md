@@ -70,7 +70,7 @@ Le **Navigateur Tor** est le choix idéal si vous avez besoin d'anonymat, car il
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
-Vous ne devriez **jamais** installer des extensions supplémentaires sur le Navigateur Tor, y compris celles que nous suggérons pour Firefox. Les extensions de navigateur et les paramètres non standard vous distinguent des autres sur le réseau Tor, rendant ainsi votre navigateur plus facile à la [prise d'empreintes numérique](https://support.torproject.org/fr/glossary/browser-fingerprinting/).
+Vous ne devriez **jamais** installer des extensions supplémentaires sur le Navigateur Tor, y compris celles que nous suggérons pour Firefox. Les extensions de navigateur et les paramètres non standard vous distinguent des autres sur le réseau Tor, rendant ainsi votre navigateur plus facile à la [capture d'empreintes numérique](https://support.torproject.org/fr/glossary/browser-fingerprinting/).
 
 </div>
 
