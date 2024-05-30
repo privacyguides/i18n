@@ -58,11 +58,11 @@ Il est difficile de mettre en place de mauvaises configurations comme celles-ci 
 <div class="admonition info" markdown>
 <p class="admonition-title">Capture d'empreinte numérique VPN/SSH</p>
 
-Le Tor Project [mentionne](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *théoriquement* l'utilisation d'un VPN pour cacher à votre FAI les activités Tor n'est pas forcément infaillible. Les VPNs se sont révélés vulnérables à la prise d'empreinte numérique du trafic des sites web, un adversaire pouvant toujours deviner quel site web est visité, car tous les sites web ont des schémas de trafic spécifiques.
+Le Tor Project [mentionne](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *théoriquement* l'utilisation d'un VPN pour cacher à votre FAI les activités Tor n'est pas forcément infaillible. Les VPNs se sont révélés vulnérables à la capture d'empreinte numérique du trafic des sites web, un adversaire pouvant toujours deviner quel site web est visité, car tous les sites web ont des schémas de trafic spécifiques.
 
 Il n'est donc pas déraisonnable de penser que le trafic Tor chiffré caché par un VPN pourrait également être détecté par des méthodes similaires. Il n'existe aucun document de recherche sur ce sujet, et nous considérons toujours que les avantages de l'utilisation d'un VPN l'emportent largement sur ces risques, mais il s'agit d'un élément à garder à l'esprit.
 
-Si vous pensez toujours que les transports enfichables (ponts) offrent une protection supplémentaire contre la prise d'empreinte numérique du trafic de site web qu'un VPN n'offre pas, vous avez toujours la possibilité d'utiliser un pont **et** un VPN en même temps.
+Si vous pensez toujours que les transports enfichables (ponts) offrent une protection supplémentaire contre la capture d'empreinte numérique du trafic de site web qu'un VPN n'offre pas, vous avez toujours la possibilité d'utiliser un pont **et** un VPN en même temps.
 
 </div>
 
@@ -175,7 +175,7 @@ Bien que Tor offre de solides garanties de confidentialité, il faut être consc
 - Des adversaires puissants capables de surveiller passivement *tout* le trafic réseau du monde entier ("Global Passive Adversaries") ne sont **pas** une chose contre laquelle Tor vous protège (et l'utilisation de Tor [avec un VPN](#safely-connecting-to-tor) ne change rien à ce fait).
 - Des adversaires bien financés ayant la capacité d'observer passivement *la plupart* du trafic réseau du monde ont encore une *chance* de désanonymiser les utilisateurs de Tor au moyen d'une analyse avancée du trafic.
 
-Si vous souhaitez utiliser Tor pour naviguer sur le web, nous ne recommandons que le Navigateur Tor **officiel** - il est conçu pour empêcher la prise d'empreintes numériques.
+Si vous souhaitez utiliser Tor pour naviguer sur le web, nous ne recommandons que le Navigateur Tor **officiel** - il est conçu pour empêcher la capture d'empreintes numériques.
 
 - [Navigateur Tor :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
@@ -193,7 +193,7 @@ Comme il est presque certain que votre FAI ne capture pas toutes les données au
 
 Par conséquent, les ponts sont les plus utiles pour contourner la censure sur Internet *dans l'immédiat*, mais elles ne remplacent pas **tous** les avantages que l'utilisation d'un VPN avec Tor peut apporter. Encore une fois, il ne s'agit pas d'un conseil *contre* l'utilisation des ponts Tor, vous devez simplement être conscient de ces limitations lorsque vous prenez votre décision. Dans certains cas, les ponts peuvent être la *seule* option (si tous les fournisseurs de VPN sont bloqués, par exemple), vous pouvez donc toujours les utiliser dans ces circonstances en gardant cette limitation à l'esprit.
 
-Si vous pensez qu'un pont peut vous aider à vous défendre contre la prise d'empreinte numérique ou d'autres analyses avancées du réseau plus que ne le fait déjà le tunnel chiffré d'un VPN, vous avez toujours la possibilité d'utiliser un pont en conjonction avec un VPN. Ainsi, vous restez protégé par les techniques d'obscurcissement du transport enfichable, même si un adversaire parvient à avoir un certain niveau de visibilité dans votre tunnel VPN. Si vous décidez de suivre cette voie, nous vous recommandons de vous connecter à un pont obfs4 derrière votre VPN pour une protection optimale des empreintes numériques, plutôt qu'à meek ou Snowflake.
+Si vous pensez qu'un pont peut vous aider à vous défendre contre la capture d'empreinte numérique ou d'autres analyses avancées du réseau plus que ne le fait déjà le tunnel chiffré d'un VPN, vous avez toujours la possibilité d'utiliser un pont en conjonction avec un VPN. Ainsi, vous restez protégé par les techniques d'obscurcissement du transport enfichable, même si un adversaire parvient à avoir un certain niveau de visibilité dans votre tunnel VPN. Si vous décidez de suivre cette voie, nous vous recommandons de vous connecter à un pont obfs4 derrière votre VPN pour une protection optimale des empreintes numériques, plutôt qu'à meek ou Snowflake.
 
 Il est [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16) que le transport enfichable [WebTunnel](https://forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) actuellement à l'essai puisse atténuer certains de ces problèmes. Nous continuerons à suivre l'évolution de cette technologie.
 

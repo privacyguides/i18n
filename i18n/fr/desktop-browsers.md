@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Ce sont les navigateurs web de bureau et les configurations que nous recommandons actuellement pour une navigation classique/non anonyme. Nous recommandons [Mullvad Browser](#mullvad-browser) si vous recherchez des protections solides de la vie privée et une protection contre les empreintes numériques, [Firefox](#firefox) pour les internautes occasionnels qui recherchent une bonne alternative à Google Chrome, et [Brave](#brave) si vous avez besoin d'une compatibilité avec le navigateur Chromium.
+Ce sont les navigateurs web de bureau et les configurations que nous recommandons actuellement pour une navigation classique/non anonyme. Nous recommandons [Mullvad Browser](#mullvad-browser) si vous recherchez des protections solides de la vie privée et une protection contre la capture des empreintes numériques, [Firefox](#firefox) pour les internautes occasionnels qui recherchent une bonne alternative à Google Chrome, et [Brave](#brave) si vous avez besoin d'une compatibilité avec le navigateur Chromium.
 
 Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt utiliser [Tor](tor.md). Nous faisons quelques recommandations de configuration sur cette page, mais tous les navigateurs autres que Tor Browser seront traçables par *quelqu'un* d'une manière ou d'une autre.
 
@@ -67,7 +67,7 @@ Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt u
 
 ![Logo du navigateur Mullvad](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-Le **Navigateur Mullvad** est une version du [Navigateur Tor](tor.md#tor-browser) dont l'intégration au réseau Tor a été supprimée, visant à fournir les technologies de protection contre les empreintes numériques du Navigateur Tor aux utilisateurs de VPN. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
+Le **Navigateur Mullvad** est une version du [Navigateur Tor](tor.md#tor-browser) dont l'intégration au réseau Tor a été supprimée, visant à fournir les technologies de protection contre la capture des empreintes numériques du Navigateur Tor aux utilisateurs de VPN. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
 
 [:octicons-home-16: Page d'accueil](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -85,13 +85,13 @@ Le **Navigateur Mullvad** est une version du [Navigateur Tor](tor.md#tor-browser
 
 </div>
 
-Comme le [Navigateur Tor](tor.md), le Navigateur Mullvad est conçu pour empêcher la prise d'empreintes numériques en rendant l'empreinte numérique de votre navigateur identique à celle de tous les autres utilisateurs du Navigateur Mullvad, et il inclut des paramètres par défaut et des extensions qui sont automatiquement configurés par les niveaux de sécurité par défaut : *Standard*, *Safer* et *Safest*. Il est donc impératif de ne pas modifier le navigateur mis à part l'ajustement des [niveaux de sécurité](https://tb-manual.torproject.org/security-settings) par défaut. D'autres modifications rendraient votre empreinte numérique unique, ce qui irait à l'encontre de l'objectif poursuivi par l'utilisation de ce navigateur. Si vous souhaitez configurer votre navigateur de manière plus poussée et que la prise d'empreintes numériques ne vous préoccupe pas, nous vous recommandons plutôt [Firefox](#firefox).
+Comme le [Navigateur Tor](tor.md), le Navigateur Mullvad est conçu pour empêcher la prise d'empreintes numériques en rendant l'empreinte numérique de votre navigateur identique à celle de tous les autres utilisateurs du Navigateur Mullvad, et il inclut des paramètres par défaut et des extensions qui sont automatiquement configurés par les niveaux de sécurité par défaut : *Standard*, *Safer* et *Safest*. Il est donc impératif de ne pas modifier le navigateur mis à part l'ajustement des [niveaux de sécurité](https://tb-manual.torproject.org/security-settings) par défaut. D'autres modifications rendraient votre empreinte numérique unique, ce qui irait à l'encontre de l'objectif poursuivi par l'utilisation de ce navigateur. Si vous souhaitez configurer votre navigateur de manière plus poussée et que la capture d'empreintes numériques ne vous préoccupe pas, nous vous recommandons plutôt [Firefox](#firefox).
 
-### Système anti-empreintes numériques
+### Système anti-capture d'empreintes numériques
 
 **Sans** utiliser un [VPN](vpn.md), le Navigateur Mullvad offre les mêmes protections contre [les scripts d'empreintes numériques naïfs](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) que d'autres navigateurs privés comme Firefox+[Arkenfox](#arkenfox-advanced) ou [Brave](#brave). Le Navigateur Mullvad fournit ces protections dès le départ, au détriment d'une certaine flexibilité et d'une commodité que d'autres navigateurs privés peuvent offrir.
 
-==Pour une protection anti-empreintes numériques optimale, nous recommandons d'utiliser le Navigateur Mullvad en conjonction **avec** un VPN==, qu'il s'agisse de Mullvad ou d'un autre fournisseur de VPN recommandé. Lorsque vous utilisez un VPN avec le Navigateur Mullvad, vous partagez une empreinte numérique et un ensemble d'adresses IP avec de nombreux autres utilisateurs, ce qui vous permet de vous fondre dans la "foule". Cette stratégie est le seul moyen de contrecarrer les scripts de pistage avancés, et c'est la même technique anti-empreintes numériques utilisée par le Navigateur Tor.
+==Pour une protection anti-capture d'empreintes numériques optimale, nous recommandons d'utiliser le Navigateur Mullvad en conjonction **avec** un VPN==, qu'il s'agisse de Mullvad ou d'un autre fournisseur de VPN recommandé. Lorsque vous utilisez un VPN avec le Navigateur Mullvad, vous partagez une empreinte numérique et un ensemble d'adresses IP avec de nombreux autres utilisateurs, ce qui vous permet de vous fondre dans la "foule". Cette stratégie est le seul moyen de contrecarrer les scripts de pistage avancés, et c'est la même technique anti-capture d'empreintes numériques utilisée par le Navigateur Tor.
 
 Notez que si vous pouvez utiliser le Navigateur Mullvad avec n'importe quel fournisseur de VPN, d'autres personnes sur ce VPN doivent également utiliser le Navigateur Mullvad pour que cette "foule" existe, ce qui est plus probable sur le VPN Mullvad par rapport à d'autres fournisseurs, en particulier si peu de temps après le lancement du Navigateur Mullvad. Le Navigateur Mullvad ne dispose pas d'une connectivité VPN intégrée et ne vérifie pas non plus si vous utilisez un VPN avant de naviguer ; votre connexion VPN doit être configurée et gérée séparément.
 
