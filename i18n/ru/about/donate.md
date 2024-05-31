@@ -5,18 +5,19 @@ title: Supporting Us
 <!-- markdownlint-disable MD036 -->
 It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. Если вам нравится то, что мы делаем, лучший способ помочь - это принять участие [редактируя сайт](https://github.com/privacyguides/privacyguides.org) или [помогая с его переводом](https://crowdin.com/project/privacyguides).
 
-<div class="admonition failure" markdown>
-<p class="admonition-title">Donation Information</p>
+## Donate
 
-Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
+Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
 
-</div>
+[:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+
+We are also working with our fiscal host to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the near future. In the meantime, if you still wish to make a cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org) to arrange a transaction.
+
+## Merchandise
 
 Еще один способ поддержать нас - это купить наш мерч на HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
 
 [Купить на HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
-
-Thank you to all those who support our mission! :heart:
 
 ## Как мы используем пожертвования
 
@@ -42,4 +43,6 @@ Privacy Guides - это **некоммерческая** организация.
 
 Иногда мы приобретаем продукты и услуги для тестирования [рекомендуемых нами инструментов](../tools.md).
 
-Мы всё ещё работаем над нашим фискальным хостом (Фонд Open Collective), чтобы получать пожертвования в криптовалюте, сейчас учёт множества мелких операций невозможен, но мы постараемся изменить это в будущем. А пока, если вы хотите сделать большое (> $100) пожертвование в криптовалюте, пожалуйста обратитесь по адресу [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+
+Thank you to all those who support our mission! :material-heart:{ .pg-red }

@@ -1,22 +1,23 @@
 ---
-title: Supportaci
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 Ci vogliono molte [persone](contributors.md) e molto [lavoro](https://github.com/privacyguides/privacyguides.org/pulse/monthly) per mantenere Privacy Guides aggiornato e per diffondere il verbo sulla privacy e sulla sorveglianza di massa. Se ti piace ciò che facciamo, considera di contribuire [modificando il sito](https://github.com/privacyguides/privacyguides.org) o [aiutandoci a tradurre](https://crowdin.com/project/privacyguides).
 
-<div class="admonition failure" markdown>
-<p class="admonition-title">Informazioni sulle donazioni</p>
+## Donate
 
-Sfortunatamente, Open Collective Foundation (il nostro host fiscale di lunga data) ha annunciato lo scioglimento delle sue attività e non può più sostenere né noi né i progetti che ospita. Pertanto, al momento non abbiamo modo di accettare donazioni. Stiamo studiando il modo di procedere da una prospettiva giuridica, ma nel frattempo qualsiasi contributo non monetario che si può fornire sarebbe molto apprezzato.
+Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
 
-</div>
+[:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+
+We are also working with our fiscal host to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the near future. In the meantime, if you still wish to make a cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org) to arrange a transaction.
+
+## Merchandise
 
 Un'altra opzione per supportarci è acquistare il nostro merchandise, da HelloTux. Noi riceviamo una piccola commissione per ogni articolo venduto e voi ottenete un prodotto di qualità.
 
 [Acquista su HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
-
-Grazie a tutti coloro che sostengono la nostra missione! :heart:
 
 ## Come utilizziamo le donazioni
 
@@ -42,4 +43,6 @@ Ospitiamo dei [servizi Internet](https://privacyguides.net) per testare e mostra
 
 Occasionalmente, acquistiamo prodotti e servizi allo scopo di testare i nostri [strumenti consigliati](../tools.md).
 
-Al momento stiamo lavorando con il nostro host fiscale (la Open Collective Foundation), per ricevere le donazioni in criptovalute; al momento, la contabilità non è fattibile per molte, piccole transazioni, cosa che dovrebbe cambiare in futuro. Nel mentre, se desideri effettuare una donazione consistente in criptovalute (> $100), ti preghiamo di contattare [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+
+Grazie a tutti coloro che sostengono la nostra missione! :material-heart:{ .pg-red }

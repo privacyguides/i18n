@@ -5,18 +5,19 @@ title: Supporting Us
 <!-- markdownlint-disable MD036 -->
 It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. 저희의 노력을 응원하신다면 [사이트 편집 기여](https://github.com/privacyguides/privacyguides.org) 혹은 [번역 기여](https://crowdin.com/project/privacyguides)에 참여해보세요.
 
-<div class="admonition failure" markdown>
-<p class="admonition-title">Donation Information</p>
+## Donate
 
-Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
+Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
 
-</div>
+[:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+
+We are also working with our fiscal host to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the near future. In the meantime, if you still wish to make a cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org) to arrange a transaction.
+
+## Merchandise
 
 HelloTux에서 상품을 구매하여 Privacy Guides를 후원하실 수도 있습니다. We get a small commission for each item sold, and you get a quality product to show for it.
 
 [HelloTux.com에서 구매하기](https://hellotux.com/privacyguides){ class="md-button" }
-
-Thank you to all those who support our mission! :heart:
 
 ## 후원금 사용 내역
 
@@ -42,4 +43,6 @@ Privacy Guides는 여러 [서비스](https://privacyguides.net)를 호스팅하�
 
 Privacy Guides는 때때로 [권장 목록](../tools.md)의 서비스나 툴을 테스트하기 위한 목적으로 제품을 구매합니다.
 
-암호화폐 후원의 경우, 현재로서는 다량의 소액 결제에 대해 회계 처리가 불가능하기 때문에 재정 호스트(Open Collective 재단)와 협력하고 있지만 향후에는 변경될 예정입니다. 그동안 상당한 금액($100 이상)의 암호화폐를 기부하시려는 경우, [jonah@privacyguides.org](mailto:jonah@privacyguides.org)로 문의해 주시기 바랍니다.
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+
+Thank you to all those who support our mission! :material-heart:{ .pg-red }

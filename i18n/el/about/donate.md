@@ -1,22 +1,23 @@
 ---
-title: Υποστηρίξτε μας
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 Χρειάζεται πολύ [ανθρώπινο δυναμικό](contributors.md) και [δουλειά](https://github.com/privacyguides/privacyguides.org/pulse/monthly) για να κρατάμε τους οδηγούς των Privacy Guides ενημερωμένους και να διαδίδουμε τη λέξη σχετικά με την προστασία της ιδιωτικής ζωής και τη μαζική παρακολούθηση. Αν σας αρέσει αυτό που κάνουμε, σκεφτείτε να συμμετάσχετε με την [επεξεργασία του ιστότοπου](https://github.com/privacyguides/privacyguides.org) ή με [τη συνεισφορά μεταφράσεων](https://crowdin.com/project/privacyguides).
 
-<div class="admonition failure" markdown>
-<p class="admonition-title">Πληροφορίες Δωρεών</p>
+## Donate
 
-Δυστυχώς, το Open Collective Foundation (ο μακροχρόνιος φορολογικός μας οικοδεσπότης) ανακοίνωσε ότι διαλύει τις δραστηριότητές του και δεν μπορεί πλέον να υποστηρίξει εμάς ή οποιοδήποτε έργο που φιλοξενεί. Έτσι, δεν έχουμε τρόπο να δεχτούμε δωρεές αυτή τη στιγμή. Εξετάζουμε τρόπους για να προχωρήσουμε μπροστά από νομικής πλευράς, αλλά στο μεταξύ οποιαδήποτε μη χρηματική συνεισφορά μπορείτε να προσφέρετε θα εκτιμηθεί ιδιαίτερα.
+Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
 
-</div>
+[:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+
+We are also working with our fiscal host to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the near future. In the meantime, if you still wish to make a cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org) to arrange a transaction.
+
+## Merchandise
 
 Μια άλλη επιλογή για να μας υποστηρίξετε είναι να αγοράσετε τα προϊόντα μας από το HelloTux. Παίρνουμε μια μικρή προμήθεια για κάθε αντικείμενο που πωλείται, και εσείς παίρνετε ένα ποιοτικό προϊόν για να το δείξετε.
 
 [Αγοράστε στο HelloTux.com{](https://hellotux.com/privacyguides) class="md-button" }
-
-Σας ευχαριστούμε όλους όσους υποστηρίζουν την αποστολή μας! :heart:
 
 ## Πώς χρησιμοποιούμε τις δωρεές
 
@@ -42,4 +43,6 @@ title: Υποστηρίξτε μας
 
 Αγοράζουμε περιστασιακά προϊόντα και υπηρεσίες με σκοπό την δοκιμή των [συνιστώμενων εργαλείων](../tools.md) μας.
 
-Εξακολουθούμε να συνεργαζόμαστε με τον φορολογικό μας οικοδεσπότη (το Open Collective Foundation) για να λαμβάνουμε δωρεές σε κρυπτονομίσματα, προς το παρόν η λογιστική δεν είναι εφικτή για πολλές μικρότερες συναλλαγές, αλλά αυτό θα αλλάξει στο μέλλον. Εν τω μεταξύ, αν επιθυμείτε να κάνετε μια σημαντική δωρεά σε κρυπτονόμισμα (> $100), παρακαλούμε επικοινωνήστε με τον [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+
+Σας ευχαριστούμε όλους όσους υποστηρίζουν την αποστολή μας! :material-heart:{ .pg-red }

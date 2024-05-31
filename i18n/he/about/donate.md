@@ -5,18 +5,19 @@ title: Supporting Us
 <!-- markdownlint-disable MD036 -->
 It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. אם אתה אוהב את מה שאנחנו עושים, שקול להיות מעורב על ידי [עריכת האתר](https://github.com/privacyguides/privacyguides.org) או [תרומה בתרגום](https://crowdin.com/project/privacyguides).
 
-<div class="admonition failure" markdown>
-<p class="admonition-title">Donation Information</p>
+## Donate
 
-Unfortunately, Open Collective Foundation (our long-time fiscal host) announced they are dissolving their operations and can no longer support us or any project they host. Thus, we have no way to accept donations at this time. We are looking into ways to move forward from a legal perspective, but in the meantime any non-monetary contribution you can provide would be greatly appreciated.
+Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
 
-</div>
+[:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+
+We are also working with our fiscal host to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the near future. In the meantime, if you still wish to make a cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org) to arrange a transaction.
+
+## Merchandise
 
 אפשרות נוספת לתמוך בנו היא על ידי רכישת הסחורה שלנו מ-HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
 
 [קנה ב- HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
-
-Thank you to all those who support our mission! :heart:
 
 ## כיצד אנו משתמשים בתרומות
 
@@ -42,4 +43,6 @@ Privacy Guides הוא ארגון **ללא מטרות רווח **. אנו משת�
 
 מדי פעם אנו רוכשים מוצרים ושירותים לצורך בדיקת [הכלים המומלצים שלנו](../tools.md).
 
-אנחנו עדיין עובדים עם המארח הפיסקאלי שלנו (הקרן הקולקטיבית הפתוחה) כדי לקבל תרומות של מטבעות קריפטוגרפיים, כרגע החשבונאות אינה אפשרית להרבה עסקאות קטנות יותר, אבל זה אמור להשתנות בעתיד. בינתיים, אם ברצונך לבצע תרומה גדולה (> $100) של מטבע מוצפן, אנא צור קשר עם [jonah@privacyguides.org](mailto:jonah@privacyguides.org).
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+
+Thank you to all those who support our mission! :material-heart:{ .pg-red }

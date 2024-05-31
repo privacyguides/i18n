@@ -1,22 +1,23 @@
 ---
-title: 支持我们
+title: Supporting Us
 ---
 
 <!-- markdownlint-disable MD036 -->
 It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. 如果您喜歡我們的工作，請考慮參與 [編輯網站](https://github.com/privacyguides/privacyguides.org) 或 [貢獻翻譯](https://crowdin.com/project/privacyguides)。
 
-<div class="admonition failure" markdown>
-<p class="admonition-title">捐贈資訊</p>
+## Donate
 
-不幸的是，Open Collective Foundation（我們的長期財政主辦人）宣布他們要解散業務，無法再支持我們或他們主辦的任何項目。 因此，我們目前無法接受捐款。 我們正在研究從法律角度向前推進的方法，與此同時，您提供的任何非金錢捐助將不勝感激。
+Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
 
-</div>
+[:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+
+We are also working with our fiscal host to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the near future. In the meantime, if you still wish to make a cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org) to arrange a transaction.
+
+## Merchandise
 
 另一個支持我們的方是從 HelloTux 購買我們的商品。 每賣出一件 T-恤我們可獲得 $4元小額佣金，而您也可以得到一件優質商品。
 
 [在HelloTux.com 購買](https://hellotux.com/privacyguides){ class="md-button" }
-
-感謝所有支持本站宗旨的朋友！ :heart:
 
 ## 我們如何使用贊助費用
 
@@ -42,4 +43,6 @@ Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目�
 
 我們偶爾會購買產品和服務，以測試我們的 [推薦工具](../tools.md)。
 
-我們仍在與我們的財政托管機構（Open Collective Foundation）合作，以接收加密貨幣捐贈，目前會計對許多較小的交易是不可行的，但這種情況在未來應該會發生變化。 與此同時，如果您希望捐贈大於 $ 100 美元的加密貨幣，請聯繫 [jonah@privacyguides.org](mailto:jonah@privacyguides.org)
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+
+感謝所有支持本站宗旨的朋友！ :material-heart:{ .pg-red }
