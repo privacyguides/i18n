@@ -19,7 +19,7 @@ cover: photo-management.webp
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -27,7 +27,7 @@ cover: photo-management.webp
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-android: Android](https://ente.io/download)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
 - [:simple-windows11: Windows](https://ente.io/download)
 - [:simple-apple: macOS](https://ente.io/download)
 - [:simple-linux: Linux](https://ente.io/download)
@@ -57,7 +57,7 @@ cover: photo-management.webp
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
 - [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
-- [:simple-github: GitHub](https://github.com/stingle)
+- [:simple-github: GitHub](https://github.com/stingle/stingle-photos-android/releases)
 
 </details>
 
@@ -93,7 +93,7 @@ cover: photo-management.webp
 
 - 雲端託管提供者須強制執行端對端加密。
 - 必須提供免費計劃或試用期以進行測試。
-- 必須支援 TOTP 或 FIDO2 多因素驗證，或 Passkey 登入。
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - 必須提供支援基本檔案管理功能的網頁介面。
 - 允許輕鬆匯出所有檔案/文件。
 - 必須使用經審核的標準加密。

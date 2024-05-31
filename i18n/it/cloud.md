@@ -126,7 +126,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - Deve imporre la crittografia end-to-end.
 - Deve offrire un piano gratuito o un periodo di prova per testarlo.
-- Deve supportare l'autenticazione a più fattori TOTP o FIDO2, o gli accessi tramite Passkey.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Deve offrire un'interfaccia web che supporti le funzionalità di base per la gestione dei file.
 - Deve consentire un'esportazione facile di tutti i file/documenti.
 - Deve utilizzare una crittografia standard e controllata.

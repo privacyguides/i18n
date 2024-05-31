@@ -126,7 +126,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - 종단 간 암호화가 적용되어야 합니다.
 - 테스트용 무료 요금제/체험판 기간을 제공해야 합니다.
-- TOTP/FIDO2 다중 인증 혹은 Passkey 로그인을 지원해야 합니다.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - 기본적인 파일 관리 기능을 지원하는 웹 인터페이스를 제공해야 합니다.
 - 모든 파일/문서를 쉽게 내보낼 수 있어야 합니다.
 - 감사받은 표준 암호화를 사용해야 합니다.

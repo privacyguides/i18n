@@ -126,7 +126,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - Måste genomdriva end-to-end-kryptering.
 - Måste erbjuda en gratis plan eller provperiod för testning.
-- Måste stödja TOTP- eller FIDO2-multifaktorautentisering eller inloggning med lösenord.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Måste erbjuda ett webbgränssnitt som stöder grundläggande filhanteringsfunktioner.
 - Måste möjliggöra enkel export av alla filer/dokument.
 - Måste använda standard, granskad kryptering.

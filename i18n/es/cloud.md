@@ -126,7 +126,7 @@ Además, la aplicación para Android no está disponible, pero se está [trabaja
 
 - Debe aplicar el cifrado de extremo a extremo.
 - Debe ofrecer un plan gratuito o un periodo de prueba.
-- Debe ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión Passkey.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Debe ofrecer una interfaz web que admita funciones básicas de gestión de archivos.
 - Debe permitir exportar fácilmente todos los archivos/documentos.
 - Debe utilizar un cifrado estándar auditado.

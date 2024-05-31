@@ -83,7 +83,7 @@ cover: productivity.webp
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 應將檔案儲存在傳統檔案系統中。
-- 必須支援 TOTP 或 FIDO2 多因素驗證，或 Passkey 登入。
+- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
 
 ## 辦公套件
 

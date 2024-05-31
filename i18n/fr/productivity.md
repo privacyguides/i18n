@@ -83,7 +83,7 @@ En général, nous définissons les plateformes de collaboration comme des suite
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Devrait stocker les fichiers dans un système de fichiers conventionnel.
-- Devrait prendre en charge l'authentification multifactorielle TOTP ou FIDO2, ou les connexions par Passkey.
+- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
 
 ## Suites bureautiques
 

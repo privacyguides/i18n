@@ -114,7 +114,8 @@ The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports sys
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/ente-io/auth){ .card-link title="Source Code" }
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

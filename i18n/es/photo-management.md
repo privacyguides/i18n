@@ -16,10 +16,10 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 
 **Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Su código es totalmente abierto, tanto en el lado del cliente como en el del servidor. Es [autoalojable](https://github.com/ente-io/ente/tree/main/server#self-hosting). Se sometió a una [auditoría por Cure53](https://ente.io/blog/cryptography-audit) en marzo de 2023 y por [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) en abril de 2023. The free trial offers 5GB of storage, for a year.
 
-[:octicons-home-16: Página Principal](https://ente.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -27,7 +27,7 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-android: Android](https://ente.io/download)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
 - [:simple-windows11: Windows](https://ente.io/download)
 - [:simple-apple: macOS](https://ente.io/download)
 - [:simple-linux: Linux](https://ente.io/download)
@@ -57,7 +57,7 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
 - [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
-- [:simple-github: GitHub](https://github.com/stingle)
+- [:simple-github: GitHub](https://github.com/stingle/stingle-photos-android/releases)
 
 </details>
 
@@ -93,7 +93,7 @@ La mayoría de las soluciones de gestión de fotos en la nube, como Google Photo
 
 - Los proveedores alojados en la nube deben aplicar cifrado de extremo a extremo.
 - Debe ofrecer un plan gratuito o un periodo de prueba.
-- Debe ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión Passkey.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Debe ofrecer una interfaz web que admita funciones básicas de gestión de archivos.
 - Debe permitir exportar fácilmente todos los archivos/documentos.
 - Debe utilizar un cifrado estándar auditado.

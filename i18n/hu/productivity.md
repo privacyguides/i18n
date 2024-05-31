@@ -83,7 +83,7 @@ A **CryptPad** egy a népszerű irodai eszközök privátra tervezett alternatí
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
 - Fájlokat egy hagyományos fájlrendszerben kell tárolnia.
-- Támogatnia kell TOTP vagy FIDO2 többlépcsős hitelesítés használatát, vagy Passkey bejelentkezéseket.
+- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
 
 ## Irodai Programcsomagok
 

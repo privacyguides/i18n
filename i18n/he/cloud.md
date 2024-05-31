@@ -126,7 +126,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - חייב לאכוף הצפנה מקצה לקצה.
 - יש להציע תוכנית חינם או תקופת ניסיון לבדיקה.
-- צריך לתמוך בתמיכה באימות רב-גורמי TOTP או FIDO2, או כניסות מפתח סיסמה.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - חייב להציע ממשק אינטרנט התומך בפונקציונליות ניהול קבצים בסיסית.
 - חייב לאפשר ייצוא קל של כל הקבצים/המסמכים.
 - חייב להשתמש בהצפנה סטנדרטית ומבוקרת.

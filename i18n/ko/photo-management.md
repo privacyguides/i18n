@@ -19,7 +19,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -27,7 +27,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-android: Android](https://ente.io/download)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
 - [:simple-windows11: Windows](https://ente.io/download)
 - [:simple-apple: macOS](https://ente.io/download)
 - [:simple-linux: Linux](https://ente.io/download)
@@ -57,7 +57,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
 - [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
-- [:simple-github: GitHub](https://github.com/stingle)
+- [:simple-github: GitHub](https://github.com/stingle/stingle-photos-android/releases)
 
 </details>
 
@@ -93,7 +93,7 @@ Most cloud photo management solutions like Google Photos, Flickr, and Amazon Pho
 
 - Cloud-hosted providers must enforce end-to-end encryption.
 - 테스트용 무료 요금제/체험판 기간을 제공해야 합니다.
-- TOTP/FIDO2 다중 인증 혹은 Passkey 로그인을 지원해야 합니다.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - 기본적인 파일 관리 기능을 지원하는 웹 인터페이스를 제공해야 합니다.
 - 모든 파일/문서를 쉽게 내보낼 수 있어야 합니다.
 - 감사받은 표준 암호화를 사용해야 합니다.

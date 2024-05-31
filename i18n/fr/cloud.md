@@ -126,7 +126,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - Doit imposer le chiffrement de bout en bout.
 - Doit avoir une offre gratuite ou une période d'essai pour les tests.
-- Doit prendre en charge l'authentification multifactorielle TOTP ou FIDO2, ou les connexions Passkey.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Doit offrir une interface web prennant en charge les fonctionnalités de base de gestion des fichiers.
 - Doit permettre d'exporter facilement tous les fichiers/documents.
 - Doit utiliser un chiffrement standard et audité.

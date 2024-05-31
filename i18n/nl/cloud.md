@@ -126,7 +126,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - Moet end-to-end encryptie afdwingen.
 - Moet een gratis plan of proefperiode aanbieden om te testen.
-- Moet TOTP of FIDO2 multi-factor authenticatie ondersteunen, of Passkey-logins.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Moet een webinterface bieden die basisfuncties voor bestandsbeheer ondersteunt.
 - Moet gemakkelijke export van alle bestanden/documenten mogelijk maken.
 - Gebruik standaard gecontroleerde versleuteling.

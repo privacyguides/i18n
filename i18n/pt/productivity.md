@@ -83,7 +83,7 @@ Em geral, definimos as plataformas de colaboração como suites completas que po
 Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
 
 - Devem armazenar ficheiros num sistema de ficheiros convencional.
-- Devem suportar a autenticação multifator TOTP ou FIDO2, ou logins Passkey.
+- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
 
 ## Suites de escritório
 

@@ -19,7 +19,7 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -27,7 +27,7 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-android: Android](https://ente.io/download)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
-- [:simple-github: GitHub](https://github.com/ente-io/ente/releases)
+- [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
 - [:simple-windows11: Windows](https://ente.io/download)
 - [:simple-apple: macOS](https://ente.io/download)
 - [:simple-linux: Linux](https://ente.io/download)
@@ -57,7 +57,7 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
 - [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
-- [:simple-github: GitHub](https://github.com/stingle)
+- [:simple-github: GitHub](https://github.com/stingle/stingle-photos-android/releases)
 
 </details>
 
@@ -93,7 +93,7 @@ La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photo
 
 - I provider ospitati in cloud devono applicare la crittografia end-to-end.
 - Deve offrire un piano gratuito o un periodo di prova per testarlo.
-- Deve supportare l'autenticazione a più fattori TOTP o FIDO2, o gli accessi tramite Passkey.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Deve offrire un'interfaccia web che supporti le funzionalità di base per la gestione dei file.
 - Deve consentire un'esportazione facile di tutti i file/documenti.
 - Deve utilizzare una crittografia standard e controllata.

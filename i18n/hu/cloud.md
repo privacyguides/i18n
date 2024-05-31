@@ -126,7 +126,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - Végponttól végpontig terjedő titkosítást kell érvényesítenie.
 - Ingyenes csomagot vagy próbaidőszakot kell kínálnia a teszteléshez.
-- Támogatnia kell TOTP vagy FIDO2 többlépcsős hitelesítés használatát, vagy Passkey bejelentkezéseket.
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Olyan webes felületet kell kínálnia, amely támogat alapvető fájlkezelési funkciókat.
 - Lehetővé kell tennie az összes fájl/dokumentum egyszerű exportálását.
 - Szabványos, felülvizsgált titkosítást kell használnia.

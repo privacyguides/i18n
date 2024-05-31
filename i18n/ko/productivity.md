@@ -83,7 +83,7 @@ Privacy Guides는 Nextcloud용 [E2EE 앱](https://apps.nextcloud.com/apps/end_to
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
 - 파일 관리는 일반적인 파일 시스템 상에서 이루어져야 합니다.
-- TOTP/FIDO2 다중 인증 혹은 Passkey 로그인을 지원해야 합니다.
+- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
 
 ## 오피스 제품군
 

@@ -126,7 +126,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - 使用端到端加密
 - 必须提供免费计划或试用期进行测试。
-- 必须支持TOTP或FIDO2多因素认证，或Passkey登录。
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - 必须提供一个支持基本文件管理功能的网络界面。
 - 必须允许所有文件/文档的轻松导出。
 - 必须使用标准的、经过审计的加密技术。

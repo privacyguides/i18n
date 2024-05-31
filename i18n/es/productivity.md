@@ -83,7 +83,7 @@ En general, definimos las plataformas de colaboración como paquetes completos q
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
 - Debe almacenar los archivos en un sistema de archivos convencional.
-- Debe ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión Passkey.
+- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
 
 ## Paquetes Ofimáticos
 
