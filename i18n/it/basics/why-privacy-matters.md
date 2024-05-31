@@ -57,6 +57,6 @@ La privacy dev'essere integrata nei [software e servizi](../tools.md) che utiliz
 
 ## Fonti
 
-- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
+- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) di Neil Richards
 - [Il nuovo petrolio: Perchè la privacy e la sicurezza contano](https://thenewoil.org/en/guides/prologue/why)
 - [@Thorin-Oakenpants su Anonimato vs Privacy vs Sicurezza](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
