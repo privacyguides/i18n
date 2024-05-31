@@ -66,7 +66,7 @@ Een waarnemer kan elk van deze pakketten wijzigen.
 
 ## Wat is "versleutelde DNS"?
 
-Versleutelde DNS kan verwijzen naar een van een aantal protocollen, waarvan de meest voorkomende zijn:
+Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
@@ -78,7 +78,7 @@ Versleutelde DNS kan verwijzen naar een van een aantal protocollen, waarvan de m
 
 ### DNS over HTTPS (DoH)
 
-[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) zoals gedefinieerd in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) verpakt query's in het [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol en biedt beveiliging met HTTPS. Ondersteuning werd voor het eerst toegevoegd in webbrowsers zoals Firefox 60 en Chrome 83.
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Ondersteuning werd voor het eerst toegevoegd in webbrowsers zoals Firefox 60 en Chrome 83.
 
 Native implementatie van DoH dook op in iOS 14, macOS 11, Microsoft Windows, en Android 13 (het zal echter niet standaard worden ingeschakeld [](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Algemene Linux desktop ondersteuning wacht op de systemd [implementatie](https://github.com/systemd/systemd/issues/8639) dus [het installeren van third-party software is nog steeds vereist](../dns.md#linux).
 
@@ -98,7 +98,7 @@ Apple biedt geen native interface voor het maken van versleutelde DNS-profielen.
 
 #### Linux
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## Wat kan een buitenstaander zien?
 
@@ -128,7 +128,7 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 ## Waarom **zou ik geen** versleutelde DNS gebruiken?
 
-Op plaatsen waar internet wordt gefilterd (of gecensureerd), kan het bezoeken van verboden bronnen eigen gevolgen hebben waarmee je rekening moet houden in jouw [bedreigingsmodel](../basics/threat-modeling.md). Wij **niet** suggereren het gebruik van gecodeerde DNS voor dit doel. Gebruik in plaats daarvan [Tor](https://torproject.org) of een [VPN](../vpn.md). Als je een VPN gebruikt, moet je de DNS-servers van jouw VPN gebruiken. Wanneer je een VPN gebruikt, vertrouwt je hen al jouw netwerkactiviteiten toe.
+Op plaatsen waar internet wordt gefilterd (of gecensureerd), kan het bezoeken van verboden bronnen eigen gevolgen hebben waarmee je rekening moet houden in jouw [bedreigingsmodel](../basics/threat-modeling.md). Wij **niet** suggereren het gebruik van gecodeerde DNS voor dit doel. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Als je een VPN gebruikt, moet je de DNS-servers van jouw VPN gebruiken. Wanneer je een VPN gebruikt, vertrouwt je hen al jouw netwerkactiviteiten toe.
 
 Wanneer we een DNS lookup doen, is dat meestal omdat we toegang willen tot een bron. Hieronder bespreken we enkele van de methoden die jouw surf-activiteiten kunnen onthullen, zelfs wanneer je versleutelde DNS gebruikt:
 

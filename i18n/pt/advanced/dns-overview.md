@@ -66,7 +66,7 @@ Um observador pode modificar qualquer um destes pacotes.
 
 ## O que é o "DNS encriptado"?
 
-O DNS encriptado pode referir-se a um de vários protocolos, sendo os mais comuns:
+Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
@@ -78,7 +78,7 @@ O [**DNS sobre TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) é outro méto
 
 ### DNS sobre HTTPS (DoH)
 
-O [**DNS sobre HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), tal como definido em [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), agrupa as consultas através do protocolo [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) e proporciona segurança com HTTPS. O suporte foi adicionado pela primeira vez em browsers como o Firefox 60 e o Chrome 83.
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. O suporte foi adicionado pela primeira vez em browsers como o Firefox 60 e o Chrome 83.
 
 A implementação nativa do DoH apareceu no iOS 14, macOS 11, Microsoft Windows e Android 13 (no entanto, não será ativado [por predefinição](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). O suporte geral do ambiente de trabalho Linux está à espera da [implementação](https://github.com/systemd/systemd/issues/8639) do systemd, pelo que [ainda é necessário instalar software de terceiros](../dns.md#encrypted-dns-proxies).
 
@@ -98,7 +98,7 @@ Apple does not provide a native interface for creating encrypted DNS profiles. I
 
 #### Linux
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## O que é que uma pessoa de fora pode ver?
 
@@ -128,7 +128,7 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 ## Por que razão **não devo** utilizar DNS encriptado?
 
-Em locais onde existe filtragem (ou censura) da Internet, visitar recursos proibidos pode ter as suas próprias consequências, que devem ser consideradas no [modelo de ameaças](../basics/threat-modeling.md). **Não** sugerimos a utilização de DNS encriptado para este fim. Em vez disso, utilize o [Tor](https://torproject.org) ou uma [VPN](../vpn.md). Se estiver a utilizar uma VPN, deve utilizar os servidores DNS da sua VPN. Ao utilizar uma VPN, está a confiar-lhes toda a sua atividade de rede.
+Em locais onde existe filtragem (ou censura) da Internet, visitar recursos proibidos pode ter as suas próprias consequências, que devem ser consideradas no [modelo de ameaças](../basics/threat-modeling.md). **Não** sugerimos a utilização de DNS encriptado para este fim. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Se estiver a utilizar uma VPN, deve utilizar os servidores DNS da sua VPN. Ao utilizar uma VPN, está a confiar-lhes toda a sua atividade de rede.
 
 Quando fazemos uma pesquisa DNS, geralmente é porque queremos aceder a um recurso. Abaixo, falaremos de alguns dos métodos que podem revelar as suas atividades de navegação, mesmo quando utiliza DNS encriptado:
 

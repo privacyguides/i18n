@@ -66,7 +66,7 @@ Un observateur pourrait modifier n'importe lequel de ces paquets.
 
 ## Qu'est-ce qu'un "DNS chiffré" ?
 
-Un DNS chiffré peut faire référence à un certain nombre de protocoles, les plus courants étant :
+Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
@@ -78,7 +78,7 @@ Un DNS chiffré peut faire référence à un certain nombre de protocoles, les p
 
 ### DNS sur HTTPS (DoH)
 
-[**DNS sur HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) tel que défini dans [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) regroupe les requêtes dans le protocole [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) et assure la sécurité avec HTTPS. La prise en charge a d'abord été ajoutée dans les navigateurs web tels que Firefox 60 et Chrome 83.
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. La prise en charge a d'abord été ajoutée dans les navigateurs web tels que Firefox 60 et Chrome 83.
 
 L'implémentation native de DoH est apparue dans iOS 14, macOS 11, Microsoft Windows et Android 13 (cependant, elle ne sera pas activée [par défaut](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Sous Linux la prise en charge sera assurée par [l'implémentation](https://github.com/systemd/systemd/issues/8639) dans systemd donc [l'installation de logiciels tiers est encore nécessaire](../dns.md#encrypted-dns-proxies).
 
@@ -98,7 +98,7 @@ Apple ne fournit pas d'interface native pour la création de profils DNS chiffr�
 
 #### Linux
 
-`systemd-resolved`, que de nombreuses distributions Linux utilisent pour effectuer leurs recherches DNS, ne prend pas encore [en charge DoH](https://github.com/systemd/systemd/issues/8639). Si vous souhaitez utiliser DoH, vous devez installer un proxy tel que [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) et le [configurer](https://wiki.archlinux.org/title/Dnscrypt-proxy) pour qu'il prenne toutes les requêtes DNS de votre résolveur système et les transmette via HTTPS.
+`systemd-resolved`, que de nombreuses distributions Linux utilisent pour effectuer leurs recherches DNS, ne prend pas encore [en charge DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## Que peut voir un tiers ?
 
@@ -128,7 +128,7 @@ Nous pouvons voir l'[établissement de la connexion](https://en.wikipedia.org/wi
 
 ## Pourquoi **ne devrais-je pas** utiliser un DNS chiffré ?
 
-Dans les endroits où il existe un filtrage (ou une censure) de l'Internet, la visite de ressources interdites peut avoir ses propres conséquences que vous devez prendre en compte dans votre [modèle de menace](../basics/threat-modeling.md). Nous ne suggérons **pas** l'utilisation de DNS chiffrés à cette fin. Utilisez plutôt [Tor](https://torproject.org) ou un [VPN](../vpn.md). Si vous utilisez un VPN, vous devez utiliser les serveurs DNS de votre VPN. En utilisant un VPN, vous lui confiez déjà toute votre activité réseau.
+Dans les endroits où il existe un filtrage (ou une censure) de l'Internet, la visite de ressources interdites peut avoir ses propres conséquences que vous devez prendre en compte dans votre [modèle de menace](../basics/threat-modeling.md). Nous ne suggérons **pas** l'utilisation de DNS chiffrés à cette fin. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Si vous utilisez un VPN, vous devez utiliser les serveurs DNS de votre VPN. En utilisant un VPN, vous lui confiez déjà toute votre activité réseau.
 
 Lorsque nous effectuons une recherche DNS, c'est généralement parce que nous voulons accéder à une ressource. Nous examinerons ci-dessous certaines des méthodes susceptibles de divulguer vos activités de navigation, même lorsque vous utilisez un DNS chiffré :
 

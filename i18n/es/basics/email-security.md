@@ -33,7 +33,7 @@ Los proveedores de correo electrónico que permiten utilizar protocolos de acces
 
 ### ¿Cómo puedo proteger mis claves privadas?
 
-Una tarjeta inteligente (como una [Yubikey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o una [Nitrokey](https://nitrokey.com)) funciona recibiendo un mensaje de correo electrónico cifrado desde un dispositivo (teléfono, tableta, ordenador, etc.) que ejecuta un cliente de correo electrónico/correo web. El mensaje es entonces descifrado por la tarjeta inteligente y el contenido descifrado es enviado de vuelta al dispositivo.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../multi-factor-authentication.md#nitrokey) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. El mensaje es entonces descifrado por la tarjeta inteligente y el contenido descifrado es enviado de vuelta al dispositivo.
 
 Es ventajoso para el descifrado que suceda en la tarjeta inteligente para evitar la posible exposición de tu clave privada en un dispositivo comprometido.
 

@@ -66,7 +66,7 @@ Un osservatore potrebbe modificare uno qualsiasi di questi pacchetti.
 
 ## Cos'è il "DNS crittografato"?
 
-Il DNS crittografato può riferirsi a uno dei numerosi protocolli, i più comuni dei quali sono:
+Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
@@ -78,7 +78,7 @@ Il DNS crittografato può riferirsi a uno dei numerosi protocolli, i più comuni
 
 ### DNS-over-HTTPS (DoH)
 
-[**DNS-over-HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), come definito in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), impacchetta le richieste nel protocollo [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) e fornisce sicurezza con HTTPS. Il supporto è stato aggiunto per la prima volta nei browser web come Firefox 60 e Chrome 83.
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Il supporto è stato aggiunto per la prima volta nei browser web come Firefox 60 e Chrome 83.
 
 L'implementazione nativa di DoH è arrivata su iOS 14, macOS 11, Microsoft Windows e Android 13 (tuttavia, non sarà abilitata [di default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Il supporto generale per i desktop Linux è in attesa dell'[implementazione](https://github.com/systemd/systemd/issues/8639) di systemd, quindi [è necessario installare un software di terze parti](../dns.md#encrypted-dns-proxies).
 
@@ -98,7 +98,7 @@ Apple non fornisce un'interfaccia nativa per la creazione di profili DNS crittog
 
 #### Linux
 
-`systemd-resolved`, che molte distribuzioni Linux usano per eseguire le ricerche DNS, non supporta ancora [DoH](https://github.com/systemd/systemd/issues/8639). Se vuoi utilizzare DoH, è necessario installare un proxy come [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) e [configurarlo](https://wiki.archlinux.org/title/Dnscrypt-proxy) per intercettare tutte le stringhe DNS dal tuo resolver di sistema e inoltrarle su HTTPS.
+`systemd-resolved`, che molte distribuzioni Linux usano per eseguire le ricerche DNS, non supporta ancora [DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## Cosa può vedere una parte esterna?
 
@@ -128,7 +128,7 @@ Possiamo vedere la [creazione della connessione](https://en.wikipedia.org/wiki/T
 
 ## Perché **non dovrei** utilizzare il DNS crittografato?
 
-Nei luoghi in cui esiste il filtraggio (o censura) di Internet, visitare le risorse proibite potrebbe avere delle conseguenze, che dovresti considerare nel tuo [modello di minaccia](../basics/threat-modeling.md). Noi **non** suggeriamo di utilizzare il DNS crittografato per tale scopo. Utilizza [Tor](https://torproject.org) o una [VPN](../vpn.md). Se stai utilizzando una VPN, dovresti utilizzare i server DNS della tua VPN. Utilizzando una VPN, stai già affidando loro tutta la tua attività di rete.
+Nei luoghi in cui esiste il filtraggio (o censura) di Internet, visitare le risorse proibite potrebbe avere delle conseguenze, che dovresti considerare nel tuo [modello di minaccia](../basics/threat-modeling.md). Noi **non** suggeriamo di utilizzare il DNS crittografato per tale scopo. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Se stai utilizzando una VPN, dovresti utilizzare i server DNS della tua VPN. Utilizzando una VPN, stai già affidando loro tutta la tua attività di rete.
 
 Quando effettuiamo una ricerca DNS, generalmente è perché desideriamo accedere a una risorsa. Di seguito, discuteremo di alcuni dei metodi che potrebbero divulgare le tue attività di navigazione, anche utilizzando il DNS crittografato:
 

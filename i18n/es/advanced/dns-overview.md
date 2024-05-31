@@ -66,7 +66,7 @@ Un observador podría modificar cualquiera de estos paquetes.
 
 ## ¿Qué es "DNS cifrado"?
 
-DNS encriptado puede referirse a uno de un número de protocolos, los más comunes siendo:
+Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
@@ -78,7 +78,7 @@ DNS encriptado puede referirse a uno de un número de protocolos, los más comun
 
 ### DNS sobre HTTPS (DoH)
 
-[**DNS sobre HTTPS**](https://es.wikipedia.org/wiki/DNS_mediante_HTTPS) como se define en [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) empaqueta las consultas en el protocolo [HTTP/2](https://es.wikipedia.org/wiki/HTTP/2) y proporciona seguridad con HTTPS. La compatibilidad se añadió por primera vez en navegadores web como Firefox 60 y Chrome 83.
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. La compatibilidad se añadió por primera vez en navegadores web como Firefox 60 y Chrome 83.
 
 La implementación nativa de DoH apareció en iOS 14, macOS 11, Microsoft Windows y Android 13 (sin embargo, no estará habilitada [por defecto](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). El soporte general de los escritorios de Linux está a la espera de la [implementación](https://github.com/systemd/systemd/issues/8639) de systemd por lo que [la instalación de software de terceros sigue siendo necesaria](../dns.md#linux).
 
@@ -98,7 +98,7 @@ Apple no proporciona una interfaz nativa para crear perfiles DNS encriptados. [S
 
 #### Linux
 
-`systemd-resolved`, que muchas distribuciones Linux utilizan para realizar sus búsquedas DNS, todavía no [soporta DoH](https://github.com/systemd/systemd/issues/8639). Si quieres utilizar DoH, tendrás que instalar un proxy como [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) y [configurarlo](https://wiki.archlinux.org/title/Dnscrypt-proxy) para tomar todas las consultas DNS de tu sistema de resolución y reenviarlas a través de HTTPS.
+`systemd-resolved`, que muchas distribuciones Linux utilizan para realizar sus búsquedas DNS, todavía no [soporta DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## ¿Qué puede ver un tercero?
 
@@ -128,7 +128,7 @@ Podemos ver el [establecimiento de la conexión](https://en.wikipedia.org/wiki/T
 
 ## ¿Por qué **no debería** utilizar un DNS cifrado?
 
-En los lugares en los que existe el filtrado de Internet (o la censura), visitar recursos prohibidos puede tener sus propias consecuencias, que deberás tener en cuenta en tu [modelo de amenazas](../basics/threat-modeling.md). Nosotros **no** sugerimos el uso de DNS encriptados para este propósito. Usa [Tor](https://torproject.org) o una [VPN](../vpn.md) en su lugar. Si estás usando una VPN, deberías usar los servidores DNS de tu VPN. Al utilizar una VPN, ya les estás confiando toda tu actividad en la red.
+En los lugares en los que existe el filtrado de Internet (o la censura), visitar recursos prohibidos puede tener sus propias consecuencias, que deberás tener en cuenta en tu [modelo de amenazas](../basics/threat-modeling.md). Nosotros **no** sugerimos el uso de DNS encriptados para este propósito. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Si estás usando una VPN, deberías usar los servidores DNS de tu VPN. Al utilizar una VPN, ya les estás confiando toda tu actividad en la red.
 
 Cuando hacemos una búsqueda en el DNS, generalmente es porque queremos acceder a un recurso. A continuación, hablaremos de algunos de los métodos que pueden revelar tus actividades de navegación incluso cuando se utiliza un DNS cifrado:
 

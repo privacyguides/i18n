@@ -66,7 +66,7 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
 
 ## 什么是“加密DNS” ？
 
-加密DNS可以指代若干协议中的一种，最常见的协议是：
+Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
@@ -78,7 +78,7 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
 
 ### DNS over HTTPS (DoH)
 
-[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS)由[RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) 定义，查询通过[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) 协议打包并通过 HTTPS保障安全性. 由Firefox 60和Chrome 83等Web浏览器首次实现支持。 由Firefox 60和Chrome 83等Web浏览器首次实现支持。
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. 由Firefox 60和Chrome 83等Web浏览器首次实现支持。
 
 DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（然而，它不会被默认启用 [](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)）。 一般的Linux桌面支持还在等待systemd [实现](https://github.com/systemd/systemd/issues/8639) ，所以 [目前依然需要安装第三方软件](../dns.md#linux)。
 
@@ -98,7 +98,7 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
 
 #### Linux系统
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## 外部一方能看到什么？
 
@@ -128,7 +128,7 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 ## 为什么我**不应该** 使用加密的DNS？
 
-在有互联网过滤（或审查）的地方，访问被禁止的资源可能会有自己的后果，你应该在你的 [威胁模型](../basics/threat-modeling.md)。 我们 **不** 建议为此目的使用加密的DNS。 使用 [Tor](https://torproject.org) 或 [VPN](../vpn.md) 来代替。 如果您使用的是VPN ，则应使用VPN的DNS服务器。 使用VPN时，您已经信任它们的所有网络活动。
+在有互联网过滤（或审查）的地方，访问被禁止的资源可能会有自己的后果，你应该在你的 [威胁模型](../basics/threat-modeling.md)。 我们 **不** 建议为此目的使用加密的DNS。 Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. 如果您使用的是VPN ，则应使用VPN的DNS服务器。 使用VPN时，您已经信任它们的所有网络活动。
 
 当我们进行DNS查找时，通常是因为我们想要访问资源。 下面，我们将讨论一些即使在使用加密的DNS时也可能泄露你的浏览活动的方法。
 

@@ -66,7 +66,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 ## 什麼是「加密後的 DNS」 ？
 
-加密 DNS 可以引用許多協議之一，最常見的是：
+Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
@@ -78,7 +78,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 ### 通過 HTTPS 的 DNS)
 
-[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) 定義在 [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) 文件，封包查詢透過[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) 協議，以 HTTPS 提供安全性。 最初使用於 Firefox 60 和 Chrome 83 等網頁瀏覽器。
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. 最初使用於 Firefox 60 和 Chrome 83 等網頁瀏覽器。
 
 DoH 原生執行出現在 iOS 14, macOS 11, Microsoft Windows, 與 Android 13 (不過其並未[預設啟動 ](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144))。 一般 Linux 桌面支援仍待 systemd [實現](https://github.com/systemd/systemd/issues/8639)， 所以 [還是得安裝第三方軟體](../dns.md#encrypted-dns-proxies)。
 
@@ -98,7 +98,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 #### Linux
 
-許多 Linux 版本所使用的distributions DNS lookups `systemd-resolved`尚未[支援 DoH](https://github.com/systemd/systemd/issues/8639)。 如果要使用 DoH ，您需要安裝一個類似[dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)的代理，並[設定](https://wiki.archlinux.org/title/Dnscrypt-proxy) 系統解析器獲取所有 DNS 查詢，透過 HTTPS 轉發。
+許多 Linux 版本所使用的distributions DNS lookups `systemd-resolved`尚未[支援 DoH](https://github.com/systemd/systemd/issues/8639)。 If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## 外部人士可以看到什麼？
 
@@ -128,7 +128,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 ## 什麼時候 **不該** 使用加密的 DNS ？
 
-在有網路過濾（或審查）的地方，訪問被禁止的資源可能會產生某些後果，您應該在 [威脅模型](../basics/threat-modeling.md)中考慮這些後果。 非常 **不建議**把加密 DNS 用在此目的上。 使用 [Tor](https://torproject.org) 或 [VPN](../vpn.md) 代替。 如果您使用的是VPN ，則應使用 VPN 的 DNS 伺服器。 使用 VPN 時，您已經信任它們與您的所有網路活動。
+在有網路過濾（或審查）的地方，訪問被禁止的資源可能會產生某些後果，您應該在 [威脅模型](../basics/threat-modeling.md)中考慮這些後果。 非常 **不建議**把加密 DNS 用在此目的上。 Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. 如果您使用的是VPN ，則應使用 VPN 的 DNS 伺服器。 使用 VPN 時，您已經信任它們與您的所有網路活動。
 
 當我們進行 DNS 查詢時，通常是因為我們想要存取資源。 接下來，我們將討論一些即使在使用加密 DNS 時也可能會披露您的瀏覽活動的情況：
 

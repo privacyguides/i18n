@@ -66,7 +66,7 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
 
 ## Что такое "зашифрованный DNS"?
 
-Зашифрованный DNS может относиться к одному из нескольких протоколов, наиболее распространенными из которых являются:
+Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
@@ -78,7 +78,7 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
 
 ### DNS через HTTPS (DoH)
 
-[**DNS через HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) как определено в [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) упаковывает запросы в [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) протокол и обеспечивает безопасность с помощью HTTPS. Впервые поддержка была добавлена в таких браузерах, как Firefox 60 и Chrome 83.
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Впервые поддержка была добавлена в таких браузерах, как Firefox 60 и Chrome 83.
 
 Нативная реализация DoH появилась в iOS 14, macOS 11, Microsoft Windows и Android 13 (однако она не будет включена [по умолчанию](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Общая поддержка Linux'а ожидает [реализации](https://github.com/systemd/systemd/issues/8639) systemd, поэтому [всё еще требуется установка стороннего программного обеспечения](../dns.md#encrypted-dns-proxies).
 
@@ -98,7 +98,7 @@ Apple не предоставляет нативного интерфейса д
 
 #### Linux
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## Что может увидеть посторонний человек?
 
@@ -128,7 +128,7 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 ## Почему мне **не следует** использовать зашифрованный DNS?
 
-В местах, где существует фильтрация интернета (или цензура), посещение запрещенных ресурсов может иметь свои последствия, которые следует учитывать в [модели угроз](../basics/threat-modeling.md). Мы **не** предлагаем использовать для этих целей зашифрованный DNS. Вместо этого используйте [Tor](https://torproject.org) или [VPN](../vpn.md). Если вы используете VPN, вам следует использовать DNS-серверы вашего VPN. Используя VPN, вы уже доверяете им всю свою сетевую активность.
+В местах, где существует фильтрация интернета (или цензура), посещение запрещенных ресурсов может иметь свои последствия, которые следует учитывать в [модели угроз](../basics/threat-modeling.md). Мы **не** предлагаем использовать для этих целей зашифрованный DNS. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Если вы используете VPN, вам следует использовать DNS-серверы вашего VPN. Используя VPN, вы уже доверяете им всю свою сетевую активность.
 
 Когда мы выполняем поиск в DNS, это, как правило, связано с тем, что мы хотим получить доступ к ресурсу. Ниже мы покажем некоторые методы, которые могут раскрыть вашу активность в интернете, даже при использовании зашифрованного DNS:
 

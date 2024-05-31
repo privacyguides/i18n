@@ -66,7 +66,7 @@ DNS קיים מאז [הימים הראשונים](https://en.wikipedia.org/wiki/
 
 ## מה זה "DNS מוצפן"?
 
-DNS מוצפן יכול להתייחס לאחד ממספר פרוטוקולים, הנפוצים שבהם הם:
+Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
@@ -78,7 +78,7 @@ DNS מוצפן יכול להתייחס לאחד ממספר פרוטוקולים,
 
 ### DNS דרך HTTPS (DoH)
 
-[**DNS דרך HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS) כפי שהוגדר ב [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) חבילות שאילתות ב [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) פרוטוקול ומספק אבטחה עם HTTPS. תמיכה נוספה לראשונה בדפדפני אינטרנט כגון Firefox 60 ו-Chrome 83.
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. תמיכה נוספה לראשונה בדפדפני אינטרנט כגון Firefox 60 ו-Chrome 83.
 
 יישום מקורי של DoH הופיע ב-iOS 14, macOS 11, Microsoft Windows ו-אנדרואיד 13 (עם זאת, הוא לא יופעל [>כברירת מחדל](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). תמיכת שולחן העבודה הכללית של לינוקס ממתינה ל[יישום](https://github.com/systemd/systemd/issues/8639) של systemd כך ש[עדיין נדרשת התקנת תוכנת צד שלישי](../dns.md#encrypted-dns-proxies).
 
@@ -98,7 +98,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
 #### לינוקס
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
 
 ## מה יכול גורם חיצוני לראות?
 
@@ -128,7 +128,7 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 ## מדוע **אסור** לי להשתמש ב-DNS מוצפן?
 
-במקומות שבהם קיים סינון (או צנזורה) באינטרנט, לביקור במשאבים אסורים עשויות להיות השלכות משלו, שכדאי לשקול ב[מודל האיומים](../basics/threat-modeling.md) שלך. אנו **לא** מציעים להשתמש ב-DNS מוצפן למטרה זו. השתמש ב-[Tor](https://torproject.org) או ב-[VPN](../vpn.md) במקום זאת. אם אתה משתמש ב-VPN, עליך להשתמש בשרתי ה-DNS של ה-VPN שלך. כשאתה משתמש ב-VPN, אתה כבר סומך עליהם בכל פעילות הרשת שלך.
+במקומות שבהם קיים סינון (או צנזורה) באינטרנט, לביקור במשאבים אסורים עשויות להיות השלכות משלו, שכדאי לשקול ב[מודל האיומים](../basics/threat-modeling.md) שלך. אנו **לא** מציעים להשתמש ב-DNS מוצפן למטרה זו. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. אם אתה משתמש ב-VPN, עליך להשתמש בשרתי ה-DNS של ה-VPN שלך. כשאתה משתמש ב-VPN, אתה כבר סומך עליהם בכל פעילות הרשת שלך.
 
 כאשר אנו מבצעים חיפוש DNS, זה בדרך כלל בגלל שאנו רוצים לגשת למשאב. להלן, נדון בכמה מהשיטות שעלולות לחשוף את פעילויות הגלישה שלך גם בעת שימוש ב-DNS מוצפן:
 

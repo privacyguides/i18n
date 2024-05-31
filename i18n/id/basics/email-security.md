@@ -33,7 +33,7 @@ Penyedia email yang memungkinkan Anda menggunakan protokol akses standar seperti
 
 ### Bagaimana Cara Melindungi Kunci Pribadi Saya?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](https://nitrokey.com)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Pesan tersebut kemudian didekripsi oleh smartcard dan konten yang telah didekripsi dikirim kembali ke perangkat.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../multi-factor-authentication.md#nitrokey) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Pesan tersebut kemudian didekripsi oleh smartcard dan konten yang telah didekripsi dikirim kembali ke perangkat.
 
 Terjadinya proses dekripsi di kartu pintar begitu menguntungkan karena hal tersebut berfungsi untuk menghindari kemungkinan mengekspos kunci pribadi Anda ke perangkat yang telah tersusupi.
 
