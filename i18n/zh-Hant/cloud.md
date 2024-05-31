@@ -42,9 +42,7 @@ Nextcloud 是[仍是一款受推薦的工具](productivity.md)，可用於自我
 
 </div>
 
-Proton Drive 網路應用程式已於[2021年](https://proton.me/blog/security-audit-all-proton-apps)由 Securitum 獨立審核，並未公開完整詳細資料，但 Securitum 的認證信函指出：
-
-> 審計人員發現了兩個不嚴重的漏洞。 此外，還提出五項一般性建議。 與此同時，我們確認在滲透測試期間沒有發現重大安全問題。
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source).
 
 Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 

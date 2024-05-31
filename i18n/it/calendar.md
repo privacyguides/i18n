@@ -63,7 +63,7 @@ Calendari multipli e funzionalità di condivisione estese sono limitate agli abb
 
 </div>
 
-Sfortunatamente, a Gennaio 2024, Proton non ha [ancora](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) rilasciato il codice sorgente per la propria app del Calendariio su Android o iOS. Il client web di Proton Calendar è open source.
+Unfortunately, as of May 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). Proton Calendar's web client is open source, however, and has been [audited](https://proton.me/community/open-source).
 
 ## Criteri
 

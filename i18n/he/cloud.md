@@ -42,9 +42,7 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 </div>
 
-אפליקציית האינטרנט של Proton Drive נבדקה באופן עצמאי על ידי Securitum ב[2021](https://proton.me/blog/security-audit-all-proton-apps), הפרטים המלאים לא זמינים, אך במכתב האישור של Securitum נאמר:
-
-> המבקרים זיהו שתי נקודות תורפה בדרגת חומרה נמוכה. בנוסף, דווחו חמש המלצות כלליות. יחד עם זאת, אנו מאשרים כי לא זוהו בעיות אבטחה חשובות במהלך המבחן.
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source).
 
 Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
 

@@ -42,9 +42,7 @@ Nextcloud es [sigue siendo una herramienta recomendada](productivity.md) para el
 
 </div>
 
-La aplicación web Proton Drive ha sido auditada de forma independiente por Securitum en [2021](https://proton.me/blog/security-audit-all-proton-apps), no se han facilitado todos los detalles, pero la carta de certificación de Securitum afirma lo siguiente:
-
-> Los auditores identificaron dos vulnerabilidades de baja gravedad. Además, se notificaron cinco recomendaciones generales. Al mismo tiempo, confirmamos que no se detectaron problemas de seguridad importantes durante el pentest.
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source).
 
 Los nuevos clientes móviles de Proton Drive aún no han sido auditados públicamente por terceros.
 
