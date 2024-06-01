@@ -1,25 +1,25 @@
 ---
-title: Security Keys
+title: Chiavi di Sicurezza
 icon: material/key-chain
 description: Questi strumenti ti assistono nella protezione dei tuoi account Internet con l'autenticazione a più fattori, senza inviare i tuoi codici segreti a terze parti.
 cover: multi-factor-authentication.webp
 ---
 
-A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the FIDO2 security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multi-factor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+Una **chiave di sicurezza** fisica aggiunge un livello di protezione molto forte ai tuoi account online. Compared to [authenticator apps](multi-factor-authentication.md), the FIDO2 security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multi-factor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
 
 ## Yubico Security Key
 
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
+  ![Security Key Series di Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
-The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification. It supports FIDO2/WebAuthn and FIDO U2F, and works out of the box with most services that support a security key as a second factor, as well as many password managers.
+La serie **Yubico Security Key** è la chiave di sicurezza hardware più conveniente con certificazione FIDO di livello 2. Supporta FIDO2/WebAuthn e FIDO U2F e funziona con la maggior parte dei servizi che supportano una chiave di sicurezza come secondo fattore, nonché con molti gestori di password.
 
-[:octicons-home-16: Homepage](https://www.yubico.com/products/security-key/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
+[:octicons-home-16: Pagina Principale](https://www.yubico.com/products/security-key/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentazione}
 
 </details>
 

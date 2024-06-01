@@ -425,7 +425,7 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 ## Hardware
 
-### Security Keys
+### Chiavi di Sicurezza
 
 <div class="grid cards" markdown>
 
