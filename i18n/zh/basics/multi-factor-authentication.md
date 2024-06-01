@@ -36,7 +36,7 @@ If you have a hardware security key with TOTP support (such as a YubiKey with [Y
 
 对手可以建立一个网站来模仿官方服务，试图欺骗你提供你的用户名、密码和当前的TOTP代码。 如果对手随后使用这些记录下来的凭证，他们可能能够登录到真正的服务并劫持该账户。
 
-虽然不完美，但TOTP对大多数人来说是足够安全的，即使不支持使用 [硬件安全密钥](/multi-factor-authentication/#hardware-security-keys) ， 一个[认证器应用程序](/multi-factor-authentication/#authenticator-apps) 仍然是一个不错的选择。
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
 
 ### 硬件安全密钥
 

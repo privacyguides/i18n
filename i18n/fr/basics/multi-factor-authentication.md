@@ -36,7 +36,7 @@ Contrairement à [WebAuthn](#fido-fast-identity-online), TOTP n'offre aucune pro
 
 Un adversaire pourrait créer un site web imitant un service officiel afin de vous inciter à donner votre nom d'utilisateur, votre mot de passe et votre code TOTP actuel. Si l'adversaire utilise ensuite ces informations d'identification enregistrées, il peut être en mesure de se connecter au service réel et de détourner le compte.
 
-Bien qu'imparfait, TOTP est suffisamment sûr pour la plupart des gens, et lorsque [les clés de sécurité matérielles](../multi-factor-authentication.md#hardware-security-keys) ne sont pas prises en charge [les applications d'authentification](../multi-factor-authentication.md#authenticator-apps) restent une bonne option.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
 
 ### Clés de Sécurité Matérielles
 

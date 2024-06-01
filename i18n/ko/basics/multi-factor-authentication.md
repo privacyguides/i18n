@@ -36,7 +36,7 @@ If you have a hardware security key with TOTP support (such as a YubiKey with [Y
 
 공격자는 어떤 서비스의 공식 웹사이트를 흉내낸 웹사이트를 만들어서 여러분이 사용자 이름, 비밀번호, 현재 TOTP 코드를 제출하도록 유도할 수도 있습니다. 만약 여러분이 이를 제출할 경우, 공격자는 해당 자격 증명 내용을 이용해 실제 서비스에 로그인하여 계정을 탈취할 수 있습니다.
 
-TOTP는 완벽하지는 않습니다. 하지만 대부분의 사람들에게 있어서 충분히 안전하며, [하드웨어 보안 키](../multi-factor-authentication.md#hardware-security-keys)가 지원되지 않는 경우에는 [인증 앱](../multi-factor-authentication.md#authenticator-apps)도 여전히 훌륭한 선택지입니다.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
 
 ### 하드웨어 보안 키
 

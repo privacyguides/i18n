@@ -1,110 +1,22 @@
 ---
-title: "Multi-Factor Authenticators"
+title: "Autenticação multi-fator"
 icon: 'material/two-factor-authentication'
 description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 
-## Chaves de Segurança de Hardware
+<div class="admonition note" markdown>
+<p class="admonition-title">Hardware Keys</p>
 
-### YubiKey
-
-<div class="admonition recommendation" markdown>
-
-![YubiKeys](assets/img/multi-fator-authentication/yubikey.png)
-
-As **YubiKeys** estão entre as chaves de segurança mais populares. Some YubiKey models have a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
-
-Um dos benefícios da YubiKey é o facto de ser uma chave que pode fazer quase tudo (YubiKey 5), e que realmente tudo aquilo que se espera de uma chave de segurança de hardware. We do encourage you to take the [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
-
-[:octicons-home-16: Homepage](https://yubico.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
-
-</details>
+[Hardware security key recommendations](security-keys.md) have been moved to their own category.
 
 </div>
 
-The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare. Recomendamos vivamente que selecione as chaves da série YubiKey 5.
-
-YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). All of Yubico's clients are open source.
-
-Para os modelos que suportam HOTP e TOTP, existem 2 slots na interface OTP que podem ser utilizadas para HOTP e 32 slots que permitem armazenar segredos TOTP. Estes segredos são armazenados de forma encriptada na chave e nunca são expostos aos dispositivos a que estão ligados. Uma vez que uma semente (segredo compartilhado) é dada ao Yubico Authenticator, o output só consistirá num código de seis dígitos, e nunca na semente. Este modelo de segurança ajuda a limitar o que um atacante pode fazer se comprometer um dos dispositivos que executam o Yubico Authenticator, fazendo com que a YubiKey seja resistente a um atacante físico.
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-The firmware of YubiKey is not open source and is not updatable. Se pretender novas funcionalidades ou se existir uma vulnerabilidade na versão de firmware que está a utilizar, terá de adquirir uma nova chave.
-
-</div>
-
-### Nitrokey
-
-<div class="admonition recommendation" markdown>
-
-![Nitrokey](assets/img/multi-fator-authentication/nitrokey.jpg){ align=right }
-
-A **Nitrokey** tem uma chave de segurança que suporta [FIDO2 e WebAuthn](basics/multi-fator-authentication.md#fido-fast-identity-online) chamada **Nitrokey FIDO2**. Para suporte de PGP, é necessário adquirir uma das outras chaves, como a **Nitrokey Start**, **Nitrokey Pro 2** ou **Nitrokey Storage 2**.
-
-[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentation}
-
-</details>
-
-</div>
-
-The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. O **Nitrokey 3** listado terá um conjunto de características combinadas.
-
-Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
-
-Para os modelos que suportam HOTP e TOTP, existem 3 slots para HOTP e 15 para TOTP. Alguns Nitrokeys podem funcionar como gestores de palavras-passe. Podem armazenar 16 credenciais diferentes e encriptá-las utilizando a mesma palavra-passe que a interface OpenPGP.
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-Embora as Nitrokeys não libertem os segredos HOTP/TOTP para o dispositivo a que estão ligados, o armazenamento HOTP e TOTP **não** é encriptado e é vulnerável a ataques físicos. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-A reposição da interface OpenPGP numa Nitrokey também fará com que a base de dados de palavras-passe fique [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
-
-</div>
-
-The Nitrokey Pro 2, Nitrokey Storage 2, and the upcoming Nitrokey 3 supports system integrity verification for laptops with the [Coreboot](https://coreboot.org) + [Heads](https://osresearch.net) firmware.
-
-Nitrokey's firmware is open source, unlike the YubiKey. O firmware dos modelos NitroKey modernos (exceto o **NitroKey Pro 2**) pode ser atualizado.
-
-### Critérios
-
-**Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
-
-#### Requisitos mínimos
-
-- Devem ser utilizados módulos de segurança de hardware de alta qualidade e invioláveis.
-- Deve ser suportada a especificação FIDO2 mais recente.
-- Não deverá ser permitida a extração de chaves privadas.
-- Os dispositivos que custam mais de 35 dólares devem suportar o manuseamento de OpenPGP e S/MIME.
-
-#### Melhor caso
-
-Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
-
-- Devem estar disponíveis no formato USB-C.
-- Deverão disponibilizar NFC.
-- Devem suportar o armazenamento de segredos TOTP.
-- Devem suportar atualizações de firmware seguras.
-
-## Aplicações de Autenticação
-
-As Aplicações de Autenticação implementam uma norma de segurança que ºe adotada pela Internet Engineering Task Force (IETF), denominada **Time-based One-time Passwords**, ou **TOTP**. Este é um método através do qual os sites partilham um segredo, que é utilizado pela sua aplicação de autenticação para gerar um código de seis dígitos (normalmente) com base na hora atual, que deverá introduzir ao iniciar sessão, para que o site o possa verificar. Normalmente, estes códigos são regenerados de 30 em 30 segundos e, quando é gerado um novo código, o antigo deixa de poder ser utilizado. Mesmo que um pirata informático obtenha o código de seis dígitos, não há forma de reverter esse código para obter o segredo original ou de prever quais serão os códigos futuros.
+**Multi-Factor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. Este é um método através do qual os sites partilham um segredo, que é utilizado pela sua aplicação de autenticação para gerar um código de seis dígitos (normalmente) com base na hora atual, que deverá introduzir ao iniciar sessão, para que o site o possa verificar. Normalmente, estes códigos são regenerados de 30 em 30 segundos e, quando é gerado um novo código, o antigo deixa de poder ser utilizado. Mesmo que um pirata informático obtenha o código de seis dígitos, não há forma de reverter esse código para obter o segredo original ou de prever quais serão os códigos futuros.
 
 Recomendamos vivamente que utilize aplicações TOTP para dispositivos móveis, em vez de alternativas para computador, uma vez que o Android e o iOS têm melhor segurança e isolamento de aplicações do que a maioria dos sistemas operativos para PC.
 
-### Ente Auth
+## Ente Auth
 
 <div class="admonition recommendation" markdown>
 
@@ -129,7 +41,7 @@ Recomendamos vivamente que utilize aplicações TOTP para dispositivos móveis, 
 
 </div>
 
-### Aegis Authenticator (Android)
+## Aegis Authenticator (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -154,7 +66,7 @@ Recomendamos vivamente que utilize aplicações TOTP para dispositivos móveis, 
 </div>
 
 <!-- markdownlint-disable-next-line -->
-### Critérios
+## Critérios
 
 **Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 

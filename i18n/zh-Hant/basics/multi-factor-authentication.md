@@ -36,7 +36,7 @@ TOTP 是最常見的 MFA 形式之一。 當您設置TOTP時，您通常需要�
 
 對手可以建立一個網站來模仿官方服務，試圖欺騙你提供你的用戶名，密碼和當前的 TOTP 代碼。 如果對手使用這些記錄的憑證，他們可能能夠登錄到真正的服務並劫持帳戶。
 
-雖然不完美，但 TOTP 對大多數人來說足夠安全，當 [硬件安全金鑰](../multi-factor-authentication.md#hardware-security-keys) 不受支持時， [驗證器應用程序](../multi-factor-authentication.md#authenticator-apps) 仍然是一個不錯的選擇。
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
 
 ### 硬體安全金鑰
 

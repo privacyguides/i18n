@@ -113,7 +113,7 @@ Let's put all of this in perspective: A seven word passphrase using [EFF's large
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-При использовании TOTP-кодов в качестве [многофакторной аутентификации](../multi-factor-authentication.md), лучшей практикой безопасности является хранение TOTP-кодов в [отдельном приложении](../multi-factor-authentication.md#authenticator-apps).
+When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 Хранение TOTP-токенов в том же месте, что и паролей, хотя и удобно, но сводит защиту учетных записей к одному фактору в случае, если злоумышленник получит доступ к вашему менеджеру паролей.
 

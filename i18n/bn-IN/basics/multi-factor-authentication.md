@@ -36,7 +36,7 @@ If you have a hardware security key with TOTP support (such as a YubiKey with [Y
 
 আপনার উজার-নেম, পাসওয়ার্ড এবং বর্তমান TOTP কোড হাতানোর জন্য, আপনাকে প্রতারণা করার চেষ্টায় একজন আক্ক্রমণকারী একটি অফিসিয়াল পরিষেবার অনুকরণ করে একটি ওয়েবসাইট সেট আপ করতে পারে। আক্রমণকারী সেই রেকর্ড করা তথ্যগুলি ব্যবহার করে প্রকৃত পরিষেবাতে লগ ইন করতে এবং অ্যাকাউন্ট হাইজ্যাক করতে সক্ষম হতে পারে।
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../multi-factor-authentication.md#hardware-security-keys) are not supported [authenticator apps](../multi-factor-authentication.md#authenticator-apps) are still a good option.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
 
 ### হার্ডওয়্যার সিকিউরিটি কী
 

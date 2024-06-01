@@ -1,110 +1,22 @@
 ---
-title: "多重因素驗證器"
+title: "多重身分驗證"
 icon: 'material/two-factor-authentication'
 description: 這些工具可協助透過多重身份驗證保護網路帳戶，而無需將您的祕密傳送給第三方。
 cover: multi-factor-authentication.webp
 ---
 
-## 安全金鑰硬體
+<div class="admonition note" markdown>
+<p class="admonition-title">Hardware Keys</p>
 
-### YubiKey
-
-<div class="admonition recommendation" markdown>
-
-![YubiKeys](assets/img/multi-factor-authentication/yubikey.png)
-
-**YubiKeys** 是最常用的安全金鑰之一。 有些 YubiKey 型號具廣泛的功能，例如： [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor)、[FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)、[Yubico OTP](basics/multi-factor-authentication.md#yubico-otp)、[Personal Identity Verification (PIV)](https://developers.yubico.com/PIV)、 [OpenPGP](https://developers.yubico.com/PGP)、[TOTP and HOTP](https://developers.yubico.com/OATH)驗證。
-
-YubiKey 好處之一是，一支密鑰（ 例如 YubiKey 5 ）可以滿足對安全密鑰硬體的全部期待。 建議購買前先 [作個小測驗](https://yubico.com/quiz/) ，以確保做出正確的選擇。
-
-[:octicons-home-16: Homepage](https://yubico.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
-
-</details>
+[Hardware security key recommendations](security-keys.md) have been moved to their own category.
 
 </div>
 
-[比較表](https://yubico.com/store/compare) 顯示了各型號 YubiKeys 功能比較。 我們強烈建議您從YubiKey 5系列中挑選。
-
-YubiKey 可使用 [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) 或 [YubiKey 個人化工具](https://yubico.com/support/download/yubikey-personalization-tools)。 若要管理 TOTP 程式碼，可使用 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)。 Yubico 所有客戶端軟體都是開源。
-
-支持 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來存儲 TOTP 機密。 這些機密經加密後存儲在密鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-YubiKey 軔體並不開源，無法更新。 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
-
-</div>
-
-### Nitrokey
-
-<div class="admonition recommendation" markdown>
-
-![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ align=right }
-
-**Nitrokey** 能夠 [FIDO2 和 WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)的安全金鑰，稱為 **Nitrokey FIDO2**。 若要獲得 PGP 支援，您需要購買他們其他鑰匙，例如 **Nitrokey Start**、**Nitrokey Pro 2** 或 **Nitrokey Storage 2**。
-
-[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentation}
-
-</details>
-
-</div>
-
-[比較表](https://nitrokey.com/#comparison) 顯示了各型號 Nitrokey 功能比較。 **Nitrokey 3** 具有組合的功能集。
-
-可以使用 [Nitrokey 應用程序](https://nitrokey.com/download)配置 Nitrokey 模型。
-
-支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以存儲 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的設備，但HOTP 和 TOTP存儲* *未經加密* * ，容易受到物理攻擊。 如果需要存儲 HOTP 或 TOTP 這類祕密，強烈建議使用Yubikey 代替。
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-重置 Nitrokey 的 OpenPGP 介面會使密碼資料庫變為 [無法存取](https://docs.nitrokey.com/pro/linux/factory-reset)。
-
-</div>
-
-Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記型電腦的 [Coreboot](https://coreboot.org) + [Heads](https://osresearch.net) 軔體與系統完整性驗證。
-
-不同於 YubiKey，Nitrokey 軔體是開源。 NitroKey 型號可（ **NitroKey Pro 2**除外）可更新軔體。
-
-### 標準
-
-**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
-
-#### 最低合格要求
-
-- 必須使用高品質、防篡改的硬體安全模組。
-- 必須支援最新的 FIDO2 規格。
-- 必須不允許私鑰提取。
-- 價格超過 35美元的裝置必須支援處理 OpenPGP 和 S/MIME。
-
-#### 最好的情况
-
-最佳案例標準代表了我們希望從這個類別的完美項目應具備的條件。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
-
-- 應採用 USB-C 格式。
-- 應與 NFC一起使用。
-- 支持 TOTP 機密儲存。
-- 應支持安全軔體更新。
-
-## 認證器應用程式
-
-驗證器應用程式實施網際網路工程任務組( IETF)採行的安全標準，稱為 **依據時間的單次密碼**或 **TOTP**。 這是一種網站與您共享祕密的方法，驗證器應用程式使用該祕密根據當前時間生成（通常為）六位數驗證碼，您在登錄網站時輸入以供網站檢查。 通常這些驗證碼每30 秒重新生成一次，一旦生成新碼，舊碼就無用了。 即使駭客獲得六位數的驗證碼，也無法逆轉該代碼去取得原始祕密或透過其他方式去預測以後的驗證碼。
+**Multi-Factor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. 這是一種網站與您共享祕密的方法，驗證器應用程式使用該祕密根據當前時間生成（通常為）六位數驗證碼，您在登錄網站時輸入以供網站檢查。 通常這些驗證碼每30 秒重新生成一次，一旦生成新碼，舊碼就無用了。 即使駭客獲得六位數的驗證碼，也無法逆轉該代碼去取得原始祕密或透過其他方式去預測以後的驗證碼。
 
 我們強烈建議您使用行動 TOTP 應用程式而不是桌面替代方案，因為 Android 和 iOS 比大多數桌面作業系統具有更好的安全性和應用程式隔離性。
 
-### Ente Auth
+## Ente Auth
 
 <div class="admonition recommendation" markdown>
 
@@ -129,7 +41,7 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 
 </div>
 
-### Aegis Authenticator (Android)
+## Aegis Authenticator (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -154,7 +66,7 @@ Nitrokey Pro 2、Nitrokey Storage 2 和即將推出的 Nitrokey 3 支持筆記�
 </div>
 
 <!-- markdownlint-disable-next-line -->
-### 標準
+## 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 

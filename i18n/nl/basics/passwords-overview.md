@@ -113,7 +113,7 @@ Er zijn veel goede opties om uit te kiezen, zowel cloud-gebaseerd als lokaal. Ki
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-Wanneer je TOTP-codes gebruikt als [multi-factor authenticatie](../multi-factor-authentication.md), is de beste beveiligingspraktijk om jouw TOTP-codes in een [aparte app] te bewaren(../multi-factor-authentication.md#authenticator-apps).
+When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 Het opslaan van jouw TOTP-tokens op dezelfde plaats als jouw wachtwoorden is weliswaar handig, maar beperkt de accounts tot één factor in het geval dat een tegenstander toegang krijgt tot jouw wachtwoord manager.
 

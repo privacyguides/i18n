@@ -113,7 +113,7 @@ Let's put all of this in perspective: A seven word passphrase using [EFF's large
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-TOTP 코드 [다중 인증](../multi-factor-authentication.md) 방식을 사용하는 경우, TOTP 코드는 [별도 앱](../multi-factor-authentication.md#authenticator-apps)에서 보관하는 것이 가장 좋은 방법입니다.
+When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 TOTP 토큰과 비밀번호를 한 곳에서 관리하면 편리하지만, 만약 공격자가 여러분의 비밀번호 관리자에 접근 가능할 경우 다중 인증은 무용지물이 됩니다.
 

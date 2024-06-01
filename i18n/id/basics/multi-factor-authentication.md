@@ -36,7 +36,7 @@ Tidak seperti [WebAuthn](#fido-fast-identity-online), TOTP tidak menawarkan perl
 
 Musuh dapat membuat situs web untuk meniru layanan resmi dalam upaya mengelabui Anda untuk memberikan nama pengguna, kata sandi, dan kode TOTP Anda saat ini. Jika musuh kemudian menggunakan kredensial yang berhasil dicatat tersebut, mereka mungkin dapat masuk ke layanan yang sebenarnya dan membajak akun tersebut.
 
-Meskipun tidak sempurna, TOTP cukup aman untuk kebanyakan orang, dan ketika [kunci keamanan perangkat keras](../multi-factor-authentication.md#hardware-security-keys) tidak didukung, [aplikasi autentikator](../multi-factor-authentication.md#authenticator-apps) masih menjadi pilihan yang baik.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
 
 ### Kunci keamanan perangkat keras
 

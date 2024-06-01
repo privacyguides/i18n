@@ -113,7 +113,7 @@ Esistono molte buone opzioni da cui scegliere, sia basate su cloud che locali. S
 <div class="admonition warning" markdown>
 <p class="admonition-title">Non inserire le tue password e i token TOTP nello stesso gestore di password</p>
 
-Utilizzando i codici TOTP come [autenticazione a più fattori](../multi-factor-authentication.md), la migliore pratica di sicurezza è mantenerli in un'[app separata](../multi-factor-authentication.md#authenticator-apps).
+When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 Memorizzare i token TOTP nello stesso luogo delle tue password, sebbene comodo, riduce i profili a un singolo fattore, nel caso in cui un malintenzionato ottenga l'accesso al tuo gestore di password.
 

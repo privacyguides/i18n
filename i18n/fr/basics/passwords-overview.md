@@ -113,7 +113,7 @@ Il existe de nombreuses options intéressantes, qu'elles soient basées sur le c
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ne placez pas vos mots de passe et vos codes TOTP dans le même gestionnaire de mots de passe</p>
 
-Lorsque vous utilisez des codes TOTP comme [authentification à multi-facteurs](../multi-factor-authentication.md), la meilleure pratique de sécurité consiste à conserver vos codes TOTP dans une [application séparée](../multi-factor-authentication.md#authenticator-apps).
+When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 Le stockage de vos codes TOTP au même endroit que vos mots de passe, bien que pratique, réduit les comptes à un seul facteur dans le cas où un adversaire aurait accès à votre gestionnaire de mots de passe.
 

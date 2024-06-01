@@ -36,7 +36,7 @@ If you have a hardware security key with TOTP support (such as a YubiKey with [Y
 
 Злоумышленник может создать сайт, имитирующий официальный сервис, чтобы обманом заставить вас сообщить свое имя пользователя, пароль и текущий код TOTP. Если злоумышленник затем использует эти записанные учетные данные, он сможет войти в реальный сервис и завладеть учетной записью.
 
-Хотя TOTP не совершенен, он достаточно безопасен для большинства людей, и если аппаратные ключи безопасности [](../multi-factor-authentication.md#hardware-security-keys) не поддерживаются, то [ приложения-аутентификаторы](../multi-factor-authentication.md#authenticator-apps) все ещё являются хорошим вариантом.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
 
 ### Аппаратные ключи безопасности
 

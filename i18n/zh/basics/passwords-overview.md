@@ -113,7 +113,7 @@ Let's put all of this in perspective: A seven word passphrase using [EFF's large
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-如果您将TOTP用作任何帐户的 [多因素身份验证](../multi-factor-authentication.md) 方法，请勿在密码管理器中存储这些令牌、它们的任何备份代码或TOTP秘密本身，那样会抵消掉多因认证的益处。
+When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 你应该使用专门的[TOTP应用程序]（.../multi-factor-authentication.md/#authenticator-apps）来代替。
 

@@ -166,9 +166,9 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 <div class="grid cards" markdown>
 
-- ![Logo d'Ente](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Logo d'Ente](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente)
-- ![Logo de Stingle](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Logo de Stingle](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
-- ![Logo de PhotoPrism](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
+- ![Ente logo](assets/img/photo-management/ente.svg#only-light){ .twemoji loading=lazy }![Ente logo](assets/img/photo-management/ente.svg#only-dark){ .twemoji loading=lazy } [Ente Photos](photo-management.md#ente-photos)
+- ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ .twemoji loading=lazy }![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ .twemoji loading=lazy } [Stingle](photo-management.md#stingle)
+- ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](photo-management.md#photoprism)
 
 </div>
 
@@ -336,12 +336,12 @@ Pour chiffrer le disque de votre système d'exploitation, nous vous recommandons
 
 ### Outils d'authentification multi-facteurs
 
+**Note:** [Hardware security keys](#security-keys) have been moved to their own category.
+
 <div class="grid cards" markdown>
 
-- ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](multi-factor-authentication.md#yubikey)
-- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](multi-factor-authentication.md#nitrokey)
-- ![Logo d'Ente Auth](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
-- ![Logo d'Aegis](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
+- ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
+- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
 
@@ -422,6 +422,20 @@ Pour chiffrer le disque de votre système d'exploitation, nous vous recommandons
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](real-time-communication.md)
+
+## Hardware
+
+### Security Keys
+
+<div class="grid cards" markdown>
+
+- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Security Key](security-keys.md#yubico-security-key)
+- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
+- ![Nitrokey](assets/img/security-keys/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](security-keys.md#nitrokey)
+
+</div>
+
+[En savoir plus :material-arrow-right-drop-circle:](security-keys.md)
 
 ## Systèmes d'exploitation
 

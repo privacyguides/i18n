@@ -36,7 +36,7 @@ If you have a hardware security key with TOTP support (such as a YubiKey with [Y
 
 יריב יכול להקים אתר כדי לחקות שירות רשמי בניסיון להערים עליך למסור את שם המשתמש, הסיסמה וקוד ה-TOTP הנוכחי שלך. אם היריב ישתמש באותם אישורים מוקלטים, ייתכן שהוא יוכל להיכנס לשירות האמיתי ולחטוף את החשבון.
 
-למרות שאינו מושלם, TOTP מאובטח מספיק עבור רוב האנשים, ומתי ש[מפתחות אבטחה חומרה](../multi-factor-authentication.md#hardware-security-keys) אינם נתמכים [אפליקציות אימות](../multi-factor-authentication.md#authenticator-apps) עדיין אפשרות טובה.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
 
 ### מפתחות אבטחת חומרה
 

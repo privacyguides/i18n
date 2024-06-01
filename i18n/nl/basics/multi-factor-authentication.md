@@ -42,7 +42,7 @@ In tegenstelling tot [WebAuthn](#fido-fast-identity-online)biedt TOTP geen besch
 
 Een tegenstander kan een website opzetten om een officiële dienst te imiteren in een poging om je te verleiden jouw gebruikersnaam, wachtwoord en huidige TOTP-code te geven. Als de tegenstander vervolgens deze vastgelegde gegevens gebruikt, kan hij op de echte dienst inloggen en de account kapen.
 
-Hoewel niet perfect, is TOTP veilig genoeg voor de meeste mensen, en wanneer [hardware security keys](/multi-factor-authentication/#hardware-security-keys) niet worden ondersteund zijn [authenticator apps](/multi-factor-authentication/#authenticator-apps) nog steeds een goede optie.
+Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
 
 
 
