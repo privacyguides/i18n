@@ -6,7 +6,7 @@ cover: multi-factor-authentication.webp
 ---
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Hardware Keys</p>
+<p class="admonition-title">Chiavi Hardware</p>
 
 [Hardware security key recommendations](security-keys.md) have been moved to their own category.
 
