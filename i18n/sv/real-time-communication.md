@@ -129,7 +129,7 @@ Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code
 ## Additional Options
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varning</p>
 
 These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
 

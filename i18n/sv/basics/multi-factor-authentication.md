@@ -137,7 +137,7 @@ Kommandot förhindrar att en motståndare kringgår MFA när datorn startar.
 ### Linux
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varning</p>
 
 Om värdnamnet på ditt system ändras (till exempel på grund av DHCP), skulle du inte kunna logga in. Det är viktigt att du skapar ett korrekt värdnamn för din dator innan du följer den här guiden.
 

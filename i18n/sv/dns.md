@@ -185,7 +185,7 @@ Encrypted DNS proxy software provides a local proxy for the [unencrypted DNS](ad
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varning</p>
 
 The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
 

@@ -425,7 +425,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 ## Hardware
 
-### Security Keys
+### Säkerhetsnycklar
 
 <div class="grid cards" markdown>
 

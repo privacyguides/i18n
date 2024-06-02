@@ -123,7 +123,7 @@ Appen erbjuder flera sätt att radera metadata från bilder. Namn:
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varning</p>
 
 Du bör **aldrig** använda oskärpa för att redigera [text i bilder] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Om du vill redigera text i en bild ritar du en ruta över texten. För detta föreslår vi appar som [Pocket Paint] (https://github.com/Catrobat/Paintroid).
 
