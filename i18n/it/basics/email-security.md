@@ -33,7 +33,7 @@ I fornitori email che ti consentono di utilizzare i protocolli d'accesso standar
 
 ### Come proteggo le mie chiavi private?
 
-Una smartcard (come una [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o [Nitrokey](../multi-factor-authentication.md#nitrokey)) funziona ricevendo un messaggio email criptato da un dispositivo (telefono, tablet, computer, ecc.) con un client email/webmail. Il messaggio, quindi, viene decrittografato dalla smartcart e il contenuto decrittografato è reinviato al dispositivo.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../multi-factor-authentication.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Il messaggio, quindi, viene decrittografato dalla smartcart e il contenuto decrittografato è reinviato al dispositivo.
 
 È preferibile che la decodifica avvenga sulla smartcard per evitare di esporre la tua chiave privata a un dispositivo compromesso.
 

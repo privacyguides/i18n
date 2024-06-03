@@ -33,7 +33,7 @@ If you use a shared domain from a provider which doesn't support WKD, like @gmai
 
 ### כיצד אוכל להגן על המפתחות הפרטיים שלי?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../multi-factor-authentication.md#nitrokey) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../multi-factor-authentication.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
 
 זה יתרון שהפענוח יתרחש בכרטיס החכם כדי למנוע חשיפת המפתח הפרטי שלך למכשיר שנפגע.
 

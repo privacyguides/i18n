@@ -33,7 +33,7 @@ description: 电子邮件在许多方面本身就不安全，以下是它不是�
 
 ### 我如何保护我的私钥？
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../multi-factor-authentication.md#nitrokey) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 然后，该信息被智能卡解密，解密后的内容被送回设备。
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../multi-factor-authentication.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 然后，该信息被智能卡解密，解密后的内容被送回设备。
 
 在智能卡上进行解密是很有利的，这样可以避免将你的私钥暴露给某个被攻破的设备。
 
