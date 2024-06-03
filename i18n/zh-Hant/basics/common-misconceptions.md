@@ -42,7 +42,7 @@ schema:
 
 這些迷思源於許多偏見，原始碼是否開放以及軟體的許可並不會以任何方式影響其安全性。 ==開源軟件 *可能* 比商業軟件更安全，但絕對不能保證這一點。==評估軟體時，您應該根據每個工具的聲譽和安全性進行評估。
 
-開源軟體*能夠*由第三方人員進行審計，比起同類商用軟體，前者對待潛在漏洞更為透明。 它還允許您查看代碼並禁用您發現的任何可疑功能。 然而，*除非您真的這樣做了*，否則不能保證程式碼曾經被評估過，特別是小型軟體專案。 The open development process has also sometimes been exploited to introduce new vulnerabilities known as <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+開源軟體*能夠*由第三方人員進行審計，比起同類商用軟體，前者對待潛在漏洞更為透明。 它還允許您查看代碼並禁用您發現的任何可疑功能。 然而，*除非您真的這樣做了*，否則不能保證程式碼曾經被評估過，特別是小型軟體專案。 開放開發過程有時也被利用引入新的漏洞，稱為<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>，這些漏洞將在[常見威脅一章](common-threats.md)進一步討論。[^1]
 
 另一方面，專有軟件不太透明，但這並不意味著它不安全。 主要的商用軟件專案會由內部和第三方機構進行審計，獨立的安全研究人員仍然可以通過逆向工程等技術發現漏洞。
 
@@ -75,23 +75,23 @@ schema:
 
 最清晰的威胁模型之一是，部分人*，知道你是谁* ，而另一部分人不知道。 有些必須提出您的法定姓名的情況，但也有其他情況不需要提供全名。
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **已知身份** - 已知身份是用于必須告之姓名的事務。 有许多法律文件和合同都需要合法身份。 這可能包括開設銀行帳戶、簽署財產租賃、獲得護照、進口物品時的海關申報，或其他與政府打交道的方式。 這些東西通常會需要憑證，如信用卡，信用評級檢查，帳戶號碼，以及實際地址等。
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    不建議使用 VPN 或Tor来做這些事情，因為你的身份已经通過其他方式被知道了。
 
     <div class="admonition tip" markdown>
-    <p class="admonition-title">Tip</p>
+    <p class="admonition-title">溫馨提示</p>
 
-    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+    在網上購物時，使用[包裹儲物櫃](https://zh.wikipedia.org/wiki/Parcel_locker)有助於保護您實際地址的私密性。
 
     </div>
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **未知身份** -未知身份可能是您经常使用的稳定化名。 它已不算匿名了，因為不會變動。 如果是線上社群的一員，可能希望保留其他人知道的身份。 這個化名不是匿名的，因為如果監控時間夠長，有關所有者的詳細信息已可揭露更多，例如其寫作方式、他感興趣主題等等。
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](../cryptocurrency.md#monero). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    因此，可能想利用 VPN 來隱藏您的 IP 位址。 金融交易更難掩蓋。 可以考虑使用匿名的加密貨幣，如 [Monero](../cryptocurrency.md#monero)。 採用山寨幣轉移也可能有助於偽裝您的貨幣來源。 通常交易所需要完成KYC（了解你的客户），然後你才能將法定貨幣兑换成其它種類的加密貨幣。 本地聚會也可能是解決方案；然而，這通常更為昂貴，有時還需要 KYC。
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **匿名身分** - 即便經驗豐富，匿名身分也很難長期維持。 它們應該是定期輪換的短期和短暫的身份。
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    使用 Tor 可以幫助解決這個問題。 但要注意的是，透過非同步通訊可以實現更大的匿名性：即時通訊很容易受到打字模式分析的影響（即多於一段文本，透過論壇、電子郵件等分發）
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: 2024 年 3 月發生著名的供應鏈攻擊，當時惡意維護者在流行的壓縮庫 `xz` 中添加了一個混淆後門。 後門 ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) 企圖讓未知方遠端存取大多數 Linux 伺服器通過SSH，但它在廣泛部署之前就被發現了。
