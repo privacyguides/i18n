@@ -16,7 +16,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 - <span class="pg-green">:material-account-search: 公開曝光</span> -限制搜尋引擎或一般大眾可在網路上找到有關您的資訊。
 - <span class="pg-blue-gray">:material-close-outline: 審查</span> -避免資訊被封鎖或自己的網路發言時受到審查。
 
-其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>-例如惡意軟件影響他們的設備。
+其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. 他們可能仍然希望保護自己的個人資料免受<span class="pg-blue">:material-eye-outline：大規模監控</span>計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>-例如惡意軟件影響他們的設備。
 
 ## 匿名 vs. 隱私
 
@@ -63,25 +63,25 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">範例</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+一個著名例子是 2017 年，當時烏克蘭流行的會計軟體 M.E.Doc 感染了 *NotPetya* 病毒，隨後勒索軟體感染了下載該軟體的人。 NotPetya 本身就是一種勒索軟體攻擊，影響了跨國 2000 多家公司，其基於 NSA 開發的 *EternalBlue* 漏洞來透過網路攻擊 Windows 電腦。
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+執行此類攻擊的方式有以下幾種：
 
-1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. 貢獻者或員工可能會努力在專案或組織中獲得權力職位，然後濫用該職位添加惡意程式碼。
+2. 開發人員可能會受到外部脅迫添加惡意程式碼。
+3. 個人或團體可能會識別第三方軟體依賴（也稱為庫），並透過上述兩種方法對其進行滲透，因為他們知道它將被「下游」軟體開發人員使用。
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+此類攻擊可能需要大量時間和準備才能執行，且存在風險，因為它們可以被檢測到，特別是在開源專案中，如果很受歡迎受到外部關注的話。 不幸的是，它們也是最危險的之一，很難完全緩解。 我們鼓勵讀者僅使用具有良好聲譽的軟體，並透過以下方式努力降低風險：
 
-1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. 這很可能意味著「大型科技公司」開發的軟體比不向任何人負責的單獨開發人員受到更多審查。
+1. 只採用已經存在一段時間的流行軟體。 專案引發的興趣越大，外部各方注意到惡意更改的可能性就越大。 惡意行為者還需要花費更多時間透過有意義的貢獻來贏得社群信任。
+2. 尋找透過廣泛使用的、可信任的建置基礎架構平台發布二進位檔案的軟體，而不是開發人員工作站或自架伺服器。 某些系統（例如 GitHub Actions）可檢查公開執行的建置腳本，以獲得額外的信心。 這降低了開發人員電腦上的惡意軟體感染其軟體包的可能性，讓人確信生成的二進位檔案是正確生成的。
+3. 尋找單一原始碼提交和發布的程式碼簽名，這會建立誰做了什麼的可審計追蹤。 例如：惡意程式碼是否在軟體儲放庫中？ 哪個開發者添加的？ 是建置過程中新增的嗎？
+4. 檢查原始程式碼是否提交有意義的訊息（例如[常規提交](https://conventionalcommits.org)），這些訊息解釋了更改應完成的任務。 清晰的訊息可以讓外部人士更容易驗證、審核和發現錯誤。
+5. 注意程式的貢獻者或維護者的數量。 單獨開發人員可能更容易被外部方強迫添加惡意程式碼，或因疏忽導致不良行為。 這很可能意味著「大型科技公司」開發的軟體比不向任何人負責的單獨開發人員受到更多審查。
 
 ## 服務供應商的隱私權
 

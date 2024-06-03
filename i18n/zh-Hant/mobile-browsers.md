@@ -158,15 +158,15 @@ Android 上基於Firefox (Gecko) 的瀏覽器[缺乏](https://bugzilla.mozilla.o
 
 啟用 DivestOS 的 [F-Droid Repo](https://divestos.org/fdroid/official) 直接從開發者接收更新。 從預設的 F-Droid 儲存庫下載 Mull 將意味著更新可能會延遲幾天或更長時間。
 
-Mull 透過[Tor 提升專案](https://wiki.mozilla.org/Security/Tor_Uplift)的[Arkenfox](desktop-browsers.md#arkenfox-advanced)的偏好來啟動許多上游高級功能。 Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
+Mull 透過[Tor 提升專案](https://wiki.mozilla.org/Security/Tor_Uplift)的[Arkenfox](desktop-browsers.md#arkenfox-advanced)的偏好來啟動許多上游高級功能。 使用為 Fennec F-Droid 開發的腳本從 Mozilla 程式碼中刪除商業專有 blob。
 
-#### Recommended Mull Configuration
+#### 建議的 Mull 設定
 
-We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
+如想封鎖 Mull 中的追蹤器，建議安裝 [uBlock Origin](browser-extensions.md#ublock-origin) 作為內容封鎖程式。
 
-Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
+Mull 隨附預設配置的隱私保護設定。 如果想在退出應用程式時自動關閉所有開啟的標籤頁，或清除瀏覽等其他數據，可以考慮在Mull 的設定中配置**退出時刪除瀏覽資料**選項自動歷史記錄和cookie。
 
-Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
+與大多數瀏覽器相比，Mull 預設啟用更高級、更嚴格的隱私保護，因此某些網站可能無法載入或正常運作，除非調整這些設定。 如果遇到損壞的網站，可以查閱此[已知問題和解決方法清單](https://divestos.org/pages/broken#mull)，以獲取有關潛在修復的建議。 調整設定以修復網站可能會影響隱私/安全，因此請確保完全理解所遵循的任何說明。
 
 ## iOS
 
@@ -190,9 +190,9 @@ Because Mull has more advanced and strict privacy protections enabled by default
 
 #### 建議的 Safari 設定
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
+如果想封鎖 Safari 追蹤器，建議安裝 [AdGuard](browser-extensions.md#adguard) 作為內容封鎖程式。
 
-The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
+可以在 :gear: **Settings** app → **Safari** 中找到以下與隱私/安全相關的選項。
 
 ##### 主題類別
 
@@ -255,6 +255,6 @@ Safari 的歷史記錄、分頁群組、iCloud 分頁和已儲存密碼的同步
 ### 最低合格要求
 
 - 必須支援自動更新。
-- Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
+- 必須快速接收來自上游版本的引擎更新。
+- 須支援內容阻檔。
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
