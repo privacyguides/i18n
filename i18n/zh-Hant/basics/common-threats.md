@@ -16,7 +16,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 - <span class="pg-green">:material-account-search: 公開曝光</span> -限制搜尋引擎或一般大眾可在網路上找到有關您的資訊。
 - <span class="pg-blue-gray">:material-close-outline: 審查</span> -避免資訊被封鎖或自己的網路發言時受到審查。
 
-其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. 他們可能仍然希望保護自己的個人資料免受<span class="pg-blue">:material-eye-outline：大規模監控</span>計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>-例如惡意軟件影響他們的設備。
+其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 例如，有權存取有價值或關鍵資料的軟體開發人員可能主要關心 <span class="pg-viridian">:material-package-variant-close-remove：供應鏈攻擊</span> 和 <span class = "pg-red">:material-target-account：定向攻擊</span>。 他們可能仍然希望保護自己的個人資料免受<span class="pg-blue">:material-eye-outline：大規模監控</span>計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>-例如惡意軟件影響他們的設備。
 
 ## 匿名 vs. 隱私
 
@@ -58,9 +58,9 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 若特別擔心 **物理攻擊**，就應選用具安全驗證開機的作業系統，例如 Android, iOS, macOS, 或[Windows (帶 TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process)。 應確保您的驅動器是加密的，並且操作系統使用 TPM或 Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) 來限制輸入加密密碼的嘗試率。 您應該避免與不信任的人共享您的電腦，因為大多數桌面作業系統不會單獨加密每個用戶的數據。
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+供應鏈攻擊往往是 <span class="pg-red">:material-target-account: 定向攻擊 Attack</span>的一種，其指向企業、政府和活動人士的利益，也可能最終損害廣大公眾的利益。
 
 <div class="admonition example" markdown>
 <p class="admonition-title">範例</p>
