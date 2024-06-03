@@ -17,11 +17,11 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 
 **Akregator** è un aggregatore di notizie, parte del progetto [KDE](https://kde.org). Dispone di funzionalità di ricerca veloce, archiviazione avanzata e un browser interno per la facile lettura delle notizie.
 
-[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://apps.kde.org/it/akregator/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentazione}
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://kde.org/it/community/donations/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -56,9 +56,9 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 
 <div class="admonition recommendation" markdown>
 
-![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+![Logo di Feeder](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. Supporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) e [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** è un client moderno RSS per Android con molte [funzionalità](https://github.com/spacecowboy/Feeder#features) e funziona bene con le cartelle di feed RSS. Supporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) e [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Codice sorgente" }
@@ -82,11 +82,11 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 
 **Fluent Reader** è un aggregatore di notizie multipiattaforma e sicuro, che dispone di utili funzionalità per la privacy, come l'eliminazione dei cookie all'uscita, rigide [politiche di sicurezza dei contenuti (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) e supporto al proxy, a significare che puoi utilizzarlo su [Tor](tor.md).
 
-[:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -118,14 +118,14 @@ Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) conse
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+![Logo di NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Supporta i formati tipici dei feed, insieme al supporto integrato per i feed di Reddit.
+**NetNewsWire** è un lettore di feed gratuito e open source per macOS e iOS con un'attenzione particolare al design e alle funzionalità native. Supporta i formati tipici dei feed, insieme al supporto integrato per i feed di Reddit.
 
-[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://netnewswire.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -184,10 +184,10 @@ Puoi iscriverti ai canali di YouTube senza accedere e associare le informazioni 
 <div class="admonition example" markdown>
 <p class="admonition-title">Esempio</p>
 
-Per iscriverti a un canale YouTube con un client RSS, cerca innanzitutto il [codice del canale](https://support.google.com/youtube/answer6180214). Il codice del canale si trova nella pagina informativa del canale YouTube a cui ci si vuole abbonare, alla voce **Informazioni** > **Condividi** > **Copia ID canale**. Replace `[CHANNEL ID]` below:
+Per iscriverti a un canale YouTube con un client RSS, cerca innanzitutto il [codice del canale](https://support.google.com/youtube/answer6180214). Il codice del canale si trova nella pagina informativa del canale YouTube a cui ci si vuole abbonare, alla voce **Informazioni** > **Condividi** > **Copia ID canale**. Sostituisci `[ID CANALE]` qui sotto:
 
 ```text
-https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+https://youtube.com/feeds/videos.xml?channel_id=[ID CANALE]
 ```
 
 </div>

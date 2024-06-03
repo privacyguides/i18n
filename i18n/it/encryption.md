@@ -20,11 +20,11 @@ Le opzioni qui elencate sono multipiattaforma e ottime per creare backup crittog
 
 **Cryptomator** è una soluzione per la crittografia progettata per salvare privatamente i file di qualsiasi provider cloud. Ti consente di creare cassaforti memorizzate su un'unità virtuale, i cui contenuti sono crittografati e sincronizzati con il tuo fornitore d'archiviazione su cloud.
 
-[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.cryptomator.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://docs.cryptomator.org){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>

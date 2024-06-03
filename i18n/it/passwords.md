@@ -226,7 +226,7 @@ Proton Pass currently doesn't have any "master password" functionality, which me
 
 The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June of 2023. The security analysis company concluded:
 
-> Proton Pass apps and components leave a rather positive impression in terms of security.
+> Le applicazioni e i componenti di Proton Pass lasciano un'impressione piuttosto positiva in termini di sicurezza.
 
 All issues were addressed and fixed shortly after the [report](https://res.cloudinary.com/dbulfrlrz/images/v1707561557/wp-pme/Cure53-proton-pass-20230717/Cure53-proton-pass-20230717.pdf).
 
@@ -234,13 +234,13 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 <div class="admonition recommendation" markdown>
 
-![1Password logo](assets/img/password-management/1password.svg){ align=right }
+![Logo di 1Password](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password è closed source; tuttavia, la sicurezza del prodotto è documentata in modo esauriente nel suo [white paper sulla sicurezza](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+**1Password** è un gestore di password con una forte attenzione alla sicurezza e alla facilità d'uso, che ti consente di memorizzare password, passkey, carte di credito, licenze software e qualsiasi altra informazione sensibile in una cassaforte digitale sicura. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password è closed source; tuttavia, la sicurezza del prodotto è documentata in modo esauriente nel suo [white paper sulla sicurezza](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
-[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
+[:octicons-home-16: Pagina Principale](https://1password.com/it){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/it/legal/privacy/){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://support.1password.com/it/){ .card-link title=Documentazione}
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -325,11 +325,11 @@ Queste opzioni ti consentono di gestire localmente un database di password critt
 
 **KeePassXC** è un fork di KeePassX, una conversione nativa e multipiattaforma di KeePass Password Safe, mirata a estenderla e migliorarla con nuove funzionalità e correzioni di bug, per fornire un gestore di password open source, ricco di funzionalità, multipiattaforma e moderno.
 
-[:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://keepassxc.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Download</summary>
@@ -355,10 +355,10 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 **KeePassDX** è un gestore di password leggero per Android, che consente la modifica dei dati crittografati in un singolo file nel formato KeePass, e può compilare i moduli in un modo sicuro. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) consente lo sblocco dei contenuti cosmetici e dispone di funzionalità non standard del protocollo ma, soprattutto, aiuta e incoraggia lo sviluppo.
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Download</summary>
@@ -376,13 +376,13 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 ![Logo di Strongbox](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** è un gestore di password nativo e open source per iOS e macOS. Supportando sia i formati di KeePass che di Password Safe, è utilizzabile insieme ad altri gestori di password, come KeePassXC, sulle piattaforme non Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** è un gestore di password nativo e open source per iOS e macOS. Supportando sia i formati di KeePass che di Password Safe, è utilizzabile insieme ad altri gestori di password, come KeePassXC, sulle piattaforme non Apple. Utilizzando un [modello freemium] (https://strongboxsafe.com/pricing), Strongbox offre la maggior parte delle funzionalità nel suo piano gratuito, mentre le funzionalità più convenienti (https://strongboxsafe.com/comparison), come l'autenticazione biometrica, sono bloccate dietro un abbonamento o una licenza permanente.
 
-[:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://strongboxsafe.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -393,20 +393,20 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 </div>
 
-Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Questa versione è stata ridotta nel tentativo di ridurre la superficie di attacco.
+Inoltre, è disponibile una versione solo offline: [Strongbox Zero](https://apps.apple.com/it/app/strongbox-zero/id1581589638). Questa versione è stata ridotta nel tentativo di ridurre la superficie di attacco.
 
 ### gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+![Logo di gopass](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
+**gopass** è un gestore di password minimale per la riga di comando scritto in Go. Può essere utilizzato all'interno di applicazioni di scripting e funziona su tutti i principali sistemi operativi desktop e server (Linux, macOS, BSD, Windows).
 
-[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+[:octicons-home-16: Pagina Principale](https://gopass.pw){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
