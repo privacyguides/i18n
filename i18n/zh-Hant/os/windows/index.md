@@ -1,27 +1,27 @@
 ---
-title: Windows Overview
+title: Windows 總覽
 icon: simple/windows
 ---
 
-**Microsoft Windows** is a proprietary operating system in widespread use. Recent versions of Windows, especially Windows 11, are widely considered to be the most privacy-invasive and least secure modern operating systems.
+**Microsoft Windows** 是廣泛使用的私有商用作業系統。 最新版本的 Windows，尤其是 Windows 11，被廣泛認為是最具隱私侵犯性和最不安全的現代作業系統。
 
-If you have the choice between Windows 10 and Windows 11, we would recommend using Windows 10 for as long as possible. Windows 10 will be supported until October 2025. However, no current version of Windows respects your privacy without extensive modifications that are often undone by future updates from Microsoft. Consider [Linux](../linux-overview.md) if you'd prefer an operating system that respects your privacy and preferences.
+如果可以在 Windows 10 和 Windows 11 之間選擇，我們建議盡可能長時間地使用 Windows 10。 Windows 10 的支援期限將持續到 2025 年 10 月。 然而，目前版本的 Windows 都不會在不進行大量修改的情況下尊重您的隱私，而這些修改通常會被 Microsoft 未來的更新所撤銷。 如果想要保護隱私和尊重用戶偏好的作業系統，請考慮 [Linux](../linux-overview.md)。
 
-Microsoft continually adds new cloud-based features to Windows 11 which are enabled by default without user consent. Most recently (as of May 2024), they've introduced a built-in keylogger called **Recall** (part of their AI features) which records every keystroke on your device, and records your screen by screenshotting at regular intervals. This data is stored unsafely in a local database that is decrypted when your device is powered on, meaning it is an easy target for hackers. It will not redact sensitive information like copied passwords or financial information from the database, but it does protect Hollywood movie studios by not recording copyrighted content. This feature is currently only on certain newer devices, but it serves as an example of how little Microsoft cares about your security and privacy.
+Microsoft 不斷在 Windows 11 中新增雲端功能，這些功能預設為啟用，無需使用者同意。 最近（2024 年5 月），他們推出了一個名為**Recall** 的內建鍵盤記錄器（其AI 功能的一部分），它會記錄裝置上的每次擊鍵，並透過定期截圖來記錄螢幕。 這些資料不安全地儲存在本機資料庫，該資料庫在裝置開機時會被解密，意味著很容易成為駭客的目標。 它不會編輯資料庫中複製的密碼或財務資訊等敏感訊息，但它確實透過不記錄受版權保護的內容來保護好萊塢電影製片廠。 此功能目前僅在某些較新的裝置上提供，但它足以說明 Microsoft 是多麼不關心用戶的安全和隱私。
 
-## Guides
+## 指南
 
-You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
+可透過以下指南增強 Windows 上的隱私和安全性，而無需下載任何第三方工具：
 
-- Initial Installation (coming soon)
+- 初始安裝 (coming soon)
 - [Group Policy Settings](group-policies.md)
-- Privacy Settings (coming soon)
-- Application Sandboxing (coming soon)
-- Security Hardening (coming soon)
+- 隱私設定 (coming soon)
+- 應用程式沙盒 (coming soon)
+- 安全強化 (coming soon)
 
-This section is a work in progress, because it takes considerably more time and effort to make a Windows installation usable compared to other operating systems. Additional guides are coming soon!
+本節仍在施工，與其他作業系統相比，Windows 安裝需要花費更多的時間和精力才能使用。 Additional guides are coming soon!
 
-## Privacy History
+## 隱私記錄
 
 Especially since the release of Windows 8, Microsoft has demonstrated extremely privacy-invasive behavior with their operating system releases, consistently taking advantage of the fact that Windows is the most widely-used desktop operating system. Windows 10 was widely [criticized](https://www.theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings) for having default settings that sent a lot of data and telemetry back to Microsoft, [including](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) "User's contacts and calendar events, location data and history, 'telemetry' (diagnostics data) [...] and 'advertising ID', as well as further data when the Cortana assistant is enabled" (which it is by default). Windows 10 also made it much more challenging to change default applications (such as your web browser) away from Microsoft-provided apps, which is behavior that still persists today.
 
@@ -47,16 +47,16 @@ Many critical privacy and security features are unfortunately locked away behind
 
 The best version available for _retail_ purchase is **Windows Pro Edition**. This version does not allow you to set some of the most restrictive limitations on Microsoft's telemetry unfortunately, but does have nearly all of the features you'll want to use to secure your device, including Bitlocker, Hyper-V, etc.
 
-Students and teachers may be able to obtain **Windows Education** (equivalent to Enterprise) or **Windows Pro Education** (equivalent to Pro) for free (including on personal devices) from their educational institution. Many schools partner with Microsoft via OnTheHub or Microsoft Azure for Education, so you can check those sites or your school's benefits page to see if you qualify. Whether or not you are able to get these licenses depends entirely on your institution. This may be the best way for many people to obtain an Enterprise-level edition of Windows for personal use. There are no additional privacy or security risks associated with using an Education license compared to the retail versions.
+Students and teachers may be able to obtain **Windows Education** (equivalent to Enterprise) or **Windows Pro Education** (equivalent to Pro) for free (including on personal devices) from their educational institution. 許多學校透過 OnTheHub 或 Microsoft Azure for Education 與 Microsoft 合作，因此您可以檢查這些網站或學校的福利頁面，看看是否符合資格。 Whether or not you are able to get these licenses depends entirely on your institution. This may be the best way for many people to obtain an Enterprise-level edition of Windows for personal use. There are no additional privacy or security risks associated with using an Education license compared to the retail versions.
 
-It is not recommended to use forks or modified versions of Windows such as Windows AME. Since modified versions of Windows like Windows AME don't receive updates, security features and antivirus definitions in Windows Defender will fall behind the current threat landscape, opening you up to attacks.
+不建議使用 Windows 的分支或修改版本，例如 Windows AME。 由於 Windows AME 等 Windows 修改版本不會收到更新，因此 Windows Defender 中的安全功能和防毒定義將落後於當前的威脅情勢，從而易受到攻擊。
 
-## Obtaining Windows
+## 取得 Windows
 
-Currently, only Windows 11 license keys are available for purchase, but these keys will work on Windows 10 as well, so you can still purchase a Windows 11 Pro key to activate a Windows 10 install.
+目前，僅可購買 Windows 11 授權金鑰，但這些金鑰也適用於 Windows 10，因此仍可購買 Windows 11 專業版金鑰來啟動 Windows 10 安裝。
 
-The official [Media Creation tool](https://www.microsoft.com/software-download/windows10) is the best way to put a Windows installer on a USB flash drive. Third-party tools like Rufus or Etcher may unexpectedly modify the files, which could lead to boot issues or other troubles with installing.
+官方的[Media Creation tool](https://www.microsoft.com/software-download/windows10)是將Windows安裝程式放在 USB 隨身碟上的最佳方法。 Rufus 或 Etcher 等第三方工具可能會意外修改文件，可能導致啟動或其他安裝問題。
 
-This tool only lets you install a Home or Pro edition installation, as there are no publicly available downloads for Windows Enterprise Edition. However, if you have an Enterprise Edition license key, you can easily upgrade a Pro installation. Just install Windows Pro without entering a license key during setup, then enter your Enterprise key in the Settings app after completing the install. Your Pro Edition install will upgrade to Enterprise Edition automatically after entering a valid license key.
+此工具僅允許安裝家用版或專業版，因為 Windows 企業版沒有公開可用的下載。 但如有企業版授權金鑰，則可以輕鬆升級專業版。 只需安裝 Windows Pro，無需在安裝過程中輸入許可證金鑰，然後在完成安裝後在「設定」應用程式中輸入您的企業金鑰。 輸入有效的許可證金鑰後，則專業版安裝將自動升級至企業版。
 
-If you are installing an Education edition, typically a private download will be provided alongside your license key when you obtain it from your institution's benefits portal.
+如要安裝教育版，當從機構的福利入口網站取得許可證金鑰時，通常會提供私人下載以及許可證金鑰。

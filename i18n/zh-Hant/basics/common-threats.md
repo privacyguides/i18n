@@ -81,7 +81,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
 3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
 4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. 這很可能意味著「大型科技公司」開發的軟體比不向任何人負責的單獨開發人員受到更多審查。
 
 ## 服務供應商的隱私權
 
@@ -126,7 +126,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. 當  NSA 日復一日地收集這類資訊時，就可以揭示人們生活相關聯的敏感細節，例如他們是否打電話給牧師、墮胎提供者、成癮顧問或自殺熱線。
+對於[愛德華·斯諾登（Edward Snowden）披露的 [PRISM](https://en.wikipedia.org/wiki/PRISM)和 [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)等政府計劃，情報官員承認，國家安全局多年來一直祕密地收集每個美國人電話記錄—誰、何時及通話時間多久。 當  NSA 日復一日地收集這類資訊時，就可以揭示人們生活相關聯的敏感細節，例如他們是否打電話給牧師、墮胎提供者、成癮顧問或自殺熱線。
 
 </div>
 
@@ -142,7 +142,7 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 
 \ [此列表並非詳盡無缺]。
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+如果您擔心大規模監控計劃，您可以隨時隨地策略性避免提供識別個資，例如劃分您的網路身份，與其他用戶混合。
 
 <span class="pg-brown">:material-account-cash: 監控資本主義</span>
 

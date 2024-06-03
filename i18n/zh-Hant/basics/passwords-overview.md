@@ -113,7 +113,7 @@ Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "不要將密碼和 TOTP 令牌放在同一個密碼管理器中</p>
 
-When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+當使用 TOTP 代碼作為 [多因素驗證](multi-factor-authentication.md#time-based-one-time-password-totp) 時，最好的安全措施是將 TOTP 代碼保存在 [分開的應用程序](../multi-factor-authentication.md) 中。
 
 將您的 TOTP 令牌存儲在與密碼相同的位置，雖然方便，但假若對手可以存取密碼管理器，則帳戶安全驗證則減少為單一因素。
 

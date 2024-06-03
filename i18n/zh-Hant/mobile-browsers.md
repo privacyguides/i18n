@@ -133,7 +133,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 ![Mull logo](assets/img/browsers/mull.svg){ align=right }
 
-**Mull** is a privacy oriented and deblobbed Android browser based on Firefox. Compared to Firefox, it offers much greater fingerprinting protection out of the box, and disables JavaScript Just-in-Time (JIT) compilation for enhanced security. It also removes all proprietary elements from Firefox, such as replacing Google Play Services references.
+**Mull** 是一款基於 Firefox 的隱私去污漬的 Android 瀏覽器。 與 Firefox 相比，它提供了更強的開箱即用指紋識別保護，並禁用 JavaScript 即時 (JIT) 編譯以增強安全性。 它還刪除了 Firefox 中的所有商業專有元素，例如取代 Google Play 服務引用。
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
@@ -152,13 +152,13 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
-Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] a powerful security feature that protects against a malicious site performing a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-like attack to gain access to the memory of another website you have open.[^2] Chromium-based browsers like [Brave](#brave) will provide more robust protection against malicious websites.
+Android 上基於Firefox (Gecko) 的瀏覽器[缺乏](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [網站隔離](https://wiki.mozilla.org/Project_Fission), [ ^1] 強大的安全功能，可防止惡意網站執行類似[Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)) 的攻擊來獲取對您擁有的另一個網站的內存的存取權限open.[^2] 基於 Chromium 的瀏覽器（例如​​ [Brave](#brave)）將針對惡意網站提供更強大的保護。
 
 </div>
 
-Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+啟用 DivestOS 的 [F-Droid Repo](https://divestos.org/fdroid/official) 直接從開發者接收更新。 從預設的 F-Droid 儲存庫下載 Mull 將意味著更新可能會延遲幾天或更長時間。
 
-Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
+Mull 透過[Tor 提升專案](https://wiki.mozilla.org/Security/Tor_Uplift)的[Arkenfox](desktop-browsers.md#arkenfox-advanced)的偏好來啟動許多上游高級功能。 Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 
 #### Recommended Mull Configuration
 
