@@ -1,15 +1,15 @@
 ---
-title: General Criteria
+title: 通用標準
 ---
 
-Below are some general priorities we consider for all submissions to Privacy Guides. 每個類別都會有額外的加入要求。
+以下是我們在對提交給 Privacy Guides 所考慮的一些優先事項。 每個類別都會有額外的加入要求。
 
-- **Security**: Tools should follow security best-practices wherever applicable.
+- **安全**：工具應在合適的地方遵循安全的最佳做法。
 - **源代碼可取得**：開源專案通常比同等商用替代方案更受歡迎。
-- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **跨平臺**：我們通常傾向於建議跨平臺，以避免供應商鎖定。
 - **積極開發**：我們建議的工具應該積極開發，在大多數情況下，未維護的項目將被移除。
 - **可用性**：工具應可讓大多數電腦使用者使用，無需要求過度的技術背景。
-- **Documentation**: Tools should have clear and extensive documentation for use.
+- **文檔**：工具應有清晰和廣泛的文件可供使用。
 
 ## 財務披露
 

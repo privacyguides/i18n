@@ -14,7 +14,7 @@ cover: photo-management.webp
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. 其客戶端和伺服器端的程式碼都完全開源。 它可以 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting). 它分別於2023 年3 月接受了[Cure53](https://ente.io/blog/cryptography-audit) 和 2023 年 4 月[Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf)審核。 The free trial offers 5GB of storage, for a year.
+**Ente Photos**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 其客戶端和伺服器端的程式碼都完全開源。 它可以 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting). 它分別於2023 年3 月接受了[Cure53](https://ente.io/blog/cryptography-audit) 和 2023 年 4 月[Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf)審核。 免費試用有1年份的 5GB 儲存容量。
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -93,7 +93,7 @@ cover: photo-management.webp
 
 - 雲端託管提供者須強制執行端對端加密。
 - 必須提供免費計劃或試用期以進行測試。
-- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
+- 必須支援 TOTP 或 FIDO2 多因素驗證，或密鑰登入。
 - 必須提供支援基本檔案管理功能的網頁介面。
 - 允許輕鬆匯出所有檔案/文件。
 - 必須使用經審核的標準加密。

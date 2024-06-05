@@ -20,11 +20,11 @@ Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括�
 
 </div>
 
-Unless otherwise noted, all **content** on this website is released under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). This means that you can use the human-readable content on this website for your own project, as long as you give appropriate credit to [Privacy Guides](https://www.privacyguides.org) including a link where technically possible, and you release your project under the same license. You may not do so in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides brand trademarks in your own project without express approval from this project. Privacy Guides  品牌商標包括 "Privacy Guides" 文字商標和盾牌標誌。
+除非另有說明，否則本網站上的所有 **內容** 均根據 [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE)的條款授權。 這意味著可以將本網站上的人類可讀內容用於自己的項目，只要對[Privacy Guides](https://www.privacyguides.org)給予適當的認可，包括技術上可行的鏈接，在同一授權下發布您的專案。 不得以任何暗示 Privacy Guides 認可或背書這樣的使用方式。 未經本專案明確同意，**不得**在任何專案中使用 Privacy Guides 品牌商標。 Privacy Guides  品牌商標包括 "Privacy Guides" 文字商標和盾牌標誌。
 
 基礎 **源代碼** 用於生成本網站並顯示該內容是根據 [MIT 許可](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE)發布。
 
-This does not include third-party code embedded in the Privacy Guides code repository, or code where a superseding license is otherwise noted. 以下是引人注目的例子，但此列表可能不包括所有：
+這不包括嵌入在 Privacy Guides 儲存庫中的第三方代碼，或以其他方式注明取代許可證的代碼。 以下是引人注目的例子，但此列表可能不包括所有：
 
 * The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
 * The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).

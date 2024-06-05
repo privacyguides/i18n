@@ -1,7 +1,7 @@
 ---
 title: "記事本"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+description: 這些加密的筆記錄應用程式可讓您跟進記錄，而無需將它們提供給第三方。
 cover: notebooks.webp
 ---
 
@@ -40,7 +40,7 @@ cover: notebooks.webp
 
 </div>
 
-Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-forces-with-proton) as of April 10, 2024.
+Standard Notes 已於 2024 年 4 月 10 日[加入 Proton AG](https://standardnotes.com/blog/joining-forces-with-proton)。
 
 ### Notesnook
 
@@ -48,7 +48,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. 其跨平台的端對端加密具備強大的同步功能以便輕易地携帶檔案文件。 You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com).
+**Notesnook** 為自由 (此同言論自由之意) 開放源代碼的筆記應用，其注重隱私 容易使用。 其跨平台的端對端加密具備強大的同步功能以便輕易地携帶檔案文件。 可輕鬆從 Evernote, OneNote 及許多類似筆記應用透過其[官方滙入](https://importer.notesnook.com) 來滙入資料。
 
 [:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
@@ -139,7 +139,7 @@ Cryptee 免費提供100MB 的儲存空間，如果需要更多容量，則另有
 
 ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文本系統撰寫文件。 可以利用 [檔案同步](file-sharing.md#file-sync) 工具進行同步。
+**Org-mode** 是GNU Emacs的 [主要模式](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文本系統撰寫文件。 可以利用 [檔案同步](file-sharing.md#file-sync) 工具進行同步。
 
 [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentation}

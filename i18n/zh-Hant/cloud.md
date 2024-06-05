@@ -124,7 +124,7 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 
 - 必須執行端到端加密。
 - 必須提供免費計劃或試用期以進行測試。
-- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
+- 必須支援 TOTP 或 FIDO2 多因素驗證，或密鑰登入。
 - 必須提供支援基本檔案管理功能的網頁介面。
 - 允許輕鬆匯出所有檔案/文件。
 - 必須使用經審核的標準加密。

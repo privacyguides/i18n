@@ -117,7 +117,7 @@ Privacy Guides 於2021年9月推出，是 [已解散的](privacytools.md) "Priva
 
 </div>
 
-Additionally, [many people](contributors.md) have made contributions to the project. 也可在 GitHub 或 [Crowdin](https://crowdin.com/project/privacyguides)提出翻譯建議。
+此外，[許多人](contributors.md)都為本專案做出貢獻。 也可在 GitHub 或 [Crowdin](https://crowdin.com/project/privacyguides)提出翻譯建議。
 
 團隊成員會審查對網站所做的所有更改，並處理網站託管和財務等管理職責，但他們不會從對本網站的任何貢獻中獲利。 在美國，對 Privacy Guides 捐贈通常可以減稅。
 
@@ -129,6 +129,6 @@ Additionally, [many people](contributors.md) have made contributions to the proj
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). 這意味著您可以自由以各種媒介或格式來複製和重新發布，用於入任何目的甚至包括商業，只要給予適當的註明 `Privacy Guides (www.privacyguides.org)` ，並以相同授權方式分享。
 
-You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
+您可以以任何合理的方式操作，但不能以任何方式暗示 Privacy Guides 為您或您的使用作背書。
