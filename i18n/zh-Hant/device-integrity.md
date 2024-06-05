@@ -221,7 +221,7 @@ Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟
 
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. 它還會檢查裝置是否有被越獄工具或間諜軟體（例如 Pegasus）入侵的跡象。
+**iVerify** 是一款 iOS 應用程式，會自動掃描裝置檢查配置設定、修補程式等級和其他安全性領域。 它還會檢查裝置是否有被越獄工具或間諜軟體（例如 Pegasus）入侵的跡象。
 
 [:octicons-home-16: Homepage](https://iverify.io/consumer){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
@@ -236,10 +236,10 @@ Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟
 
 </div>
 
-Previously, iVerify would scan your device for threats automatically in the background and notify you if one is found, but this is [no longer the case](https://discuss.privacyguides.net/t/iverify-basic-is-now-available-on-android/18458/11) following their rebrand of the consumer app to _iVerify Basic_ in May 2024. You can still run manual scans within the app. Automatic background scanning is now only available in iVerify's enterprise product which is unavailable to consumers.
+以前，iVerify 會在後台自動掃描設備是否存在威脅，並在發現威脅時發出通知，但現在[不再是這種情況](https://discuss.privacyguides.net/t/iverify-basic- is-now -available-on-android/18458/11)，隨後於 2024 年 5 月將消費者應用程式更名為 _iVerify Basic_。 仍然可以在應用程式內執行手動掃描。 自動後台掃描現在僅在 iVerify 的企業產品，一般消費者無法使用。
 
-Like all iOS apps, iVerify Basic is restricted to what it can observe about your device from within the iOS App Sandbox. 它無法提供像 [MVT](#mobile-verification-toolkit) 全系統分析工具的強大分析。 它的主要功能是檢測設備是否 jailbroken，但是「專門」設計用於繞過 iVerify 檢查的假設威脅很可能會成功做到這一點。
+與所有 iOS 應用程式一樣，iVerify Basic 僅限於從 iOS 應用程式沙箱內觀察裝置。 它無法提供像 [MVT](#mobile-verification-toolkit) 全系統分析工具的強大分析。 它的主要功能是檢測設備是否 jailbroken，但是「專門」設計用於繞過 iVerify 檢查的假設威脅很可能會成功做到這一點。
 
-iVerify Basic is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
+iVerify Basic 不是「防毒」工具，不會偵測非系統級惡意軟體，例如惡意自訂鍵盤或惡意 Wi-Fi 同步設定。
 
-In addition to device scanning, iVerify Basic also includes a number of additional security utilities which you may find useful, including device [reboot reminders](os/ios-overview.md#before-first-unlock), iOS update notifications (which are often faster than Apple's staggered update notification rollout), and some basic privacy and security guides.
+除了裝置掃描之外，iVerify Basic 還包括許多有用的附加安全實用程序，包括裝置[重新啟動提醒](os/ios-overview.md#before-first-unlock)、iOS 更新通知（通常比Apple 的交錯更新通知更快）、一些基本的隱私和安全指南。

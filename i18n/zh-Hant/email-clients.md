@@ -10,7 +10,7 @@ cover: email-clients.webp
 <details class="warning" markdown>
 <summary>電子郵件不提供前向保密</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
+當使用端到端加密（ E2EE ）技術（如OpenPGP ）時，電子郵件仍然會有一些未在電子郵件標頭中加密的[中繼數據](basics/email-security.md#email-metadata-overview)。
 
 OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy)，這意味著如果你或收件人的私鑰被盜，所有以前用它加密的訊息都會被曝光：[[如何保護我的私鑰？](basics/email-security.md)考慮使用提供前向保密的媒介：
 
@@ -62,7 +62,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 #### Thunderbird-user.js （進階）
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. 其中一些更改是從 [Arkenfox 專案](https://github.com/arkenfox/user.js)中後移的。
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js)，是一組配置選項，旨在禁用 Thunderbird 內過多的網頁瀏覽功能，以減少表面暴露並保持隱私。 其中一些更改是從 [Arkenfox 專案](https://github.com/arkenfox/user.js)中後移的。
 
 ## 平臺特定
 

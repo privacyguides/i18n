@@ -155,7 +155,7 @@ schema:
 
 ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** is a free and open-source password and passkey manager. 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可存儲所有登錄名和密碼，同時方便地在所有設備之間保持同步。
+**Bitwarden** 是一個免費的開源密碼與密鑰管理器。 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可存儲所有登錄名和密碼，同時方便地在所有設備之間保持同步。
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
@@ -198,7 +198,7 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
 
 ![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
 
-Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
+Proton Pass 是由 [Proton Mail](email.md#proton-mail) 團隊 Proton 開發的開源端對端加密密碼管理器。 它安全地儲存登入憑證，產生唯一的電子郵件別名，支援和儲存金鑰，並提供由社群資助、基於瑞士的服務，並遵守嚴格的資料隱私法。
 
 [:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
@@ -220,15 +220,19 @@ Proton Pass is an open-source, end-to-end encrypted password manager developed b
 
 </div>
 
-With the acquisition of SimpleLogin in April 2022, Proton has offered a "hide-my-email" feature that lets you create 10 aliases (free plan) or unlimited aliases (paid plans).
+隨著 2022 年 4 月收購 SimpleLogin，Proton 提供了「隱藏我的電子郵件」功能，可建立 10 個別名（免費方案）或無限個別名（付費方案）。
 
-Proton Pass currently doesn't have any "master password" functionality, which means that your vault is protected with the password for your Proton account and any of their supported [two factor authentication](basics/multi-factor-authentication.md) methods.
+Proton Pass 目前沒有「主密碼」功能，意味著您的保管庫由 Proton 帳戶密碼及[雙因素認證](basics/multi-factor-authentication.md)方法來保護。
 
-The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June of 2023. The security analysis company concluded:
+Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 月接受了 Cure53 的審核。 安全分析公司的結論為：
 
-> Proton Pass apps and components leave a rather positive impression in terms of security.
+> Proton Pass 應用和元件在安全性方面令人留下了相當積極的印象。
 
-All issues were addressed and fixed shortly after the [report](https://res.cloudinary.com/dbulfrlrz/images/v1707561557/wp-pme/Cure53-proton-pass-20230717/Cure53-proton-pass-20230717.pdf).
+所提出的問題與修正都見諸於
+
+報告< /a>。</p> 
+
+
 
 ### 1Password
 
@@ -236,7 +240,7 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
+**1Password** 是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、密鑰、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
 [:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
@@ -266,6 +270,8 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 相較Bitwarden , 1Password一大優勢是其對原生客戶端的一流支持。 Bitwarden 將許多職責（特別是帳戶管理功能）降級到他們的網頁保管庫界面，而1Password 則是在其原生行動或桌面客戶端中提供了所有功能。 1Password 客戶端也有更直觀的用戶界面 ，更容易使用和導航。
 
+
+
 ### Psono
 
 <div class="admonition recommendation" markdown>
@@ -294,9 +300,13 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行託管；或者，您可以選擇完整的Community Edition或具有附加功能的Enterprise Edition。
 
+
+
 ### 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+
+
 
 #### 最低合格要求
 
@@ -306,6 +316,8 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 - 所有非必要的遙測都必須是可選的。
 - 除了收費之必要外，不得收集過多個人識別資訊(PII)。
 
+
+
 #### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
@@ -313,9 +325,13 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 - 遙測應選擇加入（預設情況下禁用）或根本不收集。
 - 應該是開源的，並且可以合理地自主託管。
 
+
+
 ## 本地儲存
 
 這些選項允許您在本地管理加密密碼資料庫。
+
+
 
 ### KeePassXC
 
@@ -346,6 +362,8 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 </div>
 
 KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 文件。 如果您將此檔案匯入另一個密碼管理員，這可能意味著資料丟失。 我們建議您手動檢查每個記錄。
+
+
 
 ### KeePassDX (安卓)
 
@@ -395,13 +413,15 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 此外，還提供離線版本：[Strongbox Zero](https://apps.apple.com/app/id1581589638)。 這個版本被剝離許多特色，以試圖減少攻擊面。
 
+
+
 ### gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
 ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
+**gopass** 是用Go編寫的命令行極簡密碼管理器。 它可以在腳本應用程式中使用，適用於所有桌面和伺服器作業系統（Linux、macOS、BSD、Windows）。
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}

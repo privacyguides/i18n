@@ -83,7 +83,7 @@ cover: productivity.webp
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 應將檔案儲存在傳統檔案系統中。
-- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
+- 必須支援 TOTP 或 FIDO2 多因素驗證，或 passkey 登入。
 
 ## 辦公套件
 
@@ -187,7 +187,7 @@ cover: productivity.webp
 
 - 應有來自聲譽良好、獨立的第三方公開審查報告。
 
-## Language services
+## 語言服務
 
 ### LanguageTool
 
@@ -196,9 +196,9 @@ cover: productivity.webp
 ![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** is a multilingual grammar, style and spell checker that supports more than 20 languages. The software is [self-hostable](https://dev.languagetool.org/http-server), and the extensions do not send your input text to their server.
+**LanguageTool** 是多語言文法、風格和拼字檢查器，支援 20 多種語言。 軟體為 [自行託管](https://dev.languagetool.org/http-server)，且擴充功能不會將所輸入文字傳送到其伺服器。
 
-  LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
+  LanguageTool 整合入各類 [辦公室軟體套件](https://languagetool.org/services#text_editors) 與 [電子郵件客戶端](https://languagetool.org/services#mail_clients).
 
 [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
@@ -225,4 +225,4 @@ cover: productivity.webp
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 它必須是開源的。
-- Must be possible to self-host.
+- 須能自行託管。

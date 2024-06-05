@@ -58,7 +58,7 @@ cover: news-aggregators.webp
 
 ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. 它支持 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 和 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
+**Feeder** 是 Android 版本的 RSS 客戶端，具有許多 [特色](https://github.com/spacecowboy/Feeder#features) ，且可與RSS 訊息來源的資料夾配合使用。 它支持 [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) 和 [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)。
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
@@ -118,9 +118,9 @@ cover: news-aggregators.webp
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+![NetNewsWire 標誌](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. 它支持典型的Feed 格式與內置支持 Reddit Feed。
+**NetNewsWire** 是一款免費開源的訊息源閱讀器，適用於macOS 和 iOS ，專注於原生設計和功能集。 它支持典型的Feed 格式與內置支持 Reddit Feed。
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }

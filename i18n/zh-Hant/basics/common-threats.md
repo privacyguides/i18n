@@ -9,7 +9,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 - <span class="pg-purple">:material-incognito: 匿名</span> -保護您的在線活動免受您真實身份影響，保護您防範某些企圖揭露 *您* 身份的侵害。
 - <span class="pg-red">:material-target-account: 針對性的攻擊</span> -保護免受駭客或其他惡意行為者的攻擊，他們正試圖存取訪問 *您的* 資料或設備。
 - <span class="pg-orange">:material-bug-outline: 被動攻擊</span> -保護免受惡意軟體、數據洩露和其他同時針對多人的攻擊。
-- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+- <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈威脅</span> - 直接或透過第三方依賴軟體引入的弱點或破壞。
 - <span class="pg-teal">:material-server-network: 服務供應商</span> - 保護您的資料免受服務供應商侵害（例如，使用 E2EE ，使您保存在伺服器的資料無法被他人讀取）。
 - <span class="pg-blue">:material-eye-outline: 大規模監控</span> -保護您免受政府機構、組織、網站和服務共同追蹤您的活動。
 - <span class="pg-brown">:material-account-cash: 監控資本主義</span> - 保議自己不會被  Google， Facebook 等大型網路廣告以及其它無數第三方資料收集者監控。
