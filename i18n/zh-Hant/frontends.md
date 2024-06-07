@@ -1,7 +1,7 @@
 ---
 title: "前端"
 icon: material/flip-to-front
-description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+description: 這些用在各式網際網路服務的開源前端，可讓您訪問內容而無需 JavaScript 或其他干援。
 cover: frontends.webp
 ---
 
@@ -9,7 +9,7 @@ cover: frontends.webp
 
 如您選擇自行託管這些前端，要緊的是讓別人可以使用您的實例，才能讓您融入其中。 對於在何處與如何託管實例，您該謹慎處之，尤其當有其它人的使用會連結到您的託管。
 
-當您使用其它人的實例，請確認有細讀此實例的隱私政策。 它們可以任擁有者修改因此不必然反映原本預設的政策。 Some instances have [Tor](tor.md) .onion addresses which may grant some privacy as long as your search queries don't contain PII.
+當您使用其它人的實例，請確認有細讀此實例的隱私政策。 它們可以任擁有者修改因此不必然反映原本預設的政策。 有些實例有[Tor](tor.md) .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
 
 ## Reddit
 
@@ -19,9 +19,9 @@ cover: frontends.webp
 
 ![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
 
-**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable.
+**Redlib** 是 [Reddit](https://reddit.com) 的開源前端，也可自行託管。
 
-There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
+有許多公共實例，其中一些實例支援 [Tor](tor.md) onion 服務。
 
 [:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances"}
@@ -31,16 +31,16 @@ There are a number of public instances, with some instances having [Tor](tor.md)
 </div>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Note "備註"</p>
 
-The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
+[舊版 Reddit](https://old.reddit.com) 網站不需要像新 Reddit 網站使用過多的 JavaScript，但它最近阻止了為公共 VPN 保留的 IP 位址的存取。 您可以將舊Reddit 給合[2022年10月](https://forum.torproject.org/t/reddit-onion-service-launch/5305)所推出的[Tor](tor.md) Onion ，載取點 [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
 
 </div>
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>
 
-Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
+如果想在瀏覽器中禁用 JavaScript ，例如 [Tor瀏覽器](tor.md#tor-browser/) 最安全級別， Redlib 非常實用。
 </div>
 
 ## TikTok
@@ -51,9 +51,9 @@ Redlib is useful if you want to disable JavaScript in your browser, such as [Tor
 
 ![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
 
-**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
+**ProxiTok** 是 [TikTok](https://tiktok.com)網站的開源前端，也可自主託管。
 
-There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
+有許多公共實例，其中一些實例支援 [Tor](tor.md) onion 服務。
 
 [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances"}
@@ -65,9 +65,9 @@ There are a number of public instances, with some instances having [Tor](tor.md)
 </div>
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">溫馨提示</p>
 
-ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
+如果想在瀏覽器中禁用 JavaScript ，例如 [Tor瀏覽器](tor.md#tor-browser/) 最安全級別， ProxiTok 非常有用。
 
 </div>
 
@@ -104,7 +104,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+使用 FreeTube 時，IP 位址可能會被 YouTube、[Invidious](https://instances.invidious.io)或 [SponsorBlock](https://sponsor.ajay.app) 所知，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
 
 </div>
 
@@ -116,7 +116,7 @@ When using FreeTube, your IP address may still be known to YouTube, [Invidious](
 
 **Yattee** 是一款免費的開源隱私導向影片播放器，適用於iOS、tvOS 和 macOS 觀看 [YouTube](https://youtube.com)。 使用 Yattee 時，訂閱清單和播放列表會儲存在 本地裝置上。
 
-You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube, due to App Store restrictions.
+由於 App Store 限制，您需要採取一些[額外步驟](https://gonzoknows.com/posts/Yattee) 才能使用 Yattee 觀看YouTube。
 
 [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -137,7 +137,7 @@ You will need to take a few [extra steps](https://gonzoknows.com/posts/Yattee) b
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+使用 Yattee 時，IP位址可能仍會被 YouTube、 [Invidious](https://instances.invidious.io)、 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)或 [SponsorBlock](https://sponsor.ajay.app)所知曉，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
 
 </div>
 
@@ -172,11 +172,11 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-When using LibreTube, your IP address will be visible to the [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) instance you choose and/or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+使用 LibreTube 時，IP 位址會為所用的 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)實例和 [SponsorBlock](https://sponsor.ajay.app)看見，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
 
 </div>
 
-預設情況下， LibreTube 會封鎖所有 YouTube 廣告。 Additionally, LibreTube uses [SponsorBlock](https://sponsor.ajay.app) to help you skip sponsored video segments. 可以自行配置 SponsorBlock 要跳過的影片段類型，或完全禁用它。 播放器上有一個按鈕，如果需要，可以為特定影片禁用它。
+預設情況下， LibreTube 會封鎖所有 YouTube 廣告。 此外， LibreTube 利用[SponsorBlock](https://sponsor.ajay.app) 來跳過贊助的影片段。 可以自行配置 SponsorBlock 要跳過的影片段類型，或完全禁用它。 播放器上有一個按鈕，如果需要，可以為特定影片禁用它。
 
 ### NewPipe (Android)
 
@@ -184,7 +184,7 @@ When using LibreTube, your IP address will be visible to the [Piped](https://git
 
 ![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
+**NewPipe** 是 [YouTube](https://youtube.com)、 [SoundCloud](https://soundcloud.com)、 [media.ccc.de](https://media.ccc.de)、 [Bandcamp](https://bandcamp.com)和 [PeerTube](https://joinpeertube.org) (1)的免費開源 Android應用程式。
 
 訂閱清單和播放列表會儲存在本地的 Android裝置。
 
@@ -203,12 +203,12 @@ When using LibreTube, your IP address will be visible to the [Piped](https://git
 
 </div>
 
-1. The default instance is [FramaTube](https://framatube.org), however more can be added via **Settings** → **Content** → **PeerTube instances**
+1. 預設實例為 [FramaTube](https://framatube.org)，但可在 **Settings** → **Content** → **PeerTube instance ** 添加更多實例。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-使用NewPipe時，IP 位址會被所使用的影片供應商看見。 Consider using a [VPN](vpn.md) or [Tor](tor.md) if your [threat model](basics/threat-modeling.md) requires hiding your IP address.
+使用NewPipe時，IP 位址會被所使用的影片供應商看見。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
 
 </div>
 
@@ -221,7 +221,7 @@ When using LibreTube, your IP address will be visible to the [Piped](https://git
 
 **Invidious** 是 [YouTube](https://youtube.com)的免費開源前端，也可自行託管。
 
-There are a number of public instances, with some instances having [Tor](tor.md) onion services support.
+有許多公共實例，其中一些實例支援 [Tor](tor.md) onion 服務。
 
 [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
 [:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
@@ -236,14 +236,14 @@ There are a number of public instances, with some instances having [Tor](tor.md)
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-預設情況下， Invidious不會代理影片串流。 Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
+預設情況下， Invidious不會代理影片串流。 通過 Invidious 觀看的影片會直接連接到 Google 伺服器（例如`googlevideo.com`)，但是有些實例支持影片代理-只需在實例設置中啟用*Proxy videos*或在 URL 中添加`&local = true`。
 
 </div>
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">溫馨提示</p>
 
-Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level. 它本身不提供隱私，故不建議登入任何帳戶。
+如果您想在瀏覽器中停用JavaScript ，例如 [Tor瀏覽器](tor.md#tor-browser)最安全級別，Invidious 非常有用。 它本身不提供隱私，故不建議登入任何帳戶。
 
 </div>
 
@@ -268,7 +268,7 @@ Piped 需要JavaScript 才能運行，它有許多公共實例。
 </div>
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">溫馨提示</p>
 
 如果您想使用 [SponsorBlock](https://sponsor.ajay.app)但不安裝瀏覽器擴展或在不登入帳戶訪問有年齡限制的內容， Piped 非常有用。 它本身不提供隱私，故不建議登入任何帳戶。
 
@@ -284,8 +284,8 @@ Piped 需要JavaScript 才能運行，它有許多公共實例。
 - 必須是可自行託管。
 - 必須提供匿名訪客完整的網站基本功能。
 
-We only consider frontends if one of the following is true for a platform:
+我們只考慮符合以下條件的前端平台：
 
-- Normally only accessible with JavaScript enabled.
-- Normally only accessible with an account.
-- Blocks access from commercial [VPNs](vpn.md).
+- 通常只能在啟用 JavaScript 的情況下才能存取。
+- 通常只能透過帳戶存取。
+- 封鎖商業 [VPN](vpn.md) 的存取。
