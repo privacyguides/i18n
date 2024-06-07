@@ -124,9 +124,9 @@ In Francia puoi consultare il [sito web di Technopolice](https://technopolice.fr
 Spesso, i governi, giustificano i programmi di sorveglianza di massa come mezzi necessari per combattere il terrorismo e prevenire il crimine. Tuttavia, violando i diritti umani, sono spesso utilizzati per colpire in modo sproporzionato gruppi di minoranza e dissidenti politici, tra gli altri.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">La lezione sulla privacy dell'11 settembre: La sorveglianza di massa non è la strada da seguire</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. Questo tipo di informazioni, accumulate dall'NSA giorno dopo giorno, possono rivelare dettagli incredibilmente sensibili sulle vite delle persone e le associazioni, come se hanno chiamato un prete, una struttura preposta all'aborto, un consulente per le dipendenze o una linea diretta anti-suicidi.
+Di fronte alle rivelazioni di Edward Snowden su programmi governativi come [PRISM](https://en.wikipedia.org/wiki/PRISM) e [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), i funzionari dell'intelligence hanno ammesso che l'NSA ha raccolto segretamente per anni i dati relativi alle telefonate di quasi tutti gli americani: chi chiama chi, quando vengono effettuate le chiamate e quanto durano. Questo tipo di informazioni, accumulate dall'NSA giorno dopo giorno, possono rivelare dettagli incredibilmente sensibili sulle vite delle persone e le associazioni, come se hanno chiamato un prete, una struttura preposta all'aborto, un consulente per le dipendenze o una linea diretta anti-suicidi.
 
 </div>
 
@@ -142,7 +142,7 @@ Online è possibile essere rintracciati con svariati metodi:
 
 \[Questo elenco non è completo].
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+Se sei preoccupato per i programmi di sorveglianza di massa, puoi usare strategie come separare le tue identità online, confonderti con altri utenti o, quando possibile, semplicemente evitare di fornire informazioni identificative.
 
 <span class="pg-brown">:material-account-cash: Capitalismo di sorveglianza</span>
 
@@ -170,7 +170,7 @@ Se hai già inviato le tue informazioni reali ai siti che non dovrebbero possede
 
 La censura online è attuabile (in varie misure) da attori tra cui i governi totalitari, gli amministratori di rete e i fornitori dei servizi. Questi sforzi di controllo della comunicazione e di limitazione dell'accesso alle informazioni, saranno sempre incompatibili con il diritto umano alla Libertà d'Espressione.[^5]
 
-La censura sulle piattaforme aziendali è sempre più comune, in quanto piattaforme come Twitter e Facebook cedono alle richieste del pubblico, alle pressioni di mercato e alle pressioni dalle agenzie governative. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+La censura sulle piattaforme aziendali è sempre più comune, in quanto piattaforme come Twitter e Facebook cedono alle richieste del pubblico, alle pressioni di mercato e alle pressioni dalle agenzie governative. Le pressioni governative possono essere richieste segrete alle aziende, come la [richiesta di rimozione](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) della Casa Bianca di un video YouTube provocativo, o palesi, come il governo cinese che richiede alle aziende di aderire a un rigido regime di censura.
 
 Le persone preoccupate dalla minaccia della censura possono utilizzare tecnologie come [Tor](../advanced/tor-overview.md) per aggirarla, e supportare le piattaforme di comunicazione resistenti alla censura come [Matrix](../real-time-communication.md#element), prive di autorità centralizzata che possa chiudere arbitrariamente i profili.
 
@@ -188,5 +188,5 @@ Devi sempre considerare i rischi di provare a eludere la censura, le potenziali 
 [^1]: Wikipedia: [*Sorveglianza di massa*](https://en.wikipedia.org/wiki/Mass_surveillance) e [*Sorveglianza*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: Comitato di Supervisione delle Libertà Civili e della Privacy degli Stati Uniti: [*Rapporto sul Programma dei registri telefonici condotto ai sensi della Sezione 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Capitalismo di sorveglianza*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Inoltre, dovresti utilizzare altre tecniche di mitigazione.
+[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (o, "elencare tutte le cose cattive che conosciamo"), come molti blocker di contenuti e programmi antivirus fanno, non riesce a proteggerti adeguatamente da minacce nuove e sconosciute perché non sono ancora state aggiunte alla lista dei filtri. Inoltre, dovresti utilizzare altre tecniche di mitigazione.
 [^5]: Nazioni Unite: [*Dichiarazione Universale dei Diritti dell'Uomo*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
