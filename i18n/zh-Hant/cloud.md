@@ -23,7 +23,7 @@ Nextcloud 是[仍是一款受推薦的工具](productivity.md)，可用於自我
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** 是來自流行的加密電子郵件供應商[Proton Mail](email.md#proton-mail)的瑞士加密雲存儲供應商。 The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
+**Proton Drive** 是來自流行的加密電子郵件供應商[Proton Mail](email.md#proton-mail)的瑞士加密雲存儲供應商。 一開始免費儲存空間僅 2GB，但完成某些步驟後，可獲得最多 5GB 的額外儲存空間。
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
@@ -42,9 +42,9 @@ Nextcloud 是[仍是一款受推薦的工具](productivity.md)，可用於自我
 
 </div>
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source).
+Proton Drive 網路應用程式已於 [2021](https://proton.me/community/open-source) 接受了 Securitum 獨立審核。
 
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
+Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
 
 ## Tresorit
 
@@ -89,7 +89,7 @@ Tresorit 已獲得多項獨立安全稽核：
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech).
+**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。 其提供安全且私密的空間，用戶可以在其中儲存、分享和查看照片、影片、文件等。 Peergos 透過抗量子端對端加密來保護檔案，並確保有關檔案所有資料保持私密。 它建構在 [IPFS（星際檔案系統）](https://ipfs.tech) 。
 
 [:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
@@ -108,13 +108,13 @@ Tresorit 已獲得多項獨立安全稽核：
 
 </div>
 
-Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server negating the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
+Peergos 主要為 Web 應用程序，但可自行託管伺服器，作為遠端 Peergos 帳戶的本地緩存，或作為獨立的儲存伺服器，無需註冊遠端帳戶和訂閱。 Peergos 伺服器是 `.jar` 檔案，這表示 Java 17+ 執行時間環境（[OpenJDK 下載](https://azul.com/downloads)）應該是安裝在電腦上以使其正常工作。
 
-Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
+透過註冊帳戶在其付費託管服務上運行本地版本的 Peergos ，用戶可在不依賴 DNS 或 TLS 憑證授權單位的情況下存取 Peergos 存儲，並將資料副本備份到其雲端。 無論運行他們的桌面伺服器還是僅使用他們的託管 Web 介面，使用者體驗都應該是相同的。
 
-Peergos was [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in September 2019, and all found issues were subsequently fixed.
+Peergos 於 2019 年 9 月接受了 Cure53 的[審核](https://cure53.de/pentest-report_peergos.pdf)，所有發現的問題隨後都做了修復。
 
-Also, the Android app is not available but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). The current workaround is to use the mobile [PWA](https://peergos.net) instead.
+此外，它還沒有 Android 應用程式，但已在 [開發中](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25)。 目前的解決方法是改用移動 [PWA](https://peergos.net)。
 
 ## 標準
 
