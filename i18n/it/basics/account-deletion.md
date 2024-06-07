@@ -23,7 +23,7 @@ Le piattaforme desktop dispongono spesso di un gestore di password che può aiut
 - [Gestione delle credenziali](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0) di Windows
 - [Password](https://support.apple.com/HT211145) di macOS
 - [Password](https://support.apple.com/HT211146) iOS
-- Gnome Keyring di Linux, accessibile tramite [Seahorse](https://wiki.gnome.org/Apps/Seahorse) o [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Linux, Gnome Keyring, accessibile tramite [Seahorse](https://wiki.gnome.org/Apps/Seahorse) o [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
 
 ### Email
 
@@ -39,13 +39,13 @@ Quando tenti di recuperare l'account, se il sito restituisce un messaggio di err
 
 ### GDPR (solo per i residenti nello SEE)
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. Se applicabile, leggi la politica sulla privacy per qualsiasi dato servizio, per trovare le informazioni su come esercitare il tuo diritto alla cancellazione. Leggere la politica sulla privacy può rivelarsi importante, poiché alcuni servizi hanno un'opzione "Elimina Profilo" che disabilita il tuo profilo, mentre per l'eliminazione reale devi intraprendere ulteriori azioni. Talvolta, l'eliminazione effettiva potrebbe richiedere la compilazione di sondaggi, il contatto del responsabile della protezione dei dati, o persino la dimostrazione della tua residenza nel SEE. Se intendi procedere in questo modo, **non** sovrascrivere le informazioni del profilo: la tua identità come residente del SEE potrebbe venirti richiesta. Nota che la posizione geografica del servizio non ha alcuna importanza; il RGPD si applica a chiunque serva utenti europei. Se il servizio non rispetta il tuo diritto alla cancellazione, puoi contattare l'[Autorità di Protezione dei Dati](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) nazionale, e potresti anche avere diritto a un risarcimento in denaro.
+I residenti SEE hanno ulteriori diritti relativi alla cancellazione dei dati, specificati all'[Articolo 17](https://gdpr-info.eu/art-17-gdpr) del GDPR. Se applicabile, leggi la politica sulla privacy per qualsiasi dato servizio, per trovare le informazioni su come esercitare il tuo diritto alla cancellazione. Leggere la politica sulla privacy può rivelarsi importante, poiché alcuni servizi hanno un'opzione "Elimina Profilo" che disabilita il tuo profilo, mentre per l'eliminazione reale devi intraprendere ulteriori azioni. Talvolta, l'eliminazione effettiva potrebbe richiedere la compilazione di sondaggi, il contatto del responsabile della protezione dei dati, o persino la dimostrazione della tua residenza nel SEE. Se intendi procedere in questo modo, **non** sovrascrivere le informazioni del profilo: la tua identità come residente del SEE potrebbe venirti richiesta. Nota che la posizione geografica del servizio non ha alcuna importanza; il RGPD si applica a chiunque serva utenti europei. Se il servizio non rispetta il tuo diritto alla cancellazione, puoi contattare l'[Autorità di Protezione dei Dati](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) nazionale, e potresti anche avere diritto a un risarcimento in denaro.
 
 ### Sovrascrivere informazioni del profilo
 
 In alcune situazioni in cui pianifichi di abbandonare un profilo, può avere senso sovrascrivere le informazioni dello stesso con dati falsi. Una volta che sei sicuro di poter accedere, modifica tutte le informazioni di quel profilo con delle informazioni false. Il motivo è che molti siti conservano le informazioni precedentemente in possesso dell'utente anche dopo la cancellazione del profilo. La speranza è che sovrascrivano le informazioni precedenti con i dati più recenti da te inseriti. Tuttavia, non è garantito che non vi siano backup con le informazioni precedenti.
 
-For the account email, either create a new alternate email account via your provider of choice or create an alias using an [email aliasing service](../email-aliasing.md). Quindi, puoi eliminare l'indirizzo email alternativo, una volta terminato. Sconsigliamo l'utilizzo di fornitori di email temporanee, poiché è talvolta possibile riattivarle.
+Per l'email dell'account, crea un nuovo indirizzo email alternativo tramite il tuo provider, o crea un alias, utilizzando un [servizio di alias email](../email-aliasing.md). Quindi, puoi eliminare l'indirizzo email alternativo, una volta terminato. Sconsigliamo l'utilizzo di fornitori di email temporanee, poiché è talvolta possibile riattivarle.
 
 ### Elimina
 
@@ -59,4 +59,4 @@ Anche quando riesci a eliminare un profilo, non vi è alcuna garanzia che tutte 
 
 ## Evita i nuovi profili
 
-Come dice il vecchio detto, "un grammo di prevenzione vale un chilo di cura." Ogni volta che ti senti tentato di registrare un nuovo profilo, chiediti: "Ne ho davvero bisogno? Posso realizzare ciò che mi serve senza un profilo?" Spesso è molto più difficile eliminare un profilo, piuttosto che crearne uno. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). Quando possibile, evita la tentazione: il te stesso del futuro ti ringrazierà!
+Come dice il vecchio detto, "un grammo di prevenzione vale un chilo di cura." Ogni volta che ti senti tentato di registrare un nuovo profilo, chiediti: "Ne ho davvero bisogno? Posso realizzare ciò che mi serve senza un profilo?" Spesso è molto più difficile eliminare un profilo, piuttosto che crearne uno. E anche dopo aver eliminato o modificato le informazioni del tuo account, potrebbe esserci una versione nella cache di qualche sito di terze parti, come [Internet Archive](https://archive.org). Quando possibile, evita la tentazione: il te stesso del futuro ti ringrazierà!
