@@ -1,134 +1,134 @@
 ---
-title: Group Policy Settings
+title: Impostazioni dei criteri di gruppo
 ---
 
-Outside of modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
+Al di fuori della modifica del registro stesso, il **Local Group Policy Editor** è il modo più potente per modificare molti aspetti del sistema senza installare strumenti di terze parti. La modifica di queste impostazioni richiede [Pro Edition](index.md#windows-editions) o superiore.
 
-These settings should be set on a brand new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictible behavior and is done at your own risk.
+Queste impostazioni devono essere impostate su una nuova installazione di Windows. L'impostazione di questi parametri sull'installazione esistente dovrebbe funzionare, ma potrebbe introdurre un comportamento imprevedibile ed è a rischio dell'utente.
 
-All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+Tutte queste impostazioni sono accompagnate da una spiegazione nell'editor dei Criteri di gruppo che ne illustra esattamente le funzioni, di solito in modo molto dettagliato. Prestate attenzione a queste descrizioni mentre apportate le modifiche, in modo da sapere esattamente cosa vi stiamo raccomandando. Abbiamo anche spiegato alcune delle nostre scelte qui di seguito, quando la spiegazione inclusa in Windows è inadeguata.
 
-## Administrative Templates
+## Modelli amministrativi
 
-You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
+È possibile trovare queste impostazioni aprendo `gpedit.msc` e navigando in **Politica locale del computer** > **Configurazione del computer** > **Modelli amministrativi** nella barra laterale sinistra. Le intestazioni di questa pagina corrispondono alle cartelle/sottocartelle dei Modelli amministrativi, mentre i punti elenco corrispondono ai singoli criteri.
 
-To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
+Per modificare un criterio di gruppo, fare doppio clic su di esso e selezionare Abilitato o Disabilitato nella parte superiore della finestra visualizzata, in base alle raccomandazioni riportate di seguito. Alcuni criteri di gruppo prevedono impostazioni aggiuntive che possono essere configurate; in questo caso, le impostazioni appropriate sono indicate anche di seguito.
 
 ### Sistema
 
 #### Device Guard
 
-- Turn On Virtualization Based Security: **Enabled**
-  - Platform Security Level: **Secure Boot and DMA Protection**
-  - Secure Launch Configuration: **Enabled**
+- Attiva Sicurezza Basata Sulla Virtualizzazione: **Abilitato**
+  - Livello di sicurezza della piattaforma: **Avvio sicuro e protezione DMA**
+  - Configurazione Secure Launch: **Abilitato**
 
-#### Internet Communication Management
+#### Gestione delle comunicazioni Internet
 
-- Turn off Windows Customer Experience Improvement Program: **Enabled**
-- Turn off Windows Error Reporting: **Enabled**
-- Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
+- Disattiva il programma di miglioramento dell'esperienza clienti di Windows: **Abilitato**
+- Disattiva segnalazione errori di Windows: **Abilitato**
+- Disattiva il programma di miglioramento dell'esperienza dei clienti di Windows Messenger: **Abilitato**
 
-Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
+Si noti che la disabilitazione del programma di miglioramento dell'esperienza cliente di Windows disabilita anche alcune altre funzionalità di tracciamento che possono essere controllate individualmente anche con Criteri di gruppo. Non li elenchiamo tutti qui e non li disabilitiamo perché questa impostazione li copre.
 
-#### OS Policies
+#### Politiche del sistema operativo
 
-- Allow Clipboard History: **Disabled**
-- Allow Clipboard synchronization across devices: **Disabled**
-- Enables Activity Feed: **Disabled**
-- Allow publishing of User Activities: **Disabled**
-- Allow upload of User Activities: **Disabled**
+- Permetti Cronologia Appunti: **Disabilitato**
+- Consenti la sincronizzazione degli appunti tra i dispositivi: **Disabilitato**
+- Abilita Feed Attività: **Disabilitato**
+- Consenti la pubblicazione delle attività dell'utente: **Disabilitato**
+- Consenti il caricamento delle attività dell'utente: **Disabilitato**
 
 #### Profili Utente
 
-- Turn off the advertising ID: **Enabled**
+- Disattiva l'ID pubblicitario: **Abilitato**
 
-### Windows Components
+### Componenti di Windows
 
-#### AutoPlay Policies
+#### Politiche di AutoPlay
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
+AutoRun e AutoPlay sono funzioni che consentono a Windows di eseguire uno script o qualche altra attività quando un dispositivo è connesso, talvolta evitando le misure di sicurezza che prevedono il consenso dell'utente. Ciò potrebbe consentire a dispositivi non affidabili di eseguire codice dannoso a tua insaputa. È una buona pratica di sicurezza disabilitare queste funzioni e aprire manualmente i file sui dischi esterni.
 
-- Turn off AutoPlay: **Enabled**
-- Disallow Autoplay for nonvolume devices: **Enabled**
-- Set the default behavior for AutoRun: **Enabled**
-  - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+- Disattiva AutoPlay: **Abilitato**
+- Disabilita Autoplay per dispositivi senza volume: **Abilitato**
+- Imposta il comportamento predefinito per AutoRun: **Abilitato**
+  - Comportamento AutoRun predefinito: **Non eseguire alcun comando AutoRun**
 
-#### BitLocker Drive Encryption
+#### Crittografia unità BitLocker
 
-You may wish to re-encrypt your operating system drive after changing these settings.
+Si potrebbe desiderare di ri-crittografare l'unità del sistema operativo dopo aver modificato queste impostazioni.
 
-- Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-  - Select the encryption method: **AES-256**
+- Scegli il metodo di crittografia dell'unità e la forza della cifratura (Windows Vista, Windows Server 2008, Windows 7): **Abilitato**
+  - Seleziona il metodo di cifratura: **AES-256**
 
-Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
+Impostare la forza di cifratura per il criterio di Windows 7 continua ad applicare tale forza alle versioni più recenti di Windows.
 
-##### Operating System Drives
+##### Unità del Sistema Operativo
 
-- Require additional authentication at startup: **Enabled**
-- Allow enhanced PINs for startup: **Enabled**
+- Richiedi un'autenticazione aggiuntiva all'avvio: **Abilitato**
+- Permetti i PIN migliorati per l'avvio: **Abilitato**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the Bitlocker setup wizard.
+Nonostante i nomi di questi criteri, questo non _richiede_ di fare nulla per impostazione predefinita, ma sbloccherà l'_opzione_ di avere una configurazione più complessa (come la richiesta di un PIN all'avvio oltre al TPM) nella procedura guidata di Bitlocker.
 
-#### Cloud Content
+#### Contenuto cloud
 
-- Turn off cloud optimized content: **Enabled**
-- Turn off cloud consumer account state content: **Enabled**
-- Do not show Windows tips: **Enabled**
-- Turn off Microsoft consumer experiences: **Enabled**
+- Disattiva il contenuto ottimizzato nel cloud: **Abilitato**
+- Disattiva il contenuto dello stato dell'account del cloud consumer: **Abilitato**
+- Non mostrare i suggerimenti di Windows: **Abilitato**
+- Disattiva le esperienze dei consumatori Microsoft: **Abilitato**
 
-#### Credential User Interface
+#### Interfaccia Credenziale Utente
 
-- Require trusted path for credential entry: **Enabled**
-- Prevent the use of security questions for local accounts: **Enabled**
+- Richiede un percorso attendibile per la voce credenziale: **Abilitato**
+- Impedisci l'uso delle domande di sicurezza per gli account locali: **Abilitato**
 
-#### Data Collection and Preview Builds
+#### Raccolta dati e anteprima Builds
 
-- Allow Diagnostic Data: **Enabled**
-  - Options: **Send required diagnostic data** (Pro Edition); or
-  - Options: **Diagnostic data off** (Enterprise or Education Edition)
-- Limit Diagnostic Log Collection: **Enabled**
-- Limit Dump Collection: **Enabled**
-- Limit optional diagnostic data for Desktop Analytics: **Enabled**
-  - Options: **Disable Desktop Analytics collection**
-- Do not show feedback notifications: **Enabled**
+- Permetti Dati Diagnostici: **Abilitato**
+  - Opzioni: **Invia i dati diagnostici richiesti** (edizione Pro); oppure
+  - Opzioni: **Dati diagnostici disattivati** (Edizione Enterprise o Education)
+- Limita la raccolta dei registri diagnostici: **Abilitato**
+- Limitae la raccolta di dump: **Abilitato**
+- Limita i dati diagnostici opzionali per Desktop Analytics: **Abilitato**
+  - Opzioni: **Disabilita la raccolta di Desktop Analytics**
+- Non mostrare le notifiche di feedback: **Abilitato**
 
 #### File Explorer
 
-- Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
+- Disattivare gli approfondimenti basati sull'account, i file recenti, preferiti e consigliati in Esplora file: **Abilitato**
 
 #### MDM
 
-- Disable MDM Enrollment: **Enabled**
+- Disattivare l'iscrizione MDM: **Abilitato**
 
 #### OneDrive
 
-- Save documents to OneDrive by default: **Disabled**
-- Prevent OneDrive from generating network traffic until the user signs in to OneDrive: **Enabled**
-- Prevent the usage of OneDrive for file storage: **Enabled**
+- Salva i documenti in OneDrive per impostazione predefinita: **Disabilitato**
+- Impedire a OneDrive di generare traffico di rete finché l'utente non accede a OneDrive: **Abilitato**
+- Impedire l'uso di OneDrive per l'archiviazione dei file: **Abilitato**
 
-This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
+Quest'ultima impostazione disabilita OneDrive sul sistema; assicuratevi di cambiarla in **Disabilitato** se utilizzate OneDrive.
 
 #### Push To Install
 
-- Turn off Push To Install service: **Enabled**
+- Disattivare il servizio Push To Install: **Abilitato**
 
 #### Ricerca
 
-- Allow Cortana: **Disabled**
-- Don't search the web or display web results in Search: **Enabled**
-- Set what information is shared in Search: **Enabled**
-  - Type of information: **Anonymous info**
+- Consenti Cortana: **Disabilitato**
+- Non cercare sul web e non visualizzare i risultati web in Ricerca: **Abilitato**
+- Imposta quali informazioni sono condivise in Ricerca: **Abilitato**
+  - Tipo di informazioni: **Informazioni anonime**
 
-#### Sync your settings
+#### Sincronizza le impostazioni
 
-- Do not sync: **Enabled**
+- Non sincronizzare: **Abilitato**
 
-#### Text input
+#### Inserimento testo
 
-- Improve inking and typing recognition: **Disabled**
+- Migliora il riconoscimento della scrittura e della digitazione: **Disabilitato**
 
-#### Windows Error Reporting
+#### Segnalazione degli errori di Windows
 
-- Do not send additional data: **Enabled**
-- Consent > Configure Default consent: **Enabled**
-  - Consent level: **Always ask before sending data**
+- Non inviare dati aggiuntivi: **Abilitato**
+- Consenso > Configura consenso predefinito: **Abilitato**
+  - Livello di consenso: **Chiedere sempre prima di inviare i dati**

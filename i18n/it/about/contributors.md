@@ -6,16 +6,16 @@ hide:
 
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of **any** kind are welcome to be added to [this list](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), including contributions to Privacy Guides outside of this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
+Questo progetto segue la specifica [all-contributors](https://github.com/all-contributors/all-contributors). Contributi di **qualsiasi** tipo sono benvenuti per essere aggiunti a [questa lista](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), compresi i contributi a Privacy Guides al di fuori di questa repository e i contributi che non sono legati ai contenuti (come la condivisione di idee per Privacy Guides, la promozione del progetto, la risposta alle domande sul forum, ecc.).
 
-| Emoji | Type         | Descrizione                                                                                                                                     |
-| ----- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| 📖    | `doc`        | Un collaboratore dei contenuti di [privacyguides.org](https://www.privacyguides.org/it).                        |
-| 👀    | `review`     | Someone who has taken the time to review [pull requests](https://github.com/privacyguides/privacyguides.org/pulls) to the site. |
-| 📝    | `blog`       | Qualcuno che ha scritto un post sul [blog](https://blog.privacyguides.org) per noi.                                             |
-| 💬    | `question`   | Someone who has been helpful when answering questions on our [forum](https://discuss.privacyguides.net) or Matrix channels.     |
-| 🌍    | `traduzione` | Qualcuno che ha contribuito su [Crowdin](https://crowdin.com/project/privacyguides).                                            |
+| Emoji | Tipo         | Descrizione                                                                                                                                            |
+| ----- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 📖    | `doc`        | Un collaboratore dei contenuti di [privacyguides.org](https://www.privacyguides.org/it).                               |
+| 👀    | `review`     | Qualcuno che si è preso il tempo di rivedere le [richieste di pull](https://github.com/privacyguides/privacyguides.org/pulls) al sito. |
+| 📝    | `blog`       | Qualcuno che ha scritto un post sul [blog](https://blog.privacyguides.org) per noi.                                                    |
+| 💬    | `question`   | Qualcuno che è stato utile nel rispondere alle domande sul nostro [forum](https://discuss.privacyguides.net) o sui canali Matrix.      |
+| 🌍    | `traduzione` | Qualcuno che ha contribuito su [Crowdin](https://crowdin.com/project/privacyguides).                                                   |
 
-A huge thank you from Privacy Guides to these wonderful people ([full emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Un enorme ringraziamento da parte di Privacy Guides a queste persone meravigliose ([full emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 \--8<-- "includes/contributors.md"
