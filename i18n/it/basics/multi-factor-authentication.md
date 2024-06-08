@@ -24,19 +24,19 @@ Tutti commettono errori ed esiste il rischio che tu possa accettare per errore i
 
 La sicurezza dell'AFM con notifiche push dipende dalla qualità dell'app, dalla componente server e dalla fiducia nello sviluppatore che la produce. Anche installare un'app potrebbe richiederti di accettare privilegi invasivi, che concedano l'accesso ad altri dati sul tuo dispositivo. Inoltre, una singola app richiede che tu abbia un'app specifica per ogni servizio che potrebbe non richiedere una password per l'apertura, a differenza dell'app di generazione di TOTP.
 
-### Password Una Tantum basata sul Tempo (TOTP)
+### Time-based One-time Password (TOTP)
 
 La TOTP è una delle forme di AFM più comuni disponibili. Quando configuri la TOTP, devi generalmente scansionare un [Codice QR](https://en.wikipedia.org/wiki/QR_code), che stabilisce un "[codice segreto](https://en.wikipedia.org/wiki/Shared_secret)" con il servizio che intendi utilizzare. Questo è protetto tra i dati dell'app d'autenticazione ed è talvolta protetto da una password.
 
 Il codice a tempo limitato deriva dal codice segreto e dall'ora corrente. Poiché il codice è valido soltanto per un breve periodo di tempo, senza l'accesso al codice segreto condiviso, un avversario non può generare nuovi codici.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. Gli hardware come la YubiKey sono stati sviluppato con l'intento di rendere difficile l'estrazione e la copia del "codice segreto condiviso". Inoltre, una YubiKey non è connessa a Internet, a differenza di un telefono con un'app di TOTP.
+Se possiedi una chiave di sicurezza hardware con supporto TOTP (come una YubiKey con [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), consigliamo di conservare i tuoi "codici segreti condivisi" sull'hardware. Gli hardware come la YubiKey sono stati sviluppato con l'intento di rendere difficile l'estrazione e la copia del "codice segreto condiviso". Inoltre, una YubiKey non è connessa a Internet, a differenza di un telefono con un'app di TOTP.
 
 A differenza di [WebAuthn](#fido-fast-identity-online), TOTP non offre alcuna protezione dal [phishing](https://en.wikipedia.org/wiki/Phishing) o dagli attacchi di riutilizzo. Se un malitenzionato ottiene un codice valido da te, potrebbe utilizzarlo quante volte preferisce, fino alla sua scadenza (generalmente 60 secondi).
 
 Un malintenzionato potrebbe configurare un sito web che imiti un servizio ufficiale, nel tentativo di ingannarti nel comunicare il tuo nome utente, la tua password e il codice TOTP corrente. Se questi, poi, utilizza tali credenziali registrate, potrebbe riuscire ad accedere al servizio reale e dirottare il profilo.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+Sebbene non sia perfetta, la TOTP è abbastanza sicura per gran parte delle persone e, quando le [chiavi di sicurezza hardware](../security-keys.md) non sono supportate, le [app d'autenticazione](../multi-factor-authentication.md) restano una buona opzione.
 
 ### Chiavi di sicurezza hardware
 
@@ -102,7 +102,7 @@ Configurando il tuo metodo AFM, tieni a mente che è sicuro soltanto quanto il m
 
 Dovresti sempre avere dei backup per il tuo metodo di AFM. Le chiavi di sicurezza potrebbero essere perdute, rubate o semplicemente smettere di funzionare nel tempo. Consigliamo di avere una coppia di chiavi di sicurezza con lo stesso accesso ai tuoi profili, anziché una sola.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+Utilizzando le TOTP con un'app d'autenticazione, assicurati di eseguire il backup delle tue chiavi di recupero o della stessa app, o di copiare i "codici segreti condivisi" in un'altra istanza dell'app su un telefono differente o in un container cifrato (es. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### Configurazione iniziale
 
@@ -124,7 +124,7 @@ Oltre a proteggere i tuoi accessi ai siti web, l'autenticazione a più fattori �
 
 macOS [supporta nativamente](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) l'autenticazione con smart card (PIV). Se possiedi una smartcard o una chiave di sicurezza hardware che supporta l'interfaccia PIV, come YubiKey, consigliamo di seguire la documentazione del tuo fornitore di sicurezza con smartcard/hardware e di configurare l'autenticazione a due fattori per il tuo computer macOS.
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
+Yubico ha una guida all'[Utilizzo della tua YubiKey come Smart Card su macOS](https://support.yubico.com/hc/articles/360016649059), che può aiutarti a configurarla su macOS.
 
 Dopo aver configurato la tua smartcard/chiave di sicurezza, consigliamo di eseguire questo comando nel Terminale:
 
@@ -143,7 +143,7 @@ Se il nome del host del tuo sistema cambia (ad esempio, a causa del DHCP), non p
 
 </div>
 
-Il modulo `pam_u2f` su Linux può fornire l'autenticazione a due fattori per accedere alle distribuzioni più popolari di Linux. Se possiedi una chiave di sicurezza hardware che supporta U2F, puoi configurare l'autenticazione AFM per il tuo accesso. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. I comandi del gestore di pacchetti, come `apt-get` e i nomi dei pacchetti, tuttavia, potrebbero variare. Questa guida **non** si applica a Qubes OS.
+Il modulo `pam_u2f` su Linux può fornire l'autenticazione a due fattori per accedere alle distribuzioni più popolari di Linux. Se possiedi una chiave di sicurezza hardware che supporta U2F, puoi configurare l'autenticazione AFM per il tuo accesso. Yubico ha una guida [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) che dovrebbe funzionare su qualsiasi distribuzione. I comandi del gestore di pacchetti, come `apt-get` e i nomi dei pacchetti, tuttavia, potrebbero variare. Questa guida **non** si applica a Qubes OS.
 
 ### Qubes OS
 
