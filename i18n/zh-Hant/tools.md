@@ -13,13 +13,13 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 有關每個項目的詳細資訊，為什麼選擇它們，以及我們推薦的其他提示或技巧，請點擊每個部分中的“了解更多”連結，或點擊推薦本身以轉到頁面的特定部分。
 
-## Tor Browser
+## Tor 瀏覽器
 
 <div class="grid cards" markdown>
 
 - ![Tor Browser logo](assets/img/browsers/tor.svg){ .twemoji loading=lazy } [Tor Browser](tor.md#tor-browser)
 - ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion 瀏覽器(Tor for iOS)](tor.md#onion-browser)
 
 </div>
 
@@ -49,7 +49,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](mobile-browsers.md)
 
-## Browser Extensions
+## 瀏覽器擴充套件
 
 <div class="grid cards" markdown>
 
@@ -336,7 +336,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 ### 多因素驗證工具
 
-**Note:** [Hardware security keys](#security-keys) have been moved to their own category.
+**請注意:** [硬體安全密鑰](#security-keys)已移至自己的類別。
 
 <div class="grid cards" markdown>
 
@@ -423,9 +423,9 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](real-time-communication.md)
 
-## Hardware
+## 硬體
 
-### Security Keys
+### 安全密鑰
 
 <div class="grid cards" markdown>
 
@@ -497,7 +497,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 這些工具可能對某些人很實用。 它們提供了多數人用不到的功能，通常需要更深入的技術知識才能有效地利用。
 
-### Alternative Networks
+### 替代網路
 
 <div class="grid cards" markdown>
 

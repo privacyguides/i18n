@@ -1,13 +1,13 @@
 ---
-title: Security Keys
+title: 安全密鑰
 icon: material/key-chain
 description: 這些工具可協助透過多重身份驗證保護網路帳戶，而無需將您的祕密傳送給第三方。
 cover: multi-factor-authentication.webp
 ---
 
-A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the FIDO2 security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multi-factor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+實體**安全密鑰**可為線上帳戶添加強大的保護層。 與[驗證器應用程式](multi-factor-authentication.md) 相比，FIDO2 安全密鑰協定不受網路釣魚的影響，在沒持有金鑰的情況下不會受到損害。 許多服務支援 FIDO2/WebAuthn 作為保護帳戶安全的多因素驗證選項，且某些服務可用安全金鑰作為無密碼身份驗證的強大單因素驗證器。
 
-## Yubico Security Key
+## YubiKey 安全金鑰
 
 <div class="admonition recommendation" markdown>
 
@@ -15,7 +15,7 @@ A physical **security key** adds a very strong layer of protection to your onlin
   ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
-The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification. It supports FIDO2/WebAuthn and FIDO U2F, and works out of the box with most services that support a security key as a second factor, as well as many password managers.
+**Yubico Security Key**系列是最佳成本效益的硬體安全金鑰，擁有 FIDO 2 級認證。 它支援 FIDO2/WebAuthn 和 FIDO U2F，並且可以與大多數支援安全密鑰作為第二因素的服務以及許多密碼管理器一起使用。
 
 [:octicons-home-16: Homepage](https://www.yubico.com/products/security-key/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
@@ -25,20 +25,20 @@ The **Yubico Security Key** series is the most cost-effective hardware security 
 
 </div>
 
-These keys are available in both USB-C and USB-A variants, and both options support NFC for use with a mobile device as well.
+有 USB-C 和 USB-A 兩種版本，兩者都支援 NFC，可與行動裝置一起使用。
 
-This key provides only basic FIDO2 functionality, but for most people that is all you will need. Some notable features the Security Key series does **not** have include:
+此金鑰僅提供基本的 FIDO2 功能，但對於大多數人來說就足夠其需求。 安全金鑰系列**不具備**的功能為：
 
 - [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)
-- CCID Smart Card support (PIV-compatibile)
+- CCID 智慧卡支援 (PIV-compatibile)
 - OpenPGP
 
-If you need any of those features, you should consider their higher-end [YubiKey](#yubikey) of products instead.
+如需要這些功能，則應該考慮高階版 [YubiKey](#yubikey) 產品。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-The firmware of Yubico's Security Keys is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+Yubico 安全金鑰的韌體不可更新。 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
 
 </div>
 
@@ -50,7 +50,7 @@ The firmware of Yubico's Security Keys is not updatable. If you want features in
   ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
 </figure>
 
-The **YubiKey** series from Yubico are among the most popular security keys. The YubiKey 5 Series has a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+Yubico 的 **YubiKey** 系列是最受歡迎的安全金鑰之一。 YubiKey 5 糸列的廣泛功能，例如： [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor)、[FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)、[Yubico OTP](basics/multi-factor-authentication.md#yubico-otp)、[Personal Identity Verification (PIV)](https://developers.yubico.com/PIV)、 [OpenPGP](https://developers.yubico.com/PGP)、[TOTP and HOTP](https://developers.yubico.com/OATH)驗證。
 
 [:octicons-home-16: Homepage](https://www.yubico.com/products/yubikey-5-overview/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
@@ -60,9 +60,9 @@ The **YubiKey** series from Yubico are among the most popular security keys. The
 
 </div>
 
-The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare to each other and to Yubico's [Security Key](#yubico-security-key) series. One of the benefits of the YubiKey series is that one key can do almost everything you could expect from a hardware security key. We encourage you to take their [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
+[比較表](https://yubico.com/store/compare) 顯示 YubiKey 的功能以及與 Yubico [安全密鑰](#yubico-security-key) 系列之間相互比較。 YubiKey 好處之一是，一支可以滿足對安全密鑰硬體的全部期待。 建議購買前先 [作個小測驗](https://yubico.com/quiz/) ，確保做出正確的選擇。
 
-The Yubikey 5 series has FIDO Level 1 certification, which is the most common. However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [Yubikey 5 **FIPS** series](https://www.yubico.com/products/yubikey-fips/) key, or a [Yubico Security Key](#yubico-security-key). Most people do not have to worry about this distinction.
+Yubikey 5系列具有FIDO 1級認證，這是最常見的。 However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [Yubikey 5 **FIPS** series](https://www.yubico.com/products/yubikey-fips/) key, or a [Yubico Security Key](#yubico-security-key). Most people do not have to worry about this distinction.
 
 YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). All of Yubico's clients are open source.
 
@@ -71,7 +71,7 @@ For models which support HOTP and TOTP, there are 2 slots in the OTP interface w
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-The firmware of YubiKey is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+The firmware of YubiKey is not updatable. 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
 
 </div>
 

@@ -14,15 +14,15 @@ global:
 
 ## 推薦的 DNS 提供商
 
-The recommendations here do not collect personally identifying information (PII) based on each service's privacy policy. **不能保證**這些隱私政策都有好好落實。
+根據各家服務的隱私權政策，我們建議不會收集個人識別資訊 (PII) 的搜尋引擎。 **不能保證**這些隱私政策都有好好落實。
 
 如果您的威脅模型需要向搜尋供應商隱藏您的IP位址，請考慮使用 [VPN](vpn.md) 或 [Tor](tor.md) 。
 
-| 提供商                           | 搜尋索引                                                                                                                                                                        | Tor 隱藏服務                      | Logging / Privacy Policy | Country of Operation |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ | -------------------- |
-| [Brave Search](#brave-search) | [獨立](https://brave.com/search-independence)                                                                                                                                 | :material-check:{ .pg-green } | 匿名化[^1]                  | 美國                   |
-| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                         | :material-check:{ .pg-green } | Anonymized[^2]           | 美國                   |
-| [Startpage](#startpage)       | [Google 與 Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3]           | 荷蘭                   |
+| 提供商                           | 搜尋索引                                                                                                                                                                        | Tor 隱藏服務                      | 記錄日誌 / 隱私政策 | 營運國家 |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ----------- | ---- |
+| [Brave Search](#brave-search) | [獨立](https://brave.com/search-independence)                                                                                                                                 | :material-check:{ .pg-green } | 匿名化[^1]     | 美國   |
+| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                         | :material-check:{ .pg-green } | 匿名化[^2]     | 美國   |
+| [Startpage](#startpage)       | [Google 與 Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | 匿化名[^3]     | 荷蘭   |
 
 ### Brave Search
 
@@ -30,7 +30,7 @@ The recommendations here do not collect personally identifying information (PII)
 
 ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** is a search engine developed by Brave. 該索引是針對 Google 搜索進行優化，因此與其他替代方案相比，可以提供更具上下文準確性的結果。
+**Brave Search** 由 Brave 開發的搜尋引擎。 該索引是針對 Google 搜索進行優化，因此與其他替代方案相比，可以提供更具上下文準確性的結果。
 
 Brave Search 包括獨特的功能，如[討論](https://search.brave.com/help/discussions)，突出了對話為中心的結果，如論壇文章。
 
@@ -43,7 +43,7 @@ Brave Search 包括獨特的功能，如[討論](https://search.brave.com/help/d
 
 </div>
 
-Note that if you use Brave Search while logged in to a Premium account, it may make it easier for Brave to correlate queries with specific users.
+留意如果在登入進階帳戶時使用 Brave Search，Brave 可能輕易地將查詢與特定使用者關聯起來。
 
 我們建議停用[匿名使用指標](https://search.brave.com/help/usage-metrics)，它預設為啟用，可在設定中停用。
 
@@ -53,7 +53,7 @@ Note that if you use Brave Search while logged in to a Premium account, it may m
 
 ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** 最主流的隱私搜尋引擎選項之一。 著名的 DuckDuckGo 搜索功能包括 [bangs](https://duckduckgo.com/bang)和許多[即時答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features)。 The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
+**DuckDuckGo** 最主流的隱私搜尋引擎選項之一。 著名的 DuckDuckGo 搜索功能包括 [bangs](https://duckduckgo.com/bang)和許多[即時答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features)。 此搜尋引擎使用 Bing 以外的眾多[來源](https://help.duckduckgo.com/results/sources) 來獲取即時答案和其他非主要結果。
 
 DuckDuckGo 是 [Tor瀏覽器](tor.md#tor-browser) 的預設搜尋引擎，也是 Apple [Safari 瀏覽器](mobile-browsers.md#safari) 上為數不多的可用選項之一。
 
@@ -88,11 +88,11 @@ DuckDuckGo 提供兩種 [其它版本](https://help.duckduckgo.com/features/non-
 
 Startpage 大股東是System1，它是一家廣告技術公司。 我們不認為這是問題，因為他們有明顯分開的 [隱私政策](https://system1.com/terms/privacy-policy)。 Privacy Guides 團隊曾於[2020年聯繫 Startpage ](https://web.archive.org/web/20210118031008/https://blog.privacytools.io/relisting-startpage)，以消除對 System1對該服務大量投資的擔憂，我們滿意其回覆。
 
-Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
+Startpage 先前限制了 VPN 和[Tor](tor.md) 用戶，但他們最近創建[官方](https://support.startpage.com/hc/en- us/ articles/24786602537364-Startpage-s-Tor-onion-service) Tor 隱藏服務，截至2024 年4 月，不再看到對Tor 或[VPN](vpn.md) 用戶施以額外障礙。
 
 ## Metasearch 搜尋引擎
 
-A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregates the results of other search engines, such as the ones recommended above, while not storing any information itself.
+[元搜尋引擎](https://en.wikipedia.org/wiki/Metasearch_engine)聚合其他搜尋引擎的結果，例如上面建議的搜尋引擎，但本身不儲存任何資訊。
 
 ### SearXNG
 
@@ -100,7 +100,7 @@ A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregate
 
 ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
 
-**SearXNG** is an open-source, self-hostable, metasearch engine. 它是一個積極維護的 [SearX](https://github.com/searx/searx) 分支。
+**SearXNG** 是開源、可自架的元搜尋引擎。 它是一個積極維護的 [SearX](https://github.com/searx/searx) 分支。
 
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
@@ -122,7 +122,7 @@ SearXNG 是您和它所聚合的搜尋引擎之間的代理。 您的搜尋查�
 
 ### 最低合格要求
 
-- Must not collect PII per their privacy policy.
+- 不得根據其隱私權政策收集 PII。
 - 不得要求使用者建立帳戶。
 
 ### 最佳案例
@@ -132,6 +132,6 @@ SearXNG 是您和它所聚合的搜尋引擎之間的代理。 您的搜尋查�
 - 應該以開源軟體為基礎。
 - 不應該封鎖 Tor退出節點的 IP位址。
 
-[^1]: Brave Search collects aggregated usage metrics, which includes the OS and the user agent. However, they do not collect PII. To serve [anonymous local results](https://search.brave.com/help/anonymous-local-results), IP addresses are temporarily processed, but are not retained. [https://search.brave.com/help/privacy-policy](https://search.brave.com/help/privacy-policy)
+[^1]: Brave Search 收集匯總的使用指標，其中包括作業系統和使用者代理程式。 不過他們並未收集 PII。 為提供[匿名本地結果](https://search.brave.com/help/anonymous-local-results)，IP 位址會被暫時處理，但不會保留。 [https://search.brave.com/help/privacy-policy](https://search.brave.com/help/privacy-policy)
 [^2]: DuckDuckGo **會為產品改進目的記錄** 搜索，但不會記錄您的 IP 位址或任何其他 PII。 [https://duckduckgo.com/privacy](https://duckduckgo.com/privacy)
 [^3]: Startpage 記錄詳細信息，例如作業系統、用戶代理和語言。 他們不會記錄 IP 位址、搜尋查詢或其他 PII。 [https://startpage.com/en/privacy-policy](https://startpage.com/en/privacy-policy)
