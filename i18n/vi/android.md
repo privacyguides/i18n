@@ -98,7 +98,7 @@ We recommend installing one of these custom Android operating systems on your de
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Các thiết bị cuối đời (chẳng hạn như thiết bị "hỗ trợ mở rộng" của GrapheneOS hoặc CalyxOS) không có các bản vá bảo mật đầy đủ (cập nhật chương trình cơ sở) do OEM ngừng hỗ trợ. Những thiết bị này không thể được coi là hoàn toàn an toàn bất kể phần mềm được cài đặt.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. Những thiết bị này không thể được coi là hoàn toàn an toàn bất kể phần mềm được cài đặt.
 
 </div>
 

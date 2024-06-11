@@ -22,9 +22,9 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 ### 루팅 방지
 
-Android 휴대폰을 [루팅](https://ko.wikipedia.org/wiki/%EB%A3%A8%ED%8C%85_(%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C))할 경우, [전체 Android 보안 모델](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)이 약화되므로 보안 수준이 크게 저하됩니다. 보안 수준이 낮아져 취약점의 발생으로 이어질 경우 프라이버시 또한 저해됩니다. 루팅은 일반적으로 부팅 파티션을 직접 조작하는 방식으로 이루어지므로, 자체 검사 부팅을 제대로 수행할 수 없습니다. 루트 권한을 요구하는 앱 또한 시스템 파티션을 수정하므로 자체 검사 부팅을 활성화할 수 없습니다. 사용자 인터페이스에서 루트 권한이 직접 노출될 경우 기기의 [공격 표면](https://en.wikipedia.org/wiki/Attack_surface)이 증가하고 [권한 에스컬레이션](https://en.wikipedia.org/wiki/Privilege_escalation) 취약성과 SELinux 정책 우회 문제가 발생할 수 있습니다.
+Android 휴대폰을 [루팅](https://ko.wikipedia.org/wiki/%EB%A3%A8%ED%8C%85_(%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C))할 경우, [전체 Android 보안 모델](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)이 약화되므로 보안 수준이 크게 저하됩니다. 보안 수준이 낮아져 취약점의 발생으로 이어질 경우 프라이버시 또한 저해됩니다. 루팅은 일반적으로 부팅 파티션을 직접 조작하는 방식으로 이루어지므로, 자체 검사 부팅을 제대로 수행할 수 없습니다. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. 사용자 인터페이스에서 루트 권한이 직접 노출될 경우 기기의 [공격 표면](https://en.wikipedia.org/wiki/Attack_surface)이 증가하고 [권한 에스컬레이션](https://en.wikipedia.org/wiki/Privilege_escalation) 취약성과 SELinux 정책 우회 문제가 발생할 수 있습니다.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 이러한 방식은 광고 차단기의 본래 목적 면에서도 적절한 방식이 아닙니다. For content blocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl, AdAway는 루트 권한 없이 사용할 경우에는 (로컬 루프백 VPN을 이용하기 때문에) 시스템의 VPN 슬롯을 차지하게 되어버리므로, Orbot이나 실제 VPN 서버 등의 프라이버시 강화 서비스를 사용할 수 없다는 문제가 있습니다.
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 이러한 방식은 광고 차단기의 본래 목적 면에서도 적절한 방식이 아닙니다. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
 AFWall+는 [패킷 필터링](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) 접근법을 기반으로 작동하며, 일부 상황에서는 우회될 수 있습니다.
 
@@ -32,7 +32,7 @@ Privacy Guides는 이러한 앱들의 불확실한 프라이버시 보호 효과
 
 ### 업데이트 설치
 
-[지원 기간이 종료된](https://endoflife.date/android) Android 버전은 사용하지 않아야 합니다. 최신 버전 Android에는 운영 체제 보안 업데이트뿐만 아니라, 중요한 프라이버시 강화 업데이트도 포함되어 있습니다.
+[지원 기간이 종료된](https://endoflife.date/android) Android 버전은 사용하지 않아야 합니다. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
 
 예를 들어, [Android 10 이전](https://developer.android.com/about/versions/10/privacy/changes?hl=ko)에는 어떤 앱이든 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 권한을 가졌다면 [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), SIM 카드 [IMSI](https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EB%AA%A8%EB%B0%94%EC%9D%BC_%EA%B0%80%EC%9E%85%EC%9E%90_%EA%B5%AC%EB%B3%84%EC%9E%90) 등 여러분 휴대폰의 민감한 고유 일련 번호에 접근 가능했지만, 현재는 시스템 앱만 가능합니다. 시스템 앱은 OEM이나 Android 배포판에서만 제공됩니다.
 
@@ -54,7 +54,7 @@ Android 10 이상부터는 기존의 전체 디스크 암호화보다 유연한 
 
 안타깝게도, OEM의 자체 검사 부팅을 지원해야 할 의무는 오직 자신들의 기본 Android 배포판에서만 적용됩니다. Google 등 일부 OEM만이 기기에서 사용자 지정 AVB 키 등록을 지원합니다. 또한 제3자 운영 체제에 자체 검사 부팅을 지원하는 하드웨어를 사용하더라도, 어떤 AOSP 파생 버전을 사용하느냐에 따라 자체 검사 부팅 사용 가능 여부가 달라질 수 있습니다. 대표적으로 LineageOS, /e/ OS는 자체 검사 부팅을 지원하지 않습니다. 새 기기를 구매하기 이전에 **먼저** 지원 여부를 확인하실 것을 권장드립니다. 자체 검사 부팅을 지원하지 않는 AOSP 파생 버전은 권장드리지 **않습니다**.
 
-또한, OEM 중에는 마케팅과 달리 자체 검사 부팅을 제대로 구현하지 않는 경우도 많으므로 주의해야 합니다. 예시로 Fairphone 3, 4는 [기본 부트로더가 공개 AVB 서명 키를 신뢰하기 때문에](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11), 기본적으로는 안전하지 않습니다. 이 경우 시스템이 커스텀 운영 체제 사용에 대한 [경고 없이](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) 다른 Android 운영 체제(/e/ 등)를 부팅할 수 있으므로, Fairphone은 기본적으로 자체 검사 부팅이 활성화되지 않습니다.
+또한, OEM 중에는 마케팅과 달리 자체 검사 부팅을 제대로 구현하지 않는 경우도 많으므로 주의해야 합니다. 예시로 Fairphone 3, 4는 [기본 부트로더가 공개 AVB 서명 키를 신뢰하기 때문에](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11), 기본적으로는 안전하지 않습니다. This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
 ### 펌웨어 업데이트
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
 - [세분화된 미디어 권한](https://developer.android.com/about/versions/13/behavior-changes-13?hl=ko#granular-media-permissions)이 도입되어, 이미지, 동영상, 오디오 파일에만 접근 가능한 권한을 부여할 수 있습니다.
 - [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13?hl=ko#body-sensors-background-permission) 권한이 없으면 백그라운드에서 센서를 사용할 수 없습니다.
 
@@ -137,11 +137,11 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### 전역 제어
 
-최신 Android 기기에는 Bluetooth 및 위치 서비스를 비활성화할 수 있는 전역 제어 기능이 존재합니다. Android 12에는 카메라, 마이크 접근 제어 기능이 도입되었습니다. 해당 기능들을 사용하지 않을 때에는 전역적으로 비활성화해 두는 것을 권장드립니다. 개별 권한이 허가된 앱일지라도 해당 기능 접근이 활성화되기 전까진 접근할 수 없습니다.
+최신 Android 기기에는 Bluetooth 및 위치 서비스를 비활성화할 수 있는 전역 제어 기능이 존재합니다. Android 12에는 카메라, 마이크 접근 제어 기능이 도입되었습니다. 해당 기능들을 사용하지 않을 때에는 전역적으로 비활성화해 두는 것을 권장드립니다. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
 ## Google Services
 
-기본 운영 체제를 사용하든 GrapheneOS에서 샌드박스 Google Play 서비스를 사용하든, 기기에서 Google 서비스를 사용하고 있다면 여러 추가 변경 사항을 적용해 프라이버시를 강화할 수 있습니다. 물론, Privacy Guides에서는 '가능하다면' Google 서비스를 아예 사용하지 않거나, Shelter 등의 기기 컨트롤러와 GrapheneOS의 Sandboxed Google Play 기능을 결합해 특정 사용자/업무 프로필로 Google Play 서비스를 제한해서 사용하실 것을 권장드립니다.
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. 물론, Privacy Guides에서는 '가능하다면' Google 서비스를 아예 사용하지 않거나, Shelter 등의 기기 컨트롤러와 GrapheneOS의 Sandboxed Google Play 기능을 결합해 특정 사용자/업무 프로필로 Google Play 서비스를 제한해서 사용하실 것을 권장드립니다.
 
 ### 고급 보호 프로그램
 
@@ -178,7 +178,7 @@ All devices with Google Play Services installed automatically generate an [adver
 - :gear: **설정** → **Google** → **광고**
 - :gear: **설정** → **개인정보 보호** → **광고**
 
-여러분이 사용하시는 Android OEM 배포판에 따라, 광고 ID를 삭제하거나 *관심 분야 기반 광고 동의를 거부*하실 수 있습니다. 광고 ID 삭제가 가능한 경우가 더 이상적입니다. 불가능한 경우에는 동의를 거부하고 광고 ID를 재설정하세요.
+You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. 불가능한 경우에는 동의를 거부하고 광고 ID를 재설정하세요.
 
 ### SafetyNet, Play Integrity API
 

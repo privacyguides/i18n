@@ -8,9 +8,9 @@ description: iOS es un sistema operativo móvil desarrollado por Apple para el i
 
 ## Notas de Privacidad
 
-Los dispositivos iOS suelen ser elogiados por los expertos en seguridad por su sólida protección de datos y su adhesión a las mejores prácticas modernas. Sin embargo, el carácter restrictivo del ecosistema de Apple -especialmente con sus dispositivos móviles- sigue obstaculizando la privacidad de varias maneras.
+iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. Sin embargo, el carácter restrictivo del ecosistema de Apple -especialmente con sus dispositivos móviles- sigue obstaculizando la privacidad de varias maneras.
 
-En general, consideramos que iOS ofrece una protección de la privacidad y la seguridad mejor que la media para la mayoría de la gente, en comparación con los dispositivos Android de serie de cualquier fabricante. Sin embargo, puedes alcanzar estándares de privacidad aún más altos con un [sistema operativo Android personalizado](../android.md) como GrapheneOS, si quieres o necesitas ser completamente independiente de los servicios en la nube de Apple o Google.
+En general, consideramos que iOS ofrece una protección de la privacidad y la seguridad mejor que la media para la mayoría de la gente, en comparación con los dispositivos Android de serie de cualquier fabricante. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### Bloqueo de Activación
 
@@ -56,7 +56,7 @@ En la parte superior de la aplicación **Ajustes**, verás tu nombre y tu foto d
 
 **Buscar** es un servicio que te permite rastrear tus dispositivos Apple y compartir tu ubicación con tus amigos y familiares. También te permite borrar el dispositivo a distancia en caso de robo, evitando que un ladrón acceda a tus datos. Tus [datos de localización de Buscar son E2EE](https://apple.com/legal/privacy/data/en/find-my) cuando:
 
-- Tu localización se comparte con un familiar o amigo, y ambos utilizáis iOS 15 o superior.
+- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
 - Tu dispositivo está desconectado y es localizado por la red Buscar.
 
 Tus datos de localización no son E2EE cuando tu dispositivo está conectado y utilizas Buscar iPhone remotamente para localizar tu dispositivo. Tendrá que decidir si estas ventajas compensan los beneficios antirrobo del Bloqueo de Activación.
@@ -125,11 +125,11 @@ Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en 
 
 En algunos dispositivos antiguos, puede que tengas que pulsar el botón de encendido cinco veces para desactivar la biometría en su lugar, o para los dispositivos con Touch ID puede que sólo tengas que mantener pulsado el botón de encendido y nada más. Asegúrate de probarlo con antelación para saber qué método funciona con tu dispositivo.
 
-**Protección de Datos Robados** es una nueva función de iOS 17.3 que añade seguridad adicional destinada a proteger tus datos personales si te roban el dispositivo mientras está desbloqueado. Si utilizas la biometría y la función Buscar Mi Dispositivo en la configuración de tu ID de Apple, te recomendamos que actives esta nueva protección:
+**Stolen Device Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. Si utilizas la biometría y la función Buscar Mi Dispositivo en la configuración de tu ID de Apple, te recomendamos que actives esta nueva protección:
 
 - [x] Selecciona **Activar Protección**
 
-Después de activar la protección de datos robados, [ciertas acciones](https://support.apple.com/HT212510) requerirán autenticación biométrica sin una contraseña de respaldo (en el caso de que un shoulder surfer haya obtenido tu PIN), tales como el uso de autorrelleno de contraseña, el acceso a la información de pago, y la desactivación del modo perdido. También añade un retardo de seguridad a ciertas acciones realizadas fuera de casa o de otro "lugar familiar", como el requerimiento de un temporizador de 1 hora para restablecer la contraseña de tu ID de Apple o cerrar sesión en tu ID de Apple. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
+After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
 
 **Permitir Acceso al Estar Bloqueado** te da opciones para lo que puedes permitir cuando tu teléfono está bloqueado. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti. Elige a cuáles de ellos no quieres que alguien tenga acceso si llega a poner sus manos en tu teléfono.
 
@@ -169,7 +169,7 @@ Deberías desactivar **Datos de Uso y de los Sensores** si no deseas participar 
 
 - [ ] Desactiva **Datos de Uso y de los Sensores**
 
-**Comprobación de Seguridad** te permite ver y revocar rápidamente a determinadas personas y aplicaciones que podrían tener permiso para acceder a tus datos. Aquí puedes realizar un **Restablecimiento de Emergencia**, restableciendo inmediatamente los permisos de todas las personas y aplicaciones que puedan tener acceso a los recursos del dispositivo, y puedes **Gestionar Accesos y Datos Compartidos;** que te permite revisar y personalizar quién y qué tiene acceso a los recursos de tu dispositivo y cuenta.
+**Comprobación de Seguridad** te permite ver y revocar rápidamente a determinadas personas y aplicaciones que podrían tener permiso para acceder a tus datos. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
 
 Deberías desactivar los análisis si no deseas enviar datos de uso a Apple. Selecciona **Análisis y Mejoras**:
 
@@ -179,7 +179,7 @@ Deberías desactivar los análisis si no deseas enviar datos de uso a Apple. Sel
 - [ ] Desactiva **Mejorar Seguridad**
 - [ ] Desactiva **Mejorar Siri y Dictado**
 
-Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Selecciona **Publicidad de Apple**
+Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Select **Apple Advertising**:
 
 - [ ] Desactiva **Anuncios Personalizados**
 
@@ -203,7 +203,7 @@ El jailbreaking en un iPhone socava su seguridad y te hace vulnerable. Ejecutar 
 
 ### iMessage Encriptado
 
-El color de la burbuja de mensajes en la aplicación Mensajes indica si tus mensajes son E2EE o no. Una burbuja azul indica que estás utilizando iMessage con E2EE, mientras que una burbuja verde indica que están utilizando los anticuados protocolos SMS y MMS. Actualmente, la única forma de obtener E2EE en Mensajes es que ambas partes utilicen iMessage en dispositivos Apple.
+El color de la burbuja de mensajes en la aplicación Mensajes indica si tus mensajes son E2EE o no. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. Actualmente, la única forma de obtener E2EE en Mensajes es que ambas partes utilicen iMessage en dispositivos Apple.
 
 Si tú o tu compañero de mensajería tenéis activada la Copia de Seguridad de iCloud sin Protección de Datos Avanzada, la clave de cifrado se almacenará en los servidores de Apple, lo que significa que podrán acceder a tus mensajes. Además, el intercambio de claves de iMessage no es tan seguro como otras implementaciones alternativas, como Signal (que permite ver la clave del destinatario y verificarla mediante un código QR), por lo que no se debería confiar en él para comunicaciones especialmente sensibles.
 

@@ -22,9 +22,9 @@ description: Android是一個開源作業系統，具有強大的安全保護，
 
 ### 避免 Root
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 這可能會降低隱私，如果有一個漏洞被降低的安全性所輔助。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行Verified Boot。 需要 root 的應用程式也會修改系統分割區，這意味著 Verified Boot 必須維持停用。 直接在使用者介面中暴露 root 也會增加裝置的 [攻擊面](https://en.wikipedia.org/wiki/Attack_surface) ，助長 [特權升級](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和 SELinux 政策繞過。
+[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 這可能會降低隱私，如果有一個漏洞被降低的安全性所輔助。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行Verified Boot。 Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. 直接在使用者介面中暴露 root 也會增加裝置的 [攻擊面](https://en.wikipedia.org/wiki/Attack_surface) ，助長 [特權升級](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和 SELinux 政策繞過。
 
-內容封鎖器會修改 [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway)和需要 root 長期存取的防火牆(AFWall +)是危險的，不應該使用。 它們也不是解決其預期目的的正確方法。 對於內容封鎖，建議採加密 [DNS](../dns.md) 或 [VPN](../vpn.md) 伺服器的封鎖解決方案。 RethinkDNS,  TrackerControl 和 AdAway 在非根模式下將佔用VPN 插槽（通過使用本地環回 VPN)，阻止您使用隱私增強服務，如 Orbot 或真正的 VPN 伺服器。
+內容封鎖器會修改 [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway)和需要 root 長期存取的防火牆(AFWall +)是危險的，不應該使用。 它們也不是解決其預期目的的正確方法。 For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
 AFWall+ 基於 [封包過濾](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) 的方法，在某些情況下可能繞過。
 
@@ -32,7 +32,7 @@ AFWall+ 基於 [封包過濾](https://en.wikipedia.org/wiki/Firewall_(computing)
 
 ### 安裝更新
 
-重要的是不要使用 [結束生命周期](https://endoflife.date/android) 版本的Android。 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。
+重要的是不要使用 [結束生命周期](https://endoflife.date/android) 版本的Android。 Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
 
 例如 [Android 10 之前](https://developer.android.com/about/versions/10/privacy/changes) 許多應用帶有 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 授權可以存取手機獨特敏感的序號，像是[IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) 或手機門號 SIM 卡的 [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)；不過現在只有系統應用程式才能存取。 系統應用程式僅由 OEM 或 Android 發行版提供。
 
@@ -54,7 +54,7 @@ Verified Boot確保作業系統檔案的完整性，從而防止具有物理訪�
 
 不幸的是， OEM 只其庫存 Android 發行版上支持 Verified Boot。 只有少數OEM （例如Google ）支援在其裝置上自訂 AVB 金鑰註冊。 此外，某些 AOSP 衍生版本（如LineageOS或/e/OS ）甚至在對可接受第三方作業系統提供Verified Boot 硬體上不予支援。 建議在購買新設備 **前** 先了解支援情況。 不支援 Verified Boot 的AOSP衍生版本**不予推薦** 。
 
-許多 OEM 也破壞了 Verified Boot，您必須在廠商行銷之餘認知到這點。 例如， Fairphone 3和4在預設情況下並不安全，因為 [股票引導裝載程式信任公開的AVB簽名密鑰](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 這會在庫存 Fairphone 設備中斷 verified boot，因為系統將啟動替代 Android 作業系統（如/e/） [，而不對自定作業系統發出警告](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) 。
+許多 OEM 也破壞了 Verified Boot，您必須在廠商行銷之餘認知到這點。 例如， Fairphone 3和4在預設情況下並不安全，因為 [股票引導裝載程式信任公開的AVB簽名密鑰](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
 ### 韌體更新
 
@@ -94,7 +94,7 @@ Android 12:
 
 Android 13:
 
-- 同意 [鄰近的 Wi-Fi 存取](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). 附近 Wi-Fi 接入點的 MAC地址是應用程式跟蹤用戶位置的常用方式。
+- 同意 [鄰近的 Wi-Fi 存取](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
 - 更多 [細微媒體權限](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions)，這意味著您只能授予對圖像，視頻或音頻文件的存取權限。
 - 傳感器的背景使用需要 [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) 權限。
 
@@ -148,13 +148,13 @@ Android 7以上版本支援VPN kill switch ，無需安裝第三方應用程式�
 
 ### 全局切換
 
-現代 Android 裝置具有全局切換功能，可停用藍牙和定位服務。 Android 12為相機和麥克風引入了切換功能。 不使用時，建議停用這些功能。 在重新啟用之前，應用程式無法使用已停用的功能（即使授予個別權限）。
+現代 Android 裝置具有全局切換功能，可停用藍牙和定位服務。 Android 12為相機和麥克風引入了切換功能。 不使用時，建議停用這些功能。 Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
 
 
 ## Google 服務
 
-如果您使用的裝置搭載Google服務，無論是您庫存作業系統，還是能夠安全地使用 Google Play服務（如GrapheneOS ）的作業系統，可進行許多其他變更以改善隱私。 我們仍然建議避免使用 Google 服務，或者將 *Shelter* 等設備控制器與 GrapheneOS 的Sandboxed Google Play相結合，將 Google Play 服務限制為特定用戶/工作檔案。
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. 我們仍然建議避免使用 Google 服務，或者將 *Shelter* 等設備控制器與 GrapheneOS 的Sandboxed Google Play相結合，將 Google Play 服務限制為特定用戶/工作檔案。
 
 
 
@@ -198,7 +198,7 @@ Android 7以上版本支援VPN kill switch ，無需安裝第三方應用程式�
 - :gear: **設定** → **Google** → **廣告**
 - :gear: **設定** → **私隱** → **廣告**
 
-可選擇刪除您的廣告ID 或 *選擇退出基於興趣的廣告*，這視 Android OEM 而異。 如果提供刪除首選廣告ID的選項。 如果沒有，請確保選擇退出並重設您的廣告ID。
+You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. 如果沒有，請確保選擇退出並重設您的廣告ID。
 
 
 

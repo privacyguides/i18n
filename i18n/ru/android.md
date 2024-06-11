@@ -98,7 +98,7 @@ schema:
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Устройства с истекшим сроком службы (например устройства с GrapheneOS или с "расширенной поддержкой" CalyxOS) не имеют полных исправлений безопасности (обновлений прошивки) из-за прекращения поддержки OEM-производителем. Эти устройства нельзя считать полностью безопасными, независимо от установленного программного обеспечения.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. Эти устройства нельзя считать полностью безопасными, независимо от установленного программного обеспечения.
 
 </div>
 

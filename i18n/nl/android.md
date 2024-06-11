@@ -98,7 +98,7 @@ Wij raden je aan een van deze aangepaste Android-besturingssystemen op jouw toes
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-End-of-life apparaten (zoals GrapheneOS of CalyxOS's apparaten met "uitgebreide ondersteuning") beschikken niet over volledige beveiligingspatches (firmware-updates) omdat de OEM de ondersteuning heeft stopgezet. Deze apparaten kunnen niet als volledig veilig worden beschouwd, ongeacht de geïnstalleerde software.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. Deze apparaten kunnen niet als volledig veilig worden beschouwd, ongeacht de geïnstalleerde software.
 
 </div>
 

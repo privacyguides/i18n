@@ -94,7 +94,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 - [:simple-linux: Linux](https://docs.controld.com/docs/ctrld)
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
 - [:simple-appstore: App Store](https://apps.apple.com/app/1518799460)
-- [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases/tag/v1.3.5)
+- [:simple-github: GitHub](https://github.com/Control-D-Inc/ctrld/releases)
 
 </details>
 
@@ -140,10 +140,10 @@ NextDNS also offers public DNS-over-HTTPS service at `https://dns.nextdns.io` an
 
 <div class="admonition recommendation" markdown>
 
-![RethinkDNS 로고](assets/img/android/rethinkdns.svg#only-light){ align=right }
-![RethinkDNS 로고](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
+![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS**는 DNS 응답 캐싱, 로컬 DNS 쿼리 기록, 방화벽으로도 사용 가능한 오픈 소스 Android 클라이언트로, [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt), DNS 프록시를 지원합니다.
+**RethinkDNS** is an open-source Android client that supports [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
 
 [:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
@@ -159,6 +159,8 @@ NextDNS also offers public DNS-over-HTTPS service at `https://dns.nextdns.io` an
 </details>
 
 </div>
+
+While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a Wireguard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
 
 ### dnscrypt-proxy
 

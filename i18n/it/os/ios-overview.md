@@ -8,9 +8,9 @@ description: iOS è un sistema operativo mobile sviluppato da Apple per l'iPhone
 
 ## Note sulla Privacy
 
-i dispositivi iOS sono frequentemente elogiati dagli esperti della sicurezza, per la loro robusta protezione dei dati e aderenza alle migliori pratiche moderne. Tuttavia, le restrizioni dell'ecosistema di Apple, in particolare per quanto riguarda i dispositivi mobili, ostacolano ancora la privacy in diversi modi.
+iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. Tuttavia, le restrizioni dell'ecosistema di Apple, in particolare per quanto riguarda i dispositivi mobili, ostacolano ancora la privacy in diversi modi.
 
-Generalmente, consideriamo che iOS fornisca protezioni della privacy e della sicurezza migliori della media per gran parte delle persone, rispetto ai dispositivi Android di fabbrica da qualsiasi produttore. Tuttavia, puoi ottenere standard di privacy persino maggiori con un [sistema operativo Android personalizzato](../android.md), come GrapheneOS, se desideri o necessiti di essere completamente indipendente dai servizi su cloud di Apple o Google.
+Generalmente, consideriamo che iOS fornisca protezioni della privacy e della sicurezza migliori della media per gran parte delle persone, rispetto ai dispositivi Android di fabbrica da qualsiasi produttore. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### Blocco di Attivazione
 
@@ -56,7 +56,7 @@ In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto 
 
 **Find My** è un servizio che ti consente di tracciare i tuoi dispositivi Apple e di condividere la tua posizione con i tuoi amici e la tua famiglia. Inoltre, ti consente di svuotare da remoto il tuo dispositivo, in caso di furto, impedendo ai ladri di accedere ai tuoi dati. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
 
-- La tua posizione è condivisa con un membro della famiglia o amico, ed entrambi utilizzate iOS 15 o superiore.
+- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
 - Il tuo dispositivo è offline ed è individuato dalla Rete di Find My.
 
 I tuoi dati sulla posizione non sono E2EE quando il tuo dispositivo è online e utilizzi Find My iPhone da remoto, per individuare il tuo dispositivo. Dovrai decidere se mantenere questi compromessi valga i vantaggi antifurto del Blocco di Attivazione.
@@ -125,11 +125,11 @@ Se utilizzi la biometria, dovresti sapere come disattivarla rapidamente in caso 
 
 Su alcuni dispositivi precedenti, potresti dover premere cinque volte il tasto di accensione per disabilitare la biometria o, per i dispositivi con Touch ID, potresti dover soltanto tenere premuto il tasto d'accensione e nient'altro. Assicurati di provare in anticipo, così da sapere quale metodo funziona per il tuo dispositivo.
 
-**Protezione dei dati rubati** è una nuova funzione di iOS 17.3 che aggiunge una sicurezza supplementare per proteggere i dati personali in caso di furto del dispositivo mentre è sbloccato. Se utilizzi la biometria e la funzione Trova il mio dispositivo nelle impostazioni dell'ID Apple, si consiglia di attivare questa nuova protezione:
+**Stolen Device Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. Se utilizzi la biometria e la funzione Trova il mio dispositivo nelle impostazioni dell'ID Apple, si consiglia di attivare questa nuova protezione:
 
 - [x] Seleziona **Attiva la protezione**
 
-After enabling stolen data protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. Aggiunge inoltre un ritardo di sicurezza ad alcune azioni eseguite fuori casa o in un altro "luogo familiare", come la richiesta di un timer di un'ora per reimpostare la password dell'ID Apple o per uscire dal proprio ID Apple. Questo ritardo ha lo scopo di dare all'utente il tempo di attivare la Modalità smarrito e di proteggere il proprio account prima che un ladro possa resettare il dispositivo.
+After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. Questo ritardo ha lo scopo di dare all'utente il tempo di attivare la Modalità smarrito e di proteggere il proprio account prima che un ladro possa resettare il dispositivo.
 
 **Consenti Accesso Da Bloccato** ti offre delle opzioni per consentire l'accesso quando il telefono è bloccato. Più di queste opzioni disabiliti, minori saranno le azioni disponibili a qualcuno senza la tua password, ma meno comodo sarà per te. Seleziona e scegli quali di queste non desideri siano accessibili a qualcuno, qualora dovesse impossessarsi del tuo telefono.
 
@@ -169,7 +169,7 @@ Dovresti disattivare **Sensore di Ricerca e Dati di Utilizzo** se non desideri p
 
 - [ ] Disattiva **Raccolta dei Dati del Sensore e di Utilizzo**
 
-**Safety Check** ti consente di visualizzare rapidamente e di revocare certe persone e certe app, che potrebbero avere l'autorizzazione ad accedere ai tuoi dati. Qui, puoi eseguire un **Ripristino di Emergenza**, ripristinando immediatamente le autorizzazioni per tutte le persone e le app che potrebbero avere accesso alle risorse del dispositivo, e puoi **Gestire la Condivisione e l'Accesso**, che ti consentono di esaminare e personalizzare chi e cosa ha accesso al tuo dispositivo e alle risorse del tuo profilo.
+**Safety Check** ti consente di visualizzare rapidamente e di revocare certe persone e certe app, che potrebbero avere l'autorizzazione ad accedere ai tuoi dati. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
 
 Dovresti disabilitare le analisi se non desideri inviare i dati di utilizzo ad Apple. Seleziona **Analisi e Miglioramenti**:
 
@@ -179,7 +179,7 @@ Dovresti disabilitare le analisi se non desideri inviare i dati di utilizzo ad A
 - [ ] Disattiva **Migliora Sicurezza**
 - [ ] Disattiva **Migliora Siri e Dettatura**
 
-Disabilita gli **Annunci Personalizzati**, se non desideri ricevere annunci mirati. Seleziona **Inserzioni di Apple**
+Disabilita gli **Annunci Personalizzati**, se non desideri ricevere annunci mirati. Select **Apple Advertising**:
 
 - [ ] Disattiva gli **Annunci Personalizzati**
 
@@ -203,7 +203,7 @@ Il Jailbreak di un iPhone ne mina la sicurezza e ti rende vulnerabile. Eseguire 
 
 ### iMessage Crittografata
 
-Il colore della bolla del messaggio nell'app dei Messaggi indica se i tuoi messaggi sono E2EE o no. Una bolla blu indica che stai utilizzando iMessage con E2EE, mentre una bolla verde indica che stai utilizzando i protocolli obsoleti di SMS e MMS. Al momento, il solo modo per ottenere l'E2EE sui Messaggi è che entrambe le parti utilizzino iMessage sui dispositivi Apple.
+Il colore della bolla del messaggio nell'app dei Messaggi indica se i tuoi messaggi sono E2EE o no. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. Al momento, il solo modo per ottenere l'E2EE sui Messaggi è che entrambe le parti utilizzino iMessage sui dispositivi Apple.
 
 Se tu o il tuo partner di messaggistica avete abilitato iCloud Backup senza la Protezione Avanzata dei Dati, la chiave crittografica sarà memorizzata sui server di Apple, a significare che potrà accedere ai tuoi messaggi. Inoltre, lo scambio di chiavi di iMessage non è sicuro quanto le implementazioni alternative, come Signal (che ti consente di visualizzare la chiave del destinatario e di verificare tramite Codice QR), quindi non ci si dovrebbe affidare per le comunicazioni particolarmente sensibili.
 

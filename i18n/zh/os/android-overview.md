@@ -22,9 +22,9 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 ### 避免 Root
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 如果有一个被降低的安全性所帮助的漏洞，这可能会减少隐私。 常见的root方法涉及直接篡改启动分区，使得它不可能成功地进行验证性启动。 需要root的应用程序也会修改系统分区，这意味着验证启动将不得不保持禁用。 在用户界面上直接暴露root也增加了你的设备的 [攻击面](https://en.wikipedia.org/wiki/Attack_surface) ，并可能有助于 [特权升级](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和SELinux政策的绕过。
+[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 如果有一个被降低的安全性所帮助的漏洞，这可能会减少隐私。 常见的root方法涉及直接篡改启动分区，使得它不可能成功地进行验证性启动。 Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. 在用户界面上直接暴露root也增加了你的设备的 [攻击面](https://en.wikipedia.org/wiki/Attack_surface) ，并可能有助于 [特权升级](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和SELinux政策的绕过。
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 它们也不是解决其预期目的的正确方法。 For content blocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS、TrackerControl和AdAway在非root模式下将占用VPN插槽（通过使用本地环回VPN），使你无法使用增强隐私的服务，如Orbot或真正的VPN服务器。
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 它们也不是解决其预期目的的正确方法。 For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
 AFWall+基于 [包过滤](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) 方法工作，在某些情况下可能会被绕过。
 
@@ -32,7 +32,7 @@ AFWall+基于 [包过滤](https://en.wikipedia.org/wiki/Firewall_(computing)#Pac
 
 ### Install Updates
 
-重要的是，不要使用 [报废的](https://endoflife.date/android) 版本的Android。 较新版本的安卓系统不仅会收到操作系统的安全更新，也会收到重要的隐私增强更新。
+重要的是，不要使用 [报废的](https://endoflife.date/android) 版本的Android。 Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
 
 For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. 系统应用只由OEM或安卓发行提供。
 
@@ -54,7 +54,7 @@ For example, if you want to post a picture to Discord you can open your file man
 
 遗憾的是，OEM厂商只有在其库存的安卓系统上才有义务支持验证性启动。 只有少数OEM厂商，如谷歌，支持在他们的设备上定制AVB密钥注册。 此外，一些AOSP衍生产品，如LineageOS或/e/ OS，即使在对第三方操作系统有验证启动支持的硬件上也不支持验证启动。 我们建议你在</strong> 购买新设备之前，先查看支持 **。 不支持验证性启动的AOSP衍生产品是 **，不推荐**。</p>
 
-许多原始设备制造商也有破碎的实施验证启动，你必须注意他们的营销之外。 例如，Fairphone 3和4在默认情况下是不安全的，因为 [股票引导程序信任公共AVB签名密钥](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 这破坏了Fairphone设备上的验证引导，因为系统将引导替代Android操作系统（如/e/） [，而没有任何关于自定义操作系统使用的警告](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) 。
+许多原始设备制造商也有破碎的实施验证启动，你必须注意他们的营销之外。 例如，Fairphone 3和4在默认情况下是不安全的，因为 [股票引导程序信任公共AVB签名密钥](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
 ### 固件更新
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
 - More [granular media permissions](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), meaning you can grant access to images, videos or audio files only.
 - Background use of sensors now requires the [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) permission.
 
@@ -137,11 +137,11 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### 全局切换
 
-现代安卓设备有全局切换键，用于禁用蓝牙和定位服务。 安卓12引入了相机和麦克风的切换功能。 在不使用时，我们建议禁用这些功能。 在重新启用之前，应用程序不能使用被禁用的功能（即使被授予个别许可）。
+现代安卓设备有全局切换键，用于禁用蓝牙和定位服务。 安卓12引入了相机和麦克风的切换功能。 在不使用时，我们建议禁用这些功能。 Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
 ## Google Services
 
-如果你使用的是带有谷歌服务的设备，无论是你的原生操作系统还是像GrapheneOS这样的安全沙盒式的操作系统，你可以做一些额外的改变来改善你的隐私。 我们仍然建议完全避免使用谷歌服务，或者通过将 *Shelter* 等设备控制器与GrapheneOS的沙盒化谷歌游戏结合起来，将谷歌游戏服务限制在特定的用户/工作档案中。
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. 我们仍然建议完全避免使用谷歌服务，或者通过将 *Shelter* 等设备控制器与GrapheneOS的沙盒化谷歌游戏结合起来，将谷歌游戏服务限制在特定的用户/工作档案中。
 
 ### 高级保护计划
 
@@ -178,7 +178,7 @@ All devices with Google Play Services installed automatically generate an [adver
 - :gear: **设置** → **谷歌** → **广告**
 - :gear: **设置** → **隐私** → **广告**
 
-你可以选择删除你的广告ID，或者 *，选择退出基于兴趣的广告*，这在安卓的OEM发行中是不同的。 如果呈现出删除广告ID的选项，那是首选。 如果没有，那么请确保选择退出并重新设置你的广告ID。
+You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. 如果没有，那么请确保选择退出并重新设置你的广告ID。
 
 ### SafetyNet和Play Integrity API
 

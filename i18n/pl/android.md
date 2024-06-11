@@ -98,7 +98,7 @@ We recommend installing one of these custom Android operating systems on your de
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Urządzenia z zakończonym okresem wsparcia (takie jak urządzenia z "rozszerzonym wsparciem" dla GrapheneOS lub CalyxOS) nie posiadają pełnych poprawek bezpieczeństwa (aktualizacji oprogramowania), ponieważ ich producenci przestali je wspierać. Te urządzenia nie mogą być uznawane za w pełni bezpieczne niezależnie od zainstalowanego oprogramowania.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. Te urządzenia nie mogą być uznawane za w pełni bezpieczne niezależnie od zainstalowanego oprogramowania.
 
 </div>
 

@@ -8,9 +8,9 @@ description: iOS est un système d'exploitation mobile développé par Apple pou
 
 ## Remarques concernant la vie privée
 
-Les experts en sécurité font souvent l'éloge des appareils iOS pour leur solide protection des données et leur respect des meilleures pratiques modernes. Cependant, le caractère restrictif de l'écosystème d'Apple - en particulier avec ses appareils mobiles - continue d'entraver la protection de la vie privée de plusieurs manières.
+iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. Cependant, le caractère restrictif de l'écosystème d'Apple - en particulier avec ses appareils mobiles - continue d'entraver la protection de la vie privée de plusieurs manières.
 
-Nous considérons généralement qu'iOS offre des protections de la vie privée et de la sécurité supérieures à la moyenne pour la plupart des gens, par rapport aux appareils Android d'origine, quel que soit le fabricant. Cependant, vous pouvez atteindre des normes de vie privée encore plus élevées avec un [système d'exploitation Android personnalisé](../android.md) comme GrapheneOS, si vous voulez ou devez être complètement indépendant des services cloud d'Apple ou de Google.
+Nous considérons généralement qu'iOS offre des protections de la vie privée et de la sécurité supérieures à la moyenne pour la plupart des gens, par rapport aux appareils Android d'origine, quel que soit le fabricant. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### Verrouillage d'activation
 
@@ -56,7 +56,7 @@ En haut de l'application **Réglages**, vous verrez votre nom et votre photo de 
 
 **Localiser** est un service qui vous permet de suivre vos appareils Apple et de partager votre localisation avec vos amis et votre famille. Il vous permet également d'effacer votre appareil à distance en cas de vol, empêchant ainsi un voleur d'accéder à vos données. Vos [données de localisation Localiser sont E2EE](https://apple.com/legal/privacy/data/en/find-my) lorsque :
 
-- Votre position est partagée avec un membre de votre famille ou un ami, et vous utilisez tous deux iOS 15 ou une version ultérieure.
+- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
 - Votre appareil est hors ligne et est localisé par le réseau de Localiser.
 
 Vos données de localisation ne sont pas E2EE lorsque votre appareil est en ligne et que vous utilisez Localiser mon iPhone à distance pour localiser votre appareil. C'est à vous de décider si ces compromis valent les avantages antivol du verrouillage d'activation.
@@ -125,11 +125,11 @@ Si vous utilisez les déverouillages biométriques, vous devez savoir comment le
 
 Sur certains appareils plus anciens, vous devrez peut-être appuyer cinq fois sur le bouton d'alimentation pour désactiver la biométrie ou, pour les appareils dotés de Touch ID, il vous suffira de maintenir le bouton d'alimentation enfoncé, sans rien d'autre. Veillez à faire un essai préalable afin de savoir quelle méthode fonctionne pour votre appareil.
 
-**Protection en cas de vol de l’appareil** est une nouvelle fonctionnalité d'iOS 17.3 qui ajoute une sécurité supplémentaire destinée à protéger vos données personnelles si votre appareil est volé alors qu'il est déverrouillé. Si vous utilisez la biométrie et la fonction Localiser dans vos réglages Apple ID, nous vous recommandons d'activer cette nouvelle protection :
+**Stolen Device Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. Si vous utilisez la biométrie et la fonction Localiser dans vos réglages Apple ID, nous vous recommandons d'activer cette nouvelle protection :
 
 - [x] Sélectionnez **Activer la protection**
 
-Après avoir activé la protection en cas de vol de l’appareil, [certaines actions](https://support.apple.com/HT212510) nécessiteront une authentification biométrique sans possibilité de recourir au mot de passe (dans le cas où un passant obtient votre code PIN à la dérobée), comme l'utilisation du remplissage des mots de passe, l'accès aux informations de paiement et la désactivation du mode perdu. Elle ajoute également un délai de sécurité pour certaines actions effectuées en dehors de votre domicile ou d'un autre "lieu familier", comme la nécessité d'un délai d'une heure pour réinitialiser votre mot de passe Apple ID ou vous déconnecter de votre Apple ID. Ce délai a pour but de vous donner le temps d'activer le mode Perdu et de sécuriser votre compte avant qu'un voleur ne puisse réinitialiser votre appareil.
+After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. Ce délai a pour but de vous donner le temps d'activer le mode Perdu et de sécuriser votre compte avant qu'un voleur ne puisse réinitialiser votre appareil.
 
 **Autoriser l'accès lorsque le téléphone est verrouillé** vous offre des options pour définir ce que vous pouvez autoriser lorsque votre téléphone est verrouillé. Plus vous désactivez d'options, moins quelqu'un qui n'a pas votre mot de passe peut faire de choses, mais moins c'est pratique pour vous. Choisissez les éléments auxquels vous ne voulez pas que quelqu'un ait accès s'il met la main sur votre téléphone.
 
@@ -169,7 +169,7 @@ Vous devriez désactiver **Données de capteur et d’utilisation à des fins de
 
 - [ ] Désactivez **Collecte de données de capteur et d'utilisation**
 
-**Contrôle de sécurité** vous permet de visualiser et de révoquer rapidement certaines personnes et applications qui pourraient avoir l'autorisation d'accéder à vos données. Ici, vous pouvez effectuer une **Réinitialisation d'urgence**, qui réinitialise immédiatement les autorisations de toutes les personnes et applications susceptibles d'avoir accès aux ressources de l'appareil, et vous pouvez utiliser **Gérer les partages et les accès**, qui vous permet de passer en revue et de personnaliser qui et quoi a accès aux ressources de votre appareil et de votre compte.
+**Contrôle de sécurité** vous permet de visualiser et de révoquer rapidement certaines personnes et applications qui pourraient avoir l'autorisation d'accéder à vos données. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
 
 Vous devriez désactiver l'analyse si vous ne souhaitez pas envoyer de données d'utilisation à Apple. Sélectionnez **Analyse et améliorations** :
 
@@ -179,7 +179,7 @@ Vous devriez désactiver l'analyse si vous ne souhaitez pas envoyer de données 
 - [ ] Désactivez **Améliorer la sécurité**
 - [ ] Décochez **Améliorer Siri et Dictée**
 
-Désactivez **Publicités personnalisées** si vous ne voulez pas de publicités ciblées. Sélectionnez **Publicité Apple**
+Désactivez **Publicités personnalisées** si vous ne voulez pas de publicités ciblées. Select **Apple Advertising**:
 
 - [ ] Décochez **Publicités personnalisées**
 
@@ -203,7 +203,7 @@ Le jailbreaking d'un iPhone compromet sa sécurité et vous rend vulnérable. L'
 
 ### iMessage chiffré
 
-La couleur de la bulle de message dans l'application Messages indique si vos messages sont E2EE ou non. Une bulle bleue indique que vous utilisez iMessage avec E2EE, tandis qu'une bulle verte indique qu'ils utilisent les protocoles SMS et MMS obsolètes. Actuellement, le seul moyen d'obtenir le E2EE dans Messages est que les deux correspondants utilisent iMessage sur des appareils Apple.
+La couleur de la bulle de message dans l'application Messages indique si vos messages sont E2EE ou non. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. Actuellement, le seul moyen d'obtenir le E2EE dans Messages est que les deux correspondants utilisent iMessage sur des appareils Apple.
 
 Si vous ou votre partenaire de messagerie avez activé la sauvegarde iCloud sans la protection avancée des données, la clé de chiffrement sera stockée sur les serveurs d'Apple, ce qui signifie qu'ils peuvent accéder à vos messages. En outre, l'échange de clés d'iMessage n'est pas aussi sûr que d'autres implémentations, comme Signal (qui permet de voir la clé du destinataire et de vérifier par QR code), et ne doit donc pas être utilisé pour des communications particulièrement sensibles.
 

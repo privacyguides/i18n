@@ -98,7 +98,7 @@ Kami menyarankan untuk menginstal salah satu sistem operasi Android khusus berik
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Perangkat yang sudah habis masa pakainya (seperti perangkat "dukungan diperpanjang" GrapheneOS atau CalyxOS) tidak memiliki tambalan keamanan penuh (pembaruan firmware) karena OEM menghentikan dukungannya. Perangkat ini tidak dapat dianggap sepenuhnya aman terlepas dari perangkat lunak yang terinstal.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. Perangkat ini tidak dapat dianggap sepenuhnya aman terlepas dari perangkat lunak yang terinstal.
 
 </div>
 

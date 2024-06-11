@@ -22,9 +22,9 @@ Ideális esetben, amikor egyedi Android disztribúciót választasz, győződj m
 
 ### Kerüld a rootolást
 
-[Az](https://en.wikipedia.org/wiki/Rooting_(Android)) Android telefonok rootolása jelentősen csökkentheti a biztonságot, mivel gyengíti a teljes [Android biztonsági modellt](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Ez csökkentheti az adatvédelmet, ha van olyan biztonsági rés, amelynek kihasználását a csökkent biztonság elősegíti. A gyakori rootolási módszerek a boot partíció közvetlen megváltoztatásával járnak, ami lehetetlenné teszi egy sikeres Verified Boot elvégzését. A root-ot igénylő alkalmazások szintén módosítják a rendszerpartíciót, ami azt jelenti, hogy a Verified Boot-nak kikapcsolva kell maradnia. A root közvetlen kitétele a felhasználói felületnek szintén növeli az eszközöd [támadási felületetét](https://en.wikipedia.org/wiki/Attack_surface) és elősegítheti [ jogosultságnöveléses](https://en.wikipedia.org/wiki/Privilege_escalation) sebezhetőségek véghezvitelét és az SELinux házirendek megkerülését.
+[Az](https://en.wikipedia.org/wiki/Rooting_(Android)) Android telefonok rootolása jelentősen csökkentheti a biztonságot, mivel gyengíti a teljes [Android biztonsági modellt](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Ez csökkentheti az adatvédelmet, ha van olyan biztonsági rés, amelynek kihasználását a csökkent biztonság elősegíti. A gyakori rootolási módszerek a boot partíció közvetlen megváltoztatásával járnak, ami lehetetlenné teszi egy sikeres Verified Boot elvégzését. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. A root közvetlen kitétele a felhasználói felületnek szintén növeli az eszközöd [támadási felületetét](https://en.wikipedia.org/wiki/Attack_surface) és elősegítheti [ jogosultságnöveléses](https://en.wikipedia.org/wiki/Privilege_escalation) sebezhetőségek véghezvitelét és az SELinux házirendek megkerülését.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Továbbá ezek nem a megfelelő módon oldják meg a rendeltetésüknek megfelelő feladatokat. For content blocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. A RethinkDNS, TrackerControl és az AdAway nem rootolt módban elfoglalja a VPN-helyet (egy helyi loopback VPN használatával), megakadályozva téged ezzel madatvédelmet fokozó szolgáltatások, például Orbot vagy egy valódi VPN szerver használatában.
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Továbbá ezek nem a megfelelő módon oldják meg a rendeltetésüknek megfelelő feladatokat. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
 Az AFWall+ a [csomagszűrő](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) megközelítés alapján működik, és bizonyos helyzetekben megkerülhető.
 
@@ -32,7 +32,7 @@ Nem hisszük, hogy egy telefon rootolásával járó biztonsági áldozatok meg�
 
 ### Telepíts frissítéseket
 
-Fontos, hogy ne használj egy [lejárt életciklusú](https://endoflife.date/android) Android verziót. Az Android újabb verziói nemcsak biztonsági frissítéseket kapnak az operációs rendszerhez, hanem fontos adatvédelmi fejlesztéseket is.
+Fontos, hogy ne használj egy [lejárt életciklusú](https://endoflife.date/android) Android verziót. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
 
 Például [Android 10 előtt](https://developer.android.com/about/versions/10/privacy/changes) a [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) engedéllyel rendelkező alkalmazások hozzáférhettek a telefon érzékeny és egyedi sorozatszámaihoz, mint például az [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) vagy a SIM-kárty [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)-jéhez; míg most már csak rendszeralkalmazások tehetik ezt meg. A rendszeralkalmazásokat csak az OEM vagy az Android disztribúció nyújtja.
 
@@ -54,7 +54,7 @@ A Verified Boot biztosítja az operációs rendszerfájlok integritását, ezál
 
 Sajnos OEM-gyártók csak az Android alapkiadásánál kötelesek támogatni a Verified Bootot. Csak néhány OEM-gyártó, például a Google, támogatja az egyéni AVB-kulcsok felvételét az eszközein. Emellett néhány AOSP-változat, például a LineageOS vagy az /e/ OS nem támogatja a Verified Bootot még olyan hardvereken sem, amelyek támogatnák azt harmadik féltől származó operációs rendszereken. Javasoljuk, hogy tájékozódj ennek támogatottságáról ** még mielőtt** új készüléket vásárolnál. A Verified Bootot nem támogató AOSP-változatok **nem** ajánlottak.
 
-Több OEM-gyártó is elrontotta a Verified Boot megvalósítását, amivel a marketingjükön túlmenően is tisztában kell lenned. A Fairphone 3 és 4 például alapértelmezetten nem biztonságosak, mivel az [alap bootloader a nyilvános AVB aláíró kulcsban bízik](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Ez megtöri a verified bootot egy alapkiadású Fairphone készüléken, mivel a rendszer alternatív Android operációs rendszereket (például /e/) az egyéni operációs rendszerek használatáról szóló [figyelmeztetés nélkül](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) indítja el.
+Több OEM-gyártó is elrontotta a Verified Boot megvalósítását, amivel a marketingjükön túlmenően is tisztában kell lenned. A Fairphone 3 és 4 például alapértelmezetten nem biztonságosak, mivel az [alap bootloader a nyilvános AVB aláíró kulcsban bízik](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
 ### Firmware-frissítések
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
 - További [részletes médiaengedélyek](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), ami azt jelenti, hogy csak képekhez, videókhoz vagy hangfájlokhoz adhatsz hozzáférést.
 - Érzékelők háttérben történő használatához mostantól a [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) engedély szükséges.
 
@@ -137,11 +137,11 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### Global Toggles
 
-Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permission) until re-enabled.
+Modern Android devices have global toggles for disabling Bluetooth and location services. Android 12 introduced toggles for the camera and microphone. When not in use, we recommend disabling these features. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
 ## Google Services
 
-If you are using a device with Google services, either your stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS, there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
 
 ### Advanced Protection Program
 
@@ -178,7 +178,7 @@ On Android distributions with privileged Google Play Services (such as stock OSe
 - :gear: **Settings** → **Google** → **Ads**
 - :gear: **Settings** → **Privacy** → **Ads**
 
-You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads*, this varies between OEM distributions of Android. If presented with the option to delete the advertising ID that is preferred. If not, then make sure to opt out and reset your advertising ID.
+You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. If not, then make sure to opt out and reset your advertising ID.
 
 ### SafetyNet and Play Integrity API
 

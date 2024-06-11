@@ -98,7 +98,7 @@ We recommend installing one of these custom Android operating systems on your de
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-由于OEM停止支持，寿命终止的设备（如GrapheneOS或CalyxOS的 "扩展支持 "设备）没有完整的安全补丁（固件更新）。 无论安装何种软件，都不能认为这些设备是完全安全的。
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. 无论安装何种软件，都不能认为这些设备是完全安全的。
 
 </div>
 

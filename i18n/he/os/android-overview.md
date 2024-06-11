@@ -22,9 +22,9 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 ### הימנע מהשתרשות
 
-[השרשת](https://en.wikipedia.org/wiki/Rooting_(Android)) טלפונים אנדרואיד יכולים להפחית את האבטחה באופן משמעותי מכיוון שהוא מחליש את [מודל האבטחה של אנדרואיד](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). זה יכול להפחית את הפרטיות אם יש ניצול הנעזר בירידה באבטחה. שיטות השתרשות נפוצות כוללות התעסקות ישירה במחיצת האתחול, מה שהופך את זה לבלתי אפשרי לבצע אתחול מאומת בהצלחה. אפליקציות הדורשות שורש ישנו גם את מחיצת המערכת, כלומר אתחול מאומת יצטרך להישאר מושבת. חשיפת השורש ישירות בממשק המשתמש גם מגדילה את [משטח ההתקפה](https://en.wikipedia.org/wiki/Attack_surface) של המכשיר שלך ועשויה לסייע ב[הסלמה של הרשאות](https://en.wikipedia.org/wiki/Privilege_escalation) פגיעויות ועקיפות מדיניות SELinux.
+[השרשת](https://en.wikipedia.org/wiki/Rooting_(Android)) טלפונים אנדרואיד יכולים להפחית את האבטחה באופן משמעותי מכיוון שהוא מחליש את [מודל האבטחה של אנדרואיד](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). זה יכול להפחית את הפרטיות אם יש ניצול הנעזר בירידה באבטחה. שיטות השתרשות נפוצות כוללות התעסקות ישירה במחיצת האתחול, מה שהופך את זה לבלתי אפשרי לבצע אתחול מאומת בהצלחה. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. חשיפת השורש ישירות בממשק המשתמש גם מגדילה את [משטח ההתקפה](https://en.wikipedia.org/wiki/Attack_surface) של המכשיר שלך ועשויה לסייע ב[הסלמה של הרשאות](https://en.wikipedia.org/wiki/Privilege_escalation) פגיעויות ועקיפות מדיניות SELinux.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. הם גם לא הדרך הנכונה לפתור את מטרותיהם המיועדות. For content blocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl ו-AdAway במצב ללא-שורש יתפסו את חריץ ה-VPN (על ידי שימוש ב-VPN עם לולאה מקומית) וימנעו ממך להשתמש בשירותים לשיפור הפרטיות כגון Orbot או שרת VPN אמיתי.
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. הם גם לא הדרך הנכונה לפתור את מטרותיהם המיועדות. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
 AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) וייתכן שניתן לעקוף אותו במצבים מסוימים.
 
@@ -32,7 +32,7 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 ### התקן עדכונים
 
-חשוב לא להשתמש בגרסת [סוף החיים](https://endoflife.date/android) של אנדרואיד. גרסאות חדשות יותר של אנדרואיד לא רק מקבלות עדכוני אבטחה עבור מערכת ההפעלה אלא גם עדכונים חשובים לשיפור הפרטיות.
+חשוב לא להשתמש בגרסת [סוף החיים](https://endoflife.date/android) של אנדרואיד. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
 
 לדוגמה, [לפני אנדרואיד 10](https://developer.android.com/about/versions/10/privacy/changes) כל אפליקציה עם הרשאת [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) יכלו לגשת למספרים סידוריים רגישים וייחודיים של הטלפון שלך כגון [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), כרטיס ה-SIM שלך;[IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), בעוד שכעת הם חייבים להיות אפליקציות מערכת כדי לעשות זאת. אפליקציות מערכת מסופקות רק על ידי הפצת OEM או אנדרואיד.
 
@@ -54,7 +54,7 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 למרבה הצער, יצרני ציוד מקורי מחויבים לתמוך באתחול מאומת רק בהפצת אנדרואיד בברירת מחדל שלהם. רק כמה יצרני OEM כגון גוגל תומכים ברישום מפתח AVB מותאם אישית במכשירים שלהם. בנוסף, חלק מנגזרות AOSP כגון LineageOS או /e/ OS אינן תומכות ב-Verified Boot אפילו בחומרה עם תמיכה ב-Verified Boot עבור מערכות הפעלה של צד שלישי. אנו ממליצים לבדוק אם יש תמיכה **לפני** רכישת מכשיר חדש. נגזרות AOSP שאינן תומכות באתחול מאומת **לא** מומלצות.
 
-יצרני OEM רבים גם עשו יישום שבור של אתחול מאומת שעליך להיות מודע אליו מעבר לשיווק שלהם. לדוגמה, ה-Fairphone 3 ו-4 אינם מאובטחים כברירת מחדל, מכיוון ש[מטען האתחול של הברירת מחדל סומך על מפתח החתימה הציבורי של ](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)AVB. זה שובר אתחול מאומת במכשיר Fairphone ברירת מחדל, מכיוון שהמערכת תאתחל מערכות הפעלה חלופיות של אנדרואיד כגון (כגון /e/) [ללא כל אזהרה](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) לגבי שימוש מותאם אישית במערכת ההפעלה.
+יצרני OEM רבים גם עשו יישום שבור של אתחול מאומת שעליך להיות מודע אליו מעבר לשיווק שלהם. לדוגמה, ה-Fairphone 3 ו-4 אינם מאובטחים כברירת מחדל, מכיוון ש[מטען האתחול של הברירת מחדל סומך על מפתח החתימה הציבורי של ](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)AVB. This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
 ### עדכוני קושחה
 
@@ -91,7 +91,7 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 אנדרואיד 13:
 
-- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
 - [הרשאות מדיה מפורטות](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions) יותר, כלומר אתה יכול להעניק גישה לתמונות, סרטונים או קבצי אודיו בלבד.
 - שימוש ברקע בחיישנים מחייב כעת את הרשאת [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
@@ -137,11 +137,11 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### בוררים גלובליים
 
-למכשירי אנדרואיד מודרניים יש בוררים גלובליים לביטול Bluetooth ושירותי מיקום. אנדרואיד 12 הציגה מתגים למצלמה ולמיקרופון. כאשר אינו בשימוש, אנו ממליצים להשבית את התכונות הללו. אפליקציות לא יכולות להשתמש בתכונות מושבתות (גם אם ניתנה הרשאה אישית) עד להפעלה מחדש.
+למכשירי אנדרואיד מודרניים יש בוררים גלובליים לביטול Bluetooth ושירותי מיקום. אנדרואיד 12 הציגה מתגים למצלמה ולמיקרופון. כאשר אינו בשימוש, אנו ממליצים להשבית את התכונות הללו. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
 ## שירותי גוגל
 
-אם אתה משתמש במכשיר עם שירותי Google, בין אם מערכת ההפעלה ברירת מחדל שלך או מערכת הפעלה המארחת בבטחה את שירותי Google Play כמו GrapheneOS, ישנם מספר שינויים נוספים שתוכל לבצע כדי לשפר את הפרטיות שלך. אנו עדיין ממליצים להימנע לחלוטין משירותי Google, או להגביל את שירותי Google Play לפרופיל משתמש/עבודה ספציפי על ידי שילוב של בקר מכשיר כמו *Shelter* עם Google Play Sandboxed של GrapheneOS.
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. אנו עדיין ממליצים להימנע לחלוטין משירותי Google, או להגביל את שירותי Google Play לפרופיל משתמש/עבודה ספציפי על ידי שילוב של בקר מכשיר כמו *Shelter* עם Google Play Sandboxed של GrapheneOS.
 
 ### תוכנית הגנה מתקדמת
 
@@ -178,7 +178,7 @@ All devices with Google Play Services installed automatically generate an [adver
 - :gear: **הגדרות** ← **גוגל** ← **מודעות**
 - :gear: **הגדרות** ← **פרטיות** ← **מודעות**
 
-תינתן לך האפשרות למחוק את מזהה הפרסום שלך או *לבטל את הסכמתך למודעות מבוססות עניין*, זה משתנה בין הפצות OEM של אנדרואיד. אם מוצגת האפשרות למחוק את מזהה הפרסום המועדף. אם לא, הקפד לבטל את הסכמתך ולאפס את מזהה הפרסום שלך.
+You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. אם לא, הקפד לבטל את הסכמתך ולאפס את מזהה הפרסום שלך.
 
 ### SafetyNet ו-Play Integrity API
 

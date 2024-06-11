@@ -98,7 +98,7 @@ Privacy Guides에서 권장하는 커스텀 Android 운영 체제의 우선 순�
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-지원 종료 기기(GrapheneOS, CalyxOS에서 '연장 지원'에 해당하는 기기)의 경우, OEM 지원 중단으로 인해 전체 보안 패치(펌웨어 업데이트)를 제공받을 수 없습니다. 지원 종료 기기는 그 어떤 소프트웨어를 설치하더라도 완벽히 안전하다고 간주할 수 없습니다.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. 지원 종료 기기는 그 어떤 소프트웨어를 설치하더라도 완벽히 안전하다고 간주할 수 없습니다.
 
 </div>
 

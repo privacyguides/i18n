@@ -22,9 +22,9 @@ Idealmente, quando si sceglie una distribuzione modificata di Android, bisogna a
 
 ### Evitare il rooting
 
-Il [rooting](https://it.wikipedia.org/wiki/Rooting) dei telefoni Android può diminuire notevolmente la sicurezza in quanto indebolisce nel complesso il [modello di sicurezza di Android](https://it.wikipedia.org/wiki/Android#Privacy_e_sicurezza). Ciò può ridurre la privacy in caso di exploit assistito dalla sicurezza ridotta. I metodi di rooting comuni richiedono la manomissione diretta della partizione d'avvio, rendendo impossibile l'esecuzione corretta dell'Avvio Verificato. Le app che richiedono root, inoltre, modificheranno la partizione di sistema, a significare che l'Avvio Verificato dovrebbe rimanere disabilitato. Esporre il root direttamente nell'interfaccia utente, inoltre, incrementa la [superficie d'attacco](https://en.wikipedia.org/wiki/Attack_surface) del tuo dispositivo e potrebbe favorire le vulnerabilità d'[intensificazione del privilegio](https://en.wikipedia.org/wiki/Privilege_escalation) e aggiramenti della politica di SELinux.
+Il [rooting](https://it.wikipedia.org/wiki/Rooting) dei telefoni Android può diminuire notevolmente la sicurezza in quanto indebolisce nel complesso il [modello di sicurezza di Android](https://it.wikipedia.org/wiki/Android#Privacy_e_sicurezza). Ciò può ridurre la privacy in caso di exploit assistito dalla sicurezza ridotta. I metodi di rooting comuni richiedono la manomissione diretta della partizione d'avvio, rendendo impossibile l'esecuzione corretta dell'Avvio Verificato. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Esporre il root direttamente nell'interfaccia utente, inoltre, incrementa la [superficie d'attacco](https://en.wikipedia.org/wiki/Attack_surface) del tuo dispositivo e potrebbe favorire le vulnerabilità d'[intensificazione del privilegio](https://en.wikipedia.org/wiki/Privilege_escalation) e aggiramenti della politica di SELinux.
 
-I content blocker che modificano il [file hosts](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) e i firewall (AFWall+) che richiedono un accesso root persistente sono pericolosi e non dovrebbero essere utilizzati. Inoltre, sono il modo errato per risolvere i loro scopi. Per il blocco dei contenuti suggeriamo invece soluzioni di blocco tramite [DNS cifrato](../dns.md) o [server VPN](../vpn.md). RethingDNS, TrackerControl e AdAway in modalità non di root, occuperanno lo slot della VPN (utilizzando una VPN di loopback locale), impedendoti di utilizzare i servizi di miglioramento della privacy, come Orbot o un vero server VPN.
+I content blocker che modificano il [file hosts](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) e i firewall (AFWall+) che richiedono un accesso root persistente sono pericolosi e non dovrebbero essere utilizzati. Inoltre, sono il modo errato per risolvere i loro scopi. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
 AFWall+ opera secondo l'approccio di [filtraggio dei pacchetti](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) e potrebbe essere aggirabile in certe situazioni.
 
@@ -32,7 +32,7 @@ Non crediamo che i sacrifici di sicurezza effettuati dal rooting di un telefono,
 
 ### Installare Aggiornamenti
 
-È importante non utilizzare una versione di Android arrivata al [termine della sua vita](https://endoflife.date/android). Le più recenti versioni di Android non soltanto ricevono gli aggiornamenti di sicurezza per il sistema operativo, ma anche importanti aggiornamenti di miglioramento della privacy.
+È importante non utilizzare una versione di Android arrivata al [termine della sua vita](https://endoflife.date/android). Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
 
 Ad esempio, [prima di Android 10](https://developer.android.com/about/versions/10/privacy/changes), qualsiasi app avente l'autorizzazionee [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) poteva accedere a numeri di serie univoci e sensibili del tuo telefono, quali l'[IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), il [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), o l'[IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity) della tua scheda SIM; mentre ora soltanto le app di sistema possono farlo. Le app di sistema sono fornite soltanto dall'OEM o dalla distribuzione di Android.
 
@@ -54,7 +54,7 @@ L'Avvio Verificato assicura l'integrità dei file del sistema operativo, dunque 
 
 Sfortunatamente, gli OEM devono supportare l'Avvio Verificato sulla propria distribuzione Android stock. Solo alcuni OEM, come Google, supportano la registrazione di chiavi AVB personalizzate sui propri dispositivi. Inoltre, alcuni AOSP derivati come LineageOS o /e/ OS, non supportano l'Avvio Verificato anche su hardware che lo supporta, per i sistemi operativi di terze parti. Ti consigliamo di verificare il supporto **prima** di acquistare un nuovo dispositivo. I derivati AOSP che non supportano l'Avvio Verificato **non** sono consigliati.
 
-Inoltre, molti OEM dispongono di un'implementazione corrotta dell'Avvio Verificato, di cui devi essere consapevole, al di là del loro marketing. Ad esempio, i Fairphone 3 e 4 non sono sicuri di default, poiché il [bootloader di fabbrica si fida della chiave di firma AVB pubblica](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Ciò invalida l'avvio verificato su un dispositivo di fabbrica Fairphone, poiché il sistema avvierà i sistempi operativi Android alternativi (come /e/) [senza alcun avviso](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) sull'utilizzo del sistema operativo personalizzato.
+Inoltre, molti OEM dispongono di un'implementazione corrotta dell'Avvio Verificato, di cui devi essere consapevole, al di là del loro marketing. Ad esempio, i Fairphone 3 e 4 non sono sicuri di default, poiché il [bootloader di fabbrica si fida della chiave di firma AVB pubblica](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
 ### Aggiornamenti del firmware
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- Un'autorizzazione per l'[accesso alle Wi-Fi nelle vicinanze](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Gli indirizzi MAC dei punti di accesso Wi-Fi nelle vicinanze erano un modo molto diffuso per le app di tracciare la posizione di un utente.
+- Un'autorizzazione per l'[accesso alle Wi-Fi nelle vicinanze](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
 - Ulteriori [autorizzazioni multimediali granulari](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), a significare che puoi concedere l'accesso ai soli file immagine, video o audio.
 - L'utilizzo in background dei sensori richiede adesso l'autorizzazione [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
@@ -137,11 +137,11 @@ Android 7 e successivi supporta un kill switch VPN, disponibile senza la necessi
 
 ### Interruttori globali
 
-I dispositivi Android moderni dispongono di interruttori globali per disabilitare i servizi Bluetooth e della posizione. Android 12 ha introdotto gli interruttori per la fotocamera e il microfono. Quando non sono in uso, consigliamo di disabilitare queste funzionalità. Le app non possono utilizzare le funzionalità disabilitate (anche se la singola autorizzazione è concessa), finché non sono riabilitate.
+I dispositivi Android moderni dispongono di interruttori globali per disabilitare i servizi Bluetooth e della posizione. Android 12 ha introdotto gli interruttori per la fotocamera e il microfono. Quando non sono in uso, consigliamo di disabilitare queste funzionalità. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
 ## Servizi di Google
 
-Se utilizzi un dispositivo provvisto dei servizi di Google, il tuo sistema operativo di fabbrica o un sistema operativo che mette in sicurezza Google Play Services, come GrapheneOS, esistono numerose modifiche aggiuntive che puoi effettuare per migliorare la tua privacy. Comunque, consigliamo di evitare interamente i servizi di Google, o di limitare Google Play Services a un profilo dell'utente/di lavoro specifico, combinando un controllore del dispositivo come *Shelter*, con il Google Play di GrapheneOS.
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. Comunque, consigliamo di evitare interamente i servizi di Google, o di limitare Google Play Services a un profilo dell'utente/di lavoro specifico, combinando un controllore del dispositivo come *Shelter*, con il Google Play di GrapheneOS.
 
 ### Programma di protezione avanzata
 
@@ -178,7 +178,7 @@ Sulle distribuzioni di Android con Google Play Services privilegiati (come gli O
 - :gear: **Impostazioni** → **Google** → **Pubblicità**
 - :gear: **Impostazioni** → **Privacy** → **Pubblicità**
 
-Potrai eliminare il tuo ID pubblicitario o *Rinunciare agli annunci basati sugli interessi*, a seconda delle distribuzioni OEM di Android. L'opzione di eliminare l'ID pubblicitario, se presente, è preferibile. Altrimenti, assicurati di rinunciare e di ripristinare il tuo ID pubblicitario.
+You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. Altrimenti, assicurati di rinunciare e di ripristinare il tuo ID pubblicitario.
 
 ### SafetyNet e API di Play Integrity
 

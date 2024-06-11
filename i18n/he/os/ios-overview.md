@@ -8,9 +8,9 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 ## הערות פרטיות
 
-מכשירי iOS זוכים לעתים קרובות לשבחים על ידי מומחי אבטחה על הגנת הנתונים האיתנה והעמידה בשיטות המומלצות המודרניות. עם זאת, ההגבלה של המערכת האקולוגית של אפל - במיוחד עם המכשירים הניידים שלה - עדיין פוגעת בפרטיות במספר דרכים.
+iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. עם זאת, ההגבלה של המערכת האקולוגית של אפל - במיוחד עם המכשירים הניידים שלה - עדיין פוגעת בפרטיות במספר דרכים.
 
-בדרך כלל אנו מחשיבים את iOS כמספקת הגנות פרטיות ואבטחה טובות מהממוצע עבור רוב האנשים, בהשוואה למכשירי אנדרואיד במלאי מכל יצרן. עם זאת, אתה יכול להשיג סטנדרטים גבוהים עוד יותר של פרטיות עם [מערכת הפעלה אנדרואיד מותאמת אישית](../android.md) כמו GrapheneOS, אם אתה רוצה או צריך להיות בלתי תלוי לחלוטין באפל או בשירותי הענן של גוגל.
+בדרך כלל אנו מחשיבים את iOS כמספקת הגנות פרטיות ואבטחה טובות מהממוצע עבור רוב האנשים, בהשוואה למכשירי אנדרואיד במלאי מכל יצרן. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### נעילת הפעלה
 
@@ -56,7 +56,7 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 **Find My** הוא שירות המאפשר לך לעקוב אחר מכשירי ה אפל שלך ולשתף את המיקום שלך עם חברים ובני משפחה. הוא גם מאפשר לך למחוק את המכשיר שלך מרחוק במקרה שהוא נגנב, ומונע מגנב לגשת לנתונים שלך. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
 
-- המיקום משותף עם בן משפחה או חבר, ושניכם משתמשים ב - iOS 15 או יותר.
+- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
 - המכשיר שלך לא מחובר וממוקם על ידי 'מצא את הרשת שלי '.
 
 נתוני המיקום שלך אינם E2EE כאשר המכשיר שלך מחובר ואתה משתמש ב - Find My iPhone מרחוק כדי לאתר את המכשיר שלך. תצטרך לקבל את ההחלטה אם תמורות אלה שוות את היתרונות נגד גניבה של נעילת הפעלה.
@@ -125,11 +125,11 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 בחלק מהמכשירים הישנים יותר, ייתכן שתצטרך ללחוץ על כפתור ההפעלה חמש פעמים כדי להשבית את הביומטרי במקום זאת, או עבור מכשירים עם Touch ID ייתכן שתצטרך ללחוץ על כפתור ההפעלה ותו לא. הקפד לנסות זאת מראש כדי שתדע איזו שיטה עובדת עבור המכשיר שלך.
 
-**Stolen Data Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
+**Stolen Device Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
 
 - [x] Select **Turn On Protection**
 
-After enabling stolen data protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling lost mode. It also adds a security delay to certain actions performed away from your home or other "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
 
 **אפשר גישה כאשר הוא נעול** נותן לך אפשרויות למה שאתה יכול לאפשר כשהטלפון שלך נעול. ככל שתבטל יותר מהאפשרויות האלה, כך מישהו ללא הסיסמה שלך יכול לעשות פחות, אבל זה יהיה פחות נוח עבורך. תברר ובחר לאילו מבין אלה אינך רוצה שלמישהו תהיה גישה אם הוא ישים את ידו על הטלפון שלך.
 
@@ -169,7 +169,7 @@ After enabling stolen data protection, [certain actions](https://support.apple.c
 
 - [ ] כבה את **חיישן & איסוף נתוני שימוש**
 
-**בדיקת בטיחות** מאפשרת לך להציג ולבטל במהירות אנשים ואפליקציות מסוימים שעשויים לקבל הרשאה לגשת לנתונים שלך. כאן אתה יכול לבצע **איפוס חירום**, לאפס מיד את ההרשאות עבור כל האנשים והאפליקציות שאולי יש להם גישה למשאבי המכשיר, ותוכל **נהל שיתוף & גישה**המאפשר לך לעבור ולהתאים אישית למי ולמה יש גישה למשאבי המכשיר ולחשבון שלך.
+**בדיקת בטיחות** מאפשרת לך להציג ולבטל במהירות אנשים ואפליקציות מסוימים שעשויים לקבל הרשאה לגשת לנתונים שלך. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
 
 עליך להשבית את הניתוח אם אינך רוצה לשלוח נתוני שימוש לאפל. בחר **אנליטיקס& שיפורים**:
 
@@ -179,7 +179,7 @@ After enabling stolen data protection, [certain actions](https://support.apple.c
 - [ ] כבה את **שפר את הבטיחות**
 - [ ] כבה את **שפר את Siri & הכתבה**
 
-השבת את **מודעות מותאמות אישית** אם אינך מעוניין במודעות ממוקדות. בחר **פרסום של Apple**
+השבת את **מודעות מותאמות אישית** אם אינך מעוניין במודעות ממוקדות. Select **Apple Advertising**:
 
 - [ ] כבה את **מודעות מותאמות אישית**
 
@@ -203,7 +203,7 @@ After enabling stolen data protection, [certain actions](https://support.apple.c
 
 ### Imessage מוצפן
 
-צבע בועת ההודעה באפליקציית ההודעות מציין אם ההודעות שלך הן E2EE או לא. בועה כחולה מציינת שאתה משתמש ב-iMessage עם E2EE, בעוד בועה ירוקה מציינת שהם משתמשים בפרוטוקולי ה-SMS וה-MMS המיושנים. נכון לעכשיו, הדרך היחידה להשיג E2EE בהודעות היא ששני הצדדים ישתמשו ב-iMessage במכשירי אפל.
+צבע בועת ההודעה באפליקציית ההודעות מציין אם ההודעות שלך הן E2EE או לא. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. נכון לעכשיו, הדרך היחידה להשיג E2EE בהודעות היא ששני הצדדים ישתמשו ב-iMessage במכשירי אפל.
 
 אם אתה או שותף ההודעות שלך הפעלת גיבוי iCloud ללא הגנת נתונים מתקדמת, מפתח ההצפנה יאוחסן בשרתים של אפל, כלומר הם יכולים לגשת להודעות שלך. בנוסף, החלפת המפתחות של iMessage אינה מאובטחת כמו יישומים אלטרנטיביים, כמו Signal (המאפשר לך להציג את מפתח הנמענים ולאמת באמצעות קוד QR), כך שאין להסתמך עליה עבור תקשורת רגישה במיוחד.
 

@@ -98,7 +98,7 @@ Consigliamo di installare uno di questi sistemi operativi personalizzati di Andr
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-I dispositivi al termine della propria vita (come i dispositivi a "supporto esteso" di GrapheneOS o CalyxOS), non hanno correzioni di sicurezza complete (aggiornamenti del firmware), a causa dell'interruzione del supporto dall'OEM. Questi dispositivi non sono considerabili interamente sicuri, indipendentemente dal software installato.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. Questi dispositivi non sono considerabili interamente sicuri, indipendentemente dal software installato.
 
 </div>
 

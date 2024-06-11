@@ -22,9 +22,9 @@ Idéalement, lorsque vous choisissez une distribution Android, vous devez vous a
 
 ### Éviter le rootage
 
-[Le rootage](https://en.wikipedia.org/wiki/Rooting_(Android)) des téléphones Android peut diminuer la sécurité de manière significative car il affaiblit complétement le modèle de sécurité d'[Android](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Cela peut nuire à la protection de la vie privée en cas d'exploitation facilitée par la diminution de la sécurité. Les méthodes courantes de rootage impliquent une modification directe de la partition de démarrage, ce qui rend impossible l'exécution du Démarrage Vérifié. Les applications qui requièrent un Android rooté modifieront également la partition du système, ce qui signifie que le Démarrage Vérifié devra rester désactivé. Le fait que le root soit exposé directement dans l'interface utilisateur augmente également la [surface d'attaque](https://en.wikipedia.org/wiki/Attack_surface) de votre appareil et peut contribuer aux vulnérabilités [d'élévation de privilèges](https://en.wikipedia.org/wiki/Privilege_escalation) et aux contournements de la politique SELinux.
+[Le rootage](https://en.wikipedia.org/wiki/Rooting_(Android)) des téléphones Android peut diminuer la sécurité de manière significative car il affaiblit complétement le modèle de sécurité d'[Android](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Cela peut nuire à la protection de la vie privée en cas d'exploitation facilitée par la diminution de la sécurité. Les méthodes courantes de rootage impliquent une modification directe de la partition de démarrage, ce qui rend impossible l'exécution du Démarrage Vérifié. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Le fait que le root soit exposé directement dans l'interface utilisateur augmente également la [surface d'attaque](https://en.wikipedia.org/wiki/Attack_surface) de votre appareil et peut contribuer aux vulnérabilités [d'élévation de privilèges](https://en.wikipedia.org/wiki/Privilege_escalation) et aux contournements de la politique SELinux.
 
-Les bloqueurs de contenu, qui modifient le [fichier hosts](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) et les pare-feu (AFWall+ ) qui requièrent un accès root de manière persistante sont dangereux et ne doivent pas être utilisés. Ils ne sont pas non plus la bonne façon de résoudre les problèmes auxquels ils sont destinés. Pour le blocage des contenus, nous suggérons plutôt des serveurs [DNS](../dns.md) chiffrés ou un [VPN](../vpn.md). RethinkDNS, TrackerControl et AdAway en mode non root occuperont l'emplacement VPN (afin de rediriger tout le trafic vers l'application), ce qui vous empêchera d'utiliser des vrais services améliorant votre vie privée tels qu'Orbot ou un vrai serveur VPN.
+Les bloqueurs de contenu, qui modifient le [fichier hosts](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) et les pare-feu (AFWall+ ) qui requièrent un accès root de manière persistante sont dangereux et ne doivent pas être utilisés. Ils ne sont pas non plus la bonne façon de résoudre les problèmes auxquels ils sont destinés. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
 AFWall+ fonctionne sur le [filtrage des paquets](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) et peut être contourné dans certaines situations.
 
@@ -32,7 +32,7 @@ Nous ne pensons pas que les sacrifices de sécurité en rootant un smartphone va
 
 ### Installer les mises à jour
 
-Il est important de ne pas utiliser une version d'Android [en fin de vie](https://endoflife.date/android). Les nouvelles versions d'Android reçoivent non seulement des mises à jour de sécurité pour le système d'exploitation, mais aussi d'importantes mises à jour destinées à améliorer votre vie privée.
+Il est important de ne pas utiliser une version d'Android [en fin de vie](https://endoflife.date/android). Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
 
 Par exemple, [avant Android 10](https://developer.android.com/about/versions/10/privacy/changes) toute application disposant de l'autorisation [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) pouvait accéder aux numéros de série sensibles et uniques de votre téléphone, tels que l'[IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), le [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), ou l'[IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity) de votre carte SIM ; alors qu'aujourd'hui, il doit s'agir d'applications système pour le faire. Les applications système sont uniquement fournies par le fabricant ou la distribution Android.
 
@@ -54,7 +54,7 @@ Le Démarrage Vérifié garantit l'intégrité des fichiers du système d'exploi
 
 Malheureusement, les fabricants sont tenus de prendre en charge le Démarrage Vérifié uniquement sur leurs distributions Android d'origine. Seuls quelques fabricants OEM, tels que Google, prennent en charge l'enrolement de clés AVB personnalisées sur leurs appareils. De plus, certaines ROM dérivées d'AOSP tels que LineageOS ou /e/ OS ne prennent pas en charge le Démarrage Vérifié, même si le matériel peut le prendre en charge. Nous vous recommandons de vérifier le support de cette fonctionnalité **avant** d'acheter un nouvel appareil. Les dérivés d'AOSP qui ne prennent pas en charge le Démarrage Vérifié ne sont **pas** recommandés.
 
-De nombreux contructeurs ont également une implémentation défectueuse du Démarrage Vérifié dont vous devez être conscient au-delà de leur marketing. Par exemple, les Fairphone 3 et 4 ne sont pas sécurisés par défaut, car le [chargeur d'amorçage d'origine fait confiance à la clé de signature AVB publique](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Cela contourne le Démarrage Vérifié sur un appareil Fairphone d'origine, car le système démarrera des systèmes d'exploitation Android alternatifs tels que (comme /e/) [sans aucun avertissement](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) sur l'utilisation d'un système d'exploitation personnalisé.
+De nombreux contructeurs ont également une implémentation défectueuse du Démarrage Vérifié dont vous devez être conscient au-delà de leur marketing. Par exemple, les Fairphone 3 et 4 ne sont pas sécurisés par défaut, car le [chargeur d'amorçage d'origine fait confiance à la clé de signature AVB publique](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
 ### Mises à jour du micrologiciel
 
@@ -91,7 +91,7 @@ Android 12 :
 
 Android 13 :
 
-- Une autorisation pour un [accès aux wifi à proximité](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Utiliser les adresses MAC des points d'accès WiFi à proximité était une technique populaire des applications pour suivre la position d'un utilisateur.
+- Une autorisation pour un [accès aux wifi à proximité](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
 - Des [autorisations plus granulaires pour les médias](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), ce qui signifie que vous pouvez accorder l'accès uniquement aux images, aux vidéos ou aux fichiers audio.
 - L'utilisation de capteurs en arrière-plan nécessite désormais l'autorisation [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
@@ -137,11 +137,11 @@ Android 7 et plus prennent en charge un arrêt d'urgence du VPN et il est dispon
 
 ### Boutons à bascule globaux
 
-Les appareils Android modernes disposent de boutons à bascule permettant de désactiver les services Bluetooth et de localisation. Android 12 a introduit des boutons à bascule pour l'appareil photo et le microphone. Lorsque vous n'utilisez pas ces fonctions, nous vous recommandons de les désactiver. Les applications ne peuvent pas utiliser les fonctions désactivées (même si elles ont reçu une autorisation individuelle) jusqu'à ce qu'elles soient réactivées.
+Les appareils Android modernes disposent de boutons à bascule permettant de désactiver les services Bluetooth et de localisation. Android 12 a introduit des boutons à bascule pour l'appareil photo et le microphone. Lorsque vous n'utilisez pas ces fonctions, nous vous recommandons de les désactiver. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
 ## Services Google
 
-Si vous utilisez un appareil doté des services Google, qu'il s'agisse de votre système d'exploitation d'origine ou d'un système d'exploitation qui intègre les services Google Play sandboxed en toute sécurité, comme GrapheneOS, vous pouvez apporter un certain nombre de modifications supplémentaires pour améliorer votre confidentialité. Nous recommandons toujours d'éviter complètement les services Google ou de limiter les services Google Play à un profil utilisateur/professionnel spécifique en combinant un contrôleur d'appareil comme *Shelter* avec le Sandboxed Google Play de GrapheneOS.
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. Nous recommandons toujours d'éviter complètement les services Google ou de limiter les services Google Play à un profil utilisateur/professionnel spécifique en combinant un contrôleur d'appareil comme *Shelter* avec le Sandboxed Google Play de GrapheneOS.
 
 ### Programme de Protection Avancé
 
@@ -178,7 +178,7 @@ Sur les distributions Android avec des services Google Play privilégiés (comme
 - :gear: **Paramètres** → **Google** → **Annonces**
 - :gear: **Paramètres** → **Confidentialité** → **Annonces**
 
-Vous aurez la possibilité de supprimer votre identifiant publicitaire ou de *refuser les publicités basées sur les centres d'intérêt*, cela varie selon les distributions OEM d'Android. Si l'on vous présente l'option de supprimer l'identifiant publicitaire, faites-le. Si ce n'est pas le cas, veillez à refuser la personnalisation des publicités puis à réinitialiser votre identifiant publicitaire.
+You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. Si ce n'est pas le cas, veillez à refuser la personnalisation des publicités puis à réinitialiser votre identifiant publicitaire.
 
 ### SafetyNet et Play Integrity API
 

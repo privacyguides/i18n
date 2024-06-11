@@ -22,9 +22,9 @@ Idealiter, wanneer je een aangepaste Android distributie kiest, moet je ervoor z
 
 ### Rooting vermijden
 
-[Rooten van](https://en.wikipedia.org/wiki/Rooting_(Android)) Android-telefoons kan de veiligheid aanzienlijk verminderen omdat het het volledige [Android beveiligingsmodel verzwakt](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Dit kan de privacy verminderen mocht er een exploit zijn die door de verminderde beveiliging wordt geholpen. Bij veelgebruikte rootingmethoden wordt rechtstreeks met de opstartpartitie geknoeid, waardoor het onmogelijk is om een succesvolle Verified Boot uit te voeren. Apps die root vereisen zullen ook de systeempartitie wijzigen, wat betekent dat Verified Boot uitgeschakeld zou moeten blijven. Als root direct in de gebruikersinterface wordt blootgesteld, wordt ook het [aanvalsoppervlak](https://en.wikipedia.org/wiki/Attack_surface) van jouw apparaat vergroot en kan het helpen bij [privilege-escalatie](https://en.wikipedia.org/wiki/Privilege_escalation) kwetsbaarheden en omzeilen van SELinux-beleidslijnen.
+[Rooten van](https://en.wikipedia.org/wiki/Rooting_(Android)) Android-telefoons kan de veiligheid aanzienlijk verminderen omdat het het volledige [Android beveiligingsmodel verzwakt](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Dit kan de privacy verminderen mocht er een exploit zijn die door de verminderde beveiliging wordt geholpen. Bij veelgebruikte rootingmethoden wordt rechtstreeks met de opstartpartitie geknoeid, waardoor het onmogelijk is om een succesvolle Verified Boot uit te voeren. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Als root direct in de gebruikersinterface wordt blootgesteld, wordt ook het [aanvalsoppervlak](https://en.wikipedia.org/wiki/Attack_surface) van jouw apparaat vergroot en kan het helpen bij [privilege-escalatie](https://en.wikipedia.org/wiki/Privilege_escalation) kwetsbaarheden en omzeilen van SELinux-beleidslijnen.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Zij zijn ook niet de juiste manier om het beoogde doel te bereiken. For content blocking we suggest encrypted [DNS](../dns.md) or [VPN](../vpn.md) server blocking solutions instead. RethinkDNS, TrackerControl en AdAway in niet-root modus zullen het VPN-slot innemen (door gebruik te maken van een lokale loopback VPN) waardoor je geen privacy verhogende diensten zoals Orbot of een echte VPN-server kunt gebruiken.
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Zij zijn ook niet de juiste manier om het beoogde doel te bereiken. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
 AFWall+ werkt op basis van de [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) benadering en kan in sommige situaties omzeild worden.
 
@@ -32,7 +32,7 @@ Wij geloven niet dat de veiligheidsoffers die gemaakt worden door het rooten van
 
 ### Install Updates
 
-Het is belangrijk om geen [end-of-life](https://endoflife.date/android) versie van Android te gebruiken. Nieuwere versies van Android krijgen niet alleen beveiligingsupdates voor het besturingssysteem, maar ook belangrijke updates die privacy verbeteren.
+Het is belangrijk om geen [end-of-life](https://endoflife.date/android) versie van Android te gebruiken. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
 
 For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. Systeem-apps worden alleen geleverd door de OEM of de Android-distributie.
 
@@ -54,7 +54,7 @@ Verified Boot garandeert de integriteit van de besturingssysteembestanden en voo
 
 OEM's zijn helaas alleen verplicht om de verspreiding van geverifieerde Boot op hun voorraad Android te ondersteunen. Slechts enkele OEM's, zoals Google, ondersteunen aangepaste AVB key enrollment op hun toestellen. Bovendien ondersteunen sommige AOSP afgeleiden zoals LineageOS of /e/ OS Verified Boot niet, zelfs niet op hardware met Verified Boot-ondersteuning voor besturingssystemen van derden. Wij raden je aan te controleren of er ondersteuning is op **voordat je** een nieuw apparaat aanschaft. AOSP-derivaten die geen Geverifieerde Boot ondersteunen, worden **niet** aanbevolen.
 
-Veel OEM's hebben ook een gebroken uitvoering van Verified Boot waar je je bewust van moet zijn buiten hun marketing. De Fairphone 3 en 4 zijn bijvoorbeeld standaard niet veilig, aangezien de [standaard bootloader vertrouwt op de publieke AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Dit breekt geverifieerd opstarten op een standaard Fairphone toestel, omdat het systeem alternatieve Android besturingssystemen zoals (zoals /e/) [zal opstarten zonder enige waarschuwing](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) over aangepast besturingssysteem gebruik.
+Veel OEM's hebben ook een gebroken uitvoering van Verified Boot waar je je bewust van moet zijn buiten hun marketing. De Fairphone 3 en 4 zijn bijvoorbeeld standaard niet veilig, aangezien de [standaard bootloader vertrouwt op de publieke AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
 ### Firmware-updates
 
@@ -91,7 +91,7 @@ Android 12:
 
 Android 13:
 
-- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points was a popular way for apps to track a user's location.
+- A permission for [nearby Wi-Fi access](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
 - Een meer [granulaire mediatoestemmingen](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), wat betekent dat je alleen toegang kan verlenen tot afbeeldingen, video's of audiobestanden.
 - Achtergrondgebruik van sensoren vereist nu de toestemming [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
@@ -137,11 +137,11 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ### Globale schakelaars
 
-Moderne Android-toestellen hebben globale toggles voor het uitschakelen van Bluetooth en locatiediensten. Android 12 introduceerde toggles voor de camera en microfoon. Wanneer u deze functies niet gebruikt, raden wij je aan ze uit te schakelen. Apps kunnen geen gebruik maken van uitgeschakelde functies (zelfs niet als daarvoor individuele toestemming is verleend) totdat ze weer zijn ingeschakeld.
+Moderne Android-toestellen hebben globale toggles voor het uitschakelen van Bluetooth en locatiediensten. Android 12 introduceerde toggles voor de camera en microfoon. Wanneer u deze functies niet gebruikt, raden wij je aan ze uit te schakelen. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
 ## Google Services
 
-Als je een apparaat gebruikt met Google-diensten, hetzij ujouw standaard besturingssysteem of een besturingssysteem dat Google Play Services veilig sandboxed zoals GrapheneOS, zijn er een aantal extra wijzigingen die je kunt aanbrengen om jouw privacy te verbeteren. We raden nog steeds aan om Google diensten volledig te vermijden, of om Google Play diensten te beperken tot een specifiek gebruiker/werkprofiel door een apparaatcontroller zoals *Shelter* te combineren met GrapheneOS's Sandboxed Google Play.
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. We raden nog steeds aan om Google diensten volledig te vermijden, of om Google Play diensten te beperken tot een specifiek gebruiker/werkprofiel door een apparaatcontroller zoals *Shelter* te combineren met GrapheneOS's Sandboxed Google Play.
 
 ### Geavanceerd beschermingsprogramma
 
@@ -178,7 +178,7 @@ Op Android distributies met geprivilegieerde Google Play Services (zoals standaa
 - :gear: **Instellingen** → **Google** → **Advertenties**
 - :gear: **Instellingen** → **Privacy** → **Advertenties**
 
-Je krijgt de optie om jouw advertentie-ID te verwijderen of om *af te melden voor op interesses gebaseerde advertenties*, dit varieert tussen OEM-distributies van Android. Als de mogelijkheid wordt geboden om de reclame-ID te wissen, heeft dat de voorkeur. Zo niet, zorg er dan voor dat je je afmeldt en jouw reclame-ID reset.
+You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. Zo niet, zorg er dan voor dat je je afmeldt en jouw reclame-ID reset.
 
 ### SafetyNet en Play Integrity API
 

@@ -98,7 +98,7 @@ schema:
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-למכשירי סוף החיים (כגון מכשירי "תמיכה מורחבת" של GrapheneOS או CalyxOS) אין תיקוני אבטחה מלאים (עדכוני קושחה) עקב הפסקת התמיכה של OEM. מכישירים אלה אינם יכולים להיחשב מאובטחים לחלוטין ללא קשר לתוכנה המותקנת.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. מכישירים אלה אינם יכולים להיחשב מאובטחים לחלוטין ללא קשר לתוכנה המותקנת.
 
 </div>
 

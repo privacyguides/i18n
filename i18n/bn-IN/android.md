@@ -98,7 +98,7 @@ We recommend installing one of these custom Android operating systems on your de
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-পুরোনো ডিভাইসগুলিতে (যেমন GrapheneOS CalyxOS এর "extended support" ডিভাইসগুলো) সম্পুর্ন সিকিউরিটি থাকে না, OEM সাপোর্ট দেওয়া বন্ধ করে দেওয়ার জন্য। যেকোনো সফটওয়্যার ইনস্টলড থাকুক না কেনো এইসমস্ত ডিভাইসগুলো কে কখনোই সম্পূর্ণ ভাবে নিরাপদ বিবেচনা করা যাবে না
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. যেকোনো সফটওয়্যার ইনস্টলড থাকুক না কেনো এইসমস্ত ডিভাইসগুলো কে কখনোই সম্পূর্ণ ভাবে নিরাপদ বিবেচনা করা যাবে না
 
 </div>
 

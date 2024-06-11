@@ -98,7 +98,7 @@ Recomendamos instalar um destes sistemas operativos Android personalizados no se
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Os dispositivos em fim de vida (como os dispositivos GrapheneOS ou CalyxOS com "suporte alargado") não têm patches de segurança completos (atualizações de firmware) devido ao fato de o OEM ter interrompido o suporte. Estes dispositivos não podem ser considerados completamente seguros, independentemente do software instalado.
+End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. Estes dispositivos não podem ser considerados completamente seguros, independentemente do software instalado.
 
 </div>
 
