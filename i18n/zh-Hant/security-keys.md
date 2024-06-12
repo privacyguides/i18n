@@ -62,16 +62,16 @@ Yubico 的 **YubiKey** 系列是最受歡迎的安全金鑰之一。 YubiKey 5 �
 
 [比較表](https://yubico.com/store/compare) 顯示 YubiKey 的功能以及與 Yubico [安全密鑰](#yubico-security-key) 系列之間相互比較。 YubiKey 好處之一是，一支可以滿足對安全密鑰硬體的全部期待。 建議購買前先 [作個小測驗](https://yubico.com/quiz/) ，確保做出正確的選擇。
 
-Yubikey 5系列具有FIDO 1級認證，這是最常見的。 However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [Yubikey 5 **FIPS** series](https://www.yubico.com/products/yubikey-fips/) key, or a [Yubico Security Key](#yubico-security-key). Most people do not have to worry about this distinction.
+Yubikey 5系列具有FIDO 1級認證，這是最常見的。 但是，某些政府或其他組織可能需要具有2 級認證的金鑰，這種情況下，必須購買[Yubikey 5 **FIPS** 系列](https://www.yubico.com/products/ yubikey -fips/) 金鑰，或 [Yubico 安全金鑰](#yubico-security-key)。 大多數人不必擔心這種差異。
 
-YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). All of Yubico's clients are open source.
+YubiKey 可以使用 [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) 或 [YubiKey 個人化工具]](https://yubico.com/support/download/yubikey-personalization-tools)。 若要管理 TOTP 程式碼，可用 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)。 Yubico 所有客戶端軟體都是開源。
 
-For models which support HOTP and TOTP, there are 2 slots in the OTP interface which could be used for HOTP and 32 slots to store TOTP secrets. These secrets are stored encrypted on the key and never expose them to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
+支持 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來存儲 TOTP 機密。 這些機密經加密後存儲在密鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-The firmware of YubiKey is not updatable. 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
+Yubikey 安全金鑰的韌體不可更新。 如果您想要使用較新韌體版本的功能，或者使用中的韌體版本存在漏洞，則需要購買新的金鑰。
 
 </div>
 
@@ -83,7 +83,7 @@ The firmware of YubiKey is not updatable. 如果您想要使用較新韌體版�
   ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
 </figure>
 
-**Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
+**Nitrokey** 有能夠支援 [FIDO2 和 WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) 的安全金鑰，稱為 **Nitrokey FIDO2**。 若要獲得 PGP 支援，您需要購買他們其他鑰匙，例如 **Nitrokey Start**、**Nitrokey Pro 2** 或 **Nitrokey Storage 2**。
 
 [:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
@@ -93,23 +93,23 @@ The firmware of YubiKey is not updatable. 如果您想要使用較新韌體版�
 
 </div>
 
-The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
+[比較表](https://nitrokey.com/#comparison) 顯示 Nitrokey 模式的功能以及比較方式。 **Nitrokey 3** 具有組合的功能集。
 
-Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
+Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來配置。
 
-For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
+支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以存儲 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
+雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的設備，但HOTP 和 TOTP存儲\* _未經加密_ \* ，容易受到物理攻擊。 如果需要存儲 HOTP 或 TOTP 這類祕密，強烈建議使用Yubikey 代替。
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+重置 Nitrokey 的 OpenPGP 介面會使密碼資料庫變為 [無法存取](https://docs.nitrokey.com/pro/linux/factory-reset)。
 
 </div>
 
@@ -119,16 +119,16 @@ Resetting the OpenPGP interface on a Nitrokey will also make the password databa
 
 ### 最低合格要求
 
-- Must use high quality, tamper resistant hardware security modules.
-- Must support the latest FIDO2 specification.
-- Must not allow private key extraction.
-- Devices which cost over $35 must support handling OpenPGP and S/MIME.
+- 必須使用高品質、防篡改的硬體安全模組。
+- 必須支援最新的 FIDO2 規格。
+- 不允許私鑰提取。
+- 價格超過 35美元的裝置必須支援處理 OpenPGP 和 S/MIME。
 
 ### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Should be available in USB-C form-factor.
-- Should be available with NFC.
-- Should support TOTP secret storage.
-- Should support secure firmware updates.
+- 應採用 USB-C 格式。
+- 應與 NFC一起使用。
+- 支持 TOTP 機密儲存。
+- 應支持安全軔體更新。

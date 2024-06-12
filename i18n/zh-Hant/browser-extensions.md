@@ -1,17 +1,17 @@
 ---
 title: 瀏覽器擴充套件
 icon: material/puzzle-outline
-description: These browser extensions can enhance your browsing experience and protect your privacy.
+description: 這些瀏覽器擴充套件可以增強瀏覽體驗並保護隱私。
 cover: browser-extensions.webp
 ---
 
-In general, we recommend keeping your browser extensions to a minimum to decrease your attack surface. They have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
+一般來說，建議將瀏覽器擴充套件維持在最低限度，以減少攻擊面。 它們在瀏覽器中擁有特權存取權限，要求用戶信任開發人員，也會[突顯出讓瀏覽器](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)，[削弱](https:/ /groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ）站點隔離。
 
-However, some provide functionality which can outweigh these downsides in certain situations, particularly when it comes to [content blocking](basics/common-threats.md#mass-surveillance-programs).
+然而，有些提供的功能在某些情況下可以克服這些缺點，特別是在[內容攔截](basics/common-threats.md#mass-surveillance-programs)方面。
 
-Don't install extensions which you don't immediately have a need for, or ones that duplicate the functionality of your browser. For example, [Brave](desktop-browsers.md#brave) users don't need to install uBlock Origin, because Brave Shields already provides the same functionality.
+不要安裝無立即需求的擴充套件，或與瀏覽器功能重複的擴充套件。 例如，[Brave](desktop-browsers.md#brave)使用者不需要安裝uBlock Origin，因為Brave Shields 已經提供了相同的功能。
 
-## Content Blockers
+## 內容攔截
 
 ### uBlock Origin
 
@@ -19,7 +19,7 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ align=right }
 
-**uBlock Origin** is a popular content blocker that could help you block ads, trackers, and fingerprinting scripts.
+**uBlock Origin** 是一款流行的內容攔截器，可攔截廣告、追蹤器和指紋辨識腳本。
 
 [:octicons-repo-16: Repository](https://github.com/gorhill/uBlock#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/gorhill/uBlock/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
@@ -37,9 +37,9 @@ Don't install extensions which you don't immediately have a need for, or ones th
 
 </div>
 
-We suggest following the [developer's documentation](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and picking one of the "modes". Additional filter lists can impact performance and [may increase attack surface](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css).
+建議遵循[開發人員文檔](https://github.com/gorhill/uBlock/wiki/Blocking-mode)並選擇其中一種「模式」。 額外的過濾器清單可能會影響效能且[可能增加攻擊面](https://portswigger.net/research/ublock-i-exfiltrate-exploiting-ad-blockers-with-css)。
 
-These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists) that you may want to consider adding:
+這些是可能需要考慮添加的其他[過濾器列表](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists)：
 
 - [x] 勾選 **Privacy** > **AdGuard URL Tracking Protection**
 - 新增 [Actually Legitimate URL Shortener Tool](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
@@ -49,14 +49,14 @@ These are some other [filter lists](https://github.com/gorhill/uBlock/wiki/Dashb
 uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集非常有限。 但比之成熟的姊妹產品它具有一些明顯優勢值得考慮，如果...
 
 - ...不想對擴充功能授予完整的「讀取/修改網站資料」權限（即使是像 uBlock Origin 這樣受信任的擴充功能）
-- ...you want a more resource (memory/CPU) efficient content blocker[^1]
+- ....想要一個更多資源（記憶體/CPU）高效的內容攔截器[^1]
 - ...瀏覽器只能支援 Manifest V3 擴展。
 
 <div class="admonition recommendation" markdown>
 
 ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
 
-**uBlock Origin Lite** is a Manifest V3 compatible content blocker. 相較於 _uBlock Origin_ ，此附加元件不需要廣泛的「讀取/修改資料」權限即可運作。
+**uBlock Origin Lite** 是相容於 Manifest V3 的內容攔截器。 相較於 _uBlock Origin_ ，此附加元件不需要廣泛的「讀取/修改資料」權限即可運作。
 
 [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }

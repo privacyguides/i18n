@@ -98,7 +98,7 @@ schema:
 <div class="admonition note" markdown>
 <p class="admonition-title">Note "備註"</p>
 
-End-of-life devices (such as GrapheneOS's or CalyxOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. 這些設備無論安裝何種軟體，都不能視為完全安全。
+由於 OEM 停止支持，壽命終止的設備（如 GrapheneOS 或CalyxOS 的 "延長支授 "設備）沒有完整的安全補丁（軔體更新）。 這些設備無論安裝何種軟體，都不能視為完全安全。
 
 </div>
 

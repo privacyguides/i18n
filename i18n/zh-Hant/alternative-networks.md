@@ -5,7 +5,7 @@ description: These tools allow you to access networks other than the World Wide 
 cover: alternative-networks.webp
 ---
 
-## Anonymizing Networks
+## 匿名網路
 
 When it comes to anonymizing networks, we want to specially note that [Tor](advanced/tor-overview.md) is our top choice. It is by far the most utilized, robustly studied, and actively developed anonymous network. Using other networks could be more likely to endanger your anonymity, unless you know what you're doing.
 
@@ -30,7 +30,7 @@ The recommended way to access the Tor network is via the official Tor Browser, w
 [Tor Browser Info :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out!</p>
+<p class="admonition-title">試用一下！</p>
 
 You can try connecting to _Privacy Guides_ via Tor at [xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion](http://www.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion).
 
@@ -94,7 +94,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 Unlike Tor, all I2P traffic is internal to the I2P network, which means regular internet websites are **not** directly accessible from I2P. Instead, you can connect to websites which are hosted anonymously and directly on the I2P network, which are called "eepsites" and have domains which end in `.i2p`.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out!</p>
+<p class="admonition-title">試用一下！</p>
 
 You can try connecting to _Privacy Guides_ via I2P at [privacyguides.i2p](http://privacyguides.i2p/?i2paddresshelper=fvbkmooriuqgssrjvbxu7nrwms5zyhf34r3uuppoakwwsm7ysv6q.b32.i2p).
 

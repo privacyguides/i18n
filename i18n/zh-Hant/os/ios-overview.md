@@ -8,9 +8,9 @@ description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 
 
 ## 隱私筆記
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. 然而，Apple 生態系統的限制性——尤其是移動設備——仍然在很多方面阻礙了隱私。
+iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。 然而，Apple 生態系統的限制性——尤其是移動設備——仍然在很多方面阻礙了隱私。
 
-我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 不過，如希望或需要完全從 Apple 或 Google 雲獨立，您可以使用 GrapheneOS 等[自定義 Android 作業系統](../android.md#aosp-derivatives)來實現更高的隱私標準服務。
 
 ### 激活鎖
 
@@ -56,7 +56,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 **Find My(尋找我的iPhone)** 是一項服務，可讓您跟踪您的 Apple 設備並與朋友和家人分享您的位置。 若設備遭竊，它可以讓您從遠端進行抺除，從而防止小偷訪問您的資料。 在以下情況，「尋找我的」[位置資料為 E2EE](https://apple.com/legal/privacy/data/en/find-my)：
 
-- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
+- 您的位置已與家人或朋友共享，並且都使用 iOS 17 或更高版本。
 - 設備處於離線狀態，且由Find My 網路找到。
 
 設備有連線且遠程使用“尋找 iPhone”來定位您的設備，則位置資料不是 E2EE。 您必須決定權衡是否值得激活防盜鎖。
@@ -125,11 +125,11 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 在某些較舊的設備上，可能需要按電源按鈕五次才能禁用生物識別功能，或者具有 Touch ID 的設備，可能只需按住電源按鈕即可。 請事先嘗試此操作，以便知道哪種方法適用您的設備。
 
-**Stolen Device Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. 如在 Apple ID 設定中使用生物辨識技術和「尋找我的裝置」功能，我們建議啟用此新保護：
+**被盜設備保護**是iOS 17.3 的新功能，增加了額外的安全性，當設備在解鎖時被盜時保護您的個人資料。 如在 Apple ID 設定中使用生物辨識技術和「尋找我的裝置」功能，我們建議啟用此新保護：
 
 - [x] 選擇**開啟保護**
 
-After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
+啟用被盜設備保護後，[某些操作](https://support.apple.com/HT212510)將需要生物識別身份驗證，無需密碼回退（如果駭客准竊盜已獲得您的 PIN），例如使用密碼自動填寫功能就可訪問支付資訊並關閉遺失模式。 它還可以在住處或其他「熟悉位置」以外的地點執行的某些操作增加安全延遲，例如需要 1 小時計時器來重設 Apple ID 密碼或退出 Apple ID。 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
 
 **鎖定時允許存取** 提供您在手機鎖定時可以允許的選項。 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。 選擇不希望其他人接觸您的手機後訪問其中哪些內容。
 
@@ -169,7 +169,7 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [ ] 關閉 **感應器 & 使用資料收集**
 
-**安全檢查**可讓您快速查看和撤銷可能有權訪問您資料的某些人員和應用。 Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**安全檢查**可讓您快速查看和撤銷可能有權訪問您資料的某些人員和應用。 可在此處執行**緊急重設**，立即重設可能有權存取設備資源的所有人員和應用程式權限。 也可以**管理共享和共享存取權限**讓您查看並自訂有權存取裝置和帳戶資源的人員和內容。
 
 如不想發送 Apple 使用資料，應該禁用該分析。 選擇**分析& 改進**：
 
@@ -179,7 +179,7 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 - [ ] 關閉 **安全改進**
 - [ ] 關閉 **改善 Siri & 偵測**
 
-關閉 **個人化廣告** 如不願加入針對式行銷。 Select **Apple Advertising**:
+關閉 **個人化廣告** 如不願加入針對式行銷。 選擇 **Apple 廣告**:
 
 - [ ] 關閉 **個人化的廣告**
 
@@ -203,7 +203,7 @@ iPhone 越獄會破壞其安全性更容易受到攻擊。 運行不可信任的
 
 ### 加密的 iMessage
 
-Messages 應用程式中訊息氣泡的顏色指示該訊息是否為 E2EE。 A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. 要在 Messages 中實現 E2EE ，目前唯一方法只有雙方都在 Apple 設備上使用 iMessage。
+Messages 應用程式中訊息氣泡的顏色指示該訊息是否為 E2EE。 藍色氣泡表示您正將 iMessage 與 E2EE 結合使用，而綠色氣泡表示對方正在使用過時的 SMS 和 MMS 協議。 要在 Messages 中實現 E2EE ，目前唯一方法只有雙方都在 Apple 設備上使用 iMessage。
 
 如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密密鑰會存儲在 Apple 伺服器，這意味著他們可以訪問您的訊息。 此外，iMessage 的密鑰交換不如 Signal（它允許您查看收件人密鑰並通過 QR 碼進行驗證）等替代方案安全，因此不應依賴它進行敏感內容通訊。
 
