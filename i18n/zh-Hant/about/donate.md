@@ -1,19 +1,19 @@
 ---
-title: Supporting Us
+title: 支持我们
 ---
 
 <!-- markdownlint-disable MD036 -->
-It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. 如果您喜歡我們的工作，請考慮參與 [編輯網站](https://github.com/privacyguides/privacyguides.org) 或 [貢獻翻譯](https://crowdin.com/project/privacyguides)。
+這需要大量的[人員](contributors.md)和[工作](https://github.com/privacyguides/privacyguides.org/pulse/monthly)及時更新 Privacy Guides 並傳播有關隱私和大規模監控的資訊。 如果您喜歡我們的工作，請考慮參與 [編輯網站](https://github.com/privacyguides/privacyguides.org) 或 [貢獻翻譯](https://crowdin.com/project/privacyguides)。
 
-## Donate
+## 捐贈
 
-Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
+目前，支持的最佳方式是透過 GitHub 贊助每月或一次性捐款。 我們很快就能透過其他支付平台接受捐款。
 
-[:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+[:material-heart:{ .pg-red } 在 GitHub 上贊助我們](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
 
-We are also working with our fiscal host to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the near future. In the meantime, if you still wish to make a cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org) to arrange a transaction.
+我們也與財務主辦單位合作收受加密貨幣捐贈，目前對於許多較小的交易來說，會計上無法執行，但這應該很快會改善。 與此同時，如果仍希望加密貨幣捐贈，請聯絡 [jonah@privacyguides.org](mailto:jonah@privacyguides.org) 安排交易。
 
-## Merchandise
+## 周邊商品
 
 另一個支持我們的方是從 HelloTux 購買我們的商品。 每賣出一件 T-恤我們可獲得 $4元小額佣金，而您也可以得到一件優質商品。
 
@@ -43,6 +43,6 @@ Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目�
 
 我們偶爾會購買產品和服務，以測試我們的 [推薦工具](../tools.md)。
 
-Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+捐款將轉入 [MAGIC Grants](https://magicgrants.org/)（一個 501(c)(3) 組織）內的專用基金。 該資金將僅用於本專案項目。 您可獲得減稅資格。 如需要捐款收據，請發送電子郵件至 <info@magicgrants.org>。
 
 感謝所有支持本站宗旨的朋友！ :material-heart:{ .pg-red }
