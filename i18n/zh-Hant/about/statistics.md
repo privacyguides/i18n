@@ -1,17 +1,17 @@
 ---
-title: Traffic Statistics
+title: 流量統計
 ---
 
 <!-- markdownlint-disable MD051 -->
 
-We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below.
+我們自行託管 [Umami](https://umami.is) 來建立流量統計資料的視覺化效果，這些統計資料公開在下面的連結。
 
-[View Statistics](https://stats.privacyguides.net/share/nVWjyd2QfgOPBhMF/www.privacyguides.org){ .md-button .md-button--primary }
+[檢視流量統計](https://stats.privacyguides.net/share/nVWjyd2QfgOPBhMF/www.privacyguides.org){ .md-button .md-button--primary }
 
-With this process:
+透過這個過程：
 
-- Your information is never shared with a third-party, it stays on servers we control
-- Your personal data is never saved, we only collect data in aggregate
-- No client-side JavaScript is used
+- 您的資訊永遠不會與第三方共享，它保留在我們控制的伺服器上
+- 個人資料永遠不會保存，我們僅收集匯總數據
+- 不使用客戶端 JavaScript
 
-Because of these facts, keep in mind our statistics may be inaccurate. It is a useful tool to compare different dates with each other and analyze overall trends, but the actual numbers may be far off from reality. In other words they're _precise_ statistics, but not _accurate_ statistics.
+由於這些事實，請記住我們的統計數據可能不準確。 它是比較不同日期並分析整體趨勢的有用工具，但實際數字可能與現實相差甚遠。 換句話說，它們是「週全」的統計數據，但不是「準確的」統計數據。
