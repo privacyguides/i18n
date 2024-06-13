@@ -1,5 +1,5 @@
 ---
-title: Commit Messages
+title: 提交訊息
 ---
 
 For our commit messages we follow the style provided by [Conventional Commits](https://conventionalcommits.org). Not all of those suggestions are appropriate for Privacy Guides, so the main ones we use are:
@@ -12,7 +12,7 @@ We use `fix` for simple things like spelling mistakes or site related bugs. Thes
 fix: Correct spelling on XYZ page (#0000)
 ```
 
-## Update to site
+## 站台更新
 
 This example is for a removal of an item (but could also be used for an addition); you may elaborate why it was removed in the commit paragraph below. It can also be used for the addition of any new pages.
 
@@ -40,7 +40,7 @@ feat: Add blah blah (#0000)
 This change adds the forum topics to the main page
 ```
 
-## Module update
+## 模組更新
 
 Dependency updates follow the normal recommendations of beginning with:
 
