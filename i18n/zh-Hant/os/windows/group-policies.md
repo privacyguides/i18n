@@ -1,22 +1,22 @@
 ---
-title: Group Policy Settings
+title: 群組政策設置
 ---
 
-Outside of modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
+除了修改登錄機碼本身之外，**本機群組原則編輯器**是無需安裝第三方工具即可更改系統許多方面的最強大方法。 更改這些設定需要 [專業版](index.md#windows-editions) 或更高版本。
 
-These settings should be set on a brand new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictible behavior and is done at your own risk.
+這些設定應在全新安裝的 Windows 進行。 在現有安裝上設定它們應該可行，但還是有可能會引發不可預測的行為，須自行承擔風險。
 
-All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+所有設定在群組原則編輯器中都附有說明，非常詳細地準確說明了它們的作用。 更改時請注意這些描述，準確了解我們在此建議的內容。 當 Windows 附帶的解釋不充分時，我們在下面解釋了我們的一些選擇。
 
-## Administrative Templates
+## 管理模板
 
-You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
+可開啟「gpedit.msc」並導覽至左側側邊欄中的「**本機電腦政策**」>「**電腦設定**」>「**管理範本**」來找到這些設定。 此頁面上的標題對應於管理範本中的資料夾/子資料夾，項目符號對應於各個政策。
 
-To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
+若要變更任何群組政策，請雙擊它，然後根據下面的建議在出現的視窗頂部選擇「啟用」或「停用」。 某些群組政策可以配置的其他設置，如果是這種情況，下面也會註明相應的設置。
 
 ### 系統
 
-#### Device Guard
+#### 設備防護
 
 - Turn On Virtualization Based Security: **Enabled**
   - Platform Security Level: **Secure Boot and DMA Protection**
@@ -30,7 +30,7 @@ To change any group policy, double click it and select Enabled or Disabled at th
 
 Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
 
-#### OS Policies
+#### 作系系統政策
 
 - Allow Clipboard History: **Disabled**
 - Allow Clipboard synchronization across devices: **Disabled**
@@ -42,9 +42,9 @@ Note that disabling the Windows Customer Experience Improvement Program also dis
 
 - Turn off the advertising ID: **Enabled**
 
-### Windows Components
+### Windows 元件
 
-#### AutoPlay Policies
+#### 自動播放政策
 
 AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
 
@@ -53,7 +53,7 @@ AutoRun and AutoPlay are features which allow Windows to run a script or perform
 - Set the default behavior for AutoRun: **Enabled**
   - Default AutoRun Behavior: **Do not execute any AutoRun commands**
 
-#### BitLocker Drive Encryption
+#### BitLocker 磁碟機加密
 
 You may wish to re-encrypt your operating system drive after changing these settings.
 
@@ -62,14 +62,14 @@ You may wish to re-encrypt your operating system drive after changing these sett
 
 Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
 
-##### Operating System Drives
+##### 作業系統硬碟
 
 - Require additional authentication at startup: **Enabled**
 - Allow enhanced PINs for startup: **Enabled**
 
 Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the Bitlocker setup wizard.
 
-#### Cloud Content
+#### 雲端內容
 
 - Turn off cloud optimized content: **Enabled**
 - Turn off cloud consumer account state content: **Enabled**
@@ -92,7 +92,7 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
   - Options: **Disable Desktop Analytics collection**
 - Do not show feedback notifications: **Enabled**
 
-#### File Explorer
+#### 檔案總管
 
 - Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
 
@@ -119,15 +119,15 @@ This last setting disables OneDrive on your system; make sure to change it to **
 - Set what information is shared in Search: **Enabled**
   - Type of information: **Anonymous info**
 
-#### Sync your settings
+#### 同步設定
 
 - Do not sync: **Enabled**
 
-#### Text input
+#### 文本輸入
 
 - Improve inking and typing recognition: **Disabled**
 
-#### Windows Error Reporting
+#### Windows 錯誤報告
 
 - Do not send additional data: **Enabled**
 - Consent > Configure Default consent: **Enabled**
