@@ -28,7 +28,7 @@ title: 群組原則設置
 - 關閉 Windows 錯誤報告:**已啟用**
 - 關閉 Windows Messenger 客戶經驗改進計畫:**已啟用**
 
-Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
+請注意，停用 Windows 用戶體驗改善計畫也會停用一些其他也可以透過群組原則單獨控制的追蹤功能。 我們不會在這裡列出全部或停用它們，因為此設定涵蓋了這些。
 
 #### OS 原則
 
@@ -46,7 +46,7 @@ Note that disabling the Windows Customer Experience Improvement Program also dis
 
 #### 自動播放原則
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
+AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. 這可能會讓不受信任的裝置在不知情的情況下執行惡意程式碼。 最佳安全實踐是停用這些功能，手動開啟外部磁碟上的檔案。
 
 - 關閉自動播放:**已啟用**
 - 不允非磁區裝置的自動播放:**已啟用**
@@ -55,42 +55,42 @@ AutoRun and AutoPlay are features which allow Windows to run a script or perform
 
 #### BitLocker 磁碟機加密
 
-You may wish to re-encrypt your operating system drive after changing these settings.
+變更這些設定後，可能會想要重新加密作業系統磁碟機。
 
-- Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-  - Select the encryption method: **AES-256**
+- 選擇磁碟機加密演算法及金鑰加密強度 (Windows Vista, Windows Server 2008, Windows 7): **已啟用**
+  - 選取加密方法:**AES-256**
 
-Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
+設定 Windows 7 原則的密碼強度仍將該強度套用至較新版本的 Windows。
 
-##### 作業系統硬碟
+##### 作業系統磁碟機
 
-- Require additional authentication at startup: **Enabled**
+- 啟動時需要其它驗證:**已啟用**
 - Allow enhanced PINs for startup: **Enabled**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the Bitlocker setup wizard.
+這些原則，預設情況不會「要求」您執行任何操作，將解鎖「選項」以進行更複雜的設定（例如除了 TPM 之外，在啟動時還需要 PIN 碼） Bitlocker設定嚮導。
 
 #### 雲端內容
 
-- Turn off cloud optimized content: **Enabled**
-- Turn off cloud consumer account state content: **Enabled**
-- Do not show Windows tips: **Enabled**
-- Turn off Microsoft consumer experiences: **Enabled**
+- 關閉雲端最佳化內容:**已啟用**
+- 關閉雲端消費者狀態內容:**已啟用**
+- 不顯示 Windows 祕訣:**已啟用**
+- 關閉 Microsoft 消費者體驗:**已啟用**
 
-#### Credential User Interface
+#### 認證使用者介面
 
-- Require trusted path for credential entry: **Enabled**
-- Prevent the use of security questions for local accounts: **Enabled**
+- 要求認證項目之信任的路徑:**已啟用**
+- 禁止本機使用者使用安全性問題:\*\*_已啟用_
 
-#### Data Collection and Preview Builds
+#### 資料收集與預覽組建
 
-- Allow Diagnostic Data: **Enabled**
+- 允許電腦分析處理:**已啟用**
   - Options: **Send required diagnostic data** (Pro Edition); or
   - Options: **Diagnostic data off** (Enterprise or Education Edition)
 - Limit Diagnostic Log Collection: **Enabled**
 - Limit Dump Collection: **Enabled**
 - Limit optional diagnostic data for Desktop Analytics: **Enabled**
   - Options: **Disable Desktop Analytics collection**
-- Do not show feedback notifications: **Enabled**
+- 不顯示意見反應通知:**已啟用**
 
 #### 檔案總管
 
@@ -98,37 +98,37 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 
 #### MDM
 
-- Disable MDM Enrollment: **Enabled**
+- 停用 (MDM) 註冊: **已啟用**
 
 #### OneDrive
 
-- Save documents to OneDrive by default: **Disabled**
-- Prevent OneDrive from generating network traffic until the user signs in to OneDrive: **Enabled**
-- Prevent the usage of OneDrive for file storage: **Enabled**
+- 預設將文件儲存到 OneDrive:**已停用**
+- 防止 OneDrive 在使用者登入 OneDrive 前產生網路流量:**已啟用**
+- 防止使用 OneDrive 儲存檔案: **已啟用**
 
 This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
 
-#### Push To Install
+#### 推送安裝
 
-- Turn off Push To Install service: **Enabled**
+- 關閉裝送安裝服務:**已啟用**
 
 #### 搜尋
 
-- Allow Cortana: **Disabled**
-- Don't search the web or display web results in Search: **Enabled**
-- Set what information is shared in Search: **Enabled**
-  - Type of information: **Anonymous info**
+- 允許 Cortana: **已停用**
+- 不要在[搜尋] 中搜尋網路或顯示網路搜尋結果:**已啟用**
+- 設定 [搜尋] 中可分享的資訊:**已啟用**
+  - 資訊類型:**匿名資訊**
 
-#### 同步設定
+#### 同步您的設定
 
-- Do not sync: **Enabled**
+- 不要同步: **已啟用**
 
 #### 文本輸入
 
-- Improve inking and typing recognition: **Disabled**
+- 改進手寫筆跡與鍵入辨識:**已停用**
 
 #### Windows 錯誤報告
 
-- Do not send additional data: **Enabled**
-- Consent > Configure Default consent: **Enabled**
-  - Consent level: **Always ask before sending data**
+- 不要傳送其它資料:**已啟用**
+- 同意 > 設定預設同意: **已啟用**
+  - 同意層級: **傳送資料前一律詢問**
