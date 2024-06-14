@@ -23,31 +23,31 @@ Microsoft 不斷在 Windows 11 中新增雲端功能，這些功能預設為啟�
 
 ## 隱私記錄
 
-Especially since the release of Windows 8, Microsoft has demonstrated extremely privacy-invasive behavior with their operating system releases, consistently taking advantage of the fact that Windows is the most widely-used desktop operating system. Windows 10 was widely [criticized](https://www.theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings) for having default settings that sent a lot of data and telemetry back to Microsoft, [including](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) "User's contacts and calendar events, location data and history, 'telemetry' (diagnostics data) [...] and 'advertising ID', as well as further data when the Cortana assistant is enabled" (which it is by default). Windows 10 also made it much more challenging to change default applications (such as your web browser) away from Microsoft-provided apps, which is behavior that still persists today.
+特別是自 Windows 8 發布以來，微軟在其作業系統版本中表現出了極其侵犯隱私的行為，一直利用 Windows 是使用最廣泛的桌面作業系統的優勢。 Windows 10 因其預設將大量資料和遙測資料([包括](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection)「使用者的聯絡人和日曆事件、位置資料和歷史記錄、'遙測'（診斷資料） [...])傳回 Microsoft，受到廣泛[批評](https://www.theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings)。 和“廣告 ID”，以及啟用（預設） Cortana 助理時的更多數據”。 Windows 10 也讓更改預設應用程式（例如 Web 瀏覽器）取代 Microsoft 提供的應用程式變得更加困難，這種行為至今仍然存在。
 
-At launch, telemetry could not be disabled in non-enterprise editions of Windows 10. It still cannot be disabled, but Microsoft added the ability to [reduce the teletetry](https://www.extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) sent to them.
+一開始無法在 Windows 10 非企業版中停用遙測。 目前仍無法停用，但微軟[減少遙測](https://www.extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collections)。
 
-Windows 11 has introduced even more privacy-invasive behavior, including:
+Windows 11 引入了更多侵犯隱私行為，包括：
 
-- Being forced to use a Microsoft account instead of a local account on Home editions, and still hiding away local account options on Pro editions and higher.
-- Enabling virtually all data collection options by default.
-- Heavily integrating Microsoft services like Bing, OneDrive, and Teams in ways which are difficult to remove.
-- Adding (cloud-based) AI features to many areas in Windows and various Microsoft Apps.
-- Unnecessarily storing massive amounts of sensitive data. Even data which is stored locally and not sent to Microsoft is still a target for hackers or malware on your device.
+- 家用版被迫使用 Microsoft 帳戶而不是本機帳戶，而專業版及更高版本會隱藏本機帳戶選項。
+- 預設啟用幾乎所有資料收集選項。
+- 難以刪除大量整合 Bing、OneDrive 和 Teams 等 Microsoft 服務。
+- 將（雲端的）AI 功能新增至 Windows 和各種 Microsoft 應用程式。
+- 不必要地儲存大量敏感資料。 即使資料儲存在本機且未傳送至微軟，但仍可能成為駭客或惡意軟體的目標。
 
-Microsoft often abuses the automatic updates feature to add new functionality to your device that collects your data and is enabled by default.
+微軟經常濫用自動更新功能為裝置添加新功能，並預設為啟用新功能來個人資料。
 
-Some privacy features in Windows 11 are locked to devices in the European Union. We have not yet found a way to reliably access those settings worldwide.
+Windows 11 中的某些隱私功能僅限於在歐盟的裝置。 我們尚未找到可靠方法在全球範圍內存取這些設定。
 
-## Windows Editions
+## Windows 版本
 
-Many critical privacy and security features are unfortunately locked away behind higher-cost editions of Windows, instead of being available in Windows Home Edition. Some features missing from **Windows Home Edition** include Bitlocker Drive Encryption, Hyper-V, and Windows Sandbox. In our Windows guides we will cover how to use all of these features appropriately, so having a premium edition of Windows will be critical.
+不幸的是，許多重要的隱私和安全功能都鎖定在較昂貴的 Windows 版本，未提供於 Windows 家用版。 **Windows 家用版** 缺少的一些功能包括 Bitlocker 磁碟機加密、Hyper-V 和 Windows Sandbox。 在 Windows 指南中，我們將介紹如何正確使用所有這些功能，因此擁有高級版的 Windows 將至關重要。
 
-**Windows Enterprise** provides the most flexibility when it comes to configuring privacy and security settings built in to Windows. For example, they are the only editions that allow you to enable the highest level of restrictions on data sent to Microsoft via telemetry tools. Unfortunately, Enterprise is not available for retail purchase, so it may not be available to you.
+**Windows 企業版** 在配置 Windows 內建的隱私和安全設定時提供最大的彈性。 例如，它們是唯一能限制啟用遙測工具，阻止將資料傳回微軟的版本。 遺憾的是，Enterprise 無法零售購買，因此可能無法使用。
 
-The best version available for _retail_ purchase is **Windows Pro Edition**. This version does not allow you to set some of the most restrictive limitations on Microsoft's telemetry unfortunately, but does have nearly all of the features you'll want to use to secure your device, including Bitlocker, Hyper-V, etc.
+可_零售_購買的最佳版本是**Windows 專業版**。 遺憾的是，此版本不能對 Microsoft 遙測設定一些最嚴格的限制，但具有幾乎所有想用來保護裝置的功能，包括 Bitlocker、Hyper-V 等。
 
-Students and teachers may be able to obtain **Windows Education** (equivalent to Enterprise) or **Windows Pro Education** (equivalent to Pro) for free (including on personal devices) from their educational institution. 許多學校透過 OnTheHub 或 Microsoft Azure for Education 與 Microsoft 合作，因此您可以檢查這些網站或學校的福利頁面，看看是否符合資格。 Whether or not you are able to get these licenses depends entirely on your institution. This may be the best way for many people to obtain an Enterprise-level edition of Windows for personal use. There are no additional privacy or security risks associated with using an Education license compared to the retail versions.
+學生和教師可以從其教育機構免費取得 **Windows Education**（相當於 Enterprise）或 **Windows Pro Education**（相當於 Pro）（包括個人裝置）。 許多學校透過 OnTheHub 或 Microsoft Azure for Education 與 Microsoft 合作，因此您可以檢查這些網站或學校的福利頁面，看看是否符合資格。 能否獲得這些許可完全取決於機構。 對許多人來說，這可能是取得 Windows 企業版供個人使用的最佳方式。 與零售版本相比，使用教育授權不會帶來額外的隱私或安全風險。
 
 不建議使用 Windows 的分支或修改版本，例如 Windows AME。 由於 Windows AME 等 Windows 修改版本不會收到更新，因此 Windows Defender 中的安全功能和防毒定義將落後於當前的威脅情勢，從而易受到攻擊。
 
