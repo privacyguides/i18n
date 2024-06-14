@@ -1,5 +1,5 @@
 ---
-title: 群組政策設置
+title: 群組原則設置
 ---
 
 除了修改登錄機碼本身之外，**本機群組原則編輯器**是無需安裝第三方工具即可更改系統許多方面的最強大方法。 更改這些設定需要 [專業版](index.md#windows-editions) 或更高版本。
@@ -8,50 +8,50 @@ title: 群組政策設置
 
 所有設定在群組原則編輯器中都附有說明，非常詳細地準確說明了它們的作用。 更改時請注意這些描述，準確了解我們在此建議的內容。 當 Windows 附帶的解釋不充分時，我們在下面解釋了我們的一些選擇。
 
-## 管理模板
+## 系統管理範本
 
-可開啟「gpedit.msc」並導覽至左側側邊欄中的「**本機電腦政策**」>「**電腦設定**」>「**管理範本**」來找到這些設定。 此頁面上的標題對應於管理範本中的資料夾/子資料夾，項目符號對應於各個政策。
+可開啟「gpedit.msc」並導覽至左側側邊欄中的「**本機電腦政策**」>「**電腦設定**」>「**系統管理範本**」來找到這些設定。 此頁面上的標題對應於管理範本中的資料夾/子資料夾，項目符號對應於各個原則。
 
-若要變更任何群組政策，請雙擊它，然後根據下面的建議在出現的視窗頂部選擇「啟用」或「停用」。 某些群組政策可以配置的其他設置，如果是這種情況，下面也會註明相應的設置。
+若要變更任何群組政策，請雙擊它，然後根據下面的建議在出現的視窗頂部選擇「啟用」或「停用」。 某些群組原則可以配置的其他設置，如果是這種情況，下面也會註明相應的設置。
 
 ### 系統
 
-#### 設備防護
+#### Device Guard
 
-- Turn On Virtualization Based Security: **Enabled**
-  - Platform Security Level: **Secure Boot and DMA Protection**
-  - Secure Launch Configuration: **Enabled**
+- 打開虛擬化型安全性:**啟用**
+  - 平台安全性層級:**安全開機與 DMA 保護**
+  - 安全啟動設定:**已啟用**
 
-#### Internet Communication Management
+#### 網際網路通訊管理
 
-- Turn off Windows Customer Experience Improvement Program: **Enabled**
-- Turn off Windows Error Reporting: **Enabled**
-- Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
+- 關閉 Windows 客戶經驗改進計畫:**已啟用**
+- 關閉 Windows 錯誤報告:**已啟用**
+- 關閉 Windows Messenger 客戶經驗改進計畫:**已啟用**
 
 Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
 
-#### 作系系統政策
+#### OS 原則
 
-- Allow Clipboard History: **Disabled**
-- Allow Clipboard synchronization across devices: **Disabled**
+- 允許剪貼簿歷程記錄:**已停用**
+- 允許裝置之間剪貼簿同步處理:**已停用**
 - Enables Activity Feed: **Disabled**
-- Allow publishing of User Activities: **Disabled**
-- Allow upload of User Activities: **Disabled**
+- 允許公佈使用者活動:**已停用**
+- 允許上傳使用者活動:**已停用**
 
-#### 用戶設定檔
+#### 使用者設定檔
 
-- Turn off the advertising ID: **Enabled**
+- 關閉廣告識別碼:**已啟用**
 
 ### Windows 元件
 
-#### 自動播放政策
+#### 自動播放原則
 
 AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
 
-- Turn off AutoPlay: **Enabled**
-- Disallow Autoplay for nonvolume devices: **Enabled**
-- Set the default behavior for AutoRun: **Enabled**
-  - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+- 關閉自動播放:**已啟用**
+- 不允非磁區裝置的自動播放:**已啟用**
+- 設定 AutoRun 命令的預設行為:**已啟用**
+  - 預設 AutoRun 行為:**不執行任何 AutoRun 命令**
 
 #### BitLocker 磁碟機加密
 
