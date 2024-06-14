@@ -34,7 +34,7 @@ title: 群組原則設置
 
 - 允許剪貼簿歷程記錄:**已停用**
 - 允許裝置之間剪貼簿同步處理:**已停用**
-- Enables Activity Feed: **Disabled**
+- 啟用活動摘要:**已停用**
 - 允許公佈使用者活動:**已停用**
 - 允許上傳使用者活動:**已停用**
 
@@ -46,7 +46,7 @@ title: 群組原則設置
 
 #### 自動播放原則
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. 這可能會讓不受信任的裝置在不知情的情況下執行惡意程式碼。 最佳安全實踐是停用這些功能，手動開啟外部磁碟上的檔案。
+自動執行和自動播放功能讓 Windows 在連接裝置時執行腳本或執行某些其他任務，有時會避免涉及使用者同意的安全措施。 這可能會讓不受信任的裝置在不知情的情況下執行惡意程式碼。 最佳安全實踐是停用這些功能，手動開啟外部磁碟上的檔案。
 
 - 關閉自動播放:**已啟用**
 - 不允非磁區裝置的自動播放:**已啟用**
@@ -65,7 +65,7 @@ AutoRun and AutoPlay are features which allow Windows to run a script or perform
 ##### 作業系統磁碟機
 
 - 啟動時需要其它驗證:**已啟用**
-- Allow enhanced PINs for startup: **Enabled**
+- 允許用於啟動的 PIN 增強:**己啟用**
 
 這些原則，預設情況不會「要求」您執行任何操作，將解鎖「選項」以進行更複雜的設定（例如除了 TPM 之外，在啟動時還需要 PIN 碼） Bitlocker設定嚮導。
 
@@ -106,7 +106,7 @@ AutoRun and AutoPlay are features which allow Windows to run a script or perform
 - 防止 OneDrive 在使用者登入 OneDrive 前產生網路流量:**已啟用**
 - 防止使用 OneDrive 儲存檔案: **已啟用**
 
-This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
+最後一項設定會停用系統上的 OneDrive；如有使用 OneDrive，請務必將其變更為 **停用**。
 
 #### 推送安裝
 
