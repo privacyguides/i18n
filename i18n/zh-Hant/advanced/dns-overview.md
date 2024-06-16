@@ -12,7 +12,7 @@ description: 網域名稱系統是“網際網路電話簿” ，可幫助瀏覽
 
 DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#History) 就存在了。 來往 DNS 伺服器的 DNS 請求通常 **不是** 加密的。 一般家用的網路中，客戶的伺服器通常是由 ISP 透過 [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)給予的。
 
-未經加密的 DNS 請求很容易**被監視** 或在傳輸過程中**遭到修改modified**。 在某些地區， ISP 被要求做初級的 [DNS 過濾](https://en.wikipedia.org/wiki/DNS_blocking)。 當您要求被封鎖網域的IP位址時，伺服器可能不會回應，或可能會使用其他IP位址回應。 由於DNS通訊協定沒有加密， ISP （或任何網路營運商）可以使用 [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) 來監控請求。 網路服務供應商也可以根據共同特徵封鎖請求，無論你使用哪種 DNS 伺服器。 未加密的 DNS 總是使用 53 號[端口](https://en.wikipedia.org/wiki/Port_(computer_networking)) ，並且總是使用UDP。
+未經加密的 DNS 請求很容易**被監視**或在傳輸過程中**遭到修改**。 在某些地區， ISP 被要求做初級的 [DNS 過濾](https://en.wikipedia.org/wiki/DNS_blocking)。 當您要求被封鎖網域的IP位址時，伺服器可能不會回應，或可能會使用其他IP位址回應。 由於DNS通訊協定沒有加密， ISP （或任何網路營運商）可以使用 [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) 來監控請求。 網路服務供應商也可以根據共同特徵封鎖請求，無論你使用哪種 DNS 伺服器。 未加密的 DNS 總是使用 53 號[端口](https://en.wikipedia.org/wiki/Port_(computer_networking)) ，並且總是使用UDP。
 
 接下來，我們將討論並提供一個教程來證明外部觀察者可以使用普通的未加密 DNS 和 [加密 DNS ](#what-is-encrypted-dns)看到什麼。
 
@@ -72,11 +72,11 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 [**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) 是第一種查詢加密 DNS 的方法之一。 DNSCrypt 在 443 端口上運作，與 TCP 或 UDP 傳輸協議一起使用。 DNSCrypt 從未向 [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)提交文件 ，也未通過 [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) 流程，因此 [實用少](https://dnscrypt.info/implementations)並未被廣泛使用。 因此，它大量被更受歡迎的 [DNS over HTTPS](#dns-over-https-doh) 取代。
 
-### 通過 TLS 的 DNS)
+### 通過 TLS 的 DNS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) 是另一種加密 DNS 通訊方式，其定義於 [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)。 首次於 Android 9、iOS 14 和 Linux 上的 [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) 在版本237 提供支援。 近年來，業界偏好已經從 DoT 轉移到 DoH ，因為 DoT 協議[複雜](https://dnscrypt.info/faq) ，並且在實現中對RFC 的遵照狀況各不相同。 DoT 還在專用端口 853 上運行，但很容易被限制性防火牆阻止。
+[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) 是另一種加密 DNS 通訊方式，其定義於 [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)。 首次於 Android 9、iOS 14 和 Linux 上的 [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) 在版本 237 提供支援。 近年來，業界偏好已經從 DoT 轉移到 DoH ，因為 DoT 協議[複雜](https://dnscrypt.info/faq) ，並且在實現中對 RFC 的遵照狀況各不相同。 DoT 還在專用端口 853 上運行，很容易被限制性防火牆阻止。
 
-### 通過 HTTPS 的 DNS)
+### 通過 HTTPS 的 DNS (DoH)
 
 [**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS)，如 [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484)所定義，將查詢打包在[ HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) 協定並透過 HTTPS 提供安全。 最初使用於 Firefox 60 和 Chrome 83 等網頁瀏覽器。
 
@@ -86,9 +86,9 @@ DoH 原生執行出現在 iOS 14, macOS 11, Microsoft Windows, 與 Android 13 (�
 
 #### Android
 
-Android 9 以上版本支持 DoT (DNS over TLS)。 設定方式可以在以下位置找到： **設定** &rarr; **網路 & 網際網路** &rarr; **私人 DNS**。
+Android 9 以上版本支援 DNS over TLS。 設定方式可以在以下位置找到： **設定** &rarr; **網路 & 網際網路** &rarr; **私人 DNS**。
 
-#### Apple裝置
+#### Apple 裝置
 
 最新版本的 iOS、iPadOS、tvOS 和 macOS 都支持 DoT 和 DoH。 這兩個通訊協議都透過 [組態檔](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) 或透過 [DNS 設定 API ](https://developer.apple.com/documentation/networkextension/dns_settings)獲得原生支援。
 
