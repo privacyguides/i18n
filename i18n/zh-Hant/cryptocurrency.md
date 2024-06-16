@@ -1,5 +1,5 @@
 ---
-meta_title: "私密加密貨幣區塊錬 - Privacy Guides"
+meta_title: "私密加密貨幣區塊鏈 - Privacy Guides"
 title: 加密貨幣
 icon: material/bank-circle
 cover: cryptocurrency.webp
@@ -12,7 +12,7 @@ cover: cryptocurrency.webp
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
-許多（如果不是大多數）加密貨幣項目都是騙局。 只用你信任的項目小心進行交易。
+許多（如果不是大多數）加密貨幣項目都是騙局。 只用您信任的項目小心進行交易。
 
 </div>
 
