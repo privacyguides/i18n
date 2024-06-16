@@ -47,7 +47,7 @@ icon: 'material/shield-account'
 
 ## 隱私關乎控制?
 
-隱私一個常見定義是，*控制*誰有權訪問您的資料。 隱私是一個容易掉落的陷阱，事實上這是我們長期以來運營本網站的隱私定義。 聽起來不錯，能打動不少人，但實際上卻無效。
+隱私一個常見定義是，*控制*誰有權存取您的資料。 隱私是一個容易掉落的陷阱，事實上這是我們長期以來運營本網站的隱私定義。 聽起來不錯，能打動不少人，但實際上卻無效。
 
 以 cookies 同意表格為例。 在訪問的各種網站，每天可能會遇到幾十次這樣的情況，它們有一系列不錯的複選框和滑塊，可讓您“調整”偏好以完全滿足您的需求。 但最後我們只是點擊了“我同意”按鈕，因為只是想閱讀文章或進行購買。 沒人想在所訪問的各個網站上完成個人隱私審計。 這是[選擇架構](https://en.wikipedia.org/wiki/Choice_architecture)中的練習，旨在讓您走簡單的路線，而不是鑽研配置選項卻是一個不存在迷宮。
 
@@ -58,5 +58,5 @@ icon: 'material/shield-account'
 ## 來源
 
 - [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
-- [新石油l: 為何隱私 & 安全重要](https://thenewoil.org/en/guides/prologue/why)
+- [新石油: 為何隱私 & 安全很重要](https://thenewoil.org/en/guides/prologue/why)
 - [@Thorin-Oakenpants 有關"匿名" vs "隱私" vs "安全"](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
