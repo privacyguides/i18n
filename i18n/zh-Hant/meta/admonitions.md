@@ -24,32 +24,32 @@ title: 提醒
 
 ```markdown title="Admonition"
 <div class="admonition TYPE" markdown>
-<p class="admonition-title">TITLE</p>
+<p class="admonition-title">標題</p>
 
-ENCLOSED TEXT
+內文
 
 </div>
 ```
 
 ```markdown title="Collapsible Admonition"
 <details class="TYPE" markdown>
-<summary>TITLE</summary>
+<summary>標題</summary>
 
-ENCLOSED TEXT
+內文
 
 </details>
 ```
 
-The `TITLE` must be specified, if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. The `ENCLOSED TEXT` should be Markdown formatted.
+必須指定`標題`，如果不想要特定的標題，可以將其設置為與`類型` (請見下方) 相同的文字，並採用首字母大寫格式，例如`註記`。 `內文`必須使用 Markdown 格式。
 
-### Regular types
+### 一般類型
 
 Replace `TYPE` in the examples above with one of the following:
 
 #### `note`
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">備註</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -58,7 +58,7 @@ Replace `TYPE` in the examples above with one of the following:
 #### `abstract`
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Abstract</p>
+<p class="admonition-title">摘要</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -76,7 +76,7 @@ Replace `TYPE` in the examples above with one of the following:
 #### `tip`
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">溫馨提示</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -85,7 +85,7 @@ Replace `TYPE` in the examples above with one of the following:
 #### `success`
 
 <div class="admonition success" markdown>
-<p class="admonition-title">Success</p>
+<p class="admonition-title">成功</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -94,7 +94,7 @@ Replace `TYPE` in the examples above with one of the following:
 #### `question`
 
 <div class="admonition question" markdown>
-<p class="admonition-title">Question</p>
+<p class="admonition-title">問題</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -112,7 +112,7 @@ Replace `TYPE` in the examples above with one of the following:
 #### `failure`
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">Failure</p>
+<p class="admonition-title">失敗</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -130,7 +130,7 @@ Replace `TYPE` in the examples above with one of the following:
 #### `bug`
 
 <div class="admonition bug" markdown>
-<p class="admonition-title">Bug</p>
+<p class="admonition-title">臭蟲</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -139,7 +139,7 @@ Replace `TYPE` in the examples above with one of the following:
 #### `example`
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">範例</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -148,17 +148,17 @@ Replace `TYPE` in the examples above with one of the following:
 #### `quote`
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">Quote</p>
+<p class="admonition-title">引言</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
-### Special Types
+### 特殊類型
 
 #### `recommendation`
 
-This format is used to generate recommendation cards. Notably it is missing the `<p class="admonition-title">` element.
+這個格式用來產生推薦卡。 要注意的是它缺少 `<p class="admonition-title">` 元件。
 
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
@@ -242,7 +242,7 @@ This is a special type of collapsible admonition, used to generate the download 
 
 </div>
 
-## Old Format
+## 舊格式
 
 Throughout the site, you may see some admonitions formatted similarly to these examples:
 
@@ -257,22 +257,22 @@ Throughout the site, you may see some admonitions formatted similarly to these e
 <div class="result" markdown>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">備註</p>
 
-雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 個資保護 數據加密 身份識別管理
+隱私權政策 資料授權 隱私風險評估 瀏覽器追蹤防護 匿名化技術 資料所有權
+隱私選項 隱私法規 個人資料收集 隱私監控
 
 </div>
 
 </div>
 
 ```markdown title="Collapsible Admonition"
-??? example "Custom Title"
+??? 範例 "自定標題"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    資料授權 隱私風險評估 瀏覽器追蹤防護 匿名化技術 資料所有權 隱私選項
+    隱私法規 個人資料收集 隱私監控 雙因素身份驗證 端對端加密 虛擬私人網路
+    雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 ```
 
 <div class="result" markdown>
@@ -280,14 +280,14 @@ massa, nec semper lorem quam in massa.
 <details class="example" markdown>
 <summary>Custom Title</summary>
 
-雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 個資保護 數據加密 身份識別管理
+隱私權政策 資料授權 隱私風險評估 瀏覽器追蹤防護 匿名化技術 資料所有權
+隱私選項 隱私法規 個人資料收集 隱私監控
 
 </details>
 
 </div>
 
-**This format is no longer used going forward,** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer HTML-based format should be used.
+**這個格式已不再被使用**，因為它不相容於 Crowdin 上面新版的翻譯軟體。 當您在網站上新增頁面時，只使用基於 HTML 的較新格式。
 
-There is no rush to convert admonitions with the old format to the new format. Pages currently using this formatting should continue to work, but we will be updating them to use the newer HTML-based format above over time as we continue to update the site.
+舊格式的提醒內容暫時不需要急著轉換成新格式。 目前使用這個格式的網頁應該會繼續運作，但隨著網站更新，我們將會持續更新至基於 HTML 的較新格式。
