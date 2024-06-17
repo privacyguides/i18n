@@ -1,26 +1,26 @@
 ---
-title: Admonitions
+title: 提醒
 ---
 
-**Admonitions** (or "call-outs") are a choice writers can use to include side content in an article without interrupting the document flow.
+**提醒**（或「補充說明」）是寫作者可以在文章中加入額外內容的選項，而不會影響文章的整體流暢度。
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example Admonition</p>
+<p class="admonition-title">提醒範例</p>
 
-This is an example of an admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+這是提醒的範例。 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 傳輸層安全 數據泄露 零知識證明 隱私權管理 加密貨幣 身份驗證 多重加密 隱私政策 生物識別技術 數據抹除
 
 </div>
 
 <details class="example" markdown>
-<summary>Example Collapsible Admonition</summary>
+<summary>可摺疊式提醒的範例</summary>
 
-This is an example of a collapsible admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+這是可摺疊式提醒的範例。 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 傳輸層安全 數據泄露 零知識證明 隱私權管理 加密貨幣 身份驗證 多重加密 隱私政策 生物識別技術 數據抹除
 
 </details>
 
-## Formatting
+## 格式
 
-To add an admonition to a page, you can use the following code:
+要將提醒加入頁面，您可以使用以下程式碼：
 
 ```markdown title="Admonition"
 <div class="admonition TYPE" markdown>
@@ -51,7 +51,7 @@ Replace `TYPE` in the examples above with one of the following:
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Abstract</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -69,7 +69,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition info" markdown>
 <p class="admonition-title">資訊</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -78,7 +78,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -87,7 +87,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition success" markdown>
 <p class="admonition-title">Success</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -96,7 +96,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition question" markdown>
 <p class="admonition-title">Question</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -105,7 +105,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -114,7 +114,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition failure" markdown>
 <p class="admonition-title">Failure</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -123,7 +123,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -132,7 +132,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition bug" markdown>
 <p class="admonition-title">Bug</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -141,7 +141,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -150,7 +150,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <div class="admonition quote" markdown>
 <p class="admonition-title">Quote</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
 </div>
 
@@ -259,7 +259,7 @@ Throughout the site, you may see some admonitions formatted similarly to these e
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
 massa, nec semper lorem quam in massa.
 
@@ -280,7 +280,7 @@ massa, nec semper lorem quam in massa.
 <details class="example" markdown>
 <summary>Custom Title</summary>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
 massa, nec semper lorem quam in massa.
 

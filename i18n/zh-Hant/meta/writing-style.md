@@ -2,9 +2,9 @@
 title: 撰寫風格
 ---
 
-Privacy Guides 以美式英語書寫，如有疑問，請參閱 [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) 。
+Privacy Guides 以美式英語書寫，如有疑問，請參閱[美國心理學會格式手冊](https://apastyle.apa.org/style-grammar-guidelines/grammar) 。
 
-一般而言， [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) 提供了如何寫得清晰簡潔的良好概述。 我們在下方強調這些準則中的幾個重要提示。
+一般而言， [美國聯邦政府的平易近人語言指南](https://plainlanguage.gov/guidelines) 提供了如何寫得清晰簡潔的良好概述。 以下我們將重點介紹該指南中的一些重要注意事項。
 
 ## 為我們的觀眾寫作
 
