@@ -82,7 +82,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 如果您訂閱了 Proton Unlimited、Business 或 Visionary 方案，您還可以免費獲得 [SimpleLogin](email-aliasing.md#simplelogin) 的 Premium 會員。
 
-Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在 web app 下取消，作法: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在 web app 下取消，作法: :gear: → **所有設定** → **帳號** → **安全與隱私** → **隱私與資料蒐集**.
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
@@ -149,7 +149,7 @@ Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Mailbox.org [雙重認證](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)功能僅限網頁郵件。 可透過 [TOTP 或 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) -software /yubicloud">YubiCloud](https://yubico.com/products/services)。 Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
+Mailbox.org [雙重認證](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)功能僅限網頁郵件。 您可以使用 TOTP 或通過 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證. Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 
