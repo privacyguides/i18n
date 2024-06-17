@@ -272,7 +272,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 <div class="annotate" markdown>
 
 - [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -281,9 +281,9 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Select **Strict, may break sites** under *Block fingerprinting*
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -310,7 +310,7 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
@@ -318,17 +318,14 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 ##### 拡張機能
 
-使わない組み込み**拡張機能**は無効にしてください。
-
-- [ ] **Hangouts**のチェックを外す
-- [ ] **WebTorrent**のチェックを外す
+- [ ] Uncheck all built-in extensions you do not use
 
 ##### Web3
 
 BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面を潜在的に増やす可能性があります。 どの機能も使用しないなら、無効にしておくべきです。
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Set **Method to resolve IPFS resources** to **Disabled**
+- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
+- Set *Method to resolve IPFS resources* to **Disabled**
 
 ##### システム
 
@@ -346,7 +343,7 @@ BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面�
 
 #### Brave RewardsとWallet
 
-**Brave Rewards**では、Brave内で特定のアクションを実行することで、Basic Attention Token（BAT）という暗号通貨を受け取ることができます。 It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
@@ -359,23 +356,23 @@ BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面�
 ### 最低要件
 
 - オープンソースのソフトウェアであること。
-- 自動更新に対応している。
-- アップストリームのリリースから0～1日以内にエンジンアップデートを受けること。
-- Linux、macOS、Windowsで利用できる。
-- ブラウザをよりプライバシーを尊重したものにするための変更が、ユーザーエクスペリエンスを損なうものではないこと。
-- デフォルトでサードパーティCookieをブロックしている。
-- クロスサイトトラッキングを軽減する[state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)をサポートしている。[^1]
+- 自動アップデートに対応していること。
+- Must receive engine updates in 0-1 days from upstream release.
+- Must be available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
+- Must block third-party cookies by default.
+- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### 満たされることが望ましい基準
 
 満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
-- コンテンツブロック機能を内蔵していること。
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
-- ユーザーのプライバシーに影響を与えないアドオン機能（ブロートウェア）が含まれていないこと。
-- テレメトリーをデフォルトでは収集しないこと。
-- オープンソースの同期サーバー実装を提供していること。
-- [プライベートな検索エンジン](search-engines.md)をデフォルトで設定していること。
+- Should include built-in content blocking functionality.
+- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Should support Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Should not include add-on functionality (bloatware) that does not impact user privacy.
+- Should not collect telemetry by default.
+- Should provide an open-source sync server implementation.
+- Should default to a [private search engine](search-engines.md).
 
 [^1]: Braveの実装は[Brave プライバシーアップデートで詳しく説明されています: プライバシーのためのネットワーク状態のパーティショニング](https://brave.com/privacy-updates/14-partitioning-network-state)

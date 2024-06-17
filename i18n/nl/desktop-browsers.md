@@ -135,7 +135,7 @@ Firefox voegt een uniek [download token](https://bugzilla.mozilla.org/show_bug.c
 
 ### Recommended Firefox Configuration
 
-Deze opties zijn te vinden in :material-menu: → **Instellingen**
+Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 
 #### Zoeken
 
@@ -265,7 +265,7 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 <div class="annotate" markdown>
 
 - [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -274,9 +274,9 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Select **Strict, may break sites** under *Block fingerprinting*
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -303,7 +303,7 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
@@ -311,17 +311,14 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 ##### Extensies
 
-Ingebouwde extensies die je niet gebruikt uitschakelen in **Extensies**
-
-- [ ] Schakel **Hangouts**uit
-- [ ] Schakel **WebTorrent**uit
+- [ ] Uncheck all built-in extensions you do not use
 
 ##### Web3
 
 De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanvalsoppervlak vergroten. Tenzij je een van de functies gebruikt, moeten ze worden uitgeschakeld.
 
-- Selecteer **Extensies (geen fallback)** onder Standaard Ethereum portemonnee en standaard Solana portemonnee
-- Schakel **methode in om IPFS-bronnen op te lossen** uit
+- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
+- Set *Method to resolve IPFS resources* to **Disabled**
 
 ##### Systeem
 
@@ -339,7 +336,7 @@ De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanval
 
 #### Brave Rewards en Wallet
 
-**Met Brave Rewards** kun je Basic Attention Token (BAT) cryptocurrency ontvangen voor het uitvoeren van bepaalde acties binnen Brave. Het is afhankelijk van een bewaarrekening en KYC van een select aantal providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Het is afhankelijk van een bewaarrekening en KYC van een select aantal providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** werkt lokaal op jouw computer, maar ondersteunt geen private cryptocurrencies, dus we raden het gebruik van deze functie ook af.
 
@@ -352,23 +349,23 @@ De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanval
 ### Minimumvereisten
 
 - Moet open-source software zijn.
-- Ondersteunt automatische updates.
-- Ontvangt engine updates in 0-1 dagen na upstream release.
-- Beschikbaar op Linux, macOS en Windows.
-- Wijzigingen die nodig zijn om de browser privacyvriendelijker te maken, mogen de gebruikerservaring niet negatief beïnvloeden.
-- Blokkeert standaard cookies van derden.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Moet automatische updates ondersteunen.
+- Must receive engine updates in 0-1 days from upstream release.
+- Must be available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
+- Must block third-party cookies by default.
+- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### Beste geval
 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
-- Beschikt over ingebouwde functionaliteit voor het blokkeren van inhoud.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. Dit kan voordelen hebben ten opzichte van het installeren van op electron gebaseerde apps, omdat je profiteert van de regelmatige beveiligingsupdates van jouw browser.
-- Omvat geen add-on functionaliteit (bloatware) die geen invloed heeft op de privacy van gebruikers.
-- Verzamelt standaard geen telemetrie.
-- Biedt een open-source sync-server implementatie.
-- Standaard ingesteld op een [privé zoekmachine](search-engines.md).
+- Should include built-in content blocking functionality.
+- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Should support Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Should not include add-on functionality (bloatware) that does not impact user privacy.
+- Should not collect telemetry by default.
+- Should provide an open-source sync server implementation.
+- Should default to a [private search engine](search-engines.md).
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

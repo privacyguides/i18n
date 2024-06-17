@@ -142,7 +142,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 ### Recommended Firefox Configuration
 
-ניתן למצוא אפשרויות אלה ב :material-menu: ← **הגדרות**
+ניתן למצוא אפשרויות אלה ב - :material-menu: ← **הגדרות**.
 
 #### חיפוש
 
@@ -272,7 +272,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 <div class="annotate" markdown>
 
 - [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -281,9 +281,9 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Select **Strict, may break sites** under *Block fingerprinting*
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -310,7 +310,7 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
@@ -318,17 +318,14 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 ##### הרחבות
 
-השבת הרחבות מובנות שאינך משתמש בהן ב**הרחבות**
-
-- [ ] בטל את הסימון **Hangouts**
-- [ ] בטל את הסימון **WebTorrent**
+- [ ] Uncheck all built-in extensions you do not use
 
 ##### Web3
 
 תכונות ה-Web3 של Brave עשויות להוסיף לטביעת האצבע של הדפדפן ולשטח ההתקפה שלך. אלא אם אתה משתמש באחת מהתכונות, יש להשבית אותן.
 
-- בחר **הרחבות (ללא נפילה)** תחת ארנק Ethereum ברירת מחדל וארנק Solana ברירת מחדל
-- הגדר את **שיטה לפתרון משאבי IPFS** ל**מושבת**
+- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
+- Set *Method to resolve IPFS resources* to **Disabled**
 
 ##### מערכת
 
@@ -346,7 +343,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** מאפשר לך לקבל מטבע קריפטוגרפי Basic Attention Token (BAT) עבור ביצוע פעולות מסוימות בתוך Brave. זה מסתמך על חשבון משמורת ו-KYC ממספר נבחר של ספקים. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. זה מסתמך על חשבון משמורת ו-KYC ממספר נבחר של ספקים. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** פועל באופן מקומי במחשב שלך, אך אינו תומך במטבעות קריפטוגרפיים פרטיים כלשהם, ולכן אנו נמנע משימוש גם בתכונה זו.
 
@@ -359,23 +356,23 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 ### דרישות מינימליות
 
 - חייבת להיות תוכנת קוד פתוח.
-- תומך בעדכונים אוטומטיים.
-- מקבל עדכוני מנוע בתוך 0 -1 ימים משחרורו במעלה הזרם.
-- זמין ב-Linux, macOS ו-Windows.
-- כל שינוי שיידרש כדי להפוך את הדפדפן ליותר מכבד פרטיות לא צריך להשפיע לרעה על חוויית המשתמש.
-- חוסם קובצי עוגיות של צד שלישי כברירת מחדל.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- חייב לתמוך בעדכונים אוטומטיים.
+- Must receive engine updates in 0-1 days from upstream release.
+- Must be available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
+- Must block third-party cookies by default.
+- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### המקרה הטוב ביותר
 
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
-- כולל פונקציונליות מובנית לחסימת תוכן.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. זה יכול להיות בעל יתרונות על פני התקנת אפליקציות מבוססות-אלקטרון, מכיוון שאתה נהנה מעדכוני האבטחה הרגילים של הדפדפן שלך.
-- לא כולל פונקציונליות הרחבה (bloatware) שאינה משפיעה על פרטיות המשתמש.
-- אינו אוסף טלמטריה כברירת מחדל.
-- מספק יישום שרת סינכרון בקוד פתוח.
-- ברירת המחדל היא [מנוע חיפוש פרטי](search-engines.md).
+- Should include built-in content blocking functionality.
+- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Should support Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Should not include add-on functionality (bloatware) that does not impact user privacy.
+- Should not collect telemetry by default.
+- Should provide an open-source sync server implementation.
+- Should default to a [private search engine](search-engines.md).
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

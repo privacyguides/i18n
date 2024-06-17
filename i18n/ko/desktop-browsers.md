@@ -142,7 +142,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 ### Recommended Firefox Configuration
 
-이러한 옵션은 :material-menu: → **설정**에서 확인할 수 있습니다
+이러한 옵션은 :material-menu: → **설정**에서 확인할 수 있습니다.
 
 #### 검색
 
@@ -272,7 +272,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 <div class="annotate" markdown>
 
 - [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -281,9 +281,9 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Select **Strict, may break sites** under *Block fingerprinting*
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -310,7 +310,7 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
@@ -318,17 +318,14 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 ##### 확장 프로그램
 
-**확장 프로그램**에서 자신이 사용하지 않는 기본 탑재 확장 프로그램 비활성화
-
-- [ ] **Hangouts** 비활성화
-- [ ] **WebTorrent** 비활성화
+- [ ] Uncheck all built-in extensions you do not use
 
 ##### Web3
 
 Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공격 표면을 증가시킬 수 있습니다. 여러분이 해당 기능을 사용하지 않는다면 비활성화해야 합니다.
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- **IPFS 리소스 리졸빙에 사용하는 방법**을 **사용 중지**로 설정
+- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
+- Set *Method to resolve IPFS resources* to **Disabled**
 
 ##### 시스템
 
@@ -346,7 +343,7 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 
 #### Brave Rewards 및 Brave 월렛
 
-**Brave Rewards**는 Brave 내에서 특정 작업을 수행하여 BAT(Basic Attention Token) 암호화폐를 받을 수 있는 기능입니다. 해당 기능은 일부 선정된 제공 업체의 수탁형 계정과 KYC(고객 신원 확인)에 기반하여 동작합니다. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. 해당 기능은 일부 선정된 제공 업체의 수탁형 계정과 KYC(고객 신원 확인)에 기반하여 동작합니다. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave 월렛**은 사용자 컴퓨터 로컬에서 작동하지만, 프라이버시 암호화폐를 지원하지 않으므로 이 또한 사용을 권장하지 않습니다.
 
@@ -360,22 +357,22 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 
 - 오픈 소스 소프트웨어여야 합니다.
 - 자동 업데이트를 지원해야 합니다.
-- 업스트림 릴리스 0~1일 이내에 엔진 업데이트를 받아야 합니다.
-- Linux, macOS, Windows에서 사용할 수 있어야 합니다.
-- 브라우저의 프라이버시를 강화하는 데에 필요한 모든 변경 사항은 사용자 경험에 부정적인 영향을 미치지 않아야 합니다.
-- 타사 쿠키를 기본적으로 차단해야 합니다.
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Must receive engine updates in 0-1 days from upstream release.
+- Must be available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
+- Must block third-party cookies by default.
+- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### 우대 사항
 
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
-- 콘텐츠 차단 기능을 내장해야 합니다.
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. 브라우저의 정기적인 보안 업데이트 혜택을 받을 수 있으므로 Electron 기반 앱보다 유리한 점이 있습니다.
-- 사용자 프라이버시에 이점을 주지 않는 애드온 기능(블로트웨어)을 포함하지 않아야 합니다.
-- 원격 분석 데이터를 기본적으로 수집하지 않아야 합니다.
-- 오픈 소스 동기화 서버 구현체를 제공해야 합니다.
-- [비공개 검색 엔진](search-engines.md)이 기본으로 설정되어 있어야 합니다.
+- Should include built-in content blocking functionality.
+- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Should support Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Should not include add-on functionality (bloatware) that does not impact user privacy.
+- Should not collect telemetry by default.
+- Should provide an open-source sync server implementation.
+- Should default to a [private search engine](search-engines.md).
 
 [^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).

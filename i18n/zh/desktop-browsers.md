@@ -289,7 +289,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 <div class="annotate" markdown>
 
 - [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -298,9 +298,9 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Select **Strict, may break sites** under *Block fingerprinting*
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -329,7 +329,7 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
@@ -337,10 +337,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 ##### 扩展程序
 
-在 **Extensions**，禁用你不使用的内置扩展程序。
-
-- [ ] 取消勾选 **Hangouts**
-- [ ] 取消勾选 **WebTorrent**
+- [ ] Uncheck all built-in extensions you do not use
 
 
 
@@ -348,8 +345,8 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 如果您不使用这些功能，应将其禁用。
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Set **Method to resolve IPFS resources** to **Disabled**
+- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
+- Set *Method to resolve IPFS resources* to **Disabled**
 
 
 
@@ -373,7 +370,7 @@ Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 如果您不�
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you recieve Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
@@ -392,12 +389,12 @@ Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 如果您不�
 ### 最低要求
 
 - 它必须是开源软件。
-- 支持自动更新。
-- 在上游发布后0-1天内收到引擎更新。
-- 可用于Linux、macOS和Windows。
-- 为使浏览器更加尊重隐私所需的任何改变都不应该对用户体验产生负面影响。
-- 默认情况下阻止第三方的cookies。
-- Supports [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Must support automatic updates.
+- Must receive engine updates in 0-1 days from upstream release.
+- Must be available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
+- Must block third-party cookies by default.
+- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 
 
@@ -405,15 +402,15 @@ Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 如果您不�
 
 我们的最佳情况代表了我们希望从这个类别中的完美项目中看到的东西。 我们的推荐可能不包括任何或所有这些功能，但那些包含这些功能的推荐可能比本页面上的其他推荐排名更高。
 
-- 包括内置的内容拦截功能。
-- Supports cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Supports Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because you benefit from your browser's regular security updates.
+- Should include built-in content blocking functionality.
+- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Should support Progressive Web Apps. PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
 
-- 不包括不增强用户隐私的累赘功能。
+- Should not include add-on functionality (bloatware) that does not impact user privacy.
 
-- 默认情况下不收集遥测数据。
-- 提供开源的同步服务器实现。
-- 默认为[隐私搜索引擎](search-engines.md)。
+- Should not collect telemetry by default.
+- Should provide an open-source sync server implementation.
+- Should default to a [private search engine](search-engines.md).
 
 
 

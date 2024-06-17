@@ -142,7 +142,7 @@ Firefox incluye un [token de descarga] único (https://bugzilla.mozilla.org/show
 
 ### Configuración Recomendada de Firefox
 
-Estas opciones se encuentran en :material-menu: → **Ajustes**
+Estas opciones se encuentran en :material-menu: → **Configuración**.
 
 #### Buscar
 
@@ -271,8 +271,8 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 <div class="annotate" markdown>
 
-- [x] Selecciona **Impedir que los sitios obtengan mis huellas digitales en función de mis preferencias de idioma**
-- [x] Selecciona **Agresivo** en Bloqueo de rastreadores y anuncios
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>Usa listas de filtros predeterminadas</summary>
@@ -281,11 +281,11 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 </details>
 
-- [x] Selecciona **Estricto** en **Mejorar conexiones a HTTPS**
-- [x] (Opcional) Selecciona **Bloquear Scripts** (1)
-- [x] Selecciona **Estricto, puede dañar los sitios** en Bloquear huellas digitales
-- [x] Marca **Olvídame cuando cierre este sitio** (2)
-- [ ] Desmarca todos los componentes de redes sociales
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under *Block fingerprinting*
+- [x] Check **Forget me when I close this site** (2)
+- [ ] Uncheck all social media components
 
 </div>
 
@@ -310,25 +310,22 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 <div class="admonition tip" markdown>
 <p class="admonition-title">Desinfectar al cerrar</p>
 
-- [x] En el menú *Configuración del sitio y de los Escudos*, en Contenido, después de hacer clic en el menú *Datos de sitios en el dispositivo*, selecciona **Eliminar los datos que los sitios guardan en tu dispositivo cuando cierras todas las ventanas**
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
 
-Si deseas permanecer conectado a un sitio en particular que visitas con frecuencia, puedes establecer excepciones por sitio en la sección *Comportamientos personalizados*.
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 
 ##### Extensiones
 
-Desactiva las extensiones integradas que no utilice en **Extensiones**
-
-- [ ] Desmarca **Hangouts**
-- [ ] Desmarca **WebTorrent**
+- [ ] Uncheck all built-in extensions you do not use
 
 ##### Web3
 
 Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de tu navegador y la superficie de ataque. A menos que utilices alguna de las funciones, deberían estar desactivadas.
 
-- Seleccione **Extensiones (sin copia de seguridad)** en Cartera predeterminada de Ethereum y Cartera predeterminada de Solana
-- Establece **Método para resolver los recursos IPFS** como **Deshabilitado**
+- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
+- Set *Method to resolve IPFS resources* to **Disabled**
 
 ##### Sistema
 
@@ -346,7 +343,7 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 
 #### Brave Rewards y Wallet
 
-**Brave Rewards** te permite recibir la criptomoneda Basic Attention Token (BAT) por realizar ciertas acciones dentro de Brave. Se basa en una cuenta de custodia y KYC de un número selecto de proveedores. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Se basa en una cuenta de custodia y KYC de un número selecto de proveedores. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** funciona localmente en tu ordenador, pero no admite ninguna criptomoneda privada, por lo que desaconsejamos utilizar esta función también.
 
@@ -359,23 +356,23 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 ### Requisitos Mínimos
 
 - Debe ser software de código abierto.
-- Admite actualizaciones automáticas.
-- Recibe actualizaciones del motor en 0-1 días desde la publicación de la versión anterior.
-- Disponible para iOS, macOS y Windows.
-- Cualquier cambio necesario para que el navegador respete más la privacidad no debería afectar negativamente a la experiencia del usuario.
-- Bloquea las cookies de terceros por defecto.
-- Admite la [partición de estados](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) para mitigar el rastreo entre sitios.[^1]
+- Debe admitir actualizaciones automáticas.
+- Must receive engine updates in 0-1 days from upstream release.
+- Must be available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
+- Must block third-party cookies by default.
+- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### Mejor Caso
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Incluye funciones integradas de bloqueo de contenidos.
-- Admite la compartimentación de cookies (como [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Admite Aplicaciones Web Progresivas (PWA). Las PWA permiten instalar determinados sitios web como si fueran aplicaciones nativas en el ordenador. Esto puede tener ventajas sobre la instalación de aplicaciones basadas en Electron, porque usted se beneficia de las actualizaciones de seguridad periódicas de su navegador.
-- No incluye funciones adicionales (bloatware) que no afectan a la privacidad del usuario.
-- No recopila telemetría por defecto.
-- Ofrece la implementación de un servidor de sincronización de código abierto.
-- Por defecto usa un [motor de búsqueda privado](search-engines.md).
+- Should include built-in content blocking functionality.
+- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Should support Progressive Web Apps. Las PWA permiten instalar determinados sitios web como si fueran aplicaciones nativas en el ordenador. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Should not include add-on functionality (bloatware) that does not impact user privacy.
+- Should not collect telemetry by default.
+- Should provide an open-source sync server implementation.
+- Should default to a [private search engine](search-engines.md).
 
 [^1]: La implementación de Brave se detalla en [Brave Privacy Updates: Partitioning network-state for](https://brave.com/privacy-updates/14-partitioning-network-state) privacy.

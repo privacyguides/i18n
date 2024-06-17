@@ -52,7 +52,7 @@ schema:
 Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉並且具有最少的網站兼容性問題。
 
 [:octicons-home-16: 首頁](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋蔥服務" }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://support.brave.com){ .card-link title="文件" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }

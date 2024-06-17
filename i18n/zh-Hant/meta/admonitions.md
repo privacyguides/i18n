@@ -44,7 +44,7 @@ title: 提醒
 
 ### 一般類型
 
-Replace `TYPE` in the examples above with one of the following:
+用以下其中一個類型替換上面範例的`類型`：
 
 #### `note`
 
@@ -208,7 +208,7 @@ Replace `TYPE` in the examples above with one of the following:
 
 #### `downloads`
 
-This is a special type of collapsible admonition, used to generate the download links section. It is only used within recommendation cards, as shown in the example above.
+這是特別的可摺疊式提醒，用來產生下載連結區塊。 只與推薦卡一起使用，如上面的範例。
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
@@ -244,14 +244,14 @@ This is a special type of collapsible admonition, used to generate the download 
 
 ## 舊格式
 
-Throughout the site, you may see some admonitions formatted similarly to these examples:
+在網站中，您可能會看到一些格式與以下示範例類似的提醒內容：
 
 ```markdown title="Admonition"
-!!! note
+!!! 備註
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    資料授權 隱私風險評估 瀏覽器追蹤防護 匿名化技術 資料所有權 隱私選項
+    隱私法規 個人資料收集 隱私監控 雙因素身份驗證 端對端加密 虛擬私人網路
+    雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 ```
 
 <div class="result" markdown>

@@ -67,7 +67,7 @@ schema:
 
 ![Mullvad 瀏覽器標誌](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad 瀏覽器**是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本，，旨在為 VPN 使用者提供 Tor 瀏覽器的反指紋辨識技術。 它由 Tor Porject 開發並由 [Mullvad](vpn.md#mullvad)發佈，且不需要使用 Mullvad 的 VPN。
+**Mullvad Browser**是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本，，旨在為 VPN 使用者提供 Tor 瀏覽器的反指紋辨識技術。 它由 Tor Porject 開發並由 [Mullvad](vpn.md#mullvad)發佈，且不需要使用 Mullvad 的 VPN。
 
 [:octicons-home-16: 首頁](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
@@ -142,7 +142,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的[下載令牌](https:
 
 ### 建議的 Firefox 設定
 
-這些選項可以在 :material-menu: → **設定** 中找到
+這些選項可以在 :material-menu: → **設定** 中找到。
 
 #### 搜尋
 
@@ -230,7 +230,7 @@ Arkenfox的目標只是通過Canvas隨機化和Firefox內置的指紋阻力配�
 Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉並且具有最少的網站兼容性問題。
 
 [:octicons-home-16: 首頁](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋蔥服務" }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://support.brave.com){ .card-link title="文件" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
@@ -271,8 +271,8 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
 <div class="annotate" markdown>
 
-- [x] 勾選 **根據我的語言偏好設定，防止網站識別我的指紋**
-- [x] 在 **追蹤器與廣告封鎖** 下選擇 **積極**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>使用預設過濾器列表</summary>
@@ -280,11 +280,11 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </details>
 
-- [x] 在 **升級連線至 HTTPS** 下選擇 **嚴格**
-- [x] (可選) 勾選 **封鎖指令碼** (1)
-- [x] 在 **封鎖指紋識別功能** 下選擇 **嚴格，可能會破壞網站**
-- [x] 勾選 **當我關閉此網站時忘記我** (2)
-- [ ] 在 **阻擋社群媒體** 下取消勾選所有社交元件
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Strict, may break sites** under *Block fingerprinting*
+- [x] Check **Forget me when I close this site** (2)
+- [ ] Uncheck all social media components
 
 </div>
 
@@ -295,7 +295,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 <div class="annotate" markdown>
 
-- [x] 選取 **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] 將 [WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理UDP**
 - [ ] 取消選取 **使用 Google 服務來推送訊息**
 - [ ] 取消選取 **同意隱私防護的產品分析 (P3A)**
 - [ ] 取消選取 **自動發送每日使用呼叫至 Brave**
@@ -311,25 +311,22 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 <div class="admonition tip" markdown>
 <p class="admonition-title">離開時清除資料</p>
 
-- [x] In the *Sites and Shields Settings* 選單中的“內容”下，點擊“裝置上網站資料”選單後，選擇“**關閉所有視窗時刪除已儲存至裝置的資料網站**”
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
 
-如果希望保持登入到經常訪問的特定站點，可在「自訂行為」部分下針對每個站點設定例外。
+If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 
 ##### 擴充功能
 
-在**擴充功能**中關閉不使用的內建擴充功能
-
-- [ ] 取消勾選 **Hangouts**
-- [ ] 取消勾選 **WebTorrent**
+- [ ] Uncheck all built-in extensions you do not use
 
 ##### Web3
 
 Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非有用到任何功能，否則應停用這些功能。
 
-- 在預設的 以太坊 與 Solana 錢包下選擇 **擴充功能 (無後援)**
-- 在 **解析 IPFS 資源的方法** 下選擇 **已停用**
+- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
+- Set *Method to resolve IPFS resources* to **Disabled**
 
 ##### 系統
 
@@ -347,7 +344,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 #### Brave 獎勵與錢包
 
-** Brave 獎勵** 可讓您在 Brave 執行某些動作時獲得Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[私密加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，不鼓勵使用此功能。
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[私密加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，不鼓勵使用此功能。
 
 **Brave 錢包** 在您的電腦上本地運行，但不支援任何私密加密貨幣，因此我們也不建議使用此功能。
 
@@ -360,23 +357,23 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 ### 最低合格要求
 
 - 必須是開源軟體。
-- 支援自動更新。
-- 從上游版本釋出後的 0-1 天內接收引擎更新。
-- 可在 Linux、macOS 和 Windows 上使用。
-- 為了使瀏覽器更尊重隱私權所作的任何變動都不應對使用者體驗產生負面影響。
-- 預設情況下會封鎖第三方 Cookie。
-- 支援[狀態分割](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)以減少跨網站追蹤。[^1]
+- 必須支援自動更新。
+- Must receive engine updates in 0-1 days from upstream release.
+- Must be available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
+- Must block third-party cookies by default.
+- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### 最佳案例
 
 最佳案例標準代表我們希望在這個類別中看到的完美項目應具備的條件。 我們建議的瀏覽器可能不包括以下所有功能，但若包含這些功能會讓該項目在此頁面排名更高。
 
-- 包括內建內容攔截功能。
-- 支援 Cookie 區隔 (就像[多帳戶容器](https://support.mozilla.org/kb/containers)一樣)。
-- 支援漸進式網絡應用程式。 PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 這可能比安裝 Electron 應用程式更有優勢，因為您可以受益於瀏覽器的定期安全更新。
-- 不包括對使用者隱私沒有影響的附加功能 (bloatware)。
-- 預設情況下不收集遙測數據。
-- 提供開源同步伺服器實作。
-- 預設使用[私密搜尋引擎](search-engines.md)。
+- Should include built-in content blocking functionality.
+- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Should support Progressive Web Apps. PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Should not include add-on functionality (bloatware) that does not impact user privacy.
+- Should not collect telemetry by default.
+- Should provide an open-source sync server implementation.
+- Should default to a [private search engine](search-engines.md).
 
 [^1]: Brave 的實施詳情請參閱 [Brave 隱私更新：為隱私區隔網路狀態](https://brave.com/privacy-updates/14-partitioning-network-state)。

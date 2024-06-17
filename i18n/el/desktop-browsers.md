@@ -142,7 +142,7 @@ schema:
 
 ### Συνιστώμενη διαμόρφωση του Firefox
 
-Αυτές οι επιλογές βρίσκονται στο :material-menu: → **Ρυθμίσεις**
+These options can be found in :material-menu: → **Settings**.
 
 #### Αναζήτηση
 
@@ -272,7 +272,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 <div class="annotate" markdown>
 
 - [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] Select **Aggressive** under Trackers & ads blocking
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
@@ -281,9 +281,9 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Strict** under **Upgrade connections to HTTPS**
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under Block fingerprinting
+- [x] Select **Strict, may break sites** under *Block fingerprinting*
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -310,7 +310,7 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**
+- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
@@ -318,17 +318,14 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 ##### Extensions
 
-Disable built-in extensions you do not use in **Extensions**
-
-- [ ] Uncheck **Hangouts**
-- [ ] Uncheck **WebTorrent**
+- [ ] Uncheck all built-in extensions you do not use
 
 ##### Web3
 
 Τα χαρακτηριστικά Web3 του Brave μπορούν δυνητικά να αυξήσουν το δακτυλικό αποτύπωμα του προγράμματος περιήγησης και την επιφάνεια επιθέσεων. Αν δεν χρησιμοποιείτε καμία από τις λειτουργίες, θα πρέπει να τις απενεργοποιήσετε.
 
-- Select **Extensions (no fallback)** under Default Ethereum wallet and Default Solana wallet
-- Ορίστε τη **Μέθοδο αποκρυπτογράφησης πόρων IPFS** σε **Απενεργοποιημένη**
+- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
+- Set *Method to resolve IPFS resources* to **Disabled**
 
 ##### Σύστημα
 
@@ -346,7 +343,7 @@ Disable built-in extensions you do not use in **Extensions**
 
 #### Brave Rewards and Wallet
 
-Το **Brave Rewards** σας επιτρέπει να λαμβάνετε το κρυπτονόμισμα Basic Attention Token (BAT) για την εκτέλεση ορισμένων ενεργειών στο Brave. Βασίζεται σε custodial λογαριασμό και KYC από έναν επιλεγμένο αριθμό παρόχων. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Βασίζεται σε custodial λογαριασμό και KYC από έναν επιλεγμένο αριθμό παρόχων. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 Το **Brave Wallet** λειτουργεί τοπικά στον υπολογιστή σας, αλλά δεν υποστηρίζει ιδιωτικά κρυπτονομίσματα, οπότε θα αποθαρρύναμε τη χρήση και αυτής της δυνατότητας.
 
@@ -359,23 +356,23 @@ Disable built-in extensions you do not use in **Extensions**
 ### Ελάχιστες Απαιτήσεις
 
 - Πρέπει να είναι λογισμικό ανοικτού κώδικα.
-- Υποστηρίζει αυτόματες ενημερώσεις.
-- Λαμβάνει ενημερώσεις engine σε 0-1 ημέρες από την έκδοση του upstream.
-- Είναι διαθέσιμο σε Linux, macOS και Windows.
-- Οποιεσδήποτε αλλαγές απαιτούνται για να γίνει το πρόγραμμα περιήγησης πιο φιλικό προς το απόρρητο δεν θα πρέπει να επηρεάζουν αρνητικά την εμπειρία του χρήστη.
-- Μπλοκάρει τα cookies τρίτων από προεπιλογή.
-- Υποστηρίζει [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) για τον μετριασμό της παρακολούθησης μεταξύ των τοποθεσιών.[^1]
+- Must support automatic updates.
+- Must receive engine updates in 0-1 days from upstream release.
+- Must be available on Linux, macOS, and Windows.
+- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
+- Must block third-party cookies by default.
+- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### Βέλτιστη Περίπτωση
 
 Τα κριτήρια της καλύτερης περίπτωσης αντιπροσωπεύουν αυτό που θα θέλαμε να δούμε από το τέλειο project σε αυτή την κατηγορία. Οι συστάσεις μας ενδέχεται να μην περιλαμβάνουν κάποια ή όλες αυτές τις λειτουργίες, αλλά εκείνες που τις περιλαμβάνουν ενδέχεται να κατατάσσονται υψηλότερα από άλλες σε αυτή τη σελίδα.
 
-- Περιλαμβάνει ενσωματωμένη λειτουργία αποκλεισμού περιεχομένου.
-- Υποστηρίζει διαμερισμό cookie ([Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Υποστηρίζει Progressive Web Apps. Τα PWA σάς επιτρέπουν να εγκαθιστάτε ορισμένους ιστότοπους σαν να ήταν εγγενείς εφαρμογές στον υπολογιστή σας. Αυτό μπορεί να έχει πλεονεκτήματα σε σχέση με την εγκατάσταση εφαρμογών που βασίζονται στο Electron, επειδή επωφελείστε από τις τακτικές ενημερώσεις ασφαλείας του προγράμματος περιήγησής σας.
-- Δεν περιλαμβάνει πρόσθετες λειτουργίες (bloatware) που δεν επηρεάζουν το απόρρητο του χρήστη.
-- Δεν συλλέγει τηλεμετρία από προεπιλογή.
-- Παρέχει υλοποίηση διακομιστή συγχρονισμού ανοικτού κώδικα.
-- Προεπιλογή σε μια [ιδιωτική μηχανή αναζήτησης](search-engines.md).
+- Should include built-in content blocking functionality.
+- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Should support Progressive Web Apps. Τα PWA σάς επιτρέπουν να εγκαθιστάτε ορισμένους ιστότοπους σαν να ήταν εγγενείς εφαρμογές στον υπολογιστή σας. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Should not include add-on functionality (bloatware) that does not impact user privacy.
+- Should not collect telemetry by default.
+- Should provide an open-source sync server implementation.
+- Should default to a [private search engine](search-engines.md).
 
 [^1]: Η εφαρμογή της Brave περιγράφεται λεπτομερώς στο [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
