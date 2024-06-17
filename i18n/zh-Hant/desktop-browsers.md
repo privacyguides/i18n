@@ -280,11 +280,11 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
+- [x] 將 *升級連線至HTTPS* 設定為 **嚴格**
+- [x] (可選) 勾選 **封鎖指令碼** (1)
 - [x] Select **Strict, may break sites** under *Block fingerprinting*
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] 勾選 **當我關閉此網站時忘記我** (2)
+- [ ] 取消勾選所有社交媒體組件
 
 </div>
 
@@ -311,22 +311,22 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 <div class="admonition tip" markdown>
 <p class="admonition-title">離開時清除資料</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
+- [x] 在 *網站與 Shields 設定* 選單中的“內容”下，點擊 *網站在裝置端的資料* 選單後，選擇 **在所有視窗關閉後刪除網站儲存到裝置的資料** 。
 
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+如果希望在經常訪問的特定網站上保持登入，可在「自訂設定」部分下針對每個網站設定例外。
 
 </div>
 
 ##### 擴充功能
 
-- [ ] Uncheck all built-in extensions you do not use
+- [ ] 取消勾選所有您用不到的內建擴充功能
 
 ##### Web3
 
 Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非有用到任何功能，否則應停用這些功能。
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
-- Set *Method to resolve IPFS resources* to **Disabled**
+- 將預設的 *以太坊* 與 *Solana* 錢包設定為 **擴充功能 (無後援)**
+- 將 *解析 IPFS 資源的方法* 設定為 **已停用**
 
 ##### 系統
 
