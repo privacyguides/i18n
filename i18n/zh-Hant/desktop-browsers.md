@@ -344,7 +344,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 #### Brave 獎勵與錢包
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[私密加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，不鼓勵使用此功能。
+**Brave 獎勵** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[私密加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，不鼓勵使用此功能。
 
 **Brave 錢包** 在您的電腦上本地運行，但不支援任何私密加密貨幣，因此我們也不建議使用此功能。
 
@@ -358,22 +358,22 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 - 必須是開源軟體。
 - 必須支援自動更新。
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- 必須從上游版本釋出後的 0-1 天內接收引擎更新。
+- 可在 Linux、macOS 和 Windows 上使用。
+- 為了使瀏覽器更尊重隱私權所作的任何變動都不應對使用者體驗產生負面影響。
+- 預設情況下會封鎖第三方 Cookie。
+- 支援[狀態分割](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)以減少跨網站追蹤。[^1]
 
 ### 最佳案例
 
 最佳案例標準代表我們希望在這個類別中看到的完美項目應具備的條件。 我們建議的瀏覽器可能不包括以下所有功能，但若包含這些功能會讓該項目在此頁面排名更高。
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps. PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- 包括內建內容攔截功能。
+- 支援 Cookie 區隔 (就像[多帳號容器](https://support.mozilla.org/kb/containers)一樣)。
+- 支援漸進式網路應用程式。 PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 這可能比安裝基於 Electron 的應用程式更有優勢，因為您可以受益於瀏覽器的定期安全更新。
+- 不包括對使用者隱私沒有影響的附加功能 (bloatware)。
+- 預設情況下不應收集遙測。
+- 提供開源同步伺服器實作。
+- 預設使用[私密搜尋引擎](search-engines.md)。
 
 [^1]: Brave 的實施詳情請參閱 [Brave 隱私更新：為隱私區隔網路狀態](https://brave.com/privacy-updates/14-partitioning-network-state)。
