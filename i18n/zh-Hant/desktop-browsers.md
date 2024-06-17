@@ -271,7 +271,7 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
 <div class="annotate" markdown>
 
-- [x] 勾選 **根據我的語言偏好設定，防止網站識別我的指紋**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 - [x] 將 *追蹤器與廣告封鎖* 設定為 **積極**
 
 <details class="warning" markdown>
