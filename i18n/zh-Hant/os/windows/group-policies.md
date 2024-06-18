@@ -46,28 +46,28 @@ title: 群組原則設置
 
 #### 自動播放原則
 
-自動執行和自動播放功能讓 Windows 在連接裝置時執行腳本或執行某些其他任務，有時會繞過使用者同意的安全措施。 這可能導致您在不知情的情況下，讓未信任的設備執行惡意程式碼。 最佳安全實踐是停用這些功能，手動開啟外部磁碟上的檔案。
+自動執行和自動播放功能讓 Windows 在連接裝置時執行腳本或執行某些其他任務，有時會繞過使用者同意的安全措施。 這可能導致您在不知情的情況下，讓未信任的設備執行惡意程式碼。 因此，最佳的安全做法是停用這些功能，並改為手動開啟外接磁碟的檔案。
 
-- 關閉自動播放:**已啟用**
-- 不允非磁區裝置的自動播放:**已啟用**
-- 設定 AutoRun 命令的預設行為:**已啟用**
-  - 預設 AutoRun 行為:**不執行任何 AutoRun 命令**
+- 關閉自動播放: **已啟用**
+- 不允許非磁碟區裝置的自動播放: **已啟用**
+- 設定 AutoRun 的預設行為: **已啟用**
+  - 預設 AutoRun 行為: **不執行任何 AutoRun 命令**
 
 #### BitLocker 磁碟機加密
 
-變更這些設定後，可能會想要重新加密作業系統磁碟機。
+在變更以下設定後，您可能需要重新加密作業系統磁碟機。
 
 - 選擇磁碟機加密演算法及金鑰加密強度 (Windows Vista, Windows Server 2008, Windows 7): **已啟用**
   - 選取加密方法:**AES-256**
 
-設定 Windows 7 原則的密碼強度仍將該強度套用至較新版本的 Windows。
+即使針對 Windows 7 政策設定加密強度，此強度仍適用於較新的 Windows 版本。
 
 ##### 作業系統磁碟機
 
 - 啟動時需要其它驗證:**已啟用**
 - 允許用於啟動的 PIN 增強:**己啟用**
 
-這些原則，預設情況不會「要求」您執行任何操作，將解鎖「選項」以進行更複雜的設定（例如除了 TPM 之外，在啟動時還需要 PIN 碼） Bitlocker設定嚮導。
+儘管這些政策的名稱是這樣，但預設情況下並不會**強制**您執行任何動作。不過，這將在 BitLocker 設定引導中解鎖更複雜的設定**選項** (例如，除了 TPM 之外，啟動時還需要 PIN 碼)。
 
 #### 雲端內容
 
@@ -84,17 +84,17 @@ title: 群組原則設置
 #### 資料收集與預覽組建
 
 - 允許電腦分析處理:**已啟用**
-  - Options: **Send required diagnostic data** (Pro Edition); or
-  - Options: **Diagnostic data off** (Enterprise or Education Edition)
-- Limit Diagnostic Log Collection: **Enabled**
-- Limit Dump Collection: **Enabled**
-- Limit optional diagnostic data for Desktop Analytics: **Enabled**
-  - Options: **Disable Desktop Analytics collection**
-- 不顯示意見反應通知:**已啟用**
+  - 選項: **傳送必要的診斷資料** (專業版) 或是
+  - 選項: **關閉診斷資料** (企業版或教育版)
+- 限制診斷記錄檔集合: **已啟用**
+- 限制傾印集合: **已啟用**
+- 限制用於電腦分析的選擇性診斷資料: **已啟用**
+  - 選項: **停用 電腦分析 收集**
+- 不顯示意見反應通知: **已啟用**
 
 #### 檔案總管
 
-- Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
+- 關閉帳戶型深入解析、最近使用、我的最愛和建議的檔案檔案總管: **已啟用**
 
 #### MDM
 
