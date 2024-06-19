@@ -1,15 +1,15 @@
 ---
-title: General Criteria
+title: Algemene criteria
 ---
 
-Below are some general priorities we consider for all submissions to Privacy Guides. Aan elke categorie worden aanvullende eisen gesteld.
+Hieronder staan enkele algemene prioriteiten die we in overweging nemen voor alle inzendingen voor Privacy Guides. Elke categorie heeft extra vereisten voor opname.
 
-- **Security**: Tools should follow security best-practices wherever applicable.
-- **Source Availability**: Open-source projects are generally preferred over equivalent proprietary alternatives.
-- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform, to avoid vendor lock-in.
+- **Beveiliging**: Tools moeten de beste beveiligingspraktijken volgen waar van toepassing.
+- **Bronbeschikbaarheid**: Open-source projecten hebben over het algemeen de voorkeur boven gelijkwaardige propriëtaire alternatieven.
+- **Cross-platform beschikbaarheid**: We geven er gewoonlijk de voorkeur aan dat aanbevelingen platformonafhankelijk zijn, om te voorkomen dat u aan een bepaalde leverancier vastzit.
 - **Actieve ontwikkeling**: De hulpmiddelen die wij aanbevelen moeten actief worden ontwikkeld, niet-onderhouden projecten zullen in de meeste gevallen worden verwijderd.
 - **Bruikbaarheid**: Tools moeten toegankelijk zijn voor de meeste computergebruikers, een al te technische achtergrond is niet vereist.
-- **Documentation**: Tools should have clear and extensive documentation for use.
+- **Documentatie**: Tools moeten duidelijke en uitgebreide documentatie hebben voor gebruik.
 
 ## Financiële informatie
 

@@ -37,11 +37,11 @@ Om deze vraag te beantwoorden, is het belangrijk na te gaan wie je of jouw infor
 
 *Maak een lijst van jouw tegenstanders, of van degenen die jouw bezittingen in handen zouden willen krijgen. Jouw lijst kan personen, een overheidsinstantie of bedrijven omvatten.*
 
-Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
+Afhankelijk van wie je tegenstanders zijn, is deze lijst misschien iets dat je wilt vernietigen nadat je klaar bent met het ontwikkelen van je bedreigingsmodel.
 
 ### Hoe groot is de kans dat ik het zal moeten beschermen?
 
-==Risico is de kans dat een bepaalde dreiging tegen een bepaald goed zich voordoet.== Het gaat hand in hand met vermogen. Hoewel jouw mobiele-telefoonprovider toegang heeft tot al jouw gegevens, is het risico klein dat hij jouw privégegevens online plaatst om jouw reputatie te schaden.
+==Risico is de kans dat een bepaalde dreiging tegen een bepaald goed zich voordoet.== Het gaat hand in hand met capabiliteit. Hoewel jouw mobiele-telefoonprovider toegang heeft tot al jouw gegevens, is het risico klein dat die jouw privégegevens online plaatst om jouw reputatie te schaden.
 
 Het is belangrijk onderscheid te maken tussen wat zou kunnen gebeuren en de waarschijnlijkheid dat het gebeurt. Er bestaat bijvoorbeeld een risico dat jouw gebouw instort, maar het risico dat dit gebeurt is veel groter in San Francisco (waar aardbevingen vaak voorkomen) dan in Stockholm (waar dit niet het geval is).
 

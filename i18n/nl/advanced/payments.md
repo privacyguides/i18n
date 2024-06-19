@@ -1,6 +1,6 @@
 ---
-title: Private Payments
-icon: material/hand-coin
+title: Privé betalingen
+icon: materiaal/hand-munt
 ---
 
 Er is een reden waarom gegevens over jouw koopgedrag word beschouwd als de heilige graal van gerichte advertenties: jouw aankopen kunnen een ware schat aan gegevens over je lekken. Helaas is het huidige financiële systeem anti-privacy by design, waardoor banken, andere bedrijven en overheden transacties gemakkelijk kunnen traceren. Toch heb je tal van opties als het gaat om het maken van betalingen privé.
@@ -9,7 +9,7 @@ Er is een reden waarom gegevens over jouw koopgedrag word beschouwd als de heili
 
 Eeuwenlang was **contant geld** de belangrijkste vorm van particuliere betaling. Cash heeft in de meeste gevallen uitstekende privacy-eigenschappen, wordt in de meeste landen algemeen geaccepteerd en is **vervangbaar**, wat betekent dat het niet uniek en volledig verwisselbaar is.
 
-De wetgeving inzake contante betaling verschilt per land. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). Het ontvangende bedrijf moet de naam, het adres, het beroep, de geboortedatum en het burgerservicenummer of een ander TIN van de begunstigde verifiëren (met enkele uitzonderingen). Lagere limieten zonder ID zoals $ 3.000 of minder bestaan voor uitwisselingen en geldoverdracht. Contant geld bevat ook serienummers. Deze worden bijna nooit door handelaren getraceerd, maar kunnen door rechtshandhavingsinstanties worden gebruikt bij gerichte onderzoeken.
+De wetgeving inzake contante betaling verschilt per land. In de Verenigde Staten is speciale openbaarmaking vereist voor contante betalingen van meer dan $10.000 aan de IRS op [formulier 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). Het ontvangende bedrijf moet de naam, het adres, het beroep, de geboortedatum en het burgerservicenummer of een ander TIN van de begunstigde verifiëren (met enkele uitzonderingen). Lagere limieten zonder ID zoals $ 3.000 of minder bestaan voor uitwisselingen en geldoverdracht. Contant geld bevat ook serienummers. Deze worden bijna nooit door handelaren getraceerd, maar kunnen door rechtshandhavingsinstanties worden gebruikt bij gerichte onderzoeken.
 
 Toch is het meestal de beste optie.
 
@@ -17,7 +17,7 @@ Toch is het meestal de beste optie.
 
 Het is relatief eenvoudig om cadeaubonnen en prepaidkaarten te kopen bij de meeste supermarkten en gemakswinkels met contant geld. Cadeaukaarten hebben meestal geen geen kosten, maar prepaidkaarten vaak wel, dus let goed op deze kosten en vervaldata. Sommige winkels kunnen vragen om je legitimatiebewijs te zien bij het afrekenen om fraude te verminderen.
 
-Cadeaubonnen hebben meestal limieten tot $ 200 per kaart, maar sommige bieden limieten tot $ 2.000 per kaart. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Cadeaubonnen hebben meestal limieten tot $ 200 per kaart, maar sommige bieden limieten tot $ 2.000 per kaart. Prepaidkaarten (bijv. van Visa of Mastercard) hebben meestal limieten tot $ 1.000 per kaart.
 
 Cadeaubonnen hebben het nadeel dat ze onderworpen zijn aan het winkelbeleid, dat vreselijke voorwaarden en beperkingen kan hebben. Sommige verkopers accepteren bijvoorbeeld niet uitsluitend betaling met cadeaubonnen, of ze kunnen de waarde van de kaart annuleren als ze je als een gebruiker met een hoog risico beschouwen. Zodra je een cadeaubon hebt, heeft de winkel een sterke mate van controle over dit krediet.
 
@@ -46,7 +46,7 @@ Dit zijn meestal goede opties voor online terugkerende betalingen/abonnementen, 
 Cryptocurrencies zijn een digitale vorm van valuta die is ontworpen om te werken zonder centrale autoriteiten zoals een overheid of bank. Hoewel *sommige* cryptocurrency-projecten je in staat stellen online privétransacties te verrichten, gebruiken vele een openbare blockchain die geen enkele transactieprivacy biedt. Cryptovaluta's zijn ook zeer volatiele assets, wat betekent dat hun waarde op elk moment snel en aanzienlijk kan veranderen. Als zodanig raden we over het algemeen niet aan om cryptocurrency te gebruiken als een lange termijn opslag van waarde. Als je besluit cryptocurrency online te gebruiken, zorg er dan voor dat je vooraf volledig op de hoogte bent van de privacy-aspecten ervan, en investeer alleen bedragen die niet rampzalig zijn om te verliezen.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Let op</p>
 
 De overgrote meerderheid van de cryptocurrencies werkt op een **publieke** blockchain, wat betekent dat elke transactie publiekelijk bekend is. Dit omvat zelfs de meeste bekende cryptocurrencies zoals Bitcoin en Ethereum. Transacties met deze cryptocurrencies mogen niet als privé worden beschouwd en zullen jouw anonimiteit niet beschermen.
 
@@ -60,7 +60,7 @@ Er zijn een aantal cryptocurrency-projecten die beweren privacy te bieden door t
 
 - [Aanbevolen cryptocurrency :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
-Privacymunten worden steeds kritischer bekeken door overheidsinstanties. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. Ze hebben uiteindelijk [twee bedrijven](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis en Integra Fec) samen 1,25 miljoen dollar betaald voor tools die dit pretenderen te doen (het is onbekend op welk cryptocurrency netwerk deze tools zich richten). Vanwege de geheimhouding rond tools zoals deze, is geen van deze methoden voor het traceren van cryptocurrencies onafhankelijk bevestigd.== Het is vrij waarschijnlijk dat er instrumenten bestaan die gericht onderzoek naar particuliere munttransacties ondersteunen, en dat privacymunten er alleen in slagen massasurveillance te dwarsbomen.
+Privacymunten worden steeds kritischer bekeken door overheidsinstanties. In 2020 [publiceerde de IRS een beloning van $625.000](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) voor tools die de transactieprivacy van Bitcoin Lightning Network en/of Monero kunnen doorbreken. Ze hebben uiteindelijk [twee bedrijven](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis en Integra Fec) samen 1,25 miljoen dollar betaald voor tools die dit pretenderen te doen (het is onbekend op welk cryptocurrency netwerk deze tools zich richten). Vanwege de geheimhouding rond tools zoals deze, is geen van deze methoden voor het traceren van cryptocurrencies onafhankelijk bevestigd.== Het is vrij waarschijnlijk dat er instrumenten bestaan die gericht onderzoek naar particuliere munttransacties ondersteunen, en dat privacymunten er alleen in slagen massasurveillance te dwarsbomen.
 
 ### Andere munten (Bitcoin, Ethereum, enz.)
 
@@ -76,7 +76,7 @@ Bij cryptocurrency zijn er twee vormen van wallets: custodial wallets en noncust
 
 ### Aankoop
 
-Het particulier verwerven van [cryptocurrencies](../cryptocurrency.md) zoals Monero kan moeilijk zijn. P2P marketplaces, platforms which facilitate trades between people, are one option that can be used. If using an exchange which requires KYC is an acceptable risk for you as long as subsequent transactions can't be traced, a much easier option is to purchase Monero on an exchange like [Kraken](https://kraken.com), or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Vervolgens kun je de aangekochte Monero opnemen in jouw eigen, niet-vrijwillige portemonnee om vanaf dat moment privé te gebruiken.
+Het particulier verwerven van [cryptocurrencies](../cryptocurrency.md) zoals Monero kan moeilijk zijn. P2P-marktplaatsen, platformen die handel tussen mensen mogelijk maken, zijn een optie die kan worden gebruikt. Als het gebruik van een exchange die KYC vereist een acceptabel risico voor je is zolang latere transacties niet kunnen worden getraceerd, is een veel eenvoudigere optie om Monero te kopen op een exchange zoals [Kraken](https://kraken.com), of Bitcoin/Litecoin te kopen van een KYC exchange die vervolgens kan worden omgewisseld voor Monero. Vervolgens kun je de aangekochte Monero opnemen in jouw eigen, niet-vrijwillige portemonnee om vanaf dat moment privé te gebruiken.
 
 Als je voor deze route kiest, zorg er dan voor dat je Monero koopt op andere tijdstippen en in andere hoeveelheden dan waar je het zult uitgeven. Als je $5000 aan Monero koopt op een beurs en een uur later een aankoop van $5000 in Monero doet, kunnen die acties mogelijk gecorreleerd worden door een buitenstaander, ongeacht welke weg de Monero aflegde. Door aankopen te spreiden en vooraf grotere hoeveelheden Monero te kopen om later uit te geven aan meerdere kleinere transacties, kan deze valkuil worden vermeden.
 

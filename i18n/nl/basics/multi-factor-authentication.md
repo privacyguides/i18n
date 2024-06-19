@@ -1,5 +1,5 @@
 ---
-title: "Multifactor-authenticatie"
+title: "Multifactorauthenticatie"
 icon: 'material/two-factor-authentication'
 description: MFA is een cruciaal beveiligingsmechanisme voor de beveiliging van jouw online accounts, maar sommige methoden zijn sterker dan andere.
 ---
@@ -36,13 +36,13 @@ TOTP is een van de meest voorkomende vormen van MFB. Wanneer je TOTP instelt, mo
 
 De in de tijd beperkte code wordt dan afgeleid van het gedeelde geheim en de huidige tijd. Aangezien de code slechts korte tijd geldig is, kan een adversair zonder toegang tot het gedeelde geheim geen nieuwe codes genereren.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. Hardware zoals de YubiKey werd ontwikkeld met de bedoeling het "gedeelde geheim" moeilijk te ontfutselen en te kopiëren te maken. Een YubiKey is ook niet verbonden met het internet, in tegenstelling tot een telefoon met een TOTP-app.
+Als je een hardware beveiligingssleutel hebt met TOTP ondersteuning (zoals een YubiKey met [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), raden we je aan om je "gedeelde geheimen" op te slaan op de hardware. Hardware zoals de YubiKey werd ontwikkeld met de bedoeling het "gedeelde geheim" moeilijk te ontfutselen en te kopiëren te maken. Een YubiKey is ook niet verbonden met het internet, in tegenstelling tot een telefoon met een TOTP-app.
 
 In tegenstelling tot [WebAuthn](#fido-fast-identity-online)biedt TOTP geen bescherming tegen [phishing](https://en.wikipedia.org/wiki/Phishing) of hergebruikaanvallen. Als een tegenstander een geldige code van je krijgt, mag hij die zo vaak gebruiken als hij wil totdat de code is verlopen (over het algemeen 60 seconden.
 
 Een tegenstander kan een website opzetten om een officiële dienst te imiteren in een poging om je te verleiden jouw gebruikersnaam, wachtwoord en huidige TOTP-code te geven. Als de tegenstander vervolgens deze vastgelegde gegevens gebruikt, kan hij op de echte dienst inloggen en de account kapen.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+Hoewel niet perfect, is TOTP veilig genoeg voor de meeste mensen, en wanneer [hardware beveiligingssleutels](../security-keys.md) niet worden ondersteund zijn [authenticator apps](../multi-factor-authentication.md) nog steeds een goede optie.
 
 
 
@@ -91,7 +91,7 @@ Wanneer je een account aanmaakt, wordt de openbare sleutel naar de dienst gestuu
 Deze presentatie bespreekt de geschiedenis van wachtwoordauthenticatie, de valkuilen (zoals hergebruik van wachtwoorden), en bespreking van de FIDO2- en [WebAuthn](https://webauthn.guide) -normen.
 
 <div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Hoe FIDO2 en WebAuthn accountovernames stoppen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Hoe FIDO2 en WebAuthn accountovernames tegengaan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 FIDO2 en WebAuthn hebben superieure beveiligings- en privacy-eigenschappen in vergelijking met andere MFA-methoden.
@@ -120,7 +120,7 @@ Wanneer je jouw MFA-methode configureert, moet je in gedachten houden dat deze s
 
 Je moet altijd back-ups hebben voor jouw MFA-methode. Hardwaresleutels kunnen zoekraken, gestolen worden of na verloop van tijd niet meer werken. Het is aan te bevelen om een paar hardware beveiligingssleutels te hebben met dezelfde toegang tot jouw accounts in plaats van slechts één.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+Als je TOTP gebruikt met een authenticatie-app, zorg er dan voor dat je een back-up maakt van je herstelsleutels of van de app zelf, of kopieer de "gedeelde geheimen" naar een andere instantie van de app op een andere telefoon of naar een versleutelde container (bijv. [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 
 
@@ -150,7 +150,7 @@ Naast het beveiligen van jouw website logins, kan multifactor authenticatie ook 
 
 macOS heeft [native ondersteuning](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) voor authenticatie met smartcards (PIV). Indien je een smartcard of een hardware beveiligingssleutel heeft die de PIV interface ondersteunt, zoals de YubiKey, raden wij je aan om de documentatie van jouw smartcard/hardware beveiligingsleverancier te volgen en tweede factor authenticatie voor jouw macOS computer in te stellen.
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
+Yubico heeft een handleiding voor [het gebruik van je YubiKey als een smartcard in macOS](https://support.yubico.com/hc/articles/360016649059) die je kan helpen bij het instellen van je YubiKey op macOS.
 
 Nadat jouw smartcard/security key is ingesteld, raden wij je aan dit commando in de Terminal uit te voeren:
 
@@ -168,19 +168,19 @@ Het commando zal voorkomen dat een tegenstander MFA omzeilt wanneer de computer 
 ### Linux
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Let op</p>
 
 Als de hostnaam van jouw systeem verandert (bijvoorbeeld door DHCP), zou je niet kunnen inloggen. Het is van vitaal belang dat je een correcte hostnaam instelt voor jouw computer alvorens deze gids te volgen.
 
 </div>
 
-De `pam_u2f` module op Linux kan twee-factor authenticatie bieden om in te loggen op de meeste populaire Linux distributies. Als je een hardware beveiligingssleutel hebt die U2F ondersteunt, kun je MFA verificatie instellen voor jouw aanmelding. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. De commando's van de pakketbeheerder - zoals `apt-get`- en de pakketnamen kunnen echter verschillen. Deze gids is **niet** van toepassing op Qubes OS.
+De `pam_u2f` module op Linux kan twee-factor authenticatie bieden om in te loggen op de meeste populaire Linux distributies. Als je een hardware beveiligingssleutel hebt die U2F ondersteunt, kun je MFA verificatie instellen voor jouw aanmelding. Yubico heeft een gids genaamd [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) die op elke distributie zou moeten werken. De commando's van de pakketbeheerder - zoals `apt-get`- en de pakketnamen kunnen echter verschillen. Deze gids is **niet** van toepassing op Qubes OS.
 
 
 
 ### Qubes OS
 
-Qubes OS heeft ondersteuning voor Challenge-Response authenticatie met YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
+Qubes OS heeft ondersteuning voor Challenge-Response authenticatie met YubiKeys. Als je een YubiKey hebt met Challenge-Response authenticatie ondersteuning, kijk dan eens naar de Qubes OS [YubiKey documentatie](https://qubes-os.org/doc/yubikey) als je MFA wilt instellen op Qubes OS.
 
 
 
@@ -190,16 +190,16 @@ Qubes OS heeft ondersteuning voor Challenge-Response authenticatie met YubiKeys.
 
 #### Hardware Veiligheidssleutels
 
-SSH MFA kan worden ingesteld met behulp van meerdere verschillende authenticatiemethoden die populair zijn met hardware beveiligingssleutels. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
+SSH MFA kan worden ingesteld met behulp van meerdere verschillende authenticatiemethoden die populair zijn met hardware beveiligingssleutels. We raden je aan om de [documentatie](https://developers.yubico.com/SSH) van Yubico te raadplegen over hoe je dit kunt instellen.
 
 
 
 #### TOTP
 
-SSH MFA kan ook worden ingesteld met TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). De meeste dingen zouden hetzelfde moeten zijn, ongeacht de distributie, maar de commando's van de pakketbeheerder - zoals `apt-get`- en de pakketnamen kunnen verschillen.
+SSH MFA kan ook worden ingesteld met TOTP. DigitalOcean heeft een tutorial beschikbaar gesteld genaamd [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). De meeste dingen zouden hetzelfde moeten zijn, ongeacht de distributie, maar de commando's van de pakketbeheerder - zoals `apt-get`- en de pakketnamen kunnen verschillen.
 
 
 
 ### KeePass (en KeePassXC)
 
-KeePass en KeePassXC databases kunnen worden beveiligd met Challenge-Response of HOTP als een tweede-factor authenticatie. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePass en KeePassXC databases kunnen worden beveiligd met Challenge-Response of HOTP als een tweede-factor authenticatie. Yubico heeft een document verstrekt voor KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) en er is er ook een op de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
