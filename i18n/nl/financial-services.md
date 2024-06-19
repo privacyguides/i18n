@@ -13,7 +13,7 @@ Online betalen is een van de grootste uitdagingen voor privacy. Deze diensten ku
 Er zijn een aantal diensten die "virtuele debetkaarten" aanbieden die je bij online handelaren kunt gebruiken zonder in de meeste gevallen jouw werkelijke bank- of factureringsgegevens bekend te maken. Het is belangrijk op te merken dat deze financiële diensten **niet** anoniem zijn en onderworpen zijn aan "Know Your Customer" (KYC) wetten en jouw ID of andere identificerende informatie kunnen vereisen. Deze diensten zijn vooral nuttig om je te beschermen tegen inbreuken op gegevens van handelaars, minder gesofisticeerde tracking of aankoopcorrelatie door marketingbureaus, en online gegevensdiefstal; en **niet** om volledig anoniem een aankoop te doen.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Check your current bank</p>
+<p class="admonition-title">Controleer uw huidige bank</p>
 
 Veel banken en kredietkaartaanbieders bieden hun eigen virtuele kaartfunctionaliteit. Als je er een gebruikt die deze optie al biedt, moet je deze in de meeste gevallen over de volgende aanbevelingen gebruiken. Op die manier vertrouw je niet meerdere partijen met jouw persoonlijke informatie.
 
@@ -45,7 +45,7 @@ Privacy.com geeft standaard informatie over de handelaren bij wie je koopt door 
 MySudo logo](assets/img/financiële-diensten/mysudo.svg#alleen-licht){ align=right }
 MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** biedt tot 9 virtuele kaarten, afhankelijk van het plan dat je koopt. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email-aliasing.md) for extensive email aliasing use.
+**MySudo** biedt tot 9 virtuele kaarten, afhankelijk van het plan dat je koopt. Hun betaalde diensten bevatten bovendien functionaliteit die handig kan zijn om privé aankopen te doen, zoals virtuele telefoonnummers en e-mailadressen, hoewel we meestal andere [email aliasing providers](email-aliasing.md) aanbevelen voor uitgebreid e-mailaliasing gebruik.
 
 [:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -55,7 +55,7 @@ MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=rig
 
 </div>
 
-MySudo's virtual cards are currently only available via their iOS app.
+De virtuele kaarten van MySudo zijn momenteel alleen beschikbaar via hun iOS-app.
 
 ### Criteria
 

@@ -99,7 +99,7 @@ Ons fondsenwervingsplatform, OpenCollective, is een andere bron van onenigheid. 
 
 De fondsen in OpenCollective behoren dus toe aan Privacy Guides, ze zijn gegeven aan ons project, en niet aan de eigenaar van een bekende domeinnaam. In de aankondiging aan donateurs op 17 september 2021 boden wij donateurs die het niet eens zijn met ons standpunt een terugbetaling aan, maar niemand is op dit aanbod ingegaan:
 
-> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
+> Als er sponsors of backers zijn die het niet eens zijn met of zich misleid voelen door deze recente gebeurtenissen en een terugbetaling willen aanvragen gezien deze zeer ongebruikelijke omstandigheden, neem dan contact op met onze projectbeheerder door een e-mail te sturen naar `jonah@triplebit.net.`.
 
 ## Meer lezen
 
