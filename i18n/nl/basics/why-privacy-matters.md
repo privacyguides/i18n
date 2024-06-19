@@ -27,7 +27,7 @@ Veiligheid is het vermogen om de applicaties die je gebruikt te vertrouwen, dat 
 Certificaten bewijzen dat je rechtstreeks praat met de website die je bezoekt, en voorkomt dat aanvallers op jouw netwerk de gegevens kunnen lezen of wijzigen die van of naar de website worden gestuurd.
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**Anonimiteit**
 :
 
 Anonimiteit is de mogelijkheid om te handelen zonder blijvende identificatie. Je kunt dit online bereiken met [Tor](../tor.md), waarmee je op het internet kunt surfen met een willekeurig IP-adres en netwerkverbinding in plaats van jouw eigen.
@@ -57,6 +57,6 @@ Privacy is iets wat we standaard in [software en diensten](../tools.md) moeten i
 
 ## Bronnen
 
-- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
-- [The New Oil: Waarom privacy & veiligheid belangrijk is](https://thenewoil.org/en/guides/prologue/why)
-- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
+- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) door Neil Richards
+- [The New Oil: Waarom privacy & veiligheid belangrijk zijn](https://thenewoil.org/en/guides/prologue/why)
+- [@Thorin-Oakenpants over Anonimiteit vs Privacy vs Beveiliging](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)

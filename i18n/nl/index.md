@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Jouw onafhankelijke bron voor privacy en veiligheid"
+meta_title: "Privacy Guides: Uw onafhankelijke bron voor privacy en beveiliging"
 template: home.html
 social:
   cards_layout: home
@@ -46,7 +46,7 @@ Net zoals het recht op interraciale huwelijken, het kiesrecht voor vrouwen, de v
 
 Je moet privacy niet verwarren met geheimhouding. We weten wat er in de badkamer gebeurt, maar je doet nog steeds de deur dicht. Dat is omdat je privacy wilt, geen geheimzinnigheid. **Iedereen** heeft iets te beschermen. Privacy is iets wat ons menselijk maakt.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Waarom Privacy Belangrijk Is](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 
 ## Wat moet ik doen?
 

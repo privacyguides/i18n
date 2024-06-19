@@ -1,58 +1,58 @@
 ---
 title: iOS Overzicht
-icon: simple/apple
+icon: simpel/apple
 description: iOS is een mobiel besturingssysteem ontwikkeld door Apple voor de iPhone.
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+**iOS** en **iPadOS** zijn gesloten mobiele besturingssystemen ontwikkeld door Apple voor respectievelijk hun iPhone en iPad producten. Als u een Apple mobiel apparaat bezit, kunt u uw privacy verbeteren door wat ingebouwde telemetrie functies uit te schakelen en wat privacy- en beveiligingsinstellingen aan te scherpen, welke zijn ingebouwd in het systeem.
 
 ## Privacy Opmerkingen
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+iOS-apparaten worden regelmatig geprijsd door beveiligingsexperts wegens hun robuuste gegevensbeveiliging en voor het volgen van moderne, beste praktijken. Echter, de restrictiviteit van Apples ecosysteem - met name met hun mobiele apparaten - belemmert privacy nog steeds op een aantal manieren.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+We zijn over het algemeen van mening dat iOS voor de meeste mensen een beter dan gemiddelde bescherming biedt op het gebied van privacy en beveiliging, vergeleken met klassiek Android-apparaten van welke fabrikant dan ook. Je kunt echter nog hogere privacynormen bereiken met een [aangepast Android-besturingssysteem](../android.md#aosp-derivatives) zoals GrapheneOS, als je volledig onafhankelijk wilt of moet zijn van de clouddiensten van Apple of Google.
 
-### Activatie vergrendeling
+### Activeringsslot
 
-All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
+Alle iOS-apparaten moeten worden gecontroleerd door de Activeringsslot-servers van Apple wanneer ze voor het eerst worden ingesteld of gereset, wat betekent dat een internetverbinding **vereist** is om een iOS-apparaat te gebruiken.
 
-### Mandatory App Store
+### Verplichte App Store
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple ID to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+De enige bron voor apps op iOS is de App Store van Apple, waarvoor je een Apple ID nodig hebt om toegang te krijgen. Dit betekent dat Apple kennis heeft van elke app die je op je apparaat installeert en die informatie waarschijnlijk kan koppelen aan je werkelijke identiteit als je de App Store een betaalmethode geeft.
 
-### Invasive Telemetry
+### Invasieve telemetrie
 
-Apple has historically had problems with properly anonymizing their telemetry on iOS. [In 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+Apple heeft in het verleden problemen gehad met het adequaat anonimiseren van hun telemetrie op iOS. [In 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings) werd ontdekt dat Apple Siri-opnames, waarvan sommige zeer vertrouwelijke informatie bevatten, doorstuurde naar zijn servers voor handmatige controle door externe contractanten. Hoewel dat programma tijdelijk werd stopgezet nadat [er veel over](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana) deze praktijk werd [gesproken in het nieuws](https://theverge. com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), werd het probleem pas in [2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) volledig opgelost.
 
-More recently, Apple has been found to [transmit analytics even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being anonymous.
+Meer recentelijk is ontdekt dat Apple [analyses verstuurt, zelfs als het delen van analyses is uitgeschakeld](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) op iOS. Deze gegevens [lijken](https://twitter.com/mysk_co/status/1594515229915979776) gemakkelijk te kunnen worden gekoppeld aan unieke iCloud-accountidentificatoren, ondanks dat ze zogenaamd anoniem zijn.
 
 ## Aanbevolen configuratie
 
 ### iCloud
 
-The majority of privacy and security concerns with Apple products are related to their cloud services, not their hardware or software. When you use Apple services like iCloud, most of your information is stored on their servers and secured with keys which Apple has access to by default. You can check [Apple's documentation](https://support.apple.com/HT202303) for information on which services are end-to-end encrypted. Anything listed as "in transit" or "on server" means it's possible for Apple to access that data without your permission. This level of access has occasionally been abused by law enforcement to get around the fact that your data is otherwise securely encrypted on your device, and of course Apple is vulnerable to data breaches like any other company.
+De meeste zorgen over privacy en beveiliging van Apple producten hebben te maken met hun clouddiensten, niet met hun hardware of software. Wanneer je gebruik maakt van Apple diensten zoals iCloud, wordt het merendeel van je gegevens opgeslagen op hun servers en beveiligd met sleutels waar Apple standaard toegang toe heeft. Je kunt [de documentatie van Apple](https://support.apple.com/HT202303) raadplegen voor informatie over welke diensten end-to-end versleuteld zijn. Alles in de lijst "in transit" of "on server" betekent dat Apple toegang kan krijgen tot die gegevens zonder jouw toestemming. Dit toegangsniveau is af en toe misbruikt door wetshandhavers om het feit te omzeilen dat je gegevens anders veilig versleuteld op je apparaat staan. Natuurlijk is Apple net als elk ander bedrijf kwetsbaar voor datalekken.
 
-Therefore, if you do use iCloud you should [enable **Advanced Data Protection**](https://support.apple.com/HT212520). This encrypts nearly all of your iCloud data with keys stored on your devices (end-to-end encryption), rather than Apple's servers, so that your iCloud data is secured in the event of a data breach, and otherwise hidden from Apple.
+Als je iCloud gebruikt, moet je daarom [ **Geavanceerde gegevensbescherming** inschakelen](https://support.apple.com/HT212520). Hierdoor worden bijna al je iCloud-gegevens versleuteld met sleutels die zijn opgeslagen op je apparaten (end-to-end versleuteling), in plaats van op de servers van Apple, zodat je iCloud-gegevens beveiligd zijn in het geval van een datalek en daarnaast ontoegankelijk blijven voor Apple.
 
-The encryption used by Advanced Data Protection, while strong, [is not *quite* as robust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) as the encryption offered by other [cloud services](../cloud.md), particularly when it comes to iCloud Drive. While we strongly encourage using Advanced Data Protection if you use iCloud, we would also suggest considering finding an alternative to iCloud from a more [privacy-focused service provider](../tools.md), although it is unlikely most people would be impacted by these encryption quirks.
+De versleuteling die wordt gebruikt door Advanced Data Protection is weliswaar sterk, maar [niet *zo* robuust](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4) als de versleuteling die wordt aangeboden door andere [clouddiensten](../cloud.md), met name als het gaat om iCloud Drive. Hoewel we het gebruik van Geavanceerde gegevensbescherming sterk aanraden als je iCloud gebruikt, raden we je ook aan om een alternatief voor iCloud te zoeken van een [serviceprovider die](../tools.md) meer [gericht is op privacy](../tools. md), hoewel het onwaarschijnlijk is dat de meeste mensen last zullen hebben van deze eigenaardigheden in de versleuteling.
 
-You can also protect your data by limiting what you sync to iCloud in the first place. At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to iCloud. Select that, then **iCloud**, and turn off the switches for any services you don't want to sync to iCloud. You may see third-party apps listed under **Show All** if they sync to iCloud, which you can disable here.
+Je kunt je gegevens ook beschermen door te beperken wat je synchroniseert met iCloud. Bovenaan de **Instellingen-app** zie je je naam en profielfoto als je bent aangemeld bij iCloud. Selecteer dat, dan **iCloud** en zet de schakelaars uit voor services die je niet wilt synchroniseren met iCloud. Het kan zijn dat apps van derden worden weergegeven onder **Toon alles** als ze synchroniseren met iCloud, welke je hier kunt uitschakelen.
 
 #### iCloud+
 
-A paid **iCloud+** subscription (with any iCloud storage plan) comes with some privacy-protecting functionality. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
+Een betaald **iCloud+** abonnement (met elk iCloud opslagplan) wordt geleverd met een aantal privacybeschermende functies. Hoewel dit voldoende functionaliteit kan bieden voor huidige iCloud-klanten, zouden we het niet aanraden om puur en alleen voor deze functies een iCloud+-abonnement te kopen in plaats van een [VPN](../vpn.md) en [een aparte e-mailaliasing-service](../email-aliasing.md).
 
-**Private Relay** is a proxy service which relays your Safari traffic through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). In theory this should prevent any single provider in the chain—including Apple—from having full visibility into which websites you visit while connected. Unlike a full VPN, Private Relay does not protect traffic from your apps outside of Safari.
+**Privédoorgifte** is een proxyservice die je Safari-verkeer via twee servers doorstuurt: een van Apple en een van een externe provider (waaronder Akamai, Cloudflare en Fastly). In theorie zou dit er voor moeten zorgen dat geen enkele provider in de keten, inclusief Apple, volledig inzicht heeft in welke websites je bezoekt terwijl je verbonden bent. In tegenstelling tot een volledige VPN beschermt Privédoorgifte het verkeer van je apps buiten Safari niet.
 
-**Hide My Email** is Apple's email aliasing service. You can create an email aliases for free when you *Sign In With Apple* on a website or app, or generate unlimited aliases on demand with a paid iCloud+ plan. Hide My Email has the advantage of using the `@icloud.com` domain for its aliases, which may be less likely to be blocked compared to other email aliasing services, but does not offer functionality offered by standalone services such as automatic PGP encryption or multiple mailbox support.
+**Verberg mijn e-mailadres** is de e-mailaliasingdienst van Apple. Je kunt gratis een e-mailalias aanmaken wanneer je *je aanmeldt met je Apple ID* op een website of app, of onbeperkt aliassen op aanvraag genereren met een betaald iCloud+-abonnement. Verberg mijn e-mailadres heeft het voordeel van het gebruik van het `@icloud.com` domein voor zijn aliassen, wat minder snel geblokkeerd wordt in vergelijking met andere e-mail aliasing diensten, maar biedt geen functionaliteit die geboden wordt door standalone diensten zoals automatische PGP encryptie of meerdere mailboxen ondersteuning.
 
-#### Media & Purchases
+#### Media & Aankopen
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Media & Purchases** > **View Account**.
+Bovenaan de **Instellingen-app** zie je je naam en profielfoto als je bent aangemeld bij iCloud. Selecteer dat en selecteer vervolgens **Media & Aankopen** > **Account bekijken**.
 
-- [ ] Turn off **Personalized Recommendations**
+- [ ] Schakel **Gepersonaliseerde aanbevelingen** uit
 
-#### Find My
+#### Zoek mijn
 
 **Find My** is a service that lets you track your Apple devices and share your location with your friends and family. It also allows you to wipe your device remotely in case it is stolen, preventing a thief from accessing your data. Your Find My [location data is E2EE](https://apple.com/legal/privacy/data/en/find-my) when:
 
@@ -61,7 +61,7 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 Your location data is not E2EE when your device is online and you use Find My iPhone remotely to locate your device. You will have to make the decision whether these trade-offs are worth the anti-theft benefits of Activation Lock.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple ID. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
+Bovenaan de **Instellingen-app** zie je je naam en profielfoto als je bent aangemeld bij iCloud. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
 
 ### Instellingen
 
