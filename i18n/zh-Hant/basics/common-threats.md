@@ -30,7 +30,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>
 
-安全性和隱私也經常被混淆，因為您需要安全性來獲得任何形式的隱私：使用的工具----即便設計私密----但若很容易地受到攻擊者造成資料外洩，一切就是白廢了。 然而，相反的情況並不一定成立：世界上最安全的服務 *不一定是* 私密。 最好的例子是信任把資料交給 Google，因為它們規模龐大聘請業界領先的安全專家來保護其基礎設施，幾乎沒有發生過安全事故。 儘管 Google 提供了非常安全的服務，但很少有人會認為在Google 免費消費產品（Gmail、YouTube 等）中的資料是私有的。
+安全性和隱私也經常被混淆，因為您需要安全性來獲得任何形式的隱私：使用的工具----即便設計私密----但若很容易地受到攻擊者造成資料外洩，一切就是白廢了。 然而，相反的情況並不一定成立：世界上最安全的服務*不一定是* 私密的。 最好的例子是信任把資料交給 Google，因為它們規模龐大聘請業界領先的安全專家來保護其基礎設施，幾乎沒有發生過安全事故。 儘管 Google 提供了非常安全的服務，但很少有人會認為在Google 免費消費產品（Gmail、YouTube 等）中的資料是私有的。
 
 當涉及到應用程式安全性時，我們通常不知道（有時甚至無法）使用的軟體是否是惡意或者有一天它會變成惡意。 即使是最值得信賴的開發人員，也無法保證他們的軟體沒有嚴重的漏洞有一天會被利用。
 
@@ -60,7 +60,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span>
 
-供應鏈攻擊往往是 <span class="pg-red">:material-target-account: 定向攻擊 Attack</span>的一種，其指向企業、政府和活動人士的利益，也可能最終損害廣大公眾的利益。
+供應鏈攻擊往往是 <span class="pg-red">:material-target-account: 針對性攻擊</span> 的一種，其指向企業、政府和活動人士的利益，也可能最終損害廣大公眾的利益。
 
 <div class="admonition example" markdown>
 <p class="admonition-title">範例</p>
@@ -96,26 +96,26 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 <div class="admonition note" markdown>
 <p class="admonition-title">Web 加密備註提醒</p>
 
-實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal) ，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程序中引入 [後門](https://zh.wikipedia.org/wiki/Backdoor_(computing)) ----試圖竊取您的私鑰----它稍後可以通過[逆向工程](https://zh.wikipedia.org/wiki/Reverse_engineering)檢測。
+實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal)，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程序中引入[後門](https://zh.wikipedia.org/wiki/Backdoor_(computing)) ----試圖竊取您的私鑰----它稍後可以通過[逆向工程](https://zh.wikipedia.org/wiki/Reverse_engineering)檢測。
 
-另一方面，執行網頁 E2EE，例如 Proton Mail 的網頁郵件或Bitwarden 的* Web Vault * ，依靠伺服器動態地向瀏覽器提供JavaScript 代碼來處理加密。 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密密鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
+另一方面，執行網頁 E2EE，例如 Proton Mail 的網頁郵件或Bitwarden 的 *Web Vault*，依靠伺服器動態地向瀏覽器提供JavaScript 代碼來處理加密。 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密密鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
 
 因此，您應該盡可能使用原生軟體程式多於網頁客戶端。
 
 </div>
 
-即便使用 E2EE ，服務商仍然可以對 **元數據**進行分析，這通常不受保護。 雖然服務提供商無法讀取您的訊息，但他們仍然可以觀察重要的事情，例如您正在與誰交談、傳送訊息的頻率以及使用活躍時段。 元數據的保護不多，如果它在您的 [威脅模型](threat-modeling.md)中，就應該密切注意使用軟體的技術文檔，看看元數據是否最小化或任何保護。
+即便使用 E2EE ，服務商仍然可以對**元數據**進行分析，這通常不受保護。 雖然服務提供商無法讀取您的訊息，但他們仍然可以觀察重要的事情，例如您正在與誰交談、傳送訊息的頻率以及使用活躍時段。 元數據的保護不多，如果它在您的 [威脅模型](threat-modeling.md) 中，就應該密切注意使用軟體的技術文檔，看看元數據是否最小化或任何保護。
 
-## 大規模監督計劃
+## 大規模監控計劃
 
-<span class="pg-blue">:material-eye-outline: 大規模監測</span>
+<span class="pg-blue">:material-eye-outline: 大規模監控</span>
 
 大規模監控是對全體 (或其中某一群特定)人群進行錯綜複雜的監視活動。[^1] 它通常是指政府項目，例如由[Edward Snowden 在 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present))所揭露的內幕。 然而，它也可以由公司代表政府機構或由他們自己主動進行。
 
 <div class="admonition abstract" markdown>
 <p class="admonition-title">監控地圖集</p>
 
-如想進一步了解監控方法及其在您的城市的實施方式，也可以查看[電子前鋒基金會 Eff](https://eff.org/)的[監控地圖集](https://atlasofsurveillance.org/)。
+如想進一步了解監控方法及其在您的城市的實施方式，也可以查看[電子前鋒基金會 EFF](https://eff.org/)的[監控地圖集](https://atlasofsurveillance.org/)。
 
 若在法國，可以看看非營利組織 La Quadrature du Net 維護的 [Technolopolice 網站](https://technopolice.fr/villes/)。
 
@@ -126,7 +126,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-對於[愛德華·斯諾登（Edward Snowden）披露的 [PRISM](https://en.wikipedia.org/wiki/PRISM)和 [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)等政府計劃，情報官員承認，國家安全局多年來一直祕密地收集每個美國人電話記錄—誰、何時及通話時間多久。 當  NSA 日復一日地收集這類資訊時，就可以揭示人們生活相關聯的敏感細節，例如他們是否打電話給牧師、墮胎提供者、成癮顧問或自殺熱線。
+對於愛德華·斯諾登（Edward Snowden）披露的 [PRISM](https://zh.wikipedia.org/wiki/PRISM)和 [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)等政府計劃，情報官員承認，國家安全局多年來一直祕密地收集每個美國人電話記錄—誰、何時及通話時間多久。 當 NSA 日復一日地收集這類資訊時，就可以揭示人們生活相關聯的敏感細節，例如他們是否打電話給牧師、墮胎提供者、成癮顧問或自殺熱線。
 
 </div>
 
@@ -171,7 +171,6 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 網路審查包括由極權主義政府、網路管理員和服務提供商等主體進行的行為（在不同程度上）。 這些試圖控制通訊與限縮資料取用的作為，往往不見容於意見自由的基本人權。[^5]
 
 對企業平臺的審查越來越普遍，如Twitter 和 Facebook 等平臺屈服於公眾需求、市場和政府機構的壓力。 政府對企業的施壓可能是隱蔽的，例如白宮私下 [要求拿掉](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) 某個勯動的 Youtube 影片，或是公開者如中國政府命令企業要遵循嚴厲的審查制度。
-</p> 
 
 關注審查威脅的人可以使用像 [Tor](../advanced/tor-overview.md) 這樣的技術來規避它，並支持像 [Matrix](../real-time-communication.md#element)這樣的抗審查通信平臺，該平臺沒有可以任意關閉帳戶的集中帳戶權限。
 
@@ -180,29 +179,14 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 雖然很容易避掉審查，但隱藏您正在做的事可就沒那麼簡單了。
 
-您應該考慮可讓對手觀察哪些網路行為，以及能否對這些行為有合理的否認說辭。 例如，[使用[加密 DNS](../advanced/dns-overview.md#what-is-encrypted-dns)可以幫助您繞過對 DNS 基本審查系統，但它無法對 ISP 隱藏您正在訪問的內容。 VPN 或 Tor 有助於向網路管理員隱藏您正在訪問的內容，但無法隱藏您正在使用 VPN 或 Tor 。 可插拔傳輸（例如 Obfs4proxy、Meek 或 Shadowsocks）可以幫助您避開阻擋常見VPN 協議或 Tor 的防火牆，但仍然可以通過探測或[深度封包檢查](https://en.wikipedia.org/wiki/Deep_packet_inspection) 等方法檢測您嘗圖作的規避。
+您應該考慮可讓對手觀察哪些網路行為，以及能否對這些行為有合理的否認說辭。 例如，使用[加密 DNS](../advanced/dns-overview.md#what-is-encrypted-dns)可以幫助您繞過對 DNS 基本審查系統，但它無法對 ISP 隱藏您正在訪問的內容。 VPN 或 Tor 有助於向網路管理員隱藏您正在訪問的內容，但無法隱藏您正在使用 VPN 或 Tor 。 可插拔傳輸（例如 Obfs4proxy、Meek 或 Shadowsocks）可以幫助您避開阻擋常見VPN 協議或 Tor 的防火牆，但仍然可以通過探測或[深度封包檢查](https://en.wikipedia.org/wiki/Deep_packet_inspection) 等方法檢測您嘗試做的規避。
 
 </div>
 
 您必須考慮試圖繞過網路審查的風險、潛在的後果以及您的對手可能很經驗老道。 您應該謹慎選擇軟件，並制定備份計劃以防被抓住。
 
-
-
-[^1]:    
-    維基百科: [*大型監控*](https://en.wikipedia.org/wiki/Mass_surveillance) 與 [*監控*](https://en.wikipedia.org/wiki/Surveillance).
-
-
-[^2]:    
-    美國隱私和公民自由監督委員會： [*根據第 215 條進行的電話記錄計劃的報告*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-
-
-[^3]:    
-    維基百科: [*監控資本主義*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-
-
-[^4]:    
-    “[枚舉壞處](https://ranum.com/security/computer_security/editorials/dumb)” （或“列出所知的全部壞事” ），未能充分保護您免受新的和未知的威脅，因為許多內容攔截程式和防病毒程式尚未被添加到過濾器列表。 您還應採用其他緩解技術。
-
-
-[^5]:    
-    聯合國： [*《世界人權宣言》*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^1]: 維基百科: [*大型監控*](https://en.wikipedia.org/wiki/Mass_surveillance) 與 [*監控*](https://en.wikipedia.org/wiki/Surveillance).
+[^2]: 美國隱私和公民自由監督委員會： [*根據第 215 條進行的電話記錄計劃的報告*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: 維基百科: [*監控資本主義*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: “[枚舉壞處](https://ranum.com/security/computer_security/editorials/dumb)” （或“列出所知的全部壞事” ），未能充分保護您免受新的和未知的威脅，因為許多內容攔截程式和防病毒程式尚未被添加到過濾器列表。 您還應採用其他緩解技術。
+[^5]: 聯合國： [*《世界人權宣言》*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
