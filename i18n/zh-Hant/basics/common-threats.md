@@ -7,16 +7,16 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 廣義來講，我們將建議歸類為適用於大多數人的 [威脅](threat-modeling.md) 或目標。 您可能會在意各種可能性的組合，而選用的工具和服務則取決於您的目標何在。 您也可能有超出這些類別之外的特定威脅，這完全有可能！ 重要的是要了解您選擇使用的工具的好處和缺點，因為幾乎沒有一種工具可以保護您免受任何威脅。
 
 - <span class="pg-purple">:material-incognito: 匿名</span> -保護您的在線活動免受您真實身份影響，保護您防範某些企圖揭露 *您* 身份的侵害。
-- <span class="pg-red">:material-target-account: 針對性的攻擊</span> -保護免受駭客或其他惡意行為者的攻擊，他們正試圖存取訪問 *您的* 資料或設備。
+- <span class="pg-red">:material-target-account: 針對性攻擊</span> -保護免受駭客或其他惡意行為者的攻擊，他們正試圖存取訪問 *您的* 資料或設備。
 - <span class="pg-orange">:material-bug-outline: 被動攻擊</span> -保護免受惡意軟體、數據洩露和其他同時針對多人的攻擊。
-- <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈威脅</span> - 直接或透過第三方依賴軟體引入的弱點或破壞。
+- <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span> - 直接或透過第三方依賴軟體引入的弱點或破壞。
 - <span class="pg-teal">:material-server-network: 服務供應商</span> - 保護您的資料免受服務供應商侵害（例如，使用 E2EE ，使您保存在伺服器的資料無法被他人讀取）。
 - <span class="pg-blue">:material-eye-outline: 大規模監控</span> -保護您免受政府機構、組織、網站和服務共同追蹤您的活動。
 - <span class="pg-brown">:material-account-cash: 監控資本主義</span> - 保議自己不會被  Google， Facebook 等大型網路廣告以及其它無數第三方資料收集者監控。
 - <span class="pg-green">:material-account-search: 公開曝光</span> -限制搜尋引擎或一般大眾可在網路上找到有關您的資訊。
 - <span class="pg-blue-gray">:material-close-outline: 審查</span> -避免資訊被封鎖或自己的網路發言時受到審查。
 
-其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 例如，有權存取有價值或關鍵資料的軟體開發人員可能主要關心 <span class="pg-viridian">:material-package-variant-close-remove：供應鏈攻擊</span> 和 <span class = "pg-red">:material-target-account：定向攻擊</span>。 他們可能仍然希望保護自己的個人資料免受<span class="pg-blue">:material-eye-outline：大規模監控</span>計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>-例如惡意軟件影響他們的設備。
+其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 例如，有權存取有價值或關鍵資料的軟體開發人員可能主要關心 <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span> 和 <span class="pg-red">:material-target-account: 針對性的攻擊</span>。 他們可能仍然希望保護自己的個人資料免受 <span class="pg-blue">:material-eye-outline: 大規模監控</span> 計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>—例如惡意軟件影響他們的設備。
 
 ## 匿名 vs. 隱私
 
@@ -41,18 +41,18 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 行動作業系統通常具有比桌面作業系統具備更好的應用程式沙盒：應用程式沒有根存取權限，且需要存取系統資源的權限。
 
-桌面操作系統通常在適當的沙盒化上落後。 ChromeOS 具備與 Android 相似的沙盒功能， macOS 具有完整的系統權限控制（開發人員可以選擇為應用程式加入沙盒）。 然而，這些作業系統確實會將識別資料傳回給各自的原始設備製造商。 Linux 傾向於不對系統供應商提交資料，但它在漏洞和惡意應用程式的保護很差。 這可以通過專門的發行版來緩解，這些發行版大量使用虛擬器或容器，例如 [Qubes OS](../desktop.md#qubes-os).。
+桌面操作系統通常在適當的沙盒化上落後。 ChromeOS 具備與 Android 相似的沙盒功能， macOS 具有完整的系統權限控制（開發人員可以選擇為應用程式加入沙盒）。 然而，這些作業系統確實會將識別資料傳回給各自的原始設備製造商。 Linux 傾向於不對系統供應商提交資料，但它在漏洞和惡意應用程式的保護很差。 這可以通過專門的發行版來緩解，這些發行版大量使用虛擬器或容器，例如 [Qubes OS](../desktop.md#qubes-os)。
 
 </div>
 
-<span class="pg-red">:material-target-account: 目標攻擊</span>
+<span class="pg-red">:material-target-account: 針對性攻擊</span>
 
 針對特定人士的針對性攻擊更難處理。 常見的攻擊包括通過電子郵件發送惡意文件、利用(瀏覽器和操作系統的)漏洞以及物理攻擊。 如果這是您擔心這點，應該採用更先進的威脅減輕策略。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>
 
-在設計上， **網頁瀏覽器**、**電子郵件用戶端** 和 **辦公室應用程式** 常常運行第三方發送無法信任的代碼。 運行多個虛擬器-將這些應用程序與主機系統相互分開，此技術可減少系統遭到應用程序攻擊的機會。 例如， Qubes OS 或 Windows 上的 Microsoft Defender Application Guard 等技術提供了方便的作法。
+在設計上， **網頁瀏覽器**、**電子郵件用戶端** 和 **辦公室應用程式** 常常運行源自第三方的無法信任的代碼。 運行多個虛擬器-將這些應用程序與主機系統相互分開，此技術可減少系統遭到應用程序攻擊的機會。 例如， Qubes OS 或 Windows 上的 Microsoft Defender Application Guard 等技術提供了方便的作法。
 
 </div>
 
