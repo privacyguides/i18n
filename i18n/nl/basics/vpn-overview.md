@@ -1,26 +1,26 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
-icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+meta_title: "Hoe beschermen VPN's je privacy? Ons VPN-overzicht - Privacy Guides"
+title: VPN-overzicht
+icon: materiaal/vpn
+description: Virtual Private Networks verschuiven het risico van je ISP naar een derde partij die je vertrouwt. Je moet deze dingen in het achterhoofd houden.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+Virtual Private Networks zijn een manier om het einde van je netwerk uit te breiden naar een uitgang ergens anders in de wereld.
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normaal gesproken kan een ISP de stroom internetverkeer zien die je netwerkapparaat (d.w.z. modem) binnenkomt en verlaat. Versleutelingsprotocollen zoals HTTPS worden vaak gebruikt op het internet, dus ze kunnen misschien niet precies zien wat je post of leest, maar ze kunnen wel een idee krijgen van de [domeinen die je opvraagt](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+Het gebruik van een VPN verbergt zelfs deze informatie voor je ISP, door het vertrouwen dat je in je netwerk stelt te verplaatsen naar een server ergens anders in de wereld. Hierdoor ziet de ISP alleen dat je verbonden bent met een VPN en niets over de activiteit die je er doorheen stuurt.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Opmerking</p>
 
-When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+Wanneer we op deze website verwijzen naar "Virtual Private Networks", bedoelen we meestal **commerciële** [VPN-providers](../vpn.md), aan wie je een maandelijks bedrag betaalt in ruil voor het veilig routeren van je internetverkeer via hun openbare servers. Er zijn vele andere vormen van VPN, zoals VPN's die je zelf host of VPN's die worden beheerd door werkplekken en waarmee je veilig verbinding kunt maken met interne/werknemersnetwerkbronnen, maar deze VPN's zijn meestal ontworpen voor veilige toegang tot externe netwerken, in plaats van voor het beschermen van de privacy van je internetverbinding.
 
 </div>
 
-## How does a VPN work?
+## Hoe werkt een VPN?
 
-VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+VPN's versleutelen je verkeer tussen je apparaat en een server van je VPN-aanbieder. Vanuit het perspectief van eenieder die zich tussen jou en de VPN-server bevindt, lijkt het alsof je verbinding maakt met de VPN-server. Vanuit het perspectief van eenieder die zich tussen de VPN-server en uw bestemmingssite bevindt, is het enige wat ze kunnen zien de VPN-server die verbinding maakt met de website.
 
 ``` mermaid
 flowchart LR
@@ -30,7 +30,7 @@ flowchart LR
  end
 ```
 
-Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+Houd er rekening mee dat een VPN geen beveiliging of versleuteling toevoegt aan je verkeer tussen de VPN-server en je bestemming op het internet. Om veilig naar een website te gaan, **moet** je er nog steeds voor zorgen dat HTTPS wordt gebruikt, ongeacht of je een VPN gebruikt of niet.
 
 ## Moet ik een VPN gebruiken?
 
