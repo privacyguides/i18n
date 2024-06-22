@@ -190,9 +190,9 @@ title: 提醒
 **PhotoPrism** 是一個管理照片的自架平台。 支援相簿同步和共享以及各種其他[功能](https://photoprism.app/features)。 它不包括 E2EE，因此最好將其託管在信任且能控制的伺服器上。
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=文檔}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="源代碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -211,7 +211,7 @@ title: 提醒
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
