@@ -59,17 +59,17 @@ The [qrexec framework](https://qubes-os.org/doc/qrexec) is a core part of Qubes 
 
 We [recommend](../advanced/tor-overview.md) connecting to the Tor network via a [VPN](../vpn.md) provider, and luckily Qubes makes this easy to do with a combination of ProxyVMs and Whonix.
 
-After [creating a new ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
 
 Your qubes should be configured in a manner similar to this:
 
-| キューブ名           | キューブの説明                                                                                                          | NetVM           |
-| --------------- | ---------------------------------------------------------------------------------------------------------------- | --------------- |
-| sys-net         | *デフォルトのネットワークキューブ（プリインストール済み）*                                                                                   | *なし*            |
-| sys-firewall    | *デフォルトのファイアウォールキューブ（プリインストール済み）*                                                                                 | sys-net         |
-| ==sys-proxyvm== | The VPN ProxyVM you [created](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
-| sys-whonix      | WhonixゲートウェイのVM                                                                                                  | ==sys-proxyvm== |
-| anon-whonix     | WhonixワークステーションのVM                                                                                               | sys-whonix      |
+| キューブ名           | キューブの説明                                                                                             | NetVM           |
+| --------------- | --------------------------------------------------------------------------------------------------- | --------------- |
+| sys-net         | *デフォルトのネットワークキューブ（プリインストール済み）*                                                                      | *なし*            |
+| sys-firewall    | *デフォルトのファイアウォールキューブ（プリインストール済み）*                                                                    | sys-net         |
+| ==sys-proxyvm== | The VPN ProxyVM you [created](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
+| sys-whonix      | WhonixゲートウェイのVM                                                                                     | ==sys-proxyvm== |
+| anon-whonix     | WhonixワークステーションのVM                                                                                  | sys-whonix      |
 
 ## その他の資料
 

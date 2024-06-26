@@ -72,5 +72,4 @@ cover: multi-factor-authentication.webp
 
 - 源代碼必須公開。
 - 無需網際網路連線。
-- 不得同步至第三方雲端同步/備份服務。
-    - **可選** 支援與作業系統原生工具的 E2EE 同步是可以的，例如透過 iCloud 進行加密同步。
+- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.

@@ -72,5 +72,4 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 - El código fuente debe estar a disposición del público.
 - No debe requerir conexión a Internet.
-- No debe sincronizarse con un servicio de sincronización/copia de seguridad en la nube de terceros.
-    - Es aceptable el soporte de sincronización E2EE** Opcional** con herramientas nativas del sistema operativo, por ejemplo, sincronización cifrada a través de iCloud.
+- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.

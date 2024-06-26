@@ -33,7 +33,7 @@ description: Електронна пошта за своєю природою є
 
 ### Як захистити свої приватні ключі?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../multi-factor-authentication.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Потім повідомлення розшифровується смарткартою, і розшифрований вміст надсилається назад на пристрій.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Потім повідомлення розшифровується смарткартою, і розшифрований вміст надсилається назад на пристрій.
 
 Для уникнення можливого потрапляння вашого приватного ключа на скомпрометований пристрій бажано, щоб розшифрування відбувалося на смарткарті.
 

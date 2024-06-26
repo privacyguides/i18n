@@ -72,5 +72,4 @@ Recomendamos vivamente que utilize aplicações TOTP para dispositivos móveis, 
 
 - O código-fonte deve estar disponível ao público.
 - Não devem exigir ligação à Internet.
-- Não podem utilizar um serviço de sincronização/backup numa nuvem de terceiros.
-    - O suporte de sincronização E2EE **opcional**, com ferramentas nativas do SO, é aceitável (por exemplo, sincronização encriptada via iCloud).
+- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.

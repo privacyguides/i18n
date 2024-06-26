@@ -33,7 +33,7 @@ IMAP, SMTP 등 표준 접속 프로토콜을 사용할 수 있는 이메일 제�
 
 ### 개인 키를 어떻게 보호해야 하나요?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../multi-factor-authentication.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 암호화된 메일 내용은 스마트카드에서 복호화되며, 복호화된 내용이 스마트카드로부터 기기로 전달됩니다.
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 암호화된 메일 내용은 스마트카드에서 복호화되며, 복호화된 내용이 스마트카드로부터 기기로 전달됩니다.
 
 It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
 

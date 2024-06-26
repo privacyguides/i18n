@@ -59,17 +59,17 @@ Le [framework qrexec](https://qubes-os.org/doc/qrexec) est une partie essentiell
 
 Nous [recommandons](../advanced/tor-overview.md) de se connecter au réseau Tor via un fournisseur [VPN](../vpn.md), et heureusement Qubes rend cela très simple à faire avec une combinaison de ProxyVMs et Whonix.
 
-Après [avoir créé un nouveau ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) qui se connecte au VPN de votre choix, vous pouvez enchaîner vos qubes Whonix à ce ProxyVM **avant** qu'ils se connectent au réseau Tor, en paramétrant le NetVM de votre **passerelle** Whonix (`sys-whonix`) au ProxyVM nouvellement créé.
+After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
 
 Vos qubes devraient être configurés de la manière suivante :
 
-| Nom du cube     | Description du Qube                                                                                                    | NetVM           |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------- |
-| sys-net         | *Votre qube réseau par défaut (pré-installé)*                                                                          | *n/a*           |
-| sys-firewall    | *Votre qube pare-feu par défaut (pré-installé)*                                                                        | sys-net         |
-| ==sys-proxyvm== | Le ProxyVM VPN que vous [avez créé](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
-| sys-whonix      | Votre VM passerelle Whonix                                                                                             | ==sys-proxyvm== |
-| anon-whonix     | Votre VM station de travail Whonix                                                                                     | sys-whonix      |
+| Nom du cube     | Description du Qube                                                                                 | NetVM           |
+| --------------- | --------------------------------------------------------------------------------------------------- | --------------- |
+| sys-net         | *Votre qube réseau par défaut (pré-installé)*                                                       | *n/a*           |
+| sys-firewall    | *Votre qube pare-feu par défaut (pré-installé)*                                                     | sys-net         |
+| ==sys-proxyvm== | The VPN ProxyVM you [created](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
+| sys-whonix      | Votre VM passerelle Whonix                                                                          | ==sys-proxyvm== |
+| anon-whonix     | Votre VM station de travail Whonix                                                                  | sys-whonix      |
 
 ## Ressources supplémentaires
 

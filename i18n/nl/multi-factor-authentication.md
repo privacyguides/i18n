@@ -72,5 +72,4 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 
 - Broncode moet openbaar beschikbaar zijn.
 - Moet geen internetverbinding vereisen.
-- Mag niet synchroniseren met een cloud sync/backup service van derden.
-    - **Optioneel is** E2EE sync-ondersteuning met OS-native tools aanvaardbaar, bv. versleutelde sync via iCloud.
+- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.

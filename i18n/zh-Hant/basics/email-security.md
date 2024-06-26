@@ -33,7 +33,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 ### 我要怎樣保護自己的私密鑰匙？
 
-智慧鑰卡（例如 [Yubikey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) 或 [Nitrokey](../multi-factor-authentication.md#nitrokey)）的工作原理是從用戶端的設備（手機，平板電腦，電腦等）接收加密的電子郵件消息。 安全鑰卡會解密該訊息再把解開的內容傳到設備。
+A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 安全鑰卡會解密該訊息再把解開的內容傳到設備。
 
 在智慧卡上進行解密的優點是可避免將私鑰暴露在某個遭破壞的裝置。
 

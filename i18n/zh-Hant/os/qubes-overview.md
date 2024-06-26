@@ -59,17 +59,17 @@ Qubes OS在主機作業系統上 利用 [dom0](https://wiki.xenproject.org/wiki/
 
 [建議](../advanced/tor-overview.md) 使用 [VPN](../vpn.md) 來連接 Tor 網絡，Qubes 可以很輕鬆地結合 ProxyVMs 與 Whonix 來操作。
 
-[建立新的 ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) 後再連接到所選的 VPN，可**先將** Whonix qubes 串接至 ProxyVM 再連上 Tor 網絡，其用法是設置Whonix 所建立的 NetVM **Gateway** (`sys-whonix`) 。
+After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
 
 Qubes 設置大概像這樣：
 
-| Qube 名稱         | Qube 簡述                                                                                              | NetVM           |
-| --------------- | ---------------------------------------------------------------------------------------------------- | --------------- |
-| sys-net         | *預設的網路 qube (已預先安裝)*                                                                                 | *n/a*           |
-| sys-firewall    | *預設的防火牆 qube (已預先安裝)*                                                                                | sys-net         |
-| ==sys-proxyvm== | [建立的 VPN ProxyVM](https://github.com/Qubes-Community/Contents/blob/master/docs/configuration/vpn.md) | sys-firewall    |
-| sys-whonix      | Whonix Gateway VM                                                                                    | ==sys-proxyvm== |
-| anon-whonix     | Whonix Workstation VM                                                                                | sys-whonix      |
+| Qube 名稱         | Qube 簡述                                                                                             | NetVM           |
+| --------------- | --------------------------------------------------------------------------------------------------- | --------------- |
+| sys-net         | *預設的網路 qube (已預先安裝)*                                                                                | *n/a*           |
+| sys-firewall    | *預設的防火牆 qube (已預先安裝)*                                                                               | sys-net         |
+| ==sys-proxyvm== | The VPN ProxyVM you [created](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
+| sys-whonix      | Whonix Gateway VM                                                                                   | ==sys-proxyvm== |
+| anon-whonix     | Whonix Workstation VM                                                                               | sys-whonix      |
 
 ## 其他資源
 

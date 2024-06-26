@@ -72,5 +72,4 @@ Vi rekommenderar starkt att du använder mobila TOTP-appar i stället för alter
 
 - Source code must be publicly available.
 - Får inte kräva internetuppkoppling.
-- Must not sync to a third-party cloud sync/backup service.
-    - **Optional** E2EE sync support with OS-native tools is acceptable, e.g. encrypted sync via iCloud.
+- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.

@@ -72,5 +72,4 @@ cover: multi-factor-authentication.webp
 
 - קוד המקור חייב להיות זמין לציבור.
 - אסור לדרוש חיבור לאינטרנט.
-- אסור לסנכרן לשירות סנכרון/גיבוי בענן של צד שלישי.
-    - **אופציונלי** תמיכה בסנכרון E2EE עם כלים מקוריים של מערכת ההפעלה מקובלת, למשל. סנכרון מוצפן באמצעות iCloud.
+- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.

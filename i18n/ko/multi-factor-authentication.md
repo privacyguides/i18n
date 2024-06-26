@@ -72,5 +72,4 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 - 소스 코드는 공개적으로 이용 가능해야 합니다.
 - 인터넷 연결 없이도 작동해야 합니다.
-- 제3자 클라우드 동기화/백업 서비스와 동기화하는 식으로 작동해서는 안 됩니다.
-    - **선택적인** (운영 체제 네이티브 툴을 이용한) E2EE 동기화 지원은 허용됩니다. 예시: 'iCloud를 통한 암호화 동기화'
+- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.

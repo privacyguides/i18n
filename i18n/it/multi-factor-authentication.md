@@ -72,5 +72,4 @@ Consigliamo vivamente l'utilizzo delle app TOTP mobili, invece delle alternative
 
 - Il codice sorgente dev'essere disponibile pubblicamente.
 - Non deve richiedere la connessione a Internet.
-- Non deve sincronizzarsi a un servizio su cloud di sincronizzazione/backup di terze parti.
-    - **Facoltativo**: Il supporto alla sincronizzazione E2EE con strumenti nativi dell'OS è accettabile, es. sincronizzazione crittografata tramite iCloud.
+- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
