@@ -295,14 +295,12 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 <div class="annotate" markdown>
 
-- [x] 將 [WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理UDP**
-- [ ] 取消選取 **使用 Google 服務來推送訊息**
-- [ ] 取消選取 **同意隱私防護的產品分析 (P3A)**
-- [ ] 取消選取 **自動發送每日使用呼叫至 Brave**
-- [ ] 取消選取 **自動傳送診斷報告**
-- [ ] 取消選取 **使用 Tor 的私密視窗** (1)
-
- !!!
+- [x] 將 [WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
+- [ ] 取消勾選 **使用 Google 服務來推播訊息**
+- [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
+- [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
+- [ ] 取消勾選 **自動傳送診斷報告**
+- [ ] 取消勾選 **使用 Tor 的隱私視窗** (1)
 
 </div>
 
