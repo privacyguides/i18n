@@ -43,7 +43,7 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散的](privacytools.md) �
 
 我們還推出了新的討論論壇 [discuss.privacyguides.net](https://discuss.privacyguides.net) ，一個可以分享想法並詢問有關我們使命之問題的社區平臺。 這擴大了我們 Matrix 現有社羣，並取代了過去的 GitHub 討論平臺，以減少對私有討論平臺的依賴。
 
-到 2023 為止，我們已經推出了網站的 [法語](/fr/)，[希伯來語](/he/) 和 [荷蘭語](/nl/) 的國際翻譯，更多的語言正在進行中，由優秀的翻譯團隊在 [Crowdin](https://crowdin.com/project/privacyguides) 上進行。 我們計劃繼續推進外展和教育使命，並尋找方法更清楚地突出現代數位時代缺乏隱私意識的危險，以及整個技術行業安全漏洞的漫延和危害。
+到 2023 為止，我們已經推出了網站的 [法語](/fr/)，[希伯來語](/he/) 和 [荷蘭語](/nl/) 的國際翻譯，更多的語言正在進行中，由優秀的翻譯團隊在 [Crowdin](https://crowdin.com/project/privacyguides) 上進行。 我們計劃繼續推進外展和教育使命，並尋找方法以更清晰地突顯在現代數位時代缺乏的隱私意識危險，以及整個技術行業安全漏洞的漫延和危害。
 
 ## 我們的團隊
 <!-- markdownlint-disable MD030 -->
@@ -61,11 +61,11 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散的](privacytools.md) �
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: 創辦人
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
+    [:material-account: 個人資料](https://discuss.privacyguides.net/u/jonah)
 
-    [:material-home: Homepage](https://www.jonaharagon.com)
+    [:material-home: 網站](https://www.jonaharagon.com)
 
     [:material-email: Email](mailto:jonah@privacyguides.org)
 
@@ -73,9 +73,9 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散的](privacytools.md) �
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: 創辦人
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+    [:material-account: 個人資料](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
     [:simple-mastodon: Mastodon](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
 
@@ -85,9 +85,9 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散的](privacytools.md) �
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: 創辦人
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+    [:material-account: 個人資料](https://discuss.privacyguides.net/u/dngray)
 
     [:simple-mastodon: Mastodon](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
 
@@ -97,9 +97,9 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散的](privacytools.md) �
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: 創辦人
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+    [:material-account: 個人資料](https://discuss.privacyguides.net/u/freddy)
 
     [:simple-mastodon: Mastodon](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
 
@@ -109,15 +109,15 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散的](privacytools.md) �
 
     ---
 
-    :material-text-account: Founder
+    :material-text-account: 創辦人
 
-    [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+    [:material-account: 個人資料](https://discuss.privacyguides.net/u/olivia)
 
     [:simple-mastodon: Mastodon](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 </div>
 
-此外，[許多人](contributors.md)都為本專案做出貢獻。 也可在 GitHub 或 [Crowdin](https://crowdin.com/project/privacyguides)提出翻譯建議。
+此外，[許多人](contributors.md) 都曾為本專案做出貢獻。 你也可以，我們的開放原始碼在 GitHub 上，也在 [Crowdin](https://crowdin.com/project/privacyguides) 上接受翻譯建議。
 
 團隊成員會審查對網站所做的所有更改，並處理網站託管和財務等管理職責，但他們不會從對本網站的任何貢獻中獲利。 在美國，對 Privacy Guides 捐贈通常可以減稅。
 
@@ -129,6 +129,6 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散的](privacytools.md) �
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). 這意味著您可以自由以各種媒介或格式來複製和重新發布，用於入任何目的甚至包括商業，只要給予適當的註明 `Privacy Guides (www.privacyguides.org)` ，並以相同授權方式分享。
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: 除非另有說明，本網站上的原始內容均以 [創用 CC 姓名標示-相同方式分享 4.0 國際](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) 提供. 這意味著您可以自由地以任何媒介或格式來複製或重新分發，不限目的，包含商業性質之使用，只要適當的註明 `Privacy Guides (www.privacyguides.org)` ，並以相同授權方式分享您的作品。
 
 您可以以任何合理的方式操作，但不能以任何方式暗示 Privacy Guides 為您或您的使用作背書。

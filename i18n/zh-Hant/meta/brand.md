@@ -11,7 +11,7 @@ title: 品牌指南
 - PG.org
 </div>
 
-Subreddit的名字是 **r/PrivacyGuides** 或 **，Privacy Guides Subreddit**。
+Subreddit 的名字是 **r/PrivacyGuides** 或 **Privacy Guides Subreddit**。
 
 其他品牌指南可在 [github.com/privacyguides/brand](https://github.com/privacyguides/brand)找到
 

@@ -27,7 +27,7 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) 所有 SVG 圖片。
+[清理](https://github.com/scour-project/scour) 所有 SVG 圖片。
 
 在 Inkscape：
 
