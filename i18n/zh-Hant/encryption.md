@@ -55,16 +55,16 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 
 **Picocrypt** 是一個小而簡單的加密工具，提供現代加密。 Picocrypt 使用安全的 XChaCha20 密碼和 Argon2id 密鑰派生功能來提供高級別的安全性。 它使用 Go 標準x/crypto 模塊作為其加密功能。
 
-[:octicons-repo-16: Repository](https://github.com/HACKERALERT/Picocrypt){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/HACKERALERT/Picocrypt){ .card-link title="Source Code" }
+[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads "下載"</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/HACKERALERT/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/HACKERALERT/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/HACKERALERT/Picocrypt/releases)
+- [:simple-windows11: Windows](https://github.com/Picocrypt/Picocrypt/releases)
+- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
+- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
 
 </details>
 
