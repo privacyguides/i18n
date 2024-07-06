@@ -186,7 +186,7 @@ Anda memerlukan [Paket Premium](https://bitwarden.com/help/about-bitwarden-plans
 
 Kode sisi server Bitwarden [bersumber terbuka](https://github.com/bitwarden/server), jadi jika Anda tidak ingin menggunakan "awan" Bitwarden, Anda dapat dengan mudah meng-hos server sinkronisasi Bitwarden Anda sendiri.
 
-**Vaultwarden** adalah implementasi alternatif dari server sinkronisasi Bitwarden yang ditulis dalam Rust dan kompatibel dengan klien Bitwarden resmi, sempurna untuk penerapan yang dihosting sendiri di mana menjalankan layanan resmi yang penuh sumber daya mungkin tidak ideal. Jika Anda ingin meng-host Bitwarden di server Anda sendiri, Gunakanlah Vaultwarden dan bukan kode server resmi Bitwarden.
+**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Jika Anda ingin meng-host Bitwarden di server Anda sendiri, Gunakanlah Vaultwarden dan bukan kode server resmi Bitwarden.
 
 [:octicons-repo-16: Repositori Vaultwarden](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Dokumentasi}
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Kode Sumber" }
@@ -198,7 +198,7 @@ Kode sisi server Bitwarden [bersumber terbuka](https://github.com/bitwarden/serv
 
 ![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
 
-Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
 [:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
@@ -214,7 +214,7 @@ Proton Pass is an open-source, end-to-end encrypted password manager developed b
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
 - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
 - [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:octicons-globe-16: Web](https://pass.proton.me)
+- [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
 
@@ -254,17 +254,15 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
 - [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
-- [:octicons-globe-16: Web](https://my.1password.com/signin)
+- [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-Secara tradisional, **1Password** telah menawarkan pengalaman pengguna pengelola kata sandi terbaik untuk orang-orang yang menggunakan macOS dan iOS; namun, kini telah mencapai kesamaan fitur di semua platform. Aplikasi ini memiliki banyak fitur yang ditujukan untuk keluarga dan orang yang kurang teknis, serta fungsionalitas yang canggih.
+Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
 
 Brankas 1Password Anda diamankan dengan kata sandi utama dan kunci keamanan 34 karakter yang diacak untuk mengenkripsi data Anda di server mereka. Kunci keamanan ini menambahkan lapisan perlindungan pada data Anda karena data Anda diamankan dengan entropi yang tinggi terlepas dari kata sandi utama Anda. Banyak solusi pengelola kata sandi lainnya yang sepenuhnya bergantung pada kekuatan kata sandi utama Anda untuk mengamankan data Anda.
-
-Satu keunggulan yang dimiliki 1Password dibandingkan Bitwarden adalah dukungan kelas satu untuk klien asli. Sementara Bitwarden mendelegasikan banyak tugas, terutama fitur manajemen akun, pada antarmuka brankas web mereka, 1Password membuat hampir semua fitur tersedia dalam klien seluler atau desktop aslinya. Klien-klien 1Password juga memiliki UI yang lebih intuitif, yang membuatnya lebih mudah digunakan dan dinavigasi.
 
 ### Psono
 
@@ -294,6 +292,8 @@ Satu keunggulan yang dimiliki 1Password dibandingkan Bitwarden adalah dukungan k
 
 Psono menyediakan dokumentasi ekstensif untuk produk mereka. Klien web untuk Psono bisa di-host sendiri; sebagai alternatif, Anda bisa memilih Edisi Komunitas lengkap atau Edisi Enterprise dengan fitur tambahan.
 
+In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-introduces-passkeys) for the browser extension only.
+
 ### Kriteria
 
 **Harap diperhatikan bahwa kami tidak berafiliasi dengan proyek-proyek yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk memungkinkan kami memberikan rekomendasi yang objektif. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih untuk menggunakan sebuah proyek, dan melakukan penelitian sendiri untuk memastikan bahwa itu adalah pilihan yang tepat untuk Anda.
@@ -321,9 +321,9 @@ Opsi ini memungkinkan Anda untuk mengelola basis data kata sandi terenkripsi sec
 
 <div class="admonition recommendation" markdown>
 
-![Logo KeePassXC](assets/img/pengelolaan kata sandi/keepassxc.svg){ align=right }
+![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** adalah sebuah fork komunitas dari KeePassX, sebuah port lintas platform asli dari KeePass Password Safe, dengan tujuan untuk memperluas dan memperbaikinya dengan fitur-fitur baru dan perbaikan bug untuk menyediakan sebuah pengelola kata sandi yang kaya akan fitur, lintas platform, dan modern bersumber terbuka.
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bugfixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
@@ -351,9 +351,9 @@ KeePassXC menyimpan data ekspornya sebagai file [CSV](https://en.wikipedia.org/w
 
 <div class="admonition recommendation" markdown>
 
-![Logo KeePassDX](assets/img/pengelolaan kata sandi/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** adalah pengelola kata sandi yang ringan untuk Android, memungkinkan pengeditan data terenkripsi dalam satu file dalam format KeePass dan dapat mengisi formulir dengan cara yang aman. [Contributor Pro] (https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) memungkinkan untuk membuka konten kosmetik dan fitur protokol non-standar, tetapi yang lebih penting lagi, ini membantu dan mendorong pengembangan.
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
@@ -376,7 +376,7 @@ KeePassXC menyimpan data ekspornya sebagai file [CSV](https://en.wikipedia.org/w
 
 ![Logo Strongbox](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** adalah pengelola kata sandi sumber terbuka untuk iOS dan macOS. Mendukung format KeePass dan Password Safe, Strongbox bisa digunakan bersamaan dengan pengelola kata sandi lainnya, seperti KeePassXC, pada platform non-Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** adalah pengelola kata sandi sumber terbuka untuk iOS dan macOS. Mendukung format KeePass dan Password Safe, Strongbox bisa digunakan bersamaan dengan pengelola kata sandi lainnya, seperti KeePassXC, pada platform non-Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }

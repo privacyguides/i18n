@@ -186,7 +186,7 @@ Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), w
 
 Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
-**Vaultwarden**은 Bitwarden 동기화 서버를 Rust 언어로 구현한 것으로, Bitwarden 공식 클라이언트와 호환됩니다. 공식 서비스에 비해 리소스 사용량이 적으므로 자체 호스팅 용도로 적합합니다. Vaultwarden은 개인 서버에서 Bitwarden을 자체 호스팅하는 경우 공식 Bitwarden 서버 코드보다 선호됩니다.
+**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Vaultwarden은 개인 서버에서 Bitwarden을 자체 호스팅하는 경우 공식 Bitwarden 서버 코드보다 선호됩니다.
 
 [:octicons-repo-16: Vaultwarden 저장소](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=문서}
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="소스 코드" }
@@ -198,7 +198,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 ![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
 
-Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
 [:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
@@ -214,7 +214,7 @@ Proton Pass is an open-source, end-to-end encrypted password manager developed b
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
 - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
 - [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:octicons-globe-16: Web](https://pass.proton.me)
+- [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
 
@@ -254,17 +254,15 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
 - [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
-- [:octicons-globe-16: Web](https://my.1password.com/signin)
+- [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-**1Passsword**는 이전부터 macOS 및 iOS 사용자에게 가장 뛰어난 비밀번호 관리자 사용 경험을 제공해왔습니다. 오늘날에는 모든 플랫폼에서 동일한 기능성을 제공합니다. 고급 기능뿐만 아니라, 기술 이해도가 낮은 사용자 및 가족을 위한 다양한 기능을 자랑합니다.
+Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
 
 1Password 보관함은 마스터 비밀번호와 무작위 생성 34자 보안 키로 보호되어 여러분의 데이터를 서버에서 암호화합니다. 이 보안 키의 존재로 인해, 여러분은 마스터 비밀번호 강도에 관계없이 여러분의 데이터를 높은 엔트로피로 보호할 수 있습니다. 대부분의 다른 비밀번호 관리자는 사용자 데이터 보호를 사용자의 마스터 비밀번호 강도에만 전적으로 의존합니다.
-
-Bitwarden 대비 1Password 장점 중 하나는 네이티브 클라이언트 지원이 매우 뛰어나다는 점입니다. Bitwarden은 상당수의 기능을(특히 계정 관리 기능) 웹 보관함 인터페이스에서만 제공합니다. 반면, 1Password는 거의 모든 기능을 모바일/데스크톱 네이티브 클라이언트에서 이용할 수 있습니다. 또한 1Password 클라이언트는 보다 직관적인 UI를 제공하여 더욱 쉬운 사용 및 탐색이 가능합니다.
 
 ### Psono
 
@@ -294,6 +292,8 @@ Bitwarden 대비 1Password 장점 중 하나는 네이티브 클라이언트 지
 
 Psono는 제품에 관련된 문서를 매우 폭넓게 제공합니다. Psono 웹 클라이언트는 자체 호스팅 가능합니다. Community Edition 혹은 추가 기능이 포함된 Enterprise Edition을 선택할 수 있습니다.
 
+In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-introduces-passkeys) for the browser extension only.
+
 ### 평가 기준
 
 **Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
@@ -321,9 +321,9 @@ Psono는 제품에 관련된 문서를 매우 폭넓게 제공합니다. Psono �
 
 <div class="admonition recommendation" markdown>
 
-![KeePassXC 로고](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC**는 KeePassX(KeePass Password Safe를 네이티브 크로스 플랫폼으로 포팅한 프로젝트)를 커뮤니티에서 포크한 프로젝트입니다. 새로운 기능 추가와 버그 수정을 통해 확장 및 개선하여, 풍부한 기능을 갖추고 크로스 플랫폼을 지원하는 최신 오픈 소스 비밀번호 관리자를 제공하는 것이 목표입니다.
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bugfixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
@@ -351,9 +351,9 @@ KeePassXC는 데이터 내보내기 시 [CSV](https://en.wikipedia.org/wiki/Comm
 
 <div class="admonition recommendation" markdown>
 
-![KeePassDX 로고](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX**는 Android용 가벼운 비밀번호 관리자입니다. 암호화된 데이터를 KeePass 형식 단일 파일로 편집할 수 있으며, 안전한 방식으로 입력 항목을 채울 수 있습니다. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro)를 결제하면 프로젝트 개발에 큰 도움을 주는 동시에, 추가 디자인 테마 및 비표준 프로토콜 기능을 사용할 수 있습니다.
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
@@ -376,7 +376,7 @@ KeePassXC는 데이터 내보내기 시 [CSV](https://en.wikipedia.org/wiki/Comm
 
 ![Strongbox 로고](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox**는 iOS, macOS용 네이티브 오픈 소스 비밀번호 관리자입니다. KeePass, Password Safe 형식을 지원하므로, Apple 외 플랫폼에서는 KeePassXC 등의 다른 비밀번호 관리자와 함께 사용할 수 있습니다. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox**는 iOS, macOS용 네이티브 오픈 소스 비밀번호 관리자입니다. KeePass, Password Safe 형식을 지원하므로, Apple 외 플랫폼에서는 KeePassXC 등의 다른 비밀번호 관리자와 함께 사용할 수 있습니다. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }

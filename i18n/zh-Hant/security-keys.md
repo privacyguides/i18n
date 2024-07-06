@@ -17,7 +17,7 @@ cover: multi-factor-authentication.webp
 
 **Yubico Security Key**系列是最佳成本效益的硬體安全金鑰，擁有 FIDO 2 級認證。 它支援 FIDO2/WebAuthn 和 FIDO U2F，並且可以與大多數支援安全密鑰作為第二因素的服務以及許多密碼管理器一起使用。
 
-[:octicons-home-16: Homepage](https://www.yubico.com/products/security-key/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://yubico.com/products/security-key){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
 
@@ -29,7 +29,7 @@ cover: multi-factor-authentication.webp
 
 此金鑰僅提供基本的 FIDO2 功能，但對於大多數人來說就足夠其需求。 安全金鑰系列**不具備**的功能為：
 
-- [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)
+- [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)
 - CCID 智慧卡支援 (PIV-compatibile)
 - OpenPGP
 
@@ -52,7 +52,7 @@ Yubico 安全金鑰的韌體不可更新。 如果您想要使用較新韌體版
 
 Yubico 的 **YubiKey** 系列是最受歡迎的安全金鑰之一。 YubiKey 5 糸列的廣泛功能，例如： [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor)、[FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)、[Yubico OTP](basics/multi-factor-authentication.md#yubico-otp)、[Personal Identity Verification (PIV)](https://developers.yubico.com/PIV)、 [OpenPGP](https://developers.yubico.com/PGP)、[TOTP and HOTP](https://developers.yubico.com/OATH)驗證。
 
-[:octicons-home-16: Homepage](https://www.yubico.com/products/yubikey-5-overview/){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
 
@@ -62,7 +62,7 @@ Yubico 的 **YubiKey** 系列是最受歡迎的安全金鑰之一。 YubiKey 5 �
 
 [比較表](https://yubico.com/store/compare) 顯示 YubiKey 的功能以及與 Yubico [安全密鑰](#yubico-security-key) 系列之間相互比較。 YubiKey 好處之一是，一支可以滿足對安全密鑰硬體的全部期待。 建議購買前先 [作個小測驗](https://yubico.com/quiz/) ，確保做出正確的選擇。
 
-Yubikey 5系列具有FIDO 1級認證，這是最常見的。 但是，某些政府或其他組織可能需要具有2 級認證的金鑰，這種情況下，必須購買[Yubikey 5 **FIPS** 系列](https://www.yubico.com/products/ yubikey -fips/) 金鑰，或 [Yubico 安全金鑰](#yubico-security-key)。 大多數人不必擔心這種差異。
+Yubikey 5系列具有FIDO 1級認證，這是最常見的。 However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [Yubikey 5 **FIPS** series](https://yubico.com/products/yubikey-fips) key, or a [Yubico Security Key](#yubico-security-key). 大多數人不必擔心這種差異。
 
 YubiKey 可以使用 [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) 或 [YubiKey 個人化工具]](https://yubico.com/support/download/yubikey-personalization-tools)。 若要管理 TOTP 程式碼，可用 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)。 Yubico 所有客戶端軟體都是開源。
 

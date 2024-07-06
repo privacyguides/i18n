@@ -155,15 +155,23 @@ Con quest'impostazione abilitata, qualcuno potrebbe ripristinare intenzionalment
 
 - [x] Attiva **Cancella Dati**
 
-#### Privacy
+#### Privacy e sicurezza
 
 I **Servizi di Posizione** ti consentono di utilizzare funzionalità come Find My e Maps. Se non necessiti di queste funzionalità, puoi disabilitare i Servizi di Posizione. Altrimenti, puoi revisionare e selezionare quali app possono utilizzare la tua posizione. Seleziona i **Servizi di Posizione**:
 
 - [ ] Disattiva i **Servizi di Posizione**
 
+A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+
+- [ ] Turn off **iPhone Analytics**
+- [ ] Turn off **Routing & Traffic**
+- [ ] Turn off **Improve Maps**
+
 Puoi decidere di consentire alle app di richiedere di **tracciarti**, qui. Disabilitarlo impedisce a tutte le app di tracciarti, con l'ID pubblicitario del tuo telefono. Seleziona **Tracciamento**:
 
 - [ ] Disattiva **Consenti alle App di Richiedere di Tracciare**
+
+This is disabled by default and cannot be changed for users under 18.
 
 Dovresti disattivare **Sensore di Ricerca e Dati di Utilizzo** se non desideri partecipare agli studi. Seleziona **Sensore di Ricerca e Dati di Utilizzo**:
 

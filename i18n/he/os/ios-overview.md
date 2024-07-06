@@ -155,15 +155,23 @@ After enabling Stolen Device Protection, [certain actions](https://support.apple
 
 - [x] הפעל את **מחק נתונים**
 
-#### פרטיות
+#### פרטיות& אבטחה
 
 **שירותי מיקום** מאפשרים לך להשתמש בתכונות כמו מצא את שלי ומפות. אם אינך זקוק לתכונות אלו, תוכל להשבית את שירותי המיקום. לחלופין, תוכל לסקור ולבחור אילו אפליקציות יכולות להשתמש במיקום שלך כאן. בחר **שירותי מיקום**:
 
 - [ ] כבה את **שירותי מיקום**
 
+A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+
+- [ ] Turn off **iPhone Analytics**
+- [ ] Turn off **Routing & Traffic**
+- [ ] Turn off **Improve Maps**
+
 אתה יכול להחליט לאפשר לאפליקציות לבקש **לעקוב ** אחריך כאן. השבתה זו לא מאפשרת לכל האפליקציות לעקוב אחריך עם מזהה הפרסום של הטלפון שלך. בחר **מעקב**:
 
 - [ ] כבה את **אפשר לאפליקציות לבקש מעקב**
+
+This is disabled by default and cannot be changed for users under 18.
 
 עליך לכבות את **חיישן מחקר & נתוני שימוש**אם אינך מעוניין להשתתף במחקרים. בחר **חיישן מחקר & נתוני שימוש**:
 

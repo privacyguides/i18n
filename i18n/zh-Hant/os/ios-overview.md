@@ -155,15 +155,23 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [x] 打開 **清除資料**
 
-#### 隱私
+#### 隱私 & 安全
 
 **定位服務**可用在“尋找”和“地圖”等功能。 如果不需要這些功能，可以禁用定位服務。 或者，可以在此處查看並選擇哪些應用程式可以使用您的位置資訊。 選擇 **定位服務**:
 
 - [ ] 關閉 **定位服務**
 
+A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+
+- [ ] Turn off **iPhone Analytics**
+- [ ] Turn off **Routing & Traffic**
+- [ ] Turn off **Improve Maps**
+
 您在此處決定是否讓 apps **追蹤** 活動。 關閉此功能可禁止所有應用程序利用手機的廣告 ID 進行跟踪。 選擇 **追蹤**:
 
 - [ ] 關閉 **允許 App 發出追蹤請求**
+
+This is disabled by default and cannot be changed for users under 18.
 
 如果不想加入，請關閉 **感應 & 使用資料研究** 。 選擇 **感應 & 使用資料研究**:
 

@@ -186,7 +186,7 @@ Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), w
 
 Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
-**Vaultwarden** — это альтернативная реализация сервера синхронизации Bitwarden, написанная на языке Rust и совместимая с официальными клиентами Bitwarden. Она идеально подходит для самостоятельного развертывания, когда запуск официального сервиса, требующего больших мощностей, не является оправданным решением. Если вы хотите самостоятельно развернуть Bitwarden на своем сервере, скорее всего, вам стоит использовать Vaultwarden вместо официального сервера Bitwarden.
+**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Если вы хотите самостоятельно развернуть Bitwarden на своем сервере, скорее всего, вам стоит использовать Vaultwarden вместо официального сервера Bitwarden.
 
 [:octicons-repo-16: Репозиторий Vaultwarden](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Документация}
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Исходный код" }
@@ -198,7 +198,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 ![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
 
-Proton Pass is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, supports and stores passkeys, and offers a community-funded, Swiss-based service with strict data privacy laws.
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
 [:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
@@ -214,7 +214,7 @@ Proton Pass is an open-source, end-to-end encrypted password manager developed b
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
 - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
 - [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:octicons-globe-16: Web](https://pass.proton.me)
+- [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
 
@@ -254,17 +254,15 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
 - [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
-- [:octicons-globe-16: Web](https://my.1password.com/signin)
+- [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-Изначально **1Password** предоставлял лучший функционал именно для пользователей macOS и iOS, однако теперь функционал одинаковый на всех платформах. В нем есть множество функций, как ориентированных на семьи и менее технически подкованных людей, так и более продвинутых возможностей.
+Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
 
 Ваше хранилище 1Password защищено одновременно мастер-паролем и случайным 34-символьным ключом безопасности для шифрования данных на серверах. Этот ключ добавляет вашим данным дополнительную защиту: они зашифрованы с высокой энтропией независимо от безопасности вашего мастер-пароля. Многие другие решения для управления паролями полностью полагаются на безопасность мастер-пароля для защиты ваших данных.
-
-Одно из преимуществ 1Password перед Bitwarden — первоклассная поддержка нативных клиентов. В то время как Bitwarden выносит многие функции, особенно управление учетными записями, в веб-интерфейс хранилища, 1Password предоставляет почти все функции в своих мобильных и настольных приложениях. Клиенты 1Password также имеют более понятный интерфейс, что облегчает их использование.
 
 ### Psono
 
@@ -294,6 +292,8 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 Psono предоставляет подробную документацию по своему продукту. Веб-клиент для Psono может быть развернут самостоятельно; в качестве альтернативы вы можете приобрести полную версию Community Edition или Enterprise Edition с дополнительными возможностями.
 
+In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-introduces-passkeys) for the browser extension only.
+
 ### Критерии
 
 **Обратите внимание, что у нас нет связей ни с одним из проектов, которые мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md)мы разработали четкий набор требований, позволяющий нам давать объективные рекомендации. Мы рекомендуем вам ознакомиться с этим списком, прежде чем выбрать программу, и провести самостоятельное исследование, чтобы убедиться, что это правильный выбор для вас.
@@ -321,9 +321,9 @@ Psono предоставляет подробную документацию п�
 
 <div class="admonition recommendation" markdown>
 
-![Логотип KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** - это форк KeePassX, нативного кроссплатформенного порта KeePass Password Safe, созданный с целью расширить и улучшить его новыми возможностями и исправлениями ошибок, чтобы предоставить многофункциональный, кроссплатформенный и современный менеджер паролей с открытым исходным кодом.
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bugfixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
@@ -351,9 +351,9 @@ KeePassXC хранит экспортированные данные в виде
 
 <div class="admonition recommendation" markdown>
 
-![Логотип KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** - это легкий менеджер паролей для Android, который позволяет редактировать зашифрованные данные в одном файле в формате KeePass и безопасно заполнять формы. Покупка [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) позволяет разблокировать косметический контент и нестандартные функции протокола, но, что еще важнее, поддерживает развитие проекта.
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
@@ -376,7 +376,7 @@ KeePassXC хранит экспортированные данные в виде
 
 ![Логотип Strongbox](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** - это нативный менеджер паролей с открытым исходным кодом для iOS и macOS. Он поддерживает форматы KeePass и Password Safe, поэтому может быть использован совместно с другими менеджерами паролей, например KeePassXC, на устройствах не от Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** - это нативный менеджер паролей с открытым исходным кодом для iOS и macOS. Он поддерживает форматы KeePass и Password Safe, поэтому может быть использован совместно с другими менеджерами паролей, например KeePassXC, на устройствах не от Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }

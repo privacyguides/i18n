@@ -186,7 +186,7 @@ Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), w
 
 Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，因此如果不想使用 Bitwarden 雲端，可以輕鬆地託管自己的 Bitwarden 同步伺服器。
 
-**Vaultwarden** 是以Rust 編寫的Bitwarden 同步伺服器的替代實作，相容官方 Bitwarden 客戶端，非常適合自託管部署取代 Bitwarden  官方資源過載的情況。 如果你想在自己的伺服器上自我託管 Bitwarden ，你幾乎肯定想在 Bitwarden 的官方伺服器代碼上使用 Vaultwarden。
+**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. 如果你想在自己的伺服器上自我託管 Bitwarden ，你幾乎肯定想在 Bitwarden 的官方伺服器代碼上使用 Vaultwarden。
 
 [:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
@@ -198,7 +198,7 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
 
 ![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
 
-Proton Pass 是由 [Proton Mail](email.md#proton-mail) 團隊 Proton 開發的開源端對端加密密碼管理器。 它安全地儲存登入憑證，產生唯一的電子郵件別名，支援和儲存金鑰，並提供由社群資助、基於瑞士的服務，並遵守嚴格的資料隱私法。
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
 [:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
@@ -206,7 +206,7 @@ Proton Pass 是由 [Proton Mail](email.md#proton-mail) 團隊 Proton 開發的�
 [:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
@@ -214,7 +214,7 @@ Proton Pass 是由 [Proton Mail](email.md#proton-mail) 團隊 Proton 開發的�
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
 - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
 - [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:octicons-globe-16: 網頁版](https://pass.proton.me)
+- [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
 
@@ -247,7 +247,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 [:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -258,17 +258,15 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
 - [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
-- [:octicons-globe-16: 網頁版](https://my.1password.com/signin)
+- [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-過去**1Password** 僅為 macOS和 iOS的用戶提供了最佳的密碼管理器用戶體驗，不過它現在已在所有平臺上實現了功能平等。 它擁有許多針對家庭和非技術人員方便使用的特色，也有先進的功能。
+Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
 
 您的1Password保管庫使用您的主密碼和隨機34個字符的安全密鑰來加密其伺服器上的數據。 此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。 許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
-
-相較Bitwarden , 1Password一大優勢是其對原生客戶端的一流支持。 Bitwarden 將許多職責（特別是帳戶管理功能）降級到他們的網頁保管庫界面，而1Password 則是在其原生行動或桌面客戶端中提供了所有功能。 1Password 客戶端也有更直觀的用戶界面 ，更容易使用和導航。
 
 
 
@@ -299,6 +297,8 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 </div>
 
 Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行託管；或者，您可以選擇完整的Community Edition或具有附加功能的Enterprise Edition。
+
+In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-introduces-passkeys) for the browser extension only.
 
 
 
@@ -339,7 +339,7 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 
 ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** 是 KeePassX 的社區分支， KeePassX 是KeePass Password Safe 的原生跨平臺端口，其目標是通過新功能和錯誤修復來擴展和改善它，以提供功能豐富，跨平臺和現代開源密碼管理器。
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bugfixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
@@ -369,9 +369,9 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 <div class="admonition recommendation" markdown>
 
-![KeePassDX 標誌](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** 是 Android 輕量級密碼管理器，允許編輯KeePass 格式文件中的加密資料，與安全填寫密碼表單。 [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) 允許解鎖上妝的內容和非標準協議功能，但更重要的是，它有助於並鼓勵開發。
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
@@ -394,7 +394,7 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** 是 iOS 和 macOS 原生開源密碼管理器。 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 通過採用 [免費增值模式](https://strongboxsafe.com/pricing/) ， Strongbox 免費會員等級提供了大多數功能，而更方便的 [功能](https://strongboxsafe.com/comparison/) -例如生物識別驗證-則必須在訂閱或購買永久授權之後才能享受。
+**Strongbox** 是 iOS 和 macOS 原生開源密碼管理器。 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }

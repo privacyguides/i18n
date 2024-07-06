@@ -186,7 +186,7 @@ Per poter condividere i file è necessario il [piano Premium](https://bitwarden.
 
 Il codice utilizzato dai server di Bitwarden è [open-source](https://github.com/bitwarden/server), quindi se non vuoi utilizzare il loro servizio di cloud, puoi tranquillamente utilizzare un tuo server per la sincronizzazione.
 
-**Vaultwarden** è un'implementazione alternativa del server di sincronizzazione di Bitwarden scritta in Rust e compatibile con i client ufficiali di Bitwarden, perfetta per la distribuzione ospitabile autonomamente, quando l'esecuzione del servizio ufficiale e ricco di risorse, potrebbe non essere ideale. Se desideri ospitare autonomamente il tuo server di Bitwarden, desidererai quasi sicuramente utilizzare Vaultwarden, rispetto al codice del server ufficiale di Bitwarden.
+**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Se desideri ospitare autonomamente il tuo server di Bitwarden, desidererai quasi sicuramente utilizzare Vaultwarden, rispetto al codice del server ufficiale di Bitwarden.
 
 [:octicons-repo-16: Repository di Vaultwarden](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentazione}
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Codice Sorgente" }
@@ -196,9 +196,9 @@ Il codice utilizzato dai server di Bitwarden è [open-source](https://github.com
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Proton Pass](assets/img/password-management/protonpass.svg){ align=right }
+![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
 
-Proton Pass è un gestore di password crittografato end-to-end, open-source sviluppato da Proton, il team che ha creato [Proton Mail](email.md#proton-mail). Memorizza in modo sicuro le tue credenziali di accesso, genera alias email unici, supporta e memorizza le passkey e offre un servizio finanziato dalla comunità e basato in Svizzera, con leggi rigorose sulla privacy dei dati.
+**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
 [:octicons-home-16: Pagina Principale](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Politica sulla Privacy" }
@@ -206,15 +206,15 @@ Proton Pass è un gestore di password crittografato end-to-end, open-source svil
 [:octicons-code-16:](https://github.com/protonpass){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass&gl=It)
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/proton-pass-password-manager/id6443490629)
-- [:simple-windows11: Windows](https://proton.me/it/pass/download)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/proton-pass/)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde?hl=it)
-- [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde?hl=it)
-- [:octicons-globe-16: Web](https://pass.proton.me)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
+- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
+- [:simple-windows11: Windows](https://proton.me/pass/download)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:simple-microsoftedge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
 
@@ -243,28 +243,26 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 [:octicons-info-16:](https://support.1password.com/it/){ .card-link title=Documentazione}
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android&gl=IT)
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/1password-gestore-password/id1511601750)
-- [:simple-windows11: Windows](https://1password.com/it/downloads/windows/)
-- [:simple-apple: macOS](https://1password.com/it/downloads/mac/)
-- [:simple-linux: Linux](https://1password.com/it/downloads/linux/)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/it/firefox/addon/1password-x-password-manager/)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/1password-%E2%80%93-gestore-di-pa/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/1password-%E2%80%93-gestore-di-pa/dppgmdbiimibapkepcbdbmkaabgiofem)
-- [:simple-safari: Safari](https://apps.apple.com/it/app/1password-for-safari/id1569813296)
-- [:octicons-globe-16: Web](https://my.1password.com/signin?l=it)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
+- [:simple-windows11: Windows](https://1password.com/downloads/windows)
+- [:simple-apple: macOS](https://1password.com/downloads/mac)
+- [:simple-linux: Linux](https://1password.com/downloads/linux)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/1password-x-password-manager)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
+- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
+- [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-Tradizionalmente, **1Password** ha offerto la migliore esperienza d'uso del gestore di password per chi utilizza macOS e iOS; tuttavia, ora ha raggiunto la parità di funzionalità su tutte le piattaforme. Vanta molte caratteristiche orientate alle famiglie e alle persone meno tecniche, oltre a funzionalità avanzate.
+Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
 
 La tua cassaforte di 1Password è protetta sia dalla password principale che da una chiave di sicurezza randomizzata di 34 caratteri per crittografare i tuoi dati sui loro server. Tale chiave di sicurezza aggiunge un livello di protezione ai tuoi dati, poiché, essi, sono protetti da un'entropia elevata, indipendentemente dalla tua password principale. Molti altri gestori delle password si affidano interamente alla forza della tua password principale per proteggere i tuoi dati.
-
-Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe per i client nativi. Mentre Bitwarden relega molti doveri, specialmente le funzionalità di gestione dei profili, all'interfaccia della propria cassaforte web, 1Password rende disponibile quasi ogni funzionalità, nei propri client mobile o desktop nativi. Inoltre, i client di 1Password, dispongono di un'interfaccia utente più intuitiva, che ne semplifica l'utilizzo e la navigazione.
 
 ### Psono
 
@@ -294,6 +292,8 @@ Un vantaggio di 1Password rispetto a Bitwarden è il supporto di prima classe pe
 
 Psono fornisce un'ampia documentazione sul proprio prodotto. Il client web per Psono è ospitabile autonomamente; altrimenti, puoi scegliere la Community Edition completa o l'Enterprise Edition con funzionalità aggiuntive.
 
+In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-introduces-passkeys) for the browser extension only.
+
 ### Criteri
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
@@ -321,9 +321,9 @@ Queste opzioni ti consentono di gestire localmente un database di password critt
 
 <div class="admonition recommendation" markdown>
 
-![Logo di KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** è un fork di KeePassX, una conversione nativa e multipiattaforma di KeePass Password Safe, mirata a estenderla e migliorarla con nuove funzionalità e correzioni di bug, per fornire un gestore di password open source, ricco di funzionalità, multipiattaforma e moderno.
+**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bugfixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: Pagina Principale](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Politica sulla Privacy" }
@@ -351,9 +351,9 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 <div class="admonition recommendation" markdown>
 
-![Logo di KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** è un gestore di password leggero per Android, che consente la modifica dei dati crittografati in un singolo file nel formato KeePass, e può compilare i moduli in un modo sicuro. [Contributor Pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) consente lo sblocco dei contenuti cosmetici e dispone di funzionalità non standard del protocollo ma, soprattutto, aiuta e incoraggia lo sviluppo.
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 [:octicons-home-16: Pagina Principale](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentazione}
@@ -376,7 +376,7 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 ![Logo di Strongbox](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** è un gestore di password nativo e open source per iOS e macOS. Supportando sia i formati di KeePass che di Password Safe, è utilizzabile insieme ad altri gestori di password, come KeePassXC, sulle piattaforme non Apple. Utilizzando un [modello freemium] (https://strongboxsafe.com/pricing), Strongbox offre la maggior parte delle funzionalità nel suo piano gratuito, mentre le funzionalità più convenienti (https://strongboxsafe.com/comparison), come l'autenticazione biometrica, sono bloccate dietro un abbonamento o una licenza permanente.
+**Strongbox** è un gestore di password nativo e open source per iOS e macOS. Supportando sia i formati di KeePass che di Password Safe, è utilizzabile insieme ad altri gestori di password, come KeePassXC, sulle piattaforme non Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Pagina Principale](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Politica sulla Privacy" }

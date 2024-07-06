@@ -155,15 +155,23 @@ Con esta opción activada, alguien podría borrar intencionadamente tu teléfono
 
 - [x] Activa **Borrar Datos**
 
-#### Privacidad
+#### Privacidad y seguridad
 
 **Localización** te permite utilizar funciones como Buscar y Mapas. Si no necesitas estas funciones, puedes desactivar Localización. Alternativamente, puede revisar y elegir qué aplicaciones pueden usar tu ubicación aquí. Selecciona **Localización**:
 
 - [ ] Desactiva **Localización**
 
+A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+
+- [ ] Turn off **iPhone Analytics**
+- [ ] Turn off **Routing & Traffic**
+- [ ] Turn off **Improve Maps**
+
 Aquí puedes decidir si permites que las aplicaciones soliciten **rastrearte**. Desactivar esta opción impide que todas las aplicaciones te rastreen con el ID de publicidad de tu teléfono. Selecciona **Rastreo**:
 
 - [ ] Desactiva **Permitir que las Apps Soliciten Rastrearte**
+
+This is disabled by default and cannot be changed for users under 18.
 
 Deberías desactivar **Datos de Uso y de los Sensores** si no deseas participar en estudios. Selecciona **Datos de Uso y de los Sensores**:
 

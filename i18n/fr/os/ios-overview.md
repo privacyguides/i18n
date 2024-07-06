@@ -155,15 +155,23 @@ Si ce paramètre est activé, quelqu'un peut intentionnellement effacer votre t�
 
 - [x] Activez **Effacer les données**
 
-#### Confidentialité et sécurité
+#### Confidentialité & sécurité
 
 Les **services de localisation** vous permettent d'utiliser des fonctions telles que Localiser et Plan. Si vous n'avez pas besoin de ces fonctionnalités, vous pouvez désactiver les services de localisation. Vous pouvez également passer en revue et choisir les applications qui peuvent utiliser votre position ici. Sélectionnez **Services de localisation** :
 
 - [ ] Désactivez **Services de localisation**
 
+A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+
+- [ ] Turn off **iPhone Analytics**
+- [ ] Turn off **Routing & Traffic**
+- [ ] Turn off **Improve Maps**
+
 Vous pouvez décider ici d'autoriser les applications à demander à vous **suivre**. La désactivation de cette fonction empêche toutes les applications de vous suivre à l'aide de l'identifiant publicitaire de votre téléphone. Sélectionnez **Suivi** :
 
 - [ ] Désactivez **Autoriser les demandes de suivi des apps**
+
+This is disabled by default and cannot be changed for users under 18.
 
 Vous devriez désactiver **Données de capteur et d’utilisation à des fins de recherche** si vous ne souhaitez pas participer à des études. Sélectionnez **Données de capteur et d’utilisation à des fins de recherche** :
 
