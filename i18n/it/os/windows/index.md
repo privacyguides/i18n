@@ -1,15 +1,15 @@
 ---
-title: Windows Overview
+title: Panoramica di Windows
 icon: simple/windows
 ---
 
 **Microsoft Windows** is a proprietary operating system in widespread use. Recent versions of Windows, especially Windows 11, are widely considered to be the most privacy-invasive and least secure modern operating systems.
 
-If you have the choice between Windows 10 and Windows 11, we would recommend using Windows 10 for as long as possible. Windows 10 will be supported until October 2025. However, no current version of Windows respects your privacy without extensive modifications that are often undone by future updates from Microsoft. Consider [Linux](../linux-overview.md) if you'd prefer an operating system that respects your privacy and preferences.
+If you have the choice between Windows 10 and Windows 11, we would recommend using Windows 10 for as long as possible. Windows 10 sarà supportato fino a ottobre 2025. However, no current version of Windows respects your privacy without extensive modifications that are often undone by future updates from Microsoft. Consider [Linux](../linux-overview.md) if you'd prefer an operating system that respects your privacy and preferences.
 
 Microsoft continually adds new cloud-based features to Windows 11 which are enabled by default without user consent. Most recently (as of May 2024), they've introduced a built-in keylogger called **Recall** (part of their AI features) which records every keystroke on your device, and records your screen by screenshotting at regular intervals. This data is stored unsafely in a local database that is decrypted when your device is powered on, meaning it is an easy target for hackers. It will not redact sensitive information like copied passwords or financial information from the database, but it does protect Hollywood movie studios by not recording copyrighted content. This feature is currently only on certain newer devices, but it serves as an example of how little Microsoft cares about your security and privacy.
 
-## Guides
+## Guide
 
 You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
 
@@ -39,7 +39,7 @@ Microsoft often abuses the automatic updates feature to add new functionality to
 
 Some privacy features in Windows 11 are locked to devices in the European Union. We have not yet found a way to reliably access those settings worldwide.
 
-## Windows Editions
+## Edizioni di Windows
 
 Many critical privacy and security features are unfortunately locked away behind higher-cost editions of Windows, instead of being available in Windows Home Edition. Some features missing from **Windows Home Edition** include Bitlocker Drive Encryption, Hyper-V, and Windows Sandbox. In our Windows guides we will cover how to use all of these features appropriately, so having a premium edition of Windows will be critical.
 
