@@ -33,7 +33,7 @@ Les fournisseurs d'e-mail qui vous permettent d'utiliser les protocoles d'accès
 
 ### Comment puis-je protéger mes clés privées ?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Le message est ensuite déchiffré par la carte à puce et le contenu déchiffré est renvoyé à l'appareil.
+Une carte à puce (telle qu'une [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) ou [Nitrokey](../security-keys.md#nitrokey)) fonctionne en recevant un e-mail chiffré d'un appareil (téléphone, tablette, ordinateur, etc.) exécutant un client d'e-mail/une interface d'e-mail web. Le message est ensuite déchiffré par la carte à puce et le contenu déchiffré est renvoyé à l'appareil.
 
 Il est préférable que le déchiffrement ait lieu sur la carte à puce afin d'éviter d'exposer votre clé privée à un dispositif compromis.
 

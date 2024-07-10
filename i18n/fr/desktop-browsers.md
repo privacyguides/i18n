@@ -318,14 +318,14 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 ##### Extensions
 
-- [ ] Uncheck all built-in extensions you do not use
+- [ ] Décochez toutes les extensions intégrées que vous n'utilisez pas
 
 ##### Web3
 
 Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreinte numérique de votre navigateur et à la surface d'attaque. À moins que vous n'utilisiez l'une ou l'autre de ces fonctions, elles devraient être désactivées.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
-- Set *Method to resolve IPFS resources* to **Disabled**
+- Définir *Méthode de résolution des ressources IPFS* sur **Désactivé**
 
 ##### Système
 
@@ -343,7 +343,7 @@ La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Un
 
 #### Récompenses et portefeuille Brave
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Elles s'appuient sur un compte de garde et sur la connaissance du client (KYC) d'un certain nombre de fournisseurs. Nous ne recommandons pas le BAT en tant que [crypto-monnaie privée](cryptocurrency.md), ni l'utilisation d'un [portefeuille de garde](advanced/payments.md#wallet-custody), et nous décourageons donc l'utilisation de cette fonctionnalité.
+**Brave Rewards** vous permet de recevoir de la crypto-monnaie Basic Attention Token (BAT) en effectuant certaines actions au sein de Brave. Elles s'appuient sur un compte de garde et sur la connaissance du client (KYC) d'un certain nombre de fournisseurs. Nous ne recommandons pas le BAT en tant que [crypto-monnaie privée](cryptocurrency.md), ni l'utilisation d'un [portefeuille de garde](advanced/payments.md#wallet-custody), et nous décourageons donc l'utilisation de cette fonctionnalité.
 
 Le **Portefeuille Brave** fonctionne localement sur votre ordinateur, mais ne prend pas en charge les crypto-monnaies privées, nous vous déconseillons donc d'utiliser cette fonctionnalité.
 
@@ -357,22 +357,22 @@ Le **Portefeuille Brave** fonctionne localement sur votre ordinateur, mais ne pr
 
 - Doit être un logiciel open source.
 - Doit prendre en charge les mises à jour automatiques.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
+- Doit recevoir les mises à jour du moteur dans un délai de 0 à 1 jour à compter de la publication en amont.
+- Doit être disponible sur Linux, macOS et Windows.
+- Les modifications nécessaires pour rendre le navigateur plus respectueux de la vie privée ne devraient pas avoir d'impact négatif sur l'expérience des utilisateurs.
+- Bloque les cookies tiers par défaut.
 - Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### Dans le meilleur des cas
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps. Les PWAs vous permettent d'installer certains sites web comme s'il s'agissait d'applications natives sur votre ordinateur. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Doit inclure une fonctionnalité intégrée de blocage du contenu.
+- Supporte la compartimentation des cookies (à la [Account Containers](https://support.mozilla.org/kb/containers)).
+- Devrait prendre en charge les applications Web progressives (PWAs). Les PWAs vous permettent d'installer certains sites web comme s'il s'agissait d'applications natives sur votre ordinateur. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Ne comprend pas de fonctionnalités supplémentaires (bloatwares) qui n'ont pas d'incidence sur la vie privée des utilisateurs.
+- Ne devrait pas collecter de télémétrie par défaut.
+- Devrait fournir une implémentation de serveur de synchronisation open-source.
+- Le moteur de recherche par défaut est un [moteur de recherche privé](search-engines.md).
 
 [^1]: L'implémentation de Brave est détaillée sur le site [Brave Privacy Updates : Partitionnement de l'état du réseau pour la protection de la vie privée](https://brave.com/privacy-updates/14-partitioning-network-state).

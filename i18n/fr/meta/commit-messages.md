@@ -1,20 +1,20 @@
 ---
-title: Commit Messages
+title: Messages de commit
 ---
 
-For our commit messages we follow the style provided by [Conventional Commits](https://conventionalcommits.org). Not all of those suggestions are appropriate for Privacy Guides, so the main ones we use are:
+Pour nos messages de commit, nous suivons le style fourni par [Conventional Commits](https://conventionalcommits.org). Toutes ces suggestions ne sont pas appropriées pour Privacy Guides, c'est pourquoi les principales que nous utilisons sont les suivantes :
 
-## Commit message with correction
+## Message de commit avec correction
 
-We use `fix` for simple things like spelling mistakes or site related bugs. These things will usually have the `correction` or `bug` label on GitHub.
+Nous utilisons `fix` pour des choses simples comme les fautes d'orthographe ou les bugs liés au site. Ces choses ont généralement le label `correction` ou `bug` sur GitHub.
 
 ```text
 fix: Correct spelling on XYZ page (#0000)
 ```
 
-## Update to site
+## Mise à jour du site
 
-This example is for a removal of an item (but could also be used for an addition); you may elaborate why it was removed in the commit paragraph below. It can also be used for the addition of any new pages.
+Cet exemple concerne la suppression d'un élément (mais il pourrait également être utilisé pour un ajout) ; vous pouvez expliquer pourquoi il a été supprimé dans le paragraphe d'engagement ci-dessous. Il peut également être utilisé pour l'ajout de nouvelles pages.
 
 ```text
 update: Remove foobar (#0000)
@@ -22,17 +22,17 @@ update: Remove foobar (#0000)
 Foobar was removed due to it having numerious security issues and being unmaintained.
 ```
 
-## Update to specific item
+## Mise à jour d'un élément spécifique
 
-This example could be used for an item already on the site, but includes a minor update to the description.
+Cet exemple peut être utilisé pour un article déjà présent sur le site, mais dont la description a été légèrement modifiée.
 
 ```text
 foobar: Add mention of security audit (#0000)
 ```
 
-## Feature/enhancement
+## Fonctionnalité/amélioration
 
-For new features or enhancements to the site, e.g. things that have the `enhancements` label on GitHub, it may be appropriate to signify these with:
+Pour les nouvelles fonctionnalités ou les améliorations du site, par exemple les choses qui ont le label `enhancements` sur GitHub, il peut être approprié de les signifier avec :
 
 ```text
 feat: Add blah blah (#0000)
@@ -40,9 +40,9 @@ feat: Add blah blah (#0000)
 This change adds the forum topics to the main page
 ```
 
-## Module update
+## Mise à jour de module
 
-Dependency updates follow the normal recommendations of beginning with:
+Les mises à jour des dépendances suivent les recommandations normales qui consistent à commencer par :
 
 ```text
 chore: Bump modules/mkdocs-material from 463e535 to 621a5b8
