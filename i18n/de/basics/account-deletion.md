@@ -55,7 +55,7 @@ Bei Diensten, die keine Kontolöschung zulassen, ist es am besten, alle Ihre Dat
 
 Wenn du sicher bist, dass alle dir wichtigen Information entfernt wurden, kannst du das Konto getrost vergessen. Ist das nicht der Fall, solltest du die Anmeldedaten zusammen mit deinen anderen Passwörtern speichern und gelegentlich erneut anmelden, um das Passwort zurückzusetzen.
 
-Even when you are able to delete an account, there is no guarantee that all your information will be removed. In fact, some companies are required by law to keep certain information, particularly when related to financial transactions. It's mostly out of your control what happens to your data when it comes to websites and cloud services.
+Selbst wenn du in der Lage bist, ein Konto zu löschen, gibt es keine Garantie, dass alle deine Informationen entfernt werden. Einige Unternehmen sind sogar gesetzlich dazu verpflichtet, bestimmte Informationen aufzubewahren, insbesondere im Zusammenhang mit finanziellen Transaktionen. It's mostly out of your control what happens to your data when it comes to websites and cloud services.
 
 ## Avoid New Accounts
 
