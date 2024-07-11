@@ -21,21 +21,21 @@ Auch wenn du noch nie explizit einen Passwort-Manager verwendet hast, ist die Wa
 Desktop-Plattformen haben oft auch einen Passwort-Manager, der dir helfen kann, Passwörter wiederzufinden, an die du dich nicht mehr erinnerst:
 
 - Windows [Anmeldeinformationsverwaltung](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/HT211145)
-- iOS [Passwords](https://support.apple.com/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- macOS [Passwörter](https://support.apple.com/HT211145)
+- iOS [Passwörter](https://support.apple.com/HT211146)
+- Linux, Gnome-Schlüsselbund, auf den über [Seahorse](https://wiki.gnome.org/Apps/Seahorse) oder [KWallet](https://userbase.kde.org/KDE_Wallet_Manager) zugegriffen werden kann
 
-### Email
+### E-Mail
 
-If you didn't use a password manager in the past or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. On your email client, search for keywords such as "verify" or "welcome." Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
+Wenn du in der Vergangenheit keinen Passwort-Manager verwendet hast oder glaubst, dass du Konten hast, die nie zu deinem Passwort-Manager hinzugefügt wurden, ist eine weitere Option, deine E-Mail-Konten zu durchsuchen, auf denen du dich angemeldet hast. Suche in deinem E-Mail-Programm nach "Bestätige" oder "Willkommen". Fast jedes Mal, wenn du ein Online-Konto erstellst, sendet der Dienst einen Bestätigungslink oder eine Willkommensnachricht an deine E-Mail-Adresse. Dies kann eine gute Möglichkeit sein, alte, vergessene Konten zu finden.
 
-## Deleting Old Accounts
+## Alte Konten löschen
 
-### Log In
+### Anmelden
 
-In order to delete your old accounts, you'll need to first make sure you can log in to them. Again, if the account was in your password manager, this step is easy. If not, you can try to guess your password. Failing that, there are typically options to regain access to your account, commonly available through a "forgot password" link on the login page. It may also be possible that accounts you've abandoned have already been deleted—sometimes services prune all old accounts.
+Um deine alten Konten zu löschen, musst du zunächst sicherstellen, dass du dich bei ihnen anmelden kannst. Wenn das Konto in deinem Passwort-Manager gespeichert war, ist dieser Schritt einfach. Falls nicht, kannst du versuchen, dein Passwort zu erraten. Wenn das nicht gelingt, gibt es in der Regel Optionen, um wieder Zugriff auf dein Konto zu erhalten, die häufig über einen "Passwort vergessen"-Link auf der Anmeldeseite verfügbar sind. Es ist auch möglich, dass Konten, die du vergessen hast, bereits gelöscht wurden – manchmal löschen Dienste alle alten Konten.
 
-When attempting to regain access, if the site returns an error message saying that email is not associated with an account, or you never receive a reset link after multiple attempts, then you do not have an account under that email address and should try a different one. If you can't figure out which email address you used, or you no longer have access to that email, you can try contacting the service's customer support. Unfortunately, there is no guarantee that you will be able to reclaim access your account.
+Wenn die Webseite beim Versuch, den Zugang wiederherzustellen, eine Fehlermeldung zurückgibt, die besagt, dass die E-Mail-Adresse nicht mit einem Konto verknüpft ist, oder du nach mehreren Versuchen keinen Zurücksetzungslink erhältst, hast du kein Konto unter dieser E-Mail-Adresse und solltest es mit einer anderen versuchen. If you can't figure out which email address you used, or you no longer have access to that email, you can try contacting the service's customer support. Unfortunately, there is no guarantee that you will be able to reclaim access your account.
 
 ### GDPR (EEA residents only)
 
