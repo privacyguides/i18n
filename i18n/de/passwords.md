@@ -17,7 +17,7 @@ schema:
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
     sameAs: https://en.wikipedia.org/wiki/Bitwarden
-    applicationCategory: Password Manager
+    applicationCategory: Passwort-Manager
     operatingSystem:
       - Windows
       - macOS
@@ -35,7 +35,7 @@ schema:
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
     sameAs: https://en.wikipedia.org/wiki/1Password
-    applicationCategory: Password Manager
+    applicationCategory: Passwort-Manager
     operatingSystem:
       - Windows
       - macOS
@@ -52,7 +52,7 @@ schema:
     name: Proton Pass
     image: /assets/img/password-management/protonpass.svg
     url: https://proton.me/pass
-    applicationCategory: Password Manager
+    applicationCategory: Passwort-Manager
     operatingSystem:
       - Android
       - iOS
@@ -66,7 +66,7 @@ schema:
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
-    applicationCategory: Password Manager
+    applicationCategory: Passwort-Manager
     operatingSystem:
       - Android
       - iOS
@@ -81,7 +81,7 @@ schema:
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org
     sameAs: https://en.wikipedia.org/wiki/KeePassXC
-    applicationCategory: Password Manager
+    applicationCategory: Passwort-Manager
     operatingSystem:
       - Windows
       - macOS
@@ -96,7 +96,7 @@ schema:
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
     url: https://keepassdx.com
-    applicationCategory: Password Manager
+    applicationCategory: Passwort-Manager
     operatingSystem: Android
     subjectOf:
       "@context": http://schema.org
@@ -108,7 +108,7 @@ schema:
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
     url: https://strongboxsafe.com
-    applicationCategory: Password Manager
+    applicationCategory: Passwort-Manager
     operatingSystem: iOS
     subjectOf:
       "@context": http://schema.org
@@ -120,7 +120,7 @@ schema:
     name: gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
-    applicationCategory: Password Manager
+    applicationCategory: Passwort-Manager
     operatingSystem:
       - Windows
       - macOS

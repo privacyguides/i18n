@@ -1,26 +1,26 @@
 ---
-title: "Account Deletion"
+title: "Kontolöschung"
 icon: 'material/account-remove'
-description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
+description: Es ist leicht, eine große Anzahl von Internetkonten anzuhäufen. Hier sind einige Tipps, wie du deine Sammlung entrümpeln kannst.
 ---
 
-Over time, it can be easy to accumulate a number of online accounts, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to data breaches. A data breach is when a service's security is compromised and protected information is viewed, transmitted, or stolen by unauthorized actors. Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+Im Laufe der Zeit kann sich leicht eine Reihe von Online-Konten ansammeln, von denen du viele möglicherweise nicht mehr nutzt. Das Löschen dieser ungenutzten Konten ist ein wichtiger Schritt, um deine Privatsphäre zurückzugewinnen, da inaktive Konten anfällig für Datenschutzverletzungen sind. Eine solche Datenschutzverletzung liegt vor, wenn die Sicherheit eines Dienstes kompromittiert wird und geschützte Informationen von Unbefugten eingesehen, übertragen oder gestohlen werden. Datenschutzverletzungen sind heutzutage leider [allzu häufig](https://haveibeenpwned.com/PwnedWebsites) und eine gute digitale Hygiene ist der beste Weg, um die Auswirkungen auf dein Leben zu minimieren. Das Ziel dieses Leitfadens ist es daher, dich durch den lästigen Prozess der Kontolöschung zu führen, der oft durch [irreführendes Design](https://deceptive.design) erschwert wird, zum Wohle deiner Online-Präsenz.
 
-## Finding Old Accounts
+## Alte Konten finden
 
-### Password Manager
+### Passwort-Manager
 
-If you have a password manager that you've used for your entire digital life, this part will be very easy. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
+Wenn du einen Passwort-Manager hast, den du dein ganzes digitales Leben lang verwendet hast, wird dieser Teil sehr einfach sein. Oftmals enthalten sie eine integrierte Funktionalität zur Erkennung, ob deine Anmeldedaten bei einer Datenschutzverletzung offengelegt wurden – wie z. B. der [Datendiebstahl Bericht](https://bitwarden.com/blog/have-you-been-pwned) von Bitwarden.
 
 <figure markdown>
   ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser or your phone without even realizing it. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+Auch wenn du noch nie explizit einen Passwort-Manager verwendet hast, ist die Wahrscheinlichkeit groß, dass du einen solchen schon in deinem Browser oder auf deinem Handy verwendet hast, ohne es zu merken. Zum Beispiel: [Firefox Passwortverwaltung](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Passwortmanager](https://passwords.google.com/intro) und [Edge Kennwörter](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
 
-Desktop platforms also often have a password manager which may help you recover passwords you've forgotten about:
+Desktop-Plattformen haben oft auch einen Passwort-Manager, der dir helfen kann, Passwörter wiederzufinden, an die du dich nicht mehr erinnerst:
 
-- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- Windows [Anmeldeinformationsverwaltung](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
 - macOS [Passwords](https://support.apple.com/HT211145)
 - iOS [Passwords](https://support.apple.com/HT211146)
 - Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
