@@ -13,7 +13,7 @@ Im Laufe der Zeit kann sich leicht eine Reihe von Online-Konten ansammeln, von d
 Wenn du einen Passwort-Manager hast, den du dein ganzes digitales Leben lang verwendet hast, wird dieser Teil sehr einfach sein. Oftmals enthalten sie eine integrierte Funktionalität zur Erkennung, ob deine Anmeldedaten bei einer Datenschutzverletzung offengelegt wurden – wie z. B. der [Datendiebstahl Bericht](https://bitwarden.com/blog/have-you-been-pwned) von Bitwarden.
 
 <figure markdown>
-  ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwarden's Datendiebstahl Bericht Funktion](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
 Auch wenn du noch nie explizit einen Passwort-Manager verwendet hast, ist die Wahrscheinlichkeit groß, dass du einen solchen schon in deinem Browser oder auf deinem Handy verwendet hast, ohne es zu merken. Zum Beispiel: [Firefox Passwortverwaltung](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Passwortmanager](https://passwords.google.com/intro) und [Edge Kennwörter](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
@@ -27,7 +27,7 @@ Desktop-Plattformen haben oft auch einen Passwort-Manager, der dir helfen kann, 
 
 ### E-Mail
 
-Wenn du in der Vergangenheit keinen Passwort-Manager verwendet hast oder glaubst, dass du Konten hast, die nie zu deinem Passwort-Manager hinzugefügt wurden, ist eine weitere Option, deine E-Mail-Konten zu durchsuchen, auf denen du dich angemeldet hast. Suche in deinem E-Mail-Programm nach "Bestätige" oder "Willkommen". Fast jedes Mal, wenn du ein Online-Konto erstellst, sendet der Dienst einen Bestätigungslink oder eine Willkommensnachricht an deine E-Mail-Adresse. Dies kann eine gute Möglichkeit sein, alte, vergessene Konten zu finden.
+Wenn du in der Vergangenheit keinen Passwort-Manager verwendet hast oder glaubst, dass du Konten hast, die nie zu deinem Passwort-Manager hinzugefügt wurden, ist eine weitere Option, deine E-Mail-Konten zu durchsuchen, auf denen du dich angemeldet hast. Suche in deinem E-Mail-Programm nach „Bestätige“ oder „Willkommen“. Fast jedes Mal, wenn du ein Online-Konto erstellst, sendet der Dienst einen Bestätigungslink oder eine Willkommensnachricht an deine E-Mail-Adresse. Dies kann eine gute Möglichkeit sein, alte, vergessene Konten zu finden.
 
 ## Alte Konten löschen
 
@@ -55,8 +55,8 @@ Bei Diensten, die keine Kontolöschung zulassen, ist es am besten, alle Ihre Dat
 
 Wenn du sicher bist, dass alle dir wichtigen Information entfernt wurden, kannst du das Konto getrost vergessen. Ist das nicht der Fall, solltest du die Anmeldedaten zusammen mit deinen anderen Passwörtern speichern und gelegentlich erneut anmelden, um das Passwort zurückzusetzen.
 
-Selbst wenn du in der Lage bist, ein Konto zu löschen, gibt es keine Garantie, dass alle deine Informationen entfernt werden. Einige Unternehmen sind sogar gesetzlich dazu verpflichtet, bestimmte Informationen aufzubewahren, insbesondere im Zusammenhang mit finanziellen Transaktionen. It's mostly out of your control what happens to your data when it comes to websites and cloud services.
+Selbst wenn du in der Lage bist, ein Konto zu löschen, gibt es keine Garantie, dass alle deine Informationen entfernt werden. Einige Unternehmen sind sogar gesetzlich dazu verpflichtet, bestimmte Informationen aufzubewahren, insbesondere im Zusammenhang mit finanziellen Transaktionen. Bei Webseiten und Cloud-Diensten hast du meist keinen Einfluss darauf, was mit deinen Daten geschieht.
 
-## Avoid New Accounts
+## Vermeide neue Konten
 
-As the old saying goes, "an ounce of prevention is worth a pound of cure." Whenever you feel tempted to sign up for a new account, ask yourself, "Do I really need this? Can I accomplish what I need to without an account?" It can often be much harder to delete an account than to create one. And even after deleting or changing the info on your account, there might be a cached version from a third-party—like the [Internet Archive](https://archive.org). Avoid the temptation when you're able to—your future self will thank you!
+Ein altes Sprichwort besagt: „Vorbeugen ist besser als heilen“. Wann immer du in Versuchung gerätst, ein neues Konto zu eröffnen, frage dich: „Brauche ich das wirklich? Kann ich das, was ich tun muss, auch ohne ein Konto erledigen?“ Es ist oft viel schwieriger, ein Konto zu löschen als eines zu erstellen. Und selbst nach dem Löschen oder Ändern der Daten deines Kontos gibt es möglicherweise eine zwischengespeicherte Version von Dritten, z. B. dem [Internet-Archiv](https://archive.org). Vermeide die Versuchung, wenn es dir möglich ist – dein zukünftiges Ich wird es dir danken!
