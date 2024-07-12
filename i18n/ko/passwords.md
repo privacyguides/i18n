@@ -7,7 +7,7 @@ cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org
-    "@type": WebPage
+    "@type": 웹 페이지
     name: Password Manager Recommendations
     url: "./"
   - 
@@ -26,7 +26,7 @@ schema:
       - iOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 웹 페이지
       url: "./"
   - 
     "@context": http://schema.org
@@ -100,7 +100,7 @@ schema:
     operatingSystem: Android
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": 웹 페이지
       url: "./"
   - 
     "@context": http://schema.org

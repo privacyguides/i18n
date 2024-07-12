@@ -425,7 +425,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 ## Hardware
 
-### Security Keys
+### 보안 키
 
 <div class="grid cards" markdown>
 
@@ -493,7 +493,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](router.md)
 
-## Advanced Tools
+## 고급 도구
 
 These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
 

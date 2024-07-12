@@ -1,8 +1,8 @@
 ---
 meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
-icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+title: VPN 개요
+icon: 자료/Vpn
+description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. 이러한 사항을 염두해 두셔야 합니다.
 ---
 
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
@@ -18,7 +18,7 @@ When we refer to "Virtual Private Networks" on this website, we are usually refe
 
 </div>
 
-## How does a VPN work?
+## VPN은 어떻게 작동하나요?
 
 VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
 
@@ -105,9 +105,9 @@ Other MPRs run by different companies like Google or INVISV operate in a very si
 
 Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
 
-Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+Another consideration is legal liability. 출구 노드는 네트워크 오용으로 인한 법적 문제를 해결해야 하며, 이는 Tor 네트워크가 존재해온 내내 논란이 되어온 문제입니다. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+많은 dVPN이 최고의 서비스를 제공하기보다는 암호화폐를 홍보하는 데 사용됩니다. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## VPN 관련 추가 정보
 

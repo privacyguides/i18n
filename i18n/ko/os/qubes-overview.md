@@ -1,12 +1,12 @@
 ---
-title: "Qubes Overview"
+title: "Qubes 개요"
 icon: simple/qubesos
 description: Qubes is an operating system built around isolating apps within *qubes* (formerly "VMs") for heightened security.
 ---
 
 [**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated *qubes*, (which are Virtual Machines). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
 
-## How does Qubes OS work?
+## Qubes OS는 어떻게 작동하나요?
 
 Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes are created from templates, the defaults being for Fedora, Debian and [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
 

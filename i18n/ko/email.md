@@ -19,11 +19,11 @@ global:
 
 그 외 용도로 이메일을 사용한다면, 지속 가능한 비즈니스 모델을 갖추고 보안 및 프라이버시 기능을 기본 제공하는 이메일 제공 업체를 권장합니다. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
 
-| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonymous Payments            |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | 현금                            |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | 현금                            |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
+| 서비스 제공자                     | OpenPGP/WKD                            | IMAP / SMTP                                        | 제로 액세스 암호화                                           | 익명 결제                         |
+| --------------------------- | -------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 유료 요금제만 | :material-check:{ .pg-green }                        | 현금                            |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                      | :material-information-outline:{ .pg-blue } Mail only | 현금                            |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }             | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
@@ -55,7 +55,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail 로고](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail**은 프라이버시, 암호화, 보안, 사용 편의성에 중점을 둔 이메일 서비스입니다. **2013년**부터 운영되었습니다. Proton AG 본사는 스위스 제네바에 위치하고 있습니다. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+**Proton Mail**은 프라이버시, 암호화, 보안, 사용 편의성에 중점을 둔 이메일 서비스입니다. **2013년**부터 운영되었습니다. Proton AG 본사는 스위스 제네바에 위치하고 있습니다. Proton Mail 무료 요금제에는 500MB의 메일 저장 용량이 제공되며, 최대 1GB까지 무료로 늘릴 수 있습니다.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -141,7 +141,7 @@ Proton Mail은 디지털 유산 상속 기능을 제공하지 않습니다.
 
 #### :material-check:{ .pg-green } 사용자 지정 도메인 및 별칭
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox.org는 고유 도메인을 사용할 수 있으며, [캐치올](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) 주소를 지원합니다. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } 비공개 결제 수단
 
@@ -149,7 +149,7 @@ Mailbox.org는 BitPay 결제 처리업체가 독일에서 운영을 중단함에
 
 #### :material-check:{ .pg-green } 계정 보안
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) 등의 웹 표준은 아직 지원되지 않습니다.
+Mailbox.org는 웹메일에만 [2단계 인증을](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) 지원합니다. [YubiCloud](https://yubico.com/products/services-software/yubicloud)를 통해 TOTP 또는 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) 를 사용할 수 있습니다. [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) 등의 웹 표준은 아직 지원되지 않습니다.
 
 #### :material-information-outline:{ .pg-blue } 데이터 보안
 
