@@ -2,7 +2,7 @@
 meta_title: "Warum E-Mail nicht die beste Wahl für Privatsphäre und Sicherheit ist - Privacy Guides"
 title: E-Mail-Sicherheit
 icon: material/email
-description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: E-Mail ist von Natur aus in vielerlei Hinsicht unsicher. Hier sind einige Gründe, warum sie nicht unsere erste Wahl für sichere Kommunikation ist.
 ---
 
 E-Mail ist von Natur aus eine unsichere Form der Kommunikation. Du kannst deine E-Mail-Sicherheit mit Tools wie OpenPGP verbessern, die Ende-zu-Ende-Verschlüsselung zu deinen Nachrichten hinzufügen, aber OpenPGP hat im Vergleich zur Verschlüsselung in anderen Messaging-Anwendungen eine Reihe von Nachteilen. Auch können einige E-Mail-Daten aufgrund der Art und Weise, wie E-Mails konzipiert sind, niemals von sich aus verschlüsselt werden.
@@ -11,11 +11,11 @@ Daher sind E-Mails am besten geeignet, um Transaktions-E-Mails (wie Benachrichti
 
 ## Übersicht zur E-Mail-Verschlüsselung
 
-Die Standardmethode zum Hinzufügen von E2EE zu E-Mails zwischen verschiedenen E-Mail-Anbietern ist die Verwendung von OpenPGP. Es gibt verschiedene Implementierungen des OpenPGP-Standards, die bekanntesten sind [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) und [OpenPGP.js](https://openpgpjs.org).
+Die Standardmethode zum Hinzufügen von E2EE zu E-Mails zwischen verschiedenen E-Mail-Anbietern ist die Verwendung von OpenPGP. Es gibt verschiedene Implementierungen des OpenPGP-Standards, die bekanntesten sind [GnuPG](https://de.wikipedia.org/wiki/GNU_Privacy_Guard) und [OpenPGP.js](https://openpgpjs.org).
 
-Es gibt noch einen anderen, bei Unternehmen beliebten Standard namens [S/MIME](https://en.wikipedia.org/wiki/S/MIME), für den jedoch ein von einer [Zertifizierungsstelle](https://en.wikipedia.org/wiki/Certificate_authority) ausgestelltes Zertifikat erforderlich ist (nicht alle von diesen stellen S/MIME-Zertifikate aus). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+Es gibt noch einen anderen, bei Unternehmen beliebten Standard namens [S/MIME](https://de.wikipedia.org/wiki/S/MIME), für den jedoch ein von einer [Zertifizierungsstelle](https://de.wikipedia.org/wiki/Zertifizierungsstelle_(Digitale_Zertifikate)) ausgestelltes Zertifikat erforderlich ist (nicht alle von diesen stellen S/MIME-Zertifikate aus). Es wird von [Google Workplace](https://support.google.com/a/topic/9061730) und [Outlook für Web oder Exchange Server 2016, 2019](https://support.microsoft.com/de-de/topic/verschl%C3%BCsseln-von-nachrichten-mit-s-mime-in-outlook-im-web-878c79fc-7088-4b39-966f-14512658f480) unterstützt.
 
-Selbst wenn du OpenPGP verwendest, unterstützt es keine [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), d. h. wenn entweder dein privater Schlüssel oder der des Empfängers gestohlen wird, sind alle vorherigen Nachrichten, die damit verschlüsselt wurden, offengelegt. Aus diesem Grund empfehlen wir [Instant Messenger](../real-time-communication.md) mit Forward Secrecy, für persönliche Kommunikation, wann immer möglich, anstelle von E-Mails.
+Selbst wenn du OpenPGP verwendest, unterstützt es keine [Forward Secrecy](https://de.wikipedia.org/wiki/Perfect_Forward_Secrecy), d. h. wenn entweder dein privater Schlüssel oder der des Empfängers gestohlen wird, sind alle vorherigen Nachrichten, die damit verschlüsselt wurden, offengelegt. Aus diesem Grund empfehlen wir [Instant Messenger](../real-time-communication.md) mit Forward Secrecy, für persönliche Kommunikation, wann immer möglich, anstelle von E-Mails.
 
 ## Was ist der Web Key Directory Standard?
 
@@ -39,14 +39,14 @@ Es ist vorteilhaft, wenn die Entschlüsselung auf der Smartcard erfolgt, um zu v
 
 ## Übersicht über E-Mail-Metadaten
 
-Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as: `To`, `From`, `Cc`, `Date`, `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
+E-Mail-Metadaten werden in dem [Header-Abschnitt](https://de.wikipedia.org/wiki/Header_(E-Mail)) der E-Mail gespeichert und enthalten einige sichtbare Header-Zeilen, die du vielleicht schon gesehen hast, wie z. B.: `An`, `Von`, `Cc`, `Datum`, `Betreff`. Viele E-Mail-Clients und -Anbieter fügen außerdem eine Reihe von versteckten Header-Zeilen hinzu, die Informationen über dein Konto preisgeben können.
 
-Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
+E-Mail-Programm können Metadaten verwenden, um anzuzeigen, von wem eine Nachricht stammt und wann sie empfangen wurde. Server können sie verwenden, um zu bestimmen, wohin eine E-Mail gesendet werden muss, neben [anderen Zwecken](https://en.wikipedia.org/wiki/Email#Message_header), die nicht immer transparent sind.
 
-### Who Can View Email Metadata?
+### Wer kann E-Mail-Metadaten einsehen?
 
-Email metadata is protected from outside observers with [Opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS) protecting it from outside observers, but it is still able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients including your email provider. Sometimes email servers will also use third-party services to protect against spam, which generally also have access to your messages.
+Die E-Mail-Metadaten sind mit [Opportunistic TLS](https://de.wikipedia.org/wiki/Opportunistic_TLS) (dt.: STARTTLS) vor externen Beobachtern geschützt, können aber dennoch von deinem E-Mail-Client-Programm (oder Webmail) und allen Servern, die die Nachricht von dir an beliebige Empfänger weiterleiten, einschließlich deines E-Mail-Anbieters, eingesehen werden. Manchmal verwenden E-Mail-Server auch Dienste von Drittanbietern zum Schutz vor Spam, die in der Regel auch Zugang zu deinen Nachrichten haben.
 
-### Why Can't Metadata be E2EE?
+### Warum können Metadaten nicht E2EE werden?
 
-Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt email metadata, only the message body itself. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as who you're emailing, the subject lines, when you're emailing, etc.
+E-Mail-Metadaten sind entscheidend für die grundlegenden Funktionen von E-Mails (woher sie kommen und wohin sie gehen sollen). E2EE war ursprünglich nicht in den E-Mail-Protokollen enthalten, sondern erfordert zusätzliche Software wie OpenPGP. Da OpenPGP-Nachrichten mit herkömmlichen E-Mail-Anbietern zusammenarbeiten müssen, kann es keine E-Mail-Metadaten verschlüsseln, sondern nur den eigentlichen Nachrichtentext. Das bedeutet, dass selbst bei Verwendung von OpenPGP Außenstehende viele Informationen über deine Nachrichten sehen können, z. B. an wen du eine E-Mail sendest, die Betreffzeilen, wann du sie sendest usw.
