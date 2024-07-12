@@ -19,25 +19,25 @@ Selbst wenn du OpenPGP verwendest, unterstützt es keine [Forward Secrecy](https
 
 ## Was ist der Web Key Directory Standard?
 
-The Web Key Directory (WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
+Der Web Key Directory (WKD) Standard ermöglicht es E-Mail-Clients, den OpenPGP-Schlüssel für andere Postfächer zu ermitteln, auch wenn diese bei einem anderen Anbieter gehostet werden. E-Mail-Clients, die WKD unterstützen, fragen den Server des Empfängers nach einem Schlüssel, der auf dem Domainnamen der E-Mail-Adresse basiert. Wenn du beispielsweise eine E-Mail an `jonah@privacyguides.org` sendest, fragt dein E-Mail-Programm bei `privacyguides.org` nach dem OpenPGP-Schlüssel von Jonah, und falls `privacyguides.org` einen Schlüssel für dieses Konto hat, wird deine Nachricht automatisch verschlüsselt.
 
-In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
+Neben den [von uns empfohlenen E-Mail-Clients](../email-clients.md), die WKD unterstützen, gibt es auch einige Webmail-Anbieter, die WKD unterstützen. Ob *dein eigener* Schlüssel für andere bei WKD veröffentlicht wird, hängt von deiner Domainkonfiguration ab. Verwendest du einen [E-Mail-Anbieter](../email.md#openpgp-compatible-services), der WKD unterstützt, wie z. B. Proton Mail oder Mailbox.org, können diese deinen OpenPGP-Schlüssel auf ihrer Domain für dich veröffentlichen.
 
-If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from keys.openpgp.org, by setting a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then uploading your key to [keys.openpgp.org](https://keys.openpgp.org). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+Um deine eigene Domain zu verwenden, musst du WKD separat konfigurieren. Kontrollierst du deinen Domainnamen, kannst du WKD unabhängig von deinem E-Mail-Anbieter einrichten. Eine einfach Möglichkeit das zu tun, ist die Nutzung der Funktion „[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)“ von keys.openpgp.org, indem du einen CNAME-Eintrag auf der `openpgpkey-Subdomain` deiner Domain setzt, der auf `wkd.keys.openpgp.org` zeigt, und dann deinen Schlüssel auf [keys.openpgp.org](https://keys.openpgp.org) hochlädst. Alternativ kannst du [WKD selbst auf deinem Webserver hosten](https://wiki.gnupg.org/WKDHosting).
 
-If you use a shared domain from a provider which doesn't support WKD, like @gmail.com, you won't be able to share your OpenPGP key with others via this method.
+Wenn du eine gemeinsam genutzte Domain eines Anbieters verwendest, welcher WKD nicht unterstützt, wie z.B. @gmail.com, kannst du deinen OpenPGP-Schlüssel auf diese Weise nicht mit anderen teilen.
 
-### What Email Clients Support E2EE?
+### Welche E-Mail-Clients unterstützen E2EE?
 
-Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multi-factor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
+E-Mail-Anbieter, die dir die Verwendung von Standard-Zugriffsprotokollen wie IMPA und SMTP ermöglichen, können mit jedem der [von uns empfohlenen E-Mail-Clients](../email-clients.md) verwendet werden. Abhängig von der Authentifizierungsmethode kann dies zu einer Verringerung der Sicherheit führen, wenn entweder der Anbieter oder der E-Mail-Client OATH oder eine Bridge-Anwendung nicht unterstützt, da eine [Multi-Faktor-Authentifizierung](multi-factor-authentication.md) mit einer reinen Passwort-Authentifizierung nicht möglich ist.
 
-### How Do I Protect My Private Keys?
+### Wie schütze ich meine privaten Schlüssel?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smartcard and the decrypted content is sent back to the device.
+Eine Smartcard (wie z. B. ein [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) oder [Nitrokey](../security-keys.md#nitrokey)) funktioniert, indem sie eine verschlüsselte E-Mail-Nachricht von einem Gerät (Telefon, Tablet, Computer usw.) empfängt, auf dem ein E-Mail-/Webmail-Client läuft. Die Nachricht wird dann von der Smartcard entschlüsselt und der entschlüsselte Inhalt an das Gerät zurückgeschickt.
 
-It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
+Es ist vorteilhaft, wenn die Entschlüsselung auf der Smartcard erfolgt, um zu vermeiden, dass dein privater Schlüssel möglicherweise einem kompromittierten Gerät preisgegeben wird.
 
-## Email Metadata Overview
+## Übersicht über E-Mail-Metadaten
 
 Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as: `To`, `From`, `Cc`, `Date`, `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
 
