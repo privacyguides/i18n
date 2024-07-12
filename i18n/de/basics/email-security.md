@@ -1,23 +1,23 @@
 ---
-meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
-title: Email Security
+meta_title: "Warum E-Mail nicht die beste Wahl für Privatsphäre und Sicherheit ist - Privacy Guides"
+title: E-Mail-Sicherheit
 icon: material/email
 description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications, and some email data can never be encrypted inherently due to how email is designed.
+E-Mail ist von Natur aus eine unsichere Form der Kommunikation. Du kannst deine E-Mail-Sicherheit mit Tools wie OpenPGP verbessern, die Ende-zu-Ende-Verschlüsselung zu deinen Nachrichten hinzufügen, aber OpenPGP hat im Vergleich zur Verschlüsselung in anderen Messaging-Anwendungen eine Reihe von Nachteilen. Auch können einige E-Mail-Daten aufgrund der Art und Weise, wie E-Mails konzipiert sind, niemals von sich aus verschlüsselt werden.
 
-As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
+Daher sind E-Mails am besten geeignet, um Transaktions-E-Mails (wie Benachrichtigungen, Bestätigungs-E-Mails, Passwortrücksetzungen usw.) von den Online-Diensten zu empfangen, für die du dich anmeldest, und nicht für die Kommunikation mit anderen.
 
-## Email Encryption Overview
+## Übersicht zur E-Mail-Verschlüsselung
 
-The standard way to add E2EE to emails between different email providers is by using OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) and [OpenPGP.js](https://openpgpjs.org).
+Die Standardmethode zum Hinzufügen von E2EE zu E-Mails zwischen verschiedenen E-Mail-Anbietern ist die Verwendung von OpenPGP. Es gibt verschiedene Implementierungen des OpenPGP-Standards, die bekanntesten sind [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) und [OpenPGP.js](https://openpgpjs.org).
 
-There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
+Es gibt noch einen anderen, bei Unternehmen beliebten Standard namens [S/MIME](https://en.wikipedia.org/wiki/S/MIME), für den jedoch ein von einer [Zertifizierungsstelle](https://en.wikipedia.org/wiki/Certificate_authority) ausgestelltes Zertifikat erforderlich ist (nicht alle von diesen stellen S/MIME-Zertifikate aus). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
 
-Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. This is why we recommend [instant messengers](../real-time-communication.md) which implement forward secrecy over email for person-to-person communications whenever possible.
+Selbst wenn du OpenPGP verwendest, unterstützt es keine [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), d. h. wenn entweder dein privater Schlüssel oder der des Empfängers gestohlen wird, sind alle vorherigen Nachrichten, die damit verschlüsselt wurden, offengelegt. Aus diesem Grund empfehlen wir [Instant Messenger](../real-time-communication.md) mit Forward Secrecy, für persönliche Kommunikation, wann immer möglich, anstelle von E-Mails.
 
-## What is the Web Key Directory standard?
+## Was ist der Web Key Directory Standard?
 
 The Web Key Directory (WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
 
