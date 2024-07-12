@@ -1,18 +1,18 @@
 ---
-meta_title: "The Best Private Instant Messengers - Privacy Guides"
-title: "Real-Time Communication"
+meta_title: "Die besten privaten Instant Messengers - Privacy Guides"
+title: "Echtzeitkommunikation"
 icon: material/chat-processing
-description: Other instant messengers make all of your private conversations available to the company that runs them.
+description: Andere Instant Messenger stellen dem Unternehmen, das sie betreibt, alle deine privaten Unterhaltungen zur Verfügung.
 cover: real-time-communication.webp
 ---
 
-These are our recommendations for encrypted real-time communication.
+Dies sind unsere Empfehlungen für verschlüsselte Echtzeitkommunikation.
 
-[Types of Communication Networks :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[Arten von Kommunikationsnetzen :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
-## Encrypted Messengers
+## Verschlüsselte Messenger
 
-These messengers are great for securing your sensitive communications.
+Diese Messenger eignen sich hervorragend zur Sicherung deiner sensiblen Kommunikation.
 
 ### Signal
 
@@ -20,13 +20,13 @@ These messengers are great for securing your sensitive communications.
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** is a mobile app developed by Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** ist eine mobile App, die von Signal Messenger LLC entwickelt wurde. Die App bietet Instant Messaging und Anrufe, die mit dem Signal-Protokoll gesichert sind, einem extrem sicheren Verschlüsselungsprotokoll, das Forward Secrecy[^1] und Post-Compromise Security[^2] unterstützt.
 
 [:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://support.signal.org){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title=Spenden }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
