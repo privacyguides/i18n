@@ -9,7 +9,7 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 - <span class="pg-purple">:material-incognito: 匿名性</span> - 隔离你的线上活动和你的真实身份, 特别是要保护 *你的* 身份不被人揭露。
 - <span class="pg-red">:material-target-account: 定向攻击</span> -防御专业黑客或恶意代理人获得，特别是 *你的* 数据或设备的访问权。
 - <span class="pg-orange">:material-bug-outline: 被动攻击</span> - 防御诸如恶意软件、数据泄露和其他一些同时针对许多人的攻击。
-- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+- <span class="pg-viridian">:material-package-variant-closed-remove: 供应链攻击</span> - 将漏洞或漏洞利用直接或通过第三方依赖引入到原本良好的软件中。
 - <span class="pg-teal">:material-server-network: 服务供应商</span> - 保护您的数据不受服务供应商的影响，例如，通过端到端加密使您的数据无法被服务器读取。
 - <span class="pg-blue">:material-eye-outline: 大规模监控</span> - 防止政府机构、组织、网站和服务联合起来共同追踪你的活动。
 - <span class="pg-brown">:material-account-cash: 监视资本主义</span> - 保护自己不受谷歌和Facebook等大型广告网络以及其他无数第三方数据收集者的影响
