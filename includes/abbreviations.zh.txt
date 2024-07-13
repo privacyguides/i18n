@@ -40,9 +40,9 @@
 *[IMAP]: 互联网消息访问协议
 *[IMEI]: 国际移动设备识别码
 *[IMSI]: International Mobile Subscriber Identity
-*[IP]: Internet Protocol
-*[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
+*[IP]: 互联网协议
+*[IPv4]: 互联网通信协议第四版
+*[IPv6]: 互联网通信协议第六版
 *[ISP]: Internet Service Provider
 *[ISPs]: Internet Service Providers
 *[JNI]: Java Native Interface
@@ -51,20 +51,20 @@
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
-*[MFA]: 多因认证
+*[MFA]: 多因素认证
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
+*[NAT]: 网络地址翻译
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Network Time Protocol
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
-*[OEM]: Original Equipment Manufacturer
+*[OEM]: 原始设备制造商
 *[OEMs]: Original Equipment Manufacturers
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
-*[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
-*[P2P]: Peer-to-Peer
+*[OS]: 操作系统
+*[OTP]: 一次性口令
+*[OTPs]: 一次性口令
+*[OpenPGP]: 公开源码的优良隐私实现(PGP)
+*[P2P]: 点对点传输
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
 *[PGP]: Pretty Good Privacy (see OpenPGP)

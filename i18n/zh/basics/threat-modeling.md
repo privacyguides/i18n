@@ -37,7 +37,7 @@ description: 在安全、隐私和可用性之间取得平衡是你在隐私之�
 
 *列出一份名单，包含你的对手或那些可能想要掌握你的资产的人。 你的名单可能包括个人、政府机构或公司。*
 
-Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
+取决于你的对手是谁，这个列表可能是你在完成威胁模型后想要销毁的东西。
 
 ### 它有多大的可能性需要保护？
 

@@ -1,5 +1,5 @@
 ---
-title: "多因认证"
+title: "多因素认证"
 icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---

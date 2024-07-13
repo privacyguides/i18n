@@ -27,7 +27,7 @@ icon: 'material/shield-account'
 证书可以证明你是在直接与正在访问的网站对话，并防止网络攻击者读取或修改发送到网站或来自网站的数据。
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**匿名性**
 :
 
 匿名性是在没有持久标识符的情况下采取行动的能力。 在浏览时，您可以通过 [Tor](../tor.md) 实现这一目标，它允许您使用随机 IP 地址和网络连接而不是自己的 IP 地址和网络连接来浏览互联网。
@@ -57,6 +57,6 @@ icon: 'material/shield-account'
 
 ## 资料来源
 
-- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
+- [隐私为什么重要](https://amazon.com/dp/0190939044)（2021），Neil Richards著
 - [新石油：隐私和安全为何重要](https://thenewoil.org/en/guides/prologue/why)
-- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
+- [@Thorin-Oakenpants 谈匿名与隐私与安全](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
