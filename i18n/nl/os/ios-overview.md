@@ -1,6 +1,6 @@
 ---
 title: iOS Overzicht
-icon: simpel/apple
+icon: simple/apple
 description: iOS is een mobiel besturingssysteem ontwikkeld door Apple voor de iPhone.
 ---
 
