@@ -1,7 +1,7 @@
 ---
 meta_title: "Hoe beschermen VPN's je privacy? Ons VPN-overzicht - Privacy Guides"
 title: VPN-overzicht
-icon: materiaal/vpn
+icon: material/vpn
 description: Virtual Private Networks verschuiven het risico van je ISP naar een derde partij die je vertrouwt. Je moet deze dingen in het achterhoofd houden.
 ---
 

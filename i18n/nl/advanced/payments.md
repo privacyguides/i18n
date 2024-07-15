@@ -1,6 +1,6 @@
 ---
 title: Privé betalingen
-icon: materiaal/hand-munt
+icon: material/hand-coin
 ---
 
 Er is een reden waarom gegevens over jouw koopgedrag word beschouwd als de heilige graal van gerichte advertenties: jouw aankopen kunnen een ware schat aan gegevens over je lekken. Helaas is het huidige financiële systeem anti-privacy by design, waardoor banken, andere bedrijven en overheden transacties gemakkelijk kunnen traceren. Toch heb je tal van opties als het gaat om het maken van betalingen privé.
