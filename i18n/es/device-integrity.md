@@ -117,7 +117,7 @@ MVT te permite realizar escaneos/análisis más profundos si tu dispositivo tien
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
 
-- [:simple-windows11: Windows](https://imazing.com/download)
+- [:fontawesome-brands-windows: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
 
 </details>

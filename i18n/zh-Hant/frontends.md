@@ -90,9 +90,9 @@ cover: frontends.webp
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://freetubeapp.io/#download)
+- [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
 - [:simple-apple: macOS](https://freetubeapp.io/#download)
 - [:simple-linux: Linux](https://freetubeapp.io/#download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)

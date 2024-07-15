@@ -55,13 +55,13 @@ Il **Tor Browser** è la scelta ideale per l'anonimato, fornendoti accesso alla 
 [:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-- [:simple-android: Android](https://torproject.org/it/download/#android)
-- [:simple-windows11: Windows](https://torproject.org/it/download)
-- [:simple-apple: macOS](https://torproject.org/it/download)
-- [:simple-linux: Linux](https://torproject.org/it/download)
+- [:simple-android: Android](https://torproject.org/download/#android)
+- [:fontawesome-brands-windows: Windows](https://torproject.org/download)
+- [:simple-apple: macOS](https://torproject.org/download)
+- [:simple-linux: Linux](https://torproject.org/download)
 
 </details>
 

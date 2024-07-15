@@ -25,9 +25,9 @@ En Linux, existe una herramienta gráfica de terceros [Metadata Cleaner](https:/
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://pypi.org/project/mat2)
+- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
 - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
@@ -147,9 +147,9 @@ Suele ser un componente de otras aplicaciones de eliminación de Exif y se encue
 [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://exiftool.org)
+- [:fontawesome-brands-windows: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)
 - [:simple-linux: Linux](https://exiftool.org)
 

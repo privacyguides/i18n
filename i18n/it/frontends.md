@@ -90,12 +90,12 @@ Di default, FreeTube blocca tutte le inserzioni di YouTube. Inoltre, FreeTube in
 [:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://freetubeapp.io/#download)
+- [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
 - [:simple-apple: macOS](https://freetubeapp.io/#download)
 - [:simple-linux: Linux](https://freetubeapp.io/#download)
-- [:simple-flathub: Flathub](https://flathub.org/it/apps/io.freetubeapp.FreeTube)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/io.freetubeapp.FreeTube)
 
 </details>
 

@@ -25,12 +25,12 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://pypi.org/project/mat2)
+- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
-- [:octicons-globe-16: 網頁版](https://0xacab.org/jvoisin/mat2#web-interface)
+- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
 </details>
 
@@ -147,9 +147,9 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://exiftool.org)
+- [:fontawesome-brands-windows: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)
 - [:simple-linux: Linux](https://exiftool.org)
 

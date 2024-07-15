@@ -89,7 +89,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://docs.controld.com/docs/gui-setup-utility)
+- [:fontawesome-brands-windows: Windows](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-linux: Linux](https://docs.controld.com/docs/ctrld)
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
@@ -114,12 +114,12 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 [:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
-- [:simple-apple: macOS](https://apps.apple.com/it/app/nextdns/id1464122853)
+- [:fontawesome-brands-windows: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
+- [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
 - [:simple-linux: Linux](https://github.com/nextdns/nextdns/wiki)
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/nextdns/id1463342498)
+- [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
 - [:simple-github: GitHub](https://github.com/nextdns/nextdns/releases)
 
 </details>
@@ -176,9 +176,9 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
 - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 

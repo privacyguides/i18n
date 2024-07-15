@@ -29,12 +29,12 @@ cover: real-time-communication.webp
 [:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
 - [:simple-android: Android](https://signal.org/android/apk)
-- [:simple-windows11: Windows](https://signal.org/download/windows)
+- [:fontawesome-brands-windows: Windows](https://signal.org/download/windows)
 - [:simple-apple: macOS](https://signal.org/download/macos)
 - [:simple-linux: Linux](https://signal.org/download/linux)
 
@@ -75,12 +75,12 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
 - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
-- [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+- [:fontawesome-brands-windows: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
 - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
@@ -107,10 +107,10 @@ SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式
 [:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop)
+- [:fontawesome-brands-windows: Windows](https://briarproject.org/download-briar-desktop)
 - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
@@ -151,15 +151,15 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
 - [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
-- [:simple-windows11: Windows](https://element.io/download)
+- [:fontawesome-brands-windows: Windows](https://element.io/download)
 - [:simple-apple: macOS](https://element.io/download)
 - [:simple-linux: Linux](https://element.io/download)
-- [:octicons-globe-16: 網頁版](https://app.element.io)
+- [:octicons-globe-16: Web](https://app.element.io)
 
 </details>
 
@@ -189,12 +189,12 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
 - [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
-- [:simple-windows11: Windows](https://getsession.org/download)
+- [:fontawesome-brands-windows: Windows](https://getsession.org/download)
 - [:simple-apple: macOS](https://getsession.org/download)
 - [:simple-linux: Linux](https://getsession.org/download)
 

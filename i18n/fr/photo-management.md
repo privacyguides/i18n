@@ -28,7 +28,7 @@ La plupart des solutions cloud de gestion de photos, telles que Google Photos, F
 - [:simple-android: Android](https://ente.io/download)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
-- [:simple-windows11: Windows](https://ente.io/download)
+- [:fontawesome-brands-windows: Windows](https://ente.io/download)
 - [:simple-apple: macOS](https://ente.io/download)
 - [:simple-linux: Linux](https://ente.io/download)
 - [:octicons-globe-16: Web](https://web.ente.io)

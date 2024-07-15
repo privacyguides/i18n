@@ -59,9 +59,9 @@ Wenn du Wert auf vollständige Anonymität legst, solltest du **ausschließlich*
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://torproject.org/download/#android)
-- [:simple-windows11: Windows](https://www.torproject.org/de/download/)
-- [:simple-apple: macOS](https://www.torproject.org/de/download/)
-- [:simple-linux: Linux](https://www.torproject.org/de/download/)
+- [:fontawesome-brands-windows: Windows](https://torproject.org/download)
+- [:simple-apple: macOS](https://torproject.org/download)
+- [:simple-linux: Linux](https://torproject.org/download)
 
 </details>
 

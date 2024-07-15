@@ -36,7 +36,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://thunderbird.net)
+- [:fontawesome-brands-windows: Windows](https://thunderbird.net)
 - [:simple-apple: macOS](https://thunderbird.net)
 - [:simple-linux: Linux](https://thunderbird.net)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
@@ -101,7 +101,7 @@ Apple Mail은 외부 콘텐츠를 백그라운드에서 로드하거나, 완전�
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
-- [:simple-windows11: Windows](https://canarymail.io/downloads.html)
+- [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
 
 </details>
 
@@ -238,7 +238,7 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
 
 </details>
 

@@ -51,12 +51,12 @@ global:
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
 - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
-- [:simple-windows11: Windows](https://protonvpn.com/download-windows)
+- [:fontawesome-brands-windows: Windows](https://protonvpn.com/download-windows)
 - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup)
 
 </details>
@@ -130,12 +130,12 @@ Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 Proto
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
-- [:simple-windows11: Windows](https://ivpn.net/apps-windows)
+- [:fontawesome-brands-windows: Windows](https://ivpn.net/apps-windows)
 - [:simple-apple: macOS](https://ivpn.net/apps-macos)
 - [:simple-linux: Linux](https://ivpn.net/apps-linux)
 
@@ -205,12 +205,12 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
 - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-- [:simple-windows11: Windows](https://mullvad.net/en/download/windows)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/macos)
 - [:simple-linux: Linux](https://mullvad.net/en/download/linux)
 

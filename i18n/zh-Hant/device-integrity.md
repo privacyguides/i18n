@@ -117,7 +117,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存可用於分類潛在�
 <details class="downloads" markdown>
 <summary>下載</summary>
 
-- [:simple-windows11: Windows](https://imazing.com/download)
+- [:fontawesome-brands-windows: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
 
 </details>

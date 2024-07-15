@@ -25,11 +25,11 @@ cover: calendar.webp
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
-- [:simple-windows11: Windows](https://tuta.com/blog/desktop-clients)
+- [:fontawesome-brands-windows: Windows](https://tuta.com/blog/desktop-clients)
 - [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
 - [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)

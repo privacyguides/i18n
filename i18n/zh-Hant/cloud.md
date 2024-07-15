@@ -31,11 +31,11 @@ Nextcloud 是[仍是一款受推薦的工具](productivity.md)，可用於自我
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-- [:simple-windows11: Windows](https://proton.me/drive/download)
+- [:fontawesome-brands-windows: Windows](https://proton.me/drive/download)
 - [:simple-apple: macOS](https://proton.me/drive/download)
 
 </details>
@@ -59,11 +59,11 @@ Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
 [:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
-- [:simple-windows11: Windows](https://tresorit.com/download)
+- [:fontawesome-brands-windows: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
 
@@ -97,10 +97,10 @@ Tresorit 已獲得多項獨立安全稽核：
 [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:octicons-globe-16: 網頁版](https://peergos.net)
-- [:simple-windows11: Windows](https://github.com/Peergos/web-ui/releases)
+- [:octicons-globe-16: Web](https://peergos.net)
+- [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
 - [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
 - [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
 

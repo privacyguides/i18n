@@ -47,9 +47,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://onionshare.org/#download)
+- [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
 - [:simple-linux: Linux](https://onionshare.org/#download)
 
@@ -99,12 +99,12 @@ ffsend upload --host https://send.vis.ee/ FILE
 [:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
 - [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:simple-windows11: Windows](https://nextcloud.com/install/#install-clients)
+- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
 - [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
 - [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
 
@@ -133,10 +133,10 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 [:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
-- [:simple-windows11: Windows](https://syncthing.net/downloads)
+- [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
 - [:simple-linux: Linux](https://syncthing.net/downloads)
 - [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)

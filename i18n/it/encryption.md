@@ -27,15 +27,15 @@ Le opzioni qui elencate sono multipiattaforma e ottime per creare backup crittog
 [:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator&gl=IT)
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/cryptomator/id1560822163)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1560822163)
 - [:simple-android: Android](https://cryptomator.org/android)
-- [:simple-windows11: Windows](https://cryptomator.org/downloads)
+- [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
 - [:simple-apple: macOS](https://cryptomator.org/downloads)
 - [:simple-linux: Linux](https://cryptomator.org/downloads)
-- [:simple-flathub: Flathub](https://flathub.org/it/apps/org.cryptomator.Cryptomator)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
 
 </details>
 
@@ -62,7 +62,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/Picocrypt/Picocrypt/releases)
+- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
 - [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
 - [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
 
@@ -85,9 +85,9 @@ Cryptomator's documentation details its intended [security target](https://docs.
 [:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://veracrypt.fr/en/Downloads.html)
+- [:fontawesome-brands-windows: Windows](https://veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://veracrypt.fr/en/Downloads.html)
 - [:simple-linux: Linux](https://veracrypt.fr/en/Downloads.html)
 
@@ -244,9 +244,9 @@ Gli strumenti con interfacce di riga di comando sono utili per integrare gli [sc
 [:octicons-heart-16:](https://kryptor.co.uk/#donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://kryptor.co.uk)
+- [:fontawesome-brands-windows: Windows](https://kryptor.co.uk)
 - [:simple-apple: macOS](https://kryptor.co.uk)
 - [:simple-linux: Linux](https://kryptor.co.uk)
 
@@ -302,10 +302,10 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
 - [:simple-apple: macOS](https://gpgtools.org)
 - [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
 
@@ -328,9 +328,9 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://gpg4win.org/download.html)
+- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
 
 </details>
 

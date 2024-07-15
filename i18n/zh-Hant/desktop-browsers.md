@@ -75,9 +75,9 @@ schema:
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
 - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
@@ -122,9 +122,9 @@ Mullvad 瀏覽器 將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="捐贈" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
+- [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
 - [:simple-linux: Linux](https://mozilla.org/firefox/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
@@ -143,6 +143,12 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 ### 建議的 Firefox 設定
 
 這些選項可以在 :material-menu: → **設定** 中找到。
+
+#### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
 #### 搜尋
 
@@ -236,10 +242,10 @@ Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉�
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-windows11: Windows](https://brave.com/download)
+- [:fontawesome-brands-windows: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
 - [:simple-linux: Linux](https://brave.com/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)

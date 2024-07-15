@@ -212,14 +212,14 @@ Si tratta di un tipo speciale di monito a scomparsa, utilizzato per generare la 
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android&gl=IT)
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/proton-mail-encrypted-email/id979659905)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-- [:simple-windows11: Windows](https://proton.me/it/mail/bridge#download)
-- [:simple-apple: macOS](https://proton.me/it/mail/bridge#download)
-- [:simple-linux: Linux](https://proton.me/it/mail/bridge#download)
+- [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
+- [:simple-apple: macOS](https://proton.me/mail/bridge#download)
+- [:simple-linux: Linux](https://proton.me/mail/bridge#download)
 - [:octicons-browser-16: Web](https://mail.proton.me)
 
 </details>
@@ -233,7 +233,7 @@ Si tratta di un tipo speciale di monito a scomparsa, utilizzato per generare la 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-- [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
+- [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
 - [:octicons-browser-16: Web](https://mail.proton.me)

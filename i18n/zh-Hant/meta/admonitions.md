@@ -211,12 +211,12 @@ title: 提醒
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-- [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
+- [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
 - [:octicons-browser-16: Web](https://mail.proton.me)
@@ -232,7 +232,7 @@ title: 提醒
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
-- [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
+- [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
 - [:octicons-browser-16: Web](https://mail.proton.me)

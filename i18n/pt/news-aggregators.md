@@ -91,7 +91,7 @@ O **Fluent Reader** é um agregador de notícias seguro e multiplataforma que po
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
+- [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
 </details>

@@ -1,6 +1,6 @@
 ---
 title: Windows 總覽
-icon: simple/windows
+icon: material/microsoft-windows
 ---
 
 **Microsoft Windows** 是廣泛使用的私有商用作業系統。 最新版本的 Windows，尤其是 Windows 11，被廣泛認為是最具隱私侵犯性和最不安全的現代作業系統。

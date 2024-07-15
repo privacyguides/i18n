@@ -77,9 +77,9 @@ Wenn du anonym im Internet surfen möchtest, solltest du stattdessen [Tor](tor.m
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mullvad.net/de/download/browser/windows)
-- [:simple-apple: macOS](https://mullvad.net/de/download/browser/macos)
-- [:simple-linux: Linux](https://mullvad.net/de/download/browser/linux)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
 </details>
 
@@ -124,10 +124,10 @@ Mullvad Browser wird mit DuckDuckGo als Standard [Suchmaschine](search-engines.m
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://www.mozilla.org/de/firefox/windows/)
-- [:simple-apple: macOS](https://www.mozilla.org/de/firefox/mac)
-- [:simple-linux: Linux](https://www.mozilla.org/de/firefox/linux)
-- [:simple-flathub: Flathub](https://flathub.org/apps/org.mozilla.firefox)
+- [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://mozilla.org/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
 </details>
 
@@ -143,6 +143,12 @@ Firefox enthält einen einzigartigen [Download-Token](https://bugzilla.mozilla.o
 ### Empfohlene Firefox-Konfiguration
 
 Diese Optionen sind unter :material-menu: → **Einstellungen** zu finden.
+
+#### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
 #### Suche
 
@@ -239,9 +245,9 @@ Brave basiert auf dem Chromium-Webbrowser-Projekt, sollte sich also vertraut anf
 <summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-windows11: Windows](https://brave.com/de/download/)
-- [:simple-apple: macOS](https://brave.com/de/download/)
-- [:simple-linux: Linux](https://brave.com/linux/)
+- [:fontawesome-brands-windows: Windows](https://brave.com/download)
+- [:simple-apple: macOS](https://brave.com/download)
+- [:simple-linux: Linux](https://brave.com/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
 
 </details>

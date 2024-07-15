@@ -89,9 +89,9 @@ Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una ma
 [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
+- [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
 </details>

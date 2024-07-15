@@ -34,12 +34,12 @@ OpenPGP non supporta inoltre la [forward secrecy](https://en.wikipedia.org/wiki/
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://thunderbird.net/it/)
-- [:simple-apple: macOS](https:/thunderbird.net/it/)
-- [:simple-linux: Linux](https://thunderbird.net/it/)
-- [:simple-flathub: Flathub](https://flathub.org/it/apps/org.mozilla.Thunderbird)
+- [:fontawesome-brands-windows: Windows](https://thunderbird.net)
+- [:simple-apple: macOS](https://thunderbird.net)
+- [:simple-linux: Linux](https://thunderbird.net)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
 
 </details>
 
@@ -97,11 +97,11 @@ Apple Mail può caricare i contenuti da remoto in background o bloccarli interam
 [:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
-- [:simple-windows11: Windows](https://canarymail.io/downloads.html)
+- [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
 
 </details>
 
@@ -234,11 +234,11 @@ Rispondendo a qualcuno in una mailing list, l'opzione "rispondi" potrebbe includ
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
 
 </details>
 

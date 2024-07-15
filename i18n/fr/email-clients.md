@@ -36,7 +36,7 @@ OpenPGP ne prend pas non plus en charge la [confidentialité persistante](https:
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://thunderbird.net)
+- [:fontawesome-brands-windows: Windows](https://thunderbird.net)
 - [:simple-apple: macOS](https://thunderbird.net)
 - [:simple-linux: Linux](https://thunderbird.net)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.Thunderbird)
@@ -97,11 +97,11 @@ Apple Mail a la possibilité de charger le contenu distant en arrière-plan ou d
 [:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
-- [:simple-windows11: Windows](https://canarymail.io/downloads.html)
+- [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
 
 </details>
 
@@ -234,11 +234,11 @@ Lorsque vous répondez à un membre d'une liste de diffusion, l'option "répondr
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
-- [:simple-microsoftedge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/mailvelope/dgcbddhdhjppfdfjpciagmmibadmoapc)
 
 </details>
 

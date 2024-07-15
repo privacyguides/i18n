@@ -55,11 +55,11 @@ Le **Navigateur Tor** est le choix idéal si vous avez besoin d'anonymat, car il
 [:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://torproject.org/download/#android)
-- [:simple-windows11: Windows](https://torproject.org/download)
+- [:fontawesome-brands-windows: Windows](https://torproject.org/download)
 - [:simple-apple: macOS](https://torproject.org/download)
 - [:simple-linux: Linux](https://torproject.org/download)
 

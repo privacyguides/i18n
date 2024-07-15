@@ -87,9 +87,9 @@ AdGuard 首頁提供精美的網頁介面，可查看有用資訊並管理被封
 [:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://docs.controld.com/docs/gui-setup-utility)
+- [:fontawesome-brands-windows: Windows](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-linux: Linux](https://docs.controld.com/docs/ctrld)
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
@@ -114,9 +114,9 @@ AdGuard 首頁提供精美的網頁介面，可查看有用資訊並管理被封
 [:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
+- [:fontawesome-brands-windows: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
 - [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
 - [:simple-linux: Linux](https://github.com/nextdns/nextdns/wiki)
 - [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
@@ -176,9 +176,9 @@ NextDNS 也在`https://dns.nextdns.io` 提供公共DNS-over-HTTPS 服務，並�
 [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
+- [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
 - [:simple-linux: Linux](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
 

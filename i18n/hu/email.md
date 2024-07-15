@@ -69,7 +69,7 @@ A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titk
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
 - [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
-- [:simple-windows11: Windows](https://proton.me/mail/bridge#download)
+- [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
 - [:octicons-browser-16: Web](https://mail.proton.me)
@@ -201,12 +201,12 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Letöltés</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-- [:simple-windows11: Windows](https://tuta.com/#download)
+- [:fontawesome-brands-windows: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
 - [:octicons-browser-16: Web](https://app.tuta.com)

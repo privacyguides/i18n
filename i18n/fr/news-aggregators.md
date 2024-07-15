@@ -89,9 +89,9 @@ Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) es
 [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://hyliu.me/fluent-reader)
+- [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
 </details>

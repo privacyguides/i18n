@@ -29,12 +29,12 @@ Estos servicios de mensajería son ideales para proteger sus comunicaciones conf
 [:octicons-heart-16:](https://signal.org/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
 - [:simple-android: Android](https://signal.org/android/apk)
-- [:simple-windows11: Windows](https://signal.org/download/windows)
+- [:fontawesome-brands-windows: Windows](https://signal.org/download/windows)
 - [:simple-apple: macOS](https://signal.org/download/macos)
 - [:simple-linux: Linux](https://signal.org/download/linux)
 
@@ -75,12 +75,12 @@ Tenemos algunos consejos adicionales para configurar y endurecer su instalación
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código Fuente"" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
 - [:simple-github: GitHub](https://github.com/simplex-chat/simplex-chat/releases)
-- [:simple-windows11: Windows](https://simplex.chat/downloads/#desktop-app)
+- [:fontawesome-brands-windows: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
 - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
 
@@ -107,10 +107,10 @@ SimpleX Chat soporta funcionalidades básicas de chat en grupo, mensajería dire
 [:octicons-heart-16:](https://briarproject.org){ .card-link title="Las opciones de donación están listadas en la parte inferior de la página principal" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
-- [:simple-windows11: Windows](https://briarproject.org/download-briar-desktop)
+- [:fontawesome-brands-windows: Windows](https://briarproject.org/download-briar-desktop)
 - [:simple-linux: Linux](https://briarproject.org/download-briar-desktop)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.briarproject.Briar)
 
@@ -151,12 +151,12 @@ Los mensajes y los archivos compartidos en las salas privadas (las que requieren
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
 - [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
-- [:simple-windows11: Windows](https://element.io/download)
+- [:fontawesome-brands-windows: Windows](https://element.io/download)
 - [:simple-apple: macOS](https://element.io/download)
 - [:simple-linux: Linux](https://element.io/download)
 - [:octicons-globe-16: Web](https://app.element.io)
@@ -189,12 +189,12 @@ Session utiliza la red descentralizada [Oxen Service Node Network](https://oxen.
 [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
 - [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
-- [:simple-windows11: Windows](https://getsession.org/download)
+- [:fontawesome-brands-windows: Windows](https://getsession.org/download)
 - [:simple-apple: macOS](https://getsession.org/download)
 - [:simple-linux: Linux](https://getsession.org/download)
 

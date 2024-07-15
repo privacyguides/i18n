@@ -74,7 +74,7 @@ Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
 - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
@@ -117,7 +117,7 @@ Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekma
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
+- [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
 - [:simple-linux: Linux](https://mozilla.org/firefox/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
@@ -136,6 +136,12 @@ Firefox voegt een uniek [download token](https://bugzilla.mozilla.org/show_bug.c
 ### Recommended Firefox Configuration
 
 Deze opties zijn te vinden in :material-menu: → **Instellingen**.
+
+#### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
 #### Zoeken
 
@@ -232,7 +238,7 @@ Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moete
 <summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-windows11: Windows](https://brave.com/download)
+- [:fontawesome-brands-windows: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
 - [:simple-linux: Linux](https://brave.com/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)

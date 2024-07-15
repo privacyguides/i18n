@@ -27,7 +27,7 @@ På Linux finns ett grafiskt verktyg från tredje part [Metadata Cleaner] (https
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://pypi.org/project/mat2)
+- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
 - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
@@ -149,7 +149,7 @@ Det är ofta en del av andra program för att ta bort Exif-filer och finns i de 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://exiftool.org)
+- [:fontawesome-brands-windows: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)
 - [:simple-linux: Linux](https://exiftool.org)
 

@@ -75,9 +75,9 @@ Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](to
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mullvad.net/en/download/browser/windows)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
 - [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
 
@@ -122,9 +122,9 @@ Mullvad Browser viene con DuckDuckGo configurado como [motor de búsqueda](searc
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
-- [:simple-windows11: Windows](https://mozilla.org/firefox/windows)
+- [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
 - [:simple-linux: Linux](https://mozilla.org/firefox/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
@@ -143,6 +143,12 @@ Firefox incluye un [token de descarga] único (https://bugzilla.mozilla.org/show
 ### Configuración Recomendada de Firefox
 
 Estas opciones se encuentran en :material-menu: → **Configuración**.
+
+#### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
 #### Buscar
 
@@ -236,10 +242,10 @@ Brave se basa en el proyecto de navegador web Chromium, por lo que debería resu
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:simple-windows11: Windows](https://brave.com/download)
+- [:fontawesome-brands-windows: Windows](https://brave.com/download)
 - [:simple-apple: macOS](https://brave.com/download)
 - [:simple-linux: Linux](https://brave.com/linux)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)

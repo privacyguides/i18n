@@ -31,11 +31,11 @@ Nextcloud è [ancora uno strumento consigliato](productivity.md) per il self-hos
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-- [:simple-windows11: Windows](https://proton.me/drive/download)
+- [:fontawesome-brands-windows: Windows](https://proton.me/drive/download)
 - [:simple-apple: macOS](https://proton.me/drive/download)
 
 </details>
@@ -59,11 +59,11 @@ I nuovi clienti mobile di Proton Drive non sono ancora stati controllati pubblic
 [:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile&gl=IT)
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/tresorit/id722163232)
-- [:simple-windows11: Windows](https://tresorit.com/download)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
+- [:fontawesome-brands-windows: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
 
@@ -97,10 +97,10 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:octicons-globe-16: Web](https://peergos.net)
-- [:simple-windows11: Windows](https://github.com/Peergos/web-ui/releases)
+- [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
 - [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
 - [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
 

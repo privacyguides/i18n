@@ -35,7 +35,7 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
-- [:simple-windows11: Windows](https://proton.me/drive/download)
+- [:fontawesome-brands-windows: Windows](https://proton.me/drive/download)
 - [:simple-apple: macOS](https://proton.me/drive/download)
 
 </details>
@@ -63,7 +63,7 @@ Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
-- [:simple-windows11: Windows](https://tresorit.com/download)
+- [:fontawesome-brands-windows: Windows](https://tresorit.com/download)
 - [:simple-apple: macOS](https://tresorit.com/download)
 - [:simple-linux: Linux](https://tresorit.com/download)
 
@@ -100,7 +100,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 <summary>Downloads</summary>
 
 - [:octicons-globe-16: Web](https://peergos.net)
-- [:simple-windows11: Windows](https://github.com/Peergos/web-ui/releases)
+- [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
 - [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
 - [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
 
