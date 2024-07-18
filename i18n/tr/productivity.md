@@ -41,7 +41,7 @@ cover: productivity.webp
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
-We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
+Veri kaybına yol açabileceğinden Nextcloud için [E2EE App] (https://apps.nextcloud.com/apps/end_to_end_encryption) kullanılmasını önermiyoruz; bu uygulama oldukça deneyseldir ve üretim kalitesinde değildir. Bu nedenle, üçüncü taraf Nextcloud sağlayıcılarını önermiyoruz.
 
 </div>
 
@@ -51,7 +51,7 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 ![CryptPad logo](assets/img/productivity/cryptpad.svg){ align=right }
 
-**CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
+**CryptPad** is a private-by-design alternative to popular office tools. Bu web hizmetindeki tüm içerik uçtan uca şifrelenmiştir ve diğer kullanıcılarla kolayca paylaşılabilir.
 
 [:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
@@ -71,16 +71,16 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to collaboration platforms like Google Drive.
 
-- Open source.
+- Açık kaynak.
 - Uçtan uca şifreleme nedeniyle imkansız olmadığı sürece dosyaları WebDAV aracılığıyla erişilebilir hale getirir.
 - Linux, macOS ve Windows için senkronizasyon uygulamları sağlar.
 - Belge ve elektronik tablo düzenlemeyi destekler.
 - Gerçek zamanlı belge işbirliğini destekler.
 - Belgelerin standart belge formatlarına (örn. ODF) aktarılmasını destekler.
 
-#### Best-Case
+#### En İyi İhtimalle
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+En iyi durum kriterlerimiz, bu kategorideki mükemmel bir projede görmek istediklerimizi temsil etmektedir. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should store files in a conventional filesystem.
 - Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
