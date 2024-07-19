@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-Bunlar, standart/anonim olmayan internet taraması için şu anda önerilen mobil internet tarayıcıları ve yapılandırmalarıdır. İnternette anonim olarak gezinmeniz gerekiyorsa, bunun yerine [Tor](tor.md) kullanmalısınız. Genel olarak, tarayıcı uzantılarınızı en az miktarda tutmanızı öneririz; tarayıcınızda ayrıcalıklı erişime sahiptirler, geliştiriciye güvenmenizi gerektirirler, sizi [öne çıkarabilir](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) ve site izolasyonunu [zayıflatabilirler](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ).
+Bunlar, standart/anonim olmayan internet taraması için şu anda önerilen mobil internet tarayıcıları ve yapılandırmalarıdır. İnternette anonim olarak gezinmeniz gerekiyorsa, bunun yerine [Tor](tor.md) kullanmalısınız.
 
 ## Android
 
@@ -92,10 +92,13 @@ Brave allows you to select additional content filters within the internal `brave
 
 </details>
 
-- [x] Select **Upgrade connections to HTTPS**
-- [x] Select **Always use secure connections**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **strict** under **Upgrade connections to HTTPS**
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under **Block fingerprinting**
+- [x] Select **Block third-party cookies** under **Block Cookies**
+- [x] Select **Block fingerprinting**
+- [x] Select **Prevent fingerprinting via language settings**
 
 </div>
 
@@ -114,8 +117,9 @@ Brave allows you to select additional content filters within the internal `brave
 <div class="annotate" markdown>
 
 - [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
 - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (1)
+- [ ] Uncheck **IPFS Gateway** (2)
 - [x] Select **Close tabs on exit**
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send diagnostic reports**
@@ -123,7 +127,14 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+2. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
+
+#### Leo
+
+These options can be found in :material-menu: → **Settings** → **Leo**
+
+- [ ] Uncheck **Show autocomplete suggestions in address bar**
 
 #### Brave Sync
 
@@ -180,11 +191,11 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, iCloud Private Relay, fingerprinting protection by randomizing and presenting a simplified version of the system configuration to websites so more devices look identical, and the ability to lock private tabs with your biometrics/PIN. It also allows you to separate your browsing with different profiles.
+**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
 
 </details>
 

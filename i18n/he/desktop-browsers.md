@@ -144,12 +144,6 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 ניתן למצוא אפשרויות אלה ב - :material-menu: ← **הגדרות**.
 
-#### Website Advertising Preferences
-
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
 #### חיפוש
 
 - [ ] Uncheck **Show search suggestions**
@@ -194,7 +188,13 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 1. פתח את [הגדרות הפרופיל שלך ב ](https://accounts.firefox.com/settings#data-collection)accounts.firefox.com
 2. ביטול סימון **איסוף נתונים ושימוש** > **עזרה בשיפור חשבונות Firefox**
 
-##### מצב HTTPS בלבד
+##### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+
+##### HTTPS-Only Mode
 
 - [x] בחר **הפעלת מצב HTTPS בלבד בכל החלונות**
 
@@ -208,7 +208,7 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 
 Max Protection אוכפת את השימוש ב-DNS על HTTPS, ואזהרת אבטחה תראה אם Firefox לא יכול להתחבר לפותר ה-DNS המאובטח שלך, או אם פותר ה-DNS המאובטח שלך אומר שרשומות עבור הדומיין שאליו אתה מנסה לגשת אינן קיימות. זה מונע מהרשת שאליה אתה מחובר לשדרג לאחור בסתר את אבטחת ה-DNS שלך.
 
-#### סנכרון
+#### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
@@ -221,7 +221,7 @@ Max Protection אוכפת את השימוש ב-DNS על HTTPS, ואזהרת אב
 
 </div>
 
-פרויקט [Arkenfox](https://github.com/arkenfox/user.js) מספק קבוצה של אפשרויות שנשקלו בקפידה עבור Firefox. אם אתה [מחליט](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) להשתמש ב-Arkenfox, [כמה אפשרויות](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) הן קפדניות סובייקטיבית ו/או עלולות לגרום לאתרים מסוימים לא לעבוד כראוי [שאותן תוכל לשנות בקלות](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) כדי להתאים לצרכים שלך. אנו **ממליצים בחום** לקרוא את [הויקי](https://github.com/arkenfox/user.js/wiki) המלא שלהם. Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+פרויקט [Arkenfox](https://github.com/arkenfox/user.js) מספק קבוצה של אפשרויות שנשקלו בקפידה עבור Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. אנו **ממליצים בחום** לקרוא את [הויקי](https://github.com/arkenfox/user.js/wiki) המלא שלהם. Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
 Arkenfox שואפת רק לסכל תסריטי מעקב בסיסיים או נאיביים באמצעות קנבס אקראי והגדרות תצורת התנגדות טביעות האצבע המובנות של Firefox. זה לא מכוון לגרום לדפדפן שלך להשתלב עם קהל גדול של משתמשי Arkenfox אחרים באותו אופן שבו Mullvad Browser או Tor Browser עושים, וזו הדרך היחידה לסכל סקריפטים מתקדמים למעקב אחר טביעות אצבע. זכור שאתה תמיד יכול להשתמש במספר דפדפנים, לדוגמה, אתה יכול לשקול להשתמש ב-Firefox+Arkenfox עבור כמה אתרים שאתה רוצה להישאר מחובר אליהם או לסמוך עליהם בדרך אחרת, ואת Mullvad Browser לגלישה כללית.
 
@@ -267,7 +267,7 @@ Brave מוסיף "[קוד הפניה](https://github.com/brave/brave-browser/wik
 
 ניתן למצוא אפשרויות אלה ב - :material-menu: ← **הגדרות**.
 
-#### הגדרות
+#### Settings
 
 ##### Shields
 
@@ -298,7 +298,7 @@ Brave allows you to select additional content filters within the internal `brave
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
-##### פרטיות ואבטחה
+##### Privacy and security
 
 <div class="annotate" markdown>
 
@@ -322,7 +322,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 </div>
 
-##### הרחבות
+##### Extensions
 
 - [ ] Uncheck all built-in extensions you do not use
 
@@ -333,7 +333,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
 - Set *Method to resolve IPFS resources* to **Disabled**
 
-##### מערכת
+##### System
 
 <div class="annotate" markdown>
 

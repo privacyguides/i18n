@@ -137,12 +137,6 @@ Firefox voegt een uniek [download token](https://bugzilla.mozilla.org/show_bug.c
 
 Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 
-#### Website Advertising Preferences
-
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
 #### Zoeken
 
 - [ ] Uncheck **Show search suggestions**
@@ -187,7 +181,13 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 1. Open jouw [profielinstellingen op accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Schakel **Gegevensverzameling en -gebruik uit** > **Help Firefox-accounts verbeteren**
 
-##### Alleen HTTPS-modus
+##### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+
+##### HTTPS-Only Mode
 
 - [x] Select **Schakel HTTPS-only modus in alle vensters in**
 
@@ -201,7 +201,7 @@ Als u een [DNS boven HTTPS provider](dns.md) gebruikt:
 
 Max Bescherming forceert het gebruik van DNS via HTTPS. Een beveiligingswaarschuwing wordt weergegeven als Firefox geen verbinding kan maken met uw beveiligde DNS resolver, of als uw beveiligde DNS resolver zegt dat records voor het domein dat u probeert te openen, niet bestaan. Hiermee stopt het netwerk waarmee u bent verbonden om uw DNS-beveiliging stiekem te verlagen.
 
-#### Synchronisatie
+#### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
@@ -214,7 +214,7 @@ Max Bescherming forceert het gebruik van DNS via HTTPS. Een beveiligingswaarschu
 
 </div>
 
-Het [Arkenfox-project](https://github.com/arkenfox/user.js) biedt een reeks zorgvuldig overwogen opties voor Firefox. Als je [besluit](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) om Arkenfox te gebruiken, zijn er een [paar opties](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) die subjectief streng zijn en/of ervoor kunnen zorgen dat sommige websites niet goed werken - [die je gemakkelijk kunt wijzigen](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) om aan jouw behoeften te voldoen. Wij **raden je ten zeerste aan** hun volledige [wiki](https://github.com/arkenfox/user.js/wiki)door te lezen. Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+Het [Arkenfox-project](https://github.com/arkenfox/user.js) biedt een reeks zorgvuldig overwogen opties voor Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Wij **raden je ten zeerste aan** hun volledige [wiki](https://github.com/arkenfox/user.js/wiki)door te lezen. Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
 Arkenfox wil alleen elementaire of naïeve volgscripts dwarsbomen via canvas randomisatie en de ingebouwde configuratie-instellingen voor vingerafdrukbestendigheid van Firefox. Het is niet de bedoeling dat jouw browser opgaat in een grote menigte van andere Arkenfox-gebruikers op dezelfde manier als Mullvad Browser of Tor Browser dat doen, wat de enige manier is om geavanceerde tracking-scripts voor vingerafdrukken te dwarsbomen. Je kunt altijd meerdere browsers gebruiken, bijvoorbeeld Firefox+Arkenfox voor een paar sites waarop je ingelogd wilt blijven of die je anderszins vertrouwt, en Mullvad Browser voor algemeen browsen.
 
@@ -260,9 +260,9 @@ Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Bra
 
 Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 
-#### Instellingen
+#### Settings
 
-##### Shields
+##### Schilden
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
@@ -291,7 +291,7 @@ Brave allows you to select additional content filters within the internal `brave
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
-##### Privacy en beveiliging
+##### Privacy and security
 
 <div class="annotate" markdown>
 
@@ -315,7 +315,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 </div>
 
-##### Extensies
+##### Extensions
 
 - [ ] Uncheck all built-in extensions you do not use
 
@@ -326,7 +326,7 @@ De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanval
 - Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
 - Set *Method to resolve IPFS resources* to **Disabled**
 
-##### Systeem
+##### System
 
 <div class="annotate" markdown>
 
@@ -340,7 +340,7 @@ De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanval
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-#### Brave Rewards en Wallet
+#### Brave Rewards and Wallet
 
 **Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Het is afhankelijk van een bewaarrekening en KYC van een select aantal providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 

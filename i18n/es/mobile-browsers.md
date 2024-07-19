@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-Estos son nuestras recomendaciones actuales sobre navegadores web para móviles y configuraciones para la navegación estándar/no anónima por Internet. Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) . En general, recomendamos mantener las extensiones al mínimo; tienen acceso privilegiado dentro de su navegador, requieren que confíe en el desarrollador, pueden hacerle [destacar](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), y [debilitar](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) el aislamiento del sitio.
+Estos son nuestras recomendaciones actuales sobre navegadores web para móviles y configuraciones para la navegación estándar/no anónima por Internet. Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) .
 
 ## Android
 
@@ -92,10 +92,13 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 </details>
 
-- [x] Seleccione **Mejorar conexiones a HTTPS**
-- [x] Seleccione **Usar siempre conexiones seguras**
-- [x] (Opcional) Seleccione **Bloquear Scripts** (1)
-- [x] Seleccione **Estricto, puede dañar los sitios** en **Bloquear fingerprinting**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Block third-party cookies** under **Block Cookies**
+- [x] Select **Block fingerprinting**
+- [x] Select **Prevent fingerprinting via language settings**
 
 </div>
 
@@ -113,17 +116,25 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 <div class="annotate" markdown>
 
-- [x] Seleccione **Desactivar UDP sin proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Desmarque **Permite a los sitios comprobar si tienes métodos de pago guardados**
-- [ ] Desmarque **Puerta de enlace IPFS** (1)
-- [x] Seleccione **Cerrar pestañas al salir**
-- [ ] Desmarque **Permitir estadísticas de productos que preservan la privacidad (P3A)**
-- [ ] Desmarque **Enviar informes de diagnóstico automáticamente**
-- [ ] Desmarque **Enviar automáticamente el ping diario de uso a Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (2)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 
-1. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
+1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+2. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
+
+#### Leo
+
+These options can be found in :material-menu: → **Settings** → **Leo**
+
+- [ ] Uncheck **Show autocomplete suggestions in address bar**
 
 #### Brave Sync
 
@@ -180,11 +191,11 @@ En iOS, cualquier aplicación que puede navegar en internet está [limitada](htt
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) como [Antirrastreo Inteligente](https://webkit.org/blog/7675/intelligent-tracking-prevention), Informe de Privacidad, pestañas de Navegación Privada aisladas y efímeras, Relay Privado de iCloud, protección de huellas digitales mediante la aleatorización y presentación de una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos, y la posibilidad de bloquear las pestañas privadas con tus datos biométricos/PIN. También te permite separar tu navegación con diferentes perfiles.
+**Safari** es el navegador predeterminado en iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
 
-[:octicons-home-16: Página Principal](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title=Documentación}
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
 
 </details>
 

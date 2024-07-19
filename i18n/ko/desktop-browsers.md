@@ -144,12 +144,6 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 이러한 옵션은 :material-menu: → **설정**에서 확인할 수 있습니다.
 
-#### Website Advertising Preferences
-
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
 #### 검색
 
 - [ ] Uncheck **Show search suggestions**
@@ -194,7 +188,13 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 1. [accounts.firefox.com 프로필 설정](https://accounts.firefox.com/settings#data-collection) 열기
 2. **데이터 수집 및 사용** > **Firefox 계정 개선에 참여** 비활성화
 
-##### HTTPS 전용 모드
+##### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+
+##### HTTPS-Only Mode
 
 - [x] **모든 창에서 HTTPS 전용 모드 사용** 활성화
 
@@ -221,7 +221,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 </div>
 
-[Arkenfox 프로젝트](https://github.com/arkenfox/user.js)는 신중하게 고려된 Firefox용 옵션 모음을 제공합니다. Arkenfox를 [사용하기로 결정한](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 경우, [일부 옵션](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])은 주관적으로 판단했을 때 지나치게 엄격하거나 웹사이트가 올바르게 작동하지 않을 수 있습니다. 옵션은 필요한 경우 [손쉽게 변경 가능합니다](https://github.com/arkenfox/user.js/wiki/3.1-Overrides). 저희는 전체 [위키](https://github.com/arkenfox/user.js/wiki) 내용을 읽어보실 것을 **강력히 권장드립니다**. Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Arkenfox 프로젝트](https://github.com/arkenfox/user.js)는 신중하게 고려된 Firefox용 옵션 모음을 제공합니다. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. 저희는 전체 [위키](https://github.com/arkenfox/user.js/wiki) 내용을 읽어보실 것을 **강력히 권장드립니다**. Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
 Arkenfox는 캔버스 무작위화(Randomization)와 Firefox에 기본 탑재된 핑거프린트 방지 구성 설정을 통해 기본적이거나 순진한(Naive) 추적 스크립트를 차단하는 것만 목표로 합니다. Mullvad 브라우저나 Tor 브라우저에서 사용하는 방식이자, 고급 핑거프린트 추적 스크립트를 막을 수 있는 유일한 방법인 '다른 사용자들 사이에 섞여들게 하는 것'은 Arkenfox의 목표가 아닙니다. 물론, 여러분은 여러 브라우저를 사용할 수 있습니다. 로그인이 유지되어야 하는 사이트나 믿을 만한 사이트는 Firefox+Arkenfox를 사용하고, 그 외 일반적인 브라우저 탐색에는 Mullvad 브라우저를 사용하는 방법도 있습니다.
 
@@ -267,9 +267,9 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 이러한 옵션은 :material-menu: → **설정**에서 확인할 수 있습니다.
 
-#### 설정
+#### Settings
 
-##### 보호
+##### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
@@ -298,7 +298,7 @@ Brave allows you to select additional content filters within the internal `brave
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
-##### 개인 정보 보호 및 보안
+##### Privacy and security
 
 <div class="annotate" markdown>
 
@@ -322,7 +322,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 </div>
 
-##### 확장 프로그램
+##### Extensions
 
 - [ ] Uncheck all built-in extensions you do not use
 
@@ -333,7 +333,7 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 - Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
 - Set *Method to resolve IPFS resources* to **Disabled**
 
-##### 시스템
+##### System
 
 <div class="annotate" markdown>
 
@@ -347,7 +347,7 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-#### Brave Rewards 및 Brave 월렛
+#### Brave Rewards and Wallet
 
 **Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. 해당 기능은 일부 선정된 제공 업체의 수탁형 계정과 KYC(고객 신원 확인)에 기반하여 동작합니다. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 

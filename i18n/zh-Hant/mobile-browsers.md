@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-這些是我們目前推薦的行動網路瀏覽器和標準/非匿名網際網路瀏覽的設定。 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。 一般來說，我們建議您將擴充功能維持在最低限度：它們在瀏覽器中有特別訪問權限，需要您信任開發人員，也可能會讓您[顯得突出](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)， 並[弱化](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ)網站隔離。
+這些是我們目前推薦的行動網路瀏覽器和標準/非匿名網際網路瀏覽的設定。 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。
 
 ## Android
 
@@ -91,9 +91,13 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </details>
 
-- [x] 在 **升級連線至 HTTPS** 下選擇 **嚴格**
-- [x] (可選) 勾選 **阻擋指令稿** (1)
-- [x] 在 **封鎖指紋識別** 下選擇 **嚴格**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Block third-party cookies** under **Block Cookies**
+- [x] Select **Block fingerprinting**
+- [x] Select **Prevent fingerprinting via language settings**
 
 </div>
 
@@ -111,17 +115,25 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 <div class="annotate" markdown>
 
-- [x] 在 [WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 下選擇 **停用非代理 UDP**
-- [ ] 取消勾選 **允許網站檢查是否有已儲存的付款方式**
-- [ ] 取消勾選 **IPFS 閘道器** (1)
-- [x] 勾選 **退出時關閉分頁**
-- [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
-- [ ] 取消勾選 **自動傳送診斷報告**
-- [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (2)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 
-1. 星際檔案系統 (InterPlanetary File System，縮寫為 IPFS) 是一個旨在實現檔案的分散式儲存、共享和持久化的網路傳輸協定。 除非您使用此功能，否則停用它。
+1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+2. 星際檔案系統 (InterPlanetary File System，縮寫為 IPFS) 是一個旨在實現檔案的分散式儲存、共享和持久化的網路傳輸協定。 除非您使用此功能，否則停用它。
+
+#### Leo
+
+These options can be found in :material-menu: → **Settings** → **Leo**
+
+- [ ] Uncheck **Show autocomplete suggestions in address bar**
 
 #### Brave 同步
 
@@ -178,11 +190,11 @@ Mull 隨附預設配置的隱私保護設定。 如果想在退出應用程式�
 
 ![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 預設瀏覽器。 它包括[隱私權功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0)，如 [智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、獨立且短暫的私密瀏覽分頁、iCloud 私密轉送、透過隨機化並向網站呈現簡化版本的系統設定來實現指紋保護，以使更多設備看起來相同的指紋保護，以及使用 生物識別資訊/PIN 鎖定私密瀏覽的功能。 它還可以使用不同的主題類別來分隔您的瀏覽。
+**Safari** 是 iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
 
-[:octicons-home-16: 首頁](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://support.apple.com/guide/safari/welcome/mac){ .card-link title="文件" }
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
 
 </details>
 

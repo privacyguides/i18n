@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-Questi sono i browser e le configurazioni che attualmente consigliamo per la navigazione standard/non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md). In generale, consigliamo di mantenere al minimo il numero delle estensioni; hanno accesso privilegiato al tuo browser, ti richiedono di fidarti degli sviluppatori, possono [distinguerti](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint) e [indebolire](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) l'isolamento del sito.
+Questi sono i browser e le configurazioni che attualmente consigliamo per la navigazione standard/non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md).
 
 ## Android
 
@@ -92,10 +92,13 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 </details>
 
-- [x] Seleziona **Aggiorna le connessioni a HTTPS**
-- [x] Seleziona **Utilizza sempre connessioni sicure**
-- [x] (Facoltativo) Seleziona **Blocca gli Script** (1)
-- [x] Seleziona **rigido, potrebbe non far funzionare alcuni siti** in **Blocca le impronte digitali**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **strict** under **Upgrade connections to HTTPS**
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Select **Block third-party cookies** under **Block Cookies**
+- [x] Select **Block fingerprinting**
+- [x] Select **Prevent fingerprinting via language settings**
 
 </div>
 
@@ -113,17 +116,25 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 <div class="annotate" markdown>
 
-- [x] Seleziona **Disabilita UDP senza proxy** in [Gestione politica IP WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Rimuovi la spunta da **Consenti ai siti di controllare se hai metodi di pagamento salvati**
-- [ ] Rimuovi la spunta da **Gateway IPFS** (1)
-- [x] Seleziona **Chiudi le schede quando esci**
-- [ ] Rimuovi la spunta da **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A)**
-- [ ] Rimuovi la spunta da **Invia automaticamente i rapporti di diagnostica**
-- [ ] Rimuovi la spunta da **Invia automaticamente un ping di utilizzo giornaliero a Brave**
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
+- [ ] Uncheck **Allow sites to check if you have payment methods saved**
+- [ ] Uncheck **IPFS Gateway** (2)
+- [x] Select **Close tabs on exit**
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 </div>
 
-1. L'InterPlanetary File System (IPFS) è una rete peer-to-peer e decentralizzata, utilizzata per archiviare e condividere dati in un filesystem distribuito. A meno che tu non utilizzi questa funziona, disabilitala.
+1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+2. L'InterPlanetary File System (IPFS) è una rete peer-to-peer e decentralizzata, utilizzata per archiviare e condividere dati in un filesystem distribuito. A meno che tu non utilizzi questa funziona, disabilitala.
+
+#### Leo
+
+These options can be found in :material-menu: → **Settings** → **Leo**
+
+- [ ] Uncheck **Show autocomplete suggestions in address bar**
 
 #### Brave Sync
 
@@ -180,11 +191,11 @@ Su iOS, qualsiasi app che possa navigare sul web è [limitata](https://developer
 
 ![Logo di Safari](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** è il browser predefinito di iOS. Include [funzioni per la privacy](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/15.0/ios/15.0) come [Prevenzione Intelligente del Tracciamento](https://webkit.org/blog/7675/intelligent-tracking-prevention), Report sulla Privacy, schede di navigazione privata isolate ed effimere, Relay privato iCloud, protezione delle impronte digitali attraverso la randomizzazione e la presentazione di una versione semplificata della configurazione del sistema ai siti web, in modo che più dispositivi appaiano identici, e la possibilità di bloccare le schede private con i propri dati biometrici/PIN. Consente inoltre di separare la navigazione con profili diversi.
+**Safari** è il browser predefinito di iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
 
-[:octicons-home-16: Homepage](https://apple.com/it/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/legal/privacy/data/it/safari/){ .card-link title="Informativa sulla privacy" }
-[:octicons-info-16:](https://support.apple.com/it-it/guide/safari/welcome/mac){ .card-link title=Documentazione}
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
 
 </details>
 

@@ -144,12 +144,6 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 這些選項可以在 :material-menu: → **設定** 中找到。
 
-#### Website Advertising Preferences
-
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
 #### 搜尋
 
 - [ ] 取消勾選 **顯示搜尋建議**
@@ -194,7 +188,13 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 1. 在 [accounts.firefox.com](https://accounts.firefox.com/settings#data-collection) 開啟您的 <0>個人資料設定</0>
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
 
-##### 純 HTTPS 模式
+##### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+
+##### HTTPS-Only Mode
 
 - [x] 勾選 **在所有視窗都開啟純 HTTPS 模式**
 
@@ -208,7 +208,7 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 最大保護 強制使用 DNS over HTTPS，如果 Firefox 無法連線到您的安全 DNS 解析器，或者安全 DNS 解析器表示您嘗試存取的網域沒有記錄，則會顯示安全警告。 這可以防止您所連接的網路暗中降低您的 DNS 安全性。
 
-#### 同步
+#### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) 讓您的瀏覽資料 (歷史記錄、書籤等) 在所有裝置上都可存取，並使用端對端加密 (E2EE) 進行保護。
 
@@ -221,7 +221,7 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，[有幾個設定](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])在主觀上過於嚴格，而且可能導致某些網站無法正常運作 - 但是您[可以輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)以滿足您的需求。 我們**強烈建議**完整閱讀他們的 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. 我們**強烈建議**完整閱讀他們的 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
 Arkenfox 的目標旨在通過 Canvas 隨機化和 Firefox 內置的指紋對抗配置設置來阻止基本或單純的跟蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記住，您可以隨時使用多個瀏覽器。例如，您可以考慮將 Firefox + Arkenfox 用於希望保持登入或可以信任的幾個網站，而 Mullvad 瀏覽器則用於一般瀏覽。
 
@@ -267,7 +267,7 @@ Brave 在官網的下載檔案中新增了 "[推廣代碼](https://github.com/br
 
 這些選項可以在 :material-menu: → **設定** 中找到。
 
-#### 設定
+#### Settings
 
 ##### 防護
 
@@ -297,7 +297,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 1. 此選項提供的功能類似於 uBlock Origin 的進階[封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode)。
 2. 若想在經常造訪的特定站點保持登入，則可以透過網址列中的盾牌圖示來為每個站點設定例外。
 
-##### 隱私權和安全性
+##### Privacy and security
 
 <div class="annotate" markdown>
 
@@ -321,7 +321,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </div>
 
-##### 擴充功能
+##### Extensions
 
 - [ ] 取消勾選所有您用不到的內建擴充功能
 
@@ -332,7 +332,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 - 將預設的 *以太坊* 與 *Solana* 錢包設定為 **擴充功能 (無後援)**
 - 將 *解析 IPFS 資源的方法* 設定為 **已停用**
 
-##### 系統
+##### System
 
 <div class="annotate" markdown>
 
@@ -346,7 +346,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 [Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上訪問瀏覽數據 (歷史記錄，書籤等)，無需帳戶且具 E2EE 保護。
 
-#### Brave 獎勵與錢包
+#### Brave Rewards and Wallet
 
 **Brave 獎勵** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[私密加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，不鼓勵使用此功能。
 

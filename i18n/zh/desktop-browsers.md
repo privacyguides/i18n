@@ -144,12 +144,6 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 这些选项可以在 :material-menu: → **设置**中找到。
 
-#### Website Advertising Preferences
-
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
 #### 搜索
 
 - [ ] Uncheck **Show search suggestions**
@@ -199,7 +193,15 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 
 
 
-##### HTTPS-Only 模式
+##### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+
+
+
+##### HTTPS-Only Mode
 
 - [x] 选择 **启用所有窗口的纯HTTPS-Only模式**
 
@@ -217,7 +219,7 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 
 
 
-#### 同步
+#### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
@@ -232,7 +234,7 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 
 </div>
 
-[Arkenfox项目](https://github.com/arkenfox/user.js) ，为Firefox提供了一套精心考虑的选项。 如果你 [决定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) 使用Arkenfox，有几个 [选项](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) 是主观严格的和/或可能导致一些网站不能正常工作-- [，你可以很容易地改变](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) 以满足你的需要。 我们 **，强烈建议** ，阅读其完整的 [wiki](https://github.com/arkenfox/user.js/wiki)。 Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Arkenfox项目](https://github.com/arkenfox/user.js) ，为Firefox提供了一套精心考虑的选项。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. 我们 **，强烈建议** ，阅读其完整的 [wiki](https://github.com/arkenfox/user.js/wiki)。 Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
 Arkenfox 的目标只是通过 canvas 随机化和 Firefox 内置的抗指纹配置设置来挫败基本的或幼稚的跟踪脚本。 它不会像 Mullvad 浏览器或 Tor 浏览器那样，让你的浏览器与一大群其他用户融为一体，所以不会阻挡进阶的指纹跟踪脚本。 当然，您可以同时使用多种浏览器，例如，您可以考虑使用 Firefox+Arkenfox 浏览一些需要保持登录状态或着您信任的网站，并使用 Mullvad 浏览器进行一般浏览。
 
@@ -317,7 +319,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 
 
-##### 隐私和安全
+##### Privacy and security
 
 <div class="annotate" markdown>
 
@@ -341,7 +343,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 </div>
 
-##### 扩展程序
+##### Extensions
 
 - [ ] Uncheck all built-in extensions you do not use
 
@@ -356,7 +358,7 @@ Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 如果您不�
 
 
 
-##### 系统
+##### System
 
 <div class="annotate" markdown>
 

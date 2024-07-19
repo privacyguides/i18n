@@ -144,12 +144,6 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 これらのオプションは :material-menu: → **設定**にあります。
 
-#### Website Advertising Preferences
-
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
 #### 検索
 
 - [ ] Uncheck **Show search suggestions**
@@ -194,7 +188,13 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 1. [accounts.firefox.comのプロフィール設定](https://accounts.firefox.com/settings#data-collection)を開く
 2. **データの収集と使用** > **Firefoxアカウントの改善を支援する**のチェックを外す
 
-##### HTTPS-Only モード
+##### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+
+##### HTTPS-Only Mode
 
 - [x] **すべてのウィンドウで HTTPS-Only モードを有効にする**を選択する
 
@@ -208,7 +208,7 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 
 Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
 
-#### 同期
+#### Sync
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy)は、あなたの閲覧データ（履歴、ブックマークなど）をすべてのデバイスでアクセス可能にし、それをE2EEで保護します。
 
@@ -221,7 +221,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 </div>
 
-[Arkenfoxプロジェクト](https://github.com/arkenfox/user.js)は、Firefoxのための慎重に考えられたオプションのセットを提供しています。 もしArkenfoxを使用することを[決めた](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)場合、[いくつかのオプション](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])は主観的に厳格であり、また、一部のウェブサイトが正しく動作しなくなる可能性があります。これらのオプションは、ニーズに合わせて[簡単に変更できます](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)。 プロジェクトの[wiki](https://github.com/arkenfox/user.js/wiki)に全て目を通すことを**強くお勧めします**。 Arkenfoxは[コンテナ](https://support.mozilla.org/kb/containers#w_for-advanced-users)のサポートも可能にしています。
+[Arkenfoxプロジェクト](https://github.com/arkenfox/user.js)は、Firefoxのための慎重に考えられたオプションのセットを提供しています。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. プロジェクトの[wiki](https://github.com/arkenfox/user.js/wiki)に全て目を通すことを**強くお勧めします**。 Arkenfoxは[コンテナ](https://support.mozilla.org/kb/containers#w_for-advanced-users)のサポートも可能にしています。
 
 Arkenfoxでは、canvasのランダム化やFirefoxの組み込みのフィンガープリント対策の設定に基づき、基本的または単純なトラッキングスクリプトを防ぐことを唯一の目的としています。 Arkenfoxは、Mullvad BrowserやTor Browserが行う、高度なフィンガープリントトラッキング用のスクリプを防止する唯一の方法である大勢のユーザーの中に溶け込ませることは目的としていません。 常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままや信頼したいくつかのサイトにはFirefox + Arkenfoxを使用し、一般的なブラウジングにはMullvad ブラウザを使用するといった方法を検討できます。
 
@@ -267,7 +267,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 これらのオプションは :material-menu: → **設定**にあります。
 
-#### 設定
+#### Settings
 
 ##### シールド
 
@@ -298,7 +298,7 @@ Brave allows you to select additional content filters within the internal `brave
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
 
-##### プライバシーとセキュリティー
+##### Privacy and security
 
 <div class="annotate" markdown>
 
@@ -322,7 +322,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 </div>
 
-##### 拡張機能
+##### Extensions
 
 - [ ] Uncheck all built-in extensions you do not use
 
@@ -333,7 +333,7 @@ BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面�
 - Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
 - Set *Method to resolve IPFS resources* to **Disabled**
 
-##### システム
+##### System
 
 <div class="annotate" markdown>
 
@@ -347,7 +347,7 @@ BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面�
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-#### Brave RewardsとWallet
+#### Brave Rewards and Wallet
 
 **Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 

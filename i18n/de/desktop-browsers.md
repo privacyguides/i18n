@@ -144,12 +144,6 @@ Firefox enthält einen einzigartigen [Download-Token](https://bugzilla.mozilla.o
 
 Diese Optionen sind unter :material-menu: → **Einstellungen** zu finden.
 
-#### Website Advertising Preferences
-
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2/). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
 #### Suche
 
 - [ ] **Suchvorschläge anzeigen** deaktivieren
@@ -194,7 +188,13 @@ Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mo
 1. Öffnen deine [Profileinstellungen auf accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deaktiviere **Datenerfassung und -nutzung** > **Helfen Sie, Firefox-Konten zu verbessern**
 
-##### Nur-HTTPS-Modus
+##### Website Advertising Preferences
+
+- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+
+##### HTTPS-Only Mode
 
 - [x] Wähle **Nur-HTTPS-Modus in allen Fenstern aktivieren**
 
@@ -221,7 +221,7 @@ Maximaler Schutz erzwingt die Verwendung von DNS über HTTPS, und es wird eine S
 
 </div>
 
-Das [Arkenfox-Projekt](https://github.com/arkenfox/user.js) bietet eine Reihe von sorgfältig durchdachten Optionen für Firefox. Wenn du dich [für Arkenfox entscheidest](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not), sind einige [Optionen](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) subjektiv streng und/oder können dazu führen, dass einige Websites nicht richtig funktionieren - diese kannst du deinen Bedürfnissen entsprechend [ändern](https://github.com/arkenfox/user.js/wiki/3.1-Overrides). Wir **empfehlen nachdrücklich** das vollständige [Wiki](https://github.com/arkenfox/user.js/wiki) zu lesen. Arkenfox ermöglicht auch die Unterstützung von [Containern](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+Das [Arkenfox-Projekt](https://github.com/arkenfox/user.js) bietet eine Reihe von sorgfältig durchdachten Optionen für Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Wir **empfehlen nachdrücklich** das vollständige [Wiki](https://github.com/arkenfox/user.js/wiki) zu lesen. Arkenfox ermöglicht auch die Unterstützung von [Containern](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
 Arkenfox zielt nur darauf ab, einfache oder naive Tracking-Skripte durch Canvas-Randomisierung und die in Firefox integrierten Konfigurationseinstellungen für Fingerabdruck-Resistenz zu vereiteln. Er zielt nicht darauf ab, deinen Browser mit einer großen Menge anderer Arkenfox-Benutzer zu verschmelzen, wie es der Mullvad-Browser oder der Tor-Browser tun, was die einzige Möglichkeit ist, fortgeschrittene Skripte zur Verfolgung von Fingerabdrücken zu vereiteln. Denke daran, dass du immer noch mehrere Browser verwenden kannst. Du könntest z. B. Firefox+Arkenfox für einige Websites verwenden, bei denen du eingeloggt bleiben möchtest, oder denen du vertraust, und Mullvad Browser für das allgemeine Surfen.
 
@@ -267,7 +267,7 @@ Brave fügt dem Dateinamen bei Downloads von der Brave-Website einen "[Herkunfts
 
 Diese Optionen sind unter :material-menu: → **Einstellungen** zu finden.
 
-#### Einstellungen
+#### Settings
 
 ##### Schutz
 
@@ -298,7 +298,7 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 1. Diese Option bietet ähnliche Funktionen wie die erweiterten [Blockierungsmodi](https://github.com/gorhill/uBlock/wiki/Blocking-mode) von uBlock Origin.
 2. Wenn du auf einer bestimmten Website, die du häufig besuchst, eingeloggt bleiben möchtest, kannst du Ausnahmen für die einzelnen Websites festlegen, indem du auf das Schildsymbol in der Adressleiste klickst.
 
-##### Privatsphäre und Sicherheit
+##### Privacy and security
 
 <div class="annotate" markdown>
 
@@ -322,7 +322,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 </div>
 
-##### Erweiterungen
+##### Extensions
 
 - [ ] Uncheck all built-in extensions you do not use
 
@@ -347,7 +347,7 @@ Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Ang
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) ermöglicht den Zugriff auf deine Browsing-Daten (Verlauf, Lesezeichen usw.) auf all deinen Geräten und schützt diese Daten mit E2EE.
 
-#### Brave Rewards und Wallet
+#### Brave Rewards and Wallet
 
 **Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Es basiert auf einem Account und KYC von einer ausgewählten Anzahl von Anbietern. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
