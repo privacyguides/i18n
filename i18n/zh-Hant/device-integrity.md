@@ -27,7 +27,7 @@ cover: device-integrity.webp
 如果以下任何工具表明可能有 Pegasus、Predator 或 KingsPawn 等間諜軟體危害，建議聯絡：
 
 - 人權捍衛者、記者或來自民間團體：[國際特赦組織安全實驗室](https://securitylab.amnesty.org/contact-us)
-- 如果企業或政府設備受到威脅：請聯絡企業、部門或機構的相應安全聯絡員
+- If a business or government device is compromised: the appropriate security liason at your enterprise, department, or agency
 - 本地執法單位
 
 **除此之外，我們無法直接為您提供幫助。** 我們很樂意在我們的[社區](https://discuss.privacyguides.net)空間中討論您的具體情況或情況並檢查結果，但不太可能提供本頁所述之外的協助。
@@ -41,18 +41,18 @@ cover: device-integrity.webp
 這些工具根據他們能夠從裝置存取的資訊以及可公開存取的破壞指標提供分析。 重要的是記住兩件事：
 
 1. 破壞指標就僅是：_指標_。 它們不是明確的發現，有時可能是**誤報**。 如果偵測到有侵駭跡象，則表示應對「潛在」威脅進行更多研究。
-2. 這些工具尋找的侵駭指標由威脅研究組織發布，但並非所有指標都對外開放！ 這意味著，如果裝置感染了任何公共指標都未偵測到的間諜軟體，則工具可能會**漏報**。 可靠且全面的數位鑑識支援和分類需要存取非公開指標、研究和威脅情報。
+2. 這些工具尋找的侵駭指標由威脅研究組織發布，但並非所有指標都對外開放！ 這意味著，如果裝置感染了任何公共指標都未偵測到的間諜軟體，則工具可能會**漏報**。 Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
 
 ## 外部驗證工具
 
-外部驗證工具在電腦上運行，掃描行動裝置以查找取證痕跡，這有助於識別潛在的危害。
+External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
 公開的損壞指標不足以確定設備是“乾淨的”、非特定間諜軟體工具的目標。 僅依賴公開指標可能會錯過最新的鑑證痕跡並給予錯誤的安全感。
 
-可靠且全面的數位鑑識支援和分類需要存取非公開指標、研究和威脅情報。
+Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
 
 可透過 [Amnesty International's Security Lab](https://amnesty.org/en/tech/) 或 [Access Now’s Digital Security Helpline](https://accessnow.org/help/) 取得公民社會的此類支援。
 
@@ -88,7 +88,7 @@ cover: device-integrity.webp
 
 </div>
 
-MVT 對掃描 iOS 裝置「最」有用。 Android 儲存可用於分類潛在危害的診斷資訊非常少，因此「mvt-android」功能也受到限制。 另一方面，加密的 iOS iTunes 備份提供儲存在裝置上足夠大的檔案子集，可在許多情況下偵測可疑工件。 話雖這麼說，MVT 仍為 iOS 和 Android 分析相當有用的工具。
+MVT 對掃描 iOS 裝置「最」有用。 Android stores very little diagnostic information useful to triage potential compromises, and because of this, `mvt-android` capabilities are limited as well. 另一方面，加密的 iOS iTunes 備份提供儲存在裝置上足夠大的檔案子集，可在許多情況下偵測可疑工件。 話雖這麼說，MVT 仍為 iOS 和 Android 分析相當有用的工具。
 
 如果使用 iOS 且處於高風險狀態，我們有三個額外建議：
 
@@ -163,7 +163,7 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 </div>
 
-Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的硬體支援金鑰庫來允許驗證裝置的身份並確保作業系統本身沒有被篡改或透過驗證啟動降級。 這為裝置本身提供了非常強大的完整性檢查，但不一定檢查裝置上執行的使用者級應用程式是否是惡意的。
+Auditor is not a scanning/analysis tool like some other tools on this page; rather it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. 這為裝置本身提供了非常強大的完整性檢查，但不一定檢查裝置上執行的使用者級應用程式是否是惡意的。
 
 審核員使用**兩個**設備執行證明和入侵檢測，即一個_被審核者_（正在驗證的設備）和一個_審核員_（執行驗證的設備）。 審核者可以是任何Android 10+ 裝置（或由[GrapheneOS](android.md#grapheneos) 運行的遠端Web 服務），而受審核者必須是專門的[支援的裝置](https://attestation.app /about #device-support）。 Auditor 適用於:
 
@@ -197,7 +197,7 @@ Auditor 不像本頁的其他某些掃描/分析工具，而是使用裝置的�
 ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** 適用於 Android 的開源即時惡意軟體掃描程式，由 [DivestOS](android.md#divestos) 的人員開發。 它訪問網際網路下載簽名資料庫更新，但不會將您的檔案或任何元資料上傳到雲端（掃描完全在本地執行）。
+**Hypatia** 適用於 Android 的開源即時惡意軟體掃描程式，由 [DivestOS](android.md#divestos) 的人員開發。 It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud. Scans are performed entirely locally.
 
 [:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
@@ -223,7 +223,7 @@ Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟
 
 **iVerify** 是一款 iOS 應用程式，會自動掃描裝置檢查配置設定、修補程式等級和其他安全性領域。 它還會檢查裝置是否有被越獄工具或間諜軟體（例如 Pegasus）入侵的跡象。
 
-[:octicons-home-16: Homepage](https://iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://iverify.io/products/basic){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 

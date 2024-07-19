@@ -27,7 +27,7 @@ Cela signifie qu'un attaquant devrait régulièrement réinfecter votre appareil
 Si l'un des outils suivants indique une compromission potentielle par un logiciel espion tel que Pegasus, Predator ou KingsPawn, nous vous conseillons de contacter :
 
 - If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
-- Si un appareil professionnel ou gouvernemental est compromis : contactez le responsable de la sécurité de votre entreprise, de votre département ou de votre agence
+- If a business or government device is compromised: the appropriate security liason at your enterprise, department, or agency
 - Les forces de l'ordre locales
 
 **Nous ne sommes pas en mesure de vous aider directement au-delà de ces conseils.** Nous sommes disposés à discuter de votre situation ou de vos circonstances particulières et à examiner vos résultats dans nos espaces [communautaires](https://discuss.privacyguides.net), mais il est peu probable que nous puissions vous aider au-delà de ce qui est écrit sur cette page.
@@ -41,18 +41,18 @@ Les outils présentés sur cette page sont uniquement capables de détecter les 
 Ces outils fournissent une analyse basée sur les informations auxquelles ils ont accès à partir de votre appareil et sur les indicateurs de compromission accessibles au public. Il est important de garder à l'esprit deux choses :
 
 1. Les indicateurs de compromissions ne sont que cela : des _indicateurs_. Ils ne constituent pas un résultat définitif et peuvent parfois être des **faux positifs**. Si un indicateur de compromission est détecté, cela signifie que vous devez effectuer des recherches supplémentaires sur la menace _potentielle_.
-2. Les indicateurs de compromission recherchés par ces outils sont publiés par des organismes de recherche sur les menaces, mais tous les indicateurs ne sont pas mis à la disposition du public ! Cela signifie que ces outils peuvent présenter un **faux négatif**, si votre appareil est infecté par un logiciel espion qui n'est détecté par aucun des indicateurs publics. Une prise en charge et un triage fiables et complets en matière de criminalistique numérique nécessitent l'accès à des indicateurs non publics, à des recherches et à des renseignements sur les menaces.
+2. Les indicateurs de compromission recherchés par ces outils sont publiés par des organismes de recherche sur les menaces, mais tous les indicateurs ne sont pas mis à la disposition du public ! Cela signifie que ces outils peuvent présenter un **faux négatif**, si votre appareil est infecté par un logiciel espion qui n'est détecté par aucun des indicateurs publics. Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
 
 ## Outils de vérification externes
 
-Les outils de vérification externes s'exécutent sur votre ordinateur et analysent votre appareil mobile à la recherche de traces criminalistiques qui permettent d'identifier les compromissions potentielles.
+External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
 Les indicateurs publics de compromission ne suffisent pas à déterminer qu'un appareil est "propre" et qu'il n'a pas été ciblé par un logiciel espion particulier. En se fiant uniquement aux indicateurs publics, il est possible de passer à côté de traces médico-légales récentes et de donner un faux sentiment de sécurité.
 
-Une prise en charge et un triage fiables et complets en matière de criminalistique numérique nécessitent l'accès à des indicateurs non publics, à des recherches et à des renseignements sur les menaces.
+Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
 
 Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
 
@@ -88,7 +88,7 @@ L'utilisation de MVT ne suffit pas à déterminer qu'un appareil est "propre" et
 
 </div>
 
-MVT est _plus_ utile pour scanner les appareils iOS. Android stocke très peu d'informations de diagnostic utiles pour trier les compromissions potentielles, et pour cette raison, les capacités de `mvt-android` sont également limitées. Par contre, les sauvegardes iTunes iOS chiffrées fournissent un sous-ensemble suffisamment important de fichiers stockés sur l'appareil pour détecter les artefacts suspects dans de nombreux cas. Ceci étant dit, MVT fournit tout de même des outils assez utiles pour l'analyse des systèmes iOS et Android.
+MVT est _plus_ utile pour scanner les appareils iOS. Android stores very little diagnostic information useful to triage potential compromises, and because of this, `mvt-android` capabilities are limited as well. Par contre, les sauvegardes iTunes iOS chiffrées fournissent un sous-ensemble suffisamment important de fichiers stockés sur l'appareil pour détecter les artefacts suspects dans de nombreux cas. Ceci étant dit, MVT fournit tout de même des outils assez utiles pour l'analyse des systèmes iOS et Android.
 
 Si vous utilisez iOS et que vous présentez un risque élevé, nous avons trois suggestions supplémentaires à vous faire :
 
@@ -163,7 +163,7 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 
 </div>
 
-Auditor n'est pas un outil de scan/analyse comme d'autres outils sur cette page, mais il utilise le magasin de clés s'appuyant sur le materiel de votre appareil pour vous permettre de vérifier l'identité de votre appareil et de vous assurer que le système d'exploitation lui-même n'a pas été altéré ou dégradé par le biais d'un démarrage vérifié. Cela fournit un contrôle d'intégrité très solide de l'appareil lui-même, mais qui ne permet pas nécessairement de vérifier si les applications utilisateur exécutées sur l'appareil sont malveillantes.
+Auditor is not a scanning/analysis tool like some other tools on this page; rather it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. Cela fournit un contrôle d'intégrité très solide de l'appareil lui-même, mais qui ne permet pas nécessairement de vérifier si les applications utilisateur exécutées sur l'appareil sont malveillantes.
 
 Auditor effectue l'attestation et la détection d'intrusion avec **deux** appareils, un _audité_ (l'appareil vérifié) et un _auditeur_ (l'appareil effectuant la vérification). L'auditeur peut être n'importe quel appareil Android 10+ (ou un service web distant géré par [GrapheneOS](android.md#grapheneos)), tandis que l'audité doit être un [appareil pris en charge](https://attestation.app/about#device-support) spécifique. Auditor fonctionne comme tel :
 
@@ -197,7 +197,7 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 ![logo Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![logo Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** est un scanner de logiciels malveillants en temps réel pour Android, développé par le concepteur de [DivestOS](android.md#divestos). Il accède à internet pour télécharger les mises à jour de la base de données des signatures, mais ne met pas en ligne vos fichiers ni aucune métadonnée dans le cloud (les analyses sont entièrement effectuées localement).
+**Hypatia** est un scanner de logiciels malveillants en temps réel pour Android, développé par le concepteur de [DivestOS](android.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud. Scans are performed entirely locally.
 
 [:octicons-home-16: Page d'accueil](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Politique de confidentialité" }
@@ -223,7 +223,7 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 **iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. Il vérifie également que votre appareil ne présente pas d'indicateurs de compromission par des outils de jailbreak ou des logiciels espions tels que Pegasus.
 
-[:octicons-home-16: Homepage](https://iverify.io/consumer){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://iverify.io/products/basic){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
 
