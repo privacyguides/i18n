@@ -289,7 +289,7 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 - [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Strict, may break sites** under *Block fingerprinting*
+- [x] Check **Block fingerprinting**
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 

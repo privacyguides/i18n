@@ -286,11 +286,11 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </details>
 
-- [x] 將 *升級連線至HTTPS* 設定為 **嚴格**
-- [x] (可選) 勾選 **封鎖指令碼** (1)
-- [x] Select **Strict, may break sites** under *Block fingerprinting*
-- [x] 勾選 **當我關閉此網站時忘記我** (2)
-- [ ] 取消勾選所有社交媒體組件
+- [x] Select **Strict** under *Upgrade connections to HTTPS*
+- [x] (Optional) Select **Block Scripts** (1)
+- [x] Check **Block fingerprinting**
+- [x] Check **Forget me when I close this site** (2)
+- [ ] Uncheck all social media components
 
 </div>
 
