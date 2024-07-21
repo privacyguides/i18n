@@ -145,7 +145,7 @@ If you are using a device with Google services—whether with the stock operatin
 
 ### 高级保护计划
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). 任何拥有两个或更多支持 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 的硬件安全密钥的人都可以免费使用。
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). 任何拥有两个或更多支持 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 的硬件安全密钥的人都可以免费使用。 Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
 
 高级保护计划提供增强的威胁监控，并支持：
 

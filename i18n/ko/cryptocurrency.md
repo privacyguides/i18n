@@ -38,14 +38,14 @@ Monero를 사용할 경우, Monero를 거래하는 주소, 거래 금액, 주소
 최적의 프라이버시를 챙기고자 할 경우, View Key를 기기에서 관리하는 방식인 비수탁형 지갑(Non-Custodial Wallet)을 사용해야 합니다. 비수탁형 지갑은 사용자 본인 외에는 자금 지출은 물론이고, 들어오고 나가는 트랜잭션을 볼 수 없습니다. 만약 수탁형 지갑(Custodial Wallet)을 사용할 경우, 여러분이 하는 **모든 행동**을 제공 업체가 볼 수 있습니다. 경량 지갑(Lightweight Wallet)을 사용할 경우에는 제공 업체가 여러분의 View 개인 키를 보관하며, 여러분이 하는 행동을 거의 전부 볼 수 있습니다. 비수탁형 지갑으로는 이러한 것들이 있습니다:
 
 - [공식 Monero 클라이언트](https://getmonero.org/downloads) (데스크톱)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
-    - Cake Wallet은 여러 암호화폐를 지원합니다. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS)
+    - Cake Wallet은 여러 암호화폐를 지원합니다. A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)
 
-(비수탁형 지갑을 사용하더라도) 프라이버시를 극대화하려면 자체 Monero 노드를 운용해야 합니다. 다른 사람의 노드를 사용할 경우 해당 노드에 연결할 때 사용한 IP 주소, 지갑을 동기화한 시각, 지갑에서 전송된 트랜잭션(해당 트랜잭션에 대한 자세한 정보는 알 수 없음) 등 일부 정보가 해당 노드에 노출됩니다. 다른 사람의 Monero 노드에 연결할 때에 Tor 혹은 i2p를 사용하는 것이 대안이 될 수 있습니다.
+(비수탁형 지갑을 사용하더라도) 프라이버시를 극대화하려면 자체 Monero 노드를 운용해야 합니다. 다른 사람의 노드를 사용할 경우 해당 노드에 연결할 때 사용한 IP 주소, 지갑을 동기화한 시각, 지갑에서 전송된 트랜잭션(해당 트랜잭션에 대한 자세한 정보는 알 수 없음) 등 일부 정보가 해당 노드에 노출됩니다. Alternatively, you can connect to someone else’s Monero node over Tor or [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
 
-In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. 공개 포스트에 따르면, 미국 재무부의 금융 범죄 단속 네트워크(Financial Crimes Enforcement Network)는 2022년 말 CipherTrace의 'Monero 모듈'에 라이선스 자격을 [부여했습니다](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view).
+In August 2021, CipherTrace [announced](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. 공개 포스트에 따르면, 미국 재무부의 금융 범죄 단속 네트워크(Financial Crimes Enforcement Network)는 2022년 말 CipherTrace의 'Monero 모듈'에 라이선스 자격을 [부여했습니다](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view).
 
 Monero 트랜잭션 그래프는 프라이버시 면에서 제한적입니다. 상대적으로 작은 링 서명(Ring Signature)으로 인해, 표적 공격에 취약합니다. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. 비트코인이나 다른 암호화폐처럼 대규모 감시 도구가 Monero에도 존재할 가능성은 낮지만, 추적 툴이 표적 수사에 효과가 있을 것은 확실합니다.
 

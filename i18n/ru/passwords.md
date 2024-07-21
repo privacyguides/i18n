@@ -374,9 +374,9 @@ KeePassXC хранит экспортированные данные в виде
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Strongbox](assets/img/password-management/strongbox.svg){ align=right }
+![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** - это нативный менеджер паролей с открытым исходным кодом для iOS и macOS. Он поддерживает форматы KeePass и Password Safe, поэтому может быть использован совместно с другими менеджерами паролей, например KeePassXC, на устройствах не от Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** is a native password manager for iOS and macOS. Он поддерживает форматы KeePass и Password Safe, поэтому может быть использован совместно с другими менеджерами паролей, например KeePassXC, на устройствах не от Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }

@@ -20,7 +20,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 <div class="admonition recommendation" markdown>
 
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. Aplikasi tersebut dapat digunakan dengan akun daring untuk mencadangkan dan menyinkronkanisasi token Anda di seluruh perangkat Anda (dan mengaksesnya melalui antarmuka web) dengan cara yang aman dan terenkripsi ujung-ke-ujung. Aplikasi ini juga dapat digunakan secara luring pada satu perangkat tanpa perlu akun.
 

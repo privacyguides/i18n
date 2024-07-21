@@ -145,7 +145,7 @@ If you are using a device with Google services—whether with the stock operatin
 
 ### תוכנית הגנה מתקדמת
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). הוא זמין ללא עלות לכל מי שיש לו שני מפתחות אבטחה חומרה או יותר עם תמיכה ב-[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). הוא זמין ללא עלות לכל מי שיש לו שני מפתחות אבטחה חומרה או יותר עם תמיכה ב-[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
 
 תוכנית ההגנה המתקדמת מספקת ניטור איומים משופר ומאפשרת:
 

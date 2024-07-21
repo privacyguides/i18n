@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Perché dovrebbe importarmi?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### “Non ho nulla da nascondere. Perché dovrei preoccuparmi della mia privacy?"
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-Proprio come il diritto al matrimonio Interrazziale, il suffragio femminile, la libertà di parola e molti altri, il nostro diritto alla privacy non è sempre stato sostenuto. In diverse dittature non lo è ancora. Le vecchie generazioni hanno lottato per il nostro diritto alla privacy. ==La privacy è un diritto umano, inerente a tutti noi,== che ci spetta (senza discriminazione).
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Non dovresti confondere la privacy con la segretezza. Sappiamo che succede in bagno, ma chiudi comunque la porta. Questo perché vuoi privacy, non segretezza. **Tutti** hanno qualcosa da proteggere. La privacy è qualcosa che ci rende umani.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: Perché la Privacy è importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## Cosa dovrei fare?
+<div markdown>
+## What should I do?
 
-##### Per prima cosa, devi avere un piano
+##### First, you need to make a plan
 
-Provare a proteggere tutti i tuoi dati da chiunque e in ogni momento, è poco pratico, costoso ed estenuante. Ma non preoccuparti! La sicurezza è un processo e, pensando in anticipo, puoi mettere a punto un piano adatto a te. La sicurezza non riguarda soltanto gli strumenti che utilizzi o i software che scarichi. Piuttosto, parte dalla comprensione delle minacce uniche che affronti e di come puoi mitigarle.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Ma non preoccuparti! La sicurezza è un processo e, pensando in anticipo, puoi mettere a punto un piano adatto a te. La sicurezza non riguarda soltanto gli strumenti che utilizzi o i software che scarichi. Piuttosto, parte dalla comprensione delle minacce uniche che affronti e di come puoi mitigarle.
 
-==Questo procedimento d'identificazione e definizione delle contromisure è detto **Threat Modeling** (modello di minaccia)== e plasma le basi di ogni buon piano di sicurezza e privacy.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: Scopri il Modello di Minaccia](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

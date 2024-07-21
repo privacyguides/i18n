@@ -145,7 +145,7 @@ If you are using a device with Google services—whether with the stock operatin
 
 ### Geavanceerd beschermingsprogramma
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). Het is gratis beschikbaar voor iedereen met twee of meer hardware beveiligingssleutels met [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) ondersteuning.
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). Het is gratis beschikbaar voor iedereen met twee of meer hardware beveiligingssleutels met [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) ondersteuning. Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
 
 Het geavanceerde beschermingsprogramma biedt verbeterde controle op bedreigingen en maakt het mogelijk:
 

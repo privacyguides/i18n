@@ -20,9 +20,9 @@ cover: multi-factor-authentication.webp
 
 <div class="admonition recommendation" markdown>
 
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
-**Ente Auth** 是一款免費的開源應用，可在行動裝置上儲存和產生 TOTP 令牌。 它可以與線上帳戶一起使用，以安全、端對端加密的方式在裝置上備份和同步令牌（並透過網頁介面存取它們）。 它也可在單一設備上離線使用，無需帳戶。
+**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. 它可以與線上帳戶一起使用，以安全、端對端加密的方式在裝置上備份和同步令牌（並透過網頁介面存取它們）。 它也可在單一設備上離線使用，無需帳戶。
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }

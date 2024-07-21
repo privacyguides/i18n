@@ -394,7 +394,7 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** 是 iOS 和 macOS 原生開源密碼管理器。 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** is a native password manager for iOS and macOS. 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }

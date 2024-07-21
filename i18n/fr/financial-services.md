@@ -15,7 +15,7 @@ Il existe un certain nombre de services qui fournissent des "cartes de débit vi
 <div class="admonition tip" markdown>
 <p class="admonition-title">Vérifiez votre banque actuelle</p>
 
-De nombreuses banques et fournisseurs de cartes de crédit proposent une fonctionnalité native de carte virtuelle. Si vous en utilisez une qui offre déjà cette option, vous devriez, dans la plupart des cas, l'utiliser plutôt que de suivre les recommandations suivantes. De cette manière, vous ne confiez pas vos informations personnelles à plusieurs personnes.
+De nombreuses banques et fournisseurs de cartes de crédit proposent une fonctionnalité native de carte virtuelle. Si vous en utilisez une qui offre déjà cette option, vous devriez, dans la plupart des cas, l'utiliser plutôt que de suivre les recommandations suivantes. That way, you are not trusting multiple parties with your personal information.
 
 </div>
 
@@ -26,7 +26,7 @@ De nombreuses banques et fournisseurs de cartes de crédit proposent une fonctio
 ![logo Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 ![logo Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-L'offre gratuite de **Privacy.com** vous permet de créer jusqu'à 12 cartes virtuelles par mois, de fixer des limites de dépenses pour ces cartes et de les arrêter instantanément. Son offre payante vous permet de créer jusqu'à 36 cartes par mois, d'obtenir 1 % de remise en argent sur vos achats et de masquer les informations relatives aux transactions à votre banque.
+L'offre gratuite de **Privacy.com** vous permet de créer jusqu'à 12 cartes virtuelles par mois, de fixer des limites de dépenses pour ces cartes et de les arrêter instantanément. Their paid plans provide higher limits on the number of cards that can be created each month and the option to hide transaction information from your bank.
 
 [:octicons-home-16: Page d'accueil](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -36,7 +36,7 @@ L'offre gratuite de **Privacy.com** vous permet de créer jusqu'à 12 cartes vir
 
 </div>
 
-Privacy.com transmet par défaut à votre banque des informations sur les commerçants auprès desquels vous effectuez des achats. La fonction payante "marchands discrets" cache les informations relatives aux marchands à votre banque, de sorte que votre banque voit seulement qu'un achat a été effectué auprès de Privacy.com, mais pas où l'argent a été dépensé, mais ce n'est pas infaillible et, bien sûr, Privacy.com a toujours connaissance des marchands auprès desquels vous dépensez de l'argent.
+Privacy.com transmet par défaut à votre banque des informations sur les commerçants auprès desquels vous effectuez des achats. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
 
 ### MySudo (États-Unis, payant)
 
@@ -66,15 +66,15 @@ Les cartes virtuelles de MySudo ne sont actuellement disponibles que via leur ap
 
 ## Marchés de cartes-cadeaux
 
-Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de marchands en ligne avec de la [crypto-monnaie](cryptocurrency.md). Certains de ces services proposent des options de vérification d'identité pour des limites plus élevées, mais ils permettent également d'ouvrir des comptes avec une simple adresse email. Les limites de base commencent généralement à 5 000 - 10 000 $ par jour pour les comptes de base, et des limites nettement plus élevées sont proposées pour les comptes à identité vérifiée (le cas échéant).
+Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de marchands en ligne avec de la [crypto-monnaie](cryptocurrency.md). Certains de ces services proposent des options de vérification d'identité pour des limites plus élevées, mais ils permettent également d'ouvrir des comptes avec une simple adresse email. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
-### CoinCards
+### Coincards
 
 <div class="admonition recommendation" markdown>
 
-![Logo CoinCards](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
 
-**CoinCards** (disponible aux Etats-Unis et au Canada) vous permet d'acheter des cartes-cadeaux auprès d'un grand nombre de commerçants.
+**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 
 [:octicons-home-16: Page d'accueil](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Politique de confidentialité" }

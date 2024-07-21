@@ -63,7 +63,7 @@ I tuoi dati sulla posizione non sono E2EE quando il tuo dispositivo è online e 
 
 In cima all'app delle **Impostazioni**, visualizzerai il tuo nome e la tua foto di profilo, se hai un Apple ID. Selezionalo, quindi seleziona **Find My**. Qui puoi scegliere se abilitare o disabilitare le funzionalità di posizione di Find My.
 
-### Impostazioni
+### Settings
 
 Molte altre impostazioni correlate alla privacy si possono trovare nell'app delle **Impostazioni**.
 

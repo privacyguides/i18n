@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Mengapa saya harus peduli?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### “Saya tidak memiliki apa-apa untuk disembunyikan. Mengapa saya harus peduli dengan privasi saya?”
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-Sama seperti hak untuk menikah antar ras, hak pilih perempuan, kebebasan berbicara, dan banyak lainnya, hak kita untuk mendapatkan privasi tidak selalu ditegakkan. Dalam beberapa kediktatoran, masih belum. Generasi sebelum kita memperjuangkan untuk hak privasi kita. ==Privasi adalah hak asasi manusia, yang melekat pada kita semua,== yang berhak kita dapatkan (tanpa diskriminasi).
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Anda tidak harus bingung antara privasi dengan kerahasiaan. Kami tahu apa yang terjadi di kamar mandi, tapi Anda tetap menutup pintunya. Itu karena Anda menginginkan privasi, bukan kerahasiaan. **Setiap orang** memiliki sesuatu untuk dilindungi. Privasi adalah sesuatu yang membuat kita menjadi manusia.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## Apa yang harus saya lakukan?
+<div markdown>
+## What should I do?
 
-##### Pertama, Anda perlu membuat rencana
+##### First, you need to make a plan
 
-Mencoba untuk melindungi semua data Anda dari semua orang setiap saat tidaklah praktis, mahal, dan melelahkan. Tetapi jangan khawatir! Keamanan adalah sebuah proses, dan dengan berpikir ke depan, Anda dapat menyusun rencana yang tepat untuk Anda. Keamanan bukan hanya tentang alat yang Anda gunakan atau perangkat lunak yang Anda unduh. Sebaliknya, itu dimulai dengan memahami ancaman unik yang Anda hadapi, dan bagaimana Anda dapat memitigasinya.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Tetapi jangan khawatir! Keamanan adalah sebuah proses, dan dengan berpikir ke depan, Anda dapat menyusun rencana yang tepat untuk Anda. Keamanan bukan hanya tentang alat yang Anda gunakan atau perangkat lunak yang Anda unduh. Sebaliknya, itu dimulai dengan memahami ancaman unik yang Anda hadapi, dan bagaimana Anda dapat memitigasinya.
 
-==Proses mengidentifikasi ancaman dan mendefinisikan tindakan penanggulangan disebut **pemodelan ancaman**==, dan ini menjadi dasar dari setiap rencana keamanan dan privasi yang baik.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
 [:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

@@ -160,7 +160,7 @@ Android 7以上版本支援VPN kill switch ，無需安裝第三方應用程式�
 
 ### 進階保護計劃
 
-如果有 Google 帳戶，建議註冊 [進階保護計劃](https://landing.google.com/advancedprotection)。 任何擁有兩個或多個硬體安全金鑰且支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 都可免費使用。
+如果有 Google 帳戶，建議註冊 [進階保護計劃](https://landing.google.com/advancedprotection)。 任何擁有兩個或多個硬體安全金鑰且支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 都可免費使用。 Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
 
 進階防護計劃提供強化的威脅監控，並能夠：
 

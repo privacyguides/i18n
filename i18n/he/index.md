@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## למה שיהיה אכפת לי?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### “אין לי מה להסתיר. למה שאדאג לפרטיות שלי?"
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-בדומה לזכות לנישואים בין-גזעיים, זכות בחירה לאישה, חופש הביטוי ורבים אחרים, זכותנו לפרטיות לא תמיד נשמרה. בכמה דיקטטורות, היא עדיין לא. דורות לפנינו נלחמו על זכותנו לפרטיות. ==פרטיות היא זכות אדם, הטבועה בכולנו,== שמגיעה לנו (ללא אפליה).
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-אין לבלבל בין פרטיות לסודיות. אנחנו יודעים מה קורה בשירותים, אבל עדיין סוגרים את הדלת. זה בגלל שאתה רוצה פרטיות, לא סודיות. **לכל** אחד יש על מה להגן. פרטיות היא משהו שהופך אותנו לאנושיים.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: למה פרטיות חשובה](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## מה אני צריך לעשות?
+<div markdown>
+## What should I do?
 
-##### ראשית, עליך להכין תוכנית
+##### First, you need to make a plan
 
-ניסיון להגן על כל הנתונים שלך מפני כולם כל הזמן הוא לא מעשי, יקר ומתיש. אבל אל תדאג! אבטחה היא תהליך, ועל ידי תכנון בריא, אתה יכול להרכיב תוכנית שמתאימה לך. אבטחה אינה עוסקת רק בכלים שבהם אתה משתמש או בתוכנות שאותם אתה מוריד. במקום זאת, היא מתחילה בהבנת האיומים הייחודיים שאתה מתמודד איתם, וכיצד אתה יכול למגר אותם.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. אבל אל תדאג! אבטחה היא תהליך, ועל ידי תכנון בריא, אתה יכול להרכיב תוכנית שמתאימה לך. אבטחה אינה עוסקת רק בכלים שבהם אתה משתמש או בתוכנות שאותם אתה מוריד. במקום זאת, היא מתחילה בהבנת האיומים הייחודיים שאתה מתמודד איתם, וכיצד אתה יכול למגר אותם.
 
-==תהליך זה של זיהוי איומים והגדרת אמצעי נגד נקרא **מידול** (מלשון מודל) ** סיכונים ** ==, והוא מהווה את הבסיס לכל תוכנית אבטחה ופרטיות טובה.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: למידע נוסף על מודל איומים](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

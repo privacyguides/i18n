@@ -145,7 +145,7 @@ If you are using a device with Google services—whether with the stock operatin
 
 ### 고급 보호 프로그램
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)를 지원하는 하드웨어 보안 키를 2개 이상 가지고 있다면 누구나 무료로 이용할 수 있습니다.
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)를 지원하는 하드웨어 보안 키를 2개 이상 가지고 있다면 누구나 무료로 이용할 수 있습니다. Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
 
 고급 보호 프로그램은 향상된 위협 모니터링 기능을 제공합니다.
 

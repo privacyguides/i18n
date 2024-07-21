@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Miért érdekeljen ez engem?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### “Nincs semmi rejtegetnivalóm. Miért kellene törődnöm a magánéletemmel?”
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-A kultúrák közötti házassághoz, a női választójoghoz, a szólásszabadsághoz és sok minden máshoz hasonlóan a magánélethez való jogunk sem volt mindig biztosított. Számos diktatúrában még mindig nem az. Generációink előtt nemzedékek harcoltak a mi jogunkért a magánélethez. ==A magánélet mindannyiunk emberi joga==, amelyhez (megkülönböztetés nélkül) jogunk van.
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Nem szabad összekeverni a magánéletet a titoktartással. Tudjuk, hogy mi történik a mosdóban, de az ajtó mégis becsukjuk. Ez azért van, mert magánéletet akarsz, nem titoktartást. **Mindenkinek** van mit megvédenie. A magánélet olyasmi, ami emberré tesz minket.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: Miért fontos az adatvédelem](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## Mihez kezdjek?
+<div markdown>
+## What should I do?
 
-##### Először is, tervet kell készítened
+##### First, you need to make a plan
 
-Megpróbálni az összes adatodat mindenkitől és mindig megvédeni nem praktikus, költséges és fárasztó. De ne aggódj! Az adatbiztonság egy folyamat, és ha előre gondolkodsz, akkor összeállíthatsz egy neked megfelelő tervet. A biztonság nem csak a használt eszközökről vagy a letöltött szoftverekről szól. Inkább annak megértésével kezdődik, hogy milyen egyedi fenyegetésekkel kell szembenézned, és hogyan tudsz ellenük védekezni.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. De ne aggódj! Az adatbiztonság egy folyamat, és ha előre gondolkodsz, akkor összeállíthatsz egy neked megfelelő tervet. A biztonság nem csak a használt eszközökről vagy a letöltött szoftverekről szól. Inkább annak megértésével kezdődik, hogy milyen egyedi fenyegetésekkel kell szembenézned, és hogyan tudsz ellenük védekezni.
 
-==A fenyegetések azonosításának és az ellenintézkedések meghatározásának ezt a folyamatát **védelmi modellezésnek**== nevezzük, és ez képezi minden jó biztonsági és adatvédelmi terv alapját.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: További információk a védelmi modellekről](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

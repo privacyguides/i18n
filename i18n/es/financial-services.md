@@ -15,7 +15,7 @@ Hay una serie de servicios que ofrecen "tarjetas de débito virtuales" que puede
 <div class="admonition tip" markdown>
 <p class="admonition-title">Compruebe su banco actual</p>
 
-Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de tarjeta virtual. Si ya utiliza uno que ofrezca esta opción, debería utilizarlo en lugar de las siguientes recomendaciones en la mayoría de los casos. De este modo, no estará confiando su información personal a varias personas.
+Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de tarjeta virtual. Si ya utiliza uno que ofrezca esta opción, debería utilizarlo en lugar de las siguientes recomendaciones en la mayoría de los casos. That way, you are not trusting multiple parties with your personal information.
 
 </div>
 
@@ -26,7 +26,7 @@ Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de
 ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 ![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-El plan gratuito de **Privacy.com** le permite crear hasta 12 tarjetas virtuales al mes, establecer límites de gasto en esas tarjetas y cerrarlas al instante. Su plan de pago le permite crear hasta 36 tarjetas al mes, obtener un 1% de reembolso en las compras y ocultar la información de la transacción de su banco.
+El plan gratuito de **Privacy.com** le permite crear hasta 12 tarjetas virtuales al mes, establecer límites de gasto en esas tarjetas y cerrarlas al instante. Their paid plans provide higher limits on the number of cards that can be created each month and the option to hide transaction information from your bank.
 
 [:octicons-home-16: Página Principal](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -36,7 +36,7 @@ El plan gratuito de **Privacy.com** le permite crear hasta 12 tarjetas virtuales
 
 </div>
 
-Privacy.com facilita por defecto a su banco información sobre los comercios en los que compra. Su función de pago "discreet merchants" oculta la información de los comercios a su banco, de modo que su banco sólo ve que se ha realizado una compra en Privacy.com, pero no dónde se ha gastado el dinero. Sin embargo, esto no es infalible y, por supuesto, Privacy.com sigue teniendo conocimiento de los comercios en los que gasta dinero.
+Privacy.com facilita por defecto a su banco información sobre los comercios en los que compra. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
 
 ### MySudo (EE. UU., De Pago)
 
@@ -66,15 +66,15 @@ Por el momento, las tarjetas virtuales de MySudo solo están disponibles a trav�
 
 ## Mercados en Línea de Tarjetas Regalo
 
-Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de comercios en línea con [criptomonedas](cryptocurrency.md). Algunos de estos servicios ofrecen opciones de verificación de identidad para límites más altos, pero también permiten cuentas con sólo una dirección de correo electrónico. Los límites básicos suelen comenzar en 5.000-10.000 dólares al día para las cuentas básicas, y límites significativamente más altos para las cuentas verificadas mediante un documento identificativo (si se ofrecen).
+Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de comercios en línea con [criptomonedas](cryptocurrency.md). Algunos de estos servicios ofrecen opciones de verificación de identidad para límites más altos, pero también permiten cuentas con sólo una dirección de correo electrónico. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
-### CoinCards
+### Coincards
 
 <div class="admonition recommendation" markdown>
 
-![CoinCards logo](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
 
-**CoinCards** (disponible en EE. UU. y Canad) le permite comprar tarjetas regalo para una gran variedad de comercios.
+**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 
 [:octicons-home-16: Página Principal](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Política de Privacidad" }

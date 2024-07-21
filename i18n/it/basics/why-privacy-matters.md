@@ -43,7 +43,7 @@ Tutti questi concetti si sovrappongono, ma è possibile che si presentino in qua
 
 Un'antitesi comune ai movimenti a favore della privacy è laa nozione che la privacy non è necessaria, se non si ha **"nulla da nascondere."** Questo è un concetto sbagliato e pericoloso, poiché dà l'idea che le persone che richiedono privacy, siano devianti, criminali o sbagliati.
 
-==Non dovresti confondere la privacy con la segretezza.== Sappiamo cosa succede in bagno, eppure chiudi comunque la porta. Questo perché vuoi privacy, non segretezza. Ci sono sempre alcuni fatti che ci riguardano, ad esempio, le informazioni sanitarie o le abitudini sessuali, che non vogliamo siano note al mondo intero, ed è giusto così. La necessità di privacy è legittima, ed è ciò che ci rende umani. La privacy consiste nell'emancipare i tuoi diritti sulle tue informazioni, non nel nascondere i segreti.
+==Non dovresti confondere la privacy con la segretezza.== Sappiamo cosa succede in bagno, eppure chiudi comunque la porta. That's because you want privacy, not secrecy. Ci sono sempre alcuni fatti che ci riguardano, ad esempio, le informazioni sanitarie o le abitudini sessuali, che non vogliamo siano note al mondo intero, ed è giusto così. La necessità di privacy è legittima, ed è ciò che ci rende umani. La privacy consiste nell'emancipare i tuoi diritti sulle tue informazioni, non nel nascondere i segreti.
 
 ## La privacy è controllo?
 

@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Γιατί πρέπει να με νοιάζει;
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### "Δεν έχω κάτι να κρύψω. Γιατί πρέπει να με νοιάζει η ιδιωτικότητα μου;"
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-Όπως το δικαίωμα για τον διαφυλετικό γάμο, το δικαίωμα ψήφου για τις γυναικών, η ελευθερία του λόγου και πολλά άλλα, έτσι και το δικαίωμά για την ιδιωτικότητα μας δεν έχει πάντα υποστηριχθεί. Σε πολλές δικτατορίες, ακόμα αυτό δεν ισχύει. Γενιές πριν από τη δική μας αγωνίστηκαν για το δικαίωμα της ιδιωτικότητας μας. ==Η ιδιωτικότητα είναι ένα ανθρώπινο δικαίωμα, εγγενές σε όλους μας,== το οποίο δικαιούμαστε (χωρίς διακρίσεις).
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Δεν πρέπει να μπερδεύεις την ιδιωτικότητα με τη μυστικότητα. Ξέρουμε τι συμβαίνει όσο είσαι στο μπάνιο, αλλά εξακολουθείς να κλείνεις την πόρτα. Αυτό συμβαίνει επειδή θέλεις ιδιωτικότητα, όχι μυστικότητα. **Όλοι** έχουν κάτι να προστατεύσουν. Η ιδιωτικότητα είναι κάτι που μας κάνει ανθρώπους.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: Γιατί η ιδιωτικότητα έχει σημασία ](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## Τι πρέπει να κάνω;
+<div markdown>
+## What should I do?
 
-##### Πρώτα απ 'όλα, πρέπει να φτιάξεις ένα σχέδιο
+##### First, you need to make a plan
 
-Το να προσπαθείς να προστατεύσεις συνέχεια όλα τα δεδομένα σου από όλους είναι ανέφικτο, δαπανηρό και εξαντλητικό. Αλλά μην ανησυχείς! Η ασφάλεια είναι μια διαδικασία και, αν σκέφτεσαι εκ των προτέρων, μπορείς να δημιουργήσεις ένα σχέδιο που είναι κατάλληλο για εσένα. Η ασφάλεια δεν αφορά μόνο τα εργαλεία που χρησιμοποιείς ή το λογισμικό που κατεβάζεις. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Αλλά μην ανησυχείς! Η ασφάλεια είναι μια διαδικασία και, αν σκέφτεσαι εκ των προτέρων, μπορείς να δημιουργήσεις ένα σχέδιο που είναι κατάλληλο για εσένα. Η ασφάλεια δεν αφορά μόνο τα εργαλεία που χρησιμοποιείς ή το λογισμικό που κατεβάζεις. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
 
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
 [:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

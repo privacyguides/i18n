@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Waarom moet ik me zorgen maken?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### "Ik heb niks te verbergen. Waarom zou ik me zorgen maken over mijn privacy?"
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-Net zoals het recht op interraciale huwelijken, het kiesrecht voor vrouwen, de vrijheid van meningsuiting en vele andere, hadden wij niet altijd recht op privacy. In verschillende dictaturen is dat nog steeds niet het geval. Generaties voor ons vochten voor ons recht op privacy. ==Privacy is een mensenrecht, inherent aan ons allen,== waar we recht op hebben (zonder discriminatie).
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Je moet privacy niet verwarren met geheimhouding. We weten wat er in de badkamer gebeurt, maar je doet nog steeds de deur dicht. Dat is omdat je privacy wilt, geen geheimzinnigheid. **Iedereen** heeft iets te beschermen. Privacy is iets wat ons menselijk maakt.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: Waarom Privacy Belangrijk Is](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## Wat moet ik doen?
+<div markdown>
+## What should I do?
 
-##### Eerst moet je een plan maken
+##### First, you need to make a plan
 
-Het is onpraktisch, duur en vermoeiend om te proberen al jouw gegevens altijd tegen iedereen te beschermen. Maar maak je geen zorgen! Veiligheid is een proces, en door vooruit te denken kun je een plan samenstellen dat bij jou past. Veiligheid gaat niet alleen over de tools die je gebruikt of de software die je downloadt. Integendeel, het begint met het begrijpen van de unieke bedreigingen waarmee je wordt geconfronteerd en hoe je deze kunt beperken.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Maar maak je geen zorgen! Veiligheid is een proces, en door vooruit te denken kun je een plan samenstellen dat bij jou past. Veiligheid gaat niet alleen over de tools die je gebruikt of de software die je downloadt. Integendeel, het begint met het begrijpen van de unieke bedreigingen waarmee je wordt geconfronteerd en hoe je deze kunt beperken.
 
-==Dit proces van het identificeren van bedreigingen en het vaststellen van tegenmaatregelen wordt **bedreigingsmodellering** genoemd==, en het vormt de basis van elk goed beveiligings- en privacyplan.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: Meer informatie over Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

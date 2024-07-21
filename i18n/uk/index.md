@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Чому це має мене хвилювати?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### "Мені нічого приховувати. Чому я повинен піклуватися про свою приватність?"
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-Подібно до права на міжрасовий шлюб, виборчого права жінок, свободи слова та багатьох інших, наше право на конфіденційність не завжди дотримувалося. У деяких диктаторських режимах це досі не відбувається. Покоління до нас боролися за наше право на приватність. ==Конфіденційність - це право людини, притаманне всім нам,== на яке ми маємо право (без виключення).
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Не варто плутати конфіденційність із таємністю. Ми знаємо, що відбувається у ванній, але ви все одно зачиняєте двері. Це тому, що ви хочете конфіденційності, а не таємності. **Кожному** є що захищати. Конфіденційність - це щось, що робить нас людьми.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## Що мені робити?
+<div markdown>
+## What should I do?
 
-##### Спочатку, вам потрібно скласти план
+##### First, you need to make a plan
 
-Намагатися постійно захищати всі свої дані від усіх - непрактично, дорого і виснажливо. Але не хвилюйтеся! Безпека - це процес, і, думаючи наперед, ви можете скласти план, який підходить саме вам. Безпека - це не лише інструменти, які ви використовуєте, або програмне забезпечення, яке ви завантажуєте. Скоріше, вона починається з розуміння унікальних загроз, з якими ви стикаєтеся, і того, як ви можете їх пом'якшити.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Але не хвилюйтеся! Безпека - це процес, і, думаючи наперед, ви можете скласти план, який підходить саме вам. Безпека - це не лише інструменти, які ви використовуєте, або програмне забезпечення, яке ви завантажуєте. Скоріше, вона починається з розуміння унікальних загроз, з якими ви стикаєтеся, і того, як ви можете їх пом'якшити.
 
-==Цей процес виявлення загроз та визначення контрзаходів називається **моделюванням загроз**==, та він є основою кожного хорошого плану безпеки та конфіденційності.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
 [:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

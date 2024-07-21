@@ -15,7 +15,7 @@ cover: financial-services.webp
 <div class="admonition tip" markdown>
 <p class="admonition-title">Check your current bank</p>
 
-Многие банки и поставщики кредитных карт предлагают встроенные функции виртуальных карт. Если вы уже используете провайдера, который предоставляет такую возможность, в большинстве случаев следует использовать его вместо следующих рекомендаций. Таким образом, вы не доверяете свою личную информацию нескольким лицам.
+Многие банки и поставщики кредитных карт предлагают встроенные функции виртуальных карт. Если вы уже используете провайдера, который предоставляет такую возможность, в большинстве случаев следует использовать его вместо следующих рекомендаций. That way, you are not trusting multiple parties with your personal information.
 
 </div>
 
@@ -26,7 +26,7 @@ cover: financial-services.webp
 ![Логотип Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 ![Логотип Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-Бесплатный тарифный план **Privacy.com** позволяет создавать до 12 виртуальных карт в месяц, устанавливать лимиты расходов по этим картам и мгновенно отключать карты. Платный тарифный план позволяет создавать до 36 карт в месяц, получать 1% кэшбэка за покупки и скрывать информацию о транзакциях от вашего банка.
+Бесплатный тарифный план **Privacy.com** позволяет создавать до 12 виртуальных карт в месяц, устанавливать лимиты расходов по этим картам и мгновенно отключать карты. Their paid plans provide higher limits on the number of cards that can be created each month and the option to hide transaction information from your bank.
 
 [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -36,7 +36,7 @@ cover: financial-services.webp
 
 </div>
 
-Privacy.com по умолчанию передает информацию о продавцах, у которых вы совершаете покупки, в ваш банк. Их платная функция "скрытых продавцов" скрывает информацию о продавцах от вашего банка, так что ваш банк видит только то, что покупка была сделана с помощью Privacy.com, но не то, куда были потрачены деньги, однако это не является надежной защитой, и, конечно, Privacy.com все равно имеет информацию о продавцах, у которых вы тратите деньги.
+Privacy.com по умолчанию передает информацию о продавцах, у которых вы совершаете покупки, в ваш банк. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
 
 ### MySudo (США, платно)
 
@@ -66,15 +66,15 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 ## Маркетплейсы подарочных карт
 
-Эти сервисы позволяют приобретать подарочные карты для различных онлайн-площадок с помощью [криптовалюты](cryptocurrency.md). Некоторые из этих сервисов предлагают возможность проверки личности для получения более высоких лимитов, но они также позволяют создавать аккаунты, используя только адрес электронной почты. Базовые лимиты обычно начинаются от $5,000-10,000 в день для базовых аккаунтов. Значительно большие лимиты предоставляются для аккаунтов, подтвержденных документами (если такая возможность предлагается).
+Эти сервисы позволяют приобретать подарочные карты для различных онлайн-площадок с помощью [криптовалюты](cryptocurrency.md). Некоторые из этих сервисов предлагают возможность проверки личности для получения более высоких лимитов, но они также позволяют создавать аккаунты, используя только адрес электронной почты. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
-### CoinCards
+### Coincards
 
 <div class="admonition recommendation" markdown>
 
-![Логотип CoinCards](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
 
-**CoinCards** (доступна в США и Канаде) позволяет приобретать подарочные карты для большого количества продавцов.
+**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 
 [:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }

@@ -15,7 +15,7 @@ Er zijn een aantal diensten die "virtuele debetkaarten" aanbieden die je bij onl
 <div class="admonition tip" markdown>
 <p class="admonition-title">Controleer uw huidige bank</p>
 
-Veel banken en kredietkaartaanbieders bieden hun eigen virtuele kaartfunctionaliteit. Als je er een gebruikt die deze optie al biedt, moet je deze in de meeste gevallen over de volgende aanbevelingen gebruiken. Op die manier vertrouw je niet meerdere partijen met jouw persoonlijke informatie.
+Veel banken en kredietkaartaanbieders bieden hun eigen virtuele kaartfunctionaliteit. Als je er een gebruikt die deze optie al biedt, moet je deze in de meeste gevallen over de volgende aanbevelingen gebruiken. That way, you are not trusting multiple parties with your personal information.
 
 </div>
 
@@ -26,7 +26,7 @@ Veel banken en kredietkaartaanbieders bieden hun eigen virtuele kaartfunctionali
 Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-Met het gratis plan van **Privacy.com** kunt je tot 12 virtuele kaarten per maand aanmaken, uitgavenlimieten op die kaarten instellen en kaarten onmiddellijk uitschakelen. Met hun betaalde plan kunt je tot 36 kaarten per maand aanmaken, 1% cashback krijgen op aankopen en transactiegegevens voor jouw bank verbergen.
+Met het gratis plan van **Privacy.com** kunt je tot 12 virtuele kaarten per maand aanmaken, uitgavenlimieten op die kaarten instellen en kaarten onmiddellijk uitschakelen. Their paid plans provide higher limits on the number of cards that can be created each month and the option to hide transaction information from your bank.
 
 [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -36,7 +36,7 @@ Met het gratis plan van **Privacy.com** kunt je tot 12 virtuele kaarten per maan
 
 </div>
 
-Privacy.com geeft standaard informatie over de handelaren bij wie je koopt door aan jouw bank. Hun betaalde functie "discrete handelaars" verbergt handelaarsinformatie voor jouw bank, zodat jouw bank alleen ziet dat een aankoop werd gedaan bij Privacy.com maar niet waar dat geld werd uitgegeven, maar dat is niet waterdicht, en natuurlijk heeft Privacy.com nog steeds kennis over de handelaars waar je geld uitgeeft.
+Privacy.com geeft standaard informatie over de handelaren bij wie je koopt door aan jouw bank. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
 
 ### MySudo (VS, Betaald)
 
@@ -66,15 +66,15 @@ De virtuele kaarten van MySudo zijn momenteel alleen beschikbaar via hun iOS-app
 
 ## Marktplaatsen voor cadeaubonnen
 
-Met deze diensten kunt je online cadeaubonnen kopen voor verschillende handelaren met [cryptocurrency](cryptocurrency.md). Sommige van deze services bieden opties voor ID-verificatie voor hogere limieten, maar ze staan ook accounts toe met alleen een e-mailadres. Basislimieten beginnen bij $ 5.000-10.000 per dag voor basisaccounts en aanzienlijk hogere limieten voor ID geverifieerde accounts (indien aangeboden).
+Met deze diensten kunt je online cadeaubonnen kopen voor verschillende handelaren met [cryptocurrency](cryptocurrency.md). Sommige van deze services bieden opties voor ID-verificatie voor hogere limieten, maar ze staan ook accounts toe met alleen een e-mailadres. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
-### CoinCards
+### Coincards
 
 <div class="admonition recommendation" markdown>
 
-![CoinCards logo](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
 
-** CoinCards ** (beschikbaar in de VS, Canada en het VK) kunt je cadeaubonnen kopen voor een grote verscheidenheid aan verkopers.
+**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 
 [:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }

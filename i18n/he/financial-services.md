@@ -15,7 +15,7 @@ cover: financial-services.webp
 <div class="admonition tip" markdown>
 <p class="admonition-title">Check your current bank</p>
 
-בנקים וספקי כרטיסי אשראי רבים מציעים פונקציונליות מקורית של כרטיסים וירטואליים. אם אתה משתמש באחד שכבר מספק את האפשרות הזו, עליך להשתמש בו על פני ההמלצות הבאות ברוב המקרים. כך אינך סומך על מספר צדדים עם המידע האישי שלך.
+בנקים וספקי כרטיסי אשראי רבים מציעים פונקציונליות מקורית של כרטיסים וירטואליים. אם אתה משתמש באחד שכבר מספק את האפשרות הזו, עליך להשתמש בו על פני ההמלצות הבאות ברוב המקרים. That way, you are not trusting multiple parties with your personal information.
 
 </div>
 
@@ -26,7 +26,7 @@ cover: financial-services.webp
 ![Privacy.com לוגו](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 ![Privacy.com לוגו](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-התוכנית החינמית של **Privacy.com** מאפשרת לך ליצור עד 12 כרטיסים וירטואליים בחודש, להגדיר מגבלות הוצאות על כרטיסים אלה ולכבות כרטיסים באופן מיידי. התוכנית בתשלום שלהם מאפשרת לך ליצור עד 36 כרטיסים בחודש, לקבל החזר של 1% מזומן על רכישות ולהסתיר מידע של העסקה מהבנק שלך.
+התוכנית החינמית של **Privacy.com** מאפשרת לך ליצור עד 12 כרטיסים וירטואליים בחודש, להגדיר מגבלות הוצאות על כרטיסים אלה ולכבות כרטיסים באופן מיידי. Their paid plans provide higher limits on the number of cards that can be created each month and the option to hide transaction information from your bank.
 
 [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -36,7 +36,7 @@ cover: financial-services.webp
 
 </div>
 
-Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנק שלך כברירת מחדל. תכונת "סוחרים דיסקרטיים" בתשלום שלהם מסתירה מידע סוחר מהבנק שלך, כך שהבנק שלך רואה רק שבוצעה רכישה עם Privacy.com אבל לא איפה הכסף הזה הוצא, אבל זה לא חסין תקלות, וכמובן ש-Privacy.com עדיין יש ידע על הסוחרים שאיתם אתה מוציא כסף.
+Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנק שלך כברירת מחדל. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
 
 ### MySudo (ארה"ב, בתשלום)
 
@@ -66,15 +66,15 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 ## שווקים של כרטיסי מתנה
 
-שירותים אלו מאפשרים לך לרכוש כרטיסי מתנה עבור מגוון סוחרים באינטרנט באמצעות [מטבע קריפטוגרפי](cryptocurrency.md). חלק מהשירותים הללו מציעים אפשרויות אימות מזהה עבור מגבלות גבוהות יותר, אך הם גם מאפשרים חשבונות עם כתובת אימייל בלבד. מגבלות בסיסיות מתחילות בדרך כלל מ-$5,000-10,000 ליום עבור חשבונות בסיסיים, ומגבלות גבוהות משמעותית עבור חשבונות מאומתים מזהים (אם מוצעים).
+שירותים אלו מאפשרים לך לרכוש כרטיסי מתנה עבור מגוון סוחרים באינטרנט באמצעות [מטבע קריפטוגרפי](cryptocurrency.md). חלק מהשירותים הללו מציעים אפשרויות אימות מזהה עבור מגבלות גבוהות יותר, אך הם גם מאפשרים חשבונות עם כתובת אימייל בלבד. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
-### CoinCards
+### Coincards
 
 <div class="admonition recommendation" markdown>
 
-![CoinCards לוגו](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
 
-** CoinCards ** (זמין בארה"ב ובקנדה) מאפשר לך לרכוש כרטיסי מתנה למגוון גדול של סוחרים.
+**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 
 [:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }

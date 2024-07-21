@@ -145,7 +145,7 @@ If you are using a device with Google services—whether with the stock operatin
 
 ### Програма додаткового захисту
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). Це дозволить вам отримати **деякі** виправлення безпеки від Google, не порушуючи при цьому моделі безпеки Android використовуючи небезпечну похідну Android і збільшуючи поверхню атаки.
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). Це дозволить вам отримати **деякі** виправлення безпеки від Google, не порушуючи при цьому моделі безпеки Android використовуючи небезпечну похідну Android і збільшуючи поверхню атаки. Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
 
 Програма додаткового захисту забезпечує посилений моніторинг загроз та вмикає:
 

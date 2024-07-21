@@ -38,6 +38,8 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
+<div class="grid" markdown>
+<div markdown>
 ## Why should I care?
 
 ##### “I have nothing to hide. Why should I care about my privacy?”
@@ -47,7 +49,9 @@ Much like the right to interracial marriage, woman's suffrage, freedom of speech
 You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
+<div markdown>
 ## What should I do?
 
 ##### First, you need to make a plan
@@ -57,3 +61,5 @@ Trying to protect all your data from everyone all the time is impractical, expen
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
 [:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

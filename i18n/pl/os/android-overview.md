@@ -145,7 +145,7 @@ If you are using a device with Google services—whether with the stock operatin
 
 ### Advanced Protection Program
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). To umożliwi Ci otrzymywanie **niektórych** poprawek bezpieczeństwa od Google bez naruszania modelu zabezpieczeń Androida poprzez używanie systemu pochodnego od Androida i zwiększanie ryzyka na atak.
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). To umożliwi Ci otrzymywanie **niektórych** poprawek bezpieczeństwa od Google bez naruszania modelu zabezpieczeń Androida poprzez używanie systemu pochodnego od Androida i zwiększanie ryzyka na atak. Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
 
 The Advanced Protection Program provides enhanced threat monitoring and enables:
 

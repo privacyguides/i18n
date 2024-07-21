@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Почему это должно меня волновать?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### «Мне нечего скрывать. Почему я должен беспокоиться о своей приватности?»
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-Подобно праву на межрасовый брак, избирательному праву для женщин, свободе слова и многим другим правам, наше право на приватность не всегда соблюдалось. В некоторых диктатурах это всё ещё представляет проблему. Предыдущие поколения боролись за наше право на приватность. ==Приватность — это естественное право каждого человека,== и мы все без исключения должны им обладать.
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Не стоит путать приватность с секретностью. Все знают, что происходит в вашей ванной, но вы всё равно закрываете дверь. Это потому, что вы хотите приватности, а не секретности. **Каждому** есть что защищать. Приватность — это то, что делает вас человеком.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: Почему приватность имеет значение](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## И что же мне делать?
+<div markdown>
+## What should I do?
 
-##### Для начала, вам стоит составить план
+##### First, you need to make a plan
 
-Попытка защитить все свои данные ото всех и в любой ситуации — это непрактично, дорого и утомительно. Но не переживайте! Безопасность — это процесс, и, думая наперёд, вы можете составить план, который подходит именно вам. Безопасность — это не только инструменты или программное обеспечение, которыми вы пользуетесь. На самом деле безопасность начинается с понимания специфичных угроз, с которыми вы сталкиваетесь, и нахождения способов, как им противостоять.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Но не переживайте! Безопасность — это процесс, и, думая наперёд, вы можете составить план, который подходит именно вам. Безопасность — это не только инструменты или программное обеспечение, которыми вы пользуетесь. На самом деле безопасность начинается с понимания специфичных угроз, с которыми вы сталкиваетесь, и нахождения способов, как им противостоять.
 
-==Процесс нахождения угроз и мер противодействия им называется **моделированием угроз**==, и он составляет основу каждого хорошего плана безопасности и приватности.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: Узнайте больше о моделировании угроз](basics/threat-modeling.md){class="md-button md-button--primary"}
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

@@ -376,7 +376,7 @@ KeePassXC slaat zijn exportgegevens op als [CSV](https://en.wikipedia.org/wiki/C
 
 ![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** is een native, open-source wachtwoordmanager voor iOS en macOS. Strongbox ondersteunt zowel KeePass als Password Safe formaten en kan worden gebruikt in combinatie met andere wachtwoordmanagers, zoals KeePassXC, op niet-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** is a native password manager for iOS and macOS. Strongbox ondersteunt zowel KeePass als Password Safe formaten en kan worden gebruikt in combinatie met andere wachtwoordmanagers, zoals KeePassXC, op niet-Apple platforms. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }

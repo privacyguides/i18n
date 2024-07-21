@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## 為何我該關心？
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### “我沒有什麼可隱瞞的。 為何我該在意自己的隱私？”
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-就像異族通婚、女性參政權、言論自由等許多權利，我們的隱私權並非總是受到保障。 在一些獨裁政權下，根本無隱私可言。 前人已為隱私權奮鬥了數個世代。 ==隱私作為一種人權，是人人生而固有的權利== ，每個人都應當 (不受歧視地) 享受此權利。
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-你不應該把隱私和保密混為一談。 人人都知道浴室裏發生了什麼，但你仍然會把門關上。 這是因為您想要隱私，而不是保密。 **每個人**都有要保護的東西。 隱私讓我們之所以為人。
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: 為什麼隱私很重要](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## 我該怎麼做？
+<div markdown>
+## What should I do?
 
-##### 首先，您需要製定計劃
+##### First, you need to make a plan
 
-冀望您所有的資料完全免受任何人的侵害是不切實際、昂貴且耗神的。 但是別擔心！ 安全是一種過程，提前做好準備，相信您能制定出一個適合自己的計劃。 安全並不僅僅只限於您使用的工具或下載的軟件。 相反，它始於了解您面臨的獨特威脅，以及如何減輕它們。
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. 但是別擔心！ 安全是一種過程，提前做好準備，相信您能制定出一個適合自己的計劃。 安全並不僅僅只限於您使用的工具或下載的軟件。 相反，它始於了解您面臨的獨特威脅，以及如何減輕它們。
 
-==這個識別威脅和定義對策的過程稱為 **威脅模型**== ，它構成了所有安全及隱私計劃的基礎。
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: 了解威脅建模](basics/threat-modeling.md){ class = "md-button md-button--primary" }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

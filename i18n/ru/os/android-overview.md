@@ -145,7 +145,7 @@ If you are using a device with Google services—whether with the stock operatin
 
 ### Дополнительная защита
 
-If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). Она доступен бесплатно для всех, у кого есть минимум два аппаратных ключа безопасности с поддержкой [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online).
+If you have a Google account we suggest enrolling in the [Advanced Protection Program](https://landing.google.com/advancedprotection). Она доступен бесплатно для всех, у кого есть минимум два аппаратных ключа безопасности с поддержкой [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
 
 Программа дополнительной защиты обеспечивает усиленный мониторинг угроз и активирует:
 

@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## なぜ気にする必要があるのか？
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### 「隠すものは何もありません。 なぜ、プライバシーを気にする必要があるのですか？」
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-異人種間の結婚、女性参政権、言論の自由など多くの権利と同様に、私たちのプライバシー権は常に認められているわけではありません。 いくつかの独裁政権は、プライバシー権に否定的です。 一世代前の人々は、私たちのプライバシー権のために戦ってきました。 ==プライバシーは私たち全員に固有の人権であり、==差別なく全員がこの権利を享受できます。
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-プライバシーと秘密を混同してはいけません。 トイレで用を足す時、ドアを閉めると思います。 それは、秘密をではなく、プライバシーを守りたいと思っているからです。 **誰もが**守るべきものを持っています。 プライバシーは私たちを人間たらしめるものです。
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: プライバシーはなぜ重要なのか](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## では、どうしたらいいのか？
+<div markdown>
+## What should I do?
 
-##### まず、計画を立てる必要があります
+##### First, you need to make a plan
 
-常にすべての人からすべてのデータを守ろうとするのは、非現実的で、コストがかかり、大変です。 でも、心配する必要はありません。 セキュリティはプロセスであり、事前に考えることで、あなたに合った計画を立てることができます。 セキュリティでは、使うツールやダウンロードするソフトウェア以外のことも考える必要があります。 むしろ、あなたが直面している特有の脅威と、それらを軽減する方法を理解することから始まります。
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. でも、心配する必要はありません。 セキュリティはプロセスであり、事前に考えることで、あなたに合った計画を立てることができます。 セキュリティでは、使うツールやダウンロードするソフトウェア以外のことも考える必要があります。 むしろ、あなたが直面している特有の脅威と、それらを軽減する方法を理解することから始まります。
 
-==脅威を特定して対策を定義するこのプロセスは**脅威モデリング**と呼ばれ==、優れたセキュリティとプライバシー計画の基礎となります。
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: 脅威モデリングの詳細](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

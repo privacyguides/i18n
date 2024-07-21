@@ -20,7 +20,7 @@ Nous vous recommandons vivement d'utiliser des applications TOTP mobiles plutôt
 
 <div class="admonition recommendation" markdown>
 
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. Elle peut être utilisée avec un compte en ligne pour sauvegarder et synchroniser vos jetons sur tous vos appareils (et y accéder via une interface web) de manière sécurisée et chiffrée de bout en bout. Elle peut également être utilisée hors ligne sur un seul appareil, sans qu'aucun compte ne soit nécessaire.
 

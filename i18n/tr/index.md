@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Neden önemsemeliyim?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### "Saklayacak bir şeyim yok. Mahremiyetimi neden önemseyeyim ki?"
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-Tıpkı ırklar arası evlilik hakkı, kadınların oy hakkı, ifade özgürlüğü ve diğer pek çok hak gibi, mahremiyet hakkımız da her zaman desteklenmemiştir. Birçok diktatörlükte hala desteklenmiyor. Bizden önceki nesiller mahremiyet hakkımız için savaştı. ==Mahremiyet, hepimizin doğasında var olan ve sahip olmamız gereken bir insan hakkıdır.
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Mahremiyet ile gizliliği birbirine karıştırmamalısınız. Banyoda ne olduğunu biliyoruz ama yine de kapıyı kapatıyoruz. Çünkü gizlilik değil, mahremiyet istiyorsunuz. **Herkesin** koruyacak bir şeyi vardır. Mahremiyet bizi insan yapan bir şeydir.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: Neden Gizlilik Önemlidir](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## Ne yapmalıyım?
+<div markdown>
+## What should I do?
 
-##### Öncelikle bir plan yapmalısınız
+##### First, you need to make a plan
 
-Tüm verilerinizi her zaman herkesten korumaya çalışmak pratik değildir, pahalıdır ve yorucudur. Ama endişelenmeyin! Güvenlik bir süreçtir ve ileriyi düşünerek sizin için doğru olan bir plan oluşturabilirsiniz. Güvenlik sadece kullandığınız araçlar veya indirdiğiniz yazılımlarla ilgili değildir. Aksine, karşılaştığınız benzersiz tehditleri ve bunları nasıl azaltabileceğinizi anlayarakle ilgilidir.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Ama endişelenmeyin! Güvenlik bir süreçtir ve ileriyi düşünerek sizin için doğru olan bir plan oluşturabilirsiniz. Güvenlik sadece kullandığınız araçlar veya indirdiğiniz yazılımlarla ilgili değildir. Aksine, karşılaştığınız benzersiz tehditleri ve bunları nasıl azaltabileceğinizi anlayarakle ilgilidir.
 
-==Tehditleri belirleme ve karşı önlemleri tanımlama sürecine **tehdit modelleme**== denir ve her iyi güvenlik ve gizlilik planının temelini oluşturur.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: Tehdit Modellemesi Hakkında Daha Fazla Bilgi Edinin](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

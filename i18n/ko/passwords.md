@@ -374,9 +374,9 @@ KeePassXC는 데이터 내보내기 시 [CSV](https://en.wikipedia.org/wiki/Comm
 
 <div class="admonition recommendation" markdown>
 
-![Strongbox 로고](assets/img/password-management/strongbox.svg){ align=right }
+![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox**는 iOS, macOS용 네이티브 오픈 소스 비밀번호 관리자입니다. KeePass, Password Safe 형식을 지원하므로, Apple 외 플랫폼에서는 KeePassXC 등의 다른 비밀번호 관리자와 함께 사용할 수 있습니다. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** is a native password manager for iOS and macOS. KeePass, Password Safe 형식을 지원하므로, Apple 외 플랫폼에서는 KeePassXC 등의 다른 비밀번호 관리자와 함께 사용할 수 있습니다. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }

@@ -15,7 +15,7 @@ cover: financial-services.webp
 <div class="admonition tip" markdown>
 <p class="admonition-title">檢查您目前的銀行</p>
 
-許多銀行和信用卡提供商提供本機虛擬卡功能。 如果您使用已提供的選項，則在大多數情況下使用時請依循以下建議。 你不信任把個人資料託付給各方人士。
+許多銀行和信用卡提供商提供本機虛擬卡功能。 如果您使用已提供的選項，則在大多數情況下使用時請依循以下建議。 That way, you are not trusting multiple parties with your personal information.
 
 </div>
 
@@ -26,7 +26,7 @@ cover: financial-services.webp
 ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 ![Privacy.com 標誌](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-**Privacy.com** 的免費方案每月最多創建12 張虛擬卡，設定卡片的支付上限與立即關閉卡片。 付費計劃則每月最多創建 36 張卡，購買時可獲得1%  現金返還，並向銀行隱藏交易信息。
+**Privacy.com** 的免費方案每月最多創建12 張虛擬卡，設定卡片的支付上限與立即關閉卡片。 Their paid plans provide higher limits on the number of cards that can be created each month and the option to hide transaction information from your bank.
 
 [:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -36,7 +36,7 @@ cover: financial-services.webp
 
 </div>
 
-Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 付費版的「謹慎商家」功能會向您的銀行隱藏商家資訊，因此銀行只會看到使用 Privacy.com 進行購買，不會看到這筆錢花在哪裡，但這並不是萬無一失的， Privacy.com 仍然了解您花錢的商家。
+Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
 
 ### MySudo （美國，付費）
 
@@ -66,15 +66,15 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 ## 禮品卡市集
 
-這些服務可接受 [加密貨幣](cryptocurrency.md)來購買各種商家禮品卡。 其中一些服務提供更高限額的身份驗證選項，它們也只淮許有電子郵件地址的帳戶。 基本帳戶的限額為每天 5,000-10,000 美元，身份驗證帳戶的限額則更高（如果提供）。
+這些服務可接受 [加密貨幣](cryptocurrency.md)來購買各種商家禮品卡。 其中一些服務提供更高限額的身份驗證選項，它們也只淮許有電子郵件地址的帳戶。 Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
-### CoinCards
+### Coincards
 
 <div class="admonition recommendation" markdown>
 
-![CoinCards logo](assets/img/financial-services/coincards.svg){ align=right }
+![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
 
-**CoinCards** (美國和加拿大提供)允許您為各種商家購買禮品卡。
+**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
 
 [:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }

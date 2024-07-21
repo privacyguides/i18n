@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## لماذا ينبغي عليَّ الاهتمام؟
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### "ليس لديَّ شيئٌ اُخفيه. لماذا يجب أن أهتم بخصوصيتي؟ "
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-تمامًا مثل الحق في محاكمة عادلة، حق التعليم، حق الزواج، والعديد من الحقوق الأخرى، لم يُدعَم حقنا في الخصوصية دائمًا. في مُعظم الأُمُور، لا يزال الأمر كذلك. كافح العديد من الأشخاص لأجل حقنا في الخصوصية. ==الخصوصية حق من حقوق الإنسان، أصيل فينا جميعًا==، يحق لنا (دون تمييز).
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-يجب عليك عدم الخلط بين الخصوصية والسريَّة. نحن نعلم ما يحدث في الحَمَّام، لكنك ما زلت تغلق الباب، أليس كذلك؟ هذا لأنك تريد الخصوصية وليس السريَّة. **الجميع** لديه شيء لحمايته. الخصوصية شيء أصيل في البشريَّة.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## ماذا يجب أن أفعل؟
+<div markdown>
+## What should I do?
 
-##### أولًا، تحتاج إلى وضع خُطَّة
+##### First, you need to make a plan
 
-إنَّ محاولة حماية جميع بياناتك من الجميع طوال الوقت أمر غير عملي، مكلف، ومُرهِق. لكن لا تقلق! الأمان هو إجراء، من خلال التفكير مسبقًا، يمكنك وضع خطة تناسبك. لا يقتصر الأمان على الأدوات الَّتي تستخدمُها أو البرامِج الَّتي تنزِّلُها. بدلاً من ذلك، يبدأ الأمر بفهم التهديدات الفريدة التي تواجهك، وكيف يمكنك التخفيف منها.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. لكن لا تقلق! الأمان هو إجراء، من خلال التفكير مسبقًا، يمكنك وضع خطة تناسبك. لا يقتصر الأمان على الأدوات الَّتي تستخدمُها أو البرامِج الَّتي تنزِّلُها. بدلاً من ذلك، يبدأ الأمر بفهم التهديدات الفريدة التي تواجهك، وكيف يمكنك التخفيف منها.
 
-==هذه العملية لتحديد التهديدات وتحديد الإجراءات المضادة تسمى **نَمذَجَةُ التَّهدِيد**==، وهي تشكل الأساس لكل خِطَّة أمان وخصوصية جيدة.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
 [:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

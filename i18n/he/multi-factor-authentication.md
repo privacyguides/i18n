@@ -20,7 +20,7 @@ cover: multi-factor-authentication.webp
 
 <div class="admonition recommendation" markdown>
 
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ align=right }
+![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. ניתן להשתמש בו עם חשבון מקוון כדי לגבות ולסנכרן את האסימונים שלך בין המכשירים שלך (ולגשת אליהם דרך ממשק אינטרנט) בצורה מאובטחת ומוצפנת מקצה לקצה. ניתן להשתמש בו גם במצב לא מקוון במכשיר בודד ללא צורך בחשבון.
 

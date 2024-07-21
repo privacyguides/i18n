@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## Warum sollte mich das interessieren?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### "Ich habe nichts zu verbergen. Warum sollte ich mir Sorgen um meine Privatsphäre machen?"
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-Ähnlich wie das Recht auf gemischtrassige Ehen, das Frauenwahlrecht, das Recht auf freie Meinungsäußerung und viele andere wurde unser Recht auf Privatsphäre nicht immer gewährt. In einigen Diktaturen ist das immer noch der Fall. Generationen vor uns haben für unser Recht auf Privatsphäre gekämpft. ==Privatsphäre ist ein Menschenrecht, das für uns alle gilt,== auf das jeder (egal welches Alter, Geschlecht, Herkunft, Religion, ...) Anspruch hat.
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Privatsphäre sollte nicht mit Verheimlichen verwechselt werden. Wir wissen, was auf der Toilette passiert, aber machen trotzdem die Tür zu. Das liegt daran, dass du deine Privatsphäre willst, aber nicht unbedingt alles verheimlichen willst. **Alle** haben etwas zu schützen. Privatsphäre ist etwas, das uns zum Menschen macht.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: Warum Privatsphäre wichtig ist](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## Was kann ich tun?
+<div markdown>
+## What should I do?
 
-##### Zunächst muss ein Plan erstellt werden
+##### First, you need to make a plan
 
-Der Versuch, alle unsere Daten ständig vor allen zu schützen, ist unpraktisch, teuer und anstrengend. Aber keine Sorge! Sicherheit ist ein Prozess, und durch vorausschauendes denken, kannst du einen Plan erstellen, der für dich geeignet ist. Bei Sicherheit geht es nicht nur um die Tools, die du verwendest, oder die Software, die du herunterlädst. Vielmehr geht es darum, die einzigartigen Bedrohungen zu verstehen, mit denen du konfrontiert bist, und herauszufinden, wie diese entschärft werden können.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Aber keine Sorge! Sicherheit ist ein Prozess, und durch vorausschauendes denken, kannst du einen Plan erstellen, der für dich geeignet ist. Bei Sicherheit geht es nicht nur um die Tools, die du verwendest, oder die Software, die du herunterlädst. Vielmehr geht es darum, die einzigartigen Bedrohungen zu verstehen, mit denen du konfrontiert bist, und herauszufinden, wie diese entschärft werden können.
 
-== Dieser Prozess der Identifizierung von Bedrohungen und der Festlegung von Gegenmaßnahmen wird als **Bedrohungsanalyse** bezeichnet== und bildet die Grundlage für jeden guten Sicherheits- und Datenschutzplan.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: Lerne mehr zur Bedrohungsanalyse ](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>

@@ -104,7 +104,7 @@ Por defecto, FreeTube bloquea todos los anuncios de YouTube. Además, FreeTube s
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Al utilizar FreeTube, tu dirección IP puede seguir siendo conocida por YouTube, [Invidious](https://instances.invidious.io), o [SponsorBlock](https://sponsor.ajay.app) dependiendo de tu configuración. Considera usar una [VPN](vpn.md) o [Tor](tor.md) si tu [modelo de amenaza](basics/threat-modeling.md) requiere ocultar tu dirección IP.
+When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Considera usar una [VPN](vpn.md) o [Tor](tor.md) si tu [modelo de amenaza](basics/threat-modeling.md) requiere ocultar tu dirección IP.
 
 </div>
 
@@ -114,9 +114,9 @@ Al utilizar FreeTube, tu dirección IP puede seguir siendo conocida por YouTube,
 
 ![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
 
-**Yattee** es un reproductor de vídeo gratuito y de código abierto orientado a la privacidad para iOS, tvOS y macOS para [YouTube](https://youtube.com). Al usar Yattee, su lista de suscripciones se guarda localmente en su dispositivo.
+**Yattee** is a free and open-source privacy oriented video player for iOS, tvOS, and macOS for [YouTube](https://youtube.com). When using Yattee, your subscription list is saved locally on your device.
 
-Tendrás que seguir algunos [pasos adicionales](https://gonzoknows.com/posts/Yattee) antes de poder utilizar Yattee para ver YouTube, debido a las restricciones de la App Store.
+You will need to take a few [extra steps](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube, due to App Store restrictions.
 
 [:octicons-home-16: Página Principal](https://github.com/yattee/yattee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Política de Privacidad" }
@@ -137,7 +137,7 @@ Tendrás que seguir algunos [pasos adicionales](https://gonzoknows.com/posts/Yat
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Al utilizar Yattee, tu dirección IP puede seguir siendo conocida por YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) o [SponsorBlock](https://sponsor.ajay.app) dependiendo de tu configuración. Considera usar una [VPN](vpn.md) o [Tor](tor.md) si tu [modelo de amenaza](basics/threat-modeling.md) requiere ocultar tu dirección IP.
+When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. Considera usar una [VPN](vpn.md) o [Tor](tor.md) si tu [modelo de amenaza](basics/threat-modeling.md) requiere ocultar tu dirección IP.
 
 </div>
 

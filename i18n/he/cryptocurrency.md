@@ -38,14 +38,14 @@ cover: cryptocurrency.webp
 לפרטיות מיטבית, הקפד להשתמש בארנק לא משמורן שבו מפתח התצוגה נשאר במכשיר. המשמעות היא שרק לך תהיה את היכולת להוציא את הכספים שלך ולראות עסקאות נכנסות ויוצאות. אם אתה משתמש בארנק משמורן, הספק יכול לראות **כל מה** שאתה עושה; אם אתה משתמש בארנק "קל משקל" שבו הספק שומר על מפתח התצוגה הפרטי שלך, הספק יכול לראות כמעט כל מה שאתה עושה. כמה ארנקים שאינם משמורנים כוללים:
 
 - [Official Monero client](https://getmonero.org/downloads) (שולחני)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS, Linux BETA)
-    - Cake Wallet תומך במספר מטבעות קריפטוגרפיים. A Monero-only version of Cake Wallet is available at [Monero.com](https://monero.com).
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS)
+    - Cake Wallet תומך במספר מטבעות קריפטוגרפיים. A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (Desktop)
 - [Monerujo](https://monerujo.io) (Android)
 
-לפרטיות מקסימלית (אפילו עם ארנק לא משמורן), עליך להפעיל צומת Monero משלך. שימוש בצומת של אדם אחר יחשוף בפניו מידע מסוים, כגון כתובת ה-IP שממנה אתה מתחבר אליו, חותמות הזמן שאתה מסנכרן את הארנק שלך והעסקאות שאתה שולח מהארנק שלך (אם כי אין פרטים נוספים על עסקאות אלו). לחלופין, אתה יכול להתחבר לצומת Monero של מישהו אחר באמצעות Tor או i2p.
+לפרטיות מקסימלית (אפילו עם ארנק לא משמורן), עליך להפעיל צומת Monero משלך. שימוש בצומת של אדם אחר יחשוף בפניו מידע מסוים, כגון כתובת ה-IP שממנה אתה מתחבר אליו, חותמות הזמן שאתה מסנכרן את הארנק שלך והעסקאות שאתה שולח מהארנק שלך (אם כי אין פרטים נוספים על עסקאות אלו). Alternatively, you can connect to someone else’s Monero node over Tor or [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
 
-In August 2021, CipherTrace [announced](https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. פרסומים פומביים מראים כי רשת אכיפת הפשעים הפיננסיים של משרד האוצר האמריקאי העניקה [רישיון](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) ל-"Monero Module" של CipherTrace בסוף 2022.
+In August 2021, CipherTrace [announced](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. פרסומים פומביים מראים כי רשת אכיפת הפשעים הפיננסיים של משרד האוצר האמריקאי העניקה [רישיון](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) ל-"Monero Module" של CipherTrace בסוף 2022.
 
 פרטיות גרף העסקאות של Monero מוגבלת על ידי חתימות הטבעות הקטנות יחסית שלה, במיוחד נגד התקפות ממוקדות. Monero's privacy features have also been [called into question](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) by some security researchers, and a number of severe vulnerabilities have been found and patched in the past, so the claims made by organizations like CipherTrace are not out of the question. אמנם אין זה סביר שכלי מעקב המוני Monero קיימים כפי שהם קיימים עבור ביטקוין ואחרים, אך בטוח שכלי מעקב מסייעים בחקירות ממוקדות.
 

@@ -104,7 +104,7 @@ cover: frontends.webp
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-使用 FreeTube 時，IP 位址可能會被 YouTube、[Invidious](https://instances.invidious.io)或 [SponsorBlock](https://sponsor.ajay.app) 所知，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
+When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
 
 </div>
 
@@ -114,9 +114,9 @@ cover: frontends.webp
 
 ![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
 
-**Yattee** 是一款免費的開源隱私導向影片播放器，適用於iOS、tvOS 和 macOS 觀看 [YouTube](https://youtube.com)。 使用 Yattee 時，訂閱清單和播放列表會儲存在 本地裝置上。
+**Yattee** is a free and open-source privacy oriented video player for iOS, tvOS, and macOS for [YouTube](https://youtube.com). When using Yattee, your subscription list is saved locally on your device.
 
-由於 App Store 限制，您需要採取一些[額外步驟](https://gonzoknows.com/posts/Yattee) 才能使用 Yattee 觀看YouTube。
+You will need to take a few [extra steps](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube, due to App Store restrictions.
 
 [:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
@@ -137,7 +137,7 @@ cover: frontends.webp
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-使用 Yattee 時，IP位址可能仍會被 YouTube、 [Invidious](https://instances.invidious.io)、 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)或 [SponsorBlock](https://sponsor.ajay.app)所知曉，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
+When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
 
 </div>
 

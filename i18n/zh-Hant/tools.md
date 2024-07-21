@@ -156,7 +156,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 <div class="grid cards" markdown>
 
-- ![CoinCards logo](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [CoinCards](financial-services.md#coincards)
+- ![Coincards logo](assets/img/financial-services/coincards.svg){ .twemoji loading=lazy } [Coincards](financial-services.md#coincards)
 
 </div>
 
@@ -340,7 +340,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 <div class="grid cards" markdown>
 
-- ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.png){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
+- ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
 - ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>

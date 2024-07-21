@@ -374,9 +374,9 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Strongbox](assets/img/password-management/strongbox.svg){ align=right }
+![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** è un gestore di password nativo e open source per iOS e macOS. Supportando sia i formati di KeePass che di Password Safe, è utilizzabile insieme ad altri gestori di password, come KeePassXC, sulle piattaforme non Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** is a native password manager for iOS and macOS. Supportando sia i formati di KeePass che di Password Safe, è utilizzabile insieme ad altri gestori di password, come KeePassXC, sulle piattaforme non Apple. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
 [:octicons-home-16: Pagina Principale](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Politica sulla Privacy" }

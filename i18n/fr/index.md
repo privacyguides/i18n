@@ -38,22 +38,28 @@ schema:
 ---
 
 <!-- markdownlint-disable -->
-## En quoi ça me concerne ?
+<div class="grid" markdown>
+<div markdown>
+## Why should I care?
 
-##### « Je n'ai rien à cacher. Pourquoi devrais-je me soucier de ma vie privée ? »
+##### “I have nothing to hide. Why should I care about my privacy?”
 
-Tout comme le droit au mariage mixte, le droit de vote des femmes, la liberté d'expression et bien d'autres, notre droit à la vie privée n'a pas toujours été respecté. Dans plusieurs dictatures, ce n'est toujours pas le cas. Nombreux sont nos ancêtres qui se sont battus pour notre droit à la vie privée. ==La vie privée est un droit humain inhérent à chacun d'entre nous== auquel nous avons droit sans discrimination.
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
-Il ne faut pas confondre la vie privée et le secret. Même si on sait ce qui se passe dans la salle de bain, vous fermez quand même la porte. C'est parce que vous voulez une vie privée, et non pas du secret. **Tout le monde** a quelque chose à protéger. La vie privée est quelque chose qui nous rend humains.
+You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
-[:material-book-outline: Pourquoi la vie privée est importante](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+</div>
 
-## Que dois-je faire ?
+<div markdown>
+## What should I do?
 
-##### Tout d'abord, vous devez établir un plan
+##### First, you need to make a plan
 
-Essayer de protéger toutes vos données contre tout le monde, tout le temps, est peu pratique, coûteux et épuisant. Mais ne vous en faites pas ! La sécurité est un processus et, en anticipant, vous pouvez élaborer un plan qui vous convient. La sécurité ne concerne pas seulement les outils que vous utilisez ou les logiciels que vous téléchargez. Au contraire, elle commence par une compréhension des menaces uniques auxquelles vous êtes confrontés, et comment les atténuer.
+Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Mais ne vous en faites pas ! La sécurité est un processus et, en anticipant, vous pouvez élaborer un plan qui vous convient. La sécurité ne concerne pas seulement les outils que vous utilisez ou les logiciels que vous téléchargez. Au contraire, elle commence par une compréhension des menaces uniques auxquelles vous êtes confrontés, et comment les atténuer.
 
-==Ce processus d'identification des menaces et de définition des contre-mesures est appelé la **modélisation des menaces**==, et constitue la base de tout bon plan de sécurité et de vie privée.
+==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: En savoir plus sur la modélisation des menaces](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+</div>
+</div>
