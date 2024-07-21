@@ -43,7 +43,7 @@ Todos estes conceitos sobrepõem-se, mas é possível haver qualquer combinaçã
 
 Um contra-argumento comum para movimentos pró-privacidade é a noção de que não se precisa da privacidade se eles tiverem **"nada a esconder.** Este é um erro perigoso, porque cria uma sensação de que as pessoas que exigem privacidade devem ser desviantes, criminosas ou erradas.
 
-==Não deve confundir privacidade com secretismo.== Sabemos o que acontece na casa de banho, mas ainda fecha a porta. Isso é porque queremos privacidade, não secretismo. Há sempre certos fatos sobre nós — digamos, informações de saúde pessoal ou comportamento sexual — que não queremos que o mundo inteiro saiba, e isso está bem. A necessidade de privacidade é legítima, e é isso que nos faz humanos. Privacidade tem a ver com capacitar os seus direitos sobre as suas próprias informações, não sobre esconder segredos.
+==Não deve confundir privacidade com secretismo.== Sabemos o que acontece na casa de banho, mas ainda fecha a porta. That's because you want privacy, not secrecy. Há sempre certos fatos sobre nós — digamos, informações de saúde pessoal ou comportamento sexual — que não queremos que o mundo inteiro saiba, e isso está bem. A necessidade de privacidade é legítima, e é isso que nos faz humanos. Privacidade tem a ver com capacitar os seus direitos sobre as suas próprias informações, não sobre esconder segredos.
 
 ## É a Privacidade Sobre Controlo?
 

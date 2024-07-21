@@ -18,7 +18,7 @@ Ez a probléma megoldható lehet egy olyan egyedi Android-disztribúció haszná
 
 Ideális esetben, amikor egyedi Android disztribúciót választasz, győződj meg arról, hogy az, az Android biztonsági modellt követi. A disztribúciónak minimum rendelkeznie kell gyártási buildekkel, AVB támogatással, rollback védelemmel, időszerű firmware és operációs rendszer frissítésekkel, valamint SELinux-xal [enforcing módban](https://source.android.com/security/selinux/concepts#enforcement_levels). Az általunk ajánlott összes Android disztribúció megfelel ezeknek a követelményeknek.
 
-[Android rendszer ajánlásaink :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[Android rendszer ajánlásaink :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
 ### Kerüld a rootolást
 
@@ -125,7 +125,7 @@ A felhasználói profilok segítségével korlátozásokat szabhatsz meg egy ado
 
 A [Munkaprofilok](https://support.google.com/work/android/answer/6191949) egy másik módja egyes alkalmazások elkülönítésének, és kényelmesebb lehet, mint a különálló felhasználói profilok használata.
 
-A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 

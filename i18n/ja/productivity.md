@@ -154,39 +154,6 @@ In general, we define office suites as applications which could reasonably act a
 - ドキュメント、スプレッドシート、プレゼンテーションの編集をサポートすること。
 - Must export files to standard document formats.
 
-## 貼り付け用サービス
-
-### PrivateBin
-
-<div class="admonition recommendation" markdown>
-
-![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. PrivateBinはZeroBinの改良版です。
-
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-</div>
-
-### 規準
-
-**私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
-
-#### 最低要件
-
-- オープンソースであること。
-- 「ゼロトラスト」のエンドツーエンド暗号化を実装すること。
-- パスワードで保護されたファイルをサポートすること。
-
-#### 満たされることが望ましい基準
-
-満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
-
-- Should have a published audit from a reputable, independent third-party.
-
 ## Language services
 
 ### LanguageTool

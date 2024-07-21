@@ -18,7 +18,7 @@ Dit probleem kan worden opgelost door een aangepaste Android-distributie te gebr
 
 Idealiter, wanneer je een aangepaste Android distributie kiest, moet je ervoor zorgen dat het het Android beveiligingsmodel handhaaft. Op zijn minst zou de distributie productie builds moeten hebben, ondersteuning voor AVB, rollback bescherming, tijdige firmware en besturingssysteem updates, en SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). Al onze aanbevolen Android distributies voldoen aan deze criteria.
 
-[Onze Android Systeemaanbevelingen :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[Onze Android Systeemaanbevelingen :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
 ### Rooting vermijden
 
@@ -125,7 +125,7 @@ Met gebruikersprofielen kun je beperkingen opleggen aan een specifiek profiel, z
 
 [Werkprofielen](https://support.google.com/work/android/answer/6191949) zijn een andere manier om afzonderlijke apps te isoleren en kunnen handiger zijn dan afzonderlijke gebruikersprofielen.
 
-Een **apparaatcontroller** zoals [Shelter](../android.md#shelter) is vereist, tenzij je CalyxOS gebruikt die er een bevat.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 Het werkprofiel is afhankelijk van een apparaatcontroller om te kunnen functioneren. Functies zoals *File Shuttle* en *contact zoeken blokkeren* of enige vorm van isolatiefuncties moeten door de controller worden geïmplementeerd. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 

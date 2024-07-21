@@ -154,39 +154,6 @@ Az **OnlyOffice** egy felhőalapú, ingyenes és nyílt forráskódú irodai pro
 - Támogatnia kell a dokumentumok, táblázatok és diavetítések szerkesztését.
 - Fájlokat szabványos dokumentumformátumba kell exportálnia.
 
-## Paste szolgáltatások
-
-### PrivateBin
-
-<div class="admonition recommendation" markdown>
-
-![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-
-**A **PrivateBin** egy minimalista, nyílt forráskódú online pastebin, ahol a szerver nem ismeri a pastelt adatokat. Az adatok titkosítása/dekódolása a böngészőben történik 256 bites AES használatával. Ez a ZeroBin továbbfejlesztett változata.
-
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-</div>
-
-### Követelmények
-
-**Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
-
-#### Alap elvárások
-
-- Nyílt forráskódúnak kell lennie.
-- Must implement "zero-trust" end-to-end encryption.
-- Must support password-protected files.
-
-#### Legjobb esetben
-
-A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
-
-- Should have a published audit from a reputable, independent third-party.
-
 ## Language services
 
 ### LanguageTool

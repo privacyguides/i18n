@@ -10,7 +10,7 @@ description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 
 
 iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。 然而，Apple 生態系統的限制性——尤其是移動設備——仍然在很多方面阻礙了隱私。
 
-我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 不過，如希望或需要完全從 Apple 或 Google 雲獨立，您可以使用 GrapheneOS 等[自定義 Android 作業系統](../android.md#aosp-derivatives)來實現更高的隱私標準服務。
+我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### 激活鎖
 
@@ -63,7 +63,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 選取這項然後再選 **尋找**。 此處您可以選擇是否啟用或禁用“查找設備”功能。
 
-### 設定
+### Settings
 
 許多其他與隱私相關的設置可以在**設置**應用中找到。
 

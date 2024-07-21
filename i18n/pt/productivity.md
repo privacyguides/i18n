@@ -154,39 +154,6 @@ Em geral, definimos suites de escritório como aplicações que podem razoavelme
 - Devem suportar a edição de documentos, folhas de cálculo e apresentações de diapositivos.
 - Devem exportar ficheiros para formatos de documentos normalizados.
 
-## Serviços de colagem
-
-### PrivateBin
-
-<div class="admonition recommendation" markdown>
-
-![Logotipo PrivateBin](assets/img/productivity/privatebin.svg){ align=right }
-
-O **PrivateBin** é um pastebin online minimalista e de código aberto, e cujo servidor não tem conhecimento dos dados colados. Os dados são encriptados/desencriptados no browser utilizando AES de 256 bits. É a versão melhorada do ZeroBin.
-
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-</div>
-
-### Critérios
-
-**Note que não estamos associados a nenhum dos projetos que recomendamos.**Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
-
-#### Requisitos mínimos
-
-- Deve ser de fonte aberta.
-- Devem implementar uma encriptação de ponta a ponta de "confiança zero".
-- Devem suportar ficheiros protegidos por palavra-passe.
-
-#### Melhor caso
-
-Os nossos melhores critérios representam o que gostaríamos de ver num projeto perfeito desta categoria. As nossas recomendações podem não incluir todas as funcionalidades, mas incluem as que, na nossa opinião, têm um impacto mais elevado.
-
-- Devem ter uma auditoria publicada por um terceiro independente e de boa reputação.
-
 ## Language services
 
 ### LanguageTool
@@ -220,9 +187,9 @@ Os nossos melhores critérios representam o que gostaríamos de ver num projeto 
 
 </div>
 
-### Framadate
+### Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Note que não estamos associados a nenhum dos projetos que recomendamos.**Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
 - Deve ser de fonte aberta.
 - Must be possible to self-host.

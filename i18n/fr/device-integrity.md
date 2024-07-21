@@ -163,9 +163,9 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 
 </div>
 
-Auditor is not a scanning/analysis tool like some other tools on this page; rather it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. Cela fournit un contrôle d'intégrité très solide de l'appareil lui-même, mais qui ne permet pas nécessairement de vérifier si les applications utilisateur exécutées sur l'appareil sont malveillantes.
+Auditor is not a scanning/analysis tool like some other tools on this page. Rather, it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. Cela fournit un contrôle d'intégrité très solide de l'appareil lui-même, mais qui ne permet pas nécessairement de vérifier si les applications utilisateur exécutées sur l'appareil sont malveillantes.
 
-Auditor effectue l'attestation et la détection d'intrusion avec **deux** appareils, un _audité_ (l'appareil vérifié) et un _auditeur_ (l'appareil effectuant la vérification). L'auditeur peut être n'importe quel appareil Android 10+ (ou un service web distant géré par [GrapheneOS](android.md#grapheneos)), tandis que l'audité doit être un [appareil pris en charge](https://attestation.app/about#device-support) spécifique. Auditor fonctionne comme tel :
+Auditor effectue l'attestation et la détection d'intrusion avec **deux** appareils, un _audité_ (l'appareil vérifié) et un _auditeur_ (l'appareil effectuant la vérification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor fonctionne comme tel :
 
 - Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
 - L'_auditeur_ peut être une autre instance de l'application Auditor ou le [service d'attestation à distance](https://attestation.app).
@@ -197,7 +197,7 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 ![logo Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![logo Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** est un scanner de logiciels malveillants en temps réel pour Android, développé par le concepteur de [DivestOS](android.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud. Scans are performed entirely locally.
+**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android/distributions.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
 
 [:octicons-home-16: Page d'accueil](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Politique de confidentialité" }

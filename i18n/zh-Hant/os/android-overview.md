@@ -18,7 +18,7 @@ description: Android是一個開源作業系統，具有強大的安全保護，
 
 理想情況下，在選擇客製 Android 發行版時，應該確保它符合Android 安全模型。 至少，該發行版應該具有生產構建，支持AVB ，回滾保護，及時韌體和操作系統更新，以及SELinux [開啟模式](https://source.android.com/security/selinux/concepts#enforcement_levels)。 我們推薦的 Android 發行版都符合這些標準。
 
-[Android 系統建議 :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[Android 系統建議 :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
 ### 避免 Root
 
@@ -132,7 +132,7 @@ Android 13:
 
 [工作用設定檔](https://support.google.com/work/android/answer/6191949) 是另一個隔離個別應用的方法，也比單獨的用戶設定檔更為方便。
 
-**設備控制器**應用例如 [Shelter](../android.md#shelter) 需要建立不用企業 行動裝置管理(MDM) 工作設定檔，除非使用自定的Android 作業系統已包括。
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 工作配置檔需靠裝置控制器才能運作。 控制器必須實現 *File Shuttle* 和 *Contact Search Blocking* 等功能或任何類型的隔離功能。 您還必須完全信任設備控制器應用程序，因為它可以完全訪問工作配置文件中的數據。
 

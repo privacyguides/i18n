@@ -10,7 +10,7 @@ Az **iOS** és az **iPadOS** az Apple által az iPhone és az iPad termékekhez 
 
 iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. Azonban az Apple zárt ökoszisztémájának korlátozó volta – különösen a mobil eszközök esetében – továbbra is számos módon hátráltatja a magánélet védelmét.
 
-Általánosságban úgy véljük, hogy az iOS a legtöbb ember számára az átlagosnál jobb adatvédelmi és biztonsági védelmet nyújt, mint a bármelyik gyártótól származó Android készülékek. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+Általánosságban úgy véljük, hogy az iOS a legtöbb ember számára az átlagosnál jobb adatvédelmi és biztonsági védelmet nyújt, mint a bármelyik gyártótól származó Android készülékek. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### Aktiválási zár
 

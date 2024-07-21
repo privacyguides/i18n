@@ -154,39 +154,6 @@ Genel olarak, ofis programlarını çoğu ihtiyaç için Microsoft Word'ün yeri
 - Belgeleri, elektronik tabloları ve slayt gösterilerini düzenlemeyi desteklemelidir.
 - Dosyaları standart belge formatlarına aktarabilmelidir.
 
-## Paste services
-
-### PrivateBin
-
-<div class="admonition recommendation" markdown>
-
-![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
-
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-</div>
-
-### Criteria
-
-**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
-
-#### Minimum Requirements
-
-- Must be open source.
-- "Sıfır güven" uçtan uca şifreleme uygulamalıdır.
-- Parola korumalı dosyaları desteklemelidir.
-
-#### Best-Case
-
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
-
-- Should have a published audit from a reputable, independent third-party.
-
 ## Language services
 
 ### LanguageTool
@@ -222,7 +189,7 @@ Our best-case criteria represents what we would like to see from the perfect pro
 
 ### Criteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
 - Must be open source.
 - Must be possible to self-host.

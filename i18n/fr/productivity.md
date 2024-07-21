@@ -154,39 +154,6 @@ En général, nous définissons les suites bureautiques comme des applications q
 - Doit prendre en charge l'édition de documents, de feuilles de calcul et de diaporamas.
 - Doit exporter les fichiers vers des formats de document standard.
 
-## Services de collage
-
-### PrivateBin
-
-<div class="admonition recommendation" markdown>
-
-![Logo PrivateBin](assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** est un service de collage en ligne minimaliste et open-source où le serveur n'a aucune connaissance des données collées. Les données sont chiffrées/déchiffrées dans le navigateur en utilisant AES 256 bits. Il s'agit de la version améliorée de ZeroBin.
-
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-</div>
-
-### Critères
-
-**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
-
-#### Exigences minimales
-
-- Doit être open-source.
-- Doit implémenter le chiffrement de bout en bout "à confiance zéro".
-- Doit prendre en charge les fichiers protégés par un mot de passe.
-
-#### Dans le meilleur des cas
-
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
-
-- Devrait disposer d'un audit publié par une tierce partie indépendante et réputée.
-
 ## Language services
 
 ### LanguageTool

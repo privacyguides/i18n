@@ -154,39 +154,6 @@ cover: productivity.webp
 - חייב לתמוך בעריכת מסמכים, גיליונות אלקטרוניים ומצגות שקופיות.
 - יש לייצא קבצים לפורמטים סטנדרטיים של מסמכים.
 
-## שירותי הדבקה
-
-### PrivateBin
-
-<div class="admonition recommendation" markdown>
-
-![לוגו PrivateBin](assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** הוא מינימליסטי, קוד פתוח מקוון Pastebin שבו לשרת יש אפס ידע על נתונים מודבקים. הנתונים מוצפנים/מפוענים בדפדפן באמצעות 256 סיביות AES. זוהי הגרסה המשופרת של ZeroBin.
-
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-</div>
-
-### קריטריונים
-
-**שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
-
-#### דרישות מינימליות
-
-- חייב להיות קוד פתוח.
-- חייב ליישם הצפנה "אפס אמון" מקצה לקצה.
-- חייב לתמוך בקבצים המוגנים בסיסמה.
-
-#### המקרה הטוב ביותר
-
-הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
-
-- צריך לפרסם ביקורת מצד שלישי מכובד ובלתי תלוי.
-
 ## Language services
 
 ### LanguageTool

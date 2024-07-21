@@ -154,39 +154,6 @@ In het algemeen definiëren wij kantoorsuites als toepassingen die voor de meest
 - Moet het bewerken van documenten, spreadsheets en diavoorstellingen ondersteunen.
 - Moet bestanden exporteren naar standaard documentformaten.
 
-## Paste diensten
-
-### PrivateBin
-
-<div class="admonition recommendation" markdown>
-
-![PrivateBin logo](assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin** is een minimalistische, open-source online pastebin waar de server geen kennis heeft van geplakte data. Gegevens worden in de browser versleuteld/ontsleuteld met 256-bit AES. Het is de verbeterde versie van ZeroBin.
-
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-</div>
-
-### Criteria
-
-**Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
-
-#### Minimale vereisten
-
-- Moet open source zijn.
-- End-to-end versleuteling, "zero-trust", moet worden geïmplementeerd.
-- Moet wachtwoordbeveiligde bestanden ondersteunen.
-
-#### Beste geval
-
-Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
-
-- Moet een gepubliceerde audit hebben van een gerenommeerde, onafhankelijke derde partij.
-
 ## Language services
 
 ### LanguageTool

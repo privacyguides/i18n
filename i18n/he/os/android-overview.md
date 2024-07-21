@@ -18,7 +18,7 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 באופן אידיאלי, בעת בחירת הפצת אנדרואיד מותאמת אישית, עליך לוודא שהיא מקיימת את מודל האבטחה של אנדרואיד. לכל הפחות, להפצה צריכה להיות בניית ייצור, תמיכה ב-AVB, הגנה על חזרה, עדכוני קושחה ומערכת הפעלה בזמן, ו-SELinux ב[מצב אכיפה](https://source.android.com/security/selinux/concepts#enforcement_levels). כל הפצות האנדרואיד המומלצות שלנו עומדות בקריטריונים האלה.
 
-[המלצות מערכת אנדרואיד שלנו :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[המלצות מערכת אנדרואיד שלנו :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
 ### הימנע מהשתרשות
 
@@ -125,7 +125,7 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 [פרופילי עבודה](https://support.google.com/work/android/answer/6191949) הם דרך נוספת לבודד אפליקציות בודדות ועשויה להיות נוחה יותר מפרופילי משתמשים נפרדים.
 
-יישום **בקר מכשיר** כגון [Shelter](../android.md#shelter) נדרש ליצירת פרופיל עבודה ללא ארגון MDM, אלא אם אתה משתמש במערכת הפעלה אנדרואיד מותאמת אישית הכוללת אחת.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 פרופיל העבודה תלוי בבקר התקן כדי לתפקד. תכונות כגון *מעבורת קבצים* ו*חסימת חיפוש אנשי קשר* או כל סוג של תכונות בידוד חייבות להיות מיושמות על ידי הבקר. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 

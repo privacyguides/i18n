@@ -10,7 +10,7 @@ description: iOS is een mobiel besturingssysteem ontwikkeld door Apple voor de i
 
 iOS-apparaten worden regelmatig geprijsd door beveiligingsexperts wegens hun robuuste gegevensbeveiliging en voor het volgen van moderne, beste praktijken. Echter, de restrictiviteit van Apples ecosysteem - met name met hun mobiele apparaten - belemmert privacy nog steeds op een aantal manieren.
 
-We zijn over het algemeen van mening dat iOS voor de meeste mensen een beter dan gemiddelde bescherming biedt op het gebied van privacy en beveiliging, vergeleken met klassiek Android-apparaten van welke fabrikant dan ook. Je kunt echter nog hogere privacynormen bereiken met een [aangepast Android-besturingssysteem](../android.md#aosp-derivatives) zoals GrapheneOS, als je volledig onafhankelijk wilt of moet zijn van de clouddiensten van Apple of Google.
+We zijn over het algemeen van mening dat iOS voor de meeste mensen een beter dan gemiddelde bescherming biedt op het gebied van privacy en beveiliging, vergeleken met klassiek Android-apparaten van welke fabrikant dan ook. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### Activeringsslot
 
@@ -63,7 +63,7 @@ Your location data is not E2EE when your device is online and you use Find My iP
 
 Bovenaan de **Instellingen-app** zie je je naam en profielfoto als je bent aangemeld bij iCloud. Select that, then select **Find My**. Here you can choose whether to enable or disable Find My location features.
 
-### Instellingen
+### Settings
 
 Many other privacy-related settings can be found in the **Settings** app.
 

@@ -18,7 +18,7 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 В идеале, при выборе кастомного дистрибутива Android, вы должны убедиться, что он поддерживает модель безопасности Android. Как минимум, дистрибутив должен иметь production сборки, поддержку AVB, защиту rollback, своевременные обновления прошивки и операционной системы и SELinux в режиме [enforcing](https://source.android.com/security/selinux/concepts#enforcement_levels). Все рекомендованные нами дистрибутивы Android удовлетворяют этим критериям.
 
-[Наши рекомендации Android :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[Наши рекомендации Android :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
 ### Избегайте рутинга
 
@@ -125,7 +125,7 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 [Рабочие профили](https://support.google.com/work/android/answer/6191949?hl=ru&sjid=10752136651864735274-EU) - это еще один способ изолировать отдельные приложения, который может быть более удобным, чем отдельные профили пользователей.
 
-Для создания рабочего профиля, не имея корпоративного MDM, требуется **приложение-контроллер устройства**, такое как [Shelter](../android.md#shelter). Кастомные Android могут содержать такую функцию по умолчанию.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 Функционирование рабочего профиля зависит от контроллера устройства. Такие функции, как *File Shuttle* и *блокировка поиска контактов* или любые другие функции изоляции должны быть реализованы контроллером. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 

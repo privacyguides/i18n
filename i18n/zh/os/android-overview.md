@@ -18,7 +18,7 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 在挑选安卓 ROM 时，理想的情况，是能找到坚持安卓安全模型的 ROM。 最起码的是，你选用的 ROM 应该提供生产版本（而非 `userdebug`版本）的构建，能支持 AVB、回滚保护、按时推送系统更新、把 SELinux 设为[强制模式](https://source.android.com/security/selinux/concepts#enforcement_levels)。 我们推荐的所有安卓 ROM 都满足上述标准。
 
-[我们推荐的安卓 ROM :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[我们推荐的安卓 ROM :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
 ### 避免 Root
 
@@ -125,7 +125,7 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 [工作配置文件](https://support.google.com/work/android/answer/6191949) 是隔离单个应用程序的另一种方式，可能比单独的用户配置文件更方便。
 
-A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 该工作档案依赖于设备控制器来运作。 诸如 *文件穿梭* 和 *接触搜索封锁* 或任何种类的隔离功能必须由控制器实现。 You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 

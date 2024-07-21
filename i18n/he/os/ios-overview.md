@@ -10,7 +10,7 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. עם זאת, ההגבלה של המערכת האקולוגית של אפל - במיוחד עם המכשירים הניידים שלה - עדיין פוגעת בפרטיות במספר דרכים.
 
-בדרך כלל אנו מחשיבים את iOS כמספקת הגנות פרטיות ואבטחה טובות מהממוצע עבור רוב האנשים, בהשוואה למכשירי אנדרואיד במלאי מכל יצרן. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+בדרך כלל אנו מחשיבים את iOS כמספקת הגנות פרטיות ואבטחה טובות מהממוצע עבור רוב האנשים, בהשוואה למכשירי אנדרואיד במלאי מכל יצרן. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### נעילת הפעלה
 
@@ -63,7 +63,7 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 בחלק העליון של האפליקציה **הגדרות**, תראה את שמך ותמונת הפרופיל שלך אם אתה מחובר ל-Apple ID. בחר באפשרות זו, ולאחר מכן בחר **איתור**. כאן באפשרותך לבחור אם להפעיל או להשבית את תכונות המיקום שלי.
 
-### הגדרות
+### Settings
 
 ניתן למצוא הגדרות רבות אחרות הקשורות לפרטיות באפליקציית **הגדרות**.
 

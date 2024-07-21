@@ -154,39 +154,6 @@ Privacy Guides는 Nextcloud용 [E2EE 앱](https://apps.nextcloud.com/apps/end_to
 - 문서, 스프레드시트, 슬라이드쇼 편집을 지원해야 합니다.
 - 파일을 표준 문서 형식으로 내보내야 합니다.
 
-## 텍스트 공유 서비스
-
-### PrivateBin
-
-<div class="admonition recommendation" markdown>
-
-![PrivateBin 로고](assets/img/productivity/privatebin.svg){ align=right }
-
-**PrivateBin**은 서버에 어떠한 정보도 공유되지 않는 미니멀한 오픈 소스 온라인 텍스트 공유 서비스입니다. 데이터는 브라우저에서 AES-256으로 암호화/복호화됩니다. ZeroBin을 개선한 버전의 서비스이기도 합니다.
-
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
-
-</div>
-
-### 평가 기준
-
-**Privacy Guides는 권장 목록의 어떠한 프로젝트와도 제휴를 맺지 않았습니다.** 객관적인 권장 목록을 제공하기 위해, [일반적인 평가 기준](about/criteria.md)에 더해 명확한 요구 사항을 정립하였습니다. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
-
-#### 최소 요구 사항
-
-- 오픈 소스여야 합니다.
-- 'Zero Trust' 종단 간 암호화를 구현해야 합니다.
-- 파일을 비밀번호로 보호하는 기능을 지원해야 합니다
-
-#### 우대 사항
-
-평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
-
-- 평판이 좋은 독립적인 제3자로부터 공개 감사를 받아야 합니다.
-
 ## Language services
 
 ### LanguageTool

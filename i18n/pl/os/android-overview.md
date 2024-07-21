@@ -18,7 +18,7 @@ Ten problem można rozwiązać instalując niestandardową dystrybucję Androida
 
 Wybierając niestandardową dystrybucję Androida, należy upewnić się, że jest ona zgodna z modelem bezpieczeństwa tego systemu. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria.
 
-[Polecane przez nas dystrybucje Androida :hero-arrow-circle-right-fill:](../android.md ""){.md-button}
+[Polecane przez nas dystrybucje Androida :hero-arrow-circle-right-fill:](../android/distributions.md ""){.md-button}
 
 ### Unikaj rootowania
 
@@ -125,7 +125,7 @@ With user profiles, you can impose restrictions on a specific profile, such as: 
 
 [Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
-A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 The work profile is dependent on a device controller to function. Features such as *File Shuttle* and *contact search blocking* or any kind of isolation features must be implemented by the controller. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 

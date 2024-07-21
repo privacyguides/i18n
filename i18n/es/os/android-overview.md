@@ -18,7 +18,7 @@ Este problema puede ser solucionado al usar una distribución modificada de Andr
 
 Idealmente, cuando escojas una distribución de Android, deberías asegurarte de que mantenga el modelo de seguridad de Android. Al menos, la distribución debería tener compilaciones de producción, soporte para AVB, protección de reversión, actualizaciones oportunas del firmware y el sistema operativo, y tener a SELinux en [modo de cumplimiento](https://source.android.com/security/selinux/concepts#enforcement_levels). Todas nuestras distribuciones recomendadas para Android cumplen con estos criterios.
 
-[Nuestras recomendaciones del sistema Android :material-arrow-right:](../android.md ""){.md-button}
+[Nuestras recomendaciones del sistema Android :material-arrow-right:](../android/distributions.md ""){.md-button}
 
 ### Evita el Rooting
 
@@ -125,7 +125,7 @@ Con los perfiles de usuario, puedes imponer restricciones a un perfil específic
 
 Los [perfiles de trabajo](https://support.google.com/work/android/answer/6191949) son otra manera de aislar aplicaciones individuales y pueden ser más convenientes que usar perfiles de usuario separados.
 
-Para crear un perfil de trabajo sin un MDM empresarial se necesita una aplicación de **controlador de dispositivo** como [Shelter](../android.md#shelter), a menos que se utilice un sistema operativo personalizado de Android que incluya uno.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 El perfil de trabajo depende de un controlador de dispositivo para funcionar. Características como el *transbordador de archivos* y el *bloqueo de búsqueda de contactos* o cualquier tipo de característica de aislamiento debe ser implementada por el controlador. También debes confiar plenamente en la aplicación del controlador del dispositivo, ya que tiene acceso total a tus datos dentro del perfil de trabajo.
 

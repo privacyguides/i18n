@@ -18,7 +18,7 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 커스텀 Android 배포판을 선택할 때는 해당 배포판이 Android 보안 모델을 준수하는지 확인하는 것이 이상적입니다. 배포판은 적어도 프로덕션 빌드, AVB 지원, 롤백 보호, 시기적절한 펌웨어 및 운영 체제 업데이트, [적용 모드](https://source.android.com/docs/security/features/selinux/concepts?hl=ko#enforcement_levels)의 SELinux를 갖춰야 합니다. Privacy Guides에서 권장하는 Android 배포판은 이러한 기준을 모두 충족하고 있습니다.
 
-[Android 시스템 권장 사항 :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[Android 시스템 권장 사항 :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
 ### 루팅 방지
 
@@ -125,7 +125,7 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 [직장 프로필](https://support.google.com/work/android/answer/6191949)은 개별 앱을 격리하는 방식 중 하나로, 경우에 따라서 별도 사용자 프로필을 사용하는 것보다 편리합니다.
 
-A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 직장 프로필은 기기 컨트롤러에 따라 작동 방식이 달라집니다. *File Shuttle*, *연락처 검색 차단*을 비롯한 모든 격리 기능은 컨트롤러에서 구현됩니다. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 

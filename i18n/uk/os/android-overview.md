@@ -18,7 +18,7 @@ When you buy an Android phone, the default operating system comes bundled with a
 
 В ідеалі, вибираючи користувальницький дистрибутив Android, ви повинні переконатися, що він підтримує модель безпеки Android. Принаймні, дистрибутив повинен мати виробничі збірки, підтримку AVB, захист від відкату, своєчасне оновлення прошивки та операційної системи, а також SELinux в [примусовому режимі (enforcing mode)](https://source.android.com/security/selinux/concepts#enforcement_levels). Всі наші рекомендовані прошивки Android відповідають цим критеріям.
 
-[Наші рекомендації для системи Android :material-arrow-right:](../android.md ""){.md-button}
+[Наші рекомендації для системи Android :material-arrow-right:](../android/distributions.md ""){.md-button}
 
 ### Уникайте рутування
 
@@ -125,7 +125,7 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 [Робочі профілі](https://support.google.com/work/android/answer/6191949) - це ще один спосіб ізоляції програм, який може бути зручнішим, ніж окремі профілі користувачів.
 
-A **device controller** app such as [Shelter](../android.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 Робочий профіль залежить від функціонування контролера пристрою. Такі функції як *Файловий шатл* та *блокування пошуку контактів* або будь-які інші функції ізоляції повинні бути реалізовані контролером. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 

@@ -43,7 +43,7 @@ Tous ces concepts se chevauchent, mais il est possible de les combiner. Pour la 
 
 Un contre-argument courant aux mouvements en faveur de la protection de la vie privée est l'idée que l'on n'a pas besoin de vie privée si l'on n'a **"rien à cacher"**. Il s'agit d'une idée fausse et dangereuse, car elle donne l'impression que les personnes qui exigent le respect de la vie privée sont forcément déviantes, criminelles ou mauvaises.
 
-==Il ne faut pas confondre vie privée et secret.== Nous savons ce qui se passe dans les toilettes, mais vous fermez quand même la porte. C'est parce que vous voulez une vie privée, et non pas du secret. Il y a toujours certains faits nous concernant - par exemple, des informations sur notre santé personnelle ou notre comportement sexuel - que nous ne voudrions pas que le monde entier connaisse, et c'est normal. Le besoin de vie privée est légitime et c'est ce qui fait de nous des êtres humains. La protection de la vie privée consiste à renforcer vos droits sur vos propres informations, et non à cacher des secrets.
+==Il ne faut pas confondre vie privée et secret.== Nous savons ce qui se passe dans les toilettes, mais vous fermez quand même la porte. That's because you want privacy, not secrecy. Il y a toujours certains faits nous concernant - par exemple, des informations sur notre santé personnelle ou notre comportement sexuel - que nous ne voudrions pas que le monde entier connaisse, et c'est normal. Le besoin de vie privée est légitime et c'est ce qui fait de nous des êtres humains. La protection de la vie privée consiste à renforcer vos droits sur vos propres informations, et non à cacher des secrets.
 
 ## La vie privée est-elle une question de contrôle ?
 

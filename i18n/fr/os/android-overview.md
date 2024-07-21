@@ -18,7 +18,7 @@ Ce problème pourrait être résolu en utilisant une distribution Android qui n'
 
 Idéalement, lorsque vous choisissez une distribution Android, vous devez vous assurer qu'elle respecte le modèle de sécurité Android. Au minimum, la distribution doit disposer de builds de production, d'un support pour AVB, d'une rollback protection, de mises à jour dans les meilleurs délais du firmware et du système d'exploitation, et de SELinux en [mode enforcing](https://source.android.com/security/selinux/concepts#enforcement_levels). Toutes les distributions Android que nous recommandons répondent à ces critères.
 
-[Nos recommandations de distributions Android :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[Nos recommandations de distributions Android :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
 ### Éviter le rootage
 
@@ -125,7 +125,7 @@ Avec les profils d'utilisateur, vous pouvez imposer des restrictions à un profi
 
 Les [Profils Professionnels](https://support.google.com/work/android/answer/6191949?hl=fr) sont une autre façon d'isoler des applications de manière individuelles et peuvent s'avérer plus pratiques que des profils d'utilisateur séparés.
 
-Une application de **gestionnaire d'appareil** telle que [Shelter](../android.md#shelter) est nécessaire pour créer un profil professionnel sans MDM d'entreprise, à moins que vous n'utilisiez un système d'exploitation Android personnalisé qui en comprend une.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 Le profil professionnel dépend d'un gestionnaire d'appareil pour fonctionner. Les fonctionnalités telles que la *Navigation de Fichiers* et le *blocage de la recherche de contacts* ou tout autre type de fonctionnalités d'isolation doivent être implémentées par le gestionnaire. Vous devez également faire entièrement confiance à l'application de gestionnaire d'appareil, car elle a un accès total à vos données au sein du profil professionnel.
 

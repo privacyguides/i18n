@@ -10,7 +10,7 @@ description: iOS est un système d'exploitation mobile développé par Apple pou
 
 iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. Cependant, le caractère restrictif de l'écosystème d'Apple - en particulier avec ses appareils mobiles - continue d'entraver la protection de la vie privée de plusieurs manières.
 
-Nous considérons généralement qu'iOS offre des protections de la vie privée et de la sécurité supérieures à la moyenne pour la plupart des gens, par rapport aux appareils Android d'origine, quel que soit le fabricant. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+Nous considérons généralement qu'iOS offre des protections de la vie privée et de la sécurité supérieures à la moyenne pour la plupart des gens, par rapport aux appareils Android d'origine, quel que soit le fabricant. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### Verrouillage d'activation
 
@@ -63,7 +63,7 @@ Vos données de localisation ne sont pas E2EE lorsque votre appareil est en lign
 
 En haut de l'application **Réglages**, vous verrez votre nom et votre photo de profil si vous êtes connecté à un identifiant Apple. Sélectionnez-les, puis selectionnez **Localiser**. Vous pouvez ici choisir d'activer ou de désactiver les fonctions de Localiser ma position.
 
-### Paramètres
+### Settings
 
 De nombreux autres paramètres liés à la protection de la vie privée peuvent être trouvés dans l'application **Réglages**.
 

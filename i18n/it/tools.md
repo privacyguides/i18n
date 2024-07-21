@@ -394,16 +394,25 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 [Scopri di più :material-arrow-right-drop-circle:](passwords.md)
 
+### Pastebins
+
+<div class="grid cards" markdown>
+
+- ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ .twemoji loading=lazy } [PrivateBin](pastebins.md#privatebin)
+
+</div>
+
+[Scopri di più :material-arrow-right-drop-circle:](pastebins.md)
+
 ### Strumenti di produttività
 
 <div class="grid cards" markdown>
 
-- ![Logo di Nextcloud](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Auto-Ospitabile)](productivity.md#nextcloud)
-- ![Logo di LibreOffice](assets/img/productivity/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](productivity.md#libreoffice)
-- ![Logo di OnlyOffice](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
-- ![Logo di CryptPad](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
-- ![Logo di PrivateBin](assets/img/productivity/privatebin.svg){ .twemoji loading=lazy } [PrivateBin (Pastebin)](productivity.md#privatebin)
-- ![Logo di LanguageTool](assets/img/productivity/languagetool.svg#only-light){ .twemoji loading=lazy }![Logo di LanguageTool](assets/img/productivity/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](productivity.md#languagetool)
+- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
+- ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](productivity.md#libreoffice)
+- ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
+- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
+- ![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](productivity.md#languagetool)
 
 </div>
 
@@ -437,32 +446,53 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 [Scopri di più :material-arrow-right-drop-circle:](security-keys.md)
 
+### Mobile Phones
+
+<div class="grid cards" markdown>
+
+- ![Google Pixel 6](../assets/img/android/google-pixel.png){ .twemoji loading=lazy } [Google Pixel](mobile-phones.md#google-pixel)
+
+</div>
+
+[Scopri di più :material-arrow-right-drop-circle:](mobile-phones.md)
+
 ## Sistemi Operativi
 
 ### Mobile
 
+#### Custom Android Operating Systems
+
 <div class="grid cards" markdown>
 
-- ![Logo di GrapheneOS](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![Logo di GrapheneOS](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android.md#grapheneos)
-- ![Logo di DivestOS](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android.md#divestos)
+- ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
+- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android/distributions.md#divestos)
 
 </div>
 
-[Scopri di più :material-arrow-right-drop-circle:](android.md)
+[Scopri di più :material-arrow-right-drop-circle:](android/distributions.md)
 
 #### Applicazioni Android
 
 <div class="grid cards" markdown>
 
-- ![Logo di Obtainium](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (Gestore App)](android.md#obtainium)
-- ![Logo di Aurora Store](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Client per Google Play)](android.md#aurora-store)
-- ![Logo di Shelter](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Profili di Lavoro)](android.md#shelter)
-- ![Logo di Secure Camera](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Logo di Secure Camera](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android.md#secure-camera)
-- ![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Logo di Secure PDF Viewer](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android.md#secure-pdf-viewer)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
+- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
 
 </div>
 
-[Scopri di più :material-arrow-right-drop-circle:](android.md#general-apps)
+[Scopri di più :material-arrow-right-drop-circle:](android/general-apps.md)
+
+#### Ways to Obtain Android Apps
+
+<div class="grid cards" markdown>
+
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
+
+</div>
+
+[Scopri di più :material-arrow-right-drop-circle:](android/obtaining-apps.md)
 
 ### Desktop/PC
 

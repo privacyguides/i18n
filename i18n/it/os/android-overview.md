@@ -18,7 +18,7 @@ Questo problema potrebbe essere risolto utilizzando una distribuzione modificata
 
 Idealmente, quando si sceglie una distribuzione modificata di Android, bisogna assicurarsi che rispetti il modello di sicurezza Android. Come minimo, la distribuzione dovrebbe avere build di produzione, supporto per AVB, protezione dal rollback, aggiornamenti tempestivi del firmware e del sistema operativo e SELinux in [modalità enforcing](https://source.android.com/security/selinux/concepts#enforcement_levels). Tutte le distribuzioni di Android da noi consigliate soddisfano questi criteri.
 
-[Le nostre raccomandazioni per il sistema Android :material-arrow-right-drop-circle:](../android.md ""){.md-button}
+[Le nostre raccomandazioni per il sistema Android :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
 ### Evitare il rooting
 
@@ -125,7 +125,7 @@ Con i profili utente, puoi imporre limitazioni a un profilo specifico, come: eff
 
 I [Profili di Lavoro](https://support.google.com/work/android/answer/6191949) sono un altro metodo per isolare le singole app e potrebbe essere più comodo dei profili utente separati.
 
-Un'app di **controllo del dispositivo**, come [Shelter](../android.md#shelter), è necessaria per creare un Profilo di Lavoro senza un MDM imprenditoriale, a meno che tu non stia utilizzando un OS personalizzato di Android che ne includa uno.
+A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 Il profilo di lavoro dipende da un controllore del dispositivo per funzionare. Le funzionalità come *File Shuttle* e *blocco della ricerca dei contatti* o qualsiasi tipo di funzionalità d'isolamento, devono essere implementate dal controllore. È inoltre necessario fidarsi completamente dell'app di controllo del dispositivo, che ha pieno accesso ai dati dell'utente all'interno del profilo di lavoro.
 

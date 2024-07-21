@@ -1,0 +1,39 @@
+---
+title: Pastebins
+icon: material/content-paste
+description: These tools allow you to have full control of any pasted data you share to other parties.
+cover: pastebins.webp
+---
+
+[**Pastebins**](https://en.wikipedia.org/wiki/Pastebin) are online services most commonly used to share large blocks of code in a convenient and efficient manner. The pastebins listed here employ client-side encryption and password protection for pasted content; both of these features prevent the website or server operator from reading or accessing the contents of any paste.
+
+## PrivateBin
+
+<div class="admonition recommendation" markdown>
+
+![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
+
+**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Az adatok titkosítása/dekódolása a böngészőben történik 256 bites AES használatával. Ez a ZeroBin továbbfejlesztett változata.
+
+[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
+[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+
+</div>
+
+## Követelmények
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
+
+### Alap elvárások
+
+- Nyílt forráskódúnak kell lennie.
+- Must implement "zero-trust" end-to-end encryption.
+- Must support password-protected files.
+
+### Legjobb esetben
+
+A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy kifogástalan projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
+
+- Should have a published audit from a reputable, independent third-party.
