@@ -254,8 +254,6 @@ Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור ל�
 
 </div>
 
-**משתמשי macOS:** ההורדה של Brave Browser מהאתר הרשמי שלהם היא מתקין `.pkg` הדורש הרשאות מנהל כדי לפעול (ועשוי להפעיל סקריפטים מיותרים אחרים במחשב שלך). כחלופה, אתה יכול להוריד את הקובץ האחרון `Brave-Browser-universal.dmg` מעמוד[ההפצות גיטהאב ](https://github.com/brave/brave-browser/releases/latest)שלהם, המספק התקנה מסורתית של "גרור לתיקיית יישומים".
-
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 

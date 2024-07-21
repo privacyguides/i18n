@@ -254,8 +254,6 @@ Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya teras
 
 </div>
 
-**pengguna macOS:** Unduhan untuk Brave Browser dari situs web resmi mereka adalah penginstal `.pkg` yang membutuhkan hak akses admin untuk menjalankannya (dan mungkin menjalankan skrip lain yang tidak perlu di komputer Anda). Sebagai alternatif, Anda bisa mengunduh file `Brave-Browser-universal.dmg` terbaru dari laman [rilis GitHub](https://github.com/brave/brave-browser/releases/latest), yang menyediakan instalasi "seret ke folder Aplikasi".
-
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 

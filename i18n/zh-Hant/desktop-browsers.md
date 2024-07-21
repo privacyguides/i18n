@@ -254,8 +254,6 @@ Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉�
 
 </div>
 
-**macOS 用戶：** 從 Brave 官網下載副檔名為 `.pkg` 的安裝程式，需要以管理員權限執行 (並且可能會在您的機器上執行其他不必要的腳本)。 作為替代方案，您可以從他們的 [GitHub releases](https://github.com/brave/brave-browser/releases/latest) 頁面下載最新的 `Brave-Browser-universal.dmg` 檔案，這提供了傳統的 “拖曳到應用程式文件夾” 安裝方法。
-
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 

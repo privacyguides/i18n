@@ -254,8 +254,6 @@ Brave è basato sul progetto del browser web di Chromium, quindi, dovrebbe risul
 
 </div>
 
-**Utenti macOS:** Il download di Brave Browser dal sito ufficiale è un programma d'installazione `.pkg` che richiede i privilegi di amministratore per essere eseguito (e potrebbe eseguire altri script non necessari sul computer). In alternativa, puoi scaricare l'ultimo file `Brave-Browser-universal.dmg` dalla loro pagina [di rilascio di GitHub](https://github.com/brave/brave-browser/releases/latest), che fornisce una tradizionale installazione "trascina nella cartella Applicazioni".
-
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 

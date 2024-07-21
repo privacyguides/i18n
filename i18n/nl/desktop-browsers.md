@@ -247,8 +247,6 @@ Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moete
 
 </div>
 
-**macOS-gebruikers:** De download van Brave Browser van hun officiële website is een `.pkg` installatieprogramma dat beheerdersrechten vereist om uit te voeren (en het kan andere onnodige scripts uitvoeren op uw machine). Als een alternatief kunt u de laatste `Brave-Browser-universal.dmg` file downloaden van hun [GitHub releases](https://github.com/brave/brave-browser/releases/latest) pagina, die een traditionele "Sleep naar Applicaties map" installatie biedt.
-
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 

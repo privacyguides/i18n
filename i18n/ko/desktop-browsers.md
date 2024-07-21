@@ -254,8 +254,6 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
 </div>
 
-**macOS users:** The download for Brave Browser from their official website is a `.pkg` installer which requires admin privileges to run (and may run other unnecessary scripts on your machine). As an alternative, you can download the latest `Brave-Browser-universal.dmg` file from their [GitHub releases](https://github.com/brave/brave-browser/releases/latest) page, which provides a traditional "drag to Applications folder" install.
-
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
