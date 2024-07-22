@@ -56,7 +56,7 @@ GrapheneOS 提供了額外的 [安全強化](https://zh.m.wikipedia.org/wiki/%E5
 
 </div>
 
-GrapheneOS 支援 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) ，他將 [Google Play Services](https://zh.wikipedia.org/wiki/Google_Play%E6%9C%8D%E5%8B%99) 完全沙盒化，使其如同其他常規應用程式一樣運行。 這意味著可正常使用大多數Google Play Services所提供的功能, 像是 [push notifications](https://firebase.google.com/docs/cloud-messaging), while giving you full control over their permissions and access, and while containing them to a specific [work profile](../os/android-overview.md#work-profile) or [user profile](../os/android-overview.md#user-profiles) of your choice.
+GrapheneOS 支援 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) ，他將 [Google Play Services](https://zh.wikipedia.org/wiki/Google_Play%E6%9C%8D%E5%8B%99) 完全沙盒化，使其如同其他常規應用程式一樣運行。 這意味著可正常使用大多數Google Play Services所提供的功能，像是 [推送通知](https://firebase.google.com/docs/cloud-messaging) ，同時讓您完全控制其存取能力和權限，並將其包含在所選的特定 [工作設定檔](../os/android-overview.md#work-profile) 或 [用戶設定檔](../os/android-overview.md#user-profiles) 。
 
 [Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
 
