@@ -1,11 +1,13 @@
 ---
-meta_title: The Best Custom Android OSes (aka Custom ROMs) - Privacy Guides
-title: Alternative Distributions
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+meta_title: |-
+  最佳自定義Android作業系統（又稱 自定義ROM）
+  Privacy Guides
+title: 替代發行版
+description: 您可以使用這些安全且尊重隱私的替代方案來取代 Android 手機上的作業系統。
 schema:
   - "@context": http://schema.org
     "@type": 網頁
-    name: Private Android Operating Systems
+    name: 私密 Android 作業系統
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
@@ -29,11 +31,11 @@ schema:
       url: ./
 ---
 
-A **custom Android-based operating system** (often known as a **custom ROM**) is a popular way to achieve higher levels of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services.
+**基於 Android 的自訂作業系統**（通常稱為 **自訂 ROM**）是在裝置上實現更高層級的隱私和安全性的流行方法。 這與 Android 的「庫存」版本形成鮮明對比，「庫存」版本是手機出廠時附帶的，並且通常與 Google Play 服務深度整合。
 
-We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
+我們建議您在裝置上安裝這些自訂 Android 作業系統之一（按優先順序列出），具體取決於您的裝置與這些作業系統的相容性。
 
-## AOSP Derivatives
+## AOSP 衍生品
 
 ### GrapheneOS
 
@@ -42,7 +44,7 @@ We recommend installing one of these custom Android operating systems on your de
 ![GrapheneOS logo](../assets/img/android/grapheneos.svg#only-light){ align=right }
 ![GrapheneOS logo](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
 
-**GrapheneOS** is the best choice when it comes to privacy and security.
+**GrapheneOS** 是隱私與安全方面的最佳選擇。
 
 GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_\(computing\)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
 
