@@ -42,11 +42,11 @@ schema:
 <div markdown>
 ## Why should I care?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+“我沒有什麼可隱瞞的。 為何我該在意自己的隱私？”
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+就像異族通婚、女性參政權、言論自由等許多權利，我們的隱私權並非總是受到保障。 在一些獨裁政權下，根本無隱私可言。 前人已為隱私權奮鬥了數個世代。 ==隱私作為一種人權，是人人生而固有的權利== ，每個人都應當 (不受歧視地) 享受此權利。
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+你不應該把隱私和保密混為一談。 人人都知道浴室裏發生了什麼，但你仍然會把門關上。 這是因為您想要隱私，而不是保密。 每個人都有要保護的東西。 隱私讓我們之所以為人。
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 </div>
