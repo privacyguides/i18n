@@ -1,12 +1,12 @@
 ---
-title: General Apps
+title: 常規應用程式
 schema:
   - "@context": http://schema.org
     "@type": 網頁
-    name: General Android Apps
+    name: 常規 Android 應用程式
     url: ./
   - "@context": http://schema.org
-    "@type": MobileApplication
+    "@type": 手機應用程式
     name: Shelter
     applicationCategory: Utilities
     operatingSystem: Android
