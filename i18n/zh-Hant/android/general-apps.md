@@ -77,15 +77,15 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 主要隱私功能包括：
 
 - 自動刪除 [Exif](https://zh.wikipedia.org/wiki/Exif) 元資料（預設啟用）
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+- 使用新的 [Media](https://developer.android.com/training/data-storage/shared/media) 應用程式接口，因此不需要 [存儲權限](https://developer.android.com/training/data-storage) 。
+- 除非需錄制聲音，否則無需 麥克風權限 。
 
 <div class="admonition note" markdown>
 <p class="admonition-title">備註</p>
 
-Metadata is not currently deleted from video files but that is planned.
+目前拍攝的影片不會被自動刪除元資料，但此功能已確認將在未來添加。
 
-The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../data-redaction.md#exiferaser-android).
+圖片的 方向元資料 不會被自動刪除。 如果您啟用了定位功能（在Secure Camera中），需要注意的是，位置資料與圖片的方向元資料一樣 **不會** 被自動刪除。 如果您在拍攝後想刪除元資料，您將需要使用外部應用程式，例如： [ExifEraser](../data-redaction.md#exiferaser-android) 。
 
 </div>
 
