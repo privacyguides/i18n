@@ -58,7 +58,7 @@ GrapheneOS 提供了額外的 [安全強化](https://zh.m.wikipedia.org/wiki/%E5
 
 GrapheneOS 支援 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play) ，他將 [Google Play Services](https://zh.wikipedia.org/wiki/Google_Play%E6%9C%8D%E5%8B%99) 完全沙盒化，使其如同其他常規應用程式一樣運行。 這意味著可正常使用大多數Google Play Services所提供的功能，像是 [推送通知](https://firebase.google.com/docs/cloud-messaging) ，同時讓您完全控制其存取能力和權限，並將其包含在所選的特定 [工作設定檔](../os/android-overview.md#work-profile) 或 [用戶設定檔](../os/android-overview.md#user-profiles) 。
 
-[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
+[Google Pixel系列](../mobile-phones.md#google-pixel) 是目前唯一符合 GrapheneOS [硬體安全要求](https://grapheneos.org/faq#future-devices) 的裝置。
 
 ### DivestOS
 
@@ -66,19 +66,19 @@ GrapheneOS 支援 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed
 
 ![DivestOS logo](../assets/img/android/divestos.svg){ align=right }
 
-**DivestOS** is a soft-fork of [LineageOS](https://lineageos.org).
-DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices\&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](https://source.android.com/security/verifiedboot) on some non-Pixel devices.
+**DivestOS** 是一個 [LineageOS](https://lineageos.org) 的軟分叉。
+DivestOS 從 LineageOS 繼承了許多 [支援的裝置](https://divestos.org/index.php?page=devices\&base=LineageOS)。 它具有已簽名的構建，使其在某些非 Pixel 裝置上可以使用 [驗證啟動](https://source.android.com/security/verifiedboot) 。
 
-[:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
+[:octicons-home-16: 首頁](https://divestos.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=文檔}
+[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=捐款 }
 
 </div>
 
-DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates.
+DivestOS 具有自動核心漏洞 ([CVE](https://zh.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [修補](https://gitlab.com/divested-mobile/cve_checker)，更少的專有設備驅動程式，和自訂的 [hosts](https://divested.dev/index.php?page=dnsbl) 文件。 Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [CFI](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates.
 DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
 
 DivestOS implements some system hardening patches originally developed for GrapheneOS. DivestOS 16.0 and higher implements GrapheneOS's [`INTERNET`](https://developer.android.com/training/basics/network-ops/connecting) and SENSORS permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://grapheneos.org/usage#exec-spawning), [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) [constification](https://en.wikipedia.org/wiki/Const_\(computer_programming\)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_\(software\)) hardening patchsets. 17.1 and higher features GrapheneOS's per-network full [MAC randomization](https://en.wikipedia.org/wiki/MAC_address#Randomization) option, [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, [automatic reboot](https://grapheneos.org/features#auto-reboot), and Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features#attack-surface-reduction).
