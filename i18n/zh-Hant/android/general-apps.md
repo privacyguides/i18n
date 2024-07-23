@@ -32,18 +32,18 @@ schema:
 
 **Shelter** 是一款應用程序，可協助您利用 Android 的工作設定檔功能來隔離或複製裝置上的應用程式。
 
-Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管理器跨配置檔案共用檔案 ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))。
 
-[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
+[:octicons-repo-16: 儲存庫](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=捐款 }
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+建議使用Shelter，而不是 [Insular](https://secure-system.gitlab.io/Insular) 和 [Island](https://github.com/oasisfeng/island) ，因為它支援 [聯絡人搜尋屏蔽](https://secure-system.gitlab.io/Insular/faq.html) 。
 
 When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
 

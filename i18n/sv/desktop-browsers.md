@@ -320,7 +320,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 </div>
 
-##### Extensions
+##### Tillägg
 
 - [ ] Uncheck all built-in extensions you do not use
 
