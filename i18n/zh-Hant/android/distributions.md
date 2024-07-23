@@ -88,20 +88,20 @@ DivestOS 使用 F-Droid 作為其預設應用程式商店。 我們通常 [建�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-DivestOS 韌體更新 [狀態](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) 和品質管理依照所支援的設備不同而異。 We still recommend GrapheneOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
+DivestOS 韌體更新 [狀態](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) 和品質管理依照所支援的設備不同而異。 我們仍然推薦 GrapheneOS，具體取決於您裝置的兼容性。 對於其他設備，DivestOS 是不錯的選擇
 
-Not all of the supported devices have verified boot, and some perform it better than others.
+並非所有支援設備都可使用 驗證啟動 ；且在受支援的裝置中，某些設備的表現較好。
 
 </div>
 
 ## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們所推薦專案沒有任何瓜葛** 。除了 [標準準則](../about/criteria.md) 外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 必須是開源軟體。
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
+- 必須支援具有自訂 AVB 金鑰支援的引導裝載程式鎖定。
+- 必須在主要 Android 更新發布後 0-1 個月內收到更新
+- 必須在Android 功能更新（小版本）發布後 0-14 天內收到更新
 - Must receive regular security patches within 0-5 days of release.
 - Must **not** be "rooted" out of the box.
 - Must **not** enable Google Play Services by default.
