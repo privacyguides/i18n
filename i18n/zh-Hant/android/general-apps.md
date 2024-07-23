@@ -45,7 +45,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 建議使用Shelter，而不是 [Insular](https://secure-system.gitlab.io/Insular) 和 [Island](https://github.com/oasisfeng/island) ，因為它支援 [聯絡人搜尋屏蔽](https://secure-system.gitlab.io/Insular/faq.html) 。
 
-When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
+使用 Shelter 時，您將需要完全信任其開發人員，因為 Shelter 將作為 [設備管理員](https://developer.android.com/guide/topics/admin/device-admin) 來創建工作設定檔，這將使它有大量權限訪問存儲在工作設定檔的資料。
 
 </div>
 
@@ -56,7 +56,7 @@ When using Shelter, you are placing complete trust in its developer, as Shelter 
 ![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
 ![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-**Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+**Secure Camera** 是一款專注於隱私和安全的相機應用程式，可以拍攝影像、影片及掃描QR碼。 CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
 [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
