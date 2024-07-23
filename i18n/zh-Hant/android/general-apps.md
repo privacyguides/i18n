@@ -6,17 +6,17 @@ schema:
     name: 常規 Android 應用程式
     url: ./
   - "@context": http://schema.org
-    "@type": 手機應用程式
+    "@type": MobileApplication
     name: Shelter
     applicationCategory: Utilities
     operatingSystem: Android
   - "@context": http://schema.org
-    "@type": 手機應用程式
+    "@type": MobileApplication
     name: Secure Camera
     applicationCategory: Utilities
     operatingSystem: Android
   - "@context": http://schema.org
-    "@type": 手機應用程式
+    "@type": MobileApplication
     name: Secure PDF Viewer
     applicationCategory: Utilities
     operatingSystem: Android
@@ -96,13 +96,13 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
+**Secure PDF Viewer** 是一個基於 [pdf.js](https://zh.wikipedia.org/wiki/PDF.js) 的 PDF檢視器，它不要求任何權限即可完美運行。 在運行時，被檢視的 PDF 將被送入 [沙盒化](https://zh.wikipedia.org/wiki/%E6%B2%99%E7%9B%92_\(%E9%9B%BB%E8%85%A6%E5%AE%89%E5%85%A8\)) [WebView](https://developer.android.com/guide/webapps/webview)。 這意味著它不需要直接存取內容或文件的權限。
 
-[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
+[內容安全策略](https://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E5%AE%89%E5%85%A8%E7%AD%96%E7%95%A5) 用於強制 WebView 中的 JavaScript 和樣式屬性完全是靜態內容。
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: 儲存庫](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -117,8 +117,8 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 ## 標準
 
-**請注意，我們所推薦專案沒有任何瓜葛** 。除了 [標準準則](../about/criteria.md) 外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與所推薦專案沒有任何瓜葛** 。除了 [標準準則](../about/criteria.md) 外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-- Applications on this page must not be applicable to any other software category on the site.
-- General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
+- 此頁面上的應用程式不得適用於網站上的任何其他軟體類別。
+- 常規應用程式應擴展或取代系統的核心功能。
+- 應用程式應定期更新和維護。
