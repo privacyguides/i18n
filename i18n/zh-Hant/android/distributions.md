@@ -83,12 +83,12 @@ DivestOS 還包含來自GrapheneOS 的核心補丁，並透過 [defconfig harden
 
 DivestOS 也實現了一些最初專為 GrapheneOS 開發的系統加固補丁。 DivestOS 16.0 及更高版本實現了GrapheneOS 的 [`網路`](https://developer.android.com/training/basics/network-ops/connecting) 和傳感器權限。除此之外還有： [加固的記憶體分配器](https://github.com/GrapheneOS/hardened_malloc) 、 [更安全的應用程式啟動](https://grapheneos.org/usage#exec-spawning) 、 [JNI](https://zh.wikipedia.org/wiki/Java%E6%9C%AC%E5%9C%B0%E6%8E%A5%E5%8F%A3) [聲明](https://zh.wikipedia.org/wiki/Const)，和部分 [bionic](https://zh.wikipedia.org/wiki/Bionic_\(%E8%BB%9F%E9%AB%94\)) 強化補丁集。 17.1 及更高版本有 GrapheneOS 所具有的「根據每個網路完整的 [MAC 隨機化](https://en.wikipedia.org/wiki/MAC_address#Randomization) 」選項、 [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) 控制 、 [自動重新啟動](https://grapheneos.org/features#auto-reboot) ，和 Wi-Fi/藍牙 [逾時關閉選項](https://grapheneos.org/features#attack-surface-reduction)。
 
-DivestOS 使用 F-Droid 作為其預設應用程式商店。 我們通常 [建議避免使用 F-Droid](obtaining-apps.md#f-droid) ，但在 DivestOS 上這樣做是不可行的；開發人員透過自己的F-Droid 儲存庫 ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) 和 [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)) 更新應用程式。 We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) **with the DivestOS repositories enabled** to keep those components up to date. For other apps, our recommended methods of obtaining them still apply.
+DivestOS 使用 F-Droid 作為其預設應用程式商店。 我們通常 [建議避免使用 F-Droid](obtaining-apps.md#f-droid) ，但在 DivestOS 上這樣做是不可行的；開發人員透過自己的F-Droid 儲存庫 ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) 和 [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)) 更新應用程式。 我們建議停用官方 F-Droid 應用程式，改為使用 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) 並 **添加DivestOS儲存庫** 來保持這些組件處於最新狀態。 對於其他應用程式，我們推薦的獲取方法仍然適用。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-DivestOS firmware update [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) and quality control varies across the devices it supports. We still recommend GrapheneOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
+DivestOS 韌體更新 [狀態](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) 和品質管理依照所支援的設備不同而異。 We still recommend GrapheneOS depending on your device's compatibility. For other devices, DivestOS is a good alternative.
 
 Not all of the supported devices have verified boot, and some perform it better than others.
 
