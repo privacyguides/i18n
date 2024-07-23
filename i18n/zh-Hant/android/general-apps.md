@@ -11,18 +11,18 @@ schema:
     applicationCategory: Utilities
     operatingSystem: Android
   - "@context": http://schema.org
-    "@type": MobileApplication
+    "@type": 手機應用程式
     name: Secure Camera
     applicationCategory: Utilities
     operatingSystem: Android
   - "@context": http://schema.org
-    "@type": MobileApplication
+    "@type": 手機應用程式
     name: Secure PDF Viewer
     applicationCategory: Utilities
     operatingSystem: Android
 ---
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+我們在本網站上推薦了各種 Android 應用程式。 此處列出的應用程式是 Android 獨有的，專門增強或替換了關鍵系統功能。
 
 ### Shelter
 
@@ -30,7 +30,7 @@ We recommend a wide variety of Android apps throughout this site. The apps liste
 
 ![Shelter logo](../assets/img/android/shelter.svg){ align=right }
 
-**Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+**Shelter** 是一款應用程序，可協助您利用 Android 的工作設定檔功能來隔離或複製裝置上的應用程式。
 
 Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
