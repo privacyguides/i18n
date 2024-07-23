@@ -74,9 +74,9 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 </div>
 
-Main privacy features include:
+主要隱私功能包括：
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
+- 自動刪除 [Exif](https://zh.wikipedia.org/wiki/Exif) 元資料（預設啟用）
 - Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
 - Microphone permission not required unless you want to record sound
 
