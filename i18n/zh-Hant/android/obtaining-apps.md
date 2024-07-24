@@ -34,17 +34,17 @@ GrapheneOS 的 應用程式商店 可在 [GitHub](https://github.com/GrapheneOS/
 
 ## Aurora Store
 
-The Google Play Store requires a Google account to log in, which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+Google Play商店 需要登錄 Google帳戶 才能使用，這不利於隱私。 您可以使用替代客戶端，如：Aurora Store；來解決這個問題。
 
 <div class="admonition recommendation" markdown>
 
 ![Aurora Store logo](../assets/img/android/aurora-store.webp){ align=right }
 
-**Aurora Store** is a Google Play Store client which does not require a Google account, Google Play Services, or microG to download apps.
+**Aurora Store** 是一個 Google Play商店 客戶端，其無須 Google帳戶、Google Play服務 或 microG 便可下載應用程式
 
-[:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://auroraoss.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="隱私權政策" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -55,7 +55,7 @@ The Google Play Store requires a Google account to log in, which is not great fo
 
 </div>
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇在 Aurora Store 上登錄 Google帳戶 來下載已購買的應用程式，這確實將給予 Google 能力用於了解並存取您已安裝的應用程式。 即便如此，您仍然受益於不需要在裝置上擁有完整的 Google Play 客戶端 和 Google Play 服務 抑或是 microG。
 
 ## Manually with RSS Notifications
 
