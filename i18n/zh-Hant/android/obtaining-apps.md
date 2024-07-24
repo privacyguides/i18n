@@ -30,7 +30,7 @@ Obtainium 允許您從各種來源下載 APK 安裝檔案，但您需要確認�
 
 ## GrapheneOS App Store
 
-GrapheneOS 的 App Store 可在 [GitHub](https://github.com/GrapheneOS/Apps/releases) 找到。 它支持 Android 12 及以上版本，並且能夠自我更新。 App Store 中有由 GrapheneOS 專案建立的獨立應用程式，例如：[Auditor](../device-integrity.md#auditor-android)、[Camera](general-apps.md#secure-camera)、[PDF Viewer](general-apps.md#secure-pdf-viewer)。 If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+GrapheneOS 的 應用程式商店 可在 [GitHub](https://github.com/GrapheneOS/Apps/releases) 找到。 它支持 Android 12 及以上版本，並且能夠自我更新。 這個 應用程式商店 中有由 GrapheneOS 專案建立的獨立應用程式，例如：[Auditor](../device-integrity.md#auditor-android)、[Camera](general-apps.md#secure-camera)、[PDF Viewer](general-apps.md#secure-pdf-viewer)。 如果您正在尋找這些應用程式，強烈建議從 GrapheneOS 應用程式商店 獲得而不是從 Play 商店獲得，因為其商店中的應用程式是用 GrapheneOS 項目自己的簽名來簽署的，而 Google 無權訪問。
 
 ## Aurora Store
 
