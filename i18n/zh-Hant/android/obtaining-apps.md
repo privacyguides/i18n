@@ -10,7 +10,7 @@ title: 應用程式獲取途徑
 
 ![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
 
-**Obtainium** 是一個應用程式管理器，可讓您直接從開發人員自己的軟體發布頁面下載及更新應用程式（即 Github、GitLab、開發人員自己的網站 等等。），而不是使用集中式的應用程式商店或儲存庫。 在 Android 12 及以上版本，其支援背景自動更新。
+**Obtainium** 是一個應用程式管理器，可讓您直接從開發人員自己的版本發布頁面下載及更新應用程式（即 Github、GitLab、開發人員自己的網站 等等。），而不是使用集中式的應用程式商店或儲存庫。 在 Android 12 及以上版本，其支援背景自動更新。
 
 [:octicons-repo-16: 儲存庫](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=文檔}
@@ -57,21 +57,21 @@ Google Play商店 需要登錄 Google帳戶 才能使用，這不利於隱私。
 
 Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇在 Aurora Store 上登錄 Google帳戶 來下載已購買的應用程式，這確實將給予 Google 能力用於了解並存取您已安裝的應用程式。 即便如此，您仍然受益於不需要在裝置上擁有完整的 Google Play 客戶端 和 Google Play 服務 抑或是 microG。
 
-## Manually with RSS Notifications
+## 手動添加 RSS 以追蹤應用程式更新
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../news-aggregators.md) that will help you keep track of new releases.
+對於在 GitHub 和 GitLab 等平台上發布的應用程序，您可以將其 RSS 摘要添加到您的 [新聞聚合器](../news-aggregators.md) ，這將幫助您追蹤新版本。
 
 ![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
 
 ### GitHub
 
-On GitHub, using [Secure Camera](general-apps.md#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+在 GitHub 上，此處以 [Secure Camera](general-apps.md#secure-camera) 作為例子，您需要先獲取其 [版本發布頁面](https://github.com/GrapheneOS/Camera/releases) 的網址，並在最後加上 ` .atom` ：
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
 ### GitLab
 
-On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+在 GitLab 上，此處以 [Aurora Store](#aurora-store) 作為例子，您需要先獲取其 [專案儲存庫](https://gitlab.com/AuroraOSS/AuroraStore) 的網址，並在最後加上 `/-/tags?format=atom` ：
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
