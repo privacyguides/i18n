@@ -5,7 +5,7 @@ description: 照片管理工具可確保個人照片免受雲端儲存提供者�
 cover: photo-management.webp
 ---
 
-大多數雲端照片管理方案（例如 Google Photos、Flickr 和 Amazon Photos）無法保護您的照片不被雲端儲存供應商存取。 這些選項可保密個人照片，同時允許您僅與家人和信任的人分享。
+Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. 這些選項可保密個人照片，同時允許您僅與家人和信任的人分享。
 
 ## Ente Photos
 

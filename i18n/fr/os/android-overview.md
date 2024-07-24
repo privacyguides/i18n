@@ -44,9 +44,11 @@ Par exemple, si vous souhaitez publier une photo sur Discord, vous pouvez ouvrir
 
 ## Protections de sécurité
 
+Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+
 ### Démarrage vérifié
 
-Le [Démarrage vérifié](https://source.android.com/security/verifiedboot) est un élément important du modèle de sécurité d'Android. Il fournit une protection contre les attaques de type [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), la persistance de logiciels malveillants et garantit que les mises à jour de sécurité ne peuvent pas être rétrogradées grâce au [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Il fournit une protection contre les attaques de type [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), la persistance de logiciels malveillants et garantit que les mises à jour de sécurité ne peuvent pas être rétrogradées grâce au [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Les versions supérieures à Android 10 ont abandonné le chiffrement complet du disque au profit d'un chiffrement plus souple [basé sur les fichiers](https://source.android.com/security/encryption/file-based). Vos données sont chiffrées à l'aide de clés de chiffrement propres à chaque utilisateur, tandis que les fichiers du système d'exploitation ne sont pas chiffrés.
 
@@ -58,7 +60,7 @@ De nombreux contructeurs ont également une implémentation défectueuse du Dém
 
 ### Mises à jour du micrologiciel
 
-Les mises à jour du micrologiciel sont essentielles au maintien de la sécurité. Sans elles, votre appareil ne peut être sécurisé. Les fabriquants ont conclu des accords de prise de en charge avec leurs partenaires pour fournir les mises à jour des composants closed-source pendant une période limitée. Celles-ci sont détaillées dans les [Bulletins de Sécurité Android](https://source.android.com/security/bulletin) mensuels.
+**Firmware updates** are critical for maintaining security and without them your device cannot be secure. Les fabriquants ont conclu des accords de prise de en charge avec leurs partenaires pour fournir les mises à jour des composants closed-source pendant une période limitée. Celles-ci sont détaillées dans les [Bulletins de Sécurité Android](https://source.android.com/security/bulletin) mensuels.
 
 Comme les composants du téléphone, tels que le processeur et les technologies radio, reposent sur des composants closed-source, les mises à jour doivent être fournies par leur fabricants respectifs. Par conséquent, il est important que vous achetiez un appareil qui reçoit activement des mises à jours. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) et [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) prennent en charge leurs appareils pendant quatre ans, alors que les produits moins chers ont souvent des cycles de prises en charge plus courts. Avec l'introduction du [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google fabrique maintenant son propre SoC et fournira un minimum de 5 ans de mises à jour. Avec l'introduction de la série Pixel 8, Google a porté cette intervalle de prise en charge à 7 ans.
 
@@ -68,9 +70,9 @@ Fairphone, par exemple, commercialise son appareil Fairphone 4 comme bénéficia
 
 ### Autorisations d'Android
 
-Les [autorisations sur Android](https://developer.android.com/guide/topics/permissions/overview) vous permettent de contrôler ce que les applications ont le droit d'accéder. Google apporte régulièrement des [améliorations](https://developer.android.com/about/versions/11/privacy/permissions) sur le système d'autorisations à chaque nouvelle version d'Android. Toutes les applications que vous installez sont strictement [isolées](https://source.android.com/security/app-sandbox), il n'est donc pas nécessaire d'installer des applications antivirus.
+[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google apporte régulièrement des [améliorations](https://developer.android.com/about/versions/11/privacy/permissions) sur le système d'autorisations à chaque nouvelle version d'Android. Toutes les applications que vous installez sont strictement [isolées](https://source.android.com/security/app-sandbox), il n'est donc pas nécessaire d'installer des applications antivirus.
 
-Un smartphone équipé de la dernière version d'Android sera toujours plus sûr qu'un vieux smartphone équipé d'un antivirus que vous avez payé. Il est préférable de ne pas payer pour un logiciel antivirus et d'économiser pour acheter un nouveau smartphone, comme un Google Pixel.
+Un smartphone équipé de la dernière version d'Android sera toujours plus sûr qu'un vieux smartphone équipé d'un antivirus que vous avez payé. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10 :
 

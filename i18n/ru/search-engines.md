@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-Используйте поисковую систему, которая не строит рекламный профиль на основе ваших запросов.
+Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## Рекомендованные провайдеры
 

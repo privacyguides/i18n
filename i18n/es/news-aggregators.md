@@ -5,7 +5,7 @@ description: Estos clientes para la lectura de noticias le permiten estar al dí
 cover: news-aggregators.webp
 ---
 
-Un [lector de noticias](https://en.wikipedia.org/wiki/News_aggregator) es una manera de estar al día con sus páginas de noticias favoritas.
+A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
 
 ## Clientes
 
@@ -179,7 +179,7 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-Puede suscribirse a los canales de YouTube sin iniciar sesión ni asociar la información de uso con su cuenta de Google.
+You can subscribe YouTube channels without logging in and associating usage information with your Google account.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Ejemplo</p>

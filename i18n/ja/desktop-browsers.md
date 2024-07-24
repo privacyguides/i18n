@@ -2,7 +2,7 @@
 meta_title: "プライバシーを尊重したPCとMac向けウェブブラウザ - Privacy Guides"
 title: "デスクトップブラウザ"
 icon: material/laptop
-description: これらのウェブブラウザは、Google Chromeよりも強力なプライバシー保護を提供します。
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-以下は、一般的な、非匿名のブラウジング用に、現在おすすめされているデスクトップ版のウェブブラウザとその設定です。 強力なプライバシー保護とフィンガープリント対策を重視する場合は[Mullvad Browser](#mullvad-browser)を、カジュアルなブラウジングやGoogle Chromeの良い代替品を探している場合は[Firefox](#firefox)を、Chromiumブラウザとの互換性が必要な場合は[Brave](#brave)をおすすめします。
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. 強力なプライバシー保護とフィンガープリント対策を重視する場合は[Mullvad Browser](#mullvad-browser)を、カジュアルなブラウジングやGoogle Chromeの良い代替品を探している場合は[Firefox](#firefox)を、Chromiumブラウザとの互換性が必要な場合は[Brave](#brave)をおすすめします。
 
 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。 このページではいくつかの設定をおすすめしていますが、Tor Browser以外のブラウザは、何らかの方法で、*誰かしら*が、あなたを追跡できます。
 

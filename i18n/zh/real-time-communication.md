@@ -6,7 +6,7 @@ description: Other instant messengers make all of your private conversations ava
 cover: real-time-communication.webp
 ---
 
-这些是我们对加密实时通讯的建议。
+These are our recommendations for encrypted **real-time communication**.
 
 [通信网络的类型 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 

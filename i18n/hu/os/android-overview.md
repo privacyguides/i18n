@@ -44,9 +44,11 @@ Ha például egy képet szeretnél közzétenni Discordon, megnyithatod a fájlk
 
 ## Biztonsági védelmek
 
+Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+
 ### Verified Boot
 
-A [Verified Boot](https://source.android.com/security/verifiedboot) az Android biztonsági modelljének egy fontos része. Védelmet nyújt az [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) támadások, valamint rosszindulatú programok állandósulása ellen, és biztosítja a [rollback védelem](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection) segítségével, hogy a biztonsági frissítéseket ne lehessen downgradelni.
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Védelmet nyújt az [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) támadások, valamint rosszindulatú programok állandósulása ellen, és biztosítja a [rollback védelem](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection) segítségével, hogy a biztonsági frissítéseket ne lehessen downgradelni.
 
 Az Android 10 és újabb verziói a teljes lemezes titkosítás helyett a rugalmasabb [fájlalapú titkosítást](https://source.android.com/security/encryption/file-based) használja. Az adataidat egyedi titkosítási kulcsok segítségével lesz titkosítva, az operációs rendszer fájljai pedig titkosítatlanok maradnak.
 
@@ -58,7 +60,7 @@ Több OEM-gyártó is elrontotta a Verified Boot megvalósítását, amivel a ma
 
 ### Firmware-frissítések
 
-A firmware-frissítések kritikus fontosságúak a biztonság fenntartása szempontjából, és nélkülük az eszközöd nem lehet biztonságos. Az OEM-gyártók támogatási megállapodásokat kötnek partnereikkel a zárt forráskódú komponensek korlátozott ideig történő biztosítására. Ezek a havonta megjelenő [Android Security Bulletin](https://source.android.com/security/bulletin)-ben vannak részletezve.
+**Firmware updates** are critical for maintaining security and without them your device cannot be secure. Az OEM-gyártók támogatási megállapodásokat kötnek partnereikkel a zárt forráskódú komponensek korlátozott ideig történő biztosítására. Ezek a havonta megjelenő [Android Security Bulletin](https://source.android.com/security/bulletin)-ben vannak részletezve.
 
 Mivel a telefon összetevői, például a processzor és a rádiótechnológiák zárt forráskódú komponensekre épülnek, a frissítéseket az adott gyártóknak kell biztosítaniuk. Ezért fontos, hogy olyan készüléket vásárolj ami rendelkezik aktív támogatási ciklussal. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
@@ -68,9 +70,9 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 ### Android engedélyek
 
-[Engedélyek az Androidon](https://developer.android.com/guide/topics/permissions/overview) lehetővé teszik, hogy te szabályozd, az alkalmazások mihez férhetnek hozzá. A Google minden egyes verzióban rendszeresen ad ki javít [javításokat](https://developer.android.com/about/versions/11/privacy/permissions) az engedély rendszerhez. Minden telepített alkalmazás szigorúan [sandboxolva](https://source.android.com/security/app-sandbox) van, ezért nincs szükség vírusirtó alkalmazások telepítésére.
+[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. A Google minden egyes verzióban rendszeresen ad ki javít [javításokat](https://developer.android.com/about/versions/11/privacy/permissions) az engedély rendszerhez. Minden telepített alkalmazás szigorúan [sandboxolva](https://source.android.com/security/app-sandbox) van, ezért nincs szükség vírusirtó alkalmazások telepítésére.
 
-Egy okostelefon az Android legújabb verziójával mindig biztonságosabb lesz, mint egy régi okostelefon egy vírusirtóval, amelyért fizettél. Jobb, ha nem fizetsz vírusirtó szoftverért, és inkább spórolsz egy új okostelefonra, például egy Google Pixel-re.
+Egy okostelefon az Android legújabb verziójával mindig biztonságosabb lesz, mint egy régi okostelefon egy vírusirtóval, amelyért fizettél. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10:
 

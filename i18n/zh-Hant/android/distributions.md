@@ -56,7 +56,7 @@ GrapheneOS 提供了額外的 [安全強化](https://zh.m.wikipedia.org/wiki/%E5
 
 </div>
 
-GrapheneOS 支援 [沙盒化 Google Play](https://grapheneos.org/usage#sandboxed-google-play) ，他將 [Google Play 服務](https://zh.wikipedia.org/wiki/Google_Play%E6%9C%8D%E5%8B%99) 完全沙盒化，使其如同其他常規應用程式一樣運行。 這意味著可正常使用大多數 Google Play 服務 所提供的功能，像是 [推送通知](https://firebase.google.com/docs/cloud-messaging) ，同時讓您完全控制其存取能力和權限，並將其包含在所選的特定 [工作設定檔](../os/android-overview.md#work-profile) 或 [用戶設定檔](../os/android-overview.md#user-profiles) 。
+GrapheneOS supports [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) fully sandboxed like any other regular app. 這意味著可正常使用大多數 Google Play 服務 所提供的功能，像是 [推送通知](https://firebase.google.com/docs/cloud-messaging) ，同時讓您完全控制其存取能力和權限，並將其包含在所選的特定 [工作設定檔](../os/android-overview.md#work-profile) 或 [用戶設定檔](../os/android-overview.md#user-profiles) 。
 
 [Google Pixel系列](../mobile-phones.md#google-pixel) 是目前唯一符合 GrapheneOS [硬體安全要求](https://grapheneos.org/faq#future-devices) 的裝置。
 
@@ -83,7 +83,7 @@ DivestOS 還包含來自GrapheneOS 的核心補丁，並透過 [defconfig 加固
 
 DivestOS 也實現了一些最初專為 GrapheneOS 開發的系統加固補丁。 DivestOS 16.0 及更高版本實現了GrapheneOS 的 [`網路`](https://developer.android.com/training/basics/network-ops/connecting) 和 傳感器 權限。除此之外還有： [加固的記憶體分配器](https://github.com/GrapheneOS/hardened_malloc) 、 [更安全的應用程式啟動](https://grapheneos.org/usage#exec-spawning) 、 [JNI](https://zh.wikipedia.org/wiki/Java%E6%9C%AC%E5%9C%B0%E6%8E%A5%E5%8F%A3) [constification](https://zh.wikipedia.org/wiki/Const)，和部分 [bionic](https://zh.wikipedia.org/wiki/Bionic_\(%E8%BB%9F%E9%AB%94\)) 強化補丁集。 17.1 及更高版本有 GrapheneOS 所具有的「根據每個網路完整的 [MAC 隨機化](https://en.wikipedia.org/wiki/MAC_address#Randomization) 」選項、 [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) 控制 、 [自動重新啟動](https://grapheneos.org/features#auto-reboot) ，和 Wi-Fi/藍牙 [逾時關閉選項](https://grapheneos.org/features#attack-surface-reduction)。
 
-DivestOS 使用 F-Droid 作為其預設應用程式商店。 我們通常 [建議避免使用 F-Droid](obtaining-apps.md#f-droid) ，但在 DivestOS 上這樣做是不可行的；開發人員透過自己的F-Droid 儲存庫 ([DivestOS Official](https://divestos.org/fdroid/official/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467) 和 [DivestOS WebView](https://divestos.org/fdroid/webview/?fingerprint=FB426DA1750A53D7724C8A582B4D34174E64A84B38940E5D5A802E1DFF9A40D2)) 更新應用程式。 我們建議停用官方 F-Droid 應用程式，改為使用 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) 並 **添加DivestOS儲存庫** 來保持這些組件處於最新狀態。 對於其他應用程式，我們推薦的獲取方法仍然適用。
+DivestOS 使用 F-Droid 作為其預設應用程式商店。 We normally [recommend avoiding F-Droid](obtaining-apps.md#f-droid), but doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repository, [DivestOS Official](https://divestos.org/fdroid/official). We recommend disabling the official F-Droid app and using [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) **with the DivestOS repository enabled** to keep those components up to date. For other apps, our recommended [methods of obtaining them](obtaining-apps.md) still apply.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>

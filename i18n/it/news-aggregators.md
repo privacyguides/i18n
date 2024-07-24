@@ -5,7 +5,7 @@ description: Questi client di aggregazione di notizie consentono di tenersi aggi
 cover: news-aggregators.webp
 ---
 
-Un [aggregatore di notizie](https://en.wikipedia.org/wiki/News_aggregator) consente di mantenerti aggiornato con i tuoi blog e siti di notizie preferiti.
+A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
 
 ## Client d'aggregazione
 
@@ -179,7 +179,7 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-Puoi iscriverti ai canali di YouTube senza accedere e associare le informazioni di utilizzo al tuo Profilo Google.
+You can subscribe YouTube channels without logging in and associating usage information with your Google account.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Esempio</p>

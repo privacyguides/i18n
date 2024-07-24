@@ -6,7 +6,7 @@ description: הצפנה של נתונים היא הדרך היחידה לשלו�
 cover: encryption.webp
 ---
 
-הצפנה של נתונים היא הדרך היחידה לשלוט מי יכול לגשת אליו. אם אינך משתמש כעת בתוכנת הצפנה עבור הדיסק הקשיח, הודעות הדוא"ל או הקבצים שלך, עליך לבחור אפשרות כאן.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## מרובה-פלטפורמות
 

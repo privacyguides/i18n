@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-Менеджеры паролей позволяют безопасно хранить и управлять паролями и другими данными с помощью мастер-пароля.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Введение в безопасные пароли :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

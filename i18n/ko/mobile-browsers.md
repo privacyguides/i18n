@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-본 내용은 현재 표준/비익명 인터넷 탐색 용도로 권장되는 모바일 웹 브라우저 및 관련 설정 목록입니다. 익명으로 인터넷을 탐색해야 하는 경우라면, [Tor](tor.md)를 사용해야 합니다.
+These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. 익명으로 인터넷을 탐색해야 하는 경우라면, [Tor](tor.md)를 사용해야 합니다.
 
 ## Android
 
@@ -169,7 +169,7 @@ Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/sh
 
 </div>
 
-Enable DivestOS's [F-Droid Repo](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
+Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
 
 Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 

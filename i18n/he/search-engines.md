@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-השתמש במנוע חיפוש שאינו בונה פרופיל פרסום על סמך החיפושים שלך.
+Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## ספקים מומלצים
 

@@ -6,7 +6,7 @@ description: Le chiffrement des données est le seul moyen de contrôler qui peu
 cover: encryption.webp
 ---
 
-Le chiffrement des données est le seul moyen de contrôler qui peut y accéder. Si vous n'utilisez pas actuellement de logiciel de chiffrement pour votre disque dur, vos e-mails ou vos fichiers, vous devriez choisir une option ici.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multi-plateforme
 

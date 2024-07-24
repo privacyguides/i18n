@@ -12,7 +12,7 @@ global:
 
 <!-- markdownlint-disable MD024 -->
 
-Wenn du auf der Suche nach zusätzlicher **Privatsphäre** vor deinem ISP, in einem öffentlichen Wi-Fi-Netzwerk oder beim Torrenting von Dateien bist, kann ein VPN die Lösung für dich sein.
+If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs bieten keine Anonymität</p>

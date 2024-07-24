@@ -6,7 +6,7 @@ description: El cifrado de los datos es la única forma de controlar quién pued
 cover: encryption.webp
 ---
 
-El cifrado de los datos es la única forma de controlar quién puede acceder a ellos. Si actualmente no está utilizando software de cifrado para su disco duro, correos electrónicos o archivos, debería elegir una opción aquí.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multiplataforma
 

@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-Manténgase seguro y protegido en línea con un gestor de contraseñas cifrado y de código abierto.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Introducción a las Contraseñas :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

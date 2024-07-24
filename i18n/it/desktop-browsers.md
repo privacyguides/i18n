@@ -2,7 +2,7 @@
 meta_title: "Browser web che rispettano la privacy per PC e Mac - Privacy Guides"
 title: "Browser desktop"
 icon: material/laptop
-description: Questi browser web offrono una maggiore protezione della privacy rispetto a Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Questi sono al momento i browser web consigliati per desktop e le configurazioni per la navigazione standard e non anonima. Consigliamo [Mullvad Browser](#mullvad-browser) se sei interessato a una forte protezione della privacy e all'anti-fingerprinting pronti all'uso, [Firefox](#firefox) per i navigatori occasionali di Internet alla ricerca di una buona alternativa a Google Chrome e [Brave](#brave), se necessiti della compatibilità del browser con Chromium.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Consigliamo [Mullvad Browser](#mullvad-browser) se sei interessato a una forte protezione della privacy e all'anti-fingerprinting pronti all'uso, [Firefox](#firefox) per i navigatori occasionali di Internet alla ricerca di una buona alternativa a Google Chrome e [Brave](#brave), se necessiti della compatibilità del browser con Chromium.
 
 Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [Tor](tor.md). In questa pagina forniamo alcune raccomandazioni sulla configurazione, ma tutti i browser diversi da Tor Browser saranno rintracciabili da *qualcuno* in un modo o nell'altro.
 

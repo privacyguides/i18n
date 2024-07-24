@@ -12,7 +12,7 @@ global:
 
 <!-- markdownlint-disable MD024 -->
 
-如果您希望在連接到網際網路連線供應商 (ISP)、使用公共 Wi-Fi 網路，或進行 BT 傳輸時能有更好的**隱私**保護，VPN 可能是適合您的解決方案。
+If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN 不提供匿名性</p>

@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-여러분의 검색 내용을 기반으로 광고 프로필을 구축하지 않는 검색 엔진을 사용하세요.
+Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## 권장 제공 업체
 

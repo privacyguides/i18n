@@ -6,14 +6,14 @@ description: ספקי אחסון בענן רבים דורשים את האמון 
 cover: cloud.webp
 ---
 
-ספקי אחסון ענן רבים דורשים את האמון המלא שלך בכך שהם לא יסתכלו על הקבצים שלך. החלופות המפורטות להלן מבטלות את הצורך באמון על ידי הטמעת E2EE מאובטחת.
+Many **cloud storage providers** require your full trust that they will not look at your files. החלופות המפורטות להלן מבטלות את הצורך באמון על ידי הטמעת E2EE מאובטחת.
 
 אם חלופות אלה אינן מתאימות לצרכים שלך, אנו מציעים לך לבדוק שימוש בתוכנת הצפנה כמו [Cryptomator](encryption.md#cryptomator-cloud) עם ספק ענן אחר. שימוש ב-Cryptomator בשילוב עם **כל** ספק ענן (כולל אלה) עשוי להיות רעיון טוב כדי להפחית את הסיכון לפגמי הצפנה אצל הלקוחות המקומיים של הספק.
 
-<details class="TYPE" markdown>
+<details class="admonition info" markdown>
 <summary>Looking for Nextcloud?</summary>
 
-Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
@@ -21,9 +21,9 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 <div class="admonition recommendation" markdown>
 
-![Proton Drive לוגו](assets/img/cloud/protondrive.svg){ align=right }
+![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** הוא ספק אחסון ענן מוצפן שוויצרי מספק האימייל המוצפן הפופולרי [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }

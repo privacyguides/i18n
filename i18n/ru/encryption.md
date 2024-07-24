@@ -6,7 +6,7 @@ description: Шифрование данных - единственный спо
 cover: encryption.webp
 ---
 
-Шифрование данных - единственный способ контролировать доступ к ним. Если вы еще не используете какие-либо инструменты шифрования диска, электронной почты или файлов, то вы можете выбрать один из них тут.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Мультиплатформенные приложения
 

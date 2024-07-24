@@ -5,7 +5,7 @@ description: Photo management tools to keep your personal photos safe from the p
 cover: photo-management.webp
 ---
 
-Most cloud photo management solutions like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
+Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. These options keep your personal photos private, while allowing you to share them only with family and trusted people.
 
 ## Ente Photos
 

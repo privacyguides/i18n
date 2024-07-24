@@ -5,7 +5,7 @@ description: 這些新聞聚合器客戶端可利使用 RSS 等網際網路標�
 cover: news-aggregators.webp
 ---
 
-[新聞聚合器](https://en.wikipedia.org/wiki/News_aggregator) 是一種訂閱最喜愛的部落格和新聞網站的追蹤方式。
+A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
 
 ## 聚合器客戶端
 
@@ -179,7 +179,7 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-您可以訂閱  YouTube頻道而無需登入，不會把使用情況資訊與Google 帳戶關聯。
+You can subscribe YouTube channels without logging in and associating usage information with your Google account.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example "例子"</p>

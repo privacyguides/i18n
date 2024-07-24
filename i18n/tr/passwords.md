@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-Parola yöneticileri, bir ana parola kullanarak parolaları ve diğer kimlik bilgilerini güvenli bir şekilde saklamanıza ve yönetmenize olanak tanır.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

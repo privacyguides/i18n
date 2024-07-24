@@ -6,7 +6,7 @@ description: Le altre app di messaggistica istantanea rendono disponibili tutte 
 cover: real-time-communication.webp
 ---
 
-Questi sono i nostri consigli per le comunicazioni crittografate in tempo reale.
+These are our recommendations for encrypted **real-time communication**.
 
 [Tipi di reti di comunicazione :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 

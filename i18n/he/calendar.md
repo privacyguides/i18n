@@ -5,7 +5,7 @@ description: Calendars contain some of your most sensitive data; use products th
 cover: calendar.webp
 ---
 
-לוחות שנה מכילים חלק מהנתונים הרגישים ביותר שלך; השתמש במוצרים המיישמים E2EE ב - מנוחה כדי למנוע מספק לקרוא אותם.
+**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta
 

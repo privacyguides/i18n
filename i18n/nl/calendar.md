@@ -5,7 +5,7 @@ description: Calendars contain some of your most sensitive data; use products th
 cover: calendar.webp
 ---
 
-Kalenders en contactpersonen bevatten enkele van jouw gevoeligste gegevens; gebruik producten die E2EE in rust implementeren om te voorkomen dat een provider ze kan lezen.
+**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta
 

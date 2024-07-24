@@ -6,7 +6,7 @@ description: Other instant messengers make all of your private conversations ava
 cover: real-time-communication.webp
 ---
 
-본 내용은 실시간 커뮤니케이션 용도로 권장드리는 암호화 메신저 목록입니다.
+These are our recommendations for encrypted **real-time communication**.
 
 [통신 네트워크 유형 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 

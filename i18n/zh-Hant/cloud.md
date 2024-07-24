@@ -6,14 +6,14 @@ description: 許多雲端儲存服務供應商需要您相信他們不會查看�
 cover: cloud.webp
 ---
 
-許多雲端儲存服務供應商需要您完全信任他們不會查看您的檔案。 下面列出的替代方案通過實施安全的 E2EE，消除了對信任的需要。
+Many **cloud storage providers** require your full trust that they will not look at your files. 下面列出的替代方案通過實施安全的 E2EE，消除了對信任的需要。
 
 如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟件，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。 把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客立端加密漏洞之風險。
 
-<details class="TYPE" markdown>
+<details class="admonition info" markdown>
 <summary>尋找 Nextcloud?</summary>
 
-Nextcloud 是[仍是一款受推薦的工具](productivity.md)，可用於自我託管檔案管理套件，但目前不推薦第三方 Nextcloud儲存服務提供商，我們 [[不建議使用 ](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29)Nextcloud 家庭用戶版內置的 E2EE 功能。
+Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
@@ -23,7 +23,7 @@ Nextcloud 是[仍是一款受推薦的工具](productivity.md)，可用於自我
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** 是來自流行的加密電子郵件供應商[Proton Mail](email.md#proton-mail)的瑞士加密雲存儲供應商。 一開始免費儲存空間僅 2GB，但完成某些步驟後，可獲得最多 5GB 的額外儲存空間。
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). 一開始免費儲存空間僅 2GB，但完成某些步驟後，可獲得最多 5GB 的額外儲存空間。
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }

@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-Οι διαχειριστές κωδικών σου επιτρέπουν να αποθηκεύσεις και να διαχειριστείς με ασφάλεια κωδικούς και άλλα διαπιστευτήρια μέσω ενός κύριου κωδικού που χρησιμεύει ως "πασπαρτού."
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Εισαγωγή στους Κωδικούς :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

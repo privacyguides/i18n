@@ -2,7 +2,7 @@
 meta_title: "Интернет браузеры соблюдающие конфиденциальность для ПК и Мак - Privacy Guides"
 title: "Браузеры для настольных компьютеров"
 icon: material/laptop
-description: Эти браузеры обеспечивают более надежную защиту конфиденциальности, чем Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Здесь перечислены рекомендуемые браузеры для настольных компьютеров и руководства по их настройке для обычного (не анонимного) браузинга. Мы рекомендуем [Mullvad Browser](#mullvad-browser), если тебе важна надежная защита конфиденциальности и защита от цифровых отпечатков из коробки, [Firefox](#firefox) для людей, ищущих альтернативу Google Chrome, и [Brave](#brave), если тебе нужна совместимость с браузером Chromium.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Мы рекомендуем [Mullvad Browser](#mullvad-browser), если тебе важна надежная защита конфиденциальности и защита от цифровых отпечатков из коробки, [Firefox](#firefox) для людей, ищущих альтернативу Google Chrome, и [Brave](#brave), если тебе нужна совместимость с браузером Chromium.
 
 Если тебе нужна анонимность в сети, то используй [Tor](tor.md). На этой странице мы даем некоторые рекомендации по настройке браузеров, но все браузеры, кроме Tor Browser, могут быть отслежены *кем-то* тем или иным способом.
 

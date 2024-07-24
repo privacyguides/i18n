@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-這些是我們目前推薦的行動網路瀏覽器和標準/非匿名網際網路瀏覽的設定。 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。
+These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。
 
 ## Android
 
@@ -168,7 +168,7 @@ Android 上基於Firefox (Gecko) 的瀏覽器[缺乏](https://bugzilla.mozilla.o
 
 </div>
 
-啟用 DivestOS 的 [F-Droid Repo](https://divestos.org/fdroid/official) 直接從開發者接收更新。 從預設的 F-Droid 儲存庫下載 Mull 將意味著更新可能會延遲幾天或更長時間。
+Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. 從預設的 F-Droid 儲存庫下載 Mull 將意味著更新可能會延遲幾天或更長時間。
 
 Mull 透過[Tor 提升專案](https://wiki.mozilla.org/Security/Tor_Uplift)的[Arkenfox](desktop-browsers.md#arkenfox-advanced)的偏好來啟動許多上游高級功能。 使用為 Fennec F-Droid 開發的腳本從 Mozilla 程式碼中刪除商業專有 blob。
 

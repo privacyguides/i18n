@@ -5,7 +5,7 @@ description: Calendars contain some of your most sensitive data; use products th
 cover: calendar.webp
 ---
 
-Os calendários contêm alguns de seus dados mais confidenciais; use produtos que implementem E2EE em repouso para impedir que um provedor os leia.
+**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta
 

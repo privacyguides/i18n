@@ -12,7 +12,7 @@ global:
 
 <!-- markdownlint-disable MD024 -->
 
-Si buscas **privacidad** adicional en tu proveedor de Internet, una red pública de Wi-Fi o mientras descargas archivos Torrent, una VPN puede ser la solución para ti.
+If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Las VPNs no proporcionan anonimato</p>

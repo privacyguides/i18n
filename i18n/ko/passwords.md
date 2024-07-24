@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-비밀번호 관리자를 사용하여, 비밀번호를 비롯한 기타 자격 증명을 마스터 비밀번호로 안전하게 저장 및 관리할 수 있습니다.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [비밀번호 입문 :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

@@ -249,6 +249,17 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](data-redaction.md)
 
+### Document Collaboration
+
+<div class="grid cards" markdown>
+
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](document-collaboration.md#nextcloud)
+- ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
+
+</div>
+
+[了解更多 :material-arrow-right-drop-circle:](document-collaboration.md)
+
 ### 電子郵件客戶端程式
 
 <div class="grid cards" markdown>
@@ -310,7 +321,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 - ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
 - ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
@@ -333,6 +344,16 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 </div>
 
 [了解更多 :material-arrow-right-drop-circle:](frontends.md)
+
+### Language Tools
+
+<div class="grid cards" markdown>
+
+- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
+
+</div>
+
+[了解更多 :material-arrow-right-drop-circle:](language-tools.md)
 
 ### 多因素驗證工具
 
@@ -377,6 +398,17 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 [了解更多 :material-arrow-right-drop-circle:](notebooks.md)
 
+### Office Suites
+
+<div class="grid cards" markdown>
+
+- ![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](office-suites.md#libreoffice)
+- ![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](office-suites.md#onlyoffice)
+
+</div>
+
+[了解更多 :material-arrow-right-drop-circle:](office-suites.md)
+
 ### 密碼管理器。
 
 <div class="grid cards" markdown>
@@ -403,20 +435,6 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 </div>
 
 [了解更多 :material-arrow-right-drop-circle:](pastebins.md)
-
-### 工作效率工具
-
-<div class="grid cards" markdown>
-
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
-- ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](productivity.md#libreoffice)
-- ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
-- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
-- ![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](productivity.md#languagetool)
-
-</div>
-
-[了解更多 :material-arrow-right-drop-circle:](productivity.md)
 
 ### 即時通訊軟體
 

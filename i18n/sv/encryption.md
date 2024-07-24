@@ -6,7 +6,7 @@ description: Kryptering av data är det enda sättet att kontrollera vem som har
 cover: encryption.webp
 ---
 
-Kryptering av data är det enda sättet att kontrollera vem som har tillgång till dem. Om du för närvarande inte använder krypteringsprogram för din hårddisk, e-post eller filer bör du välja ett alternativ här.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multiplattform
 

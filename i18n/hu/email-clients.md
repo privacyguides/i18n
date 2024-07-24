@@ -5,7 +5,7 @@ description: These email clients are privacy-respecting and support OpenPGP emai
 cover: email-clients.webp
 ---
 
-Ajánlási listánk olyan e-mail klienseket tartalmaz, amelyek támogatják mind az [OpenPGP](encryption.md#openpgp)-t és az erős hitelesítést, például az [Open Authorization-t (OAuth-ot)](https://en.wikipedia.org/wiki/OAuth). Az OAuth lehetővé teszi a [többlépcsős hitelesítés használatát](basics/multi-factor-authentication.md) és a fiók ellopásának megelőzését.
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). Az OAuth lehetővé teszi a [többlépcsős hitelesítés használatát](basics/multi-factor-authentication.md) és a fiók ellopásának megelőzését.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>

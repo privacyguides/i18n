@@ -6,7 +6,7 @@ description: Andere Instant Messenger stellen dem Unternehmen, das sie betreibt,
 cover: real-time-communication.webp
 ---
 
-Dies sind unsere Empfehlungen für verschlüsselte Echtzeitkommunikation.
+These are our recommendations for encrypted **real-time communication**.
 
 [Arten von Kommunikationsnetzen :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 

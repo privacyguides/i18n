@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-Pengelola kata sandi memungkinkan Anda menyimpan dan mengelola kata sandi dan kredensial lainnya dengan aman dengan menggunakan kata sandi utama.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Pengantar Kata Sandi :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

@@ -5,7 +5,7 @@ description: Ces clients d'e-mail respectent la vie privée et prennent en charg
 cover: email-clients.webp
 ---
 
-Notre liste de recommandations contient des clients d'e-mail qui prennent en charge à la fois [OpenPGP](encryption.md#openpgp) et l'authentification forte telle que [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth vous permet d'utiliser l'[Authentification à Multi-Facteurs](multi-factor-authentication) et d'empêcher le vol de compte.
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth vous permet d'utiliser l'[Authentification à Multi-Facteurs](multi-factor-authentication) et d'empêcher le vol de compte.
 
 <details class="warning" markdown>
 <summary>L'e-mail n'assure pas la confidentialité persistante</summary>

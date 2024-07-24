@@ -2,7 +2,7 @@
 meta_title: "Peramban Web yang Menghargai Privasi untuk PC dan Mac - Privacy Guides"
 title: "Peramban Komputer"
 icon: material/laptop
-description: Peramban web ini memberikan perlindungan privasi yang lebih kuat daripada Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Berikut ini adalah peramban web komputer yang kami rekomendasikan saat ini beserta dengan konfigurasi untuk penjelajahan standar/nonanonim. Kami merekomendasikan [Mullvad Browser](#mullvad-browser) jika Anda berfokus pada perlindungan privasi yang kuat dan anti-fingerprinting otomatis, [Firefox](#firefox) bagi para penjelajah internet biasa yang mencari alternatif baik untuk Google Chrome, dan [Brave](#brave) jika Anda membutuhkan kompabilitas browser Chromium.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Kami merekomendasikan [Mullvad Browser](#mullvad-browser) jika Anda berfokus pada perlindungan privasi yang kuat dan anti-fingerprinting otomatis, [Firefox](#firefox) bagi para penjelajah internet biasa yang mencari alternatif baik untuk Google Chrome, dan [Brave](#brave) jika Anda membutuhkan kompabilitas browser Chromium.
 
 Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [Tor](tor.md) saja. Kami memberikan beberapa rekomendasi konfigurasi di halaman ini, tetapi semua browser selain Tor Browser akan dapat dilacak oleh * seseorang* dengan suatu cara.
 

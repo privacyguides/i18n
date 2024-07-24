@@ -6,14 +6,14 @@ description: Molti fornitori di spazio d'archiviazione su cloud richiedono ti ri
 cover: cloud.webp
 ---
 
-Molti fornitori di spazio di archiviazione su cloud richiedono la tua totale fiducia sul fatto che non guarderanno i tuoi file. Le alternative elencate di seguito eliminano la necessità di fiducia implementando l'E2EE.
+Many **cloud storage providers** require your full trust that they will not look at your files. Le alternative elencate di seguito eliminano la necessità di fiducia implementando l'E2EE.
 
 Se queste alternative non soddisfano le tue esigenze, ti suggeriamo di utilizzare un software di crittografia come [Cryptomator](encryption.md#cryptomator-cloud), con un altro fornitore su cloud. L'utilizzo di Cryptomator insieme a **qualsiasi** fornitore su cloud (compresi questi), può essere una buona idea per ridurre il rischio di vulnerabilità di crittografia nei client nativi di un fornitore.
 
-<details class="TYPE" markdown>
+<details class="admonition info" markdown>
 <summary>Stai cercando Nextcloud?</summary>
 
-Nextcloud è [ancora uno strumento consigliato](productivity.md) per il self-hosting di una suite di gestione dei file, tuttavia al momento non raccomandiamo fornitori di storage Nextcloud di terze parti, perché [non raccomandiamo](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la funzionalità E2EE integrata di Nextcloud per gli utenti privati.
+Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
@@ -21,9 +21,9 @@ Nextcloud è [ancora uno strumento consigliato](productivity.md) per il self-hos
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
+![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** è un fornitore svizzero di spazio d'archiviazione crittografato su cloud, del popolare fornitore di email crittografate, [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Informativa sulla Privacy" }

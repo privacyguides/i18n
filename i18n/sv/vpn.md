@@ -12,7 +12,7 @@ global:
 
 <!-- markdownlint-disable MD024 -->
 
-Om du vill få extra **sekretess** från din internetleverantör, på ett offentligt Wi-Fi-nätverk eller när du laddar ner torrentfiler kan VPN vara en bra lösning.
+If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">En VPN gör inte att du blir anonym</p>

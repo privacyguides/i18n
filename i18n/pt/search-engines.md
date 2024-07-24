@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-Utilize um motor de busca que não crie um perfil de marketing com base nas suas pesquisas.
+Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## Provedores recomendados
 

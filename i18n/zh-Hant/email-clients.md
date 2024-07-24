@@ -5,7 +5,7 @@ description: 這些電子郵件客戶端尊重隱私並支持OpenPGP電子郵件
 cover: email-clients.webp
 ---
 
-我們的推薦清單包含支援 [OpenPGP](encryption.md#openpgp) 和如[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth)強認證的電子郵件用戶端 。 OAuth允許您使用 [多因素驗證](basics/multi-factor-authentication.md) 並防止帳戶被盜。
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth允許您使用 [多因素驗證](basics/multi-factor-authentication.md) 並防止帳戶被盜。
 
 <details class="warning" markdown>
 <summary>電子郵件不提供前向保密</summary>

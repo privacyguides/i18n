@@ -5,7 +5,7 @@ description: 行事曆包含一些您最敏感的資料，使用實現靜態加�
 cover: calendar.webp
 ---
 
-行事曆包含一些您最敏感的資料；請使用未存取時執行 E2EE 的產品，以防止供應商讀取這些資料。
+**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta
 

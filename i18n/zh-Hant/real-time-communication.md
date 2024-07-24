@@ -6,7 +6,7 @@ description: 其他即時通訊則會讓用戶所有的私人對話被該軟體�
 cover: real-time-communication.webp
 ---
 
-這些是我們所推薦的加密實時通訊軟體。
+These are our recommendations for encrypted **real-time communication**.
 
 [通訊網絡 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 

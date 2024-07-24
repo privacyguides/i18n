@@ -6,7 +6,7 @@ description: Otros servicios de mensajería instantánea ponen todas sus convers
 cover: real-time-communication.webp
 ---
 
-Estas son nuestras recomendaciones para la comunicación cifrada en tiempo real.
+These are our recommendations for encrypted **real-time communication**.
 
 [Tipos de Redes de Comunicación :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 

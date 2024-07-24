@@ -44,9 +44,11 @@ AFWall+ 基於 [封包過濾](https://en.wikipedia.org/wiki/Firewall_(computing)
 
 ## 安全保護
 
+Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+
 ### 已驗證的啟動
 
-[ Verified Boot](https://source.android.com/security/verifiedboot) ，是 Android 安全模式的重要組成。 它可保護 [邪惡女僕](https://en.wikipedia.org/wiki/Evil_maid_attack) 、惡意軟件的持久性攻擊，確保安全性更新不會造成 [回滾保護降級](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)。
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. 它可保護 [邪惡女僕](https://en.wikipedia.org/wiki/Evil_maid_attack) 、惡意軟件的持久性攻擊，確保安全性更新不會造成 [回滾保護降級](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)。
 
 Android 10 以上版本已從全磁碟加密轉向更靈活的 [檔案加密](https://source.android.com/security/encryption/file-based)。 您的資料使用獨特的加密金鑰加密，而作業系統檔案則未加密。
 
@@ -58,7 +60,7 @@ Verified Boot確保作業系統檔案的完整性，從而防止具有物理訪�
 
 ### 韌體更新
 
-韌體更新對於維護安全性至關重要，沒有它們，您的設備就無法安全。 OEM 與其合作夥伴簽訂了支援協議，在有限的支持期內提供封閉式元件。 詳情請參閱每月 [Android 安全公告](https://source.android.com/security/bulletin)。
+**Firmware updates** are critical for maintaining security and without them your device cannot be secure. OEM 與其合作夥伴簽訂了支援協議，在有限的支持期內提供封閉式元件。 詳情請參閱每月 [Android 安全公告](https://source.android.com/security/bulletin)。
 
 由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [高通](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and)和[三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox)為其設備提供4 年支持，而較便宜的產品通常支持週期較短。 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705)的推出， Google 現在製造自己的 SoC ，他們將提供至少 5年的支持。 隨著 Pixel 8 系列的推出，Google 將支援期限延長至 7 年。
 
@@ -68,11 +70,9 @@ Verified Boot確保作業系統檔案的完整性，從而防止具有物理訪�
 
 ### Android權限
 
-Android</a> 上的
+[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google 定期在每個連續版本中對權限系統進行 [改進](https://developer.android.com/about/versions/11/privacy/permissions) 。 安裝的所有應用程式都是嚴格的 [沙盒](https://source.android.com/security/app-sandbox)，因此，沒必要安裝任何防毒應用程式。
 
-權限可控制允許哪些應用程式作存取。 Google 定期在每個連續版本中對權限系統進行 [改進](https://developer.android.com/about/versions/11/privacy/permissions) 。 安裝的所有應用程式都是嚴格的 [沙盒](https://source.android.com/security/app-sandbox)，因此，沒必要安裝任何防毒應用程式。</p> 
-
-最新版本Android 的智能手機將永遠比裝付費防毒軟體的舊智慧手機更安全。 最好不要為防毒軟件付費，省錢購買新的智慧手機，如Google Pixel。
+最新版本Android 的智能手機將永遠比裝付費防毒軟體的舊智慧手機更安全。 It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10:
 

@@ -6,14 +6,14 @@ description: 대부분의 클라우드 스토리지 제공 업체는, 업체가 
 cover: cloud.webp
 ---
 
-대부분의 클라우드 스토리지 서비스에서, 사용자는 그저 '제공 업체가 사용자의 파일을 함부로 열람하지 않을 것'이라고 전적으로 신뢰해야 할 뿐입니다. 아래에 제시된 대안은 E2EE 보안을 구현하여 '신뢰'의 필요성을 처음부터 제거합니다.
+Many **cloud storage providers** require your full trust that they will not look at your files. 아래에 제시된 대안은 E2EE 보안을 구현하여 '신뢰'의 필요성을 처음부터 제거합니다.
 
 이러한 대안들이 여러분의 요구에 맞지 않는 경우, 다른 클라우드 제공 업체를 [Cryptomator](encryption.md#cryptomator-cloud) 등의 암호화 소프트웨어와 함께 사용할 것을 권장합니다. **어떤** 클라우드 제공 업체든(본 목록 포함), Cryptomator를 함께 사용함으로써 제공 업체의 기본 클라이언트에서 발생할 수 있는 암호화 결함 위험성을 낮출 수 있습니다.
 
-<details class="TYPE" markdown>
+<details class="admonition info" markdown>
 <summary>Looking for Nextcloud?</summary>
 
-Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
@@ -21,9 +21,9 @@ Nextcloud is [still a recommended tool](productivity.md) for self-hosting a file
 
 <div class="admonition recommendation" markdown>
 
-![Proton Drive 로고](assets/img/cloud/protondrive.svg){ align=right }
+![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive**는 유명한 스위스의 암호화 이메일 서비스 제공 업체인 [Proton Mail](email.md#proton-mail)의 암호화 클라우드 스토리지 서비스입니다. The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }

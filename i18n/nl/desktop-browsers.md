@@ -2,7 +2,7 @@
 meta_title: "Privacy respecterende webbrowsers voor PC en Mac - Privacy Handleidingen"
 title: "Desktop Browsers"
 icon: material/laptop
-description: Deze webbrowsers bieden sterkere privacybescherming dan Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Dit zijn momenteel onze aanbevolen mobiele webbrowsers en configuraties. Wij bevelen [Mullvad Browser](#mullvad-browser) aan als je je richt op sterke privacybescherming en anti-vingerafdrukken uit de doos, [Firefox](#firefox) voor casual internetbrowsers op zoek naar een goed alternatief voor Google Chrome, en [Brave](#brave) als je Chromium-browsercompatibiliteit nodig hebt.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Wij bevelen [Mullvad Browser](#mullvad-browser) aan als je je richt op sterke privacybescherming en anti-vingerafdrukken uit de doos, [Firefox](#firefox) voor casual internetbrowsers op zoek naar een goed alternatief voor Google Chrome, en [Brave](#brave) als je Chromium-browsercompatibiliteit nodig hebt.
 
 In het algemeen raden we aan om extensies tot een minimum te beperken: ze hebben geprivilegieerde toegang binnen jouw browser, vereisen dat je de ontwikkelaar vertrouwt, kunnen je [doen opvallen](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), en [verzwakken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-Uchnm34/m/lDaXwQhzBAAJ) site-isolatie. We doen op deze pagina enkele aanbevelingen voor de configuratie, maar alle andere browsers dan Tor Browser zullen op een of andere manier traceerbaar zijn via *iemand*.
 

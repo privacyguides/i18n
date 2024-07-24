@@ -5,7 +5,7 @@ description: These email clients are privacy-respecting and support OpenPGP emai
 cover: email-clients.webp
 ---
 
-본 권장 목록의 이메일 클라이언트는 [OpenPGP](encryption.md#openpgp) 및 [OAuth(Open Authorization)](https://en.wikipedia.org/wiki/OAuth) 같은 강력한 인증을 모두 지원합니다. OAuth를 이용하면 [다중 인증](basics/multi-factor-authentication.md)으로 계정을 보호할 수 있습니다.
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth를 이용하면 [다중 인증](basics/multi-factor-authentication.md)으로 계정을 보호할 수 있습니다.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>

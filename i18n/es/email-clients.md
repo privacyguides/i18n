@@ -5,7 +5,7 @@ description: Estos clientes de correo electrónico respetan la privacidad y admi
 cover: email-clients.webp
 ---
 
-Nuestra lista de recomendaciones contiene clientes de correo electrónico que soportan [OpenPGP](encryption.md#openpgp) y una autenticación fuerte como [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth le permite utilizar la [Autenticación Multifactor](basics/multi-factor-authentication.md) y previene el robo de cuentas.
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth le permite utilizar la [Autenticación Multifactor](basics/multi-factor-authentication.md) y previene el robo de cuentas.
 
 <details class="warning" markdown>
 <summary>El correo electrónico no proporciona secreto hacia adelante</summary>

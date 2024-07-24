@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-這些尊重隱私的搜尋引擎不會根據您的搜尋建立廣告剖繪。
+Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## 推薦的 DNS 提供商
 

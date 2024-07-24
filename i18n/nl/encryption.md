@@ -6,7 +6,7 @@ description: Encryptie van gegevens is de enige manier om te controleren wie er 
 cover: encryption.webp
 ---
 
-Encryptie van gegevens is de enige manier om te controleren wie er toegang toe heeft. Als je momenteel geen encryptiesoftware gebruikt voor jouw harde schijf, e-mails of bestanden, moet je hier een optie kiezen.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multi-platform
 

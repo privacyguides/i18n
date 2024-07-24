@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-Os gestores de palavras-passe permitem-lhe armazenar e gerir de forma segura as suas palavras-passe e outras credenciais, através da utilização de uma palavra-passe mestra.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Introdução às palavras-passe :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

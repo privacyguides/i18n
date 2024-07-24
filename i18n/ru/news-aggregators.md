@@ -5,7 +5,7 @@ description: These news aggregator clients let you keep up with your favorite bl
 cover: news-aggregators.webp
 ---
 
-[Новостные агрегаторы](https://en.wikipedia.org/wiki/News_aggregator) - это простой способ следить за любимыми блогами и новостными сайтами.
+A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
 
 ## Клиенты-агрегаторы
 
@@ -179,7 +179,7 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-Вы можете подписаться на каналы YouTube, не входя в систему и не связывая информацию об использовании с вашей учетной записью Google.
+You can subscribe YouTube channels without logging in and associating usage information with your Google account.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>

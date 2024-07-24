@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-Met wachtwoord Managers kunt je wachtwoorden en andere geheimen veilig opslaan en beheren met behulp van een hoofdwachtwoord.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Uitleg over wachtwoorden :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

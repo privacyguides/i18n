@@ -2,7 +2,7 @@
 meta_title: "Navigateurs web respectueux de la vie privée pour PC et Mac - Privacy Guides"
 title: "Navigateurs de bureau"
 icon: material/laptop
-description: Ces navigateurs web offrent des protections de la vie privée plus solides que Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Ce sont les navigateurs web de bureau et les configurations que nous recommandons actuellement pour une navigation classique/non anonyme. Nous recommandons [Mullvad Browser](#mullvad-browser) si vous recherchez des protections solides de la vie privée et une protection contre la capture des empreintes numériques, [Firefox](#firefox) pour les internautes occasionnels qui recherchent une bonne alternative à Google Chrome, et [Brave](#brave) si vous avez besoin d'une compatibilité avec le navigateur Chromium.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Nous recommandons [Mullvad Browser](#mullvad-browser) si vous recherchez des protections solides de la vie privée et une protection contre la capture des empreintes numériques, [Firefox](#firefox) pour les internautes occasionnels qui recherchent une bonne alternative à Google Chrome, et [Brave](#brave) si vous avez besoin d'une compatibilité avec le navigateur Chromium.
 
 Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt utiliser [Tor](tor.md). Nous faisons quelques recommandations de configuration sur cette page, mais tous les navigateurs autres que Tor Browser seront traçables par *quelqu'un* d'une manière ou d'une autre.
 

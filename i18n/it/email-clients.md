@@ -5,7 +5,7 @@ description: Questi client di posta elettronica rispettano la privacy e supporta
 cover: email-clients.webp
 ---
 
-Il nostro elenco di consigli contiene i client email che supportano sia [OpenPGP](encryption.md#openpgp) che l'autenticazione forte, come [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth consente di utilizzare l'[autenticazione a più fattori](basics/multi-factor-authentication.md) e di prevenire il furto del profilo.
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth consente di utilizzare l'[autenticazione a più fattori](basics/multi-factor-authentication.md) e di prevenire il furto del profilo.
 
 <details class="warning" markdown>
 <summary>L'email non fornisce la forward secrecy</summary>

@@ -5,7 +5,7 @@ description: These email clients are privacy-respecting and support OpenPGP emai
 cover: email-clients.webp
 ---
 
-Our recommendation list contains email clients that support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) and prevent account theft.
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) and prevent account theft.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>

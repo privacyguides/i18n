@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-Verwende eine Suchmaschine, die kein Werbeprofil auf Grundlage deiner Suchanfragen erstellt.
+Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## Empfohlene DNS-Anbieter
 

@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-I gestori di password ti consentono di memorizzare e gestire in sicurezza le password e altre credenziali, utilizzando una password principale.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Introduzione alle password :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

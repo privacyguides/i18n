@@ -12,7 +12,7 @@ global:
 
 <!-- markdownlint-disable MD024 -->
 
-Si vous recherchez à protéger votre **vie privée** vis-à-vis de votre FAI, sur un réseau Wi-Fi public ou lorsque vous téléchargez des fichiers en torrent, un VPN peut être la solution pour vous.
+If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Les VPN ne peuvent pas fournir d'anonymat</p>

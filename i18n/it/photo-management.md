@@ -5,7 +5,7 @@ description: Strumenti di gestione delle foto per tenere le foto personali al si
 cover: photo-management.webp
 ---
 
-La maggior parte delle soluzioni di gestione delle foto cloud, come Google Photos, Flickr e Amazon Photos, non proteggono le foto dall'accesso da parte dei fornitori di spazio di archiviazione in cloud. Queste opzioni mantengono le foto personali private, consentendo di condividerle solo con i familiari e le persone fidate.
+Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. Queste opzioni mantengono le foto personali private, consentendo di condividerle solo con i familiari e le persone fidate.
 
 ## Ente Photos
 

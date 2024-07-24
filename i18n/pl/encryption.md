@@ -6,7 +6,7 @@ description: Szyfrowanie danych to jedyny sposób na kontrolowanie tego, kto ma 
 cover: encryption.webp
 ---
 
-Szyfrowanie danych to jedyny sposób na kontrolowanie tego, kto ma do nich dostęp. Jeśli obecnie nie używasz oprogramowania szyfrującego dla swojego dysku, e-maili lub plików, możesz wybrać jedną z tych opcji.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Międzyplatformowe
 

@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-密碼管理員讓您用主密碼安全地儲存、管理密碼和其他憑證。
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [密碼介紹 :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

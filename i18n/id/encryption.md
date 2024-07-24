@@ -6,7 +6,7 @@ description: Enkripsi data adalah satu-satunya cara untuk mengendalikan siapa sa
 cover: encryption.webp
 ---
 
-Enkripsi data adalah satu-satunya cara untuk mengendalikan siapa saja yang dapat mengaksesnya. Jika saat ini Anda tidak menggunakan perangkat lunak enkripsi untuk perangkat penyimpanan, surel, atau berkas Anda, Anda seharusnya memilih opsi di sini.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multi-platform
 

@@ -44,9 +44,11 @@ For example, if you want to post a picture to Discord you can open your file man
 
 ## Security Protections
 
+Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+
 ### Geverifieerde boot
 
-[Geverifieerde Boot](https://source.android.com/security/verifiedboot) is een belangrijk onderdeel van het Android-beveiligingsmodel. Het biedt bescherming tegen [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) aanvallen, malware persistentie, en zorgt ervoor dat beveiligingsupdates niet kunnen worden gedowngraded met [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Het biedt bescherming tegen [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) aanvallen, malware persistentie, en zorgt ervoor dat beveiligingsupdates niet kunnen worden gedowngraded met [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Android 10 en hoger is overgestapt van volledige schijfversleuteling naar meer flexibele [bestandsgebaseerde versleuteling](https://source.android.com/security/encryption/file-based). Jouw gegevens worden versleuteld met unieke encryptiesleutels, en de bestanden van het besturingssysteem blijven onversleuteld.
 
@@ -58,7 +60,7 @@ Veel OEM's hebben ook een gebroken uitvoering van Verified Boot waar je je bewus
 
 ### Firmware-updates
 
-Firmware-updates zijn van cruciaal belang voor het behoud van de veiligheid en zonder deze updates kan uw toestel niet veilig zijn. OEM's hebben ondersteuningsovereenkomsten met hun partners om de closed-source componenten voor een beperkte ondersteuningsperiode te leveren. Deze worden gedetailleerd beschreven in de maandelijkse [Android Security Bulletins](https://source.android.com/security/bulletin).
+**Firmware updates** are critical for maintaining security and without them your device cannot be secure. OEM's hebben ondersteuningsovereenkomsten met hun partners om de closed-source componenten voor een beperkte ondersteuningsperiode te leveren. Deze worden gedetailleerd beschreven in de maandelijkse [Android Security Bulletins](https://source.android.com/security/bulletin).
 
 Aangezien de onderdelen van de telefoon, zoals de processor en de radiotechnologieën, afhankelijk zijn van closed-source componenten, moeten de updates door de respectieve fabrikanten worden verstrekt. Daarom is het belangrijk dat u een toestel koopt binnen een actieve ondersteuningscyclus. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
@@ -68,9 +70,9 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 ### Android-machtigingen
 
-[Machtigingen op Android](https://developer.android.com/guide/topics/permissions/overview) geven je controle over waar apps toegang tot toe krijgen. Google brengt regelmatig [verbeteringen aan](https://developer.android.com/about/versions/11/privacy/permissions) in het machtigingssysteem in elke opeenvolgende versie. Alle apps die je installeert zijn strikt [sandboxed](https://source.android.com/security/app-sandbox), daarom is het niet nodig om antivirus apps te installeren.
+[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google brengt regelmatig [verbeteringen aan](https://developer.android.com/about/versions/11/privacy/permissions) in het machtigingssysteem in elke opeenvolgende versie. Alle apps die je installeert zijn strikt [sandboxed](https://source.android.com/security/app-sandbox), daarom is het niet nodig om antivirus apps te installeren.
 
-Een smartphone met de nieuwste versie van Android zal altijd veiliger zijn dan een oude smartphone met een betaalde antivirus. Het is beter om niet te betalen voor antivirussoftware en geld te sparen om een nieuwe smartphone te kopen, zoals een Google Pixel.
+Een smartphone met de nieuwste versie van Android zal altijd veiliger zijn dan een oude smartphone met een betaalde antivirus. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10:
 

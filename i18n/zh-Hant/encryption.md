@@ -6,7 +6,7 @@ description: 數據加密是控制誰可以訪問它的唯一方法。 這些工
 cover: encryption.webp
 ---
 
-數據加密是控制誰可以訪問它的唯一方法。 如果您目前沒有為您的硬盤，電子郵件或文件使用加密軟件，您應該在這裡選擇一個選項。
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## 多平臺
 

@@ -6,7 +6,7 @@ description: A criptografia de dados é a única maneira de controlar quem pode 
 cover: encryption.webp
 ---
 
-A criptografia de dados é a única maneira de controlar quem pode acessá-los. Se você atualmente não está usando “software” de criptografia para seu disco rígido, e-mails ou arquivos, você deve escolher uma opção aqui.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Aplicativos multiplataforma
 

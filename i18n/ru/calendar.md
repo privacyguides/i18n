@@ -5,7 +5,7 @@ description: Calendars contain some of your most sensitive data; use products th
 cover: calendar.webp
 ---
 
-Ваши события в календаре - одни из самых конфиденциальных данных. Используйте продукты с поддержкой автоматического E2EE, чтобы предотвратить их чтение провайдером.
+**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta
 

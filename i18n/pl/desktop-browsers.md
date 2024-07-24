@@ -2,7 +2,7 @@
 meta_title: "Przeglądarki internetowe na PC i Mac respektujące prywatność - Privacy Guides"
 title: "Przeglądarki desktopowe"
 icon: material/laptop
-description: Te przeglądarki zapewniają lepszą ochronę prywatności niż Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Są to obecnie zalecane przez nas przeglądarki internetowe na komputery stacjonarne i konfiguracje do standardowego / nieanonimowego przeglądania. Polecamy [Mullvad Browser](#mullvad-browser), jeśli koncentrujesz się na silnej ochronie prywatności i ochronie przed odciskami palców po instalacji, [Firefox](#firefox) dla standardowego przeglądania internetu jako dobra alternatywa dla Google Chrome, oraz [Brave](#brave), jeśli potrzebujesz kompatybilności z przeglądarką Chromium.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Polecamy [Mullvad Browser](#mullvad-browser), jeśli koncentrujesz się na silnej ochronie prywatności i ochronie przed odciskami palców po instalacji, [Firefox](#firefox) dla standardowego przeglądania internetu jako dobra alternatywa dla Google Chrome, oraz [Brave](#brave), jeśli potrzebujesz kompatybilności z przeglądarką Chromium.
 
 Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md). Na tej stronie przedstawiamy pewne zalecenia dotyczące konfiguracji, ale wszystkie przeglądarki inne niż Tor Browser będą w taki czy inny sposób śledzone przez *kogoś*.
 

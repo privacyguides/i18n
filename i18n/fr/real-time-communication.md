@@ -6,7 +6,7 @@ description: Les autres messageries instantanées mettent toutes vos conversatio
 cover: real-time-communication.webp
 ---
 
-Voici nos recommandations pour de la communication en temps réel chiffrée.
+These are our recommendations for encrypted **real-time communication**.
 
 [Types de réseaux de communication :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 

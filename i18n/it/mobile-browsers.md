@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-Questi sono i browser e le configurazioni che attualmente consigliamo per la navigazione standard/non anonima. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md).
+These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md).
 
 ## Android
 
@@ -169,7 +169,7 @@ I browser basati su Firefox (Gecko) su Android [non dispongono](https://bugzilla
 
 </div>
 
-Attiva il repository di DivestOS su [F-Droid](https://divestos.org/fdroid/official) per ricevere gli aggiornamenti direttamente dallo sviluppatore. Scaricando Mull dal repository predefinito di F-Droid, i tuoi aggiornamenti potrebbero ritardare di qualche giorno o più.
+Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. Scaricando Mull dal repository predefinito di F-Droid, i tuoi aggiornamenti potrebbero ritardare di qualche giorno o più.
 
 Mull abilita molte delle funzionalità sviluppate dal [progetto Tor uplift](https://wiki.mozilla.org/Security/Tor_Uplift) utilizzando le preferenze di [Arkenfox](desktop-browsers.md#arkenfox-advanced). I blob proprietari vengono rimossi dal codice di Mozilla utilizzando gli script sviluppati per Fennec F-Droid.
 

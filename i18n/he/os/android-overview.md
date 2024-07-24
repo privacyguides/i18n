@@ -44,9 +44,11 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 ## הגנות אבטחה
 
+Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+
 ### אתחול מאומת
 
-[אתחול מאומת](https://source.android.com/security/verifiedboot) הוא חלק חשוב ממודל האבטחה של אנדרואיד. הוא מספק הגנה מפני התקפות [משרתת רעה](https://en.wikipedia.org/wiki/Evil_maid_attack), התמדה של תוכנות זדוניות, ומבטיח שלא ניתן לשדרג לאחור עדכוני אבטחה עם [הגנה לאחור](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. הוא מספק הגנה מפני התקפות [משרתת רעה](https://en.wikipedia.org/wiki/Evil_maid_attack), התמדה של תוכנות זדוניות, ומבטיח שלא ניתן לשדרג לאחור עדכוני אבטחה עם [הגנה לאחור](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 אנדרואיד 10 ומעלה עברה מהצפנה בדיסק מלא ל[הצפנה מבוססת קבצים](https://source.android.com/security/encryption/file-based) גמישה יותר. הנתונים שלך מוצפנים באמצעות מפתחות הצפנה ייחודיים, וקבצי מערכת ההפעלה נותרים לא מוצפנים.
 
@@ -58,7 +60,7 @@ AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wik
 
 ### עדכוני קושחה
 
-עדכוני קושחה הם קריטיים לשמירה על האבטחה ובלעדיהם המכשיר שלך לא יכול להיות מאובטח. ליצרני ציוד מקורי יש הסכמי תמיכה עם השותפים שלהם כדי לספק את רכיבי הקוד הסגור לתקופת תמיכה מוגבלת. אלה מפורטים ב[עלוני האבטחה של אנדרואיד](https://source.android.com/security/bulletin) החודשיים.
+**Firmware updates** are critical for maintaining security and without them your device cannot be secure. ליצרני ציוד מקורי יש הסכמי תמיכה עם השותפים שלהם כדי לספק את רכיבי הקוד הסגור לתקופת תמיכה מוגבלת. אלה מפורטים ב[עלוני האבטחה של אנדרואיד](https://source.android.com/security/bulletin) החודשיים.
 
 מכיוון שרכיבי הטלפון, כגון טכנולוגיות המעבד והרדיו, מסתמכים על רכיבי קוד סגור, העדכונים חייבים להיות מסופקים על ידי היצרנים המתאימים. לכן, חשוב שתרכוש מכשיר בתוך מחזור תמיכה פעיל. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
@@ -68,9 +70,9 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 ### הרשאות אנדרואיד
 
-[הרשאות ב-אנדרואיד](https://developer.android.com/guide/topics/permissions/overview) מעניקות לך שליטה על האפליקציות המורשות לגשת. גוגל מבצעת בקביעות [שיפורים](https://developer.android.com/about/versions/11/privacy/permissions) במערכת ההרשאות בכל גרסה עוקבת. כל האפליקציות שאתה מתקין הן אך ורק [ארגז חול](https://source.android.com/security/app-sandbox), לכן, אין צורך להתקין אפליקציות אנטי וירוס.
+[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. גוגל מבצעת בקביעות [שיפורים](https://developer.android.com/about/versions/11/privacy/permissions) במערכת ההרשאות בכל גרסה עוקבת. כל האפליקציות שאתה מתקין הן אך ורק [ארגז חול](https://source.android.com/security/app-sandbox), לכן, אין צורך להתקין אפליקציות אנטי וירוס.
 
-סמארטפון עם הגרסה העדכנית ביותר של אנדרואיד תמיד יהיה מאובטח יותר מסמארטפון ישן עם אנטי וירוס ששילמת עליו. עדיף לא לשלם על תוכנת אנטי וירוס ולחסוך כסף בקניית סמארטפון חדש כמו גוגל פיקסל.
+סמארטפון עם הגרסה העדכנית ביותר של אנדרואיד תמיד יהיה מאובטח יותר מסמארטפון ישן עם אנטי וירוס ששילמת עליו. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
 
 אנדרואיד 10:
 

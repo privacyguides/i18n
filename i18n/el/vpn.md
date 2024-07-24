@@ -12,7 +12,7 @@ global:
 
 <!-- markdownlint-disable MD024 -->
 
-Αν ψάχνετε επιπλέον **προστασία της ιδιωτικότητά σας** από τον πάροχο υπηρεσιών διαδικτύου, σε ένα δημόσιο δίκτυο Wi-Fi ή κατά την αποστολή αρχείων torrent, ένα VPN μπορεί να είναι η λύση για εσάς.
+If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Τα VPN δεν παρέχουν ανωνυμία</p>

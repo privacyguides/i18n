@@ -249,6 +249,17 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 [Scopri di più :material-arrow-right-drop-circle:](data-redaction.md)
 
+### Document Collaboration
+
+<div class="grid cards" markdown>
+
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](document-collaboration.md#nextcloud)
+- ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
+
+</div>
+
+[Scopri di più :material-arrow-right-drop-circle:](document-collaboration.md)
+
 ### Client Email
 
 <div class="grid cards" markdown>
@@ -307,11 +318,11 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 <div class="grid cards" markdown>
 
-- ![Logo di Send](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
-- ![Logo di OnionShare](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
-- ![Logo di FreedomBox](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
-- ![Logo di Nextcloud](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Auto-Ospitabile)](file-sharing.md#nextcloud-client-server)
-- ![Logo di Syncthing](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
+- ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
+- ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
+- ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
 
@@ -333,6 +344,16 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 </div>
 
 [Scopri di più :material-arrow-right-drop-circle:](frontends.md)
+
+### Language Tools
+
+<div class="grid cards" markdown>
+
+- ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](language-tools.md#languagetool)
+
+</div>
+
+[Scopri di più :material-arrow-right-drop-circle:](language-tools.md)
 
 ### Strumenti di autenticazione a più fattori
 
@@ -377,6 +398,17 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 [Scopri di più :material-arrow-right-drop-circle:](notebooks.md)
 
+### Office Suites
+
+<div class="grid cards" markdown>
+
+- ![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](office-suites.md#libreoffice)
+- ![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](office-suites.md#onlyoffice)
+
+</div>
+
+[Scopri di più :material-arrow-right-drop-circle:](office-suites.md)
+
 ### Gestori di password
 
 <div class="grid cards" markdown>
@@ -403,20 +435,6 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 </div>
 
 [Scopri di più :material-arrow-right-drop-circle:](pastebins.md)
-
-### Strumenti di produttività
-
-<div class="grid cards" markdown>
-
-- ![Nextcloud logo](assets/img/productivity/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](productivity.md#nextcloud)
-- ![LibreOffice logo](assets/img/productivity/libreoffice.svg){ .twemoji loading=lazy } [LibreOffice](productivity.md#libreoffice)
-- ![OnlyOffice logo](assets/img/productivity/onlyoffice.svg){ .twemoji loading=lazy } [OnlyOffice](productivity.md#onlyoffice)
-- ![CryptPad logo](assets/img/productivity/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](productivity.md#cryptpad)
-- ![LanguageTool logo](assets/img/productivity/languagetool.svg#only-light){ .twemoji loading=lazy }![LanguageTool logo](assets/img/productivity/languagetool-dark.svg#only-dark){ .twemoji loading=lazy } [LanguageTool](productivity.md#languagetool)
-
-</div>
-
-[Scopri di più :material-arrow-right-drop-circle:](productivity.md)
 
 ### Comunicazione in tempo reale
 

@@ -2,7 +2,7 @@
 meta_title: "尊重隐私的 PC 和 Mac 网络浏览器 - Privacy Guides"
 title: "电脑浏览器"
 icon: material/laptop
-description: 这些浏览器比 Google Chrome 浏览器提供更强的隐私保护。
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-这些是我们目前推荐的用于标准/非匿名浏览的桌面网络浏览器和配置。 如果你需要强大的隐私保护和开箱即用的防指纹功能，我们推荐 [Mullvad 浏览器](#mullvad-browser) ；如果你需要谷歌 Chrome 浏览器的良好替代品，我们推荐 [Firefox](#firefox) ；如果你需要 Chromium 浏览器的兼容性，我们推荐 [Brave](#brave)。
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. 如果你需要强大的隐私保护和开箱即用的防指纹功能，我们推荐 [Mullvad 浏览器](#mullvad-browser) ；如果你需要谷歌 Chrome 浏览器的良好替代品，我们推荐 [Firefox](#firefox) ；如果你需要 Chromium 浏览器的兼容性，我们推荐 [Brave](#brave)。
 
 如果您需要匿名浏览互联网，则应使用 [Tor](tor.md) 。 我们在本页会提出一些配置建议，但除 Tor 浏览器之外的所有浏览器都可以通过 *某种方式* 追踪到。
 

@@ -6,7 +6,7 @@ description: データの暗号化は、誰がデータにアクセスできる�
 cover: encryption.webp
 ---
 
-データの暗号化は、誰がデータにアクセスできるかをコントロールする唯一の方法です。 現在、ハードディスクや電子メール、ファイルの暗号化ソフトウェアを使用していない場合は、以下のツールを使いましょう。
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## 複数プラットフォーム
 

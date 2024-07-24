@@ -2,7 +2,7 @@
 meta_title: "متصفحات ويب تحترم الخصوصية للحاسوب الشخصي والماك - Privacy Guides"
 title: "متصفحات الحاسوب المكتبي"
 icon: material/laptop
-description: متصفحات الويب هذه تقدم حماية أكبر للخصوصية من Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended desktop web browsers and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
 
 If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
 

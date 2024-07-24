@@ -44,9 +44,11 @@ For example, if you want to post a picture to Discord you can open your file man
 
 ## Security Protections
 
+Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+
 ### 已验证的启动
 
-[经过验证的启动](https://source.android.com/security/verifiedboot) ，是安卓安全模式的一个重要组成部分。 它能够保护您免受 [罪恶的](https://en.wikipedia.org/wiki/Evil_maid_attack) 攻击、恶意软件的持久性，并确保安全更新不能用 [回滚保护降级](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. 它能够保护您免受 [罪恶的](https://en.wikipedia.org/wiki/Evil_maid_attack) 攻击、恶意软件的持久性，并确保安全更新不能用 [回滚保护降级](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)
 
 安卓10及以上版本已经从全盘加密转向更灵活的 [基于文件的加密](https://source.android.com/security/encryption/file-based)。 你的数据使用独特的加密密钥进行加密，而操作系统文件则不被加密。
 
@@ -58,7 +60,7 @@ For example, if you want to post a picture to Discord you can open your file man
 
 ### 固件更新
 
-固件更新是维护安全的关键，没有它们，你的设备就不可能是安全的。 原始设备制造商与他们的合作伙伴有支持协议，在有限的支持期内提供闭源组件。 这些内容详见每月的 [Android安全公告](https://source.android.com/security/bulletin)。
+**Firmware updates** are critical for maintaining security and without them your device cannot be secure. 原始设备制造商与他们的合作伙伴有支持协议，在有限的支持期内提供闭源组件。 这些内容详见每月的 [Android安全公告](https://source.android.com/security/bulletin)。
 
 由于手机的组件，如处理器和无线电技术依赖于闭源组件，更新必须由各自的制造商提供。 因此，重要的是，你要在一个有效的支持周期内购买设备。 [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
@@ -68,9 +70,9 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 ### Android 权限
 
-[Android上的权限](https://developer.android.com/guide/topics/permissions/overview) ，让你控制哪些应用程序被允许访问。 谷歌定期在每个连续的版本中对权限系统进行 [改善](https://developer.android.com/about/versions/11/privacy/permissions)。 你安装的所有应用程序都是严格的 [沙箱](https://source.android.com/security/app-sandbox)，因此，没有必要安装任何杀毒软件。
+[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. 谷歌定期在每个连续的版本中对权限系统进行 [改善](https://developer.android.com/about/versions/11/privacy/permissions)。 你安装的所有应用程序都是严格的 [沙箱](https://source.android.com/security/app-sandbox)，因此，没有必要安装任何杀毒软件。
 
-A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a Google Pixel.
+A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10:
 

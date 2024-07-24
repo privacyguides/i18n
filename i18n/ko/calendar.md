@@ -5,7 +5,7 @@ description: Calendars contain some of your most sensitive data; use products th
 cover: calendar.webp
 ---
 
-캘린더에는 여러분의 가장 민감한 데이터가 담겨 있습니다. 제공 업체가 여러분의 데이터를 읽지 못하도록 E2EE 암호화가 적용된 서비스를 사용하세요.
+**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta
 

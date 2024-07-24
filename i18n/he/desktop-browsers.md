@@ -2,7 +2,7 @@
 meta_title: "דפדפני אינטרנט המכבדים פרטיות עבור מחשב ו-מק - Privacy Guides"
 title: "דפדפנים שולחניים"
 icon: material/laptop
-description: דפדפני אינטרנט אלה מספקים הגנת פרטיות חזקה יותר מאשר Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-אלה הדפדפנים והתצורות המומלצים כרגע לגלישה רגילה/לא אנונימית. אנו ממליצים על [Mullvad Browser](#mullvad-browser) אם אתה מתמקד בהגנת פרטיות חזקה ואנטי-טביעת אצבע מהקופסה, [Firefox](#firefox) עבור דפדפני אינטרנט מזדמנים המחפשים אלטרנטיבה טובה ל-Google Chrome, ו-[Brave](#brave) אם אתה צריך תאימות לדפדפן Chromium.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. אנו ממליצים על [Mullvad Browser](#mullvad-browser) אם אתה מתמקד בהגנת פרטיות חזקה ואנטי-טביעת אצבע מהקופסה, [Firefox](#firefox) עבור דפדפני אינטרנט מזדמנים המחפשים אלטרנטיבה טובה ל-Google Chrome, ו-[Brave](#brave) אם אתה צריך תאימות לדפדפן Chromium.
 
 אם אתה צריך לגלוש באינטרנט באופן אנונימי, אתה צריך להשתמש [Tor](tor.md) במקום. אנו מציעים כמה המלצות תצורה בדף זה, אך כל הדפדפנים מלבד דפדפן Tor יהיו ניתנים למעקב על ידי *מישהו* בצורה כזו או אחרת.
 

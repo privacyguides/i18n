@@ -5,7 +5,7 @@ description: Ces logiciels d'agrégation d'actualités vous permettent de suivre
 cover: news-aggregators.webp
 ---
 
-Un [agrégateur d'actualités](https://en.wikipedia.org/wiki/News_aggregator) est un moyen de suivre vos blogs et sites d'actualités préférés.
+A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
 
 ## Clients agrégateurs
 
@@ -179,7 +179,7 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-Vous pouvez vous abonner aux chaînes YouTube sans vous connecter et sans associer des informations d'utilisation à votre compte Google.
+You can subscribe YouTube channels without logging in and associating usage information with your Google account.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>

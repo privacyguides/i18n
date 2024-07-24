@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-Lösenordshanterare gör att du kan lagra och hantera lösenord och andra autentiseringsuppgifter på ett säkert sätt med hjälp av ett huvudlösenord.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Introduktion till lösenord :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

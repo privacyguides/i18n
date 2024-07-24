@@ -6,7 +6,7 @@ description: La crittografia dei dati è l'unico modo per controllare chi può a
 cover: encryption.webp
 ---
 
-La crittografia dei dati è l'unico modo per controllare chi può accedervi. Se, al momento, non stai utilizzando alcun software di crittografia per il tuo disco rigido, le tue email o file, dovresti selezionare un'opzione qui.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multipiattaforma
 

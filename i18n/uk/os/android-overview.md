@@ -44,9 +44,11 @@ For example, if you want to post a picture to Discord you can open your file man
 
 ## Security Protections
 
+Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+
 ### Verified Boot
 
-[Verified Boot](https://source.android.com/security/verifiedboot)> є важливою частиною моделі безпеки Android. Він забезпечує захист від атак [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), стійкість до шкідливого програмного забезпечення, та гарантує що оновлення безпеки не можуть бути знижені за допомогою [захисту від відкату](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Він забезпечує захист від атак [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), стійкість до шкідливого програмного забезпечення, та гарантує що оновлення безпеки не можуть бути знижені за допомогою [захисту від відкату](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Android 10 і вище перейшли від повного шифрування диска до більш гнучкішого [шифрування на основі файлів](https://source.android.com/security/encryption/file-based). Ваші дані шифруються за допомогою унікальних ключів шифрування, а файли операційної системи залишаються незашифрованими.
 
@@ -58,7 +60,7 @@ Verified Boot забезпечує цілісність файлів опера�
 
 ### Оновлення мікропрограми
 
-Оскільки такі компоненти телефону, як процесор та радіотехнології, покладаються на компоненти із закритим вихідним кодом, оновлення повинні надаватися відповідними виробниками. Тому важливо, щоб ви придбали пристрій в рамках активного циклу підтримки. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) та [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) підтримують свої пристрої протягом 4 років, тоді як дешевші продукти часто мають коротші цикли підтримки.
+**Firmware updates** are critical for maintaining security and without them your device cannot be secure. Тому важливо, щоб ви придбали пристрій в рамках активного циклу підтримки. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/16/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) та [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox/) підтримують свої пристрої протягом 4 років, тоді як дешевші продукти часто мають коротші цикли підтримки.
 
 Пристрої EOL, які більше не підтримуються виробником SoC, не можуть отримувати оновлення мікропрограми від OEM-виробників або сторонніх дистриб'юторів Android. Це означає, що проблеми безпеки на цих пристроях залишаться не усуненими. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
@@ -68,9 +70,9 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 ### Дозволи Android
 
-[Permissions on Android](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
+[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularly makes [improvements](https://developer.android.com/about/versions/11/privacy/permissions) on the permission system in each successive version. All apps you install are strictly [sandboxed](https://source.android.com/security/app-sandbox), therefore, there is no need to install any antivirus apps.
 
-A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a Google Pixel.
+A smartphone with the latest version of Android will always be more secure than an old smartphone with an antivirus that you have paid for. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10:
 

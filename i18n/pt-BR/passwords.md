@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-Os gerenciadores de senhas permitem que você armazene e gerencie com segurança senhas e outras credenciais com o uso de uma senha mestra.
+**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [Introdução às Senhas :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 

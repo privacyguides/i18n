@@ -5,7 +5,7 @@ description: Calendars contain some of your most sensitive data; use products th
 cover: calendar.webp
 ---
 
-A naptárak a legérzékenyebb adataidat tartalmazzák; használj at rest End-to-End titkosítást megvalósító termékeket, hogy megakadályozd, hogy a szolgáltató elolvassa ezeket.
+**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta
 

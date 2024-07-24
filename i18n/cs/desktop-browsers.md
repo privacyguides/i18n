@@ -2,7 +2,7 @@
 meta_title: "Webové prohlížeče respektující soukromí pro PC a Mac - Privacy Guides"
 title: "Prohlížeče pro počítače"
 icon: material/laptop
-description: Tyto webové prohlížeče nabízejí lepší ochranu soukromí než Google Chrome.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Toto jsou naše aktuálně doporučené webové prohlížeče pro počítače a konfigurace pro standardní/neanonymní používání. Doporučujeme prohlížeč [Mullvad](#mullvad-browser), pokud vám záleží na silné ochraně soukromí a ochraně proti otisku prohlížeče hned po instalaci, [Firefox](#firefox) pro nenáročné, kteří hledají dobrou alternativu ke Google Chromu a [Brave](#brave), pokud potřebujete kompatibilní Chromium prohlížeč.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Doporučujeme prohlížeč [Mullvad](#mullvad-browser), pokud vám záleží na silné ochraně soukromí a ochraně proti otisku prohlížeče hned po instalaci, [Firefox](#firefox) pro nenáročné, kteří hledají dobrou alternativu ke Google Chromu a [Brave](#brave), pokud potřebujete kompatibilní Chromium prohlížeč.
 
 Pokud potřebujete procházet internet anonymně, měli byste místo toho použít [Tor](tor.md). Na této stránce uvádíme některá konfigurační doporučení, ale všechny prohlížeče kromě prohlížeče Tor budou tak či onak *nějakým* způsobem dohledatelné.
 

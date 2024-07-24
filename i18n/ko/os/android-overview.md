@@ -44,9 +44,11 @@ For example, if you want to post a picture to Discord you can open your file man
 
 ## 보안 보호
 
+Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+
 ### 자체 검사 부팅
 
-[자체 검사 부팅(Verified Boot)](https://source.android.com/security/verifiedboot)은 Android 보안 모델에서 중요한 부분을 차지하고 있습니다. [Evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) 공격, 멀웨어 지속성으로부터 보호하고, [롤백 보호](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)를 통해 보안 업데이트가 다운그레이드되는 일이 없도록 보장합니다.
+[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. [Evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) 공격, 멀웨어 지속성으로부터 보호하고, [롤백 보호](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)를 통해 보안 업데이트가 다운그레이드되는 일이 없도록 보장합니다.
 
 Android 10 이상부터는 기존의 전체 디스크 암호화보다 유연한 [파일 기반 암호화](https://source.android.com/security/encryption/file-based)로 전환되었습니다. 여러분의 데이터는 고유한 암호화 키로 암호화되고, 운영 체제 파일은 암호화되지 않은 상태로 유지됩니다.
 
@@ -58,7 +60,7 @@ Android 10 이상부터는 기존의 전체 디스크 암호화보다 유연한 
 
 ### 펌웨어 업데이트
 
-펌웨어 업데이트는 보안에 있어 매우 중요합니다. 펌웨어 업데이트가 없으면 기기 보안을 유지할 수 없습니다. OEM은 자신들의 협력체와 지원 계약을 맺고 제한된 기간 동안 비공개 소스로 된 구성 요소를 제공합니다. 관련 내용은 [Android 보안 게시판](https://source.android.com/security/bulletin)에 자세히 설명되어 있습니다.
+**Firmware updates** are critical for maintaining security and without them your device cannot be secure. OEM은 자신들의 협력체와 지원 계약을 맺고 제한된 기간 동안 비공개 소스로 된 구성 요소를 제공합니다. 관련 내용은 [Android 보안 게시판](https://source.android.com/security/bulletin)에 자세히 설명되어 있습니다.
 
 휴대폰을 구성하는 요소(프로세서, 무선 기술 등)은 비공개 소스로 된 구성 요소에 의존하기 때문에, 업데이트는 각각의 제조업체로부터 제공받아야 합니다. 지원 기간 내의 기기를 구매해야 하는 이유가 바로 이것입니다. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
@@ -68,9 +70,9 @@ Fairphone, for example, markets their Fairphone 4 device as receiving 6 years of
 
 ### Android 권한
 
-[Andoird에서의 권한](https://developer.android.com/guide/topics/permissions/overview)은 앱이 접근 가능한 항목을 여러분이 제어할 수 있는 권한을 부여합니다. Google은 매 버전마다 권한 시스템을 [개선합니다](https://developer.android.com/about/versions/11/privacy/permissions?hl=ko). 여러분이 설치한 모든 앱은 엄격하게 [샌드박스로 격리](https://source.android.com/docs/security/app-sandbox?hl=ko)되어 있으므로, 바이러스 백신 앱은 설치하실 필요가 없습니다.
+[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google은 매 버전마다 권한 시스템을 [개선합니다](https://developer.android.com/about/versions/11/privacy/permissions?hl=ko). 여러분이 설치한 모든 앱은 엄격하게 [샌드박스로 격리](https://source.android.com/docs/security/app-sandbox?hl=ko)되어 있으므로, 바이러스 백신 앱은 설치하실 필요가 없습니다.
 
-구형 Android 버전 스마트폰에 유료로 백신을 구매해 설치하는 것보다, 최신 버전 Android가 설치된 스마트폰이 모든 면에서 더 안전합니다. 바이러스 백신 소프트웨어 비용을 지불하는 대신 돈을 모아 Google Pixel 등의 새 스마트폰을 구입하는 편이 낫습니다.
+구형 Android 버전 스마트폰에 유료로 백신을 구매해 설치하는 것보다, 최신 버전 Android가 설치된 스마트폰이 모든 면에서 더 안전합니다. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10:
 

@@ -6,7 +6,7 @@ description: 데이터 암호화는 데이터에 접근 가능한 사람을 통�
 cover: encryption.webp
 ---
 
-데이터 암호화는 데이터에 접근 가능한 사람을 통제하는 유일한 방법입니다. 만약 아직 하드 디스크, 이메일, 파일들을 암호화하지 않았다면 여기에 있는 프로그램을 사용하는것을 추천합니다.
+**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
 
 ## Multi-platform
 

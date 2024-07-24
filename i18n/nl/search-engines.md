@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-Gebruik een zoekmachine die geen advertentieprofiel opbouwt op basis van jouw zoekopdrachten.
+Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## Aanbevolen Providers
 

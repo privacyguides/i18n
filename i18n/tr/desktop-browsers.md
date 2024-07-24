@@ -2,7 +2,7 @@
 meta_title: "PC ve Mac için Mahremiyete Saygı Gösteren Web Tarayıcıları - Privacy Guides"
 title: "Masaüstü Tarayıcıları"
 icon: material/laptop
-description: Bu web tarayıcıları Google Chrome'dan daha iyi mahremiyet sağlar.
+description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-Bunlar, standart/anonim olmayan gezinti için şu anda önerilen masaüstü web tarayıcılarımız ve yapılandırmalarımızdır. Eğer varsayılan olarak güçlü mahremiyet koruması ve parmak izi önleme istiyorsanız [Mullvad Browser'ı](#mullvad-browser), Google Chrome için iyi bir alternatif arayan normal kullanıcılar için [Firefox'u](#firefox) ve eğer Chromium uyumlu bir tarayıcıya ihtiyacınız varsa [Brave'i](#brave) öneririz.
+These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Eğer varsayılan olarak güçlü mahremiyet koruması ve parmak izi önleme istiyorsanız [Mullvad Browser'ı](#mullvad-browser), Google Chrome için iyi bir alternatif arayan normal kullanıcılar için [Firefox'u](#firefox) ve eğer Chromium uyumlu bir tarayıcıya ihtiyacınız varsa [Brave'i](#brave) öneririz.
 
 İnternette anonim olarak gezinmeniz gerekiyorsa, bunlar yerine [Tor](tor.md) kullanmalısınız. Bu sayfada bazı yapılandırma önerilerinde bulunmaktayız fakat Tor Browser hariç tüm tarayıcılar *birisi* tarafından herhangi bir şekilde takip edilebilirdir.
 
