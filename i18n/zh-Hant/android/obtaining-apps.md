@@ -12,10 +12,10 @@ title: 應用程式獲取途徑
 
 **Obtainium** 是一個應用程式管理器，可讓您直接從開發人員自己的軟體發布頁面下載及更新應用程式（即 Github、GitLab、開發人員自己的網站 等等。），而不是使用集中式的應用程式商店或儲存庫。 在 Android 12 及以上版本，其支援背景自動更新。
 
-[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-repo-16: 儲存庫](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=文檔}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -26,7 +26,7 @@ title: 應用程式獲取途徑
 
 </div>
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+Obtainium 允許您從各種來源下載 APK 安裝檔案，但您需要確認這些來源及應用程式是可以信任且可靠的。 舉例來說，使用 Obtainium 從 [Signal APK 下載頁面](https://signal.org/android/apk) 下載並安裝 Signal 應該是安全的；但如果將第三方儲存庫如：Aptoide 或 APKPure 作為來源則可能會帶來額外的風險。 The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
 
 ## GrapheneOS App Store
 
