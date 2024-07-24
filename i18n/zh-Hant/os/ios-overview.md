@@ -10,7 +10,7 @@ description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 
 
 iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。 然而，Apple 生態系統的限制性——尤其是移動設備——仍然在很多方面阻礙了隱私。
 
-我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 不過，如希望或需要完全獨立於 Apple 或 Google 雲端服務，您可以使用 GrapheneOS 等 [自訂 Android 作業系統](../android/distributions.md#aosp-derivatives) 來實現更高的隱私標準。
 
 ### 激活鎖
 
@@ -34,7 +34,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 這會使用存儲在您設備上的的密鑰對 iCloud 數據加密（端到端加密）而不是放在 Apple 伺服器的密鑰，以便 iCloud 在發生數據洩露時得到保護，且不會被 Apple 發現。
 
-進階資料保護所用的加密法雖然強大，但[仍然*比不上*](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4)其他[雲服務](../cloud.md)的加密，特別是涉及到 iCloud Drive 時。 雖然我們強烈建議在使用 iCloud 時使用進階資料保護，但我們也建議考慮從更加[注重隱私的服務提供商](../tools.md)尋找 iCloud 的替代品，儘管 大多數人不太可能受到這些加密怪癖的影響。
+進階資料保護所用的加密法雖然強大，但[仍然*比不上*](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4)其他[雲端服務](../cloud.md)的加密，特別是涉及到 iCloud Drive 時。 雖然我們強烈建議在使用 iCloud 時使用進階資料保護，但我們也建議考慮從更加[注重隱私的服務提供商](../tools.md)尋找 iCloud 的替代品，儘管 大多數人不太可能受到這些加密怪癖的影響。
 
 您也可以先限制同步到 iCloud 的內容來保護您的資料。 在「 **設定** 」應用程式的頂部，如果您已登入 iCloud ，便會看到您的姓名和個人資料相片。 選擇該選項，然後選擇 **iCloud**，然後關閉您不想同步到 iCloud 的任何服務的交換機。 如果第三方應用程式與 iCloud 同步，您可能會看到列在「 **顯示全部** 」下的第三方應用程式，您可以在此處停用這些應用程式。
 

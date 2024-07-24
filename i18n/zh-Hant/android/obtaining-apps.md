@@ -26,11 +26,11 @@ title: 應用程式獲取途徑
 
 </div>
 
-Obtainium 允許您從各種來源下載 APK 安裝檔案，但您需要確認這些來源及應用程式是可以信任且可靠的。 舉例來說，使用 Obtainium 從 [Signal APK 下載頁面](https://signal.org/android/apk) 下載並安裝 Signal 應該是安全的；但如果將第三方儲存庫如：Aptoide 或 APKPure 作為來源則可能會帶來額外的風險。 The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+Obtainium 允許您從各種來源下載 APK 安裝檔案，但您需要確認這些來源及應用程式是可以信任且可靠的。 舉例來說，使用 Obtainium 從 [Signal APK 下載頁面](https://signal.org/android/apk) 下載並安裝 Signal 應該是安全的；但如果將第三方儲存庫如：Aptoide 或 APKPure 作為來源則可能會帶來額外的風險。 至於惡意 _更新_ ，其較不可能對您構成威脅；因為 Android 本身會在安裝更新之前驗證應用程式更新是否與手機上現有應用程式為相同的開發人員所簽署的。
 
 ## GrapheneOS App Store
 
-GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](../device-integrity.md#auditor-android), [Camera](general-apps.md#secure-camera), and [PDF Viewer](general-apps.md#secure-pdf-viewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+GrapheneOS 的 App Store 可在 [GitHub](https://github.com/GrapheneOS/Apps/releases) 找到。 它支持 Android 12 及以上版本，並且能夠自我更新。 App Store 中有由 GrapheneOS 專案建立的獨立應用程式，例如：[Auditor](../device-integrity.md#auditor-android)、[Camera](general-apps.md#secure-camera)、[PDF Viewer](general-apps.md#secure-pdf-viewer)。 If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
 
 ## Aurora Store
 
