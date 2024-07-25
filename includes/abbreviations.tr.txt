@@ -8,6 +8,7 @@
 *[CLI]: Komut Satırı Arayüzü
 *[CSV]: CSV Dosyası
 *[CVE]: Yaygın Zafiyetler ve Açıklar
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[dijital miras özelliği]: Dijital Miras, öldüğünüzde başkalarının bilgilerinize erişmesine izin vermenizi sağlayan özelliklere denir
 *[DNSSEC]: Alan Adı Sistemi Güvenlik Eklentileri
 *[DNS]: Alan Adı Sistemi

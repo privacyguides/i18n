@@ -8,6 +8,7 @@
 *[CLI]: Интерфейс командной строки
 *[CSV]: Comma-Separated Values, формат таблиц
 *[CVE]: Common Vulnerabilities and Exposures
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[функция цифрового наследия]: Цифровое наследие относится к функциям, которые позволяют вам предоставить другим людям доступ к вашим данным после вашей смерти
 *[DNSSEC]: Модули безопасности службы доменных имен
 *[DNS]: Система доменных имен

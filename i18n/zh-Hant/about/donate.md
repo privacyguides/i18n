@@ -43,6 +43,6 @@ Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目�
 
 我們偶爾會購買產品和服務，以測試我們的 [推薦工具](../tools.md)。
 
-捐款將轉入 [MAGIC Grants](https://magicgrants.org/)（一個 501(c)(3) 組織）內的專用基金。 該資金將僅用於本專案項目。 您可獲得減稅資格。 如需要捐款收據，請發送電子郵件至 <info@magicgrants.org>。
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. 該資金將僅用於本專案項目。 您可獲得減稅資格。 如需要捐款收據，請發送電子郵件至 <info@magicgrants.org>。
 
 感謝所有支持本站宗旨的朋友！ :material-heart:{ .pg-red }

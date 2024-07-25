@@ -2,11 +2,11 @@
 title: بارگذاری تصویر
 ---
 
-در اینجا چند قانون کلی برای مشارکت در Privacy Guides را بررسی می‌کنیم:
+If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
 
 ## تصاویر
 
-- ما **تصاویر SVG را ترجیح می‌دهیم**، اما اگر این تصاویر وجود نداشتند، می‌توانیم از تصاویر PNG استفاده کنیم.
+- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
 
 اندازه لوگوهای شرکت:
 
@@ -17,7 +17,7 @@ title: بارگذاری تصویر
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
 
 ```bash
 optipng -o7 file.png
@@ -86,4 +86,12 @@ scour --set-precision=5 \
       --enable-id-stripping \
       --protect-ids-noninkscape \
       input.svg output.svg
+```
+
+### WebP
+
+Use the [cwebp](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+
+```bash
+cwebp -q 70 -m 6 input_file -o output.webp
 ```

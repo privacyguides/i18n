@@ -8,6 +8,7 @@
 *[CLI]: Interface de ligne de commande
 *[CSV]: Valeurs séparées par des virgules
 *[CVE]: Vulnérabilités et expositions courantes
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[fonctionnalité d'héritage numérique]: L'héritage numérique désigne les fonctions qui vous permettent de donner à d'autres personnes l'accès à vos données après votre décès
 *[DNSSEC]: Extensions de sécurité du système de nom de domaine
 *[DNS]: Système de nom de domaine

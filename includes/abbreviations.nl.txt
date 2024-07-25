@@ -8,6 +8,7 @@
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[digitale erfenis functie]: Digital Legacy verwijst naar functies waarmee je andere mensen toegang kunt geven tot jouw gegevens wanneer je overlijdt
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System

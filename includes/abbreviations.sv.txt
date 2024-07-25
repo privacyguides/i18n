@@ -8,6 +8,7 @@
 *[CLI]: Kommandoradsgränssnitt
 *[CSV]: Kommaseparerade värden
 *[CVE]: Vanliga sårbarheter och exponeringar
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[funktion för digitalt arv]: Digitalt arv avser funktioner som gör att du kan ge andra personer tillgång till dina uppgifter när du dör
 *[DNSSEC]: Säkerhetstillägg för domännamnssystem
 *[DNS]: Domännamnssystem

@@ -8,6 +8,7 @@
 *[CLI]: 命令行界面
 *[CSV]: 逗号分隔值
 *[CVE]: 常见漏洞和风险
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[数字遗产功能]: 数字遗产指的是允许您在去世后让其他人访问您的数据的功能
 *[DNSSEC]: 域名系统安全扩展
 *[DNS]: 域名系统

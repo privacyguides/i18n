@@ -2,11 +2,11 @@
 title: Carregamento de imagens
 ---
 
-Eis algumas regras para contribuir para o Privacy Guides:
+If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
 
 ## Imagens
 
-- Nós **preferimos** a utilização de imagens SVG, mas se tal não for possível, podem ser usadas imagens PNG
+- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
 
 Os logótipos das empresas devem ter um tamanho de tela de:
 
@@ -17,7 +17,7 @@ Os logótipos das empresas devem ter um tamanho de tela de:
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) to optimize the PNG image:
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
 
 ```bash
 optipng -o7 file.png
@@ -86,4 +86,12 @@ scour --set-precision=5 \
       --enable-id-stripping \
       --protect-ids-noninkscape \
       input.svg output.svg
+```
+
+### WebP
+
+Use the [cwebp](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+
+```bash
+cwebp -q 70 -m 6 input_file -o output.webp
 ```

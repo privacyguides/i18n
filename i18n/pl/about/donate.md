@@ -43,6 +43,6 @@ We host [internet services](https://privacyguides.net) for testing and showcasin
 
 Od czasu do czasu kupujemy produkty oraz usługi w celu przetestowania naszych [polecanych narzędzi](../tools.md).
 
-Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
 
 Thank you to all those who support our mission! :material-heart:{ .pg-red }

@@ -2,11 +2,11 @@
 title: Ανέβασμα Εικονών
 ---
 
-Ακολουθούν μερικοί γενικοί κανόνες για τη συνεισφορά στο Privacy Guides:
+If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
 
 ## Εικόνες
 
-- **Προτιμούμε** εικόνες SVG, αλλά αν δεν υπάρχουν, μπορούμε να χρησιμοποιήσουμε εικόνες PNG.
+- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
 
 Τα λογότυπα εταιρειών έχουν μέγεθος καμβά:
 
@@ -17,7 +17,7 @@ title: Ανέβασμα Εικονών
 
 ### PNG
 
-Χρησιμοποίησε το [OptiPNG](https://sourceforge.net/projects/optipng) για να βελτιστοποιήσεις την εικόνα PNG:
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
 
 ```bash
 optipng -o7 file.png
@@ -86,4 +86,12 @@ scour --set-precision=5 \
       --enable-id-stripping \
       --protect-ids-noninkscape \
       input.svg output.svg
+```
+
+### WebP
+
+Use the [cwebp](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+
+```bash
+cwebp -q 70 -m 6 input_file -o output.webp
 ```

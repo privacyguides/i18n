@@ -8,6 +8,7 @@
 *[CLI]: Interface de Linha de Comando
 *[CSV]: Valores Separados por Vírgulas
 *[CVE]: Vulnerabilidades e Exposições Comuns
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 Caraterística digital herdada: Legado Digital refere-se a recursos que permitem que você dê a outras pessoas acesso aos seus dados quando você morre
 *[DNSSEC]: Extensões de Segurança do Sistema de Nomes de Domínio
 *[DNS]: Sistema de Nomes de Domínio

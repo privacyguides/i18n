@@ -8,6 +8,7 @@
 *[CLI]: ממשק שורת הפקודה
 *[CSV]: Comma-Separated Values
 *[CVE]: פגיעויות וחשיפות נפוצות
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[תכונה דיגיטלית מדור קודם]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: תוספי אבטחה של מערכת שמות דומיין
 *[DNS]: מערכת שמות מתחם

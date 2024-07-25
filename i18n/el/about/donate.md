@@ -43,6 +43,6 @@ We are also working with our fiscal host to receive cryptocurrency donations, at
 
 Αγοράζουμε περιστασιακά προϊόντα και υπηρεσίες με σκοπό την δοκιμή των [συνιστώμενων εργαλείων](../tools.md) μας.
 
-Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
 
 Σας ευχαριστούμε όλους όσους υποστηρίζουν την αποστολή μας! :material-heart:{ .pg-red }

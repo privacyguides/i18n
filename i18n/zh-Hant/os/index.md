@@ -2,9 +2,11 @@
 title: 作業系統
 ---
 
-我們發布主要作業系統的配置指南，通常可以改善個人資料被收集的情況，特別是如使用[隱私工具](../tools.md)，例如我們推薦的網路瀏覽器在適當的地方設置原生工具。 不過某些作業系統本質上會更加尊重隱私，而在其他選擇上要實現同等隱私則較不易。
+We publish configuration guides for the major operating systems, because you can generally improve the amount of data that is collected about you on any option, especially if you use privacy tools like our [recommended web browsers](../desktop-browsers.md) in place of native tools where appropriate. 不過某些作業系統本質上會更加尊重隱私，而在其他選擇上要實現同等隱私則較不易。
 
-If you're starting from scratch, we strongly recommend [Linux](../desktop.md) on desktop and [Android](../android/index.md) on mobile. 如已經使用其他東西並且對轉換沒興趣，我們仍希望這些指南有所幫助。
+- [Recommended Linux Distros :material-arrow-right-drop-circle:](../desktop.md)
+- [Recommended Android Distros :material-arrow-right-drop-circle:](../android.md)
+  The articles marked with a :material-star: are our more mature articles.
 
 ## 移動作業系統
 

@@ -43,6 +43,6 @@ We are also working with our fiscal host to receive cryptocurrency donations, at
 
 我们偶尔会购买产品和服务，以测试我们 [推荐的工具](../tools.md)。
 
-Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
 
 Thank you to all those who support our mission! :material-heart:{ .pg-red }

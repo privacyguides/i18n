@@ -8,6 +8,7 @@
 *[CLI]: Інтерфейс командного рядка (Command Line Interface)
 *[CSV]: Значення, розділені комами (Comma-Separated Values)
 *[CVE]: Поширені вразливості та ризики (Common Vulnerabilities and Exposures)
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Розширення безпеки системи доменних імен (Domain Name System Security Extensions)
 *[DNS]: Система доменних імен (Domain Name System)

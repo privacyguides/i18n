@@ -8,6 +8,7 @@
 *[CLI]: 명령어 인터페이스
 *[CSV]: Comma-Separated Values
 *[CVE]: 공통 보안 취약점 및 노출(Common Vulnerabilities and Exposures)
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[디지털 유산 상속 기능]: 디지털 유산(Digital Legacy) 상속 기능은 사용자가 사망했을 때 사망자의 데이터에 접근 가능한 사람을 지정할 수 있는 기능을 말합니다.
 *[DNSSEC]: DNS Security Extensions
 *[DNS]: 도메인 네임 시스템

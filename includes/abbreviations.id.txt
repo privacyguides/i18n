@@ -8,6 +8,7 @@
 *[CLI]: Antarmuka Baris Perintah
 *[CSV]: Nilai yang Dipisahkan dengan Koma
 *[CVE]: Common Vulnerabilities and Exposures
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[digital legacy feature]: Digital Legacy mengacu pada fitur yang memungkinkan Anda untuk memberikan akses data kepada orang lain ketika Anda meninggal dunia
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System

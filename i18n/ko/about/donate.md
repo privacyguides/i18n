@@ -43,6 +43,6 @@ Privacy Guides는 여러 [서비스](https://privacyguides.net)를 호스팅하�
 
 Privacy Guides는 때때로 [권장 목록](../tools.md)의 서비스나 툴을 테스트하기 위한 목적으로 제품을 구매합니다.
 
-Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org/), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
 
 Thank you to all those who support our mission! :material-heart:{ .pg-red }

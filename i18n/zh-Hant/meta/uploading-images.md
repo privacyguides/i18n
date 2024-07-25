@@ -2,11 +2,11 @@
 title: 上傳圖片
 ---
 
-以下是 Privacy Guides 一些貢獻規則：
+If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
 
 ## 圖片
 
-- 我們 **更喜歡** SVG 圖像，但如果沒有，也可以使用 PNG
+- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
 
 公司 logo 的畫布尺寸爲：
 
@@ -17,7 +17,7 @@ title: 上傳圖片
 
 ### PNG
 
-使用 [OptiPNG](https://sourceforge.net/projects/optipng) 優化 PNG 圖片：
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
 
 ```bash
 optipng -o7 file.png
@@ -86,4 +86,12 @@ scour --set-precision=5 \
       --enable-id-stripping \
       --protect-ids-noninkscape \
       input.svg output.svg
+```
+
+### WebP
+
+Use the [cwebp](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+
+```bash
+cwebp -q 70 -m 6 input_file -o output.webp
 ```

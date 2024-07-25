@@ -8,6 +8,7 @@
 *[CLI]: Interfejs wiersza poleceń
 *[CSV]: Wartości rozdzielone przecinkiem
 *[CVE]: Typowe podatności i zagrożenia
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[Cyfrowe dziedziczenie]: Cyfrowe dziedzictwo odnosi się do funkcji, które pozwalają dać innym osobom dostęp do danych po śmierci użytkownika
 *[DNSSEC]: Rozszerzenie zabezpieczeń dla systemu DNS
 *[DNS]: System nazw domen

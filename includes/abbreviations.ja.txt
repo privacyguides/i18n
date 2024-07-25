@@ -8,6 +8,7 @@
 *[CLI]: コマンドライン インターフェース
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[デジタルレガシー機能]： あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能。
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: ドメインネームシステム

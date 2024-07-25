@@ -2,11 +2,11 @@
 title: Képek feltöltése
 ---
 
-Íme néhány általános szabály a Privacy Guides-hoz való hozzájáruláshoz:
+If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
 
 ## Képek
 
-- **Előnyben részesítjük** az SVG képeket, de ha ilyenek nem léteznek, használhatunk PNG képeket is
+- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
 
 A vállalati logók mérete:
 
@@ -17,7 +17,7 @@ A vállalati logók mérete:
 
 ### PNG
 
-Használd az [OptiPNG-t](https://sourceforge.net/projects/optipng) a PNG kép optimalizálásához:
+Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
 
 ```bash
 optipng -o7 file.png
@@ -86,4 +86,12 @@ scour --set-precision=5 \
       --enable-id-stripping \
       --protect-ids-noninkscape \
       input.svg output.svg
+```
+
+### WebP
+
+Use the [cwebp](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+
+```bash
+cwebp -q 70 -m 6 input_file -o output.webp
 ```
