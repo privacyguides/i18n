@@ -60,6 +60,6 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 ==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: 위협 모델링 자세히 알아보기](basics/threat-modeling.md){ class="md-button md-button--primary" }
 </div>
 </div>

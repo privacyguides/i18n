@@ -77,7 +77,7 @@ Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇
 
 ### 驗證 APK Fingerprints
 
-如果你打算下載 APK 並手動安裝，則可以使用 [`apksigner`](https://developer.android.com/studio/command-line/apksigner) 工具來驗證其簽章，該工具是 Android [build-tools](https://developer.android.com/studio/releases/build-tools) 的一部分。
+如果你打算下載 APK 安裝檔案並手動安裝，則可以使用 [`apksigner`](https://developer.android.com/studio/command-line/apksigner) 工具來驗證其簽章，該工具是 Android [build-tools](https://developer.android.com/studio/releases/build-tools) 的一部分。
 
 1. 安裝 [Java JDK](https://oracle.com/java/technologies/downloads) 。
 
@@ -110,17 +110,17 @@ Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇
 
 ![F-Droid logo](../assets/img/android/f-droid.svg){ align=right width=120px }
 
-\==我們只建議用 F-Droid 來獲取無法從上述管道取得的應用程式== 。F-Droid 經常被推薦為 Google Play 替代品，特別是在隱私社群內。 能新增第三方儲存庫且不被局限於 Google 圍牆花園使其廣受歡迎。 F-Droid 也為某些應用程式提供了 [可重現構建](https://f-droid.org/en/docs/Reproducible_Builds) ，並致力於自由和開放原始碼軟體。 然而，F-Droid 構建、簽署和交付軟體包的方式存在一些與安全缺失：
+\==我們只建議用 F-Droid 來獲取無法從上述管道取得的應用程式== 。F-Droid 經常被推薦為 Google Play 替代品，特別是在隱私社群內。 能新增第三方儲存庫且不被局限於 Google 圍牆花園使其廣受歡迎。 F-Droid 也為某些應用程式提供了 [可重現構建](https://f-droid.org/en/docs/Reproducible_Builds) ，並致力於自由和開放原始碼軟體。 然而，F-Droid 構建、簽署和交付軟體包的方式存在一些安全缺失：
 
 由於其構建應用程式的過程，「官方」F-Droid 儲存庫中的應用程式在更新上經常存在延遲。 F-Droid 維護人員在使用自己的金鑰簽署應用程式時也常會重複使用 package ID，這並不理想，因為這給了 F-Droid 團隊終極信任。 此外，將應用程式納入官方 F-Droid 儲存庫中的要求不如 Google Play 等其他應用程式商店嚴格，這意味著 F-Droid 往往會託管更多較舊、未維護或不符合 [現代安全標準](https://developer.android.com/google/play/requirements/target-sdk) 的應用程式。
 
-其他流行的 F-Droid 第三方儲存庫（例如：[IzzyOnDroid](https://apt.izzysoft.de/fdroid)）緩解了其中的一些問題。 IzzyOnDroid 存儲庫直接從 GitHub 拉取構建，是開發者自己存儲庫的下一個最好的東西。 However, it is not something that we can fully recommend, as apps are typically [removed](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) from that repository if they are later added to the main F-Droid repository. While that makes sense (since the goal of that particular repository is to host apps before they're accepted into the main F-Droid repository), it can leave you with installed apps which no longer receive updates.
+其他流行的 F-Droid 第三方儲存庫（例如：[IzzyOnDroid](https://apt.izzysoft.de/fdroid)）緩解了其中的一些問題。 IzzyOnDroid 儲存庫直接從 GitHub 獲取開發人員的官方構建，是僅次於從開發人員自己的 F-Droid 儲存庫獲取軟體的最好選項。 但是，這仍不是我們所想推薦的方法，因為如果應用程式後來被添加到主要 F-Droid 儲存庫，則很有可能被從 IzzyOnDroid 儲存庫中 [刪除](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) 。 雖然這是有道理的（因為該儲存庫的目標是在應用程式被納入主要 F-Droid 儲存庫之前託管應用程式），但這將使您安裝的應用程式無法再接收更新。
 
-That said, the [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](https://apt.izzysoft.de/fdroid) repositories are home to countless apps, so they can be a useful tool to search for and discover open-source apps that you can then download through other means such as the Play Store, Aurora Store, or by getting the APK directly from the developer. You should use your best judgement when looking for new apps via this method, and keep an eye on how frequently the app is updated. Outdated apps may rely on unsupported libraries, among other things, posing a potential security risk.
+不過，[F-Droid](https://f-droid.org/en/packages) 和 [IzzyOnDroid](https://apt.izzysoft.de/fdroid) 儲存庫有無數的應用程式；因此它們可以是搜尋和發現開源應用程式的有用工具，然後您可以透過其他方式取得這些應用程式，例如：Play 商店、Aurora 商店，或直接從開發人員處獲取 APK 安裝檔案。 透過此方法尋找新應用程式時，您應該做出最佳判斷，並密切關注應用程式的更新頻率。 過時的應用程式可能依賴停止支援的程式庫等，從而帶來潛在的安全風險。
 
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+在極少數情況下，應用程式的開發人員只會透過 F-Droid 發布應用程式（[Gadgetbridge](https://gadgetbridge.org) 就是其中一個例子）。 如果您真的需要這樣的應用程序，我們建議使用較新的 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) 客戶端，而不是原版 F-Droid 客戶端來獲得它。 F-Droid Basic 支援無需特權或 root 的背景自動更新，並且具有減少的功能集（限制攻擊面）。
 
 </div>
