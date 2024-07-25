@@ -29,13 +29,13 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 ## 권장 제공 업체
 
-Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
+Privacy Guides 권장 제공 업체는 암호화 사용, WireGuard & OpenVPN 지원, 노 로그 정책을 가지고 있습니다. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
 
-| Provider              | Countries | WireGuard                     | Port Forwarding                                            | IPv6                                                     | Anonymous Payments |
-| --------------------- | --------- | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 91+       | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | 현금                 |
-| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Cash       |
-| [Mullvad](#mullvad)   | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Cash       |
+| 서비스 제공자               | 국가  | WireGuard                     | 포트포워딩                                            | IPv6                                                     | 익명 결제   |
+| --------------------- | --- | ----------------------------- | ------------------------------------------------ | -------------------------------------------------------- | ------- |
+| [Proton](#proton-vpn) | 91+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 부분 지원 | :material-alert-outline:{ .pg-orange }                   | 현금      |
+| [IVPN](#ivpn)         | 37+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }           | :material-information-outline:{ .pg-blue } Outgoing Only | 모네로, 현금 |
+| [Mullvad](#mullvad)   | 41+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }           | :material-check:{ .pg-green }                            | 모네로, 현금 |
 
 ### Proton VPN
 
@@ -86,9 +86,9 @@ Proton VPN은 신용카드, 체크카드, 페이팔 외에도 [비트코인](adv
 
 #### :material-check:{ .pg-green } WireGuard 지원
 
-Proton VPN은 일반적으로 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
+Proton VPN은 일반적으로 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://wireguard.com)는 최첨단 [암호화](https://wireguard.com/protocol)를 사용하는 최신 프로토콜입니다. 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols) for the protocol is not present in their Linux app.
+Proton VPN은 자신들의 서비스에서 WireGuard 사용을 [권장](https://protonvpn.com/blog/wireguard)합니다. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols) for the protocol is not present in their Linux app.
 
 #### :material-alert-outline:{ .pg-orange } No IPv6 Support
 
@@ -122,7 +122,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ![IVPN 로고](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN**은 유료 VPN 서비스 제공 업체입니다. 2009년부터 운영되었습니다. IVPN is based in Gibraltar and does not offer a free trial.
+**IVPN**은 유료 VPN 서비스 제공 업체입니다. 2009년부터 운영되었습니다. IVPN은 지브롤터에 위치해 있으며 무료 평가판을 제공하지 않습니다.
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
@@ -166,11 +166,11 @@ In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **
 
 #### :material-check:{ .pg-green } WireGuard 지원
 
-IVPN은 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
+IVPN은 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://wireguard.com)는 최첨단 [암호화](https://wireguard.com/protocol)를 사용하는 최신 프로토콜입니다. 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
 
 IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
-#### :material-information-outline:{ .pg-blue } IPv6 Support
+#### :material-information-outline:{ .pg-blue } IPv6 지원
 
 IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
 
@@ -196,7 +196,7 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 ![Mullvad 로고](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 투명성과 보안에 중점을 둔, 속도가 빠르면서 비싸지 않은 VPN입니다. **2009년**부터 운영되었습니다. Mullvad is based in Sweden and does not offer a free trial.
+**Mullvad** 투명성과 보안에 중점을 둔, 속도가 빠르면서 비싸지 않은 VPN입니다. **2009년**부터 운영되었습니다. Mullvad 본사는 스웨덴에 위치하고 있으며, 무료 체험을 제공하지 않습니다.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
@@ -218,12 +218,12 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 41개 국가
 
 Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 목적지까지의 경로가 더 짧기(Hop 횟수가 적기) 때문입니다.
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. 마지막 확인: 2024-04-02
 
 우리는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 
@@ -249,7 +249,7 @@ Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin
 
 #### :material-check:{ .pg-green } WireGuard 지원
 
-Mullvad는 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
+Mullvad는 WireGuard® 프로토콜을 지원합니다. [WireGuard](https://wireguard.com)는 최첨단 [암호화](https://wireguard.com/protocol)를 사용하는 최신 프로토콜입니다. 또한, WireGuard는 보다 단순하면서도 더 나은 성능을 목표로 합니다.
 
 Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
@@ -301,7 +301,7 @@ We require all our recommended VPN providers to provide OpenVPN configuration fi
 - 사용하기 쉬운 VPN 클라이언트
 - [IPv6](https://en.wikipedia.org/wiki/IPv6) 지원: 서버들은 IPv6를 통한 연결을 허용하고, IPv6 주소에 호스팅되는 서비스에 접속할 수 있도록 해야 합니다.
 - [원격 포트포워딩](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding)을 지원하여 P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) 파일 공유와 Mumble과 같은 서비스 호스팅할 수 있음
-- Obfuscation technology which pads data packets with random data to circumvent internet censorship.
+- 인터넷 검열을 우회하기 위해 데이터 패킷에 임의의 데이터를 채워 넣는 난독화 기술.
 
 ### 프라이버시
 

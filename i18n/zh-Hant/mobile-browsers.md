@@ -37,7 +37,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。
+這些是我們目前推薦的 **行動網路瀏覽器** 以及 標準/非匿名網路瀏覽 的配置。 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。
 
 ## Android
 
@@ -91,13 +91,13 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 
 </details>
 
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Block third-party cookies** under **Block Cookies**
-- [x] Select **Block fingerprinting**
-- [x] Select **Prevent fingerprinting via language settings**
+- [x] 勾選 **自動重新導向 AMP 頁面**
+- [x] 勾選 **自動重新導向追蹤 URL**
+- [x] 將 **升級連線至 HTTPS** 設定為 **要求所有連線使用 HTTPS (嚴格)**
+- [x] （可選） 勾選 **阻擋指令稿** (1)
+- [x] 將 **封鎖 Cookies** 設定為 **封鎖第三方 Cookie**
+- [x] 勾選 **封鎖指紋識別**
+- [x] 勾選 **透過語言設定防止指紋識別攻擊**
 
 </div>
 

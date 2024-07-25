@@ -295,7 +295,7 @@ Tuta doesn't offer a digital legacy feature.
 
 - Zero Access Encryption을 통해 이메일 계정 데이터를 암호화해야 합니다.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- 사용자가 자신의 [도메인 이름](https://en.wikipedia.org/wiki/Domain_name)을 사용할 수 있어야 합니다. Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
+- 사용자가 자신의 [도메인 이름](https://en.wikipedia.org/wiki/Domain_name)을 사용할 수 있어야 합니다. 사용자 지정 도메인 이름은 서비스가 부실해지거나 프라이버시 보호를 우선시하지 않는 다른 회사에 인수되는 경우에도 에이전시를 유지할 수 있도록 해주기 때문에 사용자에게 중요합니다.
 - 자체 인프라에서 운영되어야 합니다. 다른 이메일 서비스 제공 업체의 인프라를 기반으로 만들어진 서비스여선 안 됩니다.
 
 **우대 사항:**
@@ -305,7 +305,7 @@ Tuta doesn't offer a digital legacy feature.
 - [WKD](https://wiki.gnupg.org/WKD)를 지원하여 HTTP를 통한 공개 OpenPGP 키 검색 편의를 제공해야 합니다. GnuPG 사용자는 `gpg --locate-key example_user@example.com`를 입력하여 키를 얻을 수 있습니다.
 - 외부 사용자를 위해 임시 메일함을 지원해야 합니다. 수신자에게 실제 사본을 보내지 않고 암호화된 이메일을 보내고자 할 때 유용합니다. 이러한 이메일은 보통 수명이 제한돼 있으며 이후 자동으로 삭제됩니다. 수신자가 OpenPGP 등의 암호화를 설정할 필요가 없습니다.
 - [Onion 서비스](https://en.wikipedia.org/wiki/.onion)를 통해 이메일 서비스를 이용할 수 있어야 합니다.
-- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
+- [하위 주소](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) 지원.
 - 자체 도메인을 소유한 사용자를 위해 Catch-all 이나 별칭 기능을 제공해야 합니다.
 - IMAP, SMTP, [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol) 등 표준 이메일 접근 프로토콜을 사용해야 합니다. 표준 액세스 프로토콜을 사용함으로써, 사용자는 다른 서비스 제공 업체로 전환하고자 할 경우 모든 이메일을 쉽게 다운로드할 수 있습니다.
 
@@ -317,7 +317,7 @@ Privacy Guides이 권장하는 제공자들은 최소한의 데이터만을 수�
 
 - 발신자의 IP 주소를 보호해야 합니다. `Received` 헤더 필드에 표시되지 않도록 필터링해야 합니다.
 - 사용자 이름과 비밀번호 외에 개인 식별 정보(PII, Personally Identifiable Information)를 요구하지 않아야 합니다.
-- Privacy policy that meets the requirements defined by the GDPR.
+- 프라이버시 정책은 GDPR에서 정의한 요구 사항을 충족해야 합니다.
 
 **우대 사항:**
 

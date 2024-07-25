@@ -40,9 +40,9 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## 왜 신경 써야 하나요?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### "전 숨길 게 없어요. 프라이버시를 신경 써야 할 이유가 있나요?"
 
 Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
