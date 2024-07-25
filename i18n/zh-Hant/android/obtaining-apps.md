@@ -75,15 +75,15 @@ Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-### Verifying APK Fingerprints
+### 驗證 APK Fingerprints
 
-If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+如果你打算下載 APK 並手動安裝，則可以使用 [`apksigner`](https://developer.android.com/studio/command-line/apksigner) 工具來驗證其簽章，該工具是 Android [build-tools](https://developer.android.com/studio/releases/build-tools) 的一部分。
 
-1. Install [Java JDK](https://oracle.com/java/technologies/downloads).
+1. 安裝 [Java JDK](https://oracle.com/java/technologies/downloads) 。
 
-2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
+2. 下載 [Android Studio 指令列工具](https://developer.android.com/studio#command-tools) 。
 
-3. Extract the downloaded archive:
+3. 解壓縮下載的檔案：
 
    ```bash
    unzip commandlinetools-*.zip
@@ -91,13 +91,13 @@ If you download APK files to install manually, you can verify their signature wi
    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
    ```
 
-4. Run the signature verification command:
+4. 執行簽章驗證指令：
 
    ```bash
    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
    ```
 
-5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk) on their website.
+5. 然後可以將產生的雜湊值與另一個來源的相同應用程式進行比對。 一些開發人員（例如 Signal）也會在其網站上 [展示 fingerprints](https://signal.org/android/apk)，您可以用先前產生的雜湊值與其比對。
 
    ```bash
    Signer #1 certificate DN: CN=GrapheneOS
@@ -110,7 +110,7 @@ If you download APK files to install manually, you can verify their signature wi
 
 ![F-Droid logo](../assets/img/android/f-droid.svg){ align=right width=120px }
 
-\==We only recommend F-Droid as a way to obtain apps which cannot be obtained via the means above.== F-Droid is often recommended as an alternative to Google Play, particularly within the privacy community. The option to add third-party repositories and not be confined to Google's walled garden has led to its popularity. F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds) for some applications and is dedicated to free and open-source software. However, there are some security-related downsides to how F-Droid builds, signs, and delivers packages:
+\==我們只建議用 F-Droid 來獲取無法從上述管道取得的應用程式== 。F-Droid 經常被推薦為 Google Play 替代品，特別是在隱私社群內。 能新增第三方儲存庫且不被局限於 Google 圍牆花園使其廣受歡迎。 F-Droid additionally has [reproducible builds](https://f-droid.org/en/docs/Reproducible_Builds) for some applications and is dedicated to free and open-source software. However, there are some security-related downsides to how F-Droid builds, signs, and delivers packages:
 
 Due to their process of building apps, apps in the _official_ F-Droid repository often fall behind on updates. F-Droid maintainers also reuse package IDs while signing apps with their own keys, which is not ideal as it gives the F-Droid team ultimate trust. Additionally, the requirements for an app to be included in the official F-Droid repo are less strict than other app stores like Google Play, meaning that F-Droid tends to host a lot more apps which are older, unmaintained, or otherwise no longer meet [modern security standards](https://developer.android.com/google/play/requirements/target-sdk).
 
