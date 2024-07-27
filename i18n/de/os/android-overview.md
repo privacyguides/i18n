@@ -1,18 +1,18 @@
 ---
-title: Android Overview
+title: Android Übersicht
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Android ist ein Open-Source-Betriebssystem mit starken Sicherheitsvorkehrungen, was es zu unserer ersten Wahl für Handys macht.
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+Das **Android Open-Source Project** ist ein sicheres mobiles Betriebssystem mit starkem [App-Sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) und einem robusten [Berechtigungskontrollsystem](https://developer.android.com/guide/topics/permissions/overview).
 
 ## Our Advice
 
-### Choosing an Android Distribution
+### Auswahl einer Android-Distribution
 
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
+Wenn du ein Android-Handy kaufst, wird das Standard-Betriebssystem mit Apps und Funktionen ausgeliefert, die nicht Teil des Android Open Source Project sind. Viele dieser Apps - sogar Apps wie der Dialer, der grundlegende Systemfunktionen bereitstellt - erfordern invasive Integrationen mit Google Play Services, die wiederum Zugriffsrechte auf deine Dateien, Kontakte, Anrufliste, SMS-Nachrichten, Standort, Kamera, Mikrofon und zahlreiche andere Funktionen auf deinem Gerät verlangen, damit diese grundlegenden System-Apps und viele andere Apps überhaupt funktionieren. Frameworks wie Google Play Services erhöhen die Angriffsfläche deines Geräts und sind die Ursache für diverse Datenschutzprobleme bei Android.
 
 This problem could be solved by using a custom Android distribution that does not come with such invasive integration. Unfortunately, many custom Android distributions often violate the Android security model by not supporting critical security features such as AVB, rollback protection, firmware updates, and so on. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
 
