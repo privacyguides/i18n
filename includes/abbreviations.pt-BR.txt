@@ -56,8 +56,8 @@ Caraterística digital herdada: Legado Digital refere-se a recursos que permitem
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Tradução de endereços de rede
 *[NAT-PMP]: Protocolo de mapeamento de portas NAT
-*[NTP]: Network Time Protocol
-*[OCI]: Open Container Initiative
+*[NTP]: Protocolo de Tempo Rede
+*[OCI]: Iniciativa Open Container
 *[OCSP]: Protocolo de Status de Certificado Online
 *[OEM]: Fabricante do Equipamento Original
 *[OEMs]: Fabricantes de Equipamentos Originais

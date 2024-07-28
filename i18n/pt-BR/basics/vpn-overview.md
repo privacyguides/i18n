@@ -30,7 +30,7 @@ Observe que uma VPN não adiciona nenhuma segurança ou criptografia ao seu trá
 
 ## Devo Usar Uma VPN?
 
-**Sim**, quase com certeza. Uma VPN tem muitas vantagens, incluindo:
+**Sim**, quase certamente. Uma VPN tem muitas vantagens, incluindo:
 
 1. Ocultar seu tráfego **apenas** do seu provedor de serviços de Internet.
 1. Ocultação de seus downloads (como torrents) de seu ISP e de organizações antipirataria.

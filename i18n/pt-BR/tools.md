@@ -187,7 +187,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Saiba mais :material-arrow-right-drop-circle:](search-engines.md)
 
-### Serviços VPN
+### Provedores de VPN
 
 <details class="danger" markdown>
 <summary>VPNs do not provide anonymity</summary>
