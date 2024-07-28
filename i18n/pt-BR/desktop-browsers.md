@@ -173,7 +173,7 @@ O serviço [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy
 
 - Selecione **Excluir cookies e dados do site quando o Firefox estiver fechado**
 
-Isso protege você contra cookies persistentes, mas não te protege contra cookies adquiridos durante a atual sessão de navegação. A extensão também é uma extensão :trophy: [recomendada](https://support.mozilla.org/kb/add-on-badges#w_recommended-extensions) pela Mozilla. Você pode estabelecer exceções por site, se deseja permanecer logado em um site específico que você visita com frequência.
+Isso protege você contra cookies persistentes, mas não te protege contra cookies adquiridos durante a atual sessão de navegação. Quando isso está ativado, é possível limpar facilmente os cookies do navegador simplesmente reiniciando o Firefox. Você pode estabelecer exceções por site, se deseja permanecer logado em um site específico que você visita com frequência.
 
 ##### Telemetria
 
@@ -265,7 +265,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 Essas opções podem ser encontradas em :material-menu: → **Configurações**.
 
-#### Shields (Escudos)
+#### Escudos
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 

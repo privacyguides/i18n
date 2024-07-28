@@ -72,7 +72,7 @@ Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) or [
 
 Nós também consideramos que é melhor para a segurança das chaves privadas do provedor VPN se eles usarem [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), em vez de soluções compartilhadas mais baratas (com outros clientes) como [servidores virtuais privados](https://pt.wikipedia.org/wiki/Servidor_virtual_privado).
 
-#### :material-check:{ .pg-green } Examinado por auditores externos
+#### :material-check:{ .pg-green } Revisado por auditoria independente
 
 Em Janeiro de 2020, ProtonVPN foi submetida a uma auditoria independente pela SEC Consult. A SEC Consult encontrou algumas vulnerabilidades de médio e baixo risco nos aplicativos Windows, Android e iOS da Proton VPN, todos os quais foram "devidamente corrigidos" pela Proton VPN antes que os relatórios fossem publicados. Nenhum dos problemas identificados teria proporcionado acesso remoto ao seu dispositivo ou tráfego. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). Um [certificado de segurança](https://proton.me/blog/security-audit-all-proton-apps) foi concedido para os aplicativos do Proton Mail em 9 de Novembro de 2021 pela [Securitium](https://research.securitum.com).
 
@@ -152,7 +152,7 @@ IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 Nós também consideramos que é melhor para a segurança das chaves privadas do provedor VPN se eles usarem [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), em vez de soluções compartilhadas mais baratas (com outros clientes) como [servidores virtuais privados](https://pt.wikipedia.org/wiki/Servidor_virtual_privado).
 
-#### :material-check:{ .pg-green } Examinado por auditores externos
+#### :material-check:{ .pg-green } Revisado por auditoria independente
 
 IVPN foi submetido a uma [auditoria de ausência de registro de dados (no-logging) pela Cure53](https://cure53.de/audit-report_ivpn.pdf), cuja conclusão confirmou a reivindicação de que o IVPN não registra dados. IVPN também elaborou um [relatório completo de Teste de Penetração (pentest) pela Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) em janeiro de 2020. IVPN has also said they plan to have [annual reports](https://ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
 
@@ -227,7 +227,7 @@ Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a
 
 Nós também consideramos que é melhor para a segurança das chaves privadas do provedor VPN se eles usarem [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), em vez de soluções compartilhadas mais baratas (com outros clientes) como [servidores virtuais privados](https://pt.wikipedia.org/wiki/Servidor_virtual_privado).
 
-#### :material-check:{ .pg-green } Examinado por auditores externos
+#### :material-check:{ .pg-green } Revisado por auditoria independente
 
 Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report [published at cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). The security researchers concluded:
 

@@ -28,7 +28,7 @@ Alguns mensageiros podem ser auto-hospedados e permitem que você configure seu 
 - Pode incluir [controle ou acesso restrito](https://drewdevault.com/2018/08/08/Signal.html). Isto pode incluir coisas como:
 - Ser [proibido de conectar clientes alternativos](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) à rede, mesmo podendo oferecer uma melhor customização ou até mesmo uma melhor experiência. Muitas vezes definido nos Termos e Condições de uso.
 - Documentação pobre ou inexistente para desenvolvedores de terceiros.
-- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
+- O [proprietário](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), a política de privacidade e operações podem ser facilmente mudadas quando uma só entidade controla tudo, podendo comprometer o serviço mais tarde.
 - A auto-hospedagem requer esforço e conhecimento de como configurar um serviço.
 
 ## Redes Federadas
@@ -54,7 +54,7 @@ Quando auto-hospedados, os membros de um servidor federado podem descobrir e se 
 - Os servidores federados geralmente exigem confiar no administrador do seu servidor. Eles podem ser um amador ou não ser um "profissional de segurança" e podem não servir documentos padrão, como uma política de privacidade ou termos de serviço detalhando como seus dados são usados.
 - Os administradores de servidores às vezes optam por bloquear outros servidores, que são uma fonte de abuso não moderado ou quebram as regras gerais de comportamento aceito. Isso prejudicará sua capacidade de se comunicar com os membros desses servidores.
 
-## Rede Peer-to-Peer
+## Redes ponto a ponto
 
 ![Diagrama P2P](../assets/img/layout/network-distributed.svg){ align=left }
 

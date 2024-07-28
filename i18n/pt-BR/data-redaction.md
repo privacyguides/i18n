@@ -1,14 +1,14 @@
 ---
-meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
-title: "Data and Metadata Redaction"
+meta_title: "Remover PII com Metadados Scrubbers e Ferramentas de Redação de Dados - Guias de Privacidade"
+title: "Redação de Dados e Metadados"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Use essas ferramentas para remover metadados como localização GPS e outras informações de identificação de fotos e arquivos que você compartilha.
 cover: data-redaction.webp
 ---
 
-When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
+Ao compartilhar arquivos, é importante remover metadados associados. Os arquivos de imagem geralmente incluem dados [Exif](https://en.wikipedia.org/wiki/Exif). Às vezes, as fotos incluem até mesmo coordenadas de GPS nos metadados do arquivo.
 
-## Desktop
+## Computador
 
 ### MAT2
 
@@ -16,7 +16,7 @@ When sharing files, be sure to remove associated metadata. Image files commonly 
 
 ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
-**MAT2** is free software, which allows the metadata to be removed from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+O **MAT2** é um software gratuito que permite que os metadados sejam removidos dos tipos de arquivos de imagem, áudio, torrent e documentos. Fornece uma ferramenta de linha de comando e uma interface gráfica de usuário por meio de uma extensão para o [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), o gerenciador de arquivos padrão do [KDE](https://kde.org).
 
 On Linux, a third-party graphical tool [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) powered by MAT2 exists and is [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
 

@@ -73,7 +73,7 @@ O Navegador Tor é a única maneira de realmente navegar na Internet de forma an
 
 Essas opções podem ser encontradas em :material-menu: → **Configurações** → **Proteções do Brave & privacidade**
 
-##### Shields (Escudos)
+##### Escudos
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 

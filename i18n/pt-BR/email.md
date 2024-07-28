@@ -249,7 +249,7 @@ Tuta doesn't offer a digital legacy feature.
 
 ## Email Auto-Hospedado
 
-Administratores de sistema avançados podem considerar a possibilidade de configurar seu próprio servidor de e-mail. Servidores de correio eletrônico requerem atenção e manutenção contínua para manter as coisas seguras e a entrega de correio eletrônico confiável.
+Administratores de sistema avançados podem considerar a possibilidade de configurar seu próprio servidor de e-mail. Os servidores de e-mail exigem atenção e manutenção contínua para manter a segurança e a confiabilidade da entrega de e-mails.
 
 ### Soluções combinadas de software
 

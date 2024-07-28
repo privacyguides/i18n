@@ -63,19 +63,19 @@ Depois de [criar um novo ProxyVM](https://forum.qubes-os.org/t/configuring-a-pro
 
 Seus qubes devem ser configurados de maneira como esta:
 
-| Qube name       | Qube description                                                                                    | NetVM           |
-| --------------- | --------------------------------------------------------------------------------------------------- | --------------- |
-| sys-net         | *Your default network qube (pre-installed)*                                                         | *n/a*           |
-| sys-firewall    | *Your default firewall qube (pre-installed)*                                                        | sys-net         |
-| ==sys-proxyvm== | The VPN ProxyVM you [created](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
-| sys-whonix      | Your Whonix Gateway VM                                                                              | ==sys-proxyvm== |
-| anon-whonix     | Your Whonix Workstation VM                                                                          | sys-whonix      |
+| Nome do Qube | Descrição do Qube                                                                                    |    |
+| ------------ | ---------------------------------------------------------------------------------------------------- | -- |
+|              | *Sua rede qube padrão (pré-instalado)*                                                               | ** |
+|              | *Seu firewall qube padrão (pré-instalado)*                                                           |    |
+|              | A VPN ProxyVM que você [criou](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) |    |
+|              | Sua Whonix Gateway VM                                                                                |    |
+|              | Sua Whonix Workstation VM                                                                            |    |
 
 ## Recursos Adicionais
 
-For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). Offline copies can be downloaded from the Qubes OS [documentation repository](https://github.com/QubesOS/qubes-doc).
+Para obter informações adicionais, recomendamos que você consulte as extensas páginas de documentação do Qubes OS localizadas no [site do Qubes OS](https://qubes-os.org/doc). Cópias off-line podem ser baixadas do [repositório de documentação](https://github.com/QubesOS/qubes-doc) do Qubes OS.
 
-- [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
-- [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
-- [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://qubes-os.org/news/categories/#articles) (Qubes OS)
+- [Indiscutivelmente o sistema operacional mais seguro do mundo](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
+- [Compartimentação de software vs. separação física](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J.
+- [Particionando minha vida digital em domínios de segurança](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
+- [Artigos relacionados](https://qubes-os.org/news/categories/#articles) (Qubes OS)
