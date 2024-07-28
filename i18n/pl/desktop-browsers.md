@@ -2,7 +2,7 @@
 meta_title: "Przeglądarki internetowe na PC i Mac respektujące prywatność - Privacy Guides"
 title: "Przeglądarki desktopowe"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: Te przeglądarki chroniące prywatność są obecnie zalecane do standardowego / nieanonimowego przeglądania Internetu na komputerach stacjonarnych.
 cover: desktop-browsers.webp
 schema:
   - 
