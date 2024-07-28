@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Polecamy [Mullvad Browser](#mullvad-browser), jeśli koncentrujesz się na silnej ochronie prywatności i ochronie przed odciskami palców po instalacji, [Firefox](#firefox) dla standardowego przeglądania internetu jako dobra alternatywa dla Google Chrome, oraz [Brave](#brave), jeśli potrzebujesz kompatybilności z przeglądarką Chromium.
+To są obecnie zalecane przez nas **przeglądarki internetowe** i konfiguracje dla przeglądania standardowego/nieanonimowego. Polecamy [Mullvad Browser](#mullvad-browser), jeśli koncentrujesz się na silnej ochronie prywatności i ochronie przed odciskami palców po instalacji, [Firefox](#firefox) dla standardowego przeglądania internetu jako dobra alternatywa dla Google Chrome, oraz [Brave](#brave), jeśli potrzebujesz kompatybilności z przeglądarką Chromium.
 
 Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md). Na tej stronie przedstawiamy pewne zalecenia dotyczące konfiguracji, ale wszystkie przeglądarki inne niż Tor Browser będą w taki czy inny sposób śledzone przez *kogoś*.
 
@@ -142,7 +142,7 @@ Firefox zawiera unikalny [token pobierania](https://bugzilla.mozilla.org/show_bu
 
 ### Zalecana konfiguracja przeglądarki Firefox
 
-These options can be found in :material-menu: → **Settings**.
+Opcje te można znaleźć na stronie :material-menu: → **Ustawienia**.
 
 #### Wyszukiwarka
 
@@ -208,9 +208,9 @@ Jeśli korzystasz z [dostawcy DNS over HTTPS](dns.md):
 
 Maksymalna ochrona wymusza użycie DNS przez HTTPS, a ostrzeżenie o bezpieczeństwie pokaże się, jeśli Firefox nie może połączyć się z bezpiecznym resolwerem DNS, lub jeśli Twój bezpieczny resolwer DNS mówi, że rekordy domeny, do której próbujesz uzyskać dostęp, nie istnieją. Dzięki temu sieć, z którą jesteś połączony, nie będzie mogła potajemnie obniżyć Twoich zabezpieczeń DNS.
 
-#### Sync
+#### Synchronizacja
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) umożliwia dostęp do danych przeglądania (historii, zakładek itp.) na wszystkich urządzeniach i chroni je za pomocą E2EE.
 
 ### Arkenfox (zaawansowany)
 
