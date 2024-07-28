@@ -81,7 +81,7 @@ Tresorit קיבלה מספר ביקורות אבטחה עצמאיות:
     - סקירה זו ניתחה את קוד המקור המלא של Tresorit ואימתה שהיישום תואם את המושגים המתוארים ב[דף הלבן](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) של Tresorit.
     - ארנסט & יאנג בדק בנוסף את האינטרנט, הנייד והמחשב שולחני: "תוצאות הבדיקה לא מצאו חריגה מתביעות סודיות הנתונים של Tresorit."
 
-They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
 ## Peergos
 

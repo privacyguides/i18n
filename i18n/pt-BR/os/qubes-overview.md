@@ -59,9 +59,9 @@ A [estrutura qrexec](https://qubes-os.org/doc/qrexec) é uma parte essencial do 
 
 Recomendamos [que](../advanced/tor-overview.md) você se conecte à rede Tor por meio de um provedor de [VPN](../vpn.md) e, felizmente, o Qubes facilita isso com uma combinação de ProxyVMs e Whonix.
 
-After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) which connects to the VPN of your choice, you can chain your Whonix qubes to that ProxyVM **before** they connect to the Tor network, by setting the NetVM of your Whonix **Gateway** (`sys-whonix`) to the newly-created ProxyVM.
+Depois de [criar um novo ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) que se conecta à VPN de sua escolha, você pode encadear seus qubes Whonix a esse ProxyVM **antes** de se conectarem à rede Tor, definindo a NetVM do seu **Gateway** Whonix (`sys-whonix`) para o ProxyVM recém-criado.
 
-Your qubes should be configured in a manner similar to this:
+Seus qubes devem ser configurados de maneira como esta:
 
 | Qube name       | Qube description                                                                                    | NetVM           |
 | --------------- | --------------------------------------------------------------------------------------------------- | --------------- |

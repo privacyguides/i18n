@@ -81,7 +81,7 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
     - В данном обзоре был проанализирован весь исходный код Tresorit и было подтверждено, что реализация соответствует концепциям, описанным в [техническом документе](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) Tresorit.
     - Компания Ernst & Young дополнительно протестировала веб-приложение, мобильные и настольные клиенты: "Результаты тестирования не выявили никаких отклонений от заявлений Tresorit о конфиденциальности данных."
 
-They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
 ## Peergos
 

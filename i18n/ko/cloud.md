@@ -81,7 +81,7 @@ Tresorit은 독립적인 보안 감사를 여러 차례 받았습니다.
     - 해당 검토에서는 Tresorit의 전체 소스 코드를 분석하여, Tresorit [백서](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf)에서 설명한 개념과 구현이 일치하는지 검증했습니다.
     - Ernst & Young은 추가로 웹, 모바일, 데스크톱 클라이언트를 검사했습니다. "검사 결과, Tresorit이 주장하는 데이터 기밀성과 차이가 없는 것으로 나타났습니다."
 
-They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
 ## Peergos
 

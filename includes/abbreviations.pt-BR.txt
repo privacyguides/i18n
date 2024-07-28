@@ -8,7 +8,7 @@
 *[CLI]: Interface de Linha de Comando
 *[CSV]: Valores Separados por Vírgulas
 *[CVE]: Vulnerabilidades e Exposições Comuns
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+: Um padrão de design enganoso que visa induzir o usuário a fazer coisas
 Caraterística digital herdada: Legado Digital refere-se a recursos que permitem que você dê a outras pessoas acesso aos seus dados quando você morre
 *[DNSSEC]: Extensões de Segurança do Sistema de Nomes de Domínio
 *[DNS]: Sistema de Nomes de Domínio
@@ -94,7 +94,7 @@ Caraterística digital herdada: Legado Digital refere-se a recursos que permitem
 *[UEFI]: Interface Unificada de Firmware Extensível
 *[UDP]: Protocolo do Datagrama do Usuário
 *[VPN]: Rede Privada Virtual
-*[VLAN]: Virtual Local Area Network
+: Rede de área local virtual
 *[VoIP]: Voz por IP (Protocolo de Internet)
 *[W3C]: Consórcio World Wide Web
 *[XMPP]: Protocolo de Mensagens e Presença Extensível

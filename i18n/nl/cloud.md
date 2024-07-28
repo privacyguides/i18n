@@ -81,7 +81,7 @@ Tresorit heeft een aantal onafhankelijke beveiligingsaudits ontvangen:
     - Deze evaluatie analyseerde de volledige broncode van Tresorit en bevestigde dat de implementatie overeenkomt met de concepten die zijn beschreven in Tresorit's [white paper](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf).
     - Ernst & Young testte bovendien de web-, mobiele en desktopclients: "Testresultaten vonden geen afwijking van Tresorit's claims over de vertrouwelijkheid van gegevens."
 
-They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://www.efd.admin.ch/efd/en/home/digitalisierung/swiss-digital-initiative.html) which requires passing [35 criteria](https://digitaltrust-label.swiss/criteria) related to security, privacy, and reliability.
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
 ## Peergos
 
