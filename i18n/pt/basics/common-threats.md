@@ -189,4 +189,4 @@ Deve sempre considerar os riscos de tentar contornar a censura, as possíveis co
 [^2]: Conselho de Supervisão de Privacidade e Liberdades Civis dos Estados Unidos: [*Relatório sobre o Programa de Registos Telefónicos Conduzido ao abrigo da Secção 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Capitalismo de vigilância<*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Deve empregar outras técnicas de mitigação.
-[^5]: Nações Unidas: [*Declaração Universal dos Direitos Humanos *](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).

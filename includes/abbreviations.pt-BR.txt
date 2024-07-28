@@ -94,6 +94,7 @@ Caraterística digital herdada: Legado Digital refere-se a recursos que permitem
 *[UEFI]: Interface Unificada de Firmware Extensível
 *[UDP]: Protocolo do Datagrama do Usuário
 *[VPN]: Rede Privada Virtual
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: Voz por IP (Protocolo de Internet)
 *[W3C]: Consórcio World Wide Web
 *[XMPP]: Protocolo de Mensagens e Presença Extensível

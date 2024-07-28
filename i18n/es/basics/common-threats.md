@@ -189,4 +189,4 @@ Siempre debes tener en cuenta los riesgos de intentar saltarse la censura, las p
 [^2]: Junta de Supervisión de la Privacidad y las Libertades Civiles de los Estados Unidos: [*Informe sobre el Programa de Registros Telefónicos llevado a cabo bajo la Sección 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Capitalismo de vigilancia*](https://es.wikipedia.org/wiki/Capitalismo_de_vigilancia)
 [^4]: "[Enumerar lo malo](https://ranum.com/security/computer_security/editorials/dumb)" (o, "enumerar todas las cosas malas que conocemos"), como hacen muchos bloqueadores de contenidos y programas antivirus, no consigue protegerle adecuadamente de amenazas nuevas y desconocidas porque aún no se han añadido a la lista de filtros. También deberías emplear otras técnicas de mitigación.
-[^5]: Naciones Unidas: [*La Declaración Universal de Derechos Humanos*](https://www.un.org/es/about-us/universal-declaration-of-human-rights).
+[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).

@@ -189,4 +189,4 @@ Anda harus selalu mempertimbangkan risiko mencoba menerobos sensor, konsekuensi 
 [^2]: Badan Pengawasan Privasi dan Kebebasan Sipil Amerika Serikat: [*Laporan tentang Program Rekaman Telepon yang Dilakukan berdasarkan Pasal 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Kapitalisme pengawasan*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Anda juga harus menggunakan teknik mitigasi lainnya.
-[^5]: Perserikatan Bangsa-Bangsa: [*Deklarasi Universal Hak Asasi Manusia*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).

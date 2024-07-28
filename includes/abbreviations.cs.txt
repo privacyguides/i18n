@@ -94,6 +94,7 @@
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
 *[VPN]: Virtuální privátní síť
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: Hlas přes IP (internetový protokol)
 *[W3C]: Konsorcium World Wide Web
 *[XMPP]: Rozšiřitelný protokol pro posílání zpráv a zjištění stavu

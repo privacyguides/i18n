@@ -94,6 +94,7 @@
 *[UEFI]: Unified Extensible Firmware-gränssnitt
 *[UDP]: Användardatagramprotokoll
 *[VPN]: Virtuella privata servrar
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: Röst över IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Utökningsbart meddelande- och närvaroprotokoll

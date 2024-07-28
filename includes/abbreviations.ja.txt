@@ -94,6 +94,7 @@
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: ユーザーデータグラムプロトコル（User Datagram Protocol）
 *[VPN]: 仮想プライベートネットワーク（Virtual Private Network）
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: Voice over IP
 *[W3C]: ワールド・ワイド・ウェブ・コンソーシアム（World Wide Web Consortium）
 *[XMPP]: Extensible Messaging and Presence Protocol

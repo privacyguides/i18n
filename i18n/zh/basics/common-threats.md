@@ -189,4 +189,4 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 [^2]: 维基百科： [监控资本主义](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^3]: 维基百科。 [*监视资本主义*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. 你还应该采用其他缓解技术。
-[^5]: 联合国。 [*世界人权宣言》*](https://www.un.org/en/about-us/universal-declaration-of-human-rights)。
+[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).

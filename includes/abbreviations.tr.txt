@@ -94,6 +94,7 @@
 *[UEFI]: Birleşik Genişletilebilir Üretici Yazılımı Arabirimi
 *[UDP]: Kullanıcı Veri Birimi Protokolü
 *[VPN]: Sanal Özel Ağ
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: IP üzerinden Ses (İnternet Protokolü)
 *[W3C]: Dünya Çapında Ağ Konsorsiyumu
 *[XMPP]: Genişletilebilir Mesajlaşma ve Varlık Protokolü

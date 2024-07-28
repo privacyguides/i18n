@@ -94,6 +94,7 @@
 *[UEFI]: Interface micrologicielle extensible unifiée
 *[UDP]: Protocole de datagramme utilisateur
 *[VPN]: Réseau privé virtuel
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: Voix sur IP (protocole internet)
 *[W3C]: Consortium World Wide Web
 *[XMPP]: Protocole extensible de messagerie et de présence

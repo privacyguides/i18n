@@ -189,4 +189,4 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 [^2]: Совет по надзору за соблюдением конфиденциальности и гражданских свобод США: [*Отчет о программе записи телефонных разговоров, проводимой в соответствии с разделом 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Вы также должны использовать другие методы смягчения последствий.
-[^5]: Организация Объединенных Наций: [*Всеобщая декларация прав человека*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).

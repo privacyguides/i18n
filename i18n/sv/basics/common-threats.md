@@ -189,4 +189,4 @@ Du måste alltid överväga riskerna med att försöka kringgå censur, de poten
 [^2]: Usa: s tillsynsnämnd för integritet och medborgerliga fri- och rättigheter: [*Rapport om telefonregistreringsprogrammet som genomförts enligt avsnitt 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Övervakningskapitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Du bör också använda andra metoder för att minska risken.
-[^5]: Förenta nationerna: [*Universella förklaringen om de mänskliga rättigheterna*](https://www.un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).

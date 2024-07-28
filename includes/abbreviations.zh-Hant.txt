@@ -94,6 +94,7 @@
 *[UEFI]: 整合可延伸韌體介面
 *[UDP]: 用戶資料圖報協議
 *[VPN]: 虛擬私密連線
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: IP語音(Internet通訊協定)
 *[W3C]: 全球資訊網協會
 *[XMPP]: 可延伸傳訊與顯示通訊協定

@@ -265,9 +265,7 @@ Brave 在官網的下載檔案中新增了 "[推廣代碼](https://github.com/br
 
 這些選項可以在 :material-menu: → **設定** 中找到。
 
-#### Settings
-
-##### 防護
+#### 防護
 
 Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
@@ -275,8 +273,7 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
 <div class="annotate" markdown>
 
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
-- [x] 將 *追蹤器與廣告封鎖* 設定為 **積極**
+- [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
 <summary>使用預設過濾器列表</summary>
@@ -287,6 +284,7 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 - [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Check **Block fingerprinting**
+- [x] Select **Block third-party cookies**
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -295,42 +293,54 @@ Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我�
 1. 此選項提供的功能類似於 uBlock Origin 的進階[封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode)。
 2. 若想在經常造訪的特定站點保持登入，則可以透過網址列中的盾牌圖示來為每個站點設定例外。
 
-##### Privacy and security
+#### Privacy and security
 
 <div class="annotate" markdown>
 
-- [x] 將 [WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
-- [ ] 取消勾選 **使用 Google 服務來推播訊息**
-- [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
-- [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
-- [ ] 取消勾選 **自動傳送診斷報告**
-- [ ] 取消勾選 **使用 Tor 的隱私視窗** (1)
+- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
+- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
+- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 
-1. Brave 在瀏覽器指紋識別的隱藏能力**不如** Tor 瀏覽器，且使用 Brave 的 Tor 使用者少，因此這將會使您顯得突出。 在[需要強大匿名性](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)的情況下，請使用 [Tor 瀏覽器](tor.md#tor-browser)。
+1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">離開時清除資料</p>
 
-- [x] 在 *網站與 Shields 設定* 選單中的“內容”下，點擊 *網站在裝置端的資料* 選單後，選擇 **在所有視窗關閉後刪除網站儲存到裝置的資料** 。
+- [x] Select **Delete data sites have saved to your device when you close all windows** under *Sites and Shields Settings* → *Content* → *Additional content settings* → *On-device site data*.
 
 如果希望在經常訪問的特定網站上保持登入，可在「自訂設定」部分下針對每個網站設定例外。
 
 </div>
 
-##### Extensions
+##### Tor windows
 
-- [ ] 取消勾選所有您用不到的內建擴充功能
+[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
-##### Web3
+##### Data Collection
 
-Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非有用到任何功能，否則應停用這些功能。
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
 
-- 將預設的 *以太坊* 與 *Solana* 錢包設定為 **擴充功能 (無後援)**
+#### Web3
+
+Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 Unless you use any of these features, they should be disabled.
+
+- Select **Extensions (no fallback)** under *Default Ethereum wallet*
+- Select **Extensions (no fallback)** under *Default Solana wallet*
 - 將 *解析 IPFS 資源的方法* 設定為 **已停用**
 
-##### System
+#### Extensions
+
+- [ ] Uncheck all built-in extensions you don't use
+
+#### System
 
 <div class="annotate" markdown>
 

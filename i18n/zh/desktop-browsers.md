@@ -282,11 +282,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 
 
-#### Settings
-
-
-
-##### 盾
+#### 盾
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
@@ -294,7 +290,6 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
 
 <div class="annotate" markdown>
 
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 - [x] Select **Aggressive** under *Trackers & ads blocking*
 
 <details class="warning" markdown>
@@ -307,6 +302,7 @@ Brave allows you to select additional content filters within the internal `brave
 - [x] Select **Strict** under *Upgrade connections to HTTPS*
 - [x] (Optional) Select **Block Scripts** (1)
 - [x] Check **Block fingerprinting**
+- [x] Select **Block third-party cookies**
 - [x] Check **Forget me when I close this site** (2)
 - [ ] Uncheck all social media components
 
@@ -317,46 +313,62 @@ Brave allows you to select additional content filters within the internal `brave
 
 
 
-##### Privacy and security
+#### Privacy and security
 
 <div class="annotate" markdown>
 
+- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
+- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
 - [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Private window with Tor** (1)
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 
-1. Brave 对指纹的抵抗力**不如** Tor 浏览器，而且使用 Brave 的 Tor 功能的人要少得多，所以你的指纹会突出。 Where [strong anonymity is required](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) use the [Tor Browser](tor.md#tor-browser).
+1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Sanitizing on close</p>
 
-- [x] In the *Sites and Shields Settings* menu, under Content, after clicking on the *On-device site data* menu, select **Delete data sites have saved to your device when you close all windows**.
+- [x] Select **Delete data sites have saved to your device when you close all windows** under *Sites and Shields Settings* → *Content* → *Additional content settings* → *On-device site data*.
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 
-##### Extensions
+##### Tor windows
 
-- [ ] Uncheck all built-in extensions you do not use
+[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
 
 
-##### Web3
+##### Data Collection
 
-Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 如果您不使用这些功能，应将其禁用。
+- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [ ] Uncheck **Automatically send diagnostic reports**
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet* and *Default Solana wallet*
+
+
+#### Web3
+
+Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 Unless you use any of these features, they should be disabled.
+
+- Select **Extensions (no fallback)** under *Default Ethereum wallet*
+- Select **Extensions (no fallback)** under *Default Solana wallet*
 - Set *Method to resolve IPFS resources* to **Disabled**
 
 
 
-##### System
+#### Extensions
+
+- [ ] Uncheck all built-in extensions you don't use
+
+
+
+#### System
 
 <div class="annotate" markdown>
 

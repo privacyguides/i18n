@@ -94,6 +94,7 @@
 *[UEFI]: 통합 확장 펌웨어 인터페이스(Unified Extensible Firmware Interface)
 *[UDP]: 사용자 데이터그램 프로토콜
 *[VPN]: 가상 사설망(Virtual Private Network)
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol

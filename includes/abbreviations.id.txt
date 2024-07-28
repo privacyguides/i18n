@@ -94,6 +94,7 @@
 *[UEFI]: Antarmuka Firmware yang Dapat Diperluas Terpadu
 *[UDP]: Protokol Datagram Pengguna
 *[VPN]: Jaringan Pribadi Virtual
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: Suara melalui IP (Protokol Internet)
 *[W3C]: Konsorsium Waring Wera Wanua
 *[XMPP]: Protokol Perpesanan dan Kehadiran yang Dapat Diperluas

@@ -227,4 +227,4 @@ Apple 會為那些希望幫助查找和報告錯誤的人先提供 iOS 測試版
 
 ### Before First Unlock(初次解鎖之前)
 
-如果您的威脅模型包含鑑識工具，且希望最大程度地減少他人利用漏洞訪問手機的可能性，則應經常重新啟動設備。 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
+If your threat model includes forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。

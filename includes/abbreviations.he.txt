@@ -94,6 +94,7 @@
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: פרוטוקול יחידת נתונים של משתמש
 *[VPN]: רשת וירטואלית פרטית
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: קול על IP (פרוטוקול אינטרנט)
 *[W3C]: קונסורציום האינטרנט העולמי
 *[XMPP]: Extensible Messaging and Presence Protocol

@@ -94,6 +94,7 @@
 *[UEFI]: Zunifikowany rozszerzalny interfejs oprogramowania układowego
 *[UDP]: Protokół pakietów użytkownika
 *[VPN]: Wirtualna sieć prywatna
+*[VLAN]: Virtual Local Area Network
 *[VoIP]: Przesyłanie dźwięku za pomocą łącza internetowego
 *[W3C]: Konsorcjum World Wide Web
 *[XMPP]: Rozszerzalny protokół przesyłania wiadomości i statusu
