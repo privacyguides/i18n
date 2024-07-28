@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
+meta_title: "Privacy Guides: Niezależne źródło informacji o prywatności i bezpieczeństwie"
 template: home.html
 social:
   cards_layout: home
@@ -40,26 +40,26 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## A po co to komu?
 
-##### “I have nothing to hide. Why should I care about my privacy?”
+##### "Ja nie mam nic do ukrycia. Po co mam się martwić o swoją prywatność?"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Podobnie jak prawo do małżeństw różnych ras, prawo wyborcze kobiet, wolność słowa i wiele innych, nasze prawo do prywatności nie zawsze było egzekwowane. W części dyktatur nadal nie jest. Poprzednie pokolenia walczyły za nasze prawo do prywatności. == Prywatność jest prawem człowieka, nieodłącznym dla nas wszystkich, == do którego mamy prawo (bez dyskryminacji).
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Nie powinieneś mylić prywatności z tajnością. Wszyscy wiemy co robi się w łazience, ale nadal zamykamy drzwi. To dlatego, że chcesz prywatności, a nie tajności. **Każdy** ma coś, co chce chronić. Prywatność to coś, co czyni nas ludźmi.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: Dlaczego prywatność jest ważna](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 </div>
 
 <div markdown>
-## What should I do?
+## Co powinniśmy zrobić?
 
-##### First, you need to make a plan
+##### Po pierwsze, musisz stworzyć plan
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. But don't worry! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the tools you use or the software you download. Rather, it begins by understanding the unique threats you face, and how you can mitigate them.
+Próba ochrony wszystkich danych przed wszystkimi przez cały czas jest niepraktyczna, kosztowna i wyczerpująca. Ale bez obaw! Bezpieczeństwo to proces, a myśląc z wyprzedzeniem możesz stworzyć plan, który będzie odpowiedni dla Ciebie. Bezpieczeństwo to nie tylko narzędzia, których używasz lub oprogramowanie, które pobierasz. Zaczyna się to raczej od zrozumienia unikalnych zagrożeń, z którymi się borykasz i w jaki sposób możesz im przeciwdziałać.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Ten proces identyfikacji zagrożeń oraz definiowania środków zaradczych jest nazywany **modelowaniem zagrożeń**== i stanowi podstawę każdego dobrego planu bezpieczeństwa i prywatności.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: Dowiedz się więcej o modelowaniu zagrożeń](basics/threat-modeling.md){ class="md-button md-button--primary" }
 </div>
 </div>
