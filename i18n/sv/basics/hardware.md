@@ -44,7 +44,7 @@ Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a res
 
 </div>
 
-### Biometrics
+### Biometri
 
 Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
 
@@ -61,7 +61,7 @@ Some devices do not have the proper hardware for secure face authentication. The
 
 Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
 
-### Device Encryption
+### Enhetskryptering
 
 If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
 
@@ -77,7 +77,7 @@ Hardware keys are devices that use strong cryptography to authenticate you to a 
 
 [Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### Kamera/Mikrofon
 
 If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
 
@@ -110,7 +110,7 @@ The best way to prevent a targeted attack against you before a device is in your
 
 Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
 
-## Secure your Network
+## Säkra ditt nätverk
 
 ### Compartmentalization
 
@@ -126,7 +126,7 @@ As the saying goes, "less is more". The fewer devices you have connected to your
 
 You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
 
-### Routers
+### Routrar
 
 Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
 
