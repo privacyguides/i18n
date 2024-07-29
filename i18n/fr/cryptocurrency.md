@@ -35,15 +35,15 @@ De nombreux projets de crypto-monnaies, voire la plupart, sont des escroqueries.
 
 Avec Monero, les observateurs extérieurs ne peuvent pas déchiffrer les adresses qui échangent des Monero, les montants des transactions, les soldes des adresses ou l'historique des transactions.
 
-Pour une confidentialité optimale, assurez-vous d'utiliser un portefeuille sans garde, où la clé de visualisation reste sur l'appareil. Cela signifie que vous êtes le seul à pouvoir dépenser vos fonds et à voir les transactions entrantes et sortantes. Si vous utilisez un portefeuille de garde, le fournisseur peut voir **tout** ce que vous faites ; si vous utilisez un portefeuille "léger" dans lequel le fournisseur conserve votre clé privée, il peut voir presque tout ce que vous faites. Parmi les portefeuilles non gardiens, on peut citer :
+Pour une confidentialité optimale, assurez-vous d'utiliser un portefeuille non dépositaire, où la clé d'affichage reste sur l'appareil. Cela signifie que vous êtes le seul à pouvoir dépenser vos fonds et à voir les transactions entrantes et sortantes. Si vous utilisez un portefeuille dépositaire, le fournisseur peut voir **tout** ce que vous faites ; si vous utilisez un portefeuille "léger" dans lequel le fournisseur conserve votre clé d'affichage privée, il peut voir presque tout ce que vous faites. Parmi les portefeuilles non dépositaires, on peut citer :
 
 - [le client Monero officiel](https://getmonero.org/downloads) (bureau)
 - [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS)
-    - Cake Wallet prend en charge plusieurs crypto-monnaies. A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com).
+    - Cake Wallet prend en charge plusieurs crypto-monnaies. Une version de Cake Wallet réservée aux utilisateurs de Monero est disponible pour iOS et Android sur [Monero.com](https://monero.com).
 - [Feather Wallet](https://featherwallet.org) (bureau)
 - [Monerujo](https://monerujo.io) (Android)
 
-Pour une confidentialité maximale (même avec un portefeuille sans garde), vous devriez utiliser votre propre nœud Monero. L'utilisation du nœud d'une autre personne expose certaines informations, telles que l'adresse IP à partir de laquelle vous vous connectez, les heures auxquelles vous synchronisez votre portefeuille et les transactions que vous envoyez à partir de votre portefeuille (mais pas d'autres détails sur ces transactions). Alternatively, you can connect to someone else’s Monero node over Tor or [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
+Pour une confidentialité maximale (même avec un portefeuille non dépositaire), vous devriez utiliser votre propre nœud Monero. L'utilisation du nœud d'une autre personne expose certaines informations, telles que l'adresse IP à partir de laquelle vous vous connectez, les heures auxquelles vous synchronisez votre portefeuille et les transactions que vous envoyez à partir de votre portefeuille (mais pas d'autres détails sur ces transactions). Vous pouvez également vous connecter au nœud Monero de quelqu'un d'autre via Tor ou [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
 
 In August 2021, CipherTrace [announced](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. Des publications publiques montrent que le Financial Crimes Enforcement Network du département du Trésor américain [a accordé une licence à](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace pour son "module Monero" à la fin de l'année 2022.
 
