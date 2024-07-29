@@ -8,7 +8,7 @@
 *[CLI]: Interface de ligne de commande
 *[CSV]: Valeurs séparées par des virgules
 *[CVE]: Vulnérabilités et expositions courantes
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+*[interface truquée] : Un modèle de conception trompeur destiné à inciter l'utilisateur à faire certaines choses
 *[fonctionnalité d'héritage numérique]: L'héritage numérique désigne les fonctions qui vous permettent de donner à d'autres personnes l'accès à vos données après votre décès
 *[DNSSEC]: Extensions de sécurité du système de nom de domaine
 *[DNS]: Système de nom de domaine
@@ -94,7 +94,7 @@
 *[UEFI]: Interface micrologicielle extensible unifiée
 *[UDP]: Protocole de datagramme utilisateur
 *[VPN]: Réseau privé virtuel
-*[VLAN]: Virtual Local Area Network
+*[VLAN] : Réseau local virtuel
 *[VoIP]: Voix sur IP (protocole internet)
 *[W3C]: Consortium World Wide Web
 *[XMPP]: Protocole extensible de messagerie et de présence

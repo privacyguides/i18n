@@ -2,7 +2,7 @@
 meta_title: "Navigateurs web respectueux de la vie privée pour PC et Mac - Privacy Guides"
 title: "Navigateurs de bureau"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: Ces navigateurs respectueux de la vie privée sont ceux que nous recommandons actuellement pour la navigation internet standard/non-anonyme sur les ordinateurs de bureau.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Nous recommandons [Mullvad Browser](#mullvad-browser) si vous recherchez des protections solides de la vie privée et une protection contre la capture des empreintes numériques, [Firefox](#firefox) pour les internautes occasionnels qui recherchent une bonne alternative à Google Chrome, et [Brave](#brave) si vous avez besoin d'une compatibilité avec le navigateur Chromium.
+Voici les **navigateurs internet** et configurations actuellement recommandés pour la navigation standard/non-anonyme. Nous recommandons [Mullvad Browser](#mullvad-browser) si vous recherchez des protections solides de la vie privée et une protection contre la capture des empreintes numériques, [Firefox](#firefox) pour les internautes occasionnels qui recherchent une bonne alternative à Google Chrome, et [Brave](#brave) si vous avez besoin d'une compatibilité avec le navigateur Chromium.
 
 Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt utiliser [Tor](tor.md). Nous faisons quelques recommandations de configuration sur cette page, mais tous les navigateurs autres que Tor Browser seront traçables par *quelqu'un* d'une manière ou d'une autre.
 
@@ -188,13 +188,13 @@ De plus, le service Mozilla Accounts collecte [certaines données techniques](ht
 1. Ouvrez les [paramètres de votre profil sur accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Décochez **Collecte et utilisation de données** > **Aidez à améliorer les comptes Firefox**
 
-##### Website Advertising Preferences
+##### Préférences publicitaires des sites web
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] Décocher **Autoriser les sites web à effectuer des mesures publicitaires en respectant la vie privée**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Avec la sortie de Firefox 128, un nouveau paramètre pour l'[attribution respectueuse de la vie privée](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) a été ajouté et est [activé par défaut](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). L'attribution respectueuse de la vie privée permet aux annonceurs d'utiliser votre navigateur web pour mesurer l'efficacité des campagnes web, au lieu d'utiliser un suivi traditionnel basé sur JavaScript. Nous considérons que ce comportement n'entre pas dans le cadre des responsabilités d'un agent utilisateur, et le fait qu'il soit désactivé par défaut dans Arkenfox est un indicateur supplémentaire en faveur de la désactivation de cette fonctionnalité.
 
-##### HTTPS-Only Mode
+##### Mode HTTPS uniquement
 
 - [x] Sélectionnez **Activer le mode HTTPS uniquement dans toutes les fenêtres**
 
