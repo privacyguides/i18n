@@ -2,7 +2,7 @@
 meta_title: "Les meilleurs gestionnaires de mots de passe pour protéger votre vie privée et votre sécurité - Privacy Guides"
 title: "Gestionnaires de mots de passe"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: Les gestionnaires de mots de passe vous permettent de stocker et gérer en toute sécurité vos mots de passe et autres identifiants.
 cover: passwords.webp
 schema:
   - 
@@ -33,7 +33,7 @@ schema:
     "@type": SoftwareApplication
     name: 1Password
     image: /assets/img/password-management/1password.svg
-    url: https://1password.com
+    url: https://1password.com/fr
     sameAs: https://fr.wikipedia.org/wiki/1Password
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
@@ -80,7 +80,7 @@ schema:
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org
-    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    sameAs: https://fr.wikipedia.org/wiki/KeePassXC
     applicationCategory: Gestionnaire de mots de passe
     operatingSystem:
       - Windows
@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
+Les **gestionnaires de mots de passe** vous permettent de stocker et de gérer en toute sécurité des mots de passe et autres identifiants à l'aide d'un mot de passe maître.
 
 [Introduction aux mots de passe :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
