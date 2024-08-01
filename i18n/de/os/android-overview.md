@@ -8,23 +8,23 @@ description: Android ist ein Open-Source-Betriebssystem mit starken Sicherheitsv
 
 Das **Android Open-Source Project** ist ein sicheres mobiles Betriebssystem mit starkem [App-Sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) und einem robusten [Berechtigungskontrollsystem](https://developer.android.com/guide/topics/permissions/overview).
 
-## Our Advice
+## Unsere Empfehlung
 
 ### Auswahl einer Android-Distribution
 
 Wenn du ein Android-Handy kaufst, wird das Standard-Betriebssystem mit Apps und Funktionen ausgeliefert, die nicht Teil des Android Open Source Project sind. Viele dieser Apps - sogar Apps wie der Dialer, der grundlegende Systemfunktionen bereitstellt - erfordern invasive Integrationen mit Google Play Services, die wiederum Zugriffsrechte auf deine Dateien, Kontakte, Anrufliste, SMS-Nachrichten, Standort, Kamera, Mikrofon und zahlreiche andere Funktionen auf deinem Gerät verlangen, damit diese grundlegenden System-Apps und viele andere Apps überhaupt funktionieren. Frameworks wie Google Play Services erhöhen die Angriffsfläche deines Geräts und sind die Ursache für diverse Datenschutzprobleme bei Android.
 
-This problem could be solved by using a custom Android distribution that does not come with such invasive integration. Unfortunately, many custom Android distributions often violate the Android security model by not supporting critical security features such as AVB, rollback protection, firmware updates, and so on. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+Dieses Problem könnte durch die Verwendung einer Custom-Android-Distribution gelöst werden, die nicht mit einer derartigen invasiven Integration einhergeht. Leider verletzen viele Custom-Android-Distributionen oft das Android-Sicherheitsmodell, indem sie kritische Sicherheitsfunktionen wie AVB, Rollback-Schutz, Firmware-Updates usw. nicht unterstützen. Einige Distributionen liefern auch [`userdebug`](https://source.android.com/setup/build/building#choose-a-target)-Builds, die Root über [ADB](https://developer.android.com/studio/command-line/adb) freigeben und [freizügigere](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux-Richtlinien erfordern, um Debugging-Funktionen zu ermöglichen, was zu einer noch größeren Angriffsfläche und einem schwächeren Sicherheitsmodell führt.
 
-Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria.
+Idealerweise solltest du bei der Auswahl einer Custom-Android-Distribution sicherstellen, dass sie das Android-Sicherheitsmodell einhält. Zumindest sollte die Distribution Produktions-Builds, Unterstützung für AVB, Rollback-Schutz, rechtzeitige Firmware- und Betriebssystem-Updates und SELinux im [Enforcing-Modus](https://source.android.com/security/selinux/concepts#enforcement_levels) bieten. Alle unsere empfohlenen Android-Distributionen erfüllen diese Kriterien.
 
-[Our Android System Recommendations :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
+[Unsere Android-System-Empfehlungen :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
 
-### Avoid Rooting
+### Vermeide Rooten
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). This can decrease privacy should there be an exploit that is assisted by the decreased security. Common rooting methods involve directly tampering with the boot partition, making it impossible to perform successful Verified Boot. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the [attack surface](https://en.wikipedia.org/wiki/Attack_surface) of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
+Das [Rooten](https://de.wikipedia.org/wiki/Rooten) von Android-Handys kann die Sicherheit erheblich beeinträchtigen, da es das gesamte [Android-Sicherheitsmodell](https://de.wikipedia.org/wiki/Android_(Betriebssystem)#Sicherheit) schwächt. Dies kann zu einer Beeinträchtigung des Datenschutzes führen, wenn die verminderte Sicherheit ausgenutzt wird. Bei den üblichen Rooting-Methoden wird direkt in die Boot-Partition eingegriffen, sodass ein erfolgreicher Verified Boot nicht möglich ist. Anwendungen, die Root benötigen, verändern auch die Systempartition, was bedeutet, dass Verified Boot deaktiviert bleiben muss. Das direkte Aussetzen von Root in der Benutzeroberfläche erhöht ebenfalls die [Angriffsfläche](https://en.wikipedia.org/wiki/Attack_surface) deines Geräts und kann bei [Rechteausweitung](https://de.wikipedia.org/wiki/Rechteausweitung) und SELinux-Richtlinienumgehungen helfen.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
+Inhaltsblocker, die die [hosts Datei](https://de.wikipedia.org/wiki/Hosts_(Datei)) verändern (AdAway), und Firewalls (AFWall+), welche dauerhaft Root-Zugriff erfordern, sind gefährlich und sollten nicht verwendet werden. They are also not the correct way to solve their intended purposes. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
 AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) approach and may be bypassable in some situations.
 
@@ -133,9 +133,9 @@ The work profile is dependent on a device controller to function. Features such 
 
 This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the work and personal profiles simultaneously.
 
-### VPN Killswitch
+### VPN Kill-Switch
 
-Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. This feature can prevent leaks if the VPN is disconnected. It can be found in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Android 7 und höher unterstützt einen VPN-Kill-Switch, der ohne die Installation von Drittanbieter-Apps verfügbar ist. Diese Funktion kann Leaks verhindern, wenn die VPN-Verbindung unterbrochen wird. Du findest sie unter :gear: **Einstellungen** → **Netzwerk & Internet** → **VPN** → :gear: → **Verbindungen ohne VPN blockieren**.
 
 ### Global Toggles
 
