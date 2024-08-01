@@ -14,7 +14,7 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 ![Logo di Ente](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Logo di Ente](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos** è un servizio di backup delle foto crittografato end-to-end che supporta i backup automatici su iOS e Android. Il loro codice è completamente open source, sia dal lato del client che del server. È [ospitabile autonomamente](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023. La prova gratuita offre 5GB di spazio di archiviazione per un anno.
+**Ente Photos** è un servizio di backup delle foto crittografato end-to-end che supporta i backup automatici su iOS e Android. Il loro codice è completamente open source, sia dal lato del client che del server. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 5GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -37,14 +37,16 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 </div>
 
+Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+
 ## Stingle
 
 <div class="admonition recommendation" markdown>
 
-![Logo Stingle](assets/img/photo-management/stingle.png#only-light){ align=right }
-![Logo Stingle](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
+![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
+![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** è un'applicazione per gallerie e fotocamere con funzionalità integrate di backup e sincronizzazione crittografata end-to-end per foto e video. Lo storage parte da 1 GB per gli account gratuiti sul loro cloud, oppure puoi ospitare il tuo server API Stingle per una totale indipendenza.
+**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
 
 [:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
@@ -67,9 +69,9 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 <div class="admonition recommendation" markdown>
 
-![Logo PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). Non include E2EE, quindi è meglio che sia ospitato su un server di fiducia e che sia sotto il tuo controllo.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
@@ -87,16 +89,15 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 ## Criteri
 
-**Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai [nostri criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
 ### Requisiti minimi
 
-- I provider ospitati in cloud devono applicare la crittografia end-to-end.
+- Cloud-hosted providers must enforce end-to-end encryption.
 - Deve offrire un piano gratuito o un periodo di prova per testarlo.
 - Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Deve offrire un'interfaccia web che supporti le funzionalità di base per la gestione dei file.
 - Deve consentire un'esportazione facile di tutti i file/documenti.
-- Deve utilizzare una crittografia standard e controllata.
 - Deve essere open source.
 
 ### Miglior Caso

@@ -23,7 +23,7 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with the completion of certain steps, additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
@@ -108,7 +108,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 </div>
 
-Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server negating the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
+Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
 
 Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
 
@@ -127,7 +127,6 @@ Also, the Android app is not available but it is [in the works](https://discuss.
 - Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - 기본적인 파일 관리 기능을 지원하는 웹 인터페이스를 제공해야 합니다.
 - 모든 파일/문서를 쉽게 내보낼 수 있어야 합니다.
-- 감사받은 표준 암호화를 사용해야 합니다.
 
 ### 우대 사항
 

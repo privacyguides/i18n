@@ -115,7 +115,7 @@ Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來
 
 ## 標準
 
-請注意，我們所推薦專案沒有任何瓜葛。 除[標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 

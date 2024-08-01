@@ -40,7 +40,7 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+為何我該關心？
 
 “我沒有什麼可隱瞞的。 為何我該在意自己的隱私？”
 
@@ -48,11 +48,11 @@ schema:
 
 你不應該把隱私和保密混為一談。 人人都知道浴室裏發生了什麼，但你仍然會把門關上。 這是因為您想要隱私，而不是保密。 每個人都有要保護的東西。 隱私讓我們之所以為人。
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
+[:material-book-outline: 為什麼隱私很重要](basics/why-privacy-matters.md){ class="md-button md-button--primary" }
 </div>
 
 <div markdown>
-## What should I do?
+我該怎麼做？
 
 ##### First, you need to make a plan
 

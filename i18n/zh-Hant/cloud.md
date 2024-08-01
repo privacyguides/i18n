@@ -23,7 +23,7 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). 一開始免費儲存空間僅 2GB，但完成某些步驟後，可獲得最多 5GB 的額外儲存空間。
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with the completion of certain steps, additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
@@ -108,7 +108,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 </div>
 
-Peergos 主要為 Web 應用程序，但可自行託管伺服器，作為遠端 Peergos 帳戶的本地緩存，或作為獨立的儲存伺服器，無需註冊遠端帳戶和訂閱。 Peergos 伺服器是 `.jar` 檔案，這表示 Java 17+ 執行時間環境（[OpenJDK 下載](https://azul.com/downloads)）應該是安裝在電腦上以使其正常工作。
+Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. Peergos 伺服器是 `.jar` 檔案，這表示 Java 17+ 執行時間環境（[OpenJDK 下載](https://azul.com/downloads)）應該是安裝在電腦上以使其正常工作。
 
 透過註冊帳戶在其付費託管服務上運行本地版本的 Peergos ，用戶可在不依賴 DNS 或 TLS 憑證授權單位的情況下存取 Peergos 存儲，並將資料副本備份到其雲端。 無論運行他們的桌面伺服器還是僅使用他們的託管 Web 介面，使用者體驗都應該是相同的。
 
@@ -124,10 +124,9 @@ Peergos 於 2019 年 9 月接受了 Cure53 的[審核](https://cure53.de/pentest
 
 - 必須執行端到端加密。
 - 必須提供免費計劃或試用期以進行測試。
-- 必須支援 TOTP 或 FIDO2 多因素驗證，或密鑰登入。
+- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - 必須提供支援基本檔案管理功能的網頁介面。
 - 允許輕鬆匯出所有檔案/文件。
-- 必須使用經審核的標準加密。
 
 ### 最好的情况
 

@@ -23,7 +23,7 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with completion of certain steps, additional storage can be obtained up to 5GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with the completion of certain steps, additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: Página Principal](https://proton.me/drive){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Política de Privacidad" }
@@ -108,7 +108,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 </div>
 
-Peergos es principalmente una aplicación web, pero puedes alojar tú mismo el servidor, ya sea como caché local para tu cuenta Peergos remota o como servidor de almacenamiento independiente, sin necesidad de registrarte para obtener una cuenta y una suscripción remotas. El servidor Peergos es un archivo `.jar`, lo que significa que debes tener instalado en tu máquina Java 17+ Runtime Environmen ([descarga de OpenJDK](https://azul.com/downloads)) para que funcione.
+Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. El servidor Peergos es un archivo `.jar`, lo que significa que debes tener instalado en tu máquina Java 17+ Runtime Environmen ([descarga de OpenJDK](https://azul.com/downloads)) para que funcione.
 
 Ejecutar una versión local de Peergos junto con una cuenta registrada en su servicio alojado de pago te permite acceder a tu almacenamiento Peergos sin depender de DNS o autoridades de certificación TLS, y mantener una copia de seguridad de tus datos en su nube. La experiencia del usuario debería ser la misma tanto si ejecutas su servidor de escritorio como si utilizas su interfaz web alojada.
 
@@ -127,7 +127,6 @@ Además, la aplicación para Android no está disponible, pero se está [trabaja
 - Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Debe ofrecer una interfaz web que admita funciones básicas de gestión de archivos.
 - Debe permitir exportar fácilmente todos los archivos/documentos.
-- Debe utilizar un cifrado estándar auditado.
 
 ### Mejor Caso
 

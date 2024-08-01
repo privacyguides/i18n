@@ -14,7 +14,7 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). It underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023. The free trial offers 5GB of storage, for a year.
+**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Their code is fully open-source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 5GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
@@ -36,6 +36,8 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 </details>
 
 </div>
+
+Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 ## Stingle
 
@@ -87,16 +89,15 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 ## 規準
 
-\*\*私たちは、推薦するどのプロジェクトとも提携していません。\*\*客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 ### 最低要件
 
-- クラウドホスティングプロバイダーが、エンド・ツー・エンドの暗号化を実施していること。
+- Cloud-hosted providers must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.
 - Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
-- 標準的な監査済みの暗号化を使用すること。
 - オープンソースであること。
 
 ### 満たされることが望ましい基準
