@@ -54,12 +54,12 @@ schema:
 <div markdown>
 我該怎麼做？
 
-##### First, you need to make a plan
+##### 首先您需要計劃
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. 但是別擔心！ 安全是一種過程，提前做好準備，相信您能制定出一個適合自己的計劃。 安全並不僅僅只限於您使用的工具或下載的軟件。 相反，它始於了解您面臨的獨特威脅，以及如何減輕它們。
+試著去從大家手上隨時隨地保護您的所有資料相當不切實際、成本高而且很累。 但是別擔心！ 安全是一種過程，提前做好準備，相信您能制定出一個適合自己的計劃。 安全並不僅僅只限於您使用的工具或下載的軟件。 相反，它始於了解您面臨的獨特威脅，以及如何減輕它們。
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==這個識別威脅和定義對策的過程叫做 **威脅模型**== ，它構成了每個安全及隱私計劃的基礎。
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button md-button--primary" }
+[:material-book-outline: 了解更多威脅模型](basics/threat-modeling.md){ class="md-button md-button--primary" }
 </div>
 </div>
