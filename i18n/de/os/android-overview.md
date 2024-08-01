@@ -24,31 +24,31 @@ Idealerweise solltest du bei der Auswahl einer Custom-Android-Distribution siche
 
 Das [Rooten](https://de.wikipedia.org/wiki/Rooten) von Android-Handys kann die Sicherheit erheblich beeinträchtigen, da es das gesamte [Android-Sicherheitsmodell](https://de.wikipedia.org/wiki/Android_(Betriebssystem)#Sicherheit) schwächt. Dies kann zu einer Beeinträchtigung des Datenschutzes führen, wenn die verminderte Sicherheit ausgenutzt wird. Bei den üblichen Rooting-Methoden wird direkt in die Boot-Partition eingegriffen, sodass ein erfolgreicher Verified Boot nicht möglich ist. Anwendungen, die Root benötigen, verändern auch die Systempartition, was bedeutet, dass Verified Boot deaktiviert bleiben muss. Das direkte Aussetzen von Root in der Benutzeroberfläche erhöht ebenfalls die [Angriffsfläche](https://en.wikipedia.org/wiki/Attack_surface) deines Geräts und kann bei [Rechteausweitung](https://de.wikipedia.org/wiki/Rechteausweitung) und SELinux-Richtlinienumgehungen helfen.
 
-Inhaltsblocker, die die [hosts Datei](https://de.wikipedia.org/wiki/Hosts_(Datei)) verändern (AdAway), und Firewalls (AFWall+), welche dauerhaft Root-Zugriff erfordern, sind gefährlich und sollten nicht verwendet werden. They are also not the correct way to solve their intended purposes. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
+Inhaltsblocker, die die [hosts Datei](https://de.wikipedia.org/wiki/Hosts_(Datei)) verändern (AdAway), und Firewalls (AFWall+), welche dauerhaft Root-Zugriff erfordern, sind gefährlich und sollten nicht verwendet werden. Sie sind auch nicht der richtige Weg, um den beabsichtigten Zweck zu erfüllen. Für das Blockieren von Inhalten empfehlen wir stattdessen verschlüsselte [DNS](../dns.md) oder die Inhaltsblockierungsfunktionen, die von einem VPN bereitgestellt werden. TrackerControl und AdAway im Nicht-Root-Modus nehmen den VPN-Slot ein (indem sie ein lokales Loopback-VPN verwenden) und verhindern so, dass du datenschutzfreundliche Dienste wie [Orbot](../tor.md#orbot) oder einen [echten VPN-Anbieter](../vpn.md) nutzen kannst.
 
-AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) approach and may be bypassable in some situations.
+AFWall+ basiert auf dem Ansatz der [Paketfilterung](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) und kann in einigen Situationen umgangen werden.
 
-We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
+Wir sind nicht der Meinung, dass die Sicherheitseinbußen, die durch das Rooten eines Smartphones entstehen, die fragwürdigen Datenschutzvorteile dieser Anwendungen wert sind.
 
-### Install Updates
+### Installiere Updates
 
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
+Es ist wichtig, dass du keine [veraltete](https://endoflife.date/android) Version von Android verwendest. Neuere Android-Versionen erhalten nicht nur Sicherheitsupdates für das Betriebssystem, sondern auch wichtige Updates zur Verbesserung der Privatsphäre.
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
+[Vor Android 10](https://developer.android.com/about/versions/10/privacy/changes) konnten alle Apps mit der [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) Berechtigung auf sensible und eindeutige Seriennumern deines Handys zugreifen, wie [IMEI](https://de.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) oder die [IMSI](https://de.wikipedia.org/wiki/International_Mobile_Subscriber_Identity) deiner SIM-Karte, während es sich jetzt um System-Apps handeln muss, um dies zu tun. Systemanwendungen werden nur vom OEM oder der Android-Distribution bereitgestellt.
 
-### Sharing Media
+### Medien teilen
 
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
+Du kannst vermeiden, vielen Apps die Berechtigung zum Zugriff auf deine Medien zu gewähren, indem du die integrierten Freigabefunktionen von Android nutzt. Viele Apps ermöglichen es dir, eine Datei mit ihnen zu „teilen“ für den Medien-Upload.
 
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+Wenn du beispielsweise ein Bild in Discord posten möchtest, kannst du deinen Dateimanager oder deine Galerie öffnen und dieses Bild mit der Discord-App teilen, anstatt Discord vollen Zugriff auf deine Medien und Fotos zu gewähren.
 
-## Security Protections
+## Sicherheitsmaßnahmen
 
-Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+Zu den Schlüsselkomponenten des Android-Sicherheitsmodells gehören [Verified Boot](#verified-boot), [Firmware-Updates](#firmware-updates) und ein robustes [Berechtigungssystem](#android-permissions). Diese wichtigen Sicherheitsmaßnahmen bilden die Grundlage der Mindestkriterien für unsere Empfehlungen für [Mobiltelefone](../mobile-phones.md) und [Custom-Android-OS](../android/distributions.md).
 
 ### Verified Boot
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. It provides protection against [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, malware persistence, and ensures security updates cannot be downgraded with [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+[**Verified Boot**](https://source.android.com/security/verifiedboot) ist ein elementarer Bestandteil des Android-Sicherheitsmodells. Es bietet Schutz vor [Evil Maid Angriffen](https://en.wikipedia.org/wiki/Evil_maid_attack), Malware-Persistenz und stellt sicher, dass Sicherheitsupdates nicht durch [Rollback-Schutz](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection) herbagestuft werden können.
 
 Android 10 and above has moved away from full-disk encryption to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based). Your data is encrypted using unique encryption keys, and the operating system files are left unencrypted.
 
