@@ -1,9 +1,11 @@
 ---
-title: 支持我们
+title: 捐贈
 ---
 
 <!-- markdownlint-disable MD036 -->
-這需要大量的[人員](contributors.md)和[工作](https://github.com/privacyguides/privacyguides.org/pulse/monthly)及時更新 Privacy Guides 並傳播有關隱私和大規模監控的資訊。 如果您喜歡我們的工作，請考慮參與 [編輯網站](https://github.com/privacyguides/privacyguides.org) 或 [貢獻翻譯](https://crowdin.com/project/privacyguides)。
+Donate to Privacy Guides and support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
+
+Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a **non-profit, community-driven** project that would not be possible without the generous support of all our [contributors](contributors.md).
 
 ## 捐贈
 
@@ -11,7 +13,37 @@ title: 支持我们
 
 [:material-heart:{ .pg-red } 在 GitHub 上贊助我們](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
 
-我們也與財務主辦單位合作收受加密貨幣捐贈，目前對於許多較小的交易來說，會計上無法執行，但這應該很快會改善。 與此同時，如果仍希望加密貨幣捐贈，請聯絡 [jonah@privacyguides.org](mailto:jonah@privacyguides.org) 安排交易。
+A new donation platform we control to make donating easier will be deployed soon. In the meantime, if you'd like to arrange a donation (including with cryptocurrency), please reach out to [info@magicgrants.org](mailto:info@magicgrants.org).
+
+## 我們如何使用贊助費用
+
+Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目的，包括：
+
+**網站託管**
+:
+
+本網站的流量每月使用大約是數百 GB，我們使用各種服務提供商來提供流量。
+
+**Domain Registrations**
+:
+
+We have a few domain names like `privacyguides.org` which cost us around $10 yearly to maintain their registration.
+
+**線上服務**
+:
+
+We host [internet services](services.md) for testing and showcasing different privacy-products we like and [recommend](../tools.md). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+
+**產品購買**
+:
+
+我們偶爾會購買產品和服務，以測試我們的 [推薦工具](../tools.md)。
+
+Your donation will go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. 該資金將僅用於本專案項目。 您可獲得減稅資格。 如需要捐款收據，請發送電子郵件至 <info@magicgrants.org>。
+
+感謝所有支持本站宗旨的朋友！ :material-heart:{ .pg-red }
+
+We strictly **cannot** use donations to support political campaigns/candidates or attempt to influence legislation. Earnings also will **not** inure to the benefit of any private shareholder or individual.
 
 ## 周邊商品
 
@@ -19,30 +51,6 @@ title: 支持我们
 
 [在HelloTux.com 購買](https://hellotux.com/privacyguides){ class="md-button" }
 
-## 我們如何使用贊助費用
+## Non-Financial Support
 
-Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目的，包括：
-
-**域名註冊**
-:
-
-我們有一些網域名稱，如 `privacyguides.org` ，每年花費大約 10 美元。
-
-**網站託管**
-:
-
-本網站的流量每月使用大約是數百 GB，我們使用各種服務提供商來提供流量。
-
-**線上服務**
-:
-
-我們託管[網際網路服務](https://privacyguides.net) 測試和展示不同的隱私產品，我們喜歡和 [推薦](../tools.md)。 其中一些公開供我們的社區使用（ SearXNG ， Tor等） ，有些則提供給我們的團隊成員（電子郵件等）。
-
-**產品購買**
-:
-
-我們偶爾會購買產品和服務，以測試我們的 [推薦工具](../tools.md)。
-
-Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. 該資金將僅用於本專案項目。 您可獲得減稅資格。 如需要捐款收據，請發送電子郵件至 <info@magicgrants.org>。
-
-感謝所有支持本站宗旨的朋友！ :material-heart:{ .pg-red }
+It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org), [joining our forum](https://discuss.privacyguides.net), or [contributing translations](https://crowdin.com/project/privacyguides).

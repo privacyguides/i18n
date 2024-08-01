@@ -188,7 +188,7 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 
 ![logo PhotoPrism](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** est une plateforme auto-hébergée pour la gestion des photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://photoprism.app/features). Elle n'inclut pas le E2EE, il est donc préférable de l'héberger sur un serveur en lequel vous avez confiance et que vous contrôlez.
+**PhotoPrism** is a self-hostable platform for managing photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }

@@ -1,9 +1,11 @@
 ---
-title: Supporting Us
+title: Donate
 ---
 
 <!-- markdownlint-disable MD036 -->
-It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spreading the word about privacy and mass surveillance. 저희의 노력을 응원하신다면 [사이트 편집 기여](https://github.com/privacyguides/privacyguides.org) 혹은 [번역 기여](https://crowdin.com/project/privacyguides)에 참여해보세요.
+Donate to Privacy Guides and support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
+
+Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a **non-profit, community-driven** project that would not be possible without the generous support of all our [contributors](contributors.md).
 
 ## Donate
 
@@ -11,7 +13,37 @@ Currently, the best way to support our work is to send a monthly or one-time con
 
 [:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
 
-We are also working with our fiscal host to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the near future. In the meantime, if you still wish to make a cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org) to arrange a transaction.
+A new donation platform we control to make donating easier will be deployed soon. In the meantime, if you'd like to arrange a donation (including with cryptocurrency), please reach out to [info@magicgrants.org](mailto:info@magicgrants.org).
+
+## 후원금 사용 내역
+
+Privacy Guides는 **비영리** 단체입니다. Privacy Guides는 후원금을 다음과 같은 용도로 사용합니다.
+
+**웹 호스팅**
+:
+
+본 사이트는 매달 수백 기가바이트의 트래픽이 발생합니다. Privacy Guides는 사이트 트래픽을 처리하기 위해 다양한 서비스 제공 업체를 이용합니다.
+
+**Domain Registrations**
+:
+
+We have a few domain names like `privacyguides.org` which cost us around $10 yearly to maintain their registration.
+
+**온라인 서비스**
+:
+
+We host [internet services](services.md) for testing and showcasing different privacy-products we like and [recommend](../tools.md). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+
+**제품 구매**
+:
+
+Privacy Guides는 때때로 [권장 목록](../tools.md)의 서비스나 툴을 테스트하기 위한 목적으로 제품을 구매합니다.
+
+Your donation will go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+
+Thank you to all those who support our mission! :material-heart:{ .pg-red }
+
+We strictly **cannot** use donations to support political campaigns/candidates or attempt to influence legislation. Earnings also will **not** inure to the benefit of any private shareholder or individual.
 
 ## Merchandise
 
@@ -19,30 +51,6 @@ HelloTux에서 상품을 구매하여 Privacy Guides를 후원하실 수도 있�
 
 [HelloTux.com에서 구매하기](https://hellotux.com/privacyguides){ class="md-button" }
 
-## 후원금 사용 내역
+## Non-Financial Support
 
-Privacy Guides는 **비영리** 단체입니다. Privacy Guides는 후원금을 다음과 같은 용도로 사용합니다.
-
-**도메인 등록**
-:
-
-Privacy Guides는 `privacyguides.org`를 비롯한 몇 가지 도메인을 보유하고 있습니다. 도메인 등록 유지 비용은 연간 약 10달러 정도입니다.
-
-**웹 호스팅**
-:
-
-본 사이트는 매달 수백 기가바이트의 트래픽이 발생합니다. Privacy Guides는 사이트 트래픽을 처리하기 위해 다양한 서비스 제공 업체를 이용합니다.
-
-**온라인 서비스**
-:
-
-Privacy Guides는 여러 [서비스](https://privacyguides.net)를 호스팅하여 저희가 [추천하고 있는](../tools.md) 다양한 프라이버시 제품을 테스트 및 시연하고 있습니다. SearXNG, Tor 등의 일부는 커뮤니티에서 사용 가능하도록 공개적으로 제공되며, 이메일 등의 일부는 팀원에게만 제공됩니다.
-
-**제품 구매**
-:
-
-Privacy Guides는 때때로 [권장 목록](../tools.md)의 서비스나 툴을 테스트하기 위한 목적으로 제품을 구매합니다.
-
-Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
-
-Thank you to all those who support our mission! :material-heart:{ .pg-red }
+It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org), [joining our forum](https://discuss.privacyguides.net), or [contributing translations](https://crowdin.com/project/privacyguides).

@@ -9,47 +9,89 @@ description: Privacy Guides est le site web le plus transparent et le plus fiabl
 
 Si vous cherchez une solution spécifique à un problème, voici pour diverses catégories les outils matériels et logiciels que nous vous recommandons. Les outils de protection de la vie privée que nous recommandons sont principalement choisis pour leurs fonctionnalités de sécurité, avec une attention particulière pour les outils décentralisés et open source. Ils sont adaptés à divers modèles menaces, que vous cherchiez à vous protéger contre les programmes de surveillance de masse mondiaux et à éviter les grandes entreprises du numérique, voire à mitiger les attaques. Toutefois, vous seul êtes en mesure de déterminer ce qui répondra le mieux à vos besoins.
 
+[VPN Software](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
+
 Si vous souhaitez obtenir de l'aide pour trouver quels sont les outils de protection de la vie privée et les alternatives les plus adaptés à vos besoins, lancez une discussion sur notre [forum](https://discuss.privacyguides.net) ou sur notre communauté [Matrix](https://matrix.to/#/#privacyguides:matrix.org) !
 
 Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont été choisis, ou pour connaître d'autres conseils ou astuces que nous préconisons, cliquez sur le lien « En savoir plus » dans chaque section, ou cliquez sur la recommandation pour accéder à la section correspondante de cette page.
 
-## Navigateur Tor
+<div class="grid" markdown>
 
-<div class="grid cards" markdown>
+<div markdown>
+- [x] **Ad-Free Recommendations**
+- [x] **Frequent Updates**
+- [x] **Trusted by Readers**
+</div>
 
-- ![Logo du navigateur Tor](assets/img/browsers/tor.svg){ .twemoji loading=lazy } [Navigateur Tor](tor.md#tor-browser)
-- ![Logo d'Orbot](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Logo d'Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor pour iOS)](tor.md#onion-browser)
+<div markdown>
+- [x] **Complete Editorial Independence**
+- [x] **Open-Source Contributions**
+- [x] **Trusted by Journalists**
+</div>
 
 </div>
 
-[En savoir plus :material-arrow-right-drop-circle:](tor.md)
+## Private Web Browsers
 
-## Navigateurs web de bureau
+<div class="admonition recommendation" markdown>
 
-<div class="grid cards" markdown>
+![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
 
-- ![Logo de Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Logo de Firefox](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Logo de Brave](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
+**Tor Browser** (Desktop & Android) is the top choice if you need anonymity, as it provides you with access to the **Tor** network, a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
 
-</div>
-
-[En savoir plus :material-arrow-right-drop-circle:](desktop-browsers.md)
-
-## Navigateurs web mobiles
-
-<div class="grid cards" markdown>
-
-- ![Logo de Brave](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave (Android)](mobile-browsers.md#brave)
-- ![Logo de Mull](assets/img/browsers/mull.svg){ .twemoji loading=lazy } [Mull (Android)](mobile-browsers.md#mull)
-- ![Logo de Safari](assets/img/browsers/safari.svg){ .twemoji loading=lazy } [Safari (iOS)](mobile-browsers.md#safari)
+[Read Our Full Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
-[En savoir plus :material-arrow-right-drop-circle:](mobile-browsers.md)
+<div class="grid cards" markdown>
 
-## Extensions de navigateur
+- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Mullvad Browser**
+
+    ---
+
+    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users.
+
+    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
+
+- ![Firefox logo](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
+
+    ---
+
+    **Firefox** is a great Chromium alternative which provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+
+    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
+
+- ![Brave logo](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Brave Browser**
+
+    ---
+
+    **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
+
+    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+
+- ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
+
+    ---
+
+    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
+
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+
+- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+
+    ---
+
+    We recommend **Safari** alongside a tracker-blocker like [AdGuard](browser-extensions.md#adguard) on iOS, because all iOS browsers are forced to be based on Safari anyways. This reduces the number of parties you're required to trust.
+
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
+
+</div>
+
+<div class="grid" markdown>
+
+<div markdown>
+### Browser Extensions
 
 <div class="grid cards" markdown>
 
@@ -59,9 +101,152 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 </div>
 
-[En savoir plus :material-arrow-right-drop-circle:](browser-extensions.md)
+</div>
 
-## Fournisseurs de services
+<div markdown>
+### More Tor Network Tools
+
+<div class="grid cards" markdown>
+
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+
+</div>
+
+</div>
+
+</div>
+
+## Top 3 Private VPN Providers
+
+<details class="danger" markdown>
+<summary>Les VPN ne peuvent pas fournir d'anonymat</summary>
+
+L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
+
+If you are looking for **anonymity**, you should use the Tor Browser.
+
+Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous assurer que vous vous connectez à des sites web utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
+
+[En savoir plus :material-arrow-right-drop-circle:](vpn.md)
+
+</details>
+
+<div class="grid cards" markdown>
+
+- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
+
+    ---
+
+    - [x] **91+ Countries**
+    - [x] WireGuard Support
+    - [x] Cash Payments
+    - [x] Partial Port Forwarding Support
+    - [ ] No IPv6
+
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+
+- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
+
+    ---
+
+    - [x] **37+ Countries**
+    - [x] WireGuard Support
+    - [x] Monero & Cash Payments
+    - [ ] No Port Forwarding
+    - [ ] No IPv6
+
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+
+- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+
+    ---
+
+    - [x] **41+ Countries**
+    - [x] WireGuard Support
+    - [x] Monero & Cash Payments
+    - [ ] No Port Forwarding
+    - [x] IPv6 Support
+
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+
+</div>
+
+## Top 3 Private Email Providers
+
+<div class="grid cards" markdown>
+
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+
+    ---
+
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
+
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
+
+    ---
+
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Les comptes commencent avec 2 Go de stockage, qui peut être mis à niveau au besoin.
+
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
+
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+
+    ---
+
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Les comptes gratuits commencent avec 1 Go de stockage.
+
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
+
+</div>
+
+<div class="grid" markdown>
+
+<div markdown>
+### Email Aliasing Services
+
+<div class="grid cards" markdown>
+
+- ![Logo d'addy.io](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [addy.io](email-aliasing.md#addyio)
+- ![Logo de SimpleLogin](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
+
+</div>
+</div>
+
+<div markdown>
+### Self-Hosting Email
+
+<div class="grid cards" markdown>
+
+- ![Logo de mailcow](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
+- ![Logo de Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
+
+</div>
+</div>
+
+</div>
+
+### Secure Email Clients
+
+<div class="grid cards" markdown>
+
+- ![Logo de Thunderbird](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
+- ![Logo d'Apple Mail](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![Logo de Canary Mail](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
+- ![Logo de FairEmail](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
+- ![Logo de GNOME Evolution](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![Logo de K-9 Mail](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
+- ![Logo de Kontact](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
+- ![Logo de Mailvelope](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP dans un webmail classique)](email-clients.md#mailvelope-browser)
+- ![Logo de NeoMutt](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+
+</div>
+
+[En savoir plus :material-arrow-right-drop-circle:](email-clients.md)
+
+## More Private Service Providers
 
 ### Stockage cloud
 
@@ -104,40 +289,6 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
-
-### Email
-
-<div class="grid cards" markdown>
-
-- ![Logo de Proton Mail](assets/img/email/protonmail.svg){ .twemoji loading=lazy } [Proton Mail](email.md#proton-mail)
-- ![Logo de Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji loading=lazy } [Mailbox.org](email.md#mailboxorg)
-- ![Logo de Tuta](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Logo de Tuta](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
-
-</div>
-
-[En savoir plus :material-arrow-right-drop-circle:](email.md)
-
-#### Services d'alias d'email
-
-<div class="grid cards" markdown>
-
-- ![Logo d'addy.io](assets/img/email-aliasing/addy.svg){ .twemoji loading=lazy } [addy.io](email-aliasing.md#addyio)
-- ![Logo de SimpleLogin](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
-
-</div>
-
-[En savoir plus :material-arrow-right-drop-circle:](email-aliasing.md)
-
-#### Email auto-hébergé
-
-<div class="grid cards" markdown>
-
-- ![Logo de mailcow](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [mailcow](email.md#self-hosting-email)
-- ![Logo de Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#self-hosting-email)
-
-</div>
-
-[En savoir plus :material-arrow-right-drop-circle:](email.md#self-hosting-email)
 
 ### Services financiers
 
@@ -187,31 +338,6 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](search-engines.md)
 
-### Fournisseurs de VPN
-
-<details class="danger" markdown>
-<summary>Les VPN ne peuvent pas fournir d'anonymat</summary>
-
-L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
-
-SI vous recherchez **l'anonymat**, vous devriez utiliser le navigateur Tor **à la place** d'un VPN.
-
-Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous assurer que vous vous connectez à des sites web utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
-
-[En savoir plus :material-arrow-right-drop-circle:](vpn.md)
-
-</details>
-
-<div class="grid cards" markdown>
-
-- ![Logo de Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
-- ![Logo d'IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
-- ![Logo de Mullvad](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
-
-</div>
-
-[En savoir plus :material-arrow-right-drop-circle:](vpn.md)
-
 ## Logiciels
 
 ### Calendriers synchronisés
@@ -259,24 +385,6 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](document-collaboration.md)
-
-### Clients e-mails
-
-<div class="grid cards" markdown>
-
-- ![Logo de Thunderbird](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
-- ![Logo d'Apple Mail](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![Logo de Canary Mail](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
-- ![Logo de FairEmail](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![Logo de GNOME Evolution](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
-- ![Logo de K-9 Mail](assets/img/email-clients/k9mail.svg){ .twemoji loading=lazy } [K-9 Mail (Android)](email-clients.md#k-9-mail-android)
-- ![Logo de Kontact](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Logo de Mailvelope](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP dans un webmail classique)](email-clients.md#mailvelope-browser)
-- ![Logo de NeoMutt](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
-
-</div>
-
-[En savoir plus :material-arrow-right-drop-circle:](email-clients.md)
 
 ### Logiciels de chiffrement
 
@@ -468,7 +576,7 @@ Pour chiffrer le disque de votre système d'exploitation, nous vous recommandons
 
 <div class="grid cards" markdown>
 
-- ![Google Pixel 6](../assets/img/android/google-pixel.png){ .twemoji loading=lazy } [Google Pixel](mobile-phones.md#google-pixel)
+- ![Google Pixel 6](assets/img/android/google-pixel.png){ .twemoji loading=lazy } [Google Pixel](mobile-phones.md#google-pixel)
 
 </div>
 

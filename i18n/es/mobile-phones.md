@@ -56,7 +56,7 @@ Google Pixel phones are the **only** devices we recommend for purchase. Pixel ph
 
 <div class="admonition recommendation" markdown>
 
-![Google Pixel 6](../assets/img/android/google-pixel.png){ align=right }
+![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
 
 **Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
 
@@ -83,7 +83,7 @@ A few more tips for purchasing a Google Pixel:
 
 ## Criterios
 
-**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 - Must support at least one of our recommended custom operating systems.
 - Must be currently sold new in stores.

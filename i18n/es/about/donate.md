@@ -1,9 +1,11 @@
 ---
-title: Supporting Us
+title: Donate
 ---
 
 <!-- markdownlint-disable MD036 -->
-Se necesitan muchas [personas](contributors.md) y [trabajo](https://github.com/privacyguides/privacyguides.org/pulse/monthly) para mantener actualizado Privacy Guides y difundir la palabra sobre la privacidad y la vigilancia masiva. Si te gusta lo que hacemos, considera formar parte [editando el sitio web](https://github.com/privacyguides/privacyguides.org) o [contribuyendo a las traducciones](https://crowdin.com/project/privacyguides).
+Donate to Privacy Guides and support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
+
+Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a **non-profit, community-driven** project that would not be possible without the generous support of all our [contributors](contributors.md).
 
 ## Donate
 
@@ -11,7 +13,37 @@ Currently, the best way to support our work is to send a monthly or one-time con
 
 [:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
 
-We are also working with our fiscal host to receive cryptocurrency donations, at the moment the accounting is unfeasible for many smaller transactions, but this should change in the near future. In the meantime, if you still wish to make a cryptocurrency donation, please reach out to [jonah@privacyguides.org](mailto:jonah@privacyguides.org) to arrange a transaction.
+A new donation platform we control to make donating easier will be deployed soon. In the meantime, if you'd like to arrange a donation (including with cryptocurrency), please reach out to [info@magicgrants.org](mailto:info@magicgrants.org).
+
+## Como usamos las donaciones
+
+Privacy Guides es una organización **sin ánimos de lucro**. Utilizamos las donaciones para diversos fines, entre ellos:
+
+**Alojamiento web**
+:
+
+El tráfico de este sitio web utiliza cientos de gigabytes de datos al mes, utilizamos una variedad de proveedores de servicios para mantener este tráfico.
+
+**Domain Registrations**
+:
+
+We have a few domain names like `privacyguides.org` which cost us around $10 yearly to maintain their registration.
+
+**Servicios en línea**
+:
+
+We host [internet services](services.md) for testing and showcasing different privacy-products we like and [recommend](../tools.md). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+
+**Compras de productos**
+:
+
+Ocasionalmente compramos productos y servicios con el fin de probar nuestras [herramientas recomendadas](../tools.md).
+
+Your donation will go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+
+¡Gracias a todos los que apoyan nuestra misión! :material-heart:{ .pg-red }
+
+We strictly **cannot** use donations to support political campaigns/candidates or attempt to influence legislation. Earnings also will **not** inure to the benefit of any private shareholder or individual.
 
 ## Merchandise
 
@@ -19,30 +51,6 @@ Otra opción para apoyarnos es comprar nuestra mercadería en HelloTux. Nosotros
 
 [Compra en HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-## Como usamos las donaciones
+## Non-Financial Support
 
-Privacy Guides es una organización **sin ánimos de lucro**. Utilizamos las donaciones para diversos fines, entre ellos:
-
-**Registro del dominio**
-:
-
-Tenemos algunos nombres de dominio como `privacyguides.org` los cuales nos cuestan alrededor de 10 dólares al año para mantener su registro.
-
-**Alojamiento web**
-:
-
-El tráfico de este sitio web utiliza cientos de gigabytes de datos al mes, utilizamos una variedad de proveedores de servicios para mantener este tráfico.
-
-**Servicios en línea**
-:
-
-Alojamos [servicios de internet](https://privacyguides.net) para probar y mostrar diferentes productos de privacidad que nos gustan y [recomendamos](../tools.md). Algunos de ellos están disponibles públicamente para el uso de nuestra comunidad (SearXNG, Tor, etc.), y otros se proporcionan a los miembros de nuestro equipo (correo electrónico, etc.).
-
-**Compras de productos**
-:
-
-Ocasionalmente compramos productos y servicios con el fin de probar nuestras [herramientas recomendadas](../tools.md).
-
-Your donation will go to a dedicated fund within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
-
-¡Gracias a todos los que apoyan nuestra misión! :material-heart:{ .pg-red }
+It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org), [joining our forum](https://discuss.privacyguides.net), or [contributing translations](https://crowdin.com/project/privacyguides).

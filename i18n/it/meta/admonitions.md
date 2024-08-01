@@ -188,7 +188,7 @@ Questo formato viene utilizzato per generare schede di raccomandazione. In parti
 
 ![Logo PhotoPrism](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. Supporta la sincronizzazione e condivisione degli album, nonché una varietà di altre [funzionalità](https://photoprism.app/features). Non include E2EE, quindi è meglio che sia ospitato su un server di fiducia e che sia sotto il tuo controllo.
+**PhotoPrism** is a self-hostable platform for managing photos. Supporta la sincronizzazione e condivisione degli album, nonché una varietà di altre [funzionalità](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Pagina iniziale](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Politica sulla privacy" }
