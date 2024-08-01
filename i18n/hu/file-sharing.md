@@ -88,9 +88,9 @@ A **FreedomBox** egy operációs rendszer, amelyet [single-board számítógépe
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](assets/img/cloud/nextcloud.svg){ align=right }
+![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
 
-A **Nextcloud** egy ingyenes és nyílt forráskódú kliens-szerver szoftvercsomag, amellyel saját fájltárhely-szolgáltatásokat hozhatsz létre egy privát általad ellenőrzött szerveren.
+**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }

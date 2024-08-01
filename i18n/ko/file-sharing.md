@@ -88,9 +88,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud 로고](assets/img/productivity/nextcloud.svg){ align=right }
+![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
 
-**Nextcloud**는 사용자가 관리하는 개인 서버에서 자기만의 파일 호스팅 서비스를 구축할 수 있는 무료 오픈 소스 클라이언트-서버 소프트웨어 제품군입니다.
+**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
 [:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }

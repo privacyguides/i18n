@@ -16,7 +16,7 @@ Privacy Guides garandeert evenmin dat deze website voortdurend beschikbaar zal z
 
 <div class="admonition danger" markdown>
 
-Het volgende is een menselijk leesbare samenvatting van (en geen vervanging voor) de licentie).
+The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 

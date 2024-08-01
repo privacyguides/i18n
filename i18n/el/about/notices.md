@@ -16,7 +16,7 @@ title: "Σημειώσεις και αποποίηση ευθυνών"
 
 <div class="admonition danger" markdown>
 
-Τα παρακάτω αποτελούν μια ευανάγνωστη περίληψη (και όχι υποκατάστατο) της [άδειας](/άδειας).
+The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 

@@ -16,7 +16,7 @@ Privacy Guides בנוסף אינם מתחייבים כי אתר זה יהיה ז
 
 <div class="admonition danger" markdown>
 
-להלן סיכום הניתן לקריאה על ידי אדם של (ולא תחליף ל) ה-[רישיון](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 

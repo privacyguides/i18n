@@ -16,7 +16,7 @@ Privacy Guides is an open-source project contributed to under licenses that incl
 
 <div class="admonition danger" markdown>
 
-본 내용은 [라이선스 본문](/license)을 읽기 편하게 정리한 것입니다. 실제 효력은 라이선스 본문을 따릅니다.
+The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 

@@ -16,7 +16,7 @@ Privacy Guides garantiert außerdem nicht, dass diese Webseite ständig oder üb
 
 <div class="admonition danger" markdown>
 
-Das Folgende ist eine für Menschen leicht verständliche Zusammenfassung (und kein Ersatz) der [Lizenz](/license).
+The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 

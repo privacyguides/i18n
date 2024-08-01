@@ -16,7 +16,7 @@ Privacy Guides 是一個開放原始碼專案，貢獻有授權保護，包括�
 
 <div class="admonition danger" markdown>
 
-以下是人類可讀的[授權](/license)摘要(但無法替代授權內容)。
+The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 
