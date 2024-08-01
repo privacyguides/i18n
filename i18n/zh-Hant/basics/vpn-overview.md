@@ -47,7 +47,7 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 ## 何時不適合用 VPN？
 
-如果在線上使用[現實生活或眾所周知的身份](common-misconceptions.md#complicated-is-better)，那麼 VPN 不太可能有用。 這樣做可能會觸發垃圾郵件和欺詐偵測系統，例如您正試圖登入銀行網站。
+Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. 這樣做可能會觸發垃圾郵件和欺詐偵測系統，例如您正試圖登入銀行網站。
 
 重要的是請記住，VPN 不會提供絕對的匿名性，因為 VPN 提供者本身仍然會看到用戶的真實 IP 位址、目的地網站資訊，並且通常有可以直接連結回用戶的資金軌跡。 不能僅靠「不記錄」政策指望任何有能力者來保護資料。 如果需要網路本身的完全安全，請考慮使用 [Tor](../advanced/tor-overview.md) 作為 VPN 的補充或替代。
 

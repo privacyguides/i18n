@@ -47,7 +47,7 @@ Le VPN non possono criptare i dati al di fuori della connessione tra il tuo disp
 
 ## Quando non è adatta una VPN?
 
-L'uso di una VPN nei casi in cui utilizzi la tua [vera identità o un'identità già conosciuta](common-misconceptions.md#complicated-is-better) online è improbabile che sia utile. In questo modo si possono attivare sistemi di spam e di rilevamento delle frodi, come nel caso in cui si acceda al sito web della propria banca.
+Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. In questo modo si possono attivare sistemi di spam e di rilevamento delle frodi, come nel caso in cui si acceda al sito web della propria banca.
 
 È importante ricordare che una VPN non ti fornirà l'anonimato assoluto, poiché il provider VPN stesso vedrà comunque il tuo indirizzo IP reale, le informazioni sul sito web di destinazione e spesso ha una traccia di denaro che può essere collegata direttamente a te. Non puoi fare affidamento sulle politiche di "nessuna registrazione" per proteggere i tuoi dati da chiunque sia in grado di farlo. Se hai bisogno di una sicurezza totale dalla rete stessa, considera l'utilizzo di [Tor](../advanced/tor-overview.md) in aggiunta o al posto di una VPN.
 

@@ -43,7 +43,7 @@ VPNs não podem criptografar dados fora da conexão entre o seu dispositivo e o 
 
 ## Quando uma VPN não é apropriada?
 
-É pouco provável que a utilização de uma VPN seja útil nos casos em que utiliza a sua [identidade](common-threats.md#common-misconceptions). Fazê-lo pode acionar sistemas de detecção de fraude e “spam”, como se você logasse no site do seu banco.
+Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. Fazê-lo pode acionar sistemas de detecção de fraude e “spam”, como se você logasse no site do seu banco.
 
 É importante lembrar que uma VPN não lhe proporcionará anonimato absoluto, pois o próprio provedor de VPN ainda verá seu endereço IP real, as informações do site de destino e, muitas vezes, tem um rastro de dinheiro que pode ser vinculado diretamente a você. Não é possível confiar em políticas de "não registro" para proteger seus dados de qualquer pessoa que possa protegê-los. Se você precisar de segurança total da própria rede, considere o uso do [Tor](../advanced/tor-overview.md), além ou em vez de uma VPN.
 

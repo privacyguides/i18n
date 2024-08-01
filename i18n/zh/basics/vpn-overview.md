@@ -47,7 +47,7 @@ VPNs cannot encrypt data outside the connection between your device and the VPN 
 
 ## When isn't a VPN suitable?
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely be useful. 这样做可能会触发垃圾邮件和欺诈检测系统，例如，如果你要登录银行的网站。
+Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. 这样做可能会触发垃圾邮件和欺诈检测系统，例如，如果你要登录银行的网站。
 
 It's important to remember that a VPN will not provide you with absolute anonymity, because the VPN provider itself will still see your real IP address, destination website information, and often has a money trail that can be linked directly back to you. You can't rely on "no logging" policies to protect your data from anyone who is able to protect. If you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
 
