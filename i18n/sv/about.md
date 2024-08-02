@@ -1,5 +1,5 @@
 ---
-title: About Privacy Guides
+title: Om Privacy Guides
 description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org

@@ -157,7 +157,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 ---
 
-## About Privacy Guides
+## Om Privacy Guides
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 

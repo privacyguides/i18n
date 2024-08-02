@@ -91,7 +91,7 @@ Om du vill ha mer information om varje projekt, varför de valdes ut och ytterli
 <div class="grid" markdown>
 
 <div markdown>
-### Browser Extensions
+### Webbläsartillägg
 
 <div class="grid cards" markdown>
 
