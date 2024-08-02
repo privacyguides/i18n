@@ -20,7 +20,7 @@ Esistono alcune notevoli preoccupazioni sulla privacy con Linux, di cui dovresti
 
 ### Sicurezza Open Source
 
-È una convinzione [comunemente errata](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) che Linux e altri software open source siano intrinsecamente sicuri semplicemente perché il codice sorgente è disponibile. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
+It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
 
 In realtà, la sicurezza della distribuzione dipende da numerosi fattori, come l'attività del progetto, l'esperienza dello sviluppatore, il livello di rigore applicato alle revisioni del codice e quanto spesso è data attenzione a parti specifiche della base di codice, che potrebbero non essere toccate per anni.
 
@@ -30,7 +30,7 @@ Al momento, il desktop Linux [è indietro rispetto alle alternative](https://dis
 
 - L'**avvio verificato** su Linux non è robusto come le alternative, quali l'[Avvio Sicuro](https://support.apple.com/guide/security/secac71d5623/web) di Apple o l'[Avvio Verificato](https://source.android.com/security/verifiedboot) di Android. L'avvio verificato impedisce la manomissione persistente da parte di malware e da [attacchi evil maid](https://en.wikipedia.org/wiki/Evil_Maid_attack), ma è ancora in gran parte [non disponibile, anche sulle distribuzioni più avanzate](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
-- Il **sandboxing forte** per le app su Linux è fortemente carente, anche con app containerizzate, come Flatpaks, o le soluzioni di sandbox, come Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which allow most apps to trivially bypass their sandbox.
+- Il **sandboxing forte** per le app su Linux è fortemente carente, anche con app containerizzate, come Flatpaks, o le soluzioni di sandbox, come Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
 
 Inoltre, Linux è in ritardo nell'implementazione delle [mitigazioni di exploit](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations), che sono ora lo standard sugli altri sistemi operativi, come Arbitrary Code Guard su Windows o Hardened Runtime su macOS. Inoltre, gran parte dei programmi per Linux e Linux stesso sono programmati in linguaggi non sicuri per la memoria. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. Sebbene ciò sia vero anche per Windows e per macOS, stanno rapidamente facendo progressi nell'adottare linguaggi sicuri per la memoria, come Rust e Swift, rispettivamente, mentre non sembra esistere un simile sforzo per la riscrittura di Linux in un linguaggio sicuro per la memoria, come Rust.
 
@@ -42,7 +42,7 @@ Non tutte le distribuzioni Linux sono uguali. La nostra [pagina di consigli per 
 
 Ti consigliamo vivamente di scegliere le distribuzioni che restano vicine alle release stabili a monte del software, spesso note come distribuzioni a rilascio continuo. Questo perché le distribuzioni a rilascio congelato, spesso, non aggiornano le versioni dei pacchetti e restano indietro con gli aggiornamenti di sicurezza.
 
-For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Alcune correzioni di sicurezza [non](https://arxiv.org/abs/2105.14565) ricevono affatto un [ID CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (software particolarmente meno popolare) e, dunque, non arrivano alla distribuzione con questo modello di correzione. As a result, minor security fixes are sometimes held back until the next major release.
+For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes (particularly for less popular software) [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) at all and therefore do not make it into the distribution with this patching model. As a result, minor security fixes are sometimes held back until the next major release.
 
 Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una buona idea, poiché si discosta dal modo in cui lo sviluppatore avrebbe voluto che il software funzionasse. [Richard Brown](https://rootco.de/aboutme) has a presentation about this:
 
@@ -50,15 +50,13 @@ Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una bu
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Le versioni regolari sono sbagliate; rilasci continui per la vita!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Aggiornamenti tradizionali vs Atomici
+### Traditional vs Atomic Updates
 
-Tradizionalmente, le distribuzioni di Linux si aggiornano tramite l'aggiornamento sequenziale dei pacchetti desiderati. Gli aggiornamenti tradizionali, come quelli utilizzati sulle distribuzioni basate su Fedora, Arch Linux e Debian, possono essere meno affidabili se si verifica un errore durante l'aggiornamento.
+Tradizionalmente, le distribuzioni di Linux si aggiornano tramite l'aggiornamento sequenziale dei pacchetti desiderati. Traditional updates such as those used in Fedora, Arch Linux, and Debian-based distributions can be less reliable if an error occurs while updating.
 
-Le distribuzioni ad aggiornamento atomico applicano gli aggiornamenti completi, o non li applicano affatto. Tipicamente, i sistemi di aggiornamento transazionali sono anch'essi atomici.
+Atomic updating distributions, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
 
-Un sistema ad aggiornamento transazionale crea un'istantanea prima e dopo l'applicazione di un aggiornamento. Se un aggiornamento fallisce in qualsiasi momento (forse a causa di un guasto elettrico), l'aggiornamento è facilmente ripristinabile a un "ultimo buono stato noto."
-
-Il metodo di aggiornamento atomico è usato per [distribuzioni](../desktop.md#atomic-distributions) immutabili come Silverblue, Tumbleweed e NixOS e può raggiungere l'affidabilità con questo modello. [Adam Šamalík](https://twitter.com/adsamalik) ha fornito una presentazione sul funzionamento di `rpm-ostree` con Silverblue:
+The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) ha fornito una presentazione sul funzionamento di `rpm-ostree` con Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Proviamo Fedora Silverblue: un OS desktop immutabile! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -70,13 +68,13 @@ Spesso si fa confusione tra distribuzioni "incentrate sulla sicurezza" e distrib
 
 ### Distribuzioni basate su Arch
 
-Arch e le distribuzioni basate su Arch sono sconsigliate per coloro che sono alle prime armi con Linux (indipendentemente dalla distribuzione), poiché richiedono una regolare [manutenzione del sistema](https://wiki.archlinux.org/title/System_maintenance). Arch non dispone di un meccanismo di aggiornamento della distribuzione, per le scelte software sottostanti. Di conseguenza, devi tenerti aggiornato con le tendenze attuali e adottare tecnologie, a mano a mano che sostituiscono le vecchie pratiche.
+Arch e le distribuzioni basate su Arch sono sconsigliate per coloro che sono alle prime armi con Linux (indipendentemente dalla distribuzione), poiché richiedono una regolare [manutenzione del sistema](https://wiki.archlinux.org/title/System_maintenance). Arch non dispone di un meccanismo di aggiornamento della distribuzione, per le scelte software sottostanti. As a result you have to stay aware with current trends and adopt technologies on your own as they supersede older practices.
 
 Per avere un sistema sicuro, si suppone che tu abbia una conoscenza sufficiente di Linux per configurarne adeguatamente la sicurezza, come adottando un sistema di [controllo obbligatorio dell'accesso](https://en.wikipedia.org/wiki/Mandatory_access_control), configurando liste nere del [modulo del kernel](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), rafforzando la sicurezza dei parametri d'avvio, manipolando i parametri [sysctl](https://en.wikipedia.org/wiki/Sysctl) e conoscendo quali componenti necessitano, come [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
 Chiunque utilizzi il [Repository di Arch User (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **deve** essere a proprio agio nel controllare i PKGBUILD che scarica da tale servizio. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software supply chain attacks, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
 
-L'AUR dovrebbe sempre essere utilizzata con parsimonia e, spesso, esistono molti cattivi consigli, su varie pagine, che indirizzano le persone a utilizzare ciecamente gli [aiutanti AUR](https://wiki.archlinux.org/title/AUR_helpers), senza avvertimenti sufficienti. Simili avvertenze si applicano all'utilizzo di Archivi di Pacchetti Personali (PPA) di terze parti sulle distribuzioni basate su Debian, o dei Progetti della Community (COPR) su Fedora.
+L'AUR dovrebbe sempre essere utilizzata con parsimonia e, spesso, esistono molti cattivi consigli, su varie pagine, che indirizzano le persone a utilizzare ciecamente gli [aiutanti AUR](https://wiki.archlinux.org/title/AUR_helpers), senza avvertimenti sufficienti. Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
 
 Se sei esperto con Linux e vorresti utilizzare una distribuzione basata su Arch, consigliamo generalmente la linea principale di Arch Linux, rispetto a qualsiasi suo derivato.
 
@@ -105,9 +103,9 @@ Se richiedi la funzionalità di sospensione su disco (ibernazione), dovresti com
 
 ### Wayland
 
-We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). Il suo predecessore ([X11](https://en.wikipedia.org/wiki/X_Window_System)) non supporta l'isolamento della GUI, che consente a qualsiasi finestra di [registrare e iniettare input in altre finestre](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), rendendo futile qualsiasi tentativo di sandboxing. Sebbene esistano delle opzioni per eseguire X11 nidificato, quali [Xpra](https://en.wikipedia.org/wiki/Xpra) o [Xephyr](https://en.wikipedia.org/wiki/Xephyr), queste, spesso, presentano delle conseguenze negative sulle prestazioni e non sono né comode da configurare, né preferibili a Wayland.
+We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). Il suo predecessore ([X11](https://en.wikipedia.org/wiki/X_Window_System)) non supporta l'isolamento della GUI, che consente a qualsiasi finestra di [registrare e iniettare input in altre finestre](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), rendendo futile qualsiasi tentativo di sandboxing.
 
-Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). Se stai utilizzando uno di questi ambienti è molto facile, basta selezionare la sessione “Wayland” nel gestore dello schermo del desktop([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments, it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 **Sconsigliamo** di usare ambienti desktop o gestori di finestre che non hanno il supporto per Wayland, come Cinnamon (è di default su Linux Mint), Pantheon (è di default su Elementary OS), MATE, Xfce, e i3.
 
@@ -115,7 +113,7 @@ Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protoc
 
 Alcune distribuzioni di Linux (come le distribuzioni fai da te o basate su [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)), non dispongono degli aggiornamenti proprietari al [microcodice](https://en.wikipedia.org/wiki/Microcode), che correggono le vulnerabilità di sicurezza critiche. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-**Consigliamo vivamente** che installi gli aggiornamenti al microcodice, poiché contengono importanti correzioni di sicurezza per la CPU, che non sono completamente mitigabili dal solo software. Sia Fedora che openSUSE hanno gli aggiornamenti del microcodice applicati di default.
+**Consigliamo vivamente** che installi gli aggiornamenti al microcodice, poiché contengono importanti correzioni di sicurezza per la CPU, che non sono completamente mitigabili dal solo software. Fedora and openSUSE both apply microcode updates by default.
 
 ### Aggiornamenti
 

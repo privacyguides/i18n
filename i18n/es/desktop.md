@@ -17,7 +17,7 @@ Las distribuciones de Linux se recomiendan comúnmente para la protección de la
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** es nuestra distribución recomendada para la gente nueva en Linux. Por lo general, Fedora adopta nuevas tecnologías antes de otras distribuciones. Por ejemplo, [Wayland](https://wayland.freedesktop.org), [PipeWire](https://pipewire.org). Estas nuevas tecnologías suelen venir acompañadas de mejoras en la seguridad, la privacidad y la usabilidad en general.
+**Fedora Workstation** es nuestra distribución recomendada para la gente nueva en Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org). Estas nuevas tecnologías suelen venir acompañadas de mejoras en la seguridad, la privacidad y la usabilidad en general.
 
 [:octicons-home-16: Página principal](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentación}
@@ -37,7 +37,7 @@ Fedora tiene un ciclo de lanzamientos semicontinuo. Mientras algunos paquetes co
 
 **openSUSE Tumbleweed** es una distribución estable con actualización continua.
 
-openSUSE Tumbleweed tiene un sistema de [actualización transaccional](https://kubic.opensuse.org/blog/2018-04-04-transactionalupdates) que usa [Btrfs](https://en.wikipedia.org/wiki/Btrfs) y [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) para garantizar que las copias instantáneas pueden revertirse cuando suceda algún problema.
+openSUSE Tumbleweed uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
 
 [:octicons-home-16: Página principal](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
 [:octicons-info-16:](https://doc.opensuse.org){ .card-link title=Documentación}
@@ -55,7 +55,7 @@ Tumbleweed sigue un modelo de actualización continua en el que cada actualizaci
 
 ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
 
-**Arch Linux** es una distribución ligera del estilo "hágalo usted mismo" (DIY), lo que significa que sólo obtiene lo que instala. Para obtener más información, consulte su [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
+**Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. Para obtener más información, consulte su [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
 [:octicons-home-16: Página Principal](https://archlinux.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.archlinux.org){ .card-link title=Documentación}
@@ -73,7 +73,7 @@ Gran parte de los [paquetes de Arch Linux](https://reproducible.archlinux.org) s
 
 ## Distribuciones Atómicas
 
-**Las distribuciones atómicas** (a veces también denominadas **distribuciones inmutables**) son sistemas operativos que gestionan la instalación y actualización de paquetes superponiendo cambios sobre la imagen central del sistema, en lugar de modificarlo directamente. Esto tiene ventajas como una mayor estabilidad y la posibilidad de revertir fácilmente las actualizaciones. Consulte [*Actualizaciones tradicionales vs. Atómicas*](os/linux-overview.md#traditional-vs-atomic-updates) para obtener más información.
+**Las distribuciones atómicas** (a veces también denominadas **distribuciones inmutables**) son sistemas operativos que gestionan la instalación y actualización de paquetes superponiendo cambios sobre la imagen central del sistema, en lugar de modificarlo directamente. Advantages of atomic distros include increased stability and the ability to easily roll back updates. Consulte [*Actualizaciones tradicionales vs. Atómicas*](os/linux-overview.md#traditional-vs-atomic-updates) para obtener más información.
 
 ### Fedora Atomic Desktops
 
@@ -91,15 +91,15 @@ Gran parte de los [paquetes de Arch Linux](https://reproducible.archlinux.org) s
 
 </div>
 
-Los [Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) vienen en una variedad de sabores dependiendo del entorno de escritorio que prefieras, como **Fedora Silverblue** (que viene con [GNOME](https://gnome.org)), **Fedora Kinoite**, (que viene con [KDE](https://kde.org)), **Fedora Sway Atomic**, o **Fedora Budgie Atomic**. Sin embargo, no recomendamos la última de ellas, ya que el entorno de escritorio Budgie [sigue necesitando X11](https://buddiesofbudgie.org/blog/wayland).
+[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://gnome.org)), **Fedora Kinoite** (which comes with [KDE](https://kde.org)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. Sin embargo, no recomendamos la última de ellas, ya que el entorno de escritorio Budgie [sigue necesitando X11](https://buddiesofbudgie.org/blog/wayland).
 
 Estos sistemas operativos difieren de Fedora Workstation en que sustituyen el gestor de paquetes [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) por una alternativa mucho más avanzada denominada [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree). El gestor de paquetes `rpm-ostree` funciona descargando una imagen base para el sistema, y luego superponiendo paquetes sobre ella en un árbol de commit [git](https://en.wikipedia.org/wiki/Git)-like. Cuando se actualice el sistema, se descargará una nueva imagen base y las superposiciones se aplicarán a esa nueva imagen.
 
-Una vez completada la actualización, reiniciarás el sistema con la nueva implementación. `rpm-ostree` mantiene dos despliegues del sistema para que puedas revertir fácilmente si algo se rompe en la nueva implementación. También existe la opción de anclar más implementaciones según sea necesario.
+Una vez completada la actualización, reiniciarás el sistema con la nueva implementación. `rpm-ostree` keeps two deployments of the system so that you can easily roll back if something breaks in the new deployment. También existe la opción de anclar más implementaciones según sea necesario.
 
 [Flatpak](https://flatpak.org) es el método principal de instalación de paquetes en estas distribuciones, ya que `rpm-ostree` solo está pensado para superponer paquetes que no pueden permanecer dentro de un contenedor sobre la imagen base.
 
-Como alternativa a Flatpaks, existe la opción de [Toolbox](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) para crear contenedores [Podman](https://podman.io) con un directorio raíz compartido con el sistema operativo anfitrión e imitar un entorno Fedora tradicional, lo cual es una [característica útil](https://containertoolbx.org) para el desarrollador exigente.
+As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) to create [Podman](https://podman.io) containers which mimic a traditional Fedora environment, a [useful feature](https://containertoolbx.org) for the discerning developer. These containers share a home directory with the host operating system.
 
 ### NixOS
 
@@ -119,9 +119,9 @@ NixOS es una distribución independiente basada en el gestor de paquetes Nix y c
 
 El gestor de paquetes de NixOS guarda cada versión de cada paquete en una carpeta diferente del almacén **Nix**. Debido a esto, puedes tener diferentes versiones del mismo paquete instalado en tu sistema. Después de escribir el contenido del paquete en la carpeta, esta pasa a ser de solo lectura.
 
-NixOS también proporciona actualizaciones atómicas; primero descarga (o construye) los paquetes y archivos para la nueva generación del sistema y luego cambia a ella. Hay diferentes maneras de cambiar a una nueva generación; puedes decirle a NixOS que la active después de reiniciar o puedes cambiar a ella durante el tiempo de ejecución. También puedes *probar* la nueva generación cambiando a ella durante el tiempo de ejecución, pero sin establecerla como la generación actual del sistema. Si algo en el proceso de actualización se rompe, puedes simplemente reiniciar y automáticamente volver a una versión de trabajo de tu sistema.
+NixOS also provides atomic updates. It first downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot or you can switch to it at runtime. También puedes *probar* la nueva generación cambiando a ella durante el tiempo de ejecución, pero sin establecerla como la generación actual del sistema. Si algo en el proceso de actualización se rompe, puedes simplemente reiniciar y automáticamente volver a una versión de trabajo de tu sistema.
 
-El gestor de paquetes Nix utiliza un lenguaje puramente funcional -que también se llama Nix- para definir paquetes.
+The Nix package manager uses a purely functional language—which is also called Nix—to define packages.
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (la fuente principal de paquetes) se encuentra en un único repositorio de GitHub. También puedes definir tus propios paquetes en el mismo idioma e incluirlos fácilmente en tu configuración.
 
@@ -148,7 +148,7 @@ Nix es un gestor de paquetes basado en el código fuente; si no hay ningún paqu
 
 Whonix está pensado para funcionar como dos máquinas virtuales: una "Estación de Trabajo" y una "Puerta de Enlace" Tor. Todas las comunicaciones desde la Estación de Trabajo deben pasar por la puerta de enlace Tor. Esto significa que incluso si la Estación de Trabajo se ve comprometida por algún tipo de malware, la verdadera dirección IP permanecerá oculta.
 
-Algunas de sus características incluyen Tor Stream Isolation, [anonimización de pulsaciones de teclas](https://whonix.org/wiki/Keystroke_Deanonymization#Kloak), [swap encriptado](https://github.com/Whonix/swap-file-creator) y un asignador de memoria endurecido. Las futuras versiones de Whonix probablemente incluirán [políticas AppArmor para todo el sistema](https://github.com/Whonix/apparmor-profile-everything) y un [lanzador de aplicaciones en entorno aislado](https://whonix.org/wiki/Sandbox-app-launcher) para confinar completamente todos los procesos del sistema.
+Algunas de sus características incluyen Tor Stream Isolation, [anonimización de pulsaciones de teclas](https://whonix.org/wiki/Keystroke_Deanonymization#Kloak), [swap encriptado](https://github.com/Whonix/swap-file-creator) y un asignador de memoria endurecido. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/roddhjav/apparmor.d) and a [sandboxed app launcher](https://whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
 
 Whonix se utiliza mejor [junto con Qubes](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). Tenemos una [guía recomendada](os/qubes-overview.md#connecting-to-tor-via-a-vpn) sobre la configuración de Whonix junto con una VPN ProxyVM en Qubes para ocultar tus actividades Tor de tu ISP.
 
@@ -175,7 +175,7 @@ Tails [no borra](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) la [me
 
 </div>
 
-Tails es genial contra el análisis forense debido a la amnesia (lo que significa que no se escribe nada en el disco); sin embargo, no es una distribución endurecida como Whonix. Carece de muchas de las funciones de anonimato y seguridad que tiene Whonix y se actualiza con mucha menos frecuencia (solo una vez cada seis semanas). Un sistema Tails comprometido por malware puede potencialmente eludir el proxy transparente permitiendo que el usuario sea desanonimizado.
+Tails es genial contra el análisis forense debido a la amnesia (lo que significa que no se escribe nada en el disco); sin embargo, no es una distribución endurecida como Whonix. Carece de muchas de las funciones de anonimato y seguridad que tiene Whonix y se actualiza con mucha menos frecuencia (solo una vez cada seis semanas). A Tails system that is compromised by malware may potentially bypass the transparent proxy, allowing for the user to be deanonymized.
 
 Tails includes [uBlock Origin](browser-extensions.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. Las máquinas virtuales de [Whonix](desktop.md#whonix) pueden ser más a prueba de fugas, sin embargo no son amnésicas, lo que significa que los datos pueden ser recuperados de su dispositivo de almacenamiento.
 
@@ -208,7 +208,7 @@ Para más información sobre el funcionamiento de Qubes, consulta nuestra págin
 
 ### Kicksecure
 
-Aunque [desaconsejamos](os/linux-overview.md#release-cycle) distribuciones "perpetuamente obsoletas", como Debian para uso de escritorio, en la mayoría de los casos, Kicksecure es un sistema operativo basado en Debian que ha sido reforzado para ser mucho más que una instalación típica de Linux.
+While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
 
 <div class="admonition recommendation" markdown>
 
@@ -233,7 +233,7 @@ La elección de una distribución Linux adecuada para ti dependerá de una gran 
 - Gratis y de código abierto.
 - Recibe actualizaciones periódicas del software y del kernel.
 - [Evita X11](os/linux-overview.md#wayland).
-    - La excepción notable aquí es Qubes, pero los problemas de aislamiento que X11 suele tener se evitan con la virtualización. Este aislamiento sólo se aplica a las aplicaciones *que se ejecutan en qubes diferentes* (máquinas virtuales), las aplicaciones que se ejecutan en el *mismo* qube no están protegidas entre sí.
+    - La excepción notable aquí es Qubes, pero los problemas de aislamiento que X11 suele tener se evitan con la virtualización. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - Admite el cifrado de disco completo durante la instalación.
 - No congela las publicaciones periódicas durante más de 1 año.
     - Nosotros [no recomendamos](os/linux-overview.md#release-cycle) distribuciones "Long Term Support (Soporte a Largo Plazo)" o "stable (estable)" para uso de escritorio.

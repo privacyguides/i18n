@@ -20,7 +20,7 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 ### Open-Source Security
 
-זוהי [תפיסה שגויה נפוצה](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) שלינוקס ותוכנות קוד פתוח אחרות מאובטחות מטבען פשוט בגלל שקוד המקור זמין. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
+It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
 
 במציאות, אבטחת הפצה תלויה במספר גורמים, כגון פעילות הפרויקט, חווית מפתח, רמת הקפדנות המופעלת על ביקורות קוד, וכמה פעמים ניתנת תשומת לב לחלקים ספציפיים של בסיס הקוד שעלולים להישאר ללא נגיעה במשך שנים.
 
@@ -30,7 +30,7 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 - **אתחול מאומת** בלינוקס אינו חזק כמו חלופות כגון [אתחול מאובטח של אפל](https://support.apple.com/guide/security/secac71d5623/web) או [אתחול מאומת](https://source.android.com/security/verifiedboot) של אנדרואיד. אתחול מאומת מונע התעסקות מתמשכת על ידי תוכנות זדוניות ו[התקפות עוזרות מרושעות](https://en.wikipedia.org/wiki/Evil_Maid_attack), אך הוא עדיין ברובו [לא זמין אפילו בהפצות המתקדמות ביותר](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
-- **ארגז חול חזק** עבור אפליקציות בלינוקס חסר מאוד, אפילו עם אפליקציות מכולות כמו Flatpaks או פתרונות ארגז חול כמו Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which allow most apps to trivially bypass their sandbox.
+- **ארגז חול חזק** עבור אפליקציות בלינוקס חסר מאוד, אפילו עם אפליקציות מכולות כמו Flatpaks או פתרונות ארגז חול כמו Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
 
 בנוסף, לינוקס מפגרת בהטמעת [הפחתות ניצול](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) אשר כעת סטנדרטיות במערכות הפעלה אחרות, כגון Code Guard שרירותי ב-Windows או Hardened Runtime ב-macOS. כמו כן, רוב תוכניות הלינוקס ולינוקס עצמה מקודדות בשפות שאינן בטוחות בזיכרון. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. למרות שזה נכון גם עבור Windows ו-macOS, הם מתקדמים במהירות באימוץ שפות בטוחות לזיכרון - כמו Rust ו- Swift, בהתאמה - בעוד שאין מאמץ דומה לשכתב את לינוקס בשפה בטוחה לזיכרון כמו Rust.
 
@@ -42,7 +42,7 @@ description: לינוקס היא חלופה למערכת הפעלה שולחני
 
 אנו ממליצים בחום לבחור בהפצות שנשארות קרובות למהדורות התוכנה היציבות במעלה הזרם, המכונה לעתים קרובות הפצות מהדורות מתגלגלות. הסיבה לכך היא שהפצות מחזור שחרור קפוא לרוב אינן מעדכנות גרסאות חבילה ונגררות לפי עדכוני אבטחה.
 
-For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. חלק מתיקוני האבטחה [לא](https://arxiv.org/abs/2105.14565) מקבלים [מזהה CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (במיוחד תוכנה פחות פופולרית) כלל ולכן אינם נכנסים להפצה עם מודל התיקון הזה. As a result, minor security fixes are sometimes held back until the next major release.
+For frozen distributions such as [Debian](https://debian.org/security/faq#handling), package maintainers are expected to backport patches to fix vulnerabilities rather than bump the software to the “next version” released by the upstream developer. Some security fixes (particularly for less popular software) [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) at all and therefore do not make it into the distribution with this patching model. As a result, minor security fixes are sometimes held back until the next major release.
 
 אנחנו לא מאמינים שהחזקת חבילות והחלת תיקוני ביניים הם רעיון טוב, מכיוון שהוא שונה מהדרך שבה המפתח התכוון שהתוכנה תעבוד. [Richard Brown](https://rootco.de/aboutme) has a presentation about this:
 
@@ -50,15 +50,13 @@ For frozen distributions such as [Debian](https://debian.org/security/faq#handli
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="מהדורות רגילות הן שגויות, גלגלו על החיים שלכם" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### עדכונים מסורתיים לעומת עדכונים אטומיים
+### Traditional vs Atomic Updates
 
-באופן מסורתי, הפצות לינוקס מתעדכנות על ידי עדכון רציף של החבילות הרצויות. עדכונים מסורתיים כמו אלה המשמשים בהפצות מבוססות פדורה, Arch Linux ודביאן יכולים להיות פחות אמינים אם מתרחשת שגיאה בזמן העדכון.
+באופן מסורתי, הפצות לינוקס מתעדכנות על ידי עדכון רציף של החבילות הרצויות. Traditional updates such as those used in Fedora, Arch Linux, and Debian-based distributions can be less reliable if an error occurs while updating.
 
-הפצות עדכון אטומי מיישמות עדכונים במלואם או לא בכלל. בדרך כלל, מערכות עדכון עסקאות הן גם אטומיות.
+Atomic updating distributions, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
 
-מערכת עדכון עסקה יוצרת תמונת מצב שנעשתה לפני ואחרי החלת עדכון. אם עדכון נכשל בכל עת (אולי בגלל הפסקת חשמל), ניתן להחזיר את העדכון בקלות ל"מצב התקין האחרון הידוע."
-
-The Atomic update method is used for [distributions](../desktop.md#atomic-distributions) like Silverblue, Tumbleweed, and NixOS and can achieve reliability with this model. [Adam Šamalík](https://twitter.com/adsamalik) סיפק מצגת על האופן שבו `rpm-ostree` עובד עם Silverblue:
+The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) סיפק מצגת על האופן שבו `rpm-ostree` עובד עם Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="בואו ננסה את Fedora Silverblue - מערכת הפעלה שולחנית בלתי ניתנת לשינוי! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -70,13 +68,13 @@ The Atomic update method is used for [distributions](../desktop.md#atomic-distri
 
 ### הפצות מבוססות Arch
 
-הפצות מבוססות Arch ו-Arch אינן מומלצות למשתמשים חדשים ב-Linux (ללא קשר להפצה) מכיוון שהן דורשות [תחזוקת מערכת](https://wiki.archlinux.org/title/System_maintenance) רגילה. ל- Arch אין מנגנון עדכון הפצה עבור אפשרויות התוכנה הבסיסיות. כתוצאה מכך, עליך להישאר מודע למגמות הנוכחיות ולאמץ טכנולוגיות מכיוון שהן מחליפות שיטות ישנות בעצמך.
+הפצות מבוססות Arch ו-Arch אינן מומלצות למשתמשים חדשים ב-Linux (ללא קשר להפצה) מכיוון שהן דורשות [תחזוקת מערכת](https://wiki.archlinux.org/title/System_maintenance) רגילה. ל- Arch אין מנגנון עדכון הפצה עבור אפשרויות התוכנה הבסיסיות. As a result you have to stay aware with current trends and adopt technologies on your own as they supersede older practices.
 
 עבור מערכת מאובטחת, מצפים ממך גם שיהיה לך מספיק ידע בלינוקס כדי להגדיר כראוי אבטחה עבור המערכת שלהם, כגון אימוץ מערכת [בקרת כניסה חובה](https://en.wikipedia.org/wiki/Mandatory_access_control), הגדרת רשימות שחורות של [מודול ליבה](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) רשימות שחורות, הקשחת פרמטרי אתחול, מניפולציה של [סיסקטל](https://en.wikipedia.org/wiki/Sysctl) פרמטרים, ולדעת אילו רכיבים הם צריכים כמו [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
 כל מי שמשתמש ב[Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **חייב** להרגיש בנוח ביקורת PKGBUILD שהם מורידים מהשירות הזה. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software supply chain attacks, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
 
-תמיד יש להשתמש ב-AUR במשורה, ולעתים קרובות יש הרבה עצות רעות בדפים שונים שמפנים אנשים להשתמש באופן עיוור ב[עוזרים של AUR](https://wiki.archlinux.org/title/AUR_helpers) ללא אזהרה מספקת. אזהרות דומות חלות על שימוש בארכיון חבילות אישיות של צד שלישי (PPA) בהפצות מבוססות דביאן או בפרויקטים קהילתיים (COPR) בפדורה.
+תמיד יש להשתמש ב-AUR במשורה, ולעתים קרובות יש הרבה עצות רעות בדפים שונים שמפנים אנשים להשתמש באופן עיוור ב[עוזרים של AUR](https://wiki.archlinux.org/title/AUR_helpers) ללא אזהרה מספקת. Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
 
 אם אתה מנוסה עם לינוקס וברצונך להשתמש בהפצה מבוססת Arch, אנו ממליצים בדרך כלל על Arch Linux על פני כל אחת מהנגזרות שלו.
 
@@ -105,9 +103,9 @@ We recommend **against** using the Linux-libre kernel, since it [removes securit
 
 ### Wayland
 
-We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). קודמו ([X11](https://en.wikipedia.org/wiki/X_Window_System)) אינו תומך בבידוד GUI, המאפשר לכל חלון [תיעדו, רשמו והזריקו קלט בחלונות אחרים](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), מה שהופך כל ניסיון לארגז חול חסר תועלת. אמנם יש אפשרויות לעשות X11 מקונן כגון [Xpra](https://en.wikipedia.org/wiki/Xpra) או [Xephyr](https://en.wikipedia.org/wiki/Xephyr), לעתים קרובות הם מגיעים עם השלכות ביצועים שליליות, ואינם נוחים להגדרה ואינם עדיפים על פני Wayland.
+We recommend using a desktop environment that supports the [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) display protocol, as it was developed with security [in mind](https://lwn.net/Articles/589147). קודמו ([X11](https://en.wikipedia.org/wiki/X_Window_System)) אינו תומך בבידוד GUI, המאפשר לכל חלון [תיעדו, רשמו והזריקו קלט בחלונות אחרים](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), מה שהופך כל ניסיון לארגז חול חסר תועלת.
 
-Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). אם אתה משתמש באחת מהסביבות האלה זה קל כמו לבחור את הפגישה "Wayland" במנהל התצוגה של שולחן העבודה ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments, it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 אנו ממליצים **נגד** להשתמש בסביבות שולחן עבודה או במנהלי חלונות שאין להם תמיכה ב-Wayland, כגון Cinnamon (ברירת מחדל ב-Linux Mint), Pantheon (ברירת מחדל במערכת ההפעלה היסודית), MATE, Xfce, ו-i3.
 
@@ -115,7 +113,7 @@ Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protoc
 
 חלק מההפצות של לינוקס (כגון [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) מבוססות או הפצות עשה זאת בעצמך) אינן מגיעות עם קנייני [microcode](https://en.wikipedia.org/wiki/Microcode) עדכוני המתקן פרצות אבטחה קריטיות. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-אנו **ממליצים בחום** להתקין עדכוני מיקרוקוד, מכיוון שהם מכילים תיקוני אבטחה חשובים עבור ה-CPU אשר לא ניתן להפחית באופן מלא בתוכנה בלבד. לפדורה ול-openSUSE יש את עדכוני המיקרוקוד כברירת מחדל.
+אנו **ממליצים בחום** להתקין עדכוני מיקרוקוד, מכיוון שהם מכילים תיקוני אבטחה חשובים עבור ה-CPU אשר לא ניתן להפחית באופן מלא בתוכנה בלבד. Fedora and openSUSE both apply microcode updates by default.
 
 ### עדכונים
 

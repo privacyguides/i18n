@@ -20,7 +20,7 @@ Ada beberapa masalah privasi penting pada Linux yang harus Anda sadari. Terlepas
 
 ### Keamanan Sumber Terbuka
 
-Adalah [kesalahpahaman umum](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) bahwa Linux dan perangkat lunak sumber terbuka lainnya secara inheren aman hanya karena kode sumbernya terbuka. Ada ekspektasi bahwa verifikasi komunitas dilakukan secara teratur, tetapi tidak selalu [demikian](https://seirdy.one/posts/2022/02/02/floss-security).
+It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. Ada ekspektasi bahwa verifikasi komunitas dilakukan secara teratur, tetapi tidak selalu [demikian](https://seirdy.one/posts/2022/02/02/floss-security).
 
 Kenyataannya, keamanan distro bergantung pada sejumlah faktor, seperti aktivitas proyek, pengalaman pengembang, tingkat ketelitian yang diterapkan pada tinjauan kode, dan seberapa sering perhatian diberikan pada bagian tertentu dari basis kode yang mungkin tidak tersentuh selama bertahun-tahun.
 
@@ -30,7 +30,7 @@ Saat ini, Linux [tertinggal jika dibandingkan alternatif](https://discussion.fed
 
 - **Boot terverifikasi** di Linux tidak sekuat alternatif seperti [Secure Boot](https://support.apple.com/guide/security/secac71d5623/web)-nya Apple atau [Verified Boot](https://source.android.com/security/verifiedboot)-nya Android. Boot terverifikasi mencegah gangguan terus-menerus oleh *malware* dan [serangan pembantu jahat](https://en.wikipedia.org/wiki/Evil_Maid_attack), tetapi sebagian besar masih belum [tersedia pada distribusi yang paling canggih](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3) sekalipun.
 
-- ***Sandboxing* yang kuat** untuk aplikasi di Linux sangat kurang, bahkan dengan aplikasi yang terkontainerisasi seperti Flatpaks atau solusi *sandbox* seperti Firejail. Flatpak adalah utilitas *sandbox* yang paling menjanjikan untuk Linux sejauh ini, tetapi masih memiliki kekurangan di banyak area dan memungkinkan [bawaan](https://flatkill.org/2020) yang [tidak aman](https://flatkill.org/2020) yang memungkinkan sebagian besar aplikasi melewati *sandbox* mereka.
+- ***Sandboxing* yang kuat** untuk aplikasi di Linux sangat kurang, bahkan dengan aplikasi yang terkontainerisasi seperti Flatpaks atau solusi *sandbox* seperti Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
 
 Selain itu, Linux tertinggal dalam mengimplementasikan [mitigasi eksploitasi](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) yang sekarang menjadi standar pada sistem operasi lain, seperti Arbitrary Code Guard pada Windows atau Hardened Runtime pada macOS. Sebagian besar program Linux dan Linux itu sendiri juga dikodekan dalam bahasa yang tidak aman untuk memori. *Bug* korupsi memori bertanggung jawab atas [sebagian besar kerentanan](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) yang diperbaiki dan diberi CVE. Meskipun hal ini juga berlaku untuk Windows dan macOS, kedua sistem operasi tersebut dengan cepat membuat kemajuan dalam mengadopsi bahasa yang aman dari segi memori - masing-masing seperti Rust dan Swift - sementara tidak ada upaya yang sama untuk menulis ulang Linux dalam bahasa yang aman dari segi memori seperti Rust.
 
@@ -42,7 +42,7 @@ Tidak semua distribusi Linux diciptakan sama. [Halaman rekomendasi Linux](../des
 
 Kami sangat menyarankan agar Anda memilih distribusi yang dekat dengan rilis perangkat lunak hulu yang stabil, yang sering disebut sebagai distribusi *rolling release*. Hal ini karena distribusi siklus *frozen release* sering kali tidak memperbarui versi paket dan tertinggal dalam pembaruan keamanan.
 
-Untuk distribusi *frozen* seperti [Debian](https://debian.org/security/faq#handling), pengelola paket diharapkan untuk melakukan *backport patch* untuk memperbaiki kerentanan daripada memindahkan perangkat lunak ke "versi berikutnya" yang dirilis oleh pengembang hulu. Beberapa perbaikan keamanan [tidak](https://arxiv.org/abs/2105.14565) menerima [ID CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) (terutama perangkat lunak yang kurang populer) sama sekali dan oleh karena itu tidak masuk ke dalam distribusi dengan model penambalan ini. As a result, minor security fixes are sometimes held back until the next major release.
+Untuk distribusi *frozen* seperti [Debian](https://debian.org/security/faq#handling), pengelola paket diharapkan untuk melakukan *backport patch* untuk memperbaiki kerentanan daripada memindahkan perangkat lunak ke "versi berikutnya" yang dirilis oleh pengembang hulu. Some security fixes (particularly for less popular software) [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) at all and therefore do not make it into the distribution with this patching model. As a result, minor security fixes are sometimes held back until the next major release.
 
 Kami tidak percaya bahwa menahan paket dan menerapkan tambalan sementara adalah ide yang bagus, karena hal ini menyimpang dari cara kerja perangkat lunak yang diinginkan oleh pengembang. [Richard Brown](https://rootco.de/aboutme) memiliki presentasi tentang hal ini:
 
@@ -50,15 +50,13 @@ Kami tidak percaya bahwa menahan paket dan menerapkan tambalan sementara adalah 
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Regular Releases are Wrong, Roll for your life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### Pembaruan Tradisional vs Atomik
+### Traditional vs Atomic Updates
 
-Secara tradisional, distribusi Linux melakukan pembaruan dengan memperbarui paket yang diinginkan secara berurutan. Pembaruan tradisional seperti yang digunakan pada distribusi berbasis Fedora, Arch Linux, dan Debian bisa jadi kurang dapat diandalkan jika terjadi kesalahan saat melakukan pembaruan.
+Secara tradisional, distribusi Linux melakukan pembaruan dengan memperbarui paket yang diinginkan secara berurutan. Traditional updates such as those used in Fedora, Arch Linux, and Debian-based distributions can be less reliable if an error occurs while updating.
 
-Distribusi pembaruan atomik menerapkan pembaruan secara penuh atau tidak sama sekali. Biasanya, sistem pembaruan transaksional juga bersifat atomik.
+Atomic updating distributions, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
 
-Sistem pembaruan transaksional membuat *snapshot* yang dibuat sebelum dan sesudah pembaruan diterapkan. Jika pembaruan gagal sewaktu-waktu (mungkin karena listrik mati), pembaruan dapat dengan mudah dikembalikan ke "kondisi baik terakhir yang diketahui".
-
-Metode pembaruan Atomic digunakan untuk [distribusi](../desktop.md#atomic-distributions) seperti Silverblue, Tumbleweed, dan NixOS dan dapat mencapai keandalan dengan model ini. [Adam Šamalík](https://twitter.com/adsamalik) memberikan presentasi tentang cara kerja `rpm-ostree` dengan Silverblue:
+The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) memberikan presentasi tentang cara kerja `rpm-ostree` dengan Silverblue:
 
 <div class="yt-embed">
   <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -70,13 +68,13 @@ Sering kali terdapat kebingungan antara distribusi "yang berfokus pada keamanan"
 
 ### Distribusi berbasis Arch
 
-Arch dan distribusi berbasis Arch tidak direkomendasikan bagi mereka yang baru mengenal Linux (apa pun distribusinya) karena memerlukan [pemeliharaan sistem](https://wiki.archlinux.org/title/System_maintenance) secara teratur. Arch tidak memiliki mekanisme pembaruan distribusi untuk pilihan perangkat lunak yang mendasarinya. Akibatnya, Anda harus tetap waspada dengan tren saat ini dan mengadopsi teknologi yang menggantikan praktik-praktik lama secara mandiri.
+Arch dan distribusi berbasis Arch tidak direkomendasikan bagi mereka yang baru mengenal Linux (apa pun distribusinya) karena memerlukan [pemeliharaan sistem](https://wiki.archlinux.org/title/System_maintenance) secara teratur. Arch tidak memiliki mekanisme pembaruan distribusi untuk pilihan perangkat lunak yang mendasarinya. As a result you have to stay aware with current trends and adopt technologies on your own as they supersede older practices.
 
 Agar sistem aman, Anda juga diharapkan memiliki pengetahuan Linux yang cukup untuk mengatur keamanan sistem dengan benar seperti mengadopsi sistem [kontrol akses wajib](https://en.wikipedia.org/wiki/Mandatory_access_control), mengatur daftar hitam [modul kernel](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), memperkuat parameter but, memanipulasi parameter [sysctl](https://en.wikipedia.org/wiki/Sysctl), dan mengetahui komponen apa saja yang dibutuhkan seperti [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
 Siapa pun yang menggunakan [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **tidak boleh** segan untuk mengaudit PKGBUILD yang mereka unduh dari layanan tersebut. Paket AUR adalah konten yang diproduksi oleh komunitas dan tidak diperiksa dengan cara apa pun, dan oleh karena itu rentan terhadap serangan rantai pasok perangkat lunak, yang kenyataannya telah terjadi [pada masa lalu](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
 
-AUR harus selalu digunakan dengan hemat, dan sering kali ada banyak saran buruk di berbagai halaman yang mengarahkan orang untuk secara membabi buta menggunakan [pembantu AUR](https://wiki.archlinux.org/title/AUR_helpers) tanpa peringatan yang memadai. Peringatan serupa berlaku untuk penggunaan Personal Package Archives (PPA) pihak ketiga pada distribusi berbasis Debian atau Community Projects (COPR) pada Fedora.
+AUR harus selalu digunakan dengan hemat, dan sering kali ada banyak saran buruk di berbagai halaman yang mengarahkan orang untuk secara membabi buta menggunakan [pembantu AUR](https://wiki.archlinux.org/title/AUR_helpers) tanpa peringatan yang memadai. Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
 
 Jika Anda berpengalaman dengan Linux dan ingin menggunakan distribusi berbasis Arch, kami umumnya merekomendasikan Arch Linux *mainline* daripada turunannya.
 
@@ -105,9 +103,9 @@ Jika Anda memerlukan fungsi suspend-to-disk (hibernasi), Anda masih perlu menggu
 
 ### Wayland
 
-Kami menyarankan untuk menggunakan lingkungan desktop yang mendukung protokol tampilan [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)), karena protokol ini dikembangkan dengan [mempertimbangkan](https://lwn.net/Articles/589147) keamanan. Pendahulunya ([X11](https://en.wikipedia.org/wiki/X_Window_System)) tidak mendukung isolasi GUI, yang memungkinkan jendela mana pun [merekam, mencatat, dan menyuntikkan input di jendela lain](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), sehingga upaya *sandboxing* menjadi sia-sia. While there are options to do nested X11 such as [Xpra](https://en.wikipedia.org/wiki/Xpra) or [Xephyr](https://en.wikipedia.org/wiki/Xephyr), they often come with negative performance consequences, and are neither convenient to set up nor preferable over Wayland.
+Kami menyarankan untuk menggunakan lingkungan desktop yang mendukung protokol tampilan [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)), karena protokol ini dikembangkan dengan [mempertimbangkan](https://lwn.net/Articles/589147) keamanan. Pendahulunya ([X11](https://en.wikipedia.org/wiki/X_Window_System)) tidak mendukung isolasi GUI, yang memungkinkan jendela mana pun [merekam, mencatat, dan menyuntikkan input di jendela lain](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), sehingga upaya *sandboxing* menjadi sia-sia.
 
-Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
+Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments, it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
 
 We recommend **against** using desktop environments or window managers that do not have Wayland support, such as Cinnamon (default on Linux Mint), Pantheon (default on Elementary OS), MATE, Xfce, and i3.
 
@@ -115,7 +113,7 @@ We recommend **against** using desktop environments or window managers that do n
 
 Some Linux distributions (such as [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)-based or DIY distros) don’t come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates which patch critical security vulnerabilities. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-We **highly recommend** that you install microcode updates, as they contain important security patches for the CPU which can not be fully mitigated in software alone. Fedora and openSUSE both have the microcode updates applied by default.
+We **highly recommend** that you install microcode updates, as they contain important security patches for the CPU which can not be fully mitigated in software alone. Fedora and openSUSE both apply microcode updates by default.
 
 ### Updates
 
