@@ -1,7 +1,7 @@
 ---
-title: Gambaran Umum Linux
+title: Linux Overview
 icon: simple/linux
-description: Linux adalah alternatif sistem operasi desktop sumber terbuka yang berfokus pada privasi, tetapi tidak semua distribusi diciptakan sama.
+description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
 
 **Linux** adalah alternatif sistem operasi komputer sumber terbuka yang berfokus pada privasi. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
@@ -46,9 +46,7 @@ Untuk distribusi *frozen* seperti [Debian](https://debian.org/security/faq#handl
 
 Kami tidak percaya bahwa menahan paket dan menerapkan tambalan sementara adalah ide yang bagus, karena hal ini menyimpang dari cara kerja perangkat lunak yang diinginkan oleh pengembang. [Richard Brown](https://rootco.de/aboutme) memiliki presentasi tentang hal ini:
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="Regular Releases are Wrong, Roll for your life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [Regular Releases are Wrong, Roll for your life](https://youtu.be/i8c0mg_mS7U) <small>(YouTube)</small>
 
 ### Traditional vs Atomic Updates
 
@@ -56,11 +54,9 @@ Secara tradisional, distribusi Linux melakukan pembaruan dengan memperbarui pake
 
 Atomic updating distributions, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
 
-The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) memberikan presentasi tentang cara kerja `rpm-ostree` dengan Silverblue:
+The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 ### Distribusi yang "berfokus pada keamanan"
 

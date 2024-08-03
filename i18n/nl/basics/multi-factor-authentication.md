@@ -88,11 +88,9 @@ WebAuthn is de meest veilige en private vorm van tweede factor authenticatie. De
 
 Wanneer je een account aanmaakt, wordt de openbare sleutel naar de dienst gestuurd, en wanneer je inlogt, zal de dienst je vragen bepaalde gegevens te "ondertekenen" met jouw privé-sleutel. Het voordeel hiervan is dat er nooit wachtwoordgegevens door de dienst worden opgeslagen, zodat er voor een adverteerder niets te stelen valt.
 
-Deze presentatie bespreekt de geschiedenis van wachtwoordauthenticatie, de valkuilen (zoals hergebruik van wachtwoorden), en bespreking van de FIDO2- en [WebAuthn](https://webauthn.guide) -normen.
+This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Hoe FIDO2 en WebAuthn accountovernames tegengaan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 FIDO2 en WebAuthn hebben superieure beveiligings- en privacy-eigenschappen in vergelijking met andere MFA-methoden.
 

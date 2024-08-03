@@ -76,11 +76,9 @@ WebAuthn - это наиболее безопасная и приватная ф
 
 Когда вы создаете учетную запись, открытый ключ отправляется в службу, затем, когда вы входите в систему, служба потребует от вас "подписать" некоторые данные вашим закрытым ключом. Преимуществом этого является то, что служба никогда не хранит данные пароля, поэтому злоумышленнику нечего украсть.
 
-В презентации рассматривается история парольной аутентификации, подводные камни (такие, как повторное использование пароля), а также обсуждаются стандарты FIDO2 и [WebAuthn](https://webauthn.guide).
+This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Как FIDO2 и WebAuthn предотвращают захват аккаунтов" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 FIDO2 и WebAuthn обладают превосходными свойствами безопасности и конфиденциальности по сравнению с любыми методами МФА.
 

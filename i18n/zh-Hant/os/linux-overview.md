@@ -1,7 +1,7 @@
 ---
-title: Linux 概述
+title: Linux Overview
 icon: simple/linux
-description: Linux 為開源、以隱私為中心的桌面作業系統替代選項，但並非所有發行版都一模一樣。
+description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
 ---
 
 **Linux** 是開源、注重隱私的桌面作業系統替代方案。 面對主流作業系統中普遍存在的遙測和其他侵犯隱私的技術，Linux 桌面仍是那些希望能完全控制電腦的用戶明智選擇。
@@ -46,9 +46,7 @@ It is a [common misconception](../basics/common-misconceptions.md#open-source-so
 
 我們不認為保留軟體套件和應用臨時補丁是好主意，因為它偏離了開發者計畫讓軟體工作的方式。 [Richard Brown](https://rootco.de/aboutme) 對此有一份簡報：
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/i8c0mg_mS7U?local=true" title="定期發佈是錯的，滾動發佈才可救命" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [Regular Releases are Wrong, Roll for your life](https://youtu.be/i8c0mg_mS7U) <small>(YouTube)</small>
 
 ### Traditional vs Atomic Updates
 
@@ -56,11 +54,9 @@ It is a [common misconception](../basics/common-misconceptions.md#open-source-so
 
 Atomic updating distributions, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
 
-The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) 簡報了`rpm-ostree` 如何與 Silverblue 一起運作的情況:
+The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/-hpV5l-gJnQ?local=true" title="試試 Fedora Silverblue — 一套不變的桌面 OS! - Adam Šamalik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 ### “以安全爲重點的發行版
 

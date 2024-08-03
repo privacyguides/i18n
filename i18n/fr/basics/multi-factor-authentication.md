@@ -76,11 +76,9 @@ WebAuthn est la forme la plus sûre et la plus privée d'authentification par se
 
 Lorsque vous créez un compte, la clé publique est envoyée au service, puis lorsque vous vous connectez, le service vous demande de "signer" certaines données avec votre clé privée. L'avantage de cette méthode est qu'aucune donnée de mot de passe n'est jamais stockée par le service, et qu'il n'y a donc rien qu'un adversaire puisse voler.
 
-Cette présentation aborde l'histoire de l'authentification par mot de passe, les pièges (tels que la réutilisation du mot de passe), et discute des normes FIDO2 et [WebAuthn](https://webauthn.guide) .
+This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Comment FIDO2 et WebAuthn empêchent les vols de compte" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 FIDO2 et WebAuthn présentent des propriétés de sécurité et de confidentialité supérieures à celles de toute autre méthode MFA.
 

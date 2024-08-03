@@ -76,11 +76,9 @@ WebAuthn è la forma più sicura e privata di autenticazione a due fattori. Sebb
 
 Quando crei un profilo, la chiave pubblica è inviata al servizio, così, quando accedi, il servizio ti richiederà di "firmare" alcuni dati con la tua chiave privata. Il vantaggio di ciò è che nessun dato della password è mai memorizzato dal servizio, così che un malintenzionato non possa rubare nulla.
 
-Questa presentazione discute della storia dell'autenticazione con password, le insidie (come il riutilizzo delle password) e la discussione sugli standard FIDO2 e [WebAuthn](https://webauthn.guide).
+This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Come FIDO2 e WebAuthn impediscono l'appropriazione dei profili" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 FIDO2 e WebAuthn hanno proprietà di sicurezza e privacy superiori, rispetto a qualsiasi metodo AFM.
 

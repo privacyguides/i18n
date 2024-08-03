@@ -76,11 +76,9 @@ WebAuthn היא הצורה המאובטחת והפרטית ביותר של אי�
 
 כאשר אתה יוצר חשבון, המפתח הציבורי נשלח לשירות, לאחר מכן בעת הכניסה, השירות ידרוש ממך "לחתום" על נתונים מסוימים עם המפתח הפרטי שלך. היתרון של זה הוא ששום סיסמה לא מאוחסנת על ידי השירות, כך שאין ליריב שום דבר לגנוב.
 
-מצגת זו דנה בהיסטוריה של אימות סיסמאות, במלכודות (כגון שימוש חוזר בסיסמה) ודיון בתקני FIDO2 ו[WebAuthn](https://webauthn.guide).
+This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="כיצד FIDO2 ו-WebAuthn עוצרים השתלטות על חשבון" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 ל-FIDO2 ול-WebAuthn יש מאפייני אבטחה ופרטיות מעולים בהשוואה לכל שיטות MFA.
 

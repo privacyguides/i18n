@@ -76,11 +76,9 @@ WebAuthn은 가장 안전하고 프라이버시 친화적인 형태의 이중 �
 
 계정을 생성할 때에는 공개 키가 서비스로 전송됩니다. 그리고 로그인 시에는 서비스로부터 사용자 측에서 사용자의 개인 키로 일부 데이터에 '서명''할 것을 요구합니다. 이 방식의 장점은, 서비스에 비밀번호 데이터는 전혀 저장되지 않기 때문에 공격자가 훔칠 수 있는게 없다는 점입니다.
 
-다음 프레젠테이션은 비밀번호 인증의 역사, 비밀번호 재사용 등의 위험성, FIDO2 및 [WebAuthn](https://webauthn.guide) 표준에 관한 내용을 다루고 있습니다.
+This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="How FIDO2 and WebAuthn Stop Account Takeovers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 FIDO2, WebAuthn은 여타 MFA 방식에 비해 보안성과 프라이버시 면에서 우월합니다.
 

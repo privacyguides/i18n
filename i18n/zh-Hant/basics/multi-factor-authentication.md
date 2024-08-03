@@ -76,11 +76,9 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
 
 當您創建一個帳戶時，公鑰會發送到服務，然後當您登錄時，服務會要求您使用您的私鑰“簽署”一些數據。 這樣做的好處是，服務不會儲存密碼資料，因此對手無從竊取任何東西。
 
-這份簡報探討了密碼驗證的歷史，陷阱（如密碼重用）以及FIDO2 和 [WebAuthn](https://webauthn.guide) 標準等課題。
+This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="FIDO2 和 WebAuthn 如何防止帳戶接管" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 相較於其它 MFA方法， FIDO2 和 WebAuthn 具有卓越的安全和隱私特點。
 

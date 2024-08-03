@@ -76,11 +76,9 @@ WebAuthn is the most secure and private form of second factor authentication. Wh
 
 When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. Ele usa autenticação de chave pública e é mais seguro que os segredos compartilhados usados nos métodos Yubico OTP e TOTP, pois inclui o nome de origem (geralmente, o nome do domínio) durante a autenticação.
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and discussion of FIDO2 and [WebAuthn](https://webauthn.guide) standards.
+This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
 
-<div class="yt-embed">
-  <iframe width="560" height="315" src="https://invidious.privacyguides.net/embed/aMo4ZlWznao?local=true" title="Como o FIDO2 e a WebAuthn Stop Account Takeovers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 Se um site ou serviço suportar FIDO2 / U2F para a autenticação, é altamente recomendável que o utilize em relação a qualquer outra forma de AMF.
 
