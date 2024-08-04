@@ -66,7 +66,7 @@ Sering kali terdapat kebingungan antara distribusi "yang berfokus pada keamanan"
 
 Arch dan distribusi berbasis Arch tidak direkomendasikan bagi mereka yang baru mengenal Linux (apa pun distribusinya) karena memerlukan [pemeliharaan sistem](https://wiki.archlinux.org/title/System_maintenance) secara teratur. Arch tidak memiliki mekanisme pembaruan distribusi untuk pilihan perangkat lunak yang mendasarinya. As a result you have to stay aware with current trends and adopt technologies on your own as they supersede older practices.
 
-Agar sistem aman, Anda juga diharapkan memiliki pengetahuan Linux yang cukup untuk mengatur keamanan sistem dengan benar seperti mengadopsi sistem [kontrol akses wajib](https://en.wikipedia.org/wiki/Mandatory_access_control), mengatur daftar hitam [modul kernel](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), memperkuat parameter but, memanipulasi parameter [sysctl](https://en.wikipedia.org/wiki/Sysctl), dan mengetahui komponen apa saja yang dibutuhkan seperti [Polkit](https://en.wikipedia.org/wiki/Polkit).
+For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](#mandatory-access-control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
 Siapa pun yang menggunakan [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **tidak boleh** segan untuk mengaudit PKGBUILD yang mereka unduh dari layanan tersebut. Paket AUR adalah konten yang diproduksi oleh komunitas dan tidak diperiksa dengan cara apa pun, dan oleh karena itu rentan terhadap serangan rantai pasok perangkat lunak, yang kenyataannya telah terjadi [pada masa lalu](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
 
@@ -82,6 +82,12 @@ Selain itu, kami merekomendasikan untuk **tidak** menggunakan kedua turunan Arch
 ### Kernel Linux-libre dan distribusi "Libre"
 
 Kami menyarankan untuk **tidak** menggunakan kernel Linux-libre, karena kernel ini [menghilangkan mitigasi keamanan](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) dan [[menahan peringatan kernel](https://news.ycombinator.com/item?id=29674846)](https://news.ycombinator.com/item?id=29674846) tentang kode mikro yang rentan.
+
+### Mandatory access control
+
+Mandatory access control is a set of additional security controls which help to confine parts of the system such as apps and system services. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). While Fedora uses SELinux by default, Tumbleweed [defaults](https://en.opensuse.org/Portal:SELinux) to AppArmor in the installer, with an option to [choose](https://en.opensuse.org/Portal:SELinux/Setup) SELinux instead.
+
+SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confines Linux containers, virtual machines, and service daemons by default. AppArmor is used by the snap daemon for [sandboxing](https://snapcraft.io/docs/security-sandboxing) snaps which have [strict](https://snapcraft.io/docs/snap-confinement) confinement such as [Firefox](https://snapcraft.io/firefox). There is a community effort to confine more parts of the system in Fedora with the [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) special interest group.
 
 ## Rekomendasi Umum
 

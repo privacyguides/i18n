@@ -66,7 +66,7 @@ Il y a souvent une certaine confusion entre les distributions "axées sur la sé
 
 Arch et les distributions basées sur Arch ne sont pas recommandées pour ceux qui débutent avec Linux (quelle que soit la distribution) car elles nécessitent [une maintenance régulière du système](https://wiki.archlinux.org/title/System_maintenance). Arch n'a pas de mécanisme de mise à jour de la distribution pour les choix logiciels sous-jacents. As a result you have to stay aware with current trends and adopt technologies on your own as they supersede older practices.
 
-Pour un système sécurisé, vous êtes également censé avoir une connaissance suffisante de Linux pour configurer correctement la sécurité de votre système, par exemple en adoptant un système de [contrôle d'accès obligatoire](https://en.wikipedia.org/wiki/Mandatory_access_control), en configurant des listes noires de [modules du noyau](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), en renforçant les paramètres de démarrage, en manipulant les paramètres [sysctl](https://en.wikipedia.org/wiki/Sysctl), et en sachant de quels composants ils ont besoin, comme [Polkit](https://en.wikipedia.org/wiki/Polkit).
+For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](#mandatory-access-control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
 Toute personne utilisant le [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **doit** être à l'aise avec l'audit des PKGBUILDs qu'elle télécharge depuis ce service. Les paquets AUR sont des contenus produits par la communauté et ne font l'objet d'aucune vérification. Ils sont donc vulnérables aux attaques de la chaîne d'approvisionnement des logiciels, ce qui s'est d'ailleurs produit [dans le passé](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
 
@@ -82,6 +82,12 @@ En outre, nous ne recommandons particulièrement **pas** ces deux dérivés d'Ar
 ### Le noyau Linux-libre et les distributions "libres"
 
 Nous vous **déconseillons d'**utiliser le noyau Linux-libre, car il [supprime les mesures d'atténuation de la sécurité](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) et les [avertissements du noyau](https://news.ycombinator.com/item?id=29674846) concernant le microcode vulnérable.
+
+### Mandatory access control
+
+Mandatory access control is a set of additional security controls which help to confine parts of the system such as apps and system services. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). While Fedora uses SELinux by default, Tumbleweed [defaults](https://en.opensuse.org/Portal:SELinux) to AppArmor in the installer, with an option to [choose](https://en.opensuse.org/Portal:SELinux/Setup) SELinux instead.
+
+SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confines Linux containers, virtual machines, and service daemons by default. AppArmor is used by the snap daemon for [sandboxing](https://snapcraft.io/docs/security-sandboxing) snaps which have [strict](https://snapcraft.io/docs/snap-confinement) confinement such as [Firefox](https://snapcraft.io/firefox). There is a community effort to confine more parts of the system in Fedora with the [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) special interest group.
 
 ## Recommandations générales
 
