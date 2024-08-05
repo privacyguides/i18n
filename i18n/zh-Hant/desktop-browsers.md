@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋求 Google Chrome 的良好替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
+這些是我們目前推薦的**桌面瀏覽器**和標準/非匿名瀏覽的設定。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋求 Google Chrome 的良好替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
 
 如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。 我們在此頁面提供一些設定建議，但除了 Tor 瀏覽器以外的所有瀏覽器都可能以某種方式被*某人*追蹤。
 
@@ -192,9 +192,9 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Firefox 128 發佈以後，新的[保護隱私的成效測量](https://support.mozilla.org/kb/privacy-preserving-attribution) (簡稱 PPA) 設定已經加入並且[預設是開啟的](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)。 PPA 允許廣告商利用您的瀏覽器進行廣告成效測量，進而取代基於 JavaScript 的傳統追蹤方式。 We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
-##### HTTPS-Only Mode
+##### 純 HTTPS 模式
 
 - [x] 勾選 **在所有視窗都開啟純 HTTPS 模式**
 
@@ -208,7 +208,7 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 最大保護 強制使用 DNS over HTTPS，如果 Firefox 無法連線到您的安全 DNS 解析器，或者安全 DNS 解析器表示您嘗試存取的網域沒有記錄，則會顯示安全警告。 這可以防止您所連接的網路暗中降低您的 DNS 安全性。
 
-#### Sync
+#### 同步
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) 讓您的瀏覽資料 (歷史記錄、書籤等) 在所有裝置上都可存取，並使用端對端加密 (E2EE) 進行保護。
 
@@ -380,7 +380,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 Unless 
 
 最佳案例標準代表我們希望在這個類別中看到的完美項目應具備的條件。 我們建議的瀏覽器可能不包括以下所有功能，但若包含這些功能會讓該項目在此頁面排名更高。
 
-- 包括內建內容攔截功能。
+- 應該要內建內容攔截功能。
 - 支援 Cookie 區隔 (就像[多帳號容器](https://support.mozilla.org/kb/containers)一樣)。
 - 支援漸進式網路應用程式。 PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 這可能比安裝基於 Electron 的應用程式更有優勢，因為您可以受益於瀏覽器的定期安全更新。
 - 不包括對使用者隱私沒有影響的附加功能 (bloatware)。
