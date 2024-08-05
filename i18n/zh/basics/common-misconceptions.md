@@ -42,7 +42,7 @@ schema:
 
 这些神话源于一些偏见，但软件产品的来源和许可并不以任何方式内在地影响其安全性。 ==开源软件 *有可能* 比专有软件更安全, 但对于这一点没有绝对保证。== 在你评估软件时，需要去逐一检查每个工具的声誉和安全性。
 
-</em> 开源软件 *，可以由第三方进行审计，而且通常比专有的同类软件对潜在的漏洞更加透明。 它还允许你审查代码并禁用你自己发现的任何可疑功能。 然而， *，除非你这样做*，否则不能保证代码曾经被评估过，特别是对于较小的软件项目。 The open development process has also sometimes been exploited to introduce new vulnerabilities known as <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>, which are discussed further in our [Common Threats](common-threats.md) page.[^1]</p>
+</em> 开源软件 *，可以由第三方进行审计，而且通常比专有的同类软件对潜在的漏洞更加透明。 它还允许你审查代码并禁用你自己发现的任何可疑功能。 然而， *，除非你这样做*，否则不能保证代码曾经被评估过，特别是对于较小的软件项目。 The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]</p>
 
 从另一个角度看，专利软件的透明度较低，但这并不意味着它不安全。 主要的专利软件项目可以由内部和第三方机构进行审计，而独立的安全研究人员仍然可以通过逆向工程等技术找到漏洞。
 

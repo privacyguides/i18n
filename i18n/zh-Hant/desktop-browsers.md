@@ -2,7 +2,7 @@
 meta_title: "尊重隱私的 PC 和 Mac 網路瀏覽器 - Privacy Guides"
 title: "桌面瀏覽器"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: 這些保護隱私的瀏覽器是我們目前推薦在桌上型系統上使用的標準/非匿名網路瀏覽器。
 cover: desktop-browsers.webp
 schema:
   - 

@@ -232,7 +232,7 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
 
 - 自由でオープンソースであること。
 - 定期的にソフトウェアとカーネルのアップデートを受け取ること。
-- Avoids X11, as its last major release was [more than a decade](https://www.x.org/wiki/Releases) ago.
+- Avoids X11, as its last major release was [more than a decade](https://x.org/wiki/Releases) ago.
     - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - インストール時にフルディスク暗号化をサポートしていること。
 - 通常のリリースが1年以上凍結されないこと。

@@ -6,15 +6,50 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
 전반적으로, Privacy Guides의 권장 목록은 대부분의 사람들에게 적용되는 [위협](threat-modeling.md) 혹은 목표로 분류됩니다. 여러분이 사용하는 툴 및 서비스는 여러분의 목표에 따라 달라지며, ==이러한 위협 가능성에 대한 관심도는 사람마다 다를 수 있습니다.== 혹시나 여기에 정리되지 않은 종류의 위협을 겪고 있더라도 상관 없습니다! 핵심은 '사용하기로 선택한 툴의 장단점을 이해하는 것' 입니다. 모든 위협으로부터 여러분을 완벽히 보호할 수 있는 툴은 존재하지 않기 때문입니다.
 
-- <span class="pg-purple">:material-incognito: 익명성</span> - 온라인 활동에서 실제 신원을 보호하여, *여러분의* 신원을 밝혀내려는 사람들로부터 여러분을 보호합니다.
-- <span class="pg-red">:material-target-account: 표적 공격</span> - *당신의* 데이터나 기기에 세부적으로 접근하려는 해커 및 그 외 악의적인 상대로부터 보호합니다.
-- <span class="pg-orange">:material-bug-outline: 수동적 공격</span> - 멀웨어, 데이터 유출 등 다수의 사람을 한꺼번에 대상으로 삼는 공격으로부터 보호합니다.
-- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
-- <span class="pg-teal">:material-server-network: 서비스 제공자</span> - (여러분의 데이터를 서버에서 읽을 수 없도록 하는 E2EE 등을 이용하여) 서비스 제공자로부터 여러분의 데이터를 보호합니다.
-- <span class="pg-blue">:material-eye-outline: 대중 감시</span> - 여러분의 활동을 추적하기 위해 협력하는 정부 기관, 단체, 웹사이트, 서비스로부터 보호합니다.
-- <span class="pg-brown">:material-account-cash: 감시 자본주의</span> - Google, Facebook 등의 거대 광고 네트워크 및 기타 수많은 제3자 데이터 수집 업체로부터 여러분을 보호합니다.
-- <span class="pg-green">:material-account-search: 공개 노출</span> - 여러분에 대한 정보를 (검색 엔진이나 일반 대중이) 온라인에서 접근하는 것을 제한합니다.
-- <span class="pg-blue-gray">:material-close-outline: 검열</span> - 정보 접근을 제한하는 검열을 회피하고, 온라인상에서 자신의 주장이 검열되는 것을 방지합니다.
+<span class="pg-purple">:material-incognito: **Anonymity**</span>
+:
+
+Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+
+<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+:
+
+Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+:
+
+Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+
+<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+:
+
+Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+
+<span class="pg-teal">:material-server-network: **Service Providers**</span>
+:
+
+Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+
+<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+:
+
+Protection from government agencies, organizations, websites, and services which work together to track your activities.
+
+<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+:
+
+Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+
+<span class="pg-green">:material-account-search: **Public Exposure**</span>
+:
+
+Limiting the information about you that is accessible online—to search engines or the general public.
+
+<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+:
+
+Avoiding censored access to information or being censored yourself when speaking online.
 
 대응해야 할 위협의 우선 순위는 개인의 관심도에 따라 바뀔 수 있습니다. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. 마찬가지로, 대부분의 사람들이 가장 우려하는 위협은 개인 데이터의 <span class="pg-green">:material-account-search: 공개 노출</span>일 테지만, 기기 감염 멀웨어 등의 <span class="pg-orange">:material-bug-outline: 수동적 공격</span> 보안 문제 또한 주의해야 합니다.
 
@@ -45,6 +80,8 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 
 </div>
 
+## Attacks against Specific Individuals
+
 <span class="pg-red">:material-target-account: 표적 공격(Targeted Attacks)</span>
 
 특정 인물을 대상으로 하는 표적 공격은 더욱 대응하기 어렵습니다. 흔한 예시로는 이메일을 통한 악성 문서 전송, 브라우저 및 운영 체제 등의 취약점 악용, 물리적 공격 등이 있습니다. 표적 공격이 우려된다면, 보다 고급 위협 완화 전략이 필요합니다.
@@ -57,6 +94,8 @@ description: 위협 모델은 개개인마다 다르지만, 이 사이트의 방
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). 또한 드라이브를 암호화하고, 운영 체제에서 TPM/Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)/[Element](https://developers.google.com/android/security/android-ready-se)를 이용해 암호 입력 시도를 제한해야 합니다. 대부분의 데스크톱 운영체제는 사용자별 데이터를 암호화하지 않으므로, 신뢰하지 않는 사람과 컴퓨터를 공유하지 말아야 합니다.
+
+## Attacks against Certain Organizations
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
 
@@ -71,19 +110,19 @@ A notable example of this occurred in 2017 when M.E.Doc, a popular accounting so
 
 There are few ways in which this type of attack might be carried out:
 
-1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
 2. A developer may be coerced by an outside party to add malicious code.
 3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
 2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
 3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
-## 서비스 제공 업체로부터의 프라이버시
+## Privacy from Service Providers
 
 <span class="pg-teal">:material-server-network: 서비스 제공자/제공 업체(Service Providers)</span>
 
@@ -98,7 +137,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 
 실질적으로 모든 E2EE 구현체가 동일한 유효성을 갖는 것은 아닙니다. [Signal](../real-time-communication.md#signal) 같은 애플리케이션은 기기에서 네이티브로 실행되며, 여러번 설치하더라도 언제나 완벽히 동일한 애플리케이션이 설치됩니다. 서비스 제공 업체가 여러분의 개인 키를 탈취하기 위해 [백도어](https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%8F%84%EC%96%B4)를 도입하더라도, 차후에 [리버스 엔지니어링](https://ko.wikipedia.org/wiki/%EC%97%AD%EA%B3%B5%ED%95%99)을 통해 탐지될 수 있습니다.
 
-반면, Proton Mail 웹메일이나 Bitwarden **웹 보관함** 같은 웹 기반 E2EE 구현체의 경우, 서버에서 동적으로 제공하는 자바스크립트 코드에 암호화 처리를 의존합니다. 악성 서버는 사용자를 표적으로 삼아 악성 자바스크립트 코드를 전송해 암호화 키를 탈취 가능하며, 이 경우 사용자는 이를 알아차리기 매우 어렵습니다. 만약 사용자가 공격을 알아차리더라도 제공 업체의 책임을 입증하기란 매우 어렵습니다. 서버에서 사람마다 웹 클라이언트를 다르게 제공하는 것이 가능하기 때문입니다.
+On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. 악성 서버는 사용자를 표적으로 삼아 악성 자바스크립트 코드를 전송해 암호화 키를 탈취 가능하며, 이 경우 사용자는 이를 알아차리기 매우 어렵습니다. 만약 사용자가 공격을 알아차리더라도 제공 업체의 책임을 입증하기란 매우 어렵습니다. 서버에서 사람마다 웹 클라이언트를 다르게 제공하는 것이 가능하기 때문입니다.
 
 따라서, 가능하면 웹 클라이언트 대신 네이티브 애플리케이션을 사용해야 합니다.
 
@@ -121,7 +160,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 </div>
 
-정부는 테러 대응 및 범죄 예방에 필요한 수단으로 대중 감시 프로그램을 정당화하는 경우가 많습니다. 하지만 이는 분명한 인권 침해일 뿐만 아니라, 대중 감시는 소수 집단과 정치적 반체제 인사 등의 대상을 집중적으로 표적삼는 데에 가장 자주 사용됩니다.
+정부는 테러 대응 및 범죄 예방에 필요한 수단으로 대중 감시 프로그램을 정당화하는 경우가 많습니다. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
@@ -132,7 +171,7 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 
 미국에서 대중 감시가 증가하고 있음에도 불구하고, 정부는 215조항과 같은 대중 감시 프로그램이 실제 범죄나 테러 음모를 저지하는 데 있어 '고유한 가치가 거의 없다'라는 사실을 발견했으며, 대부분의 노력은 FBI의 표적 감시 프로그램과 중복되는 것으로 나타났습니다.[^2]
 
-온라인상에서 여러분은 다양한 방법을 통해 추적당할 수 있습니다.
+Online, you can be tracked via a variety of methods, including but not limited to:
 
 - 여러분의 IP 주소
 - 브라우저 쿠키
@@ -140,9 +179,9 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 - 여러분의 브라우저/기기 핑거프린트
 - 결제 수단 연관성
 
-\[이 목록뿐만이 아닙니다].
-
 If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+
+## Surveillance as a Business Model
 
 <span class="pg-brown">:material-account-cash: 감시 자본주의(Surveillance Capitalism)</span>
 

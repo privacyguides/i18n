@@ -6,15 +6,50 @@ description: Jouw dreigingsmodel is persoonlijk voor je, maar dit zijn enkele va
 
 In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==U kunt zich bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. Misschien heb je ook specifieke bedreigingen buiten deze categorieën, en dat is prima! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
 
-- <span class="pg-purple">:material-incognito: Anonimiteit</span> - Het afschermen van jouw online activiteiten van jouw echte identiteit, waardoor je beschermd bent tegen mensen die proberen te achterhalen *jouw* identiteit specifiek.
-- <span class="pg-red">:material-target-account: Gerichte aanvallen</span> - Beschermd zijn tegen gerichte hackers of andere kwaadwillenden die toegang proberen te krijgen tot *jouw* gegevens of apparaten specifiek.
-- <span class="pg-orange">:material-bug-outline: Passieve aanvallen</span> - Beschermd zijn tegen zaken als malware, inbreuken op gegevens en andere aanvallen die tegen veel mensen tegelijk worden uitgevoerd
-- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
-- <span class="pg-teal">:material-server-network: Dienstverleners</span> - Bescherming van jouw gegevens tegen dienstverleners, bv. met end-to-endencryptie waardoor jouw gegevens onleesbaar worden voor de server.
-- <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> - Bescherming tegen overheidsinstellingen, organisaties, websites en diensten die samenwerken om jouw activiteiten te volgen.
-- <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span> - Jezelf beschermen tegen grote advertentienetwerken zoals Google en Facebook, en een groot aantal andere gegevensverzamelaars van derden
-- <span class="pg-green">:material-account-search: Public Exposure</span> - het beperken van de informatie over je die online toegankelijk is voor zoekmachines of het grote publiek.
-- <span class="pg-blue-gray">:material-close-outline: Censuur</span> - Voorkomen van gecensureerde toegang tot informatie en zelf gecensureerd worden als je online spreekt
+<span class="pg-purple">:material-incognito: **Anonymity**</span>
+:
+
+Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+
+<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+:
+
+Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+:
+
+Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+
+<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+:
+
+Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+
+<span class="pg-teal">:material-server-network: **Service Providers**</span>
+:
+
+Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+
+<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+:
+
+Protection from government agencies, organizations, websites, and services which work together to track your activities.
+
+<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+:
+
+Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+
+<span class="pg-green">:material-account-search: **Public Exposure**</span>
+:
+
+Limiting the information about you that is accessible online—to search engines or the general public.
+
+<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+:
+
+Avoiding censored access to information or being censored yourself when speaking online.
 
 Sommige van deze bedreigingen kunnen zwaarder wegen dan andere, afhankelijk van jouw specifieke zorgen. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Op dezelfde manier is de "gemiddelde consument" misschien in de eerste plaats bezorgd over <span class="pg-green">:material-account-search: Public Exposure</span> van zijn persoonsgegevens, maar moet hij toch op zijn hoede zijn voor op beveiliging gerichte zaken zoals <span class="pg-orange">:material-bug-outline: Passive Attacks</span> zoals malware die zijn apparaten aantast.
 
@@ -45,6 +80,8 @@ Apps kunnen geen root-toegang krijgen en hebben alleen toegang tot systeembronne
 
 </div>
 
+## Attacks against Specific Individuals
+
 <span class="pg-red">:material-target-account: Gerichte aanvallen</span>
 
 Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken. Gangbare aanvalsmethoden zijn het verzenden van schadelijke documenten via e-mails, het uitbuiten van kwetsbaarheden in de browser en het besturingssysteem, en fysieke aanvallen. Als dit voor je een punt van zorg is, moet je mogelijk meer geavanceerde strategieën ter beperking van bedreigingen toepassen.
@@ -57,6 +94,8 @@ Gerichte aanvallen tegen een specifieke gebruiker zijn moeilijker aan te pakken.
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Je moet er ook voor zorgen dat jouw schijf versleuteld is, en dat het besturingssysteem een TPM of Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) of [Element](https://developers.google.com/android/security/android-ready-se) gebruikt voor het beperken van de snelheid waarmee pogingen worden gedaan om de wachtwoordzin voor de versleuteling in te voeren. Je moet voorkomen dat je jouw computer deelt met mensen die je niet vertrouwt, omdat de meeste desktopbesturingssystemen gegevens niet afzonderlijk per gebruiker versleutelen.
+
+## Attacks against Certain Organizations
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
 
@@ -71,19 +110,19 @@ A notable example of this occurred in 2017 when M.E.Doc, a popular accounting so
 
 There are few ways in which this type of attack might be carried out:
 
-1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
 2. A developer may be coerced by an outside party to add malicious code.
 3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
 2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
 3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
-## Privacy van dienstverleners
+## Privacy from Service Providers
 
 <span class="pg-teal">:material-server-network: Dienstverleners</span>
 
@@ -98,7 +137,7 @@ Gelukkig kan end-to-end encryptie dit probleem verlichten door de communicatie t
 
 In de praktijk varieert de doeltreffendheid van verschillende implementaties van end-to-end encryptie. Toepassingen zoals [Signal](../real-time-communication.md#signal) draaien op het toestel zelf, en elke kopie van de toepassing is hetzelfde voor verschillende installaties. Als de dienstverlener een backdoor in zijn applicatie zou aanbrengen om te proberen jouw privé-sleutels te stelen, zou dat later met reverse engineering kunnen worden opgespoord.
 
-Anderzijds vertrouwen webgebaseerde end-to-end encryptie-implementaties, zoals Proton Mail's webmail of Bitwarden's web vault, erop dat de server dynamisch JavaScript-code naar de browser stuurt om cryptografische operaties uit te voeren. Een kwaadwillende server zou zich op een specifieke gebruiker kunnen richten en hem kwaadwillige JavaScript-code sturen om zijn encryptiesleutel te stelen, en het zou uiterst moeilijk zijn voor de gebruiker om zoiets ooit op te merken. Zelfs als de gebruiker de poging om zijn sleutel te stelen opmerkt, zou het ongelooflijk moeilijk zijn om te bewijzen dat het de provider is die dit probeert, omdat de server ervoor kan kiezen om verschillende webclients aan verschillende gebruikers aan te bieden.
+On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. Een kwaadwillende server zou zich op een specifieke gebruiker kunnen richten en hem kwaadwillige JavaScript-code sturen om zijn encryptiesleutel te stelen, en het zou uiterst moeilijk zijn voor de gebruiker om zoiets ooit op te merken. Zelfs als de gebruiker de poging om zijn sleutel te stelen opmerkt, zou het ongelooflijk moeilijk zijn om te bewijzen dat het de provider is die dit probeert, omdat de server ervoor kan kiezen om verschillende webclients aan verschillende gebruikers aan te bieden.
 
 Wanneer je vertrouwt op end-to-end encryptie, moet je daarom waar mogelijk native applicaties verkiezen boven web clients.
 
@@ -121,7 +160,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 </div>
 
-Regeringen rechtvaardigen massasurveillanceprogramma's vaak als noodzakelijke middelen om terrorisme te bestrijden en misdaad te voorkomen. Het schendt echter de mensenrechten en wordt meestal gebruikt om zich buitenproportioneel te richten op onder andere minderheidsgroepen en politieke dissidenten.
+Regeringen rechtvaardigen massasurveillanceprogramma's vaak als noodzakelijke middelen om terrorisme te bestrijden en misdaad te voorkomen. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
@@ -132,7 +171,7 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 
 Ondanks de toenemende massasurveillance in de Verenigde Staten heeft de regering vastgesteld dat massasurveillanceprogramma's zoals Section 215 "weinig unieke waarde" hebben gehad wat betreft het stoppen van daadwerkelijke misdaden of terroristische complotten, waarbij de inspanningen grotendeels de eigen gerichte surveillanceprogramma's van de FBI dupliceren.[^2]
 
-Ondanks de toenemende massasurveillance in de Verenigde Staten is de regering tot de conclusie gekomen dat massasurveillanceprogramma's zoals Sectie 215 "weinig unieke waarde" hebben gehad wat betreft het stoppen van echte misdaden of terroristische complotten, waarbij de inspanningen grotendeels een herhaling zijn van de eigen gerichte surveillanceprogramma's van de FBI.[^1]
+Online, you can be tracked via a variety of methods, including but not limited to:
 
 - Jouw IP-adres
 - Browser cookies
@@ -140,9 +179,9 @@ Ondanks de toenemende massasurveillance in de Verenigde Staten is de regering to
 - Jouw browser of apparaat vingerafdruk
 - Correlatie van betalingsmethodes
 
-\[Deze lijst is niet uitputtend].
-
 If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+
+## Surveillance as a Business Model
 
 <span class="pg-brown">:material-account-cash: Surveillance kapitalisme</span>
 

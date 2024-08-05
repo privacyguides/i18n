@@ -42,7 +42,7 @@ schema:
 
 מיתוסים אלו נובעים ממספר דעות קדומות, אך האם קוד המקור זמין ואופן רישיון התוכנה אינו משפיע מטבעו על אבטחתה בשום צורה. == לתוכנת קוד פתוח יש את ה*פוטנציאל* להיות מאובטח יותר מתוכנה קניינית, אבל אין שום ערובה שזה המצב.== כאשר אתה מעריך תוכנה, עליך להסתכל על המוניטין והאבטחה של כל כלי על בסיס אישי.
 
-תוכנת קוד פתוח *ניתנת* לביקורת על ידי צדדים שלישיים, ולעתים קרובות היא שקופה יותר לגבי נקודות תורפה אפשריות מאשר עמיתים קנייניים. זה גם מאפשר לך לסקור את הקוד ולהשבית כל פונקציונליות חשודה שתמצא בעצמך. עם זאת, *אלא אם כן תעשה זאת*, אין ערובה שהקוד הוערך אי פעם, במיוחד עם פרויקטי תוכנה קטנים יותר. The open development process has also sometimes been exploited to introduce new vulnerabilities known as <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+תוכנת קוד פתוח *ניתנת* לביקורת על ידי צדדים שלישיים, ולעתים קרובות היא שקופה יותר לגבי נקודות תורפה אפשריות מאשר עמיתים קנייניים. זה גם מאפשר לך לסקור את הקוד ולהשבית כל פונקציונליות חשודה שתמצא בעצמך. עם זאת, *אלא אם כן תעשה זאת*, אין ערובה שהקוד הוערך אי פעם, במיוחד עם פרויקטי תוכנה קטנים יותר. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
 
 בצד השני, תוכנה קניינית פחות שקופה, אבל זה לא מרמז על כך שהיא לא מאובטחת. פרויקטי תוכנה קנייניים גדולים ניתנים לביקורת פנימית ועל ידי סוכנויות צד שלישי, וחוקרי אבטחה בלתי תלויים עדיין יכולים למצוא נקודות תורפה עם טכניקות כמו הנדסה לאחור.
 

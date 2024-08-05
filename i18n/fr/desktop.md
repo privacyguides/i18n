@@ -232,7 +232,7 @@ Le choix d'une distribution Linux qui vous convient dépend d'une grande variét
 
 - Gratuites et open source.
 - Reçoivent régulièrement des mises à jour des logiciels et du noyau.
-- Avoids X11, as its last major release was [more than a decade](https://www.x.org/wiki/Releases) ago.
+- Avoids X11, as its last major release was [more than a decade](https://x.org/wiki/Releases) ago.
     - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - Prennent en charge le chiffrement complet du disque pendant l'installation.
 - Ne gêlent pas les mises à jour régulières pendant plus d'un an.

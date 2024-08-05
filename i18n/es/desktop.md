@@ -232,7 +232,7 @@ La elección de una distribución Linux adecuada para ti dependerá de una gran 
 
 - Gratis y de código abierto.
 - Recibe actualizaciones periódicas del software y del kernel.
-- Avoids X11, as its last major release was [more than a decade](https://www.x.org/wiki/Releases) ago.
+- Avoids X11, as its last major release was [more than a decade](https://x.org/wiki/Releases) ago.
     - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - Admite el cifrado de disco completo durante la instalación.
 - No congela las publicaciones periódicas durante más de 1 año.

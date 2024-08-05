@@ -6,15 +6,50 @@ description: Ваша модель загроз є особистою, але ц
 
 Загалом, ми класифікуємо наші рекомендації на [загрози](threat-modeling.md) або цілі, які стосуються більшості людей. ==Ви можете бути зацікавлені в жодній, одній, кількох або всіх цих можливостях==, і інструменти та сервіси, які ви використовуєте, залежать від того, які цілі ви ставите перед собою. Ви також можете мати специфічні загрози поза цими категоріями, і це цілком нормально! Важливою частиною є розуміння переваг і недоліків інструментів, які ви обираєте, оскільки практично жоден з них не захистить вас від усіх можливих загроз.
 
-- <span class="pg-purple">:material-incognito: Анонімність</span> — розмежування вашої активності в Інтернеті від вашої реальної особистості, захист від людей, які намагаються розкрити саме *вашу* особистість.
-- <span class="pg-red">:material-target-account: Цільові атаки</span> — захист від хакерів та інших зловмисників, які намагаються отримати доступ саме до *ваших* даних або пристроїв.
-- <span class="pg-orange">:material-bug-outline: Пасивні атаки</span> — захист від таких речей, як шкідливе програмне забезпечення, витік даних та інших атак, спрямованих проти багатьох людей одразу.
-- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
-- <span class="pg-teal">:material-server-network: Постачальники послуг</span> — захист ваших даних від постачальників послуг (наприклад, за допомогою E2EE, що робить ваші дані нечитабельними для сервера).
-- <span class="pg-blue">:material-eye-outline: Масове спостереження</span> — захист від державних установ, організацій, веб-сайтів та служб, які працюють разом, щоб відстежувати вашу діяльність.
-- <span class="pg-brown">:material-account-cash: Капіталізм нагляду</span> — захист від великих рекламних мереж, таких як Google і Facebook, а також безлічі інших сторонніх збирачів даних.
-- <span class="pg-green">:material-account-search: Публічний розголос</span> — обмеження інформації про вас, яка доступна в Інтернеті - пошуковим системам або широкій громадськості.
-- <span class="pg-blue-gray">:material-close-outline: Цензура</span> — уникнення цензурованого доступу до інформації або цензури під час спілкування в Інтернеті.
+<span class="pg-purple">:material-incognito: **Anonymity**</span>
+:
+
+Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+
+<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+:
+
+Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+:
+
+Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+
+<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+:
+
+Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+
+<span class="pg-teal">:material-server-network: **Service Providers**</span>
+:
+
+Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+
+<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+:
+
+Protection from government agencies, organizations, websites, and services which work together to track your activities.
+
+<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+:
+
+Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+
+<span class="pg-green">:material-account-search: **Public Exposure**</span>
+:
+
+Limiting the information about you that is accessible online—to search engines or the general public.
+
+<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+:
+
+Avoiding censored access to information or being censored yourself when speaking online.
 
 Деякі з цих загроз можуть бути важливішими для вас, ніж інші, залежно від ваших конкретних проблем. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Аналогічно, багато людей можуть бути в першу чергу стурбовані <span class="pg-green">:material-account-search: публічним розголошенням</span> їхніх персональних даних, але їм все одно слід остерігатися проблем, пов'язаних з безпекою, таких як <span class="pg-orange">:material-bug-outline: пасивні атаки</span> — як-от шкідливе програмне забезпечення, що вражає їхні пристрої.
 
@@ -45,6 +80,8 @@ description: Ваша модель загроз є особистою, але ц
 
 </div>
 
+## Attacks against Specific Individuals
+
 <span class="pg-red">:material-target-account: Цілеспрямовані атаки</span>
 
 З цілеспрямованими атаками на конкретну особу боротися складніше. Поширені атаки включають надсилання шкідливих документів електронною поштою, експлуатацію вразливостей (наприклад, у браузерах та операційних системах) і фізичні атаки. Якщо це викликає у вас занепокоєння, вам слід використовувати більш просунуті стратегії пом'якшення загроз.
@@ -57,6 +94,8 @@ description: Ваша модель загроз є особистою, але ц
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Також слід переконатися, що ваш диск зашифровано, а операційна система використовує TPM або Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) чи [Element](https://developers.google.com/android/security/android-ready-se) для обмеження кількості спроб введення ключової фрази шифрування. Вам слід уникати спільного використання комп'ютера з людьми, яким ви не довіряєте, оскільки більшість настільних операційних систем не шифрують дані окремо для кожного користувача.
+
+## Attacks against Certain Organizations
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
 
@@ -71,19 +110,19 @@ A notable example of this occurred in 2017 when M.E.Doc, a popular accounting so
 
 There are few ways in which this type of attack might be carried out:
 
-1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
 2. A developer may be coerced by an outside party to add malicious code.
 3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
 2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
 3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
-## Конфіденційність від постачальників послуг
+## Privacy from Service Providers
 
 <span class="pg-teal">:material-server-network: Постачальники послуг</span>
 
@@ -98,7 +137,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 
 На практиці ефективність різних реалізацій E2EE відрізняється. Такі додатки як [Signal](../real-time-communication.md#signal) працюють на вашому пристрої за замовчуванням, і кожна копія програми однакова для різних інсталяцій. Якщо постачальник послуг впровадить [бекдор](https://uk.wikipedia.org/wiki/Бекдор) у свій додаток — у спробі викрасти ваші приватні ключі — це можна буде пізніше виявити за допомогою [зворотної розробки](https://uk.wikipedia.org/wiki/Зворотня_розробка).
 
-З іншого боку, веб-реалізації E2EE, такі як веб-пошта Proton Mail або *Web Vault* від Bitwarden, покладаються на сервер, який динамічно надає браузеру код JavaScript для провадження криптографії. Шкідливий сервер може вибрати вас і надіслати вам шкідливий JavaScript-код, щоб викрасти ваш ключ шифрування (і це буде надзвичайно важко помітити). Оскільки сервер може обслуговувати різних веб-клієнтів для різних людей — навіть якщо ви помітили атаку — довести провину провайдера буде неймовірно складно.
+On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. Шкідливий сервер може вибрати вас і надіслати вам шкідливий JavaScript-код, щоб викрасти ваш ключ шифрування (і це буде надзвичайно важко помітити). Оскільки сервер може обслуговувати різних веб-клієнтів для різних людей — навіть якщо ви помітили атаку — довести провину провайдера буде неймовірно складно.
 
 Тому вам слід використовувати нативні додатки замість веб-клієнтів, коли це можливо.
 
@@ -121,7 +160,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 </div>
 
-Уряди часто виправдовують програми масового спостереження як необхідні засоби для боротьби з тероризмом і запобігання злочинності. Однак, порушуючи права людини, це найчастіше використовується для непропорційного переслідування груп меншин та політичних дисидентів, серед інших.
+Уряди часто виправдовують програми масового спостереження як необхідні засоби для боротьби з тероризмом і запобігання злочинності. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
@@ -132,7 +171,7 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 
 Незважаючи на зростання масового стеження в США, уряд виявив, що програми масового стеження, такі як Розділ 215, мають "невелику унікальну цінність" щодо припинення реальних злочинів або терористичних змов, а їхні зусилля значною мірою дублюють власні програми цільового стеження, що проводяться ФБР.[^2]
 
-В Інтернеті вас можуть відстежувати різними способами:
+Online, you can be tracked via a variety of methods, including but not limited to:
 
 - Ваша IP-адреса
 - Файли cookie браузера
@@ -140,9 +179,9 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 - Відбиток вашого браузера або пристрою
 - Кореляція способів оплати
 
-\[Цей список не є вичерпним].
-
 If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+
+## Surveillance as a Business Model
 
 <span class="pg-brown">:material-account-cash: Капіталізм нагляду</span>
 

@@ -6,15 +6,50 @@ description: Model ancaman Anda bersifat pribadi bagi Anda, tetapi ini adalah be
 
 Secara garis besar, kami mengkategorikan rekomendasi kami ke dalam [ancaman](threat-modeling.md) atau tujuan yang berlaku untuk kebanyakan orang. ==Anda mungkin tidak peduli dengan tidak ada, satu, beberapa, atau semua kemungkinan ini==, dan alat dan layanan yang Anda gunakan tergantung pada tujuan Anda. Anda mungkin juga memiliki ancaman khusus di luar kategori ini, dan itu tidak masalah! Bagian yang penting adalah mengembangkan pemahaman tentang manfaat dan kekurangan alat yang Anda pilih untuk digunakan, karena hampir tidak ada satu pun yang akan melindungi Anda dari setiap ancaman.
 
-- <span class="pg-purple">:material-incognito: Anonimitas</span> - Melindungi aktivitas daring Anda dari identitas asli Anda, melindungi Anda dari orang-orang yang mencoba mengungkap identitas *Anda* secara khusus.
-- <span class="pg-red">:material-target-account: Serangan yang Ditargetkan</span> - Terlindungi dari peretas atau aktor jahat lainnya yang mencoba untuk mendapatkan akses ke data atau perangkat *Anda* secara khusus.
-- <span class="pg-orange">:material-bug-outline: Serangan Pasif</span> - Terlindungi dari hal-hal seperti malware, pembobolan data, dan serangan lain yang dilakukan terhadap banyak orang sekaligus.
-- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
-- <span class="pg-teal">:material-server-network: Penyedia Layanan</span> - Melindungi data Anda dari penyedia layanan (misalnya dengan E2EE, yang membuat data Anda tidak dapat dibaca oleh server).
-- <span class="pg-blue">:material-eye-outline: Pengawasan Massal</span> - Perlindungan dari lembaga, organisasi, situs web, dan layanan pemerintah yang bekerja sama untuk melacak aktivitas Anda.
-- <span class="pg-brown">:material-account-cash: Kapitalisme Pengawasan</span> - Melindungi diri Anda dari jaringan periklanan besar, seperti Google dan Facebook, serta segudang pengumpul data pihak ketiga lainnya.
-- <span class="pg-green">:material-account-search: Paparan Publik</span> - Membatasi informasi tentang Anda yang dapat diakses secara daring—pada mesin pencari atau masyarakat umum.
-- <span class="pg-blue-gray">:material-close-outline: Penyensoran</span> - Menghindari akses yang disensor terhadap informasi atau disensor ketika berbicara secara daring.
+<span class="pg-purple">:material-incognito: **Anonymity**</span>
+:
+
+Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+
+<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+:
+
+Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+:
+
+Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+
+<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+:
+
+Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+
+<span class="pg-teal">:material-server-network: **Service Providers**</span>
+:
+
+Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+
+<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+:
+
+Protection from government agencies, organizations, websites, and services which work together to track your activities.
+
+<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+:
+
+Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+
+<span class="pg-green">:material-account-search: **Public Exposure**</span>
+:
+
+Limiting the information about you that is accessible online—to search engines or the general public.
+
+<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+:
+
+Avoiding censored access to information or being censored yourself when speaking online.
 
 Beberapa ancaman ini mungkin lebih penting bagi Anda daripada yang lain, tergantung pada kekhawatiran Anda. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Demikian pula, banyak orang mungkin lebih peduli dengan <span class="pg-green">:material-account-search: Paparan Publik</span> pada data pribadi mereka, tetapi mereka tetap harus waspada terhadap masalah yang berfokus pada keamanan, seperti <span class="pg-orange">:material-bug-outline: Serangan Pasif</span>—seperti perangkat lunak jahat yang memengaruhi perangkat mereka.
 
@@ -45,6 +80,8 @@ Sistem operasi desktop umumnya tertinggal dalam hal kotak pasir yang tepat. Chro
 
 </div>
 
+## Attacks against Specific Individuals
+
 <span class="pg-red">:material-target-account: Serangan Bertarget</span>
 
 Serangan yang ditargetkan terhadap orang tertentu akan lebih sulit ditangani. Serangan yang umum terjadi termasuk mengirim dokumen berbahaya melalui surel, mengeksploitasi kerentanan (misalnya pada peramban dan sistem operasi), dan serangan fisik. Jika hal ini menjadi perhatian Anda, Anda harus menggunakan strategi mitigasi ancaman yang lebih canggih.
@@ -57,6 +94,8 @@ Secara rancangan, **peramban web**, **klien surel**, dan **aplikasi perkantoran*
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Anda juga harus memastikan bahwa penyimpanan Anda dienkripsi, dan bahwa sistem operasi menggunakan TPM atau Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) atau [Element](https://developers.google.com/android/security/android-ready-se) untuk menilai batas upaya memasukkan frasa sandi enkripsi. Anda sebaiknya menghindari berbagi komputer dengan orang yang tidak Anda percayai, karena sebagian besar sistem operasi desktop tidak mengenkripsi data secara terpisah per pengguna.
+
+## Attacks against Certain Organizations
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
 
@@ -71,19 +110,19 @@ A notable example of this occurred in 2017 when M.E.Doc, a popular accounting so
 
 There are few ways in which this type of attack might be carried out:
 
-1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
 2. A developer may be coerced by an outside party to add malicious code.
 3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
 2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
 3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
-## Privasi Dari Penyedia Layanan
+## Privacy from Service Providers
 
 <span class="pg-teal">:material-server-network: Penyedia Layanan</span>
 
@@ -98,7 +137,7 @@ Untungnya, E2EE dapat mengatasi masalah ini dengan mengenkripsi komunikasi antar
 
 Dalam praktiknya, efektivitas implementasi E2EE yang berbeda bervariasi. Aplikasi, seperti [Signal](../real-time-communication.md#signal), berjalan secara asli pada perangkat Anda, dan setiap salinan aplikasi sama pada instalasi yang berbeda. Jika penyedia layanan memperkenalkan sebuah [pintu belakang](https://id.wikipedia.org/wiki/Pintu_belakang_(komputer)) dalam aplikasi mereka—dalam upaya untuk mencuri kunci pribadi Anda—nantinya dapat dideteksi dengan [rekayasa balik] (https://id.wikipedia.org/wiki/Rekayasa_balik).
 
-Di sisi lain, implementasi E2EE berbasis web, seperti surel web Proton Mail atau *Web Vault* dari Bitwarden, bergantung pada server yang secara dinamis menyajikan kode JavaScript ke peramban untuk menangani kriptografi. Sebuah server jahat dapat menargetkan Anda dan mengirimkan kode JavaScript berbahaya untuk mencuri kunci enkripsi Anda (dan akan sangat sulit untuk diketahui). Karena server dapat memilih untuk melayani klien web yang berbeda untuk orang yang berbeda—bahkan jika Anda menyadari serangan itu—akan sangat sulit untuk membuktikan kesalahan penyedia.
+On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. Sebuah server jahat dapat menargetkan Anda dan mengirimkan kode JavaScript berbahaya untuk mencuri kunci enkripsi Anda (dan akan sangat sulit untuk diketahui). Karena server dapat memilih untuk melayani klien web yang berbeda untuk orang yang berbeda—bahkan jika Anda menyadari serangan itu—akan sangat sulit untuk membuktikan kesalahan penyedia.
 
 Oleh karena itu, Anda seharusnya menggunakan aplikasi asli daripada klien web bila memungkinkan.
 
@@ -121,7 +160,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 </div>
 
-Pemerintah sering kali membenarkan program pengawasan massal sebagai cara yang diperlukan untuk memerangi terorisme dan mencegah kejahatan. Namun, melanggar hak asasi manusia, hal ini paling sering digunakan untuk menargetkan kelompok minoritas dan pembangkang politik secara tidak proporsional.
+Pemerintah sering kali membenarkan program pengawasan massal sebagai cara yang diperlukan untuk memerangi terorisme dan mencegah kejahatan. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
@@ -132,7 +171,7 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 
 Meskipun pengawasan massal semakin meningkat di Amerika Serikat, pemerintah telah menemukan bahwa program pengawasan massal seperti Bagian 215 hanya memiliki "sedikit nilai unik" dalam hal menghentikan kejahatan aktual atau plot teroris, dengan upaya-upaya yang sebagian besar menduplikasi program pengawasan yang ditargetkan oleh FBI.[^2]
 
-Secara daring, Anda dapat dilacak melalui berbagai metode:
+Online, you can be tracked via a variety of methods, including but not limited to:
 
 - Alamat IP Anda
 - Kuki peramban
@@ -140,9 +179,9 @@ Secara daring, Anda dapat dilacak melalui berbagai metode:
 - Sidik jari peramban atau perangkat Anda
 - Korelasi metode pembayaran
 
-\[Daftar ini tidak lengkap].
-
 If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+
+## Surveillance as a Business Model
 
 <span class="pg-brown">:material-account-cash: Kapitalisme Pengawasan</span>
 

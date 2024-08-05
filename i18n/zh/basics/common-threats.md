@@ -6,15 +6,50 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 
 广义而言，可以将我们有关[威胁](threat-modeling.md) 或者适用于大多数人的目标的建议分为这几类。 ==你可能关注其中零个、 一个、 几个、 或所有这些可能性==， 你应该使用的工具和服务取决于你的目标。 你可能也有这些类别之外的特定威胁，这完全可以！ 重要的是要去了解您选择的这些工具的优缺点，因为也许任何工具都不能够保护您免受所有可以想象到的威胁。
 
-- <span class="pg-purple">:material-incognito: 匿名性</span> - 隔离你的线上活动和你的真实身份, 特别是要保护 *你的* 身份不被人揭露。
-- <span class="pg-red">:material-target-account: 定向攻击</span> -防御专业黑客或恶意代理人获得，特别是 *你的* 数据或设备的访问权。
-- <span class="pg-orange">:material-bug-outline: 被动攻击</span> - 防御诸如恶意软件、数据泄露和其他一些同时针对许多人的攻击。
-- <span class="pg-viridian">:material-package-variant-closed-remove: 供应链攻击</span> - 将漏洞或漏洞利用直接或通过第三方依赖引入到原本良好的软件中。
-- <span class="pg-teal">:material-server-network: 服务供应商</span> - 保护您的数据不受服务供应商的影响，例如，通过端到端加密使您的数据无法被服务器读取。
-- <span class="pg-blue">:material-eye-outline: 大规模监控</span> - 防止政府机构、组织、网站和服务联合起来共同追踪你的活动。
-- <span class="pg-brown">:material-account-cash: 监视资本主义</span> - 保护自己不受谷歌和Facebook等大型广告网络以及其他无数第三方数据收集者的影响
-- <span class="pg-green">:material-account-search: 公开曝光</span> - 限制搜索引擎或一般公众在线访问到关于你的信息的能力。
-- <span class="pg-blue-gray">:material-close-outline: 审查</span> - 避免信息的获取受到审查或者在网上的发言被审查。
+<span class="pg-purple">:material-incognito: **Anonymity**</span>
+:
+
+Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+
+<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+:
+
+Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+:
+
+Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+
+<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+:
+
+Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+
+<span class="pg-teal">:material-server-network: **Service Providers**</span>
+:
+
+Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+
+<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+:
+
+Protection from government agencies, organizations, websites, and services which work together to track your activities.
+
+<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+:
+
+Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+
+<span class="pg-green">:material-account-search: **Public Exposure**</span>
+:
+
+Limiting the information about you that is accessible online—to search engines or the general public.
+
+<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+:
+
+Avoiding censored access to information or being censored yourself when speaking online.
 
 其中一些威胁可能比其他威胁更重要，具体取决于您的关注点。 For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. 同样，"普通人 "可能主要关心他们的个人数据的 <span class="pg-green">:material-account-search: ，公开曝光</span> ，但他们仍应警惕那些侧重于安全的问题，比如<span class="pg-orange">:material-bug-outline: ，被动攻击</span>，就像那些会影响到设备的恶意软件 。
 
@@ -45,6 +80,8 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 
 </div>
 
+## Attacks against Specific Individuals
+
 <span class="pg-red">:material-target-account: 定向攻击</span>
 
 针对特定用户的有针对性的攻击更加难以处理。 常见的攻击途径包括通过电子邮件发送恶意文件，利用浏览器和操作系统的漏洞，以及物理攻击。 如果您担心这一点，则可能需要采用更高级的威胁缓解策略。
@@ -57,6 +94,8 @@ description: 您的威胁模式是您自己量身定制的，但这些是本网�
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). 你还应该确保你的驱动器是加密的，并且操作系统使用TPM或安全 [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) ，以限制输入加密口令的重试速率。 你应该避免与你不信任的人分享你的电脑，因为大多数桌面操作系统没有按用户单独加密数据。
+
+## Attacks against Certain Organizations
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
 
@@ -71,19 +110,19 @@ A notable example of this occurred in 2017 when M.E.Doc, a popular accounting so
 
 There are few ways in which this type of attack might be carried out:
 
-1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
 2. A developer may be coerced by an outside party to add malicious code.
 3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
 2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
 3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
-## 来自服务提供商的隐私
+## Privacy from Service Providers
 
 <span class="pg-teal">:material-server-network: 服务提供商</span>
 
@@ -98,7 +137,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 
 在实践中，不同的端到端加密实现的有效性各不相同。 [Signal](../real-time-communication.md＃signal)这类应用程序在您的设备本地运行，并且应用程序副本在不同的安装下保持相同。 如果服务提供商在他们的应用程序中设置后门，试图窃取你的私钥，这可以在未来通过逆向工程检测出来。
 
-另一方面，基于Web的端到端加密实现（如Proton Mail的webmail或Bitwarden的web vault）依赖于服务器动态地向浏览器提供JavaScript代码来处理加密操作。 一个恶意的服务器可以针对一个特定的用户，向他们发送恶意的JavaScript代码来窃取他们的加密密钥，而用户是很难注意到这样的事情的。 即使用户注意到有人试图窃取他们的密钥，也很难证明是提供商试图这样做，因为服务器可以选择向不同的用户提供不同的网络客户端。
+On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. 一个恶意的服务器可以针对一个特定的用户，向他们发送恶意的JavaScript代码来窃取他们的加密密钥，而用户是很难注意到这样的事情的。 即使用户注意到有人试图窃取他们的密钥，也很难证明是提供商试图这样做，因为服务器可以选择向不同的用户提供不同的网络客户端。
 
 因此，当依赖端到端加密时，你应该尽可能选择使用本地应用程序而不是网络客户端。
 
@@ -121,7 +160,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 </div>
 
-政府经常为大规模监控项目辩护，认为这是打击恐怖主义和防止犯罪的必要手段。 然而，它侵犯人权，最常被用来不成比例地针对少数群体和持不同政见者等。
+政府经常为大规模监控项目辩护，认为这是打击恐怖主义和防止犯罪的必要手段。 However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
@@ -132,7 +171,7 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 
 尽管美国的大规模监控越来越多，但政府发现，像第215条这样的大规模监控计划在阻止实际犯罪或恐怖主义阴谋方面 "没有什么独特的价值"，其努力主要是重复联邦调查局自己的目标监控计划。[^2]
 
-尽管美国的大规模监控越来越多，但政府发现，像第215条这样的大规模监控计划在阻止实际犯罪或恐怖主义阴谋方面 "没有什么独特的价值"，这份工作基本上只是在重复联邦调查局本身的目标监控计划。[^1]
+Online, you can be tracked via a variety of methods, including but not limited to:
 
 - 你的IP地址
 - 浏览器 Cookie
@@ -140,9 +179,9 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 - 你的浏览器或设备指纹
 - 支付方式的关联
 
-\ [此列表并非详尽无遗]。
-
 If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+
+## Surveillance as a Business Model
 
 <span class="pg-brown">:material-account-cash: 监视资本主义</span>
 

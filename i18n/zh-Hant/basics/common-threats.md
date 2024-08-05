@@ -6,15 +6,50 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 廣義來講，我們將建議歸類為適用於大多數人的 [威脅](threat-modeling.md) 或目標。 您可能會在意各種可能性的組合，而選用的工具和服務則取決於您的目標何在。 您也可能有超出這些類別之外的特定威脅，這完全有可能！ 重要的是要了解您選擇使用的工具的好處和缺點，因為幾乎沒有一種工具可以保護您免受任何威脅。
 
-- <span class="pg-purple">:material-incognito: 匿名</span> -保護您的在線活動免受您真實身份影響，保護您防範某些企圖揭露 *您* 身份的侵害。
-- <span class="pg-red">:material-target-account: 針對性攻擊</span> -保護免受駭客或其他惡意行為者的攻擊，他們正試圖存取訪問 *您的* 資料或設備。
-- <span class="pg-orange">:material-bug-outline: 被動攻擊</span> -保護免受惡意軟體、數據洩露和其他同時針對多人的攻擊。
-- <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span> - 直接或透過第三方依賴軟體引入的弱點或破壞。
-- <span class="pg-teal">:material-server-network: 服務供應商</span> - 保護您的資料免受服務供應商侵害（例如，使用 E2EE ，使您保存在伺服器的資料無法被他人讀取）。
-- <span class="pg-blue">:material-eye-outline: 大規模監控</span> -保護您免受政府機構、組織、網站和服務共同追蹤您的活動。
-- <span class="pg-brown">:material-account-cash: 監控資本主義</span> - 保議自己不會被  Google， Facebook 等大型網路廣告以及其它無數第三方資料收集者監控。
-- <span class="pg-green">:material-account-search: 公開曝光</span> -限制搜尋引擎或一般大眾可在網路上找到有關您的資訊。
-- <span class="pg-blue-gray">:material-close-outline: 審查</span> -避免資訊被封鎖或自己的網路發言時受到審查。
+<span class="pg-purple">:material-incognito: **Anonymity**</span>
+:
+
+Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+
+<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+:
+
+Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+:
+
+Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+
+<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+:
+
+Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+
+<span class="pg-teal">:material-server-network: **Service Providers**</span>
+:
+
+Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+
+<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+:
+
+Protection from government agencies, organizations, websites, and services which work together to track your activities.
+
+<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+:
+
+Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+
+<span class="pg-green">:material-account-search: **Public Exposure**</span>
+:
+
+Limiting the information about you that is accessible online—to search engines or the general public.
+
+<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+:
+
+Avoiding censored access to information or being censored yourself when speaking online.
 
 其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 例如，有權存取有價值或關鍵資料的軟體開發人員可能主要關心 <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span> 和 <span class="pg-red">:material-target-account: 針對性的攻擊</span>。 他們可能仍然希望保護自己的個人資料免受 <span class="pg-blue">:material-eye-outline: 大規模監控</span> 計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>—例如惡意軟件影響他們的設備。
 
@@ -45,6 +80,8 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 </div>
 
+## Attacks against Specific Individuals
+
 <span class="pg-red">:material-target-account: 針對性攻擊</span>
 
 針對特定人士的針對性攻擊更難處理。 常見的攻擊包括通過電子郵件發送惡意文件、利用(瀏覽器和操作系統的)漏洞以及物理攻擊。 如果這是您擔心這點，應該採用更先進的威脅減輕策略。
@@ -57,6 +94,8 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 </div>
 
 若特別擔心 **物理攻擊**，就應選用具安全驗證開機的作業系統，例如 Android, iOS, macOS, 或[Windows (帶 TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process)。 應確保您的驅動器是加密的，並且操作系統使用 TPM或 Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) 來限制輸入加密密碼的嘗試率。 您應該避免與不信任的人共享您的電腦，因為大多數桌面作業系統不會單獨加密每個用戶的數據。
+
+## Attacks against Certain Organizations
 
 <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span>
 
@@ -71,19 +110,19 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 執行此類攻擊的方式有以下幾種：
 
-1. 貢獻者或員工可能會努力在專案或組織中獲得權力職位，然後濫用該職位添加惡意程式碼。
+1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
 2. 開發人員可能會受到外部脅迫添加惡意程式碼。
 3. 個人或團體可能會識別第三方軟體依賴（也稱為庫），並透過上述兩種方法對其進行滲透，因為他們知道它將被「下游」軟體開發人員使用。
 
-此類攻擊可能需要大量時間和準備才能執行，且存在風險，因為它們可以被檢測到，特別是在開源專案中，如果很受歡迎受到外部關注的話。 不幸的是，它們也是最危險的之一，很難完全緩解。 我們鼓勵讀者僅使用具有良好聲譽的軟體，並透過以下方式努力降低風險：
+此類攻擊可能需要大量時間和準備才能執行，且存在風險，因為它們可以被檢測到，特別是在開源專案中，如果很受歡迎受到外部關注的話。 不幸的是，它們也是最危險的之一，很難完全緩解。 We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
 
-1. 只採用已經存在一段時間的流行軟體。 專案引發的興趣越大，外部各方注意到惡意更改的可能性就越大。 惡意行為者還需要花費更多時間透過有意義的貢獻來贏得社群信任。
+1. 只採用已經存在一段時間的流行軟體。 The more interest in a project, the greater likelihood that external parties will notice malicious changes. 惡意行為者還需要花費更多時間透過有意義的貢獻來贏得社群信任。
 2. 尋找透過廣泛使用的、可信任的建置基礎架構平台發布二進位檔案的軟體，而不是開發人員工作站或自架伺服器。 某些系統（例如 GitHub Actions）可檢查公開執行的建置腳本，以獲得額外的信心。 這降低了開發人員電腦上的惡意軟體感染其軟體包的可能性，讓人確信生成的二進位檔案是正確生成的。
 3. 尋找單一原始碼提交和發布的程式碼簽名，這會建立誰做了什麼的可審計追蹤。 例如：惡意程式碼是否在軟體儲放庫中？ 哪個開發者添加的？ 是建置過程中新增的嗎？
-4. 檢查原始程式碼是否提交有意義的訊息（例如[常規提交](https://conventionalcommits.org)），這些訊息解釋了更改應完成的任務。 清晰的訊息可以讓外部人士更容易驗證、審核和發現錯誤。
-5. 注意程式的貢獻者或維護者的數量。 單獨開發人員可能更容易被外部方強迫添加惡意程式碼，或因疏忽導致不良行為。 這很可能意味著「大型科技公司」開發的軟體比不向任何人負責的單獨開發人員受到更多審查。
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. 清晰的訊息可以讓外部人士更容易驗證、審核和發現錯誤。
+5. 注意程式的貢獻者或維護者的數量。 A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. 這很可能意味著「大型科技公司」開發的軟體比不向任何人負責的單獨開發人員受到更多審查。
 
-## 服務供應商的隱私權
+## Privacy from Service Providers
 
 <span class="pg-teal">:material-server-network: 服務提供商</span>
 
@@ -98,7 +137,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal)，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程序中引入[後門](https://zh.wikipedia.org/wiki/Backdoor_(computing)) ----試圖竊取您的私鑰----它稍後可以通過[逆向工程](https://zh.wikipedia.org/wiki/Reverse_engineering)檢測。
 
-另一方面，執行網頁 E2EE，例如 Proton Mail 的網頁郵件或Bitwarden 的 *Web Vault*，依靠伺服器動態地向瀏覽器提供JavaScript 代碼來處理加密。 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密密鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
+On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密密鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
 
 因此，您應該盡可能使用原生軟體程式多於網頁客戶端。
 
@@ -121,7 +160,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 </div>
 
-政府常認為大規模監控計劃是打擊恐怖主義和預防犯罪的必要手段。 然而，少數羣體和政治異見人士最常遭受不成比例地人權侵害。
+政府常認為大規模監控計劃是打擊恐怖主義和預防犯罪的必要手段。 However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
@@ -132,7 +171,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 儘管在美國有越來越多的大規模監控，政府卻發現像依 215 條採取的監控計畫在阻卻犯案與恐怖陰謀上沒有實用價值，它們幾乎只是重複著 FBI 所做的特定監控計畫而已。[^2]
 
-在網上，您可以通過各種方法進行追蹤：
+Online, you can be tracked via a variety of methods, including but not limited to:
 
 - 您的 IP 地址
 - 瀏覽器 cookie
@@ -140,9 +179,9 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 - 您的瀏覽器或裝置指紋
 - 付款方式關聯
 
-\ [此列表並非詳盡無缺]。
-
 如果您擔心大規模監控計劃，您可以隨時隨地策略性避免提供識別個資，例如劃分您的網路身份，與其他用戶混合。
+
+## Surveillance as a Business Model
 
 <span class="pg-brown">:material-account-cash: 監控資本主義</span>
 

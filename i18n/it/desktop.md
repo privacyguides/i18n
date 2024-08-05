@@ -232,7 +232,7 @@ La scelta di una distro Linux adatta a te dipende da una grande varietà di pref
 
 - Gratuito e open source.
 - Ricevono aggiornamenti regolari del software e del kernel.
-- Avoids X11, as its last major release was [more than a decade](https://www.x.org/wiki/Releases) ago.
+- Avoids X11, as its last major release was [more than a decade](https://x.org/wiki/Releases) ago.
     - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - Supportano la crittografia del disco completo durante l'installazione.
 - Non interrompono le versioni regolari per più di 1 anno.

@@ -232,7 +232,7 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 - 免費且開放原始碼。
 - 必須定期接收軟體和內核更新。
-- Avoids X11, as its last major release was [more than a decade](https://www.x.org/wiki/Releases) ago.
+- Avoids X11, as its last major release was [more than a decade](https://x.org/wiki/Releases) ago.
     - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - 安裝時必須支援全磁碟加密。
 - 不可將定期更新發佈凍結超過1年。

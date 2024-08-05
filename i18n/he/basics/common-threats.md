@@ -6,15 +6,50 @@ description: מודל האיום שלך הוא אישי עבורך, אך אלו 
 
 באופן כללי, אנו מסווגים את ההמלצות שלנו ל[איומים](threat-modeling.md) או יעדים שחלים על רוב האנשים. ==ייתכן שאתה מודאג מאף אחת, אחת, כמה, או מכל האפשרויות האלה==, והכלים והשירותים שבהם אתה משתמש תלויים במטרותיך. ייתכן שיש לך איומים ספציפיים גם מחוץ לקטגוריות האלה, וזה בסדר גמור! החלק החשוב הוא פיתוח הבנה של היתרונות והחסרונות של הכלים שבהם אתה בוחר להשתמש, כי למעשה אף אחד מהם לא יגן עליך מכל איום.
 
-- <span class="pg-purple">:material-incognito: אנונימיות</span> - הגנה על הפעילות המקוונת שלך מהזהות האמיתית שלך, הגנה עליך מפני אנשים שמנסים לחשוף את הזהות *שלך* ספציפית.
-- <span class="pg-red">:material-target-account: התקפות ממוקדות</span> - הגנה מפני האקרים או שחקנים זדוניים אחרים שמנסים לקבל גישה לנתונים או מכשירים ספציפיים *שלך*.
-- <span class="pg-orange">:material-bug-outline: התקפות פסיביות</span> - הגנה מפני דברים כמו תוכנות זדוניות, פרצות נתונים והתקפות אחרות שנעשות נגד אנשים רבים בו-זמנית.
-- <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> - A vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
-- <span class="pg-teal">:material-server-network: ספקי שירותים</span> - הגנה על הנתונים שלך מפני ספקי שירות (למשל באמצעות E2EE, מה שהופך את הנתונים שלך לבלתי קריאים לשרת).
-- <span class="pg-blue">:material-eye-outline: מעקב המוני</span> - הגנה מפני סוכנויות ממשלתיות, ארגונים, אתרים ושירותים הפועלים יחד כדי לעקוב אחר הפעילויות שלך.
-- <span class="pg-brown">:material-account-cash: קפיטליזם מעקב</span> - הגנה על עצמך מפני רשתות פרסום גדולות, כמו גוגל ופייסבוק, כמו גם ממספר עצום של אוספי נתונים אחרים של צד שלישי.
-- <span class="pg-green">:material-account-search: חשיפה ציבורית</span> - הגבלת המידע אודותיך הנגיש באינטרנט - למנועי חיפוש או לציבור הרחב.
-- <span class="pg-blue-gray">:material-close-outline: צנזורה</span> - הימנעות מגישה מצונזרת למידע או מצונזר בעצמך כשאתה מדבר באינטרנט.
+<span class="pg-purple">:material-incognito: **Anonymity**</span>
+:
+
+Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+
+<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+:
+
+Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+:
+
+Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+
+<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+:
+
+Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+
+<span class="pg-teal">:material-server-network: **Service Providers**</span>
+:
+
+Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+
+<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+:
+
+Protection from government agencies, organizations, websites, and services which work together to track your activities.
+
+<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+:
+
+Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+
+<span class="pg-green">:material-account-search: **Public Exposure**</span>
+:
+
+Limiting the information about you that is accessible online—to search engines or the general public.
+
+<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+:
+
+Avoiding censored access to information or being censored yourself when speaking online.
 
 חלק מהאיומים הללו עשויים להיות חשובים לך יותר מאחרים, בהתאם לדאגות הספציפיות שלך. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. באופן דומה, אנשים רבים עשויים להיות מודאגים בעיקר מ<span class="pg-green">:material-account-search: חשיפה ציבורית</span> של הנתונים האישיים שלהם, אך הם עדיין צריכים להיזהר מבעיות ממוקדות אבטחה, כגון <span class="pg-orange">:material-bug-outline: התקפות פסיביות</span>—כמו תוכנות זדוניות המשפיעות על המכשירים שלהם.
 
@@ -45,6 +80,8 @@ description: מודל האיום שלך הוא אישי עבורך, אך אלו 
 
 </div>
 
+## Attacks against Specific Individuals
+
 <span class="pg-red">:material-target-account: התקפות ממוקדות</span>
 
 התקפות ממוקדות נגד אדם ספציפי הן בעייתיות יותר להתמודדות. התקפות נפוצות כוללות שליחת מסמכים זדוניים באמצעות מייל, ניצול פגיעויות (למשל בדפדפנים ובמערכות הפעלה) והתקפות פיזיות. אם זה מדאיג אותך, עליך להשתמש באסטרטגיות מתקדמות יותר להפחתת איומים.
@@ -57,6 +94,8 @@ description: מודל האיום שלך הוא אישי עבורך, אך אלו 
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). עליך גם לוודא שהכונן שלך מוצפן ושמערכת ההפעלה משתמשת ב-TPM או ב-Secure [מובלע](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) או [אלמנט](https://developers.google.com/android/security/android-ready-se) כדי להגביל ניסיונות להזין את ביטוי הסיסמה להצפנה. עליך להימנע משיתוף המחשב שלך עם אנשים שאינך סומך עליהם, מכיוון שרוב מערכות ההפעלה שולחניות אינן מצפינות נתונים בנפרד לכל משתמש.
+
+## Attacks against Certain Organizations
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
 
@@ -71,19 +110,19 @@ A notable example of this occurred in 2017 when M.E.Doc, a popular accounting so
 
 There are few ways in which this type of attack might be carried out:
 
-1. A contributor or employee might work their way into a position of power within a project or organization, then abuse that position by adding malicious code.
+1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
 2. A developer may be coerced by an outside party to add malicious code.
 3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers only use software which has a good reputation and makes an effort to reduce risk by:
+These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
 2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
 3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what the change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enable undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
+5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
-## פרטיות מספקי שירות
+## Privacy from Service Providers
 
 <span class="pg-teal">:material-server-network: ספקי שירות</span>
 
@@ -98,7 +137,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 
 בפועל, היעילות של יישומי E2EE שונים משתנה. אפליקציות, כגון [Signal](../real-time-communication.md#signal), פועלות באופן מקורי במכשיר שלך, וכל עותק של האפליקציה זהה בהתקנות שונות. אם ספק השירות היה מציג [דלת אחורית](https://en.wikipedia.org/wiki/Backdoor_(computing)) באפליקציה שלו - בניסיון לגנוב את המפתחות הפרטיים שלך - ניתן היה לזהות אותו מאוחר יותר באמצעות [הפוך הנדסה](https://en.wikipedia.org/wiki/Reverse_engineering).
 
-מצד שני, יישומי E2EE מבוססי אינטרנט, כמו דואר האינטרנט של Proton Mail או *כספת האינטרנט* של Bitwarden, מסתמכים על השרת שמגיש באופן דינמי קוד JavaScript לדפדפן כדי לטפל בהצפנה. שרת זדוני יכול למקד אותך ולשלוח לך קוד JavaScript זדוני כדי לגנוב את מפתח ההצפנה שלך (והיה קשה מאוד לשים לב אליו). מכיוון שהשרת יכול לבחור לשרת לקוחות אינטרנט שונים לאנשים שונים - גם אם שמתם לב להתקפה - יהיה קשה מאוד להוכיח את אשמתו של הספק.
+On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. שרת זדוני יכול למקד אותך ולשלוח לך קוד JavaScript זדוני כדי לגנוב את מפתח ההצפנה שלך (והיה קשה מאוד לשים לב אליו). מכיוון שהשרת יכול לבחור לשרת לקוחות אינטרנט שונים לאנשים שונים - גם אם שמתם לב להתקפה - יהיה קשה מאוד להוכיח את אשמתו של הספק.
 
 לכן, עליך להשתמש ביישומים מקוריים על פני לקוחות אינטרנט במידת האפשר.
 
@@ -121,7 +160,7 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 </div>
 
-ממשלות לעתים קרובות מצדיקות תוכניות מעקב המוניות כאמצעים הכרחיים למאבק בטרור ולמניעת פשע. עם זאת, תוך הפרת זכויות אדם, הוא משמש לרוב כדי למקד באופן לא פרופורציונלי קבוצות מיעוט ומתנגדים פוליטיים, בין היתר.
+ממשלות לעתים קרובות מצדיקות תוכניות מעקב המוניות כאמצעים הכרחיים למאבק בטרור ולמניעת פשע. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
@@ -132,7 +171,7 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 
 למרות המעקב ההמוני הגובר בארצות הברית, הממשלה מצאה שלתוכניות מעקב המוני כמו סעיף 215 היה "ערך ייחודי מועט" ביחס לעצירת פשעים או מזימות טרור בפועל, כאשר מאמצים משכפלים במידה רבה את תוכניות המעקב הממוקדות של ה-FBI עצמו.[^2]
 
-באינטרנט, ניתן לעקוב אחריך במגוון שיטות:
+Online, you can be tracked via a variety of methods, including but not limited to:
 
 - כתובת ה-IP שלך
 - עוגיות דפדפן
@@ -140,9 +179,9 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 - טביעת האצבע של הדפדפן או המכשיר שלך
 - מתאם שיטת תשלום
 
-\[רשימה זו אינה ממצה].
-
 If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+
+## Surveillance as a Business Model
 
 <span class="pg-brown">:material-account-cash: קפיטליזם מעקב</span>
 
