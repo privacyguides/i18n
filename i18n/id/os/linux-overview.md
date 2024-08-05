@@ -103,14 +103,6 @@ Pertimbangkan untuk menggunakan [ZRAM](https://wiki.archlinux.org/title/Zram#Usi
 
 Jika Anda memerlukan fungsi suspend-to-disk (hibernasi), Anda masih perlu menggunakan berkas atau partisi swap tradisional. Pastikan ruang swap yang Anda miliki pada perangkat penyimpanan persisten, paling tidak, [dienkripsi](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) untuk mengurangi sebagian ancaman ini.
 
-### Wayland
-
-Kami menyarankan untuk menggunakan lingkungan desktop yang mendukung protokol tampilan [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)), karena protokol ini dikembangkan dengan [mempertimbangkan](https://lwn.net/Articles/589147) keamanan. Pendahulunya ([X11](https://en.wikipedia.org/wiki/X_Window_System)) tidak mendukung isolasi GUI, yang memungkinkan jendela mana pun [merekam, mencatat, dan menyuntikkan input di jendela lain](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), sehingga upaya *sandboxing* menjadi sia-sia.
-
-Fortunately, [Wayland compositors](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) such as those included with [GNOME](https://gnome.org) and [KDE Plasma](https://kde.org) now have good support for Wayland along with some other compositors that use [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (e.g. [Sway](https://swaywm.org)). Some distributions like Fedora and Tumbleweed use it by default, and some others may do so in the future as X11 is in [hard maintenance mode](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments, it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
-
-We recommend **against** using desktop environments or window managers that do not have Wayland support, such as Cinnamon (default on Linux Mint), Pantheon (default on Elementary OS), MATE, Xfce, and i3.
-
 ### Proprietary Firmware (Microcode Updates)
 
 Some Linux distributions (such as [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)-based or DIY distros) don’t come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates which patch critical security vulnerabilities. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
@@ -124,6 +116,19 @@ Most Linux distributions will automatically install updates or remind you to do 
 Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). These will require running the "package manager" (`apt`, `pacman`, `dnf`, etc.) manually in order to receive important security updates.
 
 Additionally, some distributions will not download firmware updates automatically. For that, you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
+
+### Permission Controls
+
+Desktop environments (DEs) that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. However, not all DEs take full advantage of Wayland's architectural security improvements.
+
+For example, GNOME has a notable edge in security compared to other DEs by implementing permission controls for third-party software that tries to [capture your screen](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943). That is, when a third-party application attempts to capture your screen, you are prompted for your permission to share your screen with the app.
+
+<figure markdown>
+  ![Screenshot permissions](../assets/img/linux/screenshot_permission.png){ width="450" }
+  <figcaption>GNOME's screenshot permission dialog</figcaption>
+</figure>
+
+Many alternatives don't provide these same permission controls yet,[^1] while some are waiting for Wayland to implement these controls upstream.[^2]
 
 ## Privacy Tweaks
 
@@ -154,3 +159,6 @@ The Fedora Project [counts](https://fedoraproject.org/wiki/Changes/DNF_Better_Co
 This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) is currently off by default. We recommend adding `countme=false` to `/etc/dnf/dnf.conf` just in case it is enabled in the future. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
 
 openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by emptying the `/var/lib/zypp/AnonymousUniqueId` file.
+
+[^1]: KDE currently has an open proposal to add controls for screen captures: <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
+[^2]: Sway is waiting to add specific security controls until they "know how security as a whole is going to play out" in Wayland: <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>

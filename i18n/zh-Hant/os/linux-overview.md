@@ -103,14 +103,6 @@ SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 如果需要 suspend-to-disk （磁盤休眠）功能，則仍然需要使用傳統的swap 檔案或分區。 確保持久存儲設備上的任何交換空間予以[加密](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption)，以減輕一些威脅。
 
-### Wayland
-
-建議使用支持 [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)) 顯示協議的桌面環境，因為它的開發 [考慮到了安全](https://lwn.net/Articles/589147)。 其前身( [X11](https://en.wikipedia.org/wiki/X_Window_System))，不支持GUI 隔離，允許所有視窗[記錄畫面、日誌和注入其他視窗的輸入](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html)，使任何沙盒嘗試都是徒勞。
-
-幸好 [wayland 組成](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) 例如包括在[GNOME](https://gnome.org) 與[KDE Plasma](https://kde.org) 可以妥善支援 Wayland 與其它使用[wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots)的組件 (例如 [Sway](https://swaywm.org)). 某些發佈版本如 Fedora 和 Tumbleweed 預設使用它，有些則可能在未來也會這樣作在 X11 成為 [硬性維護模式](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly)後。 If you’re using one of those environments, it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
-
-我們**反對**使用不支援 Wayland 的桌面環境或視窗管理器，如Cinnamon（Linux Mint）、Pantheon（Elementary OS）、MATE、Xfce 和 i3。
-
 ### 商用靭體(Microcode更新)
 
 Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) 或 DIY(Arch Linux)，不附帶商業專用的 [微碼](https://en.wikipedia.org/wiki/Microcode) 更新，這類更新通常會修補漏洞。 這些漏洞的一些著名例子如: [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))、[ Meltdown ](https://en.wikipedia.org /wiki/Meltdown_(security_vulnerability))、[SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass)、[Foreshadow](https:/ / en.wikipedia.org/wiki/Foreshadow)、[MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling)、[SWAPGS](https: //en.wikipedia.org/wiki/SWAPGS_(security_vulnerability))，以及其他[硬體漏洞](https://kernel.org/doc/html/latest/admin-guide/hw- vuln /index.html)。
@@ -124,6 +116,19 @@ Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) �
 一些發行版（尤其是那些針對進階用戶）更加簡陋，指望使用者自己能做一些事情（例如 Arch 或 Debian） 例如需要手動運行 "軟體套件管理器" (`apt`, `pacman`, `dnf`等等)，以便接收重要的安全更新。
 
 此外，一些發行版不會自動下載靭體更新。 為此需要安裝l [`fwupd`](https://wiki.archlinux.org/title/Fwupd)。
+
+### Permission Controls
+
+Desktop environments (DEs) that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. However, not all DEs take full advantage of Wayland's architectural security improvements.
+
+For example, GNOME has a notable edge in security compared to other DEs by implementing permission controls for third-party software that tries to [capture your screen](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943). That is, when a third-party application attempts to capture your screen, you are prompted for your permission to share your screen with the app.
+
+<figure markdown>
+  ![Screenshot permissions](../assets/img/linux/screenshot_permission.png){ width="450" }
+  <figcaption>GNOME's screenshot permission dialog</figcaption>
+</figure>
+
+Many alternatives don't provide these same permission controls yet,[^1] while some are waiting for Wayland to implement these controls upstream.[^2]
 
 ## 隱私微調
 
@@ -154,3 +159,6 @@ Fedora 專案使用[`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better
 這個 [選項](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前預設為關閉。 我們建議將 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以備將來啟用。 使用 `rpm-ostree` 的系統，如 Silverblue，通過遮蔽 [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) 計時器來禁用 countme 選項。
 
 openSUSE 還使用[唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 來計算系統，可以通過清空`/var/lib/zypp/AnonymousUniqueId` 此檔案來禁用。
+
+[^1]: KDE currently has an open proposal to add controls for screen captures: <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
+[^2]: Sway is waiting to add specific security controls until they "know how security as a whole is going to play out" in Wayland: <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>

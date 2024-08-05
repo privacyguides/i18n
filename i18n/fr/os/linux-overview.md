@@ -103,14 +103,6 @@ Envisagez d'utiliser [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-gen
 
 Si vous avez besoin d'une fonctionnalité de suspension sur disque (hibernation), vous devrez toujours utiliser un fichier ou une partition swap. Veillez à ce que l'espace swap que vous avez sur un périphérique de stockage persistant soit au minimum [chiffré](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) afin d'atténuer certaines de ces menaces.
 
-### Wayland
-
-Nous recommandons d'utiliser un environnement de bureau qui prend en charge le protocole d'affichage [Wayland](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)), car il a été développé en tenant compte de la [sécurité](https://lwn.net/Articles/589147). Son prédécesseur ([X11](https://fr.wikipedia.org/wiki/X_Window_System)) ne prend pas en charge l'isolation de l'interface graphique, ce qui permet à n'importe quelle fenêtre [d'enregistrer, de consigner et d'injecter des données dans d'autres fenêtres](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation.html), rendant toute tentative de sandboxing futile.
-
-Heureusement, les [compositeurs Wayland](https://en.wikipedia.org/wiki/Wayland_(protocol)#Wayland_compositors) tels que ceux inclus dans [GNOME](https://gnome.org) et [KDE Plasma](https://kde.org) ont maintenant une bonne prise en charge de Wayland ainsi que d'autres compositeurs qui utilisent [wlroots](https://gitlab.freedesktop.org/wlroots/wlroots/-/wikis/Projects-which-use-wlroots), (par exemple [Sway](https://swaywm.org)). Certaines distributions comme Fedora et Tumbleweed l'utilisent par défaut, et d'autres pourraient le faire à l'avenir car X11 est en [mode maintenance limitée](https://phoronix.com/news/X.Org-Maintenance-Mode-Quickly). If you’re using one of those environments, it is as easy as selecting the “Wayland” session at the desktop display manager ([GDM](https://en.wikipedia.org/wiki/GNOME_Display_Manager), [SDDM](https://en.wikipedia.org/wiki/Simple_Desktop_Display_Manager)).
-
-Nous recommandons **de ne pas** utiliser des environnements de bureau ou des gestionnaires de fenêtres qui ne prennent pas en charge Wayland, comme Cinnamon (par défaut sur Linux Mint), Pantheon (par défaut sur Elementary OS), MATE, Xfce et i3.
-
 ### Micrologiciel propriétaire (mises à jour du microcode)
 
 Certaines distributions Linux (telles que les distributions basées sur [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)ou les distributions DIY) ne sont pas livrées avec les mises à jour propriétaires du [microcode](https://en.wikipedia.org/wiki/Microcode) qui corrigent les failles de sécurité critiques. Parmi les exemples notables de ces vulnérabilités figurent [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)) et d'autres [vulnérabilités matérielles](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
@@ -124,6 +116,19 @@ La plupart des distributions Linux installent automatiquement les mises à jour 
 Certaines distributions (en particulier celles destinées aux utilisateurs avancés) sont plus dépouillées et attendent de vous que vous fassiez les choses vous-même (par exemple Arch ou Debian). Il faudra manuellement exécuter le "gestionnaire de paquets" (`apt`, `pacman`, `dnf`, etc.) afin de recevoir les mises à jour de sécurité importantes.
 
 En outre, certaines distributions ne téléchargent pas automatiquement les mises à jour du micrologiciel. Pour cela, vous devez installer [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
+
+### Permission Controls
+
+Desktop environments (DEs) that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. However, not all DEs take full advantage of Wayland's architectural security improvements.
+
+For example, GNOME has a notable edge in security compared to other DEs by implementing permission controls for third-party software that tries to [capture your screen](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943). That is, when a third-party application attempts to capture your screen, you are prompted for your permission to share your screen with the app.
+
+<figure markdown>
+  ![Screenshot permissions](../assets/img/linux/screenshot_permission.png){ width="450" }
+  <figcaption>GNOME's screenshot permission dialog</figcaption>
+</figure>
+
+Many alternatives don't provide these same permission controls yet,[^1] while some are waiting for Wayland to implement these controls upstream.[^2]
 
 ## Ajustements de confidentialité
 
@@ -154,3 +159,6 @@ Le projet Fedora [compte](https://fedoraproject.org/wiki/Changes/DNF_Better_Coun
 Cette [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) est actuellement désactivée par défaut. Nous recommandons d'ajouter `countme=false` à `/etc/dnf/dnf.conf` juste au cas où il serait activé dans le futur. Sur les systèmes qui utilisent `rpm-ostree` tels que Silverblue, l'option countme est désactivée en masquant le compteur [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems).
 
 openSUSE utilise également un [identifiant unique](https://en.opensuse.org/openSUSE:Statistics) pour compter les systèmes, qui peut être désactivé en vidant le fichier `/var/lib/zypp/AnonymousUniqueId`.
+
+[^1]: KDE currently has an open proposal to add controls for screen captures: <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
+[^2]: Sway is waiting to add specific security controls until they "know how security as a whole is going to play out" in Wayland: <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>

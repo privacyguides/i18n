@@ -17,7 +17,7 @@ Las distribuciones de Linux se recomiendan comúnmente para la protección de la
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** es nuestra distribución recomendada para la gente nueva en Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org). Estas nuevas tecnologías suelen venir acompañadas de mejoras en la seguridad, la privacidad y la usabilidad en general.
+**Fedora Workstation** es nuestra distribución recomendada para la gente nueva en Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. Estas nuevas tecnologías suelen venir acompañadas de mejoras en la seguridad, la privacidad y la usabilidad en general.
 
 [:octicons-home-16: Página principal](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentación}
@@ -91,11 +91,11 @@ Gran parte de los [paquetes de Arch Linux](https://reproducible.archlinux.org) s
 
 </div>
 
-[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://gnome.org)), **Fedora Kinoite** (which comes with [KDE](https://kde.org)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. Sin embargo, no recomendamos la última de ellas, ya que el entorno de escritorio Budgie [sigue necesitando X11](https://buddiesofbudgie.org/blog/wayland).
+[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer. As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding flavors that support only the legacy X11 window system.
 
 Estos sistemas operativos difieren de Fedora Workstation en que sustituyen el gestor de paquetes [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) por una alternativa mucho más avanzada denominada [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree). El gestor de paquetes `rpm-ostree` funciona descargando una imagen base para el sistema, y luego superponiendo paquetes sobre ella en un árbol de commit [git](https://en.wikipedia.org/wiki/Git)-like. Cuando se actualice el sistema, se descargará una nueva imagen base y las superposiciones se aplicarán a esa nueva imagen.
 
-Una vez completada la actualización, reiniciarás el sistema con la nueva implementación. `rpm-ostree` keeps two deployments of the system so that you can easily roll back if something breaks in the new deployment. También existe la opción de anclar más implementaciones según sea necesario.
+After the update is complete, you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily roll back if something breaks in the new deployment. También existe la opción de anclar más implementaciones según sea necesario.
 
 [Flatpak](https://flatpak.org) es el método principal de instalación de paquetes en estas distribuciones, ya que `rpm-ostree` solo está pensado para superponer paquetes que no pueden permanecer dentro de un contenedor sobre la imagen base.
 
@@ -125,7 +125,7 @@ The Nix package manager uses a purely functional language—which is also called
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (la fuente principal de paquetes) se encuentra en un único repositorio de GitHub. También puedes definir tus propios paquetes en el mismo idioma e incluirlos fácilmente en tu configuración.
 
-Nix es un gestor de paquetes basado en el código fuente; si no hay ningún paquete preconstruido disponible en la caché de binarios, Nix simplemente construirá el paquete desde el código fuente usando su definición. Construye cada paquete en un entorno aislado *puro*, que es lo más independiente posible del sistema anfitrión, lo que hace que los binarios sean reproducibles.
+Nix es un gestor de paquetes basado en el código fuente; si no hay ningún paquete preconstruido disponible en la caché de binarios, Nix simplemente construirá el paquete desde el código fuente usando su definición. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible, which can be useful as a safeguard against [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
 
 ## Distribuciones Enfocadas en el Anonimato
 
@@ -232,8 +232,8 @@ La elección de una distribución Linux adecuada para ti dependerá de una gran 
 
 - Gratis y de código abierto.
 - Recibe actualizaciones periódicas del software y del kernel.
-- [Evita X11](os/linux-overview.md#wayland).
-    - La excepción notable aquí es Qubes, pero los problemas de aislamiento que X11 suele tener se evitan con la virtualización. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
+- Avoids X11, as its last major release was [more than a decade](https://www.x.org/wiki/Releases) ago.
+    - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - Admite el cifrado de disco completo durante la instalación.
 - No congela las publicaciones periódicas durante más de 1 año.
     - Nosotros [no recomendamos](os/linux-overview.md#release-cycle) distribuciones "Long Term Support (Soporte a Largo Plazo)" o "stable (estable)" para uso de escritorio.

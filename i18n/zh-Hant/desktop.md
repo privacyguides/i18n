@@ -17,7 +17,7 @@ cover: desktop.webp
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org). 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
+**Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
@@ -91,11 +91,11 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 </div>
 
-[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://gnome.org)), **Fedora Kinoite** (which comes with [KDE](https://kde.org)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. 但不推薦最後一個，因為 Budgie 桌面環境[仍需要 X11](https://buddiesofbudgie.org/blog/wayland)。
+[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer. As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding flavors that support only the legacy X11 window system.
 
 這些作業系統與 Fedora Workstation 不同，它們用更高級方式替換了[DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) 套件 管理器，其叫作[`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree)。 `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
 
-更新完成後，您將重新啟動系統進入新的部署。 `rpm-ostree` keeps two deployments of the system so that you can easily roll back if something breaks in the new deployment. 還可以根據需要固定更多部署。
+After the update is complete, you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily roll back if something breaks in the new deployment. 還可以根據需要固定更多部署。
 
 [Flatpak](https://flatpak.org) 是這些發行版本的主要套件安裝方式，而 `rpm-ostree` 只用在基礎映像上疊加那些無法留在容器的套件。
 
@@ -125,7 +125,7 @@ The Nix package manager uses a purely functional language—which is also called
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) （套件的主要來源）包含在單一的 GitHub 儲存庫中。 您也可以用相同的語言定義自己的套件，然後輕鬆地將它們包含在您的配置中。
 
-Nix是一個基於源的套件管理器；如果二進位快取中沒有預先構建的可用性， Nix 只會使用其定義從源構建套件。 它在沙盒 *純* 環境中構建每個套件，盡可能獨立於主機系統，從而使二進制文件可重現。
+Nix是一個基於源的套件管理器；如果二進位快取中沒有預先構建的可用性， Nix 只會使用其定義從源構建套件。 It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible, which can be useful as a safeguard against [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
 
 ## 以匿名爲重點的發行版
 
@@ -232,8 +232,8 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 - 免費且開放原始碼。
 - 必須定期接收軟體和內核更新。
-- [Avoids X11](os/linux-overview.md#wayland).
-    - 這裡值得注意的例外是 Qubes，但虛擬化可以避免 X11 常發生的隔離問題。 This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
+- Avoids X11, as its last major release was [more than a decade](https://www.x.org/wiki/Releases) ago.
+    - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - 安裝時必須支援全磁碟加密。
 - 不可將定期更新發佈凍結超過1年。
     - 我們 [不建議](os/linux-overview.md#release-cycle) 桌機使用“長期支援”或“穩定”發行版。

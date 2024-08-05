@@ -17,7 +17,7 @@ Les distributions Linux sont généralement recommandées pour la protection de 
 
 ![Logo Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** est la distribution que nous recommandons aux personnes qui découvrent Linux. Fedora generally adopts newer technologies before other distributions e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org). Ces nouvelles technologies s'accompagnent souvent d'améliorations générales en matière de sécurité, de vie privée et d'ergonomie.
+**Fedora Workstation** est la distribution que nous recommandons aux personnes qui découvrent Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. Ces nouvelles technologies s'accompagnent souvent d'améliorations générales en matière de sécurité, de vie privée et d'ergonomie.
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
@@ -91,11 +91,11 @@ Une grande partie des [paquets d'Arch Linux](https://reproducible.archlinux.org)
 
 </div>
 
-[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer, such as **Fedora Silverblue** (which comes with [GNOME](https://gnome.org)), **Fedora Kinoite** (which comes with [KDE](https://kde.org)), **Fedora Sway Atomic**, or **Fedora Budgie Atomic**. Cependant, nous ne recommandons pas la dernière solution car l'environnement de bureau Budgie [nécessite toujours X11](https://buddiesofbudgie.org/blog/wayland).
+[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer. As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding flavors that support only the legacy X11 window system.
 
 These operating systems differ from Fedora Workstation as they replace the [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) package manager with a much more advanced alternative called [`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree). Le gestionnaire de paquets `rpm-ostree` fonctionne en téléchargeant une image de base pour le système, puis en superposant des paquets par-dessus dans une arborescence de commits semblable à [git](https://en.wikipedia.org/wiki/Git). Lorsque le système est mis à jour, une nouvelle image de base est téléchargée et les surcouches seront appliquées à cette nouvelle image.
 
-Une fois la mise à jour terminée, vous redémarrerez le système sur le nouveau déploiement. `rpm-ostree` keeps two deployments of the system so that you can easily roll back if something breaks in the new deployment. Il est également possible d'épingler plus de déploiements selon les besoins.
+After the update is complete, you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily roll back if something breaks in the new deployment. Il est également possible d'épingler plus de déploiements selon les besoins.
 
 [Flatpak](https://flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside of a container on top of the base image.
 
@@ -125,7 +125,7 @@ The Nix package manager uses a purely functional language—which is also called
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (la source principale des paquets) sont contenus dans un seul dépôt GitHub. Vous pouvez également définir vos propres paquets dans le même langage, puis les inclure facilement dans votre configuration.
 
-Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paquet pré-construit disponible dans le cache binaire, Nix construira simplement le paquet à partir des sources en utilisant sa définition. Il construit chaque paquet dans un environnement *pur* en bac à sable, qui est aussi indépendant que possible du système hôte, ce qui rend les binaires reproductibles.
+Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paquet pré-construit disponible dans le cache binaire, Nix construira simplement le paquet à partir des sources en utilisant sa définition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible, which can be useful as a safeguard against [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
 
 ## Distributions axées sur l'anonymat
 
@@ -232,8 +232,8 @@ Le choix d'une distribution Linux qui vous convient dépend d'une grande variét
 
 - Gratuites et open source.
 - Reçoivent régulièrement des mises à jour des logiciels et du noyau.
-- [Évitent X11](os/linux-overview.md#wayland).
-    - L'exception notable est Qubes, mais la virtualisation permet d'éviter les problèmes d'isolation que rencontre généralement X11. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
+- Avoids X11, as its last major release was [more than a decade](https://www.x.org/wiki/Releases) ago.
+    - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
 - Prennent en charge le chiffrement complet du disque pendant l'installation.
 - Ne gêlent pas les mises à jour régulières pendant plus d'un an.
     - Nous [ne recommandons pas](os/linux-overview.md#release-cycle) les versions "Long Term Support" ou "stables" de distributions pour une utilisation de bureau.
