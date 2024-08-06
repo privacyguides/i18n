@@ -2,7 +2,7 @@
 meta_title: "Navegadores Web para PC y Mac que Respetan la Privacidad - Privacy Guides"
 title: "Navegadores de Escritorio"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: Estos navegadores respetan la privacidad y actualmente son recomendados para la navegación estándar/no anónima por Internet en computadoras.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Recomendamos [Mullvad Browser](#mullvad-browser) si estás centrado en fuertes protecciones de privacidad y contra huellas digitales desde el primer momento, [Firefox](#firefox) para navegantes ocasionales que buscan una buena alternativa a Google Chrome, y [Brave](#brave) si necesitas compatibilidad con el navegador Chromium.
+Estos son nuestros **navegadores** recomendados y las configuraciones para la navegación estándar/no anónima por Internet. Recomendamos [Mullvad Browser](#mullvad-browser) si estás centrado en fuertes protecciones de privacidad y contra huellas digitales desde el primer momento, [Firefox](#firefox) para navegantes ocasionales que buscan una buena alternativa a Google Chrome, y [Brave](#brave) si necesitas compatibilidad con el navegador Chromium.
 
 Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) . Hacemos algunas recomendaciones de configuración en esta página, pero todos los navegadores que no sean Tor Browser serán rastreables por *alguien* de una forma u otra.
 
@@ -188,13 +188,13 @@ Además, el servicio de Cuentas de Mozilla recopila [algunos datos técnicos](ht
 1. Abre la [configuración de tu perfil en accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Desmarca **Recopilación y uso de datos** > **Ayuda a mejorar Cuentas de Firefox**
 
-##### Website Advertising Preferences
+##### Preferencias de publicidad en sitios web
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] Desmarque **Permitir que los sitios web realicen mediciones de anuncios respetuosas con la privacidad**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Con el lanzamiento de Firefox 128, un nuevo ajuste para la [atribución de respeto a la privacidad](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) se ha agregado y [activado por defecto](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA permite a los anunciantes utilizar tu navegador web para medir la eficacia de las campañas web, en vez de utilizar el rastreo tradicional con JavaScript. Consideramos este comportamiento como fuera del alcance de las responsabilidades del agente de usuario y el hecho de que se encuentre desactivado por defecto en Arkenfox es una señal adicional para desactivar esta característica.
 
-##### HTTPS-Only Mode
+##### Modo Sólo HTTPS
 
 - [x] Selecciona **Activar el modo solo-HTTPS en todas las ventanas**
 
@@ -208,7 +208,7 @@ Si utilizas un proveedor de [DNS sobre HTTPS](dns.md):
 
 La Protección Máxima impone el uso de DNS sobre HTTPS y una advertencia de seguridad se mostrará si Firefox no se puede conectar a un solucionador seguro de DNS, o si tu solucionador seguro de DNS dice que los registros para el dominio al que se está intentando conectar no existe. Esto impide que la red a la que estás conectado degrade secretamente tu seguridad DNS.
 
-#### Sync
+#### Sincronización
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) permite que tus datos de navegación (historial, marcadores, etc.) sean accesibles desde todos tus dispositivos y los protege con E2EE.
 
@@ -221,7 +221,7 @@ La Protección Máxima impone el uso de DNS sobre HTTPS y una advertencia de seg
 
 </div>
 
-El [proyecto Arkenfox](https://github.com/arkenfox/user.js) proporciona un conjunto de opciones cuidadosamente consideradas para Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Nosotros **recomendamos encarecidamente** que leas su [wiki ](https://github.com/arkenfox/user.js/wiki)(lamentablemente solo en inglés). Arkenfox también es compatible con [contenedores](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+El [proyecto Arkenfox](https://github.com/arkenfox/user.js) proporciona un conjunto de opciones cuidadosamente consideradas para Firefox. Si [decides](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) utilizar Arkenfox, [algunas opciones](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) son estrictas y pueden causar que algunos sitios web no funcionen correctamente—algo que puedes [cambiar fácilmente](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) para adaptarlo a tus necesidades. Nosotros **recomendamos encarecidamente** que leas su [wiki ](https://github.com/arkenfox/user.js/wiki)(lamentablemente solo en inglés). Arkenfox también es compatible con [contenedores](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
 Arkenfox sólo pretende frustrar los scripts de rastreo básicos o primitivos mediante la aleatorización del lienzo (canvas randomization) y los ajustes de configuración de resistencia a las huellas digitales incorporados en Firefox. No pretende hacer que tu navegador se mezcle con una gran multitud de otros usuarios de Arkenfox de la misma manera que lo hacen Mullvad Browser o Tor Browser, que es la única manera de frustrar los scripts avanzados de rastreo de huellas dactilares. Recuerda que siempre puedes utilizar varios navegadores, por ejemplo, podrías considerar utilizar Firefox+Arkenfox para algunos sitios en los que quieras mantener la sesión iniciada o en los que confíes, y Mullvad Browser para la navegación general.
 
@@ -273,7 +273,7 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] Seleccione **Agresivo** bajo *Bloqueo de rastreadores y anuncios*
 
 <details class="warning" markdown>
 <summary>Usa listas de filtros predeterminadas</summary>
@@ -282,19 +282,19 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Seleccione **Estricto** bajo *Actualizar las conexiones a HTTPS*
+- [x] (Opcional) Seleccione **Bloquear scripts** (1)
+- [x] Marque **Bloquear huellas digitales**
+- [x] Seleccione **Bloquear cookies de terceros**
+- [x] Marque **Olvidarme al cerrar este sitio** (2)
+- [ ] Desmarque todos los componentes de redes sociales
 
 </div>
 
 1. Esta opción proporciona una funcionalidad similar a los [modos de bloqueo](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzados de uBlock Origin.
 2. Si deseas permanecer conectado a un sitio concreto que visitas a menudo, puedes establecer excepciones por sitio haciendo clic en el icono del Escudo de la barra de direcciones.
 
-#### Privacy and security
+#### Privacidad y seguridad
 
 <div class="annotate" markdown>
 
@@ -331,17 +331,17 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Web3
 
-Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de tu navegador y la superficie de ataque. Unless you use any of these features, they should be disabled.
+Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de tu navegador y la superficie de ataque. A menos que uses alguna de estas funciones, deberían ser desactivadas.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
 - Set *Method to resolve IPFS resources* to **Disabled**
 
-#### Extensions
+#### Extensiones
 
 - [ ] Uncheck all built-in extensions you don't use
 
-#### System
+#### Sistema
 
 <div class="annotate" markdown>
 
@@ -355,9 +355,9 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permite que tus datos de navegación (historial, favoritos, etc.) sean accesibles en todos tus dispositivos sin necesidad de tener una cuenta y los protege con E2EE.
 
-#### Brave Rewards and Wallet
+#### Recompensas y Billetera de Brave
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Se basa en una cuenta de custodia y KYC de un número selecto de proveedores. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Recompensas de Brave** permite recibir la criptomoneda Basic Attention Token (BAT) por realizar ciertas acciones en Brave. Se basa en una cuenta de custodia y KYC de un número selecto de proveedores. No recomendamos utilizar BAT como una [criptomoneda privada](cryptocurrency.md), ni recomendamos el uso de una [billetera de custodia](advanced/payments.md#wallet-custody), por lo que no recomendamos usar esta función.
 
 **Brave Wallet** funciona localmente en tu ordenador, pero no admite ninguna criptomoneda privada, por lo que desaconsejamos utilizar esta función también.
 
@@ -371,22 +371,22 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 
 - Debe ser software de código abierto.
 - Debe admitir actualizaciones automáticas.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Debe recibir actualizaciones del motor en 0-1 días desde el lanzamiento principal.
+- Debe estar disponible en Linux, macOS y Windows.
+- Cualquier cambio requerido para que el navegador sea más respetuoso con la privacidad, no debe impactar negativamente la experiencia del usuario.
+- Debe bloquear las cookies de terceros por defecto.
+- Debe permitir la [partición de estados](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) para mitigar el rastreo entre sitios.[^1]
 
 ### Mejor Caso
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps. Las PWA permiten instalar determinados sitios web como si fueran aplicaciones nativas en el ordenador. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Incluye un bloqueador de contenido.
+- Permite la compartimentación de cookies (como los [Contenedores Multicuenta](https://support.mozilla.org/kb/containers)).
+- Soporta las Aplicaciones Web Progresivas (PWA). Las PWA permiten instalar determinados sitios web como si fueran aplicaciones nativas en el ordenador. Esto proporciona ventajas sobre la instalación de aplicaciones basadas en Electron, porque las PWAs se benefician de los ajustes regulares de seguridad del navegador.
+- No incluye complementos (bloatware) que impactan la privacidad del usuario.
+- No recolecta telemetría por defecto.
+- Proporciona la implementación de un servidor de sincronización de código abierto.
+- Utiliza un [motor de búsqueda privado](search-engines.md) por defecto.
 
 [^1]: La implementación de Brave se detalla en [Brave Privacy Updates: Partitioning network-state for](https://brave.com/privacy-updates/14-partitioning-network-state) privacy.

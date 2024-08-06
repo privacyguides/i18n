@@ -1,21 +1,21 @@
 ---
-title: Obtaining Applications
+title: Obtener aplicaciones
 ---
 
-There are many ways to obtain Android apps privately, even from the Play Store, without interacting with Google Play Services. We recommend the following methods of obtaining applications on Android, listed in order of preference.
+Hay varias formas para obtener aplicaciones de Android de una manera privada, incluso desde Google Play Store, sin interactuar con los Servicios de Google Play. Recomendamos los siguientes métodos de obtener aplicaciones en Android, listados en orden de preferencia.
 
 ## Obtainium
 
 <div class="admonition recommendation" markdown>
 
-![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
+![Logo de Obtainium](../assets/img/android/obtainium.svg){ align=right }
 
-**Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+**Obtainium** es un gestor de aplicaciones que permite instalar y actualizar aplicaciones, directamente desde la propia página de lanzamientos del desarrollador (por ejemplo, GitHub, GitLab, el sitio web del desarrollador, etc.), en vez de una tienda o repositorio centralizado. Es compatible con las actualizaciones automáticas en segundo plano en Android 12 y versiones superiores.
 
-[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-repo-16: Repositorio](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Código fuente" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -26,25 +26,25 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 </div>
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+Obtainium te permite descargar los archivos instaladores APK desde una amplia variedad de fuentes, y depende de ti asegurarte que esas fuentes y aplicaciones son legítimas. Por ejemplo, utilizar Obtainium para instalar Signal desde la [página de Signal](https://signal.org/android/apk) puede estar bien, pero realizar la instalación desde repositorios de terceros como Aptoide o APKPure puede generar riesgos adicionales. El riesgo de instalar una _actualización_ maliciosa es bajo, porque Android verifica que todas las actualizaciones se encuentran firmadas por el mismo desarrollador de la aplicación existente en tu teléfono antes de instalarla.
 
-## GrapheneOS App Store
+## Tienda de aplicaciones de GrapheneOS
 
-GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](../device-integrity.md#auditor-android), [Camera](general-apps.md#secure-camera), and [PDF Viewer](general-apps.md#secure-pdf-viewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
+La tienda de aplicaciones de GrapheneOS está disponible en [GitHub](https://github.com/GrapheneOS/Apps/releases). Es compatible con Android 12 y superiores, y es capaz de actualizarse por si misma. La tienda de aplicaciones tiene aplicaciones independientes creadas por el proyecto GrapheneOS, como [Auditor](../device-integrity.md#auditor-android), [Cámara](general-apps.md#secure-camera) y [Lector PDF](general-apps.md#secure-pdf-viewer). Si estás buscando estas aplicaciones, te recomendamos obtenerlas desde la tienda de aplicaciones de GrapheneOS en vez de la Play Store, porque las aplicaciones en su propia tienda se encuentran firmadas con las propias firmas del proyecto GrapheneOS, que no pueden ser accesadas por Google.
 
 ## Aurora Store
 
-The Google Play Store requires a Google account to log in, which is not great for privacy. You can get around this by using an alternative client, such as Aurora Store.
+Google Play Store requiere una cuenta de Google para iniciar sesión, algo poco ideal para la privacidad. Puedes evitar esto usando un cliente alternativo como Aurora Store.
 
 <div class="admonition recommendation" markdown>
 
-![Aurora Store logo](../assets/img/android/aurora-store.webp){ align=right }
+![logo de Aurora Store](../assets/img/android/aurora-store.webp){ align=right }
 
-**Aurora Store** is a Google Play Store client which does not require a Google account, Google Play Services, or microG to download apps.
+**Aurora Store** es un cliente de Google Play Store que no requiere una cuenta de Google, los Servicios de Google Play o microG para la descarga de aplicaciones.
 
-[:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+[:octicons-home-16: Página principal](https://auroraoss.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Política de privacidad" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -55,17 +55,17 @@ The Google Play Store requires a Google account to log in, which is not great fo
 
 </div>
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Aurora Store no permite descargar aplicaciones de pago con su función de cuenta anónima. Opcionalmente, puedes iniciar sesión con tu cuenta de Google en Aurora Store para descargar las aplicaciones que has comprado, lo que permite a Google accesar al listado de aplicaciones instaladas. Sin embargo, todavía te beneficias de no requerir el cliente completo de Google Play, además de los servicios de Google Play o microG en tu dispositivo.
 
-## Manually with RSS Notifications
+## Manualmente con notificaciones RSS
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../news-aggregators.md) that will help you keep track of new releases.
+Para las aplicaciones que son publicadas en plataformas como GitHub y GitLab, puedes añadir un canal RSS a tu [agregador de noticias](../news-aggregators.md) que te ayudará a rastrear los nuevos lanzamientos.
 
 ![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
 
 ### GitHub
 
-On GitHub, using [Secure Camera](general-apps.md#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+En GitHub, usando [Secure Camera](general-apps.md#secure-camera) como un ejemplo, puedes dirigirte a su [página de lanzamientos](https://github.com/GrapheneOS/Camera/releases) y añadir `.atom` a la URL:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 

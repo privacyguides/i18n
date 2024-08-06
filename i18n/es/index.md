@@ -41,13 +41,13 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## ¿Por qué debería importarme?
 
-> “I have nothing to hide. Why should I care about my privacy?”
+> "No tengo nada que ocultar. ¿Por qué debería preocuparme por mi privacidad?"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Al igual que el derecho al matrimonio interracial, el sufragio femenino, la libertad de expresión y muchos otros, nuestro derecho a la privacidad no siempre ha sido respetado. En varias dictaduras, sigue sin estarlo. Las generaciones anteriores lucharon por nuestro derecho a la privacidad. ==La privacidad es un derecho humano, inherente a todos de nosotros,== al que tenemos derecho (sin discriminación).
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+No deberías confundir privacidad con secretismo. Sabemos lo que sucede en el baño, pero todavía puedes cerrar la puerta. Eso es porque quieres privacidad, no secretismo. **Todos** tienen algo que proteger. La privacidad es algo que nos hace humanos.
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
 </div>
@@ -157,34 +157,34 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 ---
 
-## About Privacy Guides
+## Sobre Privacy Guides
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Logo de Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+Creado en 2021 ante la dificultad de encontrar revisiones imparciales en el mundo de las VPN y la privacidad, **Privacy Guides** es el sitio web más popular, confiable y sin fines de lucro que proporciona información sobre la protección de la seguridad y privacidad de tus datos *personales*. Nuestras recomendaciones y reseñas comunitarias sobre **herramientas de privacidad**, además de nuestra comunidad dedicada en ayudar a los demás, nos diferencian de otros blogs y creadores de contenido. El equipo detrás de este proyecto ha estado investigando sobre la privacidad y la seguridad en el espacio del código abierto durante 5 años, originalmente con un recurso web ahora difunto, que eventualmente se convirtió en el *Privacy Guides* en que millones de lectores confían.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*Nuestro sitio web no contiene anuncios y no se encuentra afiliado con alguno de los proveedores listados.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+Privacy Guides aparece en **WIRED**, **Tweakers.net**, **The New York Times** y otras publicaciones como una fuente confiable de conocimientos sobre privacidad y seguridad.
 
-[:material-information: More About Who We Are](about.md){ class="md-button md-button--primary" } [:material-email: Join our Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
+[:material-information: Conoce más sobre quiénes somos](about.md){ class="md-button md-button--primary" } [:material-email: Únete a nuestro boletín](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## ¿Qué son las herramientas de privacidad?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can adopt to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+Recomendamos una amplia variedad de **herramientas de privacidad** (también conocidas como *aplicaciones de privacidad*, *utilidades de privacidad*, *software de privacidad*) que abarcan software y hardware que puedes adoptar para mejorar tu privacidad. Muchas de las herramientas recomendadas son completamente gratuitas y de código abierto, mientras algunas son servicios comerciales disponibles para ser adquiridos. Cambiar de programas hambrientos de datos como Google Chrome y Windows a herramientas enfocadas en la privacidad como [Brave](desktop-browsers.md#brave) y [Linux](desktop.md), puede ayudarte mucho a controlar la información que compartes con las compañías y terceros.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: Nuestros criterios generales](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## ¿Por qué la privacidad importa?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. No lo es. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+En la era moderna de explotación de información digital, tu privacidad nunca ha sido más crítica, sin embargo, muchos creen que es una causa perdida. No lo es. ==Tu privacidad está en juego y debes preocuparte por ella.==La privacidad es poder y es muy importante que ese poder termine en las manos correctas.
 
-Many people get the concepts of privacy, security, and anonymity confused. Por ejemplo, verás a gente criticar varios productos por "no ser privados" cuando en realidad quieren decir que no proporcionan anonimato. En este sitio web tratamos estos tres temas, pero es importante que entiendas la diferencia entre ellos y cuándo entra en juego cada uno.
+Muchas personas confunden los conceptos de privacidad, seguridad y anonimato. Por ejemplo, verás a gente criticar varios productos por "no ser privados" cuando en realidad quieren decir que no proporcionan anonimato. En este sitio web tratamos estos tres temas, pero es importante que entiendas la diferencia entre ellos y cuándo entra en juego cada uno.
 
-[Privacy vs Security vs Anonymity](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[Privacidad vs Seguridad vs Anonimato](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
 </div>
 </div>
