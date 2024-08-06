@@ -1,9 +1,9 @@
 ---
-title: About Privacy Guides
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+title: Over Privacy Guides
+description: Privacy Guides is een uit sociaal oogpunt gemotiveerde website die informatie biedt voor de bescherming van jouw gegevens en privacy.
 schema:
   "@context": https://schema.org
-  "@type": Organization
+  "@type": Organisatie
   "@id": https://www.privacyguides.org/
   name: Privacy Guides
   url: https://www.privacyguides.org/en/about/

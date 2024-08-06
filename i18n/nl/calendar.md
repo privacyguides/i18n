@@ -1,11 +1,11 @@
 ---
-title: "Kalendersynchronisatie"
+title: "Agendasynchronisatie"
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: Agenda's bevatten een aantal van je meest gevoelige gegevens; gebruik producten die jouw afspraken versleutelen.
 cover: calendar.webp
 ---
 
-**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
+**Agenda's** bevatten een aantal van je meest gevoelige gegevens; gebruik producten die E2EE implementeren om te voorkomen dat een provider ze kan lezen.
 
 ## Tuta
 

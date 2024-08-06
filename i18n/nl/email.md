@@ -1,5 +1,5 @@
 ---
-meta_title: "Aanbevelingen voor versleutelde privé e-mail - Privacy Guides"
+meta_title: "Aanbevelingen voor versleutelde privacyvriendelijke e-mail - Privacy Guides"
 title: "Email Diensten"
 icon: material/email
 description: Deze e-mailproviders bieden een uitstekende plaats om jouw e-mails veilig op te slaan, en vele bieden interoperabele OpenPGP versleuteling met andere providers.

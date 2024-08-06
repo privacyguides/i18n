@@ -8,7 +8,7 @@
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+*[dark pattern]: Een misleidend ontwerp bedoeld om een gebruiker dingen te laten doen die zelf niet willen
 *[digitale erfenis functie]: Digital Legacy verwijst naar functies waarmee je andere mensen toegang kunt geven tot jouw gegevens wanneer je overlijdt
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
@@ -94,7 +94,7 @@
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
 *[VPN]: Virtual Private Network
-*[VLAN]: Virtual Local Area Network
+*[V-LAN]: Virtual Local Area Network
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol

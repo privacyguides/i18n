@@ -34,12 +34,12 @@ Houd er rekening mee dat een VPN geen beveiliging of versleuteling toevoegt aan 
 
 ## Moet ik een VPN gebruiken?
 
-**Yes**, almost certainly. A VPN has many advantages, including:
+**Ja**, vrijwel zeker. Een VPN gebruiken heeft veel voordelen, waaronder:
 
 1. Het verbergen van jouw verkeer van **is alleen** jouw Internet Service Provider.
 1. Het verbergen van je downloads (zoals torrents) voor je ISP en anti-piraterij organisaties.
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+1. Je IP-adres verbergen voor websites en services van derden, zodat je opgaat in het verkeer van anderen en tracking op basis van je IP-adres wordt voorkomen.
+1. Je kunt locatiegebonden restricties om bepaalde content te bekijken omzeilen.
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 

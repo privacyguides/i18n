@@ -1,18 +1,18 @@
 ---
-meta_title: The Best Custom Android OSes (aka Custom ROMs) - Privacy Guides
-title: Alternative Distributions
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+meta_title: De beste aangepaste Android-besturingssystemen (ook wel Custom ROM's genoemd) - Privacy Guides
+title: Alternatieve Distributions
+description: Je kunt het besturingssysteem op jouw Android-telefoon vervangen door deze veilige en privacy respecterende alternatieven.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: Privacyvriendelijke Android-besturingssystemen
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
-    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    sameAs: https://nl.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
