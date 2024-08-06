@@ -8,7 +8,7 @@
 *[CLI]: Interfaz de Línea de Comando
 *[CSV]: Valores Separados por Coma
 *[CVE]: Vulnerabilidades y Exposiciones Comunes
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+*[patrón oscuro]: Un patrón de diseño engañoso destinado a engañar a un usuario para que haga cosas
 *[función de legado digital]: Legado Digital se refiere a funciones que te permiten darle a otras personas acceso a tus datos cuando fallezcas
 *[DNSSEC]: Extensiones de Seguridad del Sistema de Nombres de Dominio
 *[DNS]: Sistema de Nombre de Dominio
@@ -94,7 +94,7 @@
 *[UEFI]: Interfaz de Firmware Extensible Unificada
 *[UDP]: Protocolo de Datagramas de Usuario
 *[VPN]: Red Privada Virtual
-*[VLAN]: Virtual Local Area Network
+*[VLAN]: Red Virtual de Área Local
 *[VoIP]: Voz sobre IP (Protocolo de Internet)
 *[W3C]: Consorcio World Wide Web
 *[XMPP]: Protocolo Extensible de Mensajería y Presencia
