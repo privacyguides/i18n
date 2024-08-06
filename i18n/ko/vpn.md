@@ -31,11 +31,11 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 Privacy Guides 권장 제공 업체는 암호화 사용, WireGuard & OpenVPN 지원, 노 로그 정책을 가지고 있습니다. 자세한 사항은 [전체 평가 기준](#criteria)을 참고해 주세요.
 
-| 서비스 제공자               | 국가  | WireGuard                     | 포트포워딩                                            | IPv6                                                     | 익명 결제   |
-| --------------------- | --- | ----------------------------- | ------------------------------------------------ | -------------------------------------------------------- | ------- |
-| [Proton](#proton-vpn) | 91+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 부분 지원 | :material-alert-outline:{ .pg-orange }                   | 현금      |
-| [IVPN](#ivpn)         | 37+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }           | :material-information-outline:{ .pg-blue } Outgoing Only | 모네로, 현금 |
-| [Mullvad](#mullvad)   | 41+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }           | :material-check:{ .pg-green }                            | 모네로, 현금 |
+| 서비스 제공자               | 국가   | WireGuard                     | 포트포워딩                                            | IPv6                                                     | 익명 결제   |
+| --------------------- | ---- | ----------------------------- | ------------------------------------------------ | -------------------------------------------------------- | ------- |
+| [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 부분 지원 | :material-alert-outline:{ .pg-orange }                   | 현금      |
+| [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }           | :material-information-outline:{ .pg-blue } Outgoing Only | 모네로, 현금 |
+| [Mullvad](#mullvad)   | 45+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }           | :material-check:{ .pg-green }                            | 모네로, 현금 |
 
 ### Proton VPN
 
@@ -63,12 +63,12 @@ Privacy Guides 권장 제공 업체는 암호화 사용, WireGuard & OpenVPN 지
 
 </div>
 
-#### :material-check:{ .pg-green } 91 Countries
+#### :material-check:{ .pg-green } 112 Countries
 
-Proton VPN has [servers in 91 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 목적지까지의 경로가 더 짧기(Hop 횟수가 적기) 때문입니다.
+Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 목적지까지의 경로가 더 짧기(Hop 횟수가 적기) 때문입니다.
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Last checked: 2024-08-06
 
 우리는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 
@@ -148,7 +148,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 목적지까지의 경로가 더 짧기(Hop 횟수가 적기) 때문입니다.
 { .annotate }
 
-1. Last checked: 2024-04-02
+1. Last checked: 2024-08-06
 
 우리는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 
@@ -196,7 +196,7 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 ![Mullvad 로고](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 투명성과 보안에 중점을 둔, 속도가 빠르면서 비싸지 않은 VPN입니다. **2009년**부터 운영되었습니다. Mullvad 본사는 스웨덴에 위치하고 있으며, 무료 체험을 제공하지 않습니다.
+**Mullvad** 투명성과 보안에 중점을 둔, 속도가 빠르면서 비싸지 않은 VPN입니다. They have been in operation since 2009. Mullvad 본사는 스웨덴에 위치하고 있으며, 무료 체험을 제공하지 않습니다.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
@@ -218,12 +218,12 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 41개 국가
+#### :material-check:{ .pg-green } 45 Countries
 
-Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 목적지까지의 경로가 더 짧기(Hop 횟수가 적기) 때문입니다.
+Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 목적지까지의 경로가 더 짧기(Hop 횟수가 적기) 때문입니다.
 { .annotate }
 
-1. 마지막 확인: 2024-04-02
+1. Last checked: 2024-08-06
 
 우리는 VPN 제공자가 독립적인 [데디케이티드 서버](https://en.wikipedia.org/wiki/Dedicated_hosting_service)를 사용하는 것이 제공자의 개인 키를 보호하는데 더 좋다고 봅니다. [개인 사설 서버](https://en.wikipedia.org/wiki/Virtual_private_server)는 더 싸지만, VPN 제공자는 한 서버를 다른 사람들과 같이 쓰게 됩니다.
 

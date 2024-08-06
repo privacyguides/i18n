@@ -31,11 +31,11 @@ If you're looking for additional *privacy* from your ISP, on a public Wi-Fi netw
 
 我們推薦的提供商使用加密技術、支援 WireGuard & OpenVPN ，且具有無日誌政策。 閱讀我們的 [完整列表標準](#criteria) 以獲取更多信息。
 
-| 提供商                   | 國家  | WireGuard                     | 端口轉發                                            | IPv6                                              | 匿名支付      |
-| --------------------- | --- | ----------------------------- | ----------------------------------------------- | ------------------------------------------------- | --------- |
-| [Proton](#proton-vpn) | 91+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 部分支援 | :material-alert-outline:{ .pg-orange }            | 現金        |
-| [IVPN](#ivpn)         | 37+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
-| [Mullvad](#mullvad)   | 41+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                     | Monero、現金 |
+| 提供商                   | 國家   | WireGuard                     | 端口轉發                                            | IPv6                                              | 匿名支付      |
+| --------------------- | ---- | ----------------------------- | ----------------------------------------------- | ------------------------------------------------- | --------- |
+| [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 部分支援 | :material-alert-outline:{ .pg-orange }            | 現金        |
+| [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
+| [Mullvad](#mullvad)   | 45+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                     | Monero、現金 |
 
 ### Proton VPN
 
@@ -63,12 +63,12 @@ If you're looking for additional *privacy* from your ISP, on a public Wi-Fi netw
 
 </div>
 
-#### :material-check:{ .pg-green } 91 個國家
+#### :material-check:{ .pg-green } 112 Countries
 
-Proton VPN 在 [91 個國家/地區設有伺服器](https://protonvpn.com/vpn-servers)，[免費方案](https://protonvpn.com/free-vpn/server)則為 [5 國](https://protonvpn.com/support/how-to-create-free-vpn-account)。 (1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少傳輸網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. 上次檢查日期：2024-04-02
+1. Last checked: 2024-08-06
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬服務器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
@@ -148,7 +148,7 @@ Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 Proto
 IVPN 在 [37 個國家/地區設有伺服器](https://ivpn.net/status)。 (1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. 上次檢查日期：2024-04-02
+1. Last checked: 2024-08-06
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬服務器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
@@ -196,7 +196,7 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 自 **2009 年** 開始運營。 Mullvad 總部位於瑞典，不提供免費試用。
+**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 They have been in operation since 2009. Mullvad 總部位於瑞典，不提供免費試用。
 
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
@@ -218,12 +218,12 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 </div>
 
-#### :material-check:{ .pg-green } 41 個國家
+#### :material-check:{ .pg-green } 45 Countries
 
-IVPN 在 [41 個國家/地區設有伺服器](https://mullvad.net/servers)。 (1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. 上次檢查日期：2024-04-02
+1. Last checked: 2024-08-06
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬服務器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 

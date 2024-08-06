@@ -33,9 +33,9 @@ Die von uns empfohlenen Anbieter verwenden Verschlüsselung, unterstützen WireG
 
 | Anbieter              | Länder | WireGuard                     | Port-Weiterleitung                                         | IPv6                                                     | Anonyme Zahlungen |
 | --------------------- | ------ | ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------- | ----------------- |
-| [Proton](#proton-vpn) | 91+    | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | Bargeld           |
+| [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Partial Support | :material-alert-outline:{ .pg-orange }                   | Bargeld           |
 | [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Nur ausgehend | Monero, Bargeld   |
-| [Mullvad](#mullvad)   | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Bargeld   |
+| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                            | Monero, Bargeld   |
 
 ### Proton VPN
 
@@ -63,12 +63,12 @@ Die von uns empfohlenen Anbieter verwenden Verschlüsselung, unterstützen WireG
 
 </div>
 
-#### :material-check:{ .pg-green } 91 Countries
+#### :material-check:{ .pg-green } 112 Countries
 
-Proton VPN hat [Server in 91 Ländern](https://protonvpn.com/vpn-servers) bzw. [5](https://protonvpn.com/support/how-to-create-free-vpn-account) Server, wenn du die [kostenlose Version nutzt](https://protonvpn.com/free-vpn/server).(1) Die Auswahl eines VPN-Anbieters mit einem Server in deiner Nähe verringert die Latenz des von dir gesendeten Netzwerkverkehrs. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
+Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
-1. Stand: 2024-04-02
+1. Last checked: 2024-08-06
 
 Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüssel des VPN-Anbieters besser ist, wenn er [dedizierte Server](https://en.wikipedia.org/wiki/Dedicated_hosting_service) verwendet, anstatt billigere gemeinsame Lösungen (mit anderen Kunden) wie [virtuelle private Server](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -148,7 +148,7 @@ Systemabstürze [können](https://protonvpn.com/support/macos-t2-chip-kill-switc
 IVPN hat [Server in 37 Ländern](https://ivpn.net/status).(1) Die Wahl eines VPN-Anbieters mit einem Server in deiner Nähe verringert die Latenz des von dir gesendeten Netzwerkverkehrs. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
-1. Stand: 2024-04-02
+1. Last checked: 2024-08-06
 
 Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüssel des VPN-Anbieters besser ist, wenn er [dedizierte Server](https://en.wikipedia.org/wiki/Dedicated_hosting_service) verwendet, anstatt billigere gemeinsame Lösungen (mit anderen Kunden) wie [virtuelle private Server](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -196,7 +196,7 @@ IVPN-Clients unterstützen die Zwei-Faktor-Authentisierung. IVPN bietet auch die
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** ist ein schnelles und preiswertes VPN mit einem ernsthaften Fokus auf Transparenz und Sicherheit. Mullvad ist seit **2009** in Betrieb. Mullvad ist in Schweden ansässig und bietet keine kostenlose Testversion an.
+**Mullvad** ist ein schnelles und preiswertes VPN mit einem ernsthaften Fokus auf Transparenz und Sicherheit. They have been in operation since 2009. Mullvad ist in Schweden ansässig und bietet keine kostenlose Testversion an.
 
 [:octicons-home-16: Homepage](https://mullvad.net/de){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Dienst" }
@@ -218,12 +218,12 @@ IVPN-Clients unterstützen die Zwei-Faktor-Authentisierung. IVPN bietet auch die
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Länder
+#### :material-check:{ .pg-green } 45 Countries
 
-Mullvad hat [Server in 41 Ländern](https://mullvad.net/servers).(1) Die Wahl eines VPN-Anbieters mit einem Server in deiner Nähe verringert die Latenz des von dir gesendeten Netzwerkverkehrs. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
+Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
-1. Stand: 2024-04-02
+1. Last checked: 2024-08-06
 
 Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüssel des VPN-Anbieters besser ist, wenn er [dedizierte Server](https://en.wikipedia.org/wiki/Dedicated_hosting_service) verwendet, anstatt billigere gemeinsame Lösungen (mit anderen Kunden) wie [virtuelle private Server](https://en.wikipedia.org/wiki/Virtual_private_server).
 

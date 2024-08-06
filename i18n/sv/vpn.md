@@ -33,9 +33,9 @@ Våra rekommenderade tjänster är krypterade, stödjer WireGuard & OpenVPN och 
 
 | Leverantör            | Länder | WireGuard                     | Port Forwarding                                         | IPv6                                                     | Anonyma betalningar |
 | --------------------- | ------ | ----------------------------- | ------------------------------------------------------- | -------------------------------------------------------- | ------------------- |
-| [Proton](#proton-vpn) | 91+    | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Stöds delvis | :material-alert-outline:{ .pg-orange }                   | Kontant             |
+| [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Stöds delvis | :material-alert-outline:{ .pg-orange }                   | Kontant             |
 | [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                  | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, kontant     |
-| [Mullvad](#mullvad)   | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                  | :material-check:{ .pg-green }                            | Monero, kontant     |
+| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                  | :material-check:{ .pg-green }                            | Monero, kontant     |
 
 ### Proton VPN
 
@@ -63,12 +63,12 @@ Våra rekommenderade tjänster är krypterade, stödjer WireGuard & OpenVPN och 
 
 </div>
 
-#### :material-check:{ .pg-green } 91 länder
+#### :material-check:{ .pg-green } 112 Countries
 
-Proton VPN har [servrar i 91 länder](https://protonvpn.com/vpn-servers) eller [5](https://protonvpn.com/support/how-to-create-free-vpn-account) om du använder deras [gratisnivå](https://protonvpn.com/free-vpn/server).(1) Att välja en VPN-leverantör med en server närmast dig kommer att minska latensen för den nätverkstrafik du skickar. Detta beror på att vägen till destinationen är kortare (färre hopp).
+Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Detta beror på att vägen till destinationen är kortare (färre hopp).
 { .annotate }
 
-1. Senast granskad: 2024-04-02
+1. Last checked: 2024-08-06
 
 Vi anser också att det är bättre för säkerheten för VPN-leverantörens privata nycklar om de använder [dedikerade servrar](https://en.wikipedia.org/wiki/Dedicated_hosting_service) istället för billigare delade lösningar (med andra kunder) som [virtuella privata servrar](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -148,7 +148,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Detta beror på att vägen till destinationen är kortare (färre hopp).
 { .annotate }
 
-1. Senast granskad: 2024-04-02
+1. Last checked: 2024-08-06
 
 Vi anser också att det är bättre för säkerheten för VPN-leverantörens privata nycklar om de använder [dedikerade servrar](https://en.wikipedia.org/wiki/Dedicated_hosting_service) istället för billigare delade lösningar (med andra kunder) som [virtuella privata servrar](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -196,7 +196,7 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since **2009**. Mullvad is based in Sweden and does not offer a free trial.
+**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since 2009. Mullvad is based in Sweden and does not offer a free trial.
 
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
@@ -218,12 +218,12 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 45 Countries
 
-Mullvad has [servers in 41 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Detta beror på att vägen till destinationen är kortare (färre hopp).
+Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Detta beror på att vägen till destinationen är kortare (färre hopp).
 { .annotate }
 
-1. Senast granskad: 2024-04-02
+1. Last checked: 2024-08-06
 
 Vi anser också att det är bättre för säkerheten för VPN-leverantörens privata nycklar om de använder [dedikerade servrar](https://en.wikipedia.org/wiki/Dedicated_hosting_service) istället för billigare delade lösningar (med andra kunder) som [virtuella privata servrar](https://en.wikipedia.org/wiki/Virtual_private_server).
 
