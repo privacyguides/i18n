@@ -1,15 +1,15 @@
 ---
-title: Commit Messages
+title: Mensajes de commit
 ---
 
-For our commit messages we follow the style provided by [Conventional Commits](https://conventionalcommits.org). Not all of those suggestions are appropriate for Privacy Guides, so the main ones we use are:
+Para nuestros mensajes de commit, seguimos el estilo proporcionado por [Conventional Commits](https://conventionalcommits.org). No todas las sugerencias son apropiadas para Privacy Guides, así que las principales que utilizamos son:
 
-## Update to existing text
+## Actualización de texto existente
 
-This example could be used for an item already on the site, but includes a minor update to the description.
+Este ejemplo se puede utilizar para un elemento existente en el sitio web, pero que incluye una pequeña actualización en la descripción.
 
 ```text
-update: Add mention of security audit (#0000)
+update: Se agrega una mención a la auditoría de seguridad (#0000)
 ```
 
 ## Addition or removal of recommendations/pages

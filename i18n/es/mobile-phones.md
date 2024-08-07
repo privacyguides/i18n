@@ -1,12 +1,12 @@
 ---
-title: Mobile Phones
+title: Teléfonos celulares
 icon: material/cellphone-check
-description: These mobile devices have proper Android Verified Boot support for custom operating systems.
+description: Estos dispositivos móviles son compatibles con Android Verified Boot para los sistemas operativos personalizados.
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Mobile Phone Recommendations
+    name: Recomendaciones de teléfonos celulares
     url: ./
   - "@context": http://schema.org
     "@type": Product
@@ -23,54 +23,54 @@ schema:
         name: Privacy Guides
 ---
 
-Most **mobile phones** receive short or limited windows of security updates from OEMs; after these devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
+La mayoría de los **teléfonos celulares** reciben actualizaciones de seguridad en periodos cortos o limitados por parte de los fabricantes; luego de que estos dispositivos alcanzan el final de su periodo de soporte, **no** pueden ser considerados como seguros porque no recibirán actualizaciones de seguridad del firmware o los controladores.
 
-The mobile devices listed here provide a long lifespan of guaranteed security updates and allow you to install a custom operating system without violating the Android security model.
+Los dispositivos móviles listados aquí proporcionan una larga vida útil de actualizaciones de seguridad garantizadas y permiten la instalación de un sistema operativo personalizado sin violar el modelo de seguridad de Android.
 
-[Recommended Custom OSes :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[Sistemas operativos recomendados :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Detalles sobre la seguridad de Android :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-End-of-life devices (such as GrapheneOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+Al final de su vida útil, los dispositivos (como los dispositivos con el "soporte extendido" de GrapheneOS) no tienen parches de seguridad completos (actualizaciones de firmware) debido a que el fabricante ha finalizado el soporte. Estos dispositivos no se pueden considerarse como completamente seguros, sin importar el software instalado.
 
 </div>
 
-## Purchasing Advice
+## Consejo de compra
 
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+Al comprar un dispositivo, recomendamos obtener uno tan nuevo como sea posible. El software y el firmware de los dispositivos móviles cuentan con soporte por un periodo limitado de tiempo, por lo que comprar uno nuevo extiende la vida útil tanto como sea posible.
 
-Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
+Evita comprar teléfonos de los operadores de telefonía celular. Estos suelen tener el **bootloader bloqueado** y no soportan el [desbloqueo OEM](https://source.android.com/devices/bootloader/locking_unlocking). Estas variantes de teléfonos impiden la instalación de cualquier distribución alternativa de Android.
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). There is also a risk involved with you being associated with the activity of the previous owner.
+Se **cuidadoso** al comprar teléfonos usados en mercados en línea. Siempre revisa la reputación del vendedor. Si el dispositivo es robado, existe una posibilidad de que se encuentre en la [base de datos de IMEI](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). También hay un riesgo de terminar involucrado en la actividad del propietario anterior.
 
-A few more tips regarding Android devices and operating system compatibility:
+Algunos consejos adicionales sobre los dispositivos Android y la compatibilidad con sistemas operativos:
 
-- Do not buy devices that have reached or are near their end-of-life; additional firmware updates must be provided by the manufacturer.
-- Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net) to find details!
+- No compres dispositivos que han alcanzado o están cerca de su final de vida útil; las actualizaciones adicionales del firmware deben ser proporcionadas por el fabricante.
+- No compres teléfonos con el sistema operativo LineageOS o /e/ preinstalado, o cualquier teléfono Android sin compatibilidad con el [arranque verificado](https://source.android.com/security/verifiedboot) y las actualizaciones de firmware. No puedes comprobar si el dispositivo ha sido manipulado.
+- En resumen, si un dispositivo no está listado aquí, probablemente es por una buena razón. ¡Revisa nuestro [foro](https://discuss.privacyguides.net) para obtener más información!
 
 ## Google Pixel
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+Los teléfonos Google Pixel son los **únicos** dispositivos que recomendamos comprar. Los teléfonos Pixel tienen una seguridad de hardware superior a la de otros dispositivos Android en el mercado, debido al correcto soporte de AVB para los sistemas operativos de terceros y los chips personalizados de seguridad [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) de Google, que actúan como el Elemento de Seguridad.
 
 <div class="admonition recommendation" markdown>
 
 ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
 
-**Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
+Los dispositivos **Google Pixel** son conocidos por contar con buena seguridad y compatiblidad con el [arranque verificado](https://source.android.com/security/verifiedboot), incluso cuando se ha instalado un sistema operativo personalizado.
 
-Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+Iniciando con el **Pixel 8** y **8 Pro**, los dispositivos Pixel cuentan como mínimo con 7 años de actualizaciones de seguridad garantizadas, garantizando una mayor vida útil a comparación de los 2-5 años ofrecidos por otros fabricantes.
 
-[:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+[:material-shopping: Tienda](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 </div>
 
-Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for _all_ of those functions, resulting in a larger attack surface.
+Los Elementos Seguros como el Titan M2 se encuentran limitados al Entorno de Ejecución Confiable del procesador, utilizado por la mayoría de los otros teléfono para el almacenamiento secreto, la certificación de hardware y la limitación de velocidad, no para ejecutar programas "confiables". Los teléfonos sin un Entorno Seguro suelen utilizar TEE para _todas_ las demás funciones, lo que resulta en una gran superficie de ataque.
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+A diferencia de otros teléfonos, los Google Pixel utilizan un SO TEE de [código abierto](https://source.android.com/security/trusty#whyTrusty) llamado Trusty.
 
-The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
+La instalación de GrapheneOS en un Pixel es sencilla con su [instalador web](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
 
 A few more tips for purchasing a Google Pixel:
 

@@ -1,5 +1,5 @@
 ---
-title: General Apps
+title: Aplicaciones generales
 schema:
   - "@context": http://schema.org
     "@type": WebPage

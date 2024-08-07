@@ -2,11 +2,11 @@
 title: Subiendo imágenes
 ---
 
-If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
+Si realiza cambios a este sitio web donde se requiera agregar nuevas imágenes o reemplazar las existentes, aquí tiene un par de recomendaciones generales:
 
 ## Imágenes
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
+- **Preferimos** las imágenes SVG, pero si no existen podemos usar imágenes PNG. Además, para las imágenes de portada, preferimos que sean obtenidas de [Unsplash](https://unsplash.com) y estén en formato WebP.
 
 Los logotipos de empresa tienen un tamaño de lienzo de:
 
@@ -17,7 +17,7 @@ Los logotipos de empresa tienen un tamaño de lienzo de:
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
+Use la herramienta [OptiPNG](https://sourceforge.net/projects/optipng) para optimizar las imágenes PNG:
 
 ```bash
 optipng -o7 file.png
@@ -90,7 +90,7 @@ scour --set-precision=5 \
 
 ### WebP
 
-Use the [cwebp](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+Use el comando [cwebp](https://developers.google.com/speed/webp/docs/using) para convertir los archivos de imagen PNG o JPEG a WebP:
 
 ```bash
 cwebp -q 70 -m 6 input_file -o output.webp

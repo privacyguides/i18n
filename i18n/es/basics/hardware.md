@@ -1,20 +1,20 @@
 ---
-title: Choosing Your Hardware
+title: Eligiendo tu hardware
 icon: material/chip
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: El software no es lo único importante; aprende sobre las herramientas de hardware que puedes utilizar a diario para proteger tu privacidad.
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+Cuando se habla sobre privacidad, no se piensa tanto en el hardware como en el software que utilizamos. Tu hardware debe ser considerado como la base sobre la que construirás el resto de tu configuración de privacidad.
 
-## Picking a Computer
+## Eligiendo una computadora
 
-The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
+Los componentes internos de tus dispositivos procesan y almacenan toda tu información digital. Es importante que todos los dispositivos cuenten con soporte de parte del fabricante y los desarrolladores, con la recepción de actualizaciones de seguridad.
 
-### Hardware Security Programs
+### Programas de seguridad del hardware
 
-Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
+Algunos dispositivos tienen un "programa de seguridad del hardware", que consiste en una colaboración entre los proveedores sobre las mejores prácticas y recomendaciones al momento de diseñar un hardware, por ejemplo:
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
+- [Los equipos de núcleo seguro de Windows](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) cumplen con unos criterios superiores de seguridad especificados por Microsoft. Estas protecciones no aplican únicamente a los usuarios de Windows; los usuarios de otros sistemas operativos pueden aprovechar características como la [protección DMA](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) y la capacidad de desconfiar completamente de los certificados de Microsoft.
 - [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
 - macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
 - [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
