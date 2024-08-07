@@ -100,8 +100,9 @@ Apple Mail può caricare i contenuti da remoto in background o bloccarli interam
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1155470386)
 - [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
+- [:simple-apple: macOS](https://apps.apple.com/app/id1236045954)
 
 </details>
 

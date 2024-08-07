@@ -100,8 +100,9 @@ Apple Mail은 외부 콘텐츠를 백그라운드에서 로드하거나, 완전�
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1236045954)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1155470386)
 - [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
+- [:simple-apple: macOS](https://apps.apple.com/app/id1236045954)
 
 </details>
 
