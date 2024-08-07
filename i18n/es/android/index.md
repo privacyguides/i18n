@@ -5,7 +5,7 @@ cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Android Recommendations
+    name: Recomendaciones de Android
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
@@ -15,20 +15,20 @@ schema:
     sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Logo de Android](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+El **Android Open Source Project** (AOSP) es un sistema operativo de código abierto liderado por Google, que se encuentra detrás de la mayoría de dispositivos móviles a nivel mundial. La mayoría de los teléfonos vendidos con Android son modificados para incluir integraciones invasivas y aplicaciones como los Servicios de Google Play, por lo que puedes mejorar de manera significativa tu privacidad en tu dispositivo móvil al reemplazar la instalación predeterminada con una versión de Android sin estas características invasivas.
 
-[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com){ .card-link title=Página principal}
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentación}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Código fuente" }
 
-We recommend the following Android-specific tools to maximize your mobile device's security and privacy.
+Recomendamos las siguientes herramientas específicas de Android para maximizar la seguridad y privacidad de su dispositivo móvil.
 
-- [Alternative Distributions](distributions.md)
-- [General Apps](general-apps.md)
-- [Obtaining Applications](obtaining-apps.md)
+- [Distribuciones alternativas](distributions.md)
+- [Aplicaciones generales](general-apps.md)
+- [Obtener aplicaciones](obtaining-apps.md)
 
-To learn more about Android:
+Para leer más sobre Android:
 
-[General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button }
+[Vistazo general de Android :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button }

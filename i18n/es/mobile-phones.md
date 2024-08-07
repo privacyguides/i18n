@@ -70,22 +70,22 @@ Los Elementos Seguros como el Titan M2 se encuentran limitados al Entorno de Eje
 
 A diferencia de otros teléfonos, los Google Pixel utilizan un SO TEE de [código abierto](https://source.android.com/security/trusty#whyTrusty) llamado Trusty.
 
-La instalación de GrapheneOS en un Pixel es sencilla con su [instalador web](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
+La instalación de GrapheneOS en un Pixel es sencilla con su [instalador web](https://grapheneos.org/install/web). Si no te sientes cómodo realizando esto por ti mismo y te gustaría invertir un poco más de dinero, echa un vistazo al [NitroPhone](https://shop.nitrokey.com/shop) que viene con GrapheneOS preinstalado y proviene de la reputada empresa [Nitrokey](https://nitrokey.com/about).
 
-A few more tips for purchasing a Google Pixel:
+Algunos consejos adicionales al comprar un Google Pixel:
 
-- If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
-- Consider price beating options and specials offered at physical stores.
-- Look at online community bargain sites in your country. These can alert you to good sales.
-- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
-  , meaning that the longer use of the device the lower cost per day.
-- If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
+- Si buscas un Pixel económico, sugerimos comprar un modelo **a**, justo después del lanzamiento del modelo más nuevo. Los descuentos suelen estar disponibles porque Google intentará liquidar sus existencias.
+- Considera las ofertas y promociones disponibles en tiendas físicas.
+- Revisa las comunidades de ofertas en tu país. Estas pueden informarte sobre buenos descuentos.
+- Google proporciona un listad con el [ciclo de soporte](https://support.google.com/nexus/answer/4457705) para cada uno de sus dispositivos. El precio por día de un dispositivo puede calcularse de la siguiente manera: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext> Costo</mtext> <mrow> <mtext>Fecha del fin de vida útil</mtext> <mo>-</mo> <mtext>Fecha actual</mtext> </mrow> </mfrac> </math>
+  , significando que el precio es más bajo entre más se use el dispositivo.
+- Si el Pixel no se encuentra disponible en tu país, el [NitroPhone](https://shop.nitrokey.com/shop) cuenta con envíos a nivel mundial.
 
 ## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Por favor, tome en cuenta que no estamos afiliados con ninguno de los proyectos recomendados.** Además de nuestros [criterios estándar](about/criteria.md), hemos desarrollado un claro conjunto de requerimientos que nos permite proporcionar recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-- Must support at least one of our recommended custom operating systems.
-- Must be currently sold new in stores.
-- Must receive a minimum of 5 years of security updates.
-- Must have dedicated secure element hardware.
+- Ser compatible como mínimo con uno de los sistemas operativos personalizados que recomendamos.
+- Debe venderse como nuevo en las tiendas.
+- Debe recibir actualizaciones de seguridad como mínimo durante 5 años.
+- Debe contar con hardware dedicado de elemento seguro.
