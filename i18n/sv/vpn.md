@@ -63,7 +63,7 @@ Våra rekommenderade tjänster är krypterade, stödjer WireGuard & OpenVPN och 
 
 </div>
 
-#### :material-check:{ .pg-green } 112 Countries
+#### :material-check:{ .pg-green } 112 länder
 
 Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Detta beror på att vägen till destinationen är kortare (färre hopp).
 { .annotate }
