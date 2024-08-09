@@ -46,7 +46,7 @@ Signal requiere su número de teléfono para el registro, sin embargo, debería 
 
 1. En Signal, abra los ajustes de la aplicación y pulse en el perfil de su cuenta en la parte superior.
 2. Pulse **Alias** y seleccione **Continuar** en la pantalla "Configure su alias de Signal".
-3. Introduzca un alias. Su alias siempre irá emparejado con un único conjunto de dígitos para mantener su alias único y evitar que la gente lo adivine, por ejemplo, si introduce "John" su alias podría terminar siendo `@john.35`.
+3. Introduzca un alias. Su alias siempre irá emparejado con un único conjunto de dígitos para mantener su alias único y evitar que la gente lo adivine, por ejemplo, si introduce "John" su alias podría terminar siendo `@john.35`. By default, only 2 digits are paired with your username when you create it, but you can add more digits until you reach the username length limit (32 characters).
 4. Vuelva a la página principal de ajustes de la aplicación y seleccione **Privacidad**.
 5. Seleccione **Número de Teléfono**
 6. Cambie el ajuste **Quién Puede Ver Mi Número** a: **Nadie**

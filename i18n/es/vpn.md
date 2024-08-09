@@ -104,7 +104,7 @@ Actualmente, Proton VPN solo admite el [ reenvío del puerto](https://protonvpn.
 
 Proton VPN tiene su protocolo [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) que *puede* ayudar en situaciones en las que los protocolos VPN como OpenVPN o Wireguard son bloqueados con varias técnicas rudimentarias. Stealth encapsula el túnel VPN en una sesión TLS para que parezca tráfico de Internet más genérico.
 
-Por desgracia, no funciona muy bien en países donde se despliegan sofisticados filtros que analizan todo el tráfico saliente en un intento de descubrir túneles cifrados. Stealth tampoco está disponible aún en [Windows](https://github.com/ProtonVPN/win-app/issues/64) ni Linux.
+Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 

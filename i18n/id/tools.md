@@ -9,7 +9,7 @@ description: Privacy Guides adalah situs web yang paling transparan dan dapat di
 
 Jika Anda mencari solusi spesifik untuk sesuatu, berikut ini adalah perangkat keras dan perangkat lunak yang kami rekomendasikan dalam berbagai kategori. Perangkat privasi yang kami rekomendasikan terutama dipilih berdasarkan fitur keamanan, dengan penekanan tambahan pada perangkat yang terdesentralisasi dan bersumber terbuka. Mereka dapat diterapkan pada berbagai model ancaman mulai dari perlindungan terhadap program pengawasan massal global dan menghindari perusahaan teknologi besar hingga memitigasi serangan, tetapi hanya Anda yang dapat menentukan mana yang paling sesuai dengan kebutuhan Anda.
 
-[VPN Software](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
+[VPN Providers](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
 
 If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
@@ -138,7 +138,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **91+ Countries**
+    - [x] **112+ Countries**
     - [x] WireGuard Support
     - [x] Cash Payments
     - [x] Partial Port Forwarding Support
@@ -162,7 +162,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **41+ Countries**
+    - [x] **45+ Countries**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding

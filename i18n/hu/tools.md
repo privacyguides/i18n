@@ -9,7 +9,7 @@ description: Privacy Guides is the most transparent and reliable website for fin
 
 Ha valamilyen konkrét megoldást keresel, ezek a hardver- és szoftvereszközök amiket ajánlunk, különböző kategóriákban. Az általunk ajánlott adatvédelmi eszközöket elsősorban biztonsági funkciók alapján választottuk ki, további hangsúlyt fektetve a decentralizált és nyílt forráskódú eszközökre. Ezek számos védelmi modellre alkalmazhatók, globális tömeges megfigyelési programok elleni védelemtől kezdve, big tech cégek elkerüléstől, támadások enyhítéséig, de csak te tudod meghatározni, hogy a te igényeidek mi felel meg a legjobban.
 
-[VPN Software](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
+[VPN Providers](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
 
 If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
 
@@ -138,7 +138,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **91+ Countries**
+    - [x] **112+ Countries**
     - [x] WireGuard Support
     - [x] Cash Payments
     - [x] Partial Port Forwarding Support
@@ -162,7 +162,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    - [x] **41+ Countries**
+    - [x] **45+ Countries**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding

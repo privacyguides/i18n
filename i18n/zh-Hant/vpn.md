@@ -102,7 +102,7 @@ Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](htt
 
 Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) 協定，在其它 VPN 協定如 OpenVPN、WireGuard 遭封鎖時*可能*有所幫助。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
 
-不幸的是，在部署了複雜的過濾系統，且分析所有對外流量以試圖檢測加密隧道的國家/地區，它的效果並不理想。 Stealth 也無法在 [Windows](https://github.com/ProtonVPN/win-app/issues/64) 或 Linux 上使用。
+Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 

@@ -9,7 +9,7 @@ description: Privacy Guides 是最透明和可靠的網站，用於尋找保護�
 
 如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬件和軟件工具。 我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。 它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
 
-[VPN Software](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
+[VPN Providers](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
 
 如果您需要協助，為您的需求找出最佳的隱私工具和替代方案，請在我們的 [論壇](https://discuss.privacyguides.net) 或 [matrix](https://matrix.to/#/#privacyguides:matrix.org) 社區開始討論！
 
@@ -138,7 +138,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
     ---
 
-    - [x] **91+ Countries**
+    - [x] **112+ Countries**
     - [x] WireGuard Support
     - [x] Cash Payments
     - [x] Partial Port Forwarding Support
@@ -162,7 +162,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
     ---
 
-    - [x] **41+ Countries**
+    - [x] **45+ Countries**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding

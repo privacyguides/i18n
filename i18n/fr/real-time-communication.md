@@ -46,7 +46,7 @@ Signal demande votre numéro de téléphone pour l'enregistrement, mais vous dev
 
 1. Dans Signal, ouvrez les paramètres de l'application et appuyez sur votre profil en haut.
 2. Appuyez sur **Nom d'utilisateur** et choisissez **Continuer** sur l'écran "Configurez votre nom d'utilisateur Signal".
-3. Entrez un nom d'utilisateur. Votre nom d'utilisateur sera toujours combiné avec un ensemble unique de chiffres afin que votre nom d'utilisateur reste unique et que personne ne puisse le deviner. Par exemple, si vous entrez "John", votre nom d'utilisateur pourrait être `@john.35`.
+3. Entrez un nom d'utilisateur. Votre nom d'utilisateur sera toujours combiné avec un ensemble unique de chiffres afin que votre nom d'utilisateur reste unique et que personne ne puisse le deviner. Par exemple, si vous entrez "John", votre nom d'utilisateur pourrait être `@john.35`. By default, only 2 digits are paired with your username when you create it, but you can add more digits until you reach the username length limit (32 characters).
 4. Retournez à la page principale des paramètres de l'application et sélectionnez **Confidentialité**.
 5. Sélectionnez **Numéro de téléphone**
 6. Modifiez le paramètre **Qui peut voir mon numéro** et mettre : **Personne**

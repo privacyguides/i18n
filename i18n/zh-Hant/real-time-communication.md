@@ -46,7 +46,7 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 
 1. 在 Signal 中，打開應用程式的設定並點擊上方的帳戶個人資料。
 2. 點選**使用者名稱**，然後在「設定您的 Signal 使用者名稱」畫面上選擇**繼續**。
-3. 輸入一個使用者名稱 此用戶名將一直與一組獨特數字配對，以保持用戶名的唯一性防止人們猜測它，例如，如果輸入“John”，您的用戶名最終可能會是`@john.35`。
+3. 輸入一個使用者名稱 此用戶名將一直與一組獨特數字配對，以保持用戶名的唯一性防止人們猜測它，例如，如果輸入“John”，您的用戶名最終可能會是`@john.35`。 By default, only 2 digits are paired with your username when you create it, but you can add more digits until you reach the username length limit (32 characters).
 4. 返回系統應用程式設定頁面並選擇**隱私權**。
 5. 選擇**手機號碼r**
 6. 將**誰可看見我的號碼**設置為: **Nobody**
