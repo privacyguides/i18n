@@ -14,11 +14,15 @@ cover: encryption.webp
 
 ### Cryptomator (雲端)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
 ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** 是一種加密解決方案，專為將檔案私密保存到任何雲端提供商而設計。 它允許您創建存儲在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. 它允許您創建存儲在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -49,6 +53,10 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 
 ### Picocrypt (檔案)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -71,6 +79,10 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 </div>
 
 ### VeraCrypt (磁碟)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -102,6 +114,10 @@ VeraCrypt是已停產的 TrueCrypt 項目的分支。 根據其開發人員的�
 Truecrypt 已完成[多次審計](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits)，而 VeraCrypt 也曾接受 [獨立審計](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit)。
 
 ## 作業系統完整磁碟加密
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 加密開機用的作業系統，我們通常建議使用其隨附的加密軟體，而不是第三方工具。 因為作業系統原生的加密工具通常會使用作業系統和硬體特定的功能，例如裝置中的[安全加密處理器](https://en.wikipedia.org/wiki/Secure_cryptoprocessor)保護電腦免於進階的實體攻擊。 至於*非開機用*的輔助磁碟和外接硬碟，我們則建議使用開源工具，例如
 VeraCrypt< /a> ，因為它們提供了額外的靈活性避免供應商鎖定。</p> 
@@ -252,6 +268,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## 命令列
 
+<small>Protects against the following threat(s):</small> 
+
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 命令行界面的工具可用於集成 [shell 腳本](https://en.wikipedia.org/wiki/Shell_script)。
 
 
@@ -299,6 +319,12 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small> 
+
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件。 PGP具有許多功能，但也有爭議 [複數](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) ，因為它已經存在了很長時間。 對於簽署或加密檔案等任務，我們建議您使用上述選項。
 

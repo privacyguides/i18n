@@ -29,6 +29,8 @@ schema:
       url: ./
 ---
 
+[:material-target-account:](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } [:material-bug-outline:](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 Un **sistema operativo personalizado basado en Android** (también conocido como **ROM** personalizada) es una manera popular de alcanzar altos niveles de privacidad y seguridad en tu dispositivo. Esto contrasta con la versión "stock" de Android que viene preinstalada en tu teléfono y está profundamente integrada con los Servicios de Google Play.
 
 Recomendamos instalar uno de estos sistemas operativos personalizados Android en tu dispositivo, listados en orden de preferencia, dependiendo de la compatibilidad de tu dispositivo con estos sistemas operativos.

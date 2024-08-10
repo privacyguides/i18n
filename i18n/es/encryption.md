@@ -14,11 +14,15 @@ Las opciones enumeradas aquí son multiplataforma y excelentes para crear copias
 
 ### Cryptomator (Nube)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
 ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** es una solución de cifrado diseñada para guardar archivos de forma privada en cualquier proveedor en la nube. Le permite crear bóvedas que se almacenan en una unidad virtual, cuyo contenido está cifrado y sincronizado con su proveedor de almacenamiento en la nube.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Le permite crear bóvedas que se almacenan en una unidad virtual, cuyo contenido está cifrado y sincronizado con su proveedor de almacenamiento en la nube.
 
 [:octicons-home-16: Página Principal](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Política de Privacidad" }
@@ -49,6 +53,10 @@ La documentación de Cryptomator detalla con más detalle su [objetivo de seguri
 
 ### Picocrypt (Archivo)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -71,6 +79,10 @@ La documentación de Cryptomator detalla con más detalle su [objetivo de seguri
 </div>
 
 ### VeraCrypt (Disco)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -102,6 +114,10 @@ Al cifrar con VeraCrypt, tiene la opción de seleccionar entre diferentes [funci
 Truecrypt ha sido [auditado un buen número de veces](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), y VeraCrypt también ha sido [auditado de manera separada](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## Cifrado de Disco Completo del Sistema Operativo
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 Para cifrar la unidad desde la que inicia el sistema operativo, por lo general recomendamos habilitar el software de cifrado que viene incluido en el propio sistema operativo, en vez de utilizar una herramienta creada por terceros. Esto se debe a que las herramientas de cifrado propias del sistema operativo suelen utilizar características específicas del sistema operativo y el hardware, como el [criptoprocesador seguro](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) del dispositivo para proteger la computadora contra ataques físicos más avanzados. Para unidades secundarias y externas que *no* se utilizan para iniciar, recomendamos utilizar herramientas de código abierto como [VeraCrypt](#veracrypt-disk) en vez de las siguientes herramientas, porque estas ofrecen más flexibilidad y permiten evitar la dependencia de un proveedor.
 
@@ -227,6 +243,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Línea de Comandos
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 Las herramientas con interfaces de línea de comandos son útiles para integrar <a href=https://es.wikipedia.org/wiki/Script_de_shell">scripts de shell</a>.
 
 ### Kryptor
@@ -272,6 +292,12 @@ Las herramientas con interfaces de línea de comandos son útiles para integrar 
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP es a veces necesario para tareas específicas como la firma digital y el cifrado de correo electrónico. PGP tiene muchas funciones y es [complejo](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) ya que existe desde hace mucho tiempo. Para tareas como firmar o cifrar archivos, sugerimos las opciones anteriores.
 

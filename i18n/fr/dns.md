@@ -9,6 +9,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Les DNS chiffrés avec des serveurs tiers ne doivent être utilisés que pour contourner le [blocage DNS](https://en.wikipedia.org/wiki/DNS_blocking) de base lorsque vous pouvez être sûr qu'il n'y aura pas de conséquences. Le DNS chiffré ne vous aidera pas à dissimuler vos activités de navigation.
 
 [En savoir plus sur les DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}

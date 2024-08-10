@@ -5,6 +5,11 @@ icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: 대중 감시(Mass Surveillance)](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: 검열(Censorship)](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+
 온라인 결제는 프라이버시에 있어서 매우 큰 문제입니다. 다음과 같은 암호화폐는 여러분이 프라이버시를 보호하면서 결제를 하는 방법에 대해 충분한 이해를 갖춘 경우, 거래 프라이버시를 기본적으로 제공합니다.(대부분의 암호화폐는 거래 프라이버시를 보장하지 **않습니다**.) 무엇인가를 구매하기에 앞서, Privacy Guides에서 결제 개요 문서를 읽어보실 것을 강력히 권장드립니다:
 
 [Making Private Payments :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
@@ -20,9 +25,9 @@ cover: cryptocurrency.webp
 
 <div class="admonition recommendation" markdown>
 
-![Monero 로고](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero**는 거래를 난독화하여 익명성을 확보하는 프라이버시 강화 기술이 적용된 블록체인을 사용합니다. 모든 Monero 거래는 거래 금액, 송수신 주소, 자금 출처가 숨겨지므로 암호화폐 초심자에게 이상적인 선택입니다.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. 모든 Monero 거래는 거래 금액, 송수신 주소, 자금 출처가 숨겨지므로 암호화폐 초심자에게 이상적인 선택입니다.
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}

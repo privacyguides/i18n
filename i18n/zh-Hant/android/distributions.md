@@ -31,6 +31,8 @@ schema:
       url: ./
 ---
 
+[:material-target-account:](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } [:material-bug-outline:](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 **基於 Android 的自訂作業系統**（通常稱為 **自訂 ROM**）是在裝置上實現更高層級的隱私和安全性的流行方法。 這與 Android 的「stock」版本形成鮮明對比，「stock」版本是手機出廠時附帶的，並且通常與 Google Play 服務 深度整合。
 
 我們建議您在裝置上安裝這些自訂 Android 作業系統之一（按優先順序列出），具體取決於您的裝置與這些作業系統的相容性。

@@ -5,6 +5,11 @@ icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: מעקב המוני](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: צנזורה](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+
 ביצוע תשלומים אונליין הוא אחד האתגרים הגדולים ביותר לפרטיות. מטבעות קריפטוגרפיים אלו מספקים פרטיות עסקאות כברירת מחדל (דבר ש**לא** מובטח על ידי רוב מטבעות הקריפטו), בתנאי שיש לך הבנה טובה כיצד לבצע תשלומים פרטיים ביעילות. אנו ממליצים בחום שתקרא תחילה את מאמר סקירת התשלומים שלנו לפני ביצוע רכישות כלשהן:
 
 [ביצוע תשלומים פרטיים :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
@@ -20,9 +25,9 @@ cover: cryptocurrency.webp
 
 <div class="admonition recommendation" markdown>
 
-![Monero לוגו](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero** משתמש בבלוקצ'יין עם טכנולוגיות משפרות פרטיות המטשטשות עסקאות כדי להשיג אנונימיות. כל עסקת Monero מסתירה את סכום העסקה, כתובות שליחה וקבלה, ומקור הכספים ללא שום חישוקים לדלג דרכם, מה שהופך אותה לבחירה אידיאלית עבור טירוני מטבעות קריפטוגרפיים.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. כל עסקת Monero מסתירה את סכום העסקה, כתובות שליחה וקבלה, ומקור הכספים ללא שום חישוקים לדלג דרכם, מה שהופך אותה לבחירה אידיאלית עבור טירוני מטבעות קריפטוגרפיים.
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}

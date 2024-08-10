@@ -9,6 +9,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Capitalismo de vigilância](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Encrypted DNS with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. DNS criptografado não o ajudará a ocultar qualquer atividade de navegação.
 
 [Learn more about DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}

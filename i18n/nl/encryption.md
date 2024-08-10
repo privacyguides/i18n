@@ -14,11 +14,15 @@ De hier genoemde opties zijn multiplatform en zeer geschikt voor het maken van v
 
 ### Cryptomator (Cloud)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passieve aanvallen](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
 ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** is een encryptie-oplossing die is ontworpen voor het privé opslaan van bestanden bij elke cloudprovider. Hiermee kunt u kluizen maken die worden opgeslagen op een virtuele schijf, waarvan de inhoud wordt gecodeerd en gesynchroniseerd met uw cloudopslagprovider.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Hiermee kunt u kluizen maken die worden opgeslagen op een virtuele schijf, waarvan de inhoud wordt gecodeerd en gesynchroniseerd met uw cloudopslagprovider.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -49,6 +53,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt (Bestand)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Gerichte aanvallen](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -71,6 +79,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 </div>
 
 ### VeraCrypt (Schijf)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Gerichte aanvallen](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -102,6 +114,10 @@ Bij het versleutelen met VeraCrypt heb je de keuze uit verschillende [hashfuncti
 Truecrypt is [een aantal keer gecontroleerd](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), en VeraCrypt is ook [apart gecontroleerd](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## OS Volledige Schijfversleuteling
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Gerichte aanvallen](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
@@ -227,6 +243,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Command-line
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Gerichte aanvallen](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 Tools met command-line interfaces zijn handig voor het integreren van [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
 ### Kryptor
@@ -272,6 +292,12 @@ Tools met command-line interfaces zijn handig voor het integreren van [shell scr
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Gerichte aanvallen](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Passieve aanvallen](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Dienstverleners](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP is soms nodig voor specifieke taken zoals het digitaal ondertekenen en versleutelen van e-mail. PGP heeft veel mogelijkheden en is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) omdat het al heel lang bestaat. Voor taken zoals het ondertekenen of versleutelen van bestanden, raden wij de bovenstaande opties aan.
 

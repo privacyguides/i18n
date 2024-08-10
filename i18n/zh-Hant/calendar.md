@@ -5,6 +5,11 @@ description: 行事曆包含一些您最敏感的資料，使用實現靜態加�
 cover: calendar.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 **Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta

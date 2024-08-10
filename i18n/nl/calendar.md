@@ -5,6 +5,11 @@ description: Agenda's bevatten een aantal van je meest gevoelige gegevens; gebru
 cover: calendar.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passieve aanvallen](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Dienstverleners](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 **Agenda's** bevatten een aantal van je meest gevoelige gegevens; gebruik producten die E2EE implementeren om te voorkomen dat een provider ze kan lezen.
 
 ## Tuta

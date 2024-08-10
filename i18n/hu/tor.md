@@ -23,6 +23,12 @@ schema:
       url: "./"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+
 **Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. A magánszemélyek és szervezetek a Tor-hálózaton keresztül a ".onion rejtett szolgáltatásokkal" is megoszthatnak információkat anélkül, hogy veszélyeztetnék a magánéletüket. Mivel a Tor forgalmat nehéz blokkolni és nyomon követni, a Tor hatékony eszköz a cenzúra megkerülésére.
 
 [Részletes Tor áttekintés :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
@@ -34,11 +40,11 @@ Mielőtt csatlakoznál a Torhoz, kérjük, olvasd el az [áttekintést](advanced
 
 </div>
 
-A Tor-hálózathoz többféleképpen is csatlakozhatsz az eszközödről, a leggyakrabban használt a **Tor Böngésző**, a Firefox egy elágazása, amelyet anonim böngészésre terveztek asztali számítógépekre és Androidra.
+There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
 
 Néhány ilyen alkalmazás jobb, mint mások, a választás a fenyegetettségi szintedtől függ. Ha alkalmi Tor-felhasználó vagy, és nem aggódsz amiatt, hogy az internetszolgáltatód bizonyítékokat gyűjt rólad, akkor az olyan alkalmazások, mint az [Orbot](#orbot) vagy a mobil böngésző alkalmazások használata a Tor-hálózat eléréséhez valószínűleg rendben van. Az emberek számának növelése, akik mindennaposan használják a Tor-t, segít csökkenteni a Tor rossz hírnevét, és csökkenti az ISP-k (internetszolgáltatók) és kormányok által összeállított "Tor felhasználók listáinak" minőségét.
 
-Ha a teljes anonimitás a legfontosabb számodra, akkor **csak** az asztali Tor Browser klienst használd, ideális esetben egy [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) konfigurációban. A mobil böngészők kevésbé elterjedtek a Toron (emiatt könnyebben lehet ujjlenyomatolni azokat), és más konfigurációkat nem tesztelnek olyan szigorúan a deanonimizálás ellen.
+Ha a teljes anonimitás a legfontosabb számodra, akkor **csak** az asztali Tor Browser klienst használd, ideális esetben egy [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) konfigurációban. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against de-anonymization.
 
 ## Tor Böngésző
 

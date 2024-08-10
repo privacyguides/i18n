@@ -5,6 +5,10 @@ description: 探索如何在裝置之間、與朋友和家人私下分享檔案�
 cover: file-sharing.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 探索如何在裝置之間、與朋友和家人私下分享檔案，或匿名上線。
 
 ## 檔案分享
@@ -39,7 +43,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
-**OnionShare** 是一個開源工具，可讓您安全匿名地共享任何大小的檔案。 它的工作原理是啟動可作為 Tor 洋蔥服務訪問的網頁伺服器，具有一個無法猜測的URL ，您可以與收件人共享以下載或發送檔案。
+**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. 它的工作原理是啟動可作為 Tor 洋蔥服務訪問的網頁伺服器，具有一個無法猜測的URL ，您可以與收件人共享以下載或發送檔案。
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
@@ -56,6 +60,8 @@ ffsend upload --host https://send.vis.ee/ FILE
 </details>
 
 </div>
+
+OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
 ### 標準
 

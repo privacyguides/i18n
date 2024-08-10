@@ -9,6 +9,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance kapitalisme](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Versleutelde DNS met servers van derden zou alleen moeten worden gebruikt om simpele [DNS-blokkering](https://en.wikipedia.org/wiki/DNS_blocking) te omzeilen en als je er zeker van bent dat er geen gevolgen zullen zijn. Versleutelde DNS zal je niet helpen jouw surfactiviteiten te verbergen.
 
 [Meer informatie over DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}

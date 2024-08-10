@@ -5,6 +5,10 @@ description: 這些工具可協助透過多重身份驗證保護網路帳戶，�
 cover: multi-factor-authentication.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition note" markdown>
 <p class="admonition-title">硬體金鑰</p>
 

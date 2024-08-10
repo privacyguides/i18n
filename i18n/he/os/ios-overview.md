@@ -42,7 +42,7 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 מנוי **iCloud+** בתשלום (עם כל תוכנית אחסון של iCloud) מגיע עם פונקציונליות מסוימת להגנה על הפרטיות. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
 
-**ממסר פרטי** הוא שירות פרוקסי המעביר את תעבורת הספארי שלך דרך שני שרתים: אחד בבעלות אפל ואחד בבעלות ספק צד שלישי (כולל Akamai, Cloudflare ו-Fastly). בתיאוריה זה אמור למנוע מכל ספק בודד בשרשרת - כולל אפל - לקבל ראות מלאה באילו אתרים אתה מבקר בזמן שאתה מחובר. בניגוד ל-VPN מלא, Private Relay אינו מגן על תעבורה מהאפליקציות שלך מחוץ ל-Safari.
+[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) is a proxy service which relays all of your Safari traffic, your DNS queries, and unencrypted traffic on your device through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). בתיאוריה זה אמור למנוע מכל ספק בודד בשרשרת - כולל אפל - לקבל ראות מלאה באילו אתרים אתה מבקר בזמן שאתה מחובר. Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
 
 **הסתר את האימייל שלי** הוא שירות כינוי האימייל של אפל. אתה יכול ליצור כינוי אימייל בחינם כשאתה *נכנס עם Apple* באתר או באפליקציה, או יוצר כינויים ללא הגבלה לפי דרישה עם תוכנית iCloud+ בתשלום. Hide My Email יש את היתרון בשימוש בדומיין `@icloud.com` עבור הכינויים שלו, אשר עשוי להיות פחות סביר שייחסם בהשוואה לשירותי כינוי דוא"ל אחרים, אך אינו מציע פונקציונליות המוצעת על ידי שירותים עצמאיים כגון כהצפנת PGP אוטומטית או תמיכה במספר תיבות דואר.
 

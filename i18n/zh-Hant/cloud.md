@@ -6,6 +6,11 @@ description: 許多雲端儲存服務供應商需要您相信他們不會查看�
 cover: cloud.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Many **cloud storage providers** require your full trust that they will not look at your files. 下面列出的替代方案通過實施安全的 E2EE，消除了對信任的需要。
 
 如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟件，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。 把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客立端加密漏洞之風險。
@@ -89,7 +94,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。 其提供安全且私密的空間，用戶可以在其中儲存、分享和查看照片、影片、文件等。 Peergos 透過抗量子端對端加密來保護檔案，並確保有關檔案所有資料保持私密。 它建構在 [IPFS（星際檔案系統）](https://ipfs.tech) 。
+**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。 其提供安全且私密的空間，用戶可以在其中儲存、分享和查看照片、影片、文件等。 Peergos 透過抗量子端對端加密來保護檔案，並確保有關檔案所有資料保持私密。 It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }

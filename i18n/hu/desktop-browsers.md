@@ -57,6 +57,10 @@ schema:
       url: "./"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. A [Mullvad Böngészőt](#mullvad-browser) ajánljuk, ha kiemelten fontos számodra az erős adatvédelem és az alapértelmezett ujjlenyomat-védelem, a [Firefox](#firefox)-ot azoknak ajánljuk, akik jó alternatívát keresnek a Google Chrome-hoz, és csak hétköznapi internetezők. A [Brave](#brave)-et pedig akkor, ha szükséged van a Chromium böngésző kompatibilitására.
 
 Ha névtelenül szeretnél böngészni az interneten, használd inkább a [Tor](tor.md) szolgáltatást. Ezen az oldalon teszünk néhány konfigurációs ajánlást, de a Tor Böngésző kivételével minden más böngésző *lekövehtető* valamilyen módon.
@@ -67,8 +71,7 @@ Ha névtelenül szeretnél böngészni az interneten, használd inkább a [Tor](
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-
-A **Mullvad Böngésző** egy verziója a [Tor Böngésző](tor.md#tor-browser)nek, amelyből a Tor hálózati integrációkat eltávolították, célja pedig az, hogy a Tor Böngésző ujjlenyomat-védelmi böngészőtechnológiáit VPN-felhasználók számára is elérhetővé tegye. A böngészőt a Tor Project fejlesztette és a [Mullvad](vpn.md#mullvad) terjeszti, és **nem** igényli a Mullvad VPN használatát.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. A böngészőt a Tor Project fejlesztette és a [Mullvad](vpn.md#mullvad) terjeszti, és **nem** igényli a Mullvad VPN használatát.
 
 [:octicons-home-16: Honlap](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Adatvédelmi tájékoztató" }

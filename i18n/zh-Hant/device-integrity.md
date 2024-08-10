@@ -45,6 +45,10 @@ cover: device-integrity.webp
 
 ## 外部驗證工具
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
 <div class="admonition danger" markdown>
@@ -128,6 +132,11 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 ## 裝置驗證
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 可安裝這些應用程式來檢查裝置和作業系統是否有篡改跡象，並驗證裝置的身份。
 
 <div class="admonition warning" markdown>
@@ -181,6 +190,10 @@ Auditor is not a scanning/analysis tool like some other tools on this page. Rath
 
 ## 設備掃瞄器
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 可在設備上安裝這些應用程序，這些應用程式會掃描裝置是否有遭駭洩漏跡象。
 
 <div class="admonition warning" markdown>
@@ -221,7 +234,7 @@ Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟
 
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** 是一款 iOS 應用程式，會自動掃描裝置檢查配置設定、修補程式等級和其他安全性領域。 它還會檢查裝置是否有被越獄工具或間諜軟體（例如 Pegasus）入侵的跡象。
+**iVerify** 是一款 iOS 應用程式，會自動掃描裝置檢查配置設定、修補程式等級和其他安全性領域。 It also checks your device for indicators of compromise by jailbreak tools or of [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } such as [Pegasus](https://en.wikipedia.org/wiki/Pegasus_\(spyware\)).
 
 [:octicons-home-16: Homepage](https://iverify.io/products/basic){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }

@@ -9,6 +9,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Kapitalisme Pengawasan](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 DNS terenkripsi dengan server pihak ketiga sebaiknya hanya digunakan untuk mengatasi pemblokiran [DNS dasar](https://en.wikipedia.org/wiki/DNS_blocking) ketika Anda yakin tidak akan ada konsekuensi apa pun. DNS yang terenkripsi tidak akan membantu menyembunyikan aktivitas penjelajahan Anda.
 
 [Pelajari lebih lanjut tentang DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}

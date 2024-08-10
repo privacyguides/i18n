@@ -6,6 +6,13 @@ description: 其他即時通訊則會讓用戶所有的私人對話被該軟體�
 cover: real-time-communication.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 These are our recommendations for encrypted **real-time communication**.
 
 [通訊網絡 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
@@ -67,7 +74,7 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 
 ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX** Chat 是一個分散的即時通訊工具，不依賴任何獨有識別碼，如電話號碼或用戶名。 SimpleX Chat 使用者可以掃描二維碼或點擊邀請連結以參與羣組對話。
+**SimpleX** Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. SimpleX Chat 使用者可以掃描二維碼或點擊邀請連結以參與羣組對話。
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
@@ -98,7 +105,7 @@ SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式
 
 ![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** 是 [連接](https://briarproject.org/how-it-works)其他使用 Tor網路客戶端的加密即時通訊工具。 Briar 還可以在本地附近通過 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格(mesh)模式可能很有用。
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar 還可以在本地附近通過 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格(mesh)模式可能很有用。
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }

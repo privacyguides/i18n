@@ -42,7 +42,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 付費 **iCloud+** 訂閱（任何 iCloud 存儲方案）附帶一些隱私保護功能。 雖然這些能為當前 iCloud 客戶提供足夠服務，但不建議通過 [VPN](../vpn.md) 購買 iCloud 方案，和將 [獨立電子郵件別名服務](../email-aliasing.md)僅用在這些功能。
 
-**Private Relay** 為代理服務，通過兩台伺服器中繼 Safari 流量：一台由 Apple 擁有，另一台由第三方提供商（包括 Akamai、Cloudflare 和 Fastly）擁有 ）。 理論上這應該可以防止鏈中的任何單一提供商（包括 Apple）完全了解您連線訪問的網站。 與完整的 VPN 不同，Private Relay 不會保護 Safari 以外其它應用程式的流量。
+[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) is a proxy service which relays all of your Safari traffic, your DNS queries, and unencrypted traffic on your device through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). 理論上這應該可以防止鏈中的任何單一提供商（包括 Apple）完全了解您連線訪問的網站。 Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
 
 **Hide My Email** 是 Apple 電子郵件別名服務。 當您在網站或應用程式上*使用 Apple 登錄*時，您可以免費創建電子郵件別名，或者通過付費 iCloud+ 方案生成無數的別名。 Hide My Email 的優點是使用 `@icloud.com` 域作為其別名，與其他電子郵件別名服務相比，它可能不太可能被阻止，但不提供獨立服務提供的功能，例如 例如自動 PGP 加密或多郵箱支持。
 

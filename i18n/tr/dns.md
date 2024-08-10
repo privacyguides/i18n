@@ -9,6 +9,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Üçüncü taraf sunucularla şifrelenmiş DNS, yalnızca herhangi bir sonucu olmayacağından emin olduğunuzda temel [DNS Engellemesini](https://en.wikipedia.org/wiki/DNS_blocking) aşmak için kullanılmalıdır. Şifrelenmiş DNS internet faaliyetlerinizi gizlemenize yardımcı olmaz.
 
 [DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}

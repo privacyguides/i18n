@@ -5,6 +5,10 @@ description: These encrypted note-taking apps let you keep track of your notes w
 cover: notebooks.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 여러분의 노트 내용이나 일기를 제3자가 볼 수 없도록 관리하세요.
 
 현재 Evernote, Google Keep, Microsoft OneNote와 같은 애플리케이션을 사용하고 계시다면, 여기에서 E2EE를 지원하는 대체제를 선택해 보실 것을 권장드립니다.

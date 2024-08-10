@@ -5,9 +5,15 @@ description: Estas herramientas te permiten acceder a redes distintas a la World
 cover: alternative-networks.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+
 ## Redes anonimizadoras
 
-Cuando se trata de redes anonimizadoras, querenos destacar que [Tor](advanced/tor-overview.md) es nuestra primera opción. Es la red anónima más utilizada, fuertemente estudiada y activamente desarrollada. Usar otras redes podría poner en peligro tu anonimato, a menos que sepas lo que estás haciendo.
+Cuando se trata de redes anonimizadoras, querenos destacar que [Tor](advanced/tor-overview.md) es nuestra primera opción. Es la red anónima más utilizada, fuertemente estudiada y activamente desarrollada. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
 
 ### Tor
 
@@ -15,7 +21,7 @@ Cuando se trata de redes anonimizadoras, querenos destacar que [Tor](advanced/to
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-La red **Tor** es un grupo de servidores operados por voluntarios que te permiten conectarte de manera gratuita, además de mejorar tu privacidad y seguridad en Internet. Individuos y organizaciones también pueden compartir información a través de la red Tor con los "servicios ocultos .onion" sin comprometer su privacidad. Debido a que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una herramienta eficaz para eludir la censura.
+La red **Tor** es un grupo de servidores operados por voluntarios que te permiten conectarte de manera gratuita, además de mejorar tu privacidad y seguridad en Internet. Individuos y organizaciones también pueden compartir información a través de la red Tor con los "servicios ocultos .onion" sin comprometer su privacidad. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Página principal }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servicio Onion" }

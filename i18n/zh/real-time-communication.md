@@ -6,6 +6,13 @@ description: Other instant messengers make all of your private conversations ava
 cover: real-time-communication.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: 被动攻击](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: 服务提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-eye-outline: 大规模监控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-account-cash: 监视资本主义](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 These are our recommendations for encrypted **real-time communication**.
 
 [通信网络的类型 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
@@ -67,7 +74,7 @@ Signal协议在2016年被独立[审计](https://eprint.iacr.org/2016/1013.pdf) �
 
 ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX** Chat 是一个去中心化的即时通讯软件，并且不依赖任何的个人识别码（电话号码，用户名等）。 SimpleX Chat的用户可以扫描二维码或着点击邀请链接参与到群组聊天。
+**SimpleX** Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. SimpleX Chat的用户可以扫描二维码或着点击邀请链接参与到群组聊天。
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
@@ -98,7 +105,7 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 
 ![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }

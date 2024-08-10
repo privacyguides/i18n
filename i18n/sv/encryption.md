@@ -14,11 +14,15 @@ De alternativ som anges här är flera plattformar och bra för att skapa krypte
 
 ### Cryptomator (moln)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passiva attacker](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
-![Cryptomators logotyp](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** är en krypteringslösning som är utformad för privat lagring av filer till alla molnleverantörer. Det låter dig skapa valv som lagras på en virtuell enhet, vars innehåll krypteras och synkroniseras med din molnlagringsleverantör.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Det låter dig skapa valv som lagras på en virtuell enhet, vars innehåll krypteras och synkroniseras med din molnlagringsleverantör.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -49,6 +53,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt (Fil)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Riktade attacker](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![Picocrypt-logotyp](assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -71,6 +79,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 </div>
 
 ### VeraCrypt (disk)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Riktade attacker](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -102,6 +114,10 @@ När du krypterar med VeraCrypt kan du välja mellan olika hashfunktioner [](htt
 Truecrypt har granskats [ett antal gånger](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), och VeraCrypt har också granskats [separat](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## Fullständig diskkryptering
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Riktade attacker](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
@@ -227,6 +243,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Kommandorad
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Riktade attacker](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 Verktyg med kommandoradsgränssnitt är användbara för att integrera [skalskript](https://en.wikipedia.org/wiki/Shell_script).
 
 ### Kryptor
@@ -272,6 +292,12 @@ Verktyg med kommandoradsgränssnitt är användbara för att integrera [skalskri
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Riktade attacker](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Passiva attacker](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Tjänsteleverantörer](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP behövs ibland för specifika uppgifter som digital signering och kryptering av e-post. PGP har många funktioner och är [komplext](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) eftersom det har funnits länge. För uppgifter som signering eller kryptering av filer föreslår vi ovanstående alternativ.
 

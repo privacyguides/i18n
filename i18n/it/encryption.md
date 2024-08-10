@@ -14,11 +14,15 @@ Le opzioni qui elencate sono multipiattaforma e ottime per creare backup crittog
 
 ### Cryptomator (Cloud)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Attacchi Passivi](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
 ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** è una soluzione per la crittografia progettata per salvare privatamente i file di qualsiasi provider cloud. Ti consente di creare cassaforti memorizzate su un'unità virtuale, i cui contenuti sono crittografati e sincronizzati con il tuo fornitore d'archiviazione su cloud.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Ti consente di creare cassaforti memorizzate su un'unità virtuale, i cui contenuti sono crittografati e sincronizzati con il tuo fornitore d'archiviazione su cloud.
 
 [:octicons-home-16: Pagina Principale](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Politica sulla Privacy" }
@@ -49,6 +53,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt (File)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attacchi Mirati](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -71,6 +79,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 </div>
 
 ### VeraCrypt (Disco)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attacchi Mirati](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -102,6 +114,10 @@ Crittografando con VeraCrypt, puoi selezionare [funzioni di hash](https://en.wik
 Truecrypt è stato [controllato numerose volte](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), così come VeraCrypt, [controllato separatamente](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## Crittografia dell'intero disco del sistema operativo
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attacchi Mirati](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 Per crittografare l'unità da cui si avvia il sistema operativo, in genere si consiglia di attivare il software di crittografia fornito con il sistema operativo piuttosto che utilizzare uno strumento di terze parti. Questo perché gli strumenti di crittografia nativi del sistema operativo spesso utilizzano caratteristiche specifiche del sistema operativo e dell'hardware, come il [cryptoprocessor](https://it.wikipedia.org/wiki/Cryptoprocessor) nel dispositivo, per proteggere il computer da attacchi fisici più avanzati. Per le unità secondarie e le unità esterne da cui *non* si effettua l'avvio, si consiglia comunque di utilizzare strumenti open-source come [VeraCrypt](#veracrypt-disk) rispetto a quelli indicati di seguito, perché offrono una maggiore flessibilità e consentono di evitare il vendor lock-in.
 
@@ -227,6 +243,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Riga di comando
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attacchi Mirati](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 Gli strumenti con interfacce di riga di comando sono utili per integrare gli [script della shell](https://en.wikipedia.org/wiki/Shell_script).
 
 ### Kryptor
@@ -272,6 +292,12 @@ Gli strumenti con interfacce di riga di comando sono utili per integrare gli [sc
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attacchi Mirati](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Attacchi Passivi](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Fornitori di Servizi](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP è talvolta necessario per incarichi specifici, come firmare digitalmente e crittografare un'email. PGP include molte funzionalità ed è [complesso](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html), dato che è in circolazione da molto tempo. Per gli incarichi come firmare o crittografare i file, suggeriamo le opzioni precedenti.
 

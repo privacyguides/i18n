@@ -14,11 +14,15 @@ Opsi yang tercantum di sini adalah multi-platform dan sangat bagus untuk membuat
 
 ### Cryptomator (Awan)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Serangan Pasif](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
-![Logo Cryptomator](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** adalah solusi enkripsi yang dirancang untuk menyimpan berkas secara pribadi ke penyedia layanan awan mana pun. Ini memungkinkan Anda untuk membuat brankas yang disimpan di penyimpanan virtual, yang isinya dienkripsi dan disinkronkan dengan penyedia penyimpanan awan Anda.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Ini memungkinkan Anda untuk membuat brankas yang disimpan di penyimpanan virtual, yang isinya dienkripsi dan disinkronkan dengan penyedia penyimpanan awan Anda.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -49,6 +53,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt (File)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Serangan Bertarget](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -71,6 +79,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 </div>
 
 ### VeraCrypt (Disk)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Serangan Bertarget](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -102,6 +114,10 @@ When encrypting with VeraCrypt, you have the option to select from different [ha
 Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## OS Full Disk Encryption
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Serangan Bertarget](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 Untuk mengenkripsi kandar tempat sistem operasi Anda melakukan but, kami umumnya menyarankan untuk mengaktifkan perangkat lunak enkripsi yang disertakan dengan sistem operasi, alih-alih menggunakan alat pihak ketiga. Hal ini karena alat enkripsi asli sistem operasi Anda sering kali menggunakan OS dan fitur khusus perangkat keras seperti [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) di perangkat Anda untuk melindungi komputer Anda dari serangan fisik yang lebih canggih. Untuk kandar sekunder dan kandar eksternal yang *tidak* Anda gunakan untuk melakukan but, kami tetap menyarankan untuk menggunakan alat bantu sumber terbuka seperti [VeraCrypt](#veracrypt-disk) alih-alih alat bantu di bawah ini, karena alat bantu ini menawarkan fleksibilitas tambahan dan memungkinkan Anda menghindari penguncian dari vendor.
 
@@ -227,6 +243,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Baris perintah
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Serangan Bertarget](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
 ### Kryptor
@@ -272,6 +292,12 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Serangan Bertarget](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Serangan Pasif](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Penyedia Layanan](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 

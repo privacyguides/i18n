@@ -9,6 +9,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Капіталізм нагляду](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Зашифрований DNS на сторонніх серверах слід використовувати, щоб обійти базове [блокування за DNS](https://en.wikipedia.org/wiki/DNS_blocking) лише тоді, коли ви впевнені, що це не матиме жодних наслідків. Зашифрований DNS не допоможе вам приховати будь-яку вашу веб-активність.
 
 [Дізнайтеся більше про DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}

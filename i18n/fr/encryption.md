@@ -14,11 +14,15 @@ Les options répertoriées ici sont multiplateformes et parfaites pour créer de
 
 ### Cryptomator (Cloud)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
-![Logo Cryptomator](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** est une solution de chiffrement conçue pour enregistrer vos fichiers de manière privée vers n'importe quel fournisseur de cloud. Il vous permet de créer des coffres-forts qui sont stockés sur un disque virtuel, dont le contenu est chiffré et synchronisé avec votre fournisseur de stockage cloud.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Il vous permet de créer des coffres-forts qui sont stockés sur un disque virtuel, dont le contenu est chiffré et synchronisé avec votre fournisseur de stockage cloud.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -49,6 +53,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt (Fichier)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attaques ciblées](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![Logo de Picocrypt](assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -71,6 +79,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 </div>
 
 ### VeraCrypt (Disque)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attaques ciblées](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -102,6 +114,10 @@ Lors du chiffrement avec VeraCrypt, vous avez la possibilité de choisir parmi d
 Truecrypt a été [audité un certain nombre de fois](https://fr.wikipedia.org/wiki/TrueCrypt#Audit_global_du_logiciel_en_2013) et VeraCrypt a également été [audité séparément](https://fr.wikipedia.org/wiki/VeraCrypt#Audit).
 
 ## Chiffrement complet du disque du système d'exploitation
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attaques ciblées](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 Pour chiffrer le disque à partir duquel votre système d'exploitation démarre, nous recommandons généralement d'activer le logiciel de chiffrement fourni avec votre système d'exploitation plutôt que d'utiliser un outil tiers. En effet, les outils de chiffrement natifs de votre système d'exploitation utilisent souvent des fonctions spécifiques au système d'exploitation et au matériel, telles que le [cryptoprocesseur sécurisé](https://fr.wikipedia.org/wiki/Cryptoprocesseur_s%C3%A9curis%C3%A9) de votre appareil, pour protéger votre ordinateur contre des attaques physiques plus avancées. Pour les disques secondaires et les disques externes sur lesquels vous *ne démarrez pas*, nous recommandons toujours l'utilisation d'outils open-source tels que [VeraCrypt](#veracrypt-disk) plutôt que les outils ci-dessous, car ils offrent une flexibilité supplémentaire et vous permettent d'éviter l'enfermement dans un fournisseur.
 
@@ -227,6 +243,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Ligne de commande
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attaques ciblées](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 Les outils dotés d'une interface de ligne de commande sont utiles pour intégrer des [scripts shell](https://fr.wikipedia.org/wiki/Script_shell).
 
 ### Kryptor
@@ -272,6 +292,12 @@ Les outils dotés d'une interface de ligne de commande sont utiles pour intégre
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attaques ciblées](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP est parfois nécessaire pour des tâches spécifiques telles que la signature numérique et le chiffrage des e-mails. PGP possède de nombreuses fonctionnalités et est [complexe](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) car il existe depuis longtemps. Pour des tâches telles que la signature ou le chiffrement des fichiers, nous suggérons les options ci-dessus.
 

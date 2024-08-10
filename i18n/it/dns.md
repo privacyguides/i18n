@@ -9,6 +9,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Capitalismo di sorveglianza](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 I DNS crittografati con server di terze parti dovrebbero essere utilizzati soltanto per aggirare il [blocco DNS](https://en.wikipedia.org/wiki/DNS_blocking) di base, quando si può esser certi che non vi sarà alcuna conseguenza. Il DNS crittografato non ti aiuterà a nascondere alcuna tua attività di navigazione.
 
 [Scopri di più sul DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}

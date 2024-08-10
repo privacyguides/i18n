@@ -5,6 +5,11 @@ icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: Sorveglianza di massa](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+
 Effettuare pagamenti online è una delle maggiori sfide per la privacy. Queste criptovalute offrono la privacy delle transazioni di default (cosa che **non** è garantita dalla maggior parte delle criptovalute), a condizione che si abbia una buona conoscenza di come effettuare pagamenti privati in modo efficace. Ti consigliamo vivamente di leggere prima il nostro articolo panoramico sui pagamenti prima di effettuare qualsiasi acquisto:
 
 [Effettuare pagamenti privati :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
@@ -20,9 +25,9 @@ Molte, se non la gran parte delle criptovalute sono delle truffe. Effettua atten
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Monero](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero** utilizza una blockchain con tecnologie che migliorano la privacy e offuscano le transazioni per ottenere l'anonimato. Ogni transazione di Monero nasconde l'importo della transazione, gli indirizzi di invio e ricezione e la fonte dei fondi senza dover fare i salti mortali, il che la rende una scelta ideale per i neofiti delle criptovalute.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Ogni transazione di Monero nasconde l'importo della transazione, gli indirizzi di invio e ricezione e la fonte dei fondi senza dover fare i salti mortali, il che la rende una scelta ideale per i neofiti delle criptovalute.
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}

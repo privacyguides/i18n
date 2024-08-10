@@ -5,6 +5,11 @@ icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+
 線上支付是隱私面臨的最大挑戰之一。 下列加密貨幣預設提供交易隱私（大多數加密貨幣**並未保證**如此 ），前提是您對如何有效地進行私人支付有深入了解。 我們強烈建議您在網路購買前先閱讀本站私密付款之介紹：
 
 [私密付款 :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
@@ -20,9 +25,9 @@ cover: cryptocurrency.webp
 
 <div class="admonition recommendation" markdown>
 
-![Monero 標誌](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero** 使用增強隱私技術的區塊鏈，混淆交易以實現匿名性。 每筆 Monero 交易都隱藏了交易金額、發送和接收地址以及資金來源，使其成為加密貨幣新手的理想選擇。
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. 每筆 Monero 交易都隱藏了交易金額、發送和接收地址以及資金來源，使其成為加密貨幣新手的理想選擇。
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}

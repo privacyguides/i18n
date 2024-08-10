@@ -5,6 +5,10 @@ description: These encrypted note-taking apps let you keep track of your notes w
 cover: notebooks.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 第三者による閲覧を防止しながら、メモや日記を保存できます。
 
 現在、Evernote、Google Keep、Microsoft OneNoteなどを使用している場合は、ここに掲載されたエンドツーエンド暗号化対応のアプリケーションに移行することをおすすめします。

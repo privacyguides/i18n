@@ -5,6 +5,11 @@ icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: Pengawasan Massal](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: Penyensoran](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+
 Melakukan pembayaran secara daring adalah salah satu tantangan terbesar bagi privasi. Mata uang kripto di bawah ini menyediakan privasi transaksi secara bawaan (sesuatu yang **tidak** dijamin oleh sebagian besar mata uang kripto), asalkan Anda memiliki pemahaman yang kuat tentang cara melakukan pembayaran pribadi secara efektif. Kami sangat menyarankan Anda untuk membaca artikel ikhtisar pembayaran kami terlebih dahulu sebelum melakukan pembelian:
 
 [Melakukan Pembayaran Pribadi :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
@@ -20,9 +25,9 @@ Banyak atau bahkan sebagian besar proyek mata uang kripto adalah penipuan. Lakuk
 
 <div class="admonition recommendation" markdown>
 
-![Logo Monero](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero** menggunakan blockchain dengan teknologi yang meningkatkan privasi yang mengaburkan transaksi untuk mencapai anonimitas. Setiap transaksi Monero menyembunyikan jumlah transaksi, alamat pengirim dan penerima, dan sumber dana tanpa ada rintangan yang harus dilewati, menjadikannya pilihan ideal untuk pemula mata uang kripto.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Setiap transaksi Monero menyembunyikan jumlah transaksi, alamat pengirim dan penerima, dan sumber dana tanpa ada rintangan yang harus dilewati, menjadikannya pilihan ideal untuk pemula mata uang kripto.
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}

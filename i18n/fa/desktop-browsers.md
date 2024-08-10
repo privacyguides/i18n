@@ -57,6 +57,10 @@ schema:
       url: "./"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. اگر شما دنبال حفاظت قوی از حریم خصوصی و anti-fingerprinting هستید ما به شما مرورگر، [Mullvad Browser](#mullvad-browser) را توصیه می‌کنیم، [Firefox](#firefox) را برای کاربران عادی اینترنتی که به دنبال جایگزین مناسبی برای Google Chrome هستند پیشنهاد می‌کنیم و [Brave](#brave) در صورتی نیاز به سازگاری با مرورگر Chromium دارید.
 
 اگر نیاز به مرور اینترنت به صورت ناشناس دارید، بهتر است از مرورگر [Tor](tor.md) استفاده کنید. ما در این صفحه برخی از تنظیمات را توصیه می‌کنیم، اما تمامی مرورگرها به جز Tor Browser به طریقی یا ناگزیر توسط *کسی* قابل ردیابی هستند.
@@ -67,7 +71,7 @@ These are our currently recommended **desktop web browsers** and configurations 
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }

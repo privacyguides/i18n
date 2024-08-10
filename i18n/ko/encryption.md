@@ -14,10 +14,15 @@ cover: encryption.webp
 
 ### Cryptomator (클라우드)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: 수동적 공격(Passive Attacks)](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
-![Cryptomator 로고](assets/img/encryption-software/cryptomator.svg){ align=right }
-**Cryptomator**는 다양한 클라우드와 호환되도록 설계된 파일 암호화 솔루션입니다. 가상 드라이브에 Vault라고 불리는 파일 저장소를 생성할 수 있고, 여기에 저장된 파일들은 암호화되며 자동으로 클라우드와 동기화됩니다.
+![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. 가상 드라이브에 Vault라고 불리는 파일 저장소를 생성할 수 있고, 여기에 저장된 파일들은 암호화되며 자동으로 클라우드와 동기화됩니다.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -48,6 +53,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt (파일)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: 표적 공격(Targeted Attacks)](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -70,6 +79,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 </div>
 
 ### VeraCrypt (디스크)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: 표적 공격(Targeted Attacks)](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -101,6 +114,10 @@ When encrypting with VeraCrypt, you have the option to select from different [ha
 Truecrypt는 [여러 차례 감사 받은 이력이 있으며](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), VeraCrypt 또한 [별도 감사](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit)를 받았습니다.
 
 ## OS 전체 디스크 암호화
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: 표적 공격(Targeted Attacks)](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
@@ -226,6 +243,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## 커맨드라인
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: 표적 공격(Targeted Attacks)](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 커맨드라인 인터페이스가 존재하는 툴은 [Shell 스크립트](https://ko.wikipedia.org/wiki/%EC%85%B8_%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)에 통합하는 용도로 유용합니다.
 
 ### Kryptor
@@ -271,6 +292,12 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: 표적 공격(Targeted Attacks)](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: 수동적 공격(Passive Attacks)](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 

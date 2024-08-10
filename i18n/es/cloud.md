@@ -6,6 +6,11 @@ description: Muchos proveedores de almacenamiento en la nube exigen que confíes
 cover: cloud.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Many **cloud storage providers** require your full trust that they will not look at your files. Las alternativas enumeradas a continuación eliminan la necesidad de confianza mediante la implementación de E2EE seguros.
 
 Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques utilizar un software de encriptación como [Cryptomator](encryption.md#cryptomator-cloud) con otro proveedor en la nube. Utilizar Cryptomator junto con **cualquier** proveedor de la nube(incluidos estos) puede ser una buena idea para reducir el riesgo de fallos de cifrado en los clientes nativos de un proveedor.
@@ -89,7 +94,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir y ver sus fotos, vídeos, documentos, etc. Peergos protege tus archivos con cifrado cuántico resistente de extremo a extremo y garantiza que todos los datos sobre tus archivos permanezcan privados. Está construido sobre [IPFS (InterPlanetary File System)](https://ipfs.tech).
+**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir y ver sus fotos, vídeos, documentos, etc. Peergos protege tus archivos con cifrado cuántico resistente de extremo a extremo y garantiza que todos los datos sobre tus archivos permanezcan privados. It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }

@@ -5,6 +5,11 @@ description: I calendari contengono alcuni dei tuoi dati più sensibili; utilizz
 cover: calendar.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Attacchi Passivi](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Fornitori di Servizi](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 **Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
 
 ## Tuta

@@ -6,6 +6,11 @@ description: 대부분의 클라우드 스토리지 제공 업체는, 업체가 
 cover: cloud.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: 수동적 공격(Passive Attacks)](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Many **cloud storage providers** require your full trust that they will not look at your files. 아래에 제시된 대안은 E2EE 보안을 구현하여 '신뢰'의 필요성을 처음부터 제거합니다.
 
 이러한 대안들이 여러분의 요구에 맞지 않는 경우, 다른 클라우드 제공 업체를 [Cryptomator](encryption.md#cryptomator-cloud) 등의 암호화 소프트웨어와 함께 사용할 것을 권장합니다. **어떤** 클라우드 제공 업체든(본 목록 포함), Cryptomator를 함께 사용함으로써 제공 업체의 기본 클라이언트에서 발생할 수 있는 암호화 결함 위험성을 낮출 수 있습니다.
@@ -89,7 +94,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech).
+**Peergos** is a decentralized protocol and open-source platform for storage, social media, and applications. It provides a secure and private space where users can store, share, and view their photos, videos, documents, etc. Peergos secures your files with quantum-resistant end-to-end encryption and ensures all data about your files remains private. It is built on top of [IPFS (InterPlanetary File System)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }

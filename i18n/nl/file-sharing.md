@@ -5,6 +5,10 @@ description: Ontdek hoe je jouw bestanden privé kunt delen tussen jouw apparate
 cover: file-sharing.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Dienstverleners](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Ontdek hoe je jouw bestanden privé kunt delen tussen jouw apparaten, met jouw vrienden en familie, of anoniem online.
 
 ## Bestanden Delen
@@ -39,7 +43,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
-**OnionShare** is een open-source tool waarmee je veilig en anoniem een bestand van elke grootte kunt delen. Het werkt door een webserver te starten die toegankelijk is als een Tor onion service, met een onleesbare URL die je met de ontvangers kunt delen om bestanden te downloaden of te verzenden.
+**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Het werkt door een webserver te starten die toegankelijk is als een Tor onion service, met een onleesbare URL die je met de ontvangers kunt delen om bestanden te downloaden of te verzenden.
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
@@ -56,6 +60,8 @@ ffsend upload --host https://send.vis.ee/ FILE
 </details>
 
 </div>
+
+OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
 ### Criteria
 

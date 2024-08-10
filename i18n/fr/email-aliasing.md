@@ -5,6 +5,11 @@ description: Un service d'alias d'adresses électroniques vous permet de génér
 cover: email-aliasing.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
+
 An **email aliasing service** allows you to easily generate a new email address for every website you register for. Les alias que vous générez sont ensuite transférés vers une adresse électronique de votre choix, masquant ainsi votre adresse électronique "principale" et l'identité de votre [fournisseur d'adresses électroniques](email.md). Un véritable alias d'adresse électronique est préférable à l'adressage plus couramment utilisé et pris en charge par de nombreux fournisseurs, qui vous permet de créer des alias du type "nom de famille+[n'importe où]@exemple.com", parce que les sites web, les annonceurs et les réseaux de suivi peuvent trivialement supprimer tout ce qui se trouve après le signe `+`. Des organisations telles que l'[IAB] (https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) exigent que les annonceurs [normalisent les adresses électroniques] (https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) afin qu'elles puissent être corrélées et suivies, sans tenir compte des souhaits des utilisateurs en matière de protection de la vie privée.
 
 <div class="grid cards" markdown>

@@ -132,6 +132,12 @@ schema:
       url: "./"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attaques ciblées](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Les **gestionnaires de mots de passe** vous permettent de stocker et de gérer en toute sécurité des mots de passe et autres identifiants à l'aide d'un mot de passe maître.
 
 [Introduction aux mots de passe :material-arrow-right-drop-circle:](./basics/passwords-overview.md)

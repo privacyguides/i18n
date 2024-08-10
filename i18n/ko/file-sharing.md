@@ -5,6 +5,10 @@ description: 기기 간에, 친구 및 가족과, 혹은 익명으로 온라인 
 cover: file-sharing.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 기기 간에, 친구 및 가족과, 혹은 익명으로 온라인 상에서 파일을 개인적으로 공유하는 방법을 알아보세요.
 
 ## 파일 공유
@@ -37,9 +41,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare 로고](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
-**OnionShare**는 파일 크기에 관계 없이 안전하게 익명으로 공유할 수 있는 오픈 소스 툴입니다. Tor Onion 서비스로 접근 가능한 웹 서버를 실행하고, 추론 불가능한 URL을 수신자와 공유하여 파일을 다운로드하거나 전송하는 방식으로 작동합니다.
+**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Tor Onion 서비스로 접근 가능한 웹 서버를 실행하고, 추론 불가능한 URL을 수신자와 공유하여 파일을 다운로드하거나 전송하는 방식으로 작동합니다.
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
@@ -56,6 +60,8 @@ ffsend upload --host https://send.vis.ee/ FILE
 </details>
 
 </div>
+
+OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
 ### 평가 기준
 

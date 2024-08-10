@@ -5,6 +5,10 @@ description: These encrypted note-taking apps let you keep track of your notes w
 cover: notebooks.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Kövesd nyomon jegyzeteid és naplóid anélkül, hogy harmadik félnek adnád át azokat.
 
 Ha jelenleg olyan alkalmazást használsz, mint az Evernote, a Google Keep vagy a Microsoft OneNote, javasoljuk, hogy válassz egy olyan alternatívát, amely támogatja az End-to-End titksoítást.

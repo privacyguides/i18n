@@ -5,6 +5,10 @@ description: Questi strumenti ti assistono nella protezione dei tuoi account Int
 cover: multi-factor-authentication.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Attacchi Mirati](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition note" markdown>
 <p class="admonition-title">Chiavi Hardware</p>
 

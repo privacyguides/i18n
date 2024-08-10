@@ -5,6 +5,10 @@ description: Découvrez comment partager vos fichiers en toute confidentialité 
 cover: file-sharing.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Découvrez comment partager vos fichiers en toute confidentialité entre vos appareils, avec vos amis et votre famille, ou de manière anonyme en ligne.
 
 ## Partage de fichiers
@@ -37,9 +41,9 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 
 <div class="admonition recommendation" markdown>
 
-![Logo OnionShare](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
-**OnionShare** est un outil open-source qui vous permet de partager de manière sécurisée et anonyme un fichier de n'importe quelle taille. Il fonctionne en démarrant un serveur web accessible en tant que service oignon Tor, avec une URL non devinable que vous pouvez partager avec les destinataires pour télécharger ou envoyer des fichiers.
+**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Il fonctionne en démarrant un serveur web accessible en tant que service oignon Tor, avec une URL non devinable que vous pouvez partager avec les destinataires pour télécharger ou envoyer des fichiers.
 
 [:octicons-home-16: Page d'accueil](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Service onion" }
@@ -56,6 +60,8 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 </details>
 
 </div>
+
+OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
 ### Critères
 

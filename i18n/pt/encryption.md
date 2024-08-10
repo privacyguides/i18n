@@ -14,12 +14,15 @@ As opções listadas aqui são multi-plataforma e excelentes para criar backups 
 
 ### VeraCrypt
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Ataques passivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
-![logo VeraCrypt](/assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-![VeraCrypt logo](/assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**VeraCrypt** é um utilitário freeware disponível na fonte, utilizado para encriptação on-the-fly. Ele pode criar um disco virtual encriptado dentro de um ficheiro, encriptar uma partição ou encriptar todo o dispositivo de armazenamento com autenticação pré-boot.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Ele pode criar um disco virtual encriptado dentro de um ficheiro, encriptar uma partição ou encriptar todo o dispositivo de armazenamento com autenticação pré-boot.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -49,6 +52,10 @@ Ao encriptar com VeraCrypt, o utilizador tem a opção de seleccionar de diferen
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.
 
 ### Criptomador
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques direcionados](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -83,6 +90,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques direcionados](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![logotipo Picocrypt](/assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -112,6 +123,10 @@ When encrypting with VeraCrypt, you have the option to select from different [ha
 Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## Sistema operacional incluído Criptografia de disco completo (FDE)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques direcionados](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
 
@@ -237,6 +252,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Linha de comando
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques direcionados](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
 ### Kryptor
@@ -282,6 +301,12 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques direcionados](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Ataques passivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Fornecedores de serviços](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. Dica "Use padrões futuros ao gerar uma chave". For tasks such as signing or encrypting files, we suggest the above options.
 

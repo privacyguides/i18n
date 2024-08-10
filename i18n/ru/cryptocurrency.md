@@ -5,6 +5,11 @@ icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: Массовое наблюдение](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: Цензура](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+
 Платежи в интернете - одна из самых серьезных проблем, связанных с конфиденциальностью. Эти криптовалюты по умолчанию обеспечивают конфиденциальность транзакций (что **не** гарантируется большинством криптовалют), при условии, что вы хорошо понимаете, как эффективно осуществлять приватные платежи. Мы настоятельно рекомендуем вам сначала прочитать нашу обзорную статью о платежах, прежде чем совершать какие-либо покупки:
 
 [Совершение приватных платежей :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
@@ -20,9 +25,9 @@ cover: cryptocurrency.webp
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Monero](assets/img/cryptocurrency/monero.svg){ align=right }
+![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero** использует блокчейн с технологиями повышения конфиденциальности, которые затрудняют отслеживание транзакций для достижения анонимности. Каждая транзакция в Monero скрывает сумму транзакции, адреса отправителя и получателя и источник средств, не требуя при этом дополнительных действий, что делает её идеальным выбором для новичков в области криптовалют.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Каждая транзакция в Monero скрывает сумму транзакции, адреса отправителя и получателя и источник средств, не требуя при этом дополнительных действий, что делает её идеальным выбором для новичков в области криптовалют.
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}

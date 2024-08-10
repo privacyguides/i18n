@@ -9,6 +9,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: 감시 자본주의(Surveillance Capitalism)](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 제3자 서버를 사용하는 암호화 DNS는 기본적인 [DNS 차단](https://en.wikipedia.org/wiki/DNS_blocking)을 우회하는 용도로만, 그리고 아무런 문제가 발생하지 않을 것이라고 확신할 수 있는 경우에만 사용해야 합니다. 암호화 DNS는 여러분의 브라우저 탐색 활동을 숨기는 데에 전혀 도움이 되지 않습니다.
 
 [DNS 자세히 알아보기 :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}

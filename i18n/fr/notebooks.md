@@ -5,6 +5,10 @@ description: These encrypted note-taking apps let you keep track of your notes w
 cover: notebooks.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Gardez une trace de vos notes et de vos journaux sans les donner à un tiers.
 
 Si vous utilisez actuellement une application comme Evernote, Google Keep, ou Microsoft OneNote, nous vous suggérons de choisir ici une alternative qui supporte le E2EE.

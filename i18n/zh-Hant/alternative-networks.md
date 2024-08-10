@@ -5,9 +5,15 @@ description: 這些工具可存取萬維網以外的網路。
 cover: alternative-networks.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+
 ## 匿名網路
 
-當談到匿名網路時，要特別注意的是 我們首選的[Tor](advanced/tor-overview.md) 。 它是迄今為止使用最多、研究最深入、開發最活躍的匿名網路。 使用其他網路有可能危及匿名性，除非知道自己在做什麼。
+當談到匿名網路時，要特別注意的是 我們首選的[Tor](advanced/tor-overview.md) 。 它是迄今為止使用最多、研究最深入、開發最活躍的匿名網路。 Using other networks could be more likely to endanger your [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
 
 ### Tor
 
@@ -15,7 +21,7 @@ cover: alternative-networks.webp
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-**Tor** 網絡是一組由志願者操作的伺服器，可免費連線，並改善隱私權和安全性。 個人和組織還可以通過 Tor 網絡與“.onion 隱藏服務”分享資訊，而不會損害他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
+**Tor** 網絡是一組由志願者操作的伺服器，可免費連線，並改善隱私權和安全性。 個人和組織還可以通過 Tor 網絡與“.onion 隱藏服務”分享資訊，而不會損害他們的隱私。 Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }

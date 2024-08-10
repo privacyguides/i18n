@@ -5,6 +5,10 @@ description: Estas extensiones de navegador pueden mejorar tu experiencia de nav
 cover: browser-extensions.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+
 En general, recomendamos mantener las extensiones del navegador al mínimo para reducir la superficie de ataque. Tienen acceso privilegiado dentro de tu navegador, requieren que confíes en el desarrollador, pueden hacerte [destacar](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), y [debilitar](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) el aislamiento del sitio.
 
 Sin embargo, algunas ofrecen funcionalidades que pueden compensar estos inconvenientes en determinadas situaciones, especialmente cuando se trata de [bloqueo de contenidos](basics/common-threats.md#mass-surveillance-programs).
@@ -56,7 +60,7 @@ uBlock Origin también tiene una versión "Lite" de su extensión, que ofrece un
 
 ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
 
-**uBlock Origin Lite** es un bloqueador de contenidos compatible con Manifest V3. En comparación con el _uBlock Origin_ original, esta extensión no requiere amplios permisos de "lectura/modificación de datos" para funcionar.
+**uBlock Origin Lite** es un bloqueador de contenidos compatible con Manifest V3. Compared to the original _uBlock Origin_, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
 
 [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }

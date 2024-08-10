@@ -37,6 +37,10 @@ schema:
       url: "./"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) .
 
 ## Android

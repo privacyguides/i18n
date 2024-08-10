@@ -5,6 +5,10 @@ description: Estas herramientas te ayudan a proteger tus cuentas de Internet con
 cover: multi-factor-authentication.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition note" markdown>
 <p class="admonition-title">Hardware Keys</p>
 

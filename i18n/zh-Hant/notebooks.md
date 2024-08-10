@@ -5,6 +5,10 @@ description: 這些加密的筆記錄應用程式可讓您跟進記錄，而無�
 cover: notebooks.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 保存記錄您的筆記和日誌，不要將它們提供給第三方。
 
 如果您目前使用的是 Evernote、Google Keep 或 Microsoft OneNote 等應用程式，我們建議您在這裡選擇一個支援 E2EE 的替代方案。

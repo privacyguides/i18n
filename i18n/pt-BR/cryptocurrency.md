@@ -5,6 +5,11 @@ icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+
 Fazer pagamentos “on-line” é um dos maiores desafios à privacidade. Essas criptomoedas oferecem privacidade nas transações por padrão (algo que **não** é garantido pela maioria das criptomoedas), desde que você tenha um bom conhecimento de como fazer pagamentos privados de forma eficaz. Recomendamos fortemente que você leia primeiro nosso artigo de visão geral sobre pagamentos antes de fazer qualquer compra:
 
 [Fazendo Pagamentos Privados :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
@@ -22,7 +27,7 @@ Many if not most cryptocurrency projects are scams. Make transactions carefully 
 
 ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve anonymity. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Every Monero transaction hides the transaction amount, sending and receiving addresses, and source of funds without any hoops to jump through, making it an ideal choice for cryptocurrency novices.
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}

@@ -5,6 +5,10 @@ description: 這些瀏覽器擴充套件可以增強瀏覽體驗並保護隱私�
 cover: browser-extensions.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+
 一般來說，建議將瀏覽器擴充套件維持在最低限度，以減少攻擊面。 它們在瀏覽器中擁有特權存取權限，要求用戶信任開發人員，也會[突顯出讓瀏覽器](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)，[削弱](https:/ /groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ）站點隔離。
 
 然而，有些提供的功能在某些情況下可以克服這些缺點，特別是在[內容攔截](basics/common-threats.md#mass-surveillance-programs)方面。
@@ -56,7 +60,7 @@ uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集�
 
 ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
 
-**uBlock Origin Lite** 是相容於 Manifest V3 的內容攔截器。 相較於 _uBlock Origin_ ，此附加元件不需要廣泛的「讀取/修改資料」權限即可運作。
+**uBlock Origin Lite** 是相容於 Manifest V3 的內容攔截器。 Compared to the original _uBlock Origin_, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
 
 [:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }

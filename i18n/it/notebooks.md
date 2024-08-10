@@ -5,6 +5,10 @@ description: Queste app di appunti crittografate ti consentono di tenere traccia
 cover: notebooks.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Fornitori di Servizi](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Monitora le tue note e i tuoi diari senza doverli dare a una terza parte.
 
 Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNote, suggeriamo di selezionare qui un'alternativa, che supporti l'E2EE.

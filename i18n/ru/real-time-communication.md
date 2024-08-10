@@ -6,6 +6,13 @@ description: Other instant messengers make all of your private conversations ava
 cover: real-time-communication.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Пассивные атаки](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: Поставщики услуг](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-eye-outline: Массовое наблюдение](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-account-cash: Капитализм слежки](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 These are our recommendations for encrypted **real-time communication**.
 
 [Типы коммуникационных сетей :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
@@ -65,9 +72,9 @@ Contact lists on Signal are encrypted using your Signal PIN and the server does 
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Simplex](assets/img/messengers/simplex.svg){ align=right }
+![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX** Chat - это децентрализованный мессенджер, который не зависит от каких-либо уникальных идентификаторов, таких как номера телефонов или имена пользователей. Пользователи SimpleX Chat могут сканировать QR-код или открыть ссылку-приглашение для участия в групповых беседах.
+**SimpleX** Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Пользователи SimpleX Chat могут сканировать QR-код или открыть ссылку-приглашение для участия в групповых беседах.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
@@ -98,7 +105,7 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 
 ![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network. Briar также может передавать сообщения через Wi-Fi или Bluetooth, если получатель находится в непосредственной близости. Режим локальной сети Briar может быть полезен, когда Вы не имеете доступа к Интернету.
+**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar также может передавать сообщения через Wi-Fi или Bluetooth, если получатель находится в непосредственной близости. Режим локальной сети Briar может быть полезен, когда Вы не имеете доступа к Интернету.
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }

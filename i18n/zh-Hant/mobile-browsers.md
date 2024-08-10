@@ -37,6 +37,10 @@ schema:
       url: "./"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 這些是我們目前推薦的 **行動網路瀏覽器** 以及 標準/非匿名網路瀏覽 的配置。 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。
 
 ## Android

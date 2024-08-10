@@ -5,6 +5,11 @@ icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: Massabewaking](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: Censuur](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+
 Online betalen is een van de grootste uitdagingen voor privacy. Deze cryptocurrencies bieden standaard transactieprivacy (iets wat door de meeste cryptocurrencies **niet** wordt gegarandeerd), mits je goed begrijpt hoe je private betalingen effectief kunt uitvoeren. Wij raden je sterk aan eerst ons overzichtsartikel over betalingen te lezen voordat je aankopen doet:
 
 [Privébetalingen maken :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
@@ -22,7 +27,7 @@ Veel zo niet de meeste cryptocurrency projecten zijn zwendel. Voer transacties z
 
 ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero** gebruikt een blockchain met privacyverbeterende technologieën die transacties versluieren om anonimiteit te bereiken. Elke Monero-transactie verbergt het transactiebedrag, het verzenden en ontvangen van adressen en de bron van fondsen zonder hoepels om doorheen te springen, waardoor het een ideale keuze is voor beginners met cryptocurrency.
+**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Elke Monero-transactie verbergt het transactiebedrag, het verzenden en ontvangen van adressen en de bron van fondsen zonder hoepels om doorheen te springen, waardoor het een ideale keuze is voor beginners met cryptocurrency.
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}

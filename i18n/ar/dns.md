@@ -9,6 +9,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 ينبغي استخدام أنظمة أسماء النطاقات المعمَّاة الموجودة في خوادم جهات خارجية فقط لتجاوز [حظرها](https://en.wikipedia.org/wiki/DNS_blocking)، وذلك إن تيقَّنت من أن ذلك ليست له عواقب. لن يخفي استخدام نظام أسماء نطاق معمًّى ما تتصفَّح.
 
 [استزد علمًا عن أنظمة أسماء النطاقات :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}

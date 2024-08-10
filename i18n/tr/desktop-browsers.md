@@ -57,6 +57,10 @@ schema:
       url: "./"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Eğer varsayılan olarak güçlü mahremiyet koruması ve parmak izi önleme istiyorsanız [Mullvad Browser'ı](#mullvad-browser), Google Chrome için iyi bir alternatif arayan normal kullanıcılar için [Firefox'u](#firefox) ve eğer Chromium uyumlu bir tarayıcıya ihtiyacınız varsa [Brave'i](#brave) öneririz.
 
 İnternette anonim olarak gezinmeniz gerekiyorsa, bunlar yerine [Tor](tor.md) kullanmalısınız. Bu sayfada bazı yapılandırma önerilerinde bulunmaktayız fakat Tor Browser hariç tüm tarayıcılar *birisi* tarafından herhangi bir şekilde takip edilebilirdir.
@@ -65,9 +69,9 @@ These are our currently recommended **desktop web browsers** and configurations 
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logosu](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser**, [Tor Browser]'ın (tor.md#tor-browser) Tor ağ entegrasyonları kaldırılmış bir sürümüdür ve Tor Browser'ın parmak izi önleme tarayıcı teknolojilerini VPN kullanıcılarına sunmayı amaçlamaktadır. Tor Projesi tarafından geliştirilir ve [Mullvad] (vpn.md#mullvad) tarafından dağıtılır, ayrıca **Mullvad'ın VPN'inin kullanılmasını gerektirmez.
+**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Tor Projesi tarafından geliştirilir ve [Mullvad] (vpn.md#mullvad) tarafından dağıtılır, ayrıca **Mullvad'ın VPN'inin kullanılmasını gerektirmez.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }

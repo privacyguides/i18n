@@ -45,6 +45,10 @@ Ces outils fournissent une analyse basée sur les informations auxquelles ils on
 
 ## Outils de vérification externes
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
 <div class="admonition danger" markdown>
@@ -128,6 +132,11 @@ iMazing automatise et vous guide de manière interactive tout au long du process
 
 ## Vérification sur l'appareil
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 Il s'agit d'applications que vous pouvez installer et qui vérifient que votre appareil et votre système d'exploitation ne présentent pas de signes d'altération et qui valident l'identité de votre appareil.
 
 <div class="admonition warning" markdown>
@@ -181,6 +190,10 @@ Si votre [modèle de menace](basics/threat-modeling.md) nécessite une certaine 
 
 ## Scanners embarqués
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 Il s'agit d'applications que vous pouvez installer sur votre appareil et qui l'analysent pour détecter des signes de compromission.
 
 <div class="admonition warning" markdown>
@@ -221,7 +234,7 @@ Hypatia is particularly good at detecting common stalkerware: If you suspect you
 
 ![logo iVerify](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. Il vérifie également que votre appareil ne présente pas d'indicateurs de compromission par des outils de jailbreak ou des logiciels espions tels que Pegasus.
+**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or of [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } such as [Pegasus](https://en.wikipedia.org/wiki/Pegasus_\(spyware\)).
 
 [:octicons-home-16: Homepage](https://iverify.io/products/basic){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }

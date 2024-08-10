@@ -5,6 +5,10 @@ description: Estas aplicaciones encriptadas para tomar notas te permiten hacer u
 cover: notebooks.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Mantén el control de tus notas y diarios sin darlos a un tercero.
 
 Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft OneNote, te sugerimos que elijas aquí una alternativa que soporte [Cifrado de extremo a extremo (E2EE)](https://es.wikipedia.org/wiki/Cifrado_de_extremo_a_extremo).

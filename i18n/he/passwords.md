@@ -132,6 +132,12 @@ schema:
       url: "./"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: התקפות ממוקדות](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: התקפות פסיביות](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: ספקי שירות](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 **Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
 [מבוא לסיסמאות :material-arrow-right-drop-circle:](./basics/passwords-overview.md)

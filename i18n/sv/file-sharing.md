@@ -5,6 +5,10 @@ description: Upptäck hur du kan dela dina filer privat mellan dina enheter, med
 cover: file-sharing.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Tjänsteleverantörer](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Upptäck hur du kan dela dina filer privat mellan dina enheter, med vänner och familj eller anonymt på nätet.
 
 ## Fildelningsprogram
@@ -37,9 +41,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare-logotyp](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
-**OnionShare** är ett verktyg med öppen källkod som låter dig dela en fil av valfri storlek på ett säkert och anonymt sätt. Det fungerar genom att starta en webbserver som är tillgänglig som en Tor onion-tjänst, med en oigenkännlig URL som du kan dela med mottagarna för att ladda ner eller skicka filer.
+**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Det fungerar genom att starta en webbserver som är tillgänglig som en Tor onion-tjänst, med en oigenkännlig URL som du kan dela med mottagarna för att ladda ner eller skicka filer.
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
@@ -56,6 +60,8 @@ ffsend upload --host https://send.vis.ee/ FILE
 </details>
 
 </div>
+
+OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
 ### Kriterier
 

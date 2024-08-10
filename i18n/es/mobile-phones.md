@@ -23,6 +23,11 @@ schema:
         name: Privacy Guides
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 La mayoría de los **teléfonos celulares** reciben actualizaciones de seguridad en periodos cortos o limitados por parte de los fabricantes; luego de que estos dispositivos alcanzan el final de su periodo de soporte, **no** pueden ser considerados como seguros porque no recibirán actualizaciones de seguridad del firmware o los controladores.
 
 Los dispositivos móviles listados aquí proporcionan una larga vida útil de actualizaciones de seguridad garantizadas y permiten la instalación de un sistema operativo personalizado sin violar el modelo de seguridad de Android.

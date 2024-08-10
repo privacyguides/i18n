@@ -14,11 +14,15 @@ cover: encryption.webp
 
 ### Cryptomator (ענן)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: התקפות פסיביות](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 <div class="admonition recommendation" markdown>
 
-![Cryptomator לוגו](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** הוא פתרון הצפנה המיועד לשמירה פרטית של קבצים לכל ספק ענן. הוא מאפשר לך ליצור כספות המאוחסנות בכונן וירטואלי, שתוכנן מוצפן ומסונכרן עם ספק אחסון הענן שלך.
+**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. הוא מאפשר לך ליצור כספות המאוחסנות בכונן וירטואלי, שתוכנן מוצפן ומסונכרן עם ספק אחסון הענן שלך.
 
 [:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
@@ -49,6 +53,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### Picocrypt (קובץ)
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: התקפות ממוקדות](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 <div class="admonition recommendation" markdown>
 
 ![Picocrypt לוגו](assets/img/encryption-software/picocrypt.svg){ align=right }
@@ -71,6 +79,10 @@ Cryptomator's documentation details its intended [security target](https://docs.
 </div>
 
 ### VeraCrypt (דיסק)
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: התקפות ממוקדות](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -102,6 +114,10 @@ VeraCrypt הוא מזלג של פרויקט TrueCrypt שהופסק. על פי ה
 Truecrypt [נבדק מספר פעמים](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), וגם VeraCrypt [נבדק בנפרד](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## הצפנת דיסק מלא של מערכת ההפעלה
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: התקפות ממוקדות](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 להצפנת הכונן שמערכת ההפעלה שלך מאתחלת ממנו, אנו ממליצים בדרך כלל להפעיל את תוכנת ההצפנה שמגיעה עם מערכת ההפעלה שלך במקום להשתמש בכלי של צד שלישי. הסיבה לכך היא שכלי ההצפנה המקוריים של מערכת ההפעלה שלך עושים לעתים קרובות שימוש בתכונות ספציפיות למערכת ההפעלה ולחומרה כמו [מעבד ההצפנה המאובטח](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) במכשיר שלך כדי להגן על המחשב שלך מפני התקפות פיזיות מתקדמות יותר. עבור כוננים משניים וכוננים חיצוניים שאתה *אינך* מאתחל מהם, אנו עדיין ממליצים להשתמש בכלי קוד פתוח כמו [VeraCrypt](#veracrypt-disk) על הכלים שלהלן, מכיוון שהם מציעים גמישות נוספת ומאפשרים לך להימנע מנעילת ספקים.
 
@@ -227,6 +243,10 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## שורת הפקודה
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: התקפות ממוקדות](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
 כלים עם ממשקי שורת פקודה שימושיים לשילוב [סקריפטים של מעטפת](https://en.wikipedia.org/wiki/Shell_script).
 
 ### Kryptor
@@ -272,6 +292,12 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 </div>
 
 ## OpenPGP
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-target-account: התקפות ממוקדות](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: התקפות פסיביות](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: ספקי שירות](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 לעתים יש צורך ב-OpenPGP עבור משימות ספציפיות כמו חתימה דיגיטלית והצפנת דואר אלקטרוני. ל-PGP תכונות רבות והוא [מורכב](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) כפי שהוא קיים זמן רב. עבור משימות כגון חתימה או הצפנה של קבצים, אנו מציעים את האפשרויות לעיל.
 
