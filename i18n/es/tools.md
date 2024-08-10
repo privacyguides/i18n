@@ -569,7 +569,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 ## Hardware
 
-### Security Keys
+### Llaves de seguridad
 
 <div class="grid cards" markdown>
 

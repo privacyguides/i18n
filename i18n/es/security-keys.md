@@ -1,41 +1,39 @@
 ---
-title: Security Keys
+title: Llaves de seguridad
 icon: material/key-chain
 description: Estas herramientas te ayudan a proteger tus cuentas de Internet con la autenticación multifactor sin enviar tus secretos a terceros.
 cover: multi-factor-authentication.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra las siguientes amenazas:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the FIDO2 security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multi-factor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+Una **llave de seguridad** física añade una capa fuerte de protección a tus cuentas en línea. A comparación con las [aplicaciones de autenticación](multi-factor-authentication.md), el protocolo de llave de seguridad FIDO2 es innume al phishing y no puede ser comprometido sin tener la llave física. Muchos servicios son compatibles con FIDO2/WebAuthn como una opción de autenticación multifactor para asegurar tu cuenta, y algunos servicios te permiten usar una llave de seguridad como un autenticador fuerte de factor único con autenticación sin contraseña.
 
-## Yubico Security Key
+## Llave de seguridad Yubico
 
 <div class="admonition recommendation" markdown>
 
-<figure markdown="span">
-  ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
-</figure>
+<figure markdown="span">  ![Serie de llaves de seguridad por Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }</figure>
 
-The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification. It supports FIDO2/WebAuthn and FIDO U2F, and works out of the box with most services that support a security key as a second factor, as well as many password managers.
+La serie de **llave de seguridad de Yubico** es la llave de seguridad física más rentable con la certificación FIDO Nivel 2. Esta es compatible con FIDO2/WebAuthn y FIDO U2F, y funciona con muchos servicios compatibles con una llave de seguridad como segundo factor, así como con muchos gestores de contraseñas.
 
-[:octicons-home-16: Homepage](https://yubico.com/products/security-key){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
+[:octicons-home-16: Página principal](https://yubico.com/products/security-key){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Política de privacidad" }
+[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentación}
 
 </details>
 
 </div>
 
-These keys are available in both USB-C and USB-A variants, and both options support NFC for use with a mobile device as well.
+Estas llaves están disponibles en variantes USB-C y USB-A, y ambas opciones soportan NFC para ser utilizadas con un dispositivo móvil.
 
-This key provides only basic FIDO2 functionality, but for most people that is all you will need. Some notable features the Security Key series does **not** have include:
+Esta llave proporciona únicamente la funcionalidad básica de FIDO2, pero para la mayoría de las personas esto es todo lo que necesitan. Algunas características notables que la serie de llave de seguridad **no** incluye son:
 
-- [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)
-- CCID Smart Card support (PIV-compatibile)
+- [Autenticador Yubico](https://yubico.com/products/yubico-authenticator)
+- Soporte para la tarjeta inteligente CCID (compatible con PIV)
 - OpenPGP
 
 If you need any of those features, you should consider their higher-end [YubiKey](#yubikey) of products instead.

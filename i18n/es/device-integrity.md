@@ -47,7 +47,7 @@ Estas herramientas proporcionan un análisis basado en la información de tu dis
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
@@ -134,8 +134,8 @@ iMazing automatiza y te guía de forma interactiva a través del proceso de uso 
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Se trata de aplicaciones que puedes instalar y que comprueban el dispositivo y el sistema operativo en busca de signos de manipulación y validan la identidad del dispositivo.
 
@@ -192,7 +192,7 @@ Si tu [modelo de amenaza](basics/threat-modeling.md) requiere privacidad, podrí
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Se trata de aplicaciones que puedes instalar en tu dispositivo y que lo escanean en busca de señales de peligro.
 
