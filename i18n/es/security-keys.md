@@ -36,12 +36,12 @@ Esta llave proporciona únicamente la funcionalidad básica de FIDO2, pero para 
 - Soporte para la tarjeta inteligente CCID (compatible con PIV)
 - OpenPGP
 
-If you need any of those features, you should consider their higher-end [YubiKey](#yubikey) of products instead.
+Si necesitas alguna de estas características, deberías considerar alguno de los [YubiKey](#yubikey) de alta gama.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-The firmware of Yubico's Security Keys is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+El firmware de las llaves de seguridad de Yubico no es actualizable. Si quieres características en las versiones de firmware más nuevas o hay alguna vulnerabilidad en la versión de firmware que estás utilizando, necesitas adquirir una nueva llave.
 
 </div>
 
@@ -49,32 +49,30 @@ The firmware of Yubico's Security Keys is not updatable. If you want features in
 
 <div class="admonition recommendation" markdown>
 
-<figure markdown="span">
-  ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
-</figure>
+<figure markdown="span">  ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }</figure>
 
-The **YubiKey** series from Yubico are among the most popular security keys. The YubiKey 5 Series has a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+La serie **YubiKey** de Yubico es una de las más populares. La serie YubiKey 5 tiene una gran variedad de características como: autenticación de [Segundo Factor Universal (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 y WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Verificación de Identidad Personal (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP y HOTP](https://developers.yubico.com/OATH).
 
-[:octicons-home-16: Homepage](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
+[:octicons-home-16: Página principal](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Política de privacidad" }
+[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentación}
 
 </details>
 
 </div>
 
-The [comparison table](https://yubico.com/store/compare) shows the features and how the YubiKeys compare to each other and to Yubico's [Security Key](#yubico-security-key) series. One of the benefits of the YubiKey series is that one key can do almost everything you could expect from a hardware security key. We encourage you to take their [quiz](https://yubico.com/quiz) before purchasing in order to make sure you make the right choice.
+La [tabla comparativa](https://yubico.com/store/compare) muestra las características y cómo las YubiKeys se comparan entre sí y con otras series de [llave de seguridad](#yubico-security-key) de Yubico. Uno de los beneficios de la serie YubiKey es que una llave puede realizar casi todo lo que puedes esperar de una llave de seguridad física. Te recomendamos realizar la [encuesta](https://yubico.com/quiz) antes de realizar la compra, para asegurarte de que tomas la decisión correcta.
 
-The Yubikey 5 series has FIDO Level 1 certification, which is the most common. However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [Yubikey 5 **FIPS** series](https://yubico.com/products/yubikey-fips) key, or a [Yubico Security Key](#yubico-security-key). Most people do not have to worry about this distinction.
+La serie YubiKey 2 tiene la certificación FIDO Nivel 1, que es la más común. Sin embargo, algunos gobiernos u organizaciones pueden requerir una llave con la certificación de Nivel 2, en cuyo caso se debe adquirir una llave de la [serie Yubikey 5 **FIPS**](https://yubico.com/products/yubikey-fips) o una [llave de seguridad Yubico](#yubico-security-key). La mayoría de las personas no deben preocuparse por esta distinción.
 
-YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). All of Yubico's clients are open source.
+Las YubiKeys pueden ser programadas utilizando [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) o [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). Para gestionar los códigos TOTP, puedes utilizar el [Autenticador Yubico](https://yubico.com/products/yubico-authenticator). Todos los clientes de Yubico son de código abierto.
 
-For models which support HOTP and TOTP, there are 2 slots in the OTP interface which could be used for HOTP and 32 slots to store TOTP secrets. These secrets are stored encrypted on the key and never expose them to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
+Para los modelos compatibles con HOTP y TOTP, hay 2 ranuras en la interfaz OTP que pueden utilizarse para HOTP y 32 ranuras para almacenar secretos TOTP. Estos secretos se almacenan cifrados en la llave y nunca son expuestos a los dispositivos a los que se conecta. Cuando una semilla (secreto compartido) es proporcionada al Autenticador Yubico, este solo mostrará el código de seis dígitos y nunca la semilla. Este modelo de seguridad ayuda a limitar lo que un atacante puede reailzar si alguno de los dispositivos en los que se ejecuta el Autenticador Yubico y hace resistente a la YubiKey ante los ataques físicos.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-The firmware of YubiKey is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+El firmware de YubiKey no es actualizable. Si quieres características en las versiones de firmware más nuevas o hay alguna vulnerabilidad en la versión de firmware que estás utilizando, necesitas adquirir una nueva llave.
 
 </div>
 
@@ -82,56 +80,54 @@ The firmware of YubiKey is not updatable. If you want features in newer firmware
 
 <div class="admonition recommendation" markdown>
 
-<figure markdown="span">
-  ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
-</figure>
+<figure markdown="span">  ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }</figure>
 
-**Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
+**Nitrokey** tiene una llave de seguridad compatible con [FIDO2 y WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) llamada **Nitrokey FIDO2**. Para obtener compatibilidad con PGP, necesitas comprar alguna de las otras llaves como la **Nitrokey Start**, **Nitrokey Pro 2** o la **Nitrokey Storage 2**.
 
-[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentation}
+[:octicons-home-16: Página principal](https://nitrokey.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Política de privacidad" }
+[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentación}
 
 </details>
 
 </div>
 
-The [comparison table](https://nitrokey.com/#comparison) shows the features and how the Nitrokey models compare. The **Nitrokey 3** listed will have a combined feature set.
+La [tabla comparativa](https://nitrokey.com/#comparison) muestra las características y cómo se comparan los modelos de Nitrokey. La **Nitrokey 3** listada tiene un conjunto combinado de características.
 
-Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
+Los modelos de Nitrokey pueden ser configurados utilizando la [aplicación de Nitrokey](https://nitrokey.com/download).
 
-For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
+Para los modelos compatibles con HOTP y TOTP, hay 3 ranuras para HOTP y 15 para TOTP. Algunas Nitrokeys pueden actuar como un gestor de contraseñas. Estas pueden almacenar 16 credenciales diferentes y cifrarlas utilizando la misma contraseña de la interfaz OpenPGP.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
+Aunque las Nitrokeys no muestran los secretos HOTP/TOTP a los dispositivos donde se conectan, el almacenamiento HOTP y TOTP **no** está cifrado y es vulnerable ante ataques físicos. Si buscas almacenar secretos HOTP y TOTP, recomendamos utilizar una Yubikey.
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+El reseteo de la interfaz OpenPGP en una Nitrokey también hará la base de datos de contraseñas [inaccesible](https://docs.nitrokey.com/pro/linux/factory-reset).
 
 </div>
 
 ## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Por favor, tome en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos**. Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un claro conjunto de requerimientos para permitirnos proporcionar recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 ### Requisitos Mínimos
 
-- Must use high quality, tamper resistant hardware security modules.
-- Must support the latest FIDO2 specification.
-- Must not allow private key extraction.
-- Devices which cost over $35 must support handling OpenPGP and S/MIME.
+- Debe utilizar módulos físicos de seguridad resistentes a la manipulación y de alta calidad.
+- Debe soportar la última especificación FIDO2.
+- No debe permitir la extracción de claves privadas.
+- Los dispositivos con un precio mayor a $35 dólares, deben soportar OpenPGP y S/MIME.
 
 ### Mejor Caso
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Should be available in USB-C form-factor.
-- Should be available with NFC.
-- Should support TOTP secret storage.
-- Should support secure firmware updates.
+- Debería estar disponible en formato USB-C.
+- Debería ser compatible con NFC.
+- Debería soportar el almacenamiento de secretos TOTP.
+- Debería soportar actualizaciones seguras de firmware.

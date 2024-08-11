@@ -1,6 +1,6 @@
 ---
-title: About Privacy Guides
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+title: Sobre Privacy Guides
+description: Privacy Guides es un sitio web socialmente motivado que proporciona información para proteger la seguridad y privacidad de tus datos.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -17,19 +17,19 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Logo de Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
+**Privacy Guides** es un sitio web socialmente motivado que proporciona información para proteger la seguridad y privacidad de tus datos. Somos un proyecto sin fines de lucro con la misión de informar al público sobre el valor de la privacidad en línea y sobre las iniciativas gubernamentales digitales que pretenden vigilar tu actividad en línea. Nuestro sitio web no tiene anuncios y no está asociado con alguno de los proveedores listados.
 
-[:octicons-heart-16:{.pg-red} Make a Donation](about/donate.md){ .md-button .md-button--primary }
-[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[:octicons-heart-16:{.pg-red} Realiza una donación](about/donate.md){ .md-button .md-button--primary }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Página principal }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código fuente" }
 
-## Executive Committee
+## Comité ejecutivo
 
 <!-- markdownlint-disable MD030 -->
 
-The project executive committee consists of five volunteers charged with management of the [MAGIC Privacy Guides Fund](https://magicgrants.org/funds/privacy_guides), making most critical project-related decisions.
+El comité ejecutivo del proyecto está conformado por cinco voluntarios encargados de la gestión del [Fondo MAGIC de Privacy Guides](https://magicgrants.org/funds/privacy_guides), que toman la mayoría de las decisiones importantes relacionadas con el proyecto.
 
 <div class="grid cards" markdown>
 <!--  Every team member should have a unique emoji.
@@ -44,66 +44,66 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Fundador
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/dngray)
 
   [:simple-github:](https://github.com/dngray "GitHub")
   [:simple-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-  [:material-email:](mailto:dngray@privacyguides.org "Email")
+  [:material-email:](mailto:dngray@privacyguides.org "Correo electrónico")
 
 - :detective:{ .lg .middle } **Freddy**
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Fundador
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/freddy)
 
   [:simple-github:](https://github.com/freddy-m "GitHub")
   [:simple-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-  [:material-email:](mailto:freddy@privacyguides.org "Email")
+  [:material-email:](mailto:freddy@privacyguides.org "Correo electrónico")
 
 - :robot:{ .lg .middle } **Jonah Aragon**
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Fundador
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/jonah)
 
   [:simple-github:](https://github.com/jonaharagon "GitHub")
   [:simple-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-  [:material-email:](mailto:jonah@privacyguides.org "Email")
+  [:material-email:](mailto:jonah@privacyguides.org "Correo electrónico")
 
 - :cactus:{ .lg .middle } **Niek de Wilde**
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Fundador
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
   [:simple-github:](https://github.com/blacklight447 "GitHub")
   [:simple-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-  [:material-email:](mailto:niekdewilde@privacyguides.org "Email")
+  [:material-email:](mailto:niekdewilde@privacyguides.org "Correo electrónico")
 
 - :smirk_cat:{ .lg .middle } **Olivia**
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Fundadora
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/olivia)
 
   [:simple-github:](https://github.com/hook9 "GitHub")
   [:simple-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 </div>
 
-## Volunteer Team
+## Equipo de voluntarios
 
-A number of other contributors have volunteered their time to review and approve changes to this website, and keep the website up to date. Changes require 2+ approvals from team members before they can be merged. In addition to the executive committee members above, volunteers [trusted](https://github.com/orgs/privacyguides/people) to review pull requests include:
+Otros colaboradores han ofrecido voluntariamente su tiempo para revisar y aprobar los cambios en este sitio web, además de mantenerlo actualizado. Los cambios requieren más de 2 aprobaciones por parte del equipo de miembros antes de que los cambios sean fusionados. Además de los miembros del comité ejecutivo, los voluntarios [de confianza](https://github.com/orgs/privacyguides/people) para revisar las solicitudes de fusión incluyen a:
 
 <div class="grid cards" markdown>
 
@@ -113,9 +113,9 @@ A number of other contributors have volunteered their time to review and approve
 
 </div>
 
-We also especially thank our dedicated moderation team on Matrix and our forum: _Austin Huang_, _namazso_, _hik_, _riley_, and _Valynor_.
+También agradecemos especialmente a neustro equipo de dedicado de moderadores en Matrix y nuestro foro: _Austin Huang_, _namazso_, _hik_, _riley_, y _Valynor_.
 
-Additionally, [many other people](about/contributors.md) have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+Además, [muchas otras personas](about/contributors.md) han realizado contribuciones al proyecto. ¡Tú también puedes contribuir! Somos de código abierto en GitHub y aceptamos sugerencias de traducciones en [Crowdin](https://crowdin.com/project/privacyguides).
 
 Our team members review all changes made to the website and direct the course of the project as a whole. They do not personally profit from any contributions made to this site. Donations to Privacy Guides are generally tax-deductible in the United States.
 
