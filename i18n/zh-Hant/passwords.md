@@ -192,27 +192,27 @@ Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), w
 
 Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，因此如果不想使用 Bitwarden 雲端，可以輕鬆地託管自己的 Bitwarden 同步伺服器。
 
-**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. 如果你想在自己的伺服器上自我託管 Bitwarden ，你幾乎肯定想在 Bitwarden 的官方伺服器代碼上使用 Vaultwarden。
+**Vaultwarden** 是 Bitwarden 同步伺服器的另一種實作，以 Rust 寫成，並與官方的 Bitwarden 用戶端相容。非常適合用來自架服務，因為使用資源吃重的官方服務可能不是很理想。 如果您想在自己的伺服器上自行託管 Bitwarden，幾乎可以肯定的是，您想使用 Vaultwarden 而不是 Bitwarden 的官方伺服器程式碼。
 
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Contribute }
+[:octicons-repo-16: Vaultwarden 儲存庫](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="說明文件"}
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="貢獻" }
 
 ### Proton Pass
 
 <div class="admonition recommendation" markdown>
 
-![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
+![Proton Pass 標誌](assets/img/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
+**Proton Pass** 是由 [Proton Mail] (email.md#protonmail) 背後的團隊 Proton 所開發的開放原始碼、端對端加密的密碼管理器。 它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援和儲存密碼。
 
-[:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation"}
-[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://proton.me/pass){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="隱私政策" }
+[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="說明文件"}
+[:octicons-code-16:](https://github.com/protonpass){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
@@ -220,7 +220,7 @@ Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
 - [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
 - [:fontawesome-brands-edge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:octicons-browser-16: Web](https://pass.proton.me)
+- [:octicons-browser-16: 網頁版](https://pass.proton.me)
 
 </details>
 
@@ -232,7 +232,7 @@ Proton Pass 目前沒有「主密碼」功能，意味著您的保管庫由 Prot
 
 Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 月接受了 Cure53 的審核。 安全分析公司的結論為：
 
-> Proton Pass 應用和元件在安全性方面令人留下了相當積極的印象。
+> Proton Pass 應用程式和元件在安全性方面給人留下相當正面的印象。
 
 所提出的問題與修正都見諸於
 
@@ -244,7 +244,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 <div class="admonition recommendation" markdown>
 
-![1Password logo](assets/img/password-management/1password.svg){ align=right }
+![1Password 標誌](assets/img/password-management/1password.svg){ align=right }
 
 **1Password** 是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、密鑰、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
@@ -253,7 +253,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 [:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -264,7 +264,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
 - [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
-- [:octicons-browser-16: Web](https://my.1password.com/signin)
+- [:octicons-browser-16: 網頁版](https://my.1password.com/signin)
 
 </details>
 
@@ -284,10 +284,10 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 **Psono** 是來自德國的免費開源密碼管理器，專注於團隊的密碼管理。 Psono支援安全分享密碼、檔案、書籤和電子郵件。 所有機密都受到主密碼的保護。
 
-[:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://psono.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="隱私政策" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title="說明文件"}
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -302,7 +302,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 </div>
 
-Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行託管；或者，您可以選擇完整的Community Edition或具有附加功能的Enterprise Edition。
+Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以自行託管；另外，您也可以選擇完整的社群版本或具有額外功能的企業版本。
 
 2024 年 4 月，Psono 僅為瀏覽器擴充套件新增[密碼金鑰的支援](https://psono.com/blog/psono-introduces-passkeys)。
 
@@ -335,7 +335,7 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 
 ## 本地儲存
 
-這些選項允許您在本地管理加密密碼資料庫。
+這些選項可讓您在本機管理加密的密碼資料庫。
 
 
 
@@ -343,18 +343,18 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 
 <div class="admonition recommendation" markdown>
 
-![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC 標誌](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bugfixes to provide a feature-rich, cross-platform, and modern open-source password manager.
+**KeePassXC** 是 KeePassX 的社群分支，是 KeePass Password Safe 的原生跨平台移植，目標是以新功能和錯誤修正來擴充和改進它，以提供一個功能豐富、跨平台和現代化的開源密碼管理器。
 
-[:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://keepassxc.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="隱私政策" }
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=貢獻 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
 - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -367,7 +367,7 @@ Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行�
 
 </div>
 
-KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 文件。 如果您將此檔案匯入另一個密碼管理員，這可能意味著資料丟失。 我們建議您手動檢查每個記錄。
+KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 檔案。 如果您將此檔案匯入其他密碼管理器，可能會造成資料遺失。 我們建議您手動檢查每個記錄。
 
 
 
@@ -375,14 +375,14 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 <div class="admonition recommendation" markdown>
 
-![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX 標誌](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+**KeePassDX** 是適用於 Android 的輕量級密碼管理器；可在單一檔案中以 KeePass 格式編輯加密資料，並能以安全的方式填寫表格。 應用程式的 [專業版](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) 可讓您解鎖外觀和非標準協定功能，但更重要的是，它有助於並鼓勵開發。
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=貢獻 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -398,15 +398,15 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 <div class="admonition recommendation" markdown>
 
-![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
+![Strongbox 標誌](assets/img/password-management/strongbox.svg){ align=right }
 
-**Strongbox** is a native password manager for iOS and macOS. 支援 KeePass 和 Password Safe 格式， Strongbox 可以與其他密碼管理器（如KeePassXC）一起在非 Apple 平臺上使用。 By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
+**Strongbox** 是 iOS 和 macOS 的原生密碼管理器。 Strongbox 支援 KeePass 和 Password Safe 兩種格式，可在非蘋果平台上與其他密碼管理器 （如 KeePassXC）搭配使用。 透過採用 [基礎免費模式](https://strongboxsafe.com/pricing)，Strongbox 在基礎免費層級下提供大部分功能，而更多以便利為導向的 [功能](https://strongboxsafe.com/comparison)，例如生物辨識驗證，則鎖定在訂閱或永久授權。
 
-[:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://strongboxsafe.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=貢獻 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
