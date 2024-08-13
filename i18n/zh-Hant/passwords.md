@@ -417,7 +417,7 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 </div>
 
-此外，還提供離線版本：[Strongbox Zero](https://apps.apple.com/app/id1581589638)。 這個版本被剝離許多特色，以試圖減少攻擊面。
+此外，還提供離線版本：[Strongbox Zero](https://apps.apple.com/app/id1581589638)。 此版本經過刪減，試圖減少攻擊面。
 
 
 
@@ -425,14 +425,14 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 <div class="admonition recommendation" markdown>
 
-![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+![gopass 標誌](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** 是用Go編寫的命令行極簡密碼管理器。 它可以在腳本應用程式中使用，適用於所有桌面和伺服器作業系統（Linux、macOS、BSD、Windows）。
+**gopass** 是用 Go 寫成的命令列極簡密碼管理器。 它可在腳本應用程式中使用，並可在所有主要的桌面和伺服器作業系統 (Linux、macOS、BSD、Windows) 上運作。
 
-[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://gopass.pw){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=貢獻 }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -449,6 +449,6 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 <!-- markdownlint-disable-next-line -->
 ### 標準
 
-**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用專案前先熟悉此清單，並自行進行研究，以確保它是適合您的選擇。
 
-- 需為跨平臺。
+- 必須跨平台。

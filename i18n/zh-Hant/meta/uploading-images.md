@@ -2,13 +2,13 @@
 title: 上傳圖片
 ---
 
-If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
+如果您對本網站進行的變更涉及新增圖片或取代現有圖片，以下是幾項一般建議：
 
 ## 圖片
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
+- 我們**偏好** SVG 影像，但如果沒有 SVG 影像，我們也可以使用 PNG 影像。 此外，對於封面圖片，我們希望它們是從 [Unsplash](https://unsplash.com) 取得，並且是 WebP 格式。
 
-公司 logo 的畫布尺寸爲：
+公司標誌的尺寸為：
 
 - 128x128px
 - 384x128px
@@ -17,7 +17,7 @@ If you make changes to this website that involve adding new images or replacing 
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
+使用 [OptiPNG](https://sourceforge.net/projects/optipng) 工具來最佳化影像：
 
 ```bash
 optipng -o7 file.png
@@ -32,7 +32,7 @@ optipng -o7 file.png
 在 Inkscape：
 
 1. 檔案另存爲...
-2. 將類型設定為最佳化SVG (*.svg)
+2. 將類型設定為最佳化 SVG (*.svg)
 
 在「 **選項** 」標籤中：
 
@@ -90,7 +90,7 @@ scour --set-precision=5 \
 
 ### WebP
 
-Use the [cwebp](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+使用 [cwebp](https://developers.google.com/speed/webp/docs/using) 指令將 PNG 或 JPEG 影像檔案轉換成 WebP 格式：
 
 ```bash
 cwebp -q 70 -m 6 input_file -o output.webp

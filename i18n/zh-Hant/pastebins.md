@@ -1,39 +1,39 @@
 ---
 title: Pastebins
 icon: material/content-paste
-description: These tools allow you to have full control of any pasted data you share to other parties.
+description: 這些工具可讓您完全控制您分享給其他方的任何貼上資料。
 cover: pastebins.webp
 ---
 
-[**Pastebins**](https://en.wikipedia.org/wiki/Pastebin) are online services most commonly used to share large blocks of code in a convenient and efficient manner. The pastebins listed here employ client-side encryption and password protection for pasted content; both of these features prevent the website or server operator from reading or accessing the contents of any paste.
+[**Pastebins**](https://en.wikipedia.org/wiki/Pastebin) 是線上服務，最常用於以方便有效的方式分享大型程式碼區塊。 此處列出的 Pastebins 採用用戶端加密和密碼保護貼上的內容；這兩項功能都可防止網站或伺服器操作員閱讀或存取任何貼上的內容。
 
 ## PrivateBin
 
 <div class="admonition recommendation" markdown>
 
-![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
+![PrivateBin 標誌](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. 資料在瀏覽器中使用 256位元AES 來加密/解密。 它是 ZeroBin 的改進版本。
+**PrivateBin** 是一個簡約、開放原始碼的線上平臺，伺服器對貼上的資料完全不知情。 資料在瀏覽器中使用 256 位元 AES 加密/解密。 它是 ZeroBin 的改良版。
 
-[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://privatebin.info){ .md-button .md-button--primary }
+[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="公開實例"}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="原始碼" }
 
 </div>
 
 ## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+\*\*請注意，我們與推薦的任何專案都沒有任何關係。\*\*除了 [我們的標準準則](about/criteria.md)之外，我們還制定了一套明確的要求，讓我們能夠提供客觀的推薦。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-### 最低合格要求
+### 最低要求
 
-- 它必須是開源的。
-- 必須落實"零信任"端對端加密。
+- 必須開放原始碼。
+- 必須實施「零信任」端對端加密。
 - 必須支援密碼保護檔案。
 
 ### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- 應有來自聲譽良好、獨立的第三方公開審查報告。
+- 應擁有聲譽良好的獨立第三方所公佈的稽核。

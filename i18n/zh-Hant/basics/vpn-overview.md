@@ -45,9 +45,9 @@ VPN 可以提供 Tor 一些相同好處，例如對造訪的網站隱藏 IP 以�
 
 VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務商可以像 ISP 一樣查看和修改您的流量，因此最好對他們要有一定程度的信任。 而且沒有方式可以驗證 VPN 提供商的“無記錄”政策是否貫徹。
 
-## 何時不適合用 VPN？
+## 什麼時候不適合使用 VPN？
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. 這樣做可能會觸發垃圾郵件和欺詐偵測系統，例如您正試圖登入銀行網站。
+在您使用[真實身份或知名身份](common-misconceptions.md#complicated-is-better)上網的情況下，使用 VPN 不大可能有用。 這樣做可能會觸發垃圾郵件和欺詐偵測系統，例如您正試圖登入銀行網站。
 
 重要的是請記住，VPN 不會提供絕對的匿名性，因為 VPN 提供者本身仍然會看到用戶的真實 IP 位址、目的地網站資訊，並且通常有可以直接連結回用戶的資金軌跡。 不能僅靠「不記錄」政策指望任何有能力者來保護資料。 如果需要網路本身的完全安全，請考慮使用 [Tor](../advanced/tor-overview.md) 作為 VPN 的補充或替代。
 
