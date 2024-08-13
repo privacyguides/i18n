@@ -5,21 +5,21 @@ description: These office suites offer their full functionality without an accou
 cover: office-suites.webp
 ---
 
-Choose an **office suite** that does not require logging in to an account to access its full functionality. The tools listed here can be used offline and could reasonably act as a replacement for Microsoft Office for most needs.
+選擇不需要登入帳戶即可使用完整功能的**辦公軟體套件**。 這裡列出的工具可以離線使用，而且可以合理地取代 Microsoft Office 來滿足大多數的需求。
 
 ## LibreOffice
 
 <div class="admonition recommendation" markdown>
 
-![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ align=right }
 
-**LibreOffice** is a free and open-source office suite with extensive functionality.
 
-[:octicons-home-16: Homepage](https://libreoffice.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=Documentation}
-[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
+**LibreOffice** 是免費的開放原始碼辦公軟體套件，具有廣泛的功能。
+
+[:octicons-home-16: 首頁](https://libreoffice.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="隱私政策" }
+[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=文件}
+[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=貢獻 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -41,12 +41,12 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ align=right }
 
-**OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
+**OnlyOffice** 是一套以雲端為基礎的免費開放原始碼辦公軟體套件，具有廣泛的功能，包括與 Nextcloud 整合。
 
-[:octicons-home-16: Homepage](https://onlyoffice.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502\&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://onlyoffice.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502\&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="隱私政策" }
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -64,10 +64,10 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+\*\*請注意，我們與推薦的任何專案都沒有任何關係。\*\*除了 [我們的標準準則](about/criteria.md)之外，我們還制定了一套明確的要求，讓我們能夠提供客觀的推薦。 我們建議您在選擇使用專案前先熟悉此清單，並自己進行研究，以確保它是適合您的選擇。
 
-- 需為跨平臺。
-- 必須是開源軟體。
-- Must function offline.
-- Must support editing documents, spreadsheets, and slideshows.
-- Must export files to standard document formats.
+- 必須跨平台。
+- 必須是開放原始碼軟體。
+- 必須離線運作。
+- 必須支援編輯文件、試算表和投影片。
+- 必須將檔案匯出為標準文件格式。

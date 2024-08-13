@@ -1,8 +1,8 @@
 ---
 meta_title: "保護您的隱私和安全的最佳密碼管理器 - Privacy Guides"
-title: "密碼管理器。"
+title: "密碼管理器"
 icon: material/form-textbox-password
-description: 密碼管理器可以安全地存儲和管理密碼和其他憑證。
+description: 密碼管理器可讓您安全地儲存和管理密碼及其他憑證。
 cover: passwords.webp
 schema:
   - 
@@ -138,7 +138,7 @@ schema:
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
+**密碼管理器**可讓您使用主密碼安全地儲存和管理密碼及其他憑證。
 
 [密碼介紹 :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
 
@@ -270,9 +270,9 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 </div>
 
-Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
+傳統上，1Password 為使用 macOS 和 iOS 的使用者提供了最佳的密碼管理器使用者體驗；然而，它現在已在所有平台上達成功能均等。 1Password 的用戶端擁有許多面向家庭和不熟悉技術人士的功能，例如直觀的 UI，方便使用和導覽，以及先進的功能。 值得注意的是，1Password 的幾乎所有功能都可在其原生行動或桌面用戶端中使用。
 
-您的1Password保管庫使用您的主密碼和隨機34個字符的安全密鑰來加密其伺服器上的數據。 此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。 許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
+您的 1Password 儲存庫使用您的主密碼和隨機化的 34 個字元安全金鑰來保護，以加密您在其伺服器上的資料。 此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。 許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
 
 
 
@@ -304,7 +304,7 @@ Traditionally, 1Password has offered the best password manager user experience f
 
 Psono為其產品提供廣泛的文檔。 Psono 的網頁用戶端可以自行託管；或者，您可以選擇完整的Community Edition或具有附加功能的Enterprise Edition。
 
-In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-introduces-passkeys) for the browser extension only.
+2024 年 4 月，Psono 僅為瀏覽器擴充套件新增[密碼金鑰的支援](https://psono.com/blog/psono-introduces-passkeys)。
 
 
 
@@ -371,7 +371,7 @@ KeePassXC 將其匯出數據存儲為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 
 
-### KeePassDX (安卓)
+### KeePassDX (Android)
 
 <div class="admonition recommendation" markdown>
 
