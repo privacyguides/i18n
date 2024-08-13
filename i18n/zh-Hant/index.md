@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Your Independent Privacy and Security Resource"
-description: "The most popular & trustworthy non-profit website to find privacy tools and learn about protecting your digital life. Ad & affiliate free, high quality reviews."
+meta_title: "Privacy Guides: 您的獨立隱私和安全資源"
+description: "最受歡迎的 & 值得信賴的非營利性網站，可尋找隱私權工具並學習如何保護您的數位生活。 無廣告 & 無聯盟行銷，高品質評論"
 template: home.html
 social:
   cards_layout: home
