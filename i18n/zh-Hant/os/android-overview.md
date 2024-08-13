@@ -22,37 +22,37 @@ description: Android是一個開源作業系統，具有強大的安全保護，
 
 ### 避免 Root
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 這可能會降低隱私，如果有一個漏洞被降低的安全性所輔助。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行Verified Boot。 需要 root 的應用程式也會修改系統分割區，這意味著 Verified Boot 須為停用。 直接在使用者介面中暴露 root 也會增加裝置的 [攻擊面](https://en.wikipedia.org/wiki/Attack_surface) ，助長 [特權升級](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和 SELinux 政策繞過。
+去 [root](https://en.wikipedia.org/wiki/Rooting_(Android)) Android 手機會大幅降低安全性，因為它會削弱完整的[Android 安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 如果有人利用降低的安全性來進行攻擊，這可能會降低隱私權。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行驗證啟動。 需要 root 的應用程式也會修改系統磁碟分割，這意味著驗證開機必須維持停用。 直接在使用者介面中暴露 root 也會增加裝置的[攻擊面](https://en.wikipedia.org/wiki/Attack_surface) ，並可能有助於[特權升級](https://en.wikipedia.org/wiki/Privilege_escalation)漏洞和 SELinux 政策繞過。
 
-內容封鎖器會修改 [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway)和需要 root 長期存取的防火牆(AFWall +)是危險的，不應該使用。 它們也不是解決其預期目的的正確方法。 對於內容攔截，建議使用加密的 [DNS](../dns.md) 或 VPN 提供的內容攔截功能。 RethinkDNS, TrackerControl 和 AdAway 在非根模式下將佔用VPN 插槽（通過使用本地環回 VPN)，阻止使用隱私增強服務，如 [Orbot ](../tor.md#orbot)或[真正的 VPN 伺服器](../vpn.md)。
+修改 [hosts 檔案](https://en.wikipedia.org/wiki/Hosts_(file))的內容封鎖程式 (AdAway) 和需要 root 存取權限的防火牆 (AFWall+) 都很危險，不應該使用。 它們也不是解決預期目的的正確方法。 若要封鎖內容，我們建議改用 VPN 提供的加密 [DNS](../dns.md) 或內容封鎖功能。 TrackerControl 和 AdAway 在非 root 模式下會佔用 VPN 插槽（透過使用本機迴路 VPN），使您無法使用 [Orbot](../tor.md#orbot) 或[真正 VPN 供應商](../vpn.md)等增強隱私的服務。
 
 AFWall+ 基於 [封包過濾](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) 的方法，在某些情況下可能繞過。
 
-我們認為，不值得這些應用程序的可疑隱私利益而犧牲手機 root 的安全。
+我們不認為為了手機 root 所犧牲的安全性，值得讓人懷疑這些應用程式對隱私權的益處。
 
 ### 安裝更新
 
-重要的是不要使用 [結束生命周期](https://endoflife.date/android) 版本的Android。 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。
+重要的是，不要使用[生命週期結束的](https://endoflife.date/android) Android 版本。 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。
 
-例如 [Android 10 之前](https://developer.android.com/about/versions/10/privacy/changes) 許多應用帶有 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 授權可以存取手機獨特敏感的序號，像是[IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) 或手機門號 SIM 卡的 [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)；不過現在只有系統應用程式才能存取。 系統應用程式僅由 OEM 或 Android 發行版提供。
+舉例來說，[在 Android 10 之前](https://developer.android.com/about/versions/10/privacy/changes)，任何具有 [`read_phone_state`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 權限的任何應用程式都可以存取手機敏感且獨特的序號，例如 [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity)、[MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) 或 SIM 卡的 [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)；而現在則必須是系統應用程式才能這麼做。 系統應用程式僅由 OEM 或 Android 發行版提供。
 
 ### 共享的媒體
 
-利用 Android 內建的分享功能，可避免授權過多的應用程式可以存取手機上的檔案。 許多應用程式可讓您上傳媒體來“共享”檔案。
+透過 Android 內建的分享功能，您可以避免給予許多應用程式存取媒體的權限。 許多應用程式都允許您與它「分享」檔案，以便上傳媒體。
 
-例如想要在 Discord 張貼一張照片，可以開啟檔案管理員並將該照片分享給 Discord 應用，取代過去授權 Discord 有權限可以完全訪問全部的媒體或照片。
+例如，如果您要張貼一張圖片到 Discord，您可以開啟檔案管理員或圖庫，然後與 Discord 應用程式分享該圖片，而不是允許 Discord 完全存取您的媒體和相片。
 
-## 安全保護
+## 安全防護
 
-Android 安全模型的關鍵元件包括[驗證啟動](#verified-boot)、[韌體更新](#firmware-updates)和強大的[權限系統](#android-permissions)。 這些重要的安全功能構成我們的[行動電話](../mobile-phones.md) 和 [客製 Android 作業系統](../android/distributions.md)建議最低標準的底線。
+Android 安全模型的關鍵元件包括[驗證啟動](#verified-boot)、[韌體更新](#firmware-updates)和強大的[權限系統](#android-permissions)。 這些重要的安全功能構成我們的[行動電話](../mobile-phones.md)和[客製 Android 作業系統](../android/distributions.md)建議最低標準的底線。
 
 ### 驗證啟動
 
 [**驗證啟動**](https://source.android.com/security/verifiedboot)是 Android 安全模型的重要部分。 它提供防範[惡意內部人員攻擊](https://en.wikipedia.org/wiki/Evil_maid_attack)和惡意軟體持續感染的保護，並透過[回滾保護](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)確保安全更新無法降級。
 
-Android 10 以上版本已從全磁碟加密轉向更靈活的 [檔案加密](https://source.android.com/security/encryption/file-based)。 您的資料使用獨特的加密金鑰加密，而作業系統檔案則未加密。
+Android 10 及以上版本已從全磁碟加密轉變為更靈活的[基於文件的加密](https://source.android.com/security/encryption/file-based)。 您的資料使用獨特的加密金鑰加密，而作業系統檔案則未加密。
 
-驗證啟動可確保作業系統檔案的完整性，從而防止擁有實體存取權限的壞人篡改或在裝置上安裝惡意軟體。 在極少數情況下，惡意軟體能夠利用系統的其他部分並獲得更高的特權訪問權限， 驗證啟動將在重新啟動設備時防止並還原對系統分割區的更改。
+驗證啟動可確保作業系統檔案的完整性，從而防止擁有實體存取權限的壞人篡改或在裝置上安裝惡意軟體。 萬一惡意軟體能夠利用系統的其他部分並取得更高的權限存取權，驗證啟動會在重新開機裝置時防止並還原對系統磁碟分割的變更。
 
 不幸的是，OEM （手機代工廠商）僅有義務在其 Android 發行版上支援驗證啟動。 只有 Google 等少數 OEM 廠商的裝置支援自訂 AVB 金鑰註冊。 此外，某些 AOSP 衍生程式 (例如 LineageOS 或 /e/ OS) 不支援驗證啟動，即使在支援第三方作業系統的驗證開機硬體上也是如此。 我們建議您在購買新裝置**之前**先檢查是否有支援。 **不建議**使用不支援驗證開機的 AOSP 衍生版本。
 
@@ -132,49 +132,49 @@ Android 13:
 
 [工作用設定檔](https://support.google.com/work/android/answer/6191949) 是另一個隔離個別應用的方法，也比單獨的用戶設定檔更為方便。
 
-A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+在沒有企業 MDM 的情況下，必須使用 [Shelter](../android/general-apps.md#shelter) 等**裝置控制器**應用程式才能建立工作設定檔，除非您使用的是包含企業 MDM 的自訂 Android 作業系統。
 
-工作配置檔需靠裝置控制器才能運作。 控制器必須實現 *File Shuttle* 和 *Contact Search Blocking* 等功能或任何類型的隔離功能。 您還必須完全信任設備控制器應用程序，因為它可以完全訪問工作配置文件中的數據。
+工作設定檔依賴裝置控制器才能運作。 *檔案穿梭*、*連絡人搜尋封鎖*等功能或任何種類的隔離功能都必須由控制器執行。 您也必須完全信任裝置控制器應用程式，因為它可以完全存取您在工作設定檔內的資料。
 
-此方法通常不如次要用戶配置檔安全，然而它確實允許您在工作和個人配置檔之間同時執行應用程式。
+此方法的安全性通常比第二使用者設定檔低，但卻可讓您同時在工作和個人設定檔中執行應用程式，非常方便。
 
 
 
 ### VPN Killswitch
 
-Android 7以上版本支援VPN kill switch ，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設置** → **網路 & 網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
+Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設置** → **網路 & 網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
 
 
 
 ### 全局切換
 
-現代 Android 裝置具有全局切換功能，可停用藍牙和定位服務。 Android 12為相機和麥克風引入了切換功能。 不使用時，建議停用這些功能。 在重新啟用之前，應用程式無法使用已停用的功能（即使授予個別權限）。
+現代 Android 裝置具有全局切換功能，可停用藍牙和定位服務。 Android 12為相機和麥克風引入了切換功能。 不使用時，建議停用這些功能。 重新啟用前，應用程式無法使用停用的功能 (即使已授予個別權限)。
 
 
 
 ## Google 服務
 
-如果使用的裝置搭載Google服務，無論是庫存作業系統，還是能夠安全地使用 Google Play服務（如GrapheneOS ）的作業系統，可進行許多其他變更以改善隱私。 我們仍然建議避免使用 Google 服務，或者將 *Shelter* 等設備控制器與 GrapheneOS 的Sandboxed Google Play相結合，將 Google Play 服務限制為特定用戶/工作檔案。
+如果您使用的是有 Google 服務的裝置，無論是使用原版作業系統或像 GrapheneOS 這樣安全沙盒化 Google Play 服務的作業系統，您都可以做一些額外的變更來改善您的隱私。 我們仍建議完全避免 Google 服務，或結合 *Shelter* 等裝置控制器與 GrapheneOS 的 Sandboxed Google Play，將 Google Play 服務限制於特定使用者/工作設定檔。
 
 
 
 ### 進階保護計劃
 
-如果有 Google 帳戶，建議註冊 [進階保護計劃](https://landing.google.com/advancedprotection)。 任何擁有兩個或多個硬體安全金鑰且支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 都可免費使用。 或者，您可以使用[密碼金鑰](https://fidoalliance.org/passkeys)。
+如果您有 Google 帳戶，我們建議您加入[進階保護計劃](https://landing.google.com/advancedprotection)。 任何人只要擁有兩個或以上支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 的硬體安全金鑰，即可免費使用。 或者，您可以使用[密碼金鑰](https://fidoalliance.org/passkeys)。
 
 進階防護計劃提供強化的威脅監控，並能夠：
 
-- 更嚴格的雙因素驗證；例如 **必須**使用 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) ，禁用 [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa)， [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) 和 [OAuth](https://en.wikipedia.org/wiki/OAuth)
-- 只有Google 和經過驗證的第三方應用程式才能存取帳戶資料
-- 掃描Gmail帳戶上的傳入電子郵件進行 [次網絡釣魚](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 次嘗試
+- 更嚴格的雙重認證；例如，**必須**使用 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)，且不允許使用 [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa)、[TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) 和 [OAuth](https://en.wikipedia.org/wiki/OAuth)。
+- 只有 Google 和經過驗證的第三方應用程式才能存取帳戶資料
+- 掃描 Gmail 帳戶收到的電子郵件，以防[釣魚嘗試](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - 使用 Google Chrome 進行更嚴格的[安全瀏覽器掃描](https://google.com/chrome/privacy/whitepaper.html#malware)
-- 丟失憑的證帳戶予以更嚴格的恢復程序
+- 更嚴格的憑證遺失帳戶復原程序
   
-  如果使用非沙盒 Google Play 服務（在庫存作業系統上很常見） ，進階保護計劃還附帶 [額外優惠](https://support.google.com/accounts/answer/9764949) ，例如：
+  如果您使用非沙盒的 Google Play 服務 (常見於一般作業系統)，進階保護方案也會提供[額外的好處](https://support.google.com/accounts/answer/9764949)，例如：
 
-- 不允許在Google Play 商店、作業系統供應商的應用程式商店之外安裝應用程式，或透過 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)安裝應用程式
+- 不允許安裝 Google Play 商店、作業系統供應商的應用程式商店以外的應用程式，或透過 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 
-- 使用[Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work) 強制自動設備掃描
+- 使用 [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work) 強制自動設備掃描
 - 警告您未經驗證的應用程式
 
 
@@ -183,7 +183,7 @@ Android 7以上版本支援VPN kill switch ，無需安裝第三方應用程式�
 
 過去， Android 安全更新必須由作業系統供應商提供。 從 Android 10 開始， Android 變得更模組化， Google 可以通過特權 Play 服務推送 **約** 系統組件的安全更新。
 
-如果您的 EOL 裝置隨附 Android 10 以上高版本，無法執行我們推薦的任何作業系統，那麼您最好還是更維持在 OEM Android 版本（而不是此處未列出的作業系統，如LineageOS 或 /e/OS）。 這將允許您從 Google 獲得 **一些** 安全修復，不會因為使用不安全衍生產品而違反 Android 安全模式增加攻擊面。 我們仍建議您盡快升級至支援的裝置。
+如果您的 EOL 裝置搭載 Android 10 或更高版本，且無法在裝置上執行我們所推薦的任何作業系統，您最好還是堅持使用您的 OEM Android 安裝系統 (相較於 LineageOS 或 /e/ OS 等未在此列出的作業系統)。 這可讓您從 Google 收到**一些**安全修補程式，同時不會因使用不安全的 Android 衍生程式而違反 Android 安全模式，並增加您的攻擊面。 我們仍建議您盡快升級至支援的裝置。
 
 
 
