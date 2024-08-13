@@ -3,61 +3,61 @@ title: Windows 總覽
 icon: material/microsoft-windows
 ---
 
-**Microsoft Windows** is a common OS shipped with many PCs by default. The following guides aim to provide some ways to improve privacy and reduce the default telemetry and data stored by disabling some unnecessary features. Over time, Microsoft adds features to the OS which can sometimes rely on cloud-based services. These features will often require certain types of [optional data](https://privacy.microsoft.com/data-collection-windows) that is sometimes sent to remote servers for processing.
+**Microsoft Windows** 是許多 PC 預設配備的常用作業系統。 以下指南旨在提供一些改善隱私的方法，並透過停用一些不必要的功能來減少預設的遙測和儲存的資料。 隨著時間的推移，微軟會為作業系統增加功能，這些功能有時可能會依賴雲端服務。 這些功能通常需要某些類型的 [可選資料](https://privacy.microsoft.com/data-collection-windows)，有時這些資料會被傳送到遠端伺服器進行處理。
 
-One of the newest examples was called **Recall**, a part of the Copilot AI feature set. Recall periodically screenshots anything you've seen on your PC in order to show it to you at a later date. These "helpful" features create considerable metadata which can be forensically analyzed. In most cases browsing history is sufficient and this feature can be safely disabled. The main concerns with Recall was that the data is stored in a local database that is decrypted when your device is powered on, meaning it is an easy target for hackers if the device ever becomes infected with malware. Recall will not redact sensitive information like copied passwords or financial information from the database, but it does protect against making screenshots of any copyrighted content protected by digital rights management (DRM) systems.
+其中一個最新的範例叫做 **Recall**，是 Copilot AI 功能集的一部分。 定期擷取您在電腦上看到的任何內容的螢幕截圖，以便日後展示給您看。 這些「有幫助」的功能會產生相當多的元資料，可以進行法證分析。 在大多數情況下，瀏覽記錄已經足夠，因此可以安全地停用此功能。 Recall 的主要問題是資料會儲存在本機資料庫中，當裝置開機時資料會被解密，這表示如果裝置感染惡意軟體，很容易成為駭客的目標。 Recall 不會刪除資料庫中複製的密碼或財務資訊等敏感資訊，但可以防止對受數位版權管理 (DRM) 系統保護的任何版權內容進行截圖。
 
-Unfortunately, this feature was added without too much thought about the privacy implications of having such a feature enabled by default (which it now [no longer is](https://wired.com/story/microsoft-recall-off-default-security-concerns)). It is not an isolated example, however. Another example was Microsoft automatically [enabling folder backups to OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission) on new Windows 11 installations without asking for permission.
+不幸的是，在新增此功能時，並沒有過多考慮預設啟用此功能對隱私的影響 (現在 [不再是](https://wired.com/story/microsoft-recall-off-default-security-concerns))。 然而，這並非個別例子。 另一個例子是 Microsoft 在新安裝 Windows 11 時，未經允許就自動 [啟用資料夾備份至 OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission)。
 
 可透過以下指南增強 Windows 上的隱私和安全性，而無需下載任何第三方工具：
 
-- 初始安裝 (coming soon)
-- [Group Policy Settings](group-policies.md)
-- 隱私設定 (coming soon)
-- 應用程式沙盒 (coming soon)
-- 安全強化 (coming soon)
+- 初始安裝（即將推出）
+- [群組原則設定](group-policies.md)
+- 隱私設定 (即將推出)
+- 應用程式沙盒 (即將推出)
+- 安全強化 (即將推出)
 
 <div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
+<p class="admonition-title">本節為新增內容</p>
 
-This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy friendly than other operating systems.
+本節仍在施工中，與其他作業系統相比，Windows 安裝需要花費更多的時間和精力才能使用。
 
 </div>
 
 ## 隱私筆記
 
-Microsoft Windows, particularly those versions aimed at consumers like the **Home** version often don't prioritize privacy friendly features by [default](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). As a result we often see more [data collection](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) than necessary, without any real warnings that this is the default behavior. In an attempt to compete with Google in the advertising space, [Cortana](https://en.wikipedia.org/wiki/Cortana_\(virtual_assistant\)) has included unique identifiers such as an "advertising ID" in order to correlate usage and assist advertisers in targeted advertising.  At launch, telemetry could not be disabled in non-enterprise editions of Windows 10. It still cannot be disabled, but Microsoft added the ability to [reduce](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) the data that is sent to them.
+Microsoft Windows，尤其是那些針對消費者的版本，如 **家用版**，在 [預設](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings) 下通常不會優先使用對隱私友善的功能。 因此，我們經常看到比必要更多的 [資料收集](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection)，卻沒有任何真正的警告說明這是預設行為。 為了在廣告領域與 Google 競爭，[Cortana](https://en.wikipedia.org/wiki/Cortana_\(virtual_assistant\)) 加入了獨特的識別碼，例如「廣告 ID」，以便關聯使用情況，協助廣告商針對性地投放廣告。  在 Windows 10 推出時，非企業版無法停用遙測功能。 現在仍然無法停用，但微軟新增了 [減少](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) 傳送資料的功能。
 
-With Windows 11 there are a number of restrictions or defaults such as:
+Windows 11 有許多限制或預設值，例如：
 
-- Requiring the use of a Microsoft account instead of a local account.
-- Making it more difficult to find local account options for Windows **Pro** and **Enterprise**.
-- Enabling all data collection options by default, requiring users to "opt out".
-- Heavily integrating Microsoft services like Bing, OneDrive, and Teams in ways which are difficult to remove and presented as the only option to users.
-- Setting the default browser always to Edge, or reverting to Edge if it's changed.
-- Adding cloud-based AI features to many areas in Windows and various Microsoft Apps.
-- Unnecessarily storing sensitive data. 即使資料儲存在本機且未傳送至微軟，但仍可能成為駭客或惡意軟體的目標。
+- 要求使用 Microsoft 帳戶而非本機帳戶。
+- 使 Windows **專業版** 和 **企業版** 更難找到本機帳戶選項。
+- 預設啟用所有資料收集選項，要求使用者「選擇退出」。
+- 以難以移除的方式大量整合 Bing、OneDrive 和 Teams 等 Microsoft 服務，並將其視為使用者的唯一選擇。
+- 將預設瀏覽器永遠設定為 Edge，或在預設瀏覽器變更時還原為 Edge。
+- 在 Windows 和各種 Microsoft 應用程式中加入雲端 AI 功能。
+- 不必要地儲存敏感資料。 即使資料儲存在本機且未傳送至微軟，但仍可能成為駭客或惡意軟體的目標。
 
-Microsoft often uses the automatic updates feature to add new functionality to your device and make changes that collect your data and are enabled by default. Some [privacy features](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area) such as the option to _opt out_ of syncing an online Microsoft account with Windows, require you to select a country in the EEA (European Economic Area) during installation. It can be changed to your real country after Windows is installed.
+微軟經常使用自動更新功能為您的裝置新增新功能，並進行收集您的資料且這些功能預設啟用。 某些 [隱私權功能](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area)，例如 _選擇退出_ 與 Windows 同步線上微軟帳戶的選項，需要您在安裝時選擇 EEA（歐洲經濟區）內的國家。 安裝 Windows 之後，可以將其變更為您真正的國家/地區。
 
 ## Windows 版本
 
-Many critical privacy and security features are unfortunately locked away behind higher-cost editions of Windows, instead of being available in Windows **Home**. Some features missing from **Home** include Bitlocker Drive Encryption, Hyper-V, and Windows Sandbox. In our Windows guides we will cover how to use all of these features appropriately, so having a premium edition of Windows will be necessary.
+遺憾的是，許多重要的隱私與安全功能都被鎖定在成本較高的 Windows 版本，而非 Windows **家用版**。 **家用版** 缺少的一些功能包括 Bitlocker 磁碟機加密、Hyper-V 和 Windows 沙箱。 在 Windows 指南中，我們將介紹如何適當地使用所有這些功能，因此擁有高級版本的 Windows 將是必要的。
 
-Windows **Enterprise** provides the most flexibility when it comes to configuring privacy and security settings built in to Windows. 例如，它們是唯一能限制啟用遙測工具，阻止將資料傳回微軟的版本。 遺憾的是，Enterprise 無法零售購買，因此可能無法使用。
+Windows **企業版** 在設定 Windows 內建的隱私與安全設定時，提供最大的彈性。 例如，它們是唯一能限制啟用遙測工具，阻止將資料傳回微軟的版本。 遺憾的是，Enterprise 無法零售購買，因此可能無法使用。
 
-The best version available for _retail_ purchase is Windows **Pro** as it has nearly all of the features you'll want to use to secure your device, including Bitlocker, Hyper-V, etc. The only thing missing is some of the most restrictive limitations on Microsoft's telemetry unfortunately.
+可供_零售_購買的最佳版本是 Windows **專業版**，因為它幾乎擁有您想要用來保護裝置的所有功能，包括 Bitlocker、Hyper-V 等。 唯一遺憾的是，微軟的遙測缺少了一些最嚴格的限制。
 
-Students and teachers may be able to obtain a Windows **Education** (equivalent to Enterprise) or **Pro Education** license (equivalent to Pro) for free, including on personal devices, from their educational institution. 許多學校透過 OnTheHub 或 Microsoft Azure for Education 與 Microsoft 合作，因此您可以檢查這些網站或學校的福利頁面，看看是否符合資格。 能否獲得這些許可完全取決於機構。 對許多人來說，這可能是取得 Windows 企業版供個人使用的最佳方式。 與零售版本相比，使用教育授權不會帶來額外的隱私或安全風險。
+學生和教師可以從教育機構免費取得 Windows **教育版**（相當於企業版）或 **專業教育版**（相當於專業版）授權，包括在個人裝置上。 許多學校透過 OnTheHub 或 Microsoft Azure for Education 與微軟合作，因此您可以檢查這些網站或學校的福利頁面，看看是否符合資格。 能否獲得這些許可完全取決於機構。 對許多人來說，這可能是取得 Windows 企業版供個人使用的最佳方式。 與零售版本相比，使用教育授權不會帶來額外的隱私或安全風險。
 
-It is not recommended to use third party modified versions of Windows such as Windows AME. Since modified versions of Windows like Windows AME don't receive updates, security features and antivirus definitions in Windows Defender will fall behind the current threat landscape, opening you up to attacks, thus making you even less secure.
+不建議使用第三方修改過的 Windows 版本，例如 Windows AME。 由於修改過的 Windows 版本 (例如 Windows AME) 不會收到更新，Windows Defender 中的安全功能和防毒定義會落後於目前的威脅狀況，讓您有機會受到攻擊，因而使您更不安全。
 
 ## 取得 Windows
 
-目前，僅可購買 Windows 11 授權金鑰，但這些金鑰也適用於 Windows 10，因此仍可購買 Windows 11 專業版金鑰來啟動 Windows 10 安裝。
+目前僅有 Windows 11 授權金鑰可供購買，但這些金鑰也可在 Windows 10 上使用，因此您仍可購買 Windows 11 專業版金鑰來啟用 Windows 10。
 
-The official [Media Creation Tool](https://microsoft.com/software-download/windows11) is the best way to put a Windows installer on a USB flash drive. Third-party tools like Rufus or Etcher may unexpectedly modify the files, which could lead to boot issues or other troubles when installing.
+官方的 [媒體建立工具](https://microsoft.com/software-download/windows11) 是將 Windows 安裝程式放入 USB 隨身碟的最佳方法。 Rufus 或 Etcher 等第三方工具可能會意外修改檔案，這可能會導致開機問題或安裝時出現其他麻煩。
 
-This tool only lets you install a **Home** or **Pro** installation, as there are no publicly available downloads for Windows **Enterprise** edition. If you have an **Enterprise** license key, you can easily upgrade a **Pro** installation. To do this, install Windows **Pro** without entering a license key during setup, then enter your **Enterprise** key in the Settings app after completing the install. Your **Pro** install will be upgraded to **Enterprise** automatically after entering a valid license key.
+此工具只能讓您安裝**家用版**或**專業版**，因為沒有 Windows **企業版**的公開下載。 如果您有**企業版**授權金鑰，您可以輕鬆從**專業版**升級。 若要執行此動作，請安裝 Windows **專業版**，但在安裝過程中無須輸入授權金鑰，然後在完成安裝後，在「設定」應用程式中輸入您的 **企業版** 金鑰。 輸入有效的授權金鑰後，您的**專業版**安裝將會自動升級為**企業版**。
 
-If you are installing an **Education** license then you will typically have a private download link that will be provided alongside your license key when you obtain it from your institution's benefits portal.
+如果您安裝的是**教育版**授權，通常會有一個私人下載連結，當您從機構的福利入口網站取得授權金鑰時，該連結會與授權金鑰一同提供。

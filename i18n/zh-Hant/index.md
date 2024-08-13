@@ -43,13 +43,13 @@ schema:
 <div markdown>
 為何我該關心？
 
-> “I have nothing to hide. 為何我該在意自己的隱私？”
+“我沒有什麼可隱瞞的。 為何我該在意自己的隱私？”
 
 就像異族通婚、女性參政權、言論自由等許多權利，我們的隱私權並非總是受到保障。 在一些獨裁政權下，根本無隱私可言。 前人已為隱私權奮鬥了數個世代。 ==隱私作為一種人權，是人人生而固有的權利== ，每個人都應當 (不受歧視地) 享受此權利。
 
 你不應該把隱私和保密混為一談。 人人都知道浴室裏發生了什麼，但你仍然會把門關上。 這是因為您想要隱私，而不是保密。 每個人都有要保護的東西。 隱私讓我們之所以為人。
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: 為什麼隱私很重要](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>

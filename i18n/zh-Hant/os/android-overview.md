@@ -6,11 +6,11 @@ description: Android是一個開源作業系統，具有強大的安全保護，
 
 ![Android 圖標](../assets/img/android/android.svg){ align=right }
 
-**Android 開源專案** 為安全移動作業系統，提供[應用沙盒](https://source.android.com/security/app-sandbox), [驗證開機](https://source.android.com/security/verifiedboot) (AVB) 以及強靭的 [授權](https://developer.android.com/guide/topics/permissions/overview)控制系統。
+**Android 開源專案** 為安全移動作業系統，提供[應用沙盒](https://source.android.com/security/app-sandbox), [驗證開機](https://source.android.com/security/verifiedboot) (AVB) 以及強韌的 [授權](https://developer.android.com/guide/topics/permissions/overview)控制系統。
 
 ## 我們的建議
 
-### 選擇Android 發佈版本
+### 選擇 Android 發佈版本
 
 購買 Android 手機時，該設備的預設作業系統通常綁入非 Android 開源專案的應用程式與服務，成為侵入性整合。 其中許多應用程式-- 甚至是提供基本系統功能的撥號器等應用程式-- 都需放到 Google Play 服務進行侵入式整合，且 Google Play 服務需要存取檔案、聯絡人儲存、通話記錄、簡訊、位置、攝影機、麥克風以及設備上的許多內容的權限，這樣基本系統程式和其他應用程式才能運行。 這些應用程式和服務增加了設備的攻擊面，成為 Android 各種隱私問題的來源。
 
@@ -44,35 +44,35 @@ AFWall+ 基於 [封包過濾](https://en.wikipedia.org/wiki/Firewall_(computing)
 
 ## 安全保護
 
-Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+Android 安全模型的關鍵元件包括[驗證啟動](#verified-boot)、[韌體更新](#firmware-updates)和強大的[權限系統](#android-permissions)。 這些重要的安全功能構成我們的[行動電話](../mobile-phones.md) 和 [客製 Android 作業系統](../android/distributions.md)建議最低標準的底線。
 
-### 已驗證的啟動
+### 驗證啟動
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. 它可保護 [邪惡女僕](https://en.wikipedia.org/wiki/Evil_maid_attack) 、惡意軟件的持久性攻擊，確保安全性更新不會造成 [回滾保護降級](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)。
+[**驗證啟動**](https://source.android.com/security/verifiedboot)是 Android 安全模型的重要部分。 它提供防範[惡意內部人員攻擊](https://en.wikipedia.org/wiki/Evil_maid_attack)和惡意軟體持續感染的保護，並透過[回滾保護](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection)確保安全更新無法降級。
 
 Android 10 以上版本已從全磁碟加密轉向更靈活的 [檔案加密](https://source.android.com/security/encryption/file-based)。 您的資料使用獨特的加密金鑰加密，而作業系統檔案則未加密。
 
-Verified Boot確保作業系統檔案的完整性，從而防止具有物理訪問權限的對手篡改或安裝裝惡意軟體。 在極少數情況下，惡意軟體能夠利用系統的其他部分並獲得更高的特權訪問權限， Verified Boot 將在重新啟動設備時防止並還原對系統分割區的更改。
+驗證啟動可確保作業系統檔案的完整性，從而防止擁有實體存取權限的壞人篡改或在裝置上安裝惡意軟體。 在極少數情況下，惡意軟體能夠利用系統的其他部分並獲得更高的特權訪問權限， 驗證啟動將在重新啟動設備時防止並還原對系統分割區的更改。
 
-不幸的是， OEM 只其庫存 Android 發行版上支持 Verified Boot。 只有少數OEM （例如Google ）支援在其裝置上自訂 AVB 金鑰註冊。 此外，某些 AOSP 衍生版本（如LineageOS或/e/OS ）甚至在對可接受第三方作業系統提供Verified Boot 硬體上不予支援。 建議在購買新設備 **前** 先了解支援情況。 不支援 Verified Boot 的AOSP衍生版本**不予推薦** 。
+不幸的是，OEM （手機代工廠商）僅有義務在其 Android 發行版上支援驗證啟動。 只有 Google 等少數 OEM 廠商的裝置支援自訂 AVB 金鑰註冊。 此外，某些 AOSP 衍生程式 (例如 LineageOS 或 /e/ OS) 不支援驗證啟動，即使在支援第三方作業系統的驗證開機硬體上也是如此。 我們建議您在購買新裝置**之前**先檢查是否有支援。 **不建議**使用不支援驗證開機的 AOSP 衍生版本。
 
-許多 OEM 也破壞了 Verified Boot，您必須在廠商行銷之餘認知到這點。 例如， Fairphone 3和4在預設情況下並不安全，因為 [股票引導裝載程式信任公開的AVB簽名密鑰](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 這會在庫存 Fairphone 設備中斷 verified boot，因為系統將啟動替代 Android 作業系統（如/e/） [，而不對自定作業系統發出警告](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) 。
+許多 OEM 也破壞了 Verified Boot，您必須在廠商行銷之餘認知到這點。 舉例來說，Fairphone 3 和 4 預設是不安全的，因為[原廠開機載入程式信任公開 AVB 簽署金鑰](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11)。 這會破壞原廠 Fairphone 裝置上的驗證開機，因為系統將會開機其他 Android 作業系統 (例如 /e/)，而不會對客製作業系統的使用發出[任何警告](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust)。
 
 ### 韌體更新
 
-**Firmware updates** are critical for maintaining security and without them your device cannot be secure. OEM 與其合作夥伴簽訂了支援協議，在有限的支持期內提供封閉式元件。 詳情請參閱每月 [Android 安全公告](https://source.android.com/security/bulletin)。
+**韌體更新**對維護安全性至關重要，沒有韌體更新，您的裝置就不可能安全。 OEM 與合作夥伴簽訂支援協議，在有限的支援期限內提供封閉原始碼元件。 詳情請參閱每月 [Android 安全公告](https://source.android.com/security/bulletin)。
 
-由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [高通](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and)和[三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox)為其設備提供4 年支持，而較便宜的產品通常支持週期較短。 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705)的推出， Google 現在製造自己的 SoC ，他們將提供至少 5年的支持。 隨著 Pixel 8 系列的推出，Google 將支援期限延長至 7 年。
+由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [高通](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and)和[三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox)為其裝置提供 4 年的支援，而較便宜的產品通常支援週期較短。 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705) 的推出，Google 現在自家製造 SoC，而且他們會提供至少 5 年的支援。 隨著 Pixel 8 系列的推出，Google 將支援期限延長至 7 年。
 
-對於 OEM 供應商或市場經銷商不提供韌體更新的 EOL 裝置，SoC 製造商不再支援。 這意味著這些設備的安全問題將得不到解決。
+不再受 SoC 製造商支援的 EOL （產品生命週期結束）裝置無法從 OEM 供應商或 Android 售後市場經銷商取得韌體更新。 這表示這些裝置的安全問題仍未修正。
 
-例如， Fairphone 推銷其Fairphone 4 有 6年的保固支持。 然而， SoC （ Fairphone 4上的Qualcomm Snapdragon 750G ）的EOL日期要短得多。 這意味著，無論 Fairphone 是否繼續發布軟體安全更新， Qualcomm Fairphone 4 固件安全更新將於 2023年9月結束。
+例如，Fairphone 宣傳其 Fairphone 4 裝置可獲得 6 年的支援。 然而，SoC（Fairphone 4 採用的高通 Snapdragon 750G）的停產日期則短得多。 這意味著，無論 Fairphone 是否繼續釋出軟體安全更新，高通針對 Fairphone 4 的韌體安全更新將於 2023 年 9 月終止。
 
-### Android權限
+### Android 權限
 
-[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google 定期在每個連續版本中對權限系統進行 [改進](https://developer.android.com/about/versions/11/privacy/permissions) 。 安裝的所有應用程式都是嚴格的 [沙盒](https://source.android.com/security/app-sandbox)，因此，沒必要安裝任何防毒應用程式。
+[**Android 上的權限**](https://developer.android.com/guide/topics/permissions/overview)允許您控制哪些應用程式可以存取。 Google 會定期在每個版本中[改善](https://developer.android.com/about/versions/11/privacy/permissions)權限系統。 您安裝的所有應用程式都經過嚴格[的沙箱處理](https://source.android.com/security/app-sandbox)，因此不需要安裝任何防毒應用程式。
 
-最新版本Android 的智能手機將永遠比裝付費防毒軟體的舊智慧手機更安全。 It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
+配備最新版 Android 的智慧型手機永遠比配備已付費購買的防毒軟體的舊智慧型手機更安全。 最好不要花錢購買防毒軟體，省下來的錢可以買一部新的智慧型手機，例如[Google Pixel](../mobile-phones.md#google-pixel)。
 
 Android 10:
 
@@ -110,7 +110,7 @@ Android 13:
 </div>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note "備註"</p>
+<p class="admonition-title">備註</p>
 
 [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 這並不意味 Bitwarden 使用 Google Firebase Analytics 提供的所有分析功能。
 
@@ -160,7 +160,7 @@ Android 7以上版本支援VPN kill switch ，無需安裝第三方應用程式�
 
 ### 進階保護計劃
 
-如果有 Google 帳戶，建議註冊 [進階保護計劃](https://landing.google.com/advancedprotection)。 任何擁有兩個或多個硬體安全金鑰且支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 都可免費使用。 Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
+如果有 Google 帳戶，建議註冊 [進階保護計劃](https://landing.google.com/advancedprotection)。 任何擁有兩個或多個硬體安全金鑰且支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 都可免費使用。 或者，您可以使用[密碼金鑰](https://fidoalliance.org/passkeys)。
 
 進階防護計劃提供強化的威脅監控，並能夠：
 
