@@ -22,21 +22,21 @@ schema:
     operatingSystem: Android
 ---
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+En este sitio web recomendamos una amplia variedad de aplicaciones para Android. Las aplicaciones que se encuentran listadas son exclusivas para Android y están diseñadas para mejorar o reemplazar funcionalidades clave del sistema.
 
 ### Shelter
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/img/android/shelter.svg){ align=right }
+![Logo de Shelter](../assets/img/android/shelter.svg){ align=right }
 
-**Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+**Shelter** es una aplicación que ayuda con el aprovechamiento de la característica de los perfiles de trabajo para aislar o duplicar aplicaciones en tu dispositivo.
 
-Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+Shelter permite bloquear la búsqueda de contactos entre perfiles y compartir archivos entre los perfiles por medio del gestor de archivos por defecto [(DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
-[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
+[:octicons-repo-16: Repositorio](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Código fuente" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribuir }
 
 </div>
 
