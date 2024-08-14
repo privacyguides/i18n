@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: 您的獨立隱私和安全資源"
-description: "最受歡迎的 & 值得信賴的非營利性網站，可尋找隱私權工具並學習如何保護您的數位生活。 無廣告 & 無聯盟行銷，高品質評論"
+description: "最受歡迎的 & 值得信賴的非營利性網站，可尋找隱私工具並學習如何保護您的數位生活。 無廣告 & 無聯盟行銷，高品質評論"
 template: home.html
 social:
   cards_layout: home
@@ -47,7 +47,7 @@ schema:
 
 就像異族通婚、女性參政權、言論自由等許多權利，我們的隱私權並非總是受到保障。 在一些獨裁政權下，根本無隱私可言。 前人已為隱私權奮鬥了數個世代。 ==隱私作為一種人權，是人人生而固有的權利== ，每個人都應當 (不受歧視地) 享受此權利。
 
-你不應該把隱私和保密混為一談。 人人都知道浴室裏發生了什麼，但你仍然會把門關上。 這是因為您想要隱私，而不是保密。 每個人都有要保護的東西。 隱私讓我們之所以為人。
+您不應該混淆隱私與保密。 我們知道浴室裡會發生什麼事，但您還是會把門關上。 那是因為您想要隱私，而不是保密。 **每個人都有需要保護的東西。 隱私讓我們之所以為人。
 
 [:material-book-outline: 為什麼隱私很重要](basics/why-privacy-matters.md){ class="md-button" }
 </div>
@@ -55,136 +55,136 @@ schema:
 <div markdown>
 我該怎麼做？
 
-> First, you need to make a plan
+> 首先您需要計劃
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. 但是別擔心！ 安全是一種過程，提前做好準備，相信您能制定出一個適合自己的計劃。 Security isn't just about the *privacy tools* you use or the software you download. 相反，它始於了解您面臨的獨特威脅，以及如何減輕它們。
+試著去從大家手上隨時隨地保護您的所有資料相當不切實際、成本高而且令人精疲力竭。 但是別擔心！ 安全是一個過程，只要未雨綢繆，您就能制定出適合自己的計劃。 安全性不只是您使用的*隱私工具*或下載的軟體。 相對來說，首先要瞭解您面臨的獨特威脅，以及如何降低這些威脅。
 
-==這個識別威脅和定義對策的過程叫做 **威脅模型**== ，它構成了每個安全及隱私計劃的基礎。
+==這個識別威脅和定義對策的過程叫做**威脅模型**== ，它構成了每個安全及隱私計劃的基礎。
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: 了解更多威脅模型](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## 值得信賴的隱私軟體評論
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides** 有一個專門的[社群](https://discuss.privacyguides.net)，獨立審查各種*隱私工具*和服務。 我們的每項建議都符合一套嚴格的標準，以確保能為大多數人提供最大價值，並在隱私、安全性和便利性之間取得最佳平衡。 作為非營利**公共慈善機構**的一部分，Privacy Guides 有嚴格的**新聞標準**和政策，以確保我們的推薦沒有利益衝突，而且我們不與可能影響我們的評論和推薦的提供商或聯盟計劃合作。
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} 支持我們的工作](about/donate.md){ .md-button .md-button--primary }
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **無廣告推薦**
+- [x] **完全編輯獨立**
+- [x] **非營利與開放原始碼**
+- [x] **頻繁更新**
+- [x] **受撰稿員信賴**
+- [x] **受讀者信賴**
 
 </div>
 
-### Top 3 Private Email Providers
+### 前三大隱私電子郵件供應商
 
 <div class="grid cards" markdown>
 
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+- ![Proton Mail 標誌](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG 總部位於瑞士日內瓦。 Proton Mail Free 方案隨附 500MB 的郵件儲存空間，可以免費增加至 1GB。
+    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail 免費方案提供 500MB 的郵件儲存空間，您可以免費增加至 1GB。
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
+    [:octicons-arrow-right-24: 閱讀完整評論](email.md#proton-mail)
 
--   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
-
-    ---
-
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
-
-    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
-
--   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+- ![Mailbox.org 標誌](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. 免費帳戶提供 10GB 容量。
+    Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，並使用 100% 民間供電的環保能源。 他們自 2014 年起開始營運。 Mailbox.org  總部位於德國柏林。 帳戶一開始最多只有 2GB 儲存空間，並可視需要升級。
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#tuta)
+    [:octicons-arrow-right-24: 閱讀完整評論](email.md#mailboxorg)
+
+- ![Tuta 標誌](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta 標誌](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+
+    ---
+
+    Tuta (前身為 *Tutanota*)是一項電子郵件服務，透過使用加密技術，著重於安全性與隱私權。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶的起始儲存容量為 1GB。
+
+    [:octicons-arrow-right-24: 閱讀完整評論](email.md#tuta)
 
 </div>
 
 <div class="grid" markdown>
 <div markdown>
-### Best VPN Services
+### 最佳 VPN 服務
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
+- ![Proton VPN 標誌](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
+- ![IVPN 標誌](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
+- ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
 
 </div>
 </div>
 
 <div markdown>
-### Secure Cloud Storage Services
+### 安全雲端儲存服務
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
+- ![Proton Drive 標誌](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
+- ![Tresorit 標誌](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
+- ![Peergos 標誌](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
 
 </div>
 </div>
 
 <div markdown>
-### Best Web Browsers
+### 最佳網頁瀏覽器
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
+- ![Mullvad 瀏覽器標誌](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy }[Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![Firefox 標誌](assets/img/browsers/firefox.svg){ .twemoji loading=lazy }[Firefox](desktop-browsers.md#firefox)
+- ![Brave 標誌](assets/img/browsers/brave.svg){ .twemoji loading=lazy }[Brave](desktop-browsers.md#brave)
 
 </div>
 </div>
 </div>
 
-[:material-format-list-checkbox: More Recommended **Privacy Tools**](tools.md){ class="md-button md-button--primary" }
-[Best Mobile Browsers](mobile-browsers.md ""){.md-button} [Top Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button} [PC Operating Systems](desktop.md ""){.md-button}
+[:material-format-list-checkbox: 更多推薦**隱私工具**](tools.md){ class="md-button md-button--primary" }
+[最佳行動瀏覽器](mobile-browsers.md ""){.md-button} [最佳瀏覽器擴充套件](browser-extensions.md ""){.md-button} [DNS 伺服器](dns.md ""){.md-button} [Email 別名服務](email-aliasing.md ""){.md-button} [照片管理工具](photo-management.md ""){.md-button} [電腦作業系統](desktop.md ""){.md-button}
 
 ---
 
-## About Privacy Guides
+## 關於 Privacy Guides
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Privacy Guides 標誌](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+由於在 VPN 和隱私權領域很難找到公正的評論員，**Privacy Guides **於 2021 年成立，是最受歡迎、值得信賴的非營利性網站，提供有關保護*個人*資料安全和隱私權的資訊。 我們對**隱私工具**的群眾推薦和評論，以及致力於幫助他人的社群，讓我們有別於其他部落格和內容創作者。 這個專案背後的團隊研究開放原始碼領域的隱私權與安全性已超過 5 年，最初是透過一個現已停用的網路資源，最後成為數百萬讀者信賴的*「隱私權指南」*(Privacy Guides)。
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*我們的網站沒有廣告，也不隸屬於任何列出的供應商。*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+在 **WIRED**、**Tweakers.net**、**《紐約時報》**及其他許多刊物中，都被視為隱私與安全知識的可靠來源。
 
-[:material-information: More About Who We Are](about.md){ class="md-button md-button--primary" } [:material-email: Join our Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
+[:material-information: 更多關於我們是誰](about.md){ class="md-button md-button--primary" } [:material-email: 訂閱我們的電子報（英文版）](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## 什麼是隱私工具？
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can adopt to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+我們建議您使用多種**隱私工具**（又稱爲 *隱私應用程式*、*隱私工具*、*隱私軟體*）橫跨軟體與硬體，您可以採用這些軟體與硬體來改善您的隱私。 我們推薦的許多工具都是完全免費使用的開放原始碼軟體，而有些則是可供購買的商業服務。 從 Google Chrome 和 Windows 等渴求資料的主流軟體，轉換為 [Brave](desktop-browsers.md#brave)和 [Linux](desktop.md) 等注重隱私權的工具，對於控制您與公司和其他人分享的資訊有很大幫助。
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: 我們的一般準則](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## 為什麼隱私很重要？
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. 它不是 ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+在數位資料氾濫的現代，您的隱私權從未如此重要，但許多人卻認為這已經是遙不可及的事。 不是這樣的。 ==您的隱私權會被搶奪，您需要關心它。==隱私權關乎權力，而權力最終掌握在正確的人手中是非常重要的。
 
-Many people get the concepts of privacy, security, and anonymity confused. 例如，人們批評各種產品“不私密”，而實際上他們是指這些產品不提供匿名功能。 本網站涵蓋了這三個主題，但重要的是須了解它們之間的區別，以及每個主題何時發揮作用。
+許多人混淆了隱私權、安全性和匿名性的概念。 舉例來說，您會看到人們批評各種產品「不具隱私性」，但實際上他們的意思是不提供匿名性。 在本網站中，我們涵蓋了所有這三個主題，但重要的是您必須瞭解它們之間的差異，以及每種主題何時會發揮作用。
 
-[Privacy vs Security vs Anonymity](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[隱私權 vs 安全性 vs 匿名性](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
 </div>
 </div>

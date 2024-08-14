@@ -181,7 +181,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 </div>
 
-## Top 3 Private Email Providers
+## 前三大隱私電子郵件供應商
 
 <div class="grid cards" markdown>
 
@@ -189,7 +189,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG 總部位於瑞士日內瓦。 Proton Mail Free 方案隨附 500MB 的郵件儲存空間，可以免費增加至 1GB。
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail Free 方案隨附 500MB 的郵件儲存空間，可以免費增加至 1GB。
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -205,7 +205,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. 免費帳戶提供 10GB 容量。
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶提供 10GB 容量。
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
 
