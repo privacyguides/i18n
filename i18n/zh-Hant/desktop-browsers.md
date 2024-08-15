@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -69,9 +69,9 @@ schema:
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Mullvad 瀏覽器標誌](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. 它由 Tor Porject 開發並由 [Mullvad](vpn.md#mullvad) 發佈，且**不**需要使用 Mullvad 的 VPN。
+**Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本。 它的目的是提供給 VPN 使用者 Tor 瀏覽器的反指紋瀏覽器技術，這些技術是防止 [:material-eye-outline: 大規模監視](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }。 它由 Tor 計劃開發，並由 [Mullvad](vpn.md#mullvad)散佈，而且**不需要使用 Mullvad 的 VPN。
 
 [:octicons-home-16: 首頁](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
@@ -196,7 +196,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
 
-Firefox 128 發佈以後，新的[保護隱私的成效測量](https://support.mozilla.org/kb/privacy-preserving-attribution) (簡稱 PPA) 設定已經加入並且[預設是開啟的](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)。 PPA 允許廣告商利用您的瀏覽器進行廣告成效測量，進而取代基於 JavaScript 的傳統追蹤方式。 We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Firefox 128 發佈以後，新的[保護隱私的成效測量](https://support.mozilla.org/kb/privacy-preserving-attribution) (簡稱 PPA) 設定已經加入並且[預設是開啟的](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)。 PPA 允許廣告商利用您的瀏覽器進行廣告成效測量，進而取代基於 JavaScript 的傳統追蹤方式。 我們認為此行為不屬於使用者代理的職責範圍，而 Arkenfox 預設停用此功能的事實，也是停用此功能的額外指標。
 
 ##### 純 HTTPS 模式
 
