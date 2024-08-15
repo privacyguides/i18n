@@ -10,7 +10,6 @@ global:
     - "tabella tbody"
 ---
 
-<!-- markdownlint-disable MD024 -->
 L'email è praticamente una necessità per utilizzare qualsiasi servizio online, tuttavia, la sconsigliamo per le conversazioni personali. Piuttosto che utilizzare l'email per contattare altre persone, considera di utilizzare un mezzo di messaggistica istantanea che supporti la Forward Secrecy, letteralmente, Segretezza in avanti.
 
 [Messaggistica istantanea consigliata](real-time-communication.md ""){.md-button}
@@ -55,7 +54,7 @@ Inoltre, OpenPGP non supporta la Forward Secrecy, ciò significa che se la chiav
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. Operano dal **2013**. Proton AG ha sede a Ginevra, Svizzera. Il piano gratuito di Proton Mail prevede 500 MB di spazio di archiviazione per la posta, che può essere aumentato gratuitamente fino a 1 GB.
+**Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. They have been in operation since 2013. Proton AG ha sede a Ginevra, Svizzera. Il piano gratuito di Proton Mail prevede 500 MB di spazio di archiviazione per la posta, che può essere aumentato gratuitamente fino a 1 GB.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servizio Onion" }
@@ -189,10 +188,10 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Tuta](assets/img/email/tuta.svg#only-light){ align=right }
-![Logo di Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta è operativo dal **2011** e ha sede ad Hannover, in Germania. Gli account gratuiti partono da 1 GB di spazio di archiviazione.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Gli account gratuiti partono da 1 GB di spazio di archiviazione.
 
 [:octicons-home-16: Homepage](https://tuta.com/it){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/it/privacy-policy){ .card-link title="Termini e condizioni" }
@@ -257,7 +256,7 @@ Gli amministratori di sistema avanzati potrebbero considerare la configurazione 
 
 ![Logo di Mailcow](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** è un server email più avanzato, perfetto per chi ha un po' più d'esperienza con Linux. Ha tutto il necessario in un contenitore Docker: Un server email con supporto DKIM, antivirus e monitoraggio dello spam, webmail e ActiveSync con SOGo e amministrazione basata sul web con supporto A2F.
+**Mailcow** è un server email più avanzato, perfetto per chi ha un po' più d'esperienza con Linux. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentazione}
@@ -306,8 +305,8 @@ Consideriamo queste funzionalità come importanti per poter fornire un servizio 
 - Supporto per una casella temporanea per gli utenti esterni. Questo è utile quando desideri inviare un'email crittografata, senza inviare una copia effettiva al tuo destinatario. Queste email, solitamente, hanno una durata limitata, prima di essere eliminate automaticamente. Inoltre, non richiedono al destinatario di configurare alcuna crittografia, come OpenPGP.
 - Disponibilità dei servizi del fornitore email tramite un [servizio onion](https://en.wikipedia.org/wiki/.onion).
 - Supporto per il [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Funzionalità di catch-all o alias per coloro che possiedono i propri domini.
-- Utilizzo di protocolli d'accesso email standard, quali IMAP, SMTP o [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). I protocolli d'accesso standard assicurano ai clienti di scaricare facilmente tutte le proprie email, qualora dovessero passare a un altro fornitore.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). I protocolli d'accesso standard assicurano ai clienti di scaricare facilmente tutte le proprie email, qualora dovessero passare a un altro fornitore.
 
 ### Privacy
 
@@ -315,7 +314,7 @@ Preferiamo che i fornitori consigliati raccolgano il minor numero di dati possib
 
 **Requisiti minimi:**
 
-- Protezione dell'indirizzo IP del mittente. Filtraggio dello stesso dalla visualizzazione nel campo dell'intestazione `Ricevuto`.
+- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - Non richiedere informazioni d'identificazione personale (PII), tranne un nome utente e una password.
 - Politica sulla privacy che soddisfi i requisiti definiti dal GDPR.
 
@@ -326,12 +325,12 @@ Preferiamo che i fornitori consigliati raccolgano il minor numero di dati possib
 
 ### Sicurezza
 
-I server email gestiscono molti dati, estremamente sensibili. Ci aspettiamo che i fornitori adotteranno le migliori pratiche del settore, per proteggere i propri membri.
+I server email gestiscono molti dati, estremamente sensibili. We expect that providers will adopt best industry practices in order to protect their customers.
 
 **Requisiti minimi:**
 
 - Protezione della webmail con 2FA, ad esempio TOTP.
-- Crittografia ad accesso zero, basata sulla crittografia a riposo. Il provider non deve disporre delle chiavi di decrittazione dei dati in loro possesso. Questo previene che dipendenti disonesti possano trapelare i dati sensibili, o che un avversario remoto possa rilasciarli, dopo averli rubati, ottenendo un accesso non autorizzato al server.
+- Zero access encryption, which builds on encryption at rest. Il provider non deve disporre delle chiavi di decrittazione dei dati in loro possesso. Questo previene che dipendenti disonesti possano trapelare i dati sensibili, o che un avversario remoto possa rilasciarli, dopo averli rubati, ottenendo un accesso non autorizzato al server.
 - Supporto [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - Nessun errore o vulnerabilità TLS quando si viene profilato da strumenti come [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) o [Qualys SSL Labs](https://ssllabs.com/ssltest); questo include errori relativi ai certificati e parametri DH deboli, come quelli che hanno portato a [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Una preferenza della suite del server (facoltativa su TLSv1.3), per forti suite di cifratura che supportino la segretezza in avanti e la crittografia autenticata.
@@ -344,13 +343,14 @@ I server email gestiscono molti dati, estremamente sensibili. Ci aspettiamo che 
 - Standard di sicurezza del sito web come:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Integrità Subresource](https://en.wikipedia.org/wiki/Subresource_Integrity) se si caricano oggetti da domini esterni.
-- Deve supportare la visualizzazione delle [Intestazioni dei messaggi](https://en.wikipedia.org/wiki/Email#Message_header), essendo una funzionalità forense cruciale per determinare se un'email è un tentativo di phishing.
+- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
 **Miglior Caso:**
 
-- Supporto all'autenticazione hardware, cioè U2F e [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F e WebAuthn sono più sicuri, utilizzando una chiave privata, memorizzata su un dispositivo hardware dal lato del client per autenticare le persone, rispetto a un codice segreto condiviso, memorizzato sul server web e dal lato del client, utilizzando TOTP. Inoltre, U2F e WebAuthn sono più resistenti al phishing, poiché la loro risposta d'autenticazione si basa sul [nome di dominio](https://en.wikipedia.org/wiki/Domain_name) autenticato.
+- Supporto all'autenticazione hardware, cioè U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [Registro Risorse di Autorizzazione dell'Autorità del Certificato (CAA) DNS](https://tools.ietf.org/html/rfc6844), oltre al supporto DANE.
-- Implementazione della [Catena Autenticata Ricevuta (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), utile per le persone che pubblicano alle mailing list [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Controlli di sicurezza pubblicati da uno studio di terze parti affidabile.
 - Programmi di caccia ai bug e/o un processo di divulgazione delle vulnerabilità coordinato.
 - Standard di sicurezza del sito web, quali:
     - [Politica sulla Sicurezza dei Contenuti (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -366,28 +366,27 @@ Non affideresti le tue finanze a qualcuno con un'identità falsa, quindi, perch�
 
 **Miglior Caso:**
 
-- Dirigenza rivolta al pubblico.
 - Rapporti di trasparenza frequenti.
 
 ### Marketing
 
-Con i fornitori email che consigliamo, vorremmo vedere del marketing responsabile.
+With the email providers we recommend, we like to see responsible marketing.
 
 **Requisiti minimi:**
 
-- Deve auto-ospitare le statistiche (senza Google Analytics, Adobe Analytics, etc.). Il sito del fornitore, inoltre, deve essere conforme a [DNT (Non Tracciare)](https://en.wikipedia.org/wiki/Do_Not_Track), per coloro che desiderano rinunciare.
+- Deve auto-ospitare le statistiche (senza Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
 
-Non deve avere alcun marketing irresponsabile:
+Must not have any irresponsible marketing, which can include the following:
 
 - Dichiarazioni di "crittografia impenetrabile." La crittografia dovrebbe essere utilizzata con l'intenzione che possa non essere segreta in futuro, quando esisterà la tecnologia per decifrarla.
-- Garantire la protezione dell'anonimato al 100%. Quando qualcuno afferma che qualcosa è al 100%, significa che non vi è certezza di fallimento. Sappiamo che le persone possono facilmente deanonimizzarsi in numerosi modi, es.:
+- Garantire la protezione dell'anonimato al 100%. Quando qualcuno afferma che qualcosa è al 100%, significa che non vi è certezza di fallimento. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
 
     - Riutilizzo di informazioni personali, es. (profili email, pseudonimi univoci, etc.), accessibili senza software di anonimato (Tor, VPN, etc.)
     - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Caso migliore:**
 
-- Documentazione chiara e di facile lettura. Ciò include cose come la configurazione dell'A2F, client email, OpenPGP, etc.
+- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### Funzionalità aggiuntive
 

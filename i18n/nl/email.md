@@ -10,7 +10,6 @@ global:
     - "table tbody"
 ---
 
-<!-- markdownlint-disable MD024 -->
 E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij raden het niet aan voor gesprekken van persoon tot persoon. In plaats van e-mail te gebruiken om andere mensen te contacteren, kunt u overwegen een instant messenger te gebruiken die forward secrecy ondersteunt.
 
 [Aanbevolen Instant Messengers](real-time-communication.md ""){.md-button}
@@ -55,7 +54,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** is een e-maildienst met focus op privacy, encryptie, veiligheid en gebruiksgemak. Ze zijn al actief sinds **2013**. Proton AG is gevestigd in Genève, Zwitserland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+**Proton Mail** is een e-maildienst met focus op privacy, encryptie, veiligheid en gebruiksgemak. They have been in operation since 2013. Proton AG is gevestigd in Genève, Zwitserland. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -192,7 +191,7 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -257,7 +256,7 @@ Gevorderde systeembeheerders kunnen overwegen hun eigen e-mailserver op te zette
 
 ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** is een meer geavanceerde mailserver, perfect voor mensen met wat meer Linux ervaring. Het heeft alles wat je nodig hebt in een Docker container: Een mailserver met DKIM-ondersteuning, antivirus- en spammonitoring, webmail en ActiveSync met SOGo, en webgebaseerd beheer met 2FA-ondersteuning.
+**Mailcow** is een meer geavanceerde mailserver, perfect voor mensen met wat meer Linux ervaring. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
@@ -306,8 +305,8 @@ Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst t
 - Ondersteuning voor een tijdelijke mailbox voor externe gebruikers. Dit is handig wanneer je een versleutelde e-mail wilt verzenden, zonder een echte kopie naar jouw ontvanger te sturen. Deze e-mails hebben meestal een beperkte levensduur en worden daarna automatisch verwijderd. Zij vereisen ook niet dat de ontvanger cryptografie configureert zoals OpenPGP.
 - Beschikbaarheid van de diensten van de e-mailprovider via een [onion service](https://en.wikipedia.org/wiki/.onion).
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Catch-all of alias functionaliteit voor diegenen die hun eigen domeinen bezitten.
-- Gebruik van standaard e-mail toegangsprotocollen zoals IMAP, SMTP of [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standaard toegangsprotocollen zorgen ervoor dat klanten al hun e-mail gemakkelijk kunnen downloaden, mochten zij naar een andere provider willen overstappen.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standaard toegangsprotocollen zorgen ervoor dat klanten al hun e-mail gemakkelijk kunnen downloaden, mochten zij naar een andere provider willen overstappen.
 
 ### Privacy
 
@@ -315,7 +314,7 @@ Wij geven er de voorkeur aan dat de door ons aanbevolen aanbieders zo weinig mog
 
 **Minimum om in aanmerking te komen:**
 
-- Beschermt het IP adres van de afzender. Filter het uit de weergave in het `Received` header veld.
+- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - Vereisen geen persoonlijk identificeerbare informatie (PII) naast een gebruikersnaam en een wachtwoord.
 - Privacybeleid dat voldoet aan de vereisten van de GDPR.
 
@@ -326,12 +325,12 @@ Wij geven er de voorkeur aan dat de door ons aanbevolen aanbieders zo weinig mog
 
 ### Veiligheid
 
-Email servers verwerken veel zeer gevoelige gegevens. We verwachten dat providers de beste praktijken in de branche zullen toepassen om hun gebruikers te beschermen.
+Email servers verwerken veel zeer gevoelige gegevens. We expect that providers will adopt best industry practices in order to protect their customers.
 
 **Minimum om in aanmerking te komen:**
 
 - Bescherming van webmail met 2FA, zoals TOTP.
-- Zero access encryptie, bouwt voort op encryptie in rust. De provider heeft geen decryptiesleutels voor de gegevens die ze hebben. Dit voorkomt dat een malafide werknemer gegevens lekt waartoe hij toegang heeft, of dat een tegenstander op afstand gegevens vrijgeeft die hij heeft gestolen door ongeoorloofde toegang tot de server te verkrijgen.
+- Zero access encryption, which builds on encryption at rest. De provider heeft geen decryptiesleutels voor de gegevens die ze hebben. Dit voorkomt dat een malafide werknemer gegevens lekt waartoe hij toegang heeft, of dat een tegenstander op afstand gegevens vrijgeeft die hij heeft gestolen door ongeoorloofde toegang tot de server te verkrijgen.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) ondersteuning.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Een geldig [MTA-STS](https://tools.ietf.org/html/rfc8461) en [TLS-RPT](https://tools.ietf.org/html/rfc8460) beleid.
@@ -344,13 +343,14 @@ Email servers verwerken veel zeer gevoelige gegevens. We verwachten dat provider
 - Beveiligingsnormen voor websites, zoals:
     - [HTTP Strict Transport Security](https://nl.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Subbron Integriteit](https://en.wikipedia.org/wiki/Subresource_Integrity) als dingen van externe domeinen worden geladen.
-- Moet het bekijken van [Message headers](https://en.wikipedia.org/wiki/Email#Message_header)ondersteunen, aangezien dit een cruciale forensische functie is om te bepalen of een e-mail een phishing-poging is.
+- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
 **Beste geval:**
 
-- Ondersteuning voor hardware-authenticatie, d.w.z. U2F en [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F en WebAuthn zijn veiliger omdat zij een privésleutel gebruiken die is opgeslagen op een hardware-apparaat aan de clientzijde om mensen te authenticeren, in tegenstelling tot een gedeeld geheim dat is opgeslagen op de webserver en aan de clientzijde wanneer TOTP wordt gebruikt. Bovendien zijn U2F en WebAuthn beter bestand tegen phishing omdat hun authenticatierespons gebaseerd is op de geauthenticeerde [domeinnaam](https://en.wikipedia.org/wiki/Domain_name).
+- Ondersteuning voor hardware-authenticatie, d.w.z. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certificatie Autoriteit Autorisatie (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in aanvulling op DANE ondersteuning.
-- Implementatie van [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), dit is nuttig voor mensen die posten naar mailinglijsten [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Gepubliceerde veiligheidscontroles van een gerenommeerde derde partij.
 - Programma's voor bug-bounty's en/of een gecoördineerd proces voor de openbaarmaking van kwetsbaarheden.
 - Beveiligingsnormen voor websites, zoals:
     - [Inhoud beveiligingsbeleid (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -366,28 +366,27 @@ Je zou je financiën niet toevertrouwen aan iemand met een valse identiteit, dus
 
 **Beste geval:**
 
-- Publieksgericht leiderschap.
 - Frequente transparantieverslagen.
 
 ### Marketing
 
-Bij de e-mail providers die we aanbevelen zien we graag verantwoorde marketing.
+With the email providers we recommend, we like to see responsible marketing.
 
 **Minimum om in aanmerking te komen:**
 
-- Moet zelf analytics hosten (geen Google Analytics, Adobe Analytics, etc.). De site van de aanbieder moet ook voldoen aan [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) voor degenen die zich willen afmelden.
+- Moet zelf analytics hosten (geen Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
 
-Mag geen marketing hebben die onverantwoord is:
+Must not have any irresponsible marketing, which can include the following:
 
 - Claims van "onbreekbare encryptie." Encryptie moet worden gebruikt met de bedoeling dat zij in de toekomst niet meer geheim is wanneer de technologie bestaat om haar te kraken.
-- Garanties van 100% bescherming van de anonimiteit. Wanneer iemand beweert dat iets 100% is, betekent dit dat er geen zekerheid is voor mislukking. We weten dat mensen zichzelf vrij gemakkelijk kunnen deanonimiseren op een aantal manieren, bv.:
+- Garanties van 100% bescherming van de anonimiteit. Wanneer iemand beweert dat iets 100% is, betekent dit dat er geen zekerheid is voor mislukking. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
 
     - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [Browser vingerafdrukken](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Beste geval:**
 
-- Duidelijke en gemakkelijk te lezen documentatie. Dit omvat zaken als het instellen van 2FA, e-mailclients, OpenPGP, enz.
+- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### Extra functionaliteit
 

@@ -10,7 +10,6 @@ global:
     - "table tbody"
 ---
 
-<!-- markdownlint-disable MD024 -->
 O correio eletrónico é praticamente uma necessidade para subscrever qualquer serviço online, mas não o recomendamos para conversas pessoais. Em vez de utilizar o correio eletrónico para contactar outras pessoas, considere a possibilidade de utilizar uma aplicação de mensagens instantâneas que suporte encaminhamento sigiloso.
 
 [Aplicações de Mensagens Instantâneas Recomendadas](real-time-communication.md ""){.md-button}
@@ -55,7 +54,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Logótipo Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-O **Proton Mail** é um serviço de e-mail que privilegia a privacidade, a encriptação, a segurança e a facilidade de utilização. Estão em funcionamento desde **2013**. A Proton AG tem sede em Genebra, na Suíça. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+O **Proton Mail** é um serviço de e-mail que privilegia a privacidade, a encriptação, a segurança e a facilidade de utilização. They have been in operation since 2013. A Proton AG tem sede em Genebra, na Suíça. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -192,7 +191,7 @@ Estes fornecedores armazenam as suas mensagens eletrónicas com encriptação de
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -257,7 +256,7 @@ Os administradores de sistemas avançados podem considerar a possibilidade de co
 
 ![Logótipo Mailcow](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** é um servidor de e-mail mais avançado, perfeito para quem tem um pouco mais de experiência em Linux. Tem tudo o que é necessário num contentor Docker: um servidor de e-mail com suporte DKIM, antivírus e monitorização de spam, webmail e ActiveSync com SOGo, e administração baseada na Web com suporte 2FA.
+**Mailcow** é um servidor de e-mail mais avançado, perfeito para quem tem um pouco mais de experiência em Linux. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
@@ -306,8 +305,8 @@ Consideramos que estas características são importantes para podermos prestar u
 - Suporte para uma caixa de correio temporária para utilizadores externos. Isto é útil quando se pretende enviar uma mensagem de e-mail encriptada, sem enviar uma cópia real ao destinatário. Estas mensagens de e-mail têm normalmente um tempo de vida limitado e depois são automaticamente eliminadas. Também não requerem que o destinatário configure qualquer criptografia como o OpenPGP.
 - Disponibilidade dos serviços do fornecedor de e-mail através de um serviço onion [](https://en.wikipedia.org/wiki/.onion).
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Funcionalidade de Catch-all ou alias para quem possui os seus próprios domínios.
-- Utilização de protocolos normais de acesso ao e-mail, como IMAP, SMTP ou [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Os protocolos de acesso normalizados garantem que os clientes podem transferir facilmente todo o seu e-mail, caso pretendam mudar para outro fornecedor.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Os protocolos de acesso normalizados garantem que os clientes podem transferir facilmente todo o seu e-mail, caso pretendam mudar para outro fornecedor.
 
 ### Privacidade
 
@@ -315,7 +314,7 @@ Preferimos que os nossos fornecedores recomendados recolham o mínimo de dados p
 
 **Mínimos de qualificação:**
 
-- Proteção do endereço IP do remetente. Filtrar o IP para que não apareça no campo de cabeçalho `Recebido`.
+- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - Não exigir informações de identificação pessoal (PII) para além de um nome de utilizador e uma palavra-passe.
 - Política de privacidade que cumpra os requisitos definidos pelo RGPD.
 
@@ -326,12 +325,12 @@ Preferimos que os nossos fornecedores recomendados recolham o mínimo de dados p
 
 ### Segurança
 
-Os servidores de e-mail lidam com uma grande quantidade de dados muito sensíveis. É esperado que os fornecedores adotem as melhores práticas do setor para proteger os seus membros.
+Os servidores de e-mail lidam com uma grande quantidade de dados muito sensíveis. We expect that providers will adopt best industry practices in order to protect their customers.
 
 **Mínimos de qualificação:**
 
 - Proteção do webmail com 2FA, como o TOTP.
-- Encriptação de acesso zero, baseada na encriptação em estado de repouso. Vedar o acesso do fornecedor às chaves de desencriptação dos dados. Isto impede que um funcionário desonesto divulgue os dados a que tem acesso ou que um adversário remoto divulgue os dados que roubou ao obter acesso não autorizado ao servidor.
+- Zero access encryption, which builds on encryption at rest. Vedar o acesso do fornecedor às chaves de desencriptação dos dados. Isto impede que um funcionário desonesto divulgue os dados a que tem acesso ou que um adversário remoto divulgue os dados que roubou ao obter acesso não autorizado ao servidor.
 - [Suporte DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Uma opção de suite de servidor (opcional no TLSv1.3) para suites de cifras fortes que suportem encaminhamento sigiloso e encriptação autenticada.
@@ -344,13 +343,14 @@ Os servidores de e-mail lidam com uma grande quantidade de dados muito sensívei
 - Normas de segurança de sites Web, tais como:
     - [Segurança de transporte estrito HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Integridade do sub-recurso](https://en.wikipedia.org/wiki/Subresource_Integrity) se estiver a carregar dados de domínios externos.
-- Suporte para visualização dos cabeçalhos de mensagens [](https://en.wikipedia.org/wiki/Email#Message_header), uma vez que se trata de uma caraterística forense crucial para determinar se uma mensagem de e-mail é uma tentativa de phishing.
+- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
 **Melhor caso:**
 
-- Suporte para autenticação de hardware, isto é. U2F e [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). O U2F e o WebAuthn são mais seguros porque utilizam uma chave privada, armazenada num dispositivo de hardware do lado do cliente, para efeitos de autenticação, ao contrário de um segredo partilhado que é armazenado no servidor Web e no lado do cliente quando se utiliza o TOTP. Além disso, o U2F e o WebAuthn são mais resistentes ao phishing, uma vez que a sua resposta de autenticação se baseia no nome de domínio autenticado [](https://en.wikipedia.org/wiki/Domain_name).
+- Suporte para autenticação de hardware, isto é. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [Registo de Recursos de Autorização de Autoridade de Certificação (CAA) do DNS](https://tools.ietf.org/html/rfc6844), para além do suporte DANE.
-- Implementação de [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), útil para pessoas que enviam mensagens para listas de e-mail [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Auditorias de segurança publicadas por uma empresa terceira de renome.
 - Programas de recompensa de bugs e/ou um processo coordenado de divulgação de vulnerabilidades.
 - Normas de segurança de sites Web, tais como:
     - [Política de segurança de conteúdo (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -366,28 +366,27 @@ Se não confiaria as suas finanças a alguém com uma identidade falsa, por que 
 
 **Melhor caso:**
 
-- Liderança virada para o público.
 - Relatórios de transparência frequentes.
 
 ### Marketing
 
-Gostaríamos que os fornecedores de e-mail que recomendamos tivessem uma política de marketing responsável.
+With the email providers we recommend, we like to see responsible marketing.
 
 **Mínimos de qualificação:**
 
-- As estatísticas de análise devem ser auto-hospedados (evitar Google Analytics, Adobe Analytics, etc.). O site do fornecedor deve também estar em conformidade com a política [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track), para quem opte por não participar.
+- As estatísticas de análise devem ser auto-hospedados (evitar Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
 
-Não deverão ter políticas de marketing irresponsáveis:
+Must not have any irresponsible marketing, which can include the following:
 
 - Reivindicações de "encriptação inquebrável" A encriptação deve ser utilizada com a consciência de poder vir a não ser secreta no futuro, quando existir tecnologia para a decifrar.
-- Garantir a proteção do anonimato a 100%. Quando alguém afirma que algo é 100%, significa que não há possibilidade de falha. Sabemos que as pessoas podem desanonimizar-se muito facilmente de várias formas, por exemplo:
+- Garantir a proteção do anonimato a 100%. Quando alguém afirma que algo é 100%, significa que não há possibilidade de falha. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
 
     - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [Impressão digital do browser](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Melhor caso:**
 
-- Documentação clara e fácil de ler. Isto inclui questões como a configuração de 2FA, clientes de e-mail, OpenPGP, etc.
+- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### Funcionalidade adicional
 

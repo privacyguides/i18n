@@ -10,7 +10,6 @@ global:
     - "table tbody"
 ---
 
-<!-- markdownlint-disable MD024 -->
 이메일은 모든 온라인 서비스 이용에 사실상 필수적이지만, 개인 간 대화에는 권장드리지 않습니다. 다른 사람에게 연락할 때는 이메일보다는 순방향 비밀성을 지원하는 메신저를 사용하는 것이 좋습니다.
 
 [권장 메신저](real-time-communication.md ""){.md-button}
@@ -55,7 +54,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail 로고](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail**은 프라이버시, 암호화, 보안, 사용 편의성에 중점을 둔 이메일 서비스입니다. **2013년**부터 운영되었습니다. Proton AG 본사는 스위스 제네바에 위치하고 있습니다. Proton Mail 무료 요금제에는 500MB의 메일 저장 용량이 제공되며, 최대 1GB까지 무료로 늘릴 수 있습니다.
+**Proton Mail**은 프라이버시, 암호화, 보안, 사용 편의성에 중점을 둔 이메일 서비스입니다. They have been in operation since 2013. Proton AG 본사는 스위스 제네바에 위치하고 있습니다. Proton Mail 무료 요금제에는 500MB의 메일 저장 용량이 제공되며, 최대 1GB까지 무료로 늘릴 수 있습니다.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -192,7 +191,7 @@ Mailbox.org는 모든 플랜에 디지털 유산 상속 기능을 제공합니�
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -257,7 +256,7 @@ Tuta doesn't offer a digital legacy feature.
 
 ![Mailcow 로고](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow**는 Linux 사용 경험이 많은 분에게 적합한 고급 메일 서버입니다. DKIM 지원 메일 서버, 안티바이러스, 스팸 모니터링, SOGo 웹메일 및 ActiveSync, 이중 인증 지원 웹 기반 관리 등 필요한 모든 것을 Docker 컨테이너에 갖추고 있습니다.
+**Mailcow**는 Linux 사용 경험이 많은 분에게 적합한 고급 메일 서버입니다. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
@@ -306,8 +305,8 @@ Tuta doesn't offer a digital legacy feature.
 - 외부 사용자를 위해 임시 메일함을 지원해야 합니다. 수신자에게 실제 사본을 보내지 않고 암호화된 이메일을 보내고자 할 때 유용합니다. 이러한 이메일은 보통 수명이 제한돼 있으며 이후 자동으로 삭제됩니다. 수신자가 OpenPGP 등의 암호화를 설정할 필요가 없습니다.
 - [Onion 서비스](https://en.wikipedia.org/wiki/.onion)를 통해 이메일 서비스를 이용할 수 있어야 합니다.
 - [하위 주소](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) 지원.
-- 자체 도메인을 소유한 사용자를 위해 Catch-all 이나 별칭 기능을 제공해야 합니다.
-- IMAP, SMTP, [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol) 등 표준 이메일 접근 프로토콜을 사용해야 합니다. 표준 액세스 프로토콜을 사용함으로써, 사용자는 다른 서비스 제공 업체로 전환하고자 할 경우 모든 이메일을 쉽게 다운로드할 수 있습니다.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). 표준 액세스 프로토콜을 사용함으로써, 사용자는 다른 서비스 제공 업체로 전환하고자 할 경우 모든 이메일을 쉽게 다운로드할 수 있습니다.
 
 ### 프라이버시
 
@@ -315,7 +314,7 @@ Privacy Guides이 권장하는 제공자들은 최소한의 데이터만을 수�
 
 **최소 요구 사항:**
 
-- 발신자의 IP 주소를 보호해야 합니다. `Received` 헤더 필드에 표시되지 않도록 필터링해야 합니다.
+- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - 사용자 이름과 비밀번호 외에 개인 식별 정보(PII, Personally Identifiable Information)를 요구하지 않아야 합니다.
 - 프라이버시 정책은 GDPR에서 정의한 요구 사항을 충족해야 합니다.
 
@@ -326,12 +325,12 @@ Privacy Guides이 권장하는 제공자들은 최소한의 데이터만을 수�
 
 ### 보안
 
-이메일 서버는 매우 민감한 데이터를 대량으로 처리합니다. We expect that providers will adopt best industry practices in order to protect their members.
+이메일 서버는 매우 민감한 데이터를 대량으로 처리합니다. We expect that providers will adopt best industry practices in order to protect their customers.
 
 **최소 요구 사항:**
 
 - 웹메일은 2FA(TOTP 등)로 보호되어야 합니다.
-- Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- Zero access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)를 지원해야 합니다.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
@@ -344,13 +343,14 @@ Privacy Guides이 권장하는 제공자들은 최소한의 데이터만을 수�
 - Website security standards such as:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
 **우대 사항:**
 
-- Support for hardware authentication, i.e. U2F and [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
+- Support for hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- 검증된 제 3자로부터 보안 감사 결과가 게시됨
 - 버그 바운티 프로그램 또는 체계적인 취약점 공개 프로세스가 있음
 - Website security standards such as:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -366,28 +366,27 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 **우대 사항:**
 
-- Public-facing leadership.
 - 투명성 보고서를 자주 발간해야 합니다.
 
 ### 마케팅
 
-Privacy Guides는 권장 이메일 제공 업체가 책임감 있는 마케팅을 할 것을 기대하고 있습니다.
+With the email providers we recommend, we like to see responsible marketing.
 
 **최소 요구 사항:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt-out.
+- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
 
-다음과 같은 무책임한 마케팅은 일절 없어야 합니다:
+Must not have any irresponsible marketing, which can include the following:
 
 - "절대 뚫리지 않는 암호화" 등의 주장을 해선 안 됩니다. 암호화는 미래에 해당 암호화를 무력화할 수 있는 기술이 등장할 수 있다는 것을 항상 염두에 두고 사용해야 합니다.
-- "100% 익명성 보장" 만약 누군가가 100%라고 주장한다면, 이는 절대 실패할 수 없다고 하는 것과 같습니다. 익명성을 잃는 방법은 간단하면서도 다양하다는 것은 잘 알려져 있습니다. 예시로는 다음과 같습니다:
+- "100% 익명성 보장" 만약 누군가가 100%라고 주장한다면, 이는 절대 실패할 수 없다고 하는 것과 같습니다. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
 
     - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [브라우저 핑거프린팅](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **우대 사항:**
 
-- 명확하고 읽기 쉬운 문서를 제공해야 합니다. 2FA/이메일 클라이언트/OpenPGP 설정 방법 안내 등의 문서도 제공해야 합니다.
+- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### 추가 기능
 

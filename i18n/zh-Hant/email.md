@@ -10,7 +10,6 @@ global:
     - "table tbody"
 ---
 
-<!-- markdownlint-disable MD024 -->
 電子郵件實際上是使用任何線上服務的必需品，但我們不建議把它應用於人與人之間的對話。 與其使用電子郵件聯繫他人，不如考慮使用支援前向保密的即時通訊媒介。
 
 [推薦的即時通訊工具](real-time-communication.md ""){.md-button}
@@ -55,7 +54,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 自 **2013 年** 開始運營。 Proton AG 總部位於瑞士日內瓦。 Proton Mail Free 方案隨附 500MB 的郵件儲存空間，可以免費增加至 1GB。
+**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail Free 方案隨附 500MB 的郵件儲存空間，可以免費增加至 1GB。
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -200,7 +199,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** 電子郵件服務透由加密應用以專注安全和隱私。 Tuta 自 **2011 年** 開始運營，總部位於德國漢諾威。 免費帳戶提供 10GB 容量。
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶提供 10GB 容量。
 
 [:octicons-home-16: 首頁](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
@@ -283,7 +282,7 @@ Tuta 不提供數位遺產功能。
 
 ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** 是一個更先進的郵件伺服器，非常適合有豐富 Linux 經驗者。 它的 Docke r容器中擁有您需要的一切：支援 DKIM 的郵件伺服器、防毒和垃圾郵件監控、具有SOGo 的 Webmail 和 ActiveSync ，以及具有2FA 支援的網頁管理介面。
+**Mailcow** 是一個更先進的郵件伺服器，非常適合有豐富 Linux 經驗者。 It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
@@ -336,8 +335,8 @@ Tuta 不提供數位遺產功能。
 - 支援外部使用者的臨時信箱。 當您想要發送加密的電子郵件時，這非常有用，而無需將實際副本發送給您的收件人。 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
 - 可提供 [onion 服務](https://en.wikipedia.org/wiki/.onion)的電子郵件服務供應商。
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- 為擁有自己網域的用戶提供通用地址或別名功能。
-- 使用標準電子郵件存取協定，例如 IMAP、SMTP 或 [ JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)。 標準存取協議確保客戶可以輕鬆下載所有電子郵件，一旦他們想切換到其它提供商。
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). 標準存取協議確保客戶可以輕鬆下載所有電子郵件，一旦他們想切換到其它提供商。
 
 
 
@@ -347,7 +346,7 @@ Tuta 不提供數位遺產功能。
 
 **最低合格要求：**
 
-- 保護發件人的IP位址。 在 `Received` 標題欄位中過濾它。
+- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - 除了使用者名稱和密碼外，不要求提供個人身份識別資訊(PII)。
 - 隱私政策符合 GDPR 之要求。
 
@@ -360,12 +359,12 @@ Tuta 不提供數位遺產功能。
 
 ### 安全
 
-電子郵件伺服器處理大量非常敏感的資料。 我們期望供應商採用行業最佳實踐來保護其會員。
+電子郵件伺服器處理大量非常敏感的資料。 We expect that providers will adopt best industry practices in order to protect their customers.
 
 **最低合格要求：**
 
 - 使用 2FA 保護網頁郵件，如TOTP。
-- 無存取的靜態加密，如零存取加密。 提供者沒有其所持有資料的解密金鑰。 這可以防止流氓員工外洩所存取的資料或遠程對手通過獲得對伺服器的未經授權的訪問來竊取資料。
+- Zero access encryption, which builds on encryption at rest. 提供者沒有其所持有資料的解密金鑰。 這可以防止流氓員工外洩所存取的資料或遠程對手通過獲得對伺服器的未經授權的訪問來竊取資料。
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 支持。
 - 使用 [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) 或[Qualys SSL Labs](https://ssllabs.com/ssltest)等工具沒發現 TLS 錯誤或漏洞； 這包括與憑證相關的錯誤和弱 DH 參數，例如 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 錯誤。
 - 伺服器套件偏好（在TLS v1.3上可選），適用於支持正向保密和已驗證加密的強大密碼套件。
@@ -378,13 +377,14 @@ Tuta 不提供數位遺產功能。
 - 網站安全標準，例如： 
       - [HTTP 嚴格傳輸安全性](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - 如果從外部網域加載東西時，[子資源完整性](https://en.wikipedia.org/wiki/Subresource_Integrity) 。
-- 必須支援檢視 [訊息表頭](https://en.wikipedia.org/wiki/Email#Message_header)，因為它是確定電子郵件是否為網路釣魚嘗試的關鍵取證功能。
+- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
 **最佳案例：**
 
-- 支持硬體驗證，即 U2F 和 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)。 U2F 和 WebAuthn 更安全，因為它們使用儲存於客戶端硬體設備上的私鑰來驗證人員，而使用 TOTP 時共享祕密則直接儲存在網頁伺服器和客戶端。 再者 U2F 和 WebAuthn 更能抵抗網絡釣魚，因為它們的驗證回應是基於已驗證過的 [域名](https://en.wikipedia.org/wiki/Domain_name)。
+- 支持硬體驗證，即 U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS憑證授權機構授權(CAA)資源記錄](https://tools.ietf.org/html/rfc6844) 除了DANE支持。
-- 實現 [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)，這對於發佈郵件列表 [RFC8617](https://tools.ietf.org/html/rfc8617)非常有用。
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- 由信譽良好的第三方公司執行公佈的全面安全審計。
 - 漏洞獎勵計劃和/或協調漏洞披露過程。
 - 網站安全標準，例如： 
       - [內容安全策略(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -402,30 +402,29 @@ Tuta 不提供數位遺產功能。
 
 **最佳案例：**
 
-- 面向公眾的領導
 - 頻繁的透明度報告。
 
 
 
 ### 行銷
 
-對於所推薦的電子郵件供應商，我們樂見其負責任的營銷。
+With the email providers we recommend, we like to see responsible marketing.
 
 **最低合格要求：**
 
-- 必須自行託管分析 (不使用 Google Analytics、Adobe Analytics 等)。 供應商的網站還必須遵守 [DNT (Do Not Track, 請勿追蹤) ](https://en.wikipedia.org/wiki/Do_Not_Track) 的要求，以供選擇退出的人使用。
+- 必須自行託管分析 (不使用 Google Analytics、Adobe Analytics 等)。 The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
 
-不得有任何不負責任的行銷：
+Must not have any irresponsible marketing, which can include the following:
 
 - 宣稱破解不了的加密 使用加密時應意識到，當有一天技術足以破解它時，它就不再是祕密的。
-- 保證 100% 匿名性保護。 當有人聲稱某件事是100 ％時，這意味著失敗沒有確定性。 我們知道人們可以很容易地以多種方式去匿名化自己，例如：
+- 保證 100% 匿名性保護。 當有人聲稱某件事是100 ％時，這意味著失敗沒有確定性。 We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
   
       - 重覆使用個人資訊 (如電子郵件帳戶、獨特的假名等等 pseudonyms, etc.) 而沒透過匿名軟體 (如 Tor, VPN 之類)。
     - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **最佳案例：**
 
-- 清晰易讀的文件。 這包括諸如設置 2FA 、電子郵件客戶端、OpenPGP等。
+- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 
 

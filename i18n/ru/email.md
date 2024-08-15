@@ -10,7 +10,6 @@ global:
     - "table tbody"
 ---
 
-<!-- markdownlint-disable MD024 -->
 Электронная почта практически всегда необходима для использования любого онлайн-сервиса, однако мы не рекомендуем использовать её для общения с людьми. Вместо того, чтобы использовать электронную почту для связи с другими людьми, мы советуем использовать мессенджеры, которые поддерживают прямую секретность.
 
 [Рекомендуемые мессенджеры](real-time-communication.md ""){.md-button}
@@ -55,7 +54,7 @@ OpenPGP также не поддерживает прямую секретнос
 
 ![Логотип Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** — это сервис электронной почты, фокусирующийся на приватности, шифровании, безопасности и простоте использования. Они работают с **2013** года. Компания Proton AG базируется в Женеве, Швейцария. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+**Proton Mail** — это сервис электронной почты, фокусирующийся на приватности, шифровании, безопасности и простоте использования. They have been in operation since 2013. Компания Proton AG базируется в Женеве, Швейцария. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -192,7 +191,7 @@ Mailbox.org имеет функцию цифрового наследия для
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -257,7 +256,7 @@ Tuta doesn't offer a digital legacy feature.
 
 ![Логотип Mailcow](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** - это более продвинутый почтовый сервер, идеально подходящий для тех, у кого есть опыт работы с Linux. В его контейнере Docker есть всё, что тебе нужно: почтовый сервер с поддержкой DKIM, антивирус и мониторинг спама, веб-почта и ActiveSync с SOGo, а также веб-администрирование с поддержкой 2FA.
+**Mailcow** - это более продвинутый почтовый сервер, идеально подходящий для тех, у кого есть опыт работы с Linux. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
@@ -306,8 +305,8 @@ Tuta doesn't offer a digital legacy feature.
 - Поддержка временного почтового ящика для внешних пользователей. Это полезно, когда вы хотите отправить зашифрованное сообщение электронной почты, не отправляя фактическую копию получателю. Такие письма обычно имеют ограниченный срок действия, а затем автоматически удаляются. Они также не требуют от получателя настройки какой-либо криптографии, как OpenPGP.
 - Доступность услуг провайдера электронной почты через [службу .onion](https://en.wikipedia.org/wiki/.onion).
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Функциональность поймать-все или псевдонимов для тех, кто владеет собственными доменами.
-- Использование стандартных протоколов доступа к электронной почте, таких как IMAP, SMTP или [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Стандартные протоколы доступа обеспечивают клиентам возможность легко скачать всю свою электронную почту, если они захотят перейти к другому провайдеру.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Стандартные протоколы доступа обеспечивают клиентам возможность легко скачать всю свою электронную почту, если они захотят перейти к другому провайдеру.
 
 ### Конфиденциальность
 
@@ -315,7 +314,7 @@ Tuta doesn't offer a digital legacy feature.
 
 **Минимальные требования:**
 
-- Защищает IP-адрес отправителя. Отфильтрует его от отображения в поле заголовка `Received`.
+- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - Не требуйте личной идентификационной информации (PII), кроме имени пользователя и пароля.
 - Политика конфиденциальности, отвечающая требованиям GDPR.
 
@@ -326,12 +325,12 @@ Tuta doesn't offer a digital legacy feature.
 
 ### Безопасность
 
-Серверы электронной почты работают с большим количеством очень конфиденциальных данных. Мы ожидаем, что поставщики услуг будут использовать лучшие отраслевые практики для защиты своих клиентов.
+Серверы электронной почты работают с большим количеством очень конфиденциальных данных. We expect that providers will adopt best industry practices in order to protect their customers.
 
 **Минимальные требования:**
 
 - Защита веб-почты с помощью 2FA, например, TOTP.
-- Шифрование с нулевым доступом, основанное на шифровании в состоянии покоя. Провайдер не имеет ключей расшифровки для хранящихся у него данных. Это предотвращает утечку данных, к которым имеет доступ недобросовестный сотрудник. Или утечку данных, которые злоумышленник украл, получив несанкционированный доступ к серверу.
+- Zero access encryption, which builds on encryption at rest. Провайдер не имеет ключей расшифровки для хранящихся у него данных. Это предотвращает утечку данных, к которым имеет доступ недобросовестный сотрудник. Или утечку данных, которые злоумышленник украл, получив несанкционированный доступ к серверу.
 - Поддержка [DNSSEC](https://ru.wikipedia.org/wiki/DNSSEC).
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Настройки сервера (опционально для TLSv1.3) для сильных наборов шифров, которые поддерживают прямую секретность и аутентифицированное шифрование.
@@ -344,13 +343,14 @@ Tuta doesn't offer a digital legacy feature.
 - Стандарты безопасности веб-сайта, такие как:
     - [Строгая транспортная безопасность HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Целостность субресурса](https://en.wikipedia.org/wiki/Subresource_Integrity) при загрузке вещей из внешних доменов.
-- Должен поддерживать просмотр [заголовков сообщений](https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D1%87%D1%82%D0%B0#%D0%97%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B8_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B0), поскольку это важнейшая криминалистическая функция, позволяющая определить, является ли письмо попыткой фишинга.
+- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
 **В лучшем случае:**
 
-- Поддержка аппаратной аутентификации, т.е. U2F и [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F и WebAuthn являются более безопасными, поскольку для аутентификации людей они используют закрытый ключ, хранящийся на аппаратном устройстве на стороне клиента, в отличие от общего секрета, который хранится на веб-сервере и на стороне клиента при использовании TOTP. Кроме того, U2F и WebAuthn более устойчивы к фишингу, поскольку их ответ аутентификации основан на аутентифицированном [доменном имени](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%B8%D0%BC%D1%8F).
+- Поддержка аппаратной аутентификации, т.е. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [Запись ресурса DNS Certification Authority Authorization (CAA)](https://tools.ietf.org/html/rfc6844) в дополнение к поддержке DANE.
-- Реализация [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), это полезно для людей, которые пишут в списки рассылки [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Опубликованные аудиты безопасности от авторитетной сторонней фирмы.
 - Программы "bug-bounty" и/или скоординированный процесс раскрытия информации об уязвимостях.
 - Стандарты безопасности веб-сайта, такие как:
     - [Политика безопасности контента (CSP, Content-Security-Policy)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -366,28 +366,27 @@ Tuta doesn't offer a digital legacy feature.
 
 **В лучшем случае:**
 
-- Лидерство, ориентированное на общественность.
 - Частые отчеты о прозрачности.
 
 ### Маркетинг
 
-Провайдеры электронной почты, которых мы рекомендуем, предпочитают ответственный маркетинг.
+With the email providers we recommend, we like to see responsible marketing.
 
 **Минимальные требования:**
 
-- Должен самостоятельно хостить аналитику (без Google Analytics, Adobe Analytics и т.д.). Сайт провайдера также должен соответствовать требованиям [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) для тех, кто желает отказаться от отслеживания.
+- Должен самостоятельно хостить аналитику (без Google Analytics, Adobe Analytics и т.д.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
 
-Не должно быть никакого маркетинга, который является безответственным:
+Must not have any irresponsible marketing, which can include the following:
 
 - Заявления о "невзламываемом шифровании." Шифрование должно использоваться с тем расчетом, что в будущем, когда появится технология для его взлома, оно может оказаться не секретным.
-- Предоставление гарантий защиты анонимности на 100%. Когда кто-то утверждает: "Это является на 100% ..." - это не означает, что кто-то не может ошибиться. Мы знаем, что люди могут довольно легко деанонимизировать себя различными способами, например:
+- Предоставление гарантий защиты анонимности на 100%. Когда кто-то утверждает: "Это является на 100% ..." - это не означает, что кто-то не может ошибиться. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
 
     - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [Цифровые отпечатки браузера](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **В лучшем случае:**
 
-- Понятная и легко читаемая документация. Сюда входят такие вещи, как настройка 2FA, почтовые клиенты, OpenPGP и т.д.
+- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### Дополнительная функциональность
 

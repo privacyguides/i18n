@@ -10,7 +10,6 @@ global:
     - "table tbody"
 ---
 
-<!-- markdownlint-disable MD024 -->
 Az email gyakorlatilag elengedhetetlen bármilyen online szolgáltatás használatához, azonban nem ajánljuk személyes beszélgetésekhez. Ahelyett, hogy e-mailben lépnél kapcsolatba másokkal, fontold meg egy olyan azonnali üzenetküldő használatát, amely támogatja a forward secrecy-t, vagyis szó szerint az előre titkosítást.
 
 [Ajánlott azonnali üzenetküldők](real-time-communication.md ""){.md-button}
@@ -55,7 +54,7 @@ Az OpenPGP nem támogatja a Forward secrecy-t sem, ami azt jelenti, hogy ha a t�
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. **2013** óta működnek. A Proton AG székhelye Genfben, Svájcban található. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. They have been in operation since 2013. A Proton AG székhelye Genfben, Svájcban található. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Főoldal](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion szolgáltatás" }
@@ -192,7 +191,7 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. A Tuta **2011** óta működik, székhelye Hannoverben, Németországban található. Free accounts start with 1GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -257,7 +256,7 @@ A haladó rendszergazdák fontolóra vehetik saját e-mail szerver felállítás
 
 ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-A **Mailcow** egy fejlettebb levelezőszerver, amely tökéletes azok számára, akik kicsit több Linux-tapasztalattal rendelkeznek. Mindent tartalmaz, amire egy Docker konténerben szükséged van: DKIM-támogatással rendelkező levelezőszerver, vírusirtó és spamfigyelés, webmail és ActiveSync a SOGo-val, valamint webalapú adminisztráció 2FA-támogatással.
+A **Mailcow** egy fejlettebb levelezőszerver, amely tökéletes azok számára, akik kicsit több Linux-tapasztalattal rendelkeznek. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Honlap](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Dokumentáció}
@@ -306,8 +305,8 @@ Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltat
 - Ideiglenes postafiók támogatása külső felhasználók számára. Ez akkor hasznos, ha titkosított e-mailt szeretne küldeni anélkül, hogy a címzettnek tényleges másolatot küldene. Ezek az e-mailek általában korlátozott élettartamúak, majd automatikusan törlődnek. A címzettnek nem kell semmilyen titkosítást konfigurálnia, mint az OpenPGP esetében.
 - Az emailszolgáltató weboldalának elérhetősége egy [.onion szolgáltatáson](https://en.wikipedia.org/wiki/.onion) keresztül.
 - Az [alcímzés](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) támogatása.
-- Catch-all (gyűjtő email cím) vagy alias funkció azok számára, akiknek saját domainjeik vannak.
-- A szabványos e-mail hozzáférési protokollok, például IMAP, SMTP vagy [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol) használata. A szabványos hozzáférési protokollok biztosítják, hogy az ügyfelek könnyen letölthessék az összes e-mailjüket, ha másik szolgáltatóhoz szeretnének váltani.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). A szabványos hozzáférési protokollok biztosítják, hogy az ügyfelek könnyen letölthessék az összes e-mailjüket, ha másik szolgáltatóhoz szeretnének váltani.
 
 ### Adatvédelem
 
@@ -315,7 +314,7 @@ Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkeveseb
 
 **Alap elvárások minősítéshez:**
 
-- A feladó IP-címének védelme. Szűrje ki, hogy ne jelenjen meg a `Fogadott` fejléc mezőben.
+- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - A felhasználónevet és jelszót leszámítva ne kérjen személyazonosításra alkalmas adatokat (PII).
 - A GDPR által meghatározott követelményeknek megfelelő adatvédelmi politika.
 
@@ -326,12 +325,12 @@ Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkeveseb
 
 ### Adatbiztonság
 
-Az e-mail szerverek sok nagyon érzékeny adatot kezelnek. Elvárjuk, hogy a szolgáltatók a legjobb iparági gyakorlatokat alkalmazzák tagjaik adatainak védelme érdekében.
+Az e-mail szerverek sok nagyon érzékeny adatot kezelnek. We expect that providers will adopt best industry practices in order to protect their customers.
 
 **Alap elvárások minősítéshez:**
 
 - A webmail védelme 2FA-val, például TOTP-vel.
-- Zéró hozzáférésű titkosítás, ami a nyugalmi titkosításra épül. A szolgáltató nem rendelkezik a birtokában lévő adatok visszafejtési kulcsaival. Ez megakadályozza, hogy egy rosszhiszemű alkalmazott kiszivárogtassa az adatokat, amelyekhez hozzáfér, vagy egy távoli ellenfél a szerverhez való jogosulatlan hozzáféréssel kiadja az ellopott adatokat.
+- Zero access encryption, which builds on encryption at rest. A szolgáltató nem rendelkezik a birtokában lévő adatok visszafejtési kulcsaival. Ez megakadályozza, hogy egy rosszhiszemű alkalmazott kiszivárogtassa az adatokat, amelyekhez hozzáfér, vagy egy távoli ellenfél a szerverhez való jogosulatlan hozzáféréssel kiadja az ellopott adatokat.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) támogatás.
 - Nincsenek TLS-hibák vagy sebezhetőségek, amikor olyan eszközökkel profilozzák, mint a [Hardenize](https://hardenize.com), a [testssl.sh](https://testssl.sh) vagy a [Qualys SSL Labs](https://ssllabs.com/ssltest); ez magában foglalja a tanúsítványokkal kapcsolatos hibákat és a gyenge DH-paramétereket, például azokat, amelyek a [Logjamhoz](https://en.wikipedia.org/wiki/Logjam_(computer_security)) vezettek.
 - Kiszolgálói csomag preferencia (a TLSv1.3 esetében opcionális) az erős titkosítási csomagok számára, amelyek támogatják a továbbított titkosítást és a hitelesített titkosítást.
@@ -344,13 +343,14 @@ Az e-mail szerverek sok nagyon érzékeny adatot kezelnek. Elvárjuk, hogy a szo
 - Weboldal biztonsági szabványok, mint például:
     - [HTTP szigorú szállítási biztonság (Strict Transport Security)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Alforrás integritás](https://en.wikipedia.org/wiki/Subresource_Integrity), ha külső tartományokból tölt be dolgokat.
-- Támogatnia kell az [üzenetfejlécek](https://en.wikipedia.org/wiki/Email#Message_header) megtekintését, mivel ez egy kulcsfontosságú funkció annak megállapításához, hogy egy e-mail adathalász kísérlet-e.
+- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
 **Legjobb esetben:**
 
-- A hardveres hitelesítés támogatása, pl. U2F és [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). Az U2F és a WebAuthn biztonságosabb, mivel az ügyféloldali hardvereszközön tárolt privát kulcsot használnak a hitelesítéshez, szemben a TOTP használatakor a webkiszolgálón és az ügyféloldalon tárolt megosztott titokkal. Továbbá az U2F és a WebAuthn ellenállóbb az adathalászattal szemben, mivel a hitelesítési válasz a hitelesített [tartománynév](https://en.wikipedia.org/wiki/Domain_name) alapján történik.
+- A hardveres hitelesítés támogatása, pl. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS-hitelesítésszolgáltatói engedélyezési (CAA) erőforrásrekord](https://tools.ietf.org/html/rfc6844) a DANE-támogatás mellett.
-- Az [ARC (Authenticated Received Chain)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) megvalósítása, ez azoknak hasznos, akik [RFC8617](https://tools.ietf.org/html/rfc8617) levelezési listákra írnak.
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Közzétett biztonsági felülvizsgálatok egy megbízható harmadik feles cégtől.
 - Bug-bounty programok és/vagy összehangolt sebezhetőség-közzétételi folyamat.
 - Weboldal biztonsági szabványok, mint például:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -366,28 +366,27 @@ A pénzügyeidet sem bíznád egy hamis személyazonosságú emberre, akkor mié
 
 **Legjobb esetben:**
 
-- Nyilvános vezetés.
 - Gyakori átláthatósági jelentések.
 
 ### Marketing
 
-Az általunk ajánlott emailszolgáltatóknál felelős marketinget szeretnénk látni.
+With the email providers we recommend, we like to see responsible marketing.
 
 **Alap elvárások minősítéshez:**
 
-- Saját analitikát kell üzemeltetnie (nem Google Analytics, Adobe Analytics stb.). A szolgáltató webhelyének szintén be kell tartania a [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) kéréseket is, a követést elutasítani kívánó személyek számára.
+- Saját analitikát kell üzemeltetnie (nem Google Analytics, Adobe Analytics stb.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
 
-Nem használhat felelőtlen marketinget:
+Must not have any irresponsible marketing, which can include the following:
 
 - A "feltörhetetlen titkosítás" állítása. A titkosítást úgy kell használni, hogy annak nem titkos jellege is figyelembe legyen véve a jövőben, amikor már rendelkezésre áll a feltörésére alkalmas technológia.
-- Az anonimitás 100%-os védelmének garantálása. Ha valaki azt állítja, hogy valami 100%-os, az azt jelenti, hogy nem merülhet fel meghibásodás. Tudjuk, hogy személyek elég könnyen és számos módon deanonimizálni tudják magukat, pl.:
+- Az anonimitás 100%-os védelmének garantálása. Ha valaki azt állítja, hogy valami 100%-os, az azt jelenti, hogy nem merülhet fel meghibásodás. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
 
     - Olyan személyes adatok újrafelhasználása (pl. e-mail fiókok, egyedi álnevek stb.), amelyekhez anonimitási szoftverek (Tor, VPN stb.) nélkül jutottak hozzá.
     - [Böngésző ujjlenyomatolás](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Legjobb esetben:**
 
-- Letisztult és könnyen érthető dokumentáció. Ez többek között olyan dolgokat foglal magában, mint a kétlépcsős hitelesítés, az e-mail kliensek, vagy az OpenPGP beállítása.
+- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### További funkciók
 

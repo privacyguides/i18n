@@ -10,7 +10,6 @@ global:
     - "table tbody"
 ---
 
-<!-- markdownlint-disable MD024 -->
 אימייל הוא למעשה הכרח לשימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם. דואר אלקטרוני הוא למעשה הכרח שימוש בכל שירות מקוון, אולם איננו ממליצים עליו לשיחות מאדם לאדם.
 
 [מסנג'רים (הודעות מיידיות) מומלצות](real-time-communication.md ""){.md-button}
@@ -55,7 +54,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail לוגו](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** הוא שירות דואר אלקטרוני עם התמקדות בפרטיות, הצפנה, אבטחה וקלות שימוש. הם פועלים מאז **2013**. Proton AG מבוססת בז'נב, שוויץ. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+**Proton Mail** הוא שירות דואר אלקטרוני עם התמקדות בפרטיות, הצפנה, אבטחה וקלות שימוש. They have been in operation since 2013. Proton AG מבוססת בז'נב, שוויץ. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -192,7 +191,7 @@ Mailbox.org כולל תכונת מורשת דיגיטלית לכל התוכני�
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta פועלת מאז **2011** ובסיסה בהאנובר, גרמניה. Free accounts start with 1GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -257,7 +256,7 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 
 ![Mailcow לוגו](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** הוא שרת דואר מתקדם יותר המושלם עבור אלה עם קצת יותר ניסיון בלינוקס. יש לו את כל מה שאתה צריך במיכל Docker: שרת דואר עם תמיכה ב- DKIM, ניטור אנטי וירוס וספאם, דואר אינטרנט ו- ActiveSync עם SOGo, וניהול מבוסס אינטרנט עם תמיכה ב- 2FA.
+**Mailcow** הוא שרת דואר מתקדם יותר המושלם עבור אלה עם קצת יותר ניסיון בלינוקס. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
@@ -306,8 +305,8 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 - תמיכה בתיבת דואר זמנית למשתמשים חיצוניים. פעולה זו שימושית כאשר ברצונך לשלוח דוא"ל מוצפן, מבלי לשלוח עותק בפועל לנמען שלך. למיילים אלה יש בדרך כלל תוחלת חיים מוגבלת ולאחר מכן נמחקות אוטומטית. הם גם לא דורשים מהנמען להגדיר שום קריפטוגרפיה כמו OpenPGP.
 - זמינות שירותי ספק הדואר האלקטרוני באמצעות [שירות onion](https://en.wikipedia.org/wiki/.onion).
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- פונקציונליות של תפוס - הכל או כינוי עבור בעלי דומיינים משלהם.
-- שימוש בפרוטוקולי גישה סטנדרטיים למייל כגון IMAP, SMTP או [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). פרוטוקולי גישה סטנדרטיים מבטיחים שלקוחות יכולים להוריד בקלות את כל האימייל שלהם, אם הם רוצים לעבור לספק אחר.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). פרוטוקולי גישה סטנדרטיים מבטיחים שלקוחות יכולים להוריד בקלות את כל האימייל שלהם, אם הם רוצים לעבור לספק אחר.
 
 ### פרטיות
 
@@ -315,7 +314,7 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 
 **מינימום כדי לעמוד בדרישות:**
 
-- להגן על כתובת ה - IP של השולח. מסנן אותו כך שלא יוצג בשדה `השולח` header.
+- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - אין צורך במידע המאפשר זיהוי אישי (PII) מלבד שם משתמש וסיסמה.
 - מדיניות פרטיות העומדת בדרישות שהוגדרו ב-GDPR.
 
@@ -326,12 +325,12 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 
 ### אבטחה
 
-שרתי דואר אלקטרוני עוסקים בהרבה מאוד נתונים רגישים. אנו מצפים שהספקים יאמצו שיטות עבודה מומלצות בתעשייה כדי להגן על חבריהם.
+שרתי דואר אלקטרוני עוסקים בהרבה מאוד נתונים רגישים. We expect that providers will adopt best industry practices in order to protect their customers.
 
 **מינימום כדי לעמוד בדרישות:**
 
 - הגנה על דואר אינטרנט עם 2FA, כגון TOTP.
-- הצפנת אפס גישה, מתבססת על הצפנה במנוחה. לספק אין את מפתחות הפענוח של הנתונים שברשותו. פעולה זו מונעת מעובד שסרח להדליף נתונים שיש לו גישה אליהם או מיריב מרחוק לשחרר נתונים שגנב על ידי השגת גישה בלתי מורשית לשרת.
+- Zero access encryption, which builds on encryption at rest. לספק אין את מפתחות הפענוח של הנתונים שברשותו. פעולה זו מונעת מעובד שסרח להדליף נתונים שיש לו גישה אליהם או מיריב מרחוק לשחרר נתונים שגנב על ידי השגת גישה בלתי מורשית לשרת.
 - תמיכה ב [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - העדפת חבילת שרתים (אופציונלית ב-TLSv1.3) עבור חבילות צופן חזקות התומכות בסודיות קדימה ובהצפנה מאומתת.
@@ -344,13 +343,14 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 - תקני אבטחת אתר אינטרנט כגון:
     - [אבטחת תעבורה קפדנית של HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - שלמות [תת - מקור](https://en.wikipedia.org/wiki/Subresource_Integrity) אם מעמיסים דברים מדומיינים חיצוניים.
-- חייב לתמוך בהצגה של [כותרות הודעות](https://en.wikipedia.org/wiki/Email#Message_header), מכיוון שזוהי תכונה משפטית חיונית כדי לקבוע אם הודעת דואר אלקטרוני היא ניסיון דיוג.
+- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
 **המקרה הטוב ביותר:**
 
-- תמיכה באימות חומרה, כלומר. U2F ו - [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). U2F ו - WebAuthn מאובטחים יותר כאשר הם משתמשים במפתח פרטי המאוחסן בהתקן חומרה בצד הלקוח כדי לאמת אנשים, בניגוד לסוד משותף המאוחסן בשרת האינטרנט ובצד הלקוח בעת שימוש ב - TOTP. יתר על כן, U2F ו- WebAuthn עמידים יותר בפני דיוג מכיוון שתגובת האימות שלהם מבוססת על האימות [שם הדומיין](https://en.wikipedia.org/wiki/Domain_name).
+- תמיכה באימות חומרה, כלומר. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [אישור רשות ההסמכה של DNS (CAA) רשומת משאבים](https://tools.ietf.org/html/rfc6844) בנוסף לתמיכת DANE.
-- יישום של [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), זה שימושי עבור אנשים שמפרסמים לרשימות דיוור [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- פירסם ביקורות אבטחה מחברת צד שלישי מכובדת.
 - תוכניות לחיפוש באגים ו/או תהליך גילוי - פגיעות מתואם.
 - תקני אבטחת אתר אינטרנט כגון:
     - [מדיניות אבטחת תוכן (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -366,28 +366,27 @@ Tuta אינו מציע תכונה מורשת דיגיטלית.
 
 **המקרה הטוב ביותר:**
 
-- מנהיגות מול הציבור.
 - דוחות שקיפות תכופים.
 
 ### שיווק
 
-עם ספקי הדוא"ל אנו ממליצים לראות שיווק אחראי.
+With the email providers we recommend, we like to see responsible marketing.
 
 **מינימום כדי לעמוד בדרישות:**
 
-- חייב לארח ניתוח עצמי (ללא Google Analytics, Adobe Analytics וכו'). האתר של הספק חייב גם לציית ל [DNT (לא לעקוב)](https://en.wikipedia.org/wiki/Do_Not_Track) למי שרוצה לבטל את הסכמתו.
+- חייב לארח ניתוח עצמי (ללא Google Analytics, Adobe Analytics וכו'). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
 
-אסור שיהיה שיווק שהוא חסר אחריות:
+Must not have any irresponsible marketing, which can include the following:
 
 - טענות של "הצפנה בלתי שבירה " יש להשתמש בהצפנה מתוך כוונה שהיא לא תהיה סודית בעתיד כאשר הטכנולוגיה קיימת כדי לפצח אותה.
-- ביצוע ערבויות של הגנה על 100% אנונימיות. כשמישהו טוען שמשהו הוא 100% זה אומר שאין ודאות לכישלון. אנחנו יודעים שאנשים יכולים בקלות להפוך את עצמם לאיאנונימיים במספר דרכים, למשל.:
+- ביצוע ערבויות של הגנה על 100% אנונימיות. כשמישהו טוען שמשהו הוא 100% זה אומר שאין ודאות לכישלון. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
 
     - שימוש חוזר במידע אישי, למשל. (חשבונות אימיילים, שמות בדויים ייחודיים וכו') שאליהם הם ניגשו ללא תוכנת אנונימיות (Tor, VPN וכו')
     - [טביעת אצבע של דפדפן](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **המקרה הטוב ביותר:**
 
-- ברור וקל לקריאה. זה כולל דברים כמו, הגדרת 2FA, קליינט דוא"ל, OpenPGP וכו '.
+- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### פונקציונליות נוספת
 

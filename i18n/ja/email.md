@@ -10,7 +10,6 @@ global:
     - "table tbody"
 ---
 
-<!-- markdownlint-disable MD024 -->
 実質的に、電子メールはどんなオンラインサービスを使うにも必要ですが、個人間での会話にはお勧めしません。 他人との連絡には電子メールを使うよりも、前方秘匿性のあるインスタントメッセンジャの使用を検討してください。
 
 [おすすめのインスタントメッセンジャー](real-time-communication.md ""){.md-button}
@@ -55,7 +54,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** は、プライバシー、暗号化、セキュリティ、使いやすさを重視したメールサービスです。 2013年から運営をされています。 Proton AGはスイスのジュネーブに拠点を置いています。 The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+**Proton Mail** は、プライバシー、暗号化、セキュリティ、使いやすさを重視したメールサービスです。 They have been in operation since 2013. Proton AGはスイスのジュネーブに拠点を置いています。 The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -192,7 +191,7 @@ Mailbox.orgの全てのプランにはデジタル遺産機能があります。
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since **2011** and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -257,7 +256,7 @@ Advanced system administrators may consider setting up their own email server. M
 
 ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: A mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+**Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
@@ -306,8 +305,8 @@ We regard these features as important in order to provide a safe and optimal ser
 - Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Catch-all or alias functionality for those who own their own domains.
-- Use of standard email access protocols such as IMAP, SMTP or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### プライバシー
 
@@ -315,7 +314,7 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **最低条件：**
 
-- 送信者IPアドレスを保護している。 `Received`ヘッダーフィールドに表示されないようフィルターしている。
+- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - ユーザー名とパスワード以外に、個人情報(PII)を必要としない。
 - プライバシーポリシーがGDPRの要件を満たしている。
 
@@ -326,12 +325,12 @@ We regard these features as important in order to provide a safe and optimal ser
 
 ### セキュリティー
 
-メールサーバーは、非常に機密性の高いデータを大量に扱います。 私たちは、プロバイダーがユーザーを保護するために最も優れた業界の慣行を採用することを期待します。
+メールサーバーは、非常に機密性の高いデータを大量に扱います。 We expect that providers will adopt best industry practices in order to protect their customers.
 
 **最低条件：**
 
 - TOTPなどの二要素認証によるウェブメールの保護。
-- Zero access encryption, builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- Zero access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)のサポート。
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
@@ -344,13 +343,14 @@ We regard these features as important in order to provide a safe and optimal ser
 - 以下のようなウェブサイトのセキュリティ基準：
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [Message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
 **満たされることが望ましい基準：**
 
-- ハードウェア認証のサポート、つまり U2Fと[WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)。 U2F and WebAuthn are more secure as they use a private key stored on a client-side hardware device to authenticate people, as opposed to a shared secret that is stored on the web server and on the client side when using TOTP. Furthermore, U2F and WebAuthn are more resistant to phishing as their authentication response is based on the authenticated [domain name](https://en.wikipedia.org/wiki/Domain_name).
+- ハードウェア認証のサポート、つまり U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), this is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- 信頼できる第三者機関によるセキュリティ監査を公表
 - バグ報奨金プログラム、協調的な脆弱性開示プロセス。
 - 以下のようなウェブサイトのセキュリティ基準：
     - [コンテンツセキュリティポリシー（CSP）](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -366,28 +366,27 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **満たされることが望ましい基準：**
 
-- 公的なリーダーシップ。
 - 頻繁な透明性レポート。
 
 ### マーケティング
 
-私たちが推奨する電子メールプロバイダーには、責任あるマーケティングを求めます。
+With the email providers we recommend, we like to see responsible marketing.
 
 **最低条件：**
 
-- アナリティクスを自己でホストすること（つまり、GoogleアナリティクスやAdobe Analyticsなどは不可）。 プロバイダーのサイトは、オプトアウトを希望するユーザーのために[DNT（Do Not Track）](https://en.wikipedia.org/wiki/Do_Not_Track)に準拠しなければなりません。
+- アナリティクスを自己でホストすること（つまり、GoogleアナリティクスやAdobe Analyticsなどは不可）。 The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
 
-無責任なマーケティングを行わないこと。
+Must not have any irresponsible marketing, which can include the following:
 
 - 「破れない暗号化」という主張。 暗号化は、その暗号化を破る技術が将来になって現れた際には、それがもはや秘密ではなくなってしまうかもしれないということを念頭に置いて使用されるべきものです。
-- 匿名性を100％保証するという主張。 誰かが何かを100％だと主張するとき、それは失敗の確実性が全く存在しないということを意味します。 私たちは、人々が以下のような多くの方法で簡単に匿名化を解除できることを知っています。
+- 匿名性を100％保証するという主張。 誰かが何かを100％だと主張するとき、それは失敗の確実性が全く存在しないということを意味します。 We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
 
     - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [ブラウザーのフィンガープリンティングを行うこと。](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **満たされることが望ましい基準：**
 
-- 明確で読みやすいドキュメント。 これには、2FAの設定、電子メールクライアント、OpenPGPなどが含まれます。
+- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### 追加機能
 
