@@ -191,7 +191,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta har varit verksamt sedan 2011 och har sitt säte i Hannover, Tyskland. Free accounts start with 1GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -347,7 +347,7 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **Best Case:**
 
-- Support for hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Support for hardware authentication, i.e. U2F och [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Published security audits from a reputable third-party firm.
@@ -386,7 +386,7 @@ Must not have any irresponsible marketing, which can include the following:
 
 **Best Case:**
 
-- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Tydlig och lättläst dokumentation för uppgifter som att ställa in 2FA, e-postklienter, OpenPGP, etc.
 
 ### Additional Functionality
 

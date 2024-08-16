@@ -108,7 +108,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta har varit verksamt sedan 2011 och har sitt säte i Hannover, Tyskland. Free accounts start with 1GB of storage.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#tuta)
 
