@@ -2,13 +2,13 @@
 meta_title: "Datenschutzfreundliche Webbrowser für PC und Mac - Privacy Guides"
 title: "Desktop Browser"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: Diese datenschutzfreundlichen Browser empfehlen wir derzeit für das normale/nicht anonyme Surfen auf Desktop-Systemen.
 cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop-Browser Empfehlungen
+    name: Empfehlungen für private Desktop-Browser
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -57,13 +57,13 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Dies sind die von uns derzeit empfohlenen **Desktop-Webbrowser** und Konfigurationen für das standardmäßige/nicht anonyme Surfen. Wir empfehlen [Mullvad Browser](#mullvad-browser) wenn du Wert auf starken Datenschutz und Anti-Fingerprinting legst, [Firefox](#firefox) für gelegentliche Internetnutzer, die eine gute Alternative zu Google Chrome suchen, und [Brave](#brave) wenn du Chromium-Browser-Kompatibilität benötigst.
+Dies sind die von uns derzeit empfohlenen **Desktop-Webbrowser** und Konfigurationen für das normale/nicht anonyme Surfen. Wir empfehlen [Mullvad Browser](#mullvad-browser) wenn du Wert auf starken Datenschutz und Anti-Fingerprinting legst, [Firefox](#firefox) für gelegentliche Internetnutzer, die eine gute Alternative zu Google Chrome suchen, und [Brave](#brave) wenn du Chromium-Browser-Kompatibilität benötigst.
 
-Wenn du anonym im Internet surfen möchtest, solltest du stattdessen [Tor](tor.md) verwenden. Wir geben einige Konfigurationsempfehlungen, aber bei allen Browsern außer Tor wirst du von *irgendjemandem* auf die eine oder andere Weise zurückverfolgt werden können.
+Wenn du anonym im Internet surfen möchtest, solltest du stattdessen [Tor](tor.md) verwenden. Auf dieser Seite finden Sie einige Konfigurationsempfehlungen, aber beachten Sie bitte, dass alle anderen Browser als der Tor Browser von *Dritten* auf die eine oder andere Weise zurückverfolgt werden können.
 
 ## Mullvad Browser
 
@@ -71,7 +71,7 @@ Wenn du anonym im Internet surfen möchtest, solltest du stattdessen [Tor](tor.m
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** ist eine Version von [Tor Browser](tor.md#tor-browser), bei der die Tor-Netzwerk-Integrationen entfernt wurden. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Es wird vom Tor-Projekt entwickelt, von [Mullvad](vpn.md#mullvad) vertrieben, erfordert aber **nicht** die Verwendung von Mullvads VPN.
+**Mullvad Browser** ist eine Version des [Tor Browsers](tor.md#tor--browser), bei der die Tor-Netzwerk-Integrationen entfernt wurden. Es zielt darauf ab, VPN-Nutzern die Anti-Fingerprinting-Browsertechnologien des Tor-Browsers zur Verfügung zu stellen, die ein wichtiger Schutz gegen [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }sind. Es wird vom Tor-Projekt entwickelt und von [Mullvad](vpn.md#mullvad) vertrieben und erfordert **nicht** die Verwendung des VPN von Mullvad.
 
 [:octicons-home-16: Homepage](https://mullvad.net/de/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/de/help/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
@@ -81,15 +81,15 @@ Wenn du anonym im Internet surfen möchtest, solltest du stattdessen [Tor](tor.m
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
-- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/de/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/de/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/de/download/browser/linux)
 
 </details>
 
 </div>
 
-Wie der [Tor Browser](tor.md) ist Mullvad Browser so konzipiert, dass er Fingerprinting verhindert, indem er deinen Browser-Fingerabdruck mit dem aller anderen Mullvad Browser-Benutzer identisch macht. Außerdem wird er mit Starndard-Einstellungen und -Erweiterungen ausgeliefert, die automatisch an die drei vorkonfigurierten Sicherheitsstufen angepasst werden: *Standard*, *Sicherer* und *Am Sichersten*. Daher ist es zwingend erforderlich, dass du den Browser in keiner Weise modifizierst, abgesehen von der Anpassung der [Standard-Sicherheitsstufen](https://tb-manual.torproject.org/security-settings). Andere Änderungen würden Ihren Fingerabdruck einzigartig machen und damit den Zweck dieses Browsers zunichtemachen. Wenn du deinen Browser stärker konfigurieren möchtest und Fingerprinting für dich kein Thema ist, empfehlen wir stattdessen [Firefox](#firefox).
+Wie der [Tor Browser](tor.md) ist auch der Mullvad Browser so konzipiert, dass der Fingerabdruck Ihres Browsers mit dem aller anderen Mullvad Browser-Benutzer identisch ist (Anti-Fingerprinting). Dies beinhaltet die Standardeinstellungen und -erweiterungen, die automatisch durch die Standard-Sicherheitsstufen konfiguriert werden können: *Standard*, *Sicherer* und *Am Sichersten*. Daher ist es zwingend erforderlich, dass Sie den Browser in keiner Weise verändern, abgesehen von der Anpassung der [Standard-Sicherheitsstufen](https://tb-manual.torproject.org/security-settings). Andere Änderungen würden Ihren Fingerabdruck einzigartig machen und damit den Zweck dieses Browsers zunichtemachen. Wenn Sie Ihren Browser stärker konfigurieren möchten und Fingerprinting für Sie keine Rolle spielt, empfehlen wir stattdessen [Firefox](#firefox).
 
 ### Anti-Fingerprinting
 
