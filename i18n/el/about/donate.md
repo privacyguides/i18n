@@ -24,6 +24,11 @@ A new donation platform we control to make donating easier will be deployed soon
 
 Η κίνηση σε αυτόν τον ιστότοπο χρησιμοποιεί εκατοντάδες gigabytes δεδομένων το μήνα, χρησιμοποιούμε διάφορους παρόχους υπηρεσιών για να συμβαδίζουμε με αυτή την κίνηση.
 
+**Payroll**
+:
+
+We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+
 **Domain Registrations**
 :
 

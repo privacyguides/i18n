@@ -8,7 +8,7 @@ In general the [United States federal plain language guidelines](https://plainla
 
 ## 청중을 위한 글쓰기
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. 중학생에게 설명하는 것처럼 쉽게 설명할 필요는 없지만, 일반 컴퓨터 사용자에게 익숙치 않은 개념을 설명할 때 어려운 용어를 남용해서도 안 됩니다.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. 중학생에게 설명하는 것처럼 쉽게 설명할 필요는 없지만, 일반 컴퓨터 사용자에게 익숙치 않은 개념을 설명할 때 어려운 용어를 남용해서도 안 됩니다.
 
 ### 사람들이 알고 싶어 하는 내용만 다루세요
 

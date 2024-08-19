@@ -13,13 +13,13 @@ Privacy Guides는 기능 테스트 목적을 비롯해, 훌륭한 분산형/연�
 ## Gitea
 
 - 도메인: [code.privacyguides.dev](https://code.privacyguides.dev)
-- Availability: Invite-Only Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
+- Availability: Invite-Only. Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
 - 소스 코드: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - 도메인: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Availability: Invite-Only Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
+- Availability: Invite-Only. Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
 - 소스 코드: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
@@ -27,9 +27,3 @@ Privacy Guides는 기능 테스트 목적을 비롯해, 훌륭한 분산형/연�
 - 도메인: [search.privacyguides.net](https://search.privacyguides.net)
 - 제공 범위: 전체 공개
 - 소스 코드: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
-
-## Invidious
-
-- 도메인: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Availability: Semi-Public We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
-- 소스 코드: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

@@ -24,6 +24,11 @@ Privacy Guides는 **비영리** 단체입니다. Privacy Guides는 후원금을 
 
 본 사이트는 매달 수백 기가바이트의 트래픽이 발생합니다. Privacy Guides는 사이트 트래픽을 처리하기 위해 다양한 서비스 제공 업체를 이용합니다.
 
+**Payroll**
+:
+
+We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+
 **Domain Registrations**
 :
 

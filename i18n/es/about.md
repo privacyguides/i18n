@@ -21,9 +21,31 @@ schema:
 
 **Privacy Guides** es un sitio web socialmente motivado que proporciona información para proteger la seguridad y privacidad de tus datos. Somos un proyecto sin fines de lucro con la misión de informar al público sobre el valor de la privacidad en línea y sobre las iniciativas gubernamentales digitales que pretenden vigilar tu actividad en línea. Nuestro sitio web no tiene anuncios y no está asociado con alguno de los proveedores listados.
 
-[:octicons-heart-16:{.pg-red} Realiza una donación](about/donate.md){ .md-button .md-button--primary }
-[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Página principal }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código fuente" }
+[:material-heart:{.pg-red} Make a Donation](about/donate.md){ .md-button .md-button--primary }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+
+## Staff
+
+[**Jonah Aragon**](https://www.jonaharagon.com) is the Project Director and staff writer at _Privacy Guides_. His role includes researching and writing for this website, system administration, creating _Privacy Guides Online Learning_ course content, reviewing the products recommended here, and most other day-to-day tasks.
+
+<div class="grid" markdown>
+
+[:simple-discourse: Discourse (preferred): @jonah](https://discuss.privacyguides.net/u/jonah)
+
+[:material-email: Email: jonah@privacyguides.org](mailto:jonah@privacyguides.org)
+
+[:simple-mastodon: Mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
+
+[:simple-signal: Signal: @jonah.01](https://signal.me/#eu/dDtlmTPv09utyEJPwCHq8UYs-AVOPlys8weinr7alfdylK5G-LNIX7GasDNJdV6y)
+
+</div>
+
+_The Project Director is a part-time position which reports directly to the executive committee._
+
+---
+
+[Open Positions :material-arrow-right-drop-circle:](about/jobs.md)
 
 ## Comité ejecutivo
 
@@ -32,13 +54,6 @@ schema:
 El comité ejecutivo del proyecto está conformado por cinco voluntarios encargados de la gestión del [Fondo MAGIC de Privacy Guides](https://magicgrants.org/funds/privacy_guides), que toman la mayoría de las decisiones importantes relacionadas con el proyecto.
 
 <div class="grid cards" markdown>
-<!--  Every team member should have a unique emoji.
-      Team member cards should include ONLY the following links:
-      - Discourse Profile
-      - ONE Link of team member's choice
-      - Email if applicable
-      This is to keep it fair and not spammy, especially as we grow.
--->
 
 - :polar_bear:{ .lg .middle } **Daniel Gray**
 
@@ -68,7 +83,7 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   ---
 
-  :material-text-account: Fundador
+  :material-text-account: Founder, Director
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/jonah)
 
@@ -92,7 +107,7 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   ---
 
-  :material-text-account: Fundadora
+  :material-text-account: Fundador
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/olivia)
 

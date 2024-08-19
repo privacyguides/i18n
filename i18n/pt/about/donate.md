@@ -24,6 +24,11 @@ O Privacy Guides é uma organização **sem fins lucrativos**. Utilizamos os don
 
 O tráfego originado pelo acesso ao nosso site gera centenas de gigabytes de dados por mês. Para lidar com esta quantidade de tráfego, usamos vários fornecedores de serviços.
 
+**Payroll**
+:
+
+We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+
 **Domain Registrations**
 :
 

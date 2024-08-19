@@ -8,7 +8,7 @@ In generale, le [linee guida federali per il linguaggio semplice degli Stati Uni
 
 ## Scrivere per il nostro pubblico
 
-Il [pubblico](https://plainlanguage.gov/guidelines/audience) inteso di Privacy Guides è per lo più composto da adulti medi che utilizzano la tecnologia. Non sminuire i contenuti come se ti stessi rivolgendo a una classe delle medie ma, al contempo, non esagerare con le terminologie complicate su conctti che, gli utilizzatori medi di computer, non sarebbero familiari.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. Non sminuire i contenuti come se ti stessi rivolgendo a una classe delle medie ma, al contempo, non esagerare con le terminologie complicate su conctti che, gli utilizzatori medi di computer, non sarebbero familiari.
 
 ### Spiega solo ciò che le persone vogliono sapere
 

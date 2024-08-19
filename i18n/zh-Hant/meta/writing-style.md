@@ -8,7 +8,7 @@ Privacy Guides 以美式英語書寫，如有疑問，請參閱[美國心理學�
 
 ## 為我們的觀眾寫作
 
-Privacy Guides 預設的 [讀者群](https://plainlanguage.gov/guidelines/audience) 為一般使用科技的成年人。 不要把內容說得好像是在對國中生講課一樣，但也不要過度使用複雜的專業術語，因為一般電腦使用者對這些概念並不熟悉。
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. 不要把內容說得好像是在對國中生講課一樣，但也不要過度使用複雜的專業術語，因為一般電腦使用者對這些概念並不熟悉。
 
 ### 只探討人們想知道的內容
 

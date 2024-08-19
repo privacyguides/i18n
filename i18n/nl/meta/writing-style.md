@@ -8,7 +8,7 @@ In general the [United States federal plain language guidelines](https://plainla
 
 ## Schrijven voor ons publiek
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Verlaag de inhoud niet alsof je een middelbare schoolklas toespreekt, maar gebruik niet te veel ingewikkelde terminologie over concepten waarmee de gemiddelde computergebruiker niet vertrouwd is.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. Verlaag de inhoud niet alsof je een middelbare schoolklas toespreekt, maar gebruik niet te veel ingewikkelde terminologie over concepten waarmee de gemiddelde computergebruiker niet vertrouwd is.
 
 ### Ga alleen in op wat mensen willen weten
 

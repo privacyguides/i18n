@@ -13,13 +13,13 @@
 ## Gitea
 
 - דומיין: [code.privacyguides.dev](https://code.privacyguides.dev)
-- Availability: Invite-Only Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
+- Availability: Invite-Only. Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
 - מקור: [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - דומיין: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Availability: Invite-Only Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
+- Availability: Invite-Only. Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
 - מקור: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
@@ -27,9 +27,3 @@
 - דומיין: [search.privacyguides.net](https://search.privacyguides.net)
 - זמינות: ציבורית
 - מקור: [github.com/searxng/searxng-docker](https://github.com/searxng/searxng-docker)
-
-## Invidious
-
-- דומיין: [invidious.privacyguides.net](https://invidious.privacyguides.net)
-- Availability: Semi-Public We host Invidious primarily to serve embedded YouTube videos on our website, this instance is not intended for general-purpose use and may be limited at any time.
-- מקור: [github.com/iv-org/invidious](https://github.com/iv-org/invidious)

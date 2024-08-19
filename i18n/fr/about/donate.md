@@ -24,6 +24,11 @@ Privacy Guides est une **organisation à but non lucratif** . Nous utilisons les
 
 Plusieurs centaines de gigaoctets de trafic sont générés sur ce site chaque mois. Nous faisons appel à différents fournisseurs de services pour gérer ce trafic.
 
+**Payroll**
+:
+
+We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+
 **Domain Registrations**
 :
 

@@ -24,6 +24,11 @@ A new donation platform we control to make donating easier will be deployed soon
 
 本网站的流量每月使用数百千兆字节的数据，我们使用各种服务提供商来跟上这种流量。
 
+**Payroll**
+:
+
+We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+
 **Domain Registrations**
 :
 

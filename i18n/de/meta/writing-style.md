@@ -8,7 +8,7 @@ In general the [United States federal plain language guidelines](https://plainla
 
 ## Schreiben für unser Publikum
 
-Die [Zielgruppe](https://plainlanguage.gov/guidelines/audience) der Privacy Guides sind in erster Linie ganz normale Erwachsene mit einer gewissen Technikaffinität. Vereinfache den Inhalt nicht zu sehr, als würdest du dich an eine Schulklasse wenden, aber verwende auch nicht zu viele komplizierte Begriffe für Konzepte, mit denen der durchschnittliche Computerbenutzer nicht vertraut ist.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. Vereinfache den Inhalt nicht zu sehr, als würdest du dich an eine Schulklasse wenden, aber verwende auch nicht zu viele komplizierte Begriffe für Konzepte, mit denen der durchschnittliche Computerbenutzer nicht vertraut ist.
 
 ### Nur das ansprechen, was die Leute wissen wollen
 

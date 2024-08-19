@@ -24,6 +24,11 @@ Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目�
 
 本網站的流量每月使用大約是數百 GB，我們使用各種服務提供商來提供流量。
 
+**Payroll**
+:
+
+We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+
 **網域註冊**
 :
 

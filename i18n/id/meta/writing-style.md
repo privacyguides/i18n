@@ -8,7 +8,7 @@ In general the [United States federal plain language guidelines](https://plainla
 
 ## Menulis untuk audiens kami
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Jangan membuat konten yang bodoh seolah-olah Anda sedang berbicara kepada kelas sekolah menengah, tetapi jangan terlalu sering menggunakan terminologi yang rumit tentang konsep yang tidak dipahami oleh pengguna komputer pada umumnya.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. Jangan membuat konten yang bodoh seolah-olah Anda sedang berbicara kepada kelas sekolah menengah, tetapi jangan terlalu sering menggunakan terminologi yang rumit tentang konsep yang tidak dipahami oleh pengguna komputer pada umumnya.
 
 ### Sampaikan hanya apa yang ingin diketahui oleh orang lain
 

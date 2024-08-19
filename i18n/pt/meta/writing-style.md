@@ -8,7 +8,7 @@ In general the [United States federal plain language guidelines](https://plainla
 
 ## Escreva para o nosso público
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily average, technology using adults. Não assuma uma postura diletante, simplificando o conteúdo como se estivesse a dirigir-se a uma turma do ensino básico ou médio. Contudo, não use terminologia demasiado complicada, sobretudo quando estão em causa conceitos com os quais os utilizadores comuns não estão familiarizados.
+Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. Não assuma uma postura diletante, simplificando o conteúdo como se estivesse a dirigir-se a uma turma do ensino básico ou médio. Contudo, não use terminologia demasiado complicada, sobretudo quando estão em causa conceitos com os quais os utilizadores comuns não estão familiarizados.
 
 ### Aborde apenas o que as pessoas querem saber
 

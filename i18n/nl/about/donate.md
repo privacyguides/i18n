@@ -24,6 +24,11 @@ Privacy Guides is een **non-profit** organisatie. Wij gebruiken donaties voor ve
 
 Het verkeer naar deze website verbruikt honderden gigabytes aan gegevens per maand, wij maken gebruik van verschillende dienstverleners om dit verkeer bij te houden.
 
+**Payroll**
+:
+
+We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+
 **Domain Registrations**
 :
 
