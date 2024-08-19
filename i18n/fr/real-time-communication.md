@@ -97,7 +97,7 @@ Nous avons quelques conseils supplémentaires pour configurer et renforcer votre
 
 SimpleX Chat [a été audité](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) par Trail of Bits en Octobre 2022.
 
-SimpleX Chat prend en charge les fonctionnalités de base des conversations de groupe, des messages directs et de l'édition de messages et du markdown. Les appels audio et vidéo E2EE sont également pris en charge. Vos données peuvent être exportées et importées sur un autre appareil, car il n'y a pas de serveur central où elles sont sauvegardées.
+SimpleX Chat prend en charge les fonctionnalités de base des conversations de groupe, des messages directs et de l'édition de messages et du markdown. Les appels audio et vidéo E2EE sont également pris en charge. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
 
 ### Briar
 
@@ -148,9 +148,9 @@ Ces messageries instantanées ne disposent pas de la confidentialité persistant
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the reference [client](https://matrix.org/ecosystem/clients) for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
+**Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
-Les messages et les fichiers partagés dans les salons privés (ceux qui nécessitent une invitation) sont par défaut E2EE, tout comme les appels vocaux et vidéo individuels.
+Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
@@ -174,7 +174,7 @@ Les messages et les fichiers partagés dans les salons privés (ceux qui nécess
 
 Les photos de profil, les réactions et les surnoms ne sont pas chiffrés.
 
-Les appels vocaux et vidéo de groupe ne sont [pas](https://github.com/vector-im/element-web/issues/12878) E2EE, et utilisent Jitsi, mais cela devrait changer avec [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Les appels de groupe n'ont [pas d'authentification](https://github.com/vector-im/element-web/issues/13074) actuellement, ce qui signifie que les participants ne faisant pas partie de la salle peuvent également se joindre aux appels. Nous vous recommandons de ne pas utiliser cette fonctionnalité pour les réunions privées.
+Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Les appels de groupe n'ont [pas d'authentification](https://github.com/vector-im/element-web/issues/13074) actuellement, ce qui signifie que les participants ne faisant pas partie de la salle peuvent également se joindre aux appels. Nous vous recommandons de ne pas utiliser cette fonctionnalité pour les réunions privées.
 
 Le protocole Matrix lui-même [prend théoriquement en charge la confidentialité persistante](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], mais elle [n'est pas prise en charge par Element pour le moment](https://github.com/vector-im/element-web/issues/7101) car elle rompt certains aspects de l'expérience utilisateur tels que la sauvegarde des clés et l'historique des messages partagés.
 
@@ -213,7 +213,9 @@ Session permet le E2EE dans les chats individuels ou des groupes fermés pouvant
 
 Session était auparavant basée sur le protocole Signal avant d'être remplacée par son propre protocole en décembre 2020. Le protocole de Session ne prend [pas](https://getsession.org/blog/session-protocol-technical-information) en charge la confidentialité persistante.[^1]
 
-Oxen a demandé un audit indépendant pour Session en mars 2020. L'audit [s'est conclu](https://getsession.org/session-code-audit) en avril 2021 : "Le niveau de sécurité global de cette application est bon et la rend utilisable pour les personnes soucieuses de la protection de leur vie privée."
+Oxen a demandé un audit indépendant pour Session en mars 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
+
+> The overall security level of this application is good and makes it usable for privacy-concerned people.
 
 Session a un [livre blanc](https://arxiv.org/pdf/2002.04609.pdf) décrivant les spécifications techniques de l'application et du protocole.
 

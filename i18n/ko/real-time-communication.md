@@ -97,7 +97,7 @@ Signal 설치 구성 및 보안 강화 관련 도움말이 필요하신 분은 �
 
 SimpleX Chat 보안 감사는 Trail of Bits이 2022년 10월에 [진행하였습니다](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html).
 
-SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE 음성 및 영상 통화 또한 지원됩니다. 여러분은 데이터를 내보내고 다른 기기에서 해당 데이터를 가져올 수 있습니다. Simplex Chat은 데이터가 백업되는 중앙 서버가 존재하지 않습니다.
+SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE 음성 및 영상 통화 또한 지원됩니다. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
 
 ### Briar
 
@@ -148,9 +148,9 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the reference [client](https://matrix.org/ecosystem/clients) for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
+**Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
-비공개 대화방(초대가 필요한 대화방)에서 이루어지는 메시지 및 파일 공유는 기본적으로 E2EE가 적용되며, 일대일 음성 및 영상 통화도 마찬가지입니다.
+Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
@@ -174,7 +174,7 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 프로필 사진, 메시지 반응, 닉네임은 암호화가 적용되지 않습니다.
 
-그룹 음성 및 영상 통화에는 E2EE가 [아닌](https://github.com/vector-im/element-web/issues/12878), Jitsi를 사용합니다. 단, 이는 추후 [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401)으로 변경될 예정입니다. 현재 그룹 통화는 인증 과정을 거치지 [않습니다](https://github.com/vector-im/element-web/issues/13074). 즉, 룸 참가자가 아닌 사람도 통화에 난입하는 것이 가능합니다. 사적인 모임에서는 해당 기능을 사용하지 않는 것이 좋습니다.
+Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). 현재 그룹 통화는 인증 과정을 거치지 [않습니다](https://github.com/vector-im/element-web/issues/13074). 즉, 룸 참가자가 아닌 사람도 통화에 난입하는 것이 가능합니다. 사적인 모임에서는 해당 기능을 사용하지 않는 것이 좋습니다.
 
 The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
@@ -213,7 +213,9 @@ Session은 일대일 채팅 및 최대 100명까지 참여 가능한 비공개 �
 
 Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
+
+> The overall security level of this application is good and makes it usable for privacy-concerned people.
 
 Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 

@@ -97,7 +97,7 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 
 SimpleX Chat 於2022年10月接受 Trail of Bits [審計](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) 。
 
-SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式編輯。 也支持 E2EE 音頻和視頻通話。 您可以匯出資料，並匯入到另一個設備，因為沒有中央伺服器備份。
+SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式編輯。 也支持 E2EE 音頻和視頻通話。 Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
 
 ### Briar
 
@@ -148,9 +148,9 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 
 ![Element logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** 是 [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) 協議的參考[用戶端](https://matrix.org/ecosystem/clients/) ，這是一個 [開放標準](https://spec.matrix.org/latest) 、安全去中心化實時通訊。
+**Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
 
-在私人聊天室（需透過邀請加入）共享的訊息和文件預設為 E2EE ，一對一的語音和視訊通話也是如此。
+Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
@@ -174,7 +174,7 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 
 個人資料圖片、反應和暱稱不會加密。
 
-羣組語音和視視通話 [則不是](https://github.com/vector-im/element-web/issues/12878) E2EE ，而是使用Jitsi ，但預計將隨著 [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401)而發生變化。 群組通目前 [沒有驗證](https://github.com/vector-im/element-web/issues/13074) ，因此其它人員也可以加入。 我們建議您不要將此功能用於私人會議。
+Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). 群組通目前 [沒有驗證](https://github.com/vector-im/element-web/issues/13074) ，因此其它人員也可以加入。 我們建議您不要將此功能用於私人會議。
 
 Matrix 協議本身[理論上支持前向保密](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy) [^1]，但[ Element 目前不支援](https:/ / github.com/vector-im/element-web/issues/7101)，因為會破壞某方面的使用者體驗，例如金鑰備份和共享訊息歷史記錄。
 
@@ -213,7 +213,9 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 
 Session 先前基於 Signal 協議，並於 2020 年 12 月替換為自己的協議。 Session 協議[不](https://getsession.org/blog/session-protocol-technical-information)支持前向保密。<sup id="fnref3:1"><a href= "#fn:1" class="footnote-ref">1</a></sup>
 
-2020年3月Oxen 對 Session 進行獨立審計。 審計 [在2021年4月完成](https://getsession.org/session-code-audit) ， “此應用程式整體安全級別良好，可供關注隱私的人使用。
+2020年3月Oxen 對 Session 進行獨立審計。 The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
+
+> The overall security level of this application is good and makes it usable for privacy-concerned people.
 
 Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程式和協議的技術。
 
