@@ -97,7 +97,7 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 
 SimpleX Chat 於2022年10月接受 Trail of Bits [審計](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) 。
 
-SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式編輯。 也支持 E2EE 音頻和視頻通話。 Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
+SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式編輯。 也支持 E2EE 音頻和視頻通話。 您的資料可以匯出或匯入另一部裝置，因為沒有中央伺服器備份這些資料。
 
 ### Briar
 
@@ -146,9 +146,9 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/messengers/element.svg){ align=right }
+![Element標誌](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
+**Element** 是[Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) 通訊協定的旗艦用戶端，該協定是安全分散式即時通訊的[開放標準](https://spec.matrix.org/latest)。
 
 Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
 
