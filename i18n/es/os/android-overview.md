@@ -2,6 +2,7 @@
 title: Vista General de Android
 icon: simple/android
 description: Android es un sistema operativo de código abierto con fuertes medidas de seguridad, lo que lo convierte en nuestra primera opción para teléfonos.
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 ![Logotipo de Android](../assets/img/android/android.svg){ align=right }

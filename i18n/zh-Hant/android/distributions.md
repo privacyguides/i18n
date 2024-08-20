@@ -29,6 +29,7 @@ schema:
       "@context": http://schema.org
       "@type": 網頁
       url: ./
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 <small>Protects against the following threat(s):</small>

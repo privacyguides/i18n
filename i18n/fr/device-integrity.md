@@ -3,6 +3,7 @@ title: Intégrité de l'appareil
 icon: material/security
 description: Ces outils peuvent être utilisés pour vérifier que vos appareils ne sont pas compromis.
 cover: device-integrity.webp
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 Ces outils peuvent être utilisés pour valider l'intégrité de vos appareils mobiles et vérifier s'ils présentent des indicateurs de compromission par des logiciels espions et malveillants tels que Pegasus, Predator ou KingsPawn. Cette page se concentre sur la **sécurité mobile**, car les appareils mobiles ont généralement des systèmes en lecture seule avec des configurations bien connues, de sorte que la détection de modifications malveillantes est plus facile que sur les systèmes de bureau traditionnels. Nous pourrions élargir la portée de cette page dans le futur.

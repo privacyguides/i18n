@@ -3,6 +3,7 @@ title: 設備一致完整
 icon: material/security
 description: 這些工具可用於檢查裝置是否受到攻擊。
 cover: device-integrity.webp
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 這些工具可用於驗證行動裝置的完整性，檢查它們是否有間諜軟體和惡意軟體（例如 Pegasus、Predator 或 KingsPawn）的危害跡象。 本頁重點關注**行動安全性**，因為行動裝置通常具有為人所知配置的唯讀系統，檢測惡意修改比傳統桌面系統更容易。 將來可能會再擴展此頁面的重點。

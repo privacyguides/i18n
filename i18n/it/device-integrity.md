@@ -3,6 +3,7 @@ title: Integrità del dispositivo
 icon: material/security
 description: Questi strumenti sono utilizzabili per verificare che i tuoi dispositivi non siano stati compromessi.
 cover: device-integrity.webp
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 Questi strumenti possono essere utilizzati per convalidare l'integrità dei tuoi dispositivi mobile e verificare la presenza di indicatori di compromissione da parte di spyware e malware come Pegasus, Predator o KingsPawn. Questa pagina affronta la **sicurezza mobile**, poiché i dispositivi mobili hanno tipicamente sistemi di sola lettura, con configurazioni ben note, quindi, rilevare modifiche dannose è più facile che con i sistemi desktop tradizionali. In futuro, potremmo espandere l'ambito di questa pagina.

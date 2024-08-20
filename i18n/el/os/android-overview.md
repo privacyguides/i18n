@@ -2,6 +2,7 @@
 title: Επισκόπηση Android
 icon: απλό/android
 description: Το Android είναι ένα λειτουργικό σύστημα ανοιχτού κώδικα με ισχυρές δικλίδες ασφαλείας, γεγονός που το καθιστά την κορυφαία μας επιλογή για τηλέφωνα.
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }

@@ -21,6 +21,7 @@ schema:
       author:
         "@type": Organization
         name: Privacy Guides
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 <small>Protects against the following threat(s):</small>

@@ -20,6 +20,7 @@ schema:
     name: Secure PDF Viewer
     applicationCategory: Utilities
     operatingSystem: Android
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 我們在本網站上推薦了各種 Android 應用程式。 此處列出的應用程式是 Android 獨有的，專門增強或替換了關鍵系統功能。

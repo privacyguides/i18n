@@ -2,6 +2,7 @@
 title: Androidの概要
 icon: simple/android
 description: Androidは、強力なセキュリティー保護機能を備えたオープンソースのオペレーティングシステムであり、携帯電話に関する最も優れた選択肢です。
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }

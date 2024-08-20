@@ -2,6 +2,7 @@
 title: Android Übersicht
 icon: simple/android
 description: Android ist ein Open-Source-Betriebssystem mit starken Sicherheitsvorkehrungen, was es zu unserer ersten Wahl für Handys macht.
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }

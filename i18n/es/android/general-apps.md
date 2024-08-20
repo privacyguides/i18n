@@ -20,6 +20,7 @@ schema:
     name: Secure PDF Viewer
     applicationCategory: Utilities
     operatingSystem: Android
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 En este sitio web recomendamos una amplia variedad de aplicaciones para Android. Las aplicaciones que se encuentran listadas son exclusivas para Android y están diseñadas para mejorar o reemplazar funcionalidades clave del sistema.

@@ -3,6 +3,7 @@ title: Integridad del Dispositivo
 icon: material/security
 description: Estas herramientas pueden utilizarse para comprobar si tus dispositivos están comprometidos.
 cover: device-integrity.webp
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 Estas herramientas pueden utilizarse para validar la integridad de tus dispositivos móviles y comprobar si presentan indicadores de compromiso por programas espía y maliciosos como Pegasus, Predator o KingsPawn. Esta página se centra en la **seguridad móvil**, porque los dispositivos móviles suelen tener sistemas de solo lectura con configuraciones bien conocidas, por lo que detectar modificaciones maliciosas es más fácil que en los sistemas de escritorio tradicionales. Es posible que en el futuro ampliemos el contenido de esta página.

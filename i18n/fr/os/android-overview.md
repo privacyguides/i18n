@@ -2,6 +2,7 @@
 title: Introduction à Android
 icon: simple/android
 description: Android est un système d'exploitation open source doté de solides protections de sécurité, ce qui en fait notre premier choix pour les téléphones.
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 ![Logo d'Android](../assets/img/android/android.svg){ align=right }

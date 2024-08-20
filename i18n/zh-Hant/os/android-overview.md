@@ -2,6 +2,7 @@
 title: Android 概述
 icon: simple/android
 description: Android是一個開源作業系統，具有強大的安全保護，使其成為手機的首選。
+robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 ![Android 圖標](../assets/img/android/android.svg){ align=right }
