@@ -186,6 +186,10 @@ Questi gestori di password, le sincronizzano su un server su cloud per una facil
 
 </div>
 
+Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault.
+
+- [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
+
 Bitwarden dispone anche di [Bitwarden Send](https://bitwarden.com/products/send), che ti consente di condividere testi e file in modo sicuro con la [crittografia end-to-end](https://bitwarden.com/help/send-encryption). Una [password](https://bitwarden.com/help/send-privacy/#send-passwords) può essere richiesta insieme al link di invio. Bitwarden Send dispone inoltre di funzionalità di [cancellazione automatica](https://bitwarden.com/help/send-lifespan).
 
 Per poter condividere i file è necessario il [piano Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans). Il piano gratuito consente esclusivamente la condivisione di testo.
