@@ -47,7 +47,7 @@ Les VPN ne peuvent pas chiffrer les données en dehors de la connexion entre vot
 
 ## Quand un VPN ne convient-il pas ?
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. Cela peut déclencher des systèmes de détection de spam et de fraude, par exemple si vous vous connectez au site web de votre banque.
+L'utilisation d'un VPN dans les cas où vous utilisez votre [identité réelle ou connue](common-misconceptions.md#complicated-is-better) en ligne ne sera probablement pas utile. Cela peut déclencher des systèmes de détection de spam et de fraude, par exemple si vous vous connectez au site web de votre banque.
 
 Il est important de se rappeler qu'un VPN ne vous procurera pas un anonymat absolu, car le fournisseur de VPN lui-même verra toujours votre adresse IP réelle, des informations sur le site Web de destination, et a souvent une trace financière qui peut être remontée directement jusqu'à vous. Vous ne pouvez pas compter sur des politiques de "non journalisation" pour protéger vos données de quiconque est en mesure de les protéger. Si vous avez besoin d'une protection complète du réseau lui-même, envisagez d'utiliser [Tor](../advanced/tor-overview.md) en plus ou au lieu d'un VPN.
 
