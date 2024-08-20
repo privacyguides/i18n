@@ -269,6 +269,18 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 [了解更多 :material-arrow-right-drop-circle:](cloud.md)
 
+### Data Removal Services
+
+<div class="grid cards" markdown>
+
+- ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
+- ![Optery logo](assets/img/data-broker-removals/optery.svg){ .twemoji loading=lazy } [Optery](data-broker-removals.md#optery-free-paid)
+- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
+
+</div>
+
+[了解更多 :material-arrow-right-drop-circle:](data-broker-removals.md)
+
 ### DNS
 
 #### DNS 提供者
@@ -393,7 +405,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 </div>
 
-[了解更多 :material-arrow-right-drop-circle:](document-collaboration.md)
+[Learn more :material-arrow-right-drop-circle:](document-collaboration.md)
 
 ### 加密軟體
 
@@ -402,7 +414,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 若要加密作業系統磁碟，通常建議使用作業系統提供的加密工具，無論是 Windows 的 **BitLocker**、macOS**FileVault** 或 Linux **LUKS**。 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[了解更多 :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
 
 </details>
 

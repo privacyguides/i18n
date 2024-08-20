@@ -269,6 +269,18 @@ If you're looking for added **security**, you should always ensure you're connec
 
 [了解更多 :hero-arrow-circle-right-fill:](cloud.md)
 
+### Data Removal Services
+
+<div class="grid cards" markdown>
+
+- ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
+- ![Optery logo](assets/img/data-broker-removals/optery.svg){ .twemoji loading=lazy } [Optery](data-broker-removals.md#optery-free-paid)
+- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
+
+</div>
+
+[了解更多 :hero-arrow-circle-right-fill:](data-broker-removals.md)
+
 ### 云存储
 
 #### 加密DNS代理
