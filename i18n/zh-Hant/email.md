@@ -16,9 +16,9 @@ global:
 
 ## 推薦的 DNS 提供商
 
-除此之外，我們還推薦各種基於可持續商業模式和內置安全和隱私功能的電子郵件提供商。 閱讀我們的 [完整列表標準](#criteria) 以獲取更多信息。
+除此之外，我們還推薦各種基於可持續商業模式和內置安全和隱私功能的電子郵件提供商。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 提供商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名支付                |
+| 供應商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名支付                |
 | --------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ------------------- |
 | [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                  |
 | [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                  |

@@ -10,11 +10,11 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
+如果您想從 ISP、公共 Wi-Fi 或傳送檔案時獲得更多*隱私*，**VPN**可能是您的解決方案。
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN 不提供匿名性</p>
@@ -31,9 +31,9 @@ If you're looking for additional *privacy* from your ISP, on a public Wi-Fi netw
 
 ## 推薦的提供商
 
-我們推薦的提供商使用加密技術、支援 WireGuard & OpenVPN ，且具有無日誌政策。 閱讀我們的 [完整列表標準](#criteria) 以獲取更多信息。
+我們推薦的供應商使用加密技術，支援 WireGuard & OpenVPN，並有無記錄政策。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 提供商                   | 國家   | WireGuard                     | 端口轉發                                            | IPv6                                              | 匿名支付      |
+| 供應商                   | 國家   | WireGuard                     | 端口轉發                                            | IPv6                                              | 匿名支付      |
 | --------------------- | ---- | ----------------------------- | ----------------------------------------------- | ------------------------------------------------- | --------- |
 | [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 部分支援 | :material-alert-outline:{ .pg-orange }            | 現金        |
 | [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
@@ -65,12 +65,12 @@ If you're looking for additional *privacy* from your ISP, on a public Wi-Fi netw
 
 </div>
 
-#### :material-check:{ .pg-green } 112 Countries
+#### :material-check:{ .pg-green } 112 個國家
 
-Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
+Proton VPN [在 112 個國家設有伺服器](https://protonvpn.com/vpn-servers)，如果您使用其[免費計劃](https://protonvpn.com/free-vpn/server)，則在[5 個](https://protonvpn.com/support/how-to-create-free-vpn-account)國家設有伺服器。(1) 選擇伺服器距離您最近的 VPN 供應商可減少網路延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. 最近檢查日期: 2024-08-06
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬服務器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
@@ -104,7 +104,7 @@ Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](htt
 
 Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) 協定，在其它 VPN 協定如 OpenVPN、WireGuard 遭封鎖時*可能*有所幫助。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
 
-Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
+不幸的是，在部署了精密過濾器分析所有傳出流量以試圖發現加密隧道的國家，此方法的效果並不理想。 Stealth 可在 Android、iOS、Windows 和 macOS 上使用，但尚未在 Linux 上可用。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
@@ -150,7 +150,7 @@ Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 Proto
 IVPN 在 [37 個國家/地區設有伺服器](https://ivpn.net/status)。 (1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. 最近檢查日期: 2024-08-06
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬服務器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
@@ -198,7 +198,7 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 They have been in operation since 2009. Mullvad 總部位於瑞典，不提供免費試用。
+**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad 總部位於瑞典，不提供免費試用。
 
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
@@ -220,12 +220,12 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 </div>
 
-#### :material-check:{ .pg-green } 45 Countries
+#### :material-check:{ .pg-green } 45 個國家
 
 Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. 最近檢查日期: 2024-08-06
 
 我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬服務器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
