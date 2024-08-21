@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-## Our Advice
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### 挑选安卓 ROM
-
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
-
-换用一个不预装这类软件的安卓 ROM 可以解决这个问题。 不巧，很多安卓 ROM 不支持 AVB、回滚保护、系统更新、等这些关键的安全功能，破坏了安卓的安全模型。 某些 ROM 发布的版本属于 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 构建版本。这个版本通过 [ADB](https://developer.android.com/studio/command-line/adb) 来提供 root 访问，并且为了支持调试，[放宽](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code)了 SELinux 规则。这进一步扩大了攻击面，弱化了安全模型。
-
-在挑选安卓 ROM 时，理想的情况，是能找到坚持安卓安全模型的 ROM。 最起码的是，你选用的 ROM 应该提供生产版本（而非 `userdebug`版本）的构建，能支持 AVB、回滚保护、按时推送系统更新、把 SELinux 设为[强制模式](https://source.android.com/security/selinux/concepts#enforcement_levels)。 我们推荐的所有安卓 ROM 都满足上述标准。
-
-[我们推荐的安卓 ROM :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
-
-### 避免 Root
-
-[Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) 安卓手机会大大降低安全性，因为它削弱了完整的 [安卓安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 如果有一个被降低的安全性所帮助的漏洞，这可能会减少隐私。 常见的root方法涉及直接篡改启动分区，使得它不可能成功地进行验证性启动。 Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. 在用户界面上直接暴露root也增加了你的设备的 [攻击面](https://en.wikipedia.org/wiki/Attack_surface) ，并可能有助于 [特权升级](https://en.wikipedia.org/wiki/Privilege_escalation) 漏洞和SELinux政策的绕过。
-
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 它们也不是解决其预期目的的正确方法。 For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
-
-AFWall+基于 [包过滤](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) 方法工作，在某些情况下可能会被绕过。
-
-我们认为，通过root手机所做的安全牺牲不值得那些应用程序的可疑隐私利益。
-
-### Install Updates
-
-重要的是，不要使用 [报废的](https://endoflife.date/android) 版本的Android。 Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
-
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. 系统应用只由OEM或安卓发行提供。
-
-### Sharing Media
-
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
-
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Security Protections
 

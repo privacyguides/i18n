@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ה**פרויקט הקוד הפתוח של אנדרואיד** הוא מערכת הפעלה מאובטחת לנייד הכוללת [אפליקצית ארגז חול](https://source.android.com/security/app-sandbox), [אתחול מאומת](https://source.android.com/security/verifiedboot) (AVB), ו- [הרשאות](https://developer.android.com/guide/topics/permissions/overview) מערכת בקרת חזקה.
 
-## העצה שלנו
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### בחירת הפצת אנדרואיד
-
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
-
-ניתן לפתור בעיה זו באמצעות הפצת אנדרואיד מותאמת אישית שאינה מגיעה עם אינטגרציה פולשנית כזו. לרוע המזל, הפצות רבות של אנדרואיד מותאמות אישית מפרות לעתים קרובות את מודל האבטחה של אנדרואיד בכך שאינן תומכות בתכונות אבטחה קריטיות כגון AVB, הגנה לאחור, עדכוני קושחה וכן הלאה. חלק מההפצות מספקות גם רכיבי [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) אשר חושפים שורש באמצעות [ADB](https://developer.android.com/studio/command-line/adb) ודורשים [מדיניות](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux מתירנית יותר כדי להתאים לתכונות ניפוי באגים, וכתוצאה מכך משטח התקפה מוגדל נוסף ומודל אבטחה מוחלש.
-
-באופן אידיאלי, בעת בחירת הפצת אנדרואיד מותאמת אישית, עליך לוודא שהיא מקיימת את מודל האבטחה של אנדרואיד. לכל הפחות, להפצה צריכה להיות בניית ייצור, תמיכה ב-AVB, הגנה על חזרה, עדכוני קושחה ומערכת הפעלה בזמן, ו-SELinux ב[מצב אכיפה](https://source.android.com/security/selinux/concepts#enforcement_levels). כל הפצות האנדרואיד המומלצות שלנו עומדות בקריטריונים האלה.
-
-[המלצות מערכת אנדרואיד שלנו :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
-
-### הימנע מהשתרשות
-
-[השרשת](https://en.wikipedia.org/wiki/Rooting_(Android)) טלפונים אנדרואיד יכולים להפחית את האבטחה באופן משמעותי מכיוון שהוא מחליש את [מודל האבטחה של אנדרואיד](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). זה יכול להפחית את הפרטיות אם יש ניצול הנעזר בירידה באבטחה. שיטות השתרשות נפוצות כוללות התעסקות ישירה במחיצת האתחול, מה שהופך את זה לבלתי אפשרי לבצע אתחול מאומת בהצלחה. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. חשיפת השורש ישירות בממשק המשתמש גם מגדילה את [משטח ההתקפה](https://en.wikipedia.org/wiki/Attack_surface) של המכשיר שלך ועשויה לסייע ב[הסלמה של הרשאות](https://en.wikipedia.org/wiki/Privilege_escalation) פגיעויות ועקיפות מדיניות SELinux.
-
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. הם גם לא הדרך הנכונה לפתור את מטרותיהם המיועדות. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
-
-AFWall+ פועל על בסיס גישת [סינון חבילות](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) וייתכן שניתן לעקוף אותו במצבים מסוימים.
-
-אנחנו לא מאמינים שקורבנות האבטחה שנעשו על ידי השתרשות טלפון שווים את יתרונות הפרטיות המפוקפקים של אפליקציות אלה.
-
-### התקן עדכונים
-
-חשוב לא להשתמש בגרסת [סוף החיים](https://endoflife.date/android) של אנדרואיד. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
-
-לדוגמה, [לפני אנדרואיד 10](https://developer.android.com/about/versions/10/privacy/changes) כל אפליקציה עם הרשאת [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) יכלו לגשת למספרים סידוריים רגישים וייחודיים של הטלפון שלך כגון [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), כרטיס ה-SIM שלך;[IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity), בעוד שכעת הם חייבים להיות אפליקציות מערכת כדי לעשות זאת. אפליקציות מערכת מסופקות רק על ידי הפצת OEM או אנדרואיד.
-
-### שיתוף מדיה
-
-אתה יכול להימנע ממתן הרשאות לאפליקציות רבות לגשת למדיה שלך עם תכונות השיתוף המובנות של אנדרואיד. יישומים רבים מאפשרים לך "לשתף" איתם קובץ להעלאת מדיה.
-
-לדוגמה, אם אתה רוצה לפרסם תמונה ל-Discord אתה יכול לפתוח את מנהל הקבצים או הגלריה שלך ולשתף את התמונה עם אפליקציית Discord, במקום להעניק ל-Discord גישה מלאה למדיה ולתמונות שלך.
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## הגנות אבטחה
 

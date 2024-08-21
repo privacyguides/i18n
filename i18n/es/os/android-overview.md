@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 **Android Open Source Project** es un sistema operativo móvil seguro que cuenta con un fuerte [aislamiento de aplicaciones](https://source.android.com/security/app-sandbox), [arranque verificado](https://source.android.com/security/verifiedboot) (AVB) y un sólido sistema de control de [permisos ](https://developer.android.com/guide/topics/permissions/overview).
 
-## Nuestro Consejo
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### Elegir una distribución de Android
-
-Cuando compras un teléfono Android, el sistema operativo por defecto viene con aplicaciones y funcionalidades que no forman parte de Android Open Source Project. Muchas de estas aplicaciones -incluso aplicaciones como el marcador que proporcionan una funcionalidad básica del sistema- requieren integraciones invasivas con Google Play Services, que a su vez pide privilegios para acceder a tus archivos, almacenamiento de contactos, registros de llamadas, mensajes SMS, ubicación, cámara, micrófono y muchas otras cosas en tu dispositivo para que esas aplicaciones básicas del sistema y muchas otras aplicaciones funcionen en primer lugar. Frameworks como Google Play Services aumentan la superficie de ataque de tu dispositivo y son la fuente de varios problemas de privacidad con Android.
-
-Este problema puede ser solucionado al usar una distribución modificada de Android la cual no contenga tal integración invasiva. Desafortunadamente, varias distribuciones modificadas de Android suelen violar el modelo de seguridad de Android al no soportar características críticas de seguridad como el AVB, protección de reversión, actualizaciones del firmware, etc. Algunas distribuciones también incluyen compilaciones [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) las cuales exponen root vía [ADB](https://developer.android.com/studio/command-line/adb) y requieren políticas [más permisivas](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) de SELinux para acomodar las características de depuración, lo que resulta en una superficie de ataque aún más grande y un modelo de seguridad debilitado.
-
-Idealmente, cuando escojas una distribución de Android, deberías asegurarte de que mantenga el modelo de seguridad de Android. Al menos, la distribución debería tener compilaciones de producción, soporte para AVB, protección de reversión, actualizaciones oportunas del firmware y el sistema operativo, y tener a SELinux en [modo de cumplimiento](https://source.android.com/security/selinux/concepts#enforcement_levels). Todas nuestras distribuciones recomendadas para Android cumplen con estos criterios.
-
-[Nuestras recomendaciones del sistema Android :material-arrow-right:](../android/distributions.md ""){.md-button}
-
-### Evita el Rooting
-
-Hacer [Rooting](https://en.wikipedia.org/wiki/Rooting_(Android)) en celulares Android puede debilitar la seguridad significativamente debido que debilita el [modelo completo de seguridad de Android](https://es.wikipedia.org/wiki/Android#Seguridad,_privacidad_y_vigilancia). Esto puede debilitar la privacidad en caso de que haya un exploit que sea asistido por la seguridad debilitada. Los métodos de rooteo más comunes involucran la manipulación directa de la partición de arranque, haciendo que sea imposible realizar con éxito el arranque verificado. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Tener el root expuesto directamente en la interfaz del usuario también incrementa la [superficie de ataque](https://en.wikipedia.org/wiki/Attack_surface) de tu dispositivo y puede asistir en la [escalada de privilegios](https://es.wikipedia.org/wiki/Escalada_de_privilegios) de vulnerabilidades y omisiones de la política de SELinux.
-
-Los bloqueadores de contenido que modifican el archivo [hosts](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) y los firewalls (AFWall+) que requieren acceso root de forma persistente son peligrosos y no deben utilizarse. Tampoco son la forma correcta de resolver sus propósitos. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
-
-AFWall+ funciona basado en el enfoque del [filtrado de paquetes](https://es.wikipedia.org/wiki/Cortafuegos_(inform%C3%A1tica)#Primera_generaci%C3%B3n_%E2%80%93_cortafuegos_de_red:_filtrado_de_paquetes) el cual puede ser omitido en algunas situaciones.
-
-No creemos que los sacrificios de seguridad realizados al rootear un teléfono merezcan la pena por los cuestionables beneficios de privacidad de esas aplicaciones.
-
-### Instalar actualizaciones
-
-Es importante no usar una versión de Android al [final de su vida útil](https://endoflife.date/android). Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
-
-Por ejemplo, [antes de Android 10](https://developer.android.com/about/versions/10/privacy/changes), cualquier aplicación con el permiso [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) podía acceder a números de serie únicos y sensibles como el [IMEI](https://es.wikipedia.org/wiki/IMEI), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) o el [IMSI](https://es.wikipedia.org/wiki/IMSI) de tu tarjeta SIM, mientras que ahora deben ser aplicaciones del sistema para poder hacerlo. Las aplicaciones del sistema sólo las proporciona el OEM o la distribución de Android.
-
-### Compartir Archivos Multimedia
-
-Puedes evitar dar permiso a muchas aplicaciones para acceder a tus archivos multimedia con las funciones de uso compartido integradas en Android. Muchas aplicaciones te permiten "compartir" un archivo con ellas para cargarlo.
-
-Por ejemplo, si quieres publicar una foto en Discord, puedes abrir tu gestor de archivos o galería y compartir esa foto con la aplicación Discord, en lugar de conceder a Discord acceso completo a tus archivos miltimedia y fotos.
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Protecciones de Seguridad
 

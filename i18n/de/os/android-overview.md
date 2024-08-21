@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 Das **Android Open-Source Project** ist ein sicheres mobiles Betriebssystem mit starkem [App-Sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) und einem robusten [Berechtigungskontrollsystem](https://developer.android.com/guide/topics/permissions/overview).
 
-## Unsere Empfehlung
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### Auswahl einer Android-Distribution
-
-Wenn du ein Android-Handy kaufst, wird das Standard-Betriebssystem mit Apps und Funktionen ausgeliefert, die nicht Teil des Android Open Source Project sind. Viele dieser Apps - sogar Apps wie der Dialer, der grundlegende Systemfunktionen bereitstellt - erfordern invasive Integrationen mit Google Play Services, die wiederum Zugriffsrechte auf deine Dateien, Kontakte, Anrufliste, SMS-Nachrichten, Standort, Kamera, Mikrofon und zahlreiche andere Funktionen auf deinem Gerät verlangen, damit diese grundlegenden System-Apps und viele andere Apps überhaupt funktionieren. Frameworks wie Google Play Services erhöhen die Angriffsfläche deines Geräts und sind die Ursache für diverse Datenschutzprobleme bei Android.
-
-Dieses Problem könnte durch die Verwendung einer Custom-Android-Distribution gelöst werden, die nicht mit einer derartigen invasiven Integration einhergeht. Leider verletzen viele Custom-Android-Distributionen oft das Android-Sicherheitsmodell, indem sie kritische Sicherheitsfunktionen wie AVB, Rollback-Schutz, Firmware-Updates usw. nicht unterstützen. Einige Distributionen liefern auch [`userdebug`](https://source.android.com/setup/build/building#choose-a-target)-Builds, die Root über [ADB](https://developer.android.com/studio/command-line/adb) freigeben und [freizügigere](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux-Richtlinien erfordern, um Debugging-Funktionen zu ermöglichen, was zu einer noch größeren Angriffsfläche und einem schwächeren Sicherheitsmodell führt.
-
-Idealerweise solltest du bei der Auswahl einer Custom-Android-Distribution sicherstellen, dass sie das Android-Sicherheitsmodell einhält. Zumindest sollte die Distribution Produktions-Builds, Unterstützung für AVB, Rollback-Schutz, rechtzeitige Firmware- und Betriebssystem-Updates und SELinux im [Enforcing-Modus](https://source.android.com/security/selinux/concepts#enforcement_levels) bieten. Alle unsere empfohlenen Android-Distributionen erfüllen diese Kriterien.
-
-[Unsere Android-System-Empfehlungen :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
-
-### Vermeide Rooten
-
-Das [Rooten](https://de.wikipedia.org/wiki/Rooten) von Android-Handys kann die Sicherheit erheblich beeinträchtigen, da es das gesamte [Android-Sicherheitsmodell](https://de.wikipedia.org/wiki/Android_(Betriebssystem)#Sicherheit) schwächt. Dies kann zu einer Beeinträchtigung des Datenschutzes führen, wenn die verminderte Sicherheit ausgenutzt wird. Bei den üblichen Rooting-Methoden wird direkt in die Boot-Partition eingegriffen, sodass ein erfolgreicher Verified Boot nicht möglich ist. Anwendungen, die Root benötigen, verändern auch die Systempartition, was bedeutet, dass Verified Boot deaktiviert bleiben muss. Das direkte Aussetzen von Root in der Benutzeroberfläche erhöht ebenfalls die [Angriffsfläche](https://en.wikipedia.org/wiki/Attack_surface) deines Geräts und kann bei [Rechteausweitung](https://de.wikipedia.org/wiki/Rechteausweitung) und SELinux-Richtlinienumgehungen helfen.
-
-Inhaltsblocker, die die [hosts Datei](https://de.wikipedia.org/wiki/Hosts_(Datei)) verändern (AdAway), und Firewalls (AFWall+), welche dauerhaft Root-Zugriff erfordern, sind gefährlich und sollten nicht verwendet werden. Sie sind auch nicht der richtige Weg, um den beabsichtigten Zweck zu erfüllen. Für das Blockieren von Inhalten empfehlen wir stattdessen verschlüsselte [DNS](../dns.md) oder die Inhaltsblockierungsfunktionen, die von einem VPN bereitgestellt werden. TrackerControl und AdAway im Nicht-Root-Modus nehmen den VPN-Slot ein (indem sie ein lokales Loopback-VPN verwenden) und verhindern so, dass du datenschutzfreundliche Dienste wie [Orbot](../tor.md#orbot) oder einen [echten VPN-Anbieter](../vpn.md) nutzen kannst.
-
-AFWall+ basiert auf dem Ansatz der [Paketfilterung](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) und kann in einigen Situationen umgangen werden.
-
-Wir sind nicht der Meinung, dass die Sicherheitseinbußen, die durch das Rooten eines Smartphones entstehen, die fragwürdigen Datenschutzvorteile dieser Anwendungen wert sind.
-
-### Installiere Updates
-
-Es ist wichtig, dass du keine [veraltete](https://endoflife.date/android) Version von Android verwendest. Neuere Android-Versionen erhalten nicht nur Sicherheitsupdates für das Betriebssystem, sondern auch wichtige Updates zur Verbesserung der Privatsphäre.
-
-[Vor Android 10](https://developer.android.com/about/versions/10/privacy/changes) konnten alle Apps mit der [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) Berechtigung auf sensible und eindeutige Seriennumern deines Handys zugreifen, wie [IMEI](https://de.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) oder die [IMSI](https://de.wikipedia.org/wiki/International_Mobile_Subscriber_Identity) deiner SIM-Karte, während es sich jetzt um System-Apps handeln muss, um dies zu tun. Systemanwendungen werden nur vom OEM oder der Android-Distribution bereitgestellt.
-
-### Medien teilen
-
-Du kannst vermeiden, vielen Apps die Berechtigung zum Zugriff auf deine Medien zu gewähren, indem du die integrierten Freigabefunktionen von Android nutzt. Viele Apps ermöglichen es dir, eine Datei mit ihnen zu „teilen“ für den Medien-Upload.
-
-Wenn du beispielsweise ein Bild in Discord posten möchtest, kannst du deinen Dateimanager oder deine Galerie öffnen und dieses Bild mit der Discord-App teilen, anstatt Discord vollen Zugriff auf deine Medien und Fotos zu gewähren.
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Sicherheitsmaßnahmen
 

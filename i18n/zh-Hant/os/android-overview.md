@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 **Android 開源專案** 為安全移動作業系統，提供[應用沙盒](https://source.android.com/security/app-sandbox), [驗證開機](https://source.android.com/security/verifiedboot) (AVB) 以及強韌的 [授權](https://developer.android.com/guide/topics/permissions/overview)控制系統。
 
-## 我們的建議
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### 選擇 Android 發佈版本
-
-購買 Android 手機時，該設備的預設作業系統通常綁入非 Android 開源專案的應用程式與服務，成為侵入性整合。 其中許多應用程式-- 甚至是提供基本系統功能的撥號器等應用程式-- 都需放到 Google Play 服務進行侵入式整合，且 Google Play 服務需要存取檔案、聯絡人儲存、通話記錄、簡訊、位置、攝影機、麥克風以及設備上的許多內容的權限，這樣基本系統程式和其他應用程式才能運行。 這些應用程式和服務增加了設備的攻擊面，成為 Android 各種隱私問題的來源。
-
-這個問題可以通過使用自訂的 Android 發行版來解決，而這些發行版不會附帶這種侵入性整合。 不幸的是，許多自定義 Android 發行版常常違反 Android 安全模式，不支持重要的安全功能，如 AVB 、回滾保護、韌體更新等。 一些發行版還提供了 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 版本，這類版本可通過 [ ADB ](https://developer.android.com/studio/command-line/adb) 暴露了根目錄，且要求 [更寬鬆的](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux政策以適應調試，導致進一步增加攻擊面並削弱安全模型。
-
-理想情況下，在選擇客製 Android 發行版時，應該確保它符合Android 安全模型。 至少，該發行版應該具有生產構建，支持AVB ，回滾保護，及時韌體和操作系統更新，以及SELinux [開啟模式](https://source.android.com/security/selinux/concepts#enforcement_levels)。 我們推薦的 Android 發行版都符合這些標準。
-
-[Android 系統建議 :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
-
-### 避免 Root
-
-去 [root](https://en.wikipedia.org/wiki/Rooting_(Android)) Android 手機會大幅降低安全性，因為它會削弱完整的[Android 安全模型](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)。 如果有人利用降低的安全性來進行攻擊，這可能會降低隱私權。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行驗證啟動。 需要 root 的應用程式也會修改系統磁碟分割，這意味著驗證開機必須維持停用。 直接在使用者介面中暴露 root 也會增加裝置的[攻擊面](https://en.wikipedia.org/wiki/Attack_surface) ，並可能有助於[特權升級](https://en.wikipedia.org/wiki/Privilege_escalation)漏洞和 SELinux 政策繞過。
-
-修改 [hosts 檔案](https://en.wikipedia.org/wiki/Hosts_(file))的內容封鎖程式 (AdAway) 和需要 root 存取權限的防火牆 (AFWall+) 都很危險，不應該使用。 它們也不是解決預期目的的正確方法。 若要封鎖內容，我們建議改用 VPN 提供的加密 [DNS](../dns.md) 或內容封鎖功能。 TrackerControl 和 AdAway 在非 root 模式下會佔用 VPN 插槽（透過使用本機迴路 VPN），使您無法使用 [Orbot](../tor.md#orbot) 或[真正 VPN 供應商](../vpn.md)等增強隱私的服務。
-
-AFWall+ 基於 [封包過濾](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) 的方法，在某些情況下可能繞過。
-
-我們不認為為了手機 root 所犧牲的安全性，值得讓人懷疑這些應用程式對隱私權的益處。
-
-### 安裝更新
-
-重要的是，不要使用[生命週期結束的](https://endoflife.date/android) Android 版本。 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。
-
-舉例來說，[在 Android 10 之前](https://developer.android.com/about/versions/10/privacy/changes)，任何具有 [`read_phone_state`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 權限的任何應用程式都可以存取手機敏感且獨特的序號，例如 [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity)、[MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) 或 SIM 卡的 [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)；而現在則必須是系統應用程式才能這麼做。 系統應用程式僅由 OEM 或 Android 發行版提供。
-
-### 共享的媒體
-
-透過 Android 內建的分享功能，您可以避免給予許多應用程式存取媒體的權限。 許多應用程式都允許您與它「分享」檔案，以便上傳媒體。
-
-例如，如果您要張貼一張圖片到 Discord，您可以開啟檔案管理員或圖庫，然後與 Discord 應用程式分享該圖片，而不是允許 Discord 完全存取您的媒體和相片。
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## 安全防護
 

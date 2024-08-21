@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: 您的獨立隱私和安全資源"
+meta_title: "Privacy Guides: Independent Privacy & Security Resources"
 description: "最受歡迎的 & 值得信賴的非營利性網站，可尋找隱私工具並學習如何保護您的數位生活。 無廣告 & 無聯盟行銷，高品質評論"
 template: home.html
 social:

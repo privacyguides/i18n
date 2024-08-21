@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-## Our Advice
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### Вибір прошивки Android
-
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
-
-Ця проблема може бути вирішена за допомогою користувацької прошивки Android, яка не постачається з такою інвазивною інтеграцією. На жаль, багато користувацьких прошивок Android часто порушують модель безпеки Android, не підтримуючи критичні функції безпеки, такі як AVB, захист від відкату, оновлення мікропрограми тощо. Деякі дистрибутиви також постачають збірки [`налагодження`](https://source.android.com/setup/build/building#choose-a-target), які надають доступ root через [ADB](https://developer.android.com/studio/command-line/adb) та потребують [більш дозвільних](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) політик SELinux для функцій налагодження, в результаті чого це призводить до збільшення поверхні атаки та ослаблення моделі безпеки.
-
-В ідеалі, вибираючи користувальницький дистрибутив Android, ви повинні переконатися, що він підтримує модель безпеки Android. Принаймні, дистрибутив повинен мати виробничі збірки, підтримку AVB, захист від відкату, своєчасне оновлення прошивки та операційної системи, а також SELinux в [примусовому режимі (enforcing mode)](https://source.android.com/security/selinux/concepts#enforcement_levels). Всі наші рекомендовані прошивки Android відповідають цим критеріям.
-
-[Наші рекомендації для системи Android :material-arrow-right:](../android/distributions.md ""){.md-button}
-
-### Уникайте рутування
-
-[Рутування](https://en.wikipedia.org/wiki/Rooting_(Android)) Android пристроїв може значно знизити безпеку, оскільки це послаблює повну [модель безпеки Android](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Це може знизити конфіденційність у разі використання експлойта, якому сприяє зниження безпеки. Поширені методи отримання root-прав передбачають втручання в розділ boot, що унеможливлює успішне виконання Verified Boot. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Наявність root-доступу безпосередньо в інтерфейсі користувача також збільшує [поверхню атаки](https://en.wikipedia.org/wiki/Attack_surface) вашого пристрою і може сприяти [підвищенню привілеїв](https://en.wikipedia.org/wiki/Privilege_escalation), вразливостей та обходу політики SELinux.
-
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Вони також не є правильним способом вирішення своїх цілей. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
-
-AFWall+ використовує підхід на основі [пакетної фільтрації](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter), та його можна обійти в деяких ситуаціях.
-
-Ми не вважаємо, що жертви безпеки, які приносить рутування телефону, варті сумнівних переваг конфіденційності цих програм.
-
-### Install Updates
-
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
-
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
-
-### Sharing Media
-
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
-
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Security Protections
 

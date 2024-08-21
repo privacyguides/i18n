@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 Az **Android Nyílt Forráskódú Projekt** egy biztonságos mobil operációs rendszer, amely erős [app sandbox-kszal](https://source.android.com/security/app-sandbox), [Verified Boot-tal](https://source.android.com/security/verifiedboot) (AVB) és egy erőteljes [engedély](https://developer.android.com/guide/topics/permissions/overview) ellenőrző rendszerrel rendelkezik.
 
-## A mi tanácsaink
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### Egy Android disztribúció kiválasztása
-
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
-
-Ez a probléma megoldható lehet egy olyan egyedi Android-disztribúció használatával, amely nem tartalmaz ilyen invazív integrációkat. Sajnos sok egyedi Android disztribúció gyakran megsérti az Android biztonsági modellt azzal, hogy nem támogat olyan kritikus biztonsági funkciókat, mint az AVB, a rollback védelem, firmware-frissítések, stb. Egyes disztribúciók [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) buildeket nyújtanak, amelyek védtelenné teszik a root-ot az [ADB](https://developer.android.com/studio/command-line/adb)-n keresztül és [több engedélyt biztosító](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policy-kat igényelnek a hibakeresési funkciókhoz, ami tovább növeli a támadási felületet és gyengébb biztonsági modellt eredményez.
-
-Ideális esetben, amikor egyedi Android disztribúciót választasz, győződj meg arról, hogy az, az Android biztonsági modellt követi. A disztribúciónak minimum rendelkeznie kell gyártási buildekkel, AVB támogatással, rollback védelemmel, időszerű firmware és operációs rendszer frissítésekkel, valamint SELinux-xal [enforcing módban](https://source.android.com/security/selinux/concepts#enforcement_levels). Az általunk ajánlott összes Android disztribúció megfelel ezeknek a követelményeknek.
-
-[Android rendszer ajánlásaink :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
-
-### Kerüld a rootolást
-
-[Az](https://en.wikipedia.org/wiki/Rooting_(Android)) Android telefonok rootolása jelentősen csökkentheti a biztonságot, mivel gyengíti a teljes [Android biztonsági modellt](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Ez csökkentheti az adatvédelmet, ha van olyan biztonsági rés, amelynek kihasználását a csökkent biztonság elősegíti. A gyakori rootolási módszerek a boot partíció közvetlen megváltoztatásával járnak, ami lehetetlenné teszi egy sikeres Verified Boot elvégzését. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. A root közvetlen kitétele a felhasználói felületnek szintén növeli az eszközöd [támadási felületetét](https://en.wikipedia.org/wiki/Attack_surface) és elősegítheti [ jogosultságnöveléses](https://en.wikipedia.org/wiki/Privilege_escalation) sebezhetőségek véghezvitelét és az SELinux házirendek megkerülését.
-
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Továbbá ezek nem a megfelelő módon oldják meg a rendeltetésüknek megfelelő feladatokat. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
-
-Az AFWall+ a [csomagszűrő](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) megközelítés alapján működik, és bizonyos helyzetekben megkerülhető.
-
-Nem hisszük, hogy egy telefon rootolásával járó biztonsági áldozatok megérik az alkalmazások megkérdőjelezhető adatvédelmi előnyeit.
-
-### Telepíts frissítéseket
-
-Fontos, hogy ne használj egy [lejárt életciklusú](https://endoflife.date/android) Android verziót. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
-
-Például [Android 10 előtt](https://developer.android.com/about/versions/10/privacy/changes) a [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) engedéllyel rendelkező alkalmazások hozzáférhettek a telefon érzékeny és egyedi sorozatszámaihoz, mint például az [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier) vagy a SIM-kárty [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity)-jéhez; míg most már csak rendszeralkalmazások tehetik ezt meg. A rendszeralkalmazásokat csak az OEM vagy az Android disztribúció nyújtja.
-
-### Média megosztása
-
-Az Android beépített megosztási funkcióival elkerülheted, hogy több alkalmazásnak engedélyezd a médiához való hozzáférést. Több alkalmazás lehetővé teszi, hogy "megossz" egy fájlt velük médiafeltöltéshez.
-
-Ha például egy képet szeretnél közzétenni Discordon, megnyithatod a fájlkezelőt vagy a galériát, és megoszthatod a képet a Discord alkalmazással, ahelyett, hogy teljes hozzáférést adnál a Discordnak a médiádhoz és a fényképeidhez.
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Biztonsági védelmek
 

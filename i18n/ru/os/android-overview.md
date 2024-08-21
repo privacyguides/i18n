@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-## Our Advice
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### Выбор Android дистрибутива
-
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
-
-Эта проблема может быть решена с помощью кастомного дистрибутива Android, который не имеет таких интеграций. К сожалению, многие кастомные дистрибутивы Android часто нарушают модель безопасности Android, не поддерживая критические функции безопасности, такие как AVB, защита rollback, обновления прошивки и так далее. Некоторые дистрибутивы поставляют сборки [`userdebug`](https://source.android.com/setup/build/building#choose-a-target), которые используют root с [ADB](https://developer.android.com/studio/command-line/adb) и требуют [более слабых](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) политик SELinux для активации функций отладки, что приводит к увеличенной поверхности атаки и ослабленной модели безопасности.
-
-В идеале, при выборе кастомного дистрибутива Android, вы должны убедиться, что он поддерживает модель безопасности Android. Как минимум, дистрибутив должен иметь production сборки, поддержку AVB, защиту rollback, своевременные обновления прошивки и операционной системы и SELinux в режиме [enforcing](https://source.android.com/security/selinux/concepts#enforcement_levels). Все рекомендованные нами дистрибутивы Android удовлетворяют этим критериям.
-
-[Наши рекомендации Android :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
-
-### Избегайте рутинга
-
-[Рутинг](https://en.wikipedia.org/wiki/Rooting_(Android)) телефонов Android может значительно снизить безопасность, так как ослабляет всю [модель безопасности Android](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Это может снизить конфиденциальность, если произойдет эксплойт, вызванный снижением безопасности. Обычные методы рутинга предполагают прямое вмешательство в загрузочный раздел, что делает невозможным успешное выполнение проверенной загрузки. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Наличие root непосредственно в пользовательском интерфейсе также увеличивает [поверхность атаки](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%B0%D1%82%D0%B0%D0%BA%D0%B8) вашего устройства и может помочь в [повышении привилегий](https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%BB%D0%B5%D0%B3%D0%B8%D0%B9) уязвимостей и обходе политики SELinux.
-
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Они также не являются корректным способом решения поставленных перед ними задач. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
-
-AFWall+ работает на основе подхода [пакетной фильтрации](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B6%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD#%D0%9F%D0%B0%D0%BA%D0%B5%D1%82%D0%BD%D1%8B%D0%B5_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D1%8B) и в некоторых ситуациях его можно обойти.
-
-Мы не считаем, что стоит жертвовать безопасностью (получение root-доступа), чтобы получить сомнительные преимущества конфиденциальности.
-
-### Install Updates
-
-Важно не использовать [устаревшую](https://endoflife.date/android) версию Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
-
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. Системные приложения предоставляются только OEM-производителем или дистрибутивом Android.
-
-### Sharing Media
-
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
-
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Security Protections
 

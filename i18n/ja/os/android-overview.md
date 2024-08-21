@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 **Androidオープンソースプロジェクト**は、[アプリ・サンドボックス](https://source.android.com/security/app-sandbox)、[確認付きブート](https://source.android.com/security/verifiedboot)（AVB）、[権限](https://developer.android.com/guide/topics/permissions/overview)管理システムを備えた安全なモバイル・オペレーティングシステムです。
 
-## 私たちのアドバイス
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### Androidディストリビューションの選択
-
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
-
-この問題は、そうした強制的な統合を伴わない、カスタムAndroidディストリビューションを使用すると解決できる可能性があります。 しかし残念ながら、多くのカスタムAndroidディストリビューションは、AVBや、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、しばしばAndroidのセキュリティーモデルに違反しています。 ディストリビューションによっては、[`userdebug`](https://source.android.com/setup/build/building#choose-a-target)ビルドもリリースしています。このビルドは、 [ADB](https://developer.android.com/studio/command-line/adb)経由でrootを公開し、デバッグ機能に対応するために[より寛容な](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code)SELinuxポリシーを必要とするものです。結果、攻撃対象がさらに増加し、セキュリティモデルが弱体化してしまいます。
-
-Androidのカスタムディストリビューションを選択する場合には、Androidのセキュリティーモデルが維持されていることを確認してください。 少なくとも、製品用ビルド、AVBのサポート、ロールバック保護、適時のファームウェアとオペレーティングシステムのアップデート、および[強制モード](https://source.android.com/security/selinux/concepts#enforcement_levels)のSELinuxを持つべきです。 私たちが推奨するAndroidディストリビューションはすべて、これらの基準を満たしています。
-
-[私たちが推奨するAndroidシステム :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
-
-### root化を避けること
-
-Android携帯電話の[root化](https://en.wikipedia.org/wiki/Rooting_(Android))を行うと、完全な[Androidセキュリティーモデル](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy)が弱められ、セキュリティーが著しく低下する可能性があります。 root化によって低下したセキュリティーの脆弱性が悪用されると、プライバシーが損なわれてしまう可能性があります。 一般的な方法でroot化を行うと、ブートパーティションが直接変更されてしまうため、確認付きブートを行うことはできなくなります。 Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. また、ユーザーインターフェースで直接rootを露出させると、[デバイスの攻撃面](https://en.wikipedia.org/wiki/Attack_surface)が増加し、 [権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性やSELinuxポリシーのバイパスが助長されるおそれがあります。
-
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. They are also not the correct way to solve their intended purposes. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
-
-AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) approach and may be bypassable in some situations.
-
-We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
-
-### アップデートをインストールする
-
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
-
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
-
-### メディアの共有
-
-Androidに内蔵された共有機能を使えば、多くのアプリにメディアへのアクセス許可を与える必要がなくなります。 多くのアプリでは、メディアをアップロードするためにファイルを「共有」することができます。
-
-例えば、Discordに写真を投稿したい場合は、Discordにメディアや写真へのフルアクセスを許可する代わりに、ファイルマネージャーやギャラリーを開いて、その写真を Discord アプリと共有できます。
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## セキュリティーの保護
 

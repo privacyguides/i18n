@@ -9,39 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
 
-## Our Advice
+[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-### Het kiezen van een Android distributie
-
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
-
-Dit probleem kan worden opgelost door een aangepaste Android-distributie te gebruiken die niet met een dergelijke invasieve integratie komt. Helaas schenden veel aangepaste Android-distributies vaak het Android-beveiligingsmodel door cruciale beveiligingsfuncties zoals AVB, terugdraaibeveiliging, firmware-updates, enzovoort, niet te ondersteunen. Sommige distributies leveren ook [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds die root blootstellen via [ADB](https://developer.android.com/studio/command-line/adb) en [meer permissieve](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies vereisen om debug-functies te accommoderen, wat resulteert in een verder verhoogd aanvalsoppervlak en een verzwakt beveiligingsmodel.
-
-Idealiter, wanneer je een aangepaste Android distributie kiest, moet je ervoor zorgen dat het het Android beveiligingsmodel handhaaft. Op zijn minst zou de distributie productie builds moeten hebben, ondersteuning voor AVB, rollback bescherming, tijdige firmware en besturingssysteem updates, en SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). Al onze aanbevolen Android distributies voldoen aan deze criteria.
-
-[Onze Android Systeemaanbevelingen :material-arrow-right-drop-circle:](../android/distributions.md ""){.md-button}
-
-### Rooting vermijden
-
-[Rooten van](https://en.wikipedia.org/wiki/Rooting_(Android)) Android-telefoons kan de veiligheid aanzienlijk verminderen omdat het het volledige [Android beveiligingsmodel verzwakt](https://en.wikipedia.org/wiki/Android_(operating_system)#Security_and_privacy). Dit kan de privacy verminderen mocht er een exploit zijn die door de verminderde beveiliging wordt geholpen. Bij veelgebruikte rootingmethoden wordt rechtstreeks met de opstartpartitie geknoeid, waardoor het onmogelijk is om een succesvolle Verified Boot uit te voeren. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Als root direct in de gebruikersinterface wordt blootgesteld, wordt ook het [aanvalsoppervlak](https://en.wikipedia.org/wiki/Attack_surface) van jouw apparaat vergroot en kan het helpen bij [privilege-escalatie](https://en.wikipedia.org/wiki/Privilege_escalation) kwetsbaarheden en omzeilen van SELinux-beleidslijnen.
-
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_(file)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Zij zijn ook niet de juiste manier om het beoogde doel te bereiken. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
-
-AFWall+ werkt op basis van de [packet filtering](https://en.wikipedia.org/wiki/Firewall_(computing)#Packet_filter) benadering en kan in sommige situaties omzeild worden.
-
-Wij geloven niet dat de veiligheidsoffers die gemaakt worden door het rooten van een telefoon, de twijfelachtige privacyvoordelen van die apps waard zijn.
-
-### Install Updates
-
-Het is belangrijk om geen [end-of-life](https://endoflife.date/android) versie van Android te gebruiken. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
-
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. Systeem-apps worden alleen geleverd door de OEM of de Android-distributie.
-
-### Sharing Media
-
-You can avoid giving many apps permission to access your media with Android's built-in sharing features. Many applications allow you to "share" a file with them for media upload.
-
-For example, if you want to post a picture to Discord you can open your file manager or gallery and share that picture with the Discord app, instead of granting Discord full access to your media and photos.
+[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Security Protections
 
