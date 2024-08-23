@@ -72,23 +72,28 @@ GrapheneOS provides the option to switch back to connecting to Google's servers 
 
 ### DivestOS
 
+If GrapheneOS isn't compatible with your phone, DivestOS is a good alternative. It supports a wide variety of phones with _varying_ levels of security protections and quality control.
+
 <div class="admonition recommendation" markdown>
 
 ![DivestOS logo](../assets/img/android/divestos.svg){ align=right }
 
 **DivestOS** 是一個 [LineageOS](https://lineageos.org) 的軟分叉。
-DivestOS 從 LineageOS 繼承了許多 [支援的裝置](https://divestos.org/index.php?page=devices\&base=LineageOS) 。 它具有已簽名的構建，使其在某些非 Pixel 裝置上可以使用 [Verified Boot](https://source.android.com/security/verifiedboot) 。
+DivestOS 從 LineageOS 繼承了許多 [支援的裝置](https://divestos.org/index.php?page=devices\&base=LineageOS) 。 It has signed builds, making it possible to have [verified boot](../os/android-overview.md#verified-boot) on some non-Pixel devices. Not all supported devices support verified boot or other security features.
 
-[:octicons-home-16: 首頁](https://divestos.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title=文檔}
-[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=捐款 }
+[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title="Contribute" }
 
 </div>
 
+The [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) of firmware updates in particular will vary significantly depending on your phone model. While standard AOSP bugs and vulnerabilities can be fixed with standard software updates like those provided by DivestOS, some vulnerabilities cannot be patched without support from the device manufacturer, making end-of-life devices less safe even with an up-to-date alternative ROM like DivestOS.
+
 DivestOS 具有自動核心漏洞 ([CVE](https://zh.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [修補](https://gitlab.com/divested-mobile/cve_checker)，更少的專有設備驅動程式，和自訂的 [hosts](https://divested.dev/index.php?page=dnsbl) 文件。 Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates.
+
 DivestOS 還包含來自GrapheneOS 的核心補丁，並透過 [defconfig 加固](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758) 啟用所有可用的核心安全功能。 所有高於3.4版本的核心都包含 整頁的[核心記憶體清理](https://lwn.net/Articles/334747) ，並且所有~22 Clang 編譯的核心都有啟用 [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) 。
 
 DivestOS 也實現了一些最初專為 GrapheneOS 開發的系統加固補丁。 DivestOS 16.0 and higher implements GrapheneOS's `INTERNET` and `SENSORS` permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://grapheneos.org/usage#exec-spawning), Java Native Interface [constification](https://en.wikipedia.org/wiki/Const_\(computer_programming\)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_\(software\)) hardening patchsets. 17.1 and higher features per-network full MAC address randomization, [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, automatic reboot, and Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features#attack-surface-reduction).
@@ -97,24 +102,15 @@ DivestOS 使用 F-Droid 作為其預設應用程式商店。 我們通常 [建�
 
 DivestOS replaces many of Android's background network connections to Google services with alternative services, such as using OpenEUICC for eSIM activation, NTP.org for network time, and Quad9 for DNS. These connections can be modified, but their deviation from a standard Android phone's network connections could mean it is easier for an adversary on your network to deduce what operating system you have installed on your phone. If this is a concern to you, consider using a [trusted VPN](../vpn.md) and enabling the native VPN [kill switch](../os/android-overview.md#vpn-killswitch) to hide this network traffic from your local network and ISP.
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-DivestOS 韌體更新 [狀態](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) 和品質管理依照所支援的設備不同而異。 我們仍然推薦 GrapheneOS ，具體取決於您裝置的兼容性。 對於其他設備， DivestOS 是不錯的選擇。
-
-並非所有支援設備都可使用 verified boot；且在受支援的裝置中，某些設備的表現較好。
-
-</div>
-
 ## 標準
 
-**請注意，我們與所推薦專案沒有任何瓜葛** 。除了 [標準準則](../about/criteria.md) 外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 必須是開源軟體。
-- 必須支援具有自訂 AVB 金鑰支援的引導裝載程式鎖定。
-- 必須在 主要 Android 更新 發布後 0-1 個月內收到更新。
-- 必須在 Android 功能更新（小版本） 發布後 0-14 天內收到更新。
-- 必須在定期安全修補程式發布後 0-5 天內收到更新。
-- **不可** 在預設情況下 "rooted" 。
-- **不可** 在預設情況下安裝 Google Play 服務 。
-- **不可** 修改系統以支援 Google Play 服務 。
+- Must support bootloader locking with custom AVB key support.
+- Must receive major Android updates within 0-1 months of release.
+- Must receive Android feature updates (minor version) within 0-14 days of release.
+- Must receive regular security patches within 0-5 days of release.
+- Must **not** be "rooted" out of the box.
+- Must **not** enable Google Play Services by default.
+- Must **not** require system modification to support Google Play Services.
