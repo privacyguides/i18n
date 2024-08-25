@@ -79,7 +79,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 Безкоштовні акаунти мають деякі обмеження, такі як відсутність можливості пошуку в основному тексті та доступу до [Proton Mail Bridge](https://proton.me/mail/bridge), який необхідний для використання [рекомендованого десктопного поштового клієнта](email-clients.md) (наприклад, Thunderbird). Платні акаунти включають такі функції, як Proton Mail Bridge, додаткове сховище та підтримку власних доменів. [Атестаційний лист](https://proton.me/blog/security-audit-all-proton-apps) для додатків Proton Mail було надано 9 листопада 2021 року компанією [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 

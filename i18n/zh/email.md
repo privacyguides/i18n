@@ -79,7 +79,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 免费账户有一些限制，如不能搜索正文，不能访问 [Proton Mail Bridge](https://proton.me/mail/bridge)，这是使用 [推荐的桌面电子邮件客户端](email-clients.md) （如Thunderbird）所需要的。 付费帐户包括Proton Mail Bridge等功能，额外的存储空间和自定义域支持。 2021年11月9日， [Securitum](https://research.securitum.com)，为Proton Mail的应用程序提供了一份 [的证明信](https://proton.me/blog/security-audit-all-proton-apps)。
 
-If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 

@@ -68,6 +68,41 @@ Abbiamo alcuni consigli aggiuntivi sulla configurazione e rafforzamento della tu
 
 [Configurazione e Rafforzamento di Signal :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
+#### Molly (Android)
+
+If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
+
+<div class="admonition recommendation" markdown>
+
+![Molly logo](assets/img/messengers/molly.svg){ align=right }
+
+**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
+
+[:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation"}
+[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-fdroid: F-Droid](https://molly.im/fdroid)
+- [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
+- [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
+
+</details>
+
+</div>
+
+Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, which are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream, which may affect actions such as [migrating from Signal to Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
+
+Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
+
+There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like push notifications. There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds back support for push notifications with UnifiedPush, but it requires self-hosting a program on a separate computer to function. All three versions of Molly provide the same security improvements.
+
+Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+
 ### SimpleX Chat
 
 <div class="admonition recommendation" markdown>
@@ -235,12 +270,12 @@ Session ha un [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) che descrive i 
 
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
-- Supporta la segretezza in avanti[^1]
+- Supports forward secrecy[^1]
 - Supporta la segretezza futura (sicurezza post-compromissione)[^2]
 - Ha server open-source.
 - Decentralizzato, cioè [federato o P2P](advanced/communication-network-types.md).
 - Usa E2EE per tutti i messaggi di default.
 - Supporta Linux, macOS, Windows, Android e iOS.
 
-[^1]: [La segretezza in avanti](https://en.wikipedia.org/wiki/Forward_secrecy) è il caso in cui le chiavi vengono ruotate molto frequentemente, in modo che se la chiave di crittografia corrente viene compromessa, non si espongano anche i messaggi **passati**.
+[^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
 [^2]: La segretezza futura (o sicurezza post-compromissione) è una caratteristica che impedisce a un utente malintenzionato di decifrare i messaggi **futuri** dopo aver compromesso una chiave privata, a meno che non comprometta anche altre chiavi di sessione in futuro. Questo costringe di fatto l'aggressore a intercettare tutte le comunicazioni tra le parti, poiché perde l'accesso non appena avviene uno scambio di chiavi che non viene intercettato.

@@ -79,7 +79,7 @@ OpenPGP ne prend pas non plus en charge la confidentialité persistante, ce qui 
 
 Les comptes gratuits présentent certaines limitations, comme le fait de ne pas pouvoir effectuer de recherche dans le corps du texte et de ne pas avoir accès à [Proton Mail Bridge](https://proton.me/mail/bridge), qui est nécessaire pour utiliser un [client d'e-mail de bureau recommandé](email-clients.md) (par exemple Thunderbird). Les comptes payants comprennent des fonctionnalités telles que Proton Mail Bridge, un espace de stockage supplémentaire et la prise en charge de domaines personnalisés. Une [lettre d'attestation](https://proton.me/blog/security-audit-all-proton-apps) a été fournie pour les applications de Proton Mail le 9 novembre 2021 par [Securitum](https://research.securitum.com).
 
-Si vous avez l'offre Proton Unlimited, Business ou Visionary, vous obtenez également [SimpleLogin](email-aliasing.md#simplelogin) Premium gratuitement.
+If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail dispose de rapports de plantages internes qu'il **ne partage pas** avec des tiers. Ils peuvent être désactivés dans l'application web : :gear: → **Tous les paramètres** → **Compte** → **Sécurité et vie privée** → **Vie privée et collecte de données**.
 

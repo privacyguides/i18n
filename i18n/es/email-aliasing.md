@@ -32,9 +32,9 @@ También tienen una cantidad de beneficios sobre los servicios "temporales de co
 - Los correos electrónicos son enviados a tu buzón de confianza, en vez de ser almacenados por el proveedor de los alias.
 - Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, while aliases are private to you.
 
-Nuestras recomendaciones para la generación de alias de correo electrónico son proveedores que te permiten crear alias en los dominios que controlan, al igual que tu(s) propio(s) dominio(s) por una cómoda tarifa anual. Estos pueden ser autoalojados si deseas tener el máximo control. Sin embargo, usar un dominio personalizado puede tener inconvenientes relacionados con la privacidad: Si eres la única persona usando tu dominio personalizado, tus acciones pueden ser rastreadas con facilidad a través de los sitios web, simplemente con el nombre del dominio en la dirección de correo electrónico e ignorando todo lo que se encuentre antes del signo de (@).
+Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as on your own custom domain(s) for a modest yearly fee. Estos pueden ser autoalojados si deseas tener el máximo control. Sin embargo, usar un dominio personalizado puede tener inconvenientes relacionados con la privacidad: Si eres la única persona usando tu dominio personalizado, tus acciones pueden ser rastreadas con facilidad a través de los sitios web, simplemente con el nombre del dominio en la dirección de correo electrónico e ignorando todo lo que se encuentre antes del signo de (@).
 
-Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu proveedor de correo electrónico y tu proveedor de alias. Algunos proveedores mitigan esto ligeramente con el uso de la Encriptación Automática de PGP, que reduce la cantidad de partes en las que necesitas confiar de dos a una, al encriptar tus correos electrónicos entrantes antes de que sean entregados al buzón de tu proveedor final.
+Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu proveedor de correo electrónico y tu proveedor de alias. Some providers mitigate this slightly with automatic PGP encryption[^1], which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
 
 ### addy.io
 
@@ -42,7 +42,7 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 
 ![addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**addy.io** te permite crear 10 alias de dominio en un dominio compartido de forma gratuita, o alias "estándar" ilimitados, que son menos anónimos.
+**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
 
 [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
@@ -70,7 +70,9 @@ Funciones gratuitas destacables:
 - [x] Alias Estándar Ilimitados
 - [ ] No Hay Respuestas Salientes
 - [x] 1 Buzón de Destinatario
-- [x] Cifrado PGP automático
+- [x] Automatic PGP Encryption[^1]
+
+If you cancel your subscription, you will still enjoy the features of your paid plan until the billing cycle ends. After the end of your current billing cycle, most paid features (including any custom domains) will be [deactivated](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it), paid account settings will be reverted to their defaults, and catch-all will be enabled if it was previously disabled.
 
 ### SimpleLogin
 
@@ -102,17 +104,19 @@ Funciones gratuitas destacables:
 
 SimpleLogin fue [adquirido por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) el 8 de abril de 2022. Si utilizas Proton Mail para tu buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tienes que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de tu elección. Securitum [auditó](https://simplelogin.io/blog/security-audit) SimpleLogin a principios de 2022 y todos los problemas [se solucionaron](https://simplelogin.io/audit2022/web.pdf).
 
-Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. Si tienes el plan Proton Unlimited, Business o Visionary, tendrás SimpleLogin Premium gratis.
+Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. If you have the Proton Unlimited plan or any multi-user Proton plan, you will have SimpleLogin Premium for free.
 
 Funciones gratuitas destacables:
 
 - [x] 10 Alias Compartidos
 - [x] Respuestas Ilimitadas
 - [x] 1 Buzón de Destinatario
-- [ ] El cifrado PGP automático solo está disponible en los planes de pago
+- [ ] Automatic PGP Encryption[^1] is only available on paid plans
+
+When your subscription ends, all aliases you created will still be able to receive and send emails. However, you cannot create any new aliases that would exceed the free plan limit, nor can you add a new domain, directory, or mailbox.
 
 ## Criterios
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proveedores que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), evaluamos los proveedores de correo electrónico con el mismo estándar que nuestros [criterios de proveedor de correo electrónico](email.md#criteria) donde corresponda. Sugerimos que te familiarices con esta lista antes de decidir utilizar un servicio de correo electrónico y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-\*[Cifrado PGP Automático]: Te permite cifrar los correos electrónicos entrantes no cifrados antes de que se reenvíen a tu buzón, asegurándote de que tu proveedor de buzón principal nunca vea contenido de correo electrónico no cifrado.
+[^1]: Automatic PGP encryption allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.

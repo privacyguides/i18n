@@ -79,7 +79,7 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 
 Las cuentas gratuitas tienen algunas limitaciones, como no poder buscar texto en el contenido, y no tener acceso a [Proton Mail Bridge](https://proton.me/mail/bridge), que es requerido para utilizar un [cliente recomendado de correo electrónico para escritorio](email-clients.md) (como Thunderbird). Cuentas pagas incluyen funciones como Proton Mail Bridge, almacenamiento adicional, y soporte para dominios personalizados. Una [carta de certificación](https://proton.me/blog/security-audit-all-proton-apps) fue proporcionada para las aplicaciones de Proton Mail el 9 de noviembre de 2021 por [Securitum](https://research.securitum.com).
 
-Si tienes el plan de Proton Unlimited, Business, Family o Visionary, también recibes [SimpleLogin](email-aliasing.md#simplelogin) Premium sin costo adicional.
+If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail tiene informes de errores internos que **no** son compartidos con terceros. Esto se puede desactivar en la aplicación web: :gear: → **Todos los ajustes** → **Cuenta** → **Seguridad y privacidad** → **Privacidad y recolección de datos**.
 

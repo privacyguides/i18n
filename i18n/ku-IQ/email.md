@@ -79,7 +79,7 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 هەژمارە بەخۆڕایەکان هەندێک سنووریان هەیە، وەک نەتوانینی گەڕان لەناو دەقی نامە و مافی نەبوونی بەکارهێنانی [Proton Mail Bridge](https://proton.me/mail/bridge)، کە پێویستە بۆ بەکارهێنانی[ ڕاژەخوازە پێشنیارکراوەکانی سەر کۆمپیوتەر](email-clients.md) (نـم. Thunderbird). هەژمارە پارەدراوەکان هەندێک تایبەتمەندی لەخۆدەگرن وەک Proton Mail Bridge، کۆگای زیادە، و پشتگیری دۆمەینە تایبەتەکان. [نامەیەکی تاقیکردنەوە](https://proton.me/blog/security-audit-all-proton-apps) بە مەبەستی لایەنگری بۆ کاربەرنامەکانی Proton Mail پێشکەشکرا لە 9ـی تشرینی دووەمی(نۆڤێمبەری) ساڵی 2021 لەلایەن [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited, Business, Family, or Visionary plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
 Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 

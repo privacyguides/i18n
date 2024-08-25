@@ -32,9 +32,9 @@ An **email aliasing service** allows you to easily generate a new email address 
 - 電子郵件會發送到您信任的郵箱，而不是儲存在別名服務提供者。
 - 臨時電子郵件服務通常會有公共郵箱，任何知道地址的人都可以訪問，別名則個人所私有的。
 
-我們建議的電子郵件別名供應商，可讓您在他們控制的網域上創建別名，或您支付適度的年費來自定網域。 如果想要最大限度的控制，也可以自主託管。 但是，使用自定網域可能會有隱私上的缺點：如果自己是唯一使用該自定網域的人，只需查看電子郵件地址中的網域名稱並忽略 (@) 符號之前的所有內容，即可輕鬆跟蹤您的動作。
+Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as on your own custom domain(s) for a modest yearly fee. 如果想要最大限度的控制，也可以自主託管。 但是，使用自定網域可能會有隱私上的缺點：如果自己是唯一使用該自定網域的人，只需查看電子郵件地址中的網域名稱並忽略 (@) 符號之前的所有內容，即可輕鬆跟蹤您的動作。
 
-使用別名服務需要信任電子郵件提供商和別名提供商如何對待用戶未加密的消息。 有些供應商會透過自動 PGP 加密來稍微減輕這種情況，傳送到最終信箱供應商之前加密所傳送的電子郵件，將需要信任的各方數量從兩個減少到一個。
+使用別名服務需要信任電子郵件提供商和別名提供商如何對待用戶未加密的消息。 Some providers mitigate this slightly with automatic PGP encryption[^1], which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
 
 ### addy.io
 
@@ -42,7 +42,7 @@ An **email aliasing service** allows you to easily generate a new email address 
 
 ![addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**addy.io** 可在共用網域上免費建立 10 個網域別名，或無限的匿名程度較低的「標準」別名。
+**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
 
 [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
@@ -70,7 +70,9 @@ An **email aliasing service** allows you to easily generate a new email address 
 - [x] 無限制的標準別名數量
 - [ ] 無對外回覆
 - [x] 1個收件人郵箱
-- [x] 自動 PGP 加密
+- [x] Automatic PGP Encryption[^1]
+
+If you cancel your subscription, you will still enjoy the features of your paid plan until the billing cycle ends. After the end of your current billing cycle, most paid features (including any custom domains) will be [deactivated](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it), paid account settings will be reverted to their defaults, and catch-all will be enabled if it was previously disabled.
 
 ### SimpleLogin
 
@@ -102,17 +104,19 @@ An **email aliasing service** allows you to easily generate a new email address 
 
 SimpleLogin 在2022 年 4月8日[已被 Proton AG 收購](https://proton.me/news/proton-and-simplelogin-join-forces)。 如果主要郵箱使用 Proton Mail， SimpleLogin是一個不錯的選擇。 這兩種產品現在都由同一家公司擁有，您只需要信任單一實體。 我們預計 SimpleLogin 未來會與 Proton 產品更緊密地整合。 SimpleLogin 繼續支援轉寄至您所選擇的任何電子郵件供應商。 Securitum 在 2022 年初[審核](https://simplelogin.io/blog/security-audit) SimpleLogin，所有問題[均已改善](https://simplelogin.io/audit2022/web.pdf)。
 
-可在設定中將 SimpleLogin 帳戶與 Proton 帳戶作連結。 如果有 Proton Unlimited 、Business 或 Visionary 計劃，也可免費獲得 SimpleLogin Premium。
+可在設定中將 SimpleLogin 帳戶與 Proton 帳戶作連結。 If you have the Proton Unlimited plan or any multi-user Proton plan, you will have SimpleLogin Premium for free.
 
 值得注意的免費功能：
 
 - [x] 10 個共享別名
 - [x] 無回復上限
 - [x] 1個收件人郵箱
-- [ ] 付費版才有自動 PGP 加密功能
+- [ ] Automatic PGP Encryption[^1] is only available on paid plans
+
+When your subscription ends, all aliases you created will still be able to receive and send emails. However, you cannot create any new aliases that would exceed the free plan limit, nor can you add a new domain, directory, or mailbox.
 
 ## 標準
 
 \*\*請注意，我們與所推薦的服務提供者並無任何關係。 \*\* 除了[評比標準](about/criteria.md) 之外，我們還按照與一般[電子郵件提供者標準]相同的標準評估電子郵件別名提供者](email.md#criteria) 。 建議在選擇電子郵件提供商之前熟悉此列表，並進行自己的研究，以確保選出正確適合的電子郵件提供商。
 
-\*[自動 PGP 加密]: 可將未加密的電子郵件來文在轉發到郵箱前先予加密，確保主要郵箱提供者永遠不會看到未加密的電子郵件內容。
+[^1]: Automatic PGP encryption allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.
