@@ -13,6 +13,8 @@ Fedezd fel, hogyan oszthatod meg fájljaid privát módon készülékek között
 
 ## Fájlmegosztás
 
+If you have already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarden](passwords.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
+
 ### Send
 
 <div class="admonition recommendation" markdown>
@@ -151,7 +153,6 @@ A **Syncthing** egy nyílt forráskódú peer-to-peer folyamatos fájlszinkroniz
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### Követelmények
 
 **Tartsd figyelemben, hogy nem állunk kapcsolatban az általunk ajánlott projektek egyikével sem.** Az [alap kritériumaink mellett](about/criteria.md), egyértelmű követelményrendszert dolgoztunk ki, hogy objektív ajánlásokat tudjunk tenni. Javasoljuk, hogy ismerkedj meg ezzel a listával, mielőtt kiválasztanál egy projektet, és végezz saját kutatásokat, hogy megbizonyosodj arról, hogy ez a megfelelő választás számodra.
@@ -166,5 +167,8 @@ A **Syncthing** egy nyílt forráskódú peer-to-peer folyamatos fájlszinkroniz
 
 A legjobb esetben alkalmazott követelményeink azt fejezik ki, hogy mit szeretnénk látni egy tökéletes projekttől ebben a kategóriában. Előfordulhat, hogy ajánlásaink nem tartalmazzák az összes ilyen funkciót, de azok, amelyek igen, magasabb helyen szerepelhetnek, mint mások ezen az oldalon.
 
-- Van mobil kliense iOS és Android rendszerekre, amelyek legalább dokumentum előnézeteket támogatnak.
-- Támogatja fényképek biztonsági mentését iOS-ről és Androidról, és opcionálisan támogatja a fájl/mappa szinkronizálást Androidon.
+- Should have mobile clients for iOS and Android which at least support document previews.
+- Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.
+
+[^1]: Proton Drive allows you to [share files or folders](https://proton.me/support/drive-shareable-link) by generating a shareable public link or sending a unique link to a designated email address. Public links can be protected with a password, set to expire, and completely revoked, while links shared via email can have custom permissions and be similarly revoked. Per Proton Drive's [privacy policy](https://proton.me/drive/privacy-policy), file contents, file and folder names, and thumbnail previews are end-to-end encrypted.
+[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the Send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).

@@ -190,10 +190,6 @@ Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as it
 
 - [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
 
-Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). Ett lösenord [](https://bitwarden.com/help/send-privacy/#send-passwords) kan krävas tillsammans med sändningslänken. Bitwarden Send har också [automatisk radering](https://bitwarden.com/help/send-lifespan).
-
-Du behöver [Premium Plan](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) för att kunna dela filer. Gratisabonnemanget tillåter endast textdelning.
-
 Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Om du vill vara värd för Bitwarden på din egen server, vill du nästan säkert använda Vaultwarden över Bitwardens officiella serverkod.

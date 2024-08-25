@@ -13,6 +13,8 @@ cover: file-sharing.webp
 
 ## 檔案分享
 
+If you have already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarden](passwords.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
+
 ### Send
 
 <div class="admonition recommendation" markdown>
@@ -151,7 +153,6 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
@@ -166,5 +167,8 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- 具有適用於 iOS 和 Android 的移動客戶端，其至少支持文件預覽。
-- 支援 iOS 和 Android 照片備份， 或是最好能 支援Android 檔案/資料夾同步。
+- Should have mobile clients for iOS and Android which at least support document previews.
+- Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.
+
+[^1]: Proton Drive allows you to [share files or folders](https://proton.me/support/drive-shareable-link) by generating a shareable public link or sending a unique link to a designated email address. Public links can be protected with a password, set to expire, and completely revoked, while links shared via email can have custom permissions and be similarly revoked. Per Proton Drive's [privacy policy](https://proton.me/drive/privacy-policy), file contents, file and folder names, and thumbnail previews are end-to-end encrypted.
+[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the Send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).

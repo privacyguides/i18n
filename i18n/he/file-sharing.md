@@ -13,6 +13,8 @@ cover: file-sharing.webp
 
 ## שיתוף קבצים
 
+If you have already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarden](passwords.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
+
 ### Send
 
 <div class="admonition recommendation" markdown>
@@ -151,7 +153,6 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
@@ -166,5 +167,8 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
-- יש לו לקוחות ניידים עבור iOS ואנדרואיד, שלפחות תומכים בתצוגה מקדימה של מסמכים.
-- תומך בגיבוי תמונות מ-iOS ואנדרואיד, ותומך באופן אופציונלי בסנכרון קבצים/תיקיות באנדרואיד.
+- Should have mobile clients for iOS and Android which at least support document previews.
+- Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.
+
+[^1]: Proton Drive allows you to [share files or folders](https://proton.me/support/drive-shareable-link) by generating a shareable public link or sending a unique link to a designated email address. Public links can be protected with a password, set to expire, and completely revoked, while links shared via email can have custom permissions and be similarly revoked. Per Proton Drive's [privacy policy](https://proton.me/drive/privacy-policy), file contents, file and folder names, and thumbnail previews are end-to-end encrypted.
+[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the Send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).

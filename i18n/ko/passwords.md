@@ -190,10 +190,6 @@ Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as it
 
 - [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
 
-Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). Send 링크에 [비밀번호를 설정](https://bitwarden.com/help/send-privacy/#send-passwords)할 수도 있습니다. [자동 삭제](https://bitwarden.com/help/send-lifespan) 기능 또한 지원합니다.
-
-파일 공유 기능은 [프리미엄 요금제](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans)에만 제공됩니다. 무료 플랜은 텍스트 공유만 가능합니다.
-
 Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Vaultwarden은 개인 서버에서 Bitwarden을 자체 호스팅하는 경우 공식 Bitwarden 서버 코드보다 선호됩니다.

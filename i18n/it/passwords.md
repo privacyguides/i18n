@@ -190,10 +190,6 @@ Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as it
 
 - [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
 
-Bitwarden dispone anche di [Bitwarden Send](https://bitwarden.com/products/send), che ti consente di condividere testi e file in modo sicuro con la [crittografia end-to-end](https://bitwarden.com/help/send-encryption). Una [password](https://bitwarden.com/help/send-privacy/#send-passwords) può essere richiesta insieme al link di invio. Bitwarden Send dispone inoltre di funzionalità di [cancellazione automatica](https://bitwarden.com/help/send-lifespan).
-
-Per poter condividere i file è necessario il [piano Premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans). Il piano gratuito consente esclusivamente la condivisione di testo.
-
 Il codice utilizzato dai server di Bitwarden è [open-source](https://github.com/bitwarden/server), quindi se non vuoi utilizzare il loro servizio di cloud, puoi tranquillamente utilizzare un tuo server per la sincronizzazione.
 
 **Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Se desideri ospitare autonomamente il tuo server di Bitwarden, desidererai quasi sicuramente utilizzare Vaultwarden, rispetto al codice del server ufficiale di Bitwarden.

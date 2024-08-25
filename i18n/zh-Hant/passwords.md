@@ -190,10 +190,6 @@ Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as it
 
 - [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
 
-Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). 發送分享鏈接時可以要求帶[分享密碼](https://bitwarden.com/help/send-privacy/#send-passwords) 。 Bitwarden Send 還具[自動刪除功能](https://bitwarden.com/help/send-lifespan)。
-
-您需要使用 [高級付費方案](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) 才能共享檔案。 免費方案只允許文字分享。
-
 Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，因此如果不想使用 Bitwarden 雲端，可以輕鬆地託管自己的 Bitwarden 同步伺服器。
 
 **Vaultwarden** 是 Bitwarden 同步伺服器的另一種實作，以 Rust 寫成，並與官方的 Bitwarden 用戶端相容。非常適合用來自架服務，因為使用資源吃重的官方服務可能不是很理想。 如果您想在自己的伺服器上自行託管 Bitwarden，幾乎可以肯定的是，您想使用 Vaultwarden 而不是 Bitwarden 的官方伺服器程式碼。

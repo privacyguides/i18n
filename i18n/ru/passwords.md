@@ -190,10 +190,6 @@ Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as it
 
 - [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
 
-Bitwarden also features [Bitwarden Send](https://bitwarden.com/products/send), which allows you to share text and files securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). Отправленные через Bitwarden Send данные можно защитить [паролем](https://bitwarden.com/help/send-privacy/#send-passwords). Bitwarden Send также имеет функцию [автоматического удаления данных](https://bitwarden.com/help/send-lifespan).
-
-Чтобы иметь возможность обмениваться файлами, вам необходима [Премиум-подписка](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans). Бесплатный план позволяет обмениваться только текстом.
-
 Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
 
 **Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Если вы хотите самостоятельно развернуть Bitwarden на своем сервере, скорее всего, вам стоит использовать Vaultwarden вместо официального сервера Bitwarden.
