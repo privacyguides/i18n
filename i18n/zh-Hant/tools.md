@@ -269,7 +269,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 [了解更多 :material-arrow-right-drop-circle:](cloud.md)
 
-### Data Removal Services
+### 資料移除服務
 
 <div class="grid cards" markdown>
 

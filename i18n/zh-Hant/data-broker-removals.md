@@ -1,34 +1,34 @@
 ---
-title: Data Removal Services
+title: 資料移除服務
 icon: material/database-off
-description: Our recommended methods for removing your personal information from data brokers and people search sites.
+description: 以下是我們建議從資料仲介和人肉搜索網站移除您個人資訊的方法。
 cover: data-broker-removals.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
-- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: 公開揭露](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-"People search sites" operated by data brokers represent an immense privacy risk to the majority of Americans. For many, sensitive personal information such as your address, phone number, email, and age is a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their _public_ databases upon request.
+由資料仲介經營的 「人肉搜索網站 」對大多數美國人而言，代表著巨大的隱私風險。 對許多人而言，只要在網路上簡單搜尋一下，就能取得您的地址、電話號碼、電子郵件和年齡等敏感個人資訊。 很遺憾的沒有聯邦法規可以保護您的資料，但許多這些公司會應要求將您的資料從其_公開_的資料庫中移除。
 
-:flag_us: **Note:** Many of these tools are only available in the United States, and data brokers collecting, sharing, and selling information from public records and other resources is largely a US-centric issue. In many other regions, your data is already protected via regulations like the GDPR. We will always advocate for similarly strong privacy protections in the United States, but those affected today may still benefit from these "stop-gap" solutions.
+:flag_us: **備註：** 其中許多工具僅在美國可用，資料仲介從公共記錄和其他資源中收集、分享和銷售資訊，主要是以美國為中心的問題。 在許多其他地區，您的資料已經受到 GDPR 等法規的保護。 我們將始終主張在美國提供類似的強大隱私權保護，但今天受影響的人仍可能受惠於這些「權宜之計」的解決方案。
 
-Counterintuitively, removing your personal data on these sites from the internet generally requires _providing_ these companies with your personal data for them to comply with the request. Unfortunately, in most cases it is still worth doing so to minimize the amount of personal data about you which is publicly accessible.
+與直覺相反的是，從網路上移除您在這些網站上的個人資料，通常需要向這些公司_提供_您的個人資料，他們才會遵照您的要求。 不幸的是，在大多數情況下，仍值得這樣做，以盡量減少您的個人資料可被公開存取的數量。
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out</p>
+<p class="admonition-title">試試看</p>
 
-Use your favorite [search engine](search-engines.md) to see if your data is trivially exposed by searching for your name in quotes, plus your general location. For example, search for `"Jane Smith" Chicago IL`. In many cases, you may find your personal information makes up many of the first results. Even if results about you aren't readily available though, you may still be affected. The list of data brokers linked below will provide more places to check whether your data is in any public databases.
+使用您最喜愛的 [搜尋引擎](search-engines.md)，透過搜尋您帶引號的名字，再加上您的一般位置，看看您的資料是否會輕易曝光。 例如，搜尋 `"Jane Smith" Chicago IL`。 在許多情況下，您可能會發現您的個人資訊佔了許多第一個結果。 即使有關您的結果並非唾手可得，您仍可能受到影響。 以下連結的資料仲介清單將提供更多檢查您的資料是否存在於任何公開資料庫的地方。
 
 </div>
 
-## Manual Opt-Outs <small>Free</small>
+## 手動選擇退出 <small>免費</small>
 
-The quickest, most effective, and most private way to remove yourself from people search sites is to submit opt-out requests manually to each site. This can _seem_ like a daunting task, because there are hundreds of people search sites, but the reality is that the vast majority of these sites are operated by a small handful of companies.
+要將自己從人肉搜尋網站移除，最快速、最有效、最隱私的方法是手動向每個網站提交退出請求。 這_看似_是一項艱鉅的任務，因為人肉搜尋網站多達數百個，但事實上這些網站絕大多數都是由一小撮公司所營運。
 
-You should search for your information on these 8 sites first, and submit an opt-out request if your information is found. Removing your data from these providers typically removes your data from many smaller sites at the same time.
+您應該先在這 8 個網站上搜尋您的資訊，如果找到您的資訊，請提交退出請求。 從這些仲介移除您的資料，通常會同時從許多小型網站移除您的資料。
 
-- Acxiom
+- 安客城
 - BeenVerified
 - InfoTracer
 - Intelius
@@ -37,42 +37,42 @@ You should search for your information on these 8 sites first, and submit an opt
 - TruePeopleSearch
 - Whitepages
 
-Once you have done this, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use tools like [Optery](#optery-free-paid)'s free reports or [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
+一旦您完成這項工作，最好等待一、兩週讓請求傳播到他們所有的網站。 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 使用 [Optery](#optery-free-paid) 的免費報告或 [Google 的 _與你相關的結果_](#google-results-about-you-free)等工具來協助尋找網際網路上殘留的任何資料，可能是個好主意。
 
-Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go though each site to determine whether they have your information, and remove it:
+否則，隱私權記者 Yael Grauer 已經編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 您可以花一些時間瀏覽每個網站，確定它們是否有您的資訊，然後將其移除：
 
 [:simple-github: Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
-If you don't use an automatic scanner to find results about you, consider setting a reminder to re-do this process every 3, 6, or 12 months depending on your risk level and the amount of personal data you have out there. Unfortunately, it is common for your data to re-appear over time or show up on brand new people search sites even after you opt-out.
+如果您沒有使用自動掃描器來尋找關於您的結果，請考慮設定提醒，每 3、6 或 12 個月重新執行此程序，視您的風險等級和您在外的個人資料數量而定。 不幸的是，即使您選擇退出，您的資料仍會隨著時間重新出現，或顯示在全新的人肉搜尋網站上。
 
-## EasyOptOuts <small>Paid</small>
+## EasyOptOuts <small>需付費</small>
 
 <div class="admonition recommendation" markdown>
 
-![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
+![EasyOptOuts 標誌](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
 
-**EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
+**EasyOptOuts** 是一項每年 20 美元的服務，它會搜尋許多不同的資料仲介網站，並代表您自動提交退出請求。 他們會立即執行第一次搜尋和移除程序，然後每 4 個月重新執行一次，以防您的資料隨著時間的推移出現在新的網站上。
 
-[:octicons-home-16: Homepage](https://easyoptouts.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: 首頁](https://easyoptouts.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="隱私權政策" }
 
 </div>
 
-Some websites supported by EasyOptOuts are publicly searchable. In those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
+EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOptOuts 會執行搜尋，只有在已找到您的個人資料時，才會提交退出請求，以避免在退出請求中，將您的資料傳送至尚未擁有您個人資料的網站。 不過，他們確實支援一些無法公開搜尋的網站，在這些情況下，您的資料會以退出請求的方式傳送給他們，無論如何，以防您在他們的私人資料庫中。
 
-Our testing indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. We will publish a detailed review of EasyOptOuts on our blog in the near future and update this page when it is published. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+我們的測試顯示，在我們測試過的所有資料移除服務中，EasyOptOuts 提供了最有價值的服務，價格非常實惠，而且效能很高。 我們會在不久的將來在部落格上發表 EasyOptOuts 的詳細評測，並在發表時更新本頁面。 [《消費者報告》的獨立調查結果](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) 也顯示 EasyOptOuts 是效能最佳的資料移除服務之一。
 
-## Optery <small>Free & Paid</small>
+## Optery <small>免費 & 付費</small>
 
 <div class="admonition recommendation" markdown>
 
-![Optery logo](assets/img/data-broker-removals/optery.svg){ align=right }
+![Optery 標誌](assets/img/data-broker-removals/optery.svg){ align=right }
 
-**Optery** is a free scanning tool which will discover which people search sites have your personal information, provide you with a report of those sites, and link you directly to the self-service removal process to do manually. If you keep your account, the report will be updated quarterly. Optery also has paid plans available where they will submit opt-out requests automatically on your behalf.
+**Optery** 是一個免費的掃描工具，它會發現哪些人肉搜尋網站有您的個人資訊，提供您這些網站的報告，並直接連結到自助移除程序，讓您手動進行移除。 如果您保留帳戶，報告將每季更新一次。 Optery 也提供付費計劃，他們會代表您自動提交退出請求。
 
-[:octicons-home-16: Homepage](https://optery.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://optery.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.optery.com){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://optery.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://optery.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://help.optery.com){ .card-link title=說明文件}
 
 </div>
 
@@ -97,8 +97,8 @@ We have not finished testing Optery's premium, _automatic_ opt-out plans, althou
 
 在許多情況下，Google 搜尋是潛在騷擾者或施虐者尋找您個人資訊的第一個地方，因此使用 Google 搜尋是值得的。 但是，此工具不會從被發現的網站本身移除您的資訊，只會移除它們在 Google 上的搜尋結果。 您仍應考慮手動退出所發現的結果，或使用其他服務直接自動退出這些網站。
 
-You can add up to 3 addresses, 3 phone numbers, and 3 email addresses to your Google account to monitor for. The service is only available in select markets (initially the US and UK) to users over 18.
+您最多可以在 Google 帳戶中加入 3 個地址、3 個電話號碼和 3 個電子郵件地址，以便監控。 這項服務僅在特定市場 (最初是美國和英國) 提供給 18 歲以上的使用者。
 
-When results are found, they will be available for review in this web tool. You can also optionally receive an email notification delivered to the account's Gmail address that lets you know when new results are found. You will then be able to click **Request to remove** on each discovered listing, and Google will review the request.
+找到結果後，即可在此網頁工具中檢視。 您也可以選擇接收傳送到帳戶 Gmail 位址的電子郵件通知，讓您知道何時找到新的結果。 之後您就可以在每個被發現的列名上按一下 **要求移除**，Google 就會審核您的要求。
 
-In our testing, this tool worked to reliably remove people search sites from Google search results, but was not effective against websites that showed _corporate_ filing information, even if you used your personal address to register a company, nor was it effective against social media profiles.
+在我們的測試中，此工具能可靠地從 Google 搜尋結果中移除人物搜尋網站，但對於顯示_公司_申報資訊的網站，即使您使用個人地址註冊公司也無效，對於社交媒體檔案也無效。
