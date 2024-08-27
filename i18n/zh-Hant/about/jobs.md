@@ -1,11 +1,11 @@
 ---
-title: Job Openings
+title: 工作職缺
 ---
 
-Privacy Guides has a small, remote team of privacy researchers and advocates working to further our mission of protecting free expression and promoting privacy-respecting technology. As a non-profit, we are expanding very slowly to ensure the project is sustainable in the long term. All of our staff members are listed [here](../about.md#staff). Please consider [donating](donate.md) to support our cause.
+Privacy Guides 擁有一支由隱私權研究人員和倡導者組成的小型遠端作業團隊，致力於促進我們保護自由表達和推廣尊重隱私權技術的使命。 身為非營利組織，我們的擴展速度非常緩慢，以確保本專案能長期持續發展。 我們所有的工作人員都列在 [這裡](../about.md#staff)。 請考慮 [捐款](donate.md) 來支持我們的事業。
 
-We are occasionally looking for strong journalistic writers, product reviewers, and privacy experts to help us out, and any open positions will be posted below.
+我們偶爾會尋找有實力的新聞撰稿人、產品評論員和隱私權專家來幫助我們，任何空缺的職位都會張貼在下方。
 
 ---
 
-_We do not have any job openings at the moment._
+\*我們目前沒有任何職位空缺。

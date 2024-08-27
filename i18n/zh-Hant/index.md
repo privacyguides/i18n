@@ -173,9 +173,9 @@ schema:
 <div markdown>
 ## 什麼是隱私工具？
 
-我們建議您使用多種**隱私工具**（又稱爲 *隱私應用程式*、*隱私工具*、*隱私軟體*）橫跨軟體與硬體，您可以採用這些軟體與硬體來改善您的隱私。 我們推薦的許多工具都是完全免費使用的開放原始碼軟體，而有些則是可供購買的商業服務。 從 Google Chrome 和 Windows 等渴求資料的主流軟體，轉換為 [Brave](desktop-browsers.md#brave)和 [Linux](desktop.md) 等注重隱私權的工具，對於控制您與公司和其他人分享的資訊有很大幫助。
+我們建議您使用多種**隱私工具**（又稱爲 *隱私應用程式*、*隱私工具*、*隱私軟體*）橫跨軟體與硬體，您可以採用這些軟體與硬體來改善您的隱私。 我們推薦的許多工具都是完全免費使用的開放原始碼軟體，而有些則是可供購買的商業服務。 從 Google Chrome 和 Windows 等渴求資料的主流軟體，轉換為 [Brave](desktop-browsers.md#brave) 和 [Linux](desktop.md) 等注重隱私權的工具，對於控制您與公司和其他人分享的資訊有很大幫助。
 
-[:material-check-all: 我們的一般準則](about/criteria.md){ class="md-button" }
+[:material-check-all: 我們的通用準則](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>

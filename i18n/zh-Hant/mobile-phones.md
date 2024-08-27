@@ -1,97 +1,97 @@
 ---
-title: Mobile Phones
+title: 手機
 icon: material/cellphone-check
-description: These mobile devices have proper Android Verified Boot support for custom operating systems.
+description: 這些行動裝置具備適當的 Android 驗證啟動支援，可支援自訂作業系統。
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": 網頁
-    name: Mobile Phone Recommendations
+    name: 手機推薦
     url: ./
   - "@context": http://schema.org
-    "@type": Product
+    "@type": 產品
     name: Pixel
     brand:
-      "@type": Brand
+      "@type": 品牌
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://zh.wikipedia.org/wiki/Google_Pixel
     review:
-      "@type": Review
+      "@type": 評論
       author:
-        "@type": Organization
+        "@type": 組織
         name: Privacy Guides
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-Most **mobile phones** receive short or limited windows of security updates from OEMs; after these devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
+大多數的**手機**都會從 OEM 收到短期或有限的安全更新；在這些裝置的支援期結束後，它們就不會再收到韌體或驅動程式的安全更新，因此**不能**被視為是安全的。
 
-The mobile devices listed here provide a long lifespan of guaranteed security updates and allow you to install a custom operating system without violating the Android security model.
+此處列出的行動裝置可提供長壽命的保證安全更新，並允許您安裝自訂作業系統，而不會違反 Android 安全模型。
 
-[Recommended Custom OSes :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[推薦的客製化作業系統 :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Android 安全性詳細資訊 :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-End-of-life devices (such as GrapheneOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+由於 OEM 終止支援，生命週期結束的裝置 (例如 GrapheneOS 的「延伸支援」裝置) 並沒有完整的安全修補程式 (韌體更新)。 無論是否安裝軟體，這些裝置都不能視為完全安全。
 
 </div>
 
-## Purchasing Advice
+## 採購建議
 
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+購買裝置時，我們建議盡可能購買全新的裝置。 行動裝置的軟體和韌體只能支援一段有限的時間，因此購買新裝置可以儘可能延長使用期限。
 
-Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
+避免向行動網路業者購買手機。 這些產品通常具有**鎖定的開機載入程式**，且不支援 [OEM 解鎖](https://source.android.com/devices/bootloader/locking_unlocking)。 這些有差異的手機會阻止您安裝任何類型的替代 Android 發行套件。
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). There is also a risk involved with you being associated with the activity of the previous owner.
+從線上購物購買二手手機時要非常**小心**。 務必檢查賣家的聲譽。 如果裝置被盜，就有可能被輸入 [IMEI 資料庫](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database)。 您與前一位持有者的活動有關聯也會有風險。
 
-A few more tips regarding Android devices and operating system compatibility:
+更多關於 Android 裝置和作業系統相容性的提示：
 
-- Do not buy devices that have reached or are near their end-of-life; additional firmware updates must be provided by the manufacturer.
-- Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net) to find details!
+- 請勿購買已達使用期限或接近使用期限的裝置；製造商必須提供額外的韌體更新。
+- 請勿購買預載的 LineageOS 或 /e/ OS 手機，或任何沒有適當 [驗證開機](https://source.android.com/security/verifiedboot) 支援和韌體更新的 Android 手機。 這些裝置也無法讓您檢查它們是否被竄改過。
+- 簡而言之，如果這裡沒有列出裝置，可能是有充分理由的。 查看我們的 [論壇](https://discuss.privacyguides.net) 以瞭解詳細資訊！
 
 ## Google Pixel
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+Google Pixel 手機是我們**唯一**推薦購買的裝置。 Pixel 手機擁有比目前市面上其他 Android 裝置更強的硬體安全性，這是由於第三方作業系統有適當的 AVB 支援，以及 Google 的客製化 [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) 安全晶片扮演安全元件的角色。
 
 <div class="admonition recommendation" markdown>
 
 ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
 
-**Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
+眾所周知，**Google Pixel** 裝置具有良好的安全性，即使在安裝自訂作業系統時，也能正確支援 [驗證開機](https://source.android.com/security/verifiedboot)。
 
-Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+從 **Pixel 8** 和 **8 Pro** 開始，Pixel 裝置將獲得至少 7 年的保證安全更新，相較於競爭 OEM 通常提供的 2-5 年，可確保更長的使用壽命。
 
-[:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+[:material-shopping: 商店](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 </div>
 
-Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for _all_ of those functions, resulting in a larger attack surface.
+Titan M2 之類的安全元件比其他大多數手機所使用的處理器可信執行環境更為有限，因為它們僅用於機密儲存、硬體驗證和速率限制，而非執行「可信賴」的程式。 沒有安全元件的手機必須使用 TEE 來執行**所有**這些功能，因此會產生較大的攻擊面。
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+Google Pixel 手機使用的 TEE OS 名為 Trusty，與許多其他手機不同，它是[開放原始碼](https://source.android.com/security/trusty#whyTrusty)的。
 
-The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
+使用他們的 [線上安裝程式](https://grapheneos.org/install/web)，在 Pixel 手機上安裝 GrapheneOS 非常簡單。 如果您不習慣自己動手，又願意多花一點錢，可以看看 [NitroPhone](https://shop.nitrokey.com/shop)，因為它們預載了來自聲譽良好的 [Nitrokey](https://nitrokey.com/about) 公司的 GrapheneOS。
 
-A few more tips for purchasing a Google Pixel:
+還有一些購買 Google Pixel 的小提醒：
 
-- If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
-- Consider price beating options and specials offered at physical stores.
-- Look at online community bargain sites in your country. These can alert you to good sales.
-- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
-  , meaning that the longer use of the device the lower cost per day.
-- If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
+- 如果您想以便宜的價格購買 Pixel 裝置，我們建議您購買「**a**」機型，就在下一款旗艦機發表之後。 通常都會有折扣，因為 Google 要清理庫存。
+- 考慮實體商店提供的價格優惠方案和特價商品。
+- 查看您所在國家或地區的線上社群特價網站。 這些都可以提醒您有好的入手價格。
+- Google 提供了一份清單，顯示每部裝置的 [支援週期](https://support.google.com/nexus/answer/4457705)。 裝置的每日價格可計算為 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>成本</mtext> <mrow> <mtext>壽命結束日期</mtext> <mo>-</mo> <mtext>目前日期</mtext> </mrow> </mfrac> </math>
+  這表示裝置使用時間越長，每天的成本就越低。
+- 如果您所在的地區沒有 Pixel，[NitroPhone](https://shop.nitrokey.com/shop) 可以全球配送。
 
 ## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+\*\*請注意，我們與推薦的任何專案都沒有任何關係。\*\*除了 [我們的標準準則](about/criteria.md)之外，我們還制定了一套明確的要求，讓我們能夠提供客觀的推薦。 我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
 
-- Must support at least one of our recommended custom operating systems.
-- Must be currently sold new in stores.
-- Must receive a minimum of 5 years of security updates.
-- Must have dedicated secure element hardware.
+- 必須支援至少一種我們推薦的客製化作業系統。
+- 必須是目前店內銷售的全新產品。
+- 必須接受至少 5 年的安全更新。
+- 必須有專用的安全元件硬體。
