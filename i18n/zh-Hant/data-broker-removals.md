@@ -80,22 +80,22 @@ Optery's free scanning tool is an effective way to discover which data brokers h
 
 We have not finished testing Optery's premium, _automatic_ opt-out plans, although initial results appear to be positive. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that Optery is one of the top performing data removal services. It necessarily takes at least a few months for us to evaluate a new data removal service, so check back here soon for our own test results. We will also publish a detailed review of Optery's full service on our blog when we have completed testing, and we will update this page accordingly.
 
-## Google _Results About You_ <small>Free</small>
+## Google _與你相關的結果_ <small>免費</small>
 
-This method will require you to submit your personal information to Google for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
+此方法需要您將您的個人資訊提交給 Google，讓他們定期監控您的搜尋結果。 Google 聲稱不會將提供給此工具的資訊用於其他 Google 產品，以「個人化您的體驗」。
 
 <div class="admonition recommendation" markdown>
 
-![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
+![Google 標誌](assets/img/data-broker-removals/google.svg){ align=right }
 
-**Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal.
+**與你相關的結果** 是一個免費工具，可協助您發現您的個人聯絡資訊，包括住家地址、電話號碼和電子郵件地址，是否會出現在 Google 搜尋結果中。 如果發現任何個人資訊，您可以要求刪除。
 
-[:octicons-globe-16: Open Web Tool](https://myactivity.google.com/results-about-you){ .md-button .md-button--primary }
-[:octicons-info-16:](https://support.google.com/websearch/answer/12719076){ .card-link title=Documentation}
+[:octicons-globe-16: 打開網頁工具](https://myactivity.google.com/results-about-you){ .md-button .md-button--primary }
+[:octicons-info-16:](https://support.google.com/websearch/answer/12719076){ .card-link title=說明文件}
 
 </div>
 
-In many cases, a Google search is the first place a potential stalker or abuser would look to find your personal information, which could make using it a worthwhile trade-off. However, this tool does not remove your information from the discovered websites themselves, only their listings on Google. You should still consider manually opting out from the results which are discovered, or using another service which automatically opts you out from those sites directly.
+在許多情況下，Google 搜尋是潛在騷擾者或施虐者尋找您個人資訊的第一個地方，因此使用 Google 搜尋是值得的。 但是，此工具不會從被發現的網站本身移除您的資訊，只會移除它們在 Google 上的搜尋結果。 您仍應考慮手動退出所發現的結果，或使用其他服務直接自動退出這些網站。
 
 You can add up to 3 addresses, 3 phone numbers, and 3 email addresses to your Google account to monitor for. The service is only available in select markets (initially the US and UK) to users over 18.
 
