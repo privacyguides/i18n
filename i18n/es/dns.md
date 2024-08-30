@@ -9,11 +9,11 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protégete contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Un DNS encriptado con servidores de terceros solo debe utilizarse para evitar el [bloqueo de DNS básico](https://en.wikipedia.org/wiki/DNS_blocking) cuándo puedas estar seguro de que no habrá ningunas consecuencias. Un DNS encriptado no te ayudará a esconder ninguna de tu actividad en línea.
+Un DNS cifrado con servidores de terceros solo debe utilizarse para evitar el [bloqueo de DNS básico](https://en.wikipedia.org/wiki/DNS_blocking) cuándo puedas estar seguro de que no habrá ningunas consecuencias. Un DNS cifrado no te ayudará a esconder ninguna de tu actividad en línea.
 
 [Aprende más sobre DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
@@ -172,7 +172,7 @@ Aunque RethinkDNS ocupa el espacio VPN de Android, puedes seguir utilizando una 
 
 ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+**dnscrypt-proxy** es un proxy DNS compatible con [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-sobre-HTTPS](advanced/dns-overview.md#dns-sobre-https-doh), y [DNS anónimo](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 [:octicons-repo-16: Repositorio](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentación}
@@ -180,7 +180,7 @@ Aunque RethinkDNS ocupa el espacio VPN de Android, puedes seguir utilizando una 
 [:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Descargas</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
@@ -193,7 +193,7 @@ Aunque RethinkDNS ocupa el espacio VPN de Android, puedes seguir utilizando una 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
+La función de DNS anónimo [no](advanced/dns-overview.md#por-que-no-deberia-utilizar-un-dns-cifrado) hace anónimo otro tráfico de red.
 
 </div>
 
@@ -201,21 +201,21 @@ The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-us
 
 **Ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten proporcionar recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir usar un proyecto, y que lleves a cabo tu propia investigación para asegurarte de que es la elección correcta para ti.
 
-All DNS products must support:
+Todos los productos DNS deben ser compatibles:
 
 - [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [Minimización QNAME](advanced/dns-overview.md#what-is-qname-minimization).
 - Anonimizar [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) o desactivarlo por defecto.
 
-Additionally, all public providers:
+Además, todos los proveedores públicos:
 
 - Preferir soporte [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) o soporte de dirección geográfica.
-- Must not log any personal data to disk
-    - As noted in our footnotes, some providers collect query information for example, for purposes like security research, but in that case that data must not be associated with any PII such as IP address, etc.
+- No debe registrar datos personales en disco
+    - Como se indica en nuestras notas a pie de página, algunos proveedores recopilan información de consulta, por ejemplo, para fines como la investigación de seguridad, pero en ese caso esos datos no deben asociarse a ninguna IPI, como la dirección IP, etc.
 
 [^1]: AdGuard almacena métricas de rendimiento agregadas de sus servidores DNS, es decir, el número de solicitudes completas a un servidor en particular, el número de solicitudes bloqueadas, y la velocidad de procesamiento de solicitudes. También guardan y almacenan la base de datos de dominios solicitados dentro de las últimas 24 horas. "Necesitamos esta información para identificar y bloquear nuevos rastreadores y amenazas". "También registramos cuántas veces se ha bloqueado tal o cual rastreador. Necesitamos esta información para eliminar normas obsoletas de nuestros filtros". [https://adguard.com/en/privacy/dns.html](https://adguard.com/en/privacy/dns.html)
 [^2]: Cloudflare recopila y almacena únicamente los datos de consulta DNS limitados que se envían al resolver 1.1.1.1. El servicio de resolución 1.1.1.1 no registra datos personales, y el grueso de los limitados datos de consulta no identificables personalmente se almacena solo durante 25 horas. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: El Control D solo registra los resolvers Premium con perfiles DNS personalizados. Los resolvers libres no registran datos. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: dns0.eu collects some data for their threat intelligence feeds, to monitor for newly registered/observed/active domains and other bulk data. That data is shared with some [partners](https://docs.dns0.eu/data-feeds/introduction) for e.g. security research. They do not collect any Personally Identifiable Information. [https://dns0.eu/privacy](https://dns0.eu/privacy)
+[^4]: dns0.eu recopila algunos datos para sus fuentes de inteligencia de amenazas, para monitorizar dominios recién registrados/observados/activos y otros datos masivos. Esos datos se comparten con algunos [socios](https://docs.dns0.eu/data-feeds/introduction) para, por ejemplo, investigaciones de seguridad. No recogen ninguna Información Personal Identificable. [https://dns0.eu/privacy](https://dns0.eu/privacy)
 [^5]: El servicio DNS de Mullvad está disponible tanto para suscriptores como para no suscriptores de Mullvad VPN. Su política de privacidad afirma explícitamente que no registran solicitudes DNS de ninguna manera. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^6]: Quad9 recopila algunos datos con fines de monitorización y respuesta ante amenazas. Esos datos pueden remezclarse y compartirse, por ejemplo, con fines de investigación sobre seguridad. Quad9 no colecciona ni registra direcciones IP ni otros datos que consideren personalmente identificables. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)
