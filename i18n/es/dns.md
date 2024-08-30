@@ -1,7 +1,7 @@
 ---
-title: "Resolvedores de DNS"
+title: "Servidores DNS"
 icon: material/dns
-description: Estos son algunos proveedores de DNS cifrado a los que recomendamos cambiar para reemplazar la configuración por defecto de tu proveedor de servicios de internet.
+description: Estos son algunos proveedores de DNS cifrado a los que recomendamos cambiar para sustituir la configuración por defecto de tu proveedor de servicios de Internet.
 cover: dns.webp
 global:
   - 
@@ -21,16 +21,16 @@ Un DNS encriptado con servidores de terceros solo debe utilizarse para evitar el
 
 Estos son nuestros resolvedores de DNS públicos favoritos en función de sus características de privacidad y seguridad, y de su rendimiento en todo el mundo. Algunos de estos servicios ofrecen un bloqueo básico a nivel de DNS de malware o rastreadores en función del servidor que elijas, pero si quieres poder ver y personalizar lo que se bloquea, deberías utilizar en su lugar un producto de filtrado DNS dedicado.
 
-| Proveedor de DNS                                                           | Protocolos                               | Logging / Privacy Policy | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Filtrado                                                                                                                                                         | Signed Apple Profile                                                                                                     |
-| -------------------------------------------------------------------------- | ---------------------------------------- | ------------------------ | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | Cleartext   DoH/3   DoT   DoQ   DNSCrypt | Anonymized[^1]           | Anonymized                                                     | Based on server choice. La lista de filtros siendo utilizada se puede encontrar aquí. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS)   | Yes [:octicons-link-external-24:](https://adguard.com/en/blog/encrypted-dns-ios-14.html)                                 |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Cleartext   DoH/3   DoT                  | Anonymized[^2]           | No                                                             | Based on server choice.                                                                                                                                          | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
-| [**Control D Free DNS**](https://controld.com/free-dns)                    | Cleartext   DoH/3   DoT   DoQ            | No[^3]                   | No                                                             | Based on server choice.                                                                                                                                          | Yes [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform)                                         |
-| [**dns0.eu**](https://dns0.eu)                                             | Cleartext   DoH/3   DoH   DoT   DoQ      | Anonymized[^4]           | Anonymized                                                     | Based on server choice.                                                                                                                                          | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                             |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT                                | No[^5]                   | No                                                             | Based on server choice. La lista de filtro que se está utilizando se puede encontrar aquí. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock) | Yes [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices)  |
-| [**Quad9**](https://quad9.net)                                             | Cleartext   DoH   DoT   DNSCrypt         | Anonymized[^6]           | Opcional                                                       | Based on server choice, malware blocking by default.                                                                                                             | Yes [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles)                          |
+| Proveedor de DNS                                                           | Protocolos                                 | Logs / Política de Privacidad | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Filtrado                                                                                                                                                            | Perfil de Apple firmado                                                                                                  |
+| -------------------------------------------------------------------------- | ------------------------------------------ | ----------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | Texto claro   DoH/3   DoT   DoQ   DNSCrypt | Anónimo[^1]                   | Anónimo                                                        | Basado en la elección del servidor. La lista de filtros utilizada se puede encontrar aquí. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Sí [:octicons-link-external-24:](https://adguard.com/en/blog/encrypted-dns-ios-14.html)                                  |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Texto claro   DoH/3   DoT                  | Anónimo[^2]                   | No                                                             | Basado en la elección del servidor.                                                                                                                                 | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
+| [**Control D Free DNS**](https://controld.com/free-dns)                    | Texto claro   DoH/3   DoT   DoQ            | No[^3]                        | No                                                             | Basado en la elección del servidor.                                                                                                                                 | Sí [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform)                                          |
+| [**dns0.eu**](https://dns0.eu)                                             | Texto claro   DoH/3   DoH   DoT   DoQ      | Anónimo[^4]                   | Anónimo                                                        | Basado en la elección del servidor.                                                                                                                                 | Sí [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                              |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT                                  | No[^5]                        | No                                                             | Basado en la elección del servidor. La lista de filtros utilizada se puede encontrar aquí. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    | Sí [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices)   |
+| [**Quad9**](https://quad9.net)                                             | Texto claro   DoH   DoT   DNSCrypt         | Anónimo[^6]                   | Opcional                                                       | Basado en la elección del servidor, bloqueo de Malware por defecto.                                                                                                 | Sí [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles)                           |
 
-## Self-Hosted DNS Filtering
+## Servidor DNS autoalojado
 
 Una solución DNS autoalojada es útil para proporcionar filtrado en plataformas controladas, como Smart TV y otros dispositivos IoT, ya que no se necesita software del lado del cliente.
 
@@ -64,18 +64,18 @@ Pi-hole está diseñado para alojarse en una Raspberry Pi, pero no se limita a d
 
 AdGuard Home cuenta con una interfaz web pulida para ver información y gestionar el contenido bloqueado.
 
-[:octicons-home-16: Página de Inicio](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+[:octicons-home-16: Página Principal](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Politica de privacidad" }
 [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Código fuente" }
+[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Código fuente" }inicio
 
 </details>
 
 </div>
 
-## Cloud-Based DNS Filtering
+## Filtrado DNS basado en la nube
 
-These DNS filtering solutions offer a web dashboard where you can customize the blocklists to your exact needs, similarly to a Pi-hole. These services are usually easier to set up and configure than self-hosted services like the ones above, and can be used more easily across multiple networks (self-hosted solutions are typically restricted to your home/local network unless you set up a more advanced configuration).
+Estas soluciones de filtrado DNS ofrecen un panel web en el que puede personalizar las listas de bloqueo según sus necesidades exactas, de forma similar a un Pi-hole. Estos servicios suelen ser más fáciles de instalar y configurar que los autoalojados, como los anterioriores, y pueden utilizarse más fácilmente en múltiples redes (las soluciones autoalojadas suelen estar restringidas a su red doméstica/local, a menos que se establezca una configuración más avanzada).
 
 ### Control D
 
@@ -91,7 +91,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 [:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Descargas</summary>
 
 - [:fontawesome-brands-windows: Windows](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
@@ -118,7 +118,7 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 [:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Descargas</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
 - [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
@@ -134,11 +134,11 @@ Cuando se utiliza con una cuenta, NextDNS habilitará las funciones de informaci
 
 El plan gratuito de NextDNS es totalmente funcional, pero no se debe confiar en él para aplicaciones de seguridad u otras aplicaciones de filtrado críticas, ya que después de 300.000 consultas DNS en un mes se deshabilitan todas las funciones de filtrado, registro y otras funciones basadas en la cuenta. Se puede seguir utilizando como un proveedor DNS normal después de ese punto, por lo que sus dispositivos seguirán funcionando y haciendo consultas seguras a través de DNS-sobre-HTTPS, solo que sin sus listas de filtros.
 
-NextDNS también ofrece el servicio público DNS-sobre-HTTPS en `https://dns.nextdns.io` y DNS-sobre-TLS/QUIC en `dns.nextdns.io`, que están disponibles por defecto en Firefox y Chromium, y sujetos a su [política de privacidad](https://nextdns.io/privacy) de no-logging por defecto.
+NextDNS también ofrece el servicio público DNS-sobre-HTTPS en `https://dns.nextdns.io` y DNS-sobre-TLS/QUIC en `dns.nextdns.io`, que están disponibles por defecto en Firefox y Chromium, y sujetos a su [política de privacidad](https://nextdns.io/privacy) de no-logs por defecto.
 
 ## Proxies DNS Cifrados
 
-El software de proxy de DNS encriptado proporciona un proxy local para que el resolver DNS [no encriptado](advanced/dns-overview.md#unencrypted-dns) lo reenvíe. Normalmente, se utiliza en plataformas que no soportan [DNS cifrado](advanced/dns-overview.md#what-is-encrypted-dns) de forma nativa.
+El software de proxy de DNS cifrado proporciona un proxy local para que el servidor DNS [no cifrado](advanced/dns-overview.md#unencrypted-dns) lo reenvíe. Normalmente, se utiliza en plataformas que no soportan [DNS cifrado](advanced/dns-overview.md#what-is-encrypted-dns) de forma nativa.
 
 ### RethinkDNS
 
@@ -147,7 +147,7 @@ El software de proxy de DNS encriptado proporciona un proxy local para que el re
 ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
 ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** is an open-source Android client that supports [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
+**RethinkDNS** es un cliente Android de código abierto que admite [DNS-sobre-HTTPS](advanced/dns-overview.md#dns-sobre-https-doh), [DNS-sobre-TLS](advanced/dns-overview.md#dns-sobre-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) y Proxy DNS. También proporciona funciones adicionales, como el almacenamiento en caché de las respuestas DNS, el registro local de las consultas DNS y el uso de la aplicación como cortafuegos.
 
 [:octicons-home-16: Página Principal](https://rethinkdns.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Política de Privacidad" }
@@ -155,7 +155,7 @@ El software de proxy de DNS encriptado proporciona un proxy local para que el re
 [:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Descargas</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
 - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
@@ -164,7 +164,7 @@ El software de proxy de DNS encriptado proporciona un proxy local para que el re
 
 </div>
 
-While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a Wireguard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
+Aunque RethinkDNS ocupa el espacio VPN de Android, puedes seguir utilizando una VPN u Orbot con la aplicación [añadiendo una configuración de Wireguard](https://docs.rethinkdns.com/proxy/wireguard) o [configurando manualmente Orbot como servidor Proxy](https://docs.rethinkdns.com/firewall/orbot), respectivamente.
 
 ### dnscrypt-proxy
 
