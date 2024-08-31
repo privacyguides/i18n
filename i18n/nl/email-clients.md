@@ -5,7 +5,12 @@ description: These email clients are privacy-respecting and support OpenPGP emai
 cover: email-clients.webp
 ---
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). Met OAuth kunt u [Multi-Factor Authentication](basics/multi-factor-authentication.md) gebruiken en accountdiefstal voorkomen.
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Dienstverleners](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-target-account: Gerichte aanvallen](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
@@ -30,7 +35,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 [:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title="Documentation" }
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -62,7 +67,7 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen** → **Privacy
 
 #### Thunderbird-user.js (geavanceerd)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. let op
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. Some of the changes are backported from the [Arkenfox project](desktop-browsers.md#arkenfox-advanced).
 
 ## Platform specifiek
 
@@ -94,7 +99,7 @@ Apple Mail heeft de mogelijkheid om inhoud op afstand op de achtergrond te laden
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.io/help){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -123,13 +128,13 @@ Canary Mail is closed-source. We raden het aan omdat er maar weinig keuzes zijn 
 
 ![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
 
-**FairEmail** is een minimale, open-source e-mail app, die gebruik maakt van open standaarden (IMAP, SMTP, OpenPGP) met een laag data- en batterijverbruik.
+**FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
 [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -151,9 +156,9 @@ Canary Mail is closed-source. We raden het aan omdat er maar weinig keuzes zijn 
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title="Documentation" }
 [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gnome.org/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -176,9 +181,9 @@ In de toekomst zal K-9 Mail de [officieel gemerkte](https://k9mail.app/2022/06/1
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.k9mail.app){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.k9mail.app){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
+[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -193,7 +198,7 @@ In de toekomst zal K-9 Mail de [officieel gemerkte](https://k9mail.app/2022/06/1
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Bij het beantwoorden van iemand op een mailinglijst kan de optie "beantwoorden" ook de mailinglijst omvatten. Zie voor meer informatie [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
+When replying to someone on a mailing list, the "reply" option may also include the mailing list. Zie voor meer informatie [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
 </div>
 
@@ -203,13 +208,13 @@ Bij het beantwoorden van iemand op een mailinglijst kan de optie "beantwoorden" 
 
 ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** is een persoonlijke informatiemanager (PIM) applicatie van het [KDE](https://kde.org) project. Het biedt een mail client, adresboek, organizer en RSS client.
+**Kontact** is een persoonlijke informatiemanager (PIM) applicatie van het [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title=Documentation}
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title="Documentation" }
 [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -231,7 +236,7 @@ Bij het beantwoorden van iemand op een mailinglijst kan de optie "beantwoorden" 
 
 [:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -251,9 +256,9 @@ Bij het beantwoorden van iemand op een mailinglijst kan de optie "beantwoorden" 
 
 ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** is een open-source command line mail reader (of MUA) voor Linux en BSD. Het is een vork van [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) met toegevoegde mogelijkheden.
+**NeoMutt** is an open-source command line email reader for Linux and BSD. Het is een vork van [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) met toegevoegde mogelijkheden.
 
-NeoMutt is een tekst-gebaseerde client die een steile leercurve heeft. Het is echter zeer aanpasbaar.
+NeoMutt is een tekst-gebaseerde client die een steile leercurve heeft. It is, however, very customizable.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}

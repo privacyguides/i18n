@@ -5,7 +5,12 @@ description: These email clients are privacy-respecting and support OpenPGP emai
 cover: email-clients.webp
 ---
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth를 이용하면 [다중 인증](basics/multi-factor-authentication.md)으로 계정을 보호할 수 있습니다.
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-target-account: 표적 공격(Targeted Attacks)](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.
 
 <details class="warning" markdown>
 <summary>Email does not provide forward secrecy</summary>
@@ -30,7 +35,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 [:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title="Documentation" }
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -62,7 +67,7 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### Thunderbird-user.js (고급)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configurations options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. 일부분은 [Arkenfox 프로젝트](https://github.com/arkenfox/user.js)에서 백포트되었습니다.
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. Some of the changes are backported from the [Arkenfox project](desktop-browsers.md#arkenfox-advanced).
 
 ## 개별 플랫폼
 
@@ -94,7 +99,7 @@ Apple Mail은 외부 콘텐츠를 백그라운드에서 로드하거나, 완전�
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.io/help){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -121,15 +126,15 @@ Canay Mail은 오픈 소스가 아닙니다. iOS에서 PGP E2EE를 지원하는 
 
 <div class="admonition recommendation" markdown>
 
-![FairEmail 로고](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
 
-**FairEmail**은 미니멀한 오픈 소스 이메일 앱으로, 개방형 표준(IMAP, SMTP, OpenPGP)을 사용하고 데이터 및 배터리 사용량이 적습니다.
+**FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
 [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -151,9 +156,9 @@ Canay Mail은 오픈 소스가 아닙니다. iOS에서 PGP E2EE를 지원하는 
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title="Documentation" }
 [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gnome.org/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -176,9 +181,9 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.k9mail.app){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.k9mail.app){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
+[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -193,7 +198,7 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-메일링 리스트 내 누군가에게 답장(Reply)할 때, 답장 대상에 전체 메일링 리스트가 포함될 수도 있습니다. 자세한 내용은 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)를 참고해 주세요.
+When replying to someone on a mailing list, the "reply" option may also include the mailing list. 자세한 내용은 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)를 참고해 주세요.
 
 </div>
 
@@ -203,13 +208,13 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 
 ![Kontact 로고](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact**는 [KDE](https://kde.org) 프로젝트의 개인 정보 관리자(PIM) 애플리케이션입니다. 메일 클라이언트, 연락처, 일정 관리, RSS 클라이언트 기능을 제공합니다.
+**Kontact**는 [KDE](https://kde.org) 프로젝트의 개인 정보 관리자(PIM) 애플리케이션입니다. It provides a mail client, address book, RSS client, and an organizer.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title=Documentation}
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title="Documentation" }
 [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -231,7 +236,7 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 
 [:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -249,11 +254,11 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 
 <div class="admonition recommendation" markdown>
 
-![NeoMutt 로고](assets/img/email-clients/mutt.svg){ align=right }
+![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt**은 Linux, BSD용 오픈 소스 CLI 메일 리더 프로그램(MUA)입니다. [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client))로부터 포크되어 기능이 추가된 프로젝트입니다.
+**NeoMutt** is an open-source command line email reader for Linux and BSD. [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client))로부터 포크되어 기능이 추가된 프로젝트입니다.
 
-NeoMutt은 텍스트 기반 클라이언트로, 사용법을 익히기 매우 어렵습니다. 하지만 자유로운 커스텀이 가능합니다.
+NeoMutt은 텍스트 기반 클라이언트로, 사용법을 익히기 매우 어렵습니다. It is, however, very customizable.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}

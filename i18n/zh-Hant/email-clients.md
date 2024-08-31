@@ -5,7 +5,12 @@ description: 這些電子郵件客戶端尊重隱私並支持OpenPGP電子郵件
 cover: email-clients.webp
 ---
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth允許您使用 [多因素驗證](basics/multi-factor-authentication.md) 並防止帳戶被盜。
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.
 
 <details class="warning" markdown>
 <summary>電子郵件不提供前向保密</summary>
@@ -30,7 +35,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 [:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title="Documentation" }
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -62,7 +67,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 #### Thunderbird-user.js （進階）
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js)，是一組配置選項，旨在禁用 Thunderbird 內過多的網頁瀏覽功能，以減少表面暴露並保持隱私。 其中一些更改是從 [Arkenfox 專案](https://github.com/arkenfox/user.js)中後移的。
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird as possible in order to reduce attack surface and maintain privacy. Some of the changes are backported from the [Arkenfox project](desktop-browsers.md#arkenfox-advanced).
 
 ## 平臺特定
 
@@ -94,7 +99,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://canarymail.io/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://canarymail.io/help){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -121,15 +126,15 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 <div class="admonition recommendation" markdown>
 
-![FairEmail標誌](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
 
-**FairEmail** 是一個極簡的開源電子郵件應用程式，使用開放標準(IMAP, SMTP, OpenPGP )，數據和電池使用量低。
+**FairEmail** is a minimal, open-source email app which uses open standards (IMAP, SMTP, OpenPGP) and minimizes data and battery usage.
 
 [:octicons-home-16: Homepage](https://email.faircode.eu){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -151,9 +156,9 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title="Documentation" }
 [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gnome.org/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -176,9 +181,9 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.k9mail.app){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.k9mail.app){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title=Contribute }
+[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -193,7 +198,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-當回覆郵件群組中的某人時，「回覆」選項也可能包括郵件群組。 如需更多資訊，請參閱 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)。
+When replying to someone on a mailing list, the "reply" option may also include the mailing list. 如需更多資訊，請參閱 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)。
 
 </div>
 
@@ -203,13 +208,13 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** 是來自 [KDE](https://kde.org)專案的個人資訊管理器(PIM)應用程式。 它提供了郵件客戶端、地址簿、待辦事項和 RSS 客戶端。
+**Kontact** 是來自 [KDE](https://kde.org)專案的個人資訊管理器(PIM)應用程式。 It provides a mail client, address book, RSS client, and an organizer.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title=Documentation}
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title="Documentation" }
 [:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -231,7 +236,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 [:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -251,9 +256,9 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** 是 Linux 和 BSD 的開源命令行郵件閱讀器（或MUA ）。 它是 [Mutt](https://en.wikipedia.org/wiki/Mutt_ (email_client)) 的分支，具有附加功能。
+**NeoMutt** is an open-source command line email reader for Linux and BSD. 它是 [Mutt](https://en.wikipedia.org/wiki/Mutt_ (email_client)) 的分支，具有附加功能。
 
-NeoMutt 是一個文字指令的客戶端，具有陡峭的學習曲線。 然而，它有高度自制的特色。
+NeoMutt 是一個文字指令的客戶端，具有陡峭的學習曲線。 It is, however, very customizable.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
