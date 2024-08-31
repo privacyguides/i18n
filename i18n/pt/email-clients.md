@@ -52,14 +52,20 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### Configuração recomendada
 
+<div class="annotate" markdown>
+
 We recommend changing some of these settings to make Thunderbird a little more private.
 
-Estas opções podem ser encontradas na página *Privacidade & Segurança* configurações ( ≡ → Configurações → Privacidade & Segurança).
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
 ##### Web Content
 
 - [ ] Uncheck  **Remember websites and links I've visited**
-- [ ] Uncheck  **Accept cookies from sites**
+- [ ] Uncheck  **Accept cookies from sites** (1)
+
+</div>
+
+1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
 
 ##### Telemetry
 
@@ -150,9 +156,9 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 <div class="admonition recommendation" markdown>
 
-![K-9 Logotipo do correio](/assets/img/email-clients/k9mail.svg){ align=right }
+![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
-**K-9 Mail*** é uma aplicação de correio independente que suporta tanto caixas de correio POP3 como IMAP, mas só suporta push mail para IMAP. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
+**Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
@@ -173,16 +179,11 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 
 <div class="admonition recommendation" markdown>
 
-![logotipo FairEmail](/assets/img/email-clients/fairemail.svg){ align=right }
+![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
 
-**FairEmail** é uma aplicação de e-mail de código aberto mínima, utilizando padrões abertos (IMAP, SMTP, OpenPGP) com um baixo consumo de dados e bateria.
+**K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
 
-[Visite email.faircode.eu](https://email.faircode.eu){ .md-button .md-button--primary } [Política de Privacidade](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .md-button }
-
-**Downloads***
-- [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
-- [:pg-f-droid: F-Droid](https://f-droid.org/packages/eu.faircode.email/)
-- [:fontawesome-brands-github: Source](https://github.com/M66B/FairEmail)
+In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird client for Android.
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
@@ -203,13 +204,7 @@ Canary Mail is closed-source. We recommend it due to the few choices there are f
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When replying to someone on a mailing list, the "reply" option may also include the mailing list. [Visite canarymail.io](https://canarymail.io){ .md-button .md-button--primary } [Política de Privacidade](https://canarymail.io/privacy.html){ .md-button }
-
-**Downloads***
-- [:fontawesome-brands-windows: Windows](https://download.canarymail.io/get_windows)
-- [:fontawesome-brands-app-store: Mac App Store](https://apps.apple.com/app/id1236045954)
-- [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1236045954)
-- [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
+When replying to someone on a mailing list, the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
 </div>
 

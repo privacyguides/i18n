@@ -52,18 +52,24 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### Aanbevolen configuratie
 
-We raden aan om sommige van deze instellingen te wijzigen om Thunderbird een beetje meer privé te maken.
+<div class="annotate" markdown>
 
-Deze opties zijn te vinden in :material-menu: → **Instellingen** → **Privacy & Beveiliging**.
+We recommend changing some of these settings to make Thunderbird a little more private.
+
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
 ##### Web Content
 
-- [ ] Deselecteer  **Onthoud websites en links die ik heb bezocht**
-- [ ] Deselecteer  **Accepteer cookies van sites**
+- [ ] Uncheck  **Remember websites and links I've visited**
+- [ ] Uncheck  **Accept cookies from sites** (1)
 
-##### Telemetrie
+</div>
 
-- [ ] Deselecteer  **Toestaan dat Thunderbird technische en interactiegegevens naar Mozilla stuurt**
+1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
+
+##### Telemetry
+
+- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
 
 #### Thunderbird-user.js (geavanceerd)
 
@@ -75,9 +81,9 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen** → **Privacy
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail-logo](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
 
-**Apple Mail** is opgenomen in macOS en kan worden uitgebreid met OpenPGP-ondersteuning met [GPG Suite](/encryption/#gpg-suite), waarmee de mogelijkheid wordt toegevoegd om versleutelde e-mail te versturen.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
@@ -87,15 +93,15 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen** → **Privacy
 
 </div>
 
-Apple Mail heeft de mogelijkheid om inhoud op afstand op de achtergrond te laden of volledig te blokkeren en jouw IP-adres te verbergen voor afzenders op [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) en [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
+Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 
 <div class="admonition recommendation" markdown>
 
-![Canary Mail-logo](assets/img/email-clients/canarymail.svg){ align=right }
+![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
 
-**Canary Mail** is een betaalde e-mailclient die is ontworpen om end-to-end versleuteling naadloos te laten verlopen met beveiligingsfuncties zoals een biometrische app-vergrendeling.
+**Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
@@ -116,11 +122,11 @@ Apple Mail heeft de mogelijkheid om inhoud op afstand op de achtergrond te laden
 <details class="warning" markdown>
 <summary>Warning</summary>
 
-Canary Mail heeft pas onlangs een Windows- en Android-client uitgebracht, hoewel die volgens ons niet zo stabiel zijn als hun iOS- en Mac-tegenhangers.
+Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
 </details>
 
-Canary Mail is closed-source. We raden het aan omdat er maar weinig keuzes zijn voor e-mailclients op iOS die PGP E2EE ondersteunen.
+Canary Mail is closed-source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
 ### FairEmail (Android)
 
@@ -152,7 +158,7 @@ Canary Mail is closed-source. We raden het aan omdat er maar weinig keuzes zijn 
 
 ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** is een applicatie voor het beheer van persoonlijke informatie die geïntegreerde mail-, agenda- en adresboekfuncties biedt. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
+**Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
@@ -175,9 +181,9 @@ Canary Mail is closed-source. We raden het aan omdat er maar weinig keuzes zijn 
 
 ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
 
-**K-9 Mail** is een onafhankelijke mail-applicatie die zowel POP3 als IMAP mailboxen ondersteunt, maar alleen push mail voor IMAP ondersteunt.
+**K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
 
-In de toekomst zal K-9 Mail de [officieel gemerkte](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird client voor Android zijn.
+In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird client for Android.
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
@@ -198,7 +204,7 @@ In de toekomst zal K-9 Mail de [officieel gemerkte](https://k9mail.app/2022/06/1
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When replying to someone on a mailing list, the "reply" option may also include the mailing list. Zie voor meer informatie [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
+When replying to someone on a mailing list, the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
 </div>
 
@@ -208,7 +214,7 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** is een persoonlijke informatiemanager (PIM) applicatie van het [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
+**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
@@ -232,7 +238,7 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope** is een browser extensie die de uitwisseling van versleutelde e-mails mogelijk maakt volgens de OpenPGP encryptie standaard.
+**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
 [:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -256,9 +262,9 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** is an open-source command line email reader for Linux and BSD. Het is een vork van [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) met toegevoegde mogelijkheden.
+**NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
 
-NeoMutt is een tekst-gebaseerde client die een steile leercurve heeft. It is, however, very customizable.
+NeoMutt is a text-based client that has a steep learning curve. It is, however, very customizable.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
@@ -282,15 +288,15 @@ NeoMutt is een tekst-gebaseerde client die een steile leercurve heeft. It is, ho
 ### Minimum kwalificaties
 
 - Apps developed for open-source operating systems must be open source.
-- Mag geen telemetrie verzamelen, of een gemakkelijke manier hebben om alle telemetrie uit te schakelen.
-- Moet OpenPGP-berichtversleuteling ondersteunen.
+- Must not collect telemetry, or have an easy way to disable all telemetry.
+- Must support OpenPGP message encryption.
 
 ### Beste geval
 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
 - Should be open source.
-- Moet cross-platform zijn.
-- Verzamelt standaard geen telemetrie.
-- Moet OpenPGP native ondersteunen, dat wil zeggen zonder extensies.
-- Moet ondersteuning bieden voor het lokaal opslaan van OpenPGP-versleutelde e-mails.
+- Should be cross-platform.
+- Should not collect any telemetry by default.
+- Should support OpenPGP natively, i.e. without extensions.
+- Should support storing OpenPGP encrypted emails locally.

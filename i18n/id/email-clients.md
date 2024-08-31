@@ -52,6 +52,8 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### Konfigurasi yang Disarankan
 
+<div class="annotate" markdown>
+
 We recommend changing some of these settings to make Thunderbird a little more private.
 
 These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
@@ -59,7 +61,11 @@ These options can be found in :material-menu: → **Settings** → **Privacy & S
 ##### Web Content
 
 - [ ] Uncheck  **Remember websites and links I've visited**
-- [ ] Uncheck  **Accept cookies from sites**
+- [ ] Uncheck  **Accept cookies from sites** (1)
+
+</div>
+
+1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
 
 ##### Telemetry
 
@@ -281,7 +287,7 @@ NeoMutt is a text-based client that has a steep learning curve. It is, however, 
 
 ### Minimum Qualifications
 
-- Aplikasi yang dikembangkan untuk sistem operasi sumber terbuka haruslah bersumber terbuka.
+- Apps developed for open-source operating systems must be open source.
 - Must not collect telemetry, or have an easy way to disable all telemetry.
 - Must support OpenPGP message encryption.
 
@@ -289,7 +295,7 @@ NeoMutt is a text-based client that has a steep learning curve. It is, however, 
 
 Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Rekomendasi kami mungkin tidak menyertakan salah satu atau semua fungsi ini, tetapi rekomendasi yang menyertakan fungsi ini mungkin memiliki peringkat yang lebih tinggi daripada yang lain di halaman ini.
 
-- Klien sebaiknya bersumber terbuka.
+- Should be open source.
 - Should be cross-platform.
 - Should not collect any telemetry by default.
 - Should support OpenPGP natively, i.e. without extensions.

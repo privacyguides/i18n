@@ -52,16 +52,22 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### 推荐配置
 
+<div class="annotate" markdown>
+
 We recommend changing some of these settings to make Thunderbird a little more private.
 
-这些选项可以在 :material-menu: → **设置** → **隐私 & 安全**中找到。
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
 ##### Web Content
 
 - [ ] Uncheck  **Remember websites and links I've visited**
-- [ ] Uncheck  **Accept cookies from sites**
+- [ ] Uncheck  **Accept cookies from sites** (1)
 
-##### 遥测
+</div>
+
+1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
+
+##### Telemetry
 
 - [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
 

@@ -52,18 +52,24 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 #### 建議配置
 
-我們建議您變更其中一些設定，讓Thunderbird更具私密性。
+<div class="annotate" markdown>
 
-這些選項可以在 :material-menu: → **設定** → **隱私 & 安全性**中找到。
+We recommend changing some of these settings to make Thunderbird a little more private.
 
-##### 網頁內容
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
-- [ ] 取消勾選  **記住我訪問過的網站和連結**
-- [ ] 取消勾選  **接受來自網站的cookie**
+##### Web Content
 
-##### 遙測
+- [ ] Uncheck  **Remember websites and links I've visited**
+- [ ] Uncheck  **Accept cookies from sites** (1)
 
-- [ ] 取消勾選  **允許Thunderbird  向Mozilla**發送技術和互動資訊。
+</div>
+
+1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
+
+##### Telemetry
+
+- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
 
 #### Thunderbird-user.js （進階）
 
@@ -75,9 +81,9 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail標誌](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
 
-**Apple Mail** 包含在 macOS，並可利用[GPG Suite](encryption.md#gpg-suite)擴展支援 OpenPGP，增加了發送PGP 加密電子郵件的能力。
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
@@ -87,7 +93,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 </div>
 
-[macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) 與[iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios) 的Apple Mail 可在後台載入遠端內容或完全封鎖並能隱藏您的 IP 位址。
+Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 
@@ -95,7 +101,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
 
-**Canary Mail** 是一個付費的電子郵件用戶端，提供無縫的端到端加密安全功能，如生物識別應用程式鎖定。
+**Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
@@ -116,11 +122,11 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 <details class="warning" markdown>
 <summary>警告</summary>
 
-Canary Mail 最近才發布了 Windows 和 Android 用戶端，我們不認為它們已如 iOS和 Mac 用戶端一樣穩定。
+Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
 </details>
 
-Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客戶端支持 PGP E2EE 的選擇很少。
+Canary Mail is closed-source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
 ### FairEmail (Android)
 
@@ -137,7 +143,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 [:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=eu.faircode.email)
 - [:simple-github: GitHub](https://github.com/M66B/FairEmail/releases)
@@ -152,7 +158,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** 是個人資訊管理應用程式，提供綜合郵件、行事曆和聯絡簿功能。 Evolution有豐富的 [文件](https://help.gnome.org/users/evolution/stable/)來協助入手。
+**Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
@@ -161,7 +167,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 [:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
@@ -175,9 +181,9 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 
 ![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
 
-**K-9 Mail** 是一個獨立的郵件應用程式，同時支援 POP3 和IMAP 郵箱，但只支援 IMAP 推送郵件。
+**K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
 
-未來 K-9 Mai l將成為 [官方品牌](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird Android 用戶端。
+In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird client for Android.
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
@@ -186,7 +192,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 [:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
 - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
@@ -198,7 +204,7 @@ Canary Mail 源碼為封閉式。 我們推薦它，因為 iOS 電子郵件客�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-When replying to someone on a mailing list, the "reply" option may also include the mailing list. 如需更多資訊，請參閱 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)。
+When replying to someone on a mailing list, the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
 </div>
 
@@ -208,7 +214,7 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 ![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** 是來自 [KDE](https://kde.org)專案的個人資訊管理器(PIM)應用程式。 It provides a mail client, address book, RSS client, and an organizer.
+**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
@@ -217,7 +223,7 @@ When replying to someone on a mailing list, the "reply" option may also include 
 [:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-linux: Linux](https://kontact.kde.org/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -232,7 +238,7 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope** 是一個瀏覽器擴充功能，可按照 OpenPGP 加密標準交換加密電子郵件。
+**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
 [:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -256,9 +262,9 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** is an open-source command line email reader for Linux and BSD. 它是 [Mutt](https://en.wikipedia.org/wiki/Mutt_ (email_client)) 的分支，具有附加功能。
+**NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
 
-NeoMutt 是一個文字指令的客戶端，具有陡峭的學習曲線。 It is, however, very customizable.
+NeoMutt is a text-based client that has a steep learning curve. It is, however, very customizable.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
@@ -266,7 +272,7 @@ NeoMutt 是一個文字指令的客戶端，具有陡峭的學習曲線。 It is
 [:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-apple: macOS](https://neomutt.org/distro)
 - [:simple-linux: Linux](https://neomutt.org/distro)
@@ -281,16 +287,16 @@ NeoMutt 是一個文字指令的客戶端，具有陡峭的學習曲線。 It is
 
 ### 最低合格要求
 
-- 為開源作業系統開發的應用程式必須是開源的。
-- 必須不收集遙測，或有一個簡單的方法來禁用所有遙測。
-- 必須支援OpenPGP訊息加密。
+- Apps developed for open-source operating systems must be open source.
+- Must not collect telemetry, or have an easy way to disable all telemetry.
+- Must support OpenPGP message encryption.
 
 ### 最佳案例
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- 應該為開源的。
-- 應為跨平臺。
-- 預設情況下不應收集任何遙測。
-- 應該原生支持OpenPGP ，即沒有擴展。
-- 應該支持在本地存儲 OpenPGP 加密的電子郵件。
+- Should be open source.
+- Should be cross-platform.
+- Should not collect any telemetry by default.
+- Should support OpenPGP natively, i.e. without extensions.
+- Should support storing OpenPGP encrypted emails locally.

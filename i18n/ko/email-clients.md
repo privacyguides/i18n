@@ -52,18 +52,24 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### 권장 설정
 
-다음 설정을 통해 Thunderbird에서 프라이버시를 더 강화할 것을 권장드립니다.
+<div class="annotate" markdown>
 
-이러한 옵션은 :material-menu: → **설정** → **개인 정보 및 보안**에서 확인할 수 있습니다.
+We recommend changing some of these settings to make Thunderbird a little more private.
 
-##### 웹 내용
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
-- [ ] **방문한 웹 사이트와 링크 기억하기** 비활성화
-- [ ] **쿠키 허용** 비활성화
+##### Web Content
 
-##### 데이터 수집
+- [ ] Uncheck  **Remember websites and links I've visited**
+- [ ] Uncheck  **Accept cookies from sites** (1)
 
-- [ ] **Thunderbird가 기술과 상호 작용 정보를 Mozilla에 전송하도록 허용** 비활성화
+</div>
+
+1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
+
+##### Telemetry
+
+- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
 
 #### Thunderbird-user.js (고급)
 
@@ -75,9 +81,9 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail 로고](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
 
-**Apple Mail**은 macOS에 기본 포함되어 있으며, PGP 암호화 이메일 전송 기능을 추가하는 [GPG Suite](encryption.md#gpg-suite)를 통해 OpenPGP를 지원하도록 확장 가능합니다.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
@@ -87,15 +93,15 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 </div>
 
-Apple Mail은 외부 콘텐츠를 백그라운드에서 로드하거나, 완전히 차단해 발신자로부터 IP 주소를 숨길 수 있는 기능을 [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) 및 [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios)에서 제공합니다.
+Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 
 <div class="admonition recommendation" markdown>
 
-![Canary Mail 로고](assets/img/email-clients/canarymail.svg){ align=right }
+![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
 
-**Canary Mail**은 유료 이메일 클라이언트로, 생체 인식 앱 잠금 등의 보안 기능으로 원활한 종단 간 암호화를 지원하도록 설계되었습니다.
+**Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
@@ -116,11 +122,11 @@ Apple Mail은 외부 콘텐츠를 백그라운드에서 로드하거나, 완전�
 <details class="warning" markdown>
 <summary>Warning</summary>
 
-Canary Mail은 Windows 및 Android용 클라이언트를 최근 출시했지만, 저희는 해당 클라이언트가 iOS/Mac용 클라이언트만큼 안정적이진 않다고 판단하고 있습니다.
+Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
 </details>
 
-Canay Mail은 오픈 소스가 아닙니다. iOS에서 PGP E2EE를 지원하는 이메일 클라이언트가 몇 없기 때문에 권장 목록에 등재되었습니다.
+Canary Mail is closed-source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
 ### FairEmail (Android)
 
@@ -150,9 +156,9 @@ Canay Mail은 오픈 소스가 아닙니다. iOS에서 PGP E2EE를 지원하는 
 
 <div class="admonition recommendation" markdown>
 
-![Evolution 로고](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** 메일, 캘린더, 연락처 기능을 통합적으로 제공하는 개인 정보 관리 애플리케이션입니다. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
+**Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
@@ -173,11 +179,11 @@ Canay Mail은 오픈 소스가 아닙니다. iOS에서 PGP E2EE를 지원하는 
 
 <div class="admonition recommendation" markdown>
 
-![K-9 Mail 로고](assets/img/email-clients/k9mail.svg){ align=right }
+![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
 
-**K-9 Mail**은 POP3, IMAP 메일함을 모두 지원하는 메일 애플리케이션입니다. 실시간 푸시 메일은 IMAP에서만 지원합니다.
+**K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
 
-K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html), 추후 Android용 Thunderbird 클라이언트가 될 예정입니다.
+In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird client for Android.
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
@@ -198,7 +204,7 @@ K-9 Mail은 [공식적으로 Thunderbird 브랜드에 통합되었으며](https:
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When replying to someone on a mailing list, the "reply" option may also include the mailing list. 자세한 내용은 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)를 참고해 주세요.
+When replying to someone on a mailing list, the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
 </div>
 
@@ -206,9 +212,9 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 <div class="admonition recommendation" markdown>
 
-![Kontact 로고](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact**는 [KDE](https://kde.org) 프로젝트의 개인 정보 관리자(PIM) 애플리케이션입니다. It provides a mail client, address book, RSS client, and an organizer.
+**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
@@ -230,9 +236,9 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 <div class="admonition recommendation" markdown>
 
-![Mailvelope 로고](assets/img/email-clients/mailvelope.svg){ align=right }
+![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope**는 OpenPGP 암호화 표준에 따라 암호화된 이메일을 주고받을 수 있게 해주는 브라우저 확장 프로그램입니다.
+**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
 [:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -256,9 +262,9 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** is an open-source command line email reader for Linux and BSD. [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client))로부터 포크되어 기능이 추가된 프로젝트입니다.
+**NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
 
-NeoMutt은 텍스트 기반 클라이언트로, 사용법을 익히기 매우 어렵습니다. It is, however, very customizable.
+NeoMutt is a text-based client that has a steep learning curve. It is, however, very customizable.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
@@ -282,15 +288,15 @@ NeoMutt은 텍스트 기반 클라이언트로, 사용법을 익히기 매우 �
 ### 최소 요구 사항
 
 - Apps developed for open-source operating systems must be open source.
-- 원격 분석 데이터를 수집하지 않거나, 모든 원격 분석을 간단하게 비활성화할 수 있어야 합니다.
-- OpenPGP 메시지 암호화를 지원해야 합니다.
+- Must not collect telemetry, or have an easy way to disable all telemetry.
+- Must support OpenPGP message encryption.
 
 ### 우대 사항
 
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
 - Should be open source.
-- 크로스 플랫폼을 지원해야 합니다.
-- 원격 분석 데이터를 기본적으로 수집하지 않아야 합니다.
-- (확장 프로그램 등을 필요로 하지 않고) 기본적으로 OpenPGP를 지원해야 합니다.
-- OpenPGP 암호화 이메일 로컬 저장을 지원해야 합니다.
+- Should be cross-platform.
+- Should not collect any telemetry by default.
+- Should support OpenPGP natively, i.e. without extensions.
+- Should support storing OpenPGP encrypted emails locally.

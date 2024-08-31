@@ -52,16 +52,22 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### Firefox
 
+<div class="annotate" markdown>
+
 We recommend changing some of these settings to make Thunderbird a little more private.
 
-Se você quiser permanecer conectado a sites específicos, você pode permitir exceções em **Cookies e Dados do Site** → **Gerenciar Exceções...**
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
 ##### Web Content
 
 - [ ] Uncheck  **Remember websites and links I've visited**
-- [ ] Uncheck  **Accept cookies from sites**
+- [ ] Uncheck  **Accept cookies from sites** (1)
 
-##### Desativar Telemetria
+</div>
+
+1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
+
+##### Telemetry
 
 - [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
 

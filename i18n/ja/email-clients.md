@@ -52,16 +52,22 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### 推奨する設定
 
+<div class="annotate" markdown>
+
 We recommend changing some of these settings to make Thunderbird a little more private.
 
 These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
-##### ウェブコンテンツ
+##### Web Content
 
 - [ ] Uncheck  **Remember websites and links I've visited**
-- [ ] Uncheck  **Accept cookies from sites**
+- [ ] Uncheck  **Accept cookies from sites** (1)
 
-##### テレメトリー
+</div>
+
+1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
+
+##### Telemetry
 
 - [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
 
@@ -120,7 +126,7 @@ Canary Mail only recently released a Windows and Android client, though we don't
 
 </details>
 
-Canary Mailのソースコードは公開されていません。 We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
+Canary Mail is closed-source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
 ### FairEmail（Android）
 
@@ -283,7 +289,7 @@ NeoMutt is a text-based client that has a steep learning curve. It is, however, 
 
 - Apps developed for open-source operating systems must be open source.
 - Must not collect telemetry, or have an easy way to disable all telemetry.
-- OpenPGPメッセージ暗号化をサポートすること。
+- Must support OpenPGP message encryption.
 
 ### 満たされることが望ましい基準
 

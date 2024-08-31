@@ -52,18 +52,24 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 #### תצורה מומלצת
 
-מומלץ לשנות חלק מהגדרות אלה כדי להפוך את Thunderbird לפרטי יותר.
+<div class="annotate" markdown>
 
-ניתן למצוא אפשרויות אלה ב - :material-menu: ← **הגדרות** ← **פרטיות & אבטחה**.
+We recommend changing some of these settings to make Thunderbird a little more private.
 
-##### תוכן אינטרנט
+These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
 
-- [ ] בטל את הסימון  **זכור אתרים וקישורים שביקרתי**
-- [ ] בטל את הסימון של **קבל קובצי Cookie מאתרים**
+##### Web Content
 
-##### טלמטריה
+- [ ] Uncheck  **Remember websites and links I've visited**
+- [ ] Uncheck  **Accept cookies from sites** (1)
 
-- [ ] בטל את הסימון  **אפשר ל - Thunderbird לשלוח נתונים טכניים ונתוני אינטראקציה ל - Mozilla**
+</div>
+
+1. You may need to keep this setting checked when you're logging in to some providers such as Gmail, or via an institution’s SSO. You should uncheck it once you log in successfully.
+
+##### Telemetry
+
+- [ ] Uncheck  **Allow Thunderbird to send technical and interaction data to Mozilla**
 
 #### Thunderbird-user.js (מתקדם)
 
@@ -75,9 +81,9 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail לוגו](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
 
-**Apple Mail** כלול ב-macOS וניתן להרחיב אותו כך שתהיה לו תמיכה ב-OpenPGP עם [GPG Suite](encryption.md#gpg-suite), אשר מוסיפה את היכולת לשלוח מייל מוצפן PGP.
+**Apple Mail** is included in macOS and can be extended to have OpenPGP support with [GPG Suite](encryption.md#gpg-suite), which adds the ability to send PGP-encrypted email.
 
 [:octicons-home-16: Homepage](https://support.apple.com/guide/mail/welcome/mac){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/en-ww){ .card-link title="Privacy Policy" }
@@ -87,15 +93,15 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 
 </div>
 
-ל-Apple Mail יש את היכולת לטעון תוכן מרוחק ברקע או לחסום אותו לחלוטין ולהסתיר את כתובת ה-IP שלך משולחים ב-[macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) ו-[iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
+Apple Mail has the ability to load remote content in the background or block it entirely and hide your IP address from senders on [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) and [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
 ### Canary Mail (iOS)
 
 <div class="admonition recommendation" markdown>
 
-![Canary Mail לוגו](assets/img/email-clients/canarymail.svg){ align=right }
+![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
 
-**Canary Mail** הוא לקוח אימייל בתשלום שנועד להפוך את ההצפנה מקצה לקצה לחלקה עם תכונות אבטחה כגון נעילת אפליקציה ביומטרית.
+**Canary Mail** is a paid email client designed to make end-to-end encryption seamless with security features such as a biometric app lock.
 
 [:octicons-home-16: Homepage](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Privacy Policy" }
@@ -116,11 +122,11 @@ OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Fo
 <details class="warning" markdown>
 <summary>Warning</summary>
 
-Canary Mail הוציאה רק לאחרונה לקוח של Windows ואנדרואיד, אם כי אנחנו לא מאמינים שהם יציבים כמו עמיתיהם של iOS ו-Mac.
+Canary Mail only recently released a Windows and Android client, though we don't believe they are as stable as their iOS and Mac counterparts.
 
 </details>
 
-Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל האפשרויות המעטות שיש עבור לקוחות אימייל ב-iOS התומכים ב-PGP E2EE.
+Canary Mail is closed-source. We recommend it due to the few choices there are for email clients on iOS that support PGP E2EE.
 
 ### FairEmail (אנדרואיד)
 
@@ -150,9 +156,9 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 <div class="admonition recommendation" markdown>
 
-![Evolution לוגו](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** הוא יישום לניהול מידע אישי המספק פונקציונליות משולבת של דואר, לוחות שנה ופנקס כתובות. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
+**Evolution** is a personal information management application that provides integrated mail, calendaring and address book functionality. Evolution has extensive [documentation](https://help.gnome.org/users/evolution/stable) to help you get started.
 
 [:octicons-home-16: Homepage](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="Privacy Policy" }
@@ -173,11 +179,11 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 
 <div class="admonition recommendation" markdown>
 
-![K-9 Mail לוגו](assets/img/email-clients/k9mail.svg){ align=right }
+![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
 
-**K-9 Mail** היא אפליקציית מייל עצמאית התומכת גם בתיבות דואר POP3 וגם IMAP, אך תומכת רק בדואר דואר עבור IMAP.
+**K-9 Mail** is an independent mail application that supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
 
-בעתיד, K-9 Mail יהיה [המותג הרשמי](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) לקוח Thunderbird עבור אנדרואיד.
+In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird client for Android.
 
 [:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
@@ -198,7 +204,7 @@ Canary Mail הוא קוד סגור. אנו ממליצים על זה בגלל ה�
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When replying to someone on a mailing list, the "reply" option may also include the mailing list. למידע נוסף ראה [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
+When replying to someone on a mailing list, the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
 
 </div>
 
@@ -206,9 +212,9 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 <div class="admonition recommendation" markdown>
 
-![Kontact לוגו](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** הוא יישום מנהל מידע אישי (PIM) מפרויקט [KDE](https://kde.org). It provides a mail client, address book, RSS client, and an organizer.
+**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
@@ -230,9 +236,9 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 <div class="admonition recommendation" markdown>
 
-![Mailvelope לוגו](assets/img/email-clients/mailvelope.svg){ align=right }
+![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope** היא תוסף דפדפן המאפשר החלפת מיילים מוצפנים בהתאם לתקן ההצפנה OpenPGP.
+**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
 
 [:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -256,9 +262,9 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** is an open-source command line email reader for Linux and BSD. זה מזלג של [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) עם תכונות נוספות.
+**NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
 
-NeoMutt הוא לקוח מבוסס טקסט שיש לו עקומת למידה תלולה. It is, however, very customizable.
+NeoMutt is a text-based client that has a steep learning curve. It is, however, very customizable.
 
 [:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
@@ -281,16 +287,16 @@ NeoMutt הוא לקוח מבוסס טקסט שיש לו עקומת למידה ת
 
 ### כישורים מינימליים
 
-- אפליקציות שפותחו עבור מערכות הפעלה בקוד פתוח חייבות להיות בקוד פתוח.
-- לא יכול לאסוף טלמטריה, או שיש דרך קלה להפוך את כל הטלמטריה ללא זמינה.
-- חייב לתמוך בהצפנת הודעות OpenPGP.
+- Apps developed for open-source operating systems must be open source.
+- Must not collect telemetry, or have an easy way to disable all telemetry.
+- Must support OpenPGP message encryption.
 
 ### המקרה הטוב ביותר
 
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
-- צריך להיות קוד פתוח.
-- צריך להיות חוצה פלטפורמות.
-- אינו אוסף טלמטריה כברירת מחדל.
-- צריך לתמוך ב - OpenPGP באופן מקורי, כלומר ללא הרחבות.
-- יש לתמוך באחסון הודעות דואר אלקטרוני מוצפנות של OpenPGP באופן מקומי.
+- Should be open source.
+- Should be cross-platform.
+- Should not collect any telemetry by default.
+- Should support OpenPGP natively, i.e. without extensions.
+- Should support storing OpenPGP encrypted emails locally.
