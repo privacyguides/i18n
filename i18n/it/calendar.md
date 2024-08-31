@@ -23,11 +23,11 @@ cover: calendar.webp
 
 Calendari multipli e funzionalità di condivisione estese sono limitate agli abbonati a pagamento.
 
-[:octicons-home-16: Pagina Principale](https://tuta.com/it/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/it/privacy){ .card-link title="Politica sulla Privacy" }
-[:octicons-info-16:](https://tuta.com/it/support){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice Sorgente" }
-[:octicons-heart-16:](https://tuta.com/it/community){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -52,10 +52,10 @@ Calendari multipli e funzionalità di condivisione estese sono limitate agli abb
 
 **Proton Calendar** è un servizio di calendario crittografato disponibile per i membri Proton, tramite web o client mobile. Le caratteristiche includono: E2EE automatica di tutti i dati, funzioni di condivisione, importazione/esportazione e [altre funzionalità](https://proton.me/support/proton-calendar-guide). Gli utenti con il piano gratuito hanno accesso a 3 calendari, mentre quelli a pagamento possono creare fino a 25 calendari. Anche la funzionalità di condivisione estesa è limitata agli abbonati.
 
-[:octicons-home-16: Pagina Principale](https://proton.me/it/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politica sulla Privacy" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice Sorgente" }
+[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -68,7 +68,7 @@ Calendari multipli e funzionalità di condivisione estese sono limitate agli abb
 
 </div>
 
-Unfortunately, as of May 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). Proton Calendar's web client is open source, however, and has been [audited](https://proton.me/community/open-source).
+Unfortunately, as of August 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). Proton Calendar's web client is open source, however, and has been [audited](https://proton.me/community/open-source).
 
 ## Criteri
 

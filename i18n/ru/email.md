@@ -10,6 +10,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Поставщики услуг](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Электронная почта практически всегда необходима для использования любого онлайн-сервиса, однако мы не рекомендуем использовать её для общения с людьми. Вместо того, чтобы использовать электронную почту для связи с другими людьми, мы советуем использовать мессенджеры, которые поддерживают прямую секретность.
 
 [Рекомендуемые мессенджеры](real-time-communication.md ""){.md-button}
@@ -58,8 +62,8 @@ OpenPGP также не поддерживает прямую секретнос
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -127,7 +131,7 @@ Proton Mail не предлагает функцию цифрового насл
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -195,9 +199,9 @@ Mailbox.org имеет функцию цифрового наследия для
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -259,9 +263,9 @@ Tuta doesn't offer a digital legacy feature.
 **Mailcow** - это более продвинутый почтовый сервер, идеально подходящий для тех, у кого есть опыт работы с Linux. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
 
 </div>
 
@@ -271,9 +275,9 @@ Tuta doesn't offer a digital legacy feature.
 
 **Mail-in-a-Box** - это скрипт автоматической настройки для запуска почтового сервера на Ubuntu. Его цель - облегчить людям создание собственного почтового сервера.
 
-[:octicons-home-16: Домашняя страница](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Исходный код" }
+[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 </div>
 

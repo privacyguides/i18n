@@ -10,6 +10,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 E-Mail ist praktisch eine Voraussetzung für die Nutzung aller Online-Dienste, wir empfehlen sie jedoch nicht zur Kommunikation von Mensch zu Mensch. Anstatt E-Mails für die Kontaktaufnahme mit anderen Personen zu verwenden, überleg ob du einen Instant Messenger benutzen kannst, der Forward Secrecy (auf Deutsch etwa "vorwärts gerichtete Geheimhaltung") unterstützt.
 
 [Empfohlene Instant Messenger](real-time-communication.md ""){.md-button}
@@ -57,9 +61,9 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 **Proton Mail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. They have been in operation since 2013. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion / Tor" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Datenschutzerklärung" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Dokumentation}
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -126,8 +130,8 @@ Proton Mail bietet keine Funktion für deinen digitalen Nachlass.
 **Mailbox.org** ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % erneuerbaren Energien betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/de/datenschutz){ .card-link title="Datenschutzerklärung" }
-[:octicons-info-16:](https://kb.mailbox.org/de/privat){ .card-link title=Dokumentation}
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -194,10 +198,10 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 **Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Datenschutz" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Quelltext" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Mitwirken}
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -259,9 +263,9 @@ Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-M
 **Mailcow** ist ein fortgeschrittener Mailserver, perfekt für diejenigen mit ein wenig mehr Linux-Erfahrung. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Quelltext" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Mitwirken }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
 
 </div>
 
@@ -272,8 +276,8 @@ Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-M
 **Mail-in-a-Box** ist ein automatisches Setup-Skript für die Einrichtung eines Mailservers unter Ubuntu. Sein Ziel ist es, die Einrichtung eines eigenen Mailservers zu erleichtern.
 
 [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title=Quelltext }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 </div>
 

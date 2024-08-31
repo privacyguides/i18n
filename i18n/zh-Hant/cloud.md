@@ -30,9 +30,9 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 **Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with the completion of certain steps, additional storage can be obtained up to 5GB.
 
-[:octicons-home-16: Homepage](https://proton.me/drive){ class="md-button md-button--primary" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -59,9 +59,9 @@ Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
 
 **Tresorit** 為 2011年創辦於瑞士- 匃牙利的加密雲端儲存供應商。 Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
 
-[:octicons-home-16: Homepage](https://tresorit.com){ class="md-button md-button--primary" }
+[:octicons-home-16: Homepage](https://tresorit.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -119,7 +119,7 @@ Peergos is primarily a web app, but you can self-host the server either as a loc
 
 Peergos 於 2019 年 9 月接受了 Cure53 的[審核](https://cure53.de/pentest-report_peergos.pdf)，所有發現的問題隨後都做了修復。
 
-此外，它還沒有 Android 應用程式，但已在 [開發中](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25)。 目前的解決方法是改用移動 [PWA](https://peergos.net)。
+An Android app is not available but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). 目前的解決方法是改用移動 [PWA](https://peergos.net)。
 
 ## 標準
 

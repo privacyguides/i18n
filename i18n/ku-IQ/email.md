@@ -10,6 +10,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 پۆستەی ئەلکتڕۆنی بەتایبەتی گرنگە بۆ بەکارهێنانی هەر خزمەتگوزاریەکی سەرهێڵ، بەڵام ئێمە پێشنیاری ناکەین بۆ گفتوفۆی دوو کەسی. لەجیاتی بەکارهێنانی پۆستەی ئەلکتڕۆنی بۆ پەیوەندی کردن بە کەسانی تر، ڕەچاوی بەکارهێنانی ئامرازێکی نامەبەری دەستبەجێ بکە، کە پشتگیری لە نهێنیکردنی بەردەوام دەکات.
 
 [نامەبەرە دەستبەجێیە پێشنیارکراوەکان](real-time-communication.md ""){.md-button}
@@ -58,8 +62,8 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -127,7 +131,7 @@ Poton Mail کرداری میراتی دیجیتاڵی پێشکەش ناکات.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -195,9 +199,9 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -259,9 +263,9 @@ Advanced system administrators may consider setting up their own email server. M
 **Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
 
 </div>
 
@@ -272,7 +276,7 @@ Advanced system administrators may consider setting up their own email server. M
 **Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
 
 [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 </div>

@@ -10,6 +10,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 電子郵件實際上是使用任何線上服務的必需品，但我們不建議把它應用於人與人之間的對話。 與其使用電子郵件聯繫他人，不如考慮使用支援前向保密的即時通訊媒介。
 
 [推薦的即時通訊工具](real-time-communication.md ""){.md-button}
@@ -58,8 +62,8 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -125,9 +129,9 @@ Proton Mail 不提供數字遺產功能。
 
 **Mailbox.org** 電子郵件服務，專注於安全、無廣告和使用 100% 民間環保發電能源。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
 
-[:octicons-home-16: 首頁](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="文件" }
+[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -201,11 +205,11 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 **Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶提供 10GB 容量。
 
-[:octicons-home-16: 首頁](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="文件" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="貢獻" }
+[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -285,9 +289,9 @@ Tuta 不提供數位遺產功能。
 **Mailcow** 是一個更先進的郵件伺服器，非常適合有豐富 Linux 經驗者。 It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribute }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
 
 </div>
 
@@ -298,7 +302,7 @@ Tuta 不提供數位遺產功能。
 **Mail-in-a-Box** 是部署 Ubuntu 郵件伺服器的自動設置腳本。 它的目標是讓人們更容易建立自己的郵件伺服器。
 
 [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 </div>

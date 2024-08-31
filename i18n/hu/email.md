@@ -10,6 +10,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 Az email gyakorlatilag elengedhetetlen bármilyen online szolgáltatás használatához, azonban nem ajánljuk személyes beszélgetésekhez. Ahelyett, hogy e-mailben lépnél kapcsolatba másokkal, fontold meg egy olyan azonnali üzenetküldő használatát, amely támogatja a forward secrecy-t, vagyis szó szerint az előre titkosítást.
 
 [Ajánlott azonnali üzenetküldők](real-time-communication.md ""){.md-button}
@@ -56,11 +60,11 @@ Az OpenPGP nem támogatja a Forward secrecy-t sem, ami azt jelenti, hogy ha a t�
 
 A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. They have been in operation since 2013. A Proton AG székhelye Genfben, Svájcban található. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
 
-[:octicons-home-16: Főoldal](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion szolgáltatás" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Adatvédelmi tájékoztató" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Dokumentáció}
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Forráskód" }
+[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -125,9 +129,9 @@ A Proton Mail nem kínál digitális örökség funkciót.
 
 **A **Mailbox.org** egy olyan e-mail szolgáltatás, amelynek középpontjában a biztonság, a reklámmentesség és a 100%-ban környezetbarát energiával működő, magánhálózatról biztosított energia áll. 2014 óta működnek. A Mailbox.org székhelye Berlinben, Németországban található. Accounts start with up to 2GB storage, which can be upgraded as needed.
 
-[:octicons-home-16: Főoldal](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Adatvédelmi tájékoztató" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Dokumentáció}
+[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Letöltés</summary>
@@ -195,9 +199,9 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -258,10 +262,10 @@ A haladó rendszergazdák fontolóra vehetik saját e-mail szerver felállítás
 
 A **Mailcow** egy fejlettebb levelezőszerver, amely tökéletes azok számára, akik kicsit több Linux-tapasztalattal rendelkeznek. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
-[:octicons-home-16: Honlap](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Dokumentáció}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Forráskód" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Közreműködés}
+[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
 
 </div>
 
@@ -271,9 +275,9 @@ A **Mailcow** egy fejlettebb levelezőszerver, amely tökéletes azok számára,
 
 A **Mail-in-a-Box** egy automatizált beállítási szkript egy levelezőszerver telepítéséhez Ubuntun. Célja, hogy megkönnyítse az emberek számára saját levelezőszerverük beállítását.
 
-[:octicons-home-16: Honlap](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Dokumentáció}
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Forráskód" }
+[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 </div>
 

@@ -25,9 +25,9 @@ cover: calendar.webp
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -53,8 +53,8 @@ cover: calendar.webp
 **Proton Calendar** 是 Proton 會員可透過網路或行動客戶端使用的加密行事曆服務。 功能包括：所有資料自動 E2EE 、共享、匯入/匯出等等[眾多功能](https://proton.me/support/proton-calendar-guide). 免費會員可以使用 3 個行事曆，付費訂閱者最多可創建 25 個行事曆。 擴展共享功能也僅限於付費訂閱者。
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title=Documentation}
+[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -68,7 +68,7 @@ cover: calendar.webp
 
 </div>
 
-但截至2024 年5 月，Proton [仍然未](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8)發布 Android 或 iOS 上的行動日曆應用程式的源代碼，且僅[審核 Android ](https://proton.me/blog/security-audit-all-proton-apps)。 不過，Proton Calendar 網頁用戶端是開源的，並且已[審核](https://proton.me/community/open-source)。
+Unfortunately, as of August 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). 不過，Proton Calendar 網頁用戶端是開源的，並且已[審核](https://proton.me/community/open-source)。
 
 ## 標準
 

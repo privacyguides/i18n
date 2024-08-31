@@ -30,10 +30,10 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 **Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with the completion of certain steps, additional storage can be obtained up to 5GB.
 
-[:octicons-home-16: Página Principal](https://proton.me/drive){ class="md-button md-button--primary" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://proton.me/support/drive){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -59,9 +59,9 @@ Los nuevos clientes móviles de Proton Drive aún no han sido auditados pública
 
 **Tresorit** es un proveedor suizo-húngaro de almacenamiento cifrado en la nube fundado en 2011. Tresorit es propiedad de Swiss Post, el servicio postal nacional de Suiza.
 
-[:octicons-home-16: Página Principal](https://tresorit.com){ class="md-button md-button--primary" }
-[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://support.tresorit.com){ .card-link title=Documentación}
+[:octicons-home-16: Homepage](https://tresorit.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -119,7 +119,7 @@ Ejecutar una versión local de Peergos junto con una cuenta registrada en su ser
 
 Peergos fue [auditado](https://cure53.de/pentest-report_peergos.pdf) por Cure53 en septiembre de 2019, y todos los problemas encontrados se solucionaron posteriormente.
 
-Además, la aplicación para Android no está disponible, pero se está [trabajando](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25) en ella. La solución actual consiste en utilizar [la PWA](https://peergos.net) móvil en su lugar.
+An Android app is not available but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). La solución actual consiste en utilizar [la PWA](https://peergos.net) móvil en su lugar.
 
 ## Criterios
 

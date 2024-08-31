@@ -25,9 +25,9 @@ Meerdere kalenders en uitgebreide functionaliteit voor delen zijn beperkt tot be
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribute }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -53,8 +53,8 @@ Meerdere kalenders en uitgebreide functionaliteit voor delen zijn beperkt tot be
 **Proton Calendar** is een versleutelde kalenderdienst die beschikbaar is voor Proton-leden via web- of mobiele clients. Functies zijn onder meer: automatische E2EE van alle gegevens, functies voor delen, import/export-functionaliteit, en [more](https://proton.me/support/proton-calendar-guide). Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. De uitgebreide functionaliteit voor delen is ook beperkt tot betaalde abonnees.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title=Documentation}
+[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -68,7 +68,7 @@ Meerdere kalenders en uitgebreide functionaliteit voor delen zijn beperkt tot be
 
 </div>
 
-Unfortunately, as of May 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). Proton Calendar's web client is open source, however, and has been [audited](https://proton.me/community/open-source).
+Unfortunately, as of August 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). Proton Calendar's web client is open source, however, and has been [audited](https://proton.me/community/open-source).
 
 ## Criteria
 

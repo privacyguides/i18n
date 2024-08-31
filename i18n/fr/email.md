@@ -10,6 +10,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 L'e-mail est pratiquement une nécessité pour utiliser n'importe quel service en ligne, mais nous ne le recommandons pas pour les conversations de particulier à particulier. Plutôt que d'utiliser l'e-mail pour contacter d'autres personnes, envisagez d'utiliser un support de messagerie instantanée qui prend en charge la confidentialité persistante.
 
 [Messageries instantanées recommandées](real-time-communication.md ""){.md-button}
@@ -56,11 +60,11 @@ OpenPGP ne prend pas non plus en charge la confidentialité persistante, ce qui 
 
 **Proton Mail** est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. They have been in operation since 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
 
-[:octicons-home-16: Page d'accueil](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Service onion" }
-[:octicons-eye-16:](https://proton.me/legal/privacy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Code source" }
+[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -125,9 +129,9 @@ Proton Mail ne propose pas de fonction d'héritage numérique.
 
 **Mailbox.org** est un service d'e-mail qui se veut sécurisé, sans publicité et alimenté par une énergie 100% écologique. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Les comptes commencent avec 2 Go de stockage, qui peut être mis à niveau au besoin.
 
-[:octicons-home-16: Page d'accueil](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title=Documentation}
+[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -193,11 +197,11 @@ Ces fournisseurs stockent vos e-mails avec un chiffrement à connaissance zéro,
 
 **Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Les comptes gratuits commencent avec 1 Go de stockage.
 
-[:octicons-home-16: Page d'accueil](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Code source" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title=Contribuer }
+[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -258,10 +262,10 @@ Les administrateurs système peuvent envisager de mettre en place leur propre se
 
 **Mailcow** est un serveur d'e-mail plus avancé, parfait pour ceux qui ont un peu plus d'expérience de Linux. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
-[:octicons-home-16: Page d'accueil](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Code source" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title=Contribuer }
+[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
 
 </div>
 
@@ -271,9 +275,9 @@ Les administrateurs système peuvent envisager de mettre en place leur propre se
 
 **Mail-in-a-Box** est un script de configuration automatisé pour le déploiement d'un serveur d'e-mail sur Ubuntu. Son objectif est de faciliter la mise en place de son propre serveur d'e-mail.
 
-[:octicons-home-16: Page d'accueil](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Code source" }
+[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 </div>
 
