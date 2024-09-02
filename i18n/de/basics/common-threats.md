@@ -6,7 +6,7 @@ description: Deine persönliche Bedrohungsanalyse kannst nur du selber durchfüh
 
 Wir ordnen unsere Empfehlungen nach [Bedrohungen](threat-modeling.md) beziehungsweise Zielen, die für die meisten Menschen gelten. ==Dich können keine, eine, einige oder alle dieser Themen betreffen==, und du solltest die von dir eingesetzten Werkzeuge und Dienste von deinen Zielen abhängig machen. Du kannst auch spezifische Bedrohungen außerhalb dieser Kategorien haben, das ist völlig in Ordnung! Wichtig ist, dass du die Vorteile und Schwächen der von dir gewählten Werkzeuge kennst, denn praktisch keines davon schützt dich vor jeder Bedrohung.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **Anonymität**</span>
 :
 
 Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
@@ -21,7 +21,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 
 Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **Passive Angriffe**</span>
 :
 
 Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
@@ -31,7 +31,7 @@ Being protected from things like malware, data breaches, and other attacks that 
 
 Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **Massenüberwachung**</span>
 :
 
 Protection from government agencies, organizations, websites, and services which work together to track your activities.
@@ -46,7 +46,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 
 Limiting the information about you that is accessible online—to search engines or the general public.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **Zensur**</span>
 :
 
 Avoiding censored access to information or being censored yourself when speaking online.

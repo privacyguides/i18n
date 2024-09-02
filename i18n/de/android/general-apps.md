@@ -1,9 +1,9 @@
 ---
-title: General Apps
+title: Allgemeine Apps
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: General Android Apps
+    name: Allgemeine Android-Apps
     url: ./
   - "@context": http://schema.org
     "@type": MobileApplication
@@ -23,17 +23,17 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+Wir empfehlen auf dieser Website eine Vielzahl von Android-Apps. Die hier aufgeführten Apps sind Android-exklusiv und verbessern oder ersetzen wichtige Systemfunktionen.
 
 ### Shelter
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/img/android/shelter.svg){ align=right }
+![Shelter Logo](../assets/img/android/shelter.svg){ align=right }
 
-**Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+**Shelter** ist eine App, die dir hilft, die Arbeitsprofilfunktion von Android ausnutzen, um Anwendungen auf deinem Gerät zu isolieren oder zu duplizieren.
 
-Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+Shelter unterstützt die profilübergreifende Kontaktsuche und Freigabe von Dateien über den Standard-Dateimanager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
 [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
@@ -44,9 +44,9 @@ Shelter supports blocking contact search cross profiles and sharing files across
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+Shelter wird gegenüber [Insular](https://secure-system.gitlab.io/Insular) und [Island](https://github.com/oasisfeng/island) empfohlen, da es das [Blockieren der Kontaktsuche](https://secure-system.gitlab.io/Insular/faq.html) unterstützt.
 
-When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
+Bei der Verwendung von Shelter vertraust du vollständig dem Entwickler, da Shelter als [Geräteadministrator](https://developer.android.com/guide/topics/admin/device-admin) fungiert, um das Arbeitsprofil zu erstellen, und es hat umfassenden Zugriff auf die Daten, die im Arbeitsprofil gespeichert sind.
 
 </div>
 
@@ -57,7 +57,7 @@ When using Shelter, you are placing complete trust in its developer, as Shelter 
 ![Secure camera Logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
 ![Secure camera Logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-**Secure Camera** ist eine Kamera-App, die sich auf Datenschutz und Sicherheit konzentriert und Bilder, Videos und QR-Codes aufnehmen kann. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+**Secure Camera** ist eine Kamera-App, die sich auf Datenschutz und Sicherheit konzentriert und Bilder, Videos und QR-Codes aufnehmen kann. CameraX Herstellererweiterungen (Porträt, HDR, Nachtsicht, Gesichtsretusche und Auto) sind auf unterstützten Geräten ebenfalls verfügbar.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
 [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
@@ -75,11 +75,11 @@ When using Shelter, you are placing complete trust in its developer, as Shelter 
 
 </div>
 
-Main privacy features include:
+Zu den wichtigsten Privatsphäre-Funktionen gehören:
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+- Automatisches Entfernen von [Exif](https://de.wikipedia.org/wiki/Exchangeable_Image_File_Format) Metadaten (standardmäßig aktiviert)
+- Verwendung der neuen [Medien](https://developer.android.com/training/data-storage/shared/media) API, daher sind [Speicherberechtigungen](https://developer.android.com/training/data-storage) nicht erforderlich
+- Mikrofonberechtigung nicht erforderlich, es sei denn, du möchtest Ton aufnehmen
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Anmerkung</p>
@@ -95,7 +95,7 @@ Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (
 <small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Passive Angriffe](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 <div class="admonition recommendation" markdown>
 

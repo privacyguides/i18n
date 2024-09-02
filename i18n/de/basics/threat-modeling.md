@@ -2,12 +2,12 @@
 meta_title: "Modellierung von Bedrohungen: Der erste Schritt auf Ihrem Weg zum Datenschutz - Privacy Guides"
 title: "Threat Modeling"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Das Gleichgewicht zwischen Sicherheit, Datenschutz und Benutzerfreundlichkeit ist eine der ersten und schwierigsten Aufgaben, die du auf deinem Weg zu Privatsphäre bewältigen musst.
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+Das Gleichgewicht zwischen Sicherheit, Datenschutz und Benutzerfreundlichkeit ist eine der ersten und schwierigsten Aufgaben, die du auf deinem Weg zu Privatsphäre bewältigen musst. Alles ist ein Kompromiss: Je sicherer etwas ist, desto einschränkender oder unbequemer ist es in der Regel, usw. Oft stellen Menschen fest, dass das Problem mit den empfohlenen Werkzeugen darin besteht, dass sie einfach zu schwer zu verwenden sind!
 
-If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
+Wenn du die **aller sichersten** verfügbaren Werkzeuge nutzen möchtest, müsstest du *viel* an Benutzerfreundlichkeit opfern. Und selbst dann gilt: ==Nichts ist jemals völlig sicher.== Es gibt **hohe** Sicherheit, aber niemals **vollständige** Sicherheit. Deshalb sind Threat Models (bzw. Bedrohungsmodelle) so wichtig.
 
 **So, what are these threat models, anyway?**
 
@@ -67,11 +67,11 @@ For example, an attorney representing a client in a national security case may b
 
 *Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
 
-### Try it yourself: Protecting Your Belongings
+### Probiere es selbst: Schütze dein Hab und Gut
 
-These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
+Diese Fragen lassen sich auf eine Vielzahl von Situationen anwenden, online und offline. Als allgemeine Demonstration, wie diese Fragen funktionieren, lass uns einen Plan erstellen, um dein Haus und deine Besitztümer sicher zu halten.
 
-**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
+**Was möchtest du schützen? (Oder: *Was hast du, das es wert ist, geschützt zu werden?*)**
 :
 
 Your assets might include jewelry, electronics, important documents, or photos.
