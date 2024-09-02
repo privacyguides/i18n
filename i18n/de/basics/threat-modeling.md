@@ -17,21 +17,21 @@ Focusing on the threats that matter to you narrows down your thinking about the 
 
 ## Creating Your Threat Model
 
-To identify what could happen to the things you value and determine from whom you need to protect them, you should answer these five questions:
+Um herauszufinden, was mit den Dingen, die dir wichtig sind, passieren könnten und vor wem du sie schützen musst, solltest du diese fünf Fragen beantworten:
 
-1. What do I want to protect?
-2. Who do I want to protect it from?
-3. How likely is it that I will need to protect it?
-4. How bad are the consequences if I fail?
-5. How much trouble am I willing to go through to try to prevent potential consequences?
+1. Was möchtest du schützen?
+2. Vor wem möchtest du es schützen?
+3. Wie wahrscheinlich ist es, dass du sie schützen musst?
+4. Wie schlimm sind die Folgen, wenn du scheiterst?
+5. Wie viel Mühe bist du bereit, aufzubringen, um diese Konsequenzen zu verhindern?
 
-### What do I want to protect?
+### Was möchtest du schützen?
 
-An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
+Ein „Asset“ ist eine Wertsache, etwas, das du schätzt und schützen möchtest. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
 
 *Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
 
-### Who do I want to protect it from?
+### Vor wem möchtest du es schützen?
 
 To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
 
@@ -39,7 +39,7 @@ To answer this question, it's important to identify who might want to target you
 
 Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
-### How likely is it that I will need to protect it?
+### Wie wahrscheinlich ist es, dass du sie schützen musst?
 
 ==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
 
@@ -49,7 +49,7 @@ Assessing risks is both a personal and subjective process. Many people find cert
 
 *Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
 
-### How bad are the consequences if I fail?
+### Wie schlimm sind die Folgen, wenn du scheiterst?
 
 There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
 
@@ -59,13 +59,13 @@ Security planning involves understanding how bad the consequences could be if an
 
 *Write down what your adversary might want to do with your private data.*
 
-### How much trouble am I willing to go through to try to prevent potential consequences?
+### Wie viel Mühe bist du bereit, aufzubringen, um diese Konsequenzen zu verhindern?
 
-==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
+==Es gibt keine perfekte Sicherheitslösung.== Nicht jeder hat die gleichen Prioritäten, Bedenken oder den gleichen Zugang zu Ressourcen. Deine Risikobewertung wird es dir ermöglichen, die richtige Strategie für dich zu planen, indem du Bequemlichkeit, Kosten und Privatsphäre in Einklang bringst.
 
-For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
+Zum Beispiel könnte ein Anwalt, der einen Mandanten in einem Fall der nationalen Sicherheit vertritt, bereit sein, größere Anstrengungen zu unternehmen, um die Kommunikation über diesen Fall zu schützen, wie zum Beispiel die Verwendung von verschlüsselten E-Mails, als eine Mutter, die ihrer Tochter regelmäßig lustige Katzenvideos per E-Mail schickt.
 
-*Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
+*Schreibe auf, welche Optionen dir zur Verfügung stehen, um deine einzigartigen Bedrohungen zu mindern. Notiere, ob du finanzielle Einschränkungen, technische Einschränkungen oder soziale Einschränkungen hast.*
 
 ### Probiere es selbst: Schütze dein Hab und Gut
 
@@ -74,38 +74,38 @@ Diese Fragen lassen sich auf eine Vielzahl von Situationen anwenden, online und 
 **Was möchtest du schützen? (Oder: *Was hast du, das es wert ist, geschützt zu werden?*)**
 :
 
-Your assets might include jewelry, electronics, important documents, or photos.
+Deine Wertsachen könnten Schmuck, elektronische Geräte, wichtige Dokumente oder Fotos sein.
 
-**Who do you want to protect it from?**
+**Vor wem möchtest du es schützen?**
 :
 
-Your adversaries might include burglars, roommates, or guests.
+Zu deinen Gegnern könnten Einbrecher, Mitbewohner oder Gäste zählen.
 
-**How likely is it that you will need to protect it?**
+**Wie wahrscheinlich ist es, dass du sie schützen musst?**
 :
 
-Does your neighborhood have a history of burglaries? How trustworthy are your roommates or guests? What are the capabilities of your adversaries? What are the risks you should consider?
+Hat deine Nachbarschaft eine Geschichte von Einbrüchen? Wie vertrauenswürdig sind deine Mitbewohner oder Gäste? Welche Fähigkeiten haben deine Gegner? Welche Risiken solltest du in Betracht ziehen?
 
-**How bad are the consequences if you fail?**
+**Wie schlimm sind die Folgen, wenn du scheiterst?**
 :
 
-Do you have anything in your house that you cannot replace? Do you have the time or money to replace those things? Do you have insurance that covers goods stolen from your home?
+Hast du etwas in deinem Haus, das du nicht ersetzen kannst? Hast du die Zeit oder das Geld, um diese Dinge zu ersetzen? Hast du eine Versicherung, die gestohlene Waren aus deinem Haus abdeckt?
 
-**How much trouble are you willing to go through to prevent these consequences?**
+**Wie viel Mühe bist du bereit, aufzubringen, um diese Konsequenzen zu verhindern?**
 :
 
-Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
+Bist du bereit, einen Safe für sensible Dokumente zu kaufen? Kannst du es dir leisten, ein hochwertiges Schloss zu kaufen? Hast du Zeit, ein Schließfach in deiner örtlichen Bank zu eröffnen und deine Wertsachen dort aufzubewahren?
 
-Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
+Nur wenn du dir diese Fragen gestellt hast, wirst du in der Lage sein, zu beurteilen, welche Maßnahmen du ergreifen solltest. Wenn deine Besitztümer wertvoll sind, die Wahrscheinlichkeit eines Einbruchs jedoch gering ist, möchtest du vielleicht nicht zu viel Geld in ein Schloss investieren. Wenn die Wahrscheinlichkeit eines Einbruchs jedoch hoch ist, solltest du das beste Schloss auf dem Markt besorgen und in Betracht ziehen, ein Sicherheitssystem hinzuzufügen.
 
-Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
+Einen Sicherheitsplan zu erstellen, wird dir helfen, die Bedrohungen zu verstehen, die einzigartig für dich sind, und deine Wertgegenstände, deine Gegner und die Fähigkeiten deiner Gegner sowie die Wahrscheinlichkeit der Risiken, denen du ausgesetzt bist, zu bewerten.
 
 ## Weitere Informationen
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
+Für Menschen, die ihre Privatsphäre und Sicherheit online erhöhen möchten, haben wir eine Liste von häufigen Bedrohungen zusammengestellt, mit denen unsere Besucher konfrontiert sind, oder von Zielen, die unsere Besucher verfolgen. Diese Liste soll dir Inspiration geben und die Grundlage unserer Empfehlungen veranschaulichen.
 
-- [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
+- [Gemeinsame Ziele und Bedrohungen :material-arrow-right-drop-circle:](common-threats.md)
 
-## Sources
+## Quellen
 
 - [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
