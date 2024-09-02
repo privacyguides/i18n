@@ -40,7 +40,7 @@ Der Google Play Store erfordert ein Google-Konto, um sich anzumelden, was der Pr
 
 ![Aurora Store Logo](../assets/img/android/aurora-store.webp){ align=right }
 
-**Aurora Store** is a Google Play Store client which does not require a Google account, Google Play Services, or microG to download apps.
+**Aurora Store** ist ein Client für den Google Play Store, der kein Google-Konto, Google Play-Dienste oder microG benötigt, um Apps herunterzuladen.
 
 [:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
@@ -55,27 +55,27 @@ Der Google Play Store erfordert ein Google-Konto, um sich anzumelden, was der Pr
 
 </div>
 
-Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
+Der Aurora Store erlaubt es dir nicht, kostenpflichtige Apps mit der anonymen Kontofunktion herunterzuladen. Du kannst dich optional mit deinem Google-Konto im Aurora Store anmelden, um Apps herunterzuladen, die du gekauft hast, was jedoch den Zugriff auf die Liste der Apps, die du installiert hast, für Google bedeutet. Dennoch profitierst du davon, dass du nicht den vollständigen Google Play-Client und Google Play-Dienste oder microG auf deinem Gerät benötigst.
 
 ## Manuell mit RSS-Benachrichtigungen
 
-For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../news-aggregators.md) that will help you keep track of new releases.
+Für Apps, die auf Plattformen wie GitHub und GitLab veröffentlicht werden, kannst du möglicherweise einen RSS-Feed zu deinem [News-Aggregator](../news-aggregators.md) hinzufügen, der dir hilft, neue Veröffentlichungen zu verfolgen.
 
-![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
+![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK-Änderungen](../assets/img/android/rss-changes-light.png#only-light) ![APK-Änderungen](../assets/img/android/rss-changes-dark.png#only-dark)
 
 ### GitHub
 
-On GitHub, using [Secure Camera](general-apps.md#secure-camera) as an example, you would navigate to its [releases page](https://github.com/GrapheneOS/Camera/releases) and append `.atom` to the URL:
+Auf GitHub würdest du, beispielsweise bei [Secure Camera](general-apps.md#secure-camera), auf dessen [Releases-Seite](https://github.com/GrapheneOS/Camera/releases) gehen und `.atom` an die URL anhängen:
 
 `https://github.com/GrapheneOS/Camera/releases.atom`
 
 ### GitLab
 
-On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+Auf GitLab, nehmen wir [Aurora Store](#aurora-store) als Beispiel, würdest du zum [Projekt Repository](https://gitlab.com/AuroraOSS/AuroraStore) navigieren und `/-/tags?format=atom` an die URL anhängen:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-### Verifying APK Fingerprints
+### APK-Fingerabdrücke verifizieren
 
 If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
 
@@ -97,7 +97,7 @@ If you download APK files to install manually, you can verify their signature wi
    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
    ```
 
-5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk) on their website.
+5. Die resultierenden Hashes können dann mit einer anderen Quelle verglichen werden. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk) on their website.
 
    ```bash
    Signer #1 certificate DN: CN=GrapheneOS
@@ -121,6 +121,6 @@ That said, the [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](http
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](https://gadgetbridge.org) is one example of this). If you really need an app like that, we recommend using the newer [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) client instead of the original F-Droid app to obtain it. F-Droid Basic supports automatic background updates without privileged extension or root, and has a reduced feature set (limiting attack surface).
+In einigen seltenen Fällen wird der Entwickler einer App diese nur über F-Droid veröffentlichen ([Gadgetbridge](https://gadgetbridge.org) ist ein Beispiel dafür). Wenn du wirklich eine solche App brauchst, empfehlen wir den neueren [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) Client anstelle der ursprünglichen F-Droid App zu verwenden. F-Droid Basic unterstützt automatische Hintergrundaktualisierungen ohne privilegierte Erweiterung oder Root und hat einen reduzierten Funktionsumfang (Begrenzung der Angriffsfläche).
 
 </div>
