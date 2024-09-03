@@ -9,29 +9,29 @@ Das Gleichgewicht zwischen Sicherheit, Datenschutz und Benutzerfreundlichkeit is
 
 Wenn du die **aller sichersten** verfügbaren Werkzeuge nutzen möchtest, müsstest du *viel* an Benutzerfreundlichkeit opfern. Und selbst dann gilt: ==Nichts ist jemals völlig sicher.== Es gibt **hohe** Sicherheit, aber niemals **vollständige** Sicherheit. Deshalb sind Threat Models (bzw. Bedrohungsmodelle) so wichtig.
 
-**So, what are these threat models, anyway?**
+**Was sind diese Bedrohungsmodelle überhaupt?**
 
-==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
+==Ein Bedrohungsmodell ist eine Liste der wahrscheinlichsten Bedrohungen für deine Sicherheits- und Privatsphäre-Bemühungen.== Da es unmöglich ist, sich gegen **jeden** Angriff (oder Angreifer) zu schützen, solltest du dich auf die **wahrscheinlichsten** Bedrohungen konzentrieren. In der Computersicherheit ist eine Bedrohung ein Ereignis, das deine Bemühungen, privat und sicher zu bleiben, untergraben könnte.
 
-Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
+Durch die Konzentration auf die Bedrohungen, die für dich relevant sind, wird dein Denken über den notwendigen Schutz eingeengt, sodass du die richtigen Werkzeuge für die Aufgabe auswählen kannst.
 
 ## Creating Your Threat Model
 
 Um herauszufinden, was mit den Dingen, die dir wichtig sind, passieren könnten und vor wem du sie schützen musst, solltest du diese fünf Fragen beantworten:
 
-1. Was möchtest du schützen?
-2. Vor wem möchtest du es schützen?
-3. Wie wahrscheinlich ist es, dass du sie schützen musst?
-4. Wie schlimm sind die Folgen, wenn du scheiterst?
-5. Wie viel Mühe bist du bereit, aufzubringen, um diese Konsequenzen zu verhindern?
+1. Was will ich schützen?
+2. Vor wem möchte ich es schützen?
+3. Wie wahrscheinlich ist es, dass ich es schützen muss?
+4. Wie schlimm sind die Folgen, wenn ich scheitere?
+5. Wie viel Mühe bin ich bereit, aufzubringen, um diese Konsequenzen zu verhindern?
 
-### Was möchtest du schützen?
+### Was will ich schützen?
 
-Ein „Asset“ ist eine Wertsache, etwas, das du schätzt und schützen möchtest. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
+Ein „Wertgegenstand“ (Asset) ist etwas, das du schätzt und schützen möchtest. Im Kontext der digitalen Sicherheit ==ist ein solcher Wertgegenstand in der Regel eine Art von Information.== Zum Beispiel sind deine E-Mails, Kontaktlisten, Sofortnachrichten, Standort und Dateien alle mögliche Wertsachen. Auch deine Geräte selbst können Wertgegenstände sein.
 
-*Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
+*Mach eine Liste deiner Wertsachen: Daten, die du speicherst, wo sie gespeichert sind, wer Zugriff darauf hat und was andere daran hindert, darauf zuzugreifen.*
 
-### Vor wem möchtest du es schützen?
+### Vor wem möchte ich es schützen?
 
 To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
 
@@ -39,7 +39,7 @@ To answer this question, it's important to identify who might want to target you
 
 Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
-### Wie wahrscheinlich ist es, dass du sie schützen musst?
+### Wie wahrscheinlich ist es, dass ich es schützen muss?
 
 ==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
 
@@ -49,7 +49,7 @@ Assessing risks is both a personal and subjective process. Many people find cert
 
 *Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
 
-### Wie schlimm sind die Folgen, wenn du scheiterst?
+### Wie schlimm sind die Folgen, wenn ich scheitere?
 
 There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
 
@@ -59,7 +59,7 @@ Security planning involves understanding how bad the consequences could be if an
 
 *Write down what your adversary might want to do with your private data.*
 
-### Wie viel Mühe bist du bereit, aufzubringen, um diese Konsequenzen zu verhindern?
+### Wie viel Mühe bin ich bereit, aufzubringen, um diese Konsequenzen zu verhindern?
 
 ==Es gibt keine perfekte Sicherheitslösung.== Nicht jeder hat die gleichen Prioritäten, Bedenken oder den gleichen Zugang zu Ressourcen. Deine Risikobewertung wird es dir ermöglichen, die richtige Strategie für dich zu planen, indem du Bequemlichkeit, Kosten und Privatsphäre in Einklang bringst.
 
