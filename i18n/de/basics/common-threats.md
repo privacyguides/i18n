@@ -9,12 +9,12 @@ Wir ordnen unsere Empfehlungen nach [Bedrohungen](threat-modeling.md) beziehungs
 <span class="pg-purple">:material-incognito: **Anonymität**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+Schütze deine Online-Aktivitäten von deiner realen Identität, um dich vor Personen zu schützen, die gezielt versuchen *deine* Identität aufzudecken.
 
 <span class="pg-red">:material-target-account: **Targeted Attacks**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+Schutz vor Hackern oder anderen böswilligen Akteuren, die versuchen, sich Zugang zu *deinen * Daten oder Geräten zu verschaffen.
 
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
@@ -24,19 +24,19 @@ Typically a form of <span class="pg-red">:material-target-account: Targeted Atta
 <span class="pg-orange">:material-bug-outline: **Passive Angriffe**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+Schutz vor Malware, Datenleaks und anderen Angriffen, die sich gegen viele Menschen gleichzeitig richten.
 
 <span class="pg-teal">:material-server-network: **Service Providers**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+Schutz deiner Daten vor Dienstleistern (z. B. mit E2EE, welche deine Daten für den Server unlesbar macht).
 
 <span class="pg-blue">:material-eye-outline: **Massenüberwachung**</span>
 :
 
 Protection from government agencies, organizations, websites, and services which work together to track your activities.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **Überwachungskapitalismus**</span>
 :
 
 Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
@@ -89,13 +89,13 @@ Targeted attacks against a specific person are more problematic to deal with. Co
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>
 
-By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
+In **Webbrowsern**, **E-Mail-Clients** und **Büroanwendungen** wird in der Regel nicht vertrauenswürdiger Code ausgeführt, der dir von Dritten übermittelt wird. Der Einsatz mehrerer virtueller Maschinen — um Anwendungen wie diese von deinem Hostsystem und voneinander zu trennen - ist eine Technik, mit der du die Gefahr verringern kannst, dass ein Exploit in diesen Anwendungen den Rest deines Systems gefährdet. Beispielsweise bieten Technologien wie Qubes OS oder Microsoft Defender Application Guard unter Windows bequeme Methoden, dies zu tun.
 
 </div>
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
 
-## Attacks against Certain Organizations
+## Angriffe auf bestimmte Organisationen
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
 
@@ -122,15 +122,15 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
 5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
-## Privacy from Service Providers
+## Privatsphäre vor Dienstanbietern
 
 <span class="pg-teal">:material-server-network: Diensteanbieter</span>
 
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
+Wir leben in einer Welt, in der fast alles mit dem Internet verbunden ist. Unsere „privaten“ Nachrichten, E-Mails und sozialen Interaktionen werden in der Regel irgendwo auf einem Server gespeichert. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can access your conversations whenever and however they want, without you ever knowing. This applies to many common services, like SMS messaging, Telegram, and Discord.
+Das offensichtliche Problem dabei ist, dass der Dienstanbieter (oder ein Hacker, der in den Server eingedrungen ist) auf deine Unterhaltungen zugreifen kann, wann und wie er will, ohne dass du es je erfährst. Dies gilt für viele gängige Dienste wie SMS-Nachrichten, Telegram und Discord.
 
-Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
+Glücklicherweise kann E2EE dieses Problem lindern, indem es die Kommunikation zwischen dir und den gewünschten Empfängern verschlüsselt, bevor sie überhaupt an den Server gesendet wird. Die Vertraulichkeit deiner Nachrichten ist gewährleistet, vorausgesetzt, der Dienstanbieter hat keinen Zugang zu den privaten Schlüsseln der beiden Parteien.
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Hinweis zur webbasierten Verschlüsselung</p>
@@ -181,13 +181,13 @@ Online, you can be tracked via a variety of methods, including but not limited t
 
 If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
 
-## Surveillance as a Business Model
+## Überwachung als Geschäftsmodell
 
 <span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> Der Überwachungskapitalismus ist ein Wirtschaftssystem, in dessen Mittelpunkt die Erfassung und Vermarktung personenbezogener Daten mit dem Hauptziel der Gewinnerzielung steht.[^3]
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+Für viele Menschen ist die Verfolgung und Überwachung durch private Unternehmen eine wachsende Sorge. Weit verbreitete Werbenetzwerke, wie die von Google und Facebook betriebenen, umspannen das Internet weit über die von ihnen kontrollierten Websites hinaus und verfolgen dabei deine Handlungen. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
 
 Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
 
@@ -195,9 +195,9 @@ Additionally, even companies outside of the *AdTech* or tracking industry can sh
 
 <span class="pg-green">:material-account-search: Public Exposure</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+Der beste Weg, deine Daten privat zu halten, besteht darin, sie gar nicht erst öffentlich zu machen. Das Löschen unerwünschter Informationen über dich online ist einer der besten ersten Schritte, die du unternehmen kannst, um deine Privatsphäre wiederzuerlangen.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [Siehe unseren Leitfaden zur Kontolöschung :material-arrow-right-drop-circle:](account-deletion.md)
 
 On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
 

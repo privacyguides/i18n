@@ -1,27 +1,27 @@
 ---
-title: "Calendar Sync"
+title: "Kalender-Synchronisation"
 icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 cover: calendar.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-bug-outline: Passive Angriffe](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
+**Kalender** enthalten einige deiner sensibelsten Daten; verwende Produkte, die E2EE auf dem Gerät implementieren, um zu verhindern, dass ein Diensteanbieter darauf zugreift.
 
 ## Tuta
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta-Logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta-Logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** bietet einen kostenlosen und verschlüsselten Kalender auf allen unterstützten Plattformen an. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
-Multiple calendars and extended sharing functionality is limited to paid subscribers.
+Mehrere Kalender und erweiterte Sharing-Funktionen sind auf zahlende Abonnenten beschränkt.
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -68,9 +68,9 @@ Multiple calendars and extended sharing functionality is limited to paid subscri
 
 </div>
 
-Unfortunately, as of August 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). Proton Calendar's web client is open source, however, and has been [audited](https://proton.me/community/open-source).
+Leider hat Proton, stand August 2024, den Quellcode für ihre mobile Kalender-App auf Android oder iOS [immer noch](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) nicht veröffentlicht, und nur die Android-App wurde einem [Audit](https://proton.me/blog/security-audit-all-proton-apps) unterzogen. Der Web-Client von Proton Calendar ist jedoch quelloffen und wurde [geprüft](https://proton.me/community/open-source).
 
-## Criteria
+## Kriterien
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 

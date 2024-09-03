@@ -43,9 +43,9 @@ schema:
 <div markdown>
 ## Why should I care?
 
-> “I have nothing to hide. Why should I care about my privacy?”
+> „Ich habe nichts zu verbergen. Warum sollte ich mir Sorgen um meine Privatsphäre machen?"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In einigen Diktaturen ist das immer noch der Fall. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
 You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
@@ -72,15 +72,15 @@ Trying to protect all your data from everyone all the time is impractical, expen
 <div markdown>
 **Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Unterstütze unsere Arbeit](about/donate.md){ .md-button .md-button--primary }
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
+- [x] **Werbefreie Empfehlungen**
+- [x] **Vollständige redaktionelle Unabhängigkeit**
 - [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **Häufige Updates**
+- [x] **Vertraut von Journalisten**
+- [x] **Vertraut von Lesern**
 
 </div>
 
@@ -94,35 +94,35 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
+    [:octicons-arrow-right-24: Lese die vollständige Review](email.md#proton-mail)
 
--   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
-
-    ---
-
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
-
-    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
-
--   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+-   ![Mailbox.org-Logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
+    Mailbox.org ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % Ökostrom betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#tuta)
+    [:octicons-arrow-right-24: Lese die vollständige Review](email.md#mailboxorg)
+
+-   ![Tuta Logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+
+    ---
+
+    Tuta (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Privatsphäre durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
+
+    [:octicons-arrow-right-24: Lese die vollständige Review](email.md#tuta)
 
 </div>
 
 <div class="grid" markdown>
 <div markdown>
-### Best VPN Services
+### Beste VPN-Anbieter
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
+- ![Proton VPN Logo](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
+- ![IVPN Logo](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
+- ![Mullvad Logo](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
 
 </div>
 </div>
@@ -132,9 +132,9 @@ Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlü
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
+- ![Proton Drive Logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
+- ![Tresorit Logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
+- ![Peergos Logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
 
 </div>
 </div>
@@ -144,9 +144,9 @@ Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlü
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
+- ![Mullvad Browser Logo](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![Firefox Logo](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
+- ![Brave Logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
 
 </div>
 </div>
@@ -157,7 +157,7 @@ Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlü
 
 ---
 
-## About Privacy Guides
+## Über Privacy Guides
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 

@@ -10,11 +10,11 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
+Wenn du zusätzliche *Privatsphäre* vor deinem ISP, in einem öffentlichen Wi-Fi-Netzwerk oder beim Herunterladen von Dateien über Torrents benötigst, könnte ein **VPN** die Lösung für dich sein.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs bieten keine Anonymität</p>
@@ -65,18 +65,18 @@ Die von uns empfohlenen Anbieter verwenden Verschlüsselung, unterstützen WireG
 
 </div>
 
-#### :material-check:{ .pg-green } 112 Countries
+#### :material-check:{ .pg-green } 112 Länder
 
-Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
+Proton VPN hat [Server in 112 Ländern](https://protonvpn.com/vpn-servers) bzw. [5](https://protonvpn.com/support/how-to-create-free-vpn-account) Server, wenn du die [kostenlose Version nutzt](https://protonvpn.com/free-vpn/server).(1) Die Auswahl eines VPN-Anbieters mit einem Server in deiner Nähe verringert die Latenz des von dir gesendeten Netzwerkverkehrs. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Stand: 2024-08-06
 
 Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüssel des VPN-Anbieters besser ist, wenn er [dedizierte Server](https://en.wikipedia.org/wiki/Dedicated_hosting_service) verwendet, anstatt billigere gemeinsame Lösungen (mit anderen Kunden) wie [virtuelle private Server](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 #### :material-check:{ .pg-green } Unabhängig geprüft
 
-Im Januar 2020 hat sich Proton VPN einem unabhängigen Audit durch SEC Consult unterzogen. SEC Consult fand einige Sicherheitslücken mit mittlerem und niedrigem Risiko in den Windows-, Android- und iOS-Anwendungen von Proton VPN, die alle von Proton VPN vor der Veröffentlichung der Berichte "ordnungsgemäß behoben" wurden. Keines der festgestellten Probleme hätte angreifenden Fernzugriff auf dein Gerät oder deinen Datenverkehr ermöglicht. Du kannst individuelle Berichte für jede Plattform unter [protonvpn.com](https://protonvpn.com/blog/open-source) einsehen. In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). Eine [Bescheinigung](https://proton.me/blog/security-audit-all-proton-apps) wurde am 9. November 2021 von [Securitum](https://research.securitum.com) für die Apps von Proton VPN ausgestellt.
+Im Januar 2020 hat sich Proton VPN einem unabhängigen Audit durch SEC Consult unterzogen. SEC Consult fand einige Sicherheitslücken mit mittlerem und niedrigem Risiko in den Windows-, Android- und iOS-Anwendungen von Proton VPN, die alle von Proton VPN vor der Veröffentlichung der Berichte "ordnungsgemäß behoben" wurden. Keines der festgestellten Probleme hätte angreifenden Fernzugriff auf dein Gerät oder deinen Datenverkehr ermöglicht. Du kannst individuelle Berichte für jede Plattform unter [protonvpn.com](https://protonvpn.com/blog/open-source) einsehen. Im April 2022 wurde Proton VPN einem [weiteren Audit](https://protonvpn.com/blog/no-logs-audit) unterzogen. Eine [Bescheinigung](https://proton.me/blog/security-audit-all-proton-apps) wurde am 9. November 2021 von [Securitum](https://research.securitum.com) für die Apps von Proton VPN ausgestellt.
 
 #### :material-check:{ .pg-green } Open-Source Anwendungen
 
@@ -104,7 +104,7 @@ Proton VPN unterstützt derzeit nur vorrübergehende [Remote-Port-Weiterleitung]
 
 Proton VPN hat sein [Stealth-Protokoll](https://protonvpn.com/blog/stealth-vpn-protocol), das in Situationen helfen *kann*, in denen VPN-Protokolle wie OpenVPN oder Wireguard mit verschiedenen, rudimentären Techniken blockiert werden. Stealth kapselt den VPN-Tunnel in eine TLS-Sitzung ein, damit er mehr wie normaler Internetverkehr aussieht.
 
-Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
+Leider funktioniert das nicht sehr gut in Ländern, in denen ausgeklügelte Filter eingesetzt werden, die den gesamten ausgehenden Datenverkehr analysieren und versuchen, verschlüsselte Tunnel zu entdecken. Stealth ist für Android, iOS, Windows und macOS verfügbar, aber noch nicht für Linux.
 
 #### :material-check:{ .pg-green } Mobile Anwendungen
 
@@ -112,7 +112,7 @@ Neben der Bereitstellung von Standard-OpenVPN-Konfigurationsdateien bietet Proto
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Hinweise
 
-Proton VPN clients support two factor authentication on all platforms. Proton VPN hat eigene Server und Rechenzentren in der Schweiz, Island und Schweden. Sie bieten mit ihrem DNS-Dienst die Blockierung von Inhalten und bekannter Malware an. Darüber hinaus bietet Proton VPN auch "Tor"-Server an, die es dir ermöglichen, sich problemlos mit Onion-Seiten zu verbinden. Wir empfehlen jedoch dringend, zu diesem Zweck [den offiziellen Tor-Browser](tor.md#tor-browser) zu verwenden.
+Proton VPN Clients unterstützen Zwei-Faktor-Authentisierung auf allen Plattformen. Proton VPN hat eigene Server und Rechenzentren in der Schweiz, Island und Schweden. Sie bieten mit ihrem DNS-Dienst die Blockierung von Inhalten und bekannter Malware an. Darüber hinaus bietet Proton VPN auch "Tor"-Server an, die es dir ermöglichen, sich problemlos mit Onion-Seiten zu verbinden. Wir empfehlen jedoch dringend, zu diesem Zweck [den offiziellen Tor-Browser](tor.md#tor-browser) zu verwenden.
 
 ##### :material-alert-outline:{ .pg-orange } Die Killswitch-Funktion ist auf Intel-basierten Macs defekt
 
@@ -150,7 +150,7 @@ Systemabstürze [können](https://protonvpn.com/support/macos-t2-chip-kill-switc
 IVPN hat [Server in 37 Ländern](https://ivpn.net/status).(1) Die Wahl eines VPN-Anbieters mit einem Server in deiner Nähe verringert die Latenz des von dir gesendeten Netzwerkverkehrs. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Stand: 2024-08-06
 
 Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüssel des VPN-Anbieters besser ist, wenn er [dedizierte Server](https://en.wikipedia.org/wiki/Dedicated_hosting_service) verwendet, anstatt billigere gemeinsame Lösungen (mit anderen Kunden) wie [virtuelle private Server](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -164,7 +164,7 @@ Seit Februar 2020 [sind die IVPN-Anwendungen nun quelloffen](https://ivpn.net/bl
 
 #### :material-check:{ .pg-green } Akzeptiert Bargeld und Monero
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+Neben Kredit-/Debitkarten und PayPal akzeptiert IVPN auch Bitcoin, **Monero** und **Bargeld/lokale Währungen** (bei Jahresplänen) als anonyme Zahlungsmittel. Prepaid-Karten mit einlösbaren Codes sind [auch verfügbar](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
 #### :material-check:{ .pg-green } WireGuard-Unterstützung
 
@@ -198,7 +198,7 @@ IVPN-Clients unterstützen die Zwei-Faktor-Authentisierung. IVPN bietet auch die
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** ist ein schnelles und preiswertes VPN mit einem ernsthaften Fokus auf Transparenz und Sicherheit. They have been in operation since 2009. Mullvad ist in Schweden ansässig und bietet keine kostenlose Testversion an.
+**Mullvad** ist ein schnelles und preiswertes VPN mit einem ernsthaften Fokus auf Transparenz und Sicherheit. Sie sind seit 2009 in Betrieb. Mullvad ist in Schweden ansässig und bietet keine kostenlose Testversion an.
 
 [:octicons-home-16: Homepage](https://mullvad.net/de){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Dienst" }
@@ -220,12 +220,12 @@ IVPN-Clients unterstützen die Zwei-Faktor-Authentisierung. IVPN bietet auch die
 
 </div>
 
-#### :material-check:{ .pg-green } 45 Countries
+#### :material-check:{ .pg-green } 45 Länder
 
-Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
+Mullvad hat [Server in 45 Ländern](https://mullvad.net/servers).(1) Die Wahl eines VPN-Anbieters mit einem Server in deiner Nähe verringert die Latenz des von dir gesendeten Netzwerkverkehrs. Der Grund dafür ist eine kürzere Route (weniger Sprünge) zum Ziel.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Stand: 2024-08-06
 
 Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüssel des VPN-Anbieters besser ist, wenn er [dedizierte Server](https://en.wikipedia.org/wiki/Dedicated_hosting_service) verwendet, anstatt billigere gemeinsame Lösungen (mit anderen Kunden) wie [virtuelle private Server](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -247,7 +247,7 @@ Mullvad stellt den Quellcode für seine Desktop- und mobilen Clients in seiner [
 
 #### :material-check:{ .pg-green } Akzeptiert Bargeld und Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers.
+Mullvad akzeptiert nicht nur Kredit-/Debitkarten und PayPal, sondern auch Bitcoin, Bitcoin Cash, **Monero** und **Bargeld/lokale Währungen** als anonyme Zahlungsmittel. Prepaid-Karten mit einlösbaren Codes sind auch verfügbar. Mullvad akzeptiert auch Swish und Banküberweisungen.
 
 #### :material-check:{ .pg-green } WireGuard-Unterstützung
 
