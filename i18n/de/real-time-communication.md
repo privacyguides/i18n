@@ -6,12 +6,12 @@ description: Andere Instant Messenger stellen dem Unternehmen, das sie betreibt,
 cover: real-time-communication.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-bug-outline: Passive Angriffe](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 These are our recommendations for encrypted **real-time communication**.
 
@@ -76,7 +76,7 @@ If you use Android and your threat model requires protecting against [:material-
 
 ![Molly logo](assets/img/messengers/molly.svg){ align=right }
 
-**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
+**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Außerdem gibt es Verbesserungen bei der Benutzerfreundlichkeit, wie z. B. geplante Backups, automatisches Sperren und die Möglichkeit, dein Android-Telefon als verknüpftes Gerät anstelle des Hauptgeräts für ein Signal-Konto zu verwenden.
 
 [:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -95,7 +95,7 @@ If you use Android and your threat model requires protecting against [:material-
 
 </div>
 
-Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, which are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream, which may affect actions such as [migrating from Signal to Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
+Molly wird alle zwei Wochen aktualisiert, um die neuesten Funktionen und Fehlerbehebungen von Signal einzubinden. Die Ausnahme sind Sicherheitsprobleme, die so schnell wie möglich behoben werden. Allerdings sollten Sie sich darüber im Klaren sein, dass es zu einer leichten Verzögerung im Vergleich zum Upstream kommen kann, was sich auf Aktionen wie die [Migration von Signal zu Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal) auswirken kann.
 
 Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
 

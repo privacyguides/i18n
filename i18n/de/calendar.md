@@ -1,7 +1,7 @@
 ---
 title: "Kalender-Synchronisation"
 icon: material/calendar
-description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
+description: Kalender enthalten einige deiner sensibelsten Daten; verwende Produkte, die Verschlüsselung auf dem Gerät implementieren.
 cover: calendar.webp
 ---
 
@@ -19,7 +19,7 @@ cover: calendar.webp
 ![Tuta-Logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta-Logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** bietet einen kostenlosen und verschlüsselten Kalender auf allen unterstützten Plattformen an. Features include: automatic E2EE of all data, sharing features, import/export functionality, multi-factor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** bietet einen kostenlosen und verschlüsselten Kalender auf all ihren unterstützten Plattformen an. Zu den Funktionen gehören: automatische E2EE aller Daten, Freigabefunktionen, Import-/Exportfunktionen, Mehrfachauthentisierung und [mehr](https://tuta.com/calendar-app-comparison).
 
 Mehrere Kalender und erweiterte Sharing-Funktionen sind auf zahlende Abonnenten beschränkt.
 
@@ -50,7 +50,7 @@ Mehrere Kalender und erweiterte Sharing-Funktionen sind auf zahlende Abonnenten 
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** is an encrypted calendar service available to Proton members via web or mobile clients. Features include: automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide). Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. Extended sharing functionality is also limited to paid subscribers.
+**Proton Calendar** ist ein verschlüsselter Kalenderdienst, der Proton-Mitgliedern über Web- oder Mobilgeräten zur Verfügung steht. Zu den Funktionen gehören: automatische E2EE aller Daten, Freigabefunktionen, Import-/Exportfunktionen, und [mehr](https://proton.me/support/proton-calendar-guide). Mit der kostenlosen Version hast du Zugang zu 3 Kalendern, während du als Abonnent bis zu 25 Kalender erstellen kannst. Die erweiterten Funktionen zur gemeinsamen Nutzung sind ebenfalls auf zahlende Abonnenten beschränkt.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
@@ -72,14 +72,14 @@ Leider hat Proton, stand August 2024, den Quellcode für ihre mobile Kalender-Ap
 
 ## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
-### Minimum Qualifications
+### Mindestanforderungen
 
-- Must sync and store information with E2EE to ensure data is not visible to the service provider.
+- Muss Informationen mit E2EE synchronisieren und speichern, um sicherzustellen, dass die Daten für den Dienstanbieter nicht sichtbar sind.
 
-### Best-Case
+### Im besten Fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Funktionen, aber diejenigen, die sie enthalten, werden auf dieser Seite möglicherweise höher eingestuft als jene, die sie nicht enthalten.
 
-- Should integrate with native OS calendar and contact management apps if applicable.
+- Sollte sich gegebenenfalls mit den nativen OS-Kalender und Kontakt-Management-Apps integrieren.

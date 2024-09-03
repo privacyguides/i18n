@@ -1,29 +1,29 @@
 ---
 title: Language Tools
 icon: material/alphabetical-variant
-description: These language tools do not send your input text to a server and can be used offline and self-hosted.
+description: Diese Sprachtools senden deinen Eingabetext nicht an einen Server und können offline und selbst gehostet verwendet werden.
 cover: language-tools.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+- [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time. The language tools listed on this page do not send your submitted text to a server, and can be self-hosted and used offline for maximum control of your data.
+Texte, die in Grammatik-, Rechtschreib- und Stilprüfungsprogramme sowie in Übersetzungsdienste eingegeben werden, können vertrauliche Informationen enthalten, die auf ihren Servern auf unbestimmte Zeit gespeichert werden können. Die auf dieser Seite aufgeführten Sprachtools senden den von dir eingegebenen Text nicht an einen Server und können selbst gehostet und offline verwendet werden, um eine maximale Kontrolle über deine Daten zu gewährleisten.
 
 ## LanguageTool
 
 <div class="admonition recommendation" markdown>
 
-![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
-![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
+![LanguageTool-Logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
+![LanguageTool-Logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** is a multilingual grammar, style and spell checker that supports more than 20 languages. The software is [self-hostable](https://dev.languagetool.org/http-server), and the extensions do not send your input text to their server.
+**LanguageTool** ist eine mehrsprachige Grammatik-, Stil- und Rechtschreibprüfung, die mehr als 20 Sprachen unterstützt. Die Software ist [selbst-hostbar](https://dev.languagetool.org/http-server), und die Erweiterungen senden deinen Eingabetext nicht an ihren Server.
 
-LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
+LanguageTool bietet die Integration mit einer Vielzahl von [Office-Suits](https://languagetool.org/services#text_editors) und [E-Mail-Clients](https://languagetool.org/services#mail_clients).
 
 [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
@@ -45,9 +45,9 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 
 </div>
 
-## Criteria
+## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
-- Must be open source.
-- Must be possible to self-host.
+- Muss Open Source sein.
+- Es muss möglich sein, es selbst zu hosten.
