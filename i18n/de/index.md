@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
+meta_title: "Privacy Guides: Unabhängige Datenschutz- & Sicherheitsressourcen"
 description: "The most popular & trustworthy non-profit website to find privacy tools and learn about protecting your digital life. Ad & affiliate free, high quality reviews."
 template: home.html
 social:
@@ -84,15 +84,15 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 </div>
 
-### Top 3 Private Email Providers
+### Top 3 private E-Mail-Anbieter
 
 <div class="grid cards" markdown>
 
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+-   ![Proton Mail Logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
+Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
 
@@ -128,7 +128,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 </div>
 
 <div markdown>
-### Secure Cloud Storage Services
+### Sichere Cloud-Speicherdienste
 
 <div class="grid cards" markdown>
 
@@ -140,7 +140,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 </div>
 
 <div markdown>
-### Best Web Browsers
+### Beste Web-Browser
 
 <div class="grid cards" markdown>
 

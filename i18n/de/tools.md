@@ -181,7 +181,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 </div>
 
-## Top 3 Private Email Providers
+## Top 3 private E-Mail-Anbieter
 
 <div class="grid cards" markdown>
 
@@ -189,7 +189,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 

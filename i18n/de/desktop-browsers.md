@@ -277,7 +277,7 @@ Die Schutz-Möglichkeiten können je nach Bedarf für jede Website heruntergestu
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] Wähle **Aggressiv** unter *Tracker & Anzeigenblockierung*
 
 <details class="warning" markdown>
 <summary>Inhaltsfilter</summary>
@@ -286,64 +286,64 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Wähle **Streng** unter *Verbindungen auf HTTPS upgraden*
+- [x] (Optional) Wähle **JavaScript blockieren** (1)
+- [x] Wähle **Fingerprinting blockieren**
+- [x] Wähle **Drittanbieter-Cookies blockieren**
+- [x] Wähle **Vergiss mich, wenn ich diese Seite schließe** (2)
+- [ ] Deaktiviere alles unter Social-Media-Sperrung
 
 </div>
 
 1. Diese Option bietet ähnliche Funktionen wie die erweiterten [Blockierungsmodi](https://github.com/gorhill/uBlock/wiki/Blocking-mode) von uBlock Origin.
 2. Wenn du auf einer bestimmten Website, die du häufig besuchst, eingeloggt bleiben möchtest, kannst du Ausnahmen für die einzelnen Websites festlegen, indem du auf das Schildsymbol in der Adressleiste klickst.
 
-#### Privacy and security
+#### Datenschutz und Sicherheit
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Wähle **Websites dürfen das V8-Optimierungstool nicht verwenden** unter *Sicherheit* → *V8-Sicherheit verwalten* (1)
+- [x] Wähle **Berechtigungen für nicht verwendete Websites automatisch entfernen** unter *Website- und Schutzeinstellungen*
+- [x] Wähle **Nicht-proxisiertes UDP deaktivieren** unter [WebRTC-IP-Nutzungsrichtlinien](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Deaktiviere **Nutzen Sie Google-Services für Push-Benachrichtigungen**
+- [x] Wähle **AMP-Seiten automatisch umleiten**
+- [x] Wähle **Tracking-URLs automatisch umleiten**
+- [x] Wähle **Verhindern, dass Websites aufgrund meiner Spracheinstellungen Fingerabdrücke von mir erstellen**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. Die Deaktivierung des V8-Optimierungstool verringert deine Angriffsfläche, indem [*einige*](https://grapheneos.social/@GrapheneOS/112708049232710156) Teile der JavaScript-Just-In-Time-Kompilierung (JIT) deaktiviert werden.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Browserdaten beim Schließen löschen</p>
 
-- [x] Select **Delete data sites have saved to your device when you close all windows** under *Sites and Shields Settings* → *Content* → *Additional content settings* → *On-device site data*.
+- [x] Wähle **Websitedaten löschen, die auf deinem Gerät gespeichert wurden, wenn du alle Fenster schließt** unter *Website- und Schutzeinstellungen* → *Inhalte* → *Zusätzliche Inhaltseinstellungen* → *Websitedaten auf dem Gerät*.
 
 If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
 
 </div>
 
-##### Tor windows
+##### Tor-Fenster
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Privates Fenster mit Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) ermöglicht es dir, deinen Datenverkehr durch das Tor-Netzwerk in Inkognito-Fenster zu leiten und auf .onion-Dienste zuzugreifen, was in einigen Fällen nützlich sein kann. Allerdings ist Brave **nicht** so resistent gegen Fingerprinting wie der Tor-Browser und es gibt viel weniger Leute, die Brave zusammen mit Tor benutzen, sodass du auffallen wirst. Wenn dein Bedrohungsmodell starke Anonymität erfordert, benutze den [Tor Browser](tor.md#tor-browser).
 
-##### Data Collection
+##### Datenerfassung
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Deaktiviere **Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)**
+- [ ] Deaktiviere **Ping der täglichen Nutzung automatisch an Brave senden**
+- [ ] Deaktiviere **Automatisch Diagnoseberichte senden**
 
 #### Web3
 
-Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Angriffsfläche potenziell vergrößern. Unless you use any of these features, they should be disabled.
+Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Angriffsfläche potenziell vergrößern. Wenn du keine der Funktionen verwendest, sollten sie deaktiviert werden.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- Wähle **Erweiterungen (kein Backup)** unter *Standard-Ethereum-Wallet*
+- Wähle **Erweiterungen (kein Backup)** unter *Standard-Solana-Wallet*
 - Set *Method to resolve IPFS resources* to **Disabled**
 
-#### Extensions
+#### Erweiterungen
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] Deaktiviere alle integrierten Erweiterungen, die du nicht verwendest
 
 #### System
 
@@ -359,9 +359,9 @@ Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Ang
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) ermöglicht den Zugriff auf deine Browsing-Daten (Verlauf, Lesezeichen usw.) auf all deinen Geräten und schützt diese Daten mit E2EE.
 
-#### Brave Rewards and Wallet
+#### Brave Rewards und Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Es basiert auf einem Account und KYC von einer ausgewählten Anzahl von Anbietern. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+Mit **Brave Rewards** erhältst du Basic Attention Token (BAT), eine Kryptowährung, für die Durchführung bestimmter Aktionen in Brave. Es basiert auf einem Custodial (d. h. von Dritten verwalteten) Account und KYC von einer ausgewählten Anzahl von Anbietern. Wir empfehlen BAT nicht als [private Kryptowährung](cryptocurrency.md), und wir empfehlen auch nicht die Verwendung einer [Custodial-Wallet](advanced/payments.md#wallet-custody). Wir raten also von dieser Funktion ab.
 
 **Brave Wallet** arbeitet lokal auf Ihrem Computer, unterstützt aber keine privaten Kryptowährungen, weshalb wir auch von dieser Funktion abraten würden.
 
@@ -375,11 +375,11 @@ Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Ang
 
 - Es muss sich um Open-Source Software handeln.
 - Unterstützt automatische Updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Erhält Engine-Updates in 0-1 Tagen nach der Upstream-Veröffentlichung.
+- Muss unter Linux, macOS und Windows verfügbar sein.
+- Alle Änderungen, die erforderlich sind, um den Browser datenschutzfreundlicher zu machen, dürfen die Benutzerfreundlichkeit nicht beeinträchtigen.
+- Muss Cookies von Drittanbietern standardmäßig blockieren.
+- Muss [State Partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) unterstützen, um Cross-Site-Tracking abzuschwächen.[^1]
 
 ### Im besten Fall
 
@@ -387,10 +387,10 @@ Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt 
 
 - Should include built-in content blocking functionality.
 - Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps. Mit PWAs kannst du bestimmte Websites so installieren, als wären sie native Anwendungen auf deinem Computer. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Should support Progressive Web Apps. Mit PWAs kannst du bestimmte Websites so installieren, als wären sie native Anwendungen auf deinem Computer. Dies kann Vorteile gegenüber der Installation von Electron-basierten Anwendungen haben, da PWAs von den regelmäßigen Sicherheitsupdates deines Browsers profitieren.
 - Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
+- Sollte standardmäßig keine Telemetrie erfassen.
 - Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Sollte standardmäßig eine [private Suchmaschine](search-engines.md) verwenden.
 
 [^1]: Braves Implementierung ist detailliert unter [Brave Privacy Updates: Partitionieren des Netzwerkzustands für Privatsphäre](https://brave.com/privacy-updates/14-partitioning-network-state) beschrieben.
