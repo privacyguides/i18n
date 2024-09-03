@@ -1,5 +1,5 @@
 ---
-meta_title: "Modellierung von Bedrohungen: Der erste Schritt auf Ihrem Weg zum Datenschutz - Privacy Guides"
+meta_title: "Modellierung von Bedrohungen: Der erste Schritt auf deinem Weg zu Privatsphäre - Privacy Guides"
 title: "Threat Modeling"
 icon: 'material/target-account'
 description: Das Gleichgewicht zwischen Sicherheit, Datenschutz und Benutzerfreundlichkeit ist eine der ersten und schwierigsten Aufgaben, die du auf deinem Weg zu Privatsphäre bewältigen musst.
@@ -7,7 +7,7 @@ description: Das Gleichgewicht zwischen Sicherheit, Datenschutz und Benutzerfreu
 
 Das Gleichgewicht zwischen Sicherheit, Datenschutz und Benutzerfreundlichkeit ist eine der ersten und schwierigsten Aufgaben, die du auf deinem Weg zu Privatsphäre bewältigen musst. Alles ist ein Kompromiss: Je sicherer etwas ist, desto einschränkender oder unbequemer ist es in der Regel, usw. Oft stellen Menschen fest, dass das Problem mit den empfohlenen Werkzeugen darin besteht, dass sie einfach zu schwer zu verwenden sind!
 
-Wenn du die **aller sichersten** verfügbaren Werkzeuge nutzen möchtest, müsstest du *viel* an Benutzerfreundlichkeit opfern. Und selbst dann gilt: ==Nichts ist jemals völlig sicher.== Es gibt **hohe** Sicherheit, aber niemals **vollständige** Sicherheit. Deshalb sind Threat Models (bzw. Bedrohungsmodelle) so wichtig.
+Wenn du die **aller sichersten** verfügbaren Werkzeuge nutzen möchtest, müsstest du *sehr viel* an Benutzerfreundlichkeit opfern. Und selbst dann gilt: ==Nichts ist jemals völlig sicher.== Es gibt **hohe** Sicherheit, aber niemals **vollständige** Sicherheit. Deshalb sind Bedrohungsmodelle (Threat Models) so wichtig.
 
 **Was sind diese Bedrohungsmodelle überhaupt?**
 
@@ -15,7 +15,7 @@ Wenn du die **aller sichersten** verfügbaren Werkzeuge nutzen möchtest, müsst
 
 Durch die Konzentration auf die Bedrohungen, die für dich relevant sind, wird dein Denken über den notwendigen Schutz eingeengt, sodass du die richtigen Werkzeuge für die Aufgabe auswählen kannst.
 
-## Creating Your Threat Model
+## Erstellung deines Bedrohungsmodells
 
 Um herauszufinden, was mit den Dingen, die dir wichtig sind, passieren könnten und vor wem du sie schützen musst, solltest du diese fünf Fragen beantworten:
 
@@ -33,31 +33,31 @@ Ein „Wertgegenstand“ (Asset) ist etwas, das du schätzt und schützen möcht
 
 ### Vor wem möchte ich es schützen?
 
-To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
+Um diese Frage zu beantworten, ist es wichtig festzustellen, wer dich oder deine Informationen angreifen könnte. ==Eine Person oder Einrichtung, die eine Bedrohung für deine Wertsachen darstellt, ist ein „Gegner“ (Adversary).== Beispiele für potenzielle Gegner sind dein Chef, dein Ex-Partner, deine Geschäftskonkurrenz, deine Regierung oder ein Hacker in einem öffentlichen Netzwerk.
 
-*Make a list of your adversaries or those who might want to get ahold of your assets. Your list may include individuals, a government agency, or corporations.*
+*Erstelle eine Liste deiner Gegner oder derjenigen, die versuchen könnten, an deine Wertsachen zu gelangen. Deine Liste kann Einzelpersonen, eine Regierungsbehörde oder Unternehmen enthalten.*
 
-Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
+Je nachdem, um wen es sich bei deinen Gegnern handelt, möchtest du diese Liste vielleicht vernichten, nachdem du dein Bedrohungsmodell entwickelt hast.
 
 ### Wie wahrscheinlich ist es, dass ich es schützen muss?
 
-==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
+==Risiko ist die Wahrscheinlichkeit, dass eine bestimmte Bedrohung gegen eine bestimmte Wertsache tatsächlich eintritt.== Es hängt eng mit den Fähigkeiten deiner Gegner zusammen. Während dein Mobilfunkanbieter die Fähigkeit hat, auf alle deine Daten zuzugreifen, ist das Risiko, dass er deine privaten Daten online veröffentlicht, um deinen Ruf zu schädigen, gering.
 
-It is important to distinguish between what might happen and the probability it may happen. For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
+Es ist wichtig, zwischen dem, was passieren könnte, und der Wahrscheinlichkeit, dass es passiert, zu unterscheiden. Zum Beispiel besteht die Bedrohung, dass dein Gebäude einstürzt, aber das Risiko ist in San Francisco (wo Erdbeben häufig sind) viel höher als in Stockholm (wo sie selten sind).
 
-Assessing risks is both a personal and subjective process. Many people find certain threats unacceptable, no matter the likelihood they will occur, because the mere presence of the threat is not worth the cost. In other cases, people disregard high risks because they don't view the threat as a problem.
+Die Risikobewertung ist ein persönlicher und subjektiver Prozess. Viele Menschen finden bestimmte Bedrohungen unannehmbar, egal wie wahrscheinlich sie sind, weil die bloße Anwesenheit der Bedrohung nicht den Aufwand wert ist. In anderen Fällen missachten Menschen hohe Risiken, weil sie die Bedrohung nicht als Problem betrachten.
 
-*Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
+*Schreibe auf, welche Bedrohungen du ernst nehmen wirst und welche zu selten oder zu harmlos (oder zu schwierig zu bekämpfen) sind, um sich Sorgen zu machen.*
 
 ### Wie schlimm sind die Folgen, wenn ich scheitere?
 
-There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
+Es gibt viele Möglichkeiten, wie ein Angreifer Zugriff auf deine Daten erhalten kann. Zum Beispiel kann ein Angreifer deine privaten Kommunikationen lesen, wenn sie durch das Netzwerk gehen, oder deine Daten löschen oder beschädigen.
 
-==The motives of adversaries differ widely, as do their tactics.== A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
+==Die Motive von Angreifern sind sehr unterschiedlich, ebenso wie ihre Taktiken.== Eine Regierung, die die Verbreitung eines Videos, das Polizeigewalt zeigt, verhindern will, begnügt sich vielleicht damit, das Video zu löschen oder seine Verfügbarkeit zu verringern. Im Gegensatz dazu könnte ein politischer Gegner sich Zugang zu geheimen Inhalten verschaffen und diese ohne dein Wissen veröffentlichen wollen.
 
-Security planning involves understanding how bad the consequences could be if an adversary successfully gains access to one of your assets. To determine this, you should consider the capability of your adversary. For example, your mobile phone provider has access to all of your phone records. A hacker on an open Wi-Fi network can access your unencrypted communications. Your government might have stronger capabilities.
+Die Sicherheitsplanung beinhaltet das Verständnis, wie schlimm die Folgen sein könnten, wenn ein Gegner erfolgreich Zugriff auf eines deiner Wertgegenstände erhält. Um dies zu bestimmen, solltest du die Fähigkeiten deines Gegners berücksichtigen. Beispielsweise hat dein Mobilfunkanbieter Zugriff auf alle deine Telefondaten. Ein Hacker in einem offenen WLAN-Netzwerk kann auf deine unverschlüsselten Kommunikationen zugreifen. Deine Regierung könnte stärkere Fähigkeiten haben.
 
-*Write down what your adversary might want to do with your private data.*
+*Schreibe auf, was deine Gegner mit deinen privaten Daten machen könnten.*
 
 ### Wie viel Mühe bin ich bereit, aufzubringen, um diese Konsequenzen zu verhindern?
 
@@ -104,7 +104,7 @@ Einen Sicherheitsplan zu erstellen, wird dir helfen, die Bedrohungen zu verstehe
 
 Für Menschen, die ihre Privatsphäre und Sicherheit online erhöhen möchten, haben wir eine Liste von häufigen Bedrohungen zusammengestellt, mit denen unsere Besucher konfrontiert sind, oder von Zielen, die unsere Besucher verfolgen. Diese Liste soll dir Inspiration geben und die Grundlage unserer Empfehlungen veranschaulichen.
 
-- [Gemeinsame Ziele und Bedrohungen :material-arrow-right-drop-circle:](common-threats.md)
+- [Häufige Ziele und Bedrohungen :material-arrow-right-drop-circle:](common-threats.md)
 
 ## Quellen
 

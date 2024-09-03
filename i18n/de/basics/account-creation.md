@@ -1,8 +1,8 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+meta_title: "Wie man Internetkonten privat erstellt - Privacy Guides"
+title: "Konto-Erstellung"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: Das Anlegen von Online-Konten ist praktisch eine Notwendigkeit für das Internet. Mit diesen Schritten kannst du sicherstellen, dass du privat bleibst.
 ---
 
 Oft melden sich Menschen für Dienste an, ohne nachzudenken. Vielleicht ist es ein Streaming-Dienst, mit dem du die neue Serie, über die alle reden, sehen kannst, oder ein Konto, mit dem du einen Rabatt für dein Lieblingsrestaurant bekommst. In jedem Fall solltest du die Auswirkungen auf Ihre Daten jetzt und in Zukunft beachten.
@@ -11,7 +11,7 @@ Mit jedem neuen Dienst, den du nutzt, sind Risiken verbunden. Data breaches; dis
 
 It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
 
-## Terms of Service & Privacy Policy
+## Nutzungsbedingungen & Datenschutzbestimmungen
 
 The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VOIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
 
@@ -25,12 +25,12 @@ Keep in mind you're also placing your trust in the company or organization and t
 
 There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
 
-### Email and password
+### E-Mail und Passwort
 
 The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Tipp</p>
 
 You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
 
@@ -38,7 +38,7 @@ You can use your password manager to organize other authentication methods too! 
 
 You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
 
-[Recommended password managers](../passwords.md ""){.md-button}
+[Empfohlene Passwort-Manager](../passwords.md ""){.md-button}
 
 #### Email aliases
 
@@ -54,12 +54,12 @@ OAuth is an authentication protocol that allows you to register for a service wi
 
 When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). This process is needed every time you want to log in to the same account.
 
-The main advantages are:
+Die wichtigsten Vorteile sind:
 
 - **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
 - **Ease of use**: multiple accounts are managed by a single login.
 
-But there are disadvantages:
+Aber es gibt auch Nachteile:
 
 - **Privacy**: the OAuth provider you log in with will know the services you use.
 - **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
@@ -72,7 +72,7 @@ There is an additional danger when using *Sign in with Google*, *Facebook*, or a
 
 Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
 
-### Phone number
+### Telefonnummer
 
 We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
@@ -80,6 +80,6 @@ You should avoid giving out your real phone number if you can. Some services wil
 
 In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
 
-### Username and password
+### Benutzername und Passwort
 
 Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
