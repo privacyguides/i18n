@@ -81,7 +81,7 @@ Diese Optionen findest du unter :material-menu: → **Einstellungen** → **Brav
 
 Brave enthält einige Anti-Fingerabdruck-Maßnahmen in der [Schutz](https://support.brave.com/hc/articles/360022973471-What-is-Shields)-Funktion. Wir empfehlen, diese Optionen [global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) für alle Seiten zu konfigurieren.
 
-##### Globale Standardeinstellungen
+##### Globale Standardwerte für Brave Schutz
 
 Die Optionen im Schutz-Menü können je nach Bedarf für jede Website heruntergestuft werden, aber als Standardeinstellung empfehlen wir Folgendes:
 
@@ -96,13 +96,13 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 
 </details>
 
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Block third-party cookies** under **Block Cookies**
-- [x] Select **Block fingerprinting**
-- [x] Select **Prevent fingerprinting via language settings**
+- [x] Wähle **AMP-Seiten automatisch umleiten**
+- [x] Wähle **Tracking-URLs automatisch umleiten**
+- [x] Wähle **streng** unter **Verbindungen auf HTTPS upgraden**
+- [x] (Optional) Wähle **Skripte blockieren** (1)
+- [x] Wähle **Drittanbieter-Cookies blockieren** unter **Cookies blockieren**
+- [x] Wähle **Fingerprinting blockieren**
+- [x] Wähle **Fingerprinting über die Spracheinstellungen verhindern**
 
 </div>
 
@@ -120,25 +120,25 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (2)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Wähle **Nicht-proxisiertes UDP deaktivieren** unter [WebRTC-IP-Nutzungsrichtlinien](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] (Optional) Wähle **Kein Schutz** unter **Safe Browsing** (1)
+- [ ] Deaktiviere **Websites die Abfrage gespeicherter Zahlungsmethoden erlauben**
+- [ ] Deaktiviere **IPFS Gateway** (2)
+- [x] Wähle **Registerkarten beim Beenden schließen**
+- [ ] Deaktiviere **Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)**
+- [ ] Deaktiviere **Automatisch Diagnosebericht senden**
+- [ ] Deaktiviere **Ping der täglichen Nutzung automatisch an Brave senden**
 
 </div>
 
-1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+1. Brave's [Implementierung von Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) auf Android proxyt **nicht**, wie das Desktop-Pendant, [Safe Browsing Netzwerkanfragen](https://developers.google.com/safe-browsing/v4/update-api#checking-urls). Das bedeutet, dass deine IP-Adresse von Google gesehen (und protokolliert) werden kann. Beachte, dass Safe Browsing für Android-Geräte ohne Google Play Services nicht verfügbar ist.
 2. InterPlanetary File System (IPFS) ist ein dezentrales Peer-To-Peer-Netzwerk zum Speichern und Teilen von Daten in einem verteilten Dateisystem. Wenn du die Funktion nicht nutzt, deaktiviere sie.
 
 #### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**
+Diese Optionen sind unter :material-menu: → **Einstellungen** → **Leo** zu finden.
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar**
+- [ ] Deaktiviere **Vorschläge zur Autovervollständigung in Adressleiste anzeigen**
 
 #### Brave Sync
 
@@ -169,11 +169,11 @@ These options can be found in :material-menu: → **Settings** → **Leo**
 <div class="admonition danger" markdown>
 <p class="admonition-title">Gefahr</p>
 
-Firefox (Gecko)-based browsers on Android [lack](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] a powerful security feature that protects against a malicious site performing a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-like attack to gain access to the memory of another website you have open.[^2] Chromium-based browsers like [Brave](#brave) will provide more robust protection against malicious websites.
+Firefox (Gecko)-basierten Browsern auf Android [fehlt](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] eine leistungsstarke Sicherheitsfunktion, die davor schützt, dass eine bösartige Website einen [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-ähnlichen Angriff durchführt, um Zugriff auf den Speicher einer anderen von dir geöffneten Website zu erlangen[^2] Chromium-basierte Browser wie [Brave](#brave) bieten einen zuverlässigeren Schutz vor bösartigen Websites.
 
 </div>
 
-Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. Wenn du Mull aus dem Standard-F-Droid-Repository herunterlädst, können sich Updates um einige Tage oder länger verzögern.
+Aktiviere das [F-Droid Repository](https://divestos.org/fdroid/official) von DivestOS, um Updates direkt vom Entwickler zu erhalten. Wenn du Mull aus dem Standard-F-Droid-Repository herunterlädst, können sich Updates um einige Tage oder länger verzögern.
 
 Mull aktiviert viele Funktionen, die vom [Tor Uplift-Projekt](https://wiki.mozilla.org/Security/Tor_Uplift) entwickelt wurden, indem es Einstellungen von [Arkenfox](desktop-browsers.md#arkenfox-advanced) verwendet. Proprietäre Blobs werden mit den für Fennec F-Droid entwickelten Skripten aus Mozillas Code entfernt.
 
@@ -183,7 +183,7 @@ Wir empfehlen die Installation von [uBlock Origin](browser-extensions.md#ublock-
 
 Mull verfügt über bereits standardmäßig konfigurierte Einstellungen zum Schutz der Privatsphäre. Du kannst die Option **Browserdaten beim Beenden löschen** in den Einstellungen von Mull konfigurieren, wenn du alle offenen Tabs beim Beenden der App automatisch schließen oder andere Daten wie den Browserverlauf und Cookies automatisch löschen möchtest.
 
-Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
+Da in Mull im Vergleich zu den meisten Browsern standardmäßig ein erweiterter und strengerer Schutz der Privatsphäre aktiviert ist, können einige Websites möglicherweise nicht geladen werden oder nicht richtig funktionieren, wenn du diese Einstellungen nicht anpasst. Du kannst diese [Liste mit bekannten Problemen und Umgehungsmöglichkeiten](https://divestos.org/pages/broken#mull) konsultieren, um Ratschläge für eine mögliche Lösung zu erhalten, wenn du auf eine fehlerhafte Website stoßt. Wenn du eine Einstellung änderst, um eine Website zu reparieren, kann sich dies auf deine Privatsphäre/Sicherheit auswirken. Vergewisser dich daher, dass du alle Anweisungen, die du befolgst, vollständig verstehst.
 
 ## iOS
 
@@ -207,13 +207,13 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 
 #### Recommended Safari Configuration
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
+Wir empfehlen die Installation von [AdGuard](browser-extensions.md#adguard) als Inhaltsblocker, wenn du Tracker in Safari blockieren möchtest.
 
-The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
+Die folgenden datenschutz- und sicherheitsrelevanten Optionen findest du in der App :gear: **Einstellungen** → **Safari**
 
 ##### Profiles
 
-All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Alle deine Cookies, dein Verlauf und deine Website-Daten werden für jedes Profil separat gespeichert. Du solltest verschiedene Profile für verschiedene Zwecke verwenden, z. B. Einkaufen, Arbeit oder Schule.
 
 ##### Datenschutz & Sicherheit
 
@@ -223,7 +223,7 @@ All of your cookies, history, and website data will be separate for each profile
 
 - [x] Enable **Require Face ID to Unlock Private Browsing**
 
-    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+    Mit dieser Einstellung kannst du deine privaten Tabs bei Nichtgebrauch mit Biometrie/PIN sperren.
 
 ##### Advanced → Privacy
 

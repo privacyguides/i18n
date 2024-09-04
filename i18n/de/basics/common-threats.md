@@ -49,7 +49,7 @@ Begrenzung der Informationen über dich online—für Suchmaschinen oder die all
 <span class="pg-blue-gray">:material-close-outline: **Zensur**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+Vermeidung des zensierten Zugriffs auf Informationen oder der eigenen Zensur, wenn man sich online äußert.
 
 Einige dieser Bedrohungen können für dich wichtiger sein als andere, je nach deinen spezifischen Anliegen. Ein Softwareentwickler, der Zugang zu wertvollen oder kritischen Daten hat, könnte sich beispielsweise in erster Linie über <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain-Angriffe</span> und <span class="pg-red">:material-target-account: Targeted Attacks</span> Sorgen machen. Sie werden wahrscheinlich immer noch ihre persönlichen Daten davor schützen wollen, von <span class="pg-blue">:material-eye-outline: Massenüberwachungsprogrammen</span> erfasst zu werden. Ebenso sind viele Menschen vielleicht in erster Linie besorgt über die <span class="pg-green">:material-account-search: Öffentliche Bloßstellung</span> ihrer persönlichen Daten, sollten aber trotzdem auf sicherheitsrelevante Probleme achten, wie z. B. <span class="pg-orange">:material-bug-outline: Passive Angriffe</span> - wie Malware, die ihre Geräte befallen.
 
@@ -67,16 +67,16 @@ Für Whistleblower und Journalisten beispielsweise kann ein viel extremeres Bedr
 
 Sicherheit und Datenschutz werden auch oft verwechselt, weil man Sicherheit braucht, um überhaupt einen Anschein von Datenschutz zu erhalten: Der Einsatz von Tools - selbst wenn sie von vornherein privat sind - ist sinnlos, wenn sie leicht von Angreifern ausgenutzt werden können, die später Ihre Daten veröffentlichen. Das Gegenteil ist jedoch nicht unbedingt der Fall: Der sicherste Dienst der Welt *ist nicht unbedingt* privat. Das beste Beispiel hierfür ist das Anvertrauen von Daten an Google, das in Anbetracht seiner Größe nur wenige Sicherheitsvorfälle zu verzeichnen hatte, weil es branchenführende Sicherheitsexperten mit der Sicherung seiner Infrastruktur beschäftigt. Obwohl Google sehr sichere Dienste anbietet, würden nur sehr wenige Menschen ihre Daten in den kostenlosen Verbraucherprodukten von Google (Gmail, YouTube usw.) als privat betrachten
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+Wenn es um die Sicherheit von Anwendungen geht, wissen wir in der Regel nicht (und können auch manchmal gar nicht wissen), ob die von uns verwendete Software bösartig ist oder eines Tages bösartig werden könnte. Selbst bei den vertrauenswürdigsten Entwicklern gibt es im Allgemeinen keine Garantie dafür, dass ihre Software nicht eine schwerwiegende Sicherheitslücke aufweist, die später ausgenutzt werden könnte.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. Dies kann zum Beispiel durch die Verwendung verschiedener Computer für verschiedene Aufgaben, durch die Verwendung virtueller Maschinen zur Trennung verschiedener Gruppen zusammengehöriger Anwendungen oder durch die Verwendung eines sicheren Betriebssystems mit Schwerpunkt auf Anwendungs-Sandboxing und obligatorischer Zugriffskontrolle geschehen.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>
 
-Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
+Mobile Betriebssysteme verfügen im Allgemeinen über eine bessere Sandbox für Anwendungen als Desktop-Betriebssysteme: Apps können keinen Root-Zugriff erhalten und benötigen eine Genehmigung für den Zugriff auf Systemressourcen.
 
-Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt-in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Desktop-Betriebssysteme hinken im Allgemeinen bei ordnungsgemäßen Sandboxing-Technik hinterher. ChromeOS verfügt über ähnliche Sandboxing-Funktionen wie Android, und macOS bietet eine vollständige Kontrolle der Systemberechtigungen (und Entwickler können sich für Sandboxing von Anwendungen entscheiden). Allerdings übermitteln diese Betriebssysteme identifizierende Informationen an ihre jeweiligen OEMs. Linux tendiert dazu, keine Informationen an Systemanbieter weiterzugeben, bietet aber nur einen geringen Schutz gegen Exploits und bösartige Anwendungen. Dies kann mit spezialisierten Distributionen, die in erheblichem Umfang virtuelle Maschinen oder Container verwenden, wie [Qubes OS](../desktop.md#qubes-os), etwas abgemildert werden.
 
 </div>
 
@@ -84,7 +84,7 @@ Desktop operating systems generally lag behind on proper sandboxing. ChromeOS ha
 
 <span class="pg-red">:material-target-account: Targeted Attacks</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Zu den üblichen Angriffen gehören das Versenden bösartiger Dokumente per E-Mail, das Ausnutzen von Sicherheitslücken (z. B. in Browsern und Betriebssystemen) und physische Angriffe. Wenn dies für dich eine Gefahr darstellt, solltest du fortschrittlichere Strategien zur Bedrohungsabwehr einsetzen.
+Gezielte Angriffe auf eine bestimmte Person sind schwieriger zu bewältigen. Zu den üblichen Angriffen gehören das Versenden bösartiger Dokumente per E-Mail, das Ausnutzen von Sicherheitslücken (z. B. in Browsern und Betriebssystemen) und physische Angriffe. Wenn dies für dich eine Gefahr darstellt, solltest du fortschrittlichere Strategien zur Bedrohungsabwehr einsetzen.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>
@@ -104,23 +104,23 @@ Supply chain attacks are frequently a form of <span class="pg-red">:material-tar
 <div class="admonition example" markdown>
 <p class="admonition-title">Beispiel</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+Ein bemerkenswertes Beispiel hierfür ereignete sich 2017, als M.E.Doc, eine in der Ukraine beliebte Buchhaltungssoftware, mit dem Virus *NotPetya* infiziert wurde und anschließend Personen, die diese Software heruntergeladen hatten, mit Ransomware infizierte. NotPetya selbst war ein Ransomware-Angriff, der mehr als 2000 Unternehmen in verschiedenen Ländern betraf und auf dem von der NSA entwickelten Exploit *EternalBlue* basierte, um Windows-Computer über das Netzwerk anzugreifen.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+Es gibt ein paar Möglichkeiten, wie ein solcher Angriff durchgeführt werden kann:
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. Ein mitwirkende oder angestellte Person könnte sich zunächst eine Machtposition innerhalb eines Projekts oder einer Organisation erarbeiten und diese dann missbrauchen, indem er bösartigen Code einfügt.
+2. Ein Entwickler kann von einer außenstehenden Partei gezwungen werden, bösartigen Code hinzuzufügen.
+3. Eine Einzelperson oder eine Gruppe könnte eine Software-Abhängigkeit von Dritten (auch als Bibliothek bekannt) identifizieren und mit den beiden oben genannten Methoden infiltrieren, da sie weiß, dass sie von „downstream“ Software-Entwicklern verwendet wird.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+Diese Art von Angriffen kann viel Zeit und Vorbereitung erfordern und ist riskant, weil sie entdeckt werden kann, insbesondere bei Open-Source-Projekten, wenn sie populär sind und Interesse von außen haben. Leider gehören sie auch zu den gefährlichsten, da sie nur sehr schwer vollständig zu entschärfen sind. Wir empfehlen der Leserschaft, nur Software zu verwenden, die einen guten Ruf hat und sich bemüht, das Risiko zu minimieren, indem:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+1. Nur populäre Software verwendet wird, die schon seit einiger Zeit existiert. Je mehr Interesse an einem Projekt besteht, desto höher ist die Wahrscheinlichkeit, dass externe Parteien bösartige Änderungen bemerken. Ein bösartiger Akteur muss auch mehr Zeit aufwenden, um das Vertrauen der Community durch sinnvolle Beiträge zu gewinnen.
+2. Software verwendet wird, die Binaries mit weit verbreiteten, vertrauenswürdigen Build-Infrastruktur-Plattformen veröffentlicht, anstatt auf Entwickler-Workstations oder selbst gehosteten Servern. Einige Systeme wie GitHub Actions ermöglichen es, das Build-Skript öffentlich zu überprüfen, um zusätzliches Vertrauen zu gewinnen. Dies verringert die Wahrscheinlichkeit, dass Malware auf einem Entwickler-Rechner die Pakete infizieren kann, und gibt die Gewissheit, dass die produzierten Binaries tatsächlich korrekt produziert wurden.
+3. Nach Code-Signierung auf individuellen Quellcode-Commits und -Releases gesucht wird, die eine überprüfbare Spur davon erstellen, wer was getan hat. Zum Beispiel: War der bösartige Code im Software-Repository? Welcher Entwickler hat ihn hinzugefügt? Wurde er während des Build-Prozesses hinzugefügt?
+4. Überprüft wird, ob der Quellcode sinnvolle Commit-Messages (wie [konventionelle Commits](https://conventionalcommits.org)) enthält, die erklären, was jede Änderung erreichen soll. Klare Messages können es Außenstehenden erleichtern, das Projekt zu überprüfen, zu auditen und Fehler zu finden.
+5. Die Anzahl der Mitwirkenden oder Maintainer eines Programms beachtet wird. Ein einzelner Entwickler ist möglicherweise anfälliger dafür, von einer externen Partei dazu gezwungen zu werden, bösartigen Code hinzuzufügen, oder fahrlässig unerwünschtes Verhalten zu ermöglichen. Dies kann sehr wohl bedeuten, dass Software, die von „Big Tech“ entwickelt wird, einer genaueren Prüfung unterzogen wird als ein einzelner Entwickler, der niemandem Rechenschaft schuldet.
 
 ## Privatsphäre vor Dienstanbietern
 
@@ -135,7 +135,7 @@ Glücklicherweise kann E2EE dieses Problem lindern, indem es die Kommunikation z
 <div class="admonition note" markdown>
 <p class="admonition-title">Hinweis zur webbasierten Verschlüsselung</p>
 
-In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+In der Praxis ist die Effektivität der verschiedenen E2EE-Implementierungen unterschiedlich. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
 
 On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
 
@@ -199,9 +199,9 @@ Der beste Weg, deine Daten privat zu halten, besteht darin, sie gar nicht erst �
 
 - [Siehe unseren Leitfaden zur Kontolöschung :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+Auf Websites, auf denen du Informationen weitergibst, ist es sehr wichtig, die Datenschutzeinstellungen deines Kontos zu überprüfen, um die Verbreitung dieser Daten zu begrenzen. Aktiviere zum Beispiel den „privaten Modus“ für deine Konten, wenn du die Möglichkeit dazu hast: Dadurch wird sichergestellt, dass dein Konto nicht von Suchmaschinen indiziert wird und nicht ohne deine Zustimmung eingesehen werden kann.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+Wenn du deine echten Daten bereits an Websites weitergegeben haben, die sie nicht haben sollten, solltest du eine Desinformationstaktik in Erwägung ziehen, wie z. B. die Weitergabe von fiktiven Informationen im Zusammenhang mit dieser Online-Identität. Dadurch sind deine echten Informationen nicht mehr von den falschen Informationen zu unterscheiden.
 
 ## Vermeidung von Zensur
 
@@ -211,7 +211,7 @@ Censorship online can be carried out (to varying degrees) by actors including to
 
 Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+Personen, die sich Sorgen um Zensur machen, können Technologien wie [Tor](../advanced/tor-overview.md) nutzen, um diese zu umgehen, und Zensur-resistente Kommunikationsplattformen wie [Matrix](../real-time-communication.md#element) unterstützen, die keine zentralisierte Kontrollinstanz haben, die Konten willkürlich schließen kann.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>
