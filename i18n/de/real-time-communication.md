@@ -143,10 +143,10 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://briarproject.org){ .card-link title="Spendenoptionen sind unten auf der Hompage aufgeführt" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

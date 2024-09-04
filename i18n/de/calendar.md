@@ -24,10 +24,10 @@ cover: calendar.webp
 Mehrere Kalender und erweiterte Sharing-Funktionen sind auf zahlende Abonnenten beschränkt.
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Mitwirken" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -53,9 +53,9 @@ Mehrere Kalender und erweiterte Sharing-Funktionen sind auf zahlende Abonnenten 
 **Proton Calendar** ist ein verschlüsselter Kalenderdienst, der Proton-Mitgliedern über Web- oder Mobilgeräten zur Verfügung steht. Zu den Funktionen gehören: automatische E2EE aller Daten, Freigabefunktionen, Import-/Exportfunktionen, und [mehr](https://proton.me/support/proton-calendar-guide). Mit der kostenlosen Version hast du Zugang zu 3 Kalendern, während du als Abonnent bis zu 25 Kalender erstellen kannst. Die erweiterten Funktionen zur gemeinsamen Nutzung sind ebenfalls auf zahlende Abonnenten beschränkt.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

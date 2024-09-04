@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
@@ -38,8 +38,8 @@ Diese Anbieter unterstützen von Haus aus die OpenPGP-Ver- und Entschlüsselung 
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Proton Mail-Logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Mailbox.org-Logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
@@ -62,9 +62,9 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -130,8 +130,8 @@ Proton Mail bietet keine Funktion für deinen digitalen Nachlass.
 **Mailbox.org** ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % Ökostrom betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Dokumentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -198,10 +198,10 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 **Tuta** (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Privatsphäre durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Mitwirken" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -218,7 +218,7 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). E-Mails können [einzeln oder per Massenauswahl](https://tuta.com/support#generalMail) pro Ordner exportiert werden, was bei vielen Ordnern unpraktisch sein kann.
+Tuta unterstützt weder das [IMAP-Protokoll](https://tuta.com/support#imap) noch die Verwendung von [E-Mail-Clients](email-clients.md) von Drittanbietern, und du kannst auch keine [externen E-Mail-Konten](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) zur Tuta-App hinzufügen. Auch der [E-Mail-Import](https://github.com/tutao/tutanota/issues/630) wird derzeit nicht unterstützt, was sich aber [bald ändern](https://tuta.com/blog/kickoff-import) soll. E-Mails können [einzeln oder per Massenauswahl](https://tuta.com/support#generalMail) pro Ordner exportiert werden, was bei vielen Ordnern unpraktisch sein kann.
 
 #### :material-check:{ .pg-green } Eigene Domains und Aliase
 
@@ -263,9 +263,9 @@ Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-M
 **Mailcow** ist ein fortgeschrittener Mailserver, perfekt für diejenigen mit ein wenig mehr Linux-Erfahrung. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Mitwirken" }
 
 </div>
 
@@ -276,8 +276,8 @@ Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-M
 **Mail-in-a-Box** ist ein automatisches Setup-Skript für die Einrichtung eines Mailservers unter Ubuntu. Sein Ziel ist es, die Einrichtung eines eigenen Mailservers zu erleichtern.
 
 [:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Quellcode" }
 
 </div>
 
