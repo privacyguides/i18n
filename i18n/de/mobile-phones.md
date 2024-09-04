@@ -1,5 +1,5 @@
 ---
-title: Mobile Phones
+title: Mobiltelefone
 icon: material/cellphone-check
 description: These mobile devices have proper Android Verified Boot support for custom operating systems.
 cover: android.webp

@@ -13,7 +13,7 @@ cover: real-time-communication.webp
 - [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our recommendations for encrypted **real-time communication**.
+Dies sind unsere Empfehlungen für verschlüsselte **Echtzeitkommunikation**.
 
 [Arten von Kommunikationsnetzen :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
@@ -49,14 +49,14 @@ Diese Messenger eignen sich hervorragend zur Sicherung deiner sensiblen Kommunik
 
 </div>
 
-Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+Signal benötigt deine Telefonnummer für die Registrierung, aber du solltest einen Benutzernamen erstellen, um deine Telefonnummer vor deinen Kontakten zu verbergen:
 
-1. In Signal, open the app's settings and tap your account profile at the top.
+1. Öffne in Signal die Einstellungen der App und tippe oben auf dein Kontoprofil.
 2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
-3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it, for example if you enter "John" your username might end up being `@john.35`. By default, only 2 digits are paired with your username when you create it, but you can add more digits until you reach the username length limit (32 characters).
-4. Go back to the main app settings page and select **Privacy**.
-5. Select **Phone Number**
-6. Change the **Who Can See My Number** setting to: **Nobody**
+3. Gebe einen Nutzernamen ein. Dein Benutzername wird immer mit einer eindeutigen Ziffernfolge gekoppelt, damit dein Benutzername eindeutig ist und nicht erraten werden kann. Wenn du beispielsweise "John" eingibst, könnte dein Benutzername `@john.35` lauten. Standardmäßig werden deinem Benutzernamen bei der Erstellung nur 2 Ziffern zugeordnet, aber du kannst weitere Ziffern hinzufügen, bis du die maximale Länge des Benutzernamens erreichst (32 Zeichen).
+4. Gehe zurück zur Hauptseite der App-Einstellungen und wähle **Datenschutz**.
+5. Wähle **Telefonnummer**
+6. Ändere die Einstellung **Wer kann meine Telefonnummer sehen** zu: **Niemand**
 
 You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
 
@@ -66,7 +66,7 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
 We have some additional tips on configuring and hardening your Signal installation:
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
+[Signalkonfiguration und Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
 #### Molly (Android)
 
@@ -74,9 +74,9 @@ If you use Android and your threat model requires protecting against [:material-
 
 <div class="admonition recommendation" markdown>
 
-![Molly logo](assets/img/messengers/molly.svg){ align=right }
+![Molly-Logo](assets/img/messengers/molly.svg){ align=right }
 
-**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Außerdem gibt es Verbesserungen bei der Benutzerfreundlichkeit, wie z. B. geplante Backups, automatisches Sperren und die Möglichkeit, dein Android-Telefon als verknüpftes Gerät anstelle des Hauptgeräts für ein Signal-Konto zu verwenden.
+**Molly** ist ein alternativer Signal-Client für Android, der es dir ermöglicht, die lokale Datenbank im Ruhezustand mit einer Passphrase zu verschlüsseln, ungenutzte RAM-Daten sicher zu schreddern, deine Verbindung über Tor zu leiten und [mehr](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Außerdem gibt es Verbesserungen bei der Benutzerfreundlichkeit, wie z. B. geplante Backups, automatisches Sperren und die Möglichkeit, dein Android-Telefon als verknüpftes Gerät anstelle des Hauptgeräts für ein Signal-Konto zu verwenden.
 
 [:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
@@ -97,11 +97,11 @@ If you use Android and your threat model requires protecting against [:material-
 
 Molly wird alle zwei Wochen aktualisiert, um die neuesten Funktionen und Fehlerbehebungen von Signal einzubinden. Die Ausnahme sind Sicherheitsprobleme, die so schnell wie möglich behoben werden. Allerdings sollten Sie sich darüber im Klaren sein, dass es zu einer leichten Verzögerung im Vergleich zum Upstream kommen kann, was sich auf Aktionen wie die [Migration von Signal zu Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal) auswirken kann.
 
-Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
+Beachte, dass du durch die Verwendung von Molly mehreren Parteien vertraust, da du nun dem Signal-Team *und dem* Molly-Team vertrauen musst, dass sie sichere und rechtzeitige Aktualisierungen liefern.
 
-There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like push notifications. There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds back support for push notifications with UnifiedPush, but it requires self-hosting a program on a separate computer to function. All three versions of Molly provide the same security improvements.
+Es gibt eine Version von Molly namens **Molly-FOSS**, die proprietären Code wie die Google-Dienste, die sowohl von Signal als auch von Molly verwendet werden, entfernt, was allerdings auf Kosten einiger Funktionen wie Push-Benachrichtigungen geht. Es gibt auch eine Version namens [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) die auf Molly-FOSS basiert und Push-Benachrichtigungen mit UnifiedPush unterstützt, aber es erfordert das Hosten eines Programms auf einem separaten Computer, um zu funktionieren. Alle drei Versionen von Molly bieten die gleichen Sicherheitsverbesserungen.
 
-Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), d.h. es ist möglich zu bestätigen, dass die kompilierten APKs mit dem Quellcode übereinstimmen.
 
 ### SimpleX Chat
 
@@ -112,9 +112,9 @@ Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mo
 **SimpleX** Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -188,9 +188,9 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://element.io/help){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -226,9 +226,9 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
 
 [:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -254,28 +254,28 @@ Oxen requested an independent audit for Session in March 2020. The audit [conclu
 
 Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
-## Criteria
+## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
-### Minimum Requirements
+### Mindestanforderungen
 
-- Has open-source clients.
-- Does not require sharing personal identifiers (phone numbers or emails in particular) with contacts.
-- Uses E2EE for private messages by default.
-- Supports E2EE for all messages.
-- Has been independently audited.
+- Hat Open-Source-Clients.
+- Es ist nicht erforderlich, persönliche Identifikatoren (insbesondere Telefonnummern oder E-Mail-Adressen) mit Kontakten zu teilen.
+- Verwendet standardmäßig E2EE für private Nachrichten.
+- Unterstützt E2EE für alle Nachrichten.
+- Wurde einem unabhängigen Audit unterzogen.
 
-### Best-Case
+### Im besten Fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Merkmale, aber diejenigen, die sie enthalten, werden möglicherweise höher eingestuft als andere auf dieser Seite.
 
 - Supports forward secrecy[^1]
 - Supports Future Secrecy (Post-Compromise Security)[^2]
-- Has open-source servers.
-- Decentralized, i.e. [federated or P2P](advanced/communication-network-types.md).
-- Uses E2EE for all messages by default.
-- Supports Linux, macOS, Windows, Android, and iOS.
+- Hat Open-Source-Server.
+- Dezentralisiert, d.h. [Föderiert oder P2P](advanced/communication-network-types.md).
+- Verwendet standardmäßig E2EE für alle Nachrichten.
+- Unterstützt Linux, macOS, Windows, Android und iOS.
 
 [^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
 [^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.

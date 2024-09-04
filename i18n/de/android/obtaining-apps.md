@@ -13,9 +13,9 @@ Es gibt viele Möglichkeiten, Android-Apps privat zu beziehen, auch aus dem Play
 **Obtainium** ist ein App-Manager, der es dir erlaubt, Apps direkt von der Veröffentlichungsseite des Entwicklers (z. B. GitHub, GitLab, die Website des Entwicklers usw.) zu installieren und zu aktualisieren, anstatt von einem zentralisierten App-Store oder Repository. Es unterstützt automatische Hintergrundupdates auf Android 12 und höher.
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Spenden }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -43,8 +43,8 @@ Der Google Play Store erfordert ein Google-Konto, um sich anzumelden, was der Pr
 **Aurora Store** ist ein Client für den Google Play Store, der kein Google-Konto, Google Play-Dienste oder microG benötigt, um Apps herunterzuladen.
 
 [:octicons-home-16: Homepage](https://auroraoss.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://gitlab.com/AuroraOSS/AuroraStore/-/blob/master/POLICY.md){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

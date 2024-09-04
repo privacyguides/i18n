@@ -196,7 +196,7 @@ Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mo
 
 - [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Mit der Veröffentlichung von Firefox 128 wurde eine neue Einstellung für die [datenschutzfreundliche Attribution](https://support.mozilla.org/de/kb/datenschutzfreundliche-attribution-werbe-messung) (PPA) hinzugefügt und [standardmäßig aktiviert](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). Mit PPA können Werbetreibende deinen Webbrowser nutzen, um die Wirksamkeit von Webkampagnen zu messen, anstatt das traditionelle JavaScript-basierte Tracking zu verwenden. Wir betrachten dieses Verhalten als außerhalb des Aufgabenbereichs eines User-Agents und die Tatsache, dass es in Arkenfox standardmäßig deaktiviert ist, ist ein weiterer Hinweis darauf, dass diese Funktion zu deaktivieren ist.
 
 ##### Nur-HTTPS-Modus
 
@@ -385,12 +385,12 @@ Mit **Brave Rewards** erhältst du Basic Attention Token (BAT), eine Kryptowähr
 
 Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Funktionen, aber diejenigen, die sie enthalten, werden auf dieser Seite möglicherweise höher eingestuft als jene, die sie nicht enthalten.
 
-- Should include built-in content blocking functionality.
+- Sollte eine integrierte Funktion zur Sperrung von Inhalten enthalten.
 - Sollte die Aufteilung von Cookies unterstützen (à la [Multi-Account Container](https://support.mozilla.org/de/kb/firefox-tab-container)).
 - Sollte Progressive Web Apps unterstützen. Mit PWAs kannst du bestimmte Websites so installieren, als wären sie native Anwendungen auf deinem Computer. Dies kann Vorteile gegenüber der Installation von Electron-basierten Anwendungen haben, da PWAs von den regelmäßigen Sicherheitsupdates deines Browsers profitieren.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
+- Sollte keine Zusatzfunktionen (Bloatware) enthalten, die die Privatsphäre der Nutzer nicht beeinträchtigen.
 - Sollte standardmäßig keine Telemetrie erfassen.
-- Should provide an open-source sync server implementation.
+- Sollte eine Open-Source-Implementierung des Sync-Servers bereitstellen.
 - Sollte standardmäßig eine [private Suchmaschine](search-engines.md) verwenden.
 
 [^1]: Braves Implementierung ist detailliert unter [Brave Privacy Updates: Partitionieren des Netzwerkzustands für Privatsphäre](https://brave.com/privacy-updates/14-partitioning-network-state) beschrieben.

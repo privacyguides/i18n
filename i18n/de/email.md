@@ -34,7 +34,7 @@ Zusätzlich zu (oder anstelle von) einem hier empfohlenen E-Mail-Anbieter kannst
 
 ## OpenPGP-kompatible Dienste
 
-Diese Anbieter unterstützen von Haus aus die OpenPGP-Ver- und Entschlüsselung sowie den Web Key Directory Standard, so dass anbieterunabhängige E2E-verschlüsselte E-Mails möglich sind. Zum Beispiel können Kunden von Proton Mail eine E2EE-Nachricht an Kunden von Mailbox.org senden oder sie können OpenPGP-verschlüsselte Benachrichtigungen von Internetdiensten erhalten, die dies unterstützen.
+Diese Anbieter unterstützen von Haus aus die OpenPGP-Ver- und Entschlüsselung sowie den [Web Key Directory Standard](basics/email-security.md#what-is-the-web-key-directory-standard), so dass anbieterunabhängige E2E-verschlüsselte E-Mails möglich sind. Zum Beispiel können Kunden von Proton Mail eine E2EE-Nachricht an Kunden von Mailbox.org senden oder sie können OpenPGP-verschlüsselte Benachrichtigungen von Internetdiensten erhalten, die dies unterstützen.
 
 <div class="grid cards" markdown>
 
@@ -81,7 +81,7 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 
 </div>
 
-Kostenlose Konten haben einige Einschränkungen, wie z. B. die fehlende Möglichkeit Text zu durchsuchen und keinen Zugang zu [Proton Mail Bridge](https://proton.me/mail/bridge). Diese ist für die Verwendung eines [empfohlenen Desktop-E-Mail-Programms](email-clients.md) (z. B. Thunderbird) erforderlich. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und die Nutzung eigener Domains. Am 9. November 2021 wurden durch [Securitum](https://research.securitum.com) ein Sicherheitsaudit durchgeführt und  die Anwendungen von Proton Mail [zertifiziert](https://proton.me/blog/security-audit-all-proton-apps).
+Kostenlose Konten haben einige Einschränkungen, wie z. B. die fehlende Möglichkeit Text zu durchsuchen und keinen Zugang zu [Proton Mail Bridge](https://proton.me/mail/bridge). Diese ist für die Verwendung eines [empfohlenen Desktop-E-Mail-Programms](email-clients.md) (z. B. Thunderbird) erforderlich. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und die Nutzung eigener Domains. Am 9. November 2021 wurden durch [Securitum](https://research.securitum.com) ein Sicherheitsaudit durchgeführt und die Anwendungen von Proton Mail [zertifiziert](https://proton.me/blog/security-audit-all-proton-apps).
 
 Wenn du den Proton-Unlimited-Tarif oder einen beliebigen Multi-User-Proton-Tarif hast, erhältst du auch [SimpleLogin](email-aliasing.md#simplelogin) Premium kostenlos.
 
@@ -107,7 +107,7 @@ Bestimmte Informationen, die in [Proton Contacts](https://proton.me/support/prot
 
 #### :material-check:{ .pg-green } E-Mail-Verschlüsselung
 
-Proton Mail hat [die OpenPGP-Verschlüsselung](https://proton.me/support/how-to-use-pgp) in sein Webmail integriert. E-Mails an andere Proton Mail-Konten werden automatisch verschlüsselt. Die Verschlüsselung an Nicht-Proton Mail-Adressen mit einem OpenPGP-Schlüssel kannst du ganz einfach in deinen Kontoeinstellungen aktivieren. Proton unterstützt auch die automatische Erkennung externer Schlüssel mit dem [Web Key Directory (WKD](https://wiki.gnupg.org/WKD)). Das bedeutet, dass E-Mails an andere Anbieter, die WKD verwenden, automatisch auch mit OpenPGP verschlüsselt werden, ohne dass du manuell öffentliche PGP-Schlüssel mit deinen Kontakten austauschen musst. Außerdem ist es möglich, [Nachrichten an Nicht-Proton-Mail-Adressen ohne OpenPGP zu verschlüsseln](https://proton.me/support/password-protected-emails), ohne dass die Empfänger ein Proton-Mail-Konto benötigen.
+Proton Mail hat [die OpenPGP-Verschlüsselung](https://proton.me/support/how-to-use-pgp) in sein Webmail integriert. E-Mails an andere Proton Mail-Konten werden automatisch verschlüsselt. Die Verschlüsselung an Nicht-Proton Mail-Adressen mit einem OpenPGP-Schlüssel kannst du ganz einfach in deinen Kontoeinstellungen aktivieren. Proton unterstützt auch die automatische Erkennung externer Schlüssel mit dem [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Das bedeutet, dass E-Mails an andere Anbieter, die WKD verwenden, automatisch auch mit OpenPGP verschlüsselt werden, ohne dass du manuell öffentliche PGP-Schlüssel mit deinen Kontakten austauschen musst. Außerdem ist es möglich, [Nachrichten an Nicht-Proton-Mail-Adressen ohne OpenPGP zu verschlüsseln](https://proton.me/support/password-protected-emails), ohne dass die Empfänger ein Proton-Mail-Konto benötigen.
 
 Auch veröffentlicht Proton Mail öffentlichen Schlüssel der Proton-Konten über HTTP von ihrem WKD. Dies ermöglicht es Personen, die Proton Mail nicht verwenden, die OpenPGP-Schlüssel von Proton Mail-Konten für anbieterübergreifende E2EE leicht zu finden. Dies gilt nur für E-Mail-Adressen, die auf eine der Proton-eigenen Domains enden, wie @proton.me. Um eine eigene Domain zu verwenden, musst du [WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separat konfigurieren.
 
@@ -162,7 +162,7 @@ Mailbox.org ermöglicht die Verschlüsselung von eingehenden E-Mails mit der [ve
 
 #### :material-check:{ .pg-green } E-Mail-Verschlüsselung
 
-Mailbox.org hat die [Verschlüsselung](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in sein Webmail [integriert](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard), was den Versand von Nachrichten an Personen mit öffentlichen OpenPGP-Schlüsseln vereinfacht. Sie erlauben es auch entfernten Empfängern [eine E-Mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) auf den Servern von Mailbox.org zu entschlüsseln. Diese Funktion ist nützlich, wenn der Empfänger OpenPGP nicht nutzt und daher eine Kopie der E-Mail in seinem eigenen Postfach nicht entschlüsseln kann.
+Mailbox.org hat die [Verschlüsselung in sein Webmail integriert](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard), was den Versand von Nachrichten an Personen mit öffentlichen OpenPGP-Schlüsseln vereinfacht. Sie erlauben es auch entfernten Empfängern [eine E-Mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) auf den Servern von Mailbox.org zu entschlüsseln. Diese Funktion ist nützlich, wenn der Empfänger OpenPGP nicht nutzt und daher eine Kopie der E-Mail in seinem eigenen Postfach nicht entschlüsseln kann.
 
 Mailbox.org unterstützt auch die Suche nach öffentlichen Schlüsseln über HTTP von ihrem [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Dies ermöglicht es Personen, die Mailbox.org nicht verwenden, die OpenPGP-Schlüssel von Mailbox.org-Konten für anbieterübergreifende E2EE leicht zu finden. Dies gilt nur für E-Mail-Adressen, die auf eine der Mailbox.org-eigenen Domains enden, wie @mailbox.org. Um eine eigene Domain zu verwenden, musst du [WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separat konfigurieren.
 
@@ -297,7 +297,7 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
 - Verschlüsselt die Daten von E-Mail-Konten im Ruhezustand mit Zero-Access-Verschlüsselung.
-- Exportmöglichkeit als [Mbox](https://en.wikipedia.org/wiki/Mbox) oder individuelle .eml mit [RFC5322-Standard](https://datatracker.ietf.org/doc/rfc5322).
+- Exportmöglichkeit als [Mbox](https://de.wikipedia.org/wiki/Mbox) oder individuelle .eml mit [RFC5322-Standard](https://datatracker.ietf.org/doc/rfc5322).
 - Erlaubt es dem Nutzer, seinen eigenen [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) zu verwenden. Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
 - Arbeitet auf einer eigenen Infrastruktur, d.h. nicht auf der eines Drittanbieters von E-Mail-Diensten.
 
@@ -310,7 +310,7 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 - Verfügbarkeit der Dienste des E-Mail-Anbieters über einen [onion service](https://de.wikipedia.org/wiki/.onion).
 - Unterstützung [von Unteradressen](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
 - Catch-all- oder Alias-Funktionalität für diejenigen, die ihre eigenen Domains verwenden.
-- Verwendung von Standard-E-Mail-Zugriffsprotokollen wie IMAP, SMTP oder [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standardzugriffsprotokolle stellen sicher, dass die Kunden alle ihre E-Mails problemlos herunterladen können, sollten sie zu einem anderen Anbieter wechseln wollen.
+- Verwendung von Standard-E-Mail-Zugriffsprotokollen wie IMAP, SMTP oder [JMAP](https://de.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standardzugriffsprotokolle stellen sicher, dass die Kunden alle ihre E-Mails problemlos herunterladen können, sollten sie zu einem anderen Anbieter wechseln wollen.
 
 ### Datenschutz
 
@@ -353,7 +353,7 @@ Auf E-Mail-Servern werden viele sehr sensible Daten verarbeitet. Wir erwarten, d
 
 - Unterstützung für Hardware-Authentisierung, z. B. U2F und [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) zusätzlich zur DANE-Unterstützung.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementierung von [Authenticated Received Chain (ARC)](https://de.wikipedia.org/wiki/Authenticated_Received_Chain), was für Personen nützlich ist, die auf Mailing-Listen posten ([RFC8617](https://tools.ietf.org/html/rfc8617)).
 - Veröffentlichte Sicherheitsaudits durch ein angesehenes Drittunternehmen.
 - Bug-Bounty-Programme und/oder ein koordiniertes Verfahren zur Offenlegung von Sicherheitslücken.
 - Website-Sicherheitsstandards wie z. B.:
