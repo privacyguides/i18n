@@ -58,13 +58,13 @@ Signal benötigt deine Telefonnummer für die Registrierung, aber du solltest ei
 5. Wähle **Telefonnummer**
 6. Ändere die Einstellung **Wer kann meine Telefonnummer sehen** zu: **Niemand**
 
-You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
+Du kannst optional auch die Einstellung **Wer kann mich anhand der Telefonnummer finden** zu **Niemand** ändern, wenn du verhindern möchtest, dass Personen, die bereits deine Telefonnummer haben, dein Signal-Konto/Benutzernamen entdecken.
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with. Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
+Kontaktlisten auf Signal werden mit deiner Signal-PIN verschlüsselt und der Server hat keinen Zugriff auf sie. Persönliche Profile sind ebenfalls verschlüsselt und werden nur an Kontakte weitergegeben, mit denen du chattest. Signal unterstützt [private Gruppen](https://signal.org/blog/signal-private-group-system), bei denen der Server keine Aufzeichnungen über deine Gruppenmitgliedschaften, Gruppentitel, Gruppenavatare oder Gruppenattribute hat. Signal verwendet minimale Metadaten, wenn [Vertraulicher Absender](https://signal.org/blog/sealed-sender) (Sealed Sender) aktiviert ist. Die Absenderadresse wird zusammen mit dem Nachrichtentext verschlüsselt, und nur die Empfängeradresse ist für den Server sichtbar. Vertraulicher Absender ist nur für Personen in deiner Kontaktliste aktiviert, kann aber für alle Empfänger mit dem erhöhten Risiko des Empfangs von Spam aktiviert werden.
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
+Das Protokoll wurde 2016 unabhängig [geprüft](https://eprint.iacr.org/2016/1013.pdf). Die Spezifikation des Signal-Protokolls findest du in der entsprechenden [Dokumentation](https://signal.org/docs).
 
-We have some additional tips on configuring and hardening your Signal installation:
+Wir haben einige zusätzliche Tipps zum Konfigurieren und Absichern deiner Signal-Installation:
 
 [Signalkonfiguration und Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
@@ -107,9 +107,9 @@ Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/m
 
 <div class="admonition recommendation" markdown>
 
-![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
+![Simplex-Logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX** Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Users of SimpleX Chat can scan a QR code or click an invite link to participate in group conversations.
+**SimpleX** Chat ist ein Instant Messenger, der ohne eindeutigen Identifikatoren wie Telefonnummern oder Benutzernamen auskommt. Sein dezentrales Netzwerk macht SimpleX Chat zu einem effektiven Werkzeug gegen [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Benutzer von SimpleX Chat können einen QR-Code scannen oder auf einen Einladungslink klicken, um an Gruppengesprächen teilzunehmen.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Datenschutzrichtlinie" }
@@ -130,17 +130,17 @@ Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/m
 
 </div>
 
-SimpleX Chat [was audited](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) by Trail of Bits in October 2022.
+SimpleX Chat wurde im Oktober 2016 einem [Audit](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) von Trail of Bits unterzogen.
 
-SimpleX Chat supports basic group chatting functionality, direct messaging, and editing of messages and markdown. E2EE Audio and Video calls are also supported. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
+SimpleX Chat unterstützt grundlegende Gruppen-Chat-Funktionen, Direktnachrichten und die Bearbeitung von Nachrichten und Markdown. E2EE Audio- und Videoanrufe werden ebenfalls unterstützt. Deine Daten können exportiert und auf ein anderes Gerät importiert werden, da es keine zentralen Server gibt, auf denen die Daten gesichert werden.
 
 ### Briar
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+![Briar-Logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
+**Briar** ist ein verschlüsselter Instant-Messenger, der sich mit anderen Geräten [über das Tor-Netzwerk verbindet](https://briarproject.org/how-it-works). Das macht es zu einem effektiven Werkzeug zur Umgehung von [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar kann sich auch über Wi-Fi oder Bluetooth verbinden, wenn sich die Geräte in der Nähe befinden. Dieser lokale Mesh-Modus von Briar kann nützlich sein, wenn die Internetverfügbarkeit ein Problem darstellt.
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
@@ -160,20 +160,20 @@ SimpleX Chat supports basic group chatting functionality, direct messaging, and 
 
 </div>
 
-To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
+Um einen Kontakt auf Briar hinzuzufügen, musst sich beide Seiten zuerst gegenseitig hinzufügen. Du kannst entweder `briar://` Links austauschen oder den QR-Code eines Kontakts scannen, wenn dieser in der Nähe ist.
 
-The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
+Die Client-Software wurde von unabhängiger Seite [geprüft](https://briarproject.org/news/2017-beta-released-security-audit), und das anonyme Routing-Protokoll verwendet das Tor-Netzwerk, das ebenfalls geprüft ist.
 
-Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
+Briar hat eine vollständig [veröffentlichte Spezifikation](https://code.briarproject.org/briar/briar-spec).
 
-Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar unterstützt Forward Secrecy[^1] durch Verwendung des Bramble [Handshake-](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) und [Transportprotokolls](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
 
-## Additional Options
+## Weitere Optionen
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>
 
-These messengers do not have forward secrecy[^1], and while they fulfill certain needs that our previous recommendations may not, we do not recommend them for long-term or sensitive communications. Any key compromise among message recipients would affect the confidentiality of **all** past communications.
+Diese Messenger haben keine Forward Secrecy[^1], und obwohl sie bestimmte Anforderungen erfüllen, die unsere obigen Empfehlungen nicht erfüllen, empfehlen wir sie nicht für langfristige oder sensible Kommunikation. Jede Kompromittierung eines Schlüssels zwischen den Empfängern einer Nachricht würde die Vertraulichkeit **aller** vergangenen Mitteilungen beeinträchtigen.
 
 </div>
 
@@ -181,11 +181,11 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/messengers/element.svg){ align=right }
+![Element-Logo](assets/img/messengers/element.svg){ align=right }
 
-**Element** is the flagship client for the [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) protocol, an [open standard](https://spec.matrix.org/latest) for secure decentralized real-time communication.
+**Element** ist der Flaggschiff-Client für das [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)-Protokoll, ein [offener Standard](https://spec.matrix.org/latest) für sichere dezentrale Echtzeitkommunikation.
 
-Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
+Nachrichten und Dateien, die in privaten Räumen (für die eine Einladung erforderlich ist) geteilt werden, sind standardmäßig E2EE, ebenso wie persönliche Sprach- und Videoanrufe.
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Datenschutzrichtlinie" }
@@ -207,11 +207,11 @@ Messages and files shared in private rooms (those which require an invite) are b
 
 </div>
 
-Profile pictures, reactions, and nicknames are not encrypted.
+Profilbilder, Reaktionen und Spitznamen sind nicht verschlüsselt.
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Group calls have [no authentication](https://github.com/vector-im/element-web/issues/13074) currently, meaning that non-room participants can also join the calls. We recommend that you do not use this feature for private meetings.
+Gruppen-Sprach- und Videoanrufe sind [nicht](https://github.com/vector-im/element-web/issues/12878) E2EE und verwenden Jitsi, aber dies wird sich mit [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401) ändern. Gruppenanrufe haben derzeit [keine Authentifizierung](https://github.com/vector-im/element-web/issues/13074), d. h., dass auch Personen, die nicht teil des Raumes sind, an den Anrufen teilnehmen können. Wir empfehlen, diese Funktion nicht für private Besprechungen zu verwenden.
 
-The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
+Das Matrix-Protokoll selbst [unterstützt theoretisch Forward Secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1]. Dies wird jedoch [derzeit in Element nicht unterstützt](https://github.com/vector-im/element-web/issues/7101), da es einige Aspekte der Benutzerfreundlichkeit, wie z. B. das Schlüssel-Backup und den gemeinsamen Nachrichtenverlauf, beeinträchtigt.
 
 The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
 
@@ -248,7 +248,7 @@ Session allows for E2EE in one-on-one chats or closed groups which allow for up 
 
 Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
+Im März 2020 forderte Oxen ein unabhängiges Audit für Session an. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
 
 > The overall security level of this application is good and makes it usable for privacy-concerned people.
 
