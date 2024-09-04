@@ -83,7 +83,7 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 
 Kostenlose Konten haben einige Einschränkungen, wie z. B. die fehlende Möglichkeit Text zu durchsuchen und keinen Zugang zu [Proton Mail Bridge](https://proton.me/mail/bridge). Diese ist für die Verwendung eines [empfohlenen Desktop-E-Mail-Programms](email-clients.md) (z. B. Thunderbird) erforderlich. Bezahlte Konten umfassen Funktionen wie Proton Mail Bridge, zusätzlichen Speicher und die Nutzung eigener Domains. Am 9. November 2021 wurden durch [Securitum](https://research.securitum.com) ein Sicherheitsaudit durchgeführt und  die Anwendungen von Proton Mail [zertifiziert](https://proton.me/blog/security-audit-all-proton-apps).
 
-If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Wenn du den Proton-Unlimited-Tarif oder einen beliebigen Multi-User-Proton-Tarif hast, erhältst du auch [SimpleLogin](email-aliasing.md#simplelogin) Premium kostenlos.
 
 Proton Mail hat interne Absturzberichte, die sie **nicht** mit Dritten teilen. Dies kann in der Web-App deaktiviert werden: :gear: → **Alle Einstellungen** → **Konto** → **Sicherheit und Datenschutz** → **Privatsphäre und Datenerfassung**.
 
@@ -226,7 +226,7 @@ Bezahlte Tuta-Konten können je nach Tarif entweder 15 oder 30 Aliase und unbegr
 
 #### :material-information-outline:{ .pg-blue } Private Zahlungsmöglichkeiten
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
+Tuta akzeptiert nur Kreditkarten und PayPal, aber [Kryptowährung](cryptocurrency.md) kann verwendet werden, um Guthabenkarten über ihre [Partnerschaft](https://tuta.com/support/#cryptocurrency) mit Proxystore zu kaufen.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
@@ -246,7 +246,7 @@ Tuta [löscht inaktive kostenlose Konten](https://tuta.com/support#inactive-acco
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta bietet die Business-Version von [Tuta für gemeinnützige Organisationen](https://tuta.com/blog/secure-email-for-non-profit) kostenlos oder mit einem starken Rabatt.
 
 Tuta bietet keine Funktion für deinen digitalen Nachlass.
 
@@ -260,7 +260,7 @@ Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-M
 
 ![Mailcow-Logo](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** ist ein fortgeschrittener Mailserver, perfekt für diejenigen mit ein wenig mehr Linux-Erfahrung. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+**Mailcow** ist ein fortgeschrittener Mailserver, perfekt für diejenigen mit ein wenig mehr Linux-Erfahrung. Es vereinigt alles, was du brauchst in einem Docker-Container: Einen Mailserver mit DKIM-Unterstützung, Virenschutz und Spam-Überwachung, Webmail und ActiveSync mit SOGo, sowie eine webbasierte Verwaltung mit 2FA-Unterstützung.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Dokumentation" }
@@ -309,8 +309,8 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 - Unterstützung für eine temporäre Mailbox für externe Benutzer. Dies ist nützlich, wenn du eine verschlüsselte E-Mail versenden möchtest, ohne eine Kopie an den Empfänger zu senden. Diese E-Mails haben in der Regel eine begrenzte Lebensdauer und werden dann automatisch gelöscht. Sie erfordern auch nicht, dass der Empfänger eine Kryptographie wie OpenPGP konfiguriert.
 - Verfügbarkeit der Dienste des E-Mail-Anbieters über einen [onion service](https://de.wikipedia.org/wiki/.onion).
 - Unterstützung [von Unteradressen](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standardzugriffsprotokolle stellen sicher, dass die Kunden alle ihre E-Mails problemlos herunterladen können, sollten sie zu einem anderen Anbieter wechseln wollen.
+- Catch-all- oder Alias-Funktionalität für diejenigen, die ihre eigenen Domains verwenden.
+- Verwendung von Standard-E-Mail-Zugriffsprotokollen wie IMAP, SMTP oder [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standardzugriffsprotokolle stellen sicher, dass die Kunden alle ihre E-Mails problemlos herunterladen können, sollten sie zu einem anderen Anbieter wechseln wollen.
 
 ### Datenschutz
 
@@ -318,7 +318,7 @@ Wir ziehen es vor, dass die von uns empfohlenen Anbieter so wenig Daten wie mög
 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
-- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
+- Schutz der IP-Adresse des Absenders, was bedeuten kann, dass sie im Feld `Received`-Header nicht angezeigt wird.
 - Benötigt keine personenbezogenen Daten (PII) außer eines Benutzernamens und eines Passwortes.
 - Datenschutzrichtlinien, die den Anforderungen der DSGVO entsprechen.
 
@@ -329,12 +329,12 @@ Wir ziehen es vor, dass die von uns empfohlenen Anbieter so wenig Daten wie mög
 
 ### Sicherheit
 
-Auf E-Mail-Servern werden viele sehr sensible Daten verarbeitet. We expect that providers will adopt best industry practices in order to protect their customers.
+Auf E-Mail-Servern werden viele sehr sensible Daten verarbeitet. Wir erwarten, dass die Anbieter die besten Praktiken der Branche übernehmen, um ihre Kunden zu schützen.
 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
 - Schutz von Webmail mit 2FA, wie TOTP.
-- Zero access encryption, which builds on encryption at rest. Der Anbieter verfügt nicht über die Entschlüsselungsschlüssel zu den Daten, die er besitzt. So wird verhindert, dass ein abtrünniger Mitarbeitender Daten preisgibt, auf die er/sie Zugriff hat, oder dass ein Angreifender Daten freigibt, die er/sie gestohlen hat, indem er/sie sich unbefugt Zugang zum Server verschafft.
+- Zero-Access-Verschlüsselung, die auf Verschlüsselung auf dem Gerät aufbaut. Der Anbieter verfügt nicht über die Entschlüsselungsschlüssel zu den Daten, die er besitzt. So wird verhindert, dass ein abtrünniger Mitarbeitender Daten preisgibt, auf die er/sie Zugriff hat, oder dass ein Angreifender Daten freigibt, die er/sie gestohlen hat, indem er/sie sich unbefugt Zugang zum Server verschafft.
 - [DNSSEC](https://de.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) Unterstützung.
 - Keine TLS-Fehler oder -Schwachstellen beim Profiling durch Tools wie [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh)oder [Qualys SSL Labs](https://ssllabs.com/ssltest); dies schließt zertifikatsbezogene Fehler und schwache DH-Parameter ein, wie z. B. die, die zu [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) führten.
 - Eine Server-Suite-Präferenz (optional bei TLSv1.3) für starke Cipher-Suites, die Forward Secrecy und authentifizierte Verschlüsselung unterstützen.
@@ -347,11 +347,11 @@ Auf E-Mail-Servern werden viele sehr sensible Daten verarbeitet. We expect that 
 - Website-Sicherheitsstandards wie z. B.:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) wenn Dinge von externen Domains geladen werden.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- Muss die Anzeige von [Message Headers](https://de.wikipedia.org/wiki/Header_(E-Mail)) unterstützen, da dies eine wichtige forensische Funktion ist, um festzustellen, ob eine E-Mail ein Phishing-Versuch ist.
 
 **Im Besten Fall:**
 
-- Unterstützung für Hardware-Authentisierung, z. B. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Unterstützung für Hardware-Authentisierung, z. B. U2F und [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) zusätzlich zur DANE-Unterstützung.
 - Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Veröffentlichte Sicherheitsaudits durch ein angesehenes Drittunternehmen.
@@ -374,23 +374,23 @@ Du würdest jemandem mit einer gefälschten Identität nicht deine Finanzen anve
 
 ### Marketing
 
-With the email providers we recommend, we like to see responsible marketing.
+Bei den von uns empfohlenen E-Mail-Anbietern legen wir Wert auf ein verantwortungsvolles Marketing.
 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
-- Sie müssen Ihre Analyse-Werkzeuge selbst hosten (kein Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
+- Sie müssen Ihre Analyse-Werkzeuge selbst hosten (kein Google Analytics, Adobe Analytics, etc.). Die Website des Anbieters muss auch die Anforderungen von [DNT (Do Not Track)](https://de.wikipedia.org/wiki/Do_Not_Track_(Software)) für diejenigen erfüllen, die sich dagegen entscheiden möchten.
 
-Must not have any irresponsible marketing, which can include the following:
+Es darf kein unverantwortliches Marketing betrieben werden, wozu Folgendes gehören kann:
 
 - Behauptung einer "unknackbaren Verschlüsselung". Die Verschlüsselung sollte in der Voraussicht eingesetzt werden, dass sie in Zukunft möglicherweise nicht mehr geheim ist, wenn die Technologie vorhanden ist, um sie zu knacken.
-- Gewährleistung eines 100%igen Schutzes der Anonymität. Wenn jemand behauptet, etwas sei zu 100% sicher, bedeutet das, dass es keine Sicherheit für ein Scheitern gibt. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
+- Gewährleistung eines 100%igen Schutzes der Anonymität. Wenn jemand behauptet, etwas sei zu 100% sicher, bedeutet das, dass es keine Sicherheit für ein Scheitern gibt. Wir wissen, dass Menschen sich auf verschiedene Weise recht einfach deanonymisieren können, z. B.:
 
     - Wiederverwendung persönlicher Informationen (z. B. E-Mail-Konten, eindeutige Pseudonyme usw.), auf die sie ohne Anonymisierungssoftware (Tor, VPN usw.) zugegriffen haben
     - [Browser-Fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Im besten Fall:**
 
-- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Klare und leicht zu lesende Dokumentation für Aufgaben wie die Einrichtung von 2FA, E-Mail-Clients, OpenPGP usw.
 
 ### Zusätzliche Funktionalitäten
 

@@ -7,7 +7,7 @@ cover: language-tools.webp
 
 <small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
@@ -26,9 +26,9 @@ Texte, die in Grammatik-, Rechtschreib- und Stilprüfungsprogramme sowie in Übe
 LanguageTool bietet die Integration mit einer Vielzahl von [Office-Suits](https://languagetool.org/services#text_editors) und [E-Mail-Clients](https://languagetool.org/services#mail_clients).
 
 [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -47,7 +47,7 @@ LanguageTool bietet die Integration mit einer Vielzahl von [Office-Suits](https:
 
 ## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu [unseren Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
 - Muss Open Source sein.
 - Es muss möglich sein, es selbst zu hosten.

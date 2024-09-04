@@ -192,13 +192,13 @@ Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mo
 1. Öffnen deine [Profileinstellungen auf accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deaktiviere **Datenerfassung und -nutzung** > **Helfen Sie, Firefox-Konten zu verbessern**
 
-##### Website Advertising Preferences
+##### Werbeeinstellungen für Websites
 
 - [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
 
 With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
-##### HTTPS-Only Mode
+##### Nur-HTTPS-Modus
 
 - [x] Wähle **Nur-HTTPS-Modus in allen Fenstern aktivieren**
 
@@ -386,8 +386,8 @@ Mit **Brave Rewards** erhältst du Basic Attention Token (BAT), eine Kryptowähr
 Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Funktionen, aber diejenigen, die sie enthalten, werden auf dieser Seite möglicherweise höher eingestuft als jene, die sie nicht enthalten.
 
 - Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps. Mit PWAs kannst du bestimmte Websites so installieren, als wären sie native Anwendungen auf deinem Computer. Dies kann Vorteile gegenüber der Installation von Electron-basierten Anwendungen haben, da PWAs von den regelmäßigen Sicherheitsupdates deines Browsers profitieren.
+- Sollte die Aufteilung von Cookies unterstützen (à la [Multi-Account Container](https://support.mozilla.org/de/kb/firefox-tab-container)).
+- Sollte Progressive Web Apps unterstützen. Mit PWAs kannst du bestimmte Websites so installieren, als wären sie native Anwendungen auf deinem Computer. Dies kann Vorteile gegenüber der Installation von Electron-basierten Anwendungen haben, da PWAs von den regelmäßigen Sicherheitsupdates deines Browsers profitieren.
 - Should not include add-on functionality (bloatware) that does not impact user privacy.
 - Sollte standardmäßig keine Telemetrie erfassen.
 - Should provide an open-source sync server implementation.

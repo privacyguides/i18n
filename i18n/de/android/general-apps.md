@@ -36,8 +36,8 @@ Wir empfehlen auf dieser Website eine Vielzahl von Android-Apps. Die hier aufgef
 Shelter unterstützt die profilübergreifende Kontaktsuche und Freigabe von Dateien über den Standard-Dateimanager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
 [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Mitwirken }
 
 </div>
 
@@ -60,9 +60,9 @@ Bei der Verwendung von Shelter vertraust du vollständig dem Entwickler, da Shel
 **Secure Camera** ist eine Kamera-App, die sich auf Datenschutz und Sicherheit konzentriert und Bilder, Videos und QR-Codes aufnehmen kann. CameraX Herstellererweiterungen (Porträt, HDR, Nachtsicht, Gesichtsretusche und Auto) sind auf unterstützten Geräten ebenfalls verfügbar.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Spenden }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -107,8 +107,8 @@ Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (
 [Content-Security-Policy](https://de.wikipedia.org/wiki/Content_Security_Policy) wird verwendet, um zu erzwingen, dass die JavaScript- und Styling-Eigenschaften innerhalb der WebView ausschließlich statische Inhalte sind.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Spenden }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
