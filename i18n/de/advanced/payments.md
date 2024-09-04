@@ -11,7 +11,7 @@ Seit Jahrhunderten ist **Bargeld** die wichtigste Form des privaten Zahlungsverk
 
 Die Gesetze zur Barzahlung sind von Land zu Land unterschiedlich. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
 
-Despite this, it’s typically the best option.
+Trotzdem ist es in der Regel die beste Option.
 
 ## Prepaid-Karten & Geschenkkarten
 
@@ -46,11 +46,11 @@ These tend to be good options for recurring/subscription payments online, while 
 Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a public blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly at any time. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Achtung</p>
 
-The vast majority of cryptocurrencies operate on a **public** blockchain, meaning that every transaction is public knowledge. This includes even most well-known cryptocurrencies like Bitcoin and Ethereum. Transactions with these cryptocurrencies should not be considered private and will not protect your anonymity.
+Die große Mehrheit der Kryptowährungen arbeitet mit einer **öffentlichen** Blockchain, was bedeutet, dass jede Transaktion öffentlich einsehbar ist. Dazu gehören auch die bekanntesten Kryptowährungen wie Bitcoin und Ethereum. Transaktionen mit diesen Kryptowährungen sollten nicht als privat angesehen werden und schützen deine Anonymität nicht.
 
-Additionally, many if not most cryptocurrencies are scams. Make transactions carefully with only projects you trust.
+Hinzu kommt, dass viele, wenn nicht sogar die meisten Kryptowährungen Betrugsmaschen sind. Tätige Transaktionen nur mit Projekten, denen du vertraust.
 
 </div>
 

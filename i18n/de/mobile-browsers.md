@@ -39,7 +39,7 @@ schema:
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Falls du anonym surfen möchtest, solltest du stattdessen [Tor](tor.md) verwenden.
 

@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Unabhängige Datenschutz- & Sicherheitsressourcen"
-description: "The most popular & trustworthy non-profit website to find privacy tools and learn about protecting your digital life. Ad & affiliate free, high quality reviews."
+description: "Die beliebteste & vertrauenswürdigste Non-Profit-Website zum Finden von Privatsphäre-Tools und zum Schutz deines digitalen Lebens. Werbefrei & ohne Affiliate-Links, hochwertige Reviews."
 template: home.html
 social:
   cards_layout: home
@@ -159,19 +159,19 @@ Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlü
 
 ## Über Privacy Guides
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Privacy Guides Logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
 Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*Unsere Website ist werbefrei und steht in keiner Verbindung zu einem der aufgeführten Anbieter.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+Bekannt aus **WIRED**, **Tweakers.net**, **The New York Times** und vielen anderen Publikationen als zuverlässige Quelle für Datenschutz- und Sicherheitswissen.
 
 [:material-information: More About Who We Are](about.md){ class="md-button md-button--primary" } [:material-email: Join our Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## Was sind Datenschutz-Tools?
 
 We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can adopt to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
 

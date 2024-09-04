@@ -26,7 +26,7 @@ Typically a form of <span class="pg-red">:material-target-account: Targeted Atta
 
 Schutz vor Malware, Datenleaks und anderen Angriffen, die sich gegen viele Menschen gleichzeitig richten.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **Diensteanbieter**</span>
 :
 
 Schutz deiner Daten vor Dienstleistern (z. B. mit E2EE, welche deine Daten für den Server unlesbar macht).
@@ -34,17 +34,17 @@ Schutz deiner Daten vor Dienstleistern (z. B. mit E2EE, welche deine Daten für 
 <span class="pg-blue">:material-eye-outline: **Massenüberwachung**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+Schutz vor Regierungsbehörden, Organisationen, Webseiten und Diensten, die zusammenarbeiten, um deine Aktivitäten zu verfolgen.
 
 <span class="pg-brown">:material-account-cash: **Überwachungskapitalismus**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+Schutz vor großen Werbenetzwerken wie Google und Facebook sowie vor einer Vielzahl anderer Datensammler.
 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Begrenzung der Informationen über dich online—für Suchmaschinen oder die allgemeine Öffentlichkeit.
 
 <span class="pg-blue-gray">:material-close-outline: **Zensur**</span>
 :
@@ -80,11 +80,11 @@ Desktop operating systems generally lag behind on proper sandboxing. ChromeOS ha
 
 </div>
 
-## Attacks against Specific Individuals
+## Angriffe auf bestimmte Personen
 
 <span class="pg-red">:material-target-account: Targeted Attacks</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+Targeted attacks against a specific person are more problematic to deal with. Zu den üblichen Angriffen gehören das Versenden bösartiger Dokumente per E-Mail, das Ausnutzen von Sicherheitslücken (z. B. in Browsern und Betriebssystemen) und physische Angriffe. Wenn dies für dich eine Gefahr darstellt, solltest du fortschrittlichere Strategien zur Bedrohungsabwehr einsetzen.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>
@@ -93,7 +93,7 @@ In **Webbrowsern**, **E-Mail-Clients** und **Büroanwendungen** wird in der Rege
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
+Wenn du dir Sorgen über **physische Angriffe** machst, solltest du ein Betriebssystem mit einer sicheren verifizierten Boot-Implementierung verwenden, wie Android, iOS, macOS oder [Windows (mit TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. Du solltest es auch vermeiden, deinen Computer mit Personen zu teilen, denen du nicht vertraust, da die meisten Desktop-Betriebssysteme die Daten nicht separat pro Benutzer verschlüsseln.
 
 ## Angriffe auf bestimmte Organisationen
 
@@ -126,7 +126,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 
 <span class="pg-teal">:material-server-network: Diensteanbieter</span>
 
-Wir leben in einer Welt, in der fast alles mit dem Internet verbunden ist. Unsere „privaten“ Nachrichten, E-Mails und sozialen Interaktionen werden in der Regel irgendwo auf einem Server gespeichert. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
+Wir leben in einer Welt, in der fast alles mit dem Internet verbunden ist. Unsere „privaten“ Nachrichten, E-Mails und sozialen Interaktionen werden meist irgendwo auf einem Server gespeichert. Wenn du jemandem eine Nachricht schickst, wird diese in der Regel auf einem Server gespeichert, und wenn dein Freund die Nachricht lesen möchte, zeigt der Server sie ihm an.
 
 Das offensichtliche Problem dabei ist, dass der Dienstanbieter (oder ein Hacker, der in den Server eingedrungen ist) auf deine Unterhaltungen zugreifen kann, wann und wie er will, ohne dass du es je erfährst. Dies gilt für viele gängige Dienste wie SMS-Nachrichten, Telegram und Discord.
 
@@ -171,25 +171,25 @@ In the face of Edward Snowden's disclosures of government programs such as [PRIS
 
 Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+Online kannst du über eine Vielzahl von Methoden verfolgt werden, einschließlich, aber nicht beschränkt auf:
 
-- Your IP address
-- Browser cookies
-- The data you submit to websites
-- Your browser or device fingerprint
-- Payment method correlation
+- Deine IP-Adresse
+- Browser-Cookies
+- Die Daten, die du an Websites übermittelst
+- Dein Browser- oder Gerät-Fingerabdruck
+- Korrelation von Zahlungen
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+Wenn du über Massenüberwachungsprogramme besorgt bist, kannst du Strategien anwenden, wie z. B. deine Online-Identitäten abzuschotten, dich unter andere Benutzer zu mischen oder, wann immer möglich, einfach zu vermeiden, identifizierende Informationen preiszugeben.
 
 ## Überwachung als Geschäftsmodell
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: Überwachungskapitalismus</span>
 
 > Der Überwachungskapitalismus ist ein Wirtschaftssystem, in dessen Mittelpunkt die Erfassung und Vermarktung personenbezogener Daten mit dem Hauptziel der Gewinnerzielung steht.[^3]
 
-Für viele Menschen ist die Verfolgung und Überwachung durch private Unternehmen eine wachsende Sorge. Weit verbreitete Werbenetzwerke, wie die von Google und Facebook betriebenen, umspannen das Internet weit über die von ihnen kontrollierten Websites hinaus und verfolgen dabei deine Handlungen. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+Für viele Menschen ist die Verfolgung und Überwachung durch private Unternehmen eine wachsende Sorge. Weit verbreitete Werbenetzwerke, wie die von Google und Facebook betriebenen, umspannen das Internet weit über die von ihnen kontrollierten Websites hinaus und verfolgen dabei deine Handlungen. Der Einsatz von Tools wie Content-Blockern zur Begrenzung der Netzwerkanfragen an ihre Server und das Lesen der Datenschutzrichtlinien der von dir genutzten Dienste kann dir helfen, viele einfache Angriffe zu vermeiden (auch wenn dies das Tracking nicht vollständig verhindern kann).[^4]
 
-Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+Darüber hinaus können auch Unternehmen außerhalb der *AdTech-* oder Tracking-Branche deine Informationen an [Datenmakler](https://en.wikipedia.org/wiki/Information_broker) (wie Cambridge Analytica, Experian oder Datalogix) oder andere Parteien weitergeben. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
 
 ## Einschränkung der öffentlichen Information
 
