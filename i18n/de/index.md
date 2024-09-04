@@ -43,7 +43,7 @@ schema:
 <div markdown>
 ## Warum sollte mich das interessieren?
 
-> „Ich habe nichts zu verbergen. Warum sollte ich mir Sorgen um meine Privatsphäre machen?"
+> „Ich habe nichts zu verbergen. Warum sollte ich mir Sorgen um meine Privatsphäre machen?“
 
 Ähnlich wie das Recht auf interethnische Ehe, das Frauenwahlrecht, die Meinungsfreiheit und viele andere, wurde unser Recht auf Privatsphäre nicht immer gewahrt. In einigen Diktaturen ist das immer noch der Fall. Generationen vor uns haben für unser Recht auf Privatsphäre gekämpft. ==Die Privatsphäre ist ein uns allen innewohnendes Menschenrecht,== auf das wir (ohne Diskriminierung) Anspruch haben.
 
@@ -104,7 +104,7 @@ Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlü
 
     [:octicons-arrow-right-24: Lese die vollständige Review](email.md#mailboxorg)
 
--   ![Tuta Logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+-   ![Tuta Logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta Logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 
     ---
 
@@ -161,7 +161,7 @@ Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlü
 
 ![Privacy Guides Logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-Gegründet im Jahr 2021 aufgrund der Schwierigkeit, unvoreingenommene Rezensenten im VPN- und Privatsphären-Bereich zu finden, ist **Privacy Guides** die beliebteste, vertrauenswürdige, gemeinnützige-Website, die Informationen über den Schutz deiner *persönlichen* Daten und Privatsphäre bietet. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+Gegründet im Jahr 2021 aufgrund der Schwierigkeit, unvoreingenommene Rezensenten im VPN- und Privatsphären-Bereich zu finden, ist **Privacy Guides** die beliebteste, vertrauenswürdige, gemeinnützige-Website, die Informationen über den Schutz deiner *persönlichen* Daten und Privatsphäre bietet. Unsere crowdsourced Empfehlungen und Rezensionen von **Privatsphäre/Datenschutz-Tools** und unserer Community mit dem Ziel, anderen zu helfen, setzen uns von anderen Blogs und Content-Creatorn ab. Das Team, das hinter diesem Projekt steht, erforscht seit mehr als 5 Jahren Datenschutz und Sicherheit im Open-Source-Bereich, ursprünglich mit einer inzwischen nicht mehr existierenden Web-Ressource, die schließlich zu *Privacy Guides* wurde, dem Millionen von Lesern vertrauen.
 
 *Unsere Website ist werbefrei und steht in keiner Verbindung zu einem der aufgeführten Anbieter.*
 

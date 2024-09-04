@@ -37,11 +37,11 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Falls du anonym surfen möchtest, solltest du stattdessen [Tor](tor.md) verwenden.
+Wir empfehlen aktuell diese **mobilen Webbrowsers** und Konfigurationen für normales bzw. nicht anonymes Surfen im Internet. Falls du anonym surfen möchtest, solltest du stattdessen [Tor](tor.md) verwenden.
 
 ## Android
 
@@ -75,7 +75,7 @@ Brave basiert auf dem Chromium-Webbrowser-Projekt, sollte sich also vertraut anf
 
 Tor Browser ist die einzige Möglichkeit, wirklich anonym im Internet zu surfen. Wenn du Brave benutzt, empfehlen wir dir, die folgenden Einstellungen zu ändern, um deine Privatsphäre vor bestimmten Parteien zu schützen, aber alle anderen Browser als der [Tor Browser](tor.md#tor-browser) werden von *irgendjemandem* in irgendeiner Weise verfolgt werden können.
 
-Diese Optionen findest du unter :material-menu: → **Einstellungen** → **Schutz**
+Diese Optionen findest du unter :material-menu: → **Einstellungen** → **Brave Schutz & Datenschutz**
 
 ##### Schutz
 
