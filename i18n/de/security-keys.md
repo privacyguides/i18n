@@ -5,10 +5,10 @@ description: These tools assist you with securing your internet accounts with Mu
 cover: multi-factor-authentication.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Passive Angriffe](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the FIDO2 security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multi-factor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
 
@@ -17,14 +17,14 @@ A physical **security key** adds a very strong layer of protection to your onlin
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
+  ![Security Key Series von Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
 The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification. It supports FIDO2/WebAuthn and FIDO U2F, and works out of the box with most services that support a security key as a second factor, as well as many password managers.
 
 [:octicons-home-16: Homepage](https://yubico.com/products/security-key){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Dokumentation}
 
 </details>
 
@@ -35,7 +35,7 @@ These keys are available in both USB-C and USB-A variants, and both options supp
 This key provides only basic FIDO2 functionality, but for most people that is all you will need. Some notable features the Security Key series does **not** have include:
 
 - [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)
-- CCID Smart Card support (PIV-compatibile)
+- CCID Smart Card Unterstützung (PIV-kompatibel)
 - OpenPGP
 
 If you need any of those features, you should consider their higher-end [YubiKey](#yubikey) of products instead.
@@ -58,8 +58,8 @@ The firmware of Yubico's Security Keys is not updatable. If you want features in
 The **YubiKey** series from Yubico are among the most popular security keys. The YubiKey 5 Series has a wide range of features such as: [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
 
 [:octicons-home-16: Homepage](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Documentation}
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://docs.yubico.com){ .card-link title=Dokumentation}
 
 </details>
 
@@ -91,8 +91,8 @@ The firmware of YubiKey is not updatable. If you want features in newer firmware
 **Nitrokey** has a security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) called the **Nitrokey FIDO2**. For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2** or the **Nitrokey Storage 2**.
 
 [:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Documentation}
+[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://docs.nitrokey.com){ .card-link title=Dokumentation}
 
 </details>
 
@@ -114,26 +114,26 @@ While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plug
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>
 
-Resetting the OpenPGP interface on a Nitrokey will also make the password database [inaccessible](https://docs.nitrokey.com/pro/linux/factory-reset).
+Das Zurücksetzen der OpenPGP-Schnittstelle auf einem Nitrokey macht auch die Passwortdatenbank [unzugänglich](https://docs.nitrokey.com/pro/linux/factory-reset).
 
 </div>
 
-## Criteria
+## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu [unseren Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
-### Minimum Requirements
+### Mindestanforderungen
 
-- Must use high quality, tamper resistant hardware security modules.
-- Must support the latest FIDO2 specification.
-- Must not allow private key extraction.
-- Devices which cost over $35 must support handling OpenPGP and S/MIME.
+- Es müssen hochwertige, manipulationssichere Hardware-Sicherheitsmodule verwendet werden.
+- Muss die neueste FIDO2-Spezifikation unterstützen.
+- Darf keine Extraktion des privaten Schlüssels erlauben.
+- Geräte, die mehr als 35 € kosten, müssen die Handhabung von OpenPGP und S/MIME unterstützen.
 
-### Best-Case
+### Im besten Fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Merkmale, aber diejenigen, die sie enthalten, werden möglicherweise höher eingestuft als andere auf dieser Seite.
 
-- Should be available in USB-C form-factor.
-- Should be available with NFC.
-- Should support TOTP secret storage.
-- Should support secure firmware updates.
+- Sollte im USB-C-Formfaktor erhältlich sein.
+- Sollte mit NFC verfügbar sein.
+- Sollte TOTP-Geheimnisspeicherung unterstützen.
+- Sollte sichere Firmware-Updates unterstützen.

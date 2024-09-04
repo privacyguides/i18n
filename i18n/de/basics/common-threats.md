@@ -149,7 +149,7 @@ Even with E2EE, service providers can still profile you based on **metadata**, w
 
 <span class="pg-blue">:material-eye-outline: Massenüberwachung</span>
 
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+Unter Massenüberwachung versteht man die aufwändige Überwachung des "Verhaltens, vieler Aktivitäten oder Informationen" einer gesamten Bevölkerung (oder eines wesentlichen Teils davon).[^1] Der Begriff bezieht sich häufig auf Regierungsprogramme, wie die [von Edward Snowden im Jahr 2013 enthüllten](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)) Programme. However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
 
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas der Überwachung</p>

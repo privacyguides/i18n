@@ -219,11 +219,11 @@ Das Protokoll wurde 2016 einem unabhängigen [Audit](https://matrix.org/blog/201
 
 <div class="admonition recommendation" markdown>
 
-![Session logo](assets/img/messengers/session.svg){ align=right }
+![Session-Logo](assets/img/messengers/session.svg){ align=right }
 
-**Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
+**Session** ist ein dezentraler Messenger mit dem Schwerpunkt auf privater, sicherer und anonymer Kommunikation. Session bietet Unterstützung für Direktnachrichten, Gruppenchats und Sprachanrufe.
 
-Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
+Session verwendet das dezentralisierte [Oxen Service Node Network](https://oxen.io) zum Speichern und Weiterleiten von Nachrichten. Jede verschlüsselte Nachricht wird über drei Knoten im Oxen Service Node Network geleitet, was es den Knoten praktisch unmöglich macht, aussagekräftige Informationen über die Nutzer des Netzwerks zu sammeln.
 
 [:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
@@ -244,15 +244,15 @@ Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to s
 
 </div>
 
-Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
+Session ermöglicht E2EE in Einzelchats oder geschlossenen Gruppen, die bis zu 100 Mitglieder umfassen können. Open groups have no restriction on the number of members, but are open by design.
 
-Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
+Session basierte früher auf dem Signal-Protokoll, bevor es im Dezember 2020 durch sein eigenes ersetzt wurde. Das Session-Protokoll unterstützt [keine](https://getsession.org/blog/session-protocol-technical-information) Forward-Secrecy.[^1]
 
-Im März 2020 forderte Oxen ein unabhängiges Audit für Session an. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
+Im März 2020 forderte Oxen ein unabhängiges Audit für Session an. Das Audit wurde im April 2021 [abgeschlossen](https://getsession.org/session-code-audit):
 
-> The overall security level of this application is good and makes it usable for privacy-concerned people.
+> Das allgemeine Sicherheitsniveau dieser Anwendung ist gut und macht sie für Menschen, die sich um ihre Privatsphäre sorgen, nutzbar.
 
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
+Session hat ein [Whitepaper](https://arxiv.org/pdf/2002.04609.pdf), in dem die technischen Details der App und des Protokolls beschrieben werden.
 
 ## Kriterien
 
@@ -270,12 +270,12 @@ Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the 
 
 Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Merkmale, aber diejenigen, die sie enthalten, werden möglicherweise höher eingestuft als andere auf dieser Seite.
 
-- Supports forward secrecy[^1]
-- Supports Future Secrecy (Post-Compromise Security)[^2]
+- Unterstützt das Forward-Secrecy[^1]
+- Unterstützt Future Secrecy (Post-Compromise-Sicherheit)[^2]
 - Hat Open-Source-Server.
 - Dezentralisiert, d.h. [Föderiert oder P2P](advanced/communication-network-types.md).
 - Verwendet standardmäßig E2EE für alle Nachrichten.
 - Unterstützt Linux, macOS, Windows, Android und iOS.
 
-[^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
-[^2]: Future Secrecy (or Post-Compromise Security) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties, since they lose access as soon as a key exchange occurs that is not intercepted.
+[^1]: Bei der [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (dt.: „vorwärts gerichteten Geheimhaltung“) werden die Schlüssel sehr häufig gewechselt, so dass, wenn der aktuelle Verschlüsselungsschlüssel kompromittiert wird, nicht auch **frühere** Nachrichten offengelegt werden.
+[^2]: Future Secrecy (oder Post-Compromise Security) ist eine Funktion, bei der ein Angreifer daran gehindert wird, **zukünftige** Nachrichten zu entschlüsseln, nachdem er einen privaten Schlüssel kompromittiert hat, es sei denn, er kompromittiert auch weitere Sitzungsschlüssel in der Zukunft. Dies zwingt den Angreifer dazu, die gesamte Kommunikation zwischen den Parteien abzufangen, da er den Zugang verliert, sobald ein Schlüsselaustausch stattfindet, der nicht abgefangen wird.

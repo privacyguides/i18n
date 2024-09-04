@@ -41,7 +41,7 @@ Es ist vorteilhaft, wenn die Entschlüsselung auf der Smartcard erfolgt, um zu v
 
 E-Mail-Metadaten werden in dem [Header-Abschnitt](https://de.wikipedia.org/wiki/Header_(E-Mail)) der E-Mail gespeichert und enthalten einige sichtbare Header-Zeilen, die du vielleicht schon gesehen hast, wie z. B.: `An`, `Von`, `Cc`, `Datum`, `Betreff`. Viele E-Mail-Clients und -Anbieter fügen außerdem eine Reihe von versteckten Header-Zeilen hinzu, die Informationen über dein Konto preisgeben können.
 
-E-Mail-Programm können Metadaten verwenden, um anzuzeigen, von wem eine Nachricht stammt und wann sie empfangen wurde. Server können sie verwenden, um zu bestimmen, wohin eine E-Mail gesendet werden muss, neben [anderen Zwecken](https://en.wikipedia.org/wiki/Email#Message_header), die nicht immer transparent sind.
+E-Mail-Programm können Metadaten verwenden, um anzuzeigen, von wem eine Nachricht stammt und wann sie empfangen wurde. Server können sie verwenden, um zu bestimmen, wohin eine E-Mail gesendet werden muss, neben [anderen Zwecken](https://de. wikipedia. org/wiki/Header_(E-Mail)), die nicht immer transparent sind.
 
 ### Wer kann E-Mail-Metadaten einsehen?
 

@@ -136,7 +136,7 @@ iMazing automates and interactively guides you through the process of using [MVT
 <small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Passive Angriffe](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
@@ -193,7 +193,7 @@ If your [threat model](basics/threat-modeling.md) requires privacy, you could co
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Passive Angriffe](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 These are apps you can install on your device which scan your device for signs of compromise.
 

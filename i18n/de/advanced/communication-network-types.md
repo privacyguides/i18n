@@ -12,24 +12,24 @@ Es gibt mehrere Netzwerkarchitekturen, die häufig verwendet werden, um Nachrich
 
 ![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
 
-Centralized messengers are those where all participants are on the same server or network of servers controlled by the same organization.
+Zentralisierte Messenger sind solche, bei denen sich alle Teilnehmer auf demselben Server oder einem Netzwerk von Servern befinden, die von derselben Organisation kontrolliert werden.
 
-Some self-hosted messengers allow you to set up your own server. Self-hosting can provide additional privacy guarantees, such as no usage logs or limited access to metadata (data about who is talking to whom). Self-hosted centralized messengers are isolated and everyone must be on the same server to communicate.
+Bei einigen selbst gehosteten Messengern kannst du deine eigenen Server einrichten. Self-Hosting kann zusätzliche Datenschutzgarantien bieten, z. B. keine Nutzungsprotokolle oder begrenzten Zugriff auf Metadaten (Daten darüber, wer mit wem spricht). Selbst gehostete, zentralisierte Messenger sind isoliert und jeder muss sich auf demselben Server befinden, um zu kommunizieren.
 
 **Vorteile:**
 
-- New features and changes can be implemented more quickly.
-- Easier to get started with and to find contacts.
-- Most mature and stable features ecosystems, as they are easier to program in a centralized software.
-- Privacy issues may be reduced when you trust a server that you're self-hosting.
+- Neue Funktionen und Änderungen können schneller implementiert werden.
+- Einfacher Einstieg und leichtere Kontaktaufnahme.
+- Die meisten ausgereiften und stabilen Funktionen von Ökosystemen, da sie in einer zentralisierten Software leichter zu programmieren sind.
+- Probleme mit dem Datenschutz können verringert werden, wenn du einem Server vertraust, den du selbst hostest.
 
 **Nachteile:**
 
-- Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). This can include things like:
-- Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
-- Poor or no documentation for third-party developers.
+- Kann [eingeschränkte Kontrolle oder Zugang](https://drewdevault.com/2018/08/08/Signal.html) beinhalten. Dazu können Dinge gehören wie:
+- [Das Verbot, Drittanbieter-Clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) an das zentrale Netzwerk anzuschließen, die eine bessere Anpassung oder ein besseres Erlebnis ermöglichen könnten. Häufig in den Nutzungsbedingungen definiert.
+- Schlechte oder fehlende Dokumentation für Drittentwickler.
 - The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
-- Self-hosting requires effort and knowledge of how to set up a service.
+- Selbst-Hosting erfordert Anstrengungen und Kenntnisse darüber, wie man einen Service aufbauen kann.
 
 ## Föderierte Netzwerke
 
