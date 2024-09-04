@@ -41,36 +41,36 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## Warum sollte mich das interessieren?
 
 > „Ich habe nichts zu verbergen. Warum sollte ich mir Sorgen um meine Privatsphäre machen?"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In einigen Diktaturen ist das immer noch der Fall. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Ähnlich wie das Recht auf interethnische Ehe, das Frauenwahlrecht, die Meinungsfreiheit und viele andere, wurde unser Recht auf Privatsphäre nicht immer gewahrt. In einigen Diktaturen ist das immer noch der Fall. Generationen vor uns haben für unser Recht auf Privatsphäre gekämpft. ==Die Privatsphäre ist ein uns allen innewohnendes Menschenrecht,== auf das wir (ohne Diskriminierung) Anspruch haben.
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Man sollte Privatsphäre nicht mit Geheimhaltung verwechseln. Wir wissen, was auf der Toilette passiert, aber machen trotzdem die Tür zu. Das liegt daran, dass du Privatsphäre willst, nicht Geheimhaltung. **Jeder** hat etwas zu schützen. Die Privatsphäre ist etwas, das uns menschlich macht.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: Warum Privatsphäre wichtig ist](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+## Was soll ich tun?
 
-> First, you need to make a plan
+> Zuerst musst du einen Plan machen
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Aber keine Sorge! Sicherheit ist ein Prozess, und durch vorausschauendes denken, kannst du einen Plan erstellen, der für dich geeignet ist. Security isn't just about the *privacy tools* you use or the software you download. Vielmehr geht es darum, die einzigartigen Bedrohungen zu verstehen, mit denen du konfrontiert bist, und herauszufinden, wie diese entschärft werden können.
+Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, teuer und anstrengend. Aber keine Sorge! Sicherheit ist ein Prozess, und durch vorausschauendes Denken, kannst du einen Plan erstellen, der für dich geeignet ist. Sicherheit dreht sich nicht nur um die *Privatsphäre-Tools*, die du verwendest, oder die Software, die du herunterlädst. Vielmehr geht es darum, die einzigartigen Bedrohungen zu verstehen, mit denen du konfrontiert bist, und herauszufinden, wie diese entschärft werden können.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+== Dieser Prozess der Identifizierung von Bedrohungen und der Festlegung von Gegenmaßnahmen wird als **Bedrohungsmodellierung** bezeichnet== und bildet die Grundlage für jeden guten Sicherheits- und Datenschutzplan.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: Erfahre mehr über Bedrohungsmodellierung](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## Vertrauenswürdige Datenschutz-Software Bewertungen
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides** hat eine engagierte [Community](https://discuss.privacyguides.net), die unabhängig verschiedene *Privacy-Tools* und -Dienste überprüft. Alle unsere Empfehlungen erfüllen eine Reihe strenger Kriterien, um sicherzustellen, dass sie den meisten Menschen den größten Nutzen bringen und das beste Gleichgewicht zwischen Privatsphäre, Sicherheit und Komfort bieten. Als Teil einer gemeinnützigen **öffentlichen Wohltätigkeitsorganisation** hat Privacy Guides strenge **journalistische Standards** und Richtlinien, um sicherzustellen, dass unsere Empfehlungen frei von Interessenkonflikten sind, und wir arbeiten nicht mit Anbietern oder Partnerprogrammen zusammen, die unsere Bewertungen und Empfehlungen beeinflussen könnten.
 
 [:material-heart:{.pg-red} Unterstütze unsere Arbeit](about/donate.md){ .md-button .md-button--primary }
 </div>
@@ -152,8 +152,8 @@ Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlü
 </div>
 </div>
 
-[:material-format-list-checkbox: More Recommended **Privacy Tools**](tools.md){ class="md-button md-button--primary" }
-[Best Mobile Browsers](mobile-browsers.md ""){.md-button} [Top Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button} [PC Operating Systems](desktop.md ""){.md-button}
+[:material-format-list-checkbox: Weitere empfohlene **Datenschutz-Tools**](tools.md){ class="md-button md-button--primary" }
+[Beste mobile Browser](mobile-browsers.md ""){.md-button} [Top-Browser-Erweiterungen](browser-extensions.md ""){.md-button} [DNS-Server](dns.md ""){.md-button} [E-Mail-Aliasing-Dienste](email-aliasing.md ""){.md-button} [Foto-Organisationstools](photo-management.md ""){.md-button} [PC-Betriebssysteme](desktop.md ""){.md-button}
 
 ---
 
@@ -161,30 +161,30 @@ Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlü
 
 ![Privacy Guides Logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+Gegründet im Jahr 2021 aufgrund der Schwierigkeit, unvoreingenommene Rezensenten im VPN- und Privatsphären-Bereich zu finden, ist **Privacy Guides** die beliebteste, vertrauenswürdige, gemeinnützige-Website, die Informationen über den Schutz deiner *persönlichen* Daten und Privatsphäre bietet. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
 
 *Unsere Website ist werbefrei und steht in keiner Verbindung zu einem der aufgeführten Anbieter.*
 
 Bekannt aus **WIRED**, **Tweakers.net**, **The New York Times** und vielen anderen Publikationen als zuverlässige Quelle für Datenschutz- und Sicherheitswissen.
 
-[:material-information: More About Who We Are](about.md){ class="md-button md-button--primary" } [:material-email: Join our Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
+[:material-information: Mehr über uns](about.md){ class="md-button md-button--primary" } [:material-email: Abonniere unseren Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
 
 <div class="grid" markdown>
 <div markdown>
 ## Was sind Datenschutz-Tools?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can adopt to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+Wir empfehlen eine breite Palette von **Datenschutz/Privatsphäre-Tools** (auch bekannt als *Privatsphäre-Apps*, *Privatsphäre-Dienstprogramme*, *Privatsphäre-Software*), die Software und Hardware umfassen, die du zur Verbesserung deiner Privatsphäre einsetzen kannst. Viele der von uns empfohlenen Tools sind völlig kostenlos und Open-Source-Software, während einige kommerzielle Dienste zum Kauf angeboten werden. Das Wechseln von gängiger datenhungriger Software wie Google Chrome und Windows auf datenschutzfreundliche Werkzeuge wie [Brave](Desktop-Browser.md#brave) und [Linux](desktop.md) können viel dazu beitragen, die Informationen, die du an Unternehmen und andere weitergibst, zu kontrollieren.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: Unsere Standardkriterien](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## Warum ist Privatsphäre wichtig?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. Das ist es nicht. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+Im modernen Zeitalter der digitalen Datenausbeutung ist deine Privatsphäre noch nie so wichtig gewesen, und dennoch glauben viele, dass sie bereits verloren ist. Das ist sie nicht. == Deine Privatsphäre steht auf dem Spiel, und du musst dich um sie kümmern.== Privatsphäre bedeutet Macht, und es ist so wichtig, dass diese Macht in den richtigen Händen landet.
 
-Many people get the concepts of privacy, security, and anonymity confused. Es gibt Leute, die verschiedene Produkte als "nicht privat" kritisieren, obwohl sie in Wirklichkeit meinen, dass sie beispielsweise keine Anonymität bieten. Auf dieser Website befassen wir uns mit allen drei Themen, aber es ist wichtig, dass du den Unterschied zwischen ihnen verstehst und weißt, wann es um welches der drei Themen geht.
+Viele Menschen verwechseln die Begriffe Privatsphäre, Sicherheit und Anonymität. Es gibt Leute, die verschiedene Produkte als „nicht privat“ kritisieren, obwohl sie in Wirklichkeit meinen, dass sie beispielsweise keine Anonymität bieten. Auf dieser Website befassen wir uns mit allen drei Themen, aber es ist wichtig, dass du den Unterschied zwischen ihnen verstehst und weißt, wann es um welches der drei Themen geht.
 
-[Privacy vs Security vs Anonymity](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[Privatsphäre vs. Sicherheit vs. Anonymität](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
 </div>
 </div>
