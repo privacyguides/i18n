@@ -68,12 +68,12 @@ P2P networks do not use servers, as peers communicate directly between each othe
 
 **Vorteile:**
 
-- Minimal information is exposed to third-parties.
-- Modern P2P platforms implement E2EE by default. There are no servers that could potentially intercept and decrypt your transmissions, unlike centralized and federated models.
+- Es werden nur wenige Informationen an Dritte weitergegeben.
+- Moderne P2P-Plattformen implementieren standardmäßig E2EE. Im Gegensatz zu zentralisierten und föderierten Modellen gibt es keine Server, die Ihre Übertragungen möglicherweise abfangen und entschlüsseln könnten.
 
 **Nachteile:**
 
-- Reduced feature set:
+- Reduzierter Funktionsumfang:
 - Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
 - Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
 - Some common messenger features may not be implemented or incompletely, such as message deletion.
@@ -91,8 +91,8 @@ Self-hosting a node in an anonymous routing network does not provide the hoster 
 
 **Vorteile:**
 
-- Minimal to no information is exposed to other parties.
-- Messages can be relayed in a decentralized manner even if one of the parties is offline.
+- Es werden nur wenige bis gar keine Informationen an andere Parteien weitergegeben.
+- Nachrichten können dezentral weitergegeben werden, auch wenn eine der Parteien offline ist.
 
 **Nachteile:**
 
