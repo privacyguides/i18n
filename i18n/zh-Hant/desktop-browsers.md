@@ -192,9 +192,9 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 1. 在 [accounts.firefox.com](https://accounts.firefox.com/settings#data-collection) 開啟您的 <0>個人資料設定</0>
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
 
-##### Website Advertising Preferences
+##### 網站廣告偏好設定
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] 取消勾選**允許網站進行能保護隱私的廣告成效測量**
 
 Firefox 128 發佈以後，新的[保護隱私的成效測量](https://support.mozilla.org/kb/privacy-preserving-attribution) (簡稱 PPA) 設定已經加入並且[預設是開啟的](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)。 PPA 允許廣告商利用您的瀏覽器進行廣告成效測量，進而取代基於 JavaScript 的傳統追蹤方式。 我們認為此行為不屬於使用者代理的職責範圍，而 Arkenfox 預設停用此功能的事實，也是停用此功能的額外指標。
 
@@ -225,7 +225,7 @@ Firefox 128 發佈以後，新的[保護隱私的成效測量](https://support.m
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. 我們**強烈建議**完整閱讀他們的 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，有[幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])主觀上較為嚴格，並且、或者可能導致某些網站無法正常運作，您可以[輕鬆變更](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)，以滿足您的需求。 我們**強烈建議**完整閱讀他們的 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
 Arkenfox 的目標旨在通過 Canvas 隨機化和 Firefox 內置的指紋對抗配置設置來阻止基本或單純的跟蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記住，您可以隨時使用多個瀏覽器。例如，您可以考慮將 Firefox + Arkenfox 用於希望保持登入或可以信任的幾個網站，而 Mullvad 瀏覽器則用於一般瀏覽。
 
@@ -277,7 +277,7 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] 在 *追蹤器與廣告封鎖* 下選擇 **積極**。
 
 <details class="warning" markdown>
 <summary>使用預設過濾器列表</summary>

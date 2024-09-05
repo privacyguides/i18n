@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
@@ -60,11 +60,11 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 **Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail Free 方案隨附 500MB 的郵件儲存空間，可以免費增加至 1GB。
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="洋蔥服務" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -83,7 +83,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 免費帳戶有一些功能限制，例如無法搜索郵件正文內容，也無法無法使用 [Proton Mail Bridge](https://proton.me/mail/bridge)；後者是使用[建議的桌面郵件客戶端](email-clients.md) (例如 Thunderbird) 所需的。 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 Proton Mail 應用程式於 2021 年 11 月 9 日由 [Securitum](https://research.securitum.com) 提供[認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
-If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+如果您有訂閱 Proton Unlimited 或任何多使用者的 Proton 方案，您也可以免費獲得 [SimpleLogin](email-aliasing.md#simplelogin) Premium。
 
 Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在 web app 下取消，作法: :gear: → **所有設定** → **帳號** → **安全與隱私** → **隱私與資料蒐集**.
 
@@ -129,9 +129,9 @@ Proton Mail 不提供數字遺產功能。
 
 **Mailbox.org** 電子郵件服務，專注於安全、無廣告和使用 100% 民間環保發電能源。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: 首頁](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="說明文件" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -200,19 +200,19 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta 標誌](assets/img/email/tuta.svg#only-light){ align=right }
+![Tuta 標誌](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶提供 10GB 容量。
+**Tuta** (前身為 *Tutanota*) 是一項透過使用加密技術，著重於安全性與隱私權的電子郵件服務。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶提供 10GB 容量。
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -220,7 +220,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 - [:fontawesome-brands-windows: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com)
+- [:octicons-browser-16: 網頁版](https://app.tuta.com)
 
 </details>
 
@@ -286,12 +286,12 @@ Tuta 不提供數位遺產功能。
 
 ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** 是一個更先進的郵件伺服器，非常適合有豐富 Linux 經驗者。 It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+**Mailcow** 是一個更先進的郵件伺服器，非常適合有豐富 Linux 經驗者。 它在 Docker 容器中提供您所需的一切：支援 DKIM 的郵件伺服器、防毒與垃圾郵件監控、Webmail 與 SOGo 的 ActiveSync，以及支援 2FA 的網頁式管理。
 
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="貢獻" }
 
 </div>
 
@@ -301,16 +301,16 @@ Tuta 不提供數位遺產功能。
 
 **Mail-in-a-Box** 是部署 Ubuntu 郵件伺服器的自動設置腳本。 它的目標是讓人們更容易建立自己的郵件伺服器。
 
-[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="原始碼" }
 
 </div>
 
 為了更清楚手動設定方法，我們挑選了這兩篇文章：
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
+- [使用 OpenSMTPD、Dovecot 和 Rspamd 設定郵件伺服器](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (英文版網站，2019)
+- [如何架設自己的郵件伺服器](https://c0ffee.net/blog/mail-server-guide) (英文版網站，2017 年 8 月)
 
 
 
@@ -339,8 +339,8 @@ Tuta 不提供數位遺產功能。
 - 支援外部使用者的臨時信箱。 當您想要發送加密的電子郵件時，這非常有用，而無需將實際副本發送給您的收件人。 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
 - 可提供 [onion 服務](https://en.wikipedia.org/wiki/.onion)的電子郵件服務供應商。
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). 標準存取協議確保客戶可以輕鬆下載所有電子郵件，一旦他們想切換到其它提供商。
+- 為擁有自己網域的用戶提供通用地址或別名功能。
+- 使用標準的電子郵件存取通訊協定，例如 IMAP、SMTP 或 [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)。 標準存取通訊協定可確保客戶在轉換其他供應商時，能輕鬆下載所有電子郵件。
 
 
 
@@ -350,7 +350,7 @@ Tuta 不提供數位遺產功能。
 
 **最低合格要求：**
 
-- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
+- 保護寄件者的 IP 位址，包括過濾它，使其不顯示在`接收`標頭欄位中。
 - 除了使用者名稱和密碼外，不要求提供個人身份識別資訊(PII)。
 - 隱私政策符合 GDPR 之要求。
 
@@ -363,15 +363,15 @@ Tuta 不提供數位遺產功能。
 
 ### 安全
 
-電子郵件伺服器處理大量非常敏感的資料。 We expect that providers will adopt best industry practices in order to protect their customers.
+電子郵件伺服器處理大量非常敏感的資料。 我們期望供應商會採用最佳的業界實務，以保護其客戶。
 
 **最低合格要求：**
 
-- 使用 2FA 保護網頁郵件，如TOTP。
-- Zero access encryption, which builds on encryption at rest. 提供者沒有其所持有資料的解密金鑰。 這可以防止流氓員工外洩所存取的資料或遠程對手通過獲得對伺服器的未經授權的訪問來竊取資料。
+- 使用雙重驗證 (例如 TOTP) 保護 Webmail。
+- 零存取加密，建立在靜態加密的基礎上。 提供者沒有其所持有資料的解密金鑰。 這可防止惡意員工洩露他們存取的資料，或遠端敵人透過未經授權存取伺服器來釋放他們竊取的資料。
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 支持。
-- 使用 [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) 或[Qualys SSL Labs](https://ssllabs.com/ssltest)等工具沒發現 TLS 錯誤或漏洞； 這包括與憑證相關的錯誤和弱 DH 參數，例如 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 錯誤。
-- 伺服器套件偏好（在TLS v1.3上可選），適用於支持正向保密和已驗證加密的強大密碼套件。
+- 使用 [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) 或 [Qualys SSL Labs](https://ssllabs.com/ssltest) 等工具沒發現 TLS 錯誤或漏洞； 這包括與憑證相關的錯誤和弱 DH 參數，例如 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 錯誤。
+- 伺服器套件偏好設定 (TLSv1.3 為選用)，適用於支援前向保密和認證加密的強密碼套件。
 - 有效的 [MTA-STS](https://tools.ietf.org/html/rfc8461) 和[TLS-RPT](https://tools.ietf.org/html/rfc8460) 政策。
 - 有效 [ DANE ](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) 紀錄。
 - 有效的 [SPF ](https://en.wikipedia.org/wiki/Sender_Policy_Framework) 和 [ DKIM ](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) 記錄。
@@ -381,13 +381,13 @@ Tuta 不提供數位遺產功能。
 - 網站安全標準，例如： 
       - [HTTP 嚴格傳輸安全性](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - 如果從外部網域加載東西時，[子資源完整性](https://en.wikipedia.org/wiki/Subresource_Integrity) 。
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- 必須支援檢視[郵件標頭](https://en.wikipedia.org/wiki/Email#Message_header)，因為這是判斷電子郵件是否為釣魚嘗試的重要取證功能。
 
 **最佳案例：**
 
-- 支持硬體驗證，即 U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
-- [DNS憑證授權機構授權(CAA)資源記錄](https://tools.ietf.org/html/rfc6844) 除了DANE支持。
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- 支援硬體驗證，即 U2F 和 [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)。
+- [DNS 憑證授權機構授權 (CAA) 資源記錄](https://tools.ietf.org/html/rfc6844) 除了 DANE 支援外。
+- [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) 的實作，這對於在郵件列表 [RFC8617](https://tools.ietf.org/html/rfc8617) 發佈文章的人很有用。
 - 由信譽良好的第三方公司執行公佈的全面安全審計。
 - 漏洞獎勵計劃和/或協調漏洞披露過程。
 - 網站安全標準，例如： 
@@ -412,23 +412,23 @@ Tuta 不提供數位遺產功能。
 
 ### 行銷
 
-With the email providers we recommend, we like to see responsible marketing.
+對於我們推薦的電子郵件供應商，我們希望看到負責任的行銷。
 
 **最低合格要求：**
 
-- 必須自行託管分析 (不使用 Google Analytics、Adobe Analytics 等)。 The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
+- 必須自行託管分析 (不使用 Google Analytics、Adobe Analytics 等)。 供應商的網站也必須符合[不要追蹤 (DNT)](https://en.wikipedia.org/wiki/Do_Not_Track) 的規定，以滿足希望選擇不追蹤的人的需求。
 
-Must not have any irresponsible marketing, which can include the following:
+不得有任何不負責任的行銷行為，可能包括下列內容：
 
-- 宣稱破解不了的加密 使用加密時應意識到，當有一天技術足以破解它時，它就不再是祕密的。
-- 保證 100% 匿名性保護。 當有人聲稱某件事是100 ％時，這意味著失敗沒有確定性。 We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
+- 聲稱「無法破解的加密」。 使用加密時應考慮到，當未來有破解技術時，加密可能就不是秘密了。
+- 保證 100% 匿名性保護。 當有人宣稱某件事是 100% 時，這表示沒有失敗的把握。 我們知道人們可以透過許多方式輕易地解除匿名，例如：
   
-      - 重覆使用個人資訊 (如電子郵件帳戶、獨特的假名等等 pseudonyms, etc.) 而沒透過匿名軟體 (如 Tor, VPN 之類)。
+      - 重複使用他們在沒有使用匿名軟體 (Tor、VPN 等) 的情況下存取的個人資訊，例如 (電子郵件帳號、獨特假名等)
     - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **最佳案例：**
 
-- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- 針對設定雙重驗證、電子郵件用戶端、OpenPGP 等任務，提供簡單好懂的說明文件。
 
 
 
