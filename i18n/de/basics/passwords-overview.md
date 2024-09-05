@@ -24,7 +24,7 @@ Alle von uns [empfohlenen Passwort-Manager](../passwords.md) enthalten einen int
 
 Passwörter, die du dir merken musst (z. B. das Master-Passwort deines Passwort-Managers), solltest du nicht zu oft ändern, es sei denn, du hast Grund zu der Annahme, dass es kompromittiert wurde, denn wenn du es zu oft änderst, besteht die Gefahr, dass du es vergisst.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Bei den meisten Passwort-Managern kannst du ein Verfallsdatum für dein Passwort festlegen, um die Verwaltung zu erleichtern.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Nach Datenlecks suchen</p>
@@ -37,9 +37,9 @@ Wenn dein Passwort-Manager die Möglichkeit bietet, nach kompromittierten Passw�
 
 ### Passwörter
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+Viele Dienste schreiben bestimmte Kriterien für Passwörter vor, z. B. eine Mindest- oder Höchstlänge sowie, ob und welche Sonderzeichen verwendet werden dürfen. Verwendest du den integrierten Passwort-Generator deines Passwort-Managers, um Passwörter zu erstellen, solltest du diese so lang und komplex machen, wie es der Dienst zulässt. Das Passwort sollte dabei idealerweise Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten.
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+Wenn du ein Passwort benötigest, das du dir merken kannst, empfehlen wir eine [Diceware-Passphrase](#diceware-passphrases).
 
 ### Diceware Passphrasen
 
@@ -82,11 +82,11 @@ Wir empfehlen, die [große Wortliste des EFF](https://eff.org/files/2016/07/18/e
 
 To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
-One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
+Eine Kennzahl zur Bestimmung der Stärke einer Diceware-Passphrase ist die Entropie, die sie aufweist. Die Entropie pro Wort in einer Diceware-Passphrase wird wie folgt berechnet <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WörterInListe</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> und die Gesamtentropie der Passphrase wird wie folgt berechnet: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WörterInListe</mtext> <mtext>WörterInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
-Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
+Daher ergibt jedes Wort in der oben genannten Liste ~12,9 Bits an Entropie (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), und eine daraus abgeleitete Passphrase mit sieben Wörtern hat eine Entropie von ~90,47 Bit (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+[Die große Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) enthält 7776 einzigartige Wörter. Um die Anzahl der möglichen Passphrasen zu berechnen, müssen wir nur Folgendes tun <math> <msup> <mtext>WörterInListe</mtext> <mtext>WörterInPhrase</mtext> </msup> </math>, oder in unserem Fall, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
 Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
@@ -98,7 +98,7 @@ On average, it takes trying 50% of all the possible combinations to guess your p
 
 </details>
 
-To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
+Zusammenfassend lässt sich sagen, dass Diceware-Passphrasen die beste Wahl sind, wenn du ein Passwort brauchst, das sowohl leicht zu merken *als auch* außergewöhnlich stark ist.
 
 ## Passwörter speichern
 
@@ -108,7 +108,7 @@ The best way to store your passwords is by using a password manager. They allow 
 
 There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[Empfohlene Passwort-Manager](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
