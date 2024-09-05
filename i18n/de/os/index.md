@@ -1,22 +1,22 @@
 ---
-title: Operating Systems
+title: Betriebssysteme
 ---
 
-We publish configuration guides for the major operating systems, because you can generally improve the amount of data that is collected about you on any option, especially if you use privacy tools like our [recommended web browsers](../desktop-browsers.md) in place of native tools where appropriate. However, some operating systems will be more privacy-respecting inherently, and it will be much harder to achieve an equivalent level of privacy on other choices.
+Wir veröffentlichen Konfigurationsleitfäden für die wichtigsten Betriebssysteme, da du im Allgemeinen die Menge der über dich gesammelten Daten bei jeder Option verbessern kannst, insbesondere wenn du Datenschutz-Tools wie unsere [empfohlenen Webbrowser](../desktop-browsers.md) anstelle von nativen Tools verwendest, wo dies angebracht ist. Einige Betriebssysteme sind jedoch von Natur aus datenschutzfreundlicher, und es wird sehr viel schwieriger sein, mit anderen Systemen ein gleichwertiges Maß an Privatsphäre zu erreichen.
 
-- [Recommended Linux Distros :material-arrow-right-drop-circle:](../desktop.md)
-- [Recommended Android Distros :material-arrow-right-drop-circle:](../android/distributions.md)
+- [Empfohlene Linux-Distributionen :material-arrow-right-drop-circle:](../desktop.md)
+- [Empfohlene Android-Distributionen :material-arrow-right-drop-circle:](../android/distributions.md)
 
-The articles marked with a :material-star: are our more mature articles.
+Die mit einem :material-star: gekennzeichneten Artikel sind unsere ausgereifteren Artikel.
 
-## Mobile Operating Systems
+## Mobile Betriebssysteme
 
-- [Android Overview](android-overview.md) :material-star:
-- [iOS Overview](ios-overview.md)
+- [Android-Übersicht](android-overview.md) :material-star:
+- [iOS-Übersicht](ios-overview.md)
 
-## Desktop Operating Systems
+## Desktop-Betriebssysteme
 
-- [Linux Overview](linux-overview.md) :material-star:
-- [macOS Overview](macos-overview.md)
-- [Qubes Overview](qubes-overview.md) :material-star:
-- [Windows Overview](windows/index.md)
+- [Linux-Übersicht](linux-overview.md) :material-star:
+- [macOS-Übersicht](macos-overview.md)
+- [Qubes-Übersicht](qubes-overview.md) :material-star:
+- [Windows-Übersicht](windows/index.md)

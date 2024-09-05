@@ -195,7 +195,7 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** ist der Standard-Browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari** ist der Standard-Browser in iOS. Es umfasst [Datenschutzfunktionen](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) wie [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Datenschutzbericht, isolierte und ephemere Private-Browsing-Tabs, Maßnahmen gegen Fingerprinting (indem Websites eine vereinfachte Version der Systemkonfiguration angezeigt wird, sodass mehrere Geräte identisch aussehen) und Private Relay für Nutzer:innen mit einem kostenpflichtigen iCloud+-Abonnement. Außerdem kannst du dein Browsing mit verschiedenen Profilen trennen und private Tabs mit deinen biometrischen Daten/PIN sperren.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Datenschutz" }
@@ -241,7 +241,7 @@ Der Datenschutzbericht ist über das Menü "Website-Einstellungen" zugänglich.
 
 - [ ] Deaktiviere **Datenschutzwahrende Werbungsmessung**
 
-Bei der Messung von Anzeigenklicks werden traditionell Tracking-Technologien eingesetzt, die die Privatsphäre der Nutzer verletzen. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+Bei der Messung von Anzeigenklicks werden traditionell Tracking-Technologien eingesetzt, die die Privatsphäre der Nutzer verletzen. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) ist eine WebKit-Funktion und ein vorgeschlagener Webstandard, der es Werbetreibenden ermöglichen soll, die Effektivität von Web-Kampagnen zu messen, ohne die Privatsphäre von Nutzern zu gefährden.
 
 Die Funktion hat an sich wenig Datenschutzbedenken. Du kannst sie zwar aktiviert lassen, aber die Tatsache, dass sie beim Privaten Surfen automatisch deaktiviert wird, ist unserer Meinung nach ein Indikator für die Deaktivierung der Funktion.
 

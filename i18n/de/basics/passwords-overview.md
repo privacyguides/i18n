@@ -1,7 +1,7 @@
 ---
-title: "Introduction to Passwords"
+title: "Einführung in Passwörter"
 icon: 'material/form-textbox-password'
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: Hier findest du einige Tipps und Tricks, wie du die sichersten Passwörter erstellen und deine Konten schützen kannst.
 ---
 
 Passwörter sind ein wesentlicher Bestandteil unseres täglichen digitalen Lebens. Wir nutzen sie, um unsere Konten, unsere Geräte und unsere Geheimnisse zu schützen. Obwohl sie oft das Einzige sind, was zwischen uns und Angreifenden steht, die es auf unsere privaten Daten abgesehen haben, wird nicht viel über sie nachgedacht, was oft dazu führt, dass Passwörter verwendet werden, die leicht zu erraten oder mit roher Gewalt heraus findbar sind.
@@ -10,75 +10,75 @@ Passwörter sind ein wesentlicher Bestandteil unseres täglichen digitalen Leben
 
 ### Verwendung einzigartiger Kennwörter
 
-Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+Stell dir vor, du meldest dich mit derselben E-Mail-Adresse und demselben Passwort bei mehreren Online-Diensten an. Wenn einer dieser Dienstleister böswillig ist oder sein Dienst ein Datenleck hat, das dein Passwort in einem unverschlüsselten Format preisgibt, müsste ein Angreifer nur die E-Mail und Passwort Kombination auf mehreren beliebten Diensten ausprobieren, bis er einen Treffer landet. Es spielt keine Rolle, wie stark dieses eine Passwort ist, weil der Angreifer es bereits hat.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+Dies wird als [Credential-Stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) bezeichnet und ist eine der häufigsten Methoden, mit denen deine Konten von Angreifern kompromittiert werden können. Um das zu vermeiden, stelle sicher, dass du ein Passwort nie zweimal benutzt.
 
 ### Verwendung zufällig generierter Passwörter
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+==Du solltest dich **nie** auf dich verlassen, um ein gutes Passwort zu finden.== Wir empfehlen die Verwendung von [zufällig generierten Passwörtern](#passwords) oder [Diceware Passphrasen](#diceware-passphrases) mit ausreichender Entropie zum Schutz deiner Konten und Geräte.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+Alle von uns [empfohlenen Passwort-Manager](../passwords.md) enthalten einen integrierten Passwort-Generator, den du verwenden kannst.
 
-### Rotating Passwords
+### Passwörter ändern
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+Passwörter, die du dir merken musst (z. B. das Master-Passwort deines Passwort-Managers), solltest du nicht zu oft ändern, es sei denn, du hast Grund zu der Annahme, dass es kompromittiert wurde, denn wenn du es zu oft änderst, besteht die Gefahr, dass du es vergisst.
 
 When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
+<p class="admonition-title">Nach Datenlecks suchen</p>
 
-If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+Wenn dein Passwort-Manager die Möglichkeit bietet, nach kompromittierten Passwörter zu suchen, solltest du dies unbedingt tun und umgehend alle Passwörter ändern, die bei einem Datenleck preisgegeben wurden. Alternativ könntest du den [Have I Been Pwned's Latest Breaches Feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) mit Hilfe eines [News-Aggregators](../news-aggregators.md) verfolgen.
 
 </div>
 
-## Creating strong passwords
+## Erstellung sicherer Passwörter
 
-### Passwords
+### Passwörter
 
 A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
 
 If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
 
-### Diceware Passphrases
+### Diceware Passphrasen
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+Diceware ist eine Methode zur Erstellung von Passphrasen, die leicht zu merken, aber schwer zu erraten sind.
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+Diceware-Passphrasen sind eine gute Option, wenn du dir deine Anmeldedaten merken oder manuell eingeben musst, z. B. für das Master-Passwort deines Passwortmanagers oder das Verschlüsselungspasswort deines Geräts.
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+Ein Beispiel für ein Diceware-Passwort ist `sichtbar Schnelligkeit zögerlich weich siebzehn gezeigt Bleistift`.
 
-To generate a diceware passphrase using real dice, follow these steps:
+Gehe wie folgt vor, um eine Diceware-Passphrase mit echten Würfeln zu erstellen:
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Anmerkung</p>
 
-These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other wordlists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+In dieser Anleitung wird davon ausgegangen, dass du die [EFF Large Wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) verwendest, um die Passphrase zu generieren, was fünf Würfelwürfe pro Wort erfordert. Andere Wortlisten können mehr oder weniger Würfe pro Wort erfordern und eine andere Anzahl von Wörtern benötigen, um die gleiche Entropie zu erreichen.
 
 </div>
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. Würfel fünfmal mit einem sechsseitigen Würfel und notiere dir die Zahl nach jedem Wurf.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. Nehmen wir zum Beispiel an, du hast `2-5-2-6-6` gewürfelt. Suche in [der großen Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) nach dem Wort, das `25266` entspricht.
 
-3. You will find the word `encrypt`. Write that word down.
+3. Du findest das Wort `encrypt`. Schreibe dieses Wort auf.
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. Wiederhole diesen Vorgang, bis deine Passphrase aus so vielen Wörtern wie nötig besteht, die du durch ein Leerzeichen trennen solltest.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Important</p>
+<p class="admonition-title">Wichtig</p>
 
-You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+Du solltest die Wörter **nicht** neu rollen bis du eine Kombination von Wörtern erhältst, die dich ansprechen. Der Prozess sollte völlig zufällig sein.
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+Wenn du keinen Zugang zu echten Würfeln hast oder es vorziehst, diesen nicht zu verwenden, kannst du den integrierten Passwortgenerator deines Passwort-Managers verwenden, da die meisten von ihnen die Option haben, zusätzlich zu den normalen Passwörtern auch Diceware-Passphrasen zu generieren.
 
-We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [other wordlists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+Wir empfehlen, die [große Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) zu verwenden, um deine Diceware-Passphrasen zu generieren, da sie genau die gleiche Sicherheit bietet wie die ursprüngliche Liste, aber Wörter enthält, die man sich leichter merken kann. Es gibt auch [andere Wortlisten in verschiedenen Sprachen](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), wenn du nicht willst, dass deine Passphrase auf Englisch ist ([hier findest du die deutsche Version](https://theworld.com/~reinhold/diceware_german.txt)).
 
 <details class="note" markdown>
-<summary>Explanation of entropy and strength of diceware passphrases</summary>
+<summary>Erläuterung von Entropie und der Stärke Diceware-Passphrasen</summary>
 
 To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
