@@ -198,20 +198,20 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 **Safari** ist der Standard-Browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Datenschutz" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Dokumentation}
 
 </details>
 
 </div>
 
-#### Recommended Safari Configuration
+#### Empfohlene Safari-Konfiguration
 
 Wir empfehlen die Installation von [AdGuard](browser-extensions.md#adguard) als Inhaltsblocker, wenn du Tracker in Safari blockieren möchtest.
 
 Die folgenden datenschutz- und sicherheitsrelevanten Optionen findest du in der App :gear: **Einstellungen** → **Safari**
 
-##### Profiles
+##### Profile
 
 Alle deine Cookies, dein Verlauf und deine Website-Daten werden für jedes Profil separat gespeichert. Du solltest verschiedene Profile für verschiedene Zwecke verwenden, z. B. Einkaufen, Arbeit oder Schule.
 
@@ -221,15 +221,15 @@ Alle deine Cookies, dein Verlauf und deine Website-Daten werden für jedes Profi
 
     Dies ermöglicht WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Die Funktion schützt vor unerwünschtem Tracking, indem sie maschinelles Lernen auf dem Gerät nutzt, um Tracker zu stoppen. Der verbesserte Schutz vor Aktivitätenverfolgung schützt vor vielen gängigen Bedrohungen, aber er blockiert nicht alle Tracking-Möglichkeiten, da er so konzipiert ist, dass die Benutzung der Webseite nicht oder nur minimal beeinträchtigt wird.
 
-- [x] Enable **Require Face ID to Unlock Private Browsing**
+- [x] Aktiviere **Face ID zum Entsperren von „Privates Surfen“ anfordern**
 
     Mit dieser Einstellung kannst du deine privaten Tabs bei Nichtgebrauch mit Biometrie/PIN sperren.
 
-##### Advanced → Privacy
+##### Erweitert → Datenschutz
 
-The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+Bei der Einstellung **Erweiterter Tracking- und Identifizierungsschutz** werden bestimmte Werte zufällig ausgewählt, sodass es schwieriger ist, deine Fingerabdrücke zu erkennen:
 
-- [x] Select **All Browsing** or **Private Browsing**
+- [x] Wähle **Beim Surfen immer** oder **Privates Surfen**
 
 ##### Datenschutzbericht
 
@@ -239,7 +239,7 @@ Der Datenschutzbericht ist über das Menü "Website-Einstellungen" zugänglich.
 
 ##### Datenschutzkonforme Werbemessung
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+- [ ] Deaktiviere **Datenschutzwahrende Werbungsmessung**
 
 Bei der Messung von Anzeigenklicks werden traditionell Tracking-Technologien eingesetzt, die die Privatsphäre der Nutzer verletzen. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
@@ -259,11 +259,11 @@ Beachte, dass Private Browsing keine Cookies und Website-Daten speichert, sodass
 
 Die Synchronisierung von Safari-Verlauf, Tab-Gruppen, iCloud-Tabs und gespeicherten Kennwörtern erfolgt über E2EE. Allerdings werden Lesezeichen standardmäßig [nicht](https://support.apple.com/HT202303) verschlüsselt. Apple kann sie entschlüsseln und in Übereinstimmung mit der [Datenschutzrichtlinie](https://apple.com/legal/privacy/en-ww) darauf zugreifen.
 
-Du kannst E2EE für deine Safari-Lesezeichen und Downloads aktivieren, indem du [Erweiterten Datenschutz](https://support.apple.com/de-de/108756) aktivierst. Go to your **Apple ID name → iCloud → Advanced Data Protection**.
+Du kannst E2EE für deine Safari-Lesezeichen und Downloads aktivieren, indem du [Erweiterten Datenschutz](https://support.apple.com/de-de/108756) aktivierst. Gehe zu deinem **Apple ID-Namen → iCloud → Erweiterter Datenschutz**.
 
-- [x] Turn On **Advanced Data Protection**
+- [x] Wähle **Erweiterten Datenschutz aktivieren**
 
-Wenn du iCloud mit deaktiviertem erweitertem Datenschutz verwendest, empfehlen wir auch zu überprüfen, ob der Standard-Ladeort von Safari auf Ihrem Gerät lokal eingestellt ist. This option can be found in :gear: **Settings** → **Safari** → **General** → **Downloads**.
+Wenn du iCloud mit deaktiviertem erweitertem Datenschutz verwendest, empfehlen wir auch zu überprüfen, ob der Standard-Ladeort von Safari auf deinem Gerät lokal eingestellt ist. Diese Option ist zu finden unter :gear: **Einstellungen** → **Safari** → **Allgemein** → **Downloads**.
 
 ## Kriterien
 
