@@ -90,8 +90,9 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 - [x] 在 **封鎖追蹤器與廣告** 下選擇 **積極**
 
 <details class="warning" markdown>
-<summary>使用預設過濾器列表</summary>
-Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+<summary>使用預設過濾器清單</summary>
+
+Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外的內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
 </details>
 

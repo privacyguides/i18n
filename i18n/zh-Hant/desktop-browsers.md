@@ -280,49 +280,50 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 - [x] 在 *追蹤器與廣告封鎖* 下選擇 **積極**。
 
 <details class="warning" markdown>
-<summary>使用預設過濾器列表</summary>
-Brave 可在內部 `brave://adblock`頁面中選擇其他內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+<summary>使用預設過濾器清單</summary>
+
+Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外的內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選清單。 使用額外的列表會讓您從其他 Brave 使用者中脫穎而出，如果 Brave 中有漏洞，而惡意規則被加入您使用的列表中，也可能會增加攻擊面。
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] 在 *升級連線至 HTTPS* 下選擇 **嚴格**
+- [x] (選擇性) 選擇 **封鎖指令碼** (1)
+- [x] 勾選 **封鎖指紋識別功能**
+- [x] 在*封鎖 Cookie* 選擇 **封鎖第三方 Cookie**
+- [x] 勾選 **當我關閉此網站時忘記我** (2)
+- [ ] 取消勾選所有社群媒體元件
 
 </div>
 
 1. 此選項提供的功能類似於 uBlock Origin 的進階[封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode)。
-2. 若想在經常造訪的特定站點保持登入，則可以透過網址列中的盾牌圖示來為每個站點設定例外。
+2. 如果您希望在經常造訪的特定網站保持登入狀態，您可以按一下位址列上的 Shield 圖示，以每個網站為基礎設定例外情況。
 
-#### Privacy and security
+#### 隱私權和安全性
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] 在 *安全性* → *管理 V8 安全性* 底下選擇**禁止網站使用 V8 最佳化工具** (1)
+- [x] 在 *網站與 Shields 設定* 下選擇 **自動移除未使用網站的權限**
+- [x] 在 [WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 下選擇 **停用非代理 UDP**
+- [ ] 取消勾選 **使用 Google 服務來推播訊息**
+- [x] 選取 **自動重新導向 AMP 頁面**
+- [x] 選取 **自動重新導向追蹤 URL**
+- [x] 選取 **根據我的語言偏好設定，防止網站識別我的指紋**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. 停用 V8 最佳化工具可減少您的攻擊面。 停用[*部分*](https://grapheneos.social/@GrapheneOS/112708049232710156) JavaScript 即時 (JIT) 編譯的某些部分，從而降低您的攻擊面。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">離開時清除資料</p>
 
-- [x] Select **Delete data sites have saved to your device when you close all windows** under *Sites and Shields Settings* → *Content* → *Additional content settings* → *On-device site data*.
+- [x] 在*網站與 Shields 設定* → *內容* → *其他內容設定* → *網站在裝置端的資料* 底下選擇**在所有視窗關閉後刪除網站儲存到裝置的資料**。
 
 如果希望在經常訪問的特定網站上保持登入，可在「自訂設定」部分下針對每個網站設定例外。
 
 </div>
 
-##### Tor windows
+##### Tor 視窗
 
 [**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
