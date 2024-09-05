@@ -1,18 +1,18 @@
 ---
 meta_title: The Best Custom Android OSes (aka Custom ROMs) - Privacy Guides
-title: Alternative Distributions
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+title: Alternative Distributionen
+description: Du kannst das Betriebssystem deines Android-Handys mit diesen sicheren und Privatsphäre-freundlichen Alternativen ersetzen.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: Private Android-Betriebssysteme
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
-    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    sameAs: https://de.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -22,7 +22,7 @@ schema:
     name: Divest
     image: /assets/img/android/divestos.svg
     url: https://divestos.org/
-    sameAs: https://en.wikipedia.org/wiki/DivestOS
+    sameAs: https://de.wikipedia.org/wiki/DivestOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -30,7 +30,7 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Angriffe](../basics/common-threats.md#security-and-privacy){ .pg-orange }
@@ -39,24 +39,24 @@ A **custom Android-based operating system** (often known as a **custom ROM**) is
 
 We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
-## AOSP Derivatives
+## AOSP-Derivate
 
 ### GrapheneOS
 
 <div class="admonition recommendation" markdown>
 
-![GrapheneOS logo](../assets/img/android/grapheneos.svg#only-light){ align=right }
-![GrapheneOS logo](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+![GrapheneOS-Logo](../assets/img/android/grapheneos.svg#only-light){ align=right }
+![GrapheneOS-Logo](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
 
-**GrapheneOS** is the best choice when it comes to privacy and security.
+**GrapheneOS** ist die beste Wahl, wenn es um Datenschutz und Sicherheit geht.
 
 GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_\(computing\)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
 
 [:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Spenden }
 
 </div>
 
@@ -70,21 +70,21 @@ GrapheneOS provides the option to switch back to connecting to Google's servers 
 
 ### DivestOS
 
-If GrapheneOS isn't compatible with your phone, DivestOS is a good alternative. It supports a wide variety of phones with _varying_ levels of security protections and quality control.
+Wenn GrapheneOS nicht mit deinem Handy kompatibel ist, ist DivestOS eine gute Alternative. Es unterstützt eine Vielzahl von Telefonen mit _unterschiedlichen_ Sicherheitsstufen und Qualitätskontrollen.
 
 <div class="admonition recommendation" markdown>
 
-![DivestOS logo](../assets/img/android/divestos.svg){ align=right }
+![DivestOS-Logo](../assets/img/android/divestos.svg){ align=right }
 
-**DivestOS** is a soft-fork of [LineageOS](https://lineageos.org).
-DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices\&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](../os/android-overview.md#verified-boot) on some non-Pixel devices. Not all supported devices support verified boot or other security features.
+**DivestOS** ist ein Soft-Fork von [LineageOS](https://lineageos.org).
+DivestOS erbt viele [unterstützte Geräte](https://divestos.org/index.php?page=devices\&base=LineageOS) von LineageOS. It has signed builds, making it possible to have [verified boot](../os/android-overview.md#verified-boot) on some non-Pixel devices. Not all supported devices support verified boot or other security features.
 
 [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title="Spenden" }
 
 </div>
 
@@ -100,11 +100,11 @@ DivestOS uses F-Droid as its default app store. We normally [recommend avoiding 
 
 DivestOS replaces many of Android's background network connections to Google services with alternative services, such as using OpenEUICC for eSIM activation, NTP.org for network time, and Quad9 for DNS. These connections can be modified, but their deviation from a standard Android phone's network connections could mean it is easier for an adversary on your network to deduce what operating system you have installed on your phone. If this is a concern to you, consider using a [trusted VPN](../vpn.md) and enabling the native VPN [kill switch](../os/android-overview.md#vpn-killswitch) to hide this network traffic from your local network and ISP.
 
-## Criteria
+## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu [unseren Standardkriterien](../about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
-- Must be open-source software.
+- Es muss sich um Open-Source Software handeln.
 - Must support bootloader locking with custom AVB key support.
 - Must receive major Android updates within 0-1 months of release.
 - Must receive Android feature updates (minor version) within 0-14 days of release.

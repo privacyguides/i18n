@@ -16,21 +16,21 @@ schema:
             Ob der Quellcode verfügbar ist und wie die Software lizenziert wird, hat erstmal keinen Einfluss auf ihre Sicherheit. Open-Source-Software hat das Potenzial, sicherer zu sein als proprietäre Software, aber es gibt absolut keine Garantie dafür, dass dies der Fall ist. Bei der Bewertung von Software sollten Sie den Ruf und die Sicherheit jedes einzelnen Tools berücksichtigen.
       - 
         "@type": Question
-        name: Can shifting trust to another provider increase privacy?
+        name: Kann die Verlagerung von Vertrauen auf einen anderen Anbieter die Privatsphäre erhöhen?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+            Bei Lösungen wie VPNs (bei denen das Vertrauen in den Internetanbieter auf den VPN-Anbieter übertragen wird) sprechen wir häufig von „Vertrauensverlagerung“. Dies schützt deine Surfverhalten zwar vor deinem Internetanbieter, aber der von dir gewählte VPN-Anbieter hat immer noch Zugriff auf deine Surfdaten: Deine Daten sind nicht vollständig vor allen Parteien geschützt.
       - 
         "@type": Question
-        name: Are privacy-focused solutions inherently trustworthy?
+        name: Sind auf Datenschutz ausgerichtete Lösungen von Natur aus vertrauenswürdig?
         acceptedAnswer:
           "@type": Answer
           text: |
             Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
       - 
         "@type": Question
-        name: How complicated should my threat model be?
+        name: Wie kompliziert sollte mein Bedrohungsmodell sein?
         acceptedAnswer:
           "@type": Answer
           text: |
@@ -38,7 +38,7 @@ schema:
             Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience.
 ---
 
-## "Open-source software is always secure" or "Proprietary software is more secure"
+## „Open-Source-Software ist immer sicher“oder „Proprietäre Software ist sicherer“
 
 These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
 
@@ -48,30 +48,30 @@ On the flip side, proprietary software is less transparent, but that doesn't imp
 
 To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
 
-## "Shifting trust can increase privacy"
+## „Die Verlagerung von Vertrauen kann die Privatsphäre stärken“
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+Bei Lösungen wie VPNs (bei denen das Vertrauen in den Internetanbieter auf den VPN-Anbieter übertragen wird) sprechen wir häufig von „Vertrauensverlagerung“. Dies schützt deine Surfverhalten zwar *speziell* vor deinem Internetanbieter, aber der von dir gewählte VPN-Anbieter hat immer noch Zugriff auf deine Surfdaten: Deine Daten sind nicht vollständig vor allen Parteien geschützt. Das bedeutet:
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. Bei der Auswahl eines Anbieters, dem du dein Vertrauen schenkst, musst du Vorsicht walten lassen.
+2. Du solltest trotzdem andere Techniken wie E2EE verwenden, um deine Daten vollständig zu schützen. Einem Anbieter zu misstrauen, um einem anderen zu vertrauen, bedeutet nicht, deine Daten zu sichern.
 
-## "Privacy-focused solutions are inherently trustworthy"
+## „Auf den Datenschutz ausgerichtete Lösungen sind von Natur aus vertrauenswürdig“
 
 Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
 
 The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
 
-## "Complicated is better"
+## „Kompliziert ist besser“
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+Oft sehen wir Menschen, die Bedrohungsmodelle für Privatsphäre beschreiben, die übermäßig komplex sind. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
 
 Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
 
-1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
-2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily de-anonymized by a simple oversight.
+1. ==Aktionen müssen einem bestimmten Zweck dienen:== Überlege dir, wie du dein Ziel mit möglichst wenigen Aktionen erreichen kannst.
+2. ==Beseitige menschliche Schwachstellen:== Wir versagen, werden müde und vergessen Dinge. Um Sicherheit zu gewährleisten, solltest du dich nicht auf manuelle Bedingungen und Prozesse verlassen, die du dir merken musst.
+3. ==Wähle das richtige Maß an Schutz für das, was du beabsichtigst.== Wir sehen oft Empfehlungen für sogenannte gesetzeskonforme oder vorladungssichere Lösungen. Diese erfordern oft Fachwissen und sind im Allgemeinen nicht das, was die Meisten wollen. Es macht keinen Sinn, ein kompliziertes Bedrohungsmodell für Anonymität zu entwickeln, wenn man durch ein einfaches Versehen de-anonymisiert werden kann.
 
-So, how might this look?
+Wie könnte das also aussehen?
 
 One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
 

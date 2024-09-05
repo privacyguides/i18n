@@ -1,12 +1,12 @@
 ---
 title: Mobiltelefone
 icon: material/cellphone-check
-description: These mobile devices have proper Android Verified Boot support for custom operating systems.
+description: Diese Handys verfügen über eine geeignete Android Verified Boot-Unterstützung für benutzerdefinierte Betriebssysteme.
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Mobile Phone Recommendations
+    name: Empfehlungen für Mobiltelefone
     url: ./
   - "@context": http://schema.org
     "@type": Product
@@ -15,7 +15,7 @@ schema:
       "@type": Brand
       name: Google
     image: /assets/img/android/google-pixel.png
-    sameAs: https://en.wikipedia.org/wiki/Google_Pixel
+    sameAs: https://de.wikipedia.org/wiki/Google_Pixel
     review:
       "@type": Review
       author:
@@ -24,7 +24,7 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Angriffe](basics/common-threats.md#security-and-privacy){ .pg-orange }
@@ -33,7 +33,7 @@ Most **mobile phones** receive short or limited windows of security updates from
 
 The mobile devices listed here provide a long lifespan of guaranteed security updates and allow you to install a custom operating system without violating the Android security model.
 
-[Recommended Custom OSes :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[Empfohlene Custom ROMs :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details zur Android-Sicherheit :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>
@@ -42,7 +42,7 @@ End-of-life devices (such as GrapheneOS's "extended support" devices) do not hav
 
 </div>
 
-## Purchasing Advice
+## Kauf-Hinweis
 
 When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
 
@@ -58,15 +58,15 @@ A few more tips regarding Android devices and operating system compatibility:
 
 ## Google Pixel
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+Google Pixel-Handys sind die **einzigen** Geräte, die wir zum Kauf empfehlen. Pixel-Telefone verfügen über eine stärkere Hardwaresicherheit als alle anderen Android-Geräte, die derzeit auf dem Markt sind. Dies ist auf die ordnungsgemäße AVB-Unterstützung für Betriebssysteme von Drittanbietern und die eigenen [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) Sicherheitschips von Google zurückzuführen, die als Secure Element fungieren.
 
 <div class="admonition recommendation" markdown>
 
 ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
 
-**Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
+**Google Pixel**-Geräte sind dafür bekannt, dass sie über eine gute Sicherheit verfügen und [Verified Boot](https://source.android.com/security/verifiedboot) ordnungsgemäß unterstützen, selbst wenn sie benutzerdefinierte Betriebssysteme installiert haben.
 
-Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+Ab dem **Pixel 8** und **8 Pro** erhalten Pixel-Geräte mindestens 7 Jahre lang garantierte Sicherheitsupdates, was im Vergleich zu den 2-5 Jahren, die konkurrierende OEMs üblicherweise anbieten, eine viel längere Lebensdauer gewährleistet.
 
 [:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
@@ -78,20 +78,20 @@ Google Pixel phones use a TEE OS called Trusty which is [open source](https://so
 
 The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
 
-A few more tips for purchasing a Google Pixel:
+Ein paar weitere Tipps für den Kauf eines Google Pixel:
 
-- If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
+- Wenn du ein Schnäppchen bei einem Pixel-Gerät machen möchtest, empfehlen wir dir, ein „**a**“-Modell zu kaufen, kurz nachdem das nächste Flaggschiff veröffentlicht wurde. Meist gibt es dann Rabatte, weil Google versucht, seine Bestände zu räumen.
 - Consider price beating options and specials offered at physical stores.
 - Look at online community bargain sites in your country. These can alert you to good sales.
 - Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
   , meaning that the longer use of the device the lower cost per day.
-- If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
+- Auch wenn das Pixel in deiner Region nicht verfügbar ist, kann das [NitroPhone](https://shop.nitrokey.com/shop) weltweit versendet werden.
 
-## Criteria
+## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu [unseren Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
-- Must support at least one of our recommended custom operating systems.
-- Must be currently sold new in stores.
-- Must receive a minimum of 5 years of security updates.
+- Muss mindestens eines der von uns empfohlenen benutzerdefinierten Betriebssysteme unterstützen.
+- Muss derzeit neu im Handel erhältlich sein.
+- Muss mindestens 5 Jahre lang Sicherheitsupdates erhalten.
 - Must have dedicated secure element hardware.
