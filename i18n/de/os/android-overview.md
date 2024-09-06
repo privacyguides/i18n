@@ -10,10 +10,10 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 Das **Android Open-Source Project** ist ein sicheres mobiles Betriebssystem mit starkem [App-Sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB) und einem robusten [Berechtigungskontrollsystem](https://developer.android.com/guide/topics/permissions/overview).
 
 [:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Quellcode" }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
+[Unsere Android-Empfehlungen :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Sicherheitsmaßnahmen
 
@@ -23,17 +23,17 @@ Zu den Schlüsselkomponenten des Android-Sicherheitsmodells gehören [Verified B
 
 [**Verified Boot**](https://source.android.com/security/verifiedboot) ist ein elementarer Bestandteil des Android-Sicherheitsmodells. Es bietet Schutz vor [Evil Maid Angriffen](https://en.wikipedia.org/wiki/Evil_maid_attack), Malware-Persistenz und stellt sicher, dass Sicherheitsupdates nicht durch [Rollback-Schutz](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection) herbagestuft werden können.
 
-Android 10 and above has moved away from full-disk encryption to more flexible [file-based encryption](https://source.android.com/security/encryption/file-based). Your data is encrypted using unique encryption keys, and the operating system files are left unencrypted.
+Android 10 und höher hat sich von der Festplattenverschlüsselung hin zu einer flexibleren [dateibasierten Verschlüsselung](https://source.android.com/security/encryption/file-based) entwickelt. Deine Daten werden mit eindeutigen Verschlüsselungsschlüsseln verschlüsselt, während die Betriebssystemdateien unverschlüsselt bleiben.
 
-Verified Boot ensures the integrity of the operating system files, thereby preventing an adversary with physical access from tampering or installing malware on the device. In the unlikely case that malware is able to exploit other parts of the system and gain higher privileged access, Verified Boot will prevent and revert changes to the system partition upon rebooting the device.
+Verified Boot stellt die Integrität der Betriebssystemdateien sicher und verhindert so, dass ein Angreifer mit physischem Zugriff das Gerät manipulieren oder Malware installieren kann. Für den unwahrscheinlichen Fall, dass Malware in der Lage ist, andere Teile des Systems auszunutzen und höhere Privilegien zu erlangen, verhindert Verified Boot Änderungen an der Systempartition und macht sie beim Neustart des Geräts rückgängig.
 
-Unfortunately, OEMs are only obliged to support Verified Boot on their stock Android distribution. Only a few OEMs such as Google support custom AVB key enrollment on their devices. Additionally, some AOSP derivatives such as LineageOS or /e/ OS do not support Verified Boot even on hardware with Verified Boot support for third-party operating systems. We recommend that you check for support **before** purchasing a new device. AOSP derivatives which do not support Verified Boot are **not** recommended.
+Leider sind die OEMs nur verpflichtet, Verified Boot auf ihrer Android-Distribution zu unterstützen. Nur wenige OEMs wie Google unterstützen die benutzerdefinierte AVB-Schlüsselregistrierung auf ihren Geräten. Außerdem unterstützen einige AOSP-Derivate wie LineageOS oder /e/ OS Verified Boot nicht, selbst auf Hardware mit Verified Boot-Unterstützung für Betriebssysteme von Drittanbietern. We recommend that you check for support **before** purchasing a new device. AOSP derivatives which do not support Verified Boot are **not** recommended.
 
 Many OEMs also have broken implementation of Verified Boot that you have to be aware of beyond their marketing. For example, the Fairphone 3 and 4 are not secure by default, as the [stock bootloader trusts the public AVB signing key](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
 
-### Firmware Updates
+### Firmware-Updates
 
-**Firmware updates** are critical for maintaining security and without them your device cannot be secure. OEMs have support agreements with their partners to provide the closed-source components for a limited support period. These are detailed in the monthly [Android Security Bulletins](https://source.android.com/security/bulletin).
+**Firmware-Updates** sind entscheidend für die Aufrechterhaltung der Sicherheit, und ohne sie ist dein Gerät nicht sicher. OEMs haben Unterstützungsvereinbarungen mit ihren Partnern, um die Closed-Sourced-Komponenten für einen begrenzten Zeitraum zur Verfügung zu stellen. These are detailed in the monthly [Android Security Bulletins](https://source.android.com/security/bulletin).
 
 As the components of the phone, such as the processor and radio technologies rely on closed-source components, the updates must be provided by the respective manufacturers. Therefore, it is important that you purchase a device within an active support cycle. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
@@ -82,21 +82,21 @@ If an app is mostly a web-based service, the tracking may occur on the server si
 </div>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Anmerkung</p>
 
-Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). This library includes [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) which can provide [push notifications](https://en.wikipedia.org/wiki/Push_technology) in apps. This [is the case](https://fosstodon.org/@bitwarden/109636825700482007) with Bitwarden. That doesn't mean that Bitwarden is using all of the analytics features that are provided by Google Firebase Analytics.
+Datenschutzfreundliche Anwendungen wie [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) können einige Tracker wie [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49) anzeigen. Diese Bibliothek enthält [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging), das [Push-Benachrichtigungen](https://en.wikipedia.org/wiki/Push_technology) in Anwendungen bereitstellen kann. Dies [ist der Fall](https://fosstodon.org/@bitwarden/109636825700482007) bei Bitwarden. Das bedeutet nicht, dass Bitwarden alle von Google Firebase Analytics bereitgestellten Analysefunktionen nutzt.
 
 </div>
 
-## Privacy Features
+## Datenschutz-Funktionen
 
-### User Profiles
+### Benutzerprofile
 
-Multiple user profiles can be found in **Settings** → **System** → **Multiple users** and are the simplest way to isolate in Android.
+Mehrere Benutzerprofile finden Sie unter **Einstellungen** → **System** → **Mehrere Benutzer** und sind der einfachste Weg, für Isolierung in Android.
 
 With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps on the device. Each profile is encrypted using its own encryption key and cannot access the data of any other profiles. Even the device owner cannot view the data of other profiles without knowing their password. Multiple user profiles are a more secure method of isolation.
 
-### Work Profile
+### Arbeits-Profil
 
 [Work Profiles](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 

@@ -38,7 +38,7 @@ Note that disabling the Windows Customer Experience Improvement Program also dis
 - Allow publishing of User Activities: **Disabled**
 - Allow upload of User Activities: **Disabled**
 
-#### User Profiles
+#### Benutzerprofile
 
 - Turn off the advertising ID: **Enabled**
 
