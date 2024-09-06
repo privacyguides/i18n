@@ -1,5 +1,5 @@
 ---
-title: About Privacy Guides
+title: Über Privacy Guides
 description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
@@ -25,7 +25,7 @@ schema:
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 
-## Staff
+## Team
 
 [**Jonah Aragon**](https://www.jonaharagon.com) is the Project Director and staff writer at _Privacy Guides_. His role includes researching and writing for this website, system administration, creating _Privacy Guides Online Learning_ course content, reviewing the products recommended here, and most other day-to-day tasks.
 
@@ -116,7 +116,7 @@ The project executive committee consists of five volunteers charged with managem
 
 </div>
 
-## Volunteer Team
+## Freiwilligen-Team
 
 A number of other contributors have volunteered their time to review and approve changes to this website, and keep the website up to date. Changes require 2+ approvals from team members before they can be merged. In addition to the executive committee members above, volunteers [trusted](https://github.com/orgs/privacyguides/people) to review pull requests include:
 
@@ -134,7 +134,7 @@ Additionally, [many other people](about/contributors.md) have made contributions
 
 Our team members review all changes made to the website and direct the course of the project as a whole. They do not personally profit from any contributions made to this site. Donations to Privacy Guides are generally tax-deductible in the United States.
 
-## In The Media
+## In den Medien
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
@@ -144,9 +144,9 @@ Our team members review all changes made to the website and direct the course of
 
 — [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022) and [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again).
+Auch vorgestellt auf: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022) und [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again).
 
-## History
+## Geschichte
 
 Privacy Guides was launched in September 2021 as a continuation of the [defunct](about/privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
 
@@ -156,14 +156,14 @@ We additionally launched our new discussion forum at [discuss.privacyguides.net]
 
 In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr/), [Hebrew](https://www.privacyguides.org/he/), [Dutch](https://www.privacyguides.org/nl/), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
 
-## Site License
+## Website-Lizenz
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
+Das Folgende ist eine menschenlesbare Zusammenfassung (und kein Ersatz für) die [Lizenz](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Sofern nicht anders angegeben, werden die Originalinhalte dieser Website unter der [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) zur Verfügung gestellt. Das bedeutet, dass dir das Material in jedem Medium oder Format für jeden Zweck, auch für kommerzielle Zwecke, vervielfältigen und weitergeben darfst, solange du in angemessener Weise auf `Privacy Guides (www.privacyguides.org)` hinweisest und deine Arbeit unter derselben Lizenz weitergibst.
 
-You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
+Du kannst diese Bedingungen auf jede angemessene Weise einhalten, aber nicht auf eine Weise, die suggeriert, dass Privacy Guides dich oder deine Nutzung unterstützt.

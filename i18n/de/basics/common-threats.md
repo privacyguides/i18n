@@ -69,7 +69,7 @@ Sicherheit und Datenschutz werden auch oft verwechselt, weil man Sicherheit brau
 
 Wenn es um die Sicherheit von Anwendungen geht, wissen wir in der Regel nicht (und können auch manchmal gar nicht wissen), ob die von uns verwendete Software bösartig ist oder eines Tages bösartig werden könnte. Selbst bei den vertrauenswürdigsten Entwicklern gibt es im Allgemeinen keine Garantie dafür, dass ihre Software nicht eine schwerwiegende Sicherheitslücke aufweist, die später ausgenutzt werden könnte.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. Dies kann zum Beispiel durch die Verwendung verschiedener Computer für verschiedene Aufgaben, durch die Verwendung virtueller Maschinen zur Trennung verschiedener Gruppen zusammengehöriger Anwendungen oder durch die Verwendung eines sicheren Betriebssystems mit Schwerpunkt auf Anwendungs-Sandboxing und obligatorischer Zugriffskontrolle geschehen.
+Um den Schaden, den eine bösartige Software anrichten *könnte*, zu minimieren, solltest du Sicherheit durch Kompartimentalisierung (Abschottung/Isolierung bestimmter Bereiche) einsetzen. Dies kann zum Beispiel durch die Verwendung verschiedener Computer für verschiedene Aufgaben, durch die Verwendung virtueller Maschinen zur Trennung verschiedener Gruppen zusammengehöriger Anwendungen oder durch die Verwendung eines sicheren Betriebssystems mit Schwerpunkt auf Anwendungs-Sandboxing und obligatorischer Zugriffskontrolle geschehen.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>
@@ -135,7 +135,7 @@ Glücklicherweise kann E2EE dieses Problem lindern, indem es die Kommunikation z
 <div class="admonition note" markdown>
 <p class="admonition-title">Hinweis zur webbasierten Verschlüsselung</p>
 
-In der Praxis ist die Effektivität der verschiedenen E2EE-Implementierungen unterschiedlich. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+In der Praxis ist die Effektivität der verschiedenen E2EE-Implementierungen unterschiedlich. Anwendungen wie [Signal](../real-time-communication.md#signal) werden nativ auf deinem Gerät ausgeführt, und jede Kopie der Anwendung ist bei verschiedenen Installationen identisch. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
 
 On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
 
@@ -149,7 +149,7 @@ Even with E2EE, service providers can still profile you based on **metadata**, w
 
 <span class="pg-blue">:material-eye-outline: Massenüberwachung</span>
 
-Unter Massenüberwachung versteht man die aufwändige Überwachung des "Verhaltens, vieler Aktivitäten oder Informationen" einer gesamten Bevölkerung (oder eines wesentlichen Teils davon).[^1] Der Begriff bezieht sich häufig auf Regierungsprogramme, wie die [von Edward Snowden im Jahr 2013 enthüllten](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)) Programme. However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+Unter Massenüberwachung versteht man die aufwändige Überwachung des "Verhaltens, vieler Aktivitäten oder Informationen" einer gesamten Bevölkerung (oder eines wesentlichen Teils davon).[^1] Der Begriff bezieht sich häufig auf Regierungsprogramme, wie die [von Edward Snowden im Jahr 2013 enthüllten](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)) Programme. Sie kann aber auch von Unternehmen durchgeführt werden, entweder im Auftrag von Regierungsbehörden oder auf eigene Initiative.
 
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas der Überwachung</p>
@@ -189,7 +189,7 @@ Wenn du über Massenüberwachungsprogramme besorgt bist, kannst du Strategien an
 
 Für viele Menschen ist die Verfolgung und Überwachung durch private Unternehmen eine wachsende Sorge. Weit verbreitete Werbenetzwerke, wie die von Google und Facebook betriebenen, umspannen das Internet weit über die von ihnen kontrollierten Websites hinaus und verfolgen dabei deine Handlungen. Der Einsatz von Tools wie Content-Blockern zur Begrenzung der Netzwerkanfragen an ihre Server und das Lesen der Datenschutzrichtlinien der von dir genutzten Dienste kann dir helfen, viele einfache Angriffe zu vermeiden (auch wenn dies das Tracking nicht vollständig verhindern kann).[^4]
 
-Darüber hinaus können auch Unternehmen außerhalb der *AdTech-* oder Tracking-Branche deine Informationen an [Datenmakler](https://en.wikipedia.org/wiki/Information_broker) (wie Cambridge Analytica, Experian oder Datalogix) oder andere Parteien weitergeben. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+Darüber hinaus können auch Unternehmen außerhalb der *AdTech-* oder Tracking-Branche deine Informationen an [Datenmakler](https://en.wikipedia.org/wiki/Information_broker) (wie Cambridge Analytica, Experian oder Datalogix) oder andere Parteien weitergeben. Du kannst nicht automatisch annehmen, dass deine Daten sicher sind, nur weil der Dienst, den du verwendest, nicht zum typischen AdTech- oder Tracking-Geschäftsmodell gehört. Der stärkste Schutz vor der Datensammlung durch Unternehmen ist es, deine Daten zu verschlüsseln oder zu verschleiern, wann immer möglich, um es verschiedenen Anbietern schwer zu machen, Daten miteinander zu korrelieren und ein Profil über dich zu erstellen.
 
 ## Einschränkung der öffentlichen Information
 
@@ -207,22 +207,22 @@ Wenn du deine echten Daten bereits an Websites weitergegeben haben, die sie nich
 
 <span class="pg-blue-gray">:material-close-outline: Zensur</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+Zensur im Internet kann (in unterschiedlichem Ausmaß) von Akteuren wie totalitären Regierungen, Netzwerkadministratoren und Dienstleistern durchgeführt werden. Diese Bemühungen, die Kommunikation zu kontrollieren und den Zugang zu Informationen einzuschränken, sind immer unvereinbar mit dem Menschenrecht auf Meinungsfreiheit.[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+Zensur auf unternehmerisch Plattformen ist zunehmend häufiger anzutreffen, da Plattformen wie Twitter und Facebook auf öffentlichen Druck, Marktdruck und Druck von Regierungsbehörden reagieren. Regierungsdruck kann sich in verdeckten Anfragen an Unternehmen äußern, wie zum Beispiel die Bitte des Weißen Hauses, ein provokatives YouTube-Video [zu entfernen](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html), oder offen, wie die chinesische Regierung, die Unternehmen auffordert, einem strengen Zensurregime zu folgen.
 
 Personen, die sich Sorgen um Zensur machen, können Technologien wie [Tor](../advanced/tor-overview.md) nutzen, um diese zu umgehen, und Zensur-resistente Kommunikationsplattformen wie [Matrix](../real-time-communication.md#element) unterstützen, die keine zentralisierte Kontrollinstanz haben, die Konten willkürlich schließen kann.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>
 
-While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+Während das Umgehen von Zensur selbst einfach sein kann, kann es sehr problematisch sein, die Tatsache zu verbergen, dass man es tut.
 
-You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+Du solltest berücksichtigen, welche Aspekte des Netzwerks dein Gegner beobachten kann und ob dir eine glaubhafte Abstreitbarkeit (plausible deniability) für deine Handlungen möglich ist. Zum Beispiel kann die Verwendung von [verschlüsseltem DNS](../advanced/dns-overview.md#what-is-encrypted-dns) dir helfen, primitive, DNS-basierte Zensursysteme zu umgehen, aber es kann nicht wirklich vor deinem Internetanbieter verbergen, welche Seiten du besuchst. Ein VPN oder Tor kann dabei helfen, vor den Netzwerkadministratoren zu verbergen, was du besuchst, aber es kann nicht verbergen, dass du diese Netzwerke überhaupt benutzen. Pluggable Transporte (wie Obfs4proxy, Meek oder Shadowsocks) können dir helfen, Firewalls zu umgehen, die gängige VPN-Protokolle oder Tor blockieren, aber deine Umgehungsversuche können immer noch durch Methoden wie Sondierung oder [Deep Packet Inspection](https://de.wikipedia.org/wiki/Deep_Packet_Inspection) entdeckt werden.
 
 </div>
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+Du musst immer die Risiken berücksichtigen, die mit dem Umgehen von Zensur verbunden sind, die möglichen Konsequenzen und den Grad der Raffinesse deines Gegners. Du solltest vorsichtig bei der Auswahl deiner Software sein und einen Notfallplan haben, falls du erwischt wirst.
 
 [^1]: Wikipedia: [*Massenüberwachungen*](https://en.wikipedia.org/wiki/Mass_surveillance) und [*Überwachung*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)

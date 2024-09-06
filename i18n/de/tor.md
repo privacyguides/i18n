@@ -23,7 +23,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 - [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
@@ -40,11 +40,11 @@ Bevor du dich mit Tor verbindest, stelle bitte sicher, dass du unsere in unserer
 
 </div>
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
+Es gibt eine Vielzahl von Möglichkeiten, sich von deinem Gerät aus mit dem Tor-Netzwerk zu verbinden. Die am häufigsten genutzte ist der **Tor Browser**, ein Fork (Abwandlung) von Firefox, der für [:material-incognito: anonymes](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} Surfen für Desktop-Computer und für Android entwickelt wurde.
 
 Einige dieser Anwendungen sind besser als andere, und auch hier hängt die Entscheidung von deinem Bedrohungsmodell ab. Wenn du ein gelegentlicher Tor-Benutzer bist, der sich keine Sorgen darüber macht, dass dein Internetanbieter Beweise gegen dich sammelt, ist es wahrscheinlich in Ordnung, Anwendungen wie [Orbot](#orbot) oder mobile Browseranwendungen zu benutzen, um auf das Tor-Netzwerk zuzugreifen. Wenn mehr Menschen regelmäßig Tor nutzen, hilft das, das schlechte Stigma von Tor zu verringern und senkt zudem die Qualität der "Listen von Tor-Nutzern", die ISPs und Regierungen erstellen können.
 
-Wenn du Wert auf vollständige Anonymität legst, solltest du **ausschließlich** den Tor-Browser-Client verwenden, idealerweise in einer Kombination aus [Whonix](desktop.md#whonix) und [Qubes](desktop.md#qubes-os). Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against de-anonymization.
+Wenn du Wert auf vollständige Anonymität legst, solltest du **ausschließlich** den Tor-Browser-Client verwenden, idealerweise in einer Kombination aus [Whonix](desktop.md#whonix) und [Qubes](desktop.md#qubes-os). Mobile Browser sind bei Tor weniger verbreitet (daher mehr anfällig für Fingerprinting). Außerdem sind diese Konfigurationen nicht so gründlich gegen Deanonymisierung getestet.
 
 ## Tor Browser
 
