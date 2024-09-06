@@ -1,16 +1,16 @@
 ---
-title: Choosing Your Hardware
+title: Hardware auswählen
 icon: material/chip
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: Software ist nicht alles, was zählt. Informiere dich über die Hardware-Tools, die du täglich zum Schutz deiner Daten verwendest.
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+Wenn es um Diskussionen über die Privatsphäre geht, wird oft nicht so viel über Hardware nachgedacht wie über die Software, die wir verwenden. Deine Hardware sollte als Fundament betrachtet werden, auf dem du den Rest deiner Datenschutzeinrichtung aufbaust.
 
-## Picking a Computer
+## Auswahl eines Computers
 
 The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
 
-### Hardware Security Programs
+### Hardware-Sicherheitsprogramme
 
 Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
 
@@ -21,11 +21,11 @@ Some devices will have a "hardware security program", which is a collaboration b
 
 Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
 
-### Preinstalled OS
+### Vorinstallierte Betriebssysteme
 
 New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
-### Firmware Updates
+### Firmware-Updates
 
 Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
 
@@ -38,13 +38,13 @@ If you build your own PC, you may need to manually update your motherboard's fir
 Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Anmerkung</p>
 
 Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
 
 </div>
 
-### Biometrics
+### Biometrie
 
 Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
 
@@ -61,13 +61,13 @@ Some devices do not have the proper hardware for secure face authentication. The
 
 Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
 
-### Device Encryption
+### Geräteverschlüsselung
 
 If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
 
 This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
 
-## External Hardware
+## Externe Geräte
 
 Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
 
@@ -77,7 +77,7 @@ Hardware keys are devices that use strong cryptography to authenticate you to a 
 
 [Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### Kamera/Mikrofon
 
 If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
 

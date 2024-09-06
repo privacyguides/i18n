@@ -1,5 +1,5 @@
 ---
-title: "Qubes Overview"
+title: "Qubes Übersicht"
 icon: simple/qubesos
 description: Qubes is an operating system built around isolating apps within *qubes* (formerly "VMs") for heightened security.
 ---
@@ -25,13 +25,13 @@ Each qube has a [colored border](https://qubes-os.org/screenshots) that can help
 ![Colored border](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
 
-## Why Should I use Qubes?
+## Warum sollte ich Qubes verwenden?
 
 Qubes OS is useful if your [threat model](../basics/threat-modeling.md) requires strong security and isolation, such as if you think you'll be opening untrusted files from untrusted sources. A typical reason for using Qubes OS is to open documents from unknown sources, but the idea is that if a single qube is compromised it won't affect the rest of the system.
 
 Qubes OS utilizes [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM for controlling other *qubes* on the host OS, all of which display individual application windows within dom0's desktop environment. There are many uses for this type of architecture. Here are some tasks you can perform. You can see just how much more secure these processes are made by incorporating multiple steps.
 
-### Copying and Pasting Text
+### Kopieren und Einfügen von Text
 
 You can [copy and paste text](https://qubes-os.org/doc/how-to-copy-and-paste-text) using `qvm-copy-to-vm` or the below instructions:
 

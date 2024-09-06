@@ -135,15 +135,15 @@ Glücklicherweise kann E2EE dieses Problem lindern, indem es die Kommunikation z
 <div class="admonition note" markdown>
 <p class="admonition-title">Hinweis zur webbasierten Verschlüsselung</p>
 
-In der Praxis ist die Effektivität der verschiedenen E2EE-Implementierungen unterschiedlich. Anwendungen wie [Signal](../real-time-communication.md#signal) werden nativ auf deinem Gerät ausgeführt, und jede Kopie der Anwendung ist bei verschiedenen Installationen identisch. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+In der Praxis ist die Effektivität der verschiedenen E2EE-Implementierungen unterschiedlich. Anwendungen wie [Signal](../real-time-communication.md#signal) werden nativ auf deinem Gerät ausgeführt, und jede Kopie der Anwendung ist bei verschiedenen Installationen identisch. Wenn ein solcher Dienstanbieter eine [Hintertür](https://de.wikipedia.org/wiki/Backdoor) in seine Anwendung einbauen würde, um deine privaten Schlüssel zu stehlen, könnte dies später mit [Reverse Engineering](https://de.wikipedia.org/wiki/Reverse_engineering) entdeckt werden.
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
+Auf der anderen Seite, bei webbasierten E2EE-Implementierungen, wie der Webanwendung von Proton Mail oder dem *Web Vault* von Bitwarden muss der Server dem Browser dynamisch JavaScript-Code zur Verfügung stellen, um die Kryptografie zu handhaben. Ein bösartiger Server kann dich ins Visier nehmen und dir bösartigen JavaScript-Code senden, um deine Verschlüsselungscode zu stehlen (und das wäre extrem schwer zu bemerken). Da der Server verschiedene Web-Clients für verschiedene Personen bereitstellen kann, wäre es - selbst wenn du den Angriff bemerkst -, unglaublich schwierig, die Schuld des Anbieters zu beweisen.
 
-Therefore, you should use native applications over web clients whenever possible.
+Daher solltest du, wann immer möglich, native Anwendungen anstelle von Webclients verwenden.
 
 </div>
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as who you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+Selbst mit E2EE können Dienstanbieter immer noch Profile von dir auf der Grundlage von **Metadaten** erstellen, die normalerweise nicht geschützt sind. Der Dienstanbieter kann deine Nachrichten zwar nicht lesen, aber er kann dennoch wichtige Dinge beobachten, z. B. mit wem du sprichst, wie oft du einer Person Nachrichten schickst und wann du normalerweise aktiv bist. Der Schutz von Metadaten ist eher unüblich, und wenn es in deinem [Bedrohungsmodell](threat-modeling.md) vorkommt, solltest du die technische Dokumentation der Software, die du verwendest, genau prüfen, um zu sehen, ob es eine Minimierung oder einen Schutz von Metadaten gibt.
 
 ## Massenüberwachungsprogramme
 
@@ -160,10 +160,10 @@ In France you can take a look at the [Technopolice website](https://technopolice
 
 </div>
 
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+Regierungen rechtfertigen Massenüberwachungsprogramme oft als notwendige Mittel zur Terrorismus- und Verbrechensbekämpfung. Als Menschenrechtsverletzungen werden sie jedoch am häufigsten eingesetzt, um Minderheiten und politische Dissidenten unverhältnismäßig hart zu treffen.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">Die Datenschutz-Lektion von 9/11: Massenüberwachung ist nicht der richtige Weg (englisch)</a></em></p>
 
 In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
 
