@@ -9,7 +9,7 @@ Es gibt einen Grund, warum Daten über dein Kaufverhalten als der heilige Gral d
 
 Seit Jahrhunderten ist **Bargeld** die wichtigste Form des privaten Zahlungsverkehrs. Bargeld hat in den meisten Fällen hervorragende Eigenschaften in Bezug auf den Schutz der Privatsphäre, wird in den meisten Ländern akzeptiert und ist **fungibel**, d. h. es ist nicht einmalig und vollständig austauschbar.
 
-Die Gesetze zur Barzahlung sind von Land zu Land unterschiedlich. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. These are almost never tracked by merchants, but they can be used by law enforcement in targeted investigations.
+Die Gesetze zur Barzahlung sind von Land zu Land unterschiedlich. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. Diese werden von den Händlern fast nie nachverfolgt, können aber von den Strafverfolgungsbehörden für gezielte Ermittlungen genutzt werden.
 
 Trotzdem ist es in der Regel die beste Option.
 
@@ -19,7 +19,7 @@ Es ist relativ einfach, Geschenkkarten und Prepaid-Karten in den meisten Lebensm
 
 Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
-Gift cards have the downside of being subject to merchant policies, which can have terrible terms and restrictions. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
+Geschenkkarten haben den Nachteil, dass sie den Richtlinien des Händlers unterliegen, die mitunter sehr schlechte Bedingungen und Einschränkungen enthalten. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
 
 Prepaid cards don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
 
@@ -43,7 +43,7 @@ These tend to be good options for recurring/subscription payments online, while 
 
 ## Kryptowährung
 
-Cryptocurrencies are a digital form of currency designed to work without central authorities such as a government or bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a public blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly at any time. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
+Kryptowährungen sind eine digitale Form von Währung, die ohne zentrale Behörden wie eine Regierung oder eine Bank funktionieren soll. Während *einige* Kryptowährungsprojekte es dir ermöglichen, private Transaktionen online durchzuführen, verwenden viele eine öffentliche Blockchain, die keine Privatsphäre für Transaktionen bietet. Kryptowährungen neigen auch dazu, sehr volatil zu sein, was bedeutet, dass sich ihr Wert jederzeit schnell und erheblich ändern kann. Daher raten wir generell davon ab, Kryptowährungen als langfristige Wertaufbewahrungsmittel zu verwenden. Wenn du dich dazu entschließt, Kryptowährungen online zu verwenden, solltest du dich vorher genau über die Datenschutzaspekte informieren und nur Beträge investieren, deren Verlust nicht katastrophal wäre.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Achtung</p>
@@ -56,11 +56,11 @@ Hinzu kommt, dass viele, wenn nicht sogar die meisten Kryptowährungen Betrugsma
 
 ### Privacy Coins
 
-There are a number of cryptocurrency projects which purport to provide privacy by making transactions anonymous. We recommend using one which provides transaction anonymity **by default** to avoid operational errors.
+Es gibt eine Reihe von Kryptowährungsprojekten, die vorgeben, die Privatsphäre zu schützen, indem sie die Transaktionen anonymisieren. Wir empfehlen die Verwendung eines Systems, das **standardmäßig** die Anonymität der Transaktionen gewährleistet, um Bedienungsfehler zu vermeiden.
 
-- [Recommended Cryptocurrency :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
+- [Empfohlene Kryptowährung :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
-Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million for tools which purport to do so (it is unknown which cryptocurrency network these tools target). Due to the secrecy surrounding tools like these, ==none of these methods of tracing cryptocurrencies have been independently confirmed.== However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins only succeed in thwarting mass surveillance.
+Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million for tools which purport to do so (it is unknown which cryptocurrency network these tools target). Aufgrund der Geheimhaltung, die solche Tools umgibt, wurde ==keine dieser Methoden zur Rückverfolgung von Kryptowährungen von unabhängiger Seite bestätigt.== Es ist jedoch sehr wahrscheinlich, dass es Tools gibt, die gezielte Ermittlungen zu privaten Transaktionen unterstützen, und dass Privacy Coins nur dabei helfen, Massenüberwachung zu vereiteln.
 
 ### Andere Coins (Bitcoin, Ethereum, etc.)
 
@@ -82,6 +82,6 @@ If you go this route, make sure to purchase Monero at different times and in dif
 
 ## Zusätzliche Überlegungen
 
-When you're making a payment in-person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
+Wenn du persönlich mit Bargeld bezahlst, solltest du darauf achten, dass deine Privatsphäre gewahrt bleibt. Sicherheitskameras sind allgegenwärtig. Ziehe am besten das Tragen von unauffälliger Kleidung und einer Gesichtsmaske (z. B. einer chirurgischen Maske oder N95) in Betracht. Melde dich nicht für Prämienprogramme an und gebe keine anderen Informationen über dich selbst heraus.
 
-When purchasing online, ideally you should do so over [Tor](tor-overview.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../vpn.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
+Beim Online-Kauf solltest du dies im Idealfall über [Tor](tor-overview.md) tun. Viele Händler erlauben jedoch keine Einkäufe über Tor. Du kannst die Verwendung eines [empfohlenen VPN](../vpn.md) in Betracht ziehen (bezahlt mit Bargeld, Geschenkgutschein oder Monero) oder den Kauf in einem Café oder einer Bibliothek mit kostenfreiem WLAN. Wenn du einen physischen Artikel bestellst, der geliefert werden muss, musst du eine Lieferadresse angeben. You should consider using a PO box, private mailbox, or work address.

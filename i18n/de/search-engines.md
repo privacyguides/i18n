@@ -20,24 +20,24 @@ Consider using a [VPN](vpn.md) or [Tor](tor.md) if your threat model requires hi
 
 | Anbieter                      | Search Index                                                                                                                                                                  | Tor Hidden Service            | Logging / Privacy Policy | Country of Operation |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ | -------------------- |
-| [Brave Search](#brave-search) | [Independent](https://brave.com/search-independence)                                                                                                                          | :material-check:{ .pg-green } | Anonymized[^1]           | United States        |
-| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                           | :material-check:{ .pg-green } | Anonymized[^2]           | United States        |
-| [Startpage](#startpage)       | [Google and Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^3]           | Netherlands          |
+| [Brave Search](#brave-search) | [Unabhängig](https://brave.com/search-independence)                                                                                                                           | :material-check:{ .pg-green } | Anonymisiert[^1]         | USA                  |
+| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                           | :material-check:{ .pg-green } | Anonymisiert[^2]         | USA                  |
+| [Startpage](#startpage)       | [Google und Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymisiert[^3]         | Niederlande          |
 
 ### Brave Search
 
 <div class="admonition recommendation" markdown>
 
-![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
+![Brave Search Logo](assets/img/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** is a search engine developed by Brave. Der Index ist für die Google-Suche optimiert und kann daher im Vergleich zu anderen Alternativen möglicherweise kontextgenauere Ergebnisse liefern.
+**Brave Search** ist eine von Brave entwickelte Suchmaschine. Der Index ist für die Google-Suche optimiert und kann daher im Vergleich zu anderen Alternativen möglicherweise kontextgenauere Ergebnisse liefern.
 
-Brave Search includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
+Brave Search enthält einzigartige Funktionen wie [Diskussionen](https://search.brave.com/help/discussions), die auf Konversationen ausgerichtete Ergebnisse wie Forenbeiträge hervorheben.
 
 [:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentation}
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title=Dokumentation}
 
 </details>
 
@@ -53,14 +53,14 @@ We recommend you disable [Anonymous usage metrics](https://search.brave.com/help
 
 ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** ist eine der gängigeren Optionen für private Suchmaschinen. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and a variety of [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
+**DuckDuckGo** ist eine der gängigeren Optionen für private Suchmaschinen. Zu den erwähnenswerten Suchfunktionen von DuckDuckGo gehören [Bangs](https://duckduckgo.com/bang) und zahlreiche [Sofortantworten](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
 
 DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](mobile-browsers.md#safari) browser.
 
 [:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentation}
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Dokumentation}
 
 </details>
 
@@ -79,8 +79,8 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 
 [:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentation}
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Dokumentation}
 
 </details>
 
@@ -90,21 +90,21 @@ Der Mehrheitsaktionär von Startpage ist System1, ein Werbeunternehmen. Wir glau
 
 Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
 
-## Metasearch Engines
+## Metasuchmaschinen
 
-A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregates the results of other search engines, such as the ones recommended above, while not storing any information itself.
+Eine [Metasuchmaschine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregiert die Ergebnisse anderer Suchmaschinen, wie die oben empfohlenen, speichert aber selbst keine Informationen.
 
 ### SearXNG
 
 <div class="admonition recommendation" markdown>
 
-![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+![SearXNG-Logo](assets/img/search-engines/searxng.svg){ align=right }
 
-**SearXNG** is an open-source, self-hostable, metasearch engine. Es ist ein aktiv betreuter Fork von [SearX](https://github.com/searx/searx).
+**SearXNG** ist eine Open-Source-Metasuchmaschine, die selbst gehostet werden kann. Es ist ein aktiv betreuter Fork von [SearX](https://github.com/searx/searx).
 
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
-[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+[:octicons-server-16:](https://searx.space){ .card-link title="Öffentliche Instanz"}
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Quellcode" }
 
 </details>
 
@@ -122,8 +122,8 @@ Wenn du eine SearXNG-Instanz verwendest, beachte unbedingt deren Datenschutzbest
 
 ### Mindestanforderungen
 
-- Must not collect PII per their privacy policy.
-- Must not require users to create an account with them.
+- Darf keine PII gemäß ihrer Datenschutzrichtlinie sammeln.
+- Darf nicht verlangen, dass Benutzer ein Konto bei ihnen erstellen.
 
 ### Im besten Fall
 
@@ -132,6 +132,6 @@ Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt 
 - Sollte auf Open-Source-Software basieren.
 - Sollte keine IP-Adressen von Tor-Ausgangsknoten blockieren.
 
-[^1]: Brave Search collects aggregated usage metrics, which includes the OS and the user agent. However, they do not collect PII. To serve [anonymous local results](https://search.brave.com/help/anonymous-local-results), IP addresses are temporarily processed, but are not retained. [https://search.brave.com/help/privacy-policy](https://search.brave.com/help/privacy-policy)
-[^2]: DuckDuckGo **does** log your searches for product improvement purposes, but not your IP address or any other PII. [https://duckduckgo.com/privacy](https://duckduckgo.com/privacy)
-[^3]: Startpage logs details such as operating system, user agent, and language. They do not log your IP address, search queries, or other PII. [https://startpage.com/en/privacy-policy](https://startpage.com/en/privacy-policy)
+[^1]: Brave Search sammelt aggregierte Nutzungsmetriken, die das Betriebssystem und den Benutzeragenten umfassen. Sie sammeln jedoch keine personenbezogenen Daten. Um [anonyme lokale Ergebnisse](https://search.brave.com/help/anonymous-local-results) zu liefern, werden IP-Adressen vorübergehend verarbeitet, aber nicht gespeichert. [https://search.brave.com/help/privacy-policy](https://search.brave.com/help/privacy-policy)
+[^2]: DuckDuckGo **protokolliert zwar** deine Suchanfragen zum Zwecke der Produktverbesserung, jedoch nicht deine IP-Adresse oder andere PII. [https://duckduckgo.com/privacy](https://duckduckgo.com/privacy)
+[^3]: Startpage protokolliert Details wie Betriebssystem, Benutzeragent und Sprache. Sie protokollieren weder deine IP-Adresse noch deine Suchanfragen oder andere PII. [https://startpage.com/en/privacy-policy](https://startpage.com/en/privacy-policy)

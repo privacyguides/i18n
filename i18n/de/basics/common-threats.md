@@ -93,7 +93,7 @@ In **Webbrowsern**, **E-Mail-Clients** und **Büroanwendungen** wird in der Rege
 
 </div>
 
-Wenn du dir Sorgen über **physische Angriffe** machst, solltest du ein Betriebssystem mit einer sicheren verifizierten Boot-Implementierung verwenden, wie Android, iOS, macOS oder [Windows (mit TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. Du solltest es auch vermeiden, deinen Computer mit Personen zu teilen, denen du nicht vertraust, da die meisten Desktop-Betriebssysteme die Daten nicht separat pro Benutzer verschlüsseln.
+Wenn du dir Sorgen über **physische Angriffe** machst, solltest du ein Betriebssystem mit einer sicheren verifizierten Boot-Implementierung verwenden, wie Android, iOS, macOS oder [Windows (mit TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Du solltest auch sicherstellen, dass dein Laufwerk verschlüsselt ist und dass das Betriebssystem ein TPM oder Secure-[Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) oder -[Element](https://developers.google.com/android/security/android-ready-se) verwendet, um die Versuche zur Eingabe der Verschlüsselungspassphrase zu begrenzen. Du solltest es auch vermeiden, deinen Computer mit Personen zu teilen, denen du nicht vertraust, da die meisten Desktop-Betriebssysteme die Daten nicht separat pro Benutzer verschlüsseln.
 
 ## Angriffe auf bestimmte Organisationen
 
@@ -156,7 +156,7 @@ Unter Massenüberwachung versteht man die aufwändige Überwachung des "Verhalte
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In Frankreich kannst du einen Blick auf die [Technopolice Website](https://technopolice.fr/villes) werfen, die von dem gemeinnützigen Verein La Quadrature du Net betrieben wird.
 
 </div>
 
@@ -165,11 +165,11 @@ Regierungen rechtfertigen Massenüberwachungsprogramme oft als notwendige Mittel
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">Die Datenschutz-Lektion von 9/11: Massenüberwachung ist nicht der richtige Weg (englisch)</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. Diese Art von Informationen, die von der NSA Tag für Tag gesammelt werden, können unglaublich heikle Details über das Leben und die Verbindungen von Menschen offenbaren, z. B. ob sie einen Pfarrer:in, einen Abtreibungsanbieter, eine:n Suchtberater:in oder eine Selbstmord-Hotline angerufen haben.
 
 </div>
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+Trotz der zunehmenden Massenüberwachung in den Vereinigten Staaten hat die Regierung festgestellt, dass Massenüberwachungsprogramme wie Section 215 im Hinblick auf die Verhinderung tatsächlicher Verbrechen oder terroristischer Anschläge "wenig einzigartigen Wert" haben, wobei die Bemühungen weitgehend die eigenen gezielten Überwachungsprogramme des FBI duplizieren.[^2]
 
 Online kannst du über eine Vielzahl von Methoden verfolgt werden, einschließlich, aber nicht beschränkt auf:
 

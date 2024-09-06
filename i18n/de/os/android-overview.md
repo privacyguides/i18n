@@ -33,7 +33,7 @@ Many OEMs also have broken implementation of Verified Boot that you have to be a
 
 ### Firmware-Updates
 
-**Firmware-Updates** sind entscheidend für die Aufrechterhaltung der Sicherheit, und ohne sie ist dein Gerät nicht sicher. OEMs haben Unterstützungsvereinbarungen mit ihren Partnern, um die Closed-Sourced-Komponenten für einen begrenzten Zeitraum zur Verfügung zu stellen. These are detailed in the monthly [Android Security Bulletins](https://source.android.com/security/bulletin).
+**Firmware-Updates** sind entscheidend für die Aufrechterhaltung der Sicherheit, und ohne sie ist dein Gerät nicht sicher. OEMs haben Unterstützungsvereinbarungen mit ihren Partnern, um die Closed-Sourced-Komponenten für einen begrenzten Zeitraum zur Verfügung zu stellen. Diese sind in den monatlichen [Android Security Bulletins](https://source.android.com/security/bulletin) beschrieben.
 
 As the components of the phone, such as the processor and radio technologies rely on closed-source components, the updates must be provided by the respective manufacturers. Therefore, it is important that you purchase a device within an active support cycle. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. With the introduction of the [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google now makes their own SoC, and they will provide a minimum of 5 years of support. With the introduction of the Pixel 8 series, Google increased that support window to 7 years.
 
@@ -155,7 +155,7 @@ On Android distributions with privileged Google Play Services (such as stock OSe
 
 You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. If not, then make sure to opt out and reset your advertising ID.
 
-### SafetyNet and Play Integrity API
+### SafetyNet und Play Integrity API
 
 [SafetyNet](https://developer.android.com/training/safetynet/attestation) and the [Play Integrity APIs](https://developer.android.com/google/play/integrity) are generally used for [banking apps](https://grapheneos.org/usage#banking-apps). Many banking apps will work fine in GrapheneOS with sandboxed Play services, however some non-financial apps have their own crude anti-tampering mechanisms which might fail. GrapheneOS passes the `basicIntegrity` check, but not the certification check `ctsProfileMatch`. Devices with Android 8 or later have hardware attestation support which cannot be bypassed without leaked keys or serious vulnerabilities.
 

@@ -1,17 +1,17 @@
 ---
 title: "Qubes Übersicht"
 icon: simple/qubesos
-description: Qubes is an operating system built around isolating apps within *qubes* (formerly "VMs") for heightened security.
+description: Qubes ist ein Betriebssystem, das auf der Isolierung von Anwendungen innerhalb von *qubes* (früher "VMs") basiert, um die Sicherheit zu erhöhen.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated *qubes*, (which are Virtual Machines). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
+[**Qubes OS**](../desktop.md#qubes-os) ist ein Open-Source-Betriebssystem, das den [Xen-Hypervisor](https://en.wikipedia.org/wiki/Xen) nutzt, um durch isolierte *Qubes*(virtuelle Maschinen) starke Sicherheit für Desktop-Computing zu bieten. Du kannst jeden *qube* eine Vertrauensstufe zuweisen, die auf seinem Zweck basiert. Qubes OS bietet Sicherheit durch Isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
 
-## How does Qubes OS work?
+## Wie funktioniert Qubes OS?
 
 Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes are created from templates, the defaults being for Fedora, Debian and [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
 
 <details class="note" markdown>
-<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
+<summary>Der Begriff <em>qubes</em> wird nach und nach aktualisiert, um die Bezeichnung "virtuelle Maschinen" zu vermeiden.</summary>
 
 Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
 
@@ -71,9 +71,9 @@ Your qubes should be configured in a manner similar to this:
 | sys-whonix      | Your Whonix Gateway VM                                                                              | ==sys-proxyvm== |
 | anon-whonix     | Your Whonix Workstation VM                                                                          | sys-whonix      |
 
-## Additional Resources
+## Zusätzliche Ressourcen
 
-For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). Offline copies can be downloaded from the Qubes OS [documentation repository](https://github.com/QubesOS/qubes-doc).
+Für zusätzliche Informationen empfehlen wir dir, die umfangreichen Qubes OS-Dokumentation auf der [Qubes OS-Website](https://qubes-os.org/doc) zu konsultieren. Offline-Kopien können aus dem Qubes OS [Dokumentations-Repository](https://github.com/QubesOS/qubes-doc) heruntergeladen werden.
 
 - [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
 - [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
