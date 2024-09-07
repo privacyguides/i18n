@@ -10,7 +10,7 @@ Es gibt mehrere Netzwerkarchitekturen, die häufig verwendet werden, um Nachrich
 
 ## Zentralisierte Netzwerke
 
-![Centralized networks diagram](../assets/img/layout/network-centralized.svg){ align=left }
+![Diagramm eines zentralisierten Netzwerks](../assets/img/layout/network-centralized.svg){ align=left }
 
 Zentralisierte Messenger sind solche, bei denen sich alle Teilnehmer auf demselben Server oder einem Netzwerk von Servern befinden, die von derselben Organisation kontrolliert werden.
 
@@ -28,43 +28,43 @@ Bei einigen selbst gehosteten Messengern kannst du deine eigenen Server einricht
 - Kann [eingeschränkte Kontrolle oder Zugang](https://drewdevault.com/2018/08/08/Signal.html) beinhalten. Dazu können Dinge gehören wie:
 - [Das Verbot, Drittanbieter-Clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) an das zentrale Netzwerk anzuschließen, die eine bessere Anpassung oder ein besseres Erlebnis ermöglichen könnten. Häufig in den Nutzungsbedingungen definiert.
 - Schlechte oder fehlende Dokumentation für Drittentwickler.
-- The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
+- Die [Eigentumsverhältnisse](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire), die Datenschutzrichtlinien und der Betrieb des Dienstes können sich leicht ändern, wenn er von einer einzigen Stelle kontrolliert wird, was den Dienst zu einem späteren Zeitpunkt gefährden kann.
 - Selbst-Hosting erfordert Anstrengungen und Kenntnisse darüber, wie man einen Service aufbauen kann.
 
 ## Föderierte Netzwerke
 
-![Federated networks diagram](../assets/img/layout/network-decentralized.svg){ align=left }
+![Diagramm eines föderalen Netzwerks](../assets/img/layout/network-decentralized.svg){ align=left }
 
-Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
+Föderierte Messenger verwenden mehrere unabhängige, dezentralisierte Server, die miteinander kommunizieren können (E-Mail ist ein Beispiel für einen föderierten Dienst). Durch die Föderation können Systemadministratoren ihren eigenen Server kontrollieren und dennoch Teil eines größeren Kommunikationsnetzes sein.
 
-When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+Wenn sie selbst gehostet werden, können die Mitglieder eines Verbund-Servers die Mitglieder anderer Server entdecken und mit ihnen kommunizieren, obwohl einige Server sich dafür entscheiden können, privat zu bleiben, indem sie nicht föderiert sind (z. B. ein Arbeitsteam-Server).
 
 **Vorteile:**
 
-- Allows for greater control over your own data when running your own server.
-- Allows you to choose whom to trust your data with by choosing between multiple "public" servers.
-- Often allows for third-party clients which can provide a more native, customized, or accessible experience.
-- Server software can be verified that it matches public source code, assuming you have access to the server or you trust the person who does (e.g., a family member).
+- Ermöglicht eine bessere Kontrolle über deine eigenen Daten, wenn du deinen eigenen Server betreibst.
+- Erlaubt dir auszuwählen, wem du deine Daten anvertraust, indem du zwischen mehreren "öffentlichen" Servern entscheiden kannst.
+- Ermöglicht oft den Einsatz von Drittanbieter-Clients, die eine nativere, individuellere oder zugänglichere Erfahrung bieten können.
+- Bei Serversoftware kann überprüft werden, ob sie mit dem öffentlichen Quellcode übereinstimmt; vorausgesetzt, du hast Zugang zum Server oder du vertraust der Person, die Zugang hat (z. B. einem Familienmitglied).
 
 **Nachteile:**
 
-- Adding new features is more complex because these features need to be standardized and tested to ensure they work with all servers on the network.
-- Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
-- Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
-- Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is used.
-- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
+- Das Hinzufügen neuer Funktionen ist komplexer, da diese Funktionen standardisiert und getestet werden müssen, um sicherzustellen, dass sie mit allen Servern im Netzwerk funktionieren.
+- Aufgrund des vorhergehenden Punktes können Funktionen fehlen, unvollständig sein oder auf unerwartete Weise im Vergleich zu zentralisierten Plattformen funktionieren, wie z. B. die Weiterleitung von Nachrichten, wenn sie offline sind oder das Löschen von Nachrichten.
+- Einige Metadaten können verfügbar sein (z. B. Informationen wie "wer spricht mit wem", aber nicht der eigentliche Nachrichteninhalt, wenn E2EE verwendet wird).
+- Bei föderierten Servern ist es meist erforderlich, dem Administrator deines Servers zu vertrauen. Sie sind vielleicht Hobbyisten oder keine "Sicherheitsprofis" und stellen möglicherweise keine Standarddokumente wie Datenschutzrichtlinien oder Nutzungsbedingungen zur Verfügung, in denen die Verwendung deiner Daten genau beschrieben ist.
+- Serveradministratoren entscheiden sich manchmal dafür, andere Server zu sperren, die eine Quelle von unmoderiertem Missbrauch sind oder gegen allgemeine Regeln des akzeptierten Verhaltens verstoßen. Dadurch wird die Kommunikation mit den Mitgliedern dieser Server behindert.
 
 ## Peer-to-Peer-Netzwerke
 
-![P2P diagram](../assets/img/layout/network-distributed.svg){ align=left }
+![P2P-Diagramm](../assets/img/layout/network-distributed.svg){ align=left }
 
-P2P messengers connect to a [distributed network](https://en.wikipedia.org/wiki/Distributed_networking) of nodes to relay a message to the recipient without a third-party server.
+P2P-Messenger stellen eine Verbindung zu einem [verteilten Netzwerk](https://en.wikipedia.org/wiki/Distributed_networking) von Knoten her, um eine Nachricht ohne einen Server von Dritten an die Zielperson weiterzuleiten.
 
-Clients (peers) usually find each other through the use of a [distributed computing](https://en.wikipedia.org/wiki/Distributed_computing) network. Examples of this include [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), used by [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) and [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) for example. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+Die Clients (Peers) finden einander in der Regel über ein [verteiltes Computernetz](https://en.wikipedia.org/wiki/Distributed_computing). Beispiele hierfür sind [verteilte Hashtabellen (DHT)](https://de.wikipedia.org/wiki/Verteilte_Hashtabelle), die z. B. von [Torrents](https://de.wikipedia.org/wiki/BitTorrent) und [IPFS](https://de.wikipedia.org/wiki/InterPlanetary_File_System) verwendet werden. Ein anderer Ansatz sind auf Nähe basierende Netzwerke, bei denen eine Verbindung über WiFi oder Bluetooth hergestellt wird (z. B. Briar oder das Protokoll des sozialen Netzwerks [Scuttlebutt](https://scuttlebutt.nz)).
 
-Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
+Sobald ein Peer über eine dieser Methoden einen Weg zu dem Kontakt gefunden hat, wird eine direkte Verbindung zwischen beiden hergestellt. Obwohl die Nachrichten in der Regel verschlüsselt sind, kann ein Beobachter dennoch den Standort und die Identität von Absender und Empfänger feststellen.
 
-P2P networks do not use servers, as peers communicate directly between each other and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
+P2P-Netze verwenden keine Server, da die Peers direkt miteinander kommunizieren und daher nicht selbst gehostet werden können. Einige zusätzliche Dienste können jedoch von zentralen Servern abhängen, wie z. B. die Benutzer-Entdeckung oder die Weiterleitung von Offline-Nachrichten, die von einem Selbst-Hosting profitieren können.
 
 **Vorteile:**
 
@@ -74,20 +74,20 @@ P2P networks do not use servers, as peers communicate directly between each othe
 **Nachteile:**
 
 - Reduzierter Funktionsumfang:
-- Messages can only be sent when both peers are online, however, your client may store messages locally to wait for the contact to return online.
-- Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.
-- Some common messenger features may not be implemented or incompletely, such as message deletion.
-- Your IP address and that of the contacts you're communicating with may be exposed if you do not use the software in conjunction with a [VPN](../vpn.md) or [Tor](../tor.md). Many countries have some form of mass surveillance and/or metadata retention.
+- Nachrichten können nur gesendet werden, wenn beide Peers online sind. Dein Client kann jedoch Nachrichten lokal speichern, um zu warten, bis der Kontakt wieder online ist.
+- Normalerweise erhöht sich der Akkuverbrauch auf mobilen Geräten, da der Client mit dem verteilten Netzwerk verbunden bleiben muss, um zu erfahren, wer online ist.
+- Einige gängige Messenger-Funktionen sind möglicherweise nicht oder nur unvollständig implementiert, z. B. das Löschen von Nachrichten.
+- Deine IP-Adresse und die der Kontakte, mit denen du kommunizierst, können aufgedeckt werden, wenn du die Software nicht in Verbindung mit einem [VPN](../vpn.md) oder [Tor](../tor.md) benutzt. In vielen Ländern gibt es eine Art von Massenüberwachung und/oder Metadatenspeicherung.
 
-## Anonymous Routing
+## Anonymes Routing
 
-![Anonymous routing diagram](../assets/img/layout/network-anonymous-routing.svg){ align=left }
+![Diagram von Anonymes Routing](../assets/img/layout/network-anonymous-routing.svg){ align=left }
 
-A messenger using [anonymous routing](https://doi.org/10.1007/978-1-4419-5906-5_628) hides either the identity of the sender, the receiver, or evidence that they have been communicating. Ideally, a messenger should hide all three.
+Ein Messenger, der [anonymes Routing](https://doi.org/10.1007/978-1-4419-5906-5_628) verwendet, verbirgt entweder die Identität des Absenders, des Empfängers oder den Nachweis, dass sie miteinander kommuniziert haben. Im Idealfall sollte ein Messenger alle drei verstecken.
 
-There are [many](https://doi.org/10.1145/3182658) different ways to implement anonymous routing. One of the most famous is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (i.e. [Tor](tor-overview.md)), which communicates encrypted messages through a virtual [overlay network](https://en.wikipedia.org/wiki/Overlay_network) that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly and only meet through a secret rendezvous node so that there is no leak of IP addresses nor physical location. Nodes cannot decrypt messages, nor the final destination; only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers."
+Es gibt [viele](https://doi.org/10.1145/3182658) verschiedene Möglichkeiten, anonymes Routing zu implementieren. Eines der bekanntesten ist das [Onion-Routing](https://de.wikipedia.org/wiki/Onion-Routing) (d. h. [Tor](tor-overview.md)), bei dem verschlüsselte Nachrichten über ein virtuelles [Overlay-Netzwerk](https://en.wikipedia.org/wiki/Overlay_network) übertragen werden, das den Standort jedes Knotens sowie den Empfänger und Absender jeder Nachricht verbirgt. Absender und Empfänger interagieren nie direkt, sondern treffen sich nur über einen geheimen Rendezvous-Knoten, so dass weder IP-Adressen noch physische Standorte bekannt werden. Die Knoten können die Nachrichten nicht entschlüsseln, ebenso wenig wie das endgültige Ziel, nur der Empfänger kann es. Jeder Zwischenknoten kann nur einen Teil entschlüsseln, der angibt, wohin die noch verschlüsselte Nachricht als Nächstes zu senden ist, bis sie beim Empfänger ankommt, der sie vollständig entschlüsseln kann, daher die "Onion Layer" (zu Deutsch: Zwiebelschichten).
 
-Self-hosting a node in an anonymous routing network does not provide the hoster with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+Das Selbsthosten eines Knotens in einem anonymen Routing-Netz verschafft dem Hoster keine zusätzlichen Vorteile in Bezug auf die Privatsphäre, sondern trägt vielmehr zum Nutzen aller zur Widerstandsfähigkeit des gesamten Netzes gegen Identifizierungsangriffe bei.
 
 **Vorteile:**
 
@@ -96,8 +96,8 @@ Self-hosting a node in an anonymous routing network does not provide the hoster 
 
 **Nachteile:**
 
-- Slow message propagation.
-- Often limited to fewer media types, mostly text, since the network is slow.
-- Less reliable if nodes are selected by randomized routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.
-- More complex to get started, as the creation and secured backup of a cryptographic private key is required.
-- Just like other decentralized platforms, adding features is more complex for developers than on a centralized platform. Hence, features may be lacking or incompletely implemented, such as offline message relaying or message deletion.
+- Langsame Nachrichtenausbreitung.
+- Oft auf wenige Medientypen beschränkt, meist Text, da das Netzwerk langsam ist.
+- Weniger zuverlässig, wenn die Knoten nach dem Zufallsprinzip ausgewählt werden. Einige Knoten können sehr weit von Sender und Empfänger entfernt sein, wodurch sich die Latenzzeit erhöht oder sogar Nachrichten nicht übertragen werden können, wenn einer der Knoten offline geht.
+- Der Einstieg ist komplizierter, da die Erstellung und sichere Verwahrung eines kryptografischen privaten Schlüssels erforderlich ist.
+- Genau wie bei anderen dezentralen Plattformen ist das Hinzufügen von Funktionen komplexer als bei einer zentralen Plattform. Daher kann es sein, dass Funktionen fehlen oder unvollständig implementiert sind, wie z. B. die Offline-Weiterleitung von Nachrichten oder das Löschen von Nachrichten.

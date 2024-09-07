@@ -18,7 +18,7 @@ Im Folgenden erörtern wir, was ein außenstehender Beobachter mit Hilfe von nor
 
 ### Unverschlüsselter DNS
 
-1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. Dieser Befehl zeichnet Pakete auf, die den angegebenen Regeln entsprechen:
+1. Mit [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (Teil des [Wireshark](https://en.wikipedia.org/wiki/Wireshark) Projekts) können wir den Internet-Paketfluss überwachen und aufzeichnen. Dieser Befehl zeichnet Pakete auf, die den angegebenen Regeln entsprechen:
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
@@ -39,7 +39,7 @@ Im Folgenden erörtern wir, was ein außenstehender Beobachter mit Hilfe von nor
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Als Nächstes wollen wir die Ergebnisse [analysieren](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs):
 
     === "Wireshark"
 
@@ -55,12 +55,12 @@ Im Folgenden erörtern wir, was ein außenstehender Beobachter mit Hilfe von nor
 
 Wenn Sie den obigen Wireshark-Befehl ausführen, zeigt das obere Fenster die "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", und das untere Fenster zeigt alle Daten über den ausgewählten Frame. Filter- und Überwachungslösungen für Unternehmen (z. B. solche, die von Regierungen gekauft werden) können den Prozess automatisch und ohne menschliche Interaktion durchführen und diese Frames zusammenfassen, um statistische Daten zu erzeugen, die für den Netzwerkbeobachter nützlich sind.
 
-| No. | Time     | Source    | Destination | Protocol | Length | Info                                                                   |
-| --- | -------- | --------- | ----------- | -------- | ------ | ---------------------------------------------------------------------- |
-| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | DNS      | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
-| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | DNS      | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
-| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8     | DNS      | 104    | Standard query 0xf1a9 A privacyguides.org OPT                          |
-| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1   | DNS      | 108    | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
+| Nr. | Zeit     | Ursprung  | Ziel      | Protokoll | Länge | Info                                                                   |
+| --- | -------- | --------- | --------- | --------- | ----- | ---------------------------------------------------------------------- |
+| 1   | 0.000000 | 192.0.2.1 | 1.1.1.1   | DNS       | 104   | Standard query 0x58ba A privacyguides.org OPT                          |
+| 2   | 0.293395 | 1.1.1.1   | 192.0.2.1 | DNS       | 108   | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |
+| 3   | 1.682109 | 192.0.2.1 | 8.8.8.8   | DNS       | 104   | Standard query 0xf1a9 A privacyguides.org OPT                          |
+| 4   | 2.154698 | 8.8.8.8   | 192.0.2.1 | DNS       | 108   | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
 Ein Beobachter könnte jedes dieser Pakete verändern.
 
@@ -94,7 +94,7 @@ Die neuesten Versionen von iOS, iPadOS, tvOS und macOS unterstützen sowohl DoT 
 
 Nach der Installation eines Konfigurationsprofils oder einer Anwendung, die die DNS-Einstellungs-API verwendet, kann die DNS-Konfiguration ausgewählt werden. Wenn ein VPN aktiv ist, verwendet die DNS Auflösung innerhalb des VPN-Tunnels die DNS-Einstellungen des VPN und nicht deine systemweiten Einstellungen.
 
-Apple bietet keine native Schnittstelle zur Erstellung von Profilen mit verschlüsseltem DNS. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) ist ein inoffizielles Tool zur Erstellung eigener Profile mit verschlüsseltem DNS, diese sind jedoch nicht signiert. Signierte Profile sind zu bevorzugen; das Signieren bestätigt die Herkunft eines Profils und trägt dazu bei, die Integrität der Profile zu gewährleisten. Signierte Konfigurationsprofile erhalten ein grünes "Verifiziert"-Label. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
+Apple bietet keine native Schnittstelle zur Erstellung von Profilen mit verschlüsseltem DNS. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) ist ein inoffizielles Tool zur Erstellung eigener Profile mit verschlüsseltem DNS, diese sind jedoch nicht signiert. Signierte Profile sind zu bevorzugen; das Signieren bestätigt die Herkunft eines Profils und trägt dazu bei, die Integrität der Profile zu gewährleisten. Signierte Konfigurationsprofile erhalten ein grünes "Verifiziert"-Label. Weitere Informationen zum Code Signing findest du unter [Über Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
 
 #### Linux
 

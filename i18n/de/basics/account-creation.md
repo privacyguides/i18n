@@ -7,46 +7,46 @@ description: Das Anlegen von Online-Konten ist praktisch eine Notwendigkeit für
 
 Oft melden sich Menschen für Dienste an, ohne nachzudenken. Vielleicht ist es ein Streaming-Dienst, mit dem du die neue Serie, über die alle reden, sehen kannst, oder ein Konto, mit dem du einen Rabatt für dein Lieblingsrestaurant bekommst. In jedem Fall solltest du die Auswirkungen auf Ihre Daten jetzt und in Zukunft beachten.
 
-Mit jedem neuen Dienst, den du nutzt, sind Risiken verbunden. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
+Mit jedem neuen Dienst, den du nutzt, sind Risiken verbunden. Datenlecks, die Weitergabe von Kundeninformationen an Dritte, der Zugriff auf Daten durch unberechtigte Mitarbeiter - all dies sind Möglichkeiten, die bei der Weitergabe deiner Informationen berücksichtigt werden müssen. Du musst sicher sein, dass du dem Dienst vertrauen kannst. Deshalb empfehlen wir, wertvolle Daten nur auf den ausgereiftesten und erprobten Produkten zu speichern. Das bedeutet in der Regel Dienste, die E2EE anbieten und eine kryptographisches Audit durchlaufen haben. Ein Audit erhöht die Sicherheit, dass das Produkt ohne eklatante Sicherheitsprobleme entwickelt wurde, die von einem unerfahrenen Entwickler verursacht wurden.
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+Bei einigen Diensten kann es auch schwierig sein, die Konten zu löschen. Manchmal ist es möglich, die mit einem Konto verbundenen Daten [zu überschreiben](account-deletion.md#overwriting-account-information), aber in anderen Fällen speichert der Dienst die gesamte Historie der Änderungen an dem Konto.
 
 ## Nutzungsbedingungen & Datenschutzbestimmungen
 
-The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VOIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+Die Nutzungsbedingungen sind die Regeln, denen du zustimmst, wenn du einen Dienst in Anspruch nimmst. Bei größeren Dienstleistern werden diese Regeln oft durch automatisierte Systeme durchgesetzt. Manchmal können diese automatischen Systeme Fehler machen. So kann es beispielsweise vorkommen, dass dein Konto bei einigen Diensten gesperrt wird, weil du eine VPN- oder VOIP-Nummer verwendest. Gegen solche Verbote Einspruch zu erheben, ist oft schwierig und erfordert auch ein automatisiertes Verfahren, das nicht immer erfolgreich ist. Dies wäre einer der Gründe, warum wir beispielsweise nicht empfehlen würden, Gmail für E-Mail zu verwenden. E-Mail ist entscheidend für den Zugriff auf andere Dienste, für die du dich möglicherweise angemeldet hast.
 
-The Privacy Policy is how the service says they will use your data and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+In den Datenschutzrichtlinien steht, wie der Dienst deine Daten verwenden wird, und es lohnt sich, sie zu lesen, damit du verstehst, wie deine Daten verwendet werden. Ein Unternehmen oder eine Organisation ist möglicherweise rechtlich nicht verpflichtet, alles zu befolgen, was in der Richtlinie enthalten ist (dies hängt von der jeweiligen Rechtsprechung ab). Wir empfehlen dir, einen Überblick über die örtlichen Gesetze zu verschaffen und darüber, was ein Anbieter erheben darf.
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt-out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+Wir empfehlen die Suche nach bestimmten Begriffen wie "Datenerfassung", "Datenanalyse", "Cookies", "Anzeigen" oder "Drittanbieter". Manchmal hast du die Möglichkeit, die Datenerfassung oder die Weitergabe deiner Daten abzulehnen, aber es ist am besten, einen Dienst zu wählen, der deine Privatsphäre von Anfang an respektiert.
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+Denke auch daran, dass du dem Unternehmen oder der Organisation dein Vertrauen schenkst und dass sie ihre eigenen Datenschutzrichtlinien einhalten.
 
-## Authentication methods
+## Authentifizierungsmethoden
 
-There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
+In der Regel gibt es mehrere Möglichkeiten, sich für ein Konto anzumelden, jede mit ihren eigenen Vor- und Nachteilen.
 
 ### E-Mail und Passwort
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
+Die häufigste Art, ein neues Konto zu erstellen, ist die Eingabe einer E-Mail-Adresse und eines Passworts. Wenn du diese Methode anwendest, solltest du einen Passwort-Manager verwenden und die [besten Praktiken](passwords-overview.md) für Passwörter befolgen.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>
 
-You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+Du kannst deinen Passwort-Manager auch zur Organisation anderer Authentifizierungsmethoden verwenden! Füge einfach den neuen Eintrag hinzu und fülle die entsprechenden Felder aus. Du kannst Notizen für Dinge wie Sicherheitsfragen oder einen Backup-Schlüssel hinzufügen.
 
 </div>
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+Du bist für die Verwaltung deiner Anmeldedaten verantwortlich. Für zusätzliche Sicherheit kannst du [MFA](multi-factor-authentication.md) für deine Konten einrichten.
 
 [Empfohlene Passwort-Manager](../passwords.md ""){.md-button}
 
-#### Email aliases
+#### E-Mail-Aliasse
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We described them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign up process. Those can be filtered automatically based on the alias they are sent to.
+Wenn du deine echte E-Mail-Adresse nicht an einen Dienst weitergeben möchtest, hast du die Möglichkeit, einen Alias zu verwenden. Wir haben diese auf unserer Empfehlungsseite für E-Mail-Dienste näher beschrieben. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign up process. Those can be filtered automatically based on the alias they are sent to.
 
 Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
-[Recommended email aliasing services](../email-aliasing.md ""){.md-button}
+[Empfohlene E-Mail-Aliasing-Dienste](../email-aliasing.md ""){.md-button}
 
 ### "Anmelden mit ..." (OAuth)
 
