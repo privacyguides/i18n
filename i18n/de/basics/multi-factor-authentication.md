@@ -1,48 +1,48 @@
 ---
 title: "Multi-Faktor-Authentifizierung"
 icon: 'material/two-factor-authentication'
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: MFA ist ein wichtiger Sicherheitsmechanismus zum Schutz deiner Online-Konten, aber einige Methoden sind stärker als andere.
 ---
 
-**Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+Die **Multi-Faktor-Authentifizierung****(MFA**) ist ein Sicherheitsmechanismus, der über die Eingabe von Benutzername (oder E-Mail) und Passwort hinaus zusätzliche Schritte erfordert. Die gängigste Methode sind zeitlich begrenzte Codes, die du per SMS oder über eine App erhalten kannst.
 
-Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
+Wenn ein Hacker (oder Angreifer) in der Lage ist, dein Passwort herauszufinden, erhält dieser normalerweise Zugang zu dem Konto, zu dem dieses Passwort gehört. Ein Konto mit MFA zwingt den Hacker dazu, sowohl das Passwort (etwas, das du *weißt*) als auch ein Gerät zu haben, das dir gehört (etwas, das du *hast*), wie dein Handy.
 
-MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
+MFA-Methoden sind unterschiedlich sicher, basieren aber auf der Prämisse, dass es umso besser ist, je schwieriger es für den Angreifer ist, Zugang zu deiner MFA-Methode zu erhalten. Beispiele für MFA-Methoden (von der schwächsten zur stärksten) sind SMS, E-Mail-Codes, App-Push-Benachrichtigungen, TOTP, Yubico OTP und FIDO.
 
-## MFA Method Comparison
+## Vergleich von MFA-Methoden
 
-### SMS or Email MFA
+### SMS oder E-Mail MFA
 
-Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
+Der Empfang von OTP-Codes per SMS oder E-Mail ist eine der schwächeren Möglichkeiten, deine Konten mit MFA zu sichern. Die Beschaffung eines Codes per E-Mail oder SMS geht an der Idee des "etwas, das man *hat*" vorbei, denn es gibt eine Vielzahl von Möglichkeiten, wie ein Hacker [deine Telefonnummer übernehmen](https://de.wikipedia.org/wiki/SIM-Swapping) oder sich Zugang zu deiner E-Mails verschaffen kann, ohne physischen Zugang zu einem deiner Geräte zu haben. Wenn eine unbefugte Person Zugang zu deiner E-Mail hätte, könnte sie diesen Zugang nutzen, um sowohl dein Passwort zurückzusetzen als auch den Authentifizierungscode zu erhalten, wodurch sie vollen Zugriff auf dein Konto hätte.
 
-### Push Notifications
+### Push-Benachrichtigungen
 
-Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
+MFA per Push-Benachrichtigung erfolgt in Form einer Nachricht, die an eine App auf deinem Smartphone gesendet wird und dich auffordert, neue Kontoanmeldungen zu bestätigen. Diese Methode ist viel besser als SMS oder E-Mail, da ein Angreifer diese Push-Benachrichtigungen in der Regel nur dann erhalten kann, wenn er ein bereits angemeldetes Gerät hat, was bedeutet, dass er zuerst eines deiner anderen Geräte kompromittieren müsste.
 
-We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+Wir alle machen Fehler, und es besteht die Gefahr, dass du den Anmeldeversuch versehentlich akzeptierst. Anmeldeautorisierungen per Push-Benachrichtigung werden in der Regel an *alle* deine Geräte gleichzeitig gesendet, was die Verfügbarkeit des MFA-Codes bei vielen Geräten erhöht.
 
-The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+Die Sicherheit der MFA für Push-Benachrichtigungen hängt sowohl von der Qualität der App und der Serverkomponente als auch vom Vertrauen des Entwicklers ab, der sie erstellt. Bei der Installation einer App musst du möglicherweise auch invasive Berechtigungen akzeptieren, die den Zugriff auf andere Daten auf deinem Gerät ermöglichen. Eine individuelle App erfordert auch, dass du für jeden Dienst eine eigene App hast, die im Gegensatz zu einer guten TOTP-Generator-App kein Passwort zum Öffnen erfordert.
 
-### Time-based One-time Password (TOTP)
+### Zeitbasiertes Einmalpasswort (TOTP)
 
-TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
+TOTP ist eine der am weitesten verbreiteten Formen zur MFA. Bei der Einrichtung von TOTP musst du in der Regel einen [QR-Code](https://de.wikipedia.org/wiki/QR-Code) scannen, der ein [gemeinsames Geheimnis](https://de.wikipedia.org/wiki/Gemeinsames_Geheimnis) mit dem Dienst, den du nutzen möchten, festlegt. Das gemeinsame Geheimnis ist in den Daten der Authentifikator-App gesichert und manchmal durch ein Passwort geschützt.
 
-The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
+Der zeitlich begrenzte Code wird dann aus dem gemeinsamen Geheimnis und der aktuellen Zeit abgeleitet. Da der Code nur für eine kurze Zeit gültig ist, kann ein Angreifer ohne Zugang zum gemeinsamen Geheimnis keine neuen Codes erzeugen.
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
+Wenn du einen Hardware-Sicherheitsschlüssel mit TOTP-Unterstützung hast (z. B. einen YubiKey mit [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), empfehlen wir, dass du dein "gemeinsamen Geheimnisse" auf der Hardware speicherst. Hardware wie der YubiKey wurde mit der Absicht entwickelt, das "gemeinsame Geheimnis" schwer zu extrahieren und zu kopieren. Ein YubiKey ist auch nicht mit dem Internet verbunden, im Gegensatz zu einem Handy mit einer TOTP-App.
 
-Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+Im Gegensatz zu [WebAuthn](#fido-fast-identity-online) bietet TOTP keinen Schutz vor [Phishing-](https://en.wikipedia.org/wiki/Phishing) oder Reuse-Angriffen. Wenn ein Angreifer einen gültigen Code von dir erhält, kann er ihn so oft verwenden, bis er abläuft (in der Regel 60 Sekunden).
 
-An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
+Ein Angreifer könnte eine Website einrichten, die einen offiziellen Dienst imitiert, um dich dazu zu bringen, deinen Benutzernamen, dein Passwort und deinen aktuellen TOTP-Code preiszugeben. Wenn der Angreifer dann diese aufgezeichneten Anmeldedaten verwendet, kann er sich bei dem echten Dienst anmelden und das Konto übernehmen.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+Obwohl nicht perfekt, ist TOTP für die meisten Menschen sicher genug, und wenn [Hardware-Sicherheitsschlüssel](../security-keys.md) nicht unterstützt werden, sind [Authentifizierungs-Apps](../multi-factor-authentication.md) immer noch eine gute Option.
 
 ### Hardware security keys
 
-The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
+Der YubiKey speichert die Daten auf einem manipulationssicheren Solid-State-Chip, der ohne ein teures Verfahren und ein forensisches Labor [nicht zerstörungsfrei zugänglich](https://security.stackexchange.com/a/245772) ist.
 
-These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
+Diese Schlüssel sind in der Regel multifunktional und bieten eine Reihe von Authentifizierungsmethoden. Im Folgenden sind die häufigsten aufgeführt.
 
 #### Yubico OTP
 
@@ -68,7 +68,7 @@ If your threat model requires you to have different identities on different webs
 
 U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
 
-WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
+WebAuthn ist die sicherste und privatste Form der Zweitfaktor-Authentifizierung. Die Authentifizierung ist ähnlich wie bei Yubico OTP, aber der Schlüssel druckt kein Einmalpasswort aus und validiert nicht mit einem Server eines Drittanbieters. Stattdessen wird für die Authentifizierung ein [asymetrische Kryptosystem](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem) verwendet (Public-Key-Cryptography).
 
 <figure markdown>
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
@@ -157,6 +157,6 @@ SSH MFA could be set up using multiple different authentication methods that are
 
 SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
 
-### KeePass (and KeePassXC)
+### KeePass (und KeePassXC)
 
 KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second-factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

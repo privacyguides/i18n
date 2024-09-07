@@ -125,7 +125,7 @@ An Android app is not available but it is [in the works](https://discuss.privacy
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-### Minimum Requirements
+### Mindestanforderungen
 
 - Must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.
@@ -133,9 +133,9 @@ An Android app is not available but it is [in the works](https://discuss.privacy
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
 
-### Best-Case
+### Im besten Fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Merkmale, aber diejenigen, die sie enthalten, werden möglicherweise höher eingestuft als andere auf dieser Seite.
 
 - Clients should be open source.
 - Clients should be audited in their entirety by an independent third-party.

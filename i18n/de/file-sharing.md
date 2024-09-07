@@ -157,15 +157,15 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-#### Minimum Requirements
+#### Mindestanforderungen
 
 - Must not require a third-party remote/cloud server.
 - Must be open-source software.
 - Must either have clients for Linux, macOS, and Windows; or have a web interface.
 
-#### Best-Case
+#### Im besten Fall
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Merkmale, aber diejenigen, die sie enthalten, werden möglicherweise höher eingestuft als andere auf dieser Seite.
 
 - Should have mobile clients for iOS and Android which at least support document previews.
 - Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.

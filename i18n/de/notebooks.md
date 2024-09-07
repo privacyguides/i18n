@@ -13,7 +13,7 @@ Keep track of your notes and journalings without giving them to a third-party.
 
 If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports E2EE.
 
-## Cloud-based
+## Cloud-basiert
 
 ### Standard Notes
 
@@ -158,7 +158,7 @@ Cryptee offers 100MB of storage for free, with paid options if you need more. Si
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-### Minimum Requirements
+### Mindestanforderungen
 
 - Clients must be open source.
 - Any cloud sync functionality must be E2EE.

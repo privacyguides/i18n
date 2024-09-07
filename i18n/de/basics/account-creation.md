@@ -42,9 +42,9 @@ Du bist für die Verwaltung deiner Anmeldedaten verantwortlich. Für zusätzlich
 
 #### E-Mail-Aliasse
 
-Wenn du deine echte E-Mail-Adresse nicht an einen Dienst weitergeben möchtest, hast du die Möglichkeit, einen Alias zu verwenden. Wir haben diese auf unserer Empfehlungsseite für E-Mail-Dienste näher beschrieben. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign up process. Those can be filtered automatically based on the alias they are sent to.
+Wenn du deine echte E-Mail-Adresse nicht an einen Dienst weitergeben möchtest, hast du die Möglichkeit, einen Alias zu verwenden. Wir haben diese auf unserer Empfehlungsseite für E-Mail-Dienste näher beschrieben. Im Grunde erlauben dir Alias-Dienste neue E-Mail-Adressen zu generieren, die alle E-Mails an deine Hauptadresse weiterleiten. Dies kann dazu beitragen, die Nachverfolgung über verschiedene Dienste hinweg zu verhindern und die Marketing-E-Mails zu verwalten, die manchmal mit dem Anmeldeprozess einhergehen. Diese können automatisch anhand des Alias gefiltert werden, an den sie gesendet werden.
 
-Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
+Sollte ein Dienst gehackt werden, erhältst du möglicherweise Phishing- oder Spam-E-Mails an die Adresse, die du für die Anmeldung verwendet hast. Die Verwendung eindeutiger Aliasnamen für jeden Dienst kann dabei helfen, genau festzustellen, welcher Dienst gehackt wurde.
 
 [Empfohlene E-Mail-Aliasing-Dienste](../email-aliasing.md ""){.md-button}
 
@@ -82,4 +82,4 @@ In many cases you will need to provide a number that you can receive SMS or call
 
 ### Benutzername und Passwort
 
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
+Bei einigen Diensten kannst du dich ohne E-Mail-Adresse anmelden und musst nur einen Benutzernamen und ein Passwort festlegen. Diese Dienste können in Kombination mit einem VPN oder Tor mehr Anonymität bieten. Denke daran, dass es für diese Konten höchstwahrscheinlich **keine Möglichkeit gibt, dein Konto wiederherzustellen**, falls du deinen Benutzernamen oder dein Passwort vergisst.
