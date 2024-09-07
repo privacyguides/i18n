@@ -65,7 +65,7 @@ schema:
     "@type": SoftwareApplication
     name: Psono
     image: /assets/img/password-management/psono.svg
-    url: https://psono.com
+    url: https://psono.com/de
     applicationCategory: Passwort-Manager
     operatingSystem:
       - Android
@@ -107,7 +107,7 @@ schema:
     "@type": SoftwareApplication
     name: Strongbox
     image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com
+    url: https://strongboxsafe.com/de/
     applicationCategory: Passwort-Manager
     operatingSystem: iOS
     subjectOf:
@@ -188,7 +188,7 @@ Diese Passwort-Manager synchronisieren deine Passwörter mit einem Cloud-Server,
 
 Bitwarden verwendet standardmäßig [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) als Schlüsselableitungsalgorithmus (KDF). Als Alternative bietet es auch das sicherere [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) an. Du kannst den KDF-Algorithmus deines Kontos im Web-Tresor ändern.
 
-- [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
+- [x] Wähle **Einstellungen > Sicherheit > Schlüssel > KDF-Algorithmus > Argon2id**
 
 Der serverseitige Code von Bitwarden ist [quelloffen](https://github.com/bitwarden/server). Wenn du also nicht die Bitwarden-Cloud nutzen möchtest, kannst du problemlos deinen eigenen Bitwarden-Synchronisierungsserver hosten.
 
@@ -274,14 +274,14 @@ Dein 1Password-Tresor ist sowohl mit deinem Master-Passwort als auch mit einem z
 
 <div class="admonition recommendation" markdown>
 
-![Psono logo](assets/img/password-management/psono.svg){ align=right }
+![Psono-Logo](assets/img/password-management/psono.svg){ align=right }
 
-**Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
+**Psono** ist ein freier und quelloffener Passwort-Manager aus Deutschland, der sich auf die Passwortverwaltung für Teams konzentriert. Psono unterstützt den sicheren Austausch von Passwörtern, Dateien, Lesezeichen und E-Mails. Alle Geheimnisse sind durch ein Master-Passwort geschützt.
 
 [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -296,9 +296,9 @@ Dein 1Password-Tresor ist sowohl mit deinem Master-Passwort als auch mit einem z
 
 </div>
 
-Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
+Psono bietet eine umfangreiche Dokumentation für sein Produkt. Der Web-Client für Psono kann selbst gehostet werden; alternativ kannst du die vollständige Community Edition oder die Enterprise Edition mit zusätzlichen Funktionen wählen.
 
-In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-introduces-passkeys) for the browser extension only.
+Im April 2024 fügte Psono [Unterstützung für Passkeys](https://psono.com/blog/psono-introduces-passkeys) nur für die Browsererweiterung hinzu.
 
 ### Kriterien
 

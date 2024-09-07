@@ -5,7 +5,7 @@ description: Discover how to privately share your files between your devices, wi
 cover: file-sharing.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 

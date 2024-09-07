@@ -1,37 +1,37 @@
 ---
 title: "Multi-Faktor-Authentifizierung"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: Diese Tools helfen dir, deine Konten mit Multi-Faktor-Authentifizierung zu sichern, ohne deine Geheimnisse an Dritte weiterzugeben.
 cover: multi-factor-authentication.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Hardware Keys</p>
+<p class="admonition-title">Hardware Schlüssel</p>
 
-[Hardware security key recommendations](security-keys.md) have been moved to their own category.
+[Hardware-Sicherheitsschlüssel-Empfehlungen](security-keys.md) wurden in eine eigene Kategorie verschoben.
 
 </div>
 
-**Multi-Factor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
+**Multi-Faktor-Authentifizierung Apps** implementieren einen von der Internet Engineering Task Force (IETF) verabschiedeten Sicherheitsstandard namens **Time-based One-time Passwords** (TOTP). Bei dieser Methode teilen Websites ein Geheimnis mit dir, das von deiner Authentifizierungs-App verwendet wird, um einen sechsstelligen Code (in der Regel) auf der Grundlage der aktuellen Uhrzeit zu generieren, den du bei der Anmeldung auf der Website zur Überprüfung eingibst. Normalerweise werden diese Codes alle 30 Sekunden neu generiert, und sobald ein neuer Code generiert wurde, wird der alte unbrauchbar. Selbst wenn ein Hacker einen sechsstelligen Code erhält, gibt es für ihn keine Möglichkeit, diesen Code umzukehren, um das ursprüngliche Geheimnis zu erfahren, oder auf andere Weise vorherzusagen, wie zukünftige Codes aussehen könnten.
 
-We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
+Wir empfehlen dir dringend, mobile TOTP-Apps anstelle von Desktop-Alternativen zu verwenden, da Android und iOS eine bessere Sicherheit und App-Isolierung bieten als die meisten Desktop-Betriebssysteme.
 
 ## Ente Auth
 
 <div class="admonition recommendation" markdown>
 
-![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
+![Ente Auth Logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
-**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to backup and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
+**Ente Auth** ist eine kostenlose und quelloffene Anwendung, die TOTP-Tokens speichert und erzeugt. Es kann zusammen mit einem Online-Konto verwendet werden, um deine Token auf deinen Geräten zu sichern und zu synchronisieren (und über eine Weboberfläche auf sie zuzugreifen), und zwar auf sichere, E2EE Weise. Sie kann auch offline auf einem einzigen Gerät genutzt werden, ohne dass ein Konto erforderlich ist.
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -49,15 +49,15 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 <div class="admonition recommendation" markdown>
 
-![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
+![Aegis-Logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
 
-**Aegis Authenticator** is a free and open-source app for Android to manage your 2-step verification tokens for your online services. Aegis Authenticator operates completely offline/locally, but includes the option to export your tokens for backup unlike many alternatives.
+**Aegis Authenticator** ist eine kostenlose und quelloffene App für Android zur Verwaltung deiner 2-Schritt-Verifizierungs-Token für deine Online-Dienste. Aegis Authenticator arbeitet vollständig offline/lokal, bietet aber im Gegensatz zu vielen Alternativen die Möglichkeit, deine Token zur Sicherung zu exportieren.
 
 [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Spenden }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -70,10 +70,10 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 </div>
 
 <!-- markdownlint-disable-next-line -->
-## Criteria
+## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
-- Source code must be publicly available.
-- Must not require internet connectivity.
-- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
+- Der Quellcode muss öffentlich zugänglich sein.
+- Darf keine Internetverbindung erfordern.
+- Die Cloud-Synchronisierung muss optional sein, und (falls verfügbar) muss die Synchronisierungsfunktion E2EE sein.
