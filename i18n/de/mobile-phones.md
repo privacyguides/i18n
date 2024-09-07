@@ -29,16 +29,16 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Angriffe](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-Most **mobile phones** receive short or limited windows of security updates from OEMs; after these devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
+Die meisten **Mobiltelefone** erhalten nur kurze oder begrenzte Zeitfenster für Sicherheitsupdates von den OEMs; nachdem diese Geräte das Ende ihres Supportzeitraums erreicht haben, können sie **nicht** als sicher angesehen werden, da sie keine Sicherheitsupdates für Firmware oder Treiber mehr erhalten.
 
-The mobile devices listed here provide a long lifespan of guaranteed security updates and allow you to install a custom operating system without violating the Android security model.
+Die hier aufgelisteten Mobilgeräte bieten eine lange Lebensdauer garantierter Sicherheitsupdates und ermöglichen Ihnen die Installation eines benutzerdefinierten Betriebssystems, ohne das Android-Sicherheitsmodell zu verletzen.
 
 [Empfohlene Custom ROMs :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details zur Android-Sicherheit :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>
 
-End-of-life devices (such as GrapheneOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+End-of-Life-Geräte (z. B. "erweitertem Support"-Geräte von GrapheneOS) verfügen nicht über vollständige Sicherheitspatches (Firmware-Updates), da der OEM den Support einstellt. Diese Geräte können unabhängig von der installierten Software nicht als völlig sicher angesehen werden.
 
 </div>
 
@@ -72,11 +72,11 @@ Ab dem **Pixel 8** und **8 Pro** erhalten Pixel-Geräte mindestens 7 Jahre lang 
 
 </div>
 
-Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for _all_ of those functions, resulting in a larger attack surface.
+Secure-Elements wie das Titan M2 sind eingeschränkter als die Trusted Execution Environment des Prozessors, die von den meisten anderen Handys verwendet wird, da sie nur für die Speicherung von Geheimnissen, die Hardware-Bescheinigung und die Ratenbegrenzung verwendet werden, nicht aber für die Ausführung "vertrauenswürdiger" Programme. Hndys ohne Secure-Element müssen das TEE für _alle_ diese Funktionen verwenden, was zu einer größeren Angriffsfläche führt.
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+Google Pixel-Telefone verwenden ein TEE-Betriebssystem namens Trusty, das im Gegensatz zu vielen anderen Telefonen [Open Source] (https://source.android.com/security/trusty#whyTrusty) ist.
 
-The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
+Die Installation von GrapheneOS auf einem Pixel-Telefon ist mit dem [Web-Installer](https://grapheneos.org/install/web) einfach. Wenn du dich nicht wohl dabei fühlst, es selbst zu tun und bereit bist, etwas mehr Geld auszugeben, solltest du dir das [NitroPhone](https://shop.nitrokey.com/shop) ansehen, auf dem GrapheneOS von der renommierten Firma [Nitrokey](https://nitrokey.com/about) vorinstalliert ist.
 
 Ein paar weitere Tipps für den Kauf eines Google Pixel:
 

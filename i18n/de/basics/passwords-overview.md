@@ -24,7 +24,7 @@ Alle von uns [empfohlenen Passwort-Manager](../passwords.md) enthalten einen int
 
 Passwörter, die du dir merken musst (z. B. das Master-Passwort deines Passwort-Managers), solltest du nicht zu oft ändern, es sei denn, du hast Grund zu der Annahme, dass es kompromittiert wurde, denn wenn du es zu oft änderst, besteht die Gefahr, dass du es vergisst.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multi-factor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Bei den meisten Passwort-Managern kannst du ein Verfallsdatum für dein Passwort festlegen, um die Verwaltung zu erleichtern.
+Wenn es um Passwörter geht, die du dir nicht merken musst (z. B. Passwörter, die in deinem Passwort-Manager gespeichert sind), empfehlen wir, falls dein [Bedrohungsmodell](threat-modeling.md) dies erfordert, wichtige Konten durchzugehen (insbesondere Konten, die keine Multi-Faktor-Authentifizierung verwenden) und deine Passwörter alle paar Monate zu ändern, für den Fall, dass sie durch eine noch nicht öffentlich gewordene Datenpanne gefährdet sind. Bei den meisten Passwort-Managern kannst du ein Verfallsdatum für dein Passwort festlegen, um die Verwaltung zu erleichtern.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Nach Datenlecks suchen</p>
@@ -80,7 +80,7 @@ Wir empfehlen, die [große Wortliste des EFF](https://eff.org/files/2016/07/18/e
 <details class="note" markdown>
 <summary>Erläuterung von Entropie und der Stärke Diceware-Passphrasen</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+Um zu demonstrieren, wie stark Passphrasen für Diceware sind, verwenden wir die oben erwähnte Passphrase mit sieben Wörtern(`sichtbar Schnelligkeit zögerlich weich siebzehn gezeigt Bleistift`) und die [große Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) als Beispiel.
 
 Eine Kennzahl zur Bestimmung der Stärke einer Diceware-Passphrase ist die Entropie, die sie aufweist. Die Entropie pro Wort in einer Diceware-Passphrase wird wie folgt berechnet <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WörterInListe</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> und die Gesamtentropie der Passphrase wird wie folgt berechnet: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WörterInListe</mtext> <mtext>WörterInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
@@ -88,13 +88,13 @@ Daher ergibt jedes Wort in der oben genannten Liste ~12,9 Bits an Entropie (<mat
 
 [Die große Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) enthält 7776 einzigartige Wörter. Um die Anzahl der möglichen Passphrasen zu berechnen, müssen wir nur Folgendes tun <math> <msup> <mtext>WörterInListe</mtext> <mtext>WörterInPhrase</mtext> </msup> </math>, oder in unserem Fall, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Lass uns das in den richtigen Kontext setzen: Eine Passphrase mit sieben Wörtern unter Verwendung der [großen Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) ist eine von ~1.719.070.799.748.422.500.000.000.000 möglichen Passphrasen.
 
-On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
+Im Durchschnitt müssen 50 % aller möglichen Kombinationen ausprobiert werden, um deinen Satz zu erraten. Selbst wenn dein Gegner in der Lage ist, ~1.000.000.000.000 Mal pro Sekunde zu raten, bräuchte er immer noch ~27.255.689 Jahre, um deine Passphrase zu erraten. Das ist auch dann der Fall, wenn die folgenden Dinge zutreffen:
 
-- Your adversary knows that you used the diceware method.
-- Your adversary knows the specific wordlist that you used.
-- Your adversary knows how many words your passphrase contains.
+- Dein Gegner weiß, dass du die Diceware-Methode verwendet hast.
+- Dein Gegner weiß die spezifische Wortliste, die du verwendet hast.
+- Dein Gegner weiß, wie viele Wörter deine Passphrase enthält.
 
 </details>
 
@@ -104,23 +104,23 @@ Zusammenfassend lässt sich sagen, dass Diceware-Passphrasen die beste Wahl sind
 
 ### Passwortverwaltung
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+Die beste Möglichkeit, deine Passwörter zu speichern, ist ein Passwort-Manager. Sie ermöglichen es dir, deine Passwörter in einer Datei oder in der Cloud zu speichern und sie mit einem einzigen Master-Passwort zu schützen. Auf diese Weise musst du dir nur ein einziges starkes Passwort merken, mit dem du Zugang zu allen anderen hast.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
+Es stehen viele gute Optionen zur Auswahl, sowohl cloudbasierte als auch lokale. Wähle einen der von uns empfohlenen Passwort-Manager und verwende ihn, um sichere Passwörter für alle deine Konten zu erstellen. Wir empfehlen, dein Passwort-Manager mit einer [Diceware-Passphrase](#diceware-passphrases) zu sichern, die aus mindestens sieben Wörtern besteht.
 
 [Empfohlene Passwort-Manager](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
+<p class="admonition-title">Speichere deine Passwörter und TOTP-Tokens nicht im selben Passwortmanager ab</p>
 
-When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+Wenn du [TOTP-Codes als Multi-Faktor-Authentifizierung](multi-factor-authentication.md#time-based-one-time-password-totp) verwendest, ist es die beste Sicherheitspraxis, deine TOTP-Codes in einer [separaten Anwendung](../multi-factor-authentication.md) zu speichern.
 
-Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+Das Speichern deiner TOTP-Tokens am gleichen Ort wie deine Passwörter ist zwar praktisch, reduziert aber die Konten auf einen einzigen Faktor, falls ein Angreifer Zugang zu deinem Passwortmanager erhält.
 
-Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
+Außerdem raten wir davon ab, Wiederherstellungscodes zur einmaligen Verwendung in deinem Passwortmanager zu speichern. Diese sollten separat gespeichert werden, z. B. in einem verschlüsselten Container auf einem Offline-Speichergerät.
 
 </div>
 
 ### Backups
 
-You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+Du solltest eine [verschlüsselte](../encryption.md) Sicherungskopie deiner Passwörter auf mehreren Speichermedien oder bei einem Cloud-Speicheranbieter speichern. So kannst du auf deine Passwörter zugreifen, falls dein Hauptgerät oder der von dir genutzte Dienst beschädigt wird.
