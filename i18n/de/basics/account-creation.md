@@ -50,21 +50,21 @@ Sollte ein Dienst gehackt werden, erhältst du möglicherweise Phishing- oder Sp
 
 ### "Anmelden mit ..." (OAuth)
 
-OAuth is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+OAuth ist ein Authentifizierungsprotokoll, das es dir ermöglicht, dich für einen Dienst anzumelden, ohne viele Informationen an den Dienstanbieter weiterzugeben, indem du stattdessen ein bestehendes Konto bei einem anderen Dienst verwendest. Wenn du in einem Registrierungsformular etwas wie "Mit *Anbietername* anmelden" siehst, wird in der Regel OAuth verwendet.
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+Wenn du dich mit OAuth anmeldest, wird eine Anmeldeseite bei dem von dir gewählten Anbieter geöffnet, und dein bestehendes Konto und das neue Konto werden miteinander verbunden. Dein Passwort wird nicht weitergegeben, wohl aber einige grundlegende Informationen (die du bei der Anmeldeanfrage einsehen kannst). Dieser Vorgang ist jedes Mal erforderlich, wenn du dich bei demselben Konto anmelden möchtest.
 
 Die wichtigsten Vorteile sind:
 
-- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease of use**: multiple accounts are managed by a single login.
+- **Sicherheit**: Du musst dich nicht auf die Sicherheitspraktiken des Dienstes verlassen, bei dem du dich anmeldest, wenn es um die Speicherung deiner Anmeldedaten geht, da diese bei einem externen OAuth-Anbieter gespeichert werden. Diese Dienste, wie Apple und Google, wenden in der Regel die besten Sicherheitspraktiken an, Authentifizierungssysteme werden kontinuierlich überprüft und Anmeldedaten nicht in unangemessener Weise (z. B. im Klartext) gespeichert.
+- **Benutzerfreundlichkeit**: Mehrere Konten werden über ein einziges Login verwaltet.
 
 Aber es gibt auch Nachteile:
 
-- **Privacy**: the OAuth provider you log in with will know the services you use.
-- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **Privatsphäre**: Der OAuth-Anbieter, bei dem du dich anmeldest, weiß, welche Dienste du nutzt.
+- **Zentralisierung**: Wenn das Konto, das du für OAuth verwendest, kompromittiert wird oder du nicht in der Lage bist, dich bei diesem anzumelden, sind alle anderen Konten, die mit dem Account verbunden sind, betroffen.
 
-OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+OAuth kann besonders in Situationen nützlich sein, in denen du von einer tieferen Integration zwischen Diensten profitieren kannst. Wir empfehlen, OAuth nur dort zu verwenden, wo du es brauchst, und das Hauptkonto immer mit [MFA](multi-factor-authentication.md) zu schützen.
 
 All the services that use OAuth will be as secure as your underlying OAuth provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
 
@@ -74,11 +74,11 @@ Malicious applications, particularly on mobile devices where the application has
 
 ### Telefonnummer
 
-We recommend avoiding services that require a phone number for sign up. A phone number can identity you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+Wir empfehlen, Dienste zu meiden, die eine Telefonnummer für die Anmeldung erfordern. Eine Telefonnummer kann dich bei mehreren Diensten identifizieren, und je nach den Vereinbarungen über die gemeinsame Nutzung von Daten lässt sich deine Nutzung leichter nachverfolgen, vor allem, wenn einer dieser Dienste angegriffen wird, da die Telefonnummer oft **nicht** verschlüsselt ist.
 
-You should avoid giving out your real phone number if you can. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Wenn möglich, solltest du deine echte Telefonnummer nicht herausgeben. Einige Dienste gestatten die Verwendung von VOIP-Nummern, die jedoch häufig Betrugserkennungssysteme auslösen und zur Sperrung eines Kontos führen, weshalb wir dies für wichtige Konten nicht empfehlen.
 
-In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
+In vielen Fällen musst du eine Nummer angeben, unter der du SMS oder Anrufe empfangen kannst, insbesondere bei internationalen Einkäufen, falls es bei der Grenzkontrolle Probleme mit deiner Bestellung gibt. Es ist üblich, dass Dienste deine Nummer als Verifizierungsmethode verwenden; lasse es nicht zu, dass du aus einem wichtigen Konto ausgesperrt wirst, weil du clever sein und eine falsche Nummer angeben willst!
 
 ### Benutzername und Passwort
 
