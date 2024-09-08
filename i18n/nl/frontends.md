@@ -270,7 +270,7 @@ Piped vereist JavaScript om te kunnen functioneren en er zijn een aantal openbar
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Piped is handig als je [SponsorBlock](https://sponsor.ajay.app) wilt gebruiken zonder een extensie te installeren of als je zonder account toegang wilt krijgen tot inhoud met leeftijdsbeperkingen. Het biedt op zichzelf geen privacy, en wij raden niet aan in te loggen op een account.
+Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. Het biedt op zichzelf geen privacy, en wij raden niet aan in te loggen op een account.
 
 </div>
 

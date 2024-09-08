@@ -270,7 +270,7 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Piped полезен, если вы хотите использовать [SponsorBlock](https://sponsor.ajay.app) без установки расширения или получить доступ к контенту с возрастными ограничениями без учетной записи. Сам по себе он не обеспечивает конфиденциальности, и мы не рекомендуем входить в какие-либо учетные записи.
+Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. Сам по себе он не обеспечивает конфиденциальности, и мы не рекомендуем входить в какие-либо учетные записи.
 
 </div>
 

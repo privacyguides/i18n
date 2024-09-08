@@ -270,7 +270,7 @@ Piped דורש JavaScript כדי לתפקד ויש מספר מופעים ציב�
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Piped שימושי אם ברצונך להשתמש ב - [SponsorBlock](https://sponsor.ajay.app) מבלי להתקין תוסף או לגשת לתוכן מוגבל לגיל ללא חשבון. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
+Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. הוא אינו מספק פרטיות בפני עצמו, ואנחנו לא ממליצים להיכנס לחשבונות כלשהם.
 
 </div>
 

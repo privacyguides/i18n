@@ -270,7 +270,7 @@ Piped 需要JavaScript 才能運行，它有許多公共實例。
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>
 
-如果您想使用 [SponsorBlock](https://sponsor.ajay.app)但不安裝瀏覽器擴展或在不登入帳戶訪問有年齡限制的內容， Piped 非常有用。 它本身不提供隱私，故不建議登入任何帳戶。
+Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. 它本身不提供隱私，故不建議登入任何帳戶。
 
 </div>
 
