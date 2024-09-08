@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "最受歡迎的 & 值得信賴的非營利性網站，可尋找隱私工具並學習如何保護您的數位生活。 無廣告 & 無聯盟行銷，高品質評論"
+description: "Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life. 無廣告 & 無聯盟行銷，高品質評論"
 template: home.html
 social:
   cards_layout: home
@@ -14,13 +14,12 @@ schema:
     "@type": Organization
     "@id": https://www.privacyguides.org/
     name: Privacy Guides
-    url: https://www.privacyguides.org/en/about/
+    url: https://www.privacyguides.org/
     logo: https://www.privacyguides.org/en/assets/brand/logos/png/square/pg-yellow.png
     sameAs:
       - https://twitter.com/privacy_guides
       - https://github.com/privacyguides
       - https://www.wikidata.org/wiki/Q111710163
-      - https://opencollective.com/privacyguides
       - https://www.youtube.com/@privacyguides
       - https://mastodon.neat.computer/@privacyguides
   - 
