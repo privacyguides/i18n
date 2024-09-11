@@ -4,11 +4,11 @@ title: Algemene criteria
 
 Hieronder staan enkele algemene prioriteiten die we in overweging nemen voor alle inzendingen voor Privacy Guides. Elke categorie heeft extra vereisten voor opname.
 
-- **Beveiliging**: Tools moeten de beste beveiligingspraktijken volgen waar van toepassing.
+- **Security**: Tools should follow security best practices wherever applicable.
 - **Bronbeschikbaarheid**: Open-source projecten hebben over het algemeen de voorkeur boven gelijkwaardige propriëtaire alternatieven.
-- **Cross-platform beschikbaarheid**: We geven er gewoonlijk de voorkeur aan dat aanbevelingen platformonafhankelijk zijn, om te voorkomen dat u aan een bepaalde leverancier vastzit.
-- **Actieve ontwikkeling**: De hulpmiddelen die wij aanbevelen moeten actief worden ontwikkeld, niet-onderhouden projecten zullen in de meeste gevallen worden verwijderd.
-- **Bruikbaarheid**: Tools moeten toegankelijk zijn voor de meeste computergebruikers, een al te technische achtergrond is niet vereist.
+- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform to avoid vendor lock-in.
+- **Active Development**: The tools that we recommend should be actively developed. Unmaintained projects will be removed in most cases.
+- **Usability**: Tools should be accessible to most computer users. An overly technical background should not be required.
 - **Documentatie**: Tools moeten duidelijke en uitgebreide documentatie hebben voor gebruik.
 
 ## Financiële informatie
@@ -19,14 +19,16 @@ We verdienen geen geld met het aanbevelen van bepaalde producten, we gebruiken g
 
 Wij stellen deze eisen aan ontwikkelaars die hun project of software in overweging willen geven.
 
+- Must undergo our [self-submission process](https://discuss.privacyguides.net/t/about-the-project-showcase-category/114) as a way to engage with our community, address any potential concerns, and elicit any feedback that can help improve your project.
+
 - Je moet jouw banden bekendmaken, d.w.z. jouw positie binnen het ingediende project.
 
-- Moet een security whitepaper hebben als het een project is waarbij gevoelige informatie wordt verwerkt, zoals een messenger, password manager, versleutelde cloudopslag etc.
-    - Auditstatus van derden. We willen weten of je er een hebt, of gepland hebt. Vermeld indien mogelijk wie de controle zal uitvoeren.
+- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+    - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Vermeld indien mogelijk wie de controle zal uitvoeren.
 
 - Moet uitleggen wat het project te bieden heeft op het gebied van privacy.
-    - Lost het een nieuw probleem op?
+    - What new problem(s), if any, does it solve?
     - Waarom zou iemand het gebruiken boven de alternatieven?
 
 - Moeten aangeven wat het exacte dreigingsmodel is van hun project.
-    - Het moet voor potentiële gebruikers duidelijk zijn wat het project kan bieden, en wat niet.
+    - Het moet voor potentiële gebruikers duidelijk zijn wat het project kan bieden, en wat niet. Ideally, a developer should be able to identify what [common threat(s)](../basics/common-threats.md) their project protects against.
