@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre la (les) menace(s) suivante(s) :</small>
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -71,7 +71,7 @@ Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt u
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-Le **navigateur Mullvad** est une version du [navigateur Tor](tor.md#tor-browser) avec les intégrations au réseau Tor supprimées. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
+Le **navigateur Mullvad** est une version du [navigateur Tor](tor.md#tor-browser) avec les intégrations au réseau Tor supprimées. Il vise à fournir aux utilisateurs de VPN les technologies d'anti-capture d'empreintes numériques du Navigateur Tor, qui sont des protections clés contre la [:material-eye-outline: surveillance de masse](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
 
 [:octicons-home-16: Page d'accueil](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -335,7 +335,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Web3
 
-Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreinte numérique de votre navigateur et à la surface d'attaque. Unless you use any of these features, they should be disabled.
+Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreinte numérique de votre navigateur et à la surface d'attaque. À moins que vous n'utilisiez l'une de ces fonctions, elles devraient être désactivées.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
@@ -345,7 +345,7 @@ Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreint
 
 - [ ] Uncheck all built-in extensions you don't use
 
-#### System
+#### Système
 
 <div class="annotate" markdown>
 
@@ -387,7 +387,7 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 
 - Doit inclure une fonctionnalité intégrée de blocage du contenu.
 - Supporte la compartimentation des cookies (à la [Account Containers](https://support.mozilla.org/kb/containers)).
-- Devrait prendre en charge les applications Web progressives (PWAs). Les PWAs vous permettent d'installer certains sites web comme s'il s'agissait d'applications natives sur votre ordinateur. This can have advantages over installing Electron-based apps, because PWAs benefit from your browser's regular security updates.
+- Devrait prendre en charge les applications Web progressives (PWAs). Les PWAs vous permettent d'installer certains sites web comme s'il s'agissait d'applications natives sur votre ordinateur. Cela peut présenter des avantages par rapport à l'installation d'applications basées sur Electron, car vous bénéficiez des mises à jour de sécurité régulières de votre navigateur.
 - Ne comprend pas de fonctionnalités supplémentaires (bloatwares) qui n'ont pas d'incidence sur la vie privée des utilisateurs.
 - Ne devrait pas collecter de télémétrie par défaut.
 - Devrait fournir une implémentation de serveur de synchronisation open-source.
