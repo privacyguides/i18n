@@ -50,4 +50,4 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 它必須是開源的。
-- Must be possible to self-host.
+- 必須可以自行託管。

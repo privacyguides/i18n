@@ -25,7 +25,7 @@ Sous Linux, un outil graphique tiers [Metadata Cleaner](https://gitlab.com/rmnvg
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -147,7 +147,7 @@ Elle est souvent un composant d'autres applications de suppression d'Exif et se 
 [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:fontawesome-brands-windows: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)
@@ -158,7 +158,7 @@ Elle est souvent un composant d'autres applications de suppression d'Exif et se 
 </div>
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Deleting data from a directory of files</p>
+<p class="admonition-title">Suppression des données d'un répertoire de fichiers</p>
 
 ```bash
 exiftool -all= *.file_extension

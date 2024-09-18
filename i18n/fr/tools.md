@@ -9,7 +9,7 @@ description: Privacy Guides est le site web le plus transparent et le plus fiabl
 
 Si vous cherchez une solution spécifique à un problème, voici pour diverses catégories les outils matériels et logiciels que nous vous recommandons. Les outils de protection de la vie privée que nous recommandons sont principalement choisis pour leurs fonctionnalités de sécurité, avec une attention particulière pour les outils décentralisés et open source. Ils sont adaptés à divers modèles menaces, que vous cherchiez à vous protéger contre les programmes de surveillance de masse mondiaux et à éviter les grandes entreprises du numérique, voire à mitiger les attaques. Toutefois, vous seul êtes en mesure de déterminer ce qui répondra le mieux à vos besoins.
 
-[VPN Providers](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
+[Fournisseurs de VPN](vpn.md ""){.md-button} [Gestionnaires de mots de passe](passwords.md ""){.md-button} [Fournisseurs d'e-mail](email.md ""){.md-button} [Extensions de navigateur](browser-extensions.md ""){.md-button} [Serveurs DNS](dns.md ""){.md-button} [Services d'alias d'e-mail](email-aliasing.md ""){.md-button} [Outils d'organisation de photos](photo-management.md ""){.md-button}
 
 Si vous souhaitez obtenir de l'aide pour trouver quels sont les outils de protection de la vie privée et les alternatives les plus adaptés à vos besoins, lancez une discussion sur notre [forum](https://discuss.privacyguides.net) ou sur notre communauté [Matrix](https://matrix.to/#/#privacyguides:matrix.org) !
 
@@ -18,29 +18,29 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 <div class="grid" markdown>
 
 <div markdown>
-- [x] **Ad-Free Recommendations**
-- [x] **Frequent Updates**
-- [x] **Trusted by Readers**
+- [x] **Recommandations sans publicité**
+- [x] **Mises à jour fréquentes**
+- [x] **Confiance des lecteurs**
 </div>
 
 <div markdown>
-- [x] **Complete Editorial Independence**
-- [x] **Open-Source Contributions**
-- [x] **Trusted by Journalists**
+- [x] **Indépendance éditoriale totale**
+- [x] **Contributions de sources ouvertes**
+- [x] **Confiance des journalistes**
 </div>
 
 </div>
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Threat Model Labels</p>
+<p class="admonition-title">Étiquettes du modèle de menace</p>
 
-You may find any of the following icons on some of the recommendation pages: <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
+Vous pouvez trouver l'une des icônes suivantes sur certaines pages de recommandation : <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
 
-We are testing a new feature that allows readers to better identify and understand the kinds of threats that privacy tools best defend against. Let us know what you think about this feature by replying to this dedicated forum [thread](https://discuss.privacyguides.net/t/implement-threat-model-labels/18659)!
+Nous testons une nouvelle fonctionnalité qui permet aux lecteurs de mieux identifier et comprendre les types de menaces contre lesquelles les outils de protection de la vie privée sont les plus efficaces. Dites-nous ce que vous pensez de cette fonctionnalité en répondant à ce [fil] du forum dédié (https://discuss.privacyguides.net/t/implement-threat-model-labels/18659) !
 
 </div>
 
-## Private Web Browsers
+## Navigateurs Web privés
 
 <div class="admonition recommendation" markdown>
 

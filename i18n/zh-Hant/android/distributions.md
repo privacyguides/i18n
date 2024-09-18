@@ -32,10 +32,10 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: 針對性攻擊](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: 被動攻擊](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 **基於 Android 的自訂作業系統**（通常稱為 **自訂 ROM**）是在裝置上實現更高層級的隱私和安全性的流行方法。 這與 Android 的「stock」版本形成鮮明對比，「stock」版本是手機出廠時附帶的，並且通常與 Google Play 服務 深度整合。
 
@@ -62,13 +62,13 @@ GrapheneOS 提供了額外的 [安全強化](https://zh.m.wikipedia.org/wiki/%E5
 
 </div>
 
-GrapheneOS supports [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs Google Play Services fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as push notifications, while giving you full control over their permissions and access, and while containing them to a specific [work profile](../os/android-overview.md#work-profile) or [user profile](../os/android-overview.md#user-profiles) of your choice.
+GrapheneOS 支援 [沙盒化 Google Play](https://grapheneos.org/usage#sandboxed-google-play) ，他將 Google Play 服務 完全沙盒化，使其如同其他常規應用程式一樣運行。 這意味著可正常使用大多數 Google Play 服務 所提供的功能，像是 推送通知 ，同時讓您完全控制其存取能力和權限，並將其包含在所選的特定 [工作設定檔](../os/android-overview.md#work-profile) 或 [用戶設定檔](../os/android-overview.md#user-profiles) 。
 
 [Google Pixel系列](../mobile-phones.md#google-pixel) 是目前唯一符合 GrapheneOS [硬體安全要求](https://grapheneos.org/faq#future-devices) 的裝置。
 
-By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
+預設情況下，Android 會與 Google 進行許多網路連線，以執行 DNS 連線檢查、同步目前的網路時間、檢查您的網路連線，以及其他許多背景工作。 GrapheneOS 不這麼做，他們通過讓作業系統與由其團隊所擁有的伺服器通信來完成上述工作，這些伺服器遵守他們的隱私權政策 這能向 [Google] (.../basics/common-threats.md#privacy-from-service-providers) 隱藏您的資訊（例如：IP位置），但這意味著您的網路管理員或 ISP 的很容易看到您正在連線到 `grapheneos.network`、`grapheneos.org` 等，並推斷出您使用的作業系統。
 
-If you want to hide information like this from an adversary on your network or ISP, you **must** use a [trusted VPN](../vpn.md) in addition to changing the connectivity check setting to **Standard (Google)**. It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+如果您想要隱藏類似此類的資訊，以避免被您網路上或 ISP 上的對手發現，除了將連線檢查設定變更為 **Standard (Google)** 之外，您還 **必須** 使用 [可信賴的 VPN](../vpn.md)。 它可以在 :gear: **設定** → **網路與網際網路** → **Internet connectivity checks** 中找到. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
 
 ### DivestOS
 
