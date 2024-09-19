@@ -193,7 +193,7 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** ist der Standard-Browser in iOS. Es umfasst [Datenschutzfunktionen](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) wie [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Datenschutzbericht, isolierte und ephemere Private-Browsing-Tabs, Maßnahmen gegen Fingerprinting (indem Websites eine vereinfachte Version der Systemkonfiguration angezeigt wird, sodass mehrere Geräte identisch aussehen) und Private Relay für Nutzer:innen mit einem kostenpflichtigen iCloud+-Abonnement. Außerdem kannst du dein Browsing mit verschiedenen Profilen trennen und private Tabs mit deinen biometrischen Daten/PIN sperren.
+**Safari** ist der Standard-Browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. Außerdem kannst du dein Browsing mit verschiedenen Profilen trennen und private Tabs mit deinen biometrischen Daten/PIN sperren.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Datenschutz" }
@@ -205,7 +205,7 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 
 ### Empfohlene Safari-Konfiguration
 
-Wir empfehlen die Installation von [AdGuard](browser-extensions.md#adguard) als Inhaltsblocker, wenn du Tracker in Safari blockieren möchtest.
+We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
 Die folgenden datenschutz- und sicherheitsrelevanten Optionen findest du in der App :gear: **Einstellungen** → **Safari**
 
