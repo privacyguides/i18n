@@ -122,13 +122,13 @@ Alle Versionen sind mit der gleichen Signatur versehen, sodass sie miteinander k
 
 </div>
 
-## Onion Browser
+## Onion Browser (iOS)
 
 <div class="admonition recommendation" markdown>
 
 ![Onion Browser Logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-Der **Onion Browser** ist ein Open-Source-Browser, mit dem du auf iOS-Geräten anonym über das Tor-Netzwerk im Internet surfen kannst. Er wird vom [Tor-Projekt](https://support.torproject.org/glossary/onion-browser) unterstützt.
+Der **Onion Browser** ist ein Open-Source-Browser, mit dem du auf iOS-Geräten anonym über das Tor-Netzwerk im Internet surfen kannst. Er wird vom [Tor-Projekt](https://support.torproject.org/glossary/onion-browser) unterstützt. [:material-star-box: Read our latest Onion Browser review.](/articles/2024/09/18/onion-browser-review/)
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -144,5 +144,7 @@ Der **Onion Browser** ist ein Open-Source-Browser, mit dem du auf iOS-Geräten a
 </details>
 
 </div>
+
+Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
 
 [^1]: Die `IsolateDestAddr`-Einstellung wird auf der [Tor Mailingliste](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) und [Whonix's Stream Isolation Dokumentation](https://whonix.org/wiki/Stream_Isolation)diskutiert, wo beide Projekte darauf hinweisen, dass es für die meisten Leute kein guter Ansatz ist.

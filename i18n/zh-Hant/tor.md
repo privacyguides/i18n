@@ -122,13 +122,13 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 
 </div>
 
-## Onion 瀏覽器
+## Onion Browser (iOS)
 
 <div class="admonition recommendation" markdown>
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion 瀏覽器** 為開源瀏覽器可在 iOS 設備上匿名瀏覽 Tor 網絡，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。
+**Onion 瀏覽器** 為開源瀏覽器可在 iOS 設備上匿名瀏覽 Tor 網絡，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。 [:material-star-box: Read our latest Onion Browser review.](/articles/2024/09/18/onion-browser-review/)
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
@@ -144,5 +144,7 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 </details>
 
 </div>
+
+Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
 
 [^1]: `IsolateDestAddr` 設定問題已在 [Tor 郵件群組](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) 中討論過而且在 [Whonix's 串流隔離文檔](https://whonix.org/wiki/Stream_Isolation)，兩項專案都認為對大多數人而言它並不是好方法。

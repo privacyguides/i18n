@@ -19,7 +19,8 @@ schema:
     url: https://brave.com
     applicationCategory: Web Browser
     operatingSystem:
-      - אנדרואיד
+      - Android
+      - iOS
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -43,9 +44,7 @@ schema:
 
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. אם אתה צריך לגלוש באינטרנט באופן אנונימי, אתה צריך להשתמש [Tor](tor.md) במקום.
 
-## אנדרואיד
-
-### Brave
+## Brave
 
 <div class="admonition recommendation" markdown>
 
@@ -66,22 +65,23 @@ Brave בנוי על פרויקט דפדפן Chromium, כך שהוא אמור ל�
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
 
 </details>
 
 </div>
 
-#### Recommended Brave Configuration
+### Recommended Brave Configuration
 
 דפדפן Tor הוא הדרך היחידה לגלוש באמת באינטרנט באופן אנונימי. כאשר אתה משתמש ב-Brave, אנו ממליצים לשנות את ההגדרות הבאות כדי להגן על פרטיותך מפני גורמים מסוימים, אך כל הדפדפנים מלבד [Tor דפדפן](tor.md#tor-browser) יהיו ניתנים למעקב על ידי *מישהו* בהקשר זה או אחר.
 
 ניתן למצוא אפשרויות אלו ב :material-menu: → **הגדרות** → **Brave Shields & פרטיות**
 
-##### Shields
+#### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
-##### ברירות מחדל גלובליות של Brave Shield
+#### Brave shields global defaults
 
 ניתן לשדרג לאחור את האפשרויות של Shields על בסיס אתר לפי הצורך, אך כברירת מחדל אנו ממליצים להגדיר את האפשרויות הבאות:
 
@@ -108,15 +108,15 @@ Brave allows you to select additional content filters within the internal `brave
 
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
-##### IPFS
+#### Clear browsing data
 
 - [x] בחר **נקה נתונים ביציאה**
 
-##### חסימת מדיה חברתית
+#### Social Media Blocking
 
 - [ ] בטל את הסימון של כל רכיבי המדיה החברתית
 
-##### הגדרות פרטיות אחרות
+#### Other privacy settings
 
 <div class="annotate" markdown>
 
@@ -134,17 +134,17 @@ Brave allows you to select additional content filters within the internal `brave
 1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
 2. InterPlanetary File System (IPFS) היא רשת מבוזרת, עמית לעמית לאחסון ושיתוף נתונים במערכת קבצים מבוזרת. אלא אם אתה משתמש בתכונה, השבת אותה.
 
-#### Leo
+### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**
 
 - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-#### סנכרון Brave
+### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-### Mull
+## Mull (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -177,7 +177,7 @@ Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to 
 
 Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 
-#### Recommended Mull Configuration
+### Recommended Mull Configuration
 
 We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
 
@@ -185,11 +185,9 @@ Mull comes with privacy protecting settings configured by default. You might con
 
 Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
 
-## iOS
+## Safari (iOS)
 
 ב-iOS, כל אפליקציה שיכולה לגלוש באינטרנט [מוגבלת](https://developer.apple.com/app-store/review/guidelines) לשימוש ב[מסגרת WebKit](https://developer.apple.com/documentation/webkit), כך שאין סיבה קטנה להשתמש בדפדפן אינטרנט של צד שלישי.
-
-### Safari
 
 <div class="admonition recommendation" markdown>
 
@@ -205,17 +203,17 @@ Because Mull has more advanced and strict privacy protections enabled by default
 
 </div>
 
-#### Recommended Safari Configuration
+### Recommended Safari Configuration
 
 We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
 
 The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
 
-##### Profiles
+#### Profiles
 
 All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
-##### פרטיות& אבטחה
+#### פרטיות& אבטחה
 
 - [x] אפשר **מנע מעקב בין אתרים**
 
@@ -225,19 +223,19 @@ All of your cookies, history, and website data will be separate for each profile
 
     This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-##### Advanced → Privacy
+#### Advanced → Privacy
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-##### דוח פרטיות
+#### דוח פרטיות
 
 דוח הפרטיות מספק תמונה של עוקבים חוצי אתרים שכרגע מונעים ממך ליצור פרופיל באתר שבו אתה מבקר. הוא יכול גם להציג דוח שבועי כדי להראות אילו עוקבים נחסמו לאורך זמן.
 
 ניתן לגשת לדוח הפרטיות דרך התפריט 'הגדרות דף '.
 
-##### שמירת הפרטיות של מדידת המודעות
+#### שמירת הפרטיות של מדידת המודעות
 
 - [ ] השבת **פרטיות שמירה על מדידת מודעות**
 
@@ -245,7 +243,7 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 לתכונה יש מעט חששות פרטיות בפני עצמה, כך שבעוד שאתה יכול לבחור להשאיר אותה פועלת, אנו רואים בעובדה שהיא מושבתת אוטומטית בגלישה פרטית כאינדיקטור להשבית התכונה.
 
-##### גלישה פרטית תמיד
+#### גלישה פרטית תמיד
 
 פתח את Safari והקש על כפתור הכרטיסיות, הממוקם בפינה השמאלית התחתונה. לאחר מכן, הרחב את רשימת קבוצות הכרטיסיות.
 
@@ -255,7 +253,7 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 שימו לב שגלישה פרטית אינה שומרת קובצי עוגיות ונתוני אתר, כך שלא ניתן יהיה להישאר מחובר לאתרים. זה עשוי להיות אי נוחות.
 
-##### iCloud Sync
+#### iCloud Sync
 
 סנכרון של היסטוריית ספארי, קבוצות כרטיסיות, כרטיסיות iCloud וסיסמאות שמורות הם E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 

@@ -20,6 +20,7 @@ schema:
     applicationCategory: Web Browser
     operatingSystem:
       - Android
+      - iOS
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -43,9 +44,7 @@ schema:
 
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. 익명으로 인터넷을 탐색해야 하는 경우라면, [Tor](tor.md)를 사용해야 합니다.
 
-## Android
-
-### Brave
+## Brave
 
 <div class="admonition recommendation" markdown>
 
@@ -66,22 +65,23 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
 
 </details>
 
 </div>
 
-#### Recommended Brave Configuration
+### Recommended Brave Configuration
 
 진정한 익명 인터넷 탐색이 가능한 유일한 방법은 Tor 브라우저입니다. 다음 설정들은 여러분이 Brave를 사용할 때 특정 주체로부터 프라이버시를 보호할 수 있도록 권장드리는 사항입니다. [Tor 브라우저](tor.md#tor-browser) 이외의 모든 브라우저는 어떤 식으로든 누군가는 특정 대상을 추적할 수 있음을 명심해야 합니다.
 
 이러한 옵션은 :material-menu: → **설정** → **Brave Shields 및 프라이버시**에서 확인할 수 있습니다.
 
-##### Shields
+#### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
-##### Brave Shields 전역 기본값
+#### Brave shields global defaults
 
 필요에 따라 사이트별로 보호 옵션을 낮출 수 있으나, 기본적으로 다음과 같이 설정할 것을 권장드립니다:
 
@@ -108,15 +108,15 @@ Brave allows you to select additional content filters within the internal `brave
 
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
-##### 인터넷 사용 기록 삭제
+#### Clear browsing data
 
 - [x] **종료 시 데이터 지우기** 활성화
 
-##### 소셜 미디어 차단
+#### Social Media Blocking
 
 - [ ] 모든 소셜 미디어 항목 비활성화
 
-##### 기타 프라이버시 설정
+#### Other privacy settings
 
 <div class="annotate" markdown>
 
@@ -134,17 +134,17 @@ Brave allows you to select additional content filters within the internal `brave
 1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
 2. IPFS(InterPlanetary File System)는 분산 파일 시스템에서 데이터를 저장하고 공유하기 위한 탈중앙화 P2P 네트워크입니다. 해당 기능을 사용하지 않는다면 비활성화하세요.
 
-#### Leo
+### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**
 
 - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-#### Brave 동기화
+### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-### Mull
+## Mull (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -177,7 +177,7 @@ Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to 
 
 Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 
-#### Recommended Mull Configuration
+### Recommended Mull Configuration
 
 We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
 
@@ -185,11 +185,9 @@ Mull comes with privacy protecting settings configured by default. You might con
 
 Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
 
-## iOS
+## Safari (iOS)
 
 iOS에서는 웹 브라우징이 가능한 모든 앱이 Apple에서 제공하는 [Webkit 프레임워크](https://developer.apple.com/documentation/webkit)를 사용하도록 [강제되기 때문에](https://developer.apple.com/app-store/review/guidelines), 타사 웹 브라우저를 사용할 이유가 거의 없습니다.
-
-### Safari
 
 <div class="admonition recommendation" markdown>
 
@@ -205,17 +203,17 @@ iOS에서는 웹 브라우징이 가능한 모든 앱이 Apple에서 제공하�
 
 </div>
 
-#### Recommended Safari Configuration
+### Recommended Safari Configuration
 
 We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
 
 The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
 
-##### Profiles
+#### Profiles
 
 All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
-##### 개인 정보 및 보안
+#### 개인 정보 및 보안
 
 - [x] **크로스 사이트 추적 방지** 활성화
 
@@ -225,19 +223,19 @@ All of your cookies, history, and website data will be separate for each profile
 
     This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-##### Advanced → Privacy
+#### Advanced → Privacy
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-##### 개인정보 보호 리포트
+#### 개인정보 보호 리포트
 
 개인정보 보호 리포트는 현재 방문 중인 웹사이트에서 사용자 정보를 수집하지 못하도록 차단된 크로스 사이트 추적기 정보 요약을 제공합니다. 시간 경과에 따라 어떤 추적기가 차단됐는지 보여주는 주간 리포트를 표시할 수도 있습니다.
 
 개인정보 보호 리포트는 페이지 설정 메뉴에서 접근할 수 있습니다.
 
-##### 개인정보 보호 광고 측정
+#### 개인정보 보호 광고 측정
 
 - [ ] **개인 정보 보호 광고 측정** 비활성화
 
@@ -245,7 +243,7 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 해당 기능은 프라이버시 관련 우려가 거의 없으므로 활성화해둘 수도 있으나, 개인정보 보호 브라우징에서 이 기능이 자동으로 비활성화된다는 점을 고려하여, 비활성화할 것으로 명시하였습니다.
 
-##### 항상 개인정보 보호 브라우징
+#### 항상 개인정보 보호 브라우징
 
 Safari를 열고 우측 하단의 탭 버튼을 탭합니다. 이후, 탭 그룹 목록을 펼칩니다.
 
@@ -255,7 +253,7 @@ Safari 개인정보 보호 브라우징 모드는 추가적인 프라이버시 �
 
 단, 개인정보 보호 브라우징 모드는 쿠키 및 웹사이트 데이터를 저장하지 않으므로 사이트 로그인을 유지할 수 없음을 알아두어야 합니다. 이로 인해 사용이 불편할 수 있습니다.
 
-##### iCloud 동기화
+#### iCloud 동기화
 
 Safari 방문 기록, 탭 그룹, iCloud 탭, 저장된 암호는 E2EE 동기화됩니다. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 

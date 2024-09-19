@@ -20,6 +20,7 @@ schema:
     applicationCategory: Web Browser
     operatingSystem:
       - Android
+      - iOS
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -43,9 +44,7 @@ schema:
 
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Om du vill surfa anonymt på internet bör du använda [Tor](tor.md) i stället.
 
-## Android
-
-### Brave
+## Brave
 
 <div class="admonition recommendation" markdown>
 
@@ -66,22 +65,23 @@ Brave bygger på webbläsarprojektet Chromium, så den bör kännas bekant och h
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
 
 </details>
 
 </div>
 
-#### Recommended Brave Configuration
+### Recommended Brave Configuration
 
 Tor Browser är det enda sättet att verkligen surfa anonymt på internet. När du använder Brave rekommenderar vi att du ändrar följande inställningar för att skydda din integritet från vissa parter, men alla andra webbläsare än [Tor Browser](tor.md#tor-browser) kommer att kunna spåras av *någon* i något avseende.
 
 Dessa alternativ finns i :material-menu: → **Inställningar** → **Modiga sköldar & sekretess**
 
-##### Sköldar
+#### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
-##### Brave skyddar globala standardvärden
+#### Brave shields global defaults
 
 Shields alternativ kan nedgraderas vid behov för varje enskild plats, men som standard rekommenderar vi att du ställer in följande:
 
@@ -108,15 +108,15 @@ Brave allows you to select additional content filters within the internal `brave
 
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
-##### Rensa surfhistorik
+#### Clear browsing data
 
 - [x] Välj **Rensa uppgifter vid avslut**
 
-##### Blockering av sociala medier
+#### Social Media Blocking
 
 - [ ] Avmarkera alla komponenter för sociala medier
 
-##### Andra sekretessinställningar
+#### Other privacy settings
 
 <div class="annotate" markdown>
 
@@ -134,17 +134,17 @@ Brave allows you to select additional content filters within the internal `brave
 1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
 2. InterPlanetary File System (IPFS) is a decentralized, peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use the feature, disable it.
 
-#### Leo
+### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**
 
 - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-#### Brave Sync
+### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-### Mull
+## Mull (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -177,7 +177,7 @@ Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to 
 
 Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 
-#### Rekommenderad konfiguration för Mull
+### Recommended Mull Configuration
 
 Vi föreslår att du installerar [uBlock Origin](browser-extensions.md#ublock-origin) som en innehållsblockerare om du vill blockera trackers inom Mull.
 
@@ -185,17 +185,15 @@ Mull comes with privacy protecting settings configured by default. You might con
 
 Eftersom att Mull har mer avancerade och strikta integritetsskyddsinställningar aktiverade automatiskt jämfört med många webbläsare kan en del hemsidor stoppas från att laddas, eller inte fungera som tänkt, om du inte ändrar de inställningarna. Den här [listan med kända fel och lösningar](https://divestos.org/pages/broken#mull) kan ge dig tips om hur du kan åtgärda felen när du råkar på en sida som inte laddar korrekt. Att ändra inställningar för att fixa en sida som laddar fel kan påverka integritet och säkerhet, så var säker på att du förstår alla instruktioner du följer.
 
-## iOS
+## Safari (iOS)
 
 I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app-store/review/guidelines) begränsade till att använda Apples WebKit-ramverk [WebKit](https://developer.apple.com/documentation/webkit), så det finns få skäl att använda en tredjepartswebbläsare.
-
-### Safari
 
 <div class="admonition recommendation" markdown>
 
 ![Safari-logotyp](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** är standardwebbläsaren i iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari** är standardwebbläsaren i iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
@@ -205,17 +203,17 @@ I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app
 
 </div>
 
-#### Rekommenderad konfiguration för Safari
+### Rekommenderad konfiguration för Safari
 
-Vi föreslår att du installerar [AdGuard](browser-extensions.md#adguard) som innehållsblockerare om du vill blockera spårningar i Safari.
+We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
 Följande integritet- och säkerhetsrelaterade inställningar kan hittas under :gear:**Inställningar** → **Safari**
 
-##### Profiler
+#### Profiler
 
 Alla webbplatskakor, historik och webbplats data kommer att vara separata för varje profil. Du borde använda olika profiler för olika ändamål, t.ex. Shopping, Arbete, eller Studier.
 
-##### Integritet & Säkerhet
+#### Integritet & Säkerhet
 
 - [x] Aktivera **Förhindra spårning på andra webbplatser**
 
@@ -225,19 +223,19 @@ Alla webbplatskakor, historik och webbplats data kommer att vara separata för v
 
     Den här inställningen låter dig låsa dina privata flikar med biometrik/PIN när de inte används.
 
-##### Avancerat → Sekretess
+#### Avancerat → Sekretess
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-##### Integritetsrapport
+#### Integritetsrapport
 
 Privacy Report ger en ögonblicksbild av de spårare som för närvarande förhindras från att profilera dig på den webbplats du besöker. Den kan också visa en veckorapport som visar vilka spårare som har blockerats över tid.
 
 Rapporten om sekretess är tillgänglig via menyn Sidinställningar.
 
-##### Sekretessbevarande annonsmätning
+#### Sekretessbevarande annonsmätning
 
 - [ ] Inaktivera **Integritetsbevarande annonsmätning**
 
@@ -245,7 +243,7 @@ Vid mätning av annonsklick har man traditionellt använt spårningsteknik som i
 
 Funktionen har i sig själv inga större problem med integriteten, så även om du kan välja att låta den vara aktiverad anser vi att det faktum att den automatiskt inaktiveras i privat surfning är en indikator för att inaktivera funktionen.
 
-##### Alltid privat surfning
+#### Alltid privat surfning
 
 Öppna Safari och tryck på knappen Flikar längst ner till höger. Expandera sedan listan Flikgrupper.
 
@@ -255,7 +253,7 @@ Safaris läge för privat surfning ger ytterligare skydd för privatlivet. Priva
 
 Observera att privat surfning inte sparar cookies och webbplatsdata, så det är inte möjligt att vara inloggad på webbplatser. Detta kan vara en olägenhet.
 
-##### iCloud-synkronisering
+#### iCloud-synkronisering
 
 Synkronisering av Safari-historik, flikgrupper, iCloud-flikar och sparade lösenord är E2EE. Bokmärken är [inte](https://support.apple.com/HT202303) förinställt krypterade. Apple kan dekryptera och komma åt dem, enligt deras [integritetspolicy](https://apple.com/legal/privacy/en-ww).
 

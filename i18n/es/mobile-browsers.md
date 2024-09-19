@@ -20,6 +20,7 @@ schema:
     applicationCategory: Web Browser
     operatingSystem:
       - Android
+      - iOS
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -43,9 +44,7 @@ schema:
 
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) .
 
-## Android
-
-### Brave
+## Brave
 
 <div class="admonition recommendation" markdown>
 
@@ -62,26 +61,27 @@ Brave se basa en el proyecto de navegador web Chromium, por lo que debería resu
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
 
 </details>
 
 </div>
 
-#### Configuración Recomendada de Brave
+### Configuración Recomendada de Brave
 
 Tor Browser es la única manera de navegar por Internet de forma verdaderamente anónima. Cuando use Brave, Le recomendamos cambiar los siguiente ajustes para proteger su privacidad de ciertas partes, pero todos los navegadores que no sean [Tor Browser](tor.md#tor-browser) serán rastreables por *alguien* en un sentido u otro.
 
 Estas opciones se pueden encontrar en :material-menu: → **Configuración** → **Protecciones y privacidad de Brave**
 
-##### Escudos
+#### Shields
 
 Brave incluye algunas medidas antihuellas en su función [Escudos](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Te sugerimos configurar estas opciones [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) en todas las páginas que visites.
 
-##### Valores generales predeterminados de los escudos de Brave
+#### Brave shields global defaults
 
 Las opciones de los escudos pueden reducirse según las necesidades de cada sitio, pero por defecto recomendamos configurar lo siguiente:
 
@@ -108,15 +108,15 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 1. Esta opción proporciona una funcionalidad similar a los [modos de bloqueo](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzados de uBlock Origin o la extensión [NoScript](https://noscript.net).
 
-##### Borrar datos de navegación
+#### Clear browsing data
 
 - [x] Seleccione **Borrar datos al salir**
 
-##### Bloqueo de redes sociales
+#### Social Media Blocking
 
 - [ ] Desmarque todos los componentes de redes sociales
 
-##### Otros ajustes de privacidad
+#### Other privacy settings
 
 <div class="annotate" markdown>
 
@@ -134,17 +134,17 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
 2. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
 
-#### Leo
+### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**
 
 - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-#### Brave Sync
+### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permite que tus datos de navegación (historial, favoritos, etc.) sean accesibles en todos tus dispositivos sin necesidad de tener una cuenta y los protege con E2EE.
 
-### Mull
+## Mull (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -177,7 +177,7 @@ Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to 
 
 Mull activa varias características del [proyecto Tor uplift](https://wiki.mozilla.org/Security/Tor_Uplift) usando las preferencias de [Arkenfox](desktop-browsers.md#arkenfox-advanced). Los blobs propietarios son eliminados desde el código de Mozilla usando script desarrollador para Fennec F-Droid.
 
-#### Configuración recomendada para Mull
+### Recommended Mull Configuration
 
 Sugerimos instalar [uBlock Origin](browser-extensions.md#ublock-origin) como bloqueador de contenido si quieres bloquear los rastreadores en Mull.
 
@@ -185,17 +185,15 @@ Mull viene con ajustes para la protección de la privacidad activados por defect
 
 Debido a que Mull tiene protecciones más avanzadas y estrictas activadas por defecto a comparación de otros navegadores, algunos sitios web podrían no cargar o dejar de funcionar correctamente, a menos que se ajusten esas configuraciones. Puedes consultar esta [lista de problemas conocidos y soluciones](https://divestos.org/pages/broken#mull) para obtener consejos sobre una posible solución si encuentras un sitio roto. Ajustar una configuración para el correcto funcionamiento de un sitio web podría impactar tu privacidad y/o seguridad, por lo que debes asegurarte de comprender totalmente cualquier instrucción que sigues.
 
-## iOS
+## Safari (iOS)
 
 En iOS, cualquier aplicación que puede navegar en internet está [limitada](https://developer.apple.com/app-store/review/guidelines) a utilizar un sistema que provee Apple, [llamado WebKit](https://developer.apple.com/documentation/webkit), por lo que hay pocos motivos para utilizar un navegador de terceros.
-
-### Safari
 
 <div class="admonition recommendation" markdown>
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** es el navegador predeterminado en iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari** es el navegador predeterminado en iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
@@ -205,17 +203,17 @@ En iOS, cualquier aplicación que puede navegar en internet está [limitada](htt
 
 </div>
 
-#### Configuración recomendada de Safari
+### Configuración recomendada de Safari
 
-Sugerimos instalar [AdGuard](browser-extensions.md#adguard) como bloqueador de contenido si quieres bloquear los rastreadores en Safari.
+We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
 Las siguientes opciones relacionadas con la privacidad/seguridad pueden encontrarse en :gear: aplicación de **Ajustes** → **Safari**
 
-##### Perfiles
+#### Perfiles
 
 Todas tus cookies, historial y datos del sitio web estarán separados para cada perfil. Deberías utilizar diferentes perfiles para diferentes propósitos, por ejemplo, ir de compras, trabajar o uso escolar.
 
-##### Privacidad y seguridad
+#### Privacidad y seguridad
 
 - [x] Activa **Evitar el seguimiento cruzado de sitios**
 
@@ -225,19 +223,19 @@ Todas tus cookies, historial y datos del sitio web estarán separados para cada 
 
     Este ajuste te permite bloquear tus pestañas privadas detrás de los datos biométricos/PIN cuando no las estés utilizando.
 
-##### Avanzado → Privacidad
+#### Avanzado → Privacidad
 
 La configuración de **Protección Avanzada Antirrastreo y de la Huella Digital** aleatorizará ciertos valores para que sea más difícil tomarte las huellas dactilares:
 
 - [x] Seleccione **Toda la Navegación** o **Navegación Privada**
 
-##### Informe de privacidad
+#### Informe de privacidad
 
 El Informe de privacidad proporciona una instantánea de los rastreadores de sitios cruzados a los que actualmente se les impide elaborar perfiles en el sitio web que está visitando. También puede mostrar un informe semanal para mostrar qué rastreadores se han bloqueado a lo largo del tiempo.
 
 Se puede acceder al Informe de privacidad a través del menú Configuración de la página.
 
-##### Medición de anuncios para preservar la privacidad
+#### Medición de anuncios para preservar la privacidad
 
 - [ ] Desactiva **Medición de anuncios para preservar la privacidad**
 
@@ -245,7 +243,7 @@ La medición de los clics en los anuncios ha utilizado tradicionalmente una tecn
 
 La función tiene pocos problemas de privacidad por sí misma, así que aunque puede optar por dejarla activada, consideramos que el hecho de que se desactive automáticamente en Navegación Privada es un indicador para desactivar la función.
 
-##### Navegación privada siempre activa
+#### Navegación privada siempre activa
 
 Abre Safari y pulsa el botón Pestañas, situado en la parte inferior derecha. A continuación, despliegua la lista Grupos de pestañas.
 
@@ -255,7 +253,7 @@ El modo de Navegación Privada de Safari ofrece protecciones de privacidad adici
 
 Ten en cuenta que la Navegación Privada no guarda cookies ni datos de sitios web, por lo que no podrás permanecer conectado a los sitios. Esto puede ser un inconveniente.
 
-##### iCloud Sync
+#### iCloud Sync
 
 La sincronización del historial de Safari, los grupos de pestañas, las pestañas de iCloud y las contraseñas guardadas son E2EE. Sin embargo, por defecto, los marcadores [no](https://support.apple.com/HT202303) lo son. Apple puede descifrarlos y acceder a ellos de acuerdo con su [política de privacidad](https://apple.com/legal/privacy/en-ww).
 

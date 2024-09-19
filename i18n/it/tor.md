@@ -122,19 +122,19 @@ Tutte le versioni sono firmate utilizzando la medesima firma, quindi, dovrebbero
 
 </div>
 
-## Onion Browser
+## Onion Browser (iOS)
 
 <div class="admonition recommendation" markdown>
 
 ![Logo di Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** è un browser open-source che consente di navigare sul web in modo anonimo attraverso la rete Tor su dispositivi iOS ed è approvato dal [Tor Project](https://support.torproject.org/glossary/onion-browser).
+**Onion Browser** è un browser open-source che consente di navigare sul web in modo anonimo attraverso la rete Tor su dispositivi iOS ed è approvato dal [Tor Project](https://support.torproject.org/glossary/onion-browser). [:material-star-box: Read our latest Onion Browser review.](/articles/2024/09/18/onion-browser-review/)
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribuisci }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -144,5 +144,7 @@ Tutte le versioni sono firmate utilizzando la medesima firma, quindi, dovrebbero
 </details>
 
 </div>
+
+Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
 
 [^1]: L'impostazione `IsolateDestAddr` è discussa nella [mailing list Tor](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) e nella [documentazione Stream Isolation di Whonix](https://whonix.org/wiki/Stream_Isolation), dove entrambi i progetti suggeriscono che di solito non è un buon approccio per la maggior parte delle persone.

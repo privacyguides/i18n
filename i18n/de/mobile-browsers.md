@@ -20,6 +20,7 @@ schema:
     applicationCategory: Web Browser
     operatingSystem:
       - Android
+      - iOS
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -43,9 +44,7 @@ schema:
 
 Wir empfehlen aktuell diese **mobilen Webbrowsers** und Konfigurationen für normales bzw. nicht anonymes Surfen im Internet. Falls du anonym surfen möchtest, solltest du stattdessen [Tor](tor.md) verwenden.
 
-## Android
-
-### Brave
+## Brave
 
 <div class="admonition recommendation" markdown>
 
@@ -66,22 +65,23 @@ Brave basiert auf dem Chromium-Webbrowser-Projekt, sollte sich also vertraut anf
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
 
 </details>
 
 </div>
 
-#### Empfohlene Brave-Konfiguration
+### Empfohlene Brave-Konfiguration
 
 Tor Browser ist die einzige Möglichkeit, wirklich anonym im Internet zu surfen. Wenn du Brave benutzt, empfehlen wir dir, die folgenden Einstellungen zu ändern, um deine Privatsphäre vor bestimmten Parteien zu schützen, aber alle anderen Browser als der [Tor Browser](tor.md#tor-browser) werden von *irgendjemandem* in irgendeiner Weise verfolgt werden können.
 
 Diese Optionen findest du unter :material-menu: → **Einstellungen** → **Brave Schutz & Datenschutz**
 
-##### Schutz
+#### Shields
 
 Brave enthält einige Anti-Fingerabdruck-Maßnahmen in der [Schutz](https://support.brave.com/hc/articles/360022973471-What-is-Shields)-Funktion. Wir empfehlen, diese Optionen [global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) für alle Seiten zu konfigurieren.
 
-##### Globale Standardwerte für Brave Schutz
+#### Brave shields global defaults
 
 Die Optionen im Schutz-Menü können je nach Bedarf für jede Website heruntergestuft werden, aber als Standardeinstellung empfehlen wir Folgendes:
 
@@ -108,15 +108,15 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 
 1. Diese Option bietet eine ähnliche Funktionalität wie die erweiterten Blockierungsmodi von uBlock Origin [](https://github.com/gorhill/uBlock/wiki/Blocking-mode) oder die Erweiterung [NoScript](https://noscript.net).
 
-##### Browserdaten löschen
+#### Clear browsing data
 
 - [x] Wähle **Vergiss mich, wenn ich diese Seite schließe**
 
-##### Social Media Blocking
+#### Social Media Blocking
 
 - [ ] Deaktiviere alle Social Media Komponenten
 
-##### Andere Datenschutzeinstellungen
+#### Other privacy settings
 
 <div class="annotate" markdown>
 
@@ -134,17 +134,17 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 1. Brave's [Implementierung von Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) auf Android proxyt **nicht**, wie das Desktop-Pendant, [Safe Browsing Netzwerkanfragen](https://developers.google.com/safe-browsing/v4/update-api#checking-urls). Das bedeutet, dass deine IP-Adresse von Google gesehen (und protokolliert) werden kann. Beachte, dass Safe Browsing für Android-Geräte ohne Google Play Services nicht verfügbar ist.
 2. InterPlanetary File System (IPFS) ist ein dezentrales Peer-To-Peer-Netzwerk zum Speichern und Teilen von Daten in einem verteilten Dateisystem. Wenn du die Funktion nicht nutzt, deaktiviere sie.
 
-#### Leo
+### Leo
 
 Diese Optionen sind unter :material-menu: → **Einstellungen** → **Leo** zu finden.
 
 - [ ] Deaktiviere **Vorschläge zur Autovervollständigung in Adressleiste anzeigen**
 
-#### Brave Sync
+### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) ermöglicht den Zugriff auf deine Browsing-Daten (Verlauf, Lesezeichen usw.) auf all deinen Geräten und schützt diese Daten mit E2EE.
 
-### Mull
+## Mull (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -177,7 +177,7 @@ Aktiviere das [F-Droid Repository](https://divestos.org/fdroid/official) von Div
 
 Mull aktiviert viele Funktionen, die vom [Tor Uplift-Projekt](https://wiki.mozilla.org/Security/Tor_Uplift) entwickelt wurden, indem es Einstellungen von [Arkenfox](desktop-browsers.md#arkenfox-advanced) verwendet. Proprietäre Blobs werden mit den für Fennec F-Droid entwickelten Skripten aus Mozillas Code entfernt.
 
-#### Empfohlene Mull Konfiguration
+### Recommended Mull Configuration
 
 Wir empfehlen die Installation von [uBlock Origin](browser-extensions.md#ublock-origin) als Inhaltsblocker, wenn du Tracker in Mull blockieren möchtest.
 
@@ -185,11 +185,9 @@ Mull verfügt über bereits standardmäßig konfigurierte Einstellungen zum Schu
 
 Da in Mull im Vergleich zu den meisten Browsern standardmäßig ein erweiterter und strengerer Schutz der Privatsphäre aktiviert ist, können einige Websites möglicherweise nicht geladen werden oder nicht richtig funktionieren, wenn du diese Einstellungen nicht anpasst. Du kannst diese [Liste mit bekannten Problemen und Umgehungsmöglichkeiten](https://divestos.org/pages/broken#mull) konsultieren, um Ratschläge für eine mögliche Lösung zu erhalten, wenn du auf eine fehlerhafte Website stoßt. Wenn du eine Einstellung änderst, um eine Website zu reparieren, kann sich dies auf deine Privatsphäre/Sicherheit auswirken. Vergewisser dich daher, dass du alle Anweisungen, die du befolgst, vollständig verstehst.
 
-## iOS
+## Safari (iOS)
 
 Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede App, auf welcher man im Web surfen kann, das [WebKit-Framework](https://developer.apple.com/documentation/webkit) von Apple zu verwenden. Es gibt deshalb wenig Gründe, den Browser eines Drittanbieters zu verwenden.
-
-### Safari
 
 <div class="admonition recommendation" markdown>
 
@@ -205,17 +203,17 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 
 </div>
 
-#### Empfohlene Safari-Konfiguration
+### Empfohlene Safari-Konfiguration
 
 Wir empfehlen die Installation von [AdGuard](browser-extensions.md#adguard) als Inhaltsblocker, wenn du Tracker in Safari blockieren möchtest.
 
 Die folgenden datenschutz- und sicherheitsrelevanten Optionen findest du in der App :gear: **Einstellungen** → **Safari**
 
-##### Profile
+#### Profile
 
 Alle deine Cookies, dein Verlauf und deine Website-Daten werden für jedes Profil separat gespeichert. Du solltest verschiedene Profile für verschiedene Zwecke verwenden, z. B. Einkaufen, Arbeit oder Schule.
 
-##### Datenschutz & Sicherheit
+#### Datenschutz & Sicherheit
 
 - [x] Aktivieren Sie **Cross-Sitetracking verhindern**
 
@@ -225,19 +223,19 @@ Alle deine Cookies, dein Verlauf und deine Website-Daten werden für jedes Profi
 
     Mit dieser Einstellung kannst du deine privaten Tabs bei Nichtgebrauch mit Biometrie/PIN sperren.
 
-##### Erweitert → Datenschutz
+#### Erweitert → Datenschutz
 
 Bei der Einstellung **Erweiterter Tracking- und Identifizierungsschutz** werden bestimmte Werte zufällig ausgewählt, sodass es schwieriger ist, deine Fingerabdrücke zu erkennen:
 
 - [x] Wähle **Beim Surfen immer** oder **Privates Surfen**
 
-##### Datenschutzbericht
+#### Datenschutzbericht
 
 Der Datenschutzbericht bietet eine Momentaufnahme der Cross-Site-Tracker, die derzeit daran gehindert werden, auf der von Ihnen besuchten Website ein Profil zu erstellen. Es kann auch einen wöchentlichen Bericht anzeigen, aus dem hervorgeht, welche Tracker im Laufe der Zeit blockiert wurden.
 
 Der Datenschutzbericht ist über das Menü "Website-Einstellungen" zugänglich.
 
-##### Datenschutzkonforme Werbemessung
+#### Datenschutzkonforme Werbemessung
 
 - [ ] Deaktiviere **Datenschutzwahrende Werbungsmessung**
 
@@ -245,7 +243,7 @@ Bei der Messung von Anzeigenklicks werden traditionell Tracking-Technologien ein
 
 Die Funktion hat an sich wenig Datenschutzbedenken. Du kannst sie zwar aktiviert lassen, aber die Tatsache, dass sie beim Privaten Surfen automatisch deaktiviert wird, ist unserer Meinung nach ein Indikator für die Deaktivierung der Funktion.
 
-##### Always-on Private Browsing
+#### Always-on Private Browsing
 
 Öffne Safari und tippe unten rechts auf die Schaltfläche "Tabs". Erweiter dann die Liste der Tabgruppen.
 
@@ -255,7 +253,7 @@ Der Modus "Privates Surfen" von Safari bietet zusätzlichen Schutz für die Priv
 
 Beachte, dass Private Browsing keine Cookies und Website-Daten speichert, sodass es nicht möglich ist, auf Websites angemeldet zu bleiben. Dies kann zu Unannehmlichkeiten führen.
 
-##### iCloud Sync
+#### iCloud Sync
 
 Die Synchronisierung von Safari-Verlauf, Tab-Gruppen, iCloud-Tabs und gespeicherten Kennwörtern erfolgt über E2EE. Allerdings werden Lesezeichen standardmäßig [nicht](https://support.apple.com/HT202303) verschlüsselt. Apple kann sie entschlüsseln und in Übereinstimmung mit der [Datenschutzrichtlinie](https://apple.com/legal/privacy/en-ww) darauf zugreifen.
 

@@ -20,6 +20,7 @@ schema:
     applicationCategory: Web Browser
     operatingSystem:
       - Android
+      - iOS
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -43,9 +44,7 @@ schema:
 
 These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Если вам нужна анонимность в сети, используйте [Tor](tor.md).
 
-## Android
-
-### Brave
+## Brave
 
 <div class="admonition recommendation" markdown>
 
@@ -66,22 +65,23 @@ Brave основан на Chromium, поэтому он покажется те�
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
 
 </details>
 
 </div>
 
-#### Recommended Brave Configuration
+### Recommended Brave Configuration
 
 Tor Browser — это единственный способ действительно анонимно пользоваться интернетом. Если ты используешь Brave, мы рекомендуем изменить следующие настройки, чтобы сохранить приватность, но все браузеры кроме [Tor](tor.md#tor-browser) могут *кем-нибудь* отслеживаться в том или ином виде.
 
 Эти настройки можно найти в :material-menu: → **Настройки** → **Brave Щит и конфиденциальность**
 
-##### Щиты
+#### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
-##### Общие настройки по умолчанию системы Brave Schields
+#### Brave shields global defaults
 
 Опции щитов можно понижать по мере необходимости для каждого конкретного сайта, но по умолчанию мы рекомендуем установить следующие параметры:
 
@@ -108,15 +108,15 @@ Brave allows you to select additional content filters within the internal `brave
 
 1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
 
-##### Очистить историю
+#### Clear browsing data
 
 - [x] Выбери **Удалять данные при выходе**
 
-##### Блокировка соцсетей
+#### Social Media Blocking
 
 - [ ] Отключи все переключатели в этой секции
 
-##### Другие настройки конфиденциальности
+#### Other privacy settings
 
 <div class="annotate" markdown>
 
@@ -134,17 +134,17 @@ Brave allows you to select additional content filters within the internal `brave
 1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
 2. Interplanetary File System (IPFS) - это децентрализованная, peer-to-peer сеть для хранения и обмена данными в распределенной файловой системе. Если ты не используешь эту функцию, отключи ее.
 
-#### Leo
+### Leo
 
 These options can be found in :material-menu: → **Settings** → **Leo**
 
 - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-#### Синхронизация
+### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-### Mull
+## Mull (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -177,7 +177,7 @@ Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to 
 
 Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
 
-#### Recommended Mull Configuration
+### Recommended Mull Configuration
 
 We would suggest installing [uBlock Origin](browser-extensions.md#ublock-origin) as a content blocker if you want to block trackers within Mull.
 
@@ -185,17 +185,15 @@ Mull comes with privacy protecting settings configured by default. You might con
 
 Because Mull has more advanced and strict privacy protections enabled by default compared to most browsers, some websites may not load or work properly unless you adjust those settings. You can consult this [list of known issues and workarounds](https://divestos.org/pages/broken#mull) for advice on a potential fix if you do encounter a broken site. Adjusting a setting in order to fix a website could impact your privacy/security, so make sure you fully understand any instructions you follow.
 
-## iOS
+## Safari (iOS)
 
 На iOS любое приложение, которое может открывать веб-страницы, [использует](https://developer.apple.com/app-store/review/guidelines) только предоставляемый Apple [движок WebKit](https://developer.apple.com/documentation/webkit), поэтому нет особых причин использовать сторонний браузер.
-
-### Safari
 
 <div class="admonition recommendation" markdown>
 
 ![Логотип Safari](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** — браузер по умолчанию на iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari** — браузер по умолчанию на iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
@@ -205,17 +203,17 @@ Because Mull has more advanced and strict privacy protections enabled by default
 
 </div>
 
-#### Recommended Safari Configuration
+### Recommended Safari Configuration
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) as a content blocker if you want to block trackers within Safari.
+We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
 The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
 
-##### Profiles
+#### Profiles
 
 All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
-##### Приватность и защита
+#### Приватность и защита
 
 - [x] Включи **Без перекрестного отслеживания**
 
@@ -225,19 +223,19 @@ All of your cookies, history, and website data will be separate for each profile
 
     This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-##### Advanced → Privacy
+#### Advanced → Privacy
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-##### Отчет о конфиденциальности
+#### Отчет о конфиденциальности
 
 «Отчет о конфиденциальности» представляет собой обзор межсайтовых трекеров, которым в настоящее время запрещено создавать ваш профиль на посещаемом вами сайте. Функция также показывает еженедельный отчет о количестве заблокированных трекеров в течение определенного времени.
 
 Отчет о конфиденциальности доступен через меню "Настройки страницы".
 
-##### Конфиденциальные рекламные отчеты
+#### Конфиденциальные рекламные отчеты
 
 - [ ] Отключи **Конфиденциальные рекламные отчеты**
 
@@ -245,7 +243,7 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 Сама по себе эта функция не вызывает особых опасений в плане конфиденциальности, и хотя вы можете оставить ее включенной, мы рекомендуем её отключить, так как она автоматически отключается в Private Browsing.
 
-##### Всегда включенный частный доступ
+#### Всегда включенный частный доступ
 
 Откройте Safari и нажмите кнопку Вкладки, расположенную в правом нижнем углу. Затем разверните список Группы вкладок.
 
@@ -255,7 +253,7 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 Обрати внимание, что частный доступ не сохраняет файлы cookie и данные веб-сайтов, поэтому оставаться залогиненным на сайтах не получится. Это может доставить неудобства.
 
-##### Синхронизация iCloud
+#### Синхронизация iCloud
 
 Синхронизация истории Safari, групп вкладок, вкладок iCloud и сохраненных паролей осуществляется с E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 

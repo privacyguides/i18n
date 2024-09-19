@@ -274,7 +274,6 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 <div class="grid cards" markdown>
 
 - ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
-- ![Optery logo](assets/img/data-broker-removals/optery.svg){ .twemoji loading=lazy } [Optery](data-broker-removals.md#optery-free-paid)
 - ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
 
 </div>

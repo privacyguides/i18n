@@ -37,7 +37,7 @@ cover: data-broker-removals.webp
 - TruePeopleSearch
 - Whitepages
 
-一旦您完成這項工作，最好等待一、兩週讓請求傳播到他們所有的網站。 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 使用 [Optery](#optery-free-paid) 的免費報告或 [Google 的 _與你相關的結果_](#google-results-about-you-free)等工具來協助尋找網際網路上殘留的任何資料，可能是個好主意。
+一旦您完成這項工作，最好等待一、兩週讓請求傳播到他們所有的網站。 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
 否則，隱私權記者 Yael Grauer 已經編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 您可以花一些時間瀏覽每個網站，確定它們是否有您的資訊，然後將其移除：
 
@@ -61,24 +61,6 @@ cover: data-broker-removals.webp
 EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOptOuts 會執行搜尋，只有在已找到您的個人資料時，才會提交退出請求，以避免在退出請求中，將您的資料傳送至尚未擁有您個人資料的網站。 不過，他們確實支援一些無法公開搜尋的網站，在這些情況下，您的資料會以退出請求的方式傳送給他們，無論如何，以防您在他們的私人資料庫中。
 
 我們的測試顯示，在我們測試過的所有資料移除服務中，EasyOptOuts 提供了最有價值的服務，價格非常實惠，而且效能很高。 我們會在不久的將來在部落格上發表 EasyOptOuts 的詳細評測，並在發表時更新本頁面。 [《消費者報告》的獨立調查結果](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) 也顯示 EasyOptOuts 是效能最佳的資料移除服務之一。
-
-## Optery <small>免費 & 付費</small>
-
-<div class="admonition recommendation" markdown>
-
-![Optery 標誌](assets/img/data-broker-removals/optery.svg){ align=right }
-
-**Optery** 是一個免費的掃描工具，它會發現哪些人肉搜尋網站有您的個人資訊，提供您這些網站的報告，並直接連結到自助移除程序，讓您手動進行移除。 如果您保留帳戶，報告將每季更新一次。 Optery 也提供付費計劃，他們會代表您自動提交退出請求。
-
-[:octicons-home-16: 首頁](https://optery.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://optery.com/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://help.optery.com){ .card-link title=說明文件}
-
-</div>
-
-Optery's free scanning tool is an effective way to discover which data brokers have your information already, and their self-service dashboard allows you to easily submit opt-out requests manually.
-
-We have not finished testing Optery's premium, _automatic_ opt-out plans, although initial results appear to be positive. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that Optery is one of the top performing data removal services. It necessarily takes at least a few months for us to evaluate a new data removal service, so check back here soon for our own test results. We will also publish a detailed review of Optery's full service on our blog when we have completed testing, and we will update this page accordingly.
 
 ## Google _與你相關的結果_ <small>免費</small>
 

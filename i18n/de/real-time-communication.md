@@ -99,7 +99,11 @@ Molly wird alle zwei Wochen aktualisiert, um die neuesten Funktionen und Fehlerb
 
 Beachte, dass du durch die Verwendung von Molly mehreren Parteien vertraust, da du nun dem Signal-Team *und dem* Molly-Team vertrauen musst, dass sie sichere und rechtzeitige Aktualisierungen liefern.
 
-Es gibt eine Version von Molly namens **Molly-FOSS**, die proprietären Code wie die Google-Dienste, die sowohl von Signal als auch von Molly verwendet werden, entfernt, was allerdings auf Kosten einiger Funktionen wie Push-Benachrichtigungen geht. Es gibt auch eine Version namens [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) die auf Molly-FOSS basiert und Push-Benachrichtigungen mit UnifiedPush unterstützt, aber es erfordert das Hosten eines Programms auf einem separaten Computer, um zu funktionieren. Alle drei Versionen von Molly bieten die gleichen Sicherheitsverbesserungen.
+There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like battery-saving push notifications via Google Play Services.
+
+There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds support for push notifications with [UnifiedPush](https://unifiedpush.org/), an open source alternative to the push notifications provided by Google Play Services, but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://www.kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy/)).
+
+Alle drei Versionen von Molly bieten die gleichen Sicherheitsverbesserungen.
 
 Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), d.h. es ist möglich zu bestätigen, dass die kompilierten APKs mit dem Quellcode übereinstimmen.
 
