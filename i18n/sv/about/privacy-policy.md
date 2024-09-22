@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "Integritetspolicy"
 description: We do not sell or share your data with any third-parties.
 ---
 

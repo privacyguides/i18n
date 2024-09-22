@@ -1,5 +1,5 @@
 ---
-title: Translations
+title: Översättningar
 description: A guide for website contributors on adding translations to our website.
 ---
 
