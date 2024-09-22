@@ -7,7 +7,7 @@ cover: browser-extensions.webp
 
 <small>防護下列威脅：</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 一般來說，建議將瀏覽器擴充套件維持在最低限度，以減少攻擊面。 它們在瀏覽器中擁有特權存取權限，要求用戶信任開發人員，也會[突顯出讓瀏覽器](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)，[削弱](https:/ /groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ）站點隔離。
 

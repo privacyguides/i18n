@@ -40,11 +40,11 @@ schema:
 
 </div>
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
+從裝置連線到 Tor 網路的方式有多種，最常用的是 **Tor 瀏覽器** ，它是 Firefox 的分叉，專為在電腦和Android上 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} 瀏覽而設計
 
 其些應用程式比其他應用程式更好，但再次提醒其選用決定取決於您的威脅模型。 如果是Tor 的一般使用者，不擔心 ISP 收集針對您的證據，那麼使用[Orbot](#orbot) 等應用程式或行動瀏覽器應用程式訪用 Tor 網絡可能沒問題。 越多人使用 Tor 有助於減少 Tor 的不良印記，降低 ISP 和政府可能編制的「Tor 用戶清單」內容。
 
-如果更完全的匿名至關重要，則應 **僅使用** 桌面版的 Tor 客戶端應用，最好再加上[Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) 一起搭配使用。 Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against de-anonymization.
+如果更完全的匿名至關重要，則應 **僅使用** 桌面版的 Tor 客戶端應用，最好再加上[Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) 一起搭配使用。 行動瀏覽器在 Tor 上較不常見 (因此也更容易被識別指紋)，而且其所採用的其他配置也沒有經過嚴格的去匿名化測試。
 
 ## Tor 瀏覽器
 
@@ -128,13 +128,13 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion 瀏覽器** 為開源瀏覽器可在 iOS 設備上匿名瀏覽 Tor 網絡，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。 [:material-star-box: Read our latest Onion Browser review.](/articles/2024/09/18/onion-browser-review/)
+**Onion 瀏覽器** 是開源瀏覽器，其可讓您在 iOS 設備上匿名瀏覽 Tor 網絡，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。 [:material-star-box: 閱讀我們最新的 Onion Browser 評論](/articles/2024/09/18/onion-browser-review/)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=文檔}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -145,6 +145,6 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 
 </div>
 
-Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
+Onion Browser 不提供與 Tor Browser 在電腦平台上相同等級的隱私保護。 對於日常使用而言，這是存取隱藏服務的絕佳方式，但如果您擔心被先進的對手追蹤或監視，則不應將其視為匿名工具。
 
 [^1]: `IsolateDestAddr` 設定問題已在 [Tor 郵件群組](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) 中討論過而且在 [Whonix's 串流隔離文檔](https://whonix.org/wiki/Stream_Isolation)，兩項專案都認為對大多數人而言它並不是好方法。

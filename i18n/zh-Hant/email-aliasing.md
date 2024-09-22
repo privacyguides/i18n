@@ -7,7 +7,7 @@ cover: email-aliasing.webp
 
 <small>防護下列威脅：</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
 
 An **email aliasing service** allows you to easily generate a new email address for every website you register for. 電子郵件別名會自動把郵件轉發到所選擇的電子郵件地址，以隱藏“主要”電子郵件地址和[電子郵件提供商](email.md)。 真正的電子郵件別名比許多提供商常用和支持的加地址更好，可自行創建別名，如 'yourname +[anythinghere]@ example.com' ，因為網站，廣告商和跟蹤網絡可以簡單地刪除+符號之後的任何內容，以知道使用者真實電子郵件地址。 [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) 等組織要求廣告商[規範化電子郵件地址](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) ，無論用戶的隱私意願，都可以關聯和追蹤它們。

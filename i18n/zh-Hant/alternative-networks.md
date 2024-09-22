@@ -8,8 +8,8 @@ cover: alternative-networks.webp
 <small>防護下列威脅：</small>
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+- [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 ## 匿名網路
 

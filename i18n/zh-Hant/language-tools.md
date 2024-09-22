@@ -1,18 +1,18 @@
 ---
-title: Language Tools
+title: 語言工具
 icon: material/alphabetical-variant
-description: These language tools do not send your input text to a server and can be used offline and self-hosted.
+description: 這些語言工具不會將您輸入的文字傳送至伺服器，可以離線或自行架設伺服器來使用。
 cover: language-tools.webp
 ---
 
 <small>防護下列威脅：</small>
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+- [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time. The language tools listed on this page do not send your submitted text to a server, and can be self-hosted and used offline for maximum control of your data.
+輸入至文法、拼字和樣式檢查器以及翻譯服務的文字可能包含敏感資訊，這些資訊可能無限期地儲存在伺服器上。 本頁面列出的語言工具不會將您提交的文字傳送到伺服器，且能自行託管並離線使用，以最大程度地控制您的資料。
 
 ## LanguageTool
 
@@ -21,14 +21,14 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** is a multilingual grammar, style and spell checker that supports more than 20 languages. The software is [self-hostable](https://dev.languagetool.org/http-server), and the extensions do not send your input text to their server.
+**LanguageTool** 是多語言文法、樣式和拼字檢查器，支援 20 多種語言。 該軟體 [可自行託管](https://dev.languagetool.org/http-server) ，擴充套件不會將您的輸入文字傳送到他們的伺服器。
 
-LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
+LanguageTool 提供與多種 [辦公室套件](https://languagetool.org/services#text_editors) 及 [電子郵件客戶端](https://languagetool.org/services#mail_clients) 的整合。
 
-[:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://languagetool.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title=文檔}
+[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -47,7 +47,7 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 
 ## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與所推薦專案沒有任何瓜葛。** 除了 [我們的標準準則](about/criteria.md) 外，還有一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 它必須是開源的。
 - 必須可以自行託管。
