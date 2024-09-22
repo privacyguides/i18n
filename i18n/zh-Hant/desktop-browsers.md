@@ -79,7 +79,7 @@ schema:
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -126,7 +126,7 @@ Mullvad 瀏覽器 將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="捐贈" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -246,7 +246,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉�
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -325,27 +325,27 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 ##### Tor 視窗
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**使用 Tor 的隱私視窗**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)允許您在私人視窗中透過 Tor 網路路由流量，並存取 .onion 服務，這在某些情況下可能很有用。 不過，Brave 對指紋辨識的抵抗力**不如**Tor 瀏覽器，而且將 Brave 與 Tor 配合使用的人少得多，因此您會脫穎而出。 如果您的威脅模式需要極高的匿名性，請使用[Tor 瀏覽器](tor.md#tor-browser)。
 
-##### Data Collection
+##### 資料集合
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
+- [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
+- [ ] 取消勾選 **自動傳送診斷報告**
 
 #### Web3
 
-Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 Unless you use any of these features, they should be disabled.
+Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非您使用任何這些功能，否則應將其停用。
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
-- 將 *解析 IPFS 資源的方法* 設定為 **已停用**
+- 將 *預設以太坊錢包* 設為 **擴充功能 (無後援)**
+- 將 *預設 Solana 錢包* 設為 **擴充功能 (無後援)**
+- Set *Method to resolve IPFS resources* to **Disabled**
 
-#### Extensions
+#### 擴充功能
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] 取消勾選所有您用不到的內建擴充功能
 
-#### System
+#### 系統
 
 <div class="annotate" markdown>
 
@@ -359,9 +359,9 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 Unless 
 
 [Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上訪問瀏覽數據 (歷史記錄，書籤等)，無需帳戶且具 E2EE 保護。
 
-#### Brave Rewards and Wallet
+#### Brave Rewards 與錢包
 
-**Brave 獎勵** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[私密加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，不鼓勵使用此功能。
+**Brave Rewards** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[私密加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，不鼓勵使用此功能。
 
 **Brave 錢包** 在您的電腦上本地運行，但不支援任何私密加密貨幣，因此我們也不建議使用此功能。
 

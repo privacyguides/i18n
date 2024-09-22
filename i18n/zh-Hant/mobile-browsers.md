@@ -81,7 +81,7 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Br
 
 Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
-#### Brave 防護全域預設值
+#### Brave shields 全域預設值
 
 防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
@@ -173,11 +173,11 @@ Android 上基於Firefox (Gecko) 的瀏覽器[缺乏](https://bugzilla.mozilla.o
 
 </div>
 
-Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. 從預設的 F-Droid 儲存庫下載 Mull 將意味著更新可能會延遲幾天或更長時間。
+啟用 DivestOS 的[F-Droid 儲存庫](https://divestos.org/fdroid/official)，以便直接從開發者接收更新。 從預設的 F-Droid 儲存庫下載 Mull 將意味著更新可能會延遲幾天或更長時間。
 
 Mull 透過[Tor 提升專案](https://wiki.mozilla.org/Security/Tor_Uplift)的[Arkenfox](desktop-browsers.md#arkenfox-advanced)的偏好來啟動許多上游高級功能。 使用為 Fennec F-Droid 開發的腳本從 Mozilla 程式碼中刪除商業專有 blob。
 
-### Recommended Mull Configuration
+### 建議的 Mull 設定
 
 如想封鎖 Mull 中的追蹤器，建議安裝 [uBlock Origin](browser-extensions.md#ublock-origin) 作為內容封鎖程式。
 
@@ -193,11 +193,11 @@ Mull 隨附預設配置的隱私保護設定。 如果想在退出應用程式�
 
 ![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari** 是 iOS 預設瀏覽器。 它包括 [隱私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)，例如 [智慧型追蹤防護](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、隔離且短暫的私人瀏覽標籤、指紋保護 (透過向網站呈現簡化版的系統組態，讓更多裝置看起來完全相同) 以及指紋隨機化，並針對已付費訂閱 iCloud+ 的使用者提供 Private Relay。 它還允許您使用不同的設定檔來分開瀏覽，並使用您的生物特徵/PIN 鎖定隱私瀏覽。
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=文檔}
 
 </details>
 
@@ -205,7 +205,7 @@ Mull 隨附預設配置的隱私保護設定。 如果想在退出應用程式�
 
 ### 建議的 Safari 設定
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
+如果您想要在 Safari 中使用內容阻擋器，我們建議您安裝[AdGuard](browser-extensions.md#adguard)。
 
 可以在 :gear: **Settings** app → **Safari** 中找到以下與隱私/安全相關的選項。
 
