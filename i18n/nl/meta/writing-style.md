@@ -1,5 +1,6 @@
 ---
-title: Schrijfstijl
+title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 Privacy Guides is geschreven in Amerikaans Engels, en je dient bij twijfel de [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) te raadplegen.

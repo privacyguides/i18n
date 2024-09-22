@@ -10,19 +10,17 @@ description: Tor 是一個免費使用的去中心化網路，其讓用戶在使
 
 Tor 的工作原理是通過志願者運營的服務器來引導您的網際網路路徑，而不是直接連接到您試圖訪問的網站。 這樣可以混淆流量來源，所連接的伺服器都無法看到流量來去的完整路徑，也意味著即使您連接的伺服器無法破壞您的匿名性。
 
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-home-16:](https://torproject.org){ .card-link title=首頁 }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="洋蔥服務" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=文檔}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=捐款 }
 
-## 正在連接到Tor
+## 安全連接Tor
 
 在連接到 Tor 之前，應先仔細考慮想透過 Tor 實現什麼目的，想要對誰隱藏網路活動資訊。
 
-在自由的國家，透過 Tor 存取普通內容，無需擔心 ISP 或本地網路管理員知道您正在使用 Tor，反而可能會幫助 [消除Tor 使用污名化](https://2019 .www.torproject. org/about/torusers.html.en)，您可以透過標準方式直接連接到Tor，例如
-
- Tor 瀏覽器< /a>。</p> 
+在自由的國家，透過 Tor 存取普通內容，無需擔心 ISP 或本地網路管理員知道您正在使用 Tor，反而可能會幫助 [消除Tor 使用污名化](https://2019.www.torproject.org/about/torusers.html.en) ，您可以透過標準方式直接連接到Tor，例如[Tor 瀏覽器](../tor.md)。
 
 如果您有能力使用可信任的 VPN 供應商，且有**以下任一情況**，那麼最好應透過 VPN 連接 Tor：
 
@@ -43,8 +41,6 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 
 這**不是**規避審查的建議，如 Tor 被 ISP 完全封鎖， VPN 也可能遭封鎖。 相反，此建議旨在使流量與常見 VPN 用戶流量更好地融合，透過掩蓋從 ISP 連接到 Tor 的事實來提供某種程度的合理推諉。
 
-
-
 ---
 
 我們**強烈反對**以任何其他方式將 Tor 與 VPN 結合。 不要以下任何相似方式配置連接：
@@ -57,14 +53,12 @@ Tor 的工作原理是通過志願者運營的服務器來引導您的網際網�
 
 此類不良配置很難無意中完成，因為它通常涉及在 Tor 瀏覽器內設置自訂代理設置，或在 VPN 用戶端內設置自訂代理設定（透過 Tor 瀏覽器路由 VPN 流量）。 只要避免這些非預設配置，可能就沒問題。
 
-
-
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Info "VPN/SSH Fingerprinting</p>
+<p class="admonition-title">VPN/SSH 指紋</p>
 
-Tor 專案 [註](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) *理論上*使用 VPN 隱藏 Tor 活動到 ISP 可能不容易。 人們發現 VPN 很容易受到網站流量指紋辨識的影響，攻擊者仍然可猜測正在造訪哪個網站，因為所有網站都有特定的流量模式。
+Tor Project [指出](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) *理論上*使用 VPN 對 ISP 隱藏 Tor 活動可能並非萬無一失。 人們發現 VPN 很容易受到網站流量指紋辨識的影響，攻擊者仍然可猜測正在造訪哪個網站，因為所有網站都有特定的流量模式。
 
 因此，相信 VPN 隱藏的加密 Tor 流量也可以透過類似的方法被偵測，這並非沒道理。 沒有這個主題的研究論文，我們仍然認為使用 VPN 的好處遠遠超過這些風險，但需要記住這點。
 
@@ -74,13 +68,9 @@ Tor 專案 [註](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVP
 
 確定是否應該先使用 VPN 連接到 Tor 網絡需要一些常識和了解當地政府和 ISP 與所連接內容的政策。 然而在多數情況下，最好被視為連接到商業 VPN 網絡，而不是直接連到 Tor 網路。 如果VPN 服務商在您的地區受到審查，那麼也可以考慮使用Tor 可插拔傳輸（例如 Snowflake 或 meek ）作為替代方案，但使用這些橋接器可能比標準WireGuard/OpenVPN 隧道引起更多懷疑。
 
-
-
 ## Tor 並非是
 
 Tor 網路並非在任何情況下都是完美的隱私保護工具，其存在一些應仔細考慮的缺點。 如果 Tor 適合您的需求，則這些缺點不應阻止 Tor 使用，但在決定哪種解決方案最適合時仍然需要考慮這些問題。
-
-
 
 ### Tor 不是免費的 VPN
 
@@ -90,17 +80,13 @@ Tor 網路並非在任何情況下都是完美的隱私保護工具，其存在�
 
 正如我們已提過的，Tor 在網路上很容易識別。 與實際的 VPN 服務不同，使用 Tor 會讓您成為可能試圖逃避當局的人。 在理想的世界中，Tor 會被網路管理員和當局視為一種多種用途的工具（就像如何看待VPN）。但現實中，Tor 的認知仍然遠不如承認商業 VPN 的正當性，因此使用真正的 VPN 提供看似合理的推諉，例如 「我只是用它來觀看 Netflix，」等等。
 
-
-
-### Tor usage is not undetectable
+### Tor 的使用並非無法偵測
 
 **即便使用橋接器和可插拔傳輸，**Tor 專案並未提供任何工具來對ISP 隱藏正在使用 Tor 的事實。 即使使用模糊的「可插拔傳輸」或非公共橋接器也不能隱藏正在使用私人通訊通道的事實。 最受歡迎的可插拔傳輸，例如obfs4（將流量混淆為「看起來沒什麼」）和meek（使用網域前置來偽裝流量）可以是[使用相當標準的流量分析技術檢測](https://www.hackerfactor.com/blog/ index.php?/archives/889-Tor-0day-Burning-Bridges.html)。 Snowflake 也有類似的問題， *在 Tor 連線建立之前*[很容易被偵測到](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html)。
 
 還有這三種以外的可插拔傳輸，但通常依賴透過隱蔽性來逃避偵測的安全性。 它們不是不可能被檢測，只是使用者太少，以至於不值得為它們建立檢測器。 如果特別遭受監控，則不應依賴它們。
 
 了解繞過審查和逃避檢測兩者的差異很重要。 要實現前者更容易，因為網路審查員實際上存在許多現實限制，但這些技術並沒有掩蓋這個事實：監視網路使用的相關單位知道您——*的確在* — —使用Tor 。
-
-
 
 ### Tor 瀏覽器不是最*安全*的瀏覽器
 
@@ -112,8 +98,6 @@ Tor 網路並非在任何情況下都是完美的隱私保護工具，其存在�
 2. 將*多個*中/低漏洞連結在一起，直到它們獲得所需的存取等級（此漏洞週期可能會持續數月或更長時間）。
 
 面臨瀏覽器漏洞風險者應考慮採取額外的保護措施來防禦Tor 瀏覽器漏洞，例如在[Qubes](../os/qubes-overview.md) 使用Whonix 來限制 Tor 瀏覽安全的虛擬器並防止洩漏。
-
-
 
 ## 連接明網服務的路徑建立
 
@@ -129,15 +113,11 @@ Tor 網路並非在任何情況下都是完美的隱私保護工具，其存在�
 
 每個節點都有自己的功能：
 
-
-
 ### 入口節點
 
 入口節點，通常稱為守護節點，是 Tor 客戶端連接的第一個節點。 入口節點能夠看到您的 IP 位址，但無法看到您正在連接的內容。
 
 不像其它節點 Tor 客戶端會隨機地選取入口節點後持續使用二~三個月以防護某些外部攻擊 [^1]
-
-
 
 ### 中間節點
 
@@ -145,15 +125,11 @@ Tor 網路並非在任何情況下都是完美的隱私保護工具，其存在�
 
 對於每個新迴路，中間節點是隨機從所有可用的 Tor 節點中選出。
 
-
-
 ### 出口節點
 
 出口節點是您的 Web 流量離開 Tor 網路並轉發到所需目的地的點。 出口節點無法看到您的 IP 位址，但它知道將連接到哪個網站。
 
 出口節點將從所有可用的 Tor 節點中隨機選擇，並使用退出中繼標記。[^ 2]
-
-
 
 ## Onion 服務的路徑建立
 
@@ -189,8 +165,6 @@ Tor 使用來自出口，中間和入口節點的密鑰對每個封包（傳輸�
 
 Tor 允許我們連接到伺服器，而不讓任何一方知道完整路徑。 入口節點知道你是誰，但不知道你要去哪裡；中間節點不知道你是誰或你要去哪裡；出口節點知道你要去哪裡，但不知道你是誰。 由於出口節點負責了最終連線，目的地伺服器永遠不會知道您的 IP 位址。
 
-
-
 ## 注意事項
 
 雖然 Tor 確實提供了強大的隱私保證，但必須意識到它並不完美：
@@ -205,8 +179,6 @@ Tor 允許我們連接到伺服器，而不讓任何一方知道完整路徑。 
 
 - [Tor 瀏覽器 :material-arrow-right-drop-circle:](../tor.md#tor-browser)
 
-
-
 ### 橋接器提供的保護
 
 Tor 橋接器通常被認為是向 ISP 隱藏 Tor 使用情況的替代方法，而不是 VPN（我們建議盡可能使用後者 ）。 需要考慮的是，雖然橋接器可以提供足夠的審查規避，但這只是*暫時*的好處。 它們無法充分保護您，防止 ISP 透過歷史流量日誌分析發現您*過去*連接 Tor。
@@ -219,13 +191,11 @@ Tor 橋接器通常被認為是向 ISP 隱藏 Tor 使用情況的替代方法，
 
 ISP 肯定不會截取所有資料包級資料與將其永久存儲，他們*無法利用深度資料包檢查等先進技術* 來確認通過VPN 連接的內容，因此你有合理的推諉能力。
 
-因此，橋接器在規避網路審查時提供了最大的好處，但*目前*它們還未能充分取代**所有</em >結合使用 VPN 和 Tor 的好處。 再次強調，這並不是*反對*使用 Tor 橋接器，但在做出決定時應該了解其限制。 在某些情況下，橋接器可能是*唯一*選項（例如，如果所有VPN 提供者都被封鎖），因此您仍然可以在這些情況下使用它們，但請記住此限制。</p> 
+因此，橋接器在規避網路審查時提供了最大的好處，但*目前*它們還未能充分取代**所有</em >結合使用 VPN 和 Tor 的好處。 再次強調，這並不是*反對*使用 Tor 橋接器，但在做出決定時應該了解其限制。 在某些情況下，橋接器可能是*唯一*選項（例如，如果所有VPN 提供者都被封鎖），因此您仍然可以在這些情況下使用它們，但請記住此限制。</p>
 
 如果認為橋接器比 VPN 的加密隧道更能幫助防禦指紋識別或其他進階網路分析，那麼可以一直選擇將橋接器與 VPN 結合使用。 這樣，即使對手取得對 VPN 隧道某程度的可見性，您仍然受到可插拔傳輸混淆技術的保護。 如果決定走這條路，建議您連接到 VPN 後面的 obfs4 橋，以獲得最佳的指紋識別保護，而不是 meek 或 Snowflake。
 
 [可能](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16)目前正在試驗中的[WebTunnel](https:// forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) 可插拔傳輸可以減輕其中一些擔憂。 我們將繼續關注這項技術的發展。
-
-
 
 ## 其他資源
 
@@ -233,12 +203,6 @@ ISP 肯定不會截取所有資料包級資料與將其永久存儲，他們*無
 - [ Tor 如何運作 - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
 - [Tor O洋蔥服務- Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
 
+[^1]: 迴路中的第一個節點被稱為“入口守衛”或“守衛”。 它是一個快速和穩定的中繼站，作迴路中的第一個入口通常會維持 2~3個月，以防止已知的匿名破壞攻擊。 其餘的迴路則會依每次訪問網站而變化，這些中繼節點共同提供Tor  完整隱私保護。 了解更多關於守衛中繼的運作，請參考 [部落格文章](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [入口守衛論文paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 
-
-[^1]:    
-    迴路中的第一個節點被稱為“入口守衛”或“守衛”。 它是一個快速和穩定的中繼站，作迴路中的第一個入口通常會維持 2~3個月，以防止已知的匿名破壞攻擊。 其餘的迴路則會依每次訪問網站而變化，這些中繼節點共同提供Tor  完整隱私保護。 了解更多關於守衛中繼的運作，請參考 [部落格文章](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [入口守衛論文paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
-
-
-
-[^2]:    
-    中繼標記：迴路位置（例如， “Guard” ， “Exit” ， “BadExit” ） ，迴路屬性（例如， “Fast” ， “Stable” ）或角色（例如， “Authority” ， “HSDir” ）這些中繼節點的特殊（ dis- ）資格，是由目錄機構分配並在目錄協議規範中進一步定義。 ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))
+[^2]: 中繼標記：迴路位置（例如， “Guard” ， “Exit” ， “BadExit” ） ，迴路屬性（例如， “Fast” ， “Stable” ）或角色（例如， “Authority” ， “HSDir” ）這些中繼節點的特殊（ dis- ）資格，是由目錄機構分配並在目錄協議規範中進一步定義。 ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))

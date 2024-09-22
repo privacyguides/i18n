@@ -1,5 +1,6 @@
 ---
-title: Subiendo imágenes
+title: Uploading Images
+description: A guide for website contributors on uploading images in the proper format and location.
 ---
 
 Si realiza cambios a este sitio web donde se requiera agregar nuevas imágenes o reemplazar las existentes, aquí tiene un par de recomendaciones generales:

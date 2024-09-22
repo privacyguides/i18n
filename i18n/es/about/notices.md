@@ -1,5 +1,6 @@
 ---
-title: "Avisos y Descargos de Responsabilidad"
+title: "Notices and Disclaimers"
+description: Information about our website license, acceptable use policy, and other important details.
 ---
 
 ## Aviso Legal

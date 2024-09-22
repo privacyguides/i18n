@@ -1,6 +1,7 @@
 ---
 title: Privé betalingen
 icon: material/hand-coin
+description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
 Er is een reden waarom gegevens over jouw koopgedrag word beschouwd als de heilige graal van gerichte advertenties: jouw aankopen kunnen een ware schat aan gegevens over je lekken. Helaas is het huidige financiële systeem anti-privacy by design, waardoor banken, andere bedrijven en overheden transacties gemakkelijk kunnen traceren. Toch heb je tal van opties als het gaat om het maken van betalingen privé.

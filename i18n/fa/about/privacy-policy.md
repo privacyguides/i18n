@@ -1,5 +1,6 @@
 ---
-title: "حریم خصوصی"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Privacy Guides یک پروژه اجتماعی است که توسط تعدادی از مشارکت کنندگان داوطلب فعال اداره می شود. لیست عمومی اعضای تیم

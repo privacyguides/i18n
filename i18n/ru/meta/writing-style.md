@@ -1,5 +1,6 @@
 ---
-title: Стиль написания
+title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 Privacy Guides написан на американском английском, и в случае сомнений вам следует обратиться к [руководству по стилю APA](https://apastyle.apa.org/style-grammar-guidelines/grammar).

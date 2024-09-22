@@ -1,5 +1,6 @@
 ---
-title: סגנון כתיבה
+title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 Privacy Guides כתובים באנגלית אמריקאית, וכדאי לעיין ב-[APA הנחיות סגנון](https://apastyle.apa.org/style-grammar-guidelines/grammar) כאשר יש ספק.

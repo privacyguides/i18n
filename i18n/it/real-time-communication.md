@@ -2,7 +2,7 @@
 meta_title: "Le migliori app di messaggistica istantanea private - Privacy Guides"
 title: "Comunicazione in tempo reale"
 icon: material/chat-processing
-description: Le altre app di messaggistica istantanea rendono disponibili tutte le tue conversazioni private all'azienda che le gestisce.
+description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
 cover: real-time-communication.webp
 ---
 

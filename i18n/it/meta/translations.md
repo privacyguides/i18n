@@ -1,5 +1,6 @@
 ---
-title: Traduzioni
+title: Translations
+description: A guide for website contributors on adding translations to our website.
 ---
 
 Crowdin dispone di una buona documentazione, e suggeriamo di consultare la loro guida [Per Iniziare](https://support.crowdin.com/crowdin-intro). Il nostro sito è per lo più scritto in [Markdown](https://en.wikipedia.org/wiki/Markdown), quindi, contribuire, dovrebbe essere facile. Questa pagina contiene dei consigli utili per tradurre parte specifica della sintassi che potresti incontrare sul nostro sito.

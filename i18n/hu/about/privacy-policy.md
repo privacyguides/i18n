@@ -1,5 +1,6 @@
 ---
-title: "Adatvédelmi Tájékoztató"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 A Privacy Guides egy közösségi projekt, amelyet számos aktív önkéntes közreműködő működtet. A csapattagok nyilvános listája [megtalálható a GitHub-on](https://github.com/orgs/privacyguides/people).

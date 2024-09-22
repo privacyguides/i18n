@@ -1,7 +1,7 @@
 ---
 title: Mobiltelefone
 icon: material/cellphone-check
-description: Diese Handys verfügen über eine geeignete Android Verified Boot-Unterstützung für benutzerdefinierte Betriebssysteme.
+description: These mobile devices provide the best hardware security support for custom Android operating systems.
 cover: android.webp
 schema:
   - "@context": http://schema.org

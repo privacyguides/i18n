@@ -2,6 +2,7 @@
 title: Servizi finanziari
 icon: material/bank
 cover: financial-services.webp
+description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
 Effettuare pagamenti online è una delle maggiori sfide per la privacy. Questi servizi possono assisterti nel proteggere la tua privacy da commercianti e altri tracciatori, ammesso che tu abbia una buona comprensione di come effettuare efficientemente i pagamenti privati. Ti incoraggiamo vivamente a leggere prima il nostro articolo di panoramica sui pagamenti, prima di effettuare qualsiasi acquisto:

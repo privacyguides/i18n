@@ -1,5 +1,6 @@
 ---
-title: הנחיות מיתוג
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 שם האתר הוא **Privacy Guides** ואין **לשנותו** ל:

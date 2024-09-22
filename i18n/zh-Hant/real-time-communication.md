@@ -2,7 +2,7 @@
 meta_title: "最好的私人即時通訊軟體 - Privacy Guides"
 title: "即時通訊軟體"
 icon: material/chat-processing
-description: 其他即時通訊則會讓用戶所有的私人對話被該軟體公司取得。
+description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
 cover: real-time-communication.webp
 ---
 

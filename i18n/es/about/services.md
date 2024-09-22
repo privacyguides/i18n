@@ -1,3 +1,7 @@
+- - -
+description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+- - -
+
 # Servicios de Privacy Guides
 
 Ejecutamos una serie de servicios web para probar las características y promover proyectos descentralizados, federados y/o de código abierto. Muchos de estos servicios están disponibles al público y están detallados a continuación.

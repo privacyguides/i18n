@@ -1,5 +1,6 @@
 ---
-title: Κατευθυντήριες γραμμές branding
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 Το όνομα του ιστότοπου είναι **Privacy Guides** και **δεν** πρέπει να αλλάξει σε:

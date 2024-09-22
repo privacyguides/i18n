@@ -1,10 +1,10 @@
 ---
-meta_title: "De beste privacytools, services en aanbevelingen zonder advertenties - Privacy Guides"
+meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "Privacy Hulpmiddelen"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is de meest transparante en betrouwbare website voor het vinden van software, apps en diensten die jouw persoonlijke gegevens beschermen tegen massa surveillance programma's en andere internetbedreigingen.
+description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
 Als je op zoek bent naar een specifieke oplossing voor iets, dan zijn dit de hardware en software tools die wij aanbevelen in verschillende categorieën. Onze aanbevolen privacytools zijn in de eerste plaats gekozen op basis van beveiligingskenmerken, met extra nadruk op gedecentraliseerde en open-source tools. Ze zijn van toepassing op een verscheidenheid aan dreigingsmodellen, variërend van bescherming tegen wereldwijde massasurveillanceprogramma's en het vermijden van grote technologiebedrijven tot het beperken van aanvallen, maar alleen jij kunt bepalen wat het beste werkt voor jouw behoeften.

@@ -1,5 +1,6 @@
 ---
-title: 通用標準
+title: General Criteria
+description: A list of general priorities we consider for all submissions to Privacy Guides.
 ---
 
 以下是我們在對提交給 Privacy Guides 所考慮的一些優先事項。 每個類別都會有額外的加入要求。

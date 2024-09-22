@@ -1,6 +1,7 @@
 ---
 title: Private Payments
 icon: material/hand-coin
+description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
 Há um motivo pelo qual os dados sobre seus hábitos de compra são considerados o Santo Graal da segmentação de anúncios: suas compras podem vazar um verdadeiro tesouro de dados sobre você. Infelizmente, o sistema financeiro atual é anti-privacidade por natureza, permitindo que bancos, outras empresas e governos rastreiem facilmente as transações. Contudo, você tem muitas opções quando se trata de fazer pagamentos de forma privada.

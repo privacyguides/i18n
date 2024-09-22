@@ -1,5 +1,6 @@
 ---
-title: "Avvisi e Dichiarazioni di non responsabilità"
+title: "Notices and Disclaimers"
+description: Information about our website license, acceptable use policy, and other important details.
 ---
 
 ## Dichiarazione di non responsabilità legale

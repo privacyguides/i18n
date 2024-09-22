@@ -1,5 +1,6 @@
 ---
-title: Git 使用建議
+title: Git Recommendations
+description: A guide for website contributors on using Git effectively.
 ---
 
 如果想直接在 github.com 網頁編輯器對本站進行修改，則無須擔心此處的建議。 如您使用本地端開發或長期網站編編器(可能為本地端)，請參考以下建議。

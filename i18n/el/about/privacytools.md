@@ -1,5 +1,6 @@
 ---
-title: "Συχνές ερωτήσεις περί PrivacyTools"
+title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 Τον Σεπτέμβριο του 2021, κάθε ενεργός συνεργάτης συμφώνησε ομόφωνα να μετακινηθεί από το PrivacyTools για να εργαστεί σε αυτόν τον ιστότοπο: Privacy Guides. Η απόφαση αυτή ελήφθη επειδή ο ιδρυτής της PrivacyTools και διαχειριστής του ονόματος τομέα είχε εξαφανιστεί για μεγάλο χρονικό διάστημα και δεν μπορούσε να επικοινωνήσει κανείς μαζί του.

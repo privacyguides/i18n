@@ -1,5 +1,6 @@
 ---
 title: אזהרות
+description: A guide for website contributors on creating admonitions.
 ---
 
 **Admonitions** (or "call-outs") are a choice writers can use to include side content in an article without interrupting the document flow.

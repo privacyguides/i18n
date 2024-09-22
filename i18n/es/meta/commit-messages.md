@@ -1,5 +1,6 @@
 ---
 title: Mensajes de commit
+description: A guide for website contributors on using useful Git commit messages when making website change requests.
 ---
 
 Para nuestros mensajes de commit, seguimos el estilo proporcionado por [Conventional Commits](https://conventionalcommits.org). No todas las sugerencias son apropiadas para Privacy Guides, así que las principales que utilizamos son:

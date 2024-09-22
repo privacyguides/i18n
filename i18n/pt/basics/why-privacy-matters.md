@@ -1,6 +1,7 @@
 ---
 title: "Porque é que a privacidade é importante"
 icon: 'material/shield-account'
+description: Na era moderna da exploração dos dados digitais, a sua privacidade nunca foi tão crítica e, mesmo assim, muitos acreditam que já é uma causa perdida. Não é.
 ---
 
 Na era moderna da exploração dos dados digitais, a sua privacidade nunca foi tão crítica e, mesmo assim, muitos acreditam que já é uma causa perdida. Não é. ==A sua privacidade está em jogo==, e precisa de se preocupar com isso. A privacidade tem a ver com poder, e é muito importante que esse poder esteja nas mãos certas.

@@ -1,5 +1,6 @@
 ---
 title: 提交訊息
+description: A guide for website contributors on using useful Git commit messages when making website change requests.
 ---
 
 For our commit messages we follow the style provided by [Conventional Commits](https://conventionalcommits.org). Not all of those suggestions are appropriate for Privacy Guides, so the main ones we use are:

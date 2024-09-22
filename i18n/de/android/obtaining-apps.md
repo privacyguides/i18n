@@ -1,5 +1,6 @@
 ---
 title: Apps beschaffen
+description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
 ---
 
 Es gibt viele Möglichkeiten, Android-Apps privat zu beziehen, auch aus dem Play Store, ohne mit Google Play Services zu interagieren. Wir empfehlen die folgenden Methoden, um Anwendungen für Android zu erhalten, aufgelistet in der Reihenfolge ihrer Präferenz.

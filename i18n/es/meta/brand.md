@@ -1,5 +1,6 @@
 ---
-title: Lineamientos de marca
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 El nombre de la página es **Privacy Guides** y **no** debe ser cambiado a:

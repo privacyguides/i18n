@@ -1,5 +1,6 @@
 ---
-title: "שאלות נפוצות PrivacyTools"
+title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 בספטמבר 2021, כל תורם פעיל הסכים פה אחד לעבור מ- PrivacyTools לעבודה באתר זה: Privacy Guides. החלטה זו התקבלה מכיוון שהמייסד והבקר של PrivacyTools על שם הדומיין נעלם לתקופה ממושכת ולא ניתן היה ליצור איתו קשר.

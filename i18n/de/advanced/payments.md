@@ -1,6 +1,7 @@
 ---
 title: Private Zahlungsmethoden
 icon: material/hand-coin
+description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
 Es gibt einen Grund, warum Daten über dein Kaufverhalten als der heilige Gral des Ad-Targeting gelten: Deine Einkäufe können einen wahren Schatz an Daten über dich preisgeben. Leider ist das derzeitige Finanzsystem von vornherein datenschutzfeindlich gestaltet und ermöglicht es Banken, Unternehmen und Regierungen, Transaktionen relativ einfach nachzuvollziehen. Dennoch hast du viele Möglichkeiten, wenn es darum geht, Zahlungen privat zu leisten.

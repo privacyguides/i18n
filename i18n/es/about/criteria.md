@@ -1,5 +1,6 @@
 ---
-title: Criterios generales
+title: General Criteria
+description: A list of general priorities we consider for all submissions to Privacy Guides.
 ---
 
 A continuación se encuentran algunas prioridades generales que consideramos para todos los envíos a Privacy Guides. Cada categoría puede tener requisitos adicionales.

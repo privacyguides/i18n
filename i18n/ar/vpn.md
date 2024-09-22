@@ -2,7 +2,7 @@
 meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
 title: "خِدْمَات شبكة خاصة افتراضية"
 icon: material/vpn
-description: هذه هي أفضل خِدْمَات شبكة خاصة افتراضية للمحافظة خصوصيتك وأمانك على الإنترنت. اعثر على مزود للخدمة هنا ليس يريد التجسس عليك.
+description: The best VPN services for protecting your privacy and security online. اعثر على مزود للخدمة هنا ليس يريد التجسس عليك.
 cover: vpn.webp
 global:
   - 

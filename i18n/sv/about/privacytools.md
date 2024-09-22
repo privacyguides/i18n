@@ -1,5 +1,6 @@
 ---
-title: "Vanliga frågor om PrivacyTools"
+title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 I september 2021 kom alla aktiva medarbetare enhälligt överens om att flytta från PrivacyTools till den här webbplatsen: Sekretessguider. This decision was made because PrivacyTools’ founder and controller of the domain name had disappeared for an extended period of time and could not be contacted.

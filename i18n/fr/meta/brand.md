@@ -1,5 +1,6 @@
 ---
-title: Consignes relatives à la marque
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 Le nom du site web est **Privacy Guides** et ne devrait **pas** être changé en :

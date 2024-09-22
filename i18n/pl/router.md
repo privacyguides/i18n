@@ -1,7 +1,7 @@
 ---
 title: "Oprogramowanie routera"
 icon: material/router-wireless
-description: Te alternatywne systemy operacyjne mogą być wykorzystane do zabezpieczenia routera lub punktu dostępowego Wi-Fi.
+description: Alternative operating systems for securing your router or Wi-Fi access point.
 cover: router.webp
 ---
 

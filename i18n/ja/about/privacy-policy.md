@@ -1,5 +1,6 @@
 ---
-title: "プライバシーポリシー"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Privacy Guidesは、多くの積極的なボランティアにより運営されているコミュニティー・プロジェクトです。 チームメンバーの公開リストは[GitHubで確認](https://github.com/orgs/privacyguides/people)できます。

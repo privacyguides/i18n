@@ -1,5 +1,6 @@
 ---
-title: Riktlinjer för varumärket
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 Webbplatsen heter **Privacy Guides** och bör **inte** ändras till:

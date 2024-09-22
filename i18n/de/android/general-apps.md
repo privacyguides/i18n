@@ -1,5 +1,6 @@
 ---
 title: Allgemeine Apps
+description: Die hier aufgeführten Apps sind Android-exklusiv und verbessern oder ersetzen wichtige Systemfunktionen.
 schema:
   - "@context": http://schema.org
     "@type": WebPage

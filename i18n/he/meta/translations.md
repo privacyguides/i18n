@@ -1,5 +1,6 @@
 ---
-title: תרגומים
+title: Translations
+description: A guide for website contributors on adding translations to our website.
 ---
 
 Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro) guide. האתר שלנו כתוב ברובו ב[Markdown](https://en.wikipedia.org/wiki/Markdown), כך שיהיה קל לתרום. דף זה מכיל כמה עצות מועילות לתרגום תחביר ספציפי שאתה עשוי להיתקל בו באתר שלנו.

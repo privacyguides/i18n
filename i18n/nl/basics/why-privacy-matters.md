@@ -1,6 +1,7 @@
 ---
 title: "Waarom privacy belangrijk is"
 icon: 'material/shield-account'
+description: In het moderne tijdperk van digitale gegevensuitbuiting is jouw privacy nog nooit zo belangrijk geweest, en toch denken velen dat het al een verloren zaak is. Dat is het niet.
 ---
 
 In het moderne tijdperk van digitale gegevensuitbuiting is jouw privacy nog nooit zo belangrijk geweest, en toch denken velen dat het al een verloren zaak is. Dat is het niet. ==Je privacy ligt voor het grijpen==, en daar moet je om geven. Privacy gaat over macht, en het is zo belangrijk dat die macht in de juiste handen terechtkomt.

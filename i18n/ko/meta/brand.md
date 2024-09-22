@@ -1,5 +1,6 @@
 ---
-title: 브랜드 가이드라인
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 본 사이트의 명칭은 **Privacy Guides**이며, 다음과 같은 형식으로 변경되어 쓰일 수 **없습니다**.

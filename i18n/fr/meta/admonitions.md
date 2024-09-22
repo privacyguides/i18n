@@ -1,5 +1,6 @@
 ---
 title: Avertissements
+description: A guide for website contributors on creating admonitions.
 ---
 
 **Les avertissements** (ou conseils) sont un choix que les rédacteurs peuvent utiliser pour inclure un contenu annexe dans un article sans interrompre le flux du document.

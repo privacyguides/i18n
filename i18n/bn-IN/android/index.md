@@ -1,5 +1,6 @@
 ---
-title: অ্যান্ড্রয়েড
+title: Android
+description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
 icon: simple/android
 cover: android.webp
 schema:
@@ -9,7 +10,7 @@ schema:
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
-    name: অ্যান্ড্রয়েড
+    name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
     sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)

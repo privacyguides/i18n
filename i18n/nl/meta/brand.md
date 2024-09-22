@@ -1,5 +1,6 @@
 ---
-title: Richtlijnen voor merknamen
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 De naam van de website is **Privacy Guides** en moet **niet** worden veranderd in:

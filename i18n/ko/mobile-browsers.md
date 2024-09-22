@@ -1,5 +1,5 @@
 ---
-meta_title: "프라이버시 중점 모바일(Android, iOS) 웹 브라우저 - Privacy Guides"
+meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
 title: "모바일 브라우저"
 icon: material/cellphone-information
 description: 현재 휴대폰에서 표준/비익명 인터넷 탐색 용도로 권장되는 브라우저 목록입니다.

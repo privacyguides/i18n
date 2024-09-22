@@ -1,5 +1,5 @@
 ---
-meta_title: "Mobile Browser für Android und iOS, welche die Privatsphäre respektieren - Privacy Guides"
+meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
 title: "Mobile Browser"
 icon: material/cellphone-information
 description: Wir empfehlen aktuell diese mobilen Browser für normales bzw. nicht anonymes Surfen im Internet.

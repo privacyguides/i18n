@@ -1,7 +1,7 @@
 ---
 title: 手機
 icon: material/cellphone-check
-description: 這些行動裝置具備適當的 Android 驗證啟動支援，可支援自訂作業系統。
+description: These mobile devices provide the best hardware security support for custom Android operating systems.
 cover: android.webp
 schema:
   - "@context": http://schema.org

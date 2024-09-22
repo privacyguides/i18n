@@ -1,5 +1,6 @@
 ---
 title: Moniti
+description: A guide for website contributors on creating admonitions.
 ---
 
 I **moniti** (o "richiami") sono una scelta che gli scrittori possono utilizzare per includere contenuti in un articolo senza interrompere il flusso del documento.

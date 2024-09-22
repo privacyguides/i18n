@@ -1,6 +1,7 @@
 ---
 title: "Gizlilik Neden Önemlidir"
 icon: 'material/shield-account'
+description: İçinde bulunduğumuz dijital veri sömürüsü çağında, gizliliğiniz daha önce hiç bu kadar önemli olmamıştı, yine de birçok bunun kaybedilmiş bir dava olduğuna inanıyor. Ancak değil.
 ---
 
 İçinde bulunduğumuz dijital veri sömürüsü çağında, gizliliğiniz daha önce hiç bu kadar önemli olmamıştı, yine de birçok bunun kaybedilmiş bir dava olduğuna inanıyor. Ancak değil. ==Gizliliğiniz kapanın elinde== ve bunu önemsemeniz gerekiyor. Gizlilik güçle ilgilidir ve bu gücün doğru ellerde olması çok önemlidir.

@@ -2,7 +2,7 @@
 meta_title: "Private VPN-Anbieter Empfehlungen und Vergleiche, kein Sponsoring und keine Werbung - Privacy Guides"
 title: "VPN Anbieter"
 icon: material/vpn
-description: Dies sind die besten VPN-Anbieter zum Schutz deiner Privatsphäre und Sicherheit im Internet. Hier findest du einen Anbieter, der nicht darauf aus ist, dich auszuspionieren.
+description: The best VPN services for protecting your privacy and security online. Hier findest du einen Anbieter, der nicht darauf aus ist, dich auszuspionieren.
 cover: vpn.webp
 global:
   - 

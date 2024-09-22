@@ -1,5 +1,6 @@
 ---
 meta_title: "私密加密貨幣區塊鏈 - Privacy Guides"
+description: Unlike most cryptocurrencies, these ones provide transaction privacy by default. Monero is our top choice for obfuscating transaction information.
 title: 加密貨幣
 icon: material/bank-circle
 cover: cryptocurrency.webp

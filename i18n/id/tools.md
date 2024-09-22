@@ -1,10 +1,10 @@
 ---
-meta_title: "Alat, Layanan, dan Rekomendasi Privasi Terbaik - Privacy Guides"
+meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "Alat Privasi"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides adalah situs web yang paling transparan dan dapat diandalkan untuk menemukan perangkat lunak, aplikasi, dan layanan yang melindungi data pribadi Anda dari program pengawasan massal dan ancaman internet lainnya.
+description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
 Jika Anda mencari solusi spesifik untuk sesuatu, berikut ini adalah perangkat keras dan perangkat lunak yang kami rekomendasikan dalam berbagai kategori. Perangkat privasi yang kami rekomendasikan terutama dipilih berdasarkan fitur keamanan, dengan penekanan tambahan pada perangkat yang terdesentralisasi dan bersumber terbuka. Mereka dapat diterapkan pada berbagai model ancaman mulai dari perlindungan terhadap program pengawasan massal global dan menghindari perusahaan teknologi besar hingga memitigasi serangan, tetapi hanya Anda yang dapat menentukan mana yang paling sesuai dengan kebutuhan Anda.

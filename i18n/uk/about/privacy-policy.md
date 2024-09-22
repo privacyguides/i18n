@@ -1,5 +1,6 @@
 ---
-title: "Політика конфіденційності"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Privacy Guides - це проєкт спільноти, який керується низкою активних волонтерів. Загальнодоступний список членів команди [можна знайти на GitHub](https://github.com/orgs/privacyguides/people).

@@ -1,5 +1,6 @@
 ---
-title: سبک نوشتن
+title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 وبسایت Privacy Guides به زبان انگلیسی با لهجه امریکایی نوشته شده است و وقتی شک دارید باید به [دستورالعمل‌های سبک نوشتن APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) مراجعه کنید.

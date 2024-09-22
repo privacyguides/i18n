@@ -1,6 +1,7 @@
 ---
 title: "Por Qué es Importante la Privacidad"
 icon: 'material/shield-account'
+description: En la era moderna de explotación de datos digitales, tu privacidad nunca ha sido más crítica, y sin embargo muchos creen que ya es una causa perdida. No lo es.
 ---
 
 En la era moderna de explotación de datos digitales, tu privacidad nunca ha sido más crítica, y sin embargo muchos creen que ya es una causa perdida. No lo es. ==Tu privacidad está en juego==, y debes preocuparte por ella. La privacidad es poder, y es muy importante que ese poder acabe en las manos adecuadas.

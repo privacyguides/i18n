@@ -1,7 +1,7 @@
 ---
 title: Llaves de seguridad
 icon: material/key-chain
-description: Estas herramientas te ayudan a proteger tus cuentas de Internet con la autenticación multifactor sin enviar tus secretos a terceros.
+description: Secure your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: دستورالعمل های برندسازی
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 نام این وبسایت **Privacy Guides** است و **نباید**به این موارد تغییر کند:

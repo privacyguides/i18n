@@ -1,5 +1,6 @@
 ---
-title: Μεταφράσεις
+title: Translations
+description: A guide for website contributors on adding translations to our website.
 ---
 
 Το Crowdin διαθέτει καλή τεκμηρίωση και σας προτείνουμε να διαβάσετε τον οδηγό τους για τα [πρώτα βήματα](https://support.crowdin.com/crowdin-intro). Ο ιστότοπός μας είναι σε μεγάλο βαθμό γραμμένος σε [Markdown](https://en.wikipedia.org/wiki/Markdown), οπότε θα είναι εύκολο να συνεισφέρετε. Αυτή η σελίδα περιέχει μερικές χρήσιμες συμβουλές για τη μετάφραση ορισμένων συγκεκριμένων συντακτικών που μπορεί να συναντήσετε στον ιστότοπό μας.

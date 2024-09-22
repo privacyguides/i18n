@@ -1,5 +1,6 @@
 ---
-title: Diretrizes da Marca
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 O nome do site é **Privacy Guides** e **não deve** ser alterado para:

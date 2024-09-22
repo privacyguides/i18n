@@ -1,3 +1,7 @@
+- - -
+description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+- - -
+
 # Υπηρεσίες Privacy Guides
 
 Διαχειριζόμαστε διάφορες διαδικτυακές υπηρεσίες για να δοκιμάζουμε χαρακτηριστικά και να προωθούμε ωραία αποκεντρωμένα, ομοσπονδιακά ή/και έργα ανοικτού κώδικα. Πολλές από αυτές τις υπηρεσίες είναι διαθέσιμες στο κοινό και περιγράφονται λεπτομερώς παρακάτω.

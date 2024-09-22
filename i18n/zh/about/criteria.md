@@ -1,5 +1,6 @@
 ---
 title: General Criteria
+description: A list of general priorities we consider for all submissions to Privacy Guides.
 ---
 
 Below are some general priorities we consider for all submissions to Privacy Guides. 每个类别都会有额外的纳入要求。

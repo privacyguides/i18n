@@ -1,5 +1,6 @@
 ---
 title: General Apps
+description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
@@ -9,17 +10,17 @@ schema:
     "@type": MobileApplication
     name: Shelter
     applicationCategory: Utilities
-    operatingSystem: অ্যান্ড্রয়েড
+    operatingSystem: Android
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Secure Camera
     applicationCategory: Utilities
-    operatingSystem: অ্যান্ড্রয়েড
+    operatingSystem: Android
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Secure PDF Viewer
     applicationCategory: Utilities
-    operatingSystem: অ্যান্ড্রয়েড
+    operatingSystem: Android
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Гайдлайн по брендингу
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 Название сайта **Privacy Guides** **не** должно быть изменено на:

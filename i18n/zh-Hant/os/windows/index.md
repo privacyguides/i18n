@@ -1,6 +1,7 @@
 ---
 title: Windows 總覽
 icon: material/microsoft-windows
+description: Microsoft Windows is a common operating system which is extremely non-private out of the box. Our guide covers making some improvements to your computer without replacing your OS.
 ---
 
 **Microsoft Windows** 是許多 PC 預設配備的常用作業系統。 以下指南旨在提供一些改善隱私的方法，並透過停用一些不必要的功能來減少預設的遙測和儲存的資料。 隨著時間的推移，微軟會為作業系統增加功能，這些功能有時可能會依賴雲端服務。 這些功能通常需要某些類型的 [可選資料](https://privacy.microsoft.com/data-collection-windows)，有時這些資料會被傳送到遠端伺服器進行處理。

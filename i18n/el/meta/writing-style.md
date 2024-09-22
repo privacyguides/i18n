@@ -1,5 +1,6 @@
 ---
-title: Στυλ γραφής
+title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 Οι οδηγοί απορρήτου των Privacy Guides είναι γραμμένοι στα αμερικανικά αγγλικά και θα πρέπει να ανατρέχετε στις [οδηγίες APA Style](https://apastyle.apa.org/style-grammar-guidelines/grammar) όταν έχετε αμφιβολίες.

@@ -1,10 +1,10 @@
 ---
-meta_title: "最高のプライバシーツール、サービス、広告なしのおすすめ - Privacy Guides"
+meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "プライバシーツール"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guidesは、大規模監視プログラムやその他のインターネットの脅威から個人データを保護するソフトウェア、アプリ、サービスを見つけるための最も透明性が高く信頼できる Web サイトです。
+description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
 何か特定のソリューションをお探しなら、様々なカテゴリーでおすすめのハードウェアとソフトウェアのツールをご紹介します。 私たちがおすすめするプライバシーツールは、主にセキュリティ機能に基づいて選択されており、さらに分散型やオープンソースのツールに重点を置いています。 これらは、世界的な大規模監視プログラムからの保護や大手ハイテク企業の回避から攻撃の緩和まで、さまざまな脅威モデルに適用できます。しかし、あなただけがあなたのニーズに最適であるかを判断できます。

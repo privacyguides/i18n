@@ -1,6 +1,7 @@
 ---
 title: "Pourquoi la vie privée est importante"
 icon: 'material/shield-account'
+description: À l'ère moderne de l'exploitation des données numériques, la protection de votre vie privée n'a jamais été aussi cruciale, et pourtant beaucoup pensent qu'elle est déjà une cause perdue. Ce n'est pas le cas.
 ---
 
 À l'ère moderne de l'exploitation des données numériques, la protection de votre vie privée n'a jamais été aussi cruciale, et pourtant beaucoup pensent qu'elle est déjà une cause perdue. Ce n'est pas le cas. ==Votre vie privée est en jeu==, et vous devez vous en préoccuper. La protection de la vie privée est une question de pouvoir, et il est très important que ce pouvoir soit entre de bonnes mains.

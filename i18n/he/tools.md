@@ -1,10 +1,10 @@
 ---
-meta_title: "הכלים, השירותים וההמלצות הטובות ביותר לפרטיות - Privacy Guides"
+meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "כלי פרטיות"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides הוא האתר השקוף והאמין ביותר למציאת תוכנות, אפליקציות ושירותים המגינים על הנתונים האישיים שלך מפני תוכניות מעקב המוני ואיומי אינטרנט אחרים.
+description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
 אם אתם מחפשים פתרון ספציפי למשהו, אלו הם כלי החומרה והתוכנה שאנו ממליצים עליהם במגוון קטגוריות. כלי הפרטיות המומלצים שלנו נבחרים בעיקר על סמך תכונות אבטחה, עם דגש נוסף על כלים מבוזרים וקוד פתוח. הם ישימים למגוון מודלים של איומים, החל מהגנה מפני תוכניות מעקב המוני גלובליות והימנעות מחברות טכנולוגיה גדולות ועד למיתון התקפות, אבל רק אתה יכול לקבוע מה יעבוד הכי טוב עבור הצרכים שלך.

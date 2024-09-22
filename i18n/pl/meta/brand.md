@@ -1,5 +1,6 @@
 ---
-title: Wytyczne dotyczące brandingu
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 Nazwa strony to **Privacy Guides** i **nie** powinna być zmieniana na:

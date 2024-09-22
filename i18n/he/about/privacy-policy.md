@@ -1,5 +1,6 @@
 ---
-title: "מדיניות פרטיות"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Privacy Guides הוא פרויקט קהילתי המופעל על ידי מספר תורמים מתנדבים פעילים. הרשימה הציבורית של חברי הצוות נמצא [ב - GitHub](https://github.com/orgs/privacyguides/people).

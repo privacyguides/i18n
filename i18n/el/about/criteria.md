@@ -1,5 +1,6 @@
 ---
-title: Γενικά κριτήρια
+title: General Criteria
+description: A list of general priorities we consider for all submissions to Privacy Guides.
 ---
 
 Ακολουθούν ορισμένες γενικές προτεραιότητες που εξετάζουμε για όλες τις υποβολές στο Privacy Guides. Κάθε κατηγορία θα έχει πρόσθετες απαιτήσεις για τη συμπερίληψη.

@@ -1,5 +1,6 @@
 ---
-title: Recomendações Git
+title: Git Recommendations
+description: A guide for website contributors on using Git effectively.
 ---
 
 Se fizer alterações a este site diretamente no editor web disponível em GitHub.com, não terá de se preocupar com isto. Se estiver a desenvolver localmente e/ou for um editor de websites com longa experiência (que provavelmente deveria estar a desenvolver localmente!), considere estas recomendações.

@@ -1,10 +1,10 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
+meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "Ferramentas de Privacidade"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides é o site mais transparente e confiável para encontrar programas, aplicativos e serviços que protejam seus dados pessoais contra programas de vigilância em massa e outras ameaças da Internet.
+description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
 Se você está procurando uma solução específica para algo, estas são as ferramentas de hardware e software que recomendamos em uma variedade de categorias. Nossas ferramentas de privacidade recomendadas são principalmente escolhidas com base em recursos de segurança, com ênfase adicional em ferramentas descentralizadas e de código aberto. São aplicáveis a uma variedade de modelos de ameaça que vão desde a proteção contra programas globais de vigilância em massa e evitar grandes empresas de tecnologia, até à atenuação de ataques, mas só você pode determinar o que funcionará melhor para as suas necessidades.

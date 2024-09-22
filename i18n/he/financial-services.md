@@ -2,6 +2,7 @@
 title: שירותים פיננסיים
 icon: material/bank
 cover: financial-services.webp
+description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
 ביצוע תשלומים אונליין הוא אחד האתגרים הגדולים ביותר לפרטיות. שירותים אלה יכולים לסייע לך בהגנה על פרטיותך מפני סוחרים ועוקבים אחרים, בתנאי שיש לך הבנה טובה כיצד לבצע תשלומים פרטיים ביעילות. אנו ממליצים בחום שתקרא תחילה את מאמר סקירת התשלומים שלנו לפני ביצוע רכישות כלשהן:

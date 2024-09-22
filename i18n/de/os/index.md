@@ -1,5 +1,6 @@
 ---
 title: Betriebssysteme
+description: An overview of our operating system-related recommendations for all major computing hardware.
 ---
 
 Wir veröffentlichen Konfigurationsleitfäden für die wichtigsten Betriebssysteme, da du im Allgemeinen die Menge der über dich gesammelten Daten bei jeder Option verbessern kannst, insbesondere wenn du Datenschutz-Tools wie unsere [empfohlenen Webbrowser](../desktop-browsers.md) anstelle von nativen Tools verwendest, wo dies angebracht ist. Einige Betriebssysteme sind jedoch von Natur aus datenschutzfreundlicher, und es wird sehr viel schwieriger sein, mit anderen Systemen ein gleichwertiges Maß an Privatsphäre zu erreichen.

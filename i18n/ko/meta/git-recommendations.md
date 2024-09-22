@@ -1,5 +1,6 @@
 ---
-title: Git 사용 안내
+title: Git Recommendations
+description: A guide for website contributors on using Git effectively.
 ---
 
 본 내용은 GitHub.com의 웹 편집기에서 직접 웹사이트를 수정하는 경우에는 신경 쓸 필요가 없습니다. 로컬에서 개발 중이거나, 지속적으로 사이트에 기여하려는 경우(아마도 로컬에서 개발하셔야 할 겁니다) 참고 바랍니다.

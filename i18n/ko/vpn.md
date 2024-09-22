@@ -2,7 +2,7 @@
 meta_title: "비공개 VPN 서비스 권장 목록 및 각 서비스 비교 (스폰서/광고 없음) - Privacy Guides"
 title: "VPN 서비스"
 icon: 자료/Vpn
-description: These are the best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
+description: The best VPN services for protecting your privacy and security online. Find a provider here that isn’t out to spy on you.
 cover: vpn.webp
 global:
   - 

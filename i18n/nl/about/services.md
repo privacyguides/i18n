@@ -1,3 +1,7 @@
+- - -
+description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+- - -
+
 # Privacy Guides Diensten
 
 We draaien een aantal webdiensten om functies te testen en coole gedecentraliseerde, gefedereerde en/of open-source projecten te promoten. Veel van deze diensten zijn beschikbaar voor het publiek en worden hieronder beschreven.

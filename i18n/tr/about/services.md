@@ -1,3 +1,7 @@
+- - -
+description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+- - -
+
 # Privacy Guides Hizmetleri
 
 Özellikleri test etmek ve tek bir merkeze bağlı olmayan, federe ve/veya açık kaynaklı projeleri tanıtmak için bir dizi web hizmeti yürütüyoruz. Bu hizmetlerin birçoğu kamuya açıktır ve aşağıda ayrıntılı olarak açıklanmıştır.

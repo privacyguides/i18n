@@ -1,5 +1,6 @@
 ---
 title: Donate
+description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
 ---
 
 <!-- markdownlint-disable MD036 -->

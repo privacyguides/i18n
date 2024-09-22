@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy respecterende mobiele webbrowsers voor Android en iOS - Privacy Guides"
+meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
 title: "Mobiele browsers"
 icon: material/cellphone-information
 description: Deze browsers zijn wat we momenteel aanbevelen voor standaard/niet-anoniem internetten op jouw telefoon.

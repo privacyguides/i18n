@@ -1,5 +1,6 @@
 ---
-title: "Pertanyaan Umum PrivacyTools"
+title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 Pada bulan September 2021, setiap kontributor aktif dengan suara bulat setuju untuk berpindah dari PrivacyTools untuk bekerja di situs ini: Privacy Guides. Keputusan ini diambil karena pendiri dan pengendali nama domain PrivacyTools telah menghilang dalam jangka waktu yang lama dan tidak dapat dihubungi.

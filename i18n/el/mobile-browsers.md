@@ -1,5 +1,5 @@
 ---
-meta_title: "Περιηγητές Web για κινητά με σεβασμό στο απόρρητο για Android και iOS - Privacy Guides"
+meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
 title: "Περιηγητές για κινητά"
 icon: material/cellphone-information
 description: Αυτά τα προγράμματα περιήγησης συνιστούμε επί του παρόντος για τυπική/μη ανώνυμη περιήγηση στο διαδίκτυο από το τηλέφωνό σας.

@@ -1,6 +1,7 @@
 ---
 title: Private Payments
 icon: material/hand-coin
+description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
 יש סיבה לכך שנתונים על הרגלי הקנייה שלך נחשבים לגביע הקדוש של מיקוד מודעות: הרכישות שלך יכולות להדליף אוצר אמיתי של נתונים עליך. למרבה הצער, המערכת הפיננסית הנוכחית נוגדת פרטיות בעיצובה, ומאפשרת לבנקים, לחברות אחרות ולממשלות לעקוב בקלות אחר עסקאות. עם זאת, יש לך אפשרויות רבות בכל הנוגע לביצוע תשלומים באופן פרטי.

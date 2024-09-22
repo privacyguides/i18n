@@ -1,6 +1,7 @@
 ---
 title: "Why Privacy Matters"
 icon: 'material/shield-account'
+description: In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not.
 ---
 
 In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
@@ -43,7 +44,7 @@ All of these concepts overlap, but it is possible to have any combination of the
 
 A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. این به این خاطر است که شما حریم خصوصی می‌خواهید، نه محرمانگی. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
 
 ## Is Privacy About Control?
 

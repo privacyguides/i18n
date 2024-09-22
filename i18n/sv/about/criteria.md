@@ -1,5 +1,6 @@
 ---
 title: General Criteria
+description: A list of general priorities we consider for all submissions to Privacy Guides.
 ---
 
 Below are some general priorities we consider for all submissions to Privacy Guides. Varje kategori kommer att ha ytterligare krav för inkludering.

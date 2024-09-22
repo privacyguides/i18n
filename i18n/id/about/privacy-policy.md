@@ -1,5 +1,6 @@
 ---
-title: "Kebijakan Privasi"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Privacy Guides adalah proyek komunitas yang dioperasikan oleh sejumlah kontributor sukarelawan yang aktif. Daftar publik anggota tim [dapat ditemukan di GitHub](https://github.com/orgs/privacyguides/people).

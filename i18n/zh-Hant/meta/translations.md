@@ -1,5 +1,6 @@
 ---
-title: 翻譯
+title: Translations
+description: A guide for website contributors on adding translations to our website.
 ---
 
 Crowdin 有很好的文件，我們建議您查看他們的[入門指南](https://support.crowdin.com/crowdin-intro)。 我們的網站大量使用 [Markdown](https://en.wikipedia.org/wiki/Markdown) 撰寫，所以應該很容易貢獻翻譯。 這個頁面包含了一些有用的提示，教您如何翻譯我們網站上可能會遇到的特定語法。

@@ -1,6 +1,7 @@
 ---
 title: "Porque a Privacidade Importa"
 icon: 'material/shield-account'
+description: Na era moderna da exploração de dados digitais, sua privacidade nunca foi tão importante e, ainda assim, muitos acreditam que ela já é uma causa perdida. Não é.
 ---
 
 Na era moderna da exploração de dados digitais, sua privacidade nunca foi tão importante e, ainda assim, muitos acreditam que ela já é uma causa perdida. Não é. ==Sua privacidade está em risco==, e você precisa se preocupar com ela. Privacidade é sobre poder, e é muito importante que esse poder esteja nas mãos certas.

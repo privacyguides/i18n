@@ -1,5 +1,6 @@
 ---
 title: Estadísticas de tráfico
+description: We self-host Umami to create a nice visualization of our traffic statistics, which are made public here.
 ---
 
 <!-- markdownlint-disable MD051 -->

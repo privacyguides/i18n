@@ -1,5 +1,6 @@
 ---
-title: "Политика конфиденциальности"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Privacy Guides - это общественный проект, управляемый несколькими активными добровольцами. Актуальный список участников нашей команды [вы можете найти на GitHub](https://github.com/orgs/privacyguides/people).

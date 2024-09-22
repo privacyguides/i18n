@@ -1,6 +1,7 @@
 ---
 title: Private Payments
 icon: material/hand-coin
+description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
 Ada alasan mengapa data tentang kebiasaan membeli Anda dianggap sebagai cawan suci penargetan iklan: pembelian Anda dapat membocorkan harta karun data tentang Anda. Sayangnya, sistem keuangan saat ini dirancang antiprivasi, sehingga memungkinkan bank, perusahaan lain, dan pemerintah untuk melacak transaksi dengan mudah. Namun demikian, Anda memiliki banyak pilihan untuk melakukan pembayaran secara pribadi.

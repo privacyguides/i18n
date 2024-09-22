@@ -1,5 +1,6 @@
 ---
 title: 提醒
+description: A guide for website contributors on creating admonitions.
 ---
 
 **提醒**（或「補充說明」）是寫作者可以在文章中加入額外內容的選項，而不會影響文章的整體流暢度。

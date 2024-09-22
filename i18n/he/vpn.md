@@ -2,7 +2,7 @@
 meta_title: "המלצות והשוואה שירותי VPN פרטיים, ללא נותני חסות או מודעות - Privacy Guides"
 title: "שירותי VPN"
 icon: material/vpn
-description: אלו הם שירותי ה-VPN הטובים ביותר להגנה על הפרטיות והאבטחה שלך באינטרנט. מצא כאן ספק שאינו מעוניין לרגל אחריך.
+description: The best VPN services for protecting your privacy and security online. מצא כאן ספק שאינו מעוניין לרגל אחריך.
 cover: vpn.webp
 global:
   - 

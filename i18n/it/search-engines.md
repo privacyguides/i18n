@@ -2,7 +2,7 @@
 meta_title: "Motori di ricerca consigliati: alternative anonime a Google - Privacy Guides"
 title: "Motori di ricerca"
 icon: material/search-web
-description: Questi motori di ricerca che rispettano la privacy, non costruiscono un profilo pubblicitario secondo le tue ricerche.
+description: Privacy-respecting search engines which don't build an advertising profile based on your searches.
 cover: search-engines.webp
 global:
   - 

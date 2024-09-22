@@ -1,5 +1,6 @@
 ---
-title: 捐贈
+title: Donate
+description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
 ---
 
 <!-- markdownlint-disable MD036 -->
@@ -7,7 +8,7 @@ title: 捐贈
 
 五年多來，Privacy Guides 不斷努力跟上網路安全與隱私權的世界，並推廣隱私權的整體好處。 這是一個**非營利、社群推動的**專案，沒有所有[貢獻者](contributors.md)的慷慨支持是無法完成的。
 
-## 捐贈
+## Donate
 
 目前，支持的最佳方式是透過 GitHub 贊助每月或一次性捐款。 我們很快就能透過其他支付平台接受捐款。
 

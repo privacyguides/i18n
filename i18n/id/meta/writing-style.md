@@ -1,5 +1,6 @@
 ---
-title: Gaya Penulisan
+title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 Privacy Guides ditulis dalam bahasa Inggris Amerika, dan Anda harus merujuk ke [pedoman Gaya APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) jika ragu.

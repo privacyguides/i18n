@@ -2,7 +2,7 @@
 meta_title: "Privé VPN Service Aanbevelingen en Vergelijkingen, Geen Sponsors of Advertenties - Privacy Guides"
 title: "VPN-diensten"
 icon: material/vpn
-description: Dit zijn de beste VPN-diensten om jouw privacy en veiligheid online te beschermen. Vind hier een provider die er niet op uit is om je te bespioneren.
+description: The best VPN services for protecting your privacy and security online. Vind hier een provider die er niet op uit is om je te bespioneren.
 cover: vpn.webp
 global:
   - 

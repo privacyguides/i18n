@@ -2,7 +2,7 @@
 meta_title: "Die besten privaten Instant Messengers - Privacy Guides"
 title: "Echtzeitkommunikation"
 icon: material/chat-processing
-description: Andere Instant Messenger stellen dem Unternehmen, das sie betreibt, alle deine privaten Unterhaltungen zur Verfügung.
+description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
 cover: real-time-communication.webp
 ---
 

@@ -1,5 +1,5 @@
 ---
-meta_title: "尊重隱私的 Android 和 iOS 行動瀏覽器 - Privacy Guides"
+meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
 title: "行動瀏覽器"
 icon: material/cellphone-information
 description: 這些瀏覽器是我們目前推薦在行動裝置上使用的標準/非匿名網路瀏覽器。
@@ -38,7 +38,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -55,13 +55,13 @@ schema:
 Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉並且具有最少的網站兼容性問題。
 
 [:octicons-home-16: 首頁](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋蔥服務" }
 [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="文件" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="文檔" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -77,11 +77,11 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Br
 
 這些選項可以在 :material-menu: → **設定** → **Brave 防護與安全性** 中找到
 
-#### Shields
+#### 防護
 
 Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
-#### Brave shields global defaults
+#### Brave 防護全域預設值
 
 防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
@@ -108,39 +108,39 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 1. 此選項提供的功能類似於 uBlock Origin 的 進階[封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net) 擴充功能。
 
-#### Clear browsing data
+#### 清除瀏覽資料
 
 - [x] 勾選 **結束時清除資料**
 
-#### Social Media Blocking
+#### 封鎖社交媒體
 
 - [ ] 取消勾選所有社交媒體元件
 
-#### Other privacy settings
+#### 其他隱私設定
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (2)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] 將 [WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
+- [x] (可選) 將 **安全瀏覽** 設定為 **無防護** (1)
+- [ ] 取消勾選 **允許網站檢查是否有已儲存的付款方式**
+- [ ] 取消勾選 **IPFS 閘道器** (2)
+- [x] 勾選 **退出時關閉分頁**
+- [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
+- [ ] 取消勾選 **自動傳送診斷報告**
+- [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
 
 </div>
 
-1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+1. Brave 在 Android 上[實作的 安全瀏覽](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) **不會**像電腦版一樣代理 [安全瀏覽服務 的網路請求](https://developers.google.com/safe-browsing/v4/update-api#checking-urls)。 這表示 Google 可能會看到 (並記錄) 您的 IP 位址。 請注意，安全瀏覽功能不適用於沒有 Google Play 服務的 Android 裝置。
 2. 星際檔案系統 (InterPlanetary File System，縮寫為 IPFS) 是一個旨在實現檔案的分散式儲存、共享和持久化的網路傳輸協定。 除非您使用此功能，否則停用它。
 
 ### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**
+這些選項可以在 :material-menu: **設定** → **Leo** 中找到。
 
 - [ ] Uncheck **Show autocomplete suggestions in address bar**
 
-### Brave Sync
+### Brave 同步
 
 [Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上訪問瀏覽數據 (歷史記錄，書籤等)，無需帳戶且具 E2EE 保護。
 

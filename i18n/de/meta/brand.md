@@ -1,5 +1,6 @@
 ---
-title: Markenrichtlinien
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 Der Name der Website lautet **Privacy Guides** und sollte **nicht** geändert werden zu:

@@ -1,5 +1,6 @@
 ---
 title: Impostazioni dei criteri di gruppo
+description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
 ---
 
 Al di fuori della modifica del registro stesso, il **Local Group Policy Editor** è il modo più potente per modificare molti aspetti del sistema senza installare strumenti di terze parti. La modifica di queste impostazioni richiede [Pro Edition](index.md#windows-editions) o superiore.

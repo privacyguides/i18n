@@ -1,5 +1,6 @@
 ---
-title: 品牌指南
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 網站名稱為 **Privacy Guides** ，**不應** 變更為：

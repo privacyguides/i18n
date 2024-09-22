@@ -1,6 +1,7 @@
 ---
 title: "Miért fontos az adatvédelem"
 icon: 'material/shield-account'
+description: A digitális adatokkal való visszaélések modern korában az adatvédelmed még soha nem volt ennyire kritikus, mégis sokan úgy gondolják, hogy ez már egy veszett ügy. Nem az.
 ---
 
 A digitális adatokkal való visszaélések modern korában az adatvédelmed még soha nem volt ennyire kritikus, mégis sokan úgy gondolják, hogy ez már egy veszett ügy. Nem az. ==A magánéleted veszélyben van==, és törődnöd kell vele. A adatvédelem a hatalomról szól, és nagyon fontos, hogy ez a hatalom a megfelelő kezekbe kerüljön.

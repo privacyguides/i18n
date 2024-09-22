@@ -1,10 +1,10 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
+meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "隐私工具"
 icon: 资料/工具
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
 如果你正在寻找某项具体解决方案，这里是一些我们推荐的各种类别的软硬件工具。 我们推荐的隐私工具主要依据它们的安全功能来选择，另外还强调了去中心化和开源。 They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.

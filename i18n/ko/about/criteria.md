@@ -1,5 +1,6 @@
 ---
 title: General Criteria
+description: A list of general priorities we consider for all submissions to Privacy Guides.
 ---
 
 Below are some general priorities we consider for all submissions to Privacy Guides. 각 분야마다 별도의 추가적인 요구 사항이 존재할 수 있습니다.

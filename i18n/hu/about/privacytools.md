@@ -1,5 +1,6 @@
 ---
-title: "PrivacyTools GYIK"
+title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 2021 szeptemberében minden aktív közreműködőnk egyhangúlag beleegyezett abba, hogy a PrivacyToolsról átköltözik a Privacy Guides oldalra. Erre a döntésre azért került sor, mert a PrivacyTools alapítója és a domain név kezelője hosszabb időre eltűnt, és nem lehetett kapcsolatba lépni vele.

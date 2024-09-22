@@ -1,5 +1,6 @@
 ---
 title: Advertencias
+description: A guide for website contributors on creating admonitions.
 ---
 
 **Las advertencias** (o "llamadas de atención") son una opción que los redactores pueden utilizar para incluir contenidos secundarios en un artículo sin interrumpir el flujo del documento.

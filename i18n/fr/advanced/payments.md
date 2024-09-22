@@ -1,6 +1,7 @@
 ---
 title: Paiements privés
 icon: material/hand-coin
+description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
 Ce n'est pas pour rien que les données relatives à vos habitudes d'achat sont considérées comme le Saint-Graal du ciblage publicitaire : vos achats peuvent constituer un véritable trésor de données vous concernant. Malheureusement, le système financier actuel est, de par sa conception, hostile à la protection de la vie privée, car il permet aux banques, aux autres entreprises et aux gouvernements de retracer facilement les transactions. Néanmoins, vous disposez de nombreuses options pour effectuer des paiements de façon privée.

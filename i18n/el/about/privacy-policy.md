@@ -1,5 +1,6 @@
 ---
-title: "Πολιτική Απορρήτου"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Το Privacy Guides είναι ένα κοινοτικό έργο που λειτουργεί από έναν αριθμό ενεργών εθελοντών που συνεισφέρουν. Ο δημόσιος κατάλογος των μελών της ομάδας [μπορεί να βρεθεί στο GitHub](https://github.com/orgs/privacyguides/people).

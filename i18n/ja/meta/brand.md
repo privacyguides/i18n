@@ -1,5 +1,6 @@
 ---
-title: ブランドガイドライン
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 ウェブサイトの名前は**Privacy Guides**です。次のように変更**しないでください**：

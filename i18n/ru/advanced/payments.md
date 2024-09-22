@@ -1,6 +1,7 @@
 ---
 title: Private Payments
 icon: material/hand-coin
+description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
 Не зря данные о ваших покупательских привычках считаются святым Граалем таргетинга рекламы: ваши покупки могут рассказать очень много информации о вас. К сожалению, существующая финансовая система по своей сути является антиприватной, позволяя банкам, другим компаниям и правительствам легко отслеживать транзакции. Тем не менее у вас есть много вариантов осуществлять платежи приватно.

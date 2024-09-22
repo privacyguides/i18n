@@ -1,5 +1,6 @@
 ---
-title: 上傳圖片
+title: Uploading Images
+description: A guide for website contributors on uploading images in the proper format and location.
 ---
 
 如果您對本網站進行的變更涉及新增圖片或取代現有圖片，以下是幾項一般建議：

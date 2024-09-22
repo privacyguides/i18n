@@ -1,5 +1,6 @@
 ---
-title: "隐私工具常见问题"
+title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 2021年9月，每个活跃的贡献者都一致同意从隐私工具转到这个网站工作：隐私指南。 之所以做出此决定，是因为PrivacyTools的创始人和域名控制者已消失很长一段时间，无法与之联系。

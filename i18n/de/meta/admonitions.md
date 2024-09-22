@@ -1,5 +1,6 @@
 ---
 title: Admonitions
+description: A guide for website contributors on creating admonitions.
 ---
 
 **Admonitionen** (oder "Call-outs") sind eine Möglichkeit für Autoren, Nebeninhalte in einen Artikel einzufügen, ohne den Dokumentfluss zu unterbrechen.

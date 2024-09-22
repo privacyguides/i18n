@@ -1,5 +1,6 @@
 ---
 title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 In september 2021 hebben alle actieve medewerkers unaniem ingestemd om van PrivacyTools over te stappen naar deze site: Privacy Guides. Deze beslissing werd genomen omdat de oprichter van PrivacyTools en beheerder van de domeinnaam voor langere tijd was verdwenen en niet kon worden gecontacteerd.

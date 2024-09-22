@@ -1,10 +1,10 @@
 ---
-meta_title: "The Best Privacy Tools, Services, and Ad-Free Recommendations - Privacy Guides"
+meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
 title: "Adatvédelmi Eszközök"
 icon: material/tools
 hide:
   - toc
-description: Privacy Guides is the most transparent and reliable website for finding software, apps, and services that protect your personal data from mass surveillance programs and other internet threats.
+description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
 ---
 
 Ha valamilyen konkrét megoldást keresel, ezek a hardver- és szoftvereszközök amiket ajánlunk, különböző kategóriákban. Az általunk ajánlott adatvédelmi eszközöket elsősorban biztonsági funkciók alapján választottuk ki, további hangsúlyt fektetve a decentralizált és nyílt forráskódú eszközökre. Ezek számos védelmi modellre alkalmazhatók, globális tömeges megfigyelési programok elleni védelemtől kezdve, big tech cégek elkerüléstől, támadások enyhítéséig, de csak te tudod meghatározni, hogy a te igényeidek mi felel meg a legjobban.

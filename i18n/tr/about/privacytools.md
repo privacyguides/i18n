@@ -1,5 +1,6 @@
 ---
-title: "PrivacyTools SSS"
+title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 Eylül 2021'de, her aktif katılımcı oybirliğiyle PrivacyTools'tan ayrılarak bu sitede yer almayı kabul etti: Privacy Guides. Bu karar, PrivacyTools'un kurucusu ve alan adı sorumlusunun uzun bir süre ortadan kaybolması ve kendisine ulaşılamaması nedeniyle alınmıştır.

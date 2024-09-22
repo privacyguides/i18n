@@ -1,5 +1,6 @@
 ---
-title: Algemene criteria
+title: General Criteria
+description: A list of general priorities we consider for all submissions to Privacy Guides.
 ---
 
 Hieronder staan enkele algemene prioriteiten die we in overweging nemen voor alle inzendingen voor Privacy Guides. Elke categorie heeft extra vereisten voor opname.

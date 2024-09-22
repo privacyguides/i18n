@@ -1,5 +1,6 @@
 ---
-title: "Domande Frequenti su PrivacyTools"
+title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 A settembre 2021, ogni collaboratore attivo ha acconsentito unanimemente a passare da PrivacyTools a questo sito: Privacy Guides. Questa decisione è stata presa poiché il fondatore e controllore del nome di dominio di PrivacyTools, è scomparso per un lungo periodo di tempo e non è stato possibile contattarlo.

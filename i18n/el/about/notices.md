@@ -1,5 +1,6 @@
 ---
-title: "Σημειώσεις και αποποίηση ευθυνών"
+title: "Notices and Disclaimers"
+description: Information about our website license, acceptable use policy, and other important details.
 ---
 
 ## Νομική αποποίηση ευθυνών

@@ -1,5 +1,6 @@
 ---
-title: Linee Guida del Marchio
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 Il nome del sito web è **Privacy Guides** e **non** dovrebbe essere modificato in:

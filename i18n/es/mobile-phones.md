@@ -1,7 +1,7 @@
 ---
 title: Teléfonos celulares
 icon: material/cellphone-check
-description: Estos dispositivos móviles son compatibles con Android Verified Boot para los sistemas operativos personalizados.
+description: These mobile devices provide the best hardware security support for custom Android operating systems.
 cover: android.webp
 schema:
   - "@context": http://schema.org

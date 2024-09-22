@@ -1,5 +1,5 @@
 ---
-meta_title: "Мобильные браузеры для Android и iOS, соблюдающие конфиденциальность - Privacy Guides"
+meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
 title: "Мобильные браузеры"
 icon: material/cellphone-information
 description: Мы рекомендуем эти браузеры для обычного/неанонимного браузинга в интернете на вашем телефоне.

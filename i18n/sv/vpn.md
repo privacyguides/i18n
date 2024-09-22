@@ -2,7 +2,7 @@
 meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
 title: "VPN-tjänster"
 icon: material/vpn
-description: Det här är de bästa VPN-tjänsterna som skyddar din integritet och säkerhet online. Här kan du hitta en tjänst som inte försöker spionera på dig.
+description: The best VPN services for protecting your privacy and security online. Här kan du hitta en tjänst som inte försöker spionera på dig.
 cover: vpn.webp
 global:
   - 

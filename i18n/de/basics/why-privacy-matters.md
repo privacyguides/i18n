@@ -1,6 +1,7 @@
 ---
 title: "Warum die Privatsphäre wichtig ist"
 icon: 'material/shield-account'
+description: Im modernen Zeitalter der digitalen Datenausbeutung ist deine Privatsphäre noch nie so wichtig gewesen, und dennoch glauben viele, dass sie bereits verloren ist. Das ist sie nicht.
 ---
 
 Im modernen Zeitalter der digitalen Datenausbeutung ist deine Privatsphäre noch nie so wichtig gewesen, und dennoch glauben viele, dass sie bereits verloren ist. Das ist sie nicht. ==Deine Privatsphäre steht auf dem Spiel,== und du musst dich um sie kümmern. Bei Privatsphäre geht um Macht, und es ist so wichtig, dass diese Macht in den richtigen Händen landet.

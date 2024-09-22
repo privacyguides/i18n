@@ -1,5 +1,6 @@
 ---
-title: "PrivacyToolsに関するよくある質問"
+title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 2021年9月に、すべてのアクティブな貢献者がPrivacyToolsからこのサイト（Privacy Guides）に移行することに全会一致で同意しました。 この決定は、 PrivacyToolsの創設者およびドメインの管理者が長期間失踪し、連絡を取ることができなかったことによります。

@@ -1,6 +1,7 @@
 ---
 title: 私密支付
 icon: material/hand-coin
+description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
 購買習慣的資料視為廣告定位聖杯是有原因的：購買行為會洩漏有關當事人的許多寶貴資訊。 不幸的是，目前的金融體系在設計上不利隱私，使銀行、其他公司和政府能夠輕鬆追蹤交易。 然而，在私下付款方面，您有很多選擇。

@@ -1,5 +1,6 @@
 ---
-title: Donera
+title: Donate
+description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
 ---
 
 <!-- markdownlint-disable MD036 -->
@@ -7,7 +8,7 @@ Donate to Privacy Guides and support our mission to defend digital rights and sp
 
 Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a **non-profit, community-driven** project that would not be possible without the generous support of all our [contributors](contributors.md).
 
-## Donera
+## Donate
 
 Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
 

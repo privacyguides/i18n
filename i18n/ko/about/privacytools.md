@@ -1,5 +1,6 @@
 ---
 title: "PrivacyTools FAQ"
+description: The real story behind the team transition from privacytools.io to privacyguides.org
 ---
 
 2021년 9월, 당시에 활동하던 모든 기여자는 만장일치로 PrivacyTools에서 현재 사이트(Privacy Guides)로 이전하는 데 동의했습니다. PrivacyTools 창립자이자 사이트 도메인 관리자가 장기간 잠적하여 연락이 닿지 않아 내려진 결정이었습니다.

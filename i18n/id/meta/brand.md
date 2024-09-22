@@ -1,5 +1,6 @@
 ---
-title: Pedoman Merek
+title: Branding Guidelines
+description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
 ---
 
 Nama situs web adalah **Privacy Guides** dan **tidak boleh** diubah menjadi:

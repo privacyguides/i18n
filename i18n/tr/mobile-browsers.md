@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Mobile Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
 title: "Mobil Tarayıcılar"
 icon: material/cellphone-information
 description: Bu tarayıcılar telefonunuzda yaptığınız standart internet taraması için önerdiğimiz tarayıcılardır.

@@ -1,5 +1,6 @@
 ---
-title: 작성 스타일
+title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 (역주: 본 내용은 Privacy Guides '영어 원문'의 내용을 번역한 것입니다. 한국어 번역본의 스타일은 언어/문화의 차이로 인해 상당히 달라질 수밖에 없습니다.) Privacy Guides는 미국 영문으로 작성되었습니다. 기본적인 문법은 [APA Style Guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar)를 참고하시기 바랍니다.

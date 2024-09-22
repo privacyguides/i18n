@@ -1,5 +1,6 @@
 ---
 title: Aplicaciones generales
+description: Las aplicaciones que se encuentran listadas son exclusivas para Android y están diseñadas para mejorar o reemplazar funcionalidades clave del sistema.
 schema:
   - "@context": http://schema.org
     "@type": WebPage

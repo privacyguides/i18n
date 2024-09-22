@@ -2,7 +2,7 @@
 meta_title: "私密 VPN 服務建議和比較，無任何贊助商或廣告 - Privacy Guides"
 title: "VPN 服務"
 icon: material/vpn
-description: 這些是保護您線上隱私和安全的最佳 VPN 服務。 在這裡尋找一個不會監視您的供應商。
+description: The best VPN services for protecting your privacy and security online. 在這裡尋找一個不會監視您的供應商。
 cover: vpn.webp
 global:
   - 

@@ -1,5 +1,6 @@
 ---
-title: "Chính Sách Bảo Mật"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Privacy Guides là một dự án cộng đồng do một số cộng tác viên tình nguyện tích cực điều hành. Danh sách công khai của các thành viên trong nhóm [có thể tìm thấy trên GitHub](https://github.com/orgs/privacyguides/people).

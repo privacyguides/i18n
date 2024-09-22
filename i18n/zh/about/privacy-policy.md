@@ -1,5 +1,6 @@
 ---
-title: "隐私政策"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 隐私指南是一个社区项目，由一些活跃的志愿者贡献者运营。 团队成员的公开列表 [可在GitHub](https://github.com/orgs/privacyguides/people)上找到。

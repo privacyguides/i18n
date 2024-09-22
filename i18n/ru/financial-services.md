@@ -2,6 +2,7 @@
 title: Финансовые услуги
 icon: material/bank
 cover: financial-services.webp
+description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
 Платежи в интернете - одно из самых больших испытаний для конфиденциальности. Эти службы могут помочь вам защитить вашу конфиденциальность от продавцов и других отслеживающих устройств, если вы хорошо понимаете, как эффективно осуществлять приватные платежи. Мы настоятельно рекомендуем вам сначала прочитать нашу обзорную статью о платежах, прежде чем совершать какие-либо покупки:

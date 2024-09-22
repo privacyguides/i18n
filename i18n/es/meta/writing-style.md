@@ -1,5 +1,6 @@
 ---
-title: Estilo de escritura
+title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 Privacy Guides está redactada en inglés americano, por lo que, en caso de duda, deberá consultar las [normas de estilo APA](https://apastyle.apa.org/style-grammar-guidelines/grammar).

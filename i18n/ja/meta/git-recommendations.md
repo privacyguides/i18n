@@ -1,5 +1,6 @@
 ---
-title: Gitの推奨事項
+title: Git Recommendations
+description: A guide for website contributors on using Git effectively.
 ---
 
 GitHub.comのウェブエディターでこのウェブサイトに直接変更を加える場合は、このことを心配する必要はありません。 ローカルで開発している場合や、ウェブサイトを長期的に編集している（おそらくローカルで開発しているはずです！）場合は、以下の推奨事項を検討してください。

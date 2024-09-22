@@ -1,6 +1,7 @@
 ---
 title: Private Payments
 icon: material/hand-coin
+description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
 구매 습관은 해당 사용자에 대해 많은 것을 알려주기 때문에 사용자 맞춤 광고를 띄우는 용도로 많이 쓰입니다. 안타깝게도 현재 금융 시스템은 설계상 프라이버시를 보호하기 어렵기 때문에 은행, 정부 또는 타 회사가 거래를 쉽게 추적할 수 있습니다. 다행이도 프라이버시를 유지하면서 결제하는 방식이 다수 존재합니다.

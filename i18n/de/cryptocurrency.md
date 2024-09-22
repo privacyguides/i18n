@@ -1,5 +1,6 @@
 ---
 meta_title: "Private Kryptowährungs-Blockchains - Privacy Guides"
+description: Unlike most cryptocurrencies, these ones provide transaction privacy by default. Monero is our top choice for obfuscating transaction information.
 title: Kryptowährung
 icon: material/bank-circle
 cover: cryptocurrency.webp

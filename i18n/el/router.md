@@ -1,7 +1,7 @@
 ---
 title: "Υλικολογισμικό Δρομολογητή"
 icon: material/router-wireless
-description: Αυτά τα εναλλακτικά λειτουργικά συστήματα μπορούν να χρησιμοποιηθούν για την ασφάλεια του δρομολογητή ή του σημείου πρόσβασης Wi-Fi.
+description: Alternative operating systems for securing your router or Wi-Fi access point.
 cover: router.webp
 ---
 

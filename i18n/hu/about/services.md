@@ -1,3 +1,7 @@
+- - -
+description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+- - -
+
 # Privacy Guides Szolgáltatások
 
 Számos webes szolgáltatást futtatunk, hogy teszteljünk funkciókat és népszerűsítsünk menő decentralizált, föderált és/vagy nyílt forráskódú projekteket. E szolgáltatások közül számos elérhető a nyilvánosság számára, és az alábbiakban részletesen ismertetjük őket.

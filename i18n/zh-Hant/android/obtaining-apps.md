@@ -1,5 +1,6 @@
 ---
 title: 應用程式獲取途徑
+description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
 ---
 
 有許多途徑可用於獲取 Android 應用程式而不必犧牲您的隱私，您甚至可以不使用 Google Play 服務 即可從 Play 商店下載應用程式。 我們推薦以下獲取 Android 應用程式的途徑（按優先順序列出）。

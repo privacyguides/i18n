@@ -1,3 +1,7 @@
+- - -
+description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+- - -
+
 # Privacy Guides 서비스
 
 Privacy Guides는 기능 테스트 목적을 비롯해, 훌륭한 분산형/연합형 오픈 소스 프로젝트를 홍보하려는 목적으로 여러 웹서비스를 운영하고 있습니다. 대부분은 전체 공개로 운영되며, 자세한 사항은 각 내용을 참고 바랍니다.

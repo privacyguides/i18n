@@ -1,7 +1,7 @@
 ---
 title: 安全密鑰
 icon: material/key-chain
-description: 這些工具可協助透過多重身份驗證保護網路帳戶，而無需將您的祕密傳送給第三方。
+description: Secure your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 

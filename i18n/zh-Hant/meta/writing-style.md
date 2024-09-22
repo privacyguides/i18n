@@ -1,5 +1,6 @@
 ---
-title: 撰寫風格
+title: Writing Style
+description: Our official writing style handbook for website contributors.
 ---
 
 Privacy Guides 以美式英語書寫，如有疑問，請參閱[美國心理學會格式手冊](https://apastyle.apa.org/style-grammar-guidelines/grammar) 。

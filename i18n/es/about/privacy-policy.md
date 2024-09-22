@@ -1,5 +1,6 @@
 ---
-title: "Política de Privacidad"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Privacy Guides es un proyecto comunitario gestionado por una serie de colaboradores voluntarios. La lista pública de los miembros del equipo [se puede encontrar en GitHub](https://github.com/orgs/privacyguides/people).

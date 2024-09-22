@@ -1,5 +1,6 @@
 ---
 title: Obtener aplicaciones
+description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
 ---
 
 Hay varias formas para obtener aplicaciones de Android de una manera privada, incluso desde Google Play Store, sin interactuar con los Servicios de Google Play. Recomendamos los siguientes métodos de obtener aplicaciones en Android, listados en orden de preferencia.

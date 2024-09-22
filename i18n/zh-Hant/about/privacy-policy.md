@@ -1,5 +1,6 @@
 ---
-title: "隱私權政策"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 隱私指南是由許多積極的志願者貢獻的社區項目。 團隊成員的公開名單可以在 [GitHub](https://github.com/orgs/privacyguides/people) 上找到。

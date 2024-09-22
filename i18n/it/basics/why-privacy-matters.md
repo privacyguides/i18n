@@ -1,6 +1,7 @@
 ---
 title: "Perchè la privacy è importante"
 icon: 'material/shield-account'
+description: Nell'era moderna dello sfruttamento dei dati digitali, la tua privacy non è mai stata così importante, eppure molti credono che sia già una causa persa. Non è così.
 ---
 
 Nell'era moderna dello sfruttamento dei dati digitali, la tua privacy non è mai stata così importante, eppure molti credono che sia già una causa persa. Non è così. ==La tua privacy è in palio== e devi prendertene cura. La privacy è questione di potere, ed è davvero importante che tale potere finisca nelle mani giuste.

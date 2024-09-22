@@ -1,5 +1,6 @@
 ---
-title: "Privacybeleid"
+title: "Privacy Policy"
+description: We do not sell or share your data with any third-parties.
 ---
 
 Privacy Guides is een gemeenschapsproject dat door een aantal actieve vrijwilligers wordt uitgevoerd. De openbare lijst van teamleden [is te vinden op GitHub](https://github.com/orgs/privacyguides/people).

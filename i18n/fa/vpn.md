@@ -2,7 +2,7 @@
 meta_title: "توصیه ها و مقایسه سرویس VPN خصوصی، بدون اسپانسر یا تبلیغات - Privacy Guides"
 title: "سرویس‌های VPN"
 icon: material/vpn
-description: اینها بهترین خدمات VPN برای محافظت از حریم خصوصی و امنیت آنلاین شما هستند. ارائه دهنده ای را در اینجا پیدا کنید که قصد جاسوسی از شما را نداشته باشد.
+description: The best VPN services for protecting your privacy and security online. ارائه دهنده ای را در اینجا پیدا کنید که قصد جاسوسی از شما را نداشته باشد.
 cover: vpn.webp
 global:
   - 
