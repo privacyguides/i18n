@@ -71,11 +71,11 @@ schema:
 
 ![Mullvad 瀏覽器標誌](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本。 它的目的是提供給 VPN 使用者 Tor 瀏覽器的反指紋瀏覽器技術，這些技術是防止 [:material-eye-outline: 大規模監視](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }。 它由 Tor 計劃開發，並由 [Mullvad](vpn.md#mullvad)散佈，而且**不需要使用 Mullvad 的 VPN。
+**Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本。 它的目的是提供給 VPN 使用者 Tor 瀏覽器的反指紋瀏覽器技術，這些技術是防止 [:material-eye-outline: 大規模監視](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }。 它由 Tor 計劃開發，並由 [Mullvad](vpn.md#mullvad)發布，而且 **不需要** 使用 Mullvad 的 VPN。
 
 [:octicons-home-16: 首頁](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="文件" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="文檔" }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
@@ -121,7 +121,7 @@ Mullvad 瀏覽器 將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md
 
 [:octicons-home-16: 首頁](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="文件" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="文檔" }
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="原始碼" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="捐贈" }
 

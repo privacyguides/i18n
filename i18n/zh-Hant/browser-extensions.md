@@ -5,7 +5,7 @@ description: 這些瀏覽器擴充套件可以增強瀏覽體驗並保護隱私�
 cover: browser-extensions.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 

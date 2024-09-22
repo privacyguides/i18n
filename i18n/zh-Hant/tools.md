@@ -395,7 +395,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 [了解更多 :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Document Collaboration
+### 文件協作
 
 <div class="grid cards" markdown>
 

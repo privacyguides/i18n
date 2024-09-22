@@ -46,7 +46,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ## 外部驗證工具
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
@@ -133,7 +133,7 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 ## 裝置驗證
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
@@ -191,7 +191,7 @@ Auditor is not a scanning/analysis tool like some other tools on this page. Rath
 
 ## 設備掃瞄器
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
