@@ -144,16 +144,16 @@ SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式
 
 ![Briar logo](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the Tor Network, making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar 還可以在本地附近通過 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格(mesh)模式可能很有用。
+**Briar** 是一個加密的即時通訊軟體，可以使用 Tor 網路 [連線](https://briarproject.org/how-it-works) 到其他用戶端，使其成為規避 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。 Briar 還可以使用鄰近 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格（mesh）模式可能很有用。
 
-[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
+[:octicons-home-16: 首頁](https://briarproject.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=文檔}
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://briarproject.org){ .card-link title="捐款方式列在其首頁底部" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
 - [:fontawesome-brands-windows: Windows](https://briarproject.org/download-briar-desktop)
@@ -164,7 +164,7 @@ SimpleX Chat 提供基本的小組聊天功能、直接傳訊與 markdown 格式
 
 </div>
 
-Briar 要新增聯絡人，必須先彼此互加。 您可以交換 `briar://` 鏈結或是掃瞄對方的二維碼。
+Briar 要新增聯絡人，必須先彼此互加。 您可以交換 `briar://` 鏈結或是掃瞄對方的QR碼。
 
 客戶端軟體被獨立 [稽核](https://briarproject.org/news/2017-beta-released-security-audit)，而匿名路由協議使用Tor 網路也接受了審計。
 
@@ -189,15 +189,15 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 
 **Element** 是[Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) 通訊協定的旗艦用戶端，該協定是安全分散式即時通訊的[開放標準](https://spec.matrix.org/latest)。
 
-Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
+在私人聊天室 (需要邀請) 共用的訊息和檔案預設為 E2EE，一對一的語音和視訊通話也是如此。
 
-[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://element.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://element.io/help){ .card-link title=文檔}
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
@@ -213,9 +213,9 @@ Messages and files shared in private rooms (those which require an invite) are b
 
 個人資料圖片、反應和暱稱不會加密。
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). 群組通目前 [沒有驗證](https://github.com/vector-im/element-web/issues/13074) ，因此其它人員也可以加入。 我們建議您不要將此功能用於私人會議。
+群組語音和視訊通話 [並非](https://github.com/vector-im/element-web/issues/12878) E2EE ，而是使用 Jitsi ，但這將會隨著 [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401) 而改變。 群組通話目前 [沒有驗證](https://github.com/vector-im/element-web/issues/13074) ，因此其它人員也可以加入。 我們建議您不要將此功能用於私人會議。
 
-Matrix 協議本身[理論上支持前向保密](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy) [^1]，但[ Element 目前不支援](https:/ / github.com/vector-im/element-web/issues/7101)，因為會破壞某方面的使用者體驗，例如金鑰備份和共享訊息歷史記錄。
+Matrix協議本身 [理論上支援前向保密](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1] ，但 [目前在 Element 中並不支援](https://github.com/vector-im/element-web/issues/7101) ，因為這會破壞某些方面的使用者體驗，例如金鑰備份和共用訊息歷史記錄。
 
 其協議在 2016年獨立進行了 [審計](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) 。 Matrix 協議的規範可以在他們的 [文檔](https://spec.matrix.org/latest)中找到。 Matrix 使用的 [Olm 加密棘輪](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) 是 Signal 的 [雙棘輪演算法](https 的實作: //signal.org/docs/specifications/doubleratchet)。
 
@@ -229,13 +229,13 @@ Matrix 協議本身[理論上支持前向保密](https://gitlab.matrix.org/matri
 
 Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來儲存和路由訊息。 每條加密訊息都通過 Oxen Service Node Network 中三個節點路由，使得節點幾乎不可能編譯有意義信息給此網路的使用者。
 
-[:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://getsession.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title=文檔}
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
@@ -248,13 +248,13 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 
 </div>
 
-會話允許E2EE在一對一聊天或封閉羣組中，最多可容納100名成員。 開放羣組對成員數量沒有限制，從設計上來說是開放的。
+Session 允許E2EE在一對一聊天或封閉羣組中，最多可容納100名成員。 開放群組對成員數量沒有限制，從設計上來說是開放的。
 
-Session 先前基於 Signal 協議，並於 2020 年 12 月替換為自己的協議。 Session 協議[不](https://getsession.org/blog/session-protocol-technical-information)支持前向保密。<sup id="fnref3:1"><a href= "#fn:1" class="footnote-ref">1</a></sup>
+Session 先前基於 Signal 協議，並於 2020 年 12 月替換為自己的協議。 Session 協議[不](https://getsession.org/blog/session-protocol-technical-information)支持前向保密。[^1]
 
-2020年3月Oxen 對 Session 進行獨立審計。 The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
+2020年3月Oxen 對 Session 進行獨立審計。 審計於 2021 年 4 月 [結束](https://getsession.org/session-code-audit) ：
 
-> The overall security level of this application is good and makes it usable for privacy-concerned people.
+> 此應用程式的整體安全層級良好，讓注重隱私的人也能使用。
 
 Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程式和協議的技術。
 
@@ -274,12 +274,12 @@ Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程�
 
 最佳案例標準代表了我們希望從這個類別的完美項目應具備的功能。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Supports forward secrecy[^1]
+- 支援前向保密[^1]
 - 支持未來保密（入侵後安全）[^2]
 - 開源伺候器。
 - 去中心化，即[聯邦式或 P2P](advanced/communication-network-types.md)。
 - 所有訊息預設為使用 E2EE。
 - 支援多平台 Linux、macOS、Windows、Android 和 iOS。
 
-[^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
+[^1]: [前向保密](https://en.wikipedia.org/wiki/Forward_secrecy) 是指密鑰會非常頻繁地輪換，因此如果目前的加密密鑰被洩露，也不會暴露**過去的**訊息。
 [^2]: 未來保密（或洩漏後安全）是防止攻擊者利用洩露的私鑰解密**未來**訊息，除非攻擊者將來也能取得更多會話金鑰。 這有效地迫使攻擊者攔截各方間的所有通訊，因為一旦發生未被攔截的密鑰交換，他們就會失去訪問權限。&#160;[ &#8617;](#fnref:2){.footnote-backref}
