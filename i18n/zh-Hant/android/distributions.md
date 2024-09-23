@@ -68,49 +68,49 @@ GrapheneOS 支援 [沙盒化 Google Play](https://grapheneos.org/usage#sandboxed
 
 預設情況下，Android 會與 Google 進行許多網路連線，以執行 DNS 連線檢查、同步目前的網路時間、檢查您的網路連線，以及其他許多背景工作。 GrapheneOS 不這麼做，他們通過讓作業系統與由其團隊所擁有的伺服器通信來完成上述工作，這些伺服器遵守他們的隱私權政策 這能向 [Google] (.../basics/common-threats.md#privacy-from-service-providers) 隱藏您的資訊（例如：IP位置），但這意味著您的網路管理員或 ISP 的很容易看到您正在連線到 `grapheneos.network`、`grapheneos.org` 等，並推斷出您使用的作業系統。
 
-如果您想要隱藏類似此類的資訊，以避免被您網路上或 ISP 上的對手發現，除了將連線檢查設定變更為 **Standard (Google)** 之外，您還 **必須** 使用 [可信賴的 VPN](../vpn.md)。 它可以在 :gear: **設定** → **網路與網際網路** → **Internet connectivity checks** 中找到. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+如果您想要隱藏類似此類的資訊，以避免被您網路上或 ISP 上的對手發現，除了將連線檢查設定變更為 **Standard (Google)** 之外，您還 **必須** 使用 [可信賴的 VPN](../vpn.md)。 它可以在 :gear: **設定** → **網路與網際網路** → **Internet connectivity checks** 中找到. 此選項可讓您連線至 Google 伺服器進行連線檢查，加上 VPN 的使用，可協助您混入更多的 Android 裝置中。
 
 ### DivestOS
 
-If GrapheneOS isn't compatible with your phone, DivestOS is a good alternative. It supports a wide variety of phones with _varying_ levels of security protections and quality control.
+如果 GrapheneOS 與您的手機不相容，DivestOS 是一個很好的替代方案。 它支援各式各樣的手機，具有 _不同_ 等級的安全防護和品質控制。
 
 <div class="admonition recommendation" markdown>
 
 ![DivestOS logo](../assets/img/android/divestos.svg){ align=right }
 
 **DivestOS** 是一個 [LineageOS](https://lineageos.org) 的軟分叉。
-DivestOS 從 LineageOS 繼承了許多 [支援的裝置](https://divestos.org/index.php?page=devices\&base=LineageOS) 。 It has signed builds, making it possible to have [verified boot](../os/android-overview.md#verified-boot) on some non-Pixel devices. Not all supported devices support verified boot or other security features.
+DivestOS 從 LineageOS 繼承了許多 [支援的裝置](https://divestos.org/index.php?page=devices\&base=LineageOS) 。 它具有已簽名的構建，使其在某些非 Pixel 裝置上可以使用 [verified boot](../os/android-overview.md#verified-boot) 。 並非所有支援的裝置都支援驗證開機或其他安全功能。
 
-[:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://divestos.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="洋蔥服務" }
+[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title="文檔" }
+[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title="捐款" }
 
 </div>
 
-The [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) of firmware updates in particular will vary significantly depending on your phone model. While standard AOSP bugs and vulnerabilities can be fixed with standard software updates like those provided by DivestOS, some vulnerabilities cannot be patched without support from the device manufacturer, making end-of-life devices less safe even with an up-to-date alternative ROM like DivestOS.
+特別是韌體更新的 [狀態](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) ，會因為您的手機型號不同而有很大的差異。 雖然標準的 AOSP Bug 和漏洞可以透過標準的軟體更新（例如 DivestOS 提供的更新）來修補，但有些漏洞在沒有裝置製造商支援的情況下是無法修補的，因此即使使用最新的替代 ROM（例如 DivestOS），產品壽命結束的裝置安全性也會降低。
 
-DivestOS 具有自動核心漏洞 ([CVE](https://zh.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [修補](https://gitlab.com/divested-mobile/cve_checker)，更少的專有設備驅動程式，和自訂的 [hosts](https://divested.dev/index.php?page=dnsbl) 文件。 Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates.
+DivestOS 具有自動核心漏洞 ([CVE](https://zh.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [修補](https://gitlab.com/divested-mobile/cve_checker)，更少的專有設備驅動程式，和自訂的 [hosts](https://divested.dev/index.php?page=dnsbl) 文件。 其加固的 WebView： [Mulch](https://gitlab.com/divested-mobile/mulch) ，可針對所有架構啟用 [控制流完整性](https://en.wikipedia.org/wiki/Control-flow_integrity) ，以及 [網路狀態分割](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) ，且接受 緊急更新 。
 
 DivestOS 還包含來自GrapheneOS 的核心補丁，並透過 [defconfig 加固](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758) 啟用所有可用的核心安全功能。 所有高於3.4版本的核心都包含 整頁的[核心記憶體清理](https://lwn.net/Articles/334747) ，並且所有~22 Clang 編譯的核心都有啟用 [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) 。
 
-DivestOS 也實現了一些最初專為 GrapheneOS 開發的系統加固補丁。 DivestOS 16.0 and higher implements GrapheneOS's `INTERNET` and `SENSORS` permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://grapheneos.org/usage#exec-spawning), Java Native Interface [constification](https://en.wikipedia.org/wiki/Const_\(computer_programming\)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_\(software\)) hardening patchsets. 17.1 and higher features per-network full MAC address randomization, [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, automatic reboot, and Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features#attack-surface-reduction).
+DivestOS 也實現了一些最初專為 GrapheneOS 開發的系統加固補丁。 DivestOS 16.0 及更高版本實作了 GrapheneOS 的 `網路` 與 `傳感器` 權限切換、[加固的記憶體分配器](https://github.com/GrapheneOS/hardened_malloc)、[exec-spawning](https://grapheneos.org/usage#exec-spawning)、Java本地接口 [constification](https://zh.wikipedia.org/zh-tw/Const) 以及部分 [bionic](https://zh.wikipedia.org/zh-tw/Bionic_%28%E8%BB%9F%E9%AB%94%29) 加固補丁集。 17.1 及更高版本具備「根據每個網路完整的 MAC 位址隨機化」、[`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) 控制、自動重新開機，以及 Wi-Fi/Bluetooth [超時關閉選項](https://grapheneos.org/features#attack-surface-reduction) 。
 
-DivestOS 使用 F-Droid 作為其預設應用程式商店。 我們通常 [建議避免使用 F-Droid](obtaining-apps.md#f-droid) ，但在 DivestOS 上這樣做是不可行的；開發人員透過自己的 F-Droid 儲存庫：[DivestOS Official](https://divestos.org/fdroid/official) 來更新他們的應用程式。 For these apps you should continue to use F-Droid **with the DivestOS repository enabled** to keep those components up to date. 對於其他應用程式，我們推薦的 [應用程式獲取途徑](obtaining-apps.md) 仍然適用。
+DivestOS 使用 F-Droid 作為其預設應用程式商店。 我們通常 [建議避免使用 F-Droid](obtaining-apps.md#f-droid) ，但在 DivestOS 上這樣做是不可行的；開發人員透過自己的 F-Droid 儲存庫：[DivestOS Official](https://divestos.org/fdroid/official) 來更新他們的應用程式。 對於這些應用程式，您應該繼續使用 F-Droid ＋ **DivestOS 儲存庫** ，以保持這些元件為最新。 對於其他應用程式，我們推薦的 [應用程式獲取途徑](obtaining-apps.md) 仍然適用。
 
-DivestOS replaces many of Android's background network connections to Google services with alternative services, such as using OpenEUICC for eSIM activation, NTP.org for network time, and Quad9 for DNS. These connections can be modified, but their deviation from a standard Android phone's network connections could mean it is easier for an adversary on your network to deduce what operating system you have installed on your phone. If this is a concern to you, consider using a [trusted VPN](../vpn.md) and enabling the native VPN [kill switch](../os/android-overview.md#vpn-killswitch) to hide this network traffic from your local network and ISP.
+DivestOS 以替代服務取代 Android 與 Google 服務的許多背景網路連線，例如使用 OpenEUICC 來啟動 eSIM；使用 NTP.org 來設定網路時間；以及使用 Quad9 來設定 DNS。 這些連線可以修改，但它們與標準 Android 手機的網路連線不同，可能意味著您所使用的網路中的對手更容易推測出您手機上安裝的作業系統。 如果您擔心這一點，請考慮使用 [受信任的 VPN](../vpn.md) 並啟用本機 VPN [kill switch](../os/android-overview.md#vpn-killswitch) 來對您的本機網路和 ISP 隱藏此網路流量。
 
 ## 標準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與所推薦專案沒有任何瓜葛。** 除了 [我們的標準準則](../about/criteria.md) 外，還有一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 必須是開源軟體。
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- 必須支援引導裝載程式鎖定且其必須允許使用自訂 AVB 金鑰簽名。
+- 必須在 主要 Android 更新 發布後 0-1 個月內收到更新。
+- 必須在 Android 功能更新（小版本）發布後 0-14 天內收到更新。
+- 必須在定期安全修補補丁發布後 0-5 天內收到更新。
+- **不可** 在預設情況下 "rooted" 。
+- **不可** 在預設情況下安裝 Google Play 服務 。
+- **不可** 透過修改系統支援 Google Play 服務 。
