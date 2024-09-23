@@ -1,6 +1,6 @@
 ---
 title: 應用程式獲取途徑
-description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
+description: 我們建議您使用這些方法取得 Android 上的應用程式，它們不需 Google Play 服務。
 ---
 
 有許多途徑可用於獲取 Android 應用程式而不必犧牲您的隱私，您甚至可以不使用 Google Play 服務 即可從 Play 商店下載應用程式。 我們推薦以下獲取 Android 應用程式的途徑（按優先順序列出）。
@@ -111,7 +111,7 @@ Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇
 
 ![F-Droid logo](../assets/img/android/f-droid.svg){ align=right width=120px }
 
-\==我們只建議用 F-Droid 來獲取無法從上述管道取得的應用程式== 。F-Droid 經常被推薦為 Google Play 替代品，特別是在隱私社群內。 能新增第三方儲存庫且不被局限於 Google 圍牆花園使其廣受歡迎。 F-Droid 也為某些應用程式提供了 [可重現構建](https://f-droid.org/en/docs/Reproducible_Builds) ，並致力於自由和開放原始碼軟體。 然而，F-Droid 構建、簽署和交付軟體包的方式存在一些安全缺失：
+\==我們只建議用 F-Droid 來獲取無法從上述管道取得的應用程式。== F-Droid 經常被推薦為 Google Play 替代品，特別是在隱私社群內。 能新增第三方儲存庫且不被局限於 Google 圍牆花園使其廣受歡迎。 F-Droid 也為某些應用程式提供了 [可重現構建](https://f-droid.org/en/docs/Reproducible_Builds) ，並致力於自由和開放原始碼軟體。 然而，F-Droid 構建、簽署和交付軟體包的方式存在一些安全缺失：
 
 由於其構建應用程式的過程，「官方」F-Droid 儲存庫中的應用程式在更新上經常存在延遲。 F-Droid 維護人員在使用自己的金鑰簽署應用程式時也常會重複使用 package ID，這並不理想，因為這給了 F-Droid 團隊終極信任。 此外，將應用程式納入官方 F-Droid 儲存庫中的要求不如 Google Play 等其他應用程式商店嚴格，這意味著 F-Droid 往往會託管更多較舊、未維護或不符合 [現代安全標準](https://developer.android.com/google/play/requirements/target-sdk) 的應用程式。
 

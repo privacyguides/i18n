@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+meta_title: "Privacy Guides：獨立隱私 & 安全資源"
+description: "成立於 2021 年，Privacy Guides 是最受歡迎 & 值得信賴的非營利資源，可讓您尋找隱私權工具並學習如何保護您的數位生活。"
 template: home.html
 social:
   cards_layout: home
@@ -46,7 +46,7 @@ schema:
 
 就像異族通婚、女性參政權、言論自由等許多權利，我們的隱私權並非總是受到保障。 在一些獨裁政權下，根本無隱私可言。 前人已為隱私權奮鬥了數個世代。 ==隱私作為一種人權，是人人生而固有的權利== ，每個人都應當 (不受歧視地) 享受此權利。
 
-您不應該混淆隱私與保密。 我們知道浴室裡會發生什麼事，但您還是會把門關上。 那是因為您想要隱私，而不是保密。 **每個人都有需要保護的東西。 隱私讓我們之所以為人。
+您不應該混淆隱私與保密。 我們知道浴室裡會發生什麼事，但您還是會把門關上。 那是因為您想要隱私，而不是保密。 **每個人**都有需要保護的東西。 隱私讓我們之所以為人。
 
 [:material-book-outline: 為什麼隱私很重要](basics/why-privacy-matters.md){ class="md-button" }
 </div>
@@ -184,6 +184,6 @@ schema:
 
 許多人混淆了隱私權、安全性和匿名性的概念。 舉例來說，您會看到人們批評各種產品「不具隱私性」，但實際上他們的意思是不提供匿名性。 在本網站中，我們涵蓋了所有這三個主題，但重要的是您必須瞭解它們之間的差異，以及每種主題何時會發揮作用。
 
-[隱私權 vs 安全性 vs 匿名性](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[隱私性 vs 安全性 vs 匿名性](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
 </div>
 </div>

@@ -6,56 +6,56 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 廣義來講，我們將建議歸類為適用於大多數人的 [威脅](threat-modeling.md) 或目標。 您可能會在意各種可能性的組合，而選用的工具和服務則取決於您的目標何在。 您也可能有超出這些類別之外的特定威脅，這完全有可能！ 重要的是要了解您選擇使用的工具的好處和缺點，因為幾乎沒有一種工具可以保護您免受任何威脅。
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **匿名**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+將您的線上活動與您的真實身分相遮蔽，保護您不受特別想揭露*您*身分的人的攻擊。
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **針對性攻擊**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+避免駭客或其他惡意行為者特別企圖存取*您的*資料或裝置。
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **供應鏈攻擊**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+通常是 <span class="pg-red">:material-target-account: 針對性攻擊的</span> 一種形式，其重點在於直接或透過第三方的依賴，在原本良好的軟體中導入弱點或漏洞。
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **被動攻擊**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+避免惡意軟體、資料外洩和其他同時針對許多人的攻擊。
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **服務提供商**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+保護您的資料不被服務供應商讀取（例如使用 E2EE ，使伺服器無法讀取您的資料）。
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **大規模監控**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+防止政府機構、組織、網站和服務共同追蹤您的活動。
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **監控資本主義**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+保護自己不受大型廣告網路商（如 Google 和 Facebook）以及其他無數第三方資料收集者的侵害。
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **公開曝光**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+限制搜尋引擎或一般大眾在線上可取得的關於您的資訊。
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **審查**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+避免在線上發言時，資訊存取受到審查或自己受到審查。
 
 其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 例如，有權存取有價值或關鍵資料的軟體開發人員可能主要關心 <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span> 和 <span class="pg-red">:material-target-account: 針對性的攻擊</span>。 他們可能仍然希望保護自己的個人資料免受 <span class="pg-blue">:material-eye-outline: 大規模監控</span> 計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>—例如惡意軟件影響他們的設備。
 
 ## 匿名 vs. 隱私
 
-<span class="pg-purple">:material-incognito: 匿名性</span>
+<span class="pg-purple">:material-incognito: 匿名</span>
 
 匿名通常與隱私相混淆，但它們是不同的概念。 隱私是您對如何使用和共享資料所做出的一系列選擇，而匿名是將您的線上活動與真實身份完全分離。
 
@@ -80,7 +80,7 @@ Avoiding censored access to information or being censored yourself when speaking
 
 </div>
 
-## Attacks against Specific Individuals
+## 針對特定個人的攻擊
 
 <span class="pg-red">:material-target-account: 針對性攻擊</span>
 
@@ -95,7 +95,7 @@ Avoiding censored access to information or being censored yourself when speaking
 
 若特別擔心 **物理攻擊**，就應選用具安全驗證開機的作業系統，例如 Android, iOS, macOS, 或[Windows (帶 TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process)。 應確保您的驅動器是加密的，並且操作系統使用 TPM或 Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) 或 [Element](https://developers.google.com/android/security/android-ready-se) 來限制輸入加密密碼的嘗試率。 您應該避免與不信任的人共享您的電腦，因為大多數桌面作業系統不會單獨加密每個用戶的數據。
 
-## Attacks against Certain Organizations
+## 針對某些組織的攻擊
 
 <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span>
 
@@ -110,7 +110,7 @@ Avoiding censored access to information or being censored yourself when speaking
 
 執行此類攻擊的方式有以下幾種：
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
+1. 貢獻者或員工可能會先在專案或組織中取得權力地位，然後濫用該地位，加入惡意程式碼。
 2. 開發人員可能會受到外部脅迫添加惡意程式碼。
 3. 個人或團體可能會識別第三方軟體依賴（也稱為庫），並透過上述兩種方法對其進行滲透，因為他們知道它將被「下游」軟體開發人員使用。
 
