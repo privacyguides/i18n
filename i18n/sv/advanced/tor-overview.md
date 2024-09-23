@@ -200,8 +200,8 @@ It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-wit
 ## Ytterligare resurser
 
 - [Användarhandbok för Tor Browser](https://tb-manual.torproject.org)
-- [Hur Tor fungerar - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
-- [Tor Lök Tjänster - Datorfil](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
 [^1]: Det första reläet i din krets kallas "entry guard" eller "guard". Det är ett snabbt och stabilt relä som förblir det första i din krets i 2-3 månader för att skydda mot en känd attack som bryter anonymiteten. Resten av din krets ändras med varje ny webbplats du besöker, och alla dessa reläer ger Tor: s fullständiga integritetsskydd. För mer information om hur skyddsreläer fungerar, se detta [blogginlägg](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) och [papper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) på ingångsvakter. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 

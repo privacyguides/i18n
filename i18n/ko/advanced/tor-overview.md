@@ -200,8 +200,8 @@ It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-wit
 ## 추가 자료
 
 - [Tor 브라우저 사용자 설명서](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
-- [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
 [^1]: 우회로의 첫 번째 릴레이는 'Entry Guard' 혹은 'Guard'라고 합니다. 알려진 익명성 침해 공격으로부터 보호하기 위해, 우회로에서 첫 번째 릴레이로 2~3개월간 유지되는 빠르고 안정적인 릴레이입니다. 우회로의 나머지 경로는 새로운 웹사이트를 방문할 때마다 변경되며, 이러한 릴레이가 모두 모여 Tor의 완벽한 프라이버시 보호를 제공합니다. 보다 자세한 가드 릴레이 작동 방식 설명은 [이 블로그 포스트](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters)와 [이 논문](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)을 참고해 주세요. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 

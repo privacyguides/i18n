@@ -2,18 +2,18 @@
 meta_title: "最好的私人即時通訊軟體 - Privacy Guides"
 title: "即時通訊軟體"
 icon: material/chat-processing
-description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
+description: 像 Signal 和 SimpleX 之類的加密通訊工具可讓您的敏感通訊不被窺探。
 cover: real-time-communication.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our recommendations for encrypted **real-time communication**.
+以上是我們對加密**即時通訊軟體**的建議。
 
 [通訊網絡 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
@@ -29,14 +29,14 @@ These are our recommendations for encrypted **real-time communication**.
 
 **Signal** 是由Signal Messenger LLC開發的行動應用程式。 這款應用程式透過 Signal 協議來保護即時訊息和通話，它是極其安全的加密協議，支援前向保密[^1] 和洩露後安全性。[^2]
 
-[:octicons-home-16: Homepage](https://signal.org/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://signal.org/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.signal.org/hc/en-us){ .card-link title=文檔}
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://signal.org/donate/){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -53,12 +53,12 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 
 1. 在 Signal 中，打開應用程式的設定並點擊上方的帳戶個人資料。
 2. 點選**使用者名稱**，然後在「設定您的 Signal 使用者名稱」畫面上選擇**繼續**。
-3. 輸入一個使用者名稱 此用戶名將一直與一組獨特數字配對，以保持用戶名的唯一性防止人們猜測它，例如，如果輸入“John”，您的用戶名最終可能會是`@john.35`。 By default, only 2 digits are paired with your username when you create it, but you can add more digits until you reach the username length limit (32 characters).
+3. 輸入一個使用者名稱 此用戶名將一直與一組獨特數字配對，以保持用戶名的唯一性防止人們猜測它，例如，如果輸入“John”，您的用戶名最終可能會是`@john.35`。 根據預設設定，當您建立使用者名稱時，只有 2 位數字會與使用者名稱配對，但您可以增加更多位數，直到達到使用者名稱的長度限制 (32 個字元)。
 4. 返回系統應用程式設定頁面並選擇**隱私權**。
-5. 選擇**手機號碼r**
-6. 將**誰可看見我的號碼**設置為: **Nobody**
+5. 選擇**手機號碼**
+6. 將 **誰可以看到我的號碼** 設置為：**沒有人**
 
-若想防止已知您手機號碼的人可以找到您的 Signal 帳號或用戶名稱，也可以選擇把 **誰可看見我的號碼** 設置為**無人可見** 。
+若想防止已知您手機號碼的人找到您的 Signal 帳號或用戶名稱，也可以選擇把 **誰可以透過電話號碼找到我** 設置為 **沒有人** 。
 
 連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal 支援[私密 群組](https://signal.org/blog/signal-private-group-system)，伺服器不會記錄該群組成員資格、群組標題、群組頭像，或群組屬性。 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
 
@@ -70,22 +70,22 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 
 #### Molly (Android)
 
-If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
+如果您使用 Android，且您的威脅模式需要防範 [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} ，您可以考慮使用此替代應用程式存取 Signal 網路，此應用程式在安全性和可用性方面有許多改進。
 
 <div class="admonition recommendation" markdown>
 
 ![Molly logo](assets/img/messengers/molly.svg){ align=right }
 
-**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
+**Molly** 是 Android 的替代 Signal 用戶端，可讓您使用密碼加密本機資料庫、安全地刪除未使用的 RAM 資料、透過 Tor 路由連線；除此之外，還有 [許多](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features)。 它還改善了可用性，包括排程備份、自動鎖定，以及使用 Android 手機作為連結裝置，而非 Signal 帳戶的主要裝置。
 
-[:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation"}
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://molly.im){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="文檔"}
+[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-fdroid: F-Droid](https://molly.im/fdroid)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
@@ -95,17 +95,17 @@ If you use Android and your threat model requires protecting against [:material-
 
 </div>
 
-Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, which are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream, which may affect actions such as [migrating from Signal to Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
+Molly 每兩週更新一次，以包含 Signal 的最新功能和錯誤修正。 安全問題是例外，開發團隊會儘快修補安全問題。 儘管如此，您應該注意的是，與上游相比，可能會有少許延遲，這可能會影響 [從 Signal 遷移到 Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal) 等動作。
 
-Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
+請注意，您使用 Molly 是對多方的信任，因為您現在需要信任 Signal 團隊 *和* Molly 團隊 ，以提供安全且及時的更新。
 
-There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like battery-saving push notifications via Google Play Services.
+Molly 有一個稱為 **Molly-FOSS** 的版本，它移除了 Signal 和 Molly 所使用的 Google 服務等專有程式碼，但卻犧牲了一些功能，例如透過 Google Play 服務來推送通知（可節省電池用量）。
 
-There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds support for push notifications with [UnifiedPush](https://unifiedpush.org/), an open source alternative to the push notifications provided by Google Play Services, but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://www.kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy/)).
+還有一個版本叫做 [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) 的版本，它以 Molly-FOSS 為基礎，並增加了使用 [UnifiedPush](https://unifiedpush.org/) 來推送通知的支援，這是一個能代替 Google Play 服務推送通知的開放原始碼專案，但它需要執行一個名為 [Mollysocket](https://github.com/mollyim/mollysocket) 的獨立程式才能運作。 Mollysocket 可以自行架設在獨立的電腦或伺服器（VPS），或者使用公開 Mollysocket 實例（[逐步教學，德文](https://www.kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy/)）。
 
-All three versions of Molly provide the same security improvements.
+三個版本的 Molly 都提供相同的安全性改進。
 
-Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+Molly 和 Molly-FOSS 支援 [可重現構建](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds) ，這表示可以確認編譯後的 APK 與原始碼相符。
 
 ### SimpleX Chat
 
@@ -113,15 +113,15 @@ Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mo
 
 ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX** Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. SimpleX Chat 使用者可以掃描二維碼或點擊邀請連結以參與羣組對話。
+**SimpleX** Chat 是一款不依賴任何獨特識別碼（例如：電話號碼、使用者名稱）的即時通訊工具。 其分佈式網路使 SimpleX Chat 成為對抗 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。 SimpleX Chat 使用者可以掃描二維碼或點擊邀請連結以參與羣組對話。
 
-[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://simplex.chat){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=文檔}
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)

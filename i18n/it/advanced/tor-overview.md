@@ -200,8 +200,8 @@ Se pensi che un ponte possa aiutare a difendere dal rilevamento o altre analisi 
 ## Risorse aggiuntive
 
 - [Manuale Utente del Tor Browser](https://tb-manual.torproject.org)
-- [Come funziona Tor - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
-- [Servizi Onion di Tor - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
 [^1]: Il primo relay nel tuo circuito è detto "guardia d'accesso" o "guardia". È un relay veloce e stabile che rimane il primo nel tuo circuito per 2-3 mesi, per proteggerti da attacchi di deanonimizzazione noti. Il resto del tuo circuito cambia a ogni nuovo sito web che visiti e, tutti insieme, questi relay, forniscono la completa protezione della privacy di Tor. Per ulteriori informazioni sul funzionamento dei relay di guardia, consulta questo [post del blog](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) e il [documento](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) sulle guardie d'accesso. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 

@@ -200,8 +200,8 @@ It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-wit
 ## מקורות נוספים
 
 - [מדריך למשתמש של דפדפן Tor](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(יוטיוב)</small>
-- [Tor שירותי בצל - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(יוטיוב)</small>
+- [How Tor Works - Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
 [^1]: הממסר הראשון במעגל שלך נקרא "שומר כניסה" או "שומר". זהו ממסר מהיר ויציב שנשאר הראשון במעגל שלך למשך 2-3 חודשים על מנת להגן מפני התקפה ידועה לשבירת אנונימיות. שאר המעגל שלך משתנה עם כל אתר חדש שאתה מבקר בו, וכולם ביחד מספקים ממסרים אלה את הגנת הפרטיות המלאה של Tor. לקבלת מידע נוסף על אופן הפעולה של ממסרי מגן, עיין במאמר זה [בלוג פוסט](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) וגם [דף](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) על שומרי כניסה. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 

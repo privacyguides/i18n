@@ -200,8 +200,8 @@ Es [posible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-re
 ## Recursos Adicionales
 
 - [Manual del usuario del navegador Tor](https://tb-manual.torproject.org)
-- [¿Cómo funciona Tor? - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
-- [Servicios Onion de Tor - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
 [^1]: El primer repetidor en tu circuito se llama "guardia de entrada" o "guardia". Es un repetidor rápido y estable que se mantiene como el primero en tu circuito durante 2-3 meses para protegerse de un ataque conocido de ruptura del anonimato. El resto de tu circuito cambia con cada nuevo sitio web que visitas, y todos juntos estos repetidores proporcionan las protecciones de privacidad completas de Tor. Para obtener más información sobre el funcionamiento de los repetidores de protección, consulta esta [entrada del blog](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) y el [documento](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) sobre los guardias de entrada. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 

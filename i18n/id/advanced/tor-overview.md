@@ -200,8 +200,8 @@ It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-wit
 ## Sumber Daya Tambahan
 
 - [Panduan Pengguna Tor Browser](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
-- [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
 [^1]: Relai pertama di sirkuit Anda disebut "penjaga jalan masuk" atau "penjaga". Relai ini adalah relai yang cepat dan stabil yang tetap menjadi relai pertama di sirkuit Anda selama 2-3 bulan untuk melindungi dari serangan pembobolan anonimitas yang telah diketahui. Sisa sirkuit Anda berubah dengan setiap situs web baru yang Anda kunjungi, dan secara keseluruhan relai ini memberikan perlindungan privasi penuh dari Tor. Untuk informasi lebih lanjut tentang cara kerja relai penjaga, lihat [posting blog](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) ini dan [makalah](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) tentang relai penjaga. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 

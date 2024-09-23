@@ -200,8 +200,8 @@ It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-wit
 ## Дополнительные советы
 
 - [Руководство пользователя Tor Browser](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://invidious.privacyguides.net/embed/QRYzre4bf7I?local=true) <small>(YouTube)</small>
-- [Tor Onion Services - Computerphile](https://invidious.privacyguides.net/embed/lVcbq_a5N9I?local=true) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
 [^1]: Первый ретранслятор в вашей цепи называется "входным" или "охранным". Это быстрый и стабильный ретранслятор, который остается первым в вашей цепи в течение 2-3 месяцев для защиты от известной атаки, нарушающей анонимность. Остальная часть цепи меняется с каждым новым посещаемым сайтом, и все вместе эти реле обеспечивают полную защиту конфиденциальности Tor. Более подробную информацию о том, как работают охранные ретрансляторы, можно найти в этом [посте в блоге](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) и [документе](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) о входных узлах. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 
