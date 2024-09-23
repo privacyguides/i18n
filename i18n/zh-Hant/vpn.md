@@ -2,7 +2,7 @@
 meta_title: "私密 VPN 服務建議和比較，無任何贊助商或廣告 - Privacy Guides"
 title: "VPN 服務"
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. 在這裡尋找一個不會監視您的供應商。
+description: 保護您線上隱私與安全的最佳 VPN 服務。 在這裡尋找一個不會監視您的供應商。
 cover: vpn.webp
 global:
   - 
@@ -49,11 +49,11 @@ global:
 
 [:octicons-home-16: 首頁](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="文件"}
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="文檔"}
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
@@ -128,11 +128,11 @@ Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 Proto
 
 [:octicons-home-16: 首頁](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="文件"}
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="文檔"}
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -203,11 +203,11 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="文件" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="文檔" }
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
@@ -222,7 +222,7 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 #### :material-check:{ .pg-green } 45 個國家
 
-Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
+Mullvad 在 [45 個國家/地區設有伺服器](https://mullvad.net/servers)。 (1) 選擇距離您最近的伺服器，可減少網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 最近檢查日期: 2024-08-06

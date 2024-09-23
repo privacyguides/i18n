@@ -52,16 +52,16 @@ schema:
 
 ![Tor 瀏覽器標誌](assets/img/browsers/tor.svg){ align=right }
 
-**Tor 瀏覽器** 需要匿名的好選擇，為您提供 Tor 網絡和橋接的存取權限，它包含預設設置和擴展其自動配置安全級別有： *標準* 、 *更安全*和*最安全*三種。
+**Tor 瀏覽器** 需要匿名的好選擇，為您提供 Tor 網絡和橋接的存取權限，它包含預設設置和擴展其自動配置安全級別有： *標準* 、 *較安全*和*最安全*三種。
 
-[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="洋蔥服務" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=文檔 }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://torproject.org/download/#android)
@@ -82,7 +82,7 @@ schema:
 
 Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此， **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings)。
 
-除了直接在電腦安裝 Tor 瀏覽器外，還有專門設計用於連接到 Tor 網絡的操作系統，例如 [Qubes OS 作業系統](desktop.md#qubes-os) [Whonix](desktop.md#whonix)，它們提供比標準 Tor 瀏覽器更高的安全性和保護。
+除了直接在電腦安裝 Tor 瀏覽器外，還有專門設計用於連接到 Tor 網絡的操作系統，例如 [Qubes OS 作業系統](desktop.md#qubes-os) ＋ [Whonix](desktop.md#whonix) ，它們提供比標準 Tor 瀏覽器更高的安全性和保護。
 
 ## Orbot
 
@@ -92,11 +92,11 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 **Orbot** 是一款免費的Tor VPN ，適用於智慧型手機，可讓裝置上的任何應用程式流量通過 Tor 網絡。
 
-[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=文檔}
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -147,4 +147,4 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 
 Onion Browser 不提供與 Tor Browser 在電腦平台上相同等級的隱私保護。 對於日常使用而言，這是存取隱藏服務的絕佳方式，但如果您擔心被先進的對手追蹤或監視，則不應將其視為匿名工具。
 
-[^1]: `IsolateDestAddr` 設定問題已在 [Tor 郵件群組](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) 中討論過而且在 [Whonix's 串流隔離文檔](https://whonix.org/wiki/Stream_Isolation)，兩項專案都認為對大多數人而言它並不是好方法。
+[^1]: `IsolateDestAddr` 設定問題已在 [Tor 郵件群組](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) 和 [Whonix's 串流隔離文檔](https://whonix.org/wiki/Stream_Isolation) 中討論過，兩項專案都認為對大多數人而言它並不是好方法。
