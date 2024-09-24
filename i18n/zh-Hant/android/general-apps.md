@@ -95,8 +95,8 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 <small>防護下列威脅：</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: 針對性攻擊](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: 被動攻擊](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 <div class="admonition recommendation" markdown>
 

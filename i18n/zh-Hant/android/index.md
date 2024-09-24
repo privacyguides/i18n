@@ -1,6 +1,6 @@
 ---
 title: Android
-description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
+description: 我們建議您使用隱私且安全的替代方案來取代侵犯隱私的預設 Android 功能。
 icon: simple/android
 cover: android.webp
 schema:
@@ -20,33 +20,33 @@ schema:
 
 **Android 開源專案** （AOSP）是一個由 Google 領導的開源行動裝置作業系統，為世界上大多數行動裝置提供支援。 大多數搭載 Android 的手機都經過修改，包含侵入性整合和應用程式（例如：Google Play 服務），您可以透過把手機預設安裝的 Android 版本 替換為不含這些侵入性功能的 Android 版本 ，這將顯著改善行動裝置上的隱私。
 
-[General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
+[Android 概述 :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
 
 ## 我們的建議
 
-### Replace Google Services
+### 避免 Google 服務
 
-There are many methods of obtaining apps on Android while avoiding Google Play. Whenever possible, try using one of these methods before getting your apps from non-private sources:
+有許多方法可以在 Android 上取得應用程式，同時避開 Google Play 。 只要有可能，在從非私人來源取得您的應用程式之前，請嘗試使用其中一種方法：
 
-[Obtaining Applications :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
+[應用程式獲取途徑 :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
 
-There are also many private alternatives to the apps that come pre-installed on your phone, such as the camera app. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
+除了手機預先安裝的應用程式之外，還有許多更具隱私性的替代品，例如相機應用程式。 除了本網站推薦的一般 Android 應用程式之外，我們也建立了一份 Android 專用的系統級程式清單，您可能會發現這些程式很有用。
 
-[General App Recommendations :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
+[常規應用程式 :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
 
-### Install a Custom Distribution
+### 安裝自訂發行版
 
 購買 Android 手機時，該設備的預設作業系統通常綁入非 Android 開源專案的應用程式與服務，成為侵入性整合。 其中許多應用程式-- 甚至是提供基本系統功能的撥號器等應用程式-- 都需放到 Google Play 服務進行侵入式整合，且 Google Play 服務需要存取檔案、聯絡人儲存、通話記錄、簡訊、位置、攝影機、麥克風以及設備上的許多內容的權限，這樣基本系統程式和其他應用程式才能運行。 這些應用程式和服務增加了設備的攻擊面，成為 Android 各種隱私問題的來源。
 
-This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. 不幸的是，許多自定義 Android 發行版常常違反 Android 安全模式，不支持重要的安全功能，如 AVB 、回滾保護、韌體更新等。 Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug\&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+這個問題可以透過使用另一種 Android 發行版（通常稱為 \* 客製化 ROM\* ）來解決，這種套件不會有這種入侵性的整合。 不幸的是，許多自定義 Android 發行版常常違反 Android 安全模型，不支持重要的安全功能，如 AVB 、回滾保護、韌體更新等。 有些發行版提供 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 版本的構建，這種版本可透過 [ADB](https://developer.android.com/studio/command-line/adb) 暴露 root，並需要 [更寬鬆的](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug\&type=code) SELinux 政策以允許除錯功能，這會進一步增加攻擊面和削弱安全模型。
 
-理想情況下，在選擇客製 Android 發行版時，應該確保它符合Android 安全模型。 At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
+理想情況下，在選擇客製 Android 發行版時，應該確保它符合Android 安全模型。 至少，該發行版應該具有生產構建，支持 AVB ，回滾保護，及時韌體和作業系統更新，以及SELinux [強制模式](https://source.android.com/security/selinux/concepts#enforcement_levels) 。 我們推薦的所有 Android 發行版都符合這些標準：
 
-[Recommended Distributions :material-arrow-right-drop-circle:](distributions.md){ .md-button }
+[建議的發行版 :material-arrow-right-drop-circle:](distributions.md){ .md-button }
 
-### Avoid Root
+### 避免 Root
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_\(Android\)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy). 如果有人利用降低的安全性來進行攻擊，這可能會降低隱私權。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行驗證啟動。 需要 root 的應用程式也會修改系統磁碟分割，這意味著驗證開機必須維持停用。 Having root exposed directly in the user interface also increases the attack surface of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
+[Rooting](https://zh.wikipedia.org/zh-tw/Root_%28Android%29) Android 手機會大幅降低安全性，因為它會削弱完整的 [Android 安全模型](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy) 。 如果有人利用降低的安全性來進行攻擊，這可能會威脅到您的隱私。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行驗證啟動。 需要 root 的應用程式也會修改系統磁碟分割，這意味著 Verified Boot 必須維持停用。 Having root exposed directly in the user interface also increases the attack surface of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
 
 Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_\(file\)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 它們也不是解決預期目的的正確方法。 For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
