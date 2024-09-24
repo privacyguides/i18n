@@ -46,7 +46,7 @@ schema:
 
 ### 避免 Root
 
-[Rooting](https://zh.wikipedia.org/zh-tw/Root_%28Android%29) Android 手機會大幅降低安全性，因為它會削弱完整的 [Android 安全模型](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy) 。 如果有人利用降低的安全性來進行攻擊，這可能會威脅到您的隱私。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行驗證啟動。 需要 root 的應用程式也會修改系統磁碟分割，這意味著 Verified Boot 必須維持停用。 Having root exposed directly in the user interface also increases the attack surface of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
+[Rooting](https://zh.wikipedia.org/zh-tw/Root_%28Android%29) Android 手機會大幅降低安全性，因為它會削弱完整的 [Android 安全模型](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy) 。 如果有人利用降低的安全性來進行攻擊，這可能會威脅到您的隱私。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行驗證啟動。 需要 root 的應用程式也會修改系統磁碟分割，這意味著 Verified Boot 必須維持停用。 在使用者介面中直接暴露 root 也會增加裝置的攻擊面，並可能有助於 [特權提升](https://zh.wikipedia.org/zh-tw/%E7%89%B9%E6%9D%83%E6%8F%90%E5%8D%87) 漏洞和繞過 SELinux 政策。
 
 Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_\(file\)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 它們也不是解決預期目的的正確方法。 For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
 
