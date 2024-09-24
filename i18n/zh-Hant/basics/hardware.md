@@ -17,13 +17,13 @@ description: 隱私保護不能僅聚焦於軟體方面；了解您每天使用�
 - [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) 符合 Microsoft 指定的更高安全性標準。 這些保護並不只適用於 Windows 使用者；其他作業系統的使用者仍可利用其 [DMA 保護](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) 以及 完全不信任 Microsoft 證書 等功能。
 - [Android Ready SE](https://developers.google.com/android/security/android-ready-se) 是廠商之間的合作，以確保其裝置遵循 [最佳實踐](https://source.android.com/docs/security/best-practices/hardware) ，並包含基於硬體的可防篡改儲存設備，例如加密金鑰。
 - 在 Apple SoC 上執行的 macOS 可利用 [硬體安全性](.../os/macos-overview.md#hardware-security) ，第三方作業系統可能無法使用此類功能。
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- 在 Chromebook 上執行的 [ChromeOS 安全性](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) 能發揮最佳效能，因為它能利用可用的硬體功能，例如 [硬體信任根](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot) 。
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+即使您不使用這些作業系統，參與這些計畫也可能表示製造商在硬體安全性和更新方面遵循最佳實踐。
 
-### Preinstalled OS
+### 預先安裝的作業系統
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+新電腦幾乎都會預先安裝 Windows，除非您買的是 Mac 或特殊的 Linux 機器。 通常擦除硬碟並重新安裝您所選擇的作業系統是個好主意，即便是從頭重新安裝 Windows 也同樣如此。 Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
 ### 韌體更新
 
