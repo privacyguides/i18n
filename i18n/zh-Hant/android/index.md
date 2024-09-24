@@ -48,15 +48,15 @@ schema:
 
 [Rooting](https://zh.wikipedia.org/zh-tw/Root_%28Android%29) Android 手機會大幅降低安全性，因為它會削弱完整的 [Android 安全模型](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy) 。 如果有人利用降低的安全性來進行攻擊，這可能會威脅到您的隱私。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行驗證啟動。 需要 root 的應用程式也會修改系統磁碟分割，這意味著 Verified Boot 必須維持停用。 在使用者介面中直接暴露 root 也會增加裝置的攻擊面，並可能有助於 [特權提升](https://zh.wikipedia.org/zh-tw/%E7%89%B9%E6%9D%83%E6%8F%90%E5%8D%87) 漏洞和繞過 SELinux 政策。
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_\(file\)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. 它們也不是解決預期目的的正確方法。 For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
+修改 [hosts 檔案](https://zh.wikipedia.org/zh-tw/Hosts%E6%96%87%E4%BB%B6) （AdAway） 的內容封鎖程式，以及需要 root 存取權限的防火牆 (AFWall+) 都很危險，不應該使用。 它們也不是解決預期目的的正確方法。 對於內容阻擋，我們建議使用加密 [DNS](../dns.md) ，或改用 VPN 提供的內容封鎖功能。 TrackerControl 和 AdAway 在非 root 模式下會佔用 VPN 插槽（透過使用本機環回 VPN），使您無法使用 [Orbot](../tor.md#orbot) 或 [VPN](../vpn.md) 等增強隱私的服務。
 
-AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_\(computing\)#Packet_filter) approach and may be bypassable in some situations.
+AFWall+ 以 [封包過濾](https://en.wikipedia.org/wiki/Firewall_\(computing\)#Packet_filter) 方式運作，在某些情況下可能會被繞過。
 
 我們不認為為了手機 root 所犧牲的安全性，值得讓人懷疑這些應用程式對隱私權的益處。
 
-### Install Updates Regularly
+### 定期安裝更新
 
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。
+重要的是，不要使用 [產品壽命結束](https://endoflife.date/android) 版本的 Android。 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。
 
 For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. 系統應用程式僅由 OEM 或 Android 發行版提供。
 
