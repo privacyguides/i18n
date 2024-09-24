@@ -14,56 +14,56 @@ description: 隱私保護不能僅聚焦於軟體方面；了解您每天使用�
 
 有些裝置會有「硬體安全認證」，例如在設計硬體時，廠商之間會就最佳實務和建議進行合作：
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) 符合 Microsoft 指定的更高安全性標準。 這些保護並不只適用於 Windows 使用者；其他作業系統的使用者仍可利用其 [DMA 保護](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) 以及 完全不信任 Microsoft 證書 等功能。
+- [Windows 安全核心電腦](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) 符合 Microsoft 指定的更高安全性標準。 這些保護並不只適用於 Windows 使用者；其他作業系統的使用者仍可利用其 [DMA 保護](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) 以及 完全不信任 Microsoft 證書 等功能。
 - [Android Ready SE](https://developers.google.com/android/security/android-ready-se) 是廠商之間的合作，以確保其裝置遵循 [最佳實踐](https://source.android.com/docs/security/best-practices/hardware) ，並包含基於硬體的可防篡改儲存設備，例如加密金鑰。
 - 在 Apple SoC 上執行的 macOS 可利用 [硬體安全性](.../os/macos-overview.md#hardware-security) ，第三方作業系統可能無法使用此類功能。
-- 在 Chromebook 上執行的 [ChromeOS 安全性](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) 能發揮最佳效能，因為它能利用可用的硬體功能，例如 [硬體信任根](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot) 。
+- [ChromeOS 的安全性](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) 在 Chromebook 上可發揮最佳效果，因為它能利用可用的硬體功能，例如 [硬體信任根](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot) 。
 
 即使您不使用這些作業系統，參與這些計畫也可能表示製造商在硬體安全性和更新方面遵循最佳實踐。
 
 ### 預先安裝的作業系統
 
-新電腦幾乎都會預先安裝 Windows，除非您買的是 Mac 或特殊的 Linux 機器。 通常擦除硬碟並重新安裝您所選擇的作業系統是個好主意，即便是從頭重新安裝 Windows 也同樣如此。 Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+新電腦幾乎都會預先安裝 Windows，除非您買的是 Mac 或特殊的 Linux 機器。 通常擦除硬碟並重新安裝您所選擇的作業系統是個好主意，即便是從頭重新安裝 Windows 也同樣如此。 由於硬體廠商與不良軟體廠商之間的協議，預裝的 Windows 通常會預先載入臃腫軟體、[廣告軟體](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal)，甚至是 [惡意軟體](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware) 。
 
 ### 韌體更新
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+硬體經常會有安全問題，這些問題會透過硬體的韌體更新來發現和修補。
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+從您的主機板到儲存設備，幾乎電腦的每個元件都需要韌體才能運作。 理想的情況是，您裝置的所有元件都能獲得完整支援。 只要裝置受支援，Apple 裝置、Chromebook、大多數 Android 手機和 Microsoft Surface 裝置都會為您處理韌體更新。
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+如果您自己組裝電腦，可能需要從 OEM 網站下載主機板韌體，手動更新主機板韌體。 如果您使用 Linux，可考慮使用內建的 [`fwupd`](https://fwupd.org) 工具，讓您檢查並套用主機板的任何可用韌體更新。
 
-### TPM/Secure Cryptoprocessor
+### TPM/安全加密協處理器
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+大多數電腦和手機都配備 TPM （或類似的安全加密協處理器），可安全儲存您的加密金鑰，並處理其他與安全相關的功能。 如果您目前使用的機器沒有這些功能，您可能會從購買具有此功能的較新電腦中獲益。 有些桌上型電腦和伺服器主機板有一個「TPM 接口」，可供添加包含 TPM 的小型配件板。
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">備註</p>
 
-Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
+虛擬 TPM 容易受到側通道攻擊，而外部 TPM 由於與主機板上的 CPU 分離，當攻擊者能夠存取硬體時，容易受到 [監聽](https://pulsesecurity.co.nz/articles/TPM-sniffing) 攻擊。 解決這個問題的方法是將安全加密協處理器包含在 CPU 本身，Apple 的晶片和微軟的 [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs) 就是如此。
 
 </div>
 
-### Biometrics
+### 生物識別技術
 
-Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
+許多裝置都配備了指紋辨識器或臉部辨識功能。 這些方法可能非常方便，但並不完美，有時也會失敗。 當發生這種情況時，大多數裝置都會回退到 PIN 或密碼，這意味著您裝置的安全性仍然取決於密碼。
 
-Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
+生物識別技術可以防止有人監視您輸入密碼，因此，如果您的威脅模式中包括肩窺，那麼生物識別技術就是一個很好的選擇。
 
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+大多數的臉部辨識實作都需要您看著您的手機，而且也只能在相對較近的距離才能運作，所以您不需要太擔心有人會在未經您同意的情況下，將您的手機對準您的臉部來解鎖。 如果您願意，仍可在手機鎖定時停用生物辨識功能。 在 iOS 上，您可以按住側邊按鈕和音量按鈕 3 秒鐘，在支援 Face ID 的機型上停用 Face ID。 在 Android 上，按住電源按鈕，然後按下功能表上的 鎖定 。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Some devices do not have the proper hardware for secure face authentication. There's two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
+有些裝置沒有適當的硬體來進行安全的臉部驗證。 臉部辨識有兩種主要類型：2D 和 3D。 3D 類型的臉部辨識利用點陣投影器，讓裝置為您的臉部建立 3D 深度圖。 請確定您的裝置具有此功能。
 
 </div>
 
-Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
+Android 為生物辨識定義了三種 [安全等級](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) ，您應該在啟用生物辨識之前檢查您的裝置是否屬於 Class 3。
 
-### Device Encryption
+### 裝置加密
 
-If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+如果您的裝置已進行 [加密](../encryption.md) ，在裝置完全關機 (而非僅是睡眠狀態) 時，也就是在您第一次輸入加密金鑰或鎖屏密碼之前，您的資料是最安全的（相較於其他狀態）。 在手機上，這種較高安全性的狀態稱為 “Before First Unlock（首次解鎖之前）（BFU）”，而一旦您在重新開機/開機後輸入正確密碼，則稱為 “After First Unlock（首次解鎖之後）（AFU）”。 AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
 
 This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
 
