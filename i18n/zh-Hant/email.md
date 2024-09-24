@@ -63,11 +63,11 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 [:octicons-home-16: 首頁](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="洋蔥服務" }
 [:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="說明文件" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="文檔" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -75,7 +75,7 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
+- [:octicons-browser-16: 網頁版](https://mail.proton.me)
 
 </details>
 
@@ -131,7 +131,7 @@ Proton Mail 不提供數字遺產功能。
 
 [:octicons-home-16: 首頁](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="說明文件" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="文檔" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>

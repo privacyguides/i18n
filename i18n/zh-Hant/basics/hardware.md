@@ -1,10 +1,10 @@
 ---
-title: Choosing Your Hardware
+title: 選擇您的硬體
 icon: material/chip
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: 隱私保護不能僅聚焦於軟體方面；了解您每天使用的硬體，以保護您的隱私。
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+當談到隱私權的討論時，硬體往往不如軟體那般受到重視。 您的硬體應該被視為建立其他隱私設定的基礎。
 
 ## Picking a Computer
 

@@ -114,21 +114,21 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 2. 開發人員可能會受到外部脅迫添加惡意程式碼。
 3. 個人或團體可能會識別第三方軟體依賴（也稱為庫），並透過上述兩種方法對其進行滲透，因為他們知道它將被「下游」軟體開發人員使用。
 
-此類攻擊可能需要大量時間和準備才能執行，且存在風險，因為它們可以被檢測到，特別是在開源專案中，如果很受歡迎受到外部關注的話。 不幸的是，它們也是最危險的之一，很難完全緩解。 We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+此類攻擊可能需要大量時間和準備才能執行，且存在風險，因為它們可以被檢測到，特別是在開源專案中，如果很受歡迎受到外部關注的話。 不幸的是，它們也是最危險的之一，很難完全緩解。 我們鼓勵讀者僅使用具有良好聲譽的軟體，並透過以下方式努力降低風險：
 
-1. 只採用已經存在一段時間的流行軟體。 The more interest in a project, the greater likelihood that external parties will notice malicious changes. 惡意行為者還需要花費更多時間透過有意義的貢獻來贏得社群信任。
-2. 尋找透過廣泛使用的、可信任的建置基礎架構平台發布二進位檔案的軟體，而不是開發人員工作站或自架伺服器。 某些系統（例如 GitHub Actions）可檢查公開執行的建置腳本，以獲得額外的信心。 這降低了開發人員電腦上的惡意軟體感染其軟體包的可能性，讓人確信生成的二進位檔案是正確生成的。
+1. 只採用已經存在一段時間的流行軟體。 對於專案的興趣越大，外界注意到惡意變更的可能性就越大。 惡意行為者還需要花費更多時間透過有意義的貢獻來贏得社群信任。
+2. 尋找透過廣泛使用的、可信任的構建基礎架構平台發布二進位檔案的軟體，而不是開發人員工作站或自架伺服器。 某些系統（例如 GitHub Actions）可檢查公開執行的建置腳本，以獲得額外的信心。 這降低了開發人員電腦上的惡意軟體感染其軟體包的可能性，讓人確信生成的二進位檔案是正確生成的。
 3. 尋找單一原始碼提交和發布的程式碼簽名，這會建立誰做了什麼的可審計追蹤。 例如：惡意程式碼是否在軟體儲放庫中？ 哪個開發者添加的？ 是建置過程中新增的嗎？
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. 清晰的訊息可以讓外部人士更容易驗證、審核和發現錯誤。
-5. 注意程式的貢獻者或維護者的數量。 A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. 這很可能意味著「大型科技公司」開發的軟體比不向任何人負責的單獨開發人員受到更多審查。
+4. 檢查原始程式碼是否提交有意義的訊息（例如： [常規提交](https://conventionalcommits.org) ），這些訊息解釋了更改應完成的任務。 清晰的訊息可以讓外部人士更容易驗證、審核和發現錯誤。
+5. 注意程式的貢獻者或維護者的數量。 單獨的開發人員可能較容易受到外部人員的威脅而新增惡意程式碼，或因疏忽導致不良行為。 這很可能意味著「大型科技公司」開發的軟體比不向任何人負責的單獨開發人員受到更多審查。
 
-## Privacy from Service Providers
+## 服務供應商的隱私權
 
 <span class="pg-teal">:material-server-network: 服務提供商</span>
 
 我們活在一個幾乎所有東西都連上網際網路的世界。 我們的「私人」訊息、電子郵件和社交互動通常儲存在伺服器的某個地方。 通常，當您向某人發送訊息時，它會儲存在伺服器上，當對方想要閱讀訊息時，伺服器會將其顯示給他們。
 
-顯而易見的問題是，服務提供商（或破壞伺服器的黑客）可以隨時隨地訪問您的對話，而您永遠不會知道。 這適用在許多常見服務，如 SMS 簡訊、Teleram 和 Discord。
+顯而易見的問題是，服務提供商（或破壞伺服器的黑客）可以隨時隨地訪問您的對話，而您永遠不會知道。 這適用於許多常見的服務，例如 SMS 訊息、Telegram 和 Discord。
 
 慶幸的是， E2EE 可以加密您與收件人之間的通信，甚至在訊息送到伺服器之前，緩解此問題。 假設服務提供商無法訪問任何一方的私鑰，您的訊息保密性得到保證。
 
@@ -137,7 +137,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal)，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程序中引入[後門](https://zh.wikipedia.org/wiki/Backdoor_(computing)) ----試圖竊取您的私鑰----它稍後可以通過[逆向工程](https://zh.wikipedia.org/wiki/Reverse_engineering)檢測。
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密密鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
+另一方面，基於網頁的 E2EE 實作，例如 Proton Mail 的網頁應用程式或 Bitwarden 的 *Web Vault* ，則依賴伺服器動態提供 JavaScript 程式碼給瀏覽器來處理加密。 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密密鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
 
 因此，您應該盡可能使用原生軟體程式多於網頁客戶端。
 
@@ -160,10 +160,10 @@ On the other hand, web-based E2EE implementations, such as Proton Mail's web app
 
 </div>
 
-政府常認為大規模監控計劃是打擊恐怖主義和預防犯罪的必要手段。 However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+政府常認為大規模監控計劃是打擊恐怖主義和預防犯罪的必要手段。 然而，作為違反人權的行為，它們最常被用來過度針對少數族群和政治異見人士等。
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU： <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">9/11 的隱私教訓：大規模監控並非未來方向</a></em></p>
 
 對於愛德華·斯諾登（Edward Snowden）披露的 [PRISM](https://zh.wikipedia.org/wiki/PRISM)和 [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)等政府計劃，情報官員承認，國家安全局多年來一直祕密地收集每個美國人電話記錄—誰、何時及通話時間多久。 當 NSA 日復一日地收集這類資訊時，就可以揭示人們生活相關聯的敏感細節，例如他們是否打電話給牧師、墮胎提供者、成癮顧問或自殺熱線。
 
@@ -171,7 +171,7 @@ On the other hand, web-based E2EE implementations, such as Proton Mail's web app
 
 儘管在美國有越來越多的大規模監控，政府卻發現像依 215 條採取的監控計畫在阻卻犯案與恐怖陰謀上沒有實用價值，它們幾乎只是重複著 FBI 所做的特定監控計畫而已。[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+在線上，可透過各種方式追蹤您，包括但不限於：
 
 - 您的 IP 地址
 - 瀏覽器 cookie
@@ -181,7 +181,7 @@ Online, you can be tracked via a variety of methods, including but not limited t
 
 如果您擔心大規模監控計劃，您可以隨時隨地策略性避免提供識別個資，例如劃分您的網路身份，與其他用戶混合。
 
-## Surveillance as a Business Model
+## 「監視」：作為一種商業模式
 
 <span class="pg-brown">:material-account-cash: 監控資本主義</span>
 
@@ -228,4 +228,4 @@ Online, you can be tracked via a variety of methods, including but not limited t
 [^2]: 美國隱私和公民自由監督委員會： [*根據第 215 條進行的電話記錄計劃的報告*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: 維基百科: [*監控資本主義*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: “[枚舉壞處](https://ranum.com/security/computer_security/editorials/dumb)” （或“列出所知的全部壞事” ），未能充分保護您免受新的和未知的威脅，因為許多內容攔截程式和防病毒程式尚未被添加到過濾器列表。 您還應採用其他緩解技術。
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: 聯合國： [*世界人權宣言*](https://un.org/en/about-us/universal-declaration-of-human-rights)。

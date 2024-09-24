@@ -42,7 +42,7 @@ schema:
 
 這些迷思源於許多偏見，原始碼是否開放以及軟體的許可並不會以任何方式影響其安全性。 ==開源軟件 *可能* 比商業軟件更安全，但絕對不能保證這一點。==評估軟體時，您應該根據每個工具的聲譽和安全性進行評估。
 
-開源軟體*能夠*由第三方人員進行審計，比起同類商用軟體，前者對待潛在漏洞更為透明。 它還允許您查看代碼並禁用您發現的任何可疑功能。 然而，*除非您真的這樣做了*，否則不能保證程式碼曾經被評估過，特別是小型軟體專案。 The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+開源軟體*能夠*由第三方人員進行審計，比起同類商用軟體，前者對待潛在漏洞更為透明。 它還允許您查看代碼並禁用您發現的任何可疑功能。 然而，*除非您真的這樣做了*，否則不能保證程式碼曾經被評估過，特別是小型軟體專案。 公開的開發程序有時也會被利用—用以引入新的漏洞，稱為 [:material-package-variant-closed-remove: 供應鏈攻擊](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} ，我們的 [常見威脅](common-threats.md) 頁面會進一步討論。[^1]
 
 另一方面，專有軟件不太透明，但這並不意味著它不安全。 主要的商用軟件專案會由內部和第三方機構進行審計，獨立的安全研究人員仍然可以通過逆向工程等技術發現漏洞。
 

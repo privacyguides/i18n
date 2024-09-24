@@ -58,7 +58,7 @@ AFWall+ 以 [封包過濾](https://en.wikipedia.org/wiki/Firewall_\(computing\)#
 
 重要的是，不要使用 [產品壽命結束](https://endoflife.date/android) 版本的 Android。 較新版本的 Android 不僅會收到作業系統的安全性更新，而且還會收到重要的隱私增強更新。
 
-舉例來說，[在 Android 10 之前](https://developer.android.com/about/versions/10/privacy/changes) 任何具有 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 權限的應用程式都可以存取手機敏感且獨特的序號，例如 [IMEI](https://zh.wikipedia.org/zh-tw/%E5%9B%BD%E9%99%85%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E8%AF%86%E5%88%AB%E7%A0%81) 、 [MEID](https://zh.wikipedia.org/zh-tw/%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E8%AF%86%E5%88%AB%E7%A0%81) 或 SIM 卡的 [IMSI](https://zh.wikipedia.org/zh-tw/%E5%9B%BD%E9%99%85%E7%A7%BB%E5%8A%A8%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB%E7%A0%81) ；而現在則必須是系統應用程式才能這麼做。 而系統應用程式僅由 OEM 或 Android 發行版提供。
+舉例來說， [在 Android 10 之前](https://developer.android.com/about/versions/10/privacy/changes) 任何具有 [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) 權限的應用程式都可以存取手機敏感且獨特的序號，例如 [IMEI](https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E8%AF%86%E5%88%AB%E7%A0%81) 、 [MEID](https://zh.wikipedia.org/wiki/%E7%A7%BB%E5%8A%A8%E8%AE%BE%E5%A4%87%E8%AF%86%E5%88%AB%E7%A0%81) 或 SIM 卡的 [IMSI](https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E7%A7%BB%E5%8A%A8%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB%E7%A0%81) ；而現在則必須是系統應用程式才能這麼做。 而系統應用程式僅由 OEM 或 Android 發行版提供。
 
 ### 使用內建的分享功能
 

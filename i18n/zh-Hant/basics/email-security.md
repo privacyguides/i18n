@@ -23,7 +23,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 除了我們推薦的[電子郵件用戶端](../email-clients.md)支援 WKD外，一些網頁郵件供應商也支援 WKD。 *自己的*金鑰是否發佈到 WKD 供其他人使用取決於網域配置。 如果使用支援 WKD 的[電子郵件提供者](../email.md#openpgp-known-services)，例如 Proton Mail 或 Mailbox.org，他們可以在其網站上發布您網域名所準備的 OpenPGP 金鑰。
 
-如果使用自訂網域，則需另外設定 WKD。 如果你可控制自定域名，則無論電子郵件提供者為何，都可以設定 WKD。 一個簡單的方法是使用[ 「keys.openpgp.org WKD 即服務」](https://keys.openpgp.org/about/usage#wkd-as-a-service)功能，透過指向`wkd.keys.openpgp.org` 網域的`openpgpkey` 子網域來設定CNAME 記錄，然後將金鑰上傳到[keys.openpgp.org](https://keys.openpgp.org/)。 或者你可以 [在自己的 Web 伺服器搭建 WKD r](https://wiki.gnupg.org/WKDHosting) 。
+如果使用自訂網域，則需另外設定 WKD。 如果你可控制自定域名，則無論電子郵件提供者為何，都可以設定 WKD。 一個簡單的方法是使用 [WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service) 功能，透過指向`wkd.keys.openpgp.org` 網域的`openpgpkey` 子網域來設定CNAME記錄，然後將金鑰上傳到 [keys.openpgp.org](https://keys.openpgp.org) 。 或者你可以 [在自己的 Web 伺服器搭建 WKD](https://wiki.gnupg.org/WKDHosting) 。
 
 如使用不支援 WKD 供應商的共用網域（例如 @gmail.com），則無法透過此方法與其他人共用你的 OpenPGP 密鑰。
 
@@ -33,7 +33,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 ### 我要怎樣保護自己的私密鑰匙？
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 安全鑰卡會解密該訊息再把解開的內容傳到設備。
+智慧卡（例如 [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) 或 [Nitrokey](../security-keys.md#nitrokey) ）的工作原理是透過執行 電子郵件/網頁郵件 客戶端的裝置（手機、平板電腦、電腦等）接收加密的電子郵件訊息。 智慧卡會解密該訊息再把解開的內容傳到設備。
 
 在智慧卡上進行解密的優點是可避免將私鑰暴露在某個遭破壞的裝置。
 
