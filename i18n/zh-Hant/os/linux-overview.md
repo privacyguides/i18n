@@ -1,7 +1,7 @@
 ---
-title: Linux Overview
+title: Linux 概述
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: Linux 是一種開放原始碼、注重隱私的桌面作業系統替代選項，但並非所有的發行版都是一樣的。
 ---
 
 **Linux** 是開源、注重隱私的桌面作業系統替代方案。 面對主流作業系統中普遍存在的遙測和其他侵犯隱私的技術，Linux 桌面仍是那些希望能完全控制電腦的用戶明智選擇。
@@ -20,7 +20,7 @@ description: Linux is an open-source, privacy-focused desktop operating system a
 
 ### 開源安全
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. 人們期望定期進行社群驗證；然而這種情況 [並不常見](https://seirdy.one/posts/2022/02/02/floss-security)。
+一個 [常見的誤解](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) 是，Linux 和其他開放原始碼軟體天生就很安全，只因為原始碼是可被存取的。 人們期望定期進行社群驗證；然而這種情況 [並不常見](https://seirdy.one/posts/2022/02/02/floss-security)。
 
 現實中，發行版安全取決於許多因素，例如專案活動、開發人員經驗、用於代碼審查的嚴格程度以及代碼庫 特定部分的關注頻率，這些可能多年未被聞問。
 
@@ -30,9 +30,9 @@ It is a [common misconception](../basics/common-misconceptions.md#open-source-so
 
 - Linux 的**驗證開機** 不如 Apple 的 [Secure Boot 安全開機](https://support.apple.com/guide/security/secac71d5623/web) 或 Android’s [Verified Boot 驗證開機](https://source.android.com/security/verifiedboot)。 驗證開機可防止惡意軟體的持久篡改和 [evil maid attacks 邪惡女傭攻擊](https://en.wikipedia.org/wiki/Evil_Maid_attack)，但其[仍未及於大多數進階的發行版本](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3)。
 
-- Linux 上的應用程式嚴重缺乏**強大的沙盒**，即使便使用 Flatpaks 等容器化應用程式或 Firejail 等沙盒解決方案還是不足。 Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
+- Linux 上的應用程式嚴重缺乏**強大的沙盒**，即使便使用 Flatpaks 等容器化應用程式或 Firejail 等沙盒解決方案還是不足。 Flatpak 是迄今為止最被看好的 Linux 沙盒實用工具，但它仍存在許多缺陷，且允許 [不安全的默認設置](https://flatkill.org/2020) ，這使得大多數應用程式可輕鬆繞過其沙盒。
 
-此外，Linux 在實施[漏洞緩解措施](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations)方面落後，這些緩解措施現已成為其他操作系統的標準配置，例如 Windows 上的任意代碼防護或 macOS 上的強化運行時間。 此外，大多數 Linux 程序和 Linux 本身都是用記憶體不安全語言編寫的。 記憶體損壞錯誤是造成[大多數漏洞](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code)的原因已修復並分配了CVE。 雖然 Windows 和 macOS 也是如此，但它們在使用記憶體安全語言（例如 Rust 和 Swift）上正在迅速進展，而Linux 方面則沒有這類以 Rust 重寫記憶體安全的投入 。
+此外，Linux 在實施 [漏洞緩解措施](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) 方面落後，這些緩解措施現已成為其他操作系統的標準配置，例如 Windows 上的任意代碼防護或 macOS 上的強化運行時間。 此外，大多數 Linux 程序和 Linux 本身都是用記憶體不安全語言編寫的。 記憶體損壞錯誤是造成[大多數漏洞](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code)的原因已修復並分配了CVE。 雖然 Windows 和 macOS 也是如此，但它們在使用記憶體安全語言（例如 Rust 和 Swift）上正在迅速進展，而Linux 方面則沒有這類以 Rust 重寫記憶體安全的投入 。
 
 ## 挑選發行版本
 
@@ -42,35 +42,35 @@ It is a [common misconception](../basics/common-misconceptions.md#open-source-so
 
 強烈建議您選擇與穩定的上遊軟體版本保持接近的發行版，通常稱為滾動發行版。 因為凍結發行週期旳發行版通常不會更新套件版本，並且在安全性更新方面落後。
 
-像 [Debian](https://debian.org/security/faq#handling)這樣的凍結發行版，套件維護人員預計會回移補丁修復漏洞，而不是將軟體提昇到上遊開發人員發布的“下一個版本”。 Some security fixes (particularly for less popular software) [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) at all and therefore do not make it into the distribution with this patching model. 因此小型安全修復有時候要等到下次主要發佈時才一起進行。
+像 [Debian](https://debian.org/security/faq#handling)這樣的凍結發行版，套件維護人員預計會回移補丁修復漏洞，而不是將軟體提昇到上遊開發人員發布的“下一個版本”。 有些安全修補程式 (尤其是不太流行的軟體) 根本 [不會](https://arxiv.org/abs/2105.14565) 收到 [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) ，因此無法透過此修補模式修補。 因此小型安全修復有時候要等到下次主要發佈時才一起進行。
 
 我們不認為保留軟體套件和應用臨時補丁是好主意，因為它偏離了開發者計畫讓軟體工作的方式。 [Richard Brown](https://rootco.de/aboutme) 對此有一份簡報：
 
 - [Regular Releases are Wrong, Roll for your life](https://youtu.be/i8c0mg_mS7U) <small>(YouTube)</small>
 
-### Traditional vs Atomic Updates
+### 傳統 vs 原子更新
 
-傳統上 Linux 發行版的是依次更新所需的軟體套件。 Traditional updates such as those used in Fedora, Arch Linux, and Debian-based distributions can be less reliable if an error occurs while updating.
+傳統上 Linux 發行版的更新模式是依次更新所需的軟體套件。 Fedora、Arch Linux 和其他基於 Debian 的發行版皆採納此種模式—而這種模式如果在更新時發生錯誤，其系統可靠性可能會因此降低。
 
-Atomic updating distributions, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
+而原子更新模式則是完全套用更新或完全不套用更新。 在採納原子更新模式的發行版上，如果在更新時發生錯誤（也許是由於停電），系統上就不會有任何改變。
 
-The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
+因此 Silverblue 和 NixOS 等 [發行版](../desktop.md#atomic-distributions) 在這種情況下便可以依靠原子更新模式維持系統穩定性。 [Adam Šamalík](https://twitter.com/adsamalik) 介紹 `rpm-ostree` 如何與 Silverblue 搭配使用：
 
 - [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
-### “以安全爲重點的發行版
+### 「注重安全」的發行版
 
-人們常會混淆“以安全為中心”的發行版和“滲透測試”發行版。 快速搜索“最安全的 Linux發行版”，通常會得到像 Kali Linux, Black Arch 或 Parrot OS 這樣結果。 這些發行版是攻擊性的滲透測試發行版，捆綁了測試其他系統的工具。 它們不包括任何 "額外的安全 "或常規使用的防禦性緩解措施。
+人們常會混淆「注重安全」的發行版和「滲透測試」發行版。 快速搜索「最安全的 Linux發行版」，通常會得到像 Kali Linux、Black Arch 或 Parrot OS 這樣的結果。 這些發行版是攻擊性滲透測試發行版，捆綁了測試其他系統的工具。 它們不包括任何「額外的安全性」或常規使用的防禦性緩解措施。
 
 ### 基於 Arch Linux 的發行版
 
-不推薦 Arch 或其相關發行版(無論哪個發行版)給剛接觸 Linux 的人，因為它們需要定期進行 [系統維護](https://wiki.archlinux.org/title/System_maintenance)。 Arch沒有底層軟體選擇的發行版更新機制。 As a result you have to stay aware with current trends and adopt technologies on your own as they supersede older practices.
+不推薦 Arch 或其相關發行版(無論哪個發行版)給剛接觸 Linux 的人，因為它們需要定期進行 [系統維護](https://wiki.archlinux.org/title/System_maintenance)。 Arch沒有底層軟體選擇的發行版更新機制。 因此，您必須瞭解當前趨勢，並在新做法取代舊有做法時自行採用。
 
-For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](#mandatory-access-control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
+對於安全的系統，您也應該有足夠的 Linux 知識來正確設定其系統，例如添加 [強制訪問控制](#mandatory-access-control) 系統、設定 [核心模組](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) 黑名單、加固開機參數、修改 [sysctl](https://en.wikipedia.org/wiki/Sysctl)參數，以及知道他們需要哪些元件，例如：[Polkit](https://en.wikipedia.org/wiki/Polkit)。
 
-使用 [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository), **者必須** 對該服務下載的 PKGBUILD進行審計。 AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
+使用 [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository)者 **必須** 對該服務下載的 PKGBUILD進行審計。 AUR 套件是社群製作的內容，未經任何審核，因此容易受到軟體 [:material-package-variant-closed-remove: 供應鏈攻擊](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} ，事實上 [過去](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository) 確實曾發生過。
 
-應該少用 AUR，而往往各種網頁有很多不好的建議，指導人們盲目地使用 [AUR 幫助器](https://wiki.archlinux.org/title/AUR_helpers) 卻沒有足夠警告。 Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
+應該少用 AUR，而往往各種網頁有很多不好的建議，指導人們盲目地使用 [AUR 助手](https://wiki.archlinux.org/title/AUR_helpers) 卻沒有足夠警告。 類似的警告也適用於使用基於 Debian 的發行版上的第三方個人套件檔案（PPA）或 Fedora 系統上的社群專案（COPR）。
 
 如果是 Linux 老手，希望使用基於 Arch 發行版，我們只推薦主線 Arch Linux，而不是任何衍生品。
 

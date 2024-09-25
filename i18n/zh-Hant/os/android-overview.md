@@ -9,11 +9,11 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 **Android 開源專案** 為安全移動作業系統，提供[應用沙盒](https://source.android.com/security/app-sandbox), [驗證開機](https://source.android.com/security/verifiedboot) (AVB) 以及強韌的 [授權](https://developer.android.com/guide/topics/permissions/overview)控制系統。
 
-[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com){ .card-link title=首頁 }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=說明文件}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="原始碼" }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
+[我們的 Android 建議 :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## 安全防護
 

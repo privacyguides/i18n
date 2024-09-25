@@ -190,16 +190,16 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 
 **K-9 Mail** 是一個獨立的郵件應用程式，同時支援 POP3 和 IMAP 信箱，但只支援 IMAP 的推送郵件。
 
-In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird client for Android.
+未來，K-9 Mail 將成為 Thunderbird 的[官方品牌](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Android 用戶端。
 
-[:octicons-home-16: Homepage](https://k9mail.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.k9mail.app){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://k9mail.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://docs.k9mail.app){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
 - [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
@@ -211,7 +211,7 @@ In the future, K-9 Mail will be the [officially branded](https://k9mail.app/2022
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-When replying to someone on a mailing list, the "reply" option may also include the mailing list. For more information see [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738).
+回覆郵件名單上的某人時，「回覆」選項也可能包括郵件名單。 如需詳細資訊，請參閱 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)。
 
 </div>
 
@@ -219,9 +219,9 @@ When replying to someone on a mailing list, the "reply" option may also include 
 
 <div class="admonition recommendation" markdown>
 
-![Kontact logo](assets/img/email-clients/kontact.svg){ align=right }
+![Kontact 標誌](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** is a personal information manager (PIM) application from the [KDE](https://kde.org) project. It provides a mail client, address book, RSS client, and an organizer.
+**Kontact** 是 [KDE](https://kde.org) 專案的個人資訊管理員 (PIM) 應用程式。 It provides a mail client, address book, RSS client, and an organizer.
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }

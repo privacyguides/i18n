@@ -42,7 +42,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 付費 **iCloud+** 訂閱（任何 iCloud 存儲方案）附帶一些隱私保護功能。 雖然這些能為當前 iCloud 客戶提供足夠服務，但不建議通過 [VPN](../vpn.md) 購買 iCloud 方案，和將 [獨立電子郵件別名服務](../email-aliasing.md)僅用在這些功能。
 
-[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) is a proxy service which relays all of your Safari traffic, your DNS queries, and unencrypted traffic on your device through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). 理論上這應該可以防止鏈中的任何單一提供商（包括 Apple）完全了解您連線訪問的網站。 Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
+[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) 是一項代理服務，可透過兩個伺服器轉發您裝置上所有 Safari 、DNS 查詢和未加密流量：一個由 Apple 擁有，另一個由第三方供應商（包括 Akamai、Cloudflare 和 Fastly）擁有。 理論上這應該可以防止鏈中的任何單一提供商（包括 Apple）完全了解您連線訪問的網站。 與 VPN 不同，Private Relay 不保護已加密的流量。
 
 **Hide My Email** 是 Apple 電子郵件別名服務。 當您在網站或應用程式上*使用 Apple 登錄*時，您可以免費創建電子郵件別名，或者通過付費 iCloud+ 方案生成無數的別名。 Hide My Email 的優點是使用 `@icloud.com` 域作為其別名，與其他電子郵件別名服務相比，它可能不太可能被阻止，但不提供獨立服務提供的功能，例如 例如自動 PGP 加密或多郵箱支持。
 
@@ -63,7 +63,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 選取這項然後再選 **尋找**。 此處您可以選擇是否啟用或禁用“查找設備”功能。
 
-### Settings
+### 設定
 
 許多其他與隱私相關的設置可以在**設置**應用中找到。
 
@@ -161,7 +161,7 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [ ] 關閉 **定位服務**
 
-A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+在這些設定中，最近曾使用您位置的應用程式旁會出現紫色箭頭，而灰色箭頭則表示您的位置在過去 24 小時內曾被存取。 如果您決定開啟位置服務，Apple 預設會將其用於系統服務。 您可以在此檢視並挑選哪些服務可以使用您的位置資訊。 不過，如果您不想向 Apple 提交位置分析資料（他們會利用這些資料來改善 Apple Maps），您也可以在此停用該功能。 Select **System Services**:
 
 - [ ] Turn off **iPhone Analytics**
 - [ ] Turn off **Routing & Traffic**
@@ -171,7 +171,7 @@ A purple arrow will appear next to an app in these settings that has used your l
 
 - [ ] 關閉 **允許 App 發出追蹤請求**
 
-This is disabled by default and cannot be changed for users under 18.
+如果使用者未滿 18 歲，該選項預設停用且無法變更。
 
 如果不想加入，請關閉 **感應 & 使用資料研究** 。 選擇 **感應 & 使用資料研究**:
 
