@@ -83,11 +83,11 @@ description: Linux 是一種開放原始碼、注重隱私的桌面作業系統�
 
 我們建議**不**使用 Linux-libre 內核，因為它[刪除安全緩解措施](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released)並[抑制有關易受攻擊的微代碼的內核警告](https://news.ycombinator.com/item?id=29674846)。
 
-### Mandatory access control
+### 強制訪問控制
 
-Mandatory access control is a set of additional security controls which help to confine parts of the system such as apps and system services. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). While Fedora uses SELinux by default, Tumbleweed [defaults](https://en.opensuse.org/Portal:SELinux) to AppArmor in the installer, with an option to [choose](https://en.opensuse.org/Portal:SELinux/Setup) SELinux instead.
+強制訪問控制是一套額外的安全控制，有助於限制應用程式和系統服務等部分。 Linux 發行版本中常見的兩種強制訪問控制實作是 [SELinux](https://github.com/SELinuxProject) 和 [AppArmor](https://apparmor.net) 。 Fedora 預設使用 SELinux，而 Tumbleweed 則在安裝程式中[預設](https://en.opensuse.org/Portal:SELinux)使用 AppArmor，並允許您[選擇](https://en.opensuse.org/Portal:SELinux/Setup)改用 SELinux 。
 
-SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confines Linux containers, virtual machines, and service daemons by default. AppArmor is used by the snap daemon for [sandboxing](https://snapcraft.io/docs/security-sandboxing) snaps which have [strict](https://snapcraft.io/docs/snap-confinement) confinement such as [Firefox](https://snapcraft.io/firefox). There is a community effort to confine more parts of the system in Fedora with the [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) special interest group.
+[Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) 上的 SELinux 預設會限制 Linux軟體容器、虛擬機器和守護進程。 AppArmor 由 Snap 守護進程 用於 [沙盒化](https://snapcraft.io/docs/security-sandboxing) Snap，這些由 Snap 提供的軟體有 [嚴格](https://snapcraft.io/docs/snap-confinement) 限制，例如 [Firefox](https://snapcraft.io/firefox) 。 在 Fedora 的 [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) 特別興趣小組中，有社群致力於限制系統的更多部分。
 
 ## 一般性建議
 
@@ -107,7 +107,7 @@ SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) 或 DIY(Arch Linux)，不附帶商業專用的 [微碼](https://en.wikipedia.org/wiki/Microcode) 更新，這類更新通常會修補漏洞。 這些漏洞的一些著名例子如: [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))、[ Meltdown ](https://en.wikipedia.org /wiki/Meltdown_(security_vulnerability))、[SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass)、[Foreshadow](https:/ / en.wikipedia.org/wiki/Foreshadow)、[MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling)、[SWAPGS](https: //en.wikipedia.org/wiki/SWAPGS_(security_vulnerability))，以及其他[硬體漏洞](https://kernel.org/doc/html/latest/admin-guide/hw- vuln /index.html)。
 
-我們**強烈建議**安裝微碼更新，因為它們包含重要的 CPU 安全補丁，無法僅僅靠軟體緩解。 Fedora and openSUSE both apply microcode updates by default.
+我們**強烈建議**安裝微碼更新，因為它們包含重要的 CPU 安全補丁，無法僅僅靠軟體緩解。 Fedora 和 openSUSE 預設都會套用微碼更新。
 
 ### 更新
 
@@ -117,18 +117,18 @@ Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) �
 
 此外，一些發行版不會自動下載靭體更新。 為此需要安裝l [`fwupd`](https://wiki.archlinux.org/title/Fwupd)。
 
-### Permission Controls
+### 權限控制
 
-Desktop environments (DEs) that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. However, not all DEs take full advantage of Wayland's architectural security improvements.
+支援 [Wayland](https://wayland.freedesktop.org) 顯示通訊協定的桌面環境 (DE) 比只支援 X11 的桌面環境 [更安全](https://lwn.net/Articles/589147) 。 然而，並非所有的 DE 都能充分利用 Wayland 的架構安全性改進。
 
-For example, GNOME has a notable edge in security compared to other DEs by implementing permission controls for third-party software that tries to [capture your screen](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943). That is, when a third-party application attempts to capture your screen, you are prompted for your permission to share your screen with the app.
+舉例來說，GNOME 藉由對嘗試 [擷取螢幕的](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943) 第三方軟體實施權限控制，在安全性上比其他 DE 有顯著的優勢。 也就是說，當第三方應用程式嘗試擷取您的螢幕時，會提示您是否同意與該應用程式分享您的螢幕。
 
 <figure markdown>
   ![Screenshot permissions](../assets/img/linux/screenshot_permission.png){ width="450" }
-  <figcaption>GNOME's screenshot permission dialog</figcaption>
+  <figcaption>GNOME 的截圖權限對話框</figcaption>
 </figure>
 
-Many alternatives don't provide these same permission controls yet,[^1] while some are waiting for Wayland to implement these controls upstream.[^2]
+許多替代方案尚未提供這些相同的權限控制[^1]；而有些則在等待 Wayland 在上游實作這些控制[^2]。
 
 ## 隱私微調
 
@@ -160,5 +160,5 @@ Fedora 專案使用[`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better
 
 openSUSE 還使用[唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 來計算系統，可以通過清空`/var/lib/zypp/AnonymousUniqueId` 此檔案來禁用。
 
-[^1]: KDE currently has an open proposal to add controls for screen captures: <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
-[^2]: Sway is waiting to add specific security controls until they "know how security as a whole is going to play out" in Wayland: <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>
+[^1]: KDE 目前有一個開放的提案，加入螢幕擷取的控制： <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
+[^2]: Sway 正在等待加入特定的安全控制，直到他們「知道 Wayland 的整體安全性會如何發展」： <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>
