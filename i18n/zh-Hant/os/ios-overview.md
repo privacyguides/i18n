@@ -26,7 +26,7 @@ iOS 上應用的唯一來源是 Apple App Store，需要 Apple ID 才能訪問�
 
 最近，人們發現 Apple [即使禁用分析共享， iOS 也會傳輸分析數據 ](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) ，儘管宣稱已匿名處理，這些數據[似乎](https://twitter.com/mysk_co/status/1594515229915979776)很容易連結到唯一的 iCloud 帳戶標識符。
 
-## 建議配置
+## 建議的設定
 
 ### iCloud
 
