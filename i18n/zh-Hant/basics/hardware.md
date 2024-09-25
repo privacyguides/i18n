@@ -126,9 +126,9 @@ As the saying goes, "less is more". The fewer devices you have connected to your
 
 You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
 
-### Routers
+### 路由器
 
-Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
+您的路由器會處理所有網路流量，並作為您與開放網際網路之間的第一道防線。
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">備註</p>

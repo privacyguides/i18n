@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "適用於 Android 和 iOS 且尊重隱私的網頁瀏覽器 - Privacy Guides"
 title: "行動瀏覽器"
 icon: material/cellphone-information
 description: 這些瀏覽器是我們目前推薦在行動裝置上使用的標準/非匿名網路瀏覽器。
@@ -138,7 +138,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 這些選項可以在 :material-menu: **設定** → **Leo** 中找到。
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar**
+- [ ] 取消選擇 **在網址列顯示自動完成建議**
 
 ### Brave 同步
 
@@ -265,11 +265,11 @@ Safari 的歷史記錄、分頁群組、iCloud 分頁和已儲存密碼的同步
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了我們的標準之外，我們還制定了一套[明確的要求](about/criteria.md)，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與所推薦的任何專案都沒有任何關係。**除了[我們的標準準則](about/criteria.md)外，我們還制定了一套明確的要求，以便我們提供客觀的建議。 我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
 
-### 最低合格要求
+### 最低要求
 
-- 必須支援自動更新。
-- 必須快速接收來自上游版本的引擎更新。
-- 須支援內容阻檔。
-- 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響。
+- 必須支援自動更新
+- 必須快速接收來自上游版本的引擎更新
+- 必須支援內容封鎖
+- 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響
