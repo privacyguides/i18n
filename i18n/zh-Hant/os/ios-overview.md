@@ -75,7 +75,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 您可以啟用硬體位址隨機化功能，以保護您免受跨 Wi-Fi 網路的追蹤。 在您目前連線的網路上，按下 :material-information: 按鈕：
 
-- [x] 打開 **私人 Wi-Fi 地址**
+- [x] 打開 **專用 Wi-Fi 地址**
 
 您也可以選擇 **限制 IP 位址追蹤**。 這與 iCloud Private Relay 類似，但僅影響與“已知跟踪器”的連接。 因為它只影響與潛在惡意伺服器的連接，所以啟用此設置應該沒問題，但如果不希望*任何*流量通過 Apple 的伺服器路由，則可把它關掉。
 
@@ -161,9 +161,9 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [ ] 關閉 **定位服務**
 
-在這些設定中，最近曾使用您位置的應用程式旁會出現紫色箭頭，而灰色箭頭則表示您的位置在過去 24 小時內曾被存取。 如果您決定開啟位置服務，Apple 預設會將其用於系統服務。 您可以在此檢視並挑選哪些服務可以使用您的位置資訊。 不過，如果您不想向 Apple 提交位置分析資料（他們會利用這些資料來改善 Apple Maps），您也可以在此停用該功能。 Select **System Services**:
+在這些設定中，最近曾使用您位置的應用程式旁會出現紫色箭頭，而灰色箭頭則表示您的位置在過去 24 小時內曾被存取。 如果您決定開啟位置服務，Apple 預設會將其用於系統服務。 您可以在此檢視並挑選哪些服務可以使用您的位置資訊。 不過，如果您不想向 Apple 提交位置分析資料（他們會利用這些資料來改善 Apple Maps），您也可以在此停用該功能。 選擇**分析與改進功能**：
 
-- [ ] Turn off **iPhone Analytics**
+- [ ] 關閉 **分享 iPhone 分析**
 - [ ] Turn off **Routing & Traffic**
 - [ ] Turn off **Improve Maps**
 
@@ -227,4 +227,4 @@ Apple 會為那些希望幫助查找和報告錯誤的人先提供 iOS 測試版
 
 ### Before First Unlock(初次解鎖之前)
 
-If your threat model includes forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
+如果您的威脅模式包含鑑識工具，而且您希望將利用漏洞存取手機的機會減到最低，您應該經常重新啟動裝置。 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
