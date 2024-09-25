@@ -1,6 +1,6 @@
 ---
-title: About Privacy Guides
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+title: 關於 Privacy Guides
+description: Privacy Guides 是一個具有社會動機的網站，提供資訊以保護您的資料安全和隱私。
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -18,21 +18,21 @@ schema:
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
+Privacy Guides 是一個具有社會動機的網站，提供資訊以保護您的資料安全和隱私。 我們是一個非營利專案，使命是讓大眾了解數位隱私的價值，以及全球政府旨在監控您線上活動的行徑。 我們的網站沒有廣告，也不隸屬於所列的任何供應商。
 
-[:material-heart:{.pg-red} Make a Donation](about/donate.md){ .md-button .md-button--primary }
-[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[:material-heart:{.pg-red} 進行捐款](about/donate.md){ .md-button .md-button--primary }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=首頁 }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="原始碼" }
 
-## Staff
+## 員工
 
-[**Jonah Aragon**](https://www.jonaharagon.com) is the Project Director and staff writer at _Privacy Guides_. His role includes researching and writing for this website, system administration, creating _Privacy Guides Online Learning_ course content, reviewing the products recommended here, and most other day-to-day tasks.
+[**Jonah Aragon**](https://www.jonaharagon.com) 是 _Privacy Guides_ 的專案主任兼撰稿人。 他的職責包括為本網站進行研究與寫作、系統管理、建立 _Privacy Guides Online Learning_ 課程內容、審查此處推薦的產品，以及其他大部分的日常工作。
 
 <div class="grid" markdown>
 
-[:simple-discourse: Discourse (preferred): @jonah](https://discuss.privacyguides.net/u/jonah)
+[:simple-discourse: Discourse（首選）: @jonah](https://discuss.privacyguides.net/u/jonah)
 
-[:material-email: Email: jonah@privacyguides.org](mailto:jonah@privacyguides.org)
+[:material-email: 電子郵箱： jonah@privacyguides.org](mailto:jonah@privacyguides.org)
 
 [:simple-mastodon: Mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
 
@@ -40,13 +40,13 @@ schema:
 
 </div>
 
-_The Project Director is a part-time position which reports directly to the executive committee._
+_專案主任為兼職職位，直接向執行委員會報告。_
 
 ---
 
-[Open Positions :material-arrow-right-drop-circle:](about/jobs.md)
+[職位空缺 :material-arrow-right-drop-circle:](about/jobs.md)
 
-## Executive Committee
+## 執行委員會
 
 <!-- markdownlint-disable MD030 -->
 
