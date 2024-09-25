@@ -63,34 +63,34 @@ Android 為生物辨識定義了三種 [安全等級](https://source.android.com
 
 ### 裝置加密
 
-如果您的裝置已進行 [加密](../encryption.md) ，在裝置完全關機 (而非僅是睡眠狀態) 時，也就是在您第一次輸入加密金鑰或鎖屏密碼之前，您的資料是最安全的（相較於其他狀態）。 在手機上，這種較高安全性的狀態稱為 “Before First Unlock（首次解鎖之前）（BFU）”，而一旦您在重新開機/開機後輸入正確密碼，則稱為 “After First Unlock（首次解鎖之後）（AFU）”。 AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+如果您的裝置已進行 [加密](../encryption.md) ，在裝置完全關機 (而非僅是睡眠狀態) 時，也就是在您第一次輸入加密金鑰或鎖屏密碼之前，您的資料是最安全的（相較於其他狀態）。 在手機上，這種較高安全性的狀態稱為 “Before First Unlock（首次解鎖之前）（BFU）”，而一旦您在重新開機/開機後輸入正確密碼，則稱為 “After First Unlock（首次解鎖之後）（AFU）”。 相較於 BFU，AFU 對於數位鑑識工具套件和其他攻擊的防禦能力要低得多。 因此，如果您擔心攻擊者可以實體存取您的裝置（即 可直接取得您的設備實體 ），您應該在不使用裝置時將其關機。
 
-This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
+這可能不切實際，所以請考慮是否值得；但無論如何，只要您使用強大的加密金鑰，即使是 AFU 模式也能有效對抗大多數威脅。
 
-## External Hardware
+## 其他硬體
 
-Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
+有些威脅單靠您的內部元件無法防範。 這些選項中有許多都是高度情境性的；請評估您的威脅模型是否真的需要這些選項。
 
 ### 硬件安全金鑰
 
-Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
+硬體金鑰是使用強大加密技術來驗證您的設備或帳戶的裝置。 其原理是：由於金鑰無法被複製，您可以使用金鑰來保護帳戶，使帳戶只有在實際擁有金鑰的情況下才能被存取，從而消除許多遠端攻擊。
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[建議的硬體金鑰 :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [了解更多有關硬體金鑰的事 :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### 相機/麥克風
 
-If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
+如果您不想信任作業系統的權限控制，打算直接阻止相機啟動，您可以購買相機阻擋器用以實質上阻止光線進入相機。 您也可以購買沒有內建相機的裝置，使用外接式相機，只要用完就可以拔下。 有些裝置內建了相機阻擋器或硬體開關，可以直接斷開相機的電源。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
+您應該購買適合您筆記型電腦尺寸的保護套—且它在您關上蓋子時不應造成損傷。 遮蓋相機會干擾亮度自動調節和臉部驗證功能。
 
 </div>
 
-For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+對於麥克風存取，在大多數情況下，您需要信任作業系統內建的權限控制； 或者，購買沒有內建麥克風的裝置，使用外接式麥克風，使用完後就可以拔下麥克風。 有些裝置，例如：[MacBook 或 iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web)，在您關上蓋子時，麥克風會在硬體方面被斷開連接。
 
-Many computers have a BIOS option to disable the camera and microphone. When disabled there, the hardware won't even appear as a device on a booted system.
+許多電腦的 BIOS 選項可以停用攝影機和麥克風； 當在此處被停用時，這些硬體甚至不會在啟動的系統上顯示為裝置。
 
 ### Privacy Screens
 
