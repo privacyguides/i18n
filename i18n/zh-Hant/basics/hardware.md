@@ -71,7 +71,7 @@ Android 為生物辨識定義了三種 [安全等級](https://source.android.com
 
 有些威脅單靠您的內部元件無法防範。 這些選項中有許多都是高度情境性的；請評估您的威脅模型是否真的需要這些選項。
 
-### 硬件安全金鑰
+### 硬體安全金鑰
 
 硬體金鑰是使用強大加密技術來驗證您的設備或帳戶的裝置。 其原理是：由於金鑰無法被複製，您可以使用金鑰來保護帳戶，使帳戶只有在實際擁有金鑰的情況下才能被存取，從而消除許多遠端攻擊。
 
@@ -92,39 +92,39 @@ Android 為生物辨識定義了三種 [安全等級](https://source.android.com
 
 許多電腦的 BIOS 選項可以停用攝影機和麥克風； 當在此處被停用時，這些硬體甚至不會在啟動的系統上顯示為裝置。
 
-### Privacy Screens
+### 隱私屏障
 
-Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
+隱私屏障是一種可以覆蓋在正常螢幕上的薄膜，因此螢幕只能從特定角度可見。 如果您的威脅模型包括他人偷看您的螢幕，這些都是很好的方法，但並非萬無一失，因為任何人都可以移動到不同的檢視角度，看到您螢幕上的內容。
 
-### Dead Man's Switches
+### 警醒設備
 
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
+警醒設備可在沒有人員操作的情況下停止機器運作。 這些設備原本是作為安全措施而設計的，但同樣的概念也可以應用在電子裝置上，在您不在場時鎖上裝置。
 
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
+有些筆記型電腦能夠[偵測](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb)您是否在場，並在您沒有坐在螢幕前時自動鎖定。 您應該檢查作業系統的設定，看看您的電腦是否支援此功能。
 
-You can also get cables, like [Buskill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+您也可以購買纜線，例如 [Buskill](https://buskill.in)，當纜線中斷時，它會鎖定或抹除您的電腦。
 
-### Anti-Interdiction/Evil Maid Attack
+### 反阻絕/邪惡女傭攻擊
 
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
+要在您擁有裝置之前防止針對您的攻擊，最好的方法是在實體商店購買裝置，而不是下訂寄到您的地址。
 
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+確保您的裝置支援安全開機/驗證開機，並且已啟用。 盡可能避免讓您的裝置無人看管。
 
-## Secure your Network
+## 保護您的網路安全
 
-### Compartmentalization
+### 隔離
 
-Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
+有許多解決方案可讓您分開在電腦上所做的事情，例如虛擬機器和沙箱。 然而，最好的隔離方式是實體隔離。 這對於那些需要您繞過作業系統中的安全功能的軟體非常有用，例如許多遊戲中附帶的防作弊軟體。
 
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
+對於玩遊戲來說，指定一台機器為您的「遊戲機」並僅用於這個用途，可能會很有用。 將其保留在獨立的 VLAN 上。 這可能需要使用網管型交換器和支援隔離網路的路由器。
 
-Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, TV, etc.
+大多數消費型路由器都允許您透過啟用獨立的「訪客」網路來實現這一目標，該網路不能與您的主網路互動。 所有不受信任的裝置都可以放在這裡，包括智慧型冰箱、恆溫器、電視等物聯網裝置。
 
-### Minimalism
+### 極簡化
 
-As the saying goes, "less is more". The fewer devices you have connected to your network, the less potential attack surface you'll have and the less work it will be to make sure they all stay up-to-date.
+正所謂「少即是多」。 連接至網路的裝置越少，潛在的攻擊面就越小，確保它們都保持在最新狀態的工作也就越輕鬆。
 
-You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
+在家中四處走動，列出您擁有的所有連線裝置清單，對於您持續追蹤這些裝置會相當有用。
 
 ### 路由器
 
@@ -133,14 +133,14 @@ You may find it useful to go around your home and make a list of every connected
 <div class="admonition Note" markdown>
 <p class="admonition-title">備註</p>
 
-A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
+許多路由器都附有儲存空間，可將檔案存放在上面，這樣您就可以從網路上的任何電腦存取這些檔案。 我們建議您不要將網路裝置用於網路以外的用途。 如果您的路由器受到攻擊，您的檔案也會受到攻擊。
 
 </div>
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
+使用路由器時，最重要的是保持更新。 許多現代的路由器會自動安裝更新，但許多其他的路由器則不會。 您應該在路由器的設定頁面檢查此選項。 在任何瀏覽器的網址列輸入 `192.168.1.1` 或 `192.168.0.1`，通常就可以存取該頁面，前提是您在同一個網路中。 您也可以在作業系統的網路設定中檢查「路由器」或「閘道」。
 
-If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
+如果您的路由器不支援自動更新，您需要到製造商的網站下載並手動更新。
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+許多消費級路由器的支援期間不長。 如果製造商不再支援您的路由器，您可以檢查 [FOSS firmware](../router.md) 是否支援。 您也可以購買預設已安裝 FOSS 韌體的路由器；這些路由器的支援期間往往比大多數路由器長。
 
-Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
+有些 ISP 提供結合路由器/數據機的產品。 購買一個獨立的路由器，並將 ISP 路由器/數據機設定為數據機模式，可能對安全性來說較好。 這樣一來，即使 ISP 提供的路由器不再發布更新，您仍然可以獲得安全更新和修補程式。 這也代表任何影響數據機的問題都不會影響路由器，反之亦然。
