@@ -72,23 +72,23 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
   :material-text-account: 創辦人
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+  [:material-account: 個人資料](https://discuss.privacyguides.net/u/freddy)
 
   [:simple-github:](https://github.com/freddy-m "GitHub")
   [:simple-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-  [:material-email:](mailto:freddy@privacyguides.org "Email")
+  [:material-email:](mailto:freddy@privacyguides.org "電子郵箱")
 
 - :robot:{ .lg .middle } **Jonah Aragon**
 
   ---
 
-  :material-text-account: Founder, Director
+  :material-text-account: 創辦人、主任
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
+  [:material-account: 個人資料](https://discuss.privacyguides.net/u/jonah)
 
   [:simple-github:](https://github.com/jonaharagon "GitHub")
   [:simple-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-  [:material-email:](mailto:jonah@privacyguides.org "Email")
+  [:material-email:](mailto:jonah@privacyguides.org "電子郵箱")
 
 - :cactus:{ .lg .middle } **Niek de Wilde**
 
@@ -96,11 +96,11 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
   :material-text-account: 創辦人
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+  [:material-account: 個人資料](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
   [:simple-github:](https://github.com/blacklight447 "GitHub")
   [:simple-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-  [:material-email:](mailto:niekdewilde@privacyguides.org "Email")
+  [:material-email:](mailto:niekdewilde@privacyguides.org "電子郵箱")
 
 - :smirk_cat:{ .lg .middle } **Olivia**
 
@@ -108,14 +108,14 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
   :material-text-account: 創辦人
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+  [:material-account: 個人資料](https://discuss.privacyguides.net/u/olivia)
 
   [:simple-github:](https://github.com/hook9 "GitHub")
   [:simple-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 </div>
 
-## Volunteer Team
+## 志工團隊
 
 A number of other contributors have volunteered their time to review and approve changes to this website, and keep the website up to date. Changes require 2+ approvals from team members before they can be merged. In addition to the executive committee members above, volunteers [trusted](https://github.com/orgs/privacyguides/people) to review pull requests include:
 
