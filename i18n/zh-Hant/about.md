@@ -50,7 +50,7 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
 <!-- markdownlint-disable MD030 -->
 
-The project executive committee consists of five volunteers charged with management of the [MAGIC Privacy Guides Fund](https://magicgrants.org/funds/privacy_guides), making most critical project-related decisions.
+專案的執行委員會由五位志工組成，負責管理 [MAGIC Privacy Guides 基金](https://magicgrants.org/funds/privacy_guides) ，並作出最重要的專案相關決策。
 
 <div class="grid cards" markdown>
 
@@ -58,19 +58,19 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: 創辦人
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
+  [:material-account: 個人資料](https://discuss.privacyguides.net/u/dngray)
 
   [:simple-github:](https://github.com/dngray "GitHub")
   [:simple-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-  [:material-email:](mailto:dngray@privacyguides.org "Email")
+  [:material-email:](mailto:dngray@privacyguides.org "電子信箱")
 
 - :detective:{ .lg .middle } **Freddy**
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: 創辦人
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
 
@@ -94,7 +94,7 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: 創辦人
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
@@ -106,7 +106,7 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: 創辦人
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
 
