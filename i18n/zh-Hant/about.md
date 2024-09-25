@@ -117,7 +117,7 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
 ## 志工團隊
 
-A number of other contributors have volunteered their time to review and approve changes to this website, and keep the website up to date. Changes require 2+ approvals from team members before they can be merged. In addition to the executive committee members above, volunteers [trusted](https://github.com/orgs/privacyguides/people) to review pull requests include:
+其他多位貢獻者自願抽出時間，審核和核准本網站的變更，並保持網站的更新。 變更需要團隊成員 2 次以上的核准才能合併。 除了上述執行委員會成員之外，審核 pull 請求的 [可信任](https://github.com/orgs/privacyguides/people) 志願者還包括：
 
 <div class="grid cards" markdown>
 
@@ -127,35 +127,35 @@ A number of other contributors have volunteered their time to review and approve
 
 </div>
 
-We also especially thank our dedicated moderation team on Matrix and our forum: _Austin Huang_, _namazso_, _hik_, _riley_, and _Valynor_.
+我們也特別感謝 Matrix 和我們論壇上盡心盡力的管理團隊：_Austin Huang_、_namazso_、_hik_、_riley_ 和 _Valynor_。
 
-Additionally, [many other people](about/contributors.md) have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+此外，還有 [許多人](about/contributors.md) 也對專案做出了貢獻。 您也可以！ 我們在 GitHub 上開放原始碼，並在 [Crowdin](https://crowdin.com/project/privacyguides) 上接受翻譯建議。
 
-Our team members review all changes made to the website and direct the course of the project as a whole. They do not personally profit from any contributions made to this site. Donations to Privacy Guides are generally tax-deductible in the United States.
+我們的團隊成員會檢視網站的所有變更，並指導整個專案的進程。 他們個人不會從本網站的任何貢獻中獲利。 在美國，對 Privacy Guides 的捐款通常可以免稅。
 
-## In The Media
+## 媒體報導
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
-— [New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
+— [紐約時報](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
 
-> If you're looking for a new VPN, you can go to the discount code of just about any podcast. If you are looking for a **good** VPN, you need professional help. The same goes for email clients, browsers, operating systems and password managers. How do you know which of these is the best, most privacy-friendly option? For that there is **Privacy Guides**, a platform on which a number of volunteers search day in, day out for the best privacy-friendly tools to use on the internet.
+> 如果您正在尋找新的 VPN，您可以到任何播客找到折扣代碼。 如果您要找的是 **優質的** VPN ，則需要專業幫助。 電子郵件客戶端、瀏覽器、作業系統和密碼管理器也是如此。 您如何知道哪個是最好、最能保護隱私的選項？ 為此，有 **Privacy Guides** ，平臺裏許多志願者每天都在尋找網際網路上最隱私友好的工具。
 
-— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
+— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [翻譯自荷蘭文]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022) and [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again).
+同時也在以下網站中被提及： [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok)、 [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)]、 [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt)、 [Wired](https://wired.com/story/firefox-mozilla-2022) 和 [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again)。
 
-## History
+## 歷史
 
-Privacy Guides was launched in September 2021 as a continuation of the [defunct](about/privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
+Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md) 的「PrivacyTools」開放原始碼教育計畫的延續。 我們意識到獨立、注重標準的產品推薦和隱私領域常識的重要性，這也是為什麼我們需要保留自 2015 年以來眾多貢獻者所創造的工作，並確保這些資訊在網路上有一個無限期的穩定歸宿。
 
-In 2022, we completed the transition of our main website framework from Jekyll to MkDocs, using the `mkdocs-material` documentation software. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
+2022 年，我們完成了主要網站框架從 Jekyll 到 MkDocs 的轉換，使用的是「mkdocs-material」文件軟體。 這項變更讓對我們網站的開放原始碼貢獻從外人來說變得更容易，因為不再需要知道複雜的語法就能有效地撰寫文章，現在貢獻文章就像撰寫標準的 Markdown 文件一樣容易。
 
-We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
+我們還推出了新的討論論壇 [discuss.privacyguides.net](https://discuss.privacyguides.net) ，一個可以分享想法並詢問有關我們使命之問題的社區平臺。 這可擴大我們在 Matrix 上的現有社群，並取代我們先前的 GitHub 討論平台，減少我們對專有討論平台的依賴。
 
-In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr/), [Hebrew](https://www.privacyguides.org/he/), [Dutch](https://www.privacyguides.org/nl/), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+2023 年，我們推出了 [法文](https://www.privacyguides.org/fr/)、[希伯來文](https://www.privacyguides.org/he/)、[荷蘭文](https://www.privacyguides.org/nl/)，以及更多語言的網站翻譯版本，這些都是由 [Crowdin](https://crowdin.com/project/privacyguides) 上優秀的翻譯團隊所促成的。 我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
 
-## Site License
+## 網站授權
 
 <div class="admonition danger" markdown>
 
