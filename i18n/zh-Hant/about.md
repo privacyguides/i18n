@@ -159,10 +159,10 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md)
 
 <div class="admonition danger" markdown>
 
-以下是人類可讀的 [授權](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license) 摘要 (而非替代摘要)。
+The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: 除特別註明外，本網站的原始內容皆以 [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE) 授權提供。 這表示你可以為任何目的，包含商業性質之使用，以任何媒介或格式重製及散布本素材；只要你適當地注明「Privacy Guides (www.privacyguides.org)」，並在相同的授權下分享你的作品。
 
-You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
+您可以任何合理的方式遵守這些條款，但不得以任何方式暗示 Privacy Guides 為你或你的使用方式背書
