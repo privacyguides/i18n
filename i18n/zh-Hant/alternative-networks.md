@@ -13,7 +13,7 @@ cover: alternative-networks.webp
 
 ## 匿名網路
 
-當談到匿名網路時，要特別注意的是 我們首選的[Tor](advanced/tor-overview.md) 。 它是迄今為止使用最多、研究最深入、開發最活躍的匿名網路。 Using other networks could be more likely to endanger your [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
+當談到匿名網路時，要特別注意的是 我們首選的[Tor](advanced/tor-overview.md) 。 它是迄今為止使用最多、研究最深入、開發最活躍的匿名網路。 使用其他網路可能會更容易危及您的 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } ，除非您知道自己在做什麼。
 
 ### Tor
 
@@ -21,13 +21,13 @@ cover: alternative-networks.webp
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-**Tor** 網絡是一組由志願者操作的伺服器，可免費連線，並改善隱私權和安全性。 個人和組織還可以通過 Tor 網絡與“.onion 隱藏服務”分享資訊，而不會損害他們的隱私。 Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
+**Tor** 網絡是一組由志願者操作的伺服器，可免費連線，並改善隱私權和安全性。 個人和組織還可以通過 Tor 網絡與“.onion 隱藏服務”分享資訊，而不會損害他們的隱私。 由於 Tor 流量難以封鎖和追蹤，因此 Tor 是一種有效的 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 規避工具。
 
-[:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentation}
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
+[:octicons-home-16:](https://torproject.org){ .card-link title=首頁 }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="洋蔥服務" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=說明文件}
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/core/tor){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=捐款 }
 
 </div>
 
@@ -79,10 +79,10 @@ Snowflake 無法加強隱私，也不會在個人瀏覽器中連接 Tor 網絡�
 
 **I2P**是一個網路層，對連接進行加密，並透過分佈在世界各地的電腦網路路由它們。 它主要致力創建一個替代性的隱私保護網絡，而不是使常規的互聯網連接匿名。
 
-[:octicons-home-16: Homepage](https://geti2p.net/en){ .md-button .md-button--primary }
-[:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/i2p/i2p.i2p){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://geti2p.net/en){ .md-button .md-button--primary }
+[:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=說明文件 }
+[:octicons-code-16:](https://github.com/i2p/i2p.i2p){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>

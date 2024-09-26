@@ -5,12 +5,12 @@ description: 行事曆包含一些您最敏感的資料，使用實現靜態加�
 cover: calendar.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
+**行事曆** 包含一些您最敏感的資料；請使用採納 E2EE 的產品，以防止供應商在您未存取時讀取這些資料。
 
 ## Tuta
 
@@ -23,14 +23,14 @@ cover: calendar.webp
 
 多個行事曆和擴展共享功能僅限於付費訂閱者。
 
-[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://tuta.com/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -38,7 +38,7 @@ cover: calendar.webp
 - [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
 - [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-- [:octicons-browser-16: Web](https://app.tuta.com)
+- [:octicons-browser-16: 網頁版](https://app.tuta.com)
 
 </details>
 
@@ -52,10 +52,10 @@ cover: calendar.webp
 
 **Proton Calendar** 是 Proton 會員可透過網路或行動客戶端使用的加密行事曆服務。 功能包括：所有資料自動 E2EE 、共享、匯入/匯出等等[眾多功能](https://proton.me/support/proton-calendar-guide). 免費會員可以使用 3 個行事曆，付費訂閱者最多可創建 25 個行事曆。 擴展共享功能也僅限於付費訂閱者。
 
-[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -68,7 +68,7 @@ cover: calendar.webp
 
 </div>
 
-Unfortunately, as of August 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). 不過，Proton Calendar 網頁用戶端是開源的，並且已[審核](https://proton.me/community/open-source)。
+但截至 2024 年 8 月，Proton [仍然未](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) 發布 Android 或 iOS 上的行動日曆應用程式的源代碼，且僅 [審核 Android 版應用程式](https://proton.me/blog/security-audit-all-proton-apps) 。 不過，Proton Calendar 網頁用戶端是開源的，並且已[審核](https://proton.me/community/open-source)。
 
 ## 標準
 
