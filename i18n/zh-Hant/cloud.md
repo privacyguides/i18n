@@ -30,13 +30,13 @@ Nextcloud [仍是](document-collaboration.md#nextcloud) 自我託管檔案管理
 
 **Proton Drive** 是一個加密雲端儲存提供商，由經營廣受歡迎的加密電子郵件 [Proton Mail](email.md#proton-mail) 的提供商推出。 初始免費儲存空間限制為 2GB，但完成特定步驟後，可獲得高達 5GB 的額外儲存空間。
 
-[:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/drive){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://proton.me/drive){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://proton.me/support/drive){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
@@ -59,12 +59,12 @@ Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
 
 **Tresorit** 為 2011年創辦於瑞士- 匃牙利的加密雲端儲存供應商。 Tresorit 由瑞士郵政擁有，瑞士郵政是瑞士的國家郵政服務。
 
-[:octicons-home-16: Homepage](https://tresorit.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.tresorit.com){ .card-link title="Documentation" }
+[:octicons-home-16: 首頁](https://tresorit.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.tresorit.com){ .card-link title="說明文件" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.tresorit.mobile)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id722163232)
@@ -86,7 +86,7 @@ Tresorit 已獲得多項獨立安全稽核：
     - 該檢測分析了 Tresorit 完整源代碼，並驗證了落實 Tresorit [白皮書](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf)中描述的概念。
     - Ernst & Young 還測試了網絡、行動和桌面客戶端： “測試結果發現沒有偏離 Tresorit 的資料機密性聲明。
 
-They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
+他們還獲得了數位信任標籤（Digital Trust Label），這是 [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) 發出的認證，要求通過[35 項](https://swiss-digital-initiative.org/criteria)與安全性、隱私性和可靠性相關的標準。
 
 ## Peergos
 
