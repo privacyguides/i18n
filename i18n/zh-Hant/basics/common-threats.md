@@ -163,7 +163,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 政府常認為大規模監控計劃是打擊恐怖主義和預防犯罪的必要手段。 然而，作為違反人權的行為，它們最常被用來過度針對少數族群和政治異見人士等。
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU： <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">9/11 的隱私教訓：大規模監控並非未來方向</a></em></p>
+<p class="admonition-title">ACLU： <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
 對於愛德華·斯諾登（Edward Snowden）披露的 [PRISM](https://zh.wikipedia.org/wiki/PRISM)和 [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)等政府計劃，情報官員承認，國家安全局多年來一直祕密地收集每個美國人電話記錄—誰、何時及通話時間多久。 當 NSA 日復一日地收集這類資訊時，就可以揭示人們生活相關聯的敏感細節，例如他們是否打電話給牧師、墮胎提供者、成癮顧問或自殺熱線。
 
