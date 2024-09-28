@@ -26,18 +26,36 @@ cover: data-broker-removals.webp
 
 要將自己從人肉搜尋網站移除，最快速、最有效、最隱私的方法是手動向每個網站提交退出請求。 這_看似_是一項艱鉅的任務，因為人肉搜尋網站多達數百個，但事實上這些網站絕大多數都是由一小撮公司所營運。
 
-您應該先在這 8 個網站上搜尋您的資訊，如果找到您的資訊，請提交退出請求。 從這些仲介移除您的資料，通常會同時從許多小型網站移除您的資料。
+You should search for your information on these sites first, and submit an opt-out request if your information is found. 從這些仲介移除您的資料，通常會同時從許多小型網站移除您的資料。
 
-- 安客城
-- BeenVerified
-- InfoTracer
-- Intelius
-- Radaris
-- Spokeo
-- TruePeopleSearch
-- Whitepages
+- Advanced Background Checks ([Search](https://www.advancedbackgroundchecks.com/), [Opt-Out](https://www.advancedbackgroundchecks.com/removal))
+- BeenVerified ([Search](https://www.beenverified.com/app/optout/search), [Opt-Out](https://www.beenverified.com/app/optout/address-search))
+- CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select _Remove Record_ to opt-out)
+- ClustrMaps ([Search](https://clustrmaps.com/), [Opt-Out](https://clustrmaps.com/bl/opt-out))
+- Dataveria ([Search](https://dataveria.com/), [Opt-Out](https://dataveria.com/ng/control/privacy))
+- Glad I Know ([Search](https://gladiknow.com/), [Opt-Out](https://gladiknow.com/opt-out))
+- InfoTracer ([Search](https://www.infotracer.com/), [Opt-Out](https://www.infotracer.com/optout))
+- Intelius ([Search](https://www.intelius.com/), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
+- PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
+- Radaris ([Search](https://radaris.com/), [Opt-Out](https://radaris.com/page/how-to-remove))
+- Spokeo ([Search](https://www.spokeo.com/search), [Opt-Out](https://www.spokeo.com/optout))
+- That's Them ([Search](https://thatsthem.com/), [Opt-Out](https://thatsthem.com/optout))
+- USPhonebook ([Search and Opt-Out](https://www.usphonebook.com/opt-out/))
+- Whitepages ([Search](https://www.whitepages.com/), [Opt-Out](https://www.whitepages.com/suppression_requests))
 
-一旦您完成這項工作，最好等待一、兩週讓請求傳播到他們所有的網站。 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
+<div class="admonition tip" markdown>
+<p class="admonition-title">A tip on opt-out strategy</p>
+
+Be sure to avoid burning out or becoming overwhelmed with this process. Unless you're in immediate danger, you can take breaks and avoid doing them all at once.[^1]
+
+One strategy could be to look at a single website from the list above every week, starting from the top. Next week you move on to the following website on the list, and so on. When you reach the end of the list, you can start again from the beginning.
+
+This sets you up on a nice schedule to re-review each website approximately every 3-4 months, and breaks down the process into simple 5 minute tasks you can easily add to your weekly routine.
+
+</div>
+
+Once you have opted-out of all of these sites for the first time, it's best to wait a week or two for the requests to propagate to all their sites. 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
 否則，隱私權記者 Yael Grauer 已經編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 您可以花一些時間瀏覽每個網站，確定它們是否有您的資訊，然後將其移除：
 
@@ -62,9 +80,27 @@ EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOpt
 
 我們的測試顯示，在我們測試過的所有資料移除服務中，EasyOptOuts 提供了最有價值的服務，價格非常實惠，而且效能很高。 我們會在不久的將來在部落格上發表 EasyOptOuts 的詳細評測，並在發表時更新本頁面。 [《消費者報告》的獨立調查結果](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) 也顯示 EasyOptOuts 是效能最佳的資料移除服務之一。
 
+<div class="admonition failure" markdown>
+<p class="admonition-title">High priority sites not supported by EasyOptOuts</p>
+
+EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
+
+- Intelius ([Search](https://www.intelius.com/), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
+- PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
+
+</div>
+
 ## Google _與你相關的結果_ <small>免費</small>
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Google is a data collector themselves</p>
+
 此方法需要您將您的個人資訊提交給 Google，讓他們定期監控您的搜尋結果。 Google 聲稱不會將提供給此工具的資訊用於其他 Google 產品，以「個人化您的體驗」。
+
+While Google is not a data broker themselves _per se_, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
+
+</div>
 
 <div class="admonition recommendation" markdown>
 
@@ -84,3 +120,15 @@ EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOpt
 找到結果後，即可在此網頁工具中檢視。 您也可以選擇接收傳送到帳戶 Gmail 位址的電子郵件通知，讓您知道何時找到新的結果。 之後您就可以在每個被發現的列名上按一下 **要求移除**，Google 就會審核您的要求。
 
 在我們的測試中，此工具能可靠地從 Google 搜尋結果中移除人物搜尋網站，但對於顯示_公司_申報資訊的網站，即使您使用個人地址註冊公司也無效，對於社交媒體檔案也無效。
+
+## 標準
+
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing a data removal service, and conduct your own research to ensure it's the right choice for you.
+
+Our picks for removal services are primarily based on independent professional testing from third-parties as noted in the sections above, our own internal testing, and aggregated reviews from our community.
+
+- Must not be a whitelabeled service or reseller of another provider.
+- Must not be affiliated with the data broker industry or purchase advertising on people search sites.
+- Must only use your personal data for the purposes of opting you out of data broker databases and people search sites.
+
+[^1]: If you _are_ immediately threatened by stalkers or other threats, you should strongly consider an automated tool like [EasyOptOuts](#easyoptouts-paid), at least for the initial "purge." When things are more manageable in the future you can come back to the manual process. Of course, in a dangerous situation your first priority should always be to seek professional help from police or others before tackling it on your own.
