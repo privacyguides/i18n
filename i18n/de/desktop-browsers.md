@@ -269,7 +269,7 @@ Brave fügt dem Dateinamen bei Downloads von der Brave-Website einen "[Herkunfts
 
 Diese Optionen sind unter :material-menu: → **Einstellungen** zu finden.
 
-#### Schutz
+#### Shields
 
 Brave enthält einige Anti-Fingerabdruck-Maßnahmen in der [Schutz](https://support.brave.com/hc/articles/360022973471-What-is-Shields)-Funktion. Wir empfehlen, diese Optionen [global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) für alle Seiten zu konfigurieren.
 

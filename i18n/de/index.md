@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Unabhängige Datenschutz- & Sicherheitsressourcen"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+description: "Privacy Guides wurde 2021 gegründet und ist die beliebteste & vertrauenswürdige gemeinnützige Ressource, um Privatsphäre-Tools zu finden und mehr über den Schutz deines digitalen Lebens zu erfahren."
 template: home.html
 social:
   cards_layout: home
@@ -26,7 +26,7 @@ schema:
     "@context": https://schema.org
     "@type": WebSite
     name: Privacy Guides
-    url: "https://www.privacyguides.org/"
+    url: "https://www.privacyguides.org/de/"
     sameAs:
       - https://www.wikidata.org/wiki/Q111710163
     potentialAction:
