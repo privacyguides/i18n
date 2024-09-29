@@ -132,7 +132,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
@@ -163,13 +163,13 @@ schema:
 
 **Bitwarden** 是一個免費的開源密碼與密鑰管理器。 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可存儲所有登錄名和密碼，同時方便地在所有設備之間保持同步。
 
-[:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://bitwarden.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
@@ -186,17 +186,17 @@ schema:
 
 </div>
 
-Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault.
+Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其金鑰衍生函式（KDF）演算法。 它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。 您可以在 web vault 中變更帳戶的 KDF 演算法。
 
-- [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
+- [x] 選擇**設定 > 安全 > 金鑰 > KDF 演算法 > Argon2id**
 
-Bitwarden 伺服器端代碼是 [開源](https://github.com/bitwarden/server)，因此如果不想使用 Bitwarden 雲端，可以輕鬆地託管自己的 Bitwarden 同步伺服器。
+Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)，因此如果不想使用 Bitwarden 雲端，可以輕鬆地託管自己的 Bitwarden 同步伺服器。
 
 **Vaultwarden** 是 Bitwarden 同步伺服器的另一種實作，以 Rust 寫成，並與官方的 Bitwarden 用戶端相容。非常適合用來自架服務，因為使用資源吃重的官方服務可能不是很理想。 如果您想在自己的伺服器上自行託管 Bitwarden，幾乎可以肯定的是，您想使用 Vaultwarden 而不是 Bitwarden 的官方伺服器程式碼。
 
 [:octicons-repo-16: Vaultwarden 儲存庫](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="說明文件"}
 [:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="貢獻" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="捐款" }
 
 ### Proton Pass
 
@@ -248,9 +248,9 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 **1Password** 是一個密碼管理器，非常注重安全性和易用性，允許您將密碼、密鑰、信用卡、軟體許可證和任何其他敏感資訊存儲在安全的數位保管庫。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
-[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://1password.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.1password.com){ .card-link title=說明文件}
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -348,7 +348,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 **KeePassXC** 是 KeePassX 的社群分支，是 KeePass Password Safe 的原生跨平台移植，目標是以新功能和錯誤修正來擴充和改進它，以提供一個功能豐富、跨平台和現代化的開源密碼管理器。
 
 [:octicons-home-16: 首頁](https://keepassxc.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="隱私政策" }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=說明文件}
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="原始碼" }
 [:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=貢獻 }
@@ -435,7 +435,7 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=貢獻 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://gopass.pw/#install-windows)
 - [:simple-apple: macOS](https://gopass.pw/#install-macos)
