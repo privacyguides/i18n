@@ -133,7 +133,7 @@ Tor 網路並非在任何情況下都是完美的隱私保護工具，其存在�
 
 ## Onion 服務的路徑建立
 
-“Onion 服務” （也通常被稱為“隱藏服務” ）是只能由 Tor 瀏覽器訪問的網站。 這些網站有一個長串隨機生成的域名，結尾為 `.onion`。
+“Onion 服務” （通常也被稱為“洋蔥服務” ）是只能由 Tor 瀏覽器訪問的網站。 這些網站有一個長串隨機生成的域名，結尾為 `.onion`。
 
 在Tor中連接到 Onion服務的工作原理與連接到明網服務非常相似，但您的流量在到達目的地伺服器之前會通過 **6 個** 節點。 不過就如之前所言，其中只有三個節點會有助 *您的*匿名性，而另外三個節點則是為了保護 * Onion 服務* 匿名性，隱藏該網站的真正  IP 和位置，就如同 Tor 瀏覽器如何隱蔽您的 IP 一樣。
 
@@ -195,7 +195,7 @@ ISP 肯定不會截取所有資料包級資料與將其永久存儲，他們*無
 
 如果認為橋接器比 VPN 的加密隧道更能幫助防禦指紋識別或其他進階網路分析，那麼可以一直選擇將橋接器與 VPN 結合使用。 這樣，即使對手取得對 VPN 隧道某程度的可見性，您仍然受到可插拔傳輸混淆技術的保護。 如果決定走這條路，建議您連接到 VPN 後面的 obfs4 橋，以獲得最佳的指紋識別保護，而不是 meek 或 Snowflake。
 
-[可能](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16)目前正在試驗中的[WebTunnel](https:// forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) 可插拔傳輸可以減輕其中一些擔憂。 我們將繼續關注這項技術的發展。
+[可能](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16)目前正在試驗中的 [WebTunnel](https://forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) 可插拔傳輸可以減輕其中一些擔憂。 我們將繼續關注這項技術的發展。
 
 ## 其他資源
 
