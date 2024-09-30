@@ -45,11 +45,11 @@ Die hier aufgeführten Optionen sind plattformübergreifend und eignen sich herv
 
 </div>
 
-Cryptomator uses AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
+Cryptomator verwendet AES-256-Verschlüsselung, um sowohl Dateien als auch Dateinamen zu verschlüsseln. Cryptomator kann weder Metadaten wie Zugriffs-, Änderungs- und Erstellungszeitstempel, noch die Anzahl und Größe von Dateien und Ordnern verschlüsseln.
 
-Some Cryptomator cryptographic libraries have been [audited](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) by Cure53. The scope of the audited libraries includes: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
+Einige kryptografische Bibliotheken von Cryptomator sind von Cure53 [geprüft](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) worden. Die geprüften Bibliotheken umfasst: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) und [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). Das Audit wurde erstreckte sich nicht auf [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), eine Bibliothek, die von Cryptomator für iOS verwendet wird.
 
-Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.
+In der Dokumentation von Cryptomator werden die angestrebten [Sicherheitsziele](https://docs.cryptomator.org/en/latest/security/security-target), die [Sicherheitsarchitektur](https://docs.cryptomator.org/en/latest/security/architecture) und die [Best Practices](https://docs.cryptomator.org/en/latest/security/best-practices) für den Einsatz im Detail beschrieben.
 
 ### Picocrypt (Dateien)
 
@@ -89,7 +89,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 ![VeraCrypt Logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
 ![VeraCrypt Logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-**VeraCrypt** ist ein quelloffenes, Freeware-Programm, das zur On-The-Fly Verschlüsselung verwendet wird. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
+**VeraCrypt** ist ein quelloffenes, Freeware-Programm, das zur On-The-Fly Verschlüsselung verwendet wird. Es kann eine virtuelle verschlüsselte Festplatte innerhalb einer Datei erstellen, eine Partition verschlüsseln oder das gesamte Laufwerk mit einer Pre-Boot Authentifizierung verschlüsseln.
 
 [:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="Dokumentation" }
@@ -107,11 +107,11 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 </div>
 
-VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
+VeraCrypt ist eine Fork des eingestellten TrueCrypt-Projekts. Nach Angaben der Entwickler wurden Sicherheitsverbesserungen vorgenommen und Probleme, die bei der ersten Überprüfung des TrueCrypt-Codes aufgetreten waren, behoben.
 
-When encrypting with VeraCrypt, you have the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest you **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
+Beim Verschlüsseln mit VeraCrypt hast du die Möglichkeit, zwischen verschiedenen [Hash-Funktionen](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme) zu wählen. Wir empfehlen dir **nur** [SHA-512](https://en.wikipedia.org/wiki/SHA-512) auszuwählen und beim [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)-Blockchiffre zu bleiben.
 
-Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+Truecrypt wurde bereits [mehrfach geprüft](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), und auch VeraCrypt wurde einem [separaten Audit](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit) unterzogen.
 
 ## Betriebssystem-Festplatten-Verschlüsselung
 
@@ -119,15 +119,15 @@ Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
+Für die Verschlüsselung der Festplatte, von der dein Betriebssystem startet, empfehlen wir im Allgemeinen, die Verschlüsselungssoftware zu aktivieren, die mit deinem Betriebssystem geliefert wird, anstatt ein Drittanbieter-Tool zu verwenden. Dies liegt daran, dass die nativen Verschlüsselungs-Tools deines Betriebssystems oft betriebsystem- und hardwarespezifische Funktionen wie den [sicheren Kryptoprozessor](https://de.wikipedia.org/wiki/Kryptoprozessor) in deinem Gerät nutzen, um deinen Computer vor aus­ge­feilten physischen Angriffen zu schützen. Für sekundäre Laufwerke und externe Laufwerke, von denen du *nicht* bootest, empfehlen wir immer noch, Open-Source-Tools wie [VeraCrypt](#veracrypt-disk) anstatt der unten aufgeführten Tools zu verwenden, da sie zusätzliche Flexibilität bieten und es dir ermöglichen, eine Abhängigkeit von einem bestimmten Anbieter zu vermeiden.
 
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker-Logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** is the full volume encryption solution bundled with Microsoft Windows. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
+**BitLocker** ist die Lösung zur vollständigen Verschlüsselung von Datenträgern, die mit Microsoft Windows gebündelt ist. Der Hauptgrund, warum wir es für die Verschlüsselung deines Startlaufwerks empfehlen, ist die [Verwendung vom TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, ein Forensikunternehmen, hat über diese Funktion in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection) geschrieben.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="Dokumentation" }
 
@@ -135,7 +135,7 @@ For encrypting the drive your operating system boots from, we generally recommen
 
 </div>
 
-BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. It can be enabled on Home editions provided that they meet the prerequisites.
+BitLocker wird [nur](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) auf den Pro-, Enterprise- und Education-Editionen von Windows unterstützt. Es kann auf Home-Editionen aktiviert werden, vorausgesetzt, dass sie die Voraussetzungen erfüllen.
 
 <details class="example" markdown>
 <summary>Aktivieren von BitLocker unter Windows Home</summary>
@@ -258,10 +258,10 @@ Werkzeuge mit Befehlszeilenschnittstellen sind nützlich für die Integration vo
 **Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
 
 [:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kryptor.co.uk/tutorial){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kryptor.co.uk/#donate){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://kryptor.co.uk/tutorial){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/samuel-lucas6/Kryptor){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://kryptor.co.uk/#donate){ .card-link title="Unterstützen" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -301,7 +301,7 @@ Werkzeuge mit Befehlszeilenschnittstellen sind nützlich für die Integration vo
 
 OpenPGP wird manchmal für spezielle Aufgaben benötigt, z. B. zum digitalen Signieren und Verschlüsseln von E-Mails. PGP hat viele Funktionen und ist [komplex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html), da es schon lange existiert. Wenn du Dateien signieren oder verschlüsseln willst, empfehlen wir die oben genannten Optionen.
 
-When encrypting with PGP, you have the option to configure different options in your `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
+Beim Verschlüsseln mit PGP hast du die Möglichkeit, verschiedene Optionen in deiner `gpg.conf`-Datei zu konfigurieren. Wir empfehlen, die in der [GnuPG-Benutzer-FAQ](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf) angegebenen Standardoptionen beizubehalten.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Verwende Future-Defaults, wenn du Schlüssel generierst</p>
@@ -377,7 +377,7 @@ Wir empfehlen [Canary Mail](email-clients.md#canary-mail-ios) für die Verwendun
 
 **GPG Suite** bietet OpenPGP-Unterstützung für [Apple Mail](email-clients.md#apple-mail-macos) und macOS.
 
-We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge Base](https://gpgtools.tenderapp.com/kb) for support.
+Wir empfehlen, einen Blick auf die [Ersten Schritte](https://gpgtools.tenderapp.com/kb/how-to/erste-schritte-gpgtools-einrichten-einen-schlssel-erstellen-deine-erste-verschlsselte-mail) und die [Wissensdatenbank](https://gpgtools.tenderapp.com/kb) zu werfen, um Unterstützung zu erhalten.
 
 [:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Datenschutzrichtlinie" }
