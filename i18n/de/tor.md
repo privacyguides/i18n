@@ -128,13 +128,13 @@ Alle Versionen sind mit der gleichen Signatur versehen, sodass sie miteinander k
 
 ![Onion Browser Logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-Der **Onion Browser** ist ein Open-Source-Browser, mit dem du auf iOS-Geräten anonym über das Tor-Netzwerk im Internet surfen kannst. Er wird vom [Tor-Projekt](https://support.torproject.org/glossary/onion-browser) unterstützt. [:material-star-box: Read our latest Onion Browser review.](/articles/2024/09/18/onion-browser-review/)
+Der **Onion Browser** ist ein Open-Source-Browser, mit dem du auf iOS-Geräten anonym über das Tor-Netzwerk im Internet surfen kannst. Er wird vom [Tor-Projekt](https://support.torproject.org/glossary/onion-browser) unterstützt. [:material-star-box: Lese unsere neuste Onion Browser Review.](/articles/2024/09/18/onion-browser-review/)
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Unterstützen }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -145,6 +145,6 @@ Der **Onion Browser** ist ein Open-Source-Browser, mit dem du auf iOS-Geräten a
 
 </div>
 
-Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
+Onion Browser bietet nicht das gleiche Maß an Datenschutz wie Tor Browser auf Desktop-Plattformen. Für den gelegentlichen Gebrauch ist es eine gute Möglichkeit, auf Hidden-Services zuzugreifen, aber wenn du dir Sorgen machst, von fortgeschrittenen Gegnern verfolgt oder überwacht zu werden, solltest du dich nicht auf dieses Anonymitätstool verlassen.
 
 [^1]: Die `IsolateDestAddr`-Einstellung wird auf der [Tor Mailingliste](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) und [Whonix's Stream Isolation Dokumentation](https://whonix.org/wiki/Stream_Isolation)diskutiert, wo beide Projekte darauf hinweisen, dass es für die meisten Leute kein guter Ansatz ist.

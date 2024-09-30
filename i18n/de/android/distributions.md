@@ -1,5 +1,5 @@
 ---
-meta_title: The Best Custom Android OSes (aka Custom ROMs) - Privacy Guides
+meta_title: Die besten Custom-Android-Betriebssysteme (aka Custom ROMs) - Privacy Guides
 title: Alternative Distributionen
 description: Du kannst das Betriebssystem deines Android-Handys mit diesen sicheren und Privatsphäre-freundlichen Alternativen ersetzen.
 schema:
@@ -35,9 +35,9 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Angriffe](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A **custom Android-based operating system** (often known as a **custom ROM**) is a popular way to achieve higher levels of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services.
+Ein **Custom Android-Betriebssystem** (oft auch als **Custom ROM** bezeichnet) ist eine beliebte Methode, um ein höheres Maß an Privatsphäre und Sicherheit auf einem Gerät zu erreichen. Dies steht im Gegensatz zu der „Stock“-Version von Android, die mit deinem Handy aus der Fabrik kommt, und ist häufig tiefgreifend mit Google Play Services integriert.
 
-We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
+Wir empfehlen die Installation eines dieser Custom-Android-Betriebssysteme auf deinem Gerät, die in der Reihenfolge der Kompatibilität deines Geräts mit diesen Betriebssystemen aufgeführt sind.
 
 ## AOSP-Derivate
 
@@ -60,9 +60,9 @@ GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wik
 
 </div>
 
-GrapheneOS supports [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs Google Play Services fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as push notifications, while giving you full control over their permissions and access, and while containing them to a specific [work profile](../os/android-overview.md#work-profile) or [user profile](../os/android-overview.md#user-profiles) of your choice.
+GrapheneOS unterstützt [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), das die Google Play Services vollständig sandboxed, wie jede andere reguläre App. Das bedeutet, dass du die meisten Google Play-Dienste, wie z. B. Push-Benachrichtigungen, nutzen kannst, während du die volle Kontrolle über deren Berechtigungen und Zugriff hast und sie auf ein bestimmtes [Arbeitsprofil](../os/android-overview.md#work-profile) oder [Benutzerprofil](../os/android-overview.md#user-profiles) deiner Wahl beschränken kannst.
 
-[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
+[Google Pixel-Handys](../mobile-phones.md#google-pixel) sind die einzigen Geräte, die derzeit die [Hardware-Sicherheitsanforderungen](https://grapheneos.org/faq#future-devices) von GrapheneOS erfüllen.
 
 By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
 
@@ -77,7 +77,7 @@ Wenn GrapheneOS nicht mit deinem Handy kompatibel ist, ist DivestOS eine gute Al
 ![DivestOS-Logo](../assets/img/android/divestos.svg){ align=right }
 
 **DivestOS** ist ein Soft-Fork von [LineageOS](https://lineageos.org).
-DivestOS erbt viele [unterstützte Geräte](https://divestos.org/index.php?page=devices\&base=LineageOS) von LineageOS. It has signed builds, making it possible to have [verified boot](../os/android-overview.md#verified-boot) on some non-Pixel devices. Not all supported devices support verified boot or other security features.
+DivestOS erbt viele [unterstützte Geräte](https://divestos.org/index.php?page=devices\&base=LineageOS) von LineageOS. Es hat signierte Builds, die es möglich machen, [verified boot](../os/android-overview.md#verified-boot) auf einigen Nicht-Pixel-Geräten zu verwenden. Nicht alle unterstützten Geräte unterstützen Verfied-Boot oder andere Sicherheitsfunktionen.
 
 [:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }

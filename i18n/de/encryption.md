@@ -253,9 +253,9 @@ Werkzeuge mit Befehlszeilenschnittstellen sind nützlich für die Integration vo
 
 <div class="admonition recommendation" markdown>
 
-![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
+![Kryptor Logo](assets/img/encryption-software/kryptor.png){ align=right }
 
-**Kryptor** is a free and open-source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign) to provide a simple, easier alternative to GPG.
+**Kryptor** ist ein kostenloses und quelloffenes Tool zur Dateiverschlüsselung und -signierung, das moderne und sichere kryptografische Algorithmen verwendet. Es soll eine bessere Version von [age](https://github.com/FiloSottile/age) und [Minisign](https://jedisct1.github.io/minisign) sein und eine einfache, leichtere Alternative zu GPG darstellen.
 
 [:octicons-home-16: Homepage](https://kryptor.co.uk){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kryptor.co.uk/features#privacy){ .card-link title="Datenschutzrichtlinie" }
@@ -320,12 +320,12 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
 
-**GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
+**GnuPG** ist eine GPL-lizensierte Alternative zur PGP-Suite von Verschlüsselungssoftware. GnuPG ist [RFC 4880](https://tools.ietf.org/html/rfc4880) komfort, was die aktuelle IETF Spezifikation von OpenPGP ist. Das GnuPG-Projekt hat an einem [aktualisierten Entwurf](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) gearbeitet, um OpenPGP zu modernisieren. GnuPG ist Teil des GNU-Softwareprojekts der Free Software Foundation und wurde von der deutschen Regierung maßgeblich [gefördert](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html).
 
 [:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -343,20 +343,20 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
+![GPG4win Logo](assets/img/encryption-software/gpg4win.svg){ align=right }
 
-**GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that can assist you in using GPG on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
+**GPG4win** ist ein Paket für Windows von [Intevation und g10 Code](https://gpg4win.org/impressum-de.html). Es beinhaltet [verschiedene Tools](https://gpg4win.org/about-de.html), die dir bei der Verwendung von GPG unter Microsoft Windows helfen können. Das Projekt wurde 2005 [initiiert und ursprünglich finanziert](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) vom deutschen Bundesamt für Sicherheit in der Informationstechnik (BSI).
 
 [:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title="Unterstützen" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
+- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download-de.html)
 
 </details>
 
@@ -399,9 +399,9 @@ Derzeit gibt es [noch keine](https://gpgtools.com/sonoma) stabile Version von GP
 
 <div class="admonition recommendation" markdown>
 
-![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain-Logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** is an Android implementation of GnuPG. It's commonly required by mail clients such as [K-9 Mail](email-clients.md#k-9-mail-android) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technical details about the audit and OpenKeychain's solutions can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** ist eine Implementierung von GnuPG für Android. Es wird häufig von Mail-Clients wie [K-9 Mail](email-clients.md#k-9-mail-android) und [FairEmail](email-clients.md#fairemail-android) und anderen Android-Apps benötigt, um Verschlüsselung zu unterstützen. Cure53 hat im Oktober 2015 ein [Sicherheitsaudit](https://openkeychain.org/openkeychain-3-6) von OpenKeychain 3.6 durchgeführt. Technische Einzelheiten über die Prüfung und die Lösungen von OpenKeychain findest du [hier](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Datenschutzrichtlinie" }

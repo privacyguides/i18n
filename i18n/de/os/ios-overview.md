@@ -1,30 +1,30 @@
 ---
-title: iOS Overview
+title: iOS Übersicht
 icon: simple/apple
-description: iOS is a mobile operating system developed by Apple for the iPhone.
+description: iOS ist ein mobiles Betriebssystem, das von Apple für das iPhone entwickelt wurde.
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+**iOS** und **iPadOS** sind proprietäre mobile Betriebssysteme, die von Apple für ihre iPhone- bzw. iPad-Produkte entwickelt wurden. Wenn du ein Apple Mobilgerät besitzt, kannst du deine Privatsphäre verbessern, indem du einige integrierte Telemetriefunktionen deaktivierst und in das System eingebaute Datenschutz- und Sicherheitseinstellung verschärfst.
 
-## Privacy Notes
+## Datenschutzhinweis
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+iOS-Geräte werden von Sicherheitsexperten häufig für ihren robusten Datenschutz und die Einhaltung moderner Best Practices gelobt. Die Restriktionen des Apple-Ökosystems - insbesondere bei den mobilen Geräten - behindern die Privatsphäre jedoch nach wie vor in vielerlei Hinsicht.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+Wir sind generell der Meinung, dass iOS für die meisten Menschen einen überdurchschnittlichen Schutz der Privatsphäre und Sicherheit bietet, verglichen mit Android-Geräten aller Hersteller. Mit einem [Custom Android-Betriebssystem](../android/distributions.md#aosp-derivatives) wie GrapheneOS kannst du jedoch noch höhere Datenschutzstandards erreichen, wenn du völlig unabhängig von den Cloud-Diensten von Apple oder Google sein willst oder musst.
 
 ### Activation Lock
 
 All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
 
-### Mandatory App Store
+### Obligatorischer App Store
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple ID to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+Die einzige Quelle für Apps unter iOS ist der App Store von Apple, für den eine Apple-ID erforderlich ist. Das bedeutet, dass Apple über jede App, die du auf deinem Gerät installieren, einen Datensatz hat und diese Informationen wahrscheinlich mit deiner tatsächlichen Identität verknüpfen kann, wenn du im App Store eine Zahlungsmethode angibst.
 
-### Invasive Telemetry
+### Invasive Telemetrie
 
-Apple has historically had problems with properly anonymizing their telemetry on iOS. [In 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. While they temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the problem wasn't completely resolved [until 2021](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
+Apple hatte in der Vergangenheit Probleme mit der ordnungsgemäßen Anonymisierung seiner Telemetriedaten unter iOS. [Im Jahr 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings) wurde festgestellt, dass Apple Siri-Aufnahmen - die teilweise äußerst vertrauliche Informationen enthielten - zur manuellen Überprüfung durch Drittanbieter an ihre Server übermittelt. Das Programm wurde zwar vorübergehend gestoppt, nachdem über diese Praxis [ausführlich berichtet wurde](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), doch das Problem wurde [erst 2021 vollständig gelöst](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance).
 
-More recently, Apple has been found to [transmit analytics even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being anonymous.
+Kürzlich wurde festgestellt, dass Apple [Analysedaten auch dann übermittelt, wenn die gemeinsame Nutzung von Analysedaten](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) unter iOS deaktiviert ist, und dass diese Daten [wohl trotz](https://twitter.com/mysk_co/status/1594515229915979776) ihrer angeblichen Anonymisierung leicht mit eindeutigen iCloud-Kontokennungen verknüpft werden können.
 
 ## Empfohlene Konfiguration
 
