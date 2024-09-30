@@ -67,9 +67,9 @@ Privacy-Coins werden von staatlichen Behörden zunehmend genauer überprüft. Im
 
 Die große Mehrheit der Kryptowährungsprojekte verwendet eine öffentliche Blockchain, was bedeutet, dass alle Transaktionen sowohl leicht nachvollziehbar als auch dauerhaft sind. Daher raten wir aus Gründen des Datenschutzes von der Verwendung der meisten Kryptowährungen dringend ab.
 
-Anonyme Transaktionen auf einer öffentlichen Blockchain sind *theoretisch* möglich, und das Bitcoin-Wiki [nennt ein Beispiel für eine „völlig anonyme“ Transaktion](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, doing so requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical for nearly any enthusiast for many years.
+Anonyme Transaktionen auf einer öffentlichen Blockchain sind *theoretisch* möglich, und das Bitcoin-Wiki [nennt ein Beispiel für eine „völlig anonyme“ Transaktion](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). Dies erfordert jedoch ein kompliziertes Verfahren, bei dem Tor und das „Solo-Mining“ eines Blocks erforderlich sind, um eine völlig unabhängige Kryptowährung zu erzeugen - eine Praxis, die seit vielen Jahren für fast alle Enthusiasten nicht mehr praktikabel ist.
 
-==Your best option is to avoid these cryptocurrencies entirely and stick with one which provides privacy by default.== Attempting to use other cryptocurrency is outside the scope of this site and strongly discouraged.
+==Am besten ist es, diese Kryptowährungen ganz zu meiden und sich an eine Währung zu halten, die standardmäßig Datenschutz bietet.== Der Versuch, andere Kryptowährungen zu verwenden, liegt außerhalb des Rahmens dieser Website und wird dringend abgeraten.
 
 ### Wallet-Verwahrung
 
@@ -85,4 +85,4 @@ If you go this route, make sure to purchase Monero at different times and in dif
 
 Wenn du persönlich mit Bargeld bezahlst, solltest du darauf achten, dass deine Privatsphäre gewahrt bleibt. Sicherheitskameras sind allgegenwärtig. Ziehe am besten das Tragen von unauffälliger Kleidung und einer Gesichtsmaske (z. B. einer chirurgischen Maske oder N95) in Betracht. Melde dich nicht für Prämienprogramme an und gebe keine anderen Informationen über dich selbst heraus.
 
-Beim Online-Kauf solltest du dies im Idealfall über [Tor](tor-overview.md) tun. Viele Händler erlauben jedoch keine Einkäufe über Tor. Du kannst die Verwendung eines [empfohlenen VPN](../vpn.md) in Betracht ziehen (bezahlt mit Bargeld, Geschenkgutschein oder Monero) oder den Kauf in einem Café oder einer Bibliothek mit kostenfreiem WLAN. Wenn du einen physischen Artikel bestellst, der geliefert werden muss, musst du eine Lieferadresse angeben. You should consider using a PO box, private mailbox, or work address.
+Beim Online-Kauf solltest du dies im Idealfall über [Tor](tor-overview.md) tun. Viele Händler erlauben jedoch keine Einkäufe über Tor. Du kannst die Verwendung eines [empfohlenen VPN](../vpn.md) in Betracht ziehen (bezahlt mit Bargeld, Geschenkgutschein oder Monero) oder den Kauf in einem Café oder einer Bibliothek mit kostenfreiem WLAN. Wenn du einen physischen Artikel bestellst, der geliefert werden muss, musst du eine Lieferadresse angeben. Du solltest in Erwägung ziehen, ein Postfach, eine private Mailbox oder eine Arbeitsadresse zu verwenden.
