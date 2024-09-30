@@ -2,7 +2,7 @@
 meta_title: "Die besten privaten Instant Messengers - Privacy Guides"
 title: "Echtzeitkommunikation"
 icon: material/chat-processing
-description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
+description: Verschlüsselte Messenger wie Signal und SimpleX schützen deine sensible Kommunikation vor neugierigen Blicken.
 cover: real-time-communication.webp
 ---
 
@@ -99,7 +99,7 @@ Molly wird alle zwei Wochen aktualisiert, um die neuesten Funktionen und Fehlerb
 
 Beachte, dass du durch die Verwendung von Molly mehreren Parteien vertraust, da du nun dem Signal-Team *und dem* Molly-Team vertrauen musst, dass sie sichere und rechtzeitige Aktualisierungen liefern.
 
-There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like battery-saving push notifications via Google Play Services.
+Es gibt eine Version von Molly namens **Molly-FOSS**, die proprietären Code wie die Google-Dienste, die sowohl von Signal als auch von Molly verwendet werden, entfernt, was allerdings auf Kosten einiger Funktionen wie akkusparende Push-Benachrichtigungen via Google Play Services geht.
 
 There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds support for push notifications with [UnifiedPush](https://unifiedpush.org/), an open source alternative to the push notifications provided by Google Play Services, but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://www.kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy/)).
 
@@ -217,7 +217,7 @@ Gruppen-Sprach- und Videoanrufe sind [nicht](https://github.com/vector-im/elemen
 
 Das Matrix-Protokoll selbst [unterstützt theoretisch Forward Secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1]. Dies wird jedoch [derzeit in Element nicht unterstützt](https://github.com/vector-im/element-web/issues/7101), da es einige Aspekte der Benutzerfreundlichkeit, wie z. B. das Schlüssel-Backup und den gemeinsamen Nachrichtenverlauf, beeinträchtigt.
 
-Das Protokoll wurde 2016 einem unabhängigen [Audit](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) unterzogen. Die Spezifikation des Matrix-Protokolls findest du in der entsprechenden [Dokumentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
+Das Protokoll wurde 2016 einem unabhängigen [Audit](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) unterzogen. Die Spezifikation des Matrix-Protokolls findest du in der entsprechenden [Dokumentation](https://spec.matrix.org/latest). Die von Matrix verwendete [kryptografische Olm Ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) ist eine Implementierung des [Double-Ratchet-Algorithmus](https://signal.org/docs/specifications/doubleratchet) von Signal.
 
 ### Session
 
@@ -248,7 +248,7 @@ Session verwendet das dezentralisierte [Oxen Service Node Network](https://oxen.
 
 </div>
 
-Session ermöglicht E2EE in Einzelchats oder geschlossenen Gruppen, die bis zu 100 Mitglieder umfassen können. Open groups have no restriction on the number of members, but are open by design.
+Session ermöglicht E2EE in Einzelchats oder geschlossenen Gruppen, die bis zu 100 Mitglieder umfassen können. Offene Gruppen haben keine Beschränkung für die Anzahl der Mitglieder, sondern sind von vornherein offen.
 
 Session basierte früher auf dem Signal-Protokoll, bevor es im Dezember 2020 durch sein eigenes ersetzt wurde. Das Session-Protokoll unterstützt [keine](https://getsession.org/blog/session-protocol-technical-information) Forward-Secrecy.[^1]
 
