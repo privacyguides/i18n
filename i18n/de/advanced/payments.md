@@ -1,7 +1,7 @@
 ---
 title: Private Zahlungsmethoden
 icon: material/hand-coin
-description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
+description: Deine Kaufgewohnheiten sind der heilige Gral des Ad-Targeting, aber du hast immer noch viele Optionen, wenn es darum geht, private Zahlungen zu tätigen.
 ---
 
 Es gibt einen Grund, warum Daten über dein Kaufverhalten als der heilige Gral des Ad-Targeting gelten: Deine Einkäufe können einen wahren Schatz an Daten über dich preisgeben. Leider ist das derzeitige Finanzsystem von vornherein datenschutzfeindlich gestaltet und ermöglicht es Banken, Unternehmen und Regierungen, Transaktionen relativ einfach nachzuvollziehen. Dennoch hast du viele Möglichkeiten, wenn es darum geht, Zahlungen privat zu leisten.
@@ -10,7 +10,7 @@ Es gibt einen Grund, warum Daten über dein Kaufverhalten als der heilige Gral d
 
 Seit Jahrhunderten ist **Bargeld** die wichtigste Form des privaten Zahlungsverkehrs. Bargeld hat in den meisten Fällen hervorragende Eigenschaften in Bezug auf den Schutz der Privatsphäre, wird in den meisten Ländern akzeptiert und ist **fungibel**, d. h. es ist nicht einmalig und vollständig austauschbar.
 
-Die Gesetze zur Barzahlung sind von Land zu Land unterschiedlich. In the United States, special disclosure is required for cash payments over $10,000 to the IRS on [Form 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). The receiving business is required to ID verify the payee’s name, address, occupation, date of birth, and Social Security Number or other TIN (with some exceptions). Lower limits without ID such as $3,000 or less exist for exchanges and money transmission. Cash also contains serial numbers. Diese werden von den Händlern fast nie nachverfolgt, können aber von den Strafverfolgungsbehörden für gezielte Ermittlungen genutzt werden.
+Die Gesetze zur Barzahlung sind von Land zu Land unterschiedlich. In den Vereinigten Staaten müssen Barzahlungen von mehr als 10.000 Dollar mittels des [Formulars 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000) an den IRS gemeldet werden. Das empfangende Unternehmen ist verpflichtet, den Namen, die Adresse, den Beruf, das Geburtsdatum und die Sozialversicherungsnummer oder eine andere Steueridentifikationsnummer (mit einigen Ausnahmen) des Zahlungsempfängers zu identifizieren. Niedrigere Limits ohne Ausweis wie 3.000 US-Dollar oder weniger existieren für Umtausch und Geldüberweisungen. Bargeld enthält auch Seriennummern. Diese werden von den Händlern fast nie nachverfolgt, können aber von den Strafverfolgungsbehörden für gezielte Ermittlungen genutzt werden.
 
 Trotzdem ist es in der Regel die beste Option.
 
@@ -18,13 +18,13 @@ Trotzdem ist es in der Regel die beste Option.
 
 Es ist relativ einfach, Geschenkkarten und Prepaid-Karten in den meisten Lebensmittelgeschäften und Verbrauchermärkten mit Bargeld zu kaufen. Geschenkkarten sind in der Regel gebührenfrei, bei Prepaid-Karten können Gebühren anfallen, daher solltest du auf mögliche Gebühren und das Ablaufdatum achten. Manche Geschäfte verlangen an der Kasse Ihren Ausweis, um Betrug zu vermeiden.
 
-Gift cards usually have limits of up to $200 per card, but some offer limits of up to $2,000 per card. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+ssGeschenkkarten haben in der Regel Grenzen von bis zu 200 Us-Dollar pro Karte, aber einige bieten Grenzen von bis zu 2.000 Us-Dollar pro Karte. Prepaid-Karten (z. B. von Visa oder Mastercard) haben in der Regel ein Limit von bis zu 1.000 US-Dollar pro Karte.
 
-Geschenkkarten haben den Nachteil, dass sie den Richtlinien des Händlers unterliegen, die mitunter sehr schlechte Bedingungen und Einschränkungen enthalten. For example, some merchants don’t accept payment in gift cards exclusively, or they may cancel the value of the card if they consider you to be a high-risk user. Once you have merchant credit, the merchant has a strong degree of control over this credit.
+Geschenkkarten haben den Nachteil, dass sie den Richtlinien des Händlers unterliegen, die mitunter sehr schlechte Bedingungen und Einschränkungen enthalten. Einige Händler akzeptieren beispielsweise keine Zahlungen ausschließlich mit Geschenkkarten oder können den Wert der Karte stornieren, wenn sie dich als hochriskanten Nutzer betrachten. Sobald du ein Guthaben hast, hat der Händler ein hohes Maß an Kontrolle über dieses Guthaben.
 
-Prepaid cards don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+Mit Prepaid-Karten sind keine Bargeldabhebungen an Geldautomaten oder "Peer-to-Peer"-Zahlungen in Venmo und ähnlichen Apps möglich.
 
-Cash remains the best option for in-person purchases for most people. Gift cards can be useful for the savings they bring. Prepaid cards can be useful for places that don’t accept cash. Gift cards and prepaid cards are easier to use online than cash, and they are easier to acquire with cryptocurrencies than cash.
+Bargeld ist für die meisten Menschen nach wie vor die beste Option für Einkäufe vor Ort. Geschenkkarten können nützlich sein, weil sie Einsparungen bringen. Prepaid-Karten können für Orte nützlich sein, die kein Bargeld akzeptieren. Geschenkkarten und Prepaid-Karten sind online leichter zu verwenden als Bargeld, und sie sind mit Kryptowährungen leichter zu erwerben als Bargeld.
 
 ### Online-Marktplätze
 
@@ -61,13 +61,13 @@ Es gibt eine Reihe von Kryptowährungsprojekten, die vorgeben, die Privatsphäre
 
 - [Empfohlene Kryptowährung :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
-Privacy coins have been subject to increasing scrutiny by government agencies. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can break Bitcoin Lightning Network and/or Monero's transaction privacy. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million for tools which purport to do so (it is unknown which cryptocurrency network these tools target). Aufgrund der Geheimhaltung, die solche Tools umgibt, wurde ==keine dieser Methoden zur Rückverfolgung von Kryptowährungen von unabhängiger Seite bestätigt.== Es ist jedoch sehr wahrscheinlich, dass es Tools gibt, die gezielte Ermittlungen zu privaten Transaktionen unterstützen, und dass Privacy Coins nur dabei helfen, Massenüberwachung zu vereiteln.
+Privacy-Coins werden von staatlichen Behörden zunehmend genauer überprüft. Im Jahr 2020 [hat das IRS ein Kopfgeld in Höhe von 625.000 Dollar](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) für Tools ausgesetzt, die das Bitcoin Lightning Network und/oder den Transaktionsschutz von Monero knacken können. Letztendlich [zahlten sie zwei Unternehmen](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis und Integra Fec) zusammen 1,25 Millionen Dollar für Tools, die dies angeblich tun (es ist unbekannt, auf welches Kryptowährungsnetzwerk diese Tools abzielen). Aufgrund der Geheimhaltung, die solche Tools umgibt, wurde ==keine dieser Methoden zur Rückverfolgung von Kryptowährungen von unabhängiger Seite bestätigt.== Es ist jedoch sehr wahrscheinlich, dass es Tools gibt, die gezielte Ermittlungen zu privaten Transaktionen unterstützen, und dass Privacy Coins nur dabei helfen, Massenüberwachung zu vereiteln.
 
 ### Andere Coins (Bitcoin, Ethereum, etc.)
 
-The vast majority of cryptocurrency projects use a public blockchain, meaning that all transactions are both easily traceable and permanent. As such, we strongly discourage the use of most cryptocurrency for privacy-related reasons.
+Die große Mehrheit der Kryptowährungsprojekte verwendet eine öffentliche Blockchain, was bedeutet, dass alle Transaktionen sowohl leicht nachvollziehbar als auch dauerhaft sind. Daher raten wir aus Gründen des Datenschutzes von der Verwendung der meisten Kryptowährungen dringend ab.
 
-Anonymous transactions on a public blockchain are *theoretically* possible, and the Bitcoin wiki [gives one example of a "completely anonymous" transaction](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, doing so requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical for nearly any enthusiast for many years.
+Anonyme Transaktionen auf einer öffentlichen Blockchain sind *theoretisch* möglich, und das Bitcoin-Wiki [nennt ein Beispiel für eine „völlig anonyme“ Transaktion](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, doing so requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical for nearly any enthusiast for many years.
 
 ==Your best option is to avoid these cryptocurrencies entirely and stick with one which provides privacy by default.== Attempting to use other cryptocurrency is outside the scope of this site and strongly discouraged.
 
