@@ -1,12 +1,12 @@
 ---
 meta_title: "私密加密貨幣區塊鏈 - Privacy Guides"
-description: Unlike most cryptocurrencies, these ones provide transaction privacy by default. Monero is our top choice for obfuscating transaction information.
+description: 與大多數加密貨幣不同，這些貨幣預設提供交易隱私。 Monero 是我們混淆交易資訊的首選。
 title: 加密貨幣
 icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
@@ -28,7 +28,7 @@ cover: cryptocurrency.webp
 
 ![Monero logo](assets/img/cryptocurrency/monero.svg){ align=right }
 
-**Monero** uses a blockchain with privacy-enhancing technologies that obfuscate transactions to achieve [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. 每筆 Monero 交易都隱藏了交易金額、發送和接收地址以及資金來源，使其成為加密貨幣新手的理想選擇。
+**Monero** 使用具有隱私增強技術的區塊鏈來混淆交易，以實現 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }。 每筆 Monero 交易都隱藏了交易金額、發送和接收地址以及資金來源，使其成為加密貨幣新手的理想選擇。
 
 [:octicons-home-16: Homepage](https://getmonero.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://getmonero.org/resources/user-guides){ .card-link title=Documentation}
@@ -45,13 +45,13 @@ cover: cryptocurrency.webp
 
 - [官方Monero客戶端](https://getmonero.org/downloads) （桌面）
 - [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS)
-    - Cake Wallet 支援多種加密貨幣。 A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com).
+    - Cake Wallet 支援多種加密貨幣。 適用於 iOS 和 Android 的 Monero專用版 Cake Wallet 可在 [Monero.com](https://monero.com) 網站下載。
 - [Feather Wallet](https://featherwallet.org) (桌面版)
 - [Monerujo](https://monerujo.io) (Android)
 
-為了獲得最大的隱私（即便使用非保管錢包），您應該運行自己的 Monero 節點。 使用別人的節點會暴露一些信息，例如您從中連接到它的IP位址，同步錢包的時間戳記以及您從錢包發送的交易（儘管沒有關於這些交易的其他細節）。 Alternatively, you can connect to someone else’s Monero node over Tor or [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
+為了獲得最大的隱私（即便使用非保管錢包），您應該運行自己的 Monero 節點。 使用別人的節點會暴露一些信息，例如您從中連接到它的IP位址，同步錢包的時間戳記以及您從錢包發送的交易（儘管沒有關於這些交易的其他細節）。 另外，您也可以透過 Tor 或 [I2P](alternative-networks.md#i2p-the-invisible-internet-project) 連接到其他人的 Monero 節點。
 
-In August 2021, CipherTrace [announced](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. 公開貼文顯示，美國財政部金融犯罪執法網絡 [在2022年底授權](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace 的 “Monero 模塊”。
+2021 年 8 月，CipherTrace [宣佈](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) 為政府機構提供更強的Monero 追蹤能力。 公開貼文顯示，美國財政部金融犯罪執法網路於 2022 年底 [授權](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace 的「Monero 模塊」。
 
 Monero 交易圖隱私受到其相對較小的環形簽名的限制，特別是抵抗針對性的攻擊。 Monero's 隱私功能也曾被某些資安研究人員 [質疑](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) ，過去已發現一些弱點與補丁，因此如 CipherTrace 的宣稱並非不可能。 雖然 Monero 大規模監控工具不太可能像比特幣和其他工具一樣存在，但可以肯定的是，追蹤工具有助於進行針對性的調查。
 
