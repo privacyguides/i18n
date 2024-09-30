@@ -38,7 +38,7 @@ Ein Angreifer könnte eine Website einrichten, die einen offiziellen Dienst imit
 
 Obwohl nicht perfekt, ist TOTP für die meisten Menschen sicher genug, und wenn [Hardware-Sicherheitsschlüssel](../security-keys.md) nicht unterstützt werden, sind [Authentifizierungs-Apps](../multi-factor-authentication.md) immer noch eine gute Option.
 
-### Hardware security keys
+### Hardware-Sicherheitsschlüssel
 
 Der YubiKey speichert die Daten auf einem manipulationssicheren Solid-State-Chip, der ohne ein teures Verfahren und ein forensisches Labor [nicht zerstörungsfrei zugänglich](https://security.stackexchange.com/a/245772) ist.
 
@@ -46,21 +46,21 @@ Diese Schlüssel sind in der Regel multifunktional und bieten eine Reihe von Aut
 
 #### Yubico OTP
 
-Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+Yubico OTP ist ein Authentifizierungsprotokoll, das normalerweise in Hardware-Sicherheitsschlüsseln implementiert ist. Wenn du dich für die Verwendung von Yubico OTP entscheidest, generiert der Schlüssel eine öffentliche ID, eine private ID und einen geheimen Schlüssel, der dann auf den Yubico OTP-Server hochgeladen wird.
 
-When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
+Wenn du dich bei einer Website anmeldest, musst du nur den Sicherheitsschlüssel berühren. Der Sicherheitsschlüssel emuliert eine Tastatur und druckt ein einmaliges Passwort in das Passwortfeld.
 
-The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
+Der Dienst leitet dann das Einmalpasswort zur Validierung an den Yubico OTP-Server weiter. Sowohl auf dem Schlüssel als auch auf dem Validierungsserver von Yubico wird ein Zähler hochgezählt. Das OTP kann nur einmal verwendet werden, und bei einer erfolgreichen Authentifizierung wird der Zähler erhöht, was eine erneute Verwendung des OTP verhindert. Yubico stellt eine [detaillierte Dokumentation](https://developers.yubico.com/OTP/OTPs_Explained.html) über den Prozess zur Verfügung.
 
 <figure markdown>
   ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
-There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
+Die Verwendung von Yubico OTP hat im Vergleich zu TOTP einige Vor- und Nachteile.
 
-The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third-parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
+Der Validierungsserver von Yubico ist ein cloudbasierter Dienst, und du vertraust darauf, dass Yubico deine Daten sicher speichert und kein Profil von dir erstellt. Die öffentliche ID, die mit dem Yubico OTP verbunden ist, wird auf jeder Website wiederverwendet und könnte eine weitere Möglichkeit für Dritte sein, ein Profil von dir zu erstellen. Wie TOTP bietet auch Yubico OTP keinen Schutz vor Phishing.
 
-If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
+Wenn dein Bedrohungsmodell unterschiedliche Identitäten auf verschiedenen Websites erfordert, solltest du Yubico OTP **nicht** mit demselben Hardware-Sicherheitsschlüssel auf diesen Websites verwenden, da die öffentliche ID für jeden Sicherheitsschlüssel eindeutig ist.
 
 #### FIDO (Fast IDentity Online)
 
@@ -149,7 +149,7 @@ Qubes OS has support for Challenge-Response authentication with YubiKeys. If you
 
 ### SSH
 
-#### Hardware Security Keys
+#### Hardware-Sicherheitsschlüssel
 
 SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
 

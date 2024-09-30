@@ -71,7 +71,7 @@ This may be impractical, so consider whether it's worth it, but in either case e
 
 Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
 
-### Hardware Security Keys
+### Hardware-Sicherheitsschlüssel
 
 Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
 
