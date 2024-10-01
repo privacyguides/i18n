@@ -1,5 +1,5 @@
 ---
-title: "多重身分驗證"
+title: "多重要素驗證"
 icon: 'material/two-factor-authentication'
 description: 這些工具可協助透過多重身份驗證保護網路帳戶，而無需將您的祕密傳送給第三方。
 cover: multi-factor-authentication.webp

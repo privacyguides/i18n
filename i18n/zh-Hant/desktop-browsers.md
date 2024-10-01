@@ -204,7 +204,7 @@ Firefox 128 發佈以後，新的[保護隱私的成效測量](https://support.m
 
 這可以防止您無意間以明文 HTTP 連線到網站。 如今，不支援 HTTPS 的網站並不多見，因此這對您日常瀏覽的影響應該很小或沒有影響。
 
-##### DNS over HTTPS
+##### 基於 HTTPS 的 DNS 服務 (DNS over HTTPS)
 
 如果您使用 [DNS over HTTPS 提供者](dns.md):
 
