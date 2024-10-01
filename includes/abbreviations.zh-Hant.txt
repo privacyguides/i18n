@@ -1,8 +1,8 @@
 *[2FA]: 雙重要素驗證
 *[ADB]: Android 偵錯橋接器
-*[AOSP]: Android 開放原始碼計畫 (AOSP)
+*[AOSP]: Android 開放原始碼計畫
 *[ATA]: 高技術配置
-*[attack surface]: 攻擊面，表示整個未經授權卻可存取訪問系統的潛在數量
+*[攻擊面]: 系統中可能被未授權者存取的入口數量
 *[AVB]: Android 驗證啟動
 *[cgroups]: 對照組
 *[CLI]: 命令列介面
@@ -19,12 +19,12 @@
 *[E2EE]: 端對端加密
 *[ECS]: EDNS 客戶端子網
 *[EEA]: 歐洲經濟區
-*[entropy]: 衡量某件事有多不可預測
+*[entropy]: 衡量某件事物的不可預測程度
 *[EOL]: 產品壽命結束
 *[Exif]: 可交換影像檔案格式
-*[FCM]: Firebase 雲消息
+*[FCM]: Firebase 雲端通訊
 *[FDE]: 完整磁碟加密
-*[FIDO]: 快速線上身份驗證 (FIDO)
+*[FIDO]: 快速線上身份驗證
 *[FS]: 前向保密
 *[fork]: 從現有軟體專案複製再另外分隔出來的新獨立專案。
 *[GDPR]: 一般資料保護法規
