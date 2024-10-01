@@ -27,12 +27,12 @@
 *[FIDO]: 快速線上身份驗證
 *[FS]: 前向保密
 *[fork]: 從現有軟體專案複製再另外分隔出來的新獨立專案。
-*[GDPR]: 一般資料保護法規
-*[GPG]: GNU Privacy Guard (PGP 實行)
+*[GDPR]: 一般資料保護規定 (歐盟)
+*[GPG]: GNU Privacy Guard (基於 PGP 協定)
 *[GPS]: 全球定位系統
 *[GUI]: 圖形使用者介面
-*[GnuPG]: GNU Privacy Guard (PGP 實行)
-*[HDD]: 硬碟
+*[GnuPG]: GNU Privacy Guard (基於 PGP 協定)
+*[HDD]: 傳統硬碟 (又稱機械硬碟)
 *[HOTP]: 雜湊式訊息驗證碼(HMAC)基礎的單次密碼
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: 超文本傳輸協議
