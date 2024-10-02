@@ -9,7 +9,7 @@ cover: browser-extensions.webp
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-一般來說，建議將瀏覽器擴充套件維持在最低限度，以減少攻擊面。 它們在瀏覽器中擁有特權存取權限，要求用戶信任開發人員，也會[突顯出讓瀏覽器](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)，[削弱](https:/ /groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ）站點隔離。
+一般來說，建議將瀏覽器擴充套件維持在最低限度，以減少攻擊面。 它們在您的瀏覽器中擁有特殊存取權限，需要您信任開發人員，而且可以讓您 [脫穎而出](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)，並 [削弱](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) 站點隔離。
 
 然而，有些提供的功能在某些情況下可以克服這些缺點，特別是在[內容攔截](basics/common-threats.md#mass-surveillance-programs)方面。
 
@@ -95,10 +95,10 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 
 **適用於 iOS的 AdGuard** 使用原生[Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker) 的Safari 免費開源內容封鎖擴展。
 
-[:octicons-home-16: Homepage](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -116,4 +116,4 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 - 不得複製內建瀏覽器或作業系統功能。
 - 必須直接影響用戶隱私，即不得簡單地提供資訊。
 
-[^1]: uBlock Origin Lite **本身**不會消耗任何資源，因為它使用更新的API，瀏覽器能夠本地處理過濾器列表，而不是在擴充功能中執行JavaScript 程式碼來處理過濾。 然而，這種資源優勢僅止於 [理論](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo)，因為標準uBlock Origin 的過濾程式碼可能比瀏覽器的本機過濾程式碼更有效。 尚未進行基準測試。
+[^1]: uBlock Origin Lite **本身**不會消耗任何資源，因為它使用更新的API，瀏覽器能夠本地處理過濾器列表，而不是在擴充功能中執行JavaScript 程式碼來處理過濾。 然而，這種資源優勢僅止於 [理論](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo)，因為標準uBlock Origin 的過濾程式碼可能比瀏覽器的本機過濾程式碼更有效。 目前尚未對此進行基準測試。
