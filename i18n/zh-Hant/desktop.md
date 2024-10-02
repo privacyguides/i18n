@@ -71,9 +71,9 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 [Arch Linux ](https://reproducible.archlinux.org) 大部份軟體包是 [可復制的](https://reproducible-builds.org)。
 
-## 原子更新式發行版
+## 原子化發行版
 
-**原子發行版**（有時也稱為**不可變發行版**）是透過分層處理軟體包安裝和更新的作業系統更改核心系統映像，而不是直接修改系統。 原子發行版的優點包括增加穩定性，並能輕易回滾更新。 請見 [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) 更深入了解。
+**原子化發行版** （有時也稱為 **不可變發行版** ）是透過在核心系統映像上分層變更，而非直接修改系統來處理套件安裝與更新的作業系統。 原子化發行版的優點包括增加穩定性，並能輕易回滾更新。 詳細請見 [*傳統 vs. 原子化 更新*](os/linux-overview.md#traditional-vs-atomic-updates) 以更深入了解。
 
 ### Fedora Atomic Desktops
 
@@ -91,15 +91,15 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 </div>
 
-[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) come in a variety of flavors depending on the desktop environment you prefer. As with the recommendation to avoid X11 in our [criteria](#criteria) for Linux distributions, we recommend avoiding flavors that support only the legacy X11 window system.
+[Fedora Atomic Desktops](https://fedoramagazine.org/introducing-fedora-atomic-desktops) 有多種風格，視您偏好的桌面環境而定。 就像我們在 Linux 發行版本的 [標準](#criteria) 中建議避免 X11 一樣，我們建議避免只支援傳統 X11 視窗系統的版本。
 
 這些作業系統與 Fedora Workstation 不同，它們用更高級方式替換了[DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf) 套件 管理器，其叫作[`rpm-ostree`](https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/package-management/rpm-ostree)。 `rpm-ostree` 套件管理器的工作原理是下載系統的基本映像，然後將套件覆蓋在類似 [git](https://en.wikipedia.org/wiki/Git)的提交樹中。 當系統更新時，會下載新的基本影像，並將疊加層應用於該新影像。
 
-After the update is complete, you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily roll back if something breaks in the new deployment. 還可以根據需要固定更多部署。
+更新完成後，您將重新啟動系統進入新的布署。 `rpm-ostree` 會保留系統的兩個布署，以便在新布署出現問題時，可以輕鬆地回退。 此外，還可根據需要釘選更多布署。
 
 [Flatpak](https://flatpak.org) 是這些發行版本的主要套件安裝方式，而 `rpm-ostree` 只用在基礎映像上疊加那些無法留在容器的套件。
 
-As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) to create [Podman](https://podman.io) containers which mimic a traditional Fedora environment, a [useful feature](https://containertoolbx.org) for the discerning developer. These containers share a home directory with the host operating system.
+作為 Flatpaks 的替代方案，您可以選擇 [Toolbx](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) 來建立 [Podman](https://podman.io) 容器，模仿傳統的 Fedora 環境，對於眼光獨到的開發人員而言，這是 [非常有用的功能](https://containertoolbx.org) 。 這些容器與主機作業系統共用一個主目錄。
 
 ### NixOS
 
@@ -109,23 +109,23 @@ As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedo
 
 NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和可靠性。
 
-[:octicons-home-16: Homepage](https://nixos.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=Documentation}
-[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://nixos.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://nixos.org/learn.html){ .card-link title=說明文件}
+[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title=捐款 }
 
 </details>
 
 </div>
 
-NixOS’ 套件管理器 將各個套件版本儲存在**Nix store** 底下不同的資料夾。 因此，您可以在系統上安裝相同套件的不同版本。 套件內容寫入資料夾後，該資料夾會變成唯讀。
+NixOS’ 套件管理器 將各個套件版本儲存在 **Nix store** 底下不同的資料夾。 因此，您可以在系統上安裝相同套件的不同版本。 套件內容寫入資料夾後，該資料夾會變成唯讀。
 
-NixOS also provides atomic updates. It first downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot or you can switch to it at runtime. 也可以在運行時間切換到新代系統來 *測試*，但不將它設成當前系統。 如果更新過程中出現打斷，可以重新啟動並自動返回到系統的工作版本。
+NixOS 也提供原子化更新。 它會先下載（或建立）新世代系統的套件和檔案，然後再切換到新系統。 切換到新世代有不同的方式：您可以告訴 NixOS 在重新開機後啟動新世代，或是在運行時就切換到新世代。 也可以在運行時就切換到新世代系統來 *測試* ，但不將它設成當前系統。 如果更新過程中遭到打斷，可以重新啟動並自動返回到系統的工作版本。
 
-The Nix package manager uses a purely functional language—which is also called Nix—to define packages.
+Nix 套件管理員使用純函數式程式設計語言（稱為 Nix ）來定義套件。
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) （套件的主要來源）包含在單一的 GitHub 儲存庫中。 您也可以用相同的語言定義自己的套件，然後輕鬆地將它們包含在您的配置中。
 
-Nix是一個基於源的套件管理器；如果二進位快取中沒有預先構建的可用性， Nix 只會使用其定義從源構建套件。 It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible, which can be useful as a safeguard against [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
+Nix是一個基於源的套件管理器；如果二進位快取中沒有預先構建的可用性， Nix 只會使用其定義從源構建套件。 它在盡可能獨立於主機系統的沙盒 *純淨*環境（pure environment，此處因找不到資料而直翻）中建立每個套件。 使用此方法建立的二進制檔案是可重現的，這可以用來防範 [:material-package-variant-closed-remove: 供應鏈攻擊](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}。
 
 ## 以匿名爲重點的發行版
 
