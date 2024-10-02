@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": 網頁
-    name: 私人桌面瀏覽器建議
+    name: 隱私桌面瀏覽器建議
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -31,7 +31,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://zh.wikipedia.org/wiki/Firefox
+    sameAs: https://zh.wikipedia.org/zh-tw/Mozilla_Firefox
     applicationCategory: Web Browser
     operatingSystem:
       - Windows 作業系統
@@ -61,7 +61,7 @@ schema:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-這些是我們目前推薦的**桌面瀏覽器**和標準/非匿名瀏覽的設定。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋求 Google Chrome 的良好替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
+這些是我們目前推薦的**桌面瀏覽器**和標準/非匿名瀏覽的設定。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋求 Google Chrome 替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
 
 如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。 我們在此頁面提供一些設定建議，但除了 Tor 瀏覽器以外的所有瀏覽器都可能以某種方式被*某人*追蹤。
 
@@ -71,7 +71,7 @@ schema:
 
 ![Mullvad 瀏覽器標誌](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本。 它的目的是提供給 VPN 使用者 Tor 瀏覽器的反指紋瀏覽器技術，這些技術是防止 [:material-eye-outline: 大規模監視](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }。 它由 Tor 計劃開發，並由 [Mullvad](vpn.md#mullvad)發布，而且 **不需要** 使用 Mullvad 的 VPN。
+**Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本。 它的目的是提供為 VPN 使用者提供 Tor 瀏覽器的反指紋瀏覽器技術，這些技術是對抗 [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } 的重要保護措施。 它由 Tor 計劃開發，並由 [Mullvad](vpn.md#mullvad)發布，而且 **不需要** 使用 Mullvad 的 VPN。
 
 [:octicons-home-16: 首頁](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
