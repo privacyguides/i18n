@@ -604,7 +604,7 @@ If you are looking for **anonymity**, you should use the Tor Browser.
 
 ## 作業系統
 
-### 行動
+### 行動平台
 
 #### Custom Android Operating Systems
 

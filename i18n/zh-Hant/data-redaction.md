@@ -1,5 +1,5 @@
 ---
-meta_title: "使用中繼資料洗滌器和數據編輯工具移除個人識別資料 - Privacy Guides"
+meta_title: "使用中繼資料清除器和數據編輯工具移除個人識別資料 - Privacy Guides"
 title: "資料和中繼資料處理"
 icon: material/tag-remove
 description: 使用這些工具來移除所分享的相片和文件中的GPS定位和其他識別資訊等中繼資料。
@@ -20,23 +20,23 @@ cover: data-redaction.webp
 
 Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) ，並且[可從 Flathub 取得](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)。
 
-[:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
-[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+[:octicons-repo-16: 儲存庫](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
+[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=說明文件}
+[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
-- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+- [:octicons-globe-16: 網頁版](https://0xacab.org/jvoisin/mat2#web-interface)
 
 </details>
 
 </div>
 
-## 行動
+## 行動平台
 
 ### ExifEraser (Android)
 
@@ -48,9 +48,9 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 
 它目前支持JPEG ， PNG和WebP 檔案格式。
 
-[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+[:octicons-repo-16: 儲存庫](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -87,8 +87,8 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 
 **Metapho** 是一個簡單清晰的相片中繼資料檢視器，例如日期、檔案名稱、大小、相機型號、快門速度和位置。
 
-[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: 首頁](https://zininworks.com/metapho){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="隱私權政策" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -107,10 +107,10 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 
 **PrivacyBlur** 是一個免費應用程式，在線上分享前先模糊圖片的敏感部分。
 
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://privacyblur.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -125,7 +125,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-您 **永遠不要** 使用模糊來編輯 [圖片中的文字](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果要編輯影像中的文字，請在文字上畫一個框。 為此，我們建議使用 [Pocket Paint](https://github.com/Catrobat/Paintroid) 等應用程式。
+您 **永遠不應** 透過模糊文字的方式來遮蓋 [圖片中的文字](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果要遮蓋圖片中的文字，請在文字上畫一個框。 為此，我們建議使用 [Pocket Paint](https://github.com/Catrobat/Paintroid) 等應用程式。
 
 </div>
 
@@ -141,13 +141,13 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 
 它通常是其他Exif 移除應用程式的組件，並且在大多數 Linux 發行版儲存庫中。
 
-[:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://exiftool.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=說明文字}
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)

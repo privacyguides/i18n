@@ -19,9 +19,9 @@ cover: desktop.webp
 
 **Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora 通常會比其他發行版先採用較新的技術 (例如 [Wayland](https://wayland.freedesktop.org) 和 [PipeWire](https://pipewire.org))。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=說明文件}
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=捐款 }
 
 </details>
 
@@ -37,11 +37,11 @@ Fedora 有一個半滾動的發布週期。 雖然像 [GNOME](https://gnome.org)
 
 **openSUSE Tumbleweed** 是一個穩定滾動發行版。
 
-openSUSE Tumbleweed 使用 [Btrfs](https://en.wikipedia.org/wiki/Btrfs) 和 [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) 以確保一旦發生問題，快照可以回滾。
+openSUSE Tumbleweed 使用 [Btrfs](https://zh.wikipedia.org/wiki/Btrfs) 和 [Snapper](https://zh.opensuse.org/openSUSE:Snapper_Tutorial) 以確保一旦發生問題，快照可以回滾。
 
-[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
-[:octicons-info-16:](https://doc.opensuse.org){ .card-link title=Documentation}
-[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
+[:octicons-info-16:](https://doc.opensuse.org){ .card-link title=說明文件}
+[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title=捐款 }
 
 </details>
 
@@ -53,13 +53,13 @@ Tumbleweed 遵循滾動發佈模式，每個更新都是快照發布。 當您�
 
 <div class="admonition recommendation" markdown>
 
-![Arch 標誌](assets/img/linux-desktop/archlinux.svg){ align=right }
+![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
 
-**Arch Linux** 是一個輕量級、自己動手 (DIY) 的發行版，也就是說，您只會得到您所安裝的東西。 如需更多資訊，請參閱他們的 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)。
+**Arch Linux** 是一個輕量級、自助式 (DIY) 的發行版，也就是說，您只會得到您所安裝的東西。 如需更多資訊，請參閱他們的 [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions)。
 
-[:octicons-home-16: Homepage](https://archlinux.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title=Documentation}
-[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://archlinux.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title=說明文件}
+[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title=捐款 }
 
 </details>
 
@@ -71,7 +71,7 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 [Arch Linux ](https://reproducible.archlinux.org) 大部份軟體包是 [可復制的](https://reproducible-builds.org)。
 
-## 原子發行版
+## 原子更新式發行版
 
 **原子發行版**（有時也稱為**不可變發行版**）是透過分層處理軟體包安裝和更新的作業系統更改核心系統映像，而不是直接修改系統。 原子發行版的優點包括增加穩定性，並能輕易回滾更新。 請見 [*Traditional vs. Atomic Updates*](os/linux-overview.md#traditional-vs-atomic-updates) 更深入了解。
 
