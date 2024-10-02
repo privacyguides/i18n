@@ -55,9 +55,9 @@ cover: data-broker-removals.webp
 
 </div>
 
-一旦您第一次選擇退出所有這些網站，最好等待一到兩個星期，讓他們下轄的所有網站都收到您的請求。 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
+在您第一次向所有資料仲介商送出退出請求後，最好等待一到兩個星期，讓他們下轄的所有網站都收到您的請求。 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 使用像 [Google 的 _與你相關的結果_](#google-results-about-you-free) 這樣的網路爬蟲工具來協助尋找網際網路上殘留的任何資料，可能是個好主意。
 
-否則，隱私權記者 Yael Grauer 已經編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 您可以花一些時間瀏覽每個網站，確定它們是否有您的資訊，然後將其移除：
+除此之外，隱私權記者 Yael Grauer 編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 您可以花一些時間瀏覽每個網站，確定它們是否有您的資訊，然後將其移除：
 
 [:simple-github: Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
@@ -78,12 +78,12 @@ cover: data-broker-removals.webp
 
 EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOptOuts 會執行搜尋，只有在已找到您的個人資料時，才會提交退出請求，以避免在退出請求中，將您的資料傳送至尚未擁有您個人資料的網站。 不過，他們確實支援一些無法公開搜尋的網站，在這些情況下，您的資料會以退出請求的方式傳送給他們，無論如何，以防您在他們的私人資料庫中。
 
-我們的測試顯示，在我們測試過的所有資料移除服務中，EasyOptOuts 提供了最有價值的服務，價格非常實惠，而且效能很高。 我們會在不久的將來在部落格上發表 EasyOptOuts 的詳細評測，並在發表時更新本頁面。 [《消費者報告》的獨立調查結果](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) 也顯示 EasyOptOuts 是效能最佳的資料移除服務之一。
+我們的測試顯示，在我們測試過的所有資料移除服務中，EasyOptOuts 提供了最有價值的服務，價格非常實惠，而且十分有效。 我們會在不久的將來在部落格上發表 EasyOptOuts 的詳細評測，並在發表時更新本頁面。 [《消費者報告》的獨立調查結果](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) 也顯示 EasyOptOuts 是最佳的資料移除服務之一。
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">High priority sites not supported by EasyOptOuts</p>
+<p class="admonition-title">EasyOptOuts 不支援的高優先級網站</p>
 
-EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
+EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此您仍需手動選擇退出：
 
 - Intelius（ [搜尋](https://www.intelius.com/)、 [退出](https://suppression.peopleconnect.us/login) ）
 - PeekYou（ [搜尋](https://www.peekyou.com/)、 [退出](https://www.peekyou.com/about/contact/optout) ）
@@ -94,17 +94,17 @@ EasyOptOuts does not cover the following sites we consider to be "high priority,
 ## Google _與你相關的結果_ <small>免費</small>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Google is a data collector themselves</p>
+<p class="admonition-title">Google 本身就是資料收集者</p>
 
 此方法需要您將您的個人資訊提交給 Google，讓他們定期監控您的搜尋結果。 Google 聲稱不會將提供給此工具的資訊用於其他 Google 產品，以「個人化您的體驗」。
 
-While Google is not a data broker themselves _per se_, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
+雖然 Google _本身_ 並非資料仲介商，因為他們不會出售或與外界分享您的資料，但有些人可能無法接受此要求。 您應該經常重新思考使用此工具對於您是否為利大於弊。
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![Google 標誌](assets/img/data-broker-removals/google.svg){ align=right }
+![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
 
 **與你相關的結果** 是一個免費工具，可協助您發現您的個人聯絡資訊，包括住家地址、電話號碼和電子郵件地址，是否會出現在 Google 搜尋結果中。 如果發現任何個人資訊，您可以要求刪除。
 
