@@ -135,12 +135,12 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
 
-**Whonix** 為基於 [Kicksecure](#kicksecure) 專注在安全的 Debian 分支系統。 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](# qubes-os) 配合使用。
+**Whonix** 為基於 [Kicksecure](#kicksecure) 專注在安全的 Debian 分支系統。 它旨在提供網際網路的隱私、安全和匿名性。 Whonix 最好與 [Qubes OS](#qubes-os) 配合使用。
 
-[:octicons-home-16: Homepage](https://whonix.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title=Documentation}
-[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://whonix.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="洋蔥服務" }
+[:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title=說明文件}
+[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title=捐款 }
 
 </details>
 
@@ -148,9 +148,9 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 Whonix 運行兩個虛擬機器：一個“工作站”和一個 Tor “閘道”。 來自工作站的所有通訊都必須通過 Tor 閘道。 這意味著，即使工作站受到某種惡意軟體的破壞，真實的IP地址仍然隱藏。
 
-它的功能包括Tor 串流隔離、[擊鍵匿名](https://www.whonix.org/wiki/Keyrinkle_Deanonymization#Kloak)、[加密交換](https://github. com /Whonix/swap-file-creator)，以及強化的記憶體分配器。 Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/roddhjav/apparmor.d) and a [sandboxed app launcher](https://whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
+它的功能包括Tor 串流隔離、[擊鍵匿名](https://www.whonix.org/wiki/Keyrinkle_Deanonymization#Kloak)、[加密交換](https://github. com /Whonix/swap-file-creator)，以及強化的記憶體分配器。 Whonix 未來的版本可能會包含 [完整的系統 AppArmor 策略](https://github.com/roddhjav/apparmor.d) 和 [沙盒化應用程式啟動器](https://whonix.org/wiki/Sandbox-app-launcher) ，以完全限制系統上的所有程序。
 
-Whonix 最好[與 Qubes 結合使用](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers)。 我們 [曾建議](os/qubes-overview.md#connecting-to-tor-via-a-vpn) on configuring in conjunction with a VPN 在 Qubes 底下與 ProxyVM 一起設定 Whonix 以便能對 ISP 隱瞞 Tor 的活動狀況。
+Whonix 最好 [與 Qubes 結合使用](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers)。 我們有一份 [建議指南](os/qubes-overview.md#connecting-to-tor-via-a-vpn) ，說明如何結合 Qubes 中的 VPN ProxyVM 來設定 Whonix，以向 ISP 隱藏您正在使用 Tor。
 
 ### Tails
 
@@ -160,9 +160,9 @@ Whonix 最好[與 Qubes 結合使用](https://whonix.org/wiki/Qubes/Why_use_Qube
 
 **Tails** 是一個基於Debian 的自生作業系統，通過 Tor 路由所有通訊，透過 DVD ， USB記憶棒或 SD卡安裝幾乎可在任何電腦上啟動。 它使用 [Tor](tor.md) 來保護隱私和匿名性，同時規避審查制度，並且使用的電腦在關閉電源後不會留下任何痕跡。
 
-[:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=Documentation}
-[:octicons-heart-16:](https://tails.net/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://tails.net){ .md-button .md-button--primary }
+[:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=說明文件}
+[:octicons-heart-16:](https://tails.net/donate){ .card-link title=捐款 }
 
 </details>
 
@@ -171,15 +171,15 @@ Whonix 最好[與 Qubes 結合使用](https://whonix.org/wiki/Qubes/Why_use_Qube
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Tails 關閉後[不會抹除](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) [視訊記憶體](https://en.wikipedia.org/wiki/Dual- ported_video_RAM) 。 使用 Tails 後重新啟動電腦時，電腦可能會短暫顯示之前 Tails 最後一個畫面。 如果是關閉電腦而不是重新啟動，則影像記憶會在斷電一段時間後自動擦除。
+Tails 關閉後 [不會抹除](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) [視訊記憶體](https://en.wikipedia.org/wiki/Dual- ported_video_RAM) 。 使用 Tails 後重新啟動電腦時，電腦可能會短暫顯示之前 Tails 最後一個畫面。 如果是關閉電腦而不是重新啟動，則影像記憶會在斷電一段時間後自動擦除。
 
 </div>
 
-由於失憶功能(意指沒有寫入磁碟)，Tails 非常適合對抗資料探集；然而，它不像 Whonix 那樣是硬化發行版。 它缺乏 Whonix 的許多匿名和安全功能，並且更新頻率較低（每六周一次）。 A Tails system that is compromised by malware may potentially bypass the transparent proxy, allowing for the user to be deanonymized.
+由於失憶功能(意指沒有寫入磁碟)，Tails 非常適合對抗資料探集；然而，它不像 Whonix 那樣是安全加固發行版。 它缺乏 Whonix 的許多匿名和安全功能，並且更新頻率較低（每六周一次）。 被惡意軟體入侵的 Tails 系統可能會繞過透明代理，讓使用者被去匿名化。
 
-Tails Tor 瀏覽器預設包含 [uBlock Origin](browser-extensions.md#ublock-origin) ，這可能會使對手更容易指紋識別 Tails 用戶。 [Whonix](desktop.md#whonix) 虛擬機器可能更為防洩漏may be more leak-proof, however they are not amnesic, ，但它沒有失憶功能，因此資料可以從儲存設備上進行恢復。
+Tails Tor 瀏覽器預設包含 [uBlock Origin](browser-extensions.md#ublock-origin) ，這可能會使對手更容易透過指紋識別 Tails 用戶。 [Whonix](desktop.md#whonix) 虛擬機器可能更能防止洩漏，但它沒有失憶功能，因此資料可以從儲存設備上進行恢復。
 
-設計上， Tails 每次重新啟動後意謂將完全重置。 加密 [永久存儲](https://tails.net/doc/persistent_storage/index.en.html) 可以配置來存儲一些資料。
+設計上， Tails 每次重新啟動意謂著完全重置。 加密的 [持久性儲存空間](https://tails.net/doc/persistent_storage/index.en.html) 可設定用以在重新開機之間儲存某些資料。
 
 ## 以安全爲重點的發行版
 
@@ -191,36 +191,36 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](browser-extensions.md#ublock-ori
 
 **Qubes OS** 是開源作業系統，利用安全的虛擬器為桌面運算提供更強的安全性 (或稱"qubes"). Qubes 基於 Xen, X Window 系統與 Linux。 大多數 Linux 應用它都可以執行且適用 Linux 驅動。
 
-[:octicons-home-16: Homepage](https://qubes-os.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://qubes-os.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="洋蔥服務" }
+[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://qubes-os.org/doc){ .card-link title=說明文件 }
+[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title=捐款 }
 
 </details>
 
 </div>
 
-Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的 *qubes*以保護電腦。 如果系統的一部分被破壞，其餘的 *qubes*與核心系統仍受到保護。
+Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的 *qubes* 以保護電腦。 如果系統的一部分被破壞，其餘的 *qubes* 與核心系統仍受到保護。
 
 有關 Oubes 運作的進一步資訊，請參考我們完整的 [Qubes OS 介紹](os/qubes-overview.md) 頁面。
 
 ### Kicksecure
 
-While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+雖然我們 [建議](os/linux-overview.md#release-cycle) 在大多數情況下不要將 Debian 等「永遠過時」的發行版用於桌上型電腦，但 Kicksecure 是一個以 Debian 為基礎的作業系統，它已添加遠超過一般 Linux 安裝的安全加固。
 
 <div class="admonition recommendation" markdown>
 
 ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ align=right }
 
-**Kicksecure**—其簡化的介紹—可以說是一組腳本、置配與套件的組合，可大幅減少 Debian 的攻擊面。 它預設覆蓋了大量的隱私和加固建議。 它也是 [Whonix](#whonix) 的基礎作業系統。
+**Kicksecure** ──如要簡單的介紹它：可以說是一組腳本、配置與套件的組合；可大幅減少 Debian 的攻擊面。 它預設涵蓋了大量隱私和加固建議。 它也是 [Whonix](#whonix) 的基礎作業系統。
 
-[:octicons-home-16: Homepage](https://kicksecure.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title=Documentation }
-[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://kicksecure.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title=說明文件 }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title=捐款 }
 
 </details>
 
@@ -232,8 +232,8 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 - 免費且開放原始碼。
 - 必須定期接收軟體和內核更新。
-- Avoids X11, as its last major release was [more than a decade](https://x.org/wiki/Releases) ago.
-    - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
+- 避免使用 X11，因為它最新的主要版本發布時間已久達 [十多年](https://x.org/wiki/Releases) 。
+    - 值得注意的例外是 Qubes，虛擬化避免了 X11 通常會遇到的 [隔離問題](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) 。 此隔離僅適用於 *在不同 qubes 中執行*（虛擬機器）的應用程式；在 *相同* qube 中執行的應用程式無法受到保護。
 - 安裝時必須支援全磁碟加密。
 - 不可將定期更新發佈凍結超過1年。
     - 我們 [不建議](os/linux-overview.md#release-cycle) 桌機使用“長期支援”或“穩定”發行版。
