@@ -38,24 +38,24 @@ cover: data-broker-removals.webp
 - Intelius（ [搜尋](https://www.intelius.com/)、 [退出](https://suppression.peopleconnect.us/login) ）
 - PeekYou（ [搜尋](https://www.peekyou.com/)、 [退出](https://www.peekyou.com/about/contact/optout) ）
 - PublicDataUSA（ [搜尋](https://www.publicdatausa.com/)、 [退出](https://www.publicdatausa.com/remove.php) ）
-- Radaris ([Search](https://radaris.com/), [Opt-Out](https://radaris.com/page/how-to-remove))
-- Spokeo ([Search](https://www.spokeo.com/search), [Opt-Out](https://www.spokeo.com/optout))
-- That's Them ([Search](https://thatsthem.com/), [Opt-Out](https://thatsthem.com/optout))
-- USPhonebook ([Search and Opt-Out](https://www.usphonebook.com/opt-out/))
-- Whitepages ([Search](https://www.whitepages.com/), [Opt-Out](https://www.whitepages.com/suppression_requests))
+- Radaris（ [搜尋](https://radaris.com/)、 [退出](https://radaris.com/page/how-to-remove) ）
+- Spokeo（ [搜尋](https://www.spokeo.com/search)、 [退出](https://www.spokeo.com/optout) ）
+- That's Them（ [搜尋](https://thatsthem.com/)、 [退出](https://thatsthem.com/optout) ）
+- USPhonebook（ [搜尋和退出](https://www.usphonebook.com/opt-out/) ）
+- Whitepages（ [搜尋](https://www.whitepages.com/)、 [退出](https://www.whitepages.com/suppression_requests) ）
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">A tip on opt-out strategy</p>
+<p class="admonition-title">對於 退出策略 的 提示</p>
 
-Be sure to avoid burning out or becoming overwhelmed with this process. Unless you're in immediate danger, you can take breaks and avoid doing them all at once.[^1]
+請務必避免在完成全部退出手續時過度操勞。 除非您有立即性的危險，否則您可以休息一下，避免一次做完。[^1]
 
-One strategy could be to look at a single website from the list above every week, starting from the top. Next week you move on to the following website on the list, and so on. When you reach the end of the list, you can start again from the beginning.
+其中一個策略是每週從上面的清單中選擇一個網站（從最上面開始）。 下個星期，繼續瀏覽清單上的下一個網站，如此類推。 當您到達清單的尾端時，您可以從頭再開始。
 
-This sets you up on a nice schedule to re-review each website approximately every 3-4 months, and breaks down the process into simple 5 minute tasks you can easily add to your weekly routine.
+上述策略可使您大約每 3～4 個月重新檢視所有網站一次，並將過程簡化為 5 分鐘的任務，您可以輕鬆地將它加入您的週例行工作中。
 
 </div>
 
-Once you have opted-out of all of these sites for the first time, it's best to wait a week or two for the requests to propagate to all their sites. 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
+一旦您第一次選擇退出所有這些網站，最好等待一到兩個星期，讓他們下轄的所有網站都收到您的請求。 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
 否則，隱私權記者 Yael Grauer 已經編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 您可以花一些時間瀏覽每個網站，確定它們是否有您的資訊，然後將其移除：
 
