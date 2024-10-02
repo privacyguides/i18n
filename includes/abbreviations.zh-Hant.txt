@@ -47,7 +47,7 @@
 *[ISP]: 網際網路服務提供商
 *[ISPs]: 網際網路服務提供商
 *[JNI]: Java 原生介面
-*[KYC]: 了解您的客戶
+*[KYC]: 客戶身分審查
 *[LUKS]: Linux 統一金鑰設定 (全磁碟加密)
 *[MAC]: 媒體存取控制
 *[MDAG]: Microsoft Defender 應用程式防護
