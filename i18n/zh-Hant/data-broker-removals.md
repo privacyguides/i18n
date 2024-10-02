@@ -36,8 +36,8 @@ cover: data-broker-removals.webp
 - Glad I Know（ [搜尋](https://gladiknow.com/)、 [退出](https://gladiknow.com/opt-out) ）
 - InfoTracer（ [搜尋](https://www.infotracer.com/)、 [退出](https://www.infotracer.com/optout) ）
 - Intelius（ [搜尋](https://www.intelius.com/)、 [退出](https://suppression.peopleconnect.us/login) ）
-- PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
+- PeekYou（ [搜尋](https://www.peekyou.com/)、 [退出](https://www.peekyou.com/about/contact/optout) ）
+- PublicDataUSA（ [搜尋](https://www.publicdatausa.com/)、 [退出](https://www.publicdatausa.com/remove.php) ）
 - Radaris ([Search](https://radaris.com/), [Opt-Out](https://radaris.com/page/how-to-remove))
 - Spokeo ([Search](https://www.spokeo.com/search), [Opt-Out](https://www.spokeo.com/optout))
 - That's Them ([Search](https://thatsthem.com/), [Opt-Out](https://thatsthem.com/optout))
@@ -86,8 +86,8 @@ EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOpt
 EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
 
 - Intelius（ [搜尋](https://www.intelius.com/)、 [退出](https://suppression.peopleconnect.us/login) ）
-- PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
+- PeekYou（ [搜尋](https://www.peekyou.com/)、 [退出](https://www.peekyou.com/about/contact/optout) ）
+- PublicDataUSA（ [搜尋](https://www.publicdatausa.com/)、 [退出](https://www.publicdatausa.com/remove.php) ）
 
 </div>
 
