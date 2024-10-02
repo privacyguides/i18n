@@ -7,7 +7,7 @@ cover: data-broker-removals.webp
 
 <small>防護下列威脅：</small>
 
-- [:material-account-search: 公開揭露](basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: 公共暴露](basics/common-threats.md#limiting-public-information){ .pg-green }
 
 由資料仲介經營的 「人肉搜索網站 」對大多數美國人而言，代表著巨大的隱私風險。 對許多人而言，只要在網路上簡單搜尋一下，就能取得您的地址、電話號碼、電子郵件和年齡等敏感個人資訊。 很遺憾的沒有聯邦法規可以保護您的資料，但許多這些公司會應要求將您的資料從其_公開_的資料庫中移除。
 
@@ -22,20 +22,20 @@ cover: data-broker-removals.webp
 
 </div>
 
-## 手動選擇退出 <small>免費</small>
+## 手動退出 <small>免費</small>
 
-要將自己從人肉搜尋網站移除，最快速、最有效、最隱私的方法是手動向每個網站提交退出請求。 這_看似_是一項艱鉅的任務，因為人肉搜尋網站多達數百個，但事實上這些網站絕大多數都是由一小撮公司所營運。
+要將自己從人肉搜尋網站移除，最快速、最有效、最隱私的方法是手動向每個網站提交退出請求。 這 _看似_ 是一項艱鉅的任務，因為人肉搜尋網站多達數百個，但事實上這些網站絕大多數都是由一小撮公司所營運。
 
-You should search for your information on these sites first, and submit an opt-out request if your information is found. 從這些仲介移除您的資料，通常會同時從許多小型網站移除您的資料。
+您應該先在這些網站上搜尋您的資訊，如果找到您的資訊，請提交退出請求。 從這些仲介移除您的資料，通常會同時從許多小型網站移除您的資料。
 
-- Advanced Background Checks ([Search](https://www.advancedbackgroundchecks.com/), [Opt-Out](https://www.advancedbackgroundchecks.com/removal))
-- BeenVerified ([Search](https://www.beenverified.com/app/optout/search), [Opt-Out](https://www.beenverified.com/app/optout/address-search))
-- CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select _Remove Record_ to opt-out)
-- ClustrMaps ([Search](https://clustrmaps.com/), [Opt-Out](https://clustrmaps.com/bl/opt-out))
-- Dataveria ([Search](https://dataveria.com/), [Opt-Out](https://dataveria.com/ng/control/privacy))
-- Glad I Know ([Search](https://gladiknow.com/), [Opt-Out](https://gladiknow.com/opt-out))
-- InfoTracer ([Search](https://www.infotracer.com/), [Opt-Out](https://www.infotracer.com/optout))
-- Intelius ([Search](https://www.intelius.com/), [Opt-Out](https://suppression.peopleconnect.us/login))
+- Advanced Background Checks（ [搜尋](https://www.advancedbackgroundchecks.com/)、 [退出](https://www.advancedbackgroundchecks.com/removal) ）
+- BeenVerified（ [搜尋](https://www.beenverified.com/app/optout/search)、 [退出](https://www.beenverified.com/app/optout/address-search) ）
+- CheckPeople（ [搜尋](https://checkpeople.com/do-not-sell-info) ，發現資料後選擇 _Remove Record_ 即可）
+- ClustrMaps（ [搜尋](https://clustrmaps.com/)、 [退出](https://clustrmaps.com/bl/opt-out) ）
+- Dataveria（ [搜尋](https://dataveria.com/)、 [退出](https://dataveria.com/ng/control/privacy) ）
+- Glad I Know（ [搜尋](https://gladiknow.com/)、 [退出](https://gladiknow.com/opt-out) ）
+- InfoTracer（ [搜尋](https://www.infotracer.com/)、 [退出](https://www.infotracer.com/optout) ）
+- Intelius（ [搜尋](https://www.intelius.com/)、 [退出](https://suppression.peopleconnect.us/login) ）
 - PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
 - PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
 - Radaris ([Search](https://radaris.com/), [Opt-Out](https://radaris.com/page/how-to-remove))
@@ -85,7 +85,7 @@ EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOpt
 
 EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
 
-- Intelius ([Search](https://www.intelius.com/), [Opt-Out](https://suppression.peopleconnect.us/login))
+- Intelius（ [搜尋](https://www.intelius.com/)、 [退出](https://suppression.peopleconnect.us/login) ）
 - PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
 - PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
 
