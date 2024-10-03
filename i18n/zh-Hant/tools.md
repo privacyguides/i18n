@@ -1,15 +1,15 @@
 ---
-meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
+meta_title: "無廣告的 隱私工具/服務推薦 ── Privacy Guides"
 title: "隱私工具"
 icon: material/tools
 hide:
   - toc
-description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
+description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及硬體的完整清單。
 ---
 
 如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬件和軟件工具。 我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。 它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
 
-[VPN Providers](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
+[VPN 供應商](vpn.md ""){.md-button} [密碼管理器](passwords.md ""){.md-button} [電子郵件供應商](email.md ""){.md-button} [瀏覽器擴充套件](browser-extensions.md ""){.md-button} [DNS 伺服器](dns.md ""){.md-button} [電子郵件別名服務](email-aliasing.md ""){.md-button} [照片管理工具](photo-management.md ""){.md-button}
 
 如果您需要協助，為您的需求找出最佳的隱私工具和替代方案，請在我們的 [論壇](https://discuss.privacyguides.net) 或 [matrix](https://matrix.to/#/#privacyguides:matrix.org) 社區開始討論！
 
@@ -19,54 +19,54 @@ description: A complete list of the privacy tools, services, software, and hardw
 
 <div markdown>
 - [x] **Ad-Free Recommendations**
-- [x] **Frequent Updates**
-- [x] **Trusted by Readers**
+- [x] **頻繁更新**
+- [x] **讀者信賴**
 </div>
 
 <div markdown>
-- [x] **Complete Editorial Independence**
-- [x] **Open-Source Contributions**
-- [x] **Trusted by Journalists**
+- [x] **完全獨立編輯**
+- [x] **公開的投稿來源**
+- [x] **記者信任**
 </div>
 
 </div>
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Threat Model Labels</p>
+<p class="admonition-title">威脅模型標籤</p>
 
-You may find any of the following icons on some of the recommendation pages: <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
+您可以在某些推薦頁面上找到以下任何圖示： <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
 
-We are testing a new feature that allows readers to better identify and understand the kinds of threats that privacy tools best defend against. Let us know what you think about this feature by replying to this dedicated forum [thread](https://discuss.privacyguides.net/t/implement-threat-model-labels/18659)!
+我們正在測試一項新功能，讓讀者能更好地辨識和瞭解隱私工具最能防禦的威脅種類。 請在論壇上回覆有關此功能的專屬 [主題](https://discuss.privacyguides.net/t/implement-threat-model-labels/18659) ，讓我們知道您對此功能的看法！
 
 </div>
 
-## Private Web Browsers
+## 尊重隱私的瀏覽器
 
 <div class="admonition recommendation" markdown>
 
 ![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
 
-**Tor Browser** (Desktop & Android) is the top choice if you need anonymity, as it provides you with access to the **Tor** network, a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. 個人和組織還可以通過 Tor 網絡與“.onion 隱藏服務”分享資訊，而不會損害他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
+如果您需要匿名， **Tor 瀏覽器** （電腦版、 Android 版) 是您的首選，因為它可讓您存取 **Tor** 網路，這是一群由志工操作的伺服器，可讓您免費連線，並改善您在網際網路上的隱私與安全性。 個人和組織還可以通過 Tor 網路 與「.onion 洋蔥服務」分享資訊，而不會損害他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
 
-[Read Our Full Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
+[閱讀我們的完整描述 :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Mullvad Browser**
+- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Mullvad 瀏覽器**
 
     ---
 
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users.
+    **Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本，目的是提供 Tor Browser 的反指紋瀏覽器技術給 VPN 使用者。
 
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
+    - [閱讀我們的完整描述 :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
 
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
 
     ---
 
-    **Firefox** is a great Chromium alternative which provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+    **Firefox** 是一個很棒的Chromium替代方案，它提供強大的隱私權設定，例如： [加強型追蹤保護](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，可以幫助阻擋各種[類型的追蹤](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
 
     - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
 

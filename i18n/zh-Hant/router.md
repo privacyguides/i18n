@@ -1,7 +1,7 @@
 ---
 title: "路由器軔體"
 icon: material/router-wireless
-description: Alternative operating systems for securing your router or Wi-Fi access point.
+description: 能保護路由器或 Wi-Fi 存取點安全的替代作業系統。
 cover: router.webp
 ---
 
@@ -16,16 +16,16 @@ cover: router.webp
 
 **OpenWrt** 是一個基於 Linux 的操作系統；它主要用於嵌入式設備以路由網路流量。 它包括util-linux ， uClibc和BusyBox。 所有組件都已為家庭路由器進行了優化。
 
-[:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/openwrt/openwrt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://openwrt.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://openwrt.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/openwrt/openwrt){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://openwrt.org/donate){ .card-link title=捐款 }
 
 </details>
 
 </div>
 
-您可以參考 OpenWrt 的 [硬體表格](https://openwrt.org/toh/start) 檢查您的設備是否支援。
+您可以參考 OpenWrt 的 [硬體表格](https://openwrt.org/toh/start) 來檢查您的設備是否受到支援。
 
 ## OPNsense
 
@@ -35,10 +35,10 @@ cover: router.webp
 
 **OPNsense** 是開源的、基於FreeBSD 的防火牆和路由平臺，它包含許多進階功能，如流量整形、負載平衡和 VPN 功能，且有插件的形式提供更多功能。 OPNsense 通常部署作邊界防火牆、路由器、無線存取點、DHCP伺服器、DNS伺服器和 VPN 端點。
 
-[:octicons-home-16: Homepage](https://opnsense.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/opnsense){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://opnsense.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.opnsense.org/index.html){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/opnsense){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://opnsense.org/donate){ .card-link title=捐款 }
 
 </details>
 
